@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fda0720c-e64d-4244-80f8-cb76afb22858",
+    "response_id": "chatcmpl-EUX8c2nADGcaUN5Kr20SCMOW2Wy2s",
+    "usage": {
+      "completion_tokens": 1552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1758,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3310
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> first stanza lines 5–7 (source: \"A great black blanket... / With many a mystery light somewhere up there? / Or can you see the distances so great\")",
+        "severity": "major",
+        "source_quote": "A great black blanket stretched o’er all the sky\nWith many a mystery light somewhere up there?\nOr can you see the distances so great",
+        "suggested_fix": "Translate \"many a mystery light\" as a plural (e.g. \"soveel geheimsinnige ligte daarbo\") and render \"distances\" with the correct Afrikaans word \"afstande\" (not \"afspronge\"). For example: \"’n Groot swart kombers gesprei oor die heelal / Met hier en daar soveel geheimsinnige ligte bo / Of sien jy die afstande so onmeetlik wyd\"",
+        "translation_quote": "’n Groot swart kombers gesprei oor die hemelboog\nMet hier en daar ’n geheimsinnige lig ?\nOf sien jy die afspronge so onmeetlik wyd"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza about the moon (source: \"The crescent moon is closer yet to you, / And yet it took man three whole days to reach / That tiny sphere so very close at hand.\")",
+        "severity": "major",
+        "source_quote": "The crescent moon is closer yet to you,\nAnd yet it took man three whole days to reach\nThat tiny sphere so very close at hand.",
+        "suggested_fix": "\"That tiny sphere\" must be rendered as a word meaning a small spherical body (e.g. \"daardie klein sfeer\" or \"daardie klein bolletjie\"), not \"koos\" which is unrelated. Also keep \"three whole days\" literal (\"drie volle dae\"). Suggested: \"Die maansikkel is nog nader aan jou, / En tog het dit drie volle dae vir die mens gekos / Om daardie klein sfeer wat so naby lyk te bereik.\"",
+        "translation_quote": "Die maansikkel is nog nader aan jou,\nEn tog het dit drie volle dae gekos vir die mens\nOm daardie klein koos te bereik wat so naby lyk."
+      },
+      {
+        "location": "<div class=\"poem\"> stanza beginning \"In the still silence...\" (source: \"In the still silence of the spacious sky,\")",
+        "severity": "minor",
+        "source_quote": "In the still silence of the spacious sky,",
+        "suggested_fix": "The translation repeats the idea by using both \"stille\" and \"stilte\" (\"In die stille stilte\"), which is redundant in Afrikaans. Use one of them for idiomatic flow, e.g. \"In die stilheid van die ruim hemel\" or \"In die stille uitspansel.\"",
+        "translation_quote": "In die stille stilte van die ruim hemel"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza about \"vast expanse... beyond the knowledge\" (source: \"Is but a streak of all the vast expanse / Beyond the knowledge of this human race.\")",
+        "severity": "major",
+        "source_quote": "Is but a streak of all the vast expanse\nBeyond the knowledge of this human race.",
+        "suggested_fix": "The translation uses the preposition \"voorby die kennis\", which is non‑idiomatic and can alter the sense. Use \"buite die kennis van ons menslike ras\" or \"voor die kennis van ons menslike ras\" to mirror \"beyond the knowledge.\" Also consider translating \"streak\" as \"streek\" or better \"strepe\" depending on intended meaning; \"streep\" is acceptable but keep it singular/plural consistent. Suggested: \"Is net 'n streek/ streep van al die uitgestrektheid / Buite die kennis van ons menslike ras.\"",
+        "translation_quote": "Is net ’n streep van al die uitgestrektheid\nVoorby die kennis van ons menslike ras."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

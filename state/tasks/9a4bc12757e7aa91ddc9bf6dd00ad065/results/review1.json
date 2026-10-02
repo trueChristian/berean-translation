@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a9678ce5-491c-432b-b23a-2943eb5fa85f",
+    "response_id": "chatcmpl-EUX80isJpngCGdNDZ4KIxISfXqh0x",
+    "usage": {
+      "completion_tokens": 1014,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6709,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7723
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (translation) — sentence: \"Il y avait peu d’épiceries générales et, autant que possible, ils vivaient aussi autonome que possible.\"",
+        "severity": "minor",
+        "source_quote": "There were few general stores and as much as possible they lived as self-sufficiently as they could.",
+        "suggested_fix": "Correct grammar/number agreement and improve idiomatic phrasing while preserving meaning. For example: \"Il y avait peu d'épiceries générales et, autant que possible, ils vivaient aussi de façon autonome.\" or \"...ils vivaient aussi autonomement que possible.\"",
+        "translation_quote": "Il y avait peu d’épiceries générales et, autant que possible, ils vivaient aussi autonome que possible."
+      },
+      {
+        "location": "Paragraph beginning with \"Je crains que beaucoup aujourd’hui...\" — sentence: \"...au pire cela empêche l’observation de nombreux passages bibliques qui commandent le « les-uns-les-autres ».\"",
+        "severity": "minor",
+        "source_quote": "At the very least it can create a sense of isolation, and at the worst it hinders many of the “one-anothering” Bible passages from being followed.",
+        "suggested_fix": "The phrase \"les-uns-les-autres\" is awkward in French. Render the concept more naturally while preserving the English author's intent (the New Testament 'one another' commands). Suggested rephrasing: \"...au pire cela empêche l'observation de nombreux passages bibliques qui commandent de 'se porter les uns les autres'\" or \"...qui ordonnent les relations mutuelles ('les uns envers les autres').\"",
+        "translation_quote": "au pire cela empêche l’observation de nombreux passages bibliques qui commandent le « les-uns-les-autres »."
+      },
+      {
+        "location": "Paragraph: \"Le contraire de l’isolement\" — sentence: \"Ce mot est <strong><em>la communion</em></strong>.\"",
+        "severity": "minor",
+        "source_quote": "There is another word which has a Christian connotation that is even better. That word is fellowship.",
+        "suggested_fix": "\"Fellowship\" is translated as \"la communion\", which in French can strongly connote the Eucharist. To preserve the author's theological intent (koinonia as Christian mutual fellowship), consider a wording that avoids sacramental ambiguity, for example: \"Ce mot est <strong><em>la communion fraternelle</em></strong>\" or \"Ce mot est <strong><em>la koinonia (la communion fraternelle)</em></strong>.\"",
+        "translation_quote": "Ce mot est <strong><em>la communion</em></strong>."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

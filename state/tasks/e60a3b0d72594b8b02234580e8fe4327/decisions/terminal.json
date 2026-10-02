@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>...<em>Not forsaking the assembling of ourselves together... –Hebrews 10:25.</em></p> (source) vs <p>...<em>Não deixando a nossa congregação, como é costume de alguns, antes admoestando-nos uns aos outros; e tanto mais quanto vedes que se vai aproximando aquele dia –Hebreus 10:25.</em></p> (translation)",
+      "severity": "minor",
+      "source_quote": "Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching –Hebrews 10:25.",
+      "suggested_fix": "Render the phrase that refers to gathering/assembling more clearly as an active verb phrase in Portuguese to match the English focus on assembling together. For example, replace “Não deixando a nossa congregação, como é costume de alguns” with “Não deixando de reunir-nos, como é costume de alguns” or “Não abandonando a nossa reunião, como é costume de alguns”. Preserve the rest of the verse translation and the citation exactly as currently placed.",
+      "translation_quote": "Não deixando a nossa congregação, como é costume de alguns, antes admoestando-nos uns aos outros; e tanto mais quanto vedes que se vai aproximando aquele dia –Hebreus 10:25."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

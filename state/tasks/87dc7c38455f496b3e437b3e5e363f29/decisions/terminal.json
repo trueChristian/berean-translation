@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Endnotes (source.html and translation.html)",
+      "severity": "minor",
+      "source_quote": "<ol>\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\n  </ol>",
+      "suggested_fix": "Translate the endnote titles/labels into Portuguese while preserving the same URLs and formatting. Example fixes (preserve the <em> tags and list structure):\n1) <em>Marionstar.com/história/opinião/2015/05/09/o-papel-das-mães-mudou-ao-longo-dos-anos/270511951</em>  (or simply translate the descriptive title: <em>Artigo de opinião do Marionstar: 'O papel das mães mudou ao longo dos anos'</em> followed by the URL if desired)\n2) <em>Bookroo.com: 22 das melhores citações de livros de Elisabeth Elliot</em>\nDo not remove or change the underlying URL; only translate the visible descriptive text of the reference if present.",
+      "translation_quote": "<ol>\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\n  </ol>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

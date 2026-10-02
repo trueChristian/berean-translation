@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 5500
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1803,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5213,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7016
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<div class=\"lyrics\"> (entire hymn)",
+      "severity": "major",
+      "source_quote": "Savior, like a Shepherd lead us, Much we need Thy tender care. In Thy pleasant pastures feed us, For our use Thy folds prepare: Blessed Jesus! blessed Jesus! Thou hast bought us, Thine we are.",
+      "suggested_fix": "Re-translate the hymn stanzas into contemporary Modern Greek preserving the original meaning, meter and repeated refrains. Avoid archaic/koine forms (ημάς, Σου with capitalization, forms like βοσκέςΐς) and broken morphology. Example correction for first stanza (as a faithful, contemporary rendering to guide the translator): «Σωτήρας, σαν Ποιμένας οδήγησέ μας, / Πολύ χρειαζόμαστε τη στοργική σου φροντίδα. / Στις ευχάριστες βοσκές μας βόσκησέ μας, / Και ετοίμασε τα πρόβατά σου για εμάς: / Ευλογημένε Ιησού! Ευλογημένε Ιησού! / Μας αγόρασες· δικοί σου είμαστε. / Ευλογημένε Ιησού! Ευλογημένε Ιησού! / Μας αγόρασες· δικοί σου είμαστε.» Implement the same contemporary-language, grammatically correct approach for all subsequent stanzas and preserve the exact stanza structure and repeated lines in the source.",
+      "translation_quote": "Σωτήρ, σαν Ποιμένας οδήγησέ μας,\n    Πολύ έχουμε ανάγκη τη τρυφερή σου φροντίδα.\n    Στις ευχάριστες βοσκέςΐς βοσκήσον ημάς,\n    Και τους στάβλους σου ετοίμασον για τη χρήση μας:\n    Ευλογημένε Ιησού! ευλογημένε Ιησού!\n    Εσύ μάς αγόρασες, δικοί Σου είμεθα.\n    Ευλογημένε Ιησού! ευλογημένε Ιησού!\n    Εσύ μάς αγόρασες, δικοί Σου είμεθα."
+    },
+    {
+      "location": "Paragraph: “Grandpa smiled down at her…”",
+      "severity": "minor",
+      "source_quote": "Grandpa smiled down at her. “I think I can do that. Is that a song you like?” His eyes twinkled at Ellie. “I’ll be happy to lead that one just for you.”",
+      "suggested_fix": "Replace the awkward rendering «Τα μάτια του γυάλιζαν για την Έλι» with a natural contemporary phrase that preserves the original tone, e.g. «Τα μάτια του έλαμψαν για την Έλι» or «Τα μάτια του γέμισαν λάμψη καθώς κοίταζε την Έλι.»",
+      "translation_quote": "Ο παππούς την κοίταξε με χαμόγελο. «Νομίζω ότι μπορώ να το κάνω. Σου αρέσει αυτό το τραγούδι;» Τα μάτια του γυάλιζαν για την Έλι. «Θα χαρώ να το οδηγήσω, μόνο για σένα.»"
+    },
+    {
+      "location": "Throughout article — register and diction",
+      "severity": "minor",
+      "source_quote": "(overall English narrative uses contemporary child-friendly modern language)",
+      "suggested_fix": "The narrative translation generally preserves meaning but sometimes uses slightly archaic or non-idiomatic word choices (for example «Σωτήρ» as a hymn title form, «ημάς», capitalization of pronouns like «Σου», and formal verb forms). Use contemporary Modern Greek vocabulary and grammar throughout (e.g. «Σωτήρας» for the hymn title in everyday Greek usage, and modern object pronouns such as «εμάς», «σου» without forced capitalization) to match the requested target-language style.",
+      "translation_quote": "(Examples scattered in translation) «Σωτήρ, σαν Ποιμένας Οδήγησέ μας», «ημάς», «Σου» ]"
+    }
+  ],
   "id": "06efe431f9c2e9b400b832873135e2a4",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ell",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

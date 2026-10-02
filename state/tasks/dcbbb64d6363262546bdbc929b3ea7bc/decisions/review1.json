@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — Galatians quotations (final third of article)",
+      "severity": "minor",
+      "source_quote": "For every man shall bear his own burden –Galatians 6:5,  should not give us excuse to not obey God’s command to Bear ye one another's burdens, and so fulfil the law of Christ –Galatians 6:2.",
+      "suggested_fix": "Correct the Urdu book name to a standard form used for Galatians (e.g., \"غلاطیوں\") while keeping the chapter:verse numbers unchanged and preserving the two quoted verses in Urdu. For example change \"غلطیان 6:5\" and \"غلطیان 6:2\" to \"غلاطیوں 6:5\" and \"غلاطیوں 6:2\" (or another conventional Urdu rendering), with the quoted text unchanged.",
+      "translation_quote": "<em>ہر آدمی اپنا بوجھ اٹھائے گا –غلطیان 6:5،</em> ہمیں یہ بہانہ نہیں دینا چاہیے کہ ہم خدا کے حکم کی نافرمانی کریں: <em>تم ایک دوسرے کے بوجھ اٹھاؤ، اور یوں مسیح کا قانون پورا کرو –غلطیان 6:2۔</em> "
+    },
+    {
+      "location": "source.html — Jezebel name in Elijah paragraph",
+      "severity": "minor",
+      "source_quote": "Jezebel had threatened his life and rather than trusting God, he fled to Mt. Horeb where he heard the voice of God.",
+      "suggested_fix": "Use the more common Urdu spelling of Jezebel (e.g., \"یزبلی\" or \"یزابل/یزابیل\" depending on the target dialect/style guide) to avoid reader confusion. Preserve surrounding sentence and punctuation.",
+      "translation_quote": "جزابیل نے انکی جان کی دھمکی دی تھی اور خدا پر بھروسہ کرنے کے بجائے وہ ہرے بھَرے ہورےب پہاڑ کی طرف بھاگ گئے جہاں انہوں نے خدا کی آواز سنی۔"
+    },
+    {
+      "location": "source.html — Greek term “Koinonia” transliteration",
+      "severity": "minor",
+      "source_quote": "The Greek word translated fellowship in the New Testament is “Koinonia”",
+      "suggested_fix": "Prefer a conventional Urdu transliteration for the Greek term (e.g., \"کائنوینیا\" or \"کوئنونیا\") per the publication's style; keep the transliterated term in quotes and leave the explanatory Urdu sentence as-is.",
+      "translation_quote": "نئے عہد نامہ میں جس یونانی لفظ کو فیلوشِپ کے طور پر ترجمہ کیا گیا ہے وہ \"کائینونیا\" ہے اور بائبل میں یہ ایسی روابط کی بات کرتا ہے ..."
+    },
+    {
+      "location": "source.html — Genesis book name rendering",
+      "severity": "minor",
+      "source_quote": "–Genesis 2:18-20.  –Genesis 2:21-22.",
+      "suggested_fix": "\"پیدائش\" is acceptable in many Urdu Bibles, but ensure consistency with site style (some use \"ابتداء\" or \" پیدائش\"). If the publication uses a single standard form, adjust to that; keep chapter and verse numbers unchanged.",
+      "translation_quote": "– پیدائش 2:18-20۔  – پیدائش 2:21-22۔"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

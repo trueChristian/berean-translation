@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,79 @@
         },
         "total_tokens": 1823
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1400,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1612,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3012
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line 2 (\"The things that are bad will all be in hell.\")",
+      "severity": "major",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Translate the clause to explicitly reflect \"in hell\" (inferno/naqueles que estão no inferno), not a vague or different concept. For example: \"As coisas más ficarão todas no inferno.\"",
+      "translation_quote": "As coisas más ficarão todas no além."
+    },
+    {
+      "location": "<p class=\"poem\"> line 4 (\"We are in a battle; we must still overcome.\")",
+      "severity": "major",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "Render the obligation and present-tense struggle without adding extraneous eschatological detail. For example: \"Estamos numa batalha; ainda precisamos vencer.\" Do not add \"na vida vindoura\" or other time qualifiers that change the meaning.",
+      "translation_quote": "Estamos numa batalha; ainda precisamos vencer na vida vindoura."
+    },
+    {
+      "location": "<p class=\"poem\"> line 8 (\"For he knows very well it will cost us our soul.\")",
+      "severity": "major",
+      "source_quote": "For he knows very well it will cost us our soul.",
+      "suggested_fix": "Translate \"our soul\" without adding adjectives not present in the source. For example: \"Pois sabe muito bem que isso nos custará a alma.\" Remove the added adjective \"imortal.\"",
+      "translation_quote": "Pois sabe muito bem que isso nos custará a alma imortal."
+    },
+    {
+      "location": "<p class=\"poem\"> line 6 (\"He spreads all his lies, the truth to distort.\")",
+      "severity": "minor",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "Translate the phrase clearly and idiomatically, keeping the sense of \"distorting the truth.\" For example: \"Espalha todas as suas mentiras, para distorcer a verdade.\" Remove the added and unclear phrase \"por insulto.\"",
+      "translation_quote": "Espalha todas as suas mentiras, a verdade distorce por insulto."
+    },
+    {
+      "location": "<p class=\"poem\"> line 10 (\"He’ll trick and deceive, each soul to pursue.\")",
+      "severity": "major",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Keep the deliberate object (\"cada alma\" or \"cada pessoa\") and the sense of pursuing souls; do not introduce unrelated words. For example: \"Ele enganará e iludirá, perseguindo cada alma.\" Replace the incorrect insertion \"com casta.\"",
+      "translation_quote": "Ele enganará e iludirá, perseguindo cada vida com casta."
+    },
+    {
+      "location": "<p class=\"poem\"> lines 13–14 (\"To find one perfect, His power He’ll show!\")",
+      "severity": "minor",
+      "source_quote": "To find one perfect, His power He’ll show!",
+      "suggested_fix": "Translate without adding idiomatic flourishes that change tone. For example: \"Para encontrar um perfeito, Seu poder então mostrará.\" Remove the added qualifier \"com gosto.\"",
+      "translation_quote": "Para achar um perfeito; Seu poder então mostrará com gosto."
+    },
+    {
+      "location": "<p class=\"poem\"> final line (\"Let’s take hold of God’s power! It’s time to respond!\")",
+      "severity": "minor",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "Translate both exclamations faithfully without adding extra liturgical particles. For example: \"Tomemos o poder de Deus! É tempo de responder!\" Remove the added interjection \"amém!\" unless it appears in the source.",
+      "translation_quote": "Tomemos o poder de Deus! É tempo de responder, amém!"
+    }
+  ],
   "id": "bd1970c2e399a8d82d5559fc6eedd3f2",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "por",
@@ -100,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

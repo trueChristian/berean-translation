@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph about discipleship (third paragraph following the image: \"Something new in this issue is the beginning of a series by Brother Donald Brechbill on “discipleship”.\")",
+      "severity": "major",
+      "source_quote": "Something new in this issue is the beginning of a series by Brother Donald Brechbill on “discipleship”. Disciple has almost the same spelling as discipline. For many, discipline carries a negative connotation, which hopefully will not interfere with the reader being drawn to what Brother Donald has to share.",
+      "suggested_fix": "Translate the English words 'Disciple' and 'discipline' into Spanish (they are substantive words that must be rendered into the target language). Preserve the surrounding sentence structure and HTML tags. Example fix (keep italics/quotes as in source):\n\nAlgo nuevo en este número es el comienzo de una serie del hermano Donald Brechbill sobre la \"discipulado\". \"Discípulo\" tiene casi la misma ortografía que \"disciplina\". Para muchos, \"disciplina\" tiene una connotación negativa, la cual, esperanzadamente, no interferirá con que el lector se sienta atraído por lo que el hermano Donald tiene para compartir.",
+      "translation_quote": "Algo nuevo en este número es el comienzo de una serie del hermano Donald Brechbill sobre la \"discipulado\". Disciple tiene casi la misma ortografía que discipline. Para muchos, discipline tiene una connotación negativa, la cual, esperanzadamente, no interferirá con que el lector se sienta atraído por lo que el hermano Donald tiene para compartir."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

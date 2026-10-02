@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Translation HTML — paragraph describing Ellie’s favorite hymn (first occurrence)",
+      "severity": "critical",
+      "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ and although she couldn’t read yet, she knew it was number eight.",
+      "suggested_fix": "Translate the quoted hymn title into Spanish in this paragraph to match the translated hymn text later. For example: “Su himno favorito era ‘Salvador, como Pastor, guíanos’ y, aunque todavía no sabía leer, sabía que era el número ocho.” Preserve punctuation and the quoted presentation.",
+      "translation_quote": "Su himno favorito era “Saviour, Like a Shepherd Lead Us” y, aunque todavía no sabía leer, sabía que era el número ocho."
+    },
+    {
+      "location": "Translation HTML — paragraph where Ellie asks Grandpa (second occurrence)",
+      "severity": "critical",
+      "source_quote": "“Grandpa,” she asked. “Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday? I would really like to sing it again!”",
+      "suggested_fix": "Translate the quoted hymn title into Spanish here as well so the narrative does not leave a substantive quoted passage in English. For example: “—Abuelo —preguntó—. ¿Crees que podrías dirigir la canción ‘Salvador, como Pastor, guíanos’ este próximo domingo? ¡Me encantaría cantarla otra vez!” Keep the dialogue punctuation and paragraph structure intact.",
+      "translation_quote": "“Abuelo,” preguntó. “¿Crees que podrías dirigir la canción ‘Saviour, Like A Shepherd Lead Us’ este próximo domingo? ¡Me encantaría cantarla otra vez!”"
+    },
+    {
+      "location": "Translation HTML — hymn announcement in song service paragraph (third occurrence)",
+      "severity": "critical",
+      "source_quote": "“Let’s sing number 8 in the Appendix,” announced the song leader. Ellie’s heart sang. They were going to sing her favorite song. Her grandpa had honored her request.",
+      "suggested_fix": "The narrative previously identifies the specific hymn by number; since the translation retains the English hymn title elsewhere, ensure consistent Spanish rendering of the hymn title if mentioned here. If you wish to keep it implied by number, no title is required; but if the title is present elsewhere in English it must be translated. If inserting a title, render as: “—Cantemos el número 8 del Apéndice —anunció el dirigente de cánticos. El corazón de Ellie cantó. Iban a entonar su himno favorito, ‘Salvador, como Pastor, guíanos’. Su abuelo había atendido su petición.”",
+      "translation_quote": "“Cantemos el número 8 del Apéndice,” anunció el dirigente de cánticos. El corazón de Ellie cantó. Iban a entonar su himno favorito. Su abuelo había atendido su petición."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

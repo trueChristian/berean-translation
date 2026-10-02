@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "44dd16cb-08dc-4537-9ed9-6e467e669efe",
+    "response_id": "chatcmpl-EUX8GY3IveSUgu0rpz1M29Uhuypyj",
+    "usage": {
+      "completion_tokens": 1077,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1759,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2836
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "poem, line: \"Which stretch the mind almost to breaking point\"",
+        "severity": "minor",
+        "source_quote": "Which stretch the mind almost to breaking point",
+        "suggested_fix": "Consider a less literal or clearer Indonesian for \"breaking point\" such as \"yang membuat pikiran hampir runtuh\" or \"yang membuat pikiran hampir putus asa\" to avoid the slightly odd image of \"putus.\" Preserve the current HTML structure and line breaks.",
+        "translation_quote": "Yang meregangkan pikiran hampir sampai putus"
+      },
+      {
+        "location": "poem, line: \"Is but a streak of all the vast expanse\"",
+        "severity": "minor",
+        "source_quote": "Is but a streak of all the vast expanse",
+        "suggested_fix": "\"Seberkas\" is acceptable, but you may prefer \"sebuah secebis\" or \"sebuah coretan kecil\" if you want to better convey the sense of a thin, small portion of something immense. Keep the poem's line-level HTML unchanged.",
+        "translation_quote": "Hanyalah seberkas dari seluruh keluasan yang luas"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

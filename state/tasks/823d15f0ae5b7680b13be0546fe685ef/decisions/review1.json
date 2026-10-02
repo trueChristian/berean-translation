@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "critical",
+      "source_quote": "If you love your life…",
+      "suggested_fix": "Translate the English title into Dutch, preserving meaning and punctuation. For example: \"Als je je leven liefhebt…\" (or another natural Dutch rendering). Do not alter HTML structure—only replace the title string in the translation metadata.",
+      "translation_quote": "If you love your life…"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "critical",
+      "source_quote": "Musings of a Missionary",
+      "suggested_fix": "Translate the section name into Dutch, preserving the topical sense. For example: \"Overpeinzingen van een zendeling\" or \"Gedachten van een zendeling\". Do not change HTML structure—only replace the section string in the translation metadata.",
+      "translation_quote": "Musings of a Missionary"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

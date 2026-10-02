@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>В этом выпуске ... Даниилом ...</p>\",\"severity\":\"minor\",\"source_quote\":\"You can try to picture yourself with Daniel of old as he chose to keep praying like normal at his open window, while knowing full well that this simple act most likely could change his life forever.\",\"suggested_fix\":\"Заменить «старцем Даниилом» на формулировку, ближе передающую исходный смысл «Daniel of old», например: «Даниилом древним» или «Даниилом из древности». Это сохранит нейтральный указательный оттенок исходной английской фразы без добавления нового образа («старец»).\",\"translation_quote\":\"Вы можете попытаться представить себя вместе со старцем Даниилом, когда он предпочёл продолжать молиться, как обычно, у открытого окна, полностью сознавая, что этот простой поступок, вероятно, может навсегда изменить его жизнь.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1285,
+    "content_evidence_truncated": false,
+    "content_sha256": "1c7cec7a7a592a7e999f4755ee37e2180a42e88977a88aedd981a37b6bb1d228",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 874,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3229,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4103
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c7c83c4f-265c-4b33-92d6-8f0884913395",
+    "response_id": "chatcmpl-EUX7zWAM7pKPbl6arVjfELjQFUurZ",
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1723,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2387
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> — author line (final <p><em>…</em></p>)",
+        "severity": "major",
+        "source_quote": "<p><em>–by Daniel Kaufman</em></p>",
+        "suggested_fix": "Replace the translated author line with the exact original author line and punctuation. Change <p><em>–por Daniel Kaufman</em></p> to <p><em>–by Daniel Kaufman</em></p>, preserving the same tags and the dash and spacing exactly.",
+        "translation_quote": "<p><em>–por Daniel Kaufman</em></p>"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>...The farmers’ crops and the gardeners’ herbs are pushing through the cool soil...</p>",
+      "severity": "minor",
+      "source_quote": "the gardeners’ herbs",
+      "suggested_fix": "جاری HTML میں اسی پیراگراف کے اندر \"ہربز\" کو ہٹا کر اردو میں درست ترجمہ لکھیں، مثلاً \"باغبانوں کی جڑی بوٹیاں\"۔ برقرار رکھیں: HTML ٹیگز، ارڈر، اور نیسٹنگ۔",
+      "translation_quote": "باغبانوں کی ہربز ٹھنڈی مٹی سے اوپر آ کر سورج کی حرارت اور روشنی کی طرف بڑھ رہی ہیں۔"
+    },
+    {
+      "location": "<p>...he chose to keep praying like normal at his open window...</p>",
+      "severity": "minor",
+      "source_quote": "at his open window",
+      "suggested_fix": "متن میں \"کھلے کھڑ کے پاس\" کو درست اردو میں بدلیں (مثلاً \"اپنی کھلی کھڑکی کے پاس\")، HTML ٹیگز اور ترتیب کو برقرار رکھیں۔",
+      "translation_quote": "جب اس نے کھلے کھڑ کے پاس معمول کے مطابق دعا کرنا جاری رکھنے کا انتخاب کیا،"
+    },
+    {
+      "location": "<p>...as a deacon for our local church congregation...</p>",
+      "severity": "minor",
+      "source_quote": "deacon",
+      "suggested_fix": "مکس حروف/انگریزی-اردو مرکب کو درست کریں: \"دیacon\" کو مکمل اردو میں درست کریں، مثلاً \"خادِمِ کلیسیا\" یا عام متداول ترجمہ \"ڈییکن\"/\"دییکن\" (موقع کے مطابق)، HTML ساخت کو تبدیل نہ کریں۔",
+      "translation_quote": "اور ہماری مقامی کلیسیا کے لیے ایک دیacon کے طور پر مزید مصروف ہوتے جا رہے ہیں۔"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — poem, line: \\\"Sin in our lives, it is his great goal.\\\"\",\"severity\":\"minor\",\"source_quote\":\"Sin in our lives, it is his great goal.\",\"suggested_fix\":\"Translate to clearly state that 'his great goal is sin being present in our lives' rather than phrasing that could be read as a wish. E.g.: \\\"ہمارے اندر گناہ کی موجودگی اس کا بڑا مقصد ہے۔\\\"\",\"translation_quote\":\"ہماری زندگیاں گناہ میں ہوں، یہ اس کا عظیم مقصد ہے۔\"},{\"location\":\"source.html — poem, line: \\\"For he knows very well it will cost us our soul.\\\"\",\"severity\":\"minor\",\"source_quote\":\"For he knows very well it will cost us our soul.\",\"suggested_fix\":\"Correct the adverbial phrase for natural Urdu: replace \\\"بہت اچھے جانتا ہے\\\" with \\\"بہتر/بھلی طرح جانتا ہے\\\" or \\\"اچھے طور پر جانتا ہے\\\". E.g.: \\\"کیونکہ وہ بھلی طرح جانتا ہے کہ یہ ہمیں جان سے محروم کر دے گا۔\\\"\",\"translation_quote\":\"کیونکہ وہ بہت اچھے جانتا ہے کہ یہ ہمیں جان سے محروم کردے گا۔\"},{\"location\":\"source.html — poem, line: \\\"Let’s be done with the lesser and look far beyond.\\\"\",\"severity\":\"minor\",\"source_quote\":\"Let’s be done with the lesser and look far beyond.\",\"suggested_fix\":\"Render the exhortation to discard lesser things and set sights higher more clearly. Current Urdu reads awkwardly as seeking 'salvation from the smallest'. Suggested: \\\"آئیں ہم معمولی چیزوں کو چھوڑ دیں اور کہیں دور تک دیکھیں۔\\\" or \\\"آئیں ہم کم اہم چیزوں سے دور ہو کر آگے کی طرف دیکھیں۔\\\"\",\"translation_quote\":\"آئیں ہم چھوٹے سے چھوٹے سے نجات پائیں اور آگے دیکھیں۔\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1889,
+    "content_evidence_truncated": false,
+    "content_sha256": "b1a579e6aa1baba46c6f499d0752b509df352b6355972e5dbbc7959dea50fbf5",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 878,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1678,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2556
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

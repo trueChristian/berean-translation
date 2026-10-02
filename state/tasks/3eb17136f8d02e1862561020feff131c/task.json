@@ -2,7 +2,6 @@
   "article_id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 7175
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1621,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6900,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8521
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Psalm 127:3-5 (around \"quiver full of them\")",
+      "severity": "major",
+      "source_quote": "As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate –Psalm 127:3-5.",
+      "suggested_fix": "Translate the biblical idiom accurately and idiomatically in Afrikaans using a conventional Bible phrase. Replace the current rendering (\"kwaiver vol van hulle\") with a standard equivalent such as: \"Soos pyle in die hand van 'n kragtige man; so is kinders in die jeug. Gelukkig is die man wat sy koker vol daarvan het: hulle sal nie skaam wees nie, maar hulle sal met die vyande by die poort spreek –Psalm 127:3-5.\" Preserve the verse numbers and placement exactly.",
+      "translation_quote": "Soos pyle in ’n kragtige man se hand; so is die kinders van die jeugdiges. Salig is die man wat sy <u>kwaiver vol van hulle</u> het: hulle sal nie skaam wees nie, maar hulle sal met die vyande by die poort spreek –Psalm 127:3-5."
+    },
+    {
+      "location": "Titus 2:3-5 and surrounding paragraphs (\"keepers at home\" phrasing)",
+      "severity": "minor",
+      "source_quote": "That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+      "suggested_fix": "Ensure consistent, clear and idiomatic translation of the phrase \"keepers at home\" throughout the article. The translation alternates between \"’n huishouer\" and \"huishoudelik\". Choose one consistent rendering (for example \"huisgesinne\" is not correct here; preferred: \"wat tuis bly\" or \"huisbewaarsters\" depending on denominational preference). Apply the chosen rendering consistently in both Titus quotes and narrative references, without changing the original verse numbering or punctuation.",
+      "translation_quote": "Dat hulle die jong vroue kan leer om nuchter te wees, om hulle mans te lief te hê, om hulle kinders te lief te hê, Om versigtig te wees, maagdlik, <strong>huishoudelik</strong>, goed, gehoorsaam aan hulle eie mans, dat die woord van God nie lasterlik gepraat word –Titus 2:4-5.\n\n(In an earlier paragraph the phrase was translated as: \"In die verlede het die term “’n huishouer” ’n meer duidelik verstaanbare en gedefinieerde betekenis gehad.\")"
+    },
+    {
+      "location": "Opening narrative paragraphs (tense of verbs)",
+      "severity": "minor",
+      "source_quote": "I stepped quietly down the stairs, my eyes groggy. It was midnight and a soft light glowed from my parents’ room. My new baby brother was crying...",
+      "suggested_fix": "Adjust verb tense to match the past narrative of the English source. For example, change present-tense renderings like \"huil\" and \"sing\" to past tense: \"het gehuil\" and \"het gesing\" (or \"het gesing/saggies gesing\"), so the opening reads naturally in Afrikaans and mirrors the original past-tense narration.",
+      "translation_quote": "Ek het stilletjies die trappe afgeloop, my oë nog dowwerig. Dit was middernag en ’n sagte lig het uit my ouers se kamer geskyn. My nuwe baba-broer huil, waarskynlik wat my om hierdie uur wakker gemaak het, ... My moeder het hom opgehef en sag gesing."
+    },
+    {
+      "location": "Endnotes / bibliography lines",
+      "severity": "minor",
+      "source_quote": "Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951\n\nBookroo.com 22 of the best book quotes from Elisabeth Elliot",
+      "suggested_fix": "Translate or localize the descriptive parts of endnotes where they are translatable text (not raw URLs). For example, render the Bookroo note title into Afrikaans (e.g. \"Bookroo.com: 22 van die beste boeksitate van Elisabeth Elliot\") while preserving the URL exactly if present. If the original endnote was merely a link/title in English, translate the title portion into Afrikaans for consistency with the rest of the article.",
+      "translation_quote": "<em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em>\n\n<em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em>"
+    }
+  ],
   "id": "3eb17136f8d02e1862561020feff131c",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "afr",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

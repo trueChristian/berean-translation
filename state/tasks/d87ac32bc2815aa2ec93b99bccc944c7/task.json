@@ -2,7 +2,6 @@
   "article_id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 2403
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1316,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1808,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3124
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<div class=\"poem\">…<p> line 2 (\"And gazing up into the firmament\")",
+      "severity": "major",
+      "source_quote": "And gazing up into the firmament",
+      "suggested_fix": "Translate \"firmament\" with a neutral, standard Hindi term for the sky/heavens (e.g., \"नभ\" or \"आकाश\"), not \"तप्त नभ\". Keep the surrounding punctuation/HTML exactly as in the translation. Example replacement: \"और नभ की ओर ऊपर ताकते हो\" or \"और आकाश की ओर ऊपर ताकते हो\".",
+      "translation_quote": "और तप्त नभ में ऊपर ताकते हो"
+    },
+    {
+      "location": "<div class=\"poem\">…<p> lines 6–7 (\"Or can you see the distances so great / Which stretch the mind almost to breaking point / And make you feel the size you really are?\")",
+      "severity": "minor",
+      "source_quote": "Or can you see the distances so great\nWhich stretch the mind almost to breaking point\nAnd make you feel the size you really are?",
+      "suggested_fix": "Render \"make you feel the size you really are\" to convey the poet's intended sense of human smallness/insignificance rather than physical \"stature\". For example: \"और तुम्हें तुम्हारी असल हीन-सी छोटाई/नन्हापन का अहसास कराती हैं?\" or \"और तुम्हें अपनी असल छोटी-सी प्रवृत्ति/अपनी सूक्ष्मता का अहसास कराती हैं?\" Preserve line breaks and HTML tags.",
+      "translation_quote": "या क्या तुम उन अत्यंत दूरस्थ दूरीों को देख पाते हो\nजो विचार को लगभग तोड़ देती हैं\nऔर तुम्हें तुम्हारी असली कद-काठी का अहसास कराती हैं?"
+    },
+    {
+      "location": "<div class=\"poem\">…<p> lines 11–12 (\"That tiny sphere so very close at hand.\")",
+      "severity": "minor",
+      "source_quote": "That tiny sphere so very close at hand.",
+      "suggested_fix": "\"sphere\" here refers to the moon as a small spherical body. Replace \"नन्हे गोल धब्बे\" (which reads as 'spot') with a word that conveys a small sphere, e.g. \"उस छोटे गोले तक\" or \"उस छोटे गोले तक जो बहुत नज़दीक था\". Preserve surrounding punctuation/HTML.",
+      "translation_quote": "उस नन्हे गोल धब्बे तक जो हाथ के बहुत पास था."
+    }
+  ],
   "id": "d87ac32bc2815aa2ec93b99bccc944c7",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

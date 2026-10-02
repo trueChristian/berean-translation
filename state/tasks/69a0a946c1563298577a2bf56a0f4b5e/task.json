@@ -2,7 +2,6 @@
   "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 3735
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1073,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3332,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4405
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>이번 호의 새로운 것 중 하나는 도널드 브렉빌(형제)의 ‘제자도’ 연재 시작입니다. Disciple이라는 단어는 spelling이 discipline과 거의 같습니다. 많은 사람에게 discipline은 부정적인 뉘앙스를 지니지만, 독자가 도널드 형제가 나누려는 것에 끌리는 데 방해가 되지 않기를 바랍니다.</p>",
+      "severity": "minor",
+      "source_quote": "“Disciple has almost the same spelling as discipline. For many, discipline carries a negative connotation…”",
+      "suggested_fix": "Translate the English words into Korean to avoid leaving translatable substantive words in English. Preserve meaning and tone. For example: replace the sentence with: “‘Disciple’라는 단어의 철자가 ‘discipline’과 거의 비슷합니다. 많은 사람에게 ‘discipline(훈련)’은 부정적인 뉘앙스를 지니지만…” or fully Koreanized: “‘제자(disciple)’라는 말의 철자가 ‘discipline(훈련)’과 거의 비슷합니다. 많은 사람에게 ‘훈련’은 부정적인 뉘앙스를 지니지만…” Ensure the English words “Disciple,” “spelling,” and “discipline” are rendered in Korean (with optional parenthetical English if the editor prefers).",
+      "translation_quote": "Disciple이라는 단어는 spelling이 discipline과 거의 같습니다. 많은 사람에게 discipline은 부정적인 뉘앙스를 지니지만, 독자가 도널드 형제가 나누려는 것에 끌리는 데 방해가 되지 않기를 바랍니다."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "69a0a946c1563298577a2bf56a0f4b5e",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "kor",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

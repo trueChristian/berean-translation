@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,79 @@
         },
         "total_tokens": 7417
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1267,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7078,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8345
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — Scripture citation after first blockquote (Matthew 4:18-22)",
+      "severity": "major",
+      "source_quote": "–Matthew 4:18-22.",
+      "suggested_fix": "Translate the book name into French and preserve the chapter and verse numbers. Example replacement within the same HTML structure: –Matthieu 4:18-22.",
+      "translation_quote": "–Matthew 4:18-22."
+    },
+    {
+      "location": "source.html — Scripture citation after John 21 blockquote (John 21:3-6)",
+      "severity": "major",
+      "source_quote": "–John 21:3-6.",
+      "suggested_fix": "Translate the book name into French and preserve the chapter and verse numbers. Example replacement: –Jean 21:3-6.",
+      "translation_quote": "–John 21:3-6."
+    },
+    {
+      "location": "source.html — Scripture citation in-text (Romans 7:18)",
+      "severity": "major",
+      "source_quote": "–Romans 7:18.",
+      "suggested_fix": "Translate the book name into French and preserve the chapter and verse numbers. Example replacement: –Romains 7:18.",
+      "translation_quote": "–Romans 7:18."
+    },
+    {
+      "location": "source.html — Scripture citation in-text (Luke 9:62)",
+      "severity": "major",
+      "source_quote": "–Luke 9:62.",
+      "suggested_fix": "Translate the book name into French and preserve the chapter and verse numbers. Example replacement: –Luc 9:62.",
+      "translation_quote": "–Luke 9:62."
+    },
+    {
+      "location": "source.html — First paragraph, sentence about following Jesus",
+      "severity": "minor",
+      "source_quote": "Jesus is calling each of us to personally “Follow Me.”",
+      "suggested_fix": "Make the French phrasing grammatically natural and consistent (lowercase for pronouns not used as honorific). Example: replace « Jésus appelle chacun de nous à personnellement « Le suivre ». » with « Jésus appelle chacun de nous à le suivre personnellement. »",
+      "translation_quote": "Jésus appelle chacun de nous à personnellement « Le suivre »."
+    },
+    {
+      "location": "source.html — Paragraph about the valley of decision",
+      "severity": "minor",
+      "source_quote": "choose between a life of total surrender to Christ or a life of sin and pleasing self.",
+      "suggested_fix": "Correct word order in French to sound natural: replace « une vie de totale abandon à Christ » with « une vie d’abandon total à Christ ».",
+      "translation_quote": "une vie de totale abandon à Christ ou une vie de péché et de satisfaction de soi."
+    },
+    {
+      "location": "source.html — Romans quotation rendering",
+      "severity": "minor",
+      "source_quote": "…that in me (that is, in my flesh,) dwelleth no good thing…. Paul then continues the verse …for to will is present with me; but how to perform that which is good I find not –Romans 7:18.",
+      "suggested_fix": "Fix the French negation and flow. For example: « …que, dans moi (c’est‑à‑dire dans ma chair), il n’y a rien de bon… » and « …car vouloir est présent en moi; mais comment accomplir ce qui est bien, je ne le trouve pas –Romains 7:18. » (also apply Major fixes above to translate the book name).",
+      "translation_quote": "…que, dans moi (c’est-à-dire dans ma chair,) il n’y a rien de bon… Paul continue alors le verset …car vouloir est présent en moi; mais comment accomplir ce qui est bon, je le trouve pas –Romans 7:18."
+    }
+  ],
   "id": "25b6c2ce9bb1ec50ae180cc0b1f1da21",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "fra",
@@ -100,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

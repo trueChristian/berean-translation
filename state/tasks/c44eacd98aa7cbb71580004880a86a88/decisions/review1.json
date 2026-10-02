@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "If you love your life…",
+      "suggested_fix": "Translate the English title into standard written Korean to match the article translation and target-language guidance. For example: \"당신이 생명을 사랑한다면…\" or a closer idiomatic rendering such as \"네가 네 생명을 사랑하면…\" Preserve punctuation and ellipsis if desired.",
+      "translation_quote": "If you love your life…"
+    },
+    {
+      "location": "source.html — quoted Scripture (1 John 2:6) / translation.html — corresponding paragraph",
+      "severity": "major",
+      "source_quote": "He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6.",
+      "suggested_fix": "The Korean rendering of this quoted verse is awkward and alters clarity of the original meaning. Provide a faithful Korean rendering of the English verse meaning as printed (not necessarily a literal word-for-word copy, but preserving the authoritative sense): e.g. \"자기 자신이 그 안에 거한다고 말하는 자는 또 자기 자신도 그가 행한 것 같이 행할지니라 –요한일서 2:6.\" Replace the current sentence with this corrected Korean verse text, and keep the verse reference unchanged.",
+      "translation_quote": "<em>너희가 그 안에 거한다고 하는 자는 또한 그가 행하신 것 같이 그도 자기를 스스로 행할지어다 –요한일서 2:6.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

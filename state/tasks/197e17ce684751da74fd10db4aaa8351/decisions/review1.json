@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<figure> <img alt>",
+      "severity": "minor",
+      "source_quote": "Milky Way and stars above dark mountains and water",
+      "suggested_fix": "Translate the image alt to a natural Kiswahili rendering of the original meaning, e.g. \"Njia ya Maziwa na nyota juu ya milima meusi na maji\" (preserve punctuation and tags).",
+      "translation_quote": "Mwanzo wa Njia ya Maziwa na nyota juu ya milima na maji yaliyo giza"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph 1, line 7-8",
+      "severity": "minor",
+      "source_quote": "Which stretch the mind almost to breaking point",
+      "suggested_fix": "Use a natural Kiswahili idiom for \"breaking point\". Suggested revision: \"Ambazo zinapanua akili hadi kufikia kiwango cha kuvunjika\" or \"Ambazo zinapanua akili hadi kufikia ukingo wa kuvunjika\".",
+      "translation_quote": "Unaobana akili hadi kufikia mfereji wa kuvunjika"
+    },
+    {
+      "location": "<div class=\"poem\"> final line",
+      "severity": "minor",
+      "source_quote": "And humbly bow our heads and worship Him.",
+      "suggested_fix": "Use the correct Kiswahili verb for \"bow\". Suggested revision: \"Na tukokomee vichwa vyetu kwa unyenyekevu na kumwabudu\" or \"Na tukunjue vichwa vyetu kwa unyenyekevu na kumwabudu.\" Keep the HTML structure unchanged.",
+      "translation_quote": "Na kukunjua vichwa vyetu kwa unyenyekevu na kumwabudu."
+    },
+    {
+      "location": "<div class=\"poem\"> middle stanza",
+      "severity": "minor",
+      "source_quote": "The crescent moon is closer yet to you,",
+      "suggested_fix": "Use the standard Kiswahili word/phrase for \"crescent moon\". Suggested revision: \"Mwezi wa tone uko karibu zaidi kwako,\" or \"Mwezi mweupe (mwenye umbo la tone) uko karibu zaidi kwako,\" depending on preferred idiom.",
+      "translation_quote": "Mwezi wa mninga uko karibu zaidi kwako,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

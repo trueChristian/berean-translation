@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 1843
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1066,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1632,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2698
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> (line with: \"The darts of the wicked come from all sides.\")",
+      "severity": "major",
+      "source_quote": "The darts of the wicked come from all sides.",
+      "suggested_fix": "Replace the mistranslation \"Дары нечестивых летят со всех сторон.\" with wording that preserves the original image of hostile projectiles, e.g. \"Дротики нечестивых летят со всех сторон.\" or \"Стрелы нечестивых летят со всех сторон.\"",
+      "translation_quote": "Дары нечестивых летят со всех сторон."
+    },
+    {
+      "location": "<p class=\"poem\"> (line with: \"We are in a battle; we must still overcome.\")",
+      "severity": "minor",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "Correct the awkward Russian phrasing \"нам нужно победить всё ещё\". Use one of: \"нам всё ещё нужно одержать победу.\" or \"нам всё ещё нужно победить.\"",
+      "translation_quote": "Мы в сражении; нам нужно победить всё ещё."
+    },
+    {
+      "location": "<p class=\"poem\"> (final line: \"Let’s take hold of God’s power! It’s time to respond!\")",
+      "severity": "minor",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "The translation \"Возьмём силу Божью! Пора откликнуться — настало время вперёд!\" is redundant and contains an awkward \"вперёд\". Use a concise equivalent that preserves exhortation, e.g. \"Возьмём силу Божью! Пора откликнуться!\" or \"Возьмём силу Божью — пора откликнуться!\"",
+      "translation_quote": "Возьмём силу Божью! Пора откликнуться — настало время вперёд!"
+    }
+  ],
   "id": "92ef9e03d610ecc3849c176c13b7e1ad",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

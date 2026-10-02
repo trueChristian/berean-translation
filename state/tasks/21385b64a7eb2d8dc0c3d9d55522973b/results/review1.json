@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "27bb33e9-30be-4092-ae04-89031d30d3aa",
+    "response_id": "chatcmpl-EUX7y2hcUqOZmPAZ3CMpxVGrQHCD7",
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9466
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "critical",
+        "source_quote": "If you love your life…",
+        "suggested_fix": "Translate the English title into standard contemporary Italian and preserve punctuation. For example: «Se ami la tua vita…». Replace the translation.title value (currently English) with the Italian rendering, keeping the ellipsis if desired.",
+        "translation_quote": "If you love your life…"
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "major",
+        "source_quote": "Musings of a Missionary",
+        "suggested_fix": "Translate the section (category) into standard contemporary Italian. For example: «Riflessioni di un missionario» or another equivalent idiomatic rendering. Replace the translation.section value (currently English) with the chosen Italian phrase.",
+        "translation_quote": "Musings of a Missionary"
+      },
+      {
+        "location": "source.html — quoted Scripture in Deuteronomy 3:3-6",
+        "severity": "minor",
+        "source_quote": "And we took all his cities at that time, there was not a city which we took not from them, threescore cities, all the region of Argob, the kingdom of Og in Bashan. All these cities were fenced with high walls, gates, and bars; beside unwalled towns a great many. And we utterly destroyed them, as we did unto Sihon king of Heshbon, utterly destroying the men, women, and children, of every city –Deuteronomy 3:3-6.",
+        "suggested_fix": "Ensure the Italian translation of the quoted Scripture faithfully conveys the authoritative English as printed and uses conventional Italian Bible place-names. The translation currently reads 'Sicone di Ešnòn' which changes the place-name form. Use the standard Italian Bible form for Heshbon (for example, \"Eschbon\" or the edition-appropriate Italian form) so the quoted Scripture matches a conventional Italian rendering. Update only the place-name to the standard Italian form while preserving the rest of the translated verse and the chapter/verse reference.",
+        "translation_quote": "E le distruggemmo completamente, come avevamo fatto al re Sicone di Ešnòn, distruggendo completamente uomini, donne e bambini, di ogni città – Deuteronomio 3:3-6."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

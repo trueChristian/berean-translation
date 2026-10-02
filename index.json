@@ -382,6 +382,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
+      "html_sha256": "3cb9e9d56cfc6fecfdc931e88bb4656d465b3758201b4049f6727ca15d822ca2",
+      "human_reviewed": false,
+      "id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
+      "images": [],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.json",
+      "metadata_sha256": "5044662471d920a6b91dd03e321eefd98d104164779e4d32041efc54fde49943",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Besinnings van ’n Sendingwerker",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
+      "status": "ready",
+      "subtitle": null,
+      "title": "As jy jou lewe liefhet…",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "b636b98deceadf83aca06ee594f5820f843e875081fe6661d7727a80277c9ca0",
       "human_reviewed": false,
@@ -533,6 +556,34 @@
       "status": "ready",
       "subtitle": "NAZI-DUITSLAND EN DIE MENNONIETE",
       "title": "Die Integriteit van die Kerk",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "0b20d76a203284e45143d46e46976ba4d5949ce7b3dd9a85a61f78f10ddc9976",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "69fa9d6251a848656e67d4f9609b92944997ef84da5262bf2588983081f7d730",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van die Redakteur",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die Redakteur",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -848,6 +899,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jamin raak slimmer",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "97515400cd52ff77d8de6c259ffd1890bb623710931dd88321bc35dc8a80e8b6",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "Eensaam met kap en rugsak gesit bo ’n mistige landskap",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "7a0605870ccda3581ca8eb9249786703bd5693a335c15b1e54d2f194db9ff45d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "’n Woord van ’n Dokter",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Isolasie",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1568,6 +1647,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "a008e136cc04f1fbe336dc6bd52b3bdc5dd7e0e779100968d24b872d971faee6",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "5409d39571558c7c729c698c17ecd9beb891803acacd61a4a806273b0eda5b49",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "من المحرر",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "من المحرر",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "800e9183c2cafcf985b02ac7b6876c49477097a176216d659d96cba2bfce0bea",
       "human_reviewed": false,
@@ -1599,6 +1706,34 @@
       "status": "ready",
       "subtitle": "خطة الله للرجل والمرأة",
       "title": "خِطبة تتمحور حول المسيح",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "ea3ac8f5a3929448e684cbfbe2e3e42ce7dde974c56e20c1b6f66eaddf529d6c",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "درب التبانة والنجوم فوق جبال مظلمة ومياه",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "cfe814b9b53bf080664274337268faf20cfbced662674a706ffd054e87903acf",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ماذا ترى؟",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2573,6 +2708,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "da39579375419e9b7c24b8dbb41fe6852202b913f953c0f2bf95b510dfc092c2",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "2493c61d9dbefd59fd4be88a993849b22a527d99c273b7b1ad1f93bd0a32d7fa",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "সম্পাদকের অভিমত",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "সম্পাদকের অভিমত",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "727a4ca0e42f736003da18e057a6d95e68b3643c8075d8def8e153b736cd43aa",
       "human_reviewed": false,
@@ -2604,6 +2767,34 @@
       "status": "ready",
       "subtitle": "পুরুষ ও নরীর জন্য ঈশ্বরের পরিকল্পনা",
       "title": "একটি খ্রীষ্ট-কেন্দ্রিক কোর্টশিপ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "faed3aafa56b24cd5001e80f41c88cd2313ab9ebf6ae42b70a61b053306f0b7e",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "অন্ধকার পর্বত ও জলের উপর মিল্কি ওয়ে এবং তারারা",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "030abfda59500528e35dabc6ce12d0e8745a0c3287a2791fc91dd5823e2e25ce",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "তুমি কী দেখছ?",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3412,6 +3603,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "上帝之城",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "45c9864ca9f590113fc06d6410b756679dfd13c8816a6018f8087b4d313ef85e",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "成年人牵着小孩的手在户外行走",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "2c5cbd2ecd96744605e2d61814bf79472979e2f265a8c3f852029bf7f0bc4d7e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "姐妹对姐妹",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
+      "status": "ready",
+      "subtitle": null,
+      "title": "喜乐的呼召",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4548,6 +4767,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/64012528-bcec-4189-96b5-32a226869815.html",
+      "html_sha256": "c803b675be015ee4ed29a1b521831fa8fc60bef173a87912dd1ba023e52fe473",
+      "human_reviewed": false,
+      "id": "64012528-bcec-4189-96b5-32a226869815",
+      "images": [
+        {
+          "alt": "Silhouette einer Person, die mit beiden Händen gegen einen warmen Himmel streckt",
+          "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/64012528-bcec-4189-96b5-32a226869815.json",
+      "metadata_sha256": "e4b77eed55a63abb309fbfd69cc2433eeebdfc5c15ef9654f469fef5721b704c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Der Kampf, der tobt",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
       "html_sha256": "97f757ae013edceecb67c5fac47c5b4c00fe25f52e8a621f475c69ac01cf1d8e",
       "human_reviewed": false,
@@ -4571,6 +4818,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Wenn Gott Nein sagt",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "df1480305c33f0a77707facab8dcde4cc37fd8dfa1c3276ec29c1ac38c18ce16",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Milchstraße und Sterne über dunklen Bergen und Wasser",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "a770625e86ac5bd6e43ba6f50e8adb976d368f1839adebb5c0e09f014bbc0e19",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Was siehst du?",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5518,6 +5793,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/64012528-bcec-4189-96b5-32a226869815.html",
+      "html_sha256": "fd3815254d690a8f0e76c8785f0c37f6059f27b1e0112224eb9380e4e48176f2",
+      "human_reviewed": false,
+      "id": "64012528-bcec-4189-96b5-32a226869815",
+      "images": [
+        {
+          "alt": "Σιλουέτα ενός ατόμου που υψώνει και τα δύο χέρια απέναντι σε ζεστό ουρανό",
+          "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/64012528-bcec-4189-96b5-32a226869815.json",
+      "metadata_sha256": "7a3a1481c43d82436056699b7c94211dbe7c5be526746911eb045e516a8d3323",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η Μάχη Που Οργίζεται",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "7015d487ecaa6d62fbfb0b7361616c291aea42bee441b9276dadc7302d8e0182",
       "human_reviewed": false,
@@ -5549,6 +5852,34 @@
       "status": "ready",
       "subtitle": "Το σχέδιο του Θεού για Άνδρα και Γυναίκα",
       "title": "Μια Χριστοκεντρική Γνωριμία",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "bba79dfc26140bb658a4a435c496946d2e1dd5b4ed82e4c224ee3fe946ceb51f",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Γαλαξίας και αστέρια πάνω από σκοτεινά βουνά και νερό",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "04ff092d2cf836ddd4917cd8d783a9b84c737351fd22a909747e108672f9fa6c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Τι Βλέπεις;",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6697,6 +7028,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
+      "html_sha256": "a3862063758062dba2a87f5659e634a99154276e4b8ca6ba625b7aaf8676ec66",
+      "human_reviewed": false,
+      "id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
+      "images": [],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.json",
+      "metadata_sha256": "e2398dddf626e4bbf390b786e3b41c2cd172141f312127d4936fcbf356099135",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Réflexions d’un missionnaire",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Si tu aimes ta vie…",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "a98d32e17729512da328e58d0a042056c81bc9f61cbfc16048f3fc016c511501",
       "human_reviewed": false,
@@ -6964,6 +7318,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "8d5c88f7469279af38d4531f206a6ca6d32d150ef424f394e57e1724a7337a86",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Voie lactée et étoiles au‑dessus de montagnes sombres et d'une étendue d'eau",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "e0b4a68c99b2de8f6d00c52cdcd14ae8faba1b349bf16527f47dcf5756382884",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Que vois‑tu ?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "ecc4087fb87cc1d41af4360fd1609476684166cb71557a1d2ff14b0b99145834",
       "human_reviewed": false,
@@ -6987,6 +7369,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Cité de Dieu",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "954ba0ea621f62955d27b8cb00b16d8a3e766f01fdcdf6e7155679451b706905",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "Adulte tenant la main d’un petit enfant marchant en plein air",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "649020619bd354afac7c9be62c110b8e3b674787823724fde513dc85f374e12a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sœur à sœur",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un appel joyeux",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7210,6 +7620,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jamin devient plus sage",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "d52f4f9a9f4ab654483f4f2236ab2fa3d815e3d486d1e0eaf11f9614f89a9e55",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "Personne solitaire capuchonnée avec un sac à dos assise au‑dessus d’un paysage brumeux",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "068e7ef96df4065e537cc4475598fbc51ba97afeeaf875e536c6dcd5d5dd5f29",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Un mot d'un médecin",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Isolement",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8427,6 +8865,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "b05458c16203bef9abef84087018150d7572a24191033bd1731a45ba3b2145ad",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "e58af7cd3c90799c866e5df88ece90634a0f2bd430af6ce2b29169209045e87a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "From the Editor",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "From the Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "c2381744ecb2378a1749d659931294db3d52a91d6f90d3936ee9a753a0740716",
       "human_reviewed": false,
@@ -8450,6 +8916,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "From the Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/64012528-bcec-4189-96b5-32a226869815.html",
+      "html_sha256": "758cac9f3742ac3ad45912a9bd0b2287de91571b435375ec0562f2749563cf98",
+      "human_reviewed": false,
+      "id": "64012528-bcec-4189-96b5-32a226869815",
+      "images": [
+        {
+          "alt": "एक व्यक्ति का सिल्हूट जो गर्म आकाश के सामने दोनों हाथ उठा रहा है",
+          "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/64012528-bcec-4189-96b5-32a226869815.json",
+      "metadata_sha256": "086bdf61ea4e0eecdeef0398bdc09675a1bce64695143780b4da941db1439c80",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जो लड़ाई चल रही है",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8621,6 +9115,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "जैमिन होशियार बनता है",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "3cbad78d6d6681d283ca837d91fa7d65743481cc563297479f9071f50d5987bc",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "एकाकी हुड पहने व्यक्ति का एक बैकपैक के साथ कोहरे भरे परिदृश्य के ऊपर बैठा हुआ दृश्य",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "a3af2a0b67eecef2bb20a127c718180452bb3d94c85e99e41ad03bc302333809",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "एक डॉक्टर की बात",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "एकांत",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -9495,6 +10017,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
+      "html_sha256": "e2b7f158e6c5366813c4738438a2df5c764a51ae031eaf90ced6b68fd36c3234",
+      "human_reviewed": false,
+      "id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
+      "images": [],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.json",
+      "metadata_sha256": "e8d4456dd1b503d97479d372def72b859a0c479bc9781214312fcf8d04e71ad4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Renungan Seorang Misionaris",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jika engkau mengasihi hidupmu…",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "67e62c6a94624f0719b133d7381be22eeaf9bfa8910d85e9f57765e9305fd7f3",
       "human_reviewed": false,
@@ -9707,6 +10252,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/64012528-bcec-4189-96b5-32a226869815.html",
+      "html_sha256": "dfc2fa37dc6929e34ccbe5e4aba74b6c6549bd89fde1ccbbdc7349df8611cbfb",
+      "human_reviewed": false,
+      "id": "64012528-bcec-4189-96b5-32a226869815",
+      "images": [
+        {
+          "alt": "Siluet seseorang mengangkat kedua tangan menghadap langit yang hangat",
+          "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/64012528-bcec-4189-96b5-32a226869815.json",
+      "metadata_sha256": "9d3340520edf7a13852fadd7b3b2f29a5c6f2aaa47d0c94c81c888db2ab1e5fa",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pertempuran yang Mengamuk",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
       "html_sha256": "0471c295c397b9ec5cea82ec73a9fb6498be19d062237e0ba9dfad3a2981ea20",
       "human_reviewed": false,
@@ -9799,6 +10372,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "447e2498ed614ae1799df018b341d038e477c18eeae8ed47a7904c553e63076e",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Bimasakti dan bintang-bintang di atas pegunungan gelap dan air",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "c84685d96bdb27f12f9aeb15099acd615e72b08a838b5dd823c556a55917780d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Apa yang Kau Lihat?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "f417a5e8fdacc65001afa59e9b43b56b1bdae1eed9e5fc225642563fa2c773e2",
       "human_reviewed": false,
@@ -9850,6 +10451,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
+      "html_sha256": "08a3ef282c5beb09460179be6a3a872050189f9a1cf6d1b4aee45ff53052cbb4",
+      "human_reviewed": false,
+      "id": "964d8688-6491-4ede-9271-c923db4c4079",
+      "images": [
+        {
+          "alt": "Perahu kayu penangkap ikan yang lapuk mengapung di air tenang",
+          "public_path": "/images/articles/964d8688-6491-4ede-9271-c923db4c4079-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/964d8688-6491-4ede-9271-c923db4c4079.json",
+      "metadata_sha256": "a5f1b1d63d1307abd8c3378bd61bf6e48f4ae79461c6100f3f30f03e82e11e3b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Gereja Perjanjian Baru",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Panggilan untuk Kepelatihan",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -11266,6 +11895,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "2a7b91217b64606ff8ae6c7c343173c1b155d34cb216df01a7779e8f3e2dd1fb",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "d29d59f9edc4379a209ddab533c2b5f6197eac6f13e97a0daf97a61a54aa6799",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Dall'Editore",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dall'Editore",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "10b87b9f1de4fd8eb020e28500df861754d0c2a75e38109d469fb925b20d9763",
       "human_reviewed": false,
@@ -11386,6 +12043,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "433417fe07757db93f10f360624bb429fb179833354142a55d284be853642386",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Via Lattea e stelle sopra montagne scure e acqua",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "21d9bdbf5a7a40e0ab4de0c53e0048233958fcbf48ac5effdbc7056dc2d53612",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cosa vedi?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
+      "html_sha256": "385ba1b14cc85878f1affbad1b66f3c8e5267d3d6a6a702a6177c13da558f7f5",
+      "human_reviewed": false,
+      "id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
+      "images": [
+        {
+          "alt": "Fiori cosmos rosa su uno sfondo delicatamente sfocato",
+          "public_path": "/images/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.json",
+      "metadata_sha256": "d9af66cb1fff3d8e046052c948848e93965ccadb494783a0b552b914bed70477",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Angolo dei bambini",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La promessa di un canto",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "7831c7b74291874a9f811767cd514eabb31e46e432ab723793a197b676aee9ce",
       "human_reviewed": false,
@@ -11493,6 +12206,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Il porto del riposo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
+      "html_sha256": "a75bcb4c8eaaf80b394b32d6d73b99556d95ed6369f88696af036a7a1d884b2d",
+      "human_reviewed": false,
+      "id": "964d8688-6491-4ede-9271-c923db4c4079",
+      "images": [
+        {
+          "alt": "Vecchia barca da pesca in legno che galleggia su acque calme",
+          "public_path": "/images/articles/964d8688-6491-4ede-9271-c923db4c4079-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/964d8688-6491-4ede-9271-c923db4c4079.json",
+      "metadata_sha256": "7018f3cd8fb3c11f821750fdfe3dce374620e3f3a06620b9eed7ff4033e88e31",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "La Chiesa del Nuovo Testamento",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La chiamata al discepolato",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -11660,6 +12401,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jamin si fa più saggio",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "30dd075f233236237b691fac187b81581a038b39f26a7f9de2ebfe45d57d1717",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "Persona solitaria con cappuccio e zaino seduta sopra un paesaggio nebbioso",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "62984c71afb37a203bb9b2e7f8fe87294c5b7eabf85af31109290be185c39ce1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Parola da un medico",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Isolamento",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -12805,6 +13574,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "b130dccc77738b2a2266a26758e331bf24c0464c1d03cd886c8fcec6c89e8ca5",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "3b1985ac314123980d3ac1e37bf0b4616eae1e50678456a3c15545e49b72d138",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "편집장의 글",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집장의 글",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "de3fc5df3cf800256f10649e9e08b0fd34b6fa1e6ca46153b4ea33ddadec39af",
       "human_reviewed": false,
@@ -12892,6 +13689,34 @@
       "status": "ready",
       "subtitle": "남성과 여성에 대한 하나님의 계획",
       "title": "그리스도를 중심으로 한 구혼",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "e0ce6f928f9ea48829f94ab93a8405354a541a5d32b112b2d19ca08d687dfbce",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "성인이 야외에서 어린 아이의 손을 잡고 걷고 있음",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "d0fab5b7c0e7fbc70d712cc96813f78ab7372f290f3f079f073b04e82c5fbded",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sister to Sister",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
+      "status": "ready",
+      "subtitle": null,
+      "title": "기쁜 부르심",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -14134,6 +14959,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/64012528-bcec-4189-96b5-32a226869815.html",
+      "html_sha256": "ab8517f7146e7d0bada766a2c268878bce084802f5798e1b28b7d6eb4e4c6a16",
+      "human_reviewed": false,
+      "id": "64012528-bcec-4189-96b5-32a226869815",
+      "images": [
+        {
+          "alt": "Zilhouet van een persoon die beide handen opheft tegen een warme lucht",
+          "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/64012528-bcec-4189-96b5-32a226869815.json",
+      "metadata_sha256": "c67b15f7c5cc220a2ffb24daa49b54172ebb3a7479e3a0098750576f86d10e49",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De Strijd die Woedt",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
       "html_sha256": "1b6595a161847327c8e2ffd3567503fbd0af54c8d7771eb4af3ec5e51cb5c028",
       "human_reviewed": false,
@@ -14198,6 +15051,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "f22b3b55103f3e1c12164ad7a598241ed9100cf3f4adf8224bc54e275af96cd8",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Melkweg en sterren boven donkere bergen en water",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "9f8dc67fe5f58f1d47539f028471c41ed4c83c78c5a974b5e75580532ab7494f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wat zie je?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "926552da541240192ad8d90629b833ff9b6e95bcfc8ee350f68ee9e0a8ba911a",
       "human_reviewed": false,
@@ -14221,6 +15102,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Stad van God",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "bf228b1bb87c8a1c059656c36e9946e0eba701253d36108ddd46b51a1cea2d50",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "Volwassene die de hand vasthoudt van een klein kind dat buiten loopt",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "b10f37e1ce9d3458384cff82b3b7255a5123f0d6bcc59e9bc10a5e2896d59224",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sister to Sister",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Een vreugdevolle roeping",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -15852,6 +16761,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "4a052084fb57534f6228cce8e0866b87f72926ed5c67f7658e729f13e757006c",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Melkeveien og stjerner over mørke fjell og vann",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "27f0092640fd15f8ab02d237daf79e231572bf95cf7f40f1e2246f0b365c7172",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hva ser du?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "603358da1919cfffbb15e5b8dbfc33abfdcacd6ac456cca82aaec449e253b8da",
       "human_reviewed": false,
@@ -17208,6 +18145,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "1c915b94d1395ea042048cf6ff5f1015bdc4d6a99a781eaaea6607b066c2f436",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "1a45986e1752d2c31374f4f4b0189a794d1ee5bd168416157c49302aa6b79401",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Do Editor",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Do Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "623b15c04747a058c986805f0c60841ac6d39c1e0ef889ece7bddd8f82e8966e",
       "human_reviewed": false,
@@ -17323,6 +18288,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Cidade de Deus",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "398264f50910d974979b91b62bc57d1071afa27510b4a73234e309fa08d0076d",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "Adulto segurando a mão de uma criança pequena caminhando ao ar livre",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "49048411adfda5d05d61c40b7e849c39848be22bad5694661f7d3c72128bee01",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sister to Sister",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Uma Vocação Alegre",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -17574,6 +18567,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jamin Fica Mais Esperto",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "b01f783db5fe1693bc901ef8f9663334cec47d4aeec323cce2517f49546e9016",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "Pessoa solitária de capuz com mochila sentada acima de uma paisagem enevoada",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "9bfde90fdfff845341ef638372058499a454d7b52432fe1b62cf82183e28c754",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Uma palavra de um médico",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Isolamento",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -18688,6 +19709,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "92af836a3f9ed05471409d157ba6f9e2d12deb97a0e727768621c39daba93028",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "67a824c0300dd7b3f1703c7a8c0fcc5b83164b1b076d46253066cc2354eb5eed",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "От редактора",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "96a32bb3ec1e36f6b89aa46953a709fbc9865bd63d24958ade477df293089ad8",
       "human_reviewed": false,
@@ -18808,6 +19857,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "fcad9dc16e70b2424c4ba733cfec3f45aa0ac328910cd515d07ddcce67eec05b",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Млечный Путь и звёзды над тёмными горами и водой",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "3fc7a572b2e8f8e5e8a6c90adc5e68d8a5d33eba174ab552470ff2680716fa2a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Что ты видишь?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "6a7a9f0eb9c9499e6d98f3a523137d49577c1b2e3b30d0d1897995f20e56d3da",
       "human_reviewed": false,
@@ -18859,6 +19936,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Перегрузка обстоятельствами",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
+      "html_sha256": "c92088e6c65ea99f6ea0c2eb4bcabff13ec263c58e98f030b93d676eb0459f13",
+      "human_reviewed": false,
+      "id": "964d8688-6491-4ede-9271-c923db4c4079",
+      "images": [
+        {
+          "alt": "Потрёпанная деревянная рыбацкая лодка, плавающая по спокойной воде",
+          "public_path": "/images/articles/964d8688-6491-4ede-9271-c923db4c4079-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/964d8688-6491-4ede-9271-c923db4c4079.json",
+      "metadata_sha256": "c2b4833df599dce25ba5eb3ce16d1482b256dbea486c03619de87128bc24e170",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Церковь Нового Завета",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Призыв к ученичеству",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -20153,6 +21258,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "270c87cd9d31ce052211c0adbed14d5a415b0b0b52793d17afaea369aa1477f0",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Vía Láctea y estrellas sobre montañas oscuras y agua",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "f9d6ee967712b16471d0933338218ca7955042d9f91a8063782c125e9b5d9429",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "¿Qué ves?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "f44908a8e5479bc41e04dbf168ed29882328cab94c21dc64db90c56270665234",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "Un adulto sosteniendo la mano de un niño pequeño mientras caminan al aire libre",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "0ae9229c7181384291d9ba2805b675a56d2f4c393ec9e4effa31dc5e6301a558",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "De hermana a hermana",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un llamamiento gozoso",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
       "html_sha256": "f577c6cb619ec69f2aa6e619cf6e6cd82e8a71441bf0f1ee7499c3c3b851f389",
       "human_reviewed": false,
@@ -20491,6 +21652,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jamin se vuelve listo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "3889ecc1adcdbf866b77638641122ddba63761c237f6c294d69ecdf34b57ce87",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "Persona solitaria con capucha y mochila sentada sobre un paisaje brumoso",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "75815a6abee85b2670474b8ab45e792c2c86bdad702d0ecd29f3edba0500417c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Una palabra de un médico",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Aislamiento",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -21291,6 +22480,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "29b6df2892c8023f989c7e6f6a97ee708f34f6dd9ecf81163ef2a10c5e8a6d2f",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "8d9ed6e8a0f48b95988ad8c9d36032f5490bd36f2f213356e9309f04facac464",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kutoka kwa Mhariri",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kutoka kwa Mhariri",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "4f22588778fbdca3ad9269fae0f4aff29df39eff74c4228a6b71cb39c8826eb6",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Mwanzo wa Njia ya Maziwa na nyota juu ya milima na maji yaliyo giza",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "c84587acfa719895a84cf8815e6b3aef2ec1088910fec9e66fdb6cf6df78277d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Unaona Nini?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "ae409ad6c8a71f50e3899165f9ac4c356104880095a23949ad3e2508859f5fe2",
       "human_reviewed": false,
@@ -21962,6 +23207,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
+      "html_sha256": "7a6bc6e8183279ef12dd33ffbc18794132c6f4fc3c755ed3a4ff962975da2760",
+      "human_reviewed": false,
+      "id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
+      "images": [],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.json",
+      "metadata_sha256": "cf3366d3539c6317dac2fb1075a883dba8510c4e6ae36092eaf5d8b476b8c3bf",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Reflektioner från en missionär",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Om du älskar ditt liv…",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "600faaa355844a578cdcfa4d6b130c34430145dff2d7c858f42d7ddc378a7b67",
       "human_reviewed": false,
@@ -22118,6 +23386,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "e7568960ef7fd883200c71e270ab6a1e7d2861f36fa5f55f9196474e4c4f8f3b",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "7929aae4d60dfece24e4dc12350eb9dd0ac07571ec9f7fca94be7e1e439aba16",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Från redaktören",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "dc0ddb06c92eca410b5b9c9e0fff078990e65fd99a7f89181f2f67454d9656c4",
       "human_reviewed": false,
@@ -22169,6 +23465,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Från redaktören",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
+      "html_sha256": "f15896c881937e20d4e184195db590ca3f7f48472e620e2872b528c1b241993f",
+      "human_reviewed": false,
+      "id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
+      "images": [
+        {
+          "alt": "Vintergatan och stjärnor över mörka berg och vatten",
+          "public_path": "/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.json",
+      "metadata_sha256": "d11aabff9fc2e1d9eba2e27de4c31169baec65a1e2104061dbe4db0c20482aa6",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vad ser du?",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -23457,6 +24781,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "0fcd1dbad0a386ef67788c464e54646b8f4e945d804f9fb2a23dafd38e0c5bf6",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "2d2cf85f13ea56996c0c023388d9f42dc80db959680ceb91fdb12202b755ce75",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ایڈیٹر سے",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ایڈیٹر سے",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "50dc9887a5dfaadf41464ad0982a0987ccee5c50d803ccea06bc9ca6aebb1128",
       "human_reviewed": false,
@@ -23480,6 +24832,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "مدیر سے",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/64012528-bcec-4189-96b5-32a226869815.html",
+      "html_sha256": "6450ad108ebdf4b4b1bb06192fa908cdc581ffc9d93316fc2524e51fc37d739e",
+      "human_reviewed": false,
+      "id": "64012528-bcec-4189-96b5-32a226869815",
+      "images": [
+        {
+          "alt": "ایک شخص کا سائے نما نقشہ جو دونوں ہاتھ آسمان کی جانب اٹھائے ہوئے ہے",
+          "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/64012528-bcec-4189-96b5-32a226869815.json",
+      "metadata_sha256": "07e084354f94b640c5b1d38990a66c3d614c079480f9fec30cf9b769fc6d854e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "وہ لڑائی جو جاری ہے",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -23623,6 +25003,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "جیمِن ہوشیار ہوتا ہے",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "0773d134c7543126c031285761676b5bb6b885a39701722431aa25a8d874b5f8",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "دھندلے منظر کے اوپر بیٹھا ہوا ایک انجواکار، ہوڈ والا شخص، جس کے ساتھ ایک بیگ ہے",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "4857537ecd5e01dc1a0178b5ac7f2cb2e392924c586c45697f0e017a4f71b79b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ڈاکٹر کی جانب سے ایک کلام",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "تنہائی",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

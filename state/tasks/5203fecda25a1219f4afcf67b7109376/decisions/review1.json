@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line 6 (English: \"He spreads all his lies, the truth to distort.\")",
+      "severity": "major",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "Replace the Hebrew phrase with a clear, grammatical equivalent that preserves the original meaning. Example: \"הוא מפיץ את כל שקריו כדי לעוות את האמת.\"",
+      "translation_quote": "הוא מפיץ את כל שקריו, לעוות את האמת נכשלת דרכו."
+    },
+    {
+      "location": "<p class=\"poem\"> line 10 (English: \"He’ll trick and deceive, each soul to pursue.\")",
+      "severity": "major",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Remove the extraneous/incorrect words and render the line clearly. Example: \"הוא יטעה וימרמה, ירדוף כל נפש.\"",
+      "translation_quote": "הוא יטעה ויחמיא, כל נפש לרדוף בלי תיק."
+    },
+    {
+      "location": "<p class=\"poem\"> line 16 (English: \"To find one perfect, His power He’ll show!\")",
+      "severity": "minor",
+      "source_quote": "To find one perfect, His power He’ll show!",
+      "suggested_fix": "Use a Hebrew phrasing that conveys the promise/plain sense without adding tone words like \"בחן\". Example: \"למצוא אפילו אחד מושלם — יגלה את כוחו!\"",
+      "translation_quote": "למצוא אחד מושלם, את כוחו יגלה בחן!"
+    },
+    {
+      "location": "<p class=\"poem\"> line 17 (English: \"Let’s be done with the lesser and look far beyond.\")",
+      "severity": "minor",
+      "source_quote": "Let’s be done with the lesser and look far beyond.",
+      "suggested_fix": "Use a more idiomatic Hebrew equivalent of \"be done with the lesser.\" Example: \"נסיים עם הקטן ונביט אל מעבר לכך.\"",
+      "translation_quote": "נשבור את הקטן ונביט אל מעבר למרחב."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

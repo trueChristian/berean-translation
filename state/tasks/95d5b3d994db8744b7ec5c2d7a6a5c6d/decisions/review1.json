@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p><em>–by Daniel Kaufman</em></p> (author attribution inside source.html)",
+      "severity": "minor",
+      "source_quote": "<p><em>–by Daniel Kaufman</em></p>",
+      "suggested_fix": "Preserve the original inline attribution structure and punctuation while translating the name. For example: <p><em>– Дэниел Кауфман</em></p> (keep the leading dash character as in the source).",
+      "translation_quote": "<p><em>— Дэниел Кауфман</em></p>"
+    },
+    {
+      "location": "Poem line: \"beyond the knowledge of this human race.\"",
+      "severity": "minor",
+      "source_quote": "beyond the knowledge of this human race.",
+      "suggested_fix": "Use a more idiomatic Russian phrase for \"this human race\" such as «этого человечества» to improve naturalness while preserving meaning. Suggested line: «За пределами познания этого человечества.»",
+      "translation_quote": "За пределами познания этого человеческого рода."
+    },
+    {
+      "location": "Poem line: \"Which stretch the mind almost to breaking point and make you feel the size you really are?\"",
+      "severity": "minor",
+      "source_quote": "Which stretch the mind almost to breaking point and make you feel the size you really are?",
+      "suggested_fix": "Improve word order to sound more natural in Russian while keeping the meaning. Suggested rendering: «Что ум доводят почти до предела и заставляют ощутить, каким ты на самом деле мал?»",
+      "translation_quote": "Что ум почти доводят до предела и ломают,\n    И заставляют ощущать, какой ты на самом деле мал?"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

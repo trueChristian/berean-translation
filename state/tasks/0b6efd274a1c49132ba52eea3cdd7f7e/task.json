@@ -2,7 +2,6 @@
   "article_id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 2309
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1151,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1778,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2929
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<div class=\"poem\">…</div> (line: \"With many a mystery light somewhere up there?\")",
+      "severity": "major",
+      "source_quote": "With many a mystery light somewhere up there?",
+      "suggested_fix": "Replace the mistranslated phrase with a natural Hebrew equivalent conveying “a mysterious light” (not lightning). Example: \"ועליה כאן ושם ניצוץ של אור מסתורי?\" or \"ועליה כאן ושם אור מסתורי?\"",
+      "translation_quote": "ועליה כאן ושם ברק של תעלומה?"
+    },
+    {
+      "location": "<div class=\"poem\">…</div> (line: \"That greatness, vastness, emptiness of space\")",
+      "severity": "major",
+      "source_quote": "That greatness, vastness, emptiness of space",
+      "suggested_fix": "Remove the accidental English word and render the three nouns in Hebrew. Example: \"את הגדולה, העצמתה והריקנות של החלל\" or \"את הֶעֹצְמָה, הָרֹחַב וְהָרִיק־רוּחַ של החלל\" (prefer simple: \"את הגדולה, הרוחב והריק של החלל\"). Ensure idiomatic Modern Hebrew: \"את הַגָּדְלָה, הָרֹחַב וְהָרִיקוּת של החלל.\"",
+      "translation_quote": "את הגדולה, הה vastness, הריק של החלל —"
+    },
+    {
+      "location": "<div class=\"poem\">…</div> (line: \"A great black blanket stretched o’er all the sky\")",
+      "severity": "minor",
+      "source_quote": "A great black blanket stretched o’er all the sky",
+      "suggested_fix": "The current Hebrew \"שמיכה שחורה גדולה המתוחה על כל השמיים\" is understandable but slightly stilted. Suggest a more idiomatic wording: \"שמיכה שחורה ורחבה המתוחה על פני כל השמים\" or \"שמיכה שחורת־עצם המתוחה על כל השמים.\"",
+      "translation_quote": "שמיכה שחורה גדולה המתוחה על כל השמיים"
+    },
+    {
+      "location": "<div class=\"poem\">…</div> (byline and author line)",
+      "severity": "minor",
+      "source_quote": "–by Daniel Kaufman",
+      "suggested_fix": "Byline preserved but site uses separate metadata; the in-article byline \"–מאת דניאל קאופמן\" is acceptable. No change required unless you prefer the more common spelling \"דניאל קאופמן\" (current form is correct).",
+      "translation_quote": "–מאת דניאל קאופמן"
+    }
+  ],
   "id": "0b6efd274a1c49132ba52eea3cdd7f7e",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 81,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

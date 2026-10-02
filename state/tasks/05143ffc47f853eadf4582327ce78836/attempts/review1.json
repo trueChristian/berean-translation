@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<h3>Saviour, Like A Shepherd Lead Us</h3>\",\"severity\":\"major\",\"source_quote\":\"<h3>Saviour, Like A Shepherd Lead Us</h3>\",\"suggested_fix\":\"Traduire le titre de l’hymne dans la balise h3 en français tout en conservant la structure HTML. Par exemple : <h3>Sauveur, comme un berger conduis‑nous</h3>\",\"translation_quote\":\"<h3>Saviour, Like A Shepherd Lead Us</h3>\"},{\"location\":\"<p>“Savais‑tu que grand‑père n’était pas là aujourd’hui ? À la dernière minute, ils ont décidé d’aller assister à un autre culte ce matin.”</p>\",\"severity\":\"minor\",\"source_quote\":\"“Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.”\",\"suggested_fix\":\"Rendre le nombre cohérent et naturel en français. Conserver la structure p et la ponctuation. Par exemple : <p>« Savais‑tu que tes grands‑parents n’étaient pas là aujourd’hui ? À la dernière minute, ils ont décidé d’aller assister à un autre culte ce matin. »</p>\",\"translation_quote\":\"<p>« Savais‑tu que grand‑père n’était pas là aujourd’hui ? À la dernière minute, ils ont décidé d’aller assister à un autre culte ce matin. »</p>\"}],\"passed\":false,\"score\":85}",
+    "content_bytes": 1260,
+    "content_evidence_truncated": false,
+    "content_sha256": "150d6702dff7d8f027f29a2464468e8e53f195e90bc157702299afb45866e487",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1043,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5473
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

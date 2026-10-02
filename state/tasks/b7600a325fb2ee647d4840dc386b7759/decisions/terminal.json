@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Endnotes (source.html - bottom ordered list)",
+      "severity": "minor",
+      "source_quote": "<ol>\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\n  </ol>",
+      "suggested_fix": "Translate or localize the endnote text into standard written Chinese while preserving the original URLs and the HTML structure. For example, render site names and descriptive text in Chinese (keep the bare URLs intact if desired) and keep the <ol> and <li> tags unchanged. Example suggestion (replace only the visible text, not the markup): <ol><li><em>MarionStar 网站文章：role-mothers-changed-years（2015/05/09） — Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li><li><em>Bookroo：伊丽莎白·艾略特的22条最佳书籍名言（Bookroo.com）</em></li></ol>",
+      "translation_quote": "<ol>\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\n  </ol>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

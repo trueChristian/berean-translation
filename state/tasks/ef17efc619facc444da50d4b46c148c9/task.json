@@ -2,7 +2,6 @@
   "article_id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 7382
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 770,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7096,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7866
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — Titus 2:3-5 (first scripture block)",
+      "severity": "minor",
+      "source_quote": "The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things;",
+      "suggested_fix": "Replace the awkward Korean word '태위' with the standard, natural word '태도' to read '거룩함에 합당한 태도를 가지고' so the sentence is clear and idiomatic while preserving the original meaning.",
+      "translation_quote": "늙은 여성들 도 이와 같이 행동하여 거룩함에 합당한 태위를 가지고 근거 없는 비방을 하지 말며 술을 많이 마시지 말며 착한 일을 가르치는 자들이 되게 하라."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:11+00:00",
   "id": "ef17efc619facc444da50d4b46c148c9",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "kor",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

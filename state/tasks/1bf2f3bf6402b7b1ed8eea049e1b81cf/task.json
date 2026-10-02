@@ -2,7 +2,6 @@
   "article_id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 7011
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1780,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6672,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8452
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Genesis 2:18-20 (source.html first Scripture paragraph)",
+      "severity": "critical",
+      "source_quote": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him … And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found an help meet for him –Genesis 2:18-20.",
+      "suggested_fix": "Återge den citerade versen troget på svenska och använd ett konventionellt svenskt boknamn och versmärkning. Bevara den bibliska meningen: t.ex. \"Och HERREN Gud sade: 'Det är inte gott att människan är allena; jag vill göra en hjälp såsom står honom bi' … Och Adam gav namn åt allt kreatur, åt himlens fåglar och åt alla fälts djur; men för Adam fanns ingen som stod honom bi – Första Mosebok 2:18-20.'\". Behåll artikelens HTML-struktur och kursiv stil runt citatet.",
+      "translation_quote": "<em>Och HERREN Gud sade: Det är inte gott att mannen är allena; jag vill göra en ränna åt honom, som svarar mot honom ... Och Adam gav namn åt allt boskap, åt himlens fåglar och åt alla fälts djur; men för Adam fanns ingen som svarade mot honom –Genesis 2:18-20.</em>."
+    },
+    {
+      "location": "Same paragraph, phrase translation of 'help meet'",
+      "severity": "critical",
+      "source_quote": "I will make him an help meet for him",
+      "suggested_fix": "Byt ut den felaktiga frasen \"jag vill göra en ränna åt honom\" mot en korrekt översättning av 'an help meet for him' som fångar bibelmeningen på svenska, t.ex. \"en hjälp som står honom bi\" eller \"en lämplig hjälp\". Bevara kursiv taggen kring hela bibelcitatraden.",
+      "translation_quote": "jag vill göra en ränna åt honom, som svarar mot honom"
+    },
+    {
+      "location": "Multiple Scripture citations (Genesis, 1 Kings, 2 Timothy, Hebrews, Galatians, etc.)",
+      "severity": "major",
+      "source_quote": "… –Genesis 2:18-20. … –Genesis 2:21-22. … –1 Kings 19:10. … –1 Kings 19:18. … –2 Timothy 4:9-11. … –Hebrews 10:25. … –Galatians 6:5, … –Galatians 6:2.",
+      "suggested_fix": "Använd konventionella svenska boknamn för alla bibelreferenser och bibelcitat och behåll exakt kapitel:vers-numrering och placering. Exempel: ersätt 'Genesis' med 'Första Mosebok', '1 Kings' med 'Första Konungaboken', '2 Timothy' med 'Andra Timotheosbrevet' eller 'Andra Timoteusbrevet' enligt publicistens stil, 'Hebrews' med 'Hebreerbrevet' och 'Galatians' med 'Galaterbrevet'. Bibelcitat ska förbli översatta på svenska (inte bara boknamnet). Bibelreferenseniblandningen i originaltexten måste speglas exakt i översättningen (samma versnummer och placering).",
+      "translation_quote": "Exempel från översättningen: \"–Genesis 2:18-20.\", \"–1 Kings 19:10.\", \"–2 Timothy 4:9-11.\", \"–Hebrews 10:25.\", \"–Galatians 6:5,\""
+    },
+    {
+      "location": "Paragraph discussing the Greek word 'Koinonia'",
+      "severity": "minor",
+      "source_quote": "The Greek word translated fellowship in the New Testament is “Koinonia” and in the Bible it speaks of relationships that are founded on a shared love for God and for the church—a unity of belief and desire.",
+      "suggested_fix": "'Koinonia' bör antingen återges med versaler som ett grekiskt ord eller kursiveras konsekvent och gärna följas av en svensk translitteration eller förklaring. Förtäta meningen något för idiomatisk svensk stil, men behåll teologisk betydelse. Förslagsvis: 'Det grekiska ordet koinonia (κοινωνία), översatt 'gemenskap' i Nya testamentet, syftar på relationer...'. Behåll HTML-formatet och eventuella em-/strong-taggar.",
+      "translation_quote": "Det grekiska ordet som översätts med <em>gemenskap</em> i Nya testamentet är ”koinonia” och i Bibeln talar det om relationer som grundar sig på en gemensam kärlek till Gud och till kyrkan — en enhet i tro och önskan."
+    },
+    {
+      "location": "Paragraph 'Jag är rädd att många idag befinner sig…' (membership sentence)",
+      "severity": "minor",
+      "source_quote": "First, they may not be a member of any church congregation. While this may be unavoidable in certain mission outreach situations, it is not ideal, and most certainly it should not be a normal situation.",
+      "suggested_fix": "Meningen 'de kan vara medlem i ingen församling' är grammatiskt felaktig svenska. Förenkla och korrigera: 'För det första kan de vara medlem i ingen församling' -> 'För det första kan de sakna medlemskap i någon församling' eller 'För det första kan de inte vara medlemmar i någon församling.' Bevara HTML- och styckestruktur.",
+      "translation_quote": "För det första kan de vara medlem i ingen församling."
+    }
+  ],
   "id": "1bf2f3bf6402b7b1ed8eea049e1b81cf",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swe",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59ce8c968d768b658069049f4a1a3e07549e5e1e1925fbea530450e323a86220.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

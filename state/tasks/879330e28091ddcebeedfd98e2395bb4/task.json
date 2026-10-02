@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,59 @@
         },
         "total_tokens": 1884
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1166,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1737,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2903
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Battle That Rages",
+      "suggested_fix": "Use a more natural contemporary Greek title. Replace the title text while preserving HTML structure and attributes. For example: \"Η μάχη που μαίνεται\" or \"Η μάχη που οργιάζει\". Keep capitalization style consistent with site conventions.",
+      "translation_quote": "Η Μάχη Που Οργίζεται"
+    },
+    {
+      "location": "<p class=\"poem\"> line 2",
+      "severity": "minor",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Remove the added nuance \"και θα χαθούν\" (\"and will be lost\") which adds emphasis not present in the source. Suggestion: translate as \"Τα κακά θα πάνε όλα στην κόλαση.\" or, slightly more idiomatic, \"Όλα τα κακά θα πάνε στην κόλαση.\" Preserve HTML tags and line breaks.",
+      "translation_quote": "Τα κακά θα πάνε όλα στην κόλαση και θα χαθούν."
+    },
+    {
+      "location": "<p class=\"poem\"> lines 15–16",
+      "severity": "minor",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "The translation uses «σκανάρουν» (a modern/loan verb) and «έναν τέλειο» (ambiguous/awkward gendered phrase). Prefer more natural phrasing that preserves meaning: e.g. \"Διότι τα μάτια του Κυρίου περιφέρονται πέρα–δώθε,\nγια να βρουν έναν τέλειο· τη δύναμή Του θα δείξει!\" or better still \"Διότι τα μάτια του Κυρίου κοιτούν πέρα‑δώθε,\nγια να βρουν κάποιον τέλειο· τότε θα φανερώσει τη δύναμή Του!\" Preserve the poem tags and line breaks.",
+      "translation_quote": "Διότι τα μάτια του Κυρίου σκανάρουν πέρα–δώθε,\nΓια να βρουν έναν τέλειο· τη δύναμή Του θα δείξει!"
+    },
+    {
+      "location": "<p class=\"poem\"> line 12",
+      "severity": "minor",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "The Greek sentence «Όταν όμως αντιμετωπίζει τη δύναμη του Θεού, εκείνος—κρύβεται!» is slightly ambiguous about the subject of \"faces/encounters.\" Make it explicit that the devil hides when confronted by God's power. For example: \"Όταν ο διάβολος αντιμετωπίζει τη δύναμη του Θεού, κρύβεται!\" or \"Όταν αντιμετωπίζει τη δύναμη του Θεού, ο διάβολος κρύβεται!\" Preserve punctuation and HTML structure.",
+      "translation_quote": "Όταν όμως αντιμετωπίζει τη δύναμη του Θεού, εκείνος—κρύβεται!"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "879330e28091ddcebeedfd98e2395bb4",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ell",
@@ -100,11 +149,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

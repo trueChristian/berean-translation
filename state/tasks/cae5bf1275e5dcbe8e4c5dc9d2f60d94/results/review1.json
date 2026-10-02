@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "465ffe31-95f0-451d-8751-97d0ade5b8e6",
+    "response_id": "chatcmpl-EUX8T78XhpQ691cfmVicsL7w2G5z3",
+    "usage": {
+      "completion_tokens": 2285,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10278,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12563
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Top blockquote (opening Scripture Luke 24:17)",
+        "severity": "major",
+        "source_quote": "And he said unto them, What manner of communications are these that ye have one to another, as ye walk, and are sad? –Luke 24:17.",
+        "suggested_fix": "Translate this quoted Scripture into Swedish, using the conventional Swedish book name and preserving the chapter and verse reference. Example: \"Och han sade till dem: Vad äro dessa ord som I hava med hvarandra under vägen, då I gå och ären bedrövade? –Lukas 24:17.\" Preserve the <em> tag and the exact placement within the blockquote and paragraph.",
+        "translation_quote": "And he said unto them, What manner of communications are these\n    that ye have one to another, as ye walk, and are sad? –Luke 24:17."
+      },
+      {
+        "location": "Paragraph containing Jeremiah quote (third paragraph)",
+        "severity": "major",
+        "source_quote": "Why is my pain perpetual, and my wound incurable, which refuseth to be healed? wilt thou be altogether unto me as a liar, and as waters that fail? –Jeremiah 15:18.",
+        "suggested_fix": "Translate this quoted Scripture into Swedish, using the conventional Swedish book name and preserving the chapter and verse reference. Example: \"Varför blir min smärta evig och min sår icke läkes, och du gör mig till en lögnare och som vatten som svika? –Jeremia 15:18.\" Keep the <em> tag and punctuation exactly as in the source.",
+        "translation_quote": "Why is my pain perpetual, and my wound incurable, which refuseth to be healed? wilt thou be altogether unto me as a liar, and as waters that fail? –Jeremiah 15:18."
+      },
+      {
+        "location": "Paragraph quoting 2 Corinthians 1:8-9",
+        "severity": "major",
+        "source_quote": "For we would not, brethren, have you ignorant of our trouble which came to us in Asia, that we were pressed out of measure, above strength, insomuch that we despaired even of life: But we had the sentence of death in ourselves, that we should not trust in ourselves, but in God which raiseth the dead –2 Corinthians 1:8-9.",
+        "suggested_fix": "Translate the quoted passage into Swedish, preserving book name and reference. Example: \"Vi vilja ju icke, bröder, att I skolen vara ovetande om vårt trångmål som kom till oss i Asien: vi blevo tryckta utom vår förmåga, övermåttan betryckta, så att vi förtvivlade om livet självt; men vi hade dödsdommen i oss, för att vi icke skulle förlita oss på oss själva utan på Gud som uppväcker de döda –2 Korintierbrevet 1:8-9.\" Keep the <em> tag and placement.",
+        "translation_quote": "For we would not, brethren, have you ignorant of our trouble which came to us in Asia, that we were pressed out of measure, above strength, insomuch that we despaired even of life: But we had the sentence of death in ourselves, that we should not trust in ourselves, but in God which raiseth the dead –2 Corinthians 1:8-9."
+      },
+      {
+        "location": "Multiple other in-body Scripture quotations (examples: Acts 7:25; Numbers 11:14-15; Luke 24:16; 1 Corinthians 13:12; Genesis 28:20-21; Genesis 32:24-28; Job 24:17; Job 3:1-6; Luke 24:21; 2 Kings 5:11; Genesis 15:12; 2 Corinthians 1:9; Luke 24:21; Psalm 13:1; Genesis 41:1; Psalm 105:18-19; Luke 24:22-23; 1 Kings 19:4; Luke 24:24; John 1:29; Luke 7:19; Matthew 27:46; Mark 16:13)",
+        "severity": "major",
+        "source_quote": "(Multiple full quoted verses appear throughout the article in English — e.g. \"…supposed his brethren would have understood how that God by his hand would deliver them: but they understood not –Acts 7:25.\")",
+        "suggested_fix": "All quoted Scripture passages in the article must be translated into Swedish, using conventional Swedish book names and keeping the exact chapter/verse numbers and their placement. Ensure each <em>..</em> formatting and punctuation mirrors the source HTML. For example, Acts 7:25 could be rendered: \"…han trodde att hans bröder skulle förstå huru Gud genom hans hand skulle frälsa dem; men de förstod det icke –Apostlagärningarna 7:25.\" Apply similarly for all other quoted verses.",
+        "translation_quote": "(Repeated instances of English full scripture quotations appear in translation unchanged, e.g. \"…supposed his brethren would have understood how that God by his hand would deliver them: but they understood not –Acts 7:25.\")"
+      },
+      {
+        "location": "Paragraph: \"Vägen från Jerusalem till Emmaus var <em>about threescore furlongs</em>...\"",
+        "severity": "major",
+        "source_quote": "The road from Jerusalem to Emmaus was <em>about threescore furlongs</em> or approximately seven miles.",
+        "suggested_fix": "Translate the emphasized phrase into Swedish (or give equivalent Swedish phrasing), preserving the explanatory parenthetical that follows. Example: \"Vägen från Jerusalem till Emmaus var ungefär tre gånger tjugo furlong (ungefär sju engelska mil).\" Keep the <em> tag around the quoted phrase as in source HTML.",
+        "translation_quote": "Vägen från Jerusalem till Emmaus var <em>about threescore furlongs</em> eller ungefär sju miles."
+      },
+      {
+        "location": "First paragraph: distance conversion",
+        "severity": "major",
+        "source_quote": "On June 6, 1944, 156,000 American, British, and Canadian troops landed on a 50-mile stretch of beach in Normandy, France.",
+        "suggested_fix": "Correct the numeric distance conversion. The source says a 50-mile stretch. In Swedish you may either keep the original imperial measurement and add a metric equivalent, or convert accurately. Suggested fix: \"Den 6 juni 1944 landsteg 156 000 amerikanska, brittiska och kanadensiska trupper på en 50 miles lång strandremsa i Normandie, Frankrike (ungefär 80 kilometer).\" Preserve punctuation and placement.",
+        "translation_quote": "Den 6 juni 1944 landsteg 156 000 amerikanska, brittiska och kanadensiska trupper på en fyrtiofem kilometers strandremsa i Normandie i Frankrike."
+      },
+      {
+        "location": "D-word list in first paragraph",
+        "severity": "minor",
+        "source_quote": "It appears rather coincidental that so many words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.",
+        "suggested_fix": "The translation contains duplicated words and slight register inconsistencies (e.g., 'förtvivlan' appears twice). Review for duplication and choose consistent, idiomatic Swedish equivalents. Example list: \"besvikelse, tvivel, sorgsenhet, undergång, desillusion, nedslagenhet, dysterhet, nederlag, förtvivlan, depression, ödeläggelse, bedrägeri och död.\"",
+        "translation_quote": "Det förefaller i högsta grad sammanträffande att så många ord med negativ klang börjar på bokstaven D: besvikelse, tvivel, sorgsenhet, undergång, desillusion, nedslagenhet, dyster, nederlag, förtvivlan, depression, förtvivlan, ödeläggelse, bedrägeri och död."
+      },
+      {
+        "location": "Verse references left in English parenthetical and inline (e.g., \"(see Proverbs 13:12)\", \"(Genesis 41:1)\")",
+        "severity": "major",
+        "source_quote": "(see Proverbs 13:12) ; two full years (Genesis 41:1)",
+        "suggested_fix": "Localize the Bible book names in parentheses to Swedish while keeping chapter/verse numeration unchanged and preserving parentheses. Examples: \"(se Ordspråksboken 13:12)\" and \"(två hela år; 1 Moseboken 41:1)\" or keep the original formatting but change 'Genesis' to '1 Moseboken' as appropriate. Ensure consistency across all in-text references.",
+        "translation_quote": "(see Proverbs 13:12) ; (Genesis 41:1)"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

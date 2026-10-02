@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c2067167-ff84-4230-b32d-052ea16b985c",
+    "response_id": "chatcmpl-EUX80xkj0uYV57Yx9HwsnxZGJAraD",
+    "usage": {
+      "completion_tokens": 1130,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2873
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> first stanza, line 5",
+        "severity": "minor",
+        "source_quote": "With many a mystery light somewhere up there?",
+        "suggested_fix": "Translate more idiomatically and grammatically: replace \"Med många ljus som något mysterium där?\" with e.g. \"Med många mystiska ljus där uppe?\" to convey the sense and read naturally in Swedish.",
+        "translation_quote": "Med många ljus som något mysterium där?"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza beginning \"I the still silence...\",\"line\":\"I the still silence of the spacious sky,\"",
+        "severity": "minor",
+        "source_quote": "In the still silence of the spacious sky,",
+        "suggested_fix": "Fix grammatical agreement and idiomatic phrasing: replace \"I den stilla tystnad i det vida sky\" with e.g. \"I den stilla tystnaden i den vida himlen\" or \"I den stilla tystnaden i det vida skyn\".",
+        "translation_quote": "I den stilla tystnad i det vida sky"
+      },
+      {
+        "location": "<div class=\"poem\"> lines about the moon, third stanza",
+        "severity": "minor",
+        "source_quote": "And yet it took man three whole days to reach\nThat tiny sphere so very close at hand.",
+        "suggested_fix": "Correct grammatical gender/word form: replace \"den lilla klotet\" with \"det lilla klotet\" (or use \"det lilla klotet\"/\"det lilla himlakroppen\") so the noun and article agree.",
+        "translation_quote": "Att nå den lilla klotet så nära till hands."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

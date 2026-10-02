@@ -2,7 +2,6 @@
   "article_id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 2102
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 934,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1753,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2687
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Poem, line: \"And humbly bow our heads and worship Him.\"",
+      "severity": "minor",
+      "source_quote": "And humbly bow our heads and worship Him.",
+      "suggested_fix": "Replace the translated phrase preserving HTML structure. In the translation file, change: \"Et humblement incliner nos têtes et L'adorer.\" to \"Et humblement incliner nos têtes et l'adorer.\" (lowercase l' to follow French typographic practice for the pronoun when not at the start of a sentence).",
+      "translation_quote": "Et humblement incliner nos têtes et L'adorer."
+    },
+    {
+      "location": "Poem, penultimate stanza, phrase about God's love",
+      "severity": "minor",
+      "source_quote": "we Can feel His greatness and His tender love",
+      "suggested_fix": "Correct the possessive gender for the French noun \"amour\". In the translation, change: \"Puissions percevoir Sa grandeur et Sa tendre amour\" to \"Puissions percevoir Sa grandeur et son tendre amour\" (or, to keep divine capitalization consistently, \"Sa grandeur et son tendre amour\").",
+      "translation_quote": "Puissions percevoir Sa grandeur et Sa tendre amour"
+    },
+    {
+      "location": "Poem, early stanza: \"With many a mystery light somewhere up there?\"",
+      "severity": "minor",
+      "source_quote": "With many a mystery light somewhere up there?",
+      "suggested_fix": "Improve idiomatic French while preserving meaning. In the translation, replace the phrase \"Une grande couverture noire étendue sur tout le ciel<br>\n    Avec quelque part des lumières, mystères éparpillés ?\" with a clearer rendering such as: \"Une grande couverture noire étendue sur tout le ciel<br>\n    Avec là‑haut tant de lumières mystérieuses ?\"",
+      "translation_quote": "Une grande couverture noire étendue sur tout le ciel<br>\n    Avec quelque part des lumières, mystères éparpillés ?"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:11+00:00",
   "id": "df117b4f93053e8f26783d3af204e80f",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "fra",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

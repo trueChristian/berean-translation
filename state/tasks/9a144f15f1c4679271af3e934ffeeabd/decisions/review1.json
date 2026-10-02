@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> — author line (final <p><em>…</em></p>)",
+      "severity": "major",
+      "source_quote": "<p><em>–by Daniel Kaufman</em></p>",
+      "suggested_fix": "Replace the translated author line with the exact original author line and punctuation. Change <p><em>–por Daniel Kaufman</em></p> to <p><em>–by Daniel Kaufman</em></p>, preserving the same tags and the dash and spacing exactly.",
+      "translation_quote": "<p><em>–por Daniel Kaufman</em></p>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

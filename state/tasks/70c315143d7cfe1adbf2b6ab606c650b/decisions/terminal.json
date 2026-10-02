@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> paragraph 1, line about the moon",
+      "severity": "minor",
+      "source_quote": "The crescent moon is closer yet to you,",
+      "suggested_fix": "Replace \"Den voksende månen\" with a phrase that matches \"crescent moon\". Suggested wording: \"Halvmånen er enda nærmere deg,\" or \"Sigdmånen er enda nærmere deg,\" depending on preferred Norwegian astronomical/poetic term.",
+      "translation_quote": "Den voksende månen er enda nærmere deg,"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph 1, line about sky silence",
+      "severity": "minor",
+      "source_quote": "In the still silence of the spacious sky,",
+      "suggested_fix": "Avoid the redundant repetition of \"stille\". Suggested wording: \"I den stille, vide himmelen,\" or \"I den stille vidstrakte himmelen,\" to preserve meaning and read naturally in Bokmål.",
+      "translation_quote": "I den stille stillheten i den vide himmel,"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph 1, line about reaching the tiny sphere",
+      "severity": "minor",
+      "source_quote": "And yet it took man three whole days to reach\n    That tiny sphere so very close at hand.",
+      "suggested_fix": "Make the Norwegian phrasing more natural. Suggested wording: \"Og likevel tok det mennesket tre hele dager å nå\n    Den lille sfæren som var så nær,\" or \"...å nå den lille sfæren som lå så nær.\"",
+      "translation_quote": "Og likevel tok det mennesket hele tre dager å nå\n    Den lille sfæren så nær for hånden."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

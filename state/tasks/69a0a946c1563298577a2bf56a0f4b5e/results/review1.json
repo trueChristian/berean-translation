@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "539d60de-2c2c-4a2c-9671-fa74ca659094",
+    "response_id": "chatcmpl-EUX8UtJMHzBt19EuXmCj2XCpIMvZc",
+    "usage": {
+      "completion_tokens": 1073,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4405
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>이번 호의 새로운 것 중 하나는 도널드 브렉빌(형제)의 ‘제자도’ 연재 시작입니다. Disciple이라는 단어는 spelling이 discipline과 거의 같습니다. 많은 사람에게 discipline은 부정적인 뉘앙스를 지니지만, 독자가 도널드 형제가 나누려는 것에 끌리는 데 방해가 되지 않기를 바랍니다.</p>",
+        "severity": "minor",
+        "source_quote": "“Disciple has almost the same spelling as discipline. For many, discipline carries a negative connotation…”",
+        "suggested_fix": "Translate the English words into Korean to avoid leaving translatable substantive words in English. Preserve meaning and tone. For example: replace the sentence with: “‘Disciple’라는 단어의 철자가 ‘discipline’과 거의 비슷합니다. 많은 사람에게 ‘discipline(훈련)’은 부정적인 뉘앙스를 지니지만…” or fully Koreanized: “‘제자(disciple)’라는 말의 철자가 ‘discipline(훈련)’과 거의 비슷합니다. 많은 사람에게 ‘훈련’은 부정적인 뉘앙스를 지니지만…” Ensure the English words “Disciple,” “spelling,” and “discipline” are rendered in Korean (with optional parenthetical English if the editor prefers).",
+        "translation_quote": "Disciple이라는 단어는 spelling이 discipline과 거의 같습니다. 많은 사람에게 discipline은 부정적인 뉘앙스를 지니지만, 독자가 도널드 형제가 나누려는 것에 끌리는 데 방해가 되지 않기를 바랍니다."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

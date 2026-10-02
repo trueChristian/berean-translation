@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html (narrative paragraph mentioning hymn title)\",\"severity\":\"major\",\"source_quote\":\"Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ and although she couldn’t read yet, she knew it was number eight.\",\"suggested_fix\":\"Translate the quoted song title into Dutch to match the translated lyrics and to avoid leaving quoted substantive prose in English. Replace ‘Saviour, Like a Shepherd Lead Us’ with the Dutch rendering used in the translated hymn (for example: ‘Redder, wees ons Herder, leid ons’). Preserve surrounding punctuation and quotation marks.\",\"translation_quote\":\"Haar lievelingslied was ‘Savior, Like a Shepherd Lead Us’ en hoewel ze nog niet kon lezen, wist ze dat het nummer acht was.\"},{\"location\":\"source.html (h3 heading and later heading)\",\"severity\":\"major\",\"source_quote\":\"Saviour, Like A Shepherd Lead Us\",\"suggested_fix\":\"Translate the hymn title in the heading into Dutch so the heading matches the translated lyrics and the requirement that quoted substantive prose be presented in the target language. Replace the English heading text with a Dutch title consistent with the translated hymn (for example: “Redder, wees ons Herder, leid ons”).\",\"translation_quote\":\"Savior, Like A Shepherd Lead Us\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1312,
+    "content_evidence_truncated": false,
+    "content_sha256": "6c4c92a04731a1c1a17ea38a91d32def1edf071af7fcd52ba403435b1d95ad45",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4265,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5067
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

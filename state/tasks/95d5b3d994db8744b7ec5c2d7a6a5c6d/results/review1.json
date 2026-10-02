@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dd95d633-ff2e-48bf-82a8-738d0f5574fd",
+    "response_id": "chatcmpl-EUX8g4fvDoiO4aA2ZWQ2NJks9FPeC",
+    "usage": {
+      "completion_tokens": 955,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1796,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2751
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p><em>–by Daniel Kaufman</em></p> (author attribution inside source.html)",
+        "severity": "minor",
+        "source_quote": "<p><em>–by Daniel Kaufman</em></p>",
+        "suggested_fix": "Preserve the original inline attribution structure and punctuation while translating the name. For example: <p><em>– Дэниел Кауфман</em></p> (keep the leading dash character as in the source).",
+        "translation_quote": "<p><em>— Дэниел Кауфман</em></p>"
+      },
+      {
+        "location": "Poem line: \"beyond the knowledge of this human race.\"",
+        "severity": "minor",
+        "source_quote": "beyond the knowledge of this human race.",
+        "suggested_fix": "Use a more idiomatic Russian phrase for \"this human race\" such as «этого человечества» to improve naturalness while preserving meaning. Suggested line: «За пределами познания этого человечества.»",
+        "translation_quote": "За пределами познания этого человеческого рода."
+      },
+      {
+        "location": "Poem line: \"Which stretch the mind almost to breaking point and make you feel the size you really are?\"",
+        "severity": "minor",
+        "source_quote": "Which stretch the mind almost to breaking point and make you feel the size you really are?",
+        "suggested_fix": "Improve word order to sound more natural in Russian while keeping the meaning. Suggested rendering: «Что ум доводят почти до предела и заставляют ощутить, каким ты на самом деле мал?»",
+        "translation_quote": "Что ум почти доводят до предела и ломают,\n    И заставляют ощущать, какой ты на самом деле мал?"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

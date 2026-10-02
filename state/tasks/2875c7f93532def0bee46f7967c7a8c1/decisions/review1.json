@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line 3",
+      "severity": "major",
+      "source_quote": "But we must not forget that day has not come.",
+      "suggested_fix": "Vertaal betekenis getrou sonder toevoegings en grammatikaal korrek: bv. \"Maar ons moet nie vergeet dat daardie dag nog nie aangebreek het nie.\" Behoud die poëtiese toon en brokkie HTML-struktuur.",
+      "translation_quote": "Maar ons moet nie vergeet daardie dag het nog nie gekom."
+    },
+    {
+      "location": "<p class=\"poem\"> line 4",
+      "severity": "major",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "Korrekte, natuurlike Afrikaans wat die oorspronklike betekenis bewaar: bv. \"Ons is in 'n geveg; ons moet steeds oorwin.\" (nie 'oorwin kom'). Maak die zin grammatikaal en idiomaties korrek.",
+      "translation_quote": "Ons is in ’n geveg; ons moet steeds oorwin kom."
+    },
+    {
+      "location": "<p class=\"poem\"> line 6",
+      "severity": "major",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "Vertaal die sin getrou sonder om nuwe begrippe by te voeg. Voorstel: \"Hy versprei al sy leuens om die waarheid te verdraai.\" Verwyder die additionele woord 'en verloor' wat nie in die Engelse sin voorkom nie.",
+      "translation_quote": "Hy versprei al sy leuens om die waarheid te verdraai en verloor."
+    },
+    {
+      "location": "<p class=\"poem\"> lines 7-8",
+      "severity": "major",
+      "source_quote": "Sin in our lives, it is his great goal.\nFor he knows very well it will cost us our soul.",
+      "suggested_fix": "Maak die paar betekenisgetrou en sinvol in Afrikaans sonder toevoegings of nonsensiese rymwoorde. Voorstel: \"Sonde in ons lewens is sy groot doelwit, want hy weet goed dit kan ons siel kos.\" Verwyder die onverklaarbare frase 'dit is sy strydwit'.",
+      "translation_quote": "Sonde in ons lewens is sy groot doelwit,\nWant hy weet heel goed dit sal ons siel kos, dit is sy strydwit."
+    },
+    {
+      "location": "<p class=\"poem\"> line 10",
+      "severity": "major",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Corrigeer na natuurlike, verstaanbare Afrikaans sonder verkeerde of onvertaalde vorme: bv. \"Hy sal bedrieg en mislei en elke siel agterna jaag.\" Verwyder die onduidelike woord 'bekaan' (skynbaar 'betrek' of 'teiken') en gebruik 'jaag' of 'teiken'.",
+      "translation_quote": "Hy sal bedrieg en mislei om elke siel te bekaan."
+    },
+    {
+      "location": "<p class=\"poem\"> line 12",
+      "severity": "major",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Vertaal die emosie en betekenis noukeurig sonder onnodige toevoegings: bv. \"In die aangesig van God se krag, verberg daardie duiwel hom!\" Verwyder die foutiewe bywoord 'gaaf' wat geen betekenis hier het nie.",
+      "translation_quote": "In die aangesig van God se krag, verberg daardie duiwel hom gaaf!"
+    },
+    {
+      "location": "<p class=\"poem\"> lines 15-16",
+      "severity": "major",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "Behou betekenis en implikasie waarna verwys word sonder om nuwe idees by te voeg of herhalings te skep. Voorstel: \"Want die oë van die Here soek heen en weer om 'n volmaakte een te vind; dan sal Hy sy krag openbaar.\" Verwyder die oortollige en veranderde frase \"hier en weer\" wat die ritme en betekenis verander.",
+      "translation_quote": "Want die oë van die Here soek heen en weer,\nOm ’n volmaakte een te vind, dan sal Hy sy krag openbaar hier en weer!"
+    },
+    {
+      "location": "<p class=\"poem\"> final line",
+      "severity": "minor",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "Gebruik natuurlike Afrikaans en vermy onnodige uitbreiding. Voorstel: \"Kom ons gryp God se krag! Dit is tyd om te reageer!\" ('uit te stuit' of 'en uit te stuit' is nie in bron nie.)",
+      "translation_quote": "Kom ons gryp God se krag! Dit is tyd om te reageer en uit te stuit!"
+    },
+    {
+      "location": "<figure> <img> alt attribute",
+      "severity": "minor",
+      "source_quote": "Silhouette of a person raising both hands against a warm sky",
+      "suggested_fix": "Gebruik standaard, natuurlike Afrikaans alt-tekst sonder stylafwykings: bv. \"Silhoeët van 'n persoon wat albei hande ophef teen 'n warm lug.\" Huidige vertaling is aanvaardbaar, maar let op apos-trofe vorms (‘ Silhoeët’ is okay) en konsekwentheid.",
+      "translation_quote": "Silhoeët van ’n persoon wat albei hande ophef teen ’n warm lug"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

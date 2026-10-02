@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 4811
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1244,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4472,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5716
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>…It was a lovely hymn that spoke of Jesus’ care as a Shepherd and a Friend, and how He would always keep His children close to Himself.</p>",
+      "severity": "major",
+      "source_quote": "It was a lovely hymn that spoke of Jesus’ care as a Shepherd and a Friend, and how He would always keep His children close to Himself.",
+      "suggested_fix": "Replace the mistranslated word \"ترجمة\" with a correct rendering of \"hymn\" (ترنيمة / أنشودة) and keep the rest of the meaning. For example: <p>كانت ترنيمة جميلة تحدثت عن رعاية يسوع كراعٍ وصديق، وكيف سيبقي أولاده دائماً قريبين منه.</p>",
+      "translation_quote": "كانت ترجمة رائعة تحدثت عن رعاية يسوع كراعٍ وصديق، وكيف سيبقي أولاده دائماً قريبين منه."
+    },
+    {
+      "location": "<p>Grandpa smiled down at her. “I think I can do that. Is that a song you like?” His eyes twinkled at Ellie. “I’ll be happy to lead that one just for you.”</p>",
+      "severity": "minor",
+      "source_quote": "His eyes twinkled at Ellie.",
+      "suggested_fix": "Fix the awkward/grammatically incorrect phrasing \"لامع في عينيه نظرته لإيلي\" to a natural Arabic rendering that preserves the action and tone. For example: \"تلألأت عيناهُ لإيلي.\" or \"تلألأت عيناه وهو ينظر إلى إيلي.\" Ensure proper verb/subject agreement and punctuation. Preserve surrounding tags.",
+      "translation_quote": "لامع في عينيه نظرته لإيلي."
+    },
+    {
+      "location": "<p>Ellie could scarcely wait for church the following Sunday. She would get to sing “her” song. Grandpa said he would choose it and she had no doubt he would do as he said.</p>",
+      "severity": "minor",
+      "source_quote": "Ellie could scarcely wait for church the following Sunday.",
+      "suggested_fix": "Correct the awkward phrasing that alters the clear subject/action. Replace \"لم تكُ بالنسبة لإيلي الكنيسة في انتظار الأحد التالي طويلاً.\" with a clearer, idiomatic rendering such as: \"لم تتمكن إيلي من الانتظار حتى صباح الأحد التالي.\" or \"لم تستطع إيلي الانتظار حتى الأحد التالي.\" Preserve HTML tags.",
+      "translation_quote": "لم تكُ بالنسبة لإيلي الكنيسة في انتظار الأحد التالي طويلاً."
+    }
+  ],
   "id": "1ae1eef52840c7c6de4fdf5f29e81b6e",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ara",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

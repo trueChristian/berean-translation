@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 4855
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1167,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4442,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5609
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\">Paragraph 7 (\"Grandpa smiled down at her...\")",
+      "severity": "minor",
+      "source_quote": "Grandpa smiled down at her. “I think I can do that. Is that a song you like?” His eyes twinkled at Ellie. “I’ll be happy to lead that one just for you.”",
+      "suggested_fix": "Use more natural Italian phrasing for the verbs and word order while preserving meaning. For example: “Nonno le sorrise. «Penso di poterlo fare. Ti piace questo canto?» I suoi occhi scintillarono per la gioia. «Sarò felice di dirigere proprio quello, solo per te.»” Preserve sentence breaks and quotation structure in the HTML.",
+      "translation_quote": "Nonno le sorrise affacciandosi su di lei. “Penso di poterlo fare. È un canto che ti piace?” I suoi occhi scintillarono verso Ellie. “Sarò felice di dirigere proprio quello solo per te.”"
+    },
+    {
+      "location": "<div class=\"lyrics\"> stanza 1, line 3 (\"In Thy pleasant pastures feed us\")",
+      "severity": "minor",
+      "source_quote": "In Thy pleasant pastures feed us,",
+      "suggested_fix": "Use a more natural, contemporary Italian verb form for 'feed/us pasture'—'pascere' or 'fà pascolare'—rather than the uncommon form used. For example: “Nei tuoi pascoli soavi fà pascolare i nostri cuori,” or simply “Nei tuoi pascoli soavi pascici” -> “Nei tuoi pascoli soavi còci/lasciaci pascere” (choose one idiomatic rendering). Keep metre and stanza breaks intact.",
+      "translation_quote": "Nei tuoi pascoli soavi pascici,"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "370b8ebb4ee7135d32d157c12b538631",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ita",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

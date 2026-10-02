@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Entire hymn block: h3 title and <div class=\"lyrics\"> (header + lyrics) and earlier inline song title mention in paragraph",
+      "severity": "major",
+      "source_quote": "H3 header and lyrics in source: \"Saviour, Like A Shepherd Lead Us\" and the full English hymn stanzas as printed. Earlier in article: \"Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ and although she couldn’t read yet, she knew it was number eight.\"",
+      "suggested_fix": "Translate the hymn title and the full hymn text into standard Bahasa Indonesia, preserving stanza breaks and refrain structure. Also translate the inline mention of the song title in the narrative paragraph (\"Her favorite song was ‘Saviour, Like a Shepherd Lead Us’...\") into Indonesian using a conventional rendering of the hymn title (for example: «Penebus, Seperti Gembala Pimpinlah Kami» or another established Indonesian title if the publication prefers), and keep the exact chapter/verse/numbering unchanged (i.e., retain the reference that it is \"number eight\"/\"nomor delapan\"). Do not change the author credit (Dorothy Ann Thrupp) which may remain in the original form. Ensure all quoted substantive prose (the hymn) is fully translated into Bahasa Indonesia and appears where the English hymn currently appears in the translation HTML.",
+      "translation_quote": "Translation currently shows the header and lyrics still in English: H3: \"Saviour, Like A Shepherd Lead Us\" and <div class=\"lyrics\"> contains the hymn stanzas in English. The inline sentence likewise: \"Lagu favoritnya adalah ‘Saviour, Like a Shepherd Lead Us’ dan meskipun dia belum bisa membaca, dia tahu itu nomor delapan.\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

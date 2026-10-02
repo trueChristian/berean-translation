@@ -2,7 +2,6 @@
   "article_id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 2113
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1009,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1765,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2774
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> paragraph 1, line about the moon",
+      "severity": "minor",
+      "source_quote": "The crescent moon is closer yet to you,",
+      "suggested_fix": "Replace \"Den voksende månen\" with a phrase that matches \"crescent moon\". Suggested wording: \"Halvmånen er enda nærmere deg,\" or \"Sigdmånen er enda nærmere deg,\" depending on preferred Norwegian astronomical/poetic term.",
+      "translation_quote": "Den voksende månen er enda nærmere deg,"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph 1, line about sky silence",
+      "severity": "minor",
+      "source_quote": "In the still silence of the spacious sky,",
+      "suggested_fix": "Avoid the redundant repetition of \"stille\". Suggested wording: \"I den stille, vide himmelen,\" or \"I den stille vidstrakte himmelen,\" to preserve meaning and read naturally in Bokmål.",
+      "translation_quote": "I den stille stillheten i den vide himmel,"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph 1, line about reaching the tiny sphere",
+      "severity": "minor",
+      "source_quote": "And yet it took man three whole days to reach\n    That tiny sphere so very close at hand.",
+      "suggested_fix": "Make the Norwegian phrasing more natural. Suggested wording: \"Og likevel tok det mennesket tre hele dager å nå\n    Den lille sfæren som var så nær,\" or \"...å nå den lille sfæren som lå så nær.\"",
+      "translation_quote": "Og likevel tok det mennesket hele tre dager å nå\n    Den lille sfæren så nær for hånden."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "70c315143d7cfe1adbf2b6ab606c650b",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

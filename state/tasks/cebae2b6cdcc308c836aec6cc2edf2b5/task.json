@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,93 @@
         },
         "total_tokens": 1893
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1443,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1608,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3051
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> — line 2",
+      "severity": "major",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Oversett «hell» korrekt til norsk (bokmål) som «helvete». Behold meningen: «Det som er ondt, vil alle være i helvete.» eller mer idiomatisk: «Det onde vil alle ende i helvete.» Sørg for at setningen faktisk nevner «helvete» i stedet for «rov og rot».",
+      "translation_quote": "Det som er ondt, vil være i rov og rot."
+    },
+    {
+      "location": "<p class=\"poem\"> — line 4",
+      "severity": "major",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "Gjenopprett betydningen av «overcome» (å overvinne). Forslag: «Vi er i kamp; vi må likevel overvinne.» eller «Vi er i kamp; vi må fortsatt overvinne.»",
+      "translation_quote": "Vi kjemper i strid; vi må vise mot og være nær."
+    },
+    {
+      "location": "<p class=\"poem\"> — line 6",
+      "severity": "major",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "Behold «the truth» og «to distort». Forslag: «Han sprer alle sine løgner for å forvrenge sannheten.» Ikke erstatt «the truth» med «vårt ord» eller lignende.",
+      "translation_quote": "Han sprer alle løgner for å forvrenge vårt ord."
+    },
+    {
+      "location": "<p class=\"poem\"> — line 8",
+      "severity": "major",
+      "source_quote": "For he knows very well it will cost us our soul.",
+      "suggested_fix": "Sørg for at subjekt og objekt er tydelige og at «it» refererer til synden. Forslag: «For han vet svært godt at det vil koste oss sjelen.» eller «For han vet svært godt at det vil koste oss vår sjel.»",
+      "translation_quote": "For han vet svært godt at den kan røve vår sjel så sår."
+    },
+    {
+      "location": "<p class=\"poem\"> — line 11",
+      "severity": "major",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Behold rekkefølgen og subjektet: det er djevelen som skjuler seg når han møter Guds kraft. Forslag: «Når han møter Guds kraft, da skjuler den djevel seg!» eller mer tro mot rytmen: «Når han møter Guds kraft, da skjuler djevelen seg!»",
+      "translation_quote": "Når han møter Guds kraft, da flykter hans tanker!"
+    },
+    {
+      "location": "<p class=\"poem\"> — line 13",
+      "severity": "minor",
+      "source_quote": "When God is with us, he cannot advance!",
+      "suggested_fix": "Oversett «advance» som «vinne fram», «fremskritt» eller «gå frem» for å bevare meningen. Forslag: «Når Gud er med oss, kan han ikke vinne fram!» eller «Når Gud er med oss, kan han ikke gå fram!»",
+      "translation_quote": "Når Gud er med oss, kan han ikke gå frem!"
+    },
+    {
+      "location": "<p class=\"poem\"> — line 14",
+      "severity": "minor",
+      "source_quote": "When God is with us, sin has no chance!",
+      "suggested_fix": "Behold at «sin» er subjektet; en klarere oversettelse: «Når Gud er med oss, har synden ingen sjanse!»",
+      "translation_quote": "Når Gud er med oss, har synden ingen hjem!"
+    },
+    {
+      "location": "<p class=\"poem\"> — line 16",
+      "severity": "minor",
+      "source_quote": "To find one perfect, His power He’ll show!",
+      "suggested_fix": "Gjenopprett korrelasjonen mellom å finne én fullkommen og at han vil vise sin kraft. Forslag: «For å finne én som er fullkommen — sin kraft vil han vise!» eller «For å finne én fullkommen; Hans kraft vil han vise!»",
+      "translation_quote": "For å finne en fullkommen — Hans kraft vil bli vist!"
+    },
+    {
+      "location": "<p class=\"poem\"> — closing lines",
+      "severity": "minor",
+      "source_quote": "Let’s be done with the lesser and look far beyond.\nLet’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "Behold tonen og oppfordringen. Forslag: «La oss gjøre oss ferdige med det små og se langt forbi. La oss gripe Guds kraft! Nå er det tid til å handle!» eller «… Nå er det tid til å svare/handle!»",
+      "translation_quote": "La oss gi slipp på det små og se langt forbi.\nLa oss gripe Guds kraft! Nå er det tid til å bli fri!"
+    }
+  ],
   "id": "cebae2b6cdcc308c836aec6cc2edf2b5",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -100,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

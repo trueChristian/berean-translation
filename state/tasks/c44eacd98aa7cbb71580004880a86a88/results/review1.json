@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e7cd8344-22a7-477c-b710-07f5216d202a",
+    "response_id": "chatcmpl-EUX8Oy1XmEzaSexvRd5SOXxQhDOuC",
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8878,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9663
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "If you love your life…",
+        "suggested_fix": "Translate the English title into standard written Korean to match the article translation and target-language guidance. For example: \"당신이 생명을 사랑한다면…\" or a closer idiomatic rendering such as \"네가 네 생명을 사랑하면…\" Preserve punctuation and ellipsis if desired.",
+        "translation_quote": "If you love your life…"
+      },
+      {
+        "location": "source.html — quoted Scripture (1 John 2:6) / translation.html — corresponding paragraph",
+        "severity": "major",
+        "source_quote": "He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6.",
+        "suggested_fix": "The Korean rendering of this quoted verse is awkward and alters clarity of the original meaning. Provide a faithful Korean rendering of the English verse meaning as printed (not necessarily a literal word-for-word copy, but preserving the authoritative sense): e.g. \"자기 자신이 그 안에 거한다고 말하는 자는 또 자기 자신도 그가 행한 것 같이 행할지니라 –요한일서 2:6.\" Replace the current sentence with this corrected Korean verse text, and keep the verse reference unchanged.",
+        "translation_quote": "<em>너희가 그 안에 거한다고 하는 자는 또한 그가 행하신 것 같이 그도 자기를 스스로 행할지어다 –요한일서 2:6.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

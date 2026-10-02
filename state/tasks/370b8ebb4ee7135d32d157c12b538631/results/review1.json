@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e5444d2c-6863-4dee-b6e2-11de8b7bd063",
+    "response_id": "chatcmpl-EUX87owKN7ZCcBOoQNaZCZBzYpfWc",
+    "usage": {
+      "completion_tokens": 1167,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4442,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5609
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\">Paragraph 7 (\"Grandpa smiled down at her...\")",
+        "severity": "minor",
+        "source_quote": "Grandpa smiled down at her. “I think I can do that. Is that a song you like?” His eyes twinkled at Ellie. “I’ll be happy to lead that one just for you.”",
+        "suggested_fix": "Use more natural Italian phrasing for the verbs and word order while preserving meaning. For example: “Nonno le sorrise. «Penso di poterlo fare. Ti piace questo canto?» I suoi occhi scintillarono per la gioia. «Sarò felice di dirigere proprio quello, solo per te.»” Preserve sentence breaks and quotation structure in the HTML.",
+        "translation_quote": "Nonno le sorrise affacciandosi su di lei. “Penso di poterlo fare. È un canto che ti piace?” I suoi occhi scintillarono verso Ellie. “Sarò felice di dirigere proprio quello solo per te.”"
+      },
+      {
+        "location": "<div class=\"lyrics\"> stanza 1, line 3 (\"In Thy pleasant pastures feed us\")",
+        "severity": "minor",
+        "source_quote": "In Thy pleasant pastures feed us,",
+        "suggested_fix": "Use a more natural, contemporary Italian verb form for 'feed/us pasture'—'pascere' or 'fà pascolare'—rather than the uncommon form used. For example: “Nei tuoi pascoli soavi fà pascolare i nostri cuori,” or simply “Nei tuoi pascoli soavi pascici” -> “Nei tuoi pascoli soavi còci/lasciaci pascere” (choose one idiomatic rendering). Keep metre and stanza breaks intact.",
+        "translation_quote": "Nei tuoi pascoli soavi pascici,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

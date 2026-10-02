@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0db7734b-d558-4fcb-9bf8-b95bc85139a1",
+    "response_id": "chatcmpl-EUX80T5scCwNYjgeDjKkFalVdA2ZV",
+    "usage": {
+      "completion_tokens": 2210,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9602
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (first <p> inside source.html)",
+        "severity": "minor",
+        "source_quote": "I stepped quietly down the stairs, my eyes groggy.",
+        "suggested_fix": "Translate idiomatically as a simple statement of drowsiness without adding unintended emotion. For example: \"আমি নীরবে সিঁড়ি নামলাম, চোখ অচেতন আর ঘুমঝিমে।\" Preserve the short, plain tone.",
+        "translation_quote": "আমি নীরবে সিঁড়ি নেমে এলাম, চোখে অচেতনতার অচেতন কষ্ট।"
+      },
+      {
+        "location": "Paragraph 2 (first sentence)",
+        "severity": "minor",
+        "source_quote": "My mother was picking him up, crooning softly.",
+        "suggested_fix": "Correct the small typo and naturalize phrasing. Use 'মা' not 'আমা' and render as: \"আমার মা তাকে কোলে নেবেন, নরম সুরে কোলের গান গাইছিলেন।\" Keep tense consistent with narrative past.",
+        "translation_quote": "আমা তাকেই তুলে ধরছিলেন, নরম সুরে কোলের গান গাইছিলেন।"
+      },
+      {
+        "location": "Paragraph 2 (last sentence)",
+        "severity": "minor",
+        "source_quote": "She settled into the rocking chair and soon the house was restored to its midnight quiet.",
+        "suggested_fix": "Avoid adding extraneous or unclear phrasing. A closer Bengali rendering: \"তিনি দোলনা চেয়ারে বসলেন এবং অল্প পরেই বাড়িটা আবার মধ্যরাতের নীরবতায় ফিরল।\"",
+        "translation_quote": "তিনি দোলনা চেয়ারে বসে গেলেন এবং বহুদূর না সঙ্গে বাড়িটা আবার রাতের নীরবতায় ফিরলো।"
+      },
+      {
+        "location": "Paragraph with Titus 2:3-5 quotation (first lines of that <p>)",
+        "severity": "minor",
+        "source_quote": "The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things; That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+        "suggested_fix": "Fix garbled characters and keep the verse translation clear and readable in Bengali. For example: \"বয়স্ক নারীরাও অনুরূপভাবে হোক পবিত্রতার অনুরুপ আচরণে; মিথ্যা অভিযোগকারীরা হোন না; অতিরিক্ত মদ্যপানপূর্ন হোন না; সৎ বিষয়ের শিক্ষিকা হন। যেন তারা তরুণ নারীদের সতর্ক হতে, তাদের স্বামীকে ভালোবাসতে, তাদের সন্তানকে ভালোবাসতে, বিবেচক ও শৌচশীল, গৃহসংরক্ষক, সৎ, তাদের স্বামীদের প্রতি Today বিশ্বাসী হতে শিক্ষা দেন—তিতুস ২:৩-৫।\" (Keep scripture reference unchanged.)",
+        "translation_quote": "<em><strong>বয়স দি\u0007 বয়স্ক নারীরাও</strong>, যেন তাঁরা পবিত্রতার অনুরুপ আচরণে থাকুন, মিথ্যা অভিযোগকারী নাহিক, মদ্যপানসংক্রান্ত না, সুষ্ঠু শিক্ষিকা; যেন তাঁরা <strong>তরুণ নারীদের শিক্ষা দেন</strong> সতর্ক হতে, তাঁদের স্বামীদের ভালোবাসতে, তাঁদের সন্তানদের ভালোবাসতে, সতর্ক, কৌতুকহীন, <strong>গৃহসংরক্ষক</strong>, ভালো, নিজেদের স্বামীদের প্রতি আজ্ঞাবান হোন, যেন ঈশ্বরের বাক্য নিন্দিত না হয় –তিতুস ২:৩-৫।</em>"
+      },
+      {
+        "location": "Paragraph quoting Psalm 127:3 (first occurrence)",
+        "severity": "minor",
+        "source_quote": "Lo, children are an heritage of the LORD: and the fruit of the womb is his reward –Psalm 127:3.",
+        "suggested_fix": "Remove inadvertent inserted label 'ভাবসংবলিত শ্লোক' and render smoothly: \"দরুণ, শিশুরা প্রভুর উত্তরাধিকার; গর্ভের ফল তাঁর পুরস্কার—গীতসংহিতা ১২৭:৩।\" Keep the reference exactly as 'Psalm 127:3' or a conventional Bengali book name (গীতসংহিতা ১২৭:৩) consistent with the rest of the article.",
+        "translation_quote": "ঈশ্বর বলেছেন, <em>দেখ, শিশুরা প্রভুর এক উত্তরাধিকার; ভ্রূণের ফল তাঁর পুরস্কার –ভাবসংবলিত শ্লোক: গীতসংহিতা ১২৭:৩।</em>"
+      },
+      {
+        "location": "Paragraph beginning \"An even more subtle question...\"",
+        "severity": "major",
+        "source_quote": "An even more subtle question that I see young women wrestling with is this: “Is it more spiritual to be involved in ministry rather than to bring more children into the world?”",
+        "suggested_fix": "This sentence is theologically central and the Bengali rendering is garbled and changes the sense. Provide a clear translation that preserves the contrast between ministry involvement and bearing more children. Suggested: \"আরও এক সূক্ষ্ম প্রশ্ন যা আমি দেখি তরুণ নারীরা নিয়ে সংগ্রাম করে, তা হলো: 'মন্ত্রণায় সক্রিয় থাকা কি আরও বেশি আধ্যাত্মিক, নাকি আরও সন্তান জন্ম দেওয়াই?'\" Replace the current garbled Bengali with a clear sentence preserving the original meaning.",
+        "translation_quote": "আরও সূক্ষ্ম একটি প্রশ্ন যা আমি দেখেছি তরুণ নারীরা নিয়ে সংগ্রাম করে তা হলো: “বিশ্বাসযোগ্যতায় কি বেশি ধর্মীয় হওয়া হলে মন্ত্রণায় জড়িত থাকা অপেক্ষা করে বেশি তা?আর বাইরে আরও সন্তান জন্ম দেওয়া অপেক্ষা?”"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

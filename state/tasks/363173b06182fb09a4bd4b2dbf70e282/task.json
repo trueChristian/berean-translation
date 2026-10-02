@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,37 @@
         },
         "total_tokens": 4540
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 961,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4329,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5290
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Entire hymn block: h3 title and <div class=\"lyrics\"> (header + lyrics) and earlier inline song title mention in paragraph",
+      "severity": "major",
+      "source_quote": "H3 header and lyrics in source: \"Saviour, Like A Shepherd Lead Us\" and the full English hymn stanzas as printed. Earlier in article: \"Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ and although she couldn’t read yet, she knew it was number eight.\"",
+      "suggested_fix": "Translate the hymn title and the full hymn text into standard Bahasa Indonesia, preserving stanza breaks and refrain structure. Also translate the inline mention of the song title in the narrative paragraph (\"Her favorite song was ‘Saviour, Like a Shepherd Lead Us’...\") into Indonesian using a conventional rendering of the hymn title (for example: «Penebus, Seperti Gembala Pimpinlah Kami» or another established Indonesian title if the publication prefers), and keep the exact chapter/verse/numbering unchanged (i.e., retain the reference that it is \"number eight\"/\"nomor delapan\"). Do not change the author credit (Dorothy Ann Thrupp) which may remain in the original form. Ensure all quoted substantive prose (the hymn) is fully translated into Bahasa Indonesia and appears where the English hymn currently appears in the translation HTML.",
+      "translation_quote": "Translation currently shows the header and lyrics still in English: H3: \"Saviour, Like A Shepherd Lead Us\" and <div class=\"lyrics\"> contains the hymn stanzas in English. The inline sentence likewise: \"Lagu favoritnya adalah ‘Saviour, Like a Shepherd Lead Us’ dan meskipun dia belum bisa membaca, dia tahu itu nomor delapan.\""
+    }
+  ],
   "id": "363173b06182fb09a4bd4b2dbf70e282",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ind",
@@ -100,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

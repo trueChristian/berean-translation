@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 1830
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 983,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1609,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2592
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line: \"Let’s be done with the lesser and look far beyond.\"",
+      "severity": "major",
+      "source_quote": "Let’s be done with the lesser and look far beyond.",
+      "suggested_fix": "Render the idiom so the meaning is clear in Italian: e.g. \"Lasciamo le cose minori alle spalle e guardiamo molto più lontano.\" or \"Abbandoniamo le cose minori e volgiamo lo sguardo oltre.\" Preserve the exhortative tone.",
+      "translation_quote": "Diamoci pace con il minore e guardiamo molto più lontano."
+    },
+    {
+      "location": "<p class=\"poem\"> line: \"He’ll trick and deceive, each soul to pursue.\"",
+      "severity": "minor",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Avoid the redundant repetition and use a single natural verb pair in Italian: e.g. \"Ingannerà e sedurrà, per perseguire ogni anima.\" or \"Ingannerà e sedurrà per cogliere ogni anima.\"",
+      "translation_quote": "Ingannerà e ingannerà, per perseguire ogni anima."
+    },
+    {
+      "location": "<p class=\"poem\"> line: \"To find one perfect, His power He’ll show!\"",
+      "severity": "minor",
+      "source_quote": "To find one perfect, His power He’ll show!",
+      "suggested_fix": "Clarify the object of \"one perfect\" in idiomatic Italian and keep respectful capitalization consistent with house style. Suggested: \"Per trovare qualcuno perfetto, mostrerà la Sua potenza!\" or \"Per trovare una persona perfetta, Egli mostrerà la Sua potenza!\" (choose capitalization for pronouns referring to God according to house style).",
+      "translation_quote": "Per trovare uno perfetto, la Sua potenza mostrerà!"
+    }
+  ],
   "id": "e228122a004eda7edc5ace2c59f83727",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ita",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>В этом выпуске ... Даниилом ...</p>",
+      "severity": "minor",
+      "source_quote": "You can try to picture yourself with Daniel of old as he chose to keep praying like normal at his open window, while knowing full well that this simple act most likely could change his life forever.",
+      "suggested_fix": "Заменить «старцем Даниилом» на формулировку, ближе передающую исходный смысл «Daniel of old», например: «Даниилом древним» или «Даниилом из древности». Это сохранит нейтральный указательный оттенок исходной английской фразы без добавления нового образа («старец»).",
+      "translation_quote": "Вы можете попытаться представить себя вместе со старцем Даниилом, когда он предпочёл продолжать молиться, как обычно, у открытого окна, полностью сознавая, что этот простой поступок, вероятно, может навсегда изменить его жизнь."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

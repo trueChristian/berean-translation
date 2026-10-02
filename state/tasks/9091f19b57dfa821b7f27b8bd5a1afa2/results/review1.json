@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a8014988-4c2d-4bae-a374-cd3d3b5e2ac7",
+    "response_id": "chatcmpl-EUX8Z4Y0tnq16Um0aGBbC2gmCCiaj",
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6523,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7317
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"As one woman wrote...\" (source.html third full paragraph)",
+        "severity": "minor",
+        "source_quote": "...we were shocked to suddenly hear that mothering only takes a third-grade education and a fulltime mother is unnecessary.",
+        "suggested_fix": "Use a more natural Dutch rendering of \"third-grade education\" (meaning: very little formal education) to improve clarity. For example: replace \"derdeklasopleiding\" with \"opgeleidingsniveau van groep drie\" or \"slechts het niveau van de basisschool\" while preserving the intended meaning.",
+        "translation_quote": "…dat moeder-zijn maar een derdeklasopleiding vereist en een fulltime moeder niet nodig is."
+      },
+      {
+        "location": "Multiple occurrences of phrase \"keepers at home\" (source.html Titus 2 citations)",
+        "severity": "minor",
+        "source_quote": "keepers at home",
+        "suggested_fix": "The translator used \"huismoeders\", which is understandable but slightly modern/colloquial. If a closer literal equivalent is preferred while remaining idiomatic, consider \"thuisblijvende vrouwen\" or \"huisvrouwen/huismoeders\" depending on regional preference. No doctrinal change — this is stylistic. Preserve the HTML and verse punctuation.",
+        "translation_quote": "huismoeders"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

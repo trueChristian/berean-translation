@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3421f0a8-13a6-4f6d-8a19-0c1f717a0b44",
+    "response_id": "chatcmpl-EUX8FXEU0KxMJ0pdg94IhIb0oWKCH",
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9126
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "critical",
+        "source_quote": "If you love your life…",
+        "suggested_fix": "Translate the English title into Dutch, preserving meaning and punctuation. For example: \"Als je je leven liefhebt…\" (or another natural Dutch rendering). Do not alter HTML structure—only replace the title string in the translation metadata.",
+        "translation_quote": "If you love your life…"
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "critical",
+        "source_quote": "Musings of a Missionary",
+        "suggested_fix": "Translate the section name into Dutch, preserving the topical sense. For example: \"Overpeinzingen van een zendeling\" or \"Gedachten van een zendeling\". Do not change HTML structure—only replace the section string in the translation metadata.",
+        "translation_quote": "Musings of a Missionary"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

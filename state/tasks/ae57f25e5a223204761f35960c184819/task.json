@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 1948
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1094,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1672,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2766
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> — line: \"Sin in our lives, it is his great goal.\"",
+      "severity": "critical",
+      "source_quote": "Sin in our lives, it is his great goal.",
+      "suggested_fix": "Replace the corrupted text with a faithful Bengali rendering that preserves the author's assertion that sin in our lives is the enemy's chief aim. Keep the HTML tags and line breaks unchanged. Example fix: \"আমাদের জীবনে পাপই তার প্রধান লক্ষ্য।\"",
+      "translation_quote": "আমাদের জীবনে পাপই তার প্রধান লক্ষ্\u000214।"
+    },
+    {
+      "location": "<p class=\"poem\"> — line: \"The darts of the wicked come from all sides.\"",
+      "severity": "critical",
+      "source_quote": "The darts of the wicked come from all sides.",
+      "suggested_fix": "Translate the whole clause into Bengali; do not leave English words or fragments. Preserve tags and line breaks. Example fix: \"দুষ্টদের তীর সব দিক থেকেই আসে।\"",
+      "translation_quote": "প wickedদের তীর সব দিক থেকেই আসে।"
+    },
+    {
+      "location": "<p class=\"poem\"> — line: \"He spreads all his lies, the truth to distort.\"",
+      "severity": "major",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "Correct the verb phrase to clearly indicate the enemy spreads lies in order to distort the truth. Preserve tags and line breaks. Example fix: \"সে তার সমস্ত মিথ্যা ছড়ায়, সত্যকে বিকৃত করার জন্য।\"",
+      "translation_quote": "সে সমস্ত মিথ্যা ছড়ায়, সত্যকে বিকৃত করতে থাকি।"
+    },
+    {
+      "location": "<p class=\"poem\"> — line: \"He’ll trick and deceive, each soul to pursue.\"",
+      "severity": "major",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Use Bengali verbs that correspond to \"trick\" and \"deceive\" aiming at each soul. Preserve tags and line breaks. Example fix: \"সে প্রতারণা করবে ও ঠকাবে, প্রতিটি প্রাণকে তাড়া করতে।\"",
+      "translation_quote": "সে প্রতারণা করবে, প্রতিটি প্রাণকে সতর্ক করবে।"
+    },
+    {
+      "location": "<p class=\"poem\"> — line: \"For the eyes of the Lord seek to and fro,\"",
+      "severity": "minor",
+      "source_quote": "For the eyes of the Lord seek to and fro,",
+      "suggested_fix": "Improve idiomatic rendering while preserving meaning that the Lord's eyes search everywhere. Preserve tags and line breaks. Suggested wording: \"কারণ প্রভুর চোখ চারদিকে ঘুরে বেড়ায়,\"",
+      "translation_quote": "কারণ প্রভুর চোখে চারদিকে খোঁজা আছে,"
+    }
+  ],
   "id": "ae57f25e5a223204761f35960c184819",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ben",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 54,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "17a74994-15ea-43c9-b786-1047a4192bfa",
+    "response_id": "chatcmpl-EUX8D09Qdm85JBB6SgsZrvIQ63rat",
+    "usage": {
+      "completion_tokens": 1043,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5473
+    }
+  },
+  "received_at": "2026-10-02T13:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h3>Saviour, Like A Shepherd Lead Us</h3>",
+        "severity": "major",
+        "source_quote": "<h3>Saviour, Like A Shepherd Lead Us</h3>",
+        "suggested_fix": "Traduire le titre de l’hymne dans la balise h3 en français tout en conservant la structure HTML. Par exemple : <h3>Sauveur, comme un berger conduis‑nous</h3>",
+        "translation_quote": "<h3>Saviour, Like A Shepherd Lead Us</h3>"
+      },
+      {
+        "location": "<p>“Savais‑tu que grand‑père n’était pas là aujourd’hui ? À la dernière minute, ils ont décidé d’aller assister à un autre culte ce matin.”</p>",
+        "severity": "minor",
+        "source_quote": "“Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.”",
+        "suggested_fix": "Rendre le nombre cohérent et naturel en français. Conserver la structure p et la ponctuation. Par exemple : <p>« Savais‑tu que tes grands‑parents n’étaient pas là aujourd’hui ? À la dernière minute, ils ont décidé d’aller assister à un autre culte ce matin. »</p>",
+        "translation_quote": "<p>« Savais‑tu que grand‑père n’était pas là aujourd’hui ? À la dernière minute, ils ont décidé d’aller assister à un autre culte ce matin. »</p>"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

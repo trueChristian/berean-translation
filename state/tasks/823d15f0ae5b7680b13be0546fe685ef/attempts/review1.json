@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title / translation.title\",\"severity\":\"critical\",\"source_quote\":\"If you love your life…\",\"suggested_fix\":\"Translate the English title into Dutch, preserving meaning and punctuation. For example: \\\"Als je je leven liefhebt…\\\" (or another natural Dutch rendering). Do not alter HTML structure—only replace the title string in the translation metadata.\",\"translation_quote\":\"If you love your life…\"},{\"location\":\"source.section / translation.section\",\"severity\":\"critical\",\"source_quote\":\"Musings of a Missionary\",\"suggested_fix\":\"Translate the section name into Dutch, preserving the topical sense. For example: \\\"Overpeinzingen van een zendeling\\\" or \\\"Gedachten van een zendeling\\\". Do not change HTML structure—only replace the section string in the translation metadata.\",\"translation_quote\":\"Musings of a Missionary\"}],\"passed\":false,\"score\":65}",
+    "content_bytes": 891,
+    "content_evidence_truncated": false,
+    "content_sha256": "40a2574827cc56cc959b2d2c49ce6c571ce95499c7cd5d1e5c7257832feea307",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9126
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

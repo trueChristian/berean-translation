@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — paragraph starting \\\"This issue...Emmaus\\\"\",\"severity\":\"minor\",\"source_quote\":\"...and alleged “resurrection”.\",\"suggested_fix\":\"Translate the English word “resurrection” consistently; keep the skeptical tone but use Bengali quotation marks. E.g., replace “তথাকথিত “পুনরুত্থান”” with \\\"তথাকথিত ‘পুনরুত্থান’\\\" to match punctuation style used elsewhere.\",\"translation_quote\":\"...এম্মাউসের পথে ছোটটা হাঁটতে পারবেন ... খ্রীষ্টের মৃত্যু, সমাধি এবং তথাকথিত “পুনরুত্থান” সংক্রান্ত হঠাৎ ঘটে যাওয়া ঘটনাগুলো নিয়ে বিভ্রান্ত ছিল।\"},{\"location\":\"source.html — paragraph about Donald Brechbill series\",\"severity\":\"minor\",\"source_quote\":\"Disciple has almost the same spelling as discipline.\",\"suggested_fix\":\"Translate the sentence fully into Bengali and avoid leaving the English headwords alone. For example: \\\"‘শিষ্য’ শব্দটির বানান প্রায় ‘শৃঙ্খলা’ শব্দটির বানানের মতোই।\\\" If you want to show the English headwords, keep them in parentheses after the Bengali terms, but the main sentence should be Bengali.\",\"translation_quote\":\"Disciple (শিষ্য) শব্দের বানান প্রায় একইরকম Discipline (শৃঙ্খলা)-এর মতো।\"},{\"location\":\"source.html — paragraph about farmers' herbs\",\"severity\":\"minor\",\"source_quote\":\"The farmers’ crops and the gardeners’ herbs are pushing through the cool soil and towards the heat and light of the sun.\",\"suggested_fix\":\"Translate or use a standard Bengali term for “herbs” instead of the transliteration 'হার্বস'. Suggested wording: \\\"চাষীদের ফসল এবং বাগানিদের হার্বস (শস্য/গাছ)\\\" or better \\\"চাষীদের ফসল এবং বাগানিদের গাছপালা\\\" depending on intended meaning.\",\"translation_quote\":\"চাষীদের ফসল এবং বাগানিদের হার্বস ঠাণ্ডা মাটির মধ্য দিয়ে মুখ তুলে সূর্যের গরম ও আলোয় এগিয়ে আসছে।\"},{\"location\":\"source.html — paragraph starting \\\"Just a friendly reminder…\\\"\",\"severity\":\"minor\",\"source_quote\":\"Just a friendly reminder… We encourage feedback from our readers.\",\"suggested_fix\":\"Current translation \\\"সেচ্ছাসেবক স্মরণ করিয়ে দেওয়া…\\\" alters meaning. Replace with a faithful Bengali rendering such as: \\\"একটু বন্ধুত্বপূর্ণ স্মরণঃ ...\\\" so the paragraph reads: \\\"একটু বন্ধুত্বপূর্ণ স্মরণঃ আমরা আমাদের পাঠকদের প্রতিক্রিয়া উৎসাহিত করি।\\\"\",\"translation_quote\":\"সেচ্ছাসেবক স্মরণ করিয়ে দেওয়া… আমরা আমাদের পাঠকদের প্রতিক্রিয়া উৎসাহিত করি।\"},{\"location\":\"source.html — paragraph about new board members (punctuation)\",\"severity\":\"minor\",\"source_quote\":\"...are already allowing God to use their spiritual gifts to make a difference\",\"suggested_fix\":\"Add terminal punctuation to match source. End the paragraph with a period. Ensure no sentence content was omitted.\",\"translation_quote\":\"এই ভাইদের দুজনেই মংগলভাবে এই ডাক গ্রহণ করেছেন এবং ইতোমধ্যে ঈশ্বর তাদের আধ্যাত্মিক উপহার ব্যবহার করে পার্থক্য সৃষ্টি করতে দিচ্ছেন\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 4201,
+    "content_evidence_truncated": false,
+    "content_sha256": "ae6571550b3855e9dc1c100d6f37ab16b14259cda85382d1844189ba6b6ff05e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1298,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3506,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4804
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

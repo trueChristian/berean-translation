@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing Titus 2:3-5 (first occurrence)\",\"severity\":\"minor\",\"source_quote\":\"That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.\",\"suggested_fix\":\"Replace the translation of \\\"keepers at home\\\" (currently «dadoras de hogar») with a clearer, idiomatic Spanish phrase that conveys the original sense of being homemakers or keeping the household. Suggested wording: «guardianas del hogar» or «encargadas del hogar». Preserve the surrounding HTML and verse punctuation exactly.\",\"translation_quote\":\"para que <strong>enseñen a las jóvenes</strong> a ser prudentes, a amar a sus maridos, a amar a sus hijos, a ser discretas, castas, <strong>dadoras de hogar</strong>, buenas, obedientes a sus maridos, para que la palabra de Dios no sea blasfemada –Tito 2:3-5.\"},{\"location\":\"Paragraph containing Titus 2:4-5 (second occurrence)\",\"severity\":\"minor\",\"source_quote\":\"That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:4-5.\",\"suggested_fix\":\"As above, replace the rendered phrase «dadoras de hogar» with a clearer idiomatic option such as «guardianas del hogar» or «dedicadas al hogar» to better reflect the original \\\"keepers at home.\\\" Keep HTML and verse markers unchanged.\",\"translation_quote\":\"Para que enseñen a las jóvenes a ser prudentes, a amar a sus maridos, a amar a sus hijos, a ser discretas, castas, dadoras de hogar, buenas, obedientes a sus maridos, para que la palabra de Dios no sea blasfemada –Tito 2:4-5.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1856,
+    "content_evidence_truncated": false,
+    "content_sha256": "385f4eddc3897cb725d5571f7ba6d67375edd28674c6595907c2684fd1ab4388",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1055,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7553
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

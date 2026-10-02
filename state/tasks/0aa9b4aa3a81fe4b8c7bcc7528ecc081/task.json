@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 1881
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1029,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1596,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2625
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 1 (line 2 of poem)",
+      "severity": "major",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Translate clearly and idiomatically without adding or mangling words. For example: \"Det som är ont ska alla hamna i helvetet.\" (Preserve meaning: the bad things will be in hell.)",
+      "translation_quote": "Det som är ont ska alla vara i helvetets kväl."
+    },
+    {
+      "location": "Paragraph 1 (line 11 of poem)",
+      "severity": "major",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Do not add qualifiers or extra epithets. A faithful Swedish rendering would be: \"När han står inför Guds kraft, då gömmer sig djävulen!\" or more literally preserving the emphatic dash: \"När han möter Guds kraft — då gömmer sig djävulen!\"",
+      "translation_quote": "När han möter Guds kraft, då gömmer sig den gamle, så kall."
+    },
+    {
+      "location": "Paragraph 1 (lines 15–16 of poem)",
+      "severity": "major",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "Preserve the sense that the Lord is searching \"to and fro\" to find one perfect person and then will show His power. A clear rendering: \"Ty Herrens ögon söker hit och dit\nför att finna en enda fullkomlig — då skall Han visa sin kraft!\"",
+      "translation_quote": "Ty Herrens ögon söker hit och dit,\nFör att finna en fullkomlig, Hans kraft visar Han dit!"
+    },
+    {
+      "location": "Paragraph 1 (final line)",
+      "severity": "major",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "Render imperative and sense of responding. For example: \"Låt oss ta fast vid Guds kraft! Det är dags att svara!\" Do not insert archaic or incorrect words like \"from\" that alter meaning or grammar.",
+      "translation_quote": "Låt oss gripa Guds kraft! Det är tid att svara i from."
+    },
+    {
+      "location": "Paragraph 1 (line 7 of poem)",
+      "severity": "minor",
+      "source_quote": "It need not be big; a small sin will do.",
+      "suggested_fix": "Grammar/idiom improvement: translate the notion that even a small sin suffices. For example: \"Den behöver inte vara stor; en liten synd räcker.\"",
+      "translation_quote": "Den behöver inte vara stor; en liten synd duger bra."
+    }
+  ],
   "id": "0aa9b4aa3a81fe4b8c7bcc7528ecc081",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swe",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 67,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "source.html first paragraph, first sentence",
+      "severity": "major",
+      "source_quote": "It was midnight and a soft light glowed from my parents’ room.",
+      "suggested_fix": "Translate the sense accurately. For example: \"היה זה חצות ואור חלש נצנץ מחדר הוריי.\" Preserve \"soft light\" as a gentle light (אור חלש/רך), not a word meaning river.",
+      "translation_quote": "\"היה זה חצות ונהר נעים זרח מחדר הוריי.\""
+    },
+    {
+      "location": "source.html first paragraph, first paragraph (baby crying)",
+      "severity": "major",
+      "source_quote": "My new baby brother was crying, probably what had woken me up at this hour, and I decided to check up on Mom and wee baby.",
+      "suggested_fix": "Correct verb and syntax: \"אחי התינוק החדש בכה, כנראה מה שהעיר אותי בשעה זו, והחלטתי לבדוק את אמא והתינוק הקטן.\"",
+      "translation_quote": "\"אחי התינוק החדש בכי, כנראה מה שהעיר אותי בשעה זו, והחלטתי לבדוק את אמא והתינוק הקטן.\""
+    },
+    {
+      "location": "source.html second paragraph (crooning)",
+      "severity": "major",
+      "source_quote": "My mother was picking him up, crooning softly.",
+      "suggested_fix": "\"Crooning softly\" should convey gentle singing/humming. For example: \"אמי הרימה אותו ומחקה מנגינה חרישית\" or \"אמי הרימה אותו ומחאה שיר חרישית.\" Do not use מנקרת (pecking).",
+      "translation_quote": "\"אמי הרימה אותו בעדינות, מנקרת בשירה חרישית.\""
+    },
+    {
+      "location": "source.html paragraph beginning \"Is my mother deprived...\"",
+      "severity": "minor",
+      "source_quote": "Was my mother deprived of a fulfilling life?",
+      "suggested_fix": "Avoid the doubled interrogative word and render naturally: \"האם אמי הייתה מונעת חיים מספקים?\" or \"האם חסרה לאמי חיים מספקים?\"",
+      "translation_quote": "\"האם האם שלי הייתה מנותקת מחיים מספקים?\""
+    },
+    {
+      "location": "source.html paragraph quoting Titus 2:3-5 (scripture translation)",
+      "severity": "critical",
+      "source_quote": "The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things; That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+      "suggested_fix": "Scripture quotations must faithfully render the printed English meaning into the target language, preserving the verse content and the placement of references. Provide a clear, accurate Hebrew translation of the quoted verses without altering meaning. For example: \"הנשיות הוותיקות גם כן יהיו בהתנהגות הראויה לקדושה, לא יהיו משמיצות, לא ישתמשו ביין לבדה, מורות לטוב; כדי שיוכלו להורות לצעירות להיות זהירות, לאהוב את בעליהן, לאהוב את ילדיהן, להיות מְבֻשָּׁלוֹת, צנועות, שומרות-בית, טובות, מצייתות לבעליהן, כדי שלא תושמץ דבר ה׳.\" (Adjust wording to match target-language idiom while preserving content.) Do not replace or substantially change clauses such as \"that the word of God be not blasphemed.\"",
+      "translation_quote": "\"<em><strong>הנשים המבוגרות</strong> אף הן יתנהגו בהתאמה אל הקדושה, לא יהיו משמיצות שווא, לא שותות־יין בשפע, מורות לדברים טובים; כדי שיתרגלו <strong>את הצעירות</strong> להיות זהירות, לאהוב את בעליהן, לאהוב את ילדיהן, להיות בינות, צנועות, <strong>שומרות הבית</strong>, טובות, מצייתות לבעליהן, כדי שלא יוגדל דבר ה׳ —טיטוס 2:3-5.</em>\""
+    },
+    {
+      "location": "source.html paragraph quoting 1 Timothy 2:11-13 and references to Paul",
+      "severity": "major",
+      "source_quote": "Let the woman learn in silence with all subjection. But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve –1 Timothy 2:11-13.",
+      "suggested_fix": "Translate scripture quotations accurately and render proper names consistently (Paul = פָּאוּלוֹס / פאולוס). The translation currently distorts wording and uses inconsistent forms like \"פאול מצַוּה.\" Provide a faithful Hebrew rendering of 1 Timothy 2:11-13 and refer to Paul with a conventional Hebrew form if author name appears in prose (פאולוס/של פאולוס).",
+      "translation_quote": "\"<em>שהאשה תלמד בדממה עם כל כחות. ולא סובל את האשה ללמד, ולא להיות עליה סמכות על האיש, אלא בדממה; כי קדם אדם לחוה —1 טימותאוס 2:11-13.</em> כפי שפאול מצַוּה עלינו, אנו מאמינות בנשות הַשַּׁקֶט בכנסייה...\""
+    },
+    {
+      "location": "source.html paragraph \"Is it more spiritual to be involved in ministry...\"",
+      "severity": "major",
+      "source_quote": "Is it more spiritual to be involved in ministry rather than to bring more children into the world?",
+      "suggested_fix": "The English \"ministry\" was mistranslated as \"משרד\" (office). Use a correct Hebrew term for ministry/service such as \"בשירות כנסייתי\" or \"במשרד המשׂרה/בשירות\" depending on context. For example: \"האם זה רוחני יותר להיות מעורבת בעבודה רוחנית/שירות כנסייתי מאשר להביא עוד ילדים לעולם?\"",
+      "translation_quote": "\"שאלה עדינה אף יותר ... היא: \\\"האם זה רוחני יותר להיות מעורבת במשרד במקום להביא עוד ילדים לעולם?\\\"\""
+    },
+    {
+      "location": "source.html paragraph with Galatians 6:9 quote",
+      "severity": "critical",
+      "source_quote": "And let us not be weary in well doing: for in due season we shall reap, if we faint not –Galatians 6:9.",
+      "suggested_fix": "Scripture quotation must reflect the printed English meaning accurately in Hebrew. The current rendering is incorrect and unidiomatic: \"ולא ניגעש בטוב לעשות; כי בעתו נרטוף אם לא ניגעש\" is not a faithful rendering. Provide a clear translation like: \"ולא ניגע בעשיית הטוב; כי בעתו נחלוף אם לא נתעייף\" is still awkward — better: \"ולא נכלה בעשיית הטוב; כי בעתו נחרוש אם לא ניכשל\" — but prefer a standard, faithful Hebrew phrasing: \"ולא נלאה בעשיית הטוב; כי בעתו נחשב אם לא נייאש.\" (Adjust to a natural, accurate Hebrew Scripture rendering while preserving the verse.)",
+      "translation_quote": "\"<em>ולא ניגעש בטוב לעשות; כי בעתו נרטוף אם לא ניגעש —גאלטים 6:9.</em>\""
+    },
+    {
+      "location": "source.html image alt text",
+      "severity": "minor",
+      "source_quote": "Adult holding the hand of a small child walking outdoors",
+      "suggested_fix": "Alt text is correct in meaning but the Hebrew translation used \"מבוגר\" which is acceptable but \"מבוגר\" is generic; consider \"מבוגר/הורה\" if the source implied parent. Suggested: \"בוגר מחזיק ביד ילד קטן ההולך בחוץ\" or \"אדם בוגר מחזיק בידו של ילד קטן ההולך בחוץ.\"",
+      "translation_quote": "\"מבוגר מחזיק בידו של ילד קטן ההולך בחוץ\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

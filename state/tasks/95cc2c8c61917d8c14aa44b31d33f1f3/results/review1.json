@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "51861c06-98e7-4cc5-a8ed-807c287cf9c7",
+    "response_id": "chatcmpl-EUX8c671Nl9IB11XmlDNXNO7fzkZ9",
+    "usage": {
+      "completion_tokens": 1263,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7078,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8341
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Jesus' restoration exchange with Peter (around \"Peter svarte... Jesus sa: 'Gjør mine lam til del.'\")",
+        "severity": "major",
+        "source_quote": "“Peter answered, ‘Yes Lord, you know that I love you.’ Jesus said, ‘Feed my lambs.’”",
+        "suggested_fix": "Translate the imperative accurately. Replace «Gjør mine lam til del.» with a natural Bokmål imperative equivalent such as «Fôr mine lam.» or «Mat mine lam.» (and keep same HTML structure and tags).",
+        "translation_quote": "«Peter svarte: ‘Ja Herre, du vet at jeg elsker deg.’ Jesus sa: ‘Gjør mine lam til del.’»"
+      },
+      {
+        "location": "Later restoration sentence (Jesus to Peter about sheep)",
+        "severity": "major",
+        "source_quote": "“Lord, thou knowest all things; thou knowest that I love thee”. Jesus said to him: “Feed my sheep”.",
+        "suggested_fix": "Translate the imperative accurately. Replace «Gjør mine sauer til del.» with a natural Bokmål imperative equivalent such as «Fôr mine sauer.» or «Mat mine sauer.» (preserve tags and surrounding punctuation).",
+        "translation_quote": "«Herre, du vet alt; du vet at jeg elsker deg.» Jesus sier til ham: «Gjør mine sauer til del.»"
+      },
+      {
+        "location": "Paragraph: “There is a purity and beauty…” (word form)",
+        "severity": "minor",
+        "source_quote": "“There is a purity and beauty in the life of Jesus that resonates with those heart longings.”",
+        "suggested_fix": "Correct Bokmål spelling. Replace «hjertelængslene» with «hjertelengslene» or the more common Bokmål «hjertets lengsler» or «hjertets lengsler» depending on house style. Keep tags and punctuation unchanged.",
+        "translation_quote": "«Det er en renhet og skjønnhet i Jesu liv som resonnerer med disse hjertelængslene.»"
+      },
+      {
+        "location": "Paragraph about Zebedee and sons (word form)",
+        "severity": "minor",
+        "source_quote": "“Perhaps he was hoping that time with the Nazarene would soften the temper of their abrasive characters.”",
+        "suggested_fix": "Correct spelling of 'temperament'. Replace «temperementet» with «temperamentet».",
+        "translation_quote": "«Kanskje håpet han at tid med Nasarenen ville mildne temperementet i deres skarpe væremåte.»"
+      },
+      {
+        "location": "Section metadata: section field",
+        "severity": "minor",
+        "source_quote": "Section: \"The New Testament Church\"",
+        "suggested_fix": "Use standard Bokmål formation for the section title. Replace «Den nye testamentlige kirke» with «Den nytestamentlige kirke». (This is a stylistic/idiomatic correction; preserve capitalization and tag placement.)",
+        "translation_quote": "\"Den nye testamentlige kirke\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

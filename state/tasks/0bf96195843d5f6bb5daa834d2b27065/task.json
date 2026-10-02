@@ -2,7 +2,6 @@
   "article_id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 7464
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1189,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7176,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8365
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Titus 2:3-5 (source.html)",
+      "severity": "critical",
+      "source_quote": "That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+      "suggested_fix": "Translate the phrase \"obedient to their own husbands\" accurately into Hindi, preserving the possessive sense \"their own\" (i.e., their actual husbands). For example: “...अपने पतियों के आज्ञाकारिणी हों” or “...अपने अपने पतियों की आज्ञा माननेवाली हों।” Replace the incorrect \"स्वर्गीय पतियों\" wording with the correct target-language rendering. Keep the verse reference unchanged (Titus 2:3-5).",
+      "translation_quote": "...भली हों, अपने स्वर्गीय पतियों की आज्ञा का पालन करनेवाली हों, कि परमेश्वर का वचन न बदनाम हो—तितुस 2:3-5।"
+    },
+    {
+      "location": "Title field (source.title)",
+      "severity": "major",
+      "source_quote": "A Joyful Calling",
+      "suggested_fix": "Translate the English title into contemporary standard Hindi. For example: “एक आनंदमय बुलाहट” or “आनंदपूर्ण आह्वान”. Replace the English title in the translation's title field with the selected Hindi rendering. Do not change other metadata (section remains \"Sister to Sister\").",
+      "translation_quote": "A Joyful Calling"
+    },
+    {
+      "location": "Opening paragraph, narrator gender (source.html first paragraph)",
+      "severity": "major",
+      "source_quote": "I stepped quietly down the stairs, my eyes groggy. It was midnight...",
+      "suggested_fix": "The English first-person narrator is female (context elsewhere indicates a woman's perspective). The Hindi translation uses masculine verb forms (e.g., “नीचे गया”), which changes the narrator's gender. Change the verbs/pronouns to feminine forms to match the author's perspective (e.g., “मैं धीरे-धीरे सीढ़ियाँ उतरकर नीचे गई, मेरी आँखें सुस्त थीं.”). Review entire translation for similar gender mismatches and correct them to feminine where the author is clearly female.",
+      "translation_quote": "मैं धीरे-धीरे सीढ़ियाँ उतरकर नीचे गया, मेरी आँखें सुस्त थीं।"
+    },
+    {
+      "location": "Second paragraph — reported speech (source.html second paragraph)",
+      "severity": "minor",
+      "source_quote": "She exclaimed, “Oh, he’s just hungry!”",
+      "suggested_fix": "Translate the English word \"exclaimed\" into Hindi rather than leaving it in English. For example: “वह हँसीं और बोली, ‘ओह, वह बस भूखा है!’” or “वे चिल्लाई/उत्साहित स्वर में बोलीं, ‘ओह, वह बस भूखा है!’” Keep the quoted speech translated as presently done, and ensure quotation punctuation is Hindi-appropriate.",
+      "translation_quote": "उनकी आँखें आनंद से चमक रही थीं जब उन्होंने exclaimed, “ओह, वह बस भूखा है!”"
+    }
+  ],
   "id": "0bf96195843d5f6bb5daa834d2b27065",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> paragraph lines 4-5 (\"With many a mystery light somewhere up there?\")",
+      "severity": "minor",
+      "source_quote": "With many a mystery light somewhere up there?",
+      "suggested_fix": "Übersetze idiomatischer: z. B. „Mit so manchem rätselhaften Licht dort oben?“—keine HTML-Strukturänderung.",
+      "translation_quote": "Mit manchem Licht, ein Rätsel irgendwo dort oben?"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph line 9 (\"In the still silence of the spacious sky,\")",
+      "severity": "minor",
+      "source_quote": "In the still silence of the spacious sky,",
+      "suggested_fix": "Vermeide die Wortwiederholung von „Weite/weiten“. Vorschlag: „In der stillen Weite des Himmels,“ — bewahre vorhandene Tags.",
+      "translation_quote": "In der stillen Weite des weiten Himmels,"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph lines 12-13 (\"And yet it took man three whole days to reach / That tiny sphere so very close at hand.\")",
+      "severity": "minor",
+      "source_quote": "And yet it took man three whole days to reach\nThat tiny sphere so very close at hand.",
+      "suggested_fix": "„so nah am Griff\" ist unidiomatisch im Deutschen. Vorschlag: „...brauchte der Mensch volle drei Tage,\num jene winzige Kugel zu erreichen, die doch so nahe lag.“ (Ersetze nur den inneren Text, erhalte HTML.)",
+      "translation_quote": "Und doch brauchte der Mensch volle drei Tage,\nUm jene winzige Kugel zu erreichen, so nah am Griff."
+    },
+    {
+      "location": "<div class=\"poem\"> final stanza (reference to God: \"His greatness and His tender love\")",
+      "severity": "minor",
+      "source_quote": "...we\nCan feel His greatness and His tender love\nAnd humbly bow our heads and worship Him.",
+      "suggested_fix": "Konsistenz der Großschreibung bei Gottesanrede: entweder beide Pronomina groß („Seine Majestät und Seine zärtliche Liebe“) oder beide klein. Vorschlag: „Seine Majestät und Seine zärtliche Liebe“ — belasse sonstige Struktur.",
+      "translation_quote": "Seine Majestät und seine zärtliche Liebe spüren\nUnd demütig unser Haupt senken und ihn anbeten."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

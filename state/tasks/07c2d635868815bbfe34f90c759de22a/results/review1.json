@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a2cd75dd-59ae-4bc8-ad39-b7e756989424",
+    "response_id": "chatcmpl-EUX8KXWbHKrOqf8LmQyx60M3V4QTv",
+    "usage": {
+      "completion_tokens": 1749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3587
+    }
+  },
+  "received_at": "2026-10-02T13:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\">…</div> (line with \"That tiny sphere so very close at hand.\")",
+        "severity": "major",
+        "source_quote": "That tiny sphere so very close at hand.",
+        "suggested_fix": "Replace the translated phrase \"اس چھوٹی سی کرۂ ارض تک\" with a translation that correctly identifies the referent (the Moon). For example: \"اس چھوٹی سی کرۂِ چاند تک\" or \"اس چھوٹی سی کرۂ چاند تک\". Preserve surrounding HTML and line breaks.",
+        "translation_quote": "اس چھوٹی سی کرۂ ارض تک جو ہاتھ کے بالکل قریب تھی۔"
+      },
+      {
+        "location": "<div class=\"poem\">…</div> (line with \"With many a mystery light somewhere up there?\")",
+        "severity": "minor",
+        "source_quote": "With many a mystery light somewhere up there?",
+        "suggested_fix": "Use a more idiomatic rendering of \"mystery light\". For example replace \"کئی رازاں روشنی کے ٹکڑے?\" with \"کئی پراسرار روشنی کے ٹکڑے؟\" or \"کہیں اوپر کئی پراسرار جھلکیاں؟\" to better convey the sense of mysterious lights.",
+        "translation_quote": "اور کہیں اوپر کئی رازاں روشنی کے ٹکڑے?"
+      },
+      {
+        "location": "<div class=\"poem\">…</div> (line with \"And make you feel the size you really are?\")",
+        "severity": "minor",
+        "source_quote": "And make you feel the size you really are?",
+        "suggested_fix": "The phrase \"size you really are\" is about one's smallness in the vastness; translate to convey that sense. Replace \"اپنے اصل حجم کا احساس دلاتی ہے؟\" with e.g. \"اپنی حقیقی حقارت/معنوی چھوٹا پن محسوس کرواتے ہیں؟\" or better/fitting in tone: \"اور تمہیں اپنی حقیقی چھوٹائی کا احساس دلاتی ہے؟\". Keep wording consistent with register of the poem.",
+        "translation_quote": "اور تمہیں اپنے اصل حجم کا احساس دلاتی ہے؟"
+      },
+      {
+        "location": "<div class=\"poem\">…</div> (final stanza: \"Which our Creator made for us so we / Can feel His greatness and His tender love\")",
+        "severity": "minor",
+        "source_quote": "Which our Creator made for us so we\nCan feel His greatness and His tender love",
+        "suggested_fix": "Fix the grammar to show the Creator as the subject doing the creating. Replace \"جو ہمارا خالق ہمارے لیے پیدا گیا\" with a grammatically correct relative clause such as \"جنہیں ہمارے خالق نے ہمارے لیے پیدا کیا\" so the stanza reads naturally and preserves meaning. Example replacement for both lines: \"جو ہمارے خالق نے ہمارے لیے پیدا کیے ہیں تاکہ ہم\nاس کی عظمت اور اس کی مہربان محبت محسوس کر سکیں\".",
+        "translation_quote": "جو ہمارا خالق ہمارے لیے پیدا گیا تاکہ ہم\nاس کی عظمت اور اس کی مہربان محبت کو محسوس کر سکیں"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

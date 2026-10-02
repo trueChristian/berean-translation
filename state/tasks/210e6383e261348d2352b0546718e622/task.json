@@ -2,7 +2,6 @@
   "article_id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,59 @@
         },
         "total_tokens": 2021
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1365,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1746,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3111
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> paragraph lines 4-5 (\"With many a mystery light somewhere up there?\")",
+      "severity": "minor",
+      "source_quote": "With many a mystery light somewhere up there?",
+      "suggested_fix": "Übersetze idiomatischer: z. B. „Mit so manchem rätselhaften Licht dort oben?“—keine HTML-Strukturänderung.",
+      "translation_quote": "Mit manchem Licht, ein Rätsel irgendwo dort oben?"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph line 9 (\"In the still silence of the spacious sky,\")",
+      "severity": "minor",
+      "source_quote": "In the still silence of the spacious sky,",
+      "suggested_fix": "Vermeide die Wortwiederholung von „Weite/weiten“. Vorschlag: „In der stillen Weite des Himmels,“ — bewahre vorhandene Tags.",
+      "translation_quote": "In der stillen Weite des weiten Himmels,"
+    },
+    {
+      "location": "<div class=\"poem\"> paragraph lines 12-13 (\"And yet it took man three whole days to reach / That tiny sphere so very close at hand.\")",
+      "severity": "minor",
+      "source_quote": "And yet it took man three whole days to reach\nThat tiny sphere so very close at hand.",
+      "suggested_fix": "„so nah am Griff\" ist unidiomatisch im Deutschen. Vorschlag: „...brauchte der Mensch volle drei Tage,\num jene winzige Kugel zu erreichen, die doch so nahe lag.“ (Ersetze nur den inneren Text, erhalte HTML.)",
+      "translation_quote": "Und doch brauchte der Mensch volle drei Tage,\nUm jene winzige Kugel zu erreichen, so nah am Griff."
+    },
+    {
+      "location": "<div class=\"poem\"> final stanza (reference to God: \"His greatness and His tender love\")",
+      "severity": "minor",
+      "source_quote": "...we\nCan feel His greatness and His tender love\nAnd humbly bow our heads and worship Him.",
+      "suggested_fix": "Konsistenz der Großschreibung bei Gottesanrede: entweder beide Pronomina groß („Seine Majestät und Seine zärtliche Liebe“) oder beide klein. Vorschlag: „Seine Majestät und Seine zärtliche Liebe“ — belasse sonstige Struktur.",
+      "translation_quote": "Seine Majestät und seine zärtliche Liebe spüren\nUnd demütig unser Haupt senken und ihn anbeten."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "210e6383e261348d2352b0546718e622",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "deu",
@@ -100,11 +149,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

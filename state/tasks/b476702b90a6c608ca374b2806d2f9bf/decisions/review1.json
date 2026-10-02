@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>In the spring of 2022, we made some changes with our ministry in our endeavors to keep the work of The Berean Voice moving forward into the future. Personnel changes:</p>",
+      "severity": "minor",
+      "source_quote": "Personnel changes:",
+      "suggested_fix": "Translate the heading as 'कर्मचारी परिवर्तन:' or 'कर्मियों में परिवर्तन:' (preserving the colon) instead of 'कर्मकांड परिवर्तन:' which reads as 'ritual changes' and alters the intended meaning.",
+      "translation_quote": "कर्मकांड परिवर्तन:"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

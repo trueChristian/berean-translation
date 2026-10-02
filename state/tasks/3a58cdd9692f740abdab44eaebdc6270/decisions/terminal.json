@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>Ученичество — это обязанность верующего. Вера в Иисуса, покаяние в наших грехах и принятие Господа Иисуса в своё сердце — первые шаги в течение всей жизни в пути веры. Ученичество не является альтернативным средством спасения. Следование за Иисусом — это ответ спаслённой души. Следование за Иисусом не есть плотский стремление заслужить вечную жизнь. Это ответ любви того, кто обнаружил источник жизни.</p>",
+      "severity": "minor",
+      "source_quote": "Discipleship is not an alternate means of salvation. Following Jesus is the response of a soul set free. Following Jesus is not a carnal attempt to merit eternal life.",
+      "suggested_fix": "Correct small grammatical and stylistic issues while preserving meaning. Replace the three sentences with a fluent Russian rendering that preserves the theology: «Ученичество не является альтернативным средством спасения. Следование за Иисусом — это ответ души, ставшей свободной. Следование за Иисусом не является плотским стремлением заслужить вечную жизнь.»",
+      "translation_quote": "Ученичество не является альтернативным средством спасения. Следование за Иисусом — это ответ спаслённой души. Следование за Иисусом не есть плотский стремление заслужить вечную жизнь."
+    },
+    {
+      "location": "<p>Мы совершает выбор верой. Мы выбираем идти за Ним. Мы передаём детали нашему Господину.</p>",
+      "severity": "minor",
+      "source_quote": "We make a faith choice. We choose to follow. We commit the details to our Master.",
+      "suggested_fix": "Fix the verb agreement and slightly improve idiom: «Мы совершаем выбор верой. Мы выбираем следовать за Ним. Мы вверяем детали нашему Господину.»",
+      "translation_quote": "Мы совершает выбор верой. Мы выбираем идти за Ним. Мы передаём детали нашему Господину."
+    },
+    {
+      "location": "<figure>\n    <img src=\"/images/articles/964d8688-6491-4ede-9271-c923db4c4079-1.jpg\" alt=\"Потрёпанная деревянная рыбацкая лодка, плавающая по спокойной воде\">\n  </figure>",
+      "severity": "minor",
+      "source_quote": "Weathered wooden fishing boat floating on calm water",
+      "suggested_fix": "Use a more natural, idiomatic rendering of the English caption while keeping meaning: e.g. «Потёртая деревянная рыбацкая лодка, плавающая по спокойной воде» or «Потрёпанная деревянная рыбацкая лодка, плавающая по спокойной воде». Either is acceptable; ensure adjective-noun collocation is natural.",
+      "translation_quote": "Потрёпанная деревянная рыбацкая лодка, плавающая по спокойной воде"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

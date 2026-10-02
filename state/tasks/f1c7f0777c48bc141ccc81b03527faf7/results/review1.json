@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4402155f-e26e-4c27-99f8-ce5d693bd86e",
+    "response_id": "chatcmpl-EUX8Ebrpa1qYIHGGsVbsCGxyBlrp8",
+    "usage": {
+      "completion_tokens": 1061,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6834,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7895
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (source.html)",
+        "severity": "minor",
+        "source_quote": "There were few general stores and as much as possible they lived as self-sufficiently as they could.",
+        "suggested_fix": "Change to a more idiomatic Afrikaans: replace “algemenewinkels” with “algemene winkels” and simplify wording (preserve HTML tags): e.g. \"Daar was min algemene winkels en sover as moontlik het hulle so selfversorgend as moontlik geleef.\"",
+        "translation_quote": "Daar was min algemenewinkels en sover as moontlik het hulle so selfversorgend as moontlik geleef."
+      },
+      {
+        "location": "Paragraph quoting Hebrews 10:25 (source.html)",
+        "severity": "minor",
+        "source_quote": "Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching –Hebrews 10:25.",
+        "suggested_fix": "Rendered phrase “die dag sien aanskuiwe” is awkward/unnatural in contemporary Afrikaans. Suggest: replace that clause while preserving verse meaning and punctuation, e.g. \"...en dit des te meer, hoe meer julle die dag nader sien kom –Hebreërs 10:25.\"",
+        "translation_quote": "En laat ons die samekomste van mekaar niet verlaat, soos sommige die gewoonte het, maar mekaar aanspoor, en dit des te meer, hoe meer julle die dag sien aanskuiwe –Hebreërs 10:25."
+      },
+      {
+        "location": "Paragraph about Scripture (source.html) — \"Scripture makes it clear\"",
+        "severity": "minor",
+        "source_quote": "Scripture makes it clear that we need a church body.",
+        "suggested_fix": "The Afrikaans uses “Skrywe” which is nonstandard here; use the conventional \"Skrif\" or \"Die Skrif\" to refer to the Bible. Suggested fix (preserve HTML tags): \"Die Skrif maak dit duidelik dat ons ’n kerk liggaam nodig het.\"",
+        "translation_quote": "Skrywe maak dit duidelik dat ons ’n kerk liggaam nodig het."
+      },
+      {
+        "location": "Paragraph about exercise studies (source.html)",
+        "severity": "minor",
+        "source_quote": "There have been several studies that compared exercise to antidepressants and found that it had similar effectiveness to many of the commonly prescribed antidepressant medications.",
+        "suggested_fix": "The translation uses the nonstandard compound \"effektiewydheid\". Replace with a clear Afrikaans equivalent such as \"soortgelyke doeltreffendheid\" or \"vergelykbare effektiwiteit\" while preserving meaning. Example fix: \"Daar is verskeie studies wat oefening met antidepressante vergelyk het en bevind het dat dit ’n soortgelyke doeltreffendheid het as baie van die algemeen voorgeskrewe antidepressante medikasie.\"",
+        "translation_quote": "Daar is verskeie studies wat oefening met antidepressante vergelyk het en bevind het dat dit soortgelyke effektiewydheid het as baie van die algemeen voorgeskrewe antidepressante medikasie."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

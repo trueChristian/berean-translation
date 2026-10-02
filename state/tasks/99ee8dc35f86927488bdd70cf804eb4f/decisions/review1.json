@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> (line: \"In the still silence of the spacious sky,\")",
+      "severity": "minor",
+      "source_quote": "In the still silence of the spacious sky,",
+      "suggested_fix": "Vervang de repetitieve frase door een vlottere Nederlandse formulering die hetzelfde betekent en binnen de bestaande HTML-structuur blijft, bijvoorbeeld: In de stille ruimte van de uitgestrekte hemel,",
+      "translation_quote": "In de stille stilte van de ruime hemel,"
+    },
+    {
+      "location": "<div class=\"poem\"> (line: \"The crescent moon is closer yet to you,\")",
+      "severity": "minor",
+      "source_quote": "The crescent moon is closer yet to you,",
+      "suggested_fix": "Overweeg om \"sikkelmaan\" te handhaven (goed), maar als alternatief voor vlotheid kunt u ook \"de sikkelvormige maan\" gebruiken. Beide zijn correct; geen dringend herstel nodig.",
+      "translation_quote": "De sikkelmaan is nog dichterbij jou,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

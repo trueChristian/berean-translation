@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Multiple (title, heading, body quoted song title)",
+      "severity": "major",
+      "source_quote": "\"Saviour, Like a Shepherd Lead Us\" (appears as the hymn title and quoted in body)",
+      "suggested_fix": "Translate every occurrence of the hymn title into German to match the translated hymn text. For example, replace all occurrences of \"Saviour, Like a Shepherd Lead Us\" with a German title consistent with the translated lyrics, e.g. \"Retter, wie ein Hirte, führe uns\" (or another idiomatic German rendering of the hymn title) preserving quotation marks and HTML structure. Specifically: 1) In the article title/heading where the hymn title appears, replace the English title with the German title. 2) In every inline quote in the narrative where the English title appears (e.g., Ellie’s request), replace the English with the same German title. 3) In the <h3> heading above the lyrics, replace the English title with the German title. Do not change the translated lyrics block (it is already translated).",
+      "translation_quote": "\"Saviour, Like a Shepherd Lead Us\" (left in English in the translated article in the narrative and as the hymn heading)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 3722
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1230,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3191,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4421
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>… <em>Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content –Philippians 4:11.</em></p>",
+      "severity": "major",
+      "source_quote": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content –Philippians 4:11.",
+      "suggested_fix": "Replace the English book name with the conventional French form and keep the chapter/verse numbers unchanged. For example: «Je ne dis pas cela parce que je manque; car j'ai appris à être content, dans l'état où je me trouve — Philippiens 4:11.» Preserve the existing <em> tags and punctuation.",
+      "translation_quote": "Je ne dis pas cela parce que je manque; car j'ai appris à être content, dans l'état où je me trouve –Philippians 4:11."
+    },
+    {
+      "location": "<p>L'été est à nos portes, ... la plupart de ce que l'on appelle localement «the spring work» est terminé.</p>",
+      "severity": "major",
+      "source_quote": "the spring work",
+      "suggested_fix": "Translate the quoted English phrase into French rather than leaving it in English. For example: «le travail du printemps» or «les travaux de printemps», depending on intended nuance. Suggested replacement: «la plupart de ce que l'on appelle localement «les travaux de printemps» est terminé.»",
+      "translation_quote": "la plupart de ce que l'on appelle localement «the spring work» est terminé."
+    },
+    {
+      "location": "<p>... Et lorsque He donna la «Grande Commission», c'était à Ses disciples ...</p>",
+      "severity": "major",
+      "source_quote": "And then when He gave the “Great Commission” it was to His disciples at that time, and to all future disciples—the Church of Jesus Christ.",
+      "suggested_fix": "The English pronoun He was left in the translation. Replace the English pronoun with the correct French pronoun while preserving capitalization if the translator intends the reverential capital. Suggested fix: «Et lorsque Il donna la «Grande Commission», c'était à Ses disciples de l'époque, et à tous les futurs disciples — l'Église de Jésus-Christ.»",
+      "translation_quote": "Et lorsque He donna la «Grande Commission», c'était à Ses disciples de l'époque, et à tous les futurs disciples — l'Église de Jésus-Christ."
+    }
+  ],
   "id": "0d9632cd21086906e62b941bf0dfaacb",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "fra",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 74,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

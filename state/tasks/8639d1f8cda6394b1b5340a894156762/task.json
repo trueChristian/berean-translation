@@ -2,7 +2,6 @@
   "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,93 @@
         },
         "total_tokens": 9149
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2344,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8808,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11152
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Luke 14:25-33 (second <p> in source.html)",
+      "severity": "critical",
+      "source_quote": "…and he turned, and said unto them, If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple. And whosoever doth not bear his cross, and come after me, cannot be my disciple. ... –Luke 14:25-33.",
+      "suggested_fix": "Translate the entire quoted Scripture passage into Bengali, preserving the punctuation, emphasis (bold/underline in HTML) and the exact chapter and verse citation (Luke 14:25-33). Do not leave the verse in English. For example, replace the English block entirely with a Bengali rendering inside the same <em>…</em> and keep the –Luke 14:25-33 citation at the end unchanged.",
+      "translation_quote": "…and he turned, and said unto them, If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, <strong>he cannot be my disciple.</strong> And whosoever doth not <u>bear his cross</u>, and come after me, <strong>cannot be my disciple.</strong> ... –Luke 14:25-33."
+    },
+    {
+      "location": "Paragraph with 2 Timothy 3:12 (third <p>)",
+      "severity": "critical",
+      "source_quote": "Yea, and all that will live godly in Christ Jesus shall suffer persecution –2 Timothy 3:12.",
+      "suggested_fix": "Translate the quoted Scripture (2 Timothy 3:12) into Bengali and retain the verse citation –2 Timothy 3:12. Ensure translation conveys the printed meaning of the authoritative English text provided.",
+      "translation_quote": "<em>Yea, and all that will live godly in Christ Jesus shall suffer persecution –2 Timothy 3:12.</em>"
+    },
+    {
+      "location": "Paragraph with 1 John 2:6 (fourth <p>)",
+      "severity": "critical",
+      "source_quote": "He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6.",
+      "suggested_fix": "Translate 1 John 2:6 into Bengali (inside the existing <em> tags if present) and leave the citation –1 John 2:6 unchanged.",
+      "translation_quote": "<em>He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6.</em>"
+    },
+    {
+      "location": "Paragraph referencing Mark 15:28 (sixth <p>)",
+      "severity": "critical",
+      "source_quote": "…He was numbered with the transgressors –Mark 15:28.",
+      "suggested_fix": "Translate the quoted clause including the citation Mark 15:28 into Bengali, keeping the same emphasis and leaving the verse number unchanged.",
+      "translation_quote": "<em>…He was numbered with the transgressors –Mark 15:28.</em>"
+    },
+    {
+      "location": "Paragraph containing Deuteronomy 3:3-6 quotation",
+      "severity": "critical",
+      "source_quote": "So the LORD our God delivered into our hands Og also, the king of Bashan, and all his people: and we smote him until none was left to him remaining. ... utterly destroying the men, women, and children, of every city –Deuteronomy 3:3-6.",
+      "suggested_fix": "Translate the entire quoted Deuteronomy 3:3-6 passage into Bengali and leave the citation –Deuteronomy 3:3-6 intact. Preserve any emphasis markup (<em>) used in the source.",
+      "translation_quote": "<em>So the LORD our God delivered into our hands Og also, the king of Bashan, and all his people: and we smote him until none was left to him remaining. ... utterly destroying the men, women, and children, of every city –Deuteronomy 3:3-6.</em>"
+    },
+    {
+      "location": "Paragraphs with John 12:25, Genesis 3:19, James 4:14, Mark 16:15, Philippians 1:21, Matthew 16:25, Acts 21:10-13 (multiple locations)",
+      "severity": "critical",
+      "source_quote": "He that loveth his life shall lose it; and he that hateth his life in this world shall keep it unto life eternal –John 12:25. / In the sweat of thy face shalt thou eat bread... –Genesis 3:19. / Whereas ye know not what shall be on the morrow... –James 4:14. / Go ye into all the world, and preach the gospel to every creature –Mark 16:15. / For to me to live is Christ, and to die is gain –Philippians 1:21. / For whosoever will save his life shall lose it... –Matthew 16:25. / And as we tarried there many days... Then Paul answered, What mean ye to weep... –Acts 21:10-13.",
+      "suggested_fix": "Each quoted Scripture or long quotation from Acts should be translated into Bengali in full, preserving the verse references exactly as in the source (e.g., –John 12:25, –Genesis 3:19, –James 4:14, –Mark 16:15, –Philippians 1:21, –Matthew 16:25, –Acts 21:10-13). Keep any original emphasis (italics/bold/underline) and the placement of the citation. Do not leave scriptural quotations in English.",
+      "translation_quote": "(Multiple occurrences remain in English, e.g.,) <em>Yea, and all that will live godly in Christ Jesus shall suffer persecution –2 Timothy 3:12.</em> / <em>He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6.</em> / <em>…He was numbered with the transgressors –Mark 15:28.</em> / <em>…Go ye into all the world, and preach the gospel to every creature –Mark 16:15.</em> / <em>For to me to live is Christ, and to die is gain –Philippians 1:21.</em> / <em>For whosoever will save his life shall lose it... –Matthew 16:25</em> / <em>And as we tarried there many days... –Acts 21:10-13.</em>"
+    },
+    {
+      "location": "Paragraph beginning \"How did He walk?\" (fifth <p>)",
+      "severity": "minor",
+      "source_quote": "He was not a popular person; He had few friends. In reality, He didn’t fit in, and He didn’t last long. Three years after His ministry began, He was killed.",
+      "suggested_fix": "The translation contains awkward or incorrect phrasing: e.g., \"তাঁর কিছুই বন্ধুবা্যক্তি কম ছিল\" and later \"তিনি মেলামেশা করেননি, এবং তিনি বেশিদিন টেকলেন না.\" Revise to natural, clear Bengali while preserving meaning. Suggested Bengali: \"তিনি জনপ্রিয় ছিলেন না; তাঁর বন্ধু কম ছিল। বাস্তবে তিনি সাধারণ সমাজে মানানসই ছিলেন না, এবং তিনি বেশি দিন টেকলেন না। তাঁর সেবার শুরু থেকে তিন বছর পরে তিনি হত্যা হন।\"",
+      "translation_quote": "তিনি জনপ্রিয় ব্যক্তি ছিলেন না; তাঁর কিছুই বন্ধুবা্যক্তি কম ছিল। বাস্তবে, তিনি মেলামেশা করেননি, এবং তিনি বেশিদিন টেকলেন না। তাঁর সেবা শুরু হওয়ার তিন বছর পর তিনি হত্যা করা হয়েছিলেন।"
+    },
+    {
+      "location": "Paragraph describing Israel in the wilderness (contains mixed script)",
+      "severity": "minor",
+      "source_quote": "We read about the children of Israel going through the wilderness.",
+      "suggested_fix": "The translation contains a stray Cyrillic character and mixed-language fragment ('প пустিনায়'). Remove the extraneous character and render the sentence smoothly in Bengali. Suggested correction: \"আমরা ইস্রায়েলীদের মরুভূমি ভ্রমণের কথা পড়ি।\"",
+      "translation_quote": "আমরা পঠন করি ইস্রায়েলীদের প пустিনায় যাওয়ার কথা।"
+    },
+    {
+      "location": "Poem block (blockquote.poem)",
+      "severity": "minor",
+      "source_quote": "Rise up, O saints of God! Have done with lesser things. Give heart and soul and mind and strength To serve the King of kings....",
+      "suggested_fix": "Poem translation has some phrasing and register issues (e.g., \"ছোট বিষয়গুলোর সঙ্গে কল্প বিসর্জন দাও\", \"রাজাদের রাজাকে\"). Revise to a more idiomatic, reverent Bengali poetic rendering while preserving stanza breaks and overall sense. Keep the poem inside the existing <blockquote class=\"poem\"> and <p> tags.",
+      "translation_quote": "উঠো, হে ঈশ্বরের সাধকগণ! ছোট বিষয়গুলোর সঙ্গে কল্প বিসর্জন দাও। হৃদয় ও আত্মা ও মন ও বল দিয়ে সেবা করো রাজাদের রাজাকে।"
+    }
+  ],
   "id": "8639d1f8cda6394b1b5340a894156762",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ben",
@@ -100,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2a0e8037a7779b7d65ad5a5dc37689987f7de799a9c99fb81a3fa397558d941f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

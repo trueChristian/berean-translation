@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — paragraph where Ellie asks Grandpa (text: “Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday? I would really like to sing it again!”)\",\"severity\":\"major\",\"source_quote\":\"“Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday? I would really like to sing it again!”\",\"suggested_fix\":\"Translate the quoted English song title into Hindi and keep it consistently translated everywhere it appears. Example: replace the English title with a natural Hindi rendering such as “‘उद्धारकर्ता, चरवाहे की तरह हमें ले चलो’” (or “‘उद्धारकर्ता, चरवाहे की तरह हमें मार्गदर्शन करना’”), preserving the quotation marks and surrounding punctuation. Do not leave the song title in English inside the quoted sentence. The rest of the sentence should remain as already translated.\",\"translation_quote\":\"“क्या आप अगली रविवार वो गीत ‘Saviour, Like A Shepherd Lead Us’ गा सकते हैं? मैं उसे फिर से गाना चाहती हूँ!”\"},{\"location\":\"source.html — hymn heading (h3) and earlier h3 before lyrics (text: “Saviour, Like A Shepherd Lead Us”)\",\"severity\":\"major\",\"source_quote\":\"Saviour, Like A Shepherd Lead Us\",\"suggested_fix\":\"Translate this hymn heading into Hindi so the hymn title is not left in English. Use the same Hindi title chosen for other occurrences (e.g., “उद्धारकर्ता, चरवाहे की तरह हमें ले चलो”) and replace the English heading text inside the <h3> element. Ensure the heading text matches the title used inline in the narrative and any quoted occurrences.\",\"translation_quote\":\"Saviour, Like A Shepherd Lead Us\"},{\"location\":\"source.html — paragraph where mother looks startled (English: “Mom had a strange look on her face, and she was quiet for a moment.”)\",\"severity\":\"minor\",\"source_quote\":\"Mom had a strange look on her face, and she was quiet for a moment.\",\"suggested_fix\":\"Use a natural Hindi phrasing for “a bit startled” or “a strange look” instead of the literal/odd phrasing currently used. For example: replace “अदरक-सा आश्चर्य दिखा” with “थोड़ा चौंकी हुई सी दिखी” or “चेहरे पर हल्का चौंकना था।” Keep the rest of the translation unchanged.\",\"translation_quote\":\"एली की माँ की आँखों में अदरक-सा आश्चर्य दिखा。\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 2817,
+    "content_evidence_truncated": false,
+    "content_sha256": "cdba6721345ea4362b3688b09a1a9ff8318ec6520dc7d0487f1145d44da0f012",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1134,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4626,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5760
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

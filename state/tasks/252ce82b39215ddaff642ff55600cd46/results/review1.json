@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8ddeba46-bffa-4fc1-9674-3cbe5f3e4dab",
+    "response_id": "chatcmpl-EUXA4vOyOJw9jgykVgZEnBJYROPST",
+    "usage": {
+      "completion_tokens": 1754,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8378
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph with Genesis quote (near start)",
+        "severity": "major",
+        "source_quote": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him … And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found an help meet for him –Genesis 2:18-20.",
+        "suggested_fix": "Replace the English book name with the conventional Norwegian book name while leaving the chapter/verse numbers and punctuation unchanged. For example: “–1. Mosebok 2:18-20.” Do the same for every Scripture citation in the article (e.g., Genesis → 1. Mosebok; 1 Kings → 1. Kongebok; 2 Timothy → 2. Timoteus 4:9-11; Hebrews → Hebreerne 10:25; Galatians → Galaterne 6:5 and 6:2).",
+        "translation_quote": "Og Herren Gud sa: Det er ikke godt at mennesket er alene; jeg vil gjøre ham en hjelper som er hans like … Og Adam ga navn til alle husdyrene, himmelens fugler og alle markens dyr; men for Adam ble det ikke funnet noen hjelper som var hans like –Genesis 2:18-20."
+      },
+      {
+        "location": "Paragraph about Elijah fed miraculously",
+        "severity": "minor",
+        "source_quote": "Through the whole time, he was miraculously fed through God’s power, first by ravens and then through God’s provision of flour and oil to a widow, with whom he lived. Through God’s power, he raised the widow’s son to life.",
+        "suggested_fix": "Correct the Norwegian wording to a natural, grammatical rendering that preserves the meaning. Suggested replacement: “Gjennom hele denne tiden ble han mirakuløst forsynt av Gud, først av kråker og senere da Gud sørget for mel og olje til enken han bodde hos. Ved Guds kraft oppreiste han enkens sønn til livet.”",
+        "translation_quote": "Gjennom hele denne tiden ble han underliggjort forsørget ved Guds makt, først av kråker og senere ved at Gud sørget for mel og olje til enken han bodde hos. Ved Guds makt oppreiste han enkens sønn til livet."
+      },
+      {
+        "location": "2 Timothy quote (Paul in prison)",
+        "severity": "minor",
+        "source_quote": "Do thy diligence to come shortly unto me: For Demas hath forsaken me, having loved this present world, and is departed unto Thessalonica; Crescens to Galatia, Titus unto Dalmatia. Only Luke is with me. Take Mark, and bring him with thee… –2 Timothy 4:9-11.",
+        "suggested_fix": "Change the English book name to the conventional Norwegian form and keep the chapter/verse numbers unchanged. Also consider keeping proper names as in the source; if you retain localized spellings of names, ensure they match the author’s usage. Suggested fix: replace “–2 Timothy 4:9-11.” with “–2. Timoteus 4:9-11.” If preserving the original English name spellings is required, at least the book name must be localized.",
+        "translation_quote": "Gjør hva du kan for å komme til meg snart: For Demas har forlatt meg, fordi han elsket denne nåværende verden, og er reist til Tessalonika; Krescens til Galatia, Titus til Dalmatia. Bare Lukas er hos meg. Ta Markus med, og bring ham med deg… –2 Timothy 4:9-11."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

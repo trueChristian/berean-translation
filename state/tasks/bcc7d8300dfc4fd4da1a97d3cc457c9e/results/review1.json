@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "78e2bd26-6a90-4af7-84d9-4894a4edca92",
+    "response_id": "chatcmpl-EUX8GoUh05WiG6BX0eP3kT83xDXtI",
+    "usage": {
+      "completion_tokens": 1252,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2917
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"poem\">…When faced with God’s power, that devil—he hides!…</p>",
+        "severity": "minor",
+        "source_quote": "When faced with God’s power, that devil—he hides!",
+        "suggested_fix": "Replace \"ठहर जाता है\" with a more natural Hindi verb for 'hides' in this context. For example: \"जब परमेश्वर की शक्ति का सामना होता है, वह शैतान — छिप जाता है!\" or \"...वह शैतान — छुप जाता है!\"",
+        "translation_quote": "जब परमेश्वर की शक्ति का सामना होता है, वह शैतान—ठहर जाता है!"
+      },
+      {
+        "location": "<p class=\"poem\">…To find one perfect, His power He’ll show!…</p>",
+        "severity": "minor",
+        "source_quote": "To find one perfect, His power He’ll show!",
+        "suggested_fix": "Smooth the clause ordering to read more naturally in Hindi while preserving meaning. For example: \"एक परिपूर्ण को खोजने पर वह अपनी शक्ति दिखाएगा!\" or \"एक परिपूर्ण की खोज में वह अपनी शक्ति दिखाएगा!\"",
+        "translation_quote": "एक परिपूर्ण को खोजने के लिए—उसकी शक्ति वह दिखाएगा!"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

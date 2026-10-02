@@ -2,7 +2,6 @@
   "article_id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 2146
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1743,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2873
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> first stanza, line 5",
+      "severity": "minor",
+      "source_quote": "With many a mystery light somewhere up there?",
+      "suggested_fix": "Translate more idiomatically and grammatically: replace \"Med många ljus som något mysterium där?\" with e.g. \"Med många mystiska ljus där uppe?\" to convey the sense and read naturally in Swedish.",
+      "translation_quote": "Med många ljus som något mysterium där?"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza beginning \"I the still silence...\",\"line\":\"I the still silence of the spacious sky,\"",
+      "severity": "minor",
+      "source_quote": "In the still silence of the spacious sky,",
+      "suggested_fix": "Fix grammatical agreement and idiomatic phrasing: replace \"I den stilla tystnad i det vida sky\" with e.g. \"I den stilla tystnaden i den vida himlen\" or \"I den stilla tystnaden i det vida skyn\".",
+      "translation_quote": "I den stilla tystnad i det vida sky"
+    },
+    {
+      "location": "<div class=\"poem\"> lines about the moon, third stanza",
+      "severity": "minor",
+      "source_quote": "And yet it took man three whole days to reach\nThat tiny sphere so very close at hand.",
+      "suggested_fix": "Correct grammatical gender/word form: replace \"den lilla klotet\" with \"det lilla klotet\" (or use \"det lilla klotet\"/\"det lilla himlakroppen\") so the noun and article agree.",
+      "translation_quote": "Att nå den lilla klotet så nära till hands."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "a1f65766f823484f0177bf80119ac94d",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swe",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

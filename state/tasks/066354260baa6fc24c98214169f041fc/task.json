@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 8108
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2308,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7833,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10141
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Top blockquote (Matthew 4:18-22)",
+      "severity": "critical",
+      "source_quote": "And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers. And he saith unto them, Follow me, and I will make you fishers of men. And they straightway left their nets, and followed him. And going on from thence, he saw other two brethren, James the son of Zebedee, and John his brother, in a ship with Zebedee their father, mending their nets; and he called them. And they immediately left the ship and their father, and followed him –Matthew 4:18-22.",
+      "suggested_fix": "블록 인용문 전체를 한국어로 번역하고 성경 책 이름을 한국어로 바꾸십시오. 예(권장 번역, 개역개정체 어투를 사용):\n\n“예수께서 갈릴리 바닷가로 지나가시다가 시몬이라 하는 베드로와 그의 형제 안드레가 바다에 그물을 던지는 것을 보시니 이는 저희가 어부임이라. 가라사대 나를 따르라 내가 너희로 사람을 낚는 어부가 되게 하리라 하시니 저희가 곧 그물을 버리고 따르니라. 거기서 더 가시다가 세베대의 아들 야고보와 그의 형제 요한을 배에서 그 아버지 세베대와 함께 그물 깁는 것을 보시고 부르시니 저희가 곧 배와 아버지를 버리고 따르니라 –마태복음 4:18-22.”\n\n원문 블록quote 태그와 서식을 유지하되 내부 영어 텍스트를 위와 같이 한국어로 교체하고 끝의 성경 표기를 “–마태복음 4:18-22.”로 바꾸십시오.",
+      "translation_quote": "And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers. And he saith unto them, Follow me, and I will make you fishers of men. And they straightway left their nets, and followed him. And going on from thence, he saw other two brethren, James the son of Zebedee, and John his brother, in a ship with Zebedee their father, mending their nets; and he called them. And they immediately left the ship and their father, and followed him –Matthew 4:18-22."
+    },
+    {
+      "location": "Second blockquote (John 21:3-6)",
+      "severity": "critical",
+      "source_quote": "Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing. But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus. Then Jesus saith unto them, Children, have ye any meat? They answered him, No. And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes –John 21:3-6.",
+      "suggested_fix": "블록 인용문 전체를 한국어로 번역하고 성경 책 이름을 한국어로 바꾸십시오. 예(권장 번역, 개역개정체 어투를 사용):\n\n“시몬 베드로가 저희에게 이르되 내가 고기 잡으러 가리라 하니 저희가 이르되 우리도 함께 가리라 하더라. 저희가 나가서 즉시 배에 오르니 그 밤에 한 마리도 잡지 못하였더라. 이른 아침에 예수께서 바닷가에 서 계셨으나 제자들이 예수인 줄 알지 못하더라. 예수께서 저희에게 이르시되 자녀들아 무릇 잡은 것이 있느냐 저희가 이르되 없나이다. 이르시되 배의 오른편에 그물을 던지라 그리하면 찾으리라 하시니 저희가 던지니 물고기가 많아 그물을 끌어올릴 수 없었더라 –요한복음 21:3-6.”\n\n원문 블록quote 태그와 서식을 유지하되 내부 영어 텍스트를 위와 같이 한국어로 교체하고 끝의 성경 표기를 “–요한복음 21:3-6.”로 바꾸십시오.",
+      "translation_quote": "Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing. But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus. Then Jesus saith unto them, Children, have ye any meat? They answered him, No. And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes –John 21:3-6."
+    },
+    {
+      "location": "Romans citation in paragraph about Paul (Romans 7:18)",
+      "severity": "major",
+      "source_quote": "…that in me (that is, in my flesh,) dwelleth no good thing…. …for to will is present with me; but how to perform that which is good I find not –Romans 7:18.",
+      "suggested_fix": "성경 책 이름을 한국어 관습 명칭으로 수정하십시오. 본문은 이미 한국어로 번역되어 있으므로 끝의 성경 표기만 교정하면 됩니다. 예: “–로마서 7:18.” (출처 표기는 한글로 변경하고 절 번호와 대시 표기를 원문과 동일한 위치에 유지하십시오).",
+      "translation_quote": "…내 속 곧 내 육신에는 선한 것이 거하지 아니하며… …내게 행할 능력이 없음을 내가 곧 아노니니라 –Romans 7:18."
+    },
+    {
+      "location": "Luke citation for plough saying (Luke 9:62)",
+      "severity": "major",
+      "source_quote": "…No man, having put his hand to the plough, and looking back, is fit for the kingdom of God –Luke 9:62.",
+      "suggested_fix": "성경 책 이름을 한국어 관습 명칭으로 수정하십시오. 예: “–누가복음 9:62.” (본문 인용은 이미 한글로 처리되어 있으니 성경 표기만 한글로 바꾸십시오).",
+      "translation_quote": "…손을 쟁기에 얹고 뒤를 돌아보는 자는 천국에 합당하지 아니하니라 –Luke 9:62."
+    }
+  ],
   "id": "066354260baa6fc24c98214169f041fc",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "kor",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

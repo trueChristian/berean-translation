@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Endnotes (source.html - bottom ordered list)\",\"severity\":\"minor\",\"source_quote\":\"<ol>\\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\\n  </ol>\",\"suggested_fix\":\"Translate or localize the endnote text into standard written Chinese while preserving the original URLs and the HTML structure. For example, render site names and descriptive text in Chinese (keep the bare URLs intact if desired) and keep the <ol> and <li> tags unchanged. Example suggestion (replace only the visible text, not the markup): <ol><li><em>MarionStar 网站文章：role-mothers-changed-years（2015/05/09） — Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li><li><em>Bookroo：伊丽莎白·艾略特的22条最佳书籍名言（Bookroo.com）</em></li></ol>\",\"translation_quote\":\"<ol>\\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\\n  </ol>\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1183,
+    "content_evidence_truncated": false,
+    "content_sha256": "b891b035ec08efe1b70fddc37e90f05e34a4fd7210ada35d25b1dcaebfba048f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6479,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7284
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

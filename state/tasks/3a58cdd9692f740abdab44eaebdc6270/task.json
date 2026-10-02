@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 7641
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1091,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7302,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8393
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>Ученичество — это обязанность верующего. Вера в Иисуса, покаяние в наших грехах и принятие Господа Иисуса в своё сердце — первые шаги в течение всей жизни в пути веры. Ученичество не является альтернативным средством спасения. Следование за Иисусом — это ответ спаслённой души. Следование за Иисусом не есть плотский стремление заслужить вечную жизнь. Это ответ любви того, кто обнаружил источник жизни.</p>",
+      "severity": "minor",
+      "source_quote": "Discipleship is not an alternate means of salvation. Following Jesus is the response of a soul set free. Following Jesus is not a carnal attempt to merit eternal life.",
+      "suggested_fix": "Correct small grammatical and stylistic issues while preserving meaning. Replace the three sentences with a fluent Russian rendering that preserves the theology: «Ученичество не является альтернативным средством спасения. Следование за Иисусом — это ответ души, ставшей свободной. Следование за Иисусом не является плотским стремлением заслужить вечную жизнь.»",
+      "translation_quote": "Ученичество не является альтернативным средством спасения. Следование за Иисусом — это ответ спаслённой души. Следование за Иисусом не есть плотский стремление заслужить вечную жизнь."
+    },
+    {
+      "location": "<p>Мы совершает выбор верой. Мы выбираем идти за Ним. Мы передаём детали нашему Господину.</p>",
+      "severity": "minor",
+      "source_quote": "We make a faith choice. We choose to follow. We commit the details to our Master.",
+      "suggested_fix": "Fix the verb agreement and slightly improve idiom: «Мы совершаем выбор верой. Мы выбираем следовать за Ним. Мы вверяем детали нашему Господину.»",
+      "translation_quote": "Мы совершает выбор верой. Мы выбираем идти за Ним. Мы передаём детали нашему Господину."
+    },
+    {
+      "location": "<figure>\n    <img src=\"/images/articles/964d8688-6491-4ede-9271-c923db4c4079-1.jpg\" alt=\"Потрёпанная деревянная рыбацкая лодка, плавающая по спокойной воде\">\n  </figure>",
+      "severity": "minor",
+      "source_quote": "Weathered wooden fishing boat floating on calm water",
+      "suggested_fix": "Use a more natural, idiomatic rendering of the English caption while keeping meaning: e.g. «Потёртая деревянная рыбацкая лодка, плавающая по спокойной воде» or «Потрёпанная деревянная рыбацкая лодка, плавающая по спокойной воде». Either is acceptable; ensure adjective-noun collocation is natural.",
+      "translation_quote": "Потрёпанная деревянная рыбацкая лодка, плавающая по спокойной воде"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "3a58cdd9692f740abdab44eaebdc6270",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

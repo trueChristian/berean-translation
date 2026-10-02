@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"As one woman wrote...\" (source.html third full paragraph)",
+      "severity": "minor",
+      "source_quote": "...we were shocked to suddenly hear that mothering only takes a third-grade education and a fulltime mother is unnecessary.",
+      "suggested_fix": "Use a more natural Dutch rendering of \"third-grade education\" (meaning: very little formal education) to improve clarity. For example: replace \"derdeklasopleiding\" with \"opgeleidingsniveau van groep drie\" or \"slechts het niveau van de basisschool\" while preserving the intended meaning.",
+      "translation_quote": "…dat moeder-zijn maar een derdeklasopleiding vereist en een fulltime moeder niet nodig is."
+    },
+    {
+      "location": "Multiple occurrences of phrase \"keepers at home\" (source.html Titus 2 citations)",
+      "severity": "minor",
+      "source_quote": "keepers at home",
+      "suggested_fix": "The translator used \"huismoeders\", which is understandable but slightly modern/colloquial. If a closer literal equivalent is preferred while remaining idiomatic, consider \"thuisblijvende vrouwen\" or \"huisvrouwen/huismoeders\" depending on regional preference. No doctrinal change — this is stylistic. Preserve the HTML and verse punctuation.",
+      "translation_quote": "huismoeders"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

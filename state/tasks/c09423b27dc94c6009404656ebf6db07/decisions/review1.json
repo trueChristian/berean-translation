@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Titus 2:3-5 (first occurrence)",
+      "severity": "minor",
+      "source_quote": "That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+      "suggested_fix": "Replace the translation of \"keepers at home\" (currently «dadoras de hogar») with a clearer, idiomatic Spanish phrase that conveys the original sense of being homemakers or keeping the household. Suggested wording: «guardianas del hogar» or «encargadas del hogar». Preserve the surrounding HTML and verse punctuation exactly.",
+      "translation_quote": "para que <strong>enseñen a las jóvenes</strong> a ser prudentes, a amar a sus maridos, a amar a sus hijos, a ser discretas, castas, <strong>dadoras de hogar</strong>, buenas, obedientes a sus maridos, para que la palabra de Dios no sea blasfemada –Tito 2:3-5."
+    },
+    {
+      "location": "Paragraph containing Titus 2:4-5 (second occurrence)",
+      "severity": "minor",
+      "source_quote": "That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:4-5.",
+      "suggested_fix": "As above, replace the rendered phrase «dadoras de hogar» with a clearer idiomatic option such as «guardianas del hogar» or «dedicadas al hogar» to better reflect the original \"keepers at home.\" Keep HTML and verse markers unchanged.",
+      "translation_quote": "Para que enseñen a las jóvenes a ser prudentes, a amar a sus maridos, a amar a sus hijos, a ser discretas, castas, dadoras de hogar, buenas, obedientes a sus maridos, para que la palabra de Dios no sea blasfemada –Tito 2:4-5."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

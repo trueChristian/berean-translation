@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "51ad8bd8-7a6d-4ea8-bc97-88d33b82377a",
+    "response_id": "chatcmpl-EUX7yEgNWJVWTrNPkxoaiyVMf5VEZ",
+    "usage": {
+      "completion_tokens": 1204,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6486,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7690
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>He brought word from God to Ahab that there would be no rain and there was terrible drought for the next three and a half years. During that time, Elijah spent time in the wilderness and then with a widow in Zarephath.</p>",
+        "severity": "major",
+        "source_quote": "there was terrible drought for the next three and a half years.",
+        "suggested_fix": "Restore correct duration wording matching the English source: translate as “er was een verschrikkelijke droogte gedurende de daaropvolgende drieënhalf jaar.”",
+        "translation_quote": "er was een vreselijke droogte gedurende de daaropvolgende anderhalf jaar."
+      },
+      {
+        "location": "<p>While this may sound like a scenario that demonstrates strength, the truth is somewhat different these days. These days people use technology to deliberately create bubbles of isolation around themselves.</p>",
+        "severity": "minor",
+        "source_quote": "rugged individualism",
+        "suggested_fix": "Use a more idiomatic Dutch rendering that preserves the English nuance, for example: “stoere/vastberaden individualisme” or “robuust individualisme” instead of “ruwe individualiteit.”",
+        "translation_quote": "ruwe individualiteit"
+      },
+      {
+        "location": "<p>Although there were lots of animals around, there was no true companionship for Adam. <em>And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him … And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found an help meet for him –Genesis 2:18-20.</em></p>",
+        "severity": "major",
+        "source_quote": "I will make him an help meet for him",
+        "suggested_fix": "The quoted Scripture must convey the original meaning of “helpmeet” (a suitable helper, companion). Translate the quote to a Dutch phrase that conveys that sense (not a needy person). For example: “Ik zal hem een hulp tegen zijn aangezicht maken” or “Ik zal hem een geschikte helper (metgezel) voor hem maken.” Replace the current rendering of the quoted Scripture so it faithfully reflects the English meaning.",
+        "translation_quote": "Ik zal hem een hulpbehoevende maken tegenover hem … En Adam gaf namen aan al het vee..."
+      },
+      {
+        "location": "<p>The Greek word translated <em>fellowship</em> in the New Testament is “Koinonia” and in the Bible it speaks of relationships that are founded on a shared love for God and for the church—a unity of belief and desire. Christian fellowship includes concepts like praying together, encouraging one another, and even suffering together.</p>",
+        "severity": "minor",
+        "source_quote": "fellowship / one-anothering Bible passages",
+        "suggested_fix": "The translation “plicht-aan-elkaar” is awkward and risks obscuring the reference to the New Testament 'one another' commands. Use a clearer phrase such as “de ‘tegen-elkaar’-of ‘one-another’-passages” or “de Bijbelpassages over elkaar dienen (de ‘een-de-zander’ geboden).”",
+        "translation_quote": "\"plicht-aan-elkaar\" Bijbelpassages worden nagevolgd."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

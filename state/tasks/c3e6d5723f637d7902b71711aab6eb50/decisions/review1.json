@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"><p>...Eppure all'uomo serviron tre giorni interi per raggiungere<br>\n    Quella piccola sfera così vicina.</p>",
+      "severity": "minor",
+      "source_quote": "And yet it took man three whole days to reach\n    That tiny sphere so very close at hand.",
+      "suggested_fix": "Preserva il senso ma correggi la forma verbale: sostituire \"serviron\" con \"servirono\" o con una locuzione più naturale come \"ci vollero\". Esempio (mantieni i tag HTML esistenti):\nEppure all'uomo servirono tre giorni interi per raggiungere<br>\n    Quella piccola sfera così vicina.",
+      "translation_quote": "Eppure all'uomo serviron tre giorni interi per raggiungere\n    Quella piccola sfera così vicina."
+    },
+    {
+      "location": "<div class=\"poem\"><p>...È solo una striscia di tutto l'immenso vasto<br>\n    Oltre la conoscenza di questa razza umana.</p>",
+      "severity": "minor",
+      "source_quote": "Is but a streak of all the vast expanse\n    Beyond the knowledge of this human race.",
+      "suggested_fix": "Frase ridondante o poco idiomatica in italiano: \"immenso vasto\" è duplicativo e \"striscia di tutto l'immenso vasto\" suona innaturale. Sostituire con una resa più scorrevole che preservi il senso, ad esempio:\nÈ solo un segmento di tutta l'immensa distesa<br>\n    Oltre la conoscenza di questa razza umana.\nMantieni i tag HTML esistenti.",
+      "translation_quote": "È solo una striscia di tutto l'immenso vasto\n    Oltre la conoscenza di questa razza umana."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

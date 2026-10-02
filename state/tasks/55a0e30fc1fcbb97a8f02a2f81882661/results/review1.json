@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d68b284e-191a-4e95-bc7e-4fb20d67162b",
+    "response_id": "chatcmpl-EUX8NzjIBpcEClHI70xie7FRy8AMN",
+    "usage": {
+      "completion_tokens": 867,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7237,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8104
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title / repeated term throughout (translation)",
+        "severity": "minor",
+        "source_quote": "The Call to Discipleship\n\n...Discipleship is incumbent on the believer. ... Discipleship will lead us into a total abandonment of ourselves to Christ.",
+        "suggested_fix": "Use the standard, widely accepted Indonesian theological term for “discipleship” (pemuridan) instead of the uncommon/neologism “kepelatihan.” Replace instances of “Kepelatihan” with “Pemuridan” (preserve HTML tags and order). This keeps theological meaning and idiom intact.",
+        "translation_quote": "Panggilan untuk Kepelatihan\n\n...Kepelatihan adalah kewajiban bagi orang percaya. ... Kepelatihan akan membawa kita ke dalam penyerahan diri total kepada Kristus."
+      },
+      {
+        "location": "paragraph containing: \"Maaﬁkan orang yang telah menyinggungmu.\"",
+        "severity": "minor",
+        "source_quote": "Then “Love your neighbor” – “Serve the needy” – “Defer to your brother” – “Forgive the one that has offended you”.",
+        "suggested_fix": "Correct the typographic/encoding error in the Indonesian verb for “forgive.” Replace “Maaﬁkan” (contains a ligature or incorrect character) with the standard Indonesian spelling “Maafkan.” Preserve surrounding punctuation and HTML tags.",
+        "translation_quote": "Lalu \"Kasihilah sesamamu\" – \"Layani mereka yang membutuhkan\" – \"Utamakan saudaramu\" – \"Maaﬁkan orang yang telah menyinggungmu.\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

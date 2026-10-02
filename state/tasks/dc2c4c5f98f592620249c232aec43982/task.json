@@ -2,7 +2,6 @@
   "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 9447
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1188,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9106,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10294
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing 2 Timothy quote (second full paragraph after first section break)",
+      "severity": "major",
+      "source_quote": "…and all that will live godly in Christ Jesus shall suffer persecution –2 Timothy 3:12.",
+      "suggested_fix": "Translate the quoted Scripture phrase to accurately render \"shall suffer persecution\" in Urdu. For example: “ہاں، اور جو کوئی مسیح یسوع میں نیک طرزِ زندگی بسر کرے گا وہ ستائش نہیں بلکہ ظلم و ستم (یا 'اضطہاد'/'مکافاتِ عمل') بھگتنے گا۔ –2 تموتھیس 3:12.” Preserve the verse reference exactly as printed. Ensure the fix replaces only the quoted Scripture text and keeps existing HTML tags and order.",
+      "translation_quote": "ہاں، اور جو کوئی مسیح یسوع میں نیک طرزِ زندگی بسر کرے گا وہ ستائش سہے گا –2 تموتھیس 3:12۔"
+    },
+    {
+      "location": "Poem block — third stanza, line 'Led onward by the Son of Man,' (blockquote.poem)",
+      "severity": "major",
+      "source_quote": "Led onward by the Son of Man,",
+      "suggested_fix": "Render 'Son of Man' in a conventional Urdu equivalent and preserve the sense 'led onward' (i.e., led forward by him). For example: “انسان کے بیٹے کی قیادت میں آگے بڑھتے ہوئے,” or “انسان کے بیٹے کی رہبری میں، آگے بڑھو” depending on meter. Keep this within the same <blockquote class=\"poem\"> stanza and preserve line breaks/HTML structure.",
+      "translation_quote": "انسانِ کلام نے جبرا رہنمائی کی ہے،"
+    },
+    {
+      "location": "Paragraph discussing 'prosperity gospel' (paragraph about possessions and blessing)",
+      "severity": "minor",
+      "source_quote": "Is it God or our own doing that causes us to be joyful? What if we found ourselves in John the Baptist’s shoes? Or the Apostle Paul’s?",
+      "suggested_fix": "Translate or provide a conventional Urdu rendering of the parenthetical term 'prosperity gospel' rather than leaving the English phrase in parentheses. For example: “کیا یہ دولت کی خوشخبری (prosperity gospel) نہیں ہے؟” or fully Urdu: “کیا یہ خوشحالی کا انجیل (یا 'دولت کا انجیل') نہیں ہے؟” Leave the surrounding sentences intact and preserve HTML tags.",
+      "translation_quote": "مگر کیا یہ دولت کا انجیل (prosperity gospel) نہیں ہے؟"
+    }
+  ],
   "id": "dc2c4c5f98f592620249c232aec43982",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "urd",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2a0e8037a7779b7d65ad5a5dc37689987f7de799a9c99fb81a3fa397558d941f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

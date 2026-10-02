@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>In the spring of 2022, we made some changes with our ministry in our endeavors to keep the work of The Berean Voice moving forward into the future. Personnel changes:</p>\",\"severity\":\"minor\",\"source_quote\":\"Personnel changes:\",\"suggested_fix\":\"Translate the heading as 'कर्मचारी परिवर्तन:' or 'कर्मियों में परिवर्तन:' (preserving the colon) instead of 'कर्मकांड परिवर्तन:' which reads as 'ritual changes' and alters the intended meaning.\",\"translation_quote\":\"कर्मकांड परिवर्तन:\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 670,
+    "content_evidence_truncated": false,
+    "content_sha256": "afeb7c0a9477f62c8f50120774e887f748d48bdccf94be74853576e54c3a9988",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3412,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4067
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

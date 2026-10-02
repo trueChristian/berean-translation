@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>…He was miraculously fed through God’s power, first by ravens and then through God’s provision of flour and oil to a widow, with whom he lived.</p>",
+      "severity": "major",
+      "source_quote": "“he was miraculously fed through God’s power, first by ravens and then through God’s provision of flour and oil to a widow”",
+      "suggested_fix": "Исправить неверный перевод слова “ravens”. В русском варианте необходимо ясно указать, что Илия кормился враньями/воронами (птицами). Замените фразу «сначала враньем» на «сначала воронами» или «сначала вран(ами)» в тексте внутри соответствующего <p>-абзаца, сохранив HTML-теги и остальной текст абзаца.",
+      "translation_quote": "«Все это время он чудесным образом питался по Божьей силе: сначала враньем, затем по Божьему обеспечению — мукой и маслом…»"
+    },
+    {
+      "location": "<p class=\"links\"><em>Links:<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841310/<br>\n  https://pubmed.ncbi.nlm.nih.gov/29792097/<br>\n  https://pubmed.ncbi.nlm.nih.gov/23749730/<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5430071/</em></p>",
+      "severity": "minor",
+      "source_quote": "<em>Links:<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841310/ ...</em>",
+      "suggested_fix": "Перевести заголовок блока ссылок на русский, чтобы он соответствовал целевому языку. Например, заменить «Links:» на «Ссылки:», сохранив остальную разметку и URL-адреса.",
+      "translation_quote": "<em>Links:<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841310/ ...</em> "
+    },
+    {
+      "location": "<p>…When God asked him what he was doing there, Elijah replied, … –1 Kings 19:10.</p> (and similar reference at 1 Kings 19:18)",
+      "severity": "minor",
+      "source_quote": "“–1 Kings 19:10.” and “–1 Kings 19:18.”",
+      "suggested_fix": "Упоминание книги и номера должно быть единообразным и понятным для русскоязычного читателя. Текущий перевод даёт «1 Царств (3-я книга Царств) 19:10»; рекомендуется выбрать общепринятое оформление в русском религиозно-библейской традиции и оставить только его (например «3-я книга Царств 19:10» или «1 Царств. 19:10»), сохраняя номера глав и стихов без изменений и сохраняя кавычки/курсив внутри абзаца.",
+      "translation_quote": "«… — 1 Царств (3-я книга Царств) 19:10.» и «— 1 Царств (3-я книга Царств) 19:18.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

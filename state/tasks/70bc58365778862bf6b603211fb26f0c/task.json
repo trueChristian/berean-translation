@@ -2,7 +2,6 @@
   "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 3645
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1050,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3359,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4409
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 2 (spring work sentence)",
+      "severity": "minor",
+      "source_quote": "But, by now, most of what is known locally as “the spring work” has been finished.",
+      "suggested_fix": "Translate the quoted phrase into Kiswahili idiomatically and preserve the quotation marks. For example: “kazi ya msimu wa machipuko”. Replace the phrase <em>“kazi ya spring”</em> with <em>“kazi ya msimu wa machipuko”</em> so the sentence reads naturally and the quoted local expression is rendered in the target language.",
+      "translation_quote": "Lakini, hadi sasa, kazi inayojulikana kwa ndani kama “kazi ya spring” imemalizika."
+    },
+    {
+      "location": "Paragraph 4 (discipleship / disciple / discipline sentence)",
+      "severity": "minor",
+      "source_quote": "Something new in this issue is the beginning of a series by Brother Donald Brechbill on “discipleship”. Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "Translate the English terms into Kiswahili rather than leaving them in English. Suggested rendering: “kuzaliwa kwa mfululizo kuhusu ‘ufundishaji wa wanafunzi’ (discipleship). Neno ‘wanafunzi’ lina takriban tahajia ile ile na neno ‘nidhamu’ (discipline).” Or simply: “... mfululizo kuhusu ‘ufundishaji wa wanafunzi’. Neno ‘wanafunzi’ lina takriban tahajia ile ile na neno ‘nidhamu’.” Preserve the quotation marks around the quoted term as in the source.",
+      "translation_quote": "Kitu kipya katika toleo hili ni kuanza kwa mfululizo wa Ndugu Donald Brechbill juu ya “ufanyaji wa wanafunzi” (discipleship). Neno disciple lina takriban tahajia ile ile na discipline."
+    },
+    {
+      "location": "Paragraph 4 (word choice in same paragraph)",
+      "severity": "minor",
+      "source_quote": "For many, discipline carries a negative connotation, which hopefully will not interfere with the reader being drawn to what Brother Donald has to share.",
+      "suggested_fix": "The Kiswahili translation uses the verb “haitasisitiza” which changes the intended sense. Use a verb conveying 'prevent' or 'deter' such as “haitazuia” or the phrase “si itakuwazuia”. Suggested fix: replace “ambayo kwa matumaini haitasisitiza msomaji kuvutwa...” with “ambayo, kwa matumaini, haitazuia msomaji kuvutwa...”.",
+      "translation_quote": "Kwa wengi, nidhamu ina maana hasi, ambayo kwa matumaini haitasisitiza msomaji kuvutwa na kile Ndugu Donald anachotaka kushiriki."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "70bc58365778862bf6b603211fb26f0c",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swa",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

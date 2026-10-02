@@ -2,7 +2,6 @@
   "article_id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 7427
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1327,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7149,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8476
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...The Opposite of Isolation</p> paragraph (translation: paragraph starting with \"एकांत का विपरीत\")",
+      "severity": "minor",
+      "source_quote": "If asked what the opposite of isolation is most people would probably answer “Companionship” or maybe even “Friendship”. There is another word which has a Christian connotation that is even better. That word is fellowship.",
+      "suggested_fix": "Translate the English loanword consistently and without leaving the English form in parentheses. Replace “सहभागिता (फेलोशिप)” with a single natural Hindi rendering (for example “सहभगिता” or keep only “सहभागिता”) and remove the parenthetical English transliteration to avoid an untranslated substantive token inside the sentence while preserving meaning.",
+      "translation_quote": "यदि पूछा जाए कि एकांत का विपरीत क्या है, तो अधिकांश लोग शायद उत्तर देंगे “साथीता” या शायद “दोस्ती”। एक और शब्द है जिसका एक ख्रिस्तीय अर्थ है और जो और भी बेहतर है। वह शब्द है सहभागिता (फेलोशिप)।"
+    },
+    {
+      "location": "paragraph discussing Elijah (around: \"Perhaps there is no story ... Elijah\")",
+      "severity": "minor",
+      "source_quote": "Perhaps there is no story that demonstrates so clearly the dangers of isolation as the story of Elijah.",
+      "suggested_fix": "Remove the duplicated name rendering. The translation currently shows the name twice (\"एलिय्याह (एलियाह)\" or similar). Use a single consistent Hindi form, e.g. \"एलिय्याह की कहानी\" to match the source and maintain clarity.",
+      "translation_quote": "शायद कोई भी कहानी एकांत के खतरों को उतनी स्पष्टता से प्रदर्शित नहीं करती जितनी एलिय्याह (एलियाह) की कहानी।"
+    },
+    {
+      "location": "paragraph about Paul (beginning of that section)",
+      "severity": "minor",
+      "source_quote": "The story of Paul comes to mind as well. The Apostle Paul was a man who seemed to have nearly limitless amounts of energy and an unquenchable zeal for the things of God, but his last letter to Timothy from prison revealed a man who felt very alone.",
+      "suggested_fix": "Make the proper name consistent across the article. The translation uses both “पौल” and “पौलुस” in nearby sentences. Choose one conventional Hindi form (for example “पौलुस”) and use it consistently throughout the article to avoid small confusion while preserving the author's reference.",
+      "translation_quote": "पौल की कहानी भी ध्यान आता है। प्रेरित पौलुस ऐसे व्यक्ति थे जिनमें लगभग असीम ऊर्जा..."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "0dc1c8f376f9c1975fbc6da32d59c94d",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59ce8c968d768b658069049f4a1a3e07549e5e1e1925fbea530450e323a86220.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

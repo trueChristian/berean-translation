@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "59225508-1f92-476f-944b-afdc99e6f63f",
+    "response_id": "chatcmpl-EUX8d2ezGsHF5bLYiSN1cVu33N9X6",
+    "usage": {
+      "completion_tokens": 1464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4435,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5899
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.” (near the middle of article) — corresponding translation paragraph beginning “\"Visste du att farfar inte var där idag? I sista stund bestämde de sig för att besöka en annan plats den här morgonen för gudstjänsten.\"”",
+        "severity": "major",
+        "source_quote": "Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.",
+        "suggested_fix": "The English uses plural \"Grandpas\" (referring back to Grandpa and Grandma) and the Swedish translation renders it singular \"farfar\", which changes the meaning. Change the Swedish to reflect the plural grandparents. Suggested minimal correction (preserving HTML and structure): replace the translation sentence with: \"Visste du att morföräldrarna inte var där idag? I sista stund bestämde de sig för att besöka en annan församling den här morgonen för gudstjänsten.\" or \"Visste du att farmor och farfar inte var där idag? I sista stund bestämde de sig för att gå till en annan församling den här morgonen för gudstjänsten.\" Choose the phrasing that fits the register of the rest of the translation.",
+        "translation_quote": "\"Visste du att farfar inte var där idag? I sista stund bestämde de sig för att besöka en annan plats den här morgonen för gudstjänsten.\""
+      },
+      {
+        "location": "Multiple locations: paragraph where Ellie asks Grandpa and elsewhere in narrative; h3 heading before hymn; any inline quoted song title occurrences — original song title appears in English 'Saviour, Like a Shepherd Lead Us' and in the h3 heading above the lyrics",
+        "severity": "major",
+        "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ ... When that particular song number was announced ... \"Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday?\" ... H3: Saviour, Like A Shepherd Lead Us",
+        "suggested_fix": "The authoritative quoted substantive material (the song title) must be translated into the target language. Replace the English song title wherever it appears in the article text and the h3 heading with a faithful Swedish rendering. Suggested minimal replacements preserving HTML tags and quotes: change 'Saviour, Like a Shepherd Lead Us' to 'Frälsare, som en herde, led oss' (or another conventional Swedish title used for this hymn) consistently in all narrative occurrences and in the <h3> heading. Ensure the same Swedish title is used every time the song is mentioned in the prose and the heading. Do not leave the quoted title in English.",
+        "translation_quote": "Occurrences such as: 'Hennes favoritsång var ’Saviour, Like a Shepherd Lead Us’' and '”Farfar,” frågade hon. ”Tror du att du kan leda sången ’Saviour, Like A Shepherd Lead Us’ nästa söndag?' and the <h3> heading 'Saviour, Like A Shepherd Lead Us'."
+      },
+      {
+        "location": "Lyrics first stanza, line 2: English 'Much we need Thy tender care.' — Swedish translation: 'Oj, så mycket behöver vi din ömma omsorg.' (in the lyrics block)",
+        "severity": "minor",
+        "source_quote": "Much we need Thy tender care.",
+        "suggested_fix": "The interjection 'Oj' is a colloquial addition not present in the source and slightly changes tone. For greater fidelity and register suited to a hymn, consider a more literal, idiomatic rendering without the interjection, e.g. 'Mycket behöver vi din ömma omsorg.' Replace only this word in the lyrics block.",
+        "translation_quote": "Oj, så mycket behöver vi din ömma omsorg."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

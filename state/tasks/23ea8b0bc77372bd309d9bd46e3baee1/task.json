@@ -2,7 +2,6 @@
   "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 3686
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1191,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3347,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4538
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>Greetings of love in the blessed name of our Lord and Savior, Jesus Christ. Many Christians have gone through a time of trial and testing during the past several years, yet we trust that each one is able to say with Paul… <em>Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content –Philippians 4:11.</em></p>",
+      "severity": "minor",
+      "source_quote": "a time of trial and testing",
+      "suggested_fix": "Render both source words with equivalent target-language senses. Replace \"prova e di tentazione\" with a phrase that preserves the paired sense of trial and test (neither implying 'temptation'). Suggested Italian: \"un tempo di prove e di tentativi\" or better \"un tempo di prove e di prove\" is awkward — use \"un tempo di prove e di messa alla prova\" or simply \"un tempo di prove e di messa alla prova\". I suggest: \"un tempo di prove e di messa alla prova.\"",
+      "translation_quote": "un tempo di prova e di tentazione"
+    },
+    {
+      "location": "<p>Brother Andrew (our designer) has become increasingly busy as a young father with a growing family and as a deacon for our local church congregation. In looking at this challenge, the board decided to support Andrew’s desire to find someone to help him (for now) with the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant. Thus, there may be some slight changes in the “style” of design in upcoming issues.</p>",
+      "severity": "minor",
+      "source_quote": "The Heartbeat of the Remnant",
+      "suggested_fix": "This is a proper title left in English. That is acceptable under the guideline permitting unchanged proper names; however, for stylistic consistency in Italian text you may optionally render it in italics or add an Italian explanatory article. No mandatory change required. If you prefer translation, provide an Italian rendering next to the original in parentheses, e.g. \"The Heartbeat of the Remnant (Il Battito del Remanente)\" — only if the publication prefers a translated issue title.",
+      "translation_quote": "The Heartbeat of the Remnant"
+    },
+    {
+      "location": "<p>After praying for the Lord’s wisdom and direction, and after consultation with the leadership of our church, Brother Joe Mast and Brother Sheldon Bower were chosen to fill the empty slots on the board. These brothers have both graciously accepted this calling and are already allowing God to use their spiritual gifts to make a difference</p>",
+      "severity": "minor",
+      "source_quote": "...to make a difference.",
+      "suggested_fix": "Add the missing terminal punctuation (period) at the end of the paragraph to conform to Italian punctuation and to match the source's sentence ending.",
+      "translation_quote": "...per fare la differenza"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "23ea8b0bc77372bd309d9bd46e3baee1",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ita",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

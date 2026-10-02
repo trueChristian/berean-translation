@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"poem, line: \\\"Which stretch the mind almost to breaking point\\\"\",\"severity\":\"minor\",\"source_quote\":\"Which stretch the mind almost to breaking point\",\"suggested_fix\":\"Consider a less literal or clearer Indonesian for \\\"breaking point\\\" such as \\\"yang membuat pikiran hampir runtuh\\\" or \\\"yang membuat pikiran hampir putus asa\\\" to avoid the slightly odd image of \\\"putus.\\\" Preserve the current HTML structure and line breaks.\",\"translation_quote\":\"Yang meregangkan pikiran hampir sampai putus\"},{\"location\":\"poem, line: \\\"Is but a streak of all the vast expanse\\\"\",\"severity\":\"minor\",\"source_quote\":\"Is but a streak of all the vast expanse\",\"suggested_fix\":\"\\\"Seberkas\\\" is acceptable, but you may prefer \\\"sebuah secebis\\\" or \\\"sebuah coretan kecil\\\" if you want to better convey the sense of a thin, small portion of something immense. Keep the poem's line-level HTML unchanged.\",\"translation_quote\":\"Hanyalah seberkas dari seluruh keluasan yang luas\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1007,
+    "content_evidence_truncated": false,
+    "content_sha256": "c68b697a99aa8b2f9c9cf8d5c7be89fc83f0a1189f86530f09f55905d4179a0c",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1077,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1759,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2836
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

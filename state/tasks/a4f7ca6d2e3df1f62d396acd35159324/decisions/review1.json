@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.section → translation.section",
+      "severity": "minor",
+      "source_quote": "Musings of a Missionary",
+      "suggested_fix": "Translate into contemporary Norwegian Bokmål. For example: \"En misjonærs tanker\" or \"Refleksjoner fra en misjonær\". Replace the translation value \"Tankar frå ein misjonær\" with one of the Bokmål alternatives, preserving the exact field placement.",
+      "translation_quote": "Tankar frå ein misjonær"
+    },
+    {
+      "location": "source.html (first paragraph)",
+      "severity": "minor",
+      "source_quote": "It’s been said that in the 1500s, after baptism, the Anabaptists lived an average of only 27 days.",
+      "suggested_fix": "Correct the Norwegian spelling of “Anabaptists” to the conventional Bokmål form. For example: replace \"anerbaptistene\" with \"anabaptistene\" so the sentence reads (in Bokmål): \"Det har blitt sagt at på 1500-tallet levde anabaptistene i gjennomsnitt bare 27 dager etter dåpen.\" Preserve surrounding HTML and tags.",
+      "translation_quote": "Det har blitt sagt at på 1500-tallet levde anerbaptistene i gjennomsnitt bare 27 dager etter dåpen."
+    },
+    {
+      "location": "source.html (James 4:14 quotation)",
+      "severity": "major",
+      "source_quote": "Whereas ye know not what shall be on the morrow. For what is your life? It is even a vapour, that appeareth for a little time, and then vanisheth away –James 4:14.",
+      "suggested_fix": "This quoted Scripture has been rendered inaccurately: the English \"a vapour\" was translated as \"en tåre\" (a tear), which changes the metaphor and is not faithful to the source text. Scripture quotations must faithfully convey the printed authoritative English meaning in the target language. Replace the Norwegian rendering with a faithful Bokmål equivalent of \"a vapour\" such as \"en damp\" or the common Norwegian Bible phrasing. For example: \"Dere vet ikke hva morgendagen vil bringe. For hva er livet deres? Det er bare en forbigående damp som viser seg for en liten tid, og så forsvinner den –Jakobsbrev 4:14.\" Keep the verse reference and formatting identical and ensure the replacement is in Bokmål. Preserve surrounding HTML and emphasis tags.",
+      "translation_quote": "Dere vet jo ikke hva morgendagen bringer. For hva er deres liv? Det er som en tåre som midlertidig viser seg og så forsvinner –Jakobsbrev 4:14."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 6969
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1450,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6693,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8143
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"links\"> (last paragraph before figure)",
+      "severity": "minor",
+      "source_quote": "<em>Links:<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841310/<br>\n  https://pubmed.ncbi.nlm.nih.gov/29792097/<br>\n  https://pubmed.ncbi.nlm.nih.gov/23749730/<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5430071/</em>",
+      "suggested_fix": "Translate the label “Links:” into standard contemporary Italian while preserving the URLs and HTML structure. For example, change the visible English word “Links:” to “Collegamenti:” or “Link:” so the whole element is in the target language. Keep the <em> tag and line breaks exactly as in source HTML.",
+      "translation_quote": "<em>Links:<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841310/<br>\n  https://pubmed.ncbi.nlm.nih.gov/29792097/<br>\n  https://pubmed.ncbi.nlm.nih.gov/23749730/<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5430071/</em>"
+    },
+    {
+      "location": "Paragraph quoting 1 Kings (\"1 Kings 19:10\" and \"1 Kings 19:18\")",
+      "severity": "minor",
+      "source_quote": "<em>…I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away –1 Kings 19:10.</em>\n...\n<em>Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him –1 Kings 19:18.</em>",
+      "suggested_fix": "Use the conventional full Italian book form/abbreviation consistently. The translation uses “1 Re” (\"1 Re 19:10\" / \"1 Re 19:18\"). That is acceptable in Italian, but to remove any possible ambiguity, ensure the chosen form matches the publication's style (either “1 Re” or full “1 Regi” / “1 Re” consistently). No change to verse numbers or the translated Scripture text is needed. Example change (if style prefers full form): replace “1 Re 19:10” with “1 Re 19:10” only if style requires — otherwise confirm use is intentional.",
+      "translation_quote": "<em>…io sono stato molto geloso per il SIGNORE Dio degli eserciti: perché i figli d'Israele hanno abbandonato il tuo patto, hanno rovesciato i tuoi altari e hanno ucciso i tuoi profeti a fil di spada; e io, io solo, sono rimasto; e cercano la mia vita per togliermela –1 Re 19:10.</em>\n...\n<em>Eppure io ho risparmiato in Israele settemila persone, tutte le ginocchia che non si sono piegate a Baal e tutte le bocche che non l'hanno baciato –1 Re 19:18.</em>"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "2c314cb459b345fa3f0cca6c53986c0c",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ita",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59ce8c968d768b658069049f4a1a3e07549e5e1e1925fbea530450e323a86220.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

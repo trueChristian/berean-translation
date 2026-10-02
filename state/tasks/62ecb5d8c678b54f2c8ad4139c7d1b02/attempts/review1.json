@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\">, line: \\\"…التي تمتد بالعقل حتى تكاد تنكسر\\\\n    وتجعلانك تشعر بحجمك الحقيقي؟\\\"\",\"severity\":\"minor\",\"source_quote\":\"which stretch the mind almost to breaking point\\\\n    And make you feel the size you really are?\",\"suggested_fix\":\"صحح صياغة الفعل لتتفق قواعدياً مع الفاعل المفرد أو استخدم فعل مناسب الصياغة: استبدِل «وتجعلانك تشعر بحجمك الحقيقي؟» بـ «وتجعلك تشعر بحجمك الحقيقي؟».\",\"translation_quote\":\"«التي تمتد بالعقل حتى تكاد تنكسر\\\\n    وتجعلانك تشعر بحجمك الحقيقي؟»\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 775,
+    "content_evidence_truncated": false,
+    "content_sha256": "64d73eb6cc8af90a1cf9c8a7bb4d0dbf770933357af327db880d1c4fe9cd8202",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1741,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2573
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

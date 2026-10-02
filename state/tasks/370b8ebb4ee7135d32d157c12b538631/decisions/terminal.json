@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\">Paragraph 7 (\"Grandpa smiled down at her...\")",
+      "severity": "minor",
+      "source_quote": "Grandpa smiled down at her. “I think I can do that. Is that a song you like?” His eyes twinkled at Ellie. “I’ll be happy to lead that one just for you.”",
+      "suggested_fix": "Use more natural Italian phrasing for the verbs and word order while preserving meaning. For example: “Nonno le sorrise. «Penso di poterlo fare. Ti piace questo canto?» I suoi occhi scintillarono per la gioia. «Sarò felice di dirigere proprio quello, solo per te.»” Preserve sentence breaks and quotation structure in the HTML.",
+      "translation_quote": "Nonno le sorrise affacciandosi su di lei. “Penso di poterlo fare. È un canto che ti piace?” I suoi occhi scintillarono verso Ellie. “Sarò felice di dirigere proprio quello solo per te.”"
+    },
+    {
+      "location": "<div class=\"lyrics\"> stanza 1, line 3 (\"In Thy pleasant pastures feed us\")",
+      "severity": "minor",
+      "source_quote": "In Thy pleasant pastures feed us,",
+      "suggested_fix": "Use a more natural, contemporary Italian verb form for 'feed/us pasture'—'pascere' or 'fà pascolare'—rather than the uncommon form used. For example: “Nei tuoi pascoli soavi fà pascolare i nostri cuori,” or simply “Nei tuoi pascoli soavi pascici” -> “Nei tuoi pascoli soavi còci/lasciaci pascere” (choose one idiomatic rendering). Keep metre and stanza breaks intact.",
+      "translation_quote": "Nei tuoi pascoli soavi pascici,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

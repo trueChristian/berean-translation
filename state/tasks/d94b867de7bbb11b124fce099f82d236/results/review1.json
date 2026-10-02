@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7383478c-ced5-48e6-9bd9-8da55ea7e011",
+    "response_id": "chatcmpl-EUX8f0y1ktyb1f8ptxJhEnnSfv1k9",
+    "usage": {
+      "completion_tokens": 1136,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1602,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2738
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html > figure > img alt",
+        "severity": "minor",
+        "source_quote": "Silhouette of a person raising both hands against a warm sky",
+        "suggested_fix": "Correct the Dutch spelling of ‘silhouette’ and consider translating ‘sky’ as ‘hemel’ for a more natural Christian-magazine tone: alt=\"Silhouet van een persoon die beide handen opheft tegen een warme hemel\"",
+        "translation_quote": "Zilhouet van een persoon die beide handen opheft tegen een warme lucht"
+      },
+      {
+        "location": "source.html > p.poem (line: \"He spreads all his lies, the truth to distort.\")",
+        "severity": "minor",
+        "source_quote": "He spreads all his lies, the truth to distort.",
+        "suggested_fix": "Fix agreement and word choice: translate as \"Hij verspreidt al zijn leugens en verdraait de waarheid.\" Preserve the negative action toward truth without adding extraneous words.",
+        "translation_quote": "Hij verspreidt leugens, vervormt de waarheid met iedere woord."
+      },
+      {
+        "location": "source.html > p.poem (line: \"For he knows very well it will cost us our soul.\")",
+        "severity": "minor",
+        "source_quote": "For he knows very well it will cost us our soul.",
+        "suggested_fix": "Use a natural possessive in Dutch: \"Want hij weet maar al te goed: het zal ons onze ziel kosten.\"",
+        "translation_quote": "Want hij weet maar al te goed: het kost ons de ziel."
+      },
+      {
+        "location": "source.html > p.poem (line: \"When faced with God’s power, that devil—he hides!\")",
+        "severity": "minor",
+        "source_quote": "When faced with God’s power, that devil—he hides!",
+        "suggested_fix": "Correct the verb and idiom: e.g. \"Wanneer hij Gods kracht ontmoet, trekt die duivel zich terug!\" or \"...verbergt hij zich!\"",
+        "translation_quote": "Wanneer hij Gods kracht tegenkomt, vlucht die duivel zeer!"
+      },
+      {
+        "location": "source.html > p.poem (line: \"When God is with us, sin has no chance!\")",
+        "severity": "minor",
+        "source_quote": "When God is with us, sin has no chance!",
+        "suggested_fix": "Fix word order and idiom: translate as \"Wanneer God met ons is, heeft de zonde geen kans!\" or \"...kan zonde niet winnen!\"",
+        "translation_quote": "Wanneer God met ons is, heeft zonde geen kans bestaan!"
+      },
+      {
+        "location": "source.html > p.poem (line: \"To find one perfect, His power He’ll show!\")",
+        "severity": "minor",
+        "source_quote": "To find one perfect, His power He’ll show!",
+        "suggested_fix": "Improve idiom and remove misplaced intensifier: e.g. \"Om één volmaakt te vinden, zal Hij zijn macht tonen.\"",
+        "translation_quote": "Om één volmaakt te vinden; Zijn macht toont Hij dan zeer!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

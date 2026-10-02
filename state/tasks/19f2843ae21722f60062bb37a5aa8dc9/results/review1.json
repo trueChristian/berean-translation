@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a9992397-4274-4214-9613-8a553795be95",
+    "response_id": "chatcmpl-EUX9kkgjwnTpfFvMFr1pKWBGWc6LX",
+    "usage": {
+      "completion_tokens": 1062,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1599,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2661
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"poem\"> stanza lines 9-10 (\"It need not be big; a small sin will do.\" / \"He’ll trick and deceive, each soul to pursue.\")",
+        "severity": "minor",
+        "source_quote": "It need not be big; a small sin will do.\nHe’ll trick and deceive, each soul to pursue.",
+        "suggested_fix": "Keep meaning but make phrasing idiomatic in French. Example: « Il n'est pas nécessaire que ce soit grave ; un petit péché suffit. » and « Il trompera et dupera, pour poursuivre chaque âme. » Preserve line breaks and HTML tags.",
+        "translation_quote": "Ce n'est pas besoin d'être grand ; un petit péché suffit.\nIl trompera et séduira, chaque âme à poursuivre."
+      },
+      {
+        "location": "<p class=\"poem\"> stanza line 15 (\"For the eyes of the Lord seek to and fro,\")",
+        "severity": "minor",
+        "source_quote": "For the eyes of the Lord seek to and fro,",
+        "suggested_fix": "Make the French natural while preserving sense. Example: « Car les yeux du Seigneur scrutent d'un bout à l'autre, » (or « Car les yeux du Seigneur cherchent partout, »). Keep existing line break and punctuation.",
+        "translation_quote": "Car les yeux du Seigneur scrutent d'un bout à l'autre,"
+      },
+      {
+        "location": "<p class=\"poem\"> stanza line 16 (\"To find one perfect, His power He’ll show!\")",
+        "severity": "minor",
+        "source_quote": "To find one perfect, His power He’ll show!",
+        "suggested_fix": "Clarify 'one perfect' in French. Example: « Pour trouver ne serait-ce qu'un seul parfait, Il manifestera Sa puissance ! » or « Pour trouver un seul parfait, Sa puissance Il montrera ! » Keep capitalization for 'Sa' if author intends reverent capitalization.",
+        "translation_quote": "Pour trouver un parfait, Sa puissance Il montrera !"
+      },
+      {
+        "location": "<p class=\"poem\"> stanza line 17 (\"Let’s be done with the lesser and look far beyond.\")",
+        "severity": "minor",
+        "source_quote": "Let’s be done with the lesser and look far beyond.",
+        "suggested_fix": "Use a more idiomatic French expression. Example: « Abandonnons les choses secondaires et regardons bien au‑delà. » or « Quittons le moindre et regardons bien au‑delà. » Preserve line break.",
+        "translation_quote": "Abandonnons le moindre et regardons bien au-delà."
+      }
+    ],
+    "passed": false,
+    "score": 96
+  }
+}

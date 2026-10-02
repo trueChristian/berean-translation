@@ -2,7 +2,6 @@
   "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 3676
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1333,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3336,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4669
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...dissipline 'n negatiewe konnotasie, wat hopelik nie sal struikelblokkeer dat die leser aangetrek word tot wat broer Donald deel nie.</p>",
+      "severity": "minor",
+      "source_quote": "For many, discipline carries a negative connotation, which hopefully will not interfere with the reader being drawn to what Brother Donald has to share.",
+      "suggested_fix": "Change the unidiomatic/incorrect Afrikaans verb 'struikelblokkeer' to a clear phrase. For example: \"wat hopelik nie sal verhoed dat die leser aangetrokke word tot wat broer Donald deel nie.\" Preserve original HTML and punctuation.",
+      "translation_quote": "For many carries a negative connotation, which hopefully will not struikelblokkeer that the reader be drawn to what brother Donald shares."
+    },
+    {
+      "location": "<p>Broer Joe Tindall was 'n raadsraadslid vir The Berean Voice sedert ons begin in Junie 2016.</p>",
+      "severity": "minor",
+      "source_quote": "Brother Joe Tindall has been a board member for The Berean Voice since our beginning in June of 2016.",
+      "suggested_fix": "Correct the duplicated word and keep the present-perfect sense implied by the English. For example: \"Broer Joe Tindall was sedert ons begin in Junie 2016 'n raadsraadslid van The Berean Voice.\" or better: \"Broer Joe Tindall is sedert ons begin in Junie 2016 'n raadsraadslid van The Berean Voice.\" Preserve the paragraph tag and surrounding HTML.",
+      "translation_quote": "Broer Joe Tindall was 'n raadsraadslid vir The Berean Voice sedert ons begin in Junie 2016."
+    },
+    {
+      "location": "<p>...are already allowing God to use their spiritual gifts to make a difference</p>",
+      "severity": "minor",
+      "source_quote": "These brothers have both graciously accepted this calling and are already allowing God to use their spiritual gifts to make a difference",
+      "suggested_fix": "Add the missing terminal punctuation and consider adjusting wording to idiomatic Afrikaans: e.g. add a period at the end and keep meaning: \"Hierdie broers het albei genadiglik hierdie roeping aanvaar en laat God reeds hul geestelike gawes gebruik om 'n verskil te maak.\" Preserve the paragraph tag and its content.",
+      "translation_quote": "Hierdie broers het albei genadiglik hierdie roeping aanvaar en laat God reeds hul geestelike gawes gebruik om 'n verskil te maak</p>"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "19a4633ca1b3d372310d4801b4b7d188",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "afr",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

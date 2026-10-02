@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph where Ellie asks her grandfather (translation: “«Bestefar,» spurte hun. «Tror du du kan lede sangen ‘Saviour, Like A Shepherd Lead Us’ neste søndag? ...»”)",
+      "severity": "critical",
+      "source_quote": "“Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday? I would really like to sing it again!”",
+      "suggested_fix": "Translate the quoted song title into Norwegian consistently. Replace the English title with the Norwegian rendering used for the hymn in the lyrics section, for example: «Tror du du kan lede sangen «Frelser, lik en hyrde led oss» neste søndag? Jeg skulle så gjerne likt å synge den igjen!» Preserve the surrounding quotation marks and HTML structure.",
+      "translation_quote": "«Bestefar,» spurte hun. «Tror du du kan lede sangen ‘Saviour, Like A Shepherd Lead Us’ neste søndag? Jeg skulle så gjerne likt å synge den igjen!»"
+    },
+    {
+      "location": "Heading immediately before the hymn lyrics (translation: <h3>Saviour, Like A Shepherd Lead Us</h3>)",
+      "severity": "critical",
+      "source_quote": "Saviour, Like A Shepherd Lead Us",
+      "suggested_fix": "Translate the hymn title in the heading into Norwegian to match the translated lyrics. Replace the English heading with: <h3>Frelser, lik en hyrde led oss</h3>",
+      "translation_quote": "Saviour, Like A Shepherd Lead Us"
+    },
+    {
+      "location": "Paragraph where the song number is announced (translation: “«La oss synge nummer 8 i Tillegget,» kunngjorde sanglederen. Ellies hjerte sang. De skulle synge hennes favorittsang. Bestefar hadde innfridd hennes ønske.”) — earlier in source Ellie’s expectation referenced the song by number and the English title appears elsewhere",
+      "severity": "major",
+      "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ and although she couldn’t read yet, she knew it was number eight.",
+      "suggested_fix": "Ensure the narrative reference to the song title is translated into Norwegian (keep the song-number notation unchanged). For example: «Hennes favorittsang var «Frelser, lik en hyrde led oss», og selv om hun ennå ikke kunne lese, visste hun at den var nummer åtte.»",
+      "translation_quote": "Hennes favorittsang var «Saviour, Like a Shepherd Lead Us», og selv om hun ennå ikke kunne lese, visste hun at den var nummer åtte."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

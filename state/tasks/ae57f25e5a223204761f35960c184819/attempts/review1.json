@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p class=\\\"poem\\\"> — line: \\\"Sin in our lives, it is his great goal.\\\"\",\"severity\":\"critical\",\"source_quote\":\"Sin in our lives, it is his great goal.\",\"suggested_fix\":\"Replace the corrupted text with a faithful Bengali rendering that preserves the author's assertion that sin in our lives is the enemy's chief aim. Keep the HTML tags and line breaks unchanged. Example fix: \\\"আমাদের জীবনে পাপই তার প্রধান লক্ষ্য।\\\"\",\"translation_quote\":\"আমাদের জীবনে পাপই তার প্রধান লক্ষ্\\u000214।\"},{\"location\":\"<p class=\\\"poem\\\"> — line: \\\"The darts of the wicked come from all sides.\\\"\",\"severity\":\"critical\",\"source_quote\":\"The darts of the wicked come from all sides.\",\"suggested_fix\":\"Translate the whole clause into Bengali; do not leave English words or fragments. Preserve tags and line breaks. Example fix: \\\"দুষ্টদের তীর সব দিক থেকেই আসে।\\\"\",\"translation_quote\":\"প wickedদের তীর সব দিক থেকেই আসে।\"},{\"location\":\"<p class=\\\"poem\\\"> — line: \\\"He spreads all his lies, the truth to distort.\\\"\",\"severity\":\"major\",\"source_quote\":\"He spreads all his lies, the truth to distort.\",\"suggested_fix\":\"Correct the verb phrase to clearly indicate the enemy spreads lies in order to distort the truth. Preserve tags and line breaks. Example fix: \\\"সে তার সমস্ত মিথ্যা ছড়ায়, সত্যকে বিকৃত করার জন্য।\\\"\",\"translation_quote\":\"সে সমস্ত মিথ্যা ছড়ায়, সত্যকে বিকৃত করতে থাকি।\"},{\"location\":\"<p class=\\\"poem\\\"> — line: \\\"He’ll trick and deceive, each soul to pursue.\\\"\",\"severity\":\"major\",\"source_quote\":\"He’ll trick and deceive, each soul to pursue.\",\"suggested_fix\":\"Use Bengali verbs that correspond to \\\"trick\\\" and \\\"deceive\\\" aiming at each soul. Preserve tags and line breaks. Example fix: \\\"সে প্রতারণা করবে ও ঠকাবে, প্রতিটি প্রাণকে তাড়া করতে।\\\"\",\"translation_quote\":\"সে প্রতারণা করবে, প্রতিটি প্রাণকে সতর্ক করবে।\"},{\"location\":\"<p class=\\\"poem\\\"> — line: \\\"For the eyes of the Lord seek to and fro,\\\"\",\"severity\":\"minor\",\"source_quote\":\"For the eyes of the Lord seek to and fro,\",\"suggested_fix\":\"Improve idiomatic rendering while preserving meaning that the Lord's eyes search everywhere. Preserve tags and line breaks. Suggested wording: \\\"কারণ প্রভুর চোখ চারদিকে ঘুরে বেড়ায়,\\\"\",\"translation_quote\":\"কারণ প্রভুর চোখে চারদিকে খোঁজা আছে,\"}],\"passed\":false,\"score\":54}",
+    "content_bytes": 2955,
+    "content_evidence_truncated": false,
+    "content_sha256": "fb39ac628623e889ee51eabfae167218230a15a55d2477f2a747acd5c90dde24",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1094,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1672,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2766
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> (line: \"That tiny sphere so very close at hand.\")",
+      "severity": "minor",
+      "source_quote": "That tiny sphere so very close at hand.",
+      "suggested_fix": "In the corresponding translated paragraph, change «Εκείνη τη μικρή σφαίρα τόσο κοντά στο χέρι.» to «εκείνη τη μικρή σφαίρα τόσο κοντά στο χέρι.» (lowercase initial letter) to match the sentence case of the English and avoid an unnecessary capitalization.",
+      "translation_quote": "Εκείνη τη μικρή σφαίρα τόσο κοντά στο χέρι."
+    },
+    {
+      "location": "<div class=\"poem\"> (line: \"A great black blanket stretched o’er all the sky\")",
+      "severity": "minor",
+      "source_quote": "A great black blanket stretched o’er all the sky",
+      "suggested_fix": "The translation uses «σ' όλη τη σφαίρα», which is uncommon in contemporary Greek for \"sky\" here. Change to «σ' όλο τον ουρανό» or «πάνω σε όλο τον ουρανό» for more natural, idiomatic Greek while preserving meaning. Example replacement: «Ένα μεγάλο μαύρο κάλυμμα τεντωμένο σ' όλο τον ουρανό».",
+      "translation_quote": "Ένα μεγάλο μαύρο κάλυμμα τεντωμένο σ' όλη τη σφαίρα"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

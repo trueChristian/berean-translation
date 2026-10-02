@@ -2,7 +2,6 @@
   "article_id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 7048
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1014,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6709,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7723
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 2 (translation) — sentence: \"Il y avait peu d’épiceries générales et, autant que possible, ils vivaient aussi autonome que possible.\"",
+      "severity": "minor",
+      "source_quote": "There were few general stores and as much as possible they lived as self-sufficiently as they could.",
+      "suggested_fix": "Correct grammar/number agreement and improve idiomatic phrasing while preserving meaning. For example: \"Il y avait peu d'épiceries générales et, autant que possible, ils vivaient aussi de façon autonome.\" or \"...ils vivaient aussi autonomement que possible.\"",
+      "translation_quote": "Il y avait peu d’épiceries générales et, autant que possible, ils vivaient aussi autonome que possible."
+    },
+    {
+      "location": "Paragraph beginning with \"Je crains que beaucoup aujourd’hui...\" — sentence: \"...au pire cela empêche l’observation de nombreux passages bibliques qui commandent le « les-uns-les-autres ».\"",
+      "severity": "minor",
+      "source_quote": "At the very least it can create a sense of isolation, and at the worst it hinders many of the “one-anothering” Bible passages from being followed.",
+      "suggested_fix": "The phrase \"les-uns-les-autres\" is awkward in French. Render the concept more naturally while preserving the English author's intent (the New Testament 'one another' commands). Suggested rephrasing: \"...au pire cela empêche l'observation de nombreux passages bibliques qui commandent de 'se porter les uns les autres'\" or \"...qui ordonnent les relations mutuelles ('les uns envers les autres').\"",
+      "translation_quote": "au pire cela empêche l’observation de nombreux passages bibliques qui commandent le « les-uns-les-autres »."
+    },
+    {
+      "location": "Paragraph: \"Le contraire de l’isolement\" — sentence: \"Ce mot est <strong><em>la communion</em></strong>.\"",
+      "severity": "minor",
+      "source_quote": "There is another word which has a Christian connotation that is even better. That word is fellowship.",
+      "suggested_fix": "\"Fellowship\" is translated as \"la communion\", which in French can strongly connote the Eucharist. To preserve the author's theological intent (koinonia as Christian mutual fellowship), consider a wording that avoids sacramental ambiguity, for example: \"Ce mot est <strong><em>la communion fraternelle</em></strong>\" or \"Ce mot est <strong><em>la koinonia (la communion fraternelle)</em></strong>.\"",
+      "translation_quote": "Ce mot est <strong><em>la communion</em></strong>."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "9a4bc12757e7aa91ddc9bf6dd00ad065",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "fra",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59ce8c968d768b658069049f4a1a3e07549e5e1e1925fbea530450e323a86220.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

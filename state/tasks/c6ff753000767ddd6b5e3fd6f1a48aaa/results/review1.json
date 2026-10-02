@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "06095b82-3e65-4801-9113-c7222e0e3b89",
+    "response_id": "chatcmpl-EUX8PlEHsvWIkVg0o6hLGRz4KapHO",
+    "usage": {
+      "completion_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3483,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4524
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...The farmers’ crops and the gardeners’ herbs are pushing through the cool soil...</p>",
+        "severity": "minor",
+        "source_quote": "the gardeners’ herbs",
+        "suggested_fix": "جاری HTML میں اسی پیراگراف کے اندر \"ہربز\" کو ہٹا کر اردو میں درست ترجمہ لکھیں، مثلاً \"باغبانوں کی جڑی بوٹیاں\"۔ برقرار رکھیں: HTML ٹیگز، ارڈر، اور نیسٹنگ۔",
+        "translation_quote": "باغبانوں کی ہربز ٹھنڈی مٹی سے اوپر آ کر سورج کی حرارت اور روشنی کی طرف بڑھ رہی ہیں۔"
+      },
+      {
+        "location": "<p>...he chose to keep praying like normal at his open window...</p>",
+        "severity": "minor",
+        "source_quote": "at his open window",
+        "suggested_fix": "متن میں \"کھلے کھڑ کے پاس\" کو درست اردو میں بدلیں (مثلاً \"اپنی کھلی کھڑکی کے پاس\")، HTML ٹیگز اور ترتیب کو برقرار رکھیں۔",
+        "translation_quote": "جب اس نے کھلے کھڑ کے پاس معمول کے مطابق دعا کرنا جاری رکھنے کا انتخاب کیا،"
+      },
+      {
+        "location": "<p>...as a deacon for our local church congregation...</p>",
+        "severity": "minor",
+        "source_quote": "deacon",
+        "suggested_fix": "مکس حروف/انگریزی-اردو مرکب کو درست کریں: \"دیacon\" کو مکمل اردو میں درست کریں، مثلاً \"خادِمِ کلیسیا\" یا عام متداول ترجمہ \"ڈییکن\"/\"دییکن\" (موقع کے مطابق)، HTML ساخت کو تبدیل نہ کریں۔",
+        "translation_quote": "اور ہماری مقامی کلیسیا کے لیے ایک دیacon کے طور پر مزید مصروف ہوتے جا رہے ہیں۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "poem, line: \"Which stretch the mind almost to breaking point\"",
+      "severity": "minor",
+      "source_quote": "Which stretch the mind almost to breaking point",
+      "suggested_fix": "Consider a less literal or clearer Indonesian for \"breaking point\" such as \"yang membuat pikiran hampir runtuh\" or \"yang membuat pikiran hampir putus asa\" to avoid the slightly odd image of \"putus.\" Preserve the current HTML structure and line breaks.",
+      "translation_quote": "Yang meregangkan pikiran hampir sampai putus"
+    },
+    {
+      "location": "poem, line: \"Is but a streak of all the vast expanse\"",
+      "severity": "minor",
+      "source_quote": "Is but a streak of all the vast expanse",
+      "suggested_fix": "\"Seberkas\" is acceptable, but you may prefer \"sebuah secebis\" or \"sebuah coretan kecil\" if you want to better convey the sense of a thin, small portion of something immense. Keep the poem's line-level HTML unchanged.",
+      "translation_quote": "Hanyalah seberkas dari seluruh keluasan yang luas"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

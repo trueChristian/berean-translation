@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line 5-6 (\"He spreads all his lies, the truth to distort.\")",
+      "severity": "minor",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "In der Übersetzung die finale Infinitivkonstruktion ergänzen, damit sie idiomatisch und grammatisch korrekt ist. Beispielersatz in situ (bewahre HTML):\n<p class=\"poem\">…<br>\nEr verbreitet all seine Lügen, um die Wahrheit zu verzerren.<br>",
+      "translation_quote": "Er verbreitet all seine Lügen, die Wahrheit zu verzerren."
+    },
+    {
+      "location": "<p class=\"poem\"> line 9 (\"He’ll trick and deceive, each soul to pursue.\")",
+      "severity": "minor",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Die deutsche Zeile sollte die Absichtsmarkierung „um … zu“ enthalten, statt der bloßen Infinitivkette. Beispielersatz in situ (bewahre HTML):\n<p class=\"poem\">…<br>\nEr wird täuschen und betrügen, um jede Seele zu verfolgen.<br>",
+      "translation_quote": "Er wird täuschen und betrügen, jede Seele zu verfolgen."
+    },
+    {
+      "location": "<p class=\"poem\"> line 12 (\"When faced with God’s power, that devil—he hides!\")",
+      "severity": "minor",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Die Übersetzung »verbirgt sich … — er flieht!« ändert leicht die Betonung (‚versteckt sich‘ vs. ‚flieht‘). Bewahre möglichst die Aussage »verbirgt sich« allein oder kombiniere die beiden Begriffe nur wenn stilistisch gewollt. Beispielersatz in situ (bewahre HTML):\n<p class=\"poem\">…<br>\nAngesichts der Macht Gottes verbirgt sich jener Teufel — er versteckt sich!<br>",
+      "translation_quote": "Angesichts der Macht Gottes verbirgt sich jener Teufel—er flieht!"
+    },
+    {
+      "location": "<p class=\"poem\"> line 15 (\"To find one perfect, His power He’ll show!\")",
+      "severity": "minor",
+      "source_quote": "To find one perfect, His power He’ll show!",
+      "suggested_fix": "Die Wendung »einen perfekten« klingt im Deutschen etwas unidiomatisch. Besser: »um einen Vollkommenen zu finden« oder »um einen (einzigen) Vollkommenen zu finden«. Beispielersatz in situ (bewahre HTML):\n<p class=\"poem\">…<br>\nDenn die Augen des Herrn suchen hin und her,<br>\nUm einen Vollkommenen zu finden, wird er seine Macht zeigen!<br>",
+      "translation_quote": "Denn die Augen des Herrn suchen hin und her,\nUm einen perfekten zu finden, wird Er seine Macht zeigen!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

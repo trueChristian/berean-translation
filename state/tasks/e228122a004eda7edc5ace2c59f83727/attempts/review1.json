@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p class=\\\"poem\\\"> line: \\\"Let’s be done with the lesser and look far beyond.\\\"\",\"severity\":\"major\",\"source_quote\":\"Let’s be done with the lesser and look far beyond.\",\"suggested_fix\":\"Render the idiom so the meaning is clear in Italian: e.g. \\\"Lasciamo le cose minori alle spalle e guardiamo molto più lontano.\\\" or \\\"Abbandoniamo le cose minori e volgiamo lo sguardo oltre.\\\" Preserve the exhortative tone.\",\"translation_quote\":\"Diamoci pace con il minore e guardiamo molto più lontano.\"},{\"location\":\"<p class=\\\"poem\\\"> line: \\\"He’ll trick and deceive, each soul to pursue.\\\"\",\"severity\":\"minor\",\"source_quote\":\"He’ll trick and deceive, each soul to pursue.\",\"suggested_fix\":\"Avoid the redundant repetition and use a single natural verb pair in Italian: e.g. \\\"Ingannerà e sedurrà, per perseguire ogni anima.\\\" or \\\"Ingannerà e sedurrà per cogliere ogni anima.\\\"\",\"translation_quote\":\"Ingannerà e ingannerà, per perseguire ogni anima.\"},{\"location\":\"<p class=\\\"poem\\\"> line: \\\"To find one perfect, His power He’ll show!\\\"\",\"severity\":\"minor\",\"source_quote\":\"To find one perfect, His power He’ll show!\",\"suggested_fix\":\"Clarify the object of \\\"one perfect\\\" in idiomatic Italian and keep respectful capitalization consistent with house style. Suggested: \\\"Per trovare qualcuno perfetto, mostrerà la Sua potenza!\\\" or \\\"Per trovare una persona perfetta, Egli mostrerà la Sua potenza!\\\" (choose capitalization for pronouns referring to God according to house style).\",\"translation_quote\":\"Per trovare uno perfetto, la Sua potenza mostrerà!\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 1618,
+    "content_evidence_truncated": false,
+    "content_sha256": "36707fcdab6ea0098506e5f7246b6e12cb792f4c9acac481a76397667dc28729",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 983,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1609,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2592
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

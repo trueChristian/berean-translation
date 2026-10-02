@@ -2,7 +2,6 @@
   "article_id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 2263
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 955,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1796,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2751
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p><em>–by Daniel Kaufman</em></p> (author attribution inside source.html)",
+      "severity": "minor",
+      "source_quote": "<p><em>–by Daniel Kaufman</em></p>",
+      "suggested_fix": "Preserve the original inline attribution structure and punctuation while translating the name. For example: <p><em>– Дэниел Кауфман</em></p> (keep the leading dash character as in the source).",
+      "translation_quote": "<p><em>— Дэниел Кауфман</em></p>"
+    },
+    {
+      "location": "Poem line: \"beyond the knowledge of this human race.\"",
+      "severity": "minor",
+      "source_quote": "beyond the knowledge of this human race.",
+      "suggested_fix": "Use a more idiomatic Russian phrase for \"this human race\" such as «этого человечества» to improve naturalness while preserving meaning. Suggested line: «За пределами познания этого человечества.»",
+      "translation_quote": "За пределами познания этого человеческого рода."
+    },
+    {
+      "location": "Poem line: \"Which stretch the mind almost to breaking point and make you feel the size you really are?\"",
+      "severity": "minor",
+      "source_quote": "Which stretch the mind almost to breaking point and make you feel the size you really are?",
+      "suggested_fix": "Improve word order to sound more natural in Russian while keeping the meaning. Suggested rendering: «Что ум доводят почти до предела и заставляют ощутить, каким ты на самом деле мал?»",
+      "translation_quote": "Что ум почти доводят до предела и ломают,\n    И заставляют ощущать, какой ты на самом деле мал?"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:10+00:00",
   "id": "95d5b3d994db8744b7ec5c2d7a6a5c6d",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>... –Genesis 2:21-22.</p> (source.html, paragraph containing Genesis 2:21-22)",
+      "severity": "critical",
+      "source_quote": "\"And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof; And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man –Genesis 2:21-22.\"",
+      "suggested_fix": "Translate both verses fully and accurately into Korean, preserving the two-verse content and meaning (do not add facts not in the English). Suggested Korean rendering to replace the translator's quoted material but preserving existing HTML tags and ordering: \"<em>여호와 하나님이 아담에게 깊은 잠을 내리시니 그가 잠들매 그가 그의 갈비 하나를 취하시고 그 자리를 살로 메우시고; 여호와 하나님이 취하신 그 갈비로 여자를 지으사 그를 아담에게 이끌어 오셨더라 –창세기 2:21-22.</em>\" Ensure both clauses are present (the taking of one rib; the forming of a woman from that rib and bringing her to the man) and do not introduce the word \"일곱(七)\" or any other addition.",
+      "translation_quote": "\"<em>여호와 하나님이 깊은 잠을 아담에게 내리시니 그가 잠들매 그 일곱 갈비 중 하나를 취하시고 그 자리의 살을 대신하여 채우시고 –창세기 2:21-22.</em>\""
+    },
+    {
+      "location": "<figure> <img alt=\"...\"> (source.html image alt attribute)",
+      "severity": "minor",
+      "source_quote": "\"Solitary hooded person with a backpack seated above a misty landscape\"",
+      "suggested_fix": "Make the alt text a natural, accurate Korean rendering that preserves the original meaning (a solitary hooded person who has a backpack, seated above a misty landscape). Suggested replacement while keeping the <img> tag and attributes unchanged except for alt text: alt=\"안개 낀 풍경 위에 앉아 있는 외로운 후드 차림의 사람(배낭 착용)\" or alt=\"안개 낀 풍경 위에 앉아 있는 배낭을 멘 외로운 후드 차림의 사람\".",
+      "translation_quote": "\"안개 낀 풍경 위에 걸쳐 앉아 있는 외로운 후드 착용자와 배낭\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

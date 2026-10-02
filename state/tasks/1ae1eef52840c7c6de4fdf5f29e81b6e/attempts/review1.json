@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>…It was a lovely hymn that spoke of Jesus’ care as a Shepherd and a Friend, and how He would always keep His children close to Himself.</p>\",\"severity\":\"major\",\"source_quote\":\"It was a lovely hymn that spoke of Jesus’ care as a Shepherd and a Friend, and how He would always keep His children close to Himself.\",\"suggested_fix\":\"Replace the mistranslated word \\\"ترجمة\\\" with a correct rendering of \\\"hymn\\\" (ترنيمة / أنشودة) and keep the rest of the meaning. For example: <p>كانت ترنيمة جميلة تحدثت عن رعاية يسوع كراعٍ وصديق، وكيف سيبقي أولاده دائماً قريبين منه.</p>\",\"translation_quote\":\"كانت ترجمة رائعة تحدثت عن رعاية يسوع كراعٍ وصديق، وكيف سيبقي أولاده دائماً قريبين منه.\"},{\"location\":\"<p>Grandpa smiled down at her. “I think I can do that. Is that a song you like?” His eyes twinkled at Ellie. “I’ll be happy to lead that one just for you.”</p>\",\"severity\":\"minor\",\"source_quote\":\"His eyes twinkled at Ellie.\",\"suggested_fix\":\"Fix the awkward/grammatically incorrect phrasing \\\"لامع في عينيه نظرته لإيلي\\\" to a natural Arabic rendering that preserves the action and tone. For example: \\\"تلألأت عيناهُ لإيلي.\\\" or \\\"تلألأت عيناه وهو ينظر إلى إيلي.\\\" Ensure proper verb/subject agreement and punctuation. Preserve surrounding tags.\",\"translation_quote\":\"لامع في عينيه نظرته لإيلي.\"},{\"location\":\"<p>Ellie could scarcely wait for church the following Sunday. She would get to sing “her” song. Grandpa said he would choose it and she had no doubt he would do as he said.</p>\",\"severity\":\"minor\",\"source_quote\":\"Ellie could scarcely wait for church the following Sunday.\",\"suggested_fix\":\"Correct the awkward phrasing that alters the clear subject/action. Replace \\\"لم تكُ بالنسبة لإيلي الكنيسة في انتظار الأحد التالي طويلاً.\\\" with a clearer, idiomatic rendering such as: \\\"لم تتمكن إيلي من الانتظار حتى صباح الأحد التالي.\\\" or \\\"لم تستطع إيلي الانتظار حتى الأحد التالي.\\\" Preserve HTML tags.\",\"translation_quote\":\"لم تكُ بالنسبة لإيلي الكنيسة في انتظار الأحد التالي طويلاً.\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 2469,
+    "content_evidence_truncated": false,
+    "content_sha256": "24cdafe39bec23d40699138761b744818a315aea60570b3843b4aee4ebf3f682",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4472,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5716
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

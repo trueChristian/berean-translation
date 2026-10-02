@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "The New Testament Church",
+      "suggested_fix": "Translate the section field into natural Hindi using Devanagari and no mixed scripts. For example: \"नया नियमीय चर्च\" or better, conventional Hindi: \"नया नियम की कलीसिया\" or simply \"नया नियम\" से संबन्धित कलीसिया — choose one idiomatic rendering consistently. Replace the current translation value for the section field with the chosen Hindi phrase (leave the HTML/article body unchanged).",
+      "translation_quote": "नया नियमीन چرچ"
+    },
+    {
+      "location": "source.html (scripture references: blockquote and inline citations)",
+      "severity": "major",
+      "source_quote": "–Matthew 4:18-22.; –John 21:3-6.; –Romans 7:18.; –Luke 9:62.",
+      "suggested_fix": "Render the cited book names in conventional Hindi forms (Devanagari) while keeping chapter:verse numbers and punctuation unchanged. For example: \"–मत्ती 4:18-22.\", \"–यूहन्ना 21:3-6.\", \"–रोमियों 7:18.\", \"–लूका 9:62.\" Update each citation in the translation HTML accordingly so book names are in Hindi and numbers/ranges remain exactly as in the source.",
+      "translation_quote": "–Matthew 4:18-22.\n\n…\n\n–John 21:3-6.\n\n…\n\n–Romans 7:18.\n\n…\n\n–Luke 9:62."
+    },
+    {
+      "location": "source.html (opening paragraph)",
+      "severity": "minor",
+      "source_quote": "This is the first of a series of articles on “Discipleship.” Today, Jesus is continuing to call men and women to respond to the simple call, “Follow Me.”",
+      "suggested_fix": "Remove unintended non-Hindi character inserted and correct misspelled/oddly-encoded Hindi letters. For example, change the opening phrase currently rendered as: \"यह “छात्रत्व” पर一श्रेणी लेखों में से पहला लेख है।\" to a clean Hindi sentence: \"यह 'छात्रत्व' पर लेखों की श्रृंखला का पहला भाग है।\" Also fix 'आक̧षित' (malformed) to 'आकर्षित'. Make these edits inside the translation HTML paragraph while preserving all tags and structure.",
+      "translation_quote": "यह “छात्रत्व” पर一श्रेणी लेखों में से पहला लेख है... आप पाएँगे कि आप खुद को यीशु के पीछे चलने के लिए आक̧षित महसूस कर रहे हैं।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

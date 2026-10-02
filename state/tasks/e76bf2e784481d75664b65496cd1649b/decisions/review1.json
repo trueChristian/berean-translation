@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html (narrative paragraph mentioning hymn title)",
+      "severity": "major",
+      "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ and although she couldn’t read yet, she knew it was number eight.",
+      "suggested_fix": "Translate the quoted song title into Dutch to match the translated lyrics and to avoid leaving quoted substantive prose in English. Replace ‘Saviour, Like a Shepherd Lead Us’ with the Dutch rendering used in the translated hymn (for example: ‘Redder, wees ons Herder, leid ons’). Preserve surrounding punctuation and quotation marks.",
+      "translation_quote": "Haar lievelingslied was ‘Savior, Like a Shepherd Lead Us’ en hoewel ze nog niet kon lezen, wist ze dat het nummer acht was."
+    },
+    {
+      "location": "source.html (h3 heading and later heading)",
+      "severity": "major",
+      "source_quote": "Saviour, Like A Shepherd Lead Us",
+      "suggested_fix": "Translate the hymn title in the heading into Dutch so the heading matches the translated lyrics and the requirement that quoted substantive prose be presented in the target language. Replace the English heading text with a Dutch title consistent with the translated hymn (for example: “Redder, wees ons Herder, leid ons”).",
+      "translation_quote": "Savior, Like A Shepherd Lead Us"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

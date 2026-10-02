@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body (multiple places): title line before lyrics, and narrative paragraphs that quote the hymn title",
+      "severity": "major",
+      "source_quote": "“Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ ...”  \n<h3>Saviour, Like A Shepherd Lead Us</h3>",
+      "suggested_fix": "Translate the quoted hymn title into Korean consistently wherever it appears (both in the narrative and the heading). For example, replace “Saviour, Like a Shepherd Lead Us” with “구주여, 목자처럼 우리를 인도하소서” (or the shorter “구주여, 목자처럼 인도하소서”) so the quoted title matches the translated hymn lyrics and is not left in English. Preserve HTML structure (replace the text node inside the h3 and the quoted text in the paragraph) and keep the same punctuation and quotation marks used in the translation.",
+      "translation_quote": "“그녀가 가장 좋아하는 찬송은 ‘Saviour, Like a Shepherd Lead Us’였고...”  \n<h3>Saviour, Like A Shepherd Lead Us</h3>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

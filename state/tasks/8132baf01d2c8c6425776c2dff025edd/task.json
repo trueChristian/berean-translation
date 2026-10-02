@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,72 @@
         },
         "total_tokens": 1879
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1252,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1604,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2856
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line 6 (source): \"He spreads all his lies, the truth to distort.\"",
+      "severity": "major",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "Translate the object 'the truth' correctly. Replace the current phrase 'Esparce todas sus mentiras para distorsionar el monto.' with a faithful rendering such as: 'Esparce todas sus mentiras para distorsionar la verdad.' Preserve the surrounding HTML and line breaks exactly.",
+      "translation_quote": "Esparce todas sus mentiras para distorsionar el monto."
+    },
+    {
+      "location": "<p class=\"poem\"> line 8 (source): \"For he knows very well it will cost us our soul.\"",
+      "severity": "major",
+      "source_quote": "For he knows very well it will cost us our soul.",
+      "suggested_fix": "Restore the correct referent 'our soul' rather than 'salvation.' Replace 'Porque sabe muy bien que nos costará la salvación.' with a faithful rendering such as: 'Porque sabe muy bien que nos costará el alma.' Preserve the surrounding HTML and line breaks exactly.",
+      "translation_quote": "Porque sabe muy bien que nos costará la salvación."
+    },
+    {
+      "location": "<p class=\"poem\"> line 4 (source): \"We are in a battle; we must still overcome.\"",
+      "severity": "minor",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "Avoid adding redundant words that change tone. Consider replacing 'Estamos en una batalla; aún debemos vencer, ¡pues aún!' with a closer, idiomatic rendering: 'Estamos en una batalla; aún debemos vencer.' Preserve the surrounding HTML and line breaks exactly.",
+      "translation_quote": "Estamos en una batalla; aún debemos vencer, ¡pues aún!"
+    },
+    {
+      "location": "<p class=\"poem\"> line 10 (source): \"He’ll trick and deceive, each soul to pursue.\"",
+      "severity": "minor",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Improve word order to match the English infinitive purpose clause. Replace 'Engañará y falsificará, cada alma perseguirá.' with a clearer translation such as: 'Engañará y engañará, para perseguir cada alma.' or 'Engañará y embaucará, buscando cada alma.' Preserve the surrounding HTML and line breaks exactly.",
+      "translation_quote": "Engañará y falsificará, cada alma perseguirá."
+    },
+    {
+      "location": "<p class=\"poem\"> line 11 (source): \"The darts of the wicked come from all sides.\"",
+      "severity": "minor",
+      "source_quote": "The darts of the wicked come from all sides.",
+      "suggested_fix": "'Las saetas del impío vienen de todos los lados.' is acceptable but 'impío' (singular) vs 'los impíos' (plural) and 'saetas' collocates better with 'los impíos'. Consider: 'Las saetas de los impíos vienen de todos los lados.' This is optional stylistic improvement; not required for doctrinal fidelity.",
+      "translation_quote": "Las saetas del impío vienen de todos los lados."
+    },
+    {
+      "location": "<p class=\"poem\"> line 12 (source): \"When faced with God’s power, that devil—he hides!\"",
+      "severity": "minor",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Remove added qualifier that alters immediacy ('a ratos'). Replace '¡ese diablo—se esconde a ratos!' with a closer rendering: '¡ese diablo—se esconde!' Preserve the surrounding HTML and line breaks exactly.",
+      "translation_quote": "¡ese diablo—se esconde a ratos!"
+    }
+  ],
   "id": "8132baf01d2c8c6425776c2dff025edd",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "spa",
@@ -100,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

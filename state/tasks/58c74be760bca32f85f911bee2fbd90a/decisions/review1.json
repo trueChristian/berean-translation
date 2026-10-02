@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line 4 (\"We are in a battle; we must still overcome.\")",
+      "severity": "major",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "Translate without adding an explicit doctrinal agent. E.g.: \"Tuko katika vita; bado lazima tushinde.\"",
+      "translation_quote": "Tuko katika vita; bado lazima tushinde kwa nguvu za Kristo."
+    },
+    {
+      "location": "<p class=\"poem\"> line 8 (\"For he knows very well it will cost us our soul.\")",
+      "severity": "major",
+      "source_quote": "For he knows very well it will cost us our soul.",
+      "suggested_fix": "Keep the focus on the cost to our soul without adding other qualifiers. E.g.: \"Kwa maana anajua vyema itagharimu nafsi yetu.\"",
+      "translation_quote": "Kwa maana anajua vizuri itatugharimu nafsi yetu kwa yote tulio nao."
+    },
+    {
+      "location": "<p class=\"poem\"> line 11 (\"The darts of the wicked come from all sides.\")",
+      "severity": "major",
+      "source_quote": "The darts of the wicked come from all sides.",
+      "suggested_fix": "Render \"darts\" and \"wicked\" faithfully. E.g.: \"Mishale ya mabaya hutupiga kutoka pande zote.\" or \"Mishale ya wapotofu huwadondoa kutoka pande zote.\"",
+      "translation_quote": "Misumari ya mabi kwa pande zote hutupiga kwa giza."
+    },
+    {
+      "location": "<p class=\"poem\"> line 2 (\"The things that are bad will all be in hell.\")",
+      "severity": "minor",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Avoid added or awkward modifiers. A clearer Kiswahili rendering: \"Vitu vyote vibaya vitakuwa motoni.\" or \"Mambo mabaya yote yatakuwa motoni.\"",
+      "translation_quote": "Mambo mabaya yatawekwa milele motoni moto wa maafa."
+    },
+    {
+      "location": "<p class=\"poem\"> line 12 (\"When faced with God’s power, that devil—he hides!\")",
+      "severity": "minor",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Remove added emotional qualifier. E.g.: \"Ukikabiliana na nguvu za Mungu, yule shetani—anaficha!\" or \"Anapokumbana na nguvu za Mungu, yule shetani hujificha!\"",
+      "translation_quote": "Tukikabiliwa na nguvu za Mungu, yule shetani—anaficha uso wake kwa hasira!"
+    },
+    {
+      "location": "<p class=\"poem\"> final line (\"Let’s take hold of God’s power! It’s time to respond!\")",
+      "severity": "minor",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "Translate both clauses without adding extra qualifiers. E.g.: \"Tuchukue nguvu za Mungu! Ni wakati wa kujibu!\"",
+      "translation_quote": "Tuchukue nguvu za Mungu! Ni wakati wa kujibu kwa imani na matendo!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,72 @@
         },
         "total_tokens": 8552
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1987,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8276,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10263
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — multiple Bible quotations (e.g. Luke 14:25-33 at start)",
+      "severity": "critical",
+      "source_quote": "…and he turned, and said unto them, If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple. And whosoever doth not bear his cross, and come after me, cannot be my disciple … –Luke 14:25-33.",
+      "suggested_fix": "Translate the entire quoted Scripture passages into contemporary Modern Hebrew, preserving the exact chapter and verse numbers and any inline emphasis (strong/u). For example, replace the English Luke passage with a Hebrew translation such as: «…וַיִּפֹּ֤ךְ וַיֹּ֙אמֶר֙ אֲלֵיהֶ֔ם אִם־אִישׁ יָבוֹא֙ אֵלַ֔י וְשָׂנֵ֥א לא־אֶת־אָבִ֖יו וְאֶת־אִמּ֑וֹ וְאֶת־אִשְׁתּ֖וֹ וְאֶת־בָּנָֽיו… לֹ֣א יָכֹ֔ל לִהְי֥וֹת תַּלְמִידִֽי — לוקס 14:25-33.» (Translate every quoted verse similarly into Hebrew, keeping verse references exactly as in the English source and preserving any <em>, <strong>, or <u> tags around phrases.)",
+      "translation_quote": "The translation leaves the printed Scripture passages in English (e.g. the Luke 14:25-33 block and many subsequent Bible quotations remain untranslated)."
+    },
+    {
+      "location": "source.title",
+      "severity": "critical",
+      "source_quote": "If you love your life…",
+      "suggested_fix": "Translate the title into contemporary Modern Hebrew. Recommended rendering: «אם אתה אוהב את חייך…». Preserve trailing ellipsis and do not change HTML structure or attributes.",
+      "translation_quote": "If you love your life… (left in English in the translation title field)."
+    },
+    {
+      "location": "source.html — first paragraph sentence \"serving Christ would most certainly cost them everything.\" and the Hebrew rendering that follows",
+      "severity": "major",
+      "source_quote": "They realized one thing—serving Christ would most certainly cost them everything.",
+      "suggested_fix": "Correct the Hebrew rendering so it faithfully preserves the English meaning. The current Hebrew reads a garbled phrase (\"לעקוב אחרי המשוחכּו\"). Replace with a faithful, theologically equivalent Hebrew phrase such as: «העובדה אחת נוכחה להם — לשרת את המשיח בוודאי יעלה להם הכול.» Keep the sentence within the original <p> tag and do not alter surrounding HTML.",
+      "translation_quote": "\"הם הבינו דבר אחד — לעקוב אחרי המשוחכּו יעלה להם בוודאות את כל מה שיש להם.\" (contains the garbled term \"המשוחכּו\" which does not match the source meaning)."
+    },
+    {
+      "location": "source.html — remaining English Bible quotations scattered through body (examples: 2 Timothy 3:12, 1 John 2:6, Mark 15:28, Deuteronomy 3:3-6, John 12:25, Genesis 3:19, James 4:14, Mark 16:15, Philippians 1:21, Matthew 16:25, Acts 21:10-13)",
+      "severity": "critical",
+      "source_quote": "Yea, and all that will live godly in Christ Jesus shall suffer persecution –2 Timothy 3:12. / He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6. / …He was numbered with the transgressors –Mark 15:28. / (and others as printed)",
+      "suggested_fix": "All quoted Scripture blocks and single-verse quotations must be translated into Hebrew, preserving the chapter:verse numbering and any inline emphasis. For each Bible quotation left in English, provide an equivalent contemporary Modern Hebrew translation adjacent to the unchanged verse reference (e.g. «…כל הנֶחְיֶה בְּאִמּוּן בִּמשׁיחַ יִסָּב־לּוֹ רִדְפוֹת — 2 טימותיוס 3:12»). Do this for every Bible citation in the article body. Do not replace the printed verse numbers or move/remove emphasis tags (<em>, <strong>, <u>)).",
+      "translation_quote": "Multiple Bible quotations are still presented verbatim in English rather than translated into Hebrew (e.g. the short 2 Timothy, 1 John, Mark, Deuteronomy, John, Genesis, James, Mark 16, Philippians, Matthew, Acts passages remain in English)."
+    },
+    {
+      "location": "source.html — article title inside translated HTML (end of translation html shows title still English)",
+      "severity": "major",
+      "source_quote": "Title in source.html: If you love your life…",
+      "suggested_fix": "Ensure the article <article> metadata title element and the visible title inside the HTML are translated. The translation's title field is left in English; convert it to Hebrew («אם אתה אוהב את חייך…») and update the visible title element in the HTML if present, preserving HTML structure and attributes.",
+      "translation_quote": "The translation's title attribute/content remains as: If you love your life…"
+    },
+    {
+      "location": "source.html — closing paragraph contains a duplicated Hebrew phrasing error \"נקום קום, עם אלוהים\"",
+      "severity": "minor",
+      "source_quote": "Let us rise up, as God’s people, and begin to be done with lesser things, with our gaze on things above, not on the things of this earth.",
+      "suggested_fix": "Fix the duplicated/awkward phrase to a fluent Hebrew sentence. Replace «נקום קום, עם אלוהים, ונתחיל…» with «נקום, עם אלוהים, ונפסיק לעסוק בדברים זוטים…» or «נקום, עם עם ה', ונתחיל להתרחק מדברים זוטים…» Keep the surrounding HTML unchanged.",
+      "translation_quote": "\"נקום קום, עם אלוהים, ונתחיל להפסיק לעסוק בדברים פחותים...\" (the duplicated/corrupted 'נקום קום' should be a single, fluent verb form)."
+    }
+  ],
   "id": "a92785ada9ae81e0607ef7119929a84c",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -100,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 35,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2a0e8037a7779b7d65ad5a5dc37689987f7de799a9c99fb81a3fa397558d941f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

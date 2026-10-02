@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> first stanza, line 5",
+      "severity": "minor",
+      "source_quote": "With many a mystery light somewhere up there?",
+      "suggested_fix": "Translate more idiomatically and grammatically: replace \"Med många ljus som något mysterium där?\" with e.g. \"Med många mystiska ljus där uppe?\" to convey the sense and read naturally in Swedish.",
+      "translation_quote": "Med många ljus som något mysterium där?"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza beginning \"I the still silence...\",\"line\":\"I the still silence of the spacious sky,\"",
+      "severity": "minor",
+      "source_quote": "In the still silence of the spacious sky,",
+      "suggested_fix": "Fix grammatical agreement and idiomatic phrasing: replace \"I den stilla tystnad i det vida sky\" with e.g. \"I den stilla tystnaden i den vida himlen\" or \"I den stilla tystnaden i det vida skyn\".",
+      "translation_quote": "I den stilla tystnad i det vida sky"
+    },
+    {
+      "location": "<div class=\"poem\"> lines about the moon, third stanza",
+      "severity": "minor",
+      "source_quote": "And yet it took man three whole days to reach\nThat tiny sphere so very close at hand.",
+      "suggested_fix": "Correct grammatical gender/word form: replace \"den lilla klotet\" with \"det lilla klotet\" (or use \"det lilla klotet\"/\"det lilla himlakroppen\") so the noun and article agree.",
+      "translation_quote": "Att nå den lilla klotet så nära till hands."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

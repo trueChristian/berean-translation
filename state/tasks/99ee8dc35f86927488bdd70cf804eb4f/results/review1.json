@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "167d8f1f-9950-4b4a-a5df-e5cd3a5cc77e",
+    "response_id": "chatcmpl-EUX8igYDRSP7RPOzFjhxZCN8sbAwR",
+    "usage": {
+      "completion_tokens": 745,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2470
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> (line: \"In the still silence of the spacious sky,\")",
+        "severity": "minor",
+        "source_quote": "In the still silence of the spacious sky,",
+        "suggested_fix": "Vervang de repetitieve frase door een vlottere Nederlandse formulering die hetzelfde betekent en binnen de bestaande HTML-structuur blijft, bijvoorbeeld: In de stille ruimte van de uitgestrekte hemel,",
+        "translation_quote": "In de stille stilte van de ruime hemel,"
+      },
+      {
+        "location": "<div class=\"poem\"> (line: \"The crescent moon is closer yet to you,\")",
+        "severity": "minor",
+        "source_quote": "The crescent moon is closer yet to you,",
+        "suggested_fix": "Overweeg om \"sikkelmaan\" te handhaven (goed), maar als alternatief voor vlotheid kunt u ook \"de sikkelvormige maan\" gebruiken. Beide zijn correct; geen dringend herstel nodig.",
+        "translation_quote": "De sikkelmaan is nog dichterbij jou,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

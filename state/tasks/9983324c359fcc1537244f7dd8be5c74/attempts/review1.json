@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"The first week after we moved to Haiti,...\\\" (source.html paragraph describing people walking around the dead man)\",\"severity\":\"minor\",\"source_quote\":\"But what shocked me the most was that no one seemed to notice. People by the hundreds busily walked around him, not even looking at the man—no one cared.\",\"suggested_fix\":\"Correct the Afrikaans phrasing so it fluently conveys 'People by the hundreds busily walked around him'. Replace the problematic phrase with a natural Afrikaans rendering while preserving surrounding tags. Example replacement: \\\"Mense in honderdtalle het besig om hom geloop, sonder om eers na die man te kyk—niemand het omgegee nie.\\\"\",\"translation_quote\":\"Mense het honderde te wyte uitgeroer en besig verby hom geloop, sonder om eers na die man te kyk—niemand het omgegee nie.\"},{\"location\":\"Paragraph: \\\"This is just how it is; for most of us it is all we have ever known—the life of plenty.\\\"\",\"severity\":\"minor\",\"source_quote\":\"This is just how it is; for most of us it is all we have ever known—the life of plenty.\",\"suggested_fix\":\"Remove the accidental English article 'the' left before the Afrikaans phrase. Replace \\\"the lewe van oorvloed\\\" with correct Afrikaans \\\"die lewe van oorvloed\\\" so the sentence reads naturally.\",\"translation_quote\":\"Dit is net hoe dit is; vir die meeste van ons is dit alles wat ons nog ooit geken het—the lewe van oorvloed.\"},{\"location\":\"Acts quotation paragraph (Acts 21:10-13)\",\"severity\":\"minor\",\"source_quote\":\"And when we heard these things, both we, and they of that place, besought him not to go up to Jerusalem.\",\"suggested_fix\":\"Fix the split verb form 'be smeek' which is nonstandard/incorrect in Afrikaans. Use a single correct past-tense verb form such as 'het ons hom gesmeek' or 'ons en die inwoners van daardie plek het hom gesmeek.' Ensure the quoted passage remains a faithful translation but grammatically correct: e.g. \\\"En toe ons dit hoor, het ons en die inwoners van daardie plek hom gesmeek dat hy nie na Jerusalem moes gaan nie.\\\"\",\"translation_quote\":\"En toe ons dit gehoord het, het ons en die inwoners van daardie plek hom be smeek om nie na Jerusalem op te gaan nie.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 2239,
+    "content_evidence_truncated": false,
+    "content_sha256": "5fd23f3aa68c0e673d36f6b8d18542cdea779f0cbad228e2039300b694432127",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1118,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8533,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9651
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

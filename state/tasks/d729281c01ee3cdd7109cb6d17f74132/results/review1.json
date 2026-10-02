@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "71942dcd-6ae3-4c28-b2d6-01434ec7dbf7",
+    "response_id": "chatcmpl-EUX8b19s1PsIEh4s6Q03vHxwg7X6o",
+    "usage": {
+      "completion_tokens": 887,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4271,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5158
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — hymn title in article body and header (first paragraph referencing the hymn)",
+        "severity": "major",
+        "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ ... When that particular song number was announced on a Sunday morning, she always felt a twinge of excitement.",
+        "suggested_fix": "Translate the quoted hymn title into Portuguese consistently wherever it appears in the article (both in running text and the header). Use a natural, idiomatic Portuguese rendering that matches the translated lyrics already included. For example: replace “Saviour, Like a Shepherd Lead Us” with “Salvador, como Pastor nos guia” (or “Salvador, como um Pastor nos guia”) in the paragraph. Ensure the same Portuguese title is used in the <h3> heading and any other occurrences.",
+        "translation_quote": "Seu hino favorito era “Saviour, Like a Shepherd Lead Us” e, embora ainda não soubesse ler, ela sabia que era o número oito. Quando aquele número de hino era anunciado numa manhã de domingo, ela sempre sentia um formigamento de excitação."
+      },
+      {
+        "location": "source.html — <h3> heading immediately before lyrics",
+        "severity": "major",
+        "source_quote": "<h3>Saviour, Like A Shepherd Lead Us</h3>",
+        "suggested_fix": "Translate the heading into Portuguese to match the translated lyrics. For example: <h3>Salvador, como Pastor nos guia</h3> (or <h3>Salvador, como um Pastor nos guia</h3>), keeping the same HTML structure and tags.",
+        "translation_quote": "<h3>Saviour, Like A Shepherd Lead Us</h3>"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

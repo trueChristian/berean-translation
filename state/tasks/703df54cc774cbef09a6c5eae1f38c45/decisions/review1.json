@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph: \"Ellie didn’t always know the songs that were chosen. They sang out of a little black hymnbook...\"",
+      "severity": "major",
+      "source_quote": "Ellie didn’t always know the songs that were chosen.",
+      "suggested_fix": "Restore the original meaning: translate to indicate Ellie did not always know (recognize) the songs, not that she disliked them. For example: \"Ellie hakukujua kila wakati nyimbo zilizochaguliwa.\"",
+      "translation_quote": "Ellie hakuependa kila wakati nyimbo zilizoachaguliwa."
+    },
+    {
+      "location": "source.html — paragraph with the sentence starting \"She decided to wait until her grandparents were ready to leave.\" (near: \"She followed Grandpa out the door...\")",
+      "severity": "minor",
+      "source_quote": "She decided to wait until her grandparents were ready to leave. She followed Grandpa out the door and as he walked across the porch, she quickly stepped up next to him.",
+      "suggested_fix": "Fix the sentence fragment and preserve subject continuity in Kiswahili. For example: \"Aliamua kusubiri hadi babu na bibi wake wawakae tayari kuondoka. Alimfuata babu hadi mlango, na alipokuwa akitembea kuvuka veranda, alipanda kwa haraka karibu naye.\" Ensure 'babu' and 'bibi' casing and order match the HTML and keep tags unchanged.",
+      "translation_quote": "Akiamua kusubiri hadi babu na bibi wake wakiwa tayari kuondoka. Alimfuata Babu hadi mlango na alipotembea kuvuka veranda, alisimama kwa haraka karibu naye."
+    },
+    {
+      "location": "source.html — hymn lyrics (multiple lines)",
+      "severity": "minor",
+      "source_quote": "Much we need Thy tender care.\nIn Thy pleasant pastures feed us,\nFor our use Thy folds prepare:\nBlessed Jesus! blessed Jesus!\nThou hast bought us, Thine we are.",
+      "suggested_fix": "The hymn stanzas should be translated faithfully and idiomatically into Kiswahili, preserving promises and petition language. Current renderings contain awkward or incorrect words (e.g., \"uwekaji kimahabari\" / \"kimahabari\" is incorrect) and some lines change nuance. Suggested more literal/idiomatic Kiswahili alternatives, preserving stanza breaks and HTML structure, e.g.:\n<p>Mwanokoka, kama mchungaji utekeleze kwetu,<br>\nTunahitaji sana mapenzi yako ya huruma.<br>\nUtulishe katika malisho matamu yako,<br>\nNa andaa makundi yako kwa ajili yetu:<br>\nYesu mwenye baraka! Yesu mwenye baraka!<br>\nUmetunua, sisi ni wako.<br>\nYesu mwenye baraka! Yesu mwenye baraka!<br>\nUmetunua, sisi ni wako.</p>\nAdjust remaining stanzas similarly to keep meaning faithful to the English hymn and the printed repetition/line breaks. Preserve the surrounding <div class=\"lyrics\"> and paragraph tags exactly as in the source HTML.",
+      "translation_quote": "Mwanokoka, kama mchungaji utuelekeze,\nTunahitaji sana uangalifu wako mwenye kimahabari.\nUtulishe katika malisho yako yenye utamu,\nNaandaa kifungo chako kwa matumizi yetu:\nYesu mwenye baraka! Yesu mwenye baraka!\nUmetinunua, sisi ni wako.\nYesu mwenye baraka! Yesu mwenye baraka!\nUmetinunua, sisi ni wako."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

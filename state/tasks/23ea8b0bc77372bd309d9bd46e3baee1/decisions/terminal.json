@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>Greetings of love in the blessed name of our Lord and Savior, Jesus Christ. Many Christians have gone through a time of trial and testing during the past several years, yet we trust that each one is able to say with Paul… <em>Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content –Philippians 4:11.</em></p>",
+      "severity": "minor",
+      "source_quote": "a time of trial and testing",
+      "suggested_fix": "Render both source words with equivalent target-language senses. Replace \"prova e di tentazione\" with a phrase that preserves the paired sense of trial and test (neither implying 'temptation'). Suggested Italian: \"un tempo di prove e di tentativi\" or better \"un tempo di prove e di prove\" is awkward — use \"un tempo di prove e di messa alla prova\" or simply \"un tempo di prove e di messa alla prova\". I suggest: \"un tempo di prove e di messa alla prova.\"",
+      "translation_quote": "un tempo di prova e di tentazione"
+    },
+    {
+      "location": "<p>Brother Andrew (our designer) has become increasingly busy as a young father with a growing family and as a deacon for our local church congregation. In looking at this challenge, the board decided to support Andrew’s desire to find someone to help him (for now) with the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant. Thus, there may be some slight changes in the “style” of design in upcoming issues.</p>",
+      "severity": "minor",
+      "source_quote": "The Heartbeat of the Remnant",
+      "suggested_fix": "This is a proper title left in English. That is acceptable under the guideline permitting unchanged proper names; however, for stylistic consistency in Italian text you may optionally render it in italics or add an Italian explanatory article. No mandatory change required. If you prefer translation, provide an Italian rendering next to the original in parentheses, e.g. \"The Heartbeat of the Remnant (Il Battito del Remanente)\" — only if the publication prefers a translated issue title.",
+      "translation_quote": "The Heartbeat of the Remnant"
+    },
+    {
+      "location": "<p>After praying for the Lord’s wisdom and direction, and after consultation with the leadership of our church, Brother Joe Mast and Brother Sheldon Bower were chosen to fill the empty slots on the board. These brothers have both graciously accepted this calling and are already allowing God to use their spiritual gifts to make a difference</p>",
+      "severity": "minor",
+      "source_quote": "...to make a difference.",
+      "suggested_fix": "Add the missing terminal punctuation (period) at the end of the paragraph to conform to Italian punctuation and to match the source's sentence ending.",
+      "translation_quote": "...per fare la differenza"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fe694edc-9756-41bd-9472-d925b69e6a5b",
+    "response_id": "chatcmpl-EUX8AFTMK1uzHlh6Wxqj5jNzy6liU",
+    "usage": {
+      "completion_tokens": 1540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3172,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4712
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>In the spring of 2022, we made some changes with our ministry in our endeavors to keep the work of The Berean Voice moving forward into the future. 人事变动如下：</p>\n  <p>安德鲁弟兄（我们的设计师）...——因此即将在后续期刊中出现的设计“风格”可能会有些微调整。</p>",
+        "severity": "major",
+        "source_quote": "In the spring of 2022, we made some changes with our ministry in our endeavors to keep the work of The Berean Voice moving forward into the future. Personnel changes:\n\nBrother Andrew (our designer) has become increasingly busy as a young father with a growing family and as a deacon for our local church congregation. In looking at this challenge, the board decided to support Andrew’s desire to find someone to help him (for now) with the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant.",
+        "suggested_fix": "保持原文中两处英文刊名和它们的对应位置/顺序，并在必要时提供准确的中文译名作为补充，而不要互换或替代。建议将该段修为（保留原式样）：\n\n“在2022年春，我们为事工做出了一些调整，以求使 The Berean Voice 这项工作继续面向未来前进。人事变动如下：\n\n安德鲁弟兄（我们的设计师）……董事会决定支持安德鲁弟兄找人（暂时）协助承担每期杂志 The Heartbeat of the Remnant 的大部分设计工作——因此即将在后续期刊中出现的设计‘风格’可能会有些微调整。”\n\n（或若要译成中文名，必须保持与原文并存，例如：“……使 The Berean Voice（《伯利恒之声》）继续……”并“……每期杂志 The Heartbeat of the Remnant（《余民心跳》）……”），以确保不改变或混淆原文所指的两个不同名称。",
+        "translation_quote": "在2022年春，我们为事工做出了一些调整，以求使《悯悯人的心跳》（The Berean Voice）这项工作继续面向未来前进。人事变动如下：\n\n安德鲁弟兄（我们的设计师）作为一位年轻的父亲，家庭逐渐增员，并且在本地教会担任执事，因而日益繁忙。鉴于这一挑战，董事会决定支持安德鲁弟兄找人（暂时）协助承担每期杂志《悯悯人的心跳》的大部分设计工作——因此即将在后续期刊中出现的设计“风格”可能会有些微调整。"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

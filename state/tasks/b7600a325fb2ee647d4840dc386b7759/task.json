@@ -2,7 +2,6 @@
   "article_id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 6818
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 805,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6479,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7284
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Endnotes (source.html - bottom ordered list)",
+      "severity": "minor",
+      "source_quote": "<ol>\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\n  </ol>",
+      "suggested_fix": "Translate or localize the endnote text into standard written Chinese while preserving the original URLs and the HTML structure. For example, render site names and descriptive text in Chinese (keep the bare URLs intact if desired) and keep the <ol> and <li> tags unchanged. Example suggestion (replace only the visible text, not the markup): <ol><li><em>MarionStar 网站文章：role-mothers-changed-years（2015/05/09） — Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li><li><em>Bookroo：伊丽莎白·艾略特的22条最佳书籍名言（Bookroo.com）</em></li></ol>",
+      "translation_quote": "<ol>\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\n  </ol>"
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:11+00:00",
   "id": "b7600a325fb2ee647d4840dc386b7759",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "cmn",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

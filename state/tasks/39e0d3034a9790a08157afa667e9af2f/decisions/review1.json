@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Psalm 127:3 (first occurrence)",
+      "severity": "minor",
+      "source_quote": "God says, Lo, children are an heritage of the LORD: and the fruit of the womb is his reward –Psalm 127:3.",
+      "suggested_fix": "Translate the phrase \"the fruit of the womb is his reward\" into natural Swedish that preserves the image (e.g. \"livmoderns frukt är hans lön\" or \"livmoderns frukt är hans belöning\"). Keep the rest of the verse punctuation and the verse reference unchanged and preserve emphasis tags if present.",
+      "translation_quote": "Gud säger, Se, barn är en HERRENS gåva; livmodern är en lön – Psaltaren 127:3."
+    },
+    {
+      "location": "Paragraph containing Psalm 127:3-5 (longer quotation)",
+      "severity": "minor",
+      "source_quote": "Lo, children are an heritage of the LORD: and the fruit of the womb is his reward. As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate –Psalm 127:3-5.",
+      "suggested_fix": "The phrase rendering of \"the fruit of the womb\" should match the earlier correction for Psalm 127:3 (e.g. \"livmoderns frukt\"). Also consider replacing the literal \"koger\" with the more common Swedish \"skottsamling\" or retain \"koger\" if that is the magazine's preferred style; ensure the imagery (arrows/quiver) and verse numbers are unchanged. Preserve emphasis and underlining around the same words as in the source HTML.",
+      "translation_quote": "Se, barn är en HERRENS gåva; livmodern är en lön. Som pilar i en mäktigs hand, så är barn i ungdomen. Salig är mannen som har sin koger full av dem; de skall icke bli till skam, utan tala med fienderna i porten – Psaltaren 127:3-5."
+    },
+    {
+      "location": "Paragraph with 2 Timothy 3:1-2 quotation",
+      "severity": "minor",
+      "source_quote": "...This know also, that in the last days perilous times shall come. For men shall be lovers of their own selves… –2 Timothy 3:1-2.",
+      "suggested_fix": "The Swedish translation of \"For men shall be lovers of their own selves\" should use a clearer, idiomatic rendering that conveys the Scripture sense (e.g. \"ty människor skall bli själviska och egenkär(a)\" or \"ty människor skall bli kärleksfulla mot sig själva\"). Keep verse reference and punctuation unchanged and preserve emphasis tags.",
+      "translation_quote": "I 2 Timoteus fortsätter Paulus … Och detta skall du veta, att i de sista dagarna skall svåra tider komma. Ty människor skall vara själviska kärlekare… –2 Timoteus 3:1-2."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

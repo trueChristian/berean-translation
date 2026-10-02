@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> (line with: \"The darts of the wicked come from all sides.\")",
+      "severity": "major",
+      "source_quote": "The darts of the wicked come from all sides.",
+      "suggested_fix": "Replace the mistranslation \"Дары нечестивых летят со всех сторон.\" with wording that preserves the original image of hostile projectiles, e.g. \"Дротики нечестивых летят со всех сторон.\" or \"Стрелы нечестивых летят со всех сторон.\"",
+      "translation_quote": "Дары нечестивых летят со всех сторон."
+    },
+    {
+      "location": "<p class=\"poem\"> (line with: \"We are in a battle; we must still overcome.\")",
+      "severity": "minor",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "Correct the awkward Russian phrasing \"нам нужно победить всё ещё\". Use one of: \"нам всё ещё нужно одержать победу.\" or \"нам всё ещё нужно победить.\"",
+      "translation_quote": "Мы в сражении; нам нужно победить всё ещё."
+    },
+    {
+      "location": "<p class=\"poem\"> (final line: \"Let’s take hold of God’s power! It’s time to respond!\")",
+      "severity": "minor",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "The translation \"Возьмём силу Божью! Пора откликнуться — настало время вперёд!\" is redundant and contains an awkward \"вперёд\". Use a concise equivalent that preserves exhortation, e.g. \"Возьмём силу Божью! Пора откликнуться!\" or \"Возьмём силу Божью — пора откликнуться!\"",
+      "translation_quote": "Возьмём силу Божью! Пора откликнуться — настало время вперёд!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

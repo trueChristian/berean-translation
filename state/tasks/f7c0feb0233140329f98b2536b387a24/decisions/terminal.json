@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Titus 2:3-5 (first occurrence)",
+      "severity": "minor",
+      "source_quote": "That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+      "suggested_fix": "Render the gender of the phrase corresponding to the English context (women) consistently in French. Replace « gardiens du foyer » (masculine) with the feminine form « gardiennes du foyer ». Keep the rest of the sentence unchanged and preserve the HTML tags.",
+      "translation_quote": "Afin qu’elles enseignent aux jeunes femmes à être sobres, à aimer leurs maris, à aimer leurs enfants, à être prudentes, chastes, gardiens du foyer, bonnes, obéissantes à leurs propres maris, afin que la parole de Dieu ne soit pas blasphémée. –Tite 2:3-5."
+    },
+    {
+      "location": "Paragraph containing Psalm 127:3-5",
+      "severity": "minor",
+      "source_quote": "Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate –Psalm 127:3-5.",
+      "suggested_fix": "Minor stylistic: the translation uses «carquois» which is correct. No doctrinal change; no change required. (This finding included only to note consistency — no edit necessary.)",
+      "translation_quote": "Heureux l’homme qui en a rempli son carquois: ils ne seront point confus, et ils parleront avec les ennemis à la porte. –Psaume 127:3-5."
+    },
+    {
+      "location": "Paragraph before final citation (\"Mère jeune et occupée...\")",
+      "severity": "minor",
+      "source_quote": "Busy young mother or older woman, whatever stage of life you’re in, God has given you the tools through His spirit to be an influence for good in the lives of those around you.",
+      "suggested_fix": "Grammar: correct the French agreement. Replace « quel que soit l’étape de la vie où vous vous trouvez » with « quelle que soit l’étape de la vie où vous vous trouvez ». Preserve tags and punctuation.",
+      "translation_quote": "Mère jeune et occupée ou femme âgée, quel que soit l’étape de la vie où vous vous trouvez, Dieu vous a donné par Son Esprit les outils pour être une influence de bien dans la vie de ceux qui vous entourent."
+    },
+    {
+      "location": "Bulleted list, first item",
+      "severity": "minor",
+      "source_quote": "Reach out and ask. Don’t always wait until someone pursues you. Choose one younger woman to befriend and learn the inner thoughts and questions of her heart. If you have never learned how to be vulnerable in your relationships, ask God to teach you. And He will.",
+      "suggested_fix": "Style/idiomatic: make the French phrasing smoother and idiomatically correct while preserving meaning. Suggested revision: replace « Choisissez une jeune femme à se lier d’amitié et apprenez les pensées intimes et les questions de son cœur. » with « Choisissez une jeune femme pour vous lier d’amitié et découvrez les pensées intimes et les questions de son cœur. ». Keep the HTML list item's tags intact.",
+      "translation_quote": "Choisissez une jeune femme à se lier d’amitié et apprenez les pensées intimes et les questions de son cœur. Si vous n’avez jamais appris à être vulnérable dans vos relations, demandez à Dieu de vous enseigner. Et Il le fera."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

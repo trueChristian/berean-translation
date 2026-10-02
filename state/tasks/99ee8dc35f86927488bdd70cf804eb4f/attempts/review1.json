@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> (line: \\\"In the still silence of the spacious sky,\\\")\",\"severity\":\"minor\",\"source_quote\":\"In the still silence of the spacious sky,\",\"suggested_fix\":\"Vervang de repetitieve frase door een vlottere Nederlandse formulering die hetzelfde betekent en binnen de bestaande HTML-structuur blijft, bijvoorbeeld: In de stille ruimte van de uitgestrekte hemel,\",\"translation_quote\":\"In de stille stilte van de ruime hemel,\"},{\"location\":\"<div class=\\\"poem\\\"> (line: \\\"The crescent moon is closer yet to you,\\\")\",\"severity\":\"minor\",\"source_quote\":\"The crescent moon is closer yet to you,\",\"suggested_fix\":\"Overweeg om \\\"sikkelmaan\\\" te handhaven (goed), maar als alternatief voor vlotheid kunt u ook \\\"de sikkelvormige maan\\\" gebruiken. Beide zijn correct; geen dringend herstel nodig.\",\"translation_quote\":\"De sikkelmaan is nog dichterbij jou,\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 909,
+    "content_evidence_truncated": false,
+    "content_sha256": "0773a4847026eeba465efe3042f83cf476e3f0fb42f4a4d2b60e1220e2435f4e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 745,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2470
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

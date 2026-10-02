@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>… <em>Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content –Philippians 4:11.</em></p>\",\"severity\":\"major\",\"source_quote\":\"Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content –Philippians 4:11.\",\"suggested_fix\":\"Replace the English book name with the conventional French form and keep the chapter/verse numbers unchanged. For example: «Je ne dis pas cela parce que je manque; car j'ai appris à être content, dans l'état où je me trouve — Philippiens 4:11.» Preserve the existing <em> tags and punctuation.\",\"translation_quote\":\"Je ne dis pas cela parce que je manque; car j'ai appris à être content, dans l'état où je me trouve –Philippians 4:11.\"},{\"location\":\"<p>L'été est à nos portes, ... la plupart de ce que l'on appelle localement «the spring work» est terminé.</p>\",\"severity\":\"major\",\"source_quote\":\"the spring work\",\"suggested_fix\":\"Translate the quoted English phrase into French rather than leaving it in English. For example: «le travail du printemps» or «les travaux de printemps», depending on intended nuance. Suggested replacement: «la plupart de ce que l'on appelle localement «les travaux de printemps» est terminé.»\",\"translation_quote\":\"la plupart de ce que l'on appelle localement «the spring work» est terminé.\"},{\"location\":\"<p>... Et lorsque He donna la «Grande Commission», c'était à Ses disciples ...</p>\",\"severity\":\"major\",\"source_quote\":\"And then when He gave the “Great Commission” it was to His disciples at that time, and to all future disciples—the Church of Jesus Christ.\",\"suggested_fix\":\"The English pronoun He was left in the translation. Replace the English pronoun with the correct French pronoun while preserving capitalization if the translator intends the reverential capital. Suggested fix: «Et lorsque Il donna la «Grande Commission», c'était à Ses disciples de l'époque, et à tous les futurs disciples — l'Église de Jésus-Christ.»\",\"translation_quote\":\"Et lorsque He donna la «Grande Commission», c'était à Ses disciples de l'époque, et à tous les futurs disciples — l'Église de Jésus-Christ.\"}],\"passed\":false,\"score\":74}",
+    "content_bytes": 2276,
+    "content_evidence_truncated": false,
+    "content_sha256": "3bc71ed9652ecdd769db032ccb2344e1acf56829ec7aa95242ece2a4eabe894f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1230,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3191,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4421
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

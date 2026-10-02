@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title / repeated term throughout (translation)",
+      "severity": "minor",
+      "source_quote": "The Call to Discipleship\n\n...Discipleship is incumbent on the believer. ... Discipleship will lead us into a total abandonment of ourselves to Christ.",
+      "suggested_fix": "Use the standard, widely accepted Indonesian theological term for “discipleship” (pemuridan) instead of the uncommon/neologism “kepelatihan.” Replace instances of “Kepelatihan” with “Pemuridan” (preserve HTML tags and order). This keeps theological meaning and idiom intact.",
+      "translation_quote": "Panggilan untuk Kepelatihan\n\n...Kepelatihan adalah kewajiban bagi orang percaya. ... Kepelatihan akan membawa kita ke dalam penyerahan diri total kepada Kristus."
+    },
+    {
+      "location": "paragraph containing: \"Maaﬁkan orang yang telah menyinggungmu.\"",
+      "severity": "minor",
+      "source_quote": "Then “Love your neighbor” – “Serve the needy” – “Defer to your brother” – “Forgive the one that has offended you”.",
+      "suggested_fix": "Correct the typographic/encoding error in the Indonesian verb for “forgive.” Replace “Maaﬁkan” (contains a ligature or incorrect character) with the standard Indonesian spelling “Maafkan.” Preserve surrounding punctuation and HTML tags.",
+      "translation_quote": "Lalu \"Kasihilah sesamamu\" – \"Layani mereka yang membutuhkan\" – \"Utamakan saudaramu\" – \"Maaﬁkan orang yang telah menyinggungmu.\""
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

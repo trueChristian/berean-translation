@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 4623
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1063,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4273,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5336
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Translation HTML — paragraph describing Ellie’s favorite hymn (first occurrence)",
+      "severity": "critical",
+      "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ and although she couldn’t read yet, she knew it was number eight.",
+      "suggested_fix": "Translate the quoted hymn title into Spanish in this paragraph to match the translated hymn text later. For example: “Su himno favorito era ‘Salvador, como Pastor, guíanos’ y, aunque todavía no sabía leer, sabía que era el número ocho.” Preserve punctuation and the quoted presentation.",
+      "translation_quote": "Su himno favorito era “Saviour, Like a Shepherd Lead Us” y, aunque todavía no sabía leer, sabía que era el número ocho."
+    },
+    {
+      "location": "Translation HTML — paragraph where Ellie asks Grandpa (second occurrence)",
+      "severity": "critical",
+      "source_quote": "“Grandpa,” she asked. “Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday? I would really like to sing it again!”",
+      "suggested_fix": "Translate the quoted hymn title into Spanish here as well so the narrative does not leave a substantive quoted passage in English. For example: “—Abuelo —preguntó—. ¿Crees que podrías dirigir la canción ‘Salvador, como Pastor, guíanos’ este próximo domingo? ¡Me encantaría cantarla otra vez!” Keep the dialogue punctuation and paragraph structure intact.",
+      "translation_quote": "“Abuelo,” preguntó. “¿Crees que podrías dirigir la canción ‘Saviour, Like A Shepherd Lead Us’ este próximo domingo? ¡Me encantaría cantarla otra vez!”"
+    },
+    {
+      "location": "Translation HTML — hymn announcement in song service paragraph (third occurrence)",
+      "severity": "critical",
+      "source_quote": "“Let’s sing number 8 in the Appendix,” announced the song leader. Ellie’s heart sang. They were going to sing her favorite song. Her grandpa had honored her request.",
+      "suggested_fix": "The narrative previously identifies the specific hymn by number; since the translation retains the English hymn title elsewhere, ensure consistent Spanish rendering of the hymn title if mentioned here. If you wish to keep it implied by number, no title is required; but if the title is present elsewhere in English it must be translated. If inserting a title, render as: “—Cantemos el número 8 del Apéndice —anunció el dirigente de cánticos. El corazón de Ellie cantó. Iban a entonar su himno favorito, ‘Salvador, como Pastor, guíanos’. Su abuelo había atendido su petición.”",
+      "translation_quote": "“Cantemos el número 8 del Apéndice,” anunció el dirigente de cánticos. El corazón de Ellie cantó. Iban a entonar su himno favorito. Su abuelo había atendido su petición."
+    }
+  ],
   "id": "79c67533f798367bf29007d48409ae4c",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "spa",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

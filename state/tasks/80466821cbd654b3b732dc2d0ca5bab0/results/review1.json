@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fbc2f60e-9840-43a8-8af1-088091a1218d",
+    "response_id": "chatcmpl-EUX8Blomzmo1WrECGLGtwkBSkebjB",
+    "usage": {
+      "completion_tokens": 573,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1641,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2214
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article > p.poem (line: \"He spreads all his lies, the truth to distort.\")",
+        "severity": "major",
+        "source_quote": "He spreads all his lies, the truth to distort.",
+        "suggested_fix": "在不改变原意的前提下，将译文中新增的“与福音”移除，使句子仅反映原文关于“真理”的扭曲。例如保留：\n<p class=\"poem\">...<br>\n他撒布谎言，扭曲真理。<br>\n...</p>\n保持原有 HTML 标签、行序和换行（<br>）不变。",
+        "translation_quote": "他撒布谎言，扭曲真理与福音。"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

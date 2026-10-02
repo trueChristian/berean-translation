@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b2c86e1a-949e-4ae8-8d27-f44e42281f15",
+    "response_id": "chatcmpl-EUX8bAzZRSsfx8n7pA1kmXA4l8XIV",
+    "usage": {
+      "completion_tokens": 874,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3229,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4103
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>В этом выпуске ... Даниилом ...</p>",
+        "severity": "minor",
+        "source_quote": "You can try to picture yourself with Daniel of old as he chose to keep praying like normal at his open window, while knowing full well that this simple act most likely could change his life forever.",
+        "suggested_fix": "Заменить «старцем Даниилом» на формулировку, ближе передающую исходный смысл «Daniel of old», например: «Даниилом древним» или «Даниилом из древности». Это сохранит нейтральный указательный оттенок исходной английской фразы без добавления нового образа («старец»).",
+        "translation_quote": "Вы можете попытаться представить себя вместе со старцем Даниилом, когда он предпочёл продолжать молиться, как обычно, у открытого окна, полностью сознавая, что этот простой поступок, вероятно, может навсегда изменить его жизнь."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

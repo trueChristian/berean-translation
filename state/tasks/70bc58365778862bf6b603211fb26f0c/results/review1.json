@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b306504c-455e-4468-bd87-0d8adf4b854f",
+    "response_id": "chatcmpl-EUX7zy6FNziPk4FH1donLBSQ3LnkS",
+    "usage": {
+      "completion_tokens": 1050,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3359,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4409
+    }
+  },
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (spring work sentence)",
+        "severity": "minor",
+        "source_quote": "But, by now, most of what is known locally as “the spring work” has been finished.",
+        "suggested_fix": "Translate the quoted phrase into Kiswahili idiomatically and preserve the quotation marks. For example: “kazi ya msimu wa machipuko”. Replace the phrase <em>“kazi ya spring”</em> with <em>“kazi ya msimu wa machipuko”</em> so the sentence reads naturally and the quoted local expression is rendered in the target language.",
+        "translation_quote": "Lakini, hadi sasa, kazi inayojulikana kwa ndani kama “kazi ya spring” imemalizika."
+      },
+      {
+        "location": "Paragraph 4 (discipleship / disciple / discipline sentence)",
+        "severity": "minor",
+        "source_quote": "Something new in this issue is the beginning of a series by Brother Donald Brechbill on “discipleship”. Disciple has almost the same spelling as discipline.",
+        "suggested_fix": "Translate the English terms into Kiswahili rather than leaving them in English. Suggested rendering: “kuzaliwa kwa mfululizo kuhusu ‘ufundishaji wa wanafunzi’ (discipleship). Neno ‘wanafunzi’ lina takriban tahajia ile ile na neno ‘nidhamu’ (discipline).” Or simply: “... mfululizo kuhusu ‘ufundishaji wa wanafunzi’. Neno ‘wanafunzi’ lina takriban tahajia ile ile na neno ‘nidhamu’.” Preserve the quotation marks around the quoted term as in the source.",
+        "translation_quote": "Kitu kipya katika toleo hili ni kuanza kwa mfululizo wa Ndugu Donald Brechbill juu ya “ufanyaji wa wanafunzi” (discipleship). Neno disciple lina takriban tahajia ile ile na discipline."
+      },
+      {
+        "location": "Paragraph 4 (word choice in same paragraph)",
+        "severity": "minor",
+        "source_quote": "For many, discipline carries a negative connotation, which hopefully will not interfere with the reader being drawn to what Brother Donald has to share.",
+        "suggested_fix": "The Kiswahili translation uses the verb “haitasisitiza” which changes the intended sense. Use a verb conveying 'prevent' or 'deter' such as “haitazuia” or the phrase “si itakuwazuia”. Suggested fix: replace “ambayo kwa matumaini haitasisitiza msomaji kuvutwa...” with “ambayo, kwa matumaini, haitazuia msomaji kuvutwa...”.",
+        "translation_quote": "Kwa wengi, nidhamu ina maana hasi, ambayo kwa matumaini haitasisitiza msomaji kuvutwa na kile Ndugu Donald anachotaka kushiriki."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

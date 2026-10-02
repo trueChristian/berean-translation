@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\">, line: \"…التي تمتد بالعقل حتى تكاد تنكسر\\n    وتجعلانك تشعر بحجمك الحقيقي؟\"",
+      "severity": "minor",
+      "source_quote": "which stretch the mind almost to breaking point\\n    And make you feel the size you really are?",
+      "suggested_fix": "صحح صياغة الفعل لتتفق قواعدياً مع الفاعل المفرد أو استخدم فعل مناسب الصياغة: استبدِل «وتجعلانك تشعر بحجمك الحقيقي؟» بـ «وتجعلك تشعر بحجمك الحقيقي؟».",
+      "translation_quote": "«التي تمتد بالعقل حتى تكاد تنكسر\\n    وتجعلانك تشعر بحجمك الحقيقي؟»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

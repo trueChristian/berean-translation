@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4326bcba-e8bb-412c-9cd3-026784091b5b",
+    "response_id": "chatcmpl-EUX89BrepiAUCoWLVAK9HqvEZ8vpx",
+    "usage": {
+      "completion_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1605,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2448
+    }
+  },
+  "received_at": "2026-10-02T13:03:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"poem\"> stanza line 10 (\"He’ll trick and deceive, each soul to pursue.\")",
+        "severity": "minor",
+        "source_quote": "He’ll trick and deceive, each soul to pursue.",
+        "suggested_fix": "Translate to avoid accidental repetition; preserve both nuances (trick + deceive). Suggested Indonesian: \"Ia akan menipu dan menyesatkan, mengejar setiap jiwa.\" Keep original HTML tags and line breaks unchanged.",
+        "translation_quote": "Ia akan menipu dan menipu, mengejar setiap jiwa."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

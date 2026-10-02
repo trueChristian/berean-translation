@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p class=\\\"poem\\\"> stanza lines 15-16 (English: \\\"For the eyes of the Lord seek to and fro, To find one perfect, His power He’ll show!\\\")\",\"severity\":\"major\",\"source_quote\":\"For the eyes of the Lord seek to and fro,\\nTo find one perfect, His power He’ll show!\",\"suggested_fix\":\"Preserve the possessive reference to God. Replace \\\"وستظهر قوتها!\\\" with a phrasing that clearly attributes the action and power to the Lord, for example: \\\"لأن عيون الرب تفتش هنا وهناك،\\\\nلتجد واحدًا كاملًا، فسيُظهر قوّته!\\\" (keep the same HTML structure and line break tags).\",\"translation_quote\":\"لأن عيون الرب تفتش هنا وهناك،\\nلتجد واحدًا كاملًا، وستظهر قوتها!\"},{\"location\":\"<p class=\\\"poem\\\"> line 11 (English: \\\"When faced with God’s power, that devil—he hides!\\\")\",\"severity\":\"minor\",\"source_quote\":\"When faced with God’s power, that devil—he hides!\",\"suggested_fix\":\"Clarify the subject to match the English meaning (that the devil hides when confronted with God’s power). Suggested wording: \\\"عندما يواجه الشيطان قوة الله — يختبئ!\\\" or, preserving the original rhythm, \\\"عندما يُواجَه بقدرة الله، ذلك الشيطان — يختبئ!\\\" (preserve the same HTML tags).\",\"translation_quote\":\"عندما يواجه قوة الله، ذلك الشيطان—يختبئ!\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1492,
+    "content_evidence_truncated": false,
+    "content_sha256": "4ffae957993d88d635142fd545d428b0c80e74dc73ce65d1bb6c3510247d549d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1072,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1600,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2672
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

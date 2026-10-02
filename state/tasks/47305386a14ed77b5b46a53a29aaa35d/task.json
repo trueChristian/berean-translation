@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e9f556cad864b2baae5be4ad4ebf2a3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -24,9 +23,37 @@
         },
         "total_tokens": 1847
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 882,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1636,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2518
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "article > p.poem (line containing: \"For the eyes of the Lord seek to and fro, To find one perfect, His power He’ll show!\")",
+      "severity": "major",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "Preserve the sense of \"one perfect\" by including a translation of \"perfect\" (or its Korean equivalent) in the corresponding line. Maintain original HTML structure. Example replacement inside the same <p class=\"poem\"> element: replace the two translated lines\n\n\"주의 눈은 두루 살피시며,<br>\n한 사람을 찾아 그의 능력을 보여 주신다!\"\n\nwith\n\n\"주의 눈은 두루 살피시며,<br>\n완전한 한 사람을 찾아 그의 능력을 보여 주신다!\"",
+      "translation_quote": "주의 눈은 두루 살피시며,\n한 사람을 찾아 그의 능력을 보여 주신다!"
+    }
+  ],
   "id": "47305386a14ed77b5b46a53a29aaa35d",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "kor",
@@ -100,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

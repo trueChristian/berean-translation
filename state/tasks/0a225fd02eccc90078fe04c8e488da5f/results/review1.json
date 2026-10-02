@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d91e2bd1-44b0-48ff-8ce9-dc48aa3c68f8",
+    "response_id": "chatcmpl-EUX8MIGE48SzDHlpDUZld3AZ0Si5f",
+    "usage": {
+      "completion_tokens": 886,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7221,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8107
+    }
+  },
+  "received_at": "2026-10-02T13:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "A Joyful Calling",
+        "suggested_fix": "Translate the English title into standard Urdu (Perso-Arabic script). Suggested Urdu title: \"ایک خوشگوار پکار\" or \"ایک خوشگوار دعوت\" (choose the publisher's preferred idiom). Replace the untranslated English title with the chosen Urdu text.",
+        "translation_quote": "A Joyful Calling"
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "Sister to Sister",
+        "suggested_fix": "Translate the English section name into standard Urdu (Perso-Arabic script). Suggested Urdu section label: \"بہن سے بہن\". Replace the untranslated English section label with the chosen Urdu text.",
+        "translation_quote": "Sister to Sister"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}
