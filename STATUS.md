@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `9e6e1db340e802f71c7018950dc820482ecc4e5e`
+Observed English revision: `f5317f412fd603472a196c79c395c8e1ad392bd2`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -84,31 +84,33 @@ Observed English revision: `9e6e1db340e802f71c7018950dc820482ecc4e5e`
 | `heartbeat-remnant-2004-07` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-05` | 14 | 0 / 280 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-03` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-11` | 10 | 0 / 200 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 15 / 896 | 0 | 16 | 14 | 26 |
-| `hin` (hi) | 18 / 896 | 0 | 19 | 8 | 21 |
-| `spa` (es) | 22 / 896 | 0 | 16 | 7 | 14 |
-| `ara` (ar) | 14 / 896 | 0 | 20 | 11 | 27 |
-| `fra` (fr) | 25 / 896 | 0 | 15 | 5 | 14 |
-| `ben` (bn) | 15 / 896 | 0 | 20 | 10 | 31 |
-| `por` (pt) | 20 / 896 | 0 | 18 | 7 | 19 |
-| `ind` (id) | 20 / 896 | 0 | 20 | 5 | 19 |
-| `urd` (ur) | 20 / 896 | 0 | 19 | 6 | 25 |
-| `rus` (ru) | 21 / 896 | 0 | 15 | 9 | 24 |
-| `deu` (de) | 19 / 896 | 0 | 16 | 10 | 30 |
-| `nld` (nl) | 24 / 896 | 0 | 17 | 4 | 16 |
-| `afr` (af) | 17 / 896 | 0 | 20 | 8 | 23 |
-| `swa` (sw) | 10 / 896 | 0 | 20 | 15 | 34 |
-| `kor` (ko) | 22 / 896 | 0 | 14 | 9 | 20 |
-| `ita` (it) | 23 / 896 | 0 | 16 | 6 | 20 |
-| `heb` (he) | 6 / 896 | 0 | 15 | 24 | 33 |
-| `ell` (el) | 17 / 896 | 0 | 20 | 8 | 28 |
-| `swe` (sv) | 16 / 896 | 0 | 18 | 11 | 20 |
-| `nob` (nb) | 22 / 896 | 0 | 18 | 5 | 20 |
+| `cmn` (zh-Hans) | 15 / 917 | 0 | 16 | 14 | 26 |
+| `hin` (hi) | 18 / 917 | 0 | 19 | 8 | 21 |
+| `spa` (es) | 22 / 917 | 0 | 16 | 7 | 14 |
+| `ara` (ar) | 14 / 917 | 0 | 20 | 11 | 27 |
+| `fra` (fr) | 25 / 917 | 0 | 15 | 5 | 14 |
+| `ben` (bn) | 15 / 917 | 0 | 20 | 10 | 31 |
+| `por` (pt) | 20 / 917 | 0 | 18 | 7 | 19 |
+| `ind` (id) | 20 / 917 | 0 | 20 | 5 | 19 |
+| `urd` (ur) | 20 / 917 | 0 | 19 | 6 | 25 |
+| `rus` (ru) | 21 / 917 | 0 | 15 | 9 | 24 |
+| `deu` (de) | 19 / 917 | 0 | 16 | 10 | 30 |
+| `nld` (nl) | 24 / 917 | 0 | 17 | 4 | 16 |
+| `afr` (af) | 17 / 917 | 0 | 20 | 8 | 23 |
+| `swa` (sw) | 10 / 917 | 0 | 20 | 15 | 34 |
+| `kor` (ko) | 22 / 917 | 0 | 14 | 9 | 20 |
+| `ita` (it) | 23 / 917 | 0 | 16 | 6 | 20 |
+| `heb` (he) | 6 / 917 | 0 | 15 | 24 | 33 |
+| `ell` (el) | 17 / 917 | 0 | 20 | 8 | 28 |
+| `swe` (sv) | 16 / 917 | 0 | 18 | 11 | 20 |
+| `nob` (nb) | 22 / 917 | 0 | 18 | 5 | 20 |
 
 ## Issue / language work
 
