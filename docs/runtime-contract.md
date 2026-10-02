@@ -36,6 +36,76 @@ A campaign records its USD cap, conservative reserved cost and API-reported toke
 
 No more than two translations/corrections and two reviews occur per task. No billable endpoint is automatically retried. File uploads have a separate three-failure bound. Manual re-review/retry is a new, explicitly authorized bounded campaign. Discovery never authorizes a first translation of an article/language pair. The separately approved automatic source-refresh policy applies only to already-published AI pairs whose current source fingerprint changed: gpt-5-mini for both stages, at most $10 per one-issue/language campaign, at most five new campaigns per initial scan, exact source selections and all-history fingerprint deduplication. These caps are per campaign, not an aggregate lifetime/daily spending cap. Failed/cancelled/budget-blocked fingerprints require manual intervention; active, human-reviewed, withdrawn and compatible work is excluded. Immutable requests and frozen campaign policy/usage provide the spending ledger. Disabling the policy pauses unaccepted automatic requests; already-accepted work needs explicit cancellation.
 
+## Exact manual candidate recovery
+
+The dedicated recovery workflow emits review-only immutable requests containing
+`recovery_of_campaign` and a nonempty unique `previous_task_ids` allowlist. There
+are no language/issue fallback selectors; combining selection families fails
+closed. Explicit budget (at most six USD decimal places) and dry-run fields are required. A target must exist once,
+belong to the finished original campaign, be the latest terminal `not_ready` task,
+have a saved candidate and hash-verified source/model provenance, match current
+source, and have no public/human-reviewed replacement or overlapping active work.
+The entire selection is rejected if any target fails. No automatic hold filter,
+new language detector, or semantic acceptance rule is introduced.
+
+Accepted campaigns record `recovery_allocation_usd` equal to the full budget,
+`previous_task_ids`, immutable request snapshot/hash, frozen selection/provenance and `recovery_budget`. The accepted envelope is audited against that snapshot and its queue request when present.
+For each original campaign, its reserved ceiling plus **all** accepted recovery
+envelopes must remain within its original cap. Allocation history is additive:
+finished, failed, cancelled, partially accepted and unused allocations still count.
+Neither actual usage nor cancellation returns headroom. Deduplication scans the
+same all-history ledger, not merely current latest tasks or active campaigns.
+The single serialized collector owns acceptance, so requests enqueued concurrently
+cannot reserve the same headroom. The original campaign is not rewritten.
+
+Dry runs record a selection report only, with zero allocation and no tasks or
+stage reservations. Their remaining-after amount is hypothetical. Replaying an
+identical request returns its prior report/campaign; changed inputs with the same
+identity are rejected. A paid request needs a new identity after a preview.
+Acceptance durably checkpoints the full envelope before materializing tasks and marks
+`recovery_acceptance_complete` only after all selected tasks exist. Interrupted
+acceptance is a diagnostic blocker, never permission to submit partial work or
+recycle the allocation.
+
+An owner can explicitly abort interrupted acceptance through the existing
+`cancel` operation. Preflight freezes/checks the original record snapshot as well
+as task/candidate/source hashes and enumerates only deterministic children derived
+from the campaign/language/article identities. It rejects unexpected child paths,
+results, batch records, reservations, attempts, model events, candidate changes or
+foreign record/history evidence before writing anything. This includes candidate
+files created before task records and task records created before record/history
+or campaign-list updates.
+
+A durable `acceptance_aborting` journal records a timestamp and exact partitions:
+materialized tasks, candidate-only artifacts, and entirely unstaged child IDs.
+Repeated explicit cancellation can finish that same local-only abort idempotently.
+A terminal retry also verifies that origin contains its checkpoint; a locally
+committed but failed final push requires another explicit cancel from a fresh
+main checkout, retaining the failed checkout for audit. It cannot report a durable
+abort based solely on an empty local diff.
+Materialized children receive one cancelled status/history entry; candidate-only
+artifacts remain untouched; no missing task is created. Terminal
+`acceptance_aborted` keeps `recovery_acceptance_complete=false`, the full immutable
+request/selection/allocation, and a task list containing only materialized children.
+The validator checks this terminal schema, immutable original history prefix,
+cancellation evidence and retained artifacts. Legitimate later work may extend
+article records without invalidating the abort. All planned previous IDs stay
+consumed and the entire envelope remains allocated, even when no task existed.
+An incomplete/aborting campaign cannot submit recovery work; an explicit terminal
+abort restores valid repository state without rewriting old tasks or deleting
+history. Any evidence of already-submitted work is a blocker for this specialized
+abort rather than something to conceal or relabel.
+
+Each new task starts at review1 with the original candidate and pinned source,
+new frozen campaign prompts/settings, and immutable previous task/candidate hashes.
+The original records, attempt counters, results, candidate, source cache and public
+files remain untouched. Existing runtime reservation and quality checks govern
+review1, at most one correction, and review2 within the recovery envelope. Runtime
+validation audits provenance and cumulative allocations. Failed recovery does not
+publish or overwrite human work; accepted review still needs at least 95 and no
+major/critical findings. Offline tests establish selection and ledger behavior,
+not model compliance, billing guarantees or theological translation quality.
+
 ## Source compatibility
 
 The source reader consumes archive format 2.0: `index.json.articles`, `catalogue.json.issues`, and `content/articles/<uuid>.html`. It does not read a core manifest or navigation file. It computes fingerprints inside the translation runtime, stores the observed inventory in `state/source.json`, and verifies each HTML fragment and its indexed image references. Existing compatible translation keys are preserved by retaining the previous fingerprint recipe.

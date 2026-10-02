@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 from .common import ContractError, csv_values, json_hash, read_json
 from .state import TERMINAL
+from .recovery import FIELDS as RECOVERY_FIELDS
 
 
 def _request_languages(config, request):
@@ -13,6 +14,10 @@ def _request_languages(config, request):
 
 
 def _pending_covers(config, source, request, language, article):
+    # Exact candidate recovery rejects any existing publication, so it cannot
+    # overlap an automatic refresh. Never interpret its absent selectors as all/next.
+    if RECOVERY_FIELDS.intersection(request):
+        return False
     if request.get('dry_run') is True or request.get('operation') not in ('translate', 'review'):
         return False
     if language not in _request_languages(config, request):

@@ -6,7 +6,7 @@ import os
 import sys
 from pathlib import Path
 from uuid import uuid4
-from .common import ContractError, loads, read_json
+from .common import ContractError, csv_values, loads, read_json
 from .collector import collect_window
 from .config import Config
 from .engine import Engine
@@ -69,17 +69,31 @@ def main(argv=None):
         elif args.command == 'enqueue-env':
             if os.environ.get('GITHUB_REF') != 'refs/heads/main':
                 raise ContractError('Manual paid-work requests must run from main')
-            selector = os.environ.get('INPUT_ISSUES','').strip() or os.environ.get('INPUT_ISSUE_SELECTION','next')
-            if selector == 'custom':
-                raise ContractError('Provide issue UUIDs/source IDs in the issues field')
+            selection_mode = os.environ.get('TRANSLATION_SELECTION', 'ordinary')
+            if selection_mode not in ('ordinary', 'exact-recovery'):
+                raise ContractError('Unknown manual selection mode')
             request = {'id':'gh-'+os.environ['GITHUB_RUN_ID'],
                        'operation':os.environ['TRANSLATION_OPERATION'],
-                       'languages':os.environ.get('INPUT_LANGUAGES','').strip() or os.environ.get('INPUT_LANGUAGE','all'),
-                       'issues':selector,'model':os.environ.get('INPUT_MODEL') or config.runtime['default_model'],
+                       'model':os.environ.get('INPUT_MODEL') or config.runtime['default_model'],
                        'review_model':os.environ.get('INPUT_REVIEW_MODEL') or config.runtime['default_review_model'],
                        'budget_usd':os.environ.get('INPUT_BUDGET_USD','5'),
                        'dry_run':env_bool('INPUT_DRY_RUN',True),'retry_failed':env_bool('INPUT_RETRY_FAILED'),
                        'requested_by':os.environ.get('GITHUB_ACTOR')}
+            if selection_mode == 'exact-recovery':
+                request['budget_usd'] = os.environ.get('INPUT_BUDGET_USD', '')
+                if any(os.environ.get(key, '').strip() for key in
+                       ('INPUT_LANGUAGE', 'INPUT_LANGUAGES', 'INPUT_ISSUES', 'INPUT_ISSUE_SELECTION')):
+                    raise ContractError('Exact recovery cannot be combined with language or issue selectors')
+                request.update(recovery_of_campaign=os.environ.get('INPUT_ORIGINAL_CAMPAIGN', '').strip(),
+                               previous_task_ids=csv_values(os.environ.get('INPUT_PREVIOUS_TASK_IDS', '')))
+            else:
+                if any(key in os.environ for key in ('INPUT_ORIGINAL_CAMPAIGN', 'INPUT_PREVIOUS_TASK_IDS')):
+                    raise ContractError('Recovery inputs require exact-recovery selection mode')
+                selector = os.environ.get('INPUT_ISSUES','').strip() or os.environ.get('INPUT_ISSUE_SELECTION','next')
+                if selector == 'custom':
+                    raise ContractError('Provide issue UUIDs/source IDs in the issues field')
+                request.update(languages=os.environ.get('INPUT_LANGUAGES','').strip() or os.environ.get('INPUT_LANGUAGE','all'),
+                               issues=selector)
             result = enqueue_github(config,request,os.environ['GITHUB_REPOSITORY'],os.environ.get('GH_TOKEN',''))
         elif args.command == 'discover':
             source = SourceClient(config)

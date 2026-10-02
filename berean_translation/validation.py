@@ -10,6 +10,7 @@ from pathlib import Path
 from .common import ContractError, digest, json_hash, read_json, safe_path, uuid, write_json, write_text
 from .html import rewrite_export_urls, validate_translation
 from .source import translation_key
+from .recovery import validate_recoveries
 from .state import State, TERMINAL
 
 
@@ -42,7 +43,10 @@ def validate_repository(config, check_index=True):
     actual_files = {p.relative_to(config.root).as_posix() for p in (config.root/'content').rglob('*') if p.is_file()}
     if actual_files != expected_files:
         raise ContractError('Missing or orphaned content files')
-    tasks = {t['id']:t for t in state.tasks()}
+    task_list = state.tasks()
+    tasks = {t['id']:t for t in task_list}
+    if len(tasks) != len(task_list):
+        raise ContractError('Duplicate task identity in runtime history')
     for task in tasks.values():
         if not re.fullmatch(r'[a-f0-9]{32}',task['id']) or task['language'] not in config.languages:
             raise ContractError('Invalid task identity')
@@ -58,6 +62,7 @@ def validate_repository(config, check_index=True):
             raise ContractError('Campaign budget invariant violated')
         if any(identity not in tasks for identity in campaign['tasks']):
             raise ContractError('Campaign references a missing task')
+    validate_recoveries(state, tasks, state.campaigns(), config.runtime['max_tasks_per_request'])
     for batch in state.batches():
         payload = state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes()
         if digest(payload) != batch['payload_sha256']:

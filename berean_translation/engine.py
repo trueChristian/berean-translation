@@ -16,6 +16,7 @@ from .common import (ContractError, canonical, csv_values, digest, json_hash, lo
 from .html import notice, validate_translation
 from .requests import accepted_review, build_request, parse_response
 from .refresh import enqueue_source_refreshes
+from .recovery import is_recovery_campaign, plan_recovery, recorded_request, recovery_selector
 from .state import State, TERMINAL
 
 BATCH_TERMINAL = {'completed','failed','expired','cancelled'}
@@ -84,13 +85,19 @@ class Engine:
         identity = request.get('id','')
         if not re.fullmatch(r'[A-Za-z0-9_-]{1,80}', identity):
             raise ContractError('Invalid queue request identity')
+        recovery = recovery_selector(request, self.config.runtime['max_tasks_per_request'])
         existing = self.state.read(f'state/campaigns/{identity}.json')
         if existing:
+            if ((existing.get('request_sha256') and existing['request_sha256'] != json_hash(request))
+                    or (recovery and not existing.get('request_sha256'))):
+                raise ContractError('Campaign identity already exists with different immutable inputs')
+            if existing.get('recovery_of_campaign'):
+                recorded_request(self.state, existing)
             return existing
         operation = request.get('operation')
         if operation not in ('translate','review'):
             raise ContractError('Request operation must be translate or review')
-        languages = self.config.select_languages(request.get('languages','all'))
+        languages = [] if recovery else self.config.select_languages(request.get('languages','all'))
         model = request.get('model') or self.config.runtime['default_model']
         review_model = request.get('review_model') or self.config.runtime['default_review_model']
         self.config.model(model); self.config.model(review_model)
@@ -102,7 +109,7 @@ class Engine:
         refresh = request.get('source_refresh',False)
         if type(refresh) is not bool:
             raise ContractError('Request source_refresh must be a boolean')
-        selected = self.select_issues(request.get('issues','next'),languages,operation,retry)
+        selected = [] if recovery else self.select_issues(request.get('issues','next'),languages,operation,retry)
         source_index = self.state.read('state/source.json')
         refresh_ids, refresh_keys = None, None
         if refresh:
@@ -128,27 +135,34 @@ class Engine:
                 raise ContractError('Source refresh articles must still belong to the selected issue')
         elif 'article_ids' in request or 'source_translation_keys' in request:
             raise ContractError('Exact source-refresh selection fields require source_refresh=true')
-        articles = sorted((a for a in source_index['articles'].values() if a['issue_id'] in selected),
-                          key=lambda a:(selected.index(a['issue_id']),a['sequence'],a['id']))
-        if refresh:
-            articles = [a for a in articles if a['id'] in refresh_ids]
-        attempted = {(t['language'],t['article_id'],t['translation_key']) for t in self.state.tasks()} if refresh else set()
-        planned, skipped = [],[]
-        for article in articles:
-            for language in languages:
-                allowed, reason = self.eligible(article,language,operation,retry)
-                if refresh:
-                    pub = self.state.record(language,article['id']).get('published')
-                    if not pub:
-                        allowed, reason = False,'source_refresh_requires_existing_publication'
-                    elif article['translation_key'] != refresh_keys[article['id']]:
-                        allowed, reason = False,'source_changed_after_refresh_request'
-                    elif (language,article['id'],article['translation_key']) in attempted:
-                        allowed, reason = False,'source_fingerprint_already_attempted'
-                (planned if allowed else skipped).append({'article_id':article['id'],'language':language,'reason':reason})
+        frozen_recovery, recovery_budget = {}, None
+        if recovery:
+            planned, frozen_recovery, recovery_budget = plan_recovery(self, request, budget, recovery)
+            skipped = []
+            languages = list(dict.fromkeys(item['language'] for item in planned))
+            selected = list(dict.fromkeys(source_index['articles'][item['article_id']]['issue_id'] for item in planned))
+        else:
+            articles = sorted((a for a in source_index['articles'].values() if a['issue_id'] in selected),
+                              key=lambda a:(selected.index(a['issue_id']),a['sequence'],a['id']))
+            if refresh:
+                articles = [a for a in articles if a['id'] in refresh_ids]
+            attempted = {(t['language'],t['article_id'],t['translation_key']) for t in self.state.tasks()} if refresh else set()
+            planned, skipped = [],[]
+            for article in articles:
+                for language in languages:
+                    allowed, reason = self.eligible(article,language,operation,retry)
+                    if refresh:
+                        pub = self.state.record(language,article['id']).get('published')
+                        if not pub:
+                            allowed, reason = False,'source_refresh_requires_existing_publication'
+                        elif article['translation_key'] != refresh_keys[article['id']]:
+                            allowed, reason = False,'source_changed_after_refresh_request'
+                        elif (language,article['id'],article['translation_key']) in attempted:
+                            allowed, reason = False,'source_fingerprint_already_attempted'
+                    (planned if allowed else skipped).append({'article_id':article['id'],'language':language,'reason':reason})
         if len(planned) > self.config.runtime['max_tasks_per_request']:
             raise ContractError('Selection exceeds max_tasks_per_request; choose fewer issues/languages')
-        campaign = {'id':identity,'operation':operation,'created_at':now(),'requested_by':request.get('requested_by'),
+        campaign = {'id':identity,'request_sha256':json_hash(request),'operation':operation,'created_at':now(),'requested_by':request.get('requested_by'),
                     'source_revision':source_index['revision'],'budget_usd':budget,'reserved_usd':0.0,
                     'reported_usage_usd':0.0,'tasks':[],'skipped':skipped,'selection':planned,'dry_run':dry_run,
                     'status':'planned' if dry_run else 'active','languages':languages,'issues':selected,
@@ -163,22 +177,34 @@ class Engine:
         if refresh:
             campaign.update(source_refresh=True,source_translation_keys=copy.deepcopy(refresh_keys),
                             refresh_policy=copy.deepcopy(self.config.runtime['automatic_source_refresh']))
+        if recovery:
+            campaign.update(recovery_of_campaign=recovery[0], previous_task_ids=list(recovery[1]),
+                            recovery_allocation_usd=0.0 if dry_run else budget, recovery_budget=recovery_budget,
+                            recovery_acceptance_complete=False, recovery_request=copy.deepcopy(request))
+        # Persist the accepted full envelope before creating any recovery work.
+        # This allocation is never freed, even if acceptance/staging later fails.
         self.state.save_campaign(campaign)
         if dry_run:
             # Selection preview is free; no tasks are reserved and no API objects are created.
             return campaign
+        if recovery:
+            campaign['status'] = 'acceptance_incomplete'
+            self.state.save_campaign(campaign)
+            self.checkpoint('runtime: allocate exact recovery envelope before materializing tasks')
         for item in planned:
             article_id, language = item['article_id'],item['language']
             article = source_index['articles'][article_id]
             record = self.state.record(language,article_id)
             previous = self.state.read(f'state/tasks/{record.get("latest_task")}/task.json') if record.get('latest_task') else None
             try:
-                source = self.source_client.snapshot(article_id)
+                source = (frozen_recovery[item['previous_task_id']]['source'] if recovery
+                          else self.source_client.snapshot(article_id))
             except (ContractError,UnicodeError) as exc:
                 campaign['skipped'].append({**item,'reason':'source_error','detail':str(exc)})
                 continue
-            snapshot_path = f'state/sources/{json_hash(source)}.json'
-            self.state.write(snapshot_path,source)
+            snapshot_path = (item['source_snapshot'] if recovery else f'state/sources/{json_hash(source)}.json')
+            if not recovery:
+                self.state.write(snapshot_path,source)
             task_id = digest(identity + ':' + language + ':' + article_id)[:32]
             pub = record.get('published')
             task = {'id':task_id,'campaign':identity,'article_id':article_id,'issue_id':article['issue_id'],
@@ -191,15 +217,23 @@ class Engine:
                     'translation_model_actual':pub['model'] if pub else None,
                     'translation_attempts':0,'review_attempts':0,'events':[]}
             if operation == 'review':
-                candidate = self.state.publication_candidate(pub)[0] if pub else self.state.candidate(previous)
+                candidate = (frozen_recovery[item['previous_task_id']]['candidate'] if recovery else
+                             self.state.publication_candidate(pub)[0] if pub else self.state.candidate(previous))
                 self.state.save_candidate(task,candidate)
                 if not task['translation_model_actual'] and previous:
                     task['translation_model_actual'] = previous.get('translation_model_actual')
+            if recovery:
+                task.update(recovery_of_task=item['previous_task_id'],
+                            recovery_candidate_sha256=item['candidate_sha256'],
+                            recovery_previous_task_sha256=item['previous_task_sha256'])
             self.state.save_task(task)
             record['latest_task'] = task_id
             record['history'].append({'event':'requested','task':task_id,'campaign':identity,'at':task['created_at']})
             self.state.save_record(record)
             campaign['tasks'].append(task_id)
+        if recovery:
+            campaign['recovery_acceptance_complete'] = True
+            campaign['status'] = 'active'
         self.state.save_campaign(campaign)
         return campaign
 
@@ -485,6 +519,8 @@ class Engine:
         for (campaign_id,stage,model), tasks in sorted(groups.items()):
             while tasks and prepared_count < self.config.runtime['max_batches_per_tick']:
                 campaign = self.state.read(f'state/campaigns/{campaign_id}.json')
+                if campaign.get('recovery_of_campaign') and not campaign.get('recovery_acceptance_complete'):
+                    raise ContractError('Recovery acceptance is incomplete; its allocation is retained and paid work is blocked')
                 if campaign.get('cancel_requested'):
                     for task in tasks:
                         self.finish(task,'cancelled','Campaign cancelled by owner')
@@ -537,6 +573,12 @@ class Engine:
         campaign = self.state.read(f'state/campaigns/{identity}.json')
         if not campaign:
             raise ContractError('Unknown campaign')
+        if is_recovery_campaign(self.state, campaign):
+            recorded_request(self.state, campaign)
+            if (campaign.get('status') in ('acceptance_incomplete', 'acceptance_aborting', 'acceptance_aborted')
+                    or (not campaign.get('dry_run') and not campaign.get('recovery_acceptance_complete'))):
+                from .recovery_abort import abort_incomplete_recovery
+                return abort_incomplete_recovery(self, campaign)
         campaign['cancel_requested'] = True
         self.state.save_campaign(campaign)
         self.checkpoint('runtime: persist explicit campaign cancellation')
@@ -569,7 +611,8 @@ class Engine:
         self.collect()
         self.prepare()
         for campaign in self.state.campaigns():
-            if campaign['dry_run']:
+            if campaign['dry_run'] or (campaign.get('recovery_of_campaign')
+                                       and not campaign.get('recovery_acceptance_complete')):
                 continue
             tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in campaign['tasks']]
             campaign['status'] = 'finished' if all(t['status'] in TERMINAL for t in tasks) else 'active'

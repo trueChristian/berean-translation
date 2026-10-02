@@ -26,6 +26,7 @@ A dry-run request is deliberately a free selection preview, not a certified pric
 | --- | --- | --- |
 | **AI — OpenAI** | Persist one manual translation request with issue/language/model selections. | The collector submits the authorized work; this enqueuer has no OpenAI secret. |
 | **AI — Review** | Request a new bounded AI review of existing translations or saved failed candidates. | Review, and at most one correction plus final review. |
+| **AI — Recover candidates** | Review an exact allowlist of failed candidate task IDs from one finished original campaign. | Uses only an explicitly allocated part of the original remaining cap; review, at most one correction, then final review. |
 | **AI — Collect and discover** | Discover source updates, process queued requests, collect/resume batches, recognize human review, or perform explicit cancellation/recovery. | Manual campaigns plus the explicitly bounded source-refresh policy. |
 | **Translation runtime checks** | Offline regression tests, installed SDK contract check, repository validation and read-only source compatibility check. | None. |
 
@@ -40,6 +41,59 @@ The issue dropdown supplies **next**, **all**, **outstanding** and **custom**. F
 **next** selects the first issue in the source catalogue with eligible work for the selected languages and operation. It does not guess chronology from seasonal dates. **all** and **outstanding** both examine all selected source issues, but normal translation eligibility still excludes completed, active and protected work. A request currently allows up to 1,000 article/language tasks; a larger archive request must be divided across manual runs. Batch sizes have separate safety limits.
 
 Concurrent manual runs create different immutable queue files. OpenAI batches may run simultaneously, while one collector serializes mutable repository writes. Re-running the same GitHub workflow run is idempotent; submitting a new run creates a new request, whose article eligibility checks still prevent duplicate translation charges. Completed translations are selectable for review, not silently translated again. Explicit **retry_failed** is required to retry an unsuccessful translation through **AI — OpenAI**.
+
+### Recover an exact candidate subset
+
+Use **AI — Recover candidates** when only particular saved candidates should be
+re-reviewed. Supply a finished **original_campaign** ID and the exact comma-separated
+**previous_task_ids** from that campaign, an explicit **budget_usd** envelope (at most six decimal places), and
+models (both default to **gpt-5-mini**). This separate workflow has no language or
+issue selectors. Its immutable request uses `recovery_of_campaign` and
+`previous_task_ids`; combining these with ordinary selectors or source-refresh
+fields is rejected, never expanded to workflow defaults. Each request belongs to
+one original campaign. Split selections with different original parents into
+separate requests.
+
+Keep **dry_run** checked first. The campaign report lists each exact previous
+**task / article / language**, pinned source and candidate hashes, original cap,
+original reservations, all prior recovery allocations, proposed envelope, and
+remaining balances. `remaining_after_usd` is the **hypothetical** balance after the
+proposed envelope; a preview's actual `recovery_allocation_usd` is zero. No recovery
+tasks, budget reservations, source snapshots, or API objects are created by a
+preview. The collector can still process other independently authorized work.
+To proceed, submit a **new** workflow run with `dry_run` unchecked; rerunning or
+changing the existing request cannot turn a preview into paid work.
+
+Acceptance is all-or-nothing. Every target must exist exactly once, be the latest
+terminal **not_ready** task in the named finished original campaign, retain its
+candidate and valid pinned source/model provenance, and still match current
+English. Any unknown, duplicate, active, stale, mixed-parent, previously recovered,
+human-protected, or already-published target rejects the entire request. Published
+translations remain eligible through ordinary **AI — Review**, not this recovery
+selector. Recovery is an explicit selection, never automatic filtering of holds.
+
+The full requested envelope is durably checkpointed before any recovery task is created and allocated against:
+
+```text
+original cap − original reserved ceiling − every previously accepted recovery envelope
+```
+
+The original campaign and task ledgers remain unchanged. Accepted envelopes are
+**never released or reused**, even after failure, cancellation, incomplete
+acceptance, or lower reported usage. Concurrent enqueuers write independent queue
+files; the existing single collector accepts them sequentially against the shared
+remaining cap. Every original task can receive at most one accepted exact recovery
+across all history. A preview neither allocates funds nor consumes that opportunity.
+
+Recovery copies the existing paid candidate and reuses its verified source
+snapshot. It creates a new review-first task with fresh frozen prompts/settings
+and explicit links/hashes back to the untouched original task and candidate. No
+old attempts, findings, candidates, or source history are reset. A failed review
+may use one correction and one final review, all within the new envelope. The
+95-point/no-major-or-critical gate and normal human/publication protection still
+apply. The envelope is a hard stop, not a guarantee that every stage fits or that
+any candidate will pass. Successful enqueues wake the same trusted-main collector
+as ordinary review requests; the shared state-writer lock is unchanged.
 
 ### Model selection and expenditure
 
@@ -145,6 +199,26 @@ Merging with this policy enabled allows the next collector to refresh eligible s
 **Missing API key:** discovery and durable selection still work, but no OpenAI request is sent. Add the repository secret after checking that queued paid requests are still intended.
 
 **Budget blocked / not ready:** inspect task findings and candidate JSON. Use **AI — Review** for an existing candidate, or explicitly request a failed translation retry. Each is a new manually authorized budget, never an endless automatic loop.
+
+**Interrupted exact-recovery acceptance:** an `acceptance_incomplete` campaign
+already owns its full envelope but cannot submit partially staged tasks. To close
+it safely, run **AI — Collect and discover**, operation **cancel**, with that recovery
+campaign ID. This explicit action audits the immutable request, original records,
+and only the exact deterministic children. It records `acceptance_aborted`, cancels
+any never-submitted staged children, and retains candidate-only artifacts and
+unstaged selections in an auditable partition. Repository validation and normal
+later work can then continue. No missing tasks are created, and the full allocation
+and every selected original task ID remain permanently consumed.
+
+If the abort itself is interrupted (`acceptance_aborting`), repeat **cancel** for
+the same campaign to finish only its recorded cancellation. If a local CLI abort
+created a commit but its final push failed, its retry must not claim success while
+that commit is unpublished: retain that checkout for audit and rerun cancel from
+a fresh `main` checkout (the Actions workflow already uses a fresh checkout). Unexpected batch,
+paid-attempt, result, altered-candidate or foreign-history evidence causes a
+read-only rejection; inspect the evidence instead of deleting history or resetting
+flags. There is no automatic acceptance resume or refund. The equivalent trusted,
+durable CLI operation is `python -m berean_translation cancel --campaign <id> --publish`.
 
 **Cancel:** run **AI — Collect and discover**, operation **cancel**, and supply the campaign ID from `STATUS.md`. The runtime checkpoints the owner's request, asks OpenAI to cancel submitted work, and prevents unsubmitted work from starting. OpenAI may charge for requests already completed; cancellation is not a refund. Existing good published translations remain intact.
 
