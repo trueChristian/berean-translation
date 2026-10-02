@@ -85,7 +85,7 @@ jobs:
           case "$OPERATION" in
             collect)
               # Leave half the job budget for setup, slow API I/O, durable
-              # checkpoints, validation, and the existing publication hooks.
+              # checkpoints and final validation.
               .venv/bin/python -m berean_translation tick --publish --wait-seconds 600 --poll-seconds 60
               ;;
             cancel)
@@ -99,49 +99,6 @@ jobs:
           esac
       - name: Validate the resulting runtime records
         run: .venv/bin/python -m berean_translation validate
-      # Runs here after validation/publication: GITHUB_TOKEN bot pushes do not
-      # start another push workflow. This explicit call handles that path.
-      - name: Check Remnant publishing token availability
-        if: github.ref == 'refs/heads/main' && (github.event_name != 'workflow_dispatch' || inputs.operation == 'collect')
-        id: remnant_config
-        env:
-          REMNANT_DISPATCH_TOKEN: ${{ secrets.REMNANT_DISPATCH_TOKEN }}
-        run: |
-          if [ -n "$REMNANT_DISPATCH_TOKEN" ]; then
-            echo 'configured=true' >> "$GITHUB_OUTPUT"
-          else
-            echo 'configured=false' >> "$GITHUB_OUTPUT"
-            echo '::warning::Remnant publishing skipped: REMNANT_DISPATCH_TOKEN is not configured.'
-            echo 'Remnant publishing skipped: REMNANT_DISPATCH_TOKEN is not configured.' >> "$GITHUB_STEP_SUMMARY"
-          fi
-      - name: Restore the last accepted Remnant display notification
-        if: github.ref == 'refs/heads/main' && steps.remnant_config.outputs.configured == 'true' && (github.event_name != 'workflow_dispatch' || inputs.operation == 'collect')
-        uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25 # v5.1.0
-        with:
-          path: .build/remnant-notified/state.json
-          key: remnant-notify-v1-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: remnant-notify-v1-
-      - name: Export a fresh website-facing publication
-        if: github.ref == 'refs/heads/main' && steps.remnant_config.outputs.configured == 'true' && (github.event_name != 'workflow_dispatch' || inputs.operation == 'collect')
-        run: |
-          set -euo pipefail
-          .venv/bin/python -m berean_translation export --source-checkout .build/source --output .build/remnant-export --base /
-      - name: Notify Remnant from the durable publishing path
-        if: github.ref == 'refs/heads/main' && steps.remnant_config.outputs.configured == 'true' && (github.event_name != 'workflow_dispatch' || inputs.operation == 'collect')
-        id: remnant_notify
-        env:
-          REMNANT_DISPATCH_TOKEN: ${{ secrets.REMNANT_DISPATCH_TOKEN }}
-        run: >-
-          python3 .github/remnant/dispatch.py notify
-          --repository trueChristian/berean-translation
-          --checkout . --export .build/remnant-export
-          --state .build/remnant-notified/state.json
-      - name: Remember only a successfully accepted notification
-        if: github.ref == 'refs/heads/main' && steps.remnant_config.outputs.configured == 'true' && (github.event_name != 'workflow_dispatch' || inputs.operation == 'collect') && steps.remnant_notify.outputs.sent == 'true'
-        uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5.1.0
-        with:
-          path: .build/remnant-notified/state.json
-          key: remnant-notify-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Retain recovery evidence after a failed checkpoint
         if: failure()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
