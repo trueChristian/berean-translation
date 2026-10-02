@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 3148
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 374,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2902,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2899,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3276
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, gedicht, strofe 5, regel 1",
+      "severity": "minor",
+      "source_quote": "This storm had removed all signs of the path,",
+      "suggested_fix": "Deze storm had alle tekens van het pad uitgewist,",
+      "translation_quote": "Deze storm had alle tekens van het pad weggevaagd,"
+    },
+    {
+      "location": "html, gedicht, strofe 7, regel 1",
+      "severity": "minor",
+      "source_quote": "Then a still, but strong voice spoke in my ear,",
+      "suggested_fix": "Toen sprak een zachte, maar krachtige stem in mijn oor,",
+      "translation_quote": "Toen klonk er een zachte, maar krachtige stem in mijn oor,"
+    },
+    {
+      "location": "html, gedicht, strofe 9, regel 2",
+      "severity": "minor",
+      "source_quote": "There it was! A cleft of light!",
+      "suggested_fix": "Daar was het! Een spleet van licht!",
+      "translation_quote": "Daar was het! Een opening van licht!"
+    },
+    {
+      "location": "html, gedicht, strofe 10, regel 2",
+      "severity": "major",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Geen seconde zou Ik je zijde verlaten.",
+      "translation_quote": "Geen seconde kon Ik je zijde verlaten."
+    },
+    {
+      "location": "html, gedicht, strofe 14, regels 1–2",
+      "severity": "major",
+      "source_quote": "This promise can also open to you, / The secrets that are hid 'midst the storm.",
+      "suggested_fix": "Deze belofte kan je ook toegang geven tot / de geheimen die midden in de storm verborgen liggen.",
+      "translation_quote": "Deze belofte kan je ook de geheimen onthullen / Die midden in de storm verborgen liggen."
+    }
+  ],
   "id": "6800bf296d1ada93d118f6785ebf259c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nld",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

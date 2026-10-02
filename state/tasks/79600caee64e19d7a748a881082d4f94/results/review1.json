@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "648c2e9c-62d2-43d2-9491-2cb9ab8b7ad8",
+    "response_id": "chatcmpl-EUc7Y33XVXZNHGkBWxqtu6XfreXEe",
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7702,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7699,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8509
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, terzo paragrafo",
+        "severity": "major",
+        "source_quote": "“sporting talent adds little to their honest pure worth as a human”",
+        "suggested_fix": "Replace “al loro autentico valore umano” with “al loro valore intrinseco e autentico come esseri umani”, preserving the distinction that athletic ability adds little to a person’s honest, inherent worth.",
+        "translation_quote": "“Ma il talento sportivo aggiunge ben poco al loro autentico valore umano.”"
+      },
+      {
+        "location": "HTML, paragrafo sulla mente e sui principi universali",
+        "severity": "major",
+        "source_quote": "“If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs”",
+        "suggested_fix": "Replace “a gorgheggiare” with “a cantare con lo jodel” (or another clear Italian equivalent); “gorgheggiare” means to sing with trills and loses the specific example of yodeling.",
+        "translation_quote": "“Se potessi insegnare al mio cane a gorgheggiare”"
+      },
+      {
+        "location": "HTML, paragrafo sulla coscienza sollecita",
+        "severity": "major",
+        "source_quote": "“Jacob’s aspirations for Rachael made him forget the seven years of labor.”",
+        "suggested_fix": "Correct “gli fecero dimenticare” to “lo fecero affrontare” or “gli fecero sopportare”: the source says Jacob’s aspirations enabled him to bear the seven years of labor, not forget them.",
+        "translation_quote": "“Le aspirazioni di Giacobbe per Rachele gli fecero dimenticare i sette anni di lavoro.”"
+      },
+      {
+        "location": "HTML, paragrafo su Golia e la fionda",
+        "severity": "major",
+        "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+        "suggested_fix": "Correct “una pistola da 45 mm” to “una pistola calibro .45” (or “una pistola da 11,4 mm”): the source refers to a .45-caliber handgun, not a 45-millimeter handgun.",
+        "translation_quote": "“la fionda di Davide aveva una potenza d’arresto pari a quella di una pistola da 45 mm”"
+      },
+      {
+        "location": "HTML, paragrafo finale prima della poesia",
+        "severity": "major",
+        "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+        "suggested_fix": "Replace “dalle barche da pesca dell’attività di Zebedeo… ai ragazzi del suo cuore” with a translation conveying the source’s contrast: “dalle barche dell’attività di Zebedeo… ai ragazzi stretti al suo cuore.” The current wording distorts both the boats belonging to Zebedee’s business and “boys of his bosom.”",
+        "translation_quote": "“dalle barche da pesca dell’attività di Zebedeo… ai ragazzi del suo cuore.”"
+      },
+      {
+        "location": "HTML, poesia, riga 1",
+        "severity": "major",
+        "source_quote": "“Shamgar had an oxgoad;”",
+        "suggested_fix": "Correct “Sanghar” to “Samgar” (or another conventional Italian form of Shamgar), preserving the identity of the biblical figure.",
+        "translation_quote": "“Sanghar aveva un pungolo per buoi;”"
+      },
+      {
+        "location": "HTML, poesia, riga 4",
+        "severity": "major",
+        "source_quote": "“Rahab had a string;”",
+        "suggested_fix": "Replace “Raab” with the conventional Italian form “Rahab” (or “Raab” only if this is the established spelling used consistently in the target edition); ensure it identifies the biblical figure Rahab.",
+        "translation_quote": "“Raab aveva una corda;”"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

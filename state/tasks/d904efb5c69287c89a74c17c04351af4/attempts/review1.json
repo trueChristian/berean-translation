@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph under “Κατανοήστε ότι πιθανότατα θα υπάρχει πόνος”\",\"severity\":\"minor\",\"source_quote\":\"“specifically designed to treat the pain and other symptoms, usually of a terminally ill patient”\",\"suggested_fix\":\"For clearer Greek grammar, change «συνήθως ασθενών με ανίατη ασθένεια» to «που συνήθως εμφανίζονται σε ασθενείς με ανίατη ασθένεια».\",\"translation_quote\":\"«ειδικά σχεδιασμένο για την αντιμετώπιση του πόνου και άλλων συμπτωμάτων, συνήθως ασθενών με ανίατη ασθένεια»\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 753,
+    "content_evidence_truncated": false,
+    "content_sha256": "6a0a4a7ddf3e80194e188faa102f4206abccd2854c066425cc5ea1f789159fca",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8786,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8783,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9471
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

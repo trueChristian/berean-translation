@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, parágrafo sobre a cobertura da cabeça\",\"severity\":\"major\",\"source_quote\":\"Some even put it all the way on the back of the head and color it the same as their hair\",\"suggested_fix\":\"Substitua «a tingem da mesma cor do cabelo» por «a escolhem da mesma cor do cabelo», preservando o sentido de que a cobertura é feita ou escolhida para combinar com a cor do cabelo.\",\"translation_quote\":\"Alguns até a colocam bem atrás da cabeça e a tingem da mesma cor do cabelo\"},{\"location\":\"source.html, parágrafo sobre a graça\",\"severity\":\"major\",\"source_quote\":\"It causes one to love their God with all their heart\",\"suggested_fix\":\"Substitua «ame a Deus» por «ame o seu Deus» para preservar a referência explícita ao Deus da pessoa.\",\"translation_quote\":\"Faz com que ame a Deus de todo o coração\"},{\"location\":\"source.html, parágrafo sobre Davi e Golias, resposta de Eliabe\",\"severity\":\"major\",\"source_quote\":\"“I know thy pride.”\",\"suggested_fix\":\"Substitua «Conheço o teu orgulho» por «Sei como és presunçoso» ou formulação equivalente que atribua a Eliabe uma acusação de orgulho, não apenas conhecimento do orgulho de Davi.\",\"translation_quote\":\"“Conheço o teu orgulho.”\"},{\"location\":\"source.html, parágrafo sobre a confiança de Davi\",\"severity\":\"major\",\"source_quote\":\"David was not concerned that he was “but a youth” and he did not understand why people questioned him.\",\"suggested_fix\":\"Substitua «não entendia por que as pessoas questionavam sua capacidade» por «não entendia por que as pessoas o questionavam», sem acrescentar que a dúvida delas dizia respeito especificamente à sua capacidade.\",\"translation_quote\":\"Davi não estava preocupado por ser “apenas um jovem” e não entendia por que as pessoas questionavam sua capacidade.\"},{\"location\":\"source.html, parágrafo sobre a obra sobrenatural de Deus\",\"severity\":\"major\",\"source_quote\":\"we now must boast of what God has done!\",\"suggested_fix\":\"Substitua «temos de nos gloriar no que Deus fez» por «temos de nos gloriar do que Deus fez», preservando o sentido de proclamar aquilo que Deus realizou.\",\"translation_quote\":\"quando se trata de uma obra sobrenatural de Deus, agora temos de nos gloriar no que Deus fez!\"},{\"location\":\"source.html, parágrafo da pergunta sobre ser justo\",\"severity\":\"major\",\"source_quote\":\"“So, we should go around boasting about how righteous we are?”\",\"suggested_fix\":\"Substitua «nos gabando de como somos justos» por «nos gabando da nossa justiça» ou expressão equivalente que mantenha o foco em quão justos somos, sem sugerir que nos gabamos de como nos tornamos justos.\",\"translation_quote\":\"“Então, devemos sair por aí nos gabando de como somos justos?”\"},{\"location\":\"source.title\",\"severity\":\"minor\",\"source_quote\":\"Pride or Humility?\",\"suggested_fix\":\"Use capitalização consistente com o título em português: «Orgulho ou humildade?»\",\"translation_quote\":\"Orgulho ou humildade?\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 3023,
+    "content_evidence_truncated": false,
+    "content_sha256": "dc3155902fb4ce0ea75ed554ee38f10b3a24053479b87d77bee15271759b538f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7958,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7955,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8650
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

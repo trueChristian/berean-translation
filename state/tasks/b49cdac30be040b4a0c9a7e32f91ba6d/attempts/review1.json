@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “Then David said”; Scripture quotation 1 Samuel 17:45\",\"severity\":\"major\",\"source_quote\":\"“Thou comest to me with a sword, and with a spear, and with a shield”\",\"suggested_fix\":\"将“你来攻击我，是靠着刀枪和铜戟”改为“你来攻击我，是靠着刀、枪和盾牌”，保留原文列出的三种兵器，不要把盾牌改成铜戟。\",\"translation_quote\":\"“你来攻击我，是靠着刀枪和铜戟”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 523,
+    "content_evidence_truncated": false,
+    "content_sha256": "c54f9fe8fd7a92065ab44b50e9ad3f3802b20ea30d8b649f29309fd83ab4ffa0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 639,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8131,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8128,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8932
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

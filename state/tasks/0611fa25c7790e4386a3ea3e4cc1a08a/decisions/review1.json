@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza beginning “My child, fear not”",
+      "severity": "minor",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Replace “צידך” with “לצדך” to correctly say “by your side”: “אפילו לרגע לא עזבתי את לצדך” is not grammatical; use “אפילו לרגע לא עזבתי אותך, ונשארתי לצדך” or, more narrowly, “אפילו לרגע לא משתי לצדך.”",
+      "translation_quote": "אפילו לרגע לא עזבתי את צידך."
+    },
+    {
+      "location": "HTML, stanza beginning “But here I have placed My rainbow”",
+      "severity": "major",
+      "source_quote": "You can see that My promise is certain.",
+      "suggested_fix": "Replace “שהבטחתי בטוחה” with “שהבטחתי ודאית” or “שההבטחה שלי ודאית” so the line clearly says that the promise is certain.",
+      "translation_quote": "תוכל לראות שהבטחתי בטוחה."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

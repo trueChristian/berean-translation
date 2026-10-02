@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "shairi, ubeti wa pili, mstari wa tatu",
+      "severity": "minor",
+      "source_quote": "All around the storm was raging,",
+      "suggested_fix": "Dhoruba ilikuwa ikivuma kwa nguvu kila upande,",
+      "translation_quote": "Dhoruba ilikuwa ikivuma kila upande,"
+    },
+    {
+      "location": "shairi, ubeti wa nane, mstari wa pili",
+      "severity": "minor",
+      "source_quote": "A rainbow shone through, of loveliest hue,",
+      "suggested_fix": "Upinde wa mvua ulipenya na kung’aa kwa rangi nzuri mno,",
+      "translation_quote": "Upinde wa mvua uliangaza, ukiwa na rangi nzuri mno,"
+    },
+    {
+      "location": "shairi, ubeti wa kumi na nne, mstari wa tatu",
+      "severity": "minor",
+      "source_quote": "The fears and dangers surrounding,",
+      "suggested_fix": "Hofu na hatari zinazokuzunguka,",
+      "translation_quote": "Hofu na hatari zinazokuzunguka,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

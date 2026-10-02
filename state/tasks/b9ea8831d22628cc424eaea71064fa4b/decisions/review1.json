@@ -1,0 +1,91 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Absatz 1",
+      "severity": "major",
+      "source_quote": "“ship will come in”",
+      "suggested_fix": "Ersetzen durch „unser Schiff eines Tages in den Hafen einläuft“ oder eine gleichwertige deutsche Redewendung für den erhofften Glücksfall, ohne den Sinn „dass sich eines Tages das Glück wendet“ zu verlieren.",
+      "translation_quote": "„Schiff einläuft“ und „sich die Dinge auf ähnliche Weise wenden“"
+    },
+    {
+      "location": "HTML, Absatz 2",
+      "severity": "minor",
+      "source_quote": "“an awkward and skewed description of our person”",
+      "suggested_fix": "„ein unbeholfenes und verzerrtes Bild von uns“ statt „ein unbeholfenes und verzerrtes Bild unserer Person“.",
+      "translation_quote": "„ein unbeholfenes und verzerrtes Bild unserer Person“"
+    },
+    {
+      "location": "HTML, Absatz 4",
+      "severity": "major",
+      "source_quote": "“the Lord was his Shepherd, and he had no lack”",
+      "suggested_fix": "„Der Herr war sein Hirte, und es mangelte ihm an nichts“ statt „Der Herr war sein Hirte, und es fehlte ihm an nichts“ ist bereits inhaltlich gleichwertig; keine Korrektur erforderlich.",
+      "translation_quote": "„Der Herr war sein Hirte, und es fehlte ihm an nichts“"
+    },
+    {
+      "location": "HTML, Absatz 5",
+      "severity": "major",
+      "source_quote": "“King Saul had offered tax exempt wealth and son-in-law status”",
+      "suggested_fix": "„König Saul hatte steuerfreien Reichtum und die Stellung als Schwiegersohn angeboten“; die Übersetzung fügt „Steuerfreiheit“ als eigenes Angebot hinzu und trennt „Reichtum“ davon, obwohl der Ausgangstext steuerbefreiten Reichtum bezeichnet.",
+      "translation_quote": "„König Saul hatte Steuerfreiheit, Reichtum und die Stellung als Schwiegersohn angeboten“"
+    },
+    {
+      "location": "HTML, Absatz 9",
+      "severity": "major",
+      "source_quote": "“The cowering beliefs of the Israelite army were rooted in a pagan value system.”",
+      "suggested_fix": "„Die ängstlichen Überzeugungen des israelitischen Heeres wurzelten in einem heidnischen Wertesystem.“ ist inhaltlich angemessen; kein Fehler.",
+      "translation_quote": "„Die ängstlichen Überzeugungen des israelitischen Heeres wurzelten in einem heidnischen Wertesystem.“"
+    },
+    {
+      "location": "HTML, Absatz 10",
+      "severity": "major",
+      "source_quote": "“the stopping power of a 45 mm handgun”",
+      "suggested_fix": "„die Stoppwirkung einer 45-mm-Handfeuerwaffe“ statt „die Durchschlagskraft einer 45-mm-Handfeuerwaffe“, da der Ausgangstext die stoppende Wirkung, nicht die Durchschlagskraft, behauptet.",
+      "translation_quote": "„die Durchschlagskraft einer 45-mm-Handfeuerwaffe“"
+    },
+    {
+      "location": "HTML, Absatz 11",
+      "severity": "major",
+      "source_quote": "“Faithful Action”",
+      "suggested_fix": "Die Überschrift als „Glaubenstreues Handeln“ oder „Handeln in Treue“ wiedergeben; „Gehorsames Handeln“ ersetzt Treue durch Gehorsam und verändert den Schwerpunkt.",
+      "translation_quote": "„Gehorsames Handeln“"
+    },
+    {
+      "location": "HTML, Absatz 11",
+      "severity": "major",
+      "source_quote": "“His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.”",
+      "suggested_fix": "„Sein Adrenalin strömte, als er Davids Jugend verspottete, voreilige Schlüsse zog, sich leicht beleidigen ließ und über die Unwissenheit anderer staunte.“",
+      "translation_quote": "„Sein Adrenalin strömte, als er Davids Jugend verspottete, voreilige Schlüsse zog, sich leicht beleidigt fühlte und über die Unwissenheit anderer staunte.“"
+    },
+    {
+      "location": "HTML, Absatz 12",
+      "severity": "major",
+      "source_quote": "“Joseph could not change his brothers’ reception, his master’s wife’s deception, the jail’s seclusion, or the butler’s delusion.”",
+      "suggested_fix": "„Josef konnte weder den Empfang durch seine Brüder noch die Täuschung durch die Frau seines Herrn, die Abgeschlossenheit des Gefängnisses oder den Irrtum des Mundschenks ändern.“ „Wahnvorstellungen“ verstärkt „delusion“ zu psychotischen Vorstellungen und passt nicht zum Wortspiel im Kontext.",
+      "translation_quote": "„Josef konnte weder die Reaktion seiner Brüder ändern noch die Täuschung der Frau seines Herrn, die Abgeschiedenheit des Gefängnisses oder die Wahnvorstellungen des Mundschenks.“"
+    },
+    {
+      "location": "HTML, Absatz 13",
+      "severity": "major",
+      "source_quote": "“the boys of his bosom”",
+      "suggested_fix": "Die Schlussphrase als „bis zu den Jungen an seiner Brust“ ist missverständlich; eine knappe, sinngemäße Wiedergabe sollte das Bild von Kindern/Jungen in Gottes Nähe oder an seiner Brust bewahren, ohne „Jungen“ als konkrete Werkzeuge auszugeben.",
+      "translation_quote": "„bis zu den Jungen an seiner Brust“"
+    },
+    {
+      "location": "HTML, Gedicht",
+      "severity": "major",
+      "source_quote": "“Samson had a jawbone”",
+      "suggested_fix": "„Simson hatte einen Kinnbacken“ oder „einen Eselskinnbacken“ verwenden; der Ausgangstext nennt nicht ausdrücklich einen Esel, daher diese Ergänzung vermeiden.",
+      "translation_quote": "„Simson hatte einen Eselskinnbacken“"
+    },
+    {
+      "location": "HTML, Gedicht",
+      "severity": "major",
+      "source_quote": "“And all were used for God!”",
+      "suggested_fix": "„Und alles wurde von Gott gebraucht!“ oder „Und alles wurde für Gott eingesetzt!“; „alles wurde für Gott gebraucht“ kann bedeuten, dass Gott selbst alles benötigte, während der Text sagt, dass die genannten Dinge für Gottes Zweck eingesetzt wurden.",
+      "translation_quote": "„Und alles wurde für Gott gebraucht!“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7480
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 381,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7307,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7304,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7688
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML，第8段，全球经济数据",
+      "severity": "major",
+      "source_quote": "the median global GDP dropped by 3.9% from 2019 to 2020, making it the worst economic downturn since the Great Depression, creating a global recession that is the deepest since the end of World War 2.",
+      "suggested_fix": "改为：“国际货币基金组织（IMF）近期的数据估计，全球GDP中位数在2019年至2020年间下降了3.9%，这使其成为大萧条以来最严重的经济下滑，并造成了自第二次世界大战结束以来最严重的全球衰退。”",
+      "translation_quote": "全球GDP中位数从2019年到2020年下降了3.9%，使这成为自大萧条以来最严重的经济衰退，并造成一场全球性衰退，其程度为第二次世界大战结束以来最深。"
+    },
+    {
+      "location": "HTML，诗篇20:7-8引用",
+      "severity": "major",
+      "source_quote": "…trust in chariots, and some in horses: Psalm 20:7a, then their outcome will be that They are brought down and [are] fallen… –Psalm 20:8a.",
+      "suggested_fix": "将“他们都屈身仆倒”改为“他们都屈身仆倒了”，准确保留“are brought down and [are] fallen”的完成状态；例如：“他们都被压倒，仆倒了……”",
+      "translation_quote": "有人靠车，有人靠马——诗篇 20:7a，……他们都屈身仆倒……——诗篇 20:8a。"
+    }
+  ],
   "id": "066ef6704fda5f50904913f8b5aa5bd4",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "cmn",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

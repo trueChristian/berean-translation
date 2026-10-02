@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1c9216a9-450e-49fa-95ed-51cd8add4290",
+    "response_id": "chatcmpl-EUc85PPWwyN2hFB76J6K3golriin0",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3062,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3059,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3291
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "shairi, ubeti wa pili, mstari wa tatu",
+        "severity": "minor",
+        "source_quote": "All around the storm was raging,",
+        "suggested_fix": "Dhoruba ilikuwa ikivuma kwa nguvu kila upande,",
+        "translation_quote": "Dhoruba ilikuwa ikivuma kila upande,"
+      },
+      {
+        "location": "shairi, ubeti wa nane, mstari wa pili",
+        "severity": "minor",
+        "source_quote": "A rainbow shone through, of loveliest hue,",
+        "suggested_fix": "Upinde wa mvua ulipenya na kung’aa kwa rangi nzuri mno,",
+        "translation_quote": "Upinde wa mvua uliangaza, ukiwa na rangi nzuri mno,"
+      },
+      {
+        "location": "shairi, ubeti wa kumi na nne, mstari wa tatu",
+        "severity": "minor",
+        "source_quote": "The fears and dangers surrounding,",
+        "suggested_fix": "Hofu na hatari zinazokuzunguka,",
+        "translation_quote": "Hofu na hatari zinazokuzunguka,"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

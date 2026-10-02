@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"פסקה 2, הציטוט מתהילים 40:4\",\"severity\":\"major\",\"source_quote\":\"Psalms 40:4 says He will not respect the proud\",\"suggested_fix\":\"החליפו את „לא יפנה אל הגאים” בניסוח שמשמר את המשמעות „לא יראה חן בגאים” או „לא יכבד את הגאים”, בלי לשנות את ההפניה תהילים 40:4.\",\"translation_quote\":\"תהילים 40:4 אומר שהוא לא יפנה אל הגאים\"},{\"location\":\"פסקה 10, משל אלעזר\",\"severity\":\"major\",\"source_quote\":\"If Lazarus walked around boasting of himself for being raised from the dead\",\"suggested_fix\":\"החליפו את „אילו אלעזר” ב„אילו לזרוס” או בצורה עברית מקובלת אחרת לשם Lazarus, כדי לשמר את הדוגמה על לזרוס שקם מן המתים ולא על אלעזר.\",\"translation_quote\":\"אילו אלעזר היה מסתובב ומתרברב בכך שקם מן המתים\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1037,
+    "content_evidence_truncated": false,
+    "content_sha256": "3d40158ccddf1882bdcdcd611f1ad17257690f2c5af6922750c9b71ebb5ccee9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 253,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8121,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8118,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8374
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"poem paragraph 6, line 1\",\"severity\":\"major\",\"source_quote\":\"At the end of myself, I cried out in fear...\",\"suggested_fix\":\"Replace this line with: \\\"जब मैं पूरी तरह असहाय हो गया, तो भय से पुकार उठा...\\\"\",\"translation_quote\":\"जब मैं अपनी सारी शक्ति खो बैठा, तो भय से पुकार उठा...\"},{\"location\":\"poem paragraph 10, line 2\",\"severity\":\"major\",\"source_quote\":\"Not for a second could I leave your side.\",\"suggested_fix\":\"Replace this line with: \\\"एक पल के लिए भी मैं तेरा साथ नहीं छोड़ूँगा।\\\"\",\"translation_quote\":\"एक पल के लिए भी मैं तेरा साथ नहीं छोड़ सकता था।\"},{\"location\":\"poem paragraph 13, line 4\",\"severity\":\"major\",\"source_quote\":\"Will then be held at bay.\",\"suggested_fix\":\"Replace this line with: \\\"तब दूर ही थामे रहेंगे।\\\"\",\"translation_quote\":\"तब तुझसे दूर ही रहेंगे।\"},{\"location\":\"poem paragraph 14, line 4\",\"severity\":\"major\",\"source_quote\":\"When these to My will conform.\",\"suggested_fix\":\"Replace this line with: \\\"जब ये मेरी इच्छा के अनुरूप होते हैं।\\\"\",\"translation_quote\":\"जब ये मेरी इच्छा के अधीन होते हैं।\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 1554,
+    "content_evidence_truncated": false,
+    "content_sha256": "a42f6318dfd7bf1e06f718c9c1c778928948b31e92cea1ddbfde4f12aaad80e1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 299,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3090,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3087,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3389
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

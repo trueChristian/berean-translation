@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 7542
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 669,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7319,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7316,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7988
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, parágrafo sobre Salmo 20:7–8",
+      "severity": "major",
+      "source_quote": "“They are brought down and [are] fallen” and “we are risen, and [will] stand upright”",
+      "suggested_fix": "Substitua “eles se encurvam e caem” por “eles são derrubados e caem”; e “nos levantaremos e permaneceremos de pé” por “somos levantados e ficamos de pé”, mantendo os números e as posições das referências.",
+      "translation_quote": "“eles se encurvam e caem… –Salmo 20:8a” e “nos levantaremos e permaneceremos de pé –Salmo 20:8b”"
+    },
+    {
+      "location": "HTML, parágrafo sobre Lucas 21:26 e Apocalipse 9:4–6",
+      "severity": "major",
+      "source_quote": "“Men’s hearts [are] failing them for fear” and “those men which have not the seal of God in their foreheads … should be tormented five months … and shall desire to die, and death shall flee from them”",
+      "suggested_fix": "Traduza a primeira frase preservando a imagem de corações que desfalecem de medo. Na citação de Apocalipse, mantenha a afirmação de que os que não têm o selo seriam atormentados por cinco meses e desejarão morrer, mas a morte fugirá deles; não substitua isso por “desmaiarão de terror” nem altere os tempos verbais da citação.",
+      "translation_quote": "“os homens desmaiarão de terror” e “aqueles homens que não têm o selo de Deus na testa … seriam atormentados durante cinco meses … e desejarão morrer, mas a morte fugirá deles”"
+    },
+    {
+      "location": "HTML, citação de Apocalipse 6:15–17",
+      "severity": "major",
+      "source_quote": "“from the wrath of the Lamb” e “the great day of his wrath”",
+      "suggested_fix": "Altere “da ira deles” para “da ira do Cordeiro”, preservando o referente explícito da fonte.",
+      "translation_quote": "“da ira do Cordeiro” e “chegou o grande dia da ira deles”"
+    },
+    {
+      "location": "HTML, parágrafo sobre as perguntas para apoiar alguém em dificuldade",
+      "severity": "major",
+      "source_quote": "“What can I do that would be a help or an encouragement to you”",
+      "suggested_fix": "Substitua “ajudá-lo ou encorajá-lo” por uma formulação que preserve o tratamento por “você”, como “ajudar você ou encorajá-lo”, ajustando a concordância para não presumir o gênero da pessoa.",
+      "translation_quote": "“O que posso fazer para ajudá-lo ou encorajá-lo enquanto você passa por essa experiência difícil?”"
+    },
+    {
+      "location": "HTML, metadado title",
+      "severity": "minor",
+      "source_quote": "“From the Editor”",
+      "suggested_fix": "Use “Do Editor” ou “Da Editora”, conforme o gênero pretendido para “editor”; mantenha a forma escolhida coerente com a seção.",
+      "translation_quote": "“Do Editor”"
+    }
+  ],
   "id": "1a820d57e4dc8e2571a360ec1b49c86c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "por",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

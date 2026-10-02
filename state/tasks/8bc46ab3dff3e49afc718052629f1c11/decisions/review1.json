@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Lead paragraph",
+      "severity": "major",
+      "source_quote": "She did not have any condition that would normally be considered terminal.",
+      "suggested_fix": "Ändra till: ”Hon hade inte heller något tillstånd som normalt betraktas som terminalt.”",
+      "translation_quote": "Hon hade inte heller någon sjukdom som normalt betraktas som obotlig."
+    },
+    {
+      "location": "Paragraph beginning “In Canada…”",
+      "severity": "major",
+      "source_quote": "it is not necessary to have a terminal condition to ask for help to go through with physician-assisted suicide.",
+      "suggested_fix": "Ändra till: ”I Kanada behöver man dock inte ha ett terminalt tillstånd för att be om hjälp att genomföra ett läkarassisterat självmord.”",
+      "translation_quote": "I Kanada behöver man dock inte ha en obotlig sjukdom för att be om hjälp att genomföra ett läkarassisterat självmord."
+    },
+    {
+      "location": "“End of Life” section, paragraph beginning “It is difficult…”",
+      "severity": "major",
+      "source_quote": "Some terminal illnesses, like cancer with bony metastases, can cause large amounts of pain.",
+      "suggested_fix": "Ändra till: ”Vissa terminala sjukdomar, som cancer med metastaser i skelettet, kan orsaka mycket smärta.”",
+      "translation_quote": "Vissa obotliga sjukdomar, som cancer med metastaser i skelettet, kan orsaka mycket smärta."
+    },
+    {
+      "location": "“Understand that There Will Likely be Pain” section, first paragraph",
+      "severity": "major",
+      "source_quote": "usually of a terminally ill patient",
+      "suggested_fix": "Ändra till: ”vanligtvis hos en patient i livets slutskede” (eller annan idiomatisk formulering som bevarar betydelsen av terminalt sjuk).",
+      "translation_quote": "vanligtvis hos en obotligt sjuk patient"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

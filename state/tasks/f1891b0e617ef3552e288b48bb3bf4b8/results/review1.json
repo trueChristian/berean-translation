@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f3e7e139-eba7-47cf-831d-96301f215671",
+    "response_id": "chatcmpl-EUc7klj0b9ymJ0HvI2xpG7DoVLYwA",
+    "usage": {
+      "completion_tokens": 374,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8342,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8719
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Let us look first at Law and Grace”",
+        "severity": "major",
+        "source_quote": "Someone that is under the law does not desire to do what he must do, but rather, he does it because of the law.",
+        "suggested_fix": "Change “tidak ingin melakukan apa yang harus dilakukannya” to “tidak ingin melakukan apa yang harus dilakukannya, tetapi melakukannya karena hukum” only if needed for clarity; the current translation preserves the source meaning.",
+        "translation_quote": "Orang yang berada di bawah hukum tidak ingin melakukan apa yang harus dilakukannya, melainkan melakukannya karena hukum."
+      },
+      {
+        "location": "source.html, paragraph beginning “Let us look at grace”",
+        "severity": "major",
+        "source_quote": "You are not your own and you desire to be all you can be for your Savior who died for you.",
+        "suggested_fix": "Replace “Kamu bukan milikmu sendiri” with “Kamu bukan milikmu sendiri” only if retaining the idiom; otherwise, use “Kamu bukan milik dirimu sendiri,” preserving the meaning that the person belongs to another.",
+        "translation_quote": "Kamu bukan milikmu sendiri dan ingin melakukan segala yang kamu mampu bagi Juruselamatmu yang telah mati untukmu."
+      },
+      {
+        "location": "source.html, paragraph beginning “A poor criminal who has only known the city streets as home”",
+        "severity": "major",
+        "source_quote": "God saves him, transforms him, converts him.",
+        "suggested_fix": "Replace “membarui dirinya” with “mempertobatkannya” to preserve the distinct assertion that God converts him.",
+        "translation_quote": "Allah menyelamatkannya, mengubahnya, dan membarui dirinya."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

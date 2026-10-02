@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Dit is belangrik dat ons voortgaan…”",
+      "severity": "major",
+      "source_quote": "“even if we are dealing with a terminal illness.”",
+      "suggested_fix": "Translate the English phrase as “selfs al gaan ons deur ’n terminale siekte.”",
+      "translation_quote": "“even al gaan ons deur ’n terminale siekte.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

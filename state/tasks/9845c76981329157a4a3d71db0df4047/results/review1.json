@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4f8d8ae6-0ede-47f6-a659-fcb80069956e",
+    "response_id": "chatcmpl-EUc7gqMBp8MHeq6bCVtkd1JmKOTk2",
+    "usage": {
+      "completion_tokens": 266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3246,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3515
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “«Εντάξει»”",
+        "severity": "major",
+        "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight to let them know we’re coming.”",
+        "suggested_fix": "Replace «Πέιτ» with a Greek transliteration matching the surname Peight, such as «Πάιτ», in this paragraph and elsewhere in the article.",
+        "translation_quote": "«Θα κανονίσω να στείλω ένα γράμμα στον αδελφό Όσκαρ Πέιτ για να τους ενημερώσω ότι ερχόμαστε»."
+      },
+      {
+        "location": "Article, paragraph beginning “Την επόμενη Πέμπτη”",
+        "severity": "major",
+        "source_quote": "“The next Thursday found the Coblentz family heading for Pennsylvania.”",
+        "suggested_fix": "Correct the surname transliteration «Κόμπλεντς» to a closer rendering of Coblentz, such as «Κόμπλεντζ».",
+        "translation_quote": "Την επόμενη Πέμπτη, η οικογένεια Κόμπλεντς ξεκίνησε για την Πενσιλβάνια."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

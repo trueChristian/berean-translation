@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "النص، الفقرة التي تقترح زيارة جماعة Bethel Fellowship",
+      "severity": "major",
+      "source_quote": "“Why don’t we plan to visit the congregation at Bethel Fellowship next Sunday then?”",
+      "suggested_fix": "استبدل «جماعة بيت إيل» بـ«جماعة زمالة بيت إيل» للحفاظ على اسم Bethel Fellowship، لا Bethel وحده.",
+      "translation_quote": "«فلماذا لا نخطط لزيارة جماعة بيت إيل يوم الأحد المقبل إذن؟»"
+    },
+    {
+      "location": "النص، الفقرة التي تذكر إرسال الرسالة إلى الأخ أوسكار",
+      "severity": "major",
+      "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight to let them know we’re coming.”",
+      "suggested_fix": "استخدم «الأخ أوسكار بايت» بصورة متسقة في هذا الموضع والموضعين اللاحقين اللذين ورد فيهما اسمه، وصحّح الضمير إلى المفرد: «لأخبره بأننا قادمون».",
+      "translation_quote": "«سأخطط لإرسال رسالة إلى الأخ أوسكار بايت لأخبرهم بأننا قادمون.»"
+    },
+    {
+      "location": "النص، فقرة وصول الأسرة إلى المنزل",
+      "severity": "minor",
+      "source_quote": "“then drove in their lane.”",
+      "suggested_fix": "لإبقاء معنى lane في سياق القيادة إلى المنزل، استبدل «في الممر المؤدي إلى المنزل» بـ«في الممر الخاص بمنزلهم».",
+      "translation_quote": "«وقادت سيارتها في الممر المؤدي إلى المنزل.»"
+    },
+    {
+      "location": "النص، فقرة العشاء التي تذكر وصول الرسالة إلى الأخ أوسكار",
+      "severity": "major",
+      "source_quote": "“If that letter would have reached Brother Oscars, they would have been preparing for us.”",
+      "suggested_fix": "استخدم «لو وصلت الرسالة إلى الأخ أوسكار، لكان يستعد لاستقبالنا»؛ فالمصدر يذكر أوسكار بصيغة المفرد، ولا يذكر إخوته أو جماعةً تستعد نيابةً عنه.",
+      "translation_quote": "«فلو وصلت الرسالة إلى الأخ أوسكار، لكانوا يستعدون لاستقبالنا.»"
+    },
+    {
+      "location": "النص، فقرة إرجاع الرسالة",
+      "severity": "minor",
+      "source_quote": "“Why ever had it been returned?”",
+      "suggested_fix": "صياغة أوضح للسؤال: «لماذا أُعيدت الرسالة؟»",
+      "translation_quote": "«لماذا أُعيدت إليه؟»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a6fff336-e813-469b-ae8b-3700ab09c8d4",
+    "response_id": "chatcmpl-EUc7al0jJ3m2aA3iNZwxPdqcFIQyn",
+    "usage": {
+      "completion_tokens": 1126,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1002,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10839,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11968
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second bullet under “Er zijn enkele uitzonderingen op het Bijbelse ideaal”",
+        "severity": "minor",
+        "source_quote": "This is the Scriptural passage that frees the innocent spouse from biblical guilt",
+        "suggested_fix": "Change “Dit is de Schriftgedeelte” to “Dit is het Schriftgedeelte”.",
+        "translation_quote": "Dit is de Schriftgedeelte dat de onschuldige echtgenoot vrijwaart van Bijbelse schuld"
+      }
+    ],
+    "passed": true,
+    "score": 99
+  }
+}

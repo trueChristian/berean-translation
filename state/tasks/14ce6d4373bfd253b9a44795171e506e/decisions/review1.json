@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem paragraph beginning “At the end of myself”",
+      "severity": "major",
+      "source_quote": "“My precious child, look up.” / “I felt all alone”",
+      "suggested_fix": "Replace “Hija preciosa” with a gender-neutral form such as “Criatura preciosa” and replace “me sentí completamente sola” with “me sentí completamente sin compañía,” preserving that the English does not specify the speaker’s gender.",
+      "translation_quote": "«Hija preciosa, mira hacia arriba». / «…me sentí completamente sola»"
+    },
+    {
+      "location": "HTML, poem paragraph beginning “My child, fear not” and final poem paragraph",
+      "severity": "major",
+      "source_quote": "“My child, fear not…” / “So, My child, gaze long at the rainbow.”",
+      "suggested_fix": "Replace “Hija mía” in both places with a gender-neutral form such as “Criatura mía” so the translation does not assign the speaker a gender that the source leaves unspecified.",
+      "translation_quote": "«Hija mía, no temas…» / «Así que, hija mía, contempla largamente el arcoíris.»"
+    },
+    {
+      "location": "HTML, poem paragraph beginning “Not only was the danger around me”",
+      "severity": "minor",
+      "source_quote": "“Not knowing how next to begin.”",
+      "suggested_fix": "Replace “Sin saber cómo empezar de nuevo” with “Sin saber cómo seguir adelante” to avoid adding the sense of starting over.",
+      "translation_quote": "“Sin saber cómo empezar de nuevo.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "27b815e9-6436-4fae-93c8-7d4b76350298",
+    "response_id": "chatcmpl-EUc7dEp030AOvrS3iy31HHpEvSLq2",
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 487,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7982,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7979,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8804
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “One specific thing…”",
+        "severity": "major",
+        "source_quote": "“broken relationships and emotional/mental struggles within the plain communities”",
+        "suggested_fix": "Replace “emosionele/geestelike probleme” with “emosionele-/geestesgesondheidsprobleme” to convey emotional and mental-health struggles, not spiritual problems.",
+        "translation_quote": "“gebroke verhoudings en emosionele/geestelike probleme binne die plain-gemeenskappe”"
+      },
+      {
+        "location": "Article body, Matthew 16:24–26 quotation",
+        "severity": "major",
+        "source_quote": "“For what is a man profited, if he shall gain the whole world, and lose his own soul?”",
+        "suggested_fix": "Replace “maar aan sy siel skade ly” with “maar sy eie siel verloor” so the quotation says that the person loses their soul, rather than suffers harm to it.",
+        "translation_quote": "“Want wat baat dit ’n mens as hy die hele wêreld win, maar aan sy siel skade ly?”"
+      },
+      {
+        "location": "Article body, paragraph beginning “One specific thing…”",
+        "severity": "minor",
+        "source_quote": "“within the plain communities”",
+        "suggested_fix": "Use a clear Afrikaans rendering of “plain communities” appropriate to the community meant, rather than leaving “plain” in English; for example, “binne die konserwatiewe Anabaptistiese gemeenskappe” if that is the intended reference.",
+        "translation_quote": "“binne die plain-gemeenskappe”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

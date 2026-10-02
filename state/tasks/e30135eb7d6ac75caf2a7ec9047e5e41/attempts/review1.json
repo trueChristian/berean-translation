@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Первый абзац после цитаты; затем абзац, начинающийся «Когда Давид рано утром…»\",\"severity\":\"major\",\"source_quote\":\"“over three millenniums ago”; “his pack of corn, bread, and cheese”\",\"suggested_fix\":\"Заменить «более трёх тысяч лет назад» на «более трёх тысячелетий назад»; «мешок с зерном, хлебом и сыром» — на «сумку с зерном, хлебом и сыром» (или «мешок с кукурузой, хлебом и сыром», если сохранить выбранное значение corn).\",\"translation_quote\":\"«более трёх тысяч лет назад»; «мешок с зерном, хлебом и сыром»\"},{\"location\":\"Абзац с цитатой из Евреям 12:2\",\"severity\":\"major\",\"source_quote\":\"“who for the joy that was set before him”\",\"suggested_fix\":\"Перевести смысл напечатанной английской цитаты: например, «Который ради предлежавшей Ему радости…». Не заменять его другим вариантом цитаты, меняющим смысл.\",\"translation_quote\":\"«Который вместо предлежавшей Ему радости»\"},{\"location\":\"Абзац о спортивной арене\",\"severity\":\"minor\",\"source_quote\":\"“stressed parents”\",\"suggested_fix\":\"Заменить «родителей, измученных стрессом» на более естественное «родителей, испытывающих стресс» или «родителей, находящихся в стрессе».\",\"translation_quote\":\"«родителей, измученных стрессом»\"},{\"location\":\"Абзац «Честное воображение»\",\"severity\":\"major\",\"source_quote\":\"“He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.”\",\"suggested_fix\":\"Исправить смысловую связь: Давид уже одержал победу над зверями (львом и медведем) на холмах Вифлеема и с Божьей помощью не боится сразиться с воином в долине Ела.\",\"translation_quote\":\"«Он добился успеха, сражаясь со зверями — львом и медведем — на холмах Вифлеема, и с Божьей помощью не боится вступить в схватку с человеком в долине Ела, воином с юности.»\"},{\"location\":\"Абзац с цитатой из 1 Царств 17:39\",\"severity\":\"major\",\"source_quote\":\"“…for I have not proved them.”\",\"suggested_fix\":\"Передать смысл «я не испытал их / не опробовал их», а не «я не привык».\",\"translation_quote\":\"«…не могу ходить в этом, я не привык.»\"},{\"location\":\"Абзац, начинающийся «Голиаф самонадеянно…»\",\"severity\":\"major\",\"source_quote\":\"“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”\",\"suggested_fix\":\"Сохранить число и единицу измерения как в источнике: заменить «пистолета калибра 45 мм» на «пистолета калибра 45 мм» только если это именно подразумеваемый калибр; в русском переводе исходное значение здесь фактически искажено, поскольку английское “45 mm” означает 45-миллиметровый пистолет, а не замену единицы. Уточнить формулировку без изменения 45 mm.\",\"translation_quote\":\"«пистолета калибра 45 мм»\"},{\"location\":\"Абзац, начинающийся «Но Давид не руководствовался…»\",\"severity\":\"major\",\"source_quote\":\"“Joseph could not change his brothers’ reception, his master’s wife’s deception, the jail’s seclusion, or the butler’s delusion.”\",\"suggested_fix\":\"Исправить смысл перечисления: речь о приёме/отношении братьев, обмане жены господина, заточении в тюрьме и заблуждении виночерпия. Например: «Иосиф не мог изменить того, как его приняли братья, обмана жены своего господина, заточения в темнице или заблуждения виночерпия».\",\"translation_quote\":\"«Иосиф не мог изменить отношение братьев, обман жены своего господина, одиночество темницы или заблуждение виночерпия.»\"},{\"location\":\"Заключительный абзац и стихотворение\",\"severity\":\"major\",\"source_quote\":\"“from the needle of Dorcas… to the nail of Jael”; “Dorcus had a needle”\",\"suggested_fix\":\"Исправить имя Dorcas/Dorcus на общепринятое русское «Тавифа» в обоих местах; также перевести “the boys of his bosom” как детей/сыновей из его дома, не меняя образ без основания.\",\"translation_quote\":\"«от иглы Серны…»; «У Серны была игла»\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 5879,
+    "content_evidence_truncated": false,
+    "content_sha256": "f0ddf6669d093951b3730decf5171ffd86a37cb3801fcdeed60c9e9762316c01",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1146,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7553,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8702
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, parágrafo sobre consciência atenciosa",
+      "severity": "major",
+      "source_quote": "The eldest brother criticized David's aspirations. [Exact source text: “Jacob’s aspirations for Rachael made him forget the seven years of labor.”]",
+      "suggested_fix": "Substituir “As aspirações de Jacó por Raquel fizeram-no esquecer os sete anos de trabalho.” por “As aspirações de Jacó por Raquel fizeram-no esquecer os sete anos de trabalho.”",
+      "translation_quote": "As aspirações de Jacó por Raquel fizeram-no esquecer os sete anos de trabalho."
+    },
+    {
+      "location": "source.html, poema",
+      "severity": "major",
+      "source_quote": "Dorcus had a needle;",
+      "suggested_fix": "Usar uma transliteração convencional do nome no idioma-alvo, por exemplo, “Dorcas tinha uma agulha;”, mantendo a estrutura do poema.",
+      "translation_quote": "Dorcas tinha uma agulha;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

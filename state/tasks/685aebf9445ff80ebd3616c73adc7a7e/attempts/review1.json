@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"कविता, अंतिम दो पंक्तियाँ\",\"severity\":\"minor\",\"source_quote\":\"Our life’s but a vapor, the Good Book conveys.\",\"suggested_fix\":\"भली पुस्तक कहती है, हमारा जीवन तो बस भाप है। → बाइबल कहती है, हमारा जीवन तो बस भाप है।\",\"translation_quote\":\"भली पुस्तक कहती है, हमारा जीवन तो बस भाप है।\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 577,
+    "content_evidence_truncated": false,
+    "content_sha256": "f1a62d187fc22267d5225046261b4eb67bbf77de804800f3a00be0a6df8eb1fa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1818,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2429
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

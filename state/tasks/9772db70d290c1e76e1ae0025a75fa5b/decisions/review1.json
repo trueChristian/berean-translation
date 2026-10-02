@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, stanza 3",
+      "severity": "minor",
+      "source_quote": "Not knowing how next to begin.",
+      "suggested_fix": "Sostituire «Senza sapere come ricominciare» con «Senza sapere come proseguire» per evitare di suggerire che il soggetto debba ricominciare da capo.",
+      "translation_quote": "Senza sapere come ricominciare."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, lines 17–18\",\"severity\":\"major\",\"source_quote\":\"Or love our life, which the Bible is clear\\n    We’d lose our chance, at heaven so dear.\",\"suggested_fix\":\"Replace “Au tuipende nafsi yetu, jambo ambalo Biblia iko wazi kuhusu” with “Au tuyapende maisha yetu, jambo ambalo Biblia iko wazi kuhusu” so the line refers to loving our life, not loving our soul/self.\",\"translation_quote\":\"Au tuipende nafsi yetu, jambo ambalo Biblia iko wazi kuhusu\\n    Tungepoteza nafasi yetu ya kupata mbingu iliyo ya thamani.\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 591,
+    "content_evidence_truncated": false,
+    "content_sha256": "e4e2a1975250e52cf7ea4e32dc53c9e58afec136b27b97c315de131d2e1ae8c0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 400,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1803,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1800,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2362
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

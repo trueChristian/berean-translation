@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, stanza beginning « Mon enfant, n’aie pas peur »",
+      "severity": "minor",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Remplacer par « Pas un instant, je ne pouvais m’éloigner de toi. » pour éviter le conditionnel passé et employer une tournure plus idiomatique.",
+      "translation_quote": "Pas une seconde je n’aurais pu quitter ton côté."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

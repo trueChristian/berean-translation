@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza beginning “My child, fear not”",
+      "severity": "major",
+      "source_quote": "Though the path is obscure, and there is much to endure,",
+      "suggested_fix": "Αν και το μονοπάτι είναι ασαφές και υπάρχουν πολλά που πρέπει να υπομείνεις,",
+      "translation_quote": "Αν και το μονοπάτι είναι ασαφές και έχεις πολλά να υπομείνεις,"
+    },
+    {
+      "location": "Poem, stanza beginning “This promise can also open to you”",
+      "severity": "major",
+      "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+      "suggested_fix": "Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτά συμμορφώνονται με το θέλημά Μου.",
+      "translation_quote": "Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτά συμμορφώνονται με το θέλημά Μου"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

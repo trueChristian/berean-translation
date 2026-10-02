@@ -2,7 +2,6 @@
   "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 2974
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 630,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 495,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2745,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2742,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3375
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning ‘Maar… wat is dit?’",
+      "severity": "minor",
+      "source_quote": "“Of all things, I forgot to put a stamp on the envelope!”",
+      "suggested_fix": "Vervang ‘Van alles wat, ik ben vergeten een postzegel op de envelop te plakken!’ door ‘En dan ook nog: ik ben vergeten een postzegel op de envelop te plakken!’",
+      "translation_quote": "‘Van alles wat, ik ben vergeten een postzegel op de envelop te plakken!’"
+    }
+  ],
+  "finished_at": "2026-10-02T21:03:09+00:00",
   "id": "9a75e71ca254983a637c27c221d15a01",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nld",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
   "translation_model_actual": "gpt-6-luna"

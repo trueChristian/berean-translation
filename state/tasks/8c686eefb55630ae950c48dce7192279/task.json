@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,94 @@
         },
         "total_tokens": 2186
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 781,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1748,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1745,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2529
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Poem, lines 1–2",
+      "severity": "minor",
+      "source_quote": "We hear all the talk, the beauties of glory / The Bible speaks and tells its own story.",
+      "suggested_fix": "Consider “Wir hören all das Gerede, von den Schönheiten der Herrlichkeit / Die Bibel spricht und erzählt ihre eigene Geschichte.” The current first line is understandable but leaves the relationship between “talk” and “beauties of glory” unclear.",
+      "translation_quote": "Wir hören all das Gerede, die Schönheit der Herrlichkeit"
+    },
+    {
+      "location": "Poem, line 4",
+      "severity": "major",
+      "source_quote": "However, the church, can forget of that life,",
+      "suggested_fix": "Translate the church as the subject that may forget that life, for example: “Doch die Kirche kann jenes Leben vergessen,”",
+      "translation_quote": "Doch die Kirche kann dieses Leben vergessen,"
+    },
+    {
+      "location": "Poem, line 6",
+      "severity": "major",
+      "source_quote": "The singing so sweet, includes everyone.",
+      "suggested_fix": "Restore the source’s assertion that the sweet singing includes everyone: “Der so süße Gesang schließt alle ein.”",
+      "translation_quote": "umfasst der so süße Gesang alle."
+    },
+    {
+      "location": "Poem, lines 13–14",
+      "severity": "major",
+      "source_quote": "Treasures are worthy, of that we agree. / But lay them in heaven where forever they’ll be.",
+      "suggested_fix": "Convey the imperative to lay the treasures in heaven, e.g. “Schätze sind wertvoll, darin sind wir uns einig. / Doch legt sie in den Himmel, wo sie für immer bleiben.”",
+      "translation_quote": "Schätze sind wertvoll, darin sind wir uns einig. / Doch legt sie im Himmel nieder, wo sie für immer bleiben werden."
+    },
+    {
+      "location": "Poem, lines 17–18",
+      "severity": "major",
+      "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
+      "suggested_fix": "Make clear that loving this life means losing the chance at heaven: “Oder lieben wir unser Leben, dann ist die Bibel klar: / Wir würden unsere Chance auf den so kostbaren Himmel verlieren.”",
+      "translation_quote": "Oder lieben wir unser Leben, und die Bibel sagt ganz klar: / Wir würden unsere Chance auf den so kostbaren Himmel verlieren."
+    },
+    {
+      "location": "Poem, line 20",
+      "severity": "major",
+      "source_quote": "For it seems it’s this life, that has us amused.",
+      "suggested_fix": "Convey that this life is what captivates or entertains us, e.g. “Denn es scheint, als fessele uns dieses Leben.”",
+      "translation_quote": "Denn es scheint, als würde uns dieses Leben vergnügen."
+    },
+    {
+      "location": "Poem, line 25",
+      "severity": "major",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "Preserve the attribution to the Good Book: “Unser Leben ist nur ein Hauch, so verkündet es das gute Buch.”",
+      "translation_quote": "Unser Leben ist nur ein Hauch, so sagt es das gute Buch."
+    },
+    {
+      "location": "Poem, line 26",
+      "severity": "major",
+      "source_quote": "Let’s reason with wisdom and change our gaze.",
+      "suggested_fix": "Retain the call to reason and shift one’s perspective, e.g. “Lasst uns weise nachdenken und unseren Blickwinkel ändern.”",
+      "translation_quote": "Lasst uns mit Weisheit überlegen und unseren Blick ändern."
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "If Heaven Is Real",
+      "suggested_fix": "A more idiomatic German title is “Wenn es den Himmel wirklich gibt.”",
+      "translation_quote": "Wenn der Himmel wirklich ist"
+    }
+  ],
   "id": "8c686eefb55630ae950c48dce7192279",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "deu",
@@ -116,11 +200,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"

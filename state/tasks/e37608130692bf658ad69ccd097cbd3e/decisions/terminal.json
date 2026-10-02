@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, figure img alt",
+      "severity": "minor",
+      "source_quote": "A double rainbow arcs over dark trees beneath a stormy sky",
+      "suggested_fix": "将“ 一道双彩虹”改为“ 一道双重彩虹”或“两道彩虹”，使“双彩虹”的表达更自然。",
+      "translation_quote": "一道双彩虹横跨在阴云密布的天空下、深色树木的上方"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

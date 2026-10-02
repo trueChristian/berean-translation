@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “My precious child”",
+      "severity": "major",
+      "source_quote": "“Not for a second could I leave your side.”",
+      "suggested_fix": "Replace the second sentence of this stanza with: “এক মুহূর্তের জন্যও আমি তোমার পাশ ছেড়ে যাইনি।”",
+      "translation_quote": "“এক মুহূর্তের জন্যও আমি তোমার পাশ ছেড়ে যেতে পারি না।”"
+    },
+    {
+      "location": "HTML, stanza beginning “This promise can also open to you”",
+      "severity": "major",
+      "source_quote": "“For My strength and power are manifest, / When these to My will conform.”",
+      "suggested_fix": "Revise the last two lines to preserve that God’s strength and power become manifest when the hidden secrets conform to God’s will; for example: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।”",
+      "translation_quote": "“কারণ আমার শক্তি ও ক্ষমতা প্রকাশিত হয়, / যখন এগুলো আমার ইচ্ছার সঙ্গে মেলে।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

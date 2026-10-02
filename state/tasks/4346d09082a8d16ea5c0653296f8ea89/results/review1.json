@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a2599280-2f72-402f-b1a8-d10e4db2baba",
+    "response_id": "chatcmpl-EUc7gbZfPJY5mWZmLcJXzoX4z6LlH",
+    "usage": {
+      "completion_tokens": 444,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9070,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9067,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9514
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "অনুচ্ছেদ: গীতসংহিতা 40:4-এর উল্লেখ",
+        "severity": "major",
+        "source_quote": "Psalms 40:4 says He will not respect the proud",
+        "suggested_fix": "লিখুন: “গীতসংহিতা 40:4 বলে, তিনি অহংকারীদের প্রতি সম্মান দেখাবেন না”",
+        "translation_quote": "গীতসংহিতা 40:4 বলে, তিনি অহংকারীদের প্রতি সম্মান দেখাবেন না"
+      },
+      {
+        "location": "অনুচ্ছেদ: দায়ূদের আত্মবিশ্বাসের ব্যাখ্যা",
+        "severity": "major",
+        "source_quote": "Clearly his confidence is because the Lord is fighting for him.",
+        "suggested_fix": "লিখুন: “স্পষ্টতই, তাঁর আত্মবিশ্বাসের কারণ হলো সদাপ্রভু তাঁর হয়ে যুদ্ধ করছেন বলে তিনি বিশ্বাস করতেন।”",
+        "translation_quote": "স্পষ্টতই, তাঁর আত্মবিশ্বাসের কারণ হলো সদাপ্রভু তাঁর হয়ে যুদ্ধ করছেন।"
+      },
+      {
+        "location": "অনুচ্ছেদ: নিজের শক্তিতে কাজ করা ও ঈশ্বরের অলৌকিক কাজ",
+        "severity": "major",
+        "source_quote": "When we do a work on our own, we cannot boast of it because we did it. It would be pride, so we remain silent and call it humility, even if we desire others to see it.",
+        "suggested_fix": "লিখুন: “আমরা যখন নিজের শক্তিতে কোনো কাজ করি, তখন তা নিয়ে বড়াই করতে পারি না, কারণ কাজটি আমরাই করেছি। তা অহংকার হবে; তাই আমরা চুপ থাকি এবং একে নম্রতা বলি—এমনকি অন্যরা তা দেখুক, এমন আকাঙ্ক্ষা থাকলেও।”",
+        "translation_quote": "আমরা যখন নিজের শক্তিতে কোনো কাজ করি, তখন তা নিয়ে বড়াই করতে পারি না, কারণ কাজটি আমরাই করেছি। তা অহংকার হবে; তাই আমরা চুপ থাকি এবং একে নম্রতা বলি—এমনকি অন্যরা তা দেখুক, এমন আকাঙ্ক্ষা থাকলেও।"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

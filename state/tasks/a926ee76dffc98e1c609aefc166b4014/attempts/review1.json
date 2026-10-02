@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"시 4연, 3행\",\"severity\":\"minor\",\"source_quote\":\"Suggesting questions, tripping my feet,\",\"suggested_fix\":\"질문을 떠올리게 하고, 내 발을 걸어 넘어뜨리며,\",\"translation_quote\":\"질문을 떠올리게 하고, 내 발을 걸어 넘어뜨리며,\"},{\"location\":\"시 6연, 3행\",\"severity\":\"minor\",\"source_quote\":\"Silence reigned heavy, I felt all alone,\",\"suggested_fix\":\"무거운 침묵이 감돌았고, 나는 완전히 홀로라고 느꼈네.\",\"translation_quote\":\"무거운 침묵이 감돌았고, 나는 완전히 홀로라고 느꼈네.\"},{\"location\":\"시 12연, 3행\",\"severity\":\"minor\",\"source_quote\":\"You can see that My promise is certain.\",\"suggested_fix\":\"내 약속이 확실하다는 것을 네가 볼 수 있도록.\",\"translation_quote\":\"내 약속이 확실하다는 것을 네가 볼 수 있도록.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 887,
+    "content_evidence_truncated": false,
+    "content_sha256": "c3848439da3eb6095e87d7ffeaa8ed6bdbbd56fb8b603bf60ee5951bf091d1bf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 245,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3168,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3165,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3413
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

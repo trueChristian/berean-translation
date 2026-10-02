@@ -1,0 +1,93 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "30a1ebfb-48d6-498f-9135-4775e24b8e2f",
+    "response_id": "chatcmpl-EUc8CYNEjwrSkiX1KUHxYt1ND0Scs",
+    "usage": {
+      "completion_tokens": 1197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7463,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7460,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8660
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening quotation; 1 Samuel 17:29",
+        "severity": "major",
+        "source_quote": "“Is there not a cause?”",
+        "suggested_fix": "Ganti “Bukankah ada alasan?” dengan “Bukankah ada alasan yang kuat?” atau rumusan lain yang menyampaikan bahwa ada sebab/urgensi untuk bertindak, bukan sekadar alasan.",
+        "translation_quote": "“Bukankah ada alasan?”"
+      },
+      {
+        "location": "Paragraph beginning “When a man has a cause set before him”; Hebrews 12:2",
+        "severity": "major",
+        "source_quote": "“who for the joy that was set before him endured the cross, despising the shame”",
+        "suggested_fix": "Terjemahkan kutipan ini dengan urutan makna sumber, misalnya: “yang demi sukacita yang terbentang di hadapan-Nya menanggung salib dan tidak menghiraukan kehinaan”.",
+        "translation_quote": "“yang dengan mengabaikan kehinaan tekun memikul salib ganti sukacita yang disediakan bagi Dia”"
+      },
+      {
+        "location": "Paragraph beginning “A Caring Conscience”; Jacob and Rachel",
+        "severity": "major",
+        "source_quote": "“Jacob’s aspirations for Rachael made him forget the seven years of labor.”",
+        "suggested_fix": "Ganti “Kerinduan Yakub kepada Rahel” dengan “Aspirasi/keinginan Yakub untuk mendapatkan Rahel”, agar tetap menyatakan bahwa keinginannya membuatnya melupakan tujuh tahun kerja.",
+        "translation_quote": "“Kerinduan Yakub kepada Rahel membuatnya melupakan tujuh tahun kerja.”"
+      },
+      {
+        "location": "Paragraph beginning “Careless apathy”; quotation attributed to Nietzke",
+        "severity": "major",
+        "source_quote": "“Give a man a reason to live and he will supply the how –Nietzke.”",
+        "suggested_fix": "Perbaiki kutipan agar mempertahankan hubungan sebab-akibat dan makna “ia akan menemukan caranya”, misalnya: “Beri seseorang alasan untuk hidup, maka ia akan menemukan caranya –Nietzke.”",
+        "translation_quote": "“Beri seseorang alasan untuk hidup, maka ia akan menemukan caranya –Nietzke.”"
+      },
+      {
+        "location": "Paragraph beginning “As Saul reluctantly consents”; 1 Samuel 17:39",
+        "severity": "major",
+        "source_quote": "“I cannot go with these; for I have not proved them. And David put them off him”",
+        "suggested_fix": "Terjemahkan kutipan tanpa menghilangkan “And David put them off him”, misalnya: “…aku tidak dapat pergi dengan memakai ini, sebab aku belum pernah mengujinya. Lalu Daud menanggalkan semuanya –1 Samuel 17:39,” dengan tanda baca yang sesuai struktur HTML sumber.",
+        "translation_quote": "“…aku tidak dapat berjalan dengan memakai ini, sebab belum pernah mencobanya.” Lalu Daud menanggalkannya –1 Samuel 17:39,"
+      },
+      {
+        "location": "Paragraph beginning “Goliath had automatically assumed”; sling speed and handgun comparison",
+        "severity": "major",
+        "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+        "suggested_fix": "Pertahankan angka dan satuan sumber: ganti “pistol 45 mm” dengan “pistol 45 mm” hanya jika memang yang dimaksud sumber adalah 45 mm; namun untuk menyampaikan sumber secara tepat, pertahankan ungkapan “45 mm handgun” sebagai “pistol kaliber 45 mm” tanpa mengubahnya menjadi kaliber lain. (Pastikan terjemahan menyebut daya henti setara.)",
+        "translation_quote": "“dengan enam atau tujuh putaran per detik, umban Daud memiliki daya henti setara pistol 45 mm”"
+      },
+      {
+        "location": "Paragraph beginning “Faithful Action”; sons of Sceva",
+        "severity": "major",
+        "source_quote": "“any more than it did for the sons of Sceva.”",
+        "suggested_fix": "Ganti “anak-anak Skewa” dengan bentuk yang jelas merujuk kepada putra-putra Skewa, misalnya “anak-anak lelaki Skewa”, agar tidak terbaca sebagai anak-anak secara umum.",
+        "translation_quote": "“anak-anak Skewa”"
+      },
+      {
+        "location": "Paragraph beginning “Why would Japanese Kamikaze pilots”; final rhetorical question",
+        "severity": "major",
+        "source_quote": "“Or isn’t there even one that transforms our mundane work into a channel of grace for the service of the King of the Universe?”",
+        "suggested_fix": "Terjemahkan pertanyaan sebagai pertanyaan tentang adanya tujuan yang mengubah pekerjaan sehari-hari menjadi saluran kasih karunia, misalnya: “Atau, bukankah ada satu tujuan pun yang mengubah pekerjaan kita sehari-hari menjadi saluran kasih karunia untuk melayani Raja Semesta Alam?”",
+        "translation_quote": "“Atau bahkan, bukankah ada tujuan yang mengubah pekerjaan kita yang biasa-biasa saja menjadi saluran kasih karunia untuk melayani Raja Semesta Alam?”"
+      },
+      {
+        "location": "Paragraph beginning “God slays giants”; Dorcas and Zebedee",
+        "severity": "major",
+        "source_quote": "“from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.”",
+        "suggested_fix": "Perbaiki bagian terakhir agar mencerminkan “boats of the business” dan “boys of his bosom” tanpa mengganti maknanya menjadi “perahu usaha” dan “anak-anak kesayangannya”; misalnya “dari perahu-perahu usaha Zebedeus… hingga anak-anak yang dipeliharanya”.",
+        "translation_quote": "“mulai dari jarum Dorkas… hingga patok Yael, dari perahu usaha Zebedeus… hingga anak-anak kesayangannya.”"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

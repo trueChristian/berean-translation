@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, stanza beginning “This promise can also open to you”",
+      "severity": "major",
+      "source_quote": "“This promise can also open to you, / The secrets that are hid 'midst the storm. / For My strength and power are manifest, / When these to My will conform.”",
+      "suggested_fix": "Replace the corresponding stanza with: „Dieses Versprechen kann dir auch / die Geheimnisse erschließen, die sich im Sturm verbergen. / Denn Meine Kraft und Macht werden offenbar, / wenn diese sich Meinem Willen fügen.“",
+      "translation_quote": "„Diese Verheißung kann dir auch / die Geheimnisse erschließen, die sich im Sturm verbergen. / Denn Meine Kraft und Macht werden offenbar, / wenn sich diese Meinem Willen fügen.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

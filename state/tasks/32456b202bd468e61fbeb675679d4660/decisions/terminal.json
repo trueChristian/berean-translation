@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem’s penultimate line",
+      "severity": "minor",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "Vårt liv är bara en dimma, säger Bibeln.",
+      "translation_quote": "Vårt liv är bara en dimma, säger den goda boken."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

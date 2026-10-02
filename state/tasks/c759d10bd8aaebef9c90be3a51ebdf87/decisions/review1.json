@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph on David’s dog and yodeling",
+      "severity": "major",
+      "source_quote": "“If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs and open the possibility for others to do it too.”",
+      "suggested_fix": "Replace “গুনগুন করে গান গাইতে” with Bengali wording meaning “ইয়োডেল করতে” in both occurrences, for example: “আমি যদি আমার কুকুরকে ইয়োডেল করতে শেখাতে পারি, তবে তা প্রমাণ করবে যে কুকুরদের পক্ষে ইয়োডেল করা সম্ভব এবং অন্যদের জন্যও তা করার সম্ভাবনা খুলে দেবে।”",
+      "translation_quote": "“আমি যদি আমার কুকুরকে গুনগুন করে গান গাইতে শেখাতে পারি, তবে তা প্রমাণ করবে যে কুকুরদের পক্ষে গুনগুন করে গান গাওয়া সম্ভব এবং অন্যদের জন্যও তা করার সম্ভাবনা খুলে দেবে।”"
+    },
+    {
+      "location": "HTML paragraph beginning “As a giant, speed and agility…”",
+      "severity": "major",
+      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+      "suggested_fix": "Correct “৪৫ মিমি” to “৪৫ ক্যালিবার” (or another Bengali rendering that accurately conveys .45 caliber), preserving the source’s comparison: “দায়ূদের গুলতির আঘাতের ক্ষমতা ছিল ৪৫ ক্যালিবার হ্যান্ডগানের সমান” is not the same as a 45 mm handgun.",
+      "translation_quote": "“দায়ূদের গুলতির আঘাতের ক্ষমতা ছিল ৪৫ মিমি হ্যান্ডগানের সমান”"
+    },
+    {
+      "location": "HTML paragraph beginning “The cowering beliefs of the Israelite army…”",
+      "severity": "major",
+      "source_quote": "“The cowering beliefs of the Israelite army were rooted in a pagan value system.”",
+      "suggested_fix": "Replace “ভীতসন্ত্রস্ত বিশ্বাসগুলো” with wording that conveys the army’s cowering beliefs or fearful outlook, such as “ইস্রায়েলীয় সেনাবাহিনীর ভীরু মনোভাব পৌত্তলিক মূল্যবোধের ওপর প্রতিষ্ঠিত ছিল।”",
+      "translation_quote": "“ইস্রায়েলীয় সেনাবাহিনীর ভীতসন্ত্রস্ত বিশ্বাসগুলো পৌত্তলিক মূল্যবোধের ওপর প্রতিষ্ঠিত ছিল।”"
+    },
+    {
+      "location": "HTML paragraph beginning “Faithful Action is inevitable…”",
+      "severity": "major",
+      "source_quote": "“just as it did for the sons of Sceva.”",
+      "suggested_fix": "Use the conventional Bengali form of Sceva’s name; replace “শকেবার” with “স্কেবার” (or the established Bengali spelling used in the cited biblical context).",
+      "translation_quote": "“যেমন শকেবার পুত্রদের ক্ষেত্রেও পারেনি।”"
+    },
+    {
+      "location": "HTML paragraph beginning “Why would Japanese Kamikaze pilots…”",
+      "severity": "major",
+      "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Correct “সবদির” to “সবদিয়ের” (or the conventional Bengali form of Zebedee), retaining the reference to Zebedee’s business boats: “ব্যবসার জন্য সবদিয়ের নৌকা থেকে…”",
+      "translation_quote": "“ব্যবসার জন্য সবদির নৌকা থেকে…”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

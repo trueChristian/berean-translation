@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 8261
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 639,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8120,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8117,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8759
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “داؤد جب اس صبح سویرے...”",
+      "severity": "major",
+      "source_quote": "“The Lord was his Shepherd, and he had no lack”",
+      "suggested_fix": "Replace “خداوند اس کا چرواہا تھا اور اسے کسی چیز کی کمی نہ تھی” with “خداوند اس کا چرواہا تھا، اسے کوئی کمی نہ تھی” or another Urdu rendering that preserves the source’s assertion that he lacked nothing.",
+      "translation_quote": "“خداوند اس کا چرواہا تھا اور اسے کسی چیز کی کمی نہ تھی”"
+    },
+    {
+      "location": "HTML, paragraph beginning “دردمند ضمیر...”",
+      "severity": "major",
+      "source_quote": "“Careless apathy is the opposite and is the result of a seared conscience.”",
+      "suggested_fix": "Change “ضمیر کے داغ دار ہونے” to “ضمیر کے بے حس یا سخت ہو جانے” to convey a seared conscience rather than one that is merely blemished.",
+      "translation_quote": "“یہ ضمیر کے داغ دار ہونے کا نتیجہ ہے۔”"
+    },
+    {
+      "location": "HTML, paragraph beginning “جالوت نے خود بخود...”",
+      "severity": "major",
+      "source_quote": "“at six or seven revolutions per second”",
+      "suggested_fix": "Replace “فی سیکنڈ چھ یا سات چکر لگاتے ہوئے” with wording that specifies the sling’s rotation rate, such as “فلاخن کے فی سیکنڈ چھ یا سات چکر لگانے پر”.",
+      "translation_quote": "“فی سیکنڈ چھ یا سات چکر لگاتے ہوئے داؤد کی فلاخن کی روکنے کی قوت...”"
+    },
+    {
+      "location": "HTML, paragraph beginning “وفادارانہ عمل ناگزیر ہے...”",
+      "severity": "major",
+      "source_quote": "“His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.”",
+      "suggested_fix": "Correct the subject and agency: replace the sentence beginning “داؤد کی جوانی کا مذاق اڑاتے...” with wording stating that Goliath’s adrenaline flowed as he mocked David’s youth, jumped to conclusions, took offense easily, and marveled at others’ ignorance.",
+      "translation_quote": "“داؤد کی جوانی کا مذاق اڑاتے، بات کا غلط مطلب لیتے، آسانی سے برا مانتے اور دوسروں کی نادانی پر حیران ہوتے ہوئے اس کے جسم میں جوش کے ہارمون دوڑ رہے تھے۔”"
+    },
+    {
+      "location": "HTML, poem, first line",
+      "severity": "major",
+      "source_quote": "“Shamgar had an oxgoad;”",
+      "suggested_fix": "Correct “انکس” to “انکس” only if intended as a recognized term for an oxgoad; otherwise use a clear Urdu description such as “شمجر کے پاس بیل ہانکنے کی نوک دار چھڑی تھی؛”",
+      "translation_quote": "“شمجر کے پاس بیل ہانکنے کا انکس تھا؛”"
+    }
+  ],
   "id": "ceef4ac135048c0957e67597a392993e",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "urd",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 5",
+      "severity": "minor",
+      "source_quote": "Samson had a jawbone;",
+      "suggested_fix": "Samsoni alikuwa na taya;",
+      "translation_quote": "Samsoni alikuwa na taya ya punda;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

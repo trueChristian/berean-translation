@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza beginning “My child, fear not”\",\"severity\":\"minor\",\"source_quote\":\"Not for a second could I leave your side.\",\"suggested_fix\":\"Replace “צידך” with “לצדך” to correctly say “by your side”: “אפילו לרגע לא עזבתי את לצדך” is not grammatical; use “אפילו לרגע לא עזבתי אותך, ונשארתי לצדך” or, more narrowly, “אפילו לרגע לא משתי לצדך.”\",\"translation_quote\":\"אפילו לרגע לא עזבתי את צידך.\"},{\"location\":\"HTML, stanza beginning “But here I have placed My rainbow”\",\"severity\":\"major\",\"source_quote\":\"You can see that My promise is certain.\",\"suggested_fix\":\"Replace “שהבטחתי בטוחה” with “שהבטחתי ודאית” or “שההבטחה שלי ודאית” so the line clearly says that the promise is certain.\",\"translation_quote\":\"תוכל לראות שהבטחתי בטוחה.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 991,
+    "content_evidence_truncated": false,
+    "content_sha256": "9d9248662d35ed5a3e496a42596f8d0341bde99859cc2271d4cbbdf3ab06a6cf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 754,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2942,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3699
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

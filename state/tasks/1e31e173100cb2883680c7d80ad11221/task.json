@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 8266
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1161,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 800,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8089,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8086,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9250
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Alinea over Davids wapenrusting, 1 Samuël 17:38-39",
+      "severity": "major",
+      "source_quote": "And David girded his sword upon his armour, and he assayed to go; for he had not proved it. ... I cannot go with these; for I have not proved them.",
+      "suggested_fix": "Vervang de betreffende zinnen door: “David gordde zijn zwaard over zijn wapenrusting en probeerde op weg te gaan, want hij had die niet uitgeprobeerd. ... David zei tegen Saul: Ik kan hiermee niet gaan, want ik heb ze niet uitgeprobeerd.” Zo blijft de betekenis van ‘had not proved’ behouden en wordt het zwaard niet aan Saul toegeschreven.",
+      "translation_quote": "David gordde Sauls zwaard over zijn wapenrusting en probeerde te lopen, maar hij was het niet gewend. ... Ik kan hier niet mee lopen, want ik ben het niet gewend."
+    },
+    {
+      "location": "Alinea die begint met “Wanneer we zelf iets tot stand brengen”",
+      "severity": "major",
+      "source_quote": "When we do a work on our own, we cannot boast of it because we did it. It would be pride",
+      "suggested_fix": "Vervang “Wanneer we zelf iets tot stand brengen, kunnen we er niet op pochen alsof wij het hebben gedaan” door “Wanneer we zelf iets tot stand brengen, kunnen we er niet over pochen, want wij hebben het zelf gedaan.”",
+      "translation_quote": "Wanneer we zelf iets tot stand brengen, kunnen we er niet op pochen alsof wij het hebben gedaan."
+    }
+  ],
   "id": "1e31e173100cb2883680c7d80ad11221",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nld",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 11295
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1084,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 653,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11154,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11151,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12238
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “In the book of Hosea…”",
+      "severity": "major",
+      "source_quote": "“Sometime after Hosea marries her, she resorts to the life of a ‘harlot’”",
+      "suggested_fix": "Change “Osea ricorre alla vita di una «prostituta»” to “lei si dà alla vita di una «prostituta»” so the subject remains Gomer, as in the source.",
+      "translation_quote": "“Qualche tempo dopo averla sposata, Osea ricorre alla vita di una «prostituta»”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Sometime after Hosea marries her…”",
+      "severity": "major",
+      "source_quote": "“Hosea betrothed her again”",
+      "suggested_fix": "Change “Osea la prende di nuovo in moglie” to “Osea si fidanzò di nuovo con lei” to preserve the source’s distinction between betrothal and marriage.",
+      "translation_quote": "“Osea la prende di nuovo in moglie”"
+    },
+    {
+      "location": "source.html, paragraph beginning “In the book of Hosea…”; quoted Hosea 1:2",
+      "severity": "major",
+      "source_quote": "“take unto thee a wife of whoredoms”",
+      "suggested_fix": "Replace “una donna adultera” with “una donna dedita alla prostituzione” (or an equivalent Italian rendering of “donna di prostituzione”) to preserve the source’s wording without asserting adultery.",
+      "translation_quote": "“prenditi in moglie una donna adultera”"
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "“THE GODLY HOME”",
+      "suggested_fix": "Use an Italian rendering that preserves the idea of a godly home, such as “LA CASA PIA,” rather than “LA FAMIGLIA CRISTIANA.”",
+      "translation_quote": "“LA FAMIGLIA CRISTIANA”"
+    }
+  ],
   "id": "c5f44ae355a5bf19990f6485eb915bc8",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ita",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "abfc89ef-aade-4a2f-9446-86572283462e",
+    "response_id": "chatcmpl-EUc7cGZBapidFrWEpfs9xqbs3prHR",
+    "usage": {
+      "completion_tokens": 368,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7257,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7628
+    }
+  },
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "المتن، الفقرة التي تعرّف نوعية الحياة والكرامة",
+        "severity": "major",
+        "source_quote": "Dignity refers to people feeling that they are being given adequate levels of respect.",
+        "suggested_fix": "استبدل «شعور الناس بأنهم يُعاملون بمستوى لائق من الاحترام» بـ«شعور الناس بأنهم يحظون بقدر كافٍ من الاحترام».",
+        "translation_quote": "أما الكرامة فتشير إلى شعور الناس بأنهم يُعاملون بمستوى لائق من الاحترام."
+      },
+      {
+        "location": "المتن، فقرة سفر أعمال بولس",
+        "severity": "major",
+        "source_quote": "He experienced stonings, beatings, and shipwreck.",
+        "suggested_fix": "استبدل «وتحطمت به السفن» بـ«وتعرّض لحوادث تحطم السفن» أو «وعانى من حوادث غرق السفن»، مع الحفاظ على بقية الجملة.",
+        "translation_quote": "فقد تعرض للرجم والضرب وتحطمت به السفن."
+      },
+      {
+        "location": "المتن، فقرة الرعاية التلطيفية",
+        "severity": "major",
+        "source_quote": "This is the sort of care that is offered by hospice programs.",
+        "suggested_fix": "استبدل «برامج رعاية المحتضرين» بـ«برامج رعاية المحتضرين (الهوسبيس)» أو صياغة عربية واضحة تشير إلى برامج الرعاية التلطيفية المقدمة في دور رعاية المحتضرين؛ فالمقصود برامج hospice، لا برامج لرعاية من يحتضرون فحسب.",
+        "translation_quote": "وهذا هو نوع الرعاية الذي تقدمه برامج رعاية المحتضرين."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

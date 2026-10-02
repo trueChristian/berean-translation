@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «كانت معتقدات جيش إسرائيل الجبانة»",
+      "severity": "major",
+      "source_quote": "The cowering beliefs of the Israelite army were rooted in a pagan value system.",
+      "suggested_fix": "Replace «كانت معتقدات جيش إسرائيل الجبانة» with «كانت المعتقدات المنهزمة لجيش إسرائيل متجذرة في منظومة قيم وثنية» to convey that the army’s beliefs were cowering, rather than describing the army itself as cowardly.",
+      "translation_quote": "كانت معتقدات جيش إسرائيل الجبانة متجذرة في منظومة قيم وثنية."
+    },
+    {
+      "location": "HTML, paragraph beginning «وكان فيكتور فرانكل»",
+      "severity": "major",
+      "source_quote": "He observed that when a person gave up hope, death was soon to follow.",
+      "suggested_fix": "Replace «ولاحظ أن الموت كان يعقب سريعًا استسلام المرء لليأس» with «ولاحظ أنه حين يفقد الإنسان الأمل، سرعان ما يتبعه الموت»; the source states that hope is given up, not necessarily that the person surrenders to despair.",
+      "translation_quote": "ولاحظ أن الموت كان يعقب سريعًا استسلام المرء لليأس."
+    },
+    {
+      "location": "HTML, paragraph beginning «لماذا يموت طيارو الكاميكازي»",
+      "severity": "major",
+      "source_quote": "Why would Muslim terrorists blow themselves up?",
+      "suggested_fix": "Replace «ولماذا يفجر الإرهابيون المسلمون أنفسهم؟» with «ولماذا يفجّر الإرهابيون المسلمون أنفسهم؟» only if needed for orthography; more importantly, preserve the source's question about why they do this. The current Arabic does preserve it.",
+      "translation_quote": "ولماذا يفجر الإرهابيون المسلمون أنفسهم؟"
+    },
+    {
+      "location": "HTML, paragraph beginning «لماذا يموت طيارو الكاميكازي»",
+      "severity": "major",
+      "source_quote": "God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.",
+      "suggested_fix": "Replace «ومن قوارب زبدي التجارية… إلى أولاد حضنه» with «ومن قوارب زبدي المستخدَمة في عمله… إلى أبناء صدره» (or another idiomatic rendering that retains the contrast between Zebedee’s business boats and his sons). The current wording makes the boats themselves sound commercial and obscures the source’s reference to his business.",
+      "translation_quote": "ومن قوارب زبدي التجارية… إلى أولاد حضنه."
+    },
+    {
+      "location": "HTML, poem, line 3",
+      "severity": "major",
+      "source_quote": "Dorcus had a needle;",
+      "suggested_fix": "Correct the name to the conventional Arabic form «طابيثا» to match Dorcus/Tabitha elsewhere in the article.",
+      "translation_quote": "وكانت مع دوركاس إبرة؛"
+    },
+    {
+      "location": "HTML, poem, line 4",
+      "severity": "minor",
+      "source_quote": "Rahab had a string;",
+      "suggested_fix": "Use a more natural Arabic term for a string/cord, such as «وكان مع راحاب حبلٌ؛»; «حبلة» is not the usual word for the object here.",
+      "translation_quote": "وكانت مع راحاب حبلة؛"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

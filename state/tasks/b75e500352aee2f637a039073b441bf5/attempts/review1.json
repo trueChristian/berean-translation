@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"अंतिम उद्धरण, मत्ती 9:2-8\",\"severity\":\"major\",\"source_quote\":\"“For whether is easier, to say, Thy sins be forgiven thee; or to say, Arise, and walk?”\",\"suggested_fix\":\"“क्योंकि कौन-सी बात कहना आसान है: ‘तेरे पाप क्षमा हुए,’ या ‘उठ और चल’?”\",\"translation_quote\":\"“क्योंकि कौन सहज है, यह कहना कि तेरे पाप क्षमा हुए, या यह कहना कि उठ और चल?”\"},{\"location\":\"अंतिम उद्धरण के बाद का अनुच्छेद\",\"severity\":\"major\",\"source_quote\":\"“Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.”\",\"suggested_fix\":\"“उन्हें चंगा होते देखें, उनके शोक का बोझ अपने कंधों पर उठाएँ, और फिर उनके साथ उनके स्वर्गीय घर की ओर आगे बढ़ें।”\",\"translation_quote\":\"“उन्हें चंगा होते, शोक का बोझ अपने कंधों पर उठाते और फिर अपने स्वर्गीय घर की ओर आगे बढ़ते देखें।”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1471,
+    "content_evidence_truncated": false,
+    "content_sha256": "b359c4c961f1b8a93819ef8dbcad259e487559fd95828d08b8989101c3a2e91a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 636,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9663,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9660,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10299
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

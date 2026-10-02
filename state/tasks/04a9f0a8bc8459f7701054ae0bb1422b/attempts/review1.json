@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Onlangs vertelde een broeder…”\",\"severity\":\"major\",\"source_quote\":\"“the world is in a mess”\",\"suggested_fix\":\"Vervang “de wereld er een puinhoop van maakt” door “de wereld een puinhoop is” of “het een puinhoop is in de wereld”, zodat de broeder beschrijft hoe de wereld eraan toe is en niet dat de wereld zelf iets veroorzaakt.\",\"translation_quote\":\"“de wereld er een puinhoop van maakt”\"},{\"location\":\"HTML, paragraph beginning “Een specifiek punt waarop…”\",\"severity\":\"major\",\"source_quote\":\"“plain communities”\",\"suggested_fix\":\"Vervang “plain-gemeenschappen” door een begrijpelijke Nederlandse benaming voor de bedoelde religieuze gemeenschappen, bijvoorbeeld “eenvoudige gemeenschappen” (of de gangbare benaming in deze context).\",\"translation_quote\":\"“plain-gemeenschappen”\"},{\"location\":\"HTML, alinea met de Bijbelcitaten uit Lukas en Openbaring\",\"severity\":\"major\",\"source_quote\":\"“Because …those men which have not the seal of God in their foreheads … should be tormented five months … and shall desire to die, and death shall flee from them”\",\"suggested_fix\":\"Herstel de oorzaak-en-gevolgrelatie in het citaat: vertaal “Because” als “Omdat” en behoud de constructie dat degenen zonder Gods zegel vijf maanden gepijnigd zouden worden en naar de dood zouden verlangen; laat “Omdat” niet zonder grammaticale aansluiting staan.\",\"translation_quote\":\"“Omdat …die mensen die het zegel van God niet op hun voorhoofd hebben … vijf maanden lang gepijnigd zouden worden … en naar de dood zullen verlangen, maar de dood zal van hen wegvluchten”\"},{\"location\":\"HTML, laatste alinea vóór het citaat uit Mattheüs 25\",\"severity\":\"major\",\"source_quote\":\"“What if we were the one who God wanted to say a word for Him out of a life that was living for Him to bring His awareness to one who knows not the One, Living, and True God?”\",\"suggested_fix\":\"Herformuleer de passage zodat behouden blijft dat God mogelijk juist ons wil gebruiken om namens Hem te spreken vanuit een leven dat voor Hem geleefd wordt, en zo iemand die de ene, levende en ware God niet kent Hem bekend te maken. De huidige formulering zegt dat God wilde dat iemand namens Hem sprak, maar laat de betekenis van “to bring His awareness” onvoldoende uitkomen.\",\"translation_quote\":\"“Wat als wij degene waren van wie God wilde dat die namens Hem een woord sprak, vanuit een leven dat voor Hem leefde, om Hem bekend te maken aan iemand die de Ene, levende en ware God niet kent?”\"},{\"location\":\"HTML, alinea over de CD-set “People Helping in the Local Church”\",\"severity\":\"major\",\"source_quote\":\"“how to ‘help’ challenging situations in their midst”\",\"suggested_fix\":\"Vertaal dit als helpen in of omgaan met moeilijke situaties, bijvoorbeeld “hoe ze in hun omgeving bij moeilijke situaties hulp kunnen bieden”. Vermijd “moeilijke situaties … kunnen helpen”, dat in het Nederlands suggereert dat men de situaties zelf helpt.\",\"translation_quote\":\"“hoe ze moeilijke situaties in hun omgeving kunnen ‘helpen’”\"},{\"location\":\"HTML, alinea over Gods volk en giften\",\"severity\":\"minor\",\"source_quote\":\"“free-will offerings of God’s people”\",\"suggested_fix\":\"Gebruik bijvoorbeeld “vrijwillige giften van Gods volk”; “vrijwillige giften” is hier idiomatischer en behoudt de betekenis van vrijwillige bijdragen.\",\"translation_quote\":\"“vrijwillige giften van Gods volk”\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 3543,
+    "content_evidence_truncated": false,
+    "content_sha256": "aab6c0903f8073441caa15c0cd9c5b9968a9ef377eeaf4fc2f8575441194ebd3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 786,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7525,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7522,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8311
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

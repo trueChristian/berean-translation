@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ποίημα, πρώτη στροφή\",\"severity\":\"major\",\"source_quote\":\"“And I perish! I perish, dear Master; / Oh hasten, and take control.”\",\"suggested_fix\":\"Αποδώστε το νόημα ως «Και χάνομαι! Χάνομαι, αγαπημένε Δάσκαλε· / Ω, βιάσου να με σώσεις και να πάρεις τον έλεγχο».\",\"translation_quote\":\"«Και χάνομαι! Χάνομαι, αγαπημένε Δάσκαλε· / Ω, βιάσου και πάρε τον έλεγχο.»\"},{\"location\":\"Ποίημα, τελευταία στροφή\",\"severity\":\"major\",\"source_quote\":\"“And with joy I shall make the blest harbor”\",\"suggested_fix\":\"Αποδώστε την άφιξη στο ευλογημένο λιμάνι, π.χ. «και με χαρά θα φτάσω στο ευλογημένο λιμάνι».\",\"translation_quote\":\"«και με χαρά θα φτάσω στο ευλογημένο λιμάνι»\"},{\"location\":\"Παράγραφος που αρχίζει «Όταν ακούμε ότι άνθρωποι πράγματι πλησίασαν…»\",\"severity\":\"major\",\"source_quote\":\"“This death was not a senseless tragedy; it was meant to bring glory to God.”\",\"suggested_fix\":\"Αποδώστε την πρόθεση ως «Αυτός ο θάνατος δεν ήταν μια παράλογη τραγωδία· προοριζόταν να φέρει δόξα στον Θεό».\",\"translation_quote\":\"«Αυτός ο θάνατος δεν ήταν μια παράλογη τραγωδία· είχε σκοπό να φέρει δόξα στον Θεό».\"},{\"location\":\"Παράγραφος για τον Ιησού, τη Μαρία, τη Μάρθα και τον Λάζαρο\",\"severity\":\"major\",\"source_quote\":\"“He came to Mary and Martha and listened. He cried with them even though He knew He could and then did transform the whole situation by raising Lazarus.”\",\"suggested_fix\":\"Διορθώστε την απόδοση ώστε να λέει ότι ο Ιησούς πήγε στη Μαρία και τη Μάρθα και τις άκουσε, χωρίς να προσθέτει ότι τις άκουσε με την έννοια ότι «τις άκουσε» μόνο αν αυτό αποδίδεται ακριβέστερα ως ακρόαση; κυρίως, αλλάξτε το «άλλαξε» σε ρητή απόδοση του «transform», π.χ. «μεταμόρφωσε ολόκληρη την κατάσταση ανασταίνοντας τον Λάζαρο».\",\"translation_quote\":\"«Πήγε στη Μαρία και τη Μάρθα και τις άκουσε. Έκλαψε μαζί τους, παρόλο που ήξερε ότι μπορούσε και στη συνέχεια πράγματι άλλαξε ολόκληρη την κατάσταση ανασταίνοντας τον Λάζαρο».\"},{\"location\":\"Παράγραφος για τις χήρες του Ισημερινού\",\"severity\":\"major\",\"source_quote\":\"“Elizabeth Elliot”\",\"suggested_fix\":\"Διορθώστε το επώνυμο σε «Elizabeth Elliott» (ή στην καθιερωμένη ελληνική μεταγραφή του).\",\"translation_quote\":\"«Elizabeth Elliot»\"},{\"location\":\"Παράγραφος για τη στήριξη των παιδιών και τους λογαριασμούς\",\"severity\":\"major\",\"source_quote\":\"“I broke out in a sweat more than once wondering where the money was coming from to pay the bills, but I thank the Lord that it was always there.”\",\"suggested_fix\":\"Αποδώστε το «it» ως τα χρήματα ή τους πόρους που χρειάζονταν, π.χ. «…αναρωτιέμαι από πού θα βρίσκονταν τα χρήματα για να πληρωθούν οι λογαριασμοί, αλλά ευχαριστώ τον Κύριο που πάντα βρίσκονταν».\",\"translation_quote\":\"«…αναρωτώμενη από πού θα έβρισκα τα χρήματα για να πληρώσω τους λογαριασμούς, αλλά ευχαριστώ τον Κύριο που τα χρήματα ήταν πάντα εκεί».\"},{\"location\":\"Ποίημα, τελευταία στροφή, στίχος για τον ουρανό\",\"severity\":\"minor\",\"source_quote\":\"“And heaven’s within my breast.”\",\"suggested_fix\":\"Για πιο φυσική και πιστή ποιητική απόδοση: «κι ο ουρανός είναι μέσα στην καρδιά μου».\",\"translation_quote\":\"«κι ο ουρανός βρίσκεται μέσα στο στήθος μου».\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 4719,
+    "content_evidence_truncated": false,
+    "content_sha256": "d15fd5cafed90e85cff2e4469256c8d2862bc9eeaaee0ce24a0f4f5519088bd7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1022,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10828,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10825,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11850
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

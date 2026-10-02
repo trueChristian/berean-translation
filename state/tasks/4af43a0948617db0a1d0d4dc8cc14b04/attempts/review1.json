@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, final couplet\",\"severity\":\"minor\",\"source_quote\":\"Our life’s but a vapor, the Good Book conveys.\",\"suggested_fix\":\"Replace “un vapore, ci dice il Libro buono” with “un soffio, ci dice la Bibbia” for a natural Italian rendering of the image and “the Good Book.”\",\"translation_quote\":\"La nostra vita è solo un vapore, ci dice il Libro buono.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 415,
+    "content_evidence_truncated": false,
+    "content_sha256": "cf0434901fa1ed0a7b2b7bae68ec6a8c35c15c7f78456df6555d50b23b7e10a0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 539,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 421,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1764,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2306
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bbb7a276-23cd-44c3-b9f1-2b2cff4762a1",
+    "response_id": "chatcmpl-EUc7Y5OgpRVxrvSF1U6lGI8Q9R0LJ",
+    "usage": {
+      "completion_tokens": 242,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1735,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1980
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poema, líneas 15–18",
+        "severity": "major",
+        "source_quote": "Would we lose our life, for the good Lord’s sake? / Then eternity we’d gain, and heaven partake. / Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
+        "suggested_fix": "¿Perderíamos la vida por amor al buen Señor? / Entonces ganaríamos la eternidad y participaríamos del cielo. / ¿O amaríamos nuestra vida, cuando la Biblia deja claro / que perderíamos nuestra oportunidad de alcanzar el cielo tan amado?",
+        "translation_quote": "¿Perderíamos la vida por amor al buen Señor? / Entonces ganaríamos la eternidad y participaríamos del cielo. / ¿O amamos nuestra vida, cuando la Biblia deja claro / que perderíamos nuestra oportunidad de alcanzar el cielo tan amado? La traducción cambia «Or love our life» (amar nuestra vida) a una pregunta en presente («¿O amamos nuestra vida?»), mientras que el contexto usa el condicional hipotético («Would we…?»)."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

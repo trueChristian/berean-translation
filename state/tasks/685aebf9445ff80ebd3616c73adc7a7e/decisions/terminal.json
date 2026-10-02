@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "कविता, अंतिम दो पंक्तियाँ",
+      "severity": "minor",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "भली पुस्तक कहती है, हमारा जीवन तो बस भाप है। → बाइबल कहती है, हमारा जीवन तो बस भाप है।",
+      "translation_quote": "भली पुस्तक कहती है, हमारा जीवन तो बस भाप है।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

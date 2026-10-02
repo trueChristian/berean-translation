@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "अनुच्छेद 7",
+      "severity": "major",
+      "source_quote": "The bible says that the adornment should not be outward.",
+      "suggested_fix": "बाइबल कहती है कि साज-सज्जा बाहरी नहीं होनी चाहिए।",
+      "translation_quote": "बाइबल कहती है कि साज-सज्जा बाहरी नहीं होनी चाहिए।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

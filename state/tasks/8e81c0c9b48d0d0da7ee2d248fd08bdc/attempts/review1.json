@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, quoted Matthew 24:6-7\",\"severity\":\"major\",\"source_quote\":\"but the end is not yet\",\"suggested_fix\":\"Replace «ولكن ليس المنتهى بعد» with «ولكن النهاية لم تأتِ بعد» or another Arabic rendering that conveys that the end has not yet come.\",\"translation_quote\":\"ولكن ليس المنتهى بعد\"},{\"location\":\"HTML, quotation from Matthew 16:24-26\",\"severity\":\"major\",\"source_quote\":\"For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it.\",\"suggested_fix\":\"Translate the contrast as losing one's life for Jesus' sake and finding it; for example: «فمن أراد أن يحفظ حياته يفقدها، ومن يفقد حياته من أجلي يجدها».\",\"translation_quote\":\"فإن من أراد أن يخلّص نفسه يهلكها، ومن يهلك نفسه من أجلي يجدها.\"},{\"location\":\"HTML, paragraph beginning “First, that which is abroad…”\",\"severity\":\"major\",\"source_quote\":\"a God who is alive, sovereign, and holy who will some day require an accounting for all things done in this earthly body\",\"suggested_fix\":\"Revise the final clause to say that God will one day require an account of everything done in this earthly body; for example: «إله حيّ وسيد وقدوس سيطلب يومًا حسابًا عن كل ما فُعل في هذا الجسد الأرضي».\",\"translation_quote\":\"إله حيّ وسيد وقدوس، سيطلب يومًا حسابًا عن كل ما فعله الإنسان في هذا الجسد الأرضي\"},{\"location\":\"HTML, paragraph beginning “What about all the what if ’s…?”\",\"severity\":\"major\",\"source_quote\":\"then their outcome will be that They are brought down and [are] fallen…\",\"suggested_fix\":\"Translate the quoted result as «هم يخرّون ويسقطون…» (or an equivalent that preserves the subject as those who trusted in chariots and horses).\",\"translation_quote\":\"تكون عاقبتهم أنهم جثوا وسقطوا…\"},{\"location\":\"HTML, quotation from Luke 21:26\",\"severity\":\"major\",\"source_quote\":\"Men’s hearts [are] failing them for fear\",\"suggested_fix\":\"Render this as hearts failing because of fear, for example: «تخور قلوب الناس من الخوف».\",\"translation_quote\":\"تخفق قلوب الناس من الخوف\"},{\"location\":\"HTML, quotation from Revelation 9:4-6\",\"severity\":\"major\",\"source_quote\":\"those men which have not the seal of God in their foreheads … should be tormented five months … and shall desire to die, and death shall flee from them\",\"suggested_fix\":\"Preserve that the unsealed people are tormented for five months and will long to die but death will flee from them; for example: «أولئك الذين ليس لهم ختم الله على جباههم … يُعذَّبون خمسة أشهر … ويشتهون أن يموتوا، فيهرب الموت منهم».\",\"translation_quote\":\"أولئك الناس الذين ليس لهم ختم الله على جباههم … يُعذَّبون خمسة أشهر … ويطلبون الموت ولا يجدونه\"},{\"location\":\"HTML, quotation from Matthew 25:34-40\",\"severity\":\"major\",\"source_quote\":\"Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me\",\"suggested_fix\":\"Translate “my brethren” as «إخوتي» rather than «إخوتي هؤلاء»? Actually preserve its possessive meaning while making clear that the king says the deed was done to him: «بما أنكم فعلتموه بأحد إخوتي هؤلاء الأصاغر، فبي فعلتموه».\",\"translation_quote\":\"بما أنكم فعلتموه بأحد إخوتي هؤلاء الأصاغر فبي فعلتم\"},{\"location\":\"HTML, paragraph beginning “One specific thing that I wish to focus on…”\",\"severity\":\"major\",\"source_quote\":\"within the plain communities\",\"suggested_fix\":\"Use an accurate Arabic rendering for the plain communities (the Plain Anabaptist communities), such as «مجتمعات الأنابابتست السهلية», rather than «مجتمعات السهول», which suggests geographic plains generally.\",\"translation_quote\":\"في مجتمعات السهول\"},{\"location\":\"HTML, paragraph beginning “For many of us, for me in particular…”\",\"severity\":\"major\",\"source_quote\":\"What if we were the one who God wanted to say a word for Him out of a life that was living for Him to bring His awareness to one who knows not the One, Living, and True God?\",\"suggested_fix\":\"Clarify the intended idea: God may want us, through a life lived for Him, to speak on His behalf and make Him known to someone who does not know the one true and living God. For example: «ماذا لو كنا نحن الشخص الذي يريد الله أن يتكلم من خلاله بكلمة عنه، في حياة تعيش له، ليعرّف به شخصًا لا يعرف الإله الواحد الحي الحقيقي؟»\",\"translation_quote\":\"ماذا لو كنا نحن الشخص الذي أراد الله أن يقول كلمةً نيابةً عنه، من حياة تعيش له، ليعرّف به شخصًا لا يعرف الإله الواحد الحي الحقيقي؟\"}],\"passed\":false,\"score\":73}",
+    "content_bytes": 5280,
+    "content_evidence_truncated": false,
+    "content_sha256": "b7d078c6d7fcb6b04b611f467861719db3e6954a567ad2ce1632f8a6c51d6b8d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1127,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7504,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7501,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8631
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

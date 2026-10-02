@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem lines 4–6\",\"severity\":\"major\",\"source_quote\":\"However, the church, can forget of that life,\\nIf the presence of God, shines as the sun,\\nThe singing so sweet, includes everyone.\",\"suggested_fix\":\"Replace these lines with: لكن الكنيسة قد تنسى تلك الحياة،\\nإن كان حضور الله يشرق كالشمس،\\nفالغناء العذب يشمل الجميع.\",\"translation_quote\":\"لكن الكنيسة قد تنسى تلك الحياة،\\nإن كان حضور الله يشرق كالشمس،\\nفالترانيم العذبة تشمل الجميع.\"},{\"location\":\"source.html, poem lines 13–14\",\"severity\":\"major\",\"source_quote\":\"Treasures are worthy, of that we agree.\\nBut lay them in heaven where forever they’ll be.\",\"suggested_fix\":\"Replace these lines with: الكنوز ثمينة، وهذا ما نتفق عليه.\\nلكن ضعوها في السماء حيث ستبقى إلى الأبد.\",\"translation_quote\":\"لا خلاف على أن الكنوز جديرة بالاهتمام،\\nلكن أودعوها في السماء حيث تبقى إلى الأبد.\"},{\"location\":\"source.html, poem line 19\",\"severity\":\"major\",\"source_quote\":\"For it seems it’s this life, that has us amused.\",\"suggested_fix\":\"Replace this line with: إذ يبدو أن هذه الحياة هي ما يسلّينا.\",\"translation_quote\":\"إذ يبدو أن هذه الحياة هي ما يشغلنا ويُسعدنا.\"},{\"location\":\"source.html, poem line 23\",\"severity\":\"major\",\"source_quote\":\"Our life’s but a vapor, the Good Book conveys.\",\"suggested_fix\":\"Replace this line with: يخبرنا الكتاب المقدس أن حياتنا ليست إلا بخارًا.\",\"translation_quote\":\"يخبرنا الكتاب العزيز أن حياتنا ليست إلا بخارًا.\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 1873,
+    "content_evidence_truncated": false,
+    "content_sha256": "a4548897ce7c4f4d1e5c6449f48bf168fad1ffaff4ae37a0c9121a4085f3aa56",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1769,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1766,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2172
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

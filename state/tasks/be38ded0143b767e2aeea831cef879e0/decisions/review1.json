@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "“When God does a work in our lives…” paragraph",
+      "severity": "major",
+      "source_quote": "“However, the devil wants us to quiet down and say it is humility like Eliab wanted David to do.”",
+      "suggested_fix": "“그러나 마귀는 우리가 조용히 하고 그것을 겸손이라고 말하기를 원합니다. 엘리압이 다윗에게 그렇게 하기를 원했던 것처럼 말입니다.”",
+      "translation_quote": "“그러나 마귀는 우리가 조용히 하고, 다윗이 그랬던 것처럼 그것을 겸손이라고 말하기를 원합니다.”"
+    },
+    {
+      "location": "Saul equips David paragraph (1 Samuel 17:38–39)",
+      "severity": "minor",
+      "source_quote": "“And David girded his sword upon his armour, and he assayed to go; for he had not proved it.”",
+      "suggested_fix": "“다윗은 갑옷 위에 칼을 차고 나아가 보려 했지만, 그것을 시험해 본 적이 없었습니다.”",
+      "translation_quote": "“다윗은 갑옷 위에 칼을 차고 걸어 보려 했지만 익숙하지 않았습니다.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

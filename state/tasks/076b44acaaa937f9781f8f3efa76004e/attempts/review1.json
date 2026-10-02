@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, lines 3–6\",\"severity\":\"major\",\"source_quote\":\"There’s a place up there, no toil or strife. However, the church, can forget of that life, If the presence of God, shines as the sun, The singing so sweet, includes everyone.\",\"suggested_fix\":\"Preserve the contrast and conditional meaning in Dutch, for example: “Daarboven is een plaats, zonder zwoegen of strijd. Toch kan de kerk dat leven vergeten: als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen.”\",\"translation_quote\":\"Daarboven is een plaats, zonder zwoegen of strijd. Toch kan de kerk dat leven vergeten, Als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen.\"},{\"location\":\"HTML, poem, line 9\",\"severity\":\"major\",\"source_quote\":\"We build our mansions here on this earth,\",\"suggested_fix\":\"Translate “mansions” as “herenhuizen” or another suitable Dutch equivalent for large houses, rather than “herenhuizen” only if the intended sense is preserved; avoid implying more than the source states.\",\"translation_quote\":\"We bouwen hier op aarde onze herenhuizen,\"},{\"location\":\"HTML, poem, lines 23–24\",\"severity\":\"major\",\"source_quote\":\"When the next life is heaven, eternity with Him, Then death is the beginning, so why is it grim?\",\"suggested_fix\":\"Use Dutch phrasing that retains the question about why death is grim, such as: “Als het volgende leven de hemel is, de eeuwigheid bij Hem, dan is de dood het begin—waarom is dat dan zo somber?”\",\"translation_quote\":\"Als het volgende leven de hemel is, de eeuwigheid bij Hem, Dan is de dood het begin; waarom is hij dan zo somber?\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1671,
+    "content_evidence_truncated": false,
+    "content_sha256": "a71362d9388bd3139e59c4b7b052b163ee5f57db0c061894eb5efc85e43dcc9a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 399,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1728,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1725,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2127
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

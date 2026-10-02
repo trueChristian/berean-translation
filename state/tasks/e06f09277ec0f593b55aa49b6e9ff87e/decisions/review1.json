@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "HTML, 스포츠 무대 문단",
+      "severity": "major",
+      "source_quote": "But sporting talent adds little to their honest pure worth as a human.",
+      "suggested_fix": "하지만 운동 재능은 한 인간으로서의 진실하고 순수한 가치에 거의 보탬이 되지 않습니다.",
+      "translation_quote": "하지만 운동 재능은 인간으로서 그들의 정직하고 순수한 가치에 거의 보탬이 되지 않습니다."
+    },
+    {
+      "location": "HTML, 다윗이 형들을 찾아가는 문단",
+      "severity": "major",
+      "source_quote": "the reproachful blasphemies of the infidel",
+      "suggested_fix": "이교도의 모욕적이고 신성모독적인 말을",
+      "translation_quote": "이 불경한 자의 모욕적인 신성모독에"
+    },
+    {
+      "location": "HTML, 골리앗의 물매와 투석수 문단",
+      "severity": "critical",
+      "source_quote": "at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun",
+      "suggested_fix": "다윗의 물매는 초당 6~7회 회전할 때 45구경 권총에 맞먹는 저지력을 냈고",
+      "translation_quote": "다윗의 물매는 초당 6~7회 회전할 때 45밀리미터 권총에 맞먹는 저지력을 냈고"
+    },
+    {
+      "location": "HTML, 신실한 행동 문단",
+      "severity": "major",
+      "source_quote": "His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.",
+      "suggested_fix": "다윗의 나이를 비웃고 성급히 결론을 내리며 쉽게 모욕감을 느끼고 다른 이들의 무지에 놀란 그는 분노로 들끓었습니다.",
+      "translation_quote": "그는 다윗의 나이를 비웃고, 성급히 결론을 내리고, 쉽게 모욕감을 느끼며, 다른 이들의 무지에 놀라면서 아드레날린을 끌어올렸습니다."
+    },
+    {
+      "location": "HTML, 마지막 질문 문단",
+      "severity": "major",
+      "source_quote": "God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.",
+      "suggested_fix": "하나님은 우리가 그분께 내어 드리는 도구로 거인들을 무찌르십니다. 도르가의 바늘에서… 야엘의 말뚝까지, 생업에 쓰인 세베대의 배들에서… 그분의 품에 안긴 소년들까지 말입니다.",
+      "translation_quote": "하나님은 우리가 그분께 내어 드리는 도구로 거인들을 무찌르십니다. 도르가의 바늘에서… 야엘의 말뚝까지, 사업을 위한 세베대의 배들에서… 그분의 품에 안긴 소년들까지 말입니다."
+    },
+    {
+      "location": "HTML, 시",
+      "severity": "major",
+      "source_quote": "Dorcus had a needle;",
+      "suggested_fix": "도르가에게는 바늘이 있었고;",
+      "translation_quote": "도르가에게는 바늘이 있었고;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

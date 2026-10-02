@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "eff08f5d-e156-4a1d-ae66-708e5d66be8d",
+    "response_id": "chatcmpl-EUc7YvHoDvk0hX4r3JwJukpPe6oeP",
+    "usage": {
+      "completion_tokens": 911,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8998,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8995,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9909
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First poem, <p class=\"poem\">",
+        "severity": "major",
+        "source_quote": "“I bow in my grief today” and “Torrents of sin and of anguish / Sweep o’er my sinking soul!”",
+        "suggested_fix": "Revise these lines to preserve the original: “Böjer mig i sorg i dag” and “Syndens och ångestens strömmar / Sveper över min sjunkande själ!” (The current version changes the anguish of spirit to “själens ångest” and makes the torrent lines grammatically singular.)",
+        "translation_quote": "“Mästare, i själens ångest / Böjer jag mig i sorg i dag;” and “Syndens och ångestens strömmar / Sveper över min sjunkande själ!”"
+      },
+      {
+        "location": "Quote in the fourth <li> under “Here are more experiences…”",
+        "severity": "major",
+        "source_quote": "“‘Underneath are the everlasting arms’, and I felt them.”",
+        "suggested_fix": "Translate the quoted prose into Swedish while retaining its meaning, for example: ”’Under mig är de eviga armarna’, och jag kände dem.”",
+        "translation_quote": "“’Underneath are the everlasting arms’, och jag kände dem.”"
+      },
+      {
+        "location": "<blockquote>, second <p>, Matthew 9:2-8 quotation",
+        "severity": "major",
+        "source_quote": "“Son, be of good cheer; thy sins be forgiven thee … And Jesus knowing their thoughts said, Wherefore think ye evil in your hearts? For whether is easier, to say, Thy sins be forgiven thee; or to say, Arise, and walk?”",
+        "suggested_fix": "Translate the full quoted passage faithfully into Swedish, including the clause “Son, be of good cheer” (for example, “Var vid gott mod, min son”), and preserve the reference as Matteus 9:2-8. Do not omit the printed words “For whether is easier”.",
+        "translation_quote": "“Var vid gott mod, min son; dina synder är förlåtna.” … Men Jesus, som visste vad de tänkte, sade: ’Varför tänker ni ont i era hjärtan? Vilket är lättast, att säga: Dina synder är förlåtna, eller att säga: Stå upp och gå?”"
+      },
+      {
+        "location": "Poem in final verse, <p class=\"poem\">",
+        "severity": "major",
+        "source_quote": "“the elements sweetly rest”",
+        "suggested_fix": "Translate the image of the elements resting peacefully without changing it to danger being over; for example, “elementen vilar ljuvligt/stilla”.",
+        "translation_quote": "“Mästare, faran är över, elementen vilar stilla;”"
+      },
+      {
+        "location": "Second <li> under “What do we say?”",
+        "severity": "major",
+        "source_quote": "“especially if they haven’t experienced much trauma before”",
+        "suggested_fix": "Keep the source’s gender-neutral reference: replace “hon” in the affected sentence with “personen” or another gender-neutral Swedish construction.",
+        "translation_quote": "“särskilt om hon inte tidigare har upplevt särskilt mycket trauma.”"
+      },
+      {
+        "location": "Seventh <li> under “How do we help?”",
+        "severity": "major",
+        "source_quote": "“Widows need encouragement on their anniversary date and on the date their husband died.”",
+        "suggested_fix": "Translate “anniversary date” without specifying a wedding anniversary, for example: “Änkor behöver uppmuntran på sin årsdag och på årsdagen av sin mans död.”",
+        "translation_quote": "“Änkor behöver uppmuntran på sin bröllopsdag och på årsdagen av sin mans död.”"
+      },
+      {
+        "location": "First <p> after heading “How do we help?”",
+        "severity": "minor",
+        "source_quote": "“What is our part in helping a grieving sister glorify God in the midst of her situation?”",
+        "suggested_fix": "Use idiomatic Swedish for the role in helping: “Vilken roll har vi när det gäller att hjälpa en sörjande syster att förhärliga Gud mitt i sin situation?”",
+        "translation_quote": "“Vilken roll har vi i att hjälpa en sörjande syster att förhärliga Gud mitt i sin situation?”"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

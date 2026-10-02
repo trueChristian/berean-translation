@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dikt, strofen som börjar ”This promise can also open to you”",
+      "severity": "major",
+      "source_quote": "“This promise can also open to you,\nThe secrets that are hid 'midst the storm.\nFor My strength and power are manifest,\nWhen these to My will conform.”",
+      "suggested_fix": "Ersätt motsvarande strof med: ”Detta löfte kan också öppna för dig / de hemligheter som döljer sig mitt i stormen. / För min styrka och kraft blir synliga / när dessa fogar sig efter min vilja.”",
+      "translation_quote": "”Detta löfte kan också öppna för dig\nstormens dolda hemligheter.\nFör min styrka och kraft blir synliga\nnär detta fogar sig efter min vilja.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

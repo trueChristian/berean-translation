@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Alinea over Davids wapenrusting, 1 Samuël 17:38-39\",\"severity\":\"major\",\"source_quote\":\"And David girded his sword upon his armour, and he assayed to go; for he had not proved it. ... I cannot go with these; for I have not proved them.\",\"suggested_fix\":\"Vervang de betreffende zinnen door: “David gordde zijn zwaard over zijn wapenrusting en probeerde op weg te gaan, want hij had die niet uitgeprobeerd. ... David zei tegen Saul: Ik kan hiermee niet gaan, want ik heb ze niet uitgeprobeerd.” Zo blijft de betekenis van ‘had not proved’ behouden en wordt het zwaard niet aan Saul toegeschreven.\",\"translation_quote\":\"David gordde Sauls zwaard over zijn wapenrusting en probeerde te lopen, maar hij was het niet gewend. ... Ik kan hier niet mee lopen, want ik ben het niet gewend.\"},{\"location\":\"Alinea die begint met “Wanneer we zelf iets tot stand brengen”\",\"severity\":\"major\",\"source_quote\":\"When we do a work on our own, we cannot boast of it because we did it. It would be pride\",\"suggested_fix\":\"Vervang “Wanneer we zelf iets tot stand brengen, kunnen we er niet op pochen alsof wij het hebben gedaan” door “Wanneer we zelf iets tot stand brengen, kunnen we er niet over pochen, want wij hebben het zelf gedaan.”\",\"translation_quote\":\"Wanneer we zelf iets tot stand brengen, kunnen we er niet op pochen alsof wij het hebben gedaan.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1412,
+    "content_evidence_truncated": false,
+    "content_sha256": "ad1a0eb65131469ad3d451251f8066fb456e43a518545749a4de952049a760f1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1161,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 800,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8086,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9250
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

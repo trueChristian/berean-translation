@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "de2210e5-bfc9-4cdd-99db-ac1775fe6611",
+    "response_id": "chatcmpl-EUc8vKvRfcMCuAzSbSWmVSSWBLVPi",
+    "usage": {
+      "completion_tokens": 838,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 690,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11178,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11175,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12016
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Guds ord håller det ursprungliga äktenskapsförbundet…”",
+        "severity": "minor",
+        "source_quote": "“considered by our Lord as the sin of lust and adultery”",
+        "suggested_fix": "Replace “synden lust och äktenskapsbrott” with “synden att hysa lust och begå äktenskapsbrott” to make the intended meaning clear and grammatical.",
+        "translation_quote": "“betraktas av vår Herre som synden lust och äktenskapsbrott”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

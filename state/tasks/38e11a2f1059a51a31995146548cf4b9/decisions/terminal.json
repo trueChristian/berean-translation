@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final poem, second line",
+      "severity": "minor",
+      "source_quote": "Earth’s sun in the calm lake is mirrored,",
+      "suggested_fix": "جھیل کے پُرسکون پانی میں زمین کا سورج منعکس ہے،",
+      "translation_quote": "جھیل کے پرسکون پانی میں زمین کا سورج منعکس ہے،"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

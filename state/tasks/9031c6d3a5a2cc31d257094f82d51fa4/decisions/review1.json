@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Malachi 2:14–16 quotation",
+      "severity": "major",
+      "source_quote": "“And did not he make one? Yet had he the residue of the spirit.”",
+      "suggested_fix": "Change “Tog het Hy ’n oorvloed van Gees gehad” to “Tog het Hy die oorblyfsel van die Gees gehad” to preserve “residue” rather than changing it to “abundance.”",
+      "translation_quote": "“Het Hy hulle nie een gemaak nie? Tog het Hy ’n oorvloed van Gees gehad.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

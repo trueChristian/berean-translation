@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "html, gedicht, strofe 5, regel 1",
+      "severity": "minor",
+      "source_quote": "This storm had removed all signs of the path,",
+      "suggested_fix": "Deze storm had alle tekens van het pad uitgewist,",
+      "translation_quote": "Deze storm had alle tekens van het pad weggevaagd,"
+    },
+    {
+      "location": "html, gedicht, strofe 7, regel 1",
+      "severity": "minor",
+      "source_quote": "Then a still, but strong voice spoke in my ear,",
+      "suggested_fix": "Toen sprak een zachte, maar krachtige stem in mijn oor,",
+      "translation_quote": "Toen klonk er een zachte, maar krachtige stem in mijn oor,"
+    },
+    {
+      "location": "html, gedicht, strofe 9, regel 2",
+      "severity": "minor",
+      "source_quote": "There it was! A cleft of light!",
+      "suggested_fix": "Daar was het! Een spleet van licht!",
+      "translation_quote": "Daar was het! Een opening van licht!"
+    },
+    {
+      "location": "html, gedicht, strofe 10, regel 2",
+      "severity": "major",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Geen seconde zou Ik je zijde verlaten.",
+      "translation_quote": "Geen seconde kon Ik je zijde verlaten."
+    },
+    {
+      "location": "html, gedicht, strofe 14, regels 1–2",
+      "severity": "major",
+      "source_quote": "This promise can also open to you, / The secrets that are hid 'midst the storm.",
+      "suggested_fix": "Deze belofte kan je ook toegang geven tot / de geheimen die midden in de storm verborgen liggen.",
+      "translation_quote": "Deze belofte kan je ook de geheimen onthullen / Die midden in de storm verborgen liggen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

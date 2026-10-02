@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4b0979ab-5417-48e5-8ed7-0d60e7feca86",
+    "response_id": "chatcmpl-EUc7X1ySVt0RfYi5HL5aL5egS3XwP",
+    "usage": {
+      "completion_tokens": 588,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8123,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8120,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8711
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “What about all the what if ’s…?”",
+        "severity": "major",
+        "source_quote": "“The Democrats are taking the U.S. to war with Russia.”",
+        "suggested_fix": "Replace “Demokrasia wanaipeleka Marekani vitani na Urusi.” with “Wanademokrasia wanaipeleka Marekani vitani na Urusi.”",
+        "translation_quote": "“Demokrasia wanaipeleka Marekani vitani na Urusi.”"
+      },
+      {
+        "location": "HTML, paragraph beginning “From my perspective it seems that many in the world…”",
+        "severity": "major",
+        "source_quote": "“…the kings of the earth, and the great men, and the rich men, and the chief captains, and the mighty men, and every bondman, and every free man, [will hide] themselves in the dens and in the rocks of the mountains; And [will say] to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb…”",
+        "suggested_fix": "Correct the quoted passage to preserve the source’s meaning, for example: “…wafalme wa dunia, na wakuu, na matajiri, na majemadari, na wenye nguvu, na kila mtumwa, na kila mtu huru, [watajificha] katika mapango na katika miamba ya milima; Nao [wataziambia] milima na miamba, Tuangukieni, na kutuficha usoni pake yeye aketiye juu ya kiti cha enzi, na mbali na ghadhabu ya Mwana-Kondoo…” The rest of the quotation should likewise retain the source’s distinction between hiding from God’s face and from the Lamb’s wrath.",
+        "translation_quote": "“…wafalme wa dunia, na wakuu, na matajiri, na majemadari, na wenye nguvu, na kila mtumwa, na kila mtu huru, [watajificha] katika mapango na katikati ya miamba ya milima; Nao [wataziambia] milima na miamba, Tuangukieni, tukaficheni mbali na uso wake yeye aketiye juu ya kiti cha enzi, na ghadhabu ya Mwana-Kondoo…”"
+      },
+      {
+        "location": "HTML, paragraph beginning “One specific thing that I wish to focus on…”",
+        "severity": "major",
+        "source_quote": "“…within the plain communities.”",
+        "suggested_fix": "Replace “jumuiya za watu wa kawaida” with “jumuiya za Waamishi,” or another established Kiswahili rendering that identifies the plain communities in this context.",
+        "translation_quote": "“…katika jumuiya za watu wa kawaida.”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

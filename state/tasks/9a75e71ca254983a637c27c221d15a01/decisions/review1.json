@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning ‘Maar… wat is dit?’",
+      "severity": "minor",
+      "source_quote": "“Of all things, I forgot to put a stamp on the envelope!”",
+      "suggested_fix": "Vervang ‘Van alles wat, ik ben vergeten een postzegel op de envelop te plakken!’ door ‘En dan ook nog: ik ben vergeten een postzegel op de envelop te plakken!’",
+      "translation_quote": "‘Van alles wat, ik ben vergeten een postzegel op de envelop te plakken!’"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

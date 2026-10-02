@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "089a15de-db18-4f5a-917e-3795dd86064d",
+    "response_id": "chatcmpl-EUc7XX2mkhcBGFr1dosLWJvmUQuU9",
+    "usage": {
+      "completion_tokens": 754,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2942,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3699
+    }
+  },
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, stanza beginning “My child, fear not”",
+        "severity": "minor",
+        "source_quote": "Not for a second could I leave your side.",
+        "suggested_fix": "Replace “צידך” with “לצדך” to correctly say “by your side”: “אפילו לרגע לא עזבתי את לצדך” is not grammatical; use “אפילו לרגע לא עזבתי אותך, ונשארתי לצדך” or, more narrowly, “אפילו לרגע לא משתי לצדך.”",
+        "translation_quote": "אפילו לרגע לא עזבתי את צידך."
+      },
+      {
+        "location": "HTML, stanza beginning “But here I have placed My rainbow”",
+        "severity": "major",
+        "source_quote": "You can see that My promise is certain.",
+        "suggested_fix": "Replace “שהבטחתי בטוחה” with “שהבטחתי ודאית” or “שההבטחה שלי ודאית” so the line clearly says that the promise is certain.",
+        "translation_quote": "תוכל לראות שהבטחתי בטוחה."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

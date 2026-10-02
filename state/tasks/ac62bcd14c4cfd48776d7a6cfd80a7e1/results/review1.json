@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "66b89290-118d-4b75-b15b-28d9e1ac483e",
+    "response_id": "chatcmpl-EUc7jHO55fLqDwHjxojKaqOSGvAG6",
+    "usage": {
+      "completion_tokens": 895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 784,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8240,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8237,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9135
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “One specific thing…”",
+        "severity": "major",
+        "source_quote": "“within the plain communities”",
+        "suggested_fix": "Replace “আমাদের সাধারণ সম্প্রদায়ের মধ্যে” with “প্লেইন সম্প্রদায়গুলোর মধ্যে” to preserve the reference to Plain communities as a distinct group.",
+        "translation_quote": "“আমাদের সাধারণ সম্প্রদায়ের মধ্যে”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

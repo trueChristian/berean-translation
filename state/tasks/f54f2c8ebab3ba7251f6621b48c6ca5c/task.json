@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 8202
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 672,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 441,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8061,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8058,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8733
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “David responded” (1 Samuel 17:34-36)",
+      "severity": "major",
+      "source_quote": "“I caught him by his beard”",
+      "suggested_fix": "Cambia «yo le echaba mano de la quijada» por «lo agarré por la barba», conservando el resto de la cita y la referencia.",
+      "translation_quote": "«yo le echaba mano de la quijada»"
+    },
+    {
+      "location": "source.html, paragraph beginning “Then David said” (1 Samuel 17:45-46)",
+      "severity": "major",
+      "source_quote": "“Thou comest to me with a sword, and with a spear, and with a shield”",
+      "suggested_fix": "Cambia «con espada y lanza y jabalina» por «con espada, lanza y escudo», conservando el resto de la cita y la referencia.",
+      "translation_quote": "«Tú vienes a mí con espada y lanza y jabalina»"
+    }
+  ],
   "id": "f54f2c8ebab3ba7251f6621b48c6ca5c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "spa",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

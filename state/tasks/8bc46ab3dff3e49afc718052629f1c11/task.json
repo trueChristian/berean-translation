@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 7628
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1024,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 603,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7487,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7484,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8511
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Lead paragraph",
+      "severity": "major",
+      "source_quote": "She did not have any condition that would normally be considered terminal.",
+      "suggested_fix": "Ändra till: ”Hon hade inte heller något tillstånd som normalt betraktas som terminalt.”",
+      "translation_quote": "Hon hade inte heller någon sjukdom som normalt betraktas som obotlig."
+    },
+    {
+      "location": "Paragraph beginning “In Canada…”",
+      "severity": "major",
+      "source_quote": "it is not necessary to have a terminal condition to ask for help to go through with physician-assisted suicide.",
+      "suggested_fix": "Ändra till: ”I Kanada behöver man dock inte ha ett terminalt tillstånd för att be om hjälp att genomföra ett läkarassisterat självmord.”",
+      "translation_quote": "I Kanada behöver man dock inte ha en obotlig sjukdom för att be om hjälp att genomföra ett läkarassisterat självmord."
+    },
+    {
+      "location": "“End of Life” section, paragraph beginning “It is difficult…”",
+      "severity": "major",
+      "source_quote": "Some terminal illnesses, like cancer with bony metastases, can cause large amounts of pain.",
+      "suggested_fix": "Ändra till: ”Vissa terminala sjukdomar, som cancer med metastaser i skelettet, kan orsaka mycket smärta.”",
+      "translation_quote": "Vissa obotliga sjukdomar, som cancer med metastaser i skelettet, kan orsaka mycket smärta."
+    },
+    {
+      "location": "“Understand that There Will Likely be Pain” section, first paragraph",
+      "severity": "major",
+      "source_quote": "usually of a terminally ill patient",
+      "suggested_fix": "Ändra till: ”vanligtvis hos en patient i livets slutskede” (eller annan idiomatisk formulering som bevarar betydelsen av terminalt sjuk).",
+      "translation_quote": "vanligtvis hos en obotligt sjuk patient"
+    }
+  ],
   "id": "8bc46ab3dff3e49afc718052629f1c11",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swe",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

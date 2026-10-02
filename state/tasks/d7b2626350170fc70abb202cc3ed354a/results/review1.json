@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8dc5c9a0-5942-4381-bbd3-7689aa0b5d5f",
+    "response_id": "chatcmpl-EUc7YFLp9jOpk1PisJQ640HD0Xx2w",
+    "usage": {
+      "completion_tokens": 420,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7876,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7873,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8296
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "पाँचवाँ अनुच्छेद",
+        "severity": "major",
+        "source_quote": "“self ”-administer, thereby killing themselves",
+        "suggested_fix": "वाक्यांश को इस तरह अनुवाद करें कि दवा दूसरे व्यक्ति को दी जाती है और वह उसे स्वयं अपने ऊपर प्रयोग करता है, जिससे उसकी मृत्यु होती है। उदाहरण: “जबकि सहायता-प्राप्त आत्महत्या में एक व्यक्ति दूसरे को दवा देता है, जिसे वह फिर स्वयं लेता है और इस तरह अपनी जान लेता है।”",
+        "translation_quote": "“जिसे वह फिर स्वयं “लेता” है और इस तरह अपनी जान लेता है।"
+      },
+      {
+        "location": "“परमेश्वर के स्वरूप में रचे गए” शीर्षक के बाद, आदम और हव्वा पर अनुच्छेद",
+        "severity": "major",
+        "source_quote": "God put the life into Adam and Eve during Creation.",
+        "suggested_fix": "यहाँ “जीवन का श्वास” नहीं, जीवन देने की बात है। इसे इस अर्थ में संशोधित करें: “सृष्टि के समय परमेश्वर ने आदम और हव्वा में जीवन डाला।”",
+        "translation_quote": "सृष्टि के समय परमेश्वर ने आदम और हव्वा में जीवन का श्वास फूँका।"
+      },
+      {
+        "location": "“परमेश्वर की सामर्थ्य पर भरोसा रखें” शीर्षक के बाद, पौलुस के कष्टों पर अनुच्छेद",
+        "severity": "major",
+        "source_quote": "He experienced stonings, beatings, and shipwreck.",
+        "suggested_fix": "“जहाज़ टूट गया” को जहाज़-डूबने/जहाज़-टूटने की घटना के रूप में पौलुस के अनुभव से जोड़ें। उदाहरण: “उसने पत्थरवाह किए जाने, मार खाने और जहाज़ टूटने का अनुभव किया।”",
+        "translation_quote": "उसे पत्थरवाह किया गया, पीटा गया और उसका जहाज़ टूट गया।"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

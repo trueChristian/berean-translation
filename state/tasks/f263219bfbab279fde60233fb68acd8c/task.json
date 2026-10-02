@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 2014
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 403,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1769,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1766,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2172
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, poem lines 4–6",
+      "severity": "major",
+      "source_quote": "However, the church, can forget of that life,\nIf the presence of God, shines as the sun,\nThe singing so sweet, includes everyone.",
+      "suggested_fix": "Replace these lines with: لكن الكنيسة قد تنسى تلك الحياة،\nإن كان حضور الله يشرق كالشمس،\nفالغناء العذب يشمل الجميع.",
+      "translation_quote": "لكن الكنيسة قد تنسى تلك الحياة،\nإن كان حضور الله يشرق كالشمس،\nفالترانيم العذبة تشمل الجميع."
+    },
+    {
+      "location": "source.html, poem lines 13–14",
+      "severity": "major",
+      "source_quote": "Treasures are worthy, of that we agree.\nBut lay them in heaven where forever they’ll be.",
+      "suggested_fix": "Replace these lines with: الكنوز ثمينة، وهذا ما نتفق عليه.\nلكن ضعوها في السماء حيث ستبقى إلى الأبد.",
+      "translation_quote": "لا خلاف على أن الكنوز جديرة بالاهتمام،\nلكن أودعوها في السماء حيث تبقى إلى الأبد."
+    },
+    {
+      "location": "source.html, poem line 19",
+      "severity": "major",
+      "source_quote": "For it seems it’s this life, that has us amused.",
+      "suggested_fix": "Replace this line with: إذ يبدو أن هذه الحياة هي ما يسلّينا.",
+      "translation_quote": "إذ يبدو أن هذه الحياة هي ما يشغلنا ويُسعدنا."
+    },
+    {
+      "location": "source.html, poem line 23",
+      "severity": "major",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "Replace this line with: يخبرنا الكتاب المقدس أن حياتنا ليست إلا بخارًا.",
+      "translation_quote": "يخبرنا الكتاب العزيز أن حياتنا ليست إلا بخارًا."
+    }
+  ],
   "id": "f263219bfbab279fde60233fb68acd8c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"

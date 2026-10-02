@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ec11b5d4-1267-4907-b282-d65dd69f1666",
+    "response_id": "chatcmpl-EUc7YRuSLjK9blfuzpldBMuSVpcuq",
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 575,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8110,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8107,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8808
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “One specific thing…”",
+        "severity": "major",
+        "source_quote": "within the plain communities",
+        "suggested_fix": "Replace “सादे समुदायों” with “परंपरागत अनाबैपटिस्ट समुदायों” (or another established Hindi rendering of “plain communities” in this context), so the reference is to the communities rather than to something plain or simple.",
+        "translation_quote": "सादे समुदायों के भीतर"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

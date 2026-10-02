@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "شعر، بند 14، سطر 4",
+      "severity": "major",
+      "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+      "suggested_fix": "اس سطر میں آزمائشوں کو اصل کے مطابق «یہ» سے بدلیں، تاکہ مفہوم یہ رہے کہ خدا کی قوت اور قدرت تب ظاہر ہوتی ہیں جب یہ (راز) اُس کی مرضی کے مطابق ہوں؛ مثلاً: «جب یہ میری مرضی کے تابع ہوتے ہیں۔»",
+      "translation_quote": "کیونکہ میری قوت اور قدرت ظاہر ہوتی ہیں، / جب یہ آزمائشیں میری مرضی کے تابع ہوتی ہیں۔"
+    },
+    {
+      "location": "شعر، بند 2، سطر 1",
+      "severity": "minor",
+      "source_quote": "Thunder rolled out its forebodings.",
+      "suggested_fix": "«گرج نے اپنے اندیشے گونجا دیے۔»",
+      "translation_quote": "گرج نے پیش خبریوں کا شور مچا دیا۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

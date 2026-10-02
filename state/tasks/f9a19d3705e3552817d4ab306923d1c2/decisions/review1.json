@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, fourth bullet in “Here are more experiences from those who have been there”",
+      "severity": "major",
+      "source_quote": "“Underneath are the everlasting arms”",
+      "suggested_fix": "Translate the quoted prose into Afrikaans, for example: “Onder ons is die ewige arms”.",
+      "translation_quote": "‘Underneath are the everlasting arms’"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

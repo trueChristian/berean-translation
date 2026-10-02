@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "poem paragraph 6, line 1",
+      "severity": "major",
+      "source_quote": "At the end of myself, I cried out in fear...",
+      "suggested_fix": "Replace this line with: \"जब मैं पूरी तरह असहाय हो गया, तो भय से पुकार उठा...\"",
+      "translation_quote": "जब मैं अपनी सारी शक्ति खो बैठा, तो भय से पुकार उठा..."
+    },
+    {
+      "location": "poem paragraph 10, line 2",
+      "severity": "major",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Replace this line with: \"एक पल के लिए भी मैं तेरा साथ नहीं छोड़ूँगा।\"",
+      "translation_quote": "एक पल के लिए भी मैं तेरा साथ नहीं छोड़ सकता था।"
+    },
+    {
+      "location": "poem paragraph 13, line 4",
+      "severity": "major",
+      "source_quote": "Will then be held at bay.",
+      "suggested_fix": "Replace this line with: \"तब दूर ही थामे रहेंगे।\"",
+      "translation_quote": "तब तुझसे दूर ही रहेंगे।"
+    },
+    {
+      "location": "poem paragraph 14, line 4",
+      "severity": "major",
+      "source_quote": "When these to My will conform.",
+      "suggested_fix": "Replace this line with: \"जब ये मेरी इच्छा के अनुरूप होते हैं।\"",
+      "translation_quote": "जब ये मेरी इच्छा के अधीन होते हैं।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

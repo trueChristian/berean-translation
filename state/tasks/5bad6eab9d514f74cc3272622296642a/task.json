@@ -2,7 +2,6 @@
   "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,80 @@
         },
         "total_tokens": 13466
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1199,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13325,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13322,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14524
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Πρώτη παράγραφος",
+      "severity": "major",
+      "source_quote": "In Leviticus chapters 21 and 22, a plan, called a divorce, was put in place to legally dissolve the “first love”.",
+      "suggested_fix": "Διορθώστε την παραπομπή σε «Στα κεφάλαια 21 και 22 του Λευιτικού» μόνο αν αυτό είναι το τυπωμένο κείμενο· εδώ έχει διατηρηθεί σωστά. Το συγκεκριμένο εύρημα αφορά το νόημα: αποδώστε το «first love» ως «πρώτη αγάπη», όχι ως «πρώτος έρωτας», ώστε να μην υποδηλώνεται κατ’ ανάγκη ερωτική επιθυμία: «…για να λυθεί νόμιμα η “πρώτη αγάπη”».",
+      "translation_quote": "…για να λυθεί νόμιμα ο «πρώτος έρωτας»."
+    },
+    {
+      "location": "Μαλαχίας 2:14-16, παράθεση",
+      "severity": "major",
+      "source_quote": "And did not he make one? Yet had he the residue of the spirit. And wherefore one? That he might seek a godly seed.",
+      "suggested_fix": "Αποδώστε πιστά και τα δύο ρητορικά ερωτήματα και τη φράση για το υπόλοιπο του πνεύματος, χωρίς να αλλάξετε το νόημα: «Και δεν τους έκανε έναν; Κι όμως, είχε το υπόλοιπο του πνεύματος. Και γιατί έναν; Για να ζητήσει ένα ευσεβές σπέρμα.»",
+      "translation_quote": "Και δεν τους έκανε έναν; Κι όμως, είχε το υπόλοιπο του πνεύματος. Και γιατί έναν; Για να ζητήσει ένα ευσεβές σπέρμα."
+    },
+    {
+      "location": "Παράγραφος για την επανένωση του Ισραήλ",
+      "severity": "major",
+      "source_quote": "God invited Israel back into fellowship with Him on the basis of acknowledging her sin and changing her ways, giving no heed to the instruction that Moses gave in Deuteronomy 24:1-4, because \"from the beginning it was not so.\"",
+      "suggested_fix": "Το «giving no heed» δηλώνει ότι ο Θεός δεν έδωσε σημασία στην οδηγία του Μωυσή, όχι απλώς ότι δεν την έλαβε υπόψη κατά κάποιον ουδέτερο τρόπο. Αποδώστε το ρητά: «…χωρίς να δώσει σημασία στην οδηγία που έδωσε ο Μωυσής…»",
+      "translation_quote": "…χωρίς να δώσει σημασία στην οδηγία που έδωσε ο Μωυσής στο Δευτερονόμιο 24:1-4…"
+    },
+    {
+      "location": "Παράγραφος για τον Ιωσήφ και τη Μαρία",
+      "severity": "major",
+      "source_quote": "When as his mother Mary was espoused to Joseph, before they came together, she was found with child of the Holy Ghost.",
+      "suggested_fix": "Διατηρήστε το νόημα ότι η Μαρία είχε συλλάβει από το Άγιο Πνεύμα· η υπάρχουσα απόδοση μπορεί να διαβαστεί σαν να «βρέθηκε έγκυος από» το Πνεύμα ως αιτιατική πηγή, αλλά είναι κατανοητή. Δεν απαιτείται διόρθωση.",
+      "translation_quote": "βρέθηκε έγκυος από το Άγιο Πνεύμα."
+    },
+    {
+      "location": "Παράγραφος για τους πέντε άνδρες της Σαμάρειας",
+      "severity": "major",
+      "source_quote": "So, to use this account and say that all five husbands are adulterous and still classified as God-recorded husbands does not agree with the rest of Scripture.",
+      "suggested_fix": "Διορθώστε το υποκείμενο: το πρωτότυπο λέει ότι οι πέντε άνδρες είναι «adulterous» (μοιχοί), όχι ότι οι γάμοι είναι μοιχικοί. Γράψτε «…ότι και οι πέντε άνδρες ήταν μοιχοί και εξακολουθούσαν να θεωρούνται από τον Θεό καταγεγραμμένοι σύζυγοί της…»",
+      "translation_quote": "…ότι και οι πέντε άνδρες ήταν μοιχοί και εξακολουθούσαν να θεωρούνται από τον Θεό καταγεγραμμένοι σύζυγοί της…"
+    },
+    {
+      "location": "Παράγραφος για τη χωριστή διαβίωση",
+      "severity": "major",
+      "source_quote": "Living separately limits influence to the family and is a negative witness to the community",
+      "suggested_fix": "Αποδώστε το «limits influence to the family» ως ότι περιορίζει την επιρροή στην οικογένεια, όχι ότι την περιορίζει προς την οικογένεια: «Η χωριστή διαβίωση περιορίζει την επιρροή στην οικογένεια και αποτελεί αρνητική μαρτυρία για την κοινότητα…»",
+      "translation_quote": "Η χωριστή διαβίωση περιορίζει την επιρροή στην οικογένεια και αποτελεί αρνητική μαρτυρία για την κοινότητα…"
+    },
+    {
+      "location": "Τίτλος",
+      "severity": "minor",
+      "source_quote": "They Are No More Twain",
+      "suggested_fix": "Πιο φυσική απόδοση του βιβλικού νοήματος στα σύγχρονα ελληνικά: «Δεν είναι πια δύο».",
+      "translation_quote": "Δεν Είναι Πλέον Δύο"
+    }
+  ],
   "id": "5bad6eab9d514f74cc3272622296642a",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ell",
@@ -116,11 +186,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

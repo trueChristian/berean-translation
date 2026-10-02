@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "82aa0683-71a3-43e5-8f35-617420f37130",
+    "response_id": "chatcmpl-EUc7dCkrmNOgQZZVnOZZAbsEWnXu3",
+    "usage": {
+      "completion_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 386,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2798,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2795,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3388
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening Bible quotation",
+        "severity": "major",
+        "source_quote": "them who are the called according to his purpose",
+        "suggested_fix": "Replace “dem som är kallade enligt hans beslut” with “dem som är kallade enligt hans syfte” (or “enligt hans avsikt”), preserving the meaning of “purpose.”",
+        "translation_quote": "dem som är kallade enligt hans beslut"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "If that letter would have reached Brother Oscars, they would have been preparing for us.",
+        "suggested_fix": "Replace “familjen Oscar” with “broder Oscar” or “broder Oscars familj”, so the translation refers to Brother Oscar or his household, not a family named Oscar.",
+        "translation_quote": "Om brevet hade nått fram till familjen Oscar, skulle de ha förberett sig för vårt besök."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

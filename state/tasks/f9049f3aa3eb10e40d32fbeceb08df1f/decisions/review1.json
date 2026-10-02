@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “That evening at the supper table”",
+      "severity": "major",
+      "source_quote": "“If that letter would have reached Brother Oscars, they would have been preparing for us.”",
+      "suggested_fix": "Replace « Si cette lettre était parvenue à la famille Oscar » with « Si cette lettre était parvenue au frère Oscar »; this preserves the reference to Brother Oscar without introducing an Oscar family.",
+      "translation_quote": "« Si cette lettre était parvenue à la famille Oscar, ils se seraient préparés à nous recevoir. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

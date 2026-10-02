@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 8187
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1227,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 719,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8046,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8043,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9273
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “When a man has a cause set before him”",
+      "severity": "major",
+      "source_quote": "“For as the body without the spirit is dead, so faith without works [action] is dead also –James 2:26.”",
+      "suggested_fix": "Correct the clause to preserve the source’s direction: “क्योंकि जैसे आत्मा बिना देह मरी हुई है, वैसे ही कामों [कार्यवाही] के बिना विश्वास भी मरा हुआ है –याकूब 2:26.”",
+      "translation_quote": "“क्योंकि जैसे आत्मा बिना देह मरी हुई है, वैसे ही कर्म [कार्यवाही] बिना विश्वास भी मरा हुआ है –याकूब 2:26.”"
+    },
+    {
+      "location": "HTML paragraph beginning “As David arose early that morning”",
+      "severity": "major",
+      "source_quote": "“there was a jealous fire kindled by the blasphemous taunts of Goliath”",
+      "suggested_fix": "Replace “ईर्ष्या की आग” with wording that conveys fervent zeal or indignation, such as “गोलियत की ईशनिंदापूर्ण ललकारों से उसके भीतर धर्मी जोश की आग भड़क उठी।”",
+      "translation_quote": "“गोलियत की ईशनिंदापूर्ण ललकारों ने उसके भीतर ईर्ष्या की आग जला दी”"
+    },
+    {
+      "location": "HTML paragraph beginning “Faithful Action is inevitable”",
+      "severity": "major",
+      "source_quote": "“when our bodies are subject to our soul and spirit, and they are under the direction of God’s Spirit.”",
+      "suggested_fix": "Restore the source’s distinction between soul and spirit: “जब हमारा शरीर हमारी आत्मा और प्राण के अधीन हो, और वे परमेश्वर के आत्मा के निर्देशन में हों।”",
+      "translation_quote": "“जब हमारा शरीर हमारी आत्मा के अधीन हो और वे परमेश्वर के आत्मा के निर्देशन में हों।”"
+    },
+    {
+      "location": "HTML paragraph beginning “Why would Japanese Kamikaze pilots”",
+      "severity": "major",
+      "source_quote": "“from Zebedee’s boats of the business…”",
+      "suggested_fix": "Use the Hindi form of Zebedee’s name, not Zebulun: “जबदी की व्यवसायिक नावों से…”",
+      "translation_quote": "“जबूलूनियों की व्यावसायिक नावों से…”"
+    }
+  ],
   "id": "d2a81de51d727a232d55f9022332dd1f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "hin",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

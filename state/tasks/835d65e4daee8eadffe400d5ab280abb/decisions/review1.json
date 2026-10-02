@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second bullet under “Er zijn enkele uitzonderingen op het Bijbelse ideaal”",
+      "severity": "minor",
+      "source_quote": "This is the Scriptural passage that frees the innocent spouse from biblical guilt",
+      "suggested_fix": "Change “Dit is de Schriftgedeelte” to “Dit is het Schriftgedeelte”.",
+      "translation_quote": "Dit is de Schriftgedeelte dat de onschuldige echtgenoot vrijwaart van Bijbelse schuld"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

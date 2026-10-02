@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 3287
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 299,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3090,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3087,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3389
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "poem paragraph 6, line 1",
+      "severity": "major",
+      "source_quote": "At the end of myself, I cried out in fear...",
+      "suggested_fix": "Replace this line with: \"जब मैं पूरी तरह असहाय हो गया, तो भय से पुकार उठा...\"",
+      "translation_quote": "जब मैं अपनी सारी शक्ति खो बैठा, तो भय से पुकार उठा..."
+    },
+    {
+      "location": "poem paragraph 10, line 2",
+      "severity": "major",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Replace this line with: \"एक पल के लिए भी मैं तेरा साथ नहीं छोड़ूँगा।\"",
+      "translation_quote": "एक पल के लिए भी मैं तेरा साथ नहीं छोड़ सकता था।"
+    },
+    {
+      "location": "poem paragraph 13, line 4",
+      "severity": "major",
+      "source_quote": "Will then be held at bay.",
+      "suggested_fix": "Replace this line with: \"तब दूर ही थामे रहेंगे।\"",
+      "translation_quote": "तब तुझसे दूर ही रहेंगे।"
+    },
+    {
+      "location": "poem paragraph 14, line 4",
+      "severity": "major",
+      "source_quote": "When these to My will conform.",
+      "suggested_fix": "Replace this line with: \"जब ये मेरी इच्छा के अनुरूप होते हैं।\"",
+      "translation_quote": "जब ये मेरी इच्छा के अधीन होते हैं।"
+    }
+  ],
   "id": "14fc9db936e0cbbda8d70f943c89acb2",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "hin",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0579ec6d-373c-42d8-b961-094d53b3758b",
+    "response_id": "chatcmpl-EUc7lb1kui4c8PxOrTNgqpdW1HVhV",
+    "usage": {
+      "completion_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 748,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8479,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9472
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / translation.html, paragraph beginning “And Saul armed David…”",
+        "severity": "major",
+        "source_quote": "“for he had not proved it” … “for I have not proved them.”",
+        "suggested_fix": "In both places, translate “proved” as tested or tried, for example: “want hy nie die wapenrusting getoets het nie” and “Ek kan nie hiermee gaan nie, want ek het dit nie getoets nie.” Preserve the existing paragraph structure and reference.",
+        "translation_quote": "“want hy was dit nie gewoond nie” … “want ek is dit nie gewoond nie.”"
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Correct the inconsistent capitalization: “DIE OORDENKINGS VAN ’N SENDeling” → “DIE OORDENKINGS VAN ’N SENDELING”.",
+        "translation_quote": "DIE OORDENKINGS VAN ’N SENDeling"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

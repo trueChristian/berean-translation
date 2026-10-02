@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning ‘Maar… wat is dit?’\",\"severity\":\"minor\",\"source_quote\":\"“Of all things, I forgot to put a stamp on the envelope!”\",\"suggested_fix\":\"Vervang ‘Van alles wat, ik ben vergeten een postzegel op de envelop te plakken!’ door ‘En dan ook nog: ik ben vergeten een postzegel op de envelop te plakken!’\",\"translation_quote\":\"‘Van alles wat, ik ben vergeten een postzegel op de envelop te plakken!’\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 489,
+    "content_evidence_truncated": false,
+    "content_sha256": "c427713c044fb2fbc167526fc7cdf53a6049daf4f291cb40e7cc0ffeb0b64674",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 495,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2745,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2742,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3375
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

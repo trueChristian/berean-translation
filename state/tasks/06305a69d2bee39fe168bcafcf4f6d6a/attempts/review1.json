@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Citazione finale, Giuda 1:24-25\",\"severity\":\"major\",\"source_quote\":\"“To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen.”\",\"suggested_fix\":\"Sostituire la parte finale della citazione con: «all’unico Dio, nostro Salvatore, siano gloria e maestà, dominio e potere, ora e per sempre. Amen.» Eliminare «per mezzo di Gesù Cristo nostro Signore» e «da ogni eternità», che non compaiono nel testo inglese.\",\"translation_quote\":\"«all’unico Dio, nostro Salvatore per mezzo di Gesù Cristo nostro Signore, siano gloria, maestà, dominio e potere, da ogni eternità, ora e per tutti i secoli. Amen.»\"},{\"location\":\"Paragrafo sulle comunità plain\",\"severity\":\"minor\",\"source_quote\":\"“within the plain communities”\",\"suggested_fix\":\"Tradurre o rendere comprensibile in italiano il termine “plain” nel contesto, ad esempio «nelle comunità anabattiste tradizionali» se questa è la denominazione intesa.\",\"translation_quote\":\"«nelle comunità plain»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1072,
+    "content_evidence_truncated": false,
+    "content_sha256": "d93070a534fcc9e07e2c6b8cdbc55f4ef9f9bc3b2d88d060c93492359ae78480",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 340,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7754,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7751,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8377
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 7349
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 132,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7208,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7205,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7340
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, párrafo que comienza «Goliat había supuesto automáticamente…»",
+      "severity": "major",
+      "source_quote": "According to some estimates, at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun",
+      "suggested_fix": "Replace «una pistola de 45 mm» with «una pistola de calibre 45» to preserve the source’s handgun caliber reference.",
+      "translation_quote": "la honda de David tenía una potencia de parada comparable a la de una pistola de 45 mm"
+    }
+  ],
   "id": "3847b28966c457362661da882fcab800",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "spa",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, bagian “Ada beberapa pengecualian terhadap cita-cita Alkitab,” kutipan 1 Korintus 7:5\",\"severity\":\"major\",\"source_quote\":\"Defraud [deprive, keep back] ye not one the other\",\"suggested_fix\":\"Ganti bagian awal kutipan menjadi: “Janganlah kamu saling mengurangi hak satu sama lain [merampas, menahan] ...” agar maknanya adalah tidak saling menahan atau merampas hak, bukan sekadar tidak saling menahan diri.\",\"translation_quote\":\"Janganlah kamu saling menahan diri [merampas, menahan]\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 551,
+    "content_evidence_truncated": false,
+    "content_sha256": "22f001e2ff4b57873be24f0561a05348a38feb42feda1a4736ea1e025c94a0dc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1055,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 885,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11003,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11000,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12058
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

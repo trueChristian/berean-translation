@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, lines 17–18",
+      "severity": "major",
+      "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
+      "suggested_fix": "Replace these lines with: \"או שנאהב את חיינו, כפי שהתנ״ך מבהיר: / נאבד את הסיכוי שלנו להגיע לגן העדן היקר כל כך.\"",
+      "translation_quote": "או שנאהב את חיינו, ועל כך התנ״ך ברור: / נאבד את הסיכוי שלנו לגן העדן היקר כל כך."
+    },
+    {
+      "location": "Poem, line 28",
+      "severity": "minor",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "Replace with: \"חיינו אינם אלא אדים, כך מלמד הספר הטוב.\"",
+      "translation_quote": "חיינו אינם אלא אד, כך מלמד הספר הטוב."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

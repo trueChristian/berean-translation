@@ -2,7 +2,6 @@
   "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 9271
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 490,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 325,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9082,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9079,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9572
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraphe commençant par « Ceux qui perdent des êtres chers… »",
+      "severity": "major",
+      "source_quote": "“Elizabeth Elliot and the four others who were made widows in 1956 by jungle killers in Ecuador.”",
+      "suggested_fix": "Remplacer la formulation fautive par : « Pensons à Elizabeth Elliot et aux quatre autres femmes devenues veuves en 1956 après que des tueurs dans la jungle équatorienne ont assassiné leurs maris. »",
+      "translation_quote": "« Elizabeth Elliot et aux quatre autres femmes devenues veuves en 1956, tuées par des meurtriers dans la jungle équatorienne. »"
+    }
+  ],
   "id": "77d175f80efb2410512405c1c5793934",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "fra",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b81ed107719e1b3d59a5926df9439e3f25c21b973c7d37fb85d82f877dc026.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Opening epigraph and title",
+      "severity": "major",
+      "source_quote": "“Is there not a cause?”",
+      "suggested_fix": "Translate “a cause” as a reason or cause for action, for example: “הֲלֹא יֵשׁ סִיבָּה?” Use the same sense in the epigraph and title, preserving their existing structure.",
+      "translation_quote": "“הֲלוֹא דָּבָר הוּא?”"
+    },
+    {
+      "location": "Paragraph beginning “As David arose early”; quoted 1 Samuel 17:29",
+      "severity": "major",
+      "source_quote": "“And David said, What have I now done? Is there not a cause?”",
+      "suggested_fix": "In this quoted line, render “Is there not a cause?” as a question about a reason or cause for action, rather than a question about whether there is a matter or thing. Preserve the existing quotation markup and reference.",
+      "translation_quote": "“וַיֹּאמֶר דָּוִד, מֶה עָשִׂיתִי עַתָּה? הֲלוֹא דָּבָר הוּא?”"
+    },
+    {
+      "location": "Paragraph beginning “Why would Japanese Kamikaze pilots”; sentence beginning “God slays giants”",
+      "severity": "major",
+      "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Correct “מסירותיו של עסק הזבדי” to an expression referring to Zebedee’s boats and business, preserving the source’s contrast and ellipsis; for example, “מסירותיו של עסק הזבדי” should be replaced with “סירות עסקו של זבדי”.",
+      "translation_quote": "“מסירותיו של עסק הזבדי… ועד לבני חיקו.”"
+    },
+    {
+      "location": "Poem, first line",
+      "severity": "major",
+      "source_quote": "“Shamgar had an oxgoad;”",
+      "suggested_fix": "Correct the name to the conventional Hebrew form “שַׁמְגַּר”, preserving the poem’s line and punctuation.",
+      "translation_quote": "“לשמר היו מלמד בקר;”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

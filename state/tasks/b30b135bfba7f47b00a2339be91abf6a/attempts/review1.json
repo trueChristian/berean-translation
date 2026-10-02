@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Den kvelden snakket familien igjen»\",\"severity\":\"major\",\"source_quote\":\"“If that letter would have reached Brother Oscars, they would have been preparing for us.”\",\"suggested_fix\":\"Erstatt «Hvis brevet hadde kommet fram til familien Oscar» med «Hvis brevet hadde kommet fram til bror Oscar» (eller en formulering som tydelig viser til bror Oscar og dem som var hos ham).\",\"translation_quote\":\"«Hvis brevet hadde kommet fram til familien Oscar, ville de ha gjort seg klare til å ta imot oss.»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 587,
+    "content_evidence_truncated": false,
+    "content_sha256": "703067b67222c96cc6448346bd2d9194c95a8b193129a7d7156dfbcca49301bb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 488,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 343,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2758,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2755,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3246
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "39aaa53e-826e-42ed-a8d7-80ad5f361be5",
+    "response_id": "chatcmpl-EUc7dptuUw1s8UgDrI430n5bLQts6",
+    "usage": {
+      "completion_tokens": 552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 449,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1918,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2473
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, first line",
+        "severity": "minor",
+        "source_quote": "We hear all the talk, the beauties of glory",
+        "suggested_fix": "Ακούμε τόσα λόγια για τις ομορφιές της δόξας,",
+        "translation_quote": "Ακούμε τόσα λόγια, για τη δόξα τις ομορφιές,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

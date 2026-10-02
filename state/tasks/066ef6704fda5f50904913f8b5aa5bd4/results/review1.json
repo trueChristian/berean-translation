@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "36a17ea4-c49b-46c5-bcd3-b40073779fcb",
+    "response_id": "chatcmpl-EUc7XsATRiotLIytpB5sXmQmBn4C7",
+    "usage": {
+      "completion_tokens": 381,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7304,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7688
+    }
+  },
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML，第8段，全球经济数据",
+        "severity": "major",
+        "source_quote": "the median global GDP dropped by 3.9% from 2019 to 2020, making it the worst economic downturn since the Great Depression, creating a global recession that is the deepest since the end of World War 2.",
+        "suggested_fix": "改为：“国际货币基金组织（IMF）近期的数据估计，全球GDP中位数在2019年至2020年间下降了3.9%，这使其成为大萧条以来最严重的经济下滑，并造成了自第二次世界大战结束以来最严重的全球衰退。”",
+        "translation_quote": "全球GDP中位数从2019年到2020年下降了3.9%，使这成为自大萧条以来最严重的经济衰退，并造成一场全球性衰退，其程度为第二次世界大战结束以来最深。"
+      },
+      {
+        "location": "HTML，诗篇20:7-8引用",
+        "severity": "major",
+        "source_quote": "…trust in chariots, and some in horses: Psalm 20:7a, then their outcome will be that They are brought down and [are] fallen… –Psalm 20:8a.",
+        "suggested_fix": "将“他们都屈身仆倒”改为“他们都屈身仆倒了”，准确保留“are brought down and [are] fallen”的完成状态；例如：“他们都被压倒，仆倒了……”",
+        "translation_quote": "有人靠车，有人靠马——诗篇 20:7a，……他们都屈身仆倒……——诗篇 20:8a。"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

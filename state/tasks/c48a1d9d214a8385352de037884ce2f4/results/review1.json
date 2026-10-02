@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6d513d5c-4e01-4d71-9ddd-0e4321d03e8d",
+    "response_id": "chatcmpl-EUc7YopT7AGCE0dnCih0kfk4lUVsD",
+    "usage": {
+      "completion_tokens": 1273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8507,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8504,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9780
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2, Job 40:11 quotation",
+        "severity": "major",
+        "source_quote": "“…behold every one that is proud, and abase [put down or make low] him”",
+        "suggested_fix": "Replace “kuwaweka chini au kuwafanya wanyenyekee” with “kuwashusha chini au kuwafanya wa chini,” preserving the meaning of “abase” without implying they become humble.",
+        "translation_quote": "“…wote wenye kiburi, na kuwashusha [kuwaweka chini au kuwafanya wanyenyekee]”"
+      },
+      {
+        "location": "Paragraph 5, Law and Grace example",
+        "severity": "major",
+        "source_quote": "“the law states that we should not kill, yet (according to the law) we are allowed to be angry.”",
+        "suggested_fix": "Change “hatupaswi kuua” to “hatupaswi kuua,” and make clear the contrast is that the law permits anger: “sheria inasema kwamba hatupaswi kuua, lakini (kwa mujibu wa sheria) tunaruhusiwa kukasirika.” The current wording is already substantially faithful; no correction needed.",
+        "translation_quote": "“sheria inasema kwamba hatupaswi kuua, lakini (kwa mujibu wa sheria) tunaruhusiwa kukasirika.”"
+      },
+      {
+        "location": "Paragraph 8, John 1:17 quotation",
+        "severity": "major",
+        "source_quote": "“the law was given by Moses”",
+        "suggested_fix": "Translate as “sheria ilitolewa na Musa” rather than “sheria ilitolewa kwa mkono wa Musa,” which adds the assertion that it was given by his hand.",
+        "translation_quote": "“sheria ilitolewa kwa mkono wa Musa”"
+      },
+      {
+        "location": "Paragraph 11, David's question, 1 Samuel 17:26",
+        "severity": "major",
+        "source_quote": "“who is this uncircumcised Philistine, that he should defy the armies of the living God?”",
+        "suggested_fix": "Replace “hata ayatukane” with “hata ayatukane/ayadharau” only if intended as defy; a clear rendering is “hata ayapinge majeshi ya Mungu aliye hai?”",
+        "translation_quote": "“huyu Mfilisti asiyetahiriwa ni nani, hata ayatukane majeshi ya Mungu aliye hai?”"
+      },
+      {
+        "location": "Paragraph 12, Eliab's accusation",
+        "severity": "major",
+        "source_quote": "“I know thy pride.”",
+        "suggested_fix": "Translate “Najua kiburi chako” (or “Naujua huo kiburi wako”); “ukaidi” means stubbornness/rebellion, not pride.",
+        "translation_quote": "“Naujua huo ukaidi wako.”"
+      },
+      {
+        "location": "Paragraph 14, 1 Samuel 17:34-36 quotation",
+        "severity": "major",
+        "source_quote": "“Thy servant kept his father’s sheep”",
+        "suggested_fix": "Change “kondoo za babaye” to “kondoo za baba yake.”",
+        "translation_quote": "“Mtumishi wako alikuwa akichunga kondoo za babaye”"
+      },
+      {
+        "location": "Paragraph 17, 1 Samuel 17:42-44 quotation",
+        "severity": "major",
+        "source_quote": "“Come to me, and I will give thy flesh unto the fowls of the air, and to the beasts of the field”",
+        "suggested_fix": "Translate the threat as “Njoo kwangu, nami nitaitoa nyama yako kwa ndege wa angani na wanyama wa mwituni.” The current wording says he will give the birds and beasts the speaker's flesh, reversing the intended person.",
+        "translation_quote": "“Njoo kwangu, nami nitawapa ndege wa angani na wanyama wa mwituni nyama yako”"
+      },
+      {
+        "location": "Paragraph 20, supernatural work and boasting",
+        "severity": "major",
+        "source_quote": "“When we do a work on our own, we cannot boast of it because we did it.”",
+        "suggested_fix": "Clarify the distinction in the translation: “Tunapofanya kazi kwa nguvu zetu wenyewe, hatuwezi kujisifu kwa kazi hiyo, kwa kuwa sisi wenyewe ndio tuliifanya.” As written, “hat... kwa sababu sisi ndio tuliifanya” can read as saying we cannot boast because we did it, but the contrast is unclear; the following sentence should explicitly state that boasting would be pride.",
+        "translation_quote": "“Tunapofanya kazi kwa nguvu zetu wenyewe, hatuwezi kujisifu kwa sababu sisi ndio tuliifanya.”"
+      },
+      {
+        "location": "Paragraph 21, personal testimony",
+        "severity": "major",
+        "source_quote": "“I spent most of my childhood and teenage years going to anger management classes where counselors tried to teach us how to control our anger.”",
+        "suggested_fix": "Change “muda mwingi wa utoto na ujana wangu” to “sehemu kubwa ya utoto na miaka yangu ya ujana” for the author's claim that this occupied most of those years.",
+        "translation_quote": "“Nilitumia muda mwingi wa utoto na ujana wangu nikihudhuria madarasa ya kudhibiti hasira”"
+      },
+      {
+        "location": "Paragraph 24, description of the house",
+        "severity": "major",
+        "source_quote": "“And the siding over there… it’s not exactly straight.”",
+        "suggested_fix": "Replace “ule ubao wa ukutani” with “vibao vya kufunika ukuta” or another Kiswahili expression for exterior siding; the current singular board narrows the source’s building-material reference.",
+        "translation_quote": "“Na ule ubao wa ukutani pale… hauko sawasawa kabisa.”"
+      },
+      {
+        "location": "Paragraph 28, criminal's conversion",
+        "severity": "major",
+        "source_quote": "“God saves him, transforms him, converts him.”",
+        "suggested_fix": "Render the distinct verbs without the nonstandard/unclear “anamwongoka,” for example: “Mungu anamwokoa, anamgeuza, anamfanya ageuke.”",
+        "translation_quote": "“Mungu anamwokoa, anamgeuza, anamwongoka.”"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem’s penultimate line\",\"severity\":\"minor\",\"source_quote\":\"Our life’s but a vapor, the Good Book conveys.\",\"suggested_fix\":\"Vårt liv är bara en dimma, säger Bibeln.\",\"translation_quote\":\"Vårt liv är bara en dimma, säger den goda boken.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 307,
+    "content_evidence_truncated": false,
+    "content_sha256": "2784eee885ad89b06dc9eef094318c95831830382ab24b57f22253fb1abdc9f2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 598,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 505,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1759,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1756,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2357
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

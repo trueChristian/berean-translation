@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final quotation from a widow, blockquote, final paragraph",
+      "severity": "major",
+      "source_quote": "“Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.”",
+      "suggested_fix": "Change the clause to make clear that the helper shoulders the burden: “Veja-as ser curadas, ajude-as a carregar o fardo do pesar e, então, siga com elas em direção ao lar celestial.”",
+      "translation_quote": "“Veja-o ser curado, carregar o fardo do pesar e, então, seguir em direção ao seu lar celestial.”"
+    },
+    {
+      "location": "Other struggles with grief, final bullet",
+      "severity": "major",
+      "source_quote": "“I broke out in a sweat more than once wondering where the money was coming from to pay the bills, but I thank the Lord that it was always there.”",
+      "suggested_fix": "Preserve that the money was available, rather than saying the Lord appeared: “Mais de uma vez comecei a suar frio, imaginando de onde viria o dinheiro para pagar as contas, mas agradeço ao Senhor porque o dinheiro sempre esteve lá.”",
+      "translation_quote": "“Mais de uma vez comecei a suar frio, imaginando de onde viria o dinheiro para pagar as contas, mas agradeço ao Senhor porque ele sempre apareceu.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

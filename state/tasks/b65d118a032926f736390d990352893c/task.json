@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,87 @@
         },
         "total_tokens": 7745
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1010,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7604,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7601,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8614
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “The greatest and superior endowment…”",
+      "severity": "major",
+      "source_quote": "“Those of us who live in natural accordance with our instincts and conditioning, will scarcely rise above the animal kingdom.”",
+      "suggested_fix": "Replace «De av oss som lever i naturlig samsvar med instinktene og betingingen vår, vil knapt heve oss over dyreriket.» with «De av oss som lever i naturlig samsvar med instinktene våre og den påvirkningen vi er blitt formet av, vil knapt heve oss over dyreriket.»",
+      "translation_quote": "«De av oss som lever i naturlig samsvar med instinktene og betingingen vår, vil knapt heve oss over dyreriket.»"
+    },
+    {
+      "location": "Article body, paragraph beginning “As David arose early…”",
+      "severity": "major",
+      "source_quote": "“The Lord was his Shepherd, and he had no lack”",
+      "suggested_fix": "Replace «Herren var hans hyrde, og han manglet ingenting» with «Herren var hans hyrde, og han led ingen nød» (or another natural Bokmål rendering that preserves the sense of having no lack).",
+      "translation_quote": "«Herren var hans hyrde, og han manglet ingenting»"
+    },
+    {
+      "location": "Article body, paragraph beginning “A Caring Conscience”",
+      "severity": "major",
+      "source_quote": "“Careless apathy is the opposite and is the result of a seared conscience.”",
+      "suggested_fix": "Replace «Likegyldig sløvhet er det motsatte og skyldes en brennemerket samvittighet.» with «Tankeløs likegyldighet er det motsatte og er et resultat av en avstumpet samvittighet.»",
+      "translation_quote": "«Likegyldig sløvhet er det motsatte og skyldes en brennemerket samvittighet.»"
+    },
+    {
+      "location": "Article body, paragraph beginning “A Caring Conscience,” quotation attributed to Nietzke",
+      "severity": "major",
+      "source_quote": "“Give a man a reason to live and he will supply the how –Nietzke.”",
+      "suggested_fix": "Replace «Gi et menneske en grunn til å leve, så finner det ut hvordan –Nietzke.» with «Gi et menneske en grunn til å leve, så vil det finne ut hvordan –Nietzke.»",
+      "translation_quote": "«Gi et menneske en grunn til å leve, så finner det ut hvordan –Nietzke.»"
+    },
+    {
+      "location": "Article body, paragraph beginning “An Honest Imagination,” quotation attributed to Unknown",
+      "severity": "major",
+      "source_quote": "“Necessity is the mother of invention –Unknown.”",
+      "suggested_fix": "Translate the quoted saying as «Nødvendigheten er oppfinnelsenes mor –Ukjent.» rather than substituting a different Norwegian proverb.",
+      "translation_quote": "«Nød lærer naken kvinne å spinne –Ukjent.»"
+    },
+    {
+      "location": "Article body, paragraph beginning “Goliath had automatically assumed…”",
+      "severity": "major",
+      "source_quote": "“According to some estimates, at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+      "suggested_fix": "Correct «45 mm pistol» to «45 mm håndvåpen» or «pistol med 45 mm kaliber», preserving the source’s stated figure without attempting to correct it.",
+      "translation_quote": "«… en stopeffekt som en 45 mm pistol»"
+    },
+    {
+      "location": "Article body, poem",
+      "severity": "major",
+      "source_quote": "“Shamgar had an oxgoad;”",
+      "suggested_fix": "Replace «Shamgar hadde en oksepik;» with «Shamgar hadde en oksedrivers stav;» or another accurate Bokmål term for an oxgoad.",
+      "translation_quote": "«Shamgar hadde en oksepik;»"
+    },
+    {
+      "location": "Article body, final paragraph before the poem",
+      "severity": "major",
+      "source_quote": "“from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Clarify the mistranslated images while preserving the source’s wording and structure: replace «fra Dorkas’ nål … til Jaels teltplugg, fra Sebedeus’ forretningsbåter … til guttene ved hans bryst» with «fra Dorkas’ nål … til Jaels teltplugg, fra Sebedeus’ båter brukt i virksomheten … til sønnene som lå ham nær».",
+      "translation_quote": "«fra Dorkas’ nål … til Jaels teltplugg, fra Sebedeus’ forretningsbåter … til guttene ved hans bryst.»"
+    }
+  ],
   "id": "b65d118a032926f736390d990352893c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nob",
@@ -116,11 +193,13 @@
     }
   },
   "protected": false,
+  "quality_score": 76,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 9463
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 905,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 725,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9322,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9319,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10227
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “One specific thing…”",
+      "severity": "minor",
+      "source_quote": "“within the plain communities”",
+      "suggested_fix": "Translate “plain communities” into contemporary Greek, for example «στις παραδοσιακές κοινότητες» if that fits the intended community label.",
+      "translation_quote": "«στις κοινότητες των plain»"
+    },
+    {
+      "location": "HTML, final blockquote (Jude 1:24-25)",
+      "severity": "minor",
+      "source_quote": "“with exceeding joy”",
+      "suggested_fix": "Replace «με υπερβολική χαρά» with «με μεγάλη χαρά» to convey great joy without the implication of excess.",
+      "translation_quote": "«με υπερβολική χαρά»"
+    }
+  ],
+  "finished_at": "2026-10-02T21:03:09+00:00",
   "id": "a0ae27ade76daeed6e5f08f00bcb918d",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ell",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

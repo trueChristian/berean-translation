@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Έπειτα τον φέρνουν μπροστά στον βασιλιά Σαούλ»",
+      "severity": "major",
+      "source_quote": "for thou art but a youth",
+      "suggested_fix": "Replace «επειδή είσαι ακόμα νέος» with «επειδή είσαι απλώς ένα παλικάρι» to preserve Saul’s diminutive contrast.",
+      "translation_quote": "επειδή είσαι ακόμα νέος"
+    },
+    {
+      "location": "HTML, paragraph beginning «Εδώ ο Δαβίδ έχει τεράστια αυτοπεποίθηση»",
+      "severity": "major",
+      "source_quote": "The LORD that delivered me out of the paw of the lion, and out of the paw of the bear",
+      "suggested_fix": "Replace «Ο Κύριος που με έσωσε από το πόδι του λιονταριού και από το πόδι της αρκούδας» with «Ο Κύριος που με έσωσε από τα νύχια του λιονταριού και από τα νύχια της αρκούδας».",
+      "translation_quote": "Ο Κύριος που με έσωσε από το πόδι του λιονταριού και από το πόδι της αρκούδας"
+    },
+    {
+      "location": "HTML, paragraph beginning «Όταν κάνουμε ένα έργο μόνοι μας»",
+      "severity": "major",
+      "source_quote": "When we do a work on our own, we cannot boast of it because we did it.",
+      "suggested_fix": "Replace «Όταν κάνουμε ένα έργο μόνοι μας, δεν μπορούμε να καυχηθούμε γι’ αυτό επειδή εμείς το κάναμε» with «Όταν κάνουμε ένα έργο μόνοι μας, δεν μπορούμε να καυχηθούμε γι’ αυτό, αφού το κάναμε εμείς» only if preserving the author’s following contrast; the current sentence reverses the source’s apparent logic. More directly, render «Όταν κάνουμε ένα έργο με τις δικές μας δυνάμεις, δεν μπορούμε να καυχηθούμε γι’ αυτό σαν να ήταν έργο του Θεού, αφού το κάναμε εμείς».",
+      "translation_quote": "Όταν κάνουμε ένα έργο μόνοι μας, δεν μπορούμε να καυχηθούμε γι’ αυτό επειδή εμείς το κάναμε."
+    },
+    {
+      "location": "HTML, paragraph beginning «Έτσι, ένας απλός, αστόλιστος άνθρωπος»",
+      "severity": "major",
+      "source_quote": "This shows where the heart is—under the law.",
+      "suggested_fix": "Replace «κάτω από τον νόμο» with «δεν έχει ξεφύγει από τη νοοτροπία του νόμου» or another Greek rendering that expresses the source’s critique of law-bound thinking, rather than implying the heart is located under the law.",
+      "translation_quote": "Αυτό δείχνει πού βρίσκεται η καρδιά — κάτω από τον νόμο."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

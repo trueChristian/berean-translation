@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c0be8aa9-8510-4b96-8bf8-5ebed0b037d3",
+    "response_id": "chatcmpl-EUc7rTogG8wGYyN993WJzt0kjqtkj",
+    "usage": {
+      "completion_tokens": 502,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 382,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2716,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3221
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Upon arriving home”",
+        "severity": "minor",
+        "source_quote": "“Of all things, I forgot to put a stamp on the envelope!”",
+        "suggested_fix": "Replace «¡Por todas las cosas, olvidé ponerle un sello al sobre!» with «¡Y pensar que olvidé ponerle un sello al sobre!»",
+        "translation_quote": "«¡Por todas las cosas, olvidé ponerle un sello al sobre!»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

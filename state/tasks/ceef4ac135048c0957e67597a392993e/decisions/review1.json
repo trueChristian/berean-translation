@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “داؤد جب اس صبح سویرے...”",
+      "severity": "major",
+      "source_quote": "“The Lord was his Shepherd, and he had no lack”",
+      "suggested_fix": "Replace “خداوند اس کا چرواہا تھا اور اسے کسی چیز کی کمی نہ تھی” with “خداوند اس کا چرواہا تھا، اسے کوئی کمی نہ تھی” or another Urdu rendering that preserves the source’s assertion that he lacked nothing.",
+      "translation_quote": "“خداوند اس کا چرواہا تھا اور اسے کسی چیز کی کمی نہ تھی”"
+    },
+    {
+      "location": "HTML, paragraph beginning “دردمند ضمیر...”",
+      "severity": "major",
+      "source_quote": "“Careless apathy is the opposite and is the result of a seared conscience.”",
+      "suggested_fix": "Change “ضمیر کے داغ دار ہونے” to “ضمیر کے بے حس یا سخت ہو جانے” to convey a seared conscience rather than one that is merely blemished.",
+      "translation_quote": "“یہ ضمیر کے داغ دار ہونے کا نتیجہ ہے۔”"
+    },
+    {
+      "location": "HTML, paragraph beginning “جالوت نے خود بخود...”",
+      "severity": "major",
+      "source_quote": "“at six or seven revolutions per second”",
+      "suggested_fix": "Replace “فی سیکنڈ چھ یا سات چکر لگاتے ہوئے” with wording that specifies the sling’s rotation rate, such as “فلاخن کے فی سیکنڈ چھ یا سات چکر لگانے پر”.",
+      "translation_quote": "“فی سیکنڈ چھ یا سات چکر لگاتے ہوئے داؤد کی فلاخن کی روکنے کی قوت...”"
+    },
+    {
+      "location": "HTML, paragraph beginning “وفادارانہ عمل ناگزیر ہے...”",
+      "severity": "major",
+      "source_quote": "“His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.”",
+      "suggested_fix": "Correct the subject and agency: replace the sentence beginning “داؤد کی جوانی کا مذاق اڑاتے...” with wording stating that Goliath’s adrenaline flowed as he mocked David’s youth, jumped to conclusions, took offense easily, and marveled at others’ ignorance.",
+      "translation_quote": "“داؤد کی جوانی کا مذاق اڑاتے، بات کا غلط مطلب لیتے، آسانی سے برا مانتے اور دوسروں کی نادانی پر حیران ہوتے ہوئے اس کے جسم میں جوش کے ہارمون دوڑ رہے تھے۔”"
+    },
+    {
+      "location": "HTML, poem, first line",
+      "severity": "major",
+      "source_quote": "“Shamgar had an oxgoad;”",
+      "suggested_fix": "Correct “انکس” to “انکس” only if intended as a recognized term for an oxgoad; otherwise use a clear Urdu description such as “شمجر کے پاس بیل ہانکنے کی نوک دار چھڑی تھی؛”",
+      "translation_quote": "“شمجر کے پاس بیل ہانکنے کا انکس تھا؛”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

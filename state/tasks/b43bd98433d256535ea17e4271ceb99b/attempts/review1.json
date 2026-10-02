@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"blockquote, final paragraph\",\"severity\":\"major\",\"source_quote\":\"“you can carry your grief-‘paralyzed’ friend to Jesus. Watch them be healed, shoulder their burden of grief”\",\"suggested_fix\":\"Replace «puedes llevar a Jesús a tu amiga “paralizada” por el dolor. Mírala sanar, llevar la carga de su dolor» with «puedes llevar a tu amiga “paralizada” por el dolor ante Jesús. Mírala sanar y ayúdala a llevar la carga de su dolor».\",\"translation_quote\":\"«puedes llevar a Jesús a tu amiga “paralizada” por el dolor. Mírala sanar, llevar la carga de su dolor»\"},{\"location\":\"blockquote, second paragraph\",\"severity\":\"major\",\"source_quote\":\"“the friends that brought the paralyzed man to Jesus, lowering him through the roof”\",\"suggested_fix\":\"Replace «los amigos que llevaron a Jesús al paralítico, bajándolo por el techo» with «los amigos que llevaron al paralítico ante Jesús, bajándolo por el techo».\",\"translation_quote\":\"«los amigos que llevaron a Jesús al paralítico, bajándolo por el techo»\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 1098,
+    "content_evidence_truncated": false,
+    "content_sha256": "77b9da429fde9f8a8d51ae9ac38f6856599d64b6d4043a08bc064b08e395e91e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 447,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8555,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8552,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9270
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

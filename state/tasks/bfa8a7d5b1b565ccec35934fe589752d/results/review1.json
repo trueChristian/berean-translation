@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7b1587c9-b498-4665-97f0-82edf773f4dc",
+    "response_id": "chatcmpl-EUc7dGcQRkvlgWrWjbuMlYeKtQaIt",
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 671,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8247,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8244,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9069
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, paragraph beginning “One of the choices that people can make at the end of life…” / “জীবনের শেষ পর্যায়ে মানুষ যে সিদ্ধান্তগুলো নিতে পারে…”",
+        "severity": "minor",
+        "source_quote": "usually of a terminally ill patient",
+        "suggested_fix": "Replace “মরণাপন্ন রোগীর ক্ষেত্রে” with “সাধারণত মরণব্যাধিতে আক্রান্ত রোগীর ক্ষেত্রে” to preserve “terminally ill” without implying the patient is imminently dying.",
+        "translation_quote": "সাধারণত মরণাপন্ন রোগীর ক্ষেত্রে"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

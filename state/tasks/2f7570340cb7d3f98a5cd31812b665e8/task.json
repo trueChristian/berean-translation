@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 2046
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 559,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 400,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1803,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1800,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2362
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, poem, lines 17–18",
+      "severity": "major",
+      "source_quote": "Or love our life, which the Bible is clear\n    We’d lose our chance, at heaven so dear.",
+      "suggested_fix": "Replace “Au tuipende nafsi yetu, jambo ambalo Biblia iko wazi kuhusu” with “Au tuyapende maisha yetu, jambo ambalo Biblia iko wazi kuhusu” so the line refers to loving our life, not loving our soul/self.",
+      "translation_quote": "Au tuipende nafsi yetu, jambo ambalo Biblia iko wazi kuhusu\n    Tungepoteza nafasi yetu ya kupata mbingu iliyo ya thamani."
+    }
+  ],
   "id": "2f7570340cb7d3f98a5cd31812b665e8",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swa",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"

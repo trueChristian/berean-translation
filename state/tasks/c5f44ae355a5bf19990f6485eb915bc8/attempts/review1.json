@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “In the book of Hosea…”\",\"severity\":\"major\",\"source_quote\":\"“Sometime after Hosea marries her, she resorts to the life of a ‘harlot’”\",\"suggested_fix\":\"Change “Osea ricorre alla vita di una «prostituta»” to “lei si dà alla vita di una «prostituta»” so the subject remains Gomer, as in the source.\",\"translation_quote\":\"“Qualche tempo dopo averla sposata, Osea ricorre alla vita di una «prostituta»”\"},{\"location\":\"source.html, paragraph beginning “Sometime after Hosea marries her…”\",\"severity\":\"major\",\"source_quote\":\"“Hosea betrothed her again”\",\"suggested_fix\":\"Change “Osea la prende di nuovo in moglie” to “Osea si fidanzò di nuovo con lei” to preserve the source’s distinction between betrothal and marriage.\",\"translation_quote\":\"“Osea la prende di nuovo in moglie”\"},{\"location\":\"source.html, paragraph beginning “In the book of Hosea…”; quoted Hosea 1:2\",\"severity\":\"major\",\"source_quote\":\"“take unto thee a wife of whoredoms”\",\"suggested_fix\":\"Replace “una donna adultera” with “una donna dedita alla prostituzione” (or an equivalent Italian rendering of “donna di prostituzione”) to preserve the source’s wording without asserting adultery.\",\"translation_quote\":\"“prenditi in moglie una donna adultera”\"},{\"location\":\"source.section\",\"severity\":\"minor\",\"source_quote\":\"“THE GODLY HOME”\",\"suggested_fix\":\"Use an Italian rendering that preserves the idea of a godly home, such as “LA CASA PIA,” rather than “LA FAMIGLIA CRISTIANA.”\",\"translation_quote\":\"“LA FAMIGLIA CRISTIANA”\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 1677,
+    "content_evidence_truncated": false,
+    "content_sha256": "854e8372f1c8621d14b5f4d228fdc3a26fa787f81904702f903b6f9a85339d98",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1084,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11154,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11151,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12238
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

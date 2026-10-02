@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, first line",
+      "severity": "minor",
+      "source_quote": "We hear all the talk, the beauties of glory",
+      "suggested_fix": "Ακούμε τόσα λόγια για τις ομορφιές της δόξας,",
+      "translation_quote": "Ακούμε τόσα λόγια, για τη δόξα τις ομορφιές,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

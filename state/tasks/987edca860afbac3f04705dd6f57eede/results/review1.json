@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9b590b99-2b50-48cc-89bf-36b3737508f2",
+    "response_id": "chatcmpl-EUc7b9Xk17wvqQoSxJE8sPrni5vT3",
+    "usage": {
+      "completion_tokens": 96,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9013,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9010,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9109
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "अनुच्छेद 7",
+        "severity": "major",
+        "source_quote": "The bible says that the adornment should not be outward.",
+        "suggested_fix": "बाइबल कहती है कि साज-सज्जा बाहरी नहीं होनी चाहिए।",
+        "translation_quote": "बाइबल कहती है कि साज-सज्जा बाहरी नहीं होनी चाहिए।"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

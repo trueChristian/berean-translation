@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "38ea8d17-5af6-4021-b268-c111e0a5926c",
+    "response_id": "chatcmpl-EUc7ZV1KuBMqVjYAiXir1uNq7AUSZ",
+    "usage": {
+      "completion_tokens": 527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 389,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2764,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3294
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “That evening at the supper table”",
+        "severity": "major",
+        "source_quote": "“If that letter would have reached Brother Oscars, they would have been preparing for us.”",
+        "suggested_fix": "Replace « Si cette lettre était parvenue à la famille Oscar » with « Si cette lettre était parvenue au frère Oscar »; this preserves the reference to Brother Oscar without introducing an Oscar family.",
+        "translation_quote": "« Si cette lettre était parvenue à la famille Oscar, ils se seraient préparés à nous recevoir. »"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

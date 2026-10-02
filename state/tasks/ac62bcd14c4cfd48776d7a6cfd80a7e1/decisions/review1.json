@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “One specific thing…”",
+      "severity": "major",
+      "source_quote": "“within the plain communities”",
+      "suggested_fix": "Replace “আমাদের সাধারণ সম্প্রদায়ের মধ্যে” with “প্লেইন সম্প্রদায়গুলোর মধ্যে” to preserve the reference to Plain communities as a distinct group.",
+      "translation_quote": "“আমাদের সাধারণ সম্প্রদায়ের মধ্যে”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

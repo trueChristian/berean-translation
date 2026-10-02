@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza beginning “My child, fear not”",
+      "severity": "minor",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Replace “Nie ’n sekonde lank kon Ek jou sy verlaat nie.” with “Ek kon jou nie ’n enkele sekonde aan jou sy verlaat nie.”",
+      "translation_quote": "Nie ’n sekonde lank kon Ek jou sy verlaat nie."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

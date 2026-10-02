@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "21169df0-0fca-4a1f-97b3-cf92fb4bdfa1",
+    "response_id": "chatcmpl-EUc7eL65vzc70CUugLl4QdRMKq4Dd",
+    "usage": {
+      "completion_tokens": 598,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7171,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7168,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7769
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, alinea over het besluit van Zweden tijdens COVID",
+        "severity": "major",
+        "source_quote": "“the government made the decision that elderly residents of nursing facilities would not be treated for COVID. Many were not even given oxygen, but simply started on Morphine and sedatives”",
+        "suggested_fix": "Vervang de passage door: “Tijdens COVID besloot de Zweedse overheid dat oudere bewoners van verpleeginstellingen niet voor COVID behandeld zouden worden. Velen kregen zelfs geen zuurstof, maar men begon hun simpelweg morfine en kalmerende middelen toe te dienen om ‘het hun comfortabel te maken’ terwijl ze op het einde wachtten.”",
+        "translation_quote": "“Tijdens COVID besloot de Zweedse overheid dat oudere bewoners van verpleeginstellingen niet voor COVID behandeld zouden worden. Velen kregen zelfs geen zuurstof, maar kregen simpelweg morfine en kalmerende middelen toegediend om ‘het hun comfortabel te maken’ terwijl ze op het einde wachtten.”"
+      },
+      {
+        "location": "source.html, alinea met Job 14:5",
+        "severity": "major",
+        "source_quote": "“Seeing his days are determined, the number of his months are with thee, thou hast appointed his bounds that he cannot pass –Job 14:5.”",
+        "suggested_fix": "Vervang de citaattekst door een getrouwe Nederlandse weergave van de volledige gedrukte Engelse tekst, met behoud van de verwijzing: “Aangezien zijn dagen bepaald zijn, het getal van zijn maanden bij U is en U zijn grenzen hebt vastgesteld die hij niet kan overschrijden –Job 14:5.”",
+        "translation_quote": "“Omdat zijn dagen vastgesteld zijn, het getal van zijn maanden bij U is, en U zijn grenzen bepaald hebt, die hij niet kan overschrijden –Job 14:5.”"
+      },
+      {
+        "location": "source.html, alinea met 2 Korinthe 4:17-18",
+        "severity": "major",
+        "source_quote": "“For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory; While we look not at the things which are seen, but at the things which are not seen”",
+        "suggested_fix": "Vertaal het citaat naar het Nederlands met behoud van de volledige betekenis en de verwijzing 2 Korinthe 4:17-18; neem ook de expliciete aansluiting “Terwijl wij niet zien op de dingen die gezien worden, maar op de dingen die niet gezien worden” op in plaats van die te vervangen door een redengevende formulering.",
+        "translation_quote": "“Want onze lichte verdrukking, die van korte duur is, brengt in ons een allesovertreffend eeuwig gewicht van heerlijkheid teweeg; omdat wij niet letten op de dingen die men ziet, maar op de dingen die men niet ziet”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

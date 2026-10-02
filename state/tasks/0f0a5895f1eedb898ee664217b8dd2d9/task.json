@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 3415
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 218,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3136,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3133,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3354
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "شعر، بند 14، سطر 4",
+      "severity": "major",
+      "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+      "suggested_fix": "اس سطر میں آزمائشوں کو اصل کے مطابق «یہ» سے بدلیں، تاکہ مفہوم یہ رہے کہ خدا کی قوت اور قدرت تب ظاہر ہوتی ہیں جب یہ (راز) اُس کی مرضی کے مطابق ہوں؛ مثلاً: «جب یہ میری مرضی کے تابع ہوتے ہیں۔»",
+      "translation_quote": "کیونکہ میری قوت اور قدرت ظاہر ہوتی ہیں، / جب یہ آزمائشیں میری مرضی کے تابع ہوتی ہیں۔"
+    },
+    {
+      "location": "شعر، بند 2، سطر 1",
+      "severity": "minor",
+      "source_quote": "Thunder rolled out its forebodings.",
+      "suggested_fix": "«گرج نے اپنے اندیشے گونجا دیے۔»",
+      "translation_quote": "گرج نے پیش خبریوں کا شور مچا دیا۔"
+    }
+  ],
   "id": "0f0a5895f1eedb898ee664217b8dd2d9",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "urd",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

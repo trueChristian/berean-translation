@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza beginning “My child, fear not”\",\"severity\":\"minor\",\"source_quote\":\"Not for a second could I leave your side.\",\"suggested_fix\":\"Replace “Nie ’n sekonde lank kon Ek jou sy verlaat nie.” with “Ek kon jou nie ’n enkele sekonde aan jou sy verlaat nie.”\",\"translation_quote\":\"Nie ’n sekonde lank kon Ek jou sy verlaat nie.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 402,
+    "content_evidence_truncated": false,
+    "content_sha256": "1771ec1e46f7ad1630db68b7df5e1586f09315b75b8f990ce621da67b8551d83",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 650,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2984,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2981,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3756
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

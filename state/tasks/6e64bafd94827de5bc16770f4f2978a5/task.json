@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 2021
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 299,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1784,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1781,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2083
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Poem, line 15",
+      "severity": "major",
+      "source_quote": "Would we lose our life, for the good Lord’s sake?",
+      "suggested_fix": "Ganti dengan “Maukah kita kehilangan nyawa demi Tuhan?” agar tidak menambahkan penilaian “yang baik” pada Tuhan.",
+      "translation_quote": "Maukah kita kehilangan nyawa demi Tuhan yang baik?"
+    },
+    {
+      "location": "Poem, line 16",
+      "severity": "major",
+      "source_quote": "Then eternity we’d gain, and heaven partake.",
+      "suggested_fix": "Ganti dengan “Maka kita akan memperoleh hidup kekal dan turut menikmati surga.” Terjemahan saat ini menghilangkan gagasan “memperoleh hidup kekal” dengan mengubahnya menjadi “memperoleh kekekalan”.",
+      "translation_quote": "Maka kita akan memperoleh kekekalan dan mendapat bagian di surga."
+    },
+    {
+      "location": "Poem, line 24",
+      "severity": "major",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "Ganti dengan “Kitab Suci menyampaikan bahwa hidup kita hanyalah uap.” Kalimat sumber menyebut Kitab Suci sebagai penyampai gagasan, bukan sekadar menambahkan “demikian” pada akhir kalimat.",
+      "translation_quote": "Hidup kita hanyalah uap, demikian disampaikan Kitab Suci."
+    }
+  ],
   "id": "6e64bafd94827de5bc16770f4f2978a5",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 7401
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 368,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7260,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7257,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7628
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "المتن، الفقرة التي تعرّف نوعية الحياة والكرامة",
+      "severity": "major",
+      "source_quote": "Dignity refers to people feeling that they are being given adequate levels of respect.",
+      "suggested_fix": "استبدل «شعور الناس بأنهم يُعاملون بمستوى لائق من الاحترام» بـ«شعور الناس بأنهم يحظون بقدر كافٍ من الاحترام».",
+      "translation_quote": "أما الكرامة فتشير إلى شعور الناس بأنهم يُعاملون بمستوى لائق من الاحترام."
+    },
+    {
+      "location": "المتن، فقرة سفر أعمال بولس",
+      "severity": "major",
+      "source_quote": "He experienced stonings, beatings, and shipwreck.",
+      "suggested_fix": "استبدل «وتحطمت به السفن» بـ«وتعرّض لحوادث تحطم السفن» أو «وعانى من حوادث غرق السفن»، مع الحفاظ على بقية الجملة.",
+      "translation_quote": "فقد تعرض للرجم والضرب وتحطمت به السفن."
+    },
+    {
+      "location": "المتن، فقرة الرعاية التلطيفية",
+      "severity": "major",
+      "source_quote": "This is the sort of care that is offered by hospice programs.",
+      "suggested_fix": "استبدل «برامج رعاية المحتضرين» بـ«برامج رعاية المحتضرين (الهوسبيس)» أو صياغة عربية واضحة تشير إلى برامج الرعاية التلطيفية المقدمة في دور رعاية المحتضرين؛ فالمقصود برامج hospice، لا برامج لرعاية من يحتضرون فحسب.",
+      "translation_quote": "وهذا هو نوع الرعاية الذي تقدمه برامج رعاية المحتضرين."
+    }
+  ],
   "id": "14a387007806fd805c09b182f94ee519",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

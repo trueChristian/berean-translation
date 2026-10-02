@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7a8f21b3-f166-44bb-a02e-47213e730fb8",
+    "response_id": "chatcmpl-EUc7koQANQJOOs0fwcPgwPMRgCIYQ",
+    "usage": {
+      "completion_tokens": 211,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1801,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1798,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2012
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, lines 17–18",
+        "severity": "major",
+        "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
+        "suggested_fix": "Replace these lines with: \"או שנאהב את חיינו, כפי שהתנ״ך מבהיר: / נאבד את הסיכוי שלנו להגיע לגן העדן היקר כל כך.\"",
+        "translation_quote": "או שנאהב את חיינו, ועל כך התנ״ך ברור: / נאבד את הסיכוי שלנו לגן העדן היקר כל כך."
+      },
+      {
+        "location": "Poem, line 28",
+        "severity": "minor",
+        "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+        "suggested_fix": "Replace with: \"חיינו אינם אלא אדים, כך מלמד הספר הטוב.\"",
+        "translation_quote": "חיינו אינם אלא אד, כך מלמד הספר הטוב."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

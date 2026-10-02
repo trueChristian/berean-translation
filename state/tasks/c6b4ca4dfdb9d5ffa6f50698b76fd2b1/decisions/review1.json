@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html / paragrafo su Davide, 1 Samuele 17:34-36",
+      "severity": "major",
+      "source_quote": "“there came a lion, and a bear, and took a lamb out of the flock”",
+      "suggested_fix": "Sostituire «quando arrivò un leone o un orso e portò via un agnello dal gregge» con «quando arrivò un leone e un orso e portarono via un agnello dal gregge», mantenendo invariati il tag <p> e il riferimento.",
+      "translation_quote": "«quando arrivò un leone o un orso e portò via un agnello dal gregge»"
+    },
+    {
+      "location": "source.html / paragrafo sull’esempio della casa, confronto con la casa costruita da Dio",
+      "severity": "major",
+      "source_quote": "“You would boast of its perfection”",
+      "suggested_fix": "Sostituire «Ti vanteresti della sua perfezione» con «Ti vanteresti della sua perfezione [della casa]» oppure «Ti vanteresti di quanto è perfetta», così che il referente sia la casa, non la sua qualità astratta.",
+      "translation_quote": "«Ti vanteresti della sua perfezione»"
+    },
+    {
+      "location": "source.html / paragrafo finale, esempio dell’ex criminale",
+      "severity": "major",
+      "source_quote": "“I’m perfect!”",
+      "suggested_fix": "Sostituire «Sono perfetto!» con «Sono perfetto!» se il senso è la persona resa perfetta, oppure, per evitare l’ambiguità con la perfezione morale, «Dio mi ha reso perfetto!»; la frase deve restare attribuita all’uomo convertito.",
+      "translation_quote": "«Sono perfetto!»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

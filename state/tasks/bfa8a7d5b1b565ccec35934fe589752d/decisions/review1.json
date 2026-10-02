@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, paragraph beginning “One of the choices that people can make at the end of life…” / “জীবনের শেষ পর্যায়ে মানুষ যে সিদ্ধান্তগুলো নিতে পারে…”",
+      "severity": "minor",
+      "source_quote": "usually of a terminally ill patient",
+      "suggested_fix": "Replace “মরণাপন্ন রোগীর ক্ষেত্রে” with “সাধারণত মরণব্যাধিতে আক্রান্ত রোগীর ক্ষেত্রে” to preserve “terminally ill” without implying the patient is imminently dying.",
+      "translation_quote": "সাধারণত মরণাপন্ন রোগীর ক্ষেত্রে"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

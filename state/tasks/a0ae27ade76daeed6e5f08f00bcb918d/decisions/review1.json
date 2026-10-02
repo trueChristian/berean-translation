@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “One specific thing…”",
+      "severity": "minor",
+      "source_quote": "“within the plain communities”",
+      "suggested_fix": "Translate “plain communities” into contemporary Greek, for example «στις παραδοσιακές κοινότητες» if that fits the intended community label.",
+      "translation_quote": "«στις κοινότητες των plain»"
+    },
+    {
+      "location": "HTML, final blockquote (Jude 1:24-25)",
+      "severity": "minor",
+      "source_quote": "“with exceeding joy”",
+      "suggested_fix": "Replace «με υπερβολική χαρά» with «με μεγάλη χαρά» to convey great joy without the implication of excess.",
+      "translation_quote": "«με υπερβολική χαρά»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

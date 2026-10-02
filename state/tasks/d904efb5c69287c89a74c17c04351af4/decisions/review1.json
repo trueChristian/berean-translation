@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph under “Κατανοήστε ότι πιθανότατα θα υπάρχει πόνος”",
+      "severity": "minor",
+      "source_quote": "“specifically designed to treat the pain and other symptoms, usually of a terminally ill patient”",
+      "suggested_fix": "For clearer Greek grammar, change «συνήθως ασθενών με ανίατη ασθένεια» to «που συνήθως εμφανίζονται σε ασθενείς με ανίατη ασθένεια».",
+      "translation_quote": "«ειδικά σχεδιασμένο για την αντιμετώπιση του πόνου και άλλων συμπτωμάτων, συνήθως ασθενών με ανίατη ασθένεια»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “«Εντάξει»”",
+      "severity": "major",
+      "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight to let them know we’re coming.”",
+      "suggested_fix": "Replace «Πέιτ» with a Greek transliteration matching the surname Peight, such as «Πάιτ», in this paragraph and elsewhere in the article.",
+      "translation_quote": "«Θα κανονίσω να στείλω ένα γράμμα στον αδελφό Όσκαρ Πέιτ για να τους ενημερώσω ότι ερχόμαστε»."
+    },
+    {
+      "location": "Article, paragraph beginning “Την επόμενη Πέμπτη”",
+      "severity": "major",
+      "source_quote": "“The next Thursday found the Coblentz family heading for Pennsylvania.”",
+      "suggested_fix": "Correct the surname transliteration «Κόμπλεντς» to a closer rendering of Coblentz, such as «Κόμπλεντζ».",
+      "translation_quote": "Την επόμενη Πέμπτη, η οικογένεια Κόμπλεντς ξεκίνησε για την Πενσιλβάνια."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

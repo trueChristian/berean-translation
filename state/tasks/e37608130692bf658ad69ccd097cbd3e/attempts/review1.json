@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, figure img alt\",\"severity\":\"minor\",\"source_quote\":\"A double rainbow arcs over dark trees beneath a stormy sky\",\"suggested_fix\":\"将“ 一道双彩虹”改为“ 一道双重彩虹”或“两道彩虹”，使“双彩虹”的表达更自然。\",\"translation_quote\":\"一道双彩虹横跨在阴云密布的天空下、深色树木的上方\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 410,
+    "content_evidence_truncated": false,
+    "content_sha256": "6590f7ce756ce24851643068eb83ed0b063acf1eb8d70a2bff523971a6dd4920",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 770,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 644,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3028,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3025,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3798
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

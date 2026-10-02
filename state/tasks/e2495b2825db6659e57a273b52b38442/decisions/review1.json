@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "html, абзац с цитатой вдовы о помощи",
+      "severity": "major",
+      "source_quote": "“We’d like to come and bring a meal if you’re up to it?”",
+      "suggested_fix": "Заменить только реплику на: «Мы хотели бы зайти и принести вам еды, если вы будете в состоянии принять нас» — сохранив окружающие HTML-теги.",
+      "translation_quote": "«Мы хотели бы прийти и принести вам еды, если вы не против»"
+    },
+    {
+      "location": "html, абзац «Наконец, нам следует помнить…»",
+      "severity": "major",
+      "source_quote": "“Sometimes there are those among us whose life is racked by a grief worse than that of an actual death. Perhaps there was betrayal, abandonment, incarceration, or suicide in their life’s journey.”",
+      "suggested_fix": "Исправить фрагмент на: «Иногда среди нас есть те, чья жизнь терзаема горем, которое тяжелее, чем горе от настоящей смерти. Возможно, на их жизненном пути были предательство, оставление, заключение в тюрьму или самоубийство»; сохранить структуру абзаца.",
+      "translation_quote": "«Иногда среди нас есть те, чья жизнь изранена горем, более тяжелым, чем смерть близкого. Возможно, на их жизненном пути случились предательство, оставление, заключение в тюрьму или самоубийство»"
+    },
+    {
+      "location": "html, цитата из Матфея 9:2–8",
+      "severity": "major",
+      "source_quote": "“And Jesus knowing their thoughts said, Wherefore think ye evil in your hearts?”",
+      "suggested_fix": "Исправить соответствующую часть цитаты на: «Иисус же, зная помышления их, сказал: для чего вы мыслите худое в сердцах ваших?»; сохранить ссылку Матфея 9:2-8 и структуру HTML.",
+      "translation_quote": "«Иисус же, видя помышления их, сказал: для чего вы мыслите худое в сердцах ваших?»"
+    },
+    {
+      "location": "html, заключительный абзац цитаты вдовы",
+      "severity": "major",
+      "source_quote": "“Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.”",
+      "suggested_fix": "Заменить только эту фразу на: «Смотрите, как они исцеляются, берут на себя бремя скорби и затем продолжают путь к своему небесному дому»; сохранить HTML-разметку.",
+      "translation_quote": "«Смотрите, как он исцеляется, берет на плечи бремя скорби и затем продолжает путь к своему небесному дому»"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "To Walk With Her Through Grief",
+      "suggested_fix": "Более точно передать значение «идти рядом с ней сквозь горе»: «Идти с ней через горе».",
+      "translation_quote": "Идти рядом с ней в горе"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

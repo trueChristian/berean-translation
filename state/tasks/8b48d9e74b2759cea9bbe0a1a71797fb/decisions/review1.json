@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html, paragraph beginning “And Saul armed David…”",
+      "severity": "major",
+      "source_quote": "“for he had not proved it” … “for I have not proved them.”",
+      "suggested_fix": "In both places, translate “proved” as tested or tried, for example: “want hy nie die wapenrusting getoets het nie” and “Ek kan nie hiermee gaan nie, want ek het dit nie getoets nie.” Preserve the existing paragraph structure and reference.",
+      "translation_quote": "“want hy was dit nie gewoond nie” … “want ek is dit nie gewoond nie.”"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Correct the inconsistent capitalization: “DIE OORDENKINGS VAN ’N SENDeling” → “DIE OORDENKINGS VAN ’N SENDELING”.",
+      "translation_quote": "DIE OORDENKINGS VAN ’N SENDeling"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

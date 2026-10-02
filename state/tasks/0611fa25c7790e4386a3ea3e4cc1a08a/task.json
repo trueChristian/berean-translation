@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 3086
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 754,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2945,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2942,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3699
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, stanza beginning “My child, fear not”",
+      "severity": "minor",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Replace “צידך” with “לצדך” to correctly say “by your side”: “אפילו לרגע לא עזבתי את לצדך” is not grammatical; use “אפילו לרגע לא עזבתי אותך, ונשארתי לצדך” or, more narrowly, “אפילו לרגע לא משתי לצדך.”",
+      "translation_quote": "אפילו לרגע לא עזבתי את צידך."
+    },
+    {
+      "location": "HTML, stanza beginning “But here I have placed My rainbow”",
+      "severity": "major",
+      "source_quote": "You can see that My promise is certain.",
+      "suggested_fix": "Replace “שהבטחתי בטוחה” with “שהבטחתי ודאית” or “שההבטחה שלי ודאית” so the line clearly says that the promise is certain.",
+      "translation_quote": "תוכל לראות שהבטחתי בטוחה."
+    }
+  ],
   "id": "0611fa25c7790e4386a3ea3e4cc1a08a",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "heb",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

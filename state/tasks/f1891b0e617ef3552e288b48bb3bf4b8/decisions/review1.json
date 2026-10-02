@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Let us look first at Law and Grace”",
+      "severity": "major",
+      "source_quote": "Someone that is under the law does not desire to do what he must do, but rather, he does it because of the law.",
+      "suggested_fix": "Change “tidak ingin melakukan apa yang harus dilakukannya” to “tidak ingin melakukan apa yang harus dilakukannya, tetapi melakukannya karena hukum” only if needed for clarity; the current translation preserves the source meaning.",
+      "translation_quote": "Orang yang berada di bawah hukum tidak ingin melakukan apa yang harus dilakukannya, melainkan melakukannya karena hukum."
+    },
+    {
+      "location": "source.html, paragraph beginning “Let us look at grace”",
+      "severity": "major",
+      "source_quote": "You are not your own and you desire to be all you can be for your Savior who died for you.",
+      "suggested_fix": "Replace “Kamu bukan milikmu sendiri” with “Kamu bukan milikmu sendiri” only if retaining the idiom; otherwise, use “Kamu bukan milik dirimu sendiri,” preserving the meaning that the person belongs to another.",
+      "translation_quote": "Kamu bukan milikmu sendiri dan ingin melakukan segala yang kamu mampu bagi Juruselamatmu yang telah mati untukmu."
+    },
+    {
+      "location": "source.html, paragraph beginning “A poor criminal who has only known the city streets as home”",
+      "severity": "major",
+      "source_quote": "God saves him, transforms him, converts him.",
+      "suggested_fix": "Replace “membarui dirinya” with “mempertobatkannya” to preserve the distinct assertion that God converts him.",
+      "translation_quote": "Allah menyelamatkannya, mengubahnya, dan membarui dirinya."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

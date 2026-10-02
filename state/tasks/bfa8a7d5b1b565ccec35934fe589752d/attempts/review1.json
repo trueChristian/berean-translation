@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, paragraph beginning “One of the choices that people can make at the end of life…” / “জীবনের শেষ পর্যায়ে মানুষ যে সিদ্ধান্তগুলো নিতে পারে…”\",\"severity\":\"minor\",\"source_quote\":\"usually of a terminally ill patient\",\"suggested_fix\":\"Replace “মরণাপন্ন রোগীর ক্ষেত্রে” with “সাধারণত মরণব্যাধিতে আক্রান্ত রোগীর ক্ষেত্রে” to preserve “terminally ill” without implying the patient is imminently dying.\",\"translation_quote\":\"সাধারণত মরণাপন্ন রোগীর ক্ষেত্রে\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 826,
+    "content_evidence_truncated": false,
+    "content_sha256": "ca44d1f04211eb44195842cea78024d59937810fb0e5b8edc9882c94890bd829",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 671,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8247,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8244,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9069
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

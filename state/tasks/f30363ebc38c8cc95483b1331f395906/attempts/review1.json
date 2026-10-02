@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “David gick alltså framåt…”\",\"severity\":\"major\",\"source_quote\":\"<em>For as the body without the spirit is dead, so faith without works [action] is dead also –James 2:26.</em>\",\"suggested_fix\":\"Ersätt ”tron utan gärningar [handling] död” med ”tron utan gärningar [handling] också är död”, så att översättningen återger ”is dead also”. Behåll referensen till Jakobsbrevet 2:26.\",\"translation_quote\":\"<em>För liksom kroppen utan anden är död, så är också tron utan gärningar [handling] död –Jakobsbrevet 2:26.</em>\"},{\"location\":\"Article body, paragraph beginning “David gick alltså framåt…”\",\"severity\":\"major\",\"source_quote\":\"“If David defeated Goliath by miracle alone, then there is no hope for us but to sit and wait for God to do the same for us.”\",\"suggested_fix\":\"Ändra början till ”Om David besegrade Goljat enbart genom ett mirakel, finns det inget hopp för oss annat än att sitta och vänta på att Gud ska göra detsamma för oss.” Nuvarande formulering tappar den uttryckliga villkorssatsen och låter påståendet bli kategoriskt.\",\"translation_quote\":\"“På samma sätt finns det inget hopp för oss annat än att sitta och vänta på att Gud ska göra detsamma för oss, om David besegrade Goljat enbart genom ett mirakel.”\"},{\"location\":\"Article body, paragraph beginning “Varför dog japanska kamikazepiloter…”\",\"severity\":\"major\",\"source_quote\":\"“God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael”\",\"suggested_fix\":\"Ändra ”Jaels tältplugg” till ”Jaels spik”, så att den specifika bilden av en nail bevaras.\",\"translation_quote\":\"“Gud fäller jättar genom de redskap vi räcker honom, från Dorkas nål… till Jaels tältplugg”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1878,
+    "content_evidence_truncated": false,
+    "content_sha256": "f2c0311e5290871f629df8d0042b2d80e7ddbde2aa970ed81aec55e781d5ddb9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7582,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7579,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8057
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

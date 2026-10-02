@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Jesus is our perfect example”\",\"severity\":\"major\",\"source_quote\":\"Jesus is our perfect example for relating to those in sorrow. He came to Mary and Martha and listened.\",\"suggested_fix\":\"Replace “jinsi ya kuwahusudu walio na huzuni” with “jinsi ya kuwahusiana na walio na huzuni” so it means relating to, not admiring, those who are grieving.\",\"translation_quote\":\"Yesu ndiye mfano wetu mkamilifu wa jinsi ya kuwahusudu walio na huzuni.\"},{\"location\":\"HTML, poem by Mary A. Baker\",\"severity\":\"major\",\"source_quote\":\"I bow in my grief today;\",\"suggested_fix\":\"Change “Nainama katika huzuni yangu leo” to “Nainama katika maombolezo yangu leo” (or another clear rendering of grief); the current wording says “in my sadness,” rather than the source’s grief.\",\"translation_quote\":\"Nainama katika huzuni yangu leo;\"},{\"location\":\"HTML, paragraph beginning “Those who lose loved ones often find themselves”\",\"severity\":\"major\",\"source_quote\":\"Those who lose loved ones often find themselves in the limelight for a time.\",\"suggested_fix\":\"Replace “wakivuta hisia za watu” with “wakiwa katika uangalizi wa umma” or “wakiwa kwenye mwangaza wa vyombo vya habari,” preserving the sense of being in the limelight.\",\"translation_quote\":\"Wale wanaopoteza wapendwa wao mara nyingi hujikuta wakivuta hisia za watu kwa muda.\"},{\"location\":\"HTML, paragraph beginning “It reminds us of Jesus’ words about Lazarus”\",\"severity\":\"major\",\"source_quote\":\"Jesus is our perfect example for relating to those in sorrow.\",\"suggested_fix\":\"In addition to correcting “kuwahusudu” to “kuwahusiana,” use wording that clearly conveys relating to or responding to grieving people.\",\"translation_quote\":\"Yesu ndiye mfano wetu mkamilifu wa jinsi ya kuwahusudu walio na huzuni.\"},{\"location\":\"HTML, final poem, first line\",\"severity\":\"major\",\"source_quote\":\"the elements sweetly rest;\",\"suggested_fix\":\"Replace “vitu vyote” with a rendering of the elements/natural forces, for example “viumbe vya asili vinatulia kwa utulivu”; “vitu vyote” broadens the meaning to all things.\",\"translation_quote\":\"vitu vyote vimetulia kwa utamu;\"},{\"location\":\"HTML, final poem, second line\",\"severity\":\"major\",\"source_quote\":\"Earth’s sun in the calm lake is mirrored,\",\"suggested_fix\":\"Clarify that the sun is reflected in the lake, for example “Jua la dunia linaakisiwa katika ziwa tulivu.” (The current version is understandable, but “Jua la dunia” can sound like the sun belongs to Earth.)\",\"translation_quote\":\"Jua la dunia linaakisiwa katika ziwa tulivu,\"},{\"location\":\"HTML, final blockquote, Scripture quotation, Matthew 9:2-8\",\"severity\":\"major\",\"source_quote\":\"But that ye may know that the Son of man hath power on earth to forgive sins, (then saith he to the sick of the palsy,) Arise, take up thy bed, and go unto thine house.\",\"suggested_fix\":\"Correct “Ondoka, uende” in the first quoted command to “Inuka, uende” (or “Simama, uende”); the English says “Arise,” not merely “go.”\",\"translation_quote\":\"Kwa maana ni lipi lililo rahisi, kusema, Umesamehewa dhambi zako; au kusema, Ondoka, uende?\"},{\"location\":\"HTML, final blockquote, closing application\",\"severity\":\"major\",\"source_quote\":\"Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.\",\"suggested_fix\":\"Replace “wakibeba mzigo wao” with “ukiubeba mzigo wao” or otherwise make clear that the person walking alongside the grieving friend shoulders the burden; the source addresses the helper.\",\"translation_quote\":\"Waangalie wakiponywa, wakibeba mzigo wao wa huzuni ya msiba, kisha wakiendelea na safari kuelekea makao yao ya mbinguni.\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 3784,
+    "content_evidence_truncated": false,
+    "content_sha256": "3acda9c549f976efa9c2097b561cf643e54f5cd41b2614f41da90bc1f54bd14e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 909,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9393,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9390,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10302
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

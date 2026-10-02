@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 5\",\"severity\":\"minor\",\"source_quote\":\"Samson had a jawbone;\",\"suggested_fix\":\"Samsoni alikuwa na taya;\",\"translation_quote\":\"Samsoni alikuwa na taya ya punda;\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 224,
+    "content_evidence_truncated": false,
+    "content_sha256": "2b1f8128bd1c4ab070e783296b27a39a78282dc68c6079fd78e77f6009b9bf62",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1068,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 982,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7930,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7927,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8998
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

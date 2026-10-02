@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,80 @@
         },
         "total_tokens": 9427
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 935,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9286,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9283,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10221
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Opening quotation and repeated quotation, 1 Samuel 17:29 and 17:28-29",
+      "severity": "major",
+      "source_quote": "“Is there not a cause?”",
+      "suggested_fix": "Translate the question as «Δεν υπάρχει λόγος;» or another natural Modern Greek rendering that preserves the assertion that there is a reason/cause. Apply consistently in both quotations.",
+      "translation_quote": "«Δεν υπάρχει κάποιος λόγος;»"
+    },
+    {
+      "location": "Paragraph beginning “When a man has a cause set before him”",
+      "severity": "major",
+      "source_quote": "“there was a jealous fire kindled by the blasphemous taunts of Goliath”",
+      "suggested_fix": "Replace «τη φωτιά της ζήλιας» with a rendering meaning «φωτιά ζήλου» or «φωτιά αγανάκτησης», preserving the context of zealous indignation rather than jealousy.",
+      "translation_quote": "«οι βλάσφημες προκλήσεις του Γολιάθ άναψαν μέσα του τη φωτιά της ζήλιας»"
+    },
+    {
+      "location": "Paragraph beginning “As David arose early that morning”",
+      "severity": "major",
+      "source_quote": "“his pack of corn, bread, and cheese”",
+      "suggested_fix": "Replace «σακί με καλαμπόκι» with «σακί με σιτηρά» or another accurate rendering of corn/grain in this context; «καλαμπόκι» specifically means maize and introduces an unsupported detail.",
+      "translation_quote": "«το σακί με καλαμπόκι, ψωμί και τυρί»"
+    },
+    {
+      "location": "Paragraph beginning “Goliath had automatically assumed”",
+      "severity": "major",
+      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+      "suggested_fix": "Render “45 mm” as «45 χιλιοστών» (or «διαμετρήματος 45 χιλιοστών»), not «45 χιλιοστών» only as a vague caliber? Specifically replace «πιστόλι 45 χιλιοστών» with a clear equivalent of a .45-caliber handgun, such as «πιστόλι διαμετρήματος .45», preserving the source’s figure without implying a 45 mm handgun.",
+      "translation_quote": "«η σφεντόνα του Δαβίδ είχε ανασχετική δύναμη αντίστοιχη με πιστόλι 45 χιλιοστών»"
+    },
+    {
+      "location": "Paragraph beginning “The cowering beliefs”",
+      "severity": "major",
+      "source_quote": "“the sons of Sceva”",
+      "suggested_fix": "Use the conventional Greek biblical name «Σκευά» (e.g. «τους γιους του Σκευά»); the current form «Σκευά» itself is correct, so no change needed.",
+      "translation_quote": "«τους γιους του Σκευά»"
+    },
+    {
+      "location": "Paragraph beginning “Faithful Action”",
+      "severity": "major",
+      "source_quote": "“His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.”",
+      "suggested_fix": "Correct the subject and meaning: Goliath's adrenaline flowed as he scorned David's youth, jumped to conclusions, was easily insulted, and was astonished at David's ignorance. For example: «Η αδρεναλίνη του κυλούσε καθώς περιφρονούσε τα νιάτα του Δαβίδ, έβγαζε βιαστικά συμπεράσματα, προσβαλλόταν εύκολα και θαύμαζε την άγνοια του Δαβίδ.»",
+      "translation_quote": "«Η αδρεναλίνη του κυλούσε καθώς περιφρονούσε τα νιάτα του Δαβίδ, έβγαζε βιαστικά συμπεράσματα, προσβαλλόταν εύκολα και θαύμαζε την άγνοια των άλλων.»"
+    },
+    {
+      "location": "Final poem",
+      "severity": "minor",
+      "source_quote": "“And all were used for God!”",
+      "suggested_fix": "For clearer agreement with the list of instruments, use «Και όλα χρησιμοποιήθηκαν για τον Θεό!»",
+      "translation_quote": "«Και όλα τα χρησιμοποίησε ο Θεός!»"
+    }
+  ],
   "id": "14edbc526c6ab12775fcffae9c4abffa",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ell",
@@ -116,11 +186,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

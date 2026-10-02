@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "04bd52e9-757c-4210-aa7d-0a43aed2527a",
+    "response_id": "chatcmpl-EUc7XI1qaC1r8Hb0IvOpaVv4ejk8v",
+    "usage": {
+      "completion_tokens": 256,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7412,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7409,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7668
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Avsnittet som begynner «Kristne bør ikke handle ut fra slike motiver»",
+        "severity": "major",
+        "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.",
+        "suggested_fix": "Erstatt sitatet med en trofast oversettelse av den trykte teksten, for eksempel: «For Gud har ikke gitt oss en fryktens ånd, men krafts og kjærlighets og sindighets ånd – 2. Timoteus 1:7.»",
+        "translation_quote": "For Gud har ikke gitt oss en ånd som gjør motløs; vi har fått krafts og kjærlighets og sindighets ånd – 2. Timoteus 1:7."
+      },
+      {
+        "location": "Tittelen på artikkelen",
+        "severity": "minor",
+        "source_quote": "End of Life",
+        "suggested_fix": "«Livets slutt» er forståelig, men bruk gjerne «Ved livets slutt» for å gjengi tittelen idiomatisk på norsk bokmål.",
+        "translation_quote": "Livets slutt"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

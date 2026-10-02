@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Первый абзац, цитата из Римлянам 8:28",
+      "severity": "major",
+      "source_quote": "“to them who are the called according to his purpose”",
+      "suggested_fix": "Заменить «призванным по Его изволению» на «призванным согласно Его замыслу», чтобы сохранить смысл «according to his purpose».",
+      "translation_quote": "«призванным по Его изволению»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

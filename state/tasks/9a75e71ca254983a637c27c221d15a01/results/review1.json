@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9df30d66-d236-4546-bb46-3303b8bf35b9",
+    "response_id": "chatcmpl-EUc7jvBtS0PblryegR22fy2Eqz8FZ",
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 495,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2745,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2742,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3375
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning ‘Maar… wat is dit?’",
+        "severity": "minor",
+        "source_quote": "“Of all things, I forgot to put a stamp on the envelope!”",
+        "suggested_fix": "Vervang ‘Van alles wat, ik ben vergeten een postzegel op de envelop te plakken!’ door ‘En dan ook nog: ik ben vergeten een postzegel op de envelop te plakken!’",
+        "translation_quote": "‘Van alles wat, ik ben vergeten een postzegel op de envelop te plakken!’"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 8146
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1068,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 982,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7930,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7927,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8998
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Poem, line 5",
+      "severity": "minor",
+      "source_quote": "Samson had a jawbone;",
+      "suggested_fix": "Samsoni alikuwa na taya;",
+      "translation_quote": "Samsoni alikuwa na taya ya punda;"
+    }
+  ],
+  "finished_at": "2026-10-02T21:03:10+00:00",
   "id": "f7f353002a2a67159a2bf4b166930cdc",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swa",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

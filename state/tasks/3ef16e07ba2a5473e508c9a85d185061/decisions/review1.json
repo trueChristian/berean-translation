@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem lines 5–6",
+      "severity": "major",
+      "source_quote": "If the presence of God, shines as the sun,\nThe singing so sweet, includes everyone.",
+      "suggested_fix": "ঈশ্বরের উপস্থিতি যদি সূর্যের মতো দীপ্ত হয়,<br>\n    সেই মধুর গানে সবাই অন্তর্ভুক্ত।",
+      "translation_quote": "ঈশ্বরের উপস্থিতি যদি সূর্যের মতো দীপ্ত হয়,\n    মধুর সেই গান সবার জন্যই।"
+    },
+    {
+      "location": "source.html, poem line 21",
+      "severity": "major",
+      "source_quote": "If heaven awaits, and we know there we’d go,",
+      "suggested_fix": "স্বর্গ যদি আমাদের জন্য অপেক্ষা করে, আর আমরা জানি যে সেখানে যাব,",
+      "translation_quote": "স্বর্গ যদি অপেক্ষায় থাকে, আর আমরা জানি সেখানেই যাব,"
+    },
+    {
+      "location": "source.html, poem line 23",
+      "severity": "major",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "পবিত্র গ্রন্থ জানায়, আমাদের জীবন তো কেবলই বাষ্প।",
+      "translation_quote": "উত্তম গ্রন্থ বলে, আমাদের জীবন তো ক্ষণস্থায়ী বাষ্প।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

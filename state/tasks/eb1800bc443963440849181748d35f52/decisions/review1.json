@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first blockquote (Matteus 24:6–7)",
+      "severity": "major",
+      "source_quote": "“and there shall be famines, and pestilences, and earthquakes, in divers places”",
+      "suggested_fix": "Ändra slutet av citatet till: ”och det ska bli hungersnöd, farsoter och jordbävningar på olika platser” så att även jordbävningarna i källtexten återges.",
+      "translation_quote": "“och det ska bli hungersnöd och pest på många platser”"
+    },
+    {
+      "location": "HTML, stycket med citatet från Psaltaren 20:8a",
+      "severity": "major",
+      "source_quote": "“They are brought down and [are] fallen”",
+      "suggested_fix": "Ändra till en formulering som återger att de blir nedslagna och faller, till exempel: ”De blir nedslagna och faller …”",
+      "translation_quote": "“De stapplar och faller…”"
+    },
+    {
+      "location": "HTML, stycket med citatet från Lukasevangeliet 21:26",
+      "severity": "major",
+      "source_quote": "“Men’s hearts [are] failing them for fear, and for looking after those things which are coming on the earth”",
+      "suggested_fix": "Ändra citatet så att det återger att människors hjärtan sviktar av rädsla och väntan på det som ska komma över jorden, till exempel: ”Människors hjärtan ska svikta av rädsla och väntan på det som ska komma över världen”.",
+      "translation_quote": "“Människor ska ge upp andan av skräck och väntan på det som ska komma över världen”"
+    },
+    {
+      "location": "HTML, sista blockcitatet (Judasbrevet 1:24–25)",
+      "severity": "major",
+      "source_quote": "“To the only wise God our Saviour”",
+      "suggested_fix": "Lägg till uppgiften att Gud är vis, till exempel: ”den ende vise Guden, vår Frälsare”.",
+      "translation_quote": "“den ende Guden, vår Frälsare”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

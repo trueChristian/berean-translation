@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 8520
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 735,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8341,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8338,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9076
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML paragraph on David’s dog and yodeling",
+      "severity": "major",
+      "source_quote": "“If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs and open the possibility for others to do it too.”",
+      "suggested_fix": "Replace “গুনগুন করে গান গাইতে” with Bengali wording meaning “ইয়োডেল করতে” in both occurrences, for example: “আমি যদি আমার কুকুরকে ইয়োডেল করতে শেখাতে পারি, তবে তা প্রমাণ করবে যে কুকুরদের পক্ষে ইয়োডেল করা সম্ভব এবং অন্যদের জন্যও তা করার সম্ভাবনা খুলে দেবে।”",
+      "translation_quote": "“আমি যদি আমার কুকুরকে গুনগুন করে গান গাইতে শেখাতে পারি, তবে তা প্রমাণ করবে যে কুকুরদের পক্ষে গুনগুন করে গান গাওয়া সম্ভব এবং অন্যদের জন্যও তা করার সম্ভাবনা খুলে দেবে।”"
+    },
+    {
+      "location": "HTML paragraph beginning “As a giant, speed and agility…”",
+      "severity": "major",
+      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+      "suggested_fix": "Correct “৪৫ মিমি” to “৪৫ ক্যালিবার” (or another Bengali rendering that accurately conveys .45 caliber), preserving the source’s comparison: “দায়ূদের গুলতির আঘাতের ক্ষমতা ছিল ৪৫ ক্যালিবার হ্যান্ডগানের সমান” is not the same as a 45 mm handgun.",
+      "translation_quote": "“দায়ূদের গুলতির আঘাতের ক্ষমতা ছিল ৪৫ মিমি হ্যান্ডগানের সমান”"
+    },
+    {
+      "location": "HTML paragraph beginning “The cowering beliefs of the Israelite army…”",
+      "severity": "major",
+      "source_quote": "“The cowering beliefs of the Israelite army were rooted in a pagan value system.”",
+      "suggested_fix": "Replace “ভীতসন্ত্রস্ত বিশ্বাসগুলো” with wording that conveys the army’s cowering beliefs or fearful outlook, such as “ইস্রায়েলীয় সেনাবাহিনীর ভীরু মনোভাব পৌত্তলিক মূল্যবোধের ওপর প্রতিষ্ঠিত ছিল।”",
+      "translation_quote": "“ইস্রায়েলীয় সেনাবাহিনীর ভীতসন্ত্রস্ত বিশ্বাসগুলো পৌত্তলিক মূল্যবোধের ওপর প্রতিষ্ঠিত ছিল।”"
+    },
+    {
+      "location": "HTML paragraph beginning “Faithful Action is inevitable…”",
+      "severity": "major",
+      "source_quote": "“just as it did for the sons of Sceva.”",
+      "suggested_fix": "Use the conventional Bengali form of Sceva’s name; replace “শকেবার” with “স্কেবার” (or the established Bengali spelling used in the cited biblical context).",
+      "translation_quote": "“যেমন শকেবার পুত্রদের ক্ষেত্রেও পারেনি।”"
+    },
+    {
+      "location": "HTML paragraph beginning “Why would Japanese Kamikaze pilots…”",
+      "severity": "major",
+      "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Correct “সবদির” to “সবদিয়ের” (or the conventional Bengali form of Zebedee), retaining the reference to Zebedee’s business boats: “ব্যবসার জন্য সবদিয়ের নৌকা থেকে…”",
+      "translation_quote": "“ব্যবসার জন্য সবদির নৌকা থেকে…”"
+    }
+  ],
   "id": "c759d10bd8aaebef9c90be3a51ebdf87",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ben",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

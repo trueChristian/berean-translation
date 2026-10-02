@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo que comienza «Goliat había supuesto automáticamente…»",
+      "severity": "major",
+      "source_quote": "According to some estimates, at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun",
+      "suggested_fix": "Replace «una pistola de 45 mm» with «una pistola de calibre 45» to preserve the source’s handgun caliber reference.",
+      "translation_quote": "la honda de David tenía una potencia de parada comparable a la de una pistola de 45 mm"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

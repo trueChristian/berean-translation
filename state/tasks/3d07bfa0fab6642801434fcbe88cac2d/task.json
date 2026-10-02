@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7591
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 256,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7412,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7409,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7668
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Avsnittet som begynner «Kristne bør ikke handle ut fra slike motiver»",
+      "severity": "major",
+      "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.",
+      "suggested_fix": "Erstatt sitatet med en trofast oversettelse av den trykte teksten, for eksempel: «For Gud har ikke gitt oss en fryktens ånd, men krafts og kjærlighets og sindighets ånd – 2. Timoteus 1:7.»",
+      "translation_quote": "For Gud har ikke gitt oss en ånd som gjør motløs; vi har fått krafts og kjærlighets og sindighets ånd – 2. Timoteus 1:7."
+    },
+    {
+      "location": "Tittelen på artikkelen",
+      "severity": "minor",
+      "source_quote": "End of Life",
+      "suggested_fix": "«Livets slutt» er forståelig, men bruk gjerne «Ved livets slutt» for å gjengi tittelen idiomatisk på norsk bokmål.",
+      "translation_quote": "Livets slutt"
+    }
+  ],
   "id": "3d07bfa0fab6642801434fcbe88cac2d",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nob",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

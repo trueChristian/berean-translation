@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2edc1eb8-1ed8-45d4-af0c-244263c29ebe",
+    "response_id": "chatcmpl-EUc7Xa3XJl4OMcveGDZknvY3WpLnr",
+    "usage": {
+      "completion_tokens": 218,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3136,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3133,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3354
+    }
+  },
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "شعر، بند 14، سطر 4",
+        "severity": "major",
+        "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+        "suggested_fix": "اس سطر میں آزمائشوں کو اصل کے مطابق «یہ» سے بدلیں، تاکہ مفہوم یہ رہے کہ خدا کی قوت اور قدرت تب ظاہر ہوتی ہیں جب یہ (راز) اُس کی مرضی کے مطابق ہوں؛ مثلاً: «جب یہ میری مرضی کے تابع ہوتے ہیں۔»",
+        "translation_quote": "کیونکہ میری قوت اور قدرت ظاہر ہوتی ہیں، / جب یہ آزمائشیں میری مرضی کے تابع ہوتی ہیں۔"
+      },
+      {
+        "location": "شعر، بند 2، سطر 1",
+        "severity": "minor",
+        "source_quote": "Thunder rolled out its forebodings.",
+        "suggested_fix": "«گرج نے اپنے اندیشے گونجا دیے۔»",
+        "translation_quote": "گرج نے پیش خبریوں کا شور مچا دیا۔"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

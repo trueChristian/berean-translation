@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “De sportwereld”\",\"severity\":\"major\",\"source_quote\":\"The other side of the coin produces an immense amount of negative and degrading input that seeks to thwart any effort to try.\",\"suggested_fix\":\"Vervang “die elke poging om het te proberen willen dwarsbomen” door “die elke poging om iets te proberen willen dwarsbomen” (of een gelijkwaardige formulering).\",\"translation_quote\":\"De keerzijde van de medaille levert een enorme hoeveelheid negatieve en vernederende boodschappen op, die elke poging om het te proberen willen dwarsbomen.\"},{\"location\":\"HTML, paragraph beginning “De grootste en meest verheven gave”\",\"severity\":\"major\",\"source_quote\":\"If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs and open the possibility for others to do it too.\",\"suggested_fix\":\"Wijzig “zou dat bewijzen dat honden kunnen jodelen en de mogelijkheid openen dat anderen het ook doen” in een formulering als “zou dat bewijzen dat honden kunnen leren jodelen en de mogelijkheid openen dat andere honden dat ook kunnen”.\",\"translation_quote\":\"Als ik mijn hond kon leren jodelen, zou dat bewijzen dat honden kunnen jodelen en de mogelijkheid openen dat anderen het ook doen.\"},{\"location\":\"HTML, paragraph beginning “Een zorgzaam geweten”\",\"severity\":\"major\",\"source_quote\":\"Jacob’s aspirations for Rachael made him forget the seven years of labor.\",\"suggested_fix\":\"Vervang “Jakobs verlangen naar Rachel” door “Jakobs verlangen naar Rachel” alleen als bedoeld wordt dat hij haar begeerde; beter: “Jakobs verlangen om Rachel tot vrouw te krijgen deed hem de zeven jaar arbeid vergeten.”\",\"translation_quote\":\"Jakobs verlangen naar Rachel deed hem de zeven jaar arbeid vergeten.\"},{\"location\":\"HTML, paragraph beginning “Een eerlijke verbeelding”\",\"severity\":\"major\",\"source_quote\":\"He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.\",\"suggested_fix\":\"Vertaal de haakjes zo dat “from his youth” op Goliath slaat, bijvoorbeeld: “...vreest met Gods hulp niet de confrontatie met een man uit de vallei van Ela, een krijger vanaf zijn jeugd.”\",\"translation_quote\":\"Hij heeft in de heuvels van Bethlehem successen behaald tegen wilde dieren (een leeuw en een beer) en vreest met Gods hulp niet de confrontatie met een man van oorlog, die al sinds zijn jeugd een krijger is, in de vallei van Ela.\"},{\"location\":\"HTML, alinea die begint met “Getrouwe daden”\",\"severity\":\"major\",\"source_quote\":\"The desire to dominate is no more noble than Goliath’s unbridled rage to destroy this young upstart. His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.\",\"suggested_fix\":\"Maak expliciet dat de beschrijving van Goliath doorgaat: “Goliath was niet edeler in zijn verlangen om te heersen dan in zijn ongebreidelde woede om deze jonge nieuwkomer te vernietigen. Zijn adrenaline stroomde terwijl hij...”\",\"translation_quote\":\"Het verlangen om te heersen is niet edeler dan Goliaths ongebreidelde woede om deze jonge nieuwkomer te vernietigen. Zijn adrenaline stroomde terwijl hij...\"},{\"location\":\"HTML, alinea die begint met “Getrouwe daden”\",\"severity\":\"major\",\"source_quote\":\"The faith of the shepherd boy teaches us to stop lamenting over what we wanna-be and start being what we oughta-be.\",\"suggested_fix\":\"Vervang “Het geloof van de herdersjongen” door “Het geloof van de herdersjongen” alleen als de eerdere verwijzing naar David bedoeld is; hier staat “herdersjongen” goed. Vervang wel “treuren om” door een passendere weergave van “lamenting over”, zoals “klagen over”.\",\"translation_quote\":\"Het geloof van de herdersjongen leert ons op te houden met treuren om wat we zouden willen zijn en te beginnen met te zijn wat we behoren te zijn.\"},{\"location\":\"HTML, alinea vóór het gedicht\",\"severity\":\"major\",\"source_quote\":\"God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.\",\"suggested_fix\":\"Vertaal “the boys of his bosom” als de jongens die God aan zijn hart koestert, niet als jongens aan Gods hart. Bijvoorbeeld: “...van de boten waarmee Zebedeüs zijn bedrijf dreef… tot de jongens die Hij aan zijn hart koestert.”\",\"translation_quote\":\"God velt reuzen met de middelen die wij Hem aanreiken: van de naald van Dorkas… tot de pin van Jaël, van de boten van Zebedeüs voor zijn bedrijf… tot de jongens aan zijn hart.\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 4771,
+    "content_evidence_truncated": false,
+    "content_sha256": "a791b4a9d3a83579885753c8e55342c53d395d1ac3211675ecc6ef21a1b798a5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1112,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7327,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8442
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

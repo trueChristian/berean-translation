@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d1731537-4944-49b3-ac1d-db72856a8c9a",
+    "response_id": "chatcmpl-EUc7YtzsjMfzJBD1jy8vv5QS1K9pG",
+    "usage": {
+      "completion_tokens": 240,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3145,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3142,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3385
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “My precious child”",
+        "severity": "major",
+        "source_quote": "“Not for a second could I leave your side.”",
+        "suggested_fix": "Replace the second sentence of this stanza with: “এক মুহূর্তের জন্যও আমি তোমার পাশ ছেড়ে যাইনি।”",
+        "translation_quote": "“এক মুহূর্তের জন্যও আমি তোমার পাশ ছেড়ে যেতে পারি না।”"
+      },
+      {
+        "location": "HTML, stanza beginning “This promise can also open to you”",
+        "severity": "major",
+        "source_quote": "“For My strength and power are manifest, / When these to My will conform.”",
+        "suggested_fix": "Revise the last two lines to preserve that God’s strength and power become manifest when the hidden secrets conform to God’s will; for example: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।”",
+        "translation_quote": "“কারণ আমার শক্তি ও ক্ষমতা প্রকাশিত হয়, / যখন এগুলো আমার ইচ্ছার সঙ্গে মেলে।”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

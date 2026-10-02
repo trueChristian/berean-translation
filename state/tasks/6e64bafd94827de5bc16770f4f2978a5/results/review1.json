@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b60c05c8-faa3-48c9-aa48-bee40da80886",
+    "response_id": "chatcmpl-EUc7XBFsNx6VD8FnC65OWzAYFRhhm",
+    "usage": {
+      "completion_tokens": 299,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1784,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1781,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2083
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 15",
+        "severity": "major",
+        "source_quote": "Would we lose our life, for the good Lord’s sake?",
+        "suggested_fix": "Ganti dengan “Maukah kita kehilangan nyawa demi Tuhan?” agar tidak menambahkan penilaian “yang baik” pada Tuhan.",
+        "translation_quote": "Maukah kita kehilangan nyawa demi Tuhan yang baik?"
+      },
+      {
+        "location": "Poem, line 16",
+        "severity": "major",
+        "source_quote": "Then eternity we’d gain, and heaven partake.",
+        "suggested_fix": "Ganti dengan “Maka kita akan memperoleh hidup kekal dan turut menikmati surga.” Terjemahan saat ini menghilangkan gagasan “memperoleh hidup kekal” dengan mengubahnya menjadi “memperoleh kekekalan”.",
+        "translation_quote": "Maka kita akan memperoleh kekekalan dan mendapat bagian di surga."
+      },
+      {
+        "location": "Poem, line 24",
+        "severity": "major",
+        "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+        "suggested_fix": "Ganti dengan “Kitab Suci menyampaikan bahwa hidup kita hanyalah uap.” Kalimat sumber menyebut Kitab Suci sebagai penyampai gagasan, bukan sekadar menambahkan “demikian” pada akhir kalimat.",
+        "translation_quote": "Hidup kita hanyalah uap, demikian disampaikan Kitab Suci."
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

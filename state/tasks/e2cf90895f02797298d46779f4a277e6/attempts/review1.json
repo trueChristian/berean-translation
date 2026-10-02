@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article HTML, final sentence of the Matthew 9:2–8 quotation\",\"severity\":\"major\",\"source_quote\":\"“But when the multitudes saw it, they marvelled, and glorified God”\",\"suggested_fix\":\"Change “Maka orang banyak yang melihat hal itu takut lalu memuliakan Allah” to “Maka orang banyak yang melihat hal itu takjub lalu memuliakan Allah.”\",\"translation_quote\":\"“Maka orang banyak yang melihat hal itu takut lalu memuliakan Allah yang telah memberikan kuasa sedemikian itu kepada manusia –Matius 9:2-8.”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 571,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac602a5179b3b85a1428cc1fb003a61b8be4fde7a32a6592c1ad8d1bd44723ca",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8988,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9654
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

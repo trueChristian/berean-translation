@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Un gériatre…”",
+      "severity": "major",
+      "source_quote": "In 2020 there were 7,595 people who killed themselves with a doctor’s assistance.",
+      "suggested_fix": "Replace « En 2020, 7 595 personnes se sont donné la mort avec l’aide d’un médecin. » with « En 2020, 7 595 personnes ont mis fin à leurs jours avec l’aide d’un médecin. »",
+      "translation_quote": "En 2020, 7 595 personnes se sont donné la mort avec l’aide d’un médecin."
+    },
+    {
+      "location": "HTML, paragraph beginning “A society that no longer values…”",
+      "severity": "major",
+      "source_quote": "A society that no longer values all human lives as important, begins to allow things like physician-assisted suicide, and even euthanasia.",
+      "suggested_fix": "Translate “as important” explicitly, for example: « Une société qui n’accorde plus d’importance à toutes les vies humaines commence à permettre des pratiques comme le suicide assisté par un médecin, voire l’euthanasie. »",
+      "translation_quote": "Une société qui n’accorde plus d’importance à toutes les vies humaines commence à permettre des pratiques comme le suicide assisté par un médecin, voire l’euthanasie."
+    },
+    {
+      "location": "HTML, paragraph beginning “It is also important that it should be…”",
+      "severity": "major",
+      "source_quote": "the government made the decision that elderly residents of nursing facilities would not be treated for COVID.",
+      "suggested_fix": "Replace « le gouvernement a décidé que les résidents âgés des établissements de soins ne seraient pas traités contre la COVID » with « le gouvernement a décidé que les résidents âgés des établissements de soins ne recevraient pas de traitement contre la COVID » to preserve the claim that they were not treated, rather than suggesting they were not treated specifically against it.",
+      "translation_quote": "le gouvernement a décidé que les résidents âgés des établissements de soins ne seraient pas traités contre la COVID."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

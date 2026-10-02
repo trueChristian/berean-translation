@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “David responded” (1 Samuel 17:34-36)",
+      "severity": "major",
+      "source_quote": "“I caught him by his beard”",
+      "suggested_fix": "Cambia «yo le echaba mano de la quijada» por «lo agarré por la barba», conservando el resto de la cita y la referencia.",
+      "translation_quote": "«yo le echaba mano de la quijada»"
+    },
+    {
+      "location": "source.html, paragraph beginning “Then David said” (1 Samuel 17:45-46)",
+      "severity": "major",
+      "source_quote": "“Thou comest to me with a sword, and with a spear, and with a shield”",
+      "suggested_fix": "Cambia «con espada y lanza y jabalina» por «con espada, lanza y escudo», conservando el resto de la cita y la referencia.",
+      "translation_quote": "«Tú vienes a mí con espada y lanza y jabalina»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, primer párrafo",
+      "severity": "major",
+      "source_quote": "While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease",
+      "suggested_fix": "Sustituir la cita por una traducción fiel, por ejemplo: «Mientras permanezca la tierra, no cesarán la siembra y la cosecha, el frío y el calor, el verano y el invierno, ni el día y la noche».",
+      "translation_quote": "Mientras permanezcan la tierra, la siembra y la cosecha, el frío y el calor, el verano y el invierno, el día y la noche no cesarán"
+    },
+    {
+      "location": "HTML, párrafo sobre datos del FMI",
+      "severity": "major",
+      "source_quote": "creating a global recession that is the deepest since the end of World War 2.",
+      "suggested_fix": "Revisar la frase para conservar la afirmación del original: «…y dio lugar a una recesión mundial que es la más profunda desde el final de la Segunda Guerra Mundial».",
+      "translation_quote": "y provocó una recesión mundial que es la más profunda desde el final de la Segunda Guerra Mundial."
+    },
+    {
+      "location": "HTML, párrafo sobre el testimonio del mecánico",
+      "severity": "major",
+      "source_quote": "how he prays and seeks the Lord’s leading about how he can speak into the lives of those who come to his shop. And of his further testimony regarding the various ways that God has led and folks have been pointed to a Living God and a life after death.",
+      "suggested_fix": "Conservar el sentido de que el mecánico busca la dirección del Señor para hablar a la vida de sus clientes y de que Dios ha guiado a personas hacia un Dios vivo y hacia la vida después de la muerte. Por ejemplo: «…cómo ora y busca la dirección del Señor para saber cómo puede influir en la vida de quienes acuden a su taller. También dio testimonio de las diversas maneras en que Dios ha guiado y las personas han sido encaminadas hacia un Dios vivo y una vida después de la muerte».",
+      "translation_quote": "…cómo ora y busca la dirección del Señor para saber cómo puede hablar a la vida de quienes acuden a su taller. Y también en su testimonio sobre las diversas maneras en que Dios lo ha guiado y las personas han sido encaminadas hacia un Dios vivo y una vida después de la muerte."
+    },
+    {
+      "location": "HTML, párrafo sobre la pregunta que uno se hace",
+      "severity": "major",
+      "source_quote": "What if we were the one who God wanted to say a word for Him out of a life that was living for Him to bring His awareness to one who knows not the One, Living, and True God?",
+      "suggested_fix": "Corregir la relación entre la persona, Dios y el mensaje para reflejar que Dios podría querer que nosotros habláramos en su nombre, desde una vida consagrada a Él, para llamar la atención de alguien que no conoce al único Dios vivo y verdadero. Por ejemplo: «¿Y si fuéramos nosotros a quienes Dios quería que habláramos en su nombre, desde una vida dedicada a Él, para llamar la atención de alguien que no conoce al único Dios vivo y verdadero?»",
+      "translation_quote": "¿Y si fuéramos nosotros la persona a quien Dios quería que dijera una palabra en su nombre, desde una vida dedicada a Él, para hacer que alguien que no conoce al único Dios vivo y verdadero tomara conciencia de Él?"
+    },
+    {
+      "location": "HTML, último párrafo antes de Recursos",
+      "severity": "major",
+      "source_quote": "…we may find ourselves in a similar situation wishing that our brothers and sisters would rally around us with love and encouragement in a real way that “helps”.",
+      "suggested_fix": "Expresar que los hermanos y hermanas se unirían para apoyar a la persona con amor y ánimo de forma práctica y útil; por ejemplo: «…desear que nuestros hermanos y hermanas se unieran para apoyarnos con amor y ánimo de una manera concreta que realmente nos “ayude”».",
+      "translation_quote": "…desear que nuestros hermanos y hermanas nos rodearan con amor y ánimo de una manera real que nos «ayude»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

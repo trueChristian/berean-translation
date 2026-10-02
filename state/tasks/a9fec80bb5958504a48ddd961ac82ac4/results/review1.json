@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "51bf4bf8-0010-4311-a904-de15407f91d8",
+    "response_id": "chatcmpl-EUc88Wyzl3Jnldo59Zko9Q6LGQmc0",
+    "usage": {
+      "completion_tokens": 870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 672,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1770,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1767,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2640
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, line beginning “If the presence of God”",
+        "severity": "minor",
+        "source_quote": "If the presence of God, shines as the sun,",
+        "suggested_fix": "Replace «når» with «Hvis»: «Hvis Guds nærvær skinner som solen,»",
+        "translation_quote": "når Guds nærvær skinner som solen,"
+      },
+      {
+        "location": "HTML, poem, line beginning “For it seems”",
+        "severity": "minor",
+        "source_quote": "For it seems it’s this life, that has us amused.",
+        "suggested_fix": "Use wording that conveys being absorbed or preoccupied with this life, for example: «for det virker som om det er dette livet vi er så opptatt av.»",
+        "translation_quote": "for det virker som om det er dette livet som moret oss."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

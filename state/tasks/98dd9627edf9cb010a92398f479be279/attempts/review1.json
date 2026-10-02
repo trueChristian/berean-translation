@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, stanza beginning “This promise can also open to you”\",\"severity\":\"major\",\"source_quote\":\"“This promise can also open to you, / The secrets that are hid 'midst the storm. / For My strength and power are manifest, / When these to My will conform.”\",\"suggested_fix\":\"Replace the corresponding stanza with: „Dieses Versprechen kann dir auch / die Geheimnisse erschließen, die sich im Sturm verbergen. / Denn Meine Kraft und Macht werden offenbar, / wenn diese sich Meinem Willen fügen.“\",\"translation_quote\":\"„Diese Verheißung kann dir auch / die Geheimnisse erschließen, die sich im Sturm verbergen. / Denn Meine Kraft und Macht werden offenbar, / wenn sich diese Meinem Willen fügen.“\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 765,
+    "content_evidence_truncated": false,
+    "content_sha256": "8970fbfee3744c3c418a0d04651dfb3d1b0c9ed2f153e1f9ed023f0ff25b6680",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2931,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2928,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3113
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

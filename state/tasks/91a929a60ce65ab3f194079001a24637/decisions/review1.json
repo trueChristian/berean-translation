@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening Bible quotation",
+      "severity": "major",
+      "source_quote": "them who are the called according to his purpose",
+      "suggested_fix": "Replace “dem som är kallade enligt hans beslut” with “dem som är kallade enligt hans syfte” (or “enligt hans avsikt”), preserving the meaning of “purpose.”",
+      "translation_quote": "dem som är kallade enligt hans beslut"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "If that letter would have reached Brother Oscars, they would have been preparing for us.",
+      "suggested_fix": "Replace “familjen Oscar” with “broder Oscar” or “broder Oscars familj”, so the translation refers to Brother Oscar or his household, not a family named Oscar.",
+      "translation_quote": "Om brevet hade nått fram till familjen Oscar, skulle de ha förberett sig för vårt besök."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

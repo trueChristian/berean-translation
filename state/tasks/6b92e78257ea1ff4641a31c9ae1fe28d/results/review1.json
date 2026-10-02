@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fa81e70b-b84e-4ae3-8587-5a23802fdd1c",
+    "response_id": "chatcmpl-EUc7YGyAZUzgIbkCblPh5U6wfHseQ",
+    "usage": {
+      "completion_tokens": 130,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7494,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7627
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraphe sur la fronde de David",
+        "severity": "major",
+        "source_quote": "According to some estimates, at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun",
+        "suggested_fix": "Remplacer « un pistolet de 45 mm » par « un pistolet de calibre .45 » pour conserver la référence à une arme de calibre .45, et non de 45 millimètres.",
+        "translation_quote": "un pistolet de 45 mm"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "67fff4cd-6d45-4d64-a804-fda577b5da04",
+    "response_id": "chatcmpl-EUc7Y6LsXlEiimwDwIbbetSxywhdn",
+    "usage": {
+      "completion_tokens": 744,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8150,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8147,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8894
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / corresponding translation paragraph: Saul’s assessment of David, 1 Samuel 17:33",
+        "severity": "major",
+        "source_quote": "“for thou art but a youth, and he a man of war from his youth –1 Samuel 17:33.”",
+        "suggested_fix": "Replace «لأنك غلام وهو رجل حرب منذ صباه» with «لأنك فتى، وهو رجل محارب منذ صباه» to preserve the contrast that David is only a youth while the Philistine has been a warrior from his youth.",
+        "translation_quote": "«لأنك غلام وهو رجل حرب منذ صباه –صموئيل الأول 17:33.»"
+      },
+      {
+        "location": "source.html / corresponding translation paragraph: David’s reply about the lion and bear, 1 Samuel 17:34-36",
+        "severity": "major",
+        "source_quote": "“when he arose against me, I caught him by his beard, and smote him, and slew him.”",
+        "suggested_fix": "Replace «أمسكته من ذقنه» with «أمسكته من لحيته»; the source says David seized the attacking animal by its beard, not its chin.",
+        "translation_quote": "«ولما قام عليّ أمسكته من ذقنه وضربته فقتلته.»"
+      },
+      {
+        "location": "source.html / corresponding translation paragraph: David’s declaration to Goliath, 1 Samuel 17:45-46",
+        "severity": "major",
+        "source_quote": "“This day will the LORD deliver thee into mine hand; and I will smite thee … that all the earth may know that there is a God in Israel”",
+        "suggested_fix": "Replace «هذا اليوم يحبسك الرب في يدي، فأقتلك… لكي تعلم كل الأرض أن لإسرائيل إلهًا» with «في هذا اليوم يدفعك الرب إلى يدي، فأضربك… لكي تعلم كل الأرض أن في إسرائيل إلهًا»; retain the source’s meaning and ellipsis.",
+        "translation_quote": "«هذا اليوم يحبسك الرب في يدي، فأقتلك… لكي تعلم كل الأرض أن لإسرائيل إلهًا»"
+      },
+      {
+        "location": "source.html / corresponding translation paragraph: final conversion illustration",
+        "severity": "major",
+        "source_quote": "“He leaves that alley a new person! He has joy in his heart and peace in his soul!”",
+        "suggested_fix": "Replace «ويخرج من ذلك الزقاق إنسانًا جديدًا! في قلبه فرح، وفي نفسه سلام!» with «ويخرج من ذلك الزقاق إنسانًا جديدًا! في قلبه فرح، وفي نفسه سلام!» only if the intended meaning is clear from context; more precisely, render the source as «يخرج من ذلك الزقاق إنسانًا جديدًا! ويكون في قلبه فرح وفي نفسه سلام!»",
+        "translation_quote": "«ويخرج من ذلك الزقاق إنسانًا جديدًا! في قلبه فرح، وفي نفسه سلام!»"
+      },
+      {
+        "location": "source.html / corresponding translation paragraph: final statement of the converted man",
+        "severity": "major",
+        "source_quote": "“I’ve been saved by the power of God! By the blood of Jesus!”",
+        "suggested_fix": "Replace «لقد خلّصتني قوة الله! بدم يسوع!» with «لقد خلّصتني قوة الله! لقد خلّصني دم يسوع!» so the first-person testimony remains explicit and the second fragment is rendered in Arabic rather than left as an unattached prepositional phrase.",
+        "translation_quote": "«لقد خلّصتني قوة الله! بدم يسوع!»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

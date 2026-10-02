@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3a939cc4-741f-408e-bb37-756f6d34ce79",
+    "response_id": "chatcmpl-EUc7YvrET4doKCpn8hwjEMoORKFWB",
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2967,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3600
+    }
+  },
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, stanza beginning « Mon enfant, n’aie pas peur »",
+        "severity": "minor",
+        "source_quote": "Not for a second could I leave your side.",
+        "suggested_fix": "Remplacer par « Pas un instant, je ne pouvais m’éloigner de toi. » pour éviter le conditionnel passé et employer une tournure plus idiomatique.",
+        "translation_quote": "Pas une seconde je n’aurais pu quitter ton côté."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

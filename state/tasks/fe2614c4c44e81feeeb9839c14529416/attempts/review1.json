@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, lines 6–7\",\"severity\":\"minor\",\"source_quote\":\"The singing so sweet, includes everyone.\",\"suggested_fix\":\"Replace the translated line with « Le chant, si doux, inclut tout le monde. »\",\"translation_quote\":\"Le chant, si doux, accueille chacun à l’éveil.\"},{\"location\":\"HTML, poem, lines 17–18\",\"severity\":\"major\",\"source_quote\":\"Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.\",\"suggested_fix\":\"Replace these two lines with « Ou si nous aimons notre vie, la Bible dit clairement / que nous perdrions notre chance d’accéder à ce ciel si précieux. »\",\"translation_quote\":\"Ou aimerions-nous notre vie, alors que la Bible est claire : / Nous perdrions notre chance d’accéder à ce ciel si précieux.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 821,
+    "content_evidence_truncated": false,
+    "content_sha256": "c7ade7a6a46e3c1624d72e2057ea3003a66511572956a8bc2c2c31c14526e21e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 587,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1759,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1756,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2563
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

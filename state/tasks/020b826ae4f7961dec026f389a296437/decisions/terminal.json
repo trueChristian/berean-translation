@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second paragraph",
+      "severity": "minor",
+      "source_quote": "You struggle and flail to regain your footing.",
+      "suggested_fix": "Replace «fektar» with the Bokmål form «fekter»: «Du kjemper og fekter for å få fotfeste igjen.»",
+      "translation_quote": "Du kjemper og fektar for å få fotfeste igjen."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 1869
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 399,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1728,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1725,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2127
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, poem, lines 3–6",
+      "severity": "major",
+      "source_quote": "There’s a place up there, no toil or strife. However, the church, can forget of that life, If the presence of God, shines as the sun, The singing so sweet, includes everyone.",
+      "suggested_fix": "Preserve the contrast and conditional meaning in Dutch, for example: “Daarboven is een plaats, zonder zwoegen of strijd. Toch kan de kerk dat leven vergeten: als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen.”",
+      "translation_quote": "Daarboven is een plaats, zonder zwoegen of strijd. Toch kan de kerk dat leven vergeten, Als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen."
+    },
+    {
+      "location": "HTML, poem, line 9",
+      "severity": "major",
+      "source_quote": "We build our mansions here on this earth,",
+      "suggested_fix": "Translate “mansions” as “herenhuizen” or another suitable Dutch equivalent for large houses, rather than “herenhuizen” only if the intended sense is preserved; avoid implying more than the source states.",
+      "translation_quote": "We bouwen hier op aarde onze herenhuizen,"
+    },
+    {
+      "location": "HTML, poem, lines 23–24",
+      "severity": "major",
+      "source_quote": "When the next life is heaven, eternity with Him, Then death is the beginning, so why is it grim?",
+      "suggested_fix": "Use Dutch phrasing that retains the question about why death is grim, such as: “Als het volgende leven de hemel is, de eeuwigheid bij Hem, dan is de dood het begin—waarom is dat dan zo somber?”",
+      "translation_quote": "Als het volgende leven de hemel is, de eeuwigheid bij Hem, Dan is de dood het begin; waarom is hij dan zo somber?"
+    }
+  ],
   "id": "076b44acaaa937f9781f8f3efa76004e",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nld",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"

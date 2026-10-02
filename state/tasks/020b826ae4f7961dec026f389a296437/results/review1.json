@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e55444fa-30cc-45b5-a3de-a7de968387d8",
+    "response_id": "chatcmpl-EUc7Z5kHGbsOMnnR7qcdVZmcCTKbH",
+    "usage": {
+      "completion_tokens": 763,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 651,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8968,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8965,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9731
+    }
+  },
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second paragraph",
+        "severity": "minor",
+        "source_quote": "You struggle and flail to regain your footing.",
+        "suggested_fix": "Replace «fektar» with the Bokmål form «fekter»: «Du kjemper og fekter for å få fotfeste igjen.»",
+        "translation_quote": "Du kjemper og fektar for å få fotfeste igjen."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

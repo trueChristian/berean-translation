@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e0893e51-d112-4819-8819-b4ac0c8f2e96",
+    "response_id": "chatcmpl-EUc7YDQi0fHaPOt3F1OilJwK2JZiR",
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8786,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8783,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9471
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph under “Κατανοήστε ότι πιθανότατα θα υπάρχει πόνος”",
+        "severity": "minor",
+        "source_quote": "“specifically designed to treat the pain and other symptoms, usually of a terminally ill patient”",
+        "suggested_fix": "For clearer Greek grammar, change «συνήθως ασθενών με ανίατη ασθένεια» to «που συνήθως εμφανίζονται σε ασθενείς με ανίατη ασθένεια».",
+        "translation_quote": "«ειδικά σχεδιασμένο για την αντιμετώπιση του πόνου και άλλων συμπτωμάτων, συνήθως ασθενών με ανίατη ασθένεια»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

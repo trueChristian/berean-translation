@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "Poem, lines 1–2",
+      "severity": "minor",
+      "source_quote": "We hear all the talk, the beauties of glory / The Bible speaks and tells its own story.",
+      "suggested_fix": "Consider “Wir hören all das Gerede, von den Schönheiten der Herrlichkeit / Die Bibel spricht und erzählt ihre eigene Geschichte.” The current first line is understandable but leaves the relationship between “talk” and “beauties of glory” unclear.",
+      "translation_quote": "Wir hören all das Gerede, die Schönheit der Herrlichkeit"
+    },
+    {
+      "location": "Poem, line 4",
+      "severity": "major",
+      "source_quote": "However, the church, can forget of that life,",
+      "suggested_fix": "Translate the church as the subject that may forget that life, for example: “Doch die Kirche kann jenes Leben vergessen,”",
+      "translation_quote": "Doch die Kirche kann dieses Leben vergessen,"
+    },
+    {
+      "location": "Poem, line 6",
+      "severity": "major",
+      "source_quote": "The singing so sweet, includes everyone.",
+      "suggested_fix": "Restore the source’s assertion that the sweet singing includes everyone: “Der so süße Gesang schließt alle ein.”",
+      "translation_quote": "umfasst der so süße Gesang alle."
+    },
+    {
+      "location": "Poem, lines 13–14",
+      "severity": "major",
+      "source_quote": "Treasures are worthy, of that we agree. / But lay them in heaven where forever they’ll be.",
+      "suggested_fix": "Convey the imperative to lay the treasures in heaven, e.g. “Schätze sind wertvoll, darin sind wir uns einig. / Doch legt sie in den Himmel, wo sie für immer bleiben.”",
+      "translation_quote": "Schätze sind wertvoll, darin sind wir uns einig. / Doch legt sie im Himmel nieder, wo sie für immer bleiben werden."
+    },
+    {
+      "location": "Poem, lines 17–18",
+      "severity": "major",
+      "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
+      "suggested_fix": "Make clear that loving this life means losing the chance at heaven: “Oder lieben wir unser Leben, dann ist die Bibel klar: / Wir würden unsere Chance auf den so kostbaren Himmel verlieren.”",
+      "translation_quote": "Oder lieben wir unser Leben, und die Bibel sagt ganz klar: / Wir würden unsere Chance auf den so kostbaren Himmel verlieren."
+    },
+    {
+      "location": "Poem, line 20",
+      "severity": "major",
+      "source_quote": "For it seems it’s this life, that has us amused.",
+      "suggested_fix": "Convey that this life is what captivates or entertains us, e.g. “Denn es scheint, als fessele uns dieses Leben.”",
+      "translation_quote": "Denn es scheint, als würde uns dieses Leben vergnügen."
+    },
+    {
+      "location": "Poem, line 25",
+      "severity": "major",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "Preserve the attribution to the Good Book: “Unser Leben ist nur ein Hauch, so verkündet es das gute Buch.”",
+      "translation_quote": "Unser Leben ist nur ein Hauch, so sagt es das gute Buch."
+    },
+    {
+      "location": "Poem, line 26",
+      "severity": "major",
+      "source_quote": "Let’s reason with wisdom and change our gaze.",
+      "suggested_fix": "Retain the call to reason and shift one’s perspective, e.g. “Lasst uns weise nachdenken und unseren Blickwinkel ändern.”",
+      "translation_quote": "Lasst uns mit Weisheit überlegen und unseren Blick ändern."
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "If Heaven Is Real",
+      "suggested_fix": "A more idiomatic German title is “Wenn es den Himmel wirklich gibt.”",
+      "translation_quote": "Wenn der Himmel wirklich ist"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

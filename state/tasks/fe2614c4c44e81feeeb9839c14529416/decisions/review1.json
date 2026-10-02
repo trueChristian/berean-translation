@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, lines 6–7",
+      "severity": "minor",
+      "source_quote": "The singing so sweet, includes everyone.",
+      "suggested_fix": "Replace the translated line with « Le chant, si doux, inclut tout le monde. »",
+      "translation_quote": "Le chant, si doux, accueille chacun à l’éveil."
+    },
+    {
+      "location": "HTML, poem, lines 17–18",
+      "severity": "major",
+      "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
+      "suggested_fix": "Replace these two lines with « Ou si nous aimons notre vie, la Bible dit clairement / que nous perdrions notre chance d’accéder à ce ciel si précieux. »",
+      "translation_quote": "Ou aimerions-nous notre vie, alors que la Bible est claire : / Nous perdrions notre chance d’accéder à ce ciel si précieux."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

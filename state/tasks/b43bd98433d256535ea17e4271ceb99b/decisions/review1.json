@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "blockquote, final paragraph",
+      "severity": "major",
+      "source_quote": "“you can carry your grief-‘paralyzed’ friend to Jesus. Watch them be healed, shoulder their burden of grief”",
+      "suggested_fix": "Replace «puedes llevar a Jesús a tu amiga “paralizada” por el dolor. Mírala sanar, llevar la carga de su dolor» with «puedes llevar a tu amiga “paralizada” por el dolor ante Jesús. Mírala sanar y ayúdala a llevar la carga de su dolor».",
+      "translation_quote": "«puedes llevar a Jesús a tu amiga “paralizada” por el dolor. Mírala sanar, llevar la carga de su dolor»"
+    },
+    {
+      "location": "blockquote, second paragraph",
+      "severity": "major",
+      "source_quote": "“the friends that brought the paralyzed man to Jesus, lowering him through the roof”",
+      "suggested_fix": "Replace «los amigos que llevaron a Jesús al paralítico, bajándolo por el techo» with «los amigos que llevaron al paralítico ante Jesús, bajándolo por el techo».",
+      "translation_quote": "«los amigos que llevaron a Jesús al paralítico, bajándolo por el techo»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

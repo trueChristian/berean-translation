@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, David’s speech (1 Samuel 17:45–46)",
+      "severity": "major",
+      "source_quote": "“I come to thee in the name of the LORD of hosts, the God of the armies of Israel”",
+      "suggested_fix": "Change «ربُّ الافواج» to «لشکروں کے خداوند» (or another conventional Urdu rendering of “the LORD of hosts”) so the line conveys the source’s title and wording.",
+      "translation_quote": "«میں تیرے پاس ربُّ الافواج کے نام سے آتا ہوں»"
+    },
+    {
+      "location": "source.html, paragraph beginning “Let us look at an example to help us understand”",
+      "severity": "major",
+      "source_quote": "“every day you put on your nail bag and get to work”",
+      "suggested_fix": "Render “nail bag” as a bag or pouch for carrying nails, for example «ہر روز کیل رکھنے والی تھیلی باندھ کر کام پر لگ جاتے ہیں۔»",
+      "translation_quote": "«ہر روز کیلوں کی تھیلی پہن کر کام پر لگ جاتے ہیں۔»"
+    },
+    {
+      "location": "source.html, same house-building example",
+      "severity": "major",
+      "source_quote": "“that gable”",
+      "suggested_fix": "Replace «اُس ڈھلوان حصے» with «اُس گیبل/چھت کے مثلثی حصے» to identify the gable, rather than a sloping area generally.",
+      "translation_quote": "«اُس ڈھلوان حصے میں مجھ سے غلطی ہوئی»"
+    },
+    {
+      "location": "source.html, final paragraph",
+      "severity": "major",
+      "source_quote": "“I’m perfect!”",
+      "suggested_fix": "Use «میں کامل ہوں!» or «میں بے عیب ہوں!»; do not convert the speaker’s first-person assertion into a description of an external quality.",
+      "translation_quote": "«میں کامل ہوں!»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

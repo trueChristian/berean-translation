@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html, paragraph beginning “And Saul armed David…”\",\"severity\":\"major\",\"source_quote\":\"“for he had not proved it” … “for I have not proved them.”\",\"suggested_fix\":\"In both places, translate “proved” as tested or tried, for example: “want hy nie die wapenrusting getoets het nie” and “Ek kan nie hiermee gaan nie, want ek het dit nie getoets nie.” Preserve the existing paragraph structure and reference.\",\"translation_quote\":\"“want hy was dit nie gewoond nie” … “want ek is dit nie gewoond nie.”\"},{\"location\":\"source.section / translation.section\",\"severity\":\"minor\",\"source_quote\":\"MUSINGS OF A MISSIONARY\",\"suggested_fix\":\"Correct the inconsistent capitalization: “DIE OORDENKINGS VAN ’N SENDeling” → “DIE OORDENKINGS VAN ’N SENDELING”.\",\"translation_quote\":\"DIE OORDENKINGS VAN ’N SENDeling\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 929,
+    "content_evidence_truncated": false,
+    "content_sha256": "b3a35adad48abf0b89027679783997747daf44b0a4fee65852d153b7b19fc9bf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 748,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8479,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9472
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

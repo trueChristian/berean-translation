@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza beginning “My child, fear not”\",\"severity\":\"major\",\"source_quote\":\"Though the path is obscure, and there is much to endure,\",\"suggested_fix\":\"Αν και το μονοπάτι είναι ασαφές και υπάρχουν πολλά που πρέπει να υπομείνεις,\",\"translation_quote\":\"Αν και το μονοπάτι είναι ασαφές και έχεις πολλά να υπομείνεις,\"},{\"location\":\"Poem, stanza beginning “This promise can also open to you”\",\"severity\":\"major\",\"source_quote\":\"For My strength and power are manifest, / When these to My will conform.\",\"suggested_fix\":\"Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτά συμμορφώνονται με το θέλημά Μου.\",\"translation_quote\":\"Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτά συμμορφώνονται με το θέλημά Μου\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 1036,
+    "content_evidence_truncated": false,
+    "content_sha256": "8ca9f613a80bbe323841db6fc641a772ec0c23289fe0d39687427f27e033446b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 232,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3317,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3552
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

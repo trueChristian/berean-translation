@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “One specific thing…”",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "Replace “सादे समुदायों” with “परंपरागत अनाबैपटिस्ट समुदायों” (or another established Hindi rendering of “plain communities” in this context), so the reference is to the communities rather than to something plain or simple.",
+      "translation_quote": "सादे समुदायों के भीतर"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

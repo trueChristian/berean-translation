@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final couplet",
+      "severity": "minor",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "Replace “un vapore, ci dice il Libro buono” with “un soffio, ci dice la Bibbia” for a natural Italian rendering of the image and “the Good Book.”",
+      "translation_quote": "La nostra vita è solo un vapore, ci dice il Libro buono."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

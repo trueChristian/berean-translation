@@ -2,7 +2,6 @@
   "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 9033
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 609,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8863,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8860,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9472
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "النص، الفقرة التي تبدأ «وهذا يذكّرنا بكلمات يسوع عن لعازر»",
+      "severity": "major",
+      "source_quote": "He cried with them even though He knew He could and then did transform the whole situation by raising Lazarus.",
+      "suggested_fix": "استبدلي «وبكى معهما، مع أنه كان يعلم أنه يستطيع ثم فعلًا غيّر الموقف كله بإقامة لعازر» بـ «وبكى معهما، مع أنه كان يعلم أنه يستطيع تغيير الموقف كله، ثم غيّره فعلًا بإقامة لعازر» للحفاظ على أن يسوع كان قادرًا على تغيير الموقف ثم فعل ذلك.",
+      "translation_quote": "وبكى معهما، مع أنه كان يعلم أنه يستطيع ثم فعلًا غيّر الموقف كله بإقامة لعازر."
+    },
+    {
+      "location": "النص، الفقرة التي تبدأ «وقد يكاد يحسدن الأرملة»",
+      "severity": "major",
+      "source_quote": "Perhaps there was betrayal, abandonment, incarceration, or suicide in their life’s journey.",
+      "suggested_fix": "استبدلي «ربما كان في رحلة حياتهن خيانة أو هجر أو سجن أو انتحار» بـ «ربما واجهن في مسيرة حياتهن خيانةً أو هجرًا أو سجنًا، أو فقدن شخصًا بالانتحار» لتوضيح أن الانتحار حدث في سياق حياتهن، لا أنه أمر قمن به هنّ.",
+      "translation_quote": "ربما كان في رحلة حياتهن خيانة أو هجر أو سجن أو انتحار."
+    },
+    {
+      "location": "المقطع الشعري الختامي، البيت الأول",
+      "severity": "major",
+      "source_quote": "Master, the terror is over, the elements sweetly rest;",
+      "suggested_fix": "استبدلي «يا سيدي، انقضى الرعب، وسكنت العناصر في وداعة» بـ «يا سيدي، انقضى الرعب، وسكنت قوى الطبيعة بسلام»؛ فـ«العناصر» هنا تعني قوى الطبيعة، لا العناصر بمعناها الحرفي.",
+      "translation_quote": "يا سيدي، انقضى الرعب، وسكنت العناصر في وداعة؛"
+    },
+    {
+      "location": "المقطع الشعري الختامي، البيتان الأخيران",
+      "severity": "major",
+      "source_quote": "And with joy I shall make the blest harbor, / And rest on the blissful shore.",
+      "suggested_fix": "استبدلي «وبفرح سأبلغ الميناء المبارك، وأستريح على الشاطئ السعيد» بـ «وبفرح سأبلغ المرفأ المبارك، وأستريح على الشاطئ الهنيء» للحفاظ على معنى الوصول إلى الملاذ الموعود دون إيحاء بصنع المرفأ.",
+      "translation_quote": "وبفرح سأبلغ الميناء المبارك، وأستريح على الشاطئ السعيد"
+    }
+  ],
   "id": "2a814c6d875542c1c88bcb95bc3e159f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b81ed107719e1b3d59a5926df9439e3f25c21b973c7d37fb85d82f877dc026.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
   "translation_model_actual": "gpt-6-luna"

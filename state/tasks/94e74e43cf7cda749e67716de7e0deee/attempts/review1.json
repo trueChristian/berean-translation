@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, line 15\",\"severity\":\"major\",\"source_quote\":\"Would we lose our life, for the good Lord’s sake?\",\"suggested_fix\":\"주님을 위해 우리의 목숨을 잃겠습니까?\",\"translation_quote\":\"주님의 선하심을 위해 우리의 목숨을 잃겠습니까?\"},{\"location\":\"source.html, poem, line 25\",\"severity\":\"major\",\"source_quote\":\"Our life’s but a vapor, the Good Book conveys.\",\"suggested_fix\":\"성경은 우리 삶이 한낱 안개와 같다고 전합니다.\",\"translation_quote\":\"좋은 책은 우리 삶이 한낱 안개와 같다고 전합니다.\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 632,
+    "content_evidence_truncated": false,
+    "content_sha256": "80db9138aa0d06cbbe4a9582c13bd3457d272e540c608a9e691df94e09357466",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 416,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1814,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2403
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

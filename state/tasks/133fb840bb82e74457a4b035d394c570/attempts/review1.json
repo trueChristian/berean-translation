@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"پہلا پیراگراف، پیدائش 8:22 کا اقتباس\",\"severity\":\"major\",\"source_quote\":\"“seedtime and harvest, and cold and heat, and summer and winter”\",\"suggested_fix\":\"فہرست میں “cold and heat” کو “سردی اور گرمی” اور “summer and winter” کو “گرمی اور جاڑا” کے طور پر الگ الگ اور بعینہٖ رکھیں؛ موجودہ ترجمے میں دونوں موسموں کا امتیاز دھندلا جاتا ہے۔\",\"translation_quote\":\"“سردی اور گرمی، گرمی اور جاڑا”\"},{\"location\":\"بیرونِ ملک کے حالات والا پیراگراف، خدا کی رہنمائی کی گواہی\",\"severity\":\"major\",\"source_quote\":\"“folks have been pointed to a Living God and a life after death.”\",\"suggested_fix\":\"“لوگوں کو زندہ خدا اور موت کے بعد کی زندگی کی طرف متوجہ کیا گیا” کو “لوگوں کی رہنمائی ایک زندہ خدا اور موت کے بعد کی زندگی کی طرف ہوئی” سے بدلیں؛ اصل میں لوگ خدا کی طرف راہ نمائی پاتے ہیں، محض متوجہ نہیں کیے جاتے۔\",\"translation_quote\":\"“لوگوں کو زندہ خدا اور موت کے بعد کی زندگی کی طرف متوجہ کیا”\"},{\"location\":\"دور کے لوگوں کے بارے میں پیراگراف، خالق کو یاد کرنے والا جملہ\",\"severity\":\"major\",\"source_quote\":\"“Then it takes a further step to remember the Creator behind these earthly beauties.”\",\"suggested_fix\":\"“پھر اس زمینی خوبصورتی کے خالق کو یاد کرنے کے لیے ایک اور قدم اٹھانا پڑتا ہے” کو “پھر ان زمینی خوبصورتیوں کے پسِ پشت خالق کو یاد کرنے کے لیے ایک اور قدم اٹھانا پڑتا ہے” کریں؛ اصل میں ان خوبصورتیوں کے پیچھے موجود خالق کا مفہوم ہے۔\",\"translation_quote\":\"“پھر اس زمینی خوبصورتی کے خالق کو یاد کرنے کے لیے ایک اور قدم اٹھانا پڑتا ہے”\"},{\"location\":\"وہی پیراگراف، خدا کی طرف سے بات کہنے والا جملہ\",\"severity\":\"major\",\"source_quote\":\"“What if we were the one who God wanted to say a word for Him out of a life that was living for Him to bring His awareness to one who knows not the One, Living, and True God?”\",\"suggested_fix\":\"جملے میں یہ واضح کریں کہ خدا چاہتا ہے کہ ہم اُس کی طرف سے بات کہیں، اور اس بات کے ذریعے اُس شخص کو زندہ اور سچے خدا سے آگاہ کریں جو اسے نہیں جانتا؛ موجودہ عبارت “اُس ہستی…کا تعارف” کہتی ہے، مگر “اُس کی طرف سے کوئی بات کہے” کے تعلق کو واضح نہیں کرتی۔\",\"translation_quote\":\"“کیا ممکن ہے کہ ہم ہی وہ شخص ہوں جس سے خدا چاہتا ہو کہ وہ اُس کی طرف سے کوئی بات کہے، ایسی زندگی کے وسیلے سے جو اُس کے لیے جی رہی ہو، تاکہ اُس ہستی—زندہ اور سچے خدا—کا تعارف اُس شخص کو کرائے جو اُسے نہیں جانتا؟”\"},{\"location\":\"وسائل والا پیراگراف، 8 CD set کا عنوان\",\"severity\":\"major\",\"source_quote\":\"“an 8 CD set we put together titled ‘People Helping in the Local Church’”\",\"suggested_fix\":\"عنوان “People Helping in the Local Church” کا اردو ترجمہ دیں، مثلاً “مقامی کلیسیا میں ایک دوسرے کی مدد”؛ موجودہ ترجمہ عنوان کو “مقامی کلیسیا میں لوگوں کی مدد” کہتا ہے، جس سے لوگوں کے باہمی مددگار ہونے کا مفہوم پوری طرح ادا نہیں ہوتا۔\",\"translation_quote\":\"“مقامی کلیسیا میں لوگوں کی مدد”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 4117,
+    "content_evidence_truncated": false,
+    "content_sha256": "cae1c0bfbcd970d142fb15e2f1b00a59c497b6bb9dc11bb68462a5924337de0d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8269,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8266,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9109
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

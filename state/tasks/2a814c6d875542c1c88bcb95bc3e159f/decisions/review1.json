@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "النص، الفقرة التي تبدأ «وهذا يذكّرنا بكلمات يسوع عن لعازر»",
+      "severity": "major",
+      "source_quote": "He cried with them even though He knew He could and then did transform the whole situation by raising Lazarus.",
+      "suggested_fix": "استبدلي «وبكى معهما، مع أنه كان يعلم أنه يستطيع ثم فعلًا غيّر الموقف كله بإقامة لعازر» بـ «وبكى معهما، مع أنه كان يعلم أنه يستطيع تغيير الموقف كله، ثم غيّره فعلًا بإقامة لعازر» للحفاظ على أن يسوع كان قادرًا على تغيير الموقف ثم فعل ذلك.",
+      "translation_quote": "وبكى معهما، مع أنه كان يعلم أنه يستطيع ثم فعلًا غيّر الموقف كله بإقامة لعازر."
+    },
+    {
+      "location": "النص، الفقرة التي تبدأ «وقد يكاد يحسدن الأرملة»",
+      "severity": "major",
+      "source_quote": "Perhaps there was betrayal, abandonment, incarceration, or suicide in their life’s journey.",
+      "suggested_fix": "استبدلي «ربما كان في رحلة حياتهن خيانة أو هجر أو سجن أو انتحار» بـ «ربما واجهن في مسيرة حياتهن خيانةً أو هجرًا أو سجنًا، أو فقدن شخصًا بالانتحار» لتوضيح أن الانتحار حدث في سياق حياتهن، لا أنه أمر قمن به هنّ.",
+      "translation_quote": "ربما كان في رحلة حياتهن خيانة أو هجر أو سجن أو انتحار."
+    },
+    {
+      "location": "المقطع الشعري الختامي، البيت الأول",
+      "severity": "major",
+      "source_quote": "Master, the terror is over, the elements sweetly rest;",
+      "suggested_fix": "استبدلي «يا سيدي، انقضى الرعب، وسكنت العناصر في وداعة» بـ «يا سيدي، انقضى الرعب، وسكنت قوى الطبيعة بسلام»؛ فـ«العناصر» هنا تعني قوى الطبيعة، لا العناصر بمعناها الحرفي.",
+      "translation_quote": "يا سيدي، انقضى الرعب، وسكنت العناصر في وداعة؛"
+    },
+    {
+      "location": "المقطع الشعري الختامي، البيتان الأخيران",
+      "severity": "major",
+      "source_quote": "And with joy I shall make the blest harbor, / And rest on the blissful shore.",
+      "suggested_fix": "استبدلي «وبفرح سأبلغ الميناء المبارك، وأستريح على الشاطئ السعيد» بـ «وبفرح سأبلغ المرفأ المبارك، وأستريح على الشاطئ الهنيء» للحفاظ على معنى الوصول إلى الملاذ الموعود دون إيحاء بصنع المرفأ.",
+      "translation_quote": "وبفرح سأبلغ الميناء المبارك، وأستريح على الشاطئ السعيد"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

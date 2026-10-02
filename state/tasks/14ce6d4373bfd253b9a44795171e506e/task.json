@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 3100
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 929,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 588,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2895,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2892,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3824
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, poem paragraph beginning “At the end of myself”",
+      "severity": "major",
+      "source_quote": "“My precious child, look up.” / “I felt all alone”",
+      "suggested_fix": "Replace “Hija preciosa” with a gender-neutral form such as “Criatura preciosa” and replace “me sentí completamente sola” with “me sentí completamente sin compañía,” preserving that the English does not specify the speaker’s gender.",
+      "translation_quote": "«Hija preciosa, mira hacia arriba». / «…me sentí completamente sola»"
+    },
+    {
+      "location": "HTML, poem paragraph beginning “My child, fear not” and final poem paragraph",
+      "severity": "major",
+      "source_quote": "“My child, fear not…” / “So, My child, gaze long at the rainbow.”",
+      "suggested_fix": "Replace “Hija mía” in both places with a gender-neutral form such as “Criatura mía” so the translation does not assign the speaker a gender that the source leaves unspecified.",
+      "translation_quote": "«Hija mía, no temas…» / «Así que, hija mía, contempla largamente el arcoíris.»"
+    },
+    {
+      "location": "HTML, poem paragraph beginning “Not only was the danger around me”",
+      "severity": "minor",
+      "source_quote": "“Not knowing how next to begin.”",
+      "suggested_fix": "Replace “Sin saber cómo empezar de nuevo” with “Sin saber cómo seguir adelante” to avoid adding the sense of starting over.",
+      "translation_quote": "“Sin saber cómo empezar de nuevo.”"
+    }
+  ],
   "id": "14ce6d4373bfd253b9a44795171e506e",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "spa",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

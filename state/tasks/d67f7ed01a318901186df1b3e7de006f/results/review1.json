@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "13c5faa6-2169-4e24-ad40-f0c1032392cf",
+    "response_id": "chatcmpl-EUc7YtOzlbojeE6boIfMJSFrR6jch",
+    "usage": {
+      "completion_tokens": 1055,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 885,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11003,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11000,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12058
+    }
+  },
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, bagian “Ada beberapa pengecualian terhadap cita-cita Alkitab,” kutipan 1 Korintus 7:5",
+        "severity": "major",
+        "source_quote": "Defraud [deprive, keep back] ye not one the other",
+        "suggested_fix": "Ganti bagian awal kutipan menjadi: “Janganlah kamu saling mengurangi hak satu sama lain [merampas, menahan] ...” agar maknanya adalah tidak saling menahan atau merampas hak, bukan sekadar tidak saling menahan diri.",
+        "translation_quote": "Janganlah kamu saling menahan diri [merampas, menahan]"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

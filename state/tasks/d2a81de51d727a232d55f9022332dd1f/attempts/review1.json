@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “When a man has a cause set before him”\",\"severity\":\"major\",\"source_quote\":\"“For as the body without the spirit is dead, so faith without works [action] is dead also –James 2:26.”\",\"suggested_fix\":\"Correct the clause to preserve the source’s direction: “क्योंकि जैसे आत्मा बिना देह मरी हुई है, वैसे ही कामों [कार्यवाही] के बिना विश्वास भी मरा हुआ है –याकूब 2:26.”\",\"translation_quote\":\"“क्योंकि जैसे आत्मा बिना देह मरी हुई है, वैसे ही कर्म [कार्यवाही] बिना विश्वास भी मरा हुआ है –याकूब 2:26.”\"},{\"location\":\"HTML paragraph beginning “As David arose early that morning”\",\"severity\":\"major\",\"source_quote\":\"“there was a jealous fire kindled by the blasphemous taunts of Goliath”\",\"suggested_fix\":\"Replace “ईर्ष्या की आग” with wording that conveys fervent zeal or indignation, such as “गोलियत की ईशनिंदापूर्ण ललकारों से उसके भीतर धर्मी जोश की आग भड़क उठी।”\",\"translation_quote\":\"“गोलियत की ईशनिंदापूर्ण ललकारों ने उसके भीतर ईर्ष्या की आग जला दी”\"},{\"location\":\"HTML paragraph beginning “Faithful Action is inevitable”\",\"severity\":\"major\",\"source_quote\":\"“when our bodies are subject to our soul and spirit, and they are under the direction of God’s Spirit.”\",\"suggested_fix\":\"Restore the source’s distinction between soul and spirit: “जब हमारा शरीर हमारी आत्मा और प्राण के अधीन हो, और वे परमेश्वर के आत्मा के निर्देशन में हों।”\",\"translation_quote\":\"“जब हमारा शरीर हमारी आत्मा के अधीन हो और वे परमेश्वर के आत्मा के निर्देशन में हों।”\"},{\"location\":\"HTML paragraph beginning “Why would Japanese Kamikaze pilots”\",\"severity\":\"major\",\"source_quote\":\"“from Zebedee’s boats of the business…”\",\"suggested_fix\":\"Use the Hindi form of Zebedee’s name, not Zebulun: “जबदी की व्यवसायिक नावों से…”\",\"translation_quote\":\"“जबूलूनियों की व्यावसायिक नावों से…”\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 2840,
+    "content_evidence_truncated": false,
+    "content_sha256": "f6a3498b0df3673b987991879949d7de9de19299ab1ab289e2cb5e8c08f3bd40",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 719,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8043,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9273
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

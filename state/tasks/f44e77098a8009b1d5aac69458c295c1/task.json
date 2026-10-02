@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 7847
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 525,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7673,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7670,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8198
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, aya ya 5",
+      "severity": "major",
+      "source_quote": "while assisted suicide is when one person provides medication to another person that they then “self ”-administer",
+      "suggested_fix": "Badilisha sehemu ya ufafanuzi iwe: “ilhali kujiua kwa msaada ni pale mtu mmoja anapompa mtu mwingine dawa ambazo mtu huyo hujitumia mwenyewe, na hivyo kujiua.”",
+      "translation_quote": "ilhali kujiua kwa msaada ni pale mtu mmoja anapompa mtu mwingine dawa ambayo huyo mtu mwingine hujitumia mwenyewe, na hivyo kujiua."
+    },
+    {
+      "location": "source.html, aya ya 26",
+      "severity": "major",
+      "source_quote": "Many were not even given oxygen, but simply started on Morphine and sedatives to “make them comfortable” as they waited for the end.",
+      "suggested_fix": "Tumia: “Wengi hawakupewa hata oksijeni, bali walianzishiwa tu morfini na dawa za kutuliza ili ‘wastarehe’ walipokuwa wakingojea mwisho.”",
+      "translation_quote": "Wengi hawakupewa hata oksijeni, bali walianzishiwa tu Morphine na dawa za kutuliza ili “kuwastarehesha” walipokuwa wakingojea mwisho."
+    },
+    {
+      "location": "source.html, aya ya huduma ya kupunguza maumivu, sentensi ya kwanza",
+      "severity": "major",
+      "source_quote": "This is a type of care that is specifically designed to treat the pain and other symptoms, usually of a terminally ill patient (to keep them comfortable, not to try to cure them). This is the sort of care that is offered by hospice programs.",
+      "suggested_fix": "Tofautisha huduma ya kupunguza maumivu na huduma za hospice: “Hii ni aina ya huduma iliyoundwa mahsusi kutibu maumivu na dalili nyingine, kwa kawaida kwa mgonjwa aliye mahututi (ili kumstarehesha, wala si kujaribu kumponya). Aina hii ya huduma hutolewa na programu za hospice.”",
+      "translation_quote": "Hii ni aina ya huduma iliyoundwa mahsusi kutibu maumivu na dalili nyingine, kwa kawaida kwa mgonjwa aliye mahututi (ili kumstarehesha, wala si kujaribu kumponya). Hii ndiyo aina ya huduma inayotolewa na programu za huduma ya wagonjwa mahututi."
+    }
+  ],
   "id": "f44e77098a8009b1d5aac69458c295c1",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swa",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

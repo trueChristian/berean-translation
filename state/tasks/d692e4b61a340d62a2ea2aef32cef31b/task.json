@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 7475
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 363,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7334,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7331,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7697
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraf tentang bunuh diri dengan bantuan dokter",
+      "severity": "major",
+      "source_quote": "“self ”-administer",
+      "suggested_fix": "Ganti frasa tersebut dengan «memberikan sendiri» atau «menggunakan sendiri», tanpa menambahkan cara pemberian yang tidak disebutkan dalam sumber; misalnya, «lalu orang itu menggunakan sendiri obat tersebut sehingga mengakhiri hidupnya».",
+      "translation_quote": "“menyuntikkan atau meminum sendiri” obat tersebut"
+    },
+    {
+      "location": "HTML, paragraf yang mengutip 2 Korintus 4:17-18",
+      "severity": "major",
+      "source_quote": "“worketh for us a far more exceeding and eternal weight of glory”",
+      "suggested_fix": "Terjemahkan maknanya sebagai kemuliaan kekal yang jauh lebih besar dan berbobot daripada penderitaan itu, bukan dengan menyatakan bahwa penderitaan mengerjakan kemuliaan bagi kami. Contoh: «penderitaan ringan yang sekarang ini mengerjakan bagi kami bobot kemuliaan kekal yang jauh lebih besar».",
+      "translation_quote": "“mengerjakan bagi kami kemuliaan kekal yang jauh lebih besar daripada penderitaan itu”"
+    },
+    {
+      "location": "HTML, paragraf penutup tentang merawat seseorang",
+      "severity": "major",
+      "source_quote": "“God values their lives and so should we.”",
+      "suggested_fix": "Ubah «Allah menghargai hidup mereka» menjadi «Allah menghargai hidupnya» agar kata ganti tunggal pada kalimat ini selaras dengan orang yang sedang dirawat dan tidak mengubahnya menjadi jamak.",
+      "translation_quote": "“Allah menghargai hidup mereka, dan kita pun seharusnya demikian.”"
+    }
+  ],
   "id": "d692e4b61a340d62a2ea2aef32cef31b",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

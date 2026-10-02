@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraphe sur la fronde de David",
+      "severity": "major",
+      "source_quote": "According to some estimates, at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun",
+      "suggested_fix": "Remplacer « un pistolet de 45 mm » par « un pistolet de calibre .45 » pour conserver la référence à une arme de calibre .45, et non de 45 millimètres.",
+      "translation_quote": "un pistolet de 45 mm"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

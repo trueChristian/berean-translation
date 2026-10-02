@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:03:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphe commençant par « Ceux qui perdent des êtres chers… »\",\"severity\":\"major\",\"source_quote\":\"“Elizabeth Elliot and the four others who were made widows in 1956 by jungle killers in Ecuador.”\",\"suggested_fix\":\"Remplacer la formulation fautive par : « Pensons à Elizabeth Elliot et aux quatre autres femmes devenues veuves en 1956 après que des tueurs dans la jungle équatorienne ont assassiné leurs maris. »\",\"translation_quote\":\"« Elizabeth Elliot et aux quatre autres femmes devenues veuves en 1956, tuées par des meurtriers dans la jungle équatorienne. »\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 639,
+    "content_evidence_truncated": false,
+    "content_sha256": "1869d357822d73f6dda9c50c9237210180a815cf364b4986c7f523af3e4dc3a1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 490,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 325,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9082,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9079,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9572
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

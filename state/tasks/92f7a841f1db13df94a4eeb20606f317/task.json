@@ -2,7 +2,6 @@
   "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 10800
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 598,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10659,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10656,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11257
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Contenido, cita de Mateo 19:5-6",
+      "severity": "major",
+      "source_quote": "What therefore God hath joined together, let not man put asunder",
+      "suggested_fix": "Sustituir «Así que, lo que Dios juntó, no lo separe el hombre» por «Por tanto, lo que Dios ha unido, no lo separe el hombre», conservando la referencia Mateo 19:5-6.",
+      "translation_quote": "Así que, lo que Dios juntó, no lo separe el hombre –Mateo 19:5-6."
+    },
+    {
+      "location": "Contenido, párrafo sobre la relación de la mujer samaritana con sus cinco maridos",
+      "severity": "major",
+      "source_quote": "Some would interpret Jesus to be saying, \"You are right woman, none of your five former husbands of which you have divorced or put away (including your first one) are your husband, and neither is the one you have now.",
+      "suggested_fix": "Traducir el pasaje como una interpretación hipotética, conservando expresamente que ninguno de los cinco antiguos maridos —incluido el primero— es su marido actual, y que tampoco lo es el hombre con quien está ahora.",
+      "translation_quote": "Algunos interpretarían que Jesús le dice: «Tienes razón, mujer: ninguno de tus cinco antiguos maridos, de los que te divorciaste o a quienes repudiaste (incluido el primero), es tu marido, y tampoco lo es el que tienes ahora»."
+    },
+    {
+      "location": "Contenido, frase «se acerca a añadir o quitar»",
+      "severity": "major",
+      "source_quote": "To claim that this story is a display of an immoral lifestyle with no known biblical evidence is close to “adding to” or “taking away” from the Scriptures. (See Revelation 22:18)",
+      "suggested_fix": "Traducir «with no known biblical evidence» con su sentido de ausencia de evidencia bíblica conocida; por ejemplo: «sin que se conozcan pruebas bíblicas de ello».",
+      "translation_quote": "Afirmar que esta historia muestra un estilo de vida inmoral sin que haya pruebas bíblicas de ello se acerca a «añadir a» o «quitar de» las Escrituras. (Véase Apocalipsis 22:18)"
+    },
+    {
+      "location": "Contenido, cita final de Romanos 8:11",
+      "severity": "major",
+      "source_quote": "shall also quicken your mortal bodies by his Spirit that dwelleth in you",
+      "suggested_fix": "Traducir el sujeto de «quicken» como Dios: «también dará vida a vuestros cuerpos mortales por medio de su Espíritu que mora en vosotros».",
+      "translation_quote": "el que levantó a Cristo de entre los muertos también vivificará vuestros cuerpos mortales por medio de su Espíritu que mora en vosotros"
+    }
+  ],
   "id": "92f7a841f1db13df94a4eeb20606f317",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "spa",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

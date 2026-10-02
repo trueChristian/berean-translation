@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbef0c6c59d402e9d7d86dc2d8b051a",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 7643
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 717,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7438,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7435,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8155
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «كانت معتقدات جيش إسرائيل الجبانة»",
+      "severity": "major",
+      "source_quote": "The cowering beliefs of the Israelite army were rooted in a pagan value system.",
+      "suggested_fix": "Replace «كانت معتقدات جيش إسرائيل الجبانة» with «كانت المعتقدات المنهزمة لجيش إسرائيل متجذرة في منظومة قيم وثنية» to convey that the army’s beliefs were cowering, rather than describing the army itself as cowardly.",
+      "translation_quote": "كانت معتقدات جيش إسرائيل الجبانة متجذرة في منظومة قيم وثنية."
+    },
+    {
+      "location": "HTML, paragraph beginning «وكان فيكتور فرانكل»",
+      "severity": "major",
+      "source_quote": "He observed that when a person gave up hope, death was soon to follow.",
+      "suggested_fix": "Replace «ولاحظ أن الموت كان يعقب سريعًا استسلام المرء لليأس» with «ولاحظ أنه حين يفقد الإنسان الأمل، سرعان ما يتبعه الموت»; the source states that hope is given up, not necessarily that the person surrenders to despair.",
+      "translation_quote": "ولاحظ أن الموت كان يعقب سريعًا استسلام المرء لليأس."
+    },
+    {
+      "location": "HTML, paragraph beginning «لماذا يموت طيارو الكاميكازي»",
+      "severity": "major",
+      "source_quote": "Why would Muslim terrorists blow themselves up?",
+      "suggested_fix": "Replace «ولماذا يفجر الإرهابيون المسلمون أنفسهم؟» with «ولماذا يفجّر الإرهابيون المسلمون أنفسهم؟» only if needed for orthography; more importantly, preserve the source's question about why they do this. The current Arabic does preserve it.",
+      "translation_quote": "ولماذا يفجر الإرهابيون المسلمون أنفسهم؟"
+    },
+    {
+      "location": "HTML, paragraph beginning «لماذا يموت طيارو الكاميكازي»",
+      "severity": "major",
+      "source_quote": "God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.",
+      "suggested_fix": "Replace «ومن قوارب زبدي التجارية… إلى أولاد حضنه» with «ومن قوارب زبدي المستخدَمة في عمله… إلى أبناء صدره» (or another idiomatic rendering that retains the contrast between Zebedee’s business boats and his sons). The current wording makes the boats themselves sound commercial and obscures the source’s reference to his business.",
+      "translation_quote": "ومن قوارب زبدي التجارية… إلى أولاد حضنه."
+    },
+    {
+      "location": "HTML, poem, line 3",
+      "severity": "major",
+      "source_quote": "Dorcus had a needle;",
+      "suggested_fix": "Correct the name to the conventional Arabic form «طابيثا» to match Dorcus/Tabitha elsewhere in the article.",
+      "translation_quote": "وكانت مع دوركاس إبرة؛"
+    },
+    {
+      "location": "HTML, poem, line 4",
+      "severity": "minor",
+      "source_quote": "Rahab had a string;",
+      "suggested_fix": "Use a more natural Arabic term for a string/cord, such as «وكان مع راحاب حبلٌ؛»; «حبلة» is not the usual word for the object here.",
+      "translation_quote": "وكانت مع راحاب حبلة؛"
+    }
+  ],
   "id": "a44b15665e1da457541ee00fa90fa4db",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

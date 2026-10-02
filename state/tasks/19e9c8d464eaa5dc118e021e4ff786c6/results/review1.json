@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a216e613-995c-474e-bce1-7e4d62565a79",
+    "response_id": "chatcmpl-EUc7aAdVrpgTjbmuzCzQmD3nYYHP5",
+    "usage": {
+      "completion_tokens": 96,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7634,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7631,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7730
+    }
+  },
+  "received_at": "2026-10-02T21:03:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Dit is belangrik dat ons voortgaan…”",
+        "severity": "major",
+        "source_quote": "“even if we are dealing with a terminal illness.”",
+        "suggested_fix": "Translate the English phrase as “selfs al gaan ons deur ’n terminale siekte.”",
+        "translation_quote": "“even al gaan ons deur ’n terminale siekte.”"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}
