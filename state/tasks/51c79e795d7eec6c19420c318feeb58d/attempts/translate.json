@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"d2d95264-7df9-4ca8-9a99-01a68204d73a\\\">\\n  <p>מישהו אמר פעם: «כשיש תקווה חיה, הלילה פחות חשוך, הבדידות פחות עמוקה, והפחד פחות חריף.» כשעבדתי בכלא כסג'ן כומר, ישבתי עם האסירים המורשעים והקשבתי כשהם דיברו על מצוקתם. כמעט ללא יוצא מן הכלל, כולם דיברו על תקווה לצאת מהכלא יום אחד. אפילו אם נידונו למאסר עולם, הם קיוו לצאת.</p>\\n\\n  <p>דיברתי עם אנשים שאינם מודים שנולדו מחדש, אך עדיין מקווים להגיע לשמיים. אנשים אלה לא מעזים להפסיק לקוות. תקוותם מבוססת על התקווה שלהם עצמם! דיאטה של תקווה כזו היא דיאטה דלה בהחלט! מחשבה זו מזכירה לי את דברי ישוע ביוחנן 10:1-2 על הכניסה לגדת הצאן. «אבל הנכנס דרך הדלת הוא רועה הצאן.» אנשים בונים את תקוותם לשמים על דברים רעועים רבים. יש המבססים את תקוותם על כך שהוטבלו בכנסייה מסוימת. אחרים מקווים על חברותם בכנסייה. יש אנשים שמקווים במעשי הצדקה שלהם, ואחרים מקווים בתקוותם עצמם. התנ\" \n\n  \t\t\t\t\t  \n\n  \t\t\t\t\t  ,\"section\":\"FEATURED ARTICLE\",\"subtitle\":null,\"title\":\"Saved by Hope\"}",
+    "content_bytes": 1532,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d65187c6904c4f4ab54474c2d94c352b083fe67d749584c0c09f58e2ac02509",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1079,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3070
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

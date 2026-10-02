@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0a696576-8ada-4dd5-bd0f-1e3aaa0ae52c",
+    "response_id": "chatcmpl-EUWr3SeCCXlYWtBziQZ8AjuUT8qNP",
+    "usage": {
+      "completion_tokens": 1520,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1867,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3387
+    }
+  },
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\">\n  <p>Ilikuwa moja ya ile jioni za Jumapili mwishoni mwa spring wakati jua hatimaye lilikuwa likangaza kwa joto. Ilikuwa msimu ambapo wavulana wadogo wanaonekana kuwa na nishati ya ziada. Davy mdogo alikuwa amekaa kando ya barabara pamoja na wavulana wa jirani waliokuwa wamemtembelea. Alihisi kama kuruka juu na chini kwa msisimko kwa ajili ya mbio zilizo karibia.</p>\n\n  <p>Wavulana wawili wakubwa, David Mzito na Paul, walikuja na baiskeli mpya kabisa. Hizi hazikuwa baiskeli za kawaida walizokuwa nazo wavulana wengine. Zilikuwa baiskeli za Vista zenye rangi mpya inayong'aa, fenderi za chrome zinang'aa, na gia tatu. Baiskeli hizi zilitembea kwa utulivu barabarani bila kutetemeka. Kwa mabeji mapya ya ngoma, zilienda kwa kasi bila kuhitaji juhudi nyingi kupiga mguu kwenye pedal. Ingawa haikuonekana kuwa na tofauti kubwa kati ya baiskeli hizo, baiskeli ya David Mzito ilikuwa ya rangi ya kahawia yenye mwanga, na ya Paul ilikuwa ya bluu yenye chembe za chuma zinazoangaza.</p>\n\n  <p>“Naam,” David Mzito alianza kujisifu, “kwa miguu yangu mirefu, na WD40 iliyotiwa tena, baiskeli yangu hakika itakuwa ya kasi zaidi.”</p>\n\n  <p>“Hapana,” Paul alipingana, “miguu yangu mifupi inaweza kupiga kwa kasi zaidi, na mafuta ya baiskeli ya Schwinn yanafanya kazi bora kuliko WD40, ambayo kwa kweli ni kwa midundo tu.”</p>\n\n  <p>“Mbio! Mbio!” wavulana wengine walisema, “Kwanini tusitakie suluhisho kwa mbio?”</p>\n\n  <p>“Sawa,” David Mzito alisema, “Tutafanya mbio na kuona baiskeli ya nani ndiyo kweli ya kasi zaidi.”</p>\n\n  <p>“Ukipenda!” Paul alikubali. “Tutaanza kilele cha kilima cha Billy na kukimbia mpaka chini kabisa,” alisema, akielekeza kwa kando ya barabara ambapo wavulana wengine walikuwa wamekaa.</p>\n\n  <p>Mmoja, mbili, tatu, ANZA na walianza! Walishuka mlima wanapiga pedali kwa nguvu zao zote.</p>\n\n  <p>“Endelea Paul!” na “Endelea David Mzito!” wavulana walilia chini ya kilima. Huo wote msongamano ulimwamsha mbwa wa Davy mdogo, terrier yake Nellie. Akitikisa kwa mbwa, Nellie alizunguka silo kwa kasi kama miguu yake minne ilivyoweza kumchukua. Alielekea moja kwa moja kwenye baiskeli ya mbele ya David Mzito, akitukia kwa nguvu kujaribu kuifanya isimame. Nellie maskini hakuelewa kuwa baiskeli nyingine ilikuwa inajaribu kumpita ile ya kwanza.</p>\n\n  <p>Thump, baiskeli iliyompita ilimpiga mbwa! Crash, bang, baiskeli mbili zilikumbana!</p>\n\n  <p>“Hey – aye!” Oooff! Wavulana wawili waliruka juu ya bega la baiskeli na kuanguka kwa nguvu kwenye barabara. Hizo baiskeli zilizoang'aa hazkukuwepo tena. Ziliwekwa kwenye rundo, zimechafuka na kukunja madoa ya tar. Nellie alirudi akiwekeka karibu na silo na akaendelea kulala pale kwa masaa kadhaa.</p>\n\n  <p>Wavulana wengine walisimama kando na kinywa wazi. Haraka, walikimbia kwa wavulana wakubwa wawili waliokuwa wamelala karibu na baiskeli zao mpya. “Mko sawa?” waliuliza.</p>\n\n  <p>“Nitagona,” Paul alisema taratibu, “lakini hakuna mbio tena. Nani anayejali hata baiskeli ya nani ni ya kasi zaidi.”</p>\n\n  <p>Ingawa Davy mdogo sasa ni babu, hajatoweka kumbukumbu za mbio za baiskeli siku ile ya Jumapili zamani, wakati David Mzito na Paul waligundua kuwa kujisifu na kuonyesha kwa kiburi kawaida huishia kwa ajali.</p>\n\n  <figure>\n    <img src=\"/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg\" alt=\"Wavulana wawili wakikimbiana kwa baiskeli chini ya mlima huku mbwa mdogo akikimbia kwenye barabara\">\n    <figcaption>“KIBURI KINAENDA MBELE\n    KWA Uharibifu, NA ROHO\n    YENYE KIJAMII KABLA\n    YA KUANGUKA”\n    - METHALI 16:18</figcaption>\n  </figure>\n</article>\n",
+    "section": "Sehemu ya Watoto",
+    "subtitle": null,
+    "title": "MBIO ZA BAIKELI"
+  }
+}

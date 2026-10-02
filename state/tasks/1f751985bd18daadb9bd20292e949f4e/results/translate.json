@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "36449e86-7c72-4a89-819b-4f698fb5caf7",
+    "response_id": "chatcmpl-EUWrxknxLbE0J9VGusDlAmc4PBnAe",
+    "usage": {
+      "completion_tokens": 1278,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1869,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3147
+    }
+  },
+  "received_at": "2026-10-02T12:44:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\">\n  <p>Fue una de esas tardes de domingo a finales de la primavera en que el sol por fin brillaba cálido. Era la época del año en que a los niños pequeños parece que les sobra energía. El pequeño Davy estaba sentado en la cuneta de la carretera con algunos niños del vecindario que se habían detenido. Tenía ganas de saltar de arriba abajo anticipando la carrera que se avecinaba.</p>\n\n  <p>Aparecieron dos chicos mayores, Big David y Paul, con bicicletas nuevas de paquete. No eran las bicicletas ordinarias que tenían los otros niños. Eran hermosas bicicletas Vista con pintura nueva reluciente, guardabarros cromados y tres velocidades. Estas bicicletas se deslizaban sin vibrar por la carretera sellada con gravilla. Con rodamientos nuevos, corrían casi sin esfuerzo al aplicar los pedales. Aunque no parecía haber mucha diferencia entre las bicicletas, la de Big David era de un brillante color castaño avellana y la de Paul de un azul metalizado con purpurina.</p>\n\n  <p>“Bueno,” comenzó a presumir Big David, “con mis piernas más largas y el WD40 recién rociado, mi bici seguro que será la más rápida.”</p>\n\n  <p>“No,” replicó Paul, “mis piernas más cortas pueden pedalear más rápido, y el aceite de alta resistencia para bicicletas de Schwinn supera con creces al WD40, que en realidad es solo para chirridos.”</p>\n\n  <p>“¡Una carrera! ¡Una carrera!” dijeron los otros chicos, “¿Por qué no lo arreglamos con una carrera?”</p>\n\n  <p>“Está bien,” dijo Big David, “Haremos una carrera y veremos cuál bicicleta es realmente la más rápida.”</p>\n\n  <p>“¡Apuesto!” estuvo de acuerdo Paul. “Empezaremos en la cima de la colina de Billy y competiremos hasta el fondo,” dijo, señalando la cuneta donde estaban sentados los otros chicos.</p>\n\n  <p>¡Uno, dos, tres, YA! y salieron disparados. Bajaron la colina pedaleando con todas sus fuerzas.</p>\n\n  <p>“¡Vamos Paul!” y “¡Vamos Big David!” gritaban los chicos al pie de la colina. Todo el alboroto despertó a la perrita rat terrier del pequeño Davy, Nellie. Ladrando fuerte, Nellie dio vueltas alrededor del silo tan deprisa como sus cuatro patitas se lo permitían. Se dirigió directamente hacia la bicicleta de Big David al frente, ladrando para intentar detenerla. La pobre Nellie no se dio cuenta de que otra bicicleta iba a adelantar a la primera.</p>\n\n  <p>¡Plaf!, la bicicleta que adelantaba golpeó al perro. ¡Crash, bang!, las dos bicicletas chocaron entre sí.</p>\n\n  <p>“¡Eh – ay!” ¡Uff! Dos chicos salieron volando por encima del manillar y cayeron con fuerza sobre la carretera. Aquellas bicicletas relucientes ya no brillaban. Yacían amontonadas, arañadas y con rayas de alquitrán. Nellie cojeó de regreso junto al silo y se quedó tumbada allí varias horas.</p>\n\n  <p>Los otros chicos se quedaron en la cuneta con la boca abierta. Rápidamente corrieron hacia los dos chicos mayores que yacían junto a sus bicicletas nuevas. “¿Están bien?” preguntaron.</p>\n\n  <p>“Estaré bien,” dijo Paul lentamente, “pero nada de más carreras. A quién le importa cuál bici es la más rápida.”</p>\n\n  <p>Aunque el pequeño Davy ahora es abuelo, no ha olvidado la carrera de bicicletas de aquella tarde de domingo hace tanto tiempo, cuando Big David y Paul aprendieron que presumir y alardear suele acabar en un estrepitoso fracaso.</p>\n\n  <figure>\n    <img src=\"/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg\" alt=\"Dos chicos compitiendo en bicicleta cuesta abajo mientras un perro pequeño corre hacia la carretera\">\n    <figcaption>\"EL ORGULLO ANTECEDE A LA<br>\n    DESTRUCCIÓN, Y UN<br>\n    ESPÍRITU ALTIVO ANTE<br>\n    LA CAÍDA\"<br>\n    -PROVERBIOS 16:18</figcaption>\n  </figure>\n</article>\n",
+    "section": "Rincón infantil",
+    "subtitle": null,
+    "title": "LA CARRERA DE BICICLETAS"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"طريق مغطى بالثلج يلتفّ عبر غابة من الأشجار دائمة الخضرة\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>الحياة كطريقٍ متعرِّجٍ<br>\\n    لجمهرةِ النفوسِ،<br>\\n    الذين يمضون سريعًا قُدمًا،<br>\\n    غافلون عن غايتهم النهائية.</p>\\n\\n    <p>الحياة في الغالب ما نصنعها،<br>\\n    سواء كانت مستقيمةً أو معوجّةً—واحدةٌ من خيارين؛<br>\\n    سننال ما نستحقّ بالضبط—<br>\\n    خسارتنا أو مكاسبنا الأبدية.</p>\\n\\n    <p>يا أيّتها النفوسُ العزيزةُ! على دربِ الحياةِ،<br>\\n    اتّكئوا إلى صدرِ مخلّصِكم؛<br>\\n    هناك لا عدوّ يستطيع أن يؤذيكم أبدًا،<br>\\n    حتى تبلغوا الراحةَ الأبدية.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"درب الحياة\"}",
+    "content_bytes": 1186,
+    "content_evidence_truncated": false,
+    "content_sha256": "bceab5ea2f85e402dbe093f1509102c65851866cd409825751611477372cc717",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2087
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

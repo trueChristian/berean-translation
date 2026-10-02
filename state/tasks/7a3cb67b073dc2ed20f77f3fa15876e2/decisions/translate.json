@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/blockquote[6]/p[1]; missing: 15:9; extra: 15:9-11",
+  "stage": "translate"
+}

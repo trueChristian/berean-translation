@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"被雪覆盖的公路穿过常绿树林\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>人生如蜿蜒小径<br>\\n    众多的灵魂行其上，<br>\\n    匆匆向前不自察，<br>\\n    无视那终极归向。</p>\\n\\n    <p>人生多半由我们造，<br>\\n    直或曲，二者之一；<br>\\n    我们将得其应得—<br>\\n    永恒的失或得。</p>\\n\\n    <p>哦，亲爱的灵魂！在生命之路上，<br>\\n    倚靠你救主的胸膛；<br>\\n    在那里无敌人能骚扰你，<br>\\n    直到你得到永恒的安息。</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"生命之路\"}",
+    "content_bytes": 799,
+    "content_evidence_truncated": false,
+    "content_sha256": "4fdcf7a41c2fd83fe24bc8e69ec04cc8541e60ea50ac80407ed6da001e1211e9",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1595
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

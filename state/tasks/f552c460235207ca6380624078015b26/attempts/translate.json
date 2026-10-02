@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"d2d95264-7df9-4ca8-9a99-01a68204d73a\\\">\\n  <p>Alguien dijo una vez: “Cuando la esperanza está viva, la noche es menos oscura, la soledad menos profunda y el miedo menos agudo.” Cuando trabajé en una prisión como capellán asistente, me sentaba con los condenados y los escuchaba hablar de su situación. Casi sin excepción, todos hablaban de la esperanza de salir de prisión algún día. Incluso si tenían cadena perpetua, esperaban salir.</p>\\n\\n  <p>He hablado con personas que no confiesan haber nacido de nuevo, pero que aún así esperan ir al cielo. Estas personas no se atreven a dejar de tener esperanza. Su esperanza se basa en su propia esperanza. ¡Una dieta basada en ese tipo de esperanza es, sin duda, una dieta escasa! Este razonamiento me recuerda las palabras de Jesús en Juan 10:1-2 sobre entrar en el aprisco: “Pero el que entra por la puerta es el pastor de las ovejas.” La gente construye su esperanza de cielo sobre muchas cosas inestables. Algunos basan su esperanza en haber sido bautizados en cierta iglesia. Algunos esperan en su membresía eclesiástica. Algunos confían en sus buenas obras, mientras que otros confían en su esperanza. La Biblia, sin embargo, dice: “. . . si uno no nace de nuevo, no puede ver el reino de Dios” (Juan 3:3).</p>\\n\\n  <p>Hay una esperanza verdadera y una esperanza falsa. La esperanza falsa es “subir por algún otro camino”, pero la esperanza verdadera es “el que entra por la puerta”.</p>\\n\\n  <p>“Porque en esperanza fuimos salvos; pero la esperanza que se ve no es esperanza; porque lo que alguno ve, ¿a qué esperarlo?” (Romanos 8:24). Esta palabra esperanza significa “con anticipación o gran expectativa.” ¿Podríamos decir que somos salvos por una gran expectativa? Sí, podemos. “No trabajéis por el alimento que perece, sino por el alimento que permanece para vida eterna, el cual el Hijo del Hombre os dará; porque a éste selló Dios el Padre” (Juan 6:27). Esto parece una especie de contradicción. ¿Acaso no somos salvos por gracia? Sí, somos salvos por gracia mediante la fe (Efesios 2:8). Entonces, ¿qué es eso de ser salvos por esperanza y de trabajar por el “alimento que permanece para vida eterna”?</p>\\n\\n  <p>“Entonces le dijeron: ¿Qué debemos hacer para realizar las obras de Dios?” Respondió Jesús y les dijo: “Esta es la obra de Dios: que creáis en el que él ha enviado” (Juan 6:28-29). Sólo por gracia somos salvos, pero como sugiere este pasaje, la gracia establece una condición. La condición de la gracia es que creamos en Él. Otra condición de la salvación es el arrepentimiento (Marcos 1:15), y otra es llevar la cruz. “Si alguno quiere venir en pos de mí, niéguese a sí mismo, y tome su cruz, y sígame” (Marcos 8:34).</p>\\n\\n  <p>Todo lo que haríamos por Cristo, ya sea creer, arrepentirnos o llevar la cruz, es por gracia. Todo lo que tenemos, o hacemos, es por Él. No trabajamos por nuestra salvación, porque el mismo Cristo dijo: “Consumado es.” No tenemos nada que esperar si no cumplimos las condiciones de nuestra salvación. Una vez que recibimos al Señor Jesús como Salvador, entonces “la esperanza no nos defrauda” (Romanos 5:5).</p>\\n\\n  <p>A medida que Cristo se hace vivo en nosotros, le amamos y elegimos obedecerle. Jesús se vuelve más precioso para nosotros a medida que maduramos en nuestra vida cristiana. Conforme crece nuestra relación, también crece nuestra expectativa. Cuanto más le conocemos, más esperamos estar en su presencia. A medida que aumenta nuestra anticipación de verle, intentamos hacer todo lo posible para agradarle. Nuestro gran anhelo nos impide desanimarnos; así, “somos salvos por la esperanza.”</p>\\n\\n  <p>¿Tu esperanza es como la de quien “sube por algún otro camino”, o como la de “el que entra por la puerta”? ¿Tienes una base para tu esperanza o es una esperanza vacía que no tiene fundamento?</p>\\n\\n  <p>Confío en que estés creciendo “…creciendo en él en todas las cosas, que es la cabeza, Cristo” (Efesios 4:15).</p>\\n\\n  <p>Espero que puedas crecer un poco más, para que también aumente tu expectativa de ver a Cristo. El testimonio de esta expectativa es: “…en esto gemimos, deseando ser revestidos con nuestra morada, que es del cielo” (2 Corintios 5:2).</p>\\n</article>\\n\",\"section\":\"ARTÍCULO DESTACADO\",\"subtitle\":null,\"title\":\"Salvados por la esperanza\"}",
+    "content_bytes": 4474,
+    "content_evidence_truncated": false,
+    "content_sha256": "1b7fa7ab67984753c3edc2504551ad0dfa0d67f927e9e041e6c6911951a22bfa",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 2108,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4098
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

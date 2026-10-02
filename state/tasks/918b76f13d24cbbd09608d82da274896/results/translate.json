@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "44abe0b7-ee5c-44b4-852d-01e0a384b777",
+    "response_id": "chatcmpl-EUWrCUnUtyBFFyxVRek7nTpswhsH8",
+    "usage": {
+      "completion_tokens": 792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1197,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1989
+    }
+  },
+  "received_at": "2026-10-02T12:44:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\">\n  <figure>\n    <img src=\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\" alt=\"Заснеженная дорога, вьющаяся через вечнозелёный лес\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Жизнь — как извилистая тропа<br>\n    Для множества душ,<br>\n    Что бодро движутся вперёд,<br>\n    Не ведая о своей конечной цели.</p>\n\n    <p>Жизнь во многом — то, что мы из неё делаем,<br>\n    Прямая или кривая, один из двух путей;<br>\n    Мы получим ровно то, что заслужили—<br>\n    Наша вечная потеря или обретение.</p>\n\n    <p>О, дорогие души! на пути жизни,<br>\n    Прилегите к груди вашего Спасителя;<br>\n    Там никакой враг не сможет тревожить вас,<br>\n    Пока вы не достигнете вечного покоя.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Путь жизни"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:05+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"c22883c1-1d69-4c5e-aa81-d4015bf4e473\\\">\\n  <p>Saluti nel degno nome del Signore Gesù Cristo. Mentre guardo il paesaggio spoglio di gennaio, non posso fare a meno di chiedermi cosa porterà questo nuovo anno. Indubbiamente porterà un miscuglio di gioia e dolore, eccitazione e mestizia, risate e lacrime, e tutto il resto nel mezzo, che solo un Dio Creatore Onnipotente può disporre in modo da magnificarne la degna potenza e eccellenza. Eppure le nostre menti finite e negative tendono ad anticipare tutte le cose brutte che potrebbero accadere. L’inflazione farà salire ancora di più i prezzi dei generi alimentari? Scoppieranno ampi conflitti in Medio Oriente? Cosa succederà nelle elezioni? Il partito sconfitto ricorrerà a proteste e saccheggi?</p>\\n\\n  <p>Suppongo che, dalla caduta dell’uomo, questi pensieri guidati dalla paura abbiano vagato per le menti dell’umanità all’inizio di ogni anno. Eppure, come viene così appropriatamente sottolineato dallo scrittore dell’articolo, “God’s Faithfulness Manifest Even in the Curse”, Dio ha provveduto bene all’umanità fin dall’inizio dei tempi. Guardando alla fedeltà di Dio verso l’uomo nei secoli, non abbiamo motivo di dubitare che farà lo stesso per noi nel 2024.</p>\\n\\n  <p>Nonostante la fedeltà di Dio verso di noi, gli effetti della caduta dell’uomo sono ancora evidenti. I membri della famiglia si ammalano, lotte in chiesa e nelle relazioni ci rubano il sonno, il conto è vuoto, i bambini litigano e piangono, e le esigenze dei nostri impegni ci fanno correre da un evento all’altro. E a volte sembra che tutte queste calamità ci colpiscano contemporaneamente. I nostri corpi e le nostre menti non sono creati per sopportare tutto ciò. Diventiamo stanchi. Stanchi fino alle ossa. Esausti al punto che persino pensare fa male. Affrontiamo il burnout. In questo numero, “A Word From the Doctor” ci guida mentre affrontiamo il labirinto della vita, offrendoci soluzioni pratiche e bibliche per evitare o riprendersi dal burnout. Egli scrive: “Gesù conosce i nostri limiti. Vuole che abbiamo equilibrio, vivendo in modo da avere non solo forza per oggi ma anche per domani, la settimana prossima e l’anno prossimo – fino a che Egli venga di nuovo.”</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg\\\" alt=\\\"Una foresta di sempreverdi avvolta nella nebbia in un paesaggio montano\\\">\\n  </figure>\\n\\n  <p>Forse un buon rimedio per ridurre lo stress della vita sarebbe fare un giro in bicicletta. Ma dobbiamo stare attenti ed evitare di finire in una gara di bici come hanno fatto i due ragazzi nella storia per bambini di questo numero. Potremmo ritrovarci con più stress di quanto avessimo previsto.</p>\\n\\n  <p>Nonostante i nostri migliori sforzi per vivere senza stress, ci imbattiamo comunque nell’inaspettato. La settimana scorsa stavo pulendo le nostre stalle per i polli in preparazione per un nuovo gregge. Mi sono chinato oltre il parafango del trattore per spostare di lato una porta parzialmente aperta. Mentre mi alzavo, il mio piede ha colpito accidentalmente il pedale idrostatico, facendo sobbalzare il trattore in avanti e sbilanciandomi. In qualche modo il mio piede si è incastrato sotto il pedale e per un istante ho temuto di cadere proprio davanti alla ruota posteriore. In un ultimo disperato tentativo mi sono lanciato lontano dal trattore. Il mio piede è scivolato fuori dalla scarpa e sono atterrato illeso a terra. Il trattore è lentamente ripartito con la mia scarpa ancora incuneata sotto il pedale. Tutto è finito bene e sono state apprese alcune lezioni. Non è stato nient’altro che la provvidenza di Dio a impedire che un episodio bizzarro si trasformasse in un grave incidente. Concordo pienamente con Salomone: “Poiché il SIGNORE sarà la tua fiducia e terrà il tuo piede dal venire preso” (Proverbi 3:26).</p>\\n\\n  <p>Mentre navighiamo in questo anno, uniamoci al cantore di inni nel culto, dove egli scrive:</p>\\n\\n  <div class=\\\"poem\\\">\\n    <p><em>When all Thy mercies, O my God,<br>\\n    My rising soul surveys,<br>\\n    Transported with the view, I’m lost<br>\\n    In wonder, love and praise.</em></p>\\n  </div>\\n\\n  <p>È solo per le misericordie di un Dio che ama che abbiamo vita e respiro. Possiamo offrire tutto a Lui e all’opera del Suo regno in ringraziamento sincero per il Suo dono inesprimibile.</p>\\n\\n  <p>Benedizioni a tutti,</p>\\n\\n  <p>Edward Martin</p>\\n</article>\\n\",\n  \"section\": \"Dal DIRETTORE\",\n  \"subtitle\": null,\n  \"title\": \"Dal direttore\"\n}",
+    "content_bytes": 4617,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac4022b7d9a15c322144573fbe50f395355f4cacf662134219022423e451e83f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1937,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3755
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

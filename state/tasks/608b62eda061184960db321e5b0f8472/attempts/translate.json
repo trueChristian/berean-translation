@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"c22883c1-1d69-4c5e-aa81-d4015bf4e473\\\">\\n  <p>Salutations au nom digne du Seigneur Jésus‑Christ. En regardant le paysage désertique de janvier, je ne peux m’empêcher de me demander ce que cette nouvelle année apportera. Sans aucun doute, elle apportera un mélange de joie et de tristesse, d’excitation et de morosité, de rires et de larmes, et tout le reste entre les deux, que seul un Dieu Créateur tout‑puissant peut arranger de manière à magnifier Sa puissance et Son excellence dignes. Pourtant, nos esprits finis et négatifs ont tendance à anticiper toutes les mauvaises choses qui pourraient arriver. L’inflation fera‑t‑elle encore grimper les prix des aliments ? Des combats généralisés éclateront‑ils au Moyen‑Orient ? Que se passera‑t‑il lors des élections ? Le parti perdant aura‑t‑il recours à des manifestations et à des émeutes ?</p>\\n\\n  <p>Je suppose que, depuis la chute de l’homme, ces pensées guidées par la peur ont parcouru l’esprit de l’humanité au début de chaque année. Pourtant, comme le souligne si pertinemment l’auteur de l’article « God’s Faithfulness Manifest Even in the Curse », Dieu a bienveillamment pourvu à l’humanité dès le commencement des temps. En regardant la fidélité de Dieu envers l’homme à travers les siècles, nous n’avons aucune raison de douter que Dieu fera de même pour nous en 2024.</p>\\n\\n  <p>Malgré la fidélité de Dieu envers nous, les effets de la chute de l’homme demeurent visibles. Des membres de la famille tombent malades, les luttes dans l’église et les relations nous volent le sommeil, le compte en banque se tarit, les enfants se querellent et pleurent, et les exigences de nos emplois du temps nous font passer d’un événement à l’autre. Et parfois, il semble que toutes ces calamités nous frappent en même temps. Nos corps et nos esprits ne sont pas faits pour supporter cela. Nous devenons las. Épuisés jusqu’aux os. À bout, au point que même penser fait mal. Nous faisons face au burn‑out. Dans ce numéro, « A Word From the Doctor » nous guide alors que nous affrontons le labyrinthe de la vie, nous donnant des solutions pratiques et bibliques pour éviter ou se remettre du burn‑out. Il écrit : « Jésus connaît nos limites. Il veut que nous ayons de l’équilibre, vivre d’une manière telle que nous ayons non seulement de la force pour aujourd’hui mais aussi pour demain, la semaine prochaine, et l’année prochaine – jusqu’à Son retour. »</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg\\\" alt=\\\"Une forêt d’évergreens dans la brume, dans un paysage montagneux\\\">\\n  </figure>\\n\\n  <p>Peut‑être qu’un bon remède pour réduire le stress de la vie serait d’aller faire une promenade à vélo. Mais il nous faut faire attention et éviter de nous lancer dans une course comme l’ont fait les deux garçons de l’histoire pour enfants de ce numéro. Nous risquons de nous retrouver avec plus de stress que prévu.</p>\\n\\n  <p>Malgré nos meilleurs efforts pour vivre sans stress, l’imprévu nous surprend parfois. La semaine dernière, je nettoyais nos poulaillers en préparation d’un nouveau troupeau. Je me suis penché par‑dessus la aile du tracteur pour repousser une porte à moitié ouverte. En me redressant, mon pied a accidentellement heurté la pédale hydrostatique, faisant avancer brusquement le tracteur et me déséquilibrant. Mon pied s’est retrouvé coincé sous la pédale, et pendant une fraction de seconde, j’ai craint de tomber juste devant la roue arrière. Dans un dernier effort, je me suis jeté loin du tracteur. Mon pied a glissé hors de ma chaussure, et je suis atterri sans blessure sur le sol. Le tracteur est lentement parti avec ma chaussure encore coincée sous la pédale. Tout s’est bien terminé, et quelques leçons en ont été tirées. Ce n’est rien d’autre que la providence de Dieu qui a empêché qu’un incident bizarre ne devienne un grave accident. Je suis vraiment d’accord avec Salomon : « Car l’Éternel sera ta confiance, et il préservera ton pied d’être pris » (Proverbes 3:26).</p>\\n\\n  <p>Alors que nous naviguons au cours de cette année, joignons‑nous au compositeur du cantique dans l’adoration, où il écrit :</p>\\n\\n  <div class=\\\"poem\\\">\\n    <p><em>When all Thy mercies, O my God,<br>\\n    My rising soul surveys,<br>\\n    Transported with the view, I’m lost<br>\\n    In wonder, love and praise.</em></p>\\n  </div>\\n\\n  <p>C’est seulement par les compassions d’un Dieu tout‑aimant que nous avons la vie et le souffle. Puissions‑nous Lui donner tout de nous et Œuvre de Son royaume dans une reconnaissance sincère pour Son don ineffable.</p>\\n\\n  <p>Bénédictions à tous,</p>\\n\\n  <p>Edward Martin</p>\\n</article>\\n\",\"section\":\"De la RÉDACTION\",\"subtitle\":null,\"title\":\"De la rédaction\"}",
+    "content_bytes": 4983,
+    "content_evidence_truncated": false,
+    "content_sha256": "8e55af942c7a2446069a7b0745f65f91d4b7f3f4e83c3a675546968561109643",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1513,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1939,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3452
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

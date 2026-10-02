@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"상록수림을 지나 구불구불 이어진 눈 덮인 길\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>삶은 구불구불한 오솔길과 같으니<br>\\n    수많은 영혼들을 위해 있어라,<br>\\n    부지런히 걸어 나아가는 이들,<br>\\n    종국을 헤아리지 못한 채.</p>\\n\\n    <p>삶은 대개 우리가 만드는 것이요,<br>\\n    곧거나 굽어지거나, 둘 중 하나;<br>\\n    우리는 응당 받을 것을 받으리니—<br>\\n    우리의 영원한 상실 또는 얻음.</p>\\n\\n    <p>오 사랑하는 영혼들아! 삶의 길 위에서,<br>\\n    구주 가슴에 기대어라;<br>\\n    거기서는 어떤 원수도 너희를 괴롭힐 수 없으리니,<br>\\n    영원한 쉼에 이를 때까지.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"삶의 길\"}",
+    "content_bytes": 1000,
+    "content_evidence_truncated": false,
+    "content_sha256": "c97ca566849aa14ccdb9b0643648bf992fe360fd99703c18a6ad157607d0024d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1751
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

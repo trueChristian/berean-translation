@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:05+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"एवरग्रीन जंगल से गुजरती बर्फ़ से ढकी सड़क\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>ज़िंदगी एक घुमावदार रास्ते की तरह है<br>\\n    अनगिनत आत्माओं के लिए,<br>\\n    जो तेज़ी से आगे बढ़ रहे हैं,<br>\\n    अपनी अंतिम मंज़िल की परवाह किए बिना।</p>\\n\\n    <p>ज़िंदगी अधिकांशतः वही है जो हम बनाते हैं,<br>\\n    सीधी या टेढ़ी, दो में से एक;<br>\\n    हमें वही मिलेगा जो हम अर्जित करते हैं—<br>\\n    हमारा अनंत हानि या लाभ।</p>\\n\\n    <p>हे प्रिय आत्माओं! जीवन के मार्ग पर,<br>\\n    अपने उद्धारकर्ता की छाती से टिक जाओ;<br>\\n    वहां कोई शत्रु तुम्हें कदाचित् कष्ट नहीं दे सकेगा,<br>\\n    जब तक तुम अनंत विश्राम तक न पहुँच जाओ।</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"जीवन का मार्ग\"}",
+    "content_bytes": 1628,
+    "content_evidence_truncated": false,
+    "content_sha256": "ce3e3a3ed412c597d6b2564dec2f02ba29e26cc10e8002861b8120e5ce3d135c",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 416,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1618
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

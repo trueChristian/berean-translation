@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"Une route enneigée serpentant à travers une forêt d’arbres à feuillage persistant\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>La vie est comme un sentier sinueux<br>\\n    Pour la multitude des âmes,<br>\\n    Qui marchent d'un pas vif en avant,<br>\\n    Insoucieuses de leur but ultime.</p>\\n\\n    <p>La vie est pour l'essentiel ce que nous en faisons,<br>\\n    Droite ou tortueuse, l'une des deux ;<br>\\n    Nous recevrons exactement ce que nous méritons—<br>\\n    Notre perte ou notre gain éternel.</p>\\n\\n    <p>Ô chères âmes ! sur le chemin de la vie,<br>\\n    Appuyez-vous sur la poitrine de votre Sauveur ;<br>\\n    Là aucun ennemi ne pourra jamais vous importuner,<br>\\n    Jusqu'à ce que vous atteigniez le repos éternel.</p>\\n  </div>\\n</article>\\n\",\n  \"section\": null,\n  \"subtitle\": null,\n  \"title\": \"Le chemin de la vie\"\n}",
+    "content_bytes": 1031,
+    "content_evidence_truncated": false,
+    "content_sha256": "0a893b53c9a8e8f3259ab33a654a674080e9409fa32d7cd1327b51f1b9c631dd",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2004
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

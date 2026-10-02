@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:06+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"একটি বরফে ঢাকা রাস্তা যা চিরসবুজ বনের মধ্য দিয়ে বাঁক নেয়\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>জীবন এমন এক বাঁকানো পথ<br>\\n    অসংখ্য আত্মার জন্য,<br>\\n    যারা তৎপরতায় এগিয়ে চলছে,<br>\\n    তাদের চূড়ান্ত লক্ষ্যকে অবহেলা করে।</p>\\n\\n    <p>জীবন প্রধানতই যা আমরা গড়ি,<br>\\n    সোজা না বাঁকা, দুইটির একটিই;<br>\\n    আমরা যতটুকু প্রাপ্য, ঠিক তাই পাব—<br>\\n    আমাদের অনন্ত ক্ষতি বা লাভ।</p>\\n\\n    <p>ও প্রিয় আত্মাগণ! জীবনের পথচলায়,<br>\\n    আপনার রক্ষাকারীর বুকে ভর করো;<br>\\n    সেখানে কোনো শত্রু কখনো তোমাকে কষ্ট দিতে পারবে না,<br>\\n    চিরস্থায়ী বিশ্রামে পৌঁছানো পর্যন্ত।</p>\\n  </div>\\n</article>\\n\",\n  \"section\": null,\n  \"subtitle\": null,\n  \"title\": \"জীবনের পথ\"\n}",
+    "content_bytes": 1582,
+    "content_evidence_truncated": false,
+    "content_sha256": "2ed5211bd9cd5a3c386e219c96378780e8e7d5237c5755559b95df3b13f5d8ae",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1075,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2277
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

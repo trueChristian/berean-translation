@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f064eef5-2c2c-4ee2-9574-31d077d22514",
+    "response_id": "chatcmpl-EUWrYb3wdalXfjQj8uwKZKIjP3q76",
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1197,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1969
+    }
+  },
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\">\n  <figure>\n    <img src=\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\" alt=\"Eine schneebedeckte Straße, die sich durch einen Nadelwald windet\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Das Leben ist wie ein gewundener Pfad<br>\n    für die Schar der Seelen,<br>\n    die eilig weiterwandern,<br>\n    achtlos ihres letzten Ziels.</p>\n\n    <p>Das Leben ist meist, was wir daraus machen,<br>\n    gerade oder krumm, das eine von zweien;<br>\n    Wir empfangen genau, was wir verdienen—<br>\n    unseren ewigen Verlust oder Gewinn.</p>\n\n    <p>O ihr lieben Seelen! auf des Lebens Pfad,<br>\n    lehnt euch an die Brust eures Heilands;<br>\n    dort kann euch kein Feind je belästigen,<br>\n    bis ihr die ewige Ruhe erreicht.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Der Pfad des Lebens"
+  }
+}

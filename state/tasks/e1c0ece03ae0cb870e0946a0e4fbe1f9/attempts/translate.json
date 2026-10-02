@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"En snötäckt väg som slingrar genom en barrskog\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Livet är som en slingrande väg<br>\\n    för mängden själar,<br>\\n    som ivrigt vandrar framåt,<br>\\n    obetänksamma inför sitt slutmål.</p>\\n\\n    <p>Livet är till största delen vad vi gör det till,<br>\\n    rakt eller krokigt, ett av två;<br>\\n    Vi får precis vad vi förtjänar—<br>\\n    vår eviga förlust eller vinst.</p>\\n\\n    <p>Ack, kära själar! på livets väg,<br>\\n    Luta er mot Frälsarens bröst;<br>\\n    Där kan ingen fiende någonsin störa er,<br>\\n    tills ni når evig vila.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Livets väg\"}",
+    "content_bytes": 875,
+    "content_evidence_truncated": false,
+    "content_sha256": "57645fce3dea16846b3de2a24e236c5894c9f460682a0c695b36f0fe96991f6b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1198,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2099
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

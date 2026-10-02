@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Forbidden or valueless HTML attribute: ך",
+  "stage": "translate"
+}

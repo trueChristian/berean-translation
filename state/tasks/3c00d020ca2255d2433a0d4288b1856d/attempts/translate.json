@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"Sebuah jalan bersalju yang berkelok melalui hutan pohon hijau sepanjang tahun\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Hidup bagaikan jalan berkelok<br>\\n    Bagi banyak jiwa di dunia,<br>\\n    Yang melangkah cepat ke hadapan,<br>\\n    Tak menyadari tujuan akhirnya.</p>\\n\\n    <p>Hidup sebagian besar kita bentuk sendiri,<br>\\n    Lurus atau bengkok, salah satu dari dua;<br>\\n    Kita akan menerima apa yang layak kita terima—<br>\\n    Kehilangan atau keuntungan kekal kita.</p>\\n\\n    <p>Wahai jiwa-jiwa terkasih! di jalan hidup ini,<br>\\n    Bersandarlah pada dada Juruselamatmu;<br>\\n    Di sana tak ada musuh yang bisa mengganggu, <br>\\n    Hingga engkau mencapai istirahat kekal.</p>\\n  </div>\\n</article>\\n\",\n  \"section\": null,\n  \"subtitle\": null,\n  \"title\": \"Jalan Kehidupan\"\n}",
+    "content_bytes": 973,
+    "content_evidence_truncated": false,
+    "content_sha256": "9d081c7a5141c974a4d9f813f73b40a3d3cc572484e2cf2c2f8f2d995faae09b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 416,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1615
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

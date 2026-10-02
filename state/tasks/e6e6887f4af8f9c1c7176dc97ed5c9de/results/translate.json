@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7ba6644a-ee0e-4df4-8dc2-b474d14a7bea",
+    "response_id": "chatcmpl-EUWriLxIbglVoRxeT8n3lFKCQa9xh",
+    "usage": {
+      "completion_tokens": 332,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1535
+    }
+  },
+  "received_at": "2026-10-02T12:44:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\">\n  <figure>\n    <img src=\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\" alt=\"דרך מכוסה שלג המתפתלת דרך יער של עצי חורש תמידי\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>החיים הם כמו שביל מתפתל<br>\n    לרבבות הנשמות,<br>\n    ההולכות במהירות קדימה,<br>\n    שלא מודעות ליעדן הסופי.</p>\n\n    <p>החיים הם בעיקר מה שאנחנו עושים מהם,<br>\n    ישרים או מעוקלים, אחד משניים;<br>\n    נקבל בדיוק מה שמגיע לנו—<br>\n    האובדן או הרווח הנצחי שלנו.</p>\n\n    <p>או נשמות יקרות! על שביל החיים,<br>\n    נשענו אל חיק המושיע;<br>\n    שם לא יפריע לכם אויב לעולם,<br>\n    עד שתגיעו למנוחת הנצח.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "שביל החיים"
+  }
+}

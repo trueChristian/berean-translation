@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f8985eef-9387-49a7-8c43-cb2c9cf4d602",
+    "response_id": "chatcmpl-EUWrSah0Apzt1PP62UBCADIuIHym9",
+    "usage": {
+      "completion_tokens": 1548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1864,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3412
+    }
+  },
+  "received_at": "2026-10-02T12:44:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\">\n  <p>Es war einer jener Sonntagnachmittage im späten Frühling, an denen die Sonne endlich wieder warm schien. Es war die Jahreszeit, in der kleine Jungen scheinbar jede Menge Energie haben. Der kleine Davy saß mit ein paar Nachbarsjungen auf dem Straßenbord, die gerade vorbeigekommen waren. Er fühlte sich, als könnte er vor Aufregung auf und ab springen, wegen des bevorstehenden Rennens.</p>\n\n  <p>Zwei ältere Jungen, Big David und Paul, tauchten auf mit nagelneuen Fahrrädern. Das waren nicht die gewöhnlichen Fahrräder, die die anderen Jungen hatten. Es waren schöne Vista-Fahrräder mit glänzendem Neuanstrich, blanken Chromschutzblechen und drei Gängen. Diese Fahrräder glitten ohne Rattern über die Chip-and-Seal-Straße. Mit neuen Kugellagern sausten sie dahin, obwohl kaum Mühe auf die Pedale ausgeübt wurde. Auch wenn die Fahrräder sich nicht allzu sehr zu unterscheiden schienen, war Big Davids ein glänzendes kastanienbraun, und Pauls ein funkelndes metallisches Blau.</p>\n\n  <p>„Nun,“ begann Big David zu prahlen, „Mit meinen längeren Beinen und frisch aufgesprühter WD40 wird mein Rad sicher das schnellste sein.“</p>\n\n  <p>„Nein,“ widersprach Paul, „meine kürzeren Beine können schneller treten, und Schwinns hochwertiges Fahrradöl übertrifft WD40 bei weitem, das man eigentlich nur gegen Quietschen benutzt.“</p>\n\n  <p>„Ein Rennen! Ein Rennen!“ riefen die anderen Jungen, „Warum entscheiden wir es nicht mit einem Rennen?“</p>\n\n  <p>„Okay,“ sagte Big David, „wir machen ein Rennen und sehen, wessen Fahrrad wirklich das schnellste ist.“</p>\n\n  <p>„Wetten!“ stimmte Paul zu. „Wir starten oben auf Billys Hügel und rasen bis ganz hinunter,“ sagte er und deutete auf das Straßenbord, wo die anderen Jungen saßen.</p>\n\n  <p>Eins, zwei, drei, LOS — und sie waren los! Den Hügel hinunter kamen sie, so schnell sie konnten in die Pedale tretend.</p>\n\n  <p>„Vorwärts, Paul!“ und „Los, Big David!“ riefen die Jungen am Fuße des Hügels. Das ganze Getöse weckte Little Davys Ratten-Terrier-Hündin Nellie. Laut kläffend sauste Nellie so schnell sie mit ihren vier kleinen Beinen konnte um den Silo herum. Sie zielte geradewegs auf Big Davids Fahrrad vorne zu und bellte laut, um es zum Stillstand zu bringen. Die arme Nellie merkte nicht, dass ein anderes Fahrrad gerade dabei war, das erste zu überholen.</p>\n\n  <p>Platsch — das überholende Fahrrad traf den Hund! Krach, Peng — die beiden Fahrräder prallten ineinander!</p>\n\n  <p>„Hey – ay!“ Oooff! Zwei Jungen flogen über die Lenker und landeten hart auf der Straße. Die glänzenden Fahrräder funkelten nicht mehr. Sie lagen auf einem Haufen, zerkratzt und mit Teerstreifen versehen. Nellie humpelte zurück zum Silo und blieb dort mehrere Stunden lang liegen.</p>\n\n  <p>Die anderen Jungen standen mit offenem Mund am Bord. Schnell liefen sie zu den beiden großen Jungen, die neben ihren neuen Fahrrädern lagen. „Seid ihr okay?“ fragten sie.</p>\n\n  <p>„Ich werde schon wieder,“ sagte Paul langsam, „aber keine Rennen mehr. Wer kümmert sich schon darum, wessen Fahrrad das schnellste ist.“</p>\n\n  <p>Obwohl Little Davy jetzt Großvater ist, hat er das Fahrradrennen an jenem langen Sonntagnachmittag nicht vergessen, als Big David und Paul lernten, dass Prahlen und Angeberei meist mit einem jähen Ende enden.</p>\n\n  <figure>\n    <img src=\"/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg\" alt=\"Zwei Jungen rasen mit ihren Fahrrädern einen Hügel hinunter, während ein kleiner Hund auf die Straße läuft\">\n    <figcaption>\"HOCHMUT KOMMT VOR DEM FALL,<br>\n    UND STOLZ VOR DEM VERDERBEN\"<br>\n    -SPRÜCHE 16,18</figcaption>\n  </figure>\n</article>\n",
+    "section": "Kinder-Ecke",
+    "subtitle": null,
+    "title": "DAS FAHRRADRENNEN"
+  }
+}

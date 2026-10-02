@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f7e5b38d-3709-45f1-99f0-5176ec99229c",
+    "response_id": "chatcmpl-EUWryvEqtyWdINK2UTrC86BUacPrc",
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2103
+    }
+  },
+  "received_at": "2026-10-02T12:44:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\">\n  <figure>\n    <img src=\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\" alt=\"Uma estrada coberta de neve serpenteando por uma floresta de coníferas\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>A vida é como um caminho sinuoso<br>\n    Para a multidão de almas,<br>\n    Que caminham apressadas adiante,<br>\n    Indiferentes ao seu destino final.</p>\n\n    <p>A vida é, em grande parte, o que fazemos dela,<br>\n    Reta ou tortuosa, uma das duas;<br>\n    Receberemos exatamente o que merecemos—<br>\n    Nossa perda ou ganho eternos.</p>\n\n    <p>Ó almas queridas! no caminho da vida,<br>\n    Apoi em-se no peito do Salvador;<br>\n    Ali nenhum inimigo pode jamais perturbá-las,<br>\n    Até que alcancem o descanso eterno.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "O Caminho da Vida"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "79fe372c-862c-4fea-b189-18e588625bc9",
+    "response_id": "chatcmpl-EUWrQHbydn6vajlnly00HCc9ucjPq",
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1205,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2006
+    }
+  },
+  "received_at": "2026-10-02T12:44:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\">\n  <figure>\n    <img src=\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\" alt=\"ہمیشہ سبز جنگلات کے درمیان مڑتا ہوا برف پوش راستہ\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>زندگی ایک گھومتا ہوا راستہ ہے<br>\n    بہت سی جانوں کے لیے،<br>\n    جو تیزی سے آگے چل رہے ہیں،<br>\n    اپنے آخری مقصد سے بے خبر۔</p>\n\n    <p>زندگی زیادہ تر وہی ہے جو ہم بناتے ہیں،<br>\n    سیدھی یا ٹیڑھی، دونوں میں سے ایک؛<br>\n    ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں—<br>\n    ہماری ازلی کمی یا نصیب۔</p>\n\n    <p>اے عزیز جانو! زندگی کے راستے پر،<br>\n    اپنے نجات دہندہ کی سینے سے جکو؛<br>\n    وہاں کوئی دشمن کبھی تمہیں ستا نہیں سکتا،<br>\n    جب تک تم ازلی آرام تک نہ پہنچ جاؤ۔</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "زندگی کا راستہ"
+  }
+}

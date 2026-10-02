@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2354da9c-db26-45a0-88c7-88f60ca147a7",
+    "response_id": "chatcmpl-EUWsU3GIbrXocJyYoLv5275b1ajNi",
+    "usage": {
+      "completion_tokens": 459,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1661
+    }
+  },
+  "received_at": "2026-10-02T12:44:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\">\n  <figure>\n    <img src=\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\" alt=\"Un camino cubierto de nieve serpenteando por un bosque de coníferas\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>La vida es como un sendero que gira<br>\n    Para la multitud de almas,<br>\n    Que caminan con premura hacia adelante,<br>\n    Sin atender a su fin último.</p>\n\n    <p>La vida es en gran parte lo que hacemos de ella,<br>\n    Recta o torcida, una de dos;<br>\n    Recibiremos justo lo que merecemos—<br>\n    Nuestra pérdida o ganancia eterna.</p>\n\n    <p>¡Oh almas queridas! en el sendero de la vida,<br>\n    Apoyad vuestro pecho en el del Salvador;<br>\n    Allí ningún enemigo puede molestarnos jamás,<br>\n    Hasta que alcancéis el descanso eterno.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "El camino de la vida"
+  }
+}
