@@ -2508,17 +2508,17 @@
     },
     "33ae5d29-695e-4abe-91d0-fcc2722697c5": {
       "fingerprints": {
-        "html_sha256": "d425116c26c4c790c23d5bcd4caa9575c18c5596c806ba5e0f719622d5c471e4",
+        "html_sha256": "d9f3252b06dbf81abe29092fa48fa0192a13438945e4c0551a5d9728f4774046",
         "metadata_sha256": "0061943848aac02f9999e514c66f8456c043c7f889e1c0cc1429cb035b86c5bf",
-        "structure_sha256": "f7aa4183466275caa7fe4baa2a634f217753e563dcced3e1e02fad866019f41d",
-        "text_sha256": "396864ed633375e981ef06726fc96415578588556783bae4d83271f20c68d558",
+        "structure_sha256": "b69e4f148483fec405759f060587d1640a5e95d608d3bd1bfaa9551ac39c9b4d",
+        "text_sha256": "c7ec4e50df58f92796656ae9e6cda2af47e77b851c5b2552ea89209f10bbe3ec",
         "translation_metadata_sha256": "296d1bdc16f878c79751b94453da009dfa38b93c561402cacebfbf0da5ef7d78"
       },
       "id": "33ae5d29-695e-4abe-91d0-fcc2722697c5",
       "issue_id": "366e9292-c1d1-4599-a047-8f440f0b65c0",
       "sequence": 10,
       "title": "Sober-Mindedness Pressed upon Youth",
-      "translation_key": "bdc427b6ade64dc2483a5f54bd64066416f17ec731f2b1b3a696b12cd559fd85"
+      "translation_key": "29605a57e5ad195b837434750b66eff24f9240e00c177c6ecf674c94654556fe"
     },
     "33bbaaa4-dcf7-4f93-83a8-12baf57017d5": {
       "fingerprints": {
@@ -12993,7 +12993,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "3f7ac82fe91e82cd8f43e630d13c1cbf88a3f57c987995fb9376cf124bdc7e1f",
+  "content_sha256": "adac6c01cb77d4c3ab923a5060c314455766639e6112d99836c29e83444b9e51",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -14124,5 +14124,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b"
+  "revision": "b84d1a64b063e0cb31472e81323b4fa7335c65d2"
 }
