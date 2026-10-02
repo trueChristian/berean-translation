@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "657375826f9943d1bc54396e5060aa9e",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -62,31 +61,52 @@
         },
         "total_tokens": 11231
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1928,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6767,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8695
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html — paragraph containing Romans quotation (Romans 1:18-32)",
+      "location": "<p>В Послании к Римлянам мы читаем: «Ибо гнев Божий открывается... (Рим. 1:18–32).</p>",
       "severity": "major",
-      "source_quote": "so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened.",
-      "suggested_fix": "Перевести фразу так, чтобы передавалось значение «они не имеют оправдания / они без оправдания», а не «невинны». Например: «так что они не имеют оправдания: потому что, узнав Бога, они не прославили Его как Бога и не поблагодарили, но обратились в тщетные размышления, и помрачилось неразумное сердце их». Сохранить ссылку (Рим. 1:18–32) и структуру тега <p>.",
-      "translation_quote": "«так что они безвинны. Ибо, познав Бога, не прославили Его как Бога, и не поблагодарили...» (Рим. 1:18–32) — фраза «так что они безвинны» неправильно передаёт смысл оригинала."
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools, And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things. Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet. And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32).",
+      "suggested_fix": "Quoted Scripture must faithfully convey the authoritative English passage in natural Russian. The current translation of Romans 1:18–32 contains nonstandard words and some mistranslations/typos (for example, the word «богонесмеваемых» appears to be incorrect and distorts meaning). Replace the entire quoted block with a conventional, accurate Russian Bible rendering (Synodal or commonly accepted Russian translation) that preserves the chapter and verse numbering exactly (Рим. 1:18–32). Ensure wording accurately reflects the English passage’s meaning (e.g., \"who hold the truth in unrighteousness\" → «сдерживающих истину в неправде/неправедности», etc.). Use consistent, standard Biblical Russian phrasing throughout the quoted passage.",
+      "translation_quote": "«Ибо гнев Божий открывается с неба на всякую неправду человеков, делающих неправду, — богонесмеваемых, потому что то, что познаваемо о Боге, явственно им; ибо Бог явил им... (Рим. 1:18–32).»"
     },
     {
-      "location": "source.html — paragraph: “So how can one be a humanist and believe in God?” (paragraph beginning “So how can one be a humanist and believe in God?”)",
+      "location": "<p>Вот пример: Христианин сажает огород и заботится о нем каждый день. Он поливает, удобряет, вырывает сорняки и обрезает.</p>",
       "severity": "minor",
-      "source_quote": "He doesn’t believe in the true God but, in his mind, created a fictitious god that does not exist.",
-      "suggested_fix": "Исправить орфографическую ошибку «не верует» на нормативную форму «не верит». Например: «По сути, он не верит в истинного Бога, а в своём воображении создал вымышленного бога, которого нет.» Сохранить существующую разметку тега <p>.",
-      "translation_quote": "«По сути, он не верует в истинного Бога, а в своем уме создал вымышленного бога, которого нет.» (ошибочная форма «верует»)."
+      "source_quote": "\"He waters and fertilizes weeds and prunes.\" (context: He waters, fertilizes, weeds and prunes.)",
+      "suggested_fix": "The Russian phrasing currently reads as if the gardener \"fertilizes the weeds\" (удобряет сорняки). To match the source order and meaning, change to a natural verb sequence: «Он поливает, удобряет, пропалывает (или вырывает сорняки) и обрезает.» This preserves intended actions in correct Russian.",
+      "translation_quote": "«Он поливает, удобряет, вырывает сорняки и обрезает.»"
     },
     {
-      "location": "source.html — paragraph with greenhouse anecdote (first story)",
+      "location": "<p>Если он болен — он вызывает доктора. Если нужен деньги — он идет к банкиру.</p>",
       "severity": "minor",
-      "source_quote": "Some plant, some water, but God gives the increase.",
-      "suggested_fix": "Заменить «Некоторые посадили, полили, а возрастание дает Бог» на более естественную и понятную русскую фразу, передающую тот же смысл, например: «Кто-то посадил, кто-то полил, а Бог дает рост/урожай». Сохранить теги и порядок слов в абзаце.",
-      "translation_quote": "«Некоторые посадили, полили, а возрастание дает Бог» — передача смысла верна, но фраза звучит неестественно на русском."
+      "source_quote": "\"If he is sick, he calls a doctor. If he needs money, he goes to the banker.\"",
+      "suggested_fix": "Fix grammatical number/agreement: change «Если нужен деньги» to «Если нужны деньги» (or «Если ему нужны деньги»). A suggested correction: «Если он болен — он вызывает доктора. Если ему нужны деньги — он идет к банкиру.»",
+      "translation_quote": "«Если нужен деньги — он идет к банкиру.»"
     }
   ],
+  "finished_at": "2026-10-02T10:00:49+00:00",
   "id": "d69add9b8361e20bd69159b96b311690",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -130,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/21c0a1ee01bf0c3d147452744dda149ef865e8661a303f2837c7de8616caade6.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

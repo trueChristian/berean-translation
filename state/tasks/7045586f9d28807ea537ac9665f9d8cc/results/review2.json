@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dc2defc0-9a5e-4da9-b17f-766bb4afd9e5",
+    "response_id": "chatcmpl-EUUJJrM2EXfzxKokoMTXdouccGdF7",
+    "usage": {
+      "completion_tokens": 1177,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12026,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13203
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout article (voice/pronouns)",
+        "severity": "minor",
+        "source_quote": "(examples) \"you\", \"younger people\", direct addresses using 'you' and 'young men' in English; specific lines: \"Young men, you’re young...\"; \"Young ladies, are you willing...\"",
+        "suggested_fix": "Make the Portuguese second-person usage consistent and internationally intelligible. The translation currently mixes 'você' and plural/formal 'vós'/'estais' forms (e.g., earlier paragraphs use 'você', later sections use archaic 'estais'). Choose one register (recommended: neutral 'vocês'/'você' forms) and apply it consistently to all direct addresses to readers (e.g., change 'estais dispostos' to 'vocês estão dispostos' or 'você está disposto' as appropriate).",
+        "translation_quote": "(examples) \"Jovens, estais dispostos a derramar a vossa vida...\"; earlier: \"Se você não tem esse testemunho...\""
+      },
+      {
+        "location": "Paragraph about 'keepers at home' (near end)",
+        "severity": "minor",
+        "source_quote": "\"There’s also a need for mothers who are submissive and yielded to authority. Mothers who do not follow the women’s lib of our day but are rather content to be keepers at home.\"",
+        "suggested_fix": "The rendered phrase 'mantenedoras do lar' is potentially misleading in Portuguese (it suggests financial provision). Use a clearer, conventional equivalent for 'keepers at home', such as 'dedicadas ao lar', 'zeladoras do lar' or 'donas de casa', to match the English meaning of homemakers who care for the home rather than 'mantenedoras'.",
+        "translation_quote": "\"Há também necessidade de mães que sejam submissas e rendidas à autoridade. Mães que não sigam a liberação feminina do nosso tempo, mas que antes estejam contentes em ser mantenedoras do lar.\""
+      },
+      {
+        "location": "Paragraph quoting Mark 10:8-9 (phrase translated 'travail')",
+        "severity": "minor",
+        "source_quote": "\"Pulling apart is no blessing at all but bringsagony,pain,travail, and hurt.\" (source contains 'travail')",
+        "suggested_fix": "The translation renders 'travail' as 'trabalho de parto', which can be read as 'labor/childbirth' and may not capture the intended general sense of 'sorrow, toil, painful travail'. Consider a clearer Portuguese rendering such as 'agonia, dor, aflição e ferimento' or 'agonia, dor, sofrimento e ferida' to reflect the wider sense of 'travail'.",
+        "translation_quote": "\"Separar traz agonia, dor, trabalho de parto e ferida.\""
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

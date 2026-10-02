@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a32c7d5b-3313-4439-96c8-333e03ffd0d0",
+    "response_id": "chatcmpl-EUUJJqolS6xSFP34Yb997nUjII6p1",
+    "usage": {
+      "completion_tokens": 894,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1759,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2653
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — stanza 1, line 6",
+        "severity": "minor",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "The Greek «Ευχαριστείτε και υμνήστε, γιατί κι άλλα είναι εδώ!» is ambiguous. Preserve the sense that more (grace/blessings/delight) is present. Suggested wording: «Ευχαριστείτε και υμνήστε, γιατί περισσότερα αγαθά είναι εδώ!» or «Ευχαριστείτε και υμνήστε, γιατί περισσότερα είναι παρόντα!»",
+        "translation_quote": "Ευχαριστείτε και υμνήστε, γιατί κι άλλα είναι εδώ!"
+      },
+      {
+        "location": "source.html — stanza 3, line 2",
+        "severity": "minor",
+        "source_quote": "In wondrous beauty bend the knee;",
+        "suggested_fix": "The translation «Σε θαυμαστή ομορφιά λυγώστε τα γόνατα;» is understandable but slightly awkward or non-idiomatic in Modern Greek. Prefer a more natural phrasing that preserves poetic tone, for example: «Σε θαυμαστή ομορφιά γονυπετήστε» or «Σε θαυμαστή ομορφιά λυγώστε το γόνατο».",
+        "translation_quote": "Σε θαυμαστή ομορφιά λυγώστε τα γόνατα;"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

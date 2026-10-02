@@ -2339,6 +2339,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "f0a219a842aed1bc84f8a07889ee89b432fd7519c1d2e5d3e4aed00f5acdbb0e",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "Μικρό σκάφος στην άκρη ήρεμων νερών κατά ένα εντυπωσιακό ηλιοβασίλεμα",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "95b5e33bb38097036ddd0cc127a9018858f1f4e8c6938036331ab55337bff1a2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Ποίημα",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Σήκω και αγαλλιάσου!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
       "html_sha256": "e2a31666fe09f31edaf780250cee9646321aa02a63ea6d04b98bb9f4e49e3eaa",
       "human_reviewed": false,
@@ -3294,6 +3322,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "परिस्थितिजन्य अतिभार",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "ce6c899a0caba9eeb61e45bb88f00a501c764db9ea50343abaa63d50f4af5010",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "स्पाइरल-बाइंडिंग वाली नोटबुक और पेंसिल के पास एक कप कॉफी।",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "c71a902648c2eded6e9bf4c53efea665b4198d37788bad48adbae3ab7a6eefce",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "बहन से बहन",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "टालमटोल का बोझ",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4698,6 +4754,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "상황적 과부하",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "20c47fa6b4ff518f512312df408f1956fe4674fff5f3db128431b51a763bb8c7",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "폭풍 속 돛단배 위에 서 있는 존 뉴턴의 초상과 배경에 놓인 '어메이징 그레이스' 악보.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "폭풍구름 아래 가파른 암석 섬 주위를 휘몰아치는 어두운 파도.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "존 뉴턴, 1779년 작사, 에드윈 O. 엑셀 편곡, 1831년으로 표기된 'Amazing Grace' 악보.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "96fd941a81c8ef18a1cce74a9a154265a3638195329a8d7889d43c72f8b60f04",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HYMN HISTORY",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "어메이징 그레이스",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6167,6 +6259,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "8a5da12cf82af7f684d7fd0ad10ae6ee6c78ad1ec0d8c0d419e70340a0b9a409",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "Um homem e uma mulher caminhando juntos por um prado verde",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "Um pai e uma mãe olhando para seu bebê recém‑nascido",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "Uma família reunida diante de uma cachoeira",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "7de285dcad6c6c4ac3176463f2ec3c41de8948e1089423a1247e7b84efa88429",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRAÇÕES PARA JOVENS",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "O Plano de Deus para Masculino e Feminino",
+      "title": "Um Namoro Centrado em Cristo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "75b74db9c37f2c88b080225dda7742239b6939bb4ba3708cc5aeb41a76ca359f",
       "human_reviewed": false,
@@ -6463,6 +6591,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "f63553fd6428c1bbef97283c0d3a8bb8abfcd75c3130376402f13fd957a02d6f",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "Небольшая коричневая птица, стоящая на зелёном лугу",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "Сине‑бело‑пёстрая птица, сидящая на срезанной ветке на зелёном фоне",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "03fd0520ea9b907fd56d2e0f3f0a436fb7fdeb1d87c8cf57eefaa44143273780",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ИЗБРАННАЯ СТАТЬЯ",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "и вокруг меня звучит музыка сфер.",
+      "title": "ВСЯ ПРИРОДА ПЕЕТ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "e51d466b69d66237106174aba1d9b5860a621ca995628a18ec85920e2fbf885b",
       "human_reviewed": false,
@@ -6486,6 +6646,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Весело для всех",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "8c75c72ab7d6e3dae0afef458a22996ad74772d07cbc0d4038b2d1c4e3ae423d",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "Светящаяся лампочка внутри тёмного фонаря.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "Бабочка среди ярких полевых цветов и трав.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "4cfb80ad63948dd5994a36df2e64318f4a514243f4edbcb95e8d2e7469cfdeba",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "СЛОВО ОТ ВРАЧА",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Борьба с цинизмом",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6602,6 +6794,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "От редактора",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "b3019b779caad40e26614592fda731d589453558fa0bd87b656b513ece10279f",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "Мужчина и женщина идут вместе по зелёному лугу",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "Отец и мать смотрят на новорождённого ребёнка",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "Семья стоит вместе перед водопадом",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "02ee54d8d94c2ee85f54daafc6ca1beb2bfb153bd787ec06f3fce9e37b9529af",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ВДОХНОВЕНИЯ ДЛЯ МОЛОДЁЖИ",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "План Бога для мужчины и женщины",
+      "title": "Христианское ухаживание, сосредоточенное на Христе",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7471,6 +7699,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "5beda8b7f19b897bae0b9e7fda9dace1acec6f7d07c3e553799c47e9ab40c78e",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "Kikombe cha kahawa kando ya daftari lenye kishikilia na penseli.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "2847d1d492e101e339993129b7973c45d098d3a03d8a4fd18717aa19bb8136ef",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DADA KWA DADA",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kuzidiwa na Kuwachelewesha",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "7a8b4ed16913980116945ff6d372631f75df81b0598d3e73b8b4e2800666d4ce",
       "human_reviewed": false,
@@ -8119,6 +8375,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "5b49c9648489412b7969b983bc29288ca8091081f19f33d66ef3ab7dd78a4b0a",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "جان نیوٹن کا پورٹریٹ جس کے پیچھے طوفان میں ایک جہاز اور پس منظر میں 'حیرت انگیز فضل' کا شیٹ میوزک دکھایا گیا ہے۔",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "طوفانی بادلوں کے نیچے ایک تیز چٹانی جزیرے کے ارد گرد تاریک لہریں۔",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "'حیرت انگیز فضل' کے شیٹ میوزک، جس کا کریڈٹ جان نیوٹن، 1779، اور ترتیب ایڈوِن او۔ ایکسل، 1831 کو دیا گیا ہے۔",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "440a89f88d298a6c2ac90ace7915bb46abcef317aa5639080e947efab87e35eb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "نغمۂ حمد کی تاریخ",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "حیرت انگیز فضل",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
       "html_sha256": "ed34304a88739c2713842178b23c672b2fa030313371b44940c1a734e98e98d7",
       "human_reviewed": false,
@@ -8230,6 +8522,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "ایک بگاڑے ہوئے معاشرے میں اخلاقی طور پر پاک",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "6c95c4c9593951dc259339d0a19f2fb379659e3b796c860128b60316ff8b653c",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "مٹی سے ابھرتے ہوئے پودے کی بیجوں کا سلسلہ جبکہ ایک ہاتھ انہیں پانی دیتا ہے",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "8306e6c78525325899fa9ca0adbb99b3a15425a08e3c80b3288fbd9f4de56de2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ایک مبلغ کے خیالات",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "عیسائی ہیومنسٹ",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

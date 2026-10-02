@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "657375826f9943d1bc54396e5060aa9e",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -62,24 +61,29 @@
         },
         "total_tokens": 14501
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "Paragraph quoting Ecclesiastes 4:13 (near header \"Цинизм в Библии\")",
-      "severity": "major",
-      "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
-      "suggested_fix": "Translate the quoted verse faithfully into Russian preserving the meaning and verse reference. A correct, idiomatic rendering would be: «Лучше бедный и мудрый сын, нежели старый и глупый царь, который уже не будет наставлен; ибо он выходит из темницы на царствование, а тот, кто родился в его царстве, станет бедным» (Екклесиаст 4:13). Replace the existing sentence with this version, keeping the verse number unchanged and preserving the same HTML structure and tags.",
-      "translation_quote": "«Лучшее от двух худо — бедный и разумный сын, нежели старый и неразумный царь, который уже не будет наставлен; ибо он из темницы выйдет на царствование, а тот, кто рожден в царстве его, сделается бедным» (Екклесиаст 4:13)."
     },
     {
-      "location": "Paragraph quoting 2 Timothy 4:3 (near header \"Цинизм в Библии\")",
-      "severity": "minor",
-      "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
-      "suggested_fix": "Fix a small typographical error in the Russian translation: change «Ибость настанет время, когда... » to the correct conjunction «Ибо настанет время, когда...». Keep the rest of the translated verse as is and retain the verse reference (2 Тимофею 4:3).",
-      "translation_quote": "«Ибость настанет время, когда здравого учения не стерпят, но по своим похотям соберут себе учителей, почесывающих уши» (2 Тимофею 4:3)."
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 601,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9134,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9735
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T10:00:49+00:00",
   "id": "dd650daf5188331c8dae6cf9dbeb0d0a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -123,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 99,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b5b1f4feba0e363a96d3ad7b563e07686d3ab579326790efb2df52651280f0ba.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

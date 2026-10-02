@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "657375826f9943d1bc54396e5060aa9e",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -62,24 +61,44 @@
         },
         "total_tokens": 11740
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1105,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7260,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8365
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>...This hymn is estimated to be performed 10 million times annually. It has appeared on over 11,000 albums and translated into about 60 languages.</p>",
-      "severity": "major",
-      "source_quote": "It has appeared on over 11,000 albums",
-      "suggested_fix": "Correct the numeric magnitude in the Urdu translation to match the English source: replace \"ایک ہزار سے زائد البمز\" with \"گیارہ ہزار سے زائد البمز\" (or \"11,000+ البمز\") so the figure equals the source's \"over 11,000 albums.\" Preserve the surrounding Urdu sentence structure.",
-      "translation_quote": "یہ ایک ہزار سے زائد البمز پر شائع ہوا ہے اور تقریباً 60 زبانوں میں ترجمہ کیا گیا ہے۔"
+      "location": "Paragraph beginning \"In 1788, 34 years after he left the slave trade, He wrote a book entitled...\" (English) / corresponding Urdu paragraph beginning \"1788 میں، غلامی کے کاروبار کو چھوڑنے کے 34 سال بعد...\"",
+      "severity": "minor",
+      "source_quote": "He wrote a book entitled Thoughts Upon the African Slave Trade and sent it to all the members of parliament. This book brought an awareness to the public of the evils of the slave trade. He quotes this, \"Needless to say, the capturing, selling and transporting of black slaves ... was a cruel and vicious way of life.\"",
+      "suggested_fix": "Change the Urdu verb person/number to match the singular subject (John Newton). Replace \"وہ یہ اقتباس پیش کرتے ہیں\" with a singular form such as \"اس نے یہ اقتباس پیش کیا\" or \"اس نے لکھا\":\n\nSuggested Urdu: \"اس نے یہ اقتباس پیش کیا، 'بلا شبہ...'\"",
+      "translation_quote": "\"وہ یہ اقتباس پیش کرتے ہیں، \\\"بلا شبہ، سیاہ فام غلاموں کا پکڑا جانا...\\\"\""
     },
     {
-      "location": "<p>...In 1910, Edwin O. Excell added the last verse, which eventually replaced the last three original verses of the song.</p>",
+      "location": "Paragraph about Olney Hymns beginning \"John Newton often composed a hymn to go with his Sunday evening services.\" / Urdu paragraph beginning \"جان نیوٹن اکثر اپنی اتوار کی شام کی عبادت کے ساتھ ایک نظم ملا کر کہتے۔\"",
       "severity": "minor",
-      "source_quote": "Edwin O. Excell",
-      "suggested_fix": "Use a more standard Urdu transliteration of the name to match common references. Suggested change: replace \"ایڈون او۔ ایکسل\" with \"ایڈوِن او۔ ایکسل\" or \"ایڈون او۔ ایکسل (Edwin O. Excell)\" — keep the Latin-script name in parentheses only if the site style prefers it. Do not alter the fact that he added the verse in 1910.",
-      "translation_quote": "1910 میں، ایڈون او۔ ایکسل نے آخری بند شامل کیا، جس نے آخر کار گانے کے اصل تین آخری بندوں کی جگہ لے لی۔"
+      "source_quote": "John Newton often composed a hymn to go with his Sunday evening services. In 1779, 280 of these were collected and combined with 68 hymns by Newton’s friend and parishioner, William Cowper, and published as the Olney Hymns.",
+      "suggested_fix": "The Urdu rendering is awkward and slightly alters meaning. Render it to clearly convey that he composed hymns to accompany the Sunday evening services. For example: replace \"جان نیوٹن اکثر اپنی اتوار کی شام کی عبادت کے ساتھ ایک نظم ملا کر کہتے۔\" with:\n\nSuggested Urdu: \"جان نیوٹن اکثر اپنی اتوار کی شام کی عبادتوں کے لئے ایک نظم ترتیب دیتے تھے۔ 1779 میں ان میں سے 280 کو...\"",
+      "translation_quote": "\"جان نیوٹن اکثر اپنی اتوار کی شام کی عبادت کے ساتھ ایک نظم ملا کر کہتے۔ 1779 میں، ان میں سے 280 کو جمع کیا گیا...\""
     }
   ],
+  "finished_at": "2026-10-02T10:00:49+00:00",
   "id": "0034c7f03bbb8216fb7afd456a80d056",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "urd",
@@ -123,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3d35b8ecb8588b577294153c640355e7c22d4cbaa8d848483b220de12a351788.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

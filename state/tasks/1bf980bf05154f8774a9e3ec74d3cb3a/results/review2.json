@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "459da3cf-c395-460d-adc8-84bff4e8ca54",
+    "response_id": "chatcmpl-EUUJQyi07rF5hEO1lDGuz9F3RZCFA",
+    "usage": {
+      "completion_tokens": 1444,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4772
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"The fall webworms had been at work...\" (source paragraph describing woods smells)",
+        "severity": "major",
+        "source_quote": "And soon those too had faded leaving behind the musky smell of the woods.",
+        "suggested_fix": "ترجم عبارة \"the musky smell of the woods\" إلى تعبير عربي ينقل الحاسة بسهولة ودون تغيير المعنى، مثل: «ثم تلاشت أيضاً تاركة وراءها رائحة الخشب العطر (رائحة الغابة المميزة)» أو ببساطة «رائحة الغابة المُسْتَحَبّة» بحسب الأسلوب. لا تستخدم \"عفنة\" لأن ذلك يغيّر المعنى إلى رائحة فساد.",
+        "translation_quote": "وسرعان ما تلاشت هي أيضاً تاركة وراءها رائحة الخشب العفنة."
+      },
+      {
+        "location": "Paragraph beginning \"Quickly, Jamin’s strong arms pried open the jaws.\"",
+        "severity": "major",
+        "source_quote": "Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.",
+        "suggested_fix": "الجملة يجب أن تُظهر أن ذراعي جامين فتحا فكي المصيدة بقوّة، وأدى ذلك إلى إطلاق كيني. اقترح ترجمة مباشرة وواضحة مثل: «بسرعة، بذل جامين كل قوته وفتح فكّي المصيدة. انتُزع كيني من المصيدة وارتعد وهو يتحرّر.»",
+        "translation_quote": "سرعة جردت ذراعا جامين القويتان الفكين. انتفض كيني وابتعد."
+      },
+      {
+        "location": "Paragraph with Kenny's reply about walking (sentence beginning \"Yes. I think so. If you support me, I can hobble along.\")",
+        "severity": "minor",
+        "source_quote": "Yes. I think so. If you support me, I can hobble along.",
+        "suggested_fix": "كلمة «التقهقر» في الترجمة لا تنقل معنى 'hobble' (يمشي معتمداً على الدعم بسبب الإصابة). استبدلها بترجمة ملائمة مثل: «نعم. أعتقد ذلك. إذا دعمتني أستطيع أن أعرج معك.» أو «أستطيع أن أمشي معك متعثراً إذا دعمتني.»",
+        "translation_quote": "«نعم. أعتقد ذلك. إذا دعمتني أستطيع التقهقر معك.»"
+      },
+      {
+        "location": "Paragraph beginning \"There was a chill in the air as he tramped up over the lawn...\"",
+        "severity": "minor",
+        "source_quote": "There was a chill in the air as he tramped up over the lawn, and the sun was growing old as he crossed the border of the woods.",
+        "suggested_fix": "ترجمة \"tramped up over the lawn\" إلى العربية الحالية تبدو غير طبيعية. اقترح: «كان الهواء بارداً وهو يشق طريقه عبر العشب»، أو «كان يخطو عبر العشب بخطوات ثقيلة» ليكون أكثر سلاسة ووضوحاً.",
+        "translation_quote": "كان الهواء بارداً قليلاً وهو يخوض فوق العشب، وكانت الشمس تضعف حين عبر حدود الغابة."
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

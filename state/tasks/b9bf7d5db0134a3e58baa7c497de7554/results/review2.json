@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c8984f86-7fae-46af-84a0-09b3570e78a9",
+    "response_id": "chatcmpl-EUUKRC80gGTkZkc0OUKKNiPY9orIK",
+    "usage": {
+      "completion_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3377,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4371
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“... והענישו ihn בכל פעם שנתפסו שומעים אחד מנאומיו.</p>",
+        "severity": "critical",
+        "source_quote": "\"But Kenny had a way of avoiding earshot. So he continued mocking Jamin.\"",
+        "suggested_fix": "Remove the stray untranslated German token and render the full sentence in Hebrew. Example replacement (preserving HTML structure): <p>\"אבא ואמא לא אהבו את הדיבור הגאוותני של קני, והענישו אותו בכל פעם שנתפסו שומעים אחד מנאומיו.\"</p>",
+        "translation_quote": "\"אבא ואמא לא אהבו את הדיבור הגאוותני של קני, והענישו ihn בכל פעם שנתפסו שומעים אחד מנאומיו.\""
+      },
+      {
+        "location": "<p>“ג׳אמין היה חרש. סבתא אוטו נדנדה עוד קצת, ואז חייכה.</p>",
+        "severity": "major",
+        "source_quote": "\"Jamin was silent. Grandma Otto rocked some more, then smiled.\"",
+        "suggested_fix": "Correct the mistranslation of 'silent' (quiet/was silent) — the Hebrew word used ('חרש') means 'deaf' and changes the meaning. Suggested replacement preserving tags: <p>\"ג׳אמין היה אילם. סבתא אוטו נדנדה עוד קצת, ואז חייכה.\"</p>",
+        "translation_quote": "\"ג׳אמין היה חרש. סבתא אוטו נדנדה עוד קצת, ואז חייכה.\""
+      },
+      {
+        "location": "<p class=\"drop-cap\">ג׳אמין בן השמונה לא היה מאוד חכם. ...</p>",
+        "severity": "minor",
+        "source_quote": "\"Jamin, you will never be smart\", Kenny said.",
+        "suggested_fix": "Correct a small orthographic error in the verb 'תהייה' to the standard spelling 'תהיה'. Suggested replacement (preserve tags): <p class=\"drop-cap\">ג׳אמין בן השמונה לא היה מאוד חכם. או לפחות כך אחיו המבוגר סיפר לו. כמעט מדי יום קני מצא דרכים להזכיר לג׳אמין את חסרונותיו ולצחוק על טעותיו.</p>\n\nIn the sentence: \"ג׳אמין, אתה לעולם לא תהיה חכם\", אמר קני.",
+        "translation_quote": "\"ג׳אמין, אתה לעולם לא תהייה חכם\", אמר קני."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e0f5bfe0-4c35-43cc-a4b0-5e1cc02d8fc7",
+    "response_id": "chatcmpl-EUUJZLCMmwR3TWItBI1srZgDuFspw",
+    "usage": {
+      "completion_tokens": 1105,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8365
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"In 1788, 34 years after he left the slave trade, He wrote a book entitled...\" (English) / corresponding Urdu paragraph beginning \"1788 میں، غلامی کے کاروبار کو چھوڑنے کے 34 سال بعد...\"",
+        "severity": "minor",
+        "source_quote": "He wrote a book entitled Thoughts Upon the African Slave Trade and sent it to all the members of parliament. This book brought an awareness to the public of the evils of the slave trade. He quotes this, \"Needless to say, the capturing, selling and transporting of black slaves ... was a cruel and vicious way of life.\"",
+        "suggested_fix": "Change the Urdu verb person/number to match the singular subject (John Newton). Replace \"وہ یہ اقتباس پیش کرتے ہیں\" with a singular form such as \"اس نے یہ اقتباس پیش کیا\" or \"اس نے لکھا\":\n\nSuggested Urdu: \"اس نے یہ اقتباس پیش کیا، 'بلا شبہ...'\"",
+        "translation_quote": "\"وہ یہ اقتباس پیش کرتے ہیں، \\\"بلا شبہ، سیاہ فام غلاموں کا پکڑا جانا...\\\"\""
+      },
+      {
+        "location": "Paragraph about Olney Hymns beginning \"John Newton often composed a hymn to go with his Sunday evening services.\" / Urdu paragraph beginning \"جان نیوٹن اکثر اپنی اتوار کی شام کی عبادت کے ساتھ ایک نظم ملا کر کہتے۔\"",
+        "severity": "minor",
+        "source_quote": "John Newton often composed a hymn to go with his Sunday evening services. In 1779, 280 of these were collected and combined with 68 hymns by Newton’s friend and parishioner, William Cowper, and published as the Olney Hymns.",
+        "suggested_fix": "The Urdu rendering is awkward and slightly alters meaning. Render it to clearly convey that he composed hymns to accompany the Sunday evening services. For example: replace \"جان نیوٹن اکثر اپنی اتوار کی شام کی عبادت کے ساتھ ایک نظم ملا کر کہتے۔\" with:\n\nSuggested Urdu: \"جان نیوٹن اکثر اپنی اتوار کی شام کی عبادتوں کے لئے ایک نظم ترتیب دیتے تھے۔ 1779 میں ان میں سے 280 کو...\"",
+        "translation_quote": "\"جان نیوٹن اکثر اپنی اتوار کی شام کی عبادت کے ساتھ ایک نظم ملا کر کہتے۔ 1779 میں، ان میں سے 280 کو جمع کیا گیا...\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

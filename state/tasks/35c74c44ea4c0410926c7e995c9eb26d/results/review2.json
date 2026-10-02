@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8ba1016f-1d16-4cb5-b94b-bdd1d5a4baaf",
+    "response_id": "chatcmpl-EUUJSaoOpNqGKivXbqs96MBrzWr1j",
+    "usage": {
+      "completion_tokens": 1485,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5688
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”</p>",
+        "severity": "major",
+        "source_quote": "“I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+        "suggested_fix": "Replace the mistranslation that reads נָפוּחַ בְּפֶה with a correct rendering of “yawning.” For example: \"התרגשתי כששמעתי אותו מפהק באמצע הלילה וידעתי שהוא אינו ישן.\" Preserve the surrounding HTML and punctuation.",
+        "translation_quote": "\"התעוררה בי דאגה כששמתי לב שהוא נפוח בפה באמצע הלילה וידעתי שהוא לא ישן.\""
+      },
+      {
+        "location": "<p>Ask Him for direction and wisdom. And say with the Psalmist, “In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).</p>",
+        "severity": "critical",
+        "source_quote": "\"In thee, O LORD, do I put my trust: let me never be put to confusion\" (Psalm 71:1).",
+        "suggested_fix": "The Hebrew rendering appears to be incorrect and does not faithfully convey the quoted Scripture. Replace the current line with a faithful Hebrew translation that preserves the printed meaning of Psalm 71:1 and includes the reference. For example: \"אֵלִי בְּךָ בָּטַחְתִּי; אַל־אוֹסְפֵנִי לְבֹשָׁה לְעוֹלָם\" (תהלים 71:1) — or another conventional target-language form that accurately reflects the printed English quotation. Preserve the quotation marks and the Scripture reference placement in the same paragraph and HTML.",
+        "translation_quote": "\"אֵלִי בְּךָ בָטַחְתִּי; אַל־אֶבָּשׁ לְעוֹלָם\" (תהלים 71:1)."
+      },
+      {
+        "location": "<p>Intentionally seek a breather</p><p>Lingering stress can cause agitation, moodiness, and the desire to take control. Sometimes it is hard to think beyond mental fog, but it is so important to find refreshment for your mental wellbeing. Stress hormones can speed up your heart rate and tighten your blood vessels. That temporarily raises your blood pressure. The opposite happens when you relax. Being relaxed helps you have a calmer, clearer mind which improves your concentration and decision-making.</p>",
+        "severity": "minor",
+        "source_quote": "\"Stress hormones can speed up your heart rate and tighten your blood vessels.\"",
+        "suggested_fix": "Fix the verb used for “tighten your blood vessels” — the translation uses הצמיע (to cause to sprout). Use a verb that means tighten/constrict, for example: \"הורמוני לחץ יכולים להאיץ את קצב לבכם ולהצר את כלי הדם שלכם.\" Preserve paragraph and sentence order.",
+        "translation_quote": "\"הורמוני לחץ יכולים להאיץ את קצב הלב שלכם ולהצמיע את כלי הדם.\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

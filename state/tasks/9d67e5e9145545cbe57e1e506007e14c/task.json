@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "657375826f9943d1bc54396e5060aa9e",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -62,31 +61,52 @@
         },
         "total_tokens": 7914
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1457,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4466,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5923
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<article> paragraph: “In time the mess was cleaned up, and Rick looked into rebuilding.”",
+      "location": "<p>“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria. That night he came home and wept. ‘Doesn’t anyone understand what I’m going through? Every time I turn around, there is something to do. The boys want to go fishing, you need a new clothesline, and the chicken house needs to be finished in six months! I am not mentally capable of handling one more duty.’”</p>",
       "severity": "major",
-      "source_quote": "“In time the mess was cleaned up, and Rick looked into rebuilding.”",
-      "suggested_fix": "Translate the sentence to convey that the disorder/debris was removed and Rick investigated rebuilding. Example replacement within the same paragraph tags: “সময়ক্রমে বিশৃঙ্খলা পরিষ্কার করা হল, এবং রিক পুনর্নির্মাণের বিষয়টি খতিয়ে দেখল।”",
-      "translation_quote": "“সময়ক্রমে কাচাছোঁয়া পরিষ্কার করা হল, এবং রিক পুনর্নির্মাণের বিষয়ে দেখাশোনা করল।”"
+      "source_quote": "“...The boys want to go fishing, you need a new clothesline, and the chicken house needs to be finished in six months! I am not mentally capable of handling one more duty.”",
+      "suggested_fix": "Translate 'you need a new clothesline' to a correct Bangla expression for clothesline, preserving the second-person address and informal register. For example: “ছেলেরা মাছ ধরতে যেতে চায়, তোমার একটি নতুন কাপড়তরবার দরকার, এবং মুরগির ঘর ছয় মাসের মধ্যে শেষ করতে হবে! আমি আর একটাও দায়িত্ব সামলানোর মানসিক সক্ষমতা রাখি না।” Ensure HTML paragraph tags remain unchanged.",
+      "translation_quote": "‘ছেলেরা মাছ ধরতে যেতে চায়, তোমার নতুন কাপড়সঙ্কোচ লাগে, এবং মুরগির ঘর ছয় মাসের মধ্যে শেষ করতে হবে! আমি আর একটাও দায়িত্ব মেনে নেওয়ার মানসিক সক্ষমতা নেই।’”"
     },
     {
-      "location": "<article> paragraph: “I first felt the adjustment in my wallet, but I consoled myself that this was only temporary.”",
+      "location": "<h2>Believe that God cares</h2>\n  <p>Say it. Read the Psalms over and over. Listen to good music. Take short walks and pray aloud. Keep your eyes on Jesus. Believe “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).</p>",
       "severity": "major",
-      "source_quote": "“I first felt the adjustment in my wallet, but I consoled myself that this was only temporary.”",
-      "suggested_fix": "Restore the concrete meaning of ‘wallet’ (financial impact). Replace the translation with wording that clearly denotes financial strain on the wallet. Example: “প্রথমে আমি এই পরিবর্তনটি আমার পয়সাপয়সিতে অনুভব করলাম, কিন্তু নিজেকে সান্ত্বনা দিলাম যে এটা কেবল অস্থায়ী।”",
-      "translation_quote": "“আমি প্রথম পরিবর্তনটি আমার কাগজপত্রে অনুভব করলাম, কিন্তু আমি নিজেকে সান্ত্বনা দিলাম যে এটা কেবল অস্থায়ী।”"
+      "source_quote": "Read the Psalms over and over.",
+      "suggested_fix": "The English refers specifically to 'the Psalms' (i.e., the biblical Book of Psalms). The translation must render that explicitly and naturally in Bangla (e.g., 'মহাপরিসন্না/কিংবা সম্মানসহকভাবে' is incorrect). Replace the current sentence with a faithful translation such as: “(এটি) বলুন। জবুরগ্রন্থ (Psalms) বারবার পড়ুন।” or more idiomatically: “বলুন। জবুরগ্রন্থ বারবার পড়ুন।” Keep the surrounding HTML unchanged.",
+      "translation_quote": "“এটা বলুন। ভঙ্গিমা নিয়ে মহোপদেশগুলি বারবার পড়ুন।”"
     },
     {
-      "location": "<article> paragraph: “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
-      "severity": "major",
-      "source_quote": "“I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
-      "suggested_fix": "Translate ‘yawning’ and the implication of sleeplessness accurately. Suggested replacement: “আমি সতর্ক হয়ে উঠলাম যখন রাতে তাকে হাই করে হাঁপাতে/জম্ভাই নিতে শুনলাম এবং বুঝলাম যে সে ঘুমাচ্ছে না।” (Better: “রাতে তার জম্ভাই নেবার শব্দ শুনে আমি চিন্তিত হয়ে পড়লাম এবং জানলাম যে সে ঘুমাচ্ছে না।” )",
-      "translation_quote": "“আমি সতর্ক হয়ে পড়েছিলাম যখন রাতে তাকে জ্বর ধরে কাশতে শুনলাম এবং জেনেছি তিনি ঘুমাচ্ছেন না।”"
+      "location": "<p>Ask Him for direction and wisdom. And say with the Psalmist, “In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).</p>",
+      "severity": "minor",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "The current translation is awkward and does not clearly convey the original sentence structure. Render the verse in natural, faithful Bangla while preserving citation and the quoted nature. Suggested replacement: “তাঁর প্রতি, হে প্রভু, আমি ভরসা স্থাপন করি; আমাকে লজ্জায় ফেলিও না।” or more smoothly: “হে প্রভু, আমি তোরই আশ্রয় নিলাম; আমাকে লজ্জায় ফেলিও না।” Keep the quotation marks and (Psalm 71:1) reference intact and in the same place.",
+      "translation_quote": "“রব তোমারই, যে তুমি, আমার ভরসা; আমাকে লজ্জায় ফেলিও না” (Psalm 71:1)।"
     }
   ],
+  "finished_at": "2026-10-02T10:00:49+00:00",
   "id": "9d67e5e9145545cbe57e1e506007e14c",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -130,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/289d41b17be72586f8c3c3323ad5f6ee801087e516c96b1c160fddd9a03cdf52.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

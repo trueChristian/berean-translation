@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ab6a09fc-4e23-4dfb-b7bd-e589c5824f06",
+    "response_id": "chatcmpl-EUUJVYF8C9F6bryc6LnFMdy8e7t2A",
+    "usage": {
+      "completion_tokens": 1032,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6707,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7739
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning: \"Подойдите к гнезду ласточки — и вы обнаружите...\" (section of bird examples)",
+        "severity": "minor",
+        "source_quote": "The killdeer also has no qualms with expressing rash disfavor to those who intrude their domain, but these are not to be mistaken as songs.",
+        "suggested_fix": "Translate or transliterate the bird name consistently into Russian and remove the English in parentheses. For example: «Птица килдир также без колебаний выражает резкое недовольство тем, кто вторгается в её владения…» (omit \"(killdeer)\") or replace with a conventional Russian name if available.",
+        "translation_quote": "Птица килдир (killdeer) также без колебаний выражает резкое недовольство тем, кто вторгается в её владения, но это не путать с песнями."
+      },
+      {
+        "location": "Paragraph beginning: \"Пренебрежение. Птица cowbird (cowbird) тоже тёмная...\"",
+        "severity": "minor",
+        "source_quote": "The cowbird is also black (the female is brown/gray). She will be found sitting on a high vantage, shamelessly calling to her lovers by her shrill screeching.",
+        "suggested_fix": "Translate or transliterate the species name into Russian and remove the redundant English parentheses. For example: «Птица кавберд также тёмная (самка — коричнево‑серая).» or use a conventional Russian common name if one exists, but do not leave the English \"cowbird\" in parentheses.",
+        "translation_quote": "Птица cowbird (cowbird) тоже тёмная (самка — коричнево‑серая)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

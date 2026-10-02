@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "657375826f9943d1bc54396e5060aa9e",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -62,38 +61,59 @@
         },
         "total_tokens": 5758
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1444,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3328,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4772
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.title / translation.title",
-      "severity": "minor",
-      "source_quote": "Jamin Smartens Up",
-      "suggested_fix": "Use a correct, natural Arabic comparative form and correct spelling. For example: \"جامين يصبح أذكى\" — replace the current title with this spelling and form.",
-      "translation_quote": "جامين يصبح أذكی"
-    },
-    {
-      "location": "<p> paragraph beginning \"He went to check his coyote traps...\" / corresponding translation paragraph",
+      "location": "Paragraph beginning \"The fall webworms had been at work...\" (source paragraph describing woods smells)",
       "severity": "major",
-      "source_quote": "He went to check his coyote traps.",
-      "suggested_fix": "Translate \"coyote traps\" accurately. Use the conventional Arabic name for coyotes (like «مصايده للكوْيوت» or «مصايده للذئب الأمريكي/الابنِ آوى» depending on house style). For example: \"ذهب ليتفقد مصايده للكوْيوت.\" Do not render coyotes as generic \"ذئاب.\"",
-      "translation_quote": "«ذهب ليفحص مصايده للذئاب. سأذهب لأجده.»"
+      "source_quote": "And soon those too had faded leaving behind the musky smell of the woods.",
+      "suggested_fix": "ترجم عبارة \"the musky smell of the woods\" إلى تعبير عربي ينقل الحاسة بسهولة ودون تغيير المعنى، مثل: «ثم تلاشت أيضاً تاركة وراءها رائحة الخشب العطر (رائحة الغابة المميزة)» أو ببساطة «رائحة الغابة المُسْتَحَبّة» بحسب الأسلوب. لا تستخدم \"عفنة\" لأن ذلك يغيّر المعنى إلى رائحة فساد.",
+      "translation_quote": "وسرعان ما تلاشت هي أيضاً تاركة وراءها رائحة الخشب العفنة."
     },
     {
-      "location": "<p> paragraph beginning \"Sure enough, as the brothers hobbled back...\" / corresponding translation paragraph",
+      "location": "Paragraph beginning \"Quickly, Jamin’s strong arms pried open the jaws.\"",
       "severity": "major",
-      "source_quote": "Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.",
-      "suggested_fix": "Clarify the subject and sequence to match the English: Jamin calls back, the father arrives immediately, sees Kenny's ankle, and scoops up Kenny like a hurt sheep. For example: \"نادى جامين، فحضر والده في الحال إلى جانبهما، فرأى الكاحل وحمل كيني مثل خروف جريح.\" Replace the current garbled sentence with this corrected rendering while preserving surrounding HTML.",
-      "translation_quote": "نادى جامين، وكان بجانبه في لحظة، ورأى الكاحل وحمله كيني كخروف جريح."
+      "source_quote": "Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.",
+      "suggested_fix": "الجملة يجب أن تُظهر أن ذراعي جامين فتحا فكي المصيدة بقوّة، وأدى ذلك إلى إطلاق كيني. اقترح ترجمة مباشرة وواضحة مثل: «بسرعة، بذل جامين كل قوته وفتح فكّي المصيدة. انتُزع كيني من المصيدة وارتعد وهو يتحرّر.»",
+      "translation_quote": "سرعة جردت ذراعا جامين القويتان الفكين. انتفض كيني وابتعد."
     },
     {
-      "location": "<p> paragraph beginning \"The fall webworms had been at work...\" / corresponding translation paragraph",
+      "location": "Paragraph with Kenny's reply about walking (sentence beginning \"Yes. I think so. If you support me, I can hobble along.\")",
       "severity": "minor",
-      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
-      "suggested_fix": "Use the correct plural form and a natural phrasing in Arabic. For example: \"كانت يرَقات العنكبوت الحريرية الخريفية تعمل، وستائر شبكاتها تغطي الأغصان فوقهما.\" Or more simply: \"كانت يرِقات خيوط الويب الخريفية نشطة، وأغطت شبكاتها الأغصان من فوق.\" Adjust phrasing to avoid singular \"يرقة\" and to sound idiomatic.",
-      "translation_quote": "كانت يرقة خيوط الخريف تعمل، وستائر خيوطها تغطي الأغصان من فوق."
+      "source_quote": "Yes. I think so. If you support me, I can hobble along.",
+      "suggested_fix": "كلمة «التقهقر» في الترجمة لا تنقل معنى 'hobble' (يمشي معتمداً على الدعم بسبب الإصابة). استبدلها بترجمة ملائمة مثل: «نعم. أعتقد ذلك. إذا دعمتني أستطيع أن أعرج معك.» أو «أستطيع أن أمشي معك متعثراً إذا دعمتني.»",
+      "translation_quote": "«نعم. أعتقد ذلك. إذا دعمتني أستطيع التقهقر معك.»"
+    },
+    {
+      "location": "Paragraph beginning \"There was a chill in the air as he tramped up over the lawn...\"",
+      "severity": "minor",
+      "source_quote": "There was a chill in the air as he tramped up over the lawn, and the sun was growing old as he crossed the border of the woods.",
+      "suggested_fix": "ترجمة \"tramped up over the lawn\" إلى العربية الحالية تبدو غير طبيعية. اقترح: «كان الهواء بارداً وهو يشق طريقه عبر العشب»، أو «كان يخطو عبر العشب بخطوات ثقيلة» ليكون أكثر سلاسة ووضوحاً.",
+      "translation_quote": "كان الهواء بارداً قليلاً وهو يخوض فوق العشب، وكانت الشمس تضعف حين عبر حدود الغابة."
     }
   ],
+  "finished_at": "2026-10-02T10:00:49+00:00",
   "id": "1bf980bf05154f8774a9e3ec74d3cb3a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -137,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/853370defcdbd5d1a94fc7b4794f305cadbc89c966e984d797e2c26a13da644b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

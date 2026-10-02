@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a3fa7b5f-ad0a-411c-9d4f-f066cbc3b6f3",
+    "response_id": "chatcmpl-EUUJVSU4YgXXaXdMLfYJCwWINKux8",
+    "usage": {
+      "completion_tokens": 1224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7166,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8390
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning: \"How little knowledge of heaven is committed to our understanding.\" (third full paragraph after the second figure)",
+        "severity": "major",
+        "source_quote": "On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
+        "suggested_fix": "استبدال الترجمة الحالية بعبارةٍ عربية صحيحة تدل على الجملة الإنجليزية المطبوعة: «في 22 موضعًا تُكرِّر الكتب المقدّسة العبارة: ‘سَأُغَنِّي’.» (أو «: إني سأغني» إذا رغِبتَ في أسلوب معيّن). يرجى إدراج «سأغني» أو «إني سأغني» بدل «إني سأسجد» للحفاظ على معنى النص الإنجليزي الأصلي.",
+        "translation_quote": "في 22 موضعًا تُكرِّر الكتب المقدسة عبارة: إني سأسجد."
+      },
+      {
+        "location": "Paragraph beginning: \"It is the nature of the birds to sing.\" (paragraph describing different species and songs)",
+        "severity": "minor",
+        "source_quote": "The robin opens up the choir in early spring... The song of the wren trumps them all for longevity and vibrancy. The canary sings in a cage... The nightingale sings in the dark. The robins sing in the rain. The buntings fill in the heat of the day...",
+        "suggested_fix": "راجع أسماء الطيور وترجماتها لتطابق المعنى البيولوجي أو الأسماء الشائعة الدقيقة بالعربية. أمثلة اقتراحية: استبدال «الدرداح» بـ«الطائر الدخّان/الطائر أحمر الصدر (robin)» بحسب سياق اللهجة العلمية، واستبدال «الصفار» بـ«الوشقّ/الطائر الصغير (wren)» أو استخدام «العُصفور المغنّي/العصفور المغنّي الصغير» لتقريب المعنى. احتفظ بباقي الوصف (الكناري، العندليب، الطيور الملونة/buntings) ولكن صحح الموافقات الاسمية إن لزم.",
+        "translation_quote": "الدرداح يفتح الجوقة في أوائل الربيع، لكن أغنيته سرعان ما تُطغى بجمالها من قبل العصفور المغني ومرة أخرى من قبل طائر الصدر الوردي. أغنية الصفار تتفوق عليهم جميعًا من حيث طول العمر والحيوية. الكناري يغنّي في القفص، بينما العندليب يغنّي في الظلام. الدردة تغنّي في المطر. الطيور الملونة تملأ حرّ النهار حين يسكت الآخرون."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

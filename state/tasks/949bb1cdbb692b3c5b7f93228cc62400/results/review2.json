@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "222b4a6d-a3e6-437b-a075-6ae7ad2ccb7b",
+    "response_id": "chatcmpl-EUUJJ26eRQbSUKBp7yTH3rCNsfRmF",
+    "usage": {
+      "completion_tokens": 1395,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4904
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> paragraph 3 (English source): \"Seasoned grandfathers who bring words of admonishment to the younger generation.\"",
+        "severity": "major",
+        "source_quote": "Seasoned grandfathers who bring words of admonishment to the younger generation.",
+        "suggested_fix": "Translate the phrase to convey \"experienced grandfathers who bring words of admonishment to the younger generation.\" in Bengali without adding or changing meaning. For example: \"অভিজ্ঞ দাদা-ঠাকুরারা, যারা তরুণ প্রজন্মকে উপদেশমূলক কথা বলবে।\" Preserve the surrounding HTML tags and structure.",
+        "translation_quote": "অভিজ্ঞ দাদা-ঠাকুরারা, যারা তরুণ প্রেসবিটারের কাছে উপদেশের কথাগুলো নিয়ে আসবে।"
+      },
+      {
+        "location": "<p> paragraph 5 (English source): \"We attempted to present the facts as clearly as possible and let the readers draw their own conclusions.\"",
+        "severity": "minor",
+        "source_quote": "We attempted to present the facts as clearly as possible and let the readers draw their own conclusions.",
+        "suggested_fix": "Remove the unintended hedge \"সম্ভবত\" which weakens the original certainty. A closer Bengali rendering: \"আমরা তথ্যগুলো যতটা সম্ভব পরিষ্কারভাবে উপস্থাপন করার চেষ্টা করেছি এবং পাঠকদের নিজেদের সিদ্ধান্ত নেওয়ার সুযোগ দিয়েছি।\"",
+        "translation_quote": "আমরা সম্ভবত যে-তথ্যগুলি সবচেয়ে পরিষ্কারভাবে উপস্থাপন করতে পারি তা উপস্থাপন করার চেষ্টা করেছি এবং পাঠকদের নিজেদের সিদ্ধান্ত নেওয়ার সুযোগ দিয়েছি।"
+      },
+      {
+        "location": "<p> paragraph 3 (English source): last sentence of that paragraph: \"...and through the power of the written word, transmit those thoughts to your hearts.\"",
+        "severity": "minor",
+        "source_quote": "transmit those thoughts to your hearts.",
+        "suggested_fix": "Change the awkward/incorrect Bengali \"বিষয়ান্তরে পৌঁছে দিতে\" to a clear, literal rendering such as \"আপনার হৃদয়ে পৌঁছে দিতে।\" so the meaning matches the source exactly.",
+        "translation_quote": "লিখিত শব্দের শক্তির মাধ্যমে সেই চিন্তাগুলো আপনার হৃদয়ে বিষয়ান্তরে পৌঁছে দিতে।"
+      },
+      {
+        "location": "Throughout (several occurrences) — organization and publication names (e.g., \"The Berean Voice\", \"Christian Aid Ministries\")",
+        "severity": "minor",
+        "source_quote": "The Berean Voice\nChristian Aid Ministries",
+        "suggested_fix": "Decide on consistent treatment of publication/organization names. Either leave as original English proper names (acceptable) or render them in Bengali script consistently. If choosing to translate, render once where first mentioned and thereafter keep the translated form. Example for The Berean Voice: \"দ্য বেরিয়ান ভয়েস (The Berean Voice)\" or simply \"The Berean Voice\" in Bengali script if preferred. Ensure this change is stylistic and preserves meaning; it's not doctrinal.",
+        "translation_quote": "The Berean Voice\nChristian Aid Ministries"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

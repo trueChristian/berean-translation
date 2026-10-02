@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b80b6eff-8f83-4e0e-a458-879c78ff2ca6",
+    "response_id": "chatcmpl-EUUKH5Z4UoB15mCB09JeeiogRHNkX",
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12618,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13443
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first <h2> heading",
+        "severity": "major",
+        "source_quote": "<h2>Introduction</h2>",
+        "suggested_fix": "Translate the heading into Swedish and preserve the tag and position. For example: <h2>Introduktion</h2>",
+        "translation_quote": "<h2>Introduction</h2>"
+      },
+      {
+        "location": "source.html — opening <p class=\"article-note\"> (publication name)",
+        "severity": "minor",
+        "source_quote": "...After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet...",
+        "suggested_fix": "Translate the publication title into Swedish or render it consistently as translated article prose while preserving the surrounding <em> tags. For example: replace The Heartbeat of the Remnant with its Swedish rendering (e.g., <em>Remnantens Hjärtats Slag</em>) if an established Swedish title exists, or otherwise translate into neutral Swedish within the same <em> tags.",
+        "translation_quote": "<em>The Heartbeat of the Remnant</em>"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

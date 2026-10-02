@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ecf04166-5cea-4c93-a194-83f6e8997335",
+    "response_id": "chatcmpl-EUUJJ7kJoLiT9lRvaW9WmiFq3kmi3",
+    "usage": {
+      "completion_tokens": 1650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6837,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8487
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Neglect. The cowbird is also black (the female is brown/gray).\" (English source) / corresponding translation paragraph beginning \"Försummelse. Korpfågeln är också svart (honan är brun/grå).\"",
+        "severity": "major",
+        "source_quote": "Neglect. The cowbird is also black (the female is brown/gray). She will be found sitting on a high vantage, shamelessly calling to her lovers by her shrill screeching. She then has the audacity to lay her egg in another bird’s nest, forcing them to raise her offspring.",
+        "suggested_fix": "Correct the species name so the target-language text conveys the same bird as the English source. Replace \"Korpfågeln\" with an appropriate Swedish equivalent for \"cowbird\" (for example \"kobofågeln\" is not correct; the widely used Swedish name is \"korvmes\" is also wrong). Use the conventional Swedish common name \"cowbird\" → \"koärla\" (if that is the preferred editorial choice) or \"cowbird\" translated as \"cowbird\" in italics/quotation if no conventional Swedish name is used. Ensure the parenthetical female-colour detail remains: \"(honan är brun/grå).\" Keep the rest of the paragraph unchanged. (Preserve all HTML tags and structure.)",
+        "translation_quote": "Försummelse. Korpfågeln är också svart (honan är brun/grå). Hon brukar finnas sittande på en högt utsiktställe och skamlöst kalla på sina älskare med sitt skarpa skri. Hon har sedan fräckheten att lägga sitt ägg i en annan fågels bo och tvinga dem att uppfostra hennes avkomma."
+      },
+      {
+        "location": "Paragraph mentioning \"The killdeer also has no qualms...\" (English) / translation sentence \"Vandra nära en svalas bo, och du finner att de också har sätt att uttrycka ogillande. Killdeer har heller inga samvetskval när de uttrycker häftig missnöje...\"",
+        "severity": "minor",
+        "source_quote": "Wander near the nest of a swallow and you will find that they have ways of expressing depreciation as well. The killdeer also has no qualms with expressing rash disfavor to those who intrude their domain, but these are not to be mistaken as songs.",
+        "suggested_fix": "Translate or render the species name \"killdeer\" into Swedish (for example \"killdeer\" → \"killdeer\" is an English common name; if there is a conventional Swedish name, use it, or render as an explanatory phrase such as \"killdeer (en amerikansk vadarfågel)\" so Swedish readers understand the referent). Keep the meaning that this species expresses alarm but does not sing.",
+        "translation_quote": "Vandra nära en svalas bo, och du finner att de också har sätt att uttrycka ogillande. Killdeer har heller inga samvetskval när de uttrycker häftig missnöje mot dem som tränger sig in i deras domäner, men dessa bör inte förväxlas med sånger."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

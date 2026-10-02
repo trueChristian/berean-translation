@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "657375826f9943d1bc54396e5060aa9e",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -62,24 +61,59 @@
         },
         "total_tokens": 6168
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "Paragraph 3 (the sentence beginning with '<em>The Heartbeat of the Remnant</em> is a means...')",
-      "severity": "major",
-      "source_quote": "<em>The Heartbeat of the Remnant</em> is a means to communicate inspirational thoughts to eager readers scattered across the globe.",
-      "suggested_fix": "Translate the magazine title into Bengali (or render it consistently as a translated title) and translate the surrounding clause. For example: “<em>প্রতিমাত্রার স্পন্দন</em> হলো বিশ্ব জুড়ে ছড়িয়ে থাকা আগ্রহী পাঠকদের কাছে অনুপ্রেরণাদায়ক চিন্তা পৌঁছে দেওয়ার একটি উপায়।” Preserve the <em> tags and place the translated title there.",
-      "translation_quote": "<em>The Heartbeat of the Remnant</em> হলো বিশ্ব জুড়ে ছড়িয়ে থাকা আগ্রহী পাঠকদের কাছে অনুপ্রেরণাদায়ক চিন্তা পৌঁছে দেওয়ার একটি উপায়।"
     },
     {
-      "location": "Paragraph 2 (the sentence mentioning the conference organizer)",
-      "severity": "major",
-      "source_quote": "I had the privilege of attending Christian Aid Ministries’ first Annual Writers’ Conference.",
-      "suggested_fix": "Do not change the organizational name into a descriptive phrase. Keep the proper name intact and translate the rest. For example: “আমি Christian Aid Ministries-এর (প্রথম) প্রথম বার্ষিক লেখক সম্মেলনে অংশগ্রহণ করার সৌভাগ্য পেয়েছি।” Or, if a Bengali rendering of the official name exists, use that official name consistently but do not replace it with a generic descriptor. Preserve punctuation and possessive form as appropriate.",
-      "translation_quote": "আমি খ্রিষ্টীয় এড এজেন্সি (Christian Aid Ministries)-এর প্রথম বার্ষিক লেখক সম্মেলনে অংশগ্রহণ করার সৌভাগ্য পেয়েছি।"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1395,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3509,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4904
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "<p> paragraph 3 (English source): \"Seasoned grandfathers who bring words of admonishment to the younger generation.\"",
+      "severity": "major",
+      "source_quote": "Seasoned grandfathers who bring words of admonishment to the younger generation.",
+      "suggested_fix": "Translate the phrase to convey \"experienced grandfathers who bring words of admonishment to the younger generation.\" in Bengali without adding or changing meaning. For example: \"অভিজ্ঞ দাদা-ঠাকুরারা, যারা তরুণ প্রজন্মকে উপদেশমূলক কথা বলবে।\" Preserve the surrounding HTML tags and structure.",
+      "translation_quote": "অভিজ্ঞ দাদা-ঠাকুরারা, যারা তরুণ প্রেসবিটারের কাছে উপদেশের কথাগুলো নিয়ে আসবে।"
+    },
+    {
+      "location": "<p> paragraph 5 (English source): \"We attempted to present the facts as clearly as possible and let the readers draw their own conclusions.\"",
+      "severity": "minor",
+      "source_quote": "We attempted to present the facts as clearly as possible and let the readers draw their own conclusions.",
+      "suggested_fix": "Remove the unintended hedge \"সম্ভবত\" which weakens the original certainty. A closer Bengali rendering: \"আমরা তথ্যগুলো যতটা সম্ভব পরিষ্কারভাবে উপস্থাপন করার চেষ্টা করেছি এবং পাঠকদের নিজেদের সিদ্ধান্ত নেওয়ার সুযোগ দিয়েছি।\"",
+      "translation_quote": "আমরা সম্ভবত যে-তথ্যগুলি সবচেয়ে পরিষ্কারভাবে উপস্থাপন করতে পারি তা উপস্থাপন করার চেষ্টা করেছি এবং পাঠকদের নিজেদের সিদ্ধান্ত নেওয়ার সুযোগ দিয়েছি।"
+    },
+    {
+      "location": "<p> paragraph 3 (English source): last sentence of that paragraph: \"...and through the power of the written word, transmit those thoughts to your hearts.\"",
+      "severity": "minor",
+      "source_quote": "transmit those thoughts to your hearts.",
+      "suggested_fix": "Change the awkward/incorrect Bengali \"বিষয়ান্তরে পৌঁছে দিতে\" to a clear, literal rendering such as \"আপনার হৃদয়ে পৌঁছে দিতে।\" so the meaning matches the source exactly.",
+      "translation_quote": "লিখিত শব্দের শক্তির মাধ্যমে সেই চিন্তাগুলো আপনার হৃদয়ে বিষয়ান্তরে পৌঁছে দিতে।"
+    },
+    {
+      "location": "Throughout (several occurrences) — organization and publication names (e.g., \"The Berean Voice\", \"Christian Aid Ministries\")",
+      "severity": "minor",
+      "source_quote": "The Berean Voice\nChristian Aid Ministries",
+      "suggested_fix": "Decide on consistent treatment of publication/organization names. Either leave as original English proper names (acceptable) or render them in Bengali script consistently. If choosing to translate, render once where first mentioned and thereafter keep the translated form. Example for The Berean Voice: \"দ্য বেরিয়ান ভয়েস (The Berean Voice)\" or simply \"The Berean Voice\" in Bengali script if preferred. Ensure this change is stylistic and preserves meaning; it's not doctrinal.",
+      "translation_quote": "The Berean Voice\nChristian Aid Ministries"
+    }
+  ],
+  "finished_at": "2026-10-02T10:00:49+00:00",
   "id": "949bb1cdbb692b3c5b7f93228cc62400",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -129,7 +163,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/dc6b42c2148daec66dad836ef1b98275a5ad936049229bf94a77a87891856bdc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

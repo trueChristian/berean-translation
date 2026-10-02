@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "657375826f9943d1bc54396e5060aa9e",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -62,52 +61,45 @@
         },
         "total_tokens": 11639
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1650,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6837,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8487
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "title",
-      "severity": "critical",
-      "source_quote": "ALL NATURE SINGS",
-      "suggested_fix": "Translate the English title into standard contemporary Swedish, preserving the author’s intent and theology. For example: \"ALLA NATUREN SJUNGER\" (or another idiomatic Swedish rendering that preserves the emphatic all-caps style if required by the site).",
-      "translation_quote": "ALL NATURE SINGS"
-    },
-    {
-      "location": "subtitle",
-      "severity": "critical",
-      "source_quote": "and ‘round me rings the music of the spheres.",
-      "suggested_fix": "Translate the subtitle into Swedish. Preserve the poetic sense of surrounding music. For example: \"och kring mig klingar sfärernas musik.\"",
-      "translation_quote": "and ‘round me rings the music of the spheres."
-    },
-    {
-      "location": "paragraph: \"Kristi brunn är en konstsprängd källa.\" (around John 4:14 and following paragraph)",
+      "location": "Paragraph beginning \"Neglect. The cowbird is also black (the female is brown/gray).\" (English source) / corresponding translation paragraph beginning \"Försummelse. Korpfågeln är också svart (honan är brun/grå).\"",
       "severity": "major",
-      "source_quote": "The well of Christ is an artesian well.",
-      "suggested_fix": "Correct the mistranslation to a standard Swedish term. Use \"Kristi brunn är en artesisk brunn\" or \"Kristi brunn är en artesisk källa.\" Keep subsequent theological nuance (Spirit/joy) intact.",
-      "translation_quote": "Kristi brunn är en konstsprängd källa."
+      "source_quote": "Neglect. The cowbird is also black (the female is brown/gray). She will be found sitting on a high vantage, shamelessly calling to her lovers by her shrill screeching. She then has the audacity to lay her egg in another bird’s nest, forcing them to raise her offspring.",
+      "suggested_fix": "Correct the species name so the target-language text conveys the same bird as the English source. Replace \"Korpfågeln\" with an appropriate Swedish equivalent for \"cowbird\" (for example \"kobofågeln\" is not correct; the widely used Swedish name is \"korvmes\" is also wrong). Use the conventional Swedish common name \"cowbird\" → \"koärla\" (if that is the preferred editorial choice) or \"cowbird\" translated as \"cowbird\" in italics/quotation if no conventional Swedish name is used. Ensure the parenthetical female-colour detail remains: \"(honan är brun/grå).\" Keep the rest of the paragraph unchanged. (Preserve all HTML tags and structure.)",
+      "translation_quote": "Försummelse. Korpfågeln är också svart (honan är brun/grå). Hon brukar finnas sittande på en högt utsiktställe och skamlöst kalla på sina älskare med sitt skarpa skri. Hon har sedan fräckheten att lägga sitt ägg i en annan fågels bo och tvinga dem att uppfostra hennes avkomma."
     },
     {
-      "location": "John 4:14 quotation",
-      "severity": "major",
-      "source_quote": "\"But the water that I shall give him shall be in him a well of water springing up into everlasting life\" (John 4:14).",
-      "suggested_fix": "Render the quoted Scripture naturally and accurately in Swedish, preserving verse reference unchanged. For example: \"Men det vatten jag ger honom skall i honom bli en brunn med vatten som porlar fram till evigt liv\" (Joh 4:14). Replace the current incorrect phrase.",
-      "translation_quote": "”Men den vatten jag skall ge honom ska bli i honom en brunn med vatten som väljer upp till evigt liv” (Joh 4:14)."
-    },
-    {
-      "location": "paragraph: \"Vandra nära en svalor bo\" (paragraph about swallows)",
+      "location": "Paragraph mentioning \"The killdeer also has no qualms...\" (English) / translation sentence \"Vandra nära en svalas bo, och du finner att de också har sätt att uttrycka ogillande. Killdeer har heller inga samvetskval när de uttrycker häftig missnöje...\"",
       "severity": "minor",
-      "source_quote": "Wander near the nest of a swallow and you will find that they have ways of expressing depreciation as well.",
-      "suggested_fix": "Fix Swedish grammar and agreement. Use: \"Vandra nära en svala's bo\" is incorrect; prefer: \"Vandra nära en svalas bo\" or better: \"Vandra nära en svalas bo, och du får se att de också har sätt att uttrycka ogillande.\"",
-      "translation_quote": "Vandra nära en svalor bo och du finner att de också har sätt att uttrycka ogillande."
-    },
-    {
-      "location": "paragraph: \"Christusinspirerad\" (paragraph about wellspring and song)",
-      "severity": "minor",
-      "source_quote": "What is a more apt outpouring to flow from a Christ-inspired wellspring than the rapture of a song?",
-      "suggested_fix": "Adjust to standard Swedish compound/spacing and orthography. Use \"Kristus‑inspirerad\" or \"Kristusinspirerad\" (no capital C in mid-sentence usually), for example: \"Vad är en mer lämplig utgjutelse att flöda från en Kristusinspirerad källa än extasen av en sång?\"",
-      "translation_quote": "Vad är en mer lämplig utgjutelse att flöda från en Christusinspirerad källa än extasen av en sång?"
+      "source_quote": "Wander near the nest of a swallow and you will find that they have ways of expressing depreciation as well. The killdeer also has no qualms with expressing rash disfavor to those who intrude their domain, but these are not to be mistaken as songs.",
+      "suggested_fix": "Translate or render the species name \"killdeer\" into Swedish (for example \"killdeer\" → \"killdeer\" is an English common name; if there is a conventional Swedish name, use it, or render as an explanatory phrase such as \"killdeer (en amerikansk vadarfågel)\" so Swedish readers understand the referent). Keep the meaning that this species expresses alarm but does not sing.",
+      "translation_quote": "Vandra nära en svalas bo, och du finner att de också har sätt att uttrycka ogillande. Killdeer har heller inga samvetskval när de uttrycker häftig missnöje mot dem som tränger sig in i deras domäner, men dessa bör inte förväxlas med sånger."
     }
   ],
+  "finished_at": "2026-10-02T10:00:49+00:00",
   "id": "280f0064204682cf0862003efadaf701",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -151,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2581e86d93ab0c8b5c0ff1e401391960004d29e0bde4df2917ba5463742331cd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

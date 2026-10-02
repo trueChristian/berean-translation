@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f5e31f0e-b5a0-4676-a69c-d20ff26f55b1",
+    "response_id": "chatcmpl-EUUJJTPsa5kIyzvHDM7Z6ZBYcFPvj",
+    "usage": {
+      "completion_tokens": 1928,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8695
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>В Послании к Римлянам мы читаем: «Ибо гнев Божий открывается... (Рим. 1:18–32).</p>",
+        "severity": "major",
+        "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools, And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things. Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet. And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32).",
+        "suggested_fix": "Quoted Scripture must faithfully convey the authoritative English passage in natural Russian. The current translation of Romans 1:18–32 contains nonstandard words and some mistranslations/typos (for example, the word «богонесмеваемых» appears to be incorrect and distorts meaning). Replace the entire quoted block with a conventional, accurate Russian Bible rendering (Synodal or commonly accepted Russian translation) that preserves the chapter and verse numbering exactly (Рим. 1:18–32). Ensure wording accurately reflects the English passage’s meaning (e.g., \"who hold the truth in unrighteousness\" → «сдерживающих истину в неправде/неправедности», etc.). Use consistent, standard Biblical Russian phrasing throughout the quoted passage.",
+        "translation_quote": "«Ибо гнев Божий открывается с неба на всякую неправду человеков, делающих неправду, — богонесмеваемых, потому что то, что познаваемо о Боге, явственно им; ибо Бог явил им... (Рим. 1:18–32).»"
+      },
+      {
+        "location": "<p>Вот пример: Христианин сажает огород и заботится о нем каждый день. Он поливает, удобряет, вырывает сорняки и обрезает.</p>",
+        "severity": "minor",
+        "source_quote": "\"He waters and fertilizes weeds and prunes.\" (context: He waters, fertilizes, weeds and prunes.)",
+        "suggested_fix": "The Russian phrasing currently reads as if the gardener \"fertilizes the weeds\" (удобряет сорняки). To match the source order and meaning, change to a natural verb sequence: «Он поливает, удобряет, пропалывает (или вырывает сорняки) и обрезает.» This preserves intended actions in correct Russian.",
+        "translation_quote": "«Он поливает, удобряет, вырывает сорняки и обрезает.»"
+      },
+      {
+        "location": "<p>Если он болен — он вызывает доктора. Если нужен деньги — он идет к банкиру.</p>",
+        "severity": "minor",
+        "source_quote": "\"If he is sick, he calls a doctor. If he needs money, he goes to the banker.\"",
+        "suggested_fix": "Fix grammatical number/agreement: change «Если нужен деньги» to «Если нужны деньги» (or «Если ему нужны деньги»). A suggested correction: «Если он болен — он вызывает доктора. Если ему нужны деньги — он идет к банкиру.»",
+        "translation_quote": "«Если нужен деньги — он идет к банкиру.»"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

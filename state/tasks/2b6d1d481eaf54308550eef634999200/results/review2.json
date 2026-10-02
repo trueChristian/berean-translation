@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9333bad2-a2b7-4978-a462-100c9418458a",
+    "response_id": "chatcmpl-EUUJJ9TsKQLzUCsfQMRwsuny0EaaL",
+    "usage": {
+      "completion_tokens": 1149,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3016,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4165
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html <figure> <img> alt",
+        "severity": "minor",
+        "source_quote": "A cup of coffee beside a spiral notebook and pencil.",
+        "suggested_fix": "Replace the alt text with a more natural Kiswahili phrasing that preserves the source meaning and remains concise. For example: \"Kikombe cha kahawa kando ya daftari la mviringo na penseli.\"",
+        "translation_quote": "Kikombe cha kahawa kando ya daftari lenye kishikilia na penseli."
+      },
+      {
+        "location": "translation.html third paragraph (starts \"Muda wa mwisho wa kazi ni...\")",
+        "severity": "minor",
+        "source_quote": "Deadlines are a normal part of life. ... If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.",
+        "suggested_fix": "Use a consistent Kiswahili term for \"deadlines\" throughout the article. Change either occurrence so both use the same phrasing (\"tarehe za mwisho\" or \"muda wa mwisho\"). Recommended: replace \"Muda wa mwisho wa kazi\" with \"Tarehe za mwisho (muda wa mwisho)\", or consistently use \"tarehe za mwisho\". Example replacement for the paragraph start: \"Tarehe za mwisho ni sehemu ya kawaida ya maisha.\"",
+        "translation_quote": "Muda wa mwisho wa kazi ni sehemu ya kawaida ya maisha. Bila hayo tungekuwa hatuna motisha, na siku zetu zingekosa kusudi. Kuingiliwa pia ni sehemu ya kawaida ya maisha. Huwapa kwa daima mabadiliko yasiyotabirika kwa siku na wiki zetu. Tukiruhusu kazi nyingi kusubiri hadi dakika za mwisho, kuingiliwa na tarehe za mwisho huzuriana, na vurugu zinaanza kutawala."
+      },
+      {
+        "location": "translation.html paragraph beginning \"Niliweza kukabiliana...\" (contains \"ghasia za dakika za mwisho\")",
+        "severity": "minor",
+        "source_quote": "I was better able to cope with the last-minute rush if that job was out of the way.",
+        "suggested_fix": "The word \"ghasia\" (violence) is an incorrect choice here. Use a phrase that conveys stress or frantic activity. Suggested replacement: \"msongamano wa dakika za mwisho\", \"msongo wa dakika za mwisho\", or \"mshikamano wa dakika za mwisho\". Example: replace \"ghasia za dakika za mwisho\" with \"msongamano wa dakika za mwisho\" or \"msongo wa mawazo wa dakika za mwisho\".",
+        "translation_quote": "Niliweza kukabiliana vizuri na ghasia za dakika za mwisho ikiwa kazi hiyo ilikuwa imefanywa mapema."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

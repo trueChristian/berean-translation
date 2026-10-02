@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cc1ed41b-69d1-44d9-ba5e-f7e3c5b0c07b",
+    "response_id": "chatcmpl-EUUJTW39tRwyxoZrySpc2N5NPGwYD",
+    "usage": {
+      "completion_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7045,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7715
+    }
+  },
+  "received_at": "2026-10-02T10:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "HYMN HISTORY",
+        "suggested_fix": "Translate the section metadata into standard written Korean while preserving meaning and capitalization style (if any). For example: \"찬송가 역사\" or \"찬송가 연혁\" depending on house style.",
+        "translation_quote": "HYMN HISTORY"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}
