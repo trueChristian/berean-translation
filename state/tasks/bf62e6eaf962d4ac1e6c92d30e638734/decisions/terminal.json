@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "Forbidden HTML element: pَقُموا،",
+      "translation_quote": ""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[2]/em[1]/u[3] ('start', 'u', ()); translation /article[1]/p[2]/em[1] ('end', 'em')",
+  "stage": "terminal"
+}

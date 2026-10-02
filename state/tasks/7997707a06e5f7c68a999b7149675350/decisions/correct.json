@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[2]/em[1]/u[3] ('start', 'u', ()); translation /article[1]/p[2]/em[1]/strong[3] ('start', 'strong', ())",
+  "stage": "correct"
+}

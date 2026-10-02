@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:53+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\\\" alt=\\\"어두운 산과 물 위로 펼쳐진 은하수와 별들\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>이 땅에 서서 친구여, 네가 하늘을 올려다볼 때<br>\\n    그리고 광대한 우주가 펼쳐진 궁창을 바라볼 때<br>\\n    무엇을 보느냐?<br>\\n    온 하늘에 펼쳐진 거대한 검은 담요를 보느냐<br>\\n    저 위 어딘가에 빛나는 많은 신비들을 보느냐?<br>\\n    아니면 그토록 먼 거리들을 보느냐<br>\\n    그것이 마음을 거의 부서질 듯 늘려 놓아<br>\\n    네가 실은 얼마나 작은 존재인지를 느끼게 하느냐?<br>\\n    넓은 하늘의 고요한 정적 속에서,<br>\\n    저 멀리 행성들은 거의 손에 닿을 듯 보이고<br>\\n    별들까지의 거리가 더 멀게 느껴진다.<br>\\n    초승달은 더 가깝게 느껴지지만<br>\\n    인간이 그 작은 구체에 도달하는 데는 사흘이 걸렸다.<br>\\n    그러나 네가 도저히 이해할 수 없는 높이들을 올려다볼 때<br>\\n    네가 보는 것은 이 인간 종족의 지식을 넘어선<br>\\n    거대한 광활함의 한 가닥에 불과하다.<br>\\n    그러므로 친구여, 나는 네가 느끼기를 바란다<br>\\n    그 위대함과 광대함, 허공의 텅 빔을—<br>\\n    우리의 창조주께서 우리를 위해 만드신 것이라<br>\\n    우리가 그분의 위대함과 다정한 사랑을 느끼고<br>\\n    겸손히 머리를 숙여 그분께 경배드릴 수 있도록.</p>\\n  </div>\\n  <p><em>– 작성자 Daniel Kaufman</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"당신은 무엇을 보십니까?\"}",
+    "content_bytes": 1816,
+    "content_evidence_truncated": false,
+    "content_sha256": "4127b57ddfb3e3c6e9efccf35147d2eee9f59b51967e0e12535aab159efb92ac",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 967,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2040,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3007
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}
