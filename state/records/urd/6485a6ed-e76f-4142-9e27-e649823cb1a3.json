@@ -6,6 +6,12 @@
       "campaign": "gh-37008082026",
       "event": "requested",
       "task": "a2b096ea6c1d259bcb4ee13e9a0b69e9"
+    },
+    {
+      "at": "2026-10-02T13:00:01+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[6]: source /article[1]/p[3]/strong[1] ('start', 'strong', ()); translation /article[1]/p[3] ('end', 'p')",
+      "task": "a2b096ea6c1d259bcb4ee13e9a0b69e9"
     }
   ],
   "language": "urd",
