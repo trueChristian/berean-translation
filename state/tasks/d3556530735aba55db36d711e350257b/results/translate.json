@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "31717080-5ca6-4b12-a613-be290ac736fe",
+    "response_id": "chatcmpl-EUUJM3xsHiYjb9SeZgWjC9OG6X05I",
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1258,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1913
+    }
+  },
+  "received_at": "2026-10-02T10:04:44+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Liberdade, ou escravidão — qual será?<br>\n    Ou serão iguais; alguém pode ver?</p>\n\n    <p>As pessoas amam coisas que o dinheiro pode comprar,<br>\n    Trocam suas vidas, sem motivo a declarar.</p>\n\n    <p>As contas se acumulam por conforto e facilidade;<br>\n    “E nossas esposas, ou filhos, para agradar?”</p>\n\n    <p>Passamos os dias correndo atrás do dólar.<br>\n    O diabo sorri enquanto aperta nosso colar.</p>\n\n    <p>Precisamos de tempo para Deus, e para as nossas famílias também.<br>\n    Talvez menos tempo no trabalho pudesse fazer bem.</p>\n\n    <p>Temos tempo para aquela voz mansa e pequena?<br>\n    Ou nosso dinheiro fala e não nos dá escolha nenhuma?</p>\n\n    <p>Todos conhecemos a Bíblia — sem trabalho, sem comer.<br>\n    Mas o dinheiro nos prende até encontrarmos a morte ao morrer.</p>\n\n    <p>Quanto mais temos, mais precisamos;<br>\n    O amor ao dinheiro começa com uma semente que semeamos.</p>\n\n    <p>Enganar a si mesmo é coisa tola —<br>\n    “Liberdade, ou escravidão?” é a pergunta que trago à escola.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Liberdade, ou Escravidão?"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8f8a194b-dfae-408c-a28d-7cd9e5aa6800",
+    "response_id": "chatcmpl-EUUJDC7vys6q8a0sIhTxt0V7gLuus",
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1754
+    }
+  },
+  "received_at": "2026-10-02T10:04:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Kebebasan, atau perbudakan—mana yang akan dipilih?<br>\n    Atau mungkinkah keduanya sama; bisakah seseorang melihat?</p>\n\n    <p>Orang mencintai benda yang bisa dibeli dengan uang,<br>\n    Mereka menukar hidupnya, tanpa alasan yang nyata.</p>\n\n    <p>Tagihan menumpuk demi kenyamanan dan kemudahan;<br>\n    “Bagaimana dengan istri kita, atau anak-anak untuk menyenangkan?”</p>\n\n    <p>Kita menghabiskan hari-hari kita mengejar dolar.<br>\n    Iblis tersenyum saat ia mengencangkan kerah kita.</p>\n\n    <p>Kita butuh waktu untuk Tuhan, dan juga bagi keluarga kita.<br>\n    Mungkin lebih sedikit waktu di tempat kerja pasti bisa membantu.</p>\n\n    <p>Apakah kita masih punya waktu untuk suara kecil itu?<br>\n    Atau apakah uang kita yang berbicara, dan tidak memberi pilihan?</p>\n\n    <p>Kita semua tahu Alkitab—jika tidak bekerja, jangan makan.<br>\n    Tapi uang akan mengikat kita sampai kita menemui maut.</p>\n\n    <p>Semakin banyak yang kita miliki, semakin banyak yang kita butuhkan;<br>\n    Cinta akan uang bermula dari sebuah benih.</p>\n\n    <p>Berbohong pada diri sendiri adalah hal bodoh—<br>\n    “Kebebasan, atau perbudakan?” adalah pertanyaan yang kubawa.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Kebebasan, atau Perbudakan?"
+  }
+}

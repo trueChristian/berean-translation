@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "48049811-4ada-4027-999b-2ed709139271",
+    "response_id": "chatcmpl-EUUJDtFigZsffIZKwoDsrDJR2vbhL",
+    "usage": {
+      "completion_tokens": 487,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1736
+    }
+  },
+  "received_at": "2026-10-02T10:04:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Freiheit oder Knechtschaft—was wird es sein?<br>\n    Oder sind sie gleich; kann das jemand klar erspähn?</p>\n\n    <p>Die Leute lieben Dinge, die Geld kann kaufen,<br>\n    Verkaufen ihr Leben, ohne Fragen zu haufen.</p>\n\n    <p>Rechnungen türmen sich für Komfort und Ruh;<br>\n    „Was ist mit unseren Frauen, den Kindern dazu?“</p>\n\n    <p>Wir verbringen alle Tage damit, dem Dollar nachzulaufen.<br>\n    Der Teufel lächelt, zieht an unsre Krägen beim Schnauben.</p>\n\n    <p>Wir brauchen Zeit für Gott und unsere Familien auch.<br>\n    Vielleicht täte weniger Arbeit ganz sicher gut als Brauch.</p>\n\n    <p>Haben wir Zeit für jene kleine, sanfte Stimme?<br>\n    Oder spricht unser Geld und lässt uns keine Wahl im Sinne?</p>\n\n    <p>Wir kennen die Bibel—kein Fleiß, kein Brot essen.<br>\n    Doch Geld bindet uns, bis wir dem Tod begegnen müssen.</p>\n\n    <p>Je mehr wir haben, desto mehr wird begehrt;<br>\n    Die Liebe zum Geld beginnt mit einem Samen unbeschwert.</p>\n\n    <p>Sich selbst zu belügen ist ein törichter Ring—<br>\n    „Freiheit oder Knechtschaft?“ das ist die Frage, die ich bring.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Freiheit oder Knechtschaft?"
+  }
+}

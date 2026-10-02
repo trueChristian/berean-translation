@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f247a095-ccd0-44af-a065-d5bab2c337ba",
+    "response_id": "chatcmpl-EUUJrJY7xiZVoaXKEVbHl1MejylM8",
+    "usage": {
+      "completion_tokens": 506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1760
+    }
+  },
+  "received_at": "2026-10-02T10:04:45+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>الحرية أم العبودية — أيُّهما سيكون؟<br>\n    أم أنهما متشابهان؛ هل يمكن لأحد أن يرى؟</p>\n\n    <p>الناس يحبون ما تشتريه النقود،<br>\n    يبادلون حياتهم بلا سبب وبدون حدود.</p>\n\n    <p>الفواتير تتراكم من أجل راحةٍ وسهولة،<br>\n    «ماذا عن زوجاتنا، أو إسعاد الأولاد؟»</p>\n\n    <p>نقضي كل أيامنا نطارد الدولار،<br>\n    والشيطان يبتسم وهو يشدُّ على طوقنا.</p>\n\n    <p>نحتاج وقتًا لله، ولعائلاتنا أيضًا؛<br>\n    ربما قضاء وقتٍ أقل في العمل يكفي بالتأكيد.</p>\n\n    <p>هل لنا وقتٌ لذلك الصوت الخافت؟<br>\n    أم أن أموالنا تتكلم، فلا تترك لنا اختيارًا؟</p>\n\n    <p>كلنا نعرف الإنجيل — من لا يعمل لا يأكل،<br>\n    لكن المال يقيدنا حتى نلقَى الموت.</p>\n\n    <p>كلما ازددنا، ازددنا حاجةً؛<br>\n    حب المال يبدأ ببذرةٍ صغيرةٍ، هكذا الحالة.</p>\n\n    <p>الكذب على النفس أمرٌ أحمق —<br>\n    «الحرية أم العبودية؟» هذا السؤال أطرحه.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "الحرية أم العبودية؟"
+  }
+}

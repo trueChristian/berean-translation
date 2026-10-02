@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "68466d1e-df0c-4f80-81c5-6ffb61480f70",
+    "response_id": "chatcmpl-EUUJYY03ymtlZiCka2gT4cUsLYnwj",
+    "usage": {
+      "completion_tokens": 536,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1790
+    }
+  },
+  "received_at": "2026-10-02T10:04:45+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>¿Libertad o servidumbre: cuál será?<br>\n    ¿O son lo mismo; puede alguien verlo?</p>\n\n    <p>La gente ama lo que el dinero puede comprar,<br>\n    Cambian sus vidas, sin motivo que dar.</p>\n\n    <p>Las cuentas se amontonan por comodidad y placer;<br>\n    “¿Y nuestras esposas, o hijos para complacer?”</p>\n\n    <p>Pasamos los días persiguiendo el dólar.<br>\n    El diablo sonríe al ajustar nuestro collar.</p>\n\n    <p>Necesitamos tiempo para Dios y para la familia también.<br>\n    Quizá menos tiempo en el trabajo podría bastar bien.</p>\n\n    <p>¿Tenemos tiempo para esa voz pequeña y serena?<br>\n    ¿O habla nuestro dinero y no deja alternativa alguna?</p>\n\n    <p>Todos conocemos la Biblia—si no trabajas, no comes.<br>\n    Pero el dinero nos ata hasta que encontremos la muerte.</p>\n\n    <p>Cuanto más tenemos, más necesitamos;<br>\n    El amor al dinero comienza con una semilla.</p>\n\n    <p>Mentirse a uno mismo es cosa necia—<br>\n    “¿Libertad o servidumbre?” es la pregunta que traigo.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "¿Libertad o servidumbre?"
+  }
+}

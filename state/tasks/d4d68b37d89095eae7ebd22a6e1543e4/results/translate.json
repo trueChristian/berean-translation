@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "77638db5-924c-423f-a048-29e5b26fc0c8",
+    "response_id": "chatcmpl-EUUJGzpG8SnSxEmYdMWx3UuuU2cUC",
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1252,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1878
+    }
+  },
+  "received_at": "2026-10-02T10:04:44+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Uhuru, au utumwa—nitakuwa gani?<br>\n    Au je, ni sawa; mtu anaweza kuona?</p>\n\n    <p>Watu wanapenda vitu vinavyoweza kununuliwa kwa pesa,<br>\n    Wanabadili maisha yao, bila sababu yoyote iliyo wazi.</p>\n\n    <p>Fatura zikikusanywa kwa starehe na urahisi;<br>\n    “Na mke zetu, au watoto ili kuwafurahisha?”</p>\n\n    <p>Tunatumia Siku zetu zote kuikimbiza dola.<br>\n    Ibilisi anacheka anapofinyanga kola yetu.</p>\n\n    <p>Tunahitaji wakati kwa Mungu, na kwa familia pia.<br>\n    Labda muda mdogo kazini ungetosha bila shida.</p>\n\n    <p>Tuna wakati wa sauti ndogo bado?<br>\n    Au je, pesa zetu zinazungumza, zikitutoa fursa?</p>\n\n    <p>Sisi sote tunajua Biblia—hakuna kazi, hakula.<br>\n    Lakini pesa zitatuweka mnyonge hadi tufike mwisho wa maisha.</p>\n\n    <p>Kadiri tunavyo kuwa na zaidi, ndivyo tunavyohitaji zaidi;<br>\n    Upendo wa pesa unaanza na mbegu.</p>\n\n    <p>Kujiwongoza ni upuuzi—<br>\n    “Uhuru, au utumwa?” ndio swali ninaleta.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Uhuru, au Utumwa?"
+  }
+}

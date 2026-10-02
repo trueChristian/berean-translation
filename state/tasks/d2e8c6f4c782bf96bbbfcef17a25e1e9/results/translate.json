@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d1f5bf41-fbc0-46cd-acd0-138188579e4e",
+    "response_id": "chatcmpl-EUUJOF5NO1RNhDcKDKpYZmpENBQMb",
+    "usage": {
+      "completion_tokens": 492,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1743
+    }
+  },
+  "received_at": "2026-10-02T10:04:44+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Liberté, ou servitude — que sera-t-il ?<br>\n    Ou sont-elles pareilles ; qui peut le voir ?</p>\n\n    <p>Les gens aiment les choses que l'argent peut acheter,<br>\n    Ils vendent leur vie, sans raison d'expliquer.</p>\n\n    <p>Les factures s'accumulent pour confort et aisance ;<br>\n    « Et nos épouses, et nos enfants pour réjouissance ? »</p>\n\n    <p>Nous passons nos jours à courir après le dollar.<br>\n    Le diable sourit tandis qu'il serre notre col.</p>\n\n    <p>Nous avons besoin de temps pour Dieu, et pour nos familles aussi.<br>\n    Peut-être que moins de travail pourrait y suffire.</p>\n\n    <p>Avons-nous du temps pour cette voix douce et discrète ?<br>\n    Ou notre argent parle-t-il et ne laisse aucun choix ?</p>\n\n    <p>Nous connaissons tous la Bible — qui ne travaille pas ne mangera pas.<br>\n    Mais l'argent nous lie jusqu'à ce que la mort nous prenne.</p>\n\n    <p>Plus nous possédons, plus nous avons besoin ;<br>\n    L'amour de l'argent commence par une graine.</p>\n\n    <p>Se mentir à soi-même est une folie —<br>\n    « Liberté, ou servitude ? » est la question que j'apporte.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Liberté, ou servitude ?"
+  }
+}

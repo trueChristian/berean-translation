@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "beef7656-2611-4bae-a4f3-9e5c1d5f4740",
+    "response_id": "chatcmpl-EUUJGHc4yuEG2KaqFKyU6g89lC3hs",
+    "usage": {
+      "completion_tokens": 475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1261,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1736
+    }
+  },
+  "received_at": "2026-10-02T10:04:44+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Frihet, eller trelldom—hva blir det?<br>\n    Eller er de ett; kan noen se det?</p>\n\n    <p>Mennesker elsker ting som penger kan kjøpe,<br>\n    De bytter sine liv, uten grunn å gripe.</p>\n\n    <p>Regningene hoper seg opp for komfort og fred;<br>\n    “Hva med våre koner, eller barna til glede?”</p>\n\n    <p>Vi bruker alle dager på å jage dollar.<br>\n    Djevelen smiler mens han strammer vårt krave.</p>\n\n    <p>Vi trenger tid for Gud, og for familiene våre også.<br>\n    Kanskje mindre tid på jobb ville gjøre oss tro.</p>\n\n    <p>Har vi tid for den stille røst ennå?<br>\n    Eller snakker pengene våre og gir oss ingen valg å gå?</p>\n\n    <p>Vi kjenner Bibelen—ingen arbeid, ingen mat.<br>\n    Men penger binder oss til døden vi møt.</p>\n\n    <p>Jo mer vi har, jo mer vi trenger;<br>\n    Kjærligheten til penger begynner fra et frø som svinger.</p>\n\n    <p>Å lyve for seg selv er en dum ting—<br>\n    “Frihet, eller trelldom?” er spørsmålet jeg bringer.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Frihet eller trelldom?"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "03c8e4d9-a3a5-409f-80fc-e0d309f4a753",
+    "response_id": "chatcmpl-EUUJGQ5Mefoy1Yzr7v7IN76VScNoJ",
+    "usage": {
+      "completion_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1808
+    }
+  },
+  "received_at": "2026-10-02T10:04:44+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Libertà o schiavitù — quale sarà?<br>\n    O sono la stessa cosa; chi lo vedrà?</p>\n\n    <p>La gente ama le cose che il denaro può comprare,<br>\n    Scambia la vita, senza un vero perché.</p>\n\n    <p>I conti si accumulano per confort e agio;<br>\n    “E le nostre mogli, e i figli da compiacere?”</p>\n\n    <p>Passiamo i giorni inseguendo il dollaro.<br>\n    Il diavolo sorride mentre stringe il nostro colletto.</p>\n\n    <p>Abbiamo bisogno di tempo per Dio e per le famiglie.<br>\n    Forse meno tempo al lavoro farebbe davvero bene.</p>\n\n    <p>Abbiamo tempo per quella piccola voce interiore?<br>\n    O è il nostro denaro a parlare, senza darci scelta?</p>\n\n    <p>Tutti conosciamo la Bibbia — chi non lavora non mangia.<br>\n    Ma il denaro ci legherà fino all'incontro con la morte.</p>\n\n    <p>Più abbiamo, più ci serve;<br>\n    L'amore del denaro nasce da un seme.</p>\n\n    <p>Mentire a se stessi è cosa sciocca—<br>\n    “Libertà o schiavitù?” è la domanda che porto.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Libertà o schiavitù?"
+  }
+}
