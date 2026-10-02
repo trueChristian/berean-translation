@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph containing Revelation 13:16-17 (near: \"It sounds strangely similar to what God says will one day be a reality—\")",
+      "severity": "critical",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.",
+      "suggested_fix": "Translate the entire quoted Scripture into Hindi, preserving the verse reference and punctuation. Example suggestion (replace the English block with this Hindi rendering, keeping the –Revelation 13:16-17 reference): «और उसने सबको, छोटे और बड़े, धनिक और निर्धन, स्वतंत्र और दास, ऐसा कर दिया कि वे अपने दाहिने हाथ में या अपने माथे पर चिन्ह ग्रहण करें; और यह हो ताकि कोई खरीदना या बेचना न कर सके, सिवाय उसके जिसके पास वह चिन्ह हो, या दुष्ट की मूर्ति का नाम, या उसके नाम की संख्या हो – प्रकाशितवाक्य 13:16-17.» Ensure the quoted text is fully translated and remains inside the same HTML/em tags and structure as the source.",
+      "translation_quote": "<em>And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: <strong>And that no man might buy or sell, save he that</strong> had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.</em>"
+    },
+    {
+      "location": "source.html — multiple Scripture quotations and parenthetical references (examples: “–See Matthew 24:21 and Revelation 7:14.”; 2 Corinthians 6:17; Revelation 14:12; “Read Matthew 24:4-28.”; Revelation 12:11)",
+      "severity": "critical",
+      "source_quote": "–See Matthew 24:21 and Revelation 7:14.\n\nWherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.\n\nHere is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.\n\nRead Matthew 24:4-28.\n\nAnd they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.",
+      "suggested_fix": "All quoted Scripture phrases, and any in-line Scripture citations that are presented as quoted wording or as instruction to read a passage, must be translated into Hindi and conventional target-language book names used (Matthew -> मत्ती, Revelation -> प्रकाशितवाक्य, 2 Corinthians -> 2 कुरिन्थियों). Keep chapter and verse numbers unchanged. Examples: replace “–See Matthew 24:21 and Revelation 7:14.” with “—देखें मत्ती 24:21 और प्रकाशितवाक्य 7:14.”; translate the 2 Corinthians quotation to «क्योंकि इस कारण अनुकरण कर, हटकर उनके मध्य से निकल आओ, और पृथक हो जाओ, कहा परमेश्वर, और अस्वच्छ वस्तु को न छुओ; और मैं तुम्हें स्वीकार करूँगा –2 कुरिन्थियों 6:17.»; likewise translate the Revelation and Matthew quoted lines into Hindi, preserving the verse numbers and placing them exactly where the English references occur. Preserve the original HTML tags (em, strong) and their nesting.",
+      "translation_quote": "Examples present in translation: <em>–See Matthew 24:21 and Revelation 7:14.</em>\n\n<em>Wherefore <strong>come out from among them, and be ye separate</strong>, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.</em>\n\n<em>Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.</em>\n\n<em>Read Matthew 24:4-28.</em>\n\n<em>And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.</em>"
+    },
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Why I Have Not Gotten the Covid Shot",
+      "suggested_fix": "Translate the English title into contemporary standard Hindi and place it in the translation.title field. Suggested translation: “मैंने कोविड-19 का टीका क्यों नहीं लगवाया” or “मैंने कोविड शॉट क्यों नहीं लिया।” Use whichever matches the publication's preferred term for 'shot' vs 'टीका' (both are acceptable).",
+      "translation_quote": "Why I Have Not Gotten the Covid Shot"
+    },
+    {
+      "location": "source.html — paragraph with phrase 'unfolded' left in English (near: \"As the drama unfolded, we soon began to hear of variants...\")",
+      "severity": "minor",
+      "source_quote": "As the drama unfolded, we soon began to hear of variants and the need for booster shots.",
+      "suggested_fix": "Translate the leftover English word 'unfolded' into Hindi to make the sentence fully idiomatic. Suggested rendering: “जैसे-जैसे यह घटनाक्रम खुला/आगे बढ़ा, हमने जल्दी ही वेरिएंट्स और बूस्टर शॉट्स की आवश्यकता के बारे में सुनना शुरू कर दिया।” Preserve the rest of the sentence and HTML structure.",
+      "translation_quote": "जैसे-जैसे नाटक unfolded हुआ, हमने जल्दी ही वेरिएंट्स और बूस्टर शॉट्स की आवश्यकता के बारे में सुनना शुरू कर दिया।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[29]: source /article[1]/p[11]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[11]/em[1] ('end', 'em')",
+  "stage": "terminal"
+}
