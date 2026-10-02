@@ -5,7 +5,7 @@ Generated from the pinned source catalogue and durable work records. No API call
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `a4c140808d10570088100bf72903af6bfe80b24b`
+Observed English revision: `29b62a0b38637f938f89640386ca6671a778155e`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -95,31 +95,33 @@ Observed English revision: `a4c140808d10570088100bf72903af6bfe80b24b`
 | `heartbeat-remnant-2003-03` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-01` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2002-09` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-07` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-05` | 14 | 0 / 280 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 43 / 983 | 0 | 8 | 55 | 73 |
-| `hin` (hi) | 50 / 983 | 0 | 9 | 47 | 77 |
-| `spa` (es) | 78 / 983 | 0 | 9 | 19 | 49 |
-| `ara` (ar) | 41 / 983 | 0 | 9 | 56 | 78 |
-| `fra` (fr) | 75 / 983 | 0 | 9 | 22 | 51 |
-| `ben` (bn) | 40 / 983 | 0 | 9 | 57 | 91 |
-| `por` (pt) | 77 / 983 | 0 | 9 | 20 | 56 |
-| `ind` (id) | 72 / 983 | 0 | 9 | 25 | 61 |
-| `urd` (ur) | 53 / 983 | 0 | 9 | 44 | 77 |
-| `rus` (ru) | 56 / 983 | 0 | 7 | 43 | 74 |
-| `deu` (de) | 43 / 983 | 0 | 5 | 58 | 84 |
-| `nld` (nl) | 72 / 983 | 0 | 9 | 25 | 58 |
-| `afr` (af) | 57 / 983 | 0 | 9 | 40 | 69 |
-| `swa` (sw) | 24 / 983 | 0 | 9 | 73 | 92 |
-| `kor` (ko) | 56 / 983 | 0 | 8 | 42 | 70 |
-| `ita` (it) | 76 / 983 | 0 | 9 | 21 | 52 |
-| `heb` (he) | 12 / 983 | 0 | 6 | 88 | 98 |
-| `ell` (el) | 48 / 983 | 0 | 9 | 49 | 78 |
-| `swe` (sv) | 61 / 983 | 0 | 9 | 36 | 68 |
-| `nob` (nb) | 65 / 983 | 0 | 8 | 33 | 71 |
+| `cmn` (zh-Hans) | 43 / 1010 | 0 | 8 | 55 | 73 |
+| `hin` (hi) | 50 / 1010 | 0 | 9 | 47 | 77 |
+| `spa` (es) | 78 / 1010 | 0 | 9 | 19 | 49 |
+| `ara` (ar) | 41 / 1010 | 0 | 9 | 56 | 78 |
+| `fra` (fr) | 75 / 1010 | 0 | 9 | 22 | 51 |
+| `ben` (bn) | 40 / 1010 | 0 | 9 | 57 | 91 |
+| `por` (pt) | 77 / 1010 | 0 | 9 | 20 | 56 |
+| `ind` (id) | 72 / 1010 | 0 | 9 | 25 | 61 |
+| `urd` (ur) | 53 / 1010 | 0 | 9 | 44 | 77 |
+| `rus` (ru) | 56 / 1010 | 0 | 7 | 43 | 74 |
+| `deu` (de) | 43 / 1010 | 0 | 5 | 58 | 84 |
+| `nld` (nl) | 72 / 1010 | 0 | 9 | 25 | 58 |
+| `afr` (af) | 57 / 1010 | 0 | 9 | 40 | 69 |
+| `swa` (sw) | 24 / 1010 | 0 | 9 | 73 | 92 |
+| `kor` (ko) | 56 / 1010 | 0 | 8 | 42 | 70 |
+| `ita` (it) | 76 / 1010 | 0 | 9 | 21 | 52 |
+| `heb` (he) | 12 / 1010 | 0 | 6 | 88 | 98 |
+| `ell` (el) | 48 / 1010 | 0 | 9 | 49 | 78 |
+| `swe` (sv) | 61 / 1010 | 0 | 9 | 36 | 68 |
+| `nob` (nb) | 65 / 1010 | 0 | 8 | 33 | 71 |
 
 ## Issue / language work
 
@@ -330,8 +332,9 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 ## Held-work recovery
 
-Paused: new downstream recovery submissions are disabled; held work is not silently retried.
-Accepted lifetime recovery allocations: $0.000000 / $0.00. Allocations are not recycled after failure or cancellation.
+Paused: hourly/shared-policy recovery submissions are disabled; separately authorized manual workflow requests retain their own ceilings.
+Hourly/shared-policy funding. Accepted lifetime recovery allocations: $0.000000 / $0.00. Allocations are not recycled after failure or cancellation.
+Separately authorized manual workflow allocations: $0.000000 across 0 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
