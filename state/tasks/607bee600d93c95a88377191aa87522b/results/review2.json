@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7611af5f-9d4c-4e32-b02e-72a13b37d554",
+    "response_id": "chatcmpl-EUIFVKwWIFnGieiJPho5VwVms4mEW",
+    "usage": {
+      "completion_tokens": 477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3199
+    }
+  },
+  "received_at": "2026-10-02T00:07:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"So, isn’t it better to “plan” for a bee sting and a stubbed toe?\" (under heading 'Toothaches and Road Trips')",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Adjust Indonesian phrasing to a more natural idiom for \"a stubbed toe,\" e.g. “Jadi, bukankah lebih baik ‘merencanakan’ kemungkinan tersengat lebah dan terpeleset hingga menajuk jari kaki?” or “Jadi, bukankah lebih baik ‘merencanakan’ kemungkinan tersengatan lebah dan terantuk jari kaki?” — keep the HTML tags and nesting as in the translation.",
+        "translation_quote": "Jadi, bukankah lebih baik “merencanakan” sengatan lebah dan tersandung jari kaki?"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}
