@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6410d205-d83d-49c0-a259-0835174f11de",
+    "response_id": "chatcmpl-EUUNpSAqvDirnOsXwh37XLMHotNEX",
+    "usage": {
+      "completion_tokens": 1044,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6362,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7406
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing hymn book titles (third paragraph of article.html)",
+        "severity": "major",
+        "source_quote": "Hymns of the Heart (1848) and The Passion of Jesus (1852).",
+        "suggested_fix": "Translate the book titles into Russian (or provide conventional Russian renderings) and keep them in italics. For example: «<em>Гимны сердца</em> (Hymns of the Heart, 1848) и <em>Страсти Иисуса</em> (The Passion of Jesus, 1852).»",
+        "translation_quote": "— <em>Hymns of the Heart</em> (1848) и <em>The Passion of Jesus</em> (1852)."
+      },
+      {
+        "location": "Paragraph mentioning another English book title (paragraph about Thring, mid‑article)",
+        "severity": "major",
+        "source_quote": "Hymns and Sacred Lyrics (1874).",
+        "suggested_fix": "Translate the title into Russian (or supply a conventional Russian title) and keep italics. For example: «в своём сборнике <em>Гимны и священные стихи</em> (<em>Hymns and Sacred Lyrics</em>, 1874).»",
+        "translation_quote": "в своём сборнике <em>Hymns and Sacred Lyrics</em> в 1874 году."
+      },
+      {
+        "location": "Paragraph discussing hymnal selection (paragraph about 'Hymns of the Church' songbook)",
+        "severity": "major",
+        "source_quote": "Hymns of the Church songbook",
+        "suggested_fix": "Translate the songbook title into Russian and keep italics. For example: «в сборнике <em>Гимны Церкви</em> (<em>Hymns of the Church</em>)»",
+        "translation_quote": "Гимн, как он напечатан в сборнике <em>Hymns of the Church</em>,"
+      },
+      {
+        "location": "Paragraph naming another hymn in English (paragraph introducing Bridges' works)",
+        "severity": "major",
+        "source_quote": "Rise, Glorious Conqueror.",
+        "suggested_fix": "Translate the hymn title into Russian (or give a conventional Russian rendering) rather than leaving it in English. For example: «„Восстань, славный Победитель“ (Rise, Glorious Conqueror).»",
+        "translation_quote": "— «Восстань, славный Победитель» (Rise, Glorious Conqueror)."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

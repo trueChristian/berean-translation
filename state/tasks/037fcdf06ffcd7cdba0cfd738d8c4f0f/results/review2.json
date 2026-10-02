@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "36c065fa-4ef8-434b-a43a-fb52cbeef701",
+    "response_id": "chatcmpl-EUUO6AF9lEQfvkSKRFo1gsf1sgPqh",
+    "usage": {
+      "completion_tokens": 1726,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7915
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Top blockquote (source.html first <blockquote> paragraph)",
+        "severity": "critical",
+        "source_quote": "“O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are His judgments, and his ways past finding out! For who hath known the mind of the Lord? Or who hath been his counsellor? Or who hath first given to him, and it shall be recompensed unto him again? For of Him, and through Him, and to him, are all things: to whom be glory for ever. Amen” (Rom. 11:33–36).",
+        "suggested_fix": "Translate the quoted Scripture into Hindi, preserving the verse reference exactly and keeping the blockquote and parentheses structure. Example replacement (preserve the surrounding <blockquote> and <p> tags):\n\n“हे परमेश्वर की बुद्धि और ज्ञान की गहराइयों की महिमा! क्या अद्भुत हैं उसके निर्णय और क्या अचेत हैं उसकी राहें! क्योंकि किसने यहोवा का मन जाना? किसने उसका सलाहकार हुआ? किसने पहले उसे कुछ दिया कि उसके द्वारा पुनः उसे प्रतिफल दिया जाए? क्योंकि वही से, उसी द्वारा और उसी के लिए है सब कुछ; तुष्टि उसी को सदैव हो। आमीन।” (रोम. 11:33–36)\n\nNote: use the conventional Hindi form of the book name and keep the chapter:verse numbers unchanged and in the same parentheses.",
+        "translation_quote": "“O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are His judgments, and his ways past finding out! For who hath known the mind of the Lord? Or who hath been his counsellor? Or who hath first given to him, and it shall be recompensed unto him again? For of Him, and through Him, and to him, are all things: to whom be glory for ever. Amen” (Rom. 11:33–36)."
+      },
+      {
+        "location": "Lyrics sections: <section class=\"lyrics\" id=\"bridges-lyrics\"> and <section class=\"lyrics\" id=\"thring-lyrics\"> (full hymn text blocks)",
+        "severity": "critical",
+        "source_quote": "All hymn stanzas under both 'Crown Him with Many Crowns' sections (Bridges and Thring) as printed in the source (English lyrics).",
+        "suggested_fix": "Translate all quoted hymn stanzas into Hindi, preserving the HTML structure (the <section>, <h2>, the <p> elements and line breaks <br>) and keeping the author attributions (<em>—Bridges</em> and <em>—Thring</em>). Do not alter stanza ordering or add/remove verses. Example for the first stanza (as a model to apply to all stanzas):\n\n<p>उन पर अनेक मुकुट धरो, वह मेज़ पर बैठा मेम्ना;<br>\nसुनो! कैसे स्वर्गीय स्तुतियाँ अपनी ही धुन से सब अन्य संगीत को हर लेती हैं;<br>\nजागो, मेरी आत्मा, और उसके लिए गाओ जिसने तेरे लिये मर गया,<br>\nऔर सर्वकाल तक उसको अपने अद्वितीय राजा के रूप में अभिवादन करो।</p>\n\nTranslate every stanza in the same faithful, literal-to-meaning manner, preserving poetic line breaks and theological terms, and do not substitute or omit any quoted stanza text.",
+        "translation_quote": "All hymn stanzas remain in English in the translation output (the entire blocks beginning with 'Crown Him with many crowns...' through the end of the Thring stanzas)."
+      },
+      {
+        "location": "source.title (page title)",
+        "severity": "major",
+        "source_quote": "Crown Him with Many Crowns",
+        "suggested_fix": "Translate the title into contemporary standard Hindi. Preserve capitalization and placement in the metadata field. Suggested rendering: \"उसे अनेक मुकुट पहनाओ\" or \"उसे अनेक मुकुटों से अलंकृत करो\" — choose the idiomatic option consistent with the publication's style. Replace the translation.title value (and the visible <h1> if present) with the chosen Hindi title.",
+        "translation_quote": "Crown Him with Many Crowns"
+      },
+      {
+        "location": "source.section (metadata)",
+        "severity": "major",
+        "source_quote": "HYMN HISTORY",
+        "suggested_fix": "Translate the section name into Hindi for the metadata field. Suggested rendering: \"भजन इतिहास\" or \"भजन-इतिहास\". Replace translation.section value with the chosen Hindi phrase.",
+        "translation_quote": "HYMN HISTORY"
+      },
+      {
+        "location": "Image alt attribute (figure > img alt) and source-note line",
+        "severity": "minor",
+        "source_quote": "alt=\"Sheet music for Crown Him with Many Crowns\"\n\n<p class=\"source-note\"><em>Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em></p>",
+        "suggested_fix": "Translate the image alt text into Hindi, preserving the alt attribute. Suggested: alt=\"'Crown Him with Many Crowns' के लिए नोटेशन/पात्र संगीत\" or more simply \"Crown Him with Many Crowns के लिए शीट संगीत\". Also translate the source-note sentence into Hindi while preserving the <p class=\"source-note\"><em>...</em></p> tags. Example: <p class=\"source-note\"><em>स्रोत: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em></p>. Note: Keep the cited site names/identifiers unchanged but the surrounding label 'Sourced from:' should be in Hindi.",
+        "translation_quote": "alt=\"Sheet music for Crown Him with Many Crowns\"\n\n<p class=\"source-note\"><em>Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em></p>"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

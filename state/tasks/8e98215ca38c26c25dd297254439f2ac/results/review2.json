@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f76d9cd5-d3a9-4e2c-82de-c06be2c120fd",
+    "response_id": "chatcmpl-EUUNp9FeHXihgTfgwbihG1yogakXg",
+    "usage": {
+      "completion_tokens": 1548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7839,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9387
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning: “Preek en aanvaar ons ’n nederlaag-e-hervang (defeated) Evangelie—’n evangelie...”",
+        "severity": "major",
+        "source_quote": "Are we preaching and accepting a defeated Gospel—a gospel that doesn’t offer complete forgiveness and complete victory?",
+        "suggested_fix": "Replace the corrupted phrase with an accurate Afrikaans rendering that preserves the English meaning. For example: “Preek en aanvaar ons ’n nederlaag-evangelie — ’n evangelie wat nie volledige vergifnis en volledige oorwinning bied nie?” Ensure the English parenthetical “(defeated)” is removed (it must not remain untranslated) and that the phrase is fluent Afrikaans.",
+        "translation_quote": "Preek en aanvaar ons ’n nederlaag-e-hervang (defeated) Evangelie—’n evangelie wat nie volledige vergifnis en volledige oorwinning bied nie?"
+      },
+      {
+        "location": "Paragraph beginning: “We must be bold and confident in our faith so we can lead people to the Master.”",
+        "severity": "major",
+        "source_quote": "We must be bold and confident in our faith so we can lead people to the Master.",
+        "suggested_fix": "Correct the mistranslation of “bold” (rendered as “nuuskierig”) to an appropriate Afrikaans word such as “dapper” or “moedig”. For example: “Ons moet dapper en vol vertroue in ons geloof wees sodat ons mense tot die Meester kan bring.”",
+        "translation_quote": "Ons moet nuuskierig en vol vertroue in ons geloof wees sodat ons mense tot die Meester kan bring."
+      },
+      {
+        "location": "Paragraph beginning: “One day, I came face to face with the Creator. The hand of the almighty God got ahold of me and opened my eyes. I repented of my sins and was given a clean slate and a clean heart.”",
+        "severity": "minor",
+        "source_quote": "I repented of my sins and was given a clean slate and a clean heart.",
+        "suggested_fix": "“clean slate” is translated as “skoon lei”, which is not idiomatic Afrikaans. Use a standard idiom such as “’n skoon blad” or “’n nuwe begin”. For example: “Ek het van my sondes bekeer en ’n skoon blad en ’n skoon hart ontvang.”",
+        "translation_quote": "Ek het van my sondes bekeer en ’n skoon lei en ’n skoon hart ontvang."
+      },
+      {
+        "location": "Paragraph beginning: “The world out there does need to be convinced. They need to see something that science cannot explain. They need to see something that defies all odds.”",
+        "severity": "minor",
+        "source_quote": "They need to see something that science cannot explain. They need to see something that defies all odds.",
+        "suggested_fix": "Stylistic/word-choice note: translation is generally correct but consider smoothing phrasing if desired (optional). No mandatory change required. Example improvement: “Die wêreld daarbuite moet oortuig word. Hulle moet iets sien wat die wetenskap nie kan verklaar nie, iets wat alle waarskynlikhede trotseer.”",
+        "translation_quote": "Die wêreld daar buite moet oortuig word. Hulle moet iets sien wat die wetenskap nie kan verklaar nie. Hulle moet iets sien wat alle waarskynlikhede trotseer."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,59 @@
         },
         "total_tokens": 9845
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1044,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6362,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7406
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden or valueless HTML attribute: crown",
-      "translation_quote": ""
+      "location": "Paragraph containing hymn book titles (third paragraph of article.html)",
+      "severity": "major",
+      "source_quote": "Hymns of the Heart (1848) and The Passion of Jesus (1852).",
+      "suggested_fix": "Translate the book titles into Russian (or provide conventional Russian renderings) and keep them in italics. For example: «<em>Гимны сердца</em> (Hymns of the Heart, 1848) и <em>Страсти Иисуса</em> (The Passion of Jesus, 1852).»",
+      "translation_quote": "— <em>Hymns of the Heart</em> (1848) и <em>The Passion of Jesus</em> (1852)."
+    },
+    {
+      "location": "Paragraph mentioning another English book title (paragraph about Thring, mid‑article)",
+      "severity": "major",
+      "source_quote": "Hymns and Sacred Lyrics (1874).",
+      "suggested_fix": "Translate the title into Russian (or supply a conventional Russian title) and keep italics. For example: «в своём сборнике <em>Гимны и священные стихи</em> (<em>Hymns and Sacred Lyrics</em>, 1874).»",
+      "translation_quote": "в своём сборнике <em>Hymns and Sacred Lyrics</em> в 1874 году."
+    },
+    {
+      "location": "Paragraph discussing hymnal selection (paragraph about 'Hymns of the Church' songbook)",
+      "severity": "major",
+      "source_quote": "Hymns of the Church songbook",
+      "suggested_fix": "Translate the songbook title into Russian and keep italics. For example: «в сборнике <em>Гимны Церкви</em> (<em>Hymns of the Church</em>)»",
+      "translation_quote": "Гимн, как он напечатан в сборнике <em>Hymns of the Church</em>,"
+    },
+    {
+      "location": "Paragraph naming another hymn in English (paragraph introducing Bridges' works)",
+      "severity": "major",
+      "source_quote": "Rise, Glorious Conqueror.",
+      "suggested_fix": "Translate the hymn title into Russian (or give a conventional Russian rendering) rather than leaving it in English. For example: «„Восстань, славный Победитель“ (Rise, Glorious Conqueror).»",
+      "translation_quote": "— «Восстань, славный Победитель» (Rise, Glorious Conqueror)."
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "8fa4370618509c9bbc29409cf916b1f8",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "rus",
@@ -97,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

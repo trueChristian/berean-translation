@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,73 @@
         },
         "total_tokens": 4781
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1805,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3123,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4928
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: pkatika",
-      "translation_quote": ""
+      "location": "<article> paragraph 1 (personal name)",
+      "severity": "major",
+      "source_quote": "Felix Mantz",
+      "suggested_fix": "Restore the correct name spelling from the English source. Replace “Feliz Mantz” with “Felix Mantz” in the translation text (preserve article HTML structure).",
+      "translation_quote": "Feliz Mantz"
+    },
+    {
+      "location": "<article> paragraph 7 (publication history statement)",
+      "severity": "major",
+      "source_quote": "A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.",
+      "suggested_fix": "Translate the source meaning accurately. Replace the phrase that changes sense (“zilibadilishwa kwanza mwaka 2019”) with a faithful rendering such as “zilichapishwa kwa mara ya kwanza mwaka 2019.” Keep the existing HTML tags and order.",
+      "translation_quote": "A Glorious Church na Barry Grant na Joy in the Crevices na Sheryl Zeiset zote zilibadilishwa kwanza mwaka 2019."
+    },
+    {
+      "location": "<article> paragraph 3 (time phrasing)",
+      "severity": "minor",
+      "source_quote": "After the files are uploaded, the printing press will print 6,000 copies in a little over 12 hours.",
+      "suggested_fix": "Preserve the nuance “a little over 12 hours.” Change “nakala 6,000 ndani ya takriban saa 12” to a phrasing that keeps the \"a little over\" sense, e.g. “itachapisha nakala 6,000 katika takriban zaidi ya saa 12” (or “katika zaidi ya saa 12”).",
+      "translation_quote": "Baada ya mafaili kupakiwa, mashine ya kuchapisha itachapisha nakala 6,000 ndani ya takriban saa 12."
+    },
+    {
+      "location": "<article> paragraph 1 (awkward phrasing)",
+      "severity": "minor",
+      "source_quote": "The state church government of Zürich had ordered parents to have their infants baptized or face being banished from their homes.",
+      "suggested_fix": "Improve clarity while keeping meaning. Consider revising “kukumbwa na adhabu ya kuachwa nyumbani” to a clearer Kiswahili equivalent such as “walikabiliwa na adhabu ya kuachwa nyumbani” or “wakitishiwa kukatwa na familia zao” depending on intended nuance. Preserve HTML tags.",
+      "translation_quote": "Serikali ya kanisa la mji wa Zürich ilikuwa imewaamuru wazazi kuwabaptiza watoto wao wa vichanga au kukumbwa na adhabu ya kuachwa nyumbani."
+    },
+    {
+      "location": "<article> paragraph 5 (Ecclesiastes quote wording)",
+      "severity": "minor",
+      "source_quote": "“And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh” (Ecclesiastes 12:12).",
+      "suggested_fix": "Render the proverb in natural, idiomatic Kiswahili while preserving meaning. Current translation is understandable but awkward (“Kaeni ukumbushwe”). Consider: “Na pia, mwanangu, ukumbushwe: kwa kuwa kuandika vitabu vingi hakuna mwisho, na sanaa ya kusoma ni uchovu wa mwili” or “Na pia, mwanangu, ukumbushwe: kwa kuwa kuandaa vitabu vingi hakuna mwisho; na kujisomea nyingi ni uchovu wa mwili.” Keep the Scripture reference as “(Mhubiri 12:12).”",
+      "translation_quote": "“Zaidi ya hayo, mwanangu, kaeni ukumbushwe; kwa kuwa kuunda vitabu vingi hakuna mwisho, na bidii ya kujifunza ni uchovu wa mwili” (Mhubiri 12:12)."
+    },
+    {
+      "location": "<article> paragraph 3 (printing history phrasing)",
+      "severity": "minor",
+      "source_quote": "Printing has come a long way since 1436 when each page had to be set up and printed individually.",
+      "suggested_fix": "Make the Kiswahili smoother and faithful to the source. Replace “kila ukurasa ilikuwa inatakiwa kupangwa na kuchapishwa kando kwa kando” with something like “tangu 1436, wakati kila ukurasa ulikuwa unalazimika kupangwa na kuchapishwa pekee yake.” Preserve HTML structure.",
+      "translation_quote": "Uchapishaji umepiga hatua kubwa tangu 1436 wakati kila ukurasa ilikuwa inatakiwa kupangwa na kuchapishwa kando kwa kando."
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "de332441572ca9d5dc09712df3a2cc9c",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swa",
@@ -97,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

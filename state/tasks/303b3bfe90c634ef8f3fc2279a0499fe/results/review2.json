@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8f50ed56-4f55-4a56-8715-6fe0a4e092a4",
+    "response_id": "chatcmpl-EUUOom720kBsmmelLfzjMHdk6Hccd",
+    "usage": {
+      "completion_tokens": 983,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7658,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8641
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1 (Anabaptist mention)",
+        "severity": "minor",
+        "source_quote": "Traditionally, the conservative Anabaptist churches in America have tried to function in this manner.",
+        "suggested_fix": "In the translation, fix the transliteration of 'Anabaptist' to use standard Arabic script. For example: «الكنائس الأنابابتست المحافظة في أمريكا» (replace «الأناباپتيست» with «الأنابابتست») while preserving the surrounding HTML and punctuation.",
+        "translation_quote": "تقليديًا، حاولت الكنائس الأناباپتيست المحافظة في أمريكا العمل بهذه الطريقة."
+      },
+      {
+        "location": "source.html paragraph 7 (two packs of cigarettes)",
+        "severity": "minor",
+        "source_quote": "Drugs, alcohol, and two packs of cigarettes a day were finished—forever.",
+        "suggested_fix": "Restore the explicit quantity 'two packs' in clear Arabic. For example: «المخدّرات والكحول وعلبتا سجائر في اليوم انتهت—إلى الأبد.» Preserve the sentence structure and HTML tags.",
+        "translation_quote": "المخدّرات والكحول وعبوتي سجائر يوميًّا انتهت—إلى الأبد."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

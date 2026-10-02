@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cac67bfd-f066-47a1-bfc5-8cf24ec68a1d",
+    "response_id": "chatcmpl-EUUNpdjwATfnNHSXVMaXoMr7CB3eG",
+    "usage": {
+      "completion_tokens": 892,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3730,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4622
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5 (translation) — sentence starting “Por isso Dirk procurava diligentemente...”",
+        "severity": "major",
+        "source_quote": "This was why Dirk diligently searched the church house to find Brother Silas’ whereabouts - so he would know where to go to get one of those mints.",
+        "suggested_fix": "Replace the phrase que traduz “church house” por uma expressão natural e fiel ao sentido original do prédio/instalação da igreja, por exemplo: \"Por isso Dirk procurava diligentemente pela igreja para descobrir onde o Irmão Silas estava — assim saberia onde ir para conseguir uma daquelas balas.\" Preserve the surrounding HTML and punctuation exactly.",
+        "translation_quote": "Por isso Dirk procurava diligentemente pelo corpo da igreja para descobrir onde o Irmão Silas estava — assim saberia onde ir para conseguir uma daquelas balas."
+      },
+      {
+        "location": "Paragraph 15 (translation) — last sentence: “Ele também se juntou à turba.”",
+        "severity": "minor",
+        "source_quote": "He, too, joined the throng.",
+        "suggested_fix": "Use a neutral, non-pejorative word for “throng” that preserves the original tone — e.g. \"multidão\" or \"grupinho\" depending on register. Suggested revision: \"Ele também se juntou à multidão.\" Preserve the surrounding HTML and punctuation exactly.",
+        "translation_quote": "Ele também se juntou à turba."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,51 @@
         },
         "total_tokens": 10125
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1417,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6432,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7849
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[1]; missing: 10:22; extra: none",
-      "translation_quote": ""
+      "location": "<h2>Erstärkung</h2>\n\n<p>Im 18. Jahrhundert schuf ein Geigenbauer namens Stradivari Instrumente ...</p>",
+      "severity": "minor",
+      "source_quote": "Strengthening",
+      "suggested_fix": "Übersetzungsüberschrift auf das übliche deutsche Wort ändern, z. B. \"Stärkung\" statt \"Erstärkung\"; bewahre HTML-Tags unverändert.",
+      "translation_quote": "Erstärkung"
+    },
+    {
+      "location": "<p>Die Weisen eines perfekten Sommertages singen uns vom Göttlichen.</p>",
+      "severity": "minor",
+      "source_quote": "The tunes on a perfect summer day sing to us of the Divine.",
+      "suggested_fix": "\"Weisen\" ist verständlich, wirkt aber ungewohnt. Empfehle idiomatischere Formulierung wie \"Die Melodien eines perfekten Sommertages\" oder \"Die Weisen (Melodien) eines perfekten Sommertages\"; bewahre HTML-Tags unverändert.",
+      "translation_quote": "Die Weisen eines perfekten Sommertages singen uns vom Göttlichen."
+    },
+    {
+      "location": "<p>… der moralische Charakter Adonijas war verfault, denn „sein Vater hatte ihn nicht zu jeder Zeit missfallen lassen, indem er sprach: Warum hast du so getan?“ (1. Könige 1:6). </p>",
+      "severity": "minor",
+      "source_quote": "The moral character of Adonijah had eroded, for “his father had not displeased him at any time in saying, Why hast thou done so?” (1 Kings 1:6).",
+      "suggested_fix": "Der deutsche Satz ist verständlich, aber die Wiedergabe des zitierten Gedankens wirkt sprachlich unbeholfen und leicht bedeutungsunscharf. Empfohlen: präzise, idiomatische Formulierung, z. B. „Der sittliche Charakter Adonijas war verwöhnt, denn sein Vater tadelte ihn nie mit den Worten: ‚Warum hast du das getan?‘“ – wobei die Bibelreferenz (1. Könige 1:6) unverändert bleibt; bewahre HTML-Tags unverändert.",
+      "translation_quote": "der moralische Charakter Adonijas war verfault, denn „sein Vater hatte ihn nicht zu jeder Zeit missfallen lassen, indem er sprach: Warum hast du so getan?“ (1. Könige 1:6)."
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "f62285c272079fefc8123525f4c0c2ae",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "deu",
@@ -97,11 +130,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

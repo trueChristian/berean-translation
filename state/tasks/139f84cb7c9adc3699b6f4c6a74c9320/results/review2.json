@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0bf32939-eaae-4664-aa87-0628bded22c8",
+    "response_id": "chatcmpl-EUUOnLBLPhlAbUyNXKGJumIUQt81B",
+    "usage": {
+      "completion_tokens": 1231,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8006,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9237
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"God’s Word says “If we confess our sins...\" (around 1 John 1:9)",
+        "severity": "major",
+        "source_quote": "No one is interested in a defeated Gospel, no one except those who are living in defeat because they have chosen the things of this world over God and His Word.",
+        "suggested_fix": "Translate the full contrast clearly so it preserves the English meaning: convey that no one (in general) is interested in a defeated Gospel — the only exceptions are those who are living in defeat because they have chosen the things of this world over God and His Word. For example, replace the current sentence with a Korean rendering such as: \"패배한 복음에 관심을 갖는 사람은 없다. 다만 세상의 것들을 하나님과 그의 말씀보다 택하여 패배 속에 사는 사람들만 예외이다.\"",
+        "translation_quote": "패배한 복음에 관심 있는 사람은 아무도 없다. 다만 세상의 것들을 하나님과 그의 말씀보다 택하여 패배 속에 사는 사람들만이 제외하다."
+      },
+      {
+        "location": "Paragraph beginning \"I was witnessing to a man when he said...\" (son's reaction)",
+        "severity": "minor",
+        "source_quote": "My six-year-old son’s mouth fell open, and he gasped, “Daddy, he just told a lie!”",
+        "suggested_fix": "Preserve the natural Korean expression for 'mouth fell open' + 'gasped' so it reads smoothly and preserves the emotional reaction. Suggested revision: \"내 여섯 살 된 아들의 입이 벌어지며, 그는 헐떡이며 외쳤다. '아빠, 그가 방금 거짓말했어!'\" or simpler: \"여섯 살 난 아들의 입이 벌어지며 그는 탄식하듯 말했다: '아빠, 그가 방금 거짓말했어!'\"",
+        "translation_quote": "내 여섯 살 된 아들의 입이 벌어지며 그는 숨을 쉬며 말했다. “아빠, 그가 방금 거짓말을 했어!”"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 10214
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1333,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6580,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7913
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[5]; missing: none; extra: 4:35",
-      "translation_quote": ""
+      "location": "Paragraph containing Acts 5:12 (near: \"Now, after the cold harsh removal of the green tree, they were all found to be “with one accord in Solomon’s porch” (Acts 5:12).\")",
+      "severity": "major",
+      "source_quote": "\"and they were all found to be 'with one accord in Solomon’s porch' (Acts 5:12).\"",
+      "suggested_fix": "Translate the quoted phrase to accurately convey the meaning 'with one accord' in Norwegian. Replace \"enkelt i ett sinn i Salomos søylegang\" with a natural, theologically faithful rendering such as \"alle var av ett sinn i Salomos søylegang\" or \"de var alle enige i Salomos søylegang.\" Preserve the existing HTML and verse reference.",
+      "translation_quote": "\"enkelt i ett sinn i Salomos søylegang\" (Apostlenes gjerninger 5:12)"
+    },
+    {
+      "location": "Paragraph: \"The beloved disciple wasted no words when he brought us the fact that . . . it was winter.\"",
+      "severity": "minor",
+      "source_quote": "\"The beloved disciple wasted no words when he brought us the fact that . . . it was winter.\"",
+      "suggested_fix": "Clarify the Norwegian phrasing so it reads naturally and preserves the source meaning. Replace \"Den elskede disippel sløste ingen ord da han gav oss faktumet at . . . det var vinter.\" with a clearer option such as \"Den elskede disippelen var ikke sparsom med ordene da han gav oss faktumet: ... det var vinter.\" Preserve HTML tags and punctuation.",
+      "translation_quote": "\"Den elskede disippel sløste ingen ord da han gav oss faktumet at . . . det var vinter.\""
+    },
+    {
+      "location": "Paragraph: \"meadows of religion were littered with barren stalks draped with the remains of empty husks.\"",
+      "severity": "minor",
+      "source_quote": "\"the meadows of religion were littered with barren stalks draped with the remains of empty husks.\"",
+      "suggested_fix": "Correct the Norwegian word that appears to be a typo. Replace \"tomme skrel\" with a correct term such as \"tomme skall\" or \"tomme skrell\" depending on intended nuance (\"skall\" likely best). Ensure the sentence reads naturally: e.g. \"religiøse enger var strødd med nakne stengler dekket av rester av tomme skall.\"",
+      "translation_quote": "\"religiøse enger var strødd med nakne stengler dekket av rester av tomme skrel.\""
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "e4851e2b6c01e87a835cda3d085f2a07",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nob",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

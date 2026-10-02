@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1ee96099-edd2-45f4-b17c-9b4d8f1c5935",
+    "response_id": "chatcmpl-EUUNtT4zKUk1KFSx5uSRBdKbAV0BT",
+    "usage": {
+      "completion_tokens": 1088,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8300,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9388
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph containing 2 Tim. 3:12 (near heading “A willingness to suffer”)",
+        "severity": "critical",
+        "source_quote": "The Bible says, “Yea, and all that will live godly in Christ Jesus shall suffer persecution” (2 Tim. 3:12).",
+        "suggested_fix": "Translate the verse accurately into Urdu preserving the meaning “will suffer persecution.” Replace the mistranslation that renders it as receiving praise. For example (preserve tags and placement):\n<p>بائبل کہتی ہے، “اور جو کوئی مسیح یسوع میں خدا کے مطابق رہنا چاہتا ہے وہ سب ستائش نہیں بلکہ ستائش و اذیت (اضطہاد) بھگتے گا” (2 تموتھیس 3:12).</p>\n(Or more simply: “بائبل کہتی ہے، ‘اور جو کوئی مسیح یسوع میں خدا کے مطابق جینا چاہتا ہے وہ سب ستایا جائے گا’ (2 تموتھیس 3:12).”)",
+        "translation_quote": "“ہاں، اور جو کوئی مسیح یسوع میں خدا کے مطابق جینا چاہتا ہے وہ سب ستائش پاۓ گا” (2 تموتھیس 3:12)."
+      },
+      {
+        "location": "source.section (metadata)",
+        "severity": "major",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Translate the section title into standard contemporary Urdu rather than leaving an English transliteration. Replace the current translation string value with a proper Urdu rendering, for example: \"ایک مشنری کے تأملات\" or \"ایک مبلغ کے افکار\".",
+        "translation_quote": "مِیوزنگز آف اے مشنری"
+      },
+      {
+        "location": "source.html — first paragraph where Latin phrase appears",
+        "severity": "minor",
+        "source_quote": "...—Sola scriptura (scripture alone).",
+        "suggested_fix": "Translate the parenthetical explanatory phrase into Urdu. Either translate the Latin phrase as-is and render the explanation in Urdu, or translate both. Example: “—Sola scriptura (صرف صحیفہ/صرف کلام)” or fully in Urdu: “—صرف کتابِ مقدّس” depending on house style. Preserve the <em> tags.",
+        "translation_quote": "—<em>Sola scriptura</em> (صرف لکھاوٹ)."
+      }
+    ],
+    "passed": false,
+    "score": 58
+  }
+}

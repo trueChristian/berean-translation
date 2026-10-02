@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cbfe37a7-bb0b-4ba9-8e27-0bf001fc9fd3",
+    "response_id": "chatcmpl-EUUNubMrFZZ8pfGMbpnIF7fgdbFG4",
+    "usage": {
+      "completion_tokens": 1000,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8521,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9521
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Matthew 16:18 (around: “And Jesus Himself said ... (Matt. 16:18).”)",
+        "severity": "major",
+        "source_quote": "\"...That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it\" (Matt. 16:18).",
+        "suggested_fix": "Translate the verse faithfully as printed, preserving the sense \"the gates of hell\". Replace the current Bengali rendering with a faithful target-language equivalent. For example: “...তুমি পিতরোস; এবং আমি এই শিলা (=পাথর) উপর আমার চার্চ প্রতিষ্ঠা করিব; এবং নরকের দ্বারপত্তন (=শয়তানের দালান/নরকের দুয়ার) তাহার বিরুদ্ধে জয়ী হইবে না” — or more naturally: “...তুমি পিতরোস; এবং আমি এই পাথরের ওপর আমার চার্চ গড়িব; এবং নরকের দরজা তাহাকে জয় করিবে না।” Keep the original parenthetical reference “(মথি ১৬:১৮).” Ensure the replacement stays within the same HTML element and punctuation.",
+        "translation_quote": "“...তুমি পিতরোস; এবং আমি এই শিলার ওপর আমার চার্চ প্রতিষ্ঠা করিব; আর পার্থিব জগতের দরজা তাহাকে জয় করিবে না” (মথি ১৬:১৮)।"
+      },
+      {
+        "location": "Paragraph: \"I was talking with a young man...converted at a young age.\"",
+        "severity": "minor",
+        "source_quote": "He testified of being converted at a young age.",
+        "suggested_fix": "Translate the verb 'converted' into Bengali rather than leaving the English in parentheses. Replace “প্রত্যাবর্তিত (converted) হওয়ার” with a single natural Bengali rendering such as “যুবক বয়সে দমনানোত্তীর্ণ/ধর্মান্তরিত/হৃদয়প্রাণে বিশ্বাসী হওয়া” — best: “কিশোর বয়সেই বিশ্বাসে আসার সাক্ষী দিয়েছেন” or “কিশোর বয়সেই বিশ্বাসী হয়েছেন।” Keep sentence HTML tags and punctuation unchanged.",
+        "translation_quote": "তিনি কিশোর বয়সেই প্রত্যাবর্তিত (converted) হওয়ার সাক্ষী দিয়েছেন।"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

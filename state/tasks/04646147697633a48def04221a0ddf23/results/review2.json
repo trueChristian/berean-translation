@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c7c095c5-7142-4796-a53f-2a28c2d99705",
+    "response_id": "chatcmpl-EUUO6Adq5nUgAmVZX5EIu0me4KPhf",
+    "usage": {
+      "completion_tokens": 1301,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14461
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening paragraph (article-note)",
+        "severity": "major",
+        "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.",
+        "suggested_fix": "Replace the Kiswahili phrase that now reads '\"A Christ-centered Courtship\" ni mfululizo wa ujumbe juu ya ushirikiano mitaalamu uliowekwa kwa Kristo' with a faithful rendering that preserves the original meaning, for example: '\"A Christ-centered Courtship\" ni mfululizo wa ujumbe juu ya uanifu/miamala ya ndoa uliyozingatia Kristo uliofundishwa na Paul Hershberger.' Keep the existing HTML tags exactly as they are and substitute only the inner text of the <em>…</em> paragraph.",
+        "translation_quote": "\"A Christ-centered Courtship\" ni mfululizo wa ujumbe juu ya ushirikiano mitaalamu uliowekwa kwa Kristo uliotembelewa na Paul Hershberger."
+      },
+      {
+        "location": "source.html — goals list (first two list items)",
+        "severity": "major",
+        "source_quote": "1. To turn the hearts of the fathers to their children.\n2. To turn the hearts of the children to their fathers.",
+        "suggested_fix": "Replace the mistranslated word 'babu' with the correct Kiswahili word 'baba' in the corresponding translated list items. For example: '1. Kuweka mioyo ya baba kurudi kwa watoto wao.' and '2. Kuweka mioyo ya watoto kurudi kwa baba zao.' Preserve the original HTML <ol><li> structure and only change the inner text.",
+        "translation_quote": "1. Kuweka mioyo ya babu kurudi kwa watoto wao.\n2. Kuweka mioyo ya watoto kurudi kwa babu zao."
+      },
+      {
+        "location": "source.html — paragraph referencing previous issue/topic",
+        "severity": "major",
+        "source_quote": "We discussed Satan’s Snares for male and female in the last issue.",
+        "suggested_fix": "Translate 'Satan’s Snares' accurately into Kiswahili (avoid literal or wrong noun translations like 'viti'). Suggested phrasing: 'Tulijadili mitego ya Shetani kwa wavulana na wasichana katika toleo lililopita.' Replace only the inner text of that paragraph, preserving tags and structure.",
+        "translation_quote": "Tulijadili Viti vya Saitan kwa wavulana na wasichana katika toleo lililopita."
+      },
+      {
+        "location": "source.html — paragraph on preparation sleep (sentence with 'even')",
+        "severity": "minor",
+        "source_quote": "And yet, through this dying process, a new life can spring forth.",
+        "suggested_fix": "Fix the mixed-language phrasing 'Na even hivyo' to fully Kiswahili wording. For example: 'Na hata hivyo, kupitia mchakato huu wa kifo, uhai mpya unaweza kuchipuka.' Change only the affected phrase inside the paragraph, preserving tags.",
+        "translation_quote": "Na even hivyo, kupitia mchakato huu wa kifo, uhai mpya unaweza kuchipuka."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

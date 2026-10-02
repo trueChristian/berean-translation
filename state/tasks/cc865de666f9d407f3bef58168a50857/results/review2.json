@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "093377d7-6739-43aa-b0a7-7506a9b17259",
+    "response_id": "chatcmpl-EUUNz3btRs8wF3j9fkPZtA86L3zxq",
+    "usage": {
+      "completion_tokens": 1182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10003,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11185
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraph with \"bedside manner\"",
+        "severity": "minor",
+        "source_quote": "When you meet a doctor, you tend to judge them based on their “bedside manner.”",
+        "suggested_fix": "Replace the literal \"sengekant-manner\" with a natural Bokmål expression such as \"legens væremåte\" or \"måten legen opptrer på\" (or the idiomatic \"lege‑pasient‑møtet / lege‑pasientforholdet\" if desired) to improve idiomatic clarity while preserving meaning.",
+        "translation_quote": "Når du møter en lege, har du en tendens til å dømme dem basert på deres “sengekant-manner”. "
+      },
+      {
+        "location": "translation.html — paragraph with cell count",
+        "severity": "minor",
+        "source_quote": "There are 36 trillion cells in the human body, and normally, they all work together perfectly; the problem is figuring out what to do when they don’t.",
+        "suggested_fix": "Although the numeric value is correctly converted to Norwegian scale, the term used \"36 billioner\" is correct for English \"36 trillion\" (10^12) but might confuse some readers. Consider adding a short clarifier (e.g., \"36 billioner (36 trillioner i amerikansk engelskskala)\") only if the publisher prefers absolute disambiguation. No mandatory change required.",
+        "translation_quote": "Det finnes 36 billioner celler i menneskekroppen, og normalt samarbeider de alle perfekt; problemet er å finne ut hva man skal gjøre når de ikke gjør det."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

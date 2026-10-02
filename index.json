@@ -511,6 +511,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
+      "html_sha256": "33efe0d3d821dbab68b72d7e56354c24072f127951bfef569014663613bf6a8b",
+      "human_reviewed": false,
+      "id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "images": [
+        {
+          "alt": "مكوَّن من ثلاثة صور لباب كنيسة خشبي، وكنيسة تحت الثلج، وأغصان شجر مع تمغطٍّ بالثلج",
+          "public_path": "/images/articles/58963510-f56e-43e0-88dd-0eb9941ddea9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.json",
+      "metadata_sha256": "23e3a2c1303fbdfc7695ecb76343fbfa1c35e1fba8caf04d5974068d51e30788",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "تأملات مبشر",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
+      "status": "ready",
+      "subtitle": null,
+      "title": "كنيسة مكللة بالمجد",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "800e9183c2cafcf985b02ac7b6876c49477097a176216d659d96cba2bfce0bea",
       "human_reviewed": false,
@@ -1831,6 +1859,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "327b232b723be4acb7db0a15ce66328cd674363fdd1671841b210dee3becd6c0",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "Verschneite Nadelbäume",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "979b0cf7721999f603a6db83cb855c2e09e106fd59e8ba73d6f93a99ce966015",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "AUSGEWÄHLTER ARTIKEL",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Es war Winter",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
       "html_sha256": "4acd5714836de7820f6b0b43e43cb468c18825046a2d76c96d7cfb28723f80f9",
       "human_reviewed": false,
@@ -1910,6 +1966,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "Erhebe dich, sei froh!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
+      "html_sha256": "4f19702744fbffcbc7ed3d2a33c17d8ed6610dfdc36a8986ab14bbbf137a3a71",
+      "human_reviewed": false,
+      "id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "images": [
+        {
+          "alt": "Ein Stapel alter Bibeln und Bücher",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-1.jpg"
+        },
+        {
+          "alt": "Eine behandschuhte Hand hält Blutprobenröhrchen",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-2.jpg"
+        },
+        {
+          "alt": "Eine weite Collage mit medizinischem Personal und einer Apotheke",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-3.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.json",
+      "metadata_sha256": "1213d77b1e9fdbeafb5e9c857898187d7fe0af2f00e35bef1f23df9ed68f9d19",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Ein Wort vom Arzt",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Googlifizierung der Medizin",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6019,6 +6111,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
+      "html_sha256": "5266ce8e94bead565da5bfbc33b942353aa7e60fbff7874c22132e3b00e8f3b8",
+      "human_reviewed": false,
+      "id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "images": [
+        {
+          "alt": "En stabel gamle bibler og bøker",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-1.jpg"
+        },
+        {
+          "alt": "En hanskekledd hånd som holder rør med blodprøver",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-2.jpg"
+        },
+        {
+          "alt": "Et bredt collage som viser helsepersonell og et apotek",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-3.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.json",
+      "metadata_sha256": "d92b2b3e38001295ec45241a9ed85a7bb7ba4eb1c67bb9b21c59c33149cef21c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ET ORD FRA LEGEN",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Googlifiseringen av medisinen",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
       "html_sha256": "dbbca3b6c5b431285ecf91bb078d689544169b56960af88b397cd0a7a00b054e",
       "human_reviewed": false,
@@ -6946,6 +7074,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Кен и я",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "3943cd9c2a23bd0cd5178eaccda69b6f333901e2ac2963b91d4788c130def24e",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "Заснеженные вечнозелёные деревья",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "22ad60580f6d9d5f3ed822afb4d900aeebaa465cea7fba312ad8f65f845e5684",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ИЗБРАННАЯ СТАТЬЯ",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Была зима",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

@@ -2,7 +2,6 @@
   "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,59 @@
         },
         "total_tokens": 12443
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1776,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7936,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9712
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "Paragraph containing 1 John 1:9 (near: \"God’s Word says “If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness” (1 John 1:9).\")",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "source_quote": "“If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness” (1 John 1:9).",
+      "suggested_fix": "Translate the cited quotation so it faithfully matches the English sense (confession, not commission, of sin). For example: “Ikiwa tutakitubu dhambi zetu, yeye ni mwaminifu na mwenye haki kuwa atatusamehe dhambi zetu, na atatusafisha na kila uasi” (1 Yohana 1:9). Preserve the verse reference (1 Yohana 1:9) exactly.",
+      "translation_quote": "“Ikiwa tunatenda dhambi zetu, yeye ni mwaminifu na mwenye haki atatusamehe dhambi zetu, na atatusafisha na kila dhambi” (1 Yohana 1:9)."
+    },
+    {
+      "location": "Paragraph quoting Matthew 11:5 (near: “The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the poor have the gospel preached to them ” (Matt. 11:5).)",
+      "severity": "critical",
+      "source_quote": "“The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the poor have the gospel preached to them ” (Matt. 11:5).",
+      "suggested_fix": "Render the verse so each element of the English quotation is correctly conveyed in Kiswahili and preserve the verse reference (Matt. 11:5). Suggested translation: “Wako watoto wanapata kuona, wanalemavu wanatembea, wale wenye mafua wanasafishwa, viziwi wanasikia, wafu wanafufuliwa, na maskini wanahubiriwa injili” (Math. 11:5). (Adjust wording to match the publication’s normal Swahili Bible-book abbreviation convention, but do not change the chapter:verse numbers.)",
+      "translation_quote": "“Macho wazee wanaona, wanalemavu wanatembea, walefuo wasafishwa, viziwi wanasikia, wafu wanafufuliwa, na maskini wanatawaliwa injili” (Math. 11:5)."
+    },
+    {
+      "location": "Section header / metadata: section value (source.section vs translation.section)",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Use an idiomatic Swahili rendering of the section title. The translation uses “MAWAZO YA MISSIONARI” which mixes English and Swahili. Prefer a fully Swahili phrase such as “MAWAZO YA MISSIONARI” -> better: “MAWAZO YA MISSIONARI” could be acceptable, but consider “MAWAZO YA MISSIONARI” → “MAWAZO YA MISSIONARI (Missionari)” only if publication style requires retained English. If fully translated: “MAWAZO YA MISSIONARI” is fine; if a different standard is used, standardize the word “missionari” (e.g., “mtumwa-misheni/missionari”) consistently. (Minor editorial note.)",
+      "translation_quote": "MAWAZO YA MISSIONARI"
+    },
+    {
+      "location": "Multiple in-text Bible-reference abbreviations and target-language consistency (examples: \"Efe. 5:27\", \"Math. 16:18\", \"Wal. 13:17\", \"1 Pet. 2:13\")",
+      "severity": "minor",
+      "source_quote": "(Eph. 5:27), (Matt. 16:18), (Heb. 13:17), (1 Pet. 2:13)",
+      "suggested_fix": "Ensure Bible-book abbreviations follow the publication’s Swahili conventions and are internally consistent. Examples: Efe. (Ephesians) and Math. (Matthew) are acceptable if consistent, but \"Wal. 13:17\" for Hebrews is unclear—use the standard Swahili abbreviation (e.g., \"Wah. 13:17\" or the magazine’s established form). Do not change chapter/verse numbers. Verify all abbreviations are consistent across the article.",
+      "translation_quote": "(Efe. 5:27), (Math. 16:18), (Wal. 13:17), (1 Pet. 2:13)"
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "b6d70411d3c390a53732347954d07d65",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swa",
@@ -97,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

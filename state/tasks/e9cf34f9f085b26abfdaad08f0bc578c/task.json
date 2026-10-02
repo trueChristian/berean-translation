@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 7337
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1792,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4756,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6548
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[35]: source /article[1]/p[16]/em[1] ('start', 'em', ()); translation /article[1]/p[16] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<p>As atrocidades do governo soviético contra seus cidadãos estão bem documentadas em várias obras, mais famoso em <em>O Arquipélago Gulag</em>, um livro escrito por um autor russo acusado de traição. Aquele autor, Aleksandr Solzhenitsyn, pintou um quadro terrível do tratamento e do exílio daqueles que se opuseram à URSS.</p>",
+      "severity": "major",
+      "source_quote": "\"The atrocities of the Soviet government against its citizens are well documented in various works, most famously in the Gulag Archipelago, a book written by a Russian officer who was accused of treason. That author, Aleksandr Solzhenitsyn, painted a terrible picture...\"",
+      "suggested_fix": "Preserve the original attribution that Solzhenitsyn was a Russian officer (not only 'an author'). Replace the sentence in the translation with wording that reflects the source: por exemplo, \"...mais famoso em <em>O Arquipélago Gulag</em>, um livro escrito por um oficial russo que foi acusado de traição. Esse autor, Aleksandr Solzhenitsyn, pintou...\". Keep the surrounding HTML intact.",
+      "translation_quote": "\"mais famoso em <em>O Arquipélago Gulag</em>, um livro escrito por um autor russo acusado de traição. Aquele autor, Aleksandr Solzhenitsyn, pintou um quadro terrível...\""
+    },
+    {
+      "location": "<p>Naquela época, a forte sociedade agrícola dos menonitas havia transformado a Ucrânia em um celeiro, seus vastos campos semeados com um trigo desenvolvido especificamente pelos menonitas: o Trigo Turkey Red.</p>",
+      "severity": "minor",
+      "source_quote": "\"...its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.\"",
+      "suggested_fix": "Either translate or present the crop name consistently in Portuguese. Suggested change: \"...seus vastos campos semeados com um trigo desenvolvido especificamente pelos menonitas: o trigo 'Turkey Red'.\" or if a Portuguese name exists, use it (e.g., \"Turkey Red\", entre aspas, is acceptable). Preserve the HTML.",
+      "translation_quote": "\"...seus vastos campos semeados com um trigo desenvolvido especificamente pelos menonitas: o Trigo Turkey Red.\""
+    },
+    {
+      "location": "<p>Com o rótulo de kulak e sendo geralmente indefesos, os menonitas enfrentaram intensa perseguição. Os cultos religiosos raramente eram permitidos, e as comunidades agrícolas que haviam alimentado a Rússia e muitos outros foram coletivizadas e colocadas sob controle governamental. Muitas de suas igrejas deixaram de existir completamente, embora as do leste tendessem a durar mais que as vilas do oeste.</p>",
+      "severity": "minor",
+      "source_quote": "\"Many of their churches ceased to exist entirely, although those in the east tended to last longer than the western villages.\"",
+      "suggested_fix": "Correct the Portuguese verb form for clarity and idiomatic accuracy. Suggested wording: \"...embora as do leste tendessem a durar mais do que as vilas do oeste\" → better: \"...embora as do leste tendessem a durar mais do que as vilas do oeste\" or preferably \"...embora as do leste tivessem tendência a durar mais do que as vilas do oeste\". Preserve the HTML.",
+      "translation_quote": "\"...embora as do leste tendessem a durar mais que as vilas do oeste.\""
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "e9cf34f9f085b26abfdaad08f0bc578c",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "por",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 74,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

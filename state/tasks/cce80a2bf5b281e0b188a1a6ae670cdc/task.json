@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 18507
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1159,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12041,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13200
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/p[1]/em[2] ('start', 'em', ()); translation /article[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "source.html — first <h2> heading",
+      "severity": "major",
+      "source_quote": "<h2>The Preparation Sleep.</h2>",
+      "suggested_fix": "Translate the heading text into Mandarin while preserving the HTML tag exactly. For example: <h2>预备的睡眠。</h2>",
+      "translation_quote": "<h2>The Preparation Sleep.</h2>"
+    },
+    {
+      "location": "source.html — subsequent <h2> and <h3> headings (examples: \"Jesus was a maturing, godly young man\", \"Jesus sensed the call of God\", \"Jesus was subject to his parents\", \"Jesus continued to increase and mature\", \"Learning to walk with God\", \"What kind of partner do I need?\", \"When am I ready for marriage?\", \"In Summary\", \"Young men\", \"Young women\")",
+      "severity": "major",
+      "source_quote": "<h2>Jesus was a maturing, godly young man</h2>  (and other English headings listed above)",
+      "suggested_fix": "Translate each English heading into Mandarin Chinese and keep the original HTML tags unchanged and in the same positions. Example translations that preserve meaning: \"<h2>耶稣是个成长中的敬虔少年</h2>\", \"<h2>耶稣感知到神的呼召</h2>\", \"<h2>耶稣顺服父母</h2>\", \"<h2>耶稣持续增长成熟</h2>\", \"<h2>学习与神同行</h2>\", \"<h2>我需要怎样的伴侣？</h2>\", \"<h2>我何时准备好结婚？</h2>\", \"<h2>总结</h2>\", \"<h2>年轻男子</h2>\", \"<h2>年轻女子</h2>\". Preserve tag structure, attributes, and placement exactly.",
+      "translation_quote": "Same English headings remained in the translation HTML (e.g. <h2>Jesus was a maturing, godly young man</h2>, <h2>Jesus sensed the call of God</h2>, etc.)"
+    },
+    {
+      "location": "source.section metadata",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the section metadata into standard written Mandarin Chinese. For example: \"青少年灵感\" or a suitable idiomatic rendering such as \"献给青少年的灵修\" — choose the translator/preferred site style. Ensure the section field value (not the HTML content) is replaced accordingly.",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "cce80a2bf5b281e0b188a1a6ae670cdc",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "cmn",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

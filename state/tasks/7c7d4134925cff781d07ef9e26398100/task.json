@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,51 @@
         },
         "total_tokens": 10065
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1333,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6497,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7830
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[6]; missing: 74:17; extra: 73:17",
-      "translation_quote": ""
+      "location": "Opening paragraph (first <p> after figure)",
+      "severity": "minor",
+      "source_quote": "And it was at Jerusalem the feast of the dedication, and it was winter (John 10:22).",
+      "suggested_fix": "Use a more conventional Russian rendering of the biblical phrase for this feast. Replace «праздник обновления» with «праздник освящения» (or «праздник посвящения») to match common Russian Bible and liturgical usage.",
+      "translation_quote": "И происходило во Иерусалиме праздник обновления, и была зима (Иоанн 10:22)."
+    },
+    {
+      "location": "Second paragraph (paragraph that mentions a popular song)",
+      "severity": "minor",
+      "source_quote": "While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments, winter is generally despised by the normal inhabitants of this earth.",
+      "suggested_fix": "Either render the song title in Russian quotation marks and transliteration or mark it as a title. For example: «такие, как \"Winter Wonderland\"» or «такие, как „Зимняя страна чудес“ (\"Winter Wonderland\")», if a Russian title is desired. The current plain English appearance is acceptable but non‑idiomatic in running Russian text.",
+      "translation_quote": "Хотя несколько радостных мелодий, таких как Winter Wonderland, пытаются использовать её величественные моменты, зима в целом ненавистна обычным жителям этой земли."
+    },
+    {
+      "location": "Paragraph beginning “As we broaden that thought…” (Strengthening section)",
+      "severity": "minor",
+      "source_quote": "The moral character of Adonijah had eroded, for “his father had not displeased him at any time in saying, Why hast thou done so?” (1 Kings 1:6).",
+      "suggested_fix": "Use a more standard Russian transliteration of the name. Replace «Адонии» with «Адония» (nominative) or keep the English name case clearly matched to the Russian sentence: e.g. «Моральный характер Адонии (Adonijah) разложился...» or better: «Моральный характер Адония разложился...». Ensure the inflected form fits the Russian grammar (e.g. «Адония» → «Адонии» in the clause if retaining the current sentence structure).",
+      "translation_quote": "Моральный характер Адонии разложился, ибо «его отец не заставлял его ни в чем огорчаться, говоря: зачем ты так сделал?» (1 Царств 1:6)."
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "7c7d4134925cff781d07ef9e26398100",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "rus",
@@ -97,11 +130,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

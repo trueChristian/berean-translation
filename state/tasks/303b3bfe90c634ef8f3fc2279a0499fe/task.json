@@ -2,7 +2,6 @@
   "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,44 @@
         },
         "total_tokens": 11891
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 983,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7658,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8641
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[15]; missing: none; extra: 8:34",
-      "translation_quote": ""
+      "location": "source.html paragraph 1 (Anabaptist mention)",
+      "severity": "minor",
+      "source_quote": "Traditionally, the conservative Anabaptist churches in America have tried to function in this manner.",
+      "suggested_fix": "In the translation, fix the transliteration of 'Anabaptist' to use standard Arabic script. For example: «الكنائس الأنابابتست المحافظة في أمريكا» (replace «الأناباپتيست» with «الأنابابتست») while preserving the surrounding HTML and punctuation.",
+      "translation_quote": "تقليديًا، حاولت الكنائس الأناباپتيست المحافظة في أمريكا العمل بهذه الطريقة."
+    },
+    {
+      "location": "source.html paragraph 7 (two packs of cigarettes)",
+      "severity": "minor",
+      "source_quote": "Drugs, alcohol, and two packs of cigarettes a day were finished—forever.",
+      "suggested_fix": "Restore the explicit quantity 'two packs' in clear Arabic. For example: «المخدّرات والكحول وعلبتا سجائر في اليوم انتهت—إلى الأبد.» Preserve the sentence structure and HTML tags.",
+      "translation_quote": "المخدّرات والكحول وعبوتي سجائر يوميًّا انتهت—إلى الأبد."
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "303b3bfe90c634ef8f3fc2279a0499fe",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ara",
@@ -97,11 +123,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

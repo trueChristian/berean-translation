@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bd1231ea-0992-46ef-a997-27031ce0a43d",
+    "response_id": "chatcmpl-EUUOKqNBNchTJ25z1FhRX3qEjlcTB",
+    "usage": {
+      "completion_tokens": 1417,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7849
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Erstärkung</h2>\n\n<p>Im 18. Jahrhundert schuf ein Geigenbauer namens Stradivari Instrumente ...</p>",
+        "severity": "minor",
+        "source_quote": "Strengthening",
+        "suggested_fix": "Übersetzungsüberschrift auf das übliche deutsche Wort ändern, z. B. \"Stärkung\" statt \"Erstärkung\"; bewahre HTML-Tags unverändert.",
+        "translation_quote": "Erstärkung"
+      },
+      {
+        "location": "<p>Die Weisen eines perfekten Sommertages singen uns vom Göttlichen.</p>",
+        "severity": "minor",
+        "source_quote": "The tunes on a perfect summer day sing to us of the Divine.",
+        "suggested_fix": "\"Weisen\" ist verständlich, wirkt aber ungewohnt. Empfehle idiomatischere Formulierung wie \"Die Melodien eines perfekten Sommertages\" oder \"Die Weisen (Melodien) eines perfekten Sommertages\"; bewahre HTML-Tags unverändert.",
+        "translation_quote": "Die Weisen eines perfekten Sommertages singen uns vom Göttlichen."
+      },
+      {
+        "location": "<p>… der moralische Charakter Adonijas war verfault, denn „sein Vater hatte ihn nicht zu jeder Zeit missfallen lassen, indem er sprach: Warum hast du so getan?“ (1. Könige 1:6). </p>",
+        "severity": "minor",
+        "source_quote": "The moral character of Adonijah had eroded, for “his father had not displeased him at any time in saying, Why hast thou done so?” (1 Kings 1:6).",
+        "suggested_fix": "Der deutsche Satz ist verständlich, aber die Wiedergabe des zitierten Gedankens wirkt sprachlich unbeholfen und leicht bedeutungsunscharf. Empfohlen: präzise, idiomatische Formulierung, z. B. „Der sittliche Charakter Adonijas war verwöhnt, denn sein Vater tadelte ihn nie mit den Worten: ‚Warum hast du das getan?‘“ – wobei die Bibelreferenz (1. Könige 1:6) unverändert bleibt; bewahre HTML-Tags unverändert.",
+        "translation_quote": "der moralische Charakter Adonijas war verfault, denn „sein Vater hatte ihn nicht zu jeder Zeit missfallen lassen, indem er sprach: Warum hast du so getan?“ (1. Könige 1:6)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "64352165-7db5-40c2-a2cf-51126481ba85",
+    "response_id": "chatcmpl-EUUOBnHWuQ7icBXdwakQSfGcb5OGW",
+    "usage": {
+      "completion_tokens": 1805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3123,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4928
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 1 (personal name)",
+        "severity": "major",
+        "source_quote": "Felix Mantz",
+        "suggested_fix": "Restore the correct name spelling from the English source. Replace “Feliz Mantz” with “Felix Mantz” in the translation text (preserve article HTML structure).",
+        "translation_quote": "Feliz Mantz"
+      },
+      {
+        "location": "<article> paragraph 7 (publication history statement)",
+        "severity": "major",
+        "source_quote": "A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.",
+        "suggested_fix": "Translate the source meaning accurately. Replace the phrase that changes sense (“zilibadilishwa kwanza mwaka 2019”) with a faithful rendering such as “zilichapishwa kwa mara ya kwanza mwaka 2019.” Keep the existing HTML tags and order.",
+        "translation_quote": "A Glorious Church na Barry Grant na Joy in the Crevices na Sheryl Zeiset zote zilibadilishwa kwanza mwaka 2019."
+      },
+      {
+        "location": "<article> paragraph 3 (time phrasing)",
+        "severity": "minor",
+        "source_quote": "After the files are uploaded, the printing press will print 6,000 copies in a little over 12 hours.",
+        "suggested_fix": "Preserve the nuance “a little over 12 hours.” Change “nakala 6,000 ndani ya takriban saa 12” to a phrasing that keeps the \"a little over\" sense, e.g. “itachapisha nakala 6,000 katika takriban zaidi ya saa 12” (or “katika zaidi ya saa 12”).",
+        "translation_quote": "Baada ya mafaili kupakiwa, mashine ya kuchapisha itachapisha nakala 6,000 ndani ya takriban saa 12."
+      },
+      {
+        "location": "<article> paragraph 1 (awkward phrasing)",
+        "severity": "minor",
+        "source_quote": "The state church government of Zürich had ordered parents to have their infants baptized or face being banished from their homes.",
+        "suggested_fix": "Improve clarity while keeping meaning. Consider revising “kukumbwa na adhabu ya kuachwa nyumbani” to a clearer Kiswahili equivalent such as “walikabiliwa na adhabu ya kuachwa nyumbani” or “wakitishiwa kukatwa na familia zao” depending on intended nuance. Preserve HTML tags.",
+        "translation_quote": "Serikali ya kanisa la mji wa Zürich ilikuwa imewaamuru wazazi kuwabaptiza watoto wao wa vichanga au kukumbwa na adhabu ya kuachwa nyumbani."
+      },
+      {
+        "location": "<article> paragraph 5 (Ecclesiastes quote wording)",
+        "severity": "minor",
+        "source_quote": "“And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh” (Ecclesiastes 12:12).",
+        "suggested_fix": "Render the proverb in natural, idiomatic Kiswahili while preserving meaning. Current translation is understandable but awkward (“Kaeni ukumbushwe”). Consider: “Na pia, mwanangu, ukumbushwe: kwa kuwa kuandika vitabu vingi hakuna mwisho, na sanaa ya kusoma ni uchovu wa mwili” or “Na pia, mwanangu, ukumbushwe: kwa kuwa kuandaa vitabu vingi hakuna mwisho; na kujisomea nyingi ni uchovu wa mwili.” Keep the Scripture reference as “(Mhubiri 12:12).”",
+        "translation_quote": "“Zaidi ya hayo, mwanangu, kaeni ukumbushwe; kwa kuwa kuunda vitabu vingi hakuna mwisho, na bidii ya kujifunza ni uchovu wa mwili” (Mhubiri 12:12)."
+      },
+      {
+        "location": "<article> paragraph 3 (printing history phrasing)",
+        "severity": "minor",
+        "source_quote": "Printing has come a long way since 1436 when each page had to be set up and printed individually.",
+        "suggested_fix": "Make the Kiswahili smoother and faithful to the source. Replace “kila ukurasa ilikuwa inatakiwa kupangwa na kuchapishwa kando kwa kando” with something like “tangu 1436, wakati kila ukurasa ulikuwa unalazimika kupangwa na kuchapishwa pekee yake.” Preserve HTML structure.",
+        "translation_quote": "Uchapishaji umepiga hatua kubwa tangu 1436 wakati kila ukurasa ilikuwa inatakiwa kupangwa na kuchapishwa kando kwa kando."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

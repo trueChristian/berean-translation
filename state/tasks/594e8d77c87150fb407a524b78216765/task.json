@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,45 @@
         },
         "total_tokens": 7634
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1336,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4868,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6204
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[35]: source /article[1]/p[16]/em[1] ('start', 'em', ()); translation /article[1]/p[16] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph 5 (source.html second full paragraph beginning \"The Mennonites thrived...\")",
+      "severity": "major",
+      "source_quote": "the majority, however, by now quite wealthy and affluent in comparison to their Russian peasant neighbors, chose to stay and weather the storm.",
+      "suggested_fix": "Replace \"pachters\" with a correct translation of \"peasant neighbours\" such as \"landarbeiders\", \"boeren\" or \"plattelandbewoners\" to accurately reflect the original meaning: e.g. \"De meerderheid echter, inmiddels tamelijk welvarend vergeleken met hun Russische boeren/buurten, koos ervoor te blijven en de storm uit te zitten.\" Preserve the comparative and temporal nuance (\"by now quite wealthy\").",
+      "translation_quote": "De meerderheid echter, inmiddels tamelijk welvarend en vermogend vergeleken met hun Russische pachters, koos ervoor te blijven en de storm uit te zitten."
+    },
+    {
+      "location": "Paragraph 2 (source.html second paragraph beginning \"This article will not focus...\")",
+      "severity": "minor",
+      "source_quote": "the urgings of the Viceroy Potemkin",
+      "suggested_fix": "Consider rendering the title into standard contemporary Dutch for clarity. Replace \"viceroy\" with a Dutch equivalent such as \"viceregent\" or \"gouverneur\" (or capitalize \"Viceroy\" if retaining the English title): e.g. \"op aandringen van viceregent Potemkin\" or \"op aandringen van gouverneur Potemkin\". If the editorial style prefers to keep the English loanword, capitalize: \"Viceroy Potemkin.\"",
+      "translation_quote": "op aandringen van de viceroy Potemkin"
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "594e8d77c87150fb407a524b78216765",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nld",
@@ -97,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

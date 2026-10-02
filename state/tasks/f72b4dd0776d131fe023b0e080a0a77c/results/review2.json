@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3a7b876a-e395-4cab-9cac-7cedc6b598ea",
+    "response_id": "chatcmpl-EUUNpE5QRFBIy7AUVonynKizkeBdQ",
+    "usage": {
+      "completion_tokens": 1445,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11310
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph near end: sentence translating James 5:16",
+        "severity": "minor",
+        "source_quote": "I do believe that sometimes He works through medicine, but other times He works through the effective, fervent prayer of righteous men and women. (James 5:16)",
+        "suggested_fix": "Replace the German adjective \"erbitterte\" with a contemporary, faithful rendering of \"fervent,\" for example \"inständige\" or \"leidenschaftliche\", and keep grammatical agreement: e.g. „…durch das wirksame, inständige Gebet gerechter Männer und Frauen (Jakobus 5,16).\" Preserve the Scripture reference format used elsewhere (Jakobus 5:16).",
+        "translation_quote": "Ich glaube, dass Er manchmal durch die Medizin wirkt, aber in anderen Fällen durch das wirksame, erbitterte Gebet gerechter Männer und Frauen. (Jakobus 5:16)"
+      },
+      {
+        "location": "Proverbs quotation (Proverbs 4:5-9)",
+        "severity": "minor",
+        "source_quote": "Proverbs 4:5-9 says, “Get wisdom, get understanding: forget it not; neither decline from the words of my mouth. Forsake her not, and she shall preserve thee: love her, and she shall keep thee. Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding. Exalt her, and she shall promote thee: she shall bring thee to honour, when thou dost embrace her. She shall give to thine head an ornament of grace: a crown of glory shall she deliver to thee.”",
+        "suggested_fix": "Use standard contemporary German for the quoted Scripture rather than an archaising style. For example: „Sprüche 4,5-9: ‚Erwirb Weisheit, erwirb Einsicht; vergiss sie nicht und weiche nicht ab von den Worten meines Mundes. Verlasse sie nicht, so wird sie dich bewahren; liebe sie, so wird sie dich behüten. Weisheit ist das Wichtigste; darum erwirb Weisheit, und erwirb Einsicht bei allem, was du erwirbst. Stelle sie hoch, so wird sie dich verherrlichen; sie wird dir Ehre bringen, wenn du sie umarmst. Sie wird deinem Haupt Zierde geben; eine Krone der Herrlichkeit wird sie dir schenken.‘\" Maintain the verse range as 4:5–9 and the placement of the quotation unchanged in the article HTML.",
+        "translation_quote": "Sprüche 4:5-9 sagt: „Hieße Weisheit her, erlange Einsicht; vergiß sie nicht, weiche nicht ab von den Worten meines Mundes. Verlaß sie nicht, so wird sie dich bewahren; liebe sie, so wird sie dich behüten. Weisheit ist das Haupt; erwirb Weisheit; und mit allem, was du erwirbst, erwirb Einsicht. Erhöhe sie, so wird sie dich erhöhen; sie wird dir Ehre bringen, wenn du sie umarmst. Sie wird deinem Haupt ein Ansehen von Gnade geben; eine Krone von Ehre wird sie dir schenken.“"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

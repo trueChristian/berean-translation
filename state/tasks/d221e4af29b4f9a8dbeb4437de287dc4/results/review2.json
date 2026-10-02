@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7c9ba9b0-d89b-4ca1-b5d4-c0eb7f746065",
+    "response_id": "chatcmpl-EUUNpcHbXB8PQHfFZeYqE3UwpG8EK",
+    "usage": {
+      "completion_tokens": 1034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9744,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10778
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> lead and paragraphs through just before <h2>Get Wisdom!</h2> (the opening patient vignette and discussion — from the first <p class=\"lead\"> through the paragraph ending with “either you need a healthy dose of humility or a new doctor— or maybe both.”)",
+        "severity": "critical",
+        "source_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me. ... It can be challenging, though, when patients believe that they know more than their doctor. I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both.",
+        "suggested_fix": "Translate all substantive English paragraphs in this opening section into standard contemporary Russian, preserving the original HTML tags, attribute values and order. Do not remove or alter the quoted patient lines, punctuation, or the drop-cap span; instead render their content into Russian (e.g., «Что привело вас сегодня?» for the lead question). Keep the same paragraph breaks and the <span class=\"drop-cap\"> element. Ensure that any inline footnote markers (e.g., <sup>1</sup>) remain in place.",
+        "translation_quote": "«S o, what brings you in today?» I asked Ben, a 40-year-old man who was sitting across from me. ... It can be challenging, though, when patients believe that they know more than their doctor. I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both."
+      },
+      {
+        "location": "First paragraph <span class=\"drop-cap\"> character and opening quotation marks in the lead",
+        "severity": "minor",
+        "source_quote": "<p class=\"lead\"><span class=\"drop-cap\">“S</span>o, what brings you in today?” I asked Ben...",
+        "suggested_fix": "If preserving the decorative drop-cap span, render the first character of the translated Russian opening inside <span class=\"drop-cap\">. For example, if lead begins «Что», put «Ч» inside <span class=\"drop-cap\"> so the visual styling matches the original. Do not leave an English letter (S) in the drop-cap.",
+        "translation_quote": "<p class=\"lead\"><span class=\"drop-cap\">«S</span>o, what brings you in today?» I asked Ben..."
+      },
+      {
+        "location": "Paragraph referencing Robert Harris and CARS acronym (just before paragraph about marketers)",
+        "severity": "minor",
+        "source_quote": "Robert Harris made an acronym CARS, that helps sort out whether information on a website is valid. Credibility, past Accuracy, Reasonableness, and Supporting information are all important to look at to see if we should value the information on a website.<sup>2</sup>",
+        "suggested_fix": "Translate the explanation and the English terms of the CARS acronym into Russian. It is acceptable to keep the CARS acronym in Latin letters, but the four components should be given in Russian, with the original English terms optionally provided in parentheses. For example: Роберт Харрис предложил акроним CARS — Надёжность, Точность, Разумность и Наличие подтверждающей информации (Credibility, Accuracy, Reasonableness, Supporting information). Keep the <sup>2</sup> anchor as is.",
+        "translation_quote": "Robert Harris made an acronym CARS, that helps sort out whether information on a website is valid. Credibility, past Accuracy, Reasonableness, and Supporting information are all important to look at to see if we should value the information on a website.<sup>2</sup>"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,59 @@
         },
         "total_tokens": 20513
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1301,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13160,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14461
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: ptul.ilitext",
-      "translation_quote": ""
+      "location": "source.html — opening paragraph (article-note)",
+      "severity": "major",
+      "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.",
+      "suggested_fix": "Replace the Kiswahili phrase that now reads '\"A Christ-centered Courtship\" ni mfululizo wa ujumbe juu ya ushirikiano mitaalamu uliowekwa kwa Kristo' with a faithful rendering that preserves the original meaning, for example: '\"A Christ-centered Courtship\" ni mfululizo wa ujumbe juu ya uanifu/miamala ya ndoa uliyozingatia Kristo uliofundishwa na Paul Hershberger.' Keep the existing HTML tags exactly as they are and substitute only the inner text of the <em>…</em> paragraph.",
+      "translation_quote": "\"A Christ-centered Courtship\" ni mfululizo wa ujumbe juu ya ushirikiano mitaalamu uliowekwa kwa Kristo uliotembelewa na Paul Hershberger."
+    },
+    {
+      "location": "source.html — goals list (first two list items)",
+      "severity": "major",
+      "source_quote": "1. To turn the hearts of the fathers to their children.\n2. To turn the hearts of the children to their fathers.",
+      "suggested_fix": "Replace the mistranslated word 'babu' with the correct Kiswahili word 'baba' in the corresponding translated list items. For example: '1. Kuweka mioyo ya baba kurudi kwa watoto wao.' and '2. Kuweka mioyo ya watoto kurudi kwa baba zao.' Preserve the original HTML <ol><li> structure and only change the inner text.",
+      "translation_quote": "1. Kuweka mioyo ya babu kurudi kwa watoto wao.\n2. Kuweka mioyo ya watoto kurudi kwa babu zao."
+    },
+    {
+      "location": "source.html — paragraph referencing previous issue/topic",
+      "severity": "major",
+      "source_quote": "We discussed Satan’s Snares for male and female in the last issue.",
+      "suggested_fix": "Translate 'Satan’s Snares' accurately into Kiswahili (avoid literal or wrong noun translations like 'viti'). Suggested phrasing: 'Tulijadili mitego ya Shetani kwa wavulana na wasichana katika toleo lililopita.' Replace only the inner text of that paragraph, preserving tags and structure.",
+      "translation_quote": "Tulijadili Viti vya Saitan kwa wavulana na wasichana katika toleo lililopita."
+    },
+    {
+      "location": "source.html — paragraph on preparation sleep (sentence with 'even')",
+      "severity": "minor",
+      "source_quote": "And yet, through this dying process, a new life can spring forth.",
+      "suggested_fix": "Fix the mixed-language phrasing 'Na even hivyo' to fully Kiswahili wording. For example: 'Na hata hivyo, kupitia mchakato huu wa kifo, uhai mpya unaweza kuchipuka.' Change only the affected phrase inside the paragraph, preserving tags.",
+      "translation_quote": "Na even hivyo, kupitia mchakato huu wa kifo, uhai mpya unaweza kuchipuka."
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "04646147697633a48def04221a0ddf23",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swa",
@@ -97,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

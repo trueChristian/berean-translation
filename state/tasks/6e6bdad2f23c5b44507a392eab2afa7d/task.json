@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,38 @@
         },
         "total_tokens": 7617
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 809,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4903,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5712
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[16]; missing: 4:26; extra: none",
-      "translation_quote": ""
+      "location": "Paragraph beginning \"By this time, the strong agricultural society...\" (third full paragraph after the ideology discussion)",
+      "severity": "major",
+      "source_quote": "By this time, the strong agricultural society of the Mennonites had transformed Ukraine into a breadbasket, its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+      "suggested_fix": "Translate the crop name into German or render it as a Germanized proper name. For example: \"...ihre weiten Felder waren mit einer von den Mennoniten speziell angebauten Weizensorte bestellt: Turkey-Red-Weizen.\" or \"...bestellt: der Weizensorte 'Turkey Red'.\" Preserve the colon and punctuation and keep the placement in the sentence unchanged.",
+      "translation_quote": "Zu dieser Zeit hatte die starke Agrargesellschaft der Mennoniten die Ukraine zu einer Kornkammer verwandelt, ihre weiten Felder waren mit einer von den Mennoniten speziell angebauten Weizensorte bestellt: Turkey Red Wheat."
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "6e6bdad2f23c5b44507a392eab2afa7d",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "deu",
@@ -97,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

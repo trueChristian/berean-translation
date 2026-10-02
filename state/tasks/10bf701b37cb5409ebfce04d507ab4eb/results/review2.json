@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "34a2e516-8389-4338-8cbc-92cdc799e077",
+    "response_id": "chatcmpl-EUUNvcs2ygftbsB94Uj3pAzNAPkDh",
+    "usage": {
+      "completion_tokens": 1066,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5977
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...villages were burnt and decimated, people executed or driven off, and livestock and grain plundered.</p>",
+        "severity": "major",
+        "source_quote": "\"villages were burnt and decimated, people executed or driven off, and livestock and grain plundered.\"",
+        "suggested_fix": "Замените «людей казнили или выжигали» на «людей казнили или прогоняли/выгоняли/высылали» (в зависимости от контекста). Конкретный исправленный перевод: «деревни сжигали и опустошали, людей казнили или выгоняли/прогоняли, а скот и зерно грабили.»",
+        "translation_quote": "«Деревни сжигали и опустошали, людей казнили или выжигали, а скот и зерно грабили.»"
+      },
+      {
+        "location": "<p>Первая immigration ... and the “Old Colony” was established at Chortitza.</p>",
+        "severity": "minor",
+        "source_quote": "\"the ‘Old Colony’ was established at Chortitza.\"",
+        "suggested_fix": "«Old Colony» обычно переводится как «Старая колония» в историческом контексте меннонитов (вариант: «Старшая колония» можно встретить, но менее распространён). Рекомендуем: «и «Старая колония» была основана в Хортице.»",
+        "translation_quote": "«и «Старшая колония» была основана в Хортице.»"
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

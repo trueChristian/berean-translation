@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,66 @@
         },
         "total_tokens": 2269
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1841,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1544,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3385
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: pְ",
-      "translation_quote": ""
+      "location": "<div class=\"poem\"> stanza 2, line 2",
+      "severity": "major",
+      "source_quote": "his life within the keen air breathes;",
+      "suggested_fix": "Translate into grammatically correct Modern Hebrew that preserves singular subject and the image of life breathing in the keen/cold air. For example: \"חַיָּיו נָשָׁמים בְּאֲוִיר הַקָּרִיר\" or \"חַיָּיו נוֹשְׁמִים בַּאֲוִיר הַקָּרִיר\" (prefer the first to keep singular agreement). Replace the existing line while keeping the surrounding HTML tags and line break.",
+      "translation_quote": "חייו בתווך הקר נושמים;"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 3, line 1",
+      "severity": "major",
+      "source_quote": "And though abroad the sharp winds blow,",
+      "suggested_fix": "Use a correct Hebrew subordinating structure for 'though' and 'abroad' (i.e., 'though outside' = 'אף שמחוץ'). For example: \"ואף שמחוץ נשבות רוחות חדות,\" or \"ואף שמחוץ הרוחות החדות נושבות,\" matching natural word order. Replace the incorrect phrase 'ואף שעל חוץ'.",
+      "translation_quote": "ואף שעל חוץ הרוחות החדות נושבות,"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 3, lines 3–4 (personification of Home)",
+      "severity": "major",
+      "source_quote": "home closer draws her circle now,\nand warmer glows her light within.",
+      "suggested_fix": "Preserve the personification and gender agreement in Hebrew. If 'home' is rendered as a feminine noun (e.g., 'הַבַּיִת' can be treated as masculine or feminine, but the poem uses 'her'), make possessives and pronouns agree. Suggested rendering: \"והבית כעת מקבץ את מעגלו קרוב יותר,\\nואורו מבפנים זוהר חם יותר.\" OR to match feminine personification: \"והבית כעת מקבצת את מעגלָה קרוב יותר,\\nואורה מבפנים זוהר חם יותר.\" Choose one consistent gender and apply it to both lines. Fix the existing mismatch 'הבית מקבץ... מעגלו' and 'ואורו בפנים'.",
+      "translation_quote": "הבית מקבץ כעת את מעגלו קרוב יותר,\nואורו בפנים זוהר חם יותר."
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 2, line 1 (divine name)",
+      "severity": "minor",
+      "source_quote": "And yet God's love is not withdrawn;",
+      "suggested_fix": "For idiomatic Modern Hebrew in a Christian magazine, prefer the common target-language form 'אֱלֹהִים' rather than the more generic 'הָאֵל' used in the translation. Suggested fix: replace 'אהבת האל' with 'אהבת אלוהים' (keeping the rest of the line).",
+      "translation_quote": "ועדיין אהבת האל לא נמשכה;"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 4, line 1",
+      "severity": "minor",
+      "source_quote": "O God, you give the winter's cold,",
+      "suggested_fix": "Use the natural Hebrew collocation for 'the winter's cold' — 'קור החורף' rather than the literal and awkward 'קירור החורף'. Suggested fix: replace 'את קירור החורף' with 'את קור החורף'.",
+      "translation_quote": "אוי אלוהים, אתה נותן את קירור החורף,"
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "d3090887d6077253cd47b78887b5750f",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "heb",
@@ -97,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

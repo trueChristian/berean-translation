@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "26b3cfed-2e34-42ac-9d48-06b88bebbdbd",
+    "response_id": "chatcmpl-EUUNzEFUoQe66MEd1Rax4vfLD21e7",
+    "usage": {
+      "completion_tokens": 1336,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4868,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6204
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5 (source.html second full paragraph beginning \"The Mennonites thrived...\")",
+        "severity": "major",
+        "source_quote": "the majority, however, by now quite wealthy and affluent in comparison to their Russian peasant neighbors, chose to stay and weather the storm.",
+        "suggested_fix": "Replace \"pachters\" with a correct translation of \"peasant neighbours\" such as \"landarbeiders\", \"boeren\" or \"plattelandbewoners\" to accurately reflect the original meaning: e.g. \"De meerderheid echter, inmiddels tamelijk welvarend vergeleken met hun Russische boeren/buurten, koos ervoor te blijven en de storm uit te zitten.\" Preserve the comparative and temporal nuance (\"by now quite wealthy\").",
+        "translation_quote": "De meerderheid echter, inmiddels tamelijk welvarend en vermogend vergeleken met hun Russische pachters, koos ervoor te blijven en de storm uit te zitten."
+      },
+      {
+        "location": "Paragraph 2 (source.html second paragraph beginning \"This article will not focus...\")",
+        "severity": "minor",
+        "source_quote": "the urgings of the Viceroy Potemkin",
+        "suggested_fix": "Consider rendering the title into standard contemporary Dutch for clarity. Replace \"viceroy\" with a Dutch equivalent such as \"viceregent\" or \"gouverneur\" (or capitalize \"Viceroy\" if retaining the English title): e.g. \"op aandringen van viceregent Potemkin\" or \"op aandringen van gouverneur Potemkin\". If the editorial style prefers to keep the English loanword, capitalize: \"Viceroy Potemkin.\"",
+        "translation_quote": "op aandringen van de viceroy Potemkin"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

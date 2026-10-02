@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 9536
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1955,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6182,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8137
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.html — opening blockquote (Scripture Rom. 11:33–36)",
+      "severity": "major",
+      "source_quote": "“O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are His judgments, and his ways past finding out! For who hath known the mind of the Lord? Or who hath been his counsellor? Or who hath first given to him, and it shall be recompensed unto him again? For of Him, and through Him, and to him, are all things: to whom be glory for ever. Amen” (Rom. 11:33–36).",
+      "suggested_fix": "Replace the Norwegian phrase “uforsonlige er hans dommer” with a faithful rendering of “how unsearchable are His judgments,” e.g. “hvor uutforskbare er hans dommer” or “hvor uforgripelige er hans dommer.” Preserve punctuation and the verse reference. Example corrected translation (Norwegian Bokmål):\n«O dybden av rikdommen både i Guds visdom og kunnskap! Hvor uutforskbare er hans dommer, og hans veier er uovervinnelige! For hvem har kjent Herrens sinn? ...»\n(Adjust only the phrase that mistranslates “unsearchable” so the scripture meaning is preserved.)",
+      "translation_quote": "«O dybden av rikdommen både i Guds visdom og kunnskap! Hvor uforsonlige er hans dommer, og hans veier uutforskelige! For hvem har kjent Herrens sinn? Eller hvem har vært hans rådgiver? Eller hvem har først gitt ham, og det skal bli gjengjeldt ham igjen? For av ham, og gjennom ham, og til ham er alle ting: ham være ære i evighet. Amen» (Rom. 11:33–36)."
+    },
+    {
+      "location": "source.title and multiple in-article occurrences (article title, section headings, hymn titles, image alt)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Unsupported HTML attribute: for",
-      "translation_quote": ""
+      "source_quote": "Title and headings in source: \"Crown Him with Many Crowns\" (article title and lyrics section headings). Image alt: \"Sheet music for Crown Him with Many Crowns.\" Also the in-body quoted hymn title: “Crown Him with Many Crowns.”",
+      "suggested_fix": "Translate the hymn title and any repeated quoted English hymn titles into Norwegian Bokmål throughout the article and metadata fields (title, section headings, figure alt). Use a conventional Norwegian rendering of the hymn title. Suggested translation: “Krone ham med mange kroner”. Apply the change consistently: \n- source.title -> \"Krone ham med mange kroner\" \n- All <h2> headings that currently read \"Crown Him with Many Crowns\" -> \"Krone ham med mange kroner\" \n- The image alt attribute -> \"Noteark for 'Krone ham med mange kroner'\" \n- Any inline quotations of the hymn title (e.g., \"Crown Him with Many Crowns\") should be translated to \"Krone ham med mange kroner\". \nDo not alter the English-language original author attributions inside <em> tags that are proper names, but translate quoted substantive prose such as hymn titles and article title into Norwegian Bokmål.",
+      "translation_quote": "Article title and headings retained as English: \"Crown Him with Many Crowns\"; image alt: \"Noteark for Crown Him with Many Crowns\" (title left in English within translation)."
+    },
+    {
+      "location": "source.html — paragraph mentioning hymn “Rise, Glorious Conqueror.”",
+      "severity": "major",
+      "source_quote": "One of his hymns we love and enjoy is “Rise, Glorious Conqueror.”",
+      "suggested_fix": "Translate this quoted hymn title into Norwegian Bokmål. For example: “En av hans salmer vi elsker og nyter er «Stig opp, strålende seierherre.»” (or another accepted Norwegian rendering). Preserve the quotation marks and HTML structure. Quoted substantive prose must be translated into the target language (per review rules).",
+      "translation_quote": "Mr. Bridges’ hymns are marked by spirituality and genuine power. One of his hymns we love and enjoy is “Rise, Glorious Conqueror.” Utvilsomt er hans største salme er “Crown Him with Many Crowns.”"
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "662a6f7b3a08e752f5005d8c697a2834",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nob",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "25a392c7-795a-4b4e-9ade-1f73f6aabd6a",
+    "response_id": "chatcmpl-EUUNyXOzeGnyTBHV4PxqTUpNonYiG",
+    "usage": {
+      "completion_tokens": 1366,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7517
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout (book and hymn titles)",
+        "severity": "major",
+        "source_quote": "Hymns of the Heart; The Passion of Jesus; The Song of the Seraphs; Rise, Glorious Conqueror; Hymns and Sacred Lyrics; Hymns of the Church; Diademata",
+        "suggested_fix": "Translate the English substantive titles into standard contemporary German (while retaining original italics and HTML structure). Examples: \"Hymns of the Heart\" → \"Hymnen des Herzens\" (or a literal German rendering used by the publisher, if established); \"The Passion of Jesus\" → \"Die Passion Jesu\"; \"The Song of the Seraphs\" → \"Das Lied der Seraphim\"; \"Rise, Glorious Conqueror\" → \"Erhebe dich, ruhmreicher Sieger\" (or a commonly used German title if one exists); \"Hymns and Sacred Lyrics\" → \"Hymnen und geistliche Lyrik\"; \"Hymns of the Church\" → \"Hymnen der Kirche\". Preserve italics and tags exactly as in source HTML (for example: <em>Die Passion Jesu</em> in place of <em>The Passion of Jesus</em>). For the tune name <em>Diademata</em> you may keep the original word (proper name) but add a short parenthetical German gloss if desired (e.g. <em>Diademata</em> (‚diademata‘ = „königliche Krone“)).",
+        "translation_quote": "All occurrences of the italicized English titles remain untranslated in the German article (e.g. \"<em>Hymns of the Heart</em>\", \"<em>The Passion of Jesus</em>\", \"Rise, Glorious Conqueror\", \"<em>Hymns and Sacred Lyrics</em>\", \"<em>Hymns of the Church</em>\", and tune name \"<em>Diademata</em>\")."
+      },
+      {
+        "location": "Paragraph: \"So like we… mid–1800s\" (source paragraph beginning \"As sadly, we find many factions…\")",
+        "severity": "minor",
+        "source_quote": "As sadly, we find many factions in the Christian church today, so also was the scope of things going on in the mid–1800s.",
+        "suggested_fix": "Correct the German idiom and numeric expression. Replace \"Mitte des 1800. Jahrhunderts\" with a standard German formulation such as \"Mitte des 19. Jahrhunderts\" or \"Mitte der 1800er Jahre\". Preserve surrounding HTML tags and sentence structure.",
+        "translation_quote": "\"So wie wir heute leider viele Fraktionen in der christlichen Kirche finden, so war auch das Spannungsfeld Mitte des 1800. Jahrhunderts vielfältig.\""
+      },
+      {
+        "location": "Bridges lyrics, first stanza, line 2",
+        "severity": "minor",
+        "source_quote": "Hark! how the heavenly anthems drowns all music but its own;",
+        "suggested_fix": "Use a more idiomatic German verb for 'drowns' in musical sense. For example: \"Hört! wie die himmlischen Gesänge alle andere Musik übertönen, außer ihrer eigenen;\" Keep the HTML and line breaks unchanged.",
+        "translation_quote": "\"Hört! wie die himmlischen Anthemen jede Musik verschlingen, außer ihrer eigenen;\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

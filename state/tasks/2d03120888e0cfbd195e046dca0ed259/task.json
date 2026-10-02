@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 16037
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1211,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10137,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11348
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[15]; missing: 3:9; extra: 3:9-10",
-      "translation_quote": ""
+      "location": "Paragraph containing Psalm quote (near end of article)",
+      "severity": "major",
+      "source_quote": "Psalms 103:3 says of God, “Who forgiveth all thine iniquities; who healeth all thy diseases.”",
+      "suggested_fix": "Translate the quoted KJV phrase so that it conveys the same doctrinal sense (sin/iniquity forgiveness) in idiomatic Swedish. Replace the current translation (“Han som förlåter alla dina misstag, som helar alla dina sjukdomar.”) with wording that clearly renders “iniquities” as synd(er) or in Swedish usage: e.g. “Psaltaren 103:3 säger om Gud: ‘Han som förlåter alla dina synder, han som helar alla dina sjukdomar.’” Preserve verse reference placement and quotation marks exactly as in the source HTML structure.",
+      "translation_quote": "“Han som förlåter alla dina misstag, som helar alla dina sjukdomar.”"
+    },
+    {
+      "location": "Paragraph discussing Robert Harris acronym CARS",
+      "severity": "minor",
+      "source_quote": "Robert Harris made an acronym CARS, that helps sort out whether information on a website is valid. Credibility, past Accuracy, Reasonableness, and Supporting information are all important to look at to see if we should value the information on a website.",
+      "suggested_fix": "Translate the four English words that expand the acronym CARS into Swedish or provide Swedish equivalents in parentheses so the meaning is clear to Swedish readers. For example: “Robert Harris gjorde akronymen CARS som hjälper till att avgöra om information på en webbplats är giltig: trovärdighet, tidigare riktighet, rimlighet och stödjande information.” Keep the acronym CARS unchanged, but render the expanded terms in Swedish immediately after or instead of the English words.",
+      "translation_quote": "“Robert Harris gjorde akronymen CARS som hjälper till att avgöra om information på en webbplats är giltig. Credibility, Accuracy, Reasonableness och Supporting information är alla viktiga att titta på för att se om vi bör värdera informationen på en webbplats.”"
+    },
+    {
+      "location": "Paragraph: “Healing comes because God touches us…” (end of article)",
+      "severity": "minor",
+      "source_quote": "Healing comes because God touches us, right down to the tiniest parts of our cells and immune system, and makes things whole again.",
+      "suggested_fix": "Fix the Swedish grammatical/idiomatic rendering so it conveys the cause-effect and reads naturally. Replace the phrase “Helande kommer därför att Gud rör vid oss, ner i de minsta delarna av våra celler och immunsystem, och gör oss hela igen.” with a clearer translation such as: “Helande kommer därför att Gud rör vid oss, ända ner i de minsta delarna av våra celler och immunsystem, och gör oss hela igen.” or “Helande kommer därför från att Gud rör vid oss, ända ner i de minsta delarna av våra celler och immunsystem, och gör oss hela igen.” Preserve original punctuation and placement.",
+      "translation_quote": "“Helande kommer därför att Gud rör vid oss, ner i de minsta delarna av våra celler och immunsystem, och gör oss hela igen.”"
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "2d03120888e0cfbd195e046dca0ed259",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swe",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

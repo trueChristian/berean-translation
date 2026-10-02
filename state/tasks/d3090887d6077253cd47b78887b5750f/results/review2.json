@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a005dd26-a173-41d9-8ec2-f32efd3ff058",
+    "response_id": "chatcmpl-EUUO4RRfXi2luQB3OEyKLdescpG3g",
+    "usage": {
+      "completion_tokens": 1841,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1544,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3385
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 2",
+        "severity": "major",
+        "source_quote": "his life within the keen air breathes;",
+        "suggested_fix": "Translate into grammatically correct Modern Hebrew that preserves singular subject and the image of life breathing in the keen/cold air. For example: \"חַיָּיו נָשָׁמים בְּאֲוִיר הַקָּרִיר\" or \"חַיָּיו נוֹשְׁמִים בַּאֲוִיר הַקָּרִיר\" (prefer the first to keep singular agreement). Replace the existing line while keeping the surrounding HTML tags and line break.",
+        "translation_quote": "חייו בתווך הקר נושמים;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 1",
+        "severity": "major",
+        "source_quote": "And though abroad the sharp winds blow,",
+        "suggested_fix": "Use a correct Hebrew subordinating structure for 'though' and 'abroad' (i.e., 'though outside' = 'אף שמחוץ'). For example: \"ואף שמחוץ נשבות רוחות חדות,\" or \"ואף שמחוץ הרוחות החדות נושבות,\" matching natural word order. Replace the incorrect phrase 'ואף שעל חוץ'.",
+        "translation_quote": "ואף שעל חוץ הרוחות החדות נושבות,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, lines 3–4 (personification of Home)",
+        "severity": "major",
+        "source_quote": "home closer draws her circle now,\nand warmer glows her light within.",
+        "suggested_fix": "Preserve the personification and gender agreement in Hebrew. If 'home' is rendered as a feminine noun (e.g., 'הַבַּיִת' can be treated as masculine or feminine, but the poem uses 'her'), make possessives and pronouns agree. Suggested rendering: \"והבית כעת מקבץ את מעגלו קרוב יותר,\\nואורו מבפנים זוהר חם יותר.\" OR to match feminine personification: \"והבית כעת מקבצת את מעגלָה קרוב יותר,\\nואורה מבפנים זוהר חם יותר.\" Choose one consistent gender and apply it to both lines. Fix the existing mismatch 'הבית מקבץ... מעגלו' and 'ואורו בפנים'.",
+        "translation_quote": "הבית מקבץ כעת את מעגלו קרוב יותר,\nואורו בפנים זוהר חם יותר."
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 1 (divine name)",
+        "severity": "minor",
+        "source_quote": "And yet God's love is not withdrawn;",
+        "suggested_fix": "For idiomatic Modern Hebrew in a Christian magazine, prefer the common target-language form 'אֱלֹהִים' rather than the more generic 'הָאֵל' used in the translation. Suggested fix: replace 'אהבת האל' with 'אהבת אלוהים' (keeping the rest of the line).",
+        "translation_quote": "ועדיין אהבת האל לא נמשכה;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 4, line 1",
+        "severity": "minor",
+        "source_quote": "O God, you give the winter's cold,",
+        "suggested_fix": "Use the natural Hebrew collocation for 'the winter's cold' — 'קור החורף' rather than the literal and awkward 'קירור החורף'. Suggested fix: replace 'את קירור החורף' with 'את קור החורף'.",
+        "translation_quote": "אוי אלוהים, אתה נותן את קירור החורף,"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

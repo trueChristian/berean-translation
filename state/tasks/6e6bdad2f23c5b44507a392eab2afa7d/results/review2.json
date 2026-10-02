@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5d1833fb-8ce9-4ee5-8766-57efcf529e12",
+    "response_id": "chatcmpl-EUUO4e7rZwYNui6NOnFeCE27zEZJ9",
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5712
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"By this time, the strong agricultural society...\" (third full paragraph after the ideology discussion)",
+        "severity": "major",
+        "source_quote": "By this time, the strong agricultural society of the Mennonites had transformed Ukraine into a breadbasket, its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+        "suggested_fix": "Translate the crop name into German or render it as a Germanized proper name. For example: \"...ihre weiten Felder waren mit einer von den Mennoniten speziell angebauten Weizensorte bestellt: Turkey-Red-Weizen.\" or \"...bestellt: der Weizensorte 'Turkey Red'.\" Preserve the colon and punctuation and keep the placement in the sentence unchanged.",
+        "translation_quote": "Zu dieser Zeit hatte die starke Agrargesellschaft der Mennoniten die Ukraine zu einer Kornkammer verwandelt, ihre weiten Felder waren mit einer von den Mennoniten speziell angebauten Weizensorte bestellt: Turkey Red Wheat."
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

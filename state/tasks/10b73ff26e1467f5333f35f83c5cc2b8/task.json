@@ -2,7 +2,6 @@
   "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e4611c9fae840469c2fe7874e473085",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -43,17 +42,45 @@
         },
         "total_tokens": 13611
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1000,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8521,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9521
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[2]: source /article[1]/p[1]/em[1] ('start', 'em', ()); translation /article[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph containing Matthew 16:18 (around: “And Jesus Himself said ... (Matt. 16:18).”)",
+      "severity": "major",
+      "source_quote": "\"...That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it\" (Matt. 16:18).",
+      "suggested_fix": "Translate the verse faithfully as printed, preserving the sense \"the gates of hell\". Replace the current Bengali rendering with a faithful target-language equivalent. For example: “...তুমি পিতরোস; এবং আমি এই শিলা (=পাথর) উপর আমার চার্চ প্রতিষ্ঠা করিব; এবং নরকের দ্বারপত্তন (=শয়তানের দালান/নরকের দুয়ার) তাহার বিরুদ্ধে জয়ী হইবে না” — or more naturally: “...তুমি পিতরোস; এবং আমি এই পাথরের ওপর আমার চার্চ গড়িব; এবং নরকের দরজা তাহাকে জয় করিবে না।” Keep the original parenthetical reference “(মথি ১৬:১৮).” Ensure the replacement stays within the same HTML element and punctuation.",
+      "translation_quote": "“...তুমি পিতরোস; এবং আমি এই শিলার ওপর আমার চার্চ প্রতিষ্ঠা করিব; আর পার্থিব জগতের দরজা তাহাকে জয় করিবে না” (মথি ১৬:১৮)।"
+    },
+    {
+      "location": "Paragraph: \"I was talking with a young man...converted at a young age.\"",
+      "severity": "minor",
+      "source_quote": "He testified of being converted at a young age.",
+      "suggested_fix": "Translate the verb 'converted' into Bengali rather than leaving the English in parentheses. Replace “প্রত্যাবর্তিত (converted) হওয়ার” with a single natural Bengali rendering such as “যুবক বয়সে দমনানোত্তীর্ণ/ধর্মান্তরিত/হৃদয়প্রাণে বিশ্বাসী হওয়া” — best: “কিশোর বয়সেই বিশ্বাসে আসার সাক্ষী দিয়েছেন” or “কিশোর বয়সেই বিশ্বাসী হয়েছেন।” Keep sentence HTML tags and punctuation unchanged.",
+      "translation_quote": "তিনি কিশোর বয়সেই প্রত্যাবর্তিত (converted) হওয়ার সাক্ষী দিয়েছেন।"
     }
   ],
+  "finished_at": "2026-10-02T10:04:38+00:00",
   "id": "10b73ff26e1467f5333f35f83c5cc2b8",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ben",
@@ -97,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

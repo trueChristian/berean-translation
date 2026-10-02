@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "112dd145-89d5-43f5-abaa-a3c2ee42a82f",
+    "response_id": "chatcmpl-EUUOnUPp3YbNt6VNBSbNInKeLpzyG",
+    "usage": {
+      "completion_tokens": 1333,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7830
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph (first <p> after figure)",
+        "severity": "minor",
+        "source_quote": "And it was at Jerusalem the feast of the dedication, and it was winter (John 10:22).",
+        "suggested_fix": "Use a more conventional Russian rendering of the biblical phrase for this feast. Replace «праздник обновления» with «праздник освящения» (or «праздник посвящения») to match common Russian Bible and liturgical usage.",
+        "translation_quote": "И происходило во Иерусалиме праздник обновления, и была зима (Иоанн 10:22)."
+      },
+      {
+        "location": "Second paragraph (paragraph that mentions a popular song)",
+        "severity": "minor",
+        "source_quote": "While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments, winter is generally despised by the normal inhabitants of this earth.",
+        "suggested_fix": "Either render the song title in Russian quotation marks and transliteration or mark it as a title. For example: «такие, как \"Winter Wonderland\"» or «такие, как „Зимняя страна чудес“ (\"Winter Wonderland\")», if a Russian title is desired. The current plain English appearance is acceptable but non‑idiomatic in running Russian text.",
+        "translation_quote": "Хотя несколько радостных мелодий, таких как Winter Wonderland, пытаются использовать её величественные моменты, зима в целом ненавистна обычным жителям этой земли."
+      },
+      {
+        "location": "Paragraph beginning “As we broaden that thought…” (Strengthening section)",
+        "severity": "minor",
+        "source_quote": "The moral character of Adonijah had eroded, for “his father had not displeased him at any time in saying, Why hast thou done so?” (1 Kings 1:6).",
+        "suggested_fix": "Use a more standard Russian transliteration of the name. Replace «Адонии» with «Адония» (nominative) or keep the English name case clearly matched to the Russian sentence: e.g. «Моральный характер Адонии (Adonijah) разложился...» or better: «Моральный характер Адония разложился...». Ensure the inflected form fits the Russian grammar (e.g. «Адония» → «Адонии» in the clause if retaining the current sentence structure).",
+        "translation_quote": "Моральный характер Адонии разложился, ибо «его отец не заставлял его ни в чем огорчаться, говоря: зачем ты так сделал?» (1 Царств 1:6)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

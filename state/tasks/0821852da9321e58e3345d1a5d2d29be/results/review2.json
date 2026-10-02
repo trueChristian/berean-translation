@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "45744c3f-cad8-4c10-93fb-1961742e9acc",
+    "response_id": "chatcmpl-EUUOz00Lo4Z6vxclK5vhmP8agbc73",
+    "usage": {
+      "completion_tokens": 1653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7726,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9379
+    }
+  },
+  "received_at": "2026-10-02T10:04:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html near: \"<em>Sola scriptura</em> (scripture alone)\", first paragraph",
+        "severity": "critical",
+        "source_quote": "<em>Sola scriptura</em> (scripture alone)",
+        "suggested_fix": "Translate the parenthetical English into Russian (or render the concept fully in Russian) while preserving or optionally retaining the Latin term. Example: «<em>Sola scriptura</em> (только Писание)» or «только Писание (Sola scriptura)». Do not leave the English phrase \"scripture alone\" untranslated.",
+        "translation_quote": "— <em>Sola scriptura</em> (только Писание). Традиционно ..."
+      },
+      {
+        "location": "source.html heading \"Submission\" and subsequent paragraph beginning \"The Bible calls us to submit ourselves:\", entire section",
+        "severity": "major",
+        "source_quote": "<h2>Submission</h2>\n\n<p>The Bible calls us to submit ourselves:</p>",
+        "suggested_fix": "Restore the distinct nuance between the English headings \"Submission\" and the later separate heading \"Obedience\". Translate \"Submission\" as «Подчинение» (or similar) to distinguish it from \"Obedience\" (which should be «Послушание»). For example change the first heading currently rendered «Послушание» to «Подчинение». Ensure the following sentence remains: «Библия призывает нас к подчинению:».",
+        "translation_quote": "<h2>Послушание</h2>\n\n<p>Библия призывает нас к подчинению:</p>"
+      },
+      {
+        "location": "source.html heading later \"Obedience\" (after Alexander the Great story)",
+        "severity": "minor",
+        "source_quote": "<h2>Obedience</h2>\n\n<p>Submission and obedience go hand in hand. If we are willing to submit to something or someone, we will want to obey it. ...</p>",
+        "suggested_fix": "If you apply the previous fix (translate the earlier \"Submission\" as «Подчинение»), keep this later heading translated as «Послушание» to reflect the original English distinction. Adjust the duplicated heading so the two English headings map to two different Russian headings: «Подчинение» (Submission) and «Послушание» (Obedience).",
+        "translation_quote": "<h2>Послушание</h2>\n\n<p>Подчинение и послушание идут рука об руку. Если мы готовы подчиниться чему-то или кому-то, мы захотим повиноваться этому. ...</p>"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}
