@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>…The haven Christ promotes is a harbor that is free from fretful fear and fledgling faith. This is a <em>peace … not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid –John 14:27.</em></p>",
+      "severity": "major",
+      "source_quote": "the haven Christ promotes is a harbor that is free from fretful fear and fledgling faith",
+      "suggested_fix": "Replace the mistranslation of \"fledgling faith\" (which means weak/immature faith) with a Greek phrase conveying that sense. For example: \"το λιμάνι που προωθεί ο Χριστός είναι ένα καταφύγιο ελεύθερο από αναστατωμένο φόβο και ανώριμη πίστη.\" Preserve the surrounding HTML and the quoted John 14:27 reference unchanged.",
+      "translation_quote": "το λιμάνι που προωθεί ο Χριστός είναι ένα καταφύγιο που είναι ελεύθερο από αναστατωμένο φόβο και ραγδαία πίστη."
+    },
+    {
+      "location": "<p>Somehow, we have embraced the thought that the desired haven of rest is an earthly euphoric utopia void of any storms. ...</p>",
+      "severity": "minor",
+      "source_quote": "the desired haven of rest is an earthly euphoric utopia void of any storms",
+      "suggested_fix": "Correct the grammatical agreement in Greek: change \"μια επίγειος ευφορική ουτοπία\" to \"μια επίγεια ευφορική ουτοπία\" so gender and agreement match the noun \"ουτοπία.\" Keep surrounding HTML intact.",
+      "translation_quote": "Κάπως, έχουμε υιοθετήσει την ιδέα ότι το επιθυμητό λιμάνι της ανάπαυσης είναι μια επίγειος ευφορική ουτοπία χωρίς καμία θύελλα."
+    },
+    {
+      "location": "Heading: <h2>…Preserving our Person</h2> / corresponding translation <h2>…Φυλάσσοντας το Πρόσωπό μας</h2>",
+      "severity": "minor",
+      "source_quote": "…Preserving our Person",
+      "suggested_fix": "Render the heading in more natural contemporary Modern Greek to match the article's register and meaning. Suggested replacement: \"…Διαφυλάσσοντας τον εαυτό μας\" or \"…Διαφυλάσσοντας την προσωπικότητά μας\". Preserve the <h2> tag and ellipsis.",
+      "translation_quote": "…Φυλάσσοντας το Πρόσωπό μας"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

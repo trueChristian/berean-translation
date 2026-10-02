@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (first paragraph)",
+      "severity": "major",
+      "source_quote": "Being a true friend to someone who is hurting can change that person’s life forever.",
+      "suggested_fix": "Translate meaning exactly and keep neutral wording about \"person\" (not change to \"woman\"). For example: \"להיות חברה אמתית של מישהי שסובלת יכול לשנות את חייה של אותה אדם לעד.\" (better idiomatic Hebrew: \"להיות חברה אמיתית של מי שסובלת יכול לשנות את חייה של אותה אישה לנצח.\" — but preserve 'person' vs 'woman' as in source: use \"אותו אדם\"/\"אותה אדם\" is awkward; recommended: \"את חייה של אותה אישה\" only if source meant 'woman'; since source is gender-neutral 'person' in context about a child, use \"אותו אדם\" would be unnatural — preferred correction below). Corrected proposed Hebrew preserving original meaning and gender (child): \"להיות חברה אמיתית של מי שסובלת יכול לשנות את חייה של אותה בת לנצח.\"",
+      "translation_quote": "להיות חברה אמתית של מישהי שסובלת יכול לשנות את חייה של אותה אישה לעד."
+    },
+    {
+      "location": "second paragraph (\"mean\")",
+      "severity": "major",
+      "source_quote": "the second-grade girls were ready for someone to be mean to, or so it seemed.",
+      "suggested_fix": "Do not leave the English adjective 'mean' untranslated. Use an appropriate Hebrew phrase conveying \"be unkind/mean to\": e.g. \"הבנות בכיתה ב' היו מוכנות להיות אכזריות כלפי מישהי, או כך זה נראה.\"",
+      "translation_quote": "הבנות בכיתה ב' היו מוכנות למישהו להיות mean אליהן, או כך זה נראה."
+    },
+    {
+      "location": "third paragraph (crying sentence)",
+      "severity": "major",
+      "source_quote": "many evenings she walked home from school, crying most of the way and wishing that she wouldn’t need to go back to school the next day!",
+      "suggested_fix": "The translation uses the unrelated word 'אחלה' which changes the meaning. Replace with a correct verb phrase: \"ואחלה\" → \"מאחלת\" is likely intended, but better: \"ורוצה שלא תצטרך לחזור לבית הספר מחר!\" or \"מאחלת שלא תצטרך לחזור לבית הספר למחרת!\" Preserve HTML tags and punctuation.",
+      "translation_quote": "אבל הרבה ערבים היא הלכה הביתה מבית הספר ובכתה ברוב הדרך ואחלה שלא תצטרך לחזור לבית הספר למחרת!"
+    },
+    {
+      "location": "fourth paragraph (flash cards)",
+      "severity": "major",
+      "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
+      "suggested_fix": "\"Flash cards\" must be translated idiomatically, not as \"כרטיסי הזיכרון\" (which suggests digital memory). Use \"כרטיסיות לימוד\" or \"כרטיסיות לחזרה\". Example: \"בהפסקה הבאה האשימו אותה בכך שרימתה בשימוש בכרטיסיות הלימוד שלה.\"",
+      "translation_quote": "בהפסקה הבאה האשימו אותה ברמאות בכרטיסי הזיכרון שלה."
+    },
+    {
+      "location": "paragraph naming Esther (support)",
+      "severity": "minor",
+      "source_quote": "She was Hadassah’s best friend and supported her all through those difficult years.",
+      "suggested_fix": "The translation renders this as \"חברת הלב של הדסה ותמכה בה\" which is unnatural/incorrect. Use \"הייתה החברה הטובה ביותר של הדסה ותמכה בה לאורך כל השנים הקשות האלה.\"",
+      "translation_quote": "היא הייתה חברת הלב של הדסה ותמכה בה בכל אותן שנים קשות."
+    },
+    {
+      "location": "paragraph describing Esther (remembered for)",
+      "severity": "minor",
+      "source_quote": "Esther was a very gentle, sweet girl, which is mostly what Hadassah remembered her for.",
+      "suggested_fix": "Translation is ungrammatical and wrong gender: \"וזה בעיקר מה שהדסה זוכרת אותה עבורו.\" Replace with grammatically correct Hebrew: \"אסתר הייתה ילדה עדינה ומתוקה מאוד — וזאת בעיקר מה שהדסה זוכרת אותה עבורה.\" Better: \"אסתר הייתה ילדה עדינה ומתוקה מאוד, וזה בעיקר מה שהדסה זוכרת אותה.\"",
+      "translation_quote": "אסתר הייתה ילדה עדינה ומתוקה מאוד, וזה בעיקר מה שהדסה זוכרת אותה עבורו."
+    },
+    {
+      "location": "paragraph about \"mean\" later (fourth-grade)",
+      "severity": "minor",
+      "source_quote": "when Esther was in school the other girls weren’t as mean to her (Hadassah).",
+      "suggested_fix": "Again the English 'mean' appears; translate as \"אכזריות\" or \"לא היו כל כך נזעלות/מרושעות\". Example: \"כשהאסתר הייתה בבית הספר, הבנות האחרות לא היו כל כך אכזריות כלפי הדסה.\"",
+      "translation_quote": "הבנות האחרות לא היו כל כך mean אליה (להדסה)."
+    },
+    {
+      "location": "last paragraph (God uses)",
+      "severity": "minor",
+      "source_quote": "Your support may be what God uses to help your friend to go through their hard times in a good way!",
+      "suggested_fix": "Translation used \"מה שאלוהים ישתמש בו\" — word order and article are awkward. Suggest: \"התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה!\" (keep 'God' translation as 'אלוהים').",
+      "translation_quote": "התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

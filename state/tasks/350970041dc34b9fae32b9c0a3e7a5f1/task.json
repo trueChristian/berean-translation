@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 6627
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1562,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6352,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7914
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph with Matthew 24:6 and Matthew 24:13 (near start of third full paragraph with Scripture)",
+      "severity": "major",
+      "source_quote": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet –Matthew 24:6. …he that shall endure unto the end, the same shall be saved –Matthew 24:13.",
+      "suggested_fix": "Translate the English book name into conventional Russian and keep chapter:verse unchanged. For example: «…но услышите о войнах и слухах о войнах: берегитесь, не смущайтесь; ибо надлежит тому быть, но ещё не конец — Матфея 24:6. …кто будет терпеть до конца, тот спасётся — Матфея 24:13.» Preserve punctuation and placement of the references exactly as in the source (i.e., a dash then the book and chapter:verse).",
+      "translation_quote": "<em>И услышите о войнах и слухах о войнах: <strong>берегитесь, не смущайтесь</strong>: ибо надлежит тому быть, но ещё не конец –Matthew 24:6.</em> ... <em>…кто терпит до конца, тот спасётся –Matthew 24:13.</em>"
+    },
+    {
+      "location": "Paragraph with Revelation 21:8 and Revelation 21:7 (same paragraph as above)",
+      "severity": "major",
+      "source_quote": "…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8. He that overcometh shall inherit all things; and I will be his God, and he shall be my son –Revelation 21:7.",
+      "suggested_fix": "Translate the English book name into conventional Russian while keeping chapter:verse numbers intact. For example: «…боящиеся и неверующие … [будут иметь] свою часть в озере, горящем огнём и серою… — Откровение 21:8. Побеждающий наследует всё; и Я буду ему Богом, и он будет мне сыном — Откровение 21:7.» Keep the dash and placement consistent with the source.",
+      "translation_quote": "<em>…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.</em> … <em>He that overcometh shall inherit all things; and I will be his God, and he shall be my son –Revelation 21:7.</em>"
+    },
+    {
+      "location": "Paragraph mentioning the discovered book title in the motel nightstand",
+      "severity": "major",
+      "source_quote": "he discovered a book titled “The Holy Bible”.",
+      "suggested_fix": "Translate the quoted book title into Russian. Use a conventional Russian rendering of the title as it appears in context (e.g., «Священное Писание» or «Библия»), matching the source's use of quotation marks. For example: «он обнаружил книгу под названием «Библия».»",
+      "translation_quote": "он обнаружил книгу под названием «The Holy Bible»."
+    },
+    {
+      "location": "Paragraph introducing Habakkuk teaching (magazine contents paragraph)",
+      "severity": "major",
+      "source_quote": "Join us as we learn of ... expository teaching from Habakkuk regarding what it means to have a real faith that is first personal, then corporate.",
+      "suggested_fix": "Correct the mistranslation of 'expository' — the English means 'expository' (экспозиционный, или букв. 'разъясняющий текст'), not 'экзистенциальный'. Revise to a faithful rendering such as: «следуя экспозиционному (или разъяснительному) учению из книги Аввакума о том, что значит истинная вера...» so the theological sense (expository Bible teaching) is preserved.",
+      "translation_quote": "Давайте честно оценим наши собственные сердца, следуя экзистенциальному учению из книги Аввакума о том, что значит обладать истинной верой, которая сначала личная, а потом корпоративная."
+    }
+  ],
   "id": "350970041dc34b9fae32b9c0a3e7a5f1",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "rus",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d2e36e4b-ac26-4405-b9ef-935856862144",
+    "response_id": "chatcmpl-EUWwKTcwzyn1QOkWcjeAmt86Ks8HN",
+    "usage": {
+      "completion_tokens": 1195,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3440,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4635
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section ↔ translation.section",
+        "severity": "major",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Translate the section header into natural contemporary Bengali meaning the place for children's content (e.g., \"শিশুদের কর্নার\" or \"শিশুদের কোণ\"). Preserve that this is a section name; replace the current translation.",
+        "translation_quote": "শৈশব কণ্ঠপক্ব"
+      },
+      {
+        "location": "source.html — paragraph 2",
+        "severity": "major",
+        "source_quote": "what a disappointment it was to find that the second-grade girls were ready for someone to be mean to, or so it seemed.",
+        "suggested_fix": "Correct the gender and phrasing to reflect the original meaning: the group were girls prepared to be mean. For example: \"দ্বিতীয় শ্রেণির মেয়েরা যেন কাউকে দুষ্টুমি করতে প্রস্তুত—এমনটা মনে হয়েছিল।\"",
+        "translation_quote": "দ্বিতীয় শ্রেণির কিশোরী ছেলেমেয়েরা কাউকে বেয়াদবি করার জন্য প্রস্তুত ছিলেন, এমনটাই মনে হচ্ছিল।"
+      },
+      {
+        "location": "source.html — paragraph 2",
+        "severity": "major",
+        "source_quote": "Instead, she chose to act as if it didn’t hurt and tried to ignore them.",
+        "suggested_fix": "Fix the corrupted Bengali so it clearly expresses \"she pretended it didn’t hurt and tried to ignore them.\" Suggested wording: \"বরং সে কষ্ট পাচ্ছে না ভান করে তাদের উপেক্ষা করার চেষ্টা করল।\"",
+        "translation_quote": "বরং, সে বেদনাটা অনুভব করেনি ভেনিয়ে কাজ করল এবং তাদের উপেক্ষা করার চেষ্টা করল।"
+      },
+      {
+        "location": "source.html — paragraph 6",
+        "severity": "major",
+        "source_quote": "But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
+        "suggested_fix": "Quoted substantive prose (song title) must be translated into the target language while keeping it clearly a song title. Translate the title into Bengali (keeping it in quotes) and ensure punctuation. Example: \"কিন্তু সে মেয়েদের একটি গান শিখিয়েছিল, 'স্বর্গ কতো দূরে?', যা হাদাসা আজও গাইতে পছন্দ করে!\"",
+        "translation_quote": "কিন্তু সে মেয়েদের একটি গান শিখিয়েছিল, “How Far Is Heaven”, যা হাদাসা আজও গাইতে পছন্দ করে!"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

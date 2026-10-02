@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>...Hebreerne kapittel fire.</p> (Paragraph about magazine contents, third paragraph after Scripture citations)",
+      "severity": "major",
+      "source_quote": "Together we can consider what it really means to enter into the rest of God that is detailed in Hebrews chapter four.",
+      "suggested_fix": "Replace the mistranslation \"Guds sabbatstro\" with a faithful rendering of \"the rest of God\", for example: \"å gå inn i Guds hvile som er omtalt i Hebreerne kapittel fire.\" Preserve the existing HTML and surrounding sentence structure when applying the change.",
+      "translation_quote": "Sammen kan vi vurdere hva det virkelig betyr å gå inn i Guds sabbatstro som er detaljert i Hebreerne kapittel fire."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "be2d8af4-c011-426b-a326-5b0f6d2223f6",
+    "response_id": "chatcmpl-EUWwNPYzmU52oEUrPdzNPlAb4VKAK",
+    "usage": {
+      "completion_tokens": 1702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7214,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8916
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first paragraph, opening clause",
+        "severity": "minor",
+        "source_quote": "Glancing up at the sun, Beto (a made-up name) quickened his already hurried pace as he approached the forest.",
+        "suggested_fix": "Replace \"Κοιτάζοντας ανέβασμα προς τον ήλιο\" with a natural contemporary Greek rendering such as \"Ρίχνοντας μια ματιά προς τον ήλιο\" or \"Κοιτάζοντας προς τον ήλιο\" so the phrase reads idiomatically: <p class=\"drop-cap\">Ρίχνοντας μια ματιά προς τον ήλιο, ο Μπέτο (ψευδώνυμο) επιτάχυνε...</p>",
+        "translation_quote": "Κοιτάζοντας ανέβασμα προς τον ήλιο, ο Μπέτο (ψευδώνυμο) επιτάχυνε τον ήδη γρήγορο βηματισμό του..."
+      },
+      {
+        "location": "<p> entering creek drink sentence (first paragraph 2)",
+        "severity": "minor",
+        "source_quote": "Entering the cool shade of the forest, Beto paused just long enough for a refreshing drink of water from the creek that meandered across the footpath.",
+        "suggested_fix": "Correct grammar and article use: change \"διασχίζε τη μονοπάτι\" to \"διασχίζε το μονοπάτι\" and use standard verb form: e.g. \"...από το ρυάκι που διασχίζει το μονοπάτι.\" So the phrase becomes: \"...από το ρυάκι που διασχίζει το μονοπάτι.\"",
+        "translation_quote": "Μπαίνοντας στη δροσιά του δάσους, ο Μπέτο σταμάτησε για λίγο μόνο ώστε να πιει δροσερό νερό από το ρυάκι που διασχίζε τη μονοπάτι."
+      },
+      {
+        "location": "<article> third paragraph (wildcat paws)",
+        "severity": "minor",
+        "source_quote": "Hearing the padding of the wildcat’s enormous paws on the forest floor behind him, Beto tried to pump his tired legs even faster.",
+        "suggested_fix": "Use the correct Greek term for animal feet: replace \"πατιών\" with \"πατωνών\" or better \"πατημάτων\" or \"πατουσιών\". Suggested: \"Ακούγοντας το πάτημα των τεράστιων πατουσών του άγριου γάτου...\" or more idiomatically \"Ακούγοντας το πάτημα των τεράστιων πατωνών του άγριου ζώου...\"",
+        "translation_quote": "Ακούγοντας το πάτημα των τεράστιων πατιών του άγριου γάτου στο δασικό έδαφος πίσω του..."
+      },
+      {
+        "location": "<article> paragraph with Romans quotation",
+        "severity": "minor",
+        "source_quote": "How do we go from feeling like poor victims to being <em>…more than conquerors through him that loved us –Romans 8:37?</em>",
+        "suggested_fix": "Render the phrase idiomatically in Modern Greek. The current translation \"…περισσότεροι από νικητές διαμέσου εκείνου που μας αγάπησε –Ρωμαίους 8:37;\" is awkward. Suggest: \"…να γίνουμε περισσότεροι απ' ό,τι νικητές διά Εκείνου που μας αγάπησε — Ρωμαίους 8:37;\" or \"…να γίνουμε περισσότεροι από νικητές δια του όστις μας αγάπησε — Ρωμαίους 8:37;\" Ensure spacing and punctuation match surrounding style.",
+        "translation_quote": "Πώς πηγαίνουμε από το να νιώθουμε σαν φτωχοί θύματα στο να είμαστε <em>…περισσότεροι από νικητές διαμέσου εκείνου που μας αγάπησε –Ρωμαίους 8:37;</em>"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

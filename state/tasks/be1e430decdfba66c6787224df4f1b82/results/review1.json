@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c0331fa8-2929-431d-9cca-72d373355a42",
+    "response_id": "chatcmpl-EUWwwRdxLnBIyOi77UAZL6pH3TezH",
+    "usage": {
+      "completion_tokens": 1065,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8405
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph describing European forefathers (source.html paragraph: \"Our forefathers in Europe knew...\")",
+        "severity": "minor",
+        "source_quote": "Our forefathers in Europe knew that if they embraced the journey of unreserved discipleship, it could be costly. They risked the seizure of their property; many of them lost all that they owned.",
+        "suggested_fix": "Change the tense in the Dutch translation to past tense to match the English. For example: replace \"Zij riskeren de inbeslagneming van hun eigendom; velen van hen verloren alles wat zij bezaten.\" with \"Zij liepen het risico dat hun eigendom in beslag genomen werd; velen van hen verloren alles wat zij bezaten.\"",
+        "translation_quote": "Onze voorvaderen in Europa wisten dat als zij de weg van onvoorwaardelijke discipelschap zouden inslaan, het kostbaar kon zijn. Zij riskeren de inbeslagneming van hun eigendom; velen van hen verloren alles wat zij bezaten."
+      },
+      {
+        "location": "Paragraph quoting Matthew 14:33 (near end of article)",
+        "severity": "major",
+        "source_quote": "then they that were in the ship came and worshipped him, saying, Of a truth thou art the Son of God –Matthew 14:33.",
+        "suggested_fix": "The Dutch translation uses the verb \"verneden\", which does not convey the meaning 'worshipped' / 'adored'. Replace \"verneden Hem\" with a correct Dutch equivalent such as \"aanbad Hem\" or \"wierpen zich neer en aanbaden Hem\" to preserve the original meaning: e.g. \"en zij, die in het schip waren, kwamen en wierpen zich neer en aanbaden Hem, zeggende: Voorwaar, Gij zijt de Zoon van God – Matteüs 14:33.\"",
+        "translation_quote": "en zij, die in het schip waren, kwamen en verneden Hem, zeggende: Voorwaar, Gij zijt de Zoon van God – Matteüs 14:33."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

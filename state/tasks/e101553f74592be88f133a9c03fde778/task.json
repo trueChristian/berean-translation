@@ -2,7 +2,6 @@
   "article_id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 10338
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 749,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10051,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10800
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Galatians 5:22-23 (near top third of article)",
+      "severity": "minor",
+      "source_quote": "love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance… –Galatians 5:22-23",
+      "suggested_fix": "Correct the Indonesian rendering of the fruit list so each English item is represented once and in natural Indonesian phrasing. For example: “kasih, sukacita, damai sejahtera, kesabaran, kelemahlembutan, kebaikan, iman, kerendahan hati, penguasaan diri… –Galatia 5:22-23.” Preserve the existing HTML and punctuation around the emphasized quote.",
+      "translation_quote": "<em>kasih, sukacita, damai sejahtera, kesabaran, kelemahlembutan, kebaikan, iman, kelemahlembutan, penguasaan diri… –Galatia 5:22-23</em>"
+    }
+  ],
+  "finished_at": "2026-10-02T12:49:34+00:00",
   "id": "e101553f74592be88f133a9c03fde778",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ind",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/fd006f3144de976329b408867c5ed33ed80fe393c62d7c79f01f54f10a8134c7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

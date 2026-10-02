@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "de4296e5-3826-4b4a-bdc1-ca21f60af97e",
+    "response_id": "chatcmpl-EUWwT10YIHwQttSTvTOrEsrDwLNNE",
+    "usage": {
+      "completion_tokens": 1943,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10193,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12136
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — Scripture list (first <ul> of blockquotes)",
+        "severity": "critical",
+        "source_quote": "<li><em>Nevertheless let … the wife see that she <strong>reverence her husband</strong> –Ephesians 5:33.</em></li> ... <li><em><strong>Let your women keep silence in the churches:</strong> for it is not permitted unto them to speak; but they are commanded to be under obedience, as also saith the law –1 Corinthians 14:34.</em></li>",
+        "suggested_fix": "Translate each quoted Scripture passage into Bengali, preserving verse numbers and punctuation exactly as in the English source and keeping the existing HTML tags. For example, replace the entire English list item texts with faithful Bengali translations of the same verses and keep the citation (e.g., “—ঈফিশীয় 5:33”) unchanged in numbering. Do not change verse numbers or introduce a different Bible version.",
+        "translation_quote": "<li><em>Nevertheless let … the wife see that she <strong>reverence her husband</strong> –Ephesians 5:33.</em></li> ... <li><em><strong>Let your women keep silence in the churches:</strong> for it is not permitted unto them to speak; but they are commanded to be under obedience, as also saith the law –1 Corinthians 14:34.</em></li>"
+      },
+      {
+        "location": "source.html — long quoted Bible passages later in article (1 Peter / Titus / Romans blocks)",
+        "severity": "critical",
+        "source_quote": "<p><em>Likewise, ye wives, be in subjection to your own husbands; ... <strong>that your prayers be not hindered</strong> –1 Peter 3:1-2 &amp; 3:6-7.</em></p> ... <em>Wherefore, as by one man [not one woman] sin entered into the world ... <strong>death reigned from Adam</strong> [not from Eve] to Moses... –Romans 5:12-14.</em></p>",
+        "suggested_fix": "Translate these longer quoted Scripture passages (and any bracketed editorial glosses inside them) into Bengali, preserving verse numbers and any bracketed clarifications exactly as in English. Maintain the same HTML elements and emphasize the same words as bold/italic where present in the source. For bracketed notes like “[not one woman]” render them in Bengali brackets and language. Do not leave the quoted scriptural content in English.",
+        "translation_quote": "<p><em>Likewise, ye wives, be in subjection to your own husbands; ... <strong>that your prayers be not hindered</strong> –1 Peter 3:1-2 &amp; 3:6-7.</em></p> ... <em>Wherefore, as by one man [not one woman] sin entered into the world ... <strong>death reigned from Adam</strong> [not from Eve] to Moses... –Romans 5:12-14.</em></p>"
+      },
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "Understanding Submission",
+        "suggested_fix": "Translate the article title into Bengali (use contemporary, idiomatic Bengali that preserves the author's theological meaning). Replace the translation.title value with the Bengali equivalent and keep it as plain text (no extra HTML). For example: \"সমর্পণ বোঝা\" (or another equivalent that preserves the sense of biblical submission).",
+        "translation_quote": "\"Understanding Submission\""
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "Sister to Sister",
+        "suggested_fix": "Translate the section name into Bengali (a conventional localized label for this site section). Replace translation.section with the Bengali equivalent while preserving the short section label. For example: \"বোন থেকে বোন\" or another suitable idiomatic rendering.",
+        "translation_quote": "\"Sister to Sister\""
+      },
+      {
+        "location": "source.html — <aside> Editor’s Note body and heading",
+        "severity": "major",
+        "source_quote": "<aside>\n    <h2>Editor’s Note:</h2>\n\n    <p>I was one who struggled majorly and for years with not knowing how to submit and yet wanting to. Following is my attempt to share what God has been teaching me.</p>\n\n    <p>One of the main reasons that many people struggle with “submission” is that they don’t really understand what God means with the subject—they don’t understand the reality of biblical submission. ... (entire aside continues in English)</p>\n</aside>",
+        "suggested_fix": "Translate the aside heading and all paragraphs in the Editor’s Note into Bengali, preserving the HTML <aside>, <h2>, and <p> tags and the paragraph order. Keep theological claims and examples faithful to the English. Also translate any scripture citations within the aside into Bengali as required by the translation policy, maintaining verse numbers and bracketed notes.",
+        "translation_quote": "<aside>\n    <h2>Editor’s Note:</h2>\n\n    <p>I was one who struggled majorly and for years with not knowing how to submit and yet wanting to. Following is my attempt to share what God has been teaching me.</p>\n\n    <p>One of the main reasons that many people struggle with “submission” is that they don’t really understand what God means with the subject—they don’t understand the reality of biblical submission. ... (entire aside continues in English)</p>\n</aside>"
+      },
+      {
+        "location": "source.html — mixed-language words: “Kristus” and “Ordnung/শৃঙ্খলার”",
+        "severity": "minor",
+        "source_quote": "... but with Christ we can do all things according to His will. ... God is a God of order. (original: \"God is a God of order.\")",
+        "suggested_fix": "Replace inconsistent or untranslated foreign words with standard Bengali equivalents. For example, replace “Kristus” with \"খ্রিস্ট\" and replace the mixed German/English \"Ordnung/শৃঙ্খলার\" with a single Bengali word such as \"শৃঙ্খলা\". Keep any theological sense intact.",
+        "translation_quote": "... Kristus-এর সাথে আমরা তাঁর ইচ্ছানুযায়ী সমস্ত কিছু করতে পারি। ... ঈশ্বর একটি Ordnung/শৃঙ্খলার ঈশ্বর।"
+      },
+      {
+        "location": "source.html — inline English bracketed glosses and footnote-style bracket words in Scripture quotes",
+        "severity": "minor",
+        "source_quote": "(e.g., \"help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him –Genesis 2:18.\")",
+        "suggested_fix": "Translate bracketed glosses into Bengali as part of the translated Scripture quotation, preserving their placement and bracket punctuation. For example: \"সহায়ক [সহায়ক, সহায়, সহায়ক]\" rendered in Bengali. Do not leave the bracketed explanations in English.",
+        "translation_quote": "\"help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him –Genesis 2:18.\""
+      }
+    ],
+    "passed": false,
+    "score": 52
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 9387
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1175,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9110,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10285
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph quoting Acts 27:20 (source.html first long paragraph after heading)",
+      "severity": "minor",
+      "source_quote": "…when neither sun nor stars in many days appeared, and no small tempest lay on us, all hope that we should be saved was then taken away –Acts 27:20.",
+      "suggested_fix": "Replace awkward phrasing “is toenemend weggeneem” with a clearer, faithful Afrikaans rendering of the English: e.g. “...toe al die hoop dat ons gered sou word van ons geneem is – Handelinge 27:20.” Preserve verse reference formatting and punctuation.",
+      "translation_quote": "…al die hoop dat ons gered sou word is toenemend weggeneem –Handelinge 27:20."
+    },
+    {
+      "location": "Paragraph quoting 2 Corinthians 1:8 (source.html, paragraph beginning “If there first be no valley…”)",
+      "severity": "minor",
+      "source_quote": "…pressed out of measure, above strength, insomuch that we despaired even of life –2 Corinthians 1:8.",
+      "suggested_fix": "The Afrikaans rendering is awkward and slightly unclear: replace “byna tot niks toe bedrieg en baie swaar benoud is, so dat ons selfs die lewe hopeloos geag het” with a closer, idiomatic translation that preserves the sense, e.g. “…so erg verdring en bo krag, dat ons selfs die lewe hopeloos geag het – 2 Korintiërs 1:8.”",
+      "translation_quote": "…byna tot niks toe bedrieg en baie swaar benoud is, so dat ons selfs die lewe hopeloos geag het –2 Korintiërs 1:8."
+    },
+    {
+      "location": "Paragraph beginning “Ons geloof is bound to fail…” (source.html paragraph about anxiety escalating)",
+      "severity": "minor",
+      "source_quote": "Our faith is bound to fail when anxiety escalates, and we think we must control the raging trials about us.",
+      "suggested_fix": "The translation uses “Ons geloof is voorbestan om te faal”, which is an incorrect wording in Afrikaans. Suggest: “Ons geloof is geneig om te faal wanneer angs eskaleer, en ons dink ons moet die woedende beproewings rondom ons beheer.”",
+      "translation_quote": "Ons geloof is voorbestan om te faal wanneer angs eskaleer en ons dink ons moet die woedende beproewings rondom ons beheer."
+    }
+  ],
+  "finished_at": "2026-10-02T12:49:33+00:00",
   "id": "84887a3a9751941588c6c56819ca7f92",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "afr",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5f80ad335a5578b489f5e1ff55175ab3c10942655de5c784af044af1c73c841.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

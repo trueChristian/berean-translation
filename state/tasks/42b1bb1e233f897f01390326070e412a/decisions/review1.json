@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p> (paragraph containing the song reference)",
+      "severity": "major",
+      "source_quote": "But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
+      "suggested_fix": "Translate the quoted song title into Indonesian while preserving the quotation marks and sentence structure. For example: \"Tetapi ia mengajarkan para gadis sebuah lagu, \"Seberapa Jauh Surga\", yang masih disukai Hadassah untuk dinyanyikan sampai sekarang!\" (Keep the rest of the sentence unchanged and preserve HTML tags and order.)",
+      "translation_quote": "Tetapi ia mengajarkan para gadis sebuah lagu, “How Far Is Heaven”, yang masih disukai Hadassah untuk dinyanyikan sampai sekarang!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "59b95423-7aff-4c89-9375-bccc30039521",
+    "response_id": "chatcmpl-EUWwH6g3ZGTAYMFLD4MKmp9HKSoQd",
+    "usage": {
+      "completion_tokens": 1630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3360,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4990
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 6 (\"Esther was a very gentle, sweet girl...\")",
+        "severity": "major",
+        "source_quote": "Esther was a very gentle, sweet girl, which is mostly what Hadassah remembered her for.",
+        "suggested_fix": "\"gentle, sweet\" का अर्थ यहां 'नरम और प्यारी' है। अनुवाद में 'नरम-सुभाषित, प्यारी लड़की' दे दिया गया है — 'सुभाषित' का अर्थ यहाँ सुसंगत नहीं है और अर्थ बदल देता है। इसे बदलकर इस तरह करें: \"Esther बहुत मृदु और प्यारी लड़की थीं — यही वह मुख्य बात थी जिसके लिए Hadassah उन्हें याद करती हैं।\"",
+        "translation_quote": "Esther बहुत नरम-सुभाषित, प्यारी लड़की थी—यही वह मुख्य बात थी जिसके लिए Hadassah उसे याद करती है।"
+      },
+      {
+        "location": "Final paragraph (\"It’s worth it to stand beside someone...\")",
+        "severity": "major",
+        "source_quote": "It’s worth it to stand beside someone who is being treated unkindly.",
+        "suggested_fix": "\"being treated unkindly\" का सही और सामान्य हिंदी अनुवाद होगा \"जिसके साथ बुरा व्यवहार किया जा रहा है\" या \"जिसके साथ दयाविहीन व्यवहार किया जा रहा है\"। अनुवाद में 'अनदर्शनीय तरीके से व्यवहार किया जा रहा है' लिखा है, जो गलत शब्द (अनदर्शनीय = unseeable) है और अर्थ बिगाड़ता है। इसे बदलकर करें: \"किसी के साथ खड़े होना, जिसके साथ बुरा व्यवहार किया जा रहा है, सार्थक होता है।\"",
+        "translation_quote": "किसी के साथ खड़े होना जो अनदर्शनीय तरीके से व्यवहार किया जा रहा है, यह सार्थक होता है।"
+      },
+      {
+        "location": "Paragraph 2 (\"very conscientious Hadassah\")",
+        "severity": "minor",
+        "source_quote": "This was very disturbing to a very conscientious Hadassah.",
+        "suggested_fix": "\"conscientious\" का अर्थ यहाँ 'जिम्मेदार/कर्तव्यनिष्ठ' है, न कि केवल 'ईमानदार'। अनुवाद में 'बहुत ईमानदार Hadassah' कर दिया गया है। सुधार के लिए: \"यह बहुत कष्टप्रद था उन कर्तव्यनिष्ठ Hadassah के लिए.\" या \"यह कर्तव्यनिष्ठ Hadassah के लिए बहुत परेशान करने वाला था।\"",
+        "translation_quote": "यह बहुत ईमानदार Hadassah के लिए बहुत परेशान करने वाला था।"
+      },
+      {
+        "location": "Paragraph 11 (\"today those girls are Hadassah’s “old school friends”\")",
+        "severity": "minor",
+        "source_quote": "Finally, they could all be friends and today those girls are Hadassah’s “old school friends”.",
+        "suggested_fix": "\"old school friends\" का हिन्दी रूप अधिक स्वाभाविक होगा: \"स्कूल की पुरानी दोस्त(या सहेलियाँ)\" या \"अपने पुराने स्कूल की सहेलियाँ\"। अनुवाद में \"पुरानी स्कूल दोस्त\" है जो वर्णानुक्रम और ध्वन्यात्मक रूप से असहज है। उदाहरण सुधार: \"आखिरकार, वे सब दोस्त बन सके और आज वे लड़कियाँ Hadassah की स्कूल की पुरानी सहेलियाँ हैं।\"",
+        "translation_quote": "आखिरकार, वे सब दोस्त बन सके और आज वे लड़कियाँ Hadassah की \"पुरानी स्कूल दोस्त\" हैं।"
+      },
+      {
+        "location": "Image 1 alt text",
+        "severity": "minor",
+        "source_quote": "Colorful school supplies and a stethoscope around a pale background",
+        "suggested_fix": "alt-पाठ का भाव ठीक है पर अनुवाद वाक्य-विन्यास में असहज है। अधिक स्वाभाविक स्वरूप: \"हल्की पृष्ठभूमि पर रंगीन स्कूल सामग्री और एक स्टेथोस्कोप\"।",
+        "translation_quote": "रंगीन स्कूल की सामग्री और एक पृष्ठभूमि के चारों ओर स्टेथोस्कोप"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

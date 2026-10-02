@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3cd34d79-065f-4e25-ac71-be91c4739133",
+    "response_id": "chatcmpl-EUWwgWAfGJgOfZc7sMUoRP13zu1jk",
+    "usage": {
+      "completion_tokens": 1026,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9594
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "CHURCH HISTORY",
+        "suggested_fix": "Translate the section label into the target language and preserve intended meaning and casing. Replace the translation value \"HISTORY OF THE CHURCH\" with a Portuguese equivalent, e.g. \"HISTÓRIA DA IGREJA\" (keeping whatever site casing convention is used).",
+        "translation_quote": "HISTORY OF THE CHURCH"
+      },
+      {
+        "location": "source.html: paragraph with \"1500 years earlier\"",
+        "severity": "minor",
+        "source_quote": "but its roots had been established a full 1500 years earlier, in Galilee, where One taught and lived the final answers to all of man’s questions.",
+        "suggested_fix": "Use an internationally neutral numeral format in Portuguese (avoid region-specific thousands separator). Replace \"1.500 anos antes\" with \"1500 anos antes\" in the translated paragraph. Preserve HTML structure and tags exactly.",
+        "translation_quote": "suas raízes haviam sido estabelecidas 1.500 anos antes, na Galileia, onde Aquele que ensinou e viveu as respostas finais para todas as perguntas do homem."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

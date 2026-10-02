@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html — poem stanzas (multiple <p class=\"poem\"> paragraphs)",
+      "severity": "critical",
+      "source_quote": "Abide with me: fast falls the eventide;\n    The darkness deepens; Lord, with me abide:\n    when other helpers fail, and comforts flee,\n    Help of the helpless, O abide with me.\n\nSwift to its close ebbs out life’s little day;\n    Earth’s joys grow dim, its glories pass away;\n    Change and decay in all around I see;\n    O Thou who changest not, abide with me.\n\nNot a brief glance I beg, a passing word;\n    But, as Thou dwell’st with Thy disciples, Lord,\n    Familiar, condescending, patient, free,\n    Come, not to sojourn, but abide, with me.\n\nCome not in terrors, as the King of kings;\n    But kind and good, with healing in Thy wings;\n    Tears for all woes, a heart for every plea;\n    Come, Friend of sinners, and thus ‘bide with me.\n\nThou on my head in early youth didst smile;\n    And, though rebellious and perverse meanwhile,\n    thou hast not left me, oft as I left thee:\n    On to the close, O Lord, abide with me.\n\nI need Thy presence every passing hour;\n    What but Thy grace can foil the tempter’s power?\n    Who like Thyself my guide and stay can be?\n    Through cloud and sunshine, O abide with me.\n\nI fear no foe, with Thee at hand to bless:\n    Ills have no weight, and tears no bitterness.\n    Where is death’s sting? Where, grave, thy victory?\n    I triumph still, if Thou abide with me.\n\nHold Thou Thy cross before my closing eyes;\n    Shine through the gloom, and point me to the skies;\n    Heaven’s morning breaks, and earth’s vain shadows flee:\n    In life, in death, O Lord, abide with me.",
+      "suggested_fix": "Translate all eight stanzas of the hymn into Spanish, preserving stanza breaks and the <p class=\"poem\"> element structure. Quoted hymn text is substantive quoted prose and must appear in the target language. For example (only as a narrow-format suggestion to illustrate how to render—do not change HTML structure):\n\n<p class=\"poem\">Quédate conmigo: cae veloz el crepúsculo;<br>\n   Se espesa la oscuridad; Señor, quédate conmigo:<br>\n   cuando fallan otros auxilios y los consuelos huyen,<br>\n   Auxilio de los indefensos, oh quédate conmigo.</p>\n\n... (translate remaining stanzas likewise, keeping <p class=\"poem\"> and <br> tags unchanged).</p>",
+      "translation_quote": "(Entire hymn stanzas left in English inside multiple <p class=\"poem\"> elements) "
+    },
+    {
+      "location": "source.title and translation.title",
+      "severity": "major",
+      "source_quote": "Abide With Me, Fast Falls The Eventide",
+      "suggested_fix": "Translate the article title into Spanish in the title field, using idiomatic, internationally intelligible language while preserving meaning. Example: \"Quédate conmigo: cae veloz el crepúsculo\" (or a close idiomatic rendering). Do not alter HTML tags or attributes—replace only the title string.",
+      "translation_quote": "Abide With Me, Fast Falls The Eventide"
+    },
+    {
+      "location": "source.html — hymn reference within body (sentence about origin of hymn)",
+      "severity": "major",
+      "source_quote": "Se dice que fue su encuentro con Dios al lado de ese hombre moribundo lo que impulsó el noble himno de Lyte, «Jesus, I My Cross Have Taken».",
+      "suggested_fix": "Translate the quoted hymn title into Spanish as part of the running text. Quoted substantive prose (including hymn titles used as quoted lines) must be rendered into the target language. For example: «Jesús, yo he tomado mi cruz» (placed within the existing quotation marks). Preserve surrounding punctuation and HTML structure.",
+      "translation_quote": "«Jesus, I My Cross Have Taken» left in English in the translation."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

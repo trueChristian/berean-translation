@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "A Life Changing Influence",
+      "suggested_fix": "Translate the English title into standard contemporary Urdu and replace the English. Suggested Urdu title: \"زندگی بدل دینے والا اثر\" (or if preferred, \"ایک زندگی بدل دینے والا اثر\"). Preserve the title element exactly in place (no HTML tag changes).",
+      "translation_quote": "A Life Changing Influence"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "Translate the section name into standard contemporary Urdu and replace the English. Suggested Urdu: \"بچّوں کا گوشہ\" or \"بچوں کا کونا\". Keep the section field string (no HTML changes).",
+      "translation_quote": "Children’s Corner"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

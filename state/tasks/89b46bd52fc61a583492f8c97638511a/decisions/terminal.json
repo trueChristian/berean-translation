@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "CHURCH HISTORY",
+      "suggested_fix": "Translate the section label into the target language and preserve intended meaning and casing. Replace the translation value \"HISTORY OF THE CHURCH\" with a Portuguese equivalent, e.g. \"HISTÓRIA DA IGREJA\" (keeping whatever site casing convention is used).",
+      "translation_quote": "HISTORY OF THE CHURCH"
+    },
+    {
+      "location": "source.html: paragraph with \"1500 years earlier\"",
+      "severity": "minor",
+      "source_quote": "but its roots had been established a full 1500 years earlier, in Galilee, where One taught and lived the final answers to all of man’s questions.",
+      "suggested_fix": "Use an internationally neutral numeral format in Portuguese (avoid region-specific thousands separator). Replace \"1.500 anos antes\" with \"1500 anos antes\" in the translated paragraph. Preserve HTML structure and tags exactly.",
+      "translation_quote": "suas raízes haviam sido estabelecidas 1.500 anos antes, na Galileia, onde Aquele que ensinou e viveu as respostas finais para todas as perguntas do homem."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

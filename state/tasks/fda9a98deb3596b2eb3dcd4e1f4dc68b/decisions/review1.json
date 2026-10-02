@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (sentence mentioning Lyte’s inspirational hymn)",
+      "severity": "major",
+      "source_quote": "On dit que sa rencontre avec Dieu au chevet de cet homme mourant a inspiré le noble cantique de Lyte, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Traduire le titre du cantique cité en anglais dans le texte français. Par exemple : « …a inspiré le noble cantique de Lyte, “Jésus, j’ai pris ma croix.” » (conserver les guillemets et la ponctuation). Remplacer la forme anglaise exacte par la version française proposée ou une autre traduction équivalente en français couramment utilisée pour ce titre.",
+      "translation_quote": "On dit que sa rencontre avec Dieu au chevet de cet homme mourant a inspiré le noble cantique de Lyte, “Jesus, I My Cross Have Taken.”"
+    },
+    {
+      "location": "source.html — premier paragraphe",
+      "severity": "minor",
+      "source_quote": "This hymn is generally considered to be one of the greatest hymns ever written and is found in nearly every hymnal or book of hymns published today.",
+      "suggested_fix": "Corriger le nombre/accord en français pour « recueil(s) ». Par exemple : « ...et se trouve dans presque tous les recueils de cantiques publiés aujourd’hui. » Remplacer « recueil de cantiques » (singulier) par « recueils de cantiques » (pluriel) dans le premier paragraphe.",
+      "translation_quote": "Ce cantique est généralement considéré comme l’un des plus grands jamais écrits et se trouve dans presque tous les recueil de cantiques publiés aujourd’hui."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

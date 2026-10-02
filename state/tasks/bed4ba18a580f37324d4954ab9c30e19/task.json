@@ -2,7 +2,6 @@
   "article_id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,37 @@
         },
         "total_tokens": 10353
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1434,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10077,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11511
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p> ... Wanneer ons aan onderwerping dink, wat kom by ons op? ... die realiteit is dat as ons mans foute maak, dit reg is omdat ons self ook foute maak. Ook, as ons wedergebore is, en ons met God wandel, ... die Skrifte leer dat as ons man nie in sy plek is nie, dan deur die vrou wat wandel volgens die duidelike onderrig ... die man deur haar gesprek (of deur die manier waarop sy haar lewe voer) gewen kan word.</p>",
+      "severity": "major",
+      "source_quote": "\"if we don’t allow our husbands to lead out and make decisions, we are only crippling them.\"",
+      "suggested_fix": "Replace the mistranslation that renders \"crippling\" as \"verkrag\" (which means \"to rape\") with an appropriate Afrikaans equivalent that preserves the original meaning. For example, change the phrase \"ons net hulle verkrag\" to \"ons net hulle verlam\" or \"ons maak hulle magteloos\". Concretely, in the paragraph HTML, replace: \"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, ons net hulle verkrag.\" with \"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, maak ons hulle net magteloos.\"",
+      "translation_quote": "\"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, ons net hulle verkrag.\""
+    }
+  ],
   "id": "bed4ba18a580f37324d4954ab9c30e19",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "afr",
@@ -100,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1454fe6f465ec8ce9c2352c00a7a3b7b44c43055b67862782f9e04898d1cd850.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

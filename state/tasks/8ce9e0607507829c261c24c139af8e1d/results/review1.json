@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bc35ef3c-542f-417c-8c8f-5680e34b8934",
+    "response_id": "chatcmpl-EUWwoW6gHLcf67jusbAnGrJlUDhhh",
+    "usage": {
+      "completion_tokens": 1103,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5751,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6854
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2 (sentence about vocation)",
+        "severity": "major",
+        "source_quote": "His primary goal with his studies was to become a physician, instead, by the providence of God, he became a minister of the gospel of Jesus Christ.",
+        "suggested_fix": "Translate the vocation phrase accurately and consistently. Replace the translation segment that reads “alihitimu kuwa kwa misionari wa injili ya Yesu Kristo” with a clear Swahili rendering preserving the original meaning (minister of the gospel), for example: “lengo lake kuu kwa masomo yake lilikuwa kuwa daktari; badala yake, kwa mashauri ya Mungu, aligeuka kuwa mchungaji wa injili ya Yesu Kristo.” Preserve HTML and surrounding sentence structure.",
+        "translation_quote": "Lengo lake kuu kwa masomo yake lilikuwa kuwa daktari; badala yake, kwa juu ya miujiza ya Mungu, alihitimu kuwa kwa misionari wa injili ya Yesu Kristo."
+      },
+      {
+        "location": "source.html — paragraph 3 (quotation about groping/blind guides)",
+        "severity": "major",
+        "source_quote": "“To their mutual grief, they found themselves [both] groping for the light, veritable blind guides”.",
+        "suggested_fix": "Restore the original metaphorical sense: they discovered themselves groping for light, like true blind guides. Replace the translation ““Kwa masikitiko yao pamoja, walikutana wakiwa [wote wawili] wakifuatilia mwanga, viongozi wa kweli wakiwa wagonjwa.”” with a faithful rendering such as: “’Kwa masikitiko yao pamoja, walijikuta [wote wawili] wakitafuna mwanga, kana kwamba walikuwa waongoza vipofu.’” Keep punctuation and quotation marks as in source HTML.",
+        "translation_quote": "“Kwa masikitiko yao pamoja, walikutana wakiwa [wote wawili] wakifuatilia mwanga, viongozi wa kweli wakiwa wagonjwa.”"
+      },
+      {
+        "location": "source.html — paragraph after poem (sentence about whom he gave the hymn)",
+        "severity": "major",
+        "source_quote": "This hymn he gave to one of the family members that very night.",
+        "suggested_fix": "Correct the identity from “wanajamii” (community members) to “mwanachama wa familia / mmoja wa wanafamilia” to match the English. For example: replace “Wimbo huu aliutoa kwa mmoja wa wanajamii usiku huo wenyewe.” with “Wimbo huu aliwapa mmoja wa wanafamilia usiku huo.” Preserve surrounding HTML tags and sentence placement.",
+        "translation_quote": "Wimbo huu aliutoa kwa mmoja wa wanajamii usiku huo mwenyewe."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

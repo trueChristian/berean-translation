@@ -2,7 +2,6 @@
   "article_id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 6396
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1006,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6110,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7116
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p><h3>2. Lascialo andare</h3><p> first paragraph",
+      "severity": "minor",
+      "source_quote": "What’s the quickest way to get rid of something you no longer want? Give it away! That’s exactly what we must do with those painful burdens we sometimes find ourselves carrying. Give them to God. (1 Peter 5:6,7)",
+      "suggested_fix": "Correct the corrupted verb phrase so the sentence clearly says to give the burdens to God. Replace “Dallì a Dio. (1 Pietro 5:6,7)” with “Dallo a Dio. (1 Pietro 5:6,7)” to reflect ‘Give them to God.’ Preserve surrounding HTML and punctuation.",
+      "translation_quote": "Dallì a Dio. (1 Pietro 5:6,7)"
+    },
+    {
+      "location": "<p><h2>…Avanza</h2><p> first paragraph",
+      "severity": "minor",
+      "source_quote": "When we experience difficulties there are always things we can learn. We learn the importance of complete dependence on and unconditional surrender to the Lord. We experience, at a personal level, the comfort of God and we are called to reach out to other troubled souls with this comfort. (2 Corinthians 1:1-7)",
+      "suggested_fix": "Fix the verb/person agreement so the Italian uses the first-person plural to match the source. Replace “Sperimenti, a livello personale, il conforto di Dio e siamo chiamati a tendere la mano ad altre anime travagliate con questo conforto.” with “Esperimentiamo, a livello personale, il conforto di Dio, e siamo chiamati a tendere la mano ad altre anime travagliate con questo conforto.” Preserve HTML and punctuation.",
+      "translation_quote": "Sperimenti, a livello personale, il conforto di Dio e siamo chiamati a tendere la mano ad altre anime travagliate con questo conforto. (2 Corinzi 1:1-7)"
+    }
+  ],
+  "finished_at": "2026-10-02T12:49:33+00:00",
   "id": "0a39033760172eac11d7170b22da64ef",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ita",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfb06c218ba9f1c1fc2af084f523761a426281e4793352fbdf7a1e712eeefda1.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

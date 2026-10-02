@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — multiple Scripture citations (e.g. opening block, embedded citations)\",\"severity\":\"major\",\"source_quote\":\"…Matthew 14:28-29; –Matthew 14:22; –Matthew 14:25-27; –Matthew 14:28; –Luke 9:3; –Luke 22:35; –Hebrews 11:1; –John 1:1; –John 16:13; –1 Corinthians 2:14; –Matthew 14:30-32; –Matthew 14:31; –Matthew 17:20; –Matthew 14:32; –Matthew 14:33; –Galatians 6:2.\",\"suggested_fix\":\"Translate the English book names to conventional Afrikaans forms while keeping the chapter and verse numbers exactly as printed. Examples of replacements: \\\"Matthew\\\" → \\\"Matteus\\\", \\\"Luke\\\" → \\\"Lukas\\\", \\\"Hebrews\\\" → \\\"Hebreërs\\\", \\\"John\\\" → \\\"Johannes\\\", \\\"1 Corinthians\\\" → \\\"1 Korintiërs\\\" (or \\\"1 Korintiërs\\\"), \\\"Galatians\\\" → \\\"Galasiërs\\\". Apply this consistently to every citation (e.g. \\\"Matthew 14:28-29\\\" → \\\"Matteus 14:28-29\\\"). Ensure the hyphen/dash and spacing are preserved exactly as in the source HTML around the citation text.\",\"translation_quote\":\"…Matthew 14:28-29; –Matthew 14:22; –Matthew 14:25-27; –Matthew 14:28; –Luke 9:3; –Luke 22:35; –Hebrews 11:1; –John 1:1; –John 16:13; –1 Corinthians 2:14; –Matthew 14:30-32; –Matthew 14:31; –Matthew 17:20; –Matthew 14:32; –Matthew 14:33; –Galatians 6:2.\"},{\"location\":\"source.html — first paragraph: \\\"Discipleship is not for cowards or the faint of heart\\\"\",\"severity\":\"minor\",\"source_quote\":\"Discipleship is not for cowards or the faint of heart, nor is it for those who demand a rationale for acts of obedience.\",\"suggested_fix\":\"Restore intended nuance in Afrikaans. Suggested wording: \\\"Dissipelskap is nie vir lafaards of die wat 'n swak of flou gees het nie, en dit is ook nie vir dié wat 'n rasionele verduideliking eis vir dade van gehoorsaamheid nie.\\\" This keeps the meaning of \\\"faint of heart\\\" (spiritually timid) rather than a literal \\\"slegte hart\\\".\",\"translation_quote\":\"Dissipelskap is nie vir lafaards of die wat ’n slegte hart het nie, en dit is ook nie vir diegene wat ’n rasionele verduideliking eis vir dade van gehoorsaamheid nie.\"},{\"location\":\"source.html — paragraph about fishing: \\\"He had drawn many a draught of fish over her gunwales.\\\"\",\"severity\":\"minor\",\"source_quote\":\"He had drawn many a draught of fish over her gunwales.\",\"suggested_fix\":\"The translation uses \\\"Hy het baie jagte vis...\\\" which is ungrammatical/unclear in Afrikaans. Suggested fix: \\\"Hy het baie kere vis oor haar relings gesleep.\\\" or \\\"Hy het dikwels groot trekkings vis oor haar relings getrek.\\\" Preserve the meaning that he had often hauled in large catches.\",\"translation_quote\":\"Hy het baie jagte vis oor haar relings getrek.\"},{\"location\":\"source.html — paragraph: \\\"nonconformed lifestyle\\\"\",\"severity\":\"minor\",\"source_quote\":\"We reason away the nonconformed lifestyle.\",\"suggested_fix\":\"\\\"Nonconformed\\\" (meaning not conforming to worldliness / nonconformist) should be rendered more clearly in Afrikaans. Suggested fix: \\\"Ons redeneer die nie-konforme leefstyl weg\\\" or \\\"Ons redeneer die nie-wêreldse/leefstyl van nie-konformiteit weg,\\\" depending on desired nuance. Maintain the idea of rejecting a distinct/nonconformist lifestyle.\",\"translation_quote\":\"Ons redeneer die niet-verseulde lewenstyl weg.\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 3331,
+    "content_evidence_truncated": false,
+    "content_sha256": "f066a4b1798b4fa93a0e70e0179a8842be4b016e9853c016fe7576be6df0df5b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1636,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7673,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9309
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

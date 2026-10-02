@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first paragraph (scripture citation)",
+      "severity": "minor",
+      "source_quote": "<em>ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.</em>",
+      "suggested_fix": "Translate the book name into conventional Urdu while preserving chapter and verse formatting. For example: <em>ہمیشہ سیکھتے ہوئے، مگر کبھی حق کے علم تک پہنچنے سے قاصر — 2 تیموتھیس 3:7.</em> (Replace the existing em text in the first paragraph.)",
+      "translation_quote": "<em>ہمیشہ سیکھتے ہوئے، مگر کبھی حق کے علم تک پہنچنے سے قاصر – 2 Timothy 3:7.</em>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

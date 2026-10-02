@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "38219825-d21e-454d-9d93-02e460a97e54",
+    "response_id": "chatcmpl-EUWwsAvQMuWIdKZMEntqKSPjWkhPs",
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7152
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Hebreerne kapittel fire.</p> (Paragraph about magazine contents, third paragraph after Scripture citations)",
+        "severity": "major",
+        "source_quote": "Together we can consider what it really means to enter into the rest of God that is detailed in Hebrews chapter four.",
+        "suggested_fix": "Replace the mistranslation \"Guds sabbatstro\" with a faithful rendering of \"the rest of God\", for example: \"å gå inn i Guds hvile som er omtalt i Hebreerne kapittel fire.\" Preserve the existing HTML and surrounding sentence structure when applying the change.",
+        "translation_quote": "Sammen kan vi vurdere hva det virkelig betyr å gå inn i Guds sabbatstro som er detaljert i Hebreerne kapittel fire."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

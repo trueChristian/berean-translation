@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph with Matthew 24:6 and Matthew 24:13 (near start of third full paragraph with Scripture)\",\"severity\":\"major\",\"source_quote\":\"And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet –Matthew 24:6. …he that shall endure unto the end, the same shall be saved –Matthew 24:13.\",\"suggested_fix\":\"Translate the English book name into conventional Russian and keep chapter:verse unchanged. For example: «…но услышите о войнах и слухах о войнах: берегитесь, не смущайтесь; ибо надлежит тому быть, но ещё не конец — Матфея 24:6. …кто будет терпеть до конца, тот спасётся — Матфея 24:13.» Preserve punctuation and placement of the references exactly as in the source (i.e., a dash then the book and chapter:verse).\",\"translation_quote\":\"<em>И услышите о войнах и слухах о войнах: <strong>берегитесь, не смущайтесь</strong>: ибо надлежит тому быть, но ещё не конец –Matthew 24:6.</em> ... <em>…кто терпит до конца, тот спасётся –Matthew 24:13.</em>\"},{\"location\":\"Paragraph with Revelation 21:8 and Revelation 21:7 (same paragraph as above)\",\"severity\":\"major\",\"source_quote\":\"…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8. He that overcometh shall inherit all things; and I will be his God, and he shall be my son –Revelation 21:7.\",\"suggested_fix\":\"Translate the English book name into conventional Russian while keeping chapter:verse numbers intact. For example: «…боящиеся и неверующие … [будут иметь] свою часть в озере, горящем огнём и серою… — Откровение 21:8. Побеждающий наследует всё; и Я буду ему Богом, и он будет мне сыном — Откровение 21:7.» Keep the dash and placement consistent with the source.\",\"translation_quote\":\"<em>…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.</em> … <em>He that overcometh shall inherit all things; and I will be his God, and he shall be my son –Revelation 21:7.</em>\"},{\"location\":\"Paragraph mentioning the discovered book title in the motel nightstand\",\"severity\":\"major\",\"source_quote\":\"he discovered a book titled “The Holy Bible”.\",\"suggested_fix\":\"Translate the quoted book title into Russian. Use a conventional Russian rendering of the title as it appears in context (e.g., «Священное Писание» or «Библия»), matching the source's use of quotation marks. For example: «он обнаружил книгу под названием «Библия».»\",\"translation_quote\":\"он обнаружил книгу под названием «The Holy Bible».\"},{\"location\":\"Paragraph introducing Habakkuk teaching (magazine contents paragraph)\",\"severity\":\"major\",\"source_quote\":\"Join us as we learn of ... expository teaching from Habakkuk regarding what it means to have a real faith that is first personal, then corporate.\",\"suggested_fix\":\"Correct the mistranslation of 'expository' — the English means 'expository' (экспозиционный, или букв. 'разъясняющий текст'), not 'экзистенциальный'. Revise to a faithful rendering such as: «следуя экспозиционному (или разъяснительному) учению из книги Аввакума о том, что значит истинная вера...» so the theological sense (expository Bible teaching) is preserved.\",\"translation_quote\":\"Давайте честно оценим наши собственные сердца, следуя экзистенциальному учению из книги Аввакума о том, что значит обладать истинной верой, которая сначала личная, а потом корпоративная.\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 4322,
+    "content_evidence_truncated": false,
+    "content_sha256": "8feb6b752768c48c5502adcaea7af4a2b369d8b6bccd7203188d05b77cbf4fc5",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6352,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7914
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

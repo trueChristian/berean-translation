@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "92c39b15-03da-44a2-b39f-10757b1ab634",
+    "response_id": "chatcmpl-EUWwFmI25hHZK9ZnKbd66WD7cRv2c",
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9013,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9978
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1 (italic Scripture tag)",
+        "severity": "major",
+        "source_quote": "ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.",
+        "suggested_fix": "Translate the book name into standard Swedish and keep the chapter/verse unchanged. For example: “ständigt lärande men aldrig kunna komma till kunskap om sanningen – 2 Timoteus 3:7.” Preserve the dash and spacing conventions used in the source if required by style.",
+        "translation_quote": "ständigt lärande men aldrig kunna komma till sanningskunskap – 2 Timothy 3:7."
+      },
+      {
+        "location": "source.html (multiple paragraphs containing the name of the Zurich mayor)",
+        "severity": "minor",
+        "source_quote": "Rudolf Rhan",
+        "suggested_fix": "Correct the personal name spelling to match the authoritative English: “Rudolf Rhan”.",
+        "translation_quote": "Rhudlof Rhan"
+      },
+      {
+        "location": "source.html paragraphs mentioning Stephen Zehnder",
+        "severity": "minor",
+        "source_quote": "Stephen Zehnder",
+        "suggested_fix": "Use the same spelling as the source consistently: “Stephen Zehnder”.",
+        "translation_quote": "Stephen Zhender"
+      },
+      {
+        "location": "source.html paragraph referencing the Muensterites",
+        "severity": "minor",
+        "source_quote": "Events such as the Muensterites and their violent interpretations of Scripture remained a clear warning of religious zeal gone awry.",
+        "suggested_fix": "Use a faithful translation that preserves the historical referent. If you intend to refer to the Muensterites, a direct Swedish rendering like “Münsteriterna” or the anglicized “Muensteriterna” is preferable to “munkarna i Münster,” which changes the meaning. For example: “Händelser såsom münsteriterna och deras våldsamma tolkningar av Skriften utgjorde en tydlig varning…”",
+        "translation_quote": "Händelser som munkarna i Münster och deras våldsamma tolkningar av Skriften utgjorde en tydlig varning för religiöst iver som gått överstyr."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

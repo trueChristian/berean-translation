@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 6 (description of Esther)\",\"severity\":\"critical\",\"source_quote\":\"Esther was a very gentle, sweet girl, which is mostly what Hadassah remembered her for.\",\"suggested_fix\":\"Badilisha tafsiri iwe sahihi na isiyokinzana: mfano, \\\"Esther alikuwa msichana mpole sana na mtamu, ndipo Hadassah alivyomkumbuka zaidi.\\\"\",\"translation_quote\":\"Esther alikuwa msichana mlevi sana na mtamu, ndivyo ambavyo Hadassah alikumbuka zaidi kumhusu.\"},{\"location\":\"Paragraph 5 (pen accusation)\",\"severity\":\"major\",\"source_quote\":\"She was sure that Hadassah had stolen it.\",\"suggested_fix\":\"Tafsiri kwa uwazi kuwa mleviwa au alidai kuiba: mfano, \\\"Alikuwa na hakika kuwa Hadassah alikuwa ameiba.\\\" (si \\\"alimwindikia\\\").\",\"translation_quote\":\"Alikuwa na hakika Hadassah alimwindikia.\"},{\"location\":\"Paragraph 7 (flash-card accusation)\",\"severity\":\"major\",\"source_quote\":\"At the next recess she was blamed for cheating on her flash cards.\",\"suggested_fix\":\"Tafsiri \\\"cheating\\\" kwa usahihi (si \\\"stealing\\\"). Mfano: \\\"Wakati wa mapumziko uliofuata alishtakiwa kwa udanganyifu wakati akitumia kadi zake za kujifunzia (flash cards).\\\"\",\"translation_quote\":\"Wakati wa mapumziko uliofuata alishtakiwa kwa kuibiwa kwa karatasi zake za kufundishia.\"},{\"location\":\"Paragraph 6 (song title)\",\"severity\":\"major\",\"source_quote\":\"She taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!\",\"suggested_fix\":\"Tafsiri wimbo uliotajwa kwa maandishi yaliyoweza kusomwa kwa Kiswahili au nilete tafsiri ya kichwa cha wimbo ndani ya alama za nukuu. Mfano: \\\"Alimfundisha kundi wimbo, ‘Je Mbinguni ni Mbali Ngapi?’, ambao Hadassah bado anapenda kuimba hadi leo!\\\" (badilisha awamu za maneno kama inavyofaa kwa Kiswahili).\",\"translation_quote\":\"Lakini alimfundisha kundi wimbo, “How Far Is Heaven”, ambao Hadassah bado anapenda kuimba hadi leo!\"},{\"location\":\"Final figure alt text (ambulance)\",\"severity\":\"major\",\"source_quote\":\"An ambulance driving with its emergency lights on\",\"suggested_fix\":\"Sahihisha alt ili kukadiria maana ya asili: mfano, \\\"Gari la wagonjwa likiendesha na taa zake za dharura zikiwa zimetamkwa/on\\\"; katika Kiswahili sahihi: \\\"Gari la wagonjwa likiendeshwa litukayo na taa zake za dharura zikiwa zimeteweka/zinawaka.\\\" (tumia \\\"zinawaka\\\" au \\\"zikizua mwanga\\\" sio \\\"zikizima\\\").\",\"translation_quote\":\"Gari la wagonjwa likiendesha na taa zake za dharura zikizima\"},{\"location\":\"Opening sentence (idiom)\",\"severity\":\"minor\",\"source_quote\":\"As a child, you might think you can’t make a difference in the lives of people around you, but that is not true!\",\"suggested_fix\":\"Tumia kifrazia cha Kiswahili sanifu au idiom inayofaa: mfano, \\\"Unapokuwa mtoto, unaweza kufikiri huwezi kuleta tofauti...\\\" badala ya \\\"Ukitoka utotoni\\\".\",\"translation_quote\":\"Ukitoka utotoni, unaweza kudhani hauwezi kuleta tofauti katika maisha ya watu waliokuzunguka, lakini hiyo si kweli!\"},{\"location\":\"Paragraph 2 (phrase about second-grade girls)\",\"severity\":\"minor\",\"source_quote\":\"the second-grade girls were ready for someone to be mean to, or so it seemed.\",\"suggested_fix\":\"Tafsiri kwa ufasaha: mfano, \\\"wasichana wa darasa la pili walionekana kuwa tayari kumdhuru au kumdhulumu mtu.\\\" Epuka maneno yasiyo ya kawaida kama \\\"mkasiriwa.\\\"\",\"translation_quote\":\"wasichana wa darasa la pili walikuwa tayari kumchukulia mtu wa kuwa mkasiriwa, au hivyo ilionekana.\"}],\"passed\":false,\"score\":65}",
+    "content_bytes": 3435,
+    "content_evidence_truncated": false,
+    "content_sha256": "4b5d8e2f1381d98451bbf90f7d9ddb7f2abb47ba510a4ca25a9701abbc6a6010",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1790,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5135
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

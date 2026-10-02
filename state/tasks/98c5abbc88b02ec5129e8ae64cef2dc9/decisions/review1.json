@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "When You Feel Like Giving Up",
+      "suggested_fix": "Translate the English title into Dutch. Suggested translation: \"Als je het gevoel hebt op te geven\" (or alternatively \"Wanneer je het gevoel hebt op te geven\"). Preserve casing and punctuation as in the target-site style.",
+      "translation_quote": "When You Feel Like Giving Up"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "Inspirations for Youth",
+      "suggested_fix": "Translate the English section name into Dutch. Suggested translation: \"Inspiratie voor jongeren\" (or alternatively \"Inspiraties voor jongeren\"). Ensure the translated section value replaces the English phrase.",
+      "translation_quote": "Inspirations for Youth"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

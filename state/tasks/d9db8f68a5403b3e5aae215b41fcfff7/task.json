@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 6468
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1337,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6258,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7595
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph: \"This man is living somewhere within the United States of America...\" (source.html paragraph beginning \"This man is living somewhere within the United States of America.\")",
+      "severity": "major",
+      "source_quote": "part of a certain religious group within the plain people—those of Anabaptist heritage.",
+      "suggested_fix": "Vertaal \"plain people\" consistent en juist als verwijzing naar de aanspraak op eenvoudige/\"plain\" Anabaptistische gemeenschappen, niet als \"plattelandsmensen\". Bijvoorbeeld: \"hij behoort tot een bepaalde religieuze groep binnen het 'plain' volk — zij van wederdoper-afkomst.\" Of in standaard Nederlands zonder Engelse term: \"hij behoort tot een bepaalde religieuze groep onder de eenvoudige (plain) mensen — van wederdoper-afkomst.\" Preserveer de enkelvoud/meervoudsconventie en de tautologie die de auteur gebruikte.",
+      "translation_quote": "Hij behoort tot een bepaalde religieuze groep binnen de plattelandsmensen — die van wederdoper-afkomst."
+    },
+    {
+      "location": "Paragraph: \"...though the world does not want to retain God in their knowledge...\" (source.html paragraph mentioning insurance companies)",
+      "severity": "major",
+      "source_quote": "insurance companies still refer to certain specific events as “acts of God”.",
+      "suggested_fix": "Vertaal de aangehaalde Engelse term volledig in het Nederlands en zet eventueel de Engelse term tussen haakjes. Bijvoorbeeld: \"verzekeringsmaatschappijen toch bepaalde specifieke gebeurtenissen nog steeds aanduiden als 'gevallen van God' (acts of God).\" This ensures the quoted substantive phrase is rendered into Dutch as required.",
+      "translation_quote": "verzekeringsmaatschappijen toch bepaalde specifieke gebeurtenissen nog steeds aanduiden als “gevallen van God” (acts of God)."
+    },
+    {
+      "location": "Paragraph: \"His local church is a part of the descendants...\" (source.html paragraph beginning \"His local church is a part of the descendants of the Anabaptists...\")",
+      "severity": "major",
+      "source_quote": "Herein, his church leaders are finding themselves on the opposite side of the issue of freedom of religious worship that their forefathers suffered for, since they are insisting that the only way to learn of God’s will is through the official language of Scripture—German.",
+      "suggested_fix": "De vertaling van deze zin is onduidelijk en deels ongrammaticaal (\"waar hun voorouders voor leden\") en daarmee verandert de betekenis. Herschrijf in duidelijk Nederlands die de Engelse strekking volgt en behoudt \"their forefathers suffered for\" als lijdende vorm: bijvoorbeeld: \"Hierin bevinden zijn kerkleiders zich aan de andere kant van de kwestie van vrijheid van godsdienstige eredienst waarvoor hun voorouders hebben geleden, aangezien zij erop aandringen dat de enige manier om Gods wil te leren via de officiële taal van de Schrift — Duits — is.\" Behoud de HTML-structuur en zet alleen de tekst binnen de <p>…</p> opnieuw.",
+      "translation_quote": "Hierin bevinden zijn kerkleiders zich aan de andere kant van de kwestie van vrijheid van godsdienstige eredienst waar hun voorouders voor leden, aangezien zij erop aandringen dat de enige manier om Gods wil te leren is via de officiële taal van de Schrift — Duits."
+    }
+  ],
   "id": "d9db8f68a5403b3e5aae215b41fcfff7",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nld",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

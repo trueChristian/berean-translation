@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — first paragraph (scripture citation)\",\"severity\":\"minor\",\"source_quote\":\"<em>ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.</em>\",\"suggested_fix\":\"Translate the book name into conventional Urdu while preserving chapter and verse formatting. For example: <em>ہمیشہ سیکھتے ہوئے، مگر کبھی حق کے علم تک پہنچنے سے قاصر — 2 تیموتھیس 3:7.</em> (Replace the existing em text in the first paragraph.)\",\"translation_quote\":\"<em>ہمیشہ سیکھتے ہوئے، مگر کبھی حق کے علم تک پہنچنے سے قاصر – 2 Timothy 3:7.</em>\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 705,
+    "content_evidence_truncated": false,
+    "content_sha256": "24a490a9e227ac7278a0336aba829b64e0e96fc649eb903e6bf39f5db791202e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9796,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10551
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

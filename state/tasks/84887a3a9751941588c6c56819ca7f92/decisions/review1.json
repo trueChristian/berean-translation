@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Acts 27:20 (source.html first long paragraph after heading)",
+      "severity": "minor",
+      "source_quote": "…when neither sun nor stars in many days appeared, and no small tempest lay on us, all hope that we should be saved was then taken away –Acts 27:20.",
+      "suggested_fix": "Replace awkward phrasing “is toenemend weggeneem” with a clearer, faithful Afrikaans rendering of the English: e.g. “...toe al die hoop dat ons gered sou word van ons geneem is – Handelinge 27:20.” Preserve verse reference formatting and punctuation.",
+      "translation_quote": "…al die hoop dat ons gered sou word is toenemend weggeneem –Handelinge 27:20."
+    },
+    {
+      "location": "Paragraph quoting 2 Corinthians 1:8 (source.html, paragraph beginning “If there first be no valley…”)",
+      "severity": "minor",
+      "source_quote": "…pressed out of measure, above strength, insomuch that we despaired even of life –2 Corinthians 1:8.",
+      "suggested_fix": "The Afrikaans rendering is awkward and slightly unclear: replace “byna tot niks toe bedrieg en baie swaar benoud is, so dat ons selfs die lewe hopeloos geag het” with a closer, idiomatic translation that preserves the sense, e.g. “…so erg verdring en bo krag, dat ons selfs die lewe hopeloos geag het – 2 Korintiërs 1:8.”",
+      "translation_quote": "…byna tot niks toe bedrieg en baie swaar benoud is, so dat ons selfs die lewe hopeloos geag het –2 Korintiërs 1:8."
+    },
+    {
+      "location": "Paragraph beginning “Ons geloof is bound to fail…” (source.html paragraph about anxiety escalating)",
+      "severity": "minor",
+      "source_quote": "Our faith is bound to fail when anxiety escalates, and we think we must control the raging trials about us.",
+      "suggested_fix": "The translation uses “Ons geloof is voorbestan om te faal”, which is an incorrect wording in Afrikaans. Suggest: “Ons geloof is geneig om te faal wanneer angs eskaleer, en ons dink ons moet die woedende beproewings rondom ons beheer.”",
+      "translation_quote": "Ons geloof is voorbestan om te faal wanneer angs eskaleer en ons dink ons moet die woedende beproewings rondom ons beheer."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

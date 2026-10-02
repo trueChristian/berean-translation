@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>…But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!</p>",
+      "severity": "critical",
+      "source_quote": "But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
+      "suggested_fix": "Translate the quoted song title into French while preserving the quotation marks and surrounding sentence in the same HTML element. For example: « Elle apprit aux filles une chanson, « Jusqu’où est le ciel », que Hadassah aime encore chanter aujourd’hui ! » (If the publication prefers a different established French rendering of the song title, use that exact rendering.)",
+      "translation_quote": "Mais elle apprit aux filles une chanson, « How Far Is Heaven », que Hadassah aime encore chanter aujourd’hui !"
+    },
+    {
+      "location": "<p>…It was a very sad group of schoolgirls when Esther died at the age of 13. …</p>",
+      "severity": "minor",
+      "source_quote": "It was a very sad group of schoolgirls when Esther died at the age of 13.",
+      "suggested_fix": "Use a neutral, age-appropriate French word for elementary school girls rather than « collégiennes », which implies middle-school age in many francophone regions. For example: « C’était un groupe d’écolières très tristes lorsque Esther mourut à l’âge de 13 ans. » Preserve the sentence inside the same paragraph element.",
+      "translation_quote": "Ce fut un groupe de collégiennes très triste lorsque Esther mourut à l’âge de 13 ans."
+    },
+    {
+      "location": "<p>…At the next recess she was blamed for cheating on her flash cards. …</p>",
+      "severity": "minor",
+      "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
+      "suggested_fix": "Use a more idiomatic French rendering for “flash cards.” Options: « cartes-éclair », « cartes mémoire » or « cartes flash ». For example: « À la récréation suivante, on l’accusa d’avoir triché sur ses cartes‑éclair. » Keep the change within the same paragraph element.",
+      "translation_quote": "À la récréation suivante on l’accusa d’avoir triché sur ses cartes éclairs."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

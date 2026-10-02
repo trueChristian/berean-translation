@@ -2,7 +2,6 @@
   "article_id": "3feab4dd-c830-4ead-ad57-24d853847088",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 8855
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1026,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8568,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9594
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "CHURCH HISTORY",
+      "suggested_fix": "Translate the section label into the target language and preserve intended meaning and casing. Replace the translation value \"HISTORY OF THE CHURCH\" with a Portuguese equivalent, e.g. \"HISTÓRIA DA IGREJA\" (keeping whatever site casing convention is used).",
+      "translation_quote": "HISTORY OF THE CHURCH"
+    },
+    {
+      "location": "source.html: paragraph with \"1500 years earlier\"",
+      "severity": "minor",
+      "source_quote": "but its roots had been established a full 1500 years earlier, in Galilee, where One taught and lived the final answers to all of man’s questions.",
+      "suggested_fix": "Use an internationally neutral numeral format in Portuguese (avoid region-specific thousands separator). Replace \"1.500 anos antes\" with \"1500 anos antes\" in the translated paragraph. Preserve HTML structure and tags exactly.",
+      "translation_quote": "suas raízes haviam sido estabelecidas 1.500 anos antes, na Galileia, onde Aquele que ensinou e viveu as respostas finais para todas as perguntas do homem."
+    }
+  ],
+  "finished_at": "2026-10-02T12:49:33+00:00",
   "id": "89b46bd52fc61a583492f8c97638511a",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "por",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/71da96b1e9fc7ad8418f514e41f429009d9b72f0f1b0b1b636d343ab0a681930.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

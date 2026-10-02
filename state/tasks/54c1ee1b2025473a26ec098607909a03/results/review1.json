@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "15536352-4dd0-41cb-9f23-da288c1c1343",
+    "response_id": "chatcmpl-EUWwTmObN23IxJDls1CQXDidnq93R",
+    "usage": {
+      "completion_tokens": 1771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10141,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11912
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final Thoughts paragraph with Isaiah quote (source.html near end)",
+        "severity": "major",
+        "source_quote": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness –Isaiah 41:10.",
+        "suggested_fix": "Translate this quoted Scripture into contemporary Modern Greek (not Koine/Septuagint Greek). Preserve the verse reference exactly (Isaiah 41:10) and keep it set as a quoted/italicized block as in the source. Example (Modern Greek idiomatic rendering): «Μη φοβάσαι· γιατί εγώ είμαι μαζί σου· μη δειλιάζεις· γιατί εγώ είμαι ο Θεός σου· θα σε δυναμώσω, ναι, θα σε βοηθήσω, ναι, θα σε στηρίξω με το δεξί της δικαιοσύνης μου.» – Ησαΐας 41:10.",
+        "translation_quote": "<em>Μη φοβού, διότι εγώ είμαι μετ’ ἐσού· μη συνταράσσηται, διότι εγώ είμαι ὁ Θεός σου· ἐνισχύσω σε, ναί, ἐξοδηγήσω σε, ναί, ὑποστηρίξω σε ἐν τῇ δεξιᾷ τῆς δικαιοσύνης μου – Ησαΐας 41:10.</em>"
+      },
+      {
+        "location": "Following paragraph with Matthew quote (source.html near end)",
+        "severity": "major",
+        "source_quote": "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed? (For after all these things do the Gentiles seek:) for your heavenly Father knoweth that ye have need of all these things. But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you. Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof –Matthew 6:31-34.",
+        "suggested_fix": "Translate this quoted Scripture into contemporary Modern Greek (not Koine/Ancient Greek). Preserve the verse reference exactly (Matthew 6:31-34) and keep the quotation formatting. Example (Modern Greek idiomatic rendering): «Μη ανησυχείτε λοιπόν, λέγοντας: Τι θα φάμε; ή, Τι θα πιούμε; ή, Τι θα ντυθούμε; (Διότι όλα αυτά ζητούν τα έθνη.) Ο Πατέρας σας ο ουράνιος γνωρίζει ότι έχετε ανάγκη απ’ όλα αυτά. Ζητήστε πρώτα τη βασιλεία του Θεού και τη δικαιοσύνη Του, και όλα αυτά θα προστεθούν σε σας. Μη μεριμνάτε λοιπόν για την αυριανή ημέρα· η αυριανή μέρα θα μεριμνήσει για τα του εαυτής· αρκεί στην ημέρα η δυστυχία της.» – Ματθαίος 6:31-34.",
+        "translation_quote": "<em>Μη οὖν μεριμνήσητε λέγοντες, Τί φάγωμεν; ἢ, Τί πίωμεν; ἢ, Τί περιβαλώμεθα; (Ὅτι πάντα ταῦτα τα ἔθνη ἠμπορούσιν ἐκζητεῖν) Ὅτι ὁ Πατήρ ὑμῶν ὁ οὐράνιος οἶδεν ὅτι δεῖ ὑμᾶς τούτων πάντων. Ζητεῖτε δὲ πρῶτον τὴν βασιλείαν τοῦ Θεοῦ καὶ τὴν δικαιοσύνην αὐτοῦ, καὶ ταῦτα πάντα προστεθήσεται ὑμῖν. Μὴ οὖν μεριμνήσητε εἰς τὴν αὔριον· ἡ αὔριον μεριμνήσει ἐαυτῆς. Ἥ αρκετὸν τῇ ἡμέρᾳ ἡ κακία αὐτῆς – Ματθαῖος 6:31-34.</em>"
+      },
+      {
+        "location": "Article end (very last character of translation)",
+        "severity": "minor",
+        "source_quote": "...May God give us wisdom to care for the body which He has given us.",
+        "suggested_fix": "Remove the stray closing quotation mark (» or other) at the end of the article. The source text does not include a closing quotation mark there. Ensure that only those sentences that are direct speech in the source are enclosed in quotation marks, preserving original quotation boundaries and tags.",
+        "translation_quote": "...Είθε ο Θεός να μας δώσει σοφία για να φροντίζουμε το σώμα που μας έχει δώσει.»"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

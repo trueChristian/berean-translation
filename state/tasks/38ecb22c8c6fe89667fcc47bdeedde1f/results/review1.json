@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f27423c1-24a3-49d0-b8cd-1fd131f1d2bc",
+    "response_id": "chatcmpl-EUWwWWEzRMdmADyB0UVVpiH83JODy",
+    "usage": {
+      "completion_tokens": 1806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7321
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — poem stanzas (multiple <p class=\"poem\"> blocks)",
+        "severity": "critical",
+        "source_quote": "Abide with me: fast falls the eventide;\\n    The darkness deepens; Lord, with me abide:\\n    when other helpers fail, and comforts flee,\\n    Help of the helpless, O abide with me.",
+        "suggested_fix": "Translate each stanza of the hymn into contemporary Modern Hebrew, preserving the meaning, verse structure and stanza order. The English quoted hymn is substantive quoted prose and must be rendered into Hebrew. Example (not prescriptive phrasing): \"התחבב איתי: במהירות נופל הערב;\\nהחושך מעמיק; אדוני, שב איתי: \\nכשהעוזרים נכשלים והנחמות בורחות,\\nעזרת עניים, הֵשׁאר עמדי.\" Place the Hebrew text inside the same <p class=\"poem\"> elements and preserve line breaks and HTML tags exactly as in source.",
+        "translation_quote": "Abide with me: fast falls the eventide;\\n    The darkness deepens; Lord, with me abide:\\n    when other helpers fail, and comforts flee,\\n    Help of the helpless, O abide with me."
+      },
+      {
+        "location": "source.html — poem stanzas (all remaining stanza <p class=\"poem\"> blocks)",
+        "severity": "critical",
+        "source_quote": "(All seven remaining English stanzas as printed in source.html)",
+        "suggested_fix": "Translate each remaining stanza fully into Hebrew, preserving the hymn's theological sense and stanza order. Every line of quoted substantive poetic prose must be translated; do not leave the English text. Keep each stanza in its original <p class=\"poem\"> element and retain line break tags (<br>) exactly as in source.",
+        "translation_quote": "(The translation leaves all poem stanzas in English; unchanged from source)"
+      },
+      {
+        "location": "source.html — Luke quotation inside paragraph with emphasis tag",
+        "severity": "critical",
+        "source_quote": "…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.",
+        "suggested_fix": "Translate the quoted Scripture (Luke 24:28–29) into contemporary Modern Hebrew, conveying the printed English meaning and preserving the reference numbers exactly. Place the Hebrew translation inside the same <em> element and keep the citation \"–Luke 24:28-29.\" Use conventional Hebrew Bible wording for book name (e.g. \"לוקס\" is not conventional — use \"לוקס\" only if the site style requires English book names; otherwise use \"לוקס\"? Better: use the conventional Hebrew form \"לוקס\" or more commonly \"לוקס\" — confirm site style). Example phrasing (not prescriptive): \"...נראה כאילו ירצה להמשיך בדרכו; אך הם אילצו אותו, ואמרו: 'הישאר עמנו, כי הערב נוטה והיום קרב לסופו.' והוא נכנס לשהות עימם.\" Retain the reference \"–Luke 24:28-29.\"",
+        "translation_quote": "…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29."
+      },
+      {
+        "location": "translation.html — first paragraph: term \"שירי־הוללות\"",
+        "severity": "minor",
+        "source_quote": "This hymn is generally considered to be one of the greatest hymns ever written and is found in nearly every hymnal or book of hymns published today.",
+        "suggested_fix": "Replace the problematic Hebrew phrase \"שירי־הוללות\" with an idiomatic contemporary Hebrew term that matches the source meaning (books of hymns). Suggested fixes: \"סידורי מזמורים\", \"סידורי שירים דתיים\", or simply \"ספרי מזמורים\". Example: \"נמצא כמעט בכל סידור מזמורים או ספר מזמורים שפורסם היום.\"",
+        "translation_quote": "המזמור הזה נחשב בדרך כלל לאחד מהמזמורים הגדולים שנכתבו אי־פעם ונמצא כמעט בכל סידור שירי־הוללות או ספר מזמורים שפורסם היום."
+      },
+      {
+        "location": "translation.html — paragraph about Lyte's death: garbled age phrase",
+        "severity": "major",
+        "source_quote": "He passed away soon after the age of 55, on November 20, 1847. His last words were “Joy! Peace!”",
+        "suggested_fix": "Correct the Hebrew rendering of the age clause. The translation currently says: \"הוא הלך לעולמו זמן קצר לאחר מכן, לאחר שגיל זמן מעל 55, ב־20 בנובמבר 1847.\" Replace with a clear, faithful rendering such as: \"הוא הלך לעולמו זמן קצר לאחר שנשא מעל גיל 55, ב־20 בנובמבר 1847.\" or better: \"הוא נפטר זמן קצר לאחר הגיעו לגיל 55, ב־20 בנובמבר 1847.\" Preserve the original date and last words in Hebrew: \"מילותיו האחרונות היו: 'שמחה! שלום!'\"",
+        "translation_quote": "הוא הלך לעולמו זמן קצר לאחר מכן, לאחר שגיל זמן מעל 55, ב־20 בנובמבר 1847. מילותיו האחרונות היו: \"שמחה! שלום!\""
+      },
+      {
+        "location": "translation.html — <img> alt attribute",
+        "severity": "minor",
+        "source_quote": "alt=\"Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861\"",
+        "suggested_fix": "Fix the Hebrew alt text which currently reads \"תולל שיר עבור Abide With Me...\" (garbled). Provide a clear Hebrew alt text that translates the English alt exactly, e.g.: \"תווים לשיר 'Abide With Me, Fast Falls the Eventide', מיוחס להנרי פ. לייט, 1847, ולויליאם ה. מונק, 1861.\" Preserve the English song title if site style requires it, or translate the title consistently if other titles are translated elsewhere.",
+        "translation_quote": "alt=\"תולל שיר עבור Abide With Me, Fast Falls the Eventide, מיוחס להנרי פ. לייט, 1847, וויליאם ה. מונק, 1861\""
+      }
+    ],
+    "passed": false,
+    "score": 30
+  }
+}

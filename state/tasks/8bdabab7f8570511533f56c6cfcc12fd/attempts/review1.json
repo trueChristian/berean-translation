@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Paragraph about Esther's illness (paragraph beginning \\\"Esther was a very gentle, sweet girl...\\\")\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now, so those patients usually died very young.\",\n      \"suggested_fix\": \"Remove the redundant English term in parentheses so the medical condition appears only in Dutch. Preserve the meaning and chronology exactly. For example: replace \\\"Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel...\\\" with \\\"Esther had taaislijmziekte en in de jaren 1970 waren er niet zoveel...\\\"\",\n      \"translation_quote\": \"Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel behandelingsmogelijkheden als nu, zodat patiënten meestal jong overleden.\"\n    }\n  ],\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 967,
+    "content_evidence_truncated": false,
+    "content_sha256": "7bf13f5c92befc9e6c297a48b9c668ea6aa8bc7d5f513f06c8d2051168f3a600",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3153,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4043
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

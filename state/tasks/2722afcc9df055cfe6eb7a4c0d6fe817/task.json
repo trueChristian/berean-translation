@@ -2,7 +2,6 @@
   "article_id": "55b18915-e213-448c-8fe1-d430e195e768",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 8352
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1822,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7802,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9624
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — opening blockquote (Matthew 14:28-29)",
+      "severity": "critical",
+      "source_quote": "And Peter answered him and said, Lord, if it be thou, bid me come unto thee on the water. And he said, Come. And when Peter was come down out of the ship, he walked on the water, to go to Jesus –Matthew 14:28-29.",
+      "suggested_fix": "Correct the negation and the proper name; preserve HTML structure and italics. Replace the translated verse text inside the blockquote with an accurate Kiswahili rendering that preserves the meaning (no added negation) and the name Yesu. For example: <em>Na Petro akamjibu akamwambia, Bwana, ikiwa ni wewe, agiza niende kwako juu ya maji. Akamwambia, Njoo. Ndipo Petro alipokuwa amepaa chini kutoka meli, akatembea juu ya maji ili aende kwa Yesu –Mathayo 14:28-29.</em>",
+      "translation_quote": "<em>Na Petro akamjibu akamwambia, Bwana, ikiwa ni wewe, niamuru nisiende kwako juu ya maji. Akamwambia, Njoo. Ndipo Petro alipopanda chini kutoka meli, akatembea juu ya maji ili aende kwa Yasu –Mathayo 14:28-29.</em>"
+    },
+    {
+      "location": "source.html — paragraph quoting Matthew 14:25-27",
+      "severity": "major",
+      "source_quote": "And in the fourth watch of the night Jesus went unto them, walking on the sea. And when the disciples saw him walking on the sea, they were troubled, saying, It is a spirit; and they cried out for fear. But straightway Jesus spake unto them, saying, Be of good cheer; it is I; be not afraid –Matthew 14:25-27.",
+      "suggested_fix": "Restore an accurate Kiswahili rendering of the verse, preserving the original sense and placement. Keep this inside the same <em>…</em> tags. Suggested Kiswahili rendering: <em>Na katika saa ya nne ya usiku Yesu akawarudia wakitembea juu ya bahari. Wakati wanafunzi walipomwona akitembea juu ya bahari, wakatisha tamaa, wakisema, Ni pepo; nao wakalia kwa hofu. Lakini papo hapo Yesu akawaambia, Ujasiri; ni mimi; msione hofu –Mathayo 14:25-27.</em> (Or use equivalent idiomatic Kiswahili that renders \"Be of good cheer; it is I; be not afraid\" accurately.)",
+      "translation_quote": "<em>Na katika saa ya nne ya usiku Yesu akawaendea wakitembea juu ya bahari. Wakati wanafunzi walipoona yeye akitembea juu ya bahari, wakatokeza kwa hofu, wakisema, Ni roho; nao wakalia kwa hofu. Lakini papo hapo Yesu akawaambia, Amini; ni mimi; msizitumike na hofu –Mathayo 14:25-27.</em>"
+    },
+    {
+      "location": "source.html — paragraph quoting Hebrews 11:1",
+      "severity": "major",
+      "source_quote": "In Hebrews 11 we read that ...faith is the substance of things hoped for, the evidence of things not seen –Hebrews 11:1.",
+      "suggested_fix": "Correct the book name translation. Use the conventional Kiswahili form for the book of Hebrews (\"Waebrania\"). Preserve the verse reference numbering and HTML structure. For example: <em>…imani ni uhakika wa mambo yanayotarajiwa, ni ushahidi wa mambo yasiyoonekana –Waebrania 11:1.</em>",
+      "translation_quote": "<em>…imani ni uhakika wa mambo yanayotarajiwa, ni ushahidi wa mambo yasiyoonekana –Waheshimiwa 11:1.</em>"
+    },
+    {
+      "location": "source.html — paragraph quoting 1 Corinthians 2:14",
+      "severity": "minor",
+      "source_quote": "But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned –1 Corinthians 2:14.",
+      "suggested_fix": "The translation largely conveys the meaning, but the rendered Kiswahili phrase 'ni ujeuri kwake' is incorrect for 'are foolishness unto him'. Replace with a standard Kiswahili translation that conveys 'foolishness' (e.g., 'kwake ni upotofu' or 'kwake ni ujinga') while keeping the verse reference. For example: <em>Bali asili ya mwanadamu haipokei mambo ya Roho wa Mungu; kwa kuwa ni ujinga kwake; wala haviwezi kuyafahamu, kwa kuwa yanatambuliwa kiroho –1 Wakorintho 2:14.</em>",
+      "translation_quote": "<em>Bali asili ya mwanadamu haipokei mambo ya Roho wa Mungu; kwa kuwa ni ujeuri kwake; wala haviwezi kuyafahamu, kwa kuwa yanatambuliwa kiroho –1 Wakorintho 2:14.</em>"
+    }
+  ],
   "id": "2722afcc9df055cfe6eb7a4c0d6fe817",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swa",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/47641161e24a4c36535a9aad69db399a5b74987fc191a5346da200439748cac7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

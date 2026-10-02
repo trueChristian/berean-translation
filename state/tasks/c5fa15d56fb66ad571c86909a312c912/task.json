@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,72 @@
         },
         "total_tokens": 6767
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2053,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6489,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8542
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph 3 (mention of earlier hymn)",
+      "severity": "major",
+      "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Translate the quoted hymn title into Greek (preserve the quotation marks and surrounding HTML). For example: «Λέγεται ότι η συνάντησή του με τον Θεό στο προσκέφαλο εκείνου του πεθαίνοντος ανθρώπου προκάλεσε τον ευγενή ύμνο του Lyte, «Ιησούς, πήρα τον Σταυρό μου.»» Ensure the hymn title is rendered into Greek rather than left in English.",
+      "translation_quote": "Λέγεται ότι η συνάντησή του με τον Θεό στο προσκέφαλο εκείνου του πεθαίνοντος ανθρώπου προκάλεσε τον ευγενή ύμνο του Lyte, «Jesus, I My Cross Have Taken.»"
+    },
+    {
+      "location": "source.html paragraph 16 (list of other hymns)",
+      "severity": "major",
+      "source_quote": "William Monk also wrote the music for other familiar hymns such as “Look, Ye Saints! The Sight Is Glorious”, and “The Strife Is O’er”.",
+      "suggested_fix": "Translate the quoted hymn titles into Greek while preserving punctuation and HTML structure. Example suggestions: «Ο William Monk επίσης έγραψε τη μουσική για άλλους γνωστούς ύμνους, όπως «Κοιτάξτε, ω άγιοι! Το θέαμα είναι ένδοξο» και «Ο Αγώνας Έχει Τελειώσει».» Replace the English titles in the translation with equivalent Greek renderings.",
+      "translation_quote": "Ο William Monk επίσης έγραψε τη μουσική για άλλους γνωστούς ύμνους όπως «Look, Ye Saints! The Sight Is Glorious», και «The Strife Is O’er». "
+    },
+    {
+      "location": "source.html final paragraphs / attribution of quotation",
+      "severity": "major",
+      "source_quote": "“In no other writer,” says Dr. Breed (in the Treasury of Hymn Stories), “are poetry and religion more exquisitely united.”",
+      "suggested_fix": "Translate the book title and the quoted sentence into Greek, preserving quotation marks and parenthetical structure. For example: ««Σε κανέναν άλλο συγγραφέα,» λέει ο Δρ. Breed (στον Θησαυρό Ιστοριών Υμνων — 'Treasury of Hymn Stories'), «η ποίηση και η θρησκεία δεν ενώνονται πιο εξαίσια.»» If you retain the original English title as a parenthetical reference, provide a Greek rendering as well or place the English title in italics within Greek text. Do not leave the substantive book title only in English.",
+      "translation_quote": "«Σε κανένα άλλο συγγραφέα,» λέει ο Δρ. Breed (στο Treasury of Hymn Stories), «η ποίηση και η θρησκεία δεν ενώνονται πιο εξαίσια.»"
+    },
+    {
+      "location": "source.html paragraph 1 (opening sentence)",
+      "severity": "minor",
+      "source_quote": "It was he who coined the phrase, “It is better to wear out than to rust out.”",
+      "suggested_fix": "Restore the missing main verb in Greek so the sentence is grammatical and reads naturally. For example: «Ήταν αυτός που επινόησε τη φράση «Καλύτερα να φθαρείς παρά να σκουριάσεις.»» Replace the current fragment beginning with «Αυτός που επινόησε…» with the corrected wording.",
+      "translation_quote": "Αυτός που επινόησε τη φράση «Καλύτερα να φθαρείς παρά να σκουριάσεις.»"
+    },
+    {
+      "location": "source.html paragraph 3 (phrase translating 'on his deathbed')",
+      "severity": "minor",
+      "source_quote": "one day in Cornwall, a fellow clergyman who was on his deathbed, requested that Lyte would come and give him some spiritual comfort.",
+      "suggested_fix": "Adjust Greek idiom and register for 'on his deathbed' to a more natural phrase (keep HTML). For example: «Μια μέρα στην Κορνουάλη, ένας συνάδελφος κληρικός, που βρισκόταν εν κλίνῃ θανάτου, ζήτησε από τον Lyte…» or «που βρισκόταν στο προσκέφαλο του θανάτου». Replace the current «σε κοιτώνα θανάτου» with a natural idiomatic rendering.",
+      "translation_quote": "Μια μέρα στην Κορνουάλη, ένας συνάδελφος κληρικός που βρισκόταν σε κοιτώνα θανάτου, ζήτησε από τον Lyte να έρθει και να του δώσει πνευματική παρηγοριά."
+    },
+    {
+      "location": "source.html paragraph 3 (quotation 'to their mutual grief' phrasing)",
+      "severity": "minor",
+      "source_quote": "To their mutual grief, they found themselves [both] groping for the light, veritable blind guides.",
+      "suggested_fix": "Correct Greek word order and case to read naturally: e.g. «Προς αμοιβαία λύπη τους, βρέθηκαν (και οι δύο) να ψάχνουν το φως, αληθινοί τυφλοί οδηγοί.» Ensure morphological agreement and idiomatic phrasing.",
+      "translation_quote": "«Προς της αμοιβαίας τους λύπης, βρέθηκαν [και οι δύο] να ψάχνουν το φως, αληθινοί τυφλοί οδηγοί»."
+    }
+  ],
   "id": "c5fa15d56fb66ad571c86909a312c912",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ell",
@@ -100,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

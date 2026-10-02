@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9595ee90-6d0a-4e9b-9bf9-ba39825bb002",
+    "response_id": "chatcmpl-EUWwRyn1Hnq7DRklglyOQ5fDeA5UC",
+    "usage": {
+      "completion_tokens": 1054,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8947,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10001
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…stod denne natten hos meg en Guds engel, hvis jeg er, og hvem jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24.</p>",
+        "severity": "major",
+        "source_quote": "…there stood by me this night the angel of God, whose I am, and whom I serve, Saying, Fear not, Paul… –Acts 27:23-24.",
+        "suggested_fix": "Translate the phrase \"whose I am, and whom I serve\" so it faithfully conveys possession/relationship, not a conditional clause. Replace the clause in Norwegian with a correct equivalent, for example: \"…stod denne natten hos meg en Guds engel, han som jeg hører til, og som jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24.\" Preserve the surrounding HTML and verse citation exactly.",
+        "translation_quote": "…stod denne natten hos meg en Guds engel, hvis jeg er, og hvem jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24."
+      },
+      {
+        "location": "translation.section",
+        "severity": "minor",
+        "source_quote": "Victorious Christian Living",
+        "suggested_fix": "Translate the section name into Norwegian Bokmål. Suggested rendering: \"Seirende kristent liv\" (or \"Seirende kristenliv\" if the site prefers a single-word section slug).",
+        "translation_quote": "Victorious Christian Living"
+      }
+    ],
+    "passed": false,
+    "score": 75
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Replace the translated title with a correct, fully translated French title without encoding errors. Use: \"De la rédaction\"",
+      "translation_quote": "De la r\u0000e9daction"
+    },
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Replace the translated section heading with a correct, fully translated French heading without encoding errors. Use: \"DE LA RÉDACTION\"",
+      "translation_quote": "DE LA R\u0000c9DACTION"
+    },
+    {
+      "location": "source.html paragraph: \"There, in the nightstand drawer he discovered a book titled “The Holy Bible”.\"",
+      "severity": "major",
+      "source_quote": "There, in the nightstand drawer he discovered a book titled “The Holy Bible”.",
+      "suggested_fix": "Translate the quoted book title into French. Replace “The Holy Bible” with « La Sainte Bible » (keeping the existing punctuation and quotation marks).",
+      "translation_quote": "Là, dans le tiroir de la table de chevet, il découvrit un livre intitulé « The Holy Bible »."
+    },
+    {
+      "location": "source.html paragraph: \"...what 1 Corinthians chapter 14 refers to as <em>tongues</em> (languages)...\"",
+      "severity": "major",
+      "source_quote": "what 1 Corinthians chapter 14 refers to as <em>tongues</em> (languages)",
+      "suggested_fix": "Do not leave the English word 'tongues' in the parenthesis. Translate fully into French. For example: « ce que 1 Corinthiens chapitre 14 appelle des <em>langues</em> (langues) » — better, remove the redundant English: « ce que 1 Corinthiens chapitre 14 appelle des <em>langues</em> et, faute d'interprétation, il ne pouvait pas être édifié. » Ensure no English words remain.",
+      "translation_quote": "tout ce qu'il entendait était ce que 1 Corinthiens chapitre 14 appelle des <em>langues</em> (tongues) et comme il ne comprenait pas la langue et qu'aucune <em>interprétation</em> n'était donnée, il ne pouvait pas être édifié."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

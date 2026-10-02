@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 6094
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1808,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5680,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7488
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph 1 (proverb)",
+      "severity": "major",
+      "source_quote": "“It is better to wear out than to rust out.”",
+      "suggested_fix": "Translate the proverb so the intended meaning (better to wear out than to rust) is preserved in Afrikaans, e.g. “Dit is beter om uit te slyt as om te roes.” or “Dit is beter om te verslyt as om te roes.”",
+      "translation_quote": "“Dit is beter om uit te dra as om te roes.”"
+    },
+    {
+      "location": "source.html paragraph containing Luke quote (final paragraphs)",
+      "severity": "critical",
+      "source_quote": "“…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.”",
+      "suggested_fix": "Scripture must be translated faithfully into standard contemporary Afrikaans. The current translation mixes a Dutch form (“Blijf”) and non-idiomatic phrasing. Replace with a clear Afrikaans rendering that preserves the quoted passage and verse reference, for example: “…het Hy gedoen asof Hy verder sou gaan. Toe het hulle Hom aangesê en gesê: ‘Bly by ons; want dit is al na die aand en die dag is al verby.’ En Hy het by hulle ingegaan om by hulle te bly. — Lukas 24:28-29.”",
+      "translation_quote": "<em>…daarop het Hy asof Hy dalk verder sou gegaan het. En hulle het Hom getrek, en gesê: Blijf by ons; want dit is al na die aand, en die dag is al verby. En Hy het met hulle ingegaan om by hulle te bly — Lukas 24:28-29.</em>"
+    },
+    {
+      "location": "source.html stanza 3 (poem)",
+      "severity": "major",
+      "source_quote": "\"Come, not to sojourn, but abide, with me.\"",
+      "suggested_fix": "Preserve the contrast and request to 'abide' (remain) rather than an incorrect verb. A faithful Afrikaans rendering: “Kom nie om te kom woon/verbly nie, maar bly by my.” or “Kom nie om net te bly vir ’n rukkie nie, maar woon by my; bly by my.” Keep structure so the sense of permanent abiding is clear.",
+      "translation_quote": "\"Kom, nie om te bly nie, maar word, wees by my.\""
+    },
+    {
+      "location": "source.html paragraph about Lyte's last 23 years",
+      "severity": "minor",
+      "source_quote": "\"It was at that place where he spent the last 23 years of his life toiling as a pastor for the spiritual good of the poor fishing people and the rough seafaring men of that region until his death in the fall of 1847.\"",
+      "suggested_fix": "Use a more idiomatic Afrikaans verb for 'spent (time)' here. Replace 'spandeer het' with 'deurgebring het' to match the English meaning: “...waar hy die laaste 23 jaar van sy lewe deurgebring het, werkend as ’n predikant...”",
+      "translation_quote": "\"Dit was op daardie plek waar hy die laaste 23 jaar van sy lewe gespandeer het, werkend as ’n pastoor...\""
+    },
+    {
+      "location": "source.html paragraph about hymn stanzas (poem line 3 stanza 4)",
+      "severity": "minor",
+      "source_quote": "\"Come, Friend of sinners, and thus ‘bide with me.\"",
+      "suggested_fix": "Ensure idiomatic Afrikaans and correct verb forms. Current line “Kom, Vriend van sondaars, en bly so by my.” is acceptable, but confirm consistency across stanzas (use either ‘bly by my’ or ‘wees by my’ consistently).",
+      "translation_quote": "\"Kom, Vriend van sondaars, en bly so by my.\""
+    }
+  ],
   "id": "f1e1c0b79e3ee02702acb5eb3e0413a7",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "afr",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

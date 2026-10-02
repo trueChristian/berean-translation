@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d5a5a6d2-0560-4367-9c57-64adfacfb6ff",
+    "response_id": "chatcmpl-EUWwUMfbTW6qi0YNquVPfoKBrv6iT",
+    "usage": {
+      "completion_tokens": 1357,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3242,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4599
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!</p>",
+        "severity": "major",
+        "source_quote": "But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
+        "suggested_fix": "Translate the quoted song title into Italian, preserving the quoted status and meaning. For example: «Ma insegnò alle ragazze una canzone, “Quanto è lontano il cielo”, che a Hadassah piace ancora cantare oggi!» (or «“Quanto dista il cielo”» if preferred). Keep the quotation marks and punctuation exactly as in the HTML element.",
+        "translation_quote": "Ma insegnò alle ragazze una canzone, “How Far Is Heaven”, che a Hadassah piace ancora cantare oggi!"
+      },
+      {
+        "location": "<figure> first img alt attribute",
+        "severity": "minor",
+        "source_quote": "Colorful school supplies and a stethoscope around a pale background",
+        "suggested_fix": "Use a more idiomatic Italian phrasing for the image alt text. For example: \"Materiale scolastico colorato e uno stetoscopio su uno sfondo chiaro\" or \"Oggetti scolastici colorati e uno stetoscopio su uno sfondo chiaro\". Preserve the alt attribute and HTML structure.",
+        "translation_quote": "Forniture scolastiche colorate e uno stetoscopio su uno sfondo pallido"
+      },
+      {
+        "location": "<p>…What a night and day change started the very next day! …</p>",
+        "severity": "minor",
+        "source_quote": "What a night and day change started the very next day!",
+        "suggested_fix": "Smooth the Italian rendering to convey the idiom \"night and day\" more naturally. For example: \"Che cambiamento, dal giorno alla notte, iniziò già il giorno dopo!\" or \"Il cambiamento fu quasi dal giorno alla notte e cominciò il giorno dopo!\" Preserve original sentence order and punctuation within the paragraph tag.",
+        "translation_quote": "Che cambiamento giorno e notte iniziò il giorno dopo!"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

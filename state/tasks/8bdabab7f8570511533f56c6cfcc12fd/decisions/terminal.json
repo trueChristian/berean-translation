@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph about Esther's illness (paragraph beginning \"Esther was a very gentle, sweet girl...\")",
+      "severity": "minor",
+      "source_quote": "Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now, so those patients usually died very young.",
+      "suggested_fix": "Remove the redundant English term in parentheses so the medical condition appears only in Dutch. Preserve the meaning and chronology exactly. For example: replace \"Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel...\" with \"Esther had taaislijmziekte en in de jaren 1970 waren er niet zoveel...\"",
+      "translation_quote": "Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel behandelingsmogelijkheden als nu, zodat patiënten meestal jong overleden."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

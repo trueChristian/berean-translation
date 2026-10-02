@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3c0f64d4-5dd6-4802-9def-cca0adf8cdc4",
+    "response_id": "chatcmpl-EUWwDkskArEdxY862sFQvDmcPHxBX",
+    "usage": {
+      "completion_tokens": 1059,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10050
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Acts 27:23-24</p> (paragraph about Paul, near Acts 27:23-24 quote)",
+        "severity": "major",
+        "source_quote": "…there stood by me this night the angel of God, whose I am, and whom I serve, Saying, Fear not, Paul… –Acts 27:23-24.",
+        "suggested_fix": "Translate the clause faithfully into natural Indonesian preserving the original meaning: that Paul is saying the angel declared he (Paul) belongs to God and serves Him. For example: “…malam itu berdiri dekat aku malaikat Allah, yang adalah kepunyaan-Nya, dan yang aku layani, katanya: Jangan takut, Paulus… –Kisah Para Rasul 27:23-24.” (Preserve the verse reference and placement.)",
+        "translation_quote": "…malam itu berdiri dekat aku malaikat Allah, yang aku punak, dan yang aku layani, berkata, Jangan takut, Paulus… –Kisah Para Rasul 27:23-24."
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "major",
+        "source_quote": "The Haven of Rest",
+        "suggested_fix": "Translate the article title into standard Bahasa Indonesia, preserving theology and style. For example: \"Pelabuhan Istirahat\" or the translator's established rendering used in the text (\"Pelabuhan yang Diinginkan\" is used as a heading in the translation). Ensure the translated title replaces the English title in translation.title.",
+        "translation_quote": "The Haven of Rest"
+      },
+      {
+        "location": "<p>paragraph beginning \"Jemakan prasangka kita sendiri-lah...\"</p>",
+        "severity": "minor",
+        "source_quote": "It is our own faulty premonitions that pound our soul and prevent us from entering the portal of peace.",
+        "suggested_fix": "Fix mistranslation/typo into clear Indonesian that preserves the source meaning. For example: \"Justru prasangka/praduga salah kita sendiri yang menghantam jiwa kita dan menghalangi kita memasuki gerbang damai.\" Preserve surrounding HTML and punctuation.",
+        "translation_quote": "Jemakan prasangka kita sendiri-lah yang memukul jiwa kita dan menghalangi kita memasuki gerbang damai."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

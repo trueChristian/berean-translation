@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 5732
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 954,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5510,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6464
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (sentence mentioning Lyte’s inspirational hymn)",
+      "severity": "major",
+      "source_quote": "On dit que sa rencontre avec Dieu au chevet de cet homme mourant a inspiré le noble cantique de Lyte, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Traduire le titre du cantique cité en anglais dans le texte français. Par exemple : « …a inspiré le noble cantique de Lyte, “Jésus, j’ai pris ma croix.” » (conserver les guillemets et la ponctuation). Remplacer la forme anglaise exacte par la version française proposée ou une autre traduction équivalente en français couramment utilisée pour ce titre.",
+      "translation_quote": "On dit que sa rencontre avec Dieu au chevet de cet homme mourant a inspiré le noble cantique de Lyte, “Jesus, I My Cross Have Taken.”"
+    },
+    {
+      "location": "source.html — premier paragraphe",
+      "severity": "minor",
+      "source_quote": "This hymn is generally considered to be one of the greatest hymns ever written and is found in nearly every hymnal or book of hymns published today.",
+      "suggested_fix": "Corriger le nombre/accord en français pour « recueil(s) ». Par exemple : « ...et se trouve dans presque tous les recueils de cantiques publiés aujourd’hui. » Remplacer « recueil de cantiques » (singulier) par « recueils de cantiques » (pluriel) dans le premier paragraphe.",
+      "translation_quote": "Ce cantique est généralement considéré comme l’un des plus grands jamais écrits et se trouve dans presque tous les recueil de cantiques publiés aujourd’hui."
+    }
+  ],
   "id": "fda9a98deb3596b2eb3dcd4e1f4dc68b",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "fra",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 3492
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 890,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3153,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4043
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph about Esther's illness (paragraph beginning \"Esther was a very gentle, sweet girl...\")",
+      "severity": "minor",
+      "source_quote": "Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now, so those patients usually died very young.",
+      "suggested_fix": "Remove the redundant English term in parentheses so the medical condition appears only in Dutch. Preserve the meaning and chronology exactly. For example: replace \"Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel...\" with \"Esther had taaislijmziekte en in de jaren 1970 waren er niet zoveel...\"",
+      "translation_quote": "Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel behandelingsmogelijkheden als nu, zodat patiënten meestal jong overleden."
+    }
+  ],
+  "finished_at": "2026-10-02T12:49:33+00:00",
   "id": "8bdabab7f8570511533f56c6cfcc12fd",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nld",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5d9534e298cc7be7a1dc818a8adedb571eec39b9a0b591ec0dcf7ed0c48299f0.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title\",\"severity\":\"major\",\"source_quote\":\"When You Feel Like Giving Up\",\"suggested_fix\":\"Translate the article title into Bahasa Indonesia. A suitable rendering preserving the author's tone and meaning is: \\\"Ketika Anda Merasa Ingin Menyerah\\\" (or alternatively \\\"Ketika Anda Ingin Menyerah\\\"). Replace the translation.title value with this Indonesian title.\",\"translation_quote\":\"When You Feel Like Giving Up\"},{\"location\":\"source.section\",\"severity\":\"major\",\"source_quote\":\"Inspirations for Youth\",\"suggested_fix\":\"Translate the section name into Bahasa Indonesia using a conventional idiom. A suitable rendering is: \\\"Inspirasi bagi Remaja\\\". Replace the translation.section value with this Indonesian section title.\",\"translation_quote\":\"Inspirations for Youth\"}],\"passed\":false,\"score\":85}",
+    "content_bytes": 827,
+    "content_evidence_truncated": false,
+    "content_sha256": "7a4b7f8625fb4b55855924d4d7e8686fc2fbd6831ac5938a42eb1fcdf60064c6",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 757,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6010,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6767
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

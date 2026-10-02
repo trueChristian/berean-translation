@@ -2,7 +2,6 @@
   "article_id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 10278
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10003,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10920
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html paragraph containing \"cheap-grace gospel\" (near \"Deridiamo la preghiera del vangelo della grazia economica\")",
+      "severity": "minor",
+      "source_quote": "We mock the prayer of the cheap-grace gospel, we look down on the powerless altar calls, but what are we doing about our need?",
+      "suggested_fix": "Replace the literal \"vangelo della grazia economica\" with a more idiomatic rendering of the English term \"cheap-grace gospel\", for example: \"vangelo della grazia a buon mercato\" or \"vangelo della grazia 'a buon mercato'\" to convey the intended theological meaning.",
+      "translation_quote": "Deridiamo la preghiera del vangelo della grazia economica, guardiamo dall'alto le invocazioni prive di potere agli altari, ma cosa stiamo facendo riguardo al nostro bisogno?"
+    },
+    {
+      "location": "translation.html paragraph containing the phrase \"Il grande IO SONO, COLO CHE SONO.\"",
+      "severity": "minor",
+      "source_quote": "We have faith in the God of the Bible—The great I AM, THAT I AM.",
+      "suggested_fix": "Correct the mistranscription and render the divine name idiomatically as \"Il grande IO SONO, COLUI CHE SONO.\" (replace \"COLO\" with \"COLUI\"). This preserves the original meaning and honors the theological reference.",
+      "translation_quote": "La nostra fede deve essere aperta a chi ci circonda—Il grande IO SONO, COLO CHE SONO."
+    }
+  ],
+  "finished_at": "2026-10-02T12:49:33+00:00",
   "id": "586726e924b803e8e00679646cb37f22",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ita",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/fd006f3144de976329b408867c5ed33ed80fe393c62d7c79f01f54f10a8134c7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

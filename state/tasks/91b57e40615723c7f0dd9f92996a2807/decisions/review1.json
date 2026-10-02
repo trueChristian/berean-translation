@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>…Forgiveness</p>\n  <p>Unforgiveness always leads to bitterness; bitterness always shackles us. Always! Bitterness often brings with it a host of other sins and causes much trouble for us and for others. (Hebrews 12:14-17) However, when we choose to forgive others, God will also forgive us (Mark 11:25,26), setting us free from the awful mess that bitterness creates in our lives. We no longer need to worry about holding the offender captive. After all, he or she is not in bondage to us. We cannot choose whether or not they will be set free. Only the Lord has the power to set someone free.</p>",
+      "severity": "critical",
+      "source_quote": "\"Unforgiveness always leads to bitterness; bitterness always shackles us. Always! Bitterness often brings with it a host of other sins and causes much trouble for us and for others. (Hebrews 12:14-17)\"",
+      "suggested_fix": "Replace the mistranslation 'अनक्षमता' with a faithful Hindi rendering of 'unforgiveness', for example 'अनक्षमा' or 'क्षमा न करने का मनोभाव', and keep the rest of the sentence consistent. Preserve the scripture reference. Example replacement (inside same tags):\n\"अनक्षमा हमेशा कड़वाहट की ओर ले जाती है; कड़वाहट हमेशा हमें जकड़े रखती है। हमेशा! कड़वाहट अक्सर अन्य कई पापों को साथ लाती है और हमारे तथा दूसरों के लिए बहुत परेशानी पैदा करती है। (इब्रानियों 12:14-17)\"",
+      "translation_quote": "\"अनक्षमता हमेशा कड़वाहट की ओर ले जाती है; कड़वाहट हमेशा हमें जकड़े रखती है। हमेशा! कड़वाहट अक्सर अन्य अनेक पापों को साथ लाती है और हमारे और दूसरों के लिए बहुत Trouble पैदा करती है। (इब्रानियों 12:14-17)\""
+    },
+    {
+      "location": "<p>...In Acts 16, we read an account of Paul and Silas preaching in Philippi. After they had healed a demon-possessed girl they were severely beaten by the local authorities, secured in stocks, and locked in prison.</p>",
+      "severity": "major",
+      "source_quote": "\"secured in stocks\"",
+      "suggested_fix": "Translate 'stocks' into Hindi (a known historical restraint) and remove the awkward/incorrect word 'साल' and the English parenthetical. For example: 'और सलाखों में बाँध दिए गए (stocks) और जेल में बंद कर दिए गए।' Better: 'और पैरों के लकड़ों में जकड़ दिए गए और जेल में बंद कर दिए गए।' Keep the original meaning and remove stray English. Ensure the sentence remains inside the same paragraph tags.",
+      "translation_quote": "\"...स्थानीय अधिकारियों ने उन्हें कठोर रूप से पीटा, पैरों में साल (stocks) में जकड़ दिया और जेल में बंद कर दिया।\""
+    },
+    {
+      "location": "<p>Entering the cool shade of the forest, Beto paused just long enough for a refreshing drink of water from the creek that meandered across the footpath.</p>",
+      "severity": "major",
+      "source_quote": "\"Entering the cool shade of the forest, Beto paused just long enough for a refreshing drink of water from the creek that meandered across the footpath.\"",
+      "suggested_fix": "The translation here is grammatically garbled and alters meaning (e.g., 'नीरस धारा', incorrect word order). Render the clause clearly and idiomatically in Hindi, keeping meaning: he paused briefly and took a refreshing drink from a creek that ran across the footpath. Suggested replacement (preserving p tag):\n\"जंगल की ठंडी छाँव में प्रवेश करते ही बेटो रुक कर पगडंडी के पार बहने वाली उस नाले के पानी से ताज़गी के लिए एक घूँट पीने के लिए कुछ क्षण रुक गया।\"",
+      "translation_quote": "\"जंगल की ठंडी छाँव में प्रवेश करते ही बेटो रुक कर ठीक-ठीक पर्याप्त समय तक खड़ी नीरस धारा के पानी से ताज़गी के लिए एक घूँट पीने के लिए ठहरा जो पगडंडी के पार बह रही थी।\""
+    },
+    {
+      "location": "<p>...Bitterness often brings with it a host of other sins and causes much trouble for us and for others. (Hebrews 12:14-17) ...</p>",
+      "severity": "minor",
+      "source_quote": "\"...causes much trouble for us and for others.\"",
+      "suggested_fix": "Remove the stray English word 'Trouble' in the translation and replace with the appropriate Hindi 'समस्याएँ' or 'परेशानी'. Example fix within existing translation sentence: replace 'बहुत Trouble पैदा करती है' with 'बहुत परेशानी पैदा करती है' (or 'बहुत समस्याएँ उत्पन्न करती है').",
+      "translation_quote": "\"...और हमारे और दूसरों के लिए बहुत Trouble पैदा करती है। (इब्रानियों 12:14-17)\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

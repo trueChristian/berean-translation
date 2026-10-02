@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "734e76b0-cf91-4de8-b5e2-6fae3ccc812c",
+    "response_id": "chatcmpl-EUWwNkLxd48e6jxAYoXDQDnLfrYrh",
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3153,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4043
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph about Esther's illness (paragraph beginning \"Esther was a very gentle, sweet girl...\")",
+        "severity": "minor",
+        "source_quote": "Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now, so those patients usually died very young.",
+        "suggested_fix": "Remove the redundant English term in parentheses so the medical condition appears only in Dutch. Preserve the meaning and chronology exactly. For example: replace \"Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel...\" with \"Esther had taaislijmziekte en in de jaren 1970 waren er niet zoveel...\"",
+        "translation_quote": "Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel behandelingsmogelijkheden als nu, zodat patiënten meestal jong overleden."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

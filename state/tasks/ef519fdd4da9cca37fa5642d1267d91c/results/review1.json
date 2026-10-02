@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fa4f8a3c-2258-4ce8-bf3b-b76a29911853",
+    "response_id": "chatcmpl-EUWx9gctWje7ukQl0zR1cXKUxJ1wb",
+    "usage": {
+      "completion_tokens": 1468,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7909
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — multiple paragraphs containing embedded Scripture quotations (e.g. paragraph that begins \"As Bible-believing Christians how shall we then live?\" and later paragraphs quoting Revelation, Hebrews, 2 Corinthians, Matthew)",
+        "severity": "critical",
+        "source_quote": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet –Matthew 24:6.\n\n…he that shall endure unto the end, the same shall be saved –Matthew 24:13.\n\n…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.\n\nHe that overcometh shall inherit all things; and I will be his God, and he shall be my son –Revelation 21:7.\n\nObey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… –Hebrews 13:17.\n\nFor we must all appear before the judgment seat of Christ; that every one may receive the things done in his body, according to that he hath done, whether it be good or bad –2 Corinthians 5:10.\n\nWhen Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel –Matthew 8:10.",
+        "suggested_fix": "Translate each quoted Scripture passage into fluent, standard Korean while preserving the exact chapter:verse numbering and placement. For example: \"And ye shall hear... –Matthew 24:6.\" should be rendered e.g. \"또 전쟁과 전쟁의 소문을 들을 것이나 너희는 놀라지 말라 이런 일이 있어야 하되 끝은 아직 아니니라 — 마태복음 24:6.\" Apply the same approach for every quoted verse in the article, keeping verse references exactly (e.g. Matthew 24:6, Matthew 24:13, Revelation 21:8, Revelation 21:7, Hebrews 13:17, 2 Corinthians 5:10, Matthew 8:10). Do not leave the quoted Scripture text in English; the quotation must appear in Korean in the translation. Ensure the Korean conveys the printed English meaning (do not substitute a different Bible version wording beyond faithful rendering of the given English text). Replace the existing English scripture fragments inside <em> tags with the Korean translations while keeping the original HTML structure and tags unchanged.",
+        "translation_quote": "<em>And ye shall hear of wars and rumours of wars: <strong>see that ye be not troubled</strong>: for all these things must come to pass, but the end is not yet –Matthew 24:6.</em>\n\n<em>…he that shall endure unto the end, the same shall be saved –Matthew 24:13.</em>\n\n<em>…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.</em>\n\n<em>He that overcometh shall inherit all things; and I will be his God, and he shall be my son –Revelation 21:7.</em>\n\n<em>Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… –Hebrews 13:17.</em>\n\n<em>For we must all appear before the judgment seat of Christ; that every one may receive the things done in his body, according to that he hath done, whether it be good or bad –2 Corinthians 5:10.</em>\n\n<em>When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel –Matthew 8:10.</em>”"
+      },
+      {
+        "location": "source.html — paragraph about motel discovery (paragraph containing book title)",
+        "severity": "critical",
+        "source_quote": "\"The Holy Bible\"",
+        "suggested_fix": "Translate the quoted book title into Korean within the translation. Replace the English title \"The Holy Bible\" with a natural Korean rendering such as \"성경\" (or \"거룩한 성경\" if preserving the 'Holy' adjective is important in context). Preserve quotation marks and the surrounding HTML structure. Example replacement: \"『성경』\" or simply \"성경\" depending on house style, but do not leave the English title unaltered in the translated text.",
+        "translation_quote": "\"The Holy Bible\""
+      },
+      {
+        "location": "source.html — paragraph discussing \"acts of God\" (insurance companies)",
+        "severity": "minor",
+        "source_quote": "acts of God",
+        "suggested_fix": "Render the phrase fully in Korean rather than leaving the English in parentheses or mixing languages. The translation currently reads '‘하나님의 행위(acts of God)’'. Change to a single-language expression such as '「하나님의 행위」' or '하나님의 행위' so the reader sees a coherent Korean phrase. Keep meaning equivalent to the English idiom.",
+        "translation_quote": "‘하나님의 행위(acts of God)’"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

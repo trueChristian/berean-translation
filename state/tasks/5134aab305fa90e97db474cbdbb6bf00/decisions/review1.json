@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>…stod denne natten hos meg en Guds engel, hvis jeg er, og hvem jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24.</p>",
+      "severity": "major",
+      "source_quote": "…there stood by me this night the angel of God, whose I am, and whom I serve, Saying, Fear not, Paul… –Acts 27:23-24.",
+      "suggested_fix": "Translate the phrase \"whose I am, and whom I serve\" so it faithfully conveys possession/relationship, not a conditional clause. Replace the clause in Norwegian with a correct equivalent, for example: \"…stod denne natten hos meg en Guds engel, han som jeg hører til, og som jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24.\" Preserve the surrounding HTML and verse citation exactly.",
+      "translation_quote": "…stod denne natten hos meg en Guds engel, hvis jeg er, og hvem jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24."
+    },
+    {
+      "location": "translation.section",
+      "severity": "minor",
+      "source_quote": "Victorious Christian Living",
+      "suggested_fix": "Translate the section name into Norwegian Bokmål. Suggested rendering: \"Seirende kristent liv\" (or \"Seirende kristenliv\" if the site prefers a single-word section slug).",
+      "translation_quote": "Victorious Christian Living"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

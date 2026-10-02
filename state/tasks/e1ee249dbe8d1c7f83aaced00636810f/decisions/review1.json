@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Translate the section name into contemporary Urdu (Perso-Arabic script). For example: \"ایڈیٹر سے\" or \"ادارۂ ایڈیٹر\" depending on site conventions. Replace the English value while preserving the field string (no HTML changes required).",
+      "translation_quote": "FROM THE EDITOR"
+    },
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Translate the article title into contemporary Urdu (Perso-Arabic script). A conventional rendering would be: \"ایڈیٹر سے\" or \"ایڈیٹر کا پیغام\". Replace the English title with the chosen Urdu phrase in the title field.",
+      "translation_quote": "From the Editor"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

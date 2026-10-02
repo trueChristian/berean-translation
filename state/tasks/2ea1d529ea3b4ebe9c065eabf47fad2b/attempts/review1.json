@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Paragraph 3 (opening of third <p>)\",\n      \"severity\": \"major\",\n      \"source_quote\": \"To the Bible-literate Christian, the end of time certainly seems to be fast approaching.\",\n      \"suggested_fix\": \"Translate the idea idiomatically into contemporary Hebrew so it conveys the original meaning (a Christian who reads and knows the Bible). For example: \\\"לנוצרי המכיר את כתבי הקודש נראה שהקץ מתקרב במהירות.\\\"\",\n      \"translation_quote\": \"לנוצרי שכתובית התנ\\\"ך עומדת מול עיניו, נראה שהקץ בהחלט מתקרב במהירות.\"\n    },\n    {\n      \"location\": \"Multiple Scripture quotations (e.g., Matthew 24:6; Matthew 24:13; Revelation 21:8; Revelation 21:7; Hebrews 13:17; 2 Corinthians 5:10; Matthew 8:10)\",\n      \"severity\": \"critical\",\n      \"source_quote\": \"See that ye be not troubled ... Matthew 24:6; ... he that shall endure unto the end ... Matthew 24:13; ... the fearful, and unbelieving ... Revelation 21:8; He that overcometh ... Revelation 21:7; Obey them that have the rule over you ... Hebrews 13:17; For we must all appear ... 2 Corinthians 5:10; When Jesus heard it, he marvelled ... Matthew 8:10.\",\n      \"suggested_fix\": \"All quoted Scripture passages must be rendered into Hebrew and the book names must use conventional Hebrew forms (e.g., 'מתי 24:6' or better 'מתי כ\\\"ד:ו' depending on house style). Replace the English book names (e.g., 'Matthew', 'Revelation', 'Hebrews', '2 Corinthians') with the conventional Hebrew book names (e.g., 'מתי', 'התגלות', 'איגרת אל העברים', '2 קורינתים') and keep chapter:verse numbers unchanged. Ensure the quoted text faithfully reflects the English meaning. Example for Matthew 24:6: \\\"ושמעתם על מלחמות ושמועות מלחמות; היזהרו—אל תתמהמהו; כי עליכם להיות דברי אלה, אבל הקץ עוד לא עכשיו. – מתי 24:6\\\" (adapt wording to preserve original printed English meaning).\",\n      \"translation_quote\": \"<em>ושמעו לכם מלחמות ושמועות מלחמות; <strong>ראו אל תטרדו</strong> כי כל אלה חייבים להיות; אך קץ עוד לא עכשיו –Matthew 24:6.</em>\"\n    },\n    {\n      \"location\": \"Paragraph mentioning 1 Corinthians (story about 'tongues')\",\n      \"severity\": \"critical\",\n      \"source_quote\": \"All that he heard was what 1 Corinthians chapter 14 refers to as tongues (languages) and since he didn’t understand the language and since there was no interpretation given, he was not able to be edified.\",\n      \"suggested_fix\": \"The scripture chapter reference must be accurate. The source cites 1 Corinthians chapter 14. Correct the Hebrew citation to the proper chapter and verse reference format and translate the surrounding quoted words into Hebrew. Example: \\\"כל מה ששמע היה מה שפרק 14 באיגרת הראשונה אל הקורינתים מכנה 'שפות' (לשונות), ומאחר שלא ניתנה פרשנות הוא לא היה מעודד.\\\"\",\n      \"translation_quote\": \"כל מה ששמע היה מה שפרק א' לקורינתים י\\\"ז מכנה <em>שפות</em> (לשונות), ומכיוון שהוא לא הבין את השפה וממילא לא ניתן לו <em>פירוש</em>, הוא לא היה מעודד.\"\n    },\n    {\n      \"location\": \"Paragraph about youth (sentence near 'The youth can take a look into their emotions...')\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The youth can take a look into their emotions as they consider those times when they feel like giving up.\",\n      \"suggested_fix\": \"Translate 'feel like giving up' accurately (e.g., 'מרגישים רצון לוותר' or 'מרגישים שהם רוצים לוותר/להתייאש'). Replace the current Hebrew that renders as 'feel like neglecting'.\",\n      \"translation_quote\": \"הצעירים יכולים לבחון את רגשותיהם כשהם שוקלים את אותם זמנים שבהם הם מרגישים כמזניחים.\"\n    },\n    {\n      \"location\": \"Paragraph about motel Bible (sentence with 'worship')\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Although this man understood English quite well, his church had a policy that they did not want to be too worldly or too modern by reading from an English Bible so they continued their efforts of teaching God’s Word using the original language of their people.\",\n      \"suggested_fix\": \"Remove the stray English word and render the sentence idiomatically in Hebrew. For example: 'למרות שאיש זה הבין אנגלית די טוב, בכנסייתו הייתה מדיניות שלא להיות יותר מדי עולמיים או מודרניים על ידי קריאה מתנ\\\"ך באנגלית, ולכן המשיכו ללמד את דבר ה' בשפת המוצא של עמם.' Ensure no English words remain ('worship' must be translated).\",\n      \"translation_quote\": \"כמובן, בכנסייתו קראו או ציטטו את התנ\\\"ך בכל שבוע במהלך שירותי הער worship הרגילים שלהם.\"\n    },\n    {\n      \"location\": \"Paragraph quoting Revelation 21:8 (phrase translation)\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.\",\n      \"suggested_fix\": \"Use a faithful, conventional Hebrew translation for 'the fearful, and unbelieving' (e.g., 'הפוחדים והכופרים' or 'הפחדנים והכופרים'), rather than 'אפיסת־האמונה' which shifts nuance. Keep the rest of the verse faithful to the English quoted text. Also replace the English book name with the Hebrew form.\",\n      \"translation_quote\": \"זכרו, אלה הֵמָּה <em>…הפחדנים והאפיסת־האמונה … [שתהיה להם] חלק האגם השרוף באש ובגופרית… –Revelation 21:8.</em>\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 58\n}",
+    "content_bytes": 6085,
+    "content_evidence_truncated": false,
+    "content_sha256": "1a56bd990d2ca9a1a9d820629f890784a5de8ea876d391151b18889d574d0ec1",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 2027,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6406,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8433
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

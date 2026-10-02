@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 6004
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1952,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5590,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7542
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph with quoted phrase: second paragraph of article (sentence beginning “Un giorno in Cornovaglia…”)",
+      "severity": "minor",
+      "source_quote": "“To their mutual grief, they found themselves [both] groping for the light, veritable blind guides”.",
+      "suggested_fix": "Correggere l'accordo grammaticale e rendere la frase più naturale: «“Alla loro comune tristezza, si ritrovarono [entrambi] a tentare di trovare la luce, vere guide cieche.”» oppure meglio: «“Alla loro comune tristezza, si ritrovarono [entrambi] a cercare la luce, vere guide cieche.”». Mantieni le parentesi quadre intatte.",
+      "translation_quote": "“Alla loro comune tristezza, si ritrovarono [entrambi] a tentare di trovare la luce, veri guide cieche”."
+    },
+    {
+      "location": "Poem stanza translations — overall poetic lines (all <p class=\"poem\"> blocks)",
+      "severity": "minor",
+      "source_quote": "Abide with me: fast falls the eventide; / The darkness deepens; Lord, with me abide: / when other helpers fail, and comforts flee, / Help of the helpless, O abide with me.",
+      "suggested_fix": "La traduzione delle strofe è sostanzialmente corretta sul piano del senso, ma alcuni versi hanno punteggiatura o maiuscole non idiomatiche in italiano. Esempio di sistema uniforme per la punteggiatura e le maiuscole: \nResta con me: rapido cala il vespro;\\nL'oscurità si fa più profonda; Signore, resta con me:\\nquando altri soccorsi vengono meno e i conforti fuggono,\\nAiuto degli impotenti, o resta con me.",
+      "translation_quote": "Resta con me: rapido cala il vespro; L'oscurità si fa più profonda; Signore, resta con me: quando altri soccorritori mancano, e i conforti fuggono, Aiuto degli impotenti, o resta con me."
+    },
+    {
+      "location": "Penultimate content paragraph: “Per riassumere...”",
+      "severity": "minor",
+      "source_quote": "Yet, in spite of all his trials, we find in him a resilient spirit to reach out to others; to touch and minister the Gospel to those poor people among whom he lived.",
+      "suggested_fix": "Correggere errori di ortografia e concordanza: sostituire «ministere il Vangelo» con «ministrare il Vangelo» (o «servire il Vangelo») e «quelle povera persone» con «quelle povere persone». Testo suggerito: «Eppure, nonostante tutte le sue prove, troviamo in lui uno spirito resiliente che si protese verso gli altri; per toccare e ministrare il Vangelo a quelle povere persone tra cui viveva.»",
+      "translation_quote": "Eppure, nonostante tutte le sue prove, troviamo in lui uno spirito resiliente che si protese verso gli altri; per toccare e ministere il Vangelo a quelle povera persone tra cui viveva."
+    },
+    {
+      "location": "Figure img alt attribute",
+      "severity": "minor",
+      "source_quote": "alt=\"Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861\"",
+      "suggested_fix": "Piccola stilizzazione: l'attuale alt è tradotto correttamente, ma mantenere la coerenza terminologica suggerita: «Partitura di 'Abide With Me, Fast Falls the Eventide', attribuita a Henry F. Lyte (1847) e William H. Monk (1861)». Aggiornare l'attributo alt mantenendo gli stessi contenuti informativi.",
+      "translation_quote": "alt=\"Partitura di Abide With Me, Fast Falls the Eventide, attribuita a Henry F. Lyte, 1847, e William H. Monk, 1861\""
+    },
+    {
+      "location": "Paragraph about Luke 24:28-29 (quotation and citation)",
+      "severity": "minor",
+      "source_quote": "Jesus …made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.",
+      "suggested_fix": "La resa italiana è fedele; suggerisco una leggera pulizia tipografica delle virgolette e della punteggiatura per migliorare la fluidità: «…fece come se volesse proseguire oltre. Ma lo costrinsero a restare, dicendo: “Resta con noi, perché si fa sera e il giorno è ormai al declino.” Ed egli entrò per fermarsi con loro (Luca 24:28–29).»",
+      "translation_quote": "…fece come se volesse proseguire oltre. Ma lo costrinsero a restare, dicendo: “Resta con noi, perché si fa sera e il giorno è ormai al declino.” Ed egli entrò per fermarsi con loro – Luca 24:28-29."
+    }
+  ],
   "id": "55949d9d40097f8a335bc976fed2b991",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ita",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

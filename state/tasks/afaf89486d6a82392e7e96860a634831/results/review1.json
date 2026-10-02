@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3bdbe417-c17a-4971-8320-88c7c7d7265b",
+    "response_id": "chatcmpl-EUWwmib94lWpa4m6Ytb34LHnnHRJU",
+    "usage": {
+      "completion_tokens": 1249,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8452
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…He and his boat had a long relationship. It had served him well for many years.</p> (source HTML paragraph beginning \"Peter’s boat was his security.\")",
+        "severity": "critical",
+        "source_quote": "Peter’s boat was his security. He and his boat had a long relationship. It had served him well for many years.",
+        "suggested_fix": "Keep the original agent/recipient relationship: the boat served Peter. In the existing translated paragraph, reverse the verb so the boat is the subject that served him. For example (preserving tags and structure):\n<p>O barco de Pedro era sua segurança. Ele e o barco tinham uma longa relação. Ele o havia servido bem por muitos anos.</p>\n(Alternate correction if you prefer clearer Portuguese grammar while preserving meaning:)\n<p>O barco de Pedro era sua segurança. Ele e o barco tinham uma longa relação. O barco o tinha servido bem por muitos anos.</p>",
+        "translation_quote": "O barco de Pedro era sua segurança. Ele e seu barco tinham uma longa relação. Ele o havia servido bem por muitos anos."
+      },
+      {
+        "location": "<p>…We reason away the woman’s head covering. …</p> (source HTML paragraph beginning \"So it is with many aspects of the Christian experience.\")",
+        "severity": "minor",
+        "source_quote": "We reason away the woman’s head covering.",
+        "suggested_fix": "Use a natural, idiomatic Portuguese phrase for \"woman's head covering\" (not literal \"tampa da cabeça\"). Replace \"a tampa da cabeça da mulher\" with \"o véu da mulher\" or \"a cobertura da cabeça da mulher\" to preserve author intent and read naturally. Example replacement (preserving tags):\n<p>Raciocinamos o véu da mulher.</p>",
+        "translation_quote": "Raciocinamos a tampa da cabeça da mulher."
+      },
+      {
+        "location": "alt attribute of <img> (figure)",
+        "severity": "minor",
+        "source_quote": "Lightning beneath dark storm clouds over a field",
+        "suggested_fix": "The translated alt text is acceptable but slightly literal. Consider a smoother Portuguese phrasing while keeping meaning, e.g. \"Relâmpago sob nuvens escuras de tempestade sobre um campo\". Preserve the alt attribute and its placement. Example (preserve tag):\n<img ... alt=\"Relâmpago sob nuvens escuras de tempestade sobre um campo\" ...>",
+        "translation_quote": "Relâmpago sob nuvens de tempestade escuras sobre um campo"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c6440676-0e43-4bac-aadc-d234c4ca429d",
+    "response_id": "chatcmpl-EUWwhQynkGWi5HvwX0cMEevMvf2Ha",
+    "usage": {
+      "completion_tokens": 1125,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10214
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning Muensterites (source.html paragraph: \"Events such as the Muensterites and their violent interpretations of Scripture remained a clear warning...\")",
+        "severity": "major",
+        "source_quote": "Events such as the Muensterites and their violent interpretations of Scripture remained a clear warning of religious zeal gone awry.",
+        "suggested_fix": "Translate the proper historical term faithfully. Replace the incorrect \"меннонитов в Мюнстере\" with a translation that preserves the source reference to the radical Anabaptist group associated with Münster (commonly rendered in Russian as «мюнстериты» or «события в Мюнстере»). For example: «События вроде мюнстеритов и их насильственных толкований Писания оставались наглядным предупреждением…».",
+        "translation_quote": "«События вроде меннонитов в Мюнстере и их насильственных толкований Писания оставались наглядным предупреждением о религиозном рвении, вышедшем из‑под контроля.»"
+      },
+      {
+        "location": "First mention of George Blaurock (source.html: list of founders: \"Conrad Grebel, Felix Manz, and George Blaurock\")",
+        "severity": "minor",
+        "source_quote": "Conrad Grebel, Felix Manz, and George Blaurock",
+        "suggested_fix": "Use an established Russian rendering of the proper name. The translation shows «Георге Блауроке», which is an unusual inflection/orthography in Russian. Prefer a conventional form such as «Георг Блауэрок» or «Георг Блауэрок (George Blaurock)» depending on house style. Preserve the order and identity of the three founders exactly as in the source.",
+        "translation_quote": "«Конраде Гребеле, Феликсе Манце и Георге Блауроке»"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

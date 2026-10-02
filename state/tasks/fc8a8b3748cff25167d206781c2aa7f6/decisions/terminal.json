@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph mentioning Felix Manz's death (source.html paragraph starting \"Felix Manz was the first Anabaptist to be martyred...\")",
+      "severity": "minor",
+      "source_quote": "Felix Manz was the first Anabaptist to be martyred. On January 5th, 1527, not two years after his courageous re-baptism, he was drowned in the River Limmat which flowed through Zurich. His last words were: “Into thy hands, O God, I commend my spirit.”",
+      "suggested_fix": "Preserve the exact printed English proper name spelling when rendering into Italian if the English printed form is intended to be kept; otherwise keep a consistent form throughout. In the Italian text, ensure the same printed name appears (Felix Manz) wherever it occurs. For example, change any occurrence of “Feliz Manz” in the translation to “Felix Manz” to match the authoritative English text.",
+      "translation_quote": "Felix Manz fu il primo anabattista a essere martirizzato. Il 5 gennaio 1527, non due anni dopo il suo coraggioso ri-battesimo, fu annegato nel fiume Limmat che scorre attraverso Zurigo. Le sue ultime parole furono: “Nelle tue mani, o Dio, rimetto il mio spirito.”"
+    },
+    {
+      "location": "Final section mentioning local officials (source.html near end: \"The immediate impact... Rhudlof Rhan and Conrad Grebel continued...\")",
+      "severity": "minor",
+      "source_quote": "The immediate impact of the elderly Hans’ sacrifice was a ripple of support and outrage throughout the non-Anabaptist community. Rhudlof Rhan and Conrad Grebel continued to pressure the remaining Anabaptists, committing Margaretha Landis, Hans’s widow, to solitary confinement in the city hospital after her refusal to comply with their demands.",
+      "suggested_fix": "The English source shows inconsistent spellings of the mayor's name earlier (Rudolf Rhan) and later (Rhudlof Rhan). The translation should consistently follow the authoritative English spelling as printed in the source file. Confirm which spelling appears in the authoritative English source and make the Italian translation match it exactly wherever the name appears. Example fix: if the authoritative printed form is “Rudolf Rhan,” change “Rhudlof Rhan” in the translation to “Rudolf Rhan.”",
+      "translation_quote": "L'impatto immediato del sacrificio dell'anziano Hans fu un'onda di sostegno e indignazione in tutta la comunità non anabattista. Rhudlof Rhan e Conrad Grebel continuarono a fare pressione sugli anabattisti rimasti, confinando Margaretha Landis, la vedova di Hans, in isolamento nell'ospedale cittadino dopo il suo rifiuto di conformarsi alle loro richieste."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

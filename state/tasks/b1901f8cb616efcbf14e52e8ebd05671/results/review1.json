@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bab063a0-aa3f-4233-b110-08fca2dbd0d5",
+    "response_id": "chatcmpl-EUWwnlBhoMQdYKZyeX88Rzprm5Duv",
+    "usage": {
+      "completion_tokens": 918,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3132,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4050
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> (4th image) alt attribute",
+        "severity": "major",
+        "source_quote": "<img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"An ambulance driving with its emergency lights on\" loading=\"lazy\">",
+        "suggested_fix": "将 alt 文本准确翻译为“警车”以外的正确目标对象。建议的修正文本：保持原有 <img ... loading=\"lazy\"> 标签不变，仅替换 alt 内容为：\"一辆救护车开启警灯行驶\"。例如：<img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"一辆救护车开启警灯行驶\" loading=\"lazy\">",
+        "translation_quote": "<img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"一辆警车开启警灯行驶\" loading=\"lazy\">"
+      },
+      {
+        "location": "Paragraph containing song title (\"How Far Is Heaven\")",
+        "severity": "major",
+        "source_quote": "But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
+        "suggested_fix": "将引号内的歌曲名翻译为目标语言（中文），以符合要求：所有引用的实质性文字必须翻译。建议修正为：\"但她教给女孩们一首歌，〈天堂有多远〉，哈大沙至今仍喜欢唱这首歌！\"。在 HTML 中只替换该段落的相应英文歌名部分，保留标签和其他文本结构不变。",
+        "translation_quote": "但她教给女孩们一首歌，“How Far Is Heaven”，哈大沙至今仍喜欢唱这首歌！"
+      },
+      {
+        "location": "Paragraph: \"she chose to act as if it didn’t hurt and tried to ignore them.\"",
+        "severity": "minor",
+        "source_quote": "Instead, she chose to act as if it didn’t hurt and tried to ignore them.",
+        "suggested_fix": "修正中文表达，使其更通顺并忠实传达原意。建议将“装作这并不伤她并试图忽视那些人”改为“装作这并不会伤害她，并试图无视她们”。仅替换该句中文文本，保留 HTML 标签和段落结构。",
+        "translation_quote": "相反，她选择装作这并不伤她并试图忽视那些人。"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "68bc6dd7-cd86-4b0c-b828-60935294c2da",
+    "response_id": "chatcmpl-EUWwcTfyUK1aGCRyWokVWgSDNVWdH",
+    "usage": {
+      "completion_tokens": 1506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11159
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Almost one hundred years later...\" (around the paragraph starting 'It spread and grew throughout Moravia...')",
+        "severity": "major",
+        "source_quote": "Almost one hundred years later there was another prominent leader in the Zurich hills; this one was an elderly farmer.",
+        "suggested_fix": "Translate the time interval accurately. Replace the Hindi phrase \"लगभग सैकड़ों वर्षों के बाद\" with a wording that matches the original \"Almost one hundred years later\" — for example: \"लगभग एक सौ वर्ष बाद\" or \"करीब एक शताब्दी बाद\". Keep the rest of the sentence as translated.",
+        "translation_quote": "लगभग सैकड़ों वर्षों के बाद, ज्यूरिख की पहाड़ियों में एक और प्रख्यात नेता आया; यह एक वृद्ध किसान था।"
+      },
+      {
+        "location": "Paragraph: \"He was well-seasoned in leading his flock...\" (paragraph describing Hans Landis as experienced leader)",
+        "severity": "major",
+        "source_quote": "He was well-seasoned in leading his flock through the ebb and flow of the challenges facing the believers of that time.",
+        "suggested_fix": "Correct the mistranslation of 'flock'. Replace \"अपने पक्षियों का नेतृत्व\" with a faithful target-language equivalent such as \"अपने सभागण/अपनी मंडली/अपने अनुयायियों का नेतृत्व\" or \"अपने समुदाय का नेतृत्व\" so it preserves the metaphor of a pastor leading his congregation.",
+        "translation_quote": "वह अपने पक्षियों का नेतृत्व जीवन के उतार-चढ़ाव के बीच करने में अनुभवी था, और उन समयों के विश्वासियों को जिन चुनौतियों का सामना था, उसने उनका मार्गदर्शन किया।"
+      },
+      {
+        "location": "Paragraph: \"sentenced as galley slaves to row aboard the ships of France in the Mediterranean.\" (description of council's threat)",
+        "severity": "minor",
+        "source_quote": "The council maintained that because of these men’s civil disobedience, not their beliefs, they were to be sentenced as galley slaves to row aboard the ships of France in the Mediterranean.",
+        "suggested_fix": "Clarify the awkward Hindi phrasing. Replace \"फ्रांस के जहाज़ों पर भूमध्यसागर में पाँव मारने के लिए गुलाम-रोइयारों (गैली दासों) के रूप में दंडित किया जाएगा\" with a clearer rendering such as: \"उन्हें नागरिक अवज्ञा के कारण, और विश्वास के कारण नहीं, फ्रांस के जहाज़ों पर भूमध्यसागर में गैली दासों के रूप में रोइंग करने का दंड सुनाया जाएगा\" or \"फ्रांस के जहाज़ों पर भूमध्यसागर में नौका-रोइयों (गैली दास) के रूप में भेजा जाएगा।\"",
+        "translation_quote": "परिषद का कहना था कि इन पुरुषों की नागरिक अवज्ञा के कारण, उनके विश्वास के कारण नहीं, उन्हें फ्रांस के जहाज़ों पर भूमध्यसागर में पाँव मारने के लिए गुलाम-रोइयारों (गैली दासों) के रूप में दंडित किया जाएगा।"
+      },
+      {
+        "location": "Caption/alt text of figure (img alt)",
+        "severity": "minor",
+        "source_quote": "A close-up of sharp thorns on weathered branches",
+        "suggested_fix": "The alt text translation is acceptable in meaning but slightly literal; consider a more natural Hindi alt such as \"मौसम की मार झेलती हुई शाखाओं पर तेज काँटों का क्लोज-अप\" or simply \"घिसी-पूजी शाखाओं पर तेज काँटे (क्लोज़-अप)\". If keeping current, ensure punctuation and spacing follow Hindi typographic norms.",
+        "translation_quote": "मौसम की मार झेलते शाखाओं पर तेज काँटों का क्लोज-अप"
+      }
+    ],
+    "passed": false,
+    "score": 55
+  }
+}

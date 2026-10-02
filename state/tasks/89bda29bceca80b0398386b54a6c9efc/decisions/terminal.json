@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"En el recreo siguiente la culparon de hacer trampa con sus tarjetas de memoria.\"",
+      "severity": "minor",
+      "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
+      "suggested_fix": "Prefer a more natural Spanish term for \"flash cards\". Replace \"tarjetas de memoria\" with \"tarjetas didácticas\" or \"tarjetas de repaso\" to preserve the intended meaning.",
+      "translation_quote": "En el recreo siguiente la culparon de hacer trampa con sus tarjetas de memoria."
+    },
+    {
+      "location": "Paragraph: \"Hadassah aún recuerda haber visto pasar a la ambulancia frente a su casa...\",\"Figure alt text 4: \"Una ambulancia circulando con las luces de emergencia encendidas\"",
+      "severity": "minor",
+      "source_quote": "Hadassah still remembers seeing the emergency squad go past her house when they took Esther to the hospital for the last time.",
+      "suggested_fix": "\"Emergency squad\" can be rendered as \"equipo de emergencia\" or left as \"ambulancia\" depending on nuance. If you intend to match the English ambiguity (personnel/vehicle), consider \"al equipo de emergencia/ambulancia\". If the vehicle is meant, keep \"ambulancia.\"",
+      "translation_quote": "Hadassah aún recuerda haber visto pasar a la ambulancia frente a su casa cuando llevaron a Esther al hospital por última vez. / Una ambulancia circulando con las luces de emergencia encendidas"
+    },
+    {
+      "location": "Paragraph: \"Esto fue muy angustioso para una Hadassah muy concienzuda.\"",
+      "severity": "minor",
+      "source_quote": "This was very disturbing to a very conscientious Hadassah.",
+      "suggested_fix": "\"Concienzuda\" is acceptable but slightly formal/unnatural in this context. Consider \"Hadassah tan consciente\" or \"Hadassah, que era muy escrupulosa/concienzuda\" or \"la diligente Hadassah\" to improve naturalness while preserving meaning.",
+      "translation_quote": "Esto fue muy angustioso para una Hadassah muy concienzuda."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 3431
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 771,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3156,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3927
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph: \"En el recreo siguiente la culparon de hacer trampa con sus tarjetas de memoria.\"",
+      "severity": "minor",
+      "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
+      "suggested_fix": "Prefer a more natural Spanish term for \"flash cards\". Replace \"tarjetas de memoria\" with \"tarjetas didácticas\" or \"tarjetas de repaso\" to preserve the intended meaning.",
+      "translation_quote": "En el recreo siguiente la culparon de hacer trampa con sus tarjetas de memoria."
+    },
+    {
+      "location": "Paragraph: \"Hadassah aún recuerda haber visto pasar a la ambulancia frente a su casa...\",\"Figure alt text 4: \"Una ambulancia circulando con las luces de emergencia encendidas\"",
+      "severity": "minor",
+      "source_quote": "Hadassah still remembers seeing the emergency squad go past her house when they took Esther to the hospital for the last time.",
+      "suggested_fix": "\"Emergency squad\" can be rendered as \"equipo de emergencia\" or left as \"ambulancia\" depending on nuance. If you intend to match the English ambiguity (personnel/vehicle), consider \"al equipo de emergencia/ambulancia\". If the vehicle is meant, keep \"ambulancia.\"",
+      "translation_quote": "Hadassah aún recuerda haber visto pasar a la ambulancia frente a su casa cuando llevaron a Esther al hospital por última vez. / Una ambulancia circulando con las luces de emergencia encendidas"
+    },
+    {
+      "location": "Paragraph: \"Esto fue muy angustioso para una Hadassah muy concienzuda.\"",
+      "severity": "minor",
+      "source_quote": "This was very disturbing to a very conscientious Hadassah.",
+      "suggested_fix": "\"Concienzuda\" is acceptable but slightly formal/unnatural in this context. Consider \"Hadassah tan consciente\" or \"Hadassah, que era muy escrupulosa/concienzuda\" or \"la diligente Hadassah\" to improve naturalness while preserving meaning.",
+      "translation_quote": "Esto fue muy angustioso para una Hadassah muy concienzuda."
+    }
+  ],
+  "finished_at": "2026-10-02T12:49:33+00:00",
   "id": "89bda29bceca80b0398386b54a6c9efc",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "spa",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5d9534e298cc7be7a1dc818a8adedb571eec39b9a0b591ec0dcf7ed0c48299f0.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

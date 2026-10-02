@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "22645a65-eba4-4ae0-8a48-e7314cd6193c",
+    "response_id": "chatcmpl-EUWwTxMpQHcM5nWy9VBAIpUeEpvV0",
+    "usage": {
+      "completion_tokens": 690,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4366
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph: \"This was very disturbing to a very conscientious Hadassah.\"",
+        "severity": "minor",
+        "source_quote": "This was very disturbing to a very conscientious Hadassah.",
+        "suggested_fix": "Use a more idiomatic Greek adjective for “conscientious” (π.χ. «πολύ επιμελή Hadassah» or «πολύ ευσυνείδητη Hadassah») to improve naturalness while preserving meaning.",
+        "translation_quote": "Αυτό ήταν πολύ ταραχώδες για την πολύ συνεπή Hadassah."
+      },
+      {
+        "location": "source.html paragraph: \"At the next recess she was blamed for cheating on her flash cards.\"",
+        "severity": "minor",
+        "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
+        "suggested_fix": "Translate “flash cards” with a clearer Greek term (π.χ. «στις κάρτες με λέξεις/στην κάρτα μνήμης/στις κάρτες επανάληψης») and adjust verb choice for naturalness: «Στο επόμενο διάλειμμα την κατηγόρησαν ότι αντιγράψει/αντέγραψε στις κάρτες επανάληψης.»",
+        "translation_quote": "Στο επόμενο διάλειμμα την κατηγόρησαν για αντιγραφή στις κάρτες μνήμης της."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b58be44d-6cf6-4741-ad14-2fc6ab288725",
+    "response_id": "chatcmpl-EUWwgLjnp02p41APsmf7ESFSaEfPJ",
+    "usage": {
+      "completion_tokens": 531,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3784
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (paragraph about Esther teaching a song)",
+        "severity": "critical",
+        "source_quote": "Perhaps Esther realized she would be in heaven before the other girls—we don’t know for sure.",
+        "suggested_fix": "Översätt den engelska bisatsen till svenska, bevara meningen och tonen. Förslag: \"Kanske förstod Esther att hon skulle komma till himlen före de andra flickorna—men det vet vi inte säkert.\"",
+        "translation_quote": "Kanske förstod Esther att hon skulle komma till himlen före de andra flickorna—we know not for sure."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

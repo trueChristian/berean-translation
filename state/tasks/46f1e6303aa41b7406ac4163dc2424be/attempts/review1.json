@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title / translation.title\",\"severity\":\"critical\",\"source_quote\":\"From the Editor\",\"suggested_fix\":\"Translate the English title into Bahasa Indonesia and preserve capitalization style appropriate to site (e.g., \\\"Dari Pemimpin Redaksi\\\" or \\\"Dari Redaksi\\\"). Replace the translation.title value with that Indonesian phrase.\",\"translation_quote\":\"From the Editor\"},{\"location\":\"source.section / translation.section\",\"severity\":\"major\",\"source_quote\":\"FROM THE EDITOR\",\"suggested_fix\":\"Translate the English section label into Bahasa Indonesia (e.g., \\\"DARI PEMIMPIN REDAKSI\\\" or \\\"DARI REDAKSI\\\"). Replace the translation.section value with that Indonesian phrase.\",\"translation_quote\":\"FROM THE EDITOR\"},{\"location\":\"source.html paragraph: \\\"...he discovered a book titled “The Holy Bible”.\\\" / translation.html corresponding paragraph\",\"severity\":\"critical\",\"source_quote\":\"\\\"The Holy Bible\\\"\",\"suggested_fix\":\"Translate the quoted book title into Bahasa Indonesia consistent with the rest of the translation. Replace “The Holy Bible” with “Alkitab Suci” or simply “Alkitab” within the same quotes and preserve the HTML structure and punctuation.\",\"translation_quote\":\"“The Holy Bible”\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 1268,
+    "content_evidence_truncated": false,
+    "content_sha256": "2f069b3a6cb5122491289e47e5491d9d100cdd60fe05853a29506d06e395ca58",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 914,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6362,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7276
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

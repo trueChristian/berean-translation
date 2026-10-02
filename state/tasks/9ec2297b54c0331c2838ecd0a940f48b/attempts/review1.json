@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: “x-ray department” (source.html near “Radiation isn’t something that most people deal with on a regular basis. However, if you work in an x-ray department…” )\",\"severity\":\"minor\",\"source_quote\":\"if you work in an x-ray department\",\"suggested_fix\":\"Use the standard Afrikaans term and correct spelling while preserving HTML structure: change to “as jy in ’n röntgenafdeling werk”\",\"translation_quote\":\"as jy in ’n röntgendiftdepartment werk\"},{\"location\":\"Paragraph: “squamous cell carcinoma” (source.html in the paragraph classifying skin cancers)\",\"severity\":\"major\",\"source_quote\":\"squamous cell carcinoma\",\"suggested_fix\":\"Translate the medical term accurately into standard Afrikaans. Replace the incorrect literal/odd rendering with the conventional term, for example: “skuamsel‑karsinoom” or “plaveisel‑selkarsinoom”, preserving the HTML paragraph and tag structure.\",\"translation_quote\":\"skuimige-sel-karsinoom\"},{\"location\":\"Paragraph: “cured meats” (source.html in the section on nitrites / diet)\",\"severity\":\"major\",\"source_quote\":\"Nitrites are typically present in smoked and cured meats.\",\"suggested_fix\":\"Correct the translation to convey ‘cured’ (i.e., preserved/cured), not ‘fried/spiced’. Suggested Afrikaans: “Nitriete is tipies in gerookte en gepekelde/gekureerde vleis teenwoordig.” Preserve the paragraph tags exactly.\",\"translation_quote\":\"Nitriete is tipies in gerookte en gebraaide/gekruide vleis teenwoordig.\"},{\"location\":\"Paragraph: “CEA-125” example (source.html discussing screening tests)\",\"severity\":\"minor\",\"source_quote\":\"An example of a bad test, in this respect, is the CEA-125. CEA-125 is a chemical that is made by some types of cancer.\",\"suggested_fix\":\"If the author intentionally used the identifier “CEA-125”, preserve it as printed. However, check for typographical clarity in Afrikaans: keep “CEA-125” but ensure surrounding wording is clear. Suggested wording: “’n Voorbeeld van ’n swak toets, in hierdie opsig, is die CEA-125. CEA-125 is ’n chemikalie wat deur sekere tipes kanker gemaak word.” (Preserve tags.)\",\"translation_quote\":\"’n Voorbeeld van ’n swak toets, in hierdie opsig, is die CEA-125. CEA-125 is ’n chemikalie wat deur sekere tipes kanker gemaak word.\"},{\"location\":\"Paragraph: United States Preventive Services Task Force recommendation sentence (source.html describing mammogram interval)\",\"severity\":\"minor\",\"source_quote\":\"they recommend every other year for the use of mammograms for women between the ages of 50 and 75\",\"suggested_fix\":\"Use a more natural Afrikaans phrasing for 'every other year' (biennially) while keeping the meaning: e.g. “hulle beveel die gebruik van mammogramme elke twee jaar aan vir vroue tussen 50 en 75 jaar.” Replace current phrase but preserve HTML.\",\"translation_quote\":\"hulle beveel elkeen twee jaar die gebruik van mammogramme aan vir vroue tussen die ouderdomme van 50 en 75\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 3025,
+    "content_evidence_truncated": false,
+    "content_sha256": "b244701cf50066873e8328db54405f4115d3b4a7ffecf5522264d03a69792275",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1171,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8480,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9651
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

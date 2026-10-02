@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing citation to 1 Peter 3:12 (near “Be assured that God never ignores a plea for help!”)\",\"severity\":\"minor\",\"source_quote\":\"Be assured that God never ignores a plea for help! (1Peter 3:12)\",\"suggested_fix\":\"Insert a space between the chapter/verse locator and the numeral '1' so it matches the style used elsewhere: “(1 Pedro 3:12)”. Preserve the existing parentheses and punctuation.\",\"translation_quote\":\"Ten la seguridad de que ¡Dios nunca ignora una súplica de ayuda! (1Pedro 3:12)\"},{\"location\":\"Title element (source.title → translation.title)\",\"severity\":\"minor\",\"source_quote\":\"When You Feel Like Giving Up\",\"suggested_fix\":\"Use sentence-style capitalization for internationally intelligible Spanish: change “Cuando Te Sientes Como Rendirte” to “Cuando te sientes como rendirte” (only the first word capitalized). This is a stylistic/idiomatic improvement, not a doctrinal change. Preserve the title string in the HTML element.\",\"translation_quote\":\"Cuando Te Sientes Como Rendirte\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1082,
+    "content_evidence_truncated": false,
+    "content_sha256": "4b970cc9e9fc6cceb17ec9f23aa40d0c606ee38c7eb695a97c15da4bdab9f53d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6670
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "3feab4dd-c830-4ead-ad57-24d853847088",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 9320
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1146,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9044,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10190
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.</p>",
+      "severity": "major",
+      "source_quote": "ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.",
+      "suggested_fix": "Oversett eller lokaliser den bibelske referansen og/eller boktittelen til norsk i samme linje, og behold kapittel/vers-nummeret uendret. Forslag: «alltid lærende, og aldri i stand til å komme til sannhetens kunnskap – 2. Timoteus 3,7.» (merk mellomrom etter tankestrek og norsk bokstavform for bibelboken). Behold HTML/em-taggene som i originalen.",
+      "translation_quote": "alltid lærende, og aldri i stand til å komme til sannhetens kunnskap –2 Timothy 3:7."
+    },
+    {
+      "location": "<p>...Felix Manz ... nearly a century prior ...</p> (later paragraph near execution)",
+      "severity": "major",
+      "source_quote": "Felix Manz",
+      "suggested_fix": "Retur til korrekt navnstavemåte brukt i kildeteksten: «Felix Manz». I den aktuelle setningen der oversettelsen nå har «Feliz Manz», endre «Feliz» til «Felix». Behold originale tegnsetting og anførselstegn hvis til stede.",
+      "translation_quote": "Feliz Manz"
+    },
+    {
+      "location": "<p>...Mayor Rhan ...</p> (later paragraph describing aftermath)",
+      "severity": "major",
+      "source_quote": "Rudolf Rhan",
+      "suggested_fix": "Korriger den feilstavede formen i oversettelsen til samme form som i kilden: «Rudolf Rhan». I avsnittet hvor oversettelsen nå har «Rhudlof Rhan», rett dette til «Rudolf Rhan».",
+      "translation_quote": "Rhudlof Rhan"
+    }
+  ],
   "id": "0d9e53e986e2a17b18d689d11fe48eed",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nob",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/71da96b1e9fc7ad8418f514e41f429009d9b72f0f1b0b1b636d343ab0a681930.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

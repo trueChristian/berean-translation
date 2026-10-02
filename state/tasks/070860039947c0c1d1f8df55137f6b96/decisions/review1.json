@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph containing hymn reference to Lyte's encounter (around: \"Diz-se que foi seu encontro...\")",
+      "severity": "major",
+      "source_quote": "Diz-se que foi seu encontro com Deus ao lado de cama daquele moribundo que motivou o nobre hino de Lyte, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Traduzir o título do hino para o português e usar essa forma consistentemente. Por exemplo: “...motivou o nobre hino de Lyte, ‘Jesus, eu tomei a minha cruz.’” Preserve as título (entre aspas) e mantenha essa tradução em todo o artigo.",
+      "translation_quote": "Diz-se que foi seu encontro com Deus ao lado de cama daquele moribundo que motivou o nobre hino de Lyte, “Jesus, I My Cross Have Taken.”"
+    },
+    {
+      "location": "source.html paragraph describing the universally used tune (around: \"compôs (em apenas 10 minutos) a melodia Eventide para a canção, “Abide With Me, Fast Falls The Eventide”.\")",
+      "severity": "major",
+      "source_quote": "Diz-se que Monk, sendo “inspirado pela beleza de um glorioso pôr do sol enquanto ainda experienciava uma profunda tristeza pessoal,” compôs (em apenas 10 minutos) a melodia, Eventide, para a canção, “Abide With Me, Fast Falls The Eventide”.",
+      "suggested_fix": "Traduzir o título da canção entre aspas para o português e manter coerência com o título principal já traduzido. Por exemplo: “...compôs (em apenas 10 minutos) a melodia Eventide para a canção ‘Fica comigo: depressa cai o entardecer’.”",
+      "translation_quote": "Diz-se que Monk, inspirado “pela beleza de um glorioso pôr do sol enquanto ainda vivia uma profunda tristeza pessoal”, compôs (em apenas 10 minutos) a melodia Eventide para a canção “Abide With Me, Fast Falls The Eventide”."
+    },
+    {
+      "location": "source.html image alt attribute (figure img alt)",
+      "severity": "major",
+      "source_quote": "Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861",
+      "suggested_fix": "Translate the image alt text into Portuguese so the quoted song title is rendered in the target language. For example: \"Partitura de 'Fica comigo: depressa cai o entardecer', creditada a Henry F. Lyte, 1847, e William H. Monk, 1861\". Ensure the translated article uses this alt consistently.",
+      "translation_quote": "Partitura de 'Abide With Me, Fast Falls the Eventide', creditada a Henry F. Lyte, 1847, e William H. Monk, 1861"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

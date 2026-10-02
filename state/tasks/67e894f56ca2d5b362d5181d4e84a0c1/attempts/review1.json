@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph 3 (sentence quoting Lyte encounter)\",\"severity\":\"major\",\"source_quote\":\"“To their mutual grief, they found themselves [both] groping for the light, veritable blind guides”.\",\"suggested_fix\":\"Translate this quoted sentence into Hindi preserving sense: e.g. “उन दोनों के दुःख के लिए, वे पाए कि वे दोनों प्रकाश की ओर भाँपते हुए—सच्चे अंधे मार्गदर्शक—खोज रहे थे।” Place the corrected Hindi text inside the same quotation marks and keep existing HTML structure.\",\"translation_quote\":\"“उन दोनों के दुःख के लिए, वे पाते हैं कि वे दोनों ही प्रकाश की ओर गुमराह करते हुए थरथरा रहे थे, सच्चे अन्धे मार्गदर्शक。”\"},{\"location\":\"source.html paragraph 3 (hymn title quoted in English)\",\"severity\":\"critical\",\"source_quote\":\"It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”\",\"suggested_fix\":\"Translate the quoted hymn title into Hindi (titles and quoted substantive prose must be translated). Example: “…यह कहा जाता है कि उस मरते हुए व्यक्ति के शयनकक्ष में ईश्वर के साथ उनकी मुठभेड़ ही लाईट के महान भजन “हे यीशु, मैंने अपना क्रूस ले लिया” (Jesus, I My Cross Have Taken) के प्रेरक कारणों में से थी।” Keep the original English title only in parentheses if editorial policy requires retaining the English; otherwise render the quoted title fully in Hindi. Preserve HTML and punctuation.\",\"translation_quote\":\"…कहा जाता है कि उस मरते हुए व्यक्ति के शयनकक्ष में ईश्वर के साथ उनकी वह मुठभेड़ ही लाईट के महान भजन, “Jesus, I My Cross Have Taken” लिखने के प्रेरक कारणों में से थी।\"},{\"location\":\"source.html paragraph 6 (phrase left in English)\",\"severity\":\"major\",\"source_quote\":\"“Against the protest of his amazed friends, he accomplished this purpose, and it is recorded that Lyte nearly had to crawl to the pulpit and his message came as from a dying man.” “O brethren,” he said, as he entered the familiar pulpit for the last time, “I stand here among you today, as alive from the dead...\",\"suggested_fix\":\"Translate the English phrase “familiar pulpit” into Hindi. Example replacement: “परिचित ओरछना स्वर (familiar pulpit)” is awkward; better: use “परिचित प्रार्थनास्थल/मुख्य उपदेश स्थान” according to idiom. Suggested sentence: “…उन्होंने कहा, जब वे अंतिम बार परिचित उपदेशख़ाने (familiar pulpit) में प्रवेश कर रहे थे…” Keep the rest of the quotation translated consistently into Hindi and preserve the HTML structure.\",\"translation_quote\":\"“हे भाइयों,” उन्होंने कहा, जब वे Familiar pulpit में अंतिम बार प्रवेश कर रहे थे, “मैं आज तुम लोगों के बीच यहां खड़ा हूँ, मरे हुए में से जीवित होकर, यदि मैं आशा कर सकता हूँ कि इसे तुम पर प्रभावित करूँ…”\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 4054,
+    "content_evidence_truncated": false,
+    "content_sha256": "6b0c34f018b5426c63ef755586a2ae9fceb0deaf6aad41e389e3bf8f3bc91837",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5861,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7134
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

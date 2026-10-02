@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> (eight hymn stanzas)",
+      "severity": "critical",
+      "source_quote": "Abide with me: fast falls the eventide;\\n    The darkness deepens; Lord, with me abide:\\n    when other helpers fail, and comforts flee,\\n    Help of the helpless, O abide with me.",
+      "suggested_fix": "Translate each printed hymn stanza into Bengali, preserving the <p class=\"poem\"> element and line breaks (<br> tags). Do not leave the hymn in English. The translated Bengali should faithfully convey the printed English meaning and meter where reasonable, and must remain within the same HTML stanza blocks.",
+      "translation_quote": "Abide with me: fast falls the eventide;\\n    The darkness deepens; Lord, with me abide:\\n    when other helpers fail, and comforts flee,\\n    Help of the helpless, O abide with me."
+    },
+    {
+      "location": "<p>…Luke 24:28-29</p> (em-tagged Scripture quote)",
+      "severity": "critical",
+      "source_quote": "…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.",
+      "suggested_fix": "Translate the entire quoted Scripture passage (inside the <em> tags) into Bengali, keeping the same punctuation and the Luke 24:28-29 reference number unchanged. For example, provide a Bengali rendering of the quoted verses and keep the –Luke 24:28-29 citation at the end.",
+      "translation_quote": "…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29."
+    },
+    {
+      "location": "Paragraph describing final pulpit words (English quoted phrase)",
+      "severity": "major",
+      "source_quote": "“I stand here among you today, as alive from the dead, if I may hope to impress it upon you, and induce you to prepare for that solemn hour which must come to all, by a timely appreciation and dependance on the death of Christ.”",
+      "suggested_fix": "The quoted final exhortation must be rendered into Bengali inside the same <p> element and quotation marks. Preserve the sentence structure and theological sense (\"timely appreciation and dependence on the death of Christ\") and do not introduce new doctrinal language. Keep HTML tags untouched.",
+      "translation_quote": "“আমি আজ তোমাদের মাঝে এখানে তোমাদের মৃতদের মধ্যে জীবিতেরূপে দাঁড়িয়েছি, যদি আমি আশা করতে পারি যে এ বিষয়ে তোমাদের ওপর প্রভাব ফেলতে এবং আপনাদের সেই গম্ভীর মুহূর্তের জন্য প্রস্তুত করতে—যে মুহূর্ত সকলেরই আসবেই—খ্রীষ্টের মৃত্যুর প্রতি সময়োপযোগী uppskaron and নির্ভরশীলতার দ্বারা।”"
+    },
+    {
+      "location": "Paragraph with last words (English left untranslated)",
+      "severity": "major",
+      "source_quote": "His last words were “Joy! Peace!”",
+      "suggested_fix": "Translate the quoted last words into Bengali (for example: “আনন্দ! শান্তি!”) and keep them inside the same <p> element and quotation marks. Do not leave the English words unchanged.",
+      "translation_quote": "তার শেষ কথাগুলো ছিল “Joy! Peace!”"
+    },
+    {
+      "location": "Paragraph with phrase 'timely appreciation and dependance' (garbled untranslated token)",
+      "severity": "major",
+      "source_quote": "by a timely appreciation and dependance on the death of Christ.",
+      "suggested_fix": "Replace the garbled/untranslated token 'uppskaron' (or any foreign artifact) with a correct Bengali translation of 'timely appreciation' (সময়োপযোগী কৃতজ্ঞতা/মান্যতা) and 'dependance' as 'নির্ভরতা'. Ensure the full quoted passage (if inside quotes) is translated consistently. Keep tags intact.",
+      "translation_quote": "খ্রীষ্টের মৃত্যুর প্রতি সময়োপযোগী uppskaron and নির্ভরশীলতার দ্বারা।"
+    },
+    {
+      "location": "References list and the word 'References:'",
+      "severity": "minor",
+      "source_quote": "References:\\n    101 Hymn Stories,\\n    Treasury of Hymn Stories\\n    Author- Henry Francis Lyte, 1793-1847\\n    Composer- William Henry Monk, 1823-1889\\n    Tune Name - “Eventide”",
+      "suggested_fix": "Translate the heading 'References:' and the italicized reference lines into Bengali (e.g., 'উৎস:' and translate titles/labels where appropriate). Keep the italic (<em>) tags and the order of the reference lines unchanged, and retain author/composer names and dates as printed.",
+      "translation_quote": "References:\\n    <em>101 Hymn Stories,\\n    Treasury of Hymn Stories\\n    Author- Henry Francis Lyte, 1793-1847\\n    Composer- William Henry Monk, 1823-1889\\n    Tune Name - “Eventide”</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 7086
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 578,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6810,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7388
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Translate the section name into contemporary Urdu (Perso-Arabic script). For example: \"ایڈیٹر سے\" or \"ادارۂ ایڈیٹر\" depending on site conventions. Replace the English value while preserving the field string (no HTML changes required).",
+      "translation_quote": "FROM THE EDITOR"
+    },
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Translate the article title into contemporary Urdu (Perso-Arabic script). A conventional rendering would be: \"ایڈیٹر سے\" or \"ایڈیٹر کا پیغام\". Replace the English title with the chosen Urdu phrase in the title field.",
+      "translation_quote": "From the Editor"
+    }
+  ],
   "id": "e1ee249dbe8d1c7f83aaced00636810f",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "urd",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

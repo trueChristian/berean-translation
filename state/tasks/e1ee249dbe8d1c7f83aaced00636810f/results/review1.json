@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e941188d-91ec-4122-bbc4-e41fae6ca767",
+    "response_id": "chatcmpl-EUWwsGdm4vg6LZgOLtNmr07jESZUf",
+    "usage": {
+      "completion_tokens": 578,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6810,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7388
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "major",
+        "source_quote": "FROM THE EDITOR",
+        "suggested_fix": "Translate the section name into contemporary Urdu (Perso-Arabic script). For example: \"ایڈیٹر سے\" or \"ادارۂ ایڈیٹر\" depending on site conventions. Replace the English value while preserving the field string (no HTML changes required).",
+        "translation_quote": "FROM THE EDITOR"
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "major",
+        "source_quote": "From the Editor",
+        "suggested_fix": "Translate the article title into contemporary Urdu (Perso-Arabic script). A conventional rendering would be: \"ایڈیٹر سے\" or \"ایڈیٹر کا پیغام\". Replace the English title with the chosen Urdu phrase in the title field.",
+        "translation_quote": "From the Editor"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 9264
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1059,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8991,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10050
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...Acts 27:23-24</p> (paragraph about Paul, near Acts 27:23-24 quote)",
+      "severity": "major",
+      "source_quote": "…there stood by me this night the angel of God, whose I am, and whom I serve, Saying, Fear not, Paul… –Acts 27:23-24.",
+      "suggested_fix": "Translate the clause faithfully into natural Indonesian preserving the original meaning: that Paul is saying the angel declared he (Paul) belongs to God and serves Him. For example: “…malam itu berdiri dekat aku malaikat Allah, yang adalah kepunyaan-Nya, dan yang aku layani, katanya: Jangan takut, Paulus… –Kisah Para Rasul 27:23-24.” (Preserve the verse reference and placement.)",
+      "translation_quote": "…malam itu berdiri dekat aku malaikat Allah, yang aku punak, dan yang aku layani, berkata, Jangan takut, Paulus… –Kisah Para Rasul 27:23-24."
+    },
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "The Haven of Rest",
+      "suggested_fix": "Translate the article title into standard Bahasa Indonesia, preserving theology and style. For example: \"Pelabuhan Istirahat\" or the translator's established rendering used in the text (\"Pelabuhan yang Diinginkan\" is used as a heading in the translation). Ensure the translated title replaces the English title in translation.title.",
+      "translation_quote": "The Haven of Rest"
+    },
+    {
+      "location": "<p>paragraph beginning \"Jemakan prasangka kita sendiri-lah...\"</p>",
+      "severity": "minor",
+      "source_quote": "It is our own faulty premonitions that pound our soul and prevent us from entering the portal of peace.",
+      "suggested_fix": "Fix mistranslation/typo into clear Indonesian that preserves the source meaning. For example: \"Justru prasangka/praduga salah kita sendiri yang menghantam jiwa kita dan menghalangi kita memasuki gerbang damai.\" Preserve surrounding HTML and punctuation.",
+      "translation_quote": "Jemakan prasangka kita sendiri-lah yang memukul jiwa kita dan menghalangi kita memasuki gerbang damai."
+    }
+  ],
   "id": "4f382b334bc54cd5b38e34be53f8b427",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ind",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5f80ad335a5578b489f5e1ff55175ab3c10942655de5c784af044af1c73c841.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

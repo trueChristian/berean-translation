@@ -2,7 +2,6 @@
   "article_id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 9226
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1054,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8947,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10001
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>…stod denne natten hos meg en Guds engel, hvis jeg er, og hvem jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24.</p>",
+      "severity": "major",
+      "source_quote": "…there stood by me this night the angel of God, whose I am, and whom I serve, Saying, Fear not, Paul… –Acts 27:23-24.",
+      "suggested_fix": "Translate the phrase \"whose I am, and whom I serve\" so it faithfully conveys possession/relationship, not a conditional clause. Replace the clause in Norwegian with a correct equivalent, for example: \"…stod denne natten hos meg en Guds engel, han som jeg hører til, og som jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24.\" Preserve the surrounding HTML and verse citation exactly.",
+      "translation_quote": "…stod denne natten hos meg en Guds engel, hvis jeg er, og hvem jeg tjener, og som sa: Frykt ikke, Paulus… – Apostlenes gjerninger 27:23-24."
+    },
+    {
+      "location": "translation.section",
+      "severity": "minor",
+      "source_quote": "Victorious Christian Living",
+      "suggested_fix": "Translate the section name into Norwegian Bokmål. Suggested rendering: \"Seirende kristent liv\" (or \"Seirende kristenliv\" if the site prefers a single-word section slug).",
+      "translation_quote": "Victorious Christian Living"
+    }
+  ],
   "id": "5134aab305fa90e97db474cbdbb6bf00",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nob",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 75,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5f80ad335a5578b489f5e1ff55175ab3c10942655de5c784af044af1c73c841.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

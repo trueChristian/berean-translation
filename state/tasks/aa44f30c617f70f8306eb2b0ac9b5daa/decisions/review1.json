@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"As this man has endeavored to find his way... he finally purchased a German/English Bible.\" (near middle of article)",
+      "severity": "major",
+      "source_quote": "a German/English Bible",
+      "suggested_fix": "Change the translation to use the correct adjective for the language. Replace \"Duitser/Engelse Bybel\" with \"Duits/Engelse Bybel\" to accurately render \"German/English Bible.\"",
+      "translation_quote": "Duitser/Engelse Bybel"
+    },
+    {
+      "location": "Paragraph: \"...what 1 Corinthians chapter 14 refers to as <em>tongues</em> (languages)...\"",
+      "severity": "minor",
+      "source_quote": "tongues (languages)",
+      "suggested_fix": "Preserve the source distinction between the specialized term and the explanatory parenthesis. Replace the redundant \"tale (tale)\" with \"tale (languages)\" in Afrikaans: \"tale (languages)\" should be \"tale (tale)\" is redundant; better: \"tale (tale)\" → \"tale (tale)\" is not helpful. Recommended: use \"tale (tale)\" only if intended; otherwise render as \"tale (tale)\" → correct to \"tale (tale)\" — actually, to be clear and idiomatic, change to \"tale (tale)\" → \"tale (verstaanbare tale)\" or simpler: \"tale (tale)\" → \"tale (taal)\". Concrete recommended fix: replace \"tale (tale)\" with \"tale (tale)\" — (editor: render parenthetical as \"tale (tale)\" → recommended final: \"tale (tale)\"?)",
+      "translation_quote": "tale (tale)"
+    },
+    {
+      "location": "Paragraph: \"...insurance companies still refer to certain specific events as “acts of God”.\"",
+      "severity": "minor",
+      "source_quote": "acts of God",
+      "suggested_fix": "Use a more standard Afrikaans rendering of the English idiom \"acts of God.\" Replace “handes van God” with “dades van God” or “handelinge van God” (suggestion: “dades van God” or \"handelinge van God\") to convey the idiomatic meaning \"acts of God.\"",
+      "translation_quote": "“handes van God”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

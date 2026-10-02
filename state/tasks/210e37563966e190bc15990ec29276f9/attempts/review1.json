@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title / translation.title\",\"severity\":\"major\",\"source_quote\":\"A Life Changing Influence\",\"suggested_fix\":\"Translate the English title into standard contemporary Urdu and replace the English. Suggested Urdu title: \\\"زندگی بدل دینے والا اثر\\\" (or if preferred, \\\"ایک زندگی بدل دینے والا اثر\\\"). Preserve the title element exactly in place (no HTML tag changes).\",\"translation_quote\":\"A Life Changing Influence\"},{\"location\":\"source.section / translation.section\",\"severity\":\"major\",\"source_quote\":\"Children’s Corner\",\"suggested_fix\":\"Translate the section name into standard contemporary Urdu and replace the English. Suggested Urdu: \\\"بچّوں کا گوشہ\\\" or \\\"بچوں کا کونا\\\". Keep the section field string (no HTML changes).\",\"translation_quote\":\"Children’s Corner\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 888,
+    "content_evidence_truncated": false,
+    "content_sha256": "dd0d570aca7c1d899ee02dd64d0f7eb947f5647264340ded30ebb62853a19386",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3438,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4010
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

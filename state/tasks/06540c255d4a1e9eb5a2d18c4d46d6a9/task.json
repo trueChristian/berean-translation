@@ -2,7 +2,6 @@
   "article_id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 6499
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1426,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6217,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7643
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...In the gathering darkness Beto watched as, not thirty paces before him, the dreaded beast...</p>",
+      "severity": "major",
+      "source_quote": "In the gathering darkness Beto watched as, not thirty paces before him, the dreaded beast he so tremendously feared crept out of the bushes and turned to face him!",
+      "suggested_fix": "Preserve the original measure phrase as an equivalent expression in Kiswahili that conveys 'thirty paces' rather than converting it to metres. For example: \"...katika giza lililoanza kupanuka Beto alitazama jinsi, si umbali wa hatua thelathini mbele yake, mnyama aliokuwa anamtisha kabisa alivyotoka kwenye vichaka na kugeuka kumkabili!\" Replace the current sentence inside the same <p> element with this wording.",
+      "translation_quote": "Katika giza lililoanza kupanuka Beto alitazama jinsi, si umbali wa mita thelathini mbele yake, mnyama aliokuwa anamtisha kabisa alivyotoka kwenye vichaka na kugeuka kumkabili!"
+    },
+    {
+      "location": "First paragraph, opening sentence",
+      "severity": "minor",
+      "source_quote": "Glancing up at the sun, Beto (a made-up name) quickened his already hurried pace as he approached the forest.",
+      "suggested_fix": "Improve idiomatic clarity while preserving meaning. Suggested revision inside the same <p class=\"drop-cap\"> element: \"Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) aliongeza kasi ya hatua zake ambazo tayari zilikuwa haraka alipoelekea msituni.\"",
+      "translation_quote": "Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) alikazia hatua zake ambazo zilikuwa zimemkimbiza tayari alipoelekea msituni."
+    },
+    {
+      "location": "<p>...he tripped on a vine and sprawled helplessly onto the ground.</p>",
+      "severity": "minor",
+      "source_quote": "Suddenly, not being able to see the path clearly in the darkness of the forest, Beto tripped on a vine and sprawled helplessly onto the ground.",
+      "suggested_fix": "The current translation \"Beto aligotwa kwenye mtende na akatanguliwa chini, bubu kabisa\" is unclear/unnatural in Kiswahili. Suggested clearer rendering inside the same <p> element: \"Ghafla, kwa sababu hakuweza kuona njia vizuri gizani, Beto aligotwa na mzizi/kiuno cha mnyororo wa mmea na akatumbukia chini, bila msaada.\" Choose \"mzizi\" or \"mnyororo wa mmea\" according to preferred idiom.",
+      "translation_quote": "Ghafla, bila kuweza kuona njia kwa uwazi katika giza la msitu, Beto aligotwa kwenye mtende na akatanguliwa chini, bubu kabisa."
+    },
+    {
+      "location": "Title and section metadata",
+      "severity": "minor",
+      "source_quote": "title: \"When You Feel Like Giving Up\"; section: \"Inspirations for Youth\"",
+      "suggested_fix": "The translated title and section are acceptable but consider a slightly more natural Kiswahili title. Current translation: \"Unapo Jihisi Kutaka Kukata Tamaa\" and section \"Mafundisho kwa Vijana\" are fine; no mandatory change required. If desired: title revision to \"Unapojihisi Kutaka Kukata Tamaa\".",
+      "translation_quote": "title: \"Unapo Jihisi Kutaka Kukata Tamaa\"; section: \"Mafundisho kwa Vijana\""
+    }
+  ],
   "id": "06540c255d4a1e9eb5a2d18c4d46d6a9",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swa",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfb06c218ba9f1c1fc2af084f523761a426281e4793352fbdf7a1e712eeefda1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

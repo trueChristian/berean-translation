@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html paragraph containing \"cheap-grace gospel\" (near \"Deridiamo la preghiera del vangelo della grazia economica\")",
+      "severity": "minor",
+      "source_quote": "We mock the prayer of the cheap-grace gospel, we look down on the powerless altar calls, but what are we doing about our need?",
+      "suggested_fix": "Replace the literal \"vangelo della grazia economica\" with a more idiomatic rendering of the English term \"cheap-grace gospel\", for example: \"vangelo della grazia a buon mercato\" or \"vangelo della grazia 'a buon mercato'\" to convey the intended theological meaning.",
+      "translation_quote": "Deridiamo la preghiera del vangelo della grazia economica, guardiamo dall'alto le invocazioni prive di potere agli altari, ma cosa stiamo facendo riguardo al nostro bisogno?"
+    },
+    {
+      "location": "translation.html paragraph containing the phrase \"Il grande IO SONO, COLO CHE SONO.\"",
+      "severity": "minor",
+      "source_quote": "We have faith in the God of the Bible—The great I AM, THAT I AM.",
+      "suggested_fix": "Correct the mistranscription and render the divine name idiomatically as \"Il grande IO SONO, COLUI CHE SONO.\" (replace \"COLO\" with \"COLUI\"). This preserves the original meaning and honors the theological reference.",
+      "translation_quote": "La nostra fede deve essere aperta a chi ci circonda—Il grande IO SONO, COLO CHE SONO."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

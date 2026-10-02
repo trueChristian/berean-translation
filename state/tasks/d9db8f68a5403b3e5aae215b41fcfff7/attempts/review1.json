@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"This man is living somewhere within the United States of America...\\\" (source.html paragraph beginning \\\"This man is living somewhere within the United States of America.\\\")\",\"severity\":\"major\",\"source_quote\":\"part of a certain religious group within the plain people—those of Anabaptist heritage.\",\"suggested_fix\":\"Vertaal \\\"plain people\\\" consistent en juist als verwijzing naar de aanspraak op eenvoudige/\\\"plain\\\" Anabaptistische gemeenschappen, niet als \\\"plattelandsmensen\\\". Bijvoorbeeld: \\\"hij behoort tot een bepaalde religieuze groep binnen het 'plain' volk — zij van wederdoper-afkomst.\\\" Of in standaard Nederlands zonder Engelse term: \\\"hij behoort tot een bepaalde religieuze groep onder de eenvoudige (plain) mensen — van wederdoper-afkomst.\\\" Preserveer de enkelvoud/meervoudsconventie en de tautologie die de auteur gebruikte.\",\"translation_quote\":\"Hij behoort tot een bepaalde religieuze groep binnen de plattelandsmensen — die van wederdoper-afkomst.\"},{\"location\":\"Paragraph: \\\"...though the world does not want to retain God in their knowledge...\\\" (source.html paragraph mentioning insurance companies)\",\"severity\":\"major\",\"source_quote\":\"insurance companies still refer to certain specific events as “acts of God”.\",\"suggested_fix\":\"Vertaal de aangehaalde Engelse term volledig in het Nederlands en zet eventueel de Engelse term tussen haakjes. Bijvoorbeeld: \\\"verzekeringsmaatschappijen toch bepaalde specifieke gebeurtenissen nog steeds aanduiden als 'gevallen van God' (acts of God).\\\" This ensures the quoted substantive phrase is rendered into Dutch as required.\",\"translation_quote\":\"verzekeringsmaatschappijen toch bepaalde specifieke gebeurtenissen nog steeds aanduiden als “gevallen van God” (acts of God).\"},{\"location\":\"Paragraph: \\\"His local church is a part of the descendants...\\\" (source.html paragraph beginning \\\"His local church is a part of the descendants of the Anabaptists...\\\")\",\"severity\":\"major\",\"source_quote\":\"Herein, his church leaders are finding themselves on the opposite side of the issue of freedom of religious worship that their forefathers suffered for, since they are insisting that the only way to learn of God’s will is through the official language of Scripture—German.\",\"suggested_fix\":\"De vertaling van deze zin is onduidelijk en deels ongrammaticaal (\\\"waar hun voorouders voor leden\\\") en daarmee verandert de betekenis. Herschrijf in duidelijk Nederlands die de Engelse strekking volgt en behoudt \\\"their forefathers suffered for\\\" als lijdende vorm: bijvoorbeeld: \\\"Hierin bevinden zijn kerkleiders zich aan de andere kant van de kwestie van vrijheid van godsdienstige eredienst waarvoor hun voorouders hebben geleden, aangezien zij erop aandringen dat de enige manier om Gods wil te leren via de officiële taal van de Schrift — Duits — is.\\\" Behoud de HTML-structuur en zet alleen de tekst binnen de <p>…</p> opnieuw.\",\"translation_quote\":\"Hierin bevinden zijn kerkleiders zich aan de andere kant van de kwestie van vrijheid van godsdienstige eredienst waar hun voorouders voor leden, aangezien zij erop aandringen dat de enige manier om Gods wil te leren is via de officiële taal van de Schrift — Duits.\"}],\"passed\":false,\"score\":60}",
+    "content_bytes": 3273,
+    "content_evidence_truncated": false,
+    "content_sha256": "5e038aaadd011dd88249c37e561bf5eed1d82cd9dfe250c981a3764647bf9323",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1337,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6258,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7595
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

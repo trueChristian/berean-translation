@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 5872
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1527,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5341,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6868
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph containing hymn reference to Lyte's encounter (around: \"Diz-se que foi seu encontro...\")",
+      "severity": "major",
+      "source_quote": "Diz-se que foi seu encontro com Deus ao lado de cama daquele moribundo que motivou o nobre hino de Lyte, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Traduzir o título do hino para o português e usar essa forma consistentemente. Por exemplo: “...motivou o nobre hino de Lyte, ‘Jesus, eu tomei a minha cruz.’” Preserve as título (entre aspas) e mantenha essa tradução em todo o artigo.",
+      "translation_quote": "Diz-se que foi seu encontro com Deus ao lado de cama daquele moribundo que motivou o nobre hino de Lyte, “Jesus, I My Cross Have Taken.”"
+    },
+    {
+      "location": "source.html paragraph describing the universally used tune (around: \"compôs (em apenas 10 minutos) a melodia Eventide para a canção, “Abide With Me, Fast Falls The Eventide”.\")",
+      "severity": "major",
+      "source_quote": "Diz-se que Monk, sendo “inspirado pela beleza de um glorioso pôr do sol enquanto ainda experienciava uma profunda tristeza pessoal,” compôs (em apenas 10 minutos) a melodia, Eventide, para a canção, “Abide With Me, Fast Falls The Eventide”.",
+      "suggested_fix": "Traduzir o título da canção entre aspas para o português e manter coerência com o título principal já traduzido. Por exemplo: “...compôs (em apenas 10 minutos) a melodia Eventide para a canção ‘Fica comigo: depressa cai o entardecer’.”",
+      "translation_quote": "Diz-se que Monk, inspirado “pela beleza de um glorioso pôr do sol enquanto ainda vivia uma profunda tristeza pessoal”, compôs (em apenas 10 minutos) a melodia Eventide para a canção “Abide With Me, Fast Falls The Eventide”."
+    },
+    {
+      "location": "source.html image alt attribute (figure img alt)",
+      "severity": "major",
+      "source_quote": "Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861",
+      "suggested_fix": "Translate the image alt text into Portuguese so the quoted song title is rendered in the target language. For example: \"Partitura de 'Fica comigo: depressa cai o entardecer', creditada a Henry F. Lyte, 1847, e William H. Monk, 1861\". Ensure the translated article uses this alt consistently.",
+      "translation_quote": "Partitura de 'Abide With Me, Fast Falls the Eventide', creditada a Henry F. Lyte, 1847, e William H. Monk, 1861"
+    }
+  ],
   "id": "070860039947c0c1d1f8df55137f6b96",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "por",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

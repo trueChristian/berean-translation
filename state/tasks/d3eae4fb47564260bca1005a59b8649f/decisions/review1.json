@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 3 (sentence mentioning Lyte's encounter)",
+      "severity": "major",
+      "source_quote": "Men says that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Translate the quoted hymn title into Dutch (preserving it as a quoted title). For example: „Jezus, ik heb mijn kruis aanvaard.” or another conventional Dutch title for that hymn, keeping the quotation marks and placement unchanged in HTML.",
+      "translation_quote": "Men zegt dat het zijn ontmoeting met God aan het ziekbed van die stervende man was die Lyte ertoe bracht zijn nobele hymne, “Jesus, I My Cross Have Taken,” te schrijven."
+    },
+    {
+      "location": "source.html paragraph 14 (listing other familiar hymns)",
+      "severity": "major",
+      "source_quote": "William Monk also wrote the music for other familiar hymns such as “Look, Ye Saints! The Sight Is Glorious”, and “The Strife Is O’er”.",
+      "suggested_fix": "Translate these hymn titles into Dutch (retain quotation marks and punctuation). For example: „Zie, gij heiligen! Het aanzicht is heerlijk” and „De strijd is voorbij” (or other established Dutch titles), keeping the original punctuation and order.",
+      "translation_quote": "William Monk schreef ook de muziek voor andere bekende hymnen zoals “Look, Ye Saints! The Sight Is Glorious”, en “The Strife Is O’er”."
+    },
+    {
+      "location": "source.html final paragraph and earlier quote of a secondary work (Dr. Breed) and references block",
+      "severity": "major",
+      "source_quote": "“In no other writer,” says Dr. Breed (in the Treasury of Hymn Stories), “are poetry and religion more exquisitely united.”\n\nReferences:\n    <em>101 Hymn Stories,\n    Treasury of Hymn Stories\n    Author- Henry Francis Lyte, 1793-1847\n    Composer- William Henry Monk, 1823-1889\n    Tune Name - “Eventide”</em>",
+      "suggested_fix": "Translate the quoted book title and the references into Dutch (preserve italics and the reference formatting). For example: (in the Treasury of Hymn Stories) -> (in de Treasury of Hymn Stories) is not sufficient; translate the book title itself into Dutch: (in de Treasury of Hymn Stories) could be rendered as (in de Verzameling van Hymn Stories) only if an established Dutch title exists; otherwise render the English title in italics but provide a Dutch rendering for quoted substantive prose elsewhere. In the references block translate labels like 'Author' -> 'Auteur', 'Composer' -> 'Componist', 'Tune Name' -> 'Melodienaam' and translate (or provide established Dutch forms of) the italicized book titles. Keep HTML tags and order unchanged.",
+      "translation_quote": "“Bij geen andere schrijver,” zegt Dr. Breed (in de Treasury of Hymn Stories), “zijn poëzie en religie zo voortreffelijk verenigd.”\n\nReferenties:\n    <em>101 Hymn Stories,\n    Treasury of Hymn Stories\n    Auteur- Henry Francis Lyte, 1793-1847\n    Componist- William Henry Monk, 1823-1889\n    Melodienaam - “Eventide”</em>"
+    },
+    {
+      "location": "source.html stanza 3 (poem translation)",
+      "severity": "minor",
+      "source_quote": "Not a brief glance I beg, a passing word;\n    But, as Thou dwell’st with Thy disciples, Lord,\n    Familiar, condescending, patient, free,\n    Come, not to sojourn, but abide, with me.",
+      "suggested_fix": "Render the contrast between 'not to sojourn' and 'but abide' more clearly in Dutch so it preserves the original sense (not a temporary stay but a continuing abiding). For example: \"Kom niet om slechts te verblijven, maar om te blijven bij mij.\" Replace the current line so meaning is unambiguous while keeping punctuation and stanza order unchanged in HTML.",
+      "translation_quote": "Geen vluchtige blik vraag ik, geen voorbijgaand woord;\n    Maar, zoals Gij bij Uw discipelen vertoefdet, Heer,\n    Vertrouwd, nederig, geduldig, vrij,\n    Kom, niet om te verblijven, maar blijf, bij mij."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

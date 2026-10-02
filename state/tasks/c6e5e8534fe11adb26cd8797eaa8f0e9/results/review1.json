@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b6020720-044b-460a-ba21-5519407262e6",
+    "response_id": "chatcmpl-EUWwfqnevOyo0wqyR84whcrvziB4p",
+    "usage": {
+      "completion_tokens": 1272,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5927,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7199
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “It is said that it was his encounter…” (third <p>)",
+        "severity": "major",
+        "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+        "suggested_fix": "Translate the quoted hymn title into Urdu rather than leaving it in English. Preserve the quotation marks and HTML structure. For example: “…یہ کہا جاتا ہے کہ اسی مریض کے بستر پر خدا کے ساتھ ان کی ملاقات نے لائٹ کی عالی شان حمد ‘مَیں نے اپنا صلیب لیکر مسیح کو پکڑا’ (یا عام اردو متداول عنوان) تخلیق کرنے کی ترغیب دی۔” (Render the exact conventional Urdu title used for that hymn; keep the quotation marks.)",
+        "translation_quote": "کہا جاتا ہے کہ اسی مریض کے بستر پر خدا کے ساتھ ان کے اس ملاقاتی نے لائٹ کی عالی شان حمد “Jesus, I My Cross Have Taken” تخلیق کرنے کی ترغیب دی۔"
+      },
+      {
+        "location": "Poem stanza 3 (third <p class=\"poem\">)",
+        "severity": "major",
+        "source_quote": "But, as Thou dwell’st with Thy disciples, Lord, Familiar, condescending, patient, free,",
+        "suggested_fix": "'Condescending' here means humbly lowering oneself or showing condescension in the sense of compassionate humility (not 'obedient'). Render this nuance in Urdu (e.g., 'اخلاص کے ساتھ، عجز و انکساری کے ساتھ' or 'رحمدلی سے اپنے خدائی درجہ میں نازل ہو کر'). Keep meter/style sensitivity, but do not change theological meaning. Suggested Urdu line preserving tags: 'بلکہ جیسا کہ تُو اپنے شاگردوں کے ساتھ رہتا ہے، اے خداوند، مانوس، عجز و انکساری والا، صابر، فیاض,'",
+        "translation_quote": "بلکہ جیسا کہ تو اپنے شاگردوں کے ساتھ رہتا ہے، اے خداوند،\n    مانوس، فرمانبردار، صابر، بے روک ٹوک،"
+      },
+      {
+        "location": "Paragraph about William H. Monk and later paragraph listing other hymn titles (near end)",
+        "severity": "minor",
+        "source_quote": "Look, Ye Saints! The Sight Is Glorious; and The Strife Is O’er.",
+        "suggested_fix": "Translate or provide conventional Urdu forms for these quoted hymn titles instead of leaving them in English, or at minimum mark them as titles in Urdu script. Preserve punctuation and placement. Example fixes in Urdu: '“اے مومنوں دیکھو! یہ منظر شاندار ہے”' and '“جنگ تمام ہو چکی ہے”' (use standard Urdu hymn-title renderings if available).",
+        "translation_quote": "جیسا کہ “Look, Ye Saints! The Sight Is Glorious”, اور “The Strife Is O’er”。"
+      }
+    ],
+    "passed": false,
+    "score": 73
+  }
+}

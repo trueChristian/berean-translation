@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "critical",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Translate the English title into Bahasa Indonesia and preserve capitalization style appropriate to site (e.g., \"Dari Pemimpin Redaksi\" or \"Dari Redaksi\"). Replace the translation.title value with that Indonesian phrase.",
+      "translation_quote": "From the Editor"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Translate the English section label into Bahasa Indonesia (e.g., \"DARI PEMIMPIN REDAKSI\" or \"DARI REDAKSI\"). Replace the translation.section value with that Indonesian phrase.",
+      "translation_quote": "FROM THE EDITOR"
+    },
+    {
+      "location": "source.html paragraph: \"...he discovered a book titled “The Holy Bible”.\" / translation.html corresponding paragraph",
+      "severity": "critical",
+      "source_quote": "\"The Holy Bible\"",
+      "suggested_fix": "Translate the quoted book title into Bahasa Indonesia consistent with the rest of the translation. Replace “The Holy Bible” with “Alkitab Suci” or simply “Alkitab” within the same quotes and preserve the HTML structure and punctuation.",
+      "translation_quote": "“The Holy Bible”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

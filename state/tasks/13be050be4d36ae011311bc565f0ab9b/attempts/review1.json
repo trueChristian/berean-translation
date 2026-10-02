@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"Ye Must Be Born Again\",\"suggested_fix\":\"Use standard contemporary Afrikaans for the title. Replace the archaic pronoun “Gij” with modern “Jy”. Suggested title: \\\"Jy moet weer gebore word\\\" (preserve capitalization style used on site).\",\"translation_quote\":\"Gij moet weer gebore word\"},{\"location\":\"paragraph beginning \\\"Bestees, God wil vandag…\\\"\",\"severity\":\"minor\",\"source_quote\":\"Dear ones, God wants a people to call His own today just as much as He did in the beginning. He wants us!\",\"suggested_fix\":\"Fix the apparent typo/nonstandard address “Bestees,” to a standard contemporary Afrikaans form. Suggested fixes: “Bestees,” -> “Liewe lesers,” or “Bestees” -> “Liewe geliefdes,” depending on the intended tone. A simple, neutral suggestion: replace with “Liewe lesers,” so the sentence begins: “Liewe lesers, God wil vandag ’n volk hê …”.\",\"translation_quote\":\"Bestees, God wil vandag ’n volk hê om Sy eie te noem net soos Hy dit aan die begin wou hê.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1101,
+    "content_evidence_truncated": false,
+    "content_sha256": "c78c303a6d66df03ad38d725881a0ac05a6806dc052c36de6787018ea8249135",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10139,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10990
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

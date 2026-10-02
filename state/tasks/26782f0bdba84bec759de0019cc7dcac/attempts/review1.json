@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — Scripture list, Ephesians 5:33 line\",\"severity\":\"major\",\"source_quote\":\"Nevertheless let … the wife see that she <strong>reverence her husband</strong> –Ephesians 5:33.\",\"suggested_fix\":\"Replace the French word that implies 'fear' with a faithful rendering of 'reverence' (respect/revere). For example: « Néanmoins que… la femme voie qu’elle <strong>révère/ respecte son mari</strong> – Éphésiens 5:33. » Preserve tags and verse punctuation exactly as in source.\",\"translation_quote\":\"Néanmoins que… la femme voie qu’elle <strong>craigne son mari</strong> – Éphésiens 5:33.\"},{\"location\":\"source.title\",\"severity\":\"minor\",\"source_quote\":\"Understanding Submission\",\"suggested_fix\":\"Translate the English title into French while preserving it as the article title. For example: \\\"Comprendre la soumission\\\". Do not alter HTML structure—only replace the text content of the title field.\",\"translation_quote\":\"Understanding Submission\"},{\"location\":\"source.section\",\"severity\":\"minor\",\"source_quote\":\"Sister to Sister\",\"suggested_fix\":\"Translate the section name into French (internationally intelligible). For example: \\\"Sœur à sœur\\\" or \\\"Soeur à soeur\\\" depending on site style. Replace the English section string with the French equivalent.\",\"translation_quote\":\"Sister to Sister\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 1383,
+    "content_evidence_truncated": false,
+    "content_sha256": "5decba3746bdcb4d0c78cf0ea8fe5895ebc745792736c59345cb95b102492644",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 964,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9965,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10929
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html <p> (paragraph mentioning song)",
+      "severity": "major",
+      "source_quote": "She taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
+      "suggested_fix": "ترجم عنوان الأغنية المقتبس إلى العربية ليُقدَّم كنص مقتبس بالعربية. مثال مقترح: «علّمت الفتيات أغنية بعنوان «كم تبعد السماء؟»، التي لا تزال Hadassah تحب أن تُغنّيها حتى اليوم!» (حافظ على علامات الاقتباس كما في المصدر).",
+      "translation_quote": "لكنها علّمت الفتيات أغنية بعنوان “How Far Is Heaven”، التي لا تزال Hadassah تحب أن تُغنيها حتى اليوم!"
+    },
+    {
+      "location": "source.html <figure> <img alt=\"Colorful school supplies and a stethoscope around a pale background\">",
+      "severity": "minor",
+      "source_quote": "Colorful school supplies and a stethoscope around a pale background",
+      "suggested_fix": "صحّح ترجمة كلمة “stethoscope” إلى مصطلح طبي عربي مناسب داخل وسم alt. مثال مقترح: alt=\"مستلزمات مدرسية ملونة وسماعة طبية على خلفية فاتحة\"",
+      "translation_quote": "مستلزمات مدرسية ملونة ومِسمار طِبّي حول خلفية فاتحة"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

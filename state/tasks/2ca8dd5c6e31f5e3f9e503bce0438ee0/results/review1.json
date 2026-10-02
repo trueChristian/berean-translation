@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "481dd9bd-eb31-4475-b3ac-d14fe7fcc19e",
+    "response_id": "chatcmpl-EUWwDl56E0xg1rUQWSRMzGwV9xZJ6",
+    "usage": {
+      "completion_tokens": 1945,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11805
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<ul> (first scripture list) — first <li>",
+        "severity": "critical",
+        "source_quote": "Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33.",
+        "suggested_fix": "Translate the verse text and render the book name and chapter:verse correctly in Hebrew. Example: “ואף על פי כן תראה האשה את בעלה — יחסה אליו כבוד; — אפרסים (אפסיים) 5:33.” (Use the conventional Modern Hebrew name for Ephesians and keep “5:33”.) Preserve the emphasis tags around quoted words as in the source.",
+        "translation_quote": "ולא זאת בלבד, כי אם תירא האשה את בעלה תכבדו את אשתו – אפרים התשיעי 5:33."
+      },
+      {
+        "location": "<ul> (first scripture list) — many list items with Scripture citations",
+        "severity": "major",
+        "source_quote": "Likewise, ye wives, be in subjection to your own husbands… –1 Peter 3:1. / Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife… –1 Peter 3:7. / Wives, submit yourselves unto your own husbands, as unto the Lord –Ephesians 5:22. / Let the woman learn in silence with all subjection … –1 Timothy 2:11-14. / Let your women keep silence in the churches … –1 Corinthians 14:34.",
+        "suggested_fix": "Several book names and citation formats are mistranslated or garbled and some quoted phrasing is altered. Replace each list item with a faithful Hebrew rendering of the exact quoted Scripture text (not a paraphrase), using conventional Modern Hebrew book names and the same chapter:verse numbers. Keep italic/strong tags where present. Example for 1 Peter 3:1: “כך גם נשות, תהיו כפופות לבעליכן… — בראשית? (לא) — 1 פטרוס 3:1.” (Use the correct Hebrew book name: 'בפהטרוס' is incorrect; use 'אגרת פטרוס הראשונה' or the usual short form '1 פטרוס' and keep '3:1'.)",
+        "translation_quote": "<li><em>גם אתם, נשים, <strong>היו תחת כיבוד לבעליכם…</strong> – פטרוס הראשונה 3:1.</em></li>\n    ...\n<li><em><strong>נשות, התכבדו לו תחת בעליכם,</strong> כאילו יהוה – אפסיים 5:22.</em></li>\n    ...\n<li><em><strong>תלמד האשה בשתיקה בכל כנות.</strong> אבל איני סובל לאשה ללמד, ולא ליטול סמכות על האיש, אלא שתהיה בשתיקה. כי קודם נברא אדם, ולאחריו חוה. ואדם לא היה מונח בטעייה, ואשר האשה הוטעת היתה שמת בחטא – טימותיוס הראשונה 2:11-14.</em></li>\n    ...\n<li><em><strong>יהיו נשיכם שותקות בקהילות:</strong> כי אינן מורשות לדבר; אלא מצוה עליהן להיות תחת ציות, כפי שגם החוק אומר – קורינתים הראשונה 14:34.</em></li>"
+      },
+      {
+        "location": "paragraph 3 (Hebrew)",
+        "severity": "major",
+        "source_quote": "I have a burden about this because in the last couple of months I have noticed how much our homes are under constant attack from the enemy of our souls, as he tries to use our flesh and the world.",
+        "suggested_fix": "Restore accurate meaning: translate as “יש לי דאגה לגבי זאת, כי בחודשים האחרונים שמתי לב כמה בתינו תחת מתקפה מתמדת מצד אויב נפשותינו, כאשר הוא מנסה להשתמש בבש שלנו ובעולם.” Keep gender and phrasing consistent and natural in Modern Hebrew. Don’t change theological sense.",
+        "translation_quote": "יש לי יגיעה על זה כי בחודשים האחרונים שמתי לב כמה בתינו תחת מתקפה מתמדת מצד אויב נפשותינו, כשהוא מנסה להשתמש בבשלה ובעולם."
+      },
+      {
+        "location": "paragraph 2 (Hebrew)",
+        "severity": "major",
+        "source_quote": "When we honor our husbands the way that God has taught in His Word, the example of our lives will draw the unbelieving to Christ.",
+        "suggested_fix": "Correct mistranslation: render “honor” as כבוד/לכבד, not 'להאכיל' or other incorrect verbs. Example: “כאשר נכבד את בעלינו כפי שאלוהים מלמד בדברו, דוגמת חיינו תמשוך חסרי האמונה אל המשיח.”",
+        "translation_quote": "כאשר נאכיל את בעלי בכבוד כפי שאלוהים מלמד בדברו, הדוגמה של חיינו תמשוך את חסרי האמונה אל המשיח."
+      },
+      {
+        "location": "paragraph beginning “As I write on this...” (Hebrew)",
+        "severity": "minor",
+        "source_quote": "As I write on this, I don’t feel that I will do justice to it, so I will just write some of my thoughts and pray that all who read this article will be encouraged in their marriages to honor, respect, and love their husbands.",
+        "suggested_fix": "Minor wording/register issue: render idiomatically in Modern Hebrew and keep three distinct verbs (honor, respect, love). Example: “כשאני כותבת זאת, איני מרגישה שאוכל לתאר זאת כראוי; אפנה לכתוב חלק ממחשבותיי ואתפלל שכל הקוראים יתעודדו בכבוד, בכבוד ובהאהבה כלפי בעליהם.” (Avoid repeating 'כבוד' twice; use 'לכבד, לכבד/לכבד ולהוקיר' to preserve nuance.)",
+        "translation_quote": "בעת כתיבתי על זה, איני מרגישה שאוכל לתת לזה צדק גמור, לכן אכתוב רק חלק ממחשבותיי ואתפלל שכל הקוראים ייתעודדו בנישואיהם לכבד, לכבד ולהשקיע אהבה בבעליהם."
+      },
+      {
+        "location": "numerous places — gender/number and idiom (throughout translation)",
+        "severity": "major",
+        "source_quote": "Original English uses natural, idiomatic Modern English with consistent gender/number.",
+        "suggested_fix": "The Hebrew text contains several unnatural formulations and incorrect gender/number agreement (for example, 'בתינו' instead of 'בתינו' vs 'בתינו' used inconsistently, 'אכיל את בעלי' instead of 'נכבד את בעלינו', 'התקפה מתמדת מצד אויב נפשותינו' awkwardly rendered). Revise to contemporary Modern Hebrew with correct agreement and idiom while preserving original meaning and theology. Keep HTML structure intact.",
+        "translation_quote": "(examples across the translation) \"בתינו\" / \"אכיל את בעלי\" / \"יש לי יגיעה על זה\" / \"בשרית, לא נוכל\""
+      },
+      {
+        "location": "aside — last paragraph citation",
+        "severity": "major",
+        "source_quote": "(see 1 Corinthians 11:3 and Romans 13:12)",
+        "suggested_fix": "Ensure the referenced verse numbers are preserved and the Hebrew translations of the verse citations are accurate. In the aside the parenthetical citation at end should read “(ראה 1 קורינתים א' 11:3 וָרומאים 13:12)” and if verses are quoted, translate their text faithfully in Hebrew.",
+        "translation_quote": "(ראה קורינתים א׳ 11:3 ורומיים 13:12)"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

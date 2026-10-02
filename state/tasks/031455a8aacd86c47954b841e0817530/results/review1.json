@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4bb637ec-b88f-4ac8-83f9-1e35818c1e68",
+    "response_id": "chatcmpl-EUWwLQVDSkQXsoCh0GJV1SdUwwDei",
+    "usage": {
+      "completion_tokens": 1646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13178
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Main article — Scripture list (bulleted list at top)",
+        "severity": "critical",
+        "source_quote": "<em>Nevertheless let … the wife see that she <strong>reverence her husband</strong> –Ephesians 5:33.</em>\n    <li><em>Likewise, ye wives, <strong>be in subjection to your own husbands…</strong> –1 Peter 3:1.</em>\n    <li><em><strong>Even as Sara obeyed</strong> Abraham, calling him lord: <strong>whose daughters ye are…</strong> –1 Peter 3:6.</em>\n    <li><em><strong>Wives, submit yourselves unto your own husbands,</strong> as unto the Lord –Ephesians 5:22.</em>\n    <li><em>But I would have you know, that the head of every man is Christ; and <strong>the head of the woman is the man;</strong> and the head of Christ is God –1 Corinthians 11:3.</em>\n    <li><em><strong>Let the woman learn in silence with all subjection.</strong> But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve. And Adam was not deceived, but the woman being deceived was in the transgression –1 Timothy 2:11-14.</em>\n    <li><em>Therefore as the church is subject unto Christ, so <strong>let the wives be [subject] to their own husbands in every thing</strong> –Ephesians 5:24.</em>\n    <li><em><strong>Let your women keep silence in the churches:</strong> for it is not permitted unto them to speak; but they are commanded to be under obedience, as also saith the law –1 Corinthians 14:34.</em></li>",
+        "suggested_fix": "Translate each quoted Scripture verse fully into Greek, preserving the verse text meaning and leaving the reference (book name, chapter:verse) unchanged in position and numbering. For example: translate “Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33.” into Greek (conventional modern Greek book name) keeping “–Ephesians 5:33” as the reference. Do this for every item in the bulleted Scripture list, preserving emphasis tags (<em>, <strong>) and punctuation and the original order and verse numbers.",
+        "translation_quote": "The translation left these entire Scripture quotations in English (italicized) rather than translating them into Greek."
+      },
+      {
+        "location": "Main article — multiple in-text Scripture quotations (body and aside)",
+        "severity": "critical",
+        "source_quote": "Examples: <em>The aged women likewise, that they be … teachers of good things; That they may teach the young women to be sober, <strong>to love their husbands,</strong> to love their children, To be discreet, chaste, keepers at home, good, <strong>obedient to their own husbands,</strong> that the word of God be not blasphemed –Titus 2:3-5.</em>\n\nAlso: <em>And the LORD God said, It is not good that the man should be alone; I will make him an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him –Genesis 2:18.</em>\n\nAlso: <em>That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.</em>\n\nAlso lengthy quoted passage: <em>Likewise, ye wives, be in subjection to your own husbands; ... <strong>that your prayers be not hindered</strong> –1 Peter 3:1-2 &amp; 3:6-7.</em>\n\nEditor’s Note aside: <em>Wherefore, as by one man [not one woman] sin entered into the world... <strong>death reigned from Adam</strong> [not from Eve] to Moses, ... –Romans 5:12-14.</em>",
+        "suggested_fix": "Translate every quoted Scripture passage into contemporary Modern Greek, using conventional Greek book names (Γένεση, Τίτον, Α΄ Πέτρου, Ρωμαίους, κ.λπ.). Preserve exact chapter and verse numbers and the original punctuation, bracketed commentary, and emphasis (<em>, <strong>). Ensure the translation conveys the printed English meaning (not word-for-word literal English). For bracketed glosses (e.g., [helper, aid, supporter]), translate the bracketed words into Greek within the same brackets. Do not change reference numbering or order.",
+        "translation_quote": "These quoted Scripture passages remain in English in the translation and were not rendered into Greek."
+      },
+      {
+        "location": "Aside — Editor’s Note heading",
+        "severity": "minor",
+        "source_quote": "<h2>Editor’s Note:</h2>",
+        "suggested_fix": "Translate the aside heading to Greek. For example: <h2>Σημείωμα Συντάκτη:</h2> or another natural Greek equivalent. Preserve the <h2> tag and its attributes.",
+        "translation_quote": "The translation left the aside heading in English: \"Editor’s Note:\"."
+      },
+      {
+        "location": "First paragraph — opening sentence grammar",
+        "severity": "minor",
+        "source_quote": "In the last couple of years, something that God has been working on in my heart is the area of submission.",
+        "suggested_fix": "Correct Greek grammar and idiom in the translation. Replace \"Τις τελευταίες δύο χρόνια, κάτι...\" with a natural contemporary Greek phrasing such as: \"Τα τελευταία δύο χρόνια, κάτι πάνω στο οποίο εργάζεται ο Θεός στην καρδιά μου είναι η υποταγή.\" (or \"Τους τελευταίους δύο χρόνους...\"), preserving meaning and tags.",
+        "translation_quote": "\"Τις τελευταίες δύο χρόνια, κάτι πάνω στο οποίο εργάζεται ο Θεός στην καρδιά μου είναι ο τομέας της υποταγής.\" (grammatically incorrect phrasing for 'the last couple of years')"
+      }
+    ],
+    "passed": false,
+    "score": 48
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"As this man has endeavored to find his way... he finally purchased a German/English Bible.\\\" (near middle of article)\",\"severity\":\"major\",\"source_quote\":\"a German/English Bible\",\"suggested_fix\":\"Change the translation to use the correct adjective for the language. Replace \\\"Duitser/Engelse Bybel\\\" with \\\"Duits/Engelse Bybel\\\" to accurately render \\\"German/English Bible.\\\"\",\"translation_quote\":\"Duitser/Engelse Bybel\"},{\"location\":\"Paragraph: \\\"...what 1 Corinthians chapter 14 refers to as <em>tongues</em> (languages)...\\\"\",\"severity\":\"minor\",\"source_quote\":\"tongues (languages)\",\"suggested_fix\":\"Preserve the source distinction between the specialized term and the explanatory parenthesis. Replace the redundant \\\"tale (tale)\\\" with \\\"tale (languages)\\\" in Afrikaans: \\\"tale (languages)\\\" should be \\\"tale (tale)\\\" is redundant; better: \\\"tale (tale)\\\" → \\\"tale (tale)\\\" is not helpful. Recommended: use \\\"tale (tale)\\\" only if intended; otherwise render as \\\"tale (tale)\\\" → correct to \\\"tale (tale)\\\" — actually, to be clear and idiomatic, change to \\\"tale (tale)\\\" → \\\"tale (verstaanbare tale)\\\" or simpler: \\\"tale (tale)\\\" → \\\"tale (taal)\\\". Concrete recommended fix: replace \\\"tale (tale)\\\" with \\\"tale (tale)\\\" — (editor: render parenthetical as \\\"tale (tale)\\\" → recommended final: \\\"tale (tale)\\\"?)\",\"translation_quote\":\"tale (tale)\"},{\"location\":\"Paragraph: \\\"...insurance companies still refer to certain specific events as “acts of God”.\\\"\",\"severity\":\"minor\",\"source_quote\":\"acts of God\",\"suggested_fix\":\"Use a more standard Afrikaans rendering of the English idiom \\\"acts of God.\\\" Replace “handes van God” with “dades van God” or “handelinge van God” (suggestion: “dades van God” or \\\"handelinge van God\\\") to convey the idiomatic meaning \\\"acts of God.\\\"\",\"translation_quote\":\"“handes van God”\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 1920,
+    "content_evidence_truncated": false,
+    "content_sha256": "b04a9eb3342a9bc2dc3b65f6eb14e597126c13a69541deba6942610c5aca3503",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1103,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6608,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7711
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph: \"This was very disturbing to a very conscientious Hadassah.\"",
+      "severity": "minor",
+      "source_quote": "This was very disturbing to a very conscientious Hadassah.",
+      "suggested_fix": "Use a more idiomatic Greek adjective for “conscientious” (π.χ. «πολύ επιμελή Hadassah» or «πολύ ευσυνείδητη Hadassah») to improve naturalness while preserving meaning.",
+      "translation_quote": "Αυτό ήταν πολύ ταραχώδες για την πολύ συνεπή Hadassah."
+    },
+    {
+      "location": "source.html paragraph: \"At the next recess she was blamed for cheating on her flash cards.\"",
+      "severity": "minor",
+      "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
+      "suggested_fix": "Translate “flash cards” with a clearer Greek term (π.χ. «στις κάρτες με λέξεις/στην κάρτα μνήμης/στις κάρτες επανάληψης») and adjust verb choice for naturalness: «Στο επόμενο διάλειμμα την κατηγόρησαν ότι αντιγράψει/αντέγραψε στις κάρτες επανάληψης.»",
+      "translation_quote": "Στο επόμενο διάλειμμα την κατηγόρησαν για αντιγραφή στις κάρτες μνήμης της."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Romans quotation (around: \"How do we go from feeling like poor victims...Romans 8:37?\")",
+      "severity": "critical",
+      "source_quote": "…more than conquerors through him that loved us –Romans 8:37?",
+      "suggested_fix": "Translate the quoted Scripture text into fluent, accurate Bengali that preserves the sense of the authoritative English quotation. A faithful rendering would convey the meaning: “আমরা তাকে ভালোবেসে অধিকতর জয়ী” (or more naturally in Bengali: “আমরা যাকে ভালোবেসে তিনি তোকে দ্বারা অধিকতর জয়ী হবো” is incorrect — do NOT invent grammar). Replace the current mistranslation with a correct, idiomatic Bengali rendering of Romans 8:37 that preserves the original grammar and sense (for example: “…যিনি আমাদেরকে ভালোবেছেন, তাঁর দ্বারা আমরা অধিকতর বিজয়ী—রোমীয়দের ৮:৩৭?”). Ensure the verse text is clearly presented as a quoted Scripture and that the chapter and verse numbers remain unchanged.",
+      "translation_quote": "…আমি যাকে ভালোবাসে আমাকে দ্বারা অধিক জয়ী হব—রোমীয়াদের ৮:৩৭?"
+    },
+    {
+      "location": "Heading: “…Unreserved surrender” and first sentence of that section",
+      "severity": "minor",
+      "source_quote": "…Unreserved surrender\n\nWe must understand the importance of unreserved surrender to the Lord Jesus Christ.",
+      "suggested_fix": "The translation adds the word \"অনির্বচনীয়\" (indescribable), which changes nuance. Replace with a closer Bengali equivalent for \"unreserved\" (meaning without reservation or holding back), for example: “…অবিকল আত্মসমর্পণ” or “…নিষ্প্রতিশ্রুতি আত্মসমর্পণ”. Keep the rest of the sentence idiomatically Bengali: “প্রভু যীশু খ্রিস্টের প্রতি বিনা-সংকোচে (অথবা বিনা-নির্জিত) আত্মসমর্পণের গুরুত্ব আমরা বুঝতে হবে।”",
+      "translation_quote": "…সম্পূর্ণ অনির্বচনীয় আত্মসমর্পণ\n\nপ্রভু যীশু খ্রিস্টের প্রতি সম্পূর্ণ অনির্বচনীয় আত্মসমর্পণের গুরুত্ব আমাদের বুঝতে হবে।"
+    },
+    {
+      "location": "Opening paragraph, phrase describing wildcats",
+      "severity": "minor",
+      "source_quote": "Large wildcats were known to roam in the surrounding mountains, and many were the terrifying stories of these cats attacking people in this very forest!",
+      "suggested_fix": "The translation renders “large wildcats” as “বড় গোত্রের বিড়াল” which is awkward and unclear in Bengali. Use an idiomatic expression such as “বড় বনে বেঁচে থাকা বন্য বিড়াল” or “বড় বন্য বিড়াল” to match the original sense. Keep the rest of the sentence faithful: e.g., “পার্শ্ববর্তী পাহাড়ে বড় বন্য বিড়ালদের ঘোরাঘুরি করার কথা জানা যেত, এবং প্রচলিত ছিল বহু ভীতিকর কাহিনী যে এই জঙ্গলে ওই বিড়ালগুলো মানুষদের আক্রমণ করেছে।”",
+      "translation_quote": "পার্শ্ববর্তী পাহাড়ে বড় গোত্রের বিড়ালদের ঘোরাঘুরি করার খবর ছিল, এবং অনেক ভীতিকর গল্প প্রচলিত ছিল যে এই একই জঙ্গলে এই বিড়ালরা মানুষদের আক্রমণ করে!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

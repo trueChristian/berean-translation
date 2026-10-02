@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p> ... Wanneer ons aan onderwerping dink, wat kom by ons op? ... die realiteit is dat as ons mans foute maak, dit reg is omdat ons self ook foute maak. Ook, as ons wedergebore is, en ons met God wandel, ... die Skrifte leer dat as ons man nie in sy plek is nie, dan deur die vrou wat wandel volgens die duidelike onderrig ... die man deur haar gesprek (of deur die manier waarop sy haar lewe voer) gewen kan word.</p>\",\"severity\":\"major\",\"source_quote\":\"\\\"if we don’t allow our husbands to lead out and make decisions, we are only crippling them.\\\"\",\"suggested_fix\":\"Replace the mistranslation that renders \\\"crippling\\\" as \\\"verkrag\\\" (which means \\\"to rape\\\") with an appropriate Afrikaans equivalent that preserves the original meaning. For example, change the phrase \\\"ons net hulle verkrag\\\" to \\\"ons net hulle verlam\\\" or \\\"ons maak hulle magteloos\\\". Concretely, in the paragraph HTML, replace: \\\"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, ons net hulle verkrag.\\\" with \\\"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, maak ons hulle net magteloos.\\\"\",\"translation_quote\":\"\\\"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, ons net hulle verkrag.\\\"\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 1318,
+    "content_evidence_truncated": false,
+    "content_sha256": "ed8d6ddaaf39793beb8f538035431cc7b2fa00d5bb6e92316e1606f9b5631e38",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10077,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11511
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

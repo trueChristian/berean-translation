@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html — quoted Scripture in opening paragraph (Mark 4:37-41)",
+      "severity": "minor",
+      "source_quote": "And there arose a great storm of wind, and the waves beat into the ship, so that it was now full. And he was in the hinder part of the ship, asleep on a pillow: and they awake him, and say unto him, Master, carest thou not that we perish? And he arose, and rebuked the wind, and said unto the sea, Peace, be still. ... Mark 4:37-41",
+      "suggested_fix": "The quoted Bible text has been translated into Dutch, which is correct, but the target-language rendering capitalises the second-person pronouns addressing Christ (e.g., “Jij”, “U”) repeatedly. Dutch usage for addressing Jesus in Bible quotations is normally not capitalized. Revise pronoun capitalization for natural contemporary Dutch (e.g., “meester, bekommer jij je er niet om...”, “wees niet bevreesd, Paulus…”) while preserving the quoted sense and verse reference.",
+      "translation_quote": "En Hij lag achterin in het schip, op een kussen te slapen; en zij wekten Hem en zeiden tot Hem: Meester, bekommer Jij U er niet om dat wij vergaan? ... Marcus 4:37-41"
+    },
+    {
+      "location": "source.html — paragraph about physiological response (central medulla gland)",
+      "severity": "minor",
+      "source_quote": "Our central medulla gland unleashes a powerful hormone called adrenaline into our system, our muscles become tense, our mind focuses, so that we are aroused and prepared for fight or flight.",
+      "suggested_fix": "The translated phrase “centrale medullagland (medulla)” is not idiomatic Dutch and uses a nonstandard compound. Use a standard Dutch anatomical term (for example: “de medulla” or more specifically “de bijniermerg” if the author intended adrenaline release site) and remove the awkward parenthetical. Example: “Onze medulla (of: het bijniermerg) geeft het hormoon adrenaline af aan ons systeem...”",
+      "translation_quote": "Onze centrale medullagland (medulla) stoot een krachtig hormoon uit dat adrenaline heet in ons systeem, onze spieren spannen zich aan, onze geest focust, zodat wij opgewonden en gereed zijn voor vechten of vluchten."
+    },
+    {
+      "location": "source.html — Acts 27:14 reference (Euroclydon)",
+      "severity": "minor",
+      "source_quote": "…a tempestuous wind, called Euroclydon –Acts 27:14.",
+      "suggested_fix": "The original spelled the wind name “Euroclydon.” The Dutch translation uses “Euroklydon.” Use the conventional transliteration used in Dutch Bibles or retain the source spelling if that is the authoritative article's choice. Suggest using “Euroclydon” or the most common Dutch Bible form to avoid an unneeded orthographic change.",
+      "translation_quote": "…een stormachtige wind, genaamd Euroklydon – Handelingen 27:14."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

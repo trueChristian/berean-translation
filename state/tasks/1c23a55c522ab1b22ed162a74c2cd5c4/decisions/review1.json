@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Hebreerne 11:1 (source.html block: \"In Hebrews 11 we read that <em>…faith is the substance of things hoped for, the evidence of things not seen –Hebrews 11:1.</em>\")",
+      "severity": "major",
+      "source_quote": "“…faith is the substance of things hoped for, the evidence of things not seen –Hebrews 11:1.”",
+      "suggested_fix": "Replace the translated em-tagged sentence with a faithful Norwegian rendering that preserves the sense of the English as printed. For example: <em>…troen er realiteten av det som er håpet på, selve beviset for det som ikke sees –Hebreerne 11:1.</em> Preserve the existing HTML tags and citation punctuation exactly.",
+      "translation_quote": "<em>…tro er tingenes håp, sikkerhet for det som er håpet, visshet om ting som ikke sees –Hebreerne 11:1.</em> (current translation) "
+    },
+    {
+      "location": "Paragraph: “Kanskje det er bevis for at vår tro er enda <em>mindre</em> enn Peters «lille tro» og <em>tinjere</em> enn det lille sennepsfrøet?!”",
+      "severity": "minor",
+      "source_quote": "\"Perhaps it is evidence that our faith is <em>littler</em> than Peter’s “little faith” and <em>tinier</em> than the tiny grain of mustard seed?!\"",
+      "suggested_fix": "Correct the apparent typographical/word-choice error. Replace \"tinjere\" with a correct Norwegian rendering such as \"enda mindre\" or \"mer enn smått\". For example: \"...enda <em>mindre</em> enn Peters «lille tro» og <em>enda mindre</em> enn det lille sennepsfrøet?!\" Preserve the surrounding punctuation and HTML tags.",
+      "translation_quote": "\"...enda <em>mindre</em> enn Peters «lille tro» og <em>tinjere</em> enn det lille sennepsfrøet?!\" (current translation) "
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

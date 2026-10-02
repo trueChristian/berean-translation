@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p><h3>2. Lascialo andare</h3><p> first paragraph",
+      "severity": "minor",
+      "source_quote": "What’s the quickest way to get rid of something you no longer want? Give it away! That’s exactly what we must do with those painful burdens we sometimes find ourselves carrying. Give them to God. (1 Peter 5:6,7)",
+      "suggested_fix": "Correct the corrupted verb phrase so the sentence clearly says to give the burdens to God. Replace “Dallì a Dio. (1 Pietro 5:6,7)” with “Dallo a Dio. (1 Pietro 5:6,7)” to reflect ‘Give them to God.’ Preserve surrounding HTML and punctuation.",
+      "translation_quote": "Dallì a Dio. (1 Pietro 5:6,7)"
+    },
+    {
+      "location": "<p><h2>…Avanza</h2><p> first paragraph",
+      "severity": "minor",
+      "source_quote": "When we experience difficulties there are always things we can learn. We learn the importance of complete dependence on and unconditional surrender to the Lord. We experience, at a personal level, the comfort of God and we are called to reach out to other troubled souls with this comfort. (2 Corinthians 1:1-7)",
+      "suggested_fix": "Fix the verb/person agreement so the Italian uses the first-person plural to match the source. Replace “Sperimenti, a livello personale, il conforto di Dio e siamo chiamati a tendere la mano ad altre anime travagliate con questo conforto.” with “Esperimentiamo, a livello personale, il conforto di Dio, e siamo chiamati a tendere la mano ad altre anime travagliate con questo conforto.” Preserve HTML and punctuation.",
+      "translation_quote": "Sperimenti, a livello personale, il conforto di Dio e siamo chiamati a tendere la mano ad altre anime travagliate con questo conforto. (2 Corinzi 1:1-7)"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 6212
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1727,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5734,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7461
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<article> poem stanzas",
+      "severity": "critical",
+      "source_quote": "<p class=\"poem\">Abide with me: fast falls the eventide;<br>\n    The darkness deepens; Lord, with me abide:<br>\n    when other helpers fail, and comforts flee,<br>\n    Help of the helpless, O abide with me.</p>\n  <p class=\"poem\">Swift to its close ebbs out life’s little day;<br>\n    Earth’s joys grow dim, its glories pass away;<br>\n    Change and decay in all around I see;<br>\n    O Thou who changest not, abide with me.</p>\n  <p class=\"poem\">... (all eight English stanzas)</p>",
+      "suggested_fix": "Translate the eight hymn stanzas into Korean and replace the entire <p class=\"poem\">...</p> blocks with Korean-language stanzas while preserving the existing HTML structure and line breaks (<br> tags). For example, replace the first stanza block with a Korean rendering that faithfully conveys the printed English meaning (keeping the stanza structure and <p class=\"poem\"> ... </p> wrapper and internal <br> tags). Do not leave the original English text in the translated article.",
+      "translation_quote": "<p class=\"poem\">Abide with me: fast falls the eventide;<br>\n    The darkness deepens; Lord, with me abide:<br>\n    when other helpers fail, and comforts flee,<br>\n    Help of the helpless, O abide with me.</p>\n  <p class=\"poem\">Swift to its close ebbs out life’s little day;<br>\n    Earth’s joys grow dim, its glories pass away;<br>\n    Change and decay in all around I see;<br>\n    O Thou who changest not, abide with me.</p>\n  <p class=\"poem\">... (all eight English stanzas)</p>"
+    },
+    {
+      "location": "<article> Luke 24:28-29 reference (paragraph with Emmaus scene)",
+      "severity": "major",
+      "source_quote": "…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.",
+      "suggested_fix": "Translate the book name to the conventional Korean form and format the verse reference in Korean. For example: replace the English citation suffix \"- Luke 24:28-29.\" with the Korean \"— 누가복음 24:28-29.\" Keep the surrounding emphasis/italics (<em>…</em>) and punctuation as in the source HTML.",
+      "translation_quote": "<em>…자기가 더 가려 하는 것같이 하시니 제자들이 권하여 이르되, 우리와 함께 유하소서 이는 저녁이 가까워 날이 저물었음이니이다 하니 그가 들어가 그들과 함께 유하더라 - Luke 24:28-29.</em>"
+    },
+    {
+      "location": "<article> References block at end",
+      "severity": "major",
+      "source_quote": "References:\n    <em>101 Hymn Stories,\n    Treasury of Hymn Stories\n    Author- Henry Francis Lyte, 1793-1847\n    Composer- William Henry Monk, 1823-1889\n    Tune Name - “Eventide”</em>",
+      "suggested_fix": "Translate the reference block into Korean, including the labels (References, Author, Composer, Tune Name) and translate or render titles in conventional Korean. Preserve the <p> and <em> tags and line breaks. For example: \"참고문헌:\" for \"References:\" and \"저자 - 헨리 프랜시스 라이트, 1793–1847\" etc. If the work titles are commonly cited in English, you may keep the original title but also provide a Korean rendering; do not leave the entire block only in English.",
+      "translation_quote": "References:<br>\n    <em>101 Hymn Stories,<br>\n    Treasury of Hymn Stories<br>\n    Author- Henry Francis Lyte, 1793-1847<br>\n    Composer- William Henry Monk, 1823-1889<br>\n    Tune Name - “Eventide”</em>"
+    },
+    {
+      "location": "<article> early mention of hymn title and parenthetical English hymn name (‘Jesus, I My Cross Have Taken’)",
+      "severity": "minor",
+      "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "The translation already supplies a Korean rendering of the hymn title but leaves the original English in parentheses. Either remove the English parenthetical or present the Korean title followed by the English in parentheses only if the publication style requires it. Ensure the quoted hymn title appears translated into Korean as substantive quoted prose. Preserve existing HTML and punctuation.",
+      "translation_quote": "그 임종자의 병상에서 하나님을 만난 것이 라이트가 ‘예수여, 나의 십자가를 지고 가오리’(“Jesus, I My Cross Have Taken”)라는 숭고한 찬송을 쓰게 된 계기였다고 전해진다."
+    }
+  ],
   "id": "6fd909a2f625da7b1d9214307c11d012",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "kor",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

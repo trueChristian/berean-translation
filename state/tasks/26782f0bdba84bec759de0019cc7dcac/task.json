@@ -2,7 +2,6 @@
   "article_id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 10176
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 964,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9965,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10929
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — Scripture list, Ephesians 5:33 line",
+      "severity": "major",
+      "source_quote": "Nevertheless let … the wife see that she <strong>reverence her husband</strong> –Ephesians 5:33.",
+      "suggested_fix": "Replace the French word that implies 'fear' with a faithful rendering of 'reverence' (respect/revere). For example: « Néanmoins que… la femme voie qu’elle <strong>révère/ respecte son mari</strong> – Éphésiens 5:33. » Preserve tags and verse punctuation exactly as in source.",
+      "translation_quote": "Néanmoins que… la femme voie qu’elle <strong>craigne son mari</strong> – Éphésiens 5:33."
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Understanding Submission",
+      "suggested_fix": "Translate the English title into French while preserving it as the article title. For example: \"Comprendre la soumission\". Do not alter HTML structure—only replace the text content of the title field.",
+      "translation_quote": "Understanding Submission"
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "Sister to Sister",
+      "suggested_fix": "Translate the section name into French (internationally intelligible). For example: \"Sœur à sœur\" or \"Soeur à soeur\" depending on site style. Replace the English section string with the French equivalent.",
+      "translation_quote": "Sister to Sister"
+    }
+  ],
   "id": "26782f0bdba84bec759de0019cc7dcac",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "fra",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1454fe6f465ec8ce9c2352c00a7a3b7b44c43055b67862782f9e04898d1cd850.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

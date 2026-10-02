@@ -2,7 +2,6 @@
   "article_id": "3feab4dd-c830-4ead-ad57-24d853847088",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 9648
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1218,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9373,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10591
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph: near execution speech (\"Vollmar... Hans ... said: 'I do not know what more I should say ... that they might be saved; this I would wish for everyone.'\")",
+      "severity": "critical",
+      "source_quote": "“I do not know what more I should say than that I wish everyone would come to a knowledge of their sins and repent, that they might be saved; this I would wish for everyone.”",
+      "suggested_fix": "Translate the clause to convey that Hans wished people to be saved (gered), not lost. Replace the translated sentence inside the same paragraph and HTML structure with an accurate Afrikaans rendering. Suggested replacement in Afrikaans (preserve quotes and punctuation): “Ek weet nie wat meer ek sou sê as dat ek wens dat almal tot die kennis van hul sondes sal kom en sal bekeer, sodat hulle gered mag word; dit wens ek vir almal.”",
+      "translation_quote": "“Ek weet nie wat meer ek sou sê as dat ek wens dat almal die kennis van hul sondes sal kom en bekeer sal word, sodat hulle verlore sal word; dit sal ek vir almal wens.”"
+    },
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "Hans Landis",
+      "suggested_fix": "No change required to title text, but check orthography and diacritics. The translation title matches the source exactly; keep as-is.",
+      "translation_quote": "Hans Landis"
+    },
+    {
+      "location": "source.html multiple occurrences (words for clergy)",
+      "severity": "minor",
+      "source_quote": "clergy",
+      "suggested_fix": "Correct typographic/encoding errors in the translation where \"geeste1ikes\" appears. Replace with the correct Afrikaans word \"geestelikes\" in both occurrences, preserving surrounding HTML and tags.",
+      "translation_quote": "geeste1ikes"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "CHURCH HISTORY",
+      "suggested_fix": "Section translated as \"KERKGESKIEDENIS\" which is appropriate. No change required.",
+      "translation_quote": "KERKGESKIEDENIS"
+    },
+    {
+      "location": "source.html figure alt text",
+      "severity": "minor",
+      "source_quote": "A close-up of sharp thorns on weathered branches",
+      "suggested_fix": "Fully translate the alt text into idiomatic Afrikaans and remove or lowercase the English loanword if desired. Suggested alt text preserving HTML attribute: alt=\"’n close-up van skerp dorings op verweerde takkies\" or alt=\"’n klembeeld van skerp dorings op verweerde takkies\". Keep it inside the same <img> tag and attribute.",
+      "translation_quote": "’n Close-up van skerp dorings op verweerde takkies"
+    }
+  ],
   "id": "02f910a08088d662279c04dceee613b4",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "afr",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/71da96b1e9fc7ad8418f514e41f429009d9b72f0f1b0b1b636d343ab0a681930.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

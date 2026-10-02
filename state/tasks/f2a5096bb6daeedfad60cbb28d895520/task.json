@@ -2,7 +2,6 @@
   "article_id": "55b18915-e213-448c-8fe1-d430e195e768",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 9561
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1648,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9210,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10858
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — paragraph containing Matthew 14:22 quote (line with «…straightway Jesus constrained his disciples to get into a ship…»).",
+      "severity": "major",
+      "source_quote": "“…straightway Jesus constrained his disciples to get into a ship, and to go before him unto the other side, while he sent the multitudes away –Matthew 14:22.”",
+      "suggested_fix": "Replace the mistranslation that implies 'suffocated' with a verb that conveys the sense 'compelled/urged/encouraged' in contemporary Modern Greek. For example: «…αμέσως ο Ιησούς παρότρυνε/ώθησε τους μαθητές του να επιβιβαστούν στο πλοίο και να περάσουν στην άλλη όχθη, ενώ έδιωξε τα πλήθη –Ματθαίος 14:22.» Preserve the existing HTML and the placement of the emphasized text.",
+      "translation_quote": "«…αμέσως τότε ο Ιησούς απέπνιξε τους μαθητάς του να εισέλθουν εις το πλοίον, και να προπορεύωνται αυτού εις την άλλην όχθην, ενώ αυτός απέλυσεν τους όχλους –Ματθαίος 14:22.»"
+    },
+    {
+      "location": "overall — many quotations and narrative sentences (style and diction throughout translation).",
+      "severity": "major",
+      "source_quote": "(general) Original article uses contemporary English prose. Example opening sentence: “Men who follow Jesus are men of faith. Discipleship is not for cowards or the faint of heart, nor is it for those who demand a rationale for acts of obedience.”",
+      "suggested_fix": "Revise the translation to use contemporary Modern Greek vocabulary and idioms instead of many archaisms/Koine-like forms (e.g., 'εν τη τετάρτη αγρυπνία', 'απέπνιξε', 'εταράχθησαν', 'προπορεύωνται', 'εστερεί', etc.). Use modern equivalents and natural syntax throughout. Examples of specific replacements (preserve HTML tags and verse citations):\n- «Και εν τη τετάρτη αγρυπνία της νύχτας ήλθεν…» → «Κατά το τέταρτο τρίωρο της νύχτας ή κατά τις πρώτες πρωινές ώρες ήρθε…» or simply «Κατά το τέταρτο τμήμα της νύχτας ήρθε…»\n- «εταράχθησαν, λέγοντες, Εστίν πνεύμα·» → «ταράχτηκαν και είπαν: ‘Είναι πνεύμα’»\n- Narrative sentence: «Οι άνδρες που ακολουθούν τον Ιησού είναι άνδρες πίστεως.» → «Οι άντρες που ακολουθούν τον Ιησού είναι άντρες πίστης.» or more natural: «Οι άνδρες που ακολουθούν τον Ιησού χαρακτηρίζονται από πίστη.»\n- Use modern personal pronoun and contraction norms (e.g., «σ' Αυτόν» or «σε Αυτόν» instead of «σ\" Αυτόν») and modern verb forms (π.χ. «έλεγε» instead of «ελάλησεν» in narrative if author tone allows).\nApply these modernizations consistently in all paragraphs and in all scripture quotations only to the extent of using standard modern Greek translations of the quoted phrases that remain faithful to the original printed English theology and wording.",
+      "translation_quote": "(several examples) «Και εν τη τετάρτη αγρυπνία της νυκτός ήλθεν προς αυτούς ο Ιησούς, περπατών επί της θαλάσσης. Και ότε οι μαθηταί τον είδαν περιπατούντα επί της θαλάσσης, εταράχθησαν, λέγοντες, Εστίν πνεύμα· και εκραύγασαν από φόβου. Αλλά αμέσως ο Ιησούς ελάλησεν προς αυτούς, λέγων, Θαρρήσατε· εγώ ειμί· μη φοβεῖσθε –Ματθαίος 14:25-27.»"
+    }
+  ],
   "id": "f2a5096bb6daeedfad60cbb28d895520",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ell",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 69,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/47641161e24a4c36535a9aad69db399a5b74987fc191a5346da200439748cac7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

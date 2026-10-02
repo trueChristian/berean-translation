@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>...In the gathering darkness Beto watched as, not thirty paces before him, the dreaded beast...</p>",
+      "severity": "major",
+      "source_quote": "In the gathering darkness Beto watched as, not thirty paces before him, the dreaded beast he so tremendously feared crept out of the bushes and turned to face him!",
+      "suggested_fix": "Preserve the original measure phrase as an equivalent expression in Kiswahili that conveys 'thirty paces' rather than converting it to metres. For example: \"...katika giza lililoanza kupanuka Beto alitazama jinsi, si umbali wa hatua thelathini mbele yake, mnyama aliokuwa anamtisha kabisa alivyotoka kwenye vichaka na kugeuka kumkabili!\" Replace the current sentence inside the same <p> element with this wording.",
+      "translation_quote": "Katika giza lililoanza kupanuka Beto alitazama jinsi, si umbali wa mita thelathini mbele yake, mnyama aliokuwa anamtisha kabisa alivyotoka kwenye vichaka na kugeuka kumkabili!"
+    },
+    {
+      "location": "First paragraph, opening sentence",
+      "severity": "minor",
+      "source_quote": "Glancing up at the sun, Beto (a made-up name) quickened his already hurried pace as he approached the forest.",
+      "suggested_fix": "Improve idiomatic clarity while preserving meaning. Suggested revision inside the same <p class=\"drop-cap\"> element: \"Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) aliongeza kasi ya hatua zake ambazo tayari zilikuwa haraka alipoelekea msituni.\"",
+      "translation_quote": "Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) alikazia hatua zake ambazo zilikuwa zimemkimbiza tayari alipoelekea msituni."
+    },
+    {
+      "location": "<p>...he tripped on a vine and sprawled helplessly onto the ground.</p>",
+      "severity": "minor",
+      "source_quote": "Suddenly, not being able to see the path clearly in the darkness of the forest, Beto tripped on a vine and sprawled helplessly onto the ground.",
+      "suggested_fix": "The current translation \"Beto aligotwa kwenye mtende na akatanguliwa chini, bubu kabisa\" is unclear/unnatural in Kiswahili. Suggested clearer rendering inside the same <p> element: \"Ghafla, kwa sababu hakuweza kuona njia vizuri gizani, Beto aligotwa na mzizi/kiuno cha mnyororo wa mmea na akatumbukia chini, bila msaada.\" Choose \"mzizi\" or \"mnyororo wa mmea\" according to preferred idiom.",
+      "translation_quote": "Ghafla, bila kuweza kuona njia kwa uwazi katika giza la msitu, Beto aligotwa kwenye mtende na akatanguliwa chini, bubu kabisa."
+    },
+    {
+      "location": "Title and section metadata",
+      "severity": "minor",
+      "source_quote": "title: \"When You Feel Like Giving Up\"; section: \"Inspirations for Youth\"",
+      "suggested_fix": "The translated title and section are acceptable but consider a slightly more natural Kiswahili title. Current translation: \"Unapo Jihisi Kutaka Kukata Tamaa\" and section \"Mafundisho kwa Vijana\" are fine; no mandatory change required. If desired: title revision to \"Unapojihisi Kutaka Kukata Tamaa\".",
+      "translation_quote": "title: \"Unapo Jihisi Kutaka Kukata Tamaa\"; section: \"Mafundisho kwa Vijana\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

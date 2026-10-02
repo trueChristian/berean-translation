@@ -2,7 +2,6 @@
   "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 8464
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1268,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8189,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9457
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph: “Cancer nämns inte i Bibeln, även om det är möjligt att Ezekias ”svulst” kunde ha varit någon form av cancerös tillväxt.”",
+      "severity": "minor",
+      "source_quote": "Cancer is not mentioned in the Bible, although it is possible that Hezekiah’s “boil” could have been some kind of cancerous growth.",
+      "suggested_fix": "Use the conventional Swedish Bible name for Hezekiah (e.g. “Hiskia” or “Esekias”) to match expected target-language usage for a biblical person-name. Example fix (preserve tags and punctuation): Cancer nämns inte i Bibeln, även om det är möjligt att Hiskias ”svulst” kunde ha varit någon form av cancerös tillväxt.",
+      "translation_quote": "Cancer nämns inte i Bibeln, även om det är möjligt att Ezekias ”svulst” kunde ha varit någon form av cancerös tillväxt."
+    },
+    {
+      "location": "Paragraph: “Det finns många andra faktorer som är förknippade med ökningar av cancer. Exponering för ultraviolett ljus ökar risken för hudcancer och är en stor anledning till att läkare rekommenderar solskyddsmedel och skyddande kläder vid solbad för att begränsa UV-exponering.” and Paragraph: “Slutligen finns det många kemikalier i olika arbeten som kan öka cancer risken.”",
+      "severity": "minor",
+      "source_quote": "There are plenty of other things that are associated with increases in cancers. Exposure to ultraviolet light increases the risk of skin cancer ... Finally, there are plenty of chemicals that are present in different types of work that can increase the risk of cancer.",
+      "suggested_fix": "Fix minor target-language spacing/compound-word issues to follow standard Swedish orthography (combine compounds). For example, change “öka cancer risken” to “öka cancerrisken”. Also consider using the established compound spelling “basalcellscancer” elsewhere (see other finding) for consistency. (Preserve surrounding HTML.)",
+      "translation_quote": "Slutligen finns det många kemikalier i olika arbeten som kan öka cancer risken."
+    },
+    {
+      "location": "Paragraph: “Istället klassificerar de dessa cancerformer som basalcells-cancer, skivepitelcancer och melanom—var och en avser en annan sorts hudcell.”",
+      "severity": "minor",
+      "source_quote": "Instead, they classify these cancers into basal cell carcinoma, squamous cell carcinoma, and melanoma—each one referring to a different kind of skin cell.",
+      "suggested_fix": "Use the standard Swedish compound spelling for basal cell carcinoma: “basalcellscancer” (no hyphen), and consider also using the standard compound form for “skivepitelcancer” (already correct). Example replacement: Istället klassificerar de dessa cancerformer som basalcellscancer, skivepitelcancer och melanom—var och en avser en annan sorts hudcell.",
+      "translation_quote": "Istället klassificerar de dessa cancerformer som basalcells-cancer, skivepitelcancer och melanom—var och en avser en annan sorts hudcell."
+    }
+  ],
+  "finished_at": "2026-10-02T12:49:34+00:00",
   "id": "928269514a041bc867931f6a5688838b",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swe",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

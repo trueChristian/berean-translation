@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "When You Feel Like Giving Up",
+      "suggested_fix": "Translate the article title into Bahasa Indonesia. A suitable rendering preserving the author's tone and meaning is: \"Ketika Anda Merasa Ingin Menyerah\" (or alternatively \"Ketika Anda Ingin Menyerah\"). Replace the translation.title value with this Indonesian title.",
+      "translation_quote": "When You Feel Like Giving Up"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "Inspirations for Youth",
+      "suggested_fix": "Translate the section name into Bahasa Indonesia using a conventional idiom. A suitable rendering is: \"Inspirasi bagi Remaja\". Replace the translation.section value with this Indonesian section title.",
+      "translation_quote": "Inspirations for Youth"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

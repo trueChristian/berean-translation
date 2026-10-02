@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7bce643c-c4f5-43ac-a11c-fff8a69e7db6",
+    "response_id": "chatcmpl-EUWwV2dSzW06LdzyMH3zFZTbOYl9A",
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5771,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6434
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...We no longer need to worry about holding the offender captive. After all, he or she is not in bondage to us. We cannot choose whether or not they will be set free. Only the Lord has the power to set someone free.</p>",
+        "severity": "major",
+        "source_quote": "After all, he or she is not in bondage to us.",
+        "suggested_fix": "Render the intended meaning of \"not in bondage to us\" (i.e., not held captive or enslaved by us) rather than implying financial indebtedness. Replace the Portuguese phrase \"ele ou ela não está em dívida conosco\" with a phrase conveying lack of captivity, for example: \"afinal, ele ou ela não está em cativeiro por nossa causa\" or \"afinal, ele ou ela não está sob o nosso domínio\".",
+        "translation_quote": "Afinal, ele ou ela não está em dívida conosco."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

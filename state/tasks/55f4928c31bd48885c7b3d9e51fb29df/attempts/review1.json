@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...At the next recess she was blamed for cheating on her flash cards...</p> (paragraph about being blamed at recess)\",\"severity\":\"major\",\"source_quote\":\"At the next recess she was blamed for cheating on her flash cards.\",\"suggested_fix\":\"Translate the accusation as cheating (bedrieg) rather than using a verb meaning bullying. Example: \\\"By die volgende pouse is sy beskuldig dat sy met haar flitskaartjies bedrog gepleeg het.\\\" Preserve HTML structure and replace only the sentence’s Afrikaans text.\",\"translation_quote\":\"By die volgende pouse is sy beskuldig van afknou by haar flitskaartjies.\"},{\"location\":\"<p>...Esther had cystic fibrosis and in the 1970s... </p> (paragraph describing Esther's illness)\",\"severity\":\"minor\",\"source_quote\":\"Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now...\",\"suggested_fix\":\"Use the standard Afrikaans medical term for 'cystic fibrosis' to avoid ambiguity. Suggested wording: \\\"Esther het sistosfibrose gehad\\\" or \\\"Esther het sisteuse fibrose (cystiese fibrose) gehad.\\\" Replace only the disease term in the existing sentence.\",\"translation_quote\":\"Esther het fibrose gehad en in die 1970’s het hulle nie soveel behandelingsopsies vir daardie siekte gehad as wat daar nou is nie, so daardie pasiënte is gewoonlik baie jonk oorlede.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1419,
+    "content_evidence_truncated": false,
+    "content_sha256": "a6bad59cbcf751f309dc9971087f62cf12868944e5c4a0ba2c2ce01d35e3036a",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 798,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4112
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

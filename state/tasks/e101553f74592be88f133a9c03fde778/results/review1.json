@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "587514c9-e903-4807-a262-c3067a2696bd",
+    "response_id": "chatcmpl-EUWx7nK96jlYcIrCpOYH1jymOpWBM",
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10051,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10800
+    }
+  },
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Galatians 5:22-23 (near top third of article)",
+        "severity": "minor",
+        "source_quote": "love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance… –Galatians 5:22-23",
+        "suggested_fix": "Correct the Indonesian rendering of the fruit list so each English item is represented once and in natural Indonesian phrasing. For example: “kasih, sukacita, damai sejahtera, kesabaran, kelemahlembutan, kebaikan, iman, kerendahan hati, penguasaan diri… –Galatia 5:22-23.” Preserve the existing HTML and punctuation around the emphasized quote.",
+        "translation_quote": "<em>kasih, sukacita, damai sejahtera, kesabaran, kelemahlembutan, kebaikan, iman, kelemahlembutan, penguasaan diri… –Galatia 5:22-23</em>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

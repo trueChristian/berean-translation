@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>…Эсфирь была очень мягкой, ласковой девочкой — в основном за это Хадасса её и помнила. У Эсфирь была кистозная фиброзная болезнь лёгких, и в 1970-х годах…</p>",
+      "severity": "minor",
+      "source_quote": "Esther was a very gentle, sweet girl… Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now…",
+      "suggested_fix": "Use the standard Russian medical term for the disease to match common usage and avoid awkward literal phrasing. Replace «кистозная фиброзная болезнь лёгких» with «муковисцидоз (кистозный фиброз)» or simply «кистозный фиброз». Keep the rest of the sentence unchanged and preserve HTML tags and punctuation.",
+      "translation_quote": "У Эсфирь была кистозная фиброзная болезнь лёгких, и в 1970-х годах не было стольких вариантов лечения, как сейчас…"
+    },
+    {
+      "location": "<p>…На следующем перемене её обвинили в шпаргалках с карточками. Многие другие выдуманные истории тоже распространялись среди девочек.</p>",
+      "severity": "minor",
+      "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
+      "suggested_fix": "Improve idiomatic rendering while preserving meaning. Replace «обвинили в шпаргалках с карточками» with «обвинили в списывании с карточек» or «обвинили в мошенничестве при занятиях с карточками (списывании)». Do not change surrounding HTML.",
+      "translation_quote": "На следующем перемене её обвинили в шпаргалках с карточками."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

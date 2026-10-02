@@ -2,7 +2,6 @@
   "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 9562
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1486,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9284,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10770
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>We know that before the flood, men lived to be very old—often into their 900s. Mutations must have been rare. Their DNA was closer to the original genetic specimen of mankind (and thus, to perfection) than ours is in the 21<sup>st</sup> century (AD) Therefore, the chance of genes mutating and abnormal genes popping up was much less than it is now.</p>",
+      "severity": "major",
+      "source_quote": "\"...than ours is in the 21st century (AD) Therefore, the chance of genes mutating...\"",
+      "suggested_fix": "Translate the parenthetical and surrounding phrase to convey the same era as the English. Replace the translator's wording that implies \"প্রাক্কালে\" (before the era) with wording meaning the Christian era / our current era. For example, use: \"...আমাদের ২১শ শতাব্দীর (খ্রিস্টীয় যুগে) তুলনায়...\" or simply \"...আমাদের ২১শ শতাব্দীর তুলনায়...\" to match the original meaning.",
+      "translation_quote": "\"...আমাদের ২১<sup>st</sup> শতকের (খ্রিস্টীয় প্রাক্কালে) তুলনায়.\""
+    },
+    {
+      "location": "<p>Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness –Isaiah 41:10.</p>",
+      "severity": "major",
+      "source_quote": "\"...I will uphold thee with the right hand of my righteousness –Isaiah 41:10.\"",
+      "suggested_fix": "The quoted Scripture must faithfully convey the authoritative English text's meaning in Bengali. The current Bengali rendering uses an unclear phrase \"সত্যর অঙ্গুলিমেয়’র দ্বারা\" which does not correspond clearly to \"the right hand of my righteousness.\" Re-translate the whole verse into natural, faithful Bengali reflecting the original sense. For example: \"ভয় করো না, কারণ আমি তোমার সঙ্গে আছি; হতাশ হও নে, কারণ আমি তোমার ঈশ্বর; আমি তোমাকে শক্ত দিব; নিশ্চয়ই তোমাকে সাহায্য করিব; আমি সত্য ও ধার্মিকতার ভারসাম্য রক্ষার জন্য আমার দক্ষ হাত দ্বারা তোমায় ধরিব – ইসাইয়া 41:10.\" (Preserve the verse number.)",
+      "translation_quote": "\"ভয় করিও না, কারণ আমি তোমার সঙ্গে আছি; বিচলিত হইও না, কারণ আমি তোমার ঈশ্বর; আমি তোমাকে শক্ত করিবো; নিশ্চয়ই তোমাকে সাহায্য করিবো; হ্যাঁ, সত্যর অঙ্গুলিমেয়’র দ্বারা তোমাকে সমর্থন করিবো—ইসাইয়া ৪১:১০।\""
+    },
+    {
+      "location": "<p>Epstein Barr virus, which causes infectious mononucleosis, has been associated with certain kinds of lymphoma.</p>",
+      "severity": "minor",
+      "source_quote": "\"Epstein Barr virus, which causes infectious mononucleosis, has been associated with certain kinds of lymphoma.\"",
+      "suggested_fix": "The parenthetical/clarifying phrase should accurately render \"infectious mononucleosis.\" The translation uses \"(কন্ঠরোগ)\" which literally means \"throat disease\" and could mislead. Replace with a more accurate Bengali rendering such as \"(ইনফেকশিয়াস মনোনিউক্লিওসিস)\" or a short descriptive phrase like \"(সংক্রামক মনোনিউক্লিওসিস, সাধারণত 'মনো' নামে পরিচিত)\".",
+      "translation_quote": "\"ইপস্টেইন বার ভাইরাস, যা ইনফেকশিয়াস মনোনিউক্লিওসিস (কন্ঠরোগ) সৃষ্টি করে, তা কিছু ধরণের লিম্ফোমার সাথে যুক্ত।\""
+    }
+  ],
   "id": "a6756bb7f657428dacd8cca598ba3089",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ben",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

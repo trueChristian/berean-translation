@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 6638
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 914,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6362,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7276
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "critical",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Translate the English title into Bahasa Indonesia and preserve capitalization style appropriate to site (e.g., \"Dari Pemimpin Redaksi\" or \"Dari Redaksi\"). Replace the translation.title value with that Indonesian phrase.",
+      "translation_quote": "From the Editor"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Translate the English section label into Bahasa Indonesia (e.g., \"DARI PEMIMPIN REDAKSI\" or \"DARI REDAKSI\"). Replace the translation.section value with that Indonesian phrase.",
+      "translation_quote": "FROM THE EDITOR"
+    },
+    {
+      "location": "source.html paragraph: \"...he discovered a book titled “The Holy Bible”.\" / translation.html corresponding paragraph",
+      "severity": "critical",
+      "source_quote": "\"The Holy Bible\"",
+      "suggested_fix": "Translate the quoted book title into Bahasa Indonesia consistent with the rest of the translation. Replace “The Holy Bible” with “Alkitab Suci” or simply “Alkitab” within the same quotes and preserve the HTML structure and punctuation.",
+      "translation_quote": "“The Holy Bible”"
+    }
+  ],
   "id": "46f1e6303aa41b7406ac4163dc2424be",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ind",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

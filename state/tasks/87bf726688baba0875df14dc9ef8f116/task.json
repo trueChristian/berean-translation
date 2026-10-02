@@ -2,7 +2,6 @@
   "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 8677
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2103,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8336,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10439
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>Ogni volta che le nostre cellule si dividono, copiano il loro DNA nelle cellule figlie. Di solito questo avviene senza errori, ma occasionalmente c’è un errore nel processo di copia. Chiediamo questi errori <em>mutazioni.</em></p>",
+      "severity": "major",
+      "source_quote": "Every time our cells divide, they copy their DNA into the daughter cells. Usually this happens without error, but occasionally there is an error in the copy process. We call these errors <em>mutations.</em>",
+      "suggested_fix": "Preserve author's meaning: replace the mistranslated word with the correct verb. Keep HTML intact.\nSuggested translation: <p>Ogni volta che le nostre cellule si dividono, copiano il loro DNA nelle cellule figlie. Di solito questo avviene senza errori, ma occasionalmente c’è un errore nel processo di copia. Chiamiamo questi errori <em>mutazioni.</em></p>",
+      "translation_quote": "Ogni volta che le nostre cellule si dividono, copiano il loro DNA nelle cellule figlie. Di solito questo avviene senza errori, ma occasionalmente c’è un errore nel processo di copia. Chiediamo questi errori <em>mutazioni.</em></p>"
+    },
+    {
+      "location": "<p>Sbadigliai. “Penso che stiamo facendo il meglio che possiamo,” gli dissi. “Abbiamo fatto molta strada nel trattamento del cancro, ma abbiamo ancora molta strada da fare.”</p>",
+      "severity": "major",
+      "source_quote": "I shook my head. “I think we are doing the best we can,” I told him. “We’ve come a long way when it comes to treatment of cancer, but we still have a long way to go.”",
+      "suggested_fix": "The English reads “I shook my head,” which means the author negated or expressed disagreement with a head-shake. The Italian currently reads “Sbadigliai” (I yawned), which changes the meaning. Replace with an Italian phrase that matches the original gesture. Keep HTML intact.\nSuggested translation: <p>Scossi il capo. “Penso che stiamo facendo il meglio che possiamo,” gli dissi. “Abbiamo fatto molta strada nel trattamento del cancro, ma abbiamo ancora molta strada da fare.”</p>",
+      "translation_quote": "Sbadigliai. “Penso che stiamo facendo il meglio che possiamo,” gli dissi. “Abbiamo fatto molta strada nel trattamento del cancro, ma abbiamo ancora molta strada da fare.”</p>"
+    },
+    {
+      "location": "<p>Un esempio di un cattivo test, sotto questo aspetto, è il CA-125. Il CA-125 è una sostanza chimica prodotta da alcuni tipi di tumore. Gli oncologi usano questo valore per monitorare la risposta di un paziente alla chemioterapia.</p>\n\n  <p>Sarebbe sensato poter usare questo marcatore come test di screening per quei tumori, ma semplicemente non funziona. Molte persone hanno livelli elevati di CA-125 anche se non hanno il cancro e, d’altra parte, molti tumori gastrointestinali non producono affatto questa sostanza chimica. Sottoporre molte persone al test del CA-125 porterà a più scansioni e biopsie, ma è dubbio che abbia un impatto significativo sui tassi di mortalità per cancro.</p>",
+      "severity": "major",
+      "source_quote": "An example of a bad test, in this respect, is the CEA-125. CEA-125 is a chemical that is made by some types of cancer. Oncologists use this level to track a patient’s response to chemotherapy.\n\nIt would make sense that you could use this as a screening test for these cancers, but it simply doesn’t work. Many people have elevated CEA levels, even though they don’t have cancer and on the other side, plenty of GI (gastrointestinal) cancers don’t make this chemical at all. Testing lots of people with CEA-125 testing will lead to more scans and biopsies, but it is doubtful if it would have a significant impact on death rates from cancer.",
+      "suggested_fix": "The Italian translation uses “CA-125” whereas the English source text explicitly uses “CEA-125.” This changes the factual marker named by the author and is therefore a substantive alteration. Restore the author’s exact marker identifier as presented in the source. Keep HTML intact.\nSuggested translation (both occurrences):\n<p>Un esempio di un cattivo test, sotto questo aspetto, è il CEA-125. Il CEA-125 è una sostanza chimica prodotta da alcuni tipi di tumore. Gli oncologi usano questo valore per monitorare la risposta di un paziente alla chemioterapia.</p>\n\n<p>Sarebbe sensato poter usare questo marcatore come test di screening per quei tumori, ma semplicemente non funziona. Molte persone hanno livelli elevati di CEA-125 anche se non hanno il cancro e, d’altra parte, molti tumori gastrointestinali non producono affatto questa sostanza chimica. Sottoporre molte persone al test del CEA-125 porterà a più scansioni e biopsie, ma è dubbio che abbia un impatto significativo sui tassi di mortalità per cancro.</p>",
+      "translation_quote": "Un esempio di un cattivo test, sotto questo aspetto, è il CA-125. Il CA-125 è una sostanza chimica prodotta da alcuni tipi di tumore. Gli oncologi usano questo valore per monitorare la risposta di un paziente alla chemioterapia.\n\nSarebbe sensato poter usare questo marcatore come test di screening per quei tumori, ma semplicemente non funziona. Molte persone hanno livelli elevati di CA-125 anche se non hanno il cancro e, d’altra parte, molti tumori gastrointestinali non producono affatto questa sostanza chimica. Sottoporre molte persone al test del CA-125 porterà a più scansioni e biopsie, ma è dubbio che abbia un impatto significativo sui tassi di mortalità per cancro.</p>"
+    }
+  ],
   "id": "87bf726688baba0875df14dc9ef8f116",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ita",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

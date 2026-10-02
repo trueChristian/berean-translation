@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>Les hommes qui suivent Jésus sont des hommes de foi. Le discipulat n'est pas pour les lâches ni pour les faible de cœur, ni pour ceux qui exigent une justification rationnelle pour des actes d'obéissance.",
+      "severity": "minor",
+      "source_quote": "...nor is it for those who demand a rationale for acts of obedience.",
+      "suggested_fix": "Corriger l'accord du pluriel dans la cible. Remplacer «les faible de cœur» par «les faibles de cœur». Conserver la casse et la ponctuation actuelles.",
+      "translation_quote": "...Le discipulat n'est pas pour les lâches ni pour les faible de cœur, ni pour ceux qui exigent une justification rationnelle pour des actes d'obéissance."
+    },
+    {
+      "location": "<p>Si tu veux être un homme de foi, ouvre ta Bible et prie. Demande à Dieu de révéler son plan pour ta vie. ...</p>\n  <p>Tu n'as pas besoin d'aller en mission étrangère pour faire l'expérience...",
+      "severity": "minor",
+      "source_quote": "Men of faith are men who follow Jesus... / You do not need to go into foreign missions to experience the power of God... (overall register in source is address to men; English uses second person generic; consistent register matters)",
+      "suggested_fix": "Uniformiser le registre d'adresse. Le texte alterne entre une narration générale sur «les hommes» et un tutoiement direct («Si tu veux...», «Tu n'as pas besoin...»). Choisir l'une des deux options selon le style du site (recommandé : conserver le tutoiement si l'édition française emploie ce ton). Si l'on préfère le tutoiement, aucun remplacement n'est strictement requis ; si l'on préfère un style plus impersonnel/collectif, remplacer les occurrences de «Si tu veux», «tu» et «Tu» par «Si vous voulez», «vous» et «Vous», et ajuster les accords et verbes concernés. Exemple concret : remplacer «Si tu veux être un homme de foi, ouvre ta Bible et prie.» par «Si vous voulez être un homme de foi, ouvrez votre Bible et priez.» Conserver la structure HTML existante.",
+      "translation_quote": "Si tu veux être un homme de foi, ouvre ta Bible et prie. ...\n\nTu n'as pas besoin d'aller en mission étrangère pour faire l'expérience de la puissance de Dieu déployée dans ta vie."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

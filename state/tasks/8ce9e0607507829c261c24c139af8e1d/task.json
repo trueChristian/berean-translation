@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 6026
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1103,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5751,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6854
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (sentence about vocation)",
+      "severity": "major",
+      "source_quote": "His primary goal with his studies was to become a physician, instead, by the providence of God, he became a minister of the gospel of Jesus Christ.",
+      "suggested_fix": "Translate the vocation phrase accurately and consistently. Replace the translation segment that reads “alihitimu kuwa kwa misionari wa injili ya Yesu Kristo” with a clear Swahili rendering preserving the original meaning (minister of the gospel), for example: “lengo lake kuu kwa masomo yake lilikuwa kuwa daktari; badala yake, kwa mashauri ya Mungu, aligeuka kuwa mchungaji wa injili ya Yesu Kristo.” Preserve HTML and surrounding sentence structure.",
+      "translation_quote": "Lengo lake kuu kwa masomo yake lilikuwa kuwa daktari; badala yake, kwa juu ya miujiza ya Mungu, alihitimu kuwa kwa misionari wa injili ya Yesu Kristo."
+    },
+    {
+      "location": "source.html — paragraph 3 (quotation about groping/blind guides)",
+      "severity": "major",
+      "source_quote": "“To their mutual grief, they found themselves [both] groping for the light, veritable blind guides”.",
+      "suggested_fix": "Restore the original metaphorical sense: they discovered themselves groping for light, like true blind guides. Replace the translation ““Kwa masikitiko yao pamoja, walikutana wakiwa [wote wawili] wakifuatilia mwanga, viongozi wa kweli wakiwa wagonjwa.”” with a faithful rendering such as: “’Kwa masikitiko yao pamoja, walijikuta [wote wawili] wakitafuna mwanga, kana kwamba walikuwa waongoza vipofu.’” Keep punctuation and quotation marks as in source HTML.",
+      "translation_quote": "“Kwa masikitiko yao pamoja, walikutana wakiwa [wote wawili] wakifuatilia mwanga, viongozi wa kweli wakiwa wagonjwa.”"
+    },
+    {
+      "location": "source.html — paragraph after poem (sentence about whom he gave the hymn)",
+      "severity": "major",
+      "source_quote": "This hymn he gave to one of the family members that very night.",
+      "suggested_fix": "Correct the identity from “wanajamii” (community members) to “mwanachama wa familia / mmoja wa wanafamilia” to match the English. For example: replace “Wimbo huu aliutoa kwa mmoja wa wanajamii usiku huo wenyewe.” with “Wimbo huu aliwapa mmoja wa wanafamilia usiku huo.” Preserve surrounding HTML tags and sentence placement.",
+      "translation_quote": "Wimbo huu aliutoa kwa mmoja wa wanajamii usiku huo mwenyewe."
+    }
+  ],
   "id": "8ce9e0607507829c261c24c139af8e1d",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swa",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

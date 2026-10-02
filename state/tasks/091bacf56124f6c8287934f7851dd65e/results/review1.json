@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "12986a59-3bef-4ced-9f55-fbc67d452f80",
+    "response_id": "chatcmpl-EUWwQN4iO3ujX7WlmskuyvnwTNGLt",
+    "usage": {
+      "completion_tokens": 1330,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7468,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8798
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote>…Matthew 14:28–29</blockquote> / title",
+        "severity": "minor",
+        "source_quote": "Men of Faith (title) — original title: \"Men of Faith\"",
+        "suggested_fix": "Preserve the original gendered sense. Replace the translated title text node with \"Män av tro\" (instead of the gender-neutral \"Människor av tro\"). Do not change HTML structure or tags.",
+        "translation_quote": "\"Människor av tro\" (title)"
+      },
+      {
+        "location": "<p>…Hebreerbrevet 11:1</p>",
+        "severity": "major",
+        "source_quote": "In Hebrews 11 we read that “…faith is the substance of things hoped for, the evidence of things not seen –Hebrews 11:1.”",
+        "suggested_fix": "Correct the quoted Scripture to a faithful Swedish rendering. Replace the current sentence text (inside the <p> that quotes Hebrews 11:1) with a natural, faithful translation such as: “<em>…tro är det som ger verklig livssubstans åt det vi hoppas på, visshet om ting som vi inte ser – Hebreerbrevet 11:1.</em>” (Preserve the <em> tags and spacing/punctuation exactly as in the source HTML.)",
+        "translation_quote": "\"<em>…tro är övertygelsen om det hoppade, en visshet om ting som man inte ser – Hebreerbrevet 11:1.</em>\""
+      },
+      {
+        "location": "<p>…Johannes 16:13</p>",
+        "severity": "major",
+        "source_quote": "Jesus promised, “Howbeit when he, the Spirit of truth, is come, he will guide you into all truth… –John 16:13.”",
+        "suggested_fix": "Fix the quoted Scripture so the phrase names the Spirit correctly in Swedish and reads idiomatically. Replace the current sentence text (inside the <p> that quotes John 16:13) with a faithful Swedish rendering such as: “<em>När han, Sanningens Ande, kommer, skall han vägleda er in i hela sanningen… – Johannes 16:13.</em>” (Preserve the <em> tags and spacing/punctuation as in source HTML.)",
+        "translation_quote": "\"<em>När han, sanningen Andes, kommer skall han föra er in i hela sanningen… – Johannes 16:13.</em>\""
+      },
+      {
+        "location": "<p>…Matteus 14:31</p>",
+        "severity": "minor",
+        "source_quote": "Jesus said to Peter, “O thou of little faith, wherefore didst thou doubt? –Matthew 14:31.”",
+        "suggested_fix": "Use the standard Swedish equivalence for \"little faith\" to match the theological tone. Replace the quoted text with: “<em>…Du som har liten tro, varför tvivlade du? – Matteus 14:31.</em>” (Preserve <em> tags and surrounding HTML.)",
+        "translation_quote": "\"<em>…Du som har litet förtroende, varför tvivlade du? – Matteus 14:31.</em>\""
+      }
+    ],
+    "passed": false,
+    "score": 79
+  }
+}

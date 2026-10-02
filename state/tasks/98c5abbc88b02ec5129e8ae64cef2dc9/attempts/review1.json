@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"When You Feel Like Giving Up\",\"suggested_fix\":\"Translate the English title into Dutch. Suggested translation: \\\"Als je het gevoel hebt op te geven\\\" (or alternatively \\\"Wanneer je het gevoel hebt op te geven\\\"). Preserve casing and punctuation as in the target-site style.\",\"translation_quote\":\"When You Feel Like Giving Up\"},{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"Inspirations for Youth\",\"suggested_fix\":\"Translate the English section name into Dutch. Suggested translation: \\\"Inspiratie voor jongeren\\\" (or alternatively \\\"Inspiraties voor jongeren\\\"). Ensure the translated section value replaces the English phrase.\",\"translation_quote\":\"Inspirations for Youth\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 779,
+    "content_evidence_truncated": false,
+    "content_sha256": "bc92e79724fa17b4bd786d3641af9057e2d04451bc38af463b45b441cf9fc8e2",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5900,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6517
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

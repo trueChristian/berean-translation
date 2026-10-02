@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "48bbe299-a9ec-418f-aeb9-327f2481cbc6",
+    "response_id": "chatcmpl-EUWwPpJkw1lMcNZXtcK7pRCE1Lktq",
+    "usage": {
+      "completion_tokens": 1494,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5585,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7079
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...as Lyte was about to leave to head southward, he was arrested by an “irresistible desire” to preach once more to his congregation.</p>",
+        "severity": "minor",
+        "source_quote": "“he was arrested by an “irresistible desire” to preach once more to his congregation.”",
+        "suggested_fix": "Replace the literal loanword that implies police arrest with a Swedish idiom that conveys being strongly seized/compelled: e.g. \"tog en 'oemotståndlig önskan' tag i Lyte\" or better \"fylldes Lyte den 4 september 1847 av en 'oemotståndlig önskan' att ännu en gång predika för sin församling.\" Preserve the surrounding HTML structure and punctuation.",
+        "translation_quote": "\"Även om han var mycket försvagad av sin sjukdom, arresterades Lyte den 4 september 1847, just som han skulle ge sig iväg söderut, av en ”oemotståndlig önskan” att en gång till predika för sin församling.\""
+      },
+      {
+        "location": "<p>...as they neared the end of their seven-mile walk...</p>",
+        "severity": "major",
+        "source_quote": "\"as they neared the end of their seven-mile walk\"",
+        "suggested_fix": "Correct the distance wording to avoid using Swedish 'mil' (10 km) which misrenders 'mile'. Use 'seven-mile' as a measure in Swedish: e.g. \"när de närmade sig slutet på sin sju miles långa vandring\" or \"när de närmade sig slutet på sin ungefär sju miles långa vandring\". Keep the sentence structure and HTML tags intact.",
+        "translation_quote": "\"När de närmade sig slutet av sin sju mil långa vandring och kom fram till byn dit de var på väg, …\""
+      },
+      {
+        "location": "<p>...where his sickness prevented his further travel.</p>",
+        "severity": "critical",
+        "source_quote": "\"Lyte make it as far as Nice, France where his sickness prevented his further travel.\"",
+        "suggested_fix": "Replace the untranslated/non‑Swedish word 'nemoc' with a correct Swedish term for 'illness' or 'sickness', preserving the sentence structure. Suggested fix: \"Lyte kom så långt som till Nice, Frankrike, där hans sjukdom hindrade fortsatt resa.\" Maintain the surrounding HTML tags exactly as in the translation file.",
+        "translation_quote": "\"Lyte kom så långt som till Nice, Frankrike, där hans nemoc hindrade fortsatt resa.\""
+      },
+      {
+        "location": "<p>...\"I stand here among you today...\"</p>",
+        "severity": "minor",
+        "source_quote": "\"I stand here among you today, as alive from the dead...\"",
+        "suggested_fix": "Fix the Swedish mistranslation of 'among you' (\"among\" -> 'bland') which currently reads as 'ibland' (meaning 'sometimes'). Suggested wording: \"Jag står här bland er i dag, liksom levande från de döda,...\" Preserve punctuation and tags.",
+        "translation_quote": "\"\"O bröder,\" sade han, när han steg upp i den välbekanta predikstolen för sista gången, \"jag står här ibland er idag, som levande från de döda,...\"\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

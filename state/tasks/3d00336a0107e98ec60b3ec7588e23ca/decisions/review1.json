@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p> (paragraph about Esther teaching a song)",
+      "severity": "critical",
+      "source_quote": "Perhaps Esther realized she would be in heaven before the other girls—we don’t know for sure.",
+      "suggested_fix": "Översätt den engelska bisatsen till svenska, bevara meningen och tonen. Förslag: \"Kanske förstod Esther att hon skulle komma till himlen före de andra flickorna—men det vet vi inte säkert.\"",
+      "translation_quote": "Kanske förstod Esther att hon skulle komma till himlen före de andra flickorna—we know not for sure."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

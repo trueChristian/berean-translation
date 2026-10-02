@@ -2,7 +2,6 @@
   "article_id": "3feab4dd-c830-4ead-ad57-24d853847088",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09d17013cc6f4c2b9ddad201014eedd5",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 9364
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1125,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9089,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10214
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph mentioning Muensterites (source.html paragraph: \"Events such as the Muensterites and their violent interpretations of Scripture remained a clear warning...\")",
+      "severity": "major",
+      "source_quote": "Events such as the Muensterites and their violent interpretations of Scripture remained a clear warning of religious zeal gone awry.",
+      "suggested_fix": "Translate the proper historical term faithfully. Replace the incorrect \"меннонитов в Мюнстере\" with a translation that preserves the source reference to the radical Anabaptist group associated with Münster (commonly rendered in Russian as «мюнстериты» or «события в Мюнстере»). For example: «События вроде мюнстеритов и их насильственных толкований Писания оставались наглядным предупреждением…».",
+      "translation_quote": "«События вроде меннонитов в Мюнстере и их насильственных толкований Писания оставались наглядным предупреждением о религиозном рвении, вышедшем из‑под контроля.»"
+    },
+    {
+      "location": "First mention of George Blaurock (source.html: list of founders: \"Conrad Grebel, Felix Manz, and George Blaurock\")",
+      "severity": "minor",
+      "source_quote": "Conrad Grebel, Felix Manz, and George Blaurock",
+      "suggested_fix": "Use an established Russian rendering of the proper name. The translation shows «Георге Блауроке», which is an unusual inflection/orthography in Russian. Prefer a conventional form such as «Георг Блауэрок» or «Георг Блауэрок (George Blaurock)» depending on house style. Preserve the order and identity of the three founders exactly as in the source.",
+      "translation_quote": "«Конраде Гребеле, Феликсе Манце и Георге Блауроке»"
+    }
+  ],
   "id": "4e1d7723247b3335427cfd954b484aa0",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "rus",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/71da96b1e9fc7ad8418f514e41f429009d9b72f0f1b0b1b636d343ab0a681930.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

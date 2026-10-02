@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!</p>\",\"severity\":\"major\",\"source_quote\":\"But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!\",\"suggested_fix\":\"Translate the quoted song title into Portuguese so the quoted substantive prose is presented in the target language. For example: \\\"Mas ela ensinou às meninas uma canção, 'Quão distante está o céu', que Hadassah ainda gosta de cantar hoje!\\\" Preserve the surrounding punctuation and quotation marks as in the original.\",\"translation_quote\":\"Mas ela ensinou às meninas uma canção, “How Far Is Heaven”, que Hadassah ainda gosta de cantar hoje!\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 774,
+    "content_evidence_truncated": false,
+    "content_sha256": "e643b9a4832ea012e0df115837d43f5fd26c4a631f2f1b2dd20cd4de7882d616",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3119,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3693
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

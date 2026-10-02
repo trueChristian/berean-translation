@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c8e4c01c-0c5e-4869-8885-d72a9264800c",
+    "response_id": "chatcmpl-EUWwDHPHKeaQWqegmSvfFgacerzLi",
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3961
+    }
+  },
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (paragraph containing the song reference)",
+        "severity": "major",
+        "source_quote": "But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
+        "suggested_fix": "Translate the quoted song title into Indonesian while preserving the quotation marks and sentence structure. For example: \"Tetapi ia mengajarkan para gadis sebuah lagu, \"Seberapa Jauh Surga\", yang masih disukai Hadassah untuk dinyanyikan sampai sekarang!\" (Keep the rest of the sentence unchanged and preserve HTML tags and order.)",
+        "translation_quote": "Tetapi ia mengajarkan para gadis sebuah lagu, “How Far Is Heaven”, yang masih disukai Hadassah untuk dinyanyikan sampai sekarang!"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

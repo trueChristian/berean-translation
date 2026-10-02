@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>...in the nightstand drawer he discovered a book titled “The Holy Bible”.</p>",
+      "severity": "major",
+      "source_quote": "\"in the nightstand drawer he discovered a book titled “The Holy Bible”.\"",
+      "suggested_fix": "Translate the quoted book title into standard Swedish. Preserve the punctuation and HTML. Example replacement: “Boken med titeln 'Bibeln'” or “boken med titeln 'Den heliga skrift'\" (preferably: 'Bibeln'). Do not leave the quoted title in English.",
+      "translation_quote": "\"Där, i nattdukslådan, upptäckte han en bok med titeln ”The Holy Bible”.\""
+    },
+    {
+      "location": "<p>...I also observe the current trends of some of our plain publishing houses—they have borrowed from the world’s idea (in a spiritual way, of course) ...</p>",
+      "severity": "minor",
+      "source_quote": "\"I also observe the current trends of some of our plain publishing houses—they have borrowed from the world’s idea (in a spiritual way, of course) that to sell books and reading material they need to print exhilarating stories...\"",
+      "suggested_fix": "Remove the leftover English word and render the entire clause in Swedish. Replace the English 'they' (left inside the Swedish sentence) with a Swedish pronoun or restructure. For example: \"Jag iakttar också de nuvarande tendenserna hos några av våra enkla förlagsverk – de har lånat världens idé ...\"",
+      "translation_quote": "\"Jag iakttar också de nuvarande tendenserna hos några av våra enkla förlagsverk—they har lånat världens idé (på ett andligt sätt, förstås) ...\""
+    },
+    {
+      "location": "<p>...as we follow the expository teaching from Habakkuk regarding what it means to have a real faith...</p>",
+      "severity": "minor",
+      "source_quote": "\"as we follow the expository teaching from Habakkuk regarding what it means to have a real faith that is first personal, then corporate.\"",
+      "suggested_fix": "Use the correct conventional Swedish form of the prophet's name used in Swedish Bibles and maintain spelling consistent with the English source. If Swedish convention is 'Habackuk' then retain that; if it's 'Habakkuk' (double k), match the English source's spelling. Replace the current 'Habackuk' if incorrect. Example: \"...när vi följer den expositiva undervisningen från Habakkuk ...\"",
+      "translation_quote": "\"...när vi följer den exponerande undervisningen från Habackuk om vad det betyder att ha en verklig tro...\""
+    },
+    {
+      "location": "<p>...the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.</p>",
+      "severity": "minor",
+      "source_quote": "\"…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.\"",
+      "suggested_fix": "Religious/theological phrasing should be idiomatic and clear in Swedish. The current translation \"de fruktansvärda och otroende\" renders 'the fearful' inaccurately (\"fruktansvärda\" = frightening). Replace with a proper Swedish equivalent used in Bible translations, e.g. \"de fega och de otroende\" or the wording from the Swedish Bible version in use, e.g. \"de fruktansvärda\" only if that matches the target Bible. Preserve verse reference formatting.",
+      "translation_quote": "\"Kom ihåg att det är …de fruktansvärda och otroende … [som] skola få sin del i sjön som brinner med eld och svavel… – Uppenbarelseboken 21:8.\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

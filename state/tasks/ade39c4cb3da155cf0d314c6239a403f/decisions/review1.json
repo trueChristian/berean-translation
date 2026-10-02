@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>...We no longer need to worry about holding the offender captive. After all, he or she is not in bondage to us. We cannot choose whether or not they will be set free. Only the Lord has the power to set someone free.</p>",
+      "severity": "major",
+      "source_quote": "After all, he or she is not in bondage to us.",
+      "suggested_fix": "Render the intended meaning of \"not in bondage to us\" (i.e., not held captive or enslaved by us) rather than implying financial indebtedness. Replace the Portuguese phrase \"ele ou ela não está em dívida conosco\" with a phrase conveying lack of captivity, for example: \"afinal, ele ou ela não está em cativeiro por nossa causa\" or \"afinal, ele ou ela não está sob o nosso domínio\".",
+      "translation_quote": "Afinal, ele ou ela não está em dívida conosco."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

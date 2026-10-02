@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:49:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph: near execution speech (\\\"Vollmar... Hans ... said: 'I do not know what more I should say ... that they might be saved; this I would wish for everyone.'\\\")\",\"severity\":\"critical\",\"source_quote\":\"“I do not know what more I should say than that I wish everyone would come to a knowledge of their sins and repent, that they might be saved; this I would wish for everyone.”\",\"suggested_fix\":\"Translate the clause to convey that Hans wished people to be saved (gered), not lost. Replace the translated sentence inside the same paragraph and HTML structure with an accurate Afrikaans rendering. Suggested replacement in Afrikaans (preserve quotes and punctuation): “Ek weet nie wat meer ek sou sê as dat ek wens dat almal tot die kennis van hul sondes sal kom en sal bekeer, sodat hulle gered mag word; dit wens ek vir almal.”\",\"translation_quote\":\"“Ek weet nie wat meer ek sou sê as dat ek wens dat almal die kennis van hul sondes sal kom en bekeer sal word, sodat hulle verlore sal word; dit sal ek vir almal wens.”\"},{\"location\":\"source.title / translation.title\",\"severity\":\"minor\",\"source_quote\":\"Hans Landis\",\"suggested_fix\":\"No change required to title text, but check orthography and diacritics. The translation title matches the source exactly; keep as-is.\",\"translation_quote\":\"Hans Landis\"},{\"location\":\"source.html multiple occurrences (words for clergy)\",\"severity\":\"minor\",\"source_quote\":\"clergy\",\"suggested_fix\":\"Correct typographic/encoding errors in the translation where \\\"geeste1ikes\\\" appears. Replace with the correct Afrikaans word \\\"geestelikes\\\" in both occurrences, preserving surrounding HTML and tags.\",\"translation_quote\":\"geeste1ikes\"},{\"location\":\"source.section / translation.section\",\"severity\":\"minor\",\"source_quote\":\"CHURCH HISTORY\",\"suggested_fix\":\"Section translated as \\\"KERKGESKIEDENIS\\\" which is appropriate. No change required.\",\"translation_quote\":\"KERKGESKIEDENIS\"},{\"location\":\"source.html figure alt text\",\"severity\":\"minor\",\"source_quote\":\"A close-up of sharp thorns on weathered branches\",\"suggested_fix\":\"Fully translate the alt text into idiomatic Afrikaans and remove or lowercase the English loanword if desired. Suggested alt text preserving HTML attribute: alt=\\\"’n close-up van skerp dorings op verweerde takkies\\\" or alt=\\\"’n klembeeld van skerp dorings op verweerde takkies\\\". Keep it inside the same <img> tag and attribute.\",\"translation_quote\":\"’n Close-up van skerp dorings op verweerde takkies\"}],\"passed\":false,\"score\":60}",
+    "content_bytes": 2545,
+    "content_evidence_truncated": false,
+    "content_sha256": "ab99229b06a4c1eec92dfe7327b4c63531106cbb8083ac2a5d6ed78758f7ac75",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1218,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10591
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
