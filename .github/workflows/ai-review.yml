@@ -28,7 +28,7 @@ on:
           - ell
           - swe
           - nob
-        default: afr
+        default: all
       languages:
         description: "Optional multiple codes, comma-separated; overrides language (e.g. afr,deu,spa)"
         type: string
@@ -50,9 +50,10 @@ on:
           - gpt-4.1-nano
           - gpt-4.1
           - gpt-5-mini
+          - gpt-6-luna
           - gpt-6.1-sol
           - gpt-6-astra
-        default: gpt-4.1-mini
+        default: gpt-6-luna
       review_model:
         description: "Independent review request model"
         type: choice
@@ -61,9 +62,10 @@ on:
           - gpt-4.1-nano
           - gpt-4.1
           - gpt-5-mini
+          - gpt-6-luna
           - gpt-6.1-sol
           - gpt-6-astra
-        default: gpt-4.1-mini
+        default: gpt-6-luna
       budget_usd:
         description: "Maximum campaign reservation in USD, including all stages"
         type: string

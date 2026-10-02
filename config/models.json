@@ -3,6 +3,21 @@
   "gpt-4.1-nano": {"api_model": "gpt-4.1-nano-2025-04-14", "input_batch_usd_per_million": 0.05, "output_batch_usd_per_million": 0.20, "context_tokens": 1047576, "max_output_tokens": 32768, "reasoning_effort": null, "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication."},
   "gpt-4.1": {"api_model": "gpt-4.1-2025-04-14", "input_batch_usd_per_million": 1.0, "output_batch_usd_per_million": 4.0, "context_tokens": 1047576, "max_output_tokens": 32768, "reasoning_effort": null, "quality_note": "Higher-cost translation or reviewer option."},
   "gpt-5-mini": {"api_model": "gpt-5-mini-2025-08-07", "input_batch_usd_per_million": 0.125, "output_batch_usd_per_million": 1.0, "context_tokens": 400000, "max_output_tokens": 128000, "reasoning_effort": "low", "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality."},
+  "gpt-6-luna": {
+    "api_model": "gpt-6-luna",
+    "input_batch_usd_per_million": 0.05,
+    "cached_input_batch_usd_per_million": 0.005,
+    "cache_write_batch_usd_per_million": 0.0625,
+    "output_batch_usd_per_million": 0.25,
+    "long_context_threshold_tokens": 272000,
+    "long_context_input_multiplier": 2.0,
+    "long_context_output_multiplier": 1.5,
+    "context_tokens": 1050000,
+    "max_output_tokens": 128000,
+    "reasoning_effort": "low",
+    "pricing_verified_on": "2026-10-02",
+    "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required."
+  },
   "gpt-6.1-sol": {
     "api_model": "gpt-6.1-sol",
     "input_batch_usd_per_million": 1.0,

@@ -9,6 +9,7 @@ on:
         options:
           - gpt-6.1-sol
           - gpt-6-astra
+          - gpt-6-luna
           - gpt-5-mini
           - gpt-4.1-mini
           - gpt-4.1-nano
@@ -20,6 +21,7 @@ on:
         options:
           - gpt-6.1-sol
           - gpt-6-astra
+          - gpt-6-luna
           - gpt-5-mini
           - gpt-4.1-mini
           - gpt-4.1-nano
