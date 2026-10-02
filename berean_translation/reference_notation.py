@@ -38,6 +38,7 @@ _GERMAN_BOOKS = {
     'Jesaja': 'Isaiah', 'Maleachi': 'Malachi', 'Römer': 'Romans',
     '1. Korinther': '1 Corinthians', '2. Korinther': '2 Corinthians',
     'Jeremia': 'Jeremiah', 'Hosea': 'Hosea', 'Johannes': 'John',
+    '1. Johannes': '1 John', '2. Johannes': '2 John', '3. Johannes': '3 John',
     'Markus': 'Mark', 'Hiob': 'Job', '1. Timotheus': '1 Timothy',
     '2. Timotheus': '2 Timothy', '1. Thessalonicher': '1 Thessalonians',
     '2. Thessalonicher': '2 Thessalonians', 'Philipper': 'Philippians',
@@ -54,8 +55,10 @@ _HEBREW_BOOKS = {
     'א׳ קורינתיים': '1 Corinthians', 'א׳ טימותאוס': '1 Timothy',
     'ב׳ טימותאוס': '2 Timothy', '2 טימותיוס': '2 Timothy',
     '1 קורינתים': '1 Corinthians',
+    '1 יוחנן': '1 John', '2 יוחנן': '2 John', '3 יוחנן': '3 John',
+    'א׳ יוחנן': '1 John', 'ב׳ יוחנן': '2 John', 'ג׳ יוחנן': '3 John',
 }
-_DASHES = '-‐‑–—'
+_DASHES = '-‐‑–—−־'
 _QUOTES = str.maketrans({"'": '׳', '‘': '׳', '’': '׳',
                         '"': '״', '“': '״', '”': '״'})
 _HEBREW_LETTERS = 'אבגדהוזחטיכלמנסעפצקרשת'
@@ -68,6 +71,20 @@ _DECIMAL_ATOM = re.compile(_DECIMAL_TOKEN)
 _HEBREW_ATOM = re.compile(f'(?:{_DECIMAL_TOKEN}|{_HEBREW_TOKEN})')
 _BARE_COLON = re.compile(r'(?<![0-9])[0-9]+\s*:')
 _HEBREW_COLON = re.compile(rf'(?<![\w׳״])({_HEBREW_TOKEN})\s*:')
+# Never match a Gospel/book suffix within an unsupported numbered identity.
+_PRECEDING_ORDINAL = re.compile(
+    r"(?<![\w:,\-‐‑–—−־])(?:[0-9]+\.?|[IVX]+\.?|[אבגדהוזחט](?:[׳'’‘])?)\s*$", re.I)
+_BARE_CLOCK_VALUE = re.compile(r'(?:[01]?[0-9]|2[0-3])\s*:\s*[0-5][0-9]')
+_AMOUNT_WORDS = (r'(?:Euro|EUR|US-Dollar|Dollar|USD|CHF|Franken|GBP|Pfund|JPY|Yen|'
+                 r'Prozent|percent|Kilogramm|Kilometer|Liter|kg|km|cm|mm|g|'
+                 r'Millionen?|Milliarden?)')
+_UNMAPPED_NUMBERED_CITATION = re.compile(
+    r'[1-3]\.?\s*[^\W\d_]+(?:\s+[^\W\d_]+)*\s*'
+    rf'(?P<chapter>[0-9]+|{_HEBREW_TOKEN})\s*:')
+_AMOUNT_AFTER = re.compile(r'\s*' + _AMOUNT_WORDS + r'(?!\w)', re.I)
+_AMOUNT_BEFORE = re.compile(r'(?<!\w)(?:' + _AMOUNT_WORDS +
+                            r'|Preis|Betrag|Kosten|Anteil|Zinssatz)\s*$', re.I)
+
 
 
 def _decimal_digits(text: str) -> str:
@@ -171,6 +188,47 @@ def _numeric_looking(token: str) -> bool:
     return token[:1].isdigit() or any(c in token for c in '׳״\'"‘’“”')
 
 
+def _unsupported_numeric_tail(text: str, end: int, language: str) -> int | None:
+    """Hold unknown arithmetic/range/list connectors with numeric endpoints.
+
+    Unicode categories catch math symbols and dash variants without an endless
+    per-glyph allowlist. Compatibility normalization is used only to classify
+    punctuation such as fullwidth slash; text and offsets are never rewritten.
+    """
+    position = _space(text, end)
+    start = position
+    while position < len(text):
+        character = text[position]
+        normalized = unicodedata.normalize('NFKC', character)
+        if (unicodedata.category(character) in ('Sm', 'Pd')
+                or normalized in ('/', '\\', ';', ':', '&', '·', '|', '^', '~', '.', '*')):
+            position += 1
+        else:
+            break
+    if position == start:
+        return None
+    connectors = text[start:position]
+    endpoint_start = _space(text, position)
+    # A full stop plus whitespace belongs to ordinary sentence punctuation.
+    if unicodedata.normalize('NFKC', connectors) == '.' and (
+            start != end or endpoint_start != position):
+        return None
+    endpoint = _atom(text, endpoint_start, language)
+    if endpoint is None or not _numeric_looking(endpoint.group()):
+        return None
+    if unicodedata.normalize('NFKC', connectors) == ';':
+        after_endpoint = _space(text, endpoint.end())
+        if text[after_endpoint:after_endpoint + 1] == ':':
+            return None  # The next bare chapter:verse is independently protected.
+        if _book_pattern(language)[0].match(text, endpoint_start):
+            return None  # The next explicit numbered-book citation is independent.
+        unknown_book = _UNMAPPED_NUMBERED_CITATION.match(text, endpoint_start)
+        if unknown_book and _numeric_looking(unknown_book['chapter']):
+            # Preserve legacy numeric protection for unmapped book names too.
+            return None
+    return endpoint.end()
+
+
 def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | None] | None:
     """Parse ordered verse pieces, coalescing only non-overlapping adjacency."""
     first = _atom(text, start, language)
@@ -218,6 +276,12 @@ def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | 
             end += tail.end()
             invalid = True
             next_pos = _space(text, end)
+        tail_end = _unsupported_numeric_tail(text, end, language)
+        if tail_end is not None:
+            # Do not silently truncate unsupported /19, +19, etc. to verse 18.
+            end = tail_end
+            invalid = True
+            next_pos = _space(text, end)
         if next_pos >= len(text) or text[next_pos] != ',':
             break
         following = _atom(text, _space(text, next_pos + 1), language)
@@ -255,10 +319,13 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
     chapter_value = _number(chapter.group(), language)
     repeated = None
     redundant = False
+    ambiguous_book = False
     if after < len(text) and (text[after] == ':' or (comma and text[after] == ',')):
         verse_start = _space(text, after + 1)
     elif (language == 'heb' and book and after > chapter.end()
           and any(c in chapter.group() for c in '׳״\'"‘’“”')):
+        # A small John numeral without a colon may be an epistle ordinal.
+        ambiguous_book = book == 'John' and chapter_value in ((1, ''), (2, ''), (3, ''))
         # This narrowly qualified colonless form needs an explicit book,
         # a quoted Hebrew chapter, and decimal verse(s).
         decimal = _DECIMAL_ATOM.match(text, after)
@@ -289,7 +356,13 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
         return None
     end, expression = verses
     prefix = f'{book} ' if book else ''
-    if chapter_value is None or expression is None or (redundant and repeated != chapter_value):
+    # Unqualified clock-shaped material remains exactly protected, including
+    # zero minutes. This is not a clock exemption or permission to change it.
+    raw_value = text[start:end]
+    if book is None and _BARE_CLOCK_VALUE.fullmatch(raw_value):
+        return end, re.sub(r'\s+', '', raw_value)
+    if (chapter_value is None or expression is None or ambiguous_book
+            or (redundant and repeated != chapter_value)):
         return end, f'!invalid[{language}] {prefix}{text[start:end]}'
     return end, f'{prefix}{chapter_value[0]}:{expression}'
 
@@ -310,6 +383,8 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
     mentions = []
     book_pattern, identities = _book_pattern(language, target_language)
     for match in book_pattern.finditer(normalized):
+        if _PRECEDING_ORDINAL.search(normalized[:match.start()]):
+            continue
         parsed = _parse_at(normalized, _space(normalized, match.end()), language,
                            identities[match.lastgroup], comma=language == 'deu')
         if parsed:
@@ -323,6 +398,12 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
         # Only full parentheses qualify a bookless comma expression. Source
         # comparison in the SAME block is still required for equivalence.
         for parenthesis in re.finditer(r'\(\s*([0-9][^()]*)\)', normalized):
+            before, after = normalized[:parenthesis.start()], normalized[parenthesis.end():]
+            previous, following = before.rstrip()[-1:], after.lstrip()[:1]
+            symbols = (previous, following)
+            if (any(c and (unicodedata.category(c) == 'Sc' or c in '%‰‱') for c in symbols)
+                    or _AMOUNT_BEFORE.search(before) or _AMOUNT_AFTER.match(after)):
+                continue
             start = parenthesis.start(1)
             parsed = _parse_at(normalized, start, language, comma=True)
             if parsed:

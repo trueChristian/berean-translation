@@ -76,6 +76,39 @@ class LocalizedReferenceGateTests(unittest.TestCase):
             with self.subTest(language=language), self.assertRaises(ContractError):
                 validate_translation(*missing, language=language)
 
+    def test_numbered_john_cannot_become_gospel_or_another_epistle(self):
+        for language, book in (('deu', 'Johannes'), ('heb', 'יוחנן')):
+            for ordinal in (1, 2, 3):
+                for source, candidate in (
+                    ('John 3:16', f'{ordinal}. {book} 3:16'),
+                    (f'{ordinal} John 3:16', f'{book} 3:16'),
+                    (f'{ordinal} John 3:16', f'{ordinal % 3 + 1}. {book} 3:16'),
+                ):
+                    with self.subTest(language=language, source=source, candidate=candidate), \
+                            self.assertRaises(ContractError):
+                        validate_translation(*documents(f'<p>{source}</p>', f'<p>{candidate}</p>'),
+                                             language=language)
+
+    def test_parenthesized_amounts_cannot_replace_a_bare_citation(self):
+        for amount in ('(2,14) Euro', '(2,14)%', '€ (2,14)', '(2,14) USD'):
+            with self.subTest(amount=amount), self.assertRaises(ContractError):
+                validate_translation(*documents('<p>(2:14)</p>', f'<p>{amount}</p>'), language='deu')
+
+    def test_identical_unmarked_clocks_remain_protected_but_changed_clocks_fail(self):
+        for language, phrase in (('deu', 'Treffen um'), ('heb', 'ניפגש בשעה')):
+            source, same = documents('<p>Meet at 9:00.</p>', f'<p>{phrase} 9:00.</p>')
+            validate_translation(source, same, language=language)
+            for value in ('9:01', '8:00', ''):
+                with self.subTest(language=language, value=value), self.assertRaises(ContractError):
+                    validate_translation(*documents('<p>Meet at 9:00.</p>', f'<p>{phrase} {value}.</p>'),
+                                         language=language)
+
+    def test_unsupported_numeric_tails_cannot_be_accepted_as_a_prefix(self):
+        for tail in ('/19', '+19', '.19'):
+            with self.subTest(tail=tail), self.assertRaises(ContractError):
+                validate_translation(*documents('<p>Matthew 1:18.</p>',
+                                                 f'<p>Matthäus 1,18{tail}.</p>'), language='deu')
+
 
 class LocalizedReferenceLifecycleTests(unittest.TestCase):
     def setUp(self):
