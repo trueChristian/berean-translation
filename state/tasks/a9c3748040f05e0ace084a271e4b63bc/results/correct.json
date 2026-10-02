@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "91b7fc3a-617b-47d8-b39e-8e0a2a8c2b08",
+    "response_id": "chatcmpl-EUVbPJkeUTToQqvfGs4EjQvD8v35h",
+    "usage": {
+      "completion_tokens": 689,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2135,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2824
+    }
+  },
+  "received_at": "2026-10-02T11:22:28+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>חירות, או עבדות—מה יהיה?<br>\n    או האם זה אותו הדבר; מי יכול לראות?</p>\n\n    <p>אנשים אוהבים דברים שכסף יכול לקנות,<br>\n    הם סוחרים בחייהם, בלי סיבה למה.</p>\n\n    <p>החשבונות נערמים לנוחות ולמנוחה;<br>\n    \"ומה עם נשותינו, או ילדים לשמחה?\"</p>\n\n    <p>אנו מבלים את ימינו ברדיפה אחרי הדולר.<br>\n    השטן מחייך כשהוא מהדק את העניבה שלנו.</p>\n\n    <p>אנחנו זקוקים לזמן לאלוהים, וגם למשפחותינו.<br>\n    אולי פחות שעות עבודה בהחלט יספיקו.</p>\n\n    <p>האם יש לנו זמן לקול הרך ההוא?<br>\n    או שהכסף מדבר, ולא נותן לנו בחירה?</p>\n\n    <p>כולנו מכירים את התנ\"ך—אין עבודה, אין אכילה.<br>\n    אבל הכסף יעבד אותנו עד שניפגש עם המוות.</p>\n\n    <p>ככל שיש לנו יותר, כך אנו זקוקים ליותר;<br>\n    אהבת הכסף מתחילה מזרע קטן.</p>\n\n    <p>להשמיד את עצמך בשקר הוא מטופש—<br>\n    \"חירות, או עבדות?\" זו השאלה שאני שואל.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "חירות או עבדות?"
+  }
+}

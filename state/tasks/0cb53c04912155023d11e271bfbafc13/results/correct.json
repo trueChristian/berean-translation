@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3845fc96-4daf-48be-a757-c0e2f041f601",
+    "response_id": "chatcmpl-EUVc8CxnWI2s7aWbr2oowPTPY3hEG",
+    "usage": {
+      "completion_tokens": 689,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1995,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2684
+    }
+  },
+  "received_at": "2026-10-02T11:22:26+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Vryheid, of slawerny—wat sal dit wees?<br>\n    Of is dit dieselfde; kan iemand dit sien?</p>\n\n    <p>Mense hou van dinge wat geld kan koop,<br>\n    Hulle ruil hul lewens, sonder ’n rede hoekom.</p>\n\n    <p>Rekenings stapel op vir gemak en plesier;<br>\n    “Wat van ons vroue, of kinders om tevrede te maak?”</p>\n\n    <p>Ons spandeer al ons dae agter die dollar aan.<br>\n    Die duiwel glimlag terwyl hy ons kraag styf trek.</p>\n\n    <p>Ons het tyd nodig vir God, en ook vir ons gesinne.<br>\n    Miskien sou minder tyd by die werk darem volstaan.</p>\n\n    <p>Het ons nog tyd vir daardie sagte stem?<br>\n    Of praat ons geld, en gee ons geen keuse nie?</p>\n\n    <p>Ons ken almal die Bybel—geen werk, geen ete.<br>\n    Maar geld sal ons bind tot die dood ons bereik.</p>\n\n    <p>Hoe meer ons het, hoe meer benodig ons;<br>\n    Die liefde vir geld begin met ’n saad wat ontkiem.</p>\n\n    <p>Jouself lieg is ’n dwaasheid—<br>\n    “Vryheid, of slawerny?” is die vraag wat ek bring.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Vryheid, of Slawerny?"
+  }
+}

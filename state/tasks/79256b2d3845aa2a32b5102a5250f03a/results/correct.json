@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a0ca65cb-1a4e-4c23-9b65-22b2b5676d0f",
+    "response_id": "chatcmpl-EUVad86VpVyANxXFiPc4uaB7e7ncv",
+    "usage": {
+      "completion_tokens": 1516,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5080
+    }
+  },
+  "received_at": "2026-10-02T11:22:28+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cc225bc9-2dda-46f3-a628-13af4fd95e7a\">\n  <p>Saluti di amore cristiano a tutti. In questo numero della rivista (estate 2023)… L'articolo di Storia della Chiesa si concentra sulla profezia biblica relativa agli ultimi tempi e su alcuni modi diversi in cui, nel corso degli anni, certi elementi della chiesa si sono allontanati dall'insegnamento biblico per quanto riguardava la loro vita quotidiana. Nel suo articolo, Donny Brechbill, che insieme a sua moglie tiene diversi seminari sul matrimonio ogni anno, si impegna a focalizzarsi su un argomento difficile—alcuni dei problemi di fondo che egli vede nelle donne che stanno lottando nella chiesa. Lee Rufener adotta un approccio senza scuse nel suo sforzo di condividere un insegnamento espositivo su modi pratici per avere una casa santificata. Questa volta abbiamo una nuova autrice per le sorelle che condivide un peso nel suo cuore—instillare la Parola di Dio nei cuori della prossima generazione.</p>\n\n  <p>Inoltre, altri argomenti interessanti. Buona lettura.</p>\n\n  <p>Se vieni edificato o incoraggiato dal contenuto di uno qualsiasi degli autori, sarebbe una benedizione per noi ricevere una tua risposta per posta o e‑mail. Lo inoltriamo ai nostri scrittori per il loro beneficio.</p>\n\n  <p>Di recente riflettevo sul tema del cambiamento. Come ho già scritto, come famiglia abbiamo attraversato un bel po' di cambiamenti. Negli ultimi 1–2 anni ci siamo trasferiti in un altro luogo di residenza, ho acquisito un nuovo lavoro e infine, grazie al Signore, mi sono per lo più ripreso dagli effetti a lungo termine della Covid. Un ringraziamento speciale a ciascuno di voi che ha pregato per la mia salute.</p>\n\n  <p>Mentre mi fermavo in un tranquillo momento di riflessione, sono rimasto sorpreso da tutte le cose che sono cambiate nei più di 40 anni che posso ricordare. (Anche se ho più di 50 anni, in realtà non ricordo molto dei primissimi anni della mia vita.)</p>\n\n  <p>Da ragazzo, giravo su veicoli che non avevano cinture di sicurezza e certamente, nessun airbag. Quando entrambi questi dispositivi “salvavita” furono introdotti, ricordo bene le molte discussioni sul fatto che fossero davvero salvavita nel loro effetto o se l'opposto fosse vero. Tutti i veicoli erano di trazione posteriore o a quattro ruote motrici. Quanto sembrava strano quando cominciarono ad apparire le prime auto a trazione anteriore. Ora abbiamo veicoli ibridi con una spinta verso veicoli completamente elettrici.</p>\n\n  <p>Più di quaranta anni fa, la maggior parte dei contadini aveva trattori a benzina con carburatore o trattori diesel con pompa iniettore azionata manualmente. Oggi, la maggior parte dei trattori è equipaggiata con un computer e sembrano chilometri di fili e componenti elettronici vari. Allora, la maggior parte degli agricoltori riusciva a mantenere o riparare i propri mezzi; ora c'è bisogno di macchine diagnostiche e strumenti specializzati che costano molto e richiedono molte ore per imparare a usarli. Questo porta la maggior parte degli agricoltori a fare affidamento sull'esperienza di meccanici specializzati che costano anch'essi molto.</p>\n\n  <p>Poi c'è stata la Covid. È stato un periodo stressante. Hai notato cosa è cambiato durante, dopo o a causa della Covid? Nel mio interagire con gli altri, di routine qualcuno dirà che questo o quello è diverso dalla Covid. Sono solo io, o da quando è arrivata la Covid il pubblico in generale è meno amichevole e più riservato nelle proprie interazioni? Controlliamo le nostre interazioni per assicurarci che stiamo ancora essendo la “luce” e il “sale” di Dio in questo mondo oscuro, e che non stiamo perdendo la nostra “salinità”. Inoltre, ci sono cartelli ovunque con la scritta «si cerca personale». Perché? Mi sembra che la Covid abbia incoraggiato ciò che rimaneva dell'etica del lavoro nella nostra società a diminuire ancora di più.</p>\n\n  <p>Poi c'è la questione dei telefoni cellulari e delle e-bike. Cosa hanno in comune questi due prodotti non collegati? Dal mio punto di osservazione sugli Amish della contea di Holmes, questi due elementi hanno cambiato un popolo e una cultura in modo più significativo di quasi ogni altra cosa negli ultimi tempi.</p>\n\n  <p>Dove ci porta tutto questo? L'autore agli Ebrei dice che <em>Perché essendo mutato il sacerdozio, è di necessità mutata anche la legge – Ebrei 7:12.</em> Quindi, vediamo che Dio ha cambiato le cose come ha ritenuto opportuno; dunque, se dobbiamo cambiare per diventare più biblici, allora dovremmo farlo. Ma l'apostolo Paolo dice <em>Che non siamo più fanciulli, smossi qua e là e portati via da ogni vento di dottrina… – Efesini 4:14.</em></p>\n\n  <p><em>E perché l'iniquità abbonderà, l'amore della maggior parte si raffredderà. Ma chi avrà perseverato fino alla fine, costui sarà salvato – Matteo 24:12-13.</em> Dunque, vigiliamo in questi ultimi tempi mentre il cambiamento accade sempre di più intorno a noi. Possiamo essere tra coloro che persevereranno fino alla fine.</p>\n</article>\n",
+    "section": "DALL'EDITORE",
+    "subtitle": null,
+    "title": "Dall'editore"
+  }
+}

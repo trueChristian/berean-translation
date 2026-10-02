@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e0f1c3cc-d454-4c1b-bb4e-bbe93905cbc0",
+    "response_id": "chatcmpl-EUVZxixm48DPfJRDlwk3BB6HXRyDj",
+    "usage": {
+      "completion_tokens": 667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2387,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3054
+    }
+  },
+  "received_at": "2026-10-02T11:22:27+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Frihet eller träldom—vad blir det?<br>\n    Eller är de samma — kan någon se det?</p>\n\n    <p>Människor älskar ting som pengar ger,<br>\n    De byter bort sina liv, utan skäl.</p>\n\n    <p>Räkningarna växer för bekvämlighet och frid;<br>\n    ”Tänk på våra hustrur, eller barnens fröjd?”</p>\n\n    <p>Vi slösar våra dagar i jakten på dollar.<br>\n    Djävulen ler när han drar åt vår krage.</p>\n\n    <p>Vi behöver tid för Gud, och för våra familjer med.<br>\n    Kanske mindre arbetstid skulle hjälpa oss väl.</p>\n\n    <p>Har vi tid för den lilla stilla rösten?<br>\n    Eller talar våra pengar och lämnar oss inget val?</p>\n\n    <p>Vi känner alla Bibeln—ingen arbetar — ingen äter.<br>\n    Men pengar binder oss tills döden är satt.</p>\n\n    <p>Ju mer vi har, desto mer behöver vi;<br>\n    Kärleken till pengar börjar som ett litet frö.</p>\n\n    <p>Att ljuga för sig själv är ett fåfängt ting—<br>\n    ”Frihet eller träldom?” är frågan jag för fram.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Frihet eller träldom?"
+  }
+}

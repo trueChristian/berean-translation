@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "74cbc149-60fa-43b7-bb0b-be536a378ebb",
+    "response_id": "chatcmpl-EUVaMmtr672hWCLdaMcQtlTji5WYE",
+    "usage": {
+      "completion_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1803,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2421
+    }
+  },
+  "received_at": "2026-10-02T11:22:28+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a6ab0f33-e20a-4b19-ae47-f094395a54f8\">\n  <div class=\"poem\">\n    <p>Свобода или рабство — что избрать?<br>\n    Или это одно — кто сможет понять?</p>\n\n    <p>Людям нравятся вещи, что можно купить,<br>\n    Меняют жизнь на них, не зная, зачем жить.</p>\n\n    <p>Счета растут ради удобств и лени;<br>\n    «А как же наши жёны и дети — чтобы угодить?»</p>\n\n    <p>Мы дни проводим, гоняясь за долларом.<br>\n    Дьявол улыбается, затягивая наш воротник.</p>\n\n    <p>Нам нужно время для Бога и для семьи.<br>\n    Может, меньше работы — и будет иным?</p>\n\n    <p>Есть ли у нас время для того тихого голоса?<br>\n    Или деньги говорят, и выбора нет у нас?</p>\n\n    <p>Все знаем Писание — кто не работает, тот не ест.<br>\n    Но деньги сковывают нас, пока не придёт смерть.</p>\n\n    <p>Чем больше имеем, тем больше требуем;<br>\n    Любовь к деньгам начинается с семени.</p>\n\n    <p>Врать себе — глупо и пусто — так и быть:<br>\n    «Свобода или рабство?» — вот вопрос, что нести.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Свобода или рабство?"
+  }
+}
