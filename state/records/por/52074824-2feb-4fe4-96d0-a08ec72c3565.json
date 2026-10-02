@@ -6,9 +6,32 @@
       "campaign": "gh-36909529190",
       "event": "requested",
       "task": "bf622726a227bfa98288480e7cd67c6c"
+    },
+    {
+      "at": "2026-10-02T00:12:31+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "bf622726a227bfa98288480e7cd67c6c"
     }
   ],
   "language": "por",
   "latest_task": "bf622726a227bfa98288480e7cd67c6c",
-  "published": null
+  "published": {
+    "html_path": "content/por/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+    "html_sha256": "57ddb1ba4ec74e65404ef9c10c4880b37620daf4f5ef975e70f7558abd266623",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/por/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+    "metadata_sha256": "286de3e1637002df76b2c09004497a47ac0e2e50963dfc1538dbb32e55d69fad",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"pt\" dir=\"ltr\" role=\"note\">\n  <p>Este artigo foi traduzido por inteligência artificial com OpenAI (modelo: gpt-5-mini-2025-08-07) e ainda não foi revisto por uma pessoa. O original em inglês é a versão de referência autorizada. Em caso de dúvida sobre o significado, consulte o original em inglês. <a href=\"/en/articles/52074824-2feb-4fe4-96d0-a08ec72c3565/\" data-source-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\" hreflang=\"en\">Original em inglês</a></p>\n</aside>",
+    "published_at": "2026-10-02T00:12:31+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+    "source_snapshot": "state/sources/bfd32875bae1c5d468e2e36f74da09a376963ebbef7c9772d51528cb0cd0f755.json",
+    "task": "bf622726a227bfa98288480e7cd67c6c",
+    "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e"
+  }
 }

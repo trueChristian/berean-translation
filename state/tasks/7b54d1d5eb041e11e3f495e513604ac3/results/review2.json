@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f00a4a8b-4926-4fe7-8ec3-0132f33555bd",
+    "response_id": "chatcmpl-EUL7YYyMdi932G9PriXk7VCr8X5Ys",
+    "usage": {
+      "completion_tokens": 2493,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8887
+    }
+  },
+  "received_at": "2026-10-02T00:12:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Em Romanos, we read, … (Romans 1:18-32).</p> — source.html paragraph showing Romans 1:18-32 quotation",
+        "severity": "critical",
+        "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools, And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things. Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet. And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32).",
+        "suggested_fix": "Replace the translated Portuguese Bible quotation with the exact printed English quotation from the authoritative source (KJV wording as in source.html). Preserve the enclosing <p> tags and any surrounding punctuation. Example replacement (inside the same <p> tag): “For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. …” (Romans 1:18-32). Do not substitute a Portuguese Bible translation or rephrase the verse text.",
+        "translation_quote": "“Porque a ira de Deus se revela do céu contra toda impiedade e injustiça dos homens, que detêm a verdade em injustiça; porque aquilo que se pode conhecer de Deus é manifesto entre eles, pois Deus o manifestou a eles. Porque as coisas invisíveis dele, desde a criação do mundo, claramente se vêem, sendo compreendidas por meio das coisas feitas, tanto o seu eterno poder como a sua divindade, de modo que são inexcusáveis; porquanto, tendo conhecido a Deus, não o glorificaram como Deus, nem lhe deram graças, antes tornaram‑se vãos em seus pensamentos, e o seu coração insensato se obscureceu. Dizendo ser sábios, tornaram‑se loucos, e mudaram a glória do Deus incorruptível em semelhança da imagem do homem corruptível, e de aves, e de quadrúpedes, e de répteis. Por isso Deus também os entregou à imundícia, pelas concupiscências dos seus corações, para desonrarem os seus próprios corpos entre si; os quais mudaram a verdade de Deus em mentira, e glorificaram e serviram mais a criatura do que ao Criador, que é bendito eternamente. Amém. Por isso Deus os entregou a paixões infames; porque até as suas mulheres mudaram o uso natural, no que é contra a natureza; e, semelhantemente, também os homens, deixando o uso natural da mulher, se inflamaram em sua concupiscência uns para com os outros; homens com homens cometendo coisas vergonhosas e recebendo em si mesmos a devida recompensa do seu erro. E, como não consentiram em ter conhecimento de Deus, Deus os entregou a uma mente reprovada, para fazerem coisas inconvenientes; cheios de toda injustiça, fornicação, maldade, avareza, malícia; cheios de inveja, homicídio, contendas, dolo, males; murmuradores, detratores, aborrecedores de Deus, injuriosos, soberbos, vaidosos, inventores de males, desobedientes a pais, sem entendimento, quebrantadores de pactos, sem afeição natural, irreconciliáveis, implacáveis; os quais, conhecendo o juízo de Deus, que os que tais coisas praticam são dignos de morte, não só as cometem, mas também aprovam os que as cometem” (Romans 1:18-32)."
+      },
+      {
+        "location": "<p>“Porque nele foram criadas todas as coisas…” (Colossians 1:16)</p> — source.html Colossians 1:16 quotation paragraph",
+        "severity": "critical",
+        "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+        "suggested_fix": "Replace the translated Portuguese rendering of Colossians 1:16 with the exact printed English quotation from the authoritative source (KJV wording as in source.html). Keep the existing <p> tag and verse citation. Example replacement: “For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16). Do not substitute a Portuguese Bible translation or paraphrase.",
+        "translation_quote": "“Porque nele foram criadas todas as coisas que há nos céus e que há na terra, visíveis e invisíveis, quer tronos, quer dominações, quer principados, quer potestades: todas as coisas foram criadas por ele e para ele” (Colossians 1:16)."
+      },
+      {
+        "location": "<p>“If the world hate you…” (John 15:18) — source.html John 15:18 quotation paragraph",
+        "severity": "critical",
+        "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+        "suggested_fix": "Replace the Portuguese rendering of John 15:18 with the exact printed English quotation from the authoritative source (KJV wording as in source.html). Preserve the <p> tag and the parenthetical citation. Example replacement: “If the world hate you, ye know that it hated me before it hated you. (John 15:18)” Do not substitute a Portuguese Bible translation or paraphrase.",
+        "translation_quote": "“Se o mundo vos odiar, sabei que primeiro me odiou a mim. (John 15:18)” "
+      },
+      {
+        "location": "Throughout — translation of all Bible quotations into Portuguese",
+        "severity": "major",
+        "source_quote": "All Bible quotations in the source are printed in English (KJV-style) inside the article: Romans 1:18-32; Colossians 1:16; John 15:18.",
+        "suggested_fix": "Preserve the original English scripture quotations as printed in source.html. For each paragraph that currently contains a Portuguese translation of a quoted Bible passage, replace the Portuguese text with the original English text exactly as in the source. Keep surrounding HTML structure and the verse citations unchanged. If a localized explanatory note is required, add it outside the quoted verse, not by altering the quoted scripture text.",
+        "translation_quote": "The translator rendered the quoted Bible passages into Portuguese (Romans passage, Colossians 1:16, John 15:18)."
+      },
+      {
+        "location": "<p>“Estou espantado com o que tudo eles realizaram sem Deus.” — translated minister quote",
+        "severity": "minor",
+        "source_quote": "“I am amazed at what all they have accomplished without God.” (source.html)",
+        "suggested_fix": "Fix Portuguese word order for natural, idiomatic phrasing while preserving meaning. Replace “Estou espantado com o que tudo eles realizaram sem Deus.” with “Estou espantado com tudo o que eles realizaram sem Deus.” Preserve the enclosing <p> tag.",
+        "translation_quote": "“Estou espantado com o que tudo eles realizaram sem Deus.”"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}
