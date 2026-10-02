@@ -60,7 +60,7 @@ class Config:
                     if type(value) not in (int, float) or not math.isfinite(value) or value < 1:
                         raise ContractError('Long-context multipliers must be finite and at least one')
         for field in ('max_tasks_per_request','max_batch_requests','max_batch_bytes','max_output_tokens',
-                      'review_output_tokens','max_source_html_bytes','max_result_bytes',
+                      'review_output_tokens','reasoning_review_output_tokens','max_source_html_bytes','max_result_bytes',
                       'max_batches_per_tick','max_pending_campaigns_per_tick'):
             if type(self.runtime.get(field)) is not int or self.runtime[field] <= 0:
                 raise ContractError('Runtime size/count limits must be positive integers')
@@ -103,6 +103,20 @@ class Config:
         if name not in self.models:
             raise ContractError(f'Unsupported model: {name}')
         return self.models[name]
+
+    def review_output_limit(self, model_name: str) -> int:
+        """Resolve a new campaign's total review cap, then freeze it at acceptance.
+
+        Reasoning shares max_completion_tokens with the returned JSON. A larger
+        finite cap provides headroom, not a guarantee of a complete response.
+        Existing campaigns keep their recorded cap; request construction must
+        never consult this live policy for already accepted work.
+        """
+        model = self.model(model_name)
+        limit = self.runtime['review_output_tokens']
+        if model.get('reasoning_effort'):
+            limit = max(limit, self.runtime['reasoning_review_output_tokens'])
+        return min(limit, model['max_output_tokens'])
 
     def prompt(self, name: str) -> str:
         if name not in ('translation', 'review'):
