@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,45 @@
         },
         "total_tokens": 12393
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1029,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7976,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9005
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[19]; missing: 4:40; extra: 16:40",
-      "translation_quote": ""
+      "location": "<p>Nell’autunno del 2015 andai nello stato di Washington per una opportunità di lavoro.</p>",
+      "severity": "minor",
+      "source_quote": "In the fall of 2015, I went to Washington state due to a work opportunity.",
+      "suggested_fix": "Preservare l'elisione corretta in italiano: sostituire \"una opportunità\" con \"un'opportunità\" per rispettare la norma ortografica. Non cambiare struttura HTML.",
+      "translation_quote": "Nell’autunno del 2015 andai nello stato di Washington per una opportunità di lavoro."
+    },
+    {
+      "location": "<p>Quando arrivammo sulla scena, c’era una giovane donna che sembrava avere una ventina d’anni ed era visibilmente ferita.</p>",
+      "severity": "minor",
+      "source_quote": "As we walked onto the scene, there sat a young girl who appeared to be in her mid-twenties and was visibly banged up.",
+      "suggested_fix": "\"Mid-twenties\" indica circa metà dei vent'anni; per maggiore fedeltà al senso inglese sostituire \"una ventina d’anni\" con \"metà dei vent'anni\" o \"sui venticinque anni\". Non cambiare struttura HTML.",
+      "translation_quote": "Quando arrivammo sulla scena, c’era una giovane donna che sembrava avere una ventina d’anni ed era visibilmente ferita."
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "d36d261c09263f48a2a72f3536974466",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ita",
@@ -128,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1f09c115-3b75-4b32-a16c-22c8b60aefb7",
+    "response_id": "chatcmpl-EUXBd40rrf5KyfGtsziQqAg73c7Qd",
+    "usage": {
+      "completion_tokens": 767,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5123,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5890
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — throughout (proper name)",
+        "severity": "minor",
+        "source_quote": "Jehoshaphat (multiple occurrences)",
+        "suggested_fix": "Use the standard, widely recognized Portuguese form of the biblical name (Josafá) to avoid distracting transliteration variants, e.g. replace “Jossafate” with “Josafá” throughout while preserving the author’s meaning and all verse references.",
+        "translation_quote": "Jossafate (múltiplas ocorrências)"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

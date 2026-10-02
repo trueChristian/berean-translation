@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph listing other hymns (near end of main text)",
+      "severity": "major",
+      "source_quote": "including “Make Me A Captive Lord”, and “Then I Shall Be Free.”",
+      "suggested_fix": "Translate the quoted hymn titles into Afrikaans (quoted substantive prose must be translated). For example: “Maak My ’n Gevangene, Here” and “Dan Sal Ek Vry Wees.” Preserve the quotes and punctuation and place them where the English originals appear.",
+      "translation_quote": "insluitende “Make Me A Captive Lord”, en “Then I Shall Be Free.”"
+    },
+    {
+      "location": "Image <img> alt attribute",
+      "severity": "major",
+      "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+      "suggested_fix": "Translate the alt text into Afrikaans and translate the hymn title inside it. For example: alt=\"Bladmuziek vir 'O Liefde, wat my nie loslaat nie'\". Preserve the same HTML attribute structure.",
+      "translation_quote": "alt=\"Bladmuziek vir 'O Love That Wilt Not Let Me Go'\""
+    },
+    {
+      "location": "Paragraph about hints in the hymn (mentions third stanza)",
+      "severity": "major",
+      "source_quote": "the tracing of the “rainbow through the rain” in the third stanza",
+      "suggested_fix": "Replace the mistranslation of 'stanza' with the correct Afrikaans term (e.g., 'strofe' or 'verse'). For example: “die nasporing van die ‘reënboog deur die reën’ in die derde strofe.” Keep the quoted English phrase translated into Afrikaans.",
+      "translation_quote": "die nasporing van die “reënboog deur die reën” in die derde refrein"
+    },
+    {
+      "location": "Paragraph on later writings (list of devotional works)",
+      "severity": "minor",
+      "source_quote": "including Moments on the Mount, Voice of the Spirit, and Rests by the River.",
+      "suggested_fix": "Correct a typographical error and ensure the titles are translated consistently into Afrikaans. 'Moomente op die Berg' should read 'Momente op die Berg'. Also consider translating the titles as quoted substantive prose into Afrikaans if the publication standard requires (e.g., 'Momente op die Berg', 'Stem van die Gees', 'Rus by die Rivier').",
+      "translation_quote": "insluitend <em>Moomente op die Berg</em>, <em>Stem van die Gees</em>, en <em>Rus by die Rivier</em>."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

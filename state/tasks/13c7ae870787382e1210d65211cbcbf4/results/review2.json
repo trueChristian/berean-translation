@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "43a490de-93a7-4626-8590-b7e260e28e6a",
+    "response_id": "chatcmpl-EUXB5CVeJqMQz00t5WrakdOJPobiL",
+    "usage": {
+      "completion_tokens": 665,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8898,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9563
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first <p> (opening emphasized Scripture, end of paragraph)",
+        "severity": "critical",
+        "source_quote": "To preach the acceptable year of the Lord –Luke 4:18-19.",
+        "suggested_fix": "Translate the remaining English clause into Dutch and preserve Scripture reference and tags. For example: \"om het aanvaardbare jaar des Heren te prediken – Lukas 4:18-19.\" Replace the English clause exactly where it appears, keeping the surrounding <em> tag and punctuation.",
+        "translation_quote": "To preach the acceptable year of the Lord – Lukas 4:18-19."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

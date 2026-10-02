@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 8502
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 874,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5310,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6184
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>...– verses 21-20. He appointed singers to sing as they went, proclaiming to everyone and to the opposing army that they were on the Lord’s side.</p>",
-      "severity": "major",
-      "source_quote": "“– verses 21-20. He appointed singers to sing as they went, proclaiming to everyone and to the opposing army that they were on the Lord’s side.”",
-      "suggested_fix": "Restore the exact scripture-reference text as printed in the authoritative English source. In the translation, replace “– versets 21‑22.” with “– versets 21‑20.” so the chapter/verse numbering exactly matches the English source text (preserve spacing and punctuation as appropriate in French).",
-      "translation_quote": "“– versets 21‑22. Il désigna des chantres pour chanter en sortant, proclamant à tous et à l’armée ennemie qu’ils étaient du côté du Seigneur.”"
+      "location": "Throughout article (divine-name rendering)",
+      "severity": "minor",
+      "source_quote": "Original uses 'O LORD God', 'the LORD', and 'LORD' (capitalization indicating the divine name) consistently in English.",
+      "suggested_fix": "Use a single consistent French rendering for the divine name throughout the translation (either 'l'Éternel' or 'le Seigneur') to avoid unnecessary inconsistency. Preserve the translator's choice in every occurrence; do not alter theological meaning or scripture references.",
+      "translation_quote": "The translation alternates between 'Seigneur' (e.g. \"Seigneur Dieu de nos pères\") and 'l'Éternel' (e.g. \"l'Éternel plaça…\", \"tombèrent devant l'Éternel\"), producing inconsistent naming of God."
     },
     {
-      "location": "<p>... Dieu dit à mon cœur de rester tranquille sans peur et de Laisser faire la lutte à Lui. ...</p>",
+      "location": "Article metadata: section heading",
       "severity": "minor",
-      "source_quote": "“But God tells my heart to sit still without fear and let Him do the fighting.”",
-      "suggested_fix": "Fix capitalization in the French translation to follow normal French sentence case and to preserve the author's meaning. Replace “de Laisser faire la lutte à Lui.” with “de laisser à Lui le soin de livrer la lutte.” (or “de laisser à lui la lutte” is less idiomatic). Ensure pronoun/case is natural French: “laisser à Lui” could be improved to “lui laisser la lutte” while preserving theology. Suggested exact replacement preserving paragraph HTML: change the phrase to “de rester tranquille sans peur et de lui laisser faire la lutte.”",
-      "translation_quote": "“Mais Dieu dit à mon cœur de rester tranquille sans peur et de Laisser faire la lutte à Lui. Cela demande plus de muscles spirituels…”"
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Use a standard, idiomatic French rendering while preserving the sense and capitalization style used by the publication. Possible fix: change 'Sœur à sœur' to 'Soeur à soeur' only if the publication's style forbids diacritics in headings; otherwise keep 'Sœur à sœur'. Ensure the section heading in the translation matches the publisher's preferred style.",
+      "translation_quote": "\"Sœur à sœur\""
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "5b2143a298e0a00c6ac38f32363740a7",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "fra",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

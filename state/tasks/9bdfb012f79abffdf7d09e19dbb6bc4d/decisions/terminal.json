@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph with 2 Timothy quotation (source HTML: paragraph containing “2 Timothy 3:13-17”)",
+      "severity": "minor",
+      "source_quote": "But evil men and seducers shall wax worse and worse, deceiving, and being deceived. But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17.",
+      "suggested_fix": "Fix minor typographical accents and spacing in the French translation of the quotation. Replace “seduisant” with “séduisant” and ensure spacing around punctuation follows French typographic norms. Keep the translated Scripture text otherwise as-is to preserve the printed meaning.",
+      "translation_quote": "<em>Mais les hommes méchants et les imposteurs iront toujours en empirant, seduisant et étant séduits. Toi, poursuis les choses que tu as apprises et dont tu as reçu l'assurance, sachant de qui tu les as apprises; et que, depuis ton enfance, tu connais les saintes Écritures, qui peuvent te rendre sage pour le salut par la foi en Jésus-Christ. Toute Écriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice; afin que l'homme de Dieu soit accompli et propre à toute bonne œuvre – 2 Timothée 3:13-17. </em>"
+    },
+    {
+      "location": "Paragraph with Hebrews quotation (source HTML: paragraph containing “Hebrews 12:2”)",
+      "severity": "minor",
+      "source_quote": "...the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
+      "suggested_fix": "Consider a more idiomatic French rendering for “author and finisher of our faith.” The current translation uses “l'auteur et le consommateur de la foi,” which is literal and acceptable, but many French Bibles use “l'auteur et l'acheveur de la foi” or “l'auteur et l'achevateur de la foi.” If you prefer the common ecumenical phrasing, change to “l'auteur et l'achèvement de la foi” or “l'auteur et l'acheveur de la foi.” This is a stylistic suggestion only; it does not change doctrine or content.",
+      "translation_quote": "<em>… l'auteur et le consommateur de la foi; qui, pour la joie qui lui était proposée, a enduré la croix, méprisé la honte, et s'est assis à la droite du trône de Dieu – Hébreux 12:2.</em>"
+    },
+    {
+      "location": "Paragraph mentioning brother Leonard Martin (source HTML: paragraph describing contributor)",
+      "severity": "minor",
+      "source_quote": "Brother Leonard Martin, a bishop in one of our churches has shared an exhortation on spiritual gifts in the church with a number of clear, practical observations for us today.",
+      "suggested_fix": "Small stylistic improvement for natural French: replace “un évêque d'une de nos églises” with “un évêque dans l'une de nos églises.” This preserves meaning and improves idiomatic flow. No doctrinal change.",
+      "translation_quote": "Le frère Leonard Martin, un évêque d'une de nos églises, a partagé une exhortation sur les dons spirituels dans l'église avec un certain nombre d'observations claires et pratiques pour nous aujourd'hui."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

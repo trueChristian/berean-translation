@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "99d57b29-9ccd-43ce-aa07-d74492919b68",
+    "response_id": "chatcmpl-EUXCYDBQG1oRczXzVCoRHYi7MafFT",
+    "usage": {
+      "completion_tokens": 1610,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10401,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12011
+    }
+  },
+  "received_at": "2026-10-02T13:03:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph (Ephesians 4:8)",
+        "severity": "critical",
+        "source_quote": "\"Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men –Ephesians 4:8.\"",
+        "suggested_fix": "Translate the quoted Scripture into Bahasa Indonesia and localize the book name and reference exactly as printed (retain chapter:verse). Example: “Karena itu dikata: Ketika Ia naik ke tempat yang tinggi, Ia membawa tawanan-tawanan dan memberikan karunia kepada manusia — Efesus 4:8.” (Use conventional Indonesian book name but keep the verse numbers unchanged.)",
+        "translation_quote": "\"Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men –Ephesians 4:8.\""
+      },
+      {
+        "location": "Multiple inline scripture quotations (throughout article: Ephesians 4:11; 1 Corinthians 12; Romans 12:6-8; 1 Corinthians 12:11; Hebrews 2:4; 1 Timothy 4:14; James 3:13-18; 1 Corinthians 14:22; 2 Corinthians 12:7-12; Ephesians 4:11-12; 1 Corinthians 12:24-25 etc.)",
+        "severity": "critical",
+        "source_quote": "Examples: \"And he [God] gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers –Ephesians 4:11.\"; \"But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will –1 Corinthians 12:11.\"; \"Wherefore tongues are for a sign, not to them that believe, but to them that believe not: but prophesying serveth not for them that believe not, but for them which believe –1 Corinthians 14:22.\"",
+        "suggested_fix": "All quoted Scripture passages must be translated into Indonesian (faithfully conveying the printed English meaning) and book names localized conventionally (Efesus, 1 Korintus, Roma, Ibrani, Yakobus, 2 Korintus, 1 Timotius, dll.), while preserving the exact chapter:verse numbering and placement. For example: “Dan Ia telah memberikan sebagian sebagai rasul-rasul, sebagian sebagai nabi-nabi, sebagian sebagai penginjil– sebagian sebagai gembala dan pengajar — Efesus 4:11.” Ensure every occurrence of quoted biblical text in the source is rendered similarly in Indonesian in the translation.",
+        "translation_quote": "Quoted Scripture remains in English in many places (e.g., \"And he [God] gave some, apostles... –Ephesians 4:11.\", \"But all these worketh that one... as he will –1 Corinthians 12:11.\", \"Wherefore tongues are for a sign... –1 Corinthians 14:22.\")."
+      },
+      {
+        "location": "Lists of spiritual gifts (1 Corinthians and Romans lists)",
+        "severity": "major",
+        "source_quote": "\"—the word of wisdom, the word of knowledge, faith, healing, miracles, tongues, discerning of tongues, helps, and governments.\" and \"—ministry, exhortation, giving, ruling, and showing mercy.\"",
+        "suggested_fix": "Translate these substantive lists of gifts into natural Indonesian equivalents, keeping the number and order intact. Example: “—firman hikmat, firman pengetahuan, iman, penyembuhan, mukjizat, bahasa roh, pembeda bahasa roh, pertolongan, dan pemerintah/pemerintahan.” and “—pelayanan, pengajaran/teguran (exhortation), pemberian, memerintah, dan mengasihi/berbelas kasih.” Ensure consistent translation for repeated terms (e.g., 'tongues' → 'bahasa roh' or equivalent) throughout the article.",
+        "translation_quote": "The translation mostly left the gift lists in English (e.g., \"the word of wisdom, the word of knowledge, faith, healing, miracles, tongues...\")."
+      },
+      {
+        "location": "Numerous in-text English words and phrases left untranslated (e.g., 'Spiritual Gifts', 'gifts', 'Church', 'What a wealth of gifts', 'primary', 'the Church', 'the real thing', 'counterfeit')",
+        "severity": "major",
+        "source_quote": "Examples: \"Spiritual Gifts\", \"gifts\", \"Church\", \"What a wealth of <em>gifts </em>have been given to the church when Jesus ascended up on high!\" \"primary\", \"the real thing\", \"counterfeit\".",
+        "suggested_fix": "Translate substantive English terms and phrases into idiomatic Bahasa Indonesia consistently. For instance: 'Spiritual Gifts' → 'Karunia Rohani' (already used in title), 'gifts' → 'karunia' (or 'karunia-karunia'), 'Church' → 'gereja' (or 'Gereja' when referring to the Church as institution, but be consistent), 'What a wealth of gifts...' → 'Alangkah kayanya karunia yang telah diberikan kepada jemaat ketika Yesus naik ke tempat yang tinggi!' Translate other phrases like 'primary' → 'utama' or 'pokoknya', 'the real thing' → 'yang asli'/'yang sejati', 'counterfeit' → 'palsu'. Ensure consistency and theological neutrality corresponding to the source author's intent.",
+        "translation_quote": "Many of these phrases remain in English within the translation (e.g., title 'Spiritual Gifts' in text, 'gifts', 'Church', and other phrases)."
+      },
+      {
+        "location": "Image alt attribute and figure caption",
+        "severity": "minor",
+        "source_quote": "alt=\"A misty winter forest reflected in a lake\"",
+        "suggested_fix": "Translate the image alt text into Bahasa Indonesia to match the source content being reviewed. Example: alt=\"Hutan musim dingin berkabut tercermin di sebuah danau\". Do not change image filename or other attributes; only translate the alt text value.",
+        "translation_quote": "alt=\"A misty winter forest reflected in a lake\""
+      }
+    ],
+    "passed": false,
+    "score": 35
+  }
+}

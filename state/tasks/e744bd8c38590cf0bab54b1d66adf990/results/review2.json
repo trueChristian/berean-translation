@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "79f29fbf-e910-4a70-bdd3-6ee9eacd12ca",
+    "response_id": "chatcmpl-EUXBmNq4engGQmiMr2MzkUvi2H42S",
+    "usage": {
+      "completion_tokens": 1263,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6042
+    }
+  },
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / article title in body",
+        "severity": "major",
+        "source_quote": "O Love That Wilt Not Let Me Go",
+        "suggested_fix": "Translate the hymn title consistently into Kiswahili wherever it appears (title, first paragraph, and any other occurrences). For example, replace the English title with a Kiswahili rendering preserving the hymn identity: \"Ewe Upendo Usiyetaka Kuniwacha\" (or another preferred Kiswahili idiomatic rendering). Ensure the HTML title element and any occurrences in the article body use the same Kiswahili phrase and preserve surrounding tags and attributes.",
+        "translation_quote": "O Love That Wilt Not Let Me Go"
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "A HYMN HISTORY",
+        "suggested_fix": "Translate the section heading into Kiswahili. Replace the untranslated English section value with an appropriate Kiswahili heading such as \"HISTORIA YA HYMNI\" (or \"HISTORIA YA NYIMBO\"), and ensure the replacement exactly matches the site’s expected metadata field encoding (i.e., 'section' value).",
+        "translation_quote": "A HYMN HISTORY"
+      },
+      {
+        "location": "figure > img alt",
+        "severity": "major",
+        "source_quote": "Sheet music for O Love That Wilt Not Let Me Go",
+        "suggested_fix": "Translate the image alt text into Kiswahili and translate the hymn title inside it to match the article translation. For example: \"Muziki wa karatasi wa Ewe Upendo Usiyetaka Kuniwacha\". Preserve the img tag and other attributes, only change the alt attribute value.",
+        "translation_quote": "Muziki wa karatasi wa O Love That Wilt Not Let Me Go"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph (scripture citation formatting)",
+      "severity": "minor",
+      "source_quote": "<em>For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. ... –1 Corinthians –1:17-21. </em>",
+      "suggested_fix": "Remove the extraneous hyphen before the chapter/verse range so the citation reads in Portuguese as: “1 Coríntios 1:17-21.” (Preserve the existing HTML and emphasis tags.)",
+      "translation_quote": "<em>... –1 Coríntios –1:17-21. </em>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

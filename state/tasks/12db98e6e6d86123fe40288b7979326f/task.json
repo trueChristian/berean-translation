@@ -2,7 +2,6 @@
   "article_id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,52 @@
         },
         "total_tokens": 14244
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1975,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1216,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8781,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10756
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph: \"...There is in all of us a desire for healing and wholeness. In the garden of Eden...\" (translated paragraph beginning: \"في هذا المقال سننظر...\")",
+      "location": "<article> first <p> (Luke 4:18-19 quotation, opening paragraph)",
       "severity": "minor",
-      "source_quote": "He came to provide a remedy for our brokenness. He came to repair the damage that sin has brought into humanity.",
-      "suggested_fix": "Replace the awkward phrase \"ناشزِ الإنسانية\" with a faithful, clear rendering such as \"الإنسانية المكسورة\" or \"الكسور التي أحدثتها الخطيئة في البشر\" so the sentence reads: \"جاء يسوع ليزوّد دواءً لكسرنا. جاء ليصلح الأذى الذي جلبته الخطيئة إلى البشر.\"",
-      "translation_quote": "جاء يسوع ليزوّد دواءً لناشزِ الإنسانية. جاء ليصلح الأذى الذي جلبه الخطيئة إلى البشر."
+      "source_quote": "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord –Luke 4:18-19.",
+      "suggested_fix": "Keep the same sequence and meaning of the English proof text while remaining idiomatic Arabic. For example: <em>روح الرب عليَّ، لأنه مسحني لأن أبشر المساكين؛ أرسلني لأشفى المنكسرين القلوب، لأبشر الحرّين، ولأعيد البصر للّأعمى، لأطلق المسحوقين حراً، لأبشر بسنة الرب المقبولة –لوقا 4:18-19.</em> (Preserve the emphasis tag as in the source.)",
+      "translation_quote": "<em>روح الرب عليَّ، لأنه مسحني لأن أبشر المساكين؛ أرسلني لأعظ للمأسورين، وأشفى المنكسرين القلوب، لأعلن للسجناء الخلاص وبإبصار للأعمى، لأطلق المسحوقين حراً، لأبشر بسنة الرب المقبولة –لوقا 4:18-19.</em>"
     },
     {
-      "location": "Paragraph quoting James 5:14-16 (translated paragraph beginning: \"هل من مريض بينكم? ...\")",
-      "severity": "major",
-      "source_quote": "There is a thorn in the flesh. He sought the Lord three times for healing. God's answer came back always the same, “My grace is sufficient for you, for my strength is made perfect in your weakness.”",
-      "suggested_fix": "Correct the grammatical subject to match the English: the author says that Paul \"sought the Lord three times.\" The translation currently reads \"طلب الرب ثلاث مرات للشفاء,\" which incorrectly makes the Lord the one who was requested. Change to a clear Arabic rendering preserving the subject (Paul/the apostle): e.g. \"طلب بولس الرب ثلاث مرات للشفاء\" or if keeping the author's voice: \"طلب الرب منه ثلاث مرات الشفاء\" is not correct; use \"لذلك طلب بولس الرب ثلاث مرات أن يُشفى\". Make the sentence: \"لهذا طلب بولس الشفاء من الرب ثلاث مرات. جاء جواب الله دائماً نفسه: 'تكفيك نعمتي...'\"",
-      "translation_quote": "ولهذا السبب أعطي بولس شوكة في الجسد. طلب الرب ثلاث مرات للشفاء. جاء جواب الله دائماً نفسه، «تكفيك نعمتي، لأن قوتي تُكمَل في الضعف.»"
+      "location": "Paragraph quoting James 5:14-16 (Arabic paragraph beginning with هل من مريض بينكم?)",
+      "severity": "minor",
+      "source_quote": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him. Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
+      "suggested_fix": "Correct the garbled phrase that attempts to render “The effectual fervent prayer of a righteous man availeth much.” Replace the problematic wording with a clear, standard Arabic rendering and keep the emphasis tag if present. For example: «... وصلاة الرجل البار الحارة تنفع كثيرًا –يعقوب 5:14-16.»",
+      "translation_quote": "«...اعترفوا بخطاياكم بعضكم لبعض، وصلوا بعضكم لأجل بعض، لكي تُشفىوا. وصلاة الرجل البار الحارة تنفع كثيراً –يعقوب 5:14-16.» (preceding sentence in translation contains the garbled word: “صلاة الرجل الصالح المشركة…”) "
     },
     {
-      "location": "Paragraph citing James 5:14-16 (same paragraph)",
+      "location": "Paragraph: “If you have been bruised Jesus will heal you.” (mid-article)",
       "severity": "minor",
-      "source_quote": "The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
-      "suggested_fix": "The phrase \"effectual fervent prayer of a righteous man\" is rendered unclearly as \"صلاة الرجل الصالح المشركة\". Provide a clearer, standard Arabic rendering that conveys the sense \"الصلاة الفعالة والمُحِرَّة (أو الحارة) لرجلِ بَارّ\" or \"الصلاة المُخْتمرَة والرَّجاءِ لرجل تقي\". For example: \"وصلاة الرجل البار الحارة تُجدُّ كثيراً.\"",
-      "translation_quote": "صلوة الرجل الصالح المشركة تنفع كثيراً –يعقوب 5:14-16."
+      "source_quote": "If you have been bruised Jesus will heal you.",
+      "suggested_fix": "The Arabic uses سقُيطاً which is not the correct equivalent for “bruised.” Use the same term used elsewhere in the translation for consistency and accuracy, e.g. «إن كنت مسحوقًا فسيشفيك يسوع.» or «إن كنت مجروح القلب سيشفيك يسوع.»",
+      "translation_quote": "\"إن كنت سقُيطاً سيشفيك يسوع.\""
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "12db98e6e6d86123fe40288b7979326f",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ara",
@@ -161,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

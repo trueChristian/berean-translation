@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Christian’s View of Science",
+      "suggested_fix": "Translate the title to natural contemporary Afrikaans that preserves the original meaning, for example: \"Die Christen se siening van wetenskap\" or \"Die Christelike siening van wetenskap\". Replace the title text while preserving the source HTML structure.",
+      "translation_quote": "Die Christen se Gesig op Wetenskap"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "Use a natural Afrikaans rendering with correct article capitalization and word order, for example: \"’n Woord van ’n dokter\" (or \"’n Woord van ’n dokter\" keeping site capitalization rules). Replace the section field accordingly.",
+      "translation_quote": "’N WOORD VAN ’N DOKTER"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

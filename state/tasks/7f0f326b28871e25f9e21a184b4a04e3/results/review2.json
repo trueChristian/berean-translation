@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1ff7bf15-4c78-9bb8-ab3c-752fd937dfc0",
+    "response_id": "chatcmpl-EUXBdDdMdi0ANpYXnuVI5A8JwO4BH",
+    "usage": {
+      "completion_tokens": 1375,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3788,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5163
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Third paragraph (beginning \"What is happening?\" / \"কি ঘটছে?\")",
+        "severity": "major",
+        "source_quote": "I have had numerous conversations with various believers from around the country who seem to have a growing alarm about the current victorious march of evil over good, of liberal agendas over a conservative lifestyle, and the list goes on.",
+        "suggested_fix": "Translate the full sentence without adding or changing sense. A faithful Bengali rendering would be: \"আমি দেশের বিভিন্ন স্থানের বিভিন্ন বিশ্বাসীদের সঙ্গে বহুবার আলাপ করেছি, এবং তাদের মধ্যে এমন এক বাড়তে থাকা উদ্বেগ দেখা যায় যে বর্তমানে মন্দ ভালোকে হারিয়ে জয়ী হচ্ছে, লিবারাল এজেন্ডাগুলি রক্ষণশীল জীবনধারার ওপর অগ্রাসী; এবং তালিকাটি এখানেই শেষ নয়।\" Preserve the contrast structure (\"victorious march of evil over good, of liberal agendas over a conservative lifestyle\") and remove the inserted or altered phrase 'ইতিবাচক পরিবর্তনের তুলনায়' which does not appear in the English.",
+        "translation_quote": "কি ঘটছে? আমি দেশের বিভিন্ন স্থান থেকে অনেক বিশ্বাসিদের সাথে বহু কথোপকথন করেছি যারা মনে করেন যে আজকের দিনে ইতিবাচক পরিবর্তনের তুলনায় দুর্ণীতির বিজয় এবং রক্ষণশীল জীবনধারার উপর লিবারাল এজেন্ডাগুলোর ক্রমবর্ধমান অগ্রগতি সম্পর্কে তাদের মধ্যে বাড়তে থাকা উদ্বেগ রয়েছে, এবং তালিকা চলতে থাকে।"
+      },
+      {
+        "location": "Fourth paragraph (sentence about heating costs: \"the potential of unprecedented heating costs for many\")",
+        "severity": "minor",
+        "source_quote": "Current skyrocketing inflation, the potential of unprecedented heating costs for many, the rumors of rising interest rates, and the ongoing shortage of goods all tend to cause a person to be jolted out of a sense of normality.",
+        "suggested_fix": "Use a Bengali word that corresponds to \"unprecedented\" (অভূতপূর্ব) rather than অননুমেয় (which means unfathomable). Suggested correction: \"বর্তমান উর্ধ্বমুখী মুদ্রাস্ফীতি, অনেকের জন্য অভূতপূর্ব তাপমাত্রা খরচের সম্ভাবনা, সুদের হারের বৃদ্ধির গুজব, এবং চলমান পণ্যের ঘাটতি—এসব সবই মানুষকে স্বাভাবিকতার অনুভূতি থেকে ঝটকিয়ে দেয়।\"",
+        "translation_quote": "বর্তমান উর্ধ্বমুখী মুদ্রাস্ফীতি, অনেকের জন্য অননুমেয় উত্তাপ খরচের সম্ভাব্যতা, সুদের হারের বৃদ্ধির গুজব, এবং চলমান পণ্যের ঘাটতি—এসব সবই সাধারণত মানুষকে স্বাভাবিকতার অনুভূতি থেকে ঝটকানো করে।"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cbeab6a6-1d32-4f2d-bfcc-7f55370765e0",
+    "response_id": "chatcmpl-EUXBniUARs61Ri0q23Ub0Ltu0x3SP",
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5655,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6520
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph ending with \"The peace of knowing...\" (final content paragraph before figure)",
+        "severity": "minor",
+        "source_quote": "The peace of knowing that all I really need is God and His working in my life is the ultimate peace.",
+        "suggested_fix": "Correct a typographical error in the translation: replace \"परमेश्चर\" with the consistent, correct Hindi form \"परमेश्वर\" so the sentence reads naturally and matches the source meaning. Preserve surrounding HTML and tags.",
+        "translation_quote": "यह जानकर मिलने वाली शान्ति कि मेरी वास्तविक आवश्यकता केवल परमेश्चर और उसके कार्य में है, परम अंतिम शान्ति है।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

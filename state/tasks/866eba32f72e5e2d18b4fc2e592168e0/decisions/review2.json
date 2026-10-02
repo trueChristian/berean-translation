@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "critical",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "Translate the section/label into standard contemporary Russian and preserve the original styling. For example: \"СЛОВО ОТ ВРАЧА\" (or \"Слово от врача\" if sentence-style capitalization is preferred). Update the translation field source.section to that Russian text.",
+      "translation_quote": "A WORD FROM A DOCTOR"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

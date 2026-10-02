@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph containing “– verses 21-20.” (around the passage describing Jehoshaphat appointing singers)",
+      "severity": "minor",
+      "source_quote": "“– verses 21-20.”",
+      "suggested_fix": "Translate the English word “verses” into German to match the rest of the article’s verse citations and maintain consistency. Replace “verses 21-20.” with “– Verse 21–20.” (or better: “– Verse 20–21.” only if you are asked to correct ordering; do not change numbering otherwise). Preserve surrounding HTML and punctuation.",
+      "translation_quote": "“– verses 21-20.”"
+    },
+    {
+      "location": "<article> later paragraph quoting the battle outcome (around the passage “And when they began to sing…”)",
+      "severity": "minor",
+      "source_quote": "“– verses 22-23.”",
+      "suggested_fix": "Translate the English word “verses” into German to match other verse citations in the translation. Replace “– verses 22-23.” with “– Verse 22–23.” Preserve surrounding HTML and punctuation.",
+      "translation_quote": "“– verses 22-23.”"
+    },
+    {
+      "location": "metadata/section field",
+      "severity": "minor",
+      "source_quote": "\"SISTER TO SISTER\"",
+      "suggested_fix": "Section was translated as “Schwester zu Schwester.” That is acceptable German, but consider the slightly more idiomatic German phrasing “Schwester an Schwester” or keeping capitalization consistent with site style. No change required unless editorial style prefers a different idiom.",
+      "translation_quote": "\"Schwester zu Schwester\""
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

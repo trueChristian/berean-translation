@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> paragraph: \\\"Four thousand miles to the east...\\\" (source.html and translation.html)\",\"severity\":\"minor\",\"source_quote\":\"Instead of the <strong>hearts</strong> and<strong> minds</strong> of those involved in this battle.\",\"suggested_fix\":\"In the translation, replace the untranslated English conjunction \\\"and\\\" with the French \\\"et\\\", preserving the existing <strong> tags and spacing. For example: \\\"Au lieu des combats <strong>physiques</strong> sur les îles orientales de l’Extrême-Orient, cette bataille se livrerait dans les <strong>cœurs</strong> et <strong>esprits</strong> de ceux qui y participaient.\\\"\",\"translation_quote\":\"Au lieu des combats <strong>physiques</strong> sur les îles orientales de l’Extrême-Orient, cette bataille se livrerait dans les <strong>cœurs</strong> and<strong> esprits</strong> de ceux qui y participaient.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 919,
+    "content_evidence_truncated": false,
+    "content_sha256": "bc57f51742824b83841af120a4b977188c6195236ab816f90047c33895c8ea52",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8959
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

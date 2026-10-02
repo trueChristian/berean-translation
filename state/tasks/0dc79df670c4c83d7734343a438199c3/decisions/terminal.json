@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>There they were to be molded into soldiers, prepared to kill their fellow man, and then sent overseas for that purpose. Yet their faith decreed otherwise.</p>",
+      "severity": "major",
+      "source_quote": "There they were to be molded into soldiers, prepared to kill their fellow man, and then sent overseas for that purpose.",
+      "suggested_fix": "Translate the phrase to convey the original meaning “their fellow man” (i.e., fellow human being / their fellow soldiers/citizens), not “humanity” in general. For example: «هناك كان من المقرر أن يُشكَّلوا إلى جنود، يُعدّون لقتل إخوانهم من البشر، ثم يُرسَلوا إلى الخارج لهذا الغرض.» Preserve the surrounding HTML paragraph as in the translation.",
+      "translation_quote": "هناك كان من المقرر أن يُشكَّلوا إلى جنود، يُعدون لقتل الإنسانية، ثم يُرسَلوا إلى الخارج لهذا الغرض."
+    },
+    {
+      "location": "<p>Death was ever present, claiming lives seemingly at random.</p>",
+      "severity": "minor",
+      "source_quote": "Death was ever present, claiming lives seemingly at random.",
+      "suggested_fix": "Correct the grammatical error and naturalize the phrasing in Arabic. For example: «كان الموت حاضرًا دائمًا، يفتكُّ بالأرواح كما لو كان ذلك عشوائيًا.» Preserve the paragraph HTML.",
+      "translation_quote": "كانت الموتى حاضرة دائمًا، تفتك بالأرواح كما لو كان ذلك عشوائيًا."
+    },
+    {
+      "location": "<p>MacArthur was somewhat of a prodigy of the United States military, emerging from his service in World War I as the youngest divisional commander in the Army.</p>",
+      "severity": "minor",
+      "source_quote": "MacArthur was somewhat of a prodigy of the United States military, emerging from his service in World War I as the youngest divisional commander in the Army.",
+      "suggested_fix": "Use a closer Arabic equivalent for “prodigy” rather than “miracle.” For example: «كان ماك آرثر إلى حدّ ما من المعجزة العسكرية/من المعجَزات العسكرية» is awkward; better: «كان ماك آرثر إلى حدّ ما نابغةً في الجيش الأمريكي، إذ خرج من خدمته في الحرب العالمية الأولى كأصغر قائد فرقة في الجيش.» Preserve the paragraph HTML.",
+      "translation_quote": "كان ماك آرثر نوعًا من المعجزات في الجيش الأمريكي، خرج من خدمته في الحرب العالمية الأولى كأصغر قائد فرقة في الجيش."
+    },
+    {
+      "location": "<p>On October 24, 1944, an Allied force landed on the eastern coast of the island of Leyte.</p>",
+      "severity": "minor",
+      "source_quote": "On October 24, 1944, an Allied force landed on the eastern coast of the island of Leyte.",
+      "suggested_fix": "Render the place name Leyte using the conventional Arabic form (ليتي أو ليتى — most common: «ليتي»). For example: «في 24 أكتوبر 1944، نزلت قوة حليفة على الساحل الشرقي لجزيرة ليتي.» Preserve the paragraph HTML.",
+      "translation_quote": "في 24 أكتوبر 1944، نزلت قوة حليفة على الساحل الشرقي لجزيرة ليتا."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

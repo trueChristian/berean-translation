@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1164a57d-6b3e-48ea-9452-c6c5ac5a786d",
+    "response_id": "chatcmpl-EUXBWzH4AlXXSu8Dal9tcPXbP0Tn1",
+    "usage": {
+      "completion_tokens": 803,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8451,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9254
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 2 (opening sentence)",
+        "severity": "minor",
+        "source_quote": "I was more of a quiet, strong-willed child and was quickly turning into a rebellious teenager.",
+        "suggested_fix": "Translate “quiet” with a word that conveys silence/reticence rather than a negation of badness. For example: “আমি ছিলাম একটু শান্ত, জেদী প্রকৃতির শিশু…” (preserve the remainder of the sentence as translated).",
+        "translation_quote": "আমি ছিলাম একটু মন্দভাববিহীন, জেদী প্রকৃতির শিশু এবং দ্রুত বিদ্রোহী কিশোরীতে পরিণত হচ্ছিলাম।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

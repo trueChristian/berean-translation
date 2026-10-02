@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3d3bfa23-954f-46dc-b236-bc35a7b715ea",
+    "response_id": "chatcmpl-EUXBWHF6ebGGPe7WUU4YndAPPvCLx",
+    "usage": {
+      "completion_tokens": 1143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6068
+    }
+  },
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1 (opening sentence)",
+        "severity": "major",
+        "source_quote": "This hymn is generally thought to be one of the most loved hymns written during the latter part of the 19th century.",
+        "suggested_fix": "Translate the time phrase to accurately reflect \"the latter part of the 19th century\" (e.g., \"19ویں صدی کے آخری حصے\") rather than \"after the 19th century.\" For example: \"یہ حمد عام طور پر 19ویں صدی کے آخری حصے میں لکھی گئی سب سے زیادہ محبوب حمدوں میں شمار کی جاتی ہے۔\"",
+        "translation_quote": "یہ حمد عام طور پر ان سب سے زیادہ محبوب حمدوں میں شمار کی جاتی ہے جو 19th صدی کے بعد کے دور میں لکھی گئیں۔"
+      },
+      {
+        "location": "source.html References block (composer line)",
+        "severity": "major",
+        "source_quote": "Composer - Albert L. Peace, 1844 – 1912",
+        "suggested_fix": "Correct the role label \"Composer\" to an appropriate Urdu term meaning composer/musician (e.g., \"موسیقار\" or \"ترتیب کار\"). Keep the name and dates unchanged. For example: \"موسیقار - Albert L. Peace, 1844 – 1912\"",
+        "translation_quote": "سنگر             -Albert L. Peace, 1844 – 1912"
+      },
+      {
+        "location": "source.html paragraph 3 (sister assisting throughout his life)",
+        "severity": "minor",
+        "source_quote": "One of them continued to be his faithful co-worker and helper throughout his life, assisting in his calling of being a pastor and other ministerial duties.",
+        "suggested_fix": "Remove the added/garbled phrase \"تحریر کے دوران پورے کے پورے\" and render the sentence smoothly to match the source meaning. Suggested Urdu: \"ان میں سے ایک پورے عرصہ تک ان کی مخلص شریکِ کار اور مددگار بنی، جو ان کے پادری کے کاموں اور دیگر عبادی ذمہ داریوں میں ان کی معاونت کرتی رہی۔\"",
+        "translation_quote": "ان میں سے ایک تحریر کے دوران پورے کے پورے ان کے مخلص شریکِ کار اور مدد گار کے طور پر رہی، اُن کے پادری کے طور پر انجام دیے جانے والے کاموں اور دیگر رسمی ذمہ داریوں میں مدد کرتی رہیں۔"
+      },
+      {
+        "location": "source.html paragraph with quote (\"dayspring from on high\")",
+        "severity": "minor",
+        "source_quote": "this came like a dayspring from on high.",
+        "suggested_fix": "Translate the figurative phrase to a natural Urdu equivalent that preserves the sense of sudden heavenly inspiration. Suggested: \"یہ اوپر سے آنیوالی ایک روشنی کی مانند آیا\" or \"یہ اوپر سے ایک اچانک الہامی روشنی کی مانند آیا۔\"",
+        "translation_quote": "یہ اوپر سے ایک دن کی روشنی کی مانند آیا۔"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

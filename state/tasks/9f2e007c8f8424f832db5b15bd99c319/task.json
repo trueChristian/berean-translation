@@ -2,7 +2,6 @@
   "article_id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,18 +61,59 @@
         },
         "total_tokens": 13983
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1256,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9047,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10303
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html — paragraph containing Psalm 103:1-5",
-      "severity": "major",
-      "source_quote": "Who satisfieth thy mouth with good things; so that thy youth is renewed like the eagle’s –Psalm 103:1-5.",
-      "suggested_fix": "Translate the clause to convey 'thy youth is renewed' (not 'your old age'). For example: « Qui rassasie de biens ta bouche; et qui te fait rajeunir comme l'aigle –Psaume 103:1-5. » Preserve the verse number and formatting exactly as in the source.",
-      "translation_quote": "Qui rassasie de biens ta vieillesse; et te fait rajeunir comme l'aigle –Psaume 103:1-5."
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "VICTORIOUS CHRISTIAN LIVING",
+      "suggested_fix": "Rendre le titre de section en français idiomatique. Par exemple : « VIE CHRÉTIENNE VICTORIEUSE » ou « VICTOIRE DANS LA VIE CHRÉTIENNE ». Conserver la casse que l'éditeur souhaite.",
+      "translation_quote": "VICTOIRE DANS LA VIE CHRÉTIENNE"
+    },
+    {
+      "location": "source.subtitle",
+      "severity": "minor",
+      "source_quote": "The Discipleship Series",
+      "suggested_fix": "La traduction actuelle (« La série sur le discipulat ») est compréhensible mais un peu lourde. Proposer une alternative plus idiomatique : « Série sur le discipulat » ou « La série du discipulat ». Conserver le champ subtitle tel quel dans le HTML.",
+      "translation_quote": "La série sur le discipulat"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Discipleship—The Path of Healing",
+      "suggested_fix": "La traduction « Discipulat — Le chemin de la guérison » est correcte. Option stylistique : remplacer le tiret cadratin par un tiret sans espace si l'éditeur préfère (« Discipulat — Le chemin de la guérison »). Aucun changement obligatoire.",
+      "translation_quote": "Discipulat — Le chemin de la guérison"
+    },
+    {
+      "location": "<p>…Psalm 103:1-5</p>",
+      "severity": "minor",
+      "source_quote": "Who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies; Who satisfieth thy mouth with good things; so that thy youth is renewed like the eagle’s –Psalm 103:1-5.",
+      "suggested_fix": "Le rendu français choisi (« Qui rachète ta vie de la fosse ») est une interprétation. Pour rester plus proche du sens littéral de l'anglais « from destruction », proposer : « Qui rachète ta vie de la destruction » ou employer une traduction biblique courante en français : « Qui rachète ta vie de la fosse » uniquement si le texte source voulait « the pit ». Choisir l'une et l'appliquer dans le même passage pour cohérence avec la version biblique utilisée dans l'article.",
+      "translation_quote": "Qui rachète ta vie de la fosse; qui te couronne de bonté et de miséricorde; Qui rassasie de biens ta jeunesse; et te fait rajeunir comme l'aigle –Psaume 103:1-5."
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "9f2e007c8f8424f832db5b15bd99c319",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "fra",
@@ -147,13 +187,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

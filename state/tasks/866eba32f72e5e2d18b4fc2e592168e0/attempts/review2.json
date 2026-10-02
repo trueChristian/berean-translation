@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.section\",\"severity\":\"critical\",\"source_quote\":\"A WORD FROM A DOCTOR\",\"suggested_fix\":\"Translate the section/label into standard contemporary Russian and preserve the original styling. For example: \\\"СЛОВО ОТ ВРАЧА\\\" (or \\\"Слово от врача\\\" if sentence-style capitalization is preferred). Update the translation field source.section to that Russian text.\",\"translation_quote\":\"A WORD FROM A DOCTOR\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 482,
+    "content_evidence_truncated": false,
+    "content_sha256": "7450341b2a64728f445c80accc06cfb5ac4d5c82fd4ee049db5c0ba17de5cb84",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10112
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

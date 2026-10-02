@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8a2f0f3d-9dea-4263-91ae-cbd299b96a1c",
+    "response_id": "chatcmpl-EUXBBWkJIl8ZIboQGB298UUvZCT1X",
+    "usage": {
+      "completion_tokens": 2467,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3398,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5865
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph containing Acts 17:24-25 (near: \"on Mars Hill\")",
+        "severity": "critical",
+        "source_quote": "—God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25.",
+        "suggested_fix": "Translate the quoted Scripture into Russian (preserve book name in conventional Russian form and the verse numbers unchanged). Example using the Synodal wording, preserving the HTML structure and <em> tags: <em>—Бог, сотворивший мир и всё, что в нём; будучи Господом неба и земли, не живёт в храмах, сделанных руками; и не служится людьми, как будто чего нуждающийся; ибо Он даёт всем жизнь и дыхание и всё; — Деян. 17:24-25.</em>",
+        "translation_quote": "<em>—God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25. </em>"
+      },
+      {
+        "location": "<article> paragraph containing 2 Timothy 3:13-17",
+        "severity": "critical",
+        "source_quote": "But evil men and seducers shall wax worse and worse, deceiving, and being deceived. But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17.",
+        "suggested_fix": "Translate the entire quoted Scripture passage into Russian, keeping the chapter and verse numbers exactly as printed. Example (Synodal-style) preserving the <em> tags: <em>А злые люди и обольстители будут ещё более и более умножаться, вводя в заблуждение и будучи в заблуждении. Ты же пребывáй в том, чему научился и во что убеждён, зная, от кого ты научился; и с детства ты знаешь священные писания, которые могут наставить тебя в спасении через веру во Христа Иисуса. Всё Писание богодухновенно и полезно для научения, для обличения, для исправления, для наставления в праведности; да будет совершен человек Божий, к всякому доброму делу приготовлен. — 2 Тим. 3:13-17.</em>",
+        "translation_quote": "<em>But evil men and seducers shall wax worse and worse, deceiving, and being deceived. But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17. </em>"
+      },
+      {
+        "location": "<article> paragraph containing Hebrews 12:2",
+        "severity": "critical",
+        "source_quote": "…the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
+        "suggested_fix": "Translate the quoted Scripture into Russian, preserving verse numbering and the <em> tags. Example (Synodal-style): <em>…начальник и совершитель веры, Иисус, Который ради предстоящей Ему радости претерпел крест, пренебрегши стыд, и воссел по правую руку престола Божия. — Евр. 12:2.</em>",
+        "translation_quote": "<em>…the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.</em>"
+      },
+      {
+        "location": "source.title and source.section metadata",
+        "severity": "major",
+        "source_quote": "From the Editor (section and title)",
+        "suggested_fix": "Translate the title and section into standard contemporary Russian. Example: title and section -> \"От редактора\". Do not alter HTML structure; only replace the English text of the title and section with the Russian equivalent.",
+        "translation_quote": "\"From the Editor\" (title) and \"From the EDITOR\" (section)"
+      },
+      {
+        "location": "<article> paragraph referencing the publication “Bible Helps”",
+        "severity": "minor",
+        "source_quote": "“Bible Helps”",
+        "suggested_fix": "Decide whether the column title should be presented in Russian or left as an English title. If translating, render it in Russian and preserve quotation marks. Suggested translation: «„Bible Helps“ (возможно: «Библейская помощь»)» or simply «„Bible Helps“» if it is a proper title kept in English. Keep the surrounding HTML unchanged.",
+        "translation_quote": "«“Bible Helps”» (left in English)"
+      },
+      {
+        "location": "<article> paragraph referencing article title \"The Foolishness of Preaching\" and following English explanatory clause",
+        "severity": "minor",
+        "source_quote": "The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!",
+        "suggested_fix": "Translate the cited article title and the explanatory clause into Russian. Preserve punctuation and question formatting. Example: «Наконец, у нас есть статья «Одурачивающее(или \"Бессмыслие проповеди\")» (The Foolishness of Preaching) — оценка об основаниях использования «призыва к алтарю» в церквях: основано ли это на Писании и истории церкви или же это метод, заимствованный у мира в последние годы?» Keep HTML tags and order intact.",
+        "translation_quote": "\"The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

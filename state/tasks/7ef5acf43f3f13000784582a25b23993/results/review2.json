@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ed3f3724-4e7d-4688-8269-94d9938d6871",
+    "response_id": "chatcmpl-EUXBcV3PZ0QOhCPTk5zMLonks90hS",
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9240,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10298
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Acts 17:28 (near: \"For in him we live, and move, and have our being… – Acts 17:28\")",
+        "severity": "major",
+        "source_quote": "For in him we live, and move, and have our being… – Acts 17:28",
+        "suggested_fix": "Übersetzen Sie die zitierte Schriftstelle wortgetreu in gängiges zeitgenössisches Deutsch und bewahren Sie die idiomatische Dreifachformel. Beispielvorschlag, der den englischen Sinn treu wiedergibt: „Denn in ihm leben, weben und sind wir“ ist falsch — stattdessen: „Denn in ihm leben, bewegen und sind wir“ oder besser: „Denn in ihm leben, bewegen wir uns und sind wir“ (je nach bevorzugter Lesart). Ersetzen Sie den vorhandenen Text durch eine der vorgeschlagenen Varianten, wobei der Versbeleg unverändert bleibt (Apostelgeschichte 17:28).",
+        "translation_quote": "<em>Denn in ihm leben, weben und sind wir – Apostelgeschichte 17:28</em>"
+      },
+      {
+        "location": "Paragraph discussing Genesis / \"the Genesis account\" (near: \"There is no magic or mystical thinking in the Genesis account.\")",
+        "severity": "minor",
+        "source_quote": "There is no magic or mystical thinking in the Genesis account.",
+        "suggested_fix": "Benutzen Sie für den biblischen Buchnamen die übliche deutsche Form; ersetzen Sie „Genese-Bericht“ durch die gebräuchliche Bezeichnung, z. B. „Schöpfungsbericht in Genesis“ oder „Schöpfungsbericht in 1. Mose/Genesis“, je nach Hausstil. Beispiel: „Es gibt keine Magie oder mystisches Denken im Schöpfungsbericht in Genesis.“",
+        "translation_quote": "Es gibt keine Magie oder mystisches Denken im Genese-Bericht."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

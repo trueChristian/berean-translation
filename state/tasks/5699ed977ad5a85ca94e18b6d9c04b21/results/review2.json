@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "21ada1bc-607e-4563-9e70-61843d931cc6",
+    "response_id": "chatcmpl-EUXBBWA4WYROKvgZVRnlHqxZErRLg",
+    "usage": {
+      "completion_tokens": 1252,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7672,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8924
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Im Sommer, als ich 17 war, kam ein gastierender Prediger („Mike\") mit seiner Familie zu Versammlungen in unsere Kirche.</p>",
+        "severity": "minor",
+        "source_quote": "In the summer I was 17, a visiting minister (‘Mike’) and his family came to our church for meetings.",
+        "suggested_fix": "Replace the non-idiomatic German adjective with the standard term. For example: <p>Im Sommer, als ich 17 war, kam ein Gastprediger („Mike\") mit seiner Familie zu Versammlungen in unsere Kirche.</p>",
+        "translation_quote": "Im Sommer, als ich 17 war, kam ein gastierender Prediger („Mike\") mit seiner Familie zu Versammlungen in unsere Kirche."
+      },
+      {
+        "location": "<p>Tief in mir sehnte ich mich verzweifelt nach Liebe und Anerkennung von meiner Familie und der Gemeinde. Das ließ mich abwärtsspiralen.</p>",
+        "severity": "minor",
+        "source_quote": "Deep down I was desperately longing for love and acceptance from my family and church. This caused me to spiral downward.",
+        "suggested_fix": "Correct the malformed verb/phrase to a natural German idiom. For example: <p>Tief in mir sehnte ich mich verzweifelt nach Liebe und Anerkennung von meiner Familie und der Gemeinde. Das ließ mich in eine Abwärtsspirale geraten.</p>",
+        "translation_quote": "Tief in mir sehnte ich mich verzweifelt nach Liebe und Anerkennung von meiner Familie und der Gemeinde. Das ließ mich abwärtsspiralen."
+      },
+      {
+        "location": "<p>Da mir Arbeit Freude machte, stürzte ich mich hinein und arbeitete lange Stunden.</p>",
+        "severity": "minor",
+        "source_quote": "Since I enjoy work, I poured myself into it and worked long hours.",
+        "suggested_fix": "Style suggestion only: consider a slightly more idiomatic phrasing. For example: <p>Weil mir die Arbeit Freude bereitete, stürzte ich mich hinein und arbeitete lange Stunden.</p> (This is optional; the current translation is understandable.)",
+        "translation_quote": "Da mir Arbeit Freude machte, stürzte ich mich hinein und arbeitete lange Stunden."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

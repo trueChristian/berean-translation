@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,25 +61,52 @@
         },
         "total_tokens": 9600
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1358,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5810,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 7168
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Throughout article (scripture references shown as English “verse”/“verses”), examples: first paragraph with reference, paragraph with “–verse 6.”, paragraph with “–verse 12.”, etc.",
-      "severity": "major",
-      "source_quote": "...– verse 3. ... –verse 6. ... –verse 12. ... –verse 15. ... –verses 16-17. ... –verse 18. ... –verses 22-23. ... – verses 21-20.",
-      "suggested_fix": "Translate the English label “verse”/“verses” into standard contemporary Bengali while leaving the chapter/verse numbers and their placement exactly as in the source. For example: “–verse 3.” → “–পদ 3.”; “–verses 16-17.” → “–পদ 16-17.” Ensure every occurrence (singular and plural) is changed consistently (e.g., use “পদ” for both singular and plural). Do not change the numeric values or their hyphenation/placement.",
-      "translation_quote": "...–verse 3. ... –verse 6. ... –verse 12. ... –verse 15. ... –verses 16-17. ... –verse 18. ... –verses 22-23. ... – verses 21-20."
+      "location": "source.html paragraph 2 (verse 6 quote)",
+      "severity": "minor",
+      "source_quote": "And [he] said, O LORD God of our fathers, art not thou God in heaven? and rulest not thou over all the kingdoms of the heathen? and in thine hand is there not power and might, so that none is able to withstand thee? –verse 6.",
+      "suggested_fix": "The translation is faithful but the Bengali wording \"সমস্ত জাতিগোষ্ঠীর কাছের রাজ্যসমূহে শাসন করো\" reads awkwardly/unnatural. Suggest a clearer idiomatic rendering that preserves the verse meaning and verse number, e.g. \"হে আমাদের পিতৃপুরুষদের ঈশ্বর, নয় কি তুমিই স্বর্গে ঈশ্বর? আর নয় কি তুমিই সমস্ত জাতির রাজ্যসমূহ শাসন করো? আর কি তোমার হাতে শক্তি ও বল নেই, যাতে কেউ তোমাকে ঠেকাতে পারে না? –পদ 6.\" Preserve HTML structure and the dash + verse number formatting.",
+      "translation_quote": "<em>এবং [তিনি] বললেন, হে প্রভু ঈশ্বর, আমাদের পিতৃপুরুষদের ঈশ্বর, না কি তুমিই স্বর্গে ঈশ্বর নও? আর না কি তুমিই সমস্ত জাতিগোষ্ঠীর কাছের রাজ্যসমূহে শাসন করো? আর কি তোকেই না শক্তি ও বল গৃহে আছে, যেন কোনো একটাও তোমার বাধা দিতে পারে না? –পদ 6. </em>"
     },
     {
-      "location": "Paragraph beginning “<p><em>আর যিহোশাফাত মাথা নমাতেন ... –verse 18. </em>” and sentence later in same paragraph with English word inserted: “আর তা আমাকে ও worship করায় ...”",
-      "severity": "major",
-      "source_quote": "\"And Jehoshaphat bowed his head with his face to the ground: and all Judah and the inhabitants of Jerusalem fell before the LORD, worshipping the LORD –verse 18.\"",
-      "suggested_fix": "Replace the English word “worship” left inside the Bengali sentence with an appropriate Bengali translation that mirrors the source meaning. For example: change “ও worship করায়” to “ওকে আরাধনা করতে অনুপ্রাণিত করে” or more simply “এবং তা আমাকে আরাধনায় অনুপ্রাণিত করে” so the sentence is fully in Bengali and faithfully conveys the original. Also translate the trailing scripture label as in the first finding (e.g., “–পদ 18.”).",
-      "translation_quote": "\"আর তা আমাকে ও worship করায় কারণ এটি এমন এক অলৌকিক কাজ... –verse 18. \""
+      "location": "source.html opening paragraph (\"The choice is mine.\")",
+      "severity": "minor",
+      "source_quote": "The choice is mine. I wrestle with my own fearful thoughts, turning them over and over in my mind as if hoping to change the situation with my messy and fearful concoctions.",
+      "suggested_fix": "Translation \"চয়েসটি আমার।\" is understandable but slightly non-idiomatic in contemporary Bengali. Suggest a smoother phrase that preserves meaning, e.g. \"পছন্দটি আমার।\" or \"নির্বাচনটা আমারই।\" No HTML change needed; keep tags and punctuation.",
+      "translation_quote": "চয়েসটি আমার। আমি নিজের ভীত চিন্তাগুলোর সঙ্গে লড়াই করি, সেগুলোকে বারবার ঘুরাই..."
+    },
+    {
+      "location": "source.html paragraph that mirrors source numbering (verses 21-20)",
+      "severity": "minor",
+      "source_quote": "And they rose early in the morning, …and as they went forth, Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+      "suggested_fix": "The English source itself lists the verse numbers in reverse order (\"verses 21-20\"). The translation correctly preserves this ordering as \"–পদ 21-20.\" This is acceptable because the instruction required preserving source metadata exactly. If this reversed order was unintended, update both English source and translation to the correct sequence (likely \"verses 20-21\"). Do not change HTML structure; if corrected, change only the text of the dash + verse numbers in both source and translation.",
+      "translation_quote": "… –পদ 21-20. তিনি যাবার সময় গাইবার জন্য গায়কদের নিয়োগ করলেন, সবকে এবং শত্রু সেনাকেও ঘোষণা করে যে তারা প্রভুর পাশে রয়েছে।"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "1ac2d6dae13e5e703d685df2d3cde7e0",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ben",
@@ -154,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

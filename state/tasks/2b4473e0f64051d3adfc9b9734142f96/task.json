@@ -2,7 +2,6 @@
   "article_id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,52 @@
         },
         "total_tokens": 15453
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1473,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9318,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10791
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html paragraph 3 (Paul’s hearing quote beginning)",
-      "severity": "major",
-      "source_quote": "During the hearing Paul <em>…reasoned of righteousness, temperance, and judgment to come, </em>[until finally] <em>Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25.</em>",
-      "suggested_fix": "Translate the quoted phrase to accurately reflect English meaning (\"reasoned\" = argued/appealed), and keep the Scripture reference. For example: <em>…han talte om rettferdighet, måtehold og den forestående dom –</em> [til slutt] <em>skjelvet Felix, og svarte: Gå nå bort; når jeg får anledning, skal jeg kalle på deg – Apostlenes gjerninger 24:25.</em>",
-      "translation_quote": "Under høringen <em>…tvang han dem om rettferdighet, avholdenhet og den kommende dom –</em> [til slutt] <em>skjelvet Felix, og svarte: Gå bort for denne gang; når jeg får anledning, skal jeg kalle på deg – Apostlenes gjerninger 24:25.</em>"
-    },
-    {
-      "location": "source.html multiple locations (language register/variety errors)",
+      "location": "Paragraph containing Romans 1:20 (within <p> under 'Skapelsen')",
       "severity": "minor",
-      "source_quote": "(Examples) \"The fool hath said in his heart, There is no God… –Psalm 14:1.\"; \"Even the smartest quantum physicists\"; \"Selv\" etc.",
-      "suggested_fix": "Use contemporary Norwegian Bokmål consistently. Replace Nynorsk or dialect forms and other non‑Bokmål spellings/words. Specific replacements: • \"Den dårlege seier i sitt hjarta: Det finst ingen Gud… – Salme 14:1.\" → \"Dårskapen sier i sitt hjerte: 'Det finnes ingen Gud'… – Salme 14:1.\" OR better Bokmål idiom: \"Dårskap sier i sitt hjerte: 'Det finnes ingen Gud'… – Salme 14:1.\" • \"Sjøl\" → \"Selv\". • \"finnst\" occurrences → \"finnes\" where appropriate. Make these changes throughout the translation to conform to Bokmål.",
-      "translation_quote": "\"<em>Den dårlege seier i sitt hjarta: Det finst ingen Gud… – Salme 14:1.</em>\"; \"Sjøl de smartest kvantefysikerne...\" (appears as 'Sjøl' and other non‑Bokmål forms)."
+      "source_quote": "Paul says For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse –Romans 1:20.",
+      "suggested_fix": "Translate the verse to better reflect the English meaning that God’s invisible attributes are clearly perceived through what has been made. Suggested rendering (preserving HTML tags): <em>For det som er usynlig ved ham fra verdens skapelse, dets evige kraft og guddom, blir klart sett og gjort forståelig ved de ting som er skapt, så de står uten unnskyldning – Romerne 1:20.</em>",
+      "translation_quote": "Paulus sier: <em>For det som kan sees ved skapningen av verden, dets usynlige egenskaper, nemlig hans evige kraft og guddom, blir tydelig skjønt – så at de er uten unnskyldning – Romerne 1:20.</em>"
     },
     {
-      "location": "source.section metadata",
-      "severity": "major",
-      "source_quote": "A WORD FROM A DOCTOR",
-      "suggested_fix": "Translate the section header into Norwegian Bokmål. For example: \"ET ORD FRA EN LEGE\" or a natural Bokmål equivalent consistent with site style. Ensure this replaces the English string in the translated metadata.",
-      "translation_quote": "A WORD FROM A DOCTOR"
+      "location": "Paragraph quoting Psalm 14:1 (under 'Forutsetninger er et problem')",
+      "severity": "minor",
+      "source_quote": "The fool hath said in his heart, There is no God… –Psalm 14:1.",
+      "suggested_fix": "Psalm 14:1 personifies the fool saying in his heart 'There is no God.' The translation renders this as if 'folly' speaks. Suggest rendering that keeps the agent as 'the fool' (den dåre) to match the source. Suggested phrasing: <em>Dåren sier i sitt hjerte: «Det finnes ingen Gud»… – Salme 14:1.</em>",
+      "translation_quote": "<em>Dårskap sier i sitt hjerte: \"Det finnes ingen Gud\"… – Salme 14:1.</em>"
+    },
+    {
+      "location": "Paragraph quoting Jeremiah 31:35-36 (under 'Universets lover står fortsatt')",
+      "severity": "minor",
+      "source_quote": "Thus saith the LORD, which giveth the sun for a light by day, and the ordinances of the moon and of the stars for a light by night, which divideth the sea when the waves thereof roar; The LORD of hosts is his name: If those ordinances depart from before me, saith the LORD, then the seed of Israel also shall cease from being a nation before me for ever –Jeremiah 31:35-36.",
+      "suggested_fix": "The translation uses 'vedtaksordningene' for 'ordinances', which is awkward and not idiomatic Norwegian in this biblical context. Use a more natural term such as 'ordningene' or 'ordningene/befalingen' to reflect the original sense. Suggested phrasing (preserving HTML tags): <em>Så sier Herren, han som gir solen lys om dagen, og ordningene for månen og stjernene som lys om natten, som deler havet når bølgene bruser; Herrens navn er Sebaot. Om disse ordningene måtte gå fra mitt åsyn, sier Herren, da skulle også Israels ætt opphøre som folk for mitt åsyn for evig – Jeremia 31:35–36.</em>",
+      "translation_quote": "<em>Så sier Herren, han som gir solen lys om dagen, og vedtaksordningene for månen og stjernene som lys om natten, som deler havet når bølgene bruser; Herren Sebaots navn er det: Om disse vedtaksordningene måtte gå bort for mitt åsyn, sier Herren, da skulle også Israels ætt opphøre som folk for mitt åsyn for alltid – Jeremia 31:35–36.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "2b4473e0f64051d3adfc9b9734142f96",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nob",
@@ -161,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

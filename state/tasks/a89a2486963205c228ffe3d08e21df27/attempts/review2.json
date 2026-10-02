@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph: \\\"But she felt guilty and ashamed.\\\"\",\"severity\":\"minor\",\"source_quote\":\"But she felt guilty and ashamed.\",\"suggested_fix\":\"Replace the Urdu phrase \\\"شرمندگی اور گناہ کے احساس\\\" with a closer rendering of the English phrase — e.g. \\\"شرمندہ اور خجیلہ محسوس کر رہی تھی\\\" — to avoid introducing the stronger theological nuance of 'sense of sin' implied by \\\"گناہ\\\".\",\"translation_quote\":\"مگر وہ شرمندگی اور گناہ کے احساس سے بھری ہوئی تھی۔\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 609,
+    "content_evidence_truncated": false,
+    "content_sha256": "7d8ccae9cb791c8a6d328a2b9856c65a2c57be056ff2eb336fd4be4935dcd0d5",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 465,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 4298
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

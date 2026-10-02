@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a2c29096-a6e8-46dc-8e7e-31bd1568a62b",
+    "response_id": "chatcmpl-EUXBQYzHidsynVNExOBJkyWvWhxAi",
+    "usage": {
+      "completion_tokens": 906,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9548
+    }
+  },
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html › Endnotes paragraph containing Finney citation (near end of article)",
+        "severity": "minor",
+        "source_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension.",
+        "suggested_fix": "Translate or localize the publisher phrase into Spanish so the quoted bibliographic sentence is fully in the target language. For example: replace \"The Belknap Press Of Harvard University\" with \"The Belknap Press de la Universidad de Harvard\" (preserving the rest of the quoted sentence and all HTML tags).",
+        "translation_quote": "** Qué es un avivamiento de la religión – Charles Grandison Finney – The Belknap Press Of Harvard University Un “Avivamiento de la Religión” presupone una decadencia."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

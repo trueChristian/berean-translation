@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "864bcd35-e671-425d-8fca-dff8abeeab2f",
+    "response_id": "chatcmpl-EUXBgVtmUx7cMrqsxCFArzbZK1cmB",
+    "usage": {
+      "completion_tokens": 1182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9008,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10190
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4 (translation) — sentence translating \"Paul had been ingrained in Jewish learning at the feet of Gamaliel\"",
+        "severity": "minor",
+        "source_quote": "Paul had been ingrained in Jewish learning at the feet of Gamaliel and was affluent in understanding both Hebrew and Greek, but in preaching the cross of Christ, he laid his learning aside.",
+        "suggested_fix": "Use a natural, idiomatic rendering for \"ingrained in Jewish learning\". Replace \"istruito nello studiosità giudaica ai piedi di Gamaliele\" with e.g. \"era stato formato nella dottrina giudaica ai piedi di Gamaliele\" or \"era stato istruito nella dottrina giudaica ai piedi di Gamaliele\" to restore clear meaning and correct Italian.",
+        "translation_quote": "Paolo era stato istruito nello studiosità giudaica ai piedi di Gamaliele ed era esperto sia in ebraico sia in greco, ma nel predicare la croce di Cristo mise da parte il suo sapere."
+      },
+      {
+        "location": "Endnotes / bibliographic and cited titles (translation) — two places",
+        "severity": "major",
+        "source_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University\n\n*** Spirit Force vs. Psychic Force – Watchman Nee",
+        "suggested_fix": "Translate the quoted bibliographic/title phrases into Italian (they are substantive quoted prose). For example: replace \"The Belknap Press Of Harvard University\" with \"The Belknap Press dell'Università di Harvard\" (or standard Italian bibliographic form) and replace \"Spirit Force vs. Psychic Force – Watchman Nee\" with an Italian rendering such as \"Forza dello Spirito contro Forza Psichica – Watchman Nee\" or, if the translator prefers to keep author names in original form, translate only the title portion into Italian while preserving the author name. Ensure these quoted titles are rendered consistently with the rest of the Italian text.",
+        "translation_quote": "** Che cos’è un Risveglio Religioso – Charles Grandison Finney – The Belknap Press Of Harvard University\n\n*** Spirit Force vs. Psychic Force – Watchman Nee"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

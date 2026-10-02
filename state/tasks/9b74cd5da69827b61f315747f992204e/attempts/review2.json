@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"The Christian’s View of Science\",\"suggested_fix\":\"Translate the title to natural contemporary Afrikaans that preserves the original meaning, for example: \\\"Die Christen se siening van wetenskap\\\" or \\\"Die Christelike siening van wetenskap\\\". Replace the title text while preserving the source HTML structure.\",\"translation_quote\":\"Die Christen se Gesig op Wetenskap\"},{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"A WORD FROM A DOCTOR\",\"suggested_fix\":\"Use a natural Afrikaans rendering with correct article capitalization and word order, for example: \\\"’n Woord van ’n dokter\\\" (or \\\"’n Woord van ’n dokter\\\" keeping site capitalization rules). Replace the section field accordingly.\",\"translation_quote\":\"’N WOORD VAN ’N DOKTER\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 851,
+    "content_evidence_truncated": false,
+    "content_sha256": "ae5ea939b412edfe52436618e18f84db9c6cbb8074ad14e5afc0d3f8b213b6a6",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10639
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

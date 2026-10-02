@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,46 @@
         },
         "total_tokens": 7822
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1008,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4664,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 3840
+        },
+        "total_tokens": 5672
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.title",
+      "location": "Paragraph beginning “I have no natural gift of rhythm. All the other verses…” (Matheson quote)",
       "severity": "major",
-      "source_quote": "O Love That Wilt Not Let Me Go",
-      "suggested_fix": "Translate the hymn title into Italian in the translation.title field and keep any punctuation/diacritics appropriate for Italian. Suggested translation: \"O amore che non mi lasciare\" (or the more idiomatic and commonly used Italian rendering: \"O amore che non volgi mai le spalle\" — translator may choose the convention used by the target publication). Do not leave the title in English.",
-      "translation_quote": "O Love, That Wilt Not Let Me Go"
+      "source_quote": "All the other verses I have ever written are manufactured articles; this came like a dayspring from on high.",
+      "suggested_fix": "Translate the sense of “manufactured articles” correctly as meaning ‘contrived’ or ‘artificial’, not ‘artigianali’. For example: “Tutte le altre strofe che ho mai scritto sono opere costruite/artificiali; questa venne come un’aurora dall’alto.” Preserve surrounding HTML structure and the emphasis tags already present.",
+      "translation_quote": "“Tutte le altre strofe che ho mai scritto sono articoli artigianali; questa venne come un aurora dall’alto.”"
     },
     {
-      "location": "source.html -> <figure> <img alt=...>",
-      "severity": "major",
-      "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
-      "suggested_fix": "Translate the image alt text into Italian and include the hymn title translated the same way as the article title. Suggested alt: \"spartito per ‘O amore che non mi lasciare'\" (or match whatever Italian title chosen above). Preserve the img tag and attributes exactly, only replace the alt attribute value.",
-      "translation_quote": "alt=\"spartito per O Love That Wilt Not Let Me Go\""
-    },
-    {
-      "location": "source.html -> paragraph starting with “For fortunately, Dr. Matheson did relate an account...” (the quoted first-person passage)",
+      "location": "Paragraph with Matheson’s first-person account (the quoted passage beginning “My hymn was composed…”)",
       "severity": "minor",
-      "source_quote": "“A genuine inspiration, I had the impression rather of having it dictated to me by some inward voice than of working it out myself.\"",
-      "suggested_fix": "Fix the Italian rendering to make the comparative construction grammatical and match the source meaning. Suggested corrected translation: “Una genuina ispirazione: ebbi piuttosto l'impressione che mi fosse stato dettato da qualche voce interiore, piuttosto che di averlo elaborato io stesso.” Replace only the Italian sentence in the existing <em>…</em> block, preserving tags and punctuation.",
-      "translation_quote": "“Una genuina ispirazione, ebbi piuttosto l’impressione che mi fosse stato dettato da qualche voce interiore che di lavorarlo io stesso."
+      "source_quote": "A genuine inspiration, I had the impression rather of having it dictated to me by some inward voice than of working it out myself.",
+      "suggested_fix": "Restore the comparative structure (‘rather ... than ...’) in Italian so the contrast is clear. For example: “Una genuina ispirazione: ebbi piuttosto l’impressione che mi fosse stato dettato da qualche voce interiore, piuttosto che d’averlo elaborato io stesso.” Keep the quote inside the same <em> tags and do not alter other HTML.",
+      "translation_quote": "“Una genuina ispirazione, ebbi piuttosto l’impressione che mi fosse stato dettato da qualche voce interiore che di lavorarlo io stesso.”"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "bdb86c9d438a27bfafc93c55d3b6a609",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ita",
@@ -161,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

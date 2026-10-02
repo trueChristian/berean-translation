@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.</p>\",\"severity\":\"minor\",\"source_quote\":\"It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.\",\"suggested_fix\":\"Use a more direct Swedish rendering of the original imperial measure or a closer metric equivalent. Either write the imperial measure in Swedish (en kvarts tum) or use a more exact metric conversion (0,64 cm) instead of 0,6 centimeter. For example: \\\"Det var ett litet snitt, bara ungefär en kvarts tum långt (cirka 0,64 cm), men det gick ganska djupt.\\\"\",\"translation_quote\":\"Det var ett litet snitt, bara ungefär 0,6 centimeter långt, men det gick ganska djupt.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 774,
+    "content_evidence_truncated": false,
+    "content_sha256": "9e783084615a4dacfcd18c5f63d96293caf780dda9bfdda94a8951529fc3476c",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4417
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

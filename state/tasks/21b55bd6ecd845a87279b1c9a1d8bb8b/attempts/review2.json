@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>... register for the draft. ...</p>\",\"severity\":\"major\",\"source_quote\":\"This Act required all men between the ages of eighteen and forty-five to register for the draft.\",\"suggested_fix\":\"Translate 'register for the draft' into correct contemporary Hebrew and preserve the legal meaning. Example replacement (inside same <p> tag): \\\"חוק זה חייב את כל הגברים בגיל בין שמונה־עשרה ועד ארבעים־וחמש להירשם לגיוס\\\" or \\\"...להירשם למ lists?\\\" — use a single idiomatic option. Keep the surrounding HTML unchanged.\",\"translation_quote\":\"\\\"חוק זה חייב את כל הגברים בין גיל שמונה־עשרה לארבעים־וחמש להירשם למצ'יטה.\\\"\"},{\"location\":\"<img src=\\\"/images/...\\\" alt=\\\"Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12\\\" loading=\\\"lazy\\\">\",\"severity\":\"major\",\"source_quote\":\"<img src=\\\"/images/articles/...-1.jpg\\\" alt=\\\"Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12\\\" loading=\\\"lazy\\\">\",\"suggested_fix\":\"Translate the image alt text into Hebrew to match the article language. Example replacement (preserve the <img> tag and attributes): alt=\\\"צלליות הרים ועופות בשעת בין ערביים מתחת לא פסלי אפסיים 6:11-12\\\" — better: alt=\\\"צלליות הרים ועופות בין ערביים תחת אגרות אל־האפסיים פרק ו׳:11-12\\\". Keep tag structure and other attributes identical.\",\"translation_quote\":\"<img src=\\\"/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg\\\" alt=\\\"Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12\\\" loading=\\\"lazy\\\">\"},{\"location\":\"<p>... perceived slackers ...</p>\",\"severity\":\"major\",\"source_quote\":\"... resulting in mob violence, property damage, and in a few rare instances, direct attacks against the perceived slackers.\",\"suggested_fix\":\"'Perceived slackers' should be translated to convey the sense 'those perceived as shirking duty' or 'נחשבו כמוסרנים' (not literal). Replace the Hebrew with an idiomatic rendering such as \\\"... והביאה לאלימות המונית, נזק לרכוש, ובמקרים נדירים גם התקפות ישירות על אלה שנתפסו כסרבני שירות\\\" or \\\"... על אלה שנתפסו כעצלנים/סרבנים\\\". Preserve the surrounding HTML.\",\"translation_quote\":\"\\\"... ובמקרים נדירים גם התקפות ישירות על אלו שנתפסו כמצהיבים.\\\"\"}],\"passed\":false,\"score\":62}",
+    "content_bytes": 2559,
+    "content_evidence_truncated": false,
+    "content_sha256": "cb322b650df7369958a4b2377d2b9c64274a4da419d5c901b328e1fd4c2900f1",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8518,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10018
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

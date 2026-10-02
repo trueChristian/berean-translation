@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -62,32 +61,46 @@
         },
         "total_tokens": 6723
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1375,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3788,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5163
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<p>Let’s stop focusing on the fact that evil seems to be prevailing...—2 Timothy 3:13-17.</p>",
+      "location": "Third paragraph (beginning \"What is happening?\" / \"কি ঘটছে?\")",
+      "severity": "major",
+      "source_quote": "I have had numerous conversations with various believers from around the country who seem to have a growing alarm about the current victorious march of evil over good, of liberal agendas over a conservative lifestyle, and the list goes on.",
+      "suggested_fix": "Translate the full sentence without adding or changing sense. A faithful Bengali rendering would be: \"আমি দেশের বিভিন্ন স্থানের বিভিন্ন বিশ্বাসীদের সঙ্গে বহুবার আলাপ করেছি, এবং তাদের মধ্যে এমন এক বাড়তে থাকা উদ্বেগ দেখা যায় যে বর্তমানে মন্দ ভালোকে হারিয়ে জয়ী হচ্ছে, লিবারাল এজেন্ডাগুলি রক্ষণশীল জীবনধারার ওপর অগ্রাসী; এবং তালিকাটি এখানেই শেষ নয়।\" Preserve the contrast structure (\"victorious march of evil over good, of liberal agendas over a conservative lifestyle\") and remove the inserted or altered phrase 'ইতিবাচক পরিবর্তনের তুলনায়' which does not appear in the English.",
+      "translation_quote": "কি ঘটছে? আমি দেশের বিভিন্ন স্থান থেকে অনেক বিশ্বাসিদের সাথে বহু কথোপকথন করেছি যারা মনে করেন যে আজকের দিনে ইতিবাচক পরিবর্তনের তুলনায় দুর্ণীতির বিজয় এবং রক্ষণশীল জীবনধারার উপর লিবারাল এজেন্ডাগুলোর ক্রমবর্ধমান অগ্রগতি সম্পর্কে তাদের মধ্যে বাড়তে থাকা উদ্বেগ রয়েছে, এবং তালিকা চলতে থাকে।"
+    },
+    {
+      "location": "Fourth paragraph (sentence about heating costs: \"the potential of unprecedented heating costs for many\")",
       "severity": "minor",
-      "source_quote": "...causing the conservatives and liberals to become even more polarized into opposing parties.",
-      "suggested_fix": "Translate \"polarized\" into Bengali rather than leaving an English word in the sentence. For example: \"রক্ষণশীলরা এবং লিবারালরা আরও বেশি করে প্রতিপক্ষের দলে বিভক্ত হয়েছে।\"",
-      "translation_quote": "... যার ফলে রক্ষণশীলরা এবং লিবারালরা আরও বেশি ধ্রুব polarized হয়ে বিপরীত দলের মধ্যে ভাগ হয়েছে।"
-    },
-    {
-      "location": "<p>Let us keep our focus fixed on the God of heaven. This is the God that Paul declared on Mars Hill—God that made the world... –Acts 17:24-25. </em></p>",
-      "severity": "major",
-      "source_quote": "This is the God that Paul declared on Mars Hill—God that made the world and all things therein... –Acts 17:24-25.",
-      "suggested_fix": "Correct the place-name translation. \"Mars Hill\" should be rendered as the conventional Bengali form referring to Acts 17 (e.g. \"মার্স হিল\" or \"মার্সের পাহাড়ে\"). Replace the phrase with: \"এঁই সেই ঈশ্বর যাকে পল মার্স হিলে ঘোষণা করেছিলেন — ... –প্রেরিতদের কর্ম ১৭:২৪-২৫।\" Preserve the surrounding HTML and emphasis tags exactly.",
-      "translation_quote": "এঁই সেই ঈশ্বর যাকে পল মায়রের হিলে ঘোষণা করেছিলেন—যিনি পৃথিবী ও তাতে থাকা সবকিছু সৃষ্টি করেছেন... –প্রেরিতদের কর্ম ১৭:২৪-২৫।"
-    },
-    {
-      "location": "<p>Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”—is it founded in the Scriptures...?!</p>",
-      "severity": "major",
-      "source_quote": "...the basis of churches using “the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!",
-      "suggested_fix": "Correct the translation of \"the altar call.\" The current Bengali \"জমে আউটকল\" is incorrect and obscures the meaning. Use a clear target-language rendering such as \"অল্টার কল\" or better, \"উপবেদনার জন্য মঞ্চে আহ্বান\" depending on style. For a literal, widely recognized form use: \" 'দলিলের আহ্বান' (altar call)\" or simply \"অল্টার কল\". Example replacement sentence: \"অবশেষে, আমরা 'অল্টার কল' ব্যবহার করে চার্চগুলোর ভিত্তি সম্পর্কে একটি মূল্যায়ন রেখেছি—এটি কি শাস্ত্র ও চার্চের ইতিহাসে ভিত্তিহীন, নাকি সাম্প্রতিক বছরগুলোতে বিশ্বের কাছ থেকে নেওয়া একটি পদ্ধতি?\" Preserve original HTML tags.",
-      "translation_quote": "অবশেষে, আমরা জমে আউটকল ব্যবহার করে চার্চগুলোর ভিত্তি সম্পর্কে একটি মূল্যায়ন রেখেছি—এটি কি শাস্ত্রে এবং চার্চের ইতিহাসে ভিত্তি রয়েছে না এটা কি এমন একটি পদ্ধতি যা চার্চ সাম্প্রতিক বছরগুলোতে বিশ্বের কাছ থেকে ধার নিয়েছে?!"
+      "source_quote": "Current skyrocketing inflation, the potential of unprecedented heating costs for many, the rumors of rising interest rates, and the ongoing shortage of goods all tend to cause a person to be jolted out of a sense of normality.",
+      "suggested_fix": "Use a Bengali word that corresponds to \"unprecedented\" (অভূতপূর্ব) rather than অননুমেয় (which means unfathomable). Suggested correction: \"বর্তমান উর্ধ্বমুখী মুদ্রাস্ফীতি, অনেকের জন্য অভূতপূর্ব তাপমাত্রা খরচের সম্ভাবনা, সুদের হারের বৃদ্ধির গুজব, এবং চলমান পণ্যের ঘাটতি—এসব সবই মানুষকে স্বাভাবিকতার অনুভূতি থেকে ঝটকিয়ে দেয়।\"",
+      "translation_quote": "বর্তমান উর্ধ্বমুখী মুদ্রাস্ফীতি, অনেকের জন্য অননুমেয় উত্তাপ খরচের সম্ভাব্যতা, সুদের হারের বৃদ্ধির গুজব, এবং চলমান পণ্যের ঘাটতি—এসব সবই সাধারণত মানুষকে স্বাভাবিকতার অনুভূতি থেকে ঝটকানো করে।"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "7f0f326b28871e25f9e21a184b4a04e3",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ben",
@@ -161,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

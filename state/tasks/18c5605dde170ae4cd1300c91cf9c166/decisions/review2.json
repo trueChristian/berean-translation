@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html <figure> first <img> alt",
+      "severity": "minor",
+      "source_quote": "A child whittling a stick with a small red-handled knife",
+      "suggested_fix": "Use a natural Hindi phrasing and correct compound: e.g. \"एक बच्चा/एक बच्ची लाल हैंडल वाले छोटे चाकू से डंडा काटते हुए\" or better yet \"एक बच्चा/बच्ची लाल हैंडल वाले छोटे चाकू से लकड़ी काटता/काटती हुआ\". Preserve gender if known from context (text uses \"Ellie,\" so feminine: \"एक बच्ची...कटती हुई\").",
+      "translation_quote": "एक छोटा बच्चा लाल-हैंडल वाले छोटे चाकू से डंडा काटते हुए"
+    },
+    {
+      "location": "source.html <figure> second <img> alt",
+      "severity": "minor",
+      "source_quote": "A rope swing hanging from a large tree",
+      "suggested_fix": "Make the Hindi idiomatic and grammatical: e.g. \"एक बड़े पेड़ से लटका रस्सी का झूला\" or \"एक बड़े पेड़ से लटकी रस्सी का झूला\".",
+      "translation_quote": "एक बड़े पेड़ से लटकी रस्सी की झूला"
+    },
+    {
+      "location": "source.html paragraph 3 (\"counties\")",
+      "severity": "minor",
+      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers",
+      "suggested_fix": "Use a more natural Hindi equivalent for 'counties' rather than the English loanword 'काउंटी(यों)'. Suggested rendering: \"जो उसके काउंटी/जिले से कई ज़िले दूर रहते थे\" or simply \"जो कई ज़िले दूर रहते थे\". Preserve plural and sense of distance.",
+      "translation_quote": "जो उसके काउंटी से कई काउंटियों दूर रहते थे"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

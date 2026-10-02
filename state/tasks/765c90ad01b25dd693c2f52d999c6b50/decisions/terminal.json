@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Use a more idiomatic Modern Greek rendering for the section title. Replace \"Αδελφή σε Αδελφή\" with \"Αδελφή προς Αδελφή\" (preserves meaning and remains contemporary Greek).",
+      "translation_quote": "Αδελφή σε Αδελφή"
+    },
+    {
+      "location": "source.html (verse quote, verse 6)",
+      "severity": "minor",
+      "source_quote": "And [he] said, O LORD God of our fathers, art not thou God in heaven? and rulest not thou over all the kingdoms of the heathen? and in thine hand is there not power and might, so that none is able to withstand thee? –verse 6.",
+      "suggested_fix": "Correct a small typographic/diacritic inconsistency in the Greek translation: replace the odd/incorrect combining accent on \"σὺ\" with the standard spelling \"συ\" or better \"εσύ\" depending on register. Suggested replacement in the quoted line: \"Και είπε, Ω Κύριε, Θεέ των πατέρων ημών, δεν είσαι εσύ Θεός στον ουρανό; και δεν κυβερνάς όλα τα βασίλεια των εθνών; και δεν είναι στη χείρα σου δύναμη και ισχύς, ώστε να μην είναι κανείς δυνατός να σου αντισταθεί; – στίχος 6.\"",
+      "translation_quote": "Και είπε, Ω Κύριε, Θεέ των πατέρων ημών, δεν είσαι συ Θεός στον ουρανό; και δεν κυβερνάς σὺ όλα τα βασίλεια των εθνών; και δεν είναι στην χείρα σου δύναμις και ισχύς, ώστε να μην είναι κανείς δυνατός να σου αντισταθεί; – στίχος 6."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

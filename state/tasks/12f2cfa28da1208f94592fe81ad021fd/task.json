@@ -2,7 +2,6 @@
   "article_id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,25 +61,30 @@
         },
         "total_tokens": 15041
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 794,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9477,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10271
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<p>...The fool hath said in his heart, There is no God… –Psalm 14:1.</p> (source paragraph beginning “The biggest problem that we see in science...”)",
-      "severity": "major",
-      "source_quote": "The fool hath said in his heart, There is no God… –Psalm 14:1.",
-      "suggested_fix": "Tradurre l’intera citazione del Salmo in italiano, preservando il riferimento bibliografico e la punteggiatura. Esempio corretto da inserire nello stesso punto e mantenendo i tag HTML esistenti: \"<em>Il pazzo ha detto nel suo cuore: Non c’è Dio… – Salmo 14:1.</em>\"",
-      "translation_quote": "<em>Il fool ha detto nel suo cuore: Non c’è Dio… – Salmo 14:1.</em> (\"Il fool\" rimane in inglese)"
-    },
-    {
-      "location": "<p>...Most of the people who died after bloodletting would probably have died anyway, but bleeding people who are really sick certainly doesn’t help them recover.</p> (source paragraph beginning “There is a real tendency to believe...”)",
-      "severity": "major",
-      "source_quote": "Most of the people who died after bloodletting would probably have died anyway, but bleeding people who are really sick certainly doesn’t help them recover.",
-      "suggested_fix": "Ripristinare il senso corretto della frase in italiano, evitando la resa incomprensibile attuale. Suggerimento di traduzione da inserire nello stesso punto mantenendo i tag HTML: \"La maggior parte delle persone che morivano dopo la salassazione probabilmente sarebbe morte comunque, ma praticare la salassazione su persone gravemente malate sicuramente non aiuta la loro guarigione.\"",
-      "translation_quote": "\"La maggior parte delle persone che morivano dopo le emorragie probabilmente sarebbe morta comunque, ma incidere contesti in cui si è gravemente malati certamente non aiuta la loro guarigione.\""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "12f2cfa28da1208f94592fe81ad021fd",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ita",
@@ -154,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

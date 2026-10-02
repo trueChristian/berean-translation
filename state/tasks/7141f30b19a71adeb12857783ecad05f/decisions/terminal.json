@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "throughout (second-person pronouns)",
+      "severity": "minor",
+      "source_quote": "Examples: 'you' and plural/formal forms vary in the English source (general second-person usage)",
+      "suggested_fix": "Use a consistent Portuguese second-person register throughout the translation. Choose either the plural/formal 'vós'/ 'vossos' or the modern singular 'tu'/'teu' or the polite 'você'/'seu' and update all instances to match. For example, change instances of 'Se estás com o coração...' to 'Se estais com o coração...' (if adopting vós/estais) or change 'Confessai as vossas culpas uns aos outros' to 'Confessa as tuas culpas...' (if adopting tu) or to 'Confesse as suas culpas uns aos outros' (if adopting você). Keep Biblical-quotation plurals (e.g., older-style 'vossas') consistent with the chosen register.",
+      "translation_quote": "Examples in translation: uses 'vós' in Tiago quote and Hebrews quote ('Confessai as vossas culpas uns aos outros'; 'para que sareis'; 'Temamos, pois, ... ficando‑nos'), but later uses singular/informal 'tu'/'teu' ('Se estás com o coração...','teu trauma','podes ser curados','Credes?')"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<article> first paragraph (date/century phrasing)",
+      "severity": "minor",
+      "source_quote": "the latter part of the 19<sup>th</sup> century",
+      "suggested_fix": "Use standard contemporary Swedish phrasing for the century. Replace the existing phrase but preserve HTML tags/order. For example: ändra 'senare delen av 1800‑talet' (replace the entire source text fragment 'later part of the 19<sup>th</sup> century' with 'senare delen av 1800‑talet').",
+      "translation_quote": "senare delen av 19<sup>th</sup> seklet."
+    },
+    {
+      "location": "<article> paragraph containing Dr. Matheson quote (\"Something happened to me...\")",
+      "severity": "minor",
+      "source_quote": "which caused me the most severe mental suffering",
+      "suggested_fix": "Correct Swedish grammar and number agreement while preserving meaning. Replace 'vilket orsakade mig den svåraste mentala lidanden' with 'vilket orsakade mig det svåraste mentala lidandet.' Keep the surrounding HTML and quotation marks unchanged.",
+      "translation_quote": "vilket orsakade mig den svåraste mentala lidanden."
+    },
+    {
+      "location": "<article> paragraph listing other hymns by Matheson (final paragraphs)",
+      "severity": "major",
+      "source_quote": "Make Me A Captive Lord, Then I Shall Be Free",
+      "suggested_fix": "Quoted substantive prose (hymn titles) must be translated into the target language. Translate the two hymn titles into Swedish (while keeping them in quotation marks and preserving HTML). For example: replace '\"Make Me A Captive Lord\" and \"Then I Shall Be Free.\"' with '\"Gör mig till fånge, Herre\" och \"Då skall jag vara fri.\"' (or another appropriate standard Swedish hymn-title rendering) ensuring punctuation and HTML structure remain unchanged.",
+      "translation_quote": "\"Make Me A Captive Lord\" och \"Then I Shall Be Free.\""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 13114
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1290,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8195,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9485
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[10]: source /article[1]/p[5]/strong[1] ('start', 'strong', ()); translation /article[1]/p[5] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<p>There they were to be molded into soldiers, prepared to kill their fellow man, and then sent overseas for that purpose. Yet their faith decreed otherwise.</p>",
+      "severity": "major",
+      "source_quote": "There they were to be molded into soldiers, prepared to kill their fellow man, and then sent overseas for that purpose.",
+      "suggested_fix": "Translate the phrase to convey the original meaning “their fellow man” (i.e., fellow human being / their fellow soldiers/citizens), not “humanity” in general. For example: «هناك كان من المقرر أن يُشكَّلوا إلى جنود، يُعدّون لقتل إخوانهم من البشر، ثم يُرسَلوا إلى الخارج لهذا الغرض.» Preserve the surrounding HTML paragraph as in the translation.",
+      "translation_quote": "هناك كان من المقرر أن يُشكَّلوا إلى جنود، يُعدون لقتل الإنسانية، ثم يُرسَلوا إلى الخارج لهذا الغرض."
+    },
+    {
+      "location": "<p>Death was ever present, claiming lives seemingly at random.</p>",
+      "severity": "minor",
+      "source_quote": "Death was ever present, claiming lives seemingly at random.",
+      "suggested_fix": "Correct the grammatical error and naturalize the phrasing in Arabic. For example: «كان الموت حاضرًا دائمًا، يفتكُّ بالأرواح كما لو كان ذلك عشوائيًا.» Preserve the paragraph HTML.",
+      "translation_quote": "كانت الموتى حاضرة دائمًا، تفتك بالأرواح كما لو كان ذلك عشوائيًا."
+    },
+    {
+      "location": "<p>MacArthur was somewhat of a prodigy of the United States military, emerging from his service in World War I as the youngest divisional commander in the Army.</p>",
+      "severity": "minor",
+      "source_quote": "MacArthur was somewhat of a prodigy of the United States military, emerging from his service in World War I as the youngest divisional commander in the Army.",
+      "suggested_fix": "Use a closer Arabic equivalent for “prodigy” rather than “miracle.” For example: «كان ماك آرثر إلى حدّ ما من المعجزة العسكرية/من المعجَزات العسكرية» is awkward; better: «كان ماك آرثر إلى حدّ ما نابغةً في الجيش الأمريكي، إذ خرج من خدمته في الحرب العالمية الأولى كأصغر قائد فرقة في الجيش.» Preserve the paragraph HTML.",
+      "translation_quote": "كان ماك آرثر نوعًا من المعجزات في الجيش الأمريكي، خرج من خدمته في الحرب العالمية الأولى كأصغر قائد فرقة في الجيش."
+    },
+    {
+      "location": "<p>On October 24, 1944, an Allied force landed on the eastern coast of the island of Leyte.</p>",
+      "severity": "minor",
+      "source_quote": "On October 24, 1944, an Allied force landed on the eastern coast of the island of Leyte.",
+      "suggested_fix": "Render the place name Leyte using the conventional Arabic form (ليتي أو ليتى — most common: «ليتي»). For example: «في 24 أكتوبر 1944، نزلت قوة حليفة على الساحل الشرقي لجزيرة ليتي.» Preserve the paragraph HTML.",
+      "translation_quote": "في 24 أكتوبر 1944، نزلت قوة حليفة على الساحل الشرقي لجزيرة ليتا."
     }
   ],
+  "finished_at": "2026-10-02T13:03:30+00:00",
   "id": "0dc79df670c4c83d7734343a438199c3",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ara",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/303eea9ede343be1d9acddc326e79733cfaca30a9ec14bd67edc70779b0f9f08.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 5458
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 676,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3514,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4190
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.title",
-      "severity": "major",
-      "source_quote": "Mother Was Right",
-      "suggested_fix": "Translate the English title into standard Bahasa Indonesia and preserve it in the translation title field. For example: <title>Ibu Benar</title> (or another idiomatic rendering such as \"Ibu Itu Benar\"). Do not change any HTML structure—replace only the text node for the title.",
-      "translation_quote": "Mother Was Right"
+      "location": "source.html paragraph: \"Just as she landed, her ankle turned and gave way under her.\"",
+      "severity": "minor",
+      "source_quote": "Just as she landed, her ankle turned and gave way under her.",
+      "suggested_fix": "Replace the translation phrase \"pergelangan kakinya tergelincir dan terkilir\" with a more direct equivalent like \"tepat saat dia mendarat, pergelangan kakinya terkilir sehingga ia kehilangan keseimbangan\" to better match the original nuance (ankle turned and gave way).",
+      "translation_quote": "Tepat saat dia mendarat, pergelangan kakinya tergelincir dan terkilir."
     },
     {
-      "location": "source.section",
-      "severity": "major",
-      "source_quote": "Children’s Corner",
-      "suggested_fix": "Translate the section name into standard Bahasa Indonesia. For example: \"Sudut Anak-anak\" or \"Sudut Anak\". Replace only the section text; keep any HTML or attribute structure unchanged.",
-      "translation_quote": "Children’s Corner"
+      "location": "source.html figure[1] alt text",
+      "severity": "minor",
+      "source_quote": "A child whittling a stick with a small red-handled knife",
+      "suggested_fix": "Include the color/detail of the handle in more natural Indonesian word order, e.g. \"Seorang anak mengukir sebuah ranting dengan pisau kecil berpegangan merah\" or \"...dengan pisau kecil bermata tajam dan gagang merah\" so the red-handled detail is clearly preserved idiomatically.",
+      "translation_quote": "Seorang anak mengukir tongkat kecil dengan pisau berpegangan merah kecil"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "36adb06daa3befcb676f0dddcb95b2c7",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ind",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d403f379edde7ed1b9230df32b8a4aa9dad598dcb4dff15ce8551751f262d6f8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

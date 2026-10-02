@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing 2 Timothy quotation (near middle)",
+      "severity": "major",
+      "source_quote": "...I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness... –2 Timothy 4:7-8.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form while keeping the chapter and verse numbers unchanged. For example: “—2 तिमोथियुस 4:7-8।” Preserve the existing punctuation and placement.",
+      "translation_quote": "...मैंने अच्छी लड़ाई लड़ी है, मैंने अपना मार्ग पूरा किया है, मैंने विश्वास बनाए रखा है: इसलिए मेरे लिए धर्म का एक मुकुट रखा गया है...—2 Timothy 4:7-8।"
+    },
+    {
+      "location": "Paragraph with 1 Peter citation (near end)",
+      "severity": "major",
+      "source_quote": "...be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form while keeping the chapter and verse numbers unchanged. For example: “—1 पतरस 3:15।” Preserve the current translated verse text and punctuation.",
+      "translation_quote": "…हमेशा तैयार रहना चाहिए कि प्रत्येक व्यक्ति को, जो हमसे कारण पूछे, हम आशा के कारण का वचन संयम और भय के साथ दें: –1 Peter 3:15."
+    },
+    {
+      "location": "Parenthetical Scripture reference earlier: (see 1 Corinthians 6:9-11)",
+      "severity": "major",
+      "source_quote": "(see 1 Corinthians 6:9-11)",
+      "suggested_fix": "Translate the English book name into the conventional Hindi form while keeping the chapter and verse numbers unchanged. For example: “(देखें 1 कुरिन्थियों 6:9-11)” or “(देखें 1 कुरिन्थियों 6:9-11)” depending on site style. Preserve the parentheses and the verse numbers.",
+      "translation_quote": "(देखें 1 Corinthians 6:9-11)"
+    },
+    {
+      "location": "Paragraph with James quotation near the end",
+      "severity": "major",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you… –James 4:8.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form while keeping the chapter and verse numbers unchanged. For example: “—याकूब 4:8।” Preserve the existing translated text and punctuation.",
+      "translation_quote": "<em>नज़दीक होओ परमेश्वर के, और वह नज़दीक होगा तुम्हारे… –James 4:8. </em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

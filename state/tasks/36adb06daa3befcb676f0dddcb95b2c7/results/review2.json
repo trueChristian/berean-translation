@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "caf914bd-546c-484f-a5ee-15d74c33cabc",
+    "response_id": "chatcmpl-EUXBXSVfsh25mFmRFOQBUUq8J6U1q",
+    "usage": {
+      "completion_tokens": 676,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4190
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph: \"Just as she landed, her ankle turned and gave way under her.\"",
+        "severity": "minor",
+        "source_quote": "Just as she landed, her ankle turned and gave way under her.",
+        "suggested_fix": "Replace the translation phrase \"pergelangan kakinya tergelincir dan terkilir\" with a more direct equivalent like \"tepat saat dia mendarat, pergelangan kakinya terkilir sehingga ia kehilangan keseimbangan\" to better match the original nuance (ankle turned and gave way).",
+        "translation_quote": "Tepat saat dia mendarat, pergelangan kakinya tergelincir dan terkilir."
+      },
+      {
+        "location": "source.html figure[1] alt text",
+        "severity": "minor",
+        "source_quote": "A child whittling a stick with a small red-handled knife",
+        "suggested_fix": "Include the color/detail of the handle in more natural Indonesian word order, e.g. \"Seorang anak mengukir sebuah ranting dengan pisau kecil berpegangan merah\" or \"...dengan pisau kecil bermata tajam dan gagang merah\" so the red-handled detail is clearly preserved idiomatically.",
+        "translation_quote": "Seorang anak mengukir tongkat kecil dengan pisau berpegangan merah kecil"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

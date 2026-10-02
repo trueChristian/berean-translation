@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning 'June 15, 2018, at 4:40 pm.' (emergency pager sentence)",
+      "severity": "minor",
+      "source_quote": "the scream of the emergency services’ pager split the peaceful afternoon as it crackled to life.",
+      "suggested_fix": "Replace the mistranslated word with the common Hebrew term for pager (e.g., \"הפייגר של שירותי החירום\") or rephrase: \"צריחת הפייגר של שירותי החירום חתכה את אחר הצהריים השקט...\"",
+      "translation_quote": "צריחת המנסר של שירותי החירום חתכה את אחר הצהריים השקט כשהיא קרקלה לחיים."
+    },
+    {
+      "location": "Paragraph describing ambulance loading the woman (sentence about stretcher/loaded in the ambulance)",
+      "severity": "minor",
+      "source_quote": "As the ambulance crew strapped her to the stretcher and loaded her in the ambulance, she was still repeating, “Where’s my baby…? I’m not ready to die...",
+      "suggested_fix": "Fix the typographical/grammatical error by separating the verb and object: change \"העמיסוה באמבולנס\" to \"העמיסו אותה באמבולנס\" (or \"והעמיסוה באמבולנס\" corrected to \"והעמיסו אותה באמבולנס\").",
+      "translation_quote": "כשהצוות האמבולנס קשר אותה על הסלאינג והעמיסוה באמבולנס, היא עדיין חזרה על, \"איפה התינוק שלי...? אני לא מוכנה למות...\""
+    },
+    {
+      "location": "Verse quotation formatting and punctuation (1 Peter 3:15 quotation)",
+      "severity": "minor",
+      "source_quote": "…be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.",
+      "suggested_fix": "The Hebrew translation preserves the verse but the surrounding punctuation and order can be smoothed for idiomatic clarity. Suggest: \"עליכם... להיות תמיד מוכנים לתת תשובה לכל אדם שיבקש מכם את סיבת התקווה שבתוככם, בענווה וביראת כבוד — 1 פטרוס 3:15.\" This keeps the printed reference and meaning intact while improving Hebrew idiom.",
+      "translation_quote": "עלינו <em>…להיות תמיד מוכנים לתת תשובה לכל אדם המבקש מכם סיבת התקוה שבתוככם בענווה ויראת כבוד: –1 פטרוס 3:15. </em>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 2 (opening sentence)",
+      "severity": "minor",
+      "source_quote": "I was more of a quiet, strong-willed child and was quickly turning into a rebellious teenager.",
+      "suggested_fix": "Translate “quiet” with a word that conveys silence/reticence rather than a negation of badness. For example: “আমি ছিলাম একটু শান্ত, জেদী প্রকৃতির শিশু…” (preserve the remainder of the sentence as translated).",
+      "translation_quote": "আমি ছিলাম একটু মন্দভাববিহীন, জেদী প্রকৃতির শিশু এবং দ্রুত বিদ্রোহী কিশোরীতে পরিণত হচ্ছিলাম।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

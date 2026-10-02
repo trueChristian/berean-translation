@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>paragraph discussing Mark 2 (paragraph beginning \"There are several examples in scripture...\")",
+      "severity": "major",
+      "source_quote": "When He was challenged by the Pharisees for forgiving sins, He said to them, “Which is easier to say <em>rise up and walk</em> or <em>thy sins be forgiven</em>”, demonstrating that He had the power to do both.",
+      "suggested_fix": "Restore the author's original wording about the two sayings. Translate the quoted comparison to Indonesian faithfully and keep the same pair of quoted phrases. For example: “…ketika orang Farisi menantang Dia karena mengampuni dosa, Ia berkata kepada mereka, ‘Manakah yang lebih mudah untuk diucapkan: <em>bangunlah dan berjalanlah</em> atau <em>dosamu diampuni</em>?’, menunjukkan bahwa Ia mempunyai kuasa untuk melakukan kedua-duanya.” Ensure this replaces the current sentence that inserts a different verse wording (about taking up a bed and going home).",
+      "translation_quote": "“Manakah yang lebih mudah untuk diucapkan: <em>dosamu diampuni</em> atau <em>bangunlah dan angkatlah tilammu dan pulanglah ke rumahmu</em>?”, menunjukkan bahwa Ia mempunyai kuasa untuk melakukan kedua-duanya."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

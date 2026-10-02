@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 3 (\"She had spent a week with her aunt and uncle who lived several counties over from hers...\")",
+      "severity": "minor",
+      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers",
+      "suggested_fix": "Replace the target-language phrase \"’n paar dorpe verder\" with a closer equivalent for \"several counties over\" such as \"’n paar distrikte verder\" or \"’n paar provinsies verder\", depending on intended administrative sense. Example fix: change \"wat ’n paar dorpe verder van hulle af gewoon het\" to \"wat ’n paar distrikte verder van hulle af gewoon het\".",
+      "translation_quote": "Sy het ’n week by haar tannie en oom gebly wat ’n paar dorpe verder van hulle af gewoon het"
+    },
+    {
+      "location": "source.html figure 1 alt attribute",
+      "severity": "minor",
+      "source_quote": "A child whittling a stick with a small red-handled knife",
+      "suggested_fix": "Minor stylistic/terminology suggestion only: the alt text is translated and acceptable. If desired for tighter idiomatic Afrikaans, consider shortening to \"’n Kind kerf aan ’n stokkie met ’n klein rooi-handvatselmes\" or keep current version. No correction required for acceptance.",
+      "translation_quote": "’n Kind kerf aan ’n stokkie met ’n klein mes met ’n rooi handvatsel."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

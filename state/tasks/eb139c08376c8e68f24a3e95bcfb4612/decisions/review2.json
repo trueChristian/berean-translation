@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3 (English: \"The following account is but a brief spark in this trying fire of strife.\")",
+      "severity": "minor",
+      "source_quote": "The following account is but a brief spark in this trying fire of strife.",
+      "suggested_fix": "Translate the metaphor more naturally in Bengali and avoid the odd noun \"সংবাদমহল.\" Suggested wording: \"নিচের বর্ণনা এই তীক্ষ্ণ সংঘাতের মধ্যে এক ক্ষুদ্র শিখা মাত্র।\" (preserve surrounding HTML tags and placement).",
+      "translation_quote": "নিম্নরূপ বর্ণনা এই জটিল সংঘাতের মধ্যে একটি ক্ষুদ্র সংবাদমহল মাত্র।"
+    },
+    {
+      "location": "Paragraph 5 (English: \"...the Oriental islands of the Far East...\")",
+      "severity": "minor",
+      "source_quote": "the Oriental islands of the Far East",
+      "suggested_fix": "Avoid the awkward transliteration \"ঐওরিয়েন্টাল\". Use a natural Bengali rendering such as \"প্রাচ্য অপূর্ব অঞ্চলের দ্বীপপুঞ্জে\" or simply \"পূর্ব এশিয়ার দ্বীপপুঞ্জে\" to match the English meaning. (Preserve HTML tags and bolding around nearby words.)",
+      "translation_quote": "পূর্বের ঐওরিয়েন্টাল দ্বীপপুঞ্জে"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

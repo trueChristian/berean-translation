@@ -2,7 +2,6 @@
   "article_id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,60 @@
         },
         "total_tokens": 15950
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1937,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9246,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11183
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening epigraph (first <p> element)",
-      "severity": "critical",
-      "source_quote": "<em>For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21. </em>",
-      "suggested_fix": "Vertaal die volledige aanhaling in Afrikaans en hou die Bybelboek- en versnommers ongewysig. Voorstel: <em>Want Christus het my nie gestuur om te doop nie, maar om die evangelie te verkondig; nie met wysheid van woorde, sodat die kruis van Christus nie òns krag ondoenlik word nie. Want vir dié wat verderf gaan, is die prediking van die kruis dwaseheid; maar vir ons wat gered word, is dit die krag van God. …want dit het God behaag deur die dwasedheid van die prediking dié wat glo te red – 1 Korintiërs 1:17-21.</em> Behou die bestaande <p> en <em> tags en die oorspronklike versreeks (1 Corinthians 1:17-21) ongewysig.",
-      "translation_quote": "<em>For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21. </em>"
-    },
-    {
-      "location": "Multiple inline Scripture quotations throughout body (examples)",
-      "severity": "critical",
-      "source_quote": "Occurrences such as: \"…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.\", \"For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10.\", \"Come unto me, …and I will give you rest –Matthew 11:28,\" \"…If any man thirst, let him come unto me, and drink –John 7:37,\" \"Repent ye therefore, and be converted, that your sins may be blotted out… –Acts 3:19,\" \"…we pray you in Christ›s stead, be ye reconciled to God –2 Corinthians 5:20.\", \"…to the Jews, and also to the Greeks, repentance toward God, and faith toward our Lord Jesus Christ –Acts 20:21.\", \"And these are they likewise which are sown on stony ground… –Mark 4:16-17.\", \"…compel them to come in, that my house may be filled –Luke 14:23\", \"… have fled for refuge to lay hold upon the hope set before us: Which hope we have as an anchor of the soul, both sure and stedfast… –Hebrews 6:18-19.\", \"So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.\", etc.",
-      "suggested_fix": "Al hierdie aanhalings van Skrif moet in Afrikaans vertaal word, met die Bybelboeknaam en die presiese hoofstuk/vers numeriese verwysing onveranderd. Gee vertaalvoorstelle in die teks waar dit voorkom. Voorbeeldvertaalings (hou HTML en versnommers soos in die bron):\n- \"…sodat die kruis van Christus nie ongegrond gemaak word nie – 1 Korintiërs 1:17.\"\n- \"Want hulle sê: Sy briewe is swaar en kragtig; maar sy voorkoms is swak en sy woord is minagtingwaardig – 2 Korintiërs 10:10.\"\n- \"Kom na My toe, en Ek sal julle rus gee – Matteus 11:28.\"\n- \"Indien iemand dors het, laat hom na My toe kom en drink – Johannes 7:37.\"\n- \"Bekeer julle dan en laat julle bekeer, sodat julle sondes uitgeroei mag word … – Handelinge 3:19.\"\n- \"En hulle wat dit sowel aan die Jode as aan die Grieke het getuig: bekering tot God en geloof in onse Here Jesus Christus – Handelinge 20:21.\"\n- \"En hierdie is hulle ook wat op klipgrond gesaai is… – Markus 4:16-17.\"\n- \"Dwing hulle in te kom, dat my huis gevul mag word – Lukas 14:23.\"\n- \"…het na Hom toe gevlug om vas te hou aan die hoop wat voor ons gestel is; welke hoop ons as 'n anker van die siel het, seker en standvastig… – Hebreërs 6:18-19.\"\n- \"So kom die geloof uit die gehoor, en die gehoor deur die woord van God – Romeine 10:17.\"\n(Behoud die bestaande <em> of ander HTML-tags waar die aanhalings staan.)",
-      "translation_quote": "Examples in translation left in English: \"…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.\", \"For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10. \", \"Come unto me, …and I will give you rest –Matthew 11:28,\" etc."
-    },
-    {
-      "location": "Endnotes block and quoted secondary sources",
+      "location": "source.html — first paragraph (italic quote)",
       "severity": "major",
-      "source_quote": "Endnotes containing English passages left untranslated, e.g. \"* “Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls and he severely criticized it. He viewed the altar call as a method to force decisions as results, but he recognized its potential abuse and dangers.” Altar Calls – Bill Brenner\" and the subsequent Spurgeon and Finney quotations and the Watchman Nee citation.",
-      "suggested_fix": "Translate the endnote explanatory material and the quoted passages into Afrikaans, keeping the cited source titles and author names intact (but note: quoted substantive prose must be translated). Examples:\n- Translate the Bill Brenner summary into Afrikaans but keep the work title 'Altar Calls – Bill Brenner' as an identifier if needed.\n- Translate the Spurgeon quotation into Afrikaans and include the citation line (title, date) unchanged. Suggested Spurgeon translation: '‘Ek sou graag die ondervragingskamer binnegaan.’ Ek durf sê jy sou, maar ons is nie bereid om aan populêre bygelowigheid toe te gee nie. Ons vrees dat in daardie kamers mense in 'n geforseerde selfvertroue verhit word. Baie min van die veronderstelde bekeerlinge van die ondervragingskamers draai goed uit. Gaan dadelik tot jou God, selfs waar jy nou is. Werp jouself op Christus, terstond, voor jy 'n duim skuif!' - Pleading and Encouragement – Charles Haddon Spurgeon – 17 Aug 1841.'\n- Translate the Finney passage summary into Afrikaans, preserving the bibliographic identifier 'What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University'.\nKeep the existing <p><em> ... </em></p> structure when inserting Afrikaans text.",
-      "translation_quote": "Endnotes remain largely in English in the translation: \"* “Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls...\" and the Finney and Spurgeon quoted passages in English."
+      "source_quote": "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21.",
+      "suggested_fix": "Translate the Scripture reference using conventional Afrikaans book name and correct the reference formatting exactly as printed in the authoritative English: replace “–1 Corinthians –1:17-21” with “—1 Korintiërs 1:17-21” (preserve the verse range and numbers unchanged). Keep the quoted Scripture translated as-is, but update the book name and punctuation in the trailing citation. Example replacement (only the citation part): “…dit het God behaag deur die dwasedheid van die prediking dié wat glo te red —1 Korintiërs 1:17-21.”",
+      "translation_quote": "…want dit het God behaag deur die dwasedheid van die prediking dié wat glo te red –1 Corinthians –1:17-21."
+    },
+    {
+      "location": "Throughout source.html — all Scripture citations (examples: “Matthew 11:28”, “John 7:37”, “Acts 3:19”, “2 Corinthians 5:20”, “Acts 20:21”, “Luke 14:23”, “Mark 4:16-17”, “Hebrews 6:18-19”, “Romans 10:17”, “1 Corinthians 4:15-16”, “1 Corinthians 11:1”, “1 Thessalonians 5:13”, etc.)",
+      "severity": "major",
+      "source_quote": "(Representative samples from source): “Come unto me, …and I will give you rest –Matthew 11:28,” “…If any man thirst, let him come unto me, and drink –John 7:37,” “Repent ye therefore, and be converted… –Acts 3:19,” “…we pray you in Christ's stead, be ye reconciled to God –2 Corinthians 5:20,” “…to the Jews, and also to the Greeks, repentance toward God, and faith toward our Lord Jesus Christ –Acts 20:21,” “compel them to come in… –Luke 14:23”, “they likewise which are sown on stony ground… –Mark 4:16-17”, “Which hope we have as an anchor of the soul… –Hebrews 6:18-19”, “So then faith cometh by hearing… –Romans 10:17”, “For though ye have ten thousand instructors… –1 Corinthians 4:15-16”, “Be ye followers of me… –1 Corinthians 11:1.”",
+      "suggested_fix": "Book names in Scripture citations must use conventional Afrikaans forms while leaving chapter and verse numbers unchanged. Replace each English book name with its standard Afrikaans equivalent (examples): Matthew → Matteus, John → Johannes, Acts → Handelinge, 2 Corinthians → 2 Korintiërs, Luke → Lukas, Mark → Markus, Hebrews → Hebreërs, Romans → Romeine, 1 Corinthians → 1 Korintiërs, 1 Thessalonians → 1 Tessalonisense. Apply these replacements consistently for every citation in the article (including in parentheses, inline citations, and endnotes). Do not change the verse numbers or ranges. Example: “Matthew 11:28” → “Matteus 11:28”; “John 3:8” → “Johannes 3:8”; “Acts 3:19” → “Handelinge 3:19”.",
+      "translation_quote": "(Representative translation samples): “–Matthew 11:28,” “–John 7:37,” “–Acts 3:19,” “–2 Corinthians 5:20,” “–Acts 20:21,” “–Luke 14:23”, “–Mark 4:16-17”, “–Hebrews 6:18-19”, “–Romans 10:17”, “–1 Corinthians 4:15-16”, “–1 Corinthians 11:1.”"
+    },
+    {
+      "location": "source.html — paragraph 3 (English→Afrikaans translation of “sinner”)",
+      "severity": "major",
+      "source_quote": "The biblical truth spoken in simplicity was sufficient of itself for God’s Holy Spirit to use to convert the sinner.",
+      "suggested_fix": "The translation currently uses the nonstandard/incorrect Afrikaans word “senter”. Replace with the standard Afrikaans word for sinner, “sondaar”. Suggested repaired sentence (preserve surrounding HTML/tags exactly): “Die bybelse waarheid wat in eenvoud gepraat is, was op sigself voldoende vir God se Heilige Gees om te gebruik om die sondaar te bekeer.”",
+      "translation_quote": "Die bybelse waarheid wat in eenvoud gepraat is, was op sigself voldoende vir God se Heilige Gees om te gebruik om die senter te bekeer."
+    },
+    {
+      "location": "source.html — heading “…Extra-Biblical” translated as “…Bybels-uitgesonder”",
+      "severity": "minor",
+      "source_quote": "…Extra-Biblical",
+      "suggested_fix": "Use a more idiomatic Afrikaans heading that preserves the English meaning. Suggestions: “…Bybel-buiten” or “…Buite die Bybel”. Replace the heading text only, preserving the H3 tag and any surrounding markup. Example: <h3>…Buite die Bybel</h3>.",
+      "translation_quote": "<h3>…Bybels-uitgesonder</h3>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:30+00:00",
   "id": "01b2c6b5ad6605d8c827c8b7f5ecfbab",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "afr",
@@ -161,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b4fa54187a6f53bb54a1fc744963a43657fb9cc366925b4147ee29ecc59e0ba6.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 12731
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1430,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8108,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9538
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[46]: source /article[1]/p[23]/em[1] ('start', 'em', ()); translation /article[1]/p[23] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph containing 2 Timothy quotation (near middle)",
+      "severity": "major",
+      "source_quote": "...I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness... –2 Timothy 4:7-8.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form while keeping the chapter and verse numbers unchanged. For example: “—2 तिमोथियुस 4:7-8।” Preserve the existing punctuation and placement.",
+      "translation_quote": "...मैंने अच्छी लड़ाई लड़ी है, मैंने अपना मार्ग पूरा किया है, मैंने विश्वास बनाए रखा है: इसलिए मेरे लिए धर्म का एक मुकुट रखा गया है...—2 Timothy 4:7-8।"
+    },
+    {
+      "location": "Paragraph with 1 Peter citation (near end)",
+      "severity": "major",
+      "source_quote": "...be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form while keeping the chapter and verse numbers unchanged. For example: “—1 पतरस 3:15।” Preserve the current translated verse text and punctuation.",
+      "translation_quote": "…हमेशा तैयार रहना चाहिए कि प्रत्येक व्यक्ति को, जो हमसे कारण पूछे, हम आशा के कारण का वचन संयम और भय के साथ दें: –1 Peter 3:15."
+    },
+    {
+      "location": "Parenthetical Scripture reference earlier: (see 1 Corinthians 6:9-11)",
+      "severity": "major",
+      "source_quote": "(see 1 Corinthians 6:9-11)",
+      "suggested_fix": "Translate the English book name into the conventional Hindi form while keeping the chapter and verse numbers unchanged. For example: “(देखें 1 कुरिन्थियों 6:9-11)” or “(देखें 1 कुरिन्थियों 6:9-11)” depending on site style. Preserve the parentheses and the verse numbers.",
+      "translation_quote": "(देखें 1 Corinthians 6:9-11)"
+    },
+    {
+      "location": "Paragraph with James quotation near the end",
+      "severity": "major",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you… –James 4:8.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form while keeping the chapter and verse numbers unchanged. For example: “—याकूब 4:8।” Preserve the existing translated text and punctuation.",
+      "translation_quote": "<em>नज़दीक होओ परमेश्वर के, और वह नज़दीक होगा तुम्हारे… –James 4:8. </em>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "e94036b2e31c4c1c6d22680dcd930372",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "hin",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

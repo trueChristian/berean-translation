@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>…<em>And we beseech you, brethren, to know them which labour among you, and are over you in the Lord, and admonish you; And to esteem them very highly in love for their work’s sake… –1 Thessalonians 5:13.</em></p>",
+      "severity": "major",
+      "source_quote": "And we beseech you, brethren, to know them which labour among you, and are over you in the Lord, and admonish you; And to esteem them very highly in love for their work’s sake… –1 Thessalonians 5:13.",
+      "suggested_fix": "Translate the quoted Scripture so it faithfully conveys the meaning of the English printed text in natural Dutch. Replace the current mistranslation with a clear rendering of the verse. For example: “En wij bidden u, broeders, dat gij kent degenen die onder u arbeiden en over u leiding hebben in de Heere, en hen vermanet; en acht hen zeer hoog in liefde om hun arbeid’s wil… – 1 Thessalonicenzen 5:13.” (Preserve the same punctuation and verse reference format used elsewhere in the article.)",
+      "translation_quote": "<em>En wij bidden u, broeders, kent die onder u arbeiden en leiding over u hebben in de Heere, en vermanen u; en acht hen zeer hoog in liefde om hun werkwent – 1 Thessalonicenzen 5:13.</em>"
+    },
+    {
+      "location": "<h3>…Gemonipuleerd geloof</h3>",
+      "severity": "minor",
+      "source_quote": "…Engineered Faith",
+      "suggested_fix": "Correct the heading typo to a standard Dutch word. Replace “Gemonipuleerd geloof” with “Gemanipuleerd geloof” (one word: Gemanipuleerd).",
+      "translation_quote": "…Gemonipuleerd geloof"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

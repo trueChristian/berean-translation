@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "919c3b48-ee2f-426e-9d10-0259cb197ed0",
+    "response_id": "chatcmpl-EUXBo2fOB0HKBdjDn2eDFi6c3wDq3",
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10639
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "The Christian’s View of Science",
+        "suggested_fix": "Translate the title to natural contemporary Afrikaans that preserves the original meaning, for example: \"Die Christen se siening van wetenskap\" or \"Die Christelike siening van wetenskap\". Replace the title text while preserving the source HTML structure.",
+        "translation_quote": "Die Christen se Gesig op Wetenskap"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "A WORD FROM A DOCTOR",
+        "suggested_fix": "Use a natural Afrikaans rendering with correct article capitalization and word order, for example: \"’n Woord van ’n dokter\" (or \"’n Woord van ’n dokter\" keeping site capitalization rules). Replace the section field accordingly.",
+        "translation_quote": "’N WOORD VAN ’N DOKTER"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

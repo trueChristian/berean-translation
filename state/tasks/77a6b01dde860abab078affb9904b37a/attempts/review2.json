@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> paragraph: \\\"Unfortunately, the opportunity to serve came at a cost.\\\" (around the middle)\",\"severity\":\"minor\",\"source_quote\":\"Unfortunately, the opportunity to serve came at a cost. The COs were young and separated from their church and family.\",\"suggested_fix\":\"Remove the stray Chinese/Japanese character and render as standard Korean: e.g. \\\"유감스럽게도 그 섬김의 기회는 대가를 치렀다.\\\" or better \\\"유감스럽게도 그 섬김의 기회에는 대가가 따랐다.\\\" Keep surrounding sentence structure unchanged.\",\"translation_quote\":\"유감스럽게도 그 섬김의 기회는 대가를伴했다.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 689,
+    "content_evidence_truncated": false,
+    "content_sha256": "72e7ae61007f8be5037d1a45e85c39e9ec12e6bb02c2c09f9d9a311fed39ac91",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1073,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8325,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9398
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

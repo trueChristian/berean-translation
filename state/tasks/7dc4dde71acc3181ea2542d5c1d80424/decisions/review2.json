@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<figcaption> (end of article)",
+      "severity": "major",
+      "source_quote": "AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.",
+      "suggested_fix": "Översätt frasen korrekt till svenska med bibelsk terminologi för 'high places'. Ett lämpligt och bibelöversättningsmässigt korrekt förslag är: \"MOT ANDLIG ONDSKA I HIMMELENS OMRÅDEN.\" Bevara figcaptionens HTML-struktur och placering oförändrad.",
+      "translation_quote": "MOT ANDLIG ONDSKA I HÖGA BUD."
+    },
+    {
+      "location": "<p>paragraph with MacArthur quote (\"I shall return.\")",
+      "severity": "major",
+      "source_quote": "“I shall return.”",
+      "suggested_fix": "Översätt MacArthurs citerade löfte till svenska. Ett lämpligt förslag är: “Jag skall återvända.” Bevara citattecken och placering i HTML exakt som i källan.",
+      "translation_quote": "\"I shall return.\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

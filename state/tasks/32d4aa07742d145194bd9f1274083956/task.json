@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,25 +61,60 @@
         },
         "total_tokens": 7417
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html — paragraph beginning \"Whenever he preached, the open Bible...\"",
-      "severity": "major",
-      "source_quote": "During the messages, his eyes looked straight at the congregation, and many went away with no clue that they just listened to a blind preacher.",
-      "suggested_fix": "Replace the Dutch phrase that mistranslates \"messages\". Use a church/sermon-appropriate term such as \"prediking\", \"preken\" or \"toespraken\". For example: \"Tijdens de preken keken zijn ogen rechtstreeks naar de gemeente, en velen gingen weg zonder te beseffen dat ze naar een blinde predikant hadden geluisterd.\" Preserve surrounding sentence structure and HTML tags.",
-      "translation_quote": "\"Tijdens de boodschappen keken zijn ogen rechtstreeks naar de gemeente, en velen gingen weg zonder te beseffen dat ze naar een blinde predikant hadden geluisterd.\""
     },
     {
-      "location": "source.section (section metadata)",
-      "severity": "minor",
-      "source_quote": "A HYMN HISTORY",
-      "suggested_fix": "Translate the section heading into standard contemporary Dutch unless the publisher requires the English heading. Suggested translation: \"EEN LIEDGESCHIEDENIS\" or a more natural editorial phrase such as \"Een hymnegeschiedenis\". Update the translation field for section accordingly.",
-      "translation_quote": "\"A HYMN HISTORY\""
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1337,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4552,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5889
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html — paragraph mentioning magazine",
+      "severity": "major",
+      "source_quote": "The hymn first appeared in the Church of Scotland monthly magazine, Life and Work, in January 1883.",
+      "suggested_fix": "Translate the magazine title into Dutch (or render it as a translated, localized form) inside the same HTML structure. For example: replace 'Life and Work' with 'Life and Work (maandblad van de Church of Scotland)' or a direct Dutch rendering 'Life and Work' → 'Leven en Werk' if a literal translation is preferred. Preserve the <em> tag and surrounding text exactly as in the translation HTML.",
+      "translation_quote": "Het hymne verscheen voor het eerst in het maandelijks tijdschrift van de Church of Scotland, Life and Work, in januari 1883."
+    },
+    {
+      "location": "source.html — paragraph listing Matheson’s devotional works",
+      "severity": "critical",
+      "source_quote": "The later years of Matheson’s life from the age of 57 to his death at age 64 were spent in writing some of the finest devotional writings in the English tongue, including Moments on the Mount, Voice of the Spirit, and Rests by the River.",
+      "suggested_fix": "Translate the titles of the quoted devotional works into Dutch (they are rendered as quoted substantive prose and must be translated). Preserve the original punctuation and <em> tags if present. Suggested translations (narrow, editable): 'Moments on the Mount' → 'Momenten op de Berg'; 'Voice of the Spirit' → 'Stem van de Geest'; 'Rests by the River' → 'Rust bij de Rivier'. Insert them in place of the English titles, keeping the rest of the sentence unchanged.",
+      "translation_quote": "De latere jaren van Matheson’s leven, van zijn 57ste tot zijn dood op 64‑jarige leeftijd, werden besteed aan het schrijven van enkele van de mooiste devotionele geschriften in de Engelse taal, waaronder Moments on the Mount, Voice of the Spirit en Rests by the River."
+    },
+    {
+      "location": "source.html — paragraph listing other hymns",
+      "severity": "major",
+      "source_quote": "Although this is his only hymn found in most hymnals, he did write a few other fine hymns, including “Make Me A Captive Lord”, and “Then I Shall Be Free.”",
+      "suggested_fix": "Translate the quoted hymn titles into Dutch (quoted hymn/prose must be rendered in the target language). Suggested translations: 'Make Me A Captive Lord' → 'Maak Mij een Geketende Heer' (or 'Maak Mij, Heer, een Gevangene' depending on preferred idiom); 'Then I Shall Be Free' → 'Dan Zal Ik Vrij Zijn'. Replace the English titles inside the quotation marks, preserving the quotation marks and HTML structure.",
+      "translation_quote": "Hoewel dit zijn enige hymne is die in de meeste liederenboeken voorkomt, schreef hij nog enkele andere fijne gezangen, waaronder “Make Me A Captive Lord” en “Then I Shall Be Free.”"
+    },
+    {
+      "location": "source.html — image alt text",
+      "severity": "major",
+      "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+      "suggested_fix": "Translate the alt text so the entire alt attribute is in Dutch and the hymn title is the translated title used in the article (not left in English). For example: alt=\"Bladmuziek voor O Liefde, die Mij Niet Zal Loslaten\". Preserve the <img> tag and other attributes unchanged.",
+      "translation_quote": "alt=\"Bladmuziek voor O Love That Wilt Not Let Me Go\""
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "32d4aa07742d145194bd9f1274083956",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nld",
@@ -154,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"Ze had a week...\" (translation paragraph 3)",
+      "severity": "minor",
+      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.",
+      "suggested_fix": "Use a more idiomatic Dutch word for \"counties\". Replace \"enkele graafschappen verderop\" with \"enkele county's verderop\" or better: \"enkele county's verderop\" (if preserving the English administrative sense) or \"een paar county's verderop\" or rephrase to \"die verderop woonden\" to avoid an awkward loan. Example: \"Ze had een week doorgebracht bij haar tante en oom die verderop woonden, en daar had haar neef Paul...\"",
+      "translation_quote": "Ze had een week bij haar tante en oom doorgebracht die enkele graafschappen verderop woonden, en daar had haar neef Paul haar een mes gegeven dat hij gemaakt had."
+    },
+    {
+      "location": "Paragraph: \"She had been a foolish little girl...\" (translation paragraph 13)",
+      "severity": "minor",
+      "source_quote": "She had been a foolish little girl to not go immediately to her mother and confess what she had done.",
+      "suggested_fix": "Improve Dutch idiom and grammar. Replace \"Ze was een dwaas meisje geweest\" with the more natural \"Ze was een dwaas meisje geweest\" → better: \"Ze was een dwaas meisje geweest om niet meteen naar haar moeder te gaan en te belijden wat ze had gedaan.\" Or more idiomatically: \"Ze was kinderlijk dwaas geweest om niet meteen naar haar moeder te gaan en te vertellen wat ze had gedaan.\"",
+      "translation_quote": "Ze was een dwaas meisje geweest om niet meteen naar haar moeder te gaan en te belijden wat ze gedaan had."
+    },
+    {
+      "location": "Paragraph: \"They need to know those wrong things...\" (translation final paragraph)",
+      "severity": "minor",
+      "source_quote": "They need to know those wrong things you do, no matter how embarrassed or ashamed you might feel.",
+      "suggested_fix": "Avoid redundant synonyms in Dutch. Replace \"hoe beschaamd of schaamtevol je je ook kunt voelen\" with a single natural phrasing such as \"hoe beschaamd je je ook voelt\" or \"hoe vernederd of beschaamd je je ook voelt.\" Example: \"Ze moeten weten van de verkeerde dingen die je doet, hoe beschaamd je je ook voelt.\"",
+      "translation_quote": "Ze moeten weten van die verkeerde dingen die je doet, hoe beschaamd of schaamtevol je je ook kunt voelen."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

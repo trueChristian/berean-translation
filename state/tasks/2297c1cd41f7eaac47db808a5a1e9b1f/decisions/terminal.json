@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Acts 17:24-25 (source.html second to last sentence of fourth paragraph)",
+      "severity": "major",
+      "source_quote": "—God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25.",
+      "suggested_fix": "Translate the verbs and clauses to convey the original meaning: God does not 'dwell' in temples made with hands and is not 'served' (or 'worshipped') with men's hands as if he needed anything. Replace the current phrasing with a natural Kiswahili rendering that preserves those meanings. For example: «—Mungu aliyeumba dunia na vitu vyote vilivyo ndani yake; kwa kuwa yeye ndiye Bwana wa mbingu na dunia, hafanyi makazi ndani ya madhabahu yaliyojengwa kwa mikono; wala haisifiwi kwa mikono ya watu, kana kwamba anahitaji kitu chochote; kwa maana yeye ndiye anayewapa wote uhai, pumzi, na vitu vyote. – Matendo 17:24-25.»",
+      "translation_quote": "—Mungu ambaye aliumba dunia na vitu vyote vilivyo ndani yake; kwa kuwa yeye ndiye Bwana wa mbingu na dunia, hafaili kuishi katika madhabahu yaliyojengwa kwa mikono; wala haisifiwi kwa mikono ya watu, kana kwamba anahitaji kitu chochote; kwa maana yeye ndiye anayewapa wote uhai, pumzi, na vitu vyote; – Matendo 17:24-25."
+    },
+    {
+      "location": "Paragraph describing crucifixion (paragraph after Hebrews 12:2 quotation)",
+      "severity": "major",
+      "source_quote": "It seemed to those looking on that Satan had the complete upper hand when Jesus was crucified and buried.",
+      "suggested_fix": "Correct the Kiswahili verb and phrasing to clearly convey 'when Jesus was crucified and buried.' The current rendering contains a nonstandard/incorrect verb ('alikulikwa msalabani'). Use a standard phrasing such as: \"Kwa walioangalia, ilionekana kuwa Shetani alikuwa na nguvu kabisa wakati Yesu alipomalishwa msalabani na kuzikwa.\" or \"... wakati Yesu aliposalibishwa na kuzikwa.\"",
+      "translation_quote": "Ilionekana kwa walioangalia kuwa Shetani alikuwa na nguvu kabisa wakati Yesu alikulikwa msalabani na kuzikwa."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

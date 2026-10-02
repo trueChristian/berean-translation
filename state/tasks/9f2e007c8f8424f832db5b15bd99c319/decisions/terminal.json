@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "VICTORIOUS CHRISTIAN LIVING",
+      "suggested_fix": "Rendre le titre de section en français idiomatique. Par exemple : « VIE CHRÉTIENNE VICTORIEUSE » ou « VICTOIRE DANS LA VIE CHRÉTIENNE ». Conserver la casse que l'éditeur souhaite.",
+      "translation_quote": "VICTOIRE DANS LA VIE CHRÉTIENNE"
+    },
+    {
+      "location": "source.subtitle",
+      "severity": "minor",
+      "source_quote": "The Discipleship Series",
+      "suggested_fix": "La traduction actuelle (« La série sur le discipulat ») est compréhensible mais un peu lourde. Proposer une alternative plus idiomatique : « Série sur le discipulat » ou « La série du discipulat ». Conserver le champ subtitle tel quel dans le HTML.",
+      "translation_quote": "La série sur le discipulat"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Discipleship—The Path of Healing",
+      "suggested_fix": "La traduction « Discipulat — Le chemin de la guérison » est correcte. Option stylistique : remplacer le tiret cadratin par un tiret sans espace si l'éditeur préfère (« Discipulat — Le chemin de la guérison »). Aucun changement obligatoire.",
+      "translation_quote": "Discipulat — Le chemin de la guérison"
+    },
+    {
+      "location": "<p>…Psalm 103:1-5</p>",
+      "severity": "minor",
+      "source_quote": "Who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies; Who satisfieth thy mouth with good things; so that thy youth is renewed like the eagle’s –Psalm 103:1-5.",
+      "suggested_fix": "Le rendu français choisi (« Qui rachète ta vie de la fosse ») est une interprétation. Pour rester plus proche du sens littéral de l'anglais « from destruction », proposer : « Qui rachète ta vie de la destruction » ou employer une traduction biblique courante en français : « Qui rachète ta vie de la fosse » uniquement si le texte source voulait « the pit ». Choisir l'une et l'appliquer dans le même passage pour cohérence avec la version biblique utilisée dans l'article.",
+      "translation_quote": "Qui rachète ta vie de la fosse; qui te couronne de bonté et de miséricorde; Qui rassasie de biens ta jeunesse; et te fait rajeunir comme l'aigle –Psaume 103:1-5."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

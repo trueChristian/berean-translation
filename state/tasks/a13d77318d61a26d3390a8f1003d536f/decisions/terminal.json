@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4 (source.html) / Paragraph 4 (translation.html) — sentence about Paul's Jewish education",
+      "severity": "minor",
+      "source_quote": "Paul had been ingrained in Jewish learning at the feet of Gamaliel and was affluent in understanding both Hebrew and Greek,",
+      "suggested_fix": "Use a natural Indonesian verb for being taught/trained. Replace \"Paulus telah dicetak dalam pelajaran Yahudi di kaki Gamaliel\" with e.g. \"Paulus telah dididik dalam pelajaran Yahudi di bawah Gamaliel\" or \"Paulus memperoleh pendidikan Yahudi di kaki Gamaliel\" to convey the original meaning clearly and idiomatically.",
+      "translation_quote": "Paulus telah dicetak dalam pelajaran Yahudi di kaki Gamaliel dan mahir memahami baik Ibrani maupun Yunani,"
+    },
+    {
+      "location": "Paragraph 2 (source.html) / Paragraph 2 (translation.html) — phrase describing the donkey",
+      "severity": "minor",
+      "source_quote": "Even the rude donkey is appreciated on Good Friday",
+      "suggested_fix": "\"Rude donkey\" in this context means a humble/simple donkey rather than \"kaku\" (stiff). Replace \"keledai yang kaku\" with a more accurate idiom such as \"keledai yang sederhana\" or \"keledai yang rendah hati\".",
+      "translation_quote": "Bahkan keledai yang kaku pun dihargai pada Jumat Agung"
+    },
+    {
+      "location": "Heading near \"…Di Luar-Perjanjian (Extra-Biblical)\" (translation.html)",
+      "severity": "minor",
+      "source_quote": "…Extra-Biblical",
+      "suggested_fix": "The heading should use a standard Indonesian rendering of the concept. Replace \"…Di Luar-Perjanjian (Extra-Biblical)\" with e.g. \"…Di Luar Alkitab (Extra‑Biblical)\" or \"…Di Luar Kitab Suci (Extra‑Biblical)\" to avoid confusion; keep the parenthetical English if desired but ensure the Indonesian is clear.",
+      "translation_quote": "…Di Luar-Perjanjian (Extra-Biblical)"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

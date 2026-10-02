@@ -2,7 +2,6 @@
   "article_id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,18 +61,46 @@
         },
         "total_tokens": 14047
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1182,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9008,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10190
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph starting \"Paul had been ingrained\" (third full paragraph) and subsequent paragraph where the name appears",
-      "severity": "major",
+      "location": "Paragraph 4 (translation) — sentence translating \"Paul had been ingrained in Jewish learning at the feet of Gamaliel\"",
+      "severity": "minor",
       "source_quote": "Paul had been ingrained in Jewish learning at the feet of Gamaliel and was affluent in understanding both Hebrew and Greek, but in preaching the cross of Christ, he laid his learning aside.",
-      "suggested_fix": "Replace the Spanish form \"Pablo\" with the standard Italian proper name \"Paolo\" wherever it appears. Preserve surrounding HTML and punctuation. Example fix: change \"Pablo era stato istruito...\" to \"Paolo era stato istruito...\"",
-      "translation_quote": "Pablo era stato istruito nello studiosità giudaica ai piedi di Gamaliele ed era esperto sia in ebraico sia in greco, ma nel predicare la croce di Cristo mise da parte il suo sapere."
+      "suggested_fix": "Use a natural, idiomatic rendering for \"ingrained in Jewish learning\". Replace \"istruito nello studiosità giudaica ai piedi di Gamaliele\" with e.g. \"era stato formato nella dottrina giudaica ai piedi di Gamaliele\" or \"era stato istruito nella dottrina giudaica ai piedi di Gamaliele\" to restore clear meaning and correct Italian.",
+      "translation_quote": "Paolo era stato istruito nello studiosità giudaica ai piedi di Gamaliele ed era esperto sia in ebraico sia in greco, ma nel predicare la croce di Cristo mise da parte il suo sapere."
+    },
+    {
+      "location": "Endnotes / bibliographic and cited titles (translation) — two places",
+      "severity": "major",
+      "source_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University\n\n*** Spirit Force vs. Psychic Force – Watchman Nee",
+      "suggested_fix": "Translate the quoted bibliographic/title phrases into Italian (they are substantive quoted prose). For example: replace \"The Belknap Press Of Harvard University\" with \"The Belknap Press dell'Università di Harvard\" (or standard Italian bibliographic form) and replace \"Spirit Force vs. Psychic Force – Watchman Nee\" with an Italian rendering such as \"Forza dello Spirito contro Forza Psichica – Watchman Nee\" or, if the translator prefers to keep author names in original form, translate only the title portion into Italian while preserving the author name. Ensure these quoted titles are rendered consistently with the rest of the Italian text.",
+      "translation_quote": "** Che cos’è un Risveglio Religioso – Charles Grandison Finney – The Belknap Press Of Harvard University\n\n*** Spirit Force vs. Psychic Force – Watchman Nee"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "85e13c35066a3c375c2e1bea055613a8",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ita",
@@ -147,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b4fa54187a6f53bb54a1fc744963a43657fb9cc366925b4147ee29ecc59e0ba6.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

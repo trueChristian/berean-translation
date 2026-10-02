@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph: \"Four thousand miles to the east...\" (source.html and translation.html)",
+      "severity": "minor",
+      "source_quote": "Instead of the <strong>hearts</strong> and<strong> minds</strong> of those involved in this battle.",
+      "suggested_fix": "In the translation, replace the untranslated English conjunction \"and\" with the French \"et\", preserving the existing <strong> tags and spacing. For example: \"Au lieu des combats <strong>physiques</strong> sur les îles orientales de l’Extrême-Orient, cette bataille se livrerait dans les <strong>cœurs</strong> et <strong>esprits</strong> de ceux qui y participaient.\"",
+      "translation_quote": "Au lieu des combats <strong>physiques</strong> sur les îles orientales de l’Extrême-Orient, cette bataille se livrerait dans les <strong>cœurs</strong> and<strong> esprits</strong> de ceux qui y participaient."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

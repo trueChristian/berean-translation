@@ -2,7 +2,6 @@
   "article_id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,18 +61,38 @@
         },
         "total_tokens": 13431
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1018,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8642,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9660
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph about Mark 2 (the paralytic)",
-      "severity": "major",
-      "source_quote": "“Thy sins be forgiven thee.” Then He said, “Rise up and walk.”",
-      "suggested_fix": "Translate the quoted sayings exactly as printed in the authoritative English, without adding words. Replace the translation that adds an address with a faithful rendering of the English phrase. For example: “‘Teus pecados te são perdoados.’ Depois disse: ‘Levanta‑te e anda.’” (preserve punctuation and the order of the two statements as in the source).",
-      "translation_quote": "“Filho, perdoados te são os teus pecados.” Depois disse: “Levanta‑te, toma o teu leito e vai para tua casa.”"
+      "location": "throughout (second-person pronouns)",
+      "severity": "minor",
+      "source_quote": "Examples: 'you' and plural/formal forms vary in the English source (general second-person usage)",
+      "suggested_fix": "Use a consistent Portuguese second-person register throughout the translation. Choose either the plural/formal 'vós'/ 'vossos' or the modern singular 'tu'/'teu' or the polite 'você'/'seu' and update all instances to match. For example, change instances of 'Se estás com o coração...' to 'Se estais com o coração...' (if adopting vós/estais) or change 'Confessai as vossas culpas uns aos outros' to 'Confessa as tuas culpas...' (if adopting tu) or to 'Confesse as suas culpas uns aos outros' (if adopting você). Keep Biblical-quotation plurals (e.g., older-style 'vossas') consistent with the chosen register.",
+      "translation_quote": "Examples in translation: uses 'vós' in Tiago quote and Hebrews quote ('Confessai as vossas culpas uns aos outros'; 'para que sareis'; 'Temamos, pois, ... ficando‑nos'), but later uses singular/informal 'tu'/'teu' ('Se estás com o coração...','teu trauma','podes ser curados','Credes?')"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "7141f30b19a71adeb12857783ecad05f",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "por",
@@ -147,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

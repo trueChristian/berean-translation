@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 8601
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1280,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5171,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6451
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning \"De morgen brak aan;...\" (translation paragraph containing verse citation “– verzen 20-21.”)",
-      "severity": "major",
-      "source_quote": "… and as they went forth, Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
-      "suggested_fix": "Restore the original verse reference order exactly as in the authoritative English: use “– versen 21-20.” (Preserve the unusual order rather than 'correcting' it.)",
-      "translation_quote": "… en als zij uitgingen, stond Jehoshafat en zeide, …Gelooft in den HEERE, uw God, zo zult gij bevestigd worden; gelooft zijne profeten, zo zult gij voorspoedig zijn. En… hij stelde zangers voor den HEERE aan, die de schoonheid der heiligheid loven zouden, terwijl zij voor het leger uitgingen… – verzen 20-21."
+      "location": "Paragraph beginning \"While they stood before the Lord...\" (third full paragraph after first scripture block)",
+      "severity": "minor",
+      "source_quote": "As they stood before the Lord, waiting for Him to speak, the Spirit of the Lord came down and God gave them the words of help and hope that they were desperate for.",
+      "suggested_fix": "Adjust Dutch sentence order/subject to read more naturally while preserving meaning and theology. For example: replace \"...en gaf God hun de woorden van hulp en hoop waar ze zo naar snakten.\" with \"...en gaf Hij hun de woorden van hulp en hoop waar ze zo naar snakten.\" or \"...en gaf God hen de woorden van hulp en hoop waar ze zo naar snakten.\" This keeps the original sense that God (and the Spirit) provided the words.",
+      "translation_quote": "...terwijl ze voor de HEERE stonden en wachtten tot Hij zou spreken, kwam de Geest des HEEREN op hen neer en gaf God hun de woorden van hulp en hoop waar ze zo naar snakten."
     },
     {
-      "location": "Throughout (name of king: multiple paragraphs: opening paragraph, the paragraph ending with \"...de woorden van Jehoshafat, de koning van Juda.\")",
+      "location": "All passages quoting Scripture (throughout)",
       "severity": "minor",
-      "source_quote": "Jehoshaphat",
-      "suggested_fix": "Make the king's name consistent with the authoritative English spelling used in source.title/source.html. Use a single Dutch rendering throughout (e.g., “Jehoshaphat”) to match the source author name and preserve fidelity.",
-      "translation_quote": "Jehoshafat (also appears as Jehoshafat in several paragraphs)"
-    },
-    {
-      "location": "Paragraph beginning \"En Jehoshafat boog zijn hoofd...\" (paragraph containing “– vers 18.” and the phrase about God doing a miracle)",
-      "severity": "minor",
-      "source_quote": "…because it’s a miracle which only the all-mighty, all-powerful God can do.",
-      "suggested_fix": "The English paired synonyms are 'all-mighty, all-powerful.' The translation uses 'almachtige, alomtegenwoordige' (the second term means 'omnipresent'), which changes the nuance. Change 'alomtegenwoordige' to a closer equivalent of 'all-powerful' such as 'almachtige, almachtige' (avoid repetition) or better: 'de almachtige, alomtegenwoordige' is incorrect for 'all-powerful.' Prefer 'de almachtige, de almachtige' is awkward. Suggested precise fix: replace 'almachtige, alomtegenwoordige God' with 'almachtige, almachtige God' is not idiomatic; better: 'de almachtige God' or 'de almachtige, almachtige God' is redundant. Recommended wording: 'alleen de almachtige God' or 'alleen de almachtige, almachtige God' — ideally: 'alleen de almachtige God' (concise and faithful).",
-      "translation_quote": "…omdat het een wonder is dat alleen de almachtige, alomtegenwoordige God kan doen."
+      "source_quote": "Examples: \"O LORD God of our fathers, art not thou God in heaven? and rulest not thou over all the kingdoms of the heathen? ... –verse 6.\"; \"Be not afraid nor dismayed by reason of this great multitude... –verse 15.\" (multiple KJV-style quotations)",
+      "suggested_fix": "Translation preserves the quoted Scripture but uses archaic-form Dutch (HEERE in capitals; Gij/u alternation; older pronouns and syntax). The client requested standard contemporary Dutch. If contemporary Bible-style language is required, consider using a modern Dutch Bible register consistently (e.g. 'Heer' instead of 'HEERE', 'u' consistently rather than 'Gij'). This is a stylistic recommendation only; it must not change theological meaning or verse numbering. Example change: change 'HEERE' to 'Heer' and modernize 'Gij' → 'u' and 'uw' where appropriate, keeping all verse markers unchanged.",
+      "translation_quote": "Several places, e.g. \"HEERE\" used throughout the verse quotations: \"HEERE, God onzer vaderen, zijt Gij niet God in den hemel? ... – vers 6.\" and similar older forms elsewhere."
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "78c1a5bdef87e088112d3e0a9f14c1e6",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nld",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

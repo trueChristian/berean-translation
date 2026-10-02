@@ -2,7 +2,6 @@
   "article_id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,46 @@
         },
         "total_tokens": 14548
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1182,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8827,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10009
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html opening paragraph and multiple inline Scripture quotations (e.g. 1 Corinthians 1:17-21; 2 Corinthians 10:10; Mark 4:16-17; John 3:8; Romans 10:17; Hebrews 6:18-19; Luke 14:23; Matthew 11:28; John 7:37; Acts 3:19; 2 Corinthians 5:20; Acts 20:21; 1 Corinthians 4:15-16; 1 Corinthians 11:1; 1 Thessalonians 5:13)",
-      "severity": "critical",
-      "source_quote": "<em>For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21. </em> (and other Scripture quotations shown in English throughout the article)",
-      "suggested_fix": "Translate every quoted Scripture passage into contemporary Dutch, preserving the exact chapter and verse numbers and the placement of the reference. Do not change or remove the verse numbers/ranges or the order of references. Example replacement for the opening quote (use standard Dutch Bible phrasing consistent with the publication): “Want Christus heeft mij niet gezonden om te dopen, maar om het Evangelie te verkondigen; niet in de wijsheid der woorden, opdat het kruis van Christus niet worde tenietgedaan. Want de prediking van het kruis is voor hen die verloren gaan een dwaasheid, maar voor ons die behouden worden is het de kracht van God. …want het heeft God behaagd door de dwaasheid der prediking hen te behouden die geloven – 1 Korintiërs 1:17-21.” Apply the same treatment to each Scripture block (e.g., translate 2 Corinthians 10:10, Mark 4:16-17, John 3:8, Rom 10:17, Heb 6:18-19, Luke 14:23, Matt 11:28, John 7:37, Acts 3:19, 2 Cor 5:20, Acts 20:21, 1 Cor 4:15-16, 1 Cor 11:1, 1 Thess 5:13), keeping the verse references exactly as in the English source.",
-      "translation_quote": "The translation leaves those Scripture quotations in English (for example: “For Christ sent me not to baptize... –1 Corinthians –1:17-21.” and “For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10.” etc.)"
+      "location": "<p>…<em>And we beseech you, brethren, to know them which labour among you, and are over you in the Lord, and admonish you; And to esteem them very highly in love for their work’s sake… –1 Thessalonians 5:13.</em></p>",
+      "severity": "major",
+      "source_quote": "And we beseech you, brethren, to know them which labour among you, and are over you in the Lord, and admonish you; And to esteem them very highly in love for their work’s sake… –1 Thessalonians 5:13.",
+      "suggested_fix": "Translate the quoted Scripture so it faithfully conveys the meaning of the English printed text in natural Dutch. Replace the current mistranslation with a clear rendering of the verse. For example: “En wij bidden u, broeders, dat gij kent degenen die onder u arbeiden en over u leiding hebben in de Heere, en hen vermanet; en acht hen zeer hoog in liefde om hun arbeid’s wil… – 1 Thessalonicenzen 5:13.” (Preserve the same punctuation and verse reference format used elsewhere in the article.)",
+      "translation_quote": "<em>En wij bidden u, broeders, kent die onder u arbeiden en leiding over u hebben in de Heere, en vermanen u; en acht hen zeer hoog in liefde om hun werkwent – 1 Thessalonicenzen 5:13.</em>"
     },
     {
-      "location": "Endnotes / quoted non-biblical source material (Endnotes: Finney quote, Spurgeon quote, Watchman Nee citation)",
-      "severity": "major",
-      "source_quote": "<em>** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension. Almost all the religion in the world has been produced by revivals. God has found it necessary to take advantage of the excitability there is in mankind, to produce powerful excitements among them, before he can lead them to obey. Men are so sluggish, there are so many things to lead their minds off from religion, and to oppose the influence of the gospel that it is necessary to raise an excitement among them, till the tide rises so high as to sweep away the opposing obstacles. They must be so excited that they will break over these counteracting influences, before they will obey God.</em> (and other endnote quotations left in English)",
-      "suggested_fix": "Translate the endnote quotations and all other substantive quoted prose (non-biblical citations and long quoted passages) into Dutch, preserving the attribution and the original titles/identifiers where appropriate. For example translate Finney’s quoted paragraph into Dutch and keep the bibliographic attribution in the same order and structure (do not alter HTML tags). Likewise translate the Spurgeon excerpt and the Watchman Nee line into Dutch while preserving the citation lines (author, title) in their original positions. Do not leave substantive quoted prose in English.",
-      "translation_quote": "Endnotes and cited passages remain in English in the translation (e.g., the Finney paragraph and the Spurgeon enquiry-room quotation are un-translated)."
-    },
-    {
-      "location": "Several emphasized inline non-scripture quotations left in English (e.g. “lest the cross of Christ should be made of none effect –1 Corinthians 1:17.”; “For his letters... –2 Corinthians 10:10.”; other single-verse inline quotes)",
-      "severity": "major",
-      "source_quote": "Inline emphasized sentences that are direct quotations of Scripture are left in English in the translation, for example: <em>…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.</em> and <em>For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10. </em>",
-      "suggested_fix": "Translate these inline quoted verses into Dutch while keeping the reference and placement unchanged and preserving emphasis tags and punctuation. Example: replace “<em>…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.</em>” with the Dutch rendering “<em>…opdat het kruis van Christus niet tenietgedaan worde – 1 Korintiërs 1:17.</em>” (or a comparable standard Dutch Bible wording) and similarly for other inline quotations.",
-      "translation_quote": "Inline Scripture quotations remain in English in translation (see examples above)."
+      "location": "<h3>…Gemonipuleerd geloof</h3>",
+      "severity": "minor",
+      "source_quote": "…Engineered Faith",
+      "suggested_fix": "Correct the heading typo to a standard Dutch word. Replace “Gemonipuleerd geloof” with “Gemanipuleerd geloof” (one word: Gemanipuleerd).",
+      "translation_quote": "…Gemonipuleerd geloof"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "a1559f9109315d1f774952ed10f84133",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nld",
@@ -161,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b4fa54187a6f53bb54a1fc744963a43657fb9cc366925b4147ee29ecc59e0ba6.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

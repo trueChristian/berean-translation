@@ -2,7 +2,6 @@
   "article_id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 17970
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2197,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11515,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13712
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.html — opening paragraph (Ephesians 4:8)",
+      "severity": "major",
+      "source_quote": "Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men –Ephesians 4:8.",
+      "suggested_fix": "Translate the verse so it conveys the sense “leading captivity captive” (i.e. making the captive captive / taking captive those held in bondage), not “sent the captives to a kingdom.” For example: “Kwa hivyo anasema, ‘Alipopanda juu, alileta mafungwa wakiwa wawajibikaji, na akawapa wanadamu zawadi’ – Waefeso 4:8.” Preserve the verse as a quoted Scripture in Swahili and keep the book and verse number unchanged.",
+      "translation_quote": "“Kwa sababu hiyo anasema, Alipoongeza juu, alipeleka mafungwa kwa ufalme, na akawapa wanadamu zawadi” – Waefeso 4:8."
+    },
+    {
+      "location": "source.html — James 3:13-18 quotation",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: strong=kama",
-      "translation_quote": ""
+      "source_quote": "Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom. But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth. This wisdom descendeth not from above, but is earthly, sensual, devilish. For where envying and strife is, there is confusion and every evil work. But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy. And the fruit of righteousness is sown in peace of them that make peace. –James 3:13-18.",
+      "suggested_fix": "The quoted passage must faithfully reflect the English meaning when rendered into Kiswahili. Several key words were mistranslated changing the meaning (for example “endued with knowledge” was rendered as “aliyezaliwa kwa maarifa,” and “bitter envying and strife” became “hasira kali na uvivu,” where uvivu = laziness and not envy). Replace the whole quotation with an accurate Swahili translation that preserves meaning and structure. Suggested translation: “Ni nani mwale wa busara na aliyezaliwa na maarifa miongoni mwenu? Aonyeshe kwa mazoea mazuri matendo yake kwa unyenyekevu wa hekima. Lakini ikiwa mnyoovu na ugomvi viko mioyoni mwenu, msijivunie wala msidanganye dhidi ya ukweli. Hekima hii haitoki juu, bali ni ya kidunia, ya udanganyifu wa mwili, ya shetani. Kwa maana palipopomoja mnyoovu na ugomvi, hapo kuna kuchanganyikiwa na kila tendo baya. Lakini hekima inayo toka juu ni kwanza safi, kisha yenye amani, nyororo, rahisi kuombewa, iliyojaa rehema na matunda mema, bila upendeleo, na bila uwongo wa kidini. Na tunda la haki linaepukuliwa waliowaidhibu kwa amani.” Keep the Scripture reference unchanged (Yakobo 3:13-18).",
+      "translation_quote": "“Ni nani mwenye busara na aliyezaliwa kwa maarifa miongoni mwenu? Aonyesha kutoka katika maadili mazuri matendo yake kwa unyenyekevu wa hekima. Lakini mkionao hasira kali na uvivu katika mioyo yenu, msijivunie, wala msidanganye dhidi ya ukweli. Hekima hii haitokani kutoka juu, bali ni ya kidunia, ya mwana mwili, ya shetani.” – Yakobo 3:13-18 (excerpt)."
+    },
+    {
+      "location": "source.html — paragraph listing Roman gifts (Romans 12:6–8) and word choice",
+      "severity": "minor",
+      "source_quote": "In Romans chapter 12 verses 6 to 8... ministry, exhortation, giving, ruling, and showing mercy.",
+      "suggested_fix": "The translation uses “wananihimiza” and other awkward or non‑idiomatic renderings for some gifts (e.g. “exhortation” should be rendered as “hukumu/kunihimiza” is incorrect). Use standard Kiswahili church vocabulary: ministry = “huduma”, exhortation = “ukukumbusha/kuhimiza” (commonly “kuhimiza” or “ushauri wa rohoni ‘exhortation’ = ‘kukuza kwa himizo’”), giving = “kutoa” or “kūtolea”, ruling = “utawala” or “uongozi”, showing mercy = “kuonyesha rehema” or “huruma”. Replace “wananihimiza” with “kuhimiza” or “hukumu” depending on context.",
+      "translation_quote": "\"—huduma, wananihimiza, kutoa, kutawala, na kuonyesha rehema.\""
+    },
+    {
+      "location": "source.html — 1 Timothy 4:14 citation (typographical error)",
+      "severity": "minor",
+      "source_quote": "Neglect not the gift that is in thee, which was given thee by prophecy, with the laying on of the hands of the presbytery –1 Timothy 4:14.",
+      "suggested_fix": "The current translation contains a typographical/capitalization error (“UsipendeZaye”) and an imprecise rendering of “by the laying on of the hands of the presbytery.” Render clearly: “Usiyachukue kwa upuuzi zawadi uliyonayo, iliyokuwiwa kwako kwa unabii, kwa kuwekwa kwa mikono ya wajumbe.” Keep the Scripture quote in Swahili and preserve the verse reference unchanged.",
+      "translation_quote": "\"Paulo alisema kwa Timoti, UsipendeZaye zawadi uliyonayo, iliyo kwako kwa unabii, kwa kuteuliwa kwa mikono ya wajumbe – 1 Timoti 4:14.\""
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "41759f825dbdfe596966774c5a00e4be",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swa",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/67a504cb12c02775b3a5cd8c97e9fa11f83f53d153a1c4dc8214a7a72f95aa69.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

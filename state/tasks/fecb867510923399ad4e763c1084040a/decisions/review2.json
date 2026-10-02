@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html › Endnotes paragraph containing Finney citation (near end of article)",
+      "severity": "minor",
+      "source_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension.",
+      "suggested_fix": "Translate or localize the publisher phrase into Spanish so the quoted bibliographic sentence is fully in the target language. For example: replace \"The Belknap Press Of Harvard University\" with \"The Belknap Press de la Universidad de Harvard\" (preserving the rest of the quoted sentence and all HTML tags).",
+      "translation_quote": "** Qué es un avivamiento de la religión – Charles Grandison Finney – The Belknap Press Of Harvard University Un “Avivamiento de la Religión” presupone una decadencia."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

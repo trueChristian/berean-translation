@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,30 @@
         },
         "total_tokens": 12740
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 410,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7879,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8289
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html paragraph starting \"June 15, 2018, at 4:40 pm...\"",
-      "severity": "major",
-      "source_quote": "“One-car rollover on ‘Gingko Avenue’, possible entrapment,” was the repeated dispatch.",
-      "suggested_fix": "Перевести «possible entrapment» правильно как «возможна блокировка в салоне / возможна зажатость/запертие (в автомобиле)» или «возможна локализация пострадавшего (зажатого)», сохранив смысл экстренного вызова о том, что кто‑то может быть зажат в перевёрнутой машине. Пример: ««Переворот одного автомобиля на улице Gingko Avenue, возможно, пострадавший зажат в салоне», — повторялся диспетчерский вызов.»",
-      "translation_quote": "«Одна машина перевернулась на улице «Gingko Avenue», возможна блокировка», — повторялся диспетчерский вызов."
-    },
-    {
-      "location": "source.html paragraph starting \"As we walked onto the scene, there sat a young girl...\"",
-      "severity": "minor",
-      "source_quote": "a young girl who appeared to be in her mid-twenties",
-      "suggested_fix": "Исправить неудачную кальку «около середины двадцати» на естественное «примерно в середине двадцати лет» или «примерно 25 лет». Пример: «молодая девушка, которой, по‑видимому, было около середины двадцати лет» → «молодая женщина, которой, по‑видимому, было около двадцати пяти лет» или «молодая женщина примерно 25 лет».",
-      "translation_quote": "там сидела молодая девушка, которой, по‑видимому, было около середины двадцати"
-    },
-    {
-      "location": "source.html paragraph starting \"As I grew older and harder, my parents tried to work with me, but I would have nothing to do with it.\"",
-      "severity": "minor",
-      "source_quote": "As I grew older and harder, my parents tried to work with me, but I would have nothing to do with it.",
-      "suggested_fix": "Точная передача смысла «I would have nothing to do with it» — «я ни в чём не хотел с ними мириться» может звучать как «не хотел мириться/поступать на уступки». Рекомендую более нейтральный и буквальный вариант: «но я ни в чём не хотел с ними связываться» или «но я ни в чём не хотел сотрудничать с ними». Например: «...родители пытались со мной работать, но я ни в чём не хотел с ними связываться.»",
-      "translation_quote": "родители пытались со мной работать, но я ни в чём не хотел с ними мириться."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "ec35b16a0501e451cc98c272a50baec6",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "rus",
@@ -161,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

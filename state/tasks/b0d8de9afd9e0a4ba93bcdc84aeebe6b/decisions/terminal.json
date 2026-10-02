@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "God Would Not Let Me Go",
+      "suggested_fix": "Translate the title to convey the English meaning (that God would not allow the author to be lost or forsaken). Example: replace the title text with: \"Mungu Hakunitupa\" or better: \"Mungu Hakunitia Mkono\" or more literal: \"Mungu Hapendi Kuniruhusu Niondoke\" — keep it short and natural. Ensure the replacement appears inside the same <title> element.",
+      "translation_quote": "Mungu Hakunitia"
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the section name using an idiomatic Kiswahili heading that preserves the sense of encouragement for young people. For example: \"MSUKUMO KWA VIJANA\" or \"MOTHSHA ZA VIONGOZI KWA VIJANA\" (recommended: \"MOTISHA KWA VIJANA\"). Replace the section string but keep it in the same metadata field.",
+      "translation_quote": "FUNGUA MSUKUMO WA VIJANA"
+    },
+    {
+      "location": "source.html (para containing 1 Corinthians reference)",
+      "severity": "major",
+      "source_quote": "(see 1 Corinthians 6:9-11)",
+      "suggested_fix": "Translate the Bible book name to conventional Kiswahili usage and keep the chapter and verse numbers unchanged. For example: \"(angalia 1 Wakorintho 6:9-11)\" or fully in Kiswahili: \"(angalia 1 Wakorintho 6:9–11)\". Make this substitution in the same paragraph so the parenthetical reference is rendered in Kiswahili but preserves the numeric reference exactly.",
+      "translation_quote": "(angalia 1 Corinthians 6:9-11)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...Era um corte pequeno, de apenas cerca de um quarto de polegada (aprox. 6 mm), mas havia entrado relativamente profundo.</p>\",\"severity\":\"major\",\"source_quote\":\"It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.\",\"suggested_fix\":\"Remova a conversão metricada adicionada. Traduza apenas o conteúdo apresentado no original sem inserir explicações. Ex.: \\\"Era um corte pequeno, de apenas cerca de um quarto de polegada, mas havia entrado relativamente profundo.\\\"\",\"translation_quote\":\"Era um corte pequeno, de apenas cerca de um quarto de polegada (aprox. 6 mm), mas havia entrado relativamente profundo.\"},{\"location\":\"<p>A grande árvore de bordo em frente à velha casa de pedra os chamava.</p>\",\"severity\":\"minor\",\"source_quote\":\"The large maple tree in front of their old stone farmhouse beckoned to her.\",\"suggested_fix\":\"Corrija o pronome para concordar com o sujeito singular (a árvore) e com o objeto da ação (ela). Ex.: \\\"A grande árvore de bordo em frente à velha casa de pedra a chamava.\\\"\",\"translation_quote\":\"A grande árvore de bordo em frente à velha casa de pedra os chamava.\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 1205,
+    "content_evidence_truncated": false,
+    "content_sha256": "94af6392b6d7a234607f30c2ea70e0121e7f1d9b97ca2bdf03c85922cbf0e536",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 680,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4134
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

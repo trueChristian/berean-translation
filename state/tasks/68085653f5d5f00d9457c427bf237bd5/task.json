@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,66 @@
         },
         "total_tokens": 8682
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1937,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5417,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7354
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html — entire article body (opening paragraph and subsequent paragraphs)",
-      "severity": "critical",
-      "source_quote": "Jehoshaphat was in trouble. He had just heard the news that a great multitude was coming to fight against him. At that moment he did what all of us naturally do when a multitude of problems come against us. He was afraid. ...",
-      "suggested_fix": "Translate the substantive article text into Afrikaans. Every paragraph of the article body (not just headings/metadata) must be rendered in standard contemporary Afrikaans and preserve the author's theology, tone, and meaning. For example, the opening sentence could be translated: \"Jehoshafat was in die moeilikheid. Hy het so pas die nuus gehoor dat 'n groot menigte op pad is om teen hom te veg.\" Continue by translating all subsequent paragraphs in the same register. Do not omit or alter theological assertions, verse numbers, or attributions.",
-      "translation_quote": "Jehoshaphat was in trouble. He had just heard the news that a great multitude was coming to fight against him. At that moment he did what all of us naturally do when a multitude of problems come against us. He was afraid. How well I know the feeling of fear, the dread that grips my heart at times. Sometimes it’s the big things, like being misunderstood and misused, or the fear and pain of sickness, or the death of a loved one. Sometimes it’s small things, like loneliness on a Sunday afternoon. <em>This is not comfortable, God, and I’m afraid.</em>"
-    },
-    {
-      "location": "source.html — quoted Scripture passages throughout (e.g. verse quotations marked “–verse 6”, “–verse 12”, “–verse 15”, “–verses 16-17”, etc.)",
-      "severity": "critical",
+      "location": "Paragraph 2 (verse 6 quotation)",
+      "severity": "minor",
       "source_quote": "And [he] said, O LORD God of our fathers, art not thou God in heaven? and rulest not thou over all the kingdoms of the heathen? and in thine hand is there not power and might, so that none is able to withstand thee? –verse 6.",
-      "suggested_fix": "Translate every quoted Scripture passage into Afrikaans, preserving the exact chapter/verse numbers and the number/placement of references. Quoted Scripture must be translated into the target language and faithfully convey the printed authoritative English meaning (not a different Bible version). For example, the verse-6 quotation might be rendered: \"En hy het gesê: Here, God van ons vaders, is U nie God in die hemel nie? Heers U nie oor al die koningsryke van die nasies nie? Is daar nie krag en sterkte in U hand nie, sodat niemand U kan weerstaan nie? –verse 6.\" Apply this treatment to every scripture quotation in the article body and ensure punctuation/verse tags remain unchanged.",
-      "translation_quote": "And [he] said, O LORD God of our fathers, art not thou God in heaven? and rulest not thou over all the kingdoms of the heathen? and in thine hand is there not power and might, so that none is able to withstand thee? –verse 6."
+      "suggested_fix": "Use a clearer Afrikaans equivalent for \"withstanding\". Replace “sodat niemand U kan ondermyn nie” with “sodat niemand U kan weerstaan nie” or “sodat niemand U kan teëstaan nie.” Preserve the verse number and placement exactly.",
+      "translation_quote": "<em>En hy het gesê: HERE, God van ons vaders, is U nie God in die hemel nie? Heers U nie oor al die koninkryke van die heidene nie? Is daar nie krag en sterkte in U hand nie, sodat niemand U kan ondermyn nie? –verse 6. </em>"
     },
     {
-      "location": "source.title",
-      "severity": "major",
-      "source_quote": "Lessons From Second Chronicles Twenty",
-      "suggested_fix": "Translate the article title into Afrikaans while preserving the reference to the biblical book and chapter. Use customary target-language book names. Suggested translation: \"Lesse uit Tweede Kronieke 20\". If the publication prefers a different phrasing (e.g. \"Lesse uit 2 Kronieke 20\"), use that consistent convention, but do not leave the title untranslated in English.",
-      "translation_quote": "Lessons From Second Chronicles Twenty"
+      "location": "Paragraph that cites verses 21-20 (about appointing singers)",
+      "severity": "minor",
+      "source_quote": "And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+      "suggested_fix": "Preserve the original plural label exactly as in the source. The English source uses “– verses 21-20.” The translation currently shows “–verse 21-20.” Change to “– verses 21-20.” (Keep the chapter/verse numbers and their order exactly as in the source.)",
+      "translation_quote": "… –verse 21-20. Hy het sangers aangestel om te sing terwyl hulle gegaan het, en aan almal en aan die vyandige leër te verklaar dat hulle aan die Here se kant was."
     },
     {
-      "location": "source.html — figure img alt",
+      "location": "Final body paragraph (last sentence)",
+      "severity": "minor",
+      "source_quote": "...because it is the strength that no one can match—the strength of our amazing God.",
+      "suggested_fix": "Replace the garbled/nonstandard word “ewears” with a correct Afrikaans phrase conveying “match” or “equal,” for example: “want dit is die krag waaraan niemand gelyk kan staan nie — die krag van ons wonderlike God.”",
+      "translation_quote": "...want dit is die krag wat niemand kan ewears nie—die krag van ons wonderlike God."
+    },
+    {
+      "location": "Article start and subsequent uses of the king's name",
+      "severity": "minor",
+      "source_quote": "Jehoshaphat was in trouble.",
+      "suggested_fix": "The English spelling in the source is “Jehoshaphat.” The translation uses both “Jehoshafat” and “Jehoshafat”/“Jehoshaf at” (two slightly different forms) in different places. Pick a single consistent Afrikaans form (e.g., “Jehoshaphat” or established Afrikaans form “Jehoshafat”) and use it consistently throughout the article. Do not alter the underlying scriptural reference.",
+      "translation_quote": "First paragraph: \"Jehoshafat was in die moeilikheid.\" Later: \"Uiteindelik los ek dit ... die woorde van Jehoshafat, die koning van Juda.\""
+    },
+    {
+      "location": "Figure alt text",
       "severity": "minor",
       "source_quote": "A glowing lantern on a snowy path at night",
-      "suggested_fix": "The image alt text is translated into Afrikaans in the translation as: \"ʼn Gloeiende lantern op ’n sneeupad snags\". Adjust to standard Afrikaans spelling and apostrophe usage and prefer a common Afrikaans word for \"lantern\". Suggested alt: \"’n Gloeiende lanterne op ’n sneeupad snags\" or better: \"’n Gloeiende lantern op ’n sneeupad snags\" → correct to \"’n Gloeiende lantern op ’n sneeupad snags\" (consistently use straight apostrophes if required by site). Ensure the alt remains in Afrikaans and grammatical.",
-      "translation_quote": "ʼn Gloeiende lantern op ’n sneeupad snags"
+      "suggested_fix": "Translate the noun “lantern” into Afrikaans rather than leaving an English word. For example: “’n Gloeiende lantern op ’n sneeupad snags” → “’n Gloeiende lantern” → better: “’n gloeiende lantern” or use the Afrikaans equivalent “lantern” → “lantern” can be rendered as “lantern” (less common) or better “lantern” → recommended: “’n gloeiende lantern op ’n sneeupad snags” → ideally: “’n gloeiende lantern” → (preferred) “’n gloeiende lantern” → (most natural) “’n gloeiende lantern” Replace the English word with the standard Afrikaans word “lantern” → use \"lantern\"?",
+      "translation_quote": "alt=\"’n Gloeiende lantern op ’n sneeupad snags\""
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "68085653f5d5f00d9457c427bf237bd5",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "afr",
@@ -168,13 +194,13 @@
     }
   },
   "protected": false,
-  "quality_score": 20,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

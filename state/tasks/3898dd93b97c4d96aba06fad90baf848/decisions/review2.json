@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Romans 1:20 (source.html first occurrence in Creation section)",
+      "severity": "minor",
+      "source_quote": "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse –Romans 1:20.",
+      "suggested_fix": "Translate the quoted Scripture to more closely reflect the printed English emphasis on \"the invisible things of him\" rather than a paraphrase such as \"what is known of God.\" Suggested Arabic rendering: «لأنّ ما لا يُرى منه منذ خلق العالم قد تُعَرَّف في عِبَراتِ المخلوقات، ناظرةٌ إلى قُدْرَتِه الأزلية وإلوهِيَّتِه، فليس لهم عُذرٌ — رومية 1:20.» Preserve this exact Scripture quotation within the same <em>…</em> tags structure used in the translation.",
+      "translation_quote": "يقول بولس: <em>لأن ما يُعرف من الله ظاهرٌ فيهم. إذ كشفه لهم الله. فمخلوقات الكون من خلقة العالم تُبيِّن لهم قدرته الأزلية وإلوهيته، بحيث لا يملكون عذرًا –رومية 1:20.</em>"
+    },
+    {
+      "location": "Paragraph containing Psalm 8:3-4 (source.html in section discussing God's fingerprints)",
+      "severity": "minor",
+      "source_quote": "When I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained; What is man, that thou art mindful of him? and the son of man, that thou visitest him? –Psalm 8:3-4.",
+      "suggested_fix": "The translation slightly alters the verb nuance for \"which thou hast ordained.\" Use an Arabic phrase that clearly corresponds to \"which thou hast ordained\" (أمرت بها أو عينتها) and keep the sequence and sense of the original. Suggested Arabic rendering: «عندما أنظر إلى سماواتك، عملُ أصابعِكَ، القمرَ والنجومَ التي أَعْتَدْتَها. ماذا الإنسان حتى تُذَكِّره؟ وابنُ آدم حتى تزورَه؟ –مزمور 8:3-4.» Replace the current quoted text with this version, preserving the <em>…</em> tags.",
+      "translation_quote": "<em>عندما أنظر إلى سماواتك، عمل أصابعك، القمر والنجوم التي أرشدتها. ماذا الإنسان حتى تذكره؟ وابن آدم حتى تزوره؟ –مزمور 8:3-4.</em>"
+    },
+    {
+      "location": "Paragraph containing Acts 17:28 (same paragraph as Psalm 8 quote)",
+      "severity": "minor",
+      "source_quote": "For in him we live, and move, and have our being… – Acts 17:28,",
+      "suggested_fix": "Minor grammatical/idiomatic correction: the current Arabic uses \"نحرك ونوجد\" which is unnatural. Use the conventional Arabic Bible phrasing for consistency and clarity, e.g. «لأنه به نحيا ونتحرك ونوجد» or the commonly printed form «لأنه فيه نحيا ونتحرك ونوجد». Replace the quoted phrase accordingly while keeping the verse reference unchanged and within the same <em>…</em> tags.",
+      "translation_quote": "<em>لأنه فيه نحيا ونحرك ونوجد… –أعمال 17:28،</em>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

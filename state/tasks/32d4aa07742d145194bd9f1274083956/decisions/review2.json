@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph mentioning magazine",
+      "severity": "major",
+      "source_quote": "The hymn first appeared in the Church of Scotland monthly magazine, Life and Work, in January 1883.",
+      "suggested_fix": "Translate the magazine title into Dutch (or render it as a translated, localized form) inside the same HTML structure. For example: replace 'Life and Work' with 'Life and Work (maandblad van de Church of Scotland)' or a direct Dutch rendering 'Life and Work' → 'Leven en Werk' if a literal translation is preferred. Preserve the <em> tag and surrounding text exactly as in the translation HTML.",
+      "translation_quote": "Het hymne verscheen voor het eerst in het maandelijks tijdschrift van de Church of Scotland, Life and Work, in januari 1883."
+    },
+    {
+      "location": "source.html — paragraph listing Matheson’s devotional works",
+      "severity": "critical",
+      "source_quote": "The later years of Matheson’s life from the age of 57 to his death at age 64 were spent in writing some of the finest devotional writings in the English tongue, including Moments on the Mount, Voice of the Spirit, and Rests by the River.",
+      "suggested_fix": "Translate the titles of the quoted devotional works into Dutch (they are rendered as quoted substantive prose and must be translated). Preserve the original punctuation and <em> tags if present. Suggested translations (narrow, editable): 'Moments on the Mount' → 'Momenten op de Berg'; 'Voice of the Spirit' → 'Stem van de Geest'; 'Rests by the River' → 'Rust bij de Rivier'. Insert them in place of the English titles, keeping the rest of the sentence unchanged.",
+      "translation_quote": "De latere jaren van Matheson’s leven, van zijn 57ste tot zijn dood op 64‑jarige leeftijd, werden besteed aan het schrijven van enkele van de mooiste devotionele geschriften in de Engelse taal, waaronder Moments on the Mount, Voice of the Spirit en Rests by the River."
+    },
+    {
+      "location": "source.html — paragraph listing other hymns",
+      "severity": "major",
+      "source_quote": "Although this is his only hymn found in most hymnals, he did write a few other fine hymns, including “Make Me A Captive Lord”, and “Then I Shall Be Free.”",
+      "suggested_fix": "Translate the quoted hymn titles into Dutch (quoted hymn/prose must be rendered in the target language). Suggested translations: 'Make Me A Captive Lord' → 'Maak Mij een Geketende Heer' (or 'Maak Mij, Heer, een Gevangene' depending on preferred idiom); 'Then I Shall Be Free' → 'Dan Zal Ik Vrij Zijn'. Replace the English titles inside the quotation marks, preserving the quotation marks and HTML structure.",
+      "translation_quote": "Hoewel dit zijn enige hymne is die in de meeste liederenboeken voorkomt, schreef hij nog enkele andere fijne gezangen, waaronder “Make Me A Captive Lord” en “Then I Shall Be Free.”"
+    },
+    {
+      "location": "source.html — image alt text",
+      "severity": "major",
+      "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+      "suggested_fix": "Translate the alt text so the entire alt attribute is in Dutch and the hymn title is the translated title used in the article (not left in English). For example: alt=\"Bladmuziek voor O Liefde, die Mij Niet Zal Loslaten\". Preserve the <img> tag and other attributes unchanged.",
+      "translation_quote": "alt=\"Bladmuziek voor O Love That Wilt Not Let Me Go\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -6,9 +6,32 @@
       "campaign": "gh-37007962259",
       "event": "requested",
       "task": "e4477a49aa5920442b580ab0c1165c22"
+    },
+    {
+      "at": "2026-10-02T13:03:32+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "e4477a49aa5920442b580ab0c1165c22"
     }
   ],
   "language": "rus",
   "latest_task": "e4477a49aa5920442b580ab0c1165c22",
-  "published": null
+  "published": {
+    "html_path": "content/rus/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
+    "html_sha256": "37b071b9c95910d01bad789cd9eace073b84f72fba168733b6c67a79dc0bbf57",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+    "metadata_path": "content/rus/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.json",
+    "metadata_sha256": "aeb939fff7f9e013bc085f9df25d9b310ba0e15e36f8e3de84049a19a552c544",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ru\" dir=\"ltr\" role=\"note\">\n  <p>Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: gpt-5-mini-2025-08-07) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу. <a href=\"/en/articles/2e021f55-6588-4d9d-bd0a-068af80732ff/\" data-source-article-id=\"2e021f55-6588-4d9d-bd0a-068af80732ff\" hreflang=\"en\">Английский оригинал</a></p>\n</aside>",
+    "published_at": "2026-10-02T13:03:32+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+    "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
+    "task": "e4477a49aa5920442b580ab0c1165c22",
+    "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9"
+  }
 }

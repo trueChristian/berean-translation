@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>“Never jump down from anywhere while holding a knife in your hand!” her mother’s voice rang in her memory. “It is a very dangerous thing to do. You could get cut very badly.” Ellie sat thinking about that for a little.</p>\",\"severity\":\"major\",\"source_quote\":\"“Never jump down from anywhere while holding a knife in your hand!” her mother’s voice rang in her memory. “It is a very dangerous thing to do. You could get cut very badly.” Ellie sat thinking about that for a little.\",\"suggested_fix\":\"Translate the phrase as the mother’s voice (קול אמה) rather than the incorrect / unclear phrasing. Replace the translated sentence with: “«לעולם אל תקפצי ממקום כשאת מחזיקה סכין ביד!» קול אמה נשמע בזיכרונה. «זו פעולה מסוכנת מאוד. את עלולה להיפצע חמור.» אלי ישבה וחשבה על כך קצת.” Preserve surrounding HTML tags and punctuation.\",\"translation_quote\":\"\\\"לעולם אל תקפצי ממקום כשאת מחזיקה סכין ביד!\\\" נקבתה של אמה נשמעה בזכרונה. \\\"זו פעולה מסוכנת מאוד. את עלולה להיפצע חמור.\\\" אלי ישבה וחשבה על כך קצת.\"},{\"location\":\"<img src=\\\"/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png\\\" alt=\\\"A child whittling a stick with a small red-handled knife\\\" loading=\\\"lazy\\\">\",\"severity\":\"minor\",\"source_quote\":\"alt=\\\"A child whittling a stick with a small red-handled knife\\\"\",\"suggested_fix\":\"Correct the Hebrew alt text to a clear, grammatical rendering. Suggested replacement alt attribute: alt=\\\"ילדה שמגלפת מקל באמצעות סכין קטנה עם ידית אדומה\\\" (keep the img tag and other attributes unchanged).\",\"translation_quote\":\"alt=\\\"ילדה שמחתיכה מקל עם סכין קטנה בידית אדומה\\\"\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1944,
+    "content_evidence_truncated": false,
+    "content_sha256": "93def3c2393abdadcc1498c2bd65fa31d12248148aca0cc234935a77835372b0",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1485,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3555,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5040
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

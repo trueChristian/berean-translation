@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "65ad73bc-e172-4efe-bd40-0d9be833beff",
+    "response_id": "chatcmpl-EUXBhAXP5ZzWJaEQbBC50IYhGzsBh",
+    "usage": {
+      "completion_tokens": 1746,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9012,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10758
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Endnotes paragraph 1 (source HTML last section)",
+        "severity": "critical",
+        "source_quote": "* “Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls and he severely criticized it. He viewed the altar call as a method to force decisions as results, but he recognized its potential abuse and dangers.” Altar Calls – Bill Brenner",
+        "suggested_fix": "Oversett sitatet og kildetittelen til norsk bokmål. Behold HTML-strukturen (<p><em>...</em></p>) og anførselstegn. Eksempel: «Charles Spurgeon, godt kjent for sine evangeliske evner, nektet bestemt å ta i bruk praksisen med altkall og kritiserte den kraftig. Han så på altkallet som en metode for å tvinge fram beslutninger som resultater, men han gjenkjente dens potensielle misbruk og farer.» Altar Calls – Bill Brenner kan eventuelt gjengis som «Altar Calls – Bill Brenner» hvis verkstittel eller identifikator skal stå uendret, men selve forklarende setningen må være på norsk.",
+        "translation_quote": "* “Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls and he severely criticized it. He viewed the altar call as a method to force decisions as results, but he recognized its potential abuse and dangers.” Altar Calls – Bill Brenner"
+      },
+      {
+        "location": "Endnotes paragraph 2 (Finney quotation)",
+        "severity": "critical",
+        "source_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension. Almost all the religion in the world has been produced by revivals. God has found it necessary to take advantage of the excitability there is in mankind, to produce powerful excitements among them, before he can lead them to obey. Men are so sluggish, there are so many things to lead their minds off from religion, and to oppose the influence of the gospel that it is necessary to raise an excitement among them, till the tide rises so high as to sweep away the opposing obstacles. They must be so excited that they will break over these counteracting influences, before they will obey God.",
+        "suggested_fix": "Oversett hele Finney-avsnittet til norsk bokmål. Behold referanseopplysningene (forfatter, tittel, forlag) men oversett eller parafraser sitatet slik at den lange engelske teksten blir norsk. Behold HTML- og kursiv (<em>) taggene slik de står. Eksempelstart: «Hva en vekkelse er – Charles Grandison Finney – The Belknap Press of Harvard University: En «vekkelse av religion» forutsetter en tilbakegang. Nesten all religion i verden er blitt frambrakt av vekkelsene...» Fortsett med full oversettelse av resten av brødteksten i samme paragraf.",
+        "translation_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension. Almost all the religion in the world has been produced by revivals. God has found it necessary to take advantage of the excitability there is in mankind, to produce powerful excitements among them, before he can lead them to obey. Men are so sluggish, there are so many things to lead their minds off from religion, and to oppose the influence of the gospel that it is necessary to raise an excitement among them, till the tide rises so high as to sweep away the opposing obstacles. They must be so excited that they will break over these counteracting influences, before they will obey God."
+      },
+      {
+        "location": "Endnotes paragraph 3 (Watchman Nee title)",
+        "severity": "major",
+        "source_quote": "*** Spirit Force vs. Psychic Force – Watchman Nee",
+        "suggested_fix": "Oversett verkstittelen eller tilpass den til norsk bokmål. Hvis originaltittel skal stå, plasser den i kursiv eller behold som tittel, men legg til en norsk oversettelse i parentes eller oversett hele tittelen. For eksempel: «*** Åndelig kraft vs. psykisk kraft – Watchman Nee» eller «*** Spirit Force vs. Psychic Force (Åndelig kraft kontra psykisk kraft) – Watchman Nee». Sørg for at formatet matcher øvrige endnotes og behold <em>...</em> hvis teksten er i kursiv.",
+        "translation_quote": "*** Spirit Force vs. Psychic Force – Watchman Nee"
+      },
+      {
+        "location": "Article metadata: section field",
+        "severity": "major",
+        "source_quote": "ISSUES AFFECTING THE CHURCH",
+        "suggested_fix": "Oversett seksjonsnavnet til norsk bokmål. Eksempel: «SAKER SOM BERØR KIRKEN» eller «SAKER SOM PÅVIRKER KIRKEN». Velg en kort, idiomatisk oversettelse og bruk samme kapitaliseringsstil som på nettsiden. Oppdater translation.section fra engelsk til norsk.",
+        "translation_quote": "ISSUES AFFECTING THE CHURCH"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

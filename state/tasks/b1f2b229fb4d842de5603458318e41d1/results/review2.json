@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "75157fbc-51c6-4e38-bd8b-dc3adbf34b5a",
+    "response_id": "chatcmpl-EUXBT1GDymk4yYh1RJt95YyKY5nBb",
+    "usage": {
+      "completion_tokens": 1852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8589,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10441
+    }
+  },
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...the sharpest of two-edged swords (The Holy Scriptures)...</p> — paragraph containing parenthetical about scriptures",
+        "severity": "major",
+        "source_quote": "Instead of machine guns and grenades, they would be armed with the sharpest of two-edged swords (The Holy Scriptures), guided by a power (The Holy Spirit) greater than any naval fleet.",
+        "suggested_fix": "Replace the mistranslated phrase with a clear, theologically faithful Afrikaans rendering. Suggested wording: \"In plaas van mitraljeuse en granaatwerpers sou hulle gewapen wees met die skerpste van tweesnydende swaarde (die Heilige Skrifte), gelei deur ’n krag (die Heilige Gees) groter as enige vloot.\" Preserve the parenthetical structure and capitalization as in the source.",
+        "translation_quote": "In plaas van mitraljeuse en granaatwerpers sou hulle gewapen wees met die skarpste van tweesnijdende swaarder (Die Heilige Skrifte), gelei deur ’n krag (Die Heilige Gees) groter as enige vloot."
+      },
+      {
+        "location": "Throughout — term used for 'conscientious objectors' (COs)",
+        "severity": "major",
+        "source_quote": "Conscientious objectors were placed in various service roles through these programs.",
+        "suggested_fix": "The translation uses \"oortuigingsvlugtelinge\", which means 'conscientious refugees' and changes the intended meaning. Replace with an established Afrikaans term that conveys 'conscientious objector' (a person who refuses military service on grounds of conscience). Suggested wording: \"Gewetensbewaarde\" (singular/plural as needed) or \"gewetensbeswaarde persone\". Example revision: \"Gewetensbewaarde is deur hierdie programme in verskeie diensrolle geplaas.\"",
+        "translation_quote": "Oortuigingsvlugtelinge is deur hierdie programme in verskeie diensrolle geplaas."
+      },
+      {
+        "location": "Parenthetical explanation of banzai charge — paragraph describing Pacific warfare (early in article)",
+        "severity": "minor",
+        "source_quote": "a banzai charge (a typically nocturnal all-out attack of massed infantry yelling at the top of their voices as they charged) might split the night air into a rush of charging enemies whipped into a killing frenzy.",
+        "suggested_fix": "The parenthetical translation is awkward and contains incorrect wording (\"teen die toonbank skree\"). Suggest a fluent, accurate Afrikaans paraphrase: \"'n banzai‑aanval (gewoonlik 'n naglike algehele aanval van saamgedromde infanterie wat op die toppunt van hul stemme skree terwyl hulle aanval)\" or more idiomatically: \"'n banzai‑aanval (gewoonlik 'n nagelike alles‑uit‑aanval deur saamgedromde infanterie wat met skreeu hulself in 'n slagtingswoede jaag)\". Preserve parentheses.",
+        "translation_quote": "banzai-laai (’n tipies nagtelike alles-uit-aanval van gesamentlike infanterie wat teen die toonbank skree terwyl hulle aanval)"
+      },
+      {
+        "location": "Figure figcaption — translation of EPHESIANS 6:11-12 closing line",
+        "severity": "major",
+        "source_quote": "AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.",
+        "suggested_fix": "The phrase \"high places\" is theologically significant and should be rendered in Afrikaans in a way that preserves the biblical sense (commonly translated \"in heavenly places\" or \"in high places\" meaning spiritual realms). The current \"HEERLIKE PLEKKE\" alters meaning to 'glorious places.' Suggested correction: \"TEEN GEESTELIKE BOOSAARDIGHEID IN HEEMSE PLEKKE\" or better, \"TEEN GEESTELIKE BOOSAARDIGHEID IN HEEMSELIGE PLEKKE.\" Ensure the capitalization/emphasis mirrors the source.",
+        "translation_quote": "TEEN GEESTELIKE BOOSAARDIGHEID IN HEERLIKE PLEKKE."
+      },
+      {
+        "location": "Paragraph about spiritual peace — \"waaksaamheid vrede\" phrase",
+        "severity": "minor",
+        "source_quote": "Few emerge victorious into a true peace, and even that peace is a watchful peace that can be shattered in a moment of wavering.",
+        "suggested_fix": "The translation renders \"a watchful peace\" as \"’n waaksaamheid vrede\", which is unidiomatic and awkward in Afrikaans. Suggest: \"’n waakame vrede\" or \"’n waaksaam vrede\". Example: \"Min kom as oorwinnaars uit in ware vrede, en selfs daardie vrede is ’n waaksaam vrede wat in ’n oomblik van bewing verbrak kan word.\"",
+        "translation_quote": "Min kom as oorwinnaars uit in ware vrede, en selfs daardie vrede is ’n waaksaamheid vrede wat in ’n oomblik van beving verbrak kan word."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

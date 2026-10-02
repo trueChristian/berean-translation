@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>...It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.</p>",
+      "severity": "minor",
+      "source_quote": "It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.",
+      "suggested_fix": "Use a more direct Swedish rendering of the original imperial measure or a closer metric equivalent. Either write the imperial measure in Swedish (en kvarts tum) or use a more exact metric conversion (0,64 cm) instead of 0,6 centimeter. For example: \"Det var ett litet snitt, bara ungefär en kvarts tum långt (cirka 0,64 cm), men det gick ganska djupt.\"",
+      "translation_quote": "Det var ett litet snitt, bara ungefär 0,6 centimeter långt, men det gick ganska djupt."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph 3 (\\\"She had spent a week with her aunt and uncle who lived several counties over from hers...\\\")\",\"severity\":\"minor\",\"source_quote\":\"She had spent a week with her aunt and uncle who lived several counties over from hers\",\"suggested_fix\":\"Replace the target-language phrase \\\"’n paar dorpe verder\\\" with a closer equivalent for \\\"several counties over\\\" such as \\\"’n paar distrikte verder\\\" or \\\"’n paar provinsies verder\\\", depending on intended administrative sense. Example fix: change \\\"wat ’n paar dorpe verder van hulle af gewoon het\\\" to \\\"wat ’n paar distrikte verder van hulle af gewoon het\\\".\",\"translation_quote\":\"Sy het ’n week by haar tannie en oom gebly wat ’n paar dorpe verder van hulle af gewoon het\"},{\"location\":\"source.html figure 1 alt attribute\",\"severity\":\"minor\",\"source_quote\":\"A child whittling a stick with a small red-handled knife\",\"suggested_fix\":\"Minor stylistic/terminology suggestion only: the alt text is translated and acceptable. If desired for tighter idiomatic Afrikaans, consider shortening to \\\"’n Kind kerf aan ’n stokkie met ’n klein rooi-handvatselmes\\\" or keep current version. No correction required for acceptance.\",\"translation_quote\":\"’n Kind kerf aan ’n stokkie met ’n klein mes met ’n rooi handvatsel.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1356,
+    "content_evidence_truncated": false,
+    "content_sha256": "be6c13dc07acf20addf99d931d44c26c6ae2d5ac1aa635774be5f6eea2c23a9b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4492
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

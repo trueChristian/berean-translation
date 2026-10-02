@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "84a413ab-358f-42d4-8e75-ee98b71f7566",
+    "response_id": "chatcmpl-EUXBUihO8kVfhBFvlHEehHYHkMpZ0",
+    "usage": {
+      "completion_tokens": 1008,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4664,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 3840
+      },
+      "total_tokens": 5672
+    }
+  },
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “I have no natural gift of rhythm. All the other verses…” (Matheson quote)",
+        "severity": "major",
+        "source_quote": "All the other verses I have ever written are manufactured articles; this came like a dayspring from on high.",
+        "suggested_fix": "Translate the sense of “manufactured articles” correctly as meaning ‘contrived’ or ‘artificial’, not ‘artigianali’. For example: “Tutte le altre strofe che ho mai scritto sono opere costruite/artificiali; questa venne come un’aurora dall’alto.” Preserve surrounding HTML structure and the emphasis tags already present.",
+        "translation_quote": "“Tutte le altre strofe che ho mai scritto sono articoli artigianali; questa venne come un aurora dall’alto.”"
+      },
+      {
+        "location": "Paragraph with Matheson’s first-person account (the quoted passage beginning “My hymn was composed…”)",
+        "severity": "minor",
+        "source_quote": "A genuine inspiration, I had the impression rather of having it dictated to me by some inward voice than of working it out myself.",
+        "suggested_fix": "Restore the comparative structure (‘rather ... than ...’) in Italian so the contrast is clear. For example: “Una genuina ispirazione: ebbi piuttosto l’impressione che mi fosse stato dettato da qualche voce interiore, piuttosto che d’averlo elaborato io stesso.” Keep the quote inside the same <em> tags and do not alter other HTML.",
+        "translation_quote": "“Una genuina ispirazione, ebbi piuttosto l’impressione che mi fosse stato dettato da qualche voce interiore che di lavorarlo io stesso.”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

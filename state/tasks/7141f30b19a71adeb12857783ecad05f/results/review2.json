@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a79d2ade-f60d-43e3-bd9a-f017cb378360",
+    "response_id": "chatcmpl-EUXBUUGoUt7zvMuQIz8WYazvH0mBg",
+    "usage": {
+      "completion_tokens": 1018,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9660
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "throughout (second-person pronouns)",
+        "severity": "minor",
+        "source_quote": "Examples: 'you' and plural/formal forms vary in the English source (general second-person usage)",
+        "suggested_fix": "Use a consistent Portuguese second-person register throughout the translation. Choose either the plural/formal 'vós'/ 'vossos' or the modern singular 'tu'/'teu' or the polite 'você'/'seu' and update all instances to match. For example, change instances of 'Se estás com o coração...' to 'Se estais com o coração...' (if adopting vós/estais) or change 'Confessai as vossas culpas uns aos outros' to 'Confessa as tuas culpas...' (if adopting tu) or to 'Confesse as suas culpas uns aos outros' (if adopting você). Keep Biblical-quotation plurals (e.g., older-style 'vossas') consistent with the chosen register.",
+        "translation_quote": "Examples in translation: uses 'vós' in Tiago quote and Hebrews quote ('Confessai as vossas culpas uns aos outros'; 'para que sareis'; 'Temamos, pois, ... ficando‑nos'), but later uses singular/informal 'tu'/'teu' ('Se estás com o coração...','teu trauma','podes ser curados','Credes?')"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

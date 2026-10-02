@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph (first <p>), also multiple Scripture citations throughout (e.g. paragraphs with Matthew 11:28; John 7:37; Acts 3:19; 2 Corinthians 5:20; Acts 20:21; Luke 14:23; 2 Corinthians 10:10; Mark 4:16-17; 1 Corinthians 4:15-16; 1 Corinthians 11:1; 1 Thessalonians 5:13; Hebrews 6:18-19; John 3:8; Romans 10:17; endnotes showing Finney/Spurgeon quotes)",
+      "severity": "major",
+      "source_quote": "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. ... –1 Corinthians –1:17-21. (other in-text citations: Matthew 11:28, John 7:37, Acts 3:19, 2 Corinthians 5:20, Acts 20:21, Luke 14:23, 2 Corinthians 10:10, Mark 4:16-17, 1 Corinthians 4:15-16, 1 Corinthians 11:1, 1 Thessalonians 5:13, Hebrews 6:18-19, John 3:8, Romans 10:17)",
+      "suggested_fix": "Translate the Bible book names into standard contemporary Russian forms while keeping chapter and verse numbers exactly as in the source and preserving punctuation. Example fixes: replace “1 Corinthians –1:17-21” with “1 Коринфянам 1:17–21”; “Matthew 11:28” -> “Матфея 11:28”; “John 7:37” -> “Иоанна 7:37”; “Acts 3:19” -> “Деяния 3:19”; “2 Corinthians 5:20” -> “2 Коринфянам 5:20”; “Acts 20:21” -> “Деяния 20:21”; “Luke 14:23” -> “Луки 14:23”; “2 Corinthians 10:10” -> “2 Коринфянам 10:10”; “Mark 4:16-17” -> “Маркa 4:16–17”; “1 Corinthians 4:15-16” -> “1 Коринфянам 4:15–16”; “1 Corinthians 11:1” -> “1 Коринфянам 11:1”; “1 Thessalonians 5:13” -> “1 Фессалоникийцам 5:13”; “Hebrews 6:18-19” -> “Евреям 6:18–19”; “John 3:8” -> “Иоанна 3:8”; “Romans 10:17” -> “Римлянам 10:17”. Apply consistently for every in-text Scripture reference and any Scripture range in the article. Do not change chapter/verse numerals or their order.",
+      "translation_quote": "…–1 Corinthians –1:17-21. (examples in text left as English book names: Matthew 11:28, John 7:37, Acts 3:19, 2 Corinthians 5:20, Acts 20:21, Luke 14:23, 2 Corinthians 10:10, Mark 4:16-17, 1 Corinthians 4:15-16, 1 Corinthians 11:1, 1 Thessalonians 5:13, Hebrews 6:18-19, John 3:8, Romans 10:17) "
+    },
+    {
+      "location": "Paragraph with Mark 4:16-17 (quoted verse about stony ground)",
+      "severity": "minor",
+      "source_quote": "And these are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness… –Mark 4:16-17.",
+      "suggested_fix": "The Russian rendering uses the awkward phrasing «сердца каменисты;… — слышащие, чьи сердца каменисты». Replace with a clear, idiomatic translation that preserves the source meaning. Suggested Russian rendering: «И те суть, которые посеяны на каменистой почве: они, услышав слово, тотчас с радостью принимают его… –Маркa 4:16–17.» Keep the Scripture reference in Russian book-name form as noted in the major finding.",
+      "translation_quote": "<em>И те суть, которыя семя на каменистой почве, которые, услышав слово, тотчас принимают его с радостью; и не имеют корня в себе, но на время; а по скорби или гонении ради слова тотчас оскорбляются –Mark 4:16-17. </em>"
+    },
+    {
+      "location": "Endnotes/references (final <p> blocks: citations and book/work titles)",
+      "severity": "minor",
+      "source_quote": "What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University; Pleading and Encouragement – Charles Haddon Spurgeon – Aug 17, 1841; Altar Calls – Bill Brenner; Spirit Force vs. Psychic Force – Watchman Nee",
+      "suggested_fix": "Translate quoted endnote titles and explanatory bibliographic fragments into Russian, or at minimum translate the descriptive Russian surrounding them and render book titles in Russian quotation marks while leaving personal names in original transliteration where appropriate. Examples: “What A Revival Of Religion Is” -> «Что такое возрождение религии» (Charles Grandison Finney); “Pleading and Encouragement” -> «Умоление и поощрение» (Charles Haddon Spurgeon); “Altar Calls – Bill Brenner” -> «Призывы к алтарю» — Билл Бреннер (или в кавычках «Altar Calls», если оставление оригинального названия оправдано, поместить перевод перед или после). Ensure the quoted prose from Spurgeon and Finney that appears earlier is fully translated (it is translated, but ensure titles and attributions also match target-language conventions).",
+      "translation_quote": "<em>** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University …</em> (and other endnote titles remain in English) "
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

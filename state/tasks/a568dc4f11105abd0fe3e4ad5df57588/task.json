@@ -2,7 +2,6 @@
   "article_id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,25 +61,39 @@
         },
         "total_tokens": 14751
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html — paragraph quoting James 5:14-16 (near \"I was diagnosed with cancer...\")",
-      "severity": "critical",
-      "source_quote": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him. Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
-      "suggested_fix": "Replace the translated Scripture with a faithful Indonesian rendering that clearly conveys the English text. Preserve the punctuation and verse reference. For example: \"Adakah di antara kamu yang sakit? Hendaklah ia memanggil penatua-penatua jemaat, dan hendaklah mereka mendoakan dia dan mengurapinya dengan minyak dalam nama Tuhan; dan doa iman akan menyelamatkan orang yang sakit, dan Tuhan akan membangunkannya; dan jika ia telah berbuat dosa, maka ia akan diampuni. Aku-ikutlah dosa seorang kepada yang lain, dan doalah seorang untuk yang lain, supaya kamu sembuh. Doa orang benar, apabila dengan yakin didoakan, besar kuasanya. – Yakobus 5:14-16.\" (Or use an established Indonesian Bible wording that faithfully renders the full verse group.) Note: Do not leave any part of the quoted Scripture mistranslated or garbled (the current translation contains the nonsensical phrase \"Aku-ikutlah dosamu seorang kepada yang lain\"). The corrected text must be placed in the same paragraph and preserve the article HTML tags exactly as in the source.",
-      "translation_quote": "Adakah orang yang sakit di antara kamu? Hendaklah ia memanggil penatua-penatua jemaat, dan hendaklah mereka mendoakan dia dan mengurapinya dengan minyak dalam nama Tuhan: Dan doa iman akan menyelamatkan orang yang sakit, dan Tuhan akan membangunkannya; dan jika ia telah berbuat dosa, maka ia akan diampuni. Aku-ikutlah dosamu seorang kepada yang lain, dan doalah seorang untuk yang lain, supaya kamu sembuh. Doa orang benar, jika dengan yakin didoakan, besar kuasanya – Yakobus 5:14-16."
     },
     {
-      "location": "metadata — source.title, source.subtitle, source.section",
-      "severity": "major",
-      "source_quote": "title: \"Discipleship—The Path of Healing\"\nsubtitle: \"The Discipleship Series\"\nsection: \"VICTORIOUS CHRISTIAN LIVING\"",
-      "suggested_fix": "Translate the article metadata into standard Bahasa Indonesia (preserve capitalization style as required by the publication). Suggested translations: title -> \"Pemuridan — Jalan Penyembuhan\"; subtitle -> \"Seri Pemuridan\"; section -> \"KEHIDUPAN KRISTEN YANG MENANG\". Replace the English metadata strings in the translation with these Indonesian equivalents so that no substantive translatable metadata remains in English.",
-      "translation_quote": "title: \"Discipleship—The Path of Healing\"\nsubtitle: \"The Discipleship Series\"\nsection: \"VICTORIOUS CHRISTIAN LIVING\""
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 812,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9134,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9946
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "<p>paragraph discussing Mark 2 (paragraph beginning \"There are several examples in scripture...\")",
+      "severity": "major",
+      "source_quote": "When He was challenged by the Pharisees for forgiving sins, He said to them, “Which is easier to say <em>rise up and walk</em> or <em>thy sins be forgiven</em>”, demonstrating that He had the power to do both.",
+      "suggested_fix": "Restore the author's original wording about the two sayings. Translate the quoted comparison to Indonesian faithfully and keep the same pair of quoted phrases. For example: “…ketika orang Farisi menantang Dia karena mengampuni dosa, Ia berkata kepada mereka, ‘Manakah yang lebih mudah untuk diucapkan: <em>bangunlah dan berjalanlah</em> atau <em>dosamu diampuni</em>?’, menunjukkan bahwa Ia mempunyai kuasa untuk melakukan kedua-duanya.” Ensure this replaces the current sentence that inserts a different verse wording (about taking up a bed and going home).",
+      "translation_quote": "“Manakah yang lebih mudah untuk diucapkan: <em>dosamu diampuni</em> atau <em>bangunlah dan angkatlah tilammu dan pulanglah ke rumahmu</em>?”, menunjukkan bahwa Ia mempunyai kuasa untuk melakukan kedua-duanya."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "a568dc4f11105abd0fe3e4ad5df57588",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ind",
@@ -154,13 +167,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 65,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

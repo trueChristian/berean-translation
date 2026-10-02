@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 (verse 6 quotation)",
+      "severity": "minor",
+      "source_quote": "And [he] said, O LORD God of our fathers, art not thou God in heaven? and rulest not thou over all the kingdoms of the heathen? and in thine hand is there not power and might, so that none is able to withstand thee? –verse 6.",
+      "suggested_fix": "Use a clearer Afrikaans equivalent for \"withstanding\". Replace “sodat niemand U kan ondermyn nie” with “sodat niemand U kan weerstaan nie” or “sodat niemand U kan teëstaan nie.” Preserve the verse number and placement exactly.",
+      "translation_quote": "<em>En hy het gesê: HERE, God van ons vaders, is U nie God in die hemel nie? Heers U nie oor al die koninkryke van die heidene nie? Is daar nie krag en sterkte in U hand nie, sodat niemand U kan ondermyn nie? –verse 6. </em>"
+    },
+    {
+      "location": "Paragraph that cites verses 21-20 (about appointing singers)",
+      "severity": "minor",
+      "source_quote": "And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+      "suggested_fix": "Preserve the original plural label exactly as in the source. The English source uses “– verses 21-20.” The translation currently shows “–verse 21-20.” Change to “– verses 21-20.” (Keep the chapter/verse numbers and their order exactly as in the source.)",
+      "translation_quote": "… –verse 21-20. Hy het sangers aangestel om te sing terwyl hulle gegaan het, en aan almal en aan die vyandige leër te verklaar dat hulle aan die Here se kant was."
+    },
+    {
+      "location": "Final body paragraph (last sentence)",
+      "severity": "minor",
+      "source_quote": "...because it is the strength that no one can match—the strength of our amazing God.",
+      "suggested_fix": "Replace the garbled/nonstandard word “ewears” with a correct Afrikaans phrase conveying “match” or “equal,” for example: “want dit is die krag waaraan niemand gelyk kan staan nie — die krag van ons wonderlike God.”",
+      "translation_quote": "...want dit is die krag wat niemand kan ewears nie—die krag van ons wonderlike God."
+    },
+    {
+      "location": "Article start and subsequent uses of the king's name",
+      "severity": "minor",
+      "source_quote": "Jehoshaphat was in trouble.",
+      "suggested_fix": "The English spelling in the source is “Jehoshaphat.” The translation uses both “Jehoshafat” and “Jehoshafat”/“Jehoshaf at” (two slightly different forms) in different places. Pick a single consistent Afrikaans form (e.g., “Jehoshaphat” or established Afrikaans form “Jehoshafat”) and use it consistently throughout the article. Do not alter the underlying scriptural reference.",
+      "translation_quote": "First paragraph: \"Jehoshafat was in die moeilikheid.\" Later: \"Uiteindelik los ek dit ... die woorde van Jehoshafat, die koning van Juda.\""
+    },
+    {
+      "location": "Figure alt text",
+      "severity": "minor",
+      "source_quote": "A glowing lantern on a snowy path at night",
+      "suggested_fix": "Translate the noun “lantern” into Afrikaans rather than leaving an English word. For example: “’n Gloeiende lantern op ’n sneeupad snags” → “’n Gloeiende lantern” → better: “’n gloeiende lantern” or use the Afrikaans equivalent “lantern” → “lantern” can be rendered as “lantern” (less common) or better “lantern” → recommended: “’n gloeiende lantern op ’n sneeupad snags” → ideally: “’n gloeiende lantern” → (preferred) “’n gloeiende lantern” → (most natural) “’n gloeiende lantern” Replace the English word with the standard Afrikaans word “lantern” → use \"lantern\"?",
+      "translation_quote": "alt=\"’n Gloeiende lantern op ’n sneeupad snags\""
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

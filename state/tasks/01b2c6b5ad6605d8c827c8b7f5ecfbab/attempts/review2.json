@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:30+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — first paragraph (italic quote)\",\"severity\":\"major\",\"source_quote\":\"For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21.\",\"suggested_fix\":\"Translate the Scripture reference using conventional Afrikaans book name and correct the reference formatting exactly as printed in the authoritative English: replace “–1 Corinthians –1:17-21” with “—1 Korintiërs 1:17-21” (preserve the verse range and numbers unchanged). Keep the quoted Scripture translated as-is, but update the book name and punctuation in the trailing citation. Example replacement (only the citation part): “…dit het God behaag deur die dwasedheid van die prediking dié wat glo te red —1 Korintiërs 1:17-21.”\",\"translation_quote\":\"…want dit het God behaag deur die dwasedheid van die prediking dié wat glo te red –1 Corinthians –1:17-21.\"},{\"location\":\"Throughout source.html — all Scripture citations (examples: “Matthew 11:28”, “John 7:37”, “Acts 3:19”, “2 Corinthians 5:20”, “Acts 20:21”, “Luke 14:23”, “Mark 4:16-17”, “Hebrews 6:18-19”, “Romans 10:17”, “1 Corinthians 4:15-16”, “1 Corinthians 11:1”, “1 Thessalonians 5:13”, etc.)\",\"severity\":\"major\",\"source_quote\":\"(Representative samples from source): “Come unto me, …and I will give you rest –Matthew 11:28,” “…If any man thirst, let him come unto me, and drink –John 7:37,” “Repent ye therefore, and be converted… –Acts 3:19,” “…we pray you in Christ's stead, be ye reconciled to God –2 Corinthians 5:20,” “…to the Jews, and also to the Greeks, repentance toward God, and faith toward our Lord Jesus Christ –Acts 20:21,” “compel them to come in… –Luke 14:23”, “they likewise which are sown on stony ground… –Mark 4:16-17”, “Which hope we have as an anchor of the soul… –Hebrews 6:18-19”, “So then faith cometh by hearing… –Romans 10:17”, “For though ye have ten thousand instructors… –1 Corinthians 4:15-16”, “Be ye followers of me… –1 Corinthians 11:1.”\",\"suggested_fix\":\"Book names in Scripture citations must use conventional Afrikaans forms while leaving chapter and verse numbers unchanged. Replace each English book name with its standard Afrikaans equivalent (examples): Matthew → Matteus, John → Johannes, Acts → Handelinge, 2 Corinthians → 2 Korintiërs, Luke → Lukas, Mark → Markus, Hebrews → Hebreërs, Romans → Romeine, 1 Corinthians → 1 Korintiërs, 1 Thessalonians → 1 Tessalonisense. Apply these replacements consistently for every citation in the article (including in parentheses, inline citations, and endnotes). Do not change the verse numbers or ranges. Example: “Matthew 11:28” → “Matteus 11:28”; “John 3:8” → “Johannes 3:8”; “Acts 3:19” → “Handelinge 3:19”.\",\"translation_quote\":\"(Representative translation samples): “–Matthew 11:28,” “–John 7:37,” “–Acts 3:19,” “–2 Corinthians 5:20,” “–Acts 20:21,” “–Luke 14:23”, “–Mark 4:16-17”, “–Hebrews 6:18-19”, “–Romans 10:17”, “–1 Corinthians 4:15-16”, “–1 Corinthians 11:1.”\"},{\"location\":\"source.html — paragraph 3 (English→Afrikaans translation of “sinner”)\",\"severity\":\"major\",\"source_quote\":\"The biblical truth spoken in simplicity was sufficient of itself for God’s Holy Spirit to use to convert the sinner.\",\"suggested_fix\":\"The translation currently uses the nonstandard/incorrect Afrikaans word “senter”. Replace with the standard Afrikaans word for sinner, “sondaar”. Suggested repaired sentence (preserve surrounding HTML/tags exactly): “Die bybelse waarheid wat in eenvoud gepraat is, was op sigself voldoende vir God se Heilige Gees om te gebruik om die sondaar te bekeer.”\",\"translation_quote\":\"Die bybelse waarheid wat in eenvoud gepraat is, was op sigself voldoende vir God se Heilige Gees om te gebruik om die senter te bekeer.\"},{\"location\":\"source.html — heading “…Extra-Biblical” translated as “…Bybels-uitgesonder”\",\"severity\":\"minor\",\"source_quote\":\"…Extra-Biblical\",\"suggested_fix\":\"Use a more idiomatic Afrikaans heading that preserves the English meaning. Suggestions: “…Bybel-buiten” or “…Buite die Bybel”. Replace the heading text only, preserving the H3 tag and any surrounding markup. Example: <h3>…Buite die Bybel</h3>.\",\"translation_quote\":\"<h3>…Bybels-uitgesonder</h3>\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 4810,
+    "content_evidence_truncated": false,
+    "content_sha256": "bdfbb7e588cdfae7ee486d38ab3d3bb8f53d97cad85b7a374a2865974d3dcd76",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1937,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9246,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11183
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

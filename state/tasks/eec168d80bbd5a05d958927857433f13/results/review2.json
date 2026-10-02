@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "92fa76ec-9e87-4193-a6db-9380dc09703a",
+    "response_id": "chatcmpl-EUXBJarbSwnPXWPytPHBdmqHXmGaa",
+    "usage": {
+      "completion_tokens": 744,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8557,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5888
+      },
+      "total_tokens": 9301
+    }
+  },
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph (scripture citation formatting)",
+        "severity": "minor",
+        "source_quote": "<em>For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. ... –1 Corinthians –1:17-21. </em>",
+        "suggested_fix": "Remove the extraneous hyphen before the chapter/verse range so the citation reads in Portuguese as: “1 Coríntios 1:17-21.” (Preserve the existing HTML and emphasis tags.)",
+        "translation_quote": "<em>... –1 Coríntios –1:17-21. </em>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

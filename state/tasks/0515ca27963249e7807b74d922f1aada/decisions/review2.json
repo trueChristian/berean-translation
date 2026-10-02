@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>…2 Timothy 3:13-17</p> (paragraph with 2 Timothy quotation)",
+      "severity": "major",
+      "source_quote": "But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus.",
+      "suggested_fix": "Remove the extra attribution phrase introduced in the translation. Render the passage to match the English meaning and structure. For example (Indonesian): \"Tetapi engkau harus tetap bertekun dalam hal-hal yang telah engkau pelajari dan yang telah engkau yakini, dengan mengetahui dari siapa engkau telah belajar hal-hal itu; dan sejak kecil kau telah mengenal Kitab-kitab Suci, yang dapat memberi hikmat kepadamu untuk keselamatan oleh iman yang ada dalam Kristus Yesus.\" Preserve original punctuation and verse range placement inside the same <em>…</em> tag.",
+      "translation_quote": "Tetapi engkau harus tetap berpegang pada apa yang telah engkau pelajari dan yang telah kukatakan kepadamu, mengetahui dari siapa engkau telah belajar hal-hal itu; dan sedari kecil engkau telah mengenal Kitab-kitab Suci, yang dapat memberi hikmat kepadamu untuk keselamatan oleh iman yang ada dalam Kristus Yesus."
+    },
+    {
+      "location": "<p>…article descriptions paragraph (mentions “Bible Helps” and “The Foolishness of Preaching”)</p>",
+      "severity": "major",
+      "source_quote": "The article that we have chosen to share from “Bible Helps” in this issue is one of the best discourses on the subject of “faith and works” that I have ever read. ... Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”",
+      "suggested_fix": "Translate the quoted article/section titles into Indonesian (they are substantive quoted prose). Provide Indonesian renderings while preserving the surrounding punctuation and HTML. For example: replace “Bible Helps” with \"Bible Helps\" only if it is an immutable proper title known in Indonesian sources; otherwise translate as \"(dari) 'Bible Helps'\" → preferably translate the article title 'The Foolishness of Preaching' into Indonesian (e.g. \"Kebodohan Khotbah\") or a literal equivalent, and translate or mark 'Bible Helps' consistently. Example replacement in Indonesian: \"Artikel yang kami pilih untuk dibagikan dari 'Bible Helps' dalam edisi ini adalah salah satu khotbah terbaik tentang pokok 'iman dan perbuatan' yang pernah saya baca. ... Akhirnya, kami menyajikan 'Kebodohan Khotbah'—sebuah penilaian mengenai dasar gereja-gereja yang menggunakan 'panggilan di altar'…\" If 'Bible Helps' is an established section title that must remain in English, annotate that it is a title (e.g. \"dari 'Bible Helps'\") but still ensure other quoted substantive article titles are translated into Indonesian.",
+      "translation_quote": "Artikel yang kami pilih untuk dibagikan dari “Bible Helps” dalam edisi ini adalah salah satu khotbah terbaik tentang pokok “iman dan perbuatan” yang pernah saya baca. ... Akhirnya, kami menyajikan The Foolishness of Preaching sebuah penilaian mengenai dasar gereja-gereja yang menggunakan “panggilan di altar”—apakah itu berlandaskan pada Kitab Suci dan sejarah gereja ataukah itu metode yang dipinjam gereja dari dunia pada tahun-tahun belakangan ini?!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

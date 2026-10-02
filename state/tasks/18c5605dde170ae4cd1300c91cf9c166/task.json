@@ -2,7 +2,6 @@
   "article_id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,52 @@
         },
         "total_tokens": 6637
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 920,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3746,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4666
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>कुछ समय बाद, जिस शाखा पर एली बैठी थी वह粗 महसूस होने लगी और जिन टहनियों को वह काट रही थी वे लगभग नष्ट हो चुकी थीं।</p>",
+      "location": "source.html <figure> first <img> alt",
       "severity": "minor",
-      "source_quote": "After a time, the branch Ellie was sitting on began to feel rough and hard, and the twigs she was whittling had nearly disappeared.",
-      "suggested_fix": "Replace the extraneous character and render the sentence fluently in Hindi. For example: <p>कुछ समय बाद, जिस शाखा पर एली बैठी थी वह खुरदरी और कठोर महसूस होने लगी और जिन टहनियों को वह काट रही थी वे लगभग नष्ट हो चुकी थीं।</p>",
-      "translation_quote": "कुछ समय बाद, जिस शाखा पर एली बैठी थी वह粗 महसूस होने लगी और जिन टहनियों को वह काट रही थी वे लगभग नष्ट हो चुकी थीं।"
+      "source_quote": "A child whittling a stick with a small red-handled knife",
+      "suggested_fix": "Use a natural Hindi phrasing and correct compound: e.g. \"एक बच्चा/एक बच्ची लाल हैंडल वाले छोटे चाकू से डंडा काटते हुए\" or better yet \"एक बच्चा/बच्ची लाल हैंडल वाले छोटे चाकू से लकड़ी काटता/काटती हुआ\". Preserve gender if known from context (text uses \"Ellie,\" so feminine: \"एक बच्ची...कटती हुई\").",
+      "translation_quote": "एक छोटा बच्चा लाल-हैंडल वाले छोटे चाकू से डंडा काटते हुए"
     },
     {
-      "location": "<p>वह अपने चाचा-चाची के यहाँ एक हफ़्ता रही थी जो उसके काउंटी से कुछ मील दूर रहते थे और वहीं उसके चचेरे भाई पॉल ने उसे एक चाकू दिया था जो उसने खुद बनाया था।</p>",
+      "location": "source.html <figure> second <img> alt",
       "severity": "minor",
-      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.",
-      "suggested_fix": "Restore the sense 'several counties over' rather than converting to miles. Use an appropriate Hindi phrasing such as: <p>वह अपने चाचा-चाची के यहाँ एक हफ्ता रही थी जो उसके काउंटियों में कई जिले दूर रहती थीं और वहीं उसके चचेरे भाई पॉल ने उसे एक चाकू दिया था जो उसने खुद बनाया था।</p> (Or keep 'काउंटी' as a loanword: 'जो उसके काउंटी से कई काउंटी दूर रहते थे')",
-      "translation_quote": "वह अपने चाचा-चाची के यहाँ एक हफ़्ता रही थी जो उसके काउंटी से कुछ मील दूर रहते थे और वहीं उसके चचेरे भाई पॉल ने उसे एक चाकू दिया था जो उसने खुद बनाया था।"
+      "source_quote": "A rope swing hanging from a large tree",
+      "suggested_fix": "Make the Hindi idiomatic and grammatical: e.g. \"एक बड़े पेड़ से लटका रस्सी का झूला\" or \"एक बड़े पेड़ से लटकी रस्सी का झूला\".",
+      "translation_quote": "एक बड़े पेड़ से लटकी रस्सी की झूला"
     },
     {
-      "location": "<p>दोषी होकर उसने जल्दी से अपनी अंगुली को घाव के ऊपर दबा दिया और घर में चली गई।</p>",
-      "severity": "major",
-      "source_quote": "Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house.",
-      "suggested_fix": "Correct the body part: 'thumb' should be translated as 'अंगूठा' (not 'अंगुली'). Suggested corrected sentence preserving tags: <p>दोषी होकर उसने जल्दी से अपने अंगूठे को घाव के ऊपर दबा दिया और घर में चली गई।</p>",
-      "translation_quote": "दोषी होकर उसने जल्दी से अपनी अंगुली को घाव के ऊपर दबा दिया और घर में चली गई।"
+      "location": "source.html paragraph 3 (\"counties\")",
+      "severity": "minor",
+      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers",
+      "suggested_fix": "Use a more natural Hindi equivalent for 'counties' rather than the English loanword 'काउंटी(यों)'. Suggested rendering: \"जो उसके काउंटी/जिले से कई ज़िले दूर रहते थे\" or simply \"जो कई ज़िले दूर रहते थे\". Preserve plural and sense of distance.",
+      "translation_quote": "जो उसके काउंटी से कई काउंटियों दूर रहते थे"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "18c5605dde170ae4cd1300c91cf9c166",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "hin",
@@ -161,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d403f379edde7ed1b9230df32b8a4aa9dad598dcb4dff15ce8551751f262d6f8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

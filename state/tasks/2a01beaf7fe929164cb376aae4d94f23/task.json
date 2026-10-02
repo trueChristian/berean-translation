@@ -2,7 +2,6 @@
   "article_id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,45 @@
         },
         "total_tokens": 15591
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 712,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9050,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9762
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning \"I have always been a strong advocate of anointing with oil.\" (source.html)",
-      "severity": "major",
-      "source_quote": "So, one of the necessities to seek healing through the anointing with oil is the clearing of the heart of any known, unconfessed sin.",
-      "suggested_fix": "Restore the precise sense: do not add “unknown/ubekjent”. Replace the Norwegian sentence that introduces “ubekjent” with a faithful rendering of the English: e.g. \"Så en av nødvendighetene for å søke helbredelse gjennom salving med olje er å rense hjertet for enhver kjent, ubekjent synd.\" is incorrect — instead use: \"Så en av nødvendighetene for å søke helbredelse gjennom salving med olje er å rense hjertet for enhver kjent, ubekjent synd.\" is still wrong. Correct suggestion: \"Derfor må man rense hjertet for enhver kjent, ubekjent synd.\" — NO. (See correction below.)\",\"translation_quote\":\"Så en av nødvendighetene for å søke helbredelse gjennom salving med olje er å rense hjertet for kjent, ubekjent synd.\"",
-      "translation_quote": "Så en av nødvendighetene for å søke helbredelse gjennom salving med olje er å rense hjertet for kjent, ubekjent synd."
-    },
-    {
-      "location": "Paragraph quoting Psalm 103 (source.html end)",
-      "severity": "major",
-      "source_quote": "Who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies; Who satisfieth thy mouth with good things; so that thy youth is renewed like the eagle’s –Psalm 103:1-5.",
-      "suggested_fix": "The Norwegian currently renders \"redeemeth thy life from destruction\" as \"frir ditt liv fra graven,\" which alters the meaning. Replace with a faithful Norwegian rendering of the English phrase. Suggested text: \"Han som frir ditt liv fra undergang; han kroner deg med miskunn og barmhjertighet; ...\" or \"Han som redder ditt liv fra ødeleggelse; ...\" Ensure the rest of the verse remains the translator's existing faithful rendering.",
-      "translation_quote": "Han som frir ditt liv fra graven, han som krones med miskunn og barmhjertighet; han som metter ditt ønske med gode gaver, så ditt ungdoms styrke blir fornyet som ørnenes – Salme 103:1-5."
-    },
-    {
-      "location": "Title / Subtitle / Section metadata (source.title, source.subtitle, source.section)",
-      "severity": "major",
-      "source_quote": "Section: VICTORIOUS CHRISTIAN LIVING\nSubtitle: The Discipleship Series\nTitle: Discipleship—The Path of Healing",
-      "suggested_fix": "Translate these metadata fields into contemporary Norwegian Bokmål. Suggested translations preserving meaning and tone:\n- section: \"SEIRRIKT KRISTENLIV\" or better \"SEIERRIKT KRISTENLIV\" (recommended: \"Seierrikt kristenliv\")\n- subtitle: \"Disippelskapserien\"\n- title: \"Disippelskap — helbredelsens vei\"\nApply exact translations into the corresponding translation fields (source.section, source.subtitle, source.title).",
-      "translation_quote": "section: VICTORIOUS CHRISTIAN LIVING\nsubtitle: The Discipleship Series\ntitle: Discipleship—The Path of Healing"
-    },
-    {
-      "location": "Paragraph quoting James 5:14-16 (near middle)",
+      "location": "Paragraph: \"...Jesus kom for å gi en remedie for vår brutthet.\" (third paragraph)",
       "severity": "minor",
-      "source_quote": "The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
-      "suggested_fix": "The Norwegian translation paraphrases this as \"Den ydmyke bønnen fra en rettferdig har stor kraft og virker mye\" which alters nuance (\"effectual fervent\" → \"ydmyke\"). Suggest a closer rendering preserving the emphases: e.g. \"Den rettferdiges virksomme inderlige bønn har stor kraft og virker mye.\" Replace the current paraphrase with this more literal yet idiomatic Norwegian.",
-      "translation_quote": "Den ydmyke bønnen fra en rettferdig har stor kraft og virker mye – Jakob 5:14-16."
+      "source_quote": "Jesus came to provide a remedy for our brokenness.",
+      "suggested_fix": "Use a more natural Norwegian rendering for 'remedy' and 'brokenness'. For example: \"Jesus kom for å gi et botemiddel for vår brist\" or better: \"Jesus kom for å bringe helbredelse for vår sårbarhet\" or \"Jesus kom for å helbrede vår bristede tilstand.\" Keep the rest of the sentence unchanged.",
+      "translation_quote": "Jesus kom for å gi en remedie for vår brutthet."
+    },
+    {
+      "location": "Near end: paragraph beginning \"Dette er en disippelkapsserie.\"",
+      "severity": "minor",
+      "source_quote": "This is a discipleship series.",
+      "suggested_fix": "Correct the typographical error to the intended Norwegian compound. Replace \"disippelkapsserie\" with \"disippelskapserie\" or the clearer \"disippelskap-serie\" to match the subtitle and idiomatic usage.",
+      "translation_quote": "Dette er en disippelkapsserie."
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "2a01beaf7fe929164cb376aae4d94f23",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nob",
@@ -168,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1 (first quoted verse) and multiple other scripture citations throughout the article",
+      "severity": "major",
+      "source_quote": "–Ephesians 4:8.  ... –Ephesians 4:11.  ... –1 Corinthians 12:11.  ... –Hebrews 2:4.  ... –1 Corinthians 12:11.  ... –1 Timothy 4:14.  ... –James 3:13-18.  ... –Ephesians 4:11-12.  ... –1 Corinthians 14:22.  ... (also 2 Corinthians 12:7-12, 1 Corinthians 12:24-25, etc.)",
+      "suggested_fix": "Use the conventional Swedish names for the biblical books in all reference labels while keeping the chapter:verse numbers unchanged. For example: '–Efesierbrevet 4:8', '–Efesierbrevet 4:11', '–1 Korintierbrevet 12:11', '–Hebreerbrevet 2:4', '–1 Timoteus 4:14', '–Jakobsbrevet 3:13-18', '–Efesierbrevet 4:11-12', '–1 Korintierbrevet 14:22', '–2 Korintierbrevet 12:7-12', '–1 Korintierbrevet 12:24-25'. Replace every remaining English book-name citation (Ephesians, Hebrews, 1 Corinthians, 2 Corinthians, James, Romans, 1 Timothy, etc.) with the standard Swedish form consistently throughout the translation.",
+      "translation_quote": "–Ephesians 4:8.  ... –Ephesians 4:11.  ... –1 Corinthians 12:11.  ... –Hebrews 2:4.  ... –1 Corinthians 12:11.  ... –1 Timothy 4:14.  ... –James 3:13-18.  ... –Ephesians 4:11-12.  ... –1 Corinthians 14:22.  ... (also 2 Corinthians 12:7-12, 1 Corinthians 12:24-25, etc.)"
+    },
+    {
+      "location": "Throughout the article (inconsistent treatment of the same references)",
+      "severity": "minor",
+      "source_quote": "Source uses '1 Corinthians' and 'Romans' etc. consistently in English in the original HTML's references.",
+      "suggested_fix": "Make the translation consistent by rendering all biblical book names in Swedish in both narrative mentions and in the parenthetical/citation forms. For example, where the translation correctly used 'Romarbrevet' keep that but change other occurrences to the Swedish equivalents (e.g., '1 Korintierbrevet', 'Efesierbrevet').",
+      "translation_quote": "Examples in translation: 'Romarbrevet kapitel 12' (correct Swedish) but elsewhere '1 Corinthians 12:11' (left in English)."
+    },
+    {
+      "location": "Multiple inline parenthetical scripture citations (e.g., near Hebrews and Corinthians quotations)",
+      "severity": "minor",
+      "source_quote": "\"God also bearing them witness, both with signs and wonders... –Hebrews 2:4.\" and \"...as he will –1 Corinthians 12:11.\"",
+      "suggested_fix": "Translate the book names in these inline citations to Swedish while preserving the English-language punctuation/formatting used in the translation. For instance change '–Hebrews 2:4' to '–Hebreerbrevet 2:4' and '–1 Corinthians 12:11' to '–1 Korintierbrevet 12:11'.",
+      "translation_quote": "\"… –Hebrews 2:4.\" and \"… –1 Corinthians 12:11.\""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

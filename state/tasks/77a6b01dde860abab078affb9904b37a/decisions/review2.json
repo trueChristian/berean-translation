@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph: \"Unfortunately, the opportunity to serve came at a cost.\" (around the middle)",
+      "severity": "minor",
+      "source_quote": "Unfortunately, the opportunity to serve came at a cost. The COs were young and separated from their church and family.",
+      "suggested_fix": "Remove the stray Chinese/Japanese character and render as standard Korean: e.g. \"유감스럽게도 그 섬김의 기회는 대가를 치렀다.\" or better \"유감스럽게도 그 섬김의 기회에는 대가가 따랐다.\" Keep surrounding sentence structure unchanged.",
+      "translation_quote": "유감스럽게도 그 섬김의 기회는 대가를伴했다."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

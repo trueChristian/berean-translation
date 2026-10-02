@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,53 +61,60 @@
         },
         "total_tokens": 8481
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4848,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5964
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "title",
+      "location": "Paragraph listing other hymns (near end of main text)",
       "severity": "major",
-      "source_quote": "O Love That Wilt Not Let Me Go",
-      "suggested_fix": "Translate the English title into Afrikaans (preserve HTML structure). For example: \"O Liefde, wat my nie loslaat nie\" (replace the value of the title field with the translated title string).",
-      "translation_quote": "O Love That Wilt Not Let Me Go"
+      "source_quote": "including “Make Me A Captive Lord”, and “Then I Shall Be Free.”",
+      "suggested_fix": "Translate the quoted hymn titles into Afrikaans (quoted substantive prose must be translated). For example: “Maak My ’n Gevangene, Here” and “Dan Sal Ek Vry Wees.” Preserve the quotes and punctuation and place them where the English originals appear.",
+      "translation_quote": "insluitende “Make Me A Captive Lord”, en “Then I Shall Be Free.”"
     },
     {
-      "location": "section",
+      "location": "Image <img> alt attribute",
       "severity": "major",
-      "source_quote": "A HYMN HISTORY",
-      "suggested_fix": "Translate the section heading into Afrikaans, preserving case/formatting as required by the site. For example: \"’n GESANGS-GESKIEDENIS\" or \"’n Gesangsgeskiedenis\" (replace the translation.section value with the Afrikaans phrase).",
-      "translation_quote": "A HYMN HISTORY"
+      "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+      "suggested_fix": "Translate the alt text into Afrikaans and translate the hymn title inside it. For example: alt=\"Bladmuziek vir 'O Liefde, wat my nie loslaat nie'\". Preserve the same HTML attribute structure.",
+      "translation_quote": "alt=\"Bladmuziek vir 'O Love That Wilt Not Let Me Go'\""
     },
     {
-      "location": "source.html — italicized publication and book titles (multiple occurrences)",
+      "location": "Paragraph about hints in the hymn (mentions third stanza)",
       "severity": "major",
-      "source_quote": "Life and Work\nMoments on the Mount\nVoice of the Spirit\nRests by the River",
-      "suggested_fix": "Translate the cited publication and book titles into Afrikaans (keep them italicized in the HTML). For example: \n- <em>Life and Work</em> → <em>Lewe en Werk</em>\n- <em>Moments on the Mount</em> → <em>Moomente op die Berg</em>\n- <em>Voice of the Spirit</em> → <em>Stem van die Gees</em>\n- <em>Rests by the River</em> → <em>Rus by die Rivier</em>\nReplace each English italicized title in source.html with the Afrikaans rendering, preserving the <em> tags and order.",
-      "translation_quote": "Life and Work\nMoments on the Mount\nVoice of the Spirit\nRests by the River"
+      "source_quote": "the tracing of the “rainbow through the rain” in the third stanza",
+      "suggested_fix": "Replace the mistranslation of 'stanza' with the correct Afrikaans term (e.g., 'strofe' or 'verse'). For example: “die nasporing van die ‘reënboog deur die reën’ in die derde strofe.” Keep the quoted English phrase translated into Afrikaans.",
+      "translation_quote": "die nasporing van die “reënboog deur die reën” in die derde refrein"
     },
     {
-      "location": "source.html — paragraph about composer",
+      "location": "Paragraph on later writings (list of devotional works)",
       "severity": "minor",
-      "source_quote": "The tune was composed one year later by a prominent Scotch organist of his day, Albert L. Peace, who was asked to write a tune especially for Matheson’s text.",
-      "suggested_fix": "Correct the occupation translation to standard Afrikaans. Replace \"Skotse organis\" with \"prominente Skotse orrelis\" or \"prominente Skotse organis\" is incorrect. Suggested Afrikaans: \"Die melodie is een jaar later deur ’n prominente Skotse orrelis van sy tyd, Albert L. Peace, gecomponeer...\" Preserve sentence structure and HTML tags.",
-      "translation_quote": "Die melodie is een jaar later deur ’n prominente Skotse organis van sy tyd, Albert L. Peace, gecomponeer, wat versoek is om ’n musiekstuk spesiaal vir Matheson se teks te skryf."
-    },
-    {
-      "location": "source.html — image alt attribute",
-      "severity": "minor",
-      "source_quote": "Sheet music for O Love That Wilt Not Let Me Go",
-      "suggested_fix": "Provide an accurate Afrikaans alt text that faithfully conveys the English alt text. For example: alt=\"Bladmuziek vir 'O Love That Wilt Not Let Me Go'\" Keep the <img> tag and other attributes exactly the same, only replace the alt text string.",
-      "translation_quote": "Blaaowskiere vir O Love That Wilt Not Let Me Go"
-    },
-    {
-      "location": "source.html — paragraph with 'single'",
-      "severity": "minor",
-      "source_quote": "all the while remaining single.",
-      "suggested_fix": "Fix a typographical error in the Afrikaans translation: replace \"onggetroud\" with the correct spelling \"ongetroud\". Preserve surrounding HTML/punctuation.",
-      "translation_quote": "onggetroud"
+      "source_quote": "including Moments on the Mount, Voice of the Spirit, and Rests by the River.",
+      "suggested_fix": "Correct a typographical error and ensure the titles are translated consistently into Afrikaans. 'Moomente op die Berg' should read 'Momente op die Berg'. Also consider translating the titles as quoted substantive prose into Afrikaans if the publication standard requires (e.g., 'Momente op die Berg', 'Stem van die Gees', 'Rus by die Rivier').",
+      "translation_quote": "insluitend <em>Moomente op die Berg</em>, <em>Stem van die Gees</em>, en <em>Rus by die Rivier</em>."
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "fef5c0cd16ca02e786dcec5946338b56",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "afr",
@@ -182,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

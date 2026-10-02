@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "45084ad8-b47c-46c5-b331-55d007b6bd33",
+    "response_id": "chatcmpl-EUXBQCdM2onnAcicem01ke6XPicvL",
+    "usage": {
+      "completion_tokens": 928,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9670,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10598
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2 (\"...and ornate pulpit carvings\")",
+        "severity": "minor",
+        "source_quote": "and the old, rugged cross has become a spiritual emblem nominally displayed on neck chains and ornate pulpit carvings.",
+        "suggested_fix": "Translate the phrase \"ornate pulpit carvings\" using an appropriate Hindi adjective that conveys 'ornate' or 'elaborately carved' (not a word meaning 'secret'). For example: \"गर्दन की चैनों और वेदी/उपवेदियों पर बनी भव्य नक्काशी\" or \"गर्दन की चैन और वेदियों की अलंकृत नक्काशी पर\".",
+        "translation_quote": "...और पुराना, कठोर क्रूस एक आध्यात्मिक प्रतीक बन गया है जिसे अक्सर गर्दन की चैन और गोपनीय पुलपिट/वेदियों की अलंकृत नक्काशी पर दिखाया जाता है।"
+      },
+      {
+        "location": "source.html — repeated technical term (throughout) \"altar call\"",
+        "severity": "minor",
+        "source_quote": "the modern invitation system known as the “altar call”.",
+        "suggested_fix": "Either translate the phrase consistently into standard Hindi (for example, \"ऑल्टर कॉल (वेदिका के पास बुलाना)\" only at first use and then a Hindi rendering such as \"वेदिका निमंत्रण\" or \"बेदरवेन/समक्ष आने का निमंत्रण\") or keep the transliteration but add a short Hindi gloss at first occurrence so readers understand the term. Maintain consistency throughout.",
+        "translation_quote": "मैं मुख्य रूप से उस आधुनिक निमंत्रण प्रणाली के विषय में बोलना चाहूँगा जिसे \"ऑल्टर कॉल\" कहा जाता है।"
+      },
+      {
+        "location": "source.html — paragraph with Watchman Nee quote emphasis note",
+        "severity": "minor",
+        "source_quote": "(emphasis mine)",
+        "suggested_fix": "Translate the parenthetical author note that indicates emphasis as a faithful idiomatic Hindi phrase, e.g. \"(जो जोर मेरा है)\" or \"(रचना में मेरा जोर)\". Current translation \"(प्रभाव मेरे द्वारा)\" is not a correct rendering of \"emphasis mine.\"",
+        "translation_quote": "(प्रभाव मेरे द्वारा)"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,38 @@
         },
         "total_tokens": 9322
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 865,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5655,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6520
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[2]: source /article[1]/p[1]/em[1] ('start', 'em', ()); translation /article[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "source.html paragraph ending with \"The peace of knowing...\" (final content paragraph before figure)",
+      "severity": "minor",
+      "source_quote": "The peace of knowing that all I really need is God and His working in my life is the ultimate peace.",
+      "suggested_fix": "Correct a typographical error in the translation: replace \"परमेश्चर\" with the consistent, correct Hindi form \"परमेश्वर\" so the sentence reads naturally and matches the source meaning. Preserve surrounding HTML and tags.",
+      "translation_quote": "यह जानकर मिलने वाली शान्ति कि मेरी वास्तविक आवश्यकता केवल परमेश्चर और उसके कार्य में है, परम अंतिम शान्ति है।"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "8bf8415e29bfc0fc757c2c9ec46ec9d7",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "hin",
@@ -128,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

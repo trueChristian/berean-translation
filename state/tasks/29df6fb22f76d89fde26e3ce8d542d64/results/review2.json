@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b7eee4b1-5cb9-4026-9572-e640b7e744c6",
+    "response_id": "chatcmpl-EUXBOXDjoX4II5EbFgeZ5pMHwC2uq",
+    "usage": {
+      "completion_tokens": 1397,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6050
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph: \"The hymn first appeared in the Church of Scotland monthly magazine, Life and Work, in January 1883.\"",
+        "severity": "major",
+        "source_quote": "The hymn first appeared in the Church of Scotland monthly magazine, Life and Work, in January 1883.",
+        "suggested_fix": "Translate or localize the magazine title into French (or mark it as a title but render as translated French text) rather than leaving it in English. For example: « Le cantique parut pour la première fois dans le mensuel de l’Église d’Écosse, Life and Work (La Vie et l’Oeuvre), en janvier 1883. » or, if the publication is customarily cited untranslated, add French punctuation and indication that it is a title: « …dans le mensuel de l’Église d’Écosse, ‹ Life and Work ›, en janvier 1883. » Preserve the HTML and italics as in the source.",
+        "translation_quote": "Le cantique parut pour la première fois dans le magazine mensuel de l’Église d’Écosse, <em>Life and Work</em>, en janvier 1883."
+      },
+      {
+        "location": "source.html paragraph: \"The later years of Matheson’s life... including Moments on the Mount, Voice of the Spirit, and Rests by the River.\"",
+        "severity": "major",
+        "source_quote": "including Moments on the Mount, Voice of the Spirit, and Rests by the River.",
+        "suggested_fix": "Translate the English book titles into French (render the quoted titles into French) or present them consistently as translated titles in italics. For example: « notamment <em>Moments on the Mount</em> (Moments sur la montagne), <em>Voice of the Spirit</em> (La voix de l’Esprit) et <em>Rests by the River</em> (Repos au bord du fleuve). » Keep the original HTML tags and italics.",
+        "translation_quote": "notamment <em>Moments on the Mount</em>, <em>Voice of the Spirit</em> et <em>Rests by the River</em>."
+      },
+      {
+        "location": "source.html img alt attribute",
+        "severity": "major",
+        "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+        "suggested_fix": "Translate the image alt text into French and render the hymn title as translated. For example: alt=\"Partition de « Ô Amour qui ne me laissera pas partir »\". Preserve the alt attribute and other image tag attributes exactly.",
+        "translation_quote": "alt=\"Partition de O Love That Wilt Not Let Me Go\""
+      },
+      {
+        "location": "source.html paragraph: \"it caused him to trust in the Lord\"",
+        "severity": "minor",
+        "source_quote": "it caused him to trust in the Lord",
+        "suggested_fix": "Correct French idiom/grammar: use « le » vs « au ». Suggestion: « mais elle le poussa à se confier au Seigneur ». Preserve original sentence order and HTML tags.",
+        "translation_quote": "elle le poussa à se confier en le Seigneur et renforça sa marche avec Dieu."
+      },
+      {
+        "location": "source.html paragraph: \"Except for “moments of shadowy eyesight\", he was totally blind by the age of 18.\"",
+        "severity": "minor",
+        "source_quote": "Except for “moments of shadowy eyesight\", he was totally blind by the age of 18.",
+        "suggested_fix": "Improve idiomatic French for clarity while preserving meaning. Suggest: « À l’exception de quelques instants de vision incertaine, il était totalement aveugle à l’âge de 18 ans. » Replace « moments de vue ombragée » by a clearer French phrasing.",
+        "translation_quote": "À l’exception de « moments de vue ombragée », il était totalement aveugle à l’âge de 18 ans."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

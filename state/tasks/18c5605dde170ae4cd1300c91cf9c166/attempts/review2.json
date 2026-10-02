@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html <figure> first <img> alt\",\"severity\":\"minor\",\"source_quote\":\"A child whittling a stick with a small red-handled knife\",\"suggested_fix\":\"Use a natural Hindi phrasing and correct compound: e.g. \\\"एक बच्चा/एक बच्ची लाल हैंडल वाले छोटे चाकू से डंडा काटते हुए\\\" or better yet \\\"एक बच्चा/बच्ची लाल हैंडल वाले छोटे चाकू से लकड़ी काटता/काटती हुआ\\\". Preserve gender if known from context (text uses \\\"Ellie,\\\" so feminine: \\\"एक बच्ची...कटती हुई\\\").\",\"translation_quote\":\"एक छोटा बच्चा लाल-हैंडल वाले छोटे चाकू से डंडा काटते हुए\"},{\"location\":\"source.html <figure> second <img> alt\",\"severity\":\"minor\",\"source_quote\":\"A rope swing hanging from a large tree\",\"suggested_fix\":\"Make the Hindi idiomatic and grammatical: e.g. \\\"एक बड़े पेड़ से लटका रस्सी का झूला\\\" or \\\"एक बड़े पेड़ से लटकी रस्सी का झूला\\\".\",\"translation_quote\":\"एक बड़े पेड़ से लटकी रस्सी की झूला\"},{\"location\":\"source.html paragraph 3 (\\\"counties\\\")\",\"severity\":\"minor\",\"source_quote\":\"She had spent a week with her aunt and uncle who lived several counties over from hers\",\"suggested_fix\":\"Use a more natural Hindi equivalent for 'counties' rather than the English loanword 'काउंटी(यों)'. Suggested rendering: \\\"जो उसके काउंटी/जिले से कई ज़िले दूर रहते थे\\\" or simply \\\"जो कई ज़िले दूर रहते थे\\\". Preserve plural and sense of distance.\",\"translation_quote\":\"जो उसके काउंटी से कई काउंटियों दूर रहते थे\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 2087,
+    "content_evidence_truncated": false,
+    "content_sha256": "7cea2c57952567195a9f80f9e8c68c0d3de2ea86d9b518331694ef69d7286332",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 920,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3746,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4666
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 17446
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1513,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11283,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12796
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Malformed HTML closing tag: strong,",
-      "translation_quote": ""
+      "location": "Paragraph 1 (first quoted verse) and multiple other scripture citations throughout the article",
+      "severity": "major",
+      "source_quote": "–Ephesians 4:8.  ... –Ephesians 4:11.  ... –1 Corinthians 12:11.  ... –Hebrews 2:4.  ... –1 Corinthians 12:11.  ... –1 Timothy 4:14.  ... –James 3:13-18.  ... –Ephesians 4:11-12.  ... –1 Corinthians 14:22.  ... (also 2 Corinthians 12:7-12, 1 Corinthians 12:24-25, etc.)",
+      "suggested_fix": "Use the conventional Swedish names for the biblical books in all reference labels while keeping the chapter:verse numbers unchanged. For example: '–Efesierbrevet 4:8', '–Efesierbrevet 4:11', '–1 Korintierbrevet 12:11', '–Hebreerbrevet 2:4', '–1 Timoteus 4:14', '–Jakobsbrevet 3:13-18', '–Efesierbrevet 4:11-12', '–1 Korintierbrevet 14:22', '–2 Korintierbrevet 12:7-12', '–1 Korintierbrevet 12:24-25'. Replace every remaining English book-name citation (Ephesians, Hebrews, 1 Corinthians, 2 Corinthians, James, Romans, 1 Timothy, etc.) with the standard Swedish form consistently throughout the translation.",
+      "translation_quote": "–Ephesians 4:8.  ... –Ephesians 4:11.  ... –1 Corinthians 12:11.  ... –Hebrews 2:4.  ... –1 Corinthians 12:11.  ... –1 Timothy 4:14.  ... –James 3:13-18.  ... –Ephesians 4:11-12.  ... –1 Corinthians 14:22.  ... (also 2 Corinthians 12:7-12, 1 Corinthians 12:24-25, etc.)"
+    },
+    {
+      "location": "Throughout the article (inconsistent treatment of the same references)",
+      "severity": "minor",
+      "source_quote": "Source uses '1 Corinthians' and 'Romans' etc. consistently in English in the original HTML's references.",
+      "suggested_fix": "Make the translation consistent by rendering all biblical book names in Swedish in both narrative mentions and in the parenthetical/citation forms. For example, where the translation correctly used 'Romarbrevet' keep that but change other occurrences to the Swedish equivalents (e.g., '1 Korintierbrevet', 'Efesierbrevet').",
+      "translation_quote": "Examples in translation: 'Romarbrevet kapitel 12' (correct Swedish) but elsewhere '1 Corinthians 12:11' (left in English)."
+    },
+    {
+      "location": "Multiple inline parenthetical scripture citations (e.g., near Hebrews and Corinthians quotations)",
+      "severity": "minor",
+      "source_quote": "\"God also bearing them witness, both with signs and wonders... –Hebrews 2:4.\" and \"...as he will –1 Corinthians 12:11.\"",
+      "suggested_fix": "Translate the book names in these inline citations to Swedish while preserving the English-language punctuation/formatting used in the translation. For instance change '–Hebrews 2:4' to '–Hebreerbrevet 2:4' and '–1 Corinthians 12:11' to '–1 Korintierbrevet 12:11'.",
+      "translation_quote": "\"… –Hebrews 2:4.\" and \"… –1 Corinthians 12:11.\""
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "3315237aa232b803089502d46bffb07d",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swe",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/67a504cb12c02775b3a5cd8c97e9fa11f83f53d153a1c4dc8214a7a72f95aa69.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

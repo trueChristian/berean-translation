@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “I have no natural gift of rhythm. All the other verses…” (Matheson quote)",
+      "severity": "major",
+      "source_quote": "All the other verses I have ever written are manufactured articles; this came like a dayspring from on high.",
+      "suggested_fix": "Translate the sense of “manufactured articles” correctly as meaning ‘contrived’ or ‘artificial’, not ‘artigianali’. For example: “Tutte le altre strofe che ho mai scritto sono opere costruite/artificiali; questa venne come un’aurora dall’alto.” Preserve surrounding HTML structure and the emphasis tags already present.",
+      "translation_quote": "“Tutte le altre strofe che ho mai scritto sono articoli artigianali; questa venne come un aurora dall’alto.”"
+    },
+    {
+      "location": "Paragraph with Matheson’s first-person account (the quoted passage beginning “My hymn was composed…”)",
+      "severity": "minor",
+      "source_quote": "A genuine inspiration, I had the impression rather of having it dictated to me by some inward voice than of working it out myself.",
+      "suggested_fix": "Restore the comparative structure (‘rather ... than ...’) in Italian so the contrast is clear. For example: “Una genuina ispirazione: ebbi piuttosto l’impressione che mi fosse stato dettato da qualche voce interiore, piuttosto che d’averlo elaborato io stesso.” Keep the quote inside the same <em> tags and do not alter other HTML.",
+      "translation_quote": "“Una genuina ispirazione, ebbi piuttosto l’impressione che mi fosse stato dettato da qualche voce interiore che di lavorarlo io stesso.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

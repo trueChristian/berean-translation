@@ -6,9 +6,32 @@
       "campaign": "gh-37007962259",
       "event": "requested",
       "task": "2a01beaf7fe929164cb376aae4d94f23"
+    },
+    {
+      "at": "2026-10-02T13:03:31+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "2a01beaf7fe929164cb376aae4d94f23"
     }
   ],
   "language": "nob",
   "latest_task": "2a01beaf7fe929164cb376aae4d94f23",
-  "published": null
+  "published": {
+    "html_path": "content/nob/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.html",
+    "html_sha256": "38df8df8349c63f9ae195837275cf39812372f121b6e5f924f54f3ec676762fe",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+    "metadata_path": "content/nob/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.json",
+    "metadata_sha256": "10b123d819fa4528af5f63caacfb5e7c6dee439faccef1bcae242261265a5274",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nb\" dir=\"ltr\" role=\"note\">\n  <p>Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: gpt-5-mini-2025-08-07) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen. <a href=\"/en/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85/\" data-source-article-id=\"269bd2b1-418e-4d93-bd15-e7937c1adb85\" hreflang=\"en\">Engelsk original</a></p>\n</aside>",
+    "published_at": "2026-10-02T13:03:31+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+    "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
+    "task": "2a01beaf7fe929164cb376aae4d94f23",
+    "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639"
+  }
 }

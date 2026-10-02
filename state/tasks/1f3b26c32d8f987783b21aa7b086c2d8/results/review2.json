@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b1c43c9b-bfb8-4bc0-b7ed-a1c72b6502e7",
+    "response_id": "chatcmpl-EUXBCyi0fIyxvJnClisrgw9zNYErw",
+    "usage": {
+      "completion_tokens": 815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8959
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph: \"Four thousand miles to the east...\" (source.html and translation.html)",
+        "severity": "minor",
+        "source_quote": "Instead of the <strong>hearts</strong> and<strong> minds</strong> of those involved in this battle.",
+        "suggested_fix": "In the translation, replace the untranslated English conjunction \"and\" with the French \"et\", preserving the existing <strong> tags and spacing. For example: \"Au lieu des combats <strong>physiques</strong> sur les îles orientales de l’Extrême-Orient, cette bataille se livrerait dans les <strong>cœurs</strong> et <strong>esprits</strong> de ceux qui y participaient.\"",
+        "translation_quote": "Au lieu des combats <strong>physiques</strong> sur les îles orientales de l’Extrême-Orient, cette bataille se livrerait dans les <strong>cœurs</strong> and<strong> esprits</strong> de ceux qui y participaient."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

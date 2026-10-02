@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b06077cb-d5c6-462e-96a5-5a1bdd41cba3",
+    "response_id": "chatcmpl-EUXB6L3EuDdFfhIlhmc6dRdwx4BtF",
+    "usage": {
+      "completion_tokens": 1975,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8781,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10756
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first <p> (Luke 4:18-19 quotation, opening paragraph)",
+        "severity": "minor",
+        "source_quote": "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord –Luke 4:18-19.",
+        "suggested_fix": "Keep the same sequence and meaning of the English proof text while remaining idiomatic Arabic. For example: <em>روح الرب عليَّ، لأنه مسحني لأن أبشر المساكين؛ أرسلني لأشفى المنكسرين القلوب، لأبشر الحرّين، ولأعيد البصر للّأعمى، لأطلق المسحوقين حراً، لأبشر بسنة الرب المقبولة –لوقا 4:18-19.</em> (Preserve the emphasis tag as in the source.)",
+        "translation_quote": "<em>روح الرب عليَّ، لأنه مسحني لأن أبشر المساكين؛ أرسلني لأعظ للمأسورين، وأشفى المنكسرين القلوب، لأعلن للسجناء الخلاص وبإبصار للأعمى، لأطلق المسحوقين حراً، لأبشر بسنة الرب المقبولة –لوقا 4:18-19.</em>"
+      },
+      {
+        "location": "Paragraph quoting James 5:14-16 (Arabic paragraph beginning with هل من مريض بينكم?)",
+        "severity": "minor",
+        "source_quote": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him. Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
+        "suggested_fix": "Correct the garbled phrase that attempts to render “The effectual fervent prayer of a righteous man availeth much.” Replace the problematic wording with a clear, standard Arabic rendering and keep the emphasis tag if present. For example: «... وصلاة الرجل البار الحارة تنفع كثيرًا –يعقوب 5:14-16.»",
+        "translation_quote": "«...اعترفوا بخطاياكم بعضكم لبعض، وصلوا بعضكم لأجل بعض، لكي تُشفىوا. وصلاة الرجل البار الحارة تنفع كثيراً –يعقوب 5:14-16.» (preceding sentence in translation contains the garbled word: “صلاة الرجل الصالح المشركة…”) "
+      },
+      {
+        "location": "Paragraph: “If you have been bruised Jesus will heal you.” (mid-article)",
+        "severity": "minor",
+        "source_quote": "If you have been bruised Jesus will heal you.",
+        "suggested_fix": "The Arabic uses سقُيطاً which is not the correct equivalent for “bruised.” Use the same term used elsewhere in the translation for consistency and accuracy, e.g. «إن كنت مسحوقًا فسيشفيك يسوع.» or «إن كنت مجروح القلب سيشفيك يسوع.»",
+        "translation_quote": "\"إن كنت سقُيطاً سيشفيك يسوع.\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

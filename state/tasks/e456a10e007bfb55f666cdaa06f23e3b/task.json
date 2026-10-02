@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 5554
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1152,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3313,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4465
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>For us as Christians, let us always keep our focus fixed on the God of heaven. This is the God that Paul declared on Mars Hill—<em>...Acts 17:24-25.</em></p>",
-      "severity": "critical",
-      "source_quote": "the God that Paul declared on Mars Hill",
-      "suggested_fix": "将“马其顿山上”改为正确的地名。Mars Hill（英语常用名）在中文基督教出版物中通常译为“亚略巴古”或“马尔斯山（亚略巴古）”。请在翻译中将“保罗在马其顿山上所宣告的那位神”修正为“保罗在亚略巴古（马尔斯山）所宣告的那位神”，并保留后面的经文引述不变。",
-      "translation_quote": "保罗在马其顿山上所宣告的那位神——<em>造天地和其中万物的神既是天地的主，便不住人手所造的殿，也不需人手服事，好像缺少什么，乃是自己叫万人生命、气息、万物的——使徒行传 17:24-25。</em>"
+      "location": "Paragraph about articles (\"Bible Helps\" / \"altar call\")",
+      "severity": "minor",
+      "source_quote": "The article that we have chosen to share from “Bible Helps” in this issue is one of the best discourses on the subject of “faith and works” that I have ever read. ... Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”",
+      "suggested_fix": "Translate or consistently present the English titles. Either render the publication title “Bible Helps” and the article title “The Foolishness of Preaching” fully into Chinese, or keep the original English as a parenthetical after a complete Chinese translation. Also avoid adding interpretive detail when translating ‘the altar call’; render it neutrally as “altar call” (e.g. “‘altar call’（上台祷告/呼召上台）”) rather than the more specific “呼罪悔改上台祷告” unless the English explicitly specified repentance. Example fix: “我们在本期选自《圣经助益》（Bible Helps）的一篇文章……最后，我们刊登了《讲道的愚拙》（The Foolishness of Preaching）——评估教会使用‘altar call’（上台呼召）的依据……”",
+      "translation_quote": "……我们在本期选自“圣经助益”（Bible Helps）的一篇文章，是我所读过关于“信与行为”题目中最好的讲论之一。作者甚至以圣经的简单与清晰探讨了有争议的神圣拣选与预定论题目。最后，我们登载了《讲道的愚拙》（The Foolishness of Preaching）对教会使用“呼罪悔改上台祷告”（altar call）基础的评估——……"
     },
     {
-      "location": "<p>...All scripture is given by inspiration of God, and is profitable for doctrine, for reproof,... –2 Timothy 3:13-17.</p>",
-      "severity": "major",
-      "source_quote": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17.",
-      "suggested_fix": "移除或改写翻译中不必要的插入选项或释义。不要在引文中插入替代译文或括注。请将该经文集中为一个连贯的中文翻译，忠实表达原英文经文意义并保留经文编号。建议改为：\n“圣经都是神所默示的，于教导、督责、使人归正、教导人学义都是有益的，叫属神的人得以完全，预备行各样的善事——提摩太后书 3:13-17。”\n（若采用其他权威中文圣经文字，仍须保持原文含义一致且不加括注。）",
-      "translation_quote": "圣经都是神所默示的，（或作：圣经都是上帝所默示），于教导、督责、使人归正、教导人学义都是有益的，叫属神的人得以完全，预备行各样的善事—提摩太后书 3:13-17。"
+      "location": "Closing signature line (author name)",
+      "severity": "minor",
+      "source_quote": "Curvin L. Wenger",
+      "suggested_fix": "The translation provides a Chinese transcription plus the original English in parentheses. This is acceptable, but be consistent with punctuation and spacing for author names. If you retain the English original after the Chinese transcription, place the English exactly as the source (Curvin L. Wenger) in parentheses without extra full-width punctuation. Example fix: “Curvin L. Wenger” → “柯文·L·温格 (Curvin L. Wenger)” or simply “Curvin L. Wenger” translated as “柯文·L·温格”。",
+      "translation_quote": "柯文·L·温格（Curvin L. Wenger）"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "e456a10e007bfb55f666cdaa06f23e3b",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "cmn",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

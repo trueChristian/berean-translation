@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "682d6338-dc8c-4de0-92c7-abdd51fda0e0",
+    "response_id": "chatcmpl-EUXBfzzig0GnRLlL7OZHELY1frC3v",
+    "usage": {
+      "completion_tokens": 1029,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7976,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9005
+    }
+  },
+  "received_at": "2026-10-02T13:03:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Nell’autunno del 2015 andai nello stato di Washington per una opportunità di lavoro.</p>",
+        "severity": "minor",
+        "source_quote": "In the fall of 2015, I went to Washington state due to a work opportunity.",
+        "suggested_fix": "Preservare l'elisione corretta in italiano: sostituire \"una opportunità\" con \"un'opportunità\" per rispettare la norma ortografica. Non cambiare struttura HTML.",
+        "translation_quote": "Nell’autunno del 2015 andai nello stato di Washington per una opportunità di lavoro."
+      },
+      {
+        "location": "<p>Quando arrivammo sulla scena, c’era una giovane donna che sembrava avere una ventina d’anni ed era visibilmente ferita.</p>",
+        "severity": "minor",
+        "source_quote": "As we walked onto the scene, there sat a young girl who appeared to be in her mid-twenties and was visibly banged up.",
+        "suggested_fix": "\"Mid-twenties\" indica circa metà dei vent'anni; per maggiore fedeltà al senso inglese sostituire \"una ventina d’anni\" con \"metà dei vent'anni\" o \"sui venticinque anni\". Non cambiare struttura HTML.",
+        "translation_quote": "Quando arrivammo sulla scena, c’era una giovane donna che sembrava avere una ventina d’anni ed era visibilmente ferita."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,52 @@
         },
         "total_tokens": 12723
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1193,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7639,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8832
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph containing James 4:8 (near end of article)",
-      "severity": "critical",
-      "source_quote": "Draw nigh to God, and he will draw nigh to you… –James 4:8.",
-      "suggested_fix": "Terjemahkan ayat secara akurat ke Bahasa Indonesia sesuai makna teks sumber: “Mendekatlah kepada Allah, dan Ia akan mendekat kepadamu… – Yakobus 4:8.” Ganti teks terjemahan yang salah tanpa mengubah struktur HTML atau atributnya.",
-      "translation_quote": "<em>Janganlah dekat dengan dunia, maka Ia akan dekat dengan kamu... – James 4:8.</em>"
-    },
-    {
-      "location": "Inline Scripture reference in paragraph that cites 1 Corinthians 6:9-11",
-      "severity": "major",
-      "source_quote": "(see 1 Corinthians 6:9-11)",
-      "suggested_fix": "Gunakan bentuk nama kitab yang lazim dalam Bahasa Indonesia: ganti \"1 Corinthians 6:9-11\" menjadi \"1 Korintus 6:9-11\". Jangan ubah angka atau penempatan rujukan.",
-      "translation_quote": "(lihat 1 Corinthians 6:9-11)"
-    },
-    {
-      "location": "Two Scripture citations: 2 Timothy 4:7-8 and James 4:8 (citation forms)",
-      "severity": "major",
-      "source_quote": "–2 Timothy 4:7-8.  ...  –James 4:8.",
-      "suggested_fix": "Gunakan nama kitab Alkitab versi Bahasa Indonesia: ganti \"2 Timothy 4:7-8\" menjadi \"2 Timotius 4:7-8\" dan ganti \"James 4:8\" menjadi \"Yakobus 4:8\". Pertahankan tanda baca dan penempatan referensi sebagaimana aslinya.",
-      "translation_quote": "– 2 Timothy 4:7-8.  ...  <em>... – James 4:8.</em>"
-    },
-    {
-      "location": "Passage rendering of 2 Timothy 4:7-8 paragraph (pronoun consistency)",
+      "location": "Paragraph containing the 1 Peter quotation (HTML near: “...1 Peter 3:15.”)",
       "severity": "minor",
-      "source_quote": "...there is laid up for each of us a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only but unto all them also that love his appearing. I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only, but unto all them also that love his appearing –2 Timothy 4:7-8.",
-      "suggested_fix": "Maintain the original pronoun perspective consistently when translating quoted first-person lines. Render the quoted passage into Indonesian preserving first-person phrasing (e.g., use \"bagiku\" / \"aku\" consistently to match the English first-person statements) or follow a single consistent register rather than switching between \"kita\" and \"saya/aku\". Example fix for the paragraph: “...disediakan bagiku sebuah mahkota kebenaran, yang akan diberikan kepada ku oleh Tuhan, Hakim yang adil, pada hari itu; dan bukan hanya bagi aku, tetapi juga bagi semua orang yang merindukan kedatangan-Nya. Aku telah berjuang perjuangan yang baik, aku telah menyelesaikan perlombaanku, aku telah memelihara imanku: selanjutnya disediakan bagiku mahkota kebenaran...”",
-      "translation_quote": "ada disediakan bagi kita masing-masing mahkota kebenaran, yang akan diberikan oleh Tuhan, hakim yang benar, kepada saya pada hari itu: dan bukan hanya kepada saya, tetapi juga kepada semua orang yang merindukan kedatangan-Nya. Aku telah berjuang perjuangan yang baik, aku telah menyelesaikan perlombaanku, aku telah memelihara iman: Selanjutnya disediakan bagiku mahkota kebenaran, yang akan diberikan oleh Tuhan, hakim yang benar, pada hari itu: dan bukan hanya bagiku, tetapi juga bagi semua orang yang merindukan kedatangan-Nya – 2 Timothy 4:7-8."
+      "source_quote": "“…be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.”",
+      "suggested_fix": "Ganti nama kitab ke bentuk baku Bahasa Indonesia. Contoh penggantian yang disarankan, tetap mempertahankan nomor pasal/ayat dan tanda baca: “…selalu siap memberi jawaban kepada setiap orang yang meminta pertanggungjawaban tentang pengharapan yang ada dalam kamu, dengan lemah lembut dan hormat: – 1 Petrus 3:15.”",
+      "translation_quote": "“…selalu siap memberi jawaban kepada setiap orang yang meminta pertanggungjawaban tentang pengharapan yang ada dalam kamu, dengan lemah lembut dan hormat: – 1 Peter 3:15.”"
+    },
+    {
+      "location": "Paragraph describing emergency dispatch (HTML near: “itulah dispatch yang berulang.”)",
+      "severity": "minor",
+      "source_quote": "“One-car rollover on ‘Gingko Avenue’, possible entrapment,” was the repeated dispatch.",
+      "suggested_fix": "Terjemahkan istilah bahasa Inggris 'dispatch' ke Bahasa Indonesia agar sesuai gaya bahasa target. Contoh penggantian yang disarankan, menjaga tanda kutip dan struktur kalimat: ““Mobil terbalik tunggal di ‘Gingko Avenue’, kemungkinan terjepit,” itulah pengumuman yang berulang.”",
+      "translation_quote": "““Mobil terbalik tunggal di ‘Gingko Avenue’, kemungkinan terjepit,” itulah dispatch yang berulang.”"
+    },
+    {
+      "location": "Paragraph describing first-responder findings (HTML near: “As first responders, all we found was…”)",
+      "severity": "minor",
+      "source_quote": "As first responders, all we found was a car seat that wasn’t fastened in, with no evidence of a baby anywhere.",
+      "suggested_fix": "Ganti kata serapan Inggris 'responder' dengan padanan Bahasa Indonesia yang alami. Contoh penggantian yang disarankan dengan struktur HTML yang sama: “Sebagai petugas penolong pertama, yang kami temukan hanyalah sebuah kursi mobil yang tidak dipasang, tanpa tanda-tanda adanya bayi di mana pun.”",
+      "translation_quote": "“Sebagai petugas responder pertama, yang kami temukan hanyalah sebuah kursi mobil yang tidak dipasang, tanpa tanda-tanda adanya bayi di mana pun.”"
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "4c276b06f1d38f315ae9a3b7232fd18e",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ind",
@@ -168,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

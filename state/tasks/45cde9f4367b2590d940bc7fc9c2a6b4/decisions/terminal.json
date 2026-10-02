@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html — throughout (proper name)",
+      "severity": "minor",
+      "source_quote": "Jehoshaphat (multiple occurrences)",
+      "suggested_fix": "Use the standard, widely recognized Portuguese form of the biblical name (Josafá) to avoid distracting transliteration variants, e.g. replace “Jossafate” with “Josafá” throughout while preserving the author’s meaning and all verse references.",
+      "translation_quote": "Jossafate (múltiplas ocorrências)"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

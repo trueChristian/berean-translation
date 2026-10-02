@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<figcaption> (end of article)\",\"severity\":\"major\",\"source_quote\":\"AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.\",\"suggested_fix\":\"Översätt frasen korrekt till svenska med bibelsk terminologi för 'high places'. Ett lämpligt och bibelöversättningsmässigt korrekt förslag är: \\\"MOT ANDLIG ONDSKA I HIMMELENS OMRÅDEN.\\\" Bevara figcaptionens HTML-struktur och placering oförändrad.\",\"translation_quote\":\"MOT ANDLIG ONDSKA I HÖGA BUD.\"},{\"location\":\"<p>paragraph with MacArthur quote (\\\"I shall return.\\\")\",\"severity\":\"major\",\"source_quote\":\"“I shall return.”\",\"suggested_fix\":\"Översätt MacArthurs citerade löfte till svenska. Ett lämpligt förslag är: “Jag skall återvända.” Bevara citattecken och placering i HTML exakt som i källan.\",\"translation_quote\":\"\\\"I shall return.\\\"\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 855,
+    "content_evidence_truncated": false,
+    "content_sha256": "eb40fd81e6187080ae93c362532ad66c6e4ed5f3cf6ff7e5f3963afed79359cf",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1014,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9281
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

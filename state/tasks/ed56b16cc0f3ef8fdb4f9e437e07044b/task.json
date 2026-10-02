@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 9049
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2137,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5429,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7566
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[2]: source /article[1]/p[1]/sup[1] ('start', 'sup', ()); translation /article[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph: “Many speculations have been made regarding the cause...” (English source paragraph containing hymn imagery)",
+      "severity": "major",
+      "source_quote": "such as the “flickering torch” and the “borrowed ray” in the second verse, the tracing of the “rainbow through the rain” in the third stanza, as well as the “cross” in the last verse.",
+      "suggested_fix": "Translate the quoted hymn imagery accurately into contemporary Modern Greek, preserving the original images and their poetic sense. For example: «όπως η “τρεμουλιαστή δάδα” και η “δανεική ακτίνα” στο δεύτερο στίχο, η “χαραγή του ουράνιου τόξου μέσα στη βροχή” στην τρίτη στροφή, καθώς και ο “σταυρός” στον τελευταίο στίχο.» (Or otherwise keep faithful equivalents: “τρεμουλιαστή δάδα”, “δανεική ακτίνα”, “ουράνιο τόξο μέσα στη βροχή”, “σταυρός”).",
+      "translation_quote": "...όπως η «φλεγμαίνουσα δάδα» και η «δανεική ακτίνα» στο δεύτερο στίχο, η ανίχνευση του «ουράνιου τόξου μέσα από τη βροχή» στην τρίτη στροφή, καθώς και ο «σταυρός» στον τελευταίο στίχο."
+    },
+    {
+      "location": "Paragraph: Matheson’s own account / paragraph mentioning Life and Work and book titles",
+      "severity": "major",
+      "source_quote": "The hymn first appeared in the Church of Scotland monthly magazine, Life and Work, in January 1883. ... including Moments on the Mount, Voice of the Spirit, and Rests by the River. ... including “Make Me A Captive Lord”, and “Then I Shall Be Free.”",
+      "suggested_fix": "Translate the magazine and book/hymn titles into Greek where appropriate or present them in Greek typography while indicating original English title in parentheses if necessary. At minimum, render the magazine title and book titles in Greek script as translatable elements or commonly used Greek forms. Example: «Ο ύμνος εμφανίστηκε για πρώτη φορά στο μηνιαίο περιοδικό της Εκκλησίας της Σκωτίας, Life and Work (Life and Work), τον Ιανουάριο του 1883.» For the book titles, give Greek renderings: «Moments on the Mount» → «Στιγμές στο Όρος» (Moments on the Mount), «Voice of the Spirit» → «Η Φωνή του Πνεύματος» (Voice of the Spirit), «Rests by the River» → «Αναπαύσεις δίπλα στο Ποτάμι» (Rests by the River). For hymn titles in quotes, translate them into Greek or provide Greek equivalents with the English originals in parentheses: «“Make Me a Captive Lord”» → «“Κάνε με Δέσμιο, Κύριε” (Make Me a Captive Lord)»; «“Then I Shall Be Free”» → «“Τότε θα Είμαι Ελεύθερος” (Then I Shall Be Free)».",
+      "translation_quote": "Ο ύμνος εμφανίστηκε για πρώτη φορά στο μηνιαίο περιοδικό της Εκκλησίας της Σκωτίας, <em>Life and Work</em>, τον Ιανουάριο του 1883. ... συμπεριλαμβανομένων των <em>Moments on the Mount</em>, <em>Voice of the Spirit</em> και <em>Rests by the River</em>. ... συμπεριλαμβανομένων των «Make Me A Captive Lord» και «Then I Shall Be Free.»"
+    },
+    {
+      "location": "Matheson quote: “My hymn was composed in the manse of Innellan...” (single quoted paragraph)",
+      "severity": "minor",
+      "source_quote": "“My hymn was composed in the manse of Innellan on the evening of June 6, 1882. ...”",
+      "suggested_fix": "Correct the transliteration/Spelling of 'manse' into idiomatic Greek. Use either a descriptive Greek term or a correct transliteration. For example: «Ο ύμνος μου συντέθηκε στο πρεσβυτεριακό σπίτι (the manse) του Innellan...» or «...συντέθηκε στο μανς (manse) του Innellan...» Ensure the chosen form is consistent and idiomatic.",
+      "translation_quote": "«Ο ύμνος μου συντέθηκε στη μάνση του Innellan το βράδυ της 6ης Ιουνίου 1882. ...»"
+    },
+    {
+      "location": "Image figure alt attribute",
+      "severity": "minor",
+      "source_quote": "<img src=\"...\" alt=\"Sheet music for O Love That Wilt Not Let Me Go\" ...>",
+      "suggested_fix": "Translate the image alt text fully into Greek and translate the hymn title into Greek as used for the article title, or render both Greek and original English. Example alt: \"Παρτιτούρα για τον ύμνο 'Ω Αγάπη Που Δεν Θα Με Αφήσεις'\" or \"Παρτιτούρα για το 'O Love That Wilt Not Let Me Go' (Ω Αγάπη Που Δεν Θα Με Αφήσεις)\".",
+      "translation_quote": "<img src=\"...\" alt=\"Νότες και παρτιτούρα για το O Love That Wilt Not Let Me Go\" ...>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "ed56b16cc0f3ef8fdb4f9e437e07044b",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ell",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

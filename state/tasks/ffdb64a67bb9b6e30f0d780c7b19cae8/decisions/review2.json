@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph with Acts 17:24-25 (third-to-last sentence of 5th <p>)",
+      "severity": "critical",
+      "source_quote": "—God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25.",
+      "suggested_fix": "Translate and render the quoted Scripture into contemporary Modern Greek (not Koine/Ancient Greek), preserving the meaning and the exact reference and punctuation. Example suggested wording (preserve em dashes and verse numbers exactly as in source): —Ο Θεός που έπλασε τον κόσμον και όλα όσα είναι σ' αυτόν· επειδή αυτός είναι Κύριος του ουρανού και της γης, δεν κατοικεί σε χερoποίητους ναούς· ούτε λατρεύεται με ανθρώπινα χέρια, σαν να είχε ανάγκη από κάτι· επειδή αυτός δίδει σε όλους ζωή και πνοή και τα πάντα. —Πράξεις 17:24-25.",
+      "translation_quote": "—ὁ ποιήσας τὸν κόσμον καὶ τὰ ἐν αὐτῷ, ὅτι αὐτὸς ἐστὶν κύριος τοῦ οὐρανοῦ καὶ τῆς γῆς, οὐ κοιμᾶται ἐν χειροποιΐαις ναοῖς· οὐδὲ ἔστιν ὑπὸ ἄνθρωπων προσκυνούμενος, ὡς χρείαν ἔχων· ὅτι αὐτὸς δίδωσιν παντὶ ζωὴν καὶ πνοὴν καὶ πάντα —Πράξεις 17:24-25."
+    },
+    {
+      "location": "source.html — paragraph with Hebrews 12:2 (last sentence of 6th <p>)",
+      "severity": "critical",
+      "source_quote": "…the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
+      "suggested_fix": "Translate and render the quoted Scripture into contemporary Modern Greek (not Koine/Ancient Greek), preserving the meaning and the exact reference and punctuation. Example suggested wording: …τον αρχηγό και τελειωτή της πίστεώς μας· που, για τη χαρά που του ήταν προκειμένη, υπέμεινε τον σταυρό, περιφρονώντας την ατιμία, και κάθισε στα δεξιά του θρόνου του Θεού. —Εβραίους 12:2.",
+      "translation_quote": "…τον αρχηγό και τελειωτή της πίστεώς μας, ο οποίος, για τη χαρά που του ήταν προκειμένη, υπέμεινε τον σταυρό, περιφρονώντας την αἰσχύνη, και κάθισε στα δεξιά του θρόνου του Θεού —Εβραίους 12:2."
+    },
+    {
+      "location": "source.html — paragraph discussing “divine election and predestination” (near middle of long paragraph about selected articles)",
+      "severity": "minor",
+      "source_quote": "The writer even delves, with biblical simplicity and clarity, into the controversial subjects of divine election and predestination.",
+      "suggested_fix": "Improve clarity and idiomatic Modern Greek for the pair “divine election and predestination.” The current phrasing «της θείας εκλογής και της προοριστικής προκαθοριστικότητας» (rendered as «της θείας εκλογής και της προοριστικής προκαθοριστικότητας») is awkward/tautological. Suggested replacement: «στα αμφιλεγόμενα ζητήματα της θείας εκλογής και της προοριστικής (προκαθοριστικής) διακρίσεως» or more simply «στα αμφιλεγόμενα ζητήματα της θείας εκλογής και της προοριστικής/προκαθοριστικής διδασκαλίας». Preserve the existing HTML and punctuation.",
+      "translation_quote": "Ο συγγραφέας εμβαθύνει ακόμα, με βιβλική απλότητα και σαφήνεια, στα αμφιλεγόμενα ζητήματα της θείας εκλογής και της προοριστικής προκαθοριστικότητας."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

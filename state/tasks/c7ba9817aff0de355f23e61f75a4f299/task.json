@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,46 +61,52 @@
         },
         "total_tokens": 13101
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1266,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7753,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9019
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "paragraph: \"The summer I was 17, a visiting minister (‘Mike’) and his family came to our church for meetings.\" (source.html)",
-      "severity": "critical",
-      "source_quote": "The summer I was 17, a visiting minister (‘Mike’) and his family came to our church for meetings.",
-      "suggested_fix": "Translate \"visiting minister (\"Mike\")\" as a culturally and theologically equivalent Hebrew phrase (e.g., \"מיתקל כומר/שליח מבקר ('מייק')\" or \"משרת/שליח מבקר ('מייק')\") rather than \"נזיר מבקר\". Preserve the parenthetical name 'מייק'.",
-      "translation_quote": "\"בקיץ שבו הייתי בן 17, נזיר מבקר (\"מייק\") ומשפחתו באו לכנסייתנו לפגישות.\""
-    },
-    {
-      "location": "paragraph: \"I eventually got a job and was introduced to country music and other worldly things.\" (source.html)",
-      "severity": "major",
-      "source_quote": "I eventually got a job and was introduced to country music and other worldly things.",
-      "suggested_fix": "Restore clear meaning: translate as \"לבסוף קיבלתי עבודה ונחשפתי למוזיקת קאנטרי ולדברים העולםיים האחרים.\" or similar. Avoid nonsensical phrasing like \"הוכחתי למוזיקת קאנטרי\" which doesn't convey 'was introduced to'.",
-      "translation_quote": "\"לבסוף קיבלתי עבודה והוכחתי למוזיקת קאנטרי ולדברים אחרים מהעולם.\""
-    },
-    {
-      "location": "paragraph: \"However,显然 not those plans...\" (source.html context: \"However, God obviously had different plans...\")",
-      "severity": "critical",
-      "source_quote": "However, God obviously had different plans...",
-      "suggested_fix": "Remove the stray Chinese characters and render the sentence properly in Hebrew, e.g. \"אולם לאלוהים, ברור, היו תוכניות שונות...\" or \"אולם לאלוהים היו תוכניות אחרות...\"",
-      "translation_quote": "\"אולם,显然 לאלה היו תוכניות שונות...\""
-    },
-    {
-      "location": "paragraph: 2 Timothy quotation beginning \"We should be the light of the world!... –2 Timothy 4:7-8.\" (source.html)",
-      "severity": "major",
-      "source_quote": "We should be the light of the world! ... I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness... –2 Timothy 4:7-8.",
-      "suggested_fix": "The quoted Scripture must be translated faithfully into Hebrew and presented clearly and accurately. The current Hebrew version is garbled and contains duplicated, mistranslated phrases (e.g., \"צְרָת צִדְקָה—כתר של צְּדָקָה\" and added malformed clauses). Replace with a single, coherent Hebrew translation that preserves the meaning and verse numbering, for example using a standard Hebrew Bible phrasing consistent with the article's tone (not substituting an English version). Ensure punctuation and verse reference (2 טימותיוס 4:7-8) remain unchanged.",
-      "translation_quote": "\"...מונחת לנו לכל אחד צְרָת צִדְקָה—כתר של צְּדָקָה, אשר ייתן לי אדון, השופט הצדיק, ביום ההוא: ולא רק לי, אלא גם לכל אלה שאוהבים את הופעתו. נלחמתי את המאבק הטוב, סיימתי את מסלולי, שמרתי את האמונה: מעתה מורחב לי כתר של צְדָקָה, אשר ייתן לי האדון, השופט הצדיק, ביום ההוא: ולא רק לי, אלא גם לכל אלה שאוהבים את הופעתו –2 טימותיוס 4:7-8.\""
-    },
-    {
-      "location": "paragraph: \"I was more of the “bad guy” and didn’t fit in with the other young people.\" (source.html)",
+      "location": "Paragraph beginning 'June 15, 2018, at 4:40 pm.' (emergency pager sentence)",
       "severity": "minor",
-      "source_quote": "I was more of the “bad guy” and didn’t fit in with the other young people.",
-      "suggested_fix": "Correct the Hebrew phrasing to a natural idiom: e.g., \"הייתי יותר ה'בן הרע' ולא התאקלמתי עם שאר הצעירים.\" The current \"לא התאימותי\" appears to be ungrammatical and should be fixed for clarity and fluency.",
-      "translation_quote": "\"אך בכנסייה החדשה הייתי יותר ה\\\"בן הרע\\\" ולא התאימותי עם שאר הצעירים.\""
+      "source_quote": "the scream of the emergency services’ pager split the peaceful afternoon as it crackled to life.",
+      "suggested_fix": "Replace the mistranslated word with the common Hebrew term for pager (e.g., \"הפייגר של שירותי החירום\") or rephrase: \"צריחת הפייגר של שירותי החירום חתכה את אחר הצהריים השקט...\"",
+      "translation_quote": "צריחת המנסר של שירותי החירום חתכה את אחר הצהריים השקט כשהיא קרקלה לחיים."
+    },
+    {
+      "location": "Paragraph describing ambulance loading the woman (sentence about stretcher/loaded in the ambulance)",
+      "severity": "minor",
+      "source_quote": "As the ambulance crew strapped her to the stretcher and loaded her in the ambulance, she was still repeating, “Where’s my baby…? I’m not ready to die...",
+      "suggested_fix": "Fix the typographical/grammatical error by separating the verb and object: change \"העמיסוה באמבולנס\" to \"העמיסו אותה באמבולנס\" (or \"והעמיסוה באמבולנס\" corrected to \"והעמיסו אותה באמבולנס\").",
+      "translation_quote": "כשהצוות האמבולנס קשר אותה על הסלאינג והעמיסוה באמבולנס, היא עדיין חזרה על, \"איפה התינוק שלי...? אני לא מוכנה למות...\""
+    },
+    {
+      "location": "Verse quotation formatting and punctuation (1 Peter 3:15 quotation)",
+      "severity": "minor",
+      "source_quote": "…be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.",
+      "suggested_fix": "The Hebrew translation preserves the verse but the surrounding punctuation and order can be smoothed for idiomatic clarity. Suggest: \"עליכם... להיות תמיד מוכנים לתת תשובה לכל אדם שיבקש מכם את סיבת התקווה שבתוככם, בענווה וביראת כבוד — 1 פטרוס 3:15.\" This keeps the printed reference and meaning intact while improving Hebrew idiom.",
+      "translation_quote": "עלינו <em>…להיות תמיד מוכנים לתת תשובה לכל אדם המבקש מכם סיבת התקוה שבתוככם בענווה ויראת כבוד: –1 פטרוס 3:15. </em>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "c7ba9817aff0de355f23e61f75a4f299",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "heb",
@@ -175,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

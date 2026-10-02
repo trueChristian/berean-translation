@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"In this issue of the magazine, we have once more...\" (source.html third-to-last <p>)",
+      "severity": "major",
+      "source_quote": "The article that we have chosen to share from “Bible Helps” in this issue is one of the best discourses on the subject of “faith and works” that I have ever read. The writer even delves, with biblical simplicity and clarity, into the controversial subjects of divine election and predestination. Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!",
+      "suggested_fix": "Translate the quoted titles and the English-language article title into Urdu (preserve punctuation and surrounding HTML). For example: replace “Bible Helps” with «Bible Helps» translated or rendered as بائبل ہیلپز (if the publication title should remain as a proper name, keep it but mark it as a title and translate surrounding descriptive phrase). Translate “The Foolishness of Preaching” into Urdu consistently inside the sentence (e.g., \"The Foolishness of Preaching\" → \"وعظ کی حماقت\" or a closer literal rendering such as \"وعظ کی بےوقوفی\"), and translate “the altar call” into Urdu (e.g., \"آلٹر کال\" → \"دعوتِ مطرَحہ\" or keep transliteration but indicate it is a practice by translating the descriptive clause). Ensure the translation preserves the quoted, substantive nature of those titles. Keep the clause structure and sentence meaning unchanged.",
+      "translation_quote": "اس شمارے سے ہم نے \"Bible Helps\" سے ایک ایسا مضمون منتخب کیا ہے جو \"ایمان اور اعمال\" کے موضوع پر پڑھی جانے والی بہترین تقاریر میں سے ایک ہے جو میں نے کبھی پڑھی ہیں۔ مصنف نے الہامی منتِ انتخاب اور تقدیر کے متنازع موضوعات میں بھی کتابِ مقدس کی سادگی اور واضحی کے ساتھ غور کیا ہے۔ آخر میں، ہم نے \"The Foolishness of Preaching\" میں ایک جائزہ شامل کیا ہے جو یہ دیکھتا ہے کہ گرجا گھروں میں \"آلٹر کال\" کے استعمال کی بنیاد کیا ہے—کیا یہ کتابِ مقدس اور چرچ کی تاریخ میں بنیاد رکھتا ہے یا یہ جدید برسوں میں دنیا سے چرچ نے ایک طریقۂ کار بطورِ طریقۂِ دعوت ادھار لیا ہے؟!"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

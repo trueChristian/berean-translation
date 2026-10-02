@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -43,18 +42,46 @@
         },
         "total_tokens": 5820
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1611,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3474,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5085
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[8]: source /article[1]/p[4]/em[1] ('start', 'em', ()); translation /article[1]/p[4]/span[1] ('start', 'span', (('class', 'Apple-converted-space'),))",
-      "translation_quote": ""
+      "location": "<p>…2 Timothy 3:13-17</p> (paragraph with 2 Timothy quotation)",
+      "severity": "major",
+      "source_quote": "But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus.",
+      "suggested_fix": "Remove the extra attribution phrase introduced in the translation. Render the passage to match the English meaning and structure. For example (Indonesian): \"Tetapi engkau harus tetap bertekun dalam hal-hal yang telah engkau pelajari dan yang telah engkau yakini, dengan mengetahui dari siapa engkau telah belajar hal-hal itu; dan sejak kecil kau telah mengenal Kitab-kitab Suci, yang dapat memberi hikmat kepadamu untuk keselamatan oleh iman yang ada dalam Kristus Yesus.\" Preserve original punctuation and verse range placement inside the same <em>…</em> tag.",
+      "translation_quote": "Tetapi engkau harus tetap berpegang pada apa yang telah engkau pelajari dan yang telah kukatakan kepadamu, mengetahui dari siapa engkau telah belajar hal-hal itu; dan sedari kecil engkau telah mengenal Kitab-kitab Suci, yang dapat memberi hikmat kepadamu untuk keselamatan oleh iman yang ada dalam Kristus Yesus."
+    },
+    {
+      "location": "<p>…article descriptions paragraph (mentions “Bible Helps” and “The Foolishness of Preaching”)</p>",
+      "severity": "major",
+      "source_quote": "The article that we have chosen to share from “Bible Helps” in this issue is one of the best discourses on the subject of “faith and works” that I have ever read. ... Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”",
+      "suggested_fix": "Translate the quoted article/section titles into Indonesian (they are substantive quoted prose). Provide Indonesian renderings while preserving the surrounding punctuation and HTML. For example: replace “Bible Helps” with \"Bible Helps\" only if it is an immutable proper title known in Indonesian sources; otherwise translate as \"(dari) 'Bible Helps'\" → preferably translate the article title 'The Foolishness of Preaching' into Indonesian (e.g. \"Kebodohan Khotbah\") or a literal equivalent, and translate or mark 'Bible Helps' consistently. Example replacement in Indonesian: \"Artikel yang kami pilih untuk dibagikan dari 'Bible Helps' dalam edisi ini adalah salah satu khotbah terbaik tentang pokok 'iman dan perbuatan' yang pernah saya baca. ... Akhirnya, kami menyajikan 'Kebodohan Khotbah'—sebuah penilaian mengenai dasar gereja-gereja yang menggunakan 'panggilan di altar'…\" If 'Bible Helps' is an established section title that must remain in English, annotate that it is a title (e.g. \"dari 'Bible Helps'\") but still ensure other quoted substantive article titles are translated into Indonesian.",
+      "translation_quote": "Artikel yang kami pilih untuk dibagikan dari “Bible Helps” dalam edisi ini adalah salah satu khotbah terbaik tentang pokok “iman dan perbuatan” yang pernah saya baca. ... Akhirnya, kami menyajikan The Foolishness of Preaching sebuah penilaian mengenai dasar gereja-gereja yang menggunakan “panggilan di altar”—apakah itu berlandaskan pada Kitab Suci dan sejarah gereja ataukah itu metode yang dipinjam gereja dari dunia pada tahun-tahun belakangan ini?!"
     }
   ],
+  "finished_at": "2026-10-02T13:03:30+00:00",
   "id": "0515ca27963249e7807b74d922f1aada",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ind",
@@ -128,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

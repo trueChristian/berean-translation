@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 7648
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1143,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4925,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6068
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[2]: source /article[1]/p[1]/sup[1] ('start', 'sup', ()); translation /article[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "source.html paragraph 1 (opening sentence)",
+      "severity": "major",
+      "source_quote": "This hymn is generally thought to be one of the most loved hymns written during the latter part of the 19th century.",
+      "suggested_fix": "Translate the time phrase to accurately reflect \"the latter part of the 19th century\" (e.g., \"19ویں صدی کے آخری حصے\") rather than \"after the 19th century.\" For example: \"یہ حمد عام طور پر 19ویں صدی کے آخری حصے میں لکھی گئی سب سے زیادہ محبوب حمدوں میں شمار کی جاتی ہے۔\"",
+      "translation_quote": "یہ حمد عام طور پر ان سب سے زیادہ محبوب حمدوں میں شمار کی جاتی ہے جو 19th صدی کے بعد کے دور میں لکھی گئیں۔"
+    },
+    {
+      "location": "source.html References block (composer line)",
+      "severity": "major",
+      "source_quote": "Composer - Albert L. Peace, 1844 – 1912",
+      "suggested_fix": "Correct the role label \"Composer\" to an appropriate Urdu term meaning composer/musician (e.g., \"موسیقار\" or \"ترتیب کار\"). Keep the name and dates unchanged. For example: \"موسیقار - Albert L. Peace, 1844 – 1912\"",
+      "translation_quote": "سنگر             -Albert L. Peace, 1844 – 1912"
+    },
+    {
+      "location": "source.html paragraph 3 (sister assisting throughout his life)",
+      "severity": "minor",
+      "source_quote": "One of them continued to be his faithful co-worker and helper throughout his life, assisting in his calling of being a pastor and other ministerial duties.",
+      "suggested_fix": "Remove the added/garbled phrase \"تحریر کے دوران پورے کے پورے\" and render the sentence smoothly to match the source meaning. Suggested Urdu: \"ان میں سے ایک پورے عرصہ تک ان کی مخلص شریکِ کار اور مددگار بنی، جو ان کے پادری کے کاموں اور دیگر عبادی ذمہ داریوں میں ان کی معاونت کرتی رہی۔\"",
+      "translation_quote": "ان میں سے ایک تحریر کے دوران پورے کے پورے ان کے مخلص شریکِ کار اور مدد گار کے طور پر رہی، اُن کے پادری کے طور پر انجام دیے جانے والے کاموں اور دیگر رسمی ذمہ داریوں میں مدد کرتی رہیں۔"
+    },
+    {
+      "location": "source.html paragraph with quote (\"dayspring from on high\")",
+      "severity": "minor",
+      "source_quote": "this came like a dayspring from on high.",
+      "suggested_fix": "Translate the figurative phrase to a natural Urdu equivalent that preserves the sense of sudden heavenly inspiration. Suggested: \"یہ اوپر سے آنیوالی ایک روشنی کی مانند آیا\" or \"یہ اوپر سے ایک اچانک الہامی روشنی کی مانند آیا۔\"",
+      "translation_quote": "یہ اوپر سے ایک دن کی روشنی کی مانند آیا۔"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "c1c829c52d2a445ac5c08b3f18e4edc5",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "urd",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,60 +61,73 @@
         },
         "total_tokens": 7418
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1605,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3620,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 1792
+        },
+        "total_tokens": 5225
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<article> second paragraph (source.html): \"She had spent a week with her aunt and uncle...\"",
-      "severity": "major",
-      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.",
-      "suggested_fix": "Translate \"aunt and uncle\" correctly as \"shangazi na mjomba\" (or another correct Kiswahili pair) and keep the rest of the sentence meaning intact. For example: \"Alikuwa ametembelea shangazi na mjomba wake waliokaa wilayani nyingine kwa wiki moja, na wakati huo binamu wake Paul alimpa kisu aliyemutengenezea.\"",
-      "translation_quote": "Alikuwa ametembelea shangazi na shangazi yake waliokaa wilayani nyingine kwa wiki moja na wakati huo, binamu wake Paul alimpa kisu alichotengeneza."
+      "location": "<p>“Ninajua!” alifikiria. “Hii itakuwa fursa nzuri kujaribu kukitaa kwa kisu kile Paul alinipa.”</p>",
+      "severity": "minor",
+      "source_quote": "“I know!” she thought to herself. “This would be a perfect time to try some whittling with that knife Paul gave me.”",
+      "suggested_fix": "Translate the verb 'whittling' with the common Kiswahili verb for carving/shaving wood. For example: “Ninajua!” alifikiria. “Hii itakuwa fursa nzuri kujaribu kuchonga kwa kisu kile Paul alinipa.”",
+      "translation_quote": "“Ninajua!” alifikiria. “Hii itakuwa fursa nzuri kujaribu kukitaa kwa kisu kile Paul alinipa.”"
     },
     {
-      "location": "<article> paragraph describing the injury (source.html): \"Just as she landed, her ankle turned and gave way under her. She fell awkwardly onto her left leg.\"",
-      "severity": "major",
+      "location": "<p>Baada ya muda, tawi ambalo Ellie alikuwa amekaa lilianza kuhisi gumu na mabai, na matawi aliyekuwa akiyachonga karibu yalitoweka.</p>",
+      "severity": "minor",
+      "source_quote": "After a time, the branch Ellie was sitting on began to feel rough and hard, and the twigs she was whittling had nearly disappeared.",
+      "suggested_fix": "'Mabai' is not an idiomatic rendering of 'rough' here. Use a clearer phrase such as “mabomu” or “kugea”/“kuungua” is wrong; better: “lilianza kuhisi gumu na kugura” or “lilianza kuonekana gumu na chungu” so the meaning 'rough and hard' is natural: “...lilianza kuonekana gumu na hukuwa laini.”",
+      "translation_quote": "Baada ya muda, tawi ambalo Ellie alikuwa amekaa lilianza kuhisi gumu na mabai, na matawi aliyekuwa akiyachonga karibu yalitoweka."
+    },
+    {
+      "location": "<p>Alibadilika hadi tawi la chini na kukaa amekaa tayari kuruka chini kama alivyokuwa akifanya kila mara kutoka kwenye mti.</p>",
+      "severity": "minor",
+      "source_quote": "She shifted to the lowest branch and sat poised, ready to jump down like she always did to get out of the tree.",
+      "suggested_fix": "'Alibadilika' is ambiguous. Use 'Alibadilisha mkao mpaka tawi la chini' or 'Alihamia tawi la chini' and remove duplicated 'na kukaa amekaa'. Suggested: “Alihamia tawi la chini na kukaa tayari kuruka chini, kama alivyokuwa akifanya kila mara.”",
+      "translation_quote": "Alibadilika hadi tawi la chini na kukaa amekaa tayari kuruka chini kama alivyokuwa akifanya kila mara kutoka kwenye mti."
+    },
+    {
+      "location": "<p>Alishtuka, akiangalia kisu mkononi mwake. “Usiruke mahali popote ukiwa na kisu mkononi!” sauti ya mama yake ilimpita akilini.</p>",
+      "severity": "minor",
+      "source_quote": "She paused, looking at the knife in her hand. “Never jump down from anywhere while holding a knife in your hand!” her mother’s voice rang in her memory.",
+      "suggested_fix": "'Alishtuka' implies she was startled. The source says she 'paused' (stopped) to look. Use 'Alisita' or 'Alisimamisha' to match the original: “Alisita, akiangalia kisu mkononi mwake.”",
+      "translation_quote": "Alishtuka, akiangalia kisu mkononi mwake. “Usiruke mahali popote ukiwa na kisu mkononi!” sauti ya mama yake ilimpita akilini."
+    },
+    {
+      "location": "<p>Kwa hatia, alibana kidole gumba juu ya kidonda na akajichomea ndani ya nyumba.</p>",
+      "severity": "minor",
+      "source_quote": "Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house.",
+      "suggested_fix": "'Akajichomea ndani ya nyumba' is incorrect and suggests she stabbed herself into the house. Use 'akaingia' for 'slipped into the house'. Suggested: “Kwa hatia, alibana kidole gumba juu ya kidonda na akalazimika kuingia ndani ya nyumba.” or simply “...kisha akaingia ndani ya nyumba.”",
+      "translation_quote": "Kwa hatia, alibana kidole gumba juu ya kidonda na akajichomea ndani ya nyumba."
+    },
+    {
+      "location": "<p>Wakati alipotua, kifundo cha mguu wake kiligeuka na kumkaba chini. Alianguka kwa njia isiyofaa kwenye mguu wake wa kushoto.</p>",
+      "severity": "minor",
       "source_quote": "Just as she landed, her ankle turned and gave way under her. She fell awkwardly onto her left leg.",
-      "suggested_fix": "Correct the body part: translate \"ankle\" as \"kiwiko cha mguu wa chini (kiuno cha mguu?)\" or better \"kiwiko cha mguu\" or \"mkwaju\" (common Kiswahili for ankle). Suggested Kiswahili: \"Wakati alipotua, kifundo cha mguu wake kiligeuka na kumkaba. Alianguka kwa mgongo kwa mguu wake wa kushoto.\" (Keep meaning that the ankle twisted and she fell awkwardly onto her left leg.)",
-      "translation_quote": "Wakati alipoanguka, kiuno chake kiligeuka na kukata chini. Alianguka kwa namna ya kukosa mkao kwenye mguu wa kushoto."
-    },
-    {
-      "location": "<article> paragraph on God protecting her (source.html): \"she is grateful that God protected her\"",
-      "severity": "major",
-      "source_quote": "Even though she acted foolishly, she is grateful that God protected her, but she still wishes she had confessed her disobedience to her mother.",
-      "suggested_fix": "Translate the verb \"protected\" faithfully. The Kiswahili must convey that God protected/saved her (e.g., \"alimtegemea\" is incorrect). Use \"alimtetea\" or \"almulinda\". Suggested revision: \"Ingawa alitenda kwa ujinga, anashukuru kwamba Mungu alimlinda, lakini bado anataka angekiri uasi wake kwa mama yake.\"",
-      "translation_quote": "Ingawa alitenda kwa ujinga, anashukuru kwamba Mungu alimtegemea, lakini bado anataka angekiri uasi wake kwa mama yake."
-    },
-    {
-      "location": "<article> paragraph about stopping the bleeding (source.html): \"after finding a little bandage and placing it on her cut\"",
-      "severity": "major",
-      "source_quote": "The bleeding soon stopped, and after finding a little bandage and placing it on her cut, she quietly put her knife away and found a book to read.",
-      "suggested_fix": "\"Bandage\" must be translated correctly. Replace \"banda\" (which means 'shop' or is incorrect in this context) with \"benda\", \"bandeji\" or \"kipande cha bandeji\". Suggested Kiswahili: \"Damu ilitoweka hivi karibuni, na baada ya kupata bandeji ndogo na kuiweka kwenye kata yake, alitulia kuweka kisu chake mbali...\"",
-      "translation_quote": "Kuoterwa damu kwakatoweka hivi karibuni, na baada ya kupata banda ndogo na kuiweka kwenye kata yake, alitulia kuweka kisu chake mbali na kupata kitabu cha kusoma."
-    },
-    {
-      "location": "<article> first figure img alt (source.html): alt of first image \"A child whittling a stick with a small red-handled knife\"",
-      "severity": "minor",
-      "source_quote": "A child whittling a stick with a small red-handled knife",
-      "suggested_fix": "Translate \"whittling\" as \"akichonga\" (not \"akitembea kifuniko\"). Suggested alt text: \"Mtoto akichonga kijiti kwa kisu kidogo chenye mkono mwekundu.\"",
-      "translation_quote": "Mtoto akitembea kifuniko cha kuni kwa kisu kidogo chenye mkono mwekundu"
-    },
-    {
-      "location": "<article> third paragraph (source.html): \"It had a short, round handle...\"",
-      "severity": "minor",
-      "source_quote": "It had a short, round handle and he had inserted a small piece of steel into one end. He then honed the blade to a nice sharp edge.",
-      "suggested_fix": "Use the correct noun for \"handle\" (mshiko or mshituko) rather than \"mshale\" which reads as 'shaft'/'arrow'. Suggested Kiswahili: \"Kilikuwa na mshiko mfupi, mviringo, na aling'ika kipande kidogo cha chuma mwishoni. Kisha akapiga msumari/akaisafisha kofia ya upanga hadi kuwa na ukingo mkali.\" (Keep sense clear and idiomatic.)",
-      "translation_quote": "Kilikuwa na mshale mfupi, mviringo na alikuwa ameweka kipande kidogo cha chuma mwishoni. Kisha alileta upanga hadi uke mkali."
-    },
-    {
-      "location": "<article> paragraph about carving notches (source.html): \"she had fun carving notches and shaving off small pieces of bark.\"",
-      "severity": "minor",
-      "source_quote": "She still couldn’t make eyes and a nose appear, but she had fun carving notches and shaving off small pieces of bark.",
-      "suggested_fix": "Prefer a natural Kiswahili rendering for \"carving notches\" and \"bark\"; avoid leaving English loanword \"notchi\" and use e.g. \"kutengeneza mikunjo\" or \"kukata viganja\" and \"ganda la mti\" for bark. Example: \"Bado hakuweza kutengeneza macho na pua, lakini alifurahia kukata vinyweo na kuvua vipande vidogo vya ganda la mti.\"",
-      "translation_quote": "Bado hakuweza kutengeneza macho na pua kuonekana, lakini alikuwa anafurahia kukandia notchi na kukata vipande vidogo vya barki."
+      "suggested_fix": "'Kumkaba chini' is awkward. Better: 'kikaanguka' or 'kikamwacha' is unclear. Suggested: “Wakati alipotua, kifundo cha mguu wake kiligeuka na kumnyima mtego. Alianguka kwa njia isiyofaa juu ya mguu wake wa kushoto.” Or: “Wakati alipotua, kifundo cha mguu wake kiligeuka na kumfanya aporomoke kwa mguu wa kushoto.”",
+      "translation_quote": "Wakati alipotua, kifundo cha mguu wake kiligeuka na kumkaba chini. Alianguka kwa njia isiyofaa kwenye mguu wake wa kushoto."
     }
   ],
+  "finished_at": "2026-10-02T13:03:30+00:00",
   "id": "048f7fd3105b8e5f37ee6b6a0be2a84d",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swa",
@@ -189,13 +201,13 @@
     }
   },
   "protected": false,
-  "quality_score": 58,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d403f379edde7ed1b9230df32b8a4aa9dad598dcb4dff15ce8551751f262d6f8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

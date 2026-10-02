@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ec7030ef-a39c-480e-a5c8-55c04c7d1398",
+    "response_id": "chatcmpl-EUXBJOxvXS5v2qCcMnblQ03vYr1vy",
+    "usage": {
+      "completion_tokens": 1135,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5766
+    }
+  },
+  "received_at": "2026-10-02T13:03:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> ... <p>...</p> (first paragraph and elsewhere)",
+        "severity": "major",
+        "source_quote": "O Love, That Wilt Not Let Me Go",
+        "suggested_fix": "Translate the hymn title into Arabic consistently throughout the article. For example, replace instances of the English title with «يا محبة التي لا تتركني» (the translation already used in the translation.title). Preserve surrounding HTML and punctuation exactly. Example replacement inside a paragraph: …الكلمات الأربع الأساسية في «يا محبة التي لا تتركني» هي:…",
+        "translation_quote": "«O Love, That Wilt Not Let Me Go»"
+      },
+      {
+        "location": "<article> ... <p> (paragraph listing devotional books)",
+        "severity": "major",
+        "source_quote": "Moments on the Mount; Voice of the Spirit; Rests by the River",
+        "suggested_fix": "Translate the English book titles into Arabic, keeping them in italic tags as in source. Suggested translations: <em>لحظات على الجبل</em> for Moments on the Mount; <em>صوت الروح</em> for Voice of the Spirit; <em>راحة بجانب النهر</em> for Rests by the River. Replace the English titles inside the same <em> tags in the translation HTML.",
+        "translation_quote": "<em>Moments on the Mount</em>, <em>Voice of the Spirit</em>, <em>Rests by the River</em>"
+      },
+      {
+        "location": "<article> ... <p> (References and magazine mention)",
+        "severity": "major",
+        "source_quote": "Life and Work; 101 Hymn Stories; Treasury of Hymn Stories",
+        "suggested_fix": "Translate the magazine and reference titles into Arabic (they are substantive quoted metadata). Suggested translations: Life and Work → <em>الحياة والعمل</em> (for the Church of Scotland monthly); 101 Hymn Stories → <em>١٠١ قصّة ترنيمة</em>; Treasury of Hymn Stories → <em>خزينة قصص الترانيم</em>. Replace the English text inside the corresponding <em> and paragraph tags, preserving HTML structure and any line breaks.",
+        "translation_quote": "<em>Life and Work</em>; <em>101 Hymn Stories</em>; <em>Treasury of Hymn Stories</em>"
+      },
+      {
+        "location": "<figure> <img alt=\"...\">",
+        "severity": "major",
+        "source_quote": "Sheet music for O Love That Wilt Not Let Me Go",
+        "suggested_fix": "Translate the image alt text fully into Arabic and include the Arabic hymn title. For example: alt=\"نوتة موسيقية لأنشودة «يا محبة التي لا تتركني\". Replace the current alt attribute value inside the <img> tag, preserving attributes order and other HTML attributes.",
+        "translation_quote": "نوتة موسيقية لأنشودة O Love That Wilt Not Let Me Go"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

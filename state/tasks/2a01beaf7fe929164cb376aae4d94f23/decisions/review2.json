@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"...Jesus kom for å gi en remedie for vår brutthet.\" (third paragraph)",
+      "severity": "minor",
+      "source_quote": "Jesus came to provide a remedy for our brokenness.",
+      "suggested_fix": "Use a more natural Norwegian rendering for 'remedy' and 'brokenness'. For example: \"Jesus kom for å gi et botemiddel for vår brist\" or better: \"Jesus kom for å bringe helbredelse for vår sårbarhet\" or \"Jesus kom for å helbrede vår bristede tilstand.\" Keep the rest of the sentence unchanged.",
+      "translation_quote": "Jesus kom for å gi en remedie for vår brutthet."
+    },
+    {
+      "location": "Near end: paragraph beginning \"Dette er en disippelkapsserie.\"",
+      "severity": "minor",
+      "source_quote": "This is a discipleship series.",
+      "suggested_fix": "Correct the typographical error to the intended Norwegian compound. Replace \"disippelkapsserie\" with \"disippelskapserie\" or the clearer \"disippelskap-serie\" to match the subtitle and idiomatic usage.",
+      "translation_quote": "Dette er en disippelkapsserie."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 (about Roman procurator Felix)",
+      "severity": "minor",
+      "source_quote": "he had been whisked off to the Roman Procurator Felix",
+      "suggested_fix": "Ganti terjemahan 'Pemerintah Romawi, Feliks' menjadi istilah yang tepat dan alami dalam Bahasa Indonesia untuk jabatan Romawi: misalnya 'Prokurator Romawi, Feliks' atau 'Pejabat Romawi, Feliks'. Pertahankan nama 'Feliks'.",
+      "translation_quote": "ia dibawa kepada Pemerintah Romawi, Feliks"
+    },
+    {
+      "location": "Paragraph 2 (about new procurator Festus)",
+      "severity": "minor",
+      "source_quote": "until the new Procurator, Festus, took his place.",
+      "suggested_fix": "Ganti terjemahan 'Pemerintah yang baru, Festus' menjadi istilah yang tepat untuk jabatan Romawi seperti 'prokurator yang baru, Festus' atau 'Prokurator baru, Festus'.",
+      "translation_quote": "sampai Pemerintah yang baru, Festus, menggantikannya."
+    },
+    {
+      "location": "Paragraph about Aretaeus of Cappadocia (diabetes history)",
+      "severity": "minor",
+      "source_quote": "Aretaeus of Cappadocia",
+      "suggested_fix": "Gunakan ejaan nama yang umum dipakai dalam publikasi Kristen/ilmiah berbahasa Indonesia (mis. 'Aretaeus dari Kappadokia') atau tetapkan ejaan sumber jika itu sudah konsisten; saat ini terjemahan memakai 'Areteus' — jika situs menggunakan versi baku lain, pertimbangkan menyelaraskannya. (Ini adalah perbaikan gaya/terminologi, bukan perubahan makna.)",
+      "translation_quote": "Areteus dari Kappadokia"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e51e9781-7613-4150-bf20-a3e42e246212",
+    "response_id": "chatcmpl-EUXB5ViIoFl2jYisEn5sY38gLozrn",
+    "usage": {
+      "completion_tokens": 1605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3620,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 5225
+    }
+  },
+  "received_at": "2026-10-02T13:03:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“Ninajua!” alifikiria. “Hii itakuwa fursa nzuri kujaribu kukitaa kwa kisu kile Paul alinipa.”</p>",
+        "severity": "minor",
+        "source_quote": "“I know!” she thought to herself. “This would be a perfect time to try some whittling with that knife Paul gave me.”",
+        "suggested_fix": "Translate the verb 'whittling' with the common Kiswahili verb for carving/shaving wood. For example: “Ninajua!” alifikiria. “Hii itakuwa fursa nzuri kujaribu kuchonga kwa kisu kile Paul alinipa.”",
+        "translation_quote": "“Ninajua!” alifikiria. “Hii itakuwa fursa nzuri kujaribu kukitaa kwa kisu kile Paul alinipa.”"
+      },
+      {
+        "location": "<p>Baada ya muda, tawi ambalo Ellie alikuwa amekaa lilianza kuhisi gumu na mabai, na matawi aliyekuwa akiyachonga karibu yalitoweka.</p>",
+        "severity": "minor",
+        "source_quote": "After a time, the branch Ellie was sitting on began to feel rough and hard, and the twigs she was whittling had nearly disappeared.",
+        "suggested_fix": "'Mabai' is not an idiomatic rendering of 'rough' here. Use a clearer phrase such as “mabomu” or “kugea”/“kuungua” is wrong; better: “lilianza kuhisi gumu na kugura” or “lilianza kuonekana gumu na chungu” so the meaning 'rough and hard' is natural: “...lilianza kuonekana gumu na hukuwa laini.”",
+        "translation_quote": "Baada ya muda, tawi ambalo Ellie alikuwa amekaa lilianza kuhisi gumu na mabai, na matawi aliyekuwa akiyachonga karibu yalitoweka."
+      },
+      {
+        "location": "<p>Alibadilika hadi tawi la chini na kukaa amekaa tayari kuruka chini kama alivyokuwa akifanya kila mara kutoka kwenye mti.</p>",
+        "severity": "minor",
+        "source_quote": "She shifted to the lowest branch and sat poised, ready to jump down like she always did to get out of the tree.",
+        "suggested_fix": "'Alibadilika' is ambiguous. Use 'Alibadilisha mkao mpaka tawi la chini' or 'Alihamia tawi la chini' and remove duplicated 'na kukaa amekaa'. Suggested: “Alihamia tawi la chini na kukaa tayari kuruka chini, kama alivyokuwa akifanya kila mara.”",
+        "translation_quote": "Alibadilika hadi tawi la chini na kukaa amekaa tayari kuruka chini kama alivyokuwa akifanya kila mara kutoka kwenye mti."
+      },
+      {
+        "location": "<p>Alishtuka, akiangalia kisu mkononi mwake. “Usiruke mahali popote ukiwa na kisu mkononi!” sauti ya mama yake ilimpita akilini.</p>",
+        "severity": "minor",
+        "source_quote": "She paused, looking at the knife in her hand. “Never jump down from anywhere while holding a knife in your hand!” her mother’s voice rang in her memory.",
+        "suggested_fix": "'Alishtuka' implies she was startled. The source says she 'paused' (stopped) to look. Use 'Alisita' or 'Alisimamisha' to match the original: “Alisita, akiangalia kisu mkononi mwake.”",
+        "translation_quote": "Alishtuka, akiangalia kisu mkononi mwake. “Usiruke mahali popote ukiwa na kisu mkononi!” sauti ya mama yake ilimpita akilini."
+      },
+      {
+        "location": "<p>Kwa hatia, alibana kidole gumba juu ya kidonda na akajichomea ndani ya nyumba.</p>",
+        "severity": "minor",
+        "source_quote": "Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house.",
+        "suggested_fix": "'Akajichomea ndani ya nyumba' is incorrect and suggests she stabbed herself into the house. Use 'akaingia' for 'slipped into the house'. Suggested: “Kwa hatia, alibana kidole gumba juu ya kidonda na akalazimika kuingia ndani ya nyumba.” or simply “...kisha akaingia ndani ya nyumba.”",
+        "translation_quote": "Kwa hatia, alibana kidole gumba juu ya kidonda na akajichomea ndani ya nyumba."
+      },
+      {
+        "location": "<p>Wakati alipotua, kifundo cha mguu wake kiligeuka na kumkaba chini. Alianguka kwa njia isiyofaa kwenye mguu wake wa kushoto.</p>",
+        "severity": "minor",
+        "source_quote": "Just as she landed, her ankle turned and gave way under her. She fell awkwardly onto her left leg.",
+        "suggested_fix": "'Kumkaba chini' is awkward. Better: 'kikaanguka' or 'kikamwacha' is unclear. Suggested: “Wakati alipotua, kifundo cha mguu wake kiligeuka na kumnyima mtego. Alianguka kwa njia isiyofaa juu ya mguu wake wa kushoto.” Or: “Wakati alipotua, kifundo cha mguu wake kiligeuka na kumfanya aporomoke kwa mguu wa kushoto.”",
+        "translation_quote": "Wakati alipotua, kifundo cha mguu wake kiligeuka na kumkaba chini. Alianguka kwa njia isiyofaa kwenye mguu wake wa kushoto."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

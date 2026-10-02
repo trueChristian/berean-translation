@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -43,18 +42,67 @@
         },
         "total_tokens": 7420
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1397,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4653,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6050
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[2]: source /article[1]/p[1]/sup[1] ('start', 'sup', ()); translation /article[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "source.html paragraph: \"The hymn first appeared in the Church of Scotland monthly magazine, Life and Work, in January 1883.\"",
+      "severity": "major",
+      "source_quote": "The hymn first appeared in the Church of Scotland monthly magazine, Life and Work, in January 1883.",
+      "suggested_fix": "Translate or localize the magazine title into French (or mark it as a title but render as translated French text) rather than leaving it in English. For example: « Le cantique parut pour la première fois dans le mensuel de l’Église d’Écosse, Life and Work (La Vie et l’Oeuvre), en janvier 1883. » or, if the publication is customarily cited untranslated, add French punctuation and indication that it is a title: « …dans le mensuel de l’Église d’Écosse, ‹ Life and Work ›, en janvier 1883. » Preserve the HTML and italics as in the source.",
+      "translation_quote": "Le cantique parut pour la première fois dans le magazine mensuel de l’Église d’Écosse, <em>Life and Work</em>, en janvier 1883."
+    },
+    {
+      "location": "source.html paragraph: \"The later years of Matheson’s life... including Moments on the Mount, Voice of the Spirit, and Rests by the River.\"",
+      "severity": "major",
+      "source_quote": "including Moments on the Mount, Voice of the Spirit, and Rests by the River.",
+      "suggested_fix": "Translate the English book titles into French (render the quoted titles into French) or present them consistently as translated titles in italics. For example: « notamment <em>Moments on the Mount</em> (Moments sur la montagne), <em>Voice of the Spirit</em> (La voix de l’Esprit) et <em>Rests by the River</em> (Repos au bord du fleuve). » Keep the original HTML tags and italics.",
+      "translation_quote": "notamment <em>Moments on the Mount</em>, <em>Voice of the Spirit</em> et <em>Rests by the River</em>."
+    },
+    {
+      "location": "source.html img alt attribute",
+      "severity": "major",
+      "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+      "suggested_fix": "Translate the image alt text into French and render the hymn title as translated. For example: alt=\"Partition de « Ô Amour qui ne me laissera pas partir »\". Preserve the alt attribute and other image tag attributes exactly.",
+      "translation_quote": "alt=\"Partition de O Love That Wilt Not Let Me Go\""
+    },
+    {
+      "location": "source.html paragraph: \"it caused him to trust in the Lord\"",
+      "severity": "minor",
+      "source_quote": "it caused him to trust in the Lord",
+      "suggested_fix": "Correct French idiom/grammar: use « le » vs « au ». Suggestion: « mais elle le poussa à se confier au Seigneur ». Preserve original sentence order and HTML tags.",
+      "translation_quote": "elle le poussa à se confier en le Seigneur et renforça sa marche avec Dieu."
+    },
+    {
+      "location": "source.html paragraph: \"Except for “moments of shadowy eyesight\", he was totally blind by the age of 18.\"",
+      "severity": "minor",
+      "source_quote": "Except for “moments of shadowy eyesight\", he was totally blind by the age of 18.",
+      "suggested_fix": "Improve idiomatic French for clarity while preserving meaning. Suggest: « À l’exception de quelques instants de vision incertaine, il était totalement aveugle à l’âge de 18 ans. » Replace « moments de vue ombragée » by a clearer French phrasing.",
+      "translation_quote": "À l’exception de « moments de vue ombragée », il était totalement aveugle à l’âge de 18 ans."
     }
   ],
+  "finished_at": "2026-10-02T13:03:31+00:00",
   "id": "29df6fb22f76d89fde26e3ce8d542d64",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "fra",
@@ -128,11 +176,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 8550
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1862,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5491,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7353
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.html paragraph 2 (\"proclaimed a fast throughout all the land of Judah – verse 3\")",
+      "severity": "major",
+      "source_quote": "proclaimed a fast throughout all the land of Judah – verse 3.",
+      "suggested_fix": "Translate the phrase to convey a fast (a day(s) of fasting), not a festival. Replace the translation's “akatangaza sikukuu ya kufunga” with something like “akatangaza siku ya kufunga katika nchi yote ya Yuda – mstari wa 3.” Preserve the HTML tag structure around the emphasized span.",
+      "translation_quote": "akatangaza sikukuu ya kufunga katika nchi yote ya Yuda – mstari wa 3."
+    },
+    {
+      "location": "source.html paragraph 8 (\"Tomorrow go ye down against them … Ye shall not need to fight in this battle: set yourselves, stand ye still, and see the salvation of the LORD … fear not, nor be dismayed; to morrow go out against them: for the LORD will be with you –verses 16-17.\")",
+      "severity": "major",
+      "source_quote": "Ye shall not need to fight in this battle: set yourselves, stand ye still, and see the salvation of the LORD … fear not, nor be dismayed; to morrow go out against them: for the LORD will be with you –verses 16-17.",
+      "suggested_fix": "\"Set yourselves, stand ye still\" is being mistranslated as “jisahihisheni, simameni mtulivu,” where “jisahihisheni” means “correct yourselves.” Use wording that reflects passive/attendant positioning and stillness/trust. Suggested: “Hamta hitaji kupigana katika vita hii: jisogezeni, simameni kimya, muone wokovu wa BWANA ... msihofu wala msipate moyo; kesho nendeni dhidi yao: kwa maana BWANA atakuwa pamoja nanyi – mistari 16-17.” (Or use “jisogezeni” / “jisahihisheni” only if intended meaning is to “position yourselves,” but prefer “jisogezeni”/“jisahafueni” alternatives that mean “prepare yourselves/stand ready.”) Preserve emphasized tags as in source.",
+      "translation_quote": "Hamta hitaji kupigana katika vita hii: jisahihisheni, simameni mtulivu, mone wokovu wa BWANA ... msihofu wala msipate moyo; kesho nendeni dhidi yao: kwa maana BWANA atakuwa pamoja nanyi –mistari 16-17."
+    },
+    {
+      "location": "source.html paragraph 10 (\"And Jehoshaphat bowed his head with his face to the ground: and all Judah and the inhabitants of Jerusalem fell before the LORD, worshipping the LORD –verse 18.\")",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: p:",
-      "translation_quote": ""
+      "source_quote": "And Jehoshaphat bowed his head with his face to the ground: and all Judah and the inhabitants of Jerusalem fell before the LORD, worshipping the LORD –verse 18.",
+      "suggested_fix": "The translation reads “Na Yehoshafati alijikubali mguu na uso zake ardhini,” which incorrectly introduces “mguu” (foot) and changes the physical action. This materially distorts the image and must be corrected. Replace with a faithful rendering such as: “Na Yehoshafati aliweka kichwa chake chini, uso wake ardhini: na wote wa Yuda na wakaaji wa Yerusalemu waligonga magoti mbele za BWANA, wakimwabudu BWANA – mstari wa 18.” Keep the original HTML/em tags intact.",
+      "translation_quote": "Na Yehoshafati alijikubali mguu na uso zake ardhini: na wote wa Yuda na wakaaji wa Yerusalemu waligonga magoti mbele za BWANA, wakimwabudu BWANA –mstari wa 18."
+    },
+    {
+      "location": "source.title / source.html title element (\"Lessons From Second Chronicles Twenty\")",
+      "severity": "major",
+      "source_quote": "Lessons From Second Chronicles Twenty",
+      "suggested_fix": "The translated title “Mafunzo Kutoka Katika Mambo ya Pili ya Mambo ya Nyakati ishirini” is awkward and duplicates the word for \"things/chronicles.\" Use the conventional Swahili form of the biblical book: e.g. “Mafunzo Kutoka katika Mambo ya Nyakati, Kitabu cha Pili, sura ishirini” or the more concise “Mafunzo kutoka Mambo ya Nyakati II, sura 20.” Ensure the book name follows common Swahili usage (“Mambo ya Nyakati” or established local Bible title) and preserve the meaning that it’s Second Chronicles chapter twenty.",
+      "translation_quote": "Mafunzo Kutoka Katika Mambo ya Pili ya Mambo ya Nyakati ishirini"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "ec2e2ee8a9e45d3264b981d7082d7393",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swa",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

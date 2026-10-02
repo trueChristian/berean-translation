@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93c91ddb959b4b7fbc8e7b227896bd84",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -62,18 +61,53 @@
         },
         "total_tokens": 5927
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1214,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3666,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4880
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<p>...समानों की जारी कमी—all ये एक व्यक्ति को स्वाभाविकता की अनुभूति से जकड़ कर बाहर कर देते हैं।</p>",
+      "location": "Paragraph mentioning sourced articles (English titles and terms)",
+      "severity": "major",
+      "source_quote": "The article that we have chosen to share from “Bible Helps” in this issue is one of the best discourses on the subject of “faith and works” that I have ever read. ... Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”",
+      "suggested_fix": "Translate or render the quoted English titles and the quoted technical term into Hindi. Preserve punctuation and quotation marks and keep the referenced English names as parenthetical if desired. For example: replace “Bible Helps” with “‘बाइबल हेल्प्स’” (or a Hindi equivalent such as «बाइबल सहायता/बाइबल मदद» if that is the established translation used by the magazine), replace The Foolishness of Preaching with «प्रचार की मूर्खता» (or the magazine’s established Hindi title) and replace “the altar call” with «अल्टर कॉल (प्रार्थना-आमंत्रण)» or simply «मचेदा आह्वान/वेदी-आह्वान» depending on the magazine’s style. Ensure the titles remain in quotes and keep the original capitalization for reference if necessary.",
+      "translation_quote": "…इस अंक में हमने “बाइबिल हेल्प्स” से जो लेख चुना है वह “विश्वास और कर्म” के विषय पर … अंत में, हमारे पास है \"The Foolishness of Preaching\"—एक मूल्यांकन कि चर्चों द्वारा \"ऑल्टर कॉल\" के प्रयोग की आधारशिला क्या है—…"
+    },
+    {
+      "location": "Scripture citation paragraph (2 Timothy citation)",
       "severity": "minor",
-      "source_quote": "Current skyrocketing inflation, the potential of unprecedented heating costs for many, the rumors of rising interest rates, and the ongoing shortage of goods all tend to cause a person to be jolted out of a sense of normality.",
-      "suggested_fix": "Remove the stray English word and render the full clause in Hindi. For example: \"...और सामानों की जारी कमी — ये सभी किसी व्यक्ति को स्वाभाविक स्थिति से झटके में बाहर कर देती हैं।\" Preserve existing HTML and punctuation.",
-      "translation_quote": "...वर्तमान आसमान छूती महंगाई, कई लोगों के लिए अभूतपूर्व हीटिंग लागत की संभावनाएँ, बढ़ती ब्याज दरों की अफ़वाहें, और समानों की जारी कमी—all ये एक व्यक्ति को स्वाभाविकता की अनुभूति से जकड़ कर बाहर कर देते हैं।"
+      "source_quote": "–2 Timothy 3:13-17.",
+      "suggested_fix": "Use the conventional Hindi form of the book name consistently. The translation uses “2 तिमोथियुस”; consider using the more common Hindi rendering “2 तिमोथी” or “2 तिमोथियुुस/2 तिमोथियुस” according to the publication’s house style. Ensure the chapter and verse numerals remain unchanged and that the quoted Scripture remains fully translated (it already is).",
+      "translation_quote": "– 2 तिमोथियुस 3:13-17।"
+    },
+    {
+      "location": "Reference to 'Mars Hill'",
+      "severity": "minor",
+      "source_quote": "Paul declared on Mars Hill—God that made the world and all things therein… –Acts 17:24-25.",
+      "suggested_fix": "Consider if the magazine prefers a localized rendering of the place name (e.g., ‘माउंट एल्गेट/मार्स हिल’) or to retain the English proper name as transliterated. If retained, ensure consistent transliteration. No doctrinal change; this is a stylistic consistency suggestion.",
+      "translation_quote": "पौलुस ने मार्स हिल पर घोषित किया—… – प्रेरितों के काम 17:24-25।"
     }
   ],
+  "finished_at": "2026-10-02T13:03:32+00:00",
   "id": "dcee6b170f881b59328dec68df2e7fe2",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "hin",
@@ -147,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 96,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
