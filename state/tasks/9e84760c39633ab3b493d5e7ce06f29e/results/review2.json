@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c6b36d30-7e6c-45d9-9317-6f26fd57afb9",
+    "response_id": "chatcmpl-EUVZxSYkv7WYC2uGhrYlR8xazZbPc",
+    "usage": {
+      "completion_tokens": 1355,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5258,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6613
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph about Boston Peace Jubilee and subsequent paragraphs (occurrences of the hymn title and quoted hymn in body text)",
+        "severity": "major",
+        "source_quote": "In the Boston Peace Jubilee of 1872 ... this hymn, “Nearer, My God to Thee”, was sung by 50,000 voices. ... they heard the faint strains of “Bethany” reach their ears. ... singing in Arabic ‘Nearer, my God to Thee,’",
+        "suggested_fix": "Translate the quoted hymn title/quoted hymn text into Italian in every occurrence of the quoted hymn in the article body. Replace English occurrences of “Nearer, My God to Thee” (and the single-quoted 'Nearer, my God to Thee') with the Italian title used in the translation (\"Più vicino a Te, mio Dio\") so that quoted substantive prose is fully rendered in the target language. Example replacement: “Nearer, My God to Thee” → \"Più vicino a Te, mio Dio\" and 'Nearer, my God to Thee' → 'Più vicino a Te, mio Dio'. Do the same where the hymn is cited as the final song on the Titanic and in the Johnstown paragraph.",
+        "translation_quote": "Al Boston Peace Jubilee del 1872, ... questo inno, \"Nearer, My God to Thee\", fu cantato da 50.000 voci. ... udirono flebili frammenti di \"Bethany\" giungere alle loro orecchie. ... che cantavano in arabo 'Nearer, my God to Thee'."
+      },
+      {
+        "location": "Paragraphs referencing hymn titles in English (instances beyond body: multiple occurrences)",
+        "severity": "minor",
+        "source_quote": "…the hymn was wedded with the present-day tune “Bethany” … Many survivors ... testified that the hymn “Nearer, my God to Thee” was the final song played…",
+        "suggested_fix": "Decide on consistent rendering policy for quoted hymn titles: translate the hymn's text/title into Italian (\"Più vicino a Te, mio Dio\") everywhere it appears as quoted prose, but leave tune names and established tune titles such as \"Bethany\" in English if appropriate as proper names. If you choose to translate the tune title for clarity, use a parenthetical note (e.g. \"Bethany\" (melodia \"Bethany\")). Ensure all quoted hymn-title occurrences use the translated hymn title.",
+        "translation_quote": "A quel punto l'inno fu unito alla melodia tuttora usata, \"Bethany\" ... molti superstiti ... hanno testimoniato che l'inno \"Nearer, my God to Thee\" fu l'ultimo canto eseguito..."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

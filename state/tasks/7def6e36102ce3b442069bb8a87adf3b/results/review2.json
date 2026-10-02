@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a6fa3f15-3e18-40be-bade-01ad5a0d4891",
+    "response_id": "chatcmpl-EUVZvzSclFiJRzAEnXh8hvC2gMOsU",
+    "usage": {
+      "completion_tokens": 950,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7494,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8444
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (plywood anecdote)",
+        "severity": "minor",
+        "source_quote": "After he was several inches off, one of his friends tried to point it out but he pretended to ignore him. ... Finally, after he was more than a foot off, he stopped.",
+        "suggested_fix": "Preserve the original distance phrasing or provide both imperial and metric values. For example: \"Efter att han hade kommit flera inches (några tum) utanför... Slutligen, efter att han var mer än en foot (mer än en fot / cirka 30 cm) fel, stannade han.\" Or in Swedish fully: \"Efter att han kommit flera tum utanför... Slutligen, efter att han var mer än en fot fel (cirka 30 cm), stannade han.\" This keeps the original numeric emphasis while optionally adding metric clarification.",
+        "translation_quote": "Efter att han hade kommit flera centimeter utanför försökte en av hans vänner påpeka det, men han låtsades ignorera honom. ... Slutligen, efter att han var mer än trettio centimeter fel, stannade han."
+      },
+      {
+        "location": "Paragraph 22 (Dress section, sentence about men untucking shirts)",
+        "severity": "minor",
+        "source_quote": "The men untuck the shirt, switch to jeans, then skinny jeans, undo a few buttons, grow out the hair a little.",
+        "suggested_fix": "Correct the Swedish phrasing for clarity and grammar while keeping the meaning. For example: \"Männen stoppar ut skjortan, byter till jeans, sedan till tajta jeans, knäpper upp ett par knappar, låter håret växa ut lite.\" Or: \"Männen börjar stoppa ut skjortan, byter till jeans...\"",
+        "translation_quote": "Männen skjortan stoppas ut, man byter till jeans, sedan tighta jeans, knäpper upp ett par knappar, sparar ut håret lite."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

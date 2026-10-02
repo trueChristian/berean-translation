@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 9145
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1684,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5542,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7226
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden or valueless HTML attribute: sheet",
-      "translation_quote": ""
+      "location": "Paragraph 8 (mentions books and hymn list)",
+      "severity": "major",
+      "source_quote": "published the next year in the hymn book Hymns and Anthems prepared by Rev. Fox… I quote from A Treasury of Hymn Stories… I quote from 101 Hymn Stories… Other hymns by Mason include “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, and “O Day of Rest and Gladness”.",
+      "suggested_fix": "Translate or present these English book and hymn titles consistently according to the target-language guidance. Either render the book titles and hymn titles into Hindi (keeping original titles in parentheses if desired) or mark them clearly as titles in Hindi script. Preserve italics/quoting HTML tags exactly as in source. For example: <em>Hymns and Anthems</em> → <em>हिम्न्स एंड ऐन्थेम्स</em> (or a natural Hindi rendering), <em>A Treasury of Hymn Stories</em> → <em>ए ट्रेज़री ऑफ हाइमन स्टोरीज़</em> (or an appropriate Hindi rendering), and translate the listed hymn titles into Hindi script or present them as established English titles but in Devanagari script, keeping punctuation and quotes as in source.",
+      "translation_quote": "यह महान भजन 1840 में लिखा गया था और अगले वर्ष रेव. फॉक्स द्वारा तैयार की गई भजन-पुस्तक <em>Hymns and Anthems</em> में प्रकाशित हुआ।... इस घटना के संबंध में, मैं <em>A Treasury of Hymn Stories</em> से उद्धृत करता हूँ...भजन-लेखिका के बारे में मैं <em>101 Hymn Stories</em> से उद्धृत करता हूँ... मेसन के अन्य भजनों में \"From Greenland’s Icy Mountains\", \"When I Survey the Wondrous Cross\", \"A Charge to Keep I Have\", \"Joy to the World\", \"My Faith Looks Up to Thee\", और \"O Day of Rest and Gladness\" शामिल हैं।"
+    },
+    {
+      "location": "Opening paragraph, sentence about her character",
+      "severity": "minor",
+      "source_quote": "a person who’s “exalted character always made a deep impression upon all who knew her”.",
+      "suggested_fix": "Fix Hindi grammar and word choice so the sentence reads smoothly and matches the English meaning. For example: 'ऐसी महिला थीं जिनका उत्कृष्ट चरित्र उन्हें जानने वालों पर हमेशा गहरा प्रभाव डालता था।' Preserve the quoted phrase structure and keep the quote translated into Hindi.",
+      "translation_quote": "जीवंत, सुंदर, प्रतिभावान और ऐसी व्यक्तित्व जिसकी \"श्रेष्ठ चरित्र ने हमेशा प्रत्येक परिचित पर गहरा प्रभाव डाला\"।"
+    },
+    {
+      "location": "Paragraph with sisters’ roles (music team)",
+      "severity": "minor",
+      "source_quote": "The elder sister being an accomplished musician, and the younger the hymn writer.",
+      "suggested_fix": "Add a copula/verb to make the Hindi sentence grammatical and natural, preserving meaning. For example: 'बड़ी बहन सिद्ध संगीतकार थीं और छोटी बहन भजन-लेखिका थीं।' Preserve sentence order and HTML tags.",
+      "translation_quote": "बड़ी बहन सिद्ध संगीतकार थीं, और छोटी भजन-लेखिका。"
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "e7d9810e863dd06f652aaebcb2b8fdb7",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "hin",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

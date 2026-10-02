@@ -2,7 +2,6 @@
   "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,66 @@
         },
         "total_tokens": 9721
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1713,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6073,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7786
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "<blockquote>…Psalm 1:1-3</blockquote> (final Psalm block)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[45]: source /article[1]/p[17]/em[1]/strong[3] ('start', 'strong', ()); translation /article[1]/p[17]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "source_quote": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful. But his delight is in the law of the LORD; and in his law doth he meditate day and night. And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper –Psalm 1:1-3.",
+      "suggested_fix": "Translate the entire quoted Psalm 1:1-3 into standard contemporary Bengali, and render the book name in the conventional Bengali form (do not leave the quoted text in English). Preserve the verse-range format and placement “—গীতসংহিতা 1:1-3” (or the target-language conventional book name) at the end.",
+      "translation_quote": "<em>Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful. But his delight is in the law of the LORD; and in his law doth he meditate day and night. And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper –Psalm 1:1-3.</em>"
+    },
+    {
+      "location": "<blockquote>…Deuteronomy 6:5-7</blockquote> (Deuteronomy quotation in paragraph)",
+      "severity": "critical",
+      "source_quote": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might. And these words, which I command thee this day, shall be in thine heart: And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thy house, and when thou walkest by the way, and when thou liest down, and when thou risest up –Deuteronomy 6:5-7.",
+      "suggested_fix": "Translate the entire quoted Deuteronomy 6:5-7 into Bengali, using the conventional Bengali book name and keeping the chapter:verse notation exactly (for example “—দ্বিতীয় বিবরণ 6:5-7” or another conventional Bengali form). Do not leave the quoted Scripture in English. Ensure emphasis and punctuation mirror the English block's structure.",
+      "translation_quote": "<em>And <strong>thou shalt love the LORD thy God</strong> with all thine heart, and with all thy soul, and with all thy might. And <strong>these words, which I command thee this day, shall be in thine heart:</strong> And <strong>thou shalt teach them diligently unto thy children,</strong> and shalt talk of them when thou sittest in thy house, and when thou walkest by the way, and when thou liest down, and when thou risest up –Deuteronomy 6:5-7.</em>"
+    },
+    {
+      "location": "<blockquote>…Galatians 6:9</blockquote> (final Galatians block)",
+      "severity": "critical",
+      "source_quote": "And let us not be weary in well doing: for in due season we shall reap, if we faint not –Galatians 6:9.",
+      "suggested_fix": "Translate this quoted Galatians 6:9 into Bengali and render the book name in conventional Bengali form with the same chapter:verse marker (for example “—গালাতীয়দের প্রতি পত্র 6:9” or the standard Bengali title). Do not leave quoted Scripture in English.",
+      "translation_quote": "<em>And let us not be weary in well doing: for in due season we shall reap, if we faint not –Galatians 6:9.</em>"
+    },
+    {
+      "location": "Prose references to Scripture (Luke 2:1-19, John 19:1-19, Psalm 119:9-11 citation, other inline references)",
+      "severity": "major",
+      "source_quote": "Luke 2:1-19; John 19:1-19; Psalm 119:9-11 (as used in the body and parenthetical references)",
+      "suggested_fix": "Localize the book names used in inline Scripture references to the conventional Bengali forms while keeping chapter and verse numbers unchanged (e.g., 'লূক 2:1-19' and 'যোহন 19:1-19' or the publisher's usual Bengali book names). The numeric references must remain exactly as in the source. Do not change or add verses.",
+      "translation_quote": "Luke 2:1-19 / John 19:1-19 / Psalm 119:9-11 (left in English form in multiple places in the translation)"
+    },
+    {
+      "location": "Paragraph: \"নতুন একটি অনুচ্ছেদ শুরু করলে, আমি উচ্ছে করে শ্লোকটি পড়ি।\"",
+      "severity": "minor",
+      "source_quote": "At the beginning of a new passage, I read the scripture out loud.",
+      "suggested_fix": "Correct the Bengali wording to an idiomatic phrase. Replace 'আমি উচ্ছে করে শ্লোকটি পড়ি' with 'আমি স্বর উচ্চারণ করে শ্লোকটি পড়ি' or 'আমি মুখে উচ্চারণ করে শ্লোকটি পড়ি' to convey 'I read the scripture out loud' naturally in Bengali.",
+      "translation_quote": "আমি উচ্ছে করে শ্লোকটি পড়ি।"
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "13b1481a6fa7cd7ee97bd716af9f0871",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ben",
@@ -97,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f34407a6165fb7e7a04ea7f397fc8013deb4a8e803dafc6f028dc9f7c426249a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "acee92c005287a538cca2ea8301c5c01a8922523349a8b855f3e2b33bcddbab6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

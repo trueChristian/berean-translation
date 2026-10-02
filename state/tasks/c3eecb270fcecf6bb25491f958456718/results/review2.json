@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b5ecdc86-421f-4ea1-b81f-3378ed61fa51",
+    "response_id": "chatcmpl-EUVaCDUbiIx3zTm93Q7ORZPotzPHi",
+    "usage": {
+      "completion_tokens": 729,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4186,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4915
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph mentioning Acts 19 (sentence quoting crowd’s cry)",
+        "severity": "minor",
+        "source_quote": "Acts 19 tells of a group yelling “Great is Diana of the Ephesians” for hours.",
+        "suggested_fix": "Correct the Korean transliteration of the deity's name. Replace “에베소의 대(大)여신 다이아네아” with a conventional Korean form such as “에베소의 위대한 여신 다이애나” or the classical equivalent “아르테미스” (e.g., “‘에베소의 위대한 여신 다이애나’를 외쳤던 일을 전한다.”) Preserve the sentence structure and punctuation in the translation HTML.",
+        "translation_quote": "사도행전 19장은 한 무리가 몇 시간 동안 “에베소의 대(大)여신 다이아네아”를 외쳤던 일을 전한다."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

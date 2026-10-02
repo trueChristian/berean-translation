@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9d985e28-d1ba-4e57-beac-d6ad95923404",
+    "response_id": "chatcmpl-EUVZstk5imGGjVqofa85eHE9CmyuG",
+    "usage": {
+      "completion_tokens": 1794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5786,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7580
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "I Will Hide God’s Word in My (Child’s) Heart",
+        "suggested_fix": "Translate the nuance and punctuation clearly in Hebrew; preserve meaning that the speaker may be referring both to herself and to her child. Suggested Hebrew: \"אחבא את דבר ה׳ בלבי (בלב ילדי)\" or keep the article’s parenthetical nuance as in English but idiomatically: \"אחבא את דבר ה׳ בלבי (בלב ילדי)\". Keep the article <title> tag unchanged except for the corrected Hebrew.",
+        "translation_quote": "אחבא את דבר ה׳ בלב (של) ילדי"
+      },
+      {
+        "location": "first paragraph — Vacation Bible School",
+        "severity": "major",
+        "source_quote": "Most of the verses that I memorized were taught during a vacation Bible School which I attended each summer.",
+        "suggested_fix": "Translate the named program rather than leaving its English name in parentheses. Use a common Hebrew rendering: e.g. \"בית ספר תנכ\"י קייצי\" or \"בית ספר תנכ\"י חופשה (Vacation Bible School)\" if you want to preserve the English identifier after a full Hebrew rendering. Replace the parenthetical English with that translation, preserving the sentence meaning.",
+        "translation_quote": "רוב הפסוקים שלמדתי היו נלמדים במהלך בית ספר תנכ\"י של חופשה (Vacation Bible School) שהשתתפתי בו בכל קיץ."
+      },
+      {
+        "location": "paragraphs mentioning family devotions — repeated (e.g., \"family devotions\", \"during our family devotions\", \"during our devotion time\")",
+        "severity": "major",
+        "source_quote": "We started reciting it together every evening during our family devotions. / We also recite it together as a family during our devotion time. / ... during our family devotions. / After a passage is memorized, my husband will explain the verses to us during our devotion time.",
+        "suggested_fix": "The translator used the Hebrew word \"עדות\" (which in modern Hebrew reads as 'testimony' or is not an idiomatic rendering for private family devotional time). Replace with an idiomatic and theologically correct phrase such as \"זמן תפילה משפחתי\" or \"שעת עיון/פניית לב משפחתית\" or simply \"בהתפעלות המשפחתית\". Apply consistently for every instance of 'family devotions'/'devotion time'.",
+        "translation_quote": "התחלנו להגיד את זה יחד כל ערב בשעת העדות המשפחתית. / אנו גם אומרים אותו יחד כמשפחה בזמן העדות שלנו. / אם הם יודעים היטב, הם מתחילים לומר אותו לאביהם בזמן העדות המשפחתית. / לאחר שקטע שונן, בעלי יסביר לנו את הפסוקים בזמן העדות שלנו."
+      },
+      {
+        "location": "paragraph saying how long she spends — \"I spend about five minutes a day\"",
+        "severity": "major",
+        "source_quote": "This may sound time-consuming and stressful, but it is not so for us. I spend about five minutes a day working on memory work.",
+        "suggested_fix": "The translation is corrupted/ambiguous: it reads \"אני מקדישה כעשר דקות? חמש דקות ביום\" which mixes/confuses two durations and includes a question mark. Restore the intended meaning: \"אני מקדישה בערך חמש דקות ביום לשינון.\" or if author wrote five minutes, use that. Preserve HTML structure.",
+        "translation_quote": "זה עשוי להישמע גוזל זמן וללחוץ, אבל אצלנו זה לא כך. אני מקדישה כעשר דקות? חמש דקות ביום לעבודת שינון."
+      },
+      {
+        "location": "paragraph about becoming discouraged — \"I found myself becoming discouraged\"",
+        "severity": "major",
+        "source_quote": "As time went by, I found myself becoming discouraged at how quickly the children would forget a memorized passage.",
+        "suggested_fix": "The translation contains garbled English insertion and nonsense: \"מצאתי עצמי מת discouraged מתגלה נואשת כמה מהר\". Replace with a correct Hebrew rendering preserving the intended meaning, e.g. \"ככל שעבר הזמן, מצאתי את עצמי מתאכזבת/מת discouraged (לא ראוי): נואשת מכמה מהר הילדים שוכחים קטעים ששוננו.\" Better: \"ככל שעבר הזמן, מצאתי את עצמי מתאכזבת עד נואשת כמה מהר הילדים שוכחים קטעים שזכּוּרו להם.\" Use one Hebrew verb (מתאכזבת / נואשת) — do not leave English or duplicate forms.",
+        "translation_quote": "ככל שעבר הזמן, מצאתי עצמי מת discouraged מתגלה נואשת כמה מהר הילדים שוכחים קטע ששונן."
+      },
+      {
+        "location": "proper names of books and Gospel references (\"Luke\" as \"לוקס\", \"John\" as \"יוחנן\")",
+        "severity": "minor",
+        "source_quote": "the Christmas story found in Luke 2:1-19 / the crucifixion account found in John 19:1-19",
+        "suggested_fix": "Use consistent, conventional Hebrew forms for New Testament book names. \"Luke\" is commonly rendered \"לוקס\" or \"לוקאס\"; \"יוחנן\" for John is correct. Choose one conventional form and use it consistently (many Hebrew Bibles use \"לוקס\" or \"לוק\"; if your publication prefers an established form, adopt it). Ensure references remain exactly '2:1-19' and '19:1-19'.",
+        "translation_quote": "שינון סיפור הלידה שבלוקס 2:1-19. / חשבון הצליבה שביוחנן 19:1-19."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

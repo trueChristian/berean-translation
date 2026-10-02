@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "85b4bd17-eda9-4f3e-9d99-1cdc8ae423b6",
+    "response_id": "chatcmpl-EUVaBRuVY7Aa0RIL6iYd6XWxXW3m8",
+    "usage": {
+      "completion_tokens": 1099,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5475
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Last paragraph before final prayer / source.html paragraph containing Jude 1:3",
+        "severity": "major",
+        "source_quote": "…the faith which was once delivered unto the saints –Jude 1:3.",
+        "suggested_fix": "Translate “the saints” as the conventional Bengali for New Testament usage (e.g., \"সন্তদের\") and preserve the rest of the citation. Replace the phrase \"পৌরোহিতদের কাছে সরবরাহ করা হয়েছে\" with \"সন্তদের কাছে সরবরাহ করা হয়েছে\" so the rendered line reads: “…যে বিশ্বাস একবার সন্তদের কাছে সরবরাহ করা হয়েছে সেই বিশ্বাসে – যিহূদা 1:3।”",
+        "translation_quote": "…যে বিশ্বাস একবার পৌরোহিতদের কাছে সরবরাহ করা হয়েছে সেই বিশ্বাসে – যিহূদা 1:3।"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,45 @@
         },
         "total_tokens": 10443
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1176,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6848,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8024
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.html paragraph beginning \"Eunice was a Jewess, who, upon embracing faith in Christ...\"",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: em»",
-      "translation_quote": ""
+      "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice. This, in turn, had a sanctifying effect on young Timothy, who was then prepared for the work of the Lord. We have no record that his father was added to the faith, but one can only imagine the initial turmoil within the breast of this young Jewess as she reverently honored her head and circumcised not her son but rather committed him to prayer. Here brings us to the other vital dimension of home sanctification. While she was not emboldened to teach her husband, she apparently had won his respect enough to allow her to teach her son in the home. This she diligently did… \"",
+      "suggested_fix": "Replace the mistranslated proper name in the translation: change “Euodia” back to “Eunice” (and ensure any other occurrences match the English source). Preserve the surrounding Italian sentence structure and HTML. For example, in the translation HTML node that reads “Euodia era una giudea …” replace only “Euodia” with “Eunice”. Do not change the rest of the paragraph or tags.",
+      "translation_quote": "Euodia era una giudea che, abbracciando la fede in Cristo, si trovò in un giogo disuguale con un greco. Leggiamo che la fede non fingita fu prima operata in sua madre Loide, e che ciò influenzò Euodia. Questo, a sua volta, ebbe un effetto santificante sul giovane Timoteo, che fu allora preparato per l’opera del Signore. Non abbiamo nessun resoconto che suo padre sia stato aggiunto alla fede, ma si può solo immaginare il tumulto iniziale nel petto di questa giovane giudea mentre onorava riverentemente il suo capo e non circoncideva suo figlio ma piuttosto lo affidava alla preghiera. Qui ci conduce all’altra dimensione vitale della santificazione della casa. Pur non essendo incoraggiata a insegnare al marito, apparentemente aveva guadagnato abbastanza suo rispetto da poter insegnare al figlio in casa. Questo lo fece diligentemente…"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "The Godly Home",
+      "suggested_fix": "Restore the section heading to match the authoritative English. Replace the translated section value “La casa pia” with “La casa devota” or preferably a direct rendering of the source meaning; however per instruction the section must match the source English. Set translation.section to “The Godly Home” or, if the site requires Italian only, change to “La casa devota” but only after editorial confirmation. Concretely: in the translation metadata, change the value of the section field from “La casa pia” to “The Godly Home” to preserve the authoritative metadata exactly, or if the publisher’s policy is to localize section names, change it to “La casa devota” and confirm with the editor. (Do not alter article HTML.)",
+      "translation_quote": "La casa pia"
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "b879fa6ce8522c4ac858f8a7bc56fcd4",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ita",
@@ -97,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/54ee0eee893e8f116003f464d27484aec73d193d6d0149063d036fb9fd416e93.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70ee1b1d710de512ea89ec934930eb1c2b6800a8dcbc40df2712b76ac2d1b4e0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a9f2d047-d11c-4e55-9262-5dd3e560152c",
+    "response_id": "chatcmpl-EUVZkX6D1dvQdz9xD5a3tl2DBSVdy",
+    "usage": {
+      "completion_tokens": 1914,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5309,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7223
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2 (Sarah's name)",
+        "severity": "major",
+        "source_quote": "Sarah Flower Adam was born at Harlow, England on February 22, 1805, to Benjamin and Eliza Flower.",
+        "suggested_fix": "Match the English source's spelling of the hymn-writer's name exactly. Replace \"ولدت سارة فلاور آدامز\" with \"ولدت سارة فلاور آدم\" (i.e., use آدم without -ز) so the translation preserves the exact printed form used in the authoritative English paragraph.",
+        "translation_quote": "ولدت سارة فلاور آدامز في هارلو، إنجلترا في 22 فبراير 1805، لِـبنيامين وإليزا فلاور."
+      },
+      {
+        "location": "source.html — multiple paragraphs (book titles and cited hymn-story collections left in English)",
+        "severity": "major",
+        "source_quote": "101 Hymn Stories; Hymns and Anthems; A Treasury of Hymn Stories",
+        "suggested_fix": "Translate or provide conventional Arabic renderings (or transliterations in italics) of the cited book titles to ensure no quoted substantive metadata remains in English. Examples: replace <em>101 Hymn Stories</em> with <em>١٠١ قصص التراتيل</em> (or a transliteration in italics if preferred by the publisher), replace <em>Hymns and Anthems</em> with <em>التراتيل والتراتيل العامة</em> (or a transliteration), and replace <em>A Treasury of Hymn Stories</em> with <em>كنز قصص التراتيل</em> (or a transliteration). Keep the original HTML <em> tags and placement unchanged.",
+        "translation_quote": "وفيما يخص كاتبة التراتيل أقتبس من كتاب <em>101 Hymn Stories</em>: «كانت معروفة على نطاق واسع أيضًا لإنجازاتها الأدبية العديدة...». ... نُشر في العام التالي في كتاب الترانيم <em>Hymns and Anthems</em> ... أقتبس من <em>A Treasury of Hymn Stories</em>: «وعندما اقتربوا، لدهشتهم، رأوا خمسين طالبًا سوريًا...»"
+      },
+      {
+        "location": "source.html — paragraph listing Lowell Mason's other hymns",
+        "severity": "major",
+        "source_quote": "Other hymns by Mason include “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, and “O Day of Rest and Gladness”.",
+        "suggested_fix": "Translate or render the listed hymn titles into Arabic (or provide italicized transliterations) rather than leaving them in English. For example: replace “From Greenland’s Icy Mountains” with «من جبال غرينلاند المتجمدة»، “When I Survey the Wondrous Cross” with «عندما أتأمل الصليب العجيب»، etc.; preserve the original list order and punctuation and keep any HTML structure unchanged.",
+        "translation_quote": "ومن تراتيله الأخرى \"From Greenland’s Icy Mountains\" و\"When I Survey the Wondrous Cross\" و\"A Charge to Keep I Have\" و\"Joy to the World\" و\"My Faith Looks Up to Thee\" و\"O Day of Rest and Gladness\"."
+      },
+      {
+        "location": "figure > img alt attribute",
+        "severity": "minor",
+        "source_quote": "alt=\"Sheet music for Nearer, My God, to Thee\"",
+        "suggested_fix": "Translate the alt text fully into Arabic and remove the English title inside the alt. For example: change alt=\"نوتة موسيقية لترتيل &quot;Nearer, My God, to Thee&quot;\" to alt=\"نوتة موسيقية للترتيل \"أقرب إليك يا إلهي\"\". Preserve the img element and attributes other than the alt text.",
+        "translation_quote": "alt=\"نوتة موسيقية لترتيل \"Nearer, My God, to Thee\"\""
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

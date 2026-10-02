@@ -2,7 +2,6 @@
   "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,66 @@
         },
         "total_tokens": 11941
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1627,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7558,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9185
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "<p>…he continued to cut further and further from the line that he had scratched into the piece of plywood with a nail.</p> (opening paragraph)",
+      "severity": "major",
+      "source_quote": "He tried to casually guide the old handsaw back towards the line, while continuing to talk with the men, not making a big deal of it.",
+      "suggested_fix": "Replace the mistranslated word and correct the phrasing so it matches the author’s meaning. For example: \"Alijaribu kwa unyenyekevu kuelekeza mswaki wa zamani wa kukata (handsaw) tena kuelekea mstari, akiwa bado anazungumza na wanaume wengine, bila kuifanya kuwa jambo kubwa.\" (But use an accurate Swahili term for ‘handsaw’ such as “kisu cha mikono cha kukata mbao” or “zaka la mkono la kukata” instead of “mswaki”.) Preserve the surrounding HTML tags and punctuation.",
+      "translation_quote": "Alijaribu kwa kimya kumwelekeza tena mswaki wa mikono kuelekea mstari, huku akiendelea kuzungumza na wanaume hao, bila kurudisha suala hilo kuwa jambo kubwa."
+    },
+    {
+      "location": "Opening paragraph, sentence about friend pointing out the error",
+      "severity": "major",
+      "source_quote": "After he was several inches off, one of his friends tried to point it out but he pretended to ignore him.",
+      "suggested_fix": "Restore the intended meaning that the man \"pretended to ignore\" his friend. A correct Swahili rendering would be: \"Baada ya kuwa mbali kwa inchi kadhaa, mmoja wa marafiki zake alijaribu kuonyesha hilo, lakini yeye akajifanya kuwa haangalii/akajifanya kumwisi.\" Keep HTML as is.",
+      "translation_quote": "Baada ya kuwa mbali kwa inchi kadhaa, mmoja wa marafiki zake alijaribu kuonyesha hilo lakini alitajwa kuanza kuwasahau."
+    },
+    {
+      "location": "Multiple Bible quotations throughout article (e.g., Matthew 16:25, John 14:15, 1 John 2:4, John 13:35, James 5:5-6, Luke 8:14, 2 Timothy 3:1-5, Revelation 3:15-16, Ephesians 4:11-13)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "source_quote": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it –Matthew 16:25.\n\nIf ye love me, keep my commandments –John 14:15. And, He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him –1 John 2:4.\n\nBy this shall all men know that ye are my disciples, if ye have love one to another –John 13:35.\n\nYe have lived in pleasure on the earth, and been wanton; ye have nourished your hearts, as in a day of slaughter. Ye have condemned and killed the just; and he doth not resist you –James 5:5-6.\n\nAnd that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of this life, and bring no fruit to perfection –Luke 8:14.\n\nThis know also, that in the last days perilous times shall come... lovers of pleasures more than lovers of God... from such turn away –2 Timothy 3:1-5.\n\nI know thy works, that thou art neither cold nor hot... –Revelation 3:15-16.\n\nAnd he gave some, apostles; and some, prophets... – Ephesians 4:11-13.",
+      "suggested_fix": "Translate every quoted Scripture passage into standard, natural Kiswahili, preserving the exact chapter/verse numbers and the placement of each reference. For example, Matthew 16:25 could be rendered: \"Kwa maana kila atakayehifadhi ufalme wake atauwa nafsi yake; nami atakayepoteza nafsi yake kwa ajili yangu ataiokota. –Mathayo 16:25.\" (Use conventional Swahili book names and keep the hyphenated verse citation format as in the source.) Make sure every quoted block that in the English source is presented as Scripture is translated; do not leave any of those quotations in English. Preserve the italics/em tags and surrounding HTML structure exactly as in source.html.",
+      "translation_quote": "<em>For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it –Matthew 16:25.</em> (and multiple other Scripture quotations remain in English throughout the translation.)"
+    },
+    {
+      "location": "Heading: section metadata and displayed section text",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Use an idiomatic Swahili rendering for the section heading while keeping the style and capitalization consistent with site conventions. The translator used \"MAFIKIRI YA MISSIONARI\"; prefer fully Swahilized spelling such as \"MAFIKIRI YA MISSIONARI\" → \"Mawazo ya Misionari\" or \"Mawazo ya Mtume/Misionari\" depending on site style. Keep the section field content unchanged in HTML structure.",
+      "translation_quote": "MAFIKIRI YA MISSIONARI"
+    },
+    {
+      "location": "Paragraph about meeting frequency: \"Meeting on Sundays only, I believe, shows where our priorities are.\"",
+      "severity": "minor",
+      "source_quote": "Meeting on Sundays only, I believe, shows where our priorities are.",
+      "suggested_fix": "Smooth the Swahili phrasing to convey the same meaning: e.g., \"Kukutana Jumapili pekee, naamini, kunaonyesha vipaumbele vyetu.\" The translation currently has this sentence but check punctuation and emphasis to match source intent. Preserve HTML tags.",
+      "translation_quote": "Kukutana Jumapili pekee, naamini, kunaonyesha vipaumbele vyetu."
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "370b17ce5cbb73bcf1087dda209aef13",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swa",
@@ -97,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/930958d5d08150faddf8cc6d4ba6c22ee28be341e3250f81368856d9c75f0afc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8dd5d606c1d8d9cf5603a40e68a843196a12e272a0bd52717b5de07e6983516a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fd73eb7d-fba8-4d27-9fa6-4c3a41d8ff7c",
+    "response_id": "chatcmpl-EUVZkDn4a4XEzbPc0JKpCgFzRJ53L",
+    "usage": {
+      "completion_tokens": 1105,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9774
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph beginning \"Today’s women are inundated with voices\" (source.html third paragraph after intro)",
+        "severity": "major",
+        "source_quote": "Today’s women are inundated with voices that claim to offer the fulfillment that their heart desires.",
+        "suggested_fix": "Replace the mistranslated word \"مُجَزَّمَات\" with wording that conveys \"inundated/surrounded/overwhelmed by\". Example fixes: \"نساء اليوم مُحاطات بأصوات\" or \"تُغمر نساء اليوم بأصوات\" so the sentence reads: \"تُغمر نساء اليوم بأصوات تدعي أنها تقدم الإشباع الذي تتمناه قلوبهن.\"",
+        "translation_quote": "\"نساء اليوم مُجَزَّمَات بأصوات تدّعي أنها تقدم الإشباع الذي تتمناه قلوبهن.\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

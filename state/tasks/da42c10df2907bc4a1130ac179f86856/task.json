@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,59 @@
         },
         "total_tokens": 9591
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1842,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5855,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7697
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "Paragraph: \"One day as the two sisters...Jacob and Esau.\"",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[19]: source /article[1]/blockquote[1]/p[1]/br[3] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "source_quote": "he wished he could have a hymn written to conclude a sermon he was preparing to preach on the account of Jacob and Esau.",
+      "suggested_fix": "Esau-এর নাম সঠিকভাবে অনুবাদ করুন। বর্তমান অনুবাদে 'Esau' ভুলভাবে 'ইশবলের' হিসেবে এসেছে। এটি সংশোধন করে লেখাটি রাখুন: \"...তিনি যাকব ও এশাও-এর (Esau) কাহিনীর ওপর তিনি যে উপদেশটি উপস্থাপন করতে যাচ্ছেন তার সমাপ্তি হিসেবে একটি স্তবক চেয়েছিলেন।\" (এখানে 'Esau' নামের জন্য বাংলা প্রচলিত রূপ 'এশাও' ব্যবহার করা যেতে পারে)।",
+      "translation_quote": "তিনি কামনা করতেন যে যাকব ও ইশবলের কাহিনীর ওপর তিনি যে উপদেশটি উপস্থাপন করতে যাচ্ছেন তার সমাপ্তি হিসেবে একটি স্তবক থাকা।"
+    },
+    {
+      "location": "Paragraph: \"Later that day, after spending much time studying the Genesis account...Sarah began to write.\"",
+      "severity": "major",
+      "source_quote": "Later that day, after spending much time studying the Genesis account, absorbing the atmosphere, and feeling the dramatic movement of this Old Testament narrative, Sarah began to write.",
+      "suggested_fix": "'the Genesis account' ও সম্পর্কিত বর্ণনাটির রেফারেন্স বাংলায় সঠিকভাবে তুলে ধরুন। বর্তমান অনুবাদে 'বীথানি বর্ণনা' (Bethany) শব্দটি অনুচিতভাবে যুক্ত হয়েছে এবং মূল অর্থ পরিবর্তিত হয়েছে। এটি সংশোধন করুন, উদাহরণ: \"সেই দিন পরে, জেনেসিসের বিবরণ বহু সময় ধরে অধ্যয়ন করে, ঐ পুরাতন বিধি-কাহিনীর আবহ শোষণ করে এবং নাটকীয় প্রবাহ অনুভব করে সারা লিখতে শুরু করেন।\"",
+      "translation_quote": "সেই দিন পরে, সিন্ধান্তের সঙ্গে বহু সময় বিবৃতিকে অধ্যয়ন করে, ঐ বীথানি বর্ণনার আবহ গ্রাস করে, ও এই পুরোনো বিধিবচনীর নাটকীয় প্রবাহ অনুভব করে সারা লিখা শুরু করলেন।"
+    },
+    {
+      "location": "Paragraph: \"One day their pastor, the Rev. William Johnson Fox...\"",
+      "severity": "minor",
+      "source_quote": "their pastor, the Rev. William Johnson Fox, asked these two exceptional sisters if they would help him with the compilation for a new hymnal for his congregation.",
+      "suggested_fix": "'the Rev.' এর অনুবাদে অপ্রাসঙ্গিক সরলীকরণ আছে (\"ম Rev.\") — এটি ঠিক করে রাখুন। উদাহরণ: \"তাদের পাদ্রি, রেভ. উইলিয়াম জনসন ফক্স, ...\" অথবা সম্পূর্ণ বাংলা: \"তাদের পাদ্রি, রেভ. উইলিয়াম জনসন ফক্স (Rev. William Johnson Fox), ...\"",
+      "translation_quote": "তার পাদরি, ম Rev. উইলিয়াম জনসন ফক্স, এই দুই অসাধারণ বোনকে অনুরোধ করেছিলেন ..."
+    },
+    {
+      "location": "Figure figcaption: \"Draw nigh to God, and he will draw nigh to you. -Jas. 4:8\"",
+      "severity": "minor",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you. -Jas. 4:8",
+      "suggested_fix": "বাইবেল বইটির সংক্ষিপ্ত রূপ 'Jas.' বাংলা অনুকরণীয় বই-নামের রূপে অনুবাদ করুন (আচরণগতভাবে প্রকাশিত বাংলা বাইবেলে 'যাকোব' বা 'যাকোবের' ব্যবহৃত হয়)। উদাহরণ: \"প্রভুর কাছে নিবিড় হও, তিনি তোমার কাছে নিবিড় হবেন। - যাকোব 4:8\"",
+      "translation_quote": "প্রভুর কাছে নিবিড় হও, তিনি তোমার কাছে নিবিড় হবেন। -Jas. 4:8"
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "da42c10df2907bc4a1130ac179f86856",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ben",
@@ -97,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 58,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

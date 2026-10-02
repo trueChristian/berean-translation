@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c6ffbff3-277a-4887-b408-1a3db9f3ec23",
+    "response_id": "chatcmpl-EUVZkxyJOYXrawdUDKaDfTVbkDeWC",
+    "usage": {
+      "completion_tokens": 930,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6012,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6942
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "Sister to Sister",
+        "suggested_fix": "Translate the section heading into contemporary standard Hindi. For example: <em>सिस्टर टू सिस्टर</em> should be replaced with a Hindi equivalent such as \"बहन से बहन\" (preserve the field value exactly as text, not as an HTML tag).",
+        "translation_quote": "सिस्टर टू सिस्टर"
+      },
+      {
+        "location": "source.html (paragraph containing \"The Sermon on the Mount\")",
+        "severity": "minor",
+        "source_quote": "\"The Sermon on the Mount.\"",
+        "suggested_fix": "Remove or translate the English parenthetical. Replace the parenthetical English title with a Hindi translation (keeping the rest of the sentence and tags unchanged). For example: replace \"(The Sermon on the Mount)\" with \"(पहाड़ पर प्रवचन)\" so the full clause reads: मैंने इसे 10 भागों में बाँटा है। लक्ष्य एक वर्ष में पूरा करना है, पर अगर हम वह लक्ष्य न हासिल करें तो कोई बात नहीं। धीरे-धीरे और अच्छे से याद करना तेज़ी से याद करके उसे ना रखना बेहतर है।\" (Preserve original HTML structure and punctuation.)",
+        "translation_quote": "\"(The Sermon on the Mount)\""
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

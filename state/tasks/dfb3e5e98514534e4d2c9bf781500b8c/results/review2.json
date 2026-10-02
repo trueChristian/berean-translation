@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "08fb4044-3357-4328-a12c-2027dfd5c97a",
+    "response_id": "chatcmpl-EUVaK3d2VbuQr1JN37wL67TZ8BxZk",
+    "usage": {
+      "completion_tokens": 1002,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9718,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10720
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"The Bible abounds with accounts of women who lived by faith. Consider the harlot Rahab.\" (source.html third full paragraph after intro)",
+        "severity": "minor",
+        "source_quote": "\"Consider the harlot Rahab.\"",
+        "suggested_fix": "Translate the singular label correctly. Replace the translation's \"পতিতারা রাহাবকে বিবেচনা করুন\" with a singular form such as \"পতিতা রাহাবকে বিবেচনা করুন।\" Preserve surrounding HTML and punctuation.",
+        "translation_quote": "\"পতিতারা রাহাবকে বিবেচনা করুন।\""
+      },
+      {
+        "location": "Paragraph: Genesis 12:13 recount (Abraham and Sarah in Egypt). (source.html paragraph containing Genesis 12:13)",
+        "severity": "major",
+        "source_quote": "\"He was afraid that the Egyptians would kill him so they could have his wife.\"",
+        "suggested_fix": "Remove the stray English token and render the sentence clearly in Bengali. In the translation paragraph that currently contains the English word 'his', replace the fragment \"তারা his তার স্ত্রী পেতে পারে\" with a correct Bengali rendering such as \"তারা তাকে হত্যা করে তার স্ত্রীকে নিয়ে যেতে পারে।\" Preserve the existing <em>…</em> tags around the Scripture quote exactly as in the HTML.",
+        "translation_quote": "\"তিনি ভয় পেয়েছিলেন যে মিশরীয়রা তাকে হত্যা করবে যাতে তারা his তার স্ত্রী পেতে পারে।\""
+      },
+      {
+        "location": "First paragraph / opening quoted Scripture (source.html opening em block quoting 2 Timothy 1:4-7)",
+        "severity": "minor",
+        "source_quote": "\"...being mindful of thy tears...\" (and other phrasing consistent in the quoted passage)",
+        "suggested_fix": "There is an inconsistent spelling of 'grandmother' in Bengali in the translation: both \"ঠাকুমা\" and later \"ঠকুমা\" appear. Standardize to a single correct Bengali spelling (for example, use \"ঠাকুমা\") throughout the translated HTML. Preserve the <p class=\"drop-cap\"><em>…</em></p> structure.",
+        "translation_quote": "The translation uses both \"ঠাকুমা লোইসের\" and later \"ঠকুমা দাও যেন লোইস।\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

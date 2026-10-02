@@ -2,7 +2,6 @@
   "article_id": "50068373-cc3d-4587-a605-3f37fc05b3ad",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,59 @@
         },
         "total_tokens": 16401
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2110,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10618,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12728
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: p?p",
-      "translation_quote": ""
+      "location": "source.html — paragraph about chemotherapy side effects (third paragraph under \"Chemotherapy\")",
+      "severity": "major",
+      "source_quote": "Due to the fact that they attack cells that are rapidly multiplying, many of these drugs tend to make a person’s hair fall out since hair cells are of the rapidly multiplying type. Nausea, vomiting, and blood count alterations (low white cell counts) are other common side effects.",
+      "suggested_fix": "Replace the mistranslated/duplicated phrase with a clear Kiswahili rendering preserving the original meaning. For example: \"Kutokana na ukweli kwamba zinashambulia seli zinazojirudia kwa kasi, dawa nyingi za aina hii hupelekea mtu kupoteza nywele kwa kuwa seli za nywele zinajirudia kwa haraka. Kichefuchefu, kutapika, na mabadiliko ya hesabu za damu (kupungua kwa hesabu za seli nyeupe) ni athari nyingine za kawaida.\" Preserve existing HTML tags and order.",
+      "translation_quote": "\"Kutokana na ukweli kwamba zinashambulia seli zinazojidondosha kwa kasi, dawa nyingi za aina hii hupelekea mtu kupoteza nywele kwa kuwa seli za nywele ni aina inayojidondosha kwa kasi. Kutapika, kutapika kwa mkongo, na mabadiliko ya hesabu za damu (hesabu za seli nyepesi chini) ni athari nyingine za kawaida.\""
+    },
+    {
+      "location": "source.html — paragraph about lymph sampling and cancer staging (third paragraph under \"Surgery\")",
+      "severity": "major",
+      "source_quote": "Typically, when a tumor is removed, nearby lymph glands will be sampled to see if they contain cancer cells. This presence, or absence, of cells helps with the “staging” of the cancer (such as “stage 3” or “stage 4\") and will provide insight for further treatment to prevent a chance of recurrence.",
+      "suggested_fix": "Correct the mistranslation of \"staging\" and of the example \"stage 3\"/\"stage 4\" which were rendered incorrectly. Suggested Kiswahili: \"Mara nyingi, uvimbe ukiondolewa, tezi za limfu zilizo karibu huchukuliwa sampuli kuona kama zina seli za kansa. Uwepo au kutokuwepo kwa seli hizi husaidia katika kustaajabu/kustaiju (kustaajii) kwa kansa (kwa mfano 'stadhi ya 3' au 'stadhi ya 4') na hutoa mwanga kwa matibabu zaidi ili kupunguza nafasi ya kurudi kwa kansa.\" Prefer the term \"stadhi\" or retain \"stage\" in italics if editorial style prefers. Preserve HTML tags and order.",
+      "translation_quote": "\"Mara nyingi, uvimbe ukiondolewa, vitu vya limfu zenye karibu vitachukuliwa sampuli kuona kama vina seli za kansa. Uwepo au kutokuwepo kwa seli hizi husaidia katika “kustaiaji” (kama “sikio la 3” au “sikio la 4”) na itatoa mwanga kwa matibabu zaidi ili kuzuia nafasi ya kurudi kwa kansa.\""
+    },
+    {
+      "location": "source.html — paragraph listing cancers related to alcohol (third paragraph under \"Lifestyle Changes to Prevent Cancers\")",
+      "severity": "minor",
+      "source_quote": "Alcohol is another substance that raises the risk of cancer. Liver, voice box, and esophagus cancers are all related to alcohol consumption.",
+      "suggested_fix": "The translator rendered \"voice box\" as \"sanduku la sauti (kipafu cha sauti)\" which is acceptable but the parenthetical term is odd/duplicative (\"kipafu cha sauti\" literally 'sound lung/airway') and may confuse readers. Recommend a conventional Kiswahili clinical term such as \"sanduku la sauti (larynx)\" or simply \"sanduku la sauti (layinksi)\" if the site prefers scientific names, or just \"sanduku la sauti\" alone. Preserve HTML tags and order.",
+      "translation_quote": "\"Pombe ni dutu nyingine inayoongeza hatari ya kansa. Kansa za ini, sanduku la sauti (kipafu cha sauti), na koo yote yanahusishwa na matumizi ya pombe.\""
+    },
+    {
+      "location": "source.html — section heading \"Pray\" and following paragraph (heading translated as \"Pray\")",
+      "severity": "minor",
+      "source_quote": "Pray\n\n…The effectual fervent prayer of a righteous man availeth much –James 5:16.\n\nThis verse comes in the midst of James talking about anointing with oil, confession of sins, and physical healing.",
+      "suggested_fix": "The heading \"Pray\" was translated as \"Tafakari\" (reflect), which changes the heading's meaning. Replace the heading with a direct Kiswahili equivalent such as \"Sala\" or \"Ombea\" to preserve the original imperative. Keep the verse translation as is. Preserve HTML tags, order, and emphasis markup.",
+      "translation_quote": "\"Tafakari\n\n<em>…Sala yenye nguvu ya mwaminifu ina faida tele –Yakobo 5:16.</em> Aya hii inakuja katikati ya Yakobo anayezungumzia kupaka mafuta kwa mafuta, kukiri dhambi, na uponyaji wa kimwili.\""
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "934e6eb3f2b02a6a143db2fa5c7ea0da",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swa",
@@ -97,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ca58532aaa94c358a76e9a6922849fbf4aab671b6f2fafb891db698c9be52b26.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

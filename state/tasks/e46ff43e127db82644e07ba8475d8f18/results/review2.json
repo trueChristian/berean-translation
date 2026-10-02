@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5f536745-7b2c-4fbb-8e8f-fab2a7ad3fe7",
+    "response_id": "chatcmpl-EUVaMwsq41o7eSKO1JMRQYeA98lNS",
+    "usage": {
+      "completion_tokens": 1034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3863,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4897
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph",
+        "severity": "major",
+        "source_quote": "“My, it’s warm!” exclaimed Mom.",
+        "suggested_fix": "Translate the exclamation to convey surprise at the heat. Replace «Как теплее!» with a natural Russian equivalent such as «Ах, как жарко!» or «Боже, как жарко!» (preserving the exclamatory tone). Keep the surrounding <p> tags unchanged.",
+        "translation_quote": "«Как теплее!» воскликнула мама."
+      },
+      {
+        "location": "source.html — title and body (terminology consistency)",
+        "severity": "minor",
+        "source_quote": "Thunder, Twisters, and Trust ... “tornado warning”",
+        "suggested_fix": "Use a single conventional Russian term for 'twister'/'tornado' throughout the article. Either render the title and in-text occurrence both as «смерч/предупреждение о смерче» or both as «торнадо/предупреждение о торнадо». For example, change the title to «Гром, торнадо и доверие» to match the existing in-text «предупреждение о торнадо», or change the in-text phrase to «предупреждение о смерче» to match the title. Do not alter HTML structure.",
+        "translation_quote": "title: \"Гром, смерчи и доверие\" ... in-text: «предупреждение о торнадо»"
+      },
+      {
+        "location": "source.html — paragraph about rescue of cattle",
+        "severity": "minor",
+        "source_quote": "The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.",
+        "suggested_fix": "Use consistent target-language terms for the animals. Either translate both occurrences as ‘скот’/‘головы скота’ or consistently as ‘быки’/‘телят/коров’ depending on the intended animals. Example: change «Соседи отчаянно пытались спасти коров, но многим быкам помочь не удалось.» to «Соседи отчаянно пытались спасти скот, но многим головам скота помочь не удалось.» or «...пытались спасти коров, но многим коровам помочь не удалось.» Preserve HTML tags and sentence order.",
+        "translation_quote": "«Соседи отчаянно пытались спасти коров, но многим быкам помочь не удалось.»"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

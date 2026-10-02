@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "48896229-1c36-423a-98c0-d3882cb1c94e",
+    "response_id": "chatcmpl-EUVbD8Mou1oeeuNmQ4jrmZellkp9C",
+    "usage": {
+      "completion_tokens": 1186,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3947,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5133
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Die christliche Kirche selbst ist eine Gruppe, ...</p> (paragraph beginning \"Die christliche Kirche selbst ist eine Gruppe...\")",
+        "severity": "minor",
+        "source_quote": "The Christian church itself is a group, influencing and changing the perspectives and morality of individuals for the right or the wrong. Dependent on the convictions of the group and its leaders, the church can be an influence of godly morality, or it can explain away the Bible’s concepts of good and evil.",
+        "suggested_fix": "Replace the German phrase that neutralizes the negative sense of \"explain away\" with wording that preserves the original sense of dismissing or undermining biblical concepts. For example: \"... kann die Kirche ein Einfluss gottgefälliger Moral sein, oder sie kann die biblischen Konzepte von Gut und Böse untergraben/verharmlosen/wegdiskutieren.\" Preserve the sentence structure and HTML tags.",
+        "translation_quote": "Die christliche Kirche selbst ist eine Gruppe, die die Perspektiven und die Moral Einzelner zum Guten oder zum Schlechten beeinflusst und verändert. Abhängig von den Überzeugungen der Gruppe und ihrer Leiter kann die Kirche ein Einfluss gottgefälliger Moral sein, oder sie kann die biblischen Konzepte von Gut und Böse erklären."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

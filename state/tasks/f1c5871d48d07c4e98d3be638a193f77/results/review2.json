@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a131480a-0894-459d-a0fd-a25cd29b4b36",
+    "response_id": "chatcmpl-EUVaSIjimrtyZrJl5KQ8nl1EJUcOY",
+    "usage": {
+      "completion_tokens": 1118,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5705,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6823
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote> Psalm 119:9-11 (in source.html, paragraph with blockquote near start)",
+        "severity": "major",
+        "source_quote": "Wherewithal shall a young man cleanse his way? by taking heed thereto according to thy word. With my whole heart have I sought thee: O let me not wander from thy commandments. Thy word have I hid in mine heart, that I might not sin against thee –Psalm 119:9-11.",
+        "suggested_fix": "Translate the three clauses faithfully, preserving 'heart' for any occurrence of cuore and keeping the imperative/plea wording. For example: \"Con che cosa purificherà il giovane la sua via? Osserverà la tua parola, Signore. Con tutto il cuore ti ho cercato; non lasciarmi allontanare dai tuoi comandamenti. La tua parola l'ho nascosta nel mio cuore, perché non peccassi contro di te –Salmo 119:9-11.\" (Adjust punctuation to match Italian rhythm.)",
+        "translation_quote": "<em>Con che cosa purificherà il giovane la sua via? Con l’osservanza, Signore, della tua parola. Con tutto il cuore ti ho cercato; lasciami non smarrire i tuoi comandamenti. Nella mia mente ho custodito la tua parola, perché non peccassi contro di te –Salmo 119:9-11.</em>\""
+      },
+      {
+        "location": "title field (source.title vs translation.title)",
+        "severity": "minor",
+        "source_quote": "I Will Hide God’s Word in My (Child’s) Heart",
+        "suggested_fix": "Make the Italian title idiomatic and grammatically natural while preserving the author's intent and the parenthetical nuance. Suggested: \"Nasconderò la Parola di Dio nel mio (o nel cuore di mio figlio)\" or better \"Nasconderò la Parola di Dio nel mio cuore (e in quello dei miei figli)\" depending on site style. Avoid the literal \"(figlio) cuore\" word order; place the parenthesis so the phrase reads naturally in Italian.",
+        "translation_quote": "\"Nasconderò la Parola di Dio nel mio (figlio) cuore\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

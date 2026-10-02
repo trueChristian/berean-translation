@@ -2,7 +2,6 @@
   "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,51 @@
         },
         "total_tokens": 11237
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1601,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6858,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8459
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[41]: source /article[1]/p[17]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[17]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "<blockquote> (Psalm 119:9-11) in source.html and corresponding block in translation.html",
+      "severity": "minor",
+      "source_quote": "Wherewithal shall a young man cleanse his way? by taking heed thereto according to thy word. With my whole heart have I sought thee: O let me not wander from thy commandments. Thy word have I hid in mine heart, that I might not sin against thee –Psalm 119:9-11.",
+      "suggested_fix": "Render this quoted Scripture in contemporary Modern Greek register (not archaic/Koine-like forms). Preserve meaning and verse numbers. Example phrasing in Modern Greek (keep punctuation and verse break similar): «Πώς θα καθαριστεί νέος τον τρόπον του; τηρώντας τον λόγο σου. Με όλη μου την καρδιά σε αναζήτησα· μη με αφήσης να παρεκκλίνω από τις εντολές σου. Τον λόγο σου τον έβαλα στην καρδιά μου, για να μη αμαρτήσω εναντίον σου» —Ψαλμός 119:9-11. (Do not change the printed verse numbers or omit verse breaks.)",
+      "translation_quote": "<em>Με τι καθαρίσει ο νέος τον δρόμον του; τηρώντας το κατά τον λόγον σου. Με όλη μου την καρδιά σε ζητούσα· ας μη απατήσω από ταις εντολαίς σου. Τον λόγον σου έκρυψα εν τη καρδία μου, ίνα μη αμαρτήσω προς σε —Ψαλμοί 119:9-11.</em>"
+    },
+    {
+      "location": "paragraph beginning \"Όταν ήρθε η ώρα να διδάξω τα παιδιά στο σπίτι...\" and sentence with 'Αγοράσα' in translation.html",
+      "severity": "minor",
+      "source_quote": "When it came time to homeschool the children, I wanted memorization to be a part of our daily routine. I bought a binder and inserted the printed passages...",
+      "suggested_fix": "Correct typographical/grammatical error: 'Αγοράσα' should be 'Αγόρασα'. Keep surrounding sentence structure unchanged.",
+      "translation_quote": "Αγοράσα ένα ντοσιέ και έβαλα μέσα τα τυπωμένα αποσπάσματα..."
+    },
+    {
+      "location": "All quoted Scripture blocks (Psalm 119:9-11, Deuteronomy 6:5-7, Psalm 1:1-3, Galatians 6:9) in translation.html",
+      "severity": "minor",
+      "source_quote": "Multiple quoted Scripture passages in the source (e.g., Deuteronomy 6:5-7, Psalm 1:1-3, Galatians 6:9) presented in archaic/older register in English source (King James style).",
+      "suggested_fix": "Translate all quoted Scripture into contemporary Modern Greek phrasing/idiom while preserving the exact verse numbers, order, and the theological meaning printed in the English source. Avoid archaic grammatical forms (e.g., 'εν τη', 'Δευτερονόμιον' in an archaic declension, 'και εν παντί ό,τι αν ποιή'). Use Modern Greek vocabulary and syntax appropriate for Bible quotations (for example: «Θα αγαπήσεις τον Κύριο τον Θεό σου με όλη σου την καρδιά... αυτά τα λόγια που σου διατάζω σήμερα θα είναι στην καρδιά σου· και θα τα διδάσκεις επιμελώς στα παιδιά σου...» —Δευτερονόμιο 6:5-7). Do not change verse numbers or omit any quoted content.",
+      "translation_quote": "Examples in translation: —Δευτερονόμιον 6:5-7 block: <em>Και θα <strong>αγαπήσεις τον ΚΥΡΙΟ τον Θεόν σου</strong> με όλη σου την καρδιά... —Δευτερονόμιον 6:5-7.</em> —Ψαλμοί 1:1-3 block uses phrasing like «εν τω νόμω» and «έσται» which are archaic."
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "3e94f056b98ab3419bd6397c87a39fa9",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ell",
@@ -97,11 +130,13 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f34407a6165fb7e7a04ea7f397fc8013deb4a8e803dafc6f028dc9f7c426249a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "acee92c005287a538cca2ea8301c5c01a8922523349a8b855f3e2b33bcddbab6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

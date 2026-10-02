@@ -2,7 +2,6 @@
   "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,44 @@
         },
         "total_tokens": 8833
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 754,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5625,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6379
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[41]: source /article[1]/p[17]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[17]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "Translation paragraph about short verse example (source HTML third visible paragraph after second block)",
+      "severity": "minor",
+      "source_quote": "I thought young children memorized short verses like, “Be ye kind one to another.”",
+      "suggested_fix": "Use a more natural Norwegian phrasing for this idiom. Replace «Vær gjensidig vennlige» with «Vær vennlige mot hverandre» to preserve meaning and improve idiomatic clarity.",
+      "translation_quote": "Jeg tenkte at små barn lærte korte vers som «Vær gjensidig vennlige»."
+    },
+    {
+      "location": "Translation paragraph about John 19 passage (paragraph starting \"Jeg ble nysgjerrig...\")",
+      "severity": "minor",
+      "source_quote": "Easter was approaching so I started working with them on the crucifixion account found in John 19:1-19.",
+      "suggested_fix": "Consider a slightly more literal phrasing for \"crucifixion account\" to match the source's neutral narrative tone. Replace «forkynnelsen om korsfestelsen» with «korsfestelsesberetningen i Johannes 19:1-19» to mirror the source wording and keep the descriptive, non-preaching tone.",
+      "translation_quote": "Påsken nærmet seg, så jeg begynte å arbeide med dem på forkynnelsen om korsfestelsen i Johannes 19:1-19."
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "a88e04f514828be3d7d74968108cf258",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "nob",
@@ -97,11 +123,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f34407a6165fb7e7a04ea7f397fc8013deb4a8e803dafc6f028dc9f7c426249a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "acee92c005287a538cca2ea8301c5c01a8922523349a8b855f3e2b33bcddbab6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

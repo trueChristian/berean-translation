@@ -2,7 +2,6 @@
   "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,45 @@
         },
         "total_tokens": 7006
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1170,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4244,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5414
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[18]: source /article[1]/p[8]/em[1]/strong[1]/u[1] ('start', 'u', ()); translation /article[1]/p[8]/em[1]/strong[1] ('end', 'strong')",
-      "translation_quote": ""
+      "location": "Paragraph containing Romans quotation (source.html paragraph 9)",
+      "severity": "major",
+      "source_quote": "…the righteous judgment of God; Who will render to every man according to his deeds –Romans 2:5-6.",
+      "suggested_fix": "Translate the verb \"render\" neutrally to preserve the source's sense of recompense (which can be reward or punishment). Replace the Urdu phrase \"سزا دے گا\" with a neutral phrase such as \"ادا کرے گا\" or \"بلاً اس کے مطابق اجر یا سزا دے گا\" so the quotation reads e.g. “…خدا کے راستبازانہ عدل کے مطابق؛ جو ہر آدمی کو اس کے اعمال کے مطابق ادا کرے گا –رومیوں 2:5-6.” Preserve punctuation, verse numbers and emphasis formatting as in the source.",
+      "translation_quote": "…خدا کے راستبازانہ عدل کے مطابق؛ جو ہر آدمی کو اس کے اعمال کے مطابق سزا دے گا –رومیوں 2:5-6۔"
+    },
+    {
+      "location": "Paragraph referencing Acts 19 (source.html paragraph 6)",
+      "severity": "minor",
+      "source_quote": "Acts 19 tells of a group yelling “Great is Diana of the Ephesians” for hours.",
+      "suggested_fix": "Use the conventional Urdu rendering for the genitive plural of 'Ephesians' to improve naturalness and idiomatic clarity. Replace “ایفیشینز کی دیانا” with “ایفیشیوں کی دیانا” so it reads e.g. \"...کئی گھنٹوں تک 'ایفیشیوں کی دیانا بڑی ہے' کے نعرے لگانے کا ذکر ہے۔\"",
+      "translation_quote": "اعمال 19 میں ایک گروپ کئی گھنٹوں تک \"ایفیشینز کی دیانا بڑی ہے\" کے نعرے لگانے کا ذکر ہے۔"
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "f1ae6739b57976acc4fd864078982ba1",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "urd",
@@ -97,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/007fc316198faf474d16a29be6ce55b2d1edd73a2740466b844468e370ef99fd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f7c34bc947a663a71aab745b050e25b087d38fd1ef4f605c7cdf8255d9c68b7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

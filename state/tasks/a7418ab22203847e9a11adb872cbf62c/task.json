@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,45 @@
         },
         "total_tokens": 8387
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1070,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5215,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6285
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/p[2]/em[1] ('start', 'em', ()); translation /article[1]/p[2] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<figure> <figcaption> (Scripture citation)",
+      "severity": "major",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you. -Jas. 4:8",
+      "suggested_fix": "将经文末尾的书卷缩写本地化并保留章/节编号。保留中文经文翻译，且把“ -Jas. 4:8”改为中文惯用书卷名与相同章节数字，例如“——雅各书 4:8”。 具体修订示例：<em>你们亲近神，神就必亲近你们。</em> ——雅各书 4:8",
+      "translation_quote": "<em>你们亲近神，神就必亲近你们。</em> -Jas. 4:8"
+    },
+    {
+      "location": "Body (work title mention)",
+      "severity": "minor",
+      "source_quote": "Hymns and Anthems",
+      "suggested_fix": "将作品名以适当方式翻译或注明中文书名并保留原文（若需保留原文请置于括号），以便目标语读者理解。建议把“<em>Hymns and Anthems</em>”改为“<em>《圣诗与赞歌 (Hymns and Anthems)》</em>”或仅译为“<em>《圣诗与赞歌》</em>”。 保持 HTML 标签不变。",
+      "translation_quote": "<em>《Hymns and Anthems》</em>"
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "a7418ab22203847e9a11adb872cbf62c",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "cmn",
@@ -97,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

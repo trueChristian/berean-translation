@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6f871b50-fae6-446e-b83e-0d567f139412",
+    "response_id": "chatcmpl-EUVa5cVV3LJm5Hmt0P3ajBHqHRo4T",
+    "usage": {
+      "completion_tokens": 1579,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8502,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10081
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Abraham said to Sarah, <em>Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee –Genesis 12:13.</em></p>",
+        "severity": "major",
+        "source_quote": "Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee –Genesis 12:13.",
+        "suggested_fix": "将引文按原文含义忠实翻译为中文，保持经文所载的句子与章节标引。建议译文例如：\n“你要对他们说：‘我恳求你，你是我的妹妹’，好叫我因你得平安；我的性命因你得保全。──创世记 12:13。”\n（保留原文中引号或斜体标示经文的样式）",
+        "translation_quote": "<em>你既为我有益，我必因此得存性命──创世记 12:13。</em>"
+      },
+      {
+        "location": "Opening quoted Scripture paragraph (2 Timothy 1:4-7) — names of Lois and Eunice",
+        "severity": "minor",
+        "source_quote": "...the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also. ... –2 Timothy 1:4-7.",
+        "suggested_fix": "确认人名的常用中文音译与文章其余处保持一致。原文人名 Lois 与 Eunice 在译文中分别为“Lois / Eunice”。建议使用常见教会译名“罗伊斯（或洛伊）”和“以尼基”，并在文中前后一致。示例：将“罗伊”改为“罗伊斯”或“洛伊（Lois）”，并统一全文出现处。",
+        "translation_quote": "<em>……先在你外祖母罗伊、你母亲以尼基心里的信…… –提摩太后书 1:4-7。</em>"
+      }
+    ],
+    "passed": false,
+    "score": 74
+  }
+}

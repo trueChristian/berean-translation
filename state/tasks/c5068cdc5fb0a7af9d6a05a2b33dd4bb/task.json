@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,51 @@
         },
         "total_tokens": 6126
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1563,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3714,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5277
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: pχαιρετισμοί",
-      "translation_quote": ""
+      "location": "Paragraph 1 (description of Lee Rufener)",
+      "severity": "minor",
+      "source_quote": "Lee Rufener takes an unapologetic approach in his effort to share some expository teaching on practical ways to have a sanctified home.",
+      "suggested_fix": "Replace αμετανόητη with a Modern Greek phrasing that conveys 'unapologetic' in the sense of 'forthright' or 'unhesitating' (not 'unrepentant'). Suggested wording: «ακολουθεί μια αποφασιστική/αυθεντική/ξεκάθαρη προσέγγιση» — pick one in the same tag/format as the current text.",
+      "translation_quote": "Ο Lee Rufener ακολουθεί μια αμετανόητη προσέγγιση στην προσπάθειά του να μοιραστεί εξηγητική διδασκαλία για πρακτικούς τρόπους να έχει κανείς ένα αγιασμένο σπίτι."
+    },
+    {
+      "location": "Paragraph with time span (life changes)",
+      "severity": "minor",
+      "source_quote": "During the last 1 to 2 years, we moved to another place of residence, I acquired a new job, and finally, praise the Lord, I have mostly recovered from most of the long-term effects of Covid.",
+      "suggested_fix": "Correct the target-language grammar for the time-span. Replace «1 έως 2 χρόνους» with the grammatically correct Modern Greek «1 έως 2 χρόνια» (or «έναν έως δύο χρόνους/έτη» if you prefer a fully written form), keeping the rest of the sentence unchanged and preserving HTML structure.",
+      "translation_quote": "Τους τελευταίους 1 έως 2 χρόνους, μετακομίσαμε σε άλλο τόπο κατοικίας, απέκτησα νέα εργασία και τέλος, δοξάζω τον Κύριο, έχω σε μεγάλο βαθμό αναρρώσει από τα περισσότερα μακροχρόνια αποτελέσματα του Covid."
+    },
+    {
+      "location": "All three quoted Scripture passages (Hebrews 7:12; Ephesians 4:14; Matthew 24:12-13)",
+      "severity": "minor",
+      "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.\n\nThat we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.\n\nAnd because iniquity shall abound, the love of many shall wax cold. But he that shall endure unto the end, the same shall be saved –Matthew 24:12-13.",
+      "suggested_fix": "The quoted Scriptures must be translated into contemporary Modern Greek consistent with the user's language guidance. The current renderings use an elevated/archaic register (e.g., «κλυδωνισθήσονται», «η ανομία πληθυνθήσεται», verb forms like -θήσεται) that is not contemporary. Provide modern Greek translations that faithfully convey the printed English meaning while using contemporary vocabulary and grammar. Example suggestions (choose/adjust as stylistically needed):\n- Hebrews 7:12: «Εφόσον αλλάζει η ιεροσύνη, αναγκαστικά αλλάζει και ο νόμος.»\n- Ephesians 4:14: «Ώστε να μην είμαστε πλέον παιδιά, κλονιζόμενοι και μεταφερόμενοι από κάθε άνεμο διδασκαλίας…»\n- Matthew 24:12-13: «Και επειδή θα πολλαπλασιαστεί η ανομία, η αγάπη των περισσοτέρων θα ψυχρανθεί. Ο δε ο αντέξει μέχρι τέλους, αυτός θα σωθεί.»\nKeep the citation labels (book name and verse numbers) in the same place and format as the original.",
+      "translation_quote": "Διότι εάν μετατεθεί η ιεροσύνη, χρειάζεται και αλλαγή νόμου – Εβραίους 7:12.\n\nΏστε να μη είμεθα πλέον νήπιοι, κλυδωνισθήσονται και περιφερώμενοι από παντός ανέμου διδασκαλίας… – Προς Εφεσίους 4:14.\n\nΚαί διότι η ανομία πληθυνθήσεται, η δε αγάπη των πολλών θα κρυώσει. Όστις δε αντέξη έως τέλους, ούτος σωθήσεται – Κατά Ματθαίον 24:12-13."
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "c5068cdc5fb0a7af9d6a05a2b33dd4bb",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ell",
@@ -97,11 +130,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

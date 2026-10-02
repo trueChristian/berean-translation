@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4fc01bb2-bafb-9a45-8ce9-4344157da76f",
+    "response_id": "chatcmpl-EUVa4CogBkkVHW2CY8HE6MPkExtbf",
+    "usage": {
+      "completion_tokens": 1070,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5215,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6285
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <figcaption> (Scripture citation)",
+        "severity": "major",
+        "source_quote": "Draw nigh to God, and he will draw nigh to you. -Jas. 4:8",
+        "suggested_fix": "将经文末尾的书卷缩写本地化并保留章/节编号。保留中文经文翻译，且把“ -Jas. 4:8”改为中文惯用书卷名与相同章节数字，例如“——雅各书 4:8”。 具体修订示例：<em>你们亲近神，神就必亲近你们。</em> ——雅各书 4:8",
+        "translation_quote": "<em>你们亲近神，神就必亲近你们。</em> -Jas. 4:8"
+      },
+      {
+        "location": "Body (work title mention)",
+        "severity": "minor",
+        "source_quote": "Hymns and Anthems",
+        "suggested_fix": "将作品名以适当方式翻译或注明中文书名并保留原文（若需保留原文请置于括号），以便目标语读者理解。建议把“<em>Hymns and Anthems</em>”改为“<em>《圣诗与赞歌 (Hymns and Anthems)》</em>”或仅译为“<em>《圣诗与赞歌》</em>”。 保持 HTML 标签不变。",
+        "translation_quote": "<em>《Hymns and Anthems》</em>"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

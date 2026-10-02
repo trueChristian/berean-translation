@@ -2,7 +2,6 @@
   "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a56163108d43d39998ab29f6fba17a",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -43,17 +42,37 @@
         },
         "total_tokens": 6980
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 729,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4186,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4915
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 14:1; extra: none",
-      "translation_quote": ""
+      "location": "source.html paragraph mentioning Acts 19 (sentence quoting crowd’s cry)",
+      "severity": "minor",
+      "source_quote": "Acts 19 tells of a group yelling “Great is Diana of the Ephesians” for hours.",
+      "suggested_fix": "Correct the Korean transliteration of the deity's name. Replace “에베소의 대(大)여신 다이아네아” with a conventional Korean form such as “에베소의 위대한 여신 다이애나” or the classical equivalent “아르테미스” (e.g., “‘에베소의 위대한 여신 다이애나’를 외쳤던 일을 전한다.”) Preserve the sentence structure and punctuation in the translation HTML.",
+      "translation_quote": "사도행전 19장은 한 무리가 몇 시간 동안 “에베소의 대(大)여신 다이아네아”를 외쳤던 일을 전한다."
     }
   ],
+  "finished_at": "2026-10-02T11:22:34+00:00",
   "id": "c3eecb270fcecf6bb25491f958456718",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "kor",
@@ -97,11 +116,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/007fc316198faf474d16a29be6ce55b2d1edd73a2740466b844468e370ef99fd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1f7c34bc947a663a71aab745b050e25b087d38fd1ef4f605c7cdf8255d9c68b7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "abebe1d1-0f33-4f2d-a693-c9ada30c7ebd",
+    "response_id": "chatcmpl-EUVaHdhRiABtVogw5Jd5WzhySVu18",
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4108,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4761
+    }
+  },
+  "received_at": "2026-10-02T11:22:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Handelinge 14:1…</p> (paragraph mentioning Acts 14:1 and stoning)",
+        "severity": "minor",
+        "source_quote": "\"and in the next verse they stoned him.\"",
+        "suggested_fix": "Replace the incorrect Afrikaans phrasing with a correct idiom conveying the stoning action. For example: change to \"en in die volgende vers het hulle hom gesteenig.\" Preserve existing HTML tags and surrounding text.",
+        "translation_quote": "\"en in die volgende vers steenvul hulle hom.\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}
