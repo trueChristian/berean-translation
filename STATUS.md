@@ -174,7 +174,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `gh-36909987232` | manual | translate | active | 10 | 0.09316076 | 0.477109 / 10.00 | [state](state/campaigns/gh-36909987232.json) |
 | `gh-36910113689` | manual | translate | active | 10 | 0.06373751 | 0.358556 / 10.00 | [state](state/campaigns/gh-36910113689.json) |
 | `gh-36910234395` | manual | translate | active | 10 | 0.05957563 | 0.388289 / 10.00 | [state](state/campaigns/gh-36910234395.json) |
-| `gh-36910515539` | manual | translate | active | 10 | 0.08710926 | 0.418488 / 10.00 | [state](state/campaigns/gh-36910515539.json) |
+| `gh-36910515539` | manual | translate | active | 10 | 0.08710926 | 0.451331 / 10.00 | [state](state/campaigns/gh-36910515539.json) |
 | `gh-36910662071` | manual | translate | active | 10 | 0.07495752 | 0.294249 / 10.00 | [state](state/campaigns/gh-36910662071.json) |
 | `gh-36910785828` | manual | translate | active | 10 | 0.05536961 | 0.276074 / 10.00 | [state](state/campaigns/gh-36910785828.json) |
 | `gh-36910935961` | manual | translate | active | 10 | 0.05317301 | 0.276350 / 10.00 | [state](state/campaigns/gh-36910935961.json) |
@@ -297,4 +297,5 @@ Provider completion and local collection are separate clocks. Older records with
 | [f5d8436187964629a3e5af191e93257a](state/batches/f5d8436187964629a3e5af191e93257a/batch.json) / correct | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [f8970ec23dbd46ea849204ca5ea17615](state/batches/f8970ec23dbd46ea849204ca5ea17615/batch.json) / correct | collected / completed | 2 / 2 / 0 | 2026-10-01T19:37:56+00:00 | 2026-10-01T20:29:07+00:00 | 2026-10-01T20:29:07+00:00 |
 | [f9768c370ba943d4813c340a2b047598](state/batches/f9768c370ba943d4813c340a2b047598/batch.json) / correct | collected / completed | 107 / 107 / 0 | 2026-10-01T20:43:27+00:00 | 2026-10-02T00:08:04+00:00 | 2026-10-02T00:08:03+00:00 |
+| [fa89219c4e2d4e129f6faf7e7f8e775c](state/batches/fa89219c4e2d4e129f6faf7e7f8e775c/batch.json) / review2 | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [fb6bd9415dcf4d76ba6a6c2fbe46dcc3](state/batches/fb6bd9415dcf4d76ba6a6c2fbe46dcc3/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-01T19:18:31+00:00 | 2026-10-01T19:19:18+00:00 | 2026-10-01T19:19:17+00:00 |
