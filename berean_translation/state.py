@@ -89,7 +89,7 @@ class State:
             if not pub:
                 continue
             candidate, tail, text = self.publication_candidate(pub)
-            validate_translation(self.source(pub),candidate)
+            validate_translation(self.source(pub),candidate,language=record['language'])
             new_html_hash = digest(text)
             metadata_hash = json_hash({k:candidate[k] for k in ('title','subtitle','section')})
             if new_html_hash == pub['html_sha256'] and metadata_hash == pub['metadata_sha256']:
@@ -113,7 +113,7 @@ class State:
             if not pub:
                 continue
             candidate, tail, text = self.publication_candidate(pub)
-            parsed = validate_translation(self.source(pub), candidate)
+            parsed = validate_translation(self.source(pub), candidate, language=record['language'])
             current = source['articles'].get(record['article_id'])
             status = 'ready' if current and current['translation_key'] == pub['translation_key'] else 'stale'
             if current is None:

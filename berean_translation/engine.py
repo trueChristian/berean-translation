@@ -281,7 +281,7 @@ class Engine:
         if task.get('downstream_recovery') and not downstream.current(self, task):
             return self.finish(task, 'source_error', 'English source changed during downstream recovery')
         source, candidate = self.state.source(task),self.state.candidate(task)
-        validate_translation(source,candidate)
+        validate_translation(source,candidate,language=task['language'])
         record = self.state.record(task['language'],task['article_id'])
         pub = record.get('published')
         if task['protected'] or (pub and pub['human_reviewed']):
@@ -341,7 +341,7 @@ class Engine:
                 task['translation_model_actual'] = provenance['model']
                 self.state.save_candidate(task,result)
                 try:
-                    validate_translation(self.state.source(task),result)
+                    validate_translation(self.state.source(task),result,language=task['language'])
                 except ContractError as exc:
                     diagnostic_findings = None
                     if (stage == 'translate' and not task.get('downstream_recovery')
