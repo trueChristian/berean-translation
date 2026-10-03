@@ -6,6 +6,12 @@
       "campaign": "gh-37119584204",
       "event": "requested",
       "task": "ebd9ddc23d457231e9c7b8b5913c6569"
+    },
+    {
+      "at": "2026-10-03T17:01:28+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: 2 Timothy 2:22; extra: 2:22",
+      "task": "ebd9ddc23d457231e9c7b8b5913c6569"
     }
   ],
   "language": "heb",

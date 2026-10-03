@@ -21,7 +21,7 @@ Observed English revision: `a069ecca8827634ebc256b3b1cabc16aeb942ed7`
 | `heartbeat-remnant-2022-spring` | 9 | 85 / 180 | 0 | 95 | 0 |
 | `heartbeat-remnant-2021-summer` | 11 | 128 / 220 | 0 | 92 | 0 |
 | `heartbeat-remnant-2021-spring` | 11 | 132 / 220 | 0 | 88 | 0 |
-| `heartbeat-remnant-2021-winter` | 12 | 113 / 240 | 127 | 0 | 0 |
+| `heartbeat-remnant-2021-winter` | 12 | 113 / 240 | 120 | 7 | 0 |
 | `heartbeat-remnant-2020-summer` | 10 | 0 / 200 | 200 | 0 | 0 |
 | `heartbeat-remnant-2020-spring` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2020-winter` | 13 | 0 / 260 | 0 | 0 | 0 |
@@ -122,15 +122,15 @@ Observed English revision: `a069ecca8827634ebc256b3b1cabc16aeb942ed7`
 | `ind` (id) | 95 / 1142 | 0 | 27 | 38 | 74 |
 | `urd` (ur) | 74 / 1142 | 0 | 29 | 57 | 89 |
 | `rus` (ru) | 75 / 1142 | 0 | 29 | 56 | 89 |
-| `deu` (de) | 59 / 1142 | 0 | 27 | 73 | 101 |
+| `deu` (de) | 59 / 1142 | 0 | 24 | 76 | 101 |
 | `nld` (nl) | 96 / 1142 | 0 | 28 | 36 | 78 |
 | `afr` (af) | 91 / 1142 | 0 | 27 | 42 | 67 |
 | `swa` (sw) | 49 / 1142 | 0 | 27 | 84 | 106 |
 | `kor` (ko) | 84 / 1142 | 0 | 26 | 50 | 84 |
 | `ita` (it) | 100 / 1142 | 0 | 25 | 35 | 65 |
-| `heb` (he) | 31 / 1142 | 0 | 29 | 97 | 111 |
+| `heb` (he) | 31 / 1142 | 0 | 26 | 100 | 111 |
 | `ell` (el) | 74 / 1142 | 0 | 26 | 60 | 95 |
-| `swe` (sv) | 85 / 1142 | 0 | 28 | 47 | 82 |
+| `swe` (sv) | 85 / 1142 | 0 | 27 | 48 | 82 |
 | `nob` (nb) | 88 / 1142 | 0 | 26 | 46 | 86 |
 
 ## Issue / language work
@@ -389,15 +389,15 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2021-winter` | `ind` | 6 / 12 | 0 | 6 | 0 | 0 |
 | `heartbeat-remnant-2021-winter` | `urd` | 3 / 12 | 0 | 9 | 0 | 0 |
 | `heartbeat-remnant-2021-winter` | `rus` | 3 / 12 | 0 | 9 | 0 | 0 |
-| `heartbeat-remnant-2021-winter` | `deu` | 5 / 12 | 0 | 7 | 0 | 0 |
+| `heartbeat-remnant-2021-winter` | `deu` | 5 / 12 | 0 | 4 | 3 | 0 |
 | `heartbeat-remnant-2021-winter` | `nld` | 4 / 12 | 0 | 8 | 0 | 0 |
 | `heartbeat-remnant-2021-winter` | `afr` | 5 / 12 | 0 | 7 | 0 | 0 |
 | `heartbeat-remnant-2021-winter` | `swa` | 5 / 12 | 0 | 7 | 0 | 0 |
 | `heartbeat-remnant-2021-winter` | `kor` | 6 / 12 | 0 | 6 | 0 | 0 |
 | `heartbeat-remnant-2021-winter` | `ita` | 7 / 12 | 0 | 5 | 0 | 0 |
-| `heartbeat-remnant-2021-winter` | `heb` | 3 / 12 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2021-winter` | `heb` | 3 / 12 | 0 | 6 | 3 | 0 |
 | `heartbeat-remnant-2021-winter` | `ell` | 6 / 12 | 0 | 6 | 0 | 0 |
-| `heartbeat-remnant-2021-winter` | `swe` | 4 / 12 | 0 | 8 | 0 | 0 |
+| `heartbeat-remnant-2021-winter` | `swe` | 4 / 12 | 0 | 7 | 1 | 0 |
 | `heartbeat-remnant-2021-winter` | `nob` | 6 / 12 | 0 | 6 | 0 | 0 |
 | `heartbeat-remnant-2020-summer` | `cmn` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2020-summer` | `hin` | 0 / 10 | 0 | 10 | 0 | 0 |
@@ -427,7 +427,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $2.000000 
 Separately authorized manual workflow allocations: $50.000000 across 5 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 533 | continuation_review_only_requires_attention: 13 | eligible_available: 1037 | legacy_response_outcome_unknown_requires_owner_attention: 12
+active: 526 | continuation_review_only_requires_attention: 13 | eligible_available: 1044 | legacy_response_outcome_unknown_requires_owner_attention: 12
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Rejected requests
@@ -480,7 +480,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37109077881` | manual | translate | finished | 220 | 132 complete, 88 held | 0.56007440 | 3.329526 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
 | `gh-37109120670` | manual recovery | repair | finished | 5 | 2 complete, 3 held | 0.00839031 | 0.069530 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
 | `gh-37109168265` | manual | translate | finished | 42 | 38 complete, 4 held | 1.44131250 | 8.625625 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
-| `gh-37119584204` | manual | translate | active | 240 | 113 complete, 127 active | 0.30286955 | 2.168770 / 10.00 | [state](state/campaigns/gh-37119584204.json) |
+| `gh-37119584204` | manual | translate | active | 240 | 113 complete, 7 held, 120 active | 0.32099707 | 2.168770 / 10.00 | [state](state/campaigns/gh-37119584204.json) |
 | `gh-37137754122` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.027635 / 10.00 | [state](state/campaigns/gh-37137754122.json) |
 | `gh-37138123265` | manual | review | active | 200 | 200 active | 0.00000000 | 0.000000 / 5.00 | [state](state/campaigns/gh-37138123265.json) |
 | `gh-37138217502` | manual | translate | active | 200 | 200 active | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37138217502.json) |
@@ -686,7 +686,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [e9e0c606153f4d8193aa8198811fb114](state/batches/e9e0c606153f4d8193aa8198811fb114/batch.json) / correct | collected / completed | 34 / 34 / 0 | 2026-10-02T08:17:44+00:00 | 2026-10-02T08:41:30+00:00 | 2026-10-02T08:41:29+00:00 |
 | [ea8cded9c4fe4f59be8088212755b972](state/batches/ea8cded9c4fe4f59be8088212755b972/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:19:21+00:00 | 2026-10-01T20:28:57+00:00 | 2026-10-01T20:28:57+00:00 |
 | [ea8d3573352a42ba8f694108f04c9aa6](state/batches/ea8d3573352a42ba8f694108f04c9aa6/batch.json) / review2 | collected / completed | 4 / 4 / 0 | 2026-10-03T08:49:30+00:00 | 2026-10-03T10:41:17+00:00 | 2026-10-03T10:41:17+00:00 |
-| [eb153c0bc056400580d20035d67a5d27](state/batches/eb153c0bc056400580d20035d67a5d27/batch.json) / correct | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [eb153c0bc056400580d20035d67a5d27](state/batches/eb153c0bc056400580d20035d67a5d27/batch.json) / correct | collected / completed | 11 / 11 / 0 | 2026-10-03T16:58:40+00:00 | 2026-10-03T17:01:28+00:00 | 2026-10-03T17:01:26+00:00 |
 | [eb32a7931ae84640bd453e460e4edcec](state/batches/eb32a7931ae84640bd453e460e4edcec/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:07:29+00:00 | 2026-10-01T19:07:40+00:00 | 2026-10-01T19:07:37+00:00 |
 | [ebbef0c6c59d402e9d7d86dc2d8b051a](state/batches/ebbef0c6c59d402e9d7d86dc2d8b051a/batch.json) / review1 | collected / completed | 145 / 145 / 0 | 2026-10-02T18:20:06+00:00 | 2026-10-02T21:03:10+00:00 | 2026-10-02T21:03:07+00:00 |
 | [eef79ccf76a04ad4bffe5661b0adf2c1](state/batches/eef79ccf76a04ad4bffe5661b0adf2c1/batch.json) / review1 | collected / completed | 167 / 167 / 0 | 2026-10-02T12:47:52+00:00 | 2026-10-02T12:50:24+00:00 | 2026-10-02T12:50:21+00:00 |

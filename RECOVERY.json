@@ -7,9 +7,9 @@
     "version": 2
   },
   "counts": {
-    "active": 533,
+    "active": 526,
     "continuation_review_only_requires_attention": 13,
-    "eligible_available": 1037,
+    "eligible_available": 1044,
     "legacy_response_outcome_unknown_requires_owner_attention": 12
   },
   "derived": true,
@@ -790,7 +790,7 @@
       "has_publication": false,
       "language": "afr",
       "latest_task": "80a3d30e491489c211fdb8ad21686af9",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 3,
       "source_fingerprint": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b"
@@ -4121,9 +4121,10 @@
       "has_publication": false,
       "language": "deu",
       "latest_task": "2844ce82ff4784a4382858db5fc86142",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.590652,
       "source_fingerprint": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9"
     },
     {
@@ -4509,9 +4510,10 @@
       "has_publication": false,
       "language": "deu",
       "latest_task": "18c33dc97389b8913697de104fd2e722",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.593592,
       "source_fingerprint": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a"
     },
     {
@@ -4520,9 +4522,10 @@
       "has_publication": false,
       "language": "deu",
       "latest_task": "a50554a1598bc9c49d9e01df6713003b",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.566721,
       "source_fingerprint": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc"
     },
     {
@@ -6948,9 +6951,10 @@
       "has_publication": false,
       "language": "heb",
       "latest_task": "ebd9ddc23d457231e9c7b8b5913c6569",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.591793,
       "source_fingerprint": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9"
     },
     {
@@ -7490,9 +7494,10 @@
       "has_publication": false,
       "language": "heb",
       "latest_task": "b7910ba82e4d4db516809d8095fdcbdd",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.59742,
       "source_fingerprint": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a"
     },
     {
@@ -7513,7 +7518,7 @@
       "has_publication": false,
       "language": "heb",
       "latest_task": "2607bc2d0311cbb0f5f4fff4ef77e8c8",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 3,
       "source_fingerprint": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc"
@@ -8286,9 +8291,10 @@
       "has_publication": false,
       "language": "heb",
       "latest_task": "741d881ad520b76d609c5e0c00859e43",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.613406,
       "source_fingerprint": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b"
     },
     {
@@ -9338,7 +9344,7 @@
       "has_publication": false,
       "language": "hin",
       "latest_task": "037e5330b518b9bc58755abfc110e7c7",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 3,
       "source_fingerprint": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b"
@@ -11229,7 +11235,7 @@
       "has_publication": false,
       "language": "kor",
       "latest_task": "b7598c73440c8936f87cf998b6689fa1",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 3,
       "source_fingerprint": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc"
@@ -17035,9 +17041,10 @@
       "has_publication": false,
       "language": "swe",
       "latest_task": "aa1ed3ad07e24d1efca01ce309f215e5",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.56558,
       "source_fingerprint": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc"
     },
     {

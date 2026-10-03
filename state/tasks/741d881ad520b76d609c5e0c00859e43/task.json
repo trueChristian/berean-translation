@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eb153c0bc056400580d20035d67a5d27",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 11330
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5705,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11839,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11836,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17544
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[37]; missing: 1 John 4:7; extra: 4:7",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"f3dc712f-f89d-476b-9cc6-f94dc67a339d\">\n\n  <p><em>גם אם אדבר בלשונות בני אדם ומלאכים, ואין בי אהבה, הייתי כמתכת מרעישה או כמצלתיים מצלצלות. ואם תהיה לי מתנת נבואה ואבין את כל הסודות ואת כל הדעת, ואם תהיה לי כל האמונה עד כדי העתקת הרים ממקומם, ואין בי אהבה, אינני כלום. ואם אחלק את כל רכושי כדי להאכיל את העניים, ואם אתן את גופי לשרפה, ואין בי אהבה, לא יועיל לי דבר. האהבה מארכת אפיים וטובה; האהבה אינה מקנאה; האהבה אינה מתפארת ואינה מתנשאת. היא אינה מתנהגת בגסות, אינה דורשת את טובתה, אינה מתרגזת בנקל ואינה חושבת רעה. היא אינה שמחה בעוולה, כי אם שמחה באמת. היא סובלת את הכול"
     }
   ],
+  "finished_at": "2026-10-03T17:01:28+00:00",
   "id": "741d881ad520b76d609c5e0c00859e43",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

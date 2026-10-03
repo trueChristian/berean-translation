@@ -6,6 +6,12 @@
       "campaign": "gh-37119584204",
       "event": "requested",
       "task": "18c33dc97389b8913697de104fd2e722"
+    },
+    {
+      "at": "2026-10-03T17:01:27+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[54]; missing: 4:11; extra: Hebrews 4:11",
+      "task": "18c33dc97389b8913697de104fd2e722"
     }
   ],
   "language": "deu",

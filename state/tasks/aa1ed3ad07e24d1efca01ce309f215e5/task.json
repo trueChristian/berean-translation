@@ -2,7 +2,6 @@
   "article_id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eb153c0bc056400580d20035d67a5d27",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 5595
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2612,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5999,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5996,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8611
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[52]: source /article[1]/ol[1]/li[1] ('end', 'li'); translation /article[1]/ol[1]/li[1]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/ol[1]/li[1]; translation /article[1]/ol[1]/li[1]/em[1]",
@@ -44,6 +64,7 @@
       "translation_quote": "<li>Amy Carmichael, <em>Edges of His Ways</em>, s. 218</li>"
     }
   ],
+  "finished_at": "2026-10-03T17:01:28+00:00",
   "id": "aa1ed3ad07e24d1efca01ce309f215e5",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "swe",
@@ -136,7 +157,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
   "translation_model_actual": "gpt-6-luna"
