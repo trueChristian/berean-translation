@@ -14576,6 +14576,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "2c701da0672510d0bdcef9e009393bb462c672f71a85f768f15c983ee2a068d0",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "דיוקן של ג'ון ניוטון מעל ספינת מפרש בסערה, כשברקע תווי המזמור חסד מופלא.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "גלים כהים סביב אי סלעי תלול מתחת לענני סערה.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "תווים של חסד מופלא, המיוחס לג'ון ניוטון, 1779, בעיבודו של אדווין או. אקסל, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "f9cc524eaf99c51c2abbb6fedf6aa60f6b44a0e3f6276287a8daa3c416134b47",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "תולדות המזמור",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "חסד מופלא",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/99d9d2e9-2f6a-46ce-a06a-4635a4d484f9.html",
       "html_sha256": "0db30cdd4a67ca28afa0cb6ac29a2c053ef2b387c56962475aac86c6b4007990",
       "human_reviewed": false,

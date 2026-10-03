@@ -9,7 +9,7 @@ Observed English revision: `20570f2edea229d472a3ab6f13b744e60b057a36`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | 10 | 195 / 200 | 1 | 4 | 0 |
+| `heartbeat-remnant-2024-summer` | 10 | 196 / 200 | 0 | 4 | 0 |
 | `heartbeat-remnant-2024-spring` | 11 | 132 / 220 | 6 | 82 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 135 / 220 | 0 | 85 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 83 | 0 |
@@ -128,7 +128,7 @@ Observed English revision: `20570f2edea229d472a3ab6f13b744e60b057a36`
 | `swa` (sw) | 44 / 1142 | 0 | 12 | 84 | 112 |
 | `kor` (ko) | 78 / 1142 | 0 | 12 | 50 | 88 |
 | `ita` (it) | 93 / 1142 | 0 | 12 | 35 | 69 |
-| `heb` (he) | 27 / 1142 | 0 | 13 | 100 | 114 |
+| `heb` (he) | 28 / 1142 | 0 | 12 | 100 | 114 |
 | `ell` (el) | 68 / 1142 | 0 | 12 | 60 | 100 |
 | `swe` (sv) | 81 / 1142 | 0 | 12 | 47 | 82 |
 | `nob` (nb) | 82 / 1142 | 0 | 12 | 46 | 89 |
@@ -155,7 +155,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-summer` | `swa` | 10 / 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `kor` | 10 / 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `ita` | 10 / 10 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2024-summer` | `heb` | 6 / 10 | 0 | 1 | 3 | 0 |
+| `heartbeat-remnant-2024-summer` | `heb` | 7 / 10 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2024-summer` | `ell` | 10 / 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `swe` | 10 / 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `nob` | 10 / 10 | 0 | 0 | 0 | 0 |
@@ -407,7 +407,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $2.000000 
 Separately authorized manual workflow allocations: $50.000000 across 5 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 247 | continuation_review_only_requires_attention: 13 | eligible_available: 1041 | legacy_response_outcome_unknown_requires_owner_attention: 12
+active: 246 | continuation_review_only_requires_attention: 13 | eligible_available: 1041 | legacy_response_outcome_unknown_requires_owner_attention: 12
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Campaigns
@@ -453,7 +453,7 @@ A finished original campaign remains historical; current publication readiness i
 | `gh-37109037884` | manual recovery | repair | finished | 5 | 2 complete, 3 held | 0.01145422 | 0.075083 / 10.00 | [state](state/campaigns/gh-37109037884.json) |
 | `gh-37109077881` | manual | translate | active | 220 | 132 complete, 88 held | 0.56007440 | 3.329526 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
 | `gh-37109120670` | manual recovery | repair | finished | 5 | 2 complete, 3 held | 0.00839031 | 0.069530 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
-| `gh-37109168265` | manual | translate | active | 42 | 37 complete, 4 held, 1 active | 1.43227950 | 8.625625 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
+| `gh-37109168265` | manual | translate | active | 42 | 38 complete, 4 held | 1.44131250 | 8.625625 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
 | `gh-37119584204` | manual | translate | active | 240 | 240 active | 0.19485575 | 1.243113 / 10.00 | [state](state/campaigns/gh-37119584204.json) |
 | `gh-37137754122` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37137754122.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
@@ -650,7 +650,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [e63b1e66e4f648158695803b9be3350f](state/batches/e63b1e66e4f648158695803b9be3350f/batch.json) / review1 | collected / completed | 167 / 167 / 0 | 2026-10-02T10:04:06+00:00 | 2026-10-02T10:04:52+00:00 | 2026-10-02T10:04:49+00:00 |
 | [e6b7f46dd90041b6b5f2ccd06a3995a0](state/batches/e6b7f46dd90041b6b5f2ccd06a3995a0/batch.json) / review2 | collected / completed | 2 / 2 / 0 | 2026-10-02T00:09:43+00:00 | 2026-10-02T00:12:31+00:00 | 2026-10-02T00:12:31+00:00 |
 | [e8905ced1f4e4bb08bcc49b9dad1fa4e](state/batches/e8905ced1f4e4bb08bcc49b9dad1fa4e/batch.json) / correct | collected / completed | 2 / 2 / 0 | 2026-10-01T19:45:28+00:00 | 2026-10-01T20:28:51+00:00 | 2026-10-01T20:28:50+00:00 |
-| [e90e4d72e0dc439f9de8dd895c0851e0](state/batches/e90e4d72e0dc439f9de8dd895c0851e0/batch.json) / review2 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [e90e4d72e0dc439f9de8dd895c0851e0](state/batches/e90e4d72e0dc439f9de8dd895c0851e0/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-03T12:15:56+00:00 | 2026-10-03T16:46:49+00:00 | 2026-10-03T16:46:48+00:00 |
 | [e930b689493245769dff389b4802f44f](state/batches/e930b689493245769dff389b4802f44f/batch.json) / review1 | collected / completed | 170 / 170 / 0 | 2026-10-01T19:50:29+00:00 | 2026-10-01T20:28:54+00:00 | 2026-10-01T20:28:52+00:00 |
 | [e9e0c606153f4d8193aa8198811fb114](state/batches/e9e0c606153f4d8193aa8198811fb114/batch.json) / correct | collected / completed | 34 / 34 / 0 | 2026-10-02T08:17:44+00:00 | 2026-10-02T08:41:30+00:00 | 2026-10-02T08:41:29+00:00 |
 | [ea8cded9c4fe4f59be8088212755b972](state/batches/ea8cded9c4fe4f59be8088212755b972/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:19:21+00:00 | 2026-10-01T20:28:57+00:00 | 2026-10-01T20:28:57+00:00 |
