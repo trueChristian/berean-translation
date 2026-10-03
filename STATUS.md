@@ -19,7 +19,7 @@ Observed English revision: `58e50fca41cc0b53c8992502bd95166581036945`
 | `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 0 | 128 | 0 |
 | `heartbeat-remnant-2022-summer` | 9 | 99 / 180 | 0 | 81 | 0 |
 | `heartbeat-remnant-2022-spring` | 9 | 85 / 180 | 0 | 95 | 0 |
-| `heartbeat-remnant-2021-summer` | 11 | 76 / 220 | 129 | 15 | 0 |
+| `heartbeat-remnant-2021-summer` | 11 | 76 / 220 | 128 | 16 | 0 |
 | `heartbeat-remnant-2021-spring` | 11 | 83 / 220 | 107 | 30 | 0 |
 | `heartbeat-remnant-2021-winter` | 12 | 0 / 240 | 240 | 0 | 0 |
 | `heartbeat-remnant-2020-summer` | 10 | 0 / 200 | 0 | 0 | 0 |
@@ -124,7 +124,7 @@ Observed English revision: `58e50fca41cc0b53c8992502bd95166581036945`
 | `ita` (it) | 90 / 1059 | 0 | 26 | 24 | 69 |
 | `heb` (he) | 25 / 1059 | 0 | 21 | 94 | 114 |
 | `ell` (el) | 60 / 1059 | 0 | 27 | 53 | 100 |
-| `swe` (sv) | 78 / 1059 | 0 | 23 | 39 | 82 |
+| `swe` (sv) | 78 / 1059 | 0 | 22 | 40 | 82 |
 | `nob` (nb) | 76 / 1059 | 0 | 25 | 39 | 89 |
 
 ## Issue / language work
@@ -351,7 +351,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2021-summer` | `ita` | 3 / 11 | 0 | 8 | 0 | 0 |
 | `heartbeat-remnant-2021-summer` | `heb` | 4 / 11 | 0 | 4 | 3 | 0 |
 | `heartbeat-remnant-2021-summer` | `ell` | 3 / 11 | 0 | 8 | 0 | 0 |
-| `heartbeat-remnant-2021-summer` | `swe` | 4 / 11 | 0 | 7 | 0 | 0 |
+| `heartbeat-remnant-2021-summer` | `swe` | 4 / 11 | 0 | 6 | 1 | 0 |
 | `heartbeat-remnant-2021-summer` | `nob` | 3 / 11 | 0 | 7 | 1 | 0 |
 | `heartbeat-remnant-2021-spring` | `cmn` | 5 / 11 | 0 | 5 | 1 | 0 |
 | `heartbeat-remnant-2021-spring` | `hin` | 3 / 11 | 0 | 4 | 4 | 0 |
@@ -401,7 +401,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $1.000000 
 Separately authorized manual workflow allocations: $40.000000 across 4 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 478 | continuation_cooldown: 9 | continuation_review_only_requires_attention: 11 | eligible_available: 905 | legacy_response_outcome_unknown_requires_owner_attention: 12
+active: 477 | continuation_cooldown: 9 | continuation_review_only_requires_attention: 11 | eligible_available: 906 | legacy_response_outcome_unknown_requires_owner_attention: 12
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Campaigns
@@ -441,7 +441,7 @@ A finished original campaign remains historical; current publication readiness i
 | `gh-37008194209` | manual | translate | finished | 180 | 98 complete, 82 held | 1.53773587 | 7.399660 / 10.00 | [state](state/campaigns/gh-37008194209.json) |
 | `gh-37045474073` | manual | translate | finished | 180 | 85 complete, 95 held | 0.53759431 | 2.991708 / 10.00 | [state](state/campaigns/gh-37045474073.json) |
 | `gh-37108593335` | manual recovery | repair | finished | 5 | 1 complete, 4 held | 0.00909794 | 0.068242 / 10.00 | [state](state/campaigns/gh-37108593335.json) |
-| `gh-37108628649` | manual | translate | active | 220 | 76 complete, 15 held, 129 active | 0.32904218 | 2.888050 / 10.00 | [state](state/campaigns/gh-37108628649.json) |
+| `gh-37108628649` | manual | translate | active | 220 | 76 complete, 16 held, 128 active | 0.47625968 | 2.888050 / 10.00 | [state](state/campaigns/gh-37108628649.json) |
 | `gh-37109005676` | manual recovery | repair | finished | 5 | 5 held | 0.26054750 | 1.513698 / 10.00 | [state](state/campaigns/gh-37109005676.json) |
 | `gh-37109037884` | manual recovery | repair | finished | 5 | 2 complete, 3 held | 0.01145422 | 0.075083 / 10.00 | [state](state/campaigns/gh-37109037884.json) |
 | `gh-37109077881` | manual | translate | active | 220 | 83 complete, 30 held, 107 active | 0.36365457 | 2.895919 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
@@ -524,7 +524,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [3c3c6240620841fbb79e5caadf181aa7](state/batches/3c3c6240620841fbb79e5caadf181aa7/batch.json) / correct | collected / completed | 3 / 3 / 0 | 2026-10-01T20:33:48+00:00 | 2026-10-01T20:36:46+00:00 | 2026-10-01T20:36:45+00:00 |
 | [3e07f2be58e845c5aa1e55504a8297fe](state/batches/3e07f2be58e845c5aa1e55504a8297fe/batch.json) / correct | collected / completed | 5 / 5 / 0 | 2026-10-03T08:20:07+00:00 | 2026-10-03T08:20:32+00:00 | 2026-10-03T08:20:31+00:00 |
 | [3f0b05a851634b3f938deae65809dc6c](state/batches/3f0b05a851634b3f938deae65809dc6c/batch.json) / review1 | collected / completed | 9 / 9 / 0 | 2026-10-01T19:34:00+00:00 | 2026-10-01T20:28:11+00:00 | 2026-10-01T20:28:10+00:00 |
-| [3f884817ab814b8688050622106c3a96](state/batches/3f884817ab814b8688050622106c3a96/batch.json) / correct | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [3f884817ab814b8688050622106c3a96](state/batches/3f884817ab814b8688050622106c3a96/batch.json) / correct | collected / completed | 129 / 129 / 0 | 2026-10-03T11:34:06+00:00 | 2026-10-03T11:36:00+00:00 | 2026-10-03T11:35:57+00:00 |
 | [410aecd75e124e24acc00870f8c38557](state/batches/410aecd75e124e24acc00870f8c38557/batch.json) / correct | collected / completed | 2 / 2 / 0 | 2026-10-01T21:02:16+00:00 | 2026-10-02T00:07:18+00:00 | 2026-10-02T00:07:17+00:00 |
 | [42122daf95154ba4bf083d7006a43afa](state/batches/42122daf95154ba4bf083d7006a43afa/batch.json) / correct | collected / completed | 3 / 3 / 0 | 2026-10-02T00:11:18+00:00 | 2026-10-02T00:12:09+00:00 | 2026-10-02T00:12:09+00:00 |
 | [42cf595b7f8a46d19bb5eeb707121514](state/batches/42cf595b7f8a46d19bb5eeb707121514/batch.json) / review2 | collected / completed | 4 / 4 / 0 | 2026-10-02T00:17:25+00:00 | 2026-10-02T05:27:32+00:00 | 2026-10-02T05:27:31+00:00 |

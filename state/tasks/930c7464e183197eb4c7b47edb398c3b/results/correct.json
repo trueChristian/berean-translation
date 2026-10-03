@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6ff226c2-8666-4f7c-97e9-8e028ae6018f",
+    "response_id": "chatcmpl-EUsFZ2SaOs3YD08NsYfExeOAdlABM",
+    "usage": {
+      "completion_tokens": 828,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 295,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2137,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2134,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2965
+    }
+  },
+  "received_at": "2026-10-03T11:35:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\">\n  <figure>\n    <img src=\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\" alt=\"Tres veleros sobre aguas tranquilas\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>La noche estaba quieta, el aire era sombrío.</p>\n\n    <p>Un hombre caminaba solo; no sabía qué rumbo seguir.</p>\n\n    <p>Una batalla rugía dentro de su alma atribulada.</p>\n\n    <p>Había llegado a una encrucijada en su vida.</p>\n\n    <p>Creía en Dios, o al menos eso pensaba.</p>\n\n    <p>Obedecía lo que sabía, todo lo que le habían enseñado.</p>\n\n    <p>Pero algo no está bien, algo me falta.</p>\n\n    <p>He vivido como la mayoría, y así repaso mi vida.</p>\n\n    <p>¡Pero voy a la iglesia! ¡Canto y oro!</p>\n\n    <p>¡Incluso ayudé al vecino el otro día!</p>\n\n    <p>Luchaba con su mente, justificando lo malo.</p>\n\n    <p>Era Dios quien obraba; Él parecía muy poderoso.</p>\n\n    <p><em>La verdad es que me falta confianza.</em></p>\n\n    <p><em>Creo en mí mismo, no en el Dios de antaño.</em></p>\n\n    <p>Dios quiere mostrarse poderoso en mi vida cada día.</p>\n\n    <p>Quiere que yo sea probado; Él es la Vida y el Camino.</p>\n\n    <p>No hay nadie mejor en quien poner toda la confianza;</p>\n\n    <p>sino en el Dios todopoderoso. ¡Todos deben confiar en Él!</p>\n  </div>\n\n  <p><em>–por Barry Grant</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "El llamamiento"
+  }
+}

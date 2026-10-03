@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\\\" alt=\\\"Tre seilbåter på stille vann\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Natten var stille, luften kald og grå.</p>\\n\\n    <p>En mann gikk alene; han visste ikke hvor han skulle gå.</p>\\n\\n    <p>En kamp raste i hans urolige sinn.</p>\\n\\n    <p>Han sto ved et veiskille, med hele livet sitt på spill.</p>\\n\\n    <p>Han trodde på Gud, eller i det minste trodde han det.</p>\\n\\n    <p>Han adlød det han visste – alt det han hadde lært.</p>\\n\\n    <p>Men noe stemmer ikke, det er noe jeg mangler.</p>\\n\\n    <p>Jeg har levd som de fleste andre, når jeg ser tilbake på livet mitt.</p>\\n\\n    <p>Men jeg går i kirken! Jeg synger og ber!</p>\\n\\n    <p>Jeg hjalp til og med naboen her om dagen!</p>\\n\\n    <p>Han kjempet med tankene sine og rettferdiggjorde det gale.</p>\\n\\n    <p>Det var Gud som virket, og Han syntes ganske sterk.</p>\\n\\n    <p><em>Saken er den at jeg mangler tillit.</em></p>\\n\\n    <p><em>Jeg tror på meg selv, ikke på Gud fra fordums tid.</em></p>\\n\\n    <p>Gud vil vise sin styrke i livet mitt hver dag.</p>\\n\\n    <p>Han vil at jeg skal bli satt på prøve; Han er Livet og Veien.</p>\\n\\n    <p>Det finnes ingen bedre å sette all sin lit til;</p>\\n\\n    <p>enn den allmektige Gud. Det er nødvendig for alle mennesker!</p>\\n  </div>\\n\\n  <p><em>– av Barry Grant</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Kallet\"}",
+    "content_bytes": 1548,
+    "content_evidence_truncated": false,
+    "content_sha256": "3eceb6fff0d5cdfe8fd135ee951e95f78811b6386bae7fb922f7b5f323e46a33",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 833,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 272,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2122,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2119,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2955
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

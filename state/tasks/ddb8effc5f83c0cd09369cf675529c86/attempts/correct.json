@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\\\" alt=\\\"Mashua matatu yenye matanga juu ya maji tulivu\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Usiku ulikuwa kimya, hewa ikiwa ya huzuni.</p>\\n\\n    <p>Mwanaume alitembea peke yake; hakujua aelekee wapi.</p>\\n\\n    <p>Vita vilikuwa vikiendelea ndani ya nafsi yake yenye taabu.</p>\\n\\n    <p>Alikuwa njia panda, akitazama maisha yake yote.</p>\\n\\n    <p>Alimwamini Mungu, au angalau ndivyo alivyodhani.</p>\\n\\n    <p>Alitii yale aliyoyajua—yote aliyokuwa amefundishwa.</p>\\n\\n    <p>Lakini kuna jambo haliko sawa, kuna kitu ninachokosa.</p>\\n\\n    <p>Nimeishi kama watu wengi, ninapotafakari maisha yangu.</p>\\n\\n    <p>Lakini mimi huenda kanisani! Huimba na kuomba!</p>\\n\\n    <p>Hata nilimsaidia jirani, siku chache tu zilizopita!</p>\\n\\n    <p>Alipambana akilini mwake, akihalalisha lililo baya.</p>\\n\\n    <p>Mungu ndiye aliyekuwa akitenda; alionekana kuwa na nguvu sana.</p>\\n\\n    <p><em>Ukweli ni kwamba, ninakosa imani.</em></p>\\n\\n    <p><em>Ninajiamini mwenyewe, si Mungu wa zamani za kale.</em></p>\\n\\n    <p>Mungu anataka kujidhihirisha kuwa mwenye nguvu, katika maisha yangu kila siku.</p>\\n\\n    <p>Anataka nithibitishwe; Yeye ndiye Uzima na Njia.</p>\\n\\n    <p>Hakuna mwingine aliye bora zaidi wa kumwekea tumaini lako lote;</p>\\n\\n    <p>kuliko Mungu Mwenyezi. Kwa watu wote, ni lazima!</p>\\n  </div>\\n\\n  <p><em>–na Barry Grant</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Wito\"}",
+    "content_bytes": 1592,
+    "content_evidence_truncated": false,
+    "content_sha256": "ee4e4fa26787510c89b3f2557bec4f8d5c41a11bfc4002172db6d361e2397efc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 205,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2120,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2117,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2920
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

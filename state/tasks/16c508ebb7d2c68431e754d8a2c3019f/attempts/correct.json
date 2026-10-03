@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\\\" alt=\\\"Três veleiros em águas tranquilas\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>A noite era silenciosa, o ar sombrio.</p>\\n\\n    <p>Um homem caminhava sozinho; sem saber para onde ir.</p>\\n\\n    <p>Uma batalha assolava sua alma conturbada.</p>\\n\\n    <p>Estava numa encruzilhada, diante de toda a sua vida.</p>\\n\\n    <p>Acreditava em Deus, ou ao menos era o que pensava.</p>\\n\\n    <p>Obedecia ao que sabia — a tudo o que lhe ensinaram.</p>\\n\\n    <p>Mas algo não está certo, há algo que me falta.</p>\\n\\n    <p>Tenho vivido como a maioria, ao rever minha vida.</p>\\n\\n    <p>Mas vou à igreja! Canto e oro!</p>\\n\\n    <p>Até ajudei o vizinho outro dia!</p>\\n\\n    <p>Lutava com a própria mente, justificando o que era errado.</p>\\n\\n    <p>Era Deus quem agia; Ele parecia bem forte.</p>\\n\\n    <p><em>O fato é que me falta confiança.</em></p>\\n\\n    <p><em>Creio em mim mesmo, não no Deus de outrora.</em></p>\\n\\n    <p>Deus quer mostrar-se poderoso, todos os dias em minha vida.</p>\\n\\n    <p>Ele quer que eu seja provado; Ele é a Vida e o Caminho.</p>\\n\\n    <p>Não há ninguém melhor em quem depositar toda a confiança;</p>\\n\\n    <p>do que no Deus Todo-Poderoso. Para todos os homens, isso é indispensável!</p>\\n  </div>\\n\\n  <p><em>–por Barry Grant</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"O Chamado\"}",
+    "content_bytes": 1527,
+    "content_evidence_truncated": false,
+    "content_sha256": "62660896cd1d0f834d43a29db74d231e0e097ec6d19f0cf721de0a9c4999227c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 722,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 179,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2087,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2084,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2809
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

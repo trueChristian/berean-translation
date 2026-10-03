@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\\\" alt=\\\"Nebeliger immergrüner Wald\\\">\\n  </figure>\\n\\n  <p><em>Darum, heilige Brüder, die ihr der himmlischen Berufung teilhaftig seid … –Hebräer 3:1.</em></p>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Wahre Weisheit dämmert in allmählichen Strahlen,<br>\\n    Winzige Schritte scheinen nicht zu zählen.<br>\\n    Über die Bücher der Jugendtage hinaus<br>\\n    lockt sie dich hin zu jenem Hügel.<br>\\n    Halte stand und dränge geduldig voran …<br>\\n    „Vorwärts! Aufwärts! Immer höher!“</p>\\n\\n    <p>Manchmal sind wir bedrückt und niedergeschlagen,<br>\\n    Im eisigen Sturm schwindet uns der Mut.<br>\\n    Auf der irdischen Ehrenliste haben wir versagt,<br>\\n    Hoffnung schwindet, der Wille ist entmutigt.<br>\\n    Doch horch, der Klang, der helle Ruf …<br>\\n    „Vorwärts! Aufwärts! Immer höher!“</p>\\n\\n    <p>Versuchungen locken, Vergnügungen rufen,<br>\\n    Sie tauschen Wahrheit gegen leeren Nervenkitzel.<br>\\n    Wer nachgibt, der fällt,<br>\\n    und erreicht nicht Gottes gesegneten Willen.<br>\\n    Wer auf das Fleisch sät, erntet nur Bitterkeit …<br>\\n    „Vorwärts! Aufwärts! Immer höher!“</p>\\n\\n    <p>In Tagen voller Jugendjahre,<br>\\n    mit neuen Träumen, die es zu suchen und zu erfüllen gilt.<br>\\n    Ein demütiges Herz wird mehr Tränen stillen<br>\\n    als all der große Witz und Wille des Lebens.<br>\\n    Wer siegt, ist, wer hört …<br>\\n    „Vorwärts! Aufwärts! Immer höher!“</p>\\n  </div>\\n\\n  <p><em>–von Lee Rufener</em></p>\\n\\n  <p><em>Ich jage auf das Ziel zu, hin zu dem Siegespreis der<br>\\n  hohen Berufung Gottes in Christus Jesus –Philipper 3:14.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"DIE HIMMLISCHE BERUFUNG\"}",
+    "content_bytes": 1892,
+    "content_evidence_truncated": false,
+    "content_sha256": "445c529917313f0518f95c617f386492b8780e8884446325c62514b8de5a4f5e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2157,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2790
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

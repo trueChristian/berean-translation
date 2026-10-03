@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\\\" alt=\\\"Три парусные лодки на спокойной воде\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Ночь была тиха, и воздух уныл.</p>\\n\\n    <p>Один человек брёл, не зная, куда путь привёл.</p>\\n\\n    <p>В смятённой душе его битва кипела.</p>\\n\\n    <p>Он стоял на распутье — вся его жизнь целиком.</p>\\n\\n    <p>Он верил в Бога — или, по крайней мере, так полагал.</p>\\n\\n    <p>Он слушался того, что знал, — тому, чему его научили, внимал.</p>\\n\\n    <p>Но что-то не так, чего-то мне не хватает.</p>\\n\\n    <p>Я жил, как живёт большинство, — жизнь передо мной пробегает.</p>\\n\\n    <p>Но я хожу в церковь! Пою и молюсь!</p>\\n\\n    <p>Я даже соседу помог на днях!</p>\\n\\n    <p>Он спорил с собой, оправдывая дурное.</p>\\n\\n    <p>Это Бог действовал — Он казался столь сильным.</p>\\n\\n    <p><em>Вот в чём дело: мне не хватает уверенности.</em></p>\\n\\n    <p><em>Я верю в себя, а не в Бога из далёкого прошлого.</em></p>\\n\\n    <p>Бог хочет являть Свою силу в моей жизни каждый день.</p>\\n\\n    <p>Он хочет, чтобы я был испытан; Он — Жизнь и Путь.</p>\\n\\n    <p>Нет никого лучше, кому можно довериться целиком;</p>\\n\\n    <p>Всемогущему Богу. Так должно поступать каждому!</p>\\n  </div>\\n\\n  <p><em>— Барри Грант</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Призыв\"}",
+    "content_bytes": 2128,
+    "content_evidence_truncated": false,
+    "content_sha256": "e3933a69e18389943428e25dd60d6a75c8583d13631665cc4dddbf8cd2364f1c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 909,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 337,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2311,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3223
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

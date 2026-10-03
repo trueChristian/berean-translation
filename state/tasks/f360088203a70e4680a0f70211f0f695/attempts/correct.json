@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:36:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\\\" alt=\\\"שלוש סירות מפרש על מים שקטים\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>הלילה היה שקט, האוויר קודר.</p>\\n\\n    <p>אדם הלך לבדו; לא ידע לאן פניו מועדות.</p>\\n\\n    <p>קרב התחולל בתוך נפשו המיוסרת.</p>\\n\\n    <p>הוא עמד בצומת דרכים, ובכל חייו היה עליו לבחור.</p>\\n\\n    <p>הוא האמין באלוהים, או לפחות כך חשב.</p>\\n\\n    <p>הוא ציית למה שידע — לכל מה שלימדו אותו.</p>\\n\\n    <p>אבל משהו לא בסדר, משהו חסר לי.</p>\\n\\n    <p>חייתי כמו רוב האחרים, כשחיי חולפים לנגד עיניי.</p>\\n\\n    <p>אבל אני הולך לכנסייה! אני שר ומתפלל!</p>\\n\\n    <p>רק לפני כמה ימים אפילו עזרתי לשכן!</p>\\n\\n    <p>הוא נאבק במחשבותיו, מצדיק את הפסול.</p>\\n\\n    <p>אלוהים הוא שפעל; הוא נראה חזק מאוד.</p>\\n\\n    <p><em>האמת היא שחסר לי ביטחון.</em></p>\\n\\n    <p><em>אני מאמין בעצמי, ולא באלוהים של פעם.</em></p>\\n\\n    <p>אלוהים רוצה להראות את כוחו בחיי, יום אחר יום.</p>\\n\\n    <p>הוא רוצה שאעמוד במבחן; הוא החיים והדרך.</p>\\n\\n    <p>אין טוב ממנו, לשים בו את כל מבטחך;</p>\\n\\n    <p>באלוהים הכול יכול. כל אדם חייב לבטוח בו!</p>\\n  </div>\\n\\n  <p><em>– מאת בארי גרנט</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"הקריאה\"}",
+    "content_bytes": 1833,
+    "content_evidence_truncated": false,
+    "content_sha256": "1c425897cb10e3a1ee2b9726e9de2889661a9e28d0686296ee8c9877bd57ab54",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 754,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 185,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2194,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2191,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2948
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\\\" alt=\\\"پرسکون پانی میں تین بادبانی کشتیاں\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>رات خاموش تھی، ہوا اداس تھی۔</p>\\n\\n    <p>ایک آدمی اکیلا چل رہا تھا؛ اسے اپنی منزل کا پتا نہ تھا۔</p>\\n\\n    <p>اس کی مضطرب روح کے اندر ایک جنگ چھڑی ہوئی تھی۔</p>\\n\\n    <p>وہ دوراہے پر تھا، گویا اس کی پوری زندگی ایک دوراہے پر تھی۔</p>\\n\\n    <p>وہ خدا پر ایمان رکھتا تھا، یا کم از کم وہ یہی سمجھتا تھا۔</p>\\n\\n    <p>اس نے اس بات کی فرمانبرداری کی جسے وہ جانتا تھا—جو کچھ اسے سکھایا گیا تھا۔</p>\\n\\n    <p>لیکن کچھ ٹھیک نہیں، مجھ میں کچھ کمی ہے۔</p>\\n\\n    <p>میں نے بھی دوسروں کی طرح زندگی گزاری ہے، جب اپنی زندگی پر نظر ڈالتا ہوں۔</p>\\n\\n    <p>لیکن میں کلیسیا جاتا ہوں! گاتا ہوں اور دعا کرتا ہوں!</p>\\n\\n    <p>میں نے ابھی پچھلے ہی دن اپنے پڑوسی کی مدد بھی کی!</p>\\n\\n    <p>وہ اپنے ذہن میں غلط بات کو درست ثابت کرنے کی کوشش کرتا رہا۔</p>\\n\\n    <p>خدا ہی کام کر رہا تھا؛ وہ بہت قوی معلوم ہوتا تھا۔</p>\\n\\n    <p><em>اصل بات یہ ہے کہ مجھ میں اعتماد کی کمی ہے۔</em></p>\\n\\n    <p><em>میں اپنے آپ پر ایمان رکھتا ہوں، نہ کہ اُس پرانے خدا پر۔</em></p>\\n\\n    <p>خدا چاہتا ہے کہ وہ ہر روز میری زندگی میں اپنی قدرت دکھائے۔</p>\\n\\n    <p>وہ چاہتا ہے کہ مجھ میں اس کا ثبوت ملے؛ وہی زندگی اور راہ ہے۔</p>\\n\\n    <p>کوئی بہتر ہستی نہیں جس پر اپنا سارا بھروسا رکھا جائے؛</p>\\n\\n    <p>سوائے قادرِ مطلق خدا کے۔ یہ سب انسانوں کے لیے لازم ہے!</p>\\n  </div>\\n\\n  <p><em>–از بیری گرانٹ</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"پکار\"}",
+    "content_bytes": 2401,
+    "content_evidence_truncated": false,
+    "content_sha256": "20b98b46522c2a7ddccb70616ea60f541229bc968f388909dfa73c647189f097",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 159,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2306,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2303,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3113
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
