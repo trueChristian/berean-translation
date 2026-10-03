@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Annie Johnson Flint"
+        }
+      ],
+      "raw": "-by Annie Johnson Flint"
+    },
+    "categories": {
+      "additional": [
+        "1c75ca28-4f99-5339-b594-085359f81d18"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+    "images": [],
+    "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 33,
+      "start": 33
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": [
+      "e38ddd00-1eb1-514c-96d1-a3f45d1dc5f3",
+      "7cbeb8b9-7135-5056-a214-12c171f77b8e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "eb9ee09008d08ff576c7c588537c5f76cba659861fca4a8cb73e984ba11d99d8",
+    "metadata_sha256": "f0fc2d4876eaea7058b795c53b9a7d75e4fb978c2556581f1e4ceb74eaabd01c",
+    "structure_sha256": "a65143c2e5b151e76d7f073abeffa70c6bd1b352785c99e2fdcc24844f9c0694",
+    "text_sha256": "14594d7e3dd26214370e5650b3ff190b2d75cbb54ba2b432d74554d8034a50b7",
+    "translation_metadata_sha256": "a54fd7a4b8b907100b1ec322818151a9f474ae890b78ddfb36096b7826b25244"
+  },
+  "html": "<article data-article-id=\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\">\n  <div class=\"poem\">\n    <p>1.<br>\n    God has not promised skies always blue,<br>\n    Flower-strewn pathways all our lives through;<br>\n    God has not promised sun without rain,<br>\n    Joy without sorrow, peace without pain.</p>\n\n    <p>Refrain:<br>\n    But God has promised strength for the day,<br>\n    Rest for the labor, light for the way,<br>\n    Grace for the trials, help from above,<br>\n    Unfailing kindness, undying love.</p>\n\n    <p>2.<br>\n    God has not promised we shall not know<br>\n    Toil and temptation, trouble and woe;<br>\n    He has not told us we shall not bear<br>\n    Many a burden, many a care.</p>\n\n    <p>3.<br>\n    God has not promised smooth roads and wide,<br>\n    Swift, easy travel, needing no guide;<br>\n    Never a mountain rocky and steep,<br>\n    Never a river turbid and deep.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "58e50fca41cc0b53c8992502bd95166581036945",
+  "translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8"
+}

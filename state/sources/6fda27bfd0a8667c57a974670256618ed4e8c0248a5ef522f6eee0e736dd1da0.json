@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Adrianna Fanton"
+        }
+      ],
+      "raw": "~by Adrianna Fanton"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+    "images": [
+      {
+        "alt": "Dark storm clouds over calm water",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg",
+        "repository_path": "public/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for the printed page; no separate permission notice or license terms are stated. The embedded CMYK asset was converted to sRGB for faithful web display without changing its published dimensions, crop, or orientation.",
+        "role": "full-page poem background",
+        "sequence": 1,
+        "source_page": 27
+      }
+    ],
+    "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "Sometimes",
+    "topics": [
+      "f763c5ea-8687-5101-974e-3d016826bf73",
+      "9d8d1891-ebb8-528c-ae7a-0d1783487f13"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "26142dad720f23697a52d7d022cbebacfbe73268784038fd0dd8e45a7b392c60",
+    "metadata_sha256": "f1b94aad689c0d80bb1fd07ae3e06cdb208f5b415af9f92eee34f0959ffd6a13",
+    "structure_sha256": "5ee38419b8b513450c0eb7af2519654c32b657e3a44d0c97618f5179922768cd",
+    "text_sha256": "d0ddcb44240ff0f55d825d90a0a38171a1ac7b68b6b7b0986290930d2416ac97",
+    "translation_metadata_sha256": "1d53ff302a6b0906a972ce1248c8e6d1de69320bf364856636ed0cc0ac265428"
+  },
+  "html": "<article data-article-id=\"54c17772-223b-4fc7-b2e6-0bda387f9b23\">\n  <div class=\"poem\">\n    <p>Sometimes my heart is heavy,<br>\n    Weighted with fears and care.<br>\n    It’s then my Lord calls out to me,<br>\n    “Come My child, your burden I’ll bear.”</p>\n\n    <p>Sometimes questions flood my mind,<br>\n    The answers seem evasive and trying.<br>\n    That’s when I lift these eyes to my God,<br>\n    Claiming His love on me overlying.</p>\n\n    <p>Sometimes I feel like quitting,<br>\n    The way before me seems long and hard.<br>\n    But I think of the path of my Shepherd,<br>\n    It was for me He was scarred.</p>\n\n    <p>Sometimes my mind is clouded,<br>\n    I stumble with each step that I take.<br>\n    Yet out of the fog, I hear a whisper,<br>\n    “You are Mine, trust Me, a way I will make.”</p>\n\n    <p>Sometimes I find my circumstances,<br>\n    Seemingly harsh, and unfair.<br>\n    But then my Father whispers,<br>\n    “Dear one, do not despair.”</p>\n\n    <p>Sometimes I feel all alone,<br>\n    The ache within chokes and burns.<br>\n    The Master speaks, “My chosen one,<br>\n    I alone can fulfill, that for which your heart yearns.</p>\n\n    <p>Sometimes my eyes are full of tears<br>\n    My heart feels near to burst.<br>\n    And then my Savior reminds me,<br>\n    This path, before me, He traversed.</p>\n\n    <p>Sometimes I worry and wonder,<br>\n    How things will ever turn out right.<br>\n    Yet the promise remains, all works out well,<br>\n    For him that in God does delight.</p>\n\n    <p>Sometimes the future seems scary,<br>\n    Not at all like what I had hoped.<br>\n    Still, I set my eyes on His ultimate goal,<br>\n    Knowing it’s better than for what I had groped.</p>\n\n    <p>Sometimes I feel left behind,<br>\n    While others lives go on so free.<br>\n    But, in my Father’s plans I will trust,<br>\n    And look forward to His eternal jubilee!</p>\n\n    <p>Sometimes I find myself dreaming,<br>\n    Of the future in heaven to come.<br>\n    Oh what bliss will be the feeling,<br>\n    To hear those words, “Well done.”</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg\" alt=\"Dark storm clouds over calm water\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "58e50fca41cc0b53c8992502bd95166581036945",
+  "translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a"
+}

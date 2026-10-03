@@ -1,0 +1,61 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Author Unknown"
+        }
+      ],
+      "raw": "-Author Unknown"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+    "images": [
+      {
+        "alt": "Sunlight streaming through a misty forest",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg",
+        "repository_path": "public/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for the printed page; no separate permission notice or license terms are stated. The embedded CMYK asset was converted to sRGB for faithful web display without changing its published dimensions, crop, or orientation.",
+        "role": "full-page poem background",
+        "sequence": 1,
+        "source_page": 22
+      }
+    ],
+    "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 22,
+      "start": 22
+    },
+    "subtitle": null,
+    "title": "Things We Can’t Afford",
+    "topics": [
+      "ba02dcec-aa79-583e-ba4a-1e2668abb44b",
+      "d7a404e4-268b-546a-a83a-47097cbfd5aa"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "42a7e814868697b490f120c2eac286694c0b1e25275237debe1affa00aee64b4",
+    "metadata_sha256": "84db0016273b6fedc18ca73a42247154754d846f770e69ed03ddc6ea78f73dd1",
+    "structure_sha256": "9d2e08ad03eabbd1a8a69d0c18518564d83634a6f7812255f4d89fb8b29fb81c",
+    "text_sha256": "c522434e819445afb2451f8ea47630560341524b19af4f37e05b402f30e7e135",
+    "translation_metadata_sha256": "390b9487aae3b0f7bce6c87ff3652a5fc5d7727197f31f7e680973d3f6c7941b"
+  },
+  "html": "<article data-article-id=\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\">\n  <div class=\"poem\">\n    <p>We can’t afford to win the gain that means another’s loss;<br>\n    We can’t afford to miss the crown by stumbling at the cross.<br>\n    We can’t afford the heedless jest that robs us of a friend;<br>\n    We can’t afford the laugh that finds in bitter tears an end.<br>\n    We can’t afford the feast today that brings tomorrow’s fast;<br>\n    We can’t afford the race that comes to tragedy at last.<br>\n    We can’t afford to play with fire, or tempt a serpent’s bite;<br>\n    We can’t afford to think that sin brings any true delight.<br>\n    We can’t afford with serious heed to treat the cynic’s sneer;<br>\n    We can’t afford to wise men’s words to turn a careless ear.<br>\n    We can’t afford for hate to give like hatred in return;<br>\n    We can’t afford to feed a flame and make it fiercer burn.<br>\n    We can’t afford to lose the soul for this world’s fleeting breath;<br>\n    We can’t afford to barter life in mad exchange for death.<br>\n    But blind to good are we apart from THEE, all-seeing Lord;<br>\n    Oh, grant us light that we may know the things we can’t afford!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\" alt=\"Sunlight streaming through a misty forest\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "58e50fca41cc0b53c8992502bd95166581036945",
+  "translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e"
+}

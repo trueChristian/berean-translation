@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Malformed HTML closing tag: article",
       "task": "45a3f4da22220f9642d293a6f2942860"
+    },
+    {
+      "at": "2026-10-03T11:26:25+00:00",
+      "campaign": "downstream-2026100311",
+      "event": "downstream_repair_requested",
+      "previous_task": "45a3f4da22220f9642d293a6f2942860",
+      "task": "a19d02617ef33f0a6ed6a855da907b83"
     }
   ],
   "language": "ara",
-  "latest_task": "45a3f4da22220f9642d293a6f2942860",
+  "latest_task": "a19d02617ef33f0a6ed6a855da907b83",
   "published": null
 }

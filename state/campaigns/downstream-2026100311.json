@@ -11,7 +11,7 @@
     "version": 2
   },
   "created_at": "2026-10-03T11:26:05+00:00",
-  "downstream_acceptance_complete": false,
+  "downstream_acceptance_complete": true,
   "downstream_allocation_usd": 1.0,
   "downstream_recovery": true,
   "downstream_request": {
@@ -4604,6 +4604,8 @@
     }
   ],
   "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
-  "status": "acceptance_incomplete",
-  "tasks": []
+  "status": "active",
+  "tasks": [
+    "a19d02617ef33f0a6ed6a855da907b83"
+  ]
 }
