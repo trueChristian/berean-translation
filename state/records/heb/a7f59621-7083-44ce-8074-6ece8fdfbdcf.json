@@ -6,6 +6,12 @@
       "campaign": "gh-37138217502",
       "event": "requested",
       "task": "c8362da56fc558cdc98f7e90472ea65a"
+    },
+    {
+      "at": "2026-10-03T21:15:11+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[19]; missing: Titus 2:15; extra: 2:15",
+      "task": "c8362da56fc558cdc98f7e90472ea65a"
     }
   ],
   "language": "heb",

@@ -2,7 +2,6 @@
   "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5bb0148fb6ca400488fecd4e22846d48",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 9798
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5062,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 198,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10805,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10802,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15867
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[19]; missing: Titus 2:15; extra: 2:15",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[6]/em[2]; translation /article[1]/p[6]/u[1]",
@@ -44,6 +64,7 @@
       "translation_quote": "<p>יהא אשר יהא פירושנו למה שהשער מייצג, הדגש הברור כאן הוא על שמות התואר, <em><u>ישר</u> ו<u>צר</u></em>, בניגוד ל<u>רחב</u> ו<u>מרווח</u>. <strong>צר</strong> (<em>Sten-os’</em>) פירושו <em>צר (בשל מכשולים הניצבים קרוב סביב) –Strong’s.</em> <strong>צר</strong> (<em>Thlee’-bo</em>) פירושו <em>לדחוק (במובן מילולי או ציורי): להצר, לדחוק, להצטופף, לסבול צרה, מצוקה –Strong’s.</em> כאן אנו מוצאים הגדרה מוצקה לכניסה שלנו. עלינו לעמוד בלחיצה לא נוחה בין שני עמודים כדי למצוא חיים. כאן נוכל לראות את עדויותיהם של מי שנכנסו בה.</p>"
     }
   ],
+  "finished_at": "2026-10-03T21:15:11+00:00",
   "id": "c8362da56fc558cdc98f7e90472ea65a",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -136,7 +157,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6-luna"

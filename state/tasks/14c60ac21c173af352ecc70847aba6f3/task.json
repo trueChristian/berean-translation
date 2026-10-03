@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5bb0148fb6ca400488fecd4e22846d48",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8896
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4458,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 114,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9419,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9416,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13877
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/blockquote[1]/p[1]; missing: 1 John 5:3; extra: 5:3",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[17]/em[3]; translation /article[1]/p[17]",
@@ -37,6 +57,7 @@
       "translation_quote": "<p>אנשים אמרו לי שעלינו לתת לנוצרי חדש קצת מרחב. „מרחב בשביל מה?” אני שואל. מרחב לחטוא… לגשמיות? בהחלט לא. כל דוגמה בכתבי הקודש אומרת אחרת. כל המרה הביאה עמה שינוי עצום, ברייה חדשה. רבים מבלבלים בין „חסד ללמוד ולצמוח” באמונה לבין „תירוץ לחטא”. הכתובים מתארים את הנוצרים החדשים כ„תינוקות בני יומם”, ומצווים על כל אחד מאיתנו <em>להשתוקק לחלב הטהור של הדבר, כדי שתגדלו באמצעותו –פטרוס הראשונה ב׳:ב׳.</em> לכן נוצרים חדשים אינם זקוקים למרחב כדי להמשיך לזמן מה בדרכיהם שאינן יראות אלוהים, אך הם כן זקוקים למרחב כדי לגדול <em>…בחכמה ובקומה ובחן לפני אלוהים ואדם –לוקס ב׳:נ״ב.</em></p>"
     }
   ],
+  "finished_at": "2026-10-03T21:15:10+00:00",
   "id": "14c60ac21c173af352ecc70847aba6f3",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

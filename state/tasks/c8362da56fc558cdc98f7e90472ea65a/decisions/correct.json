@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[19]; missing: Titus 2:15; extra: 2:15",
+  "stage": "correct"
+}

@@ -6,6 +6,12 @@
       "campaign": "gh-37138217502",
       "event": "requested",
       "task": "446fe5b3a410b09f0c97f0c90d60034a"
+    },
+    {
+      "at": "2026-10-03T21:15:10+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[8]; missing: Proverbs 16:18; extra: none",
+      "task": "446fe5b3a410b09f0c97f0c90d60034a"
     }
   ],
   "language": "heb",

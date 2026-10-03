@@ -6,6 +6,12 @@
       "campaign": "gh-37138217502",
       "event": "requested",
       "task": "5224509e3fb7a3e590ad484919643fe2"
+    },
+    {
+      "at": "2026-10-03T21:15:10+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: none; extra: !invalid[deu] Romans 13, ",
+      "task": "5224509e3fb7a3e590ad484919643fe2"
     }
   ],
   "language": "deu",
