@@ -30,9 +30,32 @@
       "campaign": "gh-37109168265",
       "event": "requested",
       "task": "a79b80ce3410b13d01d3008637bf11e8"
+    },
+    {
+      "at": "2026-10-03T11:26:54+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "a79b80ce3410b13d01d3008637bf11e8"
     }
   ],
   "language": "heb",
   "latest_task": "a79b80ce3410b13d01d3008637bf11e8",
-  "published": null
+  "published": {
+    "html_path": "content/heb/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+    "html_sha256": "a169fabc91941ecbff46706ba91c2be85cc4ad99e3a5d43f451a330386e5e8fc",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/heb/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+    "metadata_sha256": "835450599a48818d660ad674bbfecaa81e0490b9c2105245ed0792d9478212b3",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"he\" dir=\"rtl\" role=\"note\">\n  <p>מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: gpt-6.1-sol) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית. <a href=\"/en/articles/93978dae-706d-43d4-abee-6b6e011683fa/\" data-source-article-id=\"93978dae-706d-43d4-abee-6b6e011683fa\" hreflang=\"en\">המקור באנגלית</a></p>\n</aside>",
+    "published_at": "2026-10-03T11:26:54+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+    "source_snapshot": "state/sources/dbf4ee6ab816d1b7bd54f8a01afbd1006cb37622a5e53c0d4fbca9198d50ffc9.json",
+    "task": "a79b80ce3410b13d01d3008637bf11e8",
+    "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac"
+  }
 }

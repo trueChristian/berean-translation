@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: zweiter Absatz unter „Ein paar Dinge, die wir bedenken sollten“",
+      "severity": "minor",
+      "source_quote": "Pessimists believe that their failures are the result of intrinsic character flaws that they have",
+      "suggested_fix": "Ersetze „aus ihren angeborenen Charakterschwächen entstehen“ durch „auf ihre eigenen Charakterschwächen zurückzuführen sind“. So bleibt die Aussage erhalten, ohne zusätzlich einen angeborenen Ursprung der Schwächen zu behaupten.",
+      "translation_quote": "Pessimisten glauben, dass ihre Misserfolge aus ihren angeborenen Charakterschwächen entstehen"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

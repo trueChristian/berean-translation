@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8e98c9b5-a18b-4e31-ba73-9de8967f5c06",
+    "response_id": "chatcmpl-EUrXOKMA5AOBoYVtvNeZjcxAXarVk",
+    "usage": {
+      "completion_tokens": 250,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9141,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9394
+    }
+  },
+  "received_at": "2026-10-03T11:26:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: zweiter Absatz unter „Ein paar Dinge, die wir bedenken sollten“",
+        "severity": "minor",
+        "source_quote": "Pessimists believe that their failures are the result of intrinsic character flaws that they have",
+        "suggested_fix": "Ersetze „aus ihren angeborenen Charakterschwächen entstehen“ durch „auf ihre eigenen Charakterschwächen zurückzuführen sind“. So bleibt die Aussage erhalten, ohne zusätzlich einen angeborenen Ursprung der Schwächen zu behaupten.",
+        "translation_quote": "Pessimisten glauben, dass ihre Misserfolge aus ihren angeborenen Charakterschwächen entstehen"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

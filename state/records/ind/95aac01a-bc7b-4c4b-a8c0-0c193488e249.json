@@ -30,9 +30,32 @@
       "campaign": "gh-37109168265",
       "event": "requested",
       "task": "2a89da444cf437513f873c45455cc94a"
+    },
+    {
+      "at": "2026-10-03T11:26:53+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "2a89da444cf437513f873c45455cc94a"
     }
   ],
   "language": "ind",
   "latest_task": "2a89da444cf437513f873c45455cc94a",
-  "published": null
+  "published": {
+    "html_path": "content/ind/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+    "html_sha256": "939df892b58db9b16fb39a27bdb79a86624b19b2638cd2e24c4a2a5def361080",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/ind/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+    "metadata_sha256": "6810b84cfffe520a3017e590b9615b10723caa2ffbf2538252e4a6096e5056f3",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"id\" dir=\"ltr\" role=\"note\">\n  <p>Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: gpt-6.1-sol) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris. <a href=\"/en/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249/\" data-source-article-id=\"95aac01a-bc7b-4c4b-a8c0-0c193488e249\" hreflang=\"en\">Naskah asli bahasa Inggris</a></p>\n</aside>",
+    "published_at": "2026-10-03T11:26:53+00:00",
+    "quality_score": 99,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+    "source_snapshot": "state/sources/f5242bbb99638be3a25904d1f97309fcd4a3eb5f19620896ff661be5d37e6256.json",
+    "task": "2a89da444cf437513f873c45455cc94a",
+    "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78"
+  }
 }

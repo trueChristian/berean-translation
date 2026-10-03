@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: aya ya kwanza, sentensi inayoanza “Kwa upande mwingine”",
+      "severity": "minor",
+      "source_quote": "On the other hand, Elsie stared at the floor, almost as though she wasn’t present.",
+      "suggested_fix": "Badilisha “Elsie aliutazama sakafu” kuwa “Elsie aliitazama sakafu” ili kiambishi cha yambwa kipatane na ngeli ya “sakafu”; hifadhi muundo wa HTML.",
+      "translation_quote": "Kwa upande mwingine, Elsie aliutazama sakafu, karibu kana kwamba hakuwepo pale."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

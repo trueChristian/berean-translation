@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya inayoanza “Jamin aliinama”",
+      "severity": "minor",
+      "source_quote": "the jaws of a steel trap",
+      "suggested_fix": "Badilisha “taya za mtego wa chuma cha pua” kuwa “taya za mtego wa chuma”, bila kubadili muundo wa HTML.",
+      "translation_quote": "taya za mtego wa chuma cha pua"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "093da7f31bd046c99781384863cde03e",
   "campaign": "gh-37109168265",
   "created_at": "2026-10-03T08:20:25+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 9942
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 237,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 83,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9782,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 9779
+        },
+        "total_tokens": 10019
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html: aya ya kwanza, sentensi inayoanza “Kwa upande mwingine”",
+      "severity": "minor",
+      "source_quote": "On the other hand, Elsie stared at the floor, almost as though she wasn’t present.",
+      "suggested_fix": "Badilisha “Elsie aliutazama sakafu” kuwa “Elsie aliitazama sakafu” ili kiambishi cha yambwa kipatane na ngeli ya “sakafu”; hifadhi muundo wa HTML.",
+      "translation_quote": "Kwa upande mwingine, Elsie aliutazama sakafu, karibu kana kwamba hakuwepo pale."
+    }
+  ],
+  "finished_at": "2026-10-03T11:26:54+00:00",
   "id": "f44182213a994a16fc0eb7d4ba11c33f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f0c25c3577311c7c02b2cb60e52d3dc036fc05e7110d4da4ab1ec416de46e1d1.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-6.1-sol"

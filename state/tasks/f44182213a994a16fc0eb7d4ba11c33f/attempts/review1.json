@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:26:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html: aya ya kwanza, sentensi inayoanza “Kwa upande mwingine”\",\"severity\":\"minor\",\"source_quote\":\"On the other hand, Elsie stared at the floor, almost as though she wasn’t present.\",\"suggested_fix\":\"Badilisha “Elsie aliutazama sakafu” kuwa “Elsie aliitazama sakafu” ili kiambishi cha yambwa kipatane na ngeli ya “sakafu”; hifadhi muundo wa HTML.\",\"translation_quote\":\"Kwa upande mwingine, Elsie aliutazama sakafu, karibu kana kwamba hakuwepo pale.\"}],\"passed\":true,\"score\":99}",
+    "content_bytes": 532,
+    "content_evidence_truncated": false,
+    "content_sha256": "cc57a8bd04f865737d0a2ee56c2f1cd387c14e98885b29ed52a03e2801046cac",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9782,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 9779
+      },
+      "total_tokens": 10019
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

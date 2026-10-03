@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:26:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, aya inayoanza “Jamin aliinama”\",\"severity\":\"minor\",\"source_quote\":\"the jaws of a steel trap\",\"suggested_fix\":\"Badilisha “taya za mtego wa chuma cha pua” kuwa “taya za mtego wa chuma”, bila kubadili muundo wa HTML.\",\"translation_quote\":\"taya za mtego wa chuma cha pua\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 351,
+    "content_evidence_truncated": false,
+    "content_sha256": "38883395dd2541313f4ce02789f32d1241de278c512dfc67d181e498a2ba76d0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 194,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3585,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3582,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3779
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

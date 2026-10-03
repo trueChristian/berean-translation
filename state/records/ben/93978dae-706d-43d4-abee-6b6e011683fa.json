@@ -30,9 +30,32 @@
       "campaign": "gh-37109168265",
       "event": "requested",
       "task": "ebb783fbe98357eefa95637f8c0c63ac"
+    },
+    {
+      "at": "2026-10-03T11:26:54+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "ebb783fbe98357eefa95637f8c0c63ac"
     }
   ],
   "language": "ben",
   "latest_task": "ebb783fbe98357eefa95637f8c0c63ac",
-  "published": null
+  "published": {
+    "html_path": "content/ben/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+    "html_sha256": "497026db430a6cc7ba0e47af0cde2813a9d5210a322f7d70c626f09cfe49cc5e",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/ben/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+    "metadata_sha256": "8b3762f8f29bf1e51f2450ae075617f5d4fb5939e494db627ba5e3fdbfc3aea3",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"bn\" dir=\"ltr\" role=\"note\">\n  <p>এই নিবন্ধটি OpenAI (মডেল: gpt-6.1-sol) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন। <a href=\"/en/articles/93978dae-706d-43d4-abee-6b6e011683fa/\" data-source-article-id=\"93978dae-706d-43d4-abee-6b6e011683fa\" hreflang=\"en\">মূল ইংরেজি পাঠ</a></p>\n</aside>",
+    "published_at": "2026-10-03T11:26:54+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+    "source_snapshot": "state/sources/dbf4ee6ab816d1b7bd54f8a01afbd1006cb37622a5e53c0d4fbca9198d50ffc9.json",
+    "task": "ebb783fbe98357eefa95637f8c0c63ac",
+    "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac"
+  }
 }

@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "093da7f31bd046c99781384863cde03e",
   "campaign": "gh-37109168265",
   "created_at": "2026-10-03T08:20:25+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 3578
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 168,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 45,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3437,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3434,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3605
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html، فقرة «نعم. أظن ذلك...»",
+      "severity": "minor",
+      "source_quote": "If you support me, I can hobble along.",
+      "suggested_fix": "استبدل «أستطيع أن أمشي متعرجًا» بـ«أستطيع أن أمشي عارجًا» داخل الفقرة نفسها، مع الحفاظ على الوسوم.",
+      "translation_quote": "إذا سندتني، أستطيع أن أمشي متعرجًا"
+    }
+  ],
+  "finished_at": "2026-10-03T11:26:54+00:00",
   "id": "b64cdcff6534a21aec8408f42b59df4a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/30d93d10c134b88a1dcf438372f99e5d2d2cf345cb28c3ef7bf8a0c0f932b541.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-6.1-sol"

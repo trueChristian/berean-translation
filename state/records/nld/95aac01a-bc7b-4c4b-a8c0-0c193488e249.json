@@ -30,9 +30,32 @@
       "campaign": "gh-37109168265",
       "event": "requested",
       "task": "a39cd078cba0c4f3f7e64520ca782408"
+    },
+    {
+      "at": "2026-10-03T11:26:54+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "a39cd078cba0c4f3f7e64520ca782408"
     }
   ],
   "language": "nld",
   "latest_task": "a39cd078cba0c4f3f7e64520ca782408",
-  "published": null
+  "published": {
+    "html_path": "content/nld/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+    "html_sha256": "89d61eeda034a1dfb9b4772db5379bf92d72e7148e6b01018fffc6cba80ae6c1",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/nld/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+    "metadata_sha256": "b72290b99aee39d9823bdda66fa010809b5fc10fa1b6cd02b1bfa36a247689a5",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nl\" dir=\"ltr\" role=\"note\">\n  <p>Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: gpt-6.1-sol) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel. <a href=\"/en/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249/\" data-source-article-id=\"95aac01a-bc7b-4c4b-a8c0-0c193488e249\" hreflang=\"en\">Engels origineel</a></p>\n</aside>",
+    "published_at": "2026-10-03T11:26:54+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+    "source_snapshot": "state/sources/f5242bbb99638be3a25904d1f97309fcd4a3eb5f19620896ff661be5d37e6256.json",
+    "task": "a39cd078cba0c4f3f7e64520ca782408",
+    "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78"
+  }
 }

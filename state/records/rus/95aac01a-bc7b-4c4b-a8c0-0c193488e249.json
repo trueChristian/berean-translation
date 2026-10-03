@@ -30,9 +30,32 @@
       "campaign": "gh-37109168265",
       "event": "requested",
       "task": "fde28ad39454042559bc1c2ce771794c"
+    },
+    {
+      "at": "2026-10-03T11:26:54+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "fde28ad39454042559bc1c2ce771794c"
     }
   ],
   "language": "rus",
   "latest_task": "fde28ad39454042559bc1c2ce771794c",
-  "published": null
+  "published": {
+    "html_path": "content/rus/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+    "html_sha256": "59efa9e7c66dbcb6b2fb263f9c32bd1a4d21f1537ee91c474a3dc78f8c096ff8",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/rus/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+    "metadata_sha256": "28408b949e381ddbaf6b0930a9cecfe550eaaf8ed054836bb328576377a4b0e8",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ru\" dir=\"ltr\" role=\"note\">\n  <p>Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: gpt-6.1-sol) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу. <a href=\"/en/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249/\" data-source-article-id=\"95aac01a-bc7b-4c4b-a8c0-0c193488e249\" hreflang=\"en\">Английский оригинал</a></p>\n</aside>",
+    "published_at": "2026-10-03T11:26:54+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+    "source_snapshot": "state/sources/f5242bbb99638be3a25904d1f97309fcd4a3eb5f19620896ff661be5d37e6256.json",
+    "task": "fde28ad39454042559bc1c2ce771794c",
+    "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78"
+  }
 }

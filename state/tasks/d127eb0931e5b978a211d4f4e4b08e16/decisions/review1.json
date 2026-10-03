@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — paragraph containing John Newton’s last words",
+      "severity": "major",
+      "source_quote": "“I am still in the land of the dying; I shall be in the land of the living soon.”",
+      "suggested_fix": "Replace ״אני עדיין בארץ המתים; בקרוב אהיה בארץ החיים.״ with ״אני עדיין בארץ בני התמותה; בקרוב אהיה בארץ החיים.״ within the existing <p>, preserving its structure.",
+      "translation_quote": "״אני עדיין בארץ המתים; בקרוב אהיה בארץ החיים.״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

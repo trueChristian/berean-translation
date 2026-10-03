@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:26:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html — paragraph containing John Newton’s last words\",\"severity\":\"major\",\"source_quote\":\"“I am still in the land of the dying; I shall be in the land of the living soon.”\",\"suggested_fix\":\"Replace ״אני עדיין בארץ המתים; בקרוב אהיה בארץ החיים.״ with ״אני עדיין בארץ בני התמותה; בקרוב אהיה בארץ החיים.״ within the existing <p>, preserving its structure.\",\"translation_quote\":\"״אני עדיין בארץ המתים; בקרוב אהיה בארץ החיים.״\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 611,
+    "content_evidence_truncated": false,
+    "content_sha256": "8c4aa8a2b9d37ef59bfa8ba56fa8a521bd6f07bd7a6444df0f9f640f32da5d7b",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 35,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6977,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6974,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7151
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

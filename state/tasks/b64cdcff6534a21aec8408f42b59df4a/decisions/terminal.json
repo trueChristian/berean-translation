@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، فقرة «نعم. أظن ذلك...»",
+      "severity": "minor",
+      "source_quote": "If you support me, I can hobble along.",
+      "suggested_fix": "استبدل «أستطيع أن أمشي متعرجًا» بـ«أستطيع أن أمشي عارجًا» داخل الفقرة نفسها، مع الحفاظ على الوسوم.",
+      "translation_quote": "إذا سندتني، أستطيع أن أمشي متعرجًا"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

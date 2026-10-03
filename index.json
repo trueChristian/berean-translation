@@ -1127,6 +1127,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "838e4cb4f41b91e3ec980e76c1982799fa1b0da0e1d4db929d3357bfb6158cb4",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "’n Portret van John Newton bo ’n seilskip in ’n storm, met bladmusiek vir Wonderbare genade in die agtergrond.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Donker golwe rondom ’n steil, rotsagtige eiland onder stormwolke.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Bladmusiek vir Wonderbare genade, toegeskryf aan John Newton, 1779, en verwerk deur Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "d242b3404e6b119fa9629872025eef6f27cf4cfdd216c8a8c0aa48378b82f217",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "GESANGGESKIEDENIS",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wonderbare genade",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
       "html_sha256": "3e6b40b372f234d023518045efc9f1fca823e39b2e82e7b4ff360396ed3473c4",
       "human_reviewed": false,
@@ -1943,6 +1979,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "ab1cf2938d7209f58fad089d61f5e3599ed72f93fd00a8ba608eeb7c3cc78395",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "طائر صغير بني يقف في مرج أخضر",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "طائر أزرق وأبيض جاثم على غصن مقطوع أمام خلفية خضراء",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "aed87dc311a5be1c0a0dadae2761020434ca71e243cf2a43598877ec452c9148",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "مقال مميز",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "ومن حولي تتردد موسيقى الأفلاك.",
+      "title": "الطبيعة كلها تغني",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
       "html_sha256": "cf2dc73e06bcea2107e92b827f5f52b9b9c32c6878f7fb88d2b8e3f0de43e3a0",
       "human_reviewed": false,
@@ -2518,6 +2586,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "517b9a8c3e02a5cdd38f85c108dfb5990b73f5262ad1594b8a47fac6a96db563",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "صورة شخصية لجون نيوتن فوق سفينة شراعية في عاصفة، وفي الخلفية نوتة ترنيمة النعمة العجيبة.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "أمواج داكنة حول جزيرة صخرية شديدة الانحدار تحت سحب عاصفة.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "نوتة ترنيمة النعمة العجيبة، منسوبة إلى جون نيوتن، 1779، وبتوزيع إدوين أو. إكسل، 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "3d6e71f8193a743d6bea957edc983ccd9a551117507dcc76ce9851573a003d02",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "تاريخ الترانيم",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "النعمة العجيبة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/99d9d2e9-2f6a-46ce-a06a-4635a4d484f9.html",
       "html_sha256": "661628b3fbeb61f17c48ea73c8031beff368e3a4da9a484caeb2f97af896b73a",
       "human_reviewed": false,
@@ -2648,6 +2752,34 @@
       "subtitle": null,
       "title": "عبء التسويف",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "061bf6f5542f9060a7f20f9bfafbda5f73738b4d17c77b0c1a4e4cf3b606676d",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "درب ضيق يتلوى عبر غابة وارفة الأوراق",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "f2e6342794a3d05742409b243ab3098d3f848735e384ca2e498a88f284264fc9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ركن الأطفال",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "جامين يزداد فطنة",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -3737,6 +3869,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "29474b327ad79463811ac0ae62f45e16394c5b1ac5596d05c52694e68bca5cd2",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "সবুজ তৃণভূমিতে গোলাপি ও সাদা ক্রাউন ভেচ ফুল",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "f45d5f4b097da87034e94aa85babb74df04c1e5ec736fbe3077d1bbe8eef5f4f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "সম্পাদকের কলম থেকে",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "সম্পাদকের কলম থেকে",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "cf4665d9584d4b22927a120ce2b0b42f98bfc0e29495fac1388480e25cc2637c",
       "human_reviewed": false,
@@ -3949,6 +4109,70 @@
       "subtitle": null,
       "title": "তুমি কী দেখছ?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "497026db430a6cc7ba0e47af0cde2813a9d5210a322f7d70c626f09cfe49cc5e",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "ওপর থেকে দেখা বালুময় উপকূল বরাবর আছড়ে পড়া সমুদ্রের ঢেউ।",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "8b3762f8f29bf1e51f2450ae075617f5d4fb5939e494db627ba5e3fdbfc3aea3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "বোন থেকে বোনের কাছে",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "পরিস্থিতির কারণে অতিরিক্ত চাপ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "1254a7e33908ae985771cdeb4d34c2838cc5b2266c4ee42a46b8e832e4479e7e",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "ঝড়ের মধ্যে একটি পালতোলা জাহাজের ওপরে জন নিউটনের প্রতিকৃতি, পটভূমিতে ‘বিস্ময়কর অনুগ্রহ’ গানের স্বরলিপি।",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "ঝড়ের মেঘের নিচে একটি খাড়া পাথুরে দ্বীপের চারপাশে অন্ধকার ঢেউ।",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "‘বিস্ময়কর অনুগ্রহ’-এর স্বরলিপি; রচয়িতা হিসেবে জন নিউটন, ১৭৭৯, এবং বিন্যাসকারী হিসেবে এডউইন ও. এক্সেল, ১৮৩১-এর নাম উল্লেখ করা হয়েছে।",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "45de65ab16168c39a16f0a7aca6a2def43a76f261890e95c6e69c2ee2871b4dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "স্তোত্রের ইতিহাস",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "বিস্ময়কর অনুগ্রহ",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -4596,6 +4820,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "463c366d06d5d1a3e7ceafb388b814817384e21fbc96433953c531bd2fbcc907",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "一盏昏暗的提灯里有个发光的灯泡。",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "一只蝴蝶停留在鲜艳的野花和草丛之间。",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "bc961587e2bfb3177aa5f823ebeda1699eeaded4ae42c4f0b6b348d9dd59865d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "医生的话",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "应对愤世嫉俗",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/2b07502a-cbf0-4b92-8bb8-7910a5557f84.html",
       "html_sha256": "85c471a21cecbe4a225e095cd7c6b8a761142bf903eb9cbee505fd0d8c240643",
       "human_reviewed": false,
@@ -4771,6 +5027,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "1899193b2ceec7371e45555ba42a96e4ab72fdc908018acb8125863157550fe9",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "绿色草地上的粉白色小冠花",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "a607c52ebc2785f7a8f50d82cf617ab4b4b30f0f7ac12e6010955a6aec28bf84",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "编者的话",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "编者的话",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "ff610b2f396c7ebbb13ff153520d37d7cb1f3e7fa91c3bafeac840b919abd94f",
       "human_reviewed": false,
@@ -4895,6 +5179,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "9468f7e0c675013b67befd90450e5129927055150db9f4f9163aea710c067031",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "一男一女一起走过绿色的草地",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "一位父亲和母亲看着他们刚出生的婴儿",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "一家人一起站在瀑布前",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "720299eba7eeea33f15e6514805c606925b088f75677780aea56b49384703705",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "给年轻人的启迪",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "神对男女的计划",
+      "title": "以基督为中心的恋爱",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "72cb7885f43733686e6d42856f20db951b73a4485d0cb67d9c577976d580e6e0",
       "human_reviewed": false,
@@ -4975,6 +5295,42 @@
       "subtitle": null,
       "title": "情境性负荷",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "490b7849e059883f9d54a6d3969a05f54302a1b09112b076803d2ae9dbbe7bff",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "约翰·牛顿的肖像，下方是暴风雨中的一艘帆船，背景为《奇异恩典》的乐谱。",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "风暴云层下，一座陡峭的岩石岛四周翻涌着暗色海浪。",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "《奇异恩典》乐谱，署名约翰·牛顿，1779年；埃德温·O. 埃克塞尔编曲，1831年。",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "4856f27868a49595fa4c4748d485526dfe93f1623ade746014299fdcb041abc2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "圣诗历史",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "奇异恩典",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -5904,6 +6260,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "784ebf479135bda584553be97e262e86d857b3b3052993e24e1ab9ef8d306c71",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "Eine leuchtende Glühbirne in einer dunklen Laterne.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "Ein Schmetterling zwischen leuchtenden Wildblumen und Gräsern.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "dea5839131c942921c0f5c2f7c5d6bf54b4bbddb971884c9bd6241d67b79bccb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "EIN WORT VOM ARZT",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mit Zynismus umgehen",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/2b07502a-cbf0-4b92-8bb8-7910a5557f84.html",
       "html_sha256": "73aaa0fe5bf4be187754450bf8223ce431f82242b062e95ff82a82bc59708e79",
       "human_reviewed": false,
@@ -6506,6 +6894,42 @@
       "subtitle": null,
       "title": "Umständebedingte Überlastung",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "4583330d476d8f7b0830c0564611b2d5475a855aada4d39ec65ef7f4ece48c16",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Ein Porträt von John Newton über einem Segelschiff im Sturm, mit Noten von Amazing Grace im Hintergrund.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Dunkle Wellen um eine steile Felseninsel unter Sturmwolken.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Noten von Amazing Grace, John Newton, 1779, zugeschrieben und von Edwin O. Excell, 1831, arrangiert.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "fdc1f6fec69dcf906807b20a75fc29ff90dbe01507c7e813301b3b2a52d7b442",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "GESCHICHTE DER KIRCHENLIEDER",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Amazing Grace",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -7902,6 +8326,42 @@
       "subtitle": null,
       "title": "Το Καταφύγιο της Ανάπαυσης",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "7f5a4dc4dd8231d7413cd887b86b5b124ab1fcb3764089fa0543aac0acf99a14",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Πορτρέτο του Τζον Νιούτον πάνω από ένα ιστιοφόρο σε καταιγίδα, με την παρτιτούρα της «Θαυμαστής χάρης» στο φόντο.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Σκοτεινά κύματα γύρω από ένα απόκρημνο βραχώδες νησί κάτω από σύννεφα καταιγίδας.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Παρτιτούρα της «Θαυμαστής χάρης», που αποδίδεται στον Τζον Νιούτον, 1779, σε διασκευή του Έντουιν Ο. Έξελ, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "140c13b98b15f8db9aa1b5e2dbfc3024c0766080a07d126f5f437e48cbc83cb6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ΙΣΤΟΡΙΑ ΥΜΝΩΝ",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Θαυμαστή χάρη",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -9728,6 +10188,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "f2795f2edfcc5a31b490546fb884968546dbbed22404a869a0b2e36d71e43460",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Un portrait de John Newton au-dessus d’un voilier dans une tempête, avec la partition d’Amazing Grace en arrière-plan.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Des vagues sombres autour d’une île rocheuse escarpée, sous des nuages de tempête.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Partition d’Amazing Grace, attribuée à John Newton, 1779, et arrangée par Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "a4b699b06955684e674b77edda37b3187204797c2ef70e35cdc2470b2934a957",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HISTOIRE DES CANTIQUES",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Grâce merveilleuse",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
       "html_sha256": "5080f952dd8e37ae93644b43f6d299fda9dea976f157dab606bc025ea44de616",
       "human_reviewed": false,
@@ -11003,6 +11499,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "a169fabc91941ecbff46706ba91c2be85cc4ad99e3a5d43f451a330386e5e8fc",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "גלי אוקיינוס נשברים לאורך חוף חולי, במבט מלמעלה.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "835450599a48818d660ad674bbfecaa81e0490b9c2105245ed0792d9478212b3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "מאחות לאחות",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "עומס יתר הנובע מהנסיבות",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/99d9d2e9-2f6a-46ce-a06a-4635a4d484f9.html",
       "html_sha256": "0db30cdd4a67ca28afa0cb6ac29a2c053ef2b387c56962475aac86c6b4007990",
       "human_reviewed": false,
@@ -11050,6 +11574,34 @@
       "subtitle": null,
       "title": "עומס הדחיינות",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "49441034e654d5bcb4449b7bceab783b99be13d3a90070538819cd833346e698",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "שביל צר מתפתל ביער עתיר עלווה",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "b9fe9f8673ee721dcef910c6a30a09ab813815e0b439ebfc883a0f7661017328",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "פינת הילדים",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ג'יימין מחכים",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -11947,6 +12499,42 @@
       "subtitle": null,
       "title": "क्या कोई कारण नहीं है?",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "0375f0003cb57bb27db72de67dc9eaba3925a0e3f9875fb0a500d3f1906486dc",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "तूफ़ान में एक पाल वाले जहाज़ के ऊपर जॉन न्यूटन का चित्र, जिसकी पृष्ठभूमि में अद्भुत अनुग्रह के स्वरलेख हैं।",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "तूफ़ानी बादलों के नीचे एक खड़े चट्टानी द्वीप के चारों ओर गहरी काली लहरें।",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "अद्भुत अनुग्रह का स्वरलेख, जिसका श्रेय जॉन न्यूटन, 1779 को दिया गया है और जिसका संगीत संयोजन एडविन ओ. एक्सेल, 1831 ने किया है।",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "a584c95fcabb387c8703ec7581bca2661d2c0a7a660150c6f6be69e4a9f64373",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "भजनों का इतिहास",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "अद्भुत अनुग्रह",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -13839,6 +14427,42 @@
       "subtitle": null,
       "title": "Circumstantial Overload",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "939df892b58db9b16fb39a27bdb79a86624b19b2638cd2e24c4a2a5def361080",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Potret John Newton di atas kapal layar dalam badai, dengan lembaran partitur Amazing Grace sebagai latar belakang.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Ombak gelap mengelilingi pulau berbatu yang terjal di bawah awan badai.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Partitur Amazing Grace, dengan kredit kepada John Newton, 1779, dan aransemen oleh Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "6810b84cfffe520a3017e590b9615b10723caa2ffbf2538252e4a6096e5056f3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SEJARAH HIMNE",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kasih Karunia yang Menakjubkan",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -16008,6 +16632,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "c0048b23c7d766e1fe8517f0d1aa9f247575758b2ce7dc7d2f5d6545e9f78cf3",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Un ritratto di John Newton sopra una nave a vela nella tempesta, con lo spartito di Amazing Grace sullo sfondo.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Onde scure attorno a un’isola rocciosa scoscesa sotto nuvole tempestose.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Spartito di Amazing Grace, attribuito a John Newton, 1779, e arrangiato da Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "97e105911a506a1d1bd43d0d400602a323d84d87ad004fc299662b787fdaa24f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "STORIA DEGLI INNI",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Grazia meravigliosa",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
       "html_sha256": "a75bcb4c8eaaf80b394b32d6d73b99556d95ed6369f88696af036a7a1d884b2d",
       "human_reviewed": false,
@@ -17250,6 +17910,38 @@
       "subtitle": null,
       "title": "저주 속에서도 드러나는 하나님의 신실하심",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "7446d2fbc590efeb1db0df91727f283a897823d6b85c910e8497ae57e6a14f49",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "어두운 등 안에서 빛나는 전구.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "밝은 야생화와 풀 사이에 있는 나비.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "043a872e31a2b815d4bca55b900cbc6292fc2e7fa79a29fff0345db7255e81bb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "의사가 전하는 말",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "냉소에 대처하기",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -19968,6 +20660,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "89d61eeda034a1dfb9b4772db5379bf92d72e7148e6b01018fffc6cba80ae6c1",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Een portret van John Newton boven een zeilschip in een storm, met bladmuziek van Amazing Grace op de achtergrond.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Donkere golven rond een steil rotsachtig eiland onder stormwolken.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Bladmuziek van Amazing Grace, toegeschreven aan John Newton, 1779, en gearrangeerd door Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "b72290b99aee39d9823bdda66fa010809b5fc10fa1b6cd02b1bfa36a247689a5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "GESCHIEDENIS VAN GEESTELIJKE LIEDEREN",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wonderbaarlijke genade",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
       "html_sha256": "70ae644bd9e8c13abd54347433d594c230156b3b395d7896aebf3ee267be91d8",
       "human_reviewed": false,
@@ -22119,6 +22847,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "516ae18ede905ad802ff98c99fdf546782a3623d0edc7fdda0c5970d914592bc",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Et portrett av John Newton over et seilskip i storm, med noter til Amazing Grace i bakgrunnen.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Mørke bølger rundt en bratt klippeøy under stormskyer.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Noter til Amazing Grace, kreditert John Newton, 1779, og arrangert av Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "09987b31e94f2984cb58a33eabc14c37b729411e856f786e9507007476f6cef0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SALMEHISTORIE",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Amazing Grace",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
       "html_sha256": "e61620180d017c8d5f3dc17a44ee6977c0d789caeedc01b615ba928d9d21b98b",
       "human_reviewed": false,
@@ -24254,6 +25018,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "8ef3101f5b19bc47ab13e5ae84324d28514c87ffb8dbc75afb89dd57a19c2e84",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Um retrato de John Newton acima de um navio à vela numa tempestade, com a partitura de Graça Maravilhosa ao fundo.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Ondas escuras ao redor de uma ilha rochosa escarpada sob nuvens de tempestade.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Partitura de Graça Maravilhosa, com autoria atribuída a John Newton, 1779, e arranjo de Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "458c16c34532a228b1fd1651a1113fb72d15f6b36cc95e8e584e76db8c5c12fb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HISTÓRIA DOS HINOS",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Graça Maravilhosa",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
       "html_sha256": "b3fd0daca6f03ff411322d776d7e228bf098f950cb388addb8dc58a165e588ea",
       "human_reviewed": false,
@@ -26258,6 +27058,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "59efa9e7c66dbcb6b2fb263f9c32bd1a4d21f1537ee91c474a3dc78f8c096ff8",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Портрет Джона Ньютона над парусным кораблём в бурю, на фоне нот гимна «Дивная благодать».",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Тёмные волны вокруг крутого скалистого острова под грозовыми тучами.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Ноты гимна «Дивная благодать» с указанием автора Джона Ньютона, 1779 год, и аранжировщика Эдвина О. Экселла, 1831 год.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "28408b949e381ddbaf6b0930a9cecfe550eaaf8ed054836bb328576377a4b0e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ИСТОРИЯ ГИМНА",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Дивная благодать",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
       "html_sha256": "c92088e6c65ea99f6ea0c2eb4bcabff13ec263c58e98f030b93d676eb0459f13",
       "human_reviewed": false,
@@ -26885,6 +27721,34 @@
       "subtitle": null,
       "title": "Взгляни на радугу",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "ef7c14f0c359d551bbba3caa8b7687f9bcb354cea719e6226afec09eaf0547c6",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Последовательные стадии появления ростков из почвы, которые поливает рука",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "358b2bb1622ce38fd4bbc2576bd9ea225b341a5580708411bc93cef4be8d0baa",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "РАЗМЫШЛЕНИЯ МИССИОНЕРА",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Христианский гуманист",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -29499,6 +30363,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "a91d092e2dfbd09161d4774c2cd065785a75933b4f722667f401d700989cba9b",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "Balbu inayong'aa ndani ya taa ya kandili yenye giza.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "Kipepeo katikati ya maua ya porini yenye rangi angavu na nyasi.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "e0d971cc95c7283f00446252daf2fd4237c6589e1102095d95227482aaadbd39",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "NENO KUTOKA KWA DAKTARI",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kukabiliana na Mtazamo wa Kutarajia Mabaya",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "ccbe9c3984cbaaed418fe38cd8524f722543a533e42c2917f689a35fc32559bb",
       "human_reviewed": false,
@@ -29735,6 +30631,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "ee83eb3930635c542c9f6c5bbd2085cfe4bfdfe9607ad5930945828f3f8e033a",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "Mwanamume na mwanamke wakitembea pamoja katika uwanda wenye majani mabichi",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "Baba na mama wakimtazama mtoto wao mchanga",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "Familia ikisimama pamoja mbele ya maporomoko ya maji",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "9d01e646335ef4a5ec6f7882ce3fe63c1adb62a9e880af51e0e7b836ca852966",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "MAWAZO YA KUWATIA MOYO VIJANA",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "Mpango wa Mungu kwa Mwanamume na Mwanamke",
+      "title": "Uchumba Unaomweka Kristo Katikati",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
       "html_sha256": "4f22588778fbdca3ad9269fae0f4aff29df39eff74c4228a6b71cb39c8826eb6",
       "human_reviewed": false,
@@ -29847,6 +30779,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "02bb0481e3c85ebb42bc5ecda24ddbae8ac8c72e47969a2ed14045e779d7d216",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Picha ya John Newton juu ya meli ya matanga iliyo katika dhoruba, huku nyuma kukiwa na noti za muziki za Neema ya Ajabu.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Mawimbi meusi yanayozunguka kisiwa chenye miamba mikali chini ya mawingu ya dhoruba.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Noti za muziki za Neema ya Ajabu, zilizopewa sifa kwa John Newton, 1779, na kupangiliwa na Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "0d95ae956f0abbff21bf5c79fc7d6f84244566a479fa8a27087b09dc4004576c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HISTORIA YA TENZI",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Neema ya Ajabu",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/99d9d2e9-2f6a-46ce-a06a-4635a4d484f9.html",
       "html_sha256": "8bb041aa83d89db591aa50936e738c714575203a98c0d07645ff32366ac49708",
       "human_reviewed": false,
@@ -29945,6 +30913,34 @@
       "subtitle": null,
       "title": "Kuzidiwa na Kuwachelewesha",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "814bf5fbb1cd9c94af40189cb7e09c380dba96f377c02d425d14d448bef1d39d",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "Njia nyembamba inayopinda kupitia msitu wenye majani mengi",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "541bd834b3b8fbfaaff13036ef3f31b8f7a969870f51c6ca08a33b7b07dbc219",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Kona ya Watoto",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin Anakuwa Mwerevu",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -30325,6 +31321,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "a9cb0bd94f1ed75c115333f353949b2de597f817ce3b7aaf9c25dfd42eef0115",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "En liten brun fågel som står på en grön äng",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "En blåvit fågel som sitter på en avskuren gren mot en grön bakgrund",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "8e398cd93fc43551b19a4a1c16d52a0760417684da27dc576b47c76d9cca10bd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "UTVALD ARTIKEL",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "och runt omkring mig klingar sfärernas musik.",
+      "title": "HELA NATUREN SJUNGER",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/20914547-a133-4159-bd5b-dff81f36453b.html",
       "html_sha256": "5761d2fce54a29d1d211ccc4dab3f4a60a5356cdc66449fdfc176930759d61cb",
       "human_reviewed": false,
@@ -30417,6 +31445,38 @@
       "subtitle": null,
       "title": "Guds trofasthet manifesteras även i förbannelsen",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "ceabaa19ad76e954cf8222636b39d51333a88f74b4a9fbb26cb0db57f36a56f3",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "En lysande glödlampa inuti en mörk lykta.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "En fjäril bland färgstarka vilda blommor och gräs.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "54d238128a77f5bf78be0bc2f0a466e8092d8bd2f3c6a09022c002a962122af8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ETT ORD FRÅN LÄKAREN",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Att hantera cynism",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -31077,6 +32137,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "28e7bd223c8297579cbd3df9047d550e5848e754f8fb80dc1347a8274e467082",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "En man och en kvinna som går tillsammans genom en grön äng",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "En far och en mor som ser på sitt nyfödda barn",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "En familj som står tillsammans framför ett vattenfall",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "c9e35f8d2f0c2b8a47a4e090843666b853c56a9eb68dcecb1f250de57844e2ff",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRATION FÖR UNGA",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "Guds plan för man och kvinna",
+      "title": "En Kristuscentrerad uppvaktning",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
       "html_sha256": "f15896c881937e20d4e184195db590ca3f7f48472e620e2872b528c1b241993f",
       "human_reviewed": false,
@@ -31213,6 +32309,42 @@
       "subtitle": null,
       "title": "Omständighetsmässig överbelastning",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "031b15d537da9a534ff7ba330ecaa243ff8d218fddaf9245dda555f438eadd88",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Ett porträtt av John Newton ovanför ett segelfartyg i en storm, med noter till Amazing Grace i bakgrunden.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Mörka vågor runt en brant klippö under stormmoln.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Noter till Amazing Grace, med John Newton, 1779, angiven som upphovsman och Edwin O. Excell, 1831, som arrangör.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "e79ce22cb8ac68a6f6bd20d4514403384765939750b0467e6225b206f0c22570",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "PSALMHISTORIA",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Amazing Grace",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -32264,6 +33396,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "8c52d0c599e5d2188ee8668a0e8b344b7ff5e8779691d20e3a3b66fdbe32b4c1",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "ایک تاریک لالٹین کے اندر روشن بلب۔",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "شوخ رنگ کے جنگلی پھولوں اور گھاس کے درمیان ایک تتلی۔",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "fdbb44e60ae827a54d80dd568088ab62b428d9963261ac8fbaedf08ae07e9951",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ڈاکٹر کی طرف سے ایک بات",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "بدگمانی سے نمٹنا",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/2b07502a-cbf0-4b92-8bb8-7910a5557f84.html",
       "html_sha256": "598da2990d02589f1780c2dc4d178bbcbafba44b59ea75d3c4d3f342aba3ecdf",
       "human_reviewed": false,
@@ -32818,6 +33982,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "77b0ed5f808f35f84d3438d402cd5ccf41488a07ddcdf88c3bc6fa6fd5b89164",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "ایک مرد اور عورت سبز مرغزار میں ساتھ چل رہے ہیں",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "ایک باپ اور ماں اپنے نوزائیدہ بچے کو دیکھ رہے ہیں",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "ایک خاندان آبشار کے سامنے ساتھ کھڑا ہے",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "c075b688dde60e03c7e71c9ad36453684ee511e3ab52a67b8edec70ca41bbaf7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "نوجوانوں کے لیے ترغیب",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "مرد اور عورت کے لیے خدا کا منصوبہ",
+      "title": "مسیح کو مرکز بنانے والا قبل از شادی تعلق",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
       "html_sha256": "8b8d8b0e447c02b49649a069dce561d69491453c94b2d1750a137d894c4d1417",
       "human_reviewed": false,
@@ -32898,6 +34098,34 @@
       "subtitle": null,
       "title": "افسردگی",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "0e59ca513bd37cf669f4747e3959ebad95d6c077d72f83219b1fe3244f5356dc",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "اوپر سے دکھائی دینے والے ریتیلے ساحل کے ساتھ ٹوٹتی ہوئی سمندر کی لہریں۔",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "46690f078460106c70d7c5bb30aa5f26f1c8f05303b4e16c37fb84e719423cc4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بہن سے بہن",
+      "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "حالات کے باعث حد سے زیادہ بوجھ",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
