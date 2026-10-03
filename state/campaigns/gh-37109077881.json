@@ -2025,9 +2025,9 @@
   "status": "active",
   "structural_feedback_version": "1",
   "task_counts": {
-    "complete": 78,
-    "in_batch": 133,
-    "not_ready": 9
+    "complete": 83,
+    "in_batch": 106,
+    "not_ready": 31
   },
   "tasks": [
     "906a191f8699645f16dbb4a0bd440740",
