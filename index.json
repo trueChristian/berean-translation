@@ -2361,6 +2361,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "807ef15f83cc6fdab48b74316f0e1b152ac7eadb4162ca6eb813a4ddc7fa2594",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "طفل يجدّف بقارب كاياك أزرق في بركة",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "4709e37ed850b006d056d12c0fe706aefb0130538ab23e39dd593e426d0f9b3a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ركن الأطفال",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "متعة للجميع",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.html",
       "html_sha256": "f648db8edb17e2db0038b52718d580d1b0633c8bda05607aec7bb95043e87f78",
       "human_reviewed": false,
