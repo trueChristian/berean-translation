@@ -354,7 +354,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 Paused: hourly/shared-policy recovery submissions are disabled; separately authorized manual workflow requests retain their own ceilings.
 Hourly/shared-policy funding. Accepted lifetime recovery allocations: $0.000000 / $0.00. Allocations are not recycled after failure or cancellation.
-Separately authorized manual workflow allocations: $10.000000 across 1 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
+Separately authorized manual workflow allocations: $20.000000 across 2 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
@@ -395,6 +395,7 @@ A finished original campaign remains historical; current publication readiness i
 | `gh-37045474073` | manual | translate | finished | 180 | 85 complete, 95 held | 0.53759431 | 2.991708 / 10.00 | [state](state/campaigns/gh-37045474073.json) |
 | `gh-37108593335` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.051780 / 10.00 | [state](state/campaigns/gh-37108593335.json) |
 | `gh-37108628649` | manual | translate | active | 220 | 220 active | 0.00000000 | 1.150157 / 10.00 | [state](state/campaigns/gh-37108628649.json) |
+| `gh-37109005676` | manual recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37109005676.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
