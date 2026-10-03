@@ -1,0 +1,129 @@
+{
+  "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37137754122",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "ce81cada45d5e20aa80429acb086803be3ba51b286d3a28aeb9e2f8c770a5b90"
+  },
+  "created_at": "2026-10-03T16:43:58+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.212625,
+    "review_reserved_usd": 0.369937,
+    "total_reserved_usd": 0.582562
+  },
+  "downstream_candidate_sha256": "832ac761ed17eeb9b743d2903de0b69fcc2ef83d1a1b9d423be5bac831e55898",
+  "downstream_key": "864ec6bb9112d8ae9ee8ee82f59269ae52205c15d4c67719f15d0f2580e712cf",
+  "downstream_previous_sha256": "5aab1b8c0ba9f71874c91eb7ff5c3af4f4d73e2a55f16c9c93c8fc029d3cec4c",
+  "downstream_previous_task": "c3a0968c03a13d1b7e5e6ffb7bb446e7",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 10:10; extra: none",
+      "translation_quote": ""
+    }
+  ],
+  "id": "d3eb4830797641409f4d6785c3fccd75",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "cmn",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[9]; missing: 1:15; extra: none",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
