@@ -304,6 +304,9 @@
   "skipped": [],
   "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
   "status": "active",
+  "task_counts": {
+    "in_batch": 5
+  },
   "tasks": [
     "ddbf1ae847bd5afc90fbe31e0be359b3",
     "d42af64ceca732e54b38bcbc6ab45fdf",
