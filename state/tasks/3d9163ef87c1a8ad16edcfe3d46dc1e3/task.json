@@ -1,0 +1,143 @@
+{
+  "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37154422984",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "9693bab03ee82969c399fec9e80cabe856acff9c5963094543dcb940a2cdafaa"
+  },
+  "created_at": "2026-10-03T21:31:24+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.198905,
+    "review_reserved_usd": 0.357264,
+    "total_reserved_usd": 0.556169
+  },
+  "downstream_candidate_sha256": "866b9ab1b1d57a3961852dabe2a89954732928c46aca491eda19d7bcdb73512d",
+  "downstream_key": "d01c845441a527f0e19c85633d4bcf6787a7bdb79c213daf55016c182c19b32c",
+  "downstream_previous_sha256": "e0d7e78f69d8172f6663a594189d7b04c257e7307f548ff0210fca763cdcef80",
+  "downstream_previous_task": "4f41f9927887384ec536af9746794a04",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<p>…When the Psalmist wrote…</p> (second paragraph of source.html)",
+      "severity": "major",
+      "source_quote": "When the Psalmist wrote, “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+      "suggested_fix": "Translate Psalmist as ‘গীতিকার’ or ‘কবি’ (preserving theological sense) and preserve the exact English scriptural quotation in parentheses as in the source. For example: “নিশ্চয়ই গীতিকার যখন লেখেছিলেন, “Let the floods clap their hands… (Psalms 98:8-9).”",
+      "translation_quote": "নিশ্চয়ই পুরাণকার যখন লেখেছিলেন, “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9), তখন এই উদ্দীপ্ত বছরের সময়টাই ছিল।"
+    },
+    {
+      "location": "<p>…Hymn History article…</p> (fourth paragraph of source.html)",
+      "severity": "minor",
+      "source_quote": "Millions who never experienced Christ the fountain as described in the Hymn History article in this issue:",
+      "suggested_fix": "Render the title reference idiomatically and clearly in Bengali while preserving the sense that this is the magazine section/title. Use a readable translation such as “এই সংখ্যায় প্রকাশিত ‘Hymn History’ শিরোনামের নিবন্ধে বর্ণিত ফোয়ারা” or keep the English title in quotes if it is a section name: “...as described in the ‘Hymn History’ article in this issue.”",
+      "translation_quote": "লক্ষ লক্ষ যারা কখনোই খ্রিস্ট—এই সংস্করণ-ইতিহাস-গীতের নিবন্ধে বর্ণিত ফোয়ারা হিসেবে অভিজ্ঞ হয়নি:"
+    },
+    {
+      "location": "<p>…words of the prophet Isaiah…</p> (final paragraphs before closing)",
+      "severity": "minor",
+      "source_quote": "let us be reminded of the words of the prophet Isaiah, “For as the earth bringeth forth her bud …” (Isaiah 61:11).",
+      "suggested_fix": "Translate ‘the prophet Isaiah’ correctly and avoid redundant phrasing. For example: “তাহলে চলুন নবী ইশায়ার (Isaiah) এর কথাগুলো স্মরণ করি: “For as the earth bringeth forth her bud …” (Isaiah 61:11).” Preserve the exact English scripture quotation in parentheses as in the source.",
+      "translation_quote": "তেমন আমরা আমাদের বাগান রোপণ করি এবং গাছগুলোকে ফুলে ফোটতে দেখি, তেমনি নবজাত জীবনের কথা স্মরণ করিয়ে দেয় নববাণী—যেমন নববাণী Isaiah-এর কথায় আছে, “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)।"
+    }
+  ],
+  "id": "3d9163ef87c1a8ad16edcfe3d46dc1e3",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "ben",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

@@ -1,0 +1,185 @@
+{
+  "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37154422984",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "d21c2ae93c88d0a64ea41cc43ea8045f54381d613bdd4cb6274c773119d2ead7"
+  },
+  "created_at": "2026-10-03T21:31:24+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.223834,
+    "review_reserved_usd": 0.367439,
+    "total_reserved_usd": 0.591273
+  },
+  "downstream_candidate_sha256": "8007e21651ca9b9c04d2f47774e3da56e301e5823c00d941194e916da214af66",
+  "downstream_key": "2b7a6113fbac33d74541407533e3ba14e5b374176cd570d04518cc455ed7db51",
+  "downstream_previous_sha256": "e8f74c02a964235256ebc6aa8f4a6d7729ae57b19862bb0e3b6d06bd181ed414",
+  "downstream_previous_task": "635fc1e3999f012b8338f00541af749b",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "source.html — paragraph 3 (verse quote)",
+      "severity": "major",
+      "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+      "suggested_fix": "Translate this quoted Scripture text into Arabic while preserving the original printed English wording (i.e., render the exact words of the article's English quotation into Arabic). Replace the English quote with an Arabic rendering that directly reflects the source quote, and keep the reference (2 Timothy 1:7) unchanged and in parentheses.",
+      "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+    },
+    {
+      "location": "source.html — paragraph 6 (Paul quote)",
+      "severity": "major",
+      "source_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)",
+      "suggested_fix": "Translate this quoted Scripture/Paul quotation into Arabic preserving the printed English wording of the source (i.e., render the English text into Arabic consistent with the article's quoted phrasing). Keep the verse reference (2 Corinthians 7:5) exactly as in the source.",
+      "translation_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
+    },
+    {
+      "location": "source.html — paragraph 4 (Job quote)",
+      "severity": "major",
+      "source_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)",
+      "suggested_fix": "Translate this quoted Scripture text into Arabic preserving the printed English wording of the source (render the English quotation into Arabic). Leave the citation (Job 15:21, 22) unchanged.",
+      "translation_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)"
+    },
+    {
+      "location": "source.html — section with multiple Scripture quotations and lists (Job 23:1-6 and Psalms, etc.)",
+      "severity": "major",
+      "source_quote": "“Then Job answered and said, Even to day is my complaint bitter: my stroke is heavier than my groaning. Oh that I knew where I might find him! ... No; but he would put strength in me.” (Job 23:1-6)  \n\n<li>David —“I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2)</li>\n<li>Hannah —“For out of the abundance of my complaint and grief have I spoken hitherto.” (1 Samuel 1:16)</li>\n<li>Jeremiah —“He hath filled me with bitterness, he hath made me drunken with wormwood.” (Lamentations 3:15)</li>\n<li>Naomi —“Call me Mara: for the Almighty hath dealt very bitterly with me.” (Ruth 1:20)</li>\n<li>Hezekiah —“He will cut me off with pining sickness: from day even to night wilt thou make an end of me.” (Isaiah 38:12)</li>\n<li>Jesus — “My God, my God, why hast thou forsaken me?” (Matthew 27:46)</li>",
+      "suggested_fix": "All of these quoted biblical lines are printed in English in the source and must be rendered into Arabic in a way that conveys the printed English wording of the article (i.e., translate the article's English quotations into Arabic consistently). Do not substitute a different Bible version or paraphrase; produce Arabic translations that reflect the exact English text given in the source, and keep verse citations unchanged and in their original form.",
+      "translation_quote": "“Then Job answered and said, Even to day is my complaint bitter: my stroke is heavier than my groaning. Oh that I knew where I might find him! ... No; but he would put strength in me.” (Job 23:1-6)  \n\n<li>داود —“I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2)</li>\n<li>حنّة —“For out of the abundance of my complaint and grief have I spoken hitherto.” (1 Samuel 1:16)</li>\n<li>إرميا —“He hath filled me with bitterness, he hath made me drunken with wormwood.” (Lamentations 3:15)</li>\n<li>نعومي —“Call me Mara: for the Almighty hath dealt very bitterly with me.” (Ruth 1:20)</li>\n<li>حزقيا —“He will cut me off with pining sickness: from day even to night wilt thou make an end of me.” (Isaiah 38:12)</li>\n<li>يسوع — “My God, my God, why hast thou forsaken me?” (Matthew 27:46)</li>"
+    },
+    {
+      "location": "source.html — paragraph 17 (quote containing 1 John 4:18)",
+      "severity": "major",
+      "source_quote": "“there is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.” (1 John 4:18)",
+      "suggested_fix": "Translate this quoted Scripture text into Arabic in a way that conveys the printed English wording of the source quotation. Keep the verse reference (1 John 4:18) unchanged.",
+      "translation_quote": "“there is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.” (1 John 4:18)"
+    },
+    {
+      "location": "source.html — paragraph 24 (Isaiah quote)",
+      "severity": "major",
+      "source_quote": "“... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)",
+      "suggested_fix": "Translate this quoted Scripture text into Arabic reflecting the printed English wording of the article's quotation. Preserve the original verse citation (Isaiah 8:12, 13).",
+      "translation_quote": "“... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)"
+    },
+    {
+      "location": "source.html — paragraph 26 (1 Peter quote)",
+      "severity": "major",
+      "source_quote": "\"the grace that is to be brought unto you at the revelation of Jesus Christ;\" (1 Peter 1:13)",
+      "suggested_fix": "Translate this quoted Scripture phrase into Arabic conveying the printed English wording of the source. Keep the reference (1 Peter 1:13) unchanged.",
+      "translation_quote": "\"the grace that is to be brought unto you at the revelation of Jesus Christ;\" (1 Peter 1:13)"
+    },
+    {
+      "location": "source.html — final blockquote (Philippians 4:7,8)",
+      "severity": "major",
+      "source_quote": "“And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus. Finally, brethren, whatsoever things are true... think on these things.” — Philippians 4:7, 8",
+      "suggested_fix": "Translate the entire blockquoted passage into Arabic so that it conveys the printed English wording used in the source article. Preserve the line breaks and the verse citation (Philippians 4:7, 8) as in the source.",
+      "translation_quote": "“And the peace of God,<br>\n    which passeth all understanding,<br>\n    shall keep your hearts and minds through Christ Jesus.<br>\n    Finally, brethren, whatsoever things are true,<br>\n    whatsoever things are honest, whatsoever things are just,<br>\n    whatsoever things are pure, whatsoever things are lovely,<br>\n    whatsoever things are of good report;<br>\n    if there be any virtue, and if there be any praise,<br>\n    think on these things.” — Philippians 4:7, 8"
+    },
+    {
+      "location": "source.html — paragraph 1 (minor grammar)",
+      "severity": "minor",
+      "source_quote": "\"the child would die of the strain\"",
+      "suggested_fix": "In Arabic translation the phrase appears as “تموت الطفلة من هذه الإرهاق” (incorrect gender/number). Change to grammatically correct Arabic: “تموت الطفلة من هذا الإرهاق” or “تموت الطفلة من الإرهاق.”",
+      "translation_quote": "\"خشي طبيب العائلة أن تموت الطفلة من هذه الإرهاق\""
+    }
+  ],
+  "id": "ea0b9a24b1687f38cfc136fd5317ba25",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "ara",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/26b7a664a367b633bc68dce4ce41099ba34f55c7da13d83df0ec0180ed003d97.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

@@ -1,0 +1,150 @@
+{
+  "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37154422984",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "ce81cada45d5e20aa80429acb086803be3ba51b286d3a28aeb9e2f8c770a5b90"
+  },
+  "created_at": "2026-10-03T21:31:24+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.209239,
+    "review_reserved_usd": 0.366057,
+    "total_reserved_usd": 0.575296
+  },
+  "downstream_candidate_sha256": "16ed331e62f12159ee0b7a96348beb53605bb403c6d2260e18a17184c04e8ea1",
+  "downstream_key": "f791bb19c4795296244d01147249c8d73597d7e29889da2e1279d1cb85269021",
+  "downstream_previous_sha256": "f2fc58674702a71fff169274bd10ebabc166d2f3ec18c1f63e51d355091f0ce4",
+  "downstream_previous_task": "923e60e7f49687932c0a94dcbfc38e2e",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<article> third paragraph of 'Through the Church' section (paragraph beginning 'Nothing is dearer to the heart of God than His church.')",
+      "severity": "major",
+      "source_quote": "When Solomon dedicated the temple as God's dwelling place, God was very pleased and 2 Chronicles 7:1 says the glory of the Lord filled the temple.",
+      "suggested_fix": "Translate the entire sentence into Chinese (do not leave the mid-sentence clause in English). Keep the scripture reference intact or keep the original quoted verse in English in parentheses. For example: “当所罗门将殿献为神的居所时，神甚为喜悦；正如历代志下 7:1 所记，主的荣耀充满了殿。” (或将 “2 Chronicles 7:1 says the glory of the Lord filled the temple.” 改为 “（参见 2 Chronicles 7:1：‘the glory of the Lord filled the temple’）”)",
+      "translation_quote": "当所罗门将殿献为神居所时，神甚为喜悦，2 Chronicles 7:1 says the glory of the Lord filled the temple. 那殿被看为耶和华的殿——耶稣自己屡次称其为神的家，并极力要求当保持圣洁。"
+    },
+    {
+      "location": "subtitle field",
+      "severity": "minor",
+      "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "suggested_fix": "Translate the subtitle into Mandarin or present a Chinese translation immediately followed by the original English in parentheses. Preserve the scripture attribution. Example: “出于锡安，美的完全，神发光。诗篇 50:2”（Out of Zion... Psalms 50:2）",
+      "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
+    },
+    {
+      "location": "multiple verses quoted inline throughout article",
+      "severity": "minor",
+      "source_quote": "Isaiah 33:17; Psalm 27:4; 2 Corinthians 4:4-6; 1 Corinthians 13:12; Isaiah 61:3; Psalm 19:1; Romans 1:20; Revelation 14:2; Psalm 48:1-2; Revelation 21:2-3; Hebrews 12:12; Psalm 37:4",
+      "suggested_fix": "Decide on a consistent treatment for quoted Bible verses in the translated article: either (a) translate the surrounding explanatory text into Chinese while leaving the exact printed English verse quotations in English (as currently done in many places), or (b) provide a Chinese rendering of the quoted verse that conveys the printed English wording, followed by the English verse in parentheses if desired. Do not substitute or alter the sense of the original English quotations. Apply the chosen approach consistently throughout the article.",
+      "translation_quote": "Several scripture quotations are left in English within parentheses (e.g. “Thine eyes shall see the king in his beauty: ... (Isaiah 33:17)”, “One thing have I desired of the LORD... (Psalm 27:4)”, etc.)."
+    },
+    {
+      "location": "final figure img alt text",
+      "severity": "minor",
+      "source_quote": "A puffball fungus growing on a mossy forest floor",
+      "suggested_fix": "The translation rendered this as “一簇孢子囊菌在长满苔藓的森林地面上生长”. This is acceptable, but if a more common Mandarin rendering is preferred, consider “一株孢囊菌生长在长满苔藓的森林地面上”。No doctrinal change; this is a stylistic alternative. No mandatory change required.",
+      "translation_quote": "一簇孢子囊菌在长满苔藓的森林地面上生长"
+    }
+  ],
+  "id": "90e4cbd047ebe2a2c36adbad5e72f913",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "cmn",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

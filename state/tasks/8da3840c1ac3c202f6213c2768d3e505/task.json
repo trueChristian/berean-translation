@@ -1,0 +1,150 @@
+{
+  "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37154422984",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "9693bab03ee82969c399fec9e80cabe856acff9c5963094543dcb940a2cdafaa"
+  },
+  "created_at": "2026-10-03T21:31:24+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.23724,
+    "review_reserved_usd": 0.369903,
+    "total_reserved_usd": 0.607143
+  },
+  "downstream_candidate_sha256": "4ed764c86031e7f5af03422202c0a84271535038bb6c3d3bce7488234833966b",
+  "downstream_key": "df9448a2256fff7b1cbac7808d52e6a054cd6d0bf31ffcb49499ae4f9244d389",
+  "downstream_previous_sha256": "0a878b011103f6a9bd6e9ddc92132c85a5e45349795a312d4c713ccbe36a3a60",
+  "downstream_previous_task": "22dba05f3ffdbc92f32ac76e1d3144b8",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "source.html — first paragraph and subsequent scripture-quotation paragraphs",
+      "severity": "critical",
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+      "suggested_fix": "Translate or render these quoted Scripture lines into Bengali so they convey the printed English wording of the authoritative article, preserving the verse references and any parenthetical clarifications. For example, replace the English quotes with Bengali renderings that faithfully convey the printed English text, while keeping the parenthetical verse citations intact and in the same position inside the paragraph. Preserve all existing HTML tags and attributes exactly. (Do not replace with a different Bible version; the Bengali text should reflect the English sentences presented in the source.)",
+      "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+    },
+    {
+      "location": "source.html — section headers and subheadings (beginning of second half)",
+      "severity": "major",
+      "source_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ...</p>",
+      "suggested_fix": "Translate the heading and the emphasized subheadings into Bengali while preserving their HTML markup. For example replace <h2>How can we live a morally pure life?</h2> with a Bengali equivalent inside the same <h2> tag, and replace <strong>Be Humble.</strong> (and the other <strong>...</strong> subheadings) with Bengali equivalents, keeping the <strong> tags and surrounding paragraph tags unchanged. Scripture citations and quoted English phrases inside the paragraph (if intentionally left as printed English) should be handled as in the earlier fix to ensure consistency with the source's printed English wording requirement.",
+      "translation_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ...</p>"
+    },
+    {
+      "location": "source.html — image alt attribute",
+      "severity": "major",
+      "source_quote": "<img src=\"/images/articles/b43320f3-e4e8-450b-865c-099ef704149c-1.jpg\" alt=\"An orange-and-black butterfly perched beside red berries\">",
+      "suggested_fix": "Correct the alt text to accurately reflect the English source alt description. Replace the current Bengali alt value with a faithful Bengali rendering of the English source alt (not adding or inventing details). Preserve the img tag and its attributes exactly except for the alt text. For example: alt=\"কমলা ও কালো রঙের প্রজাপতি লাল বেরির পাশে বসে আছে\"",
+      "translation_quote": "<img src=\"/images/articles/b43320f3-e4e8-450b-865c-099ef704149c-1.jpg\" alt=\"লাল বেরি-ফুলের পাশে বসা কমলা-কালোতৃণপাতা পাতার ওপরে দ্বিতীয় আপতিত প্রজাপতি\">"
+    },
+    {
+      "location": "source.html — multiple in-body quoted English scripture lines later in article (e.g., John 10:10, James 1:15, Hebrews 4:13, Numbers 32:23, Psalm citations)",
+      "severity": "major",
+      "source_quote": "John 10:10, James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.” Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”",
+      "suggested_fix": "Render the in-text quoted Scripture sentences into Bengali so they convey the printed English wording from the source, and keep verse references where they appear. Ensure the Bengali rendering is faithful to the English text displayed in the authoritative article (do not substitute another Bible translation’s wording). Keep the sentence punctuation and placement inside the same paragraph and preserve all HTML tags.",
+      "translation_quote": "John 10:10-এ যীশু বলেছেন, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” সব ধার্মিক সম্পর্ককেই। ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 এখনো খুবই সত্য, বলে, “Be sure your sin will find you out.”"
+    }
+  ],
+  "id": "8da3840c1ac3c202f6213c2768d3e505",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "ben",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
