@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[8]/em[1]; translation /article[1]/p[8]",
+      "severity": "critical",
+      "source_quote": "…aily basis. Our verdict of others is our own verdict. Often our judgment of a minister or a sermon is really the judgment of ourselves. We are listening, not with the bodily ear, but with our loves and hates, our grudges and preferences. We are listening through the hidden recesses within our heart. When Christ said, <em>…ye cannot hear my word –John 8:43,</em> it was not due to the lack of a microphone. There was no physical barrier. The hurdle was spiritual. Prejudices, jealousies, and antagonisms made the message of Christ inaudible to them, though every syllable fell upon their ears.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[29:31], translation signature[29:29], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>这每天都在我们身上不断发生。我们对别人的裁断，其实就是对自己的裁断。我们对一位牧者或一篇讲道的判断，往往实际上是对自己的判断。我们聆听时用的不是身体的耳朵，而是我们的爱与恨、怨怼与偏好。我们透过内心深处隐秘的角落来听。基督说：“……你们不能听我的道。”——约翰福音 8:43，并不是因为没有麦克风，也没有任何身体上的障碍。障碍在于属灵层面。偏见、嫉妒和敌意使基督的信息在他们耳中变得听不见，尽管每一个音节都传入了他们的耳朵。</p>"
+    },
+    {
+      "location": "Source /article[1]/p[17]/em[1]; translation /article[1]/p[17]",
+      "severity": "critical",
+      "source_quote": "…o their melancholy mood. They had read the prophets, heard Christ speak, perhaps had seen the miracles, and then had watched Him suffer and die. While they marveled at this newcomer’s oblivious ignorance to the current events, He described them as <em>…slow of heart to believe all that the prophets have spoken –Luke 24:25.</em> As the evening continued and they realized that they had been face to face with the resurrected Savior, <em>…they said one to another, Did not our heart burn within us, while he talked with us by the way, and while he opened to us the scriptures? –Luke 24:32.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[74:78], translation signature[72:72], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>两个衣衫褴褛的门徒沿着去以马忤斯的路蹒跚前行时，一位从天而来的访客追上了他们，询问他们为何如此忧郁。他们读过先知书，听过基督讲道，也许还看过祂行神迹，后来又目睹祂受苦而死。两人惊讶于这位新来者对眼下发生的事竟一无所知；祂却说他们是“……心里迟钝，不信先知所说的一切话。”——路加福音 24:25。傍晚时分过去，他们认出自己曾与复活的救主面对面，便“……彼此说：‘在路上祂和我们说话，给我们讲解圣经的时候，我们的心岂不是火热的吗？’”——路加福音 24:32。</p>"
+    },
+    {
+      "location": "Source /article[1]/p[19]/em[1]; translation /article[1]/p[19]",
+      "severity": "critical",
+      "source_quote": "…fference. Had he laid his message upon the ears of a pair of young lovers out on an evening stroll, they would have exited His presence at the first opportunity. Had He revealed Himself to the proud religious zealots, perhaps they would have attempted to kill Him again. No, this sermon fell upon the voracious appetite of devout seekers, and their hearts burned with the rapturous revelation falling upon their ears. So ardent was their love that <em>…they rose up the same hour, and returned to Jerusalem, and found the eleven gathered together, and them that were with them –Luke 24:33.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[82:84], translation signature[76:76], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>使人心里火热，主要是圣灵和听见讲道之人的责任。基督若对心地刚硬的罗马士兵说同样的话，可能只会遭到卑劣的冷漠。祂若在傍晚散步时向一对年轻恋人传讲，他们会一有机会就离开祂。祂若向骄傲的宗教狂热分子显明自己，他们或许会再次试图杀害祂。不，这篇讲道落在了切慕真理的敬虔寻求者心中；当那令人欣喜的启示传入他们耳中时，他们的心便燃烧起来。他们的爱是如此炽热，以致“……就在那时，他们起身回耶路撒冷，发现十一个使徒和同他们在一起的人聚集在那里。”——路加福音 24:33。</p>"
+    },
+    {
+      "location": "Source /article[1]/p[20]/em[1]; translation /article[1]/p[20]",
+      "severity": "critical",
+      "source_quote": "…s barbed. It is by love and hate, generosity and envy that we ingest each and every utterance. Thus, it is vital to self-knowledge not only to take heed to the words we say, but also to what we hear. <em>My sheep hear my voice –John 10:27,</em> says our Master—they hear it because they love the Shepherd. Those who will accept this responsibility must purge themselves from the rabble of earth-linked daydreams in order to give ear to the rising Day Star as His glowing rays dawn upon their burning hearts. <em>We have also a more sure word of prophecy; whereunto ye do well that ye take heed, as …",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[86:90], translation signature[78:78], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>我们一切的盼望都在于我们如何聆听，一切的自私也在于我们如何聆听——我们曾追求的一切正当之事，以及我们曾行的一切错误之事。爱一个人，他的话就甜美；恨一个人，他的每句话都带刺。我们以爱与恨、慷慨与嫉妒来领受每一句话。因此，要认识自己，不仅要留心自己说的话，也要留心自己听的话，这至关重要。我们的主说：“我的羊听我的声音。”——约翰福音 10:27；他们听见，是因为他们爱牧人。愿意承担这份责任的人，必须清除心中那些与尘世纠缠的杂念，才能侧耳倾听那升起的晨星；当祂发光的光辉照亮他们燃烧的心时，他们便得以聆听。“我们并有先知更确的预言；你们留意这预言，犹如留意照在暗处的灯，直等到天发亮，晨星在你们心里升起。”——彼得后书 1:19。</p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[29]: source /article[1]/p[8]/em[1] ('start', 'em', ()); translation /article[1]/p[8] ('end', 'p')",
+  "stage": "translate"
+}

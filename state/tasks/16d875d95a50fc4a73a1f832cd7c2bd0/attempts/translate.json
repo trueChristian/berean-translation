@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:27+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\\\" alt=\\\"Tre barche a vela su acque calme\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>La notte era quieta, l’aria cupa.</p>\\n\\n    <p>Un uomo camminava solo; la direzione era incerta.</p>\\n\\n    <p>Una battaglia infuriava nella sua anima inquieta.</p>\\n\\n    <p>Era a un bivio, con tutta la sua vita davanti.</p>\\n\\n    <p>Credeva in Dio, o almeno così pensava.</p>\\n\\n    <p>Obbediva a ciò che sapeva, a tutto quello che gli avevano insegnato.</p>\\n\\n    <p>Ma qualcosa non va, mi manca qualcosa.</p>\\n\\n    <p>Ho vissuto come tanti altri, ripensando alla mia vita.</p>\\n\\n    <p>Ma vado in chiesa! Canto e prego!</p>\\n\\n    <p>Ho persino aiutato il vicino, proprio l’altro giorno!</p>\\n\\n    <p>Lottava con la propria mente, giustificando il male.</p>\\n\\n    <p>Era Dio che operava, sembrava davvero potente.</p>\\n\\n    <p><em>Il fatto è che mi manca la fiducia.</em></p>\\n\\n    <p><em>Credo in me stesso, non nel Dio di un tempo.</em></p>\\n\\n    <p>Dio vuole manifestare la sua potenza ogni giorno nella mia vita.</p>\\n\\n    <p>Vuole che io sia messo alla prova; Egli è la Vita e la Via.</p>\\n\\n    <p>Non c’è nessuno migliore in cui riporre tutta la propria fiducia;</p>\\n\\n    <p>se non Dio onnipotente. Per ogni uomo è un dovere!</p>\\n  </div>\\n\\n  <p><em>–di Barry Grant</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"La chiamata\"}",
+    "content_bytes": 1538,
+    "content_evidence_truncated": false,
+    "content_sha256": "3f20421f5ff0f3b296b9a769666be39b50a3db34a8e62755893d0063a91dd695",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 668,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1415,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1412,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2083
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

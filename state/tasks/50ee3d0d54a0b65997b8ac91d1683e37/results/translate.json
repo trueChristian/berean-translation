@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2143bf8c-fbf7-472d-b455-6620ed5ac086",
+    "response_id": "chatcmpl-EUpF1cSA0JpXq2axrF9h4ZZx89GC5",
+    "usage": {
+      "completion_tokens": 715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 51,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1452,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1449,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2167
+    }
+  },
+  "received_at": "2026-10-03T10:40:28+00:00",
+  "result": {
+    "html": "<article data-article-id=\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\">\n  <figure>\n    <img src=\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\" alt=\"Mistige immergroen woud\">\n  </figure>\n\n  <p><em>Daarom, heilige broeders, deelgenote van die hemelse roeping… –Hebreërs 3:1.</em></p>\n\n  <div class=\"poem\">\n    <p>Ware wysheid daag in geleidelike strale,<br>\n    Klein treetjies, skaars raakgesien.<br>\n    Verby die boeke van jou jong dae,<br>\n    Wink dit jou na daardie heuwel.<br>\n    Hou moed en volhard geduldig...<br>\n    “Voorwaarts! Opwaarts! Steeds hoër!”</p>\n\n    <p>Soms kwel ons ons met neerslagtige gemoed,<br>\n    Ons moed kwyn in skroeiende koue.<br>\n    Ons het nie die aardse ereplek behaal nie,<br>\n    Hoop het gekwyn, die wil verslaan.<br>\n    Maar luister na die klank, die luiende klok...<br>\n    “Voorwaarts! Opwaarts! Steeds hoër!”</p>\n\n    <p>Versoekings kom op en plesier roep,<br>\n    Hulle verruil die waarheid vir ’n leë opwinding.<br>\n    Dié wat toegee, is dié wat val,<br>\n    En nie God se geseënde wil volbring nie.<br>\n    Wie vir die vlees saai, sal net bitterheid maai...<br>\n    “Voorwaarts! Opwaarts! Steeds hoër!”</p>\n\n    <p>In die dae van oorvloedige jeugjare,<br>\n    Met vars drome om na te streef en te vervul.<br>\n    ’n Nederige hart sal meer trane spaar,<br>\n    As al die lewe se groot vernuf en wilskrag.<br>\n    Hy wat wen, is hy wat luister...<br>\n    “Voorwaarts! Opwaarts! Steeds hoër!”</p>\n  </div>\n\n  <p><em>–deur Lee Rufener</em></p>\n\n  <p><em>Ek jaag na die doel om die prys te verkry van die<br>\n  hoë roeping van God in Christus Jesus –Filippense 3:14.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "DIE HEMELSE ROEPING"
+  }
+}

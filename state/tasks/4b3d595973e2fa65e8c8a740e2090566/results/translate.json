@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4daac0a5-1caf-46ef-a66b-49c53d31df85",
+    "response_id": "chatcmpl-EUpFpSNCOYGkBHkArUGfqr5GJWP16",
+    "usage": {
+      "completion_tokens": 1023,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 171,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1644,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1641,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2667
+    }
+  },
+  "received_at": "2026-10-03T10:40:28+00:00",
+  "result": {
+    "html": "<article data-article-id=\"71acc7cf-0c85-4e46-9a50-7afaeca6c9ac\">\n  <figure>\n    <img src=\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg\" alt=\"Rumput dan air berkabut dengan rusa, separuh kiri foto dua halaman\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Tuhan, rasa sakit ini seakan tak tertanggungkan.<br>\n    Hal-hal yang dahulu dikasihi kini harus mati.<br>\n    Begitu banyak hati yang terluka.<br>\n    Tak seorang pun dapat menahan air mata.</p>\n\n    <p>Kami menangis, meronta, dan berdoa,<br>\n    Memohon, Tuhan, agar cawan ini dijauhkan.<br>\n    Kami mencoba apa pun yang kami kira dapat mengubahnya,<br>\n    Namun semua upaya seakan kembali kepada kami dengan sia-sia.</p>\n\n    <p>Bapa, kami berseru memohon belas kasihan,<br>\n    Andai saja kami semua dapat luput dari rasa sakit ini.<br>\n    Namun, Tuhan, Engkau menyuruh kami menjalaninya;<br>\n    Engkau telah memperjelas bahwa tangan-Mu bekerja dalam semua ini.</p>\n\n    <p>Pikiran kami seakan berputar saat merenungkan,<br>\n    Apa sebenarnya yang hendak Engkau lakukan.<br>\n    Namun kami tahu, apa pun yang kami rasakan,<br>\n    Ada alasan mengapa badai ini harus kami lalui.</p>\n\n    <p>Maka, Bapa, kini kami bersujud di kaki-Mu,<br>\n    Mengakui kuasa-Mu yang mahakuasa.<br>\n    Kami tak mampu memahami setiap perinciannya,<br>\n    Namun kami percaya pada akhirnya semua akan baik-baik saja.</p>\n\n    <p>Tolonglah kami, Bapa, agar rela hancur,<br>\n    Menyerahkan seluruh diri kami kepada-Mu.<br>\n    Hak, impian, ambisi, dan milik kami,<br>\n    Membuka segalanya bagi-Mu untuk melihatnya.</p>\n\n    <p>Tumbuhkanlah dalam diri kami, Tuhan, kerendahan hati,<br>\n    Yang tenang, namun dalam dan tulus.<br>\n    Itulah permata yang hanya dapat diajarkan oleh pencobaan.<br>\n    Tuhan, melalui semua ini, jadikanlah kami semakin serupa dengan-Mu!</p>\n\n    <p>Kiranya mata kami tertuju kepada-Mu, Bapa,<br>\n    Bukan kepada badai dahsyat ini.<br>\n    Sebab Engkau telah melalui air yang dalam ini,<br>\n    Tak ada yang akan menang selain rencana-Mu.</p>\n\n    <p>Taat bahkan sampai mati, Tuhan,<br>\n    Betapapun besarnya harga yang harus dibayar.<br>\n    Berilah kami pandangan akan harta surgawi,<br>\n    Yang nilainya tak mungkin dilampaui oleh harga duniawi.</p>\n  </div>\n\n  <p><em>–Oleh Adrianna H. Fanton</em></p>\n\n  <figure>\n    <img src=\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg\" alt=\"Rusa di dekat pohon besar dan air yang tenang dalam kabut, separuh kanan foto dua halaman\">\n  </figure>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Bukan Kehendakku"
+  }
+}

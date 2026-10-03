@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8dc61a20-8b09-468f-998e-b205fe6a06eb",
+    "response_id": "chatcmpl-EUp95NxZsOKJMIM9hUfSxQyCCVRip",
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1452,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1449,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2274
+    }
+  },
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "result": {
+    "html": "<article data-article-id=\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\">\n  <figure>\n    <img src=\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\" alt=\"Msitu wa miti ya kijani kibichi uliofunikwa na ukungu\">\n  </figure>\n\n  <p><em>Kwa hiyo, ndugu watakatifu, washiriki wa mwito wa mbinguni… –Waebrania 3:1.</em></p>\n\n  <div class=\"poem\">\n    <p>Hekima ya kweli huchomoza kwa miale ya polepole,<br>\n    Hatua ndogo zikionekana kana kwamba hazipo kabisa.<br>\n    Zaidi ya vitabu vya siku za ujana,<br>\n    Hukuita kwenye kilima kile kilicho mbali.<br>\n    Vumilia, usonge mbele kwa subira...<br>\n    “Mbele! Juu! Juu zaidi!”</p>\n\n    <p>Nyakati nyingine tunahangaika, mioyo ikiwa imelemewa,<br>\n    Ujasiri wetu hupungua katika baridi kali inayochoma.<br>\n    Tumeshindwa kuorodheshwa miongoni mwa wenye heshima duniani,<br>\n    Matumaini yamepungua, nia zimevunjika moyo.<br>\n    Lakini sikiliza sauti, mlio unaovuma...<br>\n    “Mbele! Juu! Juu zaidi!”</p>\n\n    <p>Majaribu huibuka, na anasa hutuita,<br>\n    Huuza ukweli kwa msisimko mtupu.<br>\n    Wanaokubali kuyashawishiwa ndio huanguka,<br>\n    Hawatimizi mapenzi ya Mungu yenye baraka.<br>\n    Wapandao kwa ajili ya mwili watavuna uchungu tu...<br>\n    “Mbele! Juu! Juu zaidi!”</p>\n\n    <p>Katika siku za miaka ya ujana iliyojaa,<br>\n    Tukiwa na ndoto mpya za kutafuta na kutimiza.<br>\n    Moyo mnyenyekevu huzuia machozi mengi zaidi,<br>\n    Kuliko akili na nia kuu zote za maisha.<br>\n    Ashindaye ni yule asikiaye...<br>\n    “Mbele! Juu! Juu zaidi!”</p>\n  </div>\n\n  <p><em>–na Lee Rufener</em></p>\n\n  <p><em>Nakaza mwendo niifikilie mede ya thawabu ya mwito mkuu wa Mungu katika Kristo Yesu –Wafilipi 3:14.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "MWITO WA MBINGUNI"
+  }
+}

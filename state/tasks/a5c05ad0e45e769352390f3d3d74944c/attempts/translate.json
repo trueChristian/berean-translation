@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\\\" alt=\\\"Trois voiliers sur une eau calme\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>La nuit était calme, l’air était sombre.</p>\\n\\n    <p>Un homme marchait seul, sans savoir où aller.</p>\\n\\n    <p>Une bataille faisait rage dans son âme tourmentée.</p>\\n\\n    <p>Il était à la croisée des chemins, toute sa vie en jeu.</p>\\n\\n    <p>Il croyait en Dieu, du moins le pensait-il.</p>\\n\\n    <p>Il obéissait à ce qu’il savait, à tout ce qu’on lui avait enseigné.</p>\\n\\n    <p>Mais quelque chose ne va pas, il me manque quelque chose.</p>\\n\\n    <p>J’ai vécu comme la plupart des autres, à revoir ma vie.</p>\\n\\n    <p>Mais je vais à l’église ! Je chante et je prie !</p>\\n\\n    <p>J’ai même aidé mon voisin, l’autre jour !</p>\\n\\n    <p>Il luttait dans son esprit, justifiant le mal.</p>\\n\\n    <p>C’était Dieu qui agissait ; Il semblait très puissant.</p>\\n\\n    <p><em>En fait, ce qui me manque, c’est l’assurance.</em></p>\\n\\n    <p><em>Je crois en moi, et non au Dieu d’autrefois.</em></p>\\n\\n    <p>Dieu veut montrer sa puissance chaque jour dans ma vie.</p>\\n\\n    <p>Il veut que je sois éprouvé ; Il est la Vie et le Chemin.</p>\\n\\n    <p>Il n’y a personne de meilleur en qui placer toute sa confiance ;</p>\\n\\n    <p>que le Dieu tout-puissant. C’est indispensable à tous les hommes !</p>\\n  </div>\\n\\n  <p><em>–par Barry Grant</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"L’appel\"}",
+    "content_bytes": 1630,
+    "content_evidence_truncated": false,
+    "content_sha256": "092d28723a664df910fbac054374b894c0d0980d6ec0a124e8baccd4fb7bc8a4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 126,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1417,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1414,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2103
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5a613ce9-6fcf-43b5-b6c3-c2f14de18f08",
+    "response_id": "chatcmpl-EUp9toSNlI4Kgq1vBzvp6h4beLCzf",
+    "usage": {
+      "completion_tokens": 919,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 41,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1639,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2561
+    }
+  },
+  "received_at": "2026-10-03T10:40:30+00:00",
+  "result": {
+    "html": "<article data-article-id=\"71acc7cf-0c85-4e46-9a50-7afaeca6c9ac\">\n  <figure>\n    <img src=\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg\" alt=\"Erba e acqua avvolte nella nebbia, con cervi; metà sinistra di una fotografia su due pagine\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Signore, questo dolore sembra insopportabile.<br>\n    Ciò che un tempo amavamo ora deve morire.<br>\n    Troppi cuori sanguinano.<br>\n    Nessuno è riuscito a trattenere le lacrime.</p>\n\n    <p>Abbiamo pianto, ci siamo contorti e abbiamo pregato,<br>\n    chiedendo, Signore, di evitare questo calice.<br>\n    Abbiamo tentato ciò che pensavamo potesse cambiarlo,<br>\n    ma ogni tentativo ci è sembrato vano.</p>\n\n    <p>Padre, abbiamo implorato la tua misericordia,<br>\n    tutti avrebbero voluto sfuggire a questo dolore.<br>\n    Ma, Signore, ci hai chiesto di attraversarlo;<br>\n    hai reso chiara la tua mano in tutto questo.</p>\n\n    <p>La mente sembra girarci vorticosamente mentre ci chiediamo<br>\n    che cosa esattamente tu stia cercando di fare.<br>\n    Eppure sappiamo che, qualunque cosa proviamo,<br>\n    c’è un motivo per cui dobbiamo attraversare questa tempesta.</p>\n\n    <p>Così, Padre, ora ci prostriamo ai tuoi piedi,<br>\n    riconoscendo la tua onnipotente potenza.<br>\n    Non riusciamo a discernere tutti i particolari,<br>\n    ma confidiamo che alla fine tutto andrà bene.</p>\n\n    <p>Aiutaci, Padre, a essere spezzati,<br>\n    affidandoti tutto ciò che siamo.<br>\n    I nostri diritti, sogni, ambizioni e possedimenti,<br>\n    mettendo ogni cosa alla tua luce.</p>\n\n    <p>Fa’ crescere in noi, Signore, l’umiltà,<br>\n    silenziosa, eppure profonda e autentica.<br>\n    È un gioiello che solo le prove possono insegnare.<br>\n    Signore, attraverso questo, rendici più simili a te!</p>\n\n    <p>Possano i nostri occhi essere rivolti a te, Padre,<br>\n    e non a questa tempesta travolgente.<br>\n    Perché tu hai attraversato queste acque profonde,<br>\n    e nulla se non ciò che hai disposto prevarrà.</p>\n\n    <p>Obbedienti fino alla morte, Signore,<br>\n    per quanto alto possa sembrare il prezzo.<br>\n    Donaci una visione del tesoro celeste,<br>\n    per il quale nessun prezzo terreno è troppo alto.</p>\n  </div>\n\n  <p><em>–Di Adrianna H. Fanton</em></p>\n\n  <figure>\n    <img src=\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg\" alt=\"Cervi accanto a un grande albero e ad acque calme nella nebbia; metà destra di una fotografia su due pagine\">\n  </figure>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Non la mia volontà"
+  }
+}

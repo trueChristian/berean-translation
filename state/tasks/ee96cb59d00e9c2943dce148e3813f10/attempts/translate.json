@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:30+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\\\" alt=\\\"Bosco sempreverde avvolto nella nebbia\\\">\\n  </figure>\\n\\n  <p><em>Perciò, fratelli santi, partecipi della chiamata celeste… –Ebrei 3:1.</em></p>\\n\\n  <div class=\\\"poem\\\">\\n    <p>La vera saggezza sorge a poco a poco,<br>\\n    in gradi minimi, che paion nulla.<br>\\n    Oltre i libri dei giorni giovanili,<br>\\n    ti invita su quel colle lontano.<br>\\n    Persevera e avanza con pazienza...<br>\\n    «Avanti! In alto! Sempre più su!»</p>\\n\\n    <p>A volte ci crucciamo, l’animo affranto,<br>\\n    il coraggio svanisce nel gelo pungente.<br>\\n    Non abbiamo raggiunto gli onori terreni,<br>\\n    scemano speranza e volontà abbattuta.<br>\\n    Ma ascolta il suono, il rintocco squillante...<br>\\n    «Avanti! In alto! Sempre più su!»</p>\\n\\n    <p>Le tentazioni crescono e i piaceri chiamano,<br>\\n    barattano la verità per un brivido vuoto.<br>\\n    Chi cede è chi cade,<br>\\n    senza compiere la volontà benedetta di Dio.<br>\\n    Chi semina nella carne raccoglierà solo amarezza...<br>\\n    «Avanti! In alto! Sempre più su!»</p>\\n\\n    <p>Nei giorni della giovinezza rigogliosa,<br>\\n    con nuovi sogni da cercare e realizzare.<br>\\n    Un cuore umile risparmierà più lacrime<br>\\n    di tutto il grande ingegno e la volontà della vita.<br>\\n    Vince chi ascolta...<br>\\n    «Avanti! In alto! Sempre più su!»</p>\\n  </div>\\n\\n  <p><em>–di Lee Rufener</em></p>\\n\\n  <p><em>Proseguo verso la meta, per ottenere il premio della<br>\\n  chiamata celeste di Dio in Cristo Gesù –Filippesi 3:14.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"LA CHIAMATA CELESTE\"}",
+    "content_bytes": 1785,
+    "content_evidence_truncated": false,
+    "content_sha256": "f2580e8e21994e6b6dc09d7583b09846d89ae2c5c010f42de0a887b14d3fbc17",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1449,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1446,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2078
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

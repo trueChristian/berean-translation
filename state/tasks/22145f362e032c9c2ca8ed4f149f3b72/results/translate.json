@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b295ee79-f808-47fa-90b7-9b4ac66e6a5f",
+    "response_id": "chatcmpl-EUpE5VSXFbYrjNV2ihd4zqtepUnYM",
+    "usage": {
+      "completion_tokens": 762,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 194,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1427,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1424,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2189
+    }
+  },
+  "received_at": "2026-10-03T10:40:27+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6c4d3026-69b5-42c2-92aa-02d8ea8d73cf\">\n  <figure>\n    <img src=\"/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg\" alt=\"平静的水面上有三艘帆船\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>夜色沉静，空气阴冷。</p>\n\n    <p>一个人独自行走，方向不明。</p>\n\n    <p>一场争战在他忧困的灵魂中激烈进行。</p>\n\n    <p>他正站在人生的十字路口，回望一生。</p>\n\n    <p>他相信上帝，或者至少他是这么想的。</p>\n\n    <p>他遵行自己所知的一切——所受的一切教导。</p>\n\n    <p>可总有些不对，我总觉得缺了些什么。</p>\n\n    <p>回顾我的一生，我活得和大多数人一样。</p>\n\n    <p>可我去教会啊！我唱诗，也祷告！</p>\n\n    <p>就在前几天，我还帮助了邻居！</p>\n\n    <p>他在心中挣扎，为自己的过错找借口。</p>\n\n    <p>那是上帝在动工；祂似乎十分有能力。</p>\n\n    <p><em>事实是，我缺少信心。</em></p>\n\n    <p><em>我相信的是自己，不是那位古老的上帝。</em></p>\n\n    <p>上帝要在我的生命中，天天彰显大能。</p>\n\n    <p>祂要我得以验证；祂是生命，是道路。</p>\n\n    <p>没有比祂更值得你全心信靠的了；</p>\n\n    <p>祂就是全能的上帝。人人都必须信靠祂！</p>\n  </div>\n\n  <p><em>——作者：Barry Grant</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "呼召"
+  }
+}

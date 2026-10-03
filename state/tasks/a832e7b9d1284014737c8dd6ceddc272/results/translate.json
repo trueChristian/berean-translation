@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8689ff38-a77a-4f84-9078-84e763f116c6",
+    "response_id": "chatcmpl-EUp7SLGIL76GEdsDWfrGE9FTHy5uZ",
+    "usage": {
+      "completion_tokens": 1076,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 265,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1644,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2723
+    }
+  },
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "result": {
+    "html": "<article data-article-id=\"71acc7cf-0c85-4e46-9a50-7afaeca6c9ac\">\n  <figure>\n    <img src=\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg\" alt=\"Hierba y agua entre la niebla, con ciervos; mitad izquierda de una fotografía de dos páginas\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Señor, este dolor parece insoportable.<br>\n    Lo que una vez amamos ahora debe morir.<br>\n    Tantos corazones sangran.<br>\n    Nadie ha podido contener las lágrimas.</p>\n\n    <p>Hemos llorado, nos hemos retorcido y hemos orado,<br>\n    pidiendo, Señor, que nos evitaras esta copa.<br>\n    Intentamos lo que creímos que podría cambiarlo,<br>\n    pero todos nuestros esfuerzos parecieron ser en vano.</p>\n\n    <p>Padre, hemos clamado por misericordia;<br>\n    todos habríamos escapado de este dolor.<br>\n    Pero, Señor, nos mandaste atravesarlo;<br>\n    has dejado clara tu mano en todo ello.</p>\n\n    <p>La mente parece darnos vueltas mientras reflexionamos<br>\n    sobre qué es exactamente lo que intentas hacer.<br>\n    Sin embargo, sabemos que, sin importar lo que sintamos,<br>\n    hay una razón por la que debemos atravesar esta tormenta.</p>\n\n    <p>Así que, Padre, ahora nos postramos a tus pies,<br>\n    reconociendo tu poder omnipotente.<br>\n    No podemos discernir todos los detalles,<br>\n    pero confiamos en que, al final, todo estará bien.</p>\n\n    <p>Ayúdanos, Padre, a quebrantarnos,<br>\n    entregándote todo lo que somos.<br>\n    Nuestros derechos, sueños, ambiciones y posesiones,<br>\n    dejando todo al descubierto ante ti.</p>\n\n    <p>Haz crecer en nosotros, Señor, la humildad,<br>\n    serena, pero profunda y verdadera.<br>\n    Es una joya que solo las pruebas pueden enseñar.<br>\n    Señor, ¡haznos más semejantes a ti por medio de esto!</p>\n\n    <p>Que pongamos nuestros ojos en ti, Padre,<br>\n    y no en este vendaval abrumador.<br>\n    Pues tú has atravesado estas aguas profundas;<br>\n    nada prevalecerá salvo lo que tú dispongas.</p>\n\n    <p>Obedientes hasta la muerte, Señor,<br>\n    sin importar cuán alto parezca el costo.<br>\n    Danos una visión del tesoro celestial,<br>\n    cuyo valor ninguna cosa terrenal puede superar.</p>\n  </div>\n\n  <p><em>–Por Adrianna H. Fanton</em></p>\n\n  <figure>\n    <img src=\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg\" alt=\"Ciervos junto a un árbol grande y aguas tranquilas entre la niebla; mitad derecha de una fotografía de dos páginas\">\n  </figure>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "No se haga mi voluntad"
+  }
+}

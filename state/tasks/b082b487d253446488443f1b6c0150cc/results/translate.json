@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1bde7602-1876-44a6-aac6-c31bf5037cb4",
+    "response_id": "chatcmpl-EUpDyQkAFod7r2tGF1hqMuDCzQcMA",
+    "usage": {
+      "completion_tokens": 658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1451,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2112
+    }
+  },
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "result": {
+    "html": "<article data-article-id=\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\">\n  <figure>\n    <img src=\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\" alt=\"غابة من الأشجار دائمة الخضرة يكتنفها الضباب\">\n  </figure>\n\n  <p><em>لذلك، أيها الإخوة القديسون، شركاء الدعوة السماوية… – العبرانيين 3:1.</em></p>\n\n  <div class=\"poem\">\n    <p>تشرق الحكمة الحقيقية في أشعة متدرجة،<br>\n    ودرجات دقيقة لا نكاد نلحظها.<br>\n    وما وراء كتب أيام الصبا،<br>\n    تلوّح لك هناك على ذلك التل.<br>\n    تمهّل وواصل السير بصبر...<br>\n    «إلى الأمام! إلى أعلى! إلى الأعالي!»</p>\n\n    <p>أحيانًا نضيق ذرعًا ونفوسنا كئيبة،<br>\n    وتخبو عزيمتنا في برد قارس عاصف.<br>\n    أخفقنا في نيل مراتب الشرف الدنيوية،<br>\n    وخبا الرجاء ووهن العزم.<br>\n    لكن أصغِ إلى الصوت، إلى قرع الجرس...<br>\n    «إلى الأمام! إلى أعلى! إلى الأعالي!»</p>\n\n    <p>تثور التجارب وتنادي الملذات،<br>\n    فتساوم على الحق لقاء نشوة جوفاء.<br>\n    والذين يستسلمون هم الذين يسقطون،<br>\n    ولا يحققون إرادة الله المباركة.<br>\n    ومن يزرع للجسد لا يحصد إلا المرارة...<br>\n    «إلى الأمام! إلى أعلى! إلى الأعالي!»</p>\n\n    <p>في أيام الشباب الفيّاضة،<br>\n    بأحلام جديدة نسعى إليها ونحققها.<br>\n    والقلب المتواضع يجنبنا دموعًا أكثر،<br>\n    مما يجنبه كل ما في الحياة من فطنة وعزم.<br>\n    والفائز هو من يصغي...<br>\n    «إلى الأمام! إلى أعلى! إلى الأعالي!»</p>\n  </div>\n\n  <p><em>– بقلم لي روفينر</em></p>\n\n  <p><em>أسعى نحو الغاية لأجل جائزة<br>\n  دعوة الله العليا في المسيح يسوع – فيلبي 3:14.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "الدعوة السماوية"
+  }
+}

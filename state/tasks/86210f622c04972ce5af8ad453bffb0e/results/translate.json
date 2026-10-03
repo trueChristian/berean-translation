@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cc934844-2966-4e07-80a8-3c904e11cc1f",
+    "response_id": "chatcmpl-EUpAYzhoRcAeyTmAI2CayEAjHyA99",
+    "usage": {
+      "completion_tokens": 973,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 336,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1449,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1446,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2422
+    }
+  },
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "result": {
+    "html": "<article data-article-id=\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\">\n  <figure>\n    <img src=\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\" alt=\"Mistig groenblijvend bos\">\n  </figure>\n\n  <p><em>Daarom, heilige broeders, deelgenoten van de hemelse roeping… –Hebreeën 3:1.</em></p>\n\n  <div class=\"poem\">\n    <p>Ware wijsheid daagt in stralen, langzaam aan,<br>\n    Kleine stapjes, nauwelijks opgemerkt.<br>\n    Voorbij de boeken uit je jonge jaren,<br>\n    wenkt zij je naar die heuvel daar.<br>\n    Houd vol en zet geduldig door...<br>\n    “Voorwaarts! Omhoog! Steeds hoger!”</p>\n\n    <p>Soms tobben we, de ziel terneergeslagen,<br>\n    Onze moed slinkt in snijdende kou.<br>\n    We haalden geen plaats op de erelijst van de wereld,<br>\n    Hoop verzwakt, de wil ontmoedigd.<br>\n    Maar hoor het geluid, de klok slaat...<br>\n    “Voorwaarts! Omhoog! Steeds hoger!”</p>\n\n    <p>Verleidingen steken op en genoegens lokken,<br>\n    Ze ruilen de waarheid in voor een lege kick.<br>\n    Wie toegeeft, is wie ten val komt,<br>\n    En Gods gezegende wil niet volbrengt.<br>\n    Wie voor het vlees zaait, zal slechts bitterheid oogsten...<br>\n    “Voorwaarts! Omhoog! Steeds hoger!”</p>\n\n    <p>In de dagen van de volle jeugd,<br>\n    met nieuwe dromen om na te jagen en te vervullen.<br>\n    Een nederig hart zal meer tranen besparen,<br>\n    dan al het grote vernuft en de wilskracht van het leven.<br>\n    Wie overwint, is wie luistert...<br>\n    “Voorwaarts! Omhoog! Steeds hoger!”</p>\n  </div>\n\n  <p><em>–door Lee Rufener</em></p>\n\n  <p><em>Ik jaag naar het doel, om de prijs te behalen van de<br>\n  hemelse roeping van God in Christus Jezus –Filippenzen 3:14.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "DE HEMELSE ROEPING"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\\\" alt=\\\"Dimmig barrskog\\\">\\n  </figure>\\n\\n  <p><em>Därför, heliga bröder, ni som har fått del i den himmelska kallelsen … –Hebreerbrevet 3:1.</em></p>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Sann vishet gryr i strålar, små,<br>\\n    där varje steg knappt märks alls.<br>\\n    Bortom de böcker vi läste som små,<br>\\n    lockar den dig till höjden där borta.<br>\\n    Håll ut och gå med tålamod …<br>\\n    ”Framåt! Uppåt! Ännu högre!”</p>\\n\\n    <p>Ibland blir själen nedstämd och tung,<br>\\n    vårt mod försvagas i bitande köld.<br>\\n    Vi kom inte med bland jordens främsta,<br>\\n    hoppet krympte, viljan blev modlös.<br>\\n    Men hör då ljudet, den klingande tonen …<br>\\n    ”Framåt! Uppåt! Ännu högre!”</p>\\n\\n    <p>Frestelser väcks och njutningar lockar,<br>\\n    de byter bort sanningen mot tomma kickar.<br>\\n    De som ger efter är de som faller,<br>\\n    och inte förverkligar Guds välsignade vilja.<br>\\n    Den som sår i köttet skördar blott bitterhet …<br>\\n    ”Framåt! Uppåt! Ännu högre!”</p>\\n\\n    <p>Under ungdomens rika år,<br>\\n    med nya drömmar att söka och förverkliga.<br>\\n    Ett ödmjukt hjärta fäller färre tårar<br>\\n    än all livets stora klokhet och vilja.<br>\\n    Den som vinner är den som lyssnar …<br>\\n    ”Framåt! Uppåt! Ännu högre!”</p>\\n  </div>\\n\\n  <p><em>–av Lee Rufener</em></p>\\n\\n  <p><em>Jag strävar mot målet för att vinna priset,<br>\\n  den höga kallelse som Gud har kallat oss till i Kristus Jesus –Filipperbrevet 3:14.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"DEN HIMMELSKA KALLELSEN\"}",
+    "content_bytes": 1817,
+    "content_evidence_truncated": false,
+    "content_sha256": "abf88f2ebdf85a3d5ffcd81ac664191f18279f6fd2878401649d75fd8fa7a106",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 823,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 147,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1450,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1447,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2273
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f9c1d653-34cf-988a-a247-cc01e8a112ec",
+    "response_id": "chatcmpl-EUp7S93YZE9V6IrwWMuo58359qE5j",
+    "usage": {
+      "completion_tokens": 771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 100,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1461,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1458,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2232
+    }
+  },
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "result": {
+    "html": "<article data-article-id=\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\">\n  <figure>\n    <img src=\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\" alt=\"Tåkete eviggrønn skog\">\n  </figure>\n\n  <p><em>Derfor, hellige søsken, dere som har del i det himmelske kallet … – Hebreerne 3:1.</em></p>\n\n  <div class=\"poem\">\n    <p>Den sanne visdom gryr i langsomme stråler,<br>\n    små skritt blir regnet for ingenting.<br>\n    Den lokker deg bortom ungdommens bøker,<br>\n    opp mot åsen der borte.<br>\n    Hold ut og gå fram med tålmodige skritt …<br>\n    «Framover! Oppover! Høyere ennå!»</p>\n\n    <p>Av og til går vi motløse og nedbøyde,<br>\n    motet svinner i bitende kulde.<br>\n    Vi har ikke nådd jordisk heder,<br>\n    håpet er svekket, viljen nedtrykt.<br>\n    Men hør lyden, den rungende klangen …<br>\n    «Framover! Oppover! Høyere ennå!»</p>\n\n    <p>Fristelser vokser, og lystene lokker,<br>\n    de bytter sannhet mot tom spenning.<br>\n    De som gir etter, er de som faller,<br>\n    og ikke oppfyller Guds velsignede vilje.<br>\n    Den som sår i kjødet, høster bare bitterhet …<br>\n    «Framover! Oppover! Høyere ennå!»</p>\n\n    <p>I ungdommens blomstrende år,<br>\n    med nye drømmer å søke og virkeliggjøre.<br>\n    Et ydmykt hjerte vil spare flere tårer<br>\n    enn all livets store klokskap og viljestyrke.<br>\n    Den som vinner, er den som lytter …<br>\n    «Framover! Oppover! Høyere ennå!»</p>\n  </div>\n\n  <p><em>– av Lee Rufener</em></p>\n\n  <p><em>Jeg jager fram mot målet, mot seiersprisen,<br>\n  det høye kallet fra Gud i Kristus Jesus – Filipperne 3:14.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "DET HIMMELSKE KALLET"
+  }
+}

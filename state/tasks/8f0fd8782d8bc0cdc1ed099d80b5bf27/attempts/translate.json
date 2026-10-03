@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"71acc7cf-0c85-4e46-9a50-7afaeca6c9ac\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg\\\" alt=\\\"Tåkete gress og vann med hjort, venstre halvdel av et fotografi over to sider\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Herre, denne smerten synes uutholdelig.<br>\\n    Det vi en gang elsket, må nå dø.<br>\\n    Så mange hjerter blør.<br>\\n    Ingen har klart å holde tårene tilbake.</p>\\n\\n    <p>Vi har grått, vridd oss i smerte og bedt,<br>\\n    bedt, Herre, om å slippe dette begeret.<br>\\n    Vi prøvde det vi trodde kunne forandre det,<br>\\n    men alle forsøkene syntes å komme tilbake til oss med tomme hender.</p>\\n\\n    <p>Far, vi har ropt til deg om nåde,<br>\\n    alle ville ha sluppet denne smerten.<br>\\n    Men Herre, du bød oss å gå gjennom den;<br>\\n    du har gjort det klart at din hånd er med i alt.</p>\\n\\n    <p>Tankene våre synes å spinne mens vi grunner på<br>\\n    akkurat hva du prøver å gjøre.<br>\\n    Likevel vet vi at uansett hva vi føler,<br>\\n    er det en grunn til at vi må gjennom denne stormen.</p>\\n\\n    <p>Så, Far, bøyer vi oss nå for dine føtter,<br>\\n    og erkjenner din allmektige kraft.<br>\\n    Vi kan ikke se alle detaljene,<br>\\n    men vi stoler på at alt til slutt vil bli godt.</p>\\n\\n    <p>Hjelp oss, Far, å bli brutt ned,<br>\\n    og overgi alt til deg.<br>\\n    Våre rettigheter, drømmer, ambisjoner og eiendeler,<br>\\n    så alt blir åpent for ditt blikk.</p>\\n\\n    <p>La ydmykhet vokse i oss, Herre,<br>\\n    stille, men dyp og ekte.<br>\\n    Det er en juvel som bare prøvelser kan lære oss å verdsette.<br>\\n    Herre, bruk dette til å gjøre oss mer lik deg!</p>\\n\\n    <p>Må blikket vårt være festet på deg, Far,<br>\\n    ikke på denne overveldende stormen.<br>\\n    For du har gått gjennom disse dype vannene,<br>\\n    og ingenting annet enn det du har planlagt, vil skje.</p>\\n\\n    <p>Lydige helt til døden, Herre,<br>\\n    uansett hvor høy prisen måtte synes å være.<br>\\n    Gi oss et syn av den himmelske skatten,<br>\\n    som ingen jordisk pris kan måle seg med.</p>\\n  </div>\\n\\n  <p><em>–Av Adrianna H. Fanton</em></p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg\\\" alt=\\\"Hjort ved et stort tre og stille vann i tåke, høyre halvdel av et fotografi over to sider\\\">\\n  </figure>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Ikke min vilje\"}",
+    "content_bytes": 2498,
+    "content_evidence_truncated": false,
+    "content_sha256": "90c9ab273a2f7c0ce32af356acf441f813f60b0d90ccb8205bb19913da7299ba",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 158,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1654,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1651,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2678
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

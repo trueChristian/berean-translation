@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:28+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\\\" alt=\\\"יער ירוק־עד אפוף ערפל\\\">\\n  </figure>\\n\\n  <p><em>לכן, אחים קדושים, שותפים לקריאה השמימית… –עברים ג׳:1.</em></p>\\n\\n  <div class=\\\"poem\\\">\\n    <p>חכמה אמיתית מפציעה בקרניים הדרגתיות,<br>\\n    צעדים זעירים שנראים כחסרי ערך.<br>\\n    מעבר לספרי ימי הנעורים,<br>\\n    היא קוראת לך אל הגבעה ההיא.<br>\\n    התאזר בסבלנות והמשך בדרכך...<br>\\n    ״קדימה! מעלה! גבוה עוד!״</p>\\n\\n    <p>לפעמים אנו מתייסרים, שפופים בנפש,<br>\\n    אומץ לבנו דועך בקור צורב.<br>\\n    נכשלנו ברשימת הכבוד הארצית,<br>\\n    תקוותנו פחתה ורצוננו נכאה.<br>\\n    אך הקשב לצליל, לפעמון המצלצל...<br>\\n    ״קדימה! מעלה! גבוה עוד!״</p>\\n\\n    <p>פיתויים צצים והנאות קוראות,<br>\\n    הן מחליפות אמת בריגוש ריק.<br>\\n    הנכנעים הם הנופלים,<br>\\n    ואינם משיגים את רצון האל המבורך.<br>\\n    הזורע לבשר יקצור רק מרירות...<br>\\n    ״קדימה! מעלה! גבוה עוד!״</p>\\n\\n    <p>בימי הנעורים השופעים,<br>\\n    כשחלומות חדשים ממתינים לחיפוש ולהגשמה.<br>\\n    לב עניו ימנע דמעות רבות יותר,<br>\\n    מכל תבונתה ורצונה הגדולות של החיים.<br>\\n    המנצח הוא זה שמקשיב...<br>\\n    ״קדימה! מעלה! גבוה עוד!״</p>\\n  </div>\\n\\n  <p><em>–מאת לי רופנר</em></p>\\n\\n  <p><em>אני רץ אל המטרה, אל הפרס של<br>\\n  הקריאה העליונה של אלוהים במשיח ישוע –פיליפים ג׳:14.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"הקריאה השמימית\"}",
+    "content_bytes": 2132,
+    "content_evidence_truncated": false,
+    "content_sha256": "6b5f59cf1b45b2f53ca88c6fd7f40deb81651d3303a996ff841dafd86d1d5d27",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 429,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1455,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1452,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2538
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

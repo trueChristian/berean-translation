@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:27+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"71acc7cf-0c85-4e46-9a50-7afaeca6c9ac\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg\\\" alt=\\\"Nyasi na maji yenye ukungu pamoja na kulungu, nusu ya kushoto ya picha ya kurasa mbili\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Bwana, maumivu haya yanaonekana hayawezi kuvumilika.<br>\\n    Vitu tulivyovipenda zamani sasa lazima vife.<br>\\n    Mioyo mingi sana inaumizwa.<br>\\n    Hakuna aliyebaki bila machozi.</p>\\n\\n    <p>Tumelia, tumeteseka na kuomba<br>\\n    Tukikuomba, Bwana, uliondoe kikombe hiki.<br>\\n    Tulijaribu tulichodhani kingeweza kubadili hali,<br>\\n    Lakini juhudi zote zilionekana kutuacha mikono mitupu.</p>\\n\\n    <p>Baba, tumekulilia utuhurumie,<br>\\n    Kila mtu angeepuka maumivu haya.<br>\\n    Lakini, Bwana, ulituagiza tupitie haya;<br>\\n    Umeweka wazi mkono wako katika yote haya.</p>\\n\\n    <p>Akili zetu zinaonekana kuzunguka tunapotafakari,<br>\\n    Hasa ni nini unachojaribu kufanya.<br>\\n    Hata hivyo, tunajua kwamba hata tuhisi vipi,<br>\\n    Kuna sababu inayotufanya tupitie dhoruba hii.</p>\\n\\n    <p>Basi, Baba, sasa tunainama miguuni pako,<br>\\n    Tukikiri uwezo wako mkuu usio na mipaka.<br>\\n    Hatuwezi kutambua kila jambo kwa undani,<br>\\n    Lakini tunaamini kwamba mwishowe, yote yatakuwa sawa.</p>\\n\\n    <p>Utusaidie, Baba, kujinyenyekeza,<br>\\n    Tukikukabidhi vyote tulivyo navyo.<br>\\n    Haki zetu, ndoto, matarajio na mali zetu,<br>\\n    Tukiyaweka yote wazi mbele zako.</p>\\n\\n    <p>Utukuze ndani yetu, Bwana, unyenyekevu,<br>\\n    Wa utulivu, lakini wa kina na wa kweli.<br>\\n    Ni kito ambacho majaribu pekee yanaweza kufundisha.<br>\\n    Bwana, kupitia haya, utufanye tufanane nawe zaidi!</p>\\n\\n    <p>Macho yetu yaelekezwe kwako, Baba,<br>\\n    Si kwenye dhoruba hii kali inayotuzidi.<br>\\n    Kwa maana umepitia maji haya ya kina,<br>\\n    Hakuna kitakachoshinda isipokuwa kile ulichopanga.</p>\\n\\n    <p>Mtiifu hata kufa, Bwana,<br>\\n    Haidhuru gharama ionekane kubwa kiasi gani.<br>\\n    Tupe maono ya hazina ya mbinguni,<br>\\n    Ambayo hakuna bei ya duniani inayoweza kuizidi.</p>\\n  </div>\\n\\n  <p><em>–Na Adrianna H. Fanton</em></p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg\\\" alt=\\\"Kulungu kando ya mti mkubwa na maji tulivu yenye ukungu, nusu ya kulia ya picha ya kurasa mbili\\\">\\n  </figure>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Si Mapenzi Yangu\"}",
+    "content_bytes": 2478,
+    "content_evidence_truncated": false,
+    "content_sha256": "d0bb359fb96b14b44b249cf84d219f16461a04a6cc958189b42273b88c3d7943",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1043,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1645,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1642,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2688
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

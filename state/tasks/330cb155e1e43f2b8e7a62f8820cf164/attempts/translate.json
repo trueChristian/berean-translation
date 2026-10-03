@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:28+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"71acc7cf-0c85-4e46-9a50-7afaeca6c9ac\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg\\\" alt=\\\"Relva e água envoltas em neblina, com veados; metade esquerda de uma fotografia de duas páginas\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Senhor, esta dor parece insuportável.<br>\\n    Aquilo que um dia amámos agora tem de morrer.<br>\\n    Tantos corações estão a sangrar.<br>\\n    Ninguém conseguiu conter as lágrimas.</p>\\n\\n    <p>Chorámos, contorcemo-nos e orámos,<br>\\n    Pedindo, Senhor, que afastasses este cálice.<br>\\n    Tentámos o que pensávamos que pudesse mudar a situação,<br>\\n    Mas todas as tentativas pareciam ter sido em vão.</p>\\n\\n    <p>Pai, clamámos pela tua misericórdia;<br>\\n    Todos teriam escapado a esta dor.<br>\\n    Mas, Senhor, mandaste-nos atravessá-la;<br>\\n    Deixaste claro que a tua mão estava em tudo.</p>\\n\\n    <p>A nossa mente parece rodopiar enquanto ponderamos<br>\\n    O que exatamente estás a tentar fazer.<br>\\n    No entanto, sabemos que, sejam quais forem os nossos sentimentos,<br>\\n    Há uma razão para termos de atravessar esta tempestade.</p>\\n\\n    <p>Por isso, Pai, agora nos prostramos aos teus pés,<br>\\n    Reconhecendo o teu poder omnipotente.<br>\\n    Não conseguimos discernir todos os pormenores,<br>\\n    Mas confiamos que, no fim, tudo ficará bem.</p>\\n\\n    <p>Ajuda-nos, Pai, a sermos quebrantados,<br>\\n    A entregar-te tudo.<br>\\n    Os nossos direitos, sonhos, ambições e bens,<br>\\n    Deixando tudo exposto ao teu olhar.</p>\\n\\n    <p>Faz crescer em nós, Senhor, a humildade,<br>\\n    Silenciosa, mas profunda e verdadeira.<br>\\n    É uma joia que só as provações podem ensinar.<br>\\n    Senhor, por meio disto, torna-nos mais semelhantes a ti!</p>\\n\\n    <p>Que os nossos olhos estejam fixos em ti, Pai,<br>\\n    E não nesta tempestade avassaladora.<br>\\n    Pois tu atravessaste estas águas profundas;<br>\\n    Nada prevalecerá senão aquilo que planeias.</p>\\n\\n    <p>Obediente até à morte, Senhor,<br>\\n    Por mais elevado que pareça o custo.<br>\\n    Dá-nos uma visão do tesouro celestial,<br>\\n    Cujo valor nenhum preço terreno pode superar.</p>\\n  </div>\\n\\n  <p><em>–Por Adrianna H. Fanton</em></p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg\\\" alt=\\\"Veados junto a uma grande árvore e a águas paradas, envoltos em neblina; metade direita de uma fotografia de duas páginas\\\">\\n  </figure>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Não a minha vontade\"}",
+    "content_bytes": 2628,
+    "content_evidence_truncated": false,
+    "content_sha256": "96e54a6e5bccda805ec29e63ec09ed1dd09884fb3af088fb0f593de5a77df30e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 980,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 160,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1651,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1648,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2631
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

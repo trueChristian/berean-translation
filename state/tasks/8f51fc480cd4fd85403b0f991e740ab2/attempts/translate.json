@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:29+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"71acc7cf-0c85-4e46-9a50-7afaeca6c9ac\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg\\\" alt=\\\"Mistig gras en water met herten, de linkerhelft van een foto over twee pagina's\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Heer, deze pijn lijkt ondraaglijk.<br>\\n    Wat we ooit liefhadden, moet nu sterven.<br>\\n    Zoveel harten bloeden.<br>\\n    Niemand heeft droge ogen gehouden.</p>\\n\\n    <p>We hebben gehuild, ons in pijn gewrongen en gebeden,<br>\\n    en gevraagd, Heer, of U deze beker aan ons voorbij wilde laten gaan.<br>\\n    We deden wat volgens ons de situatie kon veranderen,<br>\\n    maar al onze pogingen leken vruchteloos.</p>\\n\\n    <p>Vader, we hebben om genade geroepen,<br>\\n    iedereen zou deze pijn hebben willen ontlopen.<br>\\n    Maar Heer, U zei dat we erdoorheen moesten;<br>\\n    U hebt duidelijk gemaakt dat Uw hand in dit alles is.</p>\\n\\n    <p>Onze gedachten tollen terwijl we ons afvragen<br>\\n    wat U nu precies probeert te doen.<br>\\n    Toch weten we dat er, ongeacht wat we voelen,<br>\\n    een reden is waarom we door deze storm heen moeten.</p>\\n\\n    <p>Dus Vader, buigen we nu aan Uw voeten,<br>\\n    en erkennen we Uw almachtige kracht.<br>\\n    We kunnen niet alle details doorgronden,<br>\\n    maar vertrouwen erop dat uiteindelijk alles goed zal komen.</p>\\n\\n    <p>Help ons, Vader, ons over te geven,<br>\\n    en alles aan U toe te vertrouwen:<br>\\n    onze rechten, dromen, ambities en bezittingen,<br>\\n    zodat alles voor U openligt.</p>\\n\\n    <p>Laat in ons, Heer, nederigheid groeien,<br>\\n    stil, maar diep en oprecht.<br>\\n    Het is een kostbaar juweel dat alleen beproevingen ons kunnen leren.<br>\\n    Heer, maak ons hierdoor meer als U!</p>\\n\\n    <p>Mogen onze ogen op U gericht zijn, Vader,<br>\\n    niet op deze overweldigende storm.<br>\\n    Want U bent door deze diepe wateren gegaan;<br>\\n    alleen wat U bestemt, zal standhouden.</p>\\n\\n    <p>Gehoorzaam, Heer, tot in de dood,<br>\\n    hoe hoog de prijs ook mag lijken.<br>\\n    Geef ons zicht op de hemelse schat,<br>\\n    waar geen aardse prijs tegenop kan.</p>\\n  </div>\\n\\n  <p><em>–Door Adrianna H. Fanton</em></p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg\\\" alt=\\\"Herten bij een grote boom en stil water in de mist, de rechterhelft van een foto over twee pagina's\\\">\\n  </figure>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Niet mijn wil\"}",
+    "content_bytes": 2510,
+    "content_evidence_truncated": false,
+    "content_sha256": "a7587b0fbd00ac34298026c32eabf6ed782368820dd14ca0636046a0b6407e5a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 991,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 196,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1639,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2633
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
