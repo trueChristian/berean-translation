@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e66a1ae4-7de9-40af-8eb2-0999164d6f29",
+    "response_id": "chatcmpl-EUsGMxykupw5jAMshF9a2SJvigjsK",
+    "usage": {
+      "completion_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 787,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7333,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7330,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8338
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Here and there we hear a lot about coveting money”",
+        "severity": "major",
+        "source_quote": "“coveting positions that are not lawful for us”",
+        "suggested_fix": "将“贪恋不属于自己的职位”改为“贪恋我们无权担任的职位”，以保留原文关于职位不合法的意思。",
+        "translation_quote": "“贪恋不属于自己的职位”"
+      },
+      {
+        "location": "Paragraph quoting Psalm 78:29–31",
+        "severity": "major",
+        "source_quote": "“They were not estranged from their lust.”",
+        "suggested_fix": "将“他们却不知足，贪而无厌”改为“他们并没有远离自己的欲望”，以保留原文这句经文所表达的意思。",
+        "translation_quote": "“他们却不知足，贪而无厌”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

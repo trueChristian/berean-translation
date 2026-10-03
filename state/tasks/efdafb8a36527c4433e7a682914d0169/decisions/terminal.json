@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second paragraph; Philippians 4:11–13 quotation",
+      "severity": "major",
+      "source_quote": "“I am instructed both to be full and to be hungry”",
+      "suggested_fix": "Replace «er jeg innviet i å være mett og å være sulten» with «har jeg lært både å være mett og å være sulten» so the quotation conveys that Paul has learned how to live in either condition.",
+      "translation_quote": "«I alt og i alle ting er jeg innviet i å være mett og å være sulten»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

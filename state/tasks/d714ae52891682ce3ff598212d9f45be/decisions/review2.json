@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Artikel, stycket som börjar ”Till synes har samma sak hänt …”",
+      "severity": "major",
+      "source_quote": "“the cost of purchase for many products has skyrocketed awakening fears among some economists of a global crisis due to inflation.”",
+      "suggested_fix": "Ersätt meningen med: ”Ett annat problem som på senare tid har uppstått är att den stora obalansen mellan utbud och efterfrågan på global nivå har fått inköpspriserna på många produkter att skjuta i höjden, vilket väckt farhågor hos vissa ekonomer för en global kris till följd av inflation.”",
+      "translation_quote": "”Ett annat problem som på senare tid har uppstått är att inköpskostnaden för många produkter har skjutit i höjden på grund av den stora obalansen mellan utbud och efterfrågan på global nivå. Det har väckt farhågor hos vissa ekonomer om en global kris till följd av inflation.”"
+    },
+    {
+      "location": "Artikel, stycket som börjar ”När jag har talat med människor …”",
+      "severity": "major",
+      "source_quote": "“the churches of the conservative, Anabaptist persuasion”",
+      "suggested_fix": "Ändra uttrycket till exempelvis ”de konservativa kyrkorna med anabaptistisk inriktning”, så att det är tydligt att beskrivningen gäller kyrkorna.",
+      "translation_quote": "”de konservativa kyrkor med anabaptistisk inriktning”"
+    },
+    {
+      "location": "Artikel, stycket som börjar ”För många år sedan …”",
+      "severity": "major",
+      "source_quote": "“I believe it WILL cause as much and more detriment to interpersonal relationships.”",
+      "suggested_fix": "Ändra till: ”tror jag att det KOMMER att skada mellanmänskliga relationer lika mycket eller ännu mer.”",
+      "translation_quote": "”tror jag att det KOMMER att vara lika skadligt eller ännu mer skadligt för mellanmänskliga relationer.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

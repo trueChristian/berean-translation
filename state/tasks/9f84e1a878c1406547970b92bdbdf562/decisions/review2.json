@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "প্রাথমিক মণ্ডলী বিষয়ক অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Tens of thousands of God’s people stood boldly before the world and proclaimed its wickedness, and tens of thousands of God’s people were killed.",
+      "suggested_fix": "দুই জায়গাতেই “অগণিত” বদলে “দশ হাজার হাজার” বা “বহু দশ হাজার” ব্যবহার করুন, যাতে উৎসের সংখ্যাগত পরিসর বজায় থাকে।",
+      "translation_quote": "ঈশ্বরের অগণিত লোক সাহসের সঙ্গে জগতের সামনে দাঁড়িয়ে তার দুষ্টতার কথা ঘোষণা করেছিল, আর ঈশ্বরের অগণিত লোককে হত্যা করা হয়েছিল।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

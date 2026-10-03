@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Here and there we hear a lot about coveting money”",
+      "severity": "major",
+      "source_quote": "“coveting positions that are not lawful for us”",
+      "suggested_fix": "将“贪恋不属于自己的职位”改为“贪恋我们无权担任的职位”，以保留原文关于职位不合法的意思。",
+      "translation_quote": "“贪恋不属于自己的职位”"
+    },
+    {
+      "location": "Paragraph quoting Psalm 78:29–31",
+      "severity": "major",
+      "source_quote": "“They were not estranged from their lust.”",
+      "suggested_fix": "将“他们却不知足，贪而无厌”改为“他们并没有远离自己的欲望”，以保留原文这句经文所表达的意思。",
+      "translation_quote": "“他们却不知足，贪而无厌”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

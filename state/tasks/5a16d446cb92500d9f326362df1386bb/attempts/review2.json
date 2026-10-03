@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “We need to surrender every area…”\",\"severity\":\"major\",\"source_quote\":\"God knows what is best for us, however, if we insist, He will give us according to our selfish desires.\",\"suggested_fix\":\"استبدل «فإنه سيعطينا بحسب رغباتنا الأنانية» بـ «فإنه سيعطينا ما يتوافق مع رغباتنا الأنانية» لتوضيح أن العطاء يكون وفق تلك الرغبات.\",\"translation_quote\":\"فالله يعرف ما هو الأفضل لنا، لكن إن أصررنا، فإنه سيعطينا بحسب رغباتنا الأنانية.\"},{\"location\":\"source.html, final paragraph\",\"severity\":\"major\",\"source_quote\":\"The end is coming, which is what God has in mind.\",\"suggested_fix\":\"استبدل «وهذا ما يضعه الله في حسبانه» بـ «وهذا ما يريده الله» للحفاظ على تأكيد المصدر أن النهاية آتية وفق ما يريده الله.\",\"translation_quote\":\"والنهاية آتية، وهذا ما يضعه الله في حسبانه.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1159,
+    "content_evidence_truncated": false,
+    "content_sha256": "25c8f6767683e5f09a60beb77c233e6591041b771cfd0064c68cdc1bda42bc23",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 249,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7426,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7423,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7675
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

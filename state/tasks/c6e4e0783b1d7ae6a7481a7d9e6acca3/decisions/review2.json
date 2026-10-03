@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Second paragraph, quoted Philippians 4:11–13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me.",
+      "suggested_fix": "Translate the clause with Christ explicitly named as the one through whom the speaker can do all things, for example: «جو مسیح کے وسیلے سے مجھے قوت بخشتا ہے، اُس میں مَیں سب کچھ کر سکتا ہوں۔»",
+      "translation_quote": "جو مجھے قوت بخشتا ہے اُس میں مَیں سب کچھ کر سکتا ہوں۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

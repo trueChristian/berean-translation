@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1c772f5ccf2b4e9d9d00981c3e322b18",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -45,18 +44,40 @@
         },
         "total_tokens": 13937
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 793,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 574,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8645,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8642,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9438
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[11]/em[1]; translation /article[1]/p[11]",
-      "severity": "critical",
-      "source_quote": "… Jesus Christ suffered? Yes, we know that salvation is of the Lord, but it was the confidence of God’s people that caused others to wonder, that caused them to seriously consider this new religion of <em>heretics</em>. This was a group of people that would gladly accept the spoiling of their goods, be happy to give all they had to help others, and not resist their capture by the authorities. The true church of Jesus Christ was a group of people that always caused others to wonder, “Who are these people?” They clearly put all their faith in their God, and that was not a common occurrence. The…",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[39:41], translation signature[39:39], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "…या। यह ऐसे लोगों का समूह था जो अपनी संपत्ति लूटे जाने को खुशी से स्वीकार करते, दूसरों की सहायता के लिए अपना सब कुछ प्रसन्नता से दे देते और अधिकारियों द्वारा पकड़े जाने का विरोध नहीं करते। यीशु मसीह की सच्ची कलीसिया ऐसे लोगों का समूह थी जो दूसरों को हमेशा यह सोचने पर मजबूर करती थी, “ये लोग कौन हैं?” उन्होंने स्पष्ट रूप से अपना सारा विश्वास अपने परमेश्वर पर रखा था, और ऐसा आम तौर पर नहीं होता था। आग कितनी ही भयानक क्यों न जलती, उनका जीवन कितना ही दुखमय क्यों न बना दिया जाता, वे परमेश्वर के सत्य के पक्ष में डटे रहे। यह सब दिखाता था कि उनका बड़ा भरोसा स्वयं पर नहीं, बल्कि अपने परमेश्वर पर था।</p>"
+      "location": "अंतिम अनुच्छेद, यशायाह 61:1–3 का उद्धरण",
+      "severity": "major",
+      "source_quote": "“to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted” और “to give unto them beauty for ashes”",
+      "suggested_fix": "उद्धरण में इन अंशों को स्रोत के अर्थ के अनुसार संशोधित करें: “नम्र लोगों को सुसमाचार सुनाने के लिए”; “टूटे मनवालों के घाव बाँधने के लिए”; और “राख के बदले सुन्दरता देने के लिए।” बाकी उद्धरण और HTML संरचना यथावत रखें।",
+      "translation_quote": "“कंगालों को सुसमाचार सुनाने के लिए”; “टूटे मनवालों को चंगा करूँ”; और “राख के बदले सुन्दर मुकुट”"
     }
   ],
+  "finished_at": "2026-10-03T11:35:33+00:00",
   "id": "46537104734e0cc729a3327987c37700",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "hin",
@@ -145,11 +166,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

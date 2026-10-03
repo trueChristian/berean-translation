@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “We need to surrender every area…”",
+      "severity": "major",
+      "source_quote": "God knows what is best for us, however, if we insist, He will give us according to our selfish desires.",
+      "suggested_fix": "استبدل «فإنه سيعطينا بحسب رغباتنا الأنانية» بـ «فإنه سيعطينا ما يتوافق مع رغباتنا الأنانية» لتوضيح أن العطاء يكون وفق تلك الرغبات.",
+      "translation_quote": "فالله يعرف ما هو الأفضل لنا، لكن إن أصررنا، فإنه سيعطينا بحسب رغباتنا الأنانية."
+    },
+    {
+      "location": "source.html, final paragraph",
+      "severity": "major",
+      "source_quote": "The end is coming, which is what God has in mind.",
+      "suggested_fix": "استبدل «وهذا ما يضعه الله في حسبانه» بـ «وهذا ما يريده الله» للحفاظ على تأكيد المصدر أن النهاية آتية وفق ما يريده الله.",
+      "translation_quote": "والنهاية آتية، وهذا ما يضعه الله في حسبانه."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

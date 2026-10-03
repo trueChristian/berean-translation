@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзац о субботнем дне",
+      "severity": "minor",
+      "source_quote": "If nothing else, this is the message of the Sabbath Day",
+      "suggested_fix": "Заменить фразу на: «Во всяком случае, именно этому учит субботний день»",
+      "translation_quote": "Если ничто другое, то об этом говорит день субботний"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

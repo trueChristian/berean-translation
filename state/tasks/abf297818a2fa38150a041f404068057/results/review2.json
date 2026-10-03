@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d7eec0b4-f96f-4a8a-9b47-fc631ade56ed",
+    "response_id": "chatcmpl-EUsGSPWT6Yofw3FLUgb5uQTUggkVl",
+    "usage": {
+      "completion_tokens": 606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10186,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10795
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Editor’s Note, paragraph 5",
+        "severity": "major",
+        "source_quote": "“an extreme focus on kingdom this and kingdom that, will by default cause Christians to ignore this Truth”",
+        "suggested_fix": "Replace the mistranslated clause with: «لیکن بادشاہی اور اس جیسی باتوں پر حد سے زیادہ توجہ مسیحیوں کو لازماً اس سچائی کو نظرانداز کرنے پر مائل کرے گی»",
+        "translation_quote": "«لیکن بادشاہی، بادشاہی پر حد سے زیادہ توجہ مسیحیوں کو بہ طورِ پیش فرض اس سچائی کو نظرانداز کرنے پر مائل کرے گی»"
+      },
+      {
+        "location": "Editor’s Note, paragraph 6",
+        "severity": "major",
+        "source_quote": "“the ‘power of His resurrection’, or ‘the fellowship of His sufferings.’”",
+        "suggested_fix": "Translate the quoted phrases as «اُس کے جی اٹھنے کی قدرت» and «اُس کے دُکھوں میں شریک ہونے کی رفاقت» (or another Urdu rendering that preserves the sense of sharing in his sufferings).",
+        "translation_quote": "«اُس کے جی اُٹھنے کی قدرت» یا «اُس کے دُکھوں کی رفاقت»"
+      },
+      {
+        "location": "Article, paragraph beginning “Among the various factors,” numbered list, item 1",
+        "severity": "major",
+        "source_quote": "“more concerned about being Biblical than about being Christ-like”",
+        "suggested_fix": "Correct the comparison to: «بعض لوگ مسیح جیسا ہونے کی نسبت بائبلی ہونے کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔»",
+        "translation_quote": "«کچھ لوگ بائبلی ہونے کی نسبت مسیح جیسا ہونے کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔»"
+      },
+      {
+        "location": "Article, paragraph beginning “Does Theology Militate Against Discipleship?”, second paragraph",
+        "severity": "major",
+        "source_quote": "“some are inconsistent, others are dogmatic or laced with philosophy”",
+        "suggested_fix": "Restore both descriptions, for example: «کچھ غیر مربوط ہوتی ہیں، بعض عقیدہ پرستی پر مبنی یا فلسفے سے آلودہ ہوتی ہیں۔»",
+        "translation_quote": "«کچھ غیر مربوط، کچھ فلسفے سے آلودہ یا سخت گیر ہوتی ہیں»"
+      },
+      {
+        "location": "Article, paragraph beginning “Are ‘Kingdom’ and ‘Church’ Interchangeable?”, first paragraph",
+        "severity": "major",
+        "source_quote": "“a generic version of, or a substitute word for, the church”",
+        "suggested_fix": "Render both relationships explicitly: «کلیسیا کی کوئی عمومی صورت نہیں، نہ ہی کلیسیا کے لیے متبادل لفظ ہے۔»",
+        "translation_quote": "«کلیسیا کی کوئی عمومی صورت نہیں، نہ ہی کلیسیا کا متبادل لفظ ہے۔»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, first paragraph; quoted James 1:2–4",
+      "severity": "major",
+      "source_quote": "that ye may be perfect and entire, wanting nothing",
+      "suggested_fix": "Replace « afin que vous soyez parfaits et accomplis, sans faillir en rien » with « afin que vous soyez parfaits et accomplis, ne manquant de rien »; retain the existing <em> tags and reference.",
+      "translation_quote": "afin que vous soyez parfaits et accomplis, sans faillir en rien"
+    },
+    {
+      "location": "Article, second paragraph; quoted Philippians 4:11–13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me.",
+      "suggested_fix": "Replace « Je puis tout par celui qui me fortifie. » with « Je puis tout par Christ qui me fortifie. » so the explicit reference to Christ is preserved; retain the existing <em> tags and reference.",
+      "translation_quote": "Je puis tout par celui qui me fortifie."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

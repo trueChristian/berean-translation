@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Artikel, stycket som börjar ”Till synes har samma sak hänt …”\",\"severity\":\"major\",\"source_quote\":\"“the cost of purchase for many products has skyrocketed awakening fears among some economists of a global crisis due to inflation.”\",\"suggested_fix\":\"Ersätt meningen med: ”Ett annat problem som på senare tid har uppstått är att den stora obalansen mellan utbud och efterfrågan på global nivå har fått inköpspriserna på många produkter att skjuta i höjden, vilket väckt farhågor hos vissa ekonomer för en global kris till följd av inflation.”\",\"translation_quote\":\"”Ett annat problem som på senare tid har uppstått är att inköpskostnaden för många produkter har skjutit i höjden på grund av den stora obalansen mellan utbud och efterfrågan på global nivå. Det har väckt farhågor hos vissa ekonomer om en global kris till följd av inflation.”\"},{\"location\":\"Artikel, stycket som börjar ”När jag har talat med människor …”\",\"severity\":\"major\",\"source_quote\":\"“the churches of the conservative, Anabaptist persuasion”\",\"suggested_fix\":\"Ändra uttrycket till exempelvis ”de konservativa kyrkorna med anabaptistisk inriktning”, så att det är tydligt att beskrivningen gäller kyrkorna.\",\"translation_quote\":\"”de konservativa kyrkor med anabaptistisk inriktning”\"},{\"location\":\"Artikel, stycket som börjar ”För många år sedan …”\",\"severity\":\"major\",\"source_quote\":\"“I believe it WILL cause as much and more detriment to interpersonal relationships.”\",\"suggested_fix\":\"Ändra till: ”tror jag att det KOMMER att skada mellanmänskliga relationer lika mycket eller ännu mer.”\",\"translation_quote\":\"”tror jag att det KOMMER att vara lika skadligt eller ännu mer skadligt för mellanmänskliga relationer.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1845,
+    "content_evidence_truncated": false,
+    "content_sha256": "2a1a5a6a4dceb281199283ea15e8a888a69ea59bea1b19f0bb72d8c6e279e236",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 444,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5589,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5586,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6033
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

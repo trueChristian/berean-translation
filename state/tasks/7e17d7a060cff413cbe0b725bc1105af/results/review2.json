@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e2d5bb9e-740f-4981-bdf6-4750a27d7b9e",
+    "response_id": "chatcmpl-EUsGMemsyXWpcFYUrhZN0nJ44tZdu",
+    "usage": {
+      "completion_tokens": 101,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6639,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6743
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "6η παράγραφος",
+        "severity": "major",
+        "source_quote": "“Conscience in Crisis”",
+        "suggested_fix": "Μεταφράστε τον τίτλο ως «Η συνείδηση σε κρίση» (ή άλλη φυσική απόδοση στα ελληνικά), διατηρώντας την αναφορά στο ίδιο βιβλίο.",
+        "translation_quote": "«Conscience in Crisis»"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

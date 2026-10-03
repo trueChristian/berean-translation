@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "The end is coming, which is what God has in mind.",
+      "suggested_fix": "Replace “het einde komt eraan; daar houdt God rekening mee” with “het einde komt eraan; dat is wat God voor ogen heeft.”",
+      "translation_quote": "Het einde komt eraan; daar houdt God rekening mee."
+    },
+    {
+      "location": "Paragraph defining “desire”",
+      "severity": "minor",
+      "source_quote": "Wish, want, crave, and covet all mean to have a longing for.",
+      "suggested_fix": "Use distinct Dutch terms for the four source words, for example: “Wensen, willen, hunkeren en begeren betekenen allemaal: ergens naar verlangen.”",
+      "translation_quote": "Wensen, willen, begeren en begeren hebben allemaal de betekenis van ergens naar verlangen."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

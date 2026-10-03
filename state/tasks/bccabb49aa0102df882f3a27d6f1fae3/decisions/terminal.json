@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "संपादक की टिप्पणी, आत्मिक अगुवाई और कलीसिया की संरचना वाला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "“churches that have ordained leaders”",
+      "suggested_fix": "“ऐसी कलीसियाओं से कतराते हैं जिनमें नियुक्त अगुवे हैं”",
+      "translation_quote": "“वे ऐसी कलीसियाओं से कतराते हैं जिनमें अभिषिक्त अगुवे हैं”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

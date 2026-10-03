@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Quoted Psalm 78:29–31, near the end of the paragraph beginning « Souvenez-vous que le mot désir… »",
+      "severity": "major",
+      "source_quote": "“and smote down the chosen men of Israel”",
+      "suggested_fix": "Remplacer « les jeunes hommes d’Israël » par une formulation qui conserve le sens de « chosen men », par exemple « les hommes choisis d’Israël », en gardant les balises et la référence inchangées.",
+      "translation_quote": "« et abattit les jeunes hommes d’Israël »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

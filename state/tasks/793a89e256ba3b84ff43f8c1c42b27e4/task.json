@@ -2,7 +2,6 @@
   "article_id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1c772f5ccf2b4e9d9d00981c3e322b18",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -45,18 +44,39 @@
         },
         "total_tokens": 14473
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 817,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 671,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9205,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9202,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10022
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Source /article[1]/p[11]/em[2]; translation /article[1]/p[11]/strong[4]",
-      "severity": "critical",
-      "source_quote": "…he church? The kingdom is <strong>not</strong>, as contemporary usage would almost have us think, a generic version <strong>of</strong>, or a substitute word <strong>for</strong>, the church. Rather, the kingdom has to do with the reign or rule of God. It is both a <em>present reality,</em> having been inaugurated in the person and mission of Jesus, and a <em>future expectation</em> which God will bring to completion at the end of time. The church, while not the kingdom, is composed of those who are in the kingdom; those who, through the work of Christ, have submitted to the rule of God.</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[103:105], translation signature[103:105], replace). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>أخيرًا، ينبغي أن نفكر بطريقة صحيحة في علاقة الملكوت بالكنيسة. ما علاقة الملكوت بالكنيسة؟ الملكوت <strong>ليس</strong>، كما تكاد الاستعمالات المعاصرة توحي لنا، نسخة عامة <strong>من</strong> الكنيسة أو كلمة بديلة <strong>عنها</strong>. بل يتعلق الملكوت بسلطان الله أو حكمه. وهو <em>حقيقة حاضرة</em>، إذ دُشّن في شخص يسوع ورسالته، و<strong>رجاء مستقبلي</strong> سيكمله الله في نهاية الزمان. أما الكنيسة، فمع أنها ليست الملكوت، فإنها تتكون ممن هم في الملكوت؛ أي الذين خضعوا لحكم الله من خلال عمل المسيح.</p>"
+      "location": "Editor’s Note, paragraph 4",
+      "severity": "minor",
+      "source_quote": "“getting saved” to the neglect of “living a saved life”",
+      "suggested_fix": "استبدل «الانشغال بفعل الخلاص على حساب عيش حياة خلاص» بـ«الانشغال بنيل الخلاص على حساب عيش حياة مخلَّصة» لتوضيح المقابلة بين نيل الخلاص والحياة التي تليق به.",
+      "translation_quote": "«الانشغال بفعل الخلاص على حساب عيش حياة خلاص»"
     }
   ],
+  "finished_at": "2026-10-03T11:35:33+00:00",
   "id": "793a89e256ba3b84ff43f8c1c42b27e4",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ara",
@@ -145,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0831ff95490bffbe0e23f53ea5194e523e59b9c9715fefeab30577548f0a6209.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
   "translation_model_actual": "gpt-6-luna"

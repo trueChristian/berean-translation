@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Before he became the apostle Paul”",
+      "severity": "major",
+      "source_quote": "“…straightway he preached Christ in the synagogues, that he is the Son of God”",
+      "suggested_fix": "Translate the quotation to preserve the claim that Paul preached Christ, for example: «…begynte han straks å forkynne i synagogene at Kristus er Guds Sønn – Apostlenes gjerninger 9:20.»",
+      "translation_quote": "«…begynte han straks å forkynne i synagogene at Jesus er Guds Sønn – Apostlenes gjerninger 9:20.»"
+    },
+    {
+      "location": "HTML, paragraph beginning “It takes a lot of confidence in God”",
+      "severity": "major",
+      "source_quote": "“For I am now ready to be offered”",
+      "suggested_fix": "Replace «For jeg blir alt ofret» with «For jeg står nå klar til å bli ofret» so the translation conveys readiness to be offered, not that the offering is already happening.",
+      "translation_quote": "«For jeg blir alt ofret»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

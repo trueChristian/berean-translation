@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "6η παράγραφος",
+      "severity": "major",
+      "source_quote": "“Conscience in Crisis”",
+      "suggested_fix": "Μεταφράστε τον τίτλο ως «Η συνείδηση σε κρίση» (ή άλλη φυσική απόδοση στα ελληνικά), διατηρώντας την αναφορά στο ίδιο βιβλίο.",
+      "translation_quote": "«Conscience in Crisis»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

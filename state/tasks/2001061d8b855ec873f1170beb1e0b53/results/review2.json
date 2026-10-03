@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "68c6a16c-1bce-4776-976c-91fc273b1be5",
+    "response_id": "chatcmpl-EUsGMJeg5T7JY7I3MhQ4hTOmreCBv",
+    "usage": {
+      "completion_tokens": 112,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10092,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10089,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10204
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section “Components of Our Immune Systems,” paragraph e heading",
+        "severity": "major",
+        "source_quote": "<p>e. <em>Complement System…</em></p>",
+        "suggested_fix": "<p>e. <em>Mfumo wa Komplementi…</em></p>",
+        "translation_quote": "<p>e. <em>Mfumo wa Kichochezi…</em></p>"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Editor’s Note, paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"“getting saved” to the neglect of “living a saved life”\",\"suggested_fix\":\"استبدل «الانشغال بفعل الخلاص على حساب عيش حياة خلاص» بـ«الانشغال بنيل الخلاص على حساب عيش حياة مخلَّصة» لتوضيح المقابلة بين نيل الخلاص والحياة التي تليق به.\",\"translation_quote\":\"«الانشغال بفعل الخلاص على حساب عيش حياة خلاص»\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 594,
+    "content_evidence_truncated": false,
+    "content_sha256": "29bf84616c619429c7456e40c82c616bbd1594dc4ef23d1acf68f02e87d980d3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 671,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9205,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9202,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10022
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

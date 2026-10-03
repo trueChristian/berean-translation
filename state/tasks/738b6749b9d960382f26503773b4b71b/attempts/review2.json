@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “Laat ons ag slaan…”\",\"severity\":\"minor\",\"source_quote\":\"as we understand the Scriptures to teach\",\"suggested_fix\":\"Change “soos ons die Skrif verstaan dit leer” to “soos ons verstaan dat die Skrif dit leer” for clear, grammatical Afrikaans.\",\"translation_quote\":\"soos ons die Skrif verstaan dit leer\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 394,
+    "content_evidence_truncated": false,
+    "content_sha256": "dfa565200777e3960b33bc72049b03bb811037e744a8a812d8d0514c555d970d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 781,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 672,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5686,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6470
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

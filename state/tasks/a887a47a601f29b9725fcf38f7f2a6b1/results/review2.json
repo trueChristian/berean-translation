@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7db31cbb-3812-4972-93e7-1e21c48b99cd",
+    "response_id": "chatcmpl-EUsGMKXbVB2iHfTCeMEvs8yYqiLNE",
+    "usage": {
+      "completion_tokens": 451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 344,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5229,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5226,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5680
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second paragraph; quoted Philippians 4:11–13",
+        "severity": "major",
+        "source_quote": "I can do all things through Christ which strengtheneth me.",
+        "suggested_fix": "Replace the final sentence of the quotation with: “Tudo posso por meio de Cristo, que me fortalece.” Keep the existing reference unchanged.",
+        "translation_quote": "Tudo posso naquele que me fortalece."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

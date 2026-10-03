@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section “Components of Our Immune Systems,” paragraph e heading",
+      "severity": "major",
+      "source_quote": "<p>e. <em>Complement System…</em></p>",
+      "suggested_fix": "<p>e. <em>Mfumo wa Komplementi…</em></p>",
+      "translation_quote": "<p>e. <em>Mfumo wa Kichochezi…</em></p>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1c772f5ccf2b4e9d9d00981c3e322b18",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -45,18 +44,68 @@
         },
         "total_tokens": 17131
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 606,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10189,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10186,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10795
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[11]/strong[3]; translation /article[1]/p[11]/em[1]",
-      "severity": "critical",
-      "source_quote": "…at is the relationship of the kingdom to the church? The kingdom is <strong>not</strong>, as contemporary usage would almost have us think, a generic version <strong>of</strong>, or a substitute word <strong>for</strong>, the church. Rather, the kingdom has to do with the reign or rule of God. It is both a <em>present reality,</em> having been inaugurated in the person and mission of Jesus, and a <em>future expectation</em> which God will bring to completion at the end of time. The church, while not the kingdom, is composed of those who are in the kingdom; those who, through the work of Chri…",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[99:101], translation signature[99:99], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "…کے بارے میں درست سوچنا چاہیے۔ بادشاہی کا کلیسیا سے کیا تعلق ہے؟ بادشاہی، جیسا کہ آج کل کا استعمال ہمیں تقریباً یہی سمجھنے پر آمادہ کرتا ہے، کلیسیا کی کوئی عمومی صورت <strong>نہیں</strong>، نہ ہی کلیسیا کا متبادل لفظ <strong>ہے</strong>۔ بلکہ بادشاہی کا تعلق خدا کی حکمرانی سے ہے۔ یہ ایک <em>موجودہ حقیقت</em> بھی ہے، جس کا آغاز یسوع کی ذات اور مشن میں ہوا، اور ایک <em>آئندہ توقع</em> بھی، جسے خدا زمانے کے آخر میں تکمیل تک پہنچائے گا۔ کلیسیا اگرچہ بادشاہی نہیں، لیکن ان لوگوں پر مشتمل ہے جو بادشاہی میں ہیں؛ یعنی وہ لوگ جنہوں نے مسیح کے کام کے وسیلے خدا کی حکمرانی کے سامنے سر تسلیم خم کیا ہے۔</p>"
+      "location": "Editor’s Note, paragraph 5",
+      "severity": "major",
+      "source_quote": "“an extreme focus on kingdom this and kingdom that, will by default cause Christians to ignore this Truth”",
+      "suggested_fix": "Replace the mistranslated clause with: «لیکن بادشاہی اور اس جیسی باتوں پر حد سے زیادہ توجہ مسیحیوں کو لازماً اس سچائی کو نظرانداز کرنے پر مائل کرے گی»",
+      "translation_quote": "«لیکن بادشاہی، بادشاہی پر حد سے زیادہ توجہ مسیحیوں کو بہ طورِ پیش فرض اس سچائی کو نظرانداز کرنے پر مائل کرے گی»"
+    },
+    {
+      "location": "Editor’s Note, paragraph 6",
+      "severity": "major",
+      "source_quote": "“the ‘power of His resurrection’, or ‘the fellowship of His sufferings.’”",
+      "suggested_fix": "Translate the quoted phrases as «اُس کے جی اٹھنے کی قدرت» and «اُس کے دُکھوں میں شریک ہونے کی رفاقت» (or another Urdu rendering that preserves the sense of sharing in his sufferings).",
+      "translation_quote": "«اُس کے جی اُٹھنے کی قدرت» یا «اُس کے دُکھوں کی رفاقت»"
+    },
+    {
+      "location": "Article, paragraph beginning “Among the various factors,” numbered list, item 1",
+      "severity": "major",
+      "source_quote": "“more concerned about being Biblical than about being Christ-like”",
+      "suggested_fix": "Correct the comparison to: «بعض لوگ مسیح جیسا ہونے کی نسبت بائبلی ہونے کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔»",
+      "translation_quote": "«کچھ لوگ بائبلی ہونے کی نسبت مسیح جیسا ہونے کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔»"
+    },
+    {
+      "location": "Article, paragraph beginning “Does Theology Militate Against Discipleship?”, second paragraph",
+      "severity": "major",
+      "source_quote": "“some are inconsistent, others are dogmatic or laced with philosophy”",
+      "suggested_fix": "Restore both descriptions, for example: «کچھ غیر مربوط ہوتی ہیں، بعض عقیدہ پرستی پر مبنی یا فلسفے سے آلودہ ہوتی ہیں۔»",
+      "translation_quote": "«کچھ غیر مربوط، کچھ فلسفے سے آلودہ یا سخت گیر ہوتی ہیں»"
+    },
+    {
+      "location": "Article, paragraph beginning “Are ‘Kingdom’ and ‘Church’ Interchangeable?”, first paragraph",
+      "severity": "major",
+      "source_quote": "“a generic version of, or a substitute word for, the church”",
+      "suggested_fix": "Render both relationships explicitly: «کلیسیا کی کوئی عمومی صورت نہیں، نہ ہی کلیسیا کے لیے متبادل لفظ ہے۔»",
+      "translation_quote": "«کلیسیا کی کوئی عمومی صورت نہیں، نہ ہی کلیسیا کا متبادل لفظ ہے۔»"
     }
   ],
+  "finished_at": "2026-10-03T11:35:33+00:00",
   "id": "abf297818a2fa38150a041f404068057",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "urd",
@@ -145,11 +194,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0831ff95490bffbe0e23f53ea5194e523e59b9c9715fefeab30577548f0a6209.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
   "translation_model_actual": "gpt-6-luna"

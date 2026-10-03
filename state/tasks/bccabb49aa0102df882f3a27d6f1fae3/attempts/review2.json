@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"संपादक की टिप्पणी, आत्मिक अगुवाई और कलीसिया की संरचना वाला अनुच्छेद\",\"severity\":\"major\",\"source_quote\":\"“churches that have ordained leaders”\",\"suggested_fix\":\"“ऐसी कलीसियाओं से कतराते हैं जिनमें नियुक्त अगुवे हैं”\",\"translation_quote\":\"“वे ऐसी कलीसियाओं से कतराते हैं जिनमें अभिषिक्त अगुवे हैं”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 657,
+    "content_evidence_truncated": false,
+    "content_sha256": "e9bc7dc76547f7a6c62358afd7459d5bd0711069568eaaac9c3d99bfdb3a7b89",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10090,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10728
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

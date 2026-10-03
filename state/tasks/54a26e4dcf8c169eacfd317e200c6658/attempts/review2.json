@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"첫 문단, 갈렙과 여호수아의 인용문\",\"severity\":\"major\",\"source_quote\":\"…Let us go up at once, and possess it; for we are well able to overcome it –Numbers 13:30.\",\"suggested_fix\":\"인용문을 “……우리가 곧 올라가서 그 땅을 차지하자. 우리는 능히 이길 수 있다 –민수기 13:30.”로 고치십시오. 번역문 본문의 다른 부분은 그대로 두어도 됩니다.\",\"translation_quote\":\"<em>…우리가 곧 올라가서 그 땅을 차지하자. 우리는 능히 이길 수 있다 –민수기 13:30.</em>\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 613,
+    "content_evidence_truncated": false,
+    "content_sha256": "feaa915e5cf2f7f799060b6f022bbf4c0e697cbaac64bd84c92542fceea83a06",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 177,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8337,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8517
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

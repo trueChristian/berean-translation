@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Laat ons ag slaan…”",
+      "severity": "minor",
+      "source_quote": "as we understand the Scriptures to teach",
+      "suggested_fix": "Change “soos ons die Skrif verstaan dit leer” to “soos ons verstaan dat die Skrif dit leer” for clear, grammatical Afrikaans.",
+      "translation_quote": "soos ons die Skrif verstaan dit leer"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

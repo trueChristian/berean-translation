@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5, Stephen\",\"severity\":\"major\",\"source_quote\":\"The deacon, Stephen, showed great confidence\",\"suggested_fix\":\"Translate “the deacon, Stephen” as “شماس استیفنس” (or another conventional Urdu equivalent that preserves his role as a deacon).\",\"translation_quote\":\"خادم استیفنس نے ... بڑا اعتماد دکھایا\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 411,
+    "content_evidence_truncated": false,
+    "content_sha256": "fa0868d039bd43561dbc50cf43925e3721d8faf1ca1faec5f2f40ff242014f45",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 754,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8508,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8505,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9373
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

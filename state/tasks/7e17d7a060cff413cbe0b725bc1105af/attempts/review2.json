@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"6η παράγραφος\",\"severity\":\"major\",\"source_quote\":\"“Conscience in Crisis”\",\"suggested_fix\":\"Μεταφράστε τον τίτλο ως «Η συνείδηση σε κρίση» (ή άλλη φυσική απόδοση στα ελληνικά), διατηρώντας την αναφορά στο ίδιο βιβλίο.\",\"translation_quote\":\"«Conscience in Crisis»\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 436,
+    "content_evidence_truncated": false,
+    "content_sha256": "a98a2e2ee68720c466a337105af76602c60258a3e822d34458aa2428efea65c5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 101,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6639,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6743
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

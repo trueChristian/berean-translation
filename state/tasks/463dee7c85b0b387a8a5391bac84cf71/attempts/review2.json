@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 12\",\"severity\":\"minor\",\"source_quote\":\"In fact, it is a blessing for others if someone will stand up and provide leadership as a way to bless others.\",\"suggested_fix\":\"Replace \\\"זהו ברכה לאחרים\\\" with \\\"זו ברכה לאחרים\\\".\",\"translation_quote\":\"למעשה, זהו ברכה לאחרים אם מישהו יקום וייקח על עצמו מנהיגות כדי לברך אחרים.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 466,
+    "content_evidence_truncated": false,
+    "content_sha256": "1e6ed741a1d186ab84ecf39306ebaaf91e448a202143ef9003bed8e76c262163",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 973,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 849,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7483,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7480,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8456
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

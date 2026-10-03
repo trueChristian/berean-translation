@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Second paragraph, quoted Philippians 4:11–13\",\"severity\":\"major\",\"source_quote\":\"I can do all things through Christ which strengtheneth me.\",\"suggested_fix\":\"Translate the clause with Christ explicitly named as the one through whom the speaker can do all things, for example: «جو مسیح کے وسیلے سے مجھے قوت بخشتا ہے، اُس میں مَیں سب کچھ کر سکتا ہوں۔»\",\"translation_quote\":\"جو مجھے قوت بخشتا ہے اُس میں مَیں سب کچھ کر سکتا ہوں۔\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 581,
+    "content_evidence_truncated": false,
+    "content_sha256": "ff1ef1cd225842f67af41b3307e6b990c7bcb7d89f1aa1d0a11b76cb23bc0df0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 425,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6015,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6012,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6577
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

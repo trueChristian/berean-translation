@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "अंतिम अनुच्छेद, यशायाह 61:1–3 का उद्धरण",
+      "severity": "major",
+      "source_quote": "“to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted” और “to give unto them beauty for ashes”",
+      "suggested_fix": "उद्धरण में इन अंशों को स्रोत के अर्थ के अनुसार संशोधित करें: “नम्र लोगों को सुसमाचार सुनाने के लिए”; “टूटे मनवालों के घाव बाँधने के लिए”; और “राख के बदले सुन्दरता देने के लिए।” बाकी उद्धरण और HTML संरचना यथावत रखें।",
+      "translation_quote": "“कंगालों को सुसमाचार सुनाने के लिए”; “टूटे मनवालों को चंगा करूँ”; और “राख के बदले सुन्दर मुकुट”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

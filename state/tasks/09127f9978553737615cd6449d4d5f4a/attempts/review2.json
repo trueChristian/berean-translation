@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац о субботнем дне\",\"severity\":\"minor\",\"source_quote\":\"If nothing else, this is the message of the Sabbath Day\",\"suggested_fix\":\"Заменить фразу на: «Во всяком случае, именно этому учит субботний день»\",\"translation_quote\":\"Если ничто другое, то об этом говорит день субботний\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 453,
+    "content_evidence_truncated": false,
+    "content_sha256": "8682fca1274e9e25cfd87a3b0c4cc9c78fd10e82f872dc85e8c50aead26c2a0f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9479,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10180
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

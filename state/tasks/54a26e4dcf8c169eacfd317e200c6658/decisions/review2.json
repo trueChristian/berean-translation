@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "첫 문단, 갈렙과 여호수아의 인용문",
+      "severity": "major",
+      "source_quote": "…Let us go up at once, and possess it; for we are well able to overcome it –Numbers 13:30.",
+      "suggested_fix": "인용문을 “……우리가 곧 올라가서 그 땅을 차지하자. 우리는 능히 이길 수 있다 –민수기 13:30.”로 고치십시오. 번역문 본문의 다른 부분은 그대로 두어도 됩니다.",
+      "translation_quote": "<em>…우리가 곧 올라가서 그 땅을 차지하자. 우리는 능히 이길 수 있다 –민수기 13:30.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

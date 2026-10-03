@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Editor’s Note, paragraph 4",
+      "severity": "minor",
+      "source_quote": "“getting saved” to the neglect of “living a saved life”",
+      "suggested_fix": "استبدل «الانشغال بفعل الخلاص على حساب عيش حياة خلاص» بـ«الانشغال بنيل الخلاص على حساب عيش حياة مخلَّصة» لتوضيح المقابلة بين نيل الخلاص والحياة التي تليق به.",
+      "translation_quote": "«الانشغال بفعل الخلاص على حساب عيش حياة خلاص»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

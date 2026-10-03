@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"The end is coming, which is what God has in mind.\",\"suggested_fix\":\"Replace “het einde komt eraan; daar houdt God rekening mee” with “het einde komt eraan; dat is wat God voor ogen heeft.”\",\"translation_quote\":\"Het einde komt eraan; daar houdt God rekening mee.\"},{\"location\":\"Paragraph defining “desire”\",\"severity\":\"minor\",\"source_quote\":\"Wish, want, crave, and covet all mean to have a longing for.\",\"suggested_fix\":\"Use distinct Dutch terms for the four source words, for example: “Wensen, willen, hunkeren en begeren betekenen allemaal: ergens naar verlangen.”\",\"translation_quote\":\"Wensen, willen, begeren en begeren hebben allemaal de betekenis van ergens naar verlangen.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 802,
+    "content_evidence_truncated": false,
+    "content_sha256": "267b7b3182d42ba633c7ff786f6fb1d53c6213d6d463157f884ca47e88bf216b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 677,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7338,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7335,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8217
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

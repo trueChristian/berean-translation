@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "aside, paragraph 3",
+      "severity": "major",
+      "source_quote": "“the apostles of Christ and present themselves as …an angel of light”",
+      "suggested_fix": "Διορθώστε τη διατύπωση ώστε να διατηρείται η αναφορά στους αποστόλους του Χριστού και στην παρουσίαση ως αγγέλου φωτός, για παράδειγμα: «…σε αποστόλους του Χριστού και θα παρουσιαστούν ως …άγγελοι φωτός –Β΄ προς Κορινθίους 11:13-14.»",
+      "translation_quote": "«…σε αποστόλους του Χριστού και θα παρουσιαστούν ως …άγγελος φωτός –Β΄ προς Κορινθίους 11:13-14.»"
+    },
+    {
+      "location": "paragraph beginning “Όταν ο Ιησούς ευλόγησε…”",
+      "severity": "major",
+      "source_quote": "“He brought together two overarching New Testament themes”",
+      "suggested_fix": "Αλλάξτε το «συνέδεσε» σε «έφερε μαζί» ή σε ισοδύναμη διατύπωση που αποδίδει ότι ο Ιησούς συνδύασε τα δύο θέματα, όχι απλώς ότι τα συνέδεσε.",
+      "translation_quote": "«συνέδεσε δύο κυρίαρχα θέματα της Καινής Διαθήκης»"
+    },
+    {
+      "location": "paragraph beginning “Τι συμπεραίνουμε από όλα αυτά;”",
+      "severity": "major",
+      "source_quote": "“These things have their roots in the thinking of Augustine (354-430)”",
+      "suggested_fix": "Αποδώστε το ρητά ως αναφορά στις ρίζες των ζητημάτων αυτών: «Αυτά τα ζητήματα έχουν τις ρίζες τους στη σκέψη του Αυγουστίνου (354-430)…»",
+      "translation_quote": "«Οι ρίζες αυτών των ζητημάτων βρίσκονται στη σκέψη του Αυγουστίνου (354-430)…»"
+    },
+    {
+      "location": "lyrics, first stanza, line 2",
+      "severity": "major",
+      "source_quote": "“The house of Thine abode”",
+      "suggested_fix": "Μεταφράστε το «house» ως «ο οίκος» ή άλλη σαφή ισοδύναμη απόδοση, ώστε να διατηρείται η εικόνα του οίκου του Θεού: «ο οίκος όπου κατοικείς».",
+      "translation_quote": "«την κατοικία Σου»"
+    },
+    {
+      "location": "lyrics, first stanza, line 3",
+      "severity": "major",
+      "source_quote": "“The church our blest Redeemer”",
+      "suggested_fix": "Αποδώστε το «blest Redeemer» ως «ο μακάριος Λυτρωτής μας» ή «ο ευλογημένος Λυτρωτής μας», όχι ως επίθετο της εκκλησίας.",
+      "translation_quote": "«την εκκλησία που ο μακάριος Λυτρωτής μας»"
+    },
+    {
+      "location": "lyrics, second stanza, line 4",
+      "severity": "major",
+      "source_quote": "“Till toils and cares shall end.”",
+      "suggested_fix": "Διατηρήστε την έννοια ότι οι κόποι και οι έγνοιες θα τελειώσουν: «ώσπου να πάψουν οι κόποι και οι έγνοιες».",
+      "translation_quote": "«ώσπου να τελειώσουν οι κόποι κι οι έγνοιες.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

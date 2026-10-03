@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Here and there we hear a lot about coveting money”\",\"severity\":\"major\",\"source_quote\":\"“coveting positions that are not lawful for us”\",\"suggested_fix\":\"将“贪恋不属于自己的职位”改为“贪恋我们无权担任的职位”，以保留原文关于职位不合法的意思。\",\"translation_quote\":\"“贪恋不属于自己的职位”\"},{\"location\":\"Paragraph quoting Psalm 78:29–31\",\"severity\":\"major\",\"source_quote\":\"“They were not estranged from their lust.”\",\"suggested_fix\":\"将“他们却不知足，贪而无厌”改为“他们并没有远离自己的欲望”，以保留原文这句经文所表达的意思。\",\"translation_quote\":\"“他们却不知足，贪而无厌”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 787,
+    "content_evidence_truncated": false,
+    "content_sha256": "0a44791af64d738babfec75e3b6f1956b7a48a6589673a1cb8d1eba506d51b82",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 787,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7333,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7330,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8338
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

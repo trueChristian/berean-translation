@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "37f25afb-982d-4454-8584-a8762b2d7907",
+    "response_id": "chatcmpl-EUsGM5Zxf8iHGceW8qkVpJLpBGpiQ",
+    "usage": {
+      "completion_tokens": 879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 677,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7338,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7335,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8217
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "The end is coming, which is what God has in mind.",
+        "suggested_fix": "Replace “het einde komt eraan; daar houdt God rekening mee” with “het einde komt eraan; dat is wat God voor ogen heeft.”",
+        "translation_quote": "Het einde komt eraan; daar houdt God rekening mee."
+      },
+      {
+        "location": "Paragraph defining “desire”",
+        "severity": "minor",
+        "source_quote": "Wish, want, crave, and covet all mean to have a longing for.",
+        "suggested_fix": "Use distinct Dutch terms for the four source words, for example: “Wensen, willen, hunkeren en begeren betekenen allemaal: ergens naar verlangen.”",
+        "translation_quote": "Wensen, willen, begeren en begeren hebben allemaal de betekenis van ergens naar verlangen."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1c772f5ccf2b4e9d9d00981c3e322b18",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -45,18 +44,40 @@
         },
         "total_tokens": 13526
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 177,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8340,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8337,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8517
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[11]/em[1]; translation /article[1]/p[11]",
-      "severity": "critical",
-      "source_quote": "… Jesus Christ suffered? Yes, we know that salvation is of the Lord, but it was the confidence of God’s people that caused others to wonder, that caused them to seriously consider this new religion of <em>heretics</em>. This was a group of people that would gladly accept the spoiling of their goods, be happy to give all they had to help others, and not resist their capture by the authorities. The true church of Jesus Christ was a group of people that always caused others to wonder, “Who are these people?” They clearly put all their faith in their God, and that was not a common occurrence. The…",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[39:41], translation signature[39:39], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>초대 교회 시대부터 종교개혁 시대에 이르기까지, 수많은 사람이 하나님 나라에 더해졌습니다. 그렇습니다. 아이들이 자라 부모의 교회에 들어오기도 했지만, 세상에서 새로 회심한 사람들도 큰 무리를 이루었습니다. 세상에 속한 사람을 어떻게 쫓기고 죽임당하는 무리, 예수 그리스도의 교회가 겪은 것처럼 고난받는 무리에 합류하도록 설득할 수 있었을까요? 그렇습니다. 우리는 구원이 주님께 속한 것임을 압니다. 그러나 하나님의 백성이 지닌 확신은 다른 이들이 궁금해하고, 이 ‘이단자들’의 새로운 종교를 진지하게 생각해 보게 만들었습니다. 이들은 기꺼이 재산을 빼앗기고, 가진 모든 것을 기쁘게 내어 다른 사람을 돕고, 당국에 붙잡혀도 저항하지 않는 사람들이었습니다. 예수 그리스도의 참된 교회는 언제나 다른 사람들로 하여금 “이 사람들은 누구인가?” 하고 궁금해하게 하는 무리였습니다. 그들은 분명 하나님께 모든 믿음을 두었으며, 그것은 흔한 일이 아니었습니다. 불길이 아무리 뜨겁게 타오르든, 삶이 아무리 비참해지든 그들은 하나님의 진리를 위해 일어섰습니다. 이 모든 모습은 자신이 아니라 하나님을 크게 신뢰하고 있음을 보여 주었습니다.</p>"
+      "location": "첫 문단, 갈렙과 여호수아의 인용문",
+      "severity": "major",
+      "source_quote": "…Let us go up at once, and possess it; for we are well able to overcome it –Numbers 13:30.",
+      "suggested_fix": "인용문을 “……우리가 곧 올라가서 그 땅을 차지하자. 우리는 능히 이길 수 있다 –민수기 13:30.”로 고치십시오. 번역문 본문의 다른 부분은 그대로 두어도 됩니다.",
+      "translation_quote": "<em>…우리가 곧 올라가서 그 땅을 차지하자. 우리는 능히 이길 수 있다 –민수기 13:30.</em>"
     }
   ],
+  "finished_at": "2026-10-03T11:35:33+00:00",
   "id": "54a26e4dcf8c169eacfd317e200c6658",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "kor",
@@ -145,11 +166,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

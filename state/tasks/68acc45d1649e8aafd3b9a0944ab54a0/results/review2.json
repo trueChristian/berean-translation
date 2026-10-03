@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "45a2f6fd-c767-435b-ab9e-f78d1a756dbc",
+    "response_id": "chatcmpl-EUsGMLLAQVVg2Ou3LnJe96wrrSMM9",
+    "usage": {
+      "completion_tokens": 511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6092,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6089,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6603
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 2",
+        "severity": "major",
+        "source_quote": "“I can do all things through Christ which strengtheneth me.”",
+        "suggested_fix": "উদ্ধৃত বাক্যটি এভাবে সংশোধন করুন: “যিনি আমাকে শক্তি দেন, খ্রিষ্টের মাধ্যমে আমি সবই করতে পারি।”",
+        "translation_quote": "“যিনি আমাকে শক্তি দেন, তাঁর মাধ্যমে আমি সবই করতে পারি।”"
+      },
+      {
+        "location": "HTML, paragraph 6",
+        "severity": "minor",
+        "source_quote": "“One of the key points the book focuses on is that the global events of that time period shook the very foundations of their faith and practice.”",
+        "suggested_fix": "“বইটির অন্যতম মূল বক্তব্য হলো, সেই সময়ের বৈশ্বিক ঘটনাগুলো তাদের বিশ্বাস ও অনুশীলনের ভিত্তিকেই নাড়িয়ে দিয়েছিল।”",
+        "translation_quote": "“বইটিতে যে মূল বিষয়গুলোর ওপর জোর দেওয়া হয়েছে, তার একটি হলো, সেই সময়ের বৈশ্বিক ঘটনাগুলো তাদের বিশ্বাস ও অনুশীলনের ভিত্তিকেই নাড়িয়ে দিয়েছিল।”"
+      },
+      {
+        "location": "HTML, paragraph 13",
+        "severity": "major",
+        "source_quote": "“As I have interacted with people who are not regular church goers, or those who attend a ‘dying’ church, an ‘older’ church, or a ‘small country’ church…”",
+        "suggested_fix": "“যারা নিয়মিত মণ্ডলীতে যান না, অথবা যারা ‘মৃতপ্রায়’ মণ্ডলী, ‘পুরোনো’ মণ্ডলী কিংবা ‘ছোট গ্রামীণ’ মণ্ডলীতে যান—এমন লোকদের সঙ্গে কথা বলার সময়…”",
+        "translation_quote": "“যারা নিয়মিত মণ্ডলীতে যান না, অথবা যারা ‘মৃতপ্রায়’ মণ্ডলী, ‘বয়স্কদের’ মণ্ডলী কিংবা ‘ছোট গ্রামীণ’ মণ্ডলীতে যান—এমন লোকদের সঙ্গে কথা বলার সময়…”"
+      },
+      {
+        "location": "HTML, paragraph 14",
+        "severity": "major",
+        "source_quote": "“as we understand the Scriptures to teach”",
+        "suggested_fix": "“শাস্ত্র যা শিক্ষা দেয় বলে আমরা বুঝি, সেই অনুযায়ী স্বাভাবিক উপাসনার ক্ষতিতে হয়”",
+        "translation_quote": "“আমাদের শাস্ত্রের শিক্ষা অনুযায়ী বোঝা স্বাভাবিক উপাসনার ক্ষতিতে হয়”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

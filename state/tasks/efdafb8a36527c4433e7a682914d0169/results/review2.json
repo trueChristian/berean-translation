@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a3a5f4a3-d6f7-48ab-b34c-fff126cf09e5",
+    "response_id": "chatcmpl-EUsGjfp5TprhNfqE0Kce7EOKeiZei",
+    "usage": {
+      "completion_tokens": 631,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 487,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5589,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5586,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6220
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second paragraph; Philippians 4:11–13 quotation",
+        "severity": "major",
+        "source_quote": "“I am instructed both to be full and to be hungry”",
+        "suggested_fix": "Replace «er jeg innviet i å være mett og å være sulten» with «har jeg lært både å være mett og å være sulten» so the quotation conveys that Paul has learned how to live in either condition.",
+        "translation_quote": "«I alt og i alle ting er jeg innviet i å være mett og å være sulten»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

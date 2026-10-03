@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 12",
+      "severity": "minor",
+      "source_quote": "In fact, it is a blessing for others if someone will stand up and provide leadership as a way to bless others.",
+      "suggested_fix": "Replace \"זהו ברכה לאחרים\" with \"זו ברכה לאחרים\".",
+      "translation_quote": "למעשה, זהו ברכה לאחרים אם מישהו יקום וייקח על עצמו מנהיגות כדי לברך אחרים."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

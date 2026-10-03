@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1a08a28d-400b-4d42-be49-bd021fb45867",
+    "response_id": "chatcmpl-EUsGM4XJeH8twcArUQdT17Gueh49P",
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 754,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8508,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8505,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9373
+    }
+  },
+  "received_at": "2026-10-03T11:35:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5, Stephen",
+        "severity": "major",
+        "source_quote": "The deacon, Stephen, showed great confidence",
+        "suggested_fix": "Translate “the deacon, Stephen” as “شماس استیفنس” (or another conventional Urdu equivalent that preserves his role as a deacon).",
+        "translation_quote": "خادم استیفنس نے ... بڑا اعتماد دکھایا"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}
