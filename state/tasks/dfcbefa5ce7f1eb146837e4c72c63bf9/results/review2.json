@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a8d72932-a44d-4b01-aafe-55df6e12c30a",
+    "response_id": "chatcmpl-EUpHwSExmlZYuVASnmAX6WvcU0vAh",
+    "usage": {
+      "completion_tokens": 1057,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 726,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7693,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7690,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8750
+    }
+  },
+  "received_at": "2026-10-03T10:41:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “The human mind is an amazing…”; quotation of 2 Timothy 1:7",
+        "severity": "major",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.”",
+        "suggested_fix": "In the quoted verse, replace “selfbeheersing” with a faithful Afrikaans rendering of “a sound mind,” such as “’n gesonde verstand” or “’n gesonde gemoed.”",
+        "translation_quote": "“Want God het ons nie ’n gees van vreesagtigheid gegee nie, maar van krag en liefde en selfbeheersing.”"
+      },
+      {
+        "location": "HTML, final blockquote; Philippians 4:7–8",
+        "severity": "major",
+        "source_quote": "“whatsoever things are of good report”",
+        "suggested_fix": "Translate this clause as “alles wat ’n goeie naam het” or another faithful Afrikaans equivalent, while retaining the separate following clause about virtue and praise.",
+        "translation_quote": "“alles wat lof verdien”"
+      },
+      {
+        "location": "HTML, first paragraph",
+        "severity": "minor",
+        "source_quote": "“A happy, normal two-year-old girl”",
+        "suggested_fix": "Replace “gesonde” with “normale” so the description conveys “normal,” rather than adding a claim about the child's health.",
+        "translation_quote": "“’n Gelukkige, gesonde tweejarige meisie”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

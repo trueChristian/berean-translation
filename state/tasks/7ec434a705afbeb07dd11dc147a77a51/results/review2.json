@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ed93ca5e-89da-48ae-b251-65a51d64ec7f",
+    "response_id": "chatcmpl-EUpiedElfcpzJfJnaVZzSWCigFCfB",
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 593,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4842
+      },
+      "total_tokens": 5575
+    }
+  },
+  "received_at": "2026-10-03T10:41:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 7",
+        "severity": "minor",
+        "source_quote": "Many speculations have been made regarding the cause of the mental distress which prompted the author to write this text.",
+        "suggested_fix": "Replace “geestelike nood” with “innerlike nood” or “emosionele nood” to retain the sense of mental distress without suggesting spiritual distress.",
+        "translation_quote": "Daar is baie bespiegel oor die oorsaak van die geestelike nood wat die skrywer aangespoor het om hierdie teks te skryf."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

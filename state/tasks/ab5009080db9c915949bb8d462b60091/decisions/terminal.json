@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph under “Die oorheersing van dorings en distels”",
+      "severity": "major",
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel",
+      "suggested_fix": "Translate these plant names into Afrikaans, for example: “geseënde distel, melkdistel en kaarddistel”. Preserve the rest of the sentence and its HTML structure.",
+      "translation_quote": "Blessed Thistle, Milk Thistle, Teasel"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

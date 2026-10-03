@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraaf oor die anointing with oil",
+      "severity": "major",
+      "source_quote": "“the clearing of the heart of any known, unconfessed sin”",
+      "suggested_fix": "Vervang “om die hart te reinig van enige bekende, onbelyde sonde” met “om die hart te suiwer van enige bekende, onbelyde sonde” om duidelik te behou dat die hart van sonde gereinig word, nie bloot skoongemaak nie.",
+      "translation_quote": "“om die hart te reinig van enige bekende, onbelyde sonde”"
+    },
+    {
+      "location": "HTML, aanhaling uit Psalm 119:67",
+      "severity": "major",
+      "source_quote": "“Before I was afflicted I went astray”",
+      "suggested_fix": "Vervang “Voordat ek verneder is” met “Voordat ek geteister is” (of “Voordat ek verdruk is”) om “afflicted” se betekenis van beproewing/teistering te behou.",
+      "translation_quote": "“Voordat ek verneder is”"
+    },
+    {
+      "location": "HTML, aanhaling oor Paulus se doring in die vlees",
+      "severity": "major",
+      "source_quote": "“It was for this reason that Paul was given a thorn in the flesh.”",
+      "suggested_fix": "Vervang “Dit is waarom Paulus ’n doring in die vlees gegee is” met “Dit is waarom ’n doring in die vlees aan Paulus gegee is” om nie te impliseer dat Paulus self die doring gegee het nie.",
+      "translation_quote": "“Dit is waarom Paulus ’n doring in die vlees gegee is.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

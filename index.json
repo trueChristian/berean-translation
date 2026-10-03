@@ -142,6 +142,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "5c1b1192110eeb786c6a91f26b540f8910264cbb2e148bf11204e642715a81bb",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "Bladmusiek vir ‘O Liefde, wat my nie loslaat nie’",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "1843b748958e30a35394c3f4bd9c030b7221dfa9dd80f6d3a57d584b4e20aa33",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "’n Gesang se geskiedenis",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O Liefde, wat my nie loslaat nie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "f158b6ed2656a8c3bf004e7fce66c70eba16329382cfea982d5727b49eda9da9",
       "human_reviewed": false,

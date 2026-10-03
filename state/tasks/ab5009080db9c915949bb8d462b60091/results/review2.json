@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7179bad3-3322-4809-a78e-b3dd1991fa68",
+    "response_id": "chatcmpl-EUpHPp1UAJDF4KgTFJxUwnLV0kz59",
+    "usage": {
+      "completion_tokens": 744,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7047,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7044,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7791
+    }
+  },
+  "received_at": "2026-10-03T10:41:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph under “Die oorheersing van dorings en distels”",
+        "severity": "major",
+        "source_quote": "Blessed Thistle, Milk Thistle, Teasel",
+        "suggested_fix": "Translate these plant names into Afrikaans, for example: “geseënde distel, melkdistel en kaarddistel”. Preserve the rest of the sentence and its HTML structure.",
+        "translation_quote": "Blessed Thistle, Milk Thistle, Teasel"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

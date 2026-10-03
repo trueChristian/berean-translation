@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ea8d3573352a42ba8f694108f04c9aa6",
   "campaign": "gh-37108593335",
   "created_at": "2026-10-03T08:07:46+00:00",
   "downstream_candidate_sha256": "68f4eff2b3b1996375c6c385dc43d1d063887d8a20b1bcf817422064208873bd",
@@ -30,39 +29,39 @@
         },
         "total_tokens": 8044
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 593,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4845,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 4842
+        },
+        "total_tokens": 5575
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph listing other hymns (near end of main text)",
-      "severity": "major",
-      "source_quote": "including “Make Me A Captive Lord”, and “Then I Shall Be Free.”",
-      "suggested_fix": "Translate the quoted hymn titles into Afrikaans (quoted substantive prose must be translated). For example: “Maak My ’n Gevangene, Here” and “Dan Sal Ek Vry Wees.” Preserve the quotes and punctuation and place them where the English originals appear.",
-      "translation_quote": "insluitende “Make Me A Captive Lord”, en “Then I Shall Be Free.”"
-    },
-    {
-      "location": "Image <img> alt attribute",
-      "severity": "major",
-      "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
-      "suggested_fix": "Translate the alt text into Afrikaans and translate the hymn title inside it. For example: alt=\"Bladmuziek vir 'O Liefde, wat my nie loslaat nie'\". Preserve the same HTML attribute structure.",
-      "translation_quote": "alt=\"Bladmuziek vir 'O Love That Wilt Not Let Me Go'\""
-    },
-    {
-      "location": "Paragraph about hints in the hymn (mentions third stanza)",
-      "severity": "major",
-      "source_quote": "the tracing of the “rainbow through the rain” in the third stanza",
-      "suggested_fix": "Replace the mistranslation of 'stanza' with the correct Afrikaans term (e.g., 'strofe' or 'verse'). For example: “die nasporing van die ‘reënboog deur die reën’ in die derde strofe.” Keep the quoted English phrase translated into Afrikaans.",
-      "translation_quote": "die nasporing van die “reënboog deur die reën” in die derde refrein"
-    },
-    {
-      "location": "Paragraph on later writings (list of devotional works)",
+      "location": "Paragraph 7",
       "severity": "minor",
-      "source_quote": "including Moments on the Mount, Voice of the Spirit, and Rests by the River.",
-      "suggested_fix": "Correct a typographical error and ensure the titles are translated consistently into Afrikaans. 'Moomente op die Berg' should read 'Momente op die Berg'. Also consider translating the titles as quoted substantive prose into Afrikaans if the publication standard requires (e.g., 'Momente op die Berg', 'Stem van die Gees', 'Rus by die Rivier').",
-      "translation_quote": "insluitend <em>Moomente op die Berg</em>, <em>Stem van die Gees</em>, en <em>Rus by die Rivier</em>."
+      "source_quote": "Many speculations have been made regarding the cause of the mental distress which prompted the author to write this text.",
+      "suggested_fix": "Replace “geestelike nood” with “innerlike nood” or “emosionele nood” to retain the sense of mental distress without suggesting spiritual distress.",
+      "translation_quote": "Daar is baie bespiegel oor die oorsaak van die geestelike nood wat die skrywer aangespoor het om hierdie teks te skryf."
     }
   ],
+  "finished_at": "2026-10-03T10:41:17+00:00",
   "id": "7ec434a705afbeb07dd11dc147a77a51",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "afr",
@@ -151,12 +150,14 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-6-luna"

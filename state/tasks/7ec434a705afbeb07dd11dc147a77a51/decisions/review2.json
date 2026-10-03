@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "Many speculations have been made regarding the cause of the mental distress which prompted the author to write this text.",
+      "suggested_fix": "Replace “geestelike nood” with “innerlike nood” or “emosionele nood” to retain the sense of mental distress without suggesting spiritual distress.",
+      "translation_quote": "Daar is baie bespiegel oor die oorsaak van die geestelike nood wat die skrywer aangespoor het om hierdie teks te skryf."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

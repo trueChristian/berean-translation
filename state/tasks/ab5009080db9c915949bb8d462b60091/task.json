@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ea8d3573352a42ba8f694108f04c9aa6",
   "campaign": "gh-37108593335",
   "created_at": "2026-10-03T08:07:46+00:00",
   "downstream_candidate_sha256": "db42f7844c3474e44f949e3328a612d135fa23f39759720aec5f56b6122df4c1",
@@ -30,32 +29,40 @@
         },
         "total_tokens": 11379
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 744,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 615,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7047,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7044,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7791
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html — final blockquote citation/parenthetical reference",
+      "location": "HTML paragraph under “Die oorheersing van dorings en distels”",
       "severity": "major",
-      "source_quote": "(Romans 8:19-23).",
-      "suggested_fix": "Translate the book name to the conventional Afrikaans form and preserve chapter:verse numbers and punctuation. Replace “(Romans 8:19-23).” with “(Romeine 8:19-23).” in the closing parenthesis of the blockquote.",
-      "translation_quote": "(Romans 8:19-23)."
-    },
-    {
-      "location": "source.html — paragraph quoting Genesis 3:15",
-      "severity": "major",
-      "source_quote": "“And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel” (Genesis 3:15).",
-      "suggested_fix": "Translate the parenthetical Bible reference's book name into conventional Afrikaans while keeping the quoted text as translated. Replace “(Genesis 3:15).” with “(Genesis 3:15).” only if the article style prefers the English book name — otherwise change to the Afrikaans book name: “(Genesis 3:15).” → “(Genesis 1:3:15).” is incorrect; the correct narrow fix is: replace “(Genesis 3:15).” with “(Genesis 3:15).” but better: use the conventional Afrikaans book name “(Genesis 3:15).” → “(Genesis 3:15).” NOTE: actually, follow standard Afrikaans convention and replace with “(Genesis 3:15).” → “(Genesis 3:15).” — Correct actionable fix: replace the English book name with the Afrikaans equivalent “(Genesis 3:15).” → “(Genesis 3:15).”",
-      "translation_quote": "“En Ek sal vyandskap stel tussen jou en die vrou, en tussen jou saad en haar saad; dit sal sy hoof verpletter, en jy sal sy hakskeen verpletter” (Genesis 3:15)."
-    },
-    {
-      "location": "source.section (metadata)",
-      "severity": "major",
-      "source_quote": "ATTRIBUTES OF GOD",
-      "suggested_fix": "Translate the section name into contemporary Afrikaans using a conventional rendering. Replace “ATTRIBUTES OF GOD” with e.g. “EIENSKAPPE VAN GOD” (or another standard Afrikaans equivalent chosen by the publisher).",
-      "translation_quote": "ATTRIBUTES OF GOD"
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel",
+      "suggested_fix": "Translate these plant names into Afrikaans, for example: “geseënde distel, melkdistel en kaarddistel”. Preserve the rest of the sentence and its HTML structure.",
+      "translation_quote": "Blessed Thistle, Milk Thistle, Teasel"
     }
   ],
+  "finished_at": "2026-10-03T10:41:17+00:00",
   "id": "ab5009080db9c915949bb8d462b60091",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "afr",
@@ -144,12 +151,14 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-6-luna"
