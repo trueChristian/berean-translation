@@ -2,7 +2,6 @@
   "article_id": "6485a6ed-e76f-4142-9e27-e649823cb1a3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c194c5ba19974d29879d2803092a5c92",
   "campaign": "gh-37109120670",
   "created_at": "2026-10-03T08:20:25+00:00",
   "downstream_candidate_sha256": "f2517ebcf1ad28fc9cba96f958b01d1441353c69a7e7027848a6d62df0e1e156",
@@ -10,7 +9,29 @@
   "downstream_previous_sha256": "4e4f527c57838b79be9453e48874a566e8ff2d072e95e215c929ad1ba4abf7d4",
   "downstream_previous_task": "2dd09a66f29ba7de41f9273312f0fd08",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4504,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 132,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10222,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10219,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14726
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "<article> — paragraph containing 1 Peter 3:3-6 (source_html paragraph beginning with “Whose adorning let it not be… –1 Peter 3:3-6.”)",
@@ -133,9 +154,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/8318b57a6ada492a7c60f08b638ec3749b04818458e4f26c4da97c0bb96e2624.json",
-  "stage": "correct",
-  "status": "in_batch",
+  "stage": "review2",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6-luna"
 }
