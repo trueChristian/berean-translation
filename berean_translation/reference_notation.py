@@ -543,20 +543,33 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
     if language in ('deu', 'heb') or (language == 'eng' and target_language in ('deu', 'heb')):
         # Source-backed standalone verse labels introduce a quotation, not an
         # invented chapter. Protect their numbers separately on both sides.
-        label = (r"(?<!\w)(?:ו?[במ]|ו)?(?:פסוק|פס[׳'’‘])\s*" if language == 'heb'
-                 else r'(?<!\w)(?:Vers|V\.)\s*' if language == 'deu'
-                 else r'(?<!\w)(?:verse|v\.)\s*')
-        pattern = re.compile(label + r'([0-9]+)(?!\w)\s*([,:])', re.I)
+        label = (r"(?<!\w)(?:ו?[במ]|ו)?(?:פסוק|פס[׳'’‘])(?![^\W\d_])\s*" if language == 'heb'
+                 else r'(?<!\w)(?:Vers|V\.)(?![^\W\d_])\s*' if language == 'deu'
+                 else r'(?<!\w)(?:verse|v\.)(?![^\W\d_])\s*')
+        # Retain numeric-shaped malformed outer labels too. A digits-only
+        # lexer could ignore 22a/22.5/-1/21,22 and expose only an inner label.
+        pattern = re.compile(label + r'([^\s,:]+(?:[,:][^\s,:]+)*'
+                             r'(?:\s+(?:[-+−*/×÷=|^&.,:]+\s*)?[0-9][^\s,:]*)*)\s*([,:])', re.I)
         for match in pattern.finditer(normalized):
             delimiter = match.start(2)
             tail = normalized[delimiter + 1:].lstrip()
             if covered(match.start(), match.end()):
                 continue
-            valid_number = len(match[1]) <= 3 and 1 <= int(match[1]) <= 999
-            if (not valid_number or pattern.match(normalized, _space(normalized, delimiter + 1))
+            value = match[1]
+            valid_number = re.fullmatch(r'[1-9][0-9]{0,2}', value) is not None
+            numeric_shaped = (any(character.isdecimal() for character in value)
+                              or _numeric_looking(value)
+                              or re.fullmatch(r'[IVXLCDM]+', value, re.I))
+            nested_start = _space(normalized, delimiter + 1)
+            while normalized[nested_start:nested_start + 1] in (':', ','):
+                nested_start = _space(normalized, nested_start + 1)
+            nested = pattern.match(normalized, nested_start)
+            if not numeric_shaped and not nested:
+                continue  # Ordinary prose such as "this verse says:".
+            if (not valid_number or nested or normalized[delimiter + 1:].lstrip().startswith((':', ','))
                     or tail[:1] in _QUOTE_PAIRS and not _quoted_prose(tail)):
                 mentions.append((match.start(), match.end(),
-                                 f'!invalid[{language}] nested verse-label {match[1]}'))
+                                 f'!invalid[{language}] verse-label {value}'))
                 continue
             if (not covered(match.start(), match.end())
                     and normalized[delimiter + 1:delimiter + 2].isspace()
