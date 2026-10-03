@@ -1,0 +1,150 @@
+{
+  "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37154369621",
+  "continuation": {
+    "cycle": 1,
+    "strategy_sha256": "c15f4c6ce02e4a1fb468b31c9822eb23495552f9b124cf781a98a252caab4c04"
+  },
+  "created_at": "2026-10-03T21:30:48+00:00",
+  "cycle_budget": {
+    "max_candidate_bytes": 120000,
+    "repair_reserved_usd": 0.201528,
+    "review_reserved_usd": 0.361299,
+    "total_reserved_usd": 0.562827
+  },
+  "downstream_candidate_sha256": "c138dfa308e796cdf5477807bbf0b9896d058b0fce27002301f84d8cb113d499",
+  "downstream_key": "217188a9e8b02a2059d51b51a33c731cb4d2f4b22a46bfedc54395a7a74668a8",
+  "downstream_previous_sha256": "8e8b350cb28e0c31ba27a48c019c6c44dfd3daa943ebe328996d7b5eeb9087be",
+  "downstream_previous_task": "54ad1734d1729f094cb5f7af32f5ba35",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<p>Maybe you can go to a Tupperware party, attend a Bible study, and repaint the bathroom all in one week. But should you?</p>",
+      "severity": "critical",
+      "source_quote": "Maybe you can go to a Tupperware party, attend a Bible study, and repaint the bathroom all in one week. But should you?",
+      "suggested_fix": "Preserve the original meaning: translate “repaint the bathroom” correctly. For example, replace the sentence inside the same <p>…</p> with: \"Miskien kan jy in een week by ’n Tupperware-partytjie gaan, by ’n Bybelstudie teenwoordig wees en die badkamer opnuut verf. Maar moet jy?\" (keep existing HTML tags and attributes unchanged).",
+      "translation_quote": "Miskien kan jy in een week by ’n Tupperware-partytjie gaan, by ’n Bybelstudie teenwoordig wees en die badkamer oopsit. Maar moet jy?"
+    },
+    {
+      "location": "<p>All my family members know that we eat dinner at 5:30. But a late arrival habit is trending, and it bothers me.</p>",
+      "severity": "minor",
+      "source_quote": "All my family members know that we eat dinner at 5:30. But a late arrival habit is trending, and it bothers me.",
+      "suggested_fix": "Fix typo and natural phrasing while preserving HTML: replace the translation inside the same <p>…</p> with e.g. \"Al my gesinslede weet dat ons om 5:30 eet. Maar daar ontwikkel ’n neiging van laat aankom, en dit pla my.\"",
+      "translation_quote": "Al my gesinslede weet dat ons om 5:30 eet. Maar ’n trend van laat aankomsmis gewoonte ontstaan, en dit pla my."
+    },
+    {
+      "location": "<p>Commitment overload happens by default. ...</p>",
+      "severity": "minor",
+      "source_quote": "Commitment overload happens by default.",
+      "suggested_fix": "Use a more idiomatic Afrikaans term for \"commitment\" without changing meaning. For example, within the same <p>…</p> replace \"Toewysing-oorlading gebeur by verstek.\" with \"Oorlading deur te veel verbintenisse gebeur by verstek.\" or \"Verpligtinge-oorlading gebeur by verstek.\" (preserve tags).",
+      "translation_quote": "Toewysing-oorlading gebeur by verstek."
+    },
+    {
+      "location": "<p>She asked her husband what he thought about it. He said, “As long as you don’t complain and stress about it like you did last year, I don’t care.” Was her husband saying “yes” or “no”?</p>",
+      "severity": "minor",
+      "source_quote": "He said, “As long as you don’t complain and stress about it like you did last year, I don’t care.” Was her husband saying “yes” or “no”?:",
+      "suggested_fix": "Correct phrasing and word order in the husband’s quote to reflect the English more naturally while preserving HTML. For example: \"Hy sê: ‘Solank jy nie kla of daaroor stres soos verlede jaar nie, gee dit vir my nie om.’ Was hy nou ‘ja’ of ‘nee’?’\"",
+      "translation_quote": "Hy sê, “Solank jy nie kla en jou daaroor stres soos verlede jaar nie, gee dit my niks om.” Was haar man “ja” of “nee” sê?"
+    }
+  ],
+  "id": "2231909f91165b66762fedac8151bfb1",
+  "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+  "language": "afr",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
