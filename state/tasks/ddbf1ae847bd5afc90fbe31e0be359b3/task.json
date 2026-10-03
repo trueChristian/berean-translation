@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "82dfdd74202b40e48cc7500bd941df24",
   "campaign": "gh-37109005676",
   "created_at": "2026-10-03T08:16:53+00:00",
   "downstream_candidate_sha256": "3220596de79de8fd3e5899de3d3eeb6722bc4ed02d48924b0fb93338dd539724",
@@ -10,7 +9,29 @@
   "downstream_previous_sha256": "eb20c37d1ffd381bd4feda560a0e06c3147fa4f576e1d5187d74da141cf0a11f",
   "downstream_previous_task": "6a7a6154fdb2f0b9efd77e2bb9b657fb",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3150,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 11,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6836,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6833,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9986
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "<p>…Hans was mortified, although he was innocent regarding his second marriage. He had no desire to be a polygamist or to commit adultery. …</p>",
@@ -119,9 +140,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
-  "stage": "correct",
-  "status": "in_batch",
+  "stage": "review2",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6.1-sol"
 }
