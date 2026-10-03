@@ -2,6 +2,7 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "330633fa8a524d1480425df0e7009b86",
   "campaign": "downstream-2026100318",
   "continuation": {
     "cycle": 1,
@@ -140,11 +141,11 @@
   },
   "protected": false,
   "rejection_reason": "Duplicate HTML attribute",
-  "review_attempts": 0,
+  "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "review2",
-  "status": "queued",
+  "status": "in_batch",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-6.1-sol"
