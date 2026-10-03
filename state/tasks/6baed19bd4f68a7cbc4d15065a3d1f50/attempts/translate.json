@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    परमेश्वर ने यह वादा नहीं किया कि आकाश सदा नीला रहेगा,<br>\\n    कि जीवन-भर हमारे रास्तों पर फूल बिछे होंगे;<br>\\n    परमेश्वर ने यह वादा नहीं किया कि बारिश के बिना धूप होगी,<br>\\n    दुःख के बिना आनंद, पीड़ा के बिना शांति होगी।</p>\\n\\n    <p>मुखड़ा:<br>\\n    पर परमेश्वर ने दिन-भर के लिए सामर्थ्य का वादा किया है,<br>\\n    परिश्रम के लिए विश्राम, राह के लिए प्रकाश,<br>\\n    परीक्षाओं के लिए अनुग्रह, ऊपर से सहायता,<br>\\n    अटूट दया, अमर प्रेम।</p>\\n\\n    <p>2.<br>\\n    परमेश्वर ने यह वादा नहीं किया कि हम<br>\\n    परिश्रम और प्रलोभन, मुसीबत और दुःख नहीं जानेंगे;<br>\\n    उसने हमें यह नहीं बताया कि हमें<br>\\n    अनेक बोझ और अनेक चिंताएँ नहीं उठानी पड़ेंगी।</p>\\n\\n    <p>3.<br>\\n    परमेश्वर ने यह वादा नहीं किया कि रास्ते समतल और चौड़े होंगे,<br>\\n    यात्रा तेज़ और आसान होगी, और किसी मार्गदर्शक की ज़रूरत नहीं पड़ेगी;<br>\\n    कोई चट्टानी और खड़ा पहाड़ नहीं होगा,<br>\\n    कोई मटमैली और गहरी नदी नहीं होगी।</p>\\n  </div>\\n</article>\\n\",\"section\":\"कविता\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 2261,
+    "content_evidence_truncated": false,
+    "content_sha256": "6f4492d5bf0aefc279090dab1b9642d9f8e76af488a179cbce5f76248b3a5344",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 424,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1221,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1648
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

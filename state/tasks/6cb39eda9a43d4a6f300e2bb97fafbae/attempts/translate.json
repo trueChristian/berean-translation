@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8f36dee3-685c-47b8-b1d4-9981806d4cd5\\\">\\n  <p>Suara deru ban truk yang melaju di jalan berkerikil memenuhi udara saat aku duduk di rumah membaca ensiklopedia. Aku segera berdiri dan mengintip ke luar jendela.</p>\\n\\n  <p>Ibu baru saja pulang dari lelang hasil bumi di Lewisburg membawa beberapa buah persik.</p>\\n\\n  <p>Setelah membanting pintu di belakangku, aku berlari menyeberangi rumput hijau yang lebat dan melompat ke bak truk kami.</p>\\n\\n  <p>Di bagian belakang truk pikap itu ada empat kotak berisi buah persik. Sambil menyeringai penuh kemenangan, aku merogoh sebuah kotak, mencari-cari sampai menemukan buah yang matang. Tepat sebelum aku menggigitnya, Ibu berkata, “Steven, jangan makan buah persik; nanti makan malammu jadi tidak enak.” Dengan sedih, aku melemparkan kembali buah persik itu ke dalam kotak, lalu berjalan pergi perlahan-lahan.</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg\\\" alt=\\\"Sebuah peti berisi buah persik di atas kayu lapuk\\\">\\n  </figure>\\n\\n  <p>Beberapa jam kemudian, Ayah memanggil dari kandang anak sapi. “Steven, pergilah memetik lobak untuk lapak hasil bumi kita di pasar hari Jumat.”</p>\\n\\n  <p>Setelah memetik, mencuci, dan mengikat lobak-lobak itu, aku membawanya ke dalam ruang pendingin tua yang berada di dalam lumbung merah. Pintu ruang pendingin itu berderit saat kutarik hingga terbuka. Di sepanjang dinding ruang pendingin itu terletak empat kotak berisi buah persik yang menggoda. Aku menatap buah-buah persik itu, dan air liurku menetes. Aku cepat-cepat meletakkan lobak-lobak itu. Aduh, tampaknya lezat sekali. Tentunya sedikit saja buah persik tidak akan merusak makan malam anak berusia sepuluh tahun yang kelaparan. Ibu tak akan tahu kalau aku hanya mengambil satu buah persik.</p>\\n\\n  <p>Jauh di lubuk hatiku, pergulatan antara benar dan salah mulai berkecamuk. Aku tahu bahwa menyelinap itu salah, tetapi buah-buah persik itu tampak terlalu lezat.</p>\\n\\n  <p>Setelah melahap buah persik itu, aku mengamati bagian dalam lumbung yang gelap untuk mencari tempat persembunyian yang bagus bagi bijinya. Aku memandang ke seberang bawang-bawang yang terhampar di rak pengering menuju bal jerami yang terbuka. Masalahnya, kalau kutaruh biji itu di bawah jerami, seseorang bisa menemukannya. Lalu aku melihat lubang-lubang pada papan dinding lumbung di sisi barat. Kalau kudorong biji itu melewati salah satu lubang tersebut, biji itu akan jatuh di pinggir jalan. Jadi, kalau ada yang melihatnya, mereka akan mengira biji itu berasal dari kendaraan yang lewat.</p>\\n\\n  <p>Dengan sekuat tenaga kudorong biji itu melewati lubang, sambil mengintip saat biji itu jatuh di pinggir jalan. Tepat pada saat itu, dahiku terasa nyeri terbakar. Aku segera melompat mundur. Di atas lubang itu tergantung sarang tawon jaket kuning. Lalu kulihat pelakunya, yang melayang-layang di atasku dan berusaha menyengatku lagi. Aku berlari secepatnya keluar dari pintu lumbung, membanting pintu hingga mengenai wajah tawon jaket kuning itu.</p>\\n\\n  <p>Malam itu dahiku membengkak seperti balon, sehingga sulit bagiku untuk melihat dengan jelas.</p>\\n\\n  <p>Beberapa jam kemudian, semua orang pergi tidur. Aku berbaring di sofa agar Ibu bisa sesekali memeriksaku sepanjang malam. Tetapi aku benar-benar tidak bisa tidur. Wajahku meradang dan gatal, tetapi yang terus kupikirkan hanyalah rasa bersalah dan penyesalan atas perbuatanku.</p>\\n\\n  <p>Setelah beberapa jam yang terasa menyiksa, aku mengumpulkan keberanian untuk turun dari sofa dan berjalan berjingkat-jingkat ke kamar tidur orang tuaku. Aku membangunkan orang tuaku dan menceritakan seluruhnya… bagaimana aku memakan buah persik itu, lalu mencoba menyembunyikan bijinya, dan bagaimana aku tersengat.</p>\\n\\n  <p>Orang tuaku memaafkanku dan memutuskan bahwa ini adalah pelajaran yang tak akan segera kulupakan. Dengan hati lega, aku berjalan kembali ke sofa, berbaring, dan segera tertidur nyenyak.</p>\\n</article>\\n\",\"section\":\"Pojok Anak\",\"subtitle\":null,\"title\":\"Taatilah\"}",
+    "content_bytes": 4065,
+    "content_evidence_truncated": false,
+    "content_sha256": "eda4b03635d2109fb628ede9bc2c50033fd27a1e2d02300f38e17d743bfbac60",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1271,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 110,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1831,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1828,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3102
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"54c17772-223b-4fc7-b2e6-0bda387f9b23\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Soms is mijn hart zwaar,<br>\\n    Beladen met angst en zorgen.<br>\\n    Dan roept mijn Heer mij toe:<br>\\n    ‘Kom, mijn kind, Ik zal je last dragen.’</p>\\n\\n    <p>Soms overspoelen vragen mijn gedachten,<br>\\n    De antwoorden lijken ontwijkend en moeilijk.<br>\\n    Dan sla ik mijn ogen op naar mijn God,<br>\\n    En vertrouw ik op Zijn liefde die mij omhult.</p>\\n\\n    <p>Soms wil ik het opgeven,<br>\\n    De weg voor mij lijkt lang en zwaar.<br>\\n    Maar ik denk aan het pad van mijn Herder,<br>\\n    Voor mij werd Hij verwond.</p>\\n\\n    <p>Soms is mijn geest beneveld,<br>\\n    Ik struikel bij elke stap die ik zet.<br>\\n    Toch hoor ik vanuit de mist een fluistering:<br>\\n    ‘Jij bent van Mij, vertrouw op Mij, Ik zal een weg banen.’</p>\\n\\n    <p>Soms lijken mijn omstandigheden<br>\\n    Hard en oneerlijk.<br>\\n    Maar dan fluistert mijn Vader:<br>\\n    ‘Lieve kind, wanhoop niet.’</p>\\n\\n    <p>Soms voel ik me helemaal alleen,<br>\\n    De pijn vanbinnen verstikt en brandt.<br>\\n    De Meester zegt: ‘Mijn uitverkorene,<br>\\n    Ik alleen kan vervullen waarnaar je hart verlangt.</p>\\n\\n    <p>Soms zijn mijn ogen vol tranen,<br>\\n    Mijn hart voelt alsof het bijna barst.<br>\\n    Dan herinnert mijn Heiland mij eraan:<br>\\n    Dit pad voor mij heeft Hij bewandeld.</p>\\n\\n    <p>Soms maak ik me zorgen en vraag ik me af<br>\\n    Hoe alles ooit goed zal komen.<br>\\n    Toch blijft de belofte staan: alles komt goed<br>\\n    Voor wie zich in God verheugt.</p>\\n\\n    <p>Soms lijkt de toekomst beangstigend,<br>\\n    Helemaal niet zoals ik had gehoopt.<br>\\n    Toch richt ik mijn ogen op Zijn uiteindelijke doel,<br>\\n    Wetend dat het beter is dan waar ik naar had gezocht.</p>\\n\\n    <p>Soms voel ik me achtergelaten,<br>\\n    Terwijl het leven van anderen zo vrij doorgaat.<br>\\n    Maar ik zal vertrouwen op de plannen van mijn Vader<br>\\n    En uitzien naar Zijn eeuwige jubel!</p>\\n\\n    <p>Soms droom ik ervan<br>\\n    Dat de toekomst in de hemel aanbreekt.<br>\\n    O, wat een zalig gevoel zal het zijn<br>\\n    Die woorden te horen: ‘Goed gedaan.’</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg\\\" alt=\\\"Donkere stormwolken boven kalm water\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"Soms\"}",
+    "content_bytes": 2434,
+    "content_evidence_truncated": false,
+    "content_sha256": "c3a71a4693b87acbfc93766c53d68b3bcd16470a9015665259330d7f62632782",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 848,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1629,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1626,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2477
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

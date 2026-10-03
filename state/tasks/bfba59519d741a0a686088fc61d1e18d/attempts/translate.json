@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:05+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Vi har inte råd att vinna en vinst som innebär någon annans förlust;<br>\\n    Vi har inte råd att missa kronan genom att snubbla vid korset.<br>\\n    Vi har inte råd med ett tanklöst skämt som berövar oss en vän;<br>\\n    Vi har inte råd med skrattet som slutar i bittra tårar.<br>\\n    Vi har inte råd med dagens festmåltid som leder till morgondagens fasta;<br>\\n    Vi har inte råd med loppet som till sist slutar i tragedi.<br>\\n    Vi har inte råd att leka med elden eller fresta en orm att hugga;<br>\\n    Vi har inte råd att tro att synden skänker någon verklig glädje.<br>\\n    Vi har inte råd att ta cynikerns hån på allvar;<br>\\n    Vi har inte råd att vända ett likgiltigt öra till de visa männens ord.<br>\\n    Vi har inte råd att besvara hat med samma slags hat;<br>\\n    Vi har inte råd att nära en låga och få den att brinna häftigare.<br>\\n    Vi har inte råd att förlora själen för denna världs flyktiga andetag;<br>\\n    Vi har inte råd att byta bort livet i ett vansinnigt utbyte mot döden.<br>\\n    Men utan DIG, allseende Herre, är vi blinda för det goda;<br>\\n    O, ge oss ljus så att vi kan förstå vad vi inte har råd med!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\\\" alt=\\\"Solljus som strömmar genom en dimmig skog\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Dikt\",\"subtitle\":null,\"title\":\"Det vi inte har råd med\"}",
+    "content_bytes": 1555,
+    "content_evidence_truncated": false,
+    "content_sha256": "034ed6725be023f0b87527cc0d5d7eff8b1f92a449f5932cfe485461037c0feb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 688,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 190,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1323,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2014
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

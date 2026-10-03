@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:05+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"54c17772-223b-4fc7-b2e6-0bda387f9b23\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Parfois, mon cœur est lourd,<br>\\n    Accablé de craintes et de soucis.<br>\\n    Alors mon Seigneur m’appelle :<br>\\n    « Viens, mon enfant, je porterai ton fardeau. »</p>\\n\\n    <p>Parfois, les questions envahissent mon esprit,<br>\\n    Les réponses semblent évasives et difficiles à trouver.<br>\\n    Alors je lève les yeux vers mon Dieu,<br>\\n    M’appuyant sur son amour qui me couvre.</p>\\n\\n    <p>Parfois, j’ai envie d’abandonner,<br>\\n    Le chemin devant moi semble long et difficile.<br>\\n    Mais je pense au chemin de mon Berger,<br>\\n    C’est pour moi qu’il a été meurtri.</p>\\n\\n    <p>Parfois, mon esprit est embrumé,<br>\\n    Je trébuche à chaque pas.<br>\\n    Pourtant, dans le brouillard, j’entends un murmure :<br>\\n    « Tu es à moi, fais-moi confiance, je te frayerai un chemin. »</p>\\n\\n    <p>Parfois, je trouve que les circonstances<br>\\n    Semblent dures et injustes.<br>\\n    Mais alors mon Père murmure :<br>\\n    « Mon cher enfant, ne désespère pas. »</p>\\n\\n    <p>Parfois, je me sens tout seul,<br>\\n    La douleur en moi m’étouffe et me brûle.<br>\\n    Le Maître dit : « Mon élu,<br>\\n    Moi seul peux combler ce à quoi ton cœur aspire.</p>\\n\\n    <p>Parfois, mes yeux sont pleins de larmes,<br>\\n    Mon cœur semble prêt à éclater.<br>\\n    Alors mon Sauveur me rappelle<br>\\n    Qu’il a parcouru le chemin qui s’étend devant moi.</p>\\n\\n    <p>Parfois, je m’inquiète et je me demande<br>\\n    Comment les choses pourraient bien s’arranger.<br>\\n    Pourtant, la promesse demeure : tout concourt au bien<br>\\n    De celui qui trouve sa joie en Dieu.</p>\\n\\n    <p>Parfois, l’avenir semble effrayant,<br>\\n    Rien à voir avec ce que j’avais espéré.<br>\\n    Pourtant, je fixe les yeux sur son but ultime,<br>\\n    Sachant qu’il est meilleur que ce que j’avais cherché à atteindre.</p>\\n\\n    <p>Parfois, j’ai l’impression d’être laissé derrière,<br>\\n    Tandis que les autres poursuivent librement leur vie.<br>\\n    Mais je ferai confiance aux desseins de mon Père,<br>\\n    Et j’attendrai avec joie son jubilé éternel !</p>\\n\\n    <p>Parfois, je me surprends à rêver<br>\\n    De l’avenir qui m’attend au ciel.<br>\\n    Oh, quel bonheur ce sera<br>\\n    D’entendre ces mots : « C’est bien. »</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg\\\" alt=\\\"Des nuages d’orage sombres au-dessus d’une eau calme\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Poème\",\"subtitle\":null,\"title\":\"Parfois\"}",
+    "content_bytes": 2688,
+    "content_evidence_truncated": false,
+    "content_sha256": "783c290b17fa03ac267be38cfe702c162de1af82eb0e2c98cb8ece084dab2d57",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1007,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 161,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1628,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2638
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

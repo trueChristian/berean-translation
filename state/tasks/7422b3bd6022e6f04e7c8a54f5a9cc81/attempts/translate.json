@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    Dio non ha promesso cieli sempre azzurri,<br>\\n    sentieri cosparsi di fiori per tutta la vita;<br>\\n    Dio non ha promesso sole senza pioggia,<br>\\n    gioia senza dolore, pace senza sofferenza.</p>\\n\\n    <p>Ritornello:<br>\\n    Ma Dio ha promesso forza per il giorno,<br>\\n    riposo dopo la fatica, luce sul cammino,<br>\\n    grazia nelle prove, aiuto dall’alto,<br>\\n    bontà che non viene meno, amore eterno.</p>\\n\\n    <p>2.<br>\\n    Dio non ha promesso che non conosceremo<br>\\n    fatica e tentazione, difficoltà e dolore;<br>\\n    non ci ha detto che non porteremo<br>\\n    tanti pesi, tante preoccupazioni.</p>\\n\\n    <p>3.<br>\\n    Dio non ha promesso strade lisce e ampie,<br>\\n    viaggi rapidi e facili, senza bisogno di una guida;<br>\\n    mai una montagna rocciosa e ripida,<br>\\n    mai un fiume torbido e profondo.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Poesia\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1038,
+    "content_evidence_truncated": false,
+    "content_sha256": "40d44725687195900aa3599664e3eb13564c2307c96b7e7783ee7bc73f4859c5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 445,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1219,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1216,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1664
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "57175f05-8120-4b10-aeb7-bfc8a3ef1850",
+    "response_id": "chatcmpl-EUsIB9lplS2SqxlL8OpOS6tuebqoL",
+    "usage": {
+      "completion_tokens": 733,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 86,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1462,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1459,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2195
+    }
+  },
+  "received_at": "2026-10-03T16:45:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\">\n  <div class=\"poem\">\n    <p>سأسير مع الله—اليوم—<br>\n    فقد لا يأتي الغد.<br>\n    سأحسن استغلال الوقت—الآن—<br>\n    الذي وهبني الله إياه.</p>\n\n    <p>لن أضع خطة لحياة<br>\n    قد أعيشها في راحة،<br>\n    بل سأعيش اليوم وحده<br>\n    لإرضاء إلهي وحده.</p>\n\n    <p>ولا أجرؤ أن أفكر في السنين،<br>\n    أو أن أقفز قفزات واسعة؛<br>\n    فالله مُبعَد، والذات مُغلقة عليها،<br>\n    والغايات الأنانية تحيط بي.</p>\n\n    <p>هناك من يخططون لحياتهم،<br>\n    ولا يكادون يفكرون في الله؛<br>\n    ويزنون أنفسهم، لا بميزان حق الله،<br>\n    كما ينبغي لهم كل يوم!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\" alt=\"ضوء الشمس الذهبي ينساب فوق أفق عشبي داكن\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>«لا تفتخر بنفسك»، هكذا أُحذَّر،<br>\n    «بما يأتي به الغد؛<br>\n    فصحتك وغناك—بل حياتك نفسها—<br>\n    قد تطير كلها دفعة واحدة!»</p>\n\n    <p>«في هذه الليلة، قد تُطلَب<br>\n    نفسك منك:<br>\n    أفتمضي تخطط لعام جديد كامل<br>\n    هناك، تحت شجرة عيد الميلاد؟»</p>\n\n    <p>«استيقظ! حاسِب نفسك: أأنت مستعد؟<br>\n    وهل أتقنت دروسك كما ينبغي؟<br>\n    إن أغلق الله، بعد ثلاث ساعات فحسب، في هذا اليوم،<br>\n    مسيرتك هذه الليلة؟»</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\" alt=\"شخص يقف أمام سماء ذهبية\">\n  </figure>\n</article>\n",
+    "section": "قصيدة",
+    "subtitle": null,
+    "title": "اليوم"
+  }
+}

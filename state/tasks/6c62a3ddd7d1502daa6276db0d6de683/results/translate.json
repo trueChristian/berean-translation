@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "69b1a7b8-34a2-48e0-ae28-90432f319d77",
+    "response_id": "chatcmpl-EUsI5KHEbluSDNNN3Icajp8WlFCA4",
+    "usage": {
+      "completion_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 125,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1641,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1638,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2592
+    }
+  },
+  "received_at": "2026-10-03T16:45:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"54c17772-223b-4fc7-b2e6-0bda387f9b23\">\n  <div class=\"poem\">\n    <p>Noen ganger er hjertet mitt tungt,<br>\n    Tynget av frykt og bekymringer.<br>\n    Da roper Herren min til meg,<br>\n    «Kom, barnet mitt, jeg skal bære byrden din.»</p>\n\n    <p>Noen ganger strømmer spørsmålene på,<br>\n    Svarene synes unnvikende og krevende.<br>\n    Da løfter jeg blikket mot Gud,<br>\n    Og holder fast ved at hans kjærlighet hviler over meg.</p>\n\n    <p>Noen ganger føler jeg for å gi opp,<br>\n    Veien foran meg synes lang og hard.<br>\n    Men jeg tenker på hyrdens vei,<br>\n    Det var for meg han ble såret.</p>\n\n    <p>Noen ganger er tankene mine tåkete,<br>\n    Jeg snubler for hvert skritt jeg tar.<br>\n    Likevel hører jeg en hvisken gjennom tåken,<br>\n    «Du er min, stol på meg, jeg skal vise deg en vei.»</p>\n\n    <p>Noen ganger synes omstendighetene mine<br>\n    å være harde og urettferdige.<br>\n    Men da hvisker min Far,<br>\n    «Kjære deg, fortvil ikke.»</p>\n\n    <p>Noen ganger føler jeg meg helt alene,<br>\n    Smerten inni meg kveler og brenner.<br>\n    Mesteren sier: «Min utvalgte,<br>\n    Bare jeg kan oppfylle det hjertet ditt lengter etter.</p>\n\n    <p>Noen ganger er øynene mine fulle av tårer,<br>\n    Hjertet mitt føles som om det snart skal briste.<br>\n    Og da minner min Frelser meg på<br>\n    At han gikk veien foran meg.</p>\n\n    <p>Noen ganger bekymrer jeg meg og undrer<br>\n    på hvordan alt noen gang skal ordne seg.<br>\n    Likevel står løftet fast: Alt faller på plass,<br>\n    for den som finner sin glede i Gud.</p>\n\n    <p>Noen ganger virker framtiden skremmende,<br>\n    Ikke i det hele tatt slik jeg hadde håpet.<br>\n    Likevel retter jeg blikket mot hans endelige mål,<br>\n    I visshet om at det er bedre enn det jeg hadde strevd etter.</p>\n\n    <p>Noen ganger føler jeg meg etterlatt,<br>\n    Mens andres liv går så fritt videre.<br>\n    Men jeg vil stole på min Fars planer<br>\n    Og se fram til hans evige jubelfest!</p>\n\n    <p>Noen ganger drømmer jeg<br>\n    om framtiden som venter i himmelen.<br>\n    Å, hvilken lykke det vil være<br>\n    å høre ordene: «Vel gjort.»</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg\" alt=\"Mørke stormskyer over stille vann\">\n  </figure>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "Noen ganger"
+  }
+}

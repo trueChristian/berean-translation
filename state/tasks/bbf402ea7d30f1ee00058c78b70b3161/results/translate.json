@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d75fe9b2-d2cf-422e-9c77-8dbd5ccee0dd",
+    "response_id": "chatcmpl-EUsMOKQrxvB4Pi7k2t0BydkoNqCOy",
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 295,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1327,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2091
+    }
+  },
+  "received_at": "2026-10-03T16:45:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\">\n  <div class=\"poem\">\n    <p>No podemos permitirnos ganar a costa de la pérdida de otro;<br>\n    No podemos permitirnos perder la corona por tropezar ante la cruz.<br>\n    No podemos permitirnos una broma irreflexiva que nos haga perder a un amigo;<br>\n    No podemos permitirnos una risa que acaba en amargas lágrimas.<br>\n    No podemos permitirnos el festín de hoy que trae el ayuno de mañana;<br>\n    No podemos permitirnos la carrera que al final acaba en tragedia.<br>\n    No podemos permitirnos jugar con fuego ni tentar la mordedura de una serpiente;<br>\n    No podemos permitirnos pensar que el pecado trae verdadero deleite.<br>\n    No podemos permitirnos prestar seria atención a la burla del cínico;<br>\n    No podemos permitirnos hacer oídos sordos a las palabras de los sabios.<br>\n    No podemos permitir que el odio nos lleve a responder con odio;<br>\n    No podemos permitirnos alimentar una llama y hacer que arda con más fuerza.<br>\n    No podemos permitirnos perder el alma por el aliento fugaz de este mundo;<br>\n    No podemos permitirnos trocar la vida por la muerte en un intercambio insensato.<br>\n    Pero, separados de TI, Señor que todo lo ves, estamos ciegos al bien;<br>\n    ¡Oh, danos luz para que sepamos qué cosas no podemos permitirnos!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\" alt=\"La luz del sol se filtra a través de un bosque brumoso\">\n  </figure>\n</article>\n",
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Lo que no podemos permitirnos"
+  }
+}

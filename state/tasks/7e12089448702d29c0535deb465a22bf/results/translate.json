@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "455b284b-32e4-43c6-876d-9d4e17ed59b5",
+    "response_id": "chatcmpl-EUsI5bB9SaHvpE5XrcL5VAVRapBv0",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 170,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1227,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1224,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1834
+    }
+  },
+  "received_at": "2026-10-03T16:45:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\">\n  <div class=\"poem\">\n    <p>۱۔<br>\n    خدا نے یہ وعدہ نہیں کیا کہ آسمان ہمیشہ نیلے ہوں گے،<br>\n    یا ہماری ساری عمر راستے پھولوں سے سجے ہوں گے؛<br>\n    خدا نے یہ وعدہ نہیں کیا کہ سورج کے ساتھ بارش نہ ہوگی،<br>\n    غم کے بغیر خوشی، درد کے بغیر سکون ہوگا۔</p>\n\n    <p>مکرر:<br>\n    لیکن خدا نے دن کے لیے قوت کا وعدہ کیا ہے،<br>\n    محنت کے لیے آرام، راہ کے لیے روشنی،<br>\n    آزمائشوں کے لیے فضل، اوپر سے مدد،<br>\n    کبھی نہ ختم ہونے والی مہربانی، کبھی نہ مرنے والی محبت۔</p>\n\n    <p>۲۔<br>\n    خدا نے یہ وعدہ نہیں کیا کہ ہم<br>\n    مشقت اور آزمائش، مصیبت اور رنج سے ناواقف رہیں گے؛<br>\n    اُس نے ہمیں یہ نہیں بتایا کہ ہم نہیں اٹھائیں گے<br>\n    بہت سے بوجھ، بہت سی فکریں۔</p>\n\n    <p>۳۔<br>\n    خدا نے ہموار اور کشادہ راستوں کا وعدہ نہیں کیا،<br>\n    نہ تیز، آسان سفر کا جس کے لیے کسی رہنما کی ضرورت نہ ہو؛<br>\n    نہ کبھی کوئی پتھریلا اور کھڑا پہاڑ،<br>\n    نہ کبھی کوئی گدلا اور گہرا دریا۔</p>\n  </div>\n</article>\n",
+    "section": "نظم",
+    "subtitle": null,
+    "title": null
+  }
+}

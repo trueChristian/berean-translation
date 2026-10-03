@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2ad27dbf-35f6-497a-9fb4-c68720c0f79a",
+    "response_id": "chatcmpl-EUsIpAKbMbGN2C7RRJv8Mf0JCRogb",
+    "usage": {
+      "completion_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 323,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1225,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1222,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1928
+    }
+  },
+  "received_at": "2026-10-03T16:45:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\">\n  <div class=\"poem\">\n    <p>1.<br>\n    אלוהים לא הבטיח שמים שתמיד תכלת,<br>\n    שבילים זרועי פרחים לאורך כל חיינו;<br>\n    אלוהים לא הבטיח שמש בלי גשם,<br>\n    שמחה בלי צער, שלום בלי כאב.</p>\n\n    <p>פזמון חוזר:<br>\n    אבל אלוהים הבטיח כוח לכל יום,<br>\n    מנוחה לעמל, אור לדרך,<br>\n    חסד לניסיונות, עזרה ממרום,<br>\n    טוב לב שאינו כושל, אהבה שאינה דועכת.</p>\n\n    <p>2.<br>\n    אלוהים לא הבטיח שלא נדע<br>\n    עמל ופיתוי, צרות ויגון;<br>\n    הוא לא אמר שלא נישא<br>\n    משאות רבים, דאגות רבות.</p>\n\n    <p>3.<br>\n    אלוהים לא הבטיח דרכים ישרות ורחבות,<br>\n    מסע מהיר וקל שאינו זקוק למורה דרך;<br>\n    שלא יהיו לעולם הרים סלעיים ותלולים,<br>\n    ושלא יהיו לעולם נהרות עכורים ועמוקים.</p>\n  </div>\n</article>\n",
+    "section": "שיר",
+    "subtitle": null,
+    "title": null
+  }
+}

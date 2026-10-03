@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b3dde8fb-3089-4b3b-8239-7be2f82ba464",
+    "response_id": "chatcmpl-EUsI6uEaHh3AFHzT6ng9UCyUWIVn0",
+    "usage": {
+      "completion_tokens": 524,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1327,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1854
+    }
+  },
+  "received_at": "2026-10-03T16:45:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\">\n  <div class=\"poem\">\n    <p>لا يسعنا أن نكسب ربحًا يعني خسارة شخصٍ آخر؛<br>\n    لا يسعنا أن نفوّت التاج بالتعثّر عند الصليب.<br>\n    لا يسعنا أن نطلق مزحة طائشة تسلبنا صديقًا؛<br>\n    لا يسعنا أن نضحك ضحكةً تنتهي بدموعٍ مُرّة.<br>\n    لا يسعنا أن نقيم وليمة اليوم فتجلب صوم الغد؛<br>\n    لا يسعنا أن نخوض سباقًا ينتهي أخيرًا بمأساة.<br>\n    لا يسعنا أن نلعب بالنار أو نستفزّ لدغة أفعى؛<br>\n    لا يسعنا أن نظن أن الخطية تجلب أيّ لذة حقيقية.<br>\n    لا يسعنا أن نصغي باهتمامٍ جاد إلى سخرية المستهزئ؛<br>\n    لا يسعنا أن نصرف عن كلمات الحكماء أذنًا لا مبالية.<br>\n    لا يسعنا أن نردّ الكراهية بمثلها؛<br>\n    لا يسعنا أن نغذّي لهبًا ونزيده اشتعالًا.<br>\n    لا يسعنا أن نخسر النفس من أجل نَفَس هذا العالم الزائل؛<br>\n    لا يسعنا أن نبادل الحياة بالموت في صفقةٍ جنونية.<br>\n    لكننا عميان عن الخير بعيدًا عنك، أيها الربّ العليم بكل شيء؛<br>\n    آه، امنحنا نورًا لنعرف الأمور التي لا يسعنا التفريط بها!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\" alt=\"أشعة الشمس تتسلل عبر غابة يلفّها الضباب\">\n  </figure>\n</article>\n",
+    "section": "قصيدة",
+    "subtitle": null,
+    "title": "أمور لا يسعنا التفريط بها"
+  }
+}

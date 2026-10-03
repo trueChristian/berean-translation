@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\\\">\\n  <div class=\\\"poem\\\">\\n    <p>ہم وہ نفع حاصل کرنے کا خطرہ مول نہیں لے سکتے جس کا مطلب کسی دوسرے کا نقصان ہو؛<br>\\n    ہم صلیب پر ٹھوکر کھا کر تاج سے محروم ہونے کا خطرہ مول نہیں لے سکتے۔<br>\\n    ہم ایسی بےفکر ہنسی کا خطرہ مول نہیں لے سکتے جو ہمیں ایک دوست سے محروم کر دے؛<br>\\n    ہم ایسی ہنسی کا خطرہ مول نہیں لے سکتے جس کا انجام تلخ آنسو ہوں۔<br>\\n    ہم آج کی ایسی ضیافت کا خطرہ مول نہیں لے سکتے جو کل کے روزے کا سبب بنے؛<br>\\n    ہم ایسی دوڑ کا خطرہ مول نہیں لے سکتے جس کا انجام بالآخر سانحہ ہو۔<br>\\n    ہم آگ سے کھیلنے یا سانپ کے ڈسنے کو للکارنے کا خطرہ مول نہیں لے سکتے؛<br>\\n    ہم یہ نہیں سوچ سکتے کہ گناہ کوئی حقیقی خوشی دیتا ہے۔<br>\\n    ہم طنز کرنے والے کی پھبتی کو سنجیدگی سے لینے کا خطرہ مول نہیں لے سکتے؛<br>\\n    ہم داناؤں کی باتوں پر بےتوجہی سے کان دھرنے کا خطرہ مول نہیں لے سکتے۔<br>\\n    ہم نفرت کے جواب میں نفرت کرنے کا خطرہ مول نہیں لے سکتے؛<br>\\n    ہم شعلے کو ہوا دے کر اسے اور بھڑکانے کا خطرہ مول نہیں لے سکتے۔<br>\\n    ہم اس دنیا کی عارضی سانس کے لیے اپنی جان گنوانے کا خطرہ مول نہیں لے سکتے؛<br>\\n    ہم زندگی کا سودا پاگل پن میں موت کے عوض نہیں کر سکتے۔<br>\\n    لیکن اے سب کچھ دیکھنے والے خداوند، تیرے بغیر ہم نیکی سے اندھے ہیں؛<br>\\n    آہ، ہمیں روشنی عطا کر تاکہ ہم جان سکیں کہ کن چیزوں کا خطرہ مول نہیں لے سکتے!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\\\" alt=\\\"دھندلے جنگل میں سے چھنتی دھوپ\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"نظم\",\"subtitle\":null,\"title\":\"وہ چیزیں جن کا خطرہ مول نہیں لے سکتے\"}",
+    "content_bytes": 2455,
+    "content_evidence_truncated": false,
+    "content_sha256": "fa990bc824f52ba360e1d89c5ba977ec671d3d89973d4c610421158107ceb5d6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 222,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1333,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1330,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2137
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

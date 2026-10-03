@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d31ffa77-3182-4f93-abe8-f74b6853fe82",
+    "response_id": "chatcmpl-EUsIezwag10hrZ0rv3aaH5BCU6cAQ",
+    "usage": {
+      "completion_tokens": 1175,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1832,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1829,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3007
+    }
+  },
+  "received_at": "2026-10-03T16:45:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f36dee3-685c-47b8-b1d4-9981806d4cd5\">\n  <p>Die maalgeluid van vragmotorbande wat oor die gruisoprit ry, het die lug gevul terwyl ek in die huis sit en ’n ensiklopedie lees. Ek het opgespring en by die venster uitgekyk.</p>\n\n  <p>Ma het pas van die produkteveiling in Lewisburg af teruggekeer met ’n paar perskes.</p>\n\n  <p>Ek het die deur agter my toegeklap, oor die digte groen gras gehardloop en op die laaibak van ons bakkie gespring.</p>\n\n  <p>Agterop die bakkie het vier bokse perskes gestaan. Ek het triomfantlik geglimlag en in ’n boks begin soek totdat ek ’n ryp een gekry het. Net voordat ek daarin gebyt het, het Ma gesê: “Steven, moenie perskes eet nie; dit sal jou aandete bederf.” Bedroef het ek die perske terug in die boks gegooi en toe stadig weggeloop.</p>\n\n  <figure>\n    <img src=\"/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg\" alt=\"’n Kis perskes op verweerde hout\">\n  </figure>\n\n  <p>’n Paar uur later het Pa vanuit die kalwerskuur geroep: “Steven, gaan pluk die radyse vir ons produktekraampie by die Vrydagmark.”</p>\n\n  <p>Nadat ek die radyse gepluk, gewas en in bondels gebind het, het ek dit na die ou koelkamer geneem, wat binne-in die rooi skuur was. Die koelkamerdeur het gepiep toe ek dit oopruk. Daar, langs die mure van die koelkamer, het die vier bokse aanloklike perskes gestaan. Ek het na die perskes gestaar en my mond het water geword. Ek het die radyse vinnig neergesit. Ag, hoe lekker het hulle nie gelyk nie. ’n Enkele perske sou sekerlik nie ’n honger tienjarige se aandete bederf nie. Ma sou nie weet as ek net een perske vat nie.</p>\n\n  <p>Diep in my hart het ’n stryd tussen reg en verkeerd begin woed. Ek het geweet dit is verkeerd om in die geheim iets te doen, maar daardie perskes het veels te lekker gelyk.</p>\n\n  <p>Nadat ek die perske verslind het, het ek die donker binnekant van die skuur deurgesoek na ’n goeie wegsteekplek vir die perskesaad. Ek het oor die uie gekyk wat op droograkke gelê het, tot by die oop hooibaal. Die enigste probleem was dat iemand die pit kon kry as ek dit onder die hooi sit. Toe sien ek die gate in die skuur se syplanke aan die westekant. As ek die pit deur een van daardie gate stoot, sou dit langs die pad val. As iemand dit dan sien, sou hulle dink dit het uit ’n verbygaande voertuig geval.</p>\n\n  <p>Ek het die pit deur die gat gedruk en toegekyk hoe dit langs die pad val. Op daardie presiese oomblik het ek ’n brandende pyn op my voorkop gevoel. Ek het paniekerig terugspring. Daar bo die gat het ’n perdeby nes gehang. Toe sien ek die skuldige, wat bo my gesweef het en my weer probeer steek het. Ek het by die skuurdeur uitgehardloop en die deur in die perdeby se gesig toegeklap.</p>\n\n  <p>Daardie aand het my voorkop soos ’n ballon opgeswel, sodat dit moeilik was om deur my oë te kyk.</p>\n\n  <p>’n Paar uur later het al die ander gaan slaap. Ek het op die rusbank gaan lê sodat Ma deur die nag nou en dan na my kon kom kyk. Maar ek kon eenvoudig nie aan die slaap raak nie. My gesig was ontsteek en het gejeuk, maar al waaraan ek kon dink, was die skuldgevoelens en berou oor wat ek gedoen het.</p>\n\n  <p>Ná ’n paar pynlike ure het ek die moed bymekaargeskraap om van die rusbank af te skuif en op my tone na my ouers se slaapkamer te loop. Ek het my ouers wakker gemaak en hulle die hele storie vertel … hoe ek die perske geëet het, toe probeer het om die pit weg te steek, en hoe ek gesteek is.</p>\n\n  <p>My ouers het my vergewe en besluit dat dit ’n les was wat ek nie gou sou vergeet nie. Met ’n ligte gemoed het ek teruggeloop na die rusbank, gaan lê en gou in ’n rustige slaap geval.</p>\n</article>\n",
+    "section": "Kinderhoekie",
+    "subtitle": null,
+    "title": "Wees gehoorsaam"
+  }
+}

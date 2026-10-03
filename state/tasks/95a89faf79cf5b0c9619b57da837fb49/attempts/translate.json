@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    God het nie beloof dat die lug altyd blou sal wees,<br>\\n    Of dat ons lewenspad van begin tot end met blomme bestrooi sal wees nie;<br>\\n    God het nie son sonder reën beloof nie,<br>\\n    Vreugde sonder droefheid, vrede sonder pyn nie.</p>\\n\\n    <p>Koor:<br>\\n    Maar God het krag vir die dag beloof,<br>\\n    Rus ná die arbeid, lig op die pad,<br>\\n    Genade vir beproewinge, hulp van bo,<br>\\n    Goedheid wat nooit faal nie, liefde wat nooit sterf nie.</p>\\n\\n    <p>2.<br>\\n    God het nie beloof dat ons nie<br>\\n    Swoeg en versoeking, moeite en smart sal ken nie;<br>\\n    Hy het nie gesê dat ons nie<br>\\n    Talle laste en baie sorge sal dra nie.</p>\\n\\n    <p>3.<br>\\n    God het nie gladde, breë paaie beloof nie,<br>\\n    ’n Vinnige, maklike reis wat geen gids nodig het nie;<br>\\n    Ook nie dat daar nooit ’n rotsagtige, steil berg sal wees nie,<br>\\n    Of ooit ’n troebel, diep rivier nie.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Gedig\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1120,
+    "content_evidence_truncated": false,
+    "content_sha256": "c53f816211abb404f76976efe6c9a0bf070630a3e1b3f15e0b5ab35d04315463",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 521,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 126,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1222,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1219,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1743
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

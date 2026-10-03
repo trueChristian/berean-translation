@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\\\">\\n  <div class=\\\"poem\\\">\\n    <p>我们承担不起以他人的损失换取自己的利益；<br>\\n    我们承担不起在十字架前跌倒，以致失去冠冕；<br>\\n    我们承担不起因一时轻率的玩笑而失去朋友；<br>\\n    我们承担不起以苦涩的泪水为欢笑收场；<br>\\n    我们承担不起今日的宴乐，换来明日的禁食；<br>\\n    我们承担不起那最终酿成悲剧的竞赛；<br>\\n    我们承担不起玩火，也承担不起招惹蛇来咬；<br>\\n    我们承担不起以为罪中真有喜乐；<br>\\n    我们承担不起认真看待愤世者的冷嘲；<br>\\n    我们承担不起对智者的话充耳不闻；<br>\\n    我们承担不起因仇恨而以仇恨回报；<br>\\n    我们承担不起助长火焰，使它烧得更烈；<br>\\n    我们承担不起为这世界转瞬即逝的一息而失去灵魂；<br>\\n    我们承担不起疯狂地以生命交换死亡；<br>\\n    然而，离了祢——全知的主——我们便看不见良善；<br>\\n    哦，求祢赐我们光明，使我们明白哪些事是承担不起的！</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\\\" alt=\\\"阳光穿过雾气弥漫的森林\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"诗歌\",\"subtitle\":null,\"title\":\"我们承担不起的事\"}",
+    "content_bytes": 1424,
+    "content_evidence_truncated": false,
+    "content_sha256": "0eace5e08c636c7786936789b374fe559572ff4ed5f7674233b489a8d8665c86",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 180,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1337,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1334,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2007
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    Deus não prometeu céus sempre azuis,<br>\\n    Caminhos floridos por toda a vida;<br>\\n    Deus não prometeu sol sem chuva,<br>\\n    Alegria sem tristeza, paz sem dor.</p>\\n\\n    <p>Refrão:<br>\\n    Mas Deus prometeu forças para o dia,<br>\\n    Descanso para o trabalho, luz para o caminho,<br>\\n    Graça nas provações, ajuda do alto,<br>\\n    Bondade infalível, amor eterno.</p>\\n\\n    <p>2.<br>\\n    Deus não prometeu que não conheceríamos<br>\\n    Labuta e tentação, aflição e sofrimento;<br>\\n    Ele não nos disse que não carregaríamos<br>\\n    Muitos fardos, muitas preocupações.</p>\\n\\n    <p>3.<br>\\n    Deus não prometeu estradas largas e planas,<br>\\n    Viagem rápida e fácil, sem precisar de guia;<br>\\n    Nenhuma montanha rochosa e íngreme,<br>\\n    Nenhum rio turvo e profundo.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Poema\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1014,
+    "content_evidence_truncated": false,
+    "content_sha256": "7f5986ad6c3b580b811d92aa959eebd2ef04f8faf7c2c822aa52965dd68ae9f2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 411,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1228,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1225,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1639
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

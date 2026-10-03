@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:05+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>আজ—আমি ঈশ্বরের সঙ্গে চলব—<br>\\n    কাল হয়তো আর আসবে না।<br>\\n    সময়ের সদ্ব্যবহার করব—এই মুহূর্তে—<br>\\n    ঈশ্বর যা আমাকে দিয়েছেন।</p>\\n\\n    <p>আমি এমন জীবনের পরিকল্পনা করব না,<br>\\n    যা হয়তো কাটাতে পারি আরামে,<br>\\n    বরং শুধু আজকের দিনটি কাটাব<br>\\n    কেবল আমার ঈশ্বরকে খুশি করে।</p>\\n\\n    <p>বছরের পর বছর ভেবে<br>\\n    লাফিয়ে বড় পদক্ষেপও নিতে সাহস করি না;<br>\\n    ঈশ্বরকে দূরে সরিয়ে, নিজেকে অন্তরে রেখে,<br>\\n    চারদিকে স্বার্থপর লক্ষ্য ঘিরে থাকলে।</p>\\n\\n    <p>কেউ কেউ নিজেদের জীবনের পরিকল্পনা করে,<br>\\n    ঈশ্বরের কথা সামান্যই ভাবে;<br>\\n    ঈশ্বরের সত্য দিয়ে নিজেদের যাচাই করে না,<br>\\n    যেমনটা প্রতিদিন তাদের করা উচিত!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"অন্ধকার ঘাসে ঢাকা দিগন্তের ওপর সোনালি সূর্যালোক\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>“আগামীর কথা নিয়ে গর্ব কোরো না,”<br>\\n    আমাকে সাবধান করা হয়েছে,<br>\\n    “তোমার স্বাস্থ্য, সম্পদ—এমনকি জীবনও—<br>\\n    মুহূর্তে সব ডানা মেলে উড়ে যেতে পারে!”</p>\\n\\n    <p>“এই রাতেই তোমার প্রাণ<br>\\n    তোমার কাছ থেকে চাওয়া হতে পারে:<br>\\n    আর তুমি কি নতুন বছরের সব পরিকল্পনা করছ<br>\\n    সেখানে, কোনো ক্রিসমাস-গাছের তলায়?”</p>\\n\\n    <p>“জাগো! হিসাব করে দেখো, তুমি কি প্রস্তুত?<br>\\n    তোমার শিক্ষা কি ঠিকমতো শেখা হয়েছে?<br>\\n    ঈশ্বর যদি আর মাত্র তিন ঘণ্টার মধ্যে, এই দিনেই,<br>\\n    আজ রাতেই তোমার পথচলার ইতি টানেন?”</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"সোনালি আকাশের সামনে দাঁড়িয়ে থাকা একজন ব্যক্তি\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"কবিতা\",\"subtitle\":null,\"title\":\"আজ\"}",
+    "content_bytes": 3393,
+    "content_evidence_truncated": false,
+    "content_sha256": "cc5e6a0588879b51dfa128d4c095415cc20e8a36fe9f85698f29b1327c8c9b7e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1462,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1459,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2287
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

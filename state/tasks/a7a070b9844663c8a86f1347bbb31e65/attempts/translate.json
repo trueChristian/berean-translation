@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"54c17772-223b-4fc7-b2e6-0bda387f9b23\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Soms is my hart swaar,<br>\\n    Beswaard deur vrese en sorge.<br>\\n    Dan roep my Here na my,<br>\\n    “Kom, my kind, Ek sal jou las dra.”</p>\\n\\n    <p>Soms stroom vrae deur my gedagtes,<br>\\n    Die antwoorde lyk ontwykend en moeilik.<br>\\n    Dan slaan ek my oë op na my God,<br>\\n    En vertrou op sy liefde wat oor my rus.</p>\\n\\n    <p>Soms voel ek of ek wil tou opgooi,<br>\\n    Die pad voor my lyk lank en moeilik.<br>\\n    Maar ek dink aan die pad van my Herder,<br>\\n    Dit was vir my dat Hy verwond is.</p>\\n\\n    <p>Soms is my gedagtes vertroebel,<br>\\n    Ek struikel met elke tree wat ek gee.<br>\\n    Tog hoor ek uit die newel ’n fluistering,<br>\\n    “Jy behoort aan My, vertrou My, Ek sal ’n weg baan.”</p>\\n\\n    <p>Soms vind ek my omstandighede,<br>\\n    Oënskynlik hard en onregverdig.<br>\\n    Maar dan fluister my Vader,<br>\\n    “Liewe kind, moenie moed verloor nie.”</p>\\n\\n    <p>Soms voel ek heeltemal alleen,<br>\\n    Die pyn daarbinne verstik en brand.<br>\\n    Die Meester sê: “My uitverkorene,<br>\\n    Ek alleen kan vervul waarna jou hart smag.</p>\\n\\n    <p>Soms is my oë vol trane,<br>\\n    My hart voel asof dit gaan bars.<br>\\n    Dan herinner my Verlosser my,<br>\\n    Hierdie pad voor my het Hy deurloop.</p>\\n\\n    <p>Soms bekommer en wonder ek,<br>\\n    Hoe dinge ooit reg sal uitwerk.<br>\\n    Tog bly die belofte staan: alles werk ten goede uit,<br>\\n    Vir hom wat behae in God skep.</p>\\n\\n    <p>Soms lyk die toekoms skrikwekkend,<br>\\n    Glad nie soos waarop ek gehoop het nie.<br>\\n    Tog vestig ek my oë op sy uiteindelike doel,<br>\\n    Wetende dat dit beter is as waarna ek gegryp het.</p>\\n\\n    <p>Soms voel ek agtergelaat,<br>\\n    Terwyl ander se lewens so vry voortgaan.<br>\\n    Maar ek sal op my Vader se planne vertrou,<br>\\n    En uitsien na sy ewige jubelfees!</p>\\n\\n    <p>Soms vind ek myself droom,<br>\\n    Van die toekomstige hemel wat kom.<br>\\n    O, hoe salig sal dit voel,<br>\\n    Om daardie woorde te hoor: “Goed gedaan.”</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg\\\" alt=\\\"Donker stormwolke bo kalm water\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Gedig\",\"subtitle\":null,\"title\":\"Soms\"}",
+    "content_bytes": 2356,
+    "content_evidence_truncated": false,
+    "content_sha256": "2e19953bea8c4e67dd64516d5db6edddf2cbfb5e535aaa807814bff9c32ea8e9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1632,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1629,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2444
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

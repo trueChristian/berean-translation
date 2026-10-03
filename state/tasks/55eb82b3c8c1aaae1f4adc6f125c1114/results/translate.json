@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a5635210-221e-49f4-8549-56f860f502b2",
+    "response_id": "chatcmpl-EUsI46kZKCy6KRMk29nIViFZxZVZy",
+    "usage": {
+      "completion_tokens": 920,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 115,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1638,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1635,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2558
+    }
+  },
+  "received_at": "2026-10-03T16:45:02+00:00",
+  "result": {
+    "html": "<article data-article-id=\"54c17772-223b-4fc7-b2e6-0bda387f9b23\">\n  <div class=\"poem\">\n    <p>Às vezes meu coração está pesado,<br>\n    Oprimido por medos e preocupações.<br>\n    É então que meu Senhor me chama,<br>\n    “Venha, meu filho, carregarei seu fardo.”</p>\n\n    <p>Às vezes perguntas inundam minha mente,<br>\n    As respostas parecem evasivas e difíceis.<br>\n    É quando ergo os olhos para meu Deus,<br>\n    Reivindicando o amor que Ele derrama sobre mim.</p>\n\n    <p>Às vezes sinto vontade de desistir,<br>\n    O caminho à minha frente parece longo e difícil.<br>\n    Mas penso no caminho do meu Pastor,<br>\n    Foi por mim que Ele foi ferido.</p>\n\n    <p>Às vezes minha mente está nublada,<br>\n    Tropeço a cada passo que dou.<br>\n    Ainda assim, em meio à névoa, ouço um sussurro:<br>\n    “Você é Meu, confie em Mim, abrirei um caminho.”</p>\n\n    <p>Às vezes descubro que minhas circunstâncias<br>\n    Parecem duras e injustas.<br>\n    Mas então meu Pai sussurra:<br>\n    “Querido filho, não se desespere.”</p>\n\n    <p>Às vezes me sinto completamente só,<br>\n    A dor dentro de mim sufoca e queima.<br>\n    O Mestre diz: “Meu escolhido,<br>\n    Só Eu posso satisfazer aquilo por que seu coração anseia.</p>\n\n    <p>Às vezes meus olhos estão cheios de lágrimas,<br>\n    Meu coração parece prestes a se partir.<br>\n    E então meu Salvador me lembra:<br>\n    Ele percorreu este caminho que está diante de mim.</p>\n\n    <p>Às vezes me preocupo e me pergunto<br>\n    Como as coisas poderão algum dia dar certo.<br>\n    Ainda assim, permanece a promessa: tudo acaba bem<br>\n    Para aquele que se deleita em Deus.</p>\n\n    <p>Às vezes o futuro parece assustador,<br>\n    Nada parecido com o que eu esperava.<br>\n    Ainda assim, mantenho os olhos fixos em Seu propósito final,<br>\n    Sabendo que é melhor do que aquilo que eu havia buscado.</p>\n\n    <p>Às vezes sinto que fiquei para trás,<br>\n    Enquanto a vida dos outros segue tão livre.<br>\n    Mas confiarei nos planos de meu Pai<br>\n    E aguardarei com expectativa Sua celebração eterna!</p>\n\n    <p>Às vezes me pego sonhando<br>\n    Com o futuro que me espera no céu.<br>\n    Oh, que felicidade será<br>\n    Ouvir aquelas palavras: “Muito bem.”</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg\" alt=\"Nuvens escuras de tempestade sobre águas calmas\">\n  </figure>\n</article>\n",
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Às vezes"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3b59d05c-574d-4f05-80d6-1f259686a33e",
+    "response_id": "chatcmpl-EUsJgsMlQR8lDh2CKtqg5qbHhRYbj",
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1325,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1322,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1977
+    }
+  },
+  "received_at": "2026-10-03T16:45:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\">\n  <div class=\"poem\">\n    <p>Wir können es uns nicht leisten, einen Gewinn zu erringen, der für andere Verlust bedeutet;<br>\n    Wir können es uns nicht leisten, die Krone zu verfehlen, weil wir am Kreuz straucheln.<br>\n    Wir können es uns nicht leisten, durch einen gedankenlosen Scherz einen Freund zu verlieren;<br>\n    Wir können es uns nicht leisten, mit einem Lachen bittere Tränen zu beenden.<br>\n    Wir können es uns nicht leisten, heute zu schlemmen und morgen dafür zu fasten;<br>\n    Wir können es uns nicht leisten, ein Rennen zu laufen, das zuletzt in einer Tragödie endet.<br>\n    Wir können es uns nicht leisten, mit dem Feuer zu spielen oder den Biss einer Schlange herauszufordern;<br>\n    Wir können es uns nicht leisten zu glauben, dass die Sünde wahre Freude schenkt.<br>\n    Wir können es uns nicht leisten, dem Spott des Zynikers ernsthaft Beachtung zu schenken;<br>\n    Wir können es uns nicht leisten, den Worten der Weisen achtlos unser Ohr zu verschließen.<br>\n    Wir können es uns nicht leisten, dem Hass mit Hass zu vergelten;<br>\n    Wir können es uns nicht leisten, ein Feuer zu schüren und es noch heftiger brennen zu lassen.<br>\n    Wir können es uns nicht leisten, die Seele um des flüchtigen Hauchs dieser Welt willen zu verlieren;<br>\n    Wir können es uns nicht leisten, das Leben in wahnsinnigem Tausch gegen den Tod einzuhandeln.<br>\n    Doch getrennt von DIR, allsehender Herr, sind wir blind für das Gute;<br>\n    O schenke uns Licht, damit wir erkennen, was wir uns nicht leisten können!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\" alt=\"Sonnenlicht, das durch einen nebligen Wald fällt\">\n  </figure>\n</article>\n",
+    "section": "Gedicht",
+    "subtitle": null,
+    "title": "Was wir uns nicht leisten können"
+  }
+}

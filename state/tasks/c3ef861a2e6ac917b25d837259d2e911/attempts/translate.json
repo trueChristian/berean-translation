@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    Allah tidak menjanjikan langit yang selalu biru,<br>\\n    Jalan bertabur bunga sepanjang hidup kita;<br>\\n    Allah tidak menjanjikan matahari tanpa hujan,<br>\\n    Sukacita tanpa dukacita, damai tanpa derita.</p>\\n\\n    <p>Ulangan:<br>\\n    Namun Allah menjanjikan kekuatan untuk setiap hari,<br>\\n    Istirahat setelah bekerja, terang untuk menempuh jalan,<br>\\n    Anugerah dalam menghadapi ujian, pertolongan dari atas,<br>\\n    Kebaikan yang tak pernah gagal, kasih yang takkan mati.</p>\\n\\n    <p>2.<br>\\n    Allah tidak menjanjikan kita takkan mengenal<br>\\n    Kerja keras dan godaan, kesusahan dan kemalangan;<br>\\n    Dia tidak mengatakan bahwa kita takkan menanggung<br>\\n    Banyak beban, banyak kekhawatiran.</p>\\n\\n    <p>3.<br>\\n    Allah tidak menjanjikan jalan yang rata dan lebar,<br>\\n    Perjalanan cepat dan mudah, tanpa perlu penuntun;<br>\\n    Tak pernah ada gunung berbatu yang terjal,<br>\\n    Tak pernah ada sungai keruh yang dalam.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Puisi\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1155,
+    "content_evidence_truncated": false,
+    "content_sha256": "e862fa19a5bc47a6ea70240a3fdd80eccf342bddcba5ab3439a98583c9b53215",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 436,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 60,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1221,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1218,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1657
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

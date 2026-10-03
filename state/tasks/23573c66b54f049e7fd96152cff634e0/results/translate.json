@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f557c263-f182-45d4-a254-f1031082dae3",
+    "response_id": "chatcmpl-EUsIHIGva04ysZ1uc5ZVH31WJbbGF",
+    "usage": {
+      "completion_tokens": 565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 43,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1325,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1322,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1890
+    }
+  },
+  "received_at": "2026-10-03T16:45:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\">\n  <div class=\"poem\">\n    <p>Non possiamo permetterci di ottenere un guadagno che significhi la perdita di un altro;<br>\n    Non possiamo permetterci di perdere la corona inciampando sulla croce.<br>\n    Non possiamo permetterci la battuta sconsiderata che ci priva di un amico;<br>\n    Non possiamo permetterci la risata che pone fine alle lacrime amare.<br>\n    Non possiamo permetterci il banchetto di oggi che porta il digiuno di domani;<br>\n    Non possiamo permetterci la corsa che alla fine sfocia in tragedia.<br>\n    Non possiamo permetterci di giocare col fuoco o di sfidare il morso di un serpente;<br>\n    Non possiamo permetterci di pensare che il peccato procuri una gioia autentica.<br>\n    Non possiamo permetterci di prendere sul serio il ghigno del cinico;<br>\n    Non possiamo permetterci di prestare un orecchio distratto alle parole dei saggi.<br>\n    Non possiamo permettere all’odio di ricambiare con odio;<br>\n    Non possiamo permetterci di alimentare una fiamma e farla ardere più intensamente.<br>\n    Non possiamo permetterci di perdere l’anima per il fugace respiro di questo mondo;<br>\n    Non possiamo permetterci di barattare la vita, in uno scambio folle, con la morte.<br>\n    Ma siamo ciechi al bene se siamo separati da TE, Signore che tutto vedi;<br>\n    Oh, donaci luce, affinché possiamo conoscere ciò che non possiamo permetterci!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\" alt=\"La luce del sole filtra attraverso una foresta avvolta nella nebbia\">\n  </figure>\n</article>\n",
+    "section": "Poesia",
+    "subtitle": null,
+    "title": "Cose che non possiamo permetterci"
+  }
+}

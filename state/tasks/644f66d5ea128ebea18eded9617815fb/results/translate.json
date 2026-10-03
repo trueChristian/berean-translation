@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4e3f9813-fa12-4276-a45b-efdb75aa3bde",
+    "response_id": "chatcmpl-EUsIGO56mLuEmgmXejew7Rip0jX67",
+    "usage": {
+      "completion_tokens": 672,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 171,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1337,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1334,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2009
+    }
+  },
+  "received_at": "2026-10-03T16:45:02+00:00",
+  "result": {
+    "html": "<article data-article-id=\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\">\n  <div class=\"poem\">\n    <p>Vi har ikke råd til å vinne en gevinst som betyr tap for en annen;<br>\n    Vi har ikke råd til å gå glipp av kronen ved å snuble ved korset.<br>\n    Vi har ikke råd til en tankeløs spøk som frarøver oss en venn;<br>\n    Vi har ikke råd til latteren som ender i bitre tårer.<br>\n    Vi har ikke råd til dagens festmåltid som fører til morgendagens faste;<br>\n    Vi har ikke råd til et løp som til slutt ender i tragedie.<br>\n    Vi har ikke råd til å leke med ilden eller friste et slangebitt;<br>\n    Vi har ikke råd til å tro at synd gir noen sann glede.<br>\n    Vi har ikke råd til å ta kynikerens hånlige smil på alvor;<br>\n    Vi har ikke råd til å vende et uaktsomt øre til de vises ord.<br>\n    Vi har ikke råd til å gjengjelde hat med hat;<br>\n    Vi har ikke råd til å nære en flamme og få den til å brenne sterkere.<br>\n    Vi har ikke råd til å miste sjelen for denne verdens flyktige pust;<br>\n    Vi har ikke råd til å bytte bort livet i et vanvittig bytte mot døden.<br>\n    Men uten DEG, allseende Herre, er vi blinde for det gode;<br>\n    Å, gi oss lys så vi kan kjenne det vi ikke har råd til!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\" alt=\"Sollys som strømmer gjennom en tåkete skog\">\n  </figure>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "Ting vi ikke har råd til"
+  }
+}

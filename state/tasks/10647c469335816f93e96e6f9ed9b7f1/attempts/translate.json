@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Hatuwezi kujinufaisha kwa faida inayomaanisha hasara ya mwingine;<br>\\n    Hatuwezi kukosa taji kwa kujikwaa kwenye msalaba.<br>\\n    Hatuwezi kumudu mzaha wa kutojali unaotunyang’anya rafiki;<br>\\n    Hatuwezi kumudu kicheko kinachoishia katika machozi ya uchungu.<br>\\n    Hatuwezi kumudu karamu ya leo inayoleta mfungo wa kesho;<br>\\n    Hatuwezi kumudu mbio zinazoishia katika msiba hatimaye.<br>\\n    Hatuwezi kucheza na moto, wala kujaribu kuumwa na nyoka;<br>\\n    Hatuwezi kufikiri kwamba dhambi huleta furaha ya kweli.<br>\\n    Hatuwezi kutilia maanani kwa uzito dhihaka ya mkosoaji mwenye kejeli;<br>\\n    Hatuwezi kuyasikiliza kwa uzembe maneno ya wenye hekima.<br>\\n    Hatuwezi kujibu chuki kwa chuki;<br>\\n    Hatuwezi kuchochea mwali na kuufanya uwake kwa nguvu zaidi.<br>\\n    Hatuwezi kuipoteza roho kwa ajili ya pumzi ya muda mfupi ya ulimwengu huu;<br>\\n    Hatuwezi kubadilishana maisha kwa kifo katika biashara ya wazimu.<br>\\n    Lakini bila WEWE, Bwana uonaye yote, sisi ni vipofu tusione mema;<br>\\n    Ee, utujalie nuru ili tuweze kujua mambo tusiyoweza kumudu!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\\\" alt=\\\"Miale ya jua ikipenya kwenye msitu wenye ukungu\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Shairi\",\"subtitle\":null,\"title\":\"Mambo Tusiyoweza Kumudu\"}",
+    "content_bytes": 1457,
+    "content_evidence_truncated": false,
+    "content_sha256": "058a4118e55434d6a9031ec11a32d4424c3141dbd616e1068475f51a5de8b512",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 150,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1325,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1987
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

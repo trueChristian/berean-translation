@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a337c754-4cf2-41c6-9236-577ff39ca3f2",
+    "response_id": "chatcmpl-EUsI4PvzmTbTGQu1naOwCjCQZ741W",
+    "usage": {
+      "completion_tokens": 1102,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 510,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1457,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1454,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2559
+    }
+  },
+  "received_at": "2026-10-03T16:45:00+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\">\n  <div class=\"poem\">\n    <p>Ik wandel met God—vandaag—<br>\n    Morgen is er misschien niet.<br>\n    Ik maak nu meteen het beste van de TIJD—<br>\n    Die God mij heeft geschonken.</p>\n\n    <p>Ik plan niet op een leven<br>\n    Dat ik in gemak zou kunnen leiden,<br>\n    Maar alleen om vandaag te leven<br>\n    En uitsluitend mijn God te behagen.</p>\n\n    <p>Ik durf niet in jaren te denken<br>\n    Of met grote sprongen vooruit te gaan;<br>\n    Met God buitengesloten en mezelf opgesloten,<br>\n    Omringd door zelfzuchtige doelen.</p>\n\n    <p>Er zijn mensen die hun leven plannen,<br>\n    En weinig aan God denken;<br>\n    Die zichzelf niet toetsen aan Gods waarheid,<br>\n    Zoals ze elke dag zouden moeten!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\" alt=\"Gouden zonlicht boven een donkere, met gras begroeide horizon\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>‘Roem niet,’ zo word ik gewaarschuwd,<br>\n    ‘op wat morgen brengt;<br>\n    Je gezondheid en rijkdom—zelfs het leven zelf—<br>\n    kunnen in één klap vervliegen!’</p>\n\n    <p>‘Deze nacht kan je ziel<br>\n    van je worden opgeëist:<br>\n    En plan jij daar het hele nieuwe jaar,<br>\n    onder een kerstboom?’</p>\n\n    <p>‘Word wakker! Maak de balans op, ben je voorbereid?<br>\n    Heb je je lessen wel geleerd?<br>\n    Als God over nog drie uur, DEZE DAG,<br>\n    je levensloop VANAVOND zou beëindigen?’</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\" alt=\"Een persoon tegen een gouden hemel\">\n  </figure>\n</article>\n",
+    "section": "Gedicht",
+    "subtitle": null,
+    "title": "Vandaag"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b4cd2efb-d7ee-44eb-9342-82e0391ef785",
+    "response_id": "chatcmpl-EUsUvgczxjzLoiHvDlU4tjgEQRfuq",
+    "usage": {
+      "completion_tokens": 957,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 312,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1460,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1457,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2417
+    }
+  },
+  "received_at": "2026-10-03T16:45:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\">\n  <div class=\"poem\">\n    <p>Ek sal vandag met God wandel—<br>\n    Môre bestaan dalk nie.<br>\n    Ek sal die meeste maak van TYD—nou dadelik—<br>\n    Wat God my geskenk het.</p>\n\n    <p>Ek sal nie beplan vir ’n lewe<br>\n    Waarin ek gerieflik kan leef nie,<br>\n    Maar net beplan om vandag te leef<br>\n    Om alleen my God te behaag.</p>\n\n    <p>Ek durf ook nie in jare dink<br>\n    Of met reusespronge vooruitbeur nie;<br>\n    Met God uitgesluit en die self ingesluit,<br>\n    En selfsugtige oogmerke wat my omring.</p>\n\n    <p>Daar is dié wat hul lewens beplan,<br>\n    Wat min aan God dink;<br>\n    Wat hulself nie aan God se waarheid meet nie,<br>\n    Soos hulle elke dag behoort te doen!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\" alt=\"Goue sonlig oor ’n donker grasbegroeide horison\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>“Moenie roem nie,” word ek gewaarsku,<br>\n    “oor wat môre bring;<br>\n    Jou gesondheid en rykdom—ja, selfs jou lewe—<br>\n    kan alles skielik wegvlieg!”</p>\n\n    <p>“Vanaand kan daardie siel van jou<br>\n    van jou geëis word:<br>\n    En beplan jy daar die hele Nuwe Jaar,<br>\n    onder ’n Kersboom?”</p>\n\n    <p>“Word wakker! Maak bestek: is jy gereed?<br>\n    Het jy jou lesse goed geleer?<br>\n    As God oor nog drie uur, VANDAG,<br>\n    jou lewensloop VANAAND sou afsluit?”</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\" alt=\"’n Persoon wat teen ’n goue lug afgeteken staan\">\n  </figure>\n</article>\n",
+    "section": "Gedig",
+    "subtitle": null,
+    "title": "Vandag"
+  }
+}

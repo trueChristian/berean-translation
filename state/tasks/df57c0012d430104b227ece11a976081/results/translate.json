@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c4a5508d-5bd3-46a6-8143-3a3056b434d7",
+    "response_id": "chatcmpl-EUsI6Yvkwmsoe7jJ3wOWuRaUk3PHF",
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1325,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1885
+    }
+  },
+  "received_at": "2026-10-03T16:45:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\">\n  <div class=\"poem\">\n    <p>Ons kan dit nie bekostig om die wins te behaal wat iemand anders laat verloor nie;<br>\n    Ons kan dit nie bekostig om die kroon mis te loop deur by die kruis te struikel nie.<br>\n    Ons kan dit nie bekostig om deur ’n onnadenkende grap ’n vriend te verloor nie;<br>\n    Ons kan dit nie bekostig om te lag totdat bitter trane opdroog nie.<br>\n    Ons kan dit nie bekostig om vandag te feesvier en môre te vas nie;<br>\n    Ons kan dit nie bekostig om ’n wedloop te hardloop wat uiteindelik op ’n tragedie uitloop nie.<br>\n    Ons kan dit nie bekostig om met vuur te speel of ’n slang se byt uit te lok nie;<br>\n    Ons kan dit nie bekostig om te dink dat sonde enige ware vreugde bring nie.<br>\n    Ons kan dit nie bekostig om die sinikus se spot met erns op te neem nie;<br>\n    Ons kan dit nie bekostig om ons ore doof te hou vir wyse mense se woorde nie.<br>\n    Ons kan dit nie bekostig om haat met haat te vergeld nie;<br>\n    Ons kan dit nie bekostig om ’n vlam aan te blaas en dit nog feller te laat brand nie.<br>\n    Ons kan dit nie bekostig om ons siel te verloor vir hierdie wêreld se vlugtige asem nie;<br>\n    Ons kan dit nie bekostig om die lewe in ’n waansinnige ruiltransaksie vir die dood te verruil nie.<br>\n    Maar sonder U, al siende Here, is ons blind vir die goeie;<br>\n    O, skenk ons lig sodat ons kan weet wat ons nie kan bekostig nie!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\" alt=\"Sonlig wat deur ’n mistige woud stroom\">\n  </figure>\n</article>\n",
+    "section": "Gedig",
+    "subtitle": null,
+    "title": "Dinge wat ons nie kan bekostig nie"
+  }
+}

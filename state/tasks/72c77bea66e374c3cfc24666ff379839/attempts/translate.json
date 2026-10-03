@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    Gud har ikke lovet oss alltid blå himmel,<br>\\n    blomsterstrødde stier gjennom hele livet;<br>\\n    Gud har ikke lovet sol uten regn,<br>\\n    glede uten sorg, fred uten smerte.</p>\\n\\n    <p>Omkved:<br>\\n    Men Gud har lovet styrke for dagen,<br>\\n    hvile etter strevet, lys på veien,<br>\\n    nåde i prøvelsene, hjelp fra det høye,<br>\\n    godhet som aldri svikter, kjærlighet som aldri dør.</p>\\n\\n    <p>2.<br>\\n    Gud har ikke lovet at vi skal slippe å kjenne<br>\\n    slit og fristelser, trengsler og nød;<br>\\n    Han har ikke sagt at vi ikke skal bære<br>\\n    mange byrder, mange bekymringer.</p>\\n\\n    <p>3.<br>\\n    Gud har ikke lovet jevne, brede veier,<br>\\n    rask, lett ferd uten behov for en veiviser;<br>\\n    aldri et fjell som er steinete og bratt,<br>\\n    aldri en elv som er grumsete og dyp.</p>\\n  </div>\\n</article>\",\"section\":\"Dikt\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1027,
+    "content_evidence_truncated": false,
+    "content_sha256": "683626a951216e7c4cbae865d9a30dd579ea522e2c9219eb4ad5a4c2d3384852",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 455,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1231,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1228,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1686
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

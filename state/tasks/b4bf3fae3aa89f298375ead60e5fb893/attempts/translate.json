@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:05+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Нам не по силам наживаться, если кто-то потерпит убыток;<br>\\n    Нам не по силам потерять венец, споткнувшись у креста.<br>\\n    Нам не по силам небрежной шуткой лишиться друга;<br>\\n    Нам не по силам смеяться так, чтобы смех кончился горькими слезами.<br>\\n    Нам не по силам пиршествовать сегодня, чтобы завтра поститься;<br>\\n    Нам не по силам бежать наперегонки и в конце прийти к трагедии.<br>\\n    Нам не по силам играть с огнём или навлекать на себя укус змеи;<br>\\n    Нам не по силам думать, будто грех приносит настоящую радость.<br>\\n    Нам не по силам всерьёз внимать насмешкам циника;<br>\\n    Нам не по силам беспечно пропускать мимо ушей слова мудрых.<br>\\n    Нам не по силам отвечать ненавистью на ненависть;<br>\\n    Нам не по силам раздувать пламя, чтобы оно горело ещё ярче.<br>\\n    Нам не по силам потерять душу ради мимолётного дыхания этого мира;<br>\\n    Нам не по силам в безумном обмене променять жизнь на смерть.<br>\\n    Но без Тебя, всевидящий Господь, мы слепы ко всему доброму;<br>\\n    О, даруй нам свет, чтобы мы узнали, чего нам не по силам допустить!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\\\" alt=\\\"Солнечные лучи пробиваются сквозь туманный лес\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Стихотворение\",\"subtitle\":null,\"title\":\"Чего нам не по силам допустить\"}",
+    "content_bytes": 2322,
+    "content_evidence_truncated": false,
+    "content_sha256": "624b1c0e1a1904c0e2ad1f4dca0c99c5b1c630a7629c12a1bbc17c5c1c9e9bf2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 665,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 144,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1325,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1322,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1990
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

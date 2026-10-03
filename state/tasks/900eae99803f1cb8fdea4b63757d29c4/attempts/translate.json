@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"54c17772-223b-4fc7-b2e6-0bda387f9b23\\\">\\n  <div class=\\\"poem\\\">\\n    <p>A veces mi corazón está apesadumbrado,<br>\\n    Cargado de temores y preocupaciones.<br>\\n    Entonces mi Señor me llama,<br>\\n    «Ven, hijo mío, yo llevaré tu carga».</p>\\n\\n    <p>A veces mi mente se inunda de preguntas,<br>\\n    Las respuestas parecen esquivas y desconcertantes.<br>\\n    Entonces levanto los ojos hacia mi Dios,<br>\\n    Y me aferro a su amor, que me cubre.</p>\\n\\n    <p>A veces siento que quiero rendirme,<br>\\n    El camino ante mí parece largo y difícil.<br>\\n    Pero pienso en el camino de mi Pastor:<br>\\n    Fue por mí que quedó herido.</p>\\n\\n    <p>A veces mi mente está nublada,<br>\\n    Tropiezo a cada paso que doy.<br>\\n    Sin embargo, desde la niebla oigo un susurro:<br>\\n    «Eres mío, confía en mí; abriré un camino».</p>\\n\\n    <p>A veces mis circunstancias me parecen<br>\\n    Duras e injustas.<br>\\n    Pero entonces mi Padre susurra:<br>\\n    «Amado mío, no desesperes».</p>\\n\\n    <p>A veces me siento completamente solo,<br>\\n    La angustia interior me ahoga y me quema.<br>\\n    El Maestro dice: «Elegido mío,<br>\\n    Solo yo puedo satisfacer aquello que anhela tu corazón.</p>\\n\\n    <p>A veces tengo los ojos llenos de lágrimas<br>\\n    Y siento que el corazón está a punto de estallar.<br>\\n    Entonces mi Salvador me recuerda:<br>\\n    Él recorrió este camino antes que yo.</p>\\n\\n    <p>A veces me preocupo y me pregunto<br>\\n    Cómo podrán salir bien las cosas.<br>\\n    Sin embargo, permanece la promesa: todo resulta para bien<br>\\n    De quien se deleita en Dios.</p>\\n\\n    <p>A veces el futuro parece aterrador,<br>\\n    No se parece en nada a lo que había esperado.<br>\\n    Aun así, fijo la mirada en su propósito final,<br>\\n    Sabiendo que es mejor que aquello que yo había buscado.</p>\\n\\n    <p>A veces siento que me he quedado atrás,<br>\\n    Mientras la vida de los demás sigue tan libremente.<br>\\n    Pero confiaré en los planes de mi Padre<br>\\n    Y esperaré con ilusión su júbilo eterno.</p>\\n\\n    <p>A veces me descubro soñando<br>\\n    Con el futuro que me espera en el cielo.<br>\\n    ¡Oh, qué dicha será<br>\\n    Oír esas palabras: «Bien hecho»!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg\\\" alt=\\\"Nubes oscuras de tormenta sobre aguas tranquilas\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Poema\",\"subtitle\":null,\"title\":\"A veces\"}",
+    "content_bytes": 2528,
+    "content_evidence_truncated": false,
+    "content_sha256": "f6fec3dde5608b943c3d8f636d722c4ab34cf806bff3a0baf65e3fae6044a75e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1018,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 243,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1634,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1631,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2652
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

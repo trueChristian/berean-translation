@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a5605dc1-f921-4b21-8720-359ee6c41580",
+    "response_id": "chatcmpl-EUsIxdyzU2FbRlTJJwQqkdTzAK2RC",
+    "usage": {
+      "completion_tokens": 550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1221,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1774
+    }
+  },
+  "received_at": "2026-10-03T16:45:00+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\">\n  <div class=\"poem\">\n    <p>1.<br>\n    لم يَعِدِ اللهُ بسماءٍ زرقاءَ على الدوام،<br>\n    ولا بدروبٍ تكسوها الأزهارُ طوالَ حياتنا؛<br>\n    لم يَعِدِ اللهُ بشمسٍ بلا مطر،<br>\n    ولا بفرحٍ بلا حزن، ولا بسلامٍ بلا ألم.</p>\n\n    <p>اللازمة:<br>\n    لكنَّ اللهَ وعدَ بقوةٍ لكلِّ يوم،<br>\n    وراحةٍ بعدَ العناء، ونورٍ للطريق،<br>\n    ونعمةٍ في المحن، وعونٍ من السماء،<br>\n    ولطفٍ لا يخيب، ومحبةٍ لا تموت.</p>\n\n    <p>2.<br>\n    لم يَعِدِ اللهُ بأننا لن نعرفَ<br>\n    الكدَّ والتجربة، والضيقَ والشقاء؛<br>\n    ولم يخبرنا بأننا لن نحملَ<br>\n    أعباءً كثيرةً وهمومًا كثيرة.</p>\n\n    <p>3.<br>\n    لم يَعِدِ اللهُ بطرقاتٍ ممهدةٍ وفسيحة،<br>\n    ولا بسفرٍ سريعٍ سهلٍ لا يحتاجُ إلى دليل؛<br>\n    ولا بغيابِ جبلٍ وعرٍ شديدِ الانحدار،<br>\n    ولا بغيابِ نهرٍ عكرٍ عميق.</p>\n  </div>\n</article>\n",
+    "section": "قصيدة",
+    "subtitle": null,
+    "title": null
+  }
+}

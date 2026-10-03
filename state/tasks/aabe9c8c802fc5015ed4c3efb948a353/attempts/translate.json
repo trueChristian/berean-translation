@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:05+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>今天——我要与神同行——<br>\\n    明天或许不会到来。<br>\\n    我要把握此刻的时间——<br>\\n    这是神赐给我的。</p>\\n\\n    <p>我不为一生筹划，<br>\\n    不求安逸度日，<br>\\n    只求今天活着，<br>\\n    单单讨我神的喜悦。</p>\\n\\n    <p>我不敢以年为计，<br>\\n    也不敢一步步向前飞跃；<br>\\n    把神摒于门外，把自己关在其中，<br>\\n    四周尽是自私的目标。</p>\\n\\n    <p>有些人规划自己的一生，<br>\\n    很少想到神；<br>\\n    他们不以神的真理衡量自己，<br>\\n    可他们本该天天如此！</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"金色阳光洒在昏暗的草地地平线上\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>“不要自夸，”我受警戒，<br>\\n    “夸明日将带来什么；<br>\\n    你的健康、财富——甚至生命本身——<br>\\n    都可能顷刻间飞逝！”</p>\\n\\n    <p>“就在今夜，你的性命<br>\\n    也可能被取去：<br>\\n    你还筹划着要在新年里<br>\\n    坐在某棵圣诞树下吗？”</p>\\n\\n    <p>“醒醒！检视自己，你预备好了吗？<br>\\n    该学的功课都学好了吗？<br>\\n    若神在今天——就在这一天——再过三小时，<br>\\n    今夜就要结束你的旅程呢？”</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"一个人站在金色天空映衬之下\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"诗歌\",\"subtitle\":null,\"title\":\"今天\"}",
+    "content_bytes": 1744,
+    "content_evidence_truncated": false,
+    "content_sha256": "df526009c9c3732f44657af27536eb1c1edc31c12fa8136686352ad640511f6e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 926,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 278,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1469,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1466,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2395
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

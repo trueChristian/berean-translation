@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>С Богом пойду я — сегодня —<br>\\n    Завтра может не настать.<br>\\n    Лучшее время — СЕЙЧАС —<br>\\n    Бог мне дал его проживать.</p>\\n\\n    <p>Я не стану строить план<br>\\n    На жизнь в покое и достатке,<br>\\n    Лишь проживу сегодняшний день,<br>\\n    Чтоб Богу угодить одному.</p>\\n\\n    <p>Не смею думать о годах<br>\\n    И совершать скачки вперёд;<br>\\n    Когда Бог исключён, а «я» в центре,<br>\\n    Себялюбивые цели кругом.</p>\\n\\n    <p>Есть те, кто строит жизнь свою,<br>\\n    О Боге вспоминая редко;<br>\\n    Кто судит о себе не по Божьей правде,<br>\\n    Как должно делать каждый день!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"Золотой солнечный свет над тёмным травянистым горизонтом\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>«Не хвались», — меня предупреждают, —<br>\\n    «Тем, что завтра принесёт;<br>\\n    Здоровье, деньги — даже жизнь сама —<br>\\n    Вмиг могут улететь!»</p>\\n\\n    <p>«Этой ночью душу твою<br>\\n    Могут у тебя потребовать:<br>\\n    А ты планируешь весь Новый год<br>\\n    Там, под рождественской ёлкой?»</p>\\n\\n    <p>«Очнись! Оглянись: ты готов?<br>\\n    Уроки усвоены как следует?<br>\\n    Если Бог ещё через три часа, В ЭТОТ ДЕНЬ,<br>\\n    ЗАВТРА НОЧЬЮ завершит твой путь?»</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"Человек на фоне золотого неба\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Стихотворение\",\"subtitle\":null,\"title\":\"Сегодня\"}",
+    "content_bytes": 2382,
+    "content_evidence_truncated": false,
+    "content_sha256": "c22eb061226c4c105dc7efef6953b27c778426287bebca9cbe02f9220adb5a46",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1457,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1454,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2156
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Jag vandrar med Gud — i dag —<br>\\n    I morgon kanske inte finns.<br>\\n    Jag gör det bästa av TIDEN — just nu —<br>\\n    som Gud har skänkt mig.</p>\\n\\n    <p>Jag planerar inte för ett liv<br>\\n    där jag kan leva bekvämt,<br>\\n    utan bara för att i dag leva<br>\\n    så att endast min Gud blir nöjd.</p>\\n\\n    <p>Jag vågar inte heller tänka i år<br>\\n    eller ta språng efter språng;<br>\\n    när Gud stängs ute och jag stänger in mig<br>\\n    och själviska mål omger mig.</p>\\n\\n    <p>Det finns de som planerar sina liv<br>\\n    och knappt tänker på Gud;<br>\\n    som inte prövar sig själva mot Guds sanning,<br>\\n    fast de borde göra det varje dag!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"Gyllene solljus över en mörk, gräsbevuxen horisont\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>”Skryt inte”, blir jag varnad,<br>\\n    ”om vad morgondagen för med sig;<br>\\n    din hälsa och rikedom — ja, själva livet —<br>\\n    kan plötsligt fara sin kos!”</p>\\n\\n    <p>”I natt kan din själ<br>\\n    krävas tillbaka av dig:<br>\\n    Och planerar du ett helt nytt år<br>\\n    där, under någon julgran?”</p>\\n\\n    <p>”Vakna! Se över läget: är du redo?<br>\\n    Har du verkligen lärt dig läxorna?<br>\\n    Om Gud om bara tre timmar, JUST I DAG,<br>\\n    skulle sätta punkt för ditt liv I NATT?”</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"En person som står mot en gyllene himmel\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Dikt\",\"subtitle\":null,\"title\":\"I dag\"}",
+    "content_bytes": 1789,
+    "content_evidence_truncated": false,
+    "content_sha256": "3b880177cfcad224d5cd5984ef788d553ef85cc97cd31740a674f74a7e9e5eb5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 222,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1458,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1455,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2302
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

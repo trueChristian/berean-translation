@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:02+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Jeg vil vandre med Gud – i dag –<br>\\n    I morgen finnes kanskje ikke.<br>\\n    Jeg vil bruke TIDEN best mulig – akkurat nå –<br>\\n    Den Gud har gitt meg.</p>\\n\\n    <p>Jeg vil ikke legge planer for et liv<br>\\n    Der jeg kanskje kan leve sorgløst,<br>\\n    Men bare for å leve denne dagen<br>\\n    Slik at jeg behager min Gud alene.</p>\\n\\n    <p>Jeg våger heller ikke å tenke i år<br>\\n    Eller ta sprang fra mål til mål;<br>\\n    Med Gud stengt ute og selvet stengt inne,<br>\\n    Omgitt av egoistiske mål.</p>\\n\\n    <p>Det finnes dem som planlegger livet sitt,<br>\\n    Som skjenker Gud få tanker;<br>\\n    Som ikke måler seg mot Guds sannhet,<br>\\n    Slik de burde gjøre hver dag!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"Gyllent sollys over en mørk, gresskledd horisont\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>«Vær ikke stolt», blir jeg advart,<br>\\n    «Av det morgendagen bringer;<br>\\n    Din helse og rikdom – ja, selve livet –<br>\\n    Kan alt sammen plutselig få vinger!»</p>\\n\\n    <p>«I natt kan din sjel<br>\\n    Kreves tilbake fra deg:<br>\\n    Og planlegger du det nye året fullt<br>\\n    Der, under et juletre?»</p>\\n\\n    <p>«Våkn opp! Gjør opp status, er du beredt?<br>\\n    Har du lært leksene dine godt nok?<br>\\n    Hvis Gud om bare tre timer, DENNE DAGEN,<br>\\n    Skulle avslutte din ferd I KVELD?»</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"En person som står mot en gyllen himmel\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Dikt\",\"subtitle\":null,\"title\":\"I dag\"}",
+    "content_bytes": 1792,
+    "content_evidence_truncated": false,
+    "content_sha256": "61f8bdc4241a701011421537203a8030612f303dd24426aab53eb46283575182",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1469,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1466,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2193
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8f36dee3-685c-47b8-b1d4-9981806d4cd5\\\">\\n  <p>Det skrapande ljudet av lastbilsdäck som körde på grusvägen fyllde luften medan jag satt i huset och läste ett uppslagsverk. Jag for upp på fötter och kikade ut genom fönstret.</p>\\n\\n  <p>Mamma hade just kommit tillbaka från frukt- och grönsaksauktionen i Lewisburg med några persikor.</p>\\n\\n  <p>Jag slog igen dörren bakom mig, rusade över det täta, gröna gräset och hoppade upp på flaket på vår lastbil.</p>\\n\\n  <p>På pickupens flak stod fyra lådor med persikor. Jag log triumferande och stack handen i en låda, letade tills jag hittade en mogen persika. Precis innan jag bet i den sa mamma: ”Steven, ät inga persikor; då förstör du middagen.” Besviket lade jag tillbaka persikan i lådan och gick sedan långsamt därifrån.</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg\\\" alt=\\\"En låda med persikor på väderbitet trä\\\">\\n  </figure>\\n\\n  <p>Flera timmar senare ropade pappa från kalvstallet. ”Steven, gå och plocka rädisorna till vårt frukt- och grönsaksstånd på fredagsmarknaden.”</p>\\n\\n  <p>När jag hade plockat, tvättat och buntat rädisorna bar jag in dem i det gamla kylrummet inne i den röda ladugården. Dörren till kylrummet gnisslade när jag ryckte upp den. Där, längs väggarna i kylrummet, stod de fyra lådorna med de frestande persikorna. Jag stirrade på dem och det vattnades i munnen. Jag ställde snabbt ner rädisorna. Åh, så goda de såg ut. En liten persika skulle väl ändå inte förstöra middagen för en utsvulten tioåring. Mamma skulle inte märka något om jag bara tog en persika.</p>\\n\\n  <p>Djupt inom mig började en kamp mellan rätt och fel ta form. Jag visste att det var fel att smyga, men persikorna såg alldeles för goda ut.</p>\\n\\n  <p>När jag hade slukat persikan såg jag mig omkring i ladugårdens mörka inre efter ett bra gömställe för persikokärnan. Jag tittade över lökarna, som låg på torkställningar, mot den öppna höbalen. Problemet var att om jag lade kärnan under höet kunde någon hitta den. Då fick jag syn på hålen i ladugårdens brädvägg på västsidan. Om jag tryckte ut kärnan genom ett av hålen skulle den landa vid vägen. Och om någon såg den skulle de tro att den kom från ett fordon som passerat.</p>\\n\\n  <p>Jag tryckte in kärnan i hålet och kikade ut medan den föll ner vid vägen. Just då kände jag en brännande smärta i pannan. Jag ryggade hastigt tillbaka. Ovanför hålet hängde ett getingbo. Sedan såg jag den skyldiga getingen sväva över mig och försöka sticka mig igen. Jag rusade ut genom ladugårdsdörren och slog igen dörren rakt i ansiktet på getingen.</p>\\n\\n  <p>Den kvällen svullnade min panna upp som en ballong, så att det blev svårt att se.</p>\\n\\n  <p>Några timmar senare gick alla andra och lade sig. Jag låg på soffan så att mamma kunde titta till mig då och då under natten. Men jag kunde bara inte somna. Ansiktet var inflammerat och kliade, men allt jag kunde tänka på var skulden och ångern över det jag hade gjort.</p>\\n\\n  <p>Efter flera plågsamma timmar samlade jag mod till mig, gled ner från soffan och tassade bort till mina föräldrars sovrum. Jag väckte mina föräldrar och berättade hela historien … hur jag hade ätit persikan, sedan försökt gömma kärnan och hur jag hade blivit stucken.</p>\\n\\n  <p>Mina föräldrar förlät mig och bestämde sig för att det här var en läxa som jag inte snart skulle glömma. Med lätt hjärta gick jag tillbaka till soffan, lade mig ner och somnade snabbt i lugn och ro.</p>\\n</article>\\n\",\"section\":\"Barnhörnan\",\"subtitle\":null,\"title\":\"Var lydig\"}",
+    "content_bytes": 3747,
+    "content_evidence_truncated": false,
+    "content_sha256": "509daa43a3fcd789b2bae48075f6ee7b55c83c3625290063d06954d8b87e9643",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 142,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1830,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1827,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3096
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

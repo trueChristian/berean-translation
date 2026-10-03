@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b261c6ae-7e6f-4723-add1-ef740e138b88",
+    "response_id": "chatcmpl-EUsIeSlNY6n01Gi9LS4mEaAl2RSm7",
+    "usage": {
+      "completion_tokens": 918,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 217,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1462,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1459,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2380
+    }
+  },
+  "received_at": "2026-10-03T16:45:02+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\">\n  <div class=\"poem\">\n    <p>आज—मैं परमेश्वर के साथ चलूँगा—<br>\n    कल शायद हो ही न।<br>\n    समय का भरपूर उपयोग करूँगा—अभी—<br>\n    जो परमेश्वर ने मुझे दिया है।</p>\n\n    <p>मैं ऐसी ज़िंदगी की योजना नहीं बनाऊँगा<br>\n    जिसे आराम से जी सकूँ,<br>\n    बल्कि केवल आज के लिए जीऊँगा,<br>\n    ताकि सिर्फ़ अपने परमेश्वर को प्रसन्न करूँ।</p>\n\n    <p>न ही वर्षों के बारे में सोचने का साहस करूँगा,<br>\n    न ही लंबी छलाँगें लगाकर आगे बढ़ूँगा;<br>\n    परमेश्वर को बाहर रखकर, स्वयं को भीतर बंद करके,<br>\n    और स्वार्थी उद्देश्यों से घिरकर।</p>\n\n    <p>कुछ लोग अपनी ज़िंदगी की योजनाएँ बनाते हैं,<br>\n    परमेश्वर के बारे में बहुत कम सोचते हैं;<br>\n    वे स्वयं को परमेश्वर के सत्य के अनुसार नहीं परखते,<br>\n    जबकि उन्हें हर दिन ऐसा करना चाहिए!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\" alt=\"अँधेरी घास वाली क्षितिज-रेखा पर सुनहरी धूप\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>मुझे चेतावनी दी गई है, “अपनी बड़ाई न कर,”<br>\n    “कि कल क्या लेकर आएगा;<br>\n    तेरा स्वास्थ्य और धन—यहाँ तक कि तेरा जीवन भी—<br>\n    एक ही पल में उड़ सकता है!”</p>\n\n    <p>“आज रात, तेरे प्राण<br>\n    तुझसे माँगे जा सकते हैं:<br>\n    और क्या तू नए साल की पूरी योजना बना रहा है<br>\n    वहाँ, किसी क्रिसमस के पेड़ के नीचे?”</p>\n\n    <p>“जागो! अपना लेखा-जोखा लो, क्या तुम तैयार हो?<br>\n    क्या तुमने अपने पाठ ठीक से सीख लिए हैं?<br>\n    अगर परमेश्वर आज ही, अभी तीन घंटों में,<br>\n    आज रात तुम्हारी जीवन-यात्रा समाप्त कर दे?”</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\" alt=\"सुनहरे आकाश के सामने खड़ा एक व्यक्ति\">\n  </figure>\n</article>\n",
+    "section": "कविता",
+    "subtitle": null,
+    "title": "आज"
+  }
+}
