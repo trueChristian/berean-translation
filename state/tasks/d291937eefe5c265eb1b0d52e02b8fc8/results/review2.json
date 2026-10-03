@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4e108b97-39f6-4466-91da-d9066adf18eb",
+    "response_id": "chatcmpl-EUsFjPpn0f5R7H7jmaDqrnFEkUO7a",
+    "usage": {
+      "completion_tokens": 863,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 691,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8697,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8694,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9560
+    }
+  },
+  "received_at": "2026-10-03T11:35:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, “…허구” 단락의 마태복음 13:57 인용",
+        "severity": "major",
+        "source_quote": "…A prophet is not without honour, save in his own country, and in his own house –Matthew 13:57.",
+        "suggested_fix": "<em>…선지자는 자기 고향과 자기 집에서만 존경받지 못하느니라 —마태복음 13:57.</em>",
+        "translation_quote": "<em>…선지자가 자기 고향과 자기 집 외에서는 존경을 받지 못하는 일이 없느니라 —마태복음 13:57.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

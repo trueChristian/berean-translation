@@ -2,7 +2,6 @@
   "article_id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "351927e42f334f69a83d40dc593d4a55",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -45,18 +44,31 @@
         },
         "total_tokens": 3425
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 625,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 593,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2027,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2024,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2652
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Source /article[1]/p[3]/em[1]/br[1]; translation /article[1]/p[3]/em[1]",
-      "severity": "critical",
-      "source_quote": "<p><em>I press toward the mark for the prize of the<br>\n  high calling of God in Christ Jesus –Philippians 3:14.</em></p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[44:45], translation signature[44:44], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p><em>我向着标竿直跑，为要得着上帝在基督耶稣里从上面召我来得的奖赏。——腓立比书 3:14。</em></p>"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T11:35:46+00:00",
   "id": "d14f2cc7244a6443cceb58240953ad4e",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "cmn",
@@ -145,11 +157,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3cb89a87a9aa0e8e788ce5f8b7d50505397494e0bb1438849093ff394f7a7a49.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML末段，引述犹大书 1:24-25\",\"severity\":\"major\",\"source_quote\":\"To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.\",\"suggested_fix\":\"删除译文中添加的“因耶稣基督我们的主”，并将该句调整为忠实表达原文的意思，例如：“愿荣耀、威严、权能和权柄都归于独一全智的神、我们的救主，从今时直到永远。阿们。——犹大书 1:24-25。”保留原有 HTML 标签及引用位置。\",\"translation_quote\":\"愿那能保守你们不失脚、使你们无瑕无疵、欢欢喜喜站在祂荣耀面前的神——独一的神、我们的救主——因耶稣基督我们的主得着荣耀、威严、权能和权柄，从万古以前并现今，直到永永远远。阿们。——犹大书 1:24-25。\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 866,
+    "content_evidence_truncated": false,
+    "content_sha256": "d490e266cefcebf8a0b1fd248a28dd442ce283d9c01c267041b89fdf5aeaf380",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 923,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 649,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4635,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4632,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5558
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

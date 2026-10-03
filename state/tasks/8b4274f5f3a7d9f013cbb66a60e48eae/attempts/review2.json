@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, first stanza, second line\",\"severity\":\"minor\",\"source_quote\":\"Minute degrees observed as nil.\",\"suggested_fix\":\"Tahap-tahap kecil dianggap tiada berarti.\",\"translation_quote\":\"Tahap demi tahap, nyaris tak terlihat.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 275,
+    "content_evidence_truncated": false,
+    "content_sha256": "838f659d824f98756cf983d9fb38fc785972be4a16eea0497e5e8ac5545681cd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1960,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1957,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2552
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

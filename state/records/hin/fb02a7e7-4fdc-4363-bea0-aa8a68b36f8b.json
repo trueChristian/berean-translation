@@ -6,9 +6,32 @@
       "campaign": "gh-37108628649",
       "event": "requested",
       "task": "1205ebae6a8aa2edc83ffcd80fc1186e"
+    },
+    {
+      "at": "2026-10-03T11:35:45+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "1205ebae6a8aa2edc83ffcd80fc1186e"
     }
   ],
   "language": "hin",
   "latest_task": "1205ebae6a8aa2edc83ffcd80fc1186e",
-  "published": null
+  "published": {
+    "html_path": "content/hin/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
+    "html_sha256": "69f91ff4a936474cdb386dddf12531319ad8622e55e0baf9c388ce5fd859867c",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+    "metadata_path": "content/hin/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.json",
+    "metadata_sha256": "161cc78e650d5492885f71ec6f13461dff688878e5a48df0a61eb64ce8e814eb",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"hi\" dir=\"ltr\" role=\"note\">\n  <p>इस लेख का अनुवाद OpenAI (मॉडल: gpt-6-luna) द्वारा कृत्रिम बुद्धिमत्ता से किया गया है और अभी इसकी मानवीय समीक्षा नहीं हुई है। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है। अर्थ के बारे में संदेह होने पर कृपया अंग्रेज़ी मूल पाठ देखें। <a href=\"/en/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b/\" data-source-article-id=\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\" hreflang=\"en\">अंग्रेज़ी मूल पाठ</a></p>\n</aside>",
+    "published_at": "2026-10-03T11:35:45+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+    "source_snapshot": "state/sources/3cb89a87a9aa0e8e788ce5f8b7d50505397494e0bb1438849093ff394f7a7a49.json",
+    "task": "1205ebae6a8aa2edc83ffcd80fc1186e",
+    "translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c"
+  }
 }

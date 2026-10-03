@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "III.a. Молитва, абзац о посещении молитвенных собраний",
+      "severity": "major",
+      "source_quote": "Prayer meeting attendance was not a monthly or a bimonthly option (Act 6:4)!",
+      "suggested_fix": "Заменить «раз в две недели» на «раз в месяц или два раза в месяц» (или другое точное прочтение «bimonthly», не меняющее частоту на раз в две недели).",
+      "translation_quote": "Посещение молитвенных собраний не было делом одного раза в месяц или раз в две недели (Деяния 6:4)!"
+    },
+    {
+      "location": "III.a. Молитва, цитата Деяния 16:13",
+      "severity": "major",
+      "source_quote": "…prayer was wont to be made… –Acts 16:13.",
+      "suggested_fix": "Заменить «…там, по обыкновению, был молитвенный дом…» на перевод смысла: «…там, по обыкновению, совершалась молитва…»",
+      "translation_quote": "…там, по обыкновению, был молитвенный дом… — Деяния 16:13."
+    },
+    {
+      "location": "III.c. Пение, цитата Ефесянам 5:19",
+      "severity": "major",
+      "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs",
+      "suggested_fix": "Передать взаимное обращение, например: «Обращаясь друг к другу с псалмами, гимнами и духовными песнями…»",
+      "translation_quote": "Назидая самих себя псалмами и славословиями и песнопениями духовными"
+    },
+    {
+      "location": "I.a. Драма нарушает закон слышания, цитата Евреям 11:6",
+      "severity": "major",
+      "source_quote": "the evidence of things not seen (or demonstrated)",
+      "suggested_fix": "Заменить «уверенность в невидимом (или недоказанном)» на формулировку, сохраняющую исходную мысль «свидетельство о невидимом (или не показанном)».",
+      "translation_quote": "уверенность в невидимом (или недоказанном)"
+    },
+    {
+      "location": "Вступительная часть, абзац об анабаптистском возрождении",
+      "severity": "minor",
+      "source_quote": "New Covenant-focused preaching",
+      "suggested_fix": "Уточнить, что имеется в виду Новый Завет как Новый Завет/завет, например: «проповеди, сосредоточенной на Новом Завете (Новом Завете-завете)».",
+      "translation_quote": "сосредоточенной на Новом Завете"
+    },
+    {
+      "location": "История религиозной драмы, абзац о Тёмных веках",
+      "severity": "minor",
+      "source_quote": "known as “miracle plays.”",
+      "suggested_fix": "Заменить «мистерии» на «миракл-пьесы» или поясняющий перевод «религиозные пьесы о чудесах», чтобы не подменять название жанра мистериями.",
+      "translation_quote": "известных как «мистерии»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

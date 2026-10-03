@@ -2361,6 +2361,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.html",
+      "html_sha256": "f648db8edb17e2db0038b52718d580d1b0633c8bda05607aec7bb95043e87f78",
+      "human_reviewed": false,
+      "id": "201a1b3e-85b3-4e62-bc45-118a8c1f5367",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367-1.png"
+        },
+        {
+          "alt": "غيوم فوق جبال تكسو قممها الثلوج وبحيرة تحيط بها الغابات",
+          "public_path": "/images/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367-2.jpg"
+        },
+        {
+          "alt": "جبال مكسوّة بالغابات تنعكس على بحيرة تحت غيوم صيفية",
+          "public_path": "/images/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.json",
+      "metadata_sha256": "5409d39571558c7c729c698c17ecd9beb891803acacd61a4a806273b0eda5b49",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "من المحرر",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "من المحرر",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
       "html_sha256": "cf2dc73e06bcea2107e92b827f5f52b9b9c32c6878f7fb88d2b8e3f0de43e3a0",
       "human_reviewed": false,
@@ -6759,6 +6795,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.html",
+      "html_sha256": "41aef52e081c485511cc9403b5bd772fa142fe67f164a966b2860cc28b2b6334",
+      "human_reviewed": false,
+      "id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
+      "images": [],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.json",
+      "metadata_sha256": "a1e4b9505eb229606e80b2062f6e871e3af6b668edf54983266af46ddf111f26",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "医生的话",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "减重",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/b9a7b1b8-0a23-4e53-b835-31bf5a42dc33.html",
       "html_sha256": "065b67f5265561299672f76c712f52d9fc18e7faae60749aa18b7fae9b1506f9",
       "human_reviewed": false,
@@ -7195,6 +7254,34 @@
       "subtitle": null,
       "title": "冬之歌",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
+      "html_sha256": "2aa91a6cf26954ba94cce4670ae87b9a4852a029b1d34ca34ebc4c7e3c344e50",
+      "human_reviewed": false,
+      "id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
+      "images": [
+        {
+          "alt": "雾霭笼罩的常绿森林",
+          "public_path": "/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.json",
+      "metadata_sha256": "80d42286b21b7678ada171bb2ff8ec99c787207b877d2f60c0cd35edc89ec074",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "天上的呼召",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -15306,6 +15393,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
+      "html_sha256": "69f91ff4a936474cdb386dddf12531319ad8622e55e0baf9c388ce5fd859867c",
+      "human_reviewed": false,
+      "id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
+      "images": [
+        {
+          "alt": "कोहरे से ढका सदाबहार वन",
+          "public_path": "/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.json",
+      "metadata_sha256": "161cc78e650d5492885f71ec6f13461dff688878e5a48df0a61eb64ce8e814eb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "स्वर्गीय बुलाहट",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
       "html_sha256": "b5194be6484d9ca641109b0900c72a546e4c28ecdb891bc824260fbb1595294b",
       "human_reviewed": false,
@@ -17683,6 +17798,34 @@
       "subtitle": null,
       "title": "Lagu Musim Dingin",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
+      "html_sha256": "84039375c1e00958f16f0bdc69120a89cecca89712e3f947a6129d1c54324168",
+      "human_reviewed": false,
+      "id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
+      "images": [
+        {
+          "alt": "Hutan hijau abadi berkabut",
+          "public_path": "/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.json",
+      "metadata_sha256": "cda7dd96b229b7f951ae9e7a021f5df3a6aa062857ca0dd73b7dc696b3d40b57",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "PANGGILAN SURGAWI",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -22221,6 +22364,34 @@
       "subtitle": null,
       "title": "겨울 노래",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
+      "html_sha256": "711d828fe190d7cc5442993e945df249cb52298b145a23c8bfc6f053b9756b04",
+      "human_reviewed": false,
+      "id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
+      "images": [
+        {
+          "alt": "안개 낀 상록수 숲",
+          "public_path": "/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.json",
+      "metadata_sha256": "a9a99236f5cdbbbca2fa4da177ebaaeba6562c6084f37b5eb364fe4c0e55202e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "하늘의 부르심",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -35333,6 +35504,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Hawawi Wawili Tena",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
+      "html_sha256": "ae1ed7ff8718a5f967e9b7d7a79b2876a342fb177aa00f897052b160185eddb4",
+      "human_reviewed": false,
+      "id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
+      "images": [
+        {
+          "alt": "Msitu wa miti ya kijani kibichi uliofunikwa na ukungu",
+          "public_path": "/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.json",
+      "metadata_sha256": "1ed4f5815410e3d8c67394510df3b5e80e34ce701330ed81be2a41ed9c234583",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "MWITO WA MBINGUNI",
       "translation_model": "gpt-6-luna"
     },
     {

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3, Scripture references in the parenthetical citation",
+      "severity": "critical",
+      "source_quote": "(See Job 1;11; 2:5; and 2:9).",
+      "suggested_fix": "In the existing parenthesis, change the citation to “(Tazama Ayubu 1:11; 2:5; na 2:9).” Preserve the reference count and order while rendering the first chapter-and-verse reference correctly.",
+      "translation_quote": "(Tazama Ayubu 1;11; 2:5; na 2:9)."
+    },
+    {
+      "location": "Paragraph quoting Hebrews 3:12–15",
+      "severity": "major",
+      "source_quote": "“For we are made partakers of Christ, if we hold the beginning of our confidence stedfast unto the end”",
+      "suggested_fix": "Replace “tumaini letu la kwanza” with “uhakika wetu wa awali” (or another faithful Kiswahili equivalent of “our confidence”), preserving the existing emphasis and surrounding tags.",
+      "translation_quote": "“tumekuwa washiriki wa Kristo, ikiwa tunalishikilia tumaini letu la kwanza kwa uthabiti mpaka mwisho”"
+    },
+    {
+      "location": "Paragraph quoting Hebrews 3:12–15",
+      "severity": "major",
+      "source_quote": "“Take heed, brethren, lest there be in any of you an evil heart of unbelief”",
+      "suggested_fix": "Revise the opening to convey the source’s warning not to let an evil, unbelieving heart be present in anyone—for example, “Angalieni, ndugu, asije akawa na yeyote miongoni mwenu moyo mbaya wa kutokuamini.” Preserve the existing <em> and <strong> structure.",
+      "translation_quote": "“Angalieni, ndugu zangu, usiwe ndani ya mmoja wenu moyo mbaya wa kutokuamini”"
+    },
+    {
+      "location": "Paragraph quoting Jude 1:24–25",
+      "severity": "major",
+      "source_quote": "“To the only wise God our Saviour”",
+      "suggested_fix": "Translate the omitted description “wise,” for example, revise this portion to “kwa Mungu wetu Mwokozi aliye pekee na mwenye hekima, kwa Yesu Kristo Bwana wetu,” while retaining the existing quotation tags and reference.",
+      "translation_quote": "“kwa Mungu wa pekee, Mwokozi wetu, kwa Yesu Kristo Bwana wetu”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

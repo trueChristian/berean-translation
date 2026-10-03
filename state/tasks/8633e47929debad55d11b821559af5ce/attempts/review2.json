@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Третья строфа стихотворения, строка 3\",\"severity\":\"major\",\"source_quote\":\"Those who yield are those who fall,\",\"suggested_fix\":\"Заменить строку на «Кто уступил, тот падает,» — без добавления образа забвения.\",\"translation_quote\":\"Кто уступил, тот падает в забвенье,\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 446,
+    "content_evidence_truncated": false,
+    "content_sha256": "14babaede26b3e608d0d077ab4e12e6c9e4a881b236d34ccf2379b0d0dfca18f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1976,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1973,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2594
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

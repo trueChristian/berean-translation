@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0439a611-e5d5-4986-b358-1f983ac32b43",
+    "response_id": "chatcmpl-EUsG8xOMCvWK2WbbRQNmriEx2vsnS",
+    "usage": {
+      "completion_tokens": 553,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 460,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2016,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2013,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2569
+    }
+  },
+  "received_at": "2026-10-03T11:35:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, second stanza, line 4",
+        "severity": "minor",
+        "source_quote": "Diminished hope, dejected will.",
+        "suggested_fix": "आशा क्षीण, इच्छाशक्ति डगमगाई।",
+        "translation_quote": "आशा क्षीण, इच्छाशक्ति निराश।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

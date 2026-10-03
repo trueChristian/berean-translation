@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article body, Matthew 24:4–14 quotation",
+      "severity": "major",
+      "source_quote": "the love of many shall wax cold",
+      "suggested_fix": "Replace «kjærligheten bli kald hos de fleste» with «kjærligheten hos mange skal bli kald».",
+      "translation_quote": "skal kjærligheten bli kald hos de fleste"
+    },
+    {
+      "location": "Article body, Hebrews 3:12–15 quotation",
+      "severity": "major",
+      "source_quote": "if we hold the beginning of our confidence stedfast unto the end",
+      "suggested_fix": "Replace «så sant vi helt til slutt holder fast ved den første, faste tilliten» with «så sant vi holder fast ved den tilliten vi hadde i begynnelsen, helt til enden».",
+      "translation_quote": "så sant vi helt til slutt holder fast ved den første, faste tilliten"
+    },
+    {
+      "location": "Final paragraph, Jude 1:24–25 quotation",
+      "severity": "major",
+      "source_quote": "with exceeding joy, To the only wise God our Saviour",
+      "suggested_fix": "Replace «jub­lende, den eneste Gud, vår frelser» with «med overstrømmende glede, den eneste vise Gud, vår frelser».",
+      "translation_quote": "jub­lende, den eneste Gud, vår frelser"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

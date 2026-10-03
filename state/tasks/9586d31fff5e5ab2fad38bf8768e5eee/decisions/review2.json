@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, third stanza, fifth line",
+      "severity": "major",
+      "source_quote": "Sowing flesh shall reap but gall...",
+      "suggested_fix": "جسمانی خواہشات کے لیے بیج بونے والا صرف تلخی ہی کاٹے گا...",
+      "translation_quote": "جسم کے لیے بونے والا صرف کڑوا پھل کاٹے گا..."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

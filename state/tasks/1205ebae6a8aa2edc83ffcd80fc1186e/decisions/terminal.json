@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, second stanza, line 4",
+      "severity": "minor",
+      "source_quote": "Diminished hope, dejected will.",
+      "suggested_fix": "आशा क्षीण, इच्छाशक्ति डगमगाई।",
+      "translation_quote": "आशा क्षीण, इच्छाशक्ति निराश।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

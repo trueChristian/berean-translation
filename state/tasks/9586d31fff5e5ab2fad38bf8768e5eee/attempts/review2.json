@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:35:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, third stanza, fifth line\",\"severity\":\"major\",\"source_quote\":\"Sowing flesh shall reap but gall...\",\"suggested_fix\":\"جسمانی خواہشات کے لیے بیج بونے والا صرف تلخی ہی کاٹے گا...\",\"translation_quote\":\"جسم کے لیے بونے والا صرف کڑوا پھل کاٹے گا...\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 391,
+    "content_evidence_truncated": false,
+    "content_sha256": "b671dc862a8702477fe1980e4103b9be9804bbb3834458a9dde851041c6702a2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 725,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2059,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2056,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2784
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

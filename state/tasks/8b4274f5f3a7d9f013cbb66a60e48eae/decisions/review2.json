@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, first stanza, second line",
+      "severity": "minor",
+      "source_quote": "Minute degrees observed as nil.",
+      "suggested_fix": "Tahap-tahap kecil dianggap tiada berarti.",
+      "translation_quote": "Tahap demi tahap, nyaris tak terlihat."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

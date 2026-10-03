@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1b0f2a83-ec6c-494b-bb3c-b0596d96a2e2",
+    "response_id": "chatcmpl-EUsElF0F8hzti4OiVjpXl7McvwOT3",
+    "usage": {
+      "completion_tokens": 725,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2059,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2056,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2784
+    }
+  },
+  "received_at": "2026-10-03T11:35:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, third stanza, fifth line",
+        "severity": "major",
+        "source_quote": "Sowing flesh shall reap but gall...",
+        "suggested_fix": "جسمانی خواہشات کے لیے بیج بونے والا صرف تلخی ہی کاٹے گا...",
+        "translation_quote": "جسم کے لیے بونے والا صرف کڑوا پھل کاٹے گا..."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Третья строфа стихотворения, строка 3",
+      "severity": "major",
+      "source_quote": "Those who yield are those who fall,",
+      "suggested_fix": "Заменить строку на «Кто уступил, тот падает,» — без добавления образа забвения.",
+      "translation_quote": "Кто уступил, тот падает в забвенье,"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}
