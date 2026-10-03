@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 11",
+      "severity": "major",
+      "source_quote": "The widow of Zarephath agreed to give her last handful of flour",
+      "suggested_fix": "החליפו את „אלמנת צרפת” ב„אלמנת צרפתה” (או „אלמנת צרפתא”), כדי לשמר את שמה המקראי Zarephath.",
+      "translation_quote": "אלמנת צרפת הסכימה לתת את חופן הקמח האחרון שלה"
+    },
+    {
+      "location": "Paragraph 11",
+      "severity": "major",
+      "source_quote": "God blessed her willing obedience",
+      "suggested_fix": "החליפו את „צייתנותה הנכונה והמרצון” ב„ציותה מרצון” או „נכונותה לציית”, בלי להוסיף את הטענה שהציות היה „נכון”.",
+      "translation_quote": "אלוהים בירך את צייתנותה הנכונה והמרצון"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

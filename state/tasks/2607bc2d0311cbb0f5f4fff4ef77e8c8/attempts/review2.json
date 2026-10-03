@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:41:00+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 11\",\"severity\":\"major\",\"source_quote\":\"The widow of Zarephath agreed to give her last handful of flour\",\"suggested_fix\":\"החליפו את „אלמנת צרפת” ב„אלמנת צרפתה” (או „אלמנת צרפתא”), כדי לשמר את שמה המקראי Zarephath.\",\"translation_quote\":\"אלמנת צרפת הסכימה לתת את חופן הקמח האחרון שלה\"},{\"location\":\"Paragraph 11\",\"severity\":\"major\",\"source_quote\":\"God blessed her willing obedience\",\"suggested_fix\":\"החליפו את „צייתנותה הנכונה והמרצון” ב„ציותה מרצון” או „נכונותה לציית”, בלי להוסיף את הטענה שהציות היה „נכון”.\",\"translation_quote\":\"אלוהים בירך את צייתנותה הנכונה והמרצון\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 872,
+    "content_evidence_truncated": false,
+    "content_sha256": "123c848a26979ffe067eb76353ffc76af44dd3666086596d542f20001f84e061",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 211,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5794,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5791,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6005
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

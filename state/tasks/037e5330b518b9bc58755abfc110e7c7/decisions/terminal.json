@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening Scripture quotation (1 Corinthians 13:8); also heading “d.)”",
+      "severity": "major",
+      "source_quote": "“Charity never faileth” / “It never faileth, because God is the source of it.”",
+      "suggested_fix": "Replace “प्रेम कभी टलता नहीं” with “प्रेम कभी असफल नहीं होता” in both places. The current wording says love is never delayed or avoided, rather than that it never fails.",
+      "translation_quote": "“प्रेम कभी टलता नहीं” / “वह कभी टलता नहीं, क्योंकि उसका स्रोत परमेश्वर है।”"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "“THE GODLY HOME”",
+      "suggested_fix": "Use a Hindi rendering that conveys a godly household/home, such as “परमेश्वर-भक्त घर-परिवार” or “भक्तिमय गृहस्थी,” rather than “धार्मिक परिवार.”",
+      "translation_quote": "“धार्मिक परिवार”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

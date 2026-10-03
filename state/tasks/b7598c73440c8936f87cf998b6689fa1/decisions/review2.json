@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Gideon paragraph",
+      "severity": "major",
+      "source_quote": "Normally, Gideon was accustomed to armies of thousands.",
+      "suggested_fix": "기드온은 보통 수천 명 규모의 군대를 거느리는 데 익숙했습니다.",
+      "translation_quote": "기드온은 보통 수천 명의 군대를 상대하는 데 익숙했습니다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

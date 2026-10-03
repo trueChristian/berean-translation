@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:41:00+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Gideon paragraph\",\"severity\":\"major\",\"source_quote\":\"Normally, Gideon was accustomed to armies of thousands.\",\"suggested_fix\":\"기드온은 보통 수천 명 규모의 군대를 거느리는 데 익숙했습니다.\",\"translation_quote\":\"기드온은 보통 수천 명의 군대를 상대하는 데 익숙했습니다.\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 373,
+    "content_evidence_truncated": false,
+    "content_sha256": "202e2429e4d184eac2aeed3cf80b75b5f774c4c376ecdc5321e44c7709866b86",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 612,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5870,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6485
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

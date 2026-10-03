@@ -7,9 +7,9 @@
     "version": 2
   },
   "counts": {
-    "active": 527,
+    "active": 523,
     "continuation_review_only_requires_attention": 13,
-    "eligible_available": 1043,
+    "eligible_available": 1046,
     "legacy_response_outcome_unknown_requires_owner_attention": 12
   },
   "derived": true,
@@ -783,17 +783,6 @@
       "remaining_cycles": 3,
       "required_cycle_ceiling_usd": 0.564029,
       "source_fingerprint": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a"
-    },
-    {
-      "accepted_cycles": 0,
-      "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
-      "has_publication": false,
-      "language": "afr",
-      "latest_task": "80a3d30e491489c211fdb8ad21686af9",
-      "processing_status": "in_batch",
-      "reason": "active",
-      "remaining_cycles": 3,
-      "source_fingerprint": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b"
     },
     {
       "accepted_cycles": 0,
@@ -7518,9 +7507,10 @@
       "has_publication": false,
       "language": "heb",
       "latest_task": "2607bc2d0311cbb0f5f4fff4ef77e8c8",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.568163,
       "source_fingerprint": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc"
     },
     {
@@ -9344,9 +9334,10 @@
       "has_publication": false,
       "language": "hin",
       "latest_task": "037e5330b518b9bc58755abfc110e7c7",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.640932,
       "source_fingerprint": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b"
     },
     {
@@ -11234,9 +11225,10 @@
       "has_publication": false,
       "language": "kor",
       "latest_task": "b7598c73440c8936f87cf998b6689fa1",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.567267,
       "source_fingerprint": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc"
     },
     {
