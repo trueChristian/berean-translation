@@ -10,7 +10,7 @@ Observed English revision: `20570f2edea229d472a3ab6f13b744e60b057a36`
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | `heartbeat-remnant-2024-summer` | 10 | 195 / 200 | 1 | 4 | 0 |
-| `heartbeat-remnant-2024-spring` | 11 | 131 / 220 | 1 | 88 | 0 |
+| `heartbeat-remnant-2024-spring` | 11 | 131 / 220 | 2 | 87 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 135 / 220 | 0 | 85 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 83 | 0 |
 | `heartbeat-remnant-2023-spring` | 10 | 90 / 200 | 0 | 110 | 0 |
@@ -112,7 +112,7 @@ Observed English revision: `20570f2edea229d472a3ab6f13b744e60b057a36`
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 62 / 1142 | 0 | 21 | 57 | 86 |
+| `cmn` (zh-Hans) | 62 / 1142 | 0 | 22 | 56 | 85 |
 | `hin` (hi) | 60 / 1142 | 0 | 24 | 56 | 99 |
 | `spa` (es) | 95 / 1142 | 0 | 23 | 22 | 67 |
 | `ara` (ar) | 58 / 1142 | 0 | 24 | 58 | 95 |
@@ -159,7 +159,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-summer` | `ell` | 10 / 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `swe` | 10 / 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `nob` | 10 / 10 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2024-spring` | `cmn` | 4 / 11 | 0 | 0 | 7 | 0 |
+| `heartbeat-remnant-2024-spring` | `cmn` | 4 / 11 | 0 | 1 | 6 | 0 |
 | `heartbeat-remnant-2024-spring` | `hin` | 6 / 11 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2024-spring` | `spa` | 6 / 11 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2024-spring` | `ara` | 5 / 11 | 0 | 1 | 5 | 0 |
@@ -404,10 +404,10 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.
 Hourly/shared-policy funding. Accepted lifetime recovery allocations: $2.000000 / $10.00. Allocations are not recycled after failure or cancellation.
-Separately authorized manual workflow allocations: $40.000000 across 4 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
+Separately authorized manual workflow allocations: $50.000000 across 5 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 476 | continuation_review_only_requires_attention: 11 | eligible_available: 915 | legacy_response_outcome_unknown_requires_owner_attention: 12 | lineage_predecessor_changed_requires_attention: 1
+active: 477 | continuation_review_only_requires_attention: 11 | eligible_available: 910 | legacy_response_outcome_unknown_requires_owner_attention: 12 | lineage_predecessor_changed_requires_attention: 5
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Campaigns
@@ -415,7 +415,7 @@ A finished original campaign remains historical; current publication readiness i
 | Request | Trigger | Operation | Processing state | Tasks | Outcomes | Reported usage (USD) | Reserved ceiling (USD) | Report |
 | --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |
 | `downstream-2026100311` | hourly recovery | repair | active | 1 | 1 active | 0.01388675 | 0.259971 / 1.00 | [state](state/campaigns/downstream-2026100311.json) |
-| `downstream-2026100316` | hourly recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 1.00 | [state](state/campaigns/downstream-2026100316.json) |
+| `downstream-2026100316` | hourly recovery | repair | active | 1 | 1 active | 0.00000000 | 0.000000 / 1.00 | [state](state/campaigns/downstream-2026100316.json) |
 | `gh-36549125967` | manual | translate | finished | 10 | 5 complete, 5 held | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
 | `gh-36908242193` | manual | translate | finished | 10 | 6 complete, 4 held | 0.06116328 | 0.321775 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
 | `gh-36908316701` | manual | translate | finished | 10 | 8 complete, 2 held | 0.06673089 | 0.352197 / 10.00 | [state](state/campaigns/gh-36908316701.json) |
@@ -455,6 +455,7 @@ A finished original campaign remains historical; current publication readiness i
 | `gh-37109120670` | manual recovery | repair | finished | 5 | 2 complete, 3 held | 0.00839031 | 0.069530 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
 | `gh-37109168265` | manual | translate | active | 42 | 37 complete, 4 held, 1 active | 1.43227950 | 8.625625 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
 | `gh-37119584204` | manual | translate | active | 240 | 240 active | 0.00000000 | 1.243113 / 10.00 | [state](state/campaigns/gh-37119584204.json) |
+| `gh-37137754122` | manual recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37137754122.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
