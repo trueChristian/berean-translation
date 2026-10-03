@@ -1,0 +1,126 @@
+{
+  "description": "Exact block text from already-public saved candidates; deterministic equivalence only, not semantic approval. Original HTML inline boundaries are joined without adding characters.",
+  "repository_commit": "d572a7cc319cc3bd07c19e60d89066cb77831914",
+  "cases": [
+    {
+      "id": "7c209f9527d176f1447ba807180c77c5-1",
+      "task_id": "7c209f9527d176f1447ba807180c77c5",
+      "language": "heb",
+      "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "block": "/article[1]/p[2]",
+      "source": "There is one problem; God hates pride! God actually despises the proud. In Psalms, it says that God will cut off …the tongue that speaketh proud things –Psalm 12:3. And in Job it says He will …behold every one that is proud, and abase [put down or make low] him –Job 40:11. Psalms 40:4 says He will not respect the proud and in Psalm 119: Thou hast rebuked the proud that are cursed, which do err from thy commandments –Psalm 119:21. In Proverbs, we read that: The LORD will destroy the house of the proud… –Proverbs 15:25, and that Every one that is proud in heart is an abomination to the LORD… –Proverbs 16:5. In Malachi, it says that …behold, the day cometh, that shall burn as an oven; and all the proud… –Malachi 4:1. Finally, James states that …God resisteth the proud, but giveth grace unto the humble –James 4:6.",
+      "candidate": "יש כאן בעיה אחת: אלוהים שונא גאווה! אלוהים ממש מתעב את הגאים. בספר תהילים נאמר שאלוהים יכרית …את הלשון המדברת גדולות — תהילים 12:3. ובספר איוב נאמר שהוא …יביט על כל גבה לב וישפיל אותו [יוריד אותו או ינמיך אותו] — איוב 40:11. תהילים 40:4 אומר שהוא לא יכבד את הגאים, ובתהילים 119 נאמר: גערת זדים ארורים, השוגים ממצוותיך — תהילים 119:21. בספר משלי אנו קוראים: יהוה יעקור את בית גאים… — משלי 15:25, וכן תועבת יהוה כל גבה לב… — משלי 16:5. במלאכי נאמר ש…הנה היום בא, בוער כתנור; וכל זדים… — מלאכי 4:1. לבסוף, יעקב אומר ש…אלוהים מתנגד לגאים, אך נותן חסד לענווים — יעקב 4:6.",
+      "expected_equal": true,
+      "provenance": [
+        {
+          "path": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
+          "sha256": "937b156ec24dfbd0ccc707fa7556bcdc6ab0b32f8e2992f8421bdbbc93ff8f64",
+          "git_blob": "d9305a190e6aa3554c250812574c09d418b9a409",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json"
+        },
+        {
+          "path": "state/tasks/7c209f9527d176f1447ba807180c77c5/candidate.json",
+          "sha256": "66891ff29665ea690cbbee6e890e9344d02a928a9e4e84d0779764ce50655ae5",
+          "git_blob": "d43d2cd696070eb096e44e0a9ee511269562c493",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/tasks/7c209f9527d176f1447ba807180c77c5/candidate.json"
+        }
+      ]
+    },
+    {
+      "id": "d78bea85237f1040712683f148dac97a-1",
+      "task_id": "d78bea85237f1040712683f148dac97a",
+      "language": "deu",
+      "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "block": "/article[1]/p[2]",
+      "source": "There is one problem; God hates pride! God actually despises the proud. In Psalms, it says that God will cut off …the tongue that speaketh proud things –Psalm 12:3. And in Job it says He will …behold every one that is proud, and abase [put down or make low] him –Job 40:11. Psalms 40:4 says He will not respect the proud and in Psalm 119: Thou hast rebuked the proud that are cursed, which do err from thy commandments –Psalm 119:21. In Proverbs, we read that: The LORD will destroy the house of the proud… –Proverbs 15:25, and that Every one that is proud in heart is an abomination to the LORD… –Proverbs 16:5. In Malachi, it says that …behold, the day cometh, that shall burn as an oven; and all the proud… –Malachi 4:1. Finally, James states that …God resisteth the proud, but giveth grace unto the humble –James 4:6.",
+      "candidate": "Es gibt ein Problem: Gott hasst Stolz! Gott verabscheut die Stolzen geradezu. In den Psalmen heißt es, dass Gott …die Zunge abschneiden wird, die stolze Dinge redet – Psalm 12:3. Und im Buch Hiob heißt es, er werde …jeden ansehen, der stolz ist, und ihn demütigen [niedrigen oder erniedrigen] – Hiob 40:11. In Psalm 40:4 heißt es, dass er die Stolzen nicht achtet, und in Psalm 119: Du hast die Stolzen zurechtgewiesen, die verflucht sind und von deinen Geboten abirren – Psalm 119:21. In den Sprüchen lesen wir: Der HERR wird das Haus der Stolzen zerstören … – Sprüche 15:25, und Jeder, der stolzen Herzens ist, ist dem HERRN ein Gräuel … – Sprüche 16:5. In Maleachi heißt es: …siehe, der Tag kommt, der wie ein Ofen brennen wird; und alle Stolzen … – Maleachi 4:1. Schließlich sagt Jakobus: …Gott widersteht den Stolzen, den Demütigen aber gibt er Gnade – Jakobus 4:6.",
+      "expected_equal": true,
+      "provenance": [
+        {
+          "path": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
+          "sha256": "937b156ec24dfbd0ccc707fa7556bcdc6ab0b32f8e2992f8421bdbbc93ff8f64",
+          "git_blob": "d9305a190e6aa3554c250812574c09d418b9a409",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json"
+        },
+        {
+          "path": "state/tasks/d78bea85237f1040712683f148dac97a/candidate.json",
+          "sha256": "eb80a076a345bdb266b23445f5259041f1379f818959d08342cea67246dc0017",
+          "git_blob": "e97de7cf89d653985dc458b4d98e6731fd464410",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/tasks/d78bea85237f1040712683f148dac97a/candidate.json"
+        }
+      ]
+    },
+    {
+      "id": "99935516cf59d50e16e48f53aa4646aa-1",
+      "task_id": "99935516cf59d50e16e48f53aa4646aa",
+      "language": "heb",
+      "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "block": "/article[1]/p[2]",
+      "source": "The marriage relationship was authored by God in the very beginning of time. God also offered to bless the marriage (Genesis 1:28) of the man and woman entering into it, if they desired to maintain its beauty and holiness. Since then, Satan has attempted, in every way possible, to corrupt and destroy the existence of Holy Matrimony. As early as Genesis 4:19, mankind was using polygamy to corrupt God's design of marriage. In Leviticus chapters 21 and 22, a plan, called a divorce, was put in place to legally dissolve the “first love”. This also included the option to remarry. When it was first developed as a practice, the call for divorce was initiated by man, not God, and was for the purpose of dissolving what was understood up until that time to be a lifelong commitment.",
+      "candidate": "קשר הנישואים נקבע בידי אלוהים בראשית הימים. אלוהים אף הציע לברך את הנישואים (בראשית 1:28) של האיש והאישה הנכנסים אליהם, אם ירצו לשמור על יופיים וקדושתם. מאז ניסה השטן בכל דרך אפשרית להשחית ולהרוס את קיומם של נישואים קדושים. כבר בבראשית 4:19 השתמשו בני האדם בפוליגמיה כדי להשחית את תכניתו של אלוהים לנישואים. בויקרא, פרקים 21 ו־22, נקבע הסדר, שנקרא גירושים, כדי לפרק כחוק את ״אהבתם הראשונה״. הסדר זה כלל גם את האפשרות להינשא מחדש. כשהמנהג הזה החל לראשונה, היוזמה לגירושים באה מן האדם, לא מאלוהים, ומטרתה הייתה לפרק את מה שנחשב עד אז למחויבות לכל החיים.",
+      "expected_equal": true,
+      "provenance": [
+        {
+          "path": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
+          "sha256": "221c941ea1d8240b299d5b50e2b49ecccb1c1153d9e8bf344d04fefdb076278b",
+          "git_blob": "fef84fcdd90d286cc852787002048ab1ae6b6266",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json"
+        },
+        {
+          "path": "state/tasks/99935516cf59d50e16e48f53aa4646aa/candidate.json",
+          "sha256": "f22177d7553ee26d0ca1775f75e88f0d341b01c1d8f9f7dea148ac2f37da443a",
+          "git_blob": "5c1c53e13af328363958b96be19af54bcdc2efc0",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/tasks/99935516cf59d50e16e48f53aa4646aa/candidate.json"
+        }
+      ]
+    },
+    {
+      "id": "99935516cf59d50e16e48f53aa4646aa-2",
+      "task_id": "99935516cf59d50e16e48f53aa4646aa",
+      "language": "heb",
+      "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "block": "/article[1]/ol[1]/li[4]/p[1]",
+      "source": "Matthew 19:3-12: V.4 In the beginning… Jesus, when asked by the Pharisees about this issue, takes them back to original intent of His Father when He chides them… And he answered and said unto them, Have ye not read, that he which made them at the beginning made them male and female –Matthew 19:4. He then goes on to remind them of the Scriptures teaching that …a man [shall] leave [his] father and mother, and shall cleave to his wife: and they twain shall be one flesh? Wherefore they are no more twain, but one flesh. What therefore God hath joined together, let not man put asunder –Matthew 19:5-6. Don't equate man’s authority (the civil court) with God’s authority when it comes to deciding what the facts are concerning marriage, divorce, and remarriage. We need to remember that it is God who has joined each marriage together in Heaven and has recorded them in the Book of Life.",
+      "candidate": "מתי 19:3–12: פס׳ 4: בראשית… כששאלו הפרושים את ישוע על העניין הזה, הוא מחזיר אותם אל כוונתו המקורית של אביו וגוער בהם… וַיַּעַן וַיֹּאמֶר אֲלֵיהֶם: הֲלֹא קְרָאתֶם כִּי הַבּוֹרֵא בָּרֵאשִׁית זָכָר וּנְקֵבָה בָּרָאָם –מתי 19:4. לאחר מכן הוא מזכיר להם את הכתוב המלמד כי …יַעֲזָב אִישׁ אֶת אָבִיו וְאֶת אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ, וְהָיוּ לְבָשָׂר אֶחָד. וּלְפִיכָךְ אֵינָם עוֹד שְׁנַיִם אֶלָּא בָּשָׂר אֶחָד. לָכֵן מַה שֶּׁחִבֵּר אֱלֹהִים, אַל יַפְרִיד הָאָדָם –מתי 19:5–6. אל תשוו את סמכות האדם (בית המשפט האזרחי) לסמכות אלוהים כשמדובר בקביעה מהן העובדות הנוגעות לנישואים, לגירושים ולנישואים מחדש. עלינו לזכור שאלוהים הוא שחיבר כל זוג בנישואים בשמים ורשם אותם בספר החיים.",
+      "expected_equal": true,
+      "provenance": [
+        {
+          "path": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
+          "sha256": "221c941ea1d8240b299d5b50e2b49ecccb1c1153d9e8bf344d04fefdb076278b",
+          "git_blob": "fef84fcdd90d286cc852787002048ab1ae6b6266",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json"
+        },
+        {
+          "path": "state/tasks/99935516cf59d50e16e48f53aa4646aa/candidate.json",
+          "sha256": "f22177d7553ee26d0ca1775f75e88f0d341b01c1d8f9f7dea148ac2f37da443a",
+          "git_blob": "5c1c53e13af328363958b96be19af54bcdc2efc0",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/tasks/99935516cf59d50e16e48f53aa4646aa/candidate.json"
+        }
+      ]
+    },
+    {
+      "id": "99935516cf59d50e16e48f53aa4646aa-3",
+      "task_id": "99935516cf59d50e16e48f53aa4646aa",
+      "language": "heb",
+      "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "block": "/article[1]/ul[2]/li[1]/p[1]",
+      "source": "Defraud [deprive, keep back] ye not one the other, except it be with consent for a time, that ye may give yourselves to fasting and prayer; and come together again, that Satan tempt you not for your incontinency [lack of self-restraint] –1 Corinthians 7:5. So, restraining the marriage relationship for a time with voluntary consent from both husband and wife when there is a need for seeking God’s favor or guidance on a matter of great importance, may in some circumstances find God’s blessing. However, this should only be engaged in with a clear understanding and commitment by both spouses involved, about when and how to come together again, lest Satan tempt you. This exception has three clear qualifiers… 1) with consent, 2) for a time, & 3) for the purpose of giving yourselves to prayer and fasting.",
+      "candidate": "אַל תִּמְנְעוּ זֶה מִזֶּה, אֶלָּא אִם כֵּן בְּהַסְכָּמָה לִזְמַן מְה, כְּדֵי לְהִתְפַּנּוֹת לְצוֹם וּלְתְפִלָּה, וְאַחַר כָּךְ שׁוּבוּ וְהִתְאַחֲדוּ, פֶּן יְנַסֶּה אֶתְכֶם הַשָּׂטָן בְּגִין חֹסֶר שְׁלִיטָה עַצְמִיתְכֶם –הראשונה אל הקורינתים 7:5. לכן, הימנעות זמנית מיחסי הנישואים בהסכמה מרצון של הבעל והאישה, כאשר יש צורך לבקש את חסדו או את הדרכתו של אלוהים בעניין חשוב ביותר, עשויה בנסיבות מסוימות לזכות בברכת אלוהים. עם זאת, יש לעשות זאת רק כאשר שני בני הזוג מבינים בבירור ומתחייבים מתי וכיצד ישובו להתאחד, פן ינסה אתכם השטן. לחריג הזה יש שלושה תנאים ברורים… 1) בהסכמה, 2) לזמן מה, ו־3) למטרה של התמסרות לתפילה ולצום.",
+      "expected_equal": true,
+      "provenance": [
+        {
+          "path": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
+          "sha256": "221c941ea1d8240b299d5b50e2b49ecccb1c1153d9e8bf344d04fefdb076278b",
+          "git_blob": "fef84fcdd90d286cc852787002048ab1ae6b6266",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json"
+        },
+        {
+          "path": "state/tasks/99935516cf59d50e16e48f53aa4646aa/candidate.json",
+          "sha256": "f22177d7553ee26d0ca1775f75e88f0d341b01c1d8f9f7dea148ac2f37da443a",
+          "git_blob": "5c1c53e13af328363958b96be19af54bcdc2efc0",
+          "url": "https://github.com/trueChristian/berean-translation/blob/d572a7cc319cc3bd07c19e60d89066cb77831914/state/tasks/99935516cf59d50e16e48f53aa4646aa/candidate.json"
+        }
+      ]
+    }
+  ]
+}

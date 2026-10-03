@@ -55,6 +55,7 @@ _HEBREW_BOOKS = {
     'א׳ קורינתיים': '1 Corinthians', 'א׳ טימותאוס': '1 Timothy',
     'ב׳ טימותאוס': '2 Timothy', '2 טימותיוס': '2 Timothy',
     '1 קורינתים': '1 Corinthians',
+    'הראשונה אל הקורינתים': '1 Corinthians',
     '1 יוחנן': '1 John', '2 יוחנן': '2 John', '3 יוחנן': '3 John',
     'א׳ יוחנן': '1 John', 'ב׳ יוחנן': '2 John', 'ג׳ יוחנן': '3 John',
 }
@@ -163,13 +164,14 @@ def _book_pattern(language: str, target_language: str | None = None) -> tuple[re
     elif language == 'heb':
         aliases.update(_HEBREW_BOOKS)
     # Longest first avoids treating "1 John" as "John" and ordinal suffixes
-    # as chapters. Only the Hebrew conjunction vav can be attached to a book.
+    # as chapters. Recognize only the observed attached conjunction vav and
+    # preposition bet ("in"), optionally combined, not arbitrary word prefixes.
     groups, identities = [], {}
     for index, alias in enumerate(sorted(aliases, key=len, reverse=True)):
         group = f'b{index}'
         groups.append(f'(?P<{group}>{_alias_pattern(alias)})')
         identities[group] = aliases[alias]
-    prefix = '(?:ו)?' if language == 'heb' else ''
+    prefix = '(?:ו?ב|ו)?' if language == 'heb' else ''
     return re.compile(r'(?<!\w)' + prefix + '(?:' + '|'.join(groups) +
                       r')(?![^\W\d_])', re.I), identities
 
@@ -208,6 +210,8 @@ def _unsupported_numeric_tail(text: str, end: int, language: str) -> int | None:
     if position == start:
         return None
     connectors = text[start:position]
+    if connectors == ':' and _verse_annotation(text, start, language):
+        return None
     endpoint_start = _space(text, position)
     # A full stop plus whitespace belongs to ordinary sentence punctuation.
     if unicodedata.normalize('NFKC', connectors) == '.' and (
@@ -266,7 +270,8 @@ def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | 
         if next_pos < len(text) and text[next_pos] == ':':
             after_colon = _space(text, next_pos + 1)
             following = _atom(text, after_colon, language)
-            if following and _numeric_looking(following.group()):
+            if (following and _numeric_looking(following.group())
+                    and not _verse_annotation(text, next_pos, language)):
                 invalid = True
                 end = following.end()
                 next_pos = _space(text, end)
@@ -310,8 +315,55 @@ def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | 
                          for left, right in merged)
 
 
+def _plain_prose(tail: str) -> bool:
+    """Require two plain words, excluding numeric and ambiguous numeral tails."""
+    if tail[:1] in ('"', '“', '„', '«', '‘', '「', '『'):
+        tail = tail[1:].lstrip()
+    words = re.match(r'([^\W\d_]{2,})(?:\s+|[.!?…]+\s+)'
+                     r'([^\W\d_]{2,})(?=\W|$)', tail)
+    if not words:
+        return False
+    first = words[1]
+    if re.fullmatch('[IVXLCDM]+', first, re.I):
+        return False  # Unsupported Roman-numeral verses are not prose.
+    if all(c in _HEBREW_VALUES for c in first):
+        values = [_HEBREW_VALUES[c] for c in first]
+        if all(left >= right for left, right in zip(values, values[1:])):
+            # Descending additive letters might be an unmarked numeral,
+            # including malformed or oversized values. Do not reinterpret
+            # them as prose or construct an unbounded numeric spelling.
+            return False
+    return True
+
+
+def _prose_after_colon(text: str, colon: int) -> bool:
+    return (text[colon:colon + 1] == ':'
+            and text[colon + 1:colon + 2].isspace()
+            and _plain_prose(text[colon + 1:].lstrip()))
+
+
+def _verse_annotation(text: str, colon: int, language: str) -> tuple[int, int] | None:
+    """One explicit verse label after a complete citation, never recursion.
+
+    Return the prefix end and verse number. The caller separately protects that
+    number and must qualify the label with its preceding known-book citation.
+    """
+    if text[colon:colon + 1] != ':' or not text[colon + 1:colon + 2].isspace():
+        return None
+    start = _space(text, colon + 1)
+    if language == 'heb':
+        label = re.match(r"פס[׳'’‘]\s+([1-9][0-9]{0,2})(:)", text[start:])
+        if label and _prose_after_colon(text, start + label.start(2)):
+            return _space(text, start + label.end()), int(label[1])
+    elif language == 'eng':
+        label = re.match(r'V\.\s*([1-9][0-9]{0,2})\s+', text[start:])
+        if label and _plain_prose(text[start + label.end():]):
+            return start + label.end(), int(label[1])
+    return None
+
+
 def _parse_at(text: str, start: int, language: str, book: str | None = None,
-              *, comma: bool = False) -> tuple[int, str] | None:
+              *, comma: bool = False) -> tuple[int, str | None] | None:
     chapter = _atom(text, start, language)
     if chapter is None:
         return None
@@ -322,6 +374,10 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
     ambiguous_book = False
     if after < len(text) and (text[after] == ':' or (comma and text[after] == ',')):
         verse_start = _space(text, after + 1)
+        if book and chapter_value is not None and _prose_after_colon(text, after):
+            # Record only the introductory prefix as consumed. In particular,
+            # a later real citation in the quoted prose must still be parsed.
+            return verse_start, None
     elif (language == 'heb' and book and after > chapter.end()
           and any(c in chapter.group() for c in '׳״\'"‘’“”')):
         # A small John numeral without a colon may be an epistle ordinal.
@@ -381,6 +437,7 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
     """
     normalized = _decimal_digits(text)
     mentions = []
+    introductions = []
     book_pattern, identities = _book_pattern(language, target_language)
     for match in book_pattern.finditer(normalized):
         if _PRECEDING_ORDINAL.search(normalized[:match.start()]):
@@ -389,10 +446,21 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
                            identities[match.lastgroup], comma=language == 'deu')
         if parsed:
             end, key = parsed
-            mentions.append((match.start(), end, key))
+            if key is None:
+                introductions.append((match.start(), end))
+            else:
+                mentions.append((match.start(), end, key))
+                if not key.startswith('!invalid') and (language == 'heb' or
+                        (language == 'eng' and target_language == 'heb')):
+                    annotation = _verse_annotation(normalized, _space(normalized, end), language)
+                    if annotation:
+                        annotation_end, verse = annotation
+                        mentions.append((end, annotation_end, f'{key} verse-label {verse}'))
+                        introductions.append((match.start(), annotation_end))
 
     def covered(start, end):
-        return any(left <= start and end <= right for left, right, _ in mentions)
+        return (any(left <= start and end <= right for left, right, _ in mentions)
+                or any(left <= start and end <= right for left, right in introductions))
 
     if language == 'deu':
         # Only full parentheses qualify a bookless comma expression. Source
@@ -408,7 +476,7 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
             parsed = _parse_at(normalized, start, language, comma=True)
             if parsed:
                 end, key = parsed
-                if _space(normalized, end) == parenthesis.end() - 1 and not covered(start, end):
+                if key is not None and _space(normalized, end) == parenthesis.end() - 1 and not covered(start, end):
                     mentions.append((start, end, key))
     # Unknown or bare decimal colon forms remain protected, as before.
     for match in _BARE_COLON.finditer(normalized):
@@ -417,7 +485,8 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
         parsed = _parse_at(normalized, match.start(), language)
         if parsed:
             end, key = parsed
-            mentions.append((match.start(), end, key))
+            if key is not None:
+                mentions.append((match.start(), end, key))
     if language == 'heb':
         for match in _HEBREW_COLON.finditer(normalized):
             if covered(match.start(), match.end()) or not _numeric_looking(match[1]):
@@ -425,5 +494,6 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
             parsed = _parse_at(normalized, match.start(), language)
             if parsed:
                 end, key = parsed
-                mentions.append((match.start(), end, key))
+                if key is not None:
+                    mentions.append((match.start(), end, key))
     return sorted(mentions)

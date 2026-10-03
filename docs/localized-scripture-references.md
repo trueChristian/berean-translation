@@ -28,6 +28,19 @@ languages retain the existing decimal-colon and source-backed clock handling.
   entries without flattening all references into an article-wide verse set
 - Treat `Matthew 1:18, 19` and `Matthäus 1,18–19` as the same cited verses.
   `Matthew 1:18` is different, and `1:18,20` does not cover verse 19
+- Distinguish a known-book chapter introduction followed by clearly nonnumeric
+  prose (`Psalm 119: Thou hast ...`) from a dangling chapter/verse citation.
+  This creates no chapter-only citation key; the subsequent `Psalm 119:21`
+  remains separately protected. Numeric, ambiguous numeral and dangling tails
+  remain invalid, and unqualified bare-colon prose is not exempted
+- Recognize the observed attached Hebrew `ב` ("in"), optionally preceded by `ו`,
+  before a mapped book, and the complete `הראשונה אל הקורינתים` alias for
+  1 Corinthians. Arbitrary word prefixes and conflicting ordinals stay blocked
+- Recognize one explicit verse label directly after a complete known-book
+  citation: English `Matthew 19:3-12: V.4 In ...` and Hebrew
+  `מתי 19:3–12: פס׳ 4: בראשית… כששאלו ...`. In Hebrew-paired text, the label
+  number is protected separately and tied to that citation; changing or omitting
+  it fails. Nested, malformed or unqualified labels do not get this recognition
 
 Malformed or unsupported notation must not conceal a source reference. Known
 book swaps, changed chapters, added/missing verses, duplicate occurrences and
@@ -61,6 +74,13 @@ repository validation, projection and export. There is no special export bypass.
 from already-public source/candidate records at pinned commit
 `e806e88960cd4e28437986027fbfe91edbe1d95f`, with artifact paths, SHA-256s and Git
 blob identities. Synthetic counterexamples are explicitly labeled.
+
+`tests/fixtures/reference_introduction_cases.json` adds five complete text blocks
+from three public held candidates at `d572a7cc319cc3bd07c19e60d89066cb77831914`,
+with immutable paths, hashes and source links. These reproduce the October 3
+audit's chapter-introduction, attached-preposition, explicit verse-label and
+full-epistle-name false holds. All three saved candidates pass the corrected
+deterministic gates; this does not supply their still-required semantic review.
 
 Tests cover notation, invalid forms, book and verse changes, clocks, multiplicity,
 language scoping, HTML placement and immutable terminal holds. Mocked lifecycle
