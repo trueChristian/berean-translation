@@ -109,8 +109,15 @@ def build_request(config, state, task):
             payload['rejection_reason'] = task.get('rejection_reason')
     output_limit = campaign['review_output_tokens'] if review else campaign['max_output_tokens']
     output_limit = min(output_limit,model['max_output_tokens'])
+    prompt_name = 'review' if review else 'translation'
+    if (task['stage'] == 'correct' and task.get('downstream_recovery')
+            and 'repair' in campaign['prompts']):
+        # Old campaigns keep their frozen request bytes and reservation bounds.
+        # New downstream repairs audit the whole candidate; ordinary corrections
+        # and candidate-less fresh translations keep their existing prompts.
+        prompt_name = 'repair'
     body = {'model':model['api_model'],
-            'messages':[{'role':'system','content':campaign['prompts']['review' if review else 'translation']},
+            'messages':[{'role':'system','content':campaign['prompts'][prompt_name]},
                         {'role':'user','content':canonical(payload).decode('utf-8')}],
             'max_completion_tokens':output_limit,
             'response_format':{'type':'json_schema','json_schema':{'name':'article_review' if review else 'article_translation',

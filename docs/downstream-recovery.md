@@ -10,8 +10,8 @@ and terminal tasks remain unchanged.
 pairs, a campaign USD envelope and a free preview (the default). The collector
 selects the exact latest held pairs and freezes their predecessor task, candidate,
 source and record hashes. Both roles default to `gpt-6.1-sol`; `gpt-6-astra` and
-existing registered models are selectable. Actual project model access and
-translation quality have **not** been verified by paid calls.
+existing registered models are selectable. User-launched campaigns have confirmed
+Luna and Sol API access; a selected model does not guarantee translation quality.
 
 Once its separate standing policy is enabled, the existing serialized collector queues at most one recovery batch
 per UTC hour. GitHub schedules are best effort; this is not an on-the-hour SLA.
@@ -25,6 +25,53 @@ findings. The reviewer sees English and the resulting translation, without prior
 findings or repair claims. Attempt ordinals remain outside model input. Faithful
 translation, target-language quotations, the author's theology, all structural
 contracts and the 95/no-major-or-critical gate remain mandatory.
+
+### Complete repair coverage
+
+Newly accepted downstream campaigns freeze a dedicated repair system prompt:
+the ordinary translation fidelity/HTML contract plus `prompts/repair.txt`.
+Its instructions require a complete comparison of the candidate and metadata
+against the English, including passages without a previous finding. Findings
+and rejection reasons are non-exhaustive evidence to substantiate, not a claim
+that the remaining text is correct. The repair should correct every substantive
+source-backed defect while preserving faithful wording and avoiding stylistic
+rewrites, doctrinal reinterpretation or unsupported reviewer suggestions. A
+final comparison includes unchanged passages before returning the complete JSON.
+
+This addresses the coverage problem observed in the owner's
+[Sol repair run of October 3, 2026](https://github.com/trueChristian/berean-translation/actions/runs/37109005676).
+All five responses were structurally valid and fixed listed problems, but final
+review scores were 65–76 and each still contained at least one pre-existing
+meaning defect outside the supplied correction instructions:
+
+| Article | Printed English | Surviving candidate error |
+| --- | --- | --- |
+| Mennonites | land patent | `boupermit` (building permit) |
+| Road to Emmaus | breaking of the day | `krag van die dag` (power of the day) |
+| A Call to Holiness | white linen garment | `wit serwelingsaatklere` (garbled wording) |
+| The Sanctified Home | thine they were | `U was van hulle` (reversed belonging) |
+| The Foolishness of Preaching | followers | `nageslag` (offspring) |
+
+The immutable [campaign and task links](https://github.com/trueChristian/berean-translation/blob/9fec314dfc71daaea23b212398585ade99e05958/state/campaigns/gh-37109005676.json)
+retain original candidates, corrected candidates and final findings. The full
+English and correct candidate were present in the submitted requests; this was
+not a missing-context, stale-input or truncated-response failure. Some reviewer
+suggestions were themselves imperfect, so instructions still require source
+substantiation instead of blindly applying every proposed wording change.
+
+Only a new downstream `correct` request uses the dedicated frozen prompt.
+Ordinary corrections, candidate-less fresh translation and independent reviews
+retain their existing prompts. Historical campaigns without the new prompt key
+reproduce their original request bytes and reservation bounds. The new prompt
+bytes are included in the existing conservative reservation, with no increase
+to the approved envelope or attempt limits. The independent reviewer still sees
+only the full English and corrected candidate, without prior findings or repair
+claims. Existing holds are unchanged and are not made eligible for another
+downstream attempt by this prompt update.
+
+Offline tests verify request scope, freezing, bounds and review isolation. They
+do not establish a quality or acceptance-rate improvement; that requires a
+separately authorized observed run on eligible work.
 
 A newly recorded non-policy failure with no usable candidate can take a bounded
 fresh-translation → independent-review path. It gets no extra correction loop.
