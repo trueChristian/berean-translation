@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "30a999e19a464653999b7b81e43ac0fc",
   "campaign": "gh-37109037884",
   "created_at": "2026-10-03T08:17:02+00:00",
   "downstream_candidate_sha256": "90730b7027d5413542461f1faa08ca265c6c59074156cf68f37edb1e4876db7f",
@@ -10,7 +9,29 @@
   "downstream_previous_sha256": "d5cf3c9ba27f9de40d78cbb981c78077360e02a09955b1a69df0b5199d65a993",
   "downstream_previous_task": "3c25f5895eacf3d0b2c36d97808e1116",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4273,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 110,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8428,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8425,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12701
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -112,9 +133,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
-  "stage": "correct",
-  "status": "in_batch",
+  "stage": "review2",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6-luna"
 }

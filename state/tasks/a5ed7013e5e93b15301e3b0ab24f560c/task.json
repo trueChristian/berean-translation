@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "30a999e19a464653999b7b81e43ac0fc",
   "campaign": "gh-37109037884",
   "created_at": "2026-10-03T08:17:02+00:00",
   "downstream_candidate_sha256": "91f65f5c40756df3c3a0957f7016b0422fa3f657c1cb27016fd4a0abe86ff7bd",
@@ -10,7 +9,29 @@
   "downstream_previous_sha256": "8c497092af8c9cd0fd597742cc92dc8aa71d8bddb4f868226ae779deab3659e9",
   "downstream_previous_task": "783cfbf45c0e4be12478152fadbd258e",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4625,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 105,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9311,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9308,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13936
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "Paragraph containing Mark 14:27 (third paragraph)",
@@ -126,9 +147,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
-  "stage": "correct",
-  "status": "in_batch",
+  "stage": "review2",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6-luna"
 }
