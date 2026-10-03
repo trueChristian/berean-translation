@@ -1,0 +1,75 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Adrianna H. Fanton"
+        }
+      ],
+      "raw": "–By Adrianna H. Fanton"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "71acc7cf-0c85-4e46-9a50-7afaeca6c9ac",
+    "images": [
+      {
+        "alt": "Misty grass and water with deer, left half of a two-page photograph",
+        "caption": null,
+        "credit": "Unsplash.com",
+        "public_path": "/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg",
+        "repository_path": "public/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg",
+        "rights_note": "The page-2 masthead credits Unsplash.com for printed page 34; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "poem background spread, left half",
+        "sequence": 1,
+        "source_page": 34
+      },
+      {
+        "alt": "Deer beside a large tree and still water in mist, right half of a two-page photograph",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg",
+        "repository_path": "public/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg",
+        "rights_note": "No separate page-35 credit is printed; this is the complementary right half of the misty scene credited to Unsplash.com on printed page 34. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "poem background spread, right half",
+        "sequence": 2,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 34
+    },
+    "subtitle": null,
+    "title": "Not My Will",
+    "topics": [
+      "be523b84-148a-5633-9947-03c7c310d50a",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357",
+      "f763c5ea-8687-5101-974e-3d016826bf73"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9d2ef2163ededa12c305d92ddb8a3d5dae074662cf1b1646149c2fef31d3ee46",
+    "metadata_sha256": "4758e16a5bd74be9b9e3d64162d2f626877264e110bd0d615ab33d276a4c59f0",
+    "structure_sha256": "c3259312be04392628cff54b32c35f96adaa67aae43f7adb9230cb28ede72ae1",
+    "text_sha256": "69b8b4f0c34260532b645347be8c2e45decda753f0b4548b3d819320defe7467",
+    "translation_metadata_sha256": "64cd8fa9663c21ed37515d0daceba12811c425cdd0a30a978c664cc029d6f601"
+  },
+  "html": "<article data-article-id=\"71acc7cf-0c85-4e46-9a50-7afaeca6c9ac\">\n  <figure>\n    <img src=\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg\" alt=\"Misty grass and water with deer, left half of a two-page photograph\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Lord, this pain seems unbearable.<br>\n    Things once loved now must die.<br>\n    So many hearts are bleeding.<br>\n    No one has kept a dry eye.</p>\n\n    <p>We’ve wept and writhed and prayed<br>\n    Asking, Lord, this cup to avoid.<br>\n    We tried what we thought might change it,<br>\n    But all attempts seemed to return to us void.</p>\n\n    <p>Father, we’ve cried out for mercy,<br>\n    All would have escaped this pain.<br>\n    But Lord, You bade us go through it;<br>\n    Your hand in it all You’ve made plain.</p>\n\n    <p>Our minds seem to spin as we ponder,<br>\n    Just exactly what You’re trying to do.<br>\n    Yet we know that no matter our feelings,<br>\n    There’s a reason we this storm must go through.</p>\n\n    <p>So Father, we bow at Your feet now,<br>\n    Acknowledging Your omnipotent might.<br>\n    We cannot discern all the details,<br>\n    But we trust in the end, all will be right.</p>\n\n    <p>Help us, Father, to be broken,<br>\n    Releasing our all up to You.<br>\n    Our rights, dreams, ambitions, and possessions,<br>\n    Making everything open to Your view.</p>\n\n    <p>Grow in us, Lord, a humility,<br>\n    Quiet, yet deep and true.<br>\n    It’s a jewel that nothing but trials can teach.<br>\n    Lord, through this, make us more like You!</p>\n\n    <p>May our eyes be set on You, Father,<br>\n    Not on this o’erwhelming gale.<br>\n    For You have gone through these deep waters,<br>\n    Nothing but what You plan will prevail.</p>\n\n    <p>Obedient even unto death, Lord,<br>\n    No matter how high the cost may seem.<br>\n    Give us a vision of the heavenly treasure,<br>\n    For which no earthly price can exceed.</p>\n  </div>\n\n  <p><em>–By Adrianna H. Fanton</em></p>\n\n  <figure>\n    <img src=\"/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg\" alt=\"Deer beside a large tree and still water in mist, right half of a two-page photograph\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+  "translation_key": "3428e3dfe0b88050c4877e32e99eb4787e5c47d0cb144007ca16b538f3713f93"
+}

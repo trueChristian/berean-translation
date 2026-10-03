@@ -1,0 +1,14 @@
+{
+  "article_id": "73def952-dd77-4a51-b030-27713e0cedd2",
+  "history": [
+    {
+      "at": "2026-10-03T08:09:56+00:00",
+      "campaign": "gh-37108628649",
+      "event": "requested",
+      "task": "dcc1d41b3221cdbf97355fd115c1706a"
+    }
+  ],
+  "language": "swe",
+  "latest_task": "dcc1d41b3221cdbf97355fd115c1706a",
+  "published": null
+}
