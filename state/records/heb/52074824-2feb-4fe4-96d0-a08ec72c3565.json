@@ -12,10 +12,16 @@
       "event": "complete",
       "reason": null,
       "task": "f7d8e5b13cd26dd4ca620a18bf3b3a06"
+    },
+    {
+      "at": "2026-10-03T16:59:30+00:00",
+      "campaign": "gh-37138123265",
+      "event": "requested",
+      "task": "aa247e7a22c5841c1933c1b61c1b2a47"
     }
   ],
   "language": "heb",
-  "latest_task": "f7d8e5b13cd26dd4ca620a18bf3b3a06",
+  "latest_task": "aa247e7a22c5841c1933c1b61c1b2a47",
   "published": {
     "html_path": "content/heb/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
     "html_sha256": "6f8da92ca86b6edaf607f783f1b524b8ff5a0ee805fef17f8ceb8536f51e0f48",

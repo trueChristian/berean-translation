@@ -1,0 +1,86 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Shreve, OH",
+          "name": "Lydia M. Bauman"
+        }
+      ],
+      "raw": "Lydia M. Bauman\nShreve, OH"
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839",
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "97d8ed1e-7d4a-471d-8508-727664288d74",
+    "images": [
+      {
+        "alt": "A young girl beside a large dog near a metal pasture gate",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-1.png",
+        "repository_path": "public/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-1.png",
+        "rights_note": "The page-2 masthead explicitly excepts printed pages 18 and 19 from its Unsplash.com credit, and no alternate source, permission notice, or license terms are printed. The embedded inverted-Adobe CMYK photograph was sample-inverted, converted to sRGB, horizontally flipped to match the PDF placement, clipped to the published elliptical crop, and palette-normalized as a transparent PNG at unchanged dimensions for repository transport; rely on the publisher permission reported by the project owner.",
+        "role": "article header photograph",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "Sheet music for “Pride goeth before destruction, and an haughty spirit before a fall.”",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-2.png",
+        "repository_path": "public/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-2.png",
+        "rights_note": "No separate source, permission notice, or license terms are printed for the sheet music on printed page 19. The clean embedded sRGB PNG was copied without changing its dimensions, crop, orientation, or musical notation; rely on the publisher permission reported by the project owner.",
+        "role": "sheet music",
+        "sequence": 2,
+        "source_page": 19
+      },
+      {
+        "alt": "Two young girls with horses in a grassy pasture",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-3.jpg",
+        "repository_path": "public/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-3.jpg",
+        "rights_note": "The page-2 masthead explicitly excepts printed pages 18 and 19 from its Unsplash.com credit, and no alternate source, permission notice, or license terms are printed. The embedded inverted-Adobe CMYK JPEG was sample-inverted, converted to sRGB, and re-encoded at web quality without changing its published dimensions, crop, or orientation; rely on the publisher permission reported by the project owner.",
+        "role": "closing photograph",
+        "sequence": 3,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "CHILDREN'S CORNER",
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": "A True Story",
+    "title": "Little Ramona’s Pride",
+    "topics": [
+      "ccdcfb82-dfbd-5f30-b4e5-e4b2e94a3081",
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae",
+      "1404e2c2-852e-5d57-a2ac-dc54d2d91357"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "1e421309a1453ef5ac9a061a94fd0f1ce4383b295b60c8e888bcdc161bc0f764",
+    "metadata_sha256": "b0cdff3abcf43d9385d72286a48a67db82323240f62c592bb17f96b5299385ea",
+    "structure_sha256": "4419c4dba58031ef784eebdd00d09f1b4350ac5c15a0ef89ea372b8d82f2b94b",
+    "text_sha256": "1416b554517fc5c13b5a544d1afc1033d12aabe4146a4649949fd67120076409",
+    "translation_metadata_sha256": "b5d286024476b202302f82664269a8291005a7df46e85886c6837cd6059e8438"
+  },
+  "html": "<article data-article-id=\"97d8ed1e-7d4a-471d-8508-727664288d74\">\n  <figure>\n    <img src=\"/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-1.png\" alt=\"A young girl beside a large dog near a metal pasture gate\">\n  </figure>\n\n  <p class=\"drop-cap\">Ramona<sup>*</sup> was a little girl who was very busy and active. Like other four-year-old’s, there were a lot of things Ramona could do. She could ride a bike, climb a tree, wash dishes, write her name, and ride her pony all by herself. One of Ramona’s favorite things to do was to ride horses. Her family had two horses and a pony. How fun those evenings were when they would hitch their pony, Tony, to the cart, and the whole family would take turns riding. Or when Ramona and three of her sisters would pack onto Tony’s back and go for a ride.</p>\n  <p>There were lots of things Ramona could do, but sometimes she thought she could do more than she really could. And sometimes she thought she was bigger than she really was.</p>\n  <p>One beautiful Summer evening, some guests came to Ramona’s house. When guests came, that usually meant a fun time.</p>\n  <p>On this particular evening, after supper, Ramona’s older siblings were riding horses with the guests. It looked like so much fun as they trotted around the pond and through the lawn. Ramona wanted to ride too, but she had to wait her turn. While she waited, she played on the lawn with Clifford, the dog. She soon tired of that and went for a spin on her bike. Then an idea popped into her mind. She ran off to the pasture entrance and climbed up the gate. She liked to pretend she was a monkey, swinging on the bars and climbing up and down. Then she tried balancing on a bar and taking her hands off the gate. Her siblings and their guests were riding nearby. Ramona threw her arms into the air, and while balancing on the gate, yelled to the riders, “Look at me! Look at me!” She felt very big to be balancing on the gate. Suddenly, her foot slipped and, down she went, into the dust. She blinked with surprise and quickly jumped up, brushing off her dress. She looked around, embarrassed, but no one seemed to notice. She climbed back up the side of the gate and began playing again. Ramona grew impatient, waiting for her ride. No one seemed to remember that she wanted to ride the horses. She thought it would be fun to see how high she could balance on the gate, so she climbed as high as she dared. She wanted others to see how brave she was, so waving her arms, she shouted, “Hey everyone! Look at me!” But again, her foot slipped off the gate. This time, however, she narrowly escaped falling to the ground. Ramona’s dad saw her and walked over to her. “Ramona,” he said, “I want you to stay off the gate.”</p>\n  <p>Ramona got down and tried to find something else to do. After playing for a while, her father’s command to stay off the gate seemed to slip from her mind, and she started climbing on the gate again. Then Ramona’s older sister, Elise, walked over, and quietly told her, “Ramona, you shouldn’t be showing off to our guests.” Ramona didn’t like that advice. Into one ear and out the other it went. She assured herself that she wasn’t showing off! She was just… well, just playing.</p>\n  <p>She climbed up just as high as she could, and once again, she waved her arms in the air, crying, “Look at me, everyone!” Suddenly, before she knew what was happening, she had landed on the ground with a thud and began to cry at the top of her lungs. Sure, she felt some pain, but mostly she was shocked and ashamed.</p>\n  <p>Ramona’s father came over to her and picked her up, making sure she wasn’t badly hurt, and carried her to the house. It was yet light outside, and still early in the evening, but he took her upstairs to her bed.</p>\n  <p>Before putting her to bed, he talked with her. Ramona was still crying, and Papa attempted to dry her tears. “Ramona, listen, can you be quiet for a bit? Why do you think you fell?” She sniffled and shrugged her shoulders. Papa continued, “If you would have obeyed me, and stayed off the gate like I told you to, you would not have fallen. Elise also told you to stop showing off, but you didn’t listen. Do you know that showing off is really pride? The Bible says, <em>Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.</em></p>\n  <p>Ramona nodded her head. “Are you sorry for disobeying me, Ramona?” Papa asked. “Yes, Papa, I am sorry” she replied tearfully. Papa decided to let her fall and going to bed early be her punishment this time. Ramona would have preferred a spanking instead of needing to go to bed early, which was a great grief to her little heart. But it was good for her because it caused her to repent.</p>\n  <p>Ramona never forgot this lesson, partly because of her fall, and partly because she was sent to bed early and missed the fun of riding horses. Not only had she been proud in showing off, she had also been willfully disobedient to Papa.</p>\n  <p>Elise had written a tune to the verse that Papa had mentioned to Ramona. From then on, whenever Ramona sang that song, she remembered how true that verse proved to be for her.</p>\n  <p>Here is the song that Ramona sang:</p>\n\n  <figure>\n    <img src=\"/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-2.png\" alt=\"Sheet music for “Pride goeth before destruction, and an haughty spirit before a fall.”\">\n  </figure>\n\n  <p class=\"source-note\"><sup>*</sup><em>Names in this article have been changed</em></p>\n\n  <figure>\n    <img src=\"/images/articles/97d8ed1e-7d4a-471d-8508-727664288d74-3.jpg\" alt=\"Two young girls with horses in a grassy pasture\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+  "translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51"
+}

@@ -36,9 +36,15 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[30]; missing: 2 Timothy 4:3; extra: 4:3",
       "task": "1704a36496c1b1fb90c8e7c27f01bc51"
+    },
+    {
+      "at": "2026-10-03T16:59:31+00:00",
+      "campaign": "gh-37138123265",
+      "event": "requested",
+      "task": "ffc4a80e2cdee46558f0cbba87c290d6"
     }
   ],
   "language": "heb",
-  "latest_task": "1704a36496c1b1fb90c8e7c27f01bc51",
+  "latest_task": "ffc4a80e2cdee46558f0cbba87c290d6",
   "published": null
 }

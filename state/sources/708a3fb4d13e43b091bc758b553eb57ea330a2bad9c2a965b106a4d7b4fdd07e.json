@@ -1,0 +1,66 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "–Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+    "images": [
+      {
+        "alt": "A large leafy tree beside a green field under a blue sky",
+        "caption": null,
+        "credit": "Unsplash.com",
+        "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg",
+        "repository_path": "public/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg",
+        "rights_note": "The page-2 masthead states that all issue photos other than those on printed pages 18 and 19 were acquired from Unsplash.com; no separate permission notice or license terms are stated. The clean embedded full-page base at xref 123 was horizontally flipped to match its printed placement, its inverted Adobe CMYK samples were corrected and converted to sRGB, and the JPEG was re-encoded at web quality without the separate faded-panel, poem, title, or byline overlays and without changing dimensions or crop.",
+        "role": "full-page poem background",
+        "sequence": 1,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "A Suffering Savior",
+    "topics": [
+      "070854c3-dde7-5efd-a27d-30979196df0e",
+      "6f0f2dac-09f3-5996-8e32-3f26a7fa8843",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "8feb4eca-5b0b-512b-8ef0-a76783fdb626",
+      "0077042a-c127-5c03-a910-92dc63cb4356"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "f0c587e4e91688e5c622b7fdd9cbb7422435d6fd5f99e3bb7d4602d42c115eed",
+    "metadata_sha256": "c19923514d6fa26ff2469d8584f2f1ca02718dd642e069e8a0d677eb22561fa8",
+    "structure_sha256": "061d52e56b49d2a427f2cb835e96d0194de14662f1c0d045c5626785302c2ef0",
+    "text_sha256": "28be1e7915d4a5a5887ecc0ba1420b7c0a59122c74728d84e7932aacc782b766",
+    "translation_metadata_sha256": "2fb52a9130812142c685f7bf68fc88b2c542d6299ec3b2eecbfa89456d6496d6"
+  },
+  "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"A large leafy tree beside a green field under a blue sky\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>He was born in a stable, meant for beasts of the field.<br>\n    It was from the beginning that His will He would yield.</p>\n\n    <p>He was never well-liked; despised by all men;<br>\n    Laughed to scorn, reviled—again, and again.</p>\n\n    <p>Yes, His mission on this earth was unusual indeed,<br>\n    Not seeking money and friends or trying to succeed.</p>\n\n    <p>He knew His purpose was to please His Father,<br>\n    With the trifles of earth, He would not bother.</p>\n\n    <p>It surely wasn’t easy, to be the King of kings.<br>\n    And suffer as a criminal, taking what that brings.</p>\n\n    <p>Ten thousand angels, He could have summoned south,<br>\n    But the stricken Savior opened not His mouth.</p>\n\n    <p>With His eyes on the reward, He persevered the pain;<br>\n    Was cruelly stripped and beaten, and ultimately slain.</p>\n\n    <p>But why would He suffer so willingly there;<br>\n    Enduring the cross, all the pain He did bear?</p>\n\n    <p>Because He treasured us, an atonement for our sin<br>\n    He made when He bled and died there to make us His kin!</p>\n\n    <p>I thank God now for that sacrifice so great;<br>\n    Providing the Lamb and transforming my fate.</p>\n\n    <p>I say, “A wonderful Savior, is Jesus my Lord;”<br>\n    Now the Father and I—a relationship restored!</p>\n  </div>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+  "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c"
+}

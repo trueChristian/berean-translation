@@ -36,9 +36,15 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[4]; missing: 40:3; extra: Psalm 40:3",
       "task": "1c122aa1ca732afe5706117e045bca06"
+    },
+    {
+      "at": "2026-10-03T16:59:30+00:00",
+      "campaign": "gh-37138123265",
+      "event": "requested",
+      "task": "5d8f27ea2f6ee67807d9b84dbcc03bac"
     }
   ],
   "language": "heb",
-  "latest_task": "1c122aa1ca732afe5706117e045bca06",
+  "latest_task": "5d8f27ea2f6ee67807d9b84dbcc03bac",
   "published": null
 }
