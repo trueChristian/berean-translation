@@ -98,12 +98,23 @@ class ScriptureBookCatalogTests(unittest.TestCase):
 
     def test_malformed_outer_and_quote_wrapped_nested_labels_are_not_ignored(self):
         source = refs('Verse 21, “Submit yourselves.”', target='deu')
-        for target in ('Vers 0: Vers 21: „Ordnet euch einander unter.“',
+        for target in ('Vers 21 22: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers 21 - 22: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers 21,,: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers 22a: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers 22.5: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers -1: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers 1-2: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers 21,22: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers 21:: Vers 21: „Ordnet euch einander unter.“',
+                       'Vers 0: Vers 21: „Ordnet euch einander unter.“',
                        'Vers 9999: Vers 21: „Ordnet euch einander unter.“',
                        'Vers 22: „Vers 21: „Ordnet euch einander unter.“',
                        'Vers 21: „Vers 21: „Ordnet euch einander unter.“'):
             with self.subTest(target=target):
                 self.assertNotEqual(source, refs(target, 'deu'))
+                hebrew = target.replace('Vers', 'פסוק').replace('„Ordnet euch einander unter.“', '״היכנעו זה לזה.״')
+                self.assertNotEqual(refs('Verse 21, “Submit yourselves.”'), refs(hebrew, 'heb'))
 
     def test_short_is_alias_requires_its_authentic_parenthesized_context(self):
         self.assertEqual(refs('(Is 65:14)'), Counter({'Isaiah 65:14': 1}))
@@ -112,3 +123,10 @@ class ScriptureBookCatalogTests(unittest.TestCase):
         self.assertEqual(refs('Is 9:00 the time?'), refs('השעה 9:00?', 'heb'))
         self.assertNotEqual(refs('(Is 65:14)'), refs('(ירמיהו 65:14)', 'heb'))
         self.assertNotEqual(refs('Is 65:14'), refs('ישעיהו 65:14', 'heb'))
+
+
+    def test_long_numeric_label_prefix_without_delimiter_is_bounded(self):
+        # No delimiter: repeated whitespace must not create ambiguous regex
+        # partitions when a numeric-shaped prefix cannot become a label.
+        for language, label in (('deu', 'Vers'), ('heb', 'פסוק')):
+            self.assertEqual(refs(label + ' 21' + '  22' * 1200, language), Counter())
