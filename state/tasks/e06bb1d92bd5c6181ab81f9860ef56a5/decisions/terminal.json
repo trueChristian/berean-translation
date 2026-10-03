@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Párrafo final",
+      "severity": "minor",
+      "source_quote": "Faith that comes through wholehearted and humble subjection is the most suspect and under-estimated power available to mankind.",
+      "suggested_fix": "La fe que viene mediante una sumisión humilde y de todo corazón es el poder que más desconfianza suscita y que más se subestima entre los disponibles para la humanidad.",
+      "translation_quote": "La fe que viene mediante una sumisión humilde y de todo corazón es el poder más sospechado y subestimado que está al alcance de la humanidad."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

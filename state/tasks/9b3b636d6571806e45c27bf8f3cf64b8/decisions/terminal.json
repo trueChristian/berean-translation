@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "location": "المتن، الفقرة التي تبدأ «وبغض النظر عن تفسيرنا»",
+      "severity": "major",
+      "source_quote": "the decided emphasis given here is upon the adjectives, straight and narrow, as opposed to wide and broad.",
+      "suggested_fix": "استبدل «المستقيم» بـ«الضيّق» في العبارة الأولى، مع إبقاء مقابلة الصفات كما في المصدر: «الضيّق والكرب» مقابل «الواسع والرحب».",
+      "translation_quote": "فإن التركيز الواضح هنا ينصب على صفتي المستقيم والضيق، على النقيض من الواسع والرحب."
+    },
+    {
+      "location": "المتن، فقرة «السلطان الذي أتى به المسيح يسوع»",
+      "severity": "major",
+      "source_quote": "It was not a casting away of civil authority but an empowerment of it.",
+      "suggested_fix": "عدّلها إلى «لم يكن ذلك إلغاءً للسلطة المدنية، بل تمكينًا لها» أو صياغة عربية تؤكد أن السلطة المدنية لم تُطرح جانبًا وإنما مُكّنت.",
+      "translation_quote": "لم يكن ذلك إلقاءً للسلطة المدنية جانبًا، بل تمكينًا لها."
+    },
+    {
+      "location": "المتن، فقرة «السلطان الذي أتى به المسيح يسوع»",
+      "severity": "major",
+      "source_quote": "a soldier’s pack the second mile",
+      "suggested_fix": "استبدل «عدة الجندي» بـ«حِمل الجندي» أو «متاع الجندي»؛ فالمقصود حمله مسافة ميل إضافي، لا حمل عُدّته.",
+      "translation_quote": "لحمل عدة الجندي ميلًا ثانيًا."
+    },
+    {
+      "location": "المتن، فقرة «وجد يوسف نفسه مرارًا»",
+      "severity": "major",
+      "source_quote": "This resulted in being raised to the second ruling power in the most prominent nation on the earth.",
+      "suggested_fix": "استبدل «ثاني أعلى منصب حاكم» بـ«ثاني أعلى سلطة حاكمة» أو ما يفيد أنه صار صاحب المرتبة الثانية في الحكم.",
+      "translation_quote": "وأدى ذلك إلى ترقيته إلى ثاني أعلى منصب حاكم في أبرز أمة على وجه الأرض."
+    },
+    {
+      "location": "المتن، فقرة «السلطان الذي أُعطي لأليعازر»",
+      "severity": "major",
+      "source_quote": "Abraham trusted him to secure a wife for Isaac",
+      "suggested_fix": "استبدل «تدبير زوجة لإسحاق» بـ«اختيار زوجة لإسحاق» أو «إيجاد زوجة لإسحاق».",
+      "translation_quote": "فقد ائتمنه إبراهيم على تدبير زوجة لإسحاق."
+    },
+    {
+      "location": "المتن، فقرة «الخصي الحبشي»",
+      "severity": "major",
+      "source_quote": "Though his world was narrowed beyond what most of us could ever imagine",
+      "suggested_fix": "استبدل «ضاق بما يتجاوز ما قد يتخيله معظمنا» بـ«ضاق إلى حد يفوق ما قد يتخيله معظمنا».",
+      "translation_quote": "ومع أن عالمه ضاق بما يتجاوز ما قد يتخيله معظمنا"
+    },
+    {
+      "location": "المتن، فقرة «حين دخل يسوع في حوار»",
+      "severity": "major",
+      "source_quote": "Women who stand up for their rights kick at the narrowness of the gate and forfeit their God-ordained dignity.",
+      "suggested_fix": "استبدل «ينتفضن دفاعًا عن حقوقهن» بـ«يدافعن عن حقوقهن» أو ما يفيد المطالبة بالحقوق، من دون دلالة الانتفاض أو التمرد.",
+      "translation_quote": "والنساء اللواتي ينتفضن دفاعًا عن حقوقهن يركلن الباب لضيقِه ويفقدن كرامتهن التي عيّنها الله."
+    },
+    {
+      "location": "المتن، فقرة «حين دخل يسوع في حوار»",
+      "severity": "major",
+      "source_quote": "The headship veiling",
+      "suggested_fix": "استبدل «غطاء الرأس الدال على الرئاسة» بـ«غطاء الرأس الدال على الرئاسة الزوجية» أو «غطاء الرأس المرتبط برئاسة الزوج» لتوضيح المقصود في السياق.",
+      "translation_quote": "فغطاء الرأس الدال على الرئاسة ليس مجرد رمز للخضوع"
+    },
+    {
+      "location": "المتن، فقرة «قادة الكنيسة»",
+      "severity": "major",
+      "source_quote": "And stubbornness is as iniquity and idolatry",
+      "suggested_fix": "استبدل «والعناد كالوَثَن والترافيم» بـ«والعناد كالإثم وعبادة الأوثان»؛ فالمصدر يقارن العناد بالإثم وعبادة الأوثان، لا بالوَثَن والترافيم.",
+      "translation_quote": "والعناد كالوَثَن والترافيم"
+    },
+    {
+      "location": "المتن، الفقرة الختامية",
+      "severity": "major",
+      "source_quote": "It brings power unto people rather than power over people.",
+      "suggested_fix": "استبدل «لأجلهم» بـ«إلى الناس» أو «للناس» كي تكون المقابلة بين منح القوة للناس وممارسة القوة عليهم.",
+      "translation_quote": "إنه يمنح الناس قوة لأجلهم بدلًا من قوة عليهم."
+    },
+    {
+      "location": "المتن، الفقرة الختامية",
+      "severity": "major",
+      "source_quote": "Faith that comes through wholehearted and humble subjection is the most suspect and under-estimated power available to mankind.",
+      "suggested_fix": "استبدل «إثارة للشك» بـ«التي يُساء الظن بها» أو «الأكثر إثارة للريبة»؛ فالمصدر يصف القوة بأنها موضع ريبة واستهانة، لا أنها تُثير الشك.",
+      "translation_quote": "إن الإيمان الذي يأتي من الخضوع المتواضع ومن كل القلب هو أكثر القوى المتاحة للبشر إثارة للشك وأشدها استهانة بها."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

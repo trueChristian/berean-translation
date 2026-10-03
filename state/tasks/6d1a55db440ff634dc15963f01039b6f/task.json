@@ -2,7 +2,6 @@
   "article_id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "157279382b004c2e910bb39555d57baa",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -45,18 +44,82 @@
         },
         "total_tokens": 13831
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 968,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8547,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8544,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9515
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[19]/em[9]; translation /article[1]/p[19]",
-      "severity": "critical",
-      "source_quote": "…ffirm your teen by treating him with common courtesy. Simple things like <em>“please”</em> and <em>“thank you”</em>,” <em>I’m sorry”</em>, <em>“pardon me”</em>, <em>“good bye”</em>, <em>“have a good day”</em>, <em>“drive safely”</em>, and <em>“God bless you”</em>, expresses worth and value to your teen. If these simple courtesies are common in your home your children will return them to you. Think about how you feel when someone says to you, <em>“Oh, excuse me, I’m sorry.”</em> You feel a sense of respect, value, and dignity. That is a simple gift that every parent can give to his child.</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[99:101], translation signature[99:99], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>십 대 자녀에게 예의 바르게 대함으로써 인정해 줄 수도 있습니다. <em>“부탁해요”</em>, <em>“고마워요”</em>, <em>“미안해요”</em>, <em>“실례합니다”</em>, <em>“안녕히 가세요”</em>, <em>“좋은 하루 보내세요”</em>, <em>“안전 운전하세요”</em>, <em>“하나님의 축복이 있기를 바랍니다”</em>와 같은 소소한 말들이 자녀에게 자신이 소중하고 가치 있는 존재라는 마음을 전합니다. 이런 기본적인 예의가 가정에서 일상적이라면 자녀도 부모에게 똑같이 예의를 보일 것입니다. 누군가 “아, 실례했습니다. 미안합니다”라고 말할 때 어떤 기분이 드는지 생각해 보십시오. 존중받고 가치 있고 존엄한 존재로 여겨진다는 느낌이 듭니다. 이는 모든 부모가 자녀에게 줄 수 있는 소박한 선물입니다.</p>"
+      "location": "본문, 성전 방문에 관한 문단",
+      "severity": "major",
+      "source_quote": "We find him at the age of twelve sitting in the temple visiting with the doctors, both hearing them and asking them questions.",
+      "suggested_fix": "‘의사들’이라는 뜻이 되지 않도록, 예컨대 “예수님은 열두 살 때 성전에서 율법학자들과 함께 앉아 그들의 말을 듣고 질문하시는 모습을 보이셨습니다.”로 수정하세요.",
+      "translation_quote": "예수님은 열두 살 때 성전에서 율법학자들과 함께 앉아 그들의 말을 듣고 질문하시는 모습을 보이셨습니다."
+    },
+    {
+      "location": "본문, 부모와 자녀의 관계 문단",
+      "severity": "major",
+      "source_quote": "Unless there is a major spiritual crisis that dynamically changes the relationship—such as an evangelical conversion on the part of either the parent or the child—we (as parents) reap during the child’s teen years that which we have sown during their childhood.",
+      "suggested_fix": "부모 또는 자녀의 복음적 회심을 관계를 극적으로 바꾸는 영적 위기의 예로 들도록 번역을 바로잡으세요. 예: “부모나 자녀 가운데 어느 한쪽이 복음적으로 회심하는 것과 같이 관계를 극적으로 바꾸는 중대한 영적 위기가 없다면, 우리 부모는 자녀의 십 대 시절에 어린 시절 뿌린 것을 거둡니다.”",
+      "translation_quote": "부모나 자녀 가운데 어느 한쪽의 복음적 회심처럼 관계를 극적으로 바꾸는 중대한 영적 위기가 없다면, 우리 부모는 자녀의 십 대 시절에 어린 시절 뿌린 것을 거둡니다."
+    },
+    {
+      "location": "본문, 인정의 요소 문단",
+      "severity": "major",
+      "source_quote": "You earn the right to criticize what is wrong by blessing what is right.",
+      "suggested_fix": "‘잘못을 비판할 권리를 얻는다’는 원문의 뜻을 살려 수정하세요. 예: “다시 말해, 옳은 점을 칭찬해 줌으로써 잘못된 점을 비판할 자격을 얻는 것입니다.”",
+      "translation_quote": "다시 말해, 잘못된 점을 바로잡을 권리는 옳은 점을 축복해 줌으로써 얻는 것입니다."
+    },
+    {
+      "location": "본문, 복음 전도에 관한 문단",
+      "severity": "major",
+      "source_quote": "Most of our children’s conversions were initiated by a parent.",
+      "suggested_fix": "회심을 ‘부모가 먼저 시작했다’고 하지 말고, 부모가 자녀의 회심을 먼저 시작하도록 이끌었다는 뜻으로 번역하세요. 예: “우리 자녀들 대부분의 회심은 부모가 먼저 시작하도록 이끌었습니다.”",
+      "translation_quote": "우리 자녀들 가운데 대부분은 부모가 먼저 회심의 길을 열었습니다."
+    },
+    {
+      "location": "본문, 교회와의 관계 문단",
+      "severity": "major",
+      "source_quote": "Many children have been lost to the faith because mom and dad were not supportive of the church where they were worshipping.",
+      "suggested_fix": "‘믿음을 떠난 자녀’라는 뜻이 드러나도록 고치세요. 예: “엄마와 아빠가 자녀가 예배하던 교회를 지지하지 않았기 때문에 믿음을 떠난 자녀가 많습니다.”",
+      "translation_quote": "엄마와 아빠가 예배하던 교회를 지지하지 않았기 때문에 믿음을 떠난 자녀가 많습니다."
+    },
+    {
+      "location": "본문, 시편 127:4 인용 뒤 설명",
+      "severity": "major",
+      "source_quote": "This verse reminds us that our children are a mighty defense against the enemy.",
+      "suggested_fix": "원문은 ‘강력한 방어’라고 할 뿐 ‘원수에 맞서는’이라고 특정하지 않습니다. 예: “이 구절은 자녀가 강력한 방어가 된다는 점을 일깨워 줍니다.”",
+      "translation_quote": "이 구절은 자녀가 원수에 맞서는 강력한 방어가 된다는 점을 일깨워 줍니다."
+    },
+    {
+      "location": "제목",
+      "severity": "minor",
+      "source_quote": "From Childhood to Adulthood",
+      "suggested_fix": "의미를 더 직접적으로 옮기려면 “어린 시절에서 성인기로”처럼 수정할 수 있습니다.",
+      "translation_quote": "어린 시절에서 성인기로"
     }
   ],
+  "finished_at": "2026-10-03T21:32:01+00:00",
   "id": "6d1a55db440ff634dc15963f01039b6f",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "kor",
@@ -145,11 +208,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

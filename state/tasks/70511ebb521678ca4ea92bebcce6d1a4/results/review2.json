@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c383019c-1887-4f27-a921-749e83bedd95",
+    "response_id": "chatcmpl-EV1WaABYPs91tuvM55SRA298g61wT",
+    "usage": {
+      "completion_tokens": 871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 432,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5331,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6205
+    }
+  },
+  "received_at": "2026-10-03T21:32:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Quoted Scripture and explanatory list, 1 Corinthians 10:13; James 1:2–3; numbered points 1–2",
+        "severity": "major",
+        "source_quote": "“There hath no temptation taken you but such as is common to man”; “when ye fall into divers temptations”; “Each of us WILL fall into temptations”",
+        "suggested_fix": "Use Hebrew terms for temptation rather than general experience or trial in these passages and the corresponding list items. For example, replace ״התנסות״/״התנסויות״ where these refer to temptations with ״פיתוי״/״פיתויים״, adjusting the sentence grammar as needed.",
+        "translation_quote": "“לא באה עליכם שום התנסות מלבד זו הבאה על בני אדם”; “כאשר אתם נקלעים להתנסויות שונות”; “כולנו ניפול להתנסויות”"
+      },
+      {
+        "location": "Quoted Scripture, Galatians 6:1",
+        "severity": "major",
+        "source_quote": "“ye which are spiritual, restore such an one in the spirit of meekness”",
+        "suggested_fix": "Replace ״תקימו אותו״ with a Hebrew verb conveying restoration, such as ״השיבו אותו לדרך הישר״, while retaining the surrounding structure and meaning.",
+        "translation_quote": "“אתם הרוחניים תקימו אותו ברוח של ענווה”"
+      },
+      {
+        "location": "Paragraph beginning ״לאור כל זאת״",
+        "severity": "major",
+        "source_quote": "“our smile or encouraging word will help make a change in someone’s eternal welfare”",
+        "suggested_fix": "Replace ״יסייעו לחולל שינוי בגורלו הנצחי של מישהו״ with wording that conveys an effect on a person’s eternal well-being, for example ״יסייעו לשנות לטובה את מצבו הרוחני הנצחי של מישהו״.",
+        "translation_quote": "“החיוך או המילה המעודדת שלנו יסייעו לחולל שינוי בגורלו הנצחי של מישהו”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

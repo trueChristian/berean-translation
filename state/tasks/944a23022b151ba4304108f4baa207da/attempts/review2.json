@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “Gud har gett människor auktoritet”; Romans 13:1–2 quotation\",\"severity\":\"major\",\"source_quote\":\"“and they that resist shall receive to themselves damnation”\",\"suggested_fix\":\"Replace “och de som gör det ska få sin dom” with wording that preserves the source’s stronger consequence, such as “och de som gör motstånd ska dra fördömelse över sig själva.”\",\"translation_quote\":\"“och de som gör det ska få sin dom”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 535,
+    "content_evidence_truncated": false,
+    "content_sha256": "62a898075c679c83c17a6807ee39598b06a0086fae11fe13fec4d0ced92c33bc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 786,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 645,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9747,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10536
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

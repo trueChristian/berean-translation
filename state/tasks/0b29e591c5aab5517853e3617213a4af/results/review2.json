@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bfc777bc-0274-4003-aa20-ce07e72e2082",
+    "response_id": "chatcmpl-EV1WQqSTXG627cueqb6eAJoJrtHuc",
+    "usage": {
+      "completion_tokens": 791,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 617,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4226,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4223,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5017
+    }
+  },
+  "received_at": "2026-10-03T21:32:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, final paragraph; named theory",
+        "severity": "major",
+        "source_quote": "“Punctuated Equilibrium”",
+        "suggested_fix": "Ersetze „das punktuelle Gleichgewicht“ durch „das punktualistische Gleichgewicht“ (oder eine andere etablierte deutsche Bezeichnung für „Punctuated Equilibrium“), damit die konkret genannte Theorie erhalten bleibt.",
+        "translation_quote": "„das punktuelle Gleichgewicht“"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "FEATURED ARTICLE",
+        "suggested_fix": "Übersetze die hervorgehobene Kennzeichnung, zum Beispiel mit „HERVORGEHOBENER BEITRAG“.",
+        "translation_quote": "BEITRAG"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Es gibt eine von Gott verliehene Autorität…”, quotation of Römer 13:1-2",
+      "severity": "major",
+      "source_quote": "and they that resist shall receive to themselves damnation –Romans 13:1-2.",
+      "suggested_fix": "Replace „die sich aber widersetzen, werden sich selbst das Gericht zuziehen“ with „die sich aber widersetzen, werden sich selbst die Verdammnis zuziehen“ to preserve the stronger condemnation expressed in the source.",
+      "translation_quote": "die sich aber widersetzen, werden sich selbst das Gericht zuziehen –Römer 13:1-2."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

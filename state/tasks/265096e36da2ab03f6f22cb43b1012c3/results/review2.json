@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2259fa7d-027e-4dc6-ba15-8cbc5d213b2a",
+    "response_id": "chatcmpl-EV1VMfzj0FGTJpYmirgMhdOmVf52I",
+    "usage": {
+      "completion_tokens": 805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 672,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4258,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4255,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5063
+    }
+  },
+  "received_at": "2026-10-03T21:32:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 5; Luke 1:1–4 quotation",
+        "severity": "major",
+        "source_quote": "so that you may know the certainty of the things you have been taught.",
+        "suggested_fix": "Replace only the underlined clause with: <u>så du kan være viss på det du er blitt undervist i.</u>",
+        "translation_quote": "<u>så du kan vite hvor pålitelig den læren er som du er blitt undervist i.</u>"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

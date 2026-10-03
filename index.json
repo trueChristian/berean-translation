@@ -6652,6 +6652,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "b4421d1bf83516bf23c46df69b32e76e464e2c282d2ac420110a713fc3030a93",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "সমুদ্রের ওপর উজ্জ্বল গোলাপি, বেগুনি ও নীল সূর্যাস্ত",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "b92e1e7dcd6cac1902abe46223c18224746910b1ccdb5b54a4d6bc5106b56f66",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "নির্বাচিত প্রবন্ধ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "বিশ্বাস ও যুক্তি",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "8bef94f0c45ef22f3e678704a70eadfdc05722777569b6b0c1ead04bb5bafad5",
       "human_reviewed": false,
@@ -8568,6 +8596,34 @@
       "subtitle": null,
       "title": "拖延过载",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "21088d5b0d63d2e112a51039a4cd7e98519aad73f33e01e492b612021bc365ce",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "白墙之间的一扇狭窄木门",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "1acc0aa435733fbc18c206202d6b3c93bb25d97a7ccc8936b09b9fdefffe7fb8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "圣经教义",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "通往生命的窄门",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -19191,6 +19247,34 @@
       "subtitle": null,
       "title": "टालमटोल का बोझ",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "69890bfaffb314126c3b2a67f6be944d85779c637aa3061e7cd127e30dd3d3da",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "सफ़ेद दीवारों के बीच लकड़ी का एक सँकरा फाटक",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "e410a9911b5aeba99cadd93e0ca5f4264297e1511cedb2938c3b173b2aec12f5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "बाइबल के सिद्धांत",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जीवन का सँकरा फाटक",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -37677,6 +37761,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "00d6183fd438d7f53d269e09850c02bda37b78e4e3dd76342dde68dc936bd105",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Силуэт молодого человека на фоне красного закатного неба",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "e5e2bd626072b7cf0bb5464d4753067e36569321d0fb83a4411ac707f201a129",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "БЛАГОЧЕСТИВАЯ СЕМЬЯ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Воспитание подростков",
+      "title": "От детства к взрослой жизни",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "fb08bf049e469b2e2c190ecc8b26c2cd7f3295f6d3b16af0d5e7bb4bf2fe00ac",
       "human_reviewed": false,
@@ -41939,6 +42051,34 @@
       "subtitle": null,
       "title": "Procrastinación en exceso",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "ecf1b5116b94cf99fb3852f243f3273123123ba52d8e2c290ad1ee723412250d",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "Una estrecha puerta de madera entre paredes blancas",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "99e104c72491c7eaf9659300e8cb4c72420dbddefaa689ea9be4ecbf11e56fd1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DOCTRINAS BÍBLICAS",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La puerta estrecha hacia la vida",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphe 6, citation de Romains 1:18-20\",\"severity\":\"major\",\"source_quote\":\"“The wrath of God is being revealed from heaven against all the godlessness and wickedness of people, who suppress the truth by their wickedness”\",\"suggested_fix\":\"Dans la citation, remplacer « contre toute impiété et toute injustice des hommes qui retiennent injustement la vérité captive » par « contre toute impiété et toute injustice des hommes, qui étouffent la vérité par leur injustice » (ou une formulation française fidèle équivalente).\",\"translation_quote\":\"« contre toute impiété et toute injustice des hommes qui retiennent injustement la vérité captive »\"},{\"location\":\"Paragraphe 8, citation de Jean 20:29\",\"severity\":\"major\",\"source_quote\":\"“Have you believed because you have seen me? Blessed are those who have not seen and yet have believed”\",\"suggested_fix\":\"Remplacer la citation par une traduction fidèle du texte anglais imprimé, par exemple : « … As-tu cru parce que tu m’as vu ? Heureux ceux qui n’ont pas vu et qui ont cru ! »\",\"translation_quote\":\"« … Parce que tu m’as vu, tu as cru ? Heureux ceux qui n’ont pas vu et qui ont cru ! »\"},{\"location\":\"Paragraphe 8, « control the weather »\",\"severity\":\"major\",\"source_quote\":\"“control the weather”\",\"suggested_fix\":\"Remplacer « en maîtrisant le temps » par « en maîtrisant les éléments » ou « en contrôlant le temps qu’il fait », afin de ne pas confondre météo et temps qui passe.\",\"translation_quote\":\"« en maîtrisant le temps »\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1609,
+    "content_evidence_truncated": false,
+    "content_sha256": "9303b82352228d4486410e4082d9a824d849fc2cc9f4cd760eadd2b8510578cc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 377,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4553
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

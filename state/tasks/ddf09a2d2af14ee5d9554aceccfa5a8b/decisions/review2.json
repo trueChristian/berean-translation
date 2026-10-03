@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph 4",
+      "severity": "major",
+      "source_quote": "One aspect of Christ’s dependability is His word.",
+      "suggested_fix": "ومن جوانب جدارة المسيح بالثقة كلمته.",
+      "translation_quote": "ومن جوانب اعتمادنا على المسيح كلمته."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

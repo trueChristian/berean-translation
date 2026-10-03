@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац о поддержке подростка и конструктивной критике\",\"severity\":\"minor\",\"source_quote\":\"In other words, you earn the right to criticize what is wrong by blessing what is right.\",\"suggested_fix\":\"Заменить «Иными словами, вы заслуживаете право указывать на неправильное, благословляя то, что правильно» на «Иными словами, вы получаете право указывать на неправильное, когда отмечаете и поддерживаете то, что правильно».\",\"translation_quote\":\"Иными словами, вы заслуживаете право указывать на неправильное, благословляя то, что правильно.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 904,
+    "content_evidence_truncated": false,
+    "content_sha256": "59cd1e2da17572627a5f2cfbe7bb1b0b2356e2e4afa6b02aa53457fc3c76c1db",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 758,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 595,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8024,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8021,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8782
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

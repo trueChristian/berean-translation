@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph 4\",\"severity\":\"major\",\"source_quote\":\"One aspect of Christ’s dependability is His word.\",\"suggested_fix\":\"ومن جوانب جدارة المسيح بالثقة كلمته.\",\"translation_quote\":\"ومن جوانب اعتمادنا على المسيح كلمته.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 342,
+    "content_evidence_truncated": false,
+    "content_sha256": "98e4246dc265248d437f91d4f6840420d404f4a358426c52ff7b745e72552f07",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4206,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4902
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final paragraph; named theory",
+      "severity": "major",
+      "source_quote": "“Punctuated Equilibrium”",
+      "suggested_fix": "Ersetze „das punktuelle Gleichgewicht“ durch „das punktualistische Gleichgewicht“ (oder eine andere etablierte deutsche Bezeichnung für „Punctuated Equilibrium“), damit die konkret genannte Theorie erhalten bleibt.",
+      "translation_quote": "„das punktuelle Gleichgewicht“"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Übersetze die hervorgehobene Kennzeichnung, zum Beispiel mit „HERVORGEHOBENER BEITRAG“.",
+      "translation_quote": "BEITRAG"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

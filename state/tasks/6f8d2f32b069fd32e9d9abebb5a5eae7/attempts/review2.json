@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html، پیراگراف «Submission Activates Power»\",\"severity\":\"major\",\"source_quote\":\"“It was a strait gate that respected the authorities enough to volunteer to transport a soldier’s pack the second mile.”\",\"suggested_fix\":\"Replace «سپاہی کا سامان ایک میل کے بجائے دوسرا میل اٹھانے کے لیے رضاکارانہ طور پر تیار تھا» with «سپاہی کا سامان دو میل تک اٹھانے کے لیے رضاکارانہ طور پر تیار تھا»; the source describes carrying it a second mile, not choosing one mile instead of a second.\",\"translation_quote\":\"«سپاہی کا سامان ایک میل کے بجائے دوسرا میل اٹھانے کے لیے رضاکارانہ طور پر تیار تھا»\"},{\"location\":\"source.html، پیراگراف «…Masters»\",\"severity\":\"major\",\"source_quote\":\"“Abraham trusted him to secure a wife for Isaac; He was even permitted to determine the rules.”\",\"suggested_fix\":\"Replace «ابرہام نے اُس پر اسحاق کے لیے بیوی ڈھونڈنے کی ذمہ داری بھروسا کرکے چھوڑی؛ اُسے قواعد طے کرنے کی اجازت بھی دی گئی۔» with «ابرہام نے اسحاق کے لیے بیوی تلاش کرنے کی ذمہ داری اُس کے سپرد کی؛ اُسے شرائط طے کرنے کی اجازت بھی تھی۔»\",\"translation_quote\":\"«ابرہام نے اُس پر اسحاق کے لیے بیوی ڈھونڈنے کی ذمہ داری بھروسا کرکے چھوڑی؛ اُسے قواعد طے کرنے کی اجازت بھی دی گئی۔»\"},{\"location\":\"source.html، پیراگراف «…Husbands»\",\"severity\":\"major\",\"source_quote\":\"“Women who stand up for their rights kick at the narrowness of the gate and forfeit their God-ordained dignity.”\",\"suggested_fix\":\"Replace «اپنے حقوق کے لیے اٹھ کھڑی ہونے والی عورتیں دروازے کی تنگی پر لات مارتی اور خدا کی مقرر کردہ عزت سے محروم ہو جاتی ہیں۔» with «جو عورتیں اپنے حقوق کے لیے کھڑی ہوتی ہیں، وہ دروازے کی تنگی کو ٹھکراتی اور خدا کی مقرر کردہ عزت سے محروم ہو جاتی ہیں۔» The current wording can imply that the women themselves lose their dignity, rather than that they forfeit it.\",\"translation_quote\":\"«اپنے حقوق کے لیے اٹھ کھڑی ہونے والی عورتیں دروازے کی تنگی پر لات مارتی اور خدا کی مقرر کردہ عزت سے محروم ہو جاتی ہیں۔»\"},{\"location\":\"source.html، آخری پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“Faith that comes through wholehearted and humble subjection is the most suspect and under-estimated power available to mankind.”\",\"suggested_fix\":\"Replace «پورے دل اور فروتنی کی تابع داری سے آنے والا ایمان بنی نوع انسان کے لیے دستیاب سب سے زیادہ مشکوک اور کم تخمینہ کیا گیا اختیار ہے۔» with «پورے دل اور فروتنی سے تابع ہونے کے ذریعے حاصل ہونے والا ایمان بنی نوع انسان کے لیے دستیاب سب سے زیادہ مشتبہ اور کم تخمینہ کیا گیا اختیار ہے۔» The source says the power is “suspect” (regarded with suspicion), not “most suspect” in the sense of being doubtful or untrustworthy; use wording that preserves the intended sense in context.\",\"translation_quote\":\"«پورے دل اور فروتنی کی تابع داری سے آنے والا ایمان بنی نوع انسان کے لیے دستیاب سب سے زیادہ مشکوک اور کم تخمینہ کیا گیا اختیار ہے۔»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 3922,
+    "content_evidence_truncated": false,
+    "content_sha256": "68fbde23f65abe9b3d8ef188bc15e704391a3685bc1e822d154d02207d6340d5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10942
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

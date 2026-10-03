@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Hebreeën 11:1, citaat",
+      "severity": "major",
+      "source_quote": "“confidence in what we hope for and assurance about what we do not see.”",
+      "suggested_fix": "Vertaal dit citaat zo dat beide begrippen behouden blijven, bijvoorbeeld: ‘vertrouwen in wat we hopen en zekerheid over wat we niet zien’.",
+      "translation_quote": "‘zekerheid is van wat we hopen, bewijs van wat we niet zien’"
+    },
+    {
+      "location": "Lukas 1:1-4, citaat",
+      "severity": "major",
+      "source_quote": "“the things that have been fulfilled [or been surely believed] among us”",
+      "suggested_fix": "Neem ook de alternatieve betekenis tussen vierkante haken op, bijvoorbeeld: ‘de gebeurtenissen die onder ons hebben plaatsgevonden [of waarin wij vast geloven]’. Behoud daarnaast de betekenis ‘zekerheid’ in de slotzin, bijvoorbeeld: ‘zodat u zeker kunt zijn van de dingen waarin u onderricht bent’.",
+      "translation_quote": "‘de gebeurtenissen die zich onder ons hebben voltrokken’ en ‘zodat u de betrouwbaarheid kunt kennen van de zaken waarin u onderricht bent’"
+    },
+    {
+      "location": "Lukas 1:1-4, bronvermelding van het citaat",
+      "severity": "major",
+      "source_quote": "“–Luke 1:1-4. (NIV)”",
+      "suggested_fix": "Vervang ‘(NBV)’ door ‘(NIV)’. De vertaalde citaattekst moet de Engelse brontekst weergeven; de bronvermelding mag niet naar een andere Bijbelvertaling worden gewijzigd.",
+      "translation_quote": "‘–Lukas 1:1-4. (NBV)’"
+    },
+    {
+      "location": "Romeinen 1:18-20, bronvermelding van het citaat",
+      "severity": "major",
+      "source_quote": "“–Romans 1:18-20. (NIV)”",
+      "suggested_fix": "Vervang ‘(NBV)’ door ‘(NIV)’ en vertaal de afgedrukte brontekst getrouw, zonder die te vervangen door de tekst van een andere Bijbelvertaling.",
+      "translation_quote": "‘–Romeinen 1:18-20. (NBV)’"
+    },
+    {
+      "location": "Johannes 20:29, bronvermelding van het citaat",
+      "severity": "major",
+      "source_quote": "“–John 20:29. (ESV)”",
+      "suggested_fix": "Vervang ‘(NBV)’ door ‘(ESV)’. Vertaal de afgedrukte brontekst getrouw en schrijf de bronvermelding niet om naar een andere Bijbelvertaling.",
+      "translation_quote": "‘–Johannes 20:29. (NBV)’"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

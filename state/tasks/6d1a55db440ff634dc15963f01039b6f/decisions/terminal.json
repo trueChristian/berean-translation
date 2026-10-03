@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "본문, 성전 방문에 관한 문단",
+      "severity": "major",
+      "source_quote": "We find him at the age of twelve sitting in the temple visiting with the doctors, both hearing them and asking them questions.",
+      "suggested_fix": "‘의사들’이라는 뜻이 되지 않도록, 예컨대 “예수님은 열두 살 때 성전에서 율법학자들과 함께 앉아 그들의 말을 듣고 질문하시는 모습을 보이셨습니다.”로 수정하세요.",
+      "translation_quote": "예수님은 열두 살 때 성전에서 율법학자들과 함께 앉아 그들의 말을 듣고 질문하시는 모습을 보이셨습니다."
+    },
+    {
+      "location": "본문, 부모와 자녀의 관계 문단",
+      "severity": "major",
+      "source_quote": "Unless there is a major spiritual crisis that dynamically changes the relationship—such as an evangelical conversion on the part of either the parent or the child—we (as parents) reap during the child’s teen years that which we have sown during their childhood.",
+      "suggested_fix": "부모 또는 자녀의 복음적 회심을 관계를 극적으로 바꾸는 영적 위기의 예로 들도록 번역을 바로잡으세요. 예: “부모나 자녀 가운데 어느 한쪽이 복음적으로 회심하는 것과 같이 관계를 극적으로 바꾸는 중대한 영적 위기가 없다면, 우리 부모는 자녀의 십 대 시절에 어린 시절 뿌린 것을 거둡니다.”",
+      "translation_quote": "부모나 자녀 가운데 어느 한쪽의 복음적 회심처럼 관계를 극적으로 바꾸는 중대한 영적 위기가 없다면, 우리 부모는 자녀의 십 대 시절에 어린 시절 뿌린 것을 거둡니다."
+    },
+    {
+      "location": "본문, 인정의 요소 문단",
+      "severity": "major",
+      "source_quote": "You earn the right to criticize what is wrong by blessing what is right.",
+      "suggested_fix": "‘잘못을 비판할 권리를 얻는다’는 원문의 뜻을 살려 수정하세요. 예: “다시 말해, 옳은 점을 칭찬해 줌으로써 잘못된 점을 비판할 자격을 얻는 것입니다.”",
+      "translation_quote": "다시 말해, 잘못된 점을 바로잡을 권리는 옳은 점을 축복해 줌으로써 얻는 것입니다."
+    },
+    {
+      "location": "본문, 복음 전도에 관한 문단",
+      "severity": "major",
+      "source_quote": "Most of our children’s conversions were initiated by a parent.",
+      "suggested_fix": "회심을 ‘부모가 먼저 시작했다’고 하지 말고, 부모가 자녀의 회심을 먼저 시작하도록 이끌었다는 뜻으로 번역하세요. 예: “우리 자녀들 대부분의 회심은 부모가 먼저 시작하도록 이끌었습니다.”",
+      "translation_quote": "우리 자녀들 가운데 대부분은 부모가 먼저 회심의 길을 열었습니다."
+    },
+    {
+      "location": "본문, 교회와의 관계 문단",
+      "severity": "major",
+      "source_quote": "Many children have been lost to the faith because mom and dad were not supportive of the church where they were worshipping.",
+      "suggested_fix": "‘믿음을 떠난 자녀’라는 뜻이 드러나도록 고치세요. 예: “엄마와 아빠가 자녀가 예배하던 교회를 지지하지 않았기 때문에 믿음을 떠난 자녀가 많습니다.”",
+      "translation_quote": "엄마와 아빠가 예배하던 교회를 지지하지 않았기 때문에 믿음을 떠난 자녀가 많습니다."
+    },
+    {
+      "location": "본문, 시편 127:4 인용 뒤 설명",
+      "severity": "major",
+      "source_quote": "This verse reminds us that our children are a mighty defense against the enemy.",
+      "suggested_fix": "원문은 ‘강력한 방어’라고 할 뿐 ‘원수에 맞서는’이라고 특정하지 않습니다. 예: “이 구절은 자녀가 강력한 방어가 된다는 점을 일깨워 줍니다.”",
+      "translation_quote": "이 구절은 자녀가 원수에 맞서는 강력한 방어가 된다는 점을 일깨워 줍니다."
+    },
+    {
+      "location": "제목",
+      "severity": "minor",
+      "source_quote": "From Childhood to Adulthood",
+      "suggested_fix": "의미를 더 직접적으로 옮기려면 “어린 시절에서 성인기로”처럼 수정할 수 있습니다.",
+      "translation_quote": "어린 시절에서 성인기로"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}
