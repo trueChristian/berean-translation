@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "42caf6cd-6311-4d6c-92a2-95107cb2b599",
+    "response_id": "chatcmpl-EV1XBQ1hVzkdK6dha9DRLdWS9nhBy",
+    "usage": {
+      "completion_tokens": 827,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 179,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1457,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1454,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2284
+    }
+  },
+  "received_at": "2026-10-03T21:50:13+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cf07f132-92d4-49ba-b318-52520f77ca67\">\n  <figure>\n    <img src=\"/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg\" alt=\"אור שמש חודר מבעד לעצים בעלי עלווה ביער\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>כריתו הייתה רטובה, ודמעות המשיכו לזלוג,<br>\n    הו! מתי יגיע היום? הלילה הזה לא יחלוף.<br>\n    הוא קיבל החלטות; לעולם לא ישכח.<br>\n    אשתו וילדיו — הו, כמה הוא מתחרט!<br>\n    (לא יודעים מה יש לך עד שזה איננו.)<br>\n    הוא הושיט ידו אל הבקבוק, מחכה לשחר.<br>\n    הימים חלפו ובאו, והכול נדמה מטושטש.<br>\n    הוא היה זקוק לתשובות, כדי לתקן את המצב.<br>\n    ״לך אל שכניך,״ שמע קול קטן.<br>\n    ״אבל הוא נוצרי!״ המחשבה נראתה אבסורדית.<br>\n    ״יש לו תשובות, אז אל תתמהמה!״<br>\n    הוא החליט ללכת, אבל לא היום.<br>\n    הוא שכב על מיטתו, ומשאו כבד מנשוא.<br>\n    ״לך אל שכניך, עדיין לא מאוחר מדי!״<br>\n    הקריאה הייתה חזקה כל כך, שהוא קם מהרצפה,<br>\n    נעל את מגפיו ופנה אל הדלת.<br>\n    שכנו היה בבית, וחיוכו חם כל כך;<br>\n    הוא סיפר לו על ישוע, שישנה את חייו.<br>\n    דבריו נשמעו כמעט בלתי אפשריים.<br>\n    הכול נעשה ברור כל כך! הוא בכה ונשבר.<br>\n    אהבת האל הציפה את נפשו הנזקקת,<br>\n    והוא ידע ללא ספק שנעשה שלם.<br>\n    הוא מיהר להתקשר לאשתו.<br>\n    ״הו, אנא, חזרי הביתה, אלוהים סילק את השנאה!״<br>\n    כשמשפחתו לצדו, וחטאיו בים,<br>\n    הוא בקושי יכול היה לחכות להיות מי שאלוהים יצר אותו להיות.</p>\n\n    <p class=\"byline\">– Barry Grant</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "גאול"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:10+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\\\" alt=\\\"گرم آڑوئی رنگ کے آسمان تلے نیلے پہاڑوں کی تہہ در تہہ قطاریں\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>روح کے پھلوں میں ایک ایسا لفظ ہے جسے ہم سب جانتے ہیں۔<br>\\n    خوشی ہم ایمان والوں کے لیے یہاں ایک برکت ہے۔<br>\\n    انسان وہ خوشی پیدا نہیں کر سکتا جس کی میں بات کرتا ہوں،<br>\\n    یہ خدا کی طرف سے آتی ہے، حلیموں کو عطا کی جاتی ہے۔<br>\\n    یہ تمہیں اندرونی سکون کے ساتھ دکھ سہنے کی طاقت دیتی ہے۔<br>\\n    یہ صرف گناہ کی موجودگی میں رخصت ہوتی ہے۔<br>\\n    خوشی زندگی کی آزمائشوں سے تمہیں گزارتی ہے۔<br>\\n    تمہارے دل میں ایسا سکون جو معاف کرتا رہتا ہے۔<br>\\n    یہ ہمیں ترک نہیں کرتی؛ ان جدوجہدوں میں سے جن کا ہم سامنا کرتے ہیں۔<br>\\n    بلکہ ہمت دیتی ہے اور ہمیں فضل میں قائم رکھتی ہے۔<br>\\n    خوشی ایسی چیز ہے جس سے یہ دنیا ناواقف ہے۔<br>\\n    یہ نہ لذت سے آتی ہے، نہ بڑھتے ہوئے جذبات سے؛<br>\\n    بلکہ اس سکون سے آتی ہے جو صرف خدا عطا کرتا ہے۔<br>\\n    یہ نجات پانے والوں کے لیے ہے، اور اُس زندگی کے لیے جو وہ جیتا ہے۔<br>\\n    تو پھر اتنے لوگ اس عظیم تحفے کو کیوں رد کرتے ہیں؟<br>\\n    جو شفا دینے اور بوجھ ہلکا کرنے کے لیے معروف ہے۔<br>\\n    اگر تم خود کو اوپر سے ملنے والی خوشی سے محروم پاؤ،<br>\\n    تو نجات دہندہ اور اُس کی فدیہ دینے والی محبت کی طرف رجوع کرو!</p>\\n\\n    <p class=\\\"byline\\\"><em>– بیری گرانٹ</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"خوشی\"}",
+    "content_bytes": 2250,
+    "content_evidence_truncated": false,
+    "content_sha256": "6e5f04ae8b6016efeab2dc1b11a9db83baceb0c73272f9cfcd652e9ab05f9d84",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 219,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2122
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

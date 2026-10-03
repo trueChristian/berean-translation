@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\\\" alt=\\\"गर्म आड़ू-रंग के आकाश के नीचे नीले पहाड़ों की परतें\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>आत्मा का एक फल है, जिसे हम सब जानते हैं।<br>\\n    आनंद हम विश्वासियों के लिए एक आशीष है।<br>\\n    मनुष्य उस आनंद को उत्पन्न नहीं कर सकता, जिसकी मैं बात करता हूँ,<br>\\n    यह परमेश्वर से आता है, नम्र लोगों को दिया जाता है।<br>\\n    यह तुम्हें भीतर शांति रखते हुए दुःख सहने देता है।<br>\\n    यह केवल पाप की उपस्थिति में ही चला जाता है।<br>\\n    आनंद जीवन की परीक्षाओं से तुम्हें पार ले जाता है।<br>\\n    तुम्हारे हृदय में ऐसी शांति, जो क्षमा करती रहती है।<br>\\n    यह हमें नहीं छोड़ता, उन संघर्षों में भी जिनका हम सामना करते हैं।<br>\\n    बल्कि साहस देता है और हमें अनुग्रह में बनाए रखता है।<br>\\n    आनंद ऐसी चीज़ है जिसे यह संसार नहीं जानता।<br>\\n    यह सुख से नहीं आता, न ही बढ़ती हुई भावनाओं से;<br>\\n    बल्कि उस शांति से आता है जो केवल परमेश्वर देता है।<br>\\n    यह उद्धार पाए हुओं के लिए है, और उस जीवन के लिए जो वह जीता है।<br>\\n    तो फिर इतने लोग इस महान उपहार को क्यों ठुकराते हैं?<br>\\n    जो चंगाई देने और बोझ हल्का करने के लिए जाना जाता है।<br>\\n    यदि तुम पाते हो कि ऊपर से मिलने वाला आनंद तुममें नहीं है,<br>\\n    तो उद्धारकर्ता और उसके छुटकारा देने वाले प्रेम की ओर मुड़ो!</p>\\n\\n    <p class=\\\"byline\\\"><em>– Barry Grant</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"आनंद\"}",
+    "content_bytes": 3032,
+    "content_evidence_truncated": false,
+    "content_sha256": "3b72324276b999759499781e970d600b521b74ef34d201485935ba1100d50547",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1969
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

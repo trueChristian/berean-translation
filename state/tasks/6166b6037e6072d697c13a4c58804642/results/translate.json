@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7e0d2a79-7c0a-4ae6-afdb-ec39b7aa5aaa",
+    "response_id": "chatcmpl-EV1bpbu9a8ZqzoQndkViGvUZF0tl7",
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 105,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1323,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1320,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1880
+    }
+  },
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"Montanhas azuis em camadas sob um céu cor de pêssego quente\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Um fruto do Espírito é uma palavra que todos conhecemos.<br>\n    A alegria é uma bênção para nós, crentes aqui na terra.<br>\n    O ser humano não pode produzir a alegria de que falo,<br>\n    Ela vem de Deus, dada aos mansos.<br>\n    Ela permite que você sofra, tendo paz interior.<br>\n    Só vai embora na presença do pecado.<br>\n    A alegria conduz você pelas provações da vida.<br>\n    Uma paz no coração que continua a perdoar.<br>\n    Ela não nos abandona; mesmo nas lutas que enfrentamos.<br>\n    Pelo contrário, dá coragem e nos mantém na graça.<br>\n    A alegria é algo que este mundo não conhece.<br>\n    Ela não vem do prazer nem de sentimentos que crescem;<br>\n    Mas vem da paz que só Deus dá.<br>\n    É para os redimidos e para a vida que Ele vive.<br>\n    Então, por que tantos rejeitam este grande dom?<br>\n    Conhecido por curar e aliviar fardos.<br>\n    Se você perceber que lhe falta a alegria do alto,<br>\n    Volte-se para o Salvador e para o Seu amor redentor!</p>\n\n    <p class=\"byline\"><em>– Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "ALEGRIA"
+  }
+}

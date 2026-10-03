@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\\\" alt=\\\"Lagdelte blå fjell under en varm, ferskenfarget himmel\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>En av Åndens frukter er et ord vi alle kjenner.<br>\\n    Glede er en velsignelse for oss troende her nede.<br>\\n    Mennesket kan ikke skape den gleden jeg taler om,<br>\\n    Den kommer fra Gud, gitt til de ydmyke.<br>\\n    Den gjør det mulig for deg å lide og likevel ha fred inni deg.<br>\\n    Den forlater deg først når synden er til stede.<br>\\n    Gleden hjelper deg gjennom livets prøvelser.<br>\\n    En fred i hjertet ditt som stadig tilgir.<br>\\n    Den svikter oss ikke gjennom kampene vi møter.<br>\\n    Men gir oss heller mot og holder oss i nåden.<br>\\n    Glede er noe denne verden ikke kjenner.<br>\\n    Den kommer ikke fra nytelse eller følelser som vokser,<br>\\n    Men fra den freden som bare Gud gir.<br>\\n    Den er for de forløste og for livet han lever.<br>\\n    Så hvorfor avviser så mange denne store gaven?<br>\\n    Den er kjent for å lege og lette byrder.<br>\\n    Hvis du oppdager at du mangler gleden ovenfra,<br>\\n    Vend deg til Frelseren og hans forløsende kjærlighet!</p>\\n\\n    <p class=\\\"byline\\\"><em>– Barry Grant</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"GLEDE\"}",
+    "content_bytes": 1425,
+    "content_evidence_truncated": false,
+    "content_sha256": "7b77e1ec4558a14f369f03d8ff24f803c700b73cd3848c34b40ecb8a50d78462",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 609,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1323,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1935
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

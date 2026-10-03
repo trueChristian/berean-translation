@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:10+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cf07f132-92d4-49ba-b318-52520f77ca67\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg\\\" alt=\\\"La lumière du soleil traversant un feuillage forestier\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Son oreiller était trempé, les larmes continuaient de couler,<br>\\n    Oh ! Où est le jour ? Cette nuit n’en finissait pas.<br>\\n    Il avait pris des décisions ; il ne les oublierait jamais.<br>\\n    Sa femme et ses enfants… quel regret !<br>\\n    (On ne sait pas ce qu’on a avant de l’avoir perdu.)<br>\\n    Il saisit la bouteille, en attendant l’aube.<br>\\n    Les jours passaient, ils semblaient se confondre.<br>\\n    Il avait besoin de réponses pour remettre les choses en ordre.<br>\\n    « Va voir tes voisins », entendit-il, une petite voix.<br>\\n    « Mais c’est un chrétien ! » Cette pensée lui parut absurde.<br>\\n    « Il a les réponses, alors n’attends pas ! »<br>\\n    Il décida d’y aller, mais pas aujourd’hui.<br>\\n    Il s’allongea sur son lit, son fardeau trop lourd.<br>\\n    « Va voir tes voisins, il n’est pas encore trop tard ! »<br>\\n    L’appel était si fort qu’il se releva,<br>\\n    Enfila ses bottes et se dirigea vers la porte.<br>\\n    Son voisin était chez lui, le sourire si chaleureux ;<br>\\n    Il lui parla de Jésus, qui transformerait sa vie.<br>\\n    Les paroles qu’il prononçait semblaient à peine croyables.<br>\\n    Tout devenait si clair ! Il pleura, bouleversé.<br>\\n    L’amour de Dieu inonda son âme démunie,<br>\\n    Il sut, sans aucun doute, qu’il était rétabli.<br>\\n    Sans attendre, il appela sa femme.<br>\\n    « Oh, je t’en prie, rentre à la maison, Dieu a ôté la haine ! »<br>\\n    Avec sa famille à ses côtés, ses péchés au fond de la mer,<br>\\n    Il avait bien hâte de devenir celui que Dieu l’avait créé pour être.</p>\\n\\n    <p class=\\\"byline\\\">– Barry Grant</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Racheté\"}",
+    "content_bytes": 2052,
+    "content_evidence_truncated": false,
+    "content_sha256": "448d4aa29975f71575160855adaf604e6bb98e5ef6bb21c57861a834025979ad",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 150,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1453,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1450,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2227
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

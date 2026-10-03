@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:13+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\\\" alt=\\\"\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">A igreja primitiva, em tempos antigos,<br>\\n    Desejava contar<br>\\n    Ao pecador sobre Jesus Cristo,<br>\\n    Sobre o céu e o inferno.</p>\\n  <p class=\\\"poem\\\">De fato, não eram almas perfeitas,<br>\\n    Mas ainda assim amavam seu Senhor;<br>\\n    E se esforçavam por cumprir este mandamento,<br>\\n    Apesar do perigo e da espada.</p>\\n  <p class=\\\"poem\\\">Quanto mais pessoas convertiam,<br>\\n    Mais crescia a tensão.<br>\\n    Os governantes perversos da terra<br>\\n    Não sabiam o que fazer.</p>\\n  <p class=\\\"poem\\\">Muitos foram queimados na fogueira,<br>\\n    Alguns, postos em masmorras frias,<br>\\n    Porque espalhavam a palavra do Evangelho<br>\\n    Com fé e coragem destemida.</p>\\n  <p class=\\\"poem\\\">Esses bravos soldados, que tanto sofreram,<br>\\n    Eram, de fato, luzes brilhantes,<br>\\n    Mas ainda viam a necessidade<br>\\n    De falar de Deus aos outros.</p>\\n  <p class=\\\"poem\\\">Desde então, muitos anos se passaram;<br>\\n    Nós, cristãos, tendemos a dizer:<br>\\n    “Seja um exemplo para o mundo;<br>\\n    Não é preciso indicar o caminho.”</p>\\n  <p class=\\\"poem\\\">Mas, se esse ponto de vista fosse verdadeiro,<br>\\n    Eu gostaria de saber:<br>\\n    Assim como a igreja em tempos antigos,<br>\\n    Por que a nossa igreja não cresce?</p>\\n  <p class=\\\"poem\\\">Será que, na América,<br>\\n    O fervor se esfriou?<br>\\n    Se a fé é algo bom, por que não a compartilhamos<br>\\n    Como os santos de outrora?</p>\\n  <p class=\\\"poem\\\">Em outras terras, justamente hoje,<br>\\n    O fogo arde intensamente;<br>\\n    Porque ali os cristãos são zelosos<br>\\n    E lutam com vigor.</p>\\n  <p class=\\\"poem\\\">Enquanto agradecemos a Deus pela liberdade que temos,<br>\\n    Eles louvam seu Senhor nas alturas.<br>\\n    E agradecem a Ele por, por amor a Jesus,<br>\\n    Sofrerem e morrerem.</p>\\n  <p class=\\\"poem\\\">Assim, enquanto mártires em outras terras<br>\\n    Derramam seu sangue por Deus,<br>\\n    Se também espalhássemos a Palavra de Deus,<br>\\n    Nosso sangue mancharia nosso solo.</p>\\n  <p class=\\\"poem\\\">Será uma bênção de nosso Deus<br>\\n    Que nosso país seja livre?<br>\\n    Ou será porque não somos uma “ameaça”<br>\\n    para a sociedade?</p>\\n  <p class=\\\"poem\\\">Temos vergonha ou não temos tempo?<br>\\n    Queridos amigos, a hora está próxima.<br>\\n    Se não levarmos as pessoas a Deus,<br>\\n    A população morrerá.</p>\\n  <p class=\\\"poem\\\">Assim, para concluir, amigos, vamos seguir<br>\\n    O caminho trilhado por Jesus,<br>\\n    Mostrando às almas perdidas o caminho estreito,<br>\\n    Que conduz as pessoas de volta a Deus.</p>\\n  <p class=\\\"signature\\\">– Darren Brubaker</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"O chamado ao trabalho\"}",
+    "content_bytes": 2950,
+    "content_evidence_truncated": false,
+    "content_sha256": "be0af4e239a1f2f19139222347590d4b352927ea9521d099c47f6acad9981baa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1033,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 117,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1759,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2795
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

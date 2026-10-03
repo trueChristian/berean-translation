@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "da7dcc0e-bab1-4e76-bb95-8045bfa2759b",
+    "response_id": "chatcmpl-EV1X4OuPtytO5evhGE3WGVZYmWoEC",
+    "usage": {
+      "completion_tokens": 778,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 170,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1460,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1457,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2238
+    }
+  },
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cf07f132-92d4-49ba-b318-52520f77ca67\">\n  <figure>\n    <img src=\"/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg\" alt=\"Luz do sol atravessando a folhagem de uma floresta\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Seu travesseiro estava molhado, as lágrimas não paravam de cair,<br>\n    Ah! Onde está o dia? Esta noite não queria partir.<br>\n    As decisões que tomou, jamais iria esquecer.<br>\n    Sua esposa e seus filhos, que arrependimento a sentir!<br>\n    (Não sabemos o que temos até perder.)<br>\n    Estendeu a mão para a garrafa, à espera do amanhecer.<br>\n    Os dias iam e vinham, tudo parecia se embaralhar.<br>\n    Precisava de respostas, de um jeito de as coisas consertar.<br>\n    “Vá aos seus vizinhos”, ouviu uma voz pequenina.<br>\n    “Mas ele é cristão!”, pensou; que ideia tão absurda.<br>\n    “Ele tem as respostas, não demore mais!”<br>\n    Decidiu ir, mas não naquele dia, talvez.<br>\n    Deitou-se na cama, o fardo era pesado demais.<br>\n    “Vá aos seus vizinhos, ainda não é tarde demais!”<br>\n    O chamado foi tão forte que se ergueu do chão,<br>\n    Calçou as botas e foi até o portão.<br>\n    O vizinho estava em casa, sorrindo com calor;<br>\n    Falou-lhe de Jesus, que transformaria sua vida com amor.<br>\n    Mal parecia verdade o que ele lhe dizia.<br>\n    Tudo ficou tão claro! Ele chorou enquanto desabava.<br>\n    O amor de Deus inundou sua alma necessitada,<br>\n    E ele soube, sem dúvida, que sua vida fora restaurada.<br>\n    Sem demora, telefonou para a esposa, então:<br>\n    “Ah, por favor, volte para casa; Deus levou o ódio do coração!”<br>\n    Com a família ao seu lado, seus pecados no mar,<br>\n    Mal podia esperar para ser quem Deus o criou para ser.</p>\n\n    <p class=\"byline\">– Barry Grant</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Redimido"
+  }
+}

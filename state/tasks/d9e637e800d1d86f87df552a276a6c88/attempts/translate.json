@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\\\" alt=\\\"Geschichtete blaue Berge unter einem warmen pfirsichfarbenen Himmel\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Eine Frucht des Geistes ist ein Wort, das wir alle kennen.<br>\\n    Freude ist ein Segen für uns Gläubige hier unten.<br>\\n    Der Mensch kann die Freude, von der ich spreche, nicht hervorbringen,<br>\\n    sie kommt von Gott und wird den Demütigen geschenkt.<br>\\n    Sie lässt dich leiden und doch inneren Frieden haben.<br>\\n    Sie weicht erst, wenn Sünde gegenwärtig ist.<br>\\n    Freude trägt dich durch die Prüfungen des Lebens.<br>\\n    Frieden in deinem Herzen, der immer weiter vergibt.<br>\\n    Sie verlässt uns nicht in den Kämpfen, denen wir uns stellen.<br>\\n    Vielmehr schenkt sie Mut und bewahrt uns in der Gnade.<br>\\n    Freude ist etwas, das diese Welt nicht kennt.<br>\\n    Sie kommt weder von Vergnügen noch von wachsenden Gefühlen;<br>\\n    sie kommt von dem Frieden, den nur Gott schenkt.<br>\\n    Sie ist für die Erlösten und für das Leben, das er führt.<br>\\n    Warum also lehnen so viele dieses große Geschenk ab?<br>\\n    Es ist bekannt dafür, zu heilen und Lasten zu erleichtern.<br>\\n    Wenn dir die Freude von oben fehlt,<br>\\n    wende dich dem Retter und seiner erlösenden Liebe zu!</p>\\n\\n    <p class=\\\"byline\\\"><em>– Barry Grant</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"FREUDE\"}",
+    "content_bytes": 1560,
+    "content_evidence_truncated": false,
+    "content_sha256": "5b720505ec6b35fc68bb8f23524bcd145d715f7df47be60f50d362b8de4b99c7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 474,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1311,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1788
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

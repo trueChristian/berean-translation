@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b3b4549a-5e6c-4af8-a130-5bf54ee01ce3",
+    "response_id": "chatcmpl-EV1YIEUNLufcIVFxoL1F4YbP1Cpi1",
+    "usage": {
+      "completion_tokens": 596,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1314,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1913
+    }
+  },
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"Milima ya buluu iliyopangwa tabakani chini ya anga la rangi ya pichi yenye joto\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Tunda moja la Roho ni neno ambalo sote tunalijua.<br>\n    Furaha ni baraka kwetu sisi waumini hapa duniani.<br>\n    Mwanadamu hawezi kuizalisha Furaha ninayoizungumzia,<br>\n    Hutoka kwa Mungu, akiwapa walio wapole.<br>\n    Hukuwezesha kuteseka huku ukiwa na amani moyoni.<br>\n    Huondoka tu dhambi inapokuwapo.<br>\n    Furaha hukuvusha katika majaribu ya maisha.<br>\n    Amani moyoni mwako ambayo huendelea kusamehe.<br>\n    Haituachi; hata tunapokabiliwa na mapambano.<br>\n    Bali hutupa ujasiri na kutuweka katika neema.<br>\n    Furaha ni kitu ambacho ulimwengu huu haukijui.<br>\n    Haitokani na anasa, wala hisia zinazoongezeka;<br>\n    Bali hutokana na amani ambayo Mungu pekee ndiye hutoa.<br>\n    Ni kwa ajili ya waliokombolewa, na maisha anayoishi.<br>\n    Basi kwa nini wengi sana wanakataa zawadi hii kuu?<br>\n    Inayojulikana kwa kuponya na kuondoa mizigo.<br>\n    Ukijikuta umepungukiwa na Furaha itokayo juu,<br>\n    Mgeukie Mwokozi na upendo wake wa ukombozi!</p>\n\n    <p class=\"byline\"><em>– Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "FURAHA"
+  }
+}

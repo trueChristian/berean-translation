@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\\\" alt=\\\"\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Gereja mula-mula pada zaman dahulu<br>\\n    Ingin sekali menyampaikan<br>\\n    Kepada orang berdosa tentang Yesus Kristus,<br>\\n    Tentang surga dan neraka.</p>\\n  <p class=\\\"poem\\\">Memang, mereka bukan jiwa yang sempurna,<br>\\n    Namun mereka mengasihi Tuhan;<br>\\n    Dan berusaha menaati perintah ini<br>\\n    Meski menghadapi bahaya dan pedang.</p>\\n  <p class=\\\"poem\\\">Semakin banyak orang yang mereka pertobatkan,<br>\\n    Semakin besar ketegangan yang timbul.<br>\\n    Para penguasa negeri yang jahat<br>\\n    Tak tahu harus berbuat apa.</p>\\n  <p class=\\\"poem\\\">Banyak orang dibakar di tiang pancang,<br>\\n    Sebagian dijebloskan ke ruang bawah tanah yang dingin,<br>\\n    Karena mereka menyebarkan firman Injil<br>\\n    Dengan iman dan keberanian yang teguh.</p>\\n  <p class=\\\"poem\\\">Para prajurit pemberani ini, yang banyak menderita,<br>\\n    Sungguh merupakan terang yang cemerlang,<br>\\n    Namun mereka tetap merasa perlu<br>\\n    Memberitakan tentang Allah kepada orang lain.</p>\\n  <p class=\\\"poem\\\">Kini, bertahun-tahun telah berlalu sejak masa itu;<br>\\n    Kita orang Kristen cenderung berkata,<br>\\n    “Jadilah teladan bagi dunia;<br>\\n    Tak perlu memberitahukan jalannya.”</p>\\n  <p class=\\\"poem\\\">Namun jika pandangan ini benar,<br>\\n    Maka aku ingin tahu:<br>\\n    Sebagaimana gereja pada zaman dahulu,<br>\\n    Mengapa gereja kita tidak bertumbuh?</p>\\n  <p class=\\\"poem\\\">Apakah di Amerika,<br>\\n    Api itu telah meredup?<br>\\n    Jika iman itu baik, mengapa kita tidak membagikannya<br>\\n    Seperti yang dilakukan orang-orang kudus dahulu?</p>\\n  <p class=\\\"poem\\\">Di negeri-negeri lain pada hari ini,<br>\\n    Api itu berkobar terang;<br>\\n    Karena orang-orang Kristen di sana bersemangat<br>\\n    Dan giat berjuang.</p>\\n  <p class=\\\"poem\\\">Sementara kita bersyukur kepada Allah atas kebebasan di sini,<br>\\n    Mereka memuji Tuhan mereka di tempat yang tinggi.<br>\\n    Dan bersyukur kepada-Nya bahwa demi Yesus<br>\\n    Mereka menderita dan mati.</p>\\n  <p class=\\\"poem\\\">Maka, sementara para martir di negeri-negeri lain<br>\\n    Menumpahkan darah demi Allah,<br>\\n    Jika kita juga ingin menyebarkan firman Allah,<br>\\n    Darah kita akan membasahi tanah kita.</p>\\n  <p class=\\\"poem\\\">Apakah kebebasan negeri kita<br>\\n    Merupakan berkat dari Allah?<br>\\n    Ataukah karena kita bukan “ancaman”<br>\\n    Bagi masyarakat?</p>\\n  <p class=\\\"poem\\\">Apakah kita malu atau tidak punya waktu?<br>\\n    Sahabat-sahabat terkasih, waktunya sudah dekat.<br>\\n    Jika kita tidak membawa orang-orang kepada Allah,<br>\\n    Penduduk negeri ini akan binasa.</p>\\n  <p class=\\\"poem\\\">Jadi, sebagai penutup, sahabat-sahabat, mari kita tempuh<br>\\n    Jalan yang dilalui Yesus,<br>\\n    Menunjukkan kepada jiwa-jiwa yang tersesat jalan yang sempit,<br>\\n    Yang menuntun manusia pulang kepada Allah.</p>\\n  <p class=\\\"signature\\\">– Darren Brubaker</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Panggilan untuk Bekerja\"}",
+    "content_bytes": 3185,
+    "content_evidence_truncated": false,
+    "content_sha256": "76f9c3d768d712ffc7d15e44cd77c73cf29429caa1d14d6a9bb755c5c5bb643c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1046,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 58,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1755,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1752,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2801
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

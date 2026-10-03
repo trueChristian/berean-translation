@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8e8deeea-07f5-41aa-9b0a-62548199bfd0",
+    "response_id": "chatcmpl-EV1ZPUE5blln23rmPIIabOGqZPOTH",
+    "usage": {
+      "completion_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 215,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1316,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1313,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2037
+    }
+  },
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"Pegunungan biru berlapis di bawah langit berwarna persik hangat\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Salah satu buah Roh adalah kata yang kita semua kenal.<br>\n    Sukacita adalah berkat bagi kita, orang-orang percaya di bumi.<br>\n    Manusia tak dapat menghasilkan Sukacita yang kumaksud,<br>\n    Sukacita datang dari Allah, dianugerahkan kepada orang yang lemah lembut.<br>\n    Sukacita memampukanmu menderita dengan damai di dalam hati.<br>\n    Sukacita hanya lenyap ketika dosa hadir.<br>\n    Sukacita menolongmu melewati pencobaan hidup.<br>\n    Damai di hatimu yang terus mengampuni.<br>\n    Sukacita tidak meninggalkan kita saat menghadapi pergumulan.<br>\n    Sebaliknya, sukacita memberi keberanian dan menjaga kita dalam kasih karunia.<br>\n    Sukacita adalah sesuatu yang tidak dikenal dunia ini.<br>\n    Sukacita bukan berasal dari kesenangan, ataupun perasaan yang tumbuh;<br>\n    Melainkan dari damai yang hanya Allah berikan.<br>\n    Sukacita diperuntukkan bagi mereka yang telah ditebus, dan kehidupan yang mereka jalani.<br>\n    Jadi, mengapa begitu banyak orang menolak anugerah yang besar ini?<br>\n    Anugerah yang dikenal memulihkan dan mengangkat beban.<br>\n    Jika kau merasa kekurangan Sukacita dari atas,<br>\n    Berpalinglah kepada Sang Juruselamat dan kasih-Nya yang menebus!</p>\n\n    <p class=\"byline\"><em>– Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "SUKACITA"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/blockquote[2]/p[1]; translation /article[1]/blockquote[2]/p[1]/br[12]",
+      "severity": "critical",
+      "source_quote": "<p>‘Twas you, my sins, my cruel sins,<br>\n    His chief tormentors were.<br>\n    Each of my crimes became a nail,<br>\n    And unbelief the spear.<br>\n    ‘Twas you that pulled the vengeance down<br>\n    Upon His guiltless head:<br>\n    Break, break, my heart, oh burst my eyes!<br>\n    And let my sorrows bleed.<br>\n    Strike, mighty grace, my flinty soul,<br>\n    Till melting waters flow,<br>\n    And deep repentance drowns<br>\n    My eyes in sorrow and in woe.” –Watts</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[95:95], translation signature[95:96], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>اے میرے گناہو، یہ تم ہی تھے،<br>\n    میرے ظالم گناہو، جو اُس کے<br>\n    سب سے بڑے اذیت دینے والے تھے۔<br>\n    میرا ہر جرم ایک کیل بن گیا،<br>\n    اور بےایمانی نیزہ۔<br>\n    تم ہی نے اُس کے بےگناہ سر پر<br>\n    انتقام اتارا:<br>\n    ٹوٹ جا، ٹوٹ جا، اے میرے دل، اے میری آنکھو پھٹ پڑو!<br>\n    اور میرے غم کو لہو لہان ہونے دو۔<br>\n    اے زورآور فضل، میری چقماقی روح پر ضرب لگا،<br>\n    یہاں تک کہ پگھلتے پانی بہنے لگیں،<br>\n    اور گہری توبہ<br>\n    میری آنکھوں کو غم و اندوہ میں ڈبو دے۔“—واٹس</p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[95]: source /article[1]/blockquote[2]/p[1] ('end', 'p'); translation /article[1]/blockquote[2]/p[1]/br[12] ('start', 'br', ())",
+  "stage": "translate"
+}

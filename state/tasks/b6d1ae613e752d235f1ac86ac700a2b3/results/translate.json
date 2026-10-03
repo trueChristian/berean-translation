@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5c6951f1-05ad-4fb0-bac2-edd82b33c97e",
+    "response_id": "chatcmpl-EV1bExOmelB3HFPj6xX6VFrRsdxz2",
+    "usage": {
+      "completion_tokens": 1044,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1756,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1753,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2800
+    }
+  },
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\">\n  <figure>\n    <img src=\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\" alt=\"\">\n  </figure>\n  <p class=\"poem\">Die vroeë kerk in dae van ouds<br>\n    Het die begeerte gehad om te vertel<br>\n    Van Jesus Christus aan die sondaar,<br>\n    Van die hemel en die hel.</p>\n  <p class=\"poem\">Voorwaar, hulle was nie volmaakte siele nie,<br>\n    Maar tog het hulle hul Here liefgehad;<br>\n    En hulle het daarna gestreef om hierdie opdrag te volg,<br>\n    Ten spyte van gevaar en die swaard.</p>\n  <p class=\"poem\">Hoe meer mense hulle bekeer het,<br>\n    Hoe groter het die spanning geword.<br>\n    Die goddelose heersers van die land<br>\n    Het nie geweet wat om te doen nie.</p>\n  <p class=\"poem\">Baie mense is op die brandstapel verbrand,<br>\n    Sommige in koue kerkers opgesluit,<br>\n    Omdat hulle die evangelieboodskap versprei het<br>\n    Met geloof en dapper moed.</p>\n  <p class=\"poem\">Hierdie dapper soldate wat baie gely het<br>\n    Was inderdaad sulke helder ligte,<br>\n    Maar hulle het steeds die behoefte ingesien<br>\n    Om ander van God te vertel.</p>\n  <p class=\"poem\">Nou het baie jare sedertdien verbygegaan;<br>\n    Ons Christene sê gewoonlik<br>\n    “Wees ’n voorbeeld vir die wêreld;<br>\n    Jy hoef nie die weg te wys nie.”</p>\n  <p class=\"poem\">Maar as hierdie beskouing waar was,<br>\n    Dan wil ek graag weet:<br>\n    Soos die kerk in dae van ouds,<br>\n    Waarom groei ons kerk nie?</p>\n  <p class=\"poem\">Is dit omdat die vuur in Amerika<br>\n    Koud geword het?<br>\n    As geloof goed is, waarom deel ons dit nie<br>\n    Soos die heiliges van ouds nie?</p>\n  <p class=\"poem\">In ander lande brand die vuur<br>\n    Juis vandag helder;<br>\n    Omdat Christene daar ywerig is<br>\n    En kragtig stry.</p>\n  <p class=\"poem\">Terwyl ons God dank vir vryheid hier,<br>\n    Prys hulle hul Here in die hoogte.<br>\n    En dank hulle Hom dat hulle ter wille van Jesus<br>\n    Ly en sterf.</p>\n  <p class=\"poem\">Terwyl martelare in ander lande<br>\n    Bloed vir God vergiet,<br>\n    As ons ook God se Woord sou versprei,<br>\n    Sou ons bloed ons grond bevlek.</p>\n  <p class=\"poem\">Is dit ’n seën van ons God<br>\n    Dat ons land vry is?<br>\n    Of is dit omdat ons nie ’n “bedreiging”<br>\n    Vir die samelewing is nie?</p>\n  <p class=\"poem\">Is ons skaam of het ons nie tyd nie?<br>\n    Liewe vriende, die tyd is naby.<br>\n    As ons nie die mense na God bring nie,<br>\n    Sal die bevolking sterf.</p>\n  <p class=\"poem\">Dus, ten slotte, vriende, laat ons<br>\n    Die pad loop wat Jesus geloop het,<br>\n    Verlore siele die smal weg wys,<br>\n    Wat mense huis toe na God lei.</p>\n  <p class=\"signature\">– Darren Brubaker</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Die oproep om te arbei"
+  }
+}

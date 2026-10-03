@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\\\" alt=\\\"Flores de coração-sangrento cor-de-rosa sobre um fundo verde suavemente desfocado\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Será só quando o coração se parte,<br>\\n    Quando a confusão se agita ao meu redor,<br>\\n    Que busco de verdade os braços do meu Salvador<br>\\n    E a Ele se volta a minha vontade?</p>\\n\\n    <p>Será só na escuridão,<br>\\n    Quando não consigo encontrar o caminho;<br>\\n    Ou quando me perguntam algo que não sei<br>\\n    Que penso em parar e orar?</p>\\n\\n    <p>Será só quando sinto<br>\\n    A força do mal reunida ao meu redor<br>\\n    Que busco a proteção dEle,<br>\\n    Para encontrar abrigo em Seus braços?</p>\\n\\n    <p>Oh, meu coração insensato!<br>\\n    Como podes chamá-Lo de teu melhor amigo<br>\\n    Se é só nas provações<br>\\n    Que dependes dEle?</p>\\n\\n    <p>Nos bons momentos também precisas dEle,<br>\\n    Talvez ainda mais desesperadamente;<br>\\n    Pois é mais fácil esquecer de buscá-Lo<br>\\n    Quando pensas que vês claramente o caminho.</p>\\n\\n    <p>Mesmo quando deixas de ouvi-Lo,<br>\\n    Quando não permaneces ao lado dEle,<br>\\n    Ele te ouvirá quando clamares a Ele<br>\\n    E depositares nEle as tuas aflições.</p>\\n\\n    <p>Mas quanto melhor seria<br>\\n    Buscar sinceramente a Sua face,<br>\\n    Tanto nos momentos mais tranquilos da vida<br>\\n    Quanto nos mais difíceis!</p>\\n\\n    <p>Buscar e procurar, permanecer ao Seu lado,<br>\\n    Compartilhar a alegria e a tristeza;<br>\\n    O desconhecido está em Suas mãos; Ele estará ao teu lado<br>\\n    Para o que quer que venha amanhã.</p>\\n\\n    <p class=\\\"byline\\\"><em>– por Katie Good</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Só na escuridão\"}",
+    "content_bytes": 1917,
+    "content_evidence_truncated": false,
+    "content_sha256": "f3a6a633b60f2fad8b3cf5f30d5c7da7cf7f8cb1a0da028adaef6bb1237b3234",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 813,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 217,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1473,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1470,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2286
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

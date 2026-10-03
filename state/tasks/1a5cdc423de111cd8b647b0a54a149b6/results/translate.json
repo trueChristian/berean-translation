@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c1b4a84e-b8be-46ca-898e-331c498001a1",
+    "response_id": "chatcmpl-EV1YJqEC7mcQFzVD6NxqFfSAzY7VG",
+    "usage": {
+      "completion_tokens": 745,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1470,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1467,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2215
+    }
+  },
+  "received_at": "2026-10-03T21:50:10+00:00",
+  "result": {
+    "html": "<article data-article-id=\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\">\n  <figure>\n    <img src=\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\" alt=\"פרחי לב מדמם ורודים על רקע ירוק מטושטש ברכות\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>האם רק בשברון הלב,<br>\n    כשהבלבול סביבי סוער,<br>\n    אני באמת מחפש את זרועות מושיעי<br>\n    ורצוני פונה אליו?</p>\n\n    <p>האם רק בחשכה,<br>\n    כשאיני רואה את הדרך;<br>\n    או כששואלים אותי על דבר שאיני יודע,<br>\n    אני חושב לעצור ולהתפלל?</p>\n\n    <p>האם רק כשאני חש<br>\n    את כוח הרשע מתאסף סביבי,<br>\n    אני מבקש את הגנתו;<br>\n    למצוא מחסה בזרועותיו?</p>\n\n    <p>הו, לבי האווילי!<br>\n    איך תוכל לקרוא לו חברך הטוב ביותר,<br>\n    אם רק בעת צרותיך<br>\n    אתה נשען עליו?</p>\n\n    <p>גם בזמנים טובים אתה זקוק לו,<br>\n    אולי אפילו יותר נואשות;<br>\n    כי קל יותר לשכוח לבקש אותו<br>\n    כשהדרך נדמית לך ברורה.</p>\n\n    <p>גם כשאינך מצליח לשמוע אותו,<br>\n    כשאינך מצליח להישאר לצדו,<br>\n    הוא ישמע אותך כשתזעק אליו<br>\n    ותטיל עליו את צרותיך.</p>\n\n    <p>אך כמה טוב יותר יהיה<br>\n    לבקש את פניו בכל לב<br>\n    בזמנים הקלים יותר של החיים<br>\n    כפי שאתה מבקש אותם בזמנים הקשים!</p>\n\n    <p>לבקש ולחפש, להישאר לצדו,<br>\n    לחלוק בשמחה ובצער,<br>\n    את הלא־נודע להפקיד בידיו; הוא יהיה לצדך<br>\n    בכל אשר יביא עמו יום המחר.</p>\n\n    <p class=\"byline\"><em>–מאת קייטי גוד</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "רק בחשכה"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\\\" alt=\\\"Flores rosadas de corazón sangrante sobre un fondo verde suavemente desenfocado\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>¿Es solo cuando el corazón se quiebra,<br>\\n    cuando la confusión a mi alrededor se agita,<br>\\n    que de verdad busco los brazos de mi Salvador<br>\\n    y mi voluntad hacia Él se inclina?</p>\\n\\n    <p>¿Es solo en la oscuridad,<br>\\n    cuando no puedo encontrar mi camino;<br>\\n    o cuando me preguntan algo que no sé,<br>\\n    que pienso en detenerme y orar?</p>\\n\\n    <p>¿Es solo cuando siento<br>\\n    que la fuerza del mal se reúne a mi alrededor<br>\\n    que busco Su protección,<br>\\n    para hallar refugio en Sus brazos?</p>\\n\\n    <p>¡Oh, necio corazón mío!<br>\\n    ¿Cómo puedes llamarlo tu mejor amigo<br>\\n    si solo en tus pruebas<br>\\n    dependerás de Él?</p>\\n\\n    <p>También lo necesitas en los buenos tiempos,<br>\\n    quizá con más desesperación;<br>\\n    pues es más fácil olvidar buscarlo<br>\\n    cuando crees ver el camino.</p>\\n\\n    <p>Aun cuando no logres oírlo,<br>\\n    cuando no logres permanecer a Su lado,<br>\\n    Él te oirá cuando clames a Él<br>\\n    y deposites en Él tus preocupaciones.</p>\\n\\n    <p>¡Pero cuánto mejor sería<br>\\n    buscar Su rostro con fervor,<br>\\n    tanto en los tiempos más apacibles de la vida<br>\\n    como en los más difíciles!</p>\\n\\n    <p>Buscar y escudriñar, permanecer a Su lado,<br>\\n    compartir la alegría y el dolor;<br>\\n    lo desconocido está en Sus manos, Él estará a tu lado<br>\\n    ante lo que pueda traer el mañana.</p>\\n\\n    <p class=\\\"byline\\\"><em>–por Katie Good</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Solo en la oscuridad\"}",
+    "content_bytes": 1897,
+    "content_evidence_truncated": false,
+    "content_sha256": "5fc72f597cbbcf7053d5d25908327046b0e0083e289a691cec4fa794dba3ee04",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 758,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 164,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1469,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1466,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2227
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

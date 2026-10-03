@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cf07f132-92d4-49ba-b318-52520f77ca67\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg\\\" alt=\\\"Sollys som strømmer gjennom en løvrik skog\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Puten var våt, tårene fortsatte å renne,<br>\\n    Å! Hvor er dagen? Natten ville ikke ta slutt.<br>\\n    Valgene han tok, ville han aldri glemme.<br>\\n    Hans kone og barn, å, for en anger!<br>\\n    (Du vet ikke hva du har før det er borte.)<br>\\n    Han grep etter flasken mens han ventet på daggry.<br>\\n    Dagene kom og gikk, alt virket som en tåke.<br>\\n    Han trengte noen svar, for å rette opp tingene.<br>\\n    «Gå til naboene dine», hørte han en liten stemme.<br>\\n    «Men han er kristen!» virket tanken absurd.<br>\\n    «Han har svarene, så ikke vent!»<br>\\n    Han bestemte seg for å gå, men ikke i dag.<br>\\n    Han lå på sengen, byrden var for tung.<br>\\n    «Gå til naboene dine, det er ennå ikke for sent!»<br>\\n    Kallet var så sterkt at han reiste seg fra gulvet,<br>\\n    Tok på seg støvlene og gikk mot døren.<br>\\n    Naboen var hjemme, med et så varmt smil;<br>\\n    Han fortalte ham om Jesus, som ville forvandle livet hans.<br>\\n    Det han sa, virket knapt troverdig.<br>\\n    Alt ble så klart! Han gråt da han brøt sammen.<br>\\n    Guds kjærlighet fylte den trengende sjelen hans,<br>\\n    Han visste uten tvil at han var blitt gjort hel.<br>\\n    Han ringte straks kona si.<br>\\n    «Å, vær så snill og kom hjem, Gud har tatt bort hatet!»<br>\\n    Med familien ved sin side, og syndene sine i havet,<br>\\n    kunne han knapt vente med å bli den Gud hadde skapt ham til å være.</p>\\n\\n    <p class=\\\"byline\\\">– Barry Grant</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Forløst\"}",
+    "content_bytes": 1843,
+    "content_evidence_truncated": false,
+    "content_sha256": "cfa518a6819407e1583ce1235f7fa588313884225ea7b7a9719d3ebe132f69b5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 205,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1463,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1460,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2282
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

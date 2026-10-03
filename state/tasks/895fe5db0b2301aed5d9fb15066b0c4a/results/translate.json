@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "26a8a850-c843-49e6-9d02-585819806ec3",
+    "response_id": "chatcmpl-EV1XDQ4u539xIlvCxM0ShUeqzGb5P",
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 125,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1314,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1943
+    }
+  },
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"Gelaagde blou berge onder ’n warm perskekleurige lug\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Een vrug van die Gees is ’n woord wat ons almal ken.<br>\n    Vreugde is ’n seën vir ons gelowiges hier benede.<br>\n    Die mens kan nie die vreugde voortbring waarvan ek praat nie,<br>\n    Dit kom van God, gegee aan die sagmoediges.<br>\n    Dit stel jou in staat om te ly, terwyl jy vrede binne-in jou het.<br>\n    Dit verdwyn slegs wanneer sonde teenwoordig is.<br>\n    Vreugde dra jou deur die beproewinge van die lewe.<br>\n    ’n Vrede in jou hart wat aanhou vergewe.<br>\n    Dit verlaat ons nie deur die stryd wat ons in die gesig staar nie.<br>\n    Dit gee eerder moed en hou ons in die genade.<br>\n    Vreugde is iets wat hierdie wêreld nie ken nie.<br>\n    Dit kom nie van plesier of gevoelens wat groei nie;<br>\n    Maar kom van die vrede wat net God gee.<br>\n    Dit is vir die verlostes, en die lewe wat Hy lei.<br>\n    Waarom verwerp so baie dan hierdie groot geskenk?<br>\n    Dit is bekend daarvoor dat dit genees en laste verlig.<br>\n    As jy vind dat die vreugde van Bo jou ontbreek,<br>\n    Wend jou tot die Verlosser en Sy verlossende liefde!</p>\n\n    <p class=\"byline\"><em>– Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "VREUGDE"
+  }
+}

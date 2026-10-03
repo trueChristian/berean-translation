@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\\\" alt=\\\"Bunga jantung berdarah berwarna merah muda dengan latar belakang hijau yang diburamkan dengan lembut\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Apakah hanya saat hati terluka,<br>\\n    Ketika kebingungan berkecamuk di sekelilingku,<br>\\n    Aku sungguh mencari pelukan Sang Juru Selamatku<br>\\n    Dan kehendakku tertuju kepada-Nya?</p>\\n\\n    <p>Apakah hanya dalam kegelapan,<br>\\n    Saat aku tak dapat melihat jalan;<br>\\n    Atau ketika ditanya tentang sesuatu yang tak kuketahui<br>\\n    Barulah aku terpikir untuk berhenti dan berdoa?</p>\\n\\n    <p>Apakah hanya ketika kurasakan<br>\\n    Kekuatan jahat berkumpul di sekelilingku,<br>\\n    Aku mencari perlindungan-Nya;<br>\\n    Agar berlindung dalam pelukan-Nya?</p>\\n\\n    <p>Oh, betapa bodohnya hatiku!<br>\\n    Bagaimana mungkin kau menyebut-Nya sahabat terbaikmu<br>\\n    Jika hanya dalam cobaanmu<br>\\n    Kau bergantung kepada-Nya?</p>\\n\\n    <p>Di masa-masa baik pun, kau membutuhkan-Nya,<br>\\n    Mungkin bahkan lebih besar lagi;<br>\\n    Sebab lebih mudah lupa untuk mencari-Nya<br>\\n    Saat jalan yang kau lihat terasa jelas.</p>\\n\\n    <p>Bahkan saat kau tak berhasil mendengar-Nya,<br>\\n    Saat kau tak tetap berada di sisi-Nya,<br>\\n    Dia akan mendengarmu saat kau berseru kepada-Nya<br>\\n    Dan menyerahkan segala kesusahanmu kepada-Nya.</p>\\n\\n    <p>Namun, betapa jauh lebih baiknya<br>\\n    Dengan sungguh-sungguh mencari wajah-Nya<br>\\n    Di masa hidup yang lebih lancar<br>\\n    Sama seperti di masa yang lebih berat!</p>\\n\\n    <p>Mencari dan menyelidik, tetap di sisi-Nya,<br>\\n    Berbagi sukacita dan dukacita,<br>\\n    Hal-hal yang tak diketahui ada dalam tangan-Nya; Dia akan di sisimu<br>\\n    Apa pun yang mungkin terjadi esok hari.</p>\\n\\n    <p class=\\\"byline\\\"><em>–oleh Katie Good</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Hanya dalam Kegelapan\"}",
+    "content_bytes": 2052,
+    "content_evidence_truncated": false,
+    "content_sha256": "09a666d0c22bd2837654b7bd4e84ec67843edded897049f7eb2a0ca45759d36b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 914,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 254,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1466,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1463,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2380
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

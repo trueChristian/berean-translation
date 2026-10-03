@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cf07f132-92d4-49ba-b318-52520f77ca67\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg\\\" alt=\\\"잎이 무성한 숲 사이로 쏟아지는 햇살\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>베개는 눈물로 젖고, 눈물은 계속 흘렀네,<br>\\n    아, 낮은 어디 있는가? 이 밤은 끝나지 않네.<br>\\n    그가 내린 결정들, 그는 결코 잊지 못하리.<br>\\n    아내와 아이들, 아, 밀려오는 후회여!<br>\\n    (잃고 나서야 가진 것을 알게 되네.)<br>\\n    새벽을 기다리며 술병을 향해 손을 뻗었네.<br>\\n    날들은 오고 갔고, 모든 것이 흐릿해 보였네.<br>\\n    그는 답이 필요했네, 모든 것을 바로잡으려면.<br>\\n    ‘이웃에게 가 보렴.’ 작은 목소리가 들렸네.<br>\\n    ‘하지만 그는 기독교인이잖아!’ 그 생각은 터무니없어 보였네.<br>\\n    ‘그에게 답이 있어, 미루지 마!’<br>\\n    가기로 마음먹었지만, 오늘은 아니었네.<br>\\n    그는 침대에 누웠네, 짐이 너무도 무거웠네.<br>\\n    ‘이웃에게 가 보렴, 아직 늦지 않았어!’<br>\\n    부름이 너무도 간절해 그는 바닥에서 일어나,<br>\\n    장화를 신고 문을 향해 나섰네.<br>\\n    이웃은 집에 있었고, 따뜻한 미소를 지었네.<br>\\n    그는 예수님을 전했네, 예수님께서 그의 삶을 변화시키시리라고.<br>\\n    그가 한 말은 도무지 사실 같지 않았네.<br>\\n    모든 것이 너무나 분명해졌네! 그는 무너져 울었네.<br>\\n    하나님의 사랑이 궁핍한 그의 영혼에 넘쳐흘렀고,<br>\\n    그는 의심의 여지 없이 자신이 온전해졌음을 알았네.<br>\\n    그는 지체 없이 아내에게 전화했네.<br>\\n    “제발 집에 돌아와 줘요, 하나님께서 미움을 거두어 가셨어요!”<br>\\n    가족이 곁에 있고, 그의 죄는 바다에 잠겼으니,<br>\\n    하나님께서 자신을 지으신 모습대로 살아갈 날을 그는 몹시 기다렸네.</p>\\n\\n    <p class=\\\"byline\\\">– Barry Grant</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"구속받은\"}",
+    "content_bytes": 2244,
+    "content_evidence_truncated": false,
+    "content_sha256": "7eace29c39d1361ebf318a251474c98c548aaaf32cfa8207742cbf282fe9567e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1457,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1454,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2261
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

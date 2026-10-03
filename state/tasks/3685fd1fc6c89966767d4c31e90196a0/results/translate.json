@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "53672730-c417-4754-a9d2-6b345a4d74c2",
+    "response_id": "chatcmpl-EV1X9fqSv1V4gh3fZCpIeTXPm8av1",
+    "usage": {
+      "completion_tokens": 546,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1865
+    }
+  },
+  "received_at": "2026-10-03T21:50:10+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"Montañas azules en capas bajo un cielo cálido de color melocotón\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Un fruto del Espíritu es una palabra que todos conocemos.<br>\n    La alegría es una bendición para los creyentes aquí en la tierra.<br>\n    El ser humano no puede producir la alegría de la que hablo,<br>\n    viene de Dios, dada a los humildes.<br>\n    Te permite sufrir con paz en tu interior.<br>\n    Solo se va cuando el pecado está presente.<br>\n    La alegría te ayuda a superar las pruebas de la vida.<br>\n    Una paz en tu corazón que sigue perdonando.<br>\n    No nos abandona en las luchas que afrontamos.<br>\n    Más bien nos da valor y nos mantiene en la gracia.<br>\n    La alegría es algo que este mundo no conoce.<br>\n    No viene del placer ni de sentimientos que crecen;<br>\n    sino de la paz que solo Dios da.<br>\n    Es para los redimidos y para la vida que él vive.<br>\n    Entonces, ¿por qué tantos rechazan este gran don?<br>\n    Que es conocido por sanar y aliviar las cargas.<br>\n    Si te encuentras sin la alegría que viene de lo alto,<br>\n    ¡acude al Salvador y a su amor redentor!</p>\n\n    <p class=\"byline\"><em>– Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "ALEGRÍA"
+  }
+}

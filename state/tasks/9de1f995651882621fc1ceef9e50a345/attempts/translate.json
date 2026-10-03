@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\\\" alt=\\\"Fleurs de cœur-de-Marie roses sur un fond vert doucement flouté\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Est-ce seulement dans le chagrin,<br>\\n    Quand le trouble tourbillonne autour de moi,<br>\\n    Que je cherche vraiment les bras de mon Sauveur<br>\\n    Et que ma volonté se tourne vers Lui ?</p>\\n\\n    <p>Est-ce seulement dans l’obscurité,<br>\\n    Quand je ne vois pas où aller ;<br>\\n    Ou quand on me demande quelque chose que j’ignore,<br>\\n    Que je pense à m’arrêter et à prier ?</p>\\n\\n    <p>Est-ce seulement quand je sens<br>\\n    La force du mal se rassembler autour de moi,<br>\\n    Que je cherche Sa protection ;<br>\\n    Pour être à l’abri dans Ses bras ?</p>\\n\\n    <p>Oh, mon cœur insensé !<br>\\n    Comment peux-tu L’appeler ton meilleur ami<br>\\n    Quand ce n’est que dans tes épreuves<br>\\n    Que tu t’en remets à Lui ?</p>\\n\\n    <p>Tu as aussi besoin de Lui dans les bons moments,<br>\\n    Peut-être plus désespérément encore ;<br>\\n    Car il est plus facile d’oublier de Le chercher<br>\\n    Quand tu crois voir le chemin.</p>\\n\\n    <p>Même quand tu ne parviens pas à L’entendre,<br>\\n    Quand tu ne restes pas à Ses côtés,<br>\\n    Il t’entendra quand tu crieras vers Lui<br>\\n    Et déposeras tes soucis devant Lui.</p>\\n\\n    <p>Mais combien mieux vaudrait-il<br>\\n    Chercher ardemment Sa face<br>\\n    Dans les périodes plus paisibles de la vie<br>\\n    Tout autant que dans les moments difficiles !</p>\\n\\n    <p>Le chercher et le rechercher, rester à Ses côtés,<br>\\n    Partager la joie et le chagrin,<br>\\n    Lui confier l’inconnu : Il sera à tes côtés<br>\\n    Quoi qu’apporte le lendemain.</p>\\n\\n    <p class=\\\"byline\\\"><em>– de Katie Good</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Seulement dans l’obscurité\"}",
+    "content_bytes": 2032,
+    "content_evidence_truncated": false,
+    "content_sha256": "aec0f312b705c266a55f94a6629266b61695c219d912210f3354de6c2110a53d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 735,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1466,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1463,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2201
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

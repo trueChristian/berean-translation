@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d3fa31b1-3252-4059-9549-af99c85488e4",
+    "response_id": "chatcmpl-EV1a9D7QBlY0TN7UWAlWzZHPymJXS",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 158,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1452,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1449,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2247
+    }
+  },
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cf07f132-92d4-49ba-b318-52520f77ca67\">\n  <figure>\n    <img src=\"/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg\" alt=\"Solljus som strömmar genom en lövklädd skog\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Hans kudde var våt, tårarna rann än,<br>\n    Åh! Var är dagen? Natten tog aldrig slut.<br>\n    Beslut hade han fattat; han skulle aldrig glömma.<br>\n    Hans hustru och barn, åh, vilken ånger!<br>\n    (Man vet inte vad man har förrän det är borta.)<br>\n    Han sträckte sig efter flaskan och väntade på gryningen.<br>\n    Dagarna kom och gick, allt tycktes flyta ihop.<br>\n    Han behövde få svar, få allt på rätt köl.<br>\n    ”Gå till dina grannar”, hörde han en svag röst säga.<br>\n    ”Men han är ju kristen!” tycktes tanken absurd.<br>\n    ”Han har svaren, så dröj inte!”<br>\n    Han bestämde sig för att gå, men inte just i dag.<br>\n    Han låg på sin säng, bördan var alltför tung.<br>\n    ”Gå till dina grannar, det är ännu inte för sent!”<br>\n    Rösten manade så starkt att han reste sig från golvet,<br>\n    Tog på sig stövlarna och gick mot dörren.<br>\n    Grannen var hemma, med ett så varmt leende;<br>\n    Han berättade om Jesus, som skulle förvandla hans liv.<br>\n    Det han sade verkade knappt vara sant.<br>\n    Allt blev så klart! Han grät när han brast ut.<br>\n    Guds kärlek fyllde hans själ, så full av behov,<br>\n    Han visste utan tvivel att han hade blivit hel.<br>\n    Han ringde genast sin hustru.<br>\n    ”Åh, snälla, kom hem, Gud har tagit bort hatet!”<br>\n    Med familjen vid sin sida, hans synder i havet,<br>\n    kunde han knappt vänta på att bli den Gud skapat honom till.</p>\n\n    <p class=\"byline\">– Barry Grant</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Återlöst"
+  }
+}

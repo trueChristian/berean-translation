@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2242e1c6-d1e7-4bdf-bb46-a715f2ac91fd",
+    "response_id": "chatcmpl-EV1a1HYrNyxmmgr0AXnBzkRUyh00s",
+    "usage": {
+      "completion_tokens": 858,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 222,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1464,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1461,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2322
+    }
+  },
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\">\n  <figure>\n    <img src=\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\" alt=\"Rosa tränende Herzen vor einem sanft verschwommenen grünen Hintergrund\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Suche ich nur in Herzensnot,<br>\n    wenn Verwirrung mich umtost,<br>\n    wirklich Zuflucht bei meinem Retter<br>\n    und wende Ihm meinen Willen zu?</p>\n\n    <p>Suche ich nur in der Dunkelheit,<br>\n    wenn ich meinen Weg nicht seh;<br>\n    oder wenn man mich nach etwas fragt, das ich nicht weiß,<br>\n    denk ich daran, innezuhalten und zu beten?</p>\n\n    <p>Suche ich nur dann,<br>\n    wenn ich spüre, wie die Macht des Bösen sich um mich sammelt,<br>\n    Seinen Schutz;<br>\n    um in Seinen Armen geborgen zu sein?</p>\n\n    <p>O törichtes Herz von mir!<br>\n    Wie kannst du Ihn deinen besten Freund nennen,<br>\n    wenn du dich nur in deinen Prüfungen<br>\n    auf Ihn verlässt?</p>\n\n    <p>Auch in guten Zeiten brauchst du Ihn,<br>\n    vielleicht sogar dringender;<br>\n    denn es ist leichter, zu vergessen, Ihn zu suchen,<br>\n    wenn du glaubst, den Weg zu sehen.</p>\n\n    <p>Selbst wenn du versäumst, Ihn zu hören,<br>\n    wenn du nicht an Seiner Seite bleibst,<br>\n    wird Er dich hören, wenn du zu Ihm rufst<br>\n    und Ihm deine Sorgen anvertraust.</p>\n\n    <p>Doch wie viel besser wäre es,<br>\n    ernsthaft Sein Angesicht zu suchen,<br>\n    in den ruhigeren Zeiten des Lebens ebenso sehr<br>\n    wie in den schwierigeren!</p>\n\n    <p>Ihn zu suchen und zu forschen, an Seiner Seite zu bleiben,<br>\n    Freude und Kummer zu teilen,<br>\n    das Ungewisse in Seinen Händen – Er wird an deiner Seite sein,<br>\n    was auch immer morgen kommen mag.</p>\n\n    <p class=\"byline\"><em>– von Katie Good</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Nur in der Dunkelheit"
+  }
+}

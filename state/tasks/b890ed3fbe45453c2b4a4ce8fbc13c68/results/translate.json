@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3d586573-e8f1-45f0-b7e4-295cdf813e91",
+    "response_id": "chatcmpl-EV1b8K8HvlZBOtDH7ujPwm38cyAWm",
+    "usage": {
+      "completion_tokens": 1022,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 65,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1750,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2775
+    }
+  },
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\">\n  <figure>\n    <img src=\"/images/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd-1.jpg\" alt=\"\">\n  </figure>\n  <p class=\"poem\">La chiesa dei primi tempi, nei giorni antichi,<br>\n    desiderava raccontare<br>\n    al peccatore di Gesù Cristo,<br>\n    del Paradiso e dell’inferno.</p>\n  <p class=\"poem\">Certo, non erano anime perfette,<br>\n    ma amavano il loro Signore;<br>\n    e si sforzavano di obbedire a questo comando,<br>\n    malgrado il pericolo e la spada.</p>\n  <p class=\"poem\">Più persone convertivano,<br>\n    più cresceva la tensione.<br>\n    I malvagi governanti della regione<br>\n    non sapevano cosa fare.</p>\n  <p class=\"poem\">Molti furono bruciati sul rogo,<br>\n    alcuni rinchiusi in fredde prigioni,<br>\n    perché diffondevano la parola del Vangelo<br>\n    con fede e coraggio ardente.</p>\n  <p class=\"poem\">Questi valorosi soldati, che tanto soffrirono,<br>\n    erano davvero luci splendenti,<br>\n    ma vedevano ancora la necessità<br>\n    di parlare agli altri di Dio.</p>\n  <p class=\"poem\">Da allora sono passati molti anni;<br>\n    noi cristiani tendiamo a dire:<br>\n    «Sii d’esempio al mondo;<br>\n    non devi indicare la via».</p>\n  <p class=\"poem\">Ma se questo modo di vedere fosse giusto,<br>\n    allora vorrei sapere:<br>\n    come mai la nostra chiesa non cresce,<br>\n    come cresceva la chiesa dei tempi antichi?</p>\n  <p class=\"poem\">È forse perché in America<br>\n    il fuoco si è spento?<br>\n    Se la fede è una cosa buona, perché non la condividiamo<br>\n    come facevano i santi di un tempo?</p>\n  <p class=\"poem\">In altre terre, proprio oggi,<br>\n    il fuoco arde luminoso;<br>\n    perché lì i cristiani sono zelanti<br>\n    e combattono con vigore.</p>\n  <p class=\"poem\">Mentre ringraziamo Dio per la libertà qui,<br>\n    loro lodano il loro Signore lassù.<br>\n    E lo ringraziano perché, per amore di Gesù,<br>\n    soffrono e muoiono.</p>\n  <p class=\"poem\">Così, mentre i martiri in altre terre<br>\n    versano il sangue per Dio,<br>\n    se anche noi diffondessimo la Parola di Dio,<br>\n    il nostro sangue macchierebbe il nostro suolo.</p>\n  <p class=\"poem\">È una benedizione del nostro Dio<br>\n    che il nostro paese sia libero?<br>\n    O è perché non siamo una «minaccia»<br>\n    per la società?</p>\n  <p class=\"poem\">Ci vergogniamo o non abbiamo tempo?<br>\n    Cari amici, il momento è vicino.<br>\n    Se non conduciamo le persone a Dio,<br>\n    la popolazione morirà.</p>\n  <p class=\"poem\">Dunque, in conclusione, amici, prendiamo<br>\n    il sentiero percorso da Gesù,<br>\n    mostrando alle anime smarrite la via stretta<br>\n    che riconduce gli uomini a Dio.</p>\n  <p class=\"signature\">– Darren Brubaker</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "La chiamata a lavorare"
+  }
+}

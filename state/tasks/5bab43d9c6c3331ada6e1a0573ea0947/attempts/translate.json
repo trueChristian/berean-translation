@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\\\" alt=\\\"Montagne blu sovrapposte sotto un cielo color pesca dalle tonalità calde\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Un frutto dello Spirito è una parola che tutti conosciamo.<br>\\n    La gioia è una benedizione per noi credenti quaggiù.<br>\\n    L’uomo non può produrre la gioia di cui parlo,<br>\\n    viene da Dio, donata ai miti.<br>\\n    Ti permette di soffrire, mantenendo la pace interiore.<br>\\n    Se ne va solo in presenza del peccato.<br>\\n    La gioia ti accompagna nelle prove della vita.<br>\\n    Una pace nel cuore che continua a perdonare.<br>\\n    Non ci abbandona nelle difficoltà che affrontiamo.<br>\\n    Anzi, ci dà coraggio e ci mantiene nella grazia.<br>\\n    La gioia è qualcosa che questo mondo non conosce.<br>\\n    Non viene dal piacere, né da sentimenti che crescono;<br>\\n    ma viene dalla pace che solo Dio dona.<br>\\n    È per i redenti e per la vita che egli vive.<br>\\n    Perché allora tanti rifiutano questo grande dono?<br>\\n    Un dono noto per guarire e sollevare i pesi.<br>\\n    Se ti accorgi che ti manca la gioia che viene dall’alto,<br>\\n    rivolgiti al Salvatore e al suo amore redentore!</p>\\n\\n    <p class=\\\"byline\\\"><em>– Barry Grant</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"GIOIA\"}",
+    "content_bytes": 1459,
+    "content_evidence_truncated": false,
+    "content_sha256": "280795cc5b15b859eb858076449248a79fd08b23fb0c87822c0002da17281c95",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 178,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1311,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1969
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

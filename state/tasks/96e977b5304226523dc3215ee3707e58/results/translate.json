@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9a3f0a0f-5403-4e2a-9ddd-c2307168742c",
+    "response_id": "chatcmpl-EV1aDg3bUgBskGn8NPYNll0xzh34s",
+    "usage": {
+      "completion_tokens": 560,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1317,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1880
+    }
+  },
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"따뜻한 복숭아빛 하늘 아래 층층이 펼쳐진 푸른 산들\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>성령의 열매 가운데 하나는 우리 모두가 아는 말입니다.<br>\n    기쁨은 이 땅에 사는 우리 믿는 이들에게 주어진 복입니다.<br>\n    내가 말하는 그 기쁨은 사람이 만들어 낼 수 없습니다.<br>\n    그것은 하나님께서 온유한 이들에게 주시는 것입니다.<br>\n    그 기쁨은 마음속에 평화를 품고 고난을 겪게 해 줍니다.<br>\n    죄가 임할 때에만 그 기쁨은 떠납니다.<br>\n    기쁨은 살아가며 겪는 시련을 지나게 해 줍니다.<br>\n    마음속 평화는 계속해서 용서하게 합니다.<br>\n    기쁨은 우리를 버리지 않습니다. 우리가 고난을 겪을 때에도 말입니다.<br>\n    오히려 용기를 주고 우리를 은혜 안에 머물게 합니다.<br>\n    기쁨은 이 세상이 알지 못하는 것입니다.<br>\n    기쁨은 쾌락이나 자라나는 감정에서 오지 않습니다.<br>\n    오직 하나님께서 주시는 평화에서 옵니다.<br>\n    그것은 구속받은 이들과 그들이 살아가는 삶을 위한 것입니다.<br>\n    그렇다면 왜 그토록 많은 사람이 이 위대한 선물을 거부할까요?<br>\n    그 선물은 치유하고 짐을 덜어 주는 것으로 알려져 있습니다.<br>\n    위로부터 오는 기쁨이 부족하다고 느끼신다면,<br>\n    구주께로 돌아가 그분의 구속하시는 사랑을 바라보십시오!</p>\n\n    <p class=\"byline\"><em>– 배리 그랜트</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "기쁨"
+  }
+}

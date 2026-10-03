@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/em[1]",
+      "severity": "critical",
+      "source_quote": "…ugh their tears would seem rather to be chosen than the rabble cry for crucifixion, Christ pronounced their offering defective. We must distinguish this crowd of women to be a different sort than the <em>…many women</em> [who] <em>were there beholding afar off… –Mat 27:55.</em> I would suggest that these are Jerusalem sympathizers: professional weepers who would forget tomorrow that they had wept today. These fickle ladies, adept at making loud wailing, found their way to the house of Jairus before Christ’s arrival. When He pronounced that the dead was <em>not dead, but</em> [that she] <em>s…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[22:24], translation signature[22:22], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…nen eher gut gemeint zu sein schienen als der Ruf des Pöbels nach Kreuzigung, erklärte Christus ihr Angebot für mangelhaft. Wir müssen diese Frauenschar von einer anderen Gruppe unterscheiden als den <em>…vielen Frauen, die von ferne zusahen… –Mat 27:55.</em> Ich würde vermuten, dass es sich um Jerusalemerinnen handelt, die mit ihm sympathisierten: berufsmäßige Klagefrauen, die morgen vergessen würden, dass sie heute geweint hatten. Diese wankelmütigen Frauen, die geübt darin waren, laut zu klagen, fanden sich im Haus des Jairus ein, noch bevor Christus dort ankam. Als er erklärte, die Tote …"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[30]: source /article[1]/p[5]/em[5] ('start', 'em', ()); translation /article[1]/p[5] ('end', 'p')",
+  "stage": "translate"
+}

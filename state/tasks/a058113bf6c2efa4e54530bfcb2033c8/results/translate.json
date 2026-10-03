@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c32e9bf5-a508-45cc-b519-99d5bb0d8c03",
+    "response_id": "chatcmpl-EV1XoBqiqsFy17OMXfWuDhYGtSFQt",
+    "usage": {
+      "completion_tokens": 773,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1476,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1473,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2249
+    }
+  },
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\">\n  <figure>\n    <img src=\"/images/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa-1.jpg\" alt=\"粉红色的荷包牡丹花，映衬在柔焦的绿色背景前\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>难道只有在心碎之时，<br>\n    当困惑在我周围翻涌，<br>\n    我才真正寻求救主的怀抱，<br>\n    心志才转向他吗？</p>\n\n    <p>难道只有在黑暗之中，<br>\n    当我看不清前路；<br>\n    或有人问起我不懂的事，<br>\n    我才想到停下来祷告吗？</p>\n\n    <p>难道只有当我感到<br>\n    邪恶的势力聚集在我周围，<br>\n    我才寻求他的保护，<br>\n    想要躲在他的怀抱里吗？</p>\n\n    <p>哦，我这愚昧的心！<br>\n    只有在遭遇试炼时<br>\n    才会倚靠他，<br>\n    你怎能称他为最好的朋友？</p>\n\n    <p>顺境之时，你也需要他，<br>\n    或许更是迫切；<br>\n    因为当你以为看清前路，<br>\n    反而更容易忘记寻求他。</p>\n\n    <p>即使你听不见他的声音，<br>\n    即使你未能留在他身旁，<br>\n    当你向他呼求、<br>\n    把忧虑交托给他，他必垂听。</p>\n\n    <p>然而，若能在生命较顺遂时，<br>\n    像在艰难之时一样，<br>\n    恳切寻求他的面，<br>\n    那该有多好！</p>\n\n    <p>寻求、追寻，留在他身旁，<br>\n    同享喜乐，也共担忧伤；<br>\n    将未知交在他手中，无论明日遭遇什么，<br>\n    他都会在你身旁。</p>\n\n    <p class=\"byline\"><em>——凯蒂·古德作</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "只在黑暗之中"
+  }
+}

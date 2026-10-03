@@ -2,10 +2,47 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3829092bb0cf4776a11cfc5ef1cd6efe",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 5598,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 30,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4817,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4814,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10415
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/em[1]",
+      "severity": "critical",
+      "source_quote": "…ugh their tears would seem rather to be chosen than the rabble cry for crucifixion, Christ pronounced their offering defective. We must distinguish this crowd of women to be a different sort than the <em>…many women</em> [who] <em>were there beholding afar off… –Mat 27:55.</em> I would suggest that these are Jerusalem sympathizers: professional weepers who would forget tomorrow that they had wept today. These fickle ladies, adept at making loud wailing, found their way to the house of Jairus before Christ’s arrival. When He pronounced that the dead was <em>not dead, but</em> [that she] <em>s…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[22:24], translation signature[22:22], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>그들의 눈물은 십자가에 못 박으라는 폭도의 외침보다는 더 나은 선택처럼 보였겠지만, 그리스도께서는 그들의 애도가 온전하지 않다고 선언하셨습니다. 이 무리의 여자들은 <em>…멀리서 바라보고 있던 많은 여자들… –마 27:55.</em>과 다른 부류였다고 보아야 합니다. 이들은 예루살렘의 동정자들, 곧 오늘 울고도 내일이면 울었다는 사실을 잊어버릴 전문 애도꾼들이었다고 저는 생각합니다. 큰 소리로 울부짖는 데 능숙한 이 변덕스러운 여자들은 그리스도께서 도착하시기 전에 야이로의 집에 찾아왔습니다. 그분께서 죽은 아이가 <em>죽은 것이 아니라</em> [그 아이가] <em>자고 있다 –막 5:39.</em>고 선언하시자, 그들은 곧바로 요란한 울음을 그쳤습니다. <em>그들이 그분을 비웃더라… –막 5:40.</em> 물론 이는 개인적인 추측일 뿐입니다. 그러나 임박한 예루살렘의 멸망과 닥쳐올 악한 날들에 관한 이 말씀을 마무리하는 예언적 경고는 주님의 제자들(그들은 도망하라는 지시를 받았습니다)이 아니라 저항하는 유대인들을 향한 것이었습니다.</p>"
+    },
+    {
+      "location": "Source /article[1]/p[20]/strong[1]; translation /article[1]/p[20]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p>Several years ago, hordes of humanity flocked the theaters and wept at Mel Gibson’s motion picture—The Passion of Christ—<strong>but few wept over their own sin</strong>. Many will say, “Lord, Lord, did I not weep at the scene? Did I not bewail your pathetic condition?” Jesus wept in Gethsemane, over Jerusalem, and at the tomb of Lazarus. But Christ’s tears were eternal and void of every wrongful motive and selfish intent. How natural to soak our couch with tears when our feelings are hurt. We fight pangs of pity at the loss of a loved one or our reputation. These are earthly tears. If Go…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[141:141], translation signature[139:141], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>몇 년 전, 수많은 사람이 극장으로 몰려가 멜 깁슨의 영화 <em>그리스도의 수난</em>을 보며 울었습니다. 그러나 <strong>자신의 죄를 두고 운 사람은 거의 없었습니다</strong>. 많은 이들이 이렇게 말할 것입니다. “주님, 주님, 제가 그 장면을 보며 울지 않았습니까? 주님의 비참한 처지를 슬퍼하지 않았습니까?” 예수께서는 겟세마네에서, 예루살렘을 두고, 그리고 나사로의 무덤에서 우셨습니다. 그러나 그리스도의 눈물은 영원한 눈물이었으며, 그릇된 동기와 이기적인 의도가 전혀 없었습니다. 감정이 상했을 때 소파를 눈물로 적시는 일은 얼마나 자연스러운지요. 사랑하는 이를 잃거나 명예를 잃을 때 우리는 안타까움의 고통과 싸웁니다. 이런 것은 세상적인 눈물입니다. 하나님께서 <em>…내 눈물을 주의 병에 담으소서… –시 56:8</em>라고 하신다면, 그 병에는 무엇이라고 이름 붙이시겠습니까? <em>하나님의 뜻대로 하는 근심은 구원에 이르게 하는 회개를 이루므로 후회할 것이 없으나, 세상의 근심은 사망을 이루느니라 –고후 7:10.</em></p>"
+    }
+  ],
   "id": "ab728c5d55ea097af033f1814b524b1d",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "kor",
@@ -97,9 +134,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:50:10+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\\\" alt=\\\"Lager av blå berg under en varm, persikofärgad himmel\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Andens frukt är ett ord som vi alla känner till.<br>\\n    Glädje är en välsignelse för oss troende här nere.<br>\\n    Människan kan inte frambringa den glädje jag talar om,<br>\\n    den kommer från Gud och ges åt de ödmjuka.<br>\\n    Den låter dig lida och ändå ha frid inom dig.<br>\\n    Den lämnar oss bara när synden är närvarande.<br>\\n    Glädjen hjälper dig genom livets prövningar.<br>\\n    En frid i ditt hjärta som fortsätter att förlåta.<br>\\n    Den överger oss inte genom de svårigheter vi möter,<br>\\n    utan ger oss mod och håller oss kvar i nåden.<br>\\n    Glädje är något som världen inte känner till.<br>\\n    Den kommer inte av njutning eller växande känslor,<br>\\n    utan av den frid som bara Gud kan ge.<br>\\n    Den är för de återlösta och för det liv han lever.<br>\\n    Varför avvisar då så många denna stora gåva,<br>\\n    som är känd för att hela och lyfta bördor?<br>\\n    Om du märker att du saknar glädjen från ovan,<br>\\n    vänd dig till Frälsaren och hans återlösande kärlek!</p>\\n\\n    <p class=\\\"byline\\\"><em>– Barry Grant</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"GLÄDJE\"}",
+    "content_bytes": 1481,
+    "content_evidence_truncated": false,
+    "content_sha256": "9cf66595eafaf802c2b305620c4406a8f7c8e7e10323a44de99755d546b3d717",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 129,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1315,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1312,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1935
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

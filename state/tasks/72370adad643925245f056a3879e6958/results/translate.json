@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "24fbbc33-001d-4f6b-9efe-49f30487c359",
+    "response_id": "chatcmpl-EV1ZS5HiDwGB8ojCcay9nNuDZBJeg",
+    "usage": {
+      "completion_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1317,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1890
+    }
+  },
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"הרים כחולים בשכבות מתחת לשמיים בגוון אפרסק חמים\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>אחד מפרי הרוח הוא דבר שכולנו מכירים.<br>\n    שמחה היא ברכה לנו, המאמינים שעל פני האדמה.<br>\n    האדם אינו יכול להפיק את השמחה שעליה אני מדבר,<br>\n    היא באה מאלוהים, וניתנת לענווים.<br>\n    היא מאפשרת לך לסבול ובתוכך לשמור על שלווה.<br>\n    היא מסתלקת רק בנוכחות החטא.<br>\n    השמחה מעבירה אותך דרך ניסיונות החיים.<br>\n    שלווה בלבך שממשיכה לסלוח.<br>\n    היא אינה נוטשת אותנו במאבקים שאנו מתמודדים איתם.<br>\n    אלא מעניקה אומץ ומשאירה אותנו בחסד.<br>\n    השמחה היא דבר שהעולם הזה אינו מכיר.<br>\n    היא אינה באה מהנאה, וגם לא מרגשות שמתעצמים;<br>\n    היא באה מן השלווה שרק אלוהים מעניק.<br>\n    היא נועדה לנגאלים, ולחיים שהוא חי.<br>\n    אז מדוע רבים כל כך דוחים את המתנה הנפלאה הזאת?<br>\n    מתנה שידועה כמרפאת ומסירה עול.<br>\n    אם אתה מוצא שחסרה לך השמחה שממרומים,<br>\n    פנה אל המושיע ואל אהבתו הגואלת!</p>\n\n    <p class=\"byline\"><em>– בארי גרנט</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "שמחה"
+  }
+}

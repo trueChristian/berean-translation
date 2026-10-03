@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9f462fdc-156b-4c1d-adb1-5015f49c4b37",
+    "response_id": "chatcmpl-EV1X9NKZkaUoFngUuQoUaGn3mNZt1",
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 119,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1311,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1919
+    }
+  },
+  "received_at": "2026-10-03T21:50:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"Gelaagde blauwe bergen onder een warm perzikkleurige hemel\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Een vrucht van de Geest is een woord dat we allemaal kennen.<br>\n    Vreugde is een zegen voor ons gelovigen hier beneden.<br>\n    De mens kan de Vreugde waar ik over spreek niet voortbrengen,<br>\n    Zij komt van God, gegeven aan de zachtmoedigen.<br>\n    Zij maakt het mogelijk te lijden, met vrede vanbinnen.<br>\n    Alleen in de aanwezigheid van zonde verdwijnt zij.<br>\n    Vreugde helpt je door de beproevingen van het leven heen.<br>\n    Een vrede in je hart die blijft vergeven.<br>\n    Zij laat ons niet in de steek, tijdens de strijd die we voeren.<br>\n    Maar geeft ons juist moed en houdt ons in de genade.<br>\n    Vreugde is iets wat deze wereld niet kent.<br>\n    Zij komt niet voort uit plezier, noch uit gevoelens die groeien;<br>\n    Maar komt voort uit de vrede die alleen God geeft.<br>\n    Zij is voor de verlosten, en voor het leven dat Hij leidt.<br>\n    Waarom wijzen dan zo velen dit grote geschenk af?<br>\n    Dat bekendstaat om genezing en het verlichten van lasten.<br>\n    Als je merkt dat je de Vreugde van boven mist,<br>\n    Wend je dan tot de Heiland en zijn verlossende liefde!</p>\n\n    <p class=\"byline\"><em>– Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "VREUGDE"
+  }
+}

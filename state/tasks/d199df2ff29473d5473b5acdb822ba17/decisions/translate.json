@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[20]/em[1]; translation /article[1]/p[20]",
+      "severity": "critical",
+      "source_quote": "<p>My dear friend, the simple fact remains: if you do not persevere in disciplining your spiritual life, <u>you</u> <u>will</u> <u>lose!</u> So, what are <em>you</em> exercising and feeding—your flesh or the Spirit? Remember, when the natural man grows, there is no more room for the spiritual man to grow.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[66:68], translation signature[66:66], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>يا صديقي العزيز، تبقى الحقيقة البسيطة كما هي: إذا لم تثابر على تهذيب حياتك الروحية، <u>فأنت</u> <u>ستخسر</u> <u>بالتأكيد!</u> إذًا، ما الذي تمارسه وتغذّيه: الجسد أم الروح؟ تذكّر أنه عندما ينمو الإنسان الطبيعي، لا يبقى مجال لنمو الإنسان الروحي.</p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[66]: source /article[1]/p[20]/em[1] ('start', 'em', ()); translation /article[1]/p[20] ('end', 'p')",
+  "stage": "translate"
+}

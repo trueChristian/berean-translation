@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ed3ee1b8-4e27-416f-b3ee-aab8815cc71d",
+    "response_id": "chatcmpl-EV1XJL3VmbOrn9c6Lw9h9dvRFSM5O",
+    "usage": {
+      "completion_tokens": 687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 207,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1316,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1313,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2003
+    }
+  },
+  "received_at": "2026-10-03T21:50:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a7adeb39-f34f-4cfd-a72d-e5842a0a71c4\">\n  <figure>\n    <img src=\"/images/articles/a7adeb39-f34f-4cfd-a72d-e5842a0a71c4-1.jpg\" alt=\"Des montagnes bleues en strates sous un ciel couleur pêche aux tons chauds\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Un fruit de l’Esprit est un mot que nous connaissons tous.<br>\n    La joie est une bénédiction pour nous, croyants d’ici-bas.<br>\n    L’être humain ne peut produire la joie dont je parle ;<br>\n    Elle vient de Dieu, donnée aux humbles.<br>\n    Elle te permet de souffrir tout en gardant la paix intérieure.<br>\n    Elle ne s’en va qu’en présence du péché.<br>\n    La joie te fait traverser les épreuves de la vie.<br>\n    Une paix dans ton cœur qui continue de pardonner.<br>\n    Elle ne nous abandonne pas dans les difficultés que nous affrontons,<br>\n    Mais nous donne plutôt du courage et nous garde dans la grâce.<br>\n    La joie est quelque chose que ce monde ne connaît pas.<br>\n    Elle ne vient ni du plaisir ni de sentiments qui grandissent,<br>\n    Mais de la paix que Dieu seul donne.<br>\n    Elle est pour les rachetés et pour la vie qu’il mène.<br>\n    Alors pourquoi tant de personnes rejettent-elles ce don merveilleux,<br>\n    Connu pour guérir et alléger les fardeaux ?<br>\n    Si tu te trouves privé de la joie d’en haut,<br>\n    Tourne-toi vers le Sauveur et son amour rédempteur !</p>\n\n    <p class=\"byline\"><em>– Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "JOIE"
+  }
+}
