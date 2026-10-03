@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "32a5bf50-e406-4f67-a0ac-a1b3dce300d4",
+    "response_id": "chatcmpl-EUpR9UYRm2m4E5KfbnLgZbF2kOtT7",
+    "usage": {
+      "completion_tokens": 1220,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 751,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7830,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7827,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9050
+    }
+  },
+  "received_at": "2026-10-03T10:40:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, opening paragraph",
+        "severity": "major",
+        "source_quote": "“some churches encourage their people to live for God and others instead of themselves”",
+        "suggested_fix": "Change this clause to “sommige kerke moedig hul mense aan om vir God en ander, eerder as vir hulself, te leef” so that “others” is retained.",
+        "translation_quote": "“sommige kerke hul mense aanmoedig om vir God te leef en nie vir hulself nie”"
+      },
+      {
+        "location": "source.html, paragraph beginning “I could hardly believe”",
+        "severity": "major",
+        "source_quote": "“The power of God was real. I could not overcome it by myself, as none of us can”",
+        "suggested_fix": "Make clear that the speaker could not overcome sin by himself, for example: “Die krag van God was werklik. Ek kon die mag van sonde nie op my eie oorwin nie, net soos niemand van ons dit kan nie”.",
+        "translation_quote": "“Die krag van God was werklik. Ek kon dit nie self oorwin nie, soos geen van ons kan nie”"
+      },
+      {
+        "location": "source.html, paragraph beginning “We must deny ourselves”",
+        "severity": "major",
+        "source_quote": "“We must deny ourselves, join forces with our brethren”",
+        "suggested_fix": "Replace “kraan saamspan” with the Afrikaans equivalent “kragte saamspan”, preserving the existing sentence structure.",
+        "translation_quote": "“Ons moet onsself verloën, saam met ons broeders kraan saamspan”"
+      },
+      {
+        "location": "source.html, heading “Obedience”",
+        "severity": "major",
+        "source_quote": "“Obedience”",
+        "suggested_fix": "Correct the heading to “Gehoorsaamheid”.",
+        "translation_quote": "“Gehoreensaamheid”"
+      },
+      {
+        "location": "source.html, final paragraph",
+        "severity": "major",
+        "source_quote": "“The fields are white unto harvest.”",
+        "suggested_fix": "Use the conventional Afrikaans word for fields in this harvest metaphor, for example: “Die landerye is wit vir die oes.”",
+        "translation_quote": "“Die lande is wit vir die oes.”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

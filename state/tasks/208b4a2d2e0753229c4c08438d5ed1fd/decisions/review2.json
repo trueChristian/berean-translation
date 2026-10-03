@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Lyrics, stanza 3, repeated refrain (both lines)",
+      "severity": "major",
+      "source_quote": "“Early let us turn to Thee.”",
+      "suggested_fix": "Replace both instances of “Laat ons vroeg na U toe kom” with “Laat ons vroeg tot U wend” to preserve the request to turn to God.",
+      "translation_quote": "“Laat ons vroeg na U toe kom.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

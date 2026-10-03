@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:40:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Body, paragraph beginning “Vlug ook vir die begeertes…” (2 Timoteus 2:4-22)\",\"severity\":\"major\",\"source_quote\":\"“Flee also youthful lusts: but follow righteousness, faith, charity, peace, with them that call on the Lord out of a pure heart –2 Timothy 2:4-22.”\",\"suggested_fix\":\"Translate “with them that call on the Lord out of a pure heart” as “saam met dié wat die Here uit ’n rein hart aanroep” and retain the printed reference as “2 Timoteus 2:4-22.”\",\"translation_quote\":\"“Vlug ook vir die begeertes van die jeug, maar jaag geregtigheid, geloof, liefde en vrede na saam met dié wat die Here uit ’n rein hart aanroep – 2 Timoteus 2:4-22.”\"},{\"location\":\"Body, final Scripture quotation (John 14:6-7)\",\"severity\":\"major\",\"source_quote\":\"“Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me If ye had known me, ye should have known my Father also: and from henceforth ye know him, and have seen him – John 14:6-7.”\",\"suggested_fix\":\"Keep the complete quotation’s second-person conditional structure, for example: “Jesus sê vir hom: Ek is die Weg en die Waarheid en die Lewe; niemand kom na die Vader behalwe deur My nie. As julle My geken het, sou julle ook My Vader geken het; en van nou af ken julle Hom en het julle Hom gesien – Johannes 14:6-7.”\",\"translation_quote\":\"“Jesus sê vir hom: Ek is die Weg en die Waarheid en die Lewe; niemand kom na die Vader behalwe deur My nie. As julle My geken het, sou julle ook My Vader geken het; en van nou af ken julle Hom en het julle Hom gesien – Johannes 14:6-7.”\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1674,
+    "content_evidence_truncated": false,
+    "content_sha256": "0e45f397c00bc290dedeb0b4d8f437369a95bdcd1491f9229e1e6f8665ba338a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 458,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8760,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8757,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9218
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

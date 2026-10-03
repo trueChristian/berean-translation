@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26b236dfffaa4f7fa0ea4b47e0cef9a1",
   "campaign": "gh-37109120670",
   "created_at": "2026-10-03T08:20:25+00:00",
   "downstream_candidate_sha256": "44919258096607562a4d0e4a768c8ed0ab58be029a25fcab857749341507d442",
@@ -30,53 +29,40 @@
         },
         "total_tokens": 7479
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 766,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4492,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4489,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5372
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph: “Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.” (near the middle of the story)",
+      "location": "Lyrics, stanza 3, repeated refrain (both lines)",
       "severity": "major",
-      "source_quote": "“Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.”",
-      "suggested_fix": "Render the plural correctly in Afrikaans and keep the meaning that both grandparents were absent. For example: “Het jy geweet dat Oupa en Ouma vandag nie daar was nie? Op die laaste oomblik het hulle besluit om elders vir die kerk te gaan kuier.” (Or: “Het jy geweet dat die grootouers vandag nie daar was nie? …”) Preserve the original sense that both grandparents decided to visit elsewhere at the last minute.",
-      "translation_quote": "“Het jy geweet dat Oupa vandag nie daar was nie? Op die laaste oomblik het hulle besluit om elders vandag vir die kerk te gaan kuier.”"
-    },
-    {
-      "location": "Paragraph: “The first and second songs were ones that were not familiar to her.” (Sondagoggend, before announcement of number 8)",
-      "severity": "minor",
-      "source_quote": "The first and second songs were ones that were not familiar to her.",
-      "suggested_fix": "Correct the number agreement and natural phrasing in Afrikaans. For example: “Die eerste en tweede liedjies was nie vir haar bekend nie.” or “Die eerste en tweede lied was liedjies wat sy nie geken het nie.”",
-      "translation_quote": "“Die eerste en tweede lied was een wat sy nie geken het nie.”"
-    },
-    {
-      "location": "Lyrics — second stanza, line: “Be the guardian of our way.”",
-      "severity": "minor",
-      "source_quote": "Be the guardian of our way.",
-      "suggested_fix": "Use a more idiomatic Afrikaans word than the literal 'waghond'. For example: “Wees die wagter oor ons pad.” or “Wees die bewaker van ons pad.” This preserves the metaphor of protection without the unintended 'watchdog' image.",
-      "translation_quote": "“Wees die waghond oor ons pad.”"
-    },
-    {
-      "location": "Lyrics — first stanza, line: “Much we need Thy tender care.”",
-      "severity": "minor",
-      "source_quote": "Much we need Thy tender care.",
-      "suggested_fix": "Smooth the Afrikaans phrasing to a more natural form while preserving meaning. For example: “Ons het groot behoefte aan U liefdevolle sorg.” or “Hoe nodig ons U liefdevolle sorg het.”",
-      "translation_quote": "“Hoeveel ons nodig het U liefdevolle sorg.”"
-    },
-    {
-      "location": "General — phrasing: “sanglede om te begin” (Sondagoggend waiting sentence)",
-      "severity": "minor",
-      "source_quote": "She waited eagerly for the song service to begin.",
-      "suggested_fix": "Use a clearer Afrikaans rendering of 'song service' and the verb. For example: “Sy het gretig gewag dat die sangoefening/sangdiens moes begin.” or “Sy het gretig gewag dat die sangtyd moes begin.”",
-      "translation_quote": "“Sondagoggend het sy gretig gewag vir die sanglede om te begin.”}],"
-    },
-    {
-      "location": "metadata: section",
-      "severity": "minor",
-      "source_quote": "Children’s Corner",
-      "suggested_fix": "Section translated as “Kindershoek” is acceptable but consider the more common ‘Kinderdhoek’ or ‘Kinderhoek’ if preferred by the publication style. No change required if \"Kindershoek\" matches house style.",
-      "translation_quote": "\"Kindershoek\""
+      "source_quote": "“Early let us turn to Thee.”",
+      "suggested_fix": "Replace both instances of “Laat ons vroeg na U toe kom” with “Laat ons vroeg tot U wend” to preserve the request to turn to God.",
+      "translation_quote": "“Laat ons vroeg na U toe kom.”"
     }
   ],
+  "finished_at": "2026-10-03T10:40:49+00:00",
   "id": "208b4a2d2e0753229c4c08438d5ed1fd",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "afr",
@@ -165,12 +151,14 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-6-luna"

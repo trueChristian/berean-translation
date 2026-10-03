@@ -2,7 +2,6 @@
   "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26b236dfffaa4f7fa0ea4b47e0cef9a1",
   "campaign": "gh-37109120670",
   "created_at": "2026-10-03T08:20:25+00:00",
   "downstream_candidate_sha256": "e2db4674d5942c5760e9538f5ce26446c95220ba81635d6fad6a279bb9c39d97",
@@ -30,39 +29,68 @@
         },
         "total_tokens": 12765
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1220,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 751,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7830,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7827,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9050
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning: “Preek en aanvaar ons ’n nederlaag-e-hervang (defeated) Evangelie—’n evangelie...”",
+      "location": "source.html, opening paragraph",
       "severity": "major",
-      "source_quote": "Are we preaching and accepting a defeated Gospel—a gospel that doesn’t offer complete forgiveness and complete victory?",
-      "suggested_fix": "Replace the corrupted phrase with an accurate Afrikaans rendering that preserves the English meaning. For example: “Preek en aanvaar ons ’n nederlaag-evangelie — ’n evangelie wat nie volledige vergifnis en volledige oorwinning bied nie?” Ensure the English parenthetical “(defeated)” is removed (it must not remain untranslated) and that the phrase is fluent Afrikaans.",
-      "translation_quote": "Preek en aanvaar ons ’n nederlaag-e-hervang (defeated) Evangelie—’n evangelie wat nie volledige vergifnis en volledige oorwinning bied nie?"
+      "source_quote": "“some churches encourage their people to live for God and others instead of themselves”",
+      "suggested_fix": "Change this clause to “sommige kerke moedig hul mense aan om vir God en ander, eerder as vir hulself, te leef” so that “others” is retained.",
+      "translation_quote": "“sommige kerke hul mense aanmoedig om vir God te leef en nie vir hulself nie”"
     },
     {
-      "location": "Paragraph beginning: “We must be bold and confident in our faith so we can lead people to the Master.”",
+      "location": "source.html, paragraph beginning “I could hardly believe”",
       "severity": "major",
-      "source_quote": "We must be bold and confident in our faith so we can lead people to the Master.",
-      "suggested_fix": "Correct the mistranslation of “bold” (rendered as “nuuskierig”) to an appropriate Afrikaans word such as “dapper” or “moedig”. For example: “Ons moet dapper en vol vertroue in ons geloof wees sodat ons mense tot die Meester kan bring.”",
-      "translation_quote": "Ons moet nuuskierig en vol vertroue in ons geloof wees sodat ons mense tot die Meester kan bring."
+      "source_quote": "“The power of God was real. I could not overcome it by myself, as none of us can”",
+      "suggested_fix": "Make clear that the speaker could not overcome sin by himself, for example: “Die krag van God was werklik. Ek kon die mag van sonde nie op my eie oorwin nie, net soos niemand van ons dit kan nie”.",
+      "translation_quote": "“Die krag van God was werklik. Ek kon dit nie self oorwin nie, soos geen van ons kan nie”"
     },
     {
-      "location": "Paragraph beginning: “One day, I came face to face with the Creator. The hand of the almighty God got ahold of me and opened my eyes. I repented of my sins and was given a clean slate and a clean heart.”",
-      "severity": "minor",
-      "source_quote": "I repented of my sins and was given a clean slate and a clean heart.",
-      "suggested_fix": "“clean slate” is translated as “skoon lei”, which is not idiomatic Afrikaans. Use a standard idiom such as “’n skoon blad” or “’n nuwe begin”. For example: “Ek het van my sondes bekeer en ’n skoon blad en ’n skoon hart ontvang.”",
-      "translation_quote": "Ek het van my sondes bekeer en ’n skoon lei en ’n skoon hart ontvang."
+      "location": "source.html, paragraph beginning “We must deny ourselves”",
+      "severity": "major",
+      "source_quote": "“We must deny ourselves, join forces with our brethren”",
+      "suggested_fix": "Replace “kraan saamspan” with the Afrikaans equivalent “kragte saamspan”, preserving the existing sentence structure.",
+      "translation_quote": "“Ons moet onsself verloën, saam met ons broeders kraan saamspan”"
     },
     {
-      "location": "Paragraph beginning: “The world out there does need to be convinced. They need to see something that science cannot explain. They need to see something that defies all odds.”",
-      "severity": "minor",
-      "source_quote": "They need to see something that science cannot explain. They need to see something that defies all odds.",
-      "suggested_fix": "Stylistic/word-choice note: translation is generally correct but consider smoothing phrasing if desired (optional). No mandatory change required. Example improvement: “Die wêreld daarbuite moet oortuig word. Hulle moet iets sien wat die wetenskap nie kan verklaar nie, iets wat alle waarskynlikhede trotseer.”",
-      "translation_quote": "Die wêreld daar buite moet oortuig word. Hulle moet iets sien wat die wetenskap nie kan verklaar nie. Hulle moet iets sien wat alle waarskynlikhede trotseer."
+      "location": "source.html, heading “Obedience”",
+      "severity": "major",
+      "source_quote": "“Obedience”",
+      "suggested_fix": "Correct the heading to “Gehoorsaamheid”.",
+      "translation_quote": "“Gehoreensaamheid”"
+    },
+    {
+      "location": "source.html, final paragraph",
+      "severity": "major",
+      "source_quote": "“The fields are white unto harvest.”",
+      "suggested_fix": "Use the conventional Afrikaans word for fields in this harvest metaphor, for example: “Die landerye is wit vir die oes.”",
+      "translation_quote": "“Die lande is wit vir die oes.”"
     }
   ],
+  "finished_at": "2026-10-03T10:40:49+00:00",
   "id": "bbdc08f96fc457d148ba521375eef790",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "afr",
@@ -151,12 +179,14 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
   "translation_model_actual": "gpt-6-luna"

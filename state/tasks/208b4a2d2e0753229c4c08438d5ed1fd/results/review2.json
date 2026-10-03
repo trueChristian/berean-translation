@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "91f35768-a198-43e3-a724-c3d323f60c57",
+    "response_id": "chatcmpl-EUpQnnbdWUQE74l2T3c03zIoF1xpz",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 766,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4489,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5372
+    }
+  },
+  "received_at": "2026-10-03T10:40:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lyrics, stanza 3, repeated refrain (both lines)",
+        "severity": "major",
+        "source_quote": "“Early let us turn to Thee.”",
+        "suggested_fix": "Replace both instances of “Laat ons vroeg na U toe kom” with “Laat ons vroeg tot U wend” to preserve the request to turn to God.",
+        "translation_quote": "“Laat ons vroeg na U toe kom.”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

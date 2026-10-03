@@ -788,6 +788,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/64012528-bcec-4189-96b5-32a226869815.html",
+      "html_sha256": "177e37367d3b98c0c79550edaa107e3b5016f04e536523c31c19297cb8abed04",
+      "human_reviewed": false,
+      "id": "64012528-bcec-4189-96b5-32a226869815",
+      "images": [
+        {
+          "alt": "Silhoeët van ’n persoon wat albei hande teen ’n warmkleurige lug ophef",
+          "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/64012528-bcec-4189-96b5-32a226869815.json",
+      "metadata_sha256": "37ae232ac7cc10f5e71c91162d0427069dcaf1fa3fe4ed378d5b1f68681475fe",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Stryd Wat Woed",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "e2ef44227f342505b661dbb43dc9004b300458cc79dc177699e402fbf7276798",
       "human_reviewed": false,
@@ -840,6 +868,34 @@
       "subtitle": null,
       "title": "Van die Redakteur",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
+      "html_sha256": "3d23a7aece54560a0830a3e12201a6be0af1efe81c8aa7846d8fb0395adb20cf",
+      "human_reviewed": false,
+      "id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
+      "images": [
+        {
+          "alt": "’n Ou huis en kaal bome in ’n sneeulandskap",
+          "public_path": "/images/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.json",
+      "metadata_sha256": "e8633db6bdea5891cd0148d582c4ded31a0f645608547d587c6358f163f5138c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "BYBELSE LEERSTELLINGS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wanneer God “Nee” Sê",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
