@@ -37,6 +37,11 @@ on:
         required: true
         type: string
         default: "1"
+      max_candidate_bytes:
+        description: "Maximum complete repaired candidate size in UTF-8 JSON bytes (1024–1000000); larger limits reserve more review budget"
+        required: true
+        type: string
+        default: "120000"
       dry_run:
         description: "Preview eligible held candidates only: no repairs, reservations, or paid requests"
         type: boolean
@@ -63,6 +68,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           TRANSLATION_OPERATION: repair
           TRANSLATION_SELECTION: downstream-recovery
+          TRANSLATION_CONTINUATION_VERSION: "2"
+          INPUT_MAX_CANDIDATE_BYTES: ${{ inputs.max_candidate_bytes }}
           INPUT_MAX_ARTICLES: ${{ inputs.max_articles }}
           INPUT_MODEL: ${{ inputs.model }}
           INPUT_REVIEW_MODEL: ${{ inputs.review_model }}

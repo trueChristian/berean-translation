@@ -6,6 +6,10 @@ and terminal tasks remain unchanged.
 
 ## Operation
 
+New version 2 requests follow [bounded continuation](recovery-continuation.md).
+The once-per-source descriptions below document historical version 1 requests;
+new requests count those accepted attempts within a finite three-cycle lineage.
+
 `AI — Repair held translations` offers manual model/reviewer choice, 1–5 article
 pairs, a campaign USD envelope and a free preview (the default). The collector
 selects the exact latest held pairs and freezes their predecessor task, candidate,

@@ -109,6 +109,13 @@ def main(argv=None):
                     budget_usd=os.environ.get('INPUT_BUDGET_USD', ''),
                     model=os.environ.get('INPUT_MODEL') or policy.get('model', 'gpt-6.1-sol'),
                     review_model=os.environ.get('INPUT_REVIEW_MODEL') or policy.get('review_model', 'gpt-6.1-sol'))
+                version = os.environ.get('TRANSLATION_CONTINUATION_VERSION')
+                if version is not None:
+                    if version != '2':
+                        raise ContractError('Unsupported downstream continuation version')
+                    from .continuation import policy as continuation_policy
+                    request['continuation_policy'] = continuation_policy(
+                        int(os.environ.get('INPUT_MAX_CANDIDATE_BYTES', '120000')))
                 if not request['dry_run'] or os.environ.get('GITHUB_ACTIONS') == 'true':
                     request['manual_authorization'] = manual_repair_authorization(request)
                 validate_request(config, request)
