@@ -5,7 +5,7 @@ Generated from the pinned source catalogue and durable work records. No API call
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `22388745ad7f149609e65f5e28cfcc1257cd689e`
+Observed English revision: `9f125b01b12c7ad1ac860850d5e31186c14c8101`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -97,31 +97,32 @@ Observed English revision: `22388745ad7f149609e65f5e28cfcc1257cd689e`
 | `heartbeat-remnant-2002-09` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2002-07` | 13 | 0 / 260 | 0 | 0 | 0 |
 | `heartbeat-remnant-2002-05` | 14 | 0 / 280 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-03` | 13 | 0 / 260 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 48 / 1010 | 0 | 22 | 58 | 76 |
-| `hin` (hi) | 53 / 1010 | 0 | 22 | 53 | 83 |
-| `spa` (es) | 84 / 1010 | 0 | 22 | 22 | 56 |
-| `ara` (ar) | 45 / 1010 | 0 | 22 | 61 | 85 |
-| `fra` (fr) | 78 / 1010 | 0 | 22 | 28 | 58 |
-| `ben` (bn) | 42 / 1010 | 0 | 22 | 64 | 97 |
-| `por` (pt) | 85 / 1010 | 0 | 22 | 21 | 61 |
-| `ind` (id) | 74 / 1010 | 0 | 22 | 32 | 68 |
-| `urd` (ur) | 56 / 1010 | 0 | 22 | 50 | 81 |
-| `rus` (ru) | 59 / 1010 | 0 | 22 | 47 | 78 |
-| `deu` (de) | 45 / 1010 | 0 | 22 | 61 | 87 |
-| `nld` (nl) | 78 / 1010 | 0 | 22 | 28 | 64 |
-| `afr` (af) | 63 / 1010 | 0 | 37 | 28 | 61 |
-| `swa` (sw) | 30 / 1010 | 0 | 22 | 76 | 97 |
-| `kor` (ko) | 62 / 1010 | 0 | 22 | 44 | 74 |
-| `ita` (it) | 81 / 1010 | 0 | 22 | 25 | 56 |
-| `heb` (he) | 14 / 1010 | 0 | 22 | 92 | 102 |
-| `ell` (el) | 54 / 1010 | 0 | 22 | 52 | 84 |
-| `swe` (sv) | 64 / 1010 | 0 | 22 | 42 | 74 |
-| `nob` (nb) | 69 / 1010 | 0 | 22 | 37 | 74 |
+| `cmn` (zh-Hans) | 48 / 1023 | 0 | 22 | 58 | 76 |
+| `hin` (hi) | 53 / 1023 | 0 | 22 | 53 | 83 |
+| `spa` (es) | 84 / 1023 | 0 | 22 | 22 | 56 |
+| `ara` (ar) | 45 / 1023 | 0 | 22 | 61 | 85 |
+| `fra` (fr) | 78 / 1023 | 0 | 22 | 28 | 58 |
+| `ben` (bn) | 42 / 1023 | 0 | 22 | 64 | 97 |
+| `por` (pt) | 85 / 1023 | 0 | 22 | 21 | 61 |
+| `ind` (id) | 74 / 1023 | 0 | 22 | 32 | 68 |
+| `urd` (ur) | 56 / 1023 | 0 | 22 | 50 | 81 |
+| `rus` (ru) | 59 / 1023 | 0 | 22 | 47 | 78 |
+| `deu` (de) | 45 / 1023 | 0 | 22 | 61 | 87 |
+| `nld` (nl) | 78 / 1023 | 0 | 22 | 28 | 64 |
+| `afr` (af) | 63 / 1023 | 0 | 37 | 28 | 61 |
+| `swa` (sw) | 30 / 1023 | 0 | 22 | 76 | 97 |
+| `kor` (ko) | 62 / 1023 | 0 | 22 | 44 | 74 |
+| `ita` (it) | 81 / 1023 | 0 | 22 | 25 | 56 |
+| `heb` (he) | 14 / 1023 | 0 | 22 | 92 | 102 |
+| `ell` (el) | 54 / 1023 | 0 | 22 | 52 | 84 |
+| `swe` (sv) | 64 / 1023 | 0 | 22 | 42 | 74 |
+| `nob` (nb) | 69 / 1023 | 0 | 22 | 37 | 74 |
 
 ## Issue / language work
 
@@ -374,7 +375,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 Paused: hourly/shared-policy recovery submissions are disabled; separately authorized manual workflow requests retain their own ceilings.
 Hourly/shared-policy funding. Accepted lifetime recovery allocations: $0.000000 / $0.00. Allocations are not recycled after failure or cancellation.
-Separately authorized manual workflow allocations: $30.000000 across 3 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
+Separately authorized manual workflow allocations: $40.000000 across 4 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
@@ -418,6 +419,7 @@ A finished original campaign remains historical; current publication readiness i
 | `gh-37109005676` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.073089 / 10.00 | [state](state/campaigns/gh-37109005676.json) |
 | `gh-37109037884` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.053413 / 10.00 | [state](state/campaigns/gh-37109037884.json) |
 | `gh-37109077881` | manual | translate | active | 220 | 220 active | 0.00000000 | 1.157502 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
+| `gh-37109120670` | manual recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
