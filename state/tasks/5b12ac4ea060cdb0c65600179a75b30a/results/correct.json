@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f3541412-2e5d-4698-b4f8-848b3620d3b5",
+    "response_id": "chatcmpl-EUz5aUMuvXG0VyQoSCkAn2CBEjfRE",
+    "usage": {
+      "completion_tokens": 707,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 239,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1914,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1911,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2621
+    }
+  },
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"Un pequeño bote junto a la orilla de aguas tranquilas durante una puesta de sol de colores intensos\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>¡Levantaos, alegraos! ¡La aurora ha llegado!<br>\n    ¡Regocijaos y cantad! La noche ha pasado,<br>\n    La Aurora brilla desde lo alto,<br>\n    ¡La gracia de Dios para el hombre está cerca!<br>\n    ¡Regocijaos y alabad al Rey de reyes!<br>\n    ¡Dad gracias y alabad, pues aún hay más!</strong></p>\n\n    <p><strong>¡Levantaos y glorificad al Señor!<br>\n    ¡Ensalzad y alabad su digno nombre!<br>\n    Él brilla desde los cielos con amor,<br>\n    Y derrama bendiciones desde lo alto,<br>\n    Su misericordia desciende hasta los hombres-<br>\n    ¡Adorad y alabad a nuestro poderoso Señor!</strong></p>\n\n    <p><strong>Dad gracias y cantad a Cristo, nuestro Rey,<br>\n    Y adoradle con reverente alabanza;<br>\n    Inclinaos con santo temor reverencial-<br>\n    ¡La santidad de Dios está aquí!<br>\n    Con maravillosa belleza, doblad la rodilla;<br>\n    ¡Adorad al omnipotente Rey de reyes!</strong></p>\n  </div>\n</article>",
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Levantaos, alegraos"
+  }
+}

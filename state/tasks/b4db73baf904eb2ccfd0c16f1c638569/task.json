@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "3ed4b7a778bec697532c6354890a7f3227ff088fccb089c1d52899433803a5ff",
   "base_metadata_sha256": "ad8917819f86b94c0be5b38c6545beedb91a141cc8bf72acd959a7b13f158b19",
-  "batch": "0e3c888470584484ad45b581abe9a2a9",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8777
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3053,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 42,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8404,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8401,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11457
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[10]; missing: 137:2-4; extra: 137:1-4",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "source.html, first paragraph; quoted passage",
@@ -121,6 +141,7 @@
       "translation_quote": "“feliz como um cotovia”; “robin”, “song sparrow”, “rose-breasted grosbeak”, “wren”, “nightingale”, “robins” e “buntings”"
     }
   ],
+  "finished_at": "2026-10-03T21:14:44+00:00",
   "id": "b4db73baf904eb2ccfd0c16f1c638569",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "por",
@@ -215,8 +236,8 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6-luna"
 }

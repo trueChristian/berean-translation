@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"52074824-2feb-4fe4-96d0-a08ec72c3565\\\">\\n  <p class=\\\"drop-cap\\\">Todavía puedo oler la tentadora cacofonía de aromas mientras apretaba la mano fuerte de mi padre, abriéndonos paso entre las multitudes de turistas que llenaban el edificio. Los vendedores del Green Dragon Farmer’s Market en Ephrata, PA, hacían todo lo posible por atraer compradores con sus filas de pescado fresco sobre hielo, quesos de toda variedad, embutidos y sándwiches, y montones de fruta fresca. ¡Y, oh, los dulces! Mi joven mente de preescolar nunca había visto tantos manjares en un solo lugar al mismo tiempo.</p>\\n\\n  <p>Los últimos dos días para mí fueron como los del niño en la tienda de golosinas. Tuve el privilegio de asistir a la primera Conferencia Anual de Escritores de Christian Aid Ministries. Me codeé con autores conocidos como Katrina Hoover Lee, Johnny Miller y Ruthann Stelfox. Conversé con escritores aspirantes y maestros de escuela experimentados. Tuve la oportunidad de participar en horas de talleres inspiradores y educativos sobre cómo escribir para comunicar, usando diálogos realistas, escritura descriptiva y mucho más. Todos teníamos un objetivo común. Juntos compartimos y aprendemos cómo comunicar eficazmente lo que hay en nuestros corazones y, mediante el poder de la palabra escrita, transmitir esos pensamientos a sus corazones.</p>\\n\\n  <p><em>The Heartbeat of the Remnant</em> es un medio para comunicar pensamientos inspiradores a lectores ávidos dispersos por todo el mundo. Escritores valientes se adelantan con pluma y papel o teclado y monitor, y ayudan a difundir las Buenas Nuevas de la Palabra de Dios con cautela, corrección y edificación. Sin embargo, necesitamos más escritores así. Necesitamos jóvenes creyentes que presenten valientemente sus primeros cuentos infantiles. Abuelos experimentados que lleven palabras de amonestación a la generación más joven. Madres que compartan experiencias y pruebas con otras madres que están en plena crianza de los pequeños. Jóvenes que animen a otros jóvenes a esforzarse por alcanzar el premio del supremo llamamiento de Dios en Cristo Jesús. Padres que, con preocupación, observan cómo el mundo se cierne sobre los hogares cristianos. Juntos, estos aspirantes a escritores producirán una revista que perdurará durante muchos años en la mesa de centro familiar. Animo a ustedes, hermanos en la fe, a que lo intenten. Nelson Mandela, expresidente de Sudáfrica, escribió: «El fracaso es un maestro y, al final de tu vida, ¿qué crees que lamentarás más: haber fracasado o no haberlo intentado nunca?»</p>\\n\\n  <p>The Berean Voice tiene como objetivo proporcionar material impreso que ayude a los lectores a navegar por las variadas y difíciles etapas de la vida. Todo nuestro material está disponible sin costo, pero dependemos de las donaciones de nuestros colaboradores. Esta es una lista de los libros que tenemos disponibles:</p>\\n\\n  <p class=\\\"book-list\\\">El poder del amor a la verdad<br>\\n  Consejería cristiana: ¿falsa?<br>\\n  El corazón de Dios<br>\\n  ¡Verdaderamente libres!<br>\\n  Peregrinos y política<br>\\n  Copa y cruz<br>\\n  El alto costo de la sanación holística<br>\\n  Secretos de la escritura exitosa<br>\\n  La conexión católica<br>\\n  Psiquiatría y medicamentos que alteran el estado de ánimo<br>\\n  La Iglesia menonita y el modernismo</p>\\n\\n  <p>En 2017 y 2018, The Berean Voice publicó una serie de artículos sobre vacunas en la revista <em>The Heartbeat of the Remnant</em>. Estos artículos fueron un esfuerzo sincero por examinar diversos aspectos del uso de las vacunas con un enfoque imparcial. Intentamos presentar los hechos lo más claramente posible y dejar que los lectores sacaran sus propias conclusiones.</p>\\n\\n  <p>Desde entonces, hemos recibido numerosas peticiones de nuestros lectores para publicar todos los artículos sobre vacunas en un folleto, a lo que accedimos. Pero luego llegó 2019, trayendo consigo el coronavirus. Este acontecimiento monumental trastocó el debate sobre las vacunas e inició una frenética carrera por llevar al mercado remedios contra el COVID-19, muchos de los cuales no fueron debidamente probados. Pusimos la impresión en espera, sin saber si incluir información sobre estas nuevas y no probadas «vacunas» contra el COVID-19. Con el paso del tiempo y al disminuir la letalidad del COVID-19, decidimos publicar los artículos originales sobre vacunas en un folleto, sin añadir artículos sobre el debate del COVID-19. Nos complace que el proyecto esté cerca de completarse y se anunciará cuando se publique.</p>\\n\\n  <p>Bendiciones para todos,</p>\\n\\n  <p class=\\\"byline\\\">Edward Martin</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg\\\" alt=\\\"Flores rosadas y blancas de corona de veza en un prado verde\\\" loading=\\\"lazy\\\">\\n  </figure>\\n</article>\",\"section\":\"DEL EDITOR\",\"subtitle\":null,\"title\":\"Del editor\"}",
+    "content_bytes": 5001,
+    "content_evidence_truncated": false,
+    "content_sha256": "d215887567bf6cd1e459758f413c25a4ef2a8af4cbff05e232a794f8082be923",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1201,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3368,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4572
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

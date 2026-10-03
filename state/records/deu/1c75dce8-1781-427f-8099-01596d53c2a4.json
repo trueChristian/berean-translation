@@ -18,6 +18,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "ba0cba0a5b0898d4a20a228d588147ff"
+    },
+    {
+      "at": "2026-10-03T21:14:44+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: Isaiah 65:14, John 7:38; extra: 65:14, 7:38",
+      "task": "ba0cba0a5b0898d4a20a228d588147ff"
     }
   ],
   "language": "deu",

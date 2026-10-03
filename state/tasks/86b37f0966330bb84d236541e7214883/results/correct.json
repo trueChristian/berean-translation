@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9272bb38-4d54-44a5-bab8-e25dd7ef9f4e",
+    "response_id": "chatcmpl-EUz7OwOr0lG8GQ7p0PSV4NTKS1GOm",
+    "usage": {
+      "completion_tokens": 705,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 226,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1968,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1965,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2673
+    }
+  },
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"Une petite barque au bord d'une eau calme lors d'un coucher de soleil saisissant\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>Lève-toi, sois dans la joie ! Car l'aube est venue !<br>\n    Réjouis-toi et chante ! La nuit est passée,<br>\n    L'Aurore brille d'en haut,<br>\n    La grâce de Dieu envers l'homme est proche !<br>\n    Réjouis-toi et loue le Roi des rois !<br>\n    Rends grâces et loue, car il y a plus encore !</strong></p>\n\n    <p><strong>Lève-toi et glorifie le Seigneur !<br>\n    Exalte et loue son nom digne de louange !<br>\n    Il brille des cieux dans l'amour,<br>\n    Et répand des bénédictions d'en haut,<br>\n    Sa miséricorde descend jusqu'aux hommes-<br>\n    Adore et loue notre puissant Seigneur !</strong></p>\n\n    <p><strong>Rends grâces et chante au Christ notre Roi<br>\n    Et adore-Le avec des louanges révérentes ;<br>\n    Incline-toi dans une crainte révérencieuse et sainte-<br>\n    La Sainteté de Dieu est ici ;<br>\n    Dans une beauté merveilleuse plie le genou ;<br>\n    Adore l'omnipotent Roi des rois !</strong></p>\n  </div>\n</article>",
+    "section": "Poème",
+    "subtitle": null,
+    "title": "Lève-toi, sois dans la joie"
+  }
+}

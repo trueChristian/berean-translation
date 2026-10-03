@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3fc9c5b2-28b4-48ad-9a29-fad9f9c8e138",
+    "response_id": "chatcmpl-EUz8BchXRiBVRQCsEjo5UIXFtE1wz",
+    "usage": {
+      "completion_tokens": 1390,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3966,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5359
+    }
+  },
+  "received_at": "2026-10-03T21:14:42+00:00",
+  "result": {
+    "html": "<article data-article-id=\"aa552c1c-4324-40a5-a7c3-8f36b6a99ee2\">\n  <p class=\"drop-cap\">Åttaårige Jamin var inte särskilt smart. Eller åtminstone var det vad hans storebror sa. Nästan dagligen hittade Kenny sätt att påminna Jamin om hans brister och skratta åt hans misstag.</p>\n  <p>”Jamin, du kommer aldrig att bli smart”, sa Kenny. Djupt inom sig hade Jamin resignerat inför ett liv av förvirrade snedsteg. Skulle han alltid vara klumpig? Skulle han alltid säga fel saker? Det var vad Kenny sa.</p>\n  <p>Jamin trodde blint på Kennys föreläsningar. Kenny var tre år äldre än han, så han måste ha rätt. Nåväl, då skulle Jamin vara enkel. Kenny skulle vara smart. Livet var inte rättvist. Pappa och mamma ogillade Kennys högmodiga prat och straffade honom när de råkade höra ett av hans tal. Men Kenny brukade se till att de inte hörde honom. Så han fortsatte att håna Jamin.</p>\n  <p>Farmor Otto såg dessa prövningar från sin gungstol på verandan. Hon var en tystlåten gammal dam.</p>\n  <p>”Jamin, vet du var Kenny är?” frågade mamma med ett leende. ”Det är snart kvällsmat.”</p>\n  <p>”Han gick för att kolla sina prärievargsfällor. Jag går och letar efter honom.”</p>\n  <p>Det var kyligt i luften när han trampade över gräsmattan, och solen började bli gammal när han korsade skogsbrynet. De flyktiga skuggorna ilade över kullarna. Kylan tilltog ju längre han gick in. Han andades in den mustiga luften och följde Kennys spår. Så småningom skulle stigen leda ut på en äng, men Jamin hoppades hitta Kenny innan han behövde gå så långt. Fällorna hade redan blivit kontrollerade, så Jamin visste att Kenny hade gått den här vägen. Jamin traskade beslutsamt vidare. Hans gyllene hår fångade de trötta strålarna som flydde från solen och fladdrade genom träden. Snart hade också de bleknat och lämnat kvar skogens mustiga doft. Höstspinnarmaskarna hade varit i farten, och deras spinnvävsgardiner hängde från grenarna ovanför.</p>\n  <p>Till sist, när träden glesnade och ängen visade sig, förstod Jamin att detta var slutet på hans brors fällrunda. Om Kenny inte var här visste han inte var han annars skulle leta.</p>\n  <p>Men Kenny var där. När Jamin klev in på ängen såg han en frustrerad klump till höger. Klumpens röst lät bekant. Ansiktet på klumpen var förvridet av smärta. Klumpen var Kenny. ”Är du okej? Vad hände?” Jamin kände sig underlig när han såg Kenny hopkrupen i jorden. Kenny var smart. ”Klev du i en fälla?”</p>\n  <p>”Ja, Jamin. Jag… jag såg inte vart jag gick. Hjälp mig. Snälla.”</p>\n  <p>Jamin böjde sig ner och upptäckte att en stålfälla höll fast Kennys fotled. Mörkret fläckade marken runt Kenny. Snabbt bände Jamin upp käftarna med sina starka armar. Kenny stapplade loss. ”Kan du gå?”</p>\n  <p>”Ja. Jag tror det. Om du stöder mig kan jag stappla fram.”</p>\n  <p>”Pappa och mamma kommer att vara oroliga. Vi har missat kvällsmaten.”</p>\n  <p>Mycket riktigt, när bröderna stapplade tillbaka genom skogen hörde de sin far ropa länge. Jamin ropade tillbaka, och ett ögonblick senare var pappan vid deras sida. Han såg fotleden och lyfte upp Kenny som ett skadat får. Den märkliga lilla gruppen skyndade hem, och nätdörren slog igen när pappa skyndade över verandan. Jamin gick till tvättstugan och skrubbade händerna. Han gick mot ytterdörren.</p>\n  <figure>\n    <img src=\"/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg\" alt=\"En smal stig som slingrar sig genom en lövrik skog\" loading=\"lazy\">\n  </figure>\n  <p>”Jamin.” Det var farmor. Verandalampan lyste upp henne där hon satt i sin gamla gungstol. En tung täckfilt låg över hennes axlar.</p>\n  <p>”Ja, farmor?”</p>\n  <p>”Tror du att du inte är särskilt smart?”</p>\n  <p>”Det är vad Kenny säger.” Jamin vred sig obekvämt.</p>\n  <p>”Du var stark nog att öppna fällan, och Kenny var det inte. Du var modig nog att hitta honom i mörkret. Många unga pojkar skulle inte ha varit det.” Jamin var tyst. Farmor Otto gungade en stund till och log sedan. ”Gud gjorde dig sådan du är av en anledning, Jamin. Han gjorde Kenny sådan han är av en anledning. Han har en plan för dig och en plats som bara du kan fylla, vet du.”</p>\n  <p>Jamin vände sig om och gick in i det varma köket. Han log.</p>\n</article>",
+    "section": "Barnens hörna",
+    "subtitle": null,
+    "title": "Jamin blir klokare"
+  }
+}

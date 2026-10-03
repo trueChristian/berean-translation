@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\\\" alt=\\\"غروب آفتاب کے دلکش منظر میں پُرسکون پانی کے کنارے ایک چھوٹی کشتی\\\" loading=\\\"lazy\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p><strong>اُٹھو، خوش ہو جاؤ! کیونکہ صبح ہو گئی ہے!<br>\\n    خوشی مناؤ اور گاؤ! رات گزر چکی،<br>\\n    بلندیوں سے صبح کا نور چمک رہا ہے،<br>\\n    انسانوں پر خدا کا فضل قریب ہے!<br>\\n    بادشاہوں کے بادشاہ کی حمد کرو!<br>\\n    شکر کرو اور ستائش کرو، کیونکہ ابھی اور بھی ہے!</strong></p>\\n\\n    <p><strong>اُٹھو اور خداوند کی تمجید کرو!<br>\\n    اُس کے لائقِ ستائش نام کی حمد کرو!<br>\\n    وہ محبت میں آسمانوں سے چمکتا ہے،<br>\\n    اور بلندیوں سے برکتوں کی بارش کرتا ہے،<br>\\n    اُس کی رحمت انسانوں تک پہنچتی ہے-<br>\\n    ہمارے قادر خداوند کی عبادت اور ستائش کرو!</strong></p>\\n\\n    <p><strong>مسیح ہمارے بادشاہ کا شکر کرو اور گاؤ<br>\\n    اور تعظیم بھری ستائش کے ساتھ اُس کی عبادت کرو؛<br>\\n    مقدس ہیبت کے ساتھ جھک جاؤ-<br>\\n    خدا کی پاکیزگی یہاں موجود ہے؛<br>\\n    حیرت انگیز حسن کے حضور گھٹنے ٹیکو؛<br>\\n    بادشاہوں کے بادشاہ، قادرِ مطلق کی عبادت کرو!</strong></p>\\n  </div>\\n</article>\",\"section\":\"نظم\",\"subtitle\":null,\"title\":\"اُٹھو، خوش ہو جاؤ\"}",
+    "content_bytes": 1828,
+    "content_evidence_truncated": false,
+    "content_sha256": "5feeccd0a18e3547515e75122f399e915d1b9f6fb077a6f2c298adf8bfa90b54",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 509,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2366,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2363,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2875
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

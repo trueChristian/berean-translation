@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\\\" alt=\\\"Ein kleines Boot am Rand ruhigen Wassers bei einem leuchtenden Sonnenuntergang\\\" loading=\\\"lazy\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p><strong>Erhebt euch, freut euch! Denn der Morgen ist da!<br>\\n    Freut euch und singt! Die Nacht ist vorüber,<br>\\n    Der Morgenanbruch leuchtet von oben herab,<br>\\n    Gottes Gnade ist den Menschen nah!<br>\\n    Freut euch und preist den König der Könige!<br>\\n    Dankt und lobt, denn mehr ist da!</strong></p>\\n\\n    <p><strong>Erhebt euch und verherrlicht den Herrn!<br>\\n    Rühmt und preist seinen würdigen Namen!<br>\\n    Er leuchtet in Liebe aus den Himmeln,<br>\\n    Und lässt Segnungen von oben herabströmen,<br>\\n    Seine Barmherzigkeit reicht hinab zu den Menschen-<br>\\n    Betet unseren mächtigen Herrn an und preist ihn!</strong></p>\\n\\n    <p><strong>Dankt und singt Christus, unserem König,<br>\\n    Und betet ihn mit ehrfürchtigem Lob an;<br>\\n    Beugt euch in heiliger Ehrfurcht nieder-<br>\\n    Gottes Heiligkeit ist hier;<br>\\n    Beugt in wunderbarer Schönheit das Knie;<br>\\n    Betet den allmächtigen König der Könige an!</strong></p>\\n  </div>\\n</article>\",\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"Erhebt euch, freut euch\"}",
+    "content_bytes": 1389,
+    "content_evidence_truncated": false,
+    "content_sha256": "036fdc6901abedff2911268d3b79866e4b0de01dbf47046df29d718aaccb3ea4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 171,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2254,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2890
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\\\" alt=\\\"Небольшая лодка у кромки спокойной воды во время яркого заката\\\" loading=\\\"lazy\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p><strong>Восстаньте и радуйтесь! Ведь рассвет уже наступил!<br>\\n    Ликуйте и пойте! Ночь прошла,<br>\\n    Утренняя заря сияет с высот,<br>\\n    Благодать Божия близка человеку!<br>\\n    Радуйтесь и восхваляйте Царя царей!<br>\\n    Благодарите и прославляйте, ведь здесь есть большее!</strong></p>\\n\\n    <p><strong>Восстаньте и прославьте Господа!<br>\\n    Вознесите хвалу и прославьте Его достойное имя!<br>\\n    Он в любви сияет с небес<br>\\n    И изливает благословения свыше,<br>\\n    Его милость нисходит к людям—<br>\\n    Поклоняйтесь и восхваляйте нашего могучего Господа!</strong></p>\\n\\n    <p><strong>Благодарите и пойте Христу, нашему Царю,<br>\\n    И поклоняйтесь Ему с благоговейной хвалой;<br>\\n    Склонитесь в благоговейном, святом страхе—<br>\\n    Здесь святость Божия;<br>\\n    В дивной красоте преклоните колени;<br>\\n    Поклоняйтесь всемогущему Царю царей!</strong></p>\\n  </div>\\n</article>\",\"section\":\"Стихотворение\",\"subtitle\":null,\"title\":\"Восстаньте и радуйтесь!\"}",
+    "content_bytes": 1941,
+    "content_evidence_truncated": false,
+    "content_sha256": "5c058edff752c18840e7321f33423db9f8f4a653b361c733d08f78c0495500db",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 487,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1965,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1962,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2452
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

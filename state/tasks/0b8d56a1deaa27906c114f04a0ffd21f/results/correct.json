@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d69753f6-7f10-4f58-9507-5a017ea0b5f5",
+    "response_id": "chatcmpl-EUz6NeZjRjmeQsMY50TA0kzMWZfTe",
+    "usage": {
+      "completion_tokens": 1236,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3583,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3580,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4819
+    }
+  },
+  "received_at": "2026-10-03T21:14:42+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"’n Koppie koffie langs ’n spiraalnotaboek en ’n potlood.\">\n  </figure>\n  <p class=\"drop-cap\">Die dringendheid van die laaste minuut is iets waarmee baie tuistes gereeld te doen het. Maak nie saak hoe georganiseerd ons is nie, soms stel ons take uit omdat ons dit nie graag doen nie of wag totdat ons onder druk is.</p>\n  <p>Gereelde uitstel kan moontlik tot hoër vlakke van spanning lei. Miskien is ek vreemd, maar dit is vir my moeilik om kalm en bedaard te bly wanneer die druk toeneem. Teen die tyd dat die laaste-minuut-take afgehandel is, is ek te uitgeput om die beplande geleentheid te geniet.</p>\n  <h2>Tandpyn en paduitstappies</h2>\n  <p>Dit is vir my ’n raaisel waarom ’n familielid in ’n tandartsstoel beland ’n dag of twee voordat ons op ’n reis vertrek. Miskien het dit nie so dikwels gebeur as wat ek dink nie, maar die frustrasie van ’n onbeplande tandartsbesoek op ’n ongeleë tyd is in my geheue ingeprent. Nou beplan ek ’n denkbeeldige afspraak voor ’n reis. As dit nie ’n tandheelkundige noodgeval is nie, sal ’n ander probleem seker daardie tydgleuf vul.</p>\n  <p>Sperdatums is ’n normale deel van die lewe. Sonder hulle sou ons ongemotiveerd wees, en sou ons dae geen doel hê nie. Onderbrekings is ook ’n normale deel van die lewe. Hulle gee voortdurend ’n onvoorspelbare wending aan ons dae en weke. As ons te veel take tot die laaste minuut laat wag, bots onderbrekings en sperdatums, en heers chaos.</p>\n  <h2>Verander die laaste-minuut-scenario</h2>\n  <p>Sperdatums en onderbrekings kan nie uitgeskakel word nie, maar ons kan laaste-minuut-take beperk. Soms verg dit ’n eerlike terugblik om uit te vind wat ons spanning veroorsaak het. Dikwels blameer ons onderbrekings en besef ons nie dat swak beplanning of uitstel die oorsaak kon wees nie.</p>\n  <p>Byvoorbeeld, as gaste kom en ons beplan om vensters te was en ’n nagereg te maak, saam met ’n dosyn ander take op die dag van hul aankoms, is daar geen ruimte vir ontwrigtings nie. Uit ervaring weet ons dat onderbrekings sal kom. Is dit dus nie beter om vir ’n bysteek en ’n toon wat gestamp is te “beplan” nie?</p>\n  <p>Waarom nie die vensters was en die nagereg op ’n ander dag beplan nie? Dit kan beteken dat daar ’n paar vingerafdrukke op die vensters is en dat die nagereg eenvoudiger is, maar is dit nie beter as baie spanning op die laaste minuut nie?</p>\n  <h2>Doen sommige take vooruit</h2>\n  <p>Om vroeg in die dag te besluit wat om vir aandete te maak en die doeksak vooraf in te pak, is klein dingetjies wat op die laaste minuut ’n groot verskil kan maak. Toe ons kinders nog jonk was, het ek tasse ’n dag voor ’n reis begin pak, eerder as op die vertrekdag. Ek kon die gejaag op die laaste minuut beter hanteer as daardie taak reeds afgehandel was.</p>\n  <h2>Doen die belangrikste take eerste</h2>\n  <p>Hierdie benadering gee jou die vryheid om minder belangrike take oor te slaan wanneer die tyd min is.</p>\n  <p>Soms is nie alles op die takelys ewe belangrik nie. Dit is moeilik vir ’n perfeksionis om ’n taak te laat vaar, maar nuwe gewoontes kan aangeleer word.</p>\n  <h2>Verdeel werk in kleiner deeltjies</h2>\n  <p>Soms laat die omvang van ’n taak dit te groot lyk om te begin. Verdeel die groot taak in kleiner dele. Dit is baie meer hanteerbaar om ’n kleiner taak af te handel. Om my kombuis deeglik skoon te maak, is ’n taak wat ek nie geniet nie. As my beplanner sê: “Maak die kombuis deeglik skoon,” is dit maklik om te ignoreer.</p>\n  <p>Maar as my beplanner sê: “Maak die toestelle skoon, vee die kaste uit en was die vensters,” lyk dit meer uitvoerbaar.</p>\n  <p>Daar is soveel vreugdevolle gebeurtenisse in die lewe; waarom jou deur uitstel laat pla? Gun jouself die vryheid om anders te leef. ’n Paar klein veranderinge kan die grootste verskil maak tussen ’n geseënde en ’n stresvolle laaste minuut.</p>\n</article>",
+    "section": "SUSTER TOT SUSTER",
+    "subtitle": null,
+    "title": "Uitstel-oorlading"
+  }
+}

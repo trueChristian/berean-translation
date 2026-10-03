@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "51c533f3-b15b-4743-98b3-be0cb41780a0",
+    "response_id": "chatcmpl-EUz6UVqNwImIGCDKOpmeBImiACp2b",
+    "usage": {
+      "completion_tokens": 1208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3366,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3363,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4574
+    }
+  },
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"En kopp kaffe bredvid ett spiralblock och en blyertspenna.\">\n  </figure>\n  <p class=\"drop-cap\">Brådskan i sista minuten är något som många som sköter hemmet regelbundet får hantera. Oavsett hur organiserade vi är skjuter vi ibland upp uppgifter för att vi ogillar dem eller väntar tills vi är under press.</p>\n  <p>Vanemässigt uppskjutande kan leda till högre stressnivåer. Kanske är jag ovanlig, men det är svårt för mig att hålla mig lugn och samlad när trycket ökar. När sista-minuten-uppgifterna är avklarade är jag ofta för utmattad för att njuta av det planerade evenemanget.</p>\n  <h2>Tandvärk och bilresor</h2>\n  <p>Det är ett mysterium för mig varför en familjemedlem hamnar i tandläkarstolen en dag eller två innan vi åker på en resa. Kanske har det inte hänt så ofta som jag tror, men frustrationen över ett oplanerat tandläkarbesök vid ett olämpligt tillfälle sitter kvar i mitt minne. Numera bokar jag en inbillad tid före en resa. Om det inte är ett akut tandproblem kommer något annat säkert att fylla den tiden.</p>\n  <p>Tidsfrister är en normal del av livet. Utan dem skulle vi vara omotiverade och våra dagar skulle sakna mening. Avbrott är också en normal del av livet. De ger ständigt oväntade vändningar åt våra dagar och veckor. Om vi låter för många uppgifter vänta till sista minuten krockar avbrott och tidsfrister, och kaos uppstår.</p>\n  <h2>Ändra sista-minuten-scenariot</h2>\n  <p>Tidsfrister och avbrott kan inte elimineras, men vi kan begränsa uppgifter i sista minuten. Ibland krävs det att vi är ärliga mot oss själva och ser tillbaka för att ta reda på vad som orsakade vår stress. Ofta skyller vi på avbrotten och inser inte att dålig planering eller uppskjutande kan ha varit boven.</p>\n  <p>Till exempel, om gäster kommer och vi planerar att putsa fönster och göra en efterrätt tillsammans med ett dussin andra saker på dagen för deras ankomst, finns det inget utrymme för störningar. Av erfarenhet vet vi att avbrott kommer. Så är det inte bättre att ”planera” för ett bistick och en tå som slagit i något?</p>\n  <p>Varför inte schemalägga fönsterputsning och efterrätt en annan dag? Det kan innebära en del fingeravtryck på fönstren och en enklare efterrätt, men är inte det bättre än en massa stress i sista minuten?</p>\n  <h2>Gör vissa uppgifter i förväg</h2>\n  <p>Att bestämma tidigt på dagen vad som ska lagas till middag och att packa skötväskan i förväg är små saker som kan göra stor skillnad i sista minuten. När våra barn var små började jag packa resväskor en dag före en resa i stället för på avresedagen. Jag kunde hantera rusningen i sista minuten bättre om den uppgiften var avklarad.</p>\n  <h2>Gör de viktigaste uppgifterna först</h2>\n  <p>Detta förhållningssätt ger frihet att hoppa över mindre viktiga uppgifter när tiden är knapp.</p>\n  <p>Ibland är inte allt på uppgiftslistan lika värdefullt. Att stryka en uppgift är svårt för en perfektionist, men det är möjligt att utveckla nya vanor.</p>\n  <h2>Dela upp arbetet i mindre bitar</h2>\n  <p>Ibland gör uppgiftens enorma omfattning att den känns för stor för att börja med. Dela upp den stora uppgiften i mindre delar. Att slutföra en mindre uppgift är mycket mer hanterbart. Att grundligt rengöra mitt kök är en uppgift jag inte tycker om. Om min planeringsbok säger ”grundlig rengöring av kök” är det lätt att ignorera.</p>\n  <p>Men om min planeringsbok säger ”rengör apparater, torka ur skåp och tvätta fönster” känns det mer genomförbart.</p>\n  <p>Det finns så många glädjefyllda händelser i livet; varför låta uppskjutande störa dem? Ge dig själv friheten att leva annorlunda. Några små förändringar kan göra den största skillnaden mellan en välsignad sista minut och en stressig sådan.</p>\n</article>",
+    "section": "SYSTER TILL SYSTER",
+    "subtitle": null,
+    "title": "Överbelastad av uppskjutande"
+  }
+}

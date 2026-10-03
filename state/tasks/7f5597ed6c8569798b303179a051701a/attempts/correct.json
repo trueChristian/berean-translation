@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\\\" alt=\\\"סירה קטנה על שפת מים שקטים בשקיעה עזה\\\" loading=\\\"lazy\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p><strong>קומו ושמחו! כי השחר כאן!<br>\\n    שמחו ושירו! הלילה חלף,<br>\\n    אור השחר זורח ממרום,<br>\\n    חסד האל לאדם קרב!<br>\\n    שמחו והללו את מלך המלכים!<br>\\n    הודו והללו, כי עוד הרבה כאן!</strong></p>\\n\\n    <p><strong>קומו והללו את ה׳!<br>\\n    רוממו ושבחו את שמו הראוי!<br>\\n    הוא זורח באהבה מן השמים,<br>\\n    ומרעיף ברכות ממרום,<br>\\n    רחמיו מגיעים עד בני האדם—<br>\\n    עבדו והללו את אדוננו האדיר!</strong></p>\\n\\n    <p><strong>הודו ושירו למשיח, מלכנו,<br>\\n    והשתחוו לו בהלל מלא יראת כבוד;<br>\\n    כרעו ביראה קדושה ונוראה—<br>\\n    קדושת האל כאן;<br>\\n    ביופי מופלא כרעו ברך;<br>\\n    עבדו את מלך המלכים הכול־יכול!</strong></p>\\n  </div>\\n</article>\",\"section\":\"שיר\",\"subtitle\":null,\"title\":\"קומו ושמחו\"}",
+    "content_bytes": 1380,
+    "content_evidence_truncated": false,
+    "content_sha256": "2077c16c13b598a46406de5a3df7f97f2d108bd65f4bb19989707a74e323fd58",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 316,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2070,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2837
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

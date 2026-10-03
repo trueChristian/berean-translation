@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "870dfa33-cf9a-4a5c-9a5f-59952104ca41",
+    "response_id": "chatcmpl-EUz5inAjPJKA6CCesuZsfVe0Rs32A",
+    "usage": {
+      "completion_tokens": 1209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3519,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4731
+    }
+  },
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"Una tazza di caffè accanto a un quaderno a spirale e una matita.\">\n  </figure>\n  <p class=\"drop-cap\">L'urgenza dell'ultimo minuto è qualcosa con cui molte casalinghe si confrontano regolarmente. Non importa quanto siamo organizzate, a volte rimandiamo i compiti perché non ci piacciono o aspettiamo fino a quando non siamo sotto pressione.</p>\n  <p>La procrastinazione abituale può portare a livelli più elevati di stress. Forse sono strana, ma per me è difficile restare calma e composta quando la pressione aumenta. Quando le cose dell'ultimo minuto sono completate, sono troppo esausta per godermi l'evento programmato.</p>\n  <h2>Mal di denti e viaggi in auto</h2>\n  <p>Per me è un mistero perché un membro della famiglia finisca sulla poltrona del dentista un giorno o due prima di partire per un viaggio. Forse non è successo così spesso come penso, ma la frustrazione di una visita dal dentista non programmata in un momento inopportuno è impressa nella mia mente. Ora fisso un appuntamento immaginario prima di un viaggio. Se non è un'emergenza dentale, qualche altro problema finirà per occupare quella fascia oraria.</p>\n  <p>Le scadenze sono una parte normale della vita. Senza di esse saremmo demotivati e le nostre giornate mancherebbero di uno scopo. Anche le interruzioni sono una parte normale della vita. Danno costantemente una svolta imprevedibile alle nostre giornate e settimane. Se lasciamo troppe cose in sospeso fino all'ultimo minuto, interruzioni e scadenze si scontrano e regna il caos.</p>\n  <h2>Cambia lo scenario dell'ultimo minuto</h2>\n  <p>Scadenze e interruzioni non possono essere eliminate, ma possiamo limitare i compiti dell'ultimo minuto. A volte serve uno sguardo sincero al passato per capire cosa ha causato il nostro stress. Spesso diamo la colpa alle interruzioni e non ci rendiamo conto che la causa potrebbe essere stata una cattiva pianificazione o la procrastinazione.</p>\n  <p>Per esempio, se arrivano ospiti e prevediamo di lavare le finestre e preparare un dessert, oltre a una dozzina di altri compiti, il giorno del loro arrivo, non c'è spazio per gli imprevisti. Per esperienza sappiamo che ci saranno interruzioni. Quindi, non è meglio «pianificare» una puntura d'ape e un dito del piede contuso?</p>\n  <p>Perché non programmare il lavaggio delle finestre e la preparazione del dessert per un altro giorno? Potrebbe significare qualche impronta sulle finestre e un dolce più semplice, ma non è meglio che affrontare molto stress all'ultimo minuto?</p>\n  <h2>Svolgi alcuni compiti in anticipo</h2>\n  <p>Decidere presto nella giornata cosa preparare per cena e preparare in anticipo la borsa dei pannolini sono piccole cose che possono fare una grande differenza all'ultimo minuto. Quando i nostri figli erano piccoli, ho iniziato a preparare le valigie il giorno prima del viaggio anziché il giorno della partenza. Riuscivo ad affrontare meglio la fretta dell'ultimo minuto se mi ero già tolta quel compito di torno.</p>\n  <h2>Svolgi prima i compiti più importanti</h2>\n  <p>Questo approccio permette di tralasciare i compiti meno importanti quando il tempo stringe.</p>\n  <p>A volte non tutte le cose sulla lista dei compiti hanno lo stesso valore. Per una perfezionista è difficile rinunciare a un compito, ma è possibile sviluppare nuove abitudini.</p>\n  <h2>Suddividi il lavoro in parti più piccole</h2>\n  <p>A volte l'enormità di un compito lo fa sembrare troppo grande per poter cominciare. Suddividi il compito più impegnativo in parti più piccole. Portare a termine un compito più piccolo è molto più gestibile. Pulire a fondo la cucina è un compito che non mi piace. Se la mia agenda dice «pulire a fondo la cucina», è facile ignorarlo.</p>\n  <p>Ma se la mia agenda dice «pulire gli elettrodomestici, pulire l'interno degli armadietti e lavare le finestre», sembra più fattibile.</p>\n  <p>Ci sono così tanti eventi gioiosi nella vita: perché lasciarsi tormentare dalla procrastinazione? Concediti la libertà di vivere in modo diverso. Alcuni piccoli cambiamenti possono fare la differenza più grande tra un ultimo minuto benedetto e uno stressante.</p>\n</article>",
+    "section": "DA SORELLA A SORELLA",
+    "subtitle": null,
+    "title": "Procrastinazione eccessiva"
+  }
+}

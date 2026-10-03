@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "19d602fa-3e1b-4adb-b2c4-3b30c4874a0b",
+    "response_id": "chatcmpl-EUz5FKinW6ZKr4U6O1rp1csH9PeDz",
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 196,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2331,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3030
+    }
+  },
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"Boti ndogo kando ya maji tulivu wakati wa machweo yenye rangi za kuvutia\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>Inukeni, furahini! Kwa maana alfajiri imewadia!<br>\n    Furahini na imbeni! Usiku umepita,<br>\n    Mwanga wa Alfajiri unang’aa kutoka juu,<br>\n    Neema ya Mungu kwa wanadamu iko karibu!<br>\n    Furahini na msifuni Mfalme wa Wafalme!<br>\n    Toeni shukrani na sifa, kwa maana mengi zaidi yamekuja!</strong></p>\n\n    <p><strong>Inukeni na kumtukuza Bwana!<br>\n    Mtukuzeni na kulisifu jina lake linalostahili sifa!<br>\n    Anaangaza kutoka mbinguni kwa upendo,<br>\n    Naye humimina baraka kutoka juu,<br>\n    Rehema yake huwafikia wanadamu—<br>\n    Mwabuduni na kumsifu Bwana wetu mkuu!</strong></p>\n\n    <p><strong>Toeni shukrani na mwimbe kwa Kristo, Mfalme wetu,<br>\n    Nanyi mwabuduni kwa sifa za heshima;<br>\n    Inameni kwa hofu kuu na takatifu—<br>\n    Utakatifu wa Mungu upo hapa;<br>\n    Kwa uzuri wa ajabu pigeni magoti;<br>\n    Mwabuduni Mfalme wa Wafalme Mwenyezi!</strong></p>\n  </div>\n</article>",
+    "section": "Shairi",
+    "subtitle": null,
+    "title": "Inukeni, furahini"
+  }
+}

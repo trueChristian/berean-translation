@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\\\" alt=\\\"Een kleine boot aan de rand van kalm water tijdens een levendige zonsondergang\\\" loading=\\\"lazy\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p><strong>Sta op, wees blij! Want de dageraad is daar!<br>\\n    Verheug je en zing! De nacht is voorbij,<br>\\n    De dageraad straalt van omhoog,<br>\\n    Gods genade is de mensen nabij!<br>\\n    Verheug en prijs de Koning der koningen!<br>\\n    Dank en loof Hem, want meer is hier!</strong></p>\\n\\n    <p><strong>Sta op en verheerlijk de Heer!<br>\\n    Verhef en prijs Zijn waardige naam!<br>\\n    Hij straalt uit de hemelen vol liefde,<br>\\n    En stort zegeningen neer van boven,<br>\\n    Zijn barmhartigheid reikt tot de mensen—<br>\\n    Aanbid en prijs onze machtige Heer!</strong></p>\\n\\n    <p><strong>Dank en zing tot Christus, onze Koning<br>\\n    En aanbid Hem met eerbiedige lof;<br>\\n    Buig neder in ontzaglijke, heilige vrees—<br>\\n    Gods Heiligheid is hier aanwezig;<br>\\n    Buig in wonderlijke schoonheid de knie;<br>\\n    Aanbid de almachtige Koning der koningen!</strong></p>\\n  </div>\\n</article>\",\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"Sta op, wees blij!\"}",
+    "content_bytes": 1306,
+    "content_evidence_truncated": false,
+    "content_sha256": "0c754f1a638e8b54b0b00a75ca88aeb8618d4b83ec33a22a23ed54dc0209b7c6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 196,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1895,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1892,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2532
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

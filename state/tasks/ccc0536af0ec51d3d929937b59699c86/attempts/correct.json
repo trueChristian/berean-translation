@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:44+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a76ef013-7cf5-4e99-8312-3a9818d244ff\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\\\" alt=\\\"Eine Tasse Kaffee neben einem Spiralnotizbuch und einem Bleistift.\\\">\\n  </figure>\\n  <p class=\\\"drop-cap\\\">Die Dringlichkeit der letzten Minute ist etwas, womit viele Haushaltsführende regelmäßig zu tun haben. Egal wie organisiert wir sind, manchmal schieben wir Aufgaben auf, weil wir sie nicht mögen oder warten, bis wir unter Druck stehen.</p>\\n  <p>Gewohnheitsmäßiges Aufschieben führt möglicherweise zu einem höheren Stressniveau. Vielleicht bin ich seltsam, aber es fällt mir schwer, ruhig und gefasst zu bleiben, wenn der Druck steigt. Bis die Aufgaben der letzten Minute erledigt sind, bin ich zu erschöpft, um das geplante Ereignis zu genießen.</p>\\n  <h2>Zahnschmerzen und Roadtrips</h2>\\n  <p>Es ist mir ein Rätsel, warum ein Familienmitglied ein oder zwei Tage bevor wir verreisen auf dem Zahnarztstuhl landet. Vielleicht ist es nicht so oft passiert, wie ich denke, aber die Frustration über einen ungeplanten Zahnarztbesuch zum ungünstigen Zeitpunkt ist in meinem Kopf fest verankert. Jetzt plane ich vor einer Reise einen imaginären Termin ein. Wenn es keinen zahnärztlichen Notfall gibt, wird irgendein anderes Problem diesen Zeitblock ausfüllen.</p>\\n  <p>Fristen sind ein normaler Teil des Lebens. Ohne sie wären wir unmotiviert und unsere Tage würden an Sinn verlieren. Unterbrechungen sind ebenfalls ein normaler Teil des Lebens. Sie geben unseren Tagen und Wochen ständig eine unvorhersehbare Wendung. Lassen wir zu viele Aufgaben bis zur letzten Minute liegen, kollidieren Unterbrechungen und Fristen, und Chaos herrscht.</p>\\n  <h2>Das Last-Minute-Szenario ändern</h2>\\n  <p>Fristen und Unterbrechungen lassen sich nicht beseitigen, aber wir können Aufgaben der letzten Minute begrenzen. Manchmal erfordert es einen ehrlichen Rückblick, um herauszufinden, was unseren Stress verursacht hat. Oft geben wir den Unterbrechungen die Schuld und erkennen nicht, dass schlechte Planung oder Aufschieben der Übeltäter gewesen sein könnten.</p>\\n  <p>Wenn zum Beispiel Gäste kommen und wir vorhaben, am Tag ihrer Ankunft Fenster zu putzen und ein Dessert zu backen sowie ein Dutzend weiterer Aufgaben zu erledigen, ist kein Raum für Störungen. Aus Erfahrung wissen wir, dass Unterbrechungen kommen werden. Ist es da nicht besser, für einen Bienenstich und einen angestoßenen Zeh „einzuplanen“?</p>\\n  <p>Warum also nicht das Fensterputzen und das Dessert auf einen anderen Tag legen? Das könnte bedeuten, dass Fingerabdrücke an den Fenstern bleiben und das Dessert einfacher ausfällt, aber ist das nicht besser als sehr viel Stress in letzter Minute?</p>\\n  <h2>Erledige einige Aufgaben im Voraus</h2>\\n  <p>Früh am Tag zu entscheiden, was es zum Abendessen geben soll, und die Wickeltasche im Voraus zu packen sind Kleinigkeiten, die in letzter Minute einen großen Unterschied machen können. Als unsere Kinder klein waren, fing ich an, Koffer einen Tag vor der Reise statt am Abreisetag zu packen. Ich konnte besser mit dem Stress der letzten Minuten umgehen, wenn diese Aufgabe erledigt war.</p>\\n  <h2>Erledige die wichtigsten Aufgaben zuerst</h2>\\n  <p>Dieser Ansatz erlaubt es, weniger wichtige Aufgaben auszulassen, wenn die Zeit knapp wird.</p>\\n  <p>Manchmal haben nicht alle Punkte auf der Aufgabenliste den gleichen Wert. Eine Aufgabe wegzulassen ist für einen Perfektionisten schwierig, aber es ist möglich, neue Gewohnheiten zu entwickeln.</p>\\n  <h2>Teile die Arbeit in kleinere Abschnitte</h2>\\n  <p>Manchmal erscheint eine Aufgabe wegen ihrer Größe zu gewaltig, um sie zu beginnen. Teile die große Aufgabe in kleinere Komponenten. Eine kleinere Aufgabe zu erledigen ist viel leichter zu bewältigen. Die Grundreinigung meiner Küche ist eine Aufgabe, die mir keinen Spaß macht. Wenn in meinem Plan steht: „Küche gründlich reinigen“, ist es leicht, das zu ignorieren.</p>\\n  <p>Steht aber in meinem Plan: „Geräte reinigen, Schränke auswischen und Fenster putzen“, erscheint es machbarer.</p>\\n  <p>Es gibt so viele freudige Ereignisse im Leben; warum sollte man sich vom Aufschieben stressen lassen? Gib dir die Freiheit, anders zu leben. Ein paar kleine Veränderungen können den größten Unterschied zwischen einer gesegneten und einer stressigen letzten Minute ausmachen.</p>\\n</article>\",\"section\":\"Schwester zu Schwester\",\"subtitle\":null,\"title\":\"Überlastung durch Aufschieben\"}",
+    "content_bytes": 4547,
+    "content_evidence_truncated": false,
+    "content_sha256": "8cf4a1ca2a2dd1ca901cf8a5901ce7a38e4cc2d07b08b6667089a9898633e8f4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1265,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3095,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3092,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4360
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

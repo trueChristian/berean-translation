@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0055fd8e-84b6-40a1-90aa-88252b57a3b8",
+    "response_id": "chatcmpl-EUz6HRCudyYaf6AQjLP9BgxeKVyHg",
+    "usage": {
+      "completion_tokens": 1301,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3612,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3609,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4913
+    }
+  },
+  "received_at": "2026-10-03T21:14:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"aa552c1c-4324-40a5-a7c3-8f36b6a99ee2\">\n  <p class=\"drop-cap\">De achtjarige Jamin was niet erg slim. Of althans, dat zei zijn oudere broer tegen hem. Bijna elke dag vond broer Kenny manieren om Jamin aan zijn tekortkomingen te herinneren en om te lachen om zijn blunders.</p>\n  <p>“Jamin, je zult nooit slim zijn”, zei Kenny. Diep vanbinnen had Jamin zich erbij neergelegd dat zijn leven vol verwarrende misstappen zou zitten. Zou hij altijd onhandig blijven? Zou hij altijd dingen verkeerd zeggen? Dat zei Kenny.</p>\n  <p>Jamin geloofde Kennys preken met grote ogen. Kenny was drie jaar ouder dan hij, dus hij moest wel gelijk hebben. Goed dan, Jamin zou simpel zijn. Kenny zou slim zijn. Het leven was niet eerlijk. Pa en Ma hielden niet van Kennys trotse praatjes en straften hem telkens als ze een van zijn toespraken opvingen. Maar Kenny wist hoe hij buiten gehoorsafstand kon blijven. Dus bleef hij Jamin bespotten.</p>\n  <p>Oma Otto keek vanuit haar schommelstoel op de veranda naar deze beproevingen. Ze was een stille oude vrouw.</p>\n  <p>“Jamin, weet je waar Kenny is?” vroeg Ma met een glimlach. “Het is bijna etenstijd.”</p>\n  <p>“Hij is zijn coyotenvallen gaan controleren. Ik zal hem zoeken.”</p>\n  <p>Er hing een kilte in de lucht toen hij over het gazon naar boven stapte, en de zon werd oud terwijl hij de rand van het bos overstak. De vluchtige schaduwen schoten over de heuvels. De kou nam toe naarmate hij verder het bos in stapte. Hij ademde de rijke lucht in en volgde Kennys spoor. Uiteindelijk zou het pad uitkomen in een wei, maar Jamin hoopte Kenny te vinden voordat hij zo ver hoefde te gaan. De verschillende vallen waren al gecontroleerd, dus Jamin wist dat Kenny deze kant op was gekomen. Jamin ploeterde vastberaden voort. Zijn gouden hoofd ving de vermoeide zonnestralen op die door de bomen flikkerden. Al snel waren ook die vervaagd en lieten ze de muskusachtige geur van het bos achter. De herfstspinners hadden hun werk gedaan en hun webgordijnen hingen aan de takken boven hem.</p>\n  <p>Uiteindelijk, toen de bomen minder dicht werden en de wei in zicht kwam, wist Jamin dat dit het einde van Kennys valroute was. Als Kenny hier niet was, wist hij niet waar hij anders moest zoeken.</p>\n  <p>Maar Kenny was daar. Toen Jamin de wei in stapte, zag hij rechts een gefrustreerde hoop liggen. De stem van de hoop klonk bekend. Het gezicht van de hoop was vertrokken van de pijn. De hoop was Kenny. “Gaat het? Wat is er gebeurd?” Jamin vond het vreemd om Kenny zo ineengedoken in het vuil te zien. Kenny was slim. “Ben je in een val getrapt?”</p>\n  <p>“Ja, Jamin. Ik… ik keek niet waar ik liep. Help me. Alsjeblieft.”</p>\n  <p>Jamin boog zich voorover en zag een enkel die stevig vastzat in de kaken van een stalen val. De grond rond Kenny was donker gekleurd. Snel wrikten Jamins sterke armen de kaken open. Kenny kwam los. “Kun je lopen?”</p>\n  <p>“Ja. Ik denk het. Als je me ondersteunt, kan ik hinkend verder.”</p>\n  <p>“Pa en Ma zullen zich zorgen maken. We hebben het eten gemist.”</p>\n  <p>Inderdaad, terwijl de broers strompelend door het bos terugkeerden, hoorden ze hun vader lang roepen. Jamin riep terug, en even later stond zijn vader naast hen. Hij zag Kennys enkel en tilde hem op als een gewond schaap. Het vreemde gezelschap haastte zich naar huis en de hordeur sloeg dicht toen Pa over de veranda kwam aanrennen. Jamin ging naar het washok en schrobde zijn handen. Hij liep naar de voordeur.</p>\n  <figure>\n    <img src=\"/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg\" alt=\"Een smal pad dat door een loofbos slingert\" loading=\"lazy\">\n  </figure>\n  <p>“Jamin.” Het was Oma. Het licht op de veranda liet haar zien in haar oude schommelstoel. Een zware deken lag over haar schouders.</p>\n  <p>“Ja, Oma?”</p>\n  <p>“Denk je dat je niet erg slim bent?”</p>\n  <p>“Dat zegt Kenny.” Jamin draaide zich ongemakkelijk.</p>\n  <p>“Je was sterk genoeg om de val te openen, en Kenny niet. Je was dapper genoeg om hem in het donker te vinden. Veel jongens van jouw leeftijd zouden dat niet zijn.” Jamin zweeg. Oma Otto schommelde nog even verder en glimlachte toen. “God heeft je met een reden gemaakt zoals je bent, Jamin. Hij heeft Kenny met een reden gemaakt zoals hij is. Hij heeft een plan voor jou en een plaats die alleen jij kunt vullen, weet je.”</p>\n  <p>Jamin draaide zich om en liep de warme keuken in. Hij glimlachte.</p>\n</article>",
+    "section": "Kinderhoek",
+    "subtitle": null,
+    "title": "Jamin wordt wijzer"
+  }
+}

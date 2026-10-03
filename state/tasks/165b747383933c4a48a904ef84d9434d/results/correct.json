@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d2cd764c-d415-48d2-85dc-f98f8c94b577",
+    "response_id": "chatcmpl-EUz6peRyzpSujJhTgEfwZqn2iUHlg",
+    "usage": {
+      "completion_tokens": 1551,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 219,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3634,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3631,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5185
+    }
+  },
+  "received_at": "2026-10-03T21:14:42+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"Kikombe cha kahawa kando ya daftari lenye jalada la mzunguko na penseli.\">\n  </figure>\n  <p class=\"drop-cap\">Haraka ya dakika za mwisho ni jambo ambalo watu wengi wanaosimamia nyumba hukabiliana nalo mara kwa mara. Haijalishi tumepangilia mambo vizuri kiasi gani, wakati mwingine tunaziahirisha kazi kwa sababu hatuzipendi au tunasubiri hadi tuwe chini ya shinikizo.</p>\n  <p>Kuzoea kuahirisha kazi kunaweza kusababisha msongo wa mawazo ulio mkubwa zaidi. Labda mimi ni wa ajabu, lakini huwa ni vigumu kwangu kutulia na kuwa mtulivu wakati shinikizo linapoongezeka. Kufikia wakati kazi za dakika za mwisho zinapokamilika, huwa nimechoka sana kiasi cha kutoweza kufurahia tukio lililopangwa.</p>\n  <h2>Maumivu ya meno na safari za barabarani</h2>\n  <p>Ni fumbo kwangu kwa nini mmoja wa wanafamilia huishia kwenye kiti cha daktari wa meno siku moja au mbili kabla hatujaondoka kwenda safarini. Labda halijatokea mara nyingi kama ninavyofikiri, lakini hali ya kukatisha tamaa ya kwenda kwa daktari wa meno bila kupanga wakati usiofaa imejikita akilini mwangu. Sasa mimi hupanga miadi ya kubuniwa kabla ya safari. Ikiwa si dharura ya meno, tatizo jingine lazima lijitokeze na kuchukua nafasi hiyo ya muda.</p>\n  <p>Makataa ni sehemu ya kawaida ya maisha. Bila hayo tusingekuwa na motisha, na siku zetu zingekosa kusudi. Mambo yanayotukatiza pia ni sehemu ya kawaida ya maisha. Huvuruga siku na wiki zetu mara kwa mara kwa namna isiyotabirika. Tukiruhusu kazi nyingi zisubiri hadi dakika za mwisho, mambo yanayotukatiza na makataa yanapokutana, machafuko hutawala.</p>\n  <h2>Badilisha hali ya dakika za mwisho</h2>\n  <p>Hatuwezi kuondoa makataa na mambo yanayotukatiza, lakini tunaweza kupunguza kazi za dakika za mwisho. Wakati mwingine inahitaji kujichunguza kwa uaminifu ili kubaini kilichosababisha msongo wetu. Mara nyingi, tunalaumu mambo yanayotukatiza na kushindwa kutambua kwamba upangaji mbaya au kuahirisha mambo huenda ndiko kulikosababisha tatizo.</p>\n  <p>Kwa mfano, ikiwa wageni wanakuja na tunapanga kuosha madirisha na kuandaa kitindamlo, pamoja na kazi nyingine kumi na mbili, siku watakayowasili, hakutakuwa na nafasi ya usumbufu. Kutokana na uzoefu, tunajua kwamba usumbufu utatokea. Basi, si afadhali “tupange” kukabiliana na kuchomwa na nyuki au kugonga kidole cha mguu?</p>\n  <p>Kwa nini usipange kuosha madirisha na kuandaa kitindamlo siku nyingine? Huenda hilo likamaanisha kubaki na alama za vidole kwenye madirisha na kuandaa kitindamlo rahisi zaidi, lakini je, hilo si afadhali kuliko kuwa na msongo mwingi dakika za mwisho?</p>\n  <h2>Fanya baadhi ya kazi mapema</h2>\n  <p>Kuamua mapema mchana cha kuandaa kwa chakula cha jioni na kufunga mfuko wa nepi mapema ni mambo madogo yanayoweza kuleta tofauti kubwa dakika za mwisho. Watoto wetu walipokuwa wadogo, nilianza kufunga masanduku ya safari siku moja kabla ya safari badala ya siku ya kuondoka. Niliweza kukabiliana vyema zaidi na pilikapilika za dakika za mwisho ikiwa kazi hiyo ilikuwa imekamilika.</p>\n  <h2>Fanya kazi muhimu zaidi kwanza</h2>\n  <p>Njia hii hutupa uhuru wa kuacha kazi zisizo muhimu sana tunapokuwa na muda mchache.</p>\n  <p>Wakati mwingine, si kila kitu kwenye orodha ya kazi kina umuhimu sawa. Ni vigumu kwa mtu anayetaka kila kitu kiwe kamili kuacha kazi fulani, lakini inawezekana kusitawisha mazoea mapya.</p>\n  <h2>Gawa kazi katika sehemu ndogo</h2>\n  <p>Wakati mwingine kazi huonekana kuwa kubwa mno kuanza kwa sababu ya ukubwa wake. Gawa kazi kubwa katika sehemu ndogo. Kukamilisha kazi ndogo kunaweza kudhibitiwa kwa urahisi zaidi. Kusafisha jikoni yangu kwa kina ni kazi nisiyoifurahia. Ikiwa mpangilio wangu unasema, “safisha jikoni kwa kina,” ni rahisi kuupuuza.</p>\n  <p>Lakini ikiwa mpangilio wangu unasema, “safisha vifaa, futa ndani ya makabati, na osha madirisha,” inaonekana kuwa rahisi zaidi kutekeleza.</p>\n  <p>Kuna matukio mengi yenye furaha maishani; kwa nini ujisumbue kwa sababu ya kuahirisha mambo? Jipe uhuru wa kuishi maisha kwa njia tofauti. Mabadiliko madogo machache yanaweza kuleta tofauti kubwa kati ya dakika za mwisho zenye baraka na zile zenye msongo.</p>\n</article>",
+    "section": "DADA KWA DADA",
+    "subtitle": null,
+    "title": "Kuzidiwa na Kuahirisha Mambo"
+  }
+}

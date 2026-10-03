@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first paragraph; quoted passage",
+      "severity": "major",
+      "source_quote": "“Doth not nature itself teach you?”",
+      "suggested_fix": "Traduza a citação para português, por exemplo: “A própria natureza não vos ensina?”",
+      "translation_quote": "“Doth not nature itself teach you?”"
+    },
+    {
+      "location": "source.html, second paragraph; quoted passage and reference",
+      "severity": "major",
+      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+      "suggested_fix": "Traduza a citação para português e localize o nome do livro, mantendo o número: “O jumento selvagem zurra quando tem erva? Ou muge o boi sobre a sua forragem?” (Jó 6:5).",
+      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+    },
+    {
+      "location": "source.html, third and fourth paragraphs; quoted passages and references",
+      "severity": "major",
+      "source_quote": "“Is any merry? Let him sing psalms” (James 5:13). ... “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3).",
+      "suggested_fix": "Traduza as citações para português e use as formas convencionais dos nomes dos livros, preservando números e referências: por exemplo, “Está alguém alegre? Cante louvores” (Tiago 5:13) e “Pôs um cântico novo na minha boca, um louvor ao nosso Deus” (Sl 40:3).",
+      "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13). ... “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3)."
+    },
+    {
+      "location": "source.html, sixth and seventh paragraphs; quoted passages and references",
+      "severity": "major",
+      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). ... “Jews have no dealings with the Samaritans.” ... “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Traduza integralmente as citações para português e localize os nomes dos livros, preservando exatamente os números e a quantidade de referências.",
+      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). ... “Jews have no dealings with the Samaritans.” ... “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
+    },
+    {
+      "location": "source.html, sétimo e oitavo parágrafos; citações bíblicas",
+      "severity": "major",
+      "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14). ... “Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+      "suggested_fix": "Traduza as citações para português e localize os nomes dos livros, sem alterar os números das referências.",
+      "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14). ... “Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
+    },
+    {
+      "location": "source.html, nono e décimo parágrafos; citações bíblicas",
+      "severity": "major",
+      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4). ... “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "Traduza integralmente as citações para português e use os nomes convencionais em português dos livros, mantendo exatamente os números, intervalos e referências.",
+      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4). ... “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
+    },
+    {
+      "location": "source.html, quarto parágrafo",
+      "severity": "major",
+      "source_quote": "On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
+      "suggested_fix": "Traduza a frase citada, preservando a afirmação: “Em 22 ocasiões, as Escrituras reiteram a frase: ‘Cantarei’.”",
+      "translation_quote": "Em 22 ocasiões, as Escrituras reiteram a frase, I will sing."
+    },
+    {
+      "location": "source.html, sétimo parágrafo",
+      "severity": "major",
+      "source_quote": "“While Christ is probably speaking of the Spirit as in John 7:38”",
+      "suggested_fix": "Traduza a referência bíblica para português, mantendo o número: “Embora Cristo provavelmente esteja falando do Espírito, como em João 7:38”.",
+      "translation_quote": "“Embora Cristo provavelmente esteja falando do Espírito, como em John 7:38”"
+    },
+    {
+      "location": "source.html, título, subtítulo e seção",
+      "severity": "major",
+      "source_quote": "title: “ALL NATURE SINGS”; subtitle: “and ‘round me rings the music of the spheres.”; section: “FEATURED ARTICLE”",
+      "suggested_fix": "Traduza os metadados para português, por exemplo: título “TODA A NATUREZA CANTA”; subtítulo “e ao meu redor ressoa a música das esferas.”; seção “ARTIGO EM DESTAQUE”.",
+      "translation_quote": "title: “ALL NATURE SINGS”; subtitle: “and ‘round me rings the music of the spheres.”; section: “FEATURED ARTICLE”"
+    },
+    {
+      "location": "source.html, décimo parágrafo",
+      "severity": "major",
+      "source_quote": "When we open our mouths and stretch our vocals in praise, we enact the grace of God.",
+      "suggested_fix": "Substitua “reivindicamos a graça de Deus” por uma tradução que preserve a ideia de pôr em prática ou manifestar a graça, por exemplo: “Quando abrimos a boca e elevamos a voz em louvor, manifestamos a graça de Deus.”",
+      "translation_quote": "Quando abrimos nossas bocas e esticamos nossos vocais em louvor, reivindicamos a graça de Deus."
+    },
+    {
+      "location": "source.html, quinto parágrafo",
+      "severity": "major",
+      "source_quote": "It is their waking thought as morning guilds the sky",
+      "suggested_fix": "Corrija “enquanto a manhã cobre o céu” para preservar a imagem do amanhecer iluminando o céu, por exemplo: “É o primeiro pensamento delas, enquanto a manhã doura o céu”.",
+      "translation_quote": "É seu pensamento ao despertar enquanto a manhã cobre o céu"
+    },
+    {
+      "location": "source.html, décimo parágrafo",
+      "severity": "major",
+      "source_quote": "At evening, we sing with our Lord and His disciples after supper",
+      "suggested_fix": "Substitua “À tarde” por “À noite” ou “Ao entardecer”, conforme o contexto, para manter a referência ao período da noite.",
+      "translation_quote": "À tarde, cantamos com nosso Senhor e Seus discípulos após o ceia"
+    },
+    {
+      "location": "source.html, terceiro e quinto parágrafos",
+      "severity": "minor",
+      "source_quote": "“happy as a lark”; “the robin”",
+      "suggested_fix": "Corrija a concordância em “feliz como uma cotovia” e, se possível, traduza os nomes comuns das aves para formas compreensíveis em português; não deixe nomes de espécies em inglês quando houver equivalente apropriado.",
+      "translation_quote": "“feliz como um cotovia”; “robin”, “song sparrow”, “rose-breasted grosbeak”, “wren”, “nightingale”, “robins” e “buntings”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[10]; missing: 137:2-4; extra: 137:1-4",
+  "stage": "terminal"
+}

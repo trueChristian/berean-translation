@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:44+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"52074824-2feb-4fe4-96d0-a08ec72c3565\\\">\\n  <p class=\\\"drop-cap\\\">Jeg kan fortsatt kjenne den fristende kakofonien av lukter mens jeg holdt farens sterke hånd og banet oss vei gjennom mengden av turister som fylte bygningen. Selgerne på Green Dragon Farmer’s Market i Ephrata, PA, gjorde sitt beste for å friste kjøperne med rekker av fersk fisk på is, oster i alle varianter, delikatessekjøtt og smørbrød, og hauger av frisk frukt. Og, åh, godteriet! Mitt unge førskolehode hadde aldri sett så mange fristende søtsaker samlet på ett sted.</p>\\n\\n  <p>De siste to dagene var jeg som gutten i godteributikken. Jeg hadde det privilegium å delta på Christian Aid Ministries’ første årlige forfatterkonferanse. Jeg møtte kjente forfattere som Katrina Hoover Lee, Johnny Miller og Ruthann Stelfox. Jeg snakket med håpefulle skribenter og erfarne lærere. Jeg fikk anledning til å delta på timevis med inspirerende og lærerike verksteder om hvordan man skriver for å kommunisere, bruker realistisk dialog, beskrivende skriving og mye mer. Vi hadde alle ett felles mål for øye. Sammen deler vi og lærer hvordan vi effektivt kan formidle det som ligger oss på hjertet, og gjennom det skrevne ords kraft føre disse tankene videre til dere.</p>\\n\\n  <p><em>The Heartbeat of the Remnant</em> er et middel til å formidle inspirerende tanker til ivrige lesere spredt over hele kloden. Modige forfattere trer fram med penn og papir eller tastatur og skjerm og bidrar til å spre det gode budskapet i Guds Ord med varsomhet, korrigering og oppbyggelse. Likevel trenger vi flere slike forfattere. Vi trenger unge troende som modig sender inn sine første barnefortellinger. Erfarne bestefedre som bringer formanende ord til den yngre generasjonen. Mødre som deler erfaringer og prøvelser med andre mødre som står midt i oppgaven med å oppdra små barn. Ungdom som oppmuntrer andre ungdommer til å strekke seg mot målet og prisen som følger med det høye kallet i Kristus Jesus. Fedre som med bekymring følger med på hvordan verden presser seg inn i de kristne hjemmene. Sammen vil disse håpefulle forfatterne lage et tidsskrift som vil ligge på familiens salongbord i mange år. Jeg oppmuntrer dere, medtroende, til å prøve. Nelson Mandela, tidligere president i Sør-Afrika, skrev: «Nederlag er en læremester, og når livet går mot slutten, hva tror du at du vil angre mest på – å ha mislyktes eller aldri å ha prøvd?»</p>\\n\\n  <p>Berean Voice har som mål å tilby trykt materiale som kan hjelpe leserne med å finne veien gjennom livets mange og vanskelige faser. Alt materialet vårt er tilgjengelig uten kostnad, men vi er avhengige av donasjoner fra støttespillerne våre. Her er en liste over bøker vi har tilgjengelig:</p>\\n\\n  <p class=\\\"book-list\\\">Sannhetskjærlighetens kraft<br>\\n  Kristen sjelesorg – forfalskning?<br>\\n  Guds hjerte<br>\\n  Virkelig fri!<br>\\n  Pilegrimer og politikk<br>\\n  Kalk og kors<br>\\n  Den høye prisen for holistisk helbredelse<br>\\n  Hemmelighetene bak vellykket skriving<br>\\n  Den katolske forbindelsen<br>\\n  Psykiatri og humørendrende medisiner<br>\\n  Mennonittkirken og modernismen</p>\\n\\n  <p>I 2017 og 2018 trykket Berean Voice en serie vaksineartikler i magasinet <em>The Heartbeat of the Remnant</em>. Artiklene var et oppriktig forsøk på å undersøke ulike sider ved vaksinebruk med en upartisk tilnærming. Vi forsøkte å presentere fakta så tydelig som mulig og la leserne trekke sine egne konklusjoner.</p>\\n\\n  <p>Siden den gang har vi mottatt en rekke forespørsler fra leserne våre om å publisere alle vaksineartiklene i et hefte, noe vi gikk med på. Men så kom 2019, og med det koronaviruset. Denne monumentale hendelsen snudde vaksinedebatten på hodet og innledet et febrilsk kappløp om å få COVID-19-midler på markedet, mange av dem utilstrekkelig testet. Vi satte trykkingen på vent, usikre på om vi skulle ta med informasjon om disse nye og uprøvde COVID-19-«vaksinene». Etter hvert som tiden gikk og COVID-19s dødelige karakter avtok, bestemte vi oss for å utgi de opprinnelige vaksineartiklene i et hefte uten ytterligere artikler om COVID-19-debatten. Vi er glade for at prosjektet nærmer seg ferdigstillelse, og det vil bli kunngjort når det utgis.</p>\\n\\n  <p>Velsignelser til alle,</p>\\n\\n  <p class=\\\"byline\\\">Edward Martin</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg\\\" alt=\\\"Rosa og hvite blomster av kransvikke i en grønn eng\\\" loading=\\\"lazy\\\">\\n  </figure>\\n</article>\",\"section\":\"Fra REDAKTØREN\",\"subtitle\":null,\"title\":\"Fra redaktøren\"}",
+    "content_bytes": 4669,
+    "content_evidence_truncated": false,
+    "content_sha256": "c4b6e115f16c2f461a3f596606561d2da89f084c6d7960133668b7c95936827a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1340,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4026,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4023,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5366
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

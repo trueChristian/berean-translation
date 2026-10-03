@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:14:45+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\\\" alt=\\\"तेज़ रंगों वाले सूर्यास्त के समय शांत पानी के किनारे एक छोटी नाव\\\" loading=\\\"lazy\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p><strong>उठो, आनन्दित हो! क्योंकि भोर हो गई है!<br>\\n    मगन होकर गाओ! रात बीत चुकी है,<br>\\n    ऊँचाई से प्रभात की उज्ज्वल किरणें चमक रही हैं,<br>\\n    परमेश्वर का अनुग्रह मनुष्यों के निकट है!<br>\\n    राजाओं के राजा की स्तुति करो और आनंद मनाओ!<br>\\n    धन्यवाद दो और स्तुति करो, क्योंकि यहाँ और भी बहुत कुछ है!</strong></p>\\n\\n    <p><strong>उठो और प्रभु की महिमा करो!<br>\\n    उसके योग्य नाम का गुणगान करो और स्तुति करो!<br>\\n    वह प्रेम से स्वर्ग से चमकता है,<br>\\n    और ऊपर से आशीषों की वर्षा करता है,<br>\\n    उसकी दया मनुष्यों तक पहुँचती है—<br>\\n    हमारे सामर्थी प्रभु की आराधना और स्तुति करो!</strong></p>\\n\\n    <p><strong>मसीह, हमारे राजा, का धन्यवाद करो और गाओ<br>\\n    और श्रद्धापूर्ण स्तुति के साथ उसकी आराधना करो;<br>\\n    विस्मयकारी, पवित्र भय से झुको—<br>\\n    परमेश्वर की पवित्रता यहाँ है;<br>\\n    अद्भुत सुंदरता के सम्मुख घुटने टेको;<br>\\n    राजाओं के सर्वशक्तिमान राजा की आराधना करो!</strong></p>\\n  </div>\\n</article>\",\"section\":\"कविता\",\"subtitle\":null,\"title\":\"उठो, आनन्दित हो\"}",
+    "content_bytes": 2538,
+    "content_evidence_truncated": false,
+    "content_sha256": "f75517f1917dfb014892605fa8cde29c5908007b4f0726b033473eded4aaf6bb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 248,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2153,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2150,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2914
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 1
+}

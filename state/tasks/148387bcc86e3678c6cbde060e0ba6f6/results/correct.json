@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "57b82ddc-8136-4514-86e1-9cb8749a0da1",
+    "response_id": "chatcmpl-EUz72IfzIojxMEZlLtaf7Kz38WVmk",
+    "usage": {
+      "completion_tokens": 603,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1880,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2486
+    }
+  },
+  "received_at": "2026-10-03T21:14:42+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"鲜艳的日落时分，平静水边的一艘小船\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>起来欢喜吧！晨曦已现！<br>\n    欢跃歌唱吧！黑夜已过，<br>\n    昼光从高处照耀，<br>\n    神的恩典临到人间！<br>\n    欢喜赞美万王之王！<br>\n    感谢并颂扬，因为更多已临！</strong></p>\n\n    <p><strong>起来荣耀主！<br>\n    高举并称颂祂配得之名！<br>\n    祂以爱自天而照，<br>\n    从上倾洒福泽，<br>\n    祂的怜悯向人伸延——<br>\n    敬拜并赞美我们全能的主！</strong></p>\n\n    <p><strong>感谢并歌颂基督我们的王，<br>\n    以虔诚的赞美敬拜祂；<br>\n    在敬畏中俯伏——<br>\n    神的圣洁就在此处；<br>\n    在奇妙之美中屈膝；<br>\n    敬拜全能的万王之王！</strong></p>\n  </div>\n</article>",
+    "section": "诗歌",
+    "subtitle": null,
+    "title": "起来欢喜吧"
+  }
+}
