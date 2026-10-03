@@ -1,0 +1,140 @@
+{
+  "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37109037884",
+  "created_at": "2026-10-03T08:17:02+00:00",
+  "downstream_candidate_sha256": "05fe46e748c94224f026fe04e5f40e643d1e358b5140c38aedea691d00ae8251",
+  "downstream_key": "c027a04df2fa7bc3eb86b879d63edd53dc2389cd3f79264dca7b5ff6e4649991",
+  "downstream_previous_sha256": "56d698aa52177338abf71b49297f1c06a4c5b0e770b0c4ae9c9836e6624841d4",
+  "downstream_previous_task": "2c42fc8c8ef3386be11265269f9e136f",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "source.html — lead paragraph (first <p class=\"lead\">)",
+      "severity": "major",
+      "source_quote": "I have memorized many, many Scripture verses during my childhood years.",
+      "suggested_fix": "Vertaal die sin getrou as: “Ek het baie, baie Skrifverse in my kinderjare gememoriseer.” Vervang die frase “uit die hooft geleer” met “gememoriseer in my kinderjare” en hou die bestaande HTML-tags onveranderd.",
+      "translation_quote": "Ek het baie, baie Skrifverse in my kinderjare uit die hooft geleer."
+    },
+    {
+      "location": "source.html — paragraph beginning “When it came time to homeschool the children…” (\"I bought a binder\")",
+      "severity": "major",
+      "source_quote": "I bought a binder and inserted the printed passages we had memorized as well as the passages I wanted them to memorize.",
+      "suggested_fix": "Gebruik die korrekte Afrikaans vir “binder” (bv. “map”, “ringband” of “lêermap”) en vertaal die hele sin konsekwent. Voorstel: “Ek het ’n ringband gekoop en die gedrukte gedeeltes wat ons gememoriseer het, asook die gedeeltes wat ek wou hê hulle moes memoriseer, daarin ingevoeg.” Hou HTML-tags ongewysig.",
+      "translation_quote": "Ek het ’n banderole gekoop en die gedrukte gedeeltes wat ons memoriseer het en ook die gedeeltes wat ek wou hê hulle moes memoriseer, ingevoer."
+    },
+    {
+      "location": "multiple — throughout article (verbs for 'memorize' and related forms)",
+      "severity": "minor",
+      "source_quote": "Examples: \"I memorized...\", \"we memorized this passage\", \"have memorized\"",
+      "suggested_fix": "Korrigeer onjuiste of inkonsekwente vorms van die voltooid deelwoord en verlede tyd van ‘memoriseer’. Gebruik konsekwente en natuurlike Afrikaanse vorms soos “gememoriseer” of “opgesê” waar toepaslik. Voorbeelde: “Meestal het ek al die toegewese werk gememoriseer.”; “Ek was nogal verras toe hulle hierdie gedeelte vinnig en maklik gememoriseer het.” Behou bestaande HTML-structuur.",
+      "translation_quote": "Meestal het ek al die toegewese werk memoriseer. ... Ek was nogal verras toe hulle hierdie gedeelte vinnig en maklik memoriseer het. ... Al die gedeeltes wat ons geleer het, is in hierdie banderole. Ek gebruik ’n paperclip..."
+    },
+    {
+      "location": "multiple — choice of verbs for 'recite' (e.g., paragraphs with 'recite' and 'recite to me')",
+      "severity": "minor",
+      "source_quote": "We started reciting it together every evening during our family devotions. ... I have them recite it to me one by one.",
+      "suggested_fix": "'Recite' is better translated as 'op te sê' of 'op te sê/samen op te sê' in Afrikaans for naturalness. Voorbeeldvoorstelle: “Ons het dit elke aand saam tydens ons gesinsgebed opgesê.” en “Wanneer ek dink hulle ken die gedeelte, laat ek hulle dit een‑vir‑een aan my op sê.” Behou HTML-etikette.",
+      "translation_quote": "Ons het dit elke aand saam tydens ons gesinsgebed gereciteer. ... Wanneer ek dink hulle ken die gedeelte, laat ek hulle dit een vir een aan my reciteer."
+    }
+  ],
+  "id": "25f84f5a6786378f807ee3758be3d2d9",
+  "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+  "language": "afr",
+  "model": "gpt-6-luna",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6-luna",
+  "source_snapshot": "state/sources/f34407a6165fb7e7a04ea7f397fc8013deb4a8e803dafc6f028dc9f7c426249a.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "acee92c005287a538cca2ea8301c5c01a8922523349a8b855f3e2b33bcddbab6",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

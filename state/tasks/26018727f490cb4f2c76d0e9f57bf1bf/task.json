@@ -1,0 +1,126 @@
+{
+  "article_id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37109037884",
+  "created_at": "2026-10-03T08:17:02+00:00",
+  "downstream_candidate_sha256": "3cd6801bfe3df1c9fd9445000e6784eb512c549b7ca9aac4c6683240abb76c76",
+  "downstream_key": "be7cbf82caa9b0d793868b673cc76f81824de4b5789e9f3c6abd3a9ed6c5988c",
+  "downstream_previous_sha256": "873e27fdf4b92f40670359597f363a8c6cabb393664a5bfc443c71e4912a8216",
+  "downstream_previous_task": "d7b7b1ed6886ed4736f340579cf484d9",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "Paragraph containing Mark 10:42-44 (God’s Purging section)",
+      "severity": "major",
+      "source_quote": "…Ye know that they which are accounted to rule over the Gentiles exercise lordship over them; and their great ones exercise authority upon them –Mark 10:42. But … whosoever will be great among you, shall be your minister: And whosoever of you will be the chiefest, shall be servant of all –Mark 10:43-44.",
+      "suggested_fix": "Render the quoted Scripture faithfully and without added words. Replace the translated quotation with a literal, faithful Afrikaans rendering of Mark 10:42-44 that mirrors the English passage’s content and punctuation (do not insert extra clauses). For example: “Julle weet dat hulle wat as heersers oor die heidene beskou word, oor hulle heers; en hul grootes oefen mag oor hulle uit – Markus 10:42. Maar onder julle moet dit nie so wees nie; maar wie onder julle groot wil wees, sal julle dienaar wees; en wie onder julle die eerste wil wees, sal julle die slaaf van almal wees – Markus 10:43-44.” Ensure the first sentence corresponds exactly to Mark 10:42 in meaning and that verses 43–44 do not include any extra introductory clause not in the source text.",
+      "translation_quote": "<em>…Julle weet dat hulle wat beskou word as heersers oor die nasies, oor hulle heers; en hul grootes oefen mag oor hulle uit – Markus 10:42.</em> Terwyl Moses se strewe na geregtigheid edel mag gewees het, was sy oriëntasie bloot heidens. Dit mag werk om die pikorde in ’n hoenderhok te bepaal, maar dit is bestem om te misluk in die leiding van God se volk. <em>Maar julle sal nie so wees nie; maar wie onder julle groot wil wees, sal julle dienaar wees; en wie van julle die eerste wil wees, sal julle die slaaf van almal wees – Markus 10:43-44.</em>"
+    },
+    {
+      "location": "God's Purging section, Proverbs 17:3 quotation",
+      "severity": "major",
+      "source_quote": "The fining pot is for silver, and the furnace for gold: but the LORD trieth the hearts –Proverbs 17:3.",
+      "suggested_fix": "Correct the Afrikaans translation of Proverbs 17:3 so it faithfully conveys the English meaning. The first clause should refer to the smelting/refining vessel (smeltkroes) or fining pot, not a word that reads like 'sinner'. Replace the current line with a faithful Afrikaans rendering such as: “Die smeltkroes is vir silwer en die smeltvuur vir goud; maar die HERE beproef die harte – Spreuke 17:3.” Preserve punctuation and verse reference formatting consistent with other Scripture quotations in the article.",
+      "translation_quote": "<em>Die sondaar is vir silwer en die smeltkroes vir goud, maar die HERE beproef die harte – Spreuke 17:3.</em>"
+    }
+  ],
+  "id": "26018727f490cb4f2c76d0e9f57bf1bf",
+  "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+  "language": "afr",
+  "model": "gpt-6-luna",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6-luna",
+  "source_snapshot": "state/sources/365d9282d87d4aa677224ff762d700ce731f7082e9ff05f45c1ca235035b1881.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
