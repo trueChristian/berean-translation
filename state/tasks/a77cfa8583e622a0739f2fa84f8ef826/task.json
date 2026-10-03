@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 11368
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1180,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 726,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11179,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11176,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12359
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, opening Scripture quotation (1 Korintus 13:2)",
+      "severity": "major",
+      "source_quote": "“though I have all faith, so that I could remove mountains”",
+      "suggested_fix": "Ganti “Sekalipun aku mempunyai iman yang sempurna untuk memindahkan gunung” menjadi “Sekalipun aku mempunyai segala iman, sehingga dapat memindahkan gunung”. Hindari menambahkan klaim bahwa iman itu sempurna.",
+      "translation_quote": "“sekalipun aku mempunyai iman yang sempurna untuk memindahkan gunung”"
+    },
+    {
+      "location": "HTML, opening Scripture quotation (1 Korintus 13:11)",
+      "severity": "major",
+      "source_quote": "“I understood as a child”",
+      "suggested_fix": "Ganti “aku merasa seperti kanak-kanak” dengan “aku memahami seperti kanak-kanak” agar menyampaikan makna “understood”.",
+      "translation_quote": "“aku merasa seperti kanak-kanak”"
+    },
+    {
+      "location": "HTML, opening Scripture quotation (1 Korintus 13:12)",
+      "severity": "major",
+      "source_quote": "“but then shall I know even as also I am known”",
+      "suggested_fix": "Ganti “tetapi nanti aku akan mengenal dengan sempurna” dengan padanan yang mempertahankan perbandingan dalam sumber, misalnya “tetapi nanti aku akan mengenal sepenuhnya, sama seperti aku sendiri dikenal”.",
+      "translation_quote": "“tetapi nanti aku akan mengenal dengan sempurna”"
+    },
+    {
+      "location": "HTML, paragraf di bawah judul “8. Sifat atau kemampuan untuk ‘tidak menyimpan kesalahan’”",
+      "severity": "minor",
+      "source_quote": "“our own success is enhanced by our vision or belief of what that person could become”",
+      "suggested_fix": "Perbaiki frasa “keyakinan kita tentang siapa yang dapat dicapai orang itu” menjadi “keyakinan kita tentang akan menjadi seperti apa orang itu”.",
+      "translation_quote": "“keberhasilan kita sendiri meningkat karena visi atau keyakinan kita tentang siapa yang dapat dicapai orang itu”"
+    }
+  ],
   "id": "a77cfa8583e622a0739f2fa84f8ef826",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ind",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 87,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

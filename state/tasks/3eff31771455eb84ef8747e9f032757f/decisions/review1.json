@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Gedicht, vierde regel",
+      "severity": "major",
+      "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
+      "suggested_fix": "Wij kunnen ons de lach niet veroorloven die eindigt in bittere tranen.",
+      "translation_quote": "Wij kunnen ons de lach niet veroorloven die bittere tranen tot een einde brengt."
+    },
+    {
+      "location": "Gedicht, tweede regel",
+      "severity": "major",
+      "source_quote": "We can’t afford to miss the crown by stumbling at the cross.",
+      "suggested_fix": "Wij kunnen het ons niet veroorloven de kroon mis te lopen door bij het kruis te struikelen.",
+      "translation_quote": "Wij kunnen ons niet de kroon ontzeggen door bij het kruis te struikelen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

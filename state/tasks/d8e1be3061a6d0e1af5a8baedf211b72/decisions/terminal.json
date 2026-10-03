@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning «Αφού μάζεψα, έπλυνα…»",
+      "severity": "minor",
+      "source_quote": "the old cooler which was inside the red bank barn",
+      "suggested_fix": "Preserve the barn-type detail, for example: «στο παλιό ψυγείο που βρισκόταν μέσα στον κόκκινο αχυρώνα που ήταν χτισμένος σε πλαγιά».",
+      "translation_quote": "στο παλιό ψυγείο που βρισκόταν μέσα στον κόκκινο αχυρώνα"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

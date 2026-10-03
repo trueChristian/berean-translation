@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "373717e3-ba81-496e-a001-134783e5ba04",
+    "response_id": "chatcmpl-EUxI2H1vmTnTrD9l5d3EwUIRyps3t",
+    "usage": {
+      "completion_tokens": 778,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 656,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4954,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5735
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “Beberapa minggu lalu”",
+        "severity": "minor",
+        "source_quote": "“in another state from where I live”",
+        "suggested_fix": "Change “di negara bagian lain, jauh dari tempat tinggal saya” to “di negara bagian lain dari tempat saya tinggal” to preserve that it was a different state without adding that it was far away.",
+        "translation_quote": "“di negara bagian lain, jauh dari tempat tinggal saya”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

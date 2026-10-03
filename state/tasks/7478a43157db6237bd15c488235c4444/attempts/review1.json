@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first poem, fourth stanza\",\"severity\":\"major\",\"source_quote\":\"Who weigh themselves, not with God’s truth, / As every day they ought!\",\"suggested_fix\":\"Replace the corresponding lines with: “Quem se avalie pela verdade de Deus, / Como deveria fazer todos os dias!”\",\"translation_quote\":\"Quem se avalie, não pela verdade de Deus, / Como deveria fazer todos os dias!\"},{\"location\":\"HTML, second poem, second stanza\",\"severity\":\"major\",\"source_quote\":\"And dost thou plan the New Year full / There, ‘neath some Christmas tree?\",\"suggested_fix\":\"Replace the corresponding lines with: “E planeias por inteiro o Ano Novo / Ali, debaixo de alguma árvore de Natal?”\",\"translation_quote\":\"E planeias passar o Ano Novo inteiro / Ali, debaixo de uma árvore de Natal?\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 830,
+    "content_evidence_truncated": false,
+    "content_sha256": "22a8aa09691d029ff050da22428dc7bd71eab51c8aeb95aa562979579a63d573",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 695,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 492,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1929,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1926,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2624
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

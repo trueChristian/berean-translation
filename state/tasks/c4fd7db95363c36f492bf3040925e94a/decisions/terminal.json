@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "अनुच्छेद 6",
+      "severity": "minor",
+      "source_quote": "Surely a little peach wouldn’t ruin a starving ten-year-old’s supper.",
+      "suggested_fix": "“भूखे दस साल के बच्चे का रात का खाना भला एक छोटा-सा आड़ू खाने से कैसे खराब होता?”",
+      "translation_quote": "भूखे दस साल के बच्चे का रात का खाना थोड़े-से आड़ू से भला कैसे खराब होता?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

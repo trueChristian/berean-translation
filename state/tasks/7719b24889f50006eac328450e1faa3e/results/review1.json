@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6e0ffbf8-2517-421a-9339-b0ec893c8ac3",
+    "response_id": "chatcmpl-EUxHd6chOpxnrAUBDK6rPEeqL6Sys",
+    "usage": {
+      "completion_tokens": 770,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 503,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5298,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5295,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6068
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문 6번째 문단",
+        "severity": "minor",
+        "source_quote": "We must take stock to ensure that our children are learning life’s lessons in a way that they will be prepared to face the reality of things to come.",
+        "suggested_fix": "“우리 자녀들이 앞으로 닥칠 일들의 현실을 마주할 준비를 갖추도록 삶의 교훈을 배우고 있는지 살펴야 합니다.”처럼 ‘올바른 방식으로’라는 원문에 없는 평가를 덧붙이지 않고 옮겨 주세요.",
+        "translation_quote": "우리 자녀들이 앞으로 닥칠 일들의 현실을 마주할 준비를 갖출 수 있도록, 삶의 교훈을 올바른 방식으로 배우고 있는지 우리는 살펴야 합니다."
+      },
+      {
+        "location": "본문 9번째 문단",
+        "severity": "minor",
+        "source_quote": "in an attempt to gain a listening ear",
+        "suggested_fix": "“사람들의 관심을 끌려 하며” 또는 “사람들이 귀 기울이게 하려 하며”로 다듬어 주세요.",
+        "translation_quote": "사람들의 귀를 얻으려 할 것이라고 말씀하십니다."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

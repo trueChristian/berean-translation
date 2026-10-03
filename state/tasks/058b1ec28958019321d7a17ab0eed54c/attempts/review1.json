@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"开篇引文，哥林多前书 13:12\",\"severity\":\"major\",\"source_quote\":\"now I know in part; but then shall I know even as also I am known.\",\"suggested_fix\":\"将引文中的“到那时就全知道，如同主知道我一样”改为“到那时我就知道，正如我被知道一样”，避免把原文的被动表达改成明确归于“主”的主动表达。\",\"translation_quote\":\"我如今所知道的有限，到那时就全知道，如同主知道我一样。\"},{\"location\":\"第3节“慷慨”，橱柜搬运的例子\",\"severity\":\"major\",\"source_quote\":\"Pinching someone’s fingers in a tight doorway is a perfect way to reduce my foe down to his size\",\"suggested_fix\":\"将“让我的对手跌回他该有的地位”改为“贬低我的对手”，或其他能表达故意羞辱、压低对方而不暗示对方理应处于较低地位的说法。\",\"translation_quote\":\"在狭窄的门口夹别人手指，是让我的对手跌回他该有的地位、妨碍工作顺利完成的绝妙方法\"},{\"location\":\"“爱永不止息，因为上帝是爱的源头”之后的段落\",\"severity\":\"major\",\"source_quote\":\"Love cannot be achieved through the eloquence of words.\",\"suggested_fix\":\"将“eloquence”译为中文，例如把“爱无法靠言辞的 eloquence 获得”改为“爱无法靠言辞的雄辩获得”。\",\"translation_quote\":\"爱无法靠言辞的 eloquence 获得\"}],\"passed\":false,\"score\":85}",
+    "content_bytes": 1449,
+    "content_evidence_truncated": false,
+    "content_sha256": "3b82ae16bd863cff376897b7bd09120666681bf114e9b26749233aec20563f99",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 996,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 592,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10719,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11718
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

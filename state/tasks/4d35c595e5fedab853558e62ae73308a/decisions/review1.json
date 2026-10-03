@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Love cannot be achieved through the eloquence of words”",
+      "severity": "major",
+      "source_quote": "Love can only be received from the Great Eternal Giver, to those worthy to possess such power and glory in their hearts.",
+      "suggested_fix": "Sostituire «L’amore si può ricevere soltanto dal grande Donatore eterno, da coloro che sono degni di possedere tale potenza e gloria nei propri cuori.» con «L’amore si può ricevere soltanto dal grande Donatore eterno, ed è destinato a coloro che sono degni di possedere tale potenza e gloria nei propri cuori.»",
+      "translation_quote": "L’amore si può ricevere soltanto dal grande Donatore eterno, da coloro che sono degni di possedere tale potenza e gloria nei propri cuori."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

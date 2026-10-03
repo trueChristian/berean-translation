@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “I have since traveled to hundreds of churches…”\",\"severity\":\"major\",\"source_quote\":\"We know that God is power.\",\"suggested_fix\":\"Replace “ঈশ্বরই ক্ষমতার উৎস” with “ঈশ্বরই ক্ষমতা” to preserve the source’s assertion that God is power, rather than saying that God is the source of power.\",\"translation_quote\":\"আমরা জানি, ঈশ্বরই ক্ষমতার উৎস।\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 536,
+    "content_evidence_truncated": false,
+    "content_sha256": "1c6eebbda693a2b7414cb3d0e7a29c8cebe5e2f97dc312badb3e433a7aea645b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 632,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8718,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9353
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

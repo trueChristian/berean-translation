@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, avsnitt 5: Hövlighet, första stycket",
+      "severity": "major",
+      "source_quote": "“The NIV says it better. ‘Love is not rude! Courtesy is love in the little things.’”",
+      "suggested_fix": "Ändra till: ”NIV uttrycker det bättre: ’Kärleken är inte ohövlig! Hövlighet är kärlek i de små tingen.’”",
+      "translation_quote": "“Nya internationella versionen uttrycker det bättre: ”Kärleken är inte ohövlig!” Hövlighet är kärlek i de små tingen.”"
+    },
+    {
+      "location": "HTML, avsnitt 7: Gott humör, första stycket",
+      "severity": "major",
+      "source_quote": "“Few things unchristianize a good man than an evil temper.”",
+      "suggested_fix": "Ändra meningen till: ”Få saker gör en god man så okristen som ett dåligt temperament.”",
+      "translation_quote": "“Få saker gör en god man så okristlig som ett ont temperament.”"
+    },
+    {
+      "location": "HTML, avsnitt 9: Uppriktighet, sista stycket",
+      "severity": "major",
+      "source_quote": "“Rejoicing in righteousness and thinking NO EVIL is a normal and final attitude of love.”",
+      "suggested_fix": "Ändra ”Att glädja sig i rättfärdigheten” till ”Att glädja sig över rättfärdigheten”, så att formuleringen återger källans innebörd.",
+      "translation_quote": "“Att glädja sig i rättfärdigheten och INTE tänka något ont är kärlekens normala och slutliga hållning.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2254
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 760,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 595,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1969,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1966,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2729
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "First stanza, second line",
+      "severity": "major",
+      "source_quote": "Tomorrow may not be.",
+      "suggested_fix": "מחר אולי לא יבוא.",
+      "translation_quote": "מחר אולי כבר לא אהיה."
+    },
+    {
+      "location": "Second poem section, first stanza, first two lines",
+      "severity": "major",
+      "source_quote": "“Boast not thyself,” I’m warned, / “Of what tomorrow brings;",
+      "suggested_fix": "״אל תתפאר במה שיביא המחר״, מזהירים אותי;",
+      "translation_quote": "״אל תתפאר בעצמך״, מזהירים אותי, / ״במה שיביא המחר;"
+    }
+  ],
   "id": "7759466851025bad09a6f02fabd7d339",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "heb",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dbc43587e58be8105de6efc8c64b115ee947e41513159ee085108212ce456b1b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
   "translation_model_actual": "gpt-6-luna"

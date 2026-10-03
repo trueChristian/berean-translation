@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, Hebrews 4:9–11 quotation",
+      "severity": "major",
+      "source_quote": "“lest any man fall after the same example of unbelief”",
+      "suggested_fix": "Ändra «samma slags olydnad» till «samma exempel på otro» så att formuleringen återger källtextens «unbelief».",
+      "translation_quote": "“så att ingen faller genom samma slags olydnad”"
+    },
+    {
+      "location": "Article body, final Hebrews 4:11 quotation",
+      "severity": "major",
+      "source_quote": "“lest any man fall after the same example of unbelief”",
+      "suggested_fix": "Ändra «samma slags olydnad» till «samma exempel på otro» så att formuleringen återger källtextens «unbelief».",
+      "translation_quote": "“så att ingen faller genom samma slags olydnad”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

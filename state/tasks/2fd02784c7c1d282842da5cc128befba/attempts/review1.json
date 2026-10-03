@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, 첫 번째 연, 네 번째 행\",\"severity\":\"major\",\"source_quote\":\"“Come My child, your burden I’ll bear.”\",\"suggested_fix\":\"“오너라, 내 아이야. 네 짐은 내가 질게.”\",\"translation_quote\":\"“오너라, 내 아이야. 네 짐은 내가 지마.”\"},{\"location\":\"source.html, 마지막 연, 네 번째 행\",\"severity\":\"minor\",\"source_quote\":\"To hear those words, “Well done.”\",\"suggested_fix\":\"“잘하였다”라는 그 말씀을 듣는 것.\",\"translation_quote\":\"“잘하였다”라는 말씀을 듣는다면.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 609,
+    "content_evidence_truncated": false,
+    "content_sha256": "74ac4dcca3efe9861552779a9a3070456051ebeb04437404e20b736a08a34e80",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 660,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2428,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3091
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

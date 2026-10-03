@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "This is not too much for Him to ask of us, because He is sovereign.",
+      "suggested_fix": "Det är inte för mycket för honom att begära av oss, eftersom han är suverän.",
+      "translation_quote": "Det är inte för mycket begärt av honom, eftersom han är suverän."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

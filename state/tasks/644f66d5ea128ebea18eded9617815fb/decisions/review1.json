@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem line 7",
+      "severity": "minor",
+      "source_quote": "We can’t afford to play with fire, or tempt a serpent’s bite;",
+      "suggested_fix": "Erstatt «friste et slangebitt» med «utsette oss for et slangebitt» for å uttrykke at man ikke bør utsette seg for slangens bitt.",
+      "translation_quote": "Vi har ikke råd til å leke med ilden eller friste et slangebitt;"
+    },
+    {
+      "location": "source.html, poem line 9",
+      "severity": "minor",
+      "source_quote": "We can’t afford with serious heed to treat the cynic’s sneer;",
+      "suggested_fix": "Erstatt «kynikerens hånlige smil» med «kynikerens hånlige hån» eller «kynikerens hånlige grimase» for å bevare bildet av en hånlig grimase, ikke et smil.",
+      "translation_quote": "Vi har ikke råd til å ta kynikerens hånlige smil på alvor;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

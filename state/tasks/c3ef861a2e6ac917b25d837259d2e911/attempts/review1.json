@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, bait 3, baris 3–4\",\"severity\":\"major\",\"source_quote\":\"Never a mountain rocky and steep,<br>\\n    Never a river turbid and deep.\",\"suggested_fix\":\"<p>3.<br>\\n    Allah tidak menjanjikan jalan yang rata dan lebar,<br>\\n    Perjalanan cepat dan mudah, tanpa perlu penuntun;<br>\\n    Tidak pernah ada gunung berbatu yang terjal,<br>\\n    Tidak pernah ada sungai keruh yang dalam.</p>\",\"translation_quote\":\"Tak pernah ada gunung berbatu yang terjal,<br>\\n    Tak pernah ada sungai keruh yang dalam.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 564,
+    "content_evidence_truncated": false,
+    "content_sha256": "54e6bb6e9dfb6e7a91b539e4481a57b310dd1ff584bd32c81029636b4d1d11c4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 165,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1450,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1447,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1615
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

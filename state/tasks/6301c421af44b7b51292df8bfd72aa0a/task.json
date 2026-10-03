@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 8624
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 729,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8483,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8480,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9212
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "본문, 아이 성 정탐 대목",
+      "severity": "major",
+      "source_quote": "After this great victory, Joshua sent spies to the next city, Ai, to discover how well the city was fortified. The men returned and told Joshua not to send all the men to Ai, for there were only a few defenders protecting the city.",
+      "suggested_fix": "정탐꾼들이 아이 성의 방비 상태를 알아보러 갔고, 돌아와 성을 지키는 자가 얼마 되지 않으니 모든 사람을 보낼 필요는 없다고 말했다는 뜻이 드러나도록 고쳐 주세요. 예: “이 큰 승리 뒤에 여호수아는 다음 성읍 아이의 방비가 얼마나 잘되어 있는지 알아보려고 정탐꾼들을 보냈습니다. 그들은 돌아와 성을 지키는 자가 얼마 되지 않으니 아이로 모든 사람을 보낼 필요는 없다고 여호수아에게 말했습니다.”",
+      "translation_quote": "이 큰 승리 뒤에 여호수아는 다음 성읍 아이가 얼마나 잘 요새화되어 있는지 알아보려고 정탐꾼들을 보냈습니다. 그들은 돌아와 아이를 치러 모든 사람을 보낼 필요는 없다고 여호수아에게 말했습니다. 성을 지키는 자가 얼마 되지 않았기 때문입니다."
+    },
+    {
+      "location": "본문, 부유한 아이티 남성과의 대화",
+      "severity": "major",
+      "source_quote": "“I have desired to become a Christian, I’ve gone to all the churches around here, but I don’t feel they have anything to offer me. I have money; I have physical blessings; but that seems to be all that they are seeking for.”",
+      "suggested_fix": "마지막 문장에서 교회들이 추구하는 것이 돈이나 육신의 복뿐인 듯하다는 화자의 비판이 살아나도록 고쳐 주세요. 예: “그리스도인이 되고 싶어서 이 근처 교회를 다 가 봤지만, 교회들이 내게 줄 것이 아무것도 없는 것 같아. 나는 돈도 있고 육신의 복도 누리고 있어. 하지만 교회들이 추구하는 건 그것뿐인 것 같아.”",
+      "translation_quote": "“그리스도인이 되고 싶어서 이 근처 교회를 다 가 봤지만, 교회들이 내게 줄 것이 아무것도 없는 것 같아. 나는 돈도 있고 육신의 복도 누리고 있어. 하지만 교회들이 구하는 건 그것뿐인 것 같아.”"
+    },
+    {
+      "location": "마지막 문단, 누가복음 9:23-24 인용 뒤",
+      "severity": "major",
+      "source_quote": "Yes, it seems foolish to those that perish, but to those that believe, it is the Power of God.",
+      "suggested_fix": "“멸망하는 자들에게는 어리석어 보이지만”은 유지하되, 뒤의 대조를 원문의 “믿는 자들에게는 그것이 하나님의 능력이다”라는 뜻으로 고쳐 주세요. 예: “그렇습니다. 멸망하는 자들에게는 어리석어 보이지만, 믿는 자들에게는 하나님의 능력입니다.”",
+      "translation_quote": "그렇습니다. 멸망하는 자들에게는 어리석어 보이지만, 믿는 우리에게는 하나님의 능력입니다."
+    }
+  ],
   "id": "6301c421af44b7b51292df8bfd72aa0a",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "kor",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

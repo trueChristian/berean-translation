@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth line",
+      "severity": "major",
+      "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
+      "suggested_fix": "Ons kan dit nie bekostig om te lag as dit in bittere trane eindig nie.",
+      "translation_quote": "Ons kan dit nie bekostig om te lag totdat bitter trane opdroog nie."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

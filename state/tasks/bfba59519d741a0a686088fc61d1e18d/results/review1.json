@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b16c1850-1bba-4f69-bcb3-31e980c4eb6e",
+    "response_id": "chatcmpl-EUxJ7g4tNPjofOckpcO78wiean6rb",
+    "usage": {
+      "completion_tokens": 395,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 294,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1677,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1674,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2072
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 1",
+        "severity": "minor",
+        "source_quote": "We can’t afford to win the gain that means another’s loss;",
+        "suggested_fix": "Vi har inte råd att göra en vinst som innebär någon annans förlust;",
+        "translation_quote": "Vi har inte råd att vinna en vinst som innebär någon annans förlust;"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

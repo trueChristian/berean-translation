@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b69c939a-a423-49b6-bd53-706598e710cc",
+    "response_id": "chatcmpl-EUxHVzTZmcZgdtQJPN95RY6ZybbWA",
+    "usage": {
+      "completion_tokens": 654,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7621,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8278
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Outra passagem do Antigo Testamento...”",
+        "severity": "minor",
+        "source_quote": "If the priest was unsure, he would shut the person up in a room for seven days then examine him again.",
+        "suggested_fix": "Acrescente a informação de que a pessoa era mantida em um cômodo: “Se não tivesse certeza, manteria a pessoa fechada em um cômodo por sete dias e depois a examinaria novamente.”",
+        "translation_quote": "Se não tivesse certeza, isolaria a pessoa por sete dias e depois a examinaria novamente."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

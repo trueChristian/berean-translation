@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, stanza beginning “Sometimes I feel all alone”",
+      "severity": "major",
+      "source_quote": "“I alone can fulfill, that for which your heart yearns.”",
+      "suggested_fix": "Replace the final Hebrew line with: רק אני יכול למלא את מה שלבך כמה אליו. Preserve the existing <p> and line-break structure.",
+      "translation_quote": "רק אני יכול למלא את מה שלבו שלֵךְ כמה אליו."
+    },
+    {
+      "location": "HTML, poem, stanza beginning “Sometimes I feel left behind”",
+      "severity": "major",
+      "source_quote": "“And look forward to His eternal jubilee!”",
+      "suggested_fix": "Replace the final Hebrew line with: ואצפה בשמחה ליובל הנצחי שלו! Preserve the existing <p> and line-break structure.",
+      "translation_quote": "ואצפה בשמחה ליום הגאולה הנצחית שלו!"
+    },
+    {
+      "location": "HTML, poem, final stanza",
+      "severity": "minor",
+      "source_quote": "“Oh what bliss will be the feeling,”",
+      "suggested_fix": "Change ״הו, איזו אושר יהיה,״ to ״הו, איזה אושר יהיה,״ for correct Hebrew grammatical agreement.",
+      "translation_quote": "הו, איזו אושר יהיה,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

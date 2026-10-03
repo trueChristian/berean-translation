@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Premier paragraphe sous « Dieu a donné l’exemple du repos lors de la création »",
+      "severity": "minor",
+      "source_quote": "Even though the law of the Sabbath would not be instituted for at least two thousand years",
+      "suggested_fix": "Bien que la loi du sabbat ne doive être instituée que deux mille ans au moins plus tard",
+      "translation_quote": "Bien que la loi du sabbat ne soit apparue que deux mille ans plus tard"
+    },
+    {
+      "location": "Paragraphe sous « Le repos réduit l’inflammation »",
+      "severity": "minor",
+      "source_quote": "Blood pressure and heart conditions also benefit when a person gets adequate amounts of restorative sleep.",
+      "suggested_fix": "La tension artérielle et la santé cardiaque bénéficient également d’un sommeil réparateur en quantité suffisante.",
+      "translation_quote": "La tension artérielle et les problèmes cardiaques bénéficient également d’un sommeil réparateur en quantité suffisante."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

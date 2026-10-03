@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 2",
+      "severity": "minor",
+      "source_quote": "Mom had just returned from the produce auction in Lewisburg with some peaches.",
+      "suggested_fix": "سبزیوں کی نیلامی سے مراد واضح کرنے کے لیے اسے یوں کریں: ”ماں ابھی ابھی لیوسبرگ میں سبزیوں اور پھلوں کی نیلامی سے کچھ آڑو لے کر واپس آئی تھیں۔“",
+      "translation_quote": "ماں ابھی ابھی لیوسبرگ کی سبزی منڈی سے کچھ آڑو لے کر واپس آئی تھیں۔"
+    },
+    {
+      "location": "HTML paragraph 8",
+      "severity": "minor",
+      "source_quote": "I jammed the stone through the hole, peering out as it fell beside the road.",
+      "suggested_fix": "”میں نے گٹھلی سوراخ میں دھکیلی اور اسے سڑک کے کنارے گرتے ہوئے دیکھنے کے لیے باہر جھانکا۔“",
+      "translation_quote": "میں نے گٹھلی سوراخ میں دھکیلی اور اسے سڑک کے کنارے گرتے دیکھنے کے لیے باہر جھانکا۔"
+    },
+    {
+      "location": "HTML paragraph 14",
+      "severity": "major",
+      "source_quote": "Walking back to the couch with a light heart, I laid down, and quickly fell into a peaceful sleep.",
+      "suggested_fix": "پہلے شخص کو برقرار رکھتے ہوئے یوں کریں: ”دل ہلکا لیے میں صوفے کی طرف واپس آیا، لیٹا، اور جلد ہی پُرسکون نیند سو گیا۔“",
+      "translation_quote": "دل ہلکا لیے صوفے کی طرف واپس آیا، لیٹا، اور جلد ہی پُرسکون نیند سو گیا۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

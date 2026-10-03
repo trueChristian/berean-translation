@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "minor",
+      "source_quote": "“my pager going off”",
+      "suggested_fix": "Vervang “roepradio” met die meer gebruiklike “bieper” of “soeker”, byvoorbeeld: “Ek het in die bed omgerol en geluister hoe my bieper afgaan.”",
+      "translation_quote": "“my roepradio wat afgaan”"
+    },
+    {
+      "location": "HTML, endnotes heading",
+      "severity": "minor",
+      "source_quote": "Endnotes",
+      "suggested_fix": "Vertaal die opskrif as “Eindnotas”.",
+      "translation_quote": "Endnote"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

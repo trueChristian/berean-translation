@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final paragraph",
+      "severity": "major",
+      "source_quote": "<em>…in thy presence is fulness of joy; at thy right hand there are pleasures for evermore –Psalm 16:11.</em>",
+      "suggested_fix": "Vertaal die aangehaalde teks in Afrikaans en behou die verwysing presies: <em>…in u teenwoordigheid is daar volheid van vreugde; aan u regterhand is daar genietinge vir ewig –Psalm 16:11.</em>",
+      "translation_quote": "<em>…in u teenwoordigheid is daar volheid van vreugde; aan u regterhand is daar genietinge vir ewig –Psalm 16:11.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

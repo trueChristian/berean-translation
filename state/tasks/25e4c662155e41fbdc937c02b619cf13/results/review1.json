@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2a5b6b99-7c87-4130-a4cb-44131f171489",
+    "response_id": "chatcmpl-EUxJUTsqoxVozgcCg5P9cCcxSdGoY",
+    "usage": {
+      "completion_tokens": 1310,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 776,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5892,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5889,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7202
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 7",
+        "severity": "major",
+        "source_quote": "Perhaps God allowed it all in order to learn that His acceptance of me is not based on my accomplishments.",
+        "suggested_fix": "شاید خدا نے یہ سب ہونے دیا تاکہ میں سیکھوں کہ خدا کی طرف سے میری قبولیت میری کامیابیوں پر منحصر نہیں ہے۔",
+        "translation_quote": "شاید خدا نے یہ سب ہونے دیا تاکہ میں سیکھوں کہ خدا کی طرف سے میری مقبولیت میری کامیابیوں پر منحصر نہیں ہے۔"
+      },
+      {
+        "location": "Paragraph 12",
+        "severity": "major",
+        "source_quote": "She could have opposed the prophet and demanded he leave immediately",
+        "suggested_fix": "اُنہوں نے یسوع کا مذاق اڑایا اور انہیں قتل کر دیا۔",
+        "translation_quote": "اُن کا مذاق اڑایا گیا اور انہیں قتل کر دیا گیا۔"
+      },
+      {
+        "location": "Paragraph 11",
+        "severity": "major",
+        "source_quote": "The widow of Zarephath agreed to give her last handful of flour and the last remaining drops of oil to a stranger.",
+        "suggested_fix": "صَرَفَت کی بیوہ اس بات پر راضی ہو گئی کہ اپنی آخری مٹھی بھر آٹا اور تیل کے بچے ہوئے آخری قطرے ایک اجنبی کو دے دے۔",
+        "translation_quote": "صرفیت کی بیوہ اس بات پر راضی ہو گئی کہ اپنی آخری مٹھی بھر آٹا اور تیل کے بچے ہوئے آخری قطرے ایک اجنبی کو دے دے۔"
+      },
+      {
+        "location": "Paragraph 13",
+        "severity": "major",
+        "source_quote": "But when we give what we have with a willing heart, God multiplies our small efforts into a showcase of His grace",
+        "suggested_fix": "لیکن جب ہم رضامند دل سے جو کچھ ہمارے پاس ہے وہ دیتے ہیں، تو خدا ہماری چھوٹی سی کوشش کو اپنے فضل کی نمائش میں بدل دیتا ہے۔",
+        "translation_quote": "لیکن جب ہم رضامند دل سے اپنا سب کچھ دیتے ہیں تو خدا ہماری چھوٹی سی کوشش کو اپنے فضل کی نمائش میں بدل دیتا ہے۔"
+      },
+      {
+        "location": "Paragraph 3",
+        "severity": "minor",
+        "source_quote": "Our fifth grader needs help with multiplying fractions.",
+        "suggested_fix": "ہماری پانچویں جماعت میں پڑھنے والے بچے کو کسر کے ضرب کے سوال حل کرنے میں مدد چاہیے۔",
+        "translation_quote": "ہماری پانچویں جماعت کی طالبہ کو کسر کے ضرب کے سوال حل کرنے میں مدد چاہیے۔"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

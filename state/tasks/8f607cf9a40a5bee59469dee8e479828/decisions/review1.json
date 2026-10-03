@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 9",
+      "severity": "minor",
+      "source_quote": "There above the hole hung a yellow jacket nest.",
+      "suggested_fix": "Replace «عش دبور السترة الصفراء» with «عش الدبور الأصفر» to name the insect naturally in Arabic.",
+      "translation_quote": "كان هناك، فوق الثقب، عش دبور السترة الصفراء معلّقًا."
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "minor",
+      "source_quote": "making it difficult to look out of my eyes.",
+      "suggested_fix": "Use «حتى صار فتح عينيّ والنظر بهما صعبًا» to convey the difficulty caused by the swelling more clearly.",
+      "translation_quote": "حتى صار من الصعب أن أرى بعينيّ."
+    },
+    {
+      "location": "Paragraph 13",
+      "severity": "minor",
+      "source_quote": "Walking back to the couch with a light heart",
+      "suggested_fix": "Replace «وقلبٌ خفيف» with the idiomatic «وقلبي مرتاح» or «وقد زال عني الهم» while preserving the sentence structure.",
+      "translation_quote": "عدت إلى الأريكة وقلبٌ خفيف"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

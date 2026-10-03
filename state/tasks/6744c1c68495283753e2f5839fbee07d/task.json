@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9588
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 886,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 582,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9379,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9376,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10265
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Third paragraph, Miriam sentence",
+      "severity": "major",
+      "source_quote": "Miriam, at the age of twelve, stood post over the future deliverer of the entire Jewish nation and secured her own mother, Jochebed, to be the nurse of the baby Moses.",
+      "suggested_fix": "Replace “अपने ही माता-पिता, योकेबेद, को” with “अपनी ही माता, योकेबेद, को” to preserve that Jochebed was Miriam’s mother.",
+      "translation_quote": "बारह वर्ष की मरियम ने पूरे यहूदी राष्ट्र के भावी उद्धारकर्ता की रखवाली की और अपने ही माता-पिता, योकेबेद, को बालक मूसा की धाय बनने की व्यवस्था की।"
+    },
+    {
+      "location": "“...आशा” section, Hebrews 10:12–13 quotation",
+      "severity": "major",
+      "source_quote": "From henceforth expecting till his enemies be made his footstool.",
+      "suggested_fix": "Replace “उसके बैरी उसके पाँवों की पीढ़ी बनें” with “उसके बैरी उसके पाँवों की चौकी बनें” so the image of a footstool is preserved.",
+      "translation_quote": "और उसी समय से इसकी बाट जोह रहा है कि उसके बैरी उसके पाँवों की पीढ़ी बनें।"
+    }
+  ],
   "id": "6744c1c68495283753e2f5839fbee07d",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "hin",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

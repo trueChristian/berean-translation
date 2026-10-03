@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3883a8ed-283e-4a24-801e-702b3011029c",
+    "response_id": "chatcmpl-EUxIJBRHAAZ6kqKumOa9VM8DwEsBo",
+    "usage": {
+      "completion_tokens": 116,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5438
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الرابعة",
+        "severity": "major",
+        "source_quote": "It’s how my faith proves itself to be real to the unbeliever",
+        "suggested_fix": "استبدل «للمؤمنين» بـ«لغير المؤمنين» في العبارة، لتصبح: «وهكذا يثبت إيماني لغير المؤمنين أنه حقيقي»",
+        "translation_quote": "وهكذا يثبت إيماني للمؤمنين أن إيماني حقيقي"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph 5",
+      "severity": "minor",
+      "source_quote": "the real church of Jesus Christ",
+      "suggested_fix": "Change “کا” to “کی”: “لیکن یسوع مسیح کی حقیقی کلیسیا ہمیشہ قدرت رکھے گی۔”",
+      "translation_quote": "لیکن یسوع مسیح کا حقیقی کلیسیا ہمیشہ قدرت رکھے گا۔"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, opening Scripture quotation, 1 Corinthians 13:4",
+      "severity": "major",
+      "source_quote": "“charity vaunteth not itself, is not puffed up”",
+      "suggested_fix": "Replace „die Liebe treibt nicht Mutwillen, sie bläht sich nicht auf“ with „die Liebe rühmt sich nicht, sie bläht sich nicht auf“, preserving the existing <em> tag and the rest of the quotation. The source distinguishes boasting from being puffed up.",
+      "translation_quote": "„die Liebe treibt nicht Mutwillen, sie bläht sich nicht auf“"
+    },
+    {
+      "location": "source.html and translation.html, opening Scripture quotation, 1 Corinthians 13:11",
+      "severity": "major",
+      "source_quote": "“I spake as a child, I understood as a child, I thought as a child”",
+      "suggested_fix": "Translate all three distinct actions in the existing quotation, for example: „redete wie ein Kind, verstand wie ein Kind und dachte wie ein Kind“; retain the surrounding <em> tag and quotation structure.",
+      "translation_quote": "„redete wie ein Kind und dachte wie ein Kind und war klug wie ein Kind“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

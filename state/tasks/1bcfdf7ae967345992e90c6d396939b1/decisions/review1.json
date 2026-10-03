@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Third paragraph",
+      "severity": "minor",
+      "source_quote": "Our fifth grader needs help with multiplying fractions.",
+      "suggested_fix": "Replace «Nuestro hijo de quinto grado» with «Nuestro hijo o hija de quinto grado» or a gender-neutral equivalent such as «Nuestro estudiante de quinto grado», since the source does not specify the child’s gender.",
+      "translation_quote": "Nuestro hijo de quinto grado necesita ayuda con la multiplicación de fracciones."
+    },
+    {
+      "location": "Paragraph about Gideon’s army",
+      "severity": "minor",
+      "source_quote": "Normally, Gideon was accustomed to armies of thousands. and now God was asking him to fight a momentous battle with only a few hundred.",
+      "suggested_fix": "Correct the sentence break and capitalization: «Normalmente, Gedeón estaba acostumbrado a ejércitos de miles, y ahora Dios le pedía que librara una batalla decisiva con solo unos cientos.»",
+      "translation_quote": "Normalmente, Gedeón estaba acostumbrado a ejércitos de miles. y ahora Dios le pedía que librara una batalla decisiva con solo unos cientos."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

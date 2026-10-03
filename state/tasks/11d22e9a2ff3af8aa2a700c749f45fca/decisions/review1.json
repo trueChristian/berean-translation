@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “We have already seen how sin separates us…”",
+      "severity": "major",
+      "source_quote": "If we are left to continue in our sin, what has Jesus done for us?",
+      "suggested_fix": "Replace with: «Hvis vi får fortsette å leve i synden vår, hva har Jesus da gjort for oss?»",
+      "translation_quote": "Hvis vi må fortsette å leve i synden vår, hva har Jesus da gjort for oss?"
+    },
+    {
+      "location": "Paragraph beginning “When we call out to God for salvation…”",
+      "severity": "minor",
+      "source_quote": "we know we need to be saved; converted.",
+      "suggested_fix": "Replace «å bli frelst; omvendt» with «å bli frelst, altså omvendt» so the second term reads naturally and clearly in Norwegian.",
+      "translation_quote": "vi trenger å bli frelst; omvendt."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

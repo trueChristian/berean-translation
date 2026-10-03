@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, bait 3, baris 3–4",
+      "severity": "major",
+      "source_quote": "Never a mountain rocky and steep,<br>\n    Never a river turbid and deep.",
+      "suggested_fix": "<p>3.<br>\n    Allah tidak menjanjikan jalan yang rata dan lebar,<br>\n    Perjalanan cepat dan mudah, tanpa perlu penuntun;<br>\n    Tidak pernah ada gunung berbatu yang terjal,<br>\n    Tidak pernah ada sungai keruh yang dalam.</p>",
+      "translation_quote": "Tak pernah ada gunung berbatu yang terjal,<br>\n    Tak pernah ada sungai keruh yang dalam."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

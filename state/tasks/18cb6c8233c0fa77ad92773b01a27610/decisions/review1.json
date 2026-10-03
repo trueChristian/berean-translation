@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, “...우리의 연약함을 치유합니다” 절 첫 문단",
+      "severity": "major",
+      "source_quote": "The impotent man of 38 years at Bethesda",
+      "suggested_fix": "“베데스다에서 서른여덟 해 동안 병을 앓은 사람은”처럼 옮겨, 병을 앓은 기간이 38년이라는 뜻을 분명히 하세요.",
+      "translation_quote": "베데스다의 서른여덟 해 된 병자는"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

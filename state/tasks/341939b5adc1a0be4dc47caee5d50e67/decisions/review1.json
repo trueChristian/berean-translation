@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Die res sal helder geraak word…”",
+      "severity": "minor",
+      "source_quote": "The rest shall be brightly effected with a hope that…",
+      "suggested_fix": "Die res sal op treffende wyse geraak word deur ’n hoop wat…",
+      "translation_quote": "Die res sal helder geraak word deur ’n hoop wat…"
+    },
+    {
+      "location": "Final article paragraph",
+      "severity": "minor",
+      "source_quote": "if we are living in the morning light of Jesus Christ.",
+      "suggested_fix": "as ons in die oggendlig van Jesus Christus leef.",
+      "translation_quote": "as ons in die oggendl lig van Jesus Christus leef."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

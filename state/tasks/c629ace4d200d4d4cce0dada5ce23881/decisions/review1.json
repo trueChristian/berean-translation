@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "文章第三段，提摩太前书 4:12 引文",
+      "severity": "major",
+      "source_quote": "“in word, in conversation, in charity, in spirit, in faith, in purity”",
+      "suggested_fix": "在“爱心”和“信心”之间补上“心灵”，使引文完整表达“in spirit”。例如：“总要在言语、行为、爱心、心灵、信心、清洁上，都作信徒的榜样。”",
+      "translation_quote": "“总要在言语、行为、爱心、信心、清洁上，都作信徒的榜样。”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

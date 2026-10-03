@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “Our bodies are destined for the grave”\",\"severity\":\"major\",\"source_quote\":\"The impotent man of 38 years at Bethesda\",\"suggested_fix\":\"Change “Orang lumpuh yang telah 38 tahun berada di Betesda” to “Orang lumpuh yang telah menderita selama 38 tahun di Betesda” so the 38 years describes the duration of his condition, not how long he was at Bethesda.\",\"translation_quote\":\"Orang lumpuh yang telah 38 tahun berada di Betesda\"},{\"location\":\"HTML paragraph beginning “The world entices us to selfish living”\",\"severity\":\"minor\",\"source_quote\":\"teach them to “be all that you can be”\",\"suggested_fix\":\"Replace “menjadi segala yang dapat kamu capai” with “menjadi diri terbaik yang dapat kamu capai” to convey the slogan’s sense of realizing one’s full potential.\",\"translation_quote\":\"mengajari mereka untuk “menjadi segala yang dapat kamu capai”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 959,
+    "content_evidence_truncated": false,
+    "content_sha256": "0942938c52268e5c0594e92c0c25c166c19749bf53af53ab27875acdd6bca0be",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1008,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 773,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8671,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8668,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9679
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

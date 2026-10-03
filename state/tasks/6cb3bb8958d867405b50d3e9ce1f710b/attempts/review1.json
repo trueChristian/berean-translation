@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الاقتباس الافتتاحي، 1 كورنثوس 13:1–13\",\"severity\":\"major\",\"source_quote\":\"\\\"charity\\\" (throughout the quotation)\",\"suggested_fix\":\"استبدل «المحبة» بـ«المحبة» مع الحفاظ على المعنى؛ لا يلزم تغيير هنا.\",\"translation_quote\":\"«المحبة» (في الاقتباس كله)\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 407,
+    "content_evidence_truncated": false,
+    "content_sha256": "36c549d8548e5b868e82c95b461884c83c075af9e8b37b9e4bfac2eddd7815f1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 109,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10857,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10969
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

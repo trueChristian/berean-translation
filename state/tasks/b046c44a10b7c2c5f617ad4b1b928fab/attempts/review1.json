@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “The solution for this war…”\",\"severity\":\"major\",\"source_quote\":\"It doesn’t mean we have to do things because God wants us to.\",\"suggested_fix\":\"Replace “No significa que tengamos que hacer las cosas solo porque Dios quiere que las hagamos.” with “No significa que tengamos que hacer las cosas porque Dios quiere que las hagamos.”\",\"translation_quote\":\"No significa que tengamos que hacer las cosas solo porque Dios quiere que las hagamos.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 544,
+    "content_evidence_truncated": false,
+    "content_sha256": "2297eed017b9ee3b266673401e2629b2371ef3509f2c8b9bb78f13ecfd8d2c9a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 756,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 621,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3406,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3403,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4162
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

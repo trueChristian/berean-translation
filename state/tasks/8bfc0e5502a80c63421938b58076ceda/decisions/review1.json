@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Последняя строфа, последняя строка",
+      "severity": "major",
+      "source_quote": "To hear those words, “Well done.”",
+      "suggested_fix": "Заменить «Хорошо, добрый и верный раб» на «Хорошо» — например: «Услышать те слова: „Хорошо“»",
+      "translation_quote": "Услышать те слова: «Хорошо, добрый и верный раб»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

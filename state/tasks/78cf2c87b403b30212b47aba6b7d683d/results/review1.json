@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8bbbf9d4-8d03-4b6e-be0e-bd68d448f7de",
+    "response_id": "chatcmpl-EUxHupCMSCEckljFHRlwItKTCFBMj",
+    "usage": {
+      "completion_tokens": 398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 323,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1523,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1520,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1921
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, refrain, third line",
+        "severity": "major",
+        "source_quote": "Grace for the trials",
+        "suggested_fix": "χάρη μέσα στις δοκιμασίες",
+        "translation_quote": "χάρη στις δοκιμασίες"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

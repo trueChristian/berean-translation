@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "21c35a14-2c68-4d3e-bca8-185143e73cbf",
+    "response_id": "chatcmpl-EUxHWYARKZYh9nE699Ygn8xSZTlk2",
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 483,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5354,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5351,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5965
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "第五段，保罗引文",
+        "severity": "major",
+        "source_quote": "and things which are not, to bring to nought things that are",
+        "suggested_fix": "将“为要废掉那些自以为是的”改为“为要废掉那些存在的事物”或其他准确表达“废掉那些确实存在之事物”的译法。",
+        "translation_quote": "以及那些算不得什么的，为要废掉那些自以为是的"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

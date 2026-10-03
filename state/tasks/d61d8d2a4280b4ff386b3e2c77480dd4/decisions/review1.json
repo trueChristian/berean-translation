@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, Scripture quotation",
+      "severity": "major",
+      "source_quote": "…in thy presence is fulness of joy; at thy right hand there are pleasures for evermore –Psalm 16:11.",
+      "suggested_fix": "Replace the quotation inside the existing <em> tags with: בנוכחותך יש שפע של שמחה; בימינך יש הנאות לנצח – תהילים ט״ז:י״א. This restores the omitted first clause while preserving the reference.",
+      "translation_quote": "...בִּנְעִמוֹת בִּימִינְךָ נֶצַח – תהילים ט״ז:י״א."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

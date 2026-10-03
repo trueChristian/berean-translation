@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 11132
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1152,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 875,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10991,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10988,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12143
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html and translation.html, opening Scripture quotation, 1 Corinthians 13:4",
+      "severity": "major",
+      "source_quote": "“charity vaunteth not itself, is not puffed up”",
+      "suggested_fix": "Replace „die Liebe treibt nicht Mutwillen, sie bläht sich nicht auf“ with „die Liebe rühmt sich nicht, sie bläht sich nicht auf“, preserving the existing <em> tag and the rest of the quotation. The source distinguishes boasting from being puffed up.",
+      "translation_quote": "„die Liebe treibt nicht Mutwillen, sie bläht sich nicht auf“"
+    },
+    {
+      "location": "source.html and translation.html, opening Scripture quotation, 1 Corinthians 13:11",
+      "severity": "major",
+      "source_quote": "“I spake as a child, I understood as a child, I thought as a child”",
+      "suggested_fix": "Translate all three distinct actions in the existing quotation, for example: „redete wie ein Kind, verstand wie ein Kind und dachte wie ein Kind“; retain the surrounding <em> tag and quotation structure.",
+      "translation_quote": "„redete wie ein Kind und dachte wie ein Kind und war klug wie ein Kind“"
+    }
+  ],
   "id": "1dbb39a0c6667ff1881934d94163fee0",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "deu",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة الرابعة\",\"severity\":\"major\",\"source_quote\":\"It’s how my faith proves itself to be real to the unbeliever\",\"suggested_fix\":\"استبدل «للمؤمنين» بـ«لغير المؤمنين» في العبارة، لتصبح: «وهكذا يثبت إيماني لغير المؤمنين أنه حقيقي»\",\"translation_quote\":\"وهكذا يثبت إيماني للمؤمنين أن إيماني حقيقي\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 484,
+    "content_evidence_truncated": false,
+    "content_sha256": "13ed2f679ba7ee6b4361a835f6648c8b9aa31b8799f4790c60189dffc17e274b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 116,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5438
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Our bodies are destined for the grave”",
+      "severity": "major",
+      "source_quote": "The impotent man of 38 years at Bethesda",
+      "suggested_fix": "Change “Orang lumpuh yang telah 38 tahun berada di Betesda” to “Orang lumpuh yang telah menderita selama 38 tahun di Betesda” so the 38 years describes the duration of his condition, not how long he was at Bethesda.",
+      "translation_quote": "Orang lumpuh yang telah 38 tahun berada di Betesda"
+    },
+    {
+      "location": "HTML paragraph beginning “The world entices us to selfish living”",
+      "severity": "minor",
+      "source_quote": "teach them to “be all that you can be”",
+      "suggested_fix": "Replace “menjadi segala yang dapat kamu capai” with “menjadi diri terbaik yang dapat kamu capai” to convey the slogan’s sense of realizing one’s full potential.",
+      "translation_quote": "mengajari mereka untuk “menjadi segala yang dapat kamu capai”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

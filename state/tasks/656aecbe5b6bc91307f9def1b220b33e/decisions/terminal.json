@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 7",
+      "severity": "minor",
+      "source_quote": "We can’t afford to play with fire, or tempt a serpent’s bite;",
+      "suggested_fix": "हम आग से खेलने या साँप को डसने के लिए उकसाने का जोखिम नहीं उठा सकते;",
+      "translation_quote": "हम आग से खेलने या साँप के डसने का जोखिम नहीं उठा सकते;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, fourth stanza of the first poem",
+      "severity": "major",
+      "source_quote": "Who weigh themselves, not with God’s truth, / As every day they ought!",
+      "suggested_fix": "Replace the last two lines with: “他们不以神的真理衡量自己，/ 可他们本该天天如此！”",
+      "translation_quote": "他们不以神的真理衡量自己，/ 可他们本该天天如此！"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

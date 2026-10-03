@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 6",
+      "severity": "minor",
+      "source_quote": "first generation Christians being “on fire” for their Lord",
+      "suggested_fix": "Replace ״בוערים באש״ with a natural Hebrew expression such as ״נלהבים מאוד למען אדונם״.",
+      "translation_quote": "נוצרים בני הדור הראשון שהם ״בוערים באש״ למען אדונם"
+    },
+    {
+      "location": "Article, paragraph 5",
+      "severity": "minor",
+      "source_quote": "Maybe we have been lulled into a false sense of security.",
+      "suggested_fix": "Replace ״הוטלנו לתחושת ביטחון כוזבת״ with ״הורדמנו לתחושת ביטחון כוזבת״ or ״נרדמנו בשמירה״, preserving the sense of being lulled into false security.",
+      "translation_quote": "אולי הוטלנו לתחושת ביטחון כוזבת."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poème, strophe 3, premier vers\",\"severity\":\"minor\",\"source_quote\":\"God has not promised smooth roads and wide,\",\"suggested_fix\":\"Remplacer « des routes planes et larges » par « des routes lisses et larges » pour rendre l’idée de routes sans aspérités.\",\"translation_quote\":\"Dieu n’a pas promis des routes planes et larges,\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 395,
+    "content_evidence_truncated": false,
+    "content_sha256": "fd945da08d56399d0207f2682c32b704804291a8778c53f64aede4ad621a5023",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 547,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1451,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1448,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2115
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

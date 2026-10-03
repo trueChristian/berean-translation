@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, segunda estrofa del segundo bloque del poema\",\"severity\":\"major\",\"source_quote\":\"“This night, that soul of thine / May be required of thee”\",\"suggested_fix\":\"«Esta noche, tu alma / puede serte exigida:»\",\"translation_quote\":\"«Esta noche, tu alma / puede serte requerida:»\"},{\"location\":\"HTML, tercera estrofa del segundo bloque del poema\",\"severity\":\"major\",\"source_quote\":\"“If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?”\",\"suggested_fix\":\"«Si Dios, dentro de apenas tres horas, HOY, / pusiera fin a tu vida ESTA NOCHE?»\",\"translation_quote\":\"«Si Dios, dentro de apenas tres horas, HOY, / pusiera fin a tu camino ESTA NOCHE?»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 731,
+    "content_evidence_truncated": false,
+    "content_sha256": "5cba98126f4f6951d66f909286466e57e2cbe1d906a4a6787f7b1842a8bfd774",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 196,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1916,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1913,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2112
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

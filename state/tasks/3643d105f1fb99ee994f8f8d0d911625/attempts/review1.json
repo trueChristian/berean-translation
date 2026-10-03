@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML poem, refrain, final line\",\"severity\":\"major\",\"source_quote\":\"Unfailing kindness, undying love.\",\"suggested_fix\":\"Vervang door: “Onophoudelijke goedheid, onvergankelijke liefde.”\",\"translation_quote\":\"Onfeilbare goedheid, onsterfelijke liefde.\"},{\"location\":\"HTML poem, refrain, second line\",\"severity\":\"minor\",\"source_quote\":\"Rest for the labor, light for the way,\",\"suggested_fix\":\"Vervang “Rust na het werk” door “Rust voor het werk” om het beeld van rust voor de inspanning te behouden.\",\"translation_quote\":\"Rust na het werk, licht op de weg,\"},{\"location\":\"HTML poem, stanza 2, second line\",\"severity\":\"minor\",\"source_quote\":\"Toil and temptation, trouble and woe;\",\"suggested_fix\":\"Schrijf “zwoegen” met een kleine letter na de regelafbreking voor een natuurlijkere doorlopende zin.\",\"translation_quote\":\"Zwoegen en verzoeking, tegenspoed en ellende zullen kennen;\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 947,
+    "content_evidence_truncated": false,
+    "content_sha256": "22a311334b808da4ee736626f3b55cfdb506e9fab293ab3aafc13ab0dad09a7d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 816,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 563,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1428,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2247
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Acts 1:8",
+      "severity": "major",
+      "source_quote": "“...and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth –Acts 1:8.”",
+      "suggested_fix": "Replace ״וְהִתְקַיֵּם בִּי עֵדִים״ with ״וְתִהְיוּ עֵדִים לִי״ so the quotation says that the disciples will be witnesses to Jesus, as in the source.",
+      "translation_quote": "״וְהִתְקַיֵּם בִּי עֵדִים בִּירוּשָׁלַיִם וּבְכָל יְהוּדָה וְשֹׁמְרוֹן וְעַד קְצֵה הָאָרֶץ״"
+    },
+    {
+      "location": "Paragraph about Achan hiding the items",
+      "severity": "major",
+      "source_quote": "“He slipped them into his armor, then later hid them under his tent”",
+      "suggested_fix": "Replace ״החביא אותם בבגדיו״ with ״החביא אותם בשריונו״ to preserve the source’s detail that Achan put the items in his armor.",
+      "translation_quote": "״הוא החביא אותם בבגדיו, ואחר כך הסתיר אותם מתחת לאוהלו״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

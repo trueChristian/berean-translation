@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 2",
+      "severity": "minor",
+      "source_quote": "“we like our independence”",
+      "suggested_fix": "Pertimbangkan “kita menyukai kemandirian kita” untuk mempertahankan makna bahwa kita menyukai keadaan mandiri, bukan sekadar konsep kemandirian.",
+      "translation_quote": "“kita menyukai kemandirian kita”"
+    },
+    {
+      "location": "Paragraf 4",
+      "severity": "minor",
+      "source_quote": "“This is not too much for Him to ask of us”",
+      "suggested_fix": "Ganti “Ini bukan permintaan yang terlalu berat bagi-Nya untuk diajukan kepada kita” dengan “Ini bukanlah hal yang terlalu berat untuk diminta-Nya dari kita” agar ungkapannya lebih alami dan jelas.",
+      "translation_quote": "“Ini bukan permintaan yang terlalu berat bagi-Nya untuk diajukan kepada kita”"
+    },
+    {
+      "location": "Paragraf terakhir",
+      "severity": "minor",
+      "source_quote": "“heavenly sunlight all of our journey”",
+      "suggested_fix": "Pertimbangkan “sinar matahari surgawi sepanjang perjalanan kita” (atau ungkapan idiomatis yang sepadan) agar frasa “sepanjang” secara jelas menerangkan perjalanan.",
+      "translation_quote": "“sinar matahari surgawi sepanjang perjalanan kita”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

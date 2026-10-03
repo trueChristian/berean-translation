@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة عن عخان وانتصار عاي",
+      "severity": "major",
+      "source_quote": "“However, the men of Ai smote the children of Israel and chased them away.”",
+      "suggested_fix": "استبدل «لكن رجال عاي ضربوا بني إسرائيل وطردوهم» بـ«لكن رجال عاي هزموا بني إسرائيل وطاردوهم»؛ فـ«smote» هنا تعني هزموهم، لا مجرد ضربهم.",
+      "translation_quote": "لكن رجال عاي ضربوا بني إسرائيل وطردوهم."
+    },
+    {
+      "location": "الفقرة عن البرص، لاويين 13 و14",
+      "severity": "major",
+      "source_quote": "“Leprosy was a strange disease. If one were to get leprosy, it was easily spread.”",
+      "suggested_fix": "استبدل «فإذا أُصيب أحد بالبرص، انتقل المرض بسهولة» بـ«فإذا أُصيب أحد بالبرص، كان المرض ينتشر بسهولة»؛ فالنص يصف انتشار المرض، لا انتقاله إلى شخص بعينه.",
+      "translation_quote": "فإذا أُصيب أحد بالبرص، انتقل المرض بسهولة."
+    },
+    {
+      "location": "الفقرة التي تبدأ «لنفترض أنك سمعت...»",
+      "severity": "major",
+      "source_quote": "“Then you’re sitting in church on Sunday morning, when the doors open, and a man enters with skin and flesh hanging from his extremities. He is badly infected, but he does not seem to know it.”",
+      "suggested_fix": "استبدل «يدخل رجل يتدلى اللحم والجلد من أطرافه. إنه مصاب بالمرض بشدة» بـ«يدخل رجل يتدلى الجلد واللحم من أطرافه. إنه مصاب بالبرص بشدة»؛ فـ«infected» هنا يحيل بوضوح إلى البرص المذكور في السياق.",
+      "translation_quote": "يدخل رجل يتدلى اللحم والجلد من أطرافه. إنه مصاب بالمرض بشدة."
+    },
+    {
+      "location": "الفقرة عن الواعظ والخطية",
+      "severity": "major",
+      "source_quote": "“Jesus came to save us from ALL sin; ALL unrighteousness.”",
+      "suggested_fix": "استبدل «لقد جاء يسوع ليخلّصنا من كل خطية؛ ومن كل إثم» بـ«لقد جاء يسوع ليخلّصنا من كل خطية؛ ومن كل إثم» مع إبراز «كل» في الموضعين، مثل «كُلِّ خطية» و«كُلِّ إثم»، للحفاظ على تشديد المصدر الصريح على ALL.",
+      "translation_quote": "لقد جاء يسوع ليخلّصنا من كل خطية؛ ومن كل إثم."
+    },
+    {
+      "location": "الفقرة عن الرجل الهايتي الثري",
+      "severity": "major",
+      "source_quote": "“I have desired to become a Christian, I’ve gone to all the churches around here, but I don’t feel they have anything to offer me.”",
+      "suggested_fix": "استبدل «ذهبت إلى كل الكنائس حول هنا» بـ«ذهبت إلى جميع الكنائس في هذه المنطقة»؛ فالمصدر يقول إنه زار الكنائس المحلية كلها، لا مجرد كنائس «حول هنا» بصياغة مبهمة.",
+      "translation_quote": "لطالما رغبت في أن أصبح مسيحيًا، وذهبت إلى كل الكنائس حول هنا، لكنني لا أشعر أن لديها ما تقدمه لي."
+    },
+    {
+      "location": "الفقرة عن زعيم العصابة، حديثه عن قتل الله",
+      "severity": "major",
+      "source_quote": "“That is fine; tell God to come down here, and I’ll cut off His head.”",
+      "suggested_fix": "استبدل «قل لله أن ينزل إلى هنا، وسأقطع رأسه» بـ«قل لله أن ينزل إلى هنا، وسأقطع رأسه» مع ضبط «لله» بوصفها خطابًا مباشرًا: «قُلْ للهِ أن ينزل إلى هنا...»؛ النص العربي الحالي يحافظ على المعنى، لكن الضبط وحده لا يغيّر المعنى.",
+      "translation_quote": "«لا بأس؛ قل لله أن ينزل إلى هنا، وسأقطع رأسه»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

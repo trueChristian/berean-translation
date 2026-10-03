@@ -2,7 +2,6 @@
   "article_id": "61996151-3b49-4498-9285-995520ca542d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9281
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 939,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 632,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9140,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9137,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10079
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Первый абзац",
+      "severity": "major",
+      "source_quote": "It couldn’t have been more than 15 minutes since I had dropped into bed from my last admission.",
+      "suggested_fix": "Заменить «после последней госпитализации» на «после того, как я уложил в больницу последнего пациента» или другую формулировку, ясно показывающую, что речь о последнем пациенте, которого автор госпитализировал.",
+      "translation_quote": "Не прошло и пятнадцати минут с тех пор, как я после последней госпитализации рухнул в постель."
+    },
+    {
+      "location": "Цитаты из Евреям 4:9–11 и Евреям 4:11",
+      "severity": "major",
+      "source_quote": "lest any man fall after the same example of unbelief",
+      "suggested_fix": "В обеих цитатах заменить «непокорность» на «неверие», сохранив существующие теги и ссылки: «чтобы кто по тому же примеру не впал в неверие».",
+      "translation_quote": "чтобы кто по тому же примеру не впал в непокорность — Евреям 4:9–11; … чтобы кто по тому же примеру не впал в непокорность — Евреям 4:11."
+    }
+  ],
   "id": "ebb73709823bb18ea3ef1a87087b413f",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "rus",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/524d40c54ec6764637a5f253440ead3daccb8d3dce30013c3273f7254041ebde.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
   "translation_model_actual": "gpt-6-luna"

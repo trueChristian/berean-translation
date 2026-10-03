@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "62c66e48-5b11-4610-b834-5eedf7913311",
+    "response_id": "chatcmpl-EUxHWBWvVqxt3sTIlK2A9c9fw8boo",
+    "usage": {
+      "completion_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5893,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5890,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6898
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5",
+        "severity": "major",
+        "source_quote": "I am learning that God is more interested in the person I am becoming instead of everything I want to do for Him.",
+        "suggested_fix": "আমি শিখছি, তাঁর জন্য আমি যা করতে চাই, তার চেয়ে আমি কেমন মানুষ হয়ে উঠছি—তা নিয়েই ঈশ্বর বেশি আগ্রহী।",
+        "translation_quote": "আমি শিখছি, ঈশ্বর আমার জন্য যা করতে চাই তার চেয়ে আমি কেমন মানুষ হয়ে উঠছি, তা নিয়েই তিনি বেশি আগ্রহী।"
+      },
+      {
+        "location": "Paragraph 7",
+        "severity": "major",
+        "source_quote": "When that village and those people were taken from us in a whirl of government issues and misunderstandings",
+        "suggested_fix": "সরকারি সমস্যা ও ভুল-বোঝাবুঝির ঘূর্ণিতে যখন সেই গ্রাম ও সেখানকার মানুষদের আমাদের কাছ থেকে কেড়ে নেওয়া হলো",
+        "translation_quote": "সরকারি সমস্যা ও ভুল-বোঝাবুঝির ঘূর্ণিতে যখন সেই গ্রাম ও সেখানকার মানুষদের কাছ থেকে আমাদের সরিয়ে নেওয়া হলো"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

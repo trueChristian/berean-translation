@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning „An diesem Abend“\",\"severity\":\"major\",\"source_quote\":\"making it difficult to look out of my eyes.\",\"suggested_fix\":\"Replace „sodass ich kaum noch die Augen öffnen konnte“ with „sodass mir das Sehen schwerfiel“ to preserve the stated difficulty without adding that he could barely open his eyes.\",\"translation_quote\":\"sodass ich kaum noch die Augen öffnen konnte.\"},{\"location\":\"HTML, paragraph beginning „Tief in meinem Herzen“\",\"severity\":\"minor\",\"source_quote\":\"I knew that sneaking was wrong\",\"suggested_fix\":\"Replace „mich heimlich davonzuschleichen“ with „heimlich zu handeln“ so the line refers to acting secretly, not specifically sneaking away.\",\"translation_quote\":\"Ich wusste, dass es falsch war, mich heimlich davonzuschleichen\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 846,
+    "content_evidence_truncated": false,
+    "content_sha256": "a947bf967a40af1a04af1fde3c578a13d2a757b81f03cc35a1fb3be924da4ac0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 811,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2785,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2782,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3596
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

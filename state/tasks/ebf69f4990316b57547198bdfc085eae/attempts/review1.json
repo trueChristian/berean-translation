@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 10 (yellow-jacket nest)\",\"severity\":\"major\",\"source_quote\":\"There above the hole hung a yellow jacket nest.\",\"suggested_fix\":\"Replace “’n perdeby nes” with “’n geelbaardby-nes” (or another locally established Afrikaans term for yellow jackets), preserving the sentence structure.\",\"translation_quote\":\"Daar bo die gat het ’n perdeby nes gehang.\"},{\"location\":\"HTML, paragraph 11\",\"severity\":\"major\",\"source_quote\":\"making it difficult to look out of my eyes.\",\"suggested_fix\":\"Replace “sodat dit moeilik was om deur my oë te kyk” with “sodat dit moeilik was om my oë oop te maak” to convey that the swelling made it hard to see/open the eyes.\",\"translation_quote\":\"sodat dit moeilik was om deur my oë te kyk.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 805,
+    "content_evidence_truncated": false,
+    "content_sha256": "2d5d685db809ffd5bfdc40f437dd5863444e98f7834194fef157dec7ae15076a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 202,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3068
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

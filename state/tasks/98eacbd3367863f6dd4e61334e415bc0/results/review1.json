@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1c3069ce-ad01-4d24-af59-67ff3313d563",
+    "response_id": "chatcmpl-EUxIBqgNX2T7t0a6QspUgK1A3E4dh",
+    "usage": {
+      "completion_tokens": 332,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1933,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1930,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2265
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second poem stanza, line 4",
+        "severity": "major",
+        "source_quote": "With God shut out, and self shut in / And selfish aims surround.",
+        "suggested_fix": "when Gud hålls utanför och jaget hålls instängt / och själviska mål omger mig.",
+        "translation_quote": "när Gud stängs ute och jag stänger in mig / och själviska mål omger mig."
+      },
+      {
+        "location": "Second poem stanza, line 4",
+        "severity": "major",
+        "source_quote": "And dost thou plan the New Year full / There, ‘neath some Christmas tree?",
+        "suggested_fix": "Och planerar du där, under någon julgran, / för hela det nya året?",
+        "translation_quote": "Och planerar du ett helt nytt år / där, under någon julgran?"
+      },
+      {
+        "location": "Third poem stanza, line 2",
+        "severity": "major",
+        "source_quote": "Your lessons learned alright?",
+        "suggested_fix": "Har du lärt dig dina läxor ordentligt?",
+        "translation_quote": "Har du verkligen lärt dig läxorna?"
+      },
+      {
+        "location": "Third poem stanza, line 3",
+        "severity": "major",
+        "source_quote": "If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?",
+        "suggested_fix": "Om Gud om bara tre timmar, JUST I DAG, / skulle avsluta din livsvandring I NATT?",
+        "translation_quote": "Om Gud om bara tre timmar, JUST I DAG, / skulle sätta punkt för ditt liv I NATT?"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

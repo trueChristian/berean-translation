@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, абзац со словами «Здесь, в Соединённых Штатах Америки…»",
+      "severity": "major",
+      "source_quote": "Christians have had over 60 years (since World War 2) of relative peace and tranquility.",
+      "suggested_fix": "Заменить «христиане уже более 60 лет (со времён Второй мировой войны) жили» на «христиане уже более 60 лет (со времён Второй мировой войны) живут»; исходник говорит о периоде, продолжающемся до настоящего времени.",
+      "translation_quote": "христиане уже более 60 лет (со времён Второй мировой войны) жили в относительном мире и спокойствии"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "第五段，保罗引文",
+      "severity": "major",
+      "source_quote": "and things which are not, to bring to nought things that are",
+      "suggested_fix": "将“为要废掉那些自以为是的”改为“为要废掉那些存在的事物”或其他准确表达“废掉那些确实存在之事物”的译法。",
+      "translation_quote": "以及那些算不得什么的，为要废掉那些自以为是的"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

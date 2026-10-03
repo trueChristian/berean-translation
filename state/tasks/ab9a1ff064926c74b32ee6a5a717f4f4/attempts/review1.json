@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “As I interact with folks…”\",\"severity\":\"minor\",\"source_quote\":\"As I interact with folks from around the country there seems to be a common issue that many folks are struggling with—weariness.\",\"suggested_fix\":\"Replace “جب میں ملک بھر کے لوگوں سے بات کرتا ہوں” with “جب میں ملک بھر کے لوگوں سے بات چیت کرتا ہوں” only if desired; the current wording is understandable but “بات کرتا ہوں” slightly narrows the sense of interacting. No substantive correction is necessary.\",\"translation_quote\":\"جب میں ملک بھر کے لوگوں سے بات کرتا ہوں تو ایک ایسا مسئلہ عام نظر آتا ہے جس سے بہت سے لوگ نبردآزما ہیں—تھکن۔\"},{\"location\":\"source.html, paragraph beginning “Here, in the United States…”\",\"severity\":\"major\",\"source_quote\":\"Christians have had over 60 years (since World War 2) of relative peace and tranquility.\",\"suggested_fix\":\"Write: “مسیحیوں کو دوسری عالمی جنگ کے بعد سے ساٹھ سال سے زیادہ عرصے تک نسبتاً امن و سکون حاصل رہا ہے۔” The translation currently omits the parenthetical “since World War 2” only insofar as it is implicit; make the reference explicit as “دوسری عالمی جنگ کے بعد سے” (already present). No correction is needed.\",\"translation_quote\":\"مسیحیوں کو دوسری عالمی جنگ کے بعد سے ساٹھ سال سے زیادہ عرصے تک نسبتاً امن و سکون حاصل رہا ہے۔\"}],\"passed\":false,\"score\":95}",
+    "content_bytes": 1695,
+    "content_evidence_truncated": false,
+    "content_sha256": "f15ed9b94ee9fa7daf17db4bed734f1916f3b8f1b8589bc156110d43e27f9cd2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 331,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5382,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5716
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

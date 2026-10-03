@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Заголовок и повторяющийся рефрен стихотворения",
+      "severity": "major",
+      "source_quote": "“We Can’t Afford” means the speaker cannot risk or allow these moral failures; the refrain concludes, “the things we can’t afford!”",
+      "suggested_fix": "Заменить заголовок на «Чего мы не можем себе позволить» и в рефрене использовать «чего мы не можем себе позволить». В строках стихотворения также заменить повторяющееся «Нам не по силам» на «Мы не можем себе позволить».",
+      "translation_quote": "«Чего нам не по силам допустить»; повторяющееся «Нам не по силам»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

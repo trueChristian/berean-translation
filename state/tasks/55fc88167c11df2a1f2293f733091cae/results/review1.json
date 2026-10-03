@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "42c06a49-2e29-4641-b1f5-8b81679b7655",
+    "response_id": "chatcmpl-EUxHVS0ljICrecf3kK1jntEaOlUn7",
+    "usage": {
+      "completion_tokens": 562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 431,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4875,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4872,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5437
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “If not before now…”",
+        "severity": "major",
+        "source_quote": "Our children need to know that ALL who live godly in Christ Jesus WILL suffer persecution.",
+        "suggested_fix": "Vervang de betreffende zin door: “Onze kinderen moeten weten dat ALLEN die godvruchtig leven in Christus Jezus vervolgd ZULLEN worden.”",
+        "translation_quote": "Onze kinderen moeten weten dat ALLEN die godvruchtig willen leven in Christus Jezus vervolgd ZULLEN worden."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

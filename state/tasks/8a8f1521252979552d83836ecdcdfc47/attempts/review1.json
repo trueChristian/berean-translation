@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"שורת הסיום בשיר\",\"severity\":\"major\",\"source_quote\":\"Oh, grant us light that we may know the things we can’t afford!\",\"suggested_fix\":\"החליפו את סוף השורה ל: \\\"אנא, הענק לנו אור כדי שנדע מהם הדברים שאיננו יכולים להרשות לעצמנו!\\\"\",\"translation_quote\":\"אנא, הענק לנו אור כדי שנדע ממה איננו יכולים להרשות לעצמנו להתעלם!\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 508,
+    "content_evidence_truncated": false,
+    "content_sha256": "180ac6f32b3f10b0ce45f3549e920e2b8144c453610ca93174d5fa293d2be75b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 390,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 263,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1724,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2117
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

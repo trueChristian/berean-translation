@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Second poem, second stanza\",\"severity\":\"major\",\"source_quote\":\"“This night, that soul of thine / May be required of thee: / And dost thou plan the New Year full / There, ‘neath some Christmas tree?”\",\"suggested_fix\":\"Change the planning line to «Κι εσύ σχεδιάζεις ολόκληρη τη νέα χρονιά» to convey planning for the whole coming year, rather than spending all of New Year’s Day there. Preserve the surrounding HTML and line breaks.\",\"translation_quote\":\"Κι εσύ σχεδιάζεις να περάσεις ολόκληρη την Πρωτοχρονιά\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 654,
+    "content_evidence_truncated": false,
+    "content_sha256": "44026a54453f973efbea4bf3c11a8b08b9cf70bfd1bdf4c0fe4086ecfff270a2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 637,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2141,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2946
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Gedicht, vierte Zeile\",\"severity\":\"major\",\"source_quote\":\"We can’t afford the laugh that finds in bitter tears an end.\",\"suggested_fix\":\"Wir können uns das Lachen nicht leisten, das in bitteren Tränen endet.\",\"translation_quote\":\"Wir können es uns nicht leisten, mit einem Lachen bittere Tränen zu beenden.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 368,
+    "content_evidence_truncated": false,
+    "content_sha256": "36a0d811a13560183ba4e145024e5d712a7b7b30e70d83d68979884f86cbca95",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 314,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 212,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1709,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1706,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2023
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

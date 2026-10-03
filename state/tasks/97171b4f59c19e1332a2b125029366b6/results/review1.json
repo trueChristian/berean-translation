@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f2962a5c-75ec-44da-82ec-9461e90af7a7",
+    "response_id": "chatcmpl-EUxHsSfE38LRk91iMMbLJOZjQXT0m",
+    "usage": {
+      "completion_tokens": 621,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6450,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6447,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7071
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Άρθρο, παράγραφος για τις καθημερινές δουλειές",
+        "severity": "major",
+        "source_quote": "I wipe the baby’s nose for the umpteenth time as she sits on top of the table disrupting her brother’s books and papers.",
+        "suggested_fix": "Αλλάξτε το «ανακατεύει» σε «αναστατώνει» ή «ανακατεύει τα βιβλία και τα χαρτιά του αδελφού της» μόνο αν εννοείται ότι τα ανακατεύει· στο συγκεκριμένο συμφραζόμενο προτιμάται «αναστατώνει τα βιβλία και τα χαρτιά του αδελφού της».",
+        "translation_quote": "Σκουπίζω τη μύτη του μωρού για πολλοστή φορά, καθώς κάθεται πάνω στο τραπέζι και ανακατεύει τα βιβλία και τα χαρτιά του αδελφού της."
+      },
+      {
+        "location": "Άρθρο, παράγραφος που αρχίζει «Ποια είμαι εγώ…»",
+        "severity": "major",
+        "source_quote": "Am I restless with my duties, believing God would be more pleased with my perception of ‘great’ duties, seemingly always out of reach?",
+        "suggested_fix": "Αποδώστε το νόημα της ανησυχίας/ανυπομονησίας για τα καθήκοντα, π.χ. «Μήπως είμαι ανήσυχη με τα καθήκοντά μου, πιστεύοντας ότι ο Θεός θα ευαρεστούνταν περισσότερο με εκείνα που εγώ θεωρώ “μεγάλα” καθήκοντα, τα οποία μοιάζουν πάντα απρόσιτα;»",
+        "translation_quote": "Ανυπομονώ για τα καθήκοντά μου, πιστεύοντας ότι ο Θεός θα ευαρεστούνταν περισσότερο αν έκανα εκείνα που εγώ θεωρώ «μεγάλα» καθήκοντα, τα οποία μοιάζουν πάντα απρόσιτα;"
+      },
+      {
+        "location": "Άρθρο, παράγραφος με το παράδειγμα των δώδεκα μαθητών",
+        "severity": "major",
+        "source_quote": "In the end, His small band of men deserted Him. He was mocked and killed.",
+        "suggested_fix": "Διατηρήστε τη διάκριση του πρωτοτύπου ανάμεσα στους μαθητές που Τον εγκατέλειψαν και στους ανθρώπους που Τον χλεύασαν και Τον σκότωσαν, π.χ. «Τελικά, εκείνη η μικρή ομάδα αντρών Τον εγκατέλειψε. Τον χλεύασαν και Τον σκότωσαν.»",
+        "translation_quote": "Τελικά, εκείνη η μικρή ομάδα αντρών Τον εγκατέλειψε. Τον χλεύασαν και Τον σκότωσαν."
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

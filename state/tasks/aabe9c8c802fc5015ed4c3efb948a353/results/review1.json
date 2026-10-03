@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6cadddff-33b7-4368-ac89-0c26b1f8026c",
+    "response_id": "chatcmpl-EUxHiYGJWpXK8WxAHdYZ7R2fNwp4G",
+    "usage": {
+      "completion_tokens": 113,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1967,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2083
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, fourth stanza of the first poem",
+        "severity": "major",
+        "source_quote": "Who weigh themselves, not with God’s truth, / As every day they ought!",
+        "suggested_fix": "Replace the last two lines with: “他们不以神的真理衡量自己，/ 可他们本该天天如此！”",
+        "translation_quote": "他们不以神的真理衡量自己，/ 可他们本该天天如此！"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

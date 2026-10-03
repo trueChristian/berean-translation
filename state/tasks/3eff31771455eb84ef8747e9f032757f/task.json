@@ -2,7 +2,6 @@
   "article_id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 1870
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 530,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 352,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1649,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1646,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2179
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Gedicht, vierde regel",
+      "severity": "major",
+      "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
+      "suggested_fix": "Wij kunnen ons de lach niet veroorloven die eindigt in bittere tranen.",
+      "translation_quote": "Wij kunnen ons de lach niet veroorloven die bittere tranen tot een einde brengt."
+    },
+    {
+      "location": "Gedicht, tweede regel",
+      "severity": "major",
+      "source_quote": "We can’t afford to miss the crown by stumbling at the cross.",
+      "suggested_fix": "Wij kunnen het ons niet veroorloven de kroon mis te lopen door bij het kruis te struikelen.",
+      "translation_quote": "Wij kunnen ons niet de kroon ontzeggen door bij het kruis te struikelen."
+    }
+  ],
   "id": "3eff31771455eb84ef8747e9f032757f",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nld",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 87,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed6221e4c3f7ed957c68f67fd9e6401b2d9ddea55030972d9c84bb2f4d302be0.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2272
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 695,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 492,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1929,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1926,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2624
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, first poem, fourth stanza",
+      "severity": "major",
+      "source_quote": "Who weigh themselves, not with God’s truth, / As every day they ought!",
+      "suggested_fix": "Replace the corresponding lines with: “Quem se avalie pela verdade de Deus, / Como deveria fazer todos os dias!”",
+      "translation_quote": "Quem se avalie, não pela verdade de Deus, / Como deveria fazer todos os dias!"
+    },
+    {
+      "location": "HTML, second poem, second stanza",
+      "severity": "major",
+      "source_quote": "And dost thou plan the New Year full / There, ‘neath some Christmas tree?",
+      "suggested_fix": "Replace the corresponding lines with: “E planeias por inteiro o Ano Novo / Ali, debaixo de alguma árvore de Natal?”",
+      "translation_quote": "E planeias passar o Ano Novo inteiro / Ali, debaixo de uma árvore de Natal?"
+    }
+  ],
   "id": "7478a43157db6237bd15c488235c4444",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "por",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dbc43587e58be8105de6efc8c64b115ee947e41513159ee085108212ce456b1b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзац 1",
+      "severity": "minor",
+      "source_quote": "I knew he was a powerful man.",
+      "suggested_fix": "Заменить «я знал, что это влиятельный человек» на «я знал, что это могущественный человек», чтобы сохранить смысл силы, а не общественного влияния.",
+      "translation_quote": "я знал, что это влиятельный человек"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

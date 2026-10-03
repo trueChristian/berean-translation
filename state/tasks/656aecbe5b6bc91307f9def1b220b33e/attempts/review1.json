@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 7\",\"severity\":\"minor\",\"source_quote\":\"We can’t afford to play with fire, or tempt a serpent’s bite;\",\"suggested_fix\":\"हम आग से खेलने या साँप को डसने के लिए उकसाने का जोखिम नहीं उठा सकते;\",\"translation_quote\":\"हम आग से खेलने या साँप के डसने का जोखिम नहीं उठा सकते;\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 519,
+    "content_evidence_truncated": false,
+    "content_sha256": "83e373e492469a9683ea7ba8f52c6d85fccc2c17388c3e10f3fd07a9f09501ef",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 578,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 469,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1718,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1715,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2296
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, opening Scripture quotation (1 Wakorintho 13:1-13)",
+      "severity": "major",
+      "source_quote": "“Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.”",
+      "suggested_fix": "Replace the corrupted characters “yatाबatilika” with Kiswahili text, for example “yatabatilika,” so the sentence reads “zikiwepo lugha, zitakoma; yakiwepo maarifa, yatabatilika.”",
+      "translation_quote": "“zikiwepo lugha, zitakoma; yakiwepo maarifa, yatाबatilika.”"
+    },
+    {
+      "location": "Article HTML, section 3. Generosity, paragraph beginning “There is only one character trait…”",
+      "severity": "major",
+      "source_quote": "“If envy rules, subtle things like carrying a cabinet awkwardly can hinder the work. Pinching someone’s fingers in a tight doorway is a perfect way to reduce my foe down to his size and the work successfully is hindered, and I can still maintain my innocence.”",
+      "suggested_fix": "Revise this sentence to preserve the speaker’s description of spitefully pinching someone’s fingers in a tight doorway and hindering the work while maintaining plausible innocence; for example: “Kumnasa mtu vidole kwenye mlango mwembamba ni njia nzuri ya kumshusha adui yangu hadi kiwango chake na kuzuia kazi ifanyike vizuri, nami bado ninaweza kujifanya sina hatia.”",
+      "translation_quote": "“Kumnasa mtu vidole kwenye mlango mwembamba ni njia bora ya kumshusha adui yangu hadi kiwango chake na kuzuia kazi ifanyike vizuri, nami bado ninaweza kuendelea kujiona sina hatia.”"
+    },
+    {
+      "location": "Article HTML, section 8, second paragraph",
+      "severity": "major",
+      "source_quote": "“If we treat our spouses dishonorably and with disrespect, there is a good chance they will become or remain the person we detest.”",
+      "suggested_fix": "Correct the garbled phrase “Tukiwa tenda wake zetu” to express treating one’s spouse dishonorably and disrespectfully, for example: “Tukiwatendea wenzi wetu kwa dharau na bila heshima, kuna uwezekano mkubwa kwamba watakuwa au wataendelea kuwa watu tunaowachukia.”",
+      "translation_quote": "“Tukiwa tenda wake zetu kwa dharau na bila heshima, kuna uwezekano mkubwa kwamba watakuwa au wataendelea kuwa watu tunaowachukia.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "70d45fc1-6f31-4625-9390-40e8ded12197",
+    "response_id": "chatcmpl-EUxHfN3JG1axMgFPfCouUdTHrqnVJ",
+    "usage": {
+      "completion_tokens": 1017,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11129,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11126,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12146
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / translation.html, paragraph citing Proverbs 29:23",
+        "severity": "major",
+        "source_quote": "A man’s pride shall bring him low: but honour shall uphold the humble in spirit –Proverbs 29:23.",
+        "suggested_fix": "Replace the translated sentence with: « L’orgueil d’un homme l’abaisse, mais l’honneur soutient celui qui est humble d’esprit –Proverbes 29:23. » Keep the existing <p> tag and its position.",
+        "translation_quote": "L’orgueil d’un homme l’abaisse, mais l’humilité d’esprit lui procure l’honneur –Proverbes 29:23."
+      },
+      {
+        "location": "source.html / translation.html, section “b.) It hopeth all things,” sentence addressed to wives",
+        "severity": "minor",
+        "source_quote": "Sisters, if your husband falls short of the glory you married him with, can you wait patiently for the Lord to work in his life?",
+        "suggested_fix": "Correct « pariez » to an idiomatic rendering of the intended sense, for example: « Sœurs, si votre mari n’est pas à la hauteur de l’image glorieuse que vous aviez de lui lorsque vous l’avez épousé, pouvez-vous attendre patiemment que le Seigneur agisse dans sa vie ? »",
+        "translation_quote": "Sœurs, si votre mari n’est pas à la hauteur de la gloire dont vous le pariez lorsque vous l’avez épousé, pouvez-vous attendre patiemment que le Seigneur agisse dans sa vie ?"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

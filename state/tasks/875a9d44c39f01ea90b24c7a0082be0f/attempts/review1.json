@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Припев, последняя строка\",\"severity\":\"minor\",\"source_quote\":\"Unfailing kindness, undying love.\",\"suggested_fix\":\"Незыблемая доброта и неумирающая любовь.\",\"translation_quote\":\"Нежность, что не подведёт, и любовь, что не умрёт.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 375,
+    "content_evidence_truncated": false,
+    "content_sha256": "1764acbe53ad116515fc54df0592af0268fc880e7f0176ba76e9e3e2753c6dae",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 410,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1441,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1950
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

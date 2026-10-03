@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الرابعة",
+      "severity": "major",
+      "source_quote": "It’s how my faith proves itself to be real to the unbeliever",
+      "suggested_fix": "استبدل «للمؤمنين» بـ«لغير المؤمنين» في العبارة، لتصبح: «وهكذا يثبت إيماني لغير المؤمنين أنه حقيقي»",
+      "translation_quote": "وهكذا يثبت إيماني للمؤمنين أن إيماني حقيقي"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

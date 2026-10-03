@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph quoting Acts 1:8\",\"severity\":\"major\",\"source_quote\":\"“...and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth –Acts 1:8.”\",\"suggested_fix\":\"Replace ״וְהִתְקַיֵּם בִּי עֵדִים״ with ״וְתִהְיוּ עֵדִים לִי״ so the quotation says that the disciples will be witnesses to Jesus, as in the source.\",\"translation_quote\":\"״וְהִתְקַיֵּם בִּי עֵדִים בִּירוּשָׁלַיִם וּבְכָל יְהוּדָה וְשֹׁמְרוֹן וְעַד קְצֵה הָאָרֶץ״\"},{\"location\":\"Paragraph about Achan hiding the items\",\"severity\":\"major\",\"source_quote\":\"“He slipped them into his armor, then later hid them under his tent”\",\"suggested_fix\":\"Replace ״החביא אותם בבגדיו״ with ״החביא אותם בשריונו״ to preserve the source’s detail that Achan put the items in his armor.\",\"translation_quote\":\"״הוא החביא אותם בבגדיו, ואחר כך הסתיר אותם מתחת לאוהלו״\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1143,
+    "content_evidence_truncated": false,
+    "content_sha256": "3231f502335dfc8929da55fa60e697499d5aae291386ced66fe4324cf5190f8f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8599,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8596,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9448
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

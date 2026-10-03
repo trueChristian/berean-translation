@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 1",
+      "severity": "minor",
+      "source_quote": "We can’t afford to win the gain that means another’s loss;",
+      "suggested_fix": "Vi har inte råd att göra en vinst som innebär någon annans förlust;",
+      "translation_quote": "Vi har inte råd att vinna en vinst som innebär någon annans förlust;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

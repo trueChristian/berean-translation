@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cfc53c20-16f8-4185-b8a1-2ccab90a3011",
+    "response_id": "chatcmpl-EUxKGb89D8pEgfVUK78NBVCFaNHAY",
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 644,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3592,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4413
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, Scripture quotation",
+        "severity": "major",
+        "source_quote": "…in thy presence is fulness of joy; at thy right hand there are pleasures for evermore –Psalm 16:11.",
+        "suggested_fix": "Replace the quotation inside the existing <em> tags with: בנוכחותך יש שפע של שמחה; בימינך יש הנאות לנצח – תהילים ט״ז:י״א. This restores the omitted first clause while preserving the reference.",
+        "translation_quote": "...בִּנְעִמוֹת בִּימִינְךָ נֶצַח – תהילים ט״ז:י״א."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 8734
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1055,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 886,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8512,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8509,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9567
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Deze nobele jeugdige ambities…”",
+      "severity": "major",
+      "source_quote": "These noble youthful ambitions were followed by Josiah, Isaiah, Jeremiah, Daniel, Mary, and the disciples of the Lord",
+      "suggested_fix": "Replace “werden nagevolgd door” with wording that indicates these people came later as further examples, such as “Later zagen we ook Josia, Jesaja, Jeremia, Daniël, Maria en de discipelen van de Heer.”",
+      "translation_quote": "Deze nobele jeugdige ambities werden nagevolgd door Josia, Jesaja, Jeremia, Daniël, Maria en de discipelen van de Heer"
+    }
+  ],
   "id": "278cd469c49241c09cf6c688c54c8c36",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nld",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

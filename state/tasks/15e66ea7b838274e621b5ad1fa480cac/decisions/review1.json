@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Puisi, baris terakhir kedua",
+      "severity": "major",
+      "source_quote": "But blind to good are we apart from THEE, all-seeing Lord;",
+      "suggested_fix": "Ganti “Tuhan yang Mahatahu” dengan “Tuhan yang Mahamelihat” agar sesuai dengan “all-seeing Lord.”",
+      "translation_quote": "Namun, terpisah dari-MU, Tuhan yang Mahatahu, kita buta terhadap kebaikan;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

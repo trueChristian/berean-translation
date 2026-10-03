@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, third stanza, second line",
+      "severity": "minor",
+      "source_quote": "Or move from leaps to bounds;",
+      "suggested_fix": "For example: «Eller gjøre store sprang framover;»",
+      "translation_quote": "Eller ta sprang fra mål til mål;"
+    },
+    {
+      "location": "source.html, poem, fifth stanza, first line",
+      "severity": "minor",
+      "source_quote": "“Boast not thyself,” I’m warned,",
+      "suggested_fix": "For example: «Ikke skryt», blir jeg advart,",
+      "translation_quote": "«Vær ikke stolt», blir jeg advart,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

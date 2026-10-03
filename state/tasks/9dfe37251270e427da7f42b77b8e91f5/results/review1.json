@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a5ad9778-5da1-44ee-84e1-b0aaf2a268c9",
+    "response_id": "chatcmpl-EUxHqZJOcGYfTkAPEqwZnBxbvfpfH",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 639,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1768,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1765,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2620
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 3",
+        "severity": "minor",
+        "source_quote": "We can’t afford the heedless jest that robs us of a friend;",
+        "suggested_fix": "ہم ایسے غافلانہ مذاق کا خطرہ مول نہیں لے سکتے جو ہمیں ایک دوست سے محروم کر دے؛",
+        "translation_quote": "ہم ایسی بےفکر ہنسی کا خطرہ مول نہیں لے سکتے جو ہمیں ایک دوست سے محروم کر دے؛"
+      },
+      {
+        "location": "Poem, line 13",
+        "severity": "major",
+        "source_quote": "We can’t afford to lose the soul for this world’s fleeting breath;",
+        "suggested_fix": "ہم اس دنیا کی عارضی سانس کے لیے اپنی روح گنوانے کا خطرہ مول نہیں لے سکتے؛",
+        "translation_quote": "ہم اس دنیا کی عارضی سانس کے لیے اپنی جان گنوانے کا خطرہ مول نہیں لے سکتے؛"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

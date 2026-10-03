@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “Some years ago…”\",\"severity\":\"minor\",\"source_quote\":\"Some of his deepest struggles stemmed from the flashback memories he had of when he had personally killed several of the enemy.\",\"suggested_fix\":\"Replace “ricordi vividi” with “flashback” or “ricordi intrusivi e ricorrenti” to retain the sense of flashback memories.\",\"translation_quote\":\"Alcune delle sue lotte più profonde derivavano dai ricordi vividi di quando aveva ucciso personalmente diversi nemici.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 568,
+    "content_evidence_truncated": false,
+    "content_sha256": "f165609b661709b90779e6157655c7bfc17d798bf717f524c71d6a6b6bd989e3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5047,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5044,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5699
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

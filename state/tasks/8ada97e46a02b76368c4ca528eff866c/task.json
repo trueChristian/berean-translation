@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 12251
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 771,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12110,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12107,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12881
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "মূল উদ্ধৃতি, ১ করিন্থীয় ১৩:১২",
+      "severity": "major",
+      "source_quote": "now I know in part; but then shall I know even as also I am known.",
+      "suggested_fix": "অনুবাদ করুন: “এখন আমি আংশিক জানি; কিন্তু তখন আমি যেমন পরিচিত, তেমনই জানব।”",
+      "translation_quote": "এখন আমি আংশিক জানি; কিন্তু তখন আমি যেমন পরিচিত হয়েছি, তেমনই সম্পূর্ণভাবে জানব।"
+    },
+    {
+      "location": "মূল উদ্ধৃতি, ১ করিন্থীয় ১৩:1-13",
+      "severity": "major",
+      "source_quote": "and have not charity, I am nothing.",
+      "suggested_fix": "“কিন্তু আমার মধ্যে প্রেম না থাকে, তবে আমি কিছুই নই” হিসেবে অনুবাদ করুন।",
+      "translation_quote": "কিন্তু আমার মধ্যে প্রেম না থাকে, তবে আমি কিছুই নই।"
+    },
+    {
+      "location": "৮. “মন্দ কিছু না ভাবার” গুণ বা সামর্থ্য, প্রথম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "when only the Lord knows the heart.",
+      "suggested_fix": "অনুবাদ করুন: “কারণ হৃদয় কে জানেন, তা কেবল প্রভুই জানেন।”",
+      "translation_quote": "যখন হৃদয় কে জানেন, তা কেবল প্রভুই জানেন।"
+    },
+    {
+      "location": "৬. নিঃস্বার্থতা",
+      "severity": "major",
+      "source_quote": "There would be few divorces if a husband worked as hard to keep his wife as he did to get her in the first place.",
+      "suggested_fix": "জোর দেওয়া শব্দগুলো ও HTML কাঠামো অক্ষুণ্ণ রেখে অনুবাদ করুন: “স্বামী যদি প্রথমে স্ত্রীকে <em><strong>পাওয়ার জন্য</strong></em> যতটা পরিশ্রম করেছেন, তাকে <em><strong>ধরে রাখার জন্য</strong></em>ও ততটাই পরিশ্রম করতেন, তাহলে বিবাহবিচ্ছেদ কমই হতো।”",
+      "translation_quote": "স্বামী যদি প্রথমে স্ত্রীকে <em><strong>পাওয়ার জন্য</strong></em> যতটা পরিশ্রম করেছেন, তাকে <em><strong>ধরে রাখার জন্য</strong></em>ও ততটাই পরিশ্রম করতেন, তাহলে বিবাহবিচ্ছেদ কমই হতো।"
+    },
+    {
+      "location": "৯. আন্তরিকতা, শেষ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Rejoicing in righteousness and thinking NO EVIL is a normal and final attitude of love.",
+      "suggested_fix": "এখানে “ধার্মিকতায় আনন্দ করা” ও “মন্দ কিছু না ভাবা”র ভাব বজায় রেখে “চূড়ান্ত”কে “শেষ” অর্থে নয়, “পরম/সর্বশেষ” অর্থে দিন; যেমন: “ধার্মিকতায় আনন্দ করা এবং কোনো মন্দ কিছু না ভাবা হলো প্রেমের স্বাভাবিক ও পরম মনোভাব।”",
+      "translation_quote": "ধার্মিকতায় আনন্দ করা এবং কোনো মন্দ কিছু না ভাবা হলো প্রেমের স্বাভাবিক ও চূড়ান্ত মনোভাব।"
+    },
+    {
+      "location": "শিরোনাম: ৯. Sincerity",
+      "severity": "major",
+      "source_quote": "Sincerity",
+      "suggested_fix": "শিরোনামটি “আন্তরিকতা”র বদলে “নিষ্ঠা” বা “সততা” অর্থে সংশোধন করুন; অনুচ্ছেদে বলা হয়েছে, খ্রিষ্টের প্রেম জানা ব্যক্তি অন্যায় শোধরাতে সঠিক পথ বেছে নেয়।",
+      "translation_quote": "আন্তরিকতা"
+    }
+  ],
   "id": "8ada97e46a02b76368c4ca528eff866c",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ben",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

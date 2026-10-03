@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, sesta strofa, seconda riga\",\"severity\":\"major\",\"source_quote\":\"“My chosen one,\",\"suggested_fix\":\"Sostituire «Scelta mia» con «Mia prescelta» (oppure «Mia eletta») per rendere l’appellativo rivolto alla persona amata.\",\"translation_quote\":\"«Scelta mia,\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 324,
+    "content_evidence_truncated": false,
+    "content_sha256": "5bf0a83fd4b6c5d73783be0e8b72323a60caa9088ad3a6ad99ac6116b5386090",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 595,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3025
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

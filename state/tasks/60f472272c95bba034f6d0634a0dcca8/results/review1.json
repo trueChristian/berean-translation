@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "49e4d488-e470-44bf-aaab-f6dc75244199",
+    "response_id": "chatcmpl-EUxHdt61gkJ0C9ffbU1GMGdjmteIZ",
+    "usage": {
+      "completion_tokens": 972,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 690,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8735,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9710
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Heading «…Ridimensiona le nostre ambizioni»",
+        "severity": "minor",
+        "source_quote": "…Humbles Our Pursuits",
+        "suggested_fix": "Sostituire con «…Umilia le nostre aspirazioni» per conservare il senso di “humbles” invece di attenuarlo in «ridimensiona».",
+        "translation_quote": "…Ridimensiona le nostre ambizioni"
+      },
+      {
+        "location": "Paragrafo sotto «…Santifica le nostre prove», citazione di Romani 8:24",
+        "severity": "major",
+        "source_quote": "For we are saved by hope: but hope that is seen is not hope... –Romans 8:24.",
+        "suggested_fix": "Correggere la citazione in «Poiché siamo stati salvati in speranza; ma la speranza che si vede non è speranza... –Romani 8:24.» Rimuovere «ora» e rendere «hope that is seen» come «la speranza che si vede», non «una speranza di ciò che si vede».",
+        "translation_quote": "Poiché siamo stati salvati in speranza; ora, una speranza di ciò che si vede non è speranza... –Romani 8:24."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3c34f07d-cac2-4094-891c-eee3c79fdeaa",
+    "response_id": "chatcmpl-EUxIOmC8c79cb6gmCdmqX5oZCnbOe",
+    "usage": {
+      "completion_tokens": 595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8544,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8541,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9139
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "अनुच्छेद 1",
+        "severity": "major",
+        "source_quote": "“As I walked up his long drive, I passed many statues and satanic symbols.”",
+        "suggested_fix": "“उसके लंबे रास्ते से होते हुए उसके घर की ओर चलते समय, मैं कई मूर्तियों और शैतानी प्रतीकों के पास से गुज़रा।”",
+        "translation_quote": "“उसके लंबे रास्ते पर चलते हुए मैं कई मूर्तियों और शैतानी प्रतीकों के पास से गुज़रा।”"
+      },
+      {
+        "location": "अनुच्छेद 9",
+        "severity": "major",
+        "source_quote": "“all the silver, gold, and vessels were to be consecrated into the treasury of the Lord”",
+        "suggested_fix": "“सारी चाँदी, सोना और पात्र प्रभु के भंडार के लिए अलग रखे जाने थे”",
+        "translation_quote": "“सारी चाँदी, सोना और पात्र प्रभु के भंडार के लिए पवित्र किए जाने थे”"
+      },
+      {
+        "location": "अनुच्छेद 13",
+        "severity": "major",
+        "source_quote": "“When there was no sin in the camp (or in the church) God’s people had complete victory; they lost not one.”",
+        "suggested_fix": "“जब छावनी (या कलीसिया) में कोई पाप नहीं था, तब परमेश्वर के लोगों को पूरी विजय मिली; उनमें से एक भी नहीं मारा गया।”",
+        "translation_quote": "“जब छावनी (या कलीसिया) में कोई पाप नहीं था, तब परमेश्वर के लोगों को पूरी विजय मिली; उनमें से एक भी नहीं हारा।”"
+      },
+      {
+        "location": "अनुच्छेद 26",
+        "severity": "major",
+        "source_quote": "“You can’t control that, but my friend you can control where you go after you are dead!”",
+        "suggested_fix": "“तुम इसे नियंत्रित नहीं कर सकते, लेकिन मेरे दोस्त, मरने के बाद तुम कहाँ जाओगे, यह तुम्हारे नियंत्रण में है!”",
+        "translation_quote": "“तुम इसे रोक नहीं सकते, लेकिन मेरे दोस्त, मरने के बाद तुम कहाँ जाओगे, यह तुम तय कर सकते हो!”"
+      },
+      {
+        "location": "अनुच्छेद 32",
+        "severity": "major",
+        "source_quote": "“For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it”",
+        "suggested_fix": "“क्योंकि जो कोई अपना प्राण बचाना चाहेगा, वह उसे खोएगा; पर जो कोई मेरे लिए अपना प्राण खोएगा, वही उसे बचाएगा”",
+        "translation_quote": "“क्योंकि जो कोई अपना प्राण बचाना चाहेगा, वह उसे खोएगा; पर जो कोई मेरे लिए अपना प्राण खोएगा, वही उसे बचाएगा”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

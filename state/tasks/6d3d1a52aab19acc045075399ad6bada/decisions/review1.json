@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Outra passagem do Antigo Testamento...”",
+      "severity": "minor",
+      "source_quote": "If the priest was unsure, he would shut the person up in a room for seven days then examine him again.",
+      "suggested_fix": "Acrescente a informação de que a pessoa era mantida em um cômodo: “Se não tivesse certeza, manteria a pessoa fechada em um cômodo por sete dias e depois a examinaria novamente.”",
+      "translation_quote": "Se não tivesse certeza, isolaria a pessoa por sete dias e depois a examinaria novamente."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

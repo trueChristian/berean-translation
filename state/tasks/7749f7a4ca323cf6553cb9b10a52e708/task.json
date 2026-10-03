@@ -2,7 +2,6 @@
   "article_id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 5737
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 617,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 471,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5494,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5491,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6111
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “God het Gideon se leër…”",
+      "severity": "minor",
+      "source_quote": "Normally, Gideon was accustomed to armies of thousands.",
+      "suggested_fix": "Vervang “Gideon was gewoonlik gewoond aan leërs van duisende” met “Gideon was gewoonlik deel van leërs wat duisende soldate getel het” (of ’n ander natuurlike formulering wat die bronbetekenis behou).",
+      "translation_quote": "Gideon was gewoonlik gewoond aan leërs van duisende"
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:47+00:00",
   "id": "7749f7a4ca323cf6553cb9b10a52e708",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "afr",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
   "translation_model_actual": "gpt-6-luna"

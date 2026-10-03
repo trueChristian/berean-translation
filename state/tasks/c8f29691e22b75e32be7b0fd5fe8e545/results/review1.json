@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "79a9f10f-786b-4102-9f4b-fa85bd51619b",
+    "response_id": "chatcmpl-EUxIi1lxDkMpZ1Qq6HEHwPAj06ZAw",
+    "usage": {
+      "completion_tokens": 932,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 778,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8750,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9685
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Men unga ska inte föraktas”, quotation from 1 Timothy 4:12",
+        "severity": "major",
+        "source_quote": "“in word, in conversation, in charity, in spirit, in faith, in purity”",
+        "suggested_fix": "Revise the list to include every distinct item, for example: “i ord och gärning, i kärlek, i anden, i tro och i renhet”. Preserve the existing <em> tags and reference.",
+        "translation_quote": "“i ord och gärning, i kärlek, tro och renhet”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

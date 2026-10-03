@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, lines 1–2",
+      "severity": "major",
+      "source_quote": "“We can’t afford to win the gain that means another’s loss; / We can’t afford to miss the crown by stumbling at the cross.”",
+      "suggested_fix": "Replace these two lines with: “Hatuwezi kumudu kupata faida inayomaanisha hasara kwa mwingine; / Hatuwezi kumudu kukosa taji kwa kujikwaa kwenye msalaba.”",
+      "translation_quote": "“Hatuwezi kujinufaisha kwa faida inayomaanisha hasara ya mwingine; / Hatuwezi kukosa taji kwa kujikwaa kwenye msalaba.”"
+    },
+    {
+      "location": "Poem, lines 7 and 9–10",
+      "severity": "major",
+      "source_quote": "“We can’t afford to play with fire, or tempt a serpent’s bite; / We can’t afford with serious heed to treat the cynic’s sneer; / We can’t afford to wise men’s words to turn a careless ear.”",
+      "suggested_fix": "Use: “Hatuwezi kumudu kucheza na moto, au kujihatarisha kuumwa na nyoka; / Hatuwezi kumudu kuchukulia kwa uzito dhihaka ya mkosoaji mwenye kejeli; / Hatuwezi kumudu kupuuza maneno ya wenye hekima.”",
+      "translation_quote": "“Hatuwezi kucheza na moto, wala kujaribu kuumwa na nyoka; / Hatuwezi kutilia maanani kwa uzito dhihaka ya mkosoaji mwenye kejeli; / Hatuwezi kuyasikiliza kwa uzembe maneno ya wenye hekima.”"
+    },
+    {
+      "location": "Title and poem, refrain throughout",
+      "severity": "major",
+      "source_quote": "Title: “Things We Can’t Afford.” Refrain: “We can’t afford…”",
+      "suggested_fix": "Use the consistent refrain “Hatuwezi kumudu…” and title “Mambo Tusiyoweza Kumudu.” In particular, revise the first line to “Hatuwezi kumudu kupata faida inayomaanisha hasara kwa mwingine.”",
+      "translation_quote": "Title: “Mambo Tusiyoweza Kumudu.” Refrain varies between “Hatuwezi kumudu…” and “Hatuwezi…”; the first line says “Hatuwezi kujinufaisha…”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3, quotation of Matthew 10:16",
+      "severity": "major",
+      "source_quote": "…be ye therefore wise as serpents, and harmless as doves",
+      "suggested_fix": "In die bestaande <em>...</em>-teks, vervang “versigtig soos slange en opreg soos duiwe” met “wys soos slange en onskuldig soos duiwe” om die betekenis van albei beskrywings te behou.",
+      "translation_quote": "…dus versigtig soos slange en opreg soos duiwe"
+    },
+    {
+      "location": "Paragraph 10, statement about persecution",
+      "severity": "major",
+      "source_quote": "ALL who live godly in Christ Jesus WILL suffer persecution.",
+      "suggested_fix": "Vervang “ALMAL wat godvrugtig in Christus Jesus wil lewe, VERVOLG SAL WORD” met “ALMAL wat godvrugtig in Christus Jesus lewe, SAL VERVOLG WORD” om die bron se stelling oor dié wat godvrugtig lewe te behou.",
+      "translation_quote": "ALMAL wat godvrugtig in Christus Jesus wil lewe, VERVOLG SAL WORD"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

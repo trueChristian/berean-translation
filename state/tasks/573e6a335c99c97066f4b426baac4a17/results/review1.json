@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f46d1f01-54e6-4619-b4bb-ea0a954fcfc6",
+    "response_id": "chatcmpl-EUxHuWBEJGuBXYRX7sR06wruzSwVP",
+    "usage": {
+      "completion_tokens": 887,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 773,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8070,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8960
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Абзац 1",
+        "severity": "minor",
+        "source_quote": "I knew he was a powerful man.",
+        "suggested_fix": "Заменить «я знал, что это влиятельный человек» на «я знал, что это могущественный человек», чтобы сохранить смысл силы, а не общественного влияния.",
+        "translation_quote": "я знал, что это влиятельный человек"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

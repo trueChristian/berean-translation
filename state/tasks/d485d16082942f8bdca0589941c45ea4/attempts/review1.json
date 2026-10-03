@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Heading before the paragraph about the man at Bethesda\",\"severity\":\"minor\",\"source_quote\":\"…Heals Our Infirmities\",\"suggested_fix\":\"Use «…Helbreder våre skrøpeligheter»; «Legen» is a noun here, so the current heading is ungrammatical.\",\"translation_quote\":\"…Legen våre skrøpeligheter\"},{\"location\":\"Paragraph about the man at Bethesda\",\"severity\":\"major\",\"source_quote\":\"Upon the wake of his new day, a new remedy was given to him—\",\"suggested_fix\":\"Replace «et nytt råd» with wording that means a new remedy or response, such as «en ny løsning», without changing the quoted Scripture.\",\"translation_quote\":\"Ved inngangen til sin nye dag fikk han et nytt råd:\"},{\"location\":\"Paragraph beginning “But Christ has not called us…”\",\"severity\":\"minor\",\"source_quote\":\"a wistful longing for the “DO” of our youth\",\"suggested_fix\":\"Render the idea as longing for the energy or drive of youth, without introducing «fres» or leaving the English «DO» unexplained.\",\"translation_quote\":\"lengte vemodig etter ungdommens «fres» («DO»)\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1118,
+    "content_evidence_truncated": false,
+    "content_sha256": "bbe08e26f256fb5841b22520d97ef6ab30d5715e82ca9e24439a2593c9a1958d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1173,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 895,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8703,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9879
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

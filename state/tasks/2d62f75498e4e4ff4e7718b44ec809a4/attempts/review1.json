@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning « Il y a quelques années »\",\"severity\":\"minor\",\"source_quote\":\"“No matter how many counseling sessions he went to”\",\"suggested_fix\":\"Replace « séances de conseil » with « séances de thérapie » to convey professional counseling in this context.\",\"translation_quote\":\"« Peu importe le nombre de séances de conseil auxquelles il assistait »\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 443,
+    "content_evidence_truncated": false,
+    "content_sha256": "f8c24ad87aec446d00a620bbdabab43262e856334f218d07e8adb52190bc5108",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 587,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4998,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4995,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5696
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

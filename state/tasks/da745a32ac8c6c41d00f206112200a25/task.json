@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 11168
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 838,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 666,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10993,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10990,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11831
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, section «8. Способность „не мыслить зла“», абзац 1",
+      "severity": "major",
+      "source_quote": "The quickest way to destroy love in marriage is to assume something negative about the motives of your spouse when only the Lord knows the heart.",
+      "suggested_fix": "Заменить соответствующее место на: «Самый быстрый способ разрушить любовь в браке — приписать супругу дурные мотивы, хотя только Господь знает сердце».",
+      "translation_quote": "Самый быстрый способ разрушить любовь в браке — приписать супругу дурные мотивы, хотя сердце знает только Господь."
+    }
+  ],
   "id": "da745a32ac8c6c41d00f206112200a25",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "rus",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

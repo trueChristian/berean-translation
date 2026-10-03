@@ -2,7 +2,6 @@
   "article_id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 3142
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 630,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 464,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2878,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2875,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3508
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "Slamming the door behind me",
+      "suggested_fix": "Replace «Chiudendomi la porta alle spalle» with «Sbattendomi la porta alle spalle» to retain the force of “slamming.”",
+      "translation_quote": "Chiudendomi la porta alle spalle"
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "minor",
+      "source_quote": "making it difficult to look out of my eyes",
+      "suggested_fix": "Replace «rendendomi difficile guardare fuori dagli occhi» with «rendendomi difficile vedere» for natural Italian while preserving the meaning.",
+      "translation_quote": "rendendomi difficile guardare fuori dagli occhi"
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:47+00:00",
   "id": "55b1c2a2d8d2e471839d211cd33815c6",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ita",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3beb81221e24fb7edf745b287b1a293c166349a5772e1451dc761a3ac359e6d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
   "translation_model_actual": "gpt-6-luna"

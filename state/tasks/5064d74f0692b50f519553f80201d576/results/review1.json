@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "eeebcdcf-5e19-427f-98d3-44e5d211dbc9",
+    "response_id": "chatcmpl-EUxHVguVVTeF261IqaEK6ntX4uIOn",
+    "usage": {
+      "completion_tokens": 118,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2844,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2965
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, абзац 7",
+        "severity": "major",
+        "source_quote": "I knew that sneaking was wrong",
+        "suggested_fix": "Заменить «Я знал, что красть нехорошо» на «Я знал, что поступать тайком было неправильно»: в оригинале речь о том, что мальчик прокрался за персиком, а не о краже.",
+        "translation_quote": "Я знал, что красть нехорошо"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

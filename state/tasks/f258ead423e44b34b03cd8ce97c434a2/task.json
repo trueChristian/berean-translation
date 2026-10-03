@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 8351
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 769,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 580,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8183,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8180,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8952
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Change to “GEDAGTES VAN ’N SENDeling” only if preserving the current wording is intended; preferably use consistent uppercase: “GEDAGTES VAN ’N SENDELING”.",
+      "translation_quote": "GEDAGTES VAN ’N SENDeling"
+    },
+    {
+      "location": "html, paragraph beginning “When we call out to God for salvation”",
+      "severity": "minor",
+      "source_quote": "we know we need to be saved; converted.",
+      "suggested_fix": "Replace “ons weet dat ons gered; bekeer moet word” with “ons weet dat ons gered en bekeer moet word”.",
+      "translation_quote": "ons weet dat ons gered; bekeer moet word"
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:49+00:00",
   "id": "f258ead423e44b34b03cd8ce97c434a2",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "afr",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

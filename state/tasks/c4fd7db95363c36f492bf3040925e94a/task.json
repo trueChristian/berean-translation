@@ -2,7 +2,6 @@
   "article_id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 3152
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 508,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 387,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3011,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3008,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3519
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "अनुच्छेद 6",
+      "severity": "minor",
+      "source_quote": "Surely a little peach wouldn’t ruin a starving ten-year-old’s supper.",
+      "suggested_fix": "“भूखे दस साल के बच्चे का रात का खाना भला एक छोटा-सा आड़ू खाने से कैसे खराब होता?”",
+      "translation_quote": "भूखे दस साल के बच्चे का रात का खाना थोड़े-से आड़ू से भला कैसे खराब होता?"
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:49+00:00",
   "id": "c4fd7db95363c36f492bf3040925e94a",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "hin",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3beb81221e24fb7edf745b287b1a293c166349a5772e1451dc761a3ac359e6d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
   "translation_model_actual": "gpt-6-luna"

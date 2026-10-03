@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First stanza, second line",
+      "severity": "major",
+      "source_quote": "Tomorrow may not be.",
+      "suggested_fix": "מחר אולי לא יבוא.",
+      "translation_quote": "מחר אולי כבר לא אהיה."
+    },
+    {
+      "location": "Second poem section, first stanza, first two lines",
+      "severity": "major",
+      "source_quote": "“Boast not thyself,” I’m warned, / “Of what tomorrow brings;",
+      "suggested_fix": "״אל תתפאר במה שיביא המחר״, מזהירים אותי;",
+      "translation_quote": "״אל תתפאר בעצמך״, מזהירים אותי, / ״במה שיביא המחר;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, Hebrews 4:9–11 quotation\",\"severity\":\"major\",\"source_quote\":\"“lest any man fall after the same example of unbelief”\",\"suggested_fix\":\"Ändra «samma slags olydnad» till «samma exempel på otro» så att formuleringen återger källtextens «unbelief».\",\"translation_quote\":\"“så att ingen faller genom samma slags olydnad”\"},{\"location\":\"Article body, final Hebrews 4:11 quotation\",\"severity\":\"major\",\"source_quote\":\"“lest any man fall after the same example of unbelief”\",\"suggested_fix\":\"Ändra «samma slags olydnad» till «samma exempel på otro» så att formuleringen återger källtextens «unbelief».\",\"translation_quote\":\"“så att ingen faller genom samma slags olydnad”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 772,
+    "content_evidence_truncated": false,
+    "content_sha256": "6937ac76cd588771120ab91de8630b7f305d228ee002779d866dc1f325f4fe71",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 592,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9256,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10063
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

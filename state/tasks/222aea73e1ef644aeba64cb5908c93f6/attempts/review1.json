@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, stanza 3, line 3\",\"severity\":\"major\",\"source_quote\":\"Never a mountain rocky and steep,\",\"suggested_fix\":\"Replace the line with “Hajaahidi kamwe kwamba hakutakuwa na mlima wenye miamba na mwinuko,” so it remains part of what God has not promised, rather than asserting that no such mountain will exist.\",\"translation_quote\":\"Hakutakuwa na mlima wenye miamba na mwinuko,\"},{\"location\":\"source.html, stanza 3, line 4\",\"severity\":\"major\",\"source_quote\":\"Never a river turbid and deep.\",\"suggested_fix\":\"Replace the line with “Wala hajaahidi kamwe kwamba hakutakuwa na mto wenye maji yenye matope na kina kirefu.” This preserves the unpromised absence of such a river and translates “deep” as “kina kirefu,” not “mengi” (many).\",\"translation_quote\":\"Wala mto wenye maji machafu na mengi.\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 871,
+    "content_evidence_truncated": false,
+    "content_sha256": "4614b39fd73c9f557e3195d3944f34718007f7a597e931ff1ec1724e1ee661e7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 380,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1451,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1448,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2062
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

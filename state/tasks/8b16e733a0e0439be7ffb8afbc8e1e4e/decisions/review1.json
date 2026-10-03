@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Heading 6 and paragraph under it",
+      "severity": "major",
+      "source_quote": "6. Unselfishness",
+      "suggested_fix": "Replace “Desinterés” in the heading and the corresponding uses in this section with “Abnegación” or another clear Spanish equivalent for unselfishness/selflessness (for example, “actitud desinteresada” where needed).",
+      "translation_quote": "6. Desinterés"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

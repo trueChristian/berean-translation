@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, quoted Psalm 16:11",
+      "severity": "minor",
+      "source_quote": "at thy right hand there are pleasures for evermore",
+      "suggested_fix": "Replace “mema ya milele” with “raha za milele” to convey “pleasures for evermore” more directly: <em>…mbele za uso wako ziko furaha tele; mkono wako wa kuume mna raha za milele –Zaburi 16:11.</em>",
+      "translation_quote": "mkono wako wa kuume mna mema ya milele"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

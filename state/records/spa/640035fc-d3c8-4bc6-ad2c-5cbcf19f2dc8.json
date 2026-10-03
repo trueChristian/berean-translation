@@ -6,9 +6,32 @@
       "campaign": "gh-37119584204",
       "event": "requested",
       "task": "1bcfdf7ae967345992e90c6d396939b1"
+    },
+    {
+      "at": "2026-10-03T17:00:46+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "1bcfdf7ae967345992e90c6d396939b1"
     }
   ],
   "language": "spa",
   "latest_task": "1bcfdf7ae967345992e90c6d396939b1",
-  "published": null
+  "published": {
+    "html_path": "content/spa/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
+    "html_sha256": "6a91799491d61f9c6c0c4c9ec4ca0b9695fab29cdfc25a239b73e85b642d8793",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+    "metadata_path": "content/spa/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.json",
+    "metadata_sha256": "70bea1db49c4ef675bf0d8bf847638fee7c2b024e94b89150c5f142a7a7abb41",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"es\" dir=\"ltr\" role=\"note\">\n  <p>Este artículo ha sido traducido mediante inteligencia artificial por OpenAI (modelo: gpt-6-luna) y aún no ha sido revisado por una persona. El original en inglés es la versión autorizada. Si existen dudas sobre el significado, consulte el original en inglés. <a href=\"/en/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8/\" data-source-article-id=\"640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8\" hreflang=\"en\">Original en inglés</a></p>\n</aside>",
+    "published_at": "2026-10-03T17:00:46+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+    "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
+    "task": "1bcfdf7ae967345992e90c6d396939b1",
+    "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc"
+  }
 }

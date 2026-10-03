@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Die res sal helder geraak word…”\",\"severity\":\"minor\",\"source_quote\":\"The rest shall be brightly effected with a hope that…\",\"suggested_fix\":\"Die res sal op treffende wyse geraak word deur ’n hoop wat…\",\"translation_quote\":\"Die res sal helder geraak word deur ’n hoop wat…\"},{\"location\":\"Final article paragraph\",\"severity\":\"minor\",\"source_quote\":\"if we are living in the morning light of Jesus Christ.\",\"suggested_fix\":\"as ons in die oggendlig van Jesus Christus leef.\",\"translation_quote\":\"as ons in die oggendl lig van Jesus Christus leef.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 633,
+    "content_evidence_truncated": false,
+    "content_sha256": "b800ada1518971f81d124e6f2f6a521aa7a18f75dbf0f8ebbc6cc03168907e7f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 688,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8870,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9724
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

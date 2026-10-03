@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d697e4f1-8ba8-4e5d-abe7-9793704f3336",
+    "response_id": "chatcmpl-EUxHbRCfVGMnkJvrTfLkwVeMQV0eu",
+    "usage": {
+      "completion_tokens": 790,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9218,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9215,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10008
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "ابتدائی پیراگراف، ضال بھائی کی مثال",
+        "severity": "major",
+        "source_quote": "It was a the younger prodigal brother that asked for an early draw on his inheritance then went and wasted it on riotous living.",
+        "suggested_fix": "Translate the younger brother as the younger son of the parable, e.g. «وہ اَڑیل بیٹے کا چھوٹا بھائی تھا جس نے…» is not appropriate; use «اِس تمثیل کا چھوٹا بیٹا ہی تھا جس نے اپنی میراث میں سے اپنا حصہ پہلے ہی مانگا، پھر جا کر اُسے عیاشی میں اڑا دیا۔»",
+        "translation_quote": "چھوٹا اَور بےقابو بیٹا ہی تھا جس نے اپنی میراث میں سے حصہ وقت سے پہلے مانگا، پھر جا کر اسے عیاشی میں اڑا دیا۔"
+      },
+      {
+        "location": "ابتدائی پیراگراف، دینہ کے واقعے کا نتیجہ",
+        "severity": "major",
+        "source_quote": "There, she was exposed to the heathen young men of the land and occasioned a bloody massacre, leaving Jacob as a stench in the land.",
+        "suggested_fix": "Make clear that the episode brought about a bloody massacre and left Jacob disgraced/abhorred in the land, e.g. «وہاں اُس کا واسطہ ملک کے بت پرست نوجوانوں سے پڑا، اور اُس کے نتیجے میں خونریز قتلِ عام ہوا، جس سے یعقوب ملک میں بدنام ہو گیا۔»",
+        "translation_quote": "وہاں اس کا واسطہ ملک کے بت پرست نوجوانوں سے پڑا، جس کے نتیجے میں خونریز قتلِ عام ہوا اور یعقوب ملک میں بدبو کی مانند ہو گیا۔"
+      },
+      {
+        "location": "حوالہ 1 تیمتھیس 4:12 کا اقتباس",
+        "severity": "major",
+        "source_quote": "Let no man despise thy youth; but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity –1 Timothy 4:12.",
+        "suggested_fix": "Restore the omitted quality «in spirit» in the translated list, e.g. «کلام، چال چلن، محبت، روح، ایمان اور پاکیزگی میں»۔",
+        "translation_quote": "کلام، چال چلن، محبت، روح، ایمان اور پاکیزگی میں ایمانداروں کے لیے نمونہ بن"
+      },
+      {
+        "location": "آخری پیراگراف، آسمان کی دہلیز پر پہنچنے والے کی وضاحت",
+        "severity": "major",
+        "source_quote": "Blessed is the venerable saint who arrives at the portals of heaven in such a condition.",
+        "suggested_fix": "Render «venerable saint» as a revered/venerable saint, not merely a respectable holy person; for example: «مبارک ہے وہ قابلِ احترام بزرگ مقدس جو ایسی حالت میں آسمان کے دروازوں تک پہنچتا ہے۔»",
+        "translation_quote": "وہ قابلِ احترام مقدس مبارک ہے جو ایسی حالت میں آسمان کے دروازوں تک پہنچتا ہے۔"
+      },
+      {
+        "location": "عنوان، ذیلی عنوان «...Thou hast the dew of thy youth»",
+        "severity": "minor",
+        "source_quote": "Thou hast the dew of thy youth. Psalm 110:3 / ...Thou hast the dew of thy youth",
+        "suggested_fix": "Correct the ungrammatical possessive construction consistently, e.g. «تیرے پاس تیری جوانی کی شبنم ہے» (and use the corresponding construction in the heading).",
+        "translation_quote": "تیرے جوانی کے شبنم ہے۔ زبور 110:3 / ...تیرے جوانی کے شبنم ہے"
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

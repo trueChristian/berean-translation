@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, first stanza, final line",
+      "severity": "major",
+      "source_quote": "“Come My child, your burden I’ll bear.”",
+      "suggested_fix": "Replace the plural address with a singular one, for example: ”آؤ، میرے بچے، میں تمہارا بوجھ اٹھاؤں گا۔“",
+      "translation_quote": "”آؤ، میرے بچو، میں تمہارا بوجھ اٹھاؤں گا۔“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

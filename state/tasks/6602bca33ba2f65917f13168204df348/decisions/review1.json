@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Scripture quotation from Zechariah 4:10",
+      "severity": "major",
+      "source_quote": "For who hath despised the day of small things… –Zechariah 4:10.",
+      "suggested_fix": "Replace only the quoted wording with «For hvem har foraktet dagen med små ting …», keeping the existing <em> tag and reference in place.",
+      "translation_quote": "For hvem har foraktet den dagen da det begynte i det små … –Sakarja 4:10."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

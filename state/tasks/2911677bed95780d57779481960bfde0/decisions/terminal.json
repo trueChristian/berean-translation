@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section “b.) Tudo espera”",
+      "severity": "minor",
+      "source_quote": "if your husband falls short of the glory you married him with",
+      "suggested_fix": "Replace “se seu marido ficar aquém da glória com que vocês se casaram com ele” with a clearer rendering, such as “se seu marido não corresponder à imagem que vocês tinham dele ao se casar”",
+      "translation_quote": "se seu marido ficar aquém da glória com que vocês se casaram com ele"
+    },
+    {
+      "location": "HTML, paragraph beginning “A sinceridade da minha busca pessoal”",
+      "severity": "minor",
+      "source_quote": "The sincerity of my personal quest to pursue and to comprehend from the heart, the love of Christ",
+      "suggested_fix": "Replace “A sinceridade da minha busca pessoal por perseguir e compreender, de coração, o amor de Cristo” with “A sinceridade com que busco, de coração, perseguir e compreender o amor de Cristo”",
+      "translation_quote": "A sinceridade da minha busca pessoal por perseguir e compreender, de coração, o amor de Cristo"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

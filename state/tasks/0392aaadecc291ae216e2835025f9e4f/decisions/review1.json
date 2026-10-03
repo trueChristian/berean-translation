@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Hebrews 4:9–11 quotation and repeated quotation near “Focus on God”",
+      "severity": "major",
+      "source_quote": "“lest any man fall after the same example of unbelief”",
+      "suggested_fix": "In both quoted passages, replace “অবাধ্যতার সেই দৃষ্টান্ত অনুসারে” with “অবিশ্বাসের সেই দৃষ্টান্ত অনুসারে” to preserve the source’s meaning, “unbelief.”",
+      "translation_quote": "“যেন কেহ অবাধ্যতার সেই দৃষ্টান্ত অনুসারে পতিত না হয়”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

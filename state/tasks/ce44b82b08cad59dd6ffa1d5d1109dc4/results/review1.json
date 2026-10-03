@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1c9fe007-8f1c-4908-a846-81cf93096768",
+    "response_id": "chatcmpl-EUxJCBwnghZp6GhyvgklmhzrtwWvg",
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2900,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2897,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3803
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “On the back of the pickup”",
+        "severity": "minor",
+        "source_quote": "On the back of the pickup sat four boxes of peaches.",
+        "suggested_fix": "Change ״היו מונחות״ to ״היו מונחים״ to agree with the masculine noun ״ארגזים״.",
+        "translation_quote": "בחלקו האחורי של הטנדר היו מונחות ארבעה ארגזים של אפרסקים."
+      },
+      {
+        "location": "HTML, paragraph beginning “After picking, washing”",
+        "severity": "minor",
+        "source_quote": "Oh, how good they looked.",
+        "suggested_fix": "Change ״כמה טוב הם נראו״ to ״כמה טובים הם נראו״ for grammatical agreement with ״האפרסקים״.",
+        "translation_quote": "אח, כמה טוב הם נראו."
+      },
+      {
+        "location": "HTML, paragraph beginning “I jammed the stone”",
+        "severity": "minor",
+        "source_quote": "Then I saw the culprit as it hovered over me trying to sting me again.",
+        "suggested_fix": "Replace ״ראיתי את האשמה״ with ״ראיתי את הצרעה האחראית לכך״ or another natural Hebrew phrase meaning “I saw the culprit.”",
+        "translation_quote": "ואז ראיתי את האשמה: היא ריחפה מעליי וניסתה לעקוץ אותי שוב."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

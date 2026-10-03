@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "시의 네 번째 행",
+      "severity": "major",
+      "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
+      "suggested_fix": "“쓰디쓴 눈물로 끝나는 웃음도 감당할 수 없네.”처럼 웃음이 쓰디쓴 눈물로 끝난다는 뜻으로 고쳐 주세요.",
+      "translation_quote": "쓰디쓴 눈물이 웃음으로 끝나게 하는 것도 감당할 수 없네."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

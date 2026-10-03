@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"Slamming the door behind me\",\"suggested_fix\":\"Nilitoka na kuubamiza mlango nyuma yangu\",\"translation_quote\":\"Niligonga mlango kwa nguvu nilipoutoka nyuma yangu\"},{\"location\":\"HTML paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"the thick green grass\",\"suggested_fix\":\"nyasi nyingi za kijani kibichi\",\"translation_quote\":\"nyasi ndefu za kijani kibichi\"},{\"location\":\"HTML paragraph 8\",\"severity\":\"minor\",\"source_quote\":\"the open hay bale\",\"suggested_fix\":\"fungu la nyasi lililo wazi\",\"translation_quote\":\"bale ya nyasi iliyo wazi\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 636,
+    "content_evidence_truncated": false,
+    "content_sha256": "e3555720a95456e3cc3a74899914ae93f8291ca01966bcd4f7be862a69b23939",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 503,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2966,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2963,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3641
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

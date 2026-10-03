@@ -2,7 +2,6 @@
   "article_id": "61996151-3b49-4498-9285-995520ca542d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9020
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 900,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 628,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8820,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8817,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9720
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "The paragraph beginning “Het is belangrijk om te beseffen…”",
+      "severity": "major",
+      "source_quote": "True biblical peace is intrinsically intertwined with the concept of peace, even in the midst of a chaotic world.",
+      "suggested_fix": "Wijzig “Ware Bijbelse vrede is onlosmakelijk verbonden met rust” in “Ware Bijbelse vrede is onlosmakelijk verbonden met het begrip vrede”, zodat de vertaling de gedrukte betekenis van de bron behoudt.",
+      "translation_quote": "Ware Bijbelse vrede is onlosmakelijk verbonden met rust, zelfs midden in een chaotische wereld."
+    },
+    {
+      "location": "De aangehaalde tekst in de alinea over Hebreeën 4:9-11; de formulering komt later ook terug in de alinea die begint met “Ik ben bang…”",
+      "severity": "major",
+      "source_quote": "lest any man fall after the same example of unbelief",
+      "suggested_fix": "Vervang in beide citaten “dit voorbeeld van ongehoorzaamheid te volgen” door “hetzelfde voorbeeld van ongeloof te volgen”.",
+      "translation_quote": "opdat niemand ten val komt door dit voorbeeld van ongehoorzaamheid te volgen"
+    }
+  ],
   "id": "16bd41e65ab0a15ab2e26fcfb1b11129",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nld",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/524d40c54ec6764637a5f253440ead3daccb8d3dce30013c3273f7254041ebde.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
   "translation_model_actual": "gpt-6-luna"

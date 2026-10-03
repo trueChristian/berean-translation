@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0118f252-1500-4afe-b6fe-eeec1d53f8b1",
+    "response_id": "chatcmpl-EUxHgOYKpi3e6Yy24rXGs8XjPnRUd",
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 471,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5494,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5491,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6111
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “God het Gideon se leër…”",
+        "severity": "minor",
+        "source_quote": "Normally, Gideon was accustomed to armies of thousands.",
+        "suggested_fix": "Vervang “Gideon was gewoonlik gewoond aan leërs van duisende” met “Gideon was gewoonlik deel van leërs wat duisende soldate getel het” (of ’n ander natuurlike formulering wat die bronbetekenis behou).",
+        "translation_quote": "Gideon was gewoonlik gewoond aan leërs van duisende"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

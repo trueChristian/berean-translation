@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, opening Scripture quotation, 1 Corinthians 13:4\",\"severity\":\"major\",\"source_quote\":\"“charity vaunteth not itself, is not puffed up”\",\"suggested_fix\":\"Replace „die Liebe treibt nicht Mutwillen, sie bläht sich nicht auf“ with „die Liebe rühmt sich nicht, sie bläht sich nicht auf“, preserving the existing <em> tag and the rest of the quotation. The source distinguishes boasting from being puffed up.\",\"translation_quote\":\"„die Liebe treibt nicht Mutwillen, sie bläht sich nicht auf“\"},{\"location\":\"source.html and translation.html, opening Scripture quotation, 1 Corinthians 13:11\",\"severity\":\"major\",\"source_quote\":\"“I spake as a child, I understood as a child, I thought as a child”\",\"suggested_fix\":\"Translate all three distinct actions in the existing quotation, for example: „redete wie ein Kind, verstand wie ein Kind und dachte wie ein Kind“; retain the surrounding <em> tag and quotation structure.\",\"translation_quote\":\"„redete wie ein Kind und dachte wie ein Kind und war klug wie ein Kind“\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1122,
+    "content_evidence_truncated": false,
+    "content_sha256": "93bba5f2fbbd749ec3daa3403bd61b58e7c70f8d359865d1247d514a37579c79",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1152,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 875,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10988,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12143
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

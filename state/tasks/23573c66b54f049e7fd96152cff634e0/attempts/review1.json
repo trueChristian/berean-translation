@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 11\",\"severity\":\"minor\",\"source_quote\":\"We can’t afford for hate to give like hatred in return;\",\"suggested_fix\":\"Non possiamo permetterci di rispondere all’odio con odio;\",\"translation_quote\":\"Non possiamo permettere all’odio di ricambiare con odio;\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 321,
+    "content_evidence_truncated": false,
+    "content_sha256": "38834158b1cbe7356f79bba9da17360cfe5c87da640eeec4d7e79d75a9628ae3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 351,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1700,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1697,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2146
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

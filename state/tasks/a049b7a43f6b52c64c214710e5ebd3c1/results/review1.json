@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ecff4d70-f4b3-4db4-9e61-3f1926f7c62d",
+    "response_id": "chatcmpl-EUxI8S0rXHML2JkI93rgodUe2TK3Y",
+    "usage": {
+      "completion_tokens": 683,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 575,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1458,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1455,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2141
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / stanza 3",
+        "severity": "minor",
+        "source_quote": "God has not promised smooth roads and wide,",
+        "suggested_fix": "Replace \"ישרות\" with \"חלקות\": \"אלוהים לא הבטיח דרכים חלקות ורחבות,\"",
+        "translation_quote": "אלוהים לא הבטיח דרכים ישרות ורחבות,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

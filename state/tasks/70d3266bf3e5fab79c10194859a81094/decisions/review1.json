@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, poem stanza 3, final two lines",
+      "severity": "major",
+      "source_quote": "God has not promised smooth roads and wide,\nSwift, easy travel, needing no guide;\nNever a mountain rocky and steep,\nNever a river turbid and deep.",
+      "suggested_fix": "将最后两行改为“祂并未应许绝无崎岖陡峭的山岭，\\n也未应许绝无浑浊深邃的河流。”这样保留前文“上帝并未应许”的语境，不会误说上帝应许旅途中不会有山岭或河流。",
+      "translation_quote": "上帝并未应许道路平坦宽阔，\n旅途迅捷轻松，无需向导；\n绝不会有崎岖陡峭的山岭，\n绝不会有浑浊深邃的河流。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

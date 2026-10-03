@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Юность — пора неиссякающей энергии»",
+      "severity": "major",
+      "source_quote": "There is a progressive strain in advancing years that tames and tempers the soul.",
+      "suggested_fix": "Replace «По мере взросления наступает постепенное напряжение, которое усмиряет и смягчает душу» with «С возрастом возникает постепенное напряжение, которое усмиряет и смягчает душу» (or another rendering that conveys the increasing strain/tension of advancing years).",
+      "translation_quote": "По мере взросления наступает постепенное напряжение, которое усмиряет и смягчает душу."
+    },
+    {
+      "location": "HTML, paragraph beginning «Побеждать зло добром»",
+      "severity": "major",
+      "source_quote": "The pursuit of pleasure and lieu of leisure will always disappoint its recipient and leave him in a valley of despair deeper than when he began.",
+      "suggested_fix": "Replace «Погоня за удовольствиями и потакание праздности неизменно разочаруют человека и оставят его в долине отчаяния, ещё глубже той, из которой он начал путь» with «Погоня за удовольствиями и выбор досуга неизменно разочаруют человека и оставят его в долине отчаяния глубже той, в которой он находился вначале»; preserve the source's contrast between pursuing pleasure and leisure.",
+      "translation_quote": "Погоня за удовольствиями и потакание праздности неизменно разочаруют человека и оставят его в долине отчаяния, ещё глубже той, из которой он начал путь."
+    },
+    {
+      "location": "HTML, concluding paragraph, sentence beginning «Но прежде чем его страдания»",
+      "severity": "major",
+      "source_quote": "But before his pain had received an ounce of retribution, the healing streams began to flow as Job reverenced his Creator.",
+      "suggested_fix": "Replace «Но прежде чем его страдания получили хоть какую-то отплату» with «Но ещё до того, как его страдания получили хоть какое-либо воздаяние» (or another rendering that does not suggest Job was paid back for suffering).",
+      "translation_quote": "Но прежде чем его страдания получили хоть какую-то отплату, исцеляющие потоки уже начали течь, когда Иов воздал почтение своему Творцу."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening Scripture quotation (1 Korintus 13:2)",
+      "severity": "major",
+      "source_quote": "“though I have all faith, so that I could remove mountains”",
+      "suggested_fix": "Ganti “Sekalipun aku mempunyai iman yang sempurna untuk memindahkan gunung” menjadi “Sekalipun aku mempunyai segala iman, sehingga dapat memindahkan gunung”. Hindari menambahkan klaim bahwa iman itu sempurna.",
+      "translation_quote": "“sekalipun aku mempunyai iman yang sempurna untuk memindahkan gunung”"
+    },
+    {
+      "location": "HTML, opening Scripture quotation (1 Korintus 13:11)",
+      "severity": "major",
+      "source_quote": "“I understood as a child”",
+      "suggested_fix": "Ganti “aku merasa seperti kanak-kanak” dengan “aku memahami seperti kanak-kanak” agar menyampaikan makna “understood”.",
+      "translation_quote": "“aku merasa seperti kanak-kanak”"
+    },
+    {
+      "location": "HTML, opening Scripture quotation (1 Korintus 13:12)",
+      "severity": "major",
+      "source_quote": "“but then shall I know even as also I am known”",
+      "suggested_fix": "Ganti “tetapi nanti aku akan mengenal dengan sempurna” dengan padanan yang mempertahankan perbandingan dalam sumber, misalnya “tetapi nanti aku akan mengenal sepenuhnya, sama seperti aku sendiri dikenal”.",
+      "translation_quote": "“tetapi nanti aku akan mengenal dengan sempurna”"
+    },
+    {
+      "location": "HTML, paragraf di bawah judul “8. Sifat atau kemampuan untuk ‘tidak menyimpan kesalahan’”",
+      "severity": "minor",
+      "source_quote": "“our own success is enhanced by our vision or belief of what that person could become”",
+      "suggested_fix": "Perbaiki frasa “keyakinan kita tentang siapa yang dapat dicapai orang itu” menjadi “keyakinan kita tentang akan menjadi seperti apa orang itu”.",
+      "translation_quote": "“keberhasilan kita sendiri meningkat karena visi atau keyakinan kita tentang siapa yang dapat dicapai orang itu”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

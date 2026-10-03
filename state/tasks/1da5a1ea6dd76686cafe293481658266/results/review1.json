@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "85ead7b9-1bf4-4cc1-b148-c212b8d66433",
+    "response_id": "chatcmpl-EUxIFupRj0qIEsNzPun0RAcBsZ1nA",
+    "usage": {
+      "completion_tokens": 191,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2769,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2766,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2960
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "第1段",
+        "severity": "minor",
+        "source_quote": "The grinding sound of truck tires driving in the gravel lane filled the air",
+        "suggested_fix": "可将“响彻四周”改为“充满了四周”，更贴合声音弥漫在空气中的意思。",
+        "translation_quote": "卡车轮胎在碎石车道上滚动的轰隆声响彻四周"
+      },
+      {
+        "location": "第8段",
+        "severity": "minor",
+        "source_quote": "the open hay bale",
+        "suggested_fix": "可将“敞开的干草捆”改为“打开的干草捆”或“敞开的草捆”，避免“敞开”修饰草捆时略显生硬。",
+        "translation_quote": "望向敞开的干草捆"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

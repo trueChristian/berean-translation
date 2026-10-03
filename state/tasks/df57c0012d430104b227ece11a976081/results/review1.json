@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8d171299-8696-47d6-98c9-5d40e06563df",
+    "response_id": "chatcmpl-EUxLNVNvR1H8fwJxoHTXMjtF2x0Ne",
+    "usage": {
+      "completion_tokens": 404,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 301,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1744,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1741,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2148
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, fourth line",
+        "severity": "major",
+        "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
+        "suggested_fix": "Ons kan dit nie bekostig om te lag as dit in bittere trane eindig nie.",
+        "translation_quote": "Ons kan dit nie bekostig om te lag totdat bitter trane opdroog nie."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

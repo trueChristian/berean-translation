@@ -2,7 +2,6 @@
   "article_id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,53 @@
         },
         "total_tokens": 3144
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 903,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 589,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2900,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2897,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3803
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “On the back of the pickup”",
+      "severity": "minor",
+      "source_quote": "On the back of the pickup sat four boxes of peaches.",
+      "suggested_fix": "Change ״היו מונחות״ to ״היו מונחים״ to agree with the masculine noun ״ארגזים״.",
+      "translation_quote": "בחלקו האחורי של הטנדר היו מונחות ארבעה ארגזים של אפרסקים."
+    },
+    {
+      "location": "HTML, paragraph beginning “After picking, washing”",
+      "severity": "minor",
+      "source_quote": "Oh, how good they looked.",
+      "suggested_fix": "Change ״כמה טוב הם נראו״ to ״כמה טובים הם נראו״ for grammatical agreement with ״האפרסקים״.",
+      "translation_quote": "אח, כמה טוב הם נראו."
+    },
+    {
+      "location": "HTML, paragraph beginning “I jammed the stone”",
+      "severity": "minor",
+      "source_quote": "Then I saw the culprit as it hovered over me trying to sting me again.",
+      "suggested_fix": "Replace ״ראיתי את האשמה״ with ״ראיתי את הצרעה האחראית לכך״ or another natural Hebrew phrase meaning “I saw the culprit.”",
+      "translation_quote": "ואז ראיתי את האשמה: היא ריחפה מעליי וניסתה לעקוץ אותי שוב."
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:49+00:00",
   "id": "ce44b82b08cad59dd6ffa1d5d1109dc4",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "heb",
@@ -116,11 +159,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3beb81221e24fb7edf745b287b1a293c166349a5772e1451dc761a3ac359e6d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
   "translation_model_actual": "gpt-6-luna"

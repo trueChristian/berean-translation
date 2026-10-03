@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dikt, omkved",
+      "severity": "minor",
+      "source_quote": "Rest for the labor, light for the way,",
+      "suggested_fix": "Men Gud har lovet styrke for dagen,<br>\n    hvile for den som strever, lys på veien,",
+      "translation_quote": "hvile etter strevet, lys på veien,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

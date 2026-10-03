@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d17d6631-db86-48d9-9d53-1487beb875ca",
+    "response_id": "chatcmpl-EUxHrSTlLaw6itTQ5AgQpV7Ao2C3L",
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5393,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6193
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, third paragraph; Matthew 10:16 quotation",
+        "severity": "major",
+        "source_quote": "…be ye therefore wise as serpents, and harmless as doves –Matthew 10:16.",
+        "suggested_fix": "Translate “wise” as “জ্ঞানী” or “বুদ্ধিমান,” rather than “সতর্ক,” while preserving the rest of the quotation and reference. For example: “...অতএব সর্পের মতো জ্ঞানী এবং কপোতের মতো নির্দোষ হও—মথি ১০:১৬।”",
+        "translation_quote": "…অতএব সর্পের মতো সতর্ক এবং কপোতের মতো নির্দোষ হও—মথি ১০:১৬।"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Citas de Hebreos 4:9-11 y Hebreos 4:11",
+      "severity": "major",
+      "source_quote": "“lest any man fall after the same example of unbelief”",
+      "suggested_fix": "En ambas citas, sustituir «desobediencia» por «incredulidad» para conservar el sentido de “unbelief” en el texto fuente. Por ejemplo: «Procuremos, pues, entrar en aquel reposo, para que nadie caiga siguiendo el mismo ejemplo de incredulidad».",
+      "translation_quote": "«que ninguno caiga en semejante ejemplo de desobediencia»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

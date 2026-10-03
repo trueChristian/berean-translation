@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo sobre los cristianos de primera generación",
+      "severity": "minor",
+      "source_quote": "Sometimes so much so that second and third generation Christians think that first generation Christians are perhaps a little too zealous in their efforts of evangelizing those around them.",
+      "suggested_fix": "«A veces, hasta tal punto que los cristianos de segunda y tercera generación piensan que quizá los cristianos de primera generación son un poco demasiado celosos en sus esfuerzos por evangelizar a quienes los rodean.»",
+      "translation_quote": "A veces, tanto que los cristianos de segunda y tercera generación piensan que quizá los de la primera generación son demasiado fervorosos en sus esfuerzos por evangelizar a quienes los rodean."
+    },
+    {
+      "location": "HTML, párrafo sobre los funcionarios públicos tras los tiroteos masivos",
+      "severity": "minor",
+      "source_quote": "to provide safety nets, screenings, and better and more treatments",
+      "suggested_fix": "Cambiar «evaluaciones y más y mejores tratamientos» por «evaluaciones, así como tratamientos mejores y más numerosos».",
+      "translation_quote": "ofrecer redes de protección, evaluaciones y más y mejores tratamientos"
+    },
+    {
+      "location": "HTML, párrafo sobre el hombre que empujó a la mujer",
+      "severity": "minor",
+      "source_quote": "They concluded that the man must have been emotionally troubled",
+      "suggested_fix": "Cambiar «debía de haber estado emocionalmente perturbado» por «debía de tener problemas emocionales».",
+      "translation_quote": "el hombre debía de haber estado emocionalmente perturbado"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

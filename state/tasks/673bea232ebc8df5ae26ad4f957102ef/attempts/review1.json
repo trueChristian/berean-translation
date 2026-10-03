@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Hebreerne 4:9–11, both quoted passages\",\"severity\":\"major\",\"source_quote\":\"“lest any man fall after the same example of unbelief”\",\"suggested_fix\":\"Change «på grunn av samme slags ulydighet» to «etter samme eksempel på vantro» in both quoted passages, preserving the existing <em> tags and reference placement.\",\"translation_quote\":\"«så ingen faller fra på grunn av samme slags ulydighet»\"},{\"location\":\"Johannes 14:27 quotation\",\"severity\":\"major\",\"source_quote\":\"“Let not your heart be troubled, neither let it be afraid”\",\"suggested_fix\":\"Translate both parts of the source meaning, for example: «La ikke hjertet bli urolig, og la det heller ikke være redd», keeping the quotation in its existing <em> tags and retaining the reference.\",\"translation_quote\":\"«La ikke hjertet bli grepet av angst og motløshet»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 893,
+    "content_evidence_truncated": false,
+    "content_sha256": "816fd0f32a67594cd94cdcff8efe4c860034244cd27d92cb2a97cd7c1b3ccf81",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 431,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9171,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9827
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

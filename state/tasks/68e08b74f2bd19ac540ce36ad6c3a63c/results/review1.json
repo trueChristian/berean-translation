@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c15d9074-7bf2-4702-897e-43c71dd10a83",
+    "response_id": "chatcmpl-EUxHmiPQvfdIDiZLInRdmyP2cRFwi",
+    "usage": {
+      "completion_tokens": 878,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 753,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5368,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6249
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf kutipan Zakharia 4:10",
+        "severity": "minor",
+        "source_quote": "For who hath despised the day of small things…",
+        "suggested_fix": "Ganti “hari-hari kecil” dengan “hari-hari permulaan yang kecil” agar makna “small things” sebagai awal atau hal kecil yang dipandang rendah lebih jelas.",
+        "translation_quote": "Siapakah yang memandang rendah hari-hari kecil…"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

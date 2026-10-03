@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Title",
+      "severity": "major",
+      "source_quote": "Things We Can’t Afford",
+      "suggested_fix": "Change to «Όσα δεν έχουμε την πολυτέλεια να κάνουμε» to retain the sense of things one cannot afford to do, rather than things one cannot afford to lose.",
+      "translation_quote": "Όσα δεν μας παίρνει να χάσουμε"
+    },
+    {
+      "location": "Poem, final line",
+      "severity": "major",
+      "source_quote": "Oh, grant us light that we may know the things we can’t afford!",
+      "suggested_fix": "Replace «όσα δεν μας παίρνει να χάσουμε» with «όσα δεν έχουμε την πολυτέλεια να κάνουμε» so the closing line matches the source’s refrain without adding “to lose.”",
+      "translation_quote": "Ω, χάρισέ μας φως, για να γνωρίσουμε όσα δεν μας παίρνει να χάσουμε!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

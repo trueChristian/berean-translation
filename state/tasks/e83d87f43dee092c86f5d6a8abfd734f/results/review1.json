@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "09d4d7c4-9948-4f66-b5a3-8f968c7651a5",
+    "response_id": "chatcmpl-EUxHWhUGFgjS5LPuA6VyEGv9a3hlc",
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 442,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9204,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9906
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, kutipan Ibrani 4:9–11",
+        "severity": "major",
+        "source_quote": "“There remaineth therefore a rest to the people of God.”",
+        "suggested_fix": "Hapus tambahan “hari ketujuh” agar kutipan tidak menambahkan keterangan yang tidak ada dalam teks sumber. Contoh: “Jadi masih tersedia suatu hari perhentian bagi umat Allah.”",
+        "translation_quote": "“Jadi masih tersedia suatu hari perhentian, hari ketujuh, bagi umat Allah.”"
+      },
+      {
+        "location": "HTML, kutipan Ibrani 4:9–11 dan kutipan Ibrani 4:11 di bagian “Berfokuslah kepada Allah”",
+        "severity": "major",
+        "source_quote": "“lest any man fall after the same example of unbelief”",
+        "suggested_fix": "Ganti “mengikuti contoh ketidaktaatan itu” pada kedua kutipan dengan padanan yang menyampaikan “unbelief”, misalnya “mengikuti contoh ketidakpercayaan itu”.",
+        "translation_quote": "“supaya jangan seorang pun jatuh karena mengikuti contoh ketidaktaatan itu”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

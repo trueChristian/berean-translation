@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "11e16abe-f02c-4b6c-bef8-a7ec9002e417",
+    "response_id": "chatcmpl-EUxJBgiakkm1BFTXgRaJZi2Av3Lr5",
+    "usage": {
+      "completion_tokens": 993,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5382,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6378
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 6",
+        "severity": "minor",
+        "source_quote": "first generation Christians being “on fire” for their Lord",
+        "suggested_fix": "Replace ״בוערים באש״ with a natural Hebrew expression such as ״נלהבים מאוד למען אדונם״.",
+        "translation_quote": "נוצרים בני הדור הראשון שהם ״בוערים באש״ למען אדונם"
+      },
+      {
+        "location": "Article, paragraph 5",
+        "severity": "minor",
+        "source_quote": "Maybe we have been lulled into a false sense of security.",
+        "suggested_fix": "Replace ״הוטלנו לתחושת ביטחון כוזבת״ with ״הורדמנו לתחושת ביטחון כוזבת״ or ״נרדמנו בשמירה״, preserving the sense of being lulled into false security.",
+        "translation_quote": "אולי הוטלנו לתחושת ביטחון כוזבת."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

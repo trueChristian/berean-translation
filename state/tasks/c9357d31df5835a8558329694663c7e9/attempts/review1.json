@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"अंतिम अनुच्छेद, मत्ती 24:13 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"…endure unto the end… –Matthew 24:13.\",\"suggested_fix\":\"…अन्त तक धीरज धरने… –मत्ती 24:13। से बदलें: उद्धरण के बाद लगा अतिरिक्त “के” हटाएँ, ताकि वाक्य बने “तो वे …अन्त तक धीरज धरने… –मत्ती 24:13। के लिए तैयार नहीं होंगे।”\",\"translation_quote\":\"तो वे <em>…अन्त तक धीरज धरने… –मत्ती 24:13।</em> के लिए तैयार नहीं होंगे।\"},{\"location\":\"अंतिम अनुच्छेद, लूका 9:23-24 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it –Luke 9:23-24.\",\"suggested_fix\":\"<em>फिर उसने सब से कहा, “यदि कोई मेरे पीछे आना चाहे, तो अपने आप से इनकार करे और प्रतिदिन अपना क्रूस उठाकर मेरे पीछे हो ले। क्योंकि जो कोई अपना प्राण बचाना चाहेगा, वह उसे खोएगा; परन्तु जो कोई मेरे लिये अपना प्राण खोएगा, वही उसे बचाएगा” –लूका 9:23-24।</em>\",\"translation_quote\":\"<em>फिर उसने सब से कहा, “यदि कोई मेरे पीछे आना चाहे, तो अपने आप से इनकार करे और प्रति दिन अपना क्रूस उठाए हुए मेरे पीछे हो ले। क्योंकि जो कोई अपना प्राण बचाना चाहेगा, वह उसे खोएगा; परन्तु जो कोई मेरे लिये अपना प्राण खोएगा, वही उसे बचाएगा –लूका 9:23-24।</em>\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 2533,
+    "content_evidence_truncated": false,
+    "content_sha256": "a42ff0cb6eb46cfed2d1c34f05278bda1608879f3fbffd5d78768bef8f191893",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 456,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5775
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

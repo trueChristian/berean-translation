@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9824f8cc-c758-4ba1-9254-5021510dd031",
+    "response_id": "chatcmpl-EUxHVqi2ts5uh6OD7BrzwIpf1FsAt",
+    "usage": {
+      "completion_tokens": 669,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 540,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2327,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2999
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Последняя строфа, последняя строка",
+        "severity": "major",
+        "source_quote": "To hear those words, “Well done.”",
+        "suggested_fix": "Заменить «Хорошо, добрый и верный раб» на «Хорошо» — например: «Услышать те слова: „Хорошо“»",
+        "translation_quote": "Услышать те слова: «Хорошо, добрый и верный раб»."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

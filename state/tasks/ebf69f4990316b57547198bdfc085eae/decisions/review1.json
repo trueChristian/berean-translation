@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 10 (yellow-jacket nest)",
+      "severity": "major",
+      "source_quote": "There above the hole hung a yellow jacket nest.",
+      "suggested_fix": "Replace “’n perdeby nes” with “’n geelbaardby-nes” (or another locally established Afrikaans term for yellow jackets), preserving the sentence structure.",
+      "translation_quote": "Daar bo die gat het ’n perdeby nes gehang."
+    },
+    {
+      "location": "HTML, paragraph 11",
+      "severity": "major",
+      "source_quote": "making it difficult to look out of my eyes.",
+      "suggested_fix": "Replace “sodat dit moeilik was om deur my oë te kyk” with “sodat dit moeilik was om my oë oop te maak” to convey that the swelling made it hard to see/open the eyes.",
+      "translation_quote": "sodat dit moeilik was om deur my oë te kyk."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

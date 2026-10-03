@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, gedicht, strofe 8\",\"severity\":\"minor\",\"source_quote\":\"Yet the promise remains, all works out well,\",\"suggested_fix\":\"Vertaal dit als ‘Toch blijft de belofte staan: alles werkt ten goede’ om de strekking van ‘works out well’ nauwkeuriger weer te geven.\",\"translation_quote\":\"Toch blijft de belofte staan: alles komt goed\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 388,
+    "content_evidence_truncated": false,
+    "content_sha256": "7ea6f77693b89af639508920bf91e3f9d650a65bb6e0c30867bcdf9d2c44838c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2255,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2252,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2878
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

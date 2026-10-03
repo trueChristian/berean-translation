@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, second stanza, final line\",\"severity\":\"minor\",\"source_quote\":\"My God alone to please.\",\"suggested_fix\":\"Replace the final line with: تاکہ صرف اپنے خدا کو خوش کروں۔ This clearly conveys that the speaker lives to please God alone.\",\"translation_quote\":\"تاکہ خوشی میرے خدا ہی کو ہو۔\"},{\"location\":\"Poem, second quoted stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"And dost thou plan the New Year full\",\"suggested_fix\":\"Replace with: اور کیا تو پورے نئے سال کے منصوبے بناتا ہے۔ This conveys planning for the whole New Year rather than making “full” plans.\",\"translation_quote\":\"اور کیا تو نئے سال کے بھرپور منصوبے بناتا ہے\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 807,
+    "content_evidence_truncated": false,
+    "content_sha256": "06bdc9cc7fef1c3a1638ff4b6b9b7dab834b96eee260b7b5c9f3beaf62fd7d9f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 731,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2022,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2019,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2937
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

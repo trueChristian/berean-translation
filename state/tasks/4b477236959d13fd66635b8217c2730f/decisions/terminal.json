@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, stanza beginning “Sometimes the future seems scary”",
+      "severity": "minor",
+      "source_quote": "“Still, I set my eyes on His ultimate goal,”",
+      "suggested_fix": "Change “malengo yake ya mwisho” to “lengo lake kuu” to preserve the singular “goal.”",
+      "translation_quote": "“Bado, nayatazama malengo yake ya mwisho,”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

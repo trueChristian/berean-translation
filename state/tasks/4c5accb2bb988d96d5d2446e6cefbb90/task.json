@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 11460
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 367,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11287,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11284,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11654
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, avsnitt 5: Hövlighet, första stycket",
+      "severity": "major",
+      "source_quote": "“The NIV says it better. ‘Love is not rude! Courtesy is love in the little things.’”",
+      "suggested_fix": "Ändra till: ”NIV uttrycker det bättre: ’Kärleken är inte ohövlig! Hövlighet är kärlek i de små tingen.’”",
+      "translation_quote": "“Nya internationella versionen uttrycker det bättre: ”Kärleken är inte ohövlig!” Hövlighet är kärlek i de små tingen.”"
+    },
+    {
+      "location": "HTML, avsnitt 7: Gott humör, första stycket",
+      "severity": "major",
+      "source_quote": "“Few things unchristianize a good man than an evil temper.”",
+      "suggested_fix": "Ändra meningen till: ”Få saker gör en god man så okristen som ett dåligt temperament.”",
+      "translation_quote": "“Få saker gör en god man så okristlig som ett ont temperament.”"
+    },
+    {
+      "location": "HTML, avsnitt 9: Uppriktighet, sista stycket",
+      "severity": "major",
+      "source_quote": "“Rejoicing in righteousness and thinking NO EVIL is a normal and final attitude of love.”",
+      "suggested_fix": "Ändra ”Att glädja sig i rättfärdigheten” till ”Att glädja sig över rättfärdigheten”, så att formuleringen återger källans innebörd.",
+      "translation_quote": "“Att glädja sig i rättfärdigheten och INTE tänka något ont är kärlekens normala och slutliga hållning.”"
+    }
+  ],
   "id": "4c5accb2bb988d96d5d2446e6cefbb90",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "swe",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

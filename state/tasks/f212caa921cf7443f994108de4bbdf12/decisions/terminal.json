@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문 6문단",
+      "severity": "minor",
+      "source_quote": "the old cooler which was inside the red bank barn",
+      "suggested_fix": "이를 붉은색 언덕에 지은 헛간 안에 있는 오래된 냉장실로 가져갔다.",
+      "translation_quote": "붉은색 헛간 안에 있는 오래된 냉장실로 가져갔다."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

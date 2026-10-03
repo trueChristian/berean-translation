@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, абзац 7\",\"severity\":\"major\",\"source_quote\":\"I knew that sneaking was wrong\",\"suggested_fix\":\"Заменить «Я знал, что красть нехорошо» на «Я знал, что поступать тайком было неправильно»: в оригинале речь о том, что мальчик прокрался за персиком, а не о краже.\",\"translation_quote\":\"Я знал, что красть нехорошо\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 525,
+    "content_evidence_truncated": false,
+    "content_sha256": "c94bc90f03c9803f9c24ed641b228a855cd3a71401243f0c01d60d0d1b8e141f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 118,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2844,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2965
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

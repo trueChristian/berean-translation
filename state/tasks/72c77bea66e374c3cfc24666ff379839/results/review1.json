@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2b75e015-fb00-4647-a52a-f7ea4576aeb8",
+    "response_id": "chatcmpl-EUxHV6pm10FL5RfbBWY6V2acHk89m",
+    "usage": {
+      "completion_tokens": 504,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 403,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1458,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1455,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1962
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Dikt, omkved",
+        "severity": "minor",
+        "source_quote": "Rest for the labor, light for the way,",
+        "suggested_fix": "Men Gud har lovet styrke for dagen,<br>\n    hvile for den som strever, lys på veien,",
+        "translation_quote": "hvile etter strevet, lys på veien,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

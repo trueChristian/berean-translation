@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 6\",\"severity\":\"minor\",\"source_quote\":\"first generation Christians being “on fire” for their Lord\",\"suggested_fix\":\"Replace ״בוערים באש״ with a natural Hebrew expression such as ״נלהבים מאוד למען אדונם״.\",\"translation_quote\":\"נוצרים בני הדור הראשון שהם ״בוערים באש״ למען אדונם\"},{\"location\":\"Article, paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"Maybe we have been lulled into a false sense of security.\",\"suggested_fix\":\"Replace ״הוטלנו לתחושת ביטחון כוזבת״ with ״הורדמנו לתחושת ביטחון כוזבת״ or ״נרדמנו בשמירה״, preserving the sense of being lulled into false security.\",\"translation_quote\":\"אולי הוטלנו לתחושת ביטחון כוזבת.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 872,
+    "content_evidence_truncated": false,
+    "content_sha256": "745a355ec9a4e0a1a4f21dce64436ebaed90189a54dcc8e9265f6cd6a3ec788d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 993,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5382,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6378
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

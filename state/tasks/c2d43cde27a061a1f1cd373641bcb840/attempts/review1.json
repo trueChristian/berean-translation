@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, first poem stanza 1, line 3\",\"severity\":\"major\",\"source_quote\":\"I’ll make the best of TIME—right now—\",\"suggested_fix\":\"Ek sal die beste maak van TYD—juis nou—\",\"translation_quote\":\"Ek sal die meeste maak van TYD—nou dadelik—\"},{\"location\":\"source.html, second poem stanza 1, line 1\",\"severity\":\"major\",\"source_quote\":\"“Boast not thyself,” I’m warned,\",\"suggested_fix\":\"“Moenie op jouself roem nie,” word ek gewaarsku,\",\"translation_quote\":\"“Moenie roem nie,” word ek gewaarsku,\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 575,
+    "content_evidence_truncated": false,
+    "content_sha256": "0d894d5e73030a3e0f892d54979e3b1268a52becd1882d1f051d5f2b89767e7a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 877,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 702,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1958,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1955,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2835
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

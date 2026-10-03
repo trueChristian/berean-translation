@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "582fb833-36e7-4a5a-b660-6759cf92bde1",
+    "response_id": "chatcmpl-EUxHW13O9yOiLoreTC0nu4bnyiBoi",
+    "usage": {
+      "completion_tokens": 285,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3571,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3568,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3856
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf 2",
+        "severity": "minor",
+        "source_quote": "“we like our independence”",
+        "suggested_fix": "Pertimbangkan “kita menyukai kemandirian kita” untuk mempertahankan makna bahwa kita menyukai keadaan mandiri, bukan sekadar konsep kemandirian.",
+        "translation_quote": "“kita menyukai kemandirian kita”"
+      },
+      {
+        "location": "Paragraf 4",
+        "severity": "minor",
+        "source_quote": "“This is not too much for Him to ask of us”",
+        "suggested_fix": "Ganti “Ini bukan permintaan yang terlalu berat bagi-Nya untuk diajukan kepada kita” dengan “Ini bukanlah hal yang terlalu berat untuk diminta-Nya dari kita” agar ungkapannya lebih alami dan jelas.",
+        "translation_quote": "“Ini bukan permintaan yang terlalu berat bagi-Nya untuk diajukan kepada kita”"
+      },
+      {
+        "location": "Paragraf terakhir",
+        "severity": "minor",
+        "source_quote": "“heavenly sunlight all of our journey”",
+        "suggested_fix": "Pertimbangkan “sinar matahari surgawi sepanjang perjalanan kita” (atau ungkapan idiomatis yang sepadan) agar frasa “sepanjang” secara jelas menerangkan perjalanan.",
+        "translation_quote": "“sinar matahari surgawi sepanjang perjalanan kita”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "832d4539-4aea-4a51-a623-39ae4b424679",
+    "response_id": "chatcmpl-EUxHU3JIF3p5tOesYHljxtok3h1Oz",
+    "usage": {
+      "completion_tokens": 763,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 624,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9256,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10022
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, “...우리의 연약함을 치유합니다” 절 첫 문단",
+        "severity": "major",
+        "source_quote": "The impotent man of 38 years at Bethesda",
+        "suggested_fix": "“베데스다에서 서른여덟 해 동안 병을 앓은 사람은”처럼 옮겨, 병을 앓은 기간이 38년이라는 뜻을 분명히 하세요.",
+        "translation_quote": "베데스다의 서른여덟 해 된 병자는"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

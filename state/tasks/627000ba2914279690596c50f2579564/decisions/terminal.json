@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Beberapa minggu lalu”",
+      "severity": "minor",
+      "source_quote": "“in another state from where I live”",
+      "suggested_fix": "Change “di negara bagian lain, jauh dari tempat tinggal saya” to “di negara bagian lain dari tempat saya tinggal” to preserve that it was a different state without adding that it was far away.",
+      "translation_quote": "“di negara bagian lain, jauh dari tempat tinggal saya”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

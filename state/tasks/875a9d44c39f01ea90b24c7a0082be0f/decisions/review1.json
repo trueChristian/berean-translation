@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Припев, последняя строка",
+      "severity": "minor",
+      "source_quote": "Unfailing kindness, undying love.",
+      "suggested_fix": "Незыблемая доброта и неумирающая любовь.",
+      "translation_quote": "Нежность, что не подведёт, и любовь, что не умрёт."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

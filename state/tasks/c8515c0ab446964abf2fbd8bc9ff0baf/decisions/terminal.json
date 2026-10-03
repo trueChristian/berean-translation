@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Some years ago…”",
+      "severity": "minor",
+      "source_quote": "Some of his deepest struggles stemmed from the flashback memories he had of when he had personally killed several of the enemy.",
+      "suggested_fix": "Replace “ricordi vividi” with “flashback” or “ricordi intrusivi e ricorrenti” to retain the sense of flashback memories.",
+      "translation_quote": "Alcune delle sue lotte più profonde derivavano dai ricordi vividi di quando aveva ucciso personalmente diversi nemici."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

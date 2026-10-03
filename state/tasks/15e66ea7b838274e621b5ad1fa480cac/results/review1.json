@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "eb2ec967-c0ae-419b-bd41-8d69a69f94b0",
+    "response_id": "chatcmpl-EUxHUOa3NiEaZq3Fyw8gEqLMJuxzh",
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 499,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1654,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1651,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2274
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Puisi, baris terakhir kedua",
+        "severity": "major",
+        "source_quote": "But blind to good are we apart from THEE, all-seeing Lord;",
+        "suggested_fix": "Ganti “Tuhan yang Mahatahu” dengan “Tuhan yang Mahamelihat” agar sesuai dengan “all-seeing Lord.”",
+        "translation_quote": "Namun, terpisah dari-MU, Tuhan yang Mahatahu, kita buta terhadap kebaikan;"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

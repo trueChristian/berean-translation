@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c2d4e78d-da05-4306-a17d-d6940a046ffb",
+    "response_id": "chatcmpl-EUxJrymuJ8FcQmZwRxzHAzJElPzIj",
+    "usage": {
+      "completion_tokens": 1055,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 886,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8509,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9567
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Deze nobele jeugdige ambities…”",
+        "severity": "major",
+        "source_quote": "These noble youthful ambitions were followed by Josiah, Isaiah, Jeremiah, Daniel, Mary, and the disciples of the Lord",
+        "suggested_fix": "Replace “werden nagevolgd door” with wording that indicates these people came later as further examples, such as “Later zagen we ook Josia, Jesaja, Jeremia, Daniël, Maria en de discipelen van de Heer.”",
+        "translation_quote": "Deze nobele jeugdige ambities werden nagevolgd door Josia, Jesaja, Jeremia, Daniël, Maria en de discipelen van de Heer"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

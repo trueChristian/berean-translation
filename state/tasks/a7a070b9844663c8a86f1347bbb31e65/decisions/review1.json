@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Poem, second stanza, fourth line",
+      "severity": "major",
+      "source_quote": "Claiming His love on me overlying.",
+      "suggested_fix": "Replace the line with “En maak aanspraak op sy liefde wat oor my rus.” This preserves the source’s idea of claiming his love rather than trusting in it.",
+      "translation_quote": "En vertrou op sy liefde wat oor my rus."
+    },
+    {
+      "location": "Poem, eighth stanza, third line",
+      "severity": "major",
+      "source_quote": "Yet the promise remains, all works out well,",
+      "suggested_fix": "Replace the line with “Tog bly die belofte staan: alles loop goed af,” to retain the source’s assurance that things turn out well, without changing it to the distinct claim that everything works for good.",
+      "translation_quote": "Tog bly die belofte staan: alles werk ten goede uit,"
+    },
+    {
+      "location": "Poem, eleventh stanza, first line",
+      "severity": "minor",
+      "source_quote": "Sometimes I find myself dreaming,",
+      "suggested_fix": "Replace with “Soms betrap ek myself dat ek droom,” for idiomatic Afrikaans.",
+      "translation_quote": "Soms vind ek myself droom,"
+    },
+    {
+      "location": "Poem, eleventh stanza, fourth line",
+      "severity": "minor",
+      "source_quote": "To hear those words, “Well done.”",
+      "suggested_fix": "Replace “Goed gedaan” with the idiomatic Afrikaans “Mooi so” in the quotation: “Om daardie woorde te hoor: ‘Mooi so.’”",
+      "translation_quote": "Om daardie woorde te hoor: “Goed gedaan.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

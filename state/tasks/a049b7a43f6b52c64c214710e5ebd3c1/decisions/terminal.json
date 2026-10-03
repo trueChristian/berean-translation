@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / stanza 3",
+      "severity": "minor",
+      "source_quote": "God has not promised smooth roads and wide,",
+      "suggested_fix": "Replace \"ישרות\" with \"חלקות\": \"אלוהים לא הבטיח דרכים חלקות ורחבות,\"",
+      "translation_quote": "אלוהים לא הבטיח דרכים ישרות ורחבות,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

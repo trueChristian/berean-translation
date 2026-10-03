@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, segunda estrofa del segundo bloque del poema",
+      "severity": "major",
+      "source_quote": "“This night, that soul of thine / May be required of thee”",
+      "suggested_fix": "«Esta noche, tu alma / puede serte exigida:»",
+      "translation_quote": "«Esta noche, tu alma / puede serte requerida:»"
+    },
+    {
+      "location": "HTML, tercera estrofa del segundo bloque del poema",
+      "severity": "major",
+      "source_quote": "“If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?”",
+      "suggested_fix": "«Si Dios, dentro de apenas tres horas, HOY, / pusiera fin a tu vida ESTA NOCHE?»",
+      "translation_quote": "«Si Dios, dentro de apenas tres horas, HOY, / pusiera fin a tu camino ESTA NOCHE?»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

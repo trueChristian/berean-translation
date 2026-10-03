@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, quoted Psalm 16:11\",\"severity\":\"minor\",\"source_quote\":\"at thy right hand there are pleasures for evermore\",\"suggested_fix\":\"Replace “mema ya milele” with “raha za milele” to convey “pleasures for evermore” more directly: <em>…mbele za uso wako ziko furaha tele; mkono wako wa kuume mna raha za milele –Zaburi 16:11.</em>\",\"translation_quote\":\"mkono wako wa kuume mna mema ya milele\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 469,
+    "content_evidence_truncated": false,
+    "content_sha256": "c81454605d274e01446794d7d7058774f521a3defae6fcb16f40710991eb607d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 534,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 389,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3673,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3670,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4207
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

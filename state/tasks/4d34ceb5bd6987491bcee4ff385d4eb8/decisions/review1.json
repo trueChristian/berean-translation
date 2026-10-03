@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, Zechariah quotation",
+      "severity": "major",
+      "source_quote": "For who hath despised the day of small things… –Zechariah 4:10.",
+      "suggested_fix": "Replace «Ибо кто возненавидел день малых сих…» with «Ибо кто пренебрёг днём малых сих…»; preserve the existing reference and markup.",
+      "translation_quote": "Ибо кто возненавидел день малых сих… –Захария 4:10."
+    },
+    {
+      "location": "Article body, paragraph beginning “Из этих примеров мы видим”",
+      "severity": "major",
+      "source_quote": "God has chosen these weak things to be significant in His kingdom.",
+      "suggested_fix": "Change «Бог избрал это немощное, чтобы оно имело значение в Его Царстве» to «Бог избрал эти немощные вещи, чтобы они имели значение в Его Царстве».",
+      "translation_quote": "Бог избрал это немощное, чтобы оно имело значение в Его Царстве."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

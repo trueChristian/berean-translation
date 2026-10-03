@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, figure img alt",
+      "severity": "minor",
+      "source_quote": "A sliced loaf of bread on a wooden board",
+      "suggested_fix": "लकड़ी के तख़्ते पर कटी हुई रोटी",
+      "translation_quote": "लकड़ी के तख़्ते पर कटी हुई रोटी की लोई"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

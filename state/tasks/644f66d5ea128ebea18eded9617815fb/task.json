@@ -2,7 +2,6 @@
   "article_id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 2009
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 811,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 568,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1691,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1688,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2502
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, poem line 7",
+      "severity": "minor",
+      "source_quote": "We can’t afford to play with fire, or tempt a serpent’s bite;",
+      "suggested_fix": "Erstatt «friste et slangebitt» med «utsette oss for et slangebitt» for å uttrykke at man ikke bør utsette seg for slangens bitt.",
+      "translation_quote": "Vi har ikke råd til å leke med ilden eller friste et slangebitt;"
+    },
+    {
+      "location": "source.html, poem line 9",
+      "severity": "minor",
+      "source_quote": "We can’t afford with serious heed to treat the cynic’s sneer;",
+      "suggested_fix": "Erstatt «kynikerens hånlige smil» med «kynikerens hånlige hån» eller «kynikerens hånlige grimase» for å bevare bildet av en hånlig grimase, ikke et smil.",
+      "translation_quote": "Vi har ikke råd til å ta kynikerens hånlige smil på alvor;"
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:47+00:00",
   "id": "644f66d5ea128ebea18eded9617815fb",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nob",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed6221e4c3f7ed957c68f67fd9e6401b2d9ddea55030972d9c84bb2f4d302be0.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
   "translation_model_actual": "gpt-6-luna"

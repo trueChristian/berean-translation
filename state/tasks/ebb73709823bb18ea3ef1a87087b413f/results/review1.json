@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2a047816-0bbb-4aca-87c7-8b33668d62b2",
+    "response_id": "chatcmpl-EUxHWtNPwfgFuE89b8lWXEIlr18of",
+    "usage": {
+      "completion_tokens": 939,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 632,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9140,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9137,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10079
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Первый абзац",
+        "severity": "major",
+        "source_quote": "It couldn’t have been more than 15 minutes since I had dropped into bed from my last admission.",
+        "suggested_fix": "Заменить «после последней госпитализации» на «после того, как я уложил в больницу последнего пациента» или другую формулировку, ясно показывающую, что речь о последнем пациенте, которого автор госпитализировал.",
+        "translation_quote": "Не прошло и пятнадцати минут с тех пор, как я после последней госпитализации рухнул в постель."
+      },
+      {
+        "location": "Цитаты из Евреям 4:9–11 и Евреям 4:11",
+        "severity": "major",
+        "source_quote": "lest any man fall after the same example of unbelief",
+        "suggested_fix": "В обеих цитатах заменить «непокорность» на «неверие», сохранив существующие теги и ссылки: «чтобы кто по тому же примеру не впал в неверие».",
+        "translation_quote": "чтобы кто по тому же примеру не впал в непокорность — Евреям 4:9–11; … чтобы кто по тому же примеру не впал в непокорность — Евреям 4:11."
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

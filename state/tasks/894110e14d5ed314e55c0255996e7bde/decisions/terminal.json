@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "시의 마지막 연, 세 번째 행",
+      "severity": "minor",
+      "source_quote": "If God, in yet three hours, THIS DAY,",
+      "suggested_fix": "하나님께서 오늘, 지금부터 세 시간 뒤에",
+      "translation_quote": "하나님께서 아직 세 시간이 남은 이 오늘,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

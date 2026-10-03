@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, Zechariah quotation\",\"severity\":\"major\",\"source_quote\":\"For who hath despised the day of small things… –Zechariah 4:10.\",\"suggested_fix\":\"Replace «Ибо кто возненавидел день малых сих…» with «Ибо кто пренебрёг днём малых сих…»; preserve the existing reference and markup.\",\"translation_quote\":\"Ибо кто возненавидел день малых сих… –Захария 4:10.\"},{\"location\":\"Article body, paragraph beginning “Из этих примеров мы видим”\",\"severity\":\"major\",\"source_quote\":\"God has chosen these weak things to be significant in His kingdom.\",\"suggested_fix\":\"Change «Бог избрал это немощное, чтобы оно имело значение в Его Царстве» to «Бог избрал эти немощные вещи, чтобы они имели значение в Его Царстве».\",\"translation_quote\":\"Бог избрал это немощное, чтобы оно имело значение в Его Царстве.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1146,
+    "content_evidence_truncated": false,
+    "content_sha256": "5f1de97ccc31ab408711031aa4e1a58e8ce23ce5967b9466b02abaec539be086",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 570,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5416,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5413,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6241
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

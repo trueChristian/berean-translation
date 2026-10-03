@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Change to “GEDAGTES VAN ’N SENDeling” only if preserving the current wording is intended; preferably use consistent uppercase: “GEDAGTES VAN ’N SENDELING”.",
+      "translation_quote": "GEDAGTES VAN ’N SENDeling"
+    },
+    {
+      "location": "html, paragraph beginning “When we call out to God for salvation”",
+      "severity": "minor",
+      "source_quote": "we know we need to be saved; converted.",
+      "suggested_fix": "Replace “ons weet dat ons gered; bekeer moet word” with “ons weet dat ons gered en bekeer moet word”.",
+      "translation_quote": "ons weet dat ons gered; bekeer moet word"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

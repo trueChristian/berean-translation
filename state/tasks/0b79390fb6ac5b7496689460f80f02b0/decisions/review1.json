@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "This is not too much for Him to ask of us, because He is sovereign.",
+      "suggested_fix": "ليس هذا كثيرًا مما يطلبه منا، لأنه صاحب السيادة.",
+      "translation_quote": "ليس في هذا ما يطلبه أكثر مما ينبغي، لأنه صاحب السيادة."
+    },
+    {
+      "location": "Paragraph under “Relationships”",
+      "severity": "major",
+      "source_quote": "The life of God can flow through us and both show others the way to Him and give us joy and fulfillment in doing it.",
+      "suggested_fix": "ويمكن لحياة الله أن تجري فينا، فتُري الآخرين الطريق إليه وتمنحنا الفرح والإشباع ونحن نفعل ذلك.",
+      "translation_quote": "ويمكن لحياة الله أن تجري فينا، فترينا الطريق إليه وتمنحنا الفرح والإشباع ونحن نفعل ذلك."
+    },
+    {
+      "location": "Final paragraph, quoted Scripture",
+      "severity": "minor",
+      "source_quote": "at thy right hand there are pleasures for evermore",
+      "suggested_fix": "وفي يمينك لذّات إلى الأبد",
+      "translation_quote": "وفي يمينك نِعَم إلى الأبد"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

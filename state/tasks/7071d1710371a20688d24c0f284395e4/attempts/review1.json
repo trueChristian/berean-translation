@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph about the widow of Zarephath\",\"severity\":\"minor\",\"source_quote\":\"God blessed her willing obedience\",\"suggested_fix\":\"Dio benedisse la sua obbedienza volenterosa\",\"translation_quote\":\"Dio benedisse la sua obbedienza pronta a offrirsi\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 303,
+    "content_evidence_truncated": false,
+    "content_sha256": "7d7b74aa39a85370a6c27bb3582c0710269e8704eca40e4faa94bbfeb970f480",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 480,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 390,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5496,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5493,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5976
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

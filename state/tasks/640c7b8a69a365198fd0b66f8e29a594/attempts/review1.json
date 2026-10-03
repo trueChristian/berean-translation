@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraphe 3\",\"severity\":\"minor\",\"source_quote\":\"Our fifth grader needs help with multiplying fractions.\",\"suggested_fix\":\"Remplacer « Notre enfant de cinquième année » par « Notre enfant en cinquième année de primaire » pour rendre le niveau scolaire plus clair en français.\",\"translation_quote\":\"Notre enfant de cinquième année a besoin d’aide pour multiplier des fractions.\"},{\"location\":\"HTML, paragraphe 3\",\"severity\":\"minor\",\"source_quote\":\"for the umpteenth time\",\"suggested_fix\":\"Remplacer « pour la énième fois » par « pour l’énième fois ».\",\"translation_quote\":\"pour la énième fois\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 677,
+    "content_evidence_truncated": false,
+    "content_sha256": "4e90b89a52c0eac9cf79ed65dbffbc7f708b20768fe7a0ce436c7e1db7fd9a60",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 722,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 548,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5413,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5410,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6135
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b47bc414-69bf-9563-93ef-49164b946c8f",
+    "response_id": "chatcmpl-EUxHdW8GjvZa0YDmizZuQaEJUorP8",
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 606,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5197,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5980
+    }
+  },
+  "received_at": "2026-10-03T17:00:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 3",
+        "severity": "minor",
+        "source_quote": "The neighbor calls at the door.",
+        "suggested_fix": "Use a gender-neutral equivalent, such as “A pessoa vizinha bate à porta” or “Alguém da vizinhança bate à porta.”",
+        "translation_quote": "A vizinha bate à porta."
+      },
+      {
+        "location": "HTML paragraph 3",
+        "severity": "minor",
+        "source_quote": "Our fifth grader needs help with multiplying fractions.",
+        "suggested_fix": "Avoid specifying the child's gender; for example: “A criança que está no quinto ano precisa de ajuda para multiplicar frações.”",
+        "translation_quote": "Nosso filho do quinto ano precisa de ajuda para multiplicar frações."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

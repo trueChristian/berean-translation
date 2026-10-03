@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Second poem stanza, line 4",
+      "severity": "major",
+      "source_quote": "With God shut out, and self shut in / And selfish aims surround.",
+      "suggested_fix": "when Gud hålls utanför och jaget hålls instängt / och själviska mål omger mig.",
+      "translation_quote": "när Gud stängs ute och jag stänger in mig / och själviska mål omger mig."
+    },
+    {
+      "location": "Second poem stanza, line 4",
+      "severity": "major",
+      "source_quote": "And dost thou plan the New Year full / There, ‘neath some Christmas tree?",
+      "suggested_fix": "Och planerar du där, under någon julgran, / för hela det nya året?",
+      "translation_quote": "Och planerar du ett helt nytt år / där, under någon julgran?"
+    },
+    {
+      "location": "Third poem stanza, line 2",
+      "severity": "major",
+      "source_quote": "Your lessons learned alright?",
+      "suggested_fix": "Har du lärt dig dina läxor ordentligt?",
+      "translation_quote": "Har du verkligen lärt dig läxorna?"
+    },
+    {
+      "location": "Third poem stanza, line 3",
+      "severity": "major",
+      "source_quote": "If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?",
+      "suggested_fix": "Om Gud om bara tre timmar, JUST I DAG, / skulle avsluta din livsvandring I NATT?",
+      "translation_quote": "Om Gud om bara tre timmar, JUST I DAG, / skulle sätta punkt för ditt liv I NATT?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first poem, fourth stanza",
+      "severity": "major",
+      "source_quote": "Who weigh themselves, not with God’s truth, / As every day they ought!",
+      "suggested_fix": "Replace the corresponding lines with: “Quem se avalie pela verdade de Deus, / Como deveria fazer todos os dias!”",
+      "translation_quote": "Quem se avalie, não pela verdade de Deus, / Como deveria fazer todos os dias!"
+    },
+    {
+      "location": "HTML, second poem, second stanza",
+      "severity": "major",
+      "source_quote": "And dost thou plan the New Year full / There, ‘neath some Christmas tree?",
+      "suggested_fix": "Replace the corresponding lines with: “E planeias por inteiro o Ano Novo / Ali, debaixo de alguma árvore de Natal?”",
+      "translation_quote": "E planeias passar o Ano Novo inteiro / Ali, debaixo de uma árvore de Natal?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

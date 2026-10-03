@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, gedicht, strofe 8",
+      "severity": "minor",
+      "source_quote": "Yet the promise remains, all works out well,",
+      "suggested_fix": "Vertaal dit als ‘Toch blijft de belofte staan: alles werkt ten goede’ om de strekking van ‘works out well’ nauwkeuriger weer te geven.",
+      "translation_quote": "Toch blijft de belofte staan: alles komt goed"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

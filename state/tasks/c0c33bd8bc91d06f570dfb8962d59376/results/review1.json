@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3c68800e-024d-4509-bd9c-b49408f251c8",
+    "response_id": "chatcmpl-EUxJTZ6fDAo8rmdj37jvAGPuotIlf",
+    "usage": {
+      "completion_tokens": 668,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8783,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8780,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9451
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Citas de Hebreos 4:9-11 y Hebreos 4:11",
+        "severity": "major",
+        "source_quote": "“lest any man fall after the same example of unbelief”",
+        "suggested_fix": "En ambas citas, sustituir «desobediencia» por «incredulidad» para conservar el sentido de “unbelief” en el texto fuente. Por ejemplo: «Procuremos, pues, entrar en aquel reposo, para que nadie caiga siguiendo el mismo ejemplo de incredulidad».",
+        "translation_quote": "«que ninguno caiga en semejante ejemplo de desobediencia»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

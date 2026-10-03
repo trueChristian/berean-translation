@@ -2,7 +2,6 @@
   "article_id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 6671
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 621,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6450,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6447,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7071
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Άρθρο, παράγραφος για τις καθημερινές δουλειές",
+      "severity": "major",
+      "source_quote": "I wipe the baby’s nose for the umpteenth time as she sits on top of the table disrupting her brother’s books and papers.",
+      "suggested_fix": "Αλλάξτε το «ανακατεύει» σε «αναστατώνει» ή «ανακατεύει τα βιβλία και τα χαρτιά του αδελφού της» μόνο αν εννοείται ότι τα ανακατεύει· στο συγκεκριμένο συμφραζόμενο προτιμάται «αναστατώνει τα βιβλία και τα χαρτιά του αδελφού της».",
+      "translation_quote": "Σκουπίζω τη μύτη του μωρού για πολλοστή φορά, καθώς κάθεται πάνω στο τραπέζι και ανακατεύει τα βιβλία και τα χαρτιά του αδελφού της."
+    },
+    {
+      "location": "Άρθρο, παράγραφος που αρχίζει «Ποια είμαι εγώ…»",
+      "severity": "major",
+      "source_quote": "Am I restless with my duties, believing God would be more pleased with my perception of ‘great’ duties, seemingly always out of reach?",
+      "suggested_fix": "Αποδώστε το νόημα της ανησυχίας/ανυπομονησίας για τα καθήκοντα, π.χ. «Μήπως είμαι ανήσυχη με τα καθήκοντά μου, πιστεύοντας ότι ο Θεός θα ευαρεστούνταν περισσότερο με εκείνα που εγώ θεωρώ “μεγάλα” καθήκοντα, τα οποία μοιάζουν πάντα απρόσιτα;»",
+      "translation_quote": "Ανυπομονώ για τα καθήκοντά μου, πιστεύοντας ότι ο Θεός θα ευαρεστούνταν περισσότερο αν έκανα εκείνα που εγώ θεωρώ «μεγάλα» καθήκοντα, τα οποία μοιάζουν πάντα απρόσιτα;"
+    },
+    {
+      "location": "Άρθρο, παράγραφος με το παράδειγμα των δώδεκα μαθητών",
+      "severity": "major",
+      "source_quote": "In the end, His small band of men deserted Him. He was mocked and killed.",
+      "suggested_fix": "Διατηρήστε τη διάκριση του πρωτοτύπου ανάμεσα στους μαθητές που Τον εγκατέλειψαν και στους ανθρώπους που Τον χλεύασαν και Τον σκότωσαν, π.χ. «Τελικά, εκείνη η μικρή ομάδα αντρών Τον εγκατέλειψε. Τον χλεύασαν και Τον σκότωσαν.»",
+      "translation_quote": "Τελικά, εκείνη η μικρή ομάδα αντρών Τον εγκατέλειψε. Τον χλεύασαν και Τον σκότωσαν."
+    }
+  ],
   "id": "97171b4f59c19e1332a2b125029366b6",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ell",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
   "translation_model_actual": "gpt-6-luna"

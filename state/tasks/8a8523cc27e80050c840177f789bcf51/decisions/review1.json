@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, sesta strofa, seconda riga",
+      "severity": "major",
+      "source_quote": "“My chosen one,",
+      "suggested_fix": "Sostituire «Scelta mia» con «Mia prescelta» (oppure «Mia eletta») per rendere l’appellativo rivolto alla persona amata.",
+      "translation_quote": "«Scelta mia,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

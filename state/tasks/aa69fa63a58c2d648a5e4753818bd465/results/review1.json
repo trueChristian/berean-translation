@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9f4572d9-e188-403b-8a47-b492ebb04dc0",
+    "response_id": "chatcmpl-EUxHV09RPbxwrP3bEbu6mcZGtVwaf",
+    "usage": {
+      "completion_tokens": 1032,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 919,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8578,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8575,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9610
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph 5",
+        "severity": "minor",
+        "source_quote": "the real church of Jesus Christ",
+        "suggested_fix": "Change “کا” to “کی”: “لیکن یسوع مسیح کی حقیقی کلیسیا ہمیشہ قدرت رکھے گی۔”",
+        "translation_quote": "لیکن یسوع مسیح کا حقیقی کلیسیا ہمیشہ قدرت رکھے گا۔"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

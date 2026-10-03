@@ -2,7 +2,6 @@
   "article_id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 5453
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 780,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 606,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5200,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5197,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5980
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML paragraph 3",
+      "severity": "minor",
+      "source_quote": "The neighbor calls at the door.",
+      "suggested_fix": "Use a gender-neutral equivalent, such as “A pessoa vizinha bate à porta” or “Alguém da vizinhança bate à porta.”",
+      "translation_quote": "A vizinha bate à porta."
+    },
+    {
+      "location": "HTML paragraph 3",
+      "severity": "minor",
+      "source_quote": "Our fifth grader needs help with multiplying fractions.",
+      "suggested_fix": "Avoid specifying the child's gender; for example: “A criança que está no quinto ano precisa de ajuda para multiplicar frações.”",
+      "translation_quote": "Nosso filho do quinto ano precisa de ajuda para multiplicar frações."
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:50+00:00",
   "id": "fac0e58bae6d94e34f4d7742bd5a64c8",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "por",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
   "translation_model_actual": "gpt-6-luna"

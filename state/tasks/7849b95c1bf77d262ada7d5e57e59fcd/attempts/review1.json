@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Premier paragraphe sous « Dieu a donné l’exemple du repos lors de la création »\",\"severity\":\"minor\",\"source_quote\":\"Even though the law of the Sabbath would not be instituted for at least two thousand years\",\"suggested_fix\":\"Bien que la loi du sabbat ne doive être instituée que deux mille ans au moins plus tard\",\"translation_quote\":\"Bien que la loi du sabbat ne soit apparue que deux mille ans plus tard\"},{\"location\":\"Paragraphe sous « Le repos réduit l’inflammation »\",\"severity\":\"minor\",\"source_quote\":\"Blood pressure and heart conditions also benefit when a person gets adequate amounts of restorative sleep.\",\"suggested_fix\":\"La tension artérielle et la santé cardiaque bénéficient également d’un sommeil réparateur en quantité suffisante.\",\"translation_quote\":\"La tension artérielle et les problèmes cardiaques bénéficient également d’un sommeil réparateur en quantité suffisante.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 974,
+    "content_evidence_truncated": false,
+    "content_sha256": "534cb6ca33c59a38f0394031c24c31d6d43dd66d3c8a6b583ccb6d71dfdc4ce4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 597,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9149,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9971
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "04ca7644-c9c1-417c-a9f0-84ca087f679c",
+    "response_id": "chatcmpl-EUxHVf2sFfLKdS7it0dZtIPyEHXDg",
+    "usage": {
+      "completion_tokens": 314,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 212,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1709,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1706,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2023
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Gedicht, vierte Zeile",
+        "severity": "major",
+        "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
+        "suggested_fix": "Wir können uns das Lachen nicht leisten, das in bitteren Tränen endet.",
+        "translation_quote": "Wir können es uns nicht leisten, mit einem Lachen bittere Tränen zu beenden."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

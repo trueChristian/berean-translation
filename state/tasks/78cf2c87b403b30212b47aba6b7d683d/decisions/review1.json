@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, refrain, third line",
+      "severity": "major",
+      "source_quote": "Grace for the trials",
+      "suggested_fix": "χάρη μέσα στις δοκιμασίες",
+      "translation_quote": "χάρη στις δοκιμασίες"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

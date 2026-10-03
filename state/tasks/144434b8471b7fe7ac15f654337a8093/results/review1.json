@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c043d123-9193-453d-8712-d0be910739e1",
+    "response_id": "chatcmpl-EUxHi08sKpdjZXBVLVguRWTsfWIOp",
+    "usage": {
+      "completion_tokens": 665,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 552,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1623,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1620,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2288
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 5",
+        "severity": "minor",
+        "source_quote": "We can’t afford the feast today that brings tomorrow’s fast;",
+        "suggested_fix": "Replace “Não podemos nos banqueteiar hoje e amanhã passar fome;” with “Não podemos banquetear hoje e amanhã jejuar;”",
+        "translation_quote": "Não podemos nos banqueteiar hoje e amanhã passar fome;"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

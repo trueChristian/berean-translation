@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Body, paragraph 6\",\"severity\":\"minor\",\"source_quote\":\"“inside the red bank barn”\",\"suggested_fix\":\"Replace “লাল গোয়ালঘরের ভেতরে” with “ঢালু জমিতে নির্মিত লাল গোয়ালঘরের ভেতরে” to retain the detail that it was a bank barn.\",\"translation_quote\":\"“লাল গোয়ালঘরের ভেতরে থাকা পুরোনো শীতলঘরে”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 532,
+    "content_evidence_truncated": false,
+    "content_sha256": "6a7f713cd8b0f3da4ddd02533b5a3343c32020ba57c4d822c0d4a9369f7125d1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 495,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3079,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3076,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3697
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

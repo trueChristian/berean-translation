@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, stanza beginning “Sometimes I feel all alone”\",\"severity\":\"major\",\"source_quote\":\"“I alone can fulfill, that for which your heart yearns.”\",\"suggested_fix\":\"Replace the final Hebrew line with: רק אני יכול למלא את מה שלבך כמה אליו. Preserve the existing <p> and line-break structure.\",\"translation_quote\":\"רק אני יכול למלא את מה שלבו שלֵךְ כמה אליו.\"},{\"location\":\"HTML, poem, stanza beginning “Sometimes I feel left behind”\",\"severity\":\"major\",\"source_quote\":\"“And look forward to His eternal jubilee!”\",\"suggested_fix\":\"Replace the final Hebrew line with: ואצפה בשמחה ליובל הנצחי שלו! Preserve the existing <p> and line-break structure.\",\"translation_quote\":\"ואצפה בשמחה ליום הגאולה הנצחית שלו!\"},{\"location\":\"HTML, poem, final stanza\",\"severity\":\"minor\",\"source_quote\":\"“Oh what bliss will be the feeling,”\",\"suggested_fix\":\"Change ״הו, איזו אושר יהיה,״ to ״הו, איזה אושר יהיה,״ for correct Hebrew grammatical agreement.\",\"translation_quote\":\"הו, איזו אושר יהיה,\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1211,
+    "content_evidence_truncated": false,
+    "content_sha256": "d99d8af9147035e3e762f29a48b944b32a7a46011299df0fe3cd8b09b05bd467",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 839,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 549,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2351,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2348,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3190
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

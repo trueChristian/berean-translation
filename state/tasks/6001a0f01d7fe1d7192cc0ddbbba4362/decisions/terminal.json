@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Body, paragraph 6",
+      "severity": "minor",
+      "source_quote": "“inside the red bank barn”",
+      "suggested_fix": "Replace “লাল গোয়ালঘরের ভেতরে” with “ঢালু জমিতে নির্মিত লাল গোয়ালঘরের ভেতরে” to retain the detail that it was a bank barn.",
+      "translation_quote": "“লাল গোয়ালঘরের ভেতরে থাকা পুরোনো শীতলঘরে”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f74da02c-1bff-474f-9383-aac949c206f5",
+    "response_id": "chatcmpl-EUxHghFG4HcKwQFcdUCA1MygazLDq",
+    "usage": {
+      "completion_tokens": 232,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1962,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1959,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2194
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "قصيدة، المقطع الثالث، السطران الثالث والرابع",
+        "severity": "major",
+        "source_quote": "With God shut out, and self shut in / And selfish aims surround.",
+        "suggested_fix": "استبدل السطرين بـ«حين يُبعَد الله وتُحبَس الذات في داخلها، / وتحيط الغايات الأنانية بالمرء.»",
+        "translation_quote": "فالله مُبعَد، والذات مُغلقة عليها، / والغايات الأنانية تحيط بي."
+      },
+      {
+        "location": "قصيدة، المقطع الأخير، السطران الثالث والرابع",
+        "severity": "major",
+        "source_quote": "If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?",
+        "suggested_fix": "استبدل السطرين بـ«إن أغلق الله مسيرتك هذه الليلة، / بعد ثلاث ساعات فحسب من هذا اليوم؟»",
+        "translation_quote": "إن أغلق الله، بعد ثلاث ساعات فحسب، في هذا اليوم، / مسيرتك هذه الليلة؟"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

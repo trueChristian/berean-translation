@@ -2,7 +2,6 @@
   "article_id": "61996151-3b49-4498-9285-995520ca542d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 9888
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 477,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9746,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9743,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10223
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Another law which seemed very much focused…”",
+      "severity": "critical",
+      "source_quote": "“every seven years the land was to lie fallow for the whole year”",
+      "suggested_fix": "Change “kila baada ya miaka saba” to “kila mwaka wa saba” to convey that the land lay fallow in every seventh year, not once every seven years thereafter.",
+      "translation_quote": "“kila baada ya miaka saba ardhi iachwe bila kulimwa kwa mwaka mzima”"
+    },
+    {
+      "location": "HTML, paragraph beginning “The biblical book of Hebrews…”; quotation, Hebrews 4:9",
+      "severity": "major",
+      "source_quote": "“There remaineth therefore a rest to the people of God.”",
+      "suggested_fix": "Replace “raha ya sabato” with “pumziko” (or another faithful Kiswahili rendering of “a rest”), so the translation does not add “Sabbath” to the quotation.",
+      "translation_quote": "“Basi, imesalia raha ya sabato kwa watu wa Mungu.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “There have been several studies that looked at function…”",
+      "severity": "major",
+      "source_quote": "“Probably the fact that inflammation levels are higher when we don’t rest, increases the risks of infection.”",
+      "suggested_fix": "Revise to say that higher inflammation levels when people do not rest probably increase the risk of infection; for example: “Huenda ukweli kwamba viwango vya uvimbe huwa juu zaidi tusipopumzika huongeza hatari ya maambukizi.”",
+      "translation_quote": "“Huenda viwango vya uvimbe vinavyokuwa juu zaidi tusipopumzika ndivyo vinavyoongeza hatari ya maambukizi.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “I am afraid that many people struggle…”; quotation, Hebrews 4:11",
+      "severity": "major",
+      "source_quote": "“example of unbelief”",
+      "suggested_fix": "Replace “mfano uo huo wa kuasi” with “mfano huo huo wa kutokuamini” or another faithful rendering of “unbelief”; “kuasi” changes the quoted description to rebellion.",
+      "translation_quote": "“mfano uo huo wa kuasi”"
+    }
+  ],
   "id": "17821f5e7d7d6336aa42a690ecd468c4",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "swa",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/524d40c54ec6764637a5f253440ead3daccb8d3dce30013c3273f7254041ebde.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
   "translation_model_actual": "gpt-6-luna"

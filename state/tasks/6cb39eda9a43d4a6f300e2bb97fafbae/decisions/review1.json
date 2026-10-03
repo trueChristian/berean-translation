@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 4",
+      "severity": "minor",
+      "source_quote": "“Steven, don’t eat any peaches; it will ruin your supper.”",
+      "suggested_fix": "“Steven, jangan makan buah persik; nanti kamu jadi tidak berselera makan malam.”",
+      "translation_quote": "“Steven, jangan makan buah persik; nanti makan malammu jadi tidak enak.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

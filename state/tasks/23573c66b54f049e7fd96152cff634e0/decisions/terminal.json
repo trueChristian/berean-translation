@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 11",
+      "severity": "minor",
+      "source_quote": "We can’t afford for hate to give like hatred in return;",
+      "suggested_fix": "Non possiamo permetterci di rispondere all’odio con odio;",
+      "translation_quote": "Non possiamo permettere all’odio di ricambiare con odio;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

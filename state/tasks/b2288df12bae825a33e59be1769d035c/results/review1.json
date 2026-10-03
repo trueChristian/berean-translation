@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3bcb4640-5a4d-4de5-ab56-914ee83c9d99",
+    "response_id": "chatcmpl-EUxIE3YxyEu0vEzaLDYcyGcAss1FT",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 719,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10386,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10383,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11259
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, paragraph 3; 1 Samuel 17:43",
+        "severity": "major",
+        "source_quote": "“Am I a dog, that thou comest to me with staves…”",
+        "suggested_fix": "Change the quoted Greek to a rhetorical question, for example: «…Μήπως είμαι σκύλος, ώστε να έρχεσαι εναντίον μου με ραβδιά…»",
+        "translation_quote": "«…Είμαι σκύλος, ώστε να έρχεσαι εναντίον μου με ραβδιά…»"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

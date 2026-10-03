@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Hebrews 4:9–11 quotation\",\"severity\":\"major\",\"source_quote\":\"“There remaineth therefore a rest to the people of God.”\",\"suggested_fix\":\"In this quotation, replace “सब्त का विश्राम” with “विश्राम” so it does not specify a kind of rest that the printed source does not specify.\",\"translation_quote\":\"“इसलिये परमेश्वर के लोगों के लिये सब्त का विश्राम बाकी है।”\"},{\"location\":\"HTML, Hebrews 4:9–11 quotations (both occurrences)\",\"severity\":\"major\",\"source_quote\":\"“lest any man fall after the same example of unbelief”\",\"suggested_fix\":\"In both quoted passages, replace “अवज्ञा” with “अविश्वास” to preserve the source’s reference to unbelief rather than disobedience.\",\"translation_quote\":\"“ऐसा न हो कि कोई उस अवज्ञा के उदाहरण पर गिर पड़े”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1069,
+    "content_evidence_truncated": false,
+    "content_sha256": "1a53403a7750e643c48dc90631aff7eb7fcec50006403b72fd2df3216f522d50",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 601,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9812,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9809,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10637
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

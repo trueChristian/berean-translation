@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 10758
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 949,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 697,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10580,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10577,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11529
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, section “b.) Tudo espera”",
+      "severity": "minor",
+      "source_quote": "if your husband falls short of the glory you married him with",
+      "suggested_fix": "Replace “se seu marido ficar aquém da glória com que vocês se casaram com ele” with a clearer rendering, such as “se seu marido não corresponder à imagem que vocês tinham dele ao se casar”",
+      "translation_quote": "se seu marido ficar aquém da glória com que vocês se casaram com ele"
+    },
+    {
+      "location": "HTML, paragraph beginning “A sinceridade da minha busca pessoal”",
+      "severity": "minor",
+      "source_quote": "The sincerity of my personal quest to pursue and to comprehend from the heart, the love of Christ",
+      "suggested_fix": "Replace “A sinceridade da minha busca pessoal por perseguir e compreender, de coração, o amor de Cristo” with “A sinceridade com que busco, de coração, perseguir e compreender o amor de Cristo”",
+      "translation_quote": "A sinceridade da minha busca pessoal por perseguir e compreender, de coração, o amor de Cristo"
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:46+00:00",
   "id": "2911677bed95780d57779481960bfde0",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "por",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf kutipan Zakharia 4:10",
+      "severity": "minor",
+      "source_quote": "For who hath despised the day of small things…",
+      "suggested_fix": "Ganti “hari-hari kecil” dengan “hari-hari permulaan yang kecil” agar makna “small things” sebagai awal atau hal kecil yang dipandang rendah lebih jelas.",
+      "translation_quote": "Siapakah yang memandang rendah hari-hari kecil…"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

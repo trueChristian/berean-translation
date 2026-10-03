@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,80 @@
         },
         "total_tokens": 8480
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 869,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8339,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8336,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9208
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, parágrafo sobre o irmão pródigo",
+      "severity": "minor",
+      "source_quote": "It was a the younger prodigal brother that asked for an early draw on his inheritance then went and wasted it on riotous living.",
+      "suggested_fix": "Replace “Foi o irmão mais novo e pródigo que pediu antecipadamente sua parte da herança e depois a desperdiçou vivendo dissolutamente” with “Foi o irmão pródigo mais jovem que pediu antecipadamente sua parte da herança e depois a desperdiçou numa vida desregrada.”",
+      "translation_quote": "Foi o irmão mais novo e pródigo que pediu antecipadamente sua parte da herança e depois a desperdiçou vivendo dissolutamente."
+    },
+    {
+      "location": "HTML, parágrafo sobre as imagens do orvalho",
+      "severity": "minor",
+      "source_quote": "a uniformed regiment of grass sparkling as if embedded with a myriad of diamonds.",
+      "suggested_fix": "Replace “um exército uniforme de grama” with “um exército ordenado de fios de relva”, preservando a imagem de fileiras de grama cintilantes.",
+      "translation_quote": "um exército uniforme de grama cintilando como se estivesse incrustado com miríades de diamantes."
+    },
+    {
+      "location": "HTML, parágrafo sobre a meia-idade",
+      "severity": "minor",
+      "source_quote": "that tumultuous rush of bodily energy that plowed through anything becomes enshrined with memories of the past.",
+      "suggested_fix": "Replace “passa a ser guardado como lembrança do passado” with “fica preservado nas lembranças do passado”, que expressa melhor que a energia impetuosa se torna memória.",
+      "translation_quote": "aquele ímpeto tumultuoso de energia física que abria caminho por tudo passa a ser guardado como lembrança do passado."
+    },
+    {
+      "location": "HTML, parágrafo sobre esperança e experiências",
+      "severity": "minor",
+      "source_quote": "Anyone with any age on their bones can testify to a poor experience and the subsequent feelings of hopelessness following.",
+      "suggested_fix": "Replace “Qualquer pessoa que já tenha acumulado alguns anos de vida pode testemunhar uma experiência dolorosa e os sentimentos de desesperança que se seguem” with “Qualquer pessoa que já tenha alguns anos de vida pode testemunhar que passou por experiências ruins e pelos sentimentos de desesperança que vêm depois.”",
+      "translation_quote": "Qualquer pessoa que já tenha acumulado alguns anos de vida pode testemunhar uma experiência dolorosa e os sentimentos de desesperança que se seguem."
+    },
+    {
+      "location": "HTML, parágrafo sobre o homem em Betesda",
+      "severity": "major",
+      "source_quote": "The impotent man of 38 years at Bethesda",
+      "suggested_fix": "Replace “O homem paralítico de 38 anos em Betesda” with “O homem enfermo havia 38 anos em Betesda”. O original diz que ele estava enfermo havia 38 anos, não que tinha 38 anos de idade.",
+      "translation_quote": "O homem paralítico de 38 anos em Betesda"
+    },
+    {
+      "location": "HTML, parágrafo sobre o jugo na juventude",
+      "severity": "minor",
+      "source_quote": "those who have an appetite for it will reap in hope of its youthful reward.",
+      "suggested_fix": "Replace “aqueles que tiverem apetite por isso colherão na esperança da recompensa juvenil que ela traz” with “aqueles que tiverem disposição para isso colherão com esperança a recompensa própria da juventude.”",
+      "translation_quote": "aqueles que tiverem apetite por isso colherão na esperança da recompensa juvenil que ela traz."
+    },
+    {
+      "location": "HTML, parágrafo final, frase sobre a retribuição do sofrimento de Jó",
+      "severity": "major",
+      "source_quote": "But before his pain had received an ounce of retribution, the healing streams began to flow as Job reverenced his Creator.",
+      "suggested_fix": "Substitua “Mas, antes que seu sofrimento recebesse sequer uma gota de retribuição” por “Mas, antes que seu sofrimento fosse de algum modo recompensado”, mantendo a ideia de retribuição/recompensa do original, e não de vingança ou castigo.",
+      "translation_quote": "Mas, antes que seu sofrimento recebesse sequer uma gota de retribuição"
+    }
+  ],
   "id": "86429529e69d22e2cad30db0d3fbf7f9",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "por",
@@ -116,11 +186,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

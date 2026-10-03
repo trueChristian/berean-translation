@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6ff0b013-ba26-458c-baee-8129ad80c525",
+    "response_id": "chatcmpl-EUxHyMvsdVJmVBWb3LxZuU7OGQLNQ",
+    "usage": {
+      "completion_tokens": 811,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 568,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1691,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1688,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2502
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem line 7",
+        "severity": "minor",
+        "source_quote": "We can’t afford to play with fire, or tempt a serpent’s bite;",
+        "suggested_fix": "Erstatt «friste et slangebitt» med «utsette oss for et slangebitt» for å uttrykke at man ikke bør utsette seg for slangens bitt.",
+        "translation_quote": "Vi har ikke råd til å leke med ilden eller friste et slangebitt;"
+      },
+      {
+        "location": "source.html, poem line 9",
+        "severity": "minor",
+        "source_quote": "We can’t afford with serious heed to treat the cynic’s sneer;",
+        "suggested_fix": "Erstatt «kynikerens hånlige smil» med «kynikerens hånlige hån» eller «kynikerens hånlige grimase» for å bevare bildet av en hånlig grimase, ikke et smil.",
+        "translation_quote": "Vi har ikke råd til å ta kynikerens hånlige smil på alvor;"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

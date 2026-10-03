@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 2\",\"severity\":\"major\",\"source_quote\":\"I’ll plan not for a life / That I might live in ease, / But only for today to live / My God alone to please.\",\"suggested_fix\":\"Replace “Sitapanga maisha / Ambayo huenda nikaishi kwa raha, / Bali nitajitahidi kuishi leo / Ili kumpendeza Mungu wangu peke yake.” with “Sitaweka mipango ya maisha / Ambayo huenda nikaishi kwa raha, / Bali nitaishi kwa ajili ya leo tu / Ili kumpendeza Mungu wangu peke yake.”\",\"translation_quote\":\"Sitapanga maisha / Ambayo huenda nikaishi kwa raha, / Bali nitajitahidi kuishi leo / Ili kumpendeza Mungu wangu peke yake.\"},{\"location\":\"Poem, stanza 3\",\"severity\":\"major\",\"source_quote\":\"Nor dare I think in years / Or move from leaps to bounds; / With God shut out, and self shut in / And selfish aims surround.\",\"suggested_fix\":\"Replace “Wala sitathubutu kufikiria kwa miaka mingi / Au kupiga hatua kubwa; / Mungu akiwa ametengwa, na nafsi yangu ikiwa imefungiwa ndani, / Nikiwa nimezingirwa na malengo ya ubinafsi.” with “Wala sitathubutu kuwaza kwa miaka mingi / Au kuruka hatua kubwa; / Huku nikimwacha Mungu nje na kujifungia ndani yangu mwenyewe, / Nikiwa nimezungukwa na malengo ya ubinafsi.”\",\"translation_quote\":\"Wala sitathubutu kufikiria kwa miaka mingi / Au kupiga hatua kubwa; / Mungu akiwa ametengwa, na nafsi yangu ikiwa imefungiwa ndani, / Nikiwa nimezingirwa na malengo ya ubinafsi.\"},{\"location\":\"Poem, stanza 4\",\"severity\":\"major\",\"source_quote\":\"Who weigh themselves, not with God’s truth, / As every day they ought!\",\"suggested_fix\":\"Replace “Wanaojipima, si kwa kweli ya Mungu, / Ingawa ndivyo wanavyopaswa kufanya kila siku!” with “Wanaojipima, si kwa ukweli wa Mungu, / Kama wanavyopaswa kufanya kila siku!”\",\"translation_quote\":\"Wanaojipima, si kwa kweli ya Mungu, / Ingawa ndivyo wanavyopaswa kufanya kila siku!\"},{\"location\":\"Poem, stanza 6\",\"severity\":\"major\",\"source_quote\":\"And dost thou plan the New Year full / There, ‘neath some Christmas tree?\",\"suggested_fix\":\"Replace “Je, unapanga mwaka mpya mzima / Huko, chini ya mti fulani wa Krismasi?” with “Na je, unapanga mwaka mzima ujao / Huko, chini ya mti fulani wa Krismasi?”\",\"translation_quote\":\"Je, unapanga mwaka mpya mzima / Huko, chini ya mti fulani wa Krismasi?”\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 2327,
+    "content_evidence_truncated": false,
+    "content_sha256": "7936b13044a4750490f5e5b30122996b14e9293528c002871c314200d145778a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 640,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1982,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2625
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

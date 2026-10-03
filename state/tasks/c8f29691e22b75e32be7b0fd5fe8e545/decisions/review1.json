@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Men unga ska inte föraktas”, quotation from 1 Timothy 4:12",
+      "severity": "major",
+      "source_quote": "“in word, in conversation, in charity, in spirit, in faith, in purity”",
+      "suggested_fix": "Revise the list to include every distinct item, for example: “i ord och gärning, i kärlek, i anden, i tro och i renhet”. Preserve the existing <em> tags and reference.",
+      "translation_quote": "“i ord och gärning, i kärlek, tro och renhet”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

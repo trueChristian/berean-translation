@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e83c20cc-f978-4321-983c-d24c0105a39c",
+    "response_id": "chatcmpl-EUxHV9zt9xGLxdSjcYxcriUQ4Igr3",
+    "usage": {
+      "completion_tokens": 537,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 432,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2788,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2785,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3325
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, final sentence of the paragraph beginning «Después de varias horas angustiosas»",
+        "severity": "major",
+        "source_quote": "how I had gotten stung.",
+        "suggested_fix": "Replace «cómo me habían picado» with «cómo me había picado» to keep the sting consistent with the single wasp identified in the preceding paragraph.",
+        "translation_quote": "cómo me habían picado"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

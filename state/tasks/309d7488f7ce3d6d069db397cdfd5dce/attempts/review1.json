@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, párrafo sobre los cristianos de primera generación\",\"severity\":\"minor\",\"source_quote\":\"Sometimes so much so that second and third generation Christians think that first generation Christians are perhaps a little too zealous in their efforts of evangelizing those around them.\",\"suggested_fix\":\"«A veces, hasta tal punto que los cristianos de segunda y tercera generación piensan que quizá los cristianos de primera generación son un poco demasiado celosos en sus esfuerzos por evangelizar a quienes los rodean.»\",\"translation_quote\":\"A veces, tanto que los cristianos de segunda y tercera generación piensan que quizá los de la primera generación son demasiado fervorosos en sus esfuerzos por evangelizar a quienes los rodean.\"},{\"location\":\"HTML, párrafo sobre los funcionarios públicos tras los tiroteos masivos\",\"severity\":\"minor\",\"source_quote\":\"to provide safety nets, screenings, and better and more treatments\",\"suggested_fix\":\"Cambiar «evaluaciones y más y mejores tratamientos» por «evaluaciones, así como tratamientos mejores y más numerosos».\",\"translation_quote\":\"ofrecer redes de protección, evaluaciones y más y mejores tratamientos\"},{\"location\":\"HTML, párrafo sobre el hombre que empujó a la mujer\",\"severity\":\"minor\",\"source_quote\":\"They concluded that the man must have been emotionally troubled\",\"suggested_fix\":\"Cambiar «debía de haber estado emocionalmente perturbado» por «debía de tener problemas emocionales».\",\"translation_quote\":\"el hombre debía de haber estado emocionalmente perturbado\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1604,
+    "content_evidence_truncated": false,
+    "content_sha256": "cd39435899af49ef29f02553c6ed5bdac5e4d16f526b96542319269412a97e73",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 327,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4825,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4822,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5152
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

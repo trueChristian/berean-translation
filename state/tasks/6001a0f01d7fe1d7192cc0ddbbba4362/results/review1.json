@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "731ab02a-a6a0-41d1-a083-46e652e5c6f3",
+    "response_id": "chatcmpl-EUxHnbqN4iyIzbQ00JfxTvx5oQMsN",
+    "usage": {
+      "completion_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 495,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3079,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3076,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3697
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Body, paragraph 6",
+        "severity": "minor",
+        "source_quote": "“inside the red bank barn”",
+        "suggested_fix": "Replace “লাল গোয়ালঘরের ভেতরে” with “ঢালু জমিতে নির্মিত লাল গোয়ালঘরের ভেতরে” to retain the detail that it was a bank barn.",
+        "translation_quote": "“লাল গোয়ালঘরের ভেতরে থাকা পুরোনো শীতলঘরে”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

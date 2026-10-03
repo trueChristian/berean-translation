@@ -1,0 +1,147 @@
+{
+  "findings": [
+    {
+      "location": "مضمون کا ابتدائی اقتباس، ۱ کرنتھیوں 13:1–13",
+      "severity": "major",
+      "source_quote": "“And though I give my body to be burned”",
+      "suggested_fix": "اس فقرے کو یوں کریں: «اور اگر اپنا بدن جلانے کے لیے دے دوں»۔",
+      "translation_quote": "«اور اپنا بدن جلانے کے لیے حوالے کر دوں»"
+    },
+    {
+      "location": "مضمون کا ابتدائی اقتباس، ۱ کرنتھیوں 13:1–13",
+      "severity": "major",
+      "source_quote": "“For now we see through a glass, darkly; but then face to face”",
+      "suggested_fix": "اصل کے مطابق یوں ترجمہ کریں: «کیونکہ اب ہم آئینے میں دھندلا سا دیکھتے ہیں، مگر اُس وقت روبرو دیکھیں گے»۔",
+      "translation_quote": "«اب ہم آئینے میں دھندلا سا دیکھتے ہیں، مگر اُس وقت روبرو دیکھیں گے»"
+    },
+    {
+      "location": "مضمون کا ابتدائی اقتباس، ۱ کرنتھیوں 13:1–13",
+      "severity": "major",
+      "source_quote": "“now I know in part; but then shall I know even as also I am known”",
+      "suggested_fix": "«اب میں جزوی طور پر جانتا ہوں، مگر اُس وقت ویسا ہی جانوں گا جیسا میں بھی جانا گیا ہوں»۔",
+      "translation_quote": "«اب میرا علم ناقص ہے، مگر اُس وقت ایسا پورا جان لوں گا جیسا میں پورا پہچانا گیا ہوں»"
+    },
+    {
+      "location": "3. فیاضی، دوسرا پیراگراف",
+      "severity": "major",
+      "source_quote": "“Pinching someone’s fingers in a tight doorway is a perfect way to reduce my foe down to his size”",
+      "suggested_fix": "اس جملے میں مخالف کو جان بوجھ کر نیچا دکھانے کا مفہوم واضح کریں، مثلاً: «تنگ دروازے میں کسی کی انگلیاں دبا دینا اپنے مخالف کو اس کی اوقات دکھانے کا بہترین طریقہ ہے»۔",
+      "translation_quote": "«تنگ دروازے میں کسی کی انگلیاں پھنسا دینا اپنے مخالف کو اس کی اوقات دکھانے کا بہترین طریقہ ہے»"
+    },
+    {
+      "location": "4. فروتنی، امثال 16:18 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“Pride goeth before destruction, and an haughty spirit before a fall”",
+      "suggested_fix": "پہلا فقرہ «تباہی سے پہلے غرور آتا ہے» کریں؛ پھر دوسرے فقرے کا ترجمہ برقرار رکھیں۔",
+      "translation_quote": "«تباہی سے پہلے تکبر اور زوال سے پہلے مغرور روح ہے»"
+    },
+    {
+      "location": "5. خوش اخلاقی، پہلا پیراگراف",
+      "severity": "major",
+      "source_quote": "“The NIV says it better. ‘Love is not rude! Courtesy is love in the little things.’”",
+      "suggested_fix": "دونوں اصل جملوں کا ترجمہ شامل کریں: «NIV اسے بہتر طور پر یوں بیان کرتا ہے: ”محبت بدتمیز نہیں ہوتی! چھوٹی چھوٹی باتوں میں خوش اخلاقی محبت ہے۔“»",
+      "translation_quote": "«این آئی وی میں اسے بہتر طور پر کہا گیا ہے: ”محبت بدتمیزی نہیں کرتی!“ چھوٹی چھوٹی باتوں میں خوش اخلاقی محبت ہے۔»"
+    },
+    {
+      "location": "5. خوش اخلاقی، پہلے پیراگراف کا آخری حصہ",
+      "severity": "major",
+      "source_quote": "“A man who does not possess this quality can do nothing less than to be ungentle, unsympathetic, and rude. He cannot help it.”",
+      "suggested_fix": "«جس آدمی میں یہ خوبی نہیں، وہ بے نرم، بے ہمدرد اور بدتمیز ہی ہوگا۔ وہ اس سے بچ نہیں سکتا۔» ترجمہ کریں تاکہ “ungentle” اور “unsympathetic” کے الگ مفہوم برقرار رہیں۔",
+      "translation_quote": "«جس آدمی میں یہ خوبی نہیں ہوتی وہ صرف بے مروّت، بے رحم اور بدتمیز ہی ہو سکتا ہے۔ وہ اس سے بچ نہیں سکتا۔»"
+    },
+    {
+      "location": "6. بے غرضی، حقوق سے دست برداری والا پیراگراف",
+      "severity": "major",
+      "source_quote": "“Only for the great and noble purposes of divine love can we justify the waste of having given up that which we naturally perceive belongs to us by right.”",
+      "suggested_fix": "«صرف الٰہی محبت کے عظیم اور اعلیٰ مقاصد کے لیے ہی ہم اس نقصان کو جائز قرار دے سکتے ہیں کہ ہم نے وہ چیز چھوڑ دی جسے فطری طور پر اپنا حق سمجھتے ہیں»۔",
+      "translation_quote": "«الٰہی محبت کے عظیم اور اعلیٰ مقاصد ہی کے لیے ہم اس بات کو چھوڑ دینے کی قیمت کو درست قرار دے سکتے ہیں جسے ہم فطری طور پر اپنا حق سمجھتے ہیں۔»"
+    },
+    {
+      "location": "7. خوش مزاجی، پہلا پیراگراف",
+      "severity": "major",
+      "source_quote": "“A grouch is a man who sizes himself up and is sore about it.”",
+      "suggested_fix": "اس فقرے کو یوں کریں: «چڑچڑا آدمی وہ ہے جو اپنا جائزہ لیتا ہے اور اس پر کڑھتا ہے»۔",
+      "translation_quote": "«بد مزاج آدمی وہ ہے جو اپنا اندازہ خود لگاتا ہے اور اس سے ناخوش رہتا ہے۔»"
+    },
+    {
+      "location": "7. خوش مزاجی، دوسرا پیراگراف",
+      "severity": "major",
+      "source_quote": "“To be tempered by the power of God is a normal attitude of love.”",
+      "suggested_fix": "«خدا کی قوت سے مزاج میں اعتدال آنا محبت کا معمول کا رویہ ہے»۔",
+      "translation_quote": "«خدا کی قوت سے ضبطِ نفس حاصل کرنا محبت کا معمول کا رویہ ہے۔»"
+    },
+    {
+      "location": "8. «بدگمانی نہ کرنے» کی خوبی، دوسرا پیراگراف",
+      "severity": "major",
+      "source_quote": "“Someone once said ‘Sisters, a happy wife sometimes has the best husband, but more often she makes the best out of the husband she has.’”",
+      "suggested_fix": "اقتباس کا پورا مفہوم یوں منتقل کریں: «بہنو، کبھی کبھی خوش بیوی کو بہترین شوہر ملتا ہے، لیکن زیادہ تر وہ اپنے موجودہ شوہر سے بہترین نتیجہ نکالتی ہے۔»",
+      "translation_quote": "«بہنو، ایک خوش بیوی کے پاس کبھی کبھی بہترین شوہر ہوتا ہے، لیکن اکثر وہ اپنے شوہر کو بہترین بنا دیتی ہے۔»"
+    },
+    {
+      "location": "9. خلوص، پہلا پیراگراف",
+      "severity": "major",
+      "source_quote": "“It is his highest delight to see the purposes of God practically worked out in another person’s life, not the other way around.”",
+      "suggested_fix": "«اس کی سب سے بڑی خوشی یہ دیکھنا ہے کہ خدا کے مقاصد کسی دوسرے شخص کی زندگی میں عملاً پورے ہوں، نہ کہ اس کے برعکس»۔",
+      "translation_quote": "«اس کی سب سے بڑی خوشی یہ دیکھنا ہے کہ خدا کے مقاصد کسی دوسرے شخص کی زندگی میں عملاً پورے ہوں، نہ کہ اس کے برعکس۔»"
+    },
+    {
+      "location": "9. خلوص، تیسرا پیراگراف",
+      "severity": "major",
+      "source_quote": "“those who have entered into the realm of influence”",
+      "suggested_fix": "«وہ لوگ جو میرے اثر و رسوخ کے دائرے میں داخل ہوئے ہیں» لکھیں۔",
+      "translation_quote": "«وہ لوگ جو میرے اثرورسوخ کے دائرے میں آئے ہیں»"
+    },
+    {
+      "location": "محبت کی عظمت، b.) یہ سب کچھ امید رکھتی ہے، پہلی سطر",
+      "severity": "major",
+      "source_quote": "“And hope maketh not ashamed”",
+      "suggested_fix": "«اور امید شرمندہ نہیں کرتی» کو اصل مفہوم کے مطابق «اور امید شرمندہ نہیں ہونے دیتی» کریں۔",
+      "translation_quote": "«اور امید شرمندہ نہیں کرتی»"
+    },
+    {
+      "location": "محبت کی عظمت، c.) یہ سب کچھ برداشت کرتی ہے، ۲ تیمتھیس 2:10 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“that they may also obtain the salvation which is in Christ Jesus with eternal glory”",
+      "suggested_fix": "«تاکہ وہ بھی مسیح یسوع میں ابدی جلال کے ساتھ ملنے والی نجات حاصل کریں»۔",
+      "translation_quote": "«تاکہ وہ بھی اُس نجات کو حاصل کریں جو مسیح یسوع میں ابدی جلال کے ساتھ ہے»"
+    },
+    {
+      "location": "محبت کی عظمت، c.) یہ سب کچھ برداشت کرتی ہے، ۱ تواریخ 16:34 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“O give thanks unto the LORD; for he is good”",
+      "suggested_fix": "درخواست کے انداز کو محفوظ رکھتے ہوئے «اے خداوند کا شکر کرو، کیونکہ وہ بھلا ہے» یا اسی مفہوم کا رواں ترجمہ لکھیں۔",
+      "translation_quote": "«خداوند کا شکر کرو کیونکہ وہ بھلا ہے»"
+    },
+    {
+      "location": "محبت کی عظمت، محبت صرف خدا سے ملنے والے حصے کا جملہ",
+      "severity": "major",
+      "source_quote": "“Love can only be received from the Great Eternal Giver, to those worthy to possess such power and glory in their hearts.”",
+      "suggested_fix": "اصل کے مطابق یوں کریں: «محبت صرف عظیم ازلی دینے والے سے اُن لوگوں کو مل سکتی ہے جو اپنے دلوں میں ایسی قوت اور جلال رکھنے کے لائق ہیں۔»",
+      "translation_quote": "«محبت صرف اُس عظیم، ازلی دینے والے سے حاصل کی جا سکتی ہے، اُن لوگوں کے لیے جو اپنے دلوں میں ایسی قوت اور جلال رکھنے کے لائق ہیں۔»"
+    },
+    {
+      "location": "محبت کی عظمت، پختگی اور آئینے والا پیراگراف",
+      "severity": "major",
+      "source_quote": "“the looking glass become clearer for you with maturity”",
+      "suggested_fix": "یہاں «آئینہ» کو بہتر کریں، مثلاً: «میری دعا ہے کہ پختگی کے ساتھ آپ کو آئینہ زیادہ صاف دکھائی دینے لگے»۔",
+      "translation_quote": "«امید ہے کہ پختگی کے ساتھ آپ کے لیے آئینہ زیادہ صاف ہوتا جائے گا»"
+    },
+    {
+      "location": "محبت کی عظمت، اختتامی دعا، ۱ یوحنا 5:4 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith”",
+      "suggested_fix": "«کیونکہ جو کچھ خدا سے پیدا ہوا ہے وہ دنیا پر غالب آتا ہے؛ اور دنیا پر غالب آنے والی فتح ہمارا ایمان ہے»۔",
+      "translation_quote": "«کیونکہ جو کوئی خدا سے پیدا ہوا ہے وہ دنیا پر غالب آتا ہے؛ اور وہ فتح جس نے دنیا پر غالب کیا ہے ہمارا ایمان ہے۔»"
+    },
+    {
+      "location": "سیکشن",
+      "severity": "minor",
+      "source_quote": "“THE GODLY HOME”",
+      "suggested_fix": "«خدا پرست گھر» کے بجائے زیادہ فطری عنوان «خدا ترس گھرانہ» استعمال کریں۔",
+      "translation_quote": "«خدا پرست گھر»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

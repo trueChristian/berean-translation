@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6d17e6b3-2a8b-4889-aa83-114711867bc1",
+    "response_id": "chatcmpl-EUxHyjF83FQ0HomAJ945Hx63F1KDK",
+    "usage": {
+      "completion_tokens": 709,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 594,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2928,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2925,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3637
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문 6문단",
+        "severity": "minor",
+        "source_quote": "the old cooler which was inside the red bank barn",
+        "suggested_fix": "이를 붉은색 언덕에 지은 헛간 안에 있는 오래된 냉장실로 가져갔다.",
+        "translation_quote": "붉은색 헛간 안에 있는 오래된 냉장실로 가져갔다."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

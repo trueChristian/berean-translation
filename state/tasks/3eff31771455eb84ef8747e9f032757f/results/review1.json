@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e49fa25a-98c5-48b7-b5a1-cb8d14f87a73",
+    "response_id": "chatcmpl-EUxHUKqqy8ZY6wO2nbcij4TdoAYDo",
+    "usage": {
+      "completion_tokens": 530,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 352,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1649,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1646,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2179
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Gedicht, vierde regel",
+        "severity": "major",
+        "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
+        "suggested_fix": "Wij kunnen ons de lach niet veroorloven die eindigt in bittere tranen.",
+        "translation_quote": "Wij kunnen ons de lach niet veroorloven die bittere tranen tot een einde brengt."
+      },
+      {
+        "location": "Gedicht, tweede regel",
+        "severity": "major",
+        "source_quote": "We can’t afford to miss the crown by stumbling at the cross.",
+        "suggested_fix": "Wij kunnen het ons niet veroorloven de kroon mis te lopen door bij het kruis te struikelen.",
+        "translation_quote": "Wij kunnen ons niet de kroon ontzeggen door bij het kruis te struikelen."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

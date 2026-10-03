@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, premier couplet, deuxième vers",
+      "severity": "minor",
+      "source_quote": "Tomorrow may not be.",
+      "suggested_fix": "Remplacer par « Demain n’arrivera peut-être pas. »",
+      "translation_quote": "Demain n’est peut-être pas."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3760c9d8-b2cc-9b0d-854e-5f8281cd67d7",
+    "response_id": "chatcmpl-EUxI50IPbc1mbz58UOq3K11DzDyLF",
+    "usage": {
+      "completion_tokens": 816,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 563,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1428,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2247
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, refrain, final line",
+        "severity": "major",
+        "source_quote": "Unfailing kindness, undying love.",
+        "suggested_fix": "Vervang door: “Onophoudelijke goedheid, onvergankelijke liefde.”",
+        "translation_quote": "Onfeilbare goedheid, onsterfelijke liefde."
+      },
+      {
+        "location": "HTML poem, refrain, second line",
+        "severity": "minor",
+        "source_quote": "Rest for the labor, light for the way,",
+        "suggested_fix": "Vervang “Rust na het werk” door “Rust voor het werk” om het beeld van rust voor de inspanning te behouden.",
+        "translation_quote": "Rust na het werk, licht op de weg,"
+      },
+      {
+        "location": "HTML poem, stanza 2, second line",
+        "severity": "minor",
+        "source_quote": "Toil and temptation, trouble and woe;",
+        "suggested_fix": "Schrijf “zwoegen” met een kleine letter na de regelafbreking voor een natuurlijkere doorlopende zin.",
+        "translation_quote": "Zwoegen en verzoeking, tegenspoed en ellende zullen kennen;"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

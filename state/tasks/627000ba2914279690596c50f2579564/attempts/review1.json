@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “Beberapa minggu lalu”\",\"severity\":\"minor\",\"source_quote\":\"“in another state from where I live”\",\"suggested_fix\":\"Change “di negara bagian lain, jauh dari tempat tinggal saya” to “di negara bagian lain dari tempat saya tinggal” to preserve that it was a different state without adding that it was far away.\",\"translation_quote\":\"“di negara bagian lain, jauh dari tempat tinggal saya”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 483,
+    "content_evidence_truncated": false,
+    "content_sha256": "be42c77093a4568f04696074fbea6cf2eb9f58fb6a96d557a17860b39361114e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 778,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 656,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4954,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5735
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

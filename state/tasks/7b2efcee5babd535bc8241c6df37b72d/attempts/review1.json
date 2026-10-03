@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"시의 네 번째 행\",\"severity\":\"major\",\"source_quote\":\"We can’t afford the laugh that finds in bitter tears an end.\",\"suggested_fix\":\"“쓰디쓴 눈물로 끝나는 웃음도 감당할 수 없네.”처럼 웃음이 쓰디쓴 눈물로 끝난다는 뜻으로 고쳐 주세요.\",\"translation_quote\":\"쓰디쓴 눈물이 웃음으로 끝나게 하는 것도 감당할 수 없네.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 440,
+    "content_evidence_truncated": false,
+    "content_sha256": "f6600283f682bfdba4c1b5a1dc3e2645fb2f0f838d328ed3bfe68486a28f9bfc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 433,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 311,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1750,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2186
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

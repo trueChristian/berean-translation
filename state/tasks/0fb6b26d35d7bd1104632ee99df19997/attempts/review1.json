@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, opening quoted passage (1 Corinthians 13:5)\",\"severity\":\"major\",\"source_quote\":\"“thinketh no evil”\",\"suggested_fix\":\"Replace «gjemmer ikke på det onde» with «tenker ikke ondt» to convey the printed meaning.\",\"translation_quote\":\"«gjemmer ikke på det onde»\"},{\"location\":\"source.section\",\"severity\":\"major\",\"source_quote\":\"THE GODLY HOME\",\"suggested_fix\":\"Use «DET GUDSFYRTIGE HJEMMET» to preserve the meaning of “godly home”; correct the current inconsistent capitalization as part of the replacement.\",\"translation_quote\":\"DET GUDVELSIGNede HJEMMET\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 636,
+    "content_evidence_truncated": false,
+    "content_sha256": "e27af6408f985bca1286c1dbee0588b290584b6a3ef83a4af228e8f4dafcb92e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1074,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 899,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11169,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11166,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12243
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

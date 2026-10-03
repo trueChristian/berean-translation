@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, alinea over de twaalf discipelen\",\"severity\":\"major\",\"source_quote\":\"“In the end, His small band of men deserted Him.”\",\"suggested_fix\":\"Vervang «de mannen van Zijn kleine groep Hem in de steek» door «Zijn kleine groep mannen liet Hem in de steek» (of een andere formulering die duidelijk maakt dat de groep als geheel Hem verliet).\",\"translation_quote\":\"“Uiteindelijk lieten de mannen van Zijn kleine groep Hem in de steek.”\"},{\"location\":\"HTML, alinea over het leger van Gideon\",\"severity\":\"major\",\"source_quote\":\"“Normally, Gideon was accustomed to armies of thousands. and now God was asking him to fight a momentous battle with only a few hundred.”\",\"suggested_fix\":\"Vervang «Gewoonlijk was Gideon legers van duizenden gewend» door «Gideon was gewoonlijk gewend aan legers van duizenden»; zo blijft duidelijk dat Gideon aan zulke legers gewend was, niet dat hij die zelf bezat.\",\"translation_quote\":\"“Gewoonlijk was Gideon legers van duizenden gewend”\"},{\"location\":\"HTML, alinea over prestaties en succes\",\"severity\":\"major\",\"source_quote\":\"“Perhaps God allowed it all in order to learn that His acceptance of me is not based on my accomplishments.”\",\"suggested_fix\":\"Vervang «zodat ik zou leren dat Hij mij niet aanvaardt op grond van mijn prestaties» door «zodat ik zou leren dat Hij mij niet aanvaardt op grond van mijn prestaties» is inhoudelijk equivalent; pas deze passage niet aan.\" ,\"translation_quote\":\"“Misschien liet God dit allemaal toe zodat ik zou leren dat Hij mij niet aanvaardt op grond van mijn prestaties.”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1629,
+    "content_evidence_truncated": false,
+    "content_sha256": "cedf2af4bc2efc3cd92e82b42f6392ceed68b3a6f117590c99496cb190d99fbb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 377,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5230,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5227,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5607
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

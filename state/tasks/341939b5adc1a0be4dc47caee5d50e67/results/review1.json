@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2b0977f7-1222-4af2-8edc-c694c552d872",
+    "response_id": "chatcmpl-EUxHm5i4bbkbPvH82EpK70yg6NqlP",
+    "usage": {
+      "completion_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 688,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8870,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9724
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Die res sal helder geraak word…”",
+        "severity": "minor",
+        "source_quote": "The rest shall be brightly effected with a hope that…",
+        "suggested_fix": "Die res sal op treffende wyse geraak word deur ’n hoop wat…",
+        "translation_quote": "Die res sal helder geraak word deur ’n hoop wat…"
+      },
+      {
+        "location": "Final article paragraph",
+        "severity": "minor",
+        "source_quote": "if we are living in the morning light of Jesus Christ.",
+        "suggested_fix": "as ons in die oggendlig van Jesus Christus leef.",
+        "translation_quote": "as ons in die oggendl lig van Jesus Christus leef."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

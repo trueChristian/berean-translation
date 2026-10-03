@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Deze nobele jeugdige ambities…”",
+      "severity": "major",
+      "source_quote": "These noble youthful ambitions were followed by Josiah, Isaiah, Jeremiah, Daniel, Mary, and the disciples of the Lord",
+      "suggested_fix": "Replace “werden nagevolgd door” with wording that indicates these people came later as further examples, such as “Later zagen we ook Josia, Jesaja, Jeremia, Daniël, Maria en de discipelen van de Heer.”",
+      "translation_quote": "Deze nobele jeugdige ambities werden nagevolgd door Josia, Jesaja, Jeremia, Daniël, Maria en de discipelen van de Heer"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

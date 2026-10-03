@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "21aafcd4-6293-4fe7-8237-0e215d656bc5",
+    "response_id": "chatcmpl-EUxHdq8h3MHFjAUxbusoo1e58Mkx4",
+    "usage": {
+      "completion_tokens": 656,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 449,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1512,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2171
+    }
+  },
+  "received_at": "2026-10-03T17:00:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, কবিতার ৩ নম্বর স্তবক",
+        "severity": "major",
+        "source_quote": "God has not promised smooth roads and wide, / Swift, easy travel, needing no guide; / Never a mountain rocky and steep, / Never a river turbid and deep.",
+        "suggested_fix": "শেষের দুই পঙ্‌ক্তিকেও ঈশ্বর কী প্রতিশ্রুতি দেননি তার ধারাবাহিকতা হিসেবে অনুবাদ করুন। যেমন: “পাথুরে, খাড়া পাহাড় থাকবে না—এমন প্রতিশ্রুতিও ঈশ্বর দেননি; / ঘোলা, গভীর নদী থাকবে না—এমন প্রতিশ্রুতিও দেননি।”",
+        "translation_quote": "কখনোই থাকবে না পাথুরে, খাড়া পাহাড়, / কখনোই থাকবে না ঘোলা, গভীর নদী।"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

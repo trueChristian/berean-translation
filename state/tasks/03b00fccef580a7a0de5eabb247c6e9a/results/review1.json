@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8b597f3c-93f1-4e52-b7ac-fadef60e84c4",
+    "response_id": "chatcmpl-EUxJZcr0SvpfGD3VgxP4My318FCmK",
+    "usage": {
+      "completion_tokens": 279,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1899,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2181
+    }
+  },
+  "received_at": "2026-10-03T17:00:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, third stanza",
+        "severity": "minor",
+        "source_quote": "Nor dare I think in years / Or move from leaps to bounds;",
+        "suggested_fix": "Consider a more natural rendering that preserves the image, for example: “Ik durf niet in jaren te denken / Of met reuzensprongen vooruit te gaan;”",
+        "translation_quote": "Ik durf niet in jaren te denken / Of met grote sprongen vooruit te gaan;"
+      },
+      {
+        "location": "Poem, second stanza of the second poem",
+        "severity": "major",
+        "source_quote": "“This night, that soul of thine / May be required of thee: / And dost thou plan the New Year full / There, ‘neath some Christmas tree?”",
+        "suggested_fix": "Translate the rhetorical question as asking whether the person is planning out the whole New Year there, beneath a Christmas tree; for example: “En plan jij daar het hele nieuwe jaar, / onder een kerstboom?” should instead preserve “full” as “helemaal/volledig” modifying the planning, such as “En plan jij daar al het hele nieuwe jaar / onder een kerstboom?” (adapt word order and phrasing as needed).",
+        "translation_quote": "En plan jij daar het hele nieuwe jaar, / onder een kerstboom?"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, абзац 7",
+      "severity": "major",
+      "source_quote": "I knew that sneaking was wrong",
+      "suggested_fix": "Заменить «Я знал, что красть нехорошо» на «Я знал, что поступать тайком было неправильно»: в оригинале речь о том, что мальчик прокрался за персиком, а не о краже.",
+      "translation_quote": "Я знал, что красть нехорошо"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 5439
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 770,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 503,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5298,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5295,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6068
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "본문 6번째 문단",
+      "severity": "minor",
+      "source_quote": "We must take stock to ensure that our children are learning life’s lessons in a way that they will be prepared to face the reality of things to come.",
+      "suggested_fix": "“우리 자녀들이 앞으로 닥칠 일들의 현실을 마주할 준비를 갖추도록 삶의 교훈을 배우고 있는지 살펴야 합니다.”처럼 ‘올바른 방식으로’라는 원문에 없는 평가를 덧붙이지 않고 옮겨 주세요.",
+      "translation_quote": "우리 자녀들이 앞으로 닥칠 일들의 현실을 마주할 준비를 갖출 수 있도록, 삶의 교훈을 올바른 방식으로 배우고 있는지 우리는 살펴야 합니다."
+    },
+    {
+      "location": "본문 9번째 문단",
+      "severity": "minor",
+      "source_quote": "in an attempt to gain a listening ear",
+      "suggested_fix": "“사람들의 관심을 끌려 하며” 또는 “사람들이 귀 기울이게 하려 하며”로 다듬어 주세요.",
+      "translation_quote": "사람들의 귀를 얻으려 할 것이라고 말씀하십니다."
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:47+00:00",
   "id": "7719b24889f50006eac328450e1faa3e",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "kor",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e6374334d6e72ef0337761efa27ba0d4b445710a6cd11331ff241df7b97827d8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
   "translation_model_actual": "gpt-6-luna"

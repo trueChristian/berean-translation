@@ -2,7 +2,6 @@
   "article_id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2572
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 660,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 498,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2431,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2428,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3091
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, 첫 번째 연, 네 번째 행",
+      "severity": "major",
+      "source_quote": "“Come My child, your burden I’ll bear.”",
+      "suggested_fix": "“오너라, 내 아이야. 네 짐은 내가 질게.”",
+      "translation_quote": "“오너라, 내 아이야. 네 짐은 내가 지마.”"
+    },
+    {
+      "location": "source.html, 마지막 연, 네 번째 행",
+      "severity": "minor",
+      "source_quote": "To hear those words, “Well done.”",
+      "suggested_fix": "“잘하였다”라는 그 말씀을 듣는 것.",
+      "translation_quote": "“잘하였다”라는 말씀을 듣는다면."
+    }
+  ],
   "id": "2fd02784c7c1d282842da5cc128befba",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "kor",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6fda27bfd0a8667c57a974670256618ed4e8c0248a5ef522f6eee0e736dd1da0.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
   "translation_model_actual": "gpt-6-luna"

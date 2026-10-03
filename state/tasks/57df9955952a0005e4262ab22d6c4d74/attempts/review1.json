@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Genesis quotation, paragraph under “خدا نے تخلیق میں آرام کی مثال قائم کی”\",\"severity\":\"major\",\"source_quote\":\"“...he had rested from all his work which God created and made”\",\"suggested_fix\":\"اس حصے کو یوں درست کریں: «کیونکہ اُس دن اُس نے اپنے سب کام سے، جو خدا نے پیدا کیا اور بنایا تھا، آرام کیا—پیدائش 2:2-3۔» باقی اقتباس اور موجودہ <em> ٹیگ برقرار رکھیں۔\",\"translation_quote\":\"«کیونکہ اُس میں خدا ساری کائنات سے جسے اُس نے پیدا کیا اور بنایا فارغ ہوا تھا—پیدائش 2:2-3۔»\"},{\"location\":\"ابتدائی پیراگراف، آخری داخلے کا ذکر\",\"severity\":\"minor\",\"source_quote\":\"“since I had dropped into bed from my last admission”\",\"suggested_fix\":\"«اپنے آخری داخلے کے بعد بستر پر لیٹے ہوئے مجھے پندرہ منٹ سے زیادہ نہیں ہوئے تھے۔» لکھیں تاکہ مریض کی جنس متعین نہ ہو اور “admission” کا مفہوم برقرار رہے۔\",\"translation_quote\":\"«اپنی آخری مریضہ کو داخل کرنے کے بعد بستر پر لیٹے ہوئے مجھے پندرہ منٹ سے زیادہ نہیں ہوئے تھے۔»\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1417,
+    "content_evidence_truncated": false,
+    "content_sha256": "905531b473d0def4a4393cb8c02331c8020045b57f0db48aeb908552656d73fd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 537,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9809,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9806,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10659
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

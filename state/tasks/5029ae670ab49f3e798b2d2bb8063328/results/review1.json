@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "07b96016-7a28-42fd-9ab0-a3e5c1ef6e5d",
+    "response_id": "chatcmpl-EUxHVDEjErj1kBOjhTp6WDzJDbxzF",
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1948,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2647
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, premier couplet, deuxième vers",
+        "severity": "minor",
+        "source_quote": "Tomorrow may not be.",
+        "suggested_fix": "Remplacer par « Demain n’arrivera peut-être pas. »",
+        "translation_quote": "Demain n’est peut-être pas."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

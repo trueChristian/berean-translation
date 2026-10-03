@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "49d1f200-6b38-4aee-a9f2-104e7f80bd3d",
+    "response_id": "chatcmpl-EUxHVifMZ8RkmCID1Up82i7faww35",
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 431,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9171,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9827
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Hebreerne 4:9–11, both quoted passages",
+        "severity": "major",
+        "source_quote": "“lest any man fall after the same example of unbelief”",
+        "suggested_fix": "Change «på grunn av samme slags ulydighet» to «etter samme eksempel på vantro» in both quoted passages, preserving the existing <em> tags and reference placement.",
+        "translation_quote": "«så ingen faller fra på grunn av samme slags ulydighet»"
+      },
+      {
+        "location": "Johannes 14:27 quotation",
+        "severity": "major",
+        "source_quote": "“Let not your heart be troubled, neither let it be afraid”",
+        "suggested_fix": "Translate both parts of the source meaning, for example: «La ikke hjertet bli urolig, og la det heller ikke være redd», keeping the quotation in its existing <em> tags and retaining the reference.",
+        "translation_quote": "«La ikke hjertet bli grepet av angst og motløshet»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

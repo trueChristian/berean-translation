@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "שורת הסיום בשיר",
+      "severity": "major",
+      "source_quote": "Oh, grant us light that we may know the things we can’t afford!",
+      "suggested_fix": "החליפו את סוף השורה ל: \"אנא, הענק לנו אור כדי שנדע מהם הדברים שאיננו יכולים להרשות לעצמנו!\"",
+      "translation_quote": "אנא, הענק לנו אור כדי שנדע ממה איננו יכולים להרשות לעצמנו להתעלם!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph describing the French Revolutionary calendar",
+      "severity": "minor",
+      "source_quote": "Each month would have three weeks with one rest day in each of these ten-day weeks.",
+      "suggested_fix": "Replace «في كل أسبوع من هذه الأسابيع العشرة الأيام» with «في كل أسبوع من هذه الأسابيع التي يمتد كلٌّ منها عشرة أيام» to make clear that each week lasted ten days.",
+      "translation_quote": "وكان كل شهر يتكون من ثلاثة أسابيع، مع يوم راحة واحد في كل أسبوع من هذه الأسابيع العشرة الأيام."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

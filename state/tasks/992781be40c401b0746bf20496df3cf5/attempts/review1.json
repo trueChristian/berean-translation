@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 6\",\"severity\":\"major\",\"source_quote\":\"“My chosen one, I alone can fulfill, that for which your heart yearns.”\",\"suggested_fix\":\"Keep the existing tags and translate the line as, for example: «Min utvalda, endast jag kan uppfylla det som ditt hjärta längtar efter.»\",\"translation_quote\":\"”Min utvalda, Endast jag kan uppfylla det som ditt hjärta längtar efter.\"},{\"location\":\"Poem, stanza 8\",\"severity\":\"major\",\"source_quote\":\"“Yet the promise remains, all works out well, For him that in God does delight.”\",\"suggested_fix\":\"Translate the promise without adding the specific idea of things ‘working together’: for example, «Ändå står löftet fast: allt blir väl för den som har sin glädje i Gud.»\",\"translation_quote\":\"Ändå består löftet: allt samverkar till det bästa för den som har sin glädje i Gud.\"},{\"location\":\"Poem, stanza 10\",\"severity\":\"minor\",\"source_quote\":\"“While others lives go on so free.”\",\"suggested_fix\":\"Use a Swedish expression that conveys others’ lives going on freely, such as «medan andra kan leva så fritt vidare».\",\"translation_quote\":\"medan andras liv går vidare så obehindrat.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1220,
+    "content_evidence_truncated": false,
+    "content_sha256": "5aaaa93ab32b8c8f27c529e6774ba03e8dfa65f5480e15a7d016997d37ec0e2e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 307,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2327,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2324,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2634
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

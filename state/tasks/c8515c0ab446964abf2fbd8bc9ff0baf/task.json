@@ -2,7 +2,6 @@
   "article_id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 5188
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 652,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5047,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5044,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5699
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Some years ago…”",
+      "severity": "minor",
+      "source_quote": "Some of his deepest struggles stemmed from the flashback memories he had of when he had personally killed several of the enemy.",
+      "suggested_fix": "Replace “ricordi vividi” with “flashback” or “ricordi intrusivi e ricorrenti” to retain the sense of flashback memories.",
+      "translation_quote": "Alcune delle sue lotte più profonde derivavano dai ricordi vividi di quando aveva ucciso personalmente diversi nemici."
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:49+00:00",
   "id": "c8515c0ab446964abf2fbd8bc9ff0baf",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ita",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e6374334d6e72ef0337761efa27ba0d4b445710a6cd11331ff241df7b97827d8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 8934
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 972,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 690,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8738,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8735,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9710
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Heading «…Ridimensiona le nostre ambizioni»",
+      "severity": "minor",
+      "source_quote": "…Humbles Our Pursuits",
+      "suggested_fix": "Sostituire con «…Umilia le nostre aspirazioni» per conservare il senso di “humbles” invece di attenuarlo in «ridimensiona».",
+      "translation_quote": "…Ridimensiona le nostre ambizioni"
+    },
+    {
+      "location": "Paragrafo sotto «…Santifica le nostre prove», citazione di Romani 8:24",
+      "severity": "major",
+      "source_quote": "For we are saved by hope: but hope that is seen is not hope... –Romans 8:24.",
+      "suggested_fix": "Correggere la citazione in «Poiché siamo stati salvati in speranza; ma la speranza che si vede non è speranza... –Romani 8:24.» Rimuovere «ora» e rendere «hope that is seen» come «la speranza che si vede», non «una speranza di ciò che si vede».",
+      "translation_quote": "Poiché siamo stati salvati in speranza; ora, una speranza di ciò che si vede non è speranza... –Romani 8:24."
+    }
+  ],
   "id": "60f472272c95bba034f6d0634a0dcca8",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ita",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

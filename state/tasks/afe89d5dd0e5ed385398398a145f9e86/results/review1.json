@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ee1ab24e-9aaf-4fd7-ade5-1a17ee3730f1",
+    "response_id": "chatcmpl-EUxHw9nokGZRlybumvKLXp44oaYSo",
+    "usage": {
+      "completion_tokens": 579,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9656,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9653,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10235
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Άρθρο, παράγραφος με παράθεση Ιησούς του Ναυή 7:24–26",
+        "severity": "major",
+        "source_quote": "“and they brought them unto the valley of Achor … And all Israel stoned him with stones, and burned them with fire…”",
+        "suggested_fix": "Διορθώστε μόνο την παράθεση ώστε να αποδίδει ότι ο Αχάν και η οικογένειά του οδηγήθηκαν στην κοιλάδα, και ότι όλος ο Ισραήλ λιθοβόλησε τον Αχάν και έκαψε τα υπόλοιπα πρόσωπα/πράγματα όπως δηλώνει το αγγλικό κείμενο. Διατηρήστε το <em> και την αναφορά Ιησούς του Ναυή 7:24-26.",
+        "translation_quote": "«…και τους έφεραν στην κοιλάδα του Αχώρ … Και όλος ο Ισραήλ τον λιθοβόλησε με πέτρες, και τους έκαψε με φωτιά… –Ιησούς του Ναυή 7:24-26.»"
+      },
+      {
+        "location": "Άρθρο, παράγραφος για την εξουσία του Θεού στις εκκλησίες",
+        "severity": "major",
+        "source_quote": "“We have many things figured out, we look good and sound good, but do we still have the power of God in our churches?”",
+        "suggested_fix": "Αποδώστε το “sound good” ως ότι «ακουγόμαστε καλά» (ή ότι «τα λόγια μας ακούγονται καλά»), διατηρώντας τη διάκριση από το “look good”.",
+        "translation_quote": "«Έχουμε καταλάβει πολλά πράγματα, δείχνουμε καλοί και ακούγονται καλά όσα λέμε, αλλά εξακολουθεί να υπάρχει η δύναμη του Θεού στις εκκλησίες μας;»"
+      },
+      {
+        "location": "Άρθρο, παράγραφος για την αμαρτία στο στρατόπεδο",
+        "severity": "major",
+        "source_quote": "“When there was no sin in the camp (or in the church) God’s people had complete victory; they lost not one.”",
+        "suggested_fix": "Αντικαταστήστε το «δεν έχαναν ούτε έναν» με «δεν έχασαν ούτε έναν», ώστε να διατηρηθεί ο παρελθοντικός χρόνος της αφήγησης.",
+        "translation_quote": "«Όταν δεν υπήρχε αμαρτία στο στρατόπεδο (ή στην εκκλησία), ο λαός του Θεού είχε πλήρη νίκη· δεν έχαναν ούτε έναν.»"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

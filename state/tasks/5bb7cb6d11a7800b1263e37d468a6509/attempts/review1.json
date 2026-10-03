@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “If our churches today…”\",\"severity\":\"major\",\"source_quote\":\"What if we would settle for nothing less?\",\"suggested_fix\":\"Replace the sentence with: “Namna gani kama tusingetosheka na chochote kilicho chini ya hayo?” This preserves the meaning of refusing to accept anything less than the Holy Spirit’s infilling, empowering, and leading described immediately before it.\",\"translation_quote\":\"Namna gani kama tungeridhika na kitu kidogo tu?\"},{\"location\":\"Paragraph beginning “I was working closely with a vicious gang leader…”\",\"severity\":\"minor\",\"source_quote\":\"He seemed very sober as I continued\",\"suggested_fix\":\"Use “Alionekana kuwa hajalewa nilipoendelea” to convey that he seemed sober, rather than merely calm.\",\"translation_quote\":\"Alionekana mtulivu sana nilipoendelea\"},{\"location\":\"Section metadata\",\"severity\":\"minor\",\"source_quote\":\"MUSINGS OF A MISSIONARY\",\"suggested_fix\":\"Use a Kiswahili equivalent meaning “Reflections of a Missionary,” such as “TAFAKARI ZA MMISHENARI.”\",\"translation_quote\":\"TATHMINI ZA MISHENARI\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1138,
+    "content_evidence_truncated": false,
+    "content_sha256": "66a008dbecbe966a69fc5656478e902a96b4b3ace70e1f742238f88c6f60fe37",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 778,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 509,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8277,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8274,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9055
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

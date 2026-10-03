@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, 引用《希伯来书》4:9-11",
+      "severity": "major",
+      "source_quote": "“There remaineth therefore a rest to the people of God. For he that is entered into his rest, he also hath ceased from his own works, as God did from his. <em>Let us labour therefore to enter into that rest, lest any man fall after the same example of unbelief –Hebrews 4:9-11.</em>”",
+      "suggested_fix": "保留现有标签和嵌套结构，将引文修正为：<em>这样看来，必另有一安息为上帝的子民存留。因为那进入安息的，也歇了自己的工，正如上帝歇了他的工一样。<em>所以，我们要竭力进入那安息，免得有人学那不信从的样子跌倒——希伯来书4:9-11。</em></em>",
+      "translation_quote": "“这样看来，必另有一安息为上帝的子民存留。因为那进入安息的，乃是歇了自己的工，正如上帝歇了他的工一样。<em>所以，我们务必竭力进入那安息，免得有人学那不信从的样子跌倒——希伯来书4:9-11。”"
+    },
+    {
+      "location": "HTML, 讨论新约中安息与平安的段落",
+      "severity": "major",
+      "source_quote": "“True biblical peace is intrinsically intertwined with the concept of peace, even in the midst of a chaotic world.”",
+      "suggested_fix": "将这句改为：“真正符合圣经的安息，与平安这一概念密不可分，即使身处混乱的世界也是如此。”",
+      "translation_quote": "“真正符合圣经的平安与平静这一概念密不可分，即使身处混乱的世界也是如此。”"
+    },
+    {
+      "location": "HTML, 讨论休息对免疫系统的影响",
+      "severity": "major",
+      "source_quote": "“Probably the fact that inflammation levels are higher when we don’t rest, increases the risks of infection.”",
+      "suggested_fix": "将这句改为：“我们不休息时炎症水平会升高，这可能会增加感染风险。”",
+      "translation_quote": "“我们不休息时，炎症水平可能会升高，从而增加感染风险。”"
+    },
+    {
+      "location": "HTML, 描述七日一周和休息的必要性",
+      "severity": "major",
+      "source_quote": "“The week, as God created it, (with one day in seven for rest) is necessary for us to remain productive.”",
+      "suggested_fix": "改为：“上帝所创造的一周（七天中有一天休息）是我们保持工作效率所必需的。”",
+      "translation_quote": "“上帝所创造的一周（七天中有一天休息）是我们保持工作效率所必需的。”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

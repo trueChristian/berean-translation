@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, second stanza, final line",
+      "severity": "minor",
+      "source_quote": "My God alone to please.",
+      "suggested_fix": "Replace the final line with: تاکہ صرف اپنے خدا کو خوش کروں۔ This clearly conveys that the speaker lives to please God alone.",
+      "translation_quote": "تاکہ خوشی میرے خدا ہی کو ہو۔"
+    },
+    {
+      "location": "Poem, second quoted stanza, third line",
+      "severity": "minor",
+      "source_quote": "And dost thou plan the New Year full",
+      "suggested_fix": "Replace with: اور کیا تو پورے نئے سال کے منصوبے بناتا ہے۔ This conveys planning for the whole New Year rather than making “full” plans.",
+      "translation_quote": "اور کیا تو نئے سال کے بھرپور منصوبے بناتا ہے"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

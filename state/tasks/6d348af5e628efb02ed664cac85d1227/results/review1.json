@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8a5f547c-57e7-42e9-ba2f-f738e72a0e66",
+    "response_id": "chatcmpl-EUxHVDQVu2BEXGGkyPJHVhnuzx6vI",
+    "usage": {
+      "completion_tokens": 532,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 426,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1425,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1422,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1957
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 3, line 1",
+        "severity": "minor",
+        "source_quote": "God has not promised smooth roads and wide,",
+        "suggested_fix": "Change “estradas largas e planas” to “estradas largas e suaves” to convey that the roads are smooth, not necessarily flat.",
+        "translation_quote": "Deus não prometeu estradas largas e planas,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

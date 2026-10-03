@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 7834
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 654,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7624,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7621,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8278
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Outra passagem do Antigo Testamento...”",
+      "severity": "minor",
+      "source_quote": "If the priest was unsure, he would shut the person up in a room for seven days then examine him again.",
+      "suggested_fix": "Acrescente a informação de que a pessoa era mantida em um cômodo: “Se não tivesse certeza, manteria a pessoa fechada em um cômodo por sete dias e depois a examinaria novamente.”",
+      "translation_quote": "Se não tivesse certeza, isolaria a pessoa por sete dias e depois a examinaria novamente."
+    }
+  ],
+  "finished_at": "2026-10-03T17:00:47+00:00",
   "id": "6d3d1a52aab19acc045075399ad6bada",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "por",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

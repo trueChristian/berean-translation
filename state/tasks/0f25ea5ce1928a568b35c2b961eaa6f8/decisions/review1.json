@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, seconda strofa della prima sezione poetica",
+      "severity": "major",
+      "source_quote": "With God shut out, and self shut in / And selfish aims surround.",
+      "suggested_fix": "Conservare la struttura dei versi e rendere esplicito che Dio è escluso, l’io è ripiegato su sé stesso e la persona è circondata da fini egoistici; per esempio: «Con Dio escluso e l’io chiuso in sé, / e circondato da fini egoistici.»",
+      "translation_quote": "con Dio escluso e l’io rinchiuso in sé, / circondato da fini egoistici."
+    },
+    {
+      "location": "HTML, prima strofa della seconda sezione poetica",
+      "severity": "major",
+      "source_quote": "“Boast not thyself,” I’m warned,",
+      "suggested_fix": "Tradurre l’ammonimento come un avvertimento rivolto a chi parla, per esempio: «“Non vantarti”, mi viene detto con un ammonimento,»; la forma attuale suggerisce che chi parla sia ammonito.",
+      "translation_quote": "«Non vantarti», mi viene ammonito,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

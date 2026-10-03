@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph about the widow of Zarephath",
+      "severity": "minor",
+      "source_quote": "God blessed her willing obedience",
+      "suggested_fix": "Dio benedisse la sua obbedienza volenterosa",
+      "translation_quote": "Dio benedisse la sua obbedienza pronta a offrirsi"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

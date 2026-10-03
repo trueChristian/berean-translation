@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e9a72dd0-c820-41c4-ab1b-ce72d9d7ec09",
+    "response_id": "chatcmpl-EUxLhpsJkCdleSj2oMh1yMzwtDo4m",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 398,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3612,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3609,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4112
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "This is not too much for Him to ask of us, because He is sovereign.",
+        "suggested_fix": "Det är inte för mycket för honom att begära av oss, eftersom han är suverän.",
+        "translation_quote": "Det är inte för mycket begärt av honom, eftersom han är suverän."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

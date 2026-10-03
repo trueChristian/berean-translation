@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, second stanza, fourth line\",\"severity\":\"major\",\"source_quote\":\"Claiming His love on me overlying.\",\"suggested_fix\":\"Replace the line with “En maak aanspraak op sy liefde wat oor my rus.” This preserves the source’s idea of claiming his love rather than trusting in it.\",\"translation_quote\":\"En vertrou op sy liefde wat oor my rus.\"},{\"location\":\"Poem, eighth stanza, third line\",\"severity\":\"major\",\"source_quote\":\"Yet the promise remains, all works out well,\",\"suggested_fix\":\"Replace the line with “Tog bly die belofte staan: alles loop goed af,” to retain the source’s assurance that things turn out well, without changing it to the distinct claim that everything works for good.\",\"translation_quote\":\"Tog bly die belofte staan: alles werk ten goede uit,\"},{\"location\":\"Poem, eleventh stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"Sometimes I find myself dreaming,\",\"suggested_fix\":\"Replace with “Soms betrap ek myself dat ek droom,” for idiomatic Afrikaans.\",\"translation_quote\":\"Soms vind ek myself droom,\"},{\"location\":\"Poem, eleventh stanza, fourth line\",\"severity\":\"minor\",\"source_quote\":\"To hear those words, “Well done.”\",\"suggested_fix\":\"Replace “Goed gedaan” with the idiomatic Afrikaans “Mooi so” in the quotation: “Om daardie woorde te hoor: ‘Mooi so.’”\",\"translation_quote\":\"Om daardie woorde te hoor: “Goed gedaan.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1441,
+    "content_evidence_truncated": false,
+    "content_sha256": "eae3d56be2e3bf968ade90af3ceba866d0ebdcaeab2f733e2f1d558df11b0da6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 987,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 635,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2300,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3290
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

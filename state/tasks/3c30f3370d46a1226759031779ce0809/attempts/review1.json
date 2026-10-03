@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, third stanza, second line\",\"severity\":\"minor\",\"source_quote\":\"Or move from leaps to bounds;\",\"suggested_fix\":\"For example: «Eller gjøre store sprang framover;»\",\"translation_quote\":\"Eller ta sprang fra mål til mål;\"},{\"location\":\"source.html, poem, fifth stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"“Boast not thyself,” I’m warned,\",\"suggested_fix\":\"For example: «Ikke skryt», blir jeg advart,\",\"translation_quote\":\"«Vær ikke stolt», blir jeg advart,\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 551,
+    "content_evidence_truncated": false,
+    "content_sha256": "77e8c9285ec8d6a044a01358bd51282b40d2fad44547ba652d774a6baa658fb3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 792,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1955,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1952,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2906
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

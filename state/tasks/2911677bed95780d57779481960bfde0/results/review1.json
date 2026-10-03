@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "716656f0-85de-447a-8bfe-8d9e7488e38d",
+    "response_id": "chatcmpl-EUxHUSRvDvYGZc6saFNPIUnTJ6QTP",
+    "usage": {
+      "completion_tokens": 949,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 697,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10580,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10577,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11529
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section “b.) Tudo espera”",
+        "severity": "minor",
+        "source_quote": "if your husband falls short of the glory you married him with",
+        "suggested_fix": "Replace “se seu marido ficar aquém da glória com que vocês se casaram com ele” with a clearer rendering, such as “se seu marido não corresponder à imagem que vocês tinham dele ao se casar”",
+        "translation_quote": "se seu marido ficar aquém da glória com que vocês se casaram com ele"
+      },
+      {
+        "location": "HTML, paragraph beginning “A sinceridade da minha busca pessoal”",
+        "severity": "minor",
+        "source_quote": "The sincerity of my personal quest to pursue and to comprehend from the heart, the love of Christ",
+        "suggested_fix": "Replace “A sinceridade da minha busca pessoal por perseguir e compreender, de coração, o amor de Cristo” with “A sinceridade com que busco, de coração, perseguir e compreender o amor de Cristo”",
+        "translation_quote": "A sinceridade da minha busca pessoal por perseguir e compreender, de coração, o amor de Cristo"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

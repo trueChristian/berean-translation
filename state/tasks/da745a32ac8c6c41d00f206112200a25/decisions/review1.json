@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section «8. Способность „не мыслить зла“», абзац 1",
+      "severity": "major",
+      "source_quote": "The quickest way to destroy love in marriage is to assume something negative about the motives of your spouse when only the Lord knows the heart.",
+      "suggested_fix": "Заменить соответствующее место на: «Самый быстрый способ разрушить любовь в браке — приписать супругу дурные мотивы, хотя только Господь знает сердце».",
+      "translation_quote": "Самый быстрый способ разрушить любовь в браке — приписать супругу дурные мотивы, хотя сердце знает только Господь."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

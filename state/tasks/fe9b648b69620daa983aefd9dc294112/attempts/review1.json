@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة الأولى\",\"severity\":\"major\",\"source_quote\":\"“occasioned a bloody massacre, leaving Jacob as a stench in the land.”\",\"suggested_fix\":\"استبدل «وتسببت في مذبحة دامية، حتى صار يعقوب نتنًا في الأرض» بـ «وأدّت إلى مذبحة دامية، وصار يعقوب رائحة كريهة في الأرض»؛ فالمصدر يصف يعقوب بأنه صار موضع عار/رائحة كريهة في الأرض، لا أنه أصبح نتنًا حرفيًا.\",\"translation_quote\":\"«وتسببت في مذبحة دامية، حتى صار يعقوب نتنًا في الأرض»\"},{\"location\":\"الفقرة الخاصة برجاء رومية 5:3-4\",\"severity\":\"major\",\"source_quote\":\"“tribulation worketh patience; And patience, experience; and experience, hope”\",\"suggested_fix\":\"عدّل «والصبر تزكية، والتزكية رجاء» إلى ترجمة تحفظ المعنى المقصود من الخبرة/الاختبار، مثل «والصبر خبرة، والخبرة رجاء».\",\"translation_quote\":\"«الضيق ينشئ صبرًا، والصبر تزكية، والتزكية رجاء»\"},{\"location\":\"الفقرة الخاصة بالعاجز عند بيت حسدا\",\"severity\":\"major\",\"source_quote\":\"“Upon the wake of his new day, a new remedy was given to him”\",\"suggested_fix\":\"استبدل «ومع إشراقة يومه الجديد» بـ «وعقب يومه الجديد» أو «في أعقاب يومه الجديد»؛ فالنص لا يقول إن العلاج أُعطي عند إشراقة ذلك اليوم.\",\"translation_quote\":\"«ومع إشراقة يومه الجديد، أُعطي علاجًا جديدًا»\"},{\"location\":\"الفقرة التي تبدأ «يغري العالم»\",\"severity\":\"major\",\"source_quote\":\"“The world entices us to selfish living.”\",\"suggested_fix\":\"صحّح «يغري العالمُنا بالعيش لأنفسنا» إلى «يغوينا العالم إلى حياة أنانية» أو «يغري العالمُنا بأن نعيش لأنفسنا»؛ الصياغة الحالية تتضمن تركيبًا غير سليم وتشوّه المعنى.\",\"translation_quote\":\"«يغري العالمُنا بالعيش لأنفسنا»\"},{\"location\":\"الفقرة الختامية، جملة أيوب\",\"severity\":\"major\",\"source_quote\":\"“But before his pain had received an ounce of retribution, the healing streams began to flow as Job reverenced his Creator.”\",\"suggested_fix\":\"استبدل «قبل أن ينال ألمه أي قدر من القصاص» بـ «قبل أن ينال ألمه أي قدر من الجبر/التعويض»؛ كلمة retribution هنا لا تناسب السياق الذي يتحدث عن جريان الشفاء.\",\"translation_quote\":\"«لكن قبل أن ينال ألمه أي قدر من القصاص، بدأت أنهار الشفاء تتدفق»\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 2997,
+    "content_evidence_truncated": false,
+    "content_sha256": "e9744d22d2b5b2f0cb7f92fc65d7b9edd1f62730a7c4d36b81f7e1fb6695227e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 642,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8440,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8437,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9082
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

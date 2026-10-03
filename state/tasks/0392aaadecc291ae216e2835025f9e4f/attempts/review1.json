@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Hebrews 4:9–11 quotation and repeated quotation near “Focus on God”\",\"severity\":\"major\",\"source_quote\":\"“lest any man fall after the same example of unbelief”\",\"suggested_fix\":\"In both quoted passages, replace “অবাধ্যতার সেই দৃষ্টান্ত অনুসারে” with “অবিশ্বাসের সেই দৃষ্টান্ত অনুসারে” to preserve the source’s meaning, “unbelief.”\",\"translation_quote\":\"“যেন কেহ অবাধ্যতার সেই দৃষ্টান্ত অনুসারে পতিত না হয়”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 695,
+    "content_evidence_truncated": false,
+    "content_sha256": "c3239801c71987f31fddbc86af318cf18b594a292c2fd2f40811222d340eff55",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 460,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10060,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10057,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10662
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

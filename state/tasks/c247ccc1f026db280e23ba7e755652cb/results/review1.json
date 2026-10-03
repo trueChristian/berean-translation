@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "01c88406-5718-430f-b975-a8fd273b2288",
+    "response_id": "chatcmpl-EUxJhXrtNUQhBcCbLK5CrL3UCcoZh",
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2255,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2252,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2878
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, gedicht, strofe 8",
+        "severity": "minor",
+        "source_quote": "Yet the promise remains, all works out well,",
+        "suggested_fix": "Vertaal dit als ‘Toch blijft de belofte staan: alles werkt ten goede’ om de strekking van ‘works out well’ nauwkeuriger weer te geven.",
+        "translation_quote": "Toch blijft de belofte staan: alles komt goed"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ca7f6a5a-290b-4713-8b83-bb12e552b21c",
+    "response_id": "chatcmpl-EUxHVI8ahg48GagYtvVHr8EvSHaLm",
+    "usage": {
+      "completion_tokens": 524,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2323,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2850
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Puisi, bait 2, baris 4",
+        "severity": "major",
+        "source_quote": "Claiming His love on me overlying.",
+        "suggested_fix": "Ganti dengan baris yang menyatakan bahwa aku berpegang pada kasih-Nya yang menaungiku, misalnya: “Berpegang pada kasih-Nya yang menaungiku.”",
+        "translation_quote": "Mengimani kasih-Nya yang menaungiku."
+      },
+      {
+        "location": "Puisi, bait 6, baris 3",
+        "severity": "major",
+        "source_quote": "The Master speaks, “My chosen one,",
+        "suggested_fix": "Terjemahkan “The Master” sebagai “Sang Tuan” atau sebutan yang setara dalam konteks, bukan “Sang Guru”; pertahankan sapaan “Engkau pilihan-Ku”.",
+        "translation_quote": "Sang Guru berkata, “Engkau pilihan-Ku,"
+      },
+      {
+        "location": "Puisi, bait 8, baris 3–4",
+        "severity": "major",
+        "source_quote": "Yet the promise remains, all works out well, / For him that in God does delight.",
+        "suggested_fix": "Pertahankan makna bahwa janji itu menyatakan segala sesuatu bekerja bersama demi kebaikan bagi orang yang bersukacita di dalam Allah; misalnya: “Namun janji itu tetap: segala sesuatu bekerja bersama demi kebaikan / Bagi dia yang bersukacita di dalam Allah.”",
+        "translation_quote": "Namun janji itu tetap berlaku: segala sesuatu berjalan baik, / Bagi dia yang bersukacita di dalam Allah."
+      },
+      {
+        "location": "Puisi, bait 9, baris 4",
+        "severity": "major",
+        "source_quote": "Knowing it’s better than for what I had groped.",
+        "suggested_fix": "Terjemahkan sebagai keyakinan bahwa tujuan akhir-Nya lebih baik daripada apa yang dahulu diupayakan/dicari oleh pembicara; misalnya: “Karena tahu itu lebih baik daripada yang dahulu kucari.”",
+        "translation_quote": "Karena aku tahu itu lebih baik daripada yang kuusahakan."
+      },
+      {
+        "location": "Puisi, bait 11, baris 4",
+        "severity": "major",
+        "source_quote": "To hear those words, “Well done.”",
+        "suggested_fix": "Terjemahkan ungkapan pujian tersebut, misalnya: “Mendengar kata-kata itu, ‘Baik sekali.’”",
+        "translation_quote": "Mendengar kata-kata itu, “Baik sekali.”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fa0b3ad9-5c8d-4d82-a9fe-d98b38af95a4",
+    "response_id": "chatcmpl-EUxIHtDLXixMq9Y05UlOYAdojiVOL",
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 580,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2308,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2305,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2971
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Gedicht, dritte Strophe",
+        "severity": "minor",
+        "source_quote": "It was for me He was scarred.",
+        "suggested_fix": "Für mich trug er die Wundmale.",
+        "translation_quote": "Für mich wurde er verwundet."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

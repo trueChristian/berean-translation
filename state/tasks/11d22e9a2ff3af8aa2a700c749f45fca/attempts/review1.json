@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “We have already seen how sin separates us…”\",\"severity\":\"major\",\"source_quote\":\"If we are left to continue in our sin, what has Jesus done for us?\",\"suggested_fix\":\"Replace with: «Hvis vi får fortsette å leve i synden vår, hva har Jesus da gjort for oss?»\",\"translation_quote\":\"Hvis vi må fortsette å leve i synden vår, hva har Jesus da gjort for oss?\"},{\"location\":\"Paragraph beginning “When we call out to God for salvation…”\",\"severity\":\"minor\",\"source_quote\":\"we know we need to be saved; converted.\",\"suggested_fix\":\"Replace «å bli frelst; omvendt» with «å bli frelst, altså omvendt» so the second term reads naturally and clearly in Norwegian.\",\"translation_quote\":\"vi trenger å bli frelst; omvendt.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 810,
+    "content_evidence_truncated": false,
+    "content_sha256": "87b392b89c4d3ee3541b85a9283bb0d0f34f9205d69d548972bab707c1206012",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 928,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 716,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7853,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7850,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8781
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

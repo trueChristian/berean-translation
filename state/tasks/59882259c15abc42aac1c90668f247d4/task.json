@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,122 @@
         },
         "total_tokens": 10916
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1606,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10775,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10772,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12381
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML opening quotation, 1 Corinthians 13:1-13",
+      "severity": "major",
+      "source_quote": "“Beareth all things, believeth all things, hopeth all things, endureth all things.”",
+      "suggested_fix": "Restore the omitted clause in Dutch, in its original position: “Zij verdraagt alles, gelooft alles, hoopt alles, verdraagt alles.” (Use wording consistent with the rest of the quotation.)",
+      "translation_quote": "“Zij verdraagt alles, gelooft alles, hoopt alles, volhardt in alles.”"
+    },
+    {
+      "location": "HTML, section 4, Proverbs 29:23 quotation",
+      "severity": "major",
+      "source_quote": "“A man’s pride shall bring him low: but honour shall uphold the humble in spirit”",
+      "suggested_fix": "Translate the contrast faithfully, e.g. “De trots van een mens zal hem vernederen, maar eer zal de nederige van geest staande houden.”",
+      "translation_quote": "“De trots van een mens zal hem vernederen, maar wie nederig van geest is, zal eer ontvangen”"
+    },
+    {
+      "location": "HTML, section 5, “gentleman” explanation",
+      "severity": "major",
+      "source_quote": "“The word ‘gentleman’ is a compound word, and it literally means ‘gentle man’.”",
+      "suggested_fix": "Preserve the source’s wordplay while making clear that it refers to the English word, for example: “Het Engelse woord ‘gentleman’ is een samenstelling en betekent letterlijk ‘gentle man’ (‘zachtaardige man’).”",
+      "translation_quote": "“Het woord ‘gentleman’ is een samenstelling en betekent letterlijk ‘zachtmoedige man’.”"
+    },
+    {
+      "location": "HTML, section 7, quotation beginning “There is no place in heaven”",
+      "severity": "major",
+      "source_quote": "“There is no place in heaven for a man like this; for to enter into heaven a man must take himself along.”",
+      "suggested_fix": "Translate the quoted prose into Dutch and preserve its stated reasoning, e.g. “Voor een man als deze is er geen plaats in de hemel; want om de hemel binnen te gaan, moet een man zichzelf meenemen.”",
+      "translation_quote": "“Voor een man als deze is er geen plaats in de hemel; want om de hemel binnen te gaan, moet een man zichzelf meenemen.”"
+    },
+    {
+      "location": "HTML, section 8, quotation attributed to “Sisters”",
+      "severity": "major",
+      "source_quote": "“Sisters, a happy wife sometimes has the best husband, but more often she makes the best out of the husband she has.”",
+      "suggested_fix": "Translate the quote without changing its meaning, for example: “Zusters, soms heeft een gelukkige vrouw de beste echtgenoot, maar vaker maakt zij het beste van de echtgenoot die ze heeft.”",
+      "translation_quote": "“Zusters, een gelukkige vrouw heeft soms de beste echtgenoot, maar vaker maakt zij het beste van de echtgenoot die ze heeft.”"
+    },
+    {
+      "location": "HTML, section 9, final sentence of paragraph 1",
+      "severity": "major",
+      "source_quote": "“Couples, whatever it is that you believe about your spouse is probably what he or she will become.”",
+      "suggested_fix": "Translate the broad claim without narrowing it to what the spouse will become, e.g. “Echtparen, wat u ook over uw echtgenoot of echtgenote gelooft, dat is waarschijnlijk wat hij of zij zal worden.”",
+      "translation_quote": "“Echtparen, wat u ook over uw echtgenoot of echtgenote gelooft, waarschijnlijk zal hij of zij dat ook worden.”"
+    },
+    {
+      "location": "HTML, section 9, final paragraph, sentence 2",
+      "severity": "major",
+      "source_quote": "“Because my soul is secure in the hands of an unchanging God, I can safely reach out in sincerity to those who have entered into the realm of influence.”",
+      "suggested_fix": "Retain the source’s notion of reaching out sincerely and safely to people within one’s sphere of influence, e.g. “Omdat mijn ziel veilig is in de handen van een onveranderlijke God, kan ik mij in alle veiligheid oprecht uitstrekken naar degenen die binnen mijn invloedssfeer zijn gekomen.”",
+      "translation_quote": "“Omdat mijn ziel veilig is in de handen van een onveranderlijke God, kan ik mij oprecht uitstrekken naar degenen die binnen mijn invloedssfeer zijn gekomen.”"
+    },
+    {
+      "location": "HTML, section 9, final sentence",
+      "severity": "major",
+      "source_quote": "“Rejoicing in righteousness and thinking NO EVIL is a normal and final attitude of love.”",
+      "suggested_fix": "Translate “final” in its sense of concluding/ultimate, not as “eventual,” e.g. “Zich verheugen in gerechtigheid en GEEN KWAAD DENKEN is een normale en uiteindelijke houding van de liefde.”",
+      "translation_quote": "“Zich verheugen in gerechtigheid en GEEN KWAAD DENKEN is een normale en uiteindelijke houding van de liefde.”"
+    },
+    {
+      "location": "HTML, section “The Greatness of Love,” a.) heading and paragraph",
+      "severity": "major",
+      "source_quote": "“a.) It bears all things” / “The ability to bear all things is a normal attitude of love.”",
+      "suggested_fix": "Use a Dutch equivalent of bearing/enduring here, consistently with the source’s distinction from “endureth all things” in the next subsection, e.g. “a.) Zij draagt alles” and “Het vermogen alles te dragen is een normale houding van de liefde.”",
+      "translation_quote": "“a.) Zij verdraagt alles” / “Alles kunnen verdragen is een normale houding van de liefde.”"
+    },
+    {
+      "location": "HTML, section “The Greatness of Love,” d.) heading",
+      "severity": "major",
+      "source_quote": "“It never faileth because God is the source of it.”",
+      "suggested_fix": "Translate the heading, e.g. “d.) Zij faalt nooit, omdat God haar bron is.”",
+      "translation_quote": "“d.) Zij faalt nooit, omdat God haar bron is.”"
+    },
+    {
+      "location": "HTML, concluding quoted Scripture, 1 John 4:7",
+      "severity": "major",
+      "source_quote": "“Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God”",
+      "suggested_fix": "Translate the quoted Scripture into Dutch while preserving its full assertion, e.g. “Geliefden, laten wij elkaar liefhebben, want de liefde is uit God; en ieder die liefheeft, is uit God geboren en kent God.”",
+      "translation_quote": "“Geliefden, laten wij elkaar liefhebben, want de liefde is uit God; en ieder die liefheeft, is uit God geboren en kent God”"
+    },
+    {
+      "location": "HTML, concluding quoted Scripture, 1 John 5:4",
+      "severity": "major",
+      "source_quote": "“For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith”",
+      "suggested_fix": "Translate the quoted Scripture into Dutch while preserving the source’s wording and meaning, e.g. “Want alles wat uit God geboren is, overwint de wereld; en dit is de overwinning die de wereld overwint: ons geloof.”",
+      "translation_quote": "“Want al wat uit God geboren is, overwint de wereld; en dit is de overwinning die de wereld overwonnen heeft: ons geloof”"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "“This Thing Called Love”",
+      "suggested_fix": "Use a natural Dutch title that preserves the phrasing, e.g. “Dit ding dat liefde heet.”",
+      "translation_quote": "“Dit ding dat liefde heet”"
+    }
+  ],
   "id": "59882259c15abc42aac1c90668f247d4",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nld",
@@ -116,11 +228,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, “b.) 사랑은 모든 것을 바랍니다” 아래 로마서 5:5 인용문",
+      "severity": "major",
+      "source_quote": "And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us –Romans 5:5.",
+      "suggested_fix": "인용문을 다음과 같이 수정해 빠진 앞부분을 포함해 주세요: <em>소망이 우리를 부끄럽게 하지 아니함은 우리에게 주신 성령으로 말미암아 하나님의 사랑이 우리 마음에 부은 바 됨이라 –로마서 5:5.</em>",
+      "translation_quote": "<em>우리에게 주신 성령으로 말미암아 하나님의 사랑이 우리 마음에 부은 바 되었느니라 –로마서 5:5.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

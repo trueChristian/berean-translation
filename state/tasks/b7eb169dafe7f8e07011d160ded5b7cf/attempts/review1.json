@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Gedicht, dritte Strophe\",\"severity\":\"minor\",\"source_quote\":\"It was for me He was scarred.\",\"suggested_fix\":\"Für mich trug er die Wundmale.\",\"translation_quote\":\"Für mich wurde er verwundet.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 246,
+    "content_evidence_truncated": false,
+    "content_sha256": "583f911c6414f93fae55b08dfdf77b051df819f59ac986c9894c7bb0714d8c73",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 580,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2308,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2305,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2971
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "آخری پیراگراف، زبور 16:11 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“…in thy presence is fulness of joy; at thy right hand there are pleasures for evermore –Psalm 16:11.”",
+      "suggested_fix": "اردو اقتباس کو یوں درست کریں: «…تیرے حضور میں شادمانی کی کامل فراوانی ہے؛ تیرے دہنے ہاتھ میں ابد تک خوشیاں ہیں—زبور 16:11۔» یہ انگریزی میں چھپے اقتباس کا مفہوم محفوظ رکھتا ہے؛ موجودہ «ہمیشہ کی مسرتیں» کو «ابد تک خوشیاں» سے بدلیں۔",
+      "translation_quote": "«…تیرے حضور میں کامل شادمانی ہے؛ تیرے دہنے ہاتھ میں ہمیشہ کی مسرتیں ہیں—زبور 16:11۔»"
+    },
+    {
+      "location": "پیراگراف: Relationships",
+      "severity": "major",
+      "source_quote": "“The life of God can flow through us and both show others the way to Him and give us joy and fulfillment in doing it.”",
+      "suggested_fix": "اس حصے کو یوں کریں: «خدا کی زندگی ہم میں سے گزر سکتی ہے، دوسروں کو اس تک پہنچنے کا راستہ دکھا سکتی ہے، اور یہ کام کرتے ہوئے ہمیں خوشی اور تکمیل بخش سکتی ہے۔»",
+      "translation_quote": "«خدا کی زندگی ہم میں سے گزر سکتی ہے، دوسروں کو اس تک پہنچنے کا راستہ دکھا سکتی ہے اور ایسا کرنے میں ہمیں خوشی اور تکمیل بخش سکتی ہے۔»"
+    },
+    {
+      "location": "پیراگراف: Living in the Present",
+      "severity": "minor",
+      "source_quote": "“because we are fulfilling His purpose for us.”",
+      "suggested_fix": "«کیونکہ ہم ہمارے لیے اس کے مقصد کو پورا کر رہے ہوتے ہیں» کو «کیونکہ ہم اپنے لیے اس کے مقصد کو پورا کر رہے ہوتے ہیں» کریں۔",
+      "translation_quote": "«کیونکہ ہم ہمارے لیے اس کے مقصد کو پورا کر رہے ہوتے ہیں۔»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

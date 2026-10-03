@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bdc73c4b-0e2a-4ec6-a1f7-776c57f4bc5b",
+    "response_id": "chatcmpl-EUxIHJcnfxgzs5fW2JS0FsLa2Amb4",
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 407,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8823,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8820,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9476
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “The biblical book of Hebrews…”",
+        "severity": "major",
+        "source_quote": "“lest any man fall after the same example of unbelief –Hebrews 4:9-11.”",
+        "suggested_fix": "In the quoted passage, replace “desobediência” with “incredulidade” to preserve the source’s reference to unbelief; retain the existing HTML structure and reference.",
+        "translation_quote": "“para que ninguém caia no mesmo exemplo de desobediência –Hebreus 4:9-11.”"
+      },
+      {
+        "location": "HTML, paragraph beginning “I am afraid that many people struggle to find rest…”",
+        "severity": "major",
+        "source_quote": "“lest any man fall after the same example of unbelief –Hebrew 4:11.”",
+        "suggested_fix": "Replace “desobediência” with “incredulidade” in the quoted passage, preserving the existing HTML structure and reference.",
+        "translation_quote": "“para que ninguém caia no mesmo exemplo de desobediência –Hebreus 4:11.”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "de2d28e3-7257-4678-946c-ab12ec20314d",
+    "response_id": "chatcmpl-EUxHW20Mud2CYCimPhDqY3Fkf6vwz",
+    "usage": {
+      "completion_tokens": 643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9347,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9344,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9990
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening paragraph",
+        "severity": "minor",
+        "source_quote": "“my pager going off”",
+        "suggested_fix": "Vervang “roepradio” met die meer gebruiklike “bieper” of “soeker”, byvoorbeeld: “Ek het in die bed omgerol en geluister hoe my bieper afgaan.”",
+        "translation_quote": "“my roepradio wat afgaan”"
+      },
+      {
+        "location": "HTML, endnotes heading",
+        "severity": "minor",
+        "source_quote": "Endnotes",
+        "suggested_fix": "Vertaal die opskrif as “Eindnotas”.",
+        "translation_quote": "Endnote"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

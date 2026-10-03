@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first poem stanza 1, line 3",
+      "severity": "major",
+      "source_quote": "I’ll make the best of TIME—right now—",
+      "suggested_fix": "Ek sal die beste maak van TYD—juis nou—",
+      "translation_quote": "Ek sal die meeste maak van TYD—nou dadelik—"
+    },
+    {
+      "location": "source.html, second poem stanza 1, line 1",
+      "severity": "major",
+      "source_quote": "“Boast not thyself,” I’m warned,",
+      "suggested_fix": "“Moenie op jouself roem nie,” word ek gewaarsku,",
+      "translation_quote": "“Moenie roem nie,” word ek gewaarsku,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

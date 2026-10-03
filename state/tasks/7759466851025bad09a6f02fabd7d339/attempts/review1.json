@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First stanza, second line\",\"severity\":\"major\",\"source_quote\":\"Tomorrow may not be.\",\"suggested_fix\":\"מחר אולי לא יבוא.\",\"translation_quote\":\"מחר אולי כבר לא אהיה.\"},{\"location\":\"Second poem section, first stanza, first two lines\",\"severity\":\"major\",\"source_quote\":\"“Boast not thyself,” I’m warned, / “Of what tomorrow brings;\",\"suggested_fix\":\"״אל תתפאר במה שיביא המחר״, מזהירים אותי;\",\"translation_quote\":\"״אל תתפאר בעצמך״, מזהירים אותי, / ״במה שיביא המחר;\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 620,
+    "content_evidence_truncated": false,
+    "content_sha256": "b8409cac67de17e21e8fca39ba50b6f794f55b60a6308bee9e85e7bb3e25682b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 595,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1966,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2729
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

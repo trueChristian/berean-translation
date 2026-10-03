@@ -2,7 +2,6 @@
   "article_id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 3852
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 175,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3619,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3616,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3794
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, final paragraph",
+      "severity": "major",
+      "source_quote": "<em>…in thy presence is fulness of joy; at thy right hand there are pleasures for evermore –Psalm 16:11.</em>",
+      "suggested_fix": "Vertaal die aangehaalde teks in Afrikaans en behou die verwysing presies: <em>…in u teenwoordigheid is daar volheid van vreugde; aan u regterhand is daar genietinge vir ewig –Psalm 16:11.</em>",
+      "translation_quote": "<em>…in u teenwoordigheid is daar volheid van vreugde; aan u regterhand is daar genietinge vir ewig –Psalm 16:11.</em>"
+    }
+  ],
   "id": "4abf19fa4974c9d511125cfdf531c66f",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "afr",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/18c2186c1295c47c04075ef2762adbedbd6d20fe5aab53eec4d3dda0200a660c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
   "translation_model_actual": "gpt-6-luna"

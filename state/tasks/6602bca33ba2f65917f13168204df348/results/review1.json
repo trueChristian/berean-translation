@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f698f47b-9dd1-425f-9c38-dd30fc14480c",
+    "response_id": "chatcmpl-EUxHWF9KkDPXiLsXcWm6eqlKpVpLT",
+    "usage": {
+      "completion_tokens": 645,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5510,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5507,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6155
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Scripture quotation from Zechariah 4:10",
+        "severity": "major",
+        "source_quote": "For who hath despised the day of small things… –Zechariah 4:10.",
+        "suggested_fix": "Replace only the quoted wording with «For hvem har foraktet dagen med små ting …», keeping the existing <em> tag and reference in place.",
+        "translation_quote": "For hvem har foraktet den dagen da det begynte i det små … –Sakarja 4:10."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, kutipan Ibrani 4:9–11",
+      "severity": "major",
+      "source_quote": "“There remaineth therefore a rest to the people of God.”",
+      "suggested_fix": "Hapus tambahan “hari ketujuh” agar kutipan tidak menambahkan keterangan yang tidak ada dalam teks sumber. Contoh: “Jadi masih tersedia suatu hari perhentian bagi umat Allah.”",
+      "translation_quote": "“Jadi masih tersedia suatu hari perhentian, hari ketujuh, bagi umat Allah.”"
+    },
+    {
+      "location": "HTML, kutipan Ibrani 4:9–11 dan kutipan Ibrani 4:11 di bagian “Berfokuslah kepada Allah”",
+      "severity": "major",
+      "source_quote": "“lest any man fall after the same example of unbelief”",
+      "suggested_fix": "Ganti “mengikuti contoh ketidaktaatan itu” pada kedua kutipan dengan padanan yang menyampaikan “unbelief”, misalnya “mengikuti contoh ketidakpercayaan itu”.",
+      "translation_quote": "“supaya jangan seorang pun jatuh karena mengikuti contoh ketidaktaatan itu”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

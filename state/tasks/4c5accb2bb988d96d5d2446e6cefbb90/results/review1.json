@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2fe11b51-9b40-4dc4-87f9-8accd1b7df60",
+    "response_id": "chatcmpl-EUxHWM2hk06qMMsLqpaafkdv5QTcb",
+    "usage": {
+      "completion_tokens": 367,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11284,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11654
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, avsnitt 5: Hövlighet, första stycket",
+        "severity": "major",
+        "source_quote": "“The NIV says it better. ‘Love is not rude! Courtesy is love in the little things.’”",
+        "suggested_fix": "Ändra till: ”NIV uttrycker det bättre: ’Kärleken är inte ohövlig! Hövlighet är kärlek i de små tingen.’”",
+        "translation_quote": "“Nya internationella versionen uttrycker det bättre: ”Kärleken är inte ohövlig!” Hövlighet är kärlek i de små tingen.”"
+      },
+      {
+        "location": "HTML, avsnitt 7: Gott humör, första stycket",
+        "severity": "major",
+        "source_quote": "“Few things unchristianize a good man than an evil temper.”",
+        "suggested_fix": "Ändra meningen till: ”Få saker gör en god man så okristen som ett dåligt temperament.”",
+        "translation_quote": "“Få saker gör en god man så okristlig som ett ont temperament.”"
+      },
+      {
+        "location": "HTML, avsnitt 9: Uppriktighet, sista stycket",
+        "severity": "major",
+        "source_quote": "“Rejoicing in righteousness and thinking NO EVIL is a normal and final attitude of love.”",
+        "suggested_fix": "Ändra ”Att glädja sig i rättfärdigheten” till ”Att glädja sig över rättfärdigheten”, så att formuleringen återger källans innebörd.",
+        "translation_quote": "“Att glädja sig i rättfärdigheten och INTE tänka något ont är kärlekens normala och slutliga hållning.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

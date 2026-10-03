@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c59325fb-91a4-4848-a13c-1905276d477c",
+    "response_id": "chatcmpl-EUxHUT5Vh1rlqoktfZvwbtLeFcx20",
+    "usage": {
+      "completion_tokens": 515,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 408,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2386,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2383,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2901
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, stanza beginning “Sometimes the future seems scary”",
+        "severity": "minor",
+        "source_quote": "“Still, I set my eyes on His ultimate goal,”",
+        "suggested_fix": "Change “malengo yake ya mwisho” to “lengo lake kuu” to preserve the singular “goal.”",
+        "translation_quote": "“Bado, nayatazama malengo yake ya mwisho,”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

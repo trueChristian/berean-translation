@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, refrain, final line",
+      "severity": "major",
+      "source_quote": "Unfailing kindness, undying love.",
+      "suggested_fix": "Vervang door: “Onophoudelijke goedheid, onvergankelijke liefde.”",
+      "translation_quote": "Onfeilbare goedheid, onsterfelijke liefde."
+    },
+    {
+      "location": "HTML poem, refrain, second line",
+      "severity": "minor",
+      "source_quote": "Rest for the labor, light for the way,",
+      "suggested_fix": "Vervang “Rust na het werk” door “Rust voor het werk” om het beeld van rust voor de inspanning te behouden.",
+      "translation_quote": "Rust na het werk, licht op de weg,"
+    },
+    {
+      "location": "HTML poem, stanza 2, second line",
+      "severity": "minor",
+      "source_quote": "Toil and temptation, trouble and woe;",
+      "suggested_fix": "Schrijf “zwoegen” met een kleine letter na de regelafbreking voor een natuurlijkere doorlopende zin.",
+      "translation_quote": "Zwoegen en verzoeking, tegenspoed en ellende zullen kennen;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

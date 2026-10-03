@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Third paragraph, Miriam sentence\",\"severity\":\"major\",\"source_quote\":\"Miriam, at the age of twelve, stood post over the future deliverer of the entire Jewish nation and secured her own mother, Jochebed, to be the nurse of the baby Moses.\",\"suggested_fix\":\"Replace “अपने ही माता-पिता, योकेबेद, को” with “अपनी ही माता, योकेबेद, को” to preserve that Jochebed was Miriam’s mother.\",\"translation_quote\":\"बारह वर्ष की मरियम ने पूरे यहूदी राष्ट्र के भावी उद्धारकर्ता की रखवाली की और अपने ही माता-पिता, योकेबेद, को बालक मूसा की धाय बनने की व्यवस्था की।\"},{\"location\":\"“...आशा” section, Hebrews 10:12–13 quotation\",\"severity\":\"major\",\"source_quote\":\"From henceforth expecting till his enemies be made his footstool.\",\"suggested_fix\":\"Replace “उसके बैरी उसके पाँवों की पीढ़ी बनें” with “उसके बैरी उसके पाँवों की चौकी बनें” so the image of a footstool is preserved.\",\"translation_quote\":\"और उसी समय से इसकी बाट जोह रहा है कि उसके बैरी उसके पाँवों की पीढ़ी बनें।\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1577,
+    "content_evidence_truncated": false,
+    "content_sha256": "a761c04c4a6d65829a264b88c21d717cd0544d8279824d03e01a0f45a21e00b8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 886,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 582,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9379,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9376,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10265
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

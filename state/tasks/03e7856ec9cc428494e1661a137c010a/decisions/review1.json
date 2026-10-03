@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning „An diesem Abend“",
+      "severity": "major",
+      "source_quote": "making it difficult to look out of my eyes.",
+      "suggested_fix": "Replace „sodass ich kaum noch die Augen öffnen konnte“ with „sodass mir das Sehen schwerfiel“ to preserve the stated difficulty without adding that he could barely open his eyes.",
+      "translation_quote": "sodass ich kaum noch die Augen öffnen konnte."
+    },
+    {
+      "location": "HTML, paragraph beginning „Tief in meinem Herzen“",
+      "severity": "minor",
+      "source_quote": "I knew that sneaking was wrong",
+      "suggested_fix": "Replace „mich heimlich davonzuschleichen“ with „heimlich zu handeln“ so the line refers to acting secretly, not specifically sneaking away.",
+      "translation_quote": "Ich wusste, dass es falsch war, mich heimlich davonzuschleichen"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

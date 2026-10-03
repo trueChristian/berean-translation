@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 3, line 1",
+      "severity": "minor",
+      "source_quote": "God has not promised smooth roads and wide,",
+      "suggested_fix": "Change “estradas largas e planas” to “estradas largas e suaves” to convey that the roads are smooth, not necessarily flat.",
+      "translation_quote": "Deus não prometeu estradas largas e planas,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

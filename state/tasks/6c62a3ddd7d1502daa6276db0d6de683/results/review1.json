@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ede4df8f-21ff-4439-8345-cc15350f866a",
+    "response_id": "chatcmpl-EUxHV69ByZpXZ7IAAaA2WTqlulUrE",
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 544,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2317,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2943
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, final stanza",
+        "severity": "minor",
+        "source_quote": "“Well done.”",
+        "suggested_fix": "Change «Vel gjort.» to the more idiomatic Norwegian «Godt gjort.»",
+        "translation_quote": "«Vel gjort.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Kom ihåg att det är Jesus själv…”\",\"severity\":\"minor\",\"source_quote\":\"“His very first concern is that we would NOT be deceived.”\",\"suggested_fix\":\"Replace “Hans allra första oro är att vi INTE ska bli bedragna” with “Det han allra främst vill är att vi INTE ska bli bedragna.”\",\"translation_quote\":\"“Hans allra första oro är att vi INTE ska bli bedragna.”\"},{\"location\":\"Paragraph beginning “Under de senaste åren…”\",\"severity\":\"minor\",\"source_quote\":\"“there have been numerous mass shootings here in the United States.”\",\"suggested_fix\":\"Replace “flera masskjutningar” with “ett stort antal masskjutningar” to convey the source’s emphasis on numerous incidents.\",\"translation_quote\":\"“det förekommit flera masskjutningar här i USA.”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 867,
+    "content_evidence_truncated": false,
+    "content_sha256": "068c23db8881b13f927a1192cc43f282e70609ed155b7ed5a660d792dacd4633",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 776,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 563,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5015,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5012,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5791
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

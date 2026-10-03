@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “If not before now…”",
+      "severity": "major",
+      "source_quote": "Our children need to know that ALL who live godly in Christ Jesus WILL suffer persecution.",
+      "suggested_fix": "Vervang de betreffende zin door: “Onze kinderen moeten weten dat ALLEN die godvruchtig leven in Christus Jezus vervolgd ZULLEN worden.”",
+      "translation_quote": "Onze kinderen moeten weten dat ALLEN die godvruchtig willen leven in Christus Jezus vervolgd ZULLEN worden."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

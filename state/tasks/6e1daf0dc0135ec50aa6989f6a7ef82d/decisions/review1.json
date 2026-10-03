@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Overskrift",
+      "severity": "major",
+      "source_quote": "Be Obedient",
+      "suggested_fix": "Endre tittelen til «Vær lydig».",
+      "translation_quote": "Vær lydig"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

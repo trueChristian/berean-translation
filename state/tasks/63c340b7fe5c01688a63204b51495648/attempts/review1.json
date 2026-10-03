@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “In den vergangenen Jahren …”\",\"severity\":\"minor\",\"source_quote\":\"“numerous mass shootings”\",\"suggested_fix\":\"Replace “Amokschießereien” with “Massenerschießungen” or another German term for mass shootings; “Amokschießereien” can imply a specific kind of rampage not stated in the source.\",\"translation_quote\":\"“zahlreiche Amokschießereien”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 451,
+    "content_evidence_truncated": false,
+    "content_sha256": "6edcb4275d6e08bb0bb579630399cc43adcc20a3db3bfd25816d71a6084aa441",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 683,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 557,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4922,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5608
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

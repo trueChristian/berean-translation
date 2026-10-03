@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, lines 1–2\",\"severity\":\"major\",\"source_quote\":\"“We can’t afford to win the gain that means another’s loss; / We can’t afford to miss the crown by stumbling at the cross.”\",\"suggested_fix\":\"Replace these two lines with: “Hatuwezi kumudu kupata faida inayomaanisha hasara kwa mwingine; / Hatuwezi kumudu kukosa taji kwa kujikwaa kwenye msalaba.”\",\"translation_quote\":\"“Hatuwezi kujinufaisha kwa faida inayomaanisha hasara ya mwingine; / Hatuwezi kukosa taji kwa kujikwaa kwenye msalaba.”\"},{\"location\":\"Poem, lines 7 and 9–10\",\"severity\":\"major\",\"source_quote\":\"“We can’t afford to play with fire, or tempt a serpent’s bite; / We can’t afford with serious heed to treat the cynic’s sneer; / We can’t afford to wise men’s words to turn a careless ear.”\",\"suggested_fix\":\"Use: “Hatuwezi kumudu kucheza na moto, au kujihatarisha kuumwa na nyoka; / Hatuwezi kumudu kuchukulia kwa uzito dhihaka ya mkosoaji mwenye kejeli; / Hatuwezi kumudu kupuuza maneno ya wenye hekima.”\",\"translation_quote\":\"“Hatuwezi kucheza na moto, wala kujaribu kuumwa na nyoka; / Hatuwezi kutilia maanani kwa uzito dhihaka ya mkosoaji mwenye kejeli; / Hatuwezi kuyasikiliza kwa uzembe maneno ya wenye hekima.”\"},{\"location\":\"Title and poem, refrain throughout\",\"severity\":\"major\",\"source_quote\":\"Title: “Things We Can’t Afford.” Refrain: “We can’t afford…”\",\"suggested_fix\":\"Use the consistent refrain “Hatuwezi kumudu…” and title “Mambo Tusiyoweza Kumudu.” In particular, revise the first line to “Hatuwezi kumudu kupata faida inayomaanisha hasara kwa mwingine.”\",\"translation_quote\":\"Title: “Mambo Tusiyoweza Kumudu.” Refrain varies between “Hatuwezi kumudu…” and “Hatuwezi…”; the first line says “Hatuwezi kujinufaisha…”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1848,
+    "content_evidence_truncated": false,
+    "content_sha256": "8d3ba1686059c6f85ce30a0a7e129a85c56eb3a75e667e25ceb5778f259d1b77",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 499,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1690,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1687,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2189
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

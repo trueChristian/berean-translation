@@ -2,7 +2,6 @@
   "article_id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 2655
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 307,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2327,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2324,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2634
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Poem, stanza 6",
+      "severity": "major",
+      "source_quote": "“My chosen one, I alone can fulfill, that for which your heart yearns.”",
+      "suggested_fix": "Keep the existing tags and translate the line as, for example: «Min utvalda, endast jag kan uppfylla det som ditt hjärta längtar efter.»",
+      "translation_quote": "”Min utvalda, Endast jag kan uppfylla det som ditt hjärta längtar efter."
+    },
+    {
+      "location": "Poem, stanza 8",
+      "severity": "major",
+      "source_quote": "“Yet the promise remains, all works out well, For him that in God does delight.”",
+      "suggested_fix": "Translate the promise without adding the specific idea of things ‘working together’: for example, «Ändå står löftet fast: allt blir väl för den som har sin glädje i Gud.»",
+      "translation_quote": "Ändå består löftet: allt samverkar till det bästa för den som har sin glädje i Gud."
+    },
+    {
+      "location": "Poem, stanza 10",
+      "severity": "minor",
+      "source_quote": "“While others lives go on so free.”",
+      "suggested_fix": "Use a Swedish expression that conveys others’ lives going on freely, such as «medan andra kan leva så fritt vidare».",
+      "translation_quote": "medan andras liv går vidare så obehindrat."
+    }
+  ],
   "id": "992781be40c401b0746bf20496df3cf5",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "swe",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6fda27bfd0a8667c57a974670256618ed4e8c0248a5ef522f6eee0e736dd1da0.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
   "translation_model_actual": "gpt-6-luna"

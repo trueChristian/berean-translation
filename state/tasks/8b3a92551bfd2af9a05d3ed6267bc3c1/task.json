@@ -2,7 +2,6 @@
   "article_id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dad2e48282af4a1faa1c5d616a0f8063",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 5354
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 587,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 326,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5124,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5121,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5711
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 3, quotation of Matthew 10:16",
+      "severity": "major",
+      "source_quote": "…be ye therefore wise as serpents, and harmless as doves",
+      "suggested_fix": "In die bestaande <em>...</em>-teks, vervang “versigtig soos slange en opreg soos duiwe” met “wys soos slange en onskuldig soos duiwe” om die betekenis van albei beskrywings te behou.",
+      "translation_quote": "…dus versigtig soos slange en opreg soos duiwe"
+    },
+    {
+      "location": "Paragraph 10, statement about persecution",
+      "severity": "major",
+      "source_quote": "ALL who live godly in Christ Jesus WILL suffer persecution.",
+      "suggested_fix": "Vervang “ALMAL wat godvrugtig in Christus Jesus wil lewe, VERVOLG SAL WORD” met “ALMAL wat godvrugtig in Christus Jesus lewe, SAL VERVOLG WORD” om die bron se stelling oor dié wat godvrugtig lewe te behou.",
+      "translation_quote": "ALMAL wat godvrugtig in Christus Jesus wil lewe, VERVOLG SAL WORD"
+    }
+  ],
   "id": "8b3a92551bfd2af9a05d3ed6267bc3c1",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "afr",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e6374334d6e72ef0337761efa27ba0d4b445710a6cd11331ff241df7b97827d8.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
   "translation_model_actual": "gpt-6-luna"

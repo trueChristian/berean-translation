@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final sentence of the paragraph beginning «Después de varias horas angustiosas»",
+      "severity": "major",
+      "source_quote": "how I had gotten stung.",
+      "suggested_fix": "Replace «cómo me habían picado» with «cómo me había picado» to keep the sting consistent with the single wasp identified in the preceding paragraph.",
+      "translation_quote": "cómo me habían picado"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -110,6 +110,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
+      "html_sha256": "0f86f07b71c431e16a6825667e9e7e592149f25f20b6dc1222c1c31d3acf45e7",
+      "human_reviewed": false,
+      "id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
+      "images": [
+        {
+          "alt": "Doudruppels op groen gras",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-1.jpg"
+        },
+        {
+          "alt": "Doubedekte gras wat in die sonsopkoms gloei",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.json",
+      "metadata_sha256": "5b23d778e6db16567a1667c4b6befb31affa640ff062831c6aac17504c60bc9d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRASIE VIR JONGMENSE",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die dou van jeug",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "a74b28f7a0dc2839177572ace265b23341281d1c58b016ab09d3312748d56f66",
       "human_reviewed": false,
@@ -561,6 +593,38 @@
       "subtitle": null,
       "title": "Gij moet weer gebore word",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "833540d39a928413d8af1c5668c541d3c16de9db7bed7504a87fa58697d52217",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "Bergriwwe en ’n vallei onder ’n bewolkte lug",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "’n Kruis op ’n rotsagtige berg wat oor ’n vallei uitkyk",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "69081928eb80beea86727e86f401dbb0a22971594437289ada52464e249381b0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "GEDAGTES VAN ’N SENDeling",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die krag van God",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -1054,6 +1118,61 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/61996151-3b49-4498-9285-995520ca542d.html",
+      "html_sha256": "78519c068dcb05f563431aac3cafc9e4ff4e516d472f54132d8dee865ba1bd86",
+      "human_reviewed": false,
+      "id": "61996151-3b49-4498-9285-995520ca542d",
+      "images": [
+        {
+          "alt": "Sonsondergang oor kalm water en ’n donker kuslyn",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-1.jpg"
+        },
+        {
+          "alt": "’n Kalm blou see onder ’n pienk en oranje lug",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/61996151-3b49-4498-9285-995520ca542d.json",
+      "metadata_sha256": "c09ac19a7cb1603e46f38958cb45c56aa07a27c972707387acc41da23b37ba0d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "’N WOORD VAN ’N DOKTER",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Rus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "26445864735f55078cf9dd48e9461e2c06c7c72999003eea1f7aef30b5aee046",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "398b68252ac66bd55dba083165c00cb3ee348357684f6cd677f64b51c820d7fd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gedig",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "46d3b29bf93c9986006e0aa4760664d440c076e97703be49adb606080c1e149a",
       "human_reviewed": false,
@@ -1078,6 +1197,34 @@
       "subtitle": null,
       "title": "Van die Redakteur",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
+      "html_sha256": "471b8154543578293604372c329dccf95c92d49f0a00769fca0f111fbd889bf4",
+      "human_reviewed": false,
+      "id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
+      "images": [
+        {
+          "alt": "’n Gesnyde brood op ’n houtplank",
+          "public_path": "/images/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.json",
+      "metadata_sha256": "29be3ecb2117191200bc86866e82c6a085c2d1948beee11c7092b4cfc59150dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "SUSTER TOT SUSTER",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Klein Dinge",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -2512,6 +2659,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "9c66e2ef0a978379be30e1324404d6e9c9f701e04d810b27e8708c350d6571af",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "أشعة الشمس تتسلل عبر غابة يلفّها الضباب",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "e54e31a4292650c8c2985a831dd4d6505160b203c4b3af373d5b77b27daac35a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "قصيدة",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "أمور لا يسعنا التفريط بها",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "db14f3a472b80795dc810ead5d80f02567d050ed59dab25498ec8862a8bc2c72",
       "human_reviewed": false,
@@ -3027,6 +3202,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "d3c86f8fa4b257751f62a7a57cd88423051dbbabadfe9514eaecf7cee0e81bea",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "غيوم عاصفة داكنة فوق مياه هادئة",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "d82b927232b51c309f9b7b5430f1a1dd9596f64acac430b657738c6115e2ff62",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "قصيدة",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "أحيانًا",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
       "html_sha256": "33efe0d3d821dbab68b72d7e56354c24072f127951bfef569014663613bf6a8b",
       "human_reviewed": false,
@@ -3179,6 +3382,61 @@
       "subtitle": null,
       "title": "من المحرر",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/61996151-3b49-4498-9285-995520ca542d.html",
+      "html_sha256": "3a8b4f8781262b3feeb81887815a181084d72050fb33782d3b42a5b3a4736fc8",
+      "human_reviewed": false,
+      "id": "61996151-3b49-4498-9285-995520ca542d",
+      "images": [
+        {
+          "alt": "غروب الشمس فوق مياه هادئة وشاطئ مظلم",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-1.jpg"
+        },
+        {
+          "alt": "بحر أزرق هادئ تحت سماء وردية وبرتقالية",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/61996151-3b49-4498-9285-995520ca542d.json",
+      "metadata_sha256": "353fd6f7526dfb4915d51ba168e190e8d11a68c2f3846cea4a7b867af8fd79cd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "كلمة من طبيب",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الراحة",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "aed6a5d36baf3db916cd62b28ee4c67c3885553d8657312f284b68559486ebf0",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "5c1ec84b4d1f6dd875c99f1485644145fca9ac36095b212549104174d110ff9b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "قصيدة",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -3367,6 +3625,34 @@
       "subtitle": null,
       "title": "ماذا ترى؟",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "a792b6137f3cf1e7b719a3b633fceffdd096f0162b35c98f35a236a7af5b5993",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "صندوق من الخوخ موضوع على خشب متآكل",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "72595de78d45aee3a1b138e97ada550ddb803ee261530dd7d7c945400064fe8c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ركن الأطفال",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "كن مطيعًا",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -3570,6 +3856,34 @@
       "subtitle": "قصة عن الامتنان",
       "title": "رجل الأقراص",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "6cbf20ad5031d268e3d33d9d72ceffef9baee4e0801b8a7cd6cbb1c520568f5e",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "متسلقان يساعد أحدهما الآخر على صعود حافة جبل شديدة الانحدار عند الغسق",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "5409d39571558c7c729c698c17ecd9beb891803acacd61a4a806273b0eda5b49",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "من المحرر",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "من المحرر",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -4472,6 +4786,66 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
+      "html_sha256": "ccfde2384b7214bc827a70fd868154e7ed9e97785b282cdd332c73d66258eff1",
+      "human_reviewed": false,
+      "id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
+      "images": [
+        {
+          "alt": "সবুজ ঘাসের ওপর শিশিরবিন্দু",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-1.jpg"
+        },
+        {
+          "alt": "সূর্যোদয়ের আলোয় ঝলমল করছে শিশিরভেজা ঘাস",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.json",
+      "metadata_sha256": "ad13e91a1dbd945cf6fac615aad105ac97d6dc9256cfc02ca182ffde346c9d8b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "তরুণদের জন্য অনুপ্রেরণা",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "যৌবনের শিশির",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "f48df08ea9666419b7aa90b8aee00f7e955a68a548f8b10bddef57f71ef3bb69",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "কুয়াশাচ্ছন্ন বনের মধ্য দিয়ে সূর্যের আলো এসে পড়ছে",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "faca651d7ed0ff6ce33ed4c2c63e6409a79d2792db122834daf772bb229ab677",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "কবিতা",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "যে কাজগুলো আমাদের করা চলে না",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
       "html_sha256": "e8140d33935ba1dbdb5d96e481eedd49195558cdbf8c7702463b840158664faa",
       "human_reviewed": false,
@@ -5106,6 +5480,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "77ce3ebec82f10e87dee578c28f4c0890cf9ba821fe13a3801b96d9d1828b333",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "শান্ত জলের ওপর কালো ঝড়ের মেঘ",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "2494c2faa9d08cc10cfe3e2fa635f8eb01eda017c37162481748157fc0ecf723",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "কবিতা",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "কখনো কখনো",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "cf4665d9584d4b22927a120ce2b0b42f98bfc0e29495fac1388480e25cc2637c",
       "human_reviewed": false,
@@ -5478,6 +5880,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "e0471d0e38cca73ddfbdd1326be45cbc2f101c289bda7e51dd294d6fd948e568",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "আবহাওয়ার প্রভাবে জীর্ণ কাঠের ওপর এক বাক্স পীচ",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "32108f6577fd9a3a85dad3018a485bc2be0fc89478ebc2bae1c377cc3e6d25bf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "শিশুদের পাতা",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "আনুগত্যশীল হও",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "497026db430a6cc7ba0e47af0cde2813a9d5210a322f7d70c626f09cfe49cc5e",
       "human_reviewed": false,
@@ -5824,6 +6254,38 @@
       "subtitle": null,
       "title": "বীর",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
+      "html_sha256": "4170842e58ea930f7cd74a44fcfefb44c3e6a785c4c6f7ff165caf5d562bd7c2",
+      "human_reviewed": false,
+      "id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
+      "images": [
+        {
+          "alt": "অন্ধকার ঘাসে ঢাকা দিগন্তের ওপর সোনালি সূর্যালোক",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg"
+        },
+        {
+          "alt": "সোনালি আকাশের সামনে দাঁড়িয়ে থাকা একজন ব্যক্তি",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.json",
+      "metadata_sha256": "f8881a3d8e34b4960f4ff4b435d25008f685b7d1beef4810d0b2accc608837f4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "কবিতা",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
+      "status": "ready",
+      "subtitle": null,
+      "title": "আজ",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -6209,6 +6671,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "393a6be6c86626f6f91f3910a07ec9999dd8b6516f0806d5a531d3632476ebd7",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "阳光穿过雾气弥漫的森林",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "938d21a1c34ca79aa6adfab79dc2acec28fc9cad588f6a42bef6da2bdc16758f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "诗歌",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "我们承担不起的事",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "96994dac36d774d619c5291bcbab0accd4ca28bb024dd8fa90ef04e8a15cb0c4",
       "human_reviewed": false,
@@ -6488,6 +6978,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "784387bdb0d8ecf71180546d76d1e2a65ca3e76dea9c36771b35c42066047211",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "阴云之下的山脊与山谷",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "岩石山上俯瞰山谷的十字架",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "61a01f9104c5f8308e7aab1c285aaef3eed79439c5562cd6896e9bb10f68379e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "传教士随想",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "神的能力",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "e75abd871423f43ca9b42b7f7e3b85c20216a3b7cf277f525cc711864bc722d5",
       "human_reviewed": false,
@@ -6660,6 +7182,34 @@
       "subtitle": null,
       "title": "编者的话",
       "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "e8a2bb250cb6b79210bc0f61a8a5db0f59ffa2a6e4e3f18c6c9ae34ece749456",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "平静水面上空的乌云",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "cc39f5c5ec77f84738c1923051c999d97309ae7a41e23ac6db7ae2b1eae4f400",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "诗歌",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "有时",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -6880,6 +7430,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "d9e13a9022ebc736a0200519d58763738d3495e50bb770a02785d05e46fa1ee4",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "一名年轻女孩站在阳光明媚的田野里，四周开满红色虞美人",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "c2c3cc67ee4891b5ea6fef156a1705c72a6be701860c675738a294d63b106db4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "给年轻姊妹的勉励",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "享受生活",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "9468f7e0c675013b67befd90450e5129927055150db9f4f9163aea710c067031",
       "human_reviewed": false,
@@ -6943,6 +7521,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "要心存感激",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "2fbe0cd645dbe3a9a163e74c8be78d917990a4a5efbc7e0545d80522fee1359c",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "一筐桃子放在风化的木板上",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "32aa1ded06b5cedb8e3398121230983accb84b06ccc177cbcf7728cd43d8d13d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "儿童天地",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "要听话",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -8223,6 +8829,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "b10117224558e716b375e3aada1b258bd05863e005843e79bdd700a06d1f732a",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "Bergkämme und ein Tal unter einem wolkenverhangenen Himmel",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "Ein Kreuz auf einem felsigen Berg mit Blick auf ein Tal",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "6f8730f741f7aeb9d601e95976c5516d8ea5e4447abc36a11cfb1dce7aa832e5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gedanken eines Missionars",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Macht Gottes",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "3d990201a470b1afc683135dc92a744471230a32aee7f9d22871669a5a0436ec",
       "human_reviewed": false,
@@ -8510,6 +9148,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "6cf2cff17098a3d372bea011121b94c07cb1a2e86128bf1f49f1db0dbcdc3d80",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "Dunkle Sturmwolken über ruhigem Wasser",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "82b6cc25dfe6a18ffea515dacfc53331bee2e29e6771ca7b0a51f436f336d5e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gedicht",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Manchmal",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "e7fd19c13e64c17593e1d80242a2e3ae111a257ec1aee373c8e870b1750ac29b",
       "human_reviewed": false,
@@ -8546,6 +9212,29 @@
       "subtitle": null,
       "title": "Ein lebensverändernder Einfluss",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "5f5868c15e09ecf75c093f653d40a996bd5cb2f0c148531adf3cb6dd6c64884f",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "6b8e03e270026a69238712d23e06e2236178fb0f7546bf90ffc38b49c14c9ccf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gedicht",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -8693,6 +9382,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "„Muss ich es erzählen?“",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "119858849056eccf5f11f235d6d3a18161956ff23905a548fe940ecaab08e0d0",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Ein junges Mädchen steht auf einem sonnigen Feld zwischen roten Mohnblumen",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "81030de0e631410ed8fb551f75f1f987de2a9c98325de8d99f7fd39a0f7a8da1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ERMUTIGUNG FÜR JÜNGERE SCHWESTERN",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Das Leben genießen",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -9012,6 +9729,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Ein gesundes Immunsystem",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "8147653e2015b3ab1e3befdc1f4023fccead8dfd67fe4546c5fbc6d6afbe2c48",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Zwei Kletterer helfen einander bei Dämmerung einen steilen Grat hinauf",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "970c568f708320e2b5e4904b09d0dac9f1f0b15b6db74a47c763f17d115888b0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Aus der Redaktion",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Aus der Redaktion",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -10098,6 +10843,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "62d8121634baf366079783bf1958b0e1f93cb5c8bb838ac56af0049c2df0594e",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "Σκοτεινά σύννεφα καταιγίδας πάνω από ήρεμα νερά",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "192da1c8cd0e7e4e4ea47540f324d36ffed70ed765a5a8d19f1a01fb9a1f787e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Ποίημα",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Μερικές φορές",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/5613aef3-79c5-42d4-9695-214e71989c22.html",
       "html_sha256": "276e4292b96c864723fa72c747f65d3c36b7247d7b411e95577e2f4674bef62e",
       "human_reviewed": false,
@@ -10241,6 +11014,38 @@
       "subtitle": null,
       "title": "Από τον Συντάκτη",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/61996151-3b49-4498-9285-995520ca542d.html",
+      "html_sha256": "a26de8d9e20f907986b450bf634b12ac66ebeae93a6f477d5f84eb6700c3fd93",
+      "human_reviewed": false,
+      "id": "61996151-3b49-4498-9285-995520ca542d",
+      "images": [
+        {
+          "alt": "Ηλιοβασίλεμα πάνω από ήρεμα νερά και μια σκοτεινή ακτογραμμή",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-1.jpg"
+        },
+        {
+          "alt": "Ήρεμη γαλάζια θάλασσα κάτω από ροζ και πορτοκαλί ουρανό",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/61996151-3b49-4498-9285-995520ca542d.json",
+      "metadata_sha256": "a7418e07d50512706b40e41f3fa96ccae5704465ace59db242a798367de223f7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΜΙΑ ΛΕΞΗ ΑΠΟ ΕΝΑΝ ΓΙΑΤΡΟ",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ανάπαυση",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -10397,6 +11202,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "e8f406f98eafeac6834999e17dda761f6cf04b8331d613869b5af1ad25a7ff83",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Ένα νεαρό κορίτσι στέκεται ανάμεσα σε κόκκινες παπαρούνες σε ένα ηλιόλουστο χωράφι",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "a9998a846bf193d66ffa6a9daf98c1a061e39f8fae7dda8344530992f2184077",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΕΝΘΑΡΡΥΝΣΗ ΓΙΑ ΤΙΣ ΝΕΟΤΕΡΕΣ ΑΔΕΛΦΕΣ",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Απολαμβάνοντας τη ζωή",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "7015d487ecaa6d62fbfb0b7361616c291aea42bee441b9276dadc7302d8e0182",
       "human_reviewed": false,
@@ -10517,6 +11350,34 @@
       "subtitle": null,
       "title": "Τι Βλέπεις;",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "a520a8a793f172a4b46f7fc813b9f0fea84b788f1fea9f0134e0e07a37047b41",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "Ένα κιβώτιο με ροδάκινα πάνω σε φθαρμένο ξύλο",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "e2a4ce4d7a02c883af0bbd05036446838b63b0b443e054b91aff7286729c37b8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Παιδική γωνιά",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Να είσαι υπάκουος",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -10807,6 +11668,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Ένα υγιές ανοσοποιητικό σύστημα",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "ea7672bac31b9221717d0e4f55959d03790cfc34dfe50088d7d530319b4789e9",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Δύο ορειβάτες βοηθούν ο ένας τον άλλον να ανέβει μια απότομη κορυφογραμμή το σούρουπο",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "531c1dfe8c4edf4cf327b188968fae8e138dd46438030778c0b66cd03c2fb3a6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Από τον ΕΚΔΟΤΗ",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Από τον εκδότη",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -11424,6 +12313,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/f3dc712f-f89d-476b-9cc6-f94dc67a339d.html",
+      "html_sha256": "1860809dce6b347182536383ccd88205a831288dea4da3d60637e4ddb5aa2da9",
+      "human_reviewed": false,
+      "id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/f3dc712f-f89d-476b-9cc6-f94dc67a339d.json",
+      "metadata_sha256": "b8f1dfd1cc6919cb72c24e11caca3cb8988f490047a8d409f40b30d225cc62f3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Το ευσεβές σπίτι",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
+      "status": "ready",
+      "subtitle": "Το μεγαλύτερο πράγμα στον κόσμο",
+      "title": "Αυτό το πράγμα που λέγεται αγάπη",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
       "html_sha256": "cc3e3c3a94088a54dbd6814eb66d9e35c01eead448b8c686e0cfa777f9b20381",
       "human_reviewed": false,
@@ -11594,6 +12506,66 @@
       "status": "ready",
       "subtitle": null,
       "title": "J’aime ton royaume, Seigneur",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
+      "html_sha256": "5f27eabb47a0e9993f62d398a16033a66b7be0c125c4ef905da323777f0de3a8",
+      "human_reviewed": false,
+      "id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
+      "images": [
+        {
+          "alt": "Gouttes de rosée sur de l’herbe verte",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-1.jpg"
+        },
+        {
+          "alt": "Herbe couverte de rosée, illuminée par la lumière du lever du soleil",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.json",
+      "metadata_sha256": "02e3af24d5a9f28b39261d666797b63154f83ddfe2a6c8d1bd6c49f19ab2abad",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRATIONS POUR LES JEUNES",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La rosée de la jeunesse",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "826b3f8d5d06abafc9437786c080fa8c12a6d4497d086f8fdc7f4aee3403f8e5",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "La lumière du soleil filtrant à travers une forêt brumeuse",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "e56b01250afa6974bd732d42bdf35d6233f7aab09a6f9d61d0ceaf35b40d15fa",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poème",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ce que nous ne pouvons nous permettre",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -12037,6 +13009,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "13a6864085de13e0cd7115a2240c9f40bf2cb5c3e81d079668bd776ef5fcaf5a",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "Crêtes montagneuses et vallée sous un ciel nuageux",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "Une croix sur une montagne rocheuse dominant une vallée",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "8edcdf9e1060478c8454cb6c36c3f448d9211ef122464f9e86695a33ff5b1b75",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "RÉFLEXIONS D’UN MISSIONNAIRE",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La puissance de Dieu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "431995f06668103a7fea2ce143f70448505527fd01ad3e8fd0fa62d1970c3a5f",
       "human_reviewed": false,
@@ -12370,6 +13374,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "e0af1304a59df0c0279d0400767b419602ba968bf98d09d372f96052b4ebf641",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "Des nuages d’orage sombres au-dessus d’une eau calme",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "97ee48e370b54b23223573c6970b9b34d5dced25baaba4bee81e66166bb63b56",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poème",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Parfois",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
       "html_sha256": "8767eea08ca65befcb46ee265ee775ea364a5ec17676259c09a50022044ad441",
       "human_reviewed": false,
@@ -12545,6 +13577,61 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/61996151-3b49-4498-9285-995520ca542d.html",
+      "html_sha256": "037a24e996d28457982957dc5defc88f93441f5a33d14561d99838d417d223b7",
+      "human_reviewed": false,
+      "id": "61996151-3b49-4498-9285-995520ca542d",
+      "images": [
+        {
+          "alt": "Coucher de soleil au-dessus d’une eau calme et d’un rivage sombre",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-1.jpg"
+        },
+        {
+          "alt": "Mer bleue calme sous un ciel rose et orange",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/61996151-3b49-4498-9285-995520ca542d.json",
+      "metadata_sha256": "703f962760f4ced39595e872167aabc06c5550c58891f2c6d3a6aac123b756c7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "PAROLE D’UN MÉDECIN",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Le repos",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "ce878298ec493091bcf0b76a9d3dce3eee30599067189ec479c74ad3d8974955",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "283d6a773cc36f13fec632ccdf5cfc10c2070ff2a7b6ec3e4a15cdd35168e04a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poème",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "af3c74744d8baf7c1da2e3106cadb07525f7820dd29067eb6e4f78c5c386effd",
       "human_reviewed": false,
@@ -12569,6 +13656,34 @@
       "subtitle": null,
       "title": "Du Rédacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
+      "html_sha256": "7f6f063d3edd746352810097347694a038d07ae1fbaaf221e773ec4a999ed441",
+      "human_reviewed": false,
+      "id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
+      "images": [
+        {
+          "alt": "Un pain tranché posé sur une planche en bois",
+          "public_path": "/images/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.json",
+      "metadata_sha256": "ca5363e6c4d821aafca73e2f0c72f1e14e6e8bfe44ddae3dadaee85b54282a3e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DE SŒUR À SŒUR",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Les petites choses",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -12664,6 +13779,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Pots",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "e09f009ba89b3f664202ef3bb01295d746760f34047e1e4e2ec52cece9c587fa",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Une jeune fille debout parmi des coquelicots rouges dans un champ ensoleillé",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "00fa1b17a9ced9953d9f21920e16473602ed0ae50740ce5fd4bdb1c7b656fc1d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ENCOURAGEMENT AUX JEUNES SŒURS",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Profiter de la vie",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -12789,6 +13932,34 @@
       "subtitle": null,
       "title": "Que vois‑tu ?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "d7097051e84b6d06a3bd59cf3a8e7524f48c0fbf3b33f8bdbcd4740109a6871b",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "Une caisse de pêches posée sur du bois patiné",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "06b1786edef83dd7467056aa0d46338a29b310e37810bf0c7fd116bc206b23e2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Le coin des enfants",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sois obéissant",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -13113,6 +14284,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "01c38ffe2d7fc89c6403c7fe0989f97268be1c6cd11ada3706d54deb55414b8c",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Deux alpinistes s’aident mutuellement à gravir une arête escarpée au crépuscule",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "77e3071d7660a599ca8090ae2829237a301bda0f711b9072efec93cc1707b798",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "De la RÉDACTION",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De la rédaction",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/a6ab0f33-e20a-4b19-ae47-f094395a54f8.html",
       "html_sha256": "c38833b41bd022104b8eccbfbfeffdb25985ddc4cf1163f308ca95572bad3396",
       "human_reviewed": false,
@@ -13415,6 +14614,38 @@
       "subtitle": null,
       "title": "Prophétie et les Derniers Temps",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
+      "html_sha256": "f142b09a198c186b55488b62ce022c27112dfbf7349e79c40cb3e384c8d9146a",
+      "human_reviewed": false,
+      "id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
+      "images": [
+        {
+          "alt": "La lumière dorée du soleil au-dessus d’un horizon d’herbes sombres",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg"
+        },
+        {
+          "alt": "Une personne se tenant devant un ciel doré",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.json",
+      "metadata_sha256": "26bbafa41e0121d72ab977c4b03567486c4b631d296aec9e4ec46daceaf6e2d4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poème",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Aujourd’hui",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -14308,6 +15539,29 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "01dbc293f5d142bc91c0f1649baf879668305f0ab0fb4e0693bb3dab533205cb",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "fed3a8eec3c93893fabef586f7a6593ae26d2342d8867096569f5eb80c1e9e6b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "שיר",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/64012528-bcec-4189-96b5-32a226869815.html",
       "html_sha256": "862842d618635886167861f94cea8e9613eb053a253cd6f586c8f4b6596c4f66",
       "human_reviewed": false,
@@ -14520,6 +15774,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "da6d0618af4fda0cf285c6ed1257efc92a2ee45e5e14fc01bbd83939272ab082",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "ארגז אפרסקים על עץ בלוי",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "cfe3de81f21ae3bd4ef108c5dbdfbdae32fd51236a57c298ce2e00a91c4a3bc8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "פינת הילדים",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "צייתו",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "d4378c8a5527472c46bff378a9376803f8769d1d277a8a825b8de18f63819883",
       "human_reviewed": false,
@@ -14630,6 +15912,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "אם גן עדן אמיתי",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "1a2e72a90ad668472b20be1d8214b86ab4c8aa325a651e25a423f8ed252f1dd5",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "שני מטפסים עוזרים זה לזה לעלות ברכס תלול עם רדת החשכה",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "ae859079988f81df385da2eba16a9b5615991978b7ec64dde6fdf32bbf350fcd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "מאת העורך",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מאת העורך",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -15015,6 +16325,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "हे प्रभु, मैं तेरे राज्य से प्रेम करता हूँ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "709b40cec5edca5c4b3eab05529c41e427ec5b7e07247d5c5626e3f6550498f5",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "धुंधले जंगल में पेड़ों के बीच से छनकर आती धूप",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "7e1634490d846264d576345e58f3c8308976b61823d2f022b46f5a783e61a138",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "कविता",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "वे बातें जिनका जोखिम हम नहीं उठा सकते",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -15521,6 +16859,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "6a369d922b2b30e778099ce0697e2ff35c6b98ccc87b7ee0823f24c24d9f481e",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "शांत जल के ऊपर काले तूफ़ानी बादल",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "7efad3a0ef98a0c6d617e466801d83ed95af442e4648b68c5106fe7ecbb51665",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "कविता",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "कभी-कभी",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
       "html_sha256": "63c55b85d86d4a0abc44da5b7d1a4a97ac5753211e4d28bb5ad5fb7553c4482f",
       "human_reviewed": false,
@@ -15577,6 +16943,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "9292c5b90aff85445a67d1b666baa49a3d8134dfdfe8eab7cd0ee37ddd7526ae",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "e42c8f6e1cf66e0846e1ade7b490c5c33022786a061bf31699c7f81f2d6dc77a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "कविता",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "c2381744ecb2378a1749d659931294db3d52a91d6f90d3936ee9a753a0740716",
       "human_reviewed": false,
@@ -15601,6 +16990,34 @@
       "subtitle": null,
       "title": "From the Editor",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
+      "html_sha256": "ede84daabfe7dd5008a8626ecdffd992f0e3e731033aebdf61cc87cb3311fe4a",
+      "human_reviewed": false,
+      "id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
+      "images": [
+        {
+          "alt": "लकड़ी के तख़्ते पर कटी हुई रोटी की लोई",
+          "public_path": "/images/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.json",
+      "metadata_sha256": "27b6bb80f5ae49c947b7a4c64dc6c8233630fc2bad49dedd15469fbab6b43948",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "बहन से बहन",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "छोटी-छोटी बातें",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -15720,6 +17137,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "पात्र",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "89c92c4226a556b3617612b601700a3c19d68716d723d1cd3aae328e7846cc03",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "धूप से भरे खेत में लाल पोस्त के फूलों के बीच खड़ी एक छोटी लड़की",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "c9d37f7c1126b5c3732696a4720d03bbd996e053ce75a3b48e66ec79657c1064",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "छोटी बहनों के लिए प्रोत्साहन",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जीवन का आनंद लेना",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -15873,6 +17318,34 @@
       "subtitle": null,
       "title": "एक गीत का वादा",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "70675eb4a0d75db661081d4b0493b9567488aa7faae37a641b5a9220a8252599",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "पुरानी लकड़ी पर रखा आड़ुओं का टोकरा",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "812cd8c7845b7c870fa10721201868a886c58d31e6d71c55ee44ba676d051bba",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "बच्चों का कोना",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "आज्ञा मानो",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -16404,6 +17877,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "शोक के सफ़र में उसके साथ चलना",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
+      "html_sha256": "6c5c7b6eed7812fcdaac2bbf901b0864275f2ccb4759f7a81375ab2f937ff8c4",
+      "human_reviewed": false,
+      "id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
+      "images": [
+        {
+          "alt": "अँधेरी घास वाली क्षितिज-रेखा पर सुनहरी धूप",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg"
+        },
+        {
+          "alt": "सुनहरे आकाश के सामने खड़ा एक व्यक्ति",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.json",
+      "metadata_sha256": "7f167f3624cf92e631eaa3e14d7fc58d0c04a6539bc9338573341bb5aed72b73",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "कविता",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
+      "status": "ready",
+      "subtitle": null,
+      "title": "आज",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -17217,6 +18722,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "b608ce377c2712ce265d4a8ebc127a420aa6cf599a13ceac6958ead3ef6c73bd",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "Punggung-punggung gunung dan sebuah lembah di bawah langit berawan",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "Salib di gunung berbatu yang menghadap ke sebuah lembah",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "7aba0629a41a82dcbcd37c382bc4b39d99eccc65e55a6fa8af6ba5a6e2e5b7d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "RENUNGAN SEORANG MISIONARIS",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kuasa Allah",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "0f08970f6949335d89d193e4909fb4c88a3f9b1cda7d79bafa6696e376f1314f",
       "human_reviewed": false,
@@ -17813,6 +19350,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
+      "html_sha256": "c55a8da48cdae5bd354d2b02c7cf1a6ada1d4ccc6b48dfb7af9abd8c04a36378",
+      "human_reviewed": false,
+      "id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
+      "images": [
+        {
+          "alt": "Sepotong roti yang sudah diiris di atas papan kayu",
+          "public_path": "/images/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.json",
+      "metadata_sha256": "5e533997083ad4b40fc170a354aaf8faaf7e4c8c63d1f1bb14f48b930a35a27b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DARI SAUDARI UNTUK SAUDARI",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hal-Hal Kecil",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/64012528-bcec-4189-96b5-32a226869815.html",
       "html_sha256": "dfc2fa37dc6929e34ccbe5e4aba74b6c6549bd89fde1ccbbdc7349df8611cbfb",
       "human_reviewed": false,
@@ -17956,6 +19521,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "“Apakah aku perlu memberi tahu?”",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "4eaae238561fc826e0349a6de0f0d598b0cd611ad5fedf9623d34ba3c08475e6",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Seorang gadis muda berdiri di antara bunga poppy merah di sebuah padang yang cerah",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "078f70e91b56497f08a7580c9182084728354ea3ff78840fcd73aaa038bcbf18",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DORONGAN BAGI SAUDARI-SAUDARI YANG LEBIH MUDA",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Menikmati Hidup",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -18137,6 +19730,34 @@
       "subtitle": null,
       "title": "Janji Sebuah Lagu",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "9ba5bf59f723da487c4b3e2c3da1346afa682d8e449a3f0eab2bb47340f36d5a",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "Sebuah peti berisi buah persik di atas kayu lapuk",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "84eedded7781c829cf0b705fb38ffe3e24c42fdbad97ba9c090cae29d88af2e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Pojok Anak",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Taatilah",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -18465,6 +20086,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "e3e1cfe20755871a2c9f5ac607dd175f54305a9819682c53066121fd45ff112b",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Dua pendaki saling membantu menaiki punggung bukit yang curam saat senja",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "fd426498ce188ebde739a8b00b837849efbde910c95206004b9c90595b86086f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dari REDAKSI",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Redaksi",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/a6ab0f33-e20a-4b19-ae47-f094395a54f8.html",
       "html_sha256": "87bddc68eb3cdfa4daa15c27521b1b99500d01f14f60aaac37b4b89804e11e8d",
       "human_reviewed": false,
@@ -18707,6 +20356,38 @@
       "subtitle": null,
       "title": "Nubuatan dan Akhir Zaman",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
+      "html_sha256": "e9b11fa6d719f5d0ebdaa12d8e0d789ce6f20f41d3e4fae890fcba8e1e83439e",
+      "human_reviewed": false,
+      "id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
+      "images": [
+        {
+          "alt": "Sinar matahari keemasan menyinari cakrawala berumput yang gelap",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg"
+        },
+        {
+          "alt": "Seseorang berdiri dengan latar langit keemasan",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.json",
+      "metadata_sha256": "2fcc0931a3fa05247ecdc57d5fcbb5aa5e4c5b336df913bb5b20edc2342cb293",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Puisi",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hari Ini",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -19426,6 +21107,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Amo il tuo regno, Signore",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "91cb8f12b278c2419ab4c49197f00b2ff506703a40ba7493c5e7c483abc99b4c",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "La luce del sole filtra attraverso una foresta avvolta nella nebbia",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "3f6d38635e3dd5d630fa5ee2c1abb660342967be8f756492f71c857fdff6efda",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poesia",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cose che non possiamo permetterci",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -20349,6 +22058,61 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/61996151-3b49-4498-9285-995520ca542d.html",
+      "html_sha256": "6296a98a450fc0c6644c1329846de17c9d48d37fdf9a3bd0d2a799e27239bc12",
+      "human_reviewed": false,
+      "id": "61996151-3b49-4498-9285-995520ca542d",
+      "images": [
+        {
+          "alt": "Tramonto sull’acqua calma e una riva scura",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-1.jpg"
+        },
+        {
+          "alt": "Un mare blu calmo sotto un cielo rosa e arancione",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/61996151-3b49-4498-9285-995520ca542d.json",
+      "metadata_sha256": "ba4c66e0baf56c996afdee678a48f35477875c4c87ad2fd05e7b38505d0a742d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "UNA PAROLA DA UN MEDICO",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Riposo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "168ae483a987303b5a56ebb6b8c44acfa82c017903436529152fdcb157ff1ed9",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "93ea66deec7d76e1c6b8227bc53a83d0ec8d27d90a261ba37c0c2706cc03bcbf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poesia",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "10b87b9f1de4fd8eb020e28500df861754d0c2a75e38109d469fb925b20d9763",
       "human_reviewed": false,
@@ -20373,6 +22137,34 @@
       "subtitle": null,
       "title": "Dal Direttore",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
+      "html_sha256": "76f0d8cf936cf84c410b97573f2ba6ba062d1229d87da56f3e802f972640daa1",
+      "human_reviewed": false,
+      "id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
+      "images": [
+        {
+          "alt": "Una pagnotta affettata su un tagliere di legno",
+          "public_path": "/images/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.json",
+      "metadata_sha256": "95e21607f1713553f423d351c3f852c0f5fac52cafc7e75f74da598f1c9061f2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DA SORELLA A SORELLA",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Le piccole cose",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -20488,6 +22280,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Vasi",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "7b48ff74483001cb1743a662ae158229f7c901f2fddd5d06b5a74297c4b1cc00",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Una ragazzina in piedi tra papaveri rossi in un campo soleggiato",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "82c3d52296df6006f548c2e2b5ed483889ff29f136a5eea47fb234cca31f7aac",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INCORAGGIAMENTO PER LE SORELLE PIÙ GIOVANI",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Godersi la vita",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -20669,6 +22489,34 @@
       "subtitle": null,
       "title": "La promessa di un canto",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "ec5588d64d270c381371386b9a551d584926416539e1042f393efa86faf4894e",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "Una cassetta di pesche su legno logorato",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "f9a0e4f7e6e5bcf5508f44314e52d4e3bd5be5851ae14b5764979f26a33920a6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Angolo dei bambini",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sii ubbidiente",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -21040,6 +22888,34 @@
       "subtitle": "Una storia sulla gratitudine",
       "title": "L'uomo delle mentine",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "1c3b164aa011dbe7048f801e0458324b24f6ed2811fb4851e9f87b4b2f7e6902",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Due alpinisti si aiutano a salire su una ripida cresta al crepuscolo",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "d48bc972dbe960c836cb4557930054bcb6fb3a16d7c049009b5c94e07c894fdf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dalla REDAZIONE",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dalla redazione",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -22777,6 +24653,61 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/61996151-3b49-4498-9285-995520ca542d.html",
+      "html_sha256": "715d6e3c59c919204ffcc91bd9959888954c6b86f5c285375b138fe8866b49a5",
+      "human_reviewed": false,
+      "id": "61996151-3b49-4498-9285-995520ca542d",
+      "images": [
+        {
+          "alt": "잔잔한 물과 어두운 해안선 위로 지는 해",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-1.jpg"
+        },
+        {
+          "alt": "분홍색과 주황색 하늘 아래 잔잔한 푸른 바다",
+          "public_path": "/images/articles/61996151-3b49-4498-9285-995520ca542d-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/61996151-3b49-4498-9285-995520ca542d.json",
+      "metadata_sha256": "564db18b05b25c18bf86ca9d6747bdeaabe7b745822e1e3a927ff1d7b6f2fd42",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "의사의 한마디",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "쉼",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "7c04bd1f9217a2f7d2739879429c84a6cc24975ab6985b1d8fee7695847d8fa3",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "d56c9cd7256f7a8bacbe3f9fe9b8a5ec6c9be71a887f689a00a26c3dba141192",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "시",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "de3fc5df3cf800256f10649e9e08b0fd34b6fa1e6ca46153b4ea33ddadec39af",
       "human_reviewed": false,
@@ -23013,6 +24944,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "9cb7adec005169a9f23d82b965e9344a59dc5e27b6a5ac6be87ac18ac678988e",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "햇살이 비치는 들판에서 붉은 양귀비꽃 사이에 서 있는 어린 소녀",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "4f75cb51aae8f5e53ed0034d72f14059c804574c107b11ccde3e24a0a81524b6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "어린 자매들을 위한 격려",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "삶을 즐기기",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
       "html_sha256": "c32839f021affaf7620cbae2a7ff160c22d0fc7efa46dc8012b287e36183aa0e",
       "human_reviewed": false,
@@ -23161,6 +25120,34 @@
       "subtitle": null,
       "title": "노래의 약속",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "6d23a4c9e7dce7e04740d18cd85c51724922e506dad97d4f3e9f94cb3e748a69",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "풍화된 나무 위에 놓인 복숭아 상자",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "b5bb193bc377469af3a205f79452aad11d2522c7c08dddb4983314f4b2c3c7e0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "어린이 코너",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "순종하라",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -23395,6 +25382,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "건강한 면역 체계",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "fda6bec4928e2df92b5b8b5b5ee92abce01606f7fa26e02fd5132accaab19ff9",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "해 질 무렵 가파른 능선에서 서로를 끌어 올려 돕는 두 등반가",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "25277db8a0402f2f9c93ad15df462a1f4f1b34cb894adc69e285509ce015b72d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "편집자 글",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집자 글",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -23637,6 +25652,38 @@
       "subtitle": null,
       "title": "예언과 마지막 때",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
+      "html_sha256": "6b390659047af6bed59709c91b8ce08a31a61f1492413c375eb727995aa98620",
+      "human_reviewed": false,
+      "id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
+      "images": [
+        {
+          "alt": "어두운 풀밭의 지평선 위로 비치는 황금빛 햇살",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg"
+        },
+        {
+          "alt": "황금빛 하늘을 배경으로 서 있는 사람",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.json",
+      "metadata_sha256": "97fa25b99a77febb6bf73e4d7d2e375479667e28038e23c25bc18c2a3a222322",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "시",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
+      "status": "ready",
+      "subtitle": null,
+      "title": "오늘",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -24607,6 +26654,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "d7a063f5b5c44eb72ddae76516b84097faac576ed0293aedcf1924361b1c5ecf",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "Bergkammen en een vallei onder een bewolkte hemel",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "Een kruis op een rotsachtige berg met uitzicht over een vallei",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "ce0dd86ca49dbdcc195f36bf6ef6a26d8305b76de16c4448cddfe4b3c6fdbec6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "OVERPEINZINGEN VAN EEN ZENDELING",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De kracht van God",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "77338827e880aebcd5fd55f275cc3005cee91e027b7783da06dcb728c7093a74",
       "human_reviewed": false,
@@ -24885,6 +26964,34 @@
       "subtitle": null,
       "title": "Mozes in Midian",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "8f35dcfed755a5437a3b3dd66745270d1521a748d35df941d3316e0d89567ff1",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "Donkere stormwolken boven kalm water",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "3cc7b1a66e5169a105cccdef9cf37eda66476619740bfbe023d5f16cf09784b3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Gedicht",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Soms",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -25300,6 +27407,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "fbd5686cd1463d3c245896f5f2d485f67885660488c573e4d85db7633ad83a8b",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Een jong meisje staat tussen rode klaprozen in een zonnig veld",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "066b7f2338b277fe3c5b2ad0c9f03c3af40bd6345f8a8bf7a8e00f24d506a94c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "BEMOEDIGING VOOR JONGERE ZUSTERS",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Genieten van het leven",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "4821b62bb67a3fce66661efad5a0bb4c3f730353350be93a1a39d756d5d4c818",
       "human_reviewed": false,
@@ -25420,6 +27555,34 @@
       "subtitle": null,
       "title": "De belofte van een lied",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "93d9836b9449deb5d68c4292e5c36acff98e54f832299a7500d66a4a94c45594",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "Een krat perziken op verweerd hout",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "eb05e1112955eeeb9993630144a016bb8a5eab2917d850a1fbe5be7c5e5f3ae3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Kinderhoek",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wees gehoorzaam",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -26989,6 +29152,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "909ccbb7e9fc8f89bf5044fcc20520921b64fa1244b46025204aa5a0e619ad2b",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "Sollys som strømmer gjennom en tåkete skog",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "2363260c512b4f78f91600ffb71b848673e3073c8f49aca9e68ba97d48139c21",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ting vi ikke har råd til",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "8ffb075482f68d738d0a2fd6c8aad340b4256719ff99667ad9c2d0c84b48b0ac",
       "human_reviewed": false,
@@ -27575,6 +29766,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "e474e0ddc7fba63289871f5b66366b28a5e3d6243abf949ec7bd0d324a9570eb",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "Mørke stormskyer over stille vann",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "2779cecfb322dad5f8a3887111f1f29f0e3cd02564250e187b59b2dc622c218e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Noen ganger",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
       "html_sha256": "42486d40dad7a4e4889c9f5fe4582855795053407bfdeb7b2f328b6fcd964bc8",
       "human_reviewed": false,
@@ -27750,6 +29969,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "9e9e4636b6813e86a4e04fc46c1ede1f8cce1f95ba4687abec550cd0af8166cb",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "0220c2aed9ad693a91fe8fc330edcb00dcfeda35117c8463659d3d1f817c382d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "5a521ce180bd06aedefc6a5755b5746542cdc1b7158a44b28654f8def95f9f3c",
       "human_reviewed": false,
@@ -27888,6 +30130,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Krukker",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "230ab7a18a52aab3d61e53d8c421617f233ccb3cbad4bd5aad4c58ec13d2812c",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "En ung jente står blant røde valmuer på en solrik eng",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "ec9a52fdde69fbf36bf75297eb6352d200b3524ead69c5da374b990083d0286e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "OPPMUNTRING TIL YNGRE SØSTRE",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Å glede seg over livet",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -28328,6 +30598,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "ccc5f054d1c9a55315e1770a44d066fbf23a963f20cd845d83bd51ec315fed27",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "To klatrere hjelper hverandre opp en bratt fjellkam i skumringen",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "2877492aae16327edf4ddf9eb5d6fb56f6cc8a3645b4b52a1095a47996e1b65e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Fra REDAKTØREN",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fra redaktøren",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/a6ab0f33-e20a-4b19-ae47-f094395a54f8.html",
       "html_sha256": "c90df7286320ae6eacf50b0aec7d88da4287334946af59062d12edf6f98825f8",
       "human_reviewed": false,
@@ -28619,6 +30917,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Å følge henne gjennom sorgen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
+      "html_sha256": "348cf7e6837c6262c3ab4d37c19212225767f553def7daa6026e74a44835660e",
+      "human_reviewed": false,
+      "id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
+      "images": [
+        {
+          "alt": "Gyllent sollys over en mørk, gresskledd horisont",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg"
+        },
+        {
+          "alt": "En person som står mot en gyllen himmel",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.json",
+      "metadata_sha256": "3f81a00d282bc4b96cfc1e7cec597e9603f165e8ca7c57d04aa3866dd34ca8b0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
+      "status": "ready",
+      "subtitle": null,
+      "title": "I dag",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -29291,6 +31621,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "396f7ad59237306d53e3547a0e83bd7b8a3cd5baf2aead2a99c078cb711b7118",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "Luz do sol atravessando uma floresta enevoada",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "2543c3e3f09318e46e714883683343c10df3893bcba7bbac8b97203af0242d48",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poema",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O que não podemos nos permitir",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "d68a25f6a4bd187d01670a8e8b727e97614cda070b76463661a1c89a28c7b8e5",
       "human_reviewed": false,
@@ -29746,6 +32104,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "5c9fb1cf6767f4b88dc0f7eb309890520347adcd9c49b1d2b1835e031ee17d8d",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "Cordilheiras e um vale sob um céu nublado",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "Uma cruz sobre uma montanha rochosa com vista para um vale",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "f0e508847bff678fbf3984f67540b970b2ff1a494bcbdc32157a08789055e05f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "REFLEXÕES DE UM MISSIONÁRIO",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O poder de Deus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/3be24d0c-4c97-452e-b3c3-177e16d990ff.html",
       "html_sha256": "652d02367d2ad3ae7147fea42f2ac805d885ddd67d916b375571ee8a02ce5063",
       "human_reviewed": false,
@@ -30043,6 +32433,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "bdca465b53a20684dc4983403a52abb05965d050bc9e0a551c33288088972407",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "Nuvens escuras de tempestade sobre águas calmas",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "fc407b391765afe564bb0f60d4a753b7a651051bba9f26974f9e97d5f8fb466c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poema",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Às vezes",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
       "html_sha256": "fa758ef5fd9ff9ac4ad2989c662a8aa39b10ba70f5d4c67c7af6933f2e448737",
       "human_reviewed": false,
@@ -30278,6 +32696,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "db1378ab81b469b924ee9146daaa5a8b29640fcd906d71b235a2b491d299c9dd",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "178065fab35d9d369c150afd68864363a5a7a88d5442d0a117844c29d100cc11",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poema",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "623b15c04747a058c986805f0c60841ac6d39c1e0ef889ece7bddd8f82e8966e",
       "human_reviewed": false,
@@ -30302,6 +32743,34 @@
       "subtitle": null,
       "title": "Do Editor",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
+      "html_sha256": "c6cce51127e223ac0d5f63162e00cea4e121408b13e21b12c7ea846831f9a4e3",
+      "human_reviewed": false,
+      "id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
+      "images": [
+        {
+          "alt": "Um pão cortado sobre uma tábua de madeira",
+          "public_path": "/images/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.json",
+      "metadata_sha256": "3e9857e858b9c7cc323c101453d12b27fae81d71bd664d485ab0910b3670260c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DE IRMÃ PARA IRMÃ",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pequenas coisas",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -30486,6 +32955,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "a35136bd020908e8c1b9a3a0b6693d1a7c4030817024ed7395ce1189e4ba50b2",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Uma menina em pé entre papoulas vermelhas em um campo ensolarado",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "9ef8a51a45ae5ccf2ad3fa61044bf494f0ded450deb22e501e614ff98d833026",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ENCORAJAMENTO PARA IRMÃS MAIS JOVENS",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Desfrutando a vida",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
       "html_sha256": "d306d3dd36655dc172fd16c37cf6b1593d478c595beea372a9f182c2449eed5e",
       "human_reviewed": false,
@@ -30662,6 +33159,34 @@
       "subtitle": null,
       "title": "A Promessa de uma Canção",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "693217ffb80ecfa8ea9054d43f5c8e5cf5a2fae042fe6091ddcbd77bf3615c8c",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "Uma caixa de pêssegos sobre madeira desgastada pelo tempo",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "b819674ae850f6872f572e6de940e24afe86b0bd51bd0f0d01592db996f12381",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Espaço Infantil",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Seja obediente",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -31093,6 +33618,34 @@
       "subtitle": null,
       "title": "A CORRIDA DE BICICLETAS",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "b6b9d848f6343d2dd7e4e3d5a60b9a747ca450f66cb97df5c21909baf0847282",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Dois alpinistas ajudando um ao outro a subir uma crista íngreme ao anoitecer",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "045569ad365ed1295de529f10660f8e1ba9ed929ae5b5746ed3bbfc1171e9073",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Do EDITOR",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Do Editor",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -31973,6 +34526,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/f3dc712f-f89d-476b-9cc6-f94dc67a339d.html",
+      "html_sha256": "d9db3ff4608fa1e49a88a338d926e51da3ec150476325889a20aeef16f108ce9",
+      "human_reviewed": false,
+      "id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/f3dc712f-f89d-476b-9cc6-f94dc67a339d.json",
+      "metadata_sha256": "3dbe94c364a55b15c900a80826890162ecaa391ff34b9f27b17c885fff374c91",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "O LAR PIEDOSO",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
+      "status": "ready",
+      "subtitle": "A maior coisa do mundo",
+      "title": "Essa coisa chamada amor",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/f82c479a-345a-4ffa-98d9-f10ddef90777.html",
       "html_sha256": "2ec27f4e38677a1d688c71def1ce885cc2836b650eee4f7a581d7f7ec2952027",
       "human_reviewed": false,
@@ -32567,6 +35143,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "1e989eda70b1848464371130d41e1926dd2a0cd090629bc1856087d956cda197",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "Горные хребты и долина под облачным небом",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "Крест на скалистой горе с видом на долину",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "458878aac7e3566b48f36ad34a961b91fe197c34b3fb83baf4b427eac565d2e4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "РАЗМЫШЛЕНИЯ МИССИОНЕРА",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Сила Божья",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "fb08bf049e469b2e2c190ecc8b26c2cd7f3295f6d3b16af0d5e7bb4bf2fe00ac",
       "human_reviewed": false,
@@ -32974,6 +35582,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "af51045ef8b99334d6e708594483330051a8b2d8fb7fffc26578c160f7f15a0e",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "b6c17911d953d64d3c5497fae33ac0549c7b398af43aa28218fa83ceac71ed72",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Стихотворение",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "96a32bb3ec1e36f6b89aa46953a709fbc9865bd63d24958ade477df293089ad8",
       "human_reviewed": false,
@@ -33117,6 +35748,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "«Нужно ли мне рассказать?»",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "d8ebeb1c6aae7435ce3b0f3ef25c299be273f090193b0ee70298ecc4eb5e0c12",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Молодая девушка стоит среди красных маков на залитом солнцем поле",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "4483af8793939baa36d511e7cf97de2ce4a742d960c313694c689acdfc865cb4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ПОДДЕРЖКА МЛАДШИХ СЕСТЁР",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Как наслаждаться жизнью",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -34363,6 +37022,66 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
+      "html_sha256": "596ed84a7a0c2dc4f23445ba58541d077e9e5aae55b5518c3d634509e998eaf4",
+      "human_reviewed": false,
+      "id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
+      "images": [
+        {
+          "alt": "Gotas de rocío sobre hierba verde",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-1.jpg"
+        },
+        {
+          "alt": "Hierba cubierta de rocío que resplandece con la luz del amanecer",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.json",
+      "metadata_sha256": "560429b088728c7f817b6c9a3241158271c2da380a2ae1a3c7fe115312362ee8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRACIONES PARA LOS JÓVENES",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "El rocío de la juventud",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "43ccf00d36a2ecfd09ed617e4ccc9f86b252a94657d69c81c5c4d866fcabb0dd",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "La luz del sol se filtra a través de un bosque brumoso",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "f0f62dee824fb03986e77ce43a33a743e13162f69c743bb7930f71d1dd6afbbe",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poema",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Lo que no podemos permitirnos",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "f992443db34d7028593fce855b954db1a91c3a8543b1ecc8e412e462d80af4c6",
       "human_reviewed": false,
@@ -34762,6 +37481,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "9deeb7ffac8f9f8c8b110976ad36890752893642be9b08fdd164f1b7f793345c",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "Crestas de montañas y un valle bajo un cielo nublado",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "Una cruz en una montaña rocosa que domina un valle",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "177054ba8fd28dff476e67beb27aaa26aaac341d4bc6a07869f7150e865c8d23",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "REFLEXIONES DE UN MISIONERO",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "El poder de Dios",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/3be24d0c-4c97-452e-b3c3-177e16d990ff.html",
       "html_sha256": "6a13e4ad9cd36c77939ae5157edcde5cd6357a9423c266216eb10f152aa5acd6",
       "human_reviewed": false,
@@ -35068,6 +37819,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "cd83d05086e52898bb37a18f5ea2415982d45c26e5ee62409d56ad7298bf364b",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "Nubes oscuras de tormenta sobre aguas tranquilas",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "3a0d7a30ad83571814d1b424580f8a8de572cbbc5a8f188d8e0bc96abfccfca2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poema",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A veces",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
       "html_sha256": "d2a246353c56d98aba662b2fb8e3b34891120812b98324623964f8c2f48eec14",
       "human_reviewed": false,
@@ -35275,6 +38054,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "66e1b66a6ea3280b30a01f0c10965ab9511c8ab7f970060a3b550ca68bb21767",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "178065fab35d9d369c150afd68864363a5a7a88d5442d0a117844c29d100cc11",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Poema",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "213c30d0d575241d5b12876840f149a69463c1168805cf69f190cc3f843909d2",
       "human_reviewed": false,
@@ -35299,6 +38101,34 @@
       "subtitle": null,
       "title": "Del editor",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
+      "html_sha256": "6a91799491d61f9c6c0c4c9ec4ca0b9695fab29cdfc25a239b73e85b642d8793",
+      "human_reviewed": false,
+      "id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
+      "images": [
+        {
+          "alt": "Una hogaza de pan cortada en rebanadas sobre una tabla de madera",
+          "public_path": "/images/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.json",
+      "metadata_sha256": "70bea1db49c4ef675bf0d8bf847638fee7c2b024e94b89150c5f142a7a7abb41",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DE HERMANA A HERMANA",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Las cosas pequeñas",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -36085,6 +38915,34 @@
       "subtitle": null,
       "title": "LA CARRERA DE BICICLETAS",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "fd3ebe9678d4a7a2a8b543f41c95ec1afaea6d0e5844fbd3d2520be6e6a7db7e",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Dos escaladores se ayudan mutuamente a subir por una empinada cresta al anochecer",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "f6d7ff82f26ff666746dc5468b044270c17e7079b461ca532020c77b613ef527",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Del EDITOR",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Del editor",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -37137,6 +39995,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
+      "html_sha256": "1bc6e1ead4030a9fd12c2851396332f48ef756ad1165daa299832281252e5fd4",
+      "human_reviewed": false,
+      "id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
+      "images": [
+        {
+          "alt": "Matone ya umande kwenye nyasi za kijani",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-1.jpg"
+        },
+        {
+          "alt": "Nyasi zilizofunikwa na umande zikimetameta katika nuru ya mawio ya jua",
+          "public_path": "/images/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.json",
+      "metadata_sha256": "a635a5ecc1ca06e29173d61b513a831c271ed855476aa71321f8864395eb1001",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "MAWAZO YA KUWATIA MOYO VIJANA",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Umande wa Ujana",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "80f2f38e98c605f5f5bee57cbac0e9c7248d508ec45145b085727d31b8d85464",
       "human_reviewed": false,
@@ -37457,6 +40347,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
+      "html_sha256": "9b68eef3767215b343cd67f9ee89f320cd9c22392fc5204c32e6267c508ec508",
+      "human_reviewed": false,
+      "id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
+      "images": [
+        {
+          "alt": "Mawingu meusi ya dhoruba juu ya maji tulivu",
+          "public_path": "/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.json",
+      "metadata_sha256": "e663559a133d044190f7234a166b89f99eb852c454b5d9eb545785f94eac102e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Shairi",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wakati mwingine",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
       "html_sha256": "47eaab05e87ffef95dfb68add234d5d6c943d87a94f77ccfe4d0f864c50122a8",
       "human_reviewed": false,
@@ -37633,6 +40551,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
+      "html_sha256": "e1bcae62b4e7a2e466dba22ca70821c8498ea8a016361c28f85e7d537de09e35",
+      "human_reviewed": false,
+      "id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
+      "images": [
+        {
+          "alt": "Msichana mdogo amesimama katikati ya maua mekundu ya poppy katika shamba lenye jua",
+          "public_path": "/images/articles/78e2618e-368f-42b8-af2b-79f85a36ef83-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.json",
+      "metadata_sha256": "2625f0791cdb9b934562eb391df6ed9d2c8ebce1beccdfe9d8de6ff6646be9c6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "WATIA MOYO KWA DADA WADOGO",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kufurahia Maisha",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "ee83eb3930635c542c9f6c5bbd2085cfe4bfdfe9607ad5930945828f3f8e033a",
       "human_reviewed": false,
@@ -37753,6 +40699,34 @@
       "subtitle": null,
       "title": "Ahadi ya Wimbo",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "c6faa075da8473b1b8492ced3053c16d8dad3165e466baccfccb76eb2cce6f64",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "Kikapu cha pichi juu ya mbao zilizochakaa",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "059e96e7a6edf74f76074232c49a0a566a0ef50fc9449d62a55e7dd8f08305b1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Sehemu ya Watoto",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tiini",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -37896,6 +40870,34 @@
       "subtitle": "Hadithi Kuhusu Shukrani",
       "title": "Mwanaume wa Mints",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "114f12c31c87e4eab997c3c80d0d93324df4f673683ece8ed63735da0d5aeb08",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Wapandaji wawili wakisaidiana kupanda ukingo mkali wakati wa machweo",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "458dddcfcc8bd4919dd008e84d4d82a964c7d9b79123ac4fb9a545ef2d5c2cd1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Kutoka kwa MHARIRI",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kutoka kwa Mhariri",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -38480,6 +41482,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jag älskar ditt rike, Herre",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.html",
+      "html_sha256": "cb64e5a8a5c373389db66e913561b0b06a8e49f97413fda3d413410c473c1230",
+      "human_reviewed": false,
+      "id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
+      "images": [
+        {
+          "alt": "Solljus som strömmar genom en dimmig skog",
+          "public_path": "/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd.json",
+      "metadata_sha256": "59c97415c0ea1e4bf7dd2798eb036a756102f2a325e42a9c000a89f7da9ae79f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Det vi inte har råd med",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -39369,6 +42399,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "89af0313affa35c48bab7d42cfda7eb4ecb6b76342263c5343b648f8846274ca",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "0220c2aed9ad693a91fe8fc330edcb00dcfeda35117c8463659d3d1f817c382d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Dikt",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "dc0ddb06c92eca410b5b9c9e0fff078990e65fd99a7f89181f2f67454d9656c4",
       "human_reviewed": false,
@@ -39673,6 +42726,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
+      "html_sha256": "092f8c1edc0f0c0570daedda5c90aac562cf2915e4d5f6c32bf8266834c945ac",
+      "human_reviewed": false,
+      "id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
+      "images": [
+        {
+          "alt": "En låda med persikor på väderbitet trä",
+          "public_path": "/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.json",
+      "metadata_sha256": "8c282a7d0ae7f3a798a28cbed53fca8a7a55f8d1ffc36ce0a46934f631ba1fd5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Barnhörnan",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Var lydig",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "81df765e8b6c933f688394330b544c93418221df1a252809b891db8d003fc723",
       "human_reviewed": false,
@@ -39956,6 +43037,34 @@
       "subtitle": null,
       "title": "CYKELLOPPET",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
+      "html_sha256": "ac162d7ac2d1ce71297cc799b6af23cefeed871026ee4ac7f4533a9703bd2835",
+      "human_reviewed": false,
+      "id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
+      "images": [
+        {
+          "alt": "Två klättrare hjälper varandra uppför en brant kam i skymningen",
+          "public_path": "/images/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42-1.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.json",
+      "metadata_sha256": "7abb16ad199b6aa8e168c18e44e63be190d14bc9f0f39c693bdbd5e38ea974e1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Från REDAKTÖREN",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -41134,6 +44243,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
+      "html_sha256": "1756a09ec7cf57443d654de9bcc9873b021b0f29cb217f4e34c038950590c0d1",
+      "human_reviewed": false,
+      "id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
+      "images": [
+        {
+          "alt": "ابر آلود آسمان کے نیچے پہاڑی چوٹیاں اور ایک وادی",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-1.jpg"
+        },
+        {
+          "alt": "پتھریلے پہاڑ پر ایک صلیب، جو وادی کے اوپر بلند ہے",
+          "public_path": "/images/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.json",
+      "metadata_sha256": "f39d0c57928ba1325c7b757fc57ca199edae61519618d5e7bf09ba8314d2e3cd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ایک مشنری کے تاثرات",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "خدا کی قدرت",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/3be24d0c-4c97-452e-b3c3-177e16d990ff.html",
       "html_sha256": "8d2db3ddcdea2bdb880e99def6d37c25741e5910dd40116de131c431f0b8fcc0",
       "human_reviewed": false,
@@ -41573,6 +44714,29 @@
       "subtitle": null,
       "title": "ایڈیٹر سے",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
+      "html_sha256": "8a3af75f2953824eabcb4044b39dc687244eef7c025b718214a3801a47c1aa7e",
+      "human_reviewed": false,
+      "id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
+      "images": [],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.json",
+      "metadata_sha256": "21cd43e29f6e084a1f335896eacd44ab3ab78a3445dc6879b2b5c8a07ade4192",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "نظم",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
+      "status": "ready",
+      "subtitle": null,
+      "title": null,
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -42339,6 +45503,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "غم کے سفر میں اُس کے ساتھ چلنا",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
+      "html_sha256": "f8bbe073af97f863534e50f4990dc22e606d25a9ddbe97809ec49da364fc86fa",
+      "human_reviewed": false,
+      "id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
+      "images": [
+        {
+          "alt": "گھاس سے ڈھکی تاریک افق کے اوپر سنہری دھوپ",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg"
+        },
+        {
+          "alt": "سنہری آسمان کے سامنے کھڑا ایک شخص",
+          "public_path": "/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg"
+        }
+      ],
+      "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.json",
+      "metadata_sha256": "6e8fa04e7bfdb47767fd717bb5c6efa0008725c25763093452b497decaf2337b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "نظم",
+      "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
+      "source_translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
+      "status": "ready",
+      "subtitle": null,
+      "title": "آج",
       "translation_model": "gpt-6-luna"
     },
     {

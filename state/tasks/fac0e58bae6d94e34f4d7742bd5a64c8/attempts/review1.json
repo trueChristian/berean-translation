@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"The neighbor calls at the door.\",\"suggested_fix\":\"Use a gender-neutral equivalent, such as “A pessoa vizinha bate à porta” or “Alguém da vizinhança bate à porta.”\",\"translation_quote\":\"A vizinha bate à porta.\"},{\"location\":\"HTML paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"Our fifth grader needs help with multiplying fractions.\",\"suggested_fix\":\"Avoid specifying the child's gender; for example: “A criança que está no quinto ano precisa de ajuda para multiplicar frações.”\",\"translation_quote\":\"Nosso filho do quinto ano precisa de ajuda para multiplicar frações.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 700,
+    "content_evidence_truncated": false,
+    "content_sha256": "cb3e55d52a5e3d4d2aba1a70fdc61e81c6646dadb38d270ee557b5a572f33192",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 606,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5197,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5980
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

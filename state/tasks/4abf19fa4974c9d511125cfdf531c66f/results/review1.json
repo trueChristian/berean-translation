@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e0cc2519-041d-4500-9928-085d86afaca4",
+    "response_id": "chatcmpl-EUxHU55khXvDSFaoNRMBQsAiwjPuo",
+    "usage": {
+      "completion_tokens": 175,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3619,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3616,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3794
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, final paragraph",
+        "severity": "major",
+        "source_quote": "<em>…in thy presence is fulness of joy; at thy right hand there are pleasures for evermore –Psalm 16:11.</em>",
+        "suggested_fix": "Vertaal die aangehaalde teks in Afrikaans en behou die verwysing presies: <em>…in u teenwoordigheid is daar volheid van vreugde; aan u regterhand is daar genietinge vir ewig –Psalm 16:11.</em>",
+        "translation_quote": "<em>…in u teenwoordigheid is daar volheid van vreugde; aan u regterhand is daar genietinge vir ewig –Psalm 16:11.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

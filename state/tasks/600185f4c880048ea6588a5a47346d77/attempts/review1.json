@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Title\",\"severity\":\"major\",\"source_quote\":\"Things We Can’t Afford\",\"suggested_fix\":\"Change to «Όσα δεν έχουμε την πολυτέλεια να κάνουμε» to retain the sense of things one cannot afford to do, rather than things one cannot afford to lose.\",\"translation_quote\":\"Όσα δεν μας παίρνει να χάσουμε\"} ,{\"location\":\"Poem, final line\",\"severity\":\"major\",\"source_quote\":\"Oh, grant us light that we may know the things we can’t afford!\",\"suggested_fix\":\"Replace «όσα δεν μας παίρνει να χάσουμε» with «όσα δεν έχουμε την πολυτέλεια να κάνουμε» so the closing line matches the source’s refrain without adding “to lose.”\",\"translation_quote\":\"Ω, χάρισέ μας φως, για να γνωρίσουμε όσα δεν μας παίρνει να χάσουμε!\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 938,
+    "content_evidence_truncated": false,
+    "content_sha256": "152e2d1fc2f8c1f5b02fee2226121f540e6a060808108544b702d5c0a19115fd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1825,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1822,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2778
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

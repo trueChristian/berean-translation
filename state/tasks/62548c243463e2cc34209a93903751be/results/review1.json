@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8407ad52-d555-4d4a-9f47-79e367e8c26a",
+    "response_id": "chatcmpl-EUxHr2lgjb4949z6klNQjF7e5sPy0",
+    "usage": {
+      "completion_tokens": 139,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3810,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3807,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3949
+    }
+  },
+  "received_at": "2026-10-03T17:00:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "শেষ অনুচ্ছেদ, গীতসংহিতা ১৬:১১ উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "“…in thy presence is fulness of joy; at thy right hand there are pleasures for evermore”",
+        "suggested_fix": "উদ্ধৃতিটি বিশ্বস্তভাবে অনুবাদ করুন, যেমন: “তোমার উপস্থিতিতে আনন্দের পূর্ণতা; তোমার ডান হাতে চিরকালীন আনন্দ।”",
+        "translation_quote": "“…তোমার উপস্থিতিতে আনন্দের পূর্ণতা; তোমার দক্ষিণ হস্তে অনন্তকাল আনন্দ।”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

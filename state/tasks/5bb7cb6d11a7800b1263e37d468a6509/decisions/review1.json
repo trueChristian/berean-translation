@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “If our churches today…”",
+      "severity": "major",
+      "source_quote": "What if we would settle for nothing less?",
+      "suggested_fix": "Replace the sentence with: “Namna gani kama tusingetosheka na chochote kilicho chini ya hayo?” This preserves the meaning of refusing to accept anything less than the Holy Spirit’s infilling, empowering, and leading described immediately before it.",
+      "translation_quote": "Namna gani kama tungeridhika na kitu kidogo tu?"
+    },
+    {
+      "location": "Paragraph beginning “I was working closely with a vicious gang leader…”",
+      "severity": "minor",
+      "source_quote": "He seemed very sober as I continued",
+      "suggested_fix": "Use “Alionekana kuwa hajalewa nilipoendelea” to convey that he seemed sober, rather than merely calm.",
+      "translation_quote": "Alionekana mtulivu sana nilipoendelea"
+    },
+    {
+      "location": "Section metadata",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Use a Kiswahili equivalent meaning “Reflections of a Missionary,” such as “TAFAKARI ZA MMISHENARI.”",
+      "translation_quote": "TATHMINI ZA MISHENARI"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

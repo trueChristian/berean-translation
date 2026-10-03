@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article text, paragraph quoting 1 Corinthians 5:13",
+      "severity": "major",
+      "source_quote": "…Therefore put away from among yourselves that wicked person –1 Corinthians 5:13.",
+      "suggested_fix": "Replace “Driv därför bort den onde från er” with “Driv därför bort den ogudaktige från er” so the phrase refers to the wicked person, not the devil.",
+      "translation_quote": "…Driv därför bort den onde från er … – Första Korinthierbrevet 5:13."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

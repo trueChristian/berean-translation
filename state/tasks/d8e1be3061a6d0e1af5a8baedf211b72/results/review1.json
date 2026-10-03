@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "728fcd65-0d91-4ea1-b361-93361071424c",
+    "response_id": "chatcmpl-EUxKWMqRV3E4wxBEctu6wVmRb3yIl",
+    "usage": {
+      "completion_tokens": 580,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 437,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3364,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3947
+    }
+  },
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning «Αφού μάζεψα, έπλυνα…»",
+        "severity": "minor",
+        "source_quote": "the old cooler which was inside the red bank barn",
+        "suggested_fix": "Preserve the barn-type detail, for example: «στο παλιό ψυγείο που βρισκόταν μέσα στον κόκκινο αχυρώνα που ήταν χτισμένος σε πλαγιά».",
+        "translation_quote": "στο παλιό ψυγείο που βρισκόταν μέσα στον κόκκινο αχυρώνα"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

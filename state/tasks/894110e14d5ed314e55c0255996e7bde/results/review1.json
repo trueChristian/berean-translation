@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9a3bf540-2177-4d8e-aaa9-7abf0cbc0272",
+    "response_id": "chatcmpl-EUxHp02GoruJzgBVvGVqIsKs0xMYN",
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1983,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2590
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "시의 마지막 연, 세 번째 행",
+        "severity": "minor",
+        "source_quote": "If God, in yet three hours, THIS DAY,",
+        "suggested_fix": "하나님께서 오늘, 지금부터 세 시간 뒤에",
+        "translation_quote": "하나님께서 아직 세 시간이 남은 이 오늘,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "21edc7cd-0e2e-4cd4-be79-4e3a25470eec",
+    "response_id": "chatcmpl-EUxHVS8zqvZNcJ4iZ8Nuz84WC3vHu",
+    "usage": {
+      "completion_tokens": 394,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1906,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2303
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second stanza of the first poem",
+        "severity": "major",
+        "source_quote": "Tomorrow may not be.",
+        "suggested_fix": "Replace „Morgen vielleicht nicht mehr“ with „Morgen gibt es vielleicht nicht“ to preserve the source’s point that tomorrow itself may not come.",
+        "translation_quote": "Morgen vielleicht nicht mehr."
+      },
+      {
+        "location": "HTML, third stanza of the first poem",
+        "severity": "major",
+        "source_quote": "With God shut out, and self shut in / And selfish aims surround.",
+        "suggested_fix": "Replace with „Gott ausgeschlossen, das eigene Ich eingeschlossen, / und von selbstsüchtigen Zielen umgeben.“ The current wording changes the source’s description into an elliptical fragment that can read as a conditional or causal construction.",
+        "translation_quote": "Gott ausgeschlossen, das eigene Ich eingeschlossen, / Umgeben von selbstsüchtigen Zielen."
+      },
+      {
+        "location": "HTML, fourth stanza of the first poem",
+        "severity": "major",
+        "source_quote": "Who weigh themselves, not with God’s truth, / As every day they ought!",
+        "suggested_fix": "Use „Die sich nicht an Gottes Wahrheit messen, / wie sie es jeden Tag tun sollten!“ The translation currently omits the source’s comparison with God’s truth; it says they do not measure themselves by it.",
+        "translation_quote": "Die sich nicht an Gottes Wahrheit messen, / wie sie es jeden Tag tun sollten!"
+      },
+      {
+        "location": "HTML, second stanza of the second poem",
+        "severity": "major",
+        "source_quote": "This night, that soul of thine / May be required of thee:",
+        "suggested_fix": "Replace „Noch diese Nacht kann deine Seele / von dir gefordert werden“ with „Noch heute Nacht kann deine Seele von dir gefordert werden“ to retain the emphasis on this very night.",
+        "translation_quote": "Noch diese Nacht kann deine Seele / von dir gefordert werden:"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

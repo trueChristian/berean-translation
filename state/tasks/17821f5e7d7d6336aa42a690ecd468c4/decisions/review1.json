@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Another law which seemed very much focused…”",
+      "severity": "critical",
+      "source_quote": "“every seven years the land was to lie fallow for the whole year”",
+      "suggested_fix": "Change “kila baada ya miaka saba” to “kila mwaka wa saba” to convey that the land lay fallow in every seventh year, not once every seven years thereafter.",
+      "translation_quote": "“kila baada ya miaka saba ardhi iachwe bila kulimwa kwa mwaka mzima”"
+    },
+    {
+      "location": "HTML, paragraph beginning “The biblical book of Hebrews…”; quotation, Hebrews 4:9",
+      "severity": "major",
+      "source_quote": "“There remaineth therefore a rest to the people of God.”",
+      "suggested_fix": "Replace “raha ya sabato” with “pumziko” (or another faithful Kiswahili rendering of “a rest”), so the translation does not add “Sabbath” to the quotation.",
+      "translation_quote": "“Basi, imesalia raha ya sabato kwa watu wa Mungu.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “There have been several studies that looked at function…”",
+      "severity": "major",
+      "source_quote": "“Probably the fact that inflammation levels are higher when we don’t rest, increases the risks of infection.”",
+      "suggested_fix": "Revise to say that higher inflammation levels when people do not rest probably increase the risk of infection; for example: “Huenda ukweli kwamba viwango vya uvimbe huwa juu zaidi tusipopumzika huongeza hatari ya maambukizi.”",
+      "translation_quote": "“Huenda viwango vya uvimbe vinavyokuwa juu zaidi tusipopumzika ndivyo vinavyoongeza hatari ya maambukizi.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “I am afraid that many people struggle…”; quotation, Hebrews 4:11",
+      "severity": "major",
+      "source_quote": "“example of unbelief”",
+      "suggested_fix": "Replace “mfano uo huo wa kuasi” with “mfano huo huo wa kutokuamini” or another faithful rendering of “unbelief”; “kuasi” changes the quoted description to rebellion.",
+      "translation_quote": "“mfano uo huo wa kuasi”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

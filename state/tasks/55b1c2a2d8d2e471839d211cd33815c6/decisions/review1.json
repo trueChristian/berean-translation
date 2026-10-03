@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "Slamming the door behind me",
+      "suggested_fix": "Replace «Chiudendomi la porta alle spalle» with «Sbattendomi la porta alle spalle» to retain the force of “slamming.”",
+      "translation_quote": "Chiudendomi la porta alle spalle"
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "minor",
+      "source_quote": "making it difficult to look out of my eyes",
+      "suggested_fix": "Replace «rendendomi difficile guardare fuori dagli occhi» with «rendendomi difficile vedere» for natural Italian while preserving the meaning.",
+      "translation_quote": "rendendomi difficile guardare fuori dagli occhi"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

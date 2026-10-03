@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"MUSINGS OF A MISSIONARY\",\"suggested_fix\":\"Change to “GEDAGTES VAN ’N SENDeling” only if preserving the current wording is intended; preferably use consistent uppercase: “GEDAGTES VAN ’N SENDELING”.\",\"translation_quote\":\"GEDAGTES VAN ’N SENDeling\"},{\"location\":\"html, paragraph beginning “When we call out to God for salvation”\",\"severity\":\"minor\",\"source_quote\":\"we know we need to be saved; converted.\",\"suggested_fix\":\"Replace “ons weet dat ons gered; bekeer moet word” with “ons weet dat ons gered en bekeer moet word”.\",\"translation_quote\":\"ons weet dat ons gered; bekeer moet word\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 710,
+    "content_evidence_truncated": false,
+    "content_sha256": "195979a821dc215b9acfaa935796f7583b9ebe9321409b44c9668388ebde7ea4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 580,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8180,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8952
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

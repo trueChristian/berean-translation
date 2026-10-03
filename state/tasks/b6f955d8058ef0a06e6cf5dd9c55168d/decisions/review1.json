@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "This is how my spirit is refined.",
+      "suggested_fix": "Replace “Hivi ndivyo roho yangu inavyosafishwa” with “Hivi ndivyo roho yangu inavyosafishwa na kuboreshwa” or another Kiswahili rendering that conveys spiritual refinement, not merely cleansing.",
+      "translation_quote": "Hivi ndivyo roho yangu inavyosafishwa."
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "the struggling girl at church",
+      "suggested_fix": "Replace “msichana anayepambana kanisani” with “msichana anayepitia magumu kanisani” or an equivalent phrase meaning a girl who is struggling in her circumstances, rather than fighting at church.",
+      "translation_quote": "msichana anayepambana kanisani"
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "major",
+      "source_quote": "our resignation to the smallness in our lives, with lethargy",
+      "suggested_fix": "Replace “kukubali kwamba maisha yetu yana mambo madogo” with “kukubali kwamba maisha yetu yana mambo madogo” only if clarified to mean accepting the small scale of our circumstances; preferably: “kukubali udogo wa mambo katika maisha yetu.”",
+      "translation_quote": "kukubali kwamba maisha yetu yana mambo madogo"
+    },
+    {
+      "location": "Footnote 1",
+      "severity": "minor",
+      "source_quote": "The Savage My Kinsman (revised edition Servant Publications 1981) epilogue pg 147",
+      "suggested_fix": "Translate the descriptive metadata into Kiswahili while retaining the established book title and publisher name, for example: “The Savage My Kinsman (toleo lililorekebishwa, Servant Publications, 1981), sehemu ya mwisho, uk. 147.”",
+      "translation_quote": "The Savage My Kinsman (toleo lililorekebishwa, Servant Publications 1981), hitimisho, uk. 147"
+    },
+    {
+      "location": "Paragraph 13",
+      "severity": "major",
+      "source_quote": "God kept culling Gideon’s army until he eventually fought and won the battle with just a few hundred men.",
+      "suggested_fix": "Replace “Mungu aliendelea kupunguza jeshi la Gideoni hadi mwishowe akapigana na kushinda vita akiwa na wanaume mia chache tu” with wording that makes Gideon the subject who eventually fought and won, e.g. “Mungu aliendelea kupunguza jeshi la Gideoni hadi Gideoni akapigana na kushinda vita akiwa na wanaume mia chache tu.”",
+      "translation_quote": "Mungu aliendelea kupunguza jeshi la Gideoni hadi mwishowe akapigana na kushinda vita akiwa na wanaume mia chache tu."
+    },
+    {
+      "location": "Paragraph 15",
+      "severity": "major",
+      "source_quote": "God has chosen these weak things to be significant in His kingdom.",
+      "suggested_fix": "Replace “Mungu amevichagua vitu hivi dhaifu viwe na umuhimu katika ufalme Wake” with wording that preserves the source’s specific sense of significance, such as “Mungu amevichagua vitu hivi dhaifu viwe na nafasi muhimu katika ufalme Wake.”",
+      "translation_quote": "Mungu amevichagua vitu hivi dhaifu viwe na umuhimu katika ufalme Wake."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

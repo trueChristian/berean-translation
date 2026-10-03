@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "692195b7-ff79-4834-be6a-ff252e59895e",
+    "response_id": "chatcmpl-EUxIAPSOvXDupJndN4hg6chrCs5Hn",
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 595,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3025
+    }
+  },
+  "received_at": "2026-10-03T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, sesta strofa, seconda riga",
+        "severity": "major",
+        "source_quote": "“My chosen one,",
+        "suggested_fix": "Sostituire «Scelta mia» con «Mia prescelta» (oppure «Mia eletta») per rendere l’appellativo rivolto alla persona amata.",
+        "translation_quote": "«Scelta mia,"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

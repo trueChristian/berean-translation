@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 5",
+      "severity": "minor",
+      "source_quote": "We can’t afford the feast today that brings tomorrow’s fast;",
+      "suggested_fix": "Replace “Não podemos nos banqueteiar hoje e amanhã passar fome;” with “Não podemos banquetear hoje e amanhã jejuar;”",
+      "translation_quote": "Não podemos nos banqueteiar hoje e amanhã passar fome;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Heading «…Ridimensiona le nostre ambizioni»",
+      "severity": "minor",
+      "source_quote": "…Humbles Our Pursuits",
+      "suggested_fix": "Sostituire con «…Umilia le nostre aspirazioni» per conservare il senso di “humbles” invece di attenuarlo in «ridimensiona».",
+      "translation_quote": "…Ridimensiona le nostre ambizioni"
+    },
+    {
+      "location": "Paragrafo sotto «…Santifica le nostre prove», citazione di Romani 8:24",
+      "severity": "major",
+      "source_quote": "For we are saved by hope: but hope that is seen is not hope... –Romans 8:24.",
+      "suggested_fix": "Correggere la citazione in «Poiché siamo stati salvati in speranza; ma la speranza che si vede non è speranza... –Romani 8:24.» Rimuovere «ora» e rendere «hope that is seen» come «la speranza che si vede», non «una speranza di ciò che si vede».",
+      "translation_quote": "Poiché siamo stati salvati in speranza; ora, una speranza di ciò che si vede non è speranza... –Romani 8:24."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, premier couplet, deuxième vers\",\"severity\":\"minor\",\"source_quote\":\"Tomorrow may not be.\",\"suggested_fix\":\"Remplacer par « Demain n’arrivera peut-être pas. »\",\"translation_quote\":\"Demain n’est peut-être pas.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 283,
+    "content_evidence_truncated": false,
+    "content_sha256": "33ba203211044149c2d4eb4854ca49bba811bb7e2c8cd904ba39c367cb96061f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1948,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2647
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

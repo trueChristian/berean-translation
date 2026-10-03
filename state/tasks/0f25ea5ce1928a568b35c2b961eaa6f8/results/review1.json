@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "de802707-d3ef-4549-bea3-7038b269ccab",
+    "response_id": "chatcmpl-EUxHUqkxJarZgQpAW3OzBcfjWVeM3",
+    "usage": {
+      "completion_tokens": 259,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2200
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, seconda strofa della prima sezione poetica",
+        "severity": "major",
+        "source_quote": "With God shut out, and self shut in / And selfish aims surround.",
+        "suggested_fix": "Conservare la struttura dei versi e rendere esplicito che Dio è escluso, l’io è ripiegato su sé stesso e la persona è circondata da fini egoistici; per esempio: «Con Dio escluso e l’io chiuso in sé, / e circondato da fini egoistici.»",
+        "translation_quote": "con Dio escluso e l’io rinchiuso in sé, / circondato da fini egoistici."
+      },
+      {
+        "location": "HTML, prima strofa della seconda sezione poetica",
+        "severity": "major",
+        "source_quote": "“Boast not thyself,” I’m warned,",
+        "suggested_fix": "Tradurre l’ammonimento come un avvertimento rivolto a chi parla, per esempio: «“Non vantarti”, mi viene detto con un ammonimento,»; la forma attuale suggerisce che chi parla sia ammonito.",
+        "translation_quote": "«Non vantarti», mi viene ammonito,"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

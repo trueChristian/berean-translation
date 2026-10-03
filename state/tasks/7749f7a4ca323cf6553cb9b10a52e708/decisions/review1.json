@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “God het Gideon se leër…”",
+      "severity": "minor",
+      "source_quote": "Normally, Gideon was accustomed to armies of thousands.",
+      "suggested_fix": "Vervang “Gideon was gewoonlik gewoond aan leërs van duisende” met “Gideon was gewoonlik deel van leërs wat duisende soldate getel het” (of ’n ander natuurlike formulering wat die bronbetekenis behou).",
+      "translation_quote": "Gideon was gewoonlik gewoond aan leërs van duisende"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

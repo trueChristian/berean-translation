@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cea9f9b7-535b-4adf-8303-1eeedd681443",
+    "response_id": "chatcmpl-EUxHUyPC5TSuKem85lvZN8733Mxyz",
+    "usage": {
+      "completion_tokens": 844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 721,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2542,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3389
+    }
+  },
+  "received_at": "2026-10-03T17:00:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first stanza, final line",
+        "severity": "major",
+        "source_quote": "“Come My child, your burden I’ll bear.”",
+        "suggested_fix": "Replace the plural address with a singular one, for example: ”آؤ، میرے بچے، میں تمہارا بوجھ اٹھاؤں گا۔“",
+        "translation_quote": "”آؤ، میرے بچو، میں تمہارا بوجھ اٹھاؤں گا۔“"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}
