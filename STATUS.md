@@ -5,7 +5,7 @@ Generated from the pinned source catalogue and durable work records. No API call
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `58e50fca41cc0b53c8992502bd95166581036945`
+Observed English revision: `20570f2edea229d472a3ab6f13b744e60b057a36`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -101,31 +101,37 @@ Observed English revision: `58e50fca41cc0b53c8992502bd95166581036945`
 | `heartbeat-remnant-2002-01` | 13 | 0 / 260 | 0 | 0 | 0 |
 | `heartbeat-remnant-2001-11` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2010-01` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-09` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-07` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-05` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-03` | 15 | 0 / 300 | 0 | 0 | 0 |
+| `heartbeat-remnant-2001-01` | 15 | 0 / 300 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-11` | 16 | 0 / 320 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 62 / 1059 | 0 | 21 | 57 | 86 |
-| `hin` (hi) | 60 / 1059 | 0 | 24 | 56 | 99 |
-| `spa` (es) | 95 / 1059 | 0 | 23 | 22 | 67 |
-| `ara` (ar) | 58 / 1059 | 0 | 24 | 58 | 95 |
-| `fra` (fr) | 86 / 1059 | 0 | 25 | 29 | 72 |
-| `ben` (bn) | 56 / 1059 | 0 | 21 | 63 | 105 |
-| `por` (pt) | 97 / 1059 | 0 | 22 | 21 | 71 |
-| `ind` (id) | 84 / 1059 | 0 | 25 | 31 | 81 |
-| `urd` (ur) | 65 / 1059 | 0 | 24 | 51 | 94 |
-| `rus` (ru) | 67 / 1059 | 0 | 24 | 49 | 93 |
-| `deu` (de) | 53 / 1059 | 0 | 23 | 64 | 102 |
-| `nld` (nl) | 85 / 1059 | 0 | 26 | 29 | 79 |
-| `afr` (af) | 79 / 1059 | 0 | 24 | 37 | 68 |
-| `swa` (sw) | 38 / 1059 | 0 | 27 | 75 | 112 |
-| `kor` (ko) | 71 / 1059 | 0 | 23 | 46 | 88 |
-| `ita` (it) | 90 / 1059 | 0 | 25 | 25 | 69 |
-| `heb` (he) | 25 / 1059 | 0 | 21 | 94 | 114 |
-| `ell` (el) | 60 / 1059 | 0 | 27 | 53 | 100 |
-| `swe` (sv) | 78 / 1059 | 0 | 22 | 40 | 82 |
-| `nob` (nb) | 76 / 1059 | 0 | 25 | 39 | 89 |
+| `cmn` (zh-Hans) | 62 / 1142 | 0 | 21 | 57 | 86 |
+| `hin` (hi) | 60 / 1142 | 0 | 24 | 56 | 99 |
+| `spa` (es) | 95 / 1142 | 0 | 23 | 22 | 67 |
+| `ara` (ar) | 58 / 1142 | 0 | 24 | 58 | 95 |
+| `fra` (fr) | 86 / 1142 | 0 | 25 | 29 | 72 |
+| `ben` (bn) | 56 / 1142 | 0 | 21 | 63 | 105 |
+| `por` (pt) | 97 / 1142 | 0 | 22 | 21 | 71 |
+| `ind` (id) | 84 / 1142 | 0 | 25 | 31 | 81 |
+| `urd` (ur) | 65 / 1142 | 0 | 24 | 51 | 94 |
+| `rus` (ru) | 67 / 1142 | 0 | 24 | 49 | 93 |
+| `deu` (de) | 53 / 1142 | 0 | 23 | 64 | 102 |
+| `nld` (nl) | 85 / 1142 | 0 | 26 | 29 | 79 |
+| `afr` (af) | 79 / 1142 | 0 | 24 | 37 | 68 |
+| `swa` (sw) | 38 / 1142 | 0 | 27 | 75 | 112 |
+| `kor` (ko) | 71 / 1142 | 0 | 23 | 46 | 88 |
+| `ita` (it) | 90 / 1142 | 0 | 25 | 25 | 69 |
+| `heb` (he) | 25 / 1142 | 0 | 21 | 94 | 114 |
+| `ell` (el) | 60 / 1142 | 0 | 27 | 53 | 100 |
+| `swe` (sv) | 78 / 1142 | 0 | 22 | 40 | 82 |
+| `nob` (nb) | 76 / 1142 | 0 | 25 | 39 | 89 |
 
 ## Issue / language work
 
@@ -401,7 +407,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $1.000000 
 Separately authorized manual workflow allocations: $40.000000 across 4 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 476 | continuation_cooldown: 9 | continuation_review_only_requires_attention: 11 | eligible_available: 907 | legacy_response_outcome_unknown_requires_owner_attention: 12
+active: 476 | continuation_review_only_requires_attention: 11 | eligible_available: 916 | legacy_response_outcome_unknown_requires_owner_attention: 12
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Campaigns

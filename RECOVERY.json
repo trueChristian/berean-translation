@@ -8,9 +8,8 @@
   },
   "counts": {
     "active": 476,
-    "continuation_cooldown": 9,
     "continuation_review_only_requires_attention": 11,
-    "eligible_available": 907,
+    "eligible_available": 916,
     "legacy_response_outcome_unknown_requires_owner_attention": 12
   },
   "derived": true,
@@ -49,8 +48,9 @@
       "language": "afr",
       "latest_task": "dfcbefa5ce7f1eb146837e4c72c63bf9",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.580184,
       "source_fingerprint": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab"
     },
     {
@@ -104,8 +104,9 @@
       "language": "afr",
       "latest_task": "ab5009080db9c915949bb8d462b60091",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.575304,
       "source_fingerprint": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe"
     },
     {
@@ -127,8 +128,9 @@
       "language": "afr",
       "latest_task": "e09dacbb03bb0e29aca0974947152aab",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.591766,
       "source_fingerprint": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639"
     },
     {
@@ -231,8 +233,9 @@
       "language": "afr",
       "latest_task": "ff5fcdafdf7e6fd104794ed5fa3bfe7b",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.5861,
       "source_fingerprint": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d"
     },
     {
@@ -242,8 +245,9 @@
       "language": "afr",
       "latest_task": "a5ed7013e5e93b15301e3b0ab24f560c",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.58687,
       "source_fingerprint": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945"
     },
     {
@@ -253,8 +257,9 @@
       "language": "afr",
       "latest_task": "26018727f490cb4f2c76d0e9f57bf1bf",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.597854,
       "source_fingerprint": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb"
     },
     {
@@ -275,8 +280,9 @@
       "language": "afr",
       "latest_task": "bbdc08f96fc457d148ba521375eef790",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.583852,
       "source_fingerprint": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893"
     },
     {
@@ -319,8 +325,9 @@
       "language": "afr",
       "latest_task": "fa6e65e2a9670d21994e17c042309f21",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.586177,
       "source_fingerprint": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973"
     },
     {
@@ -374,8 +381,9 @@
       "language": "afr",
       "latest_task": "208b4a2d2e0753229c4c08438d5ed1fd",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown",
+      "reason": "eligible_available",
       "remaining_cycles": 2,
+      "required_cycle_ceiling_usd": 0.554942,
       "source_fingerprint": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd"
     },
     {
@@ -16493,5 +16501,5 @@
       "source_fingerprint": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3"
     }
   ],
-  "source_revision": "58e50fca41cc0b53c8992502bd95166581036945"
+  "source_revision": "20570f2edea229d472a3ab6f13b744e60b057a36"
 }
