@@ -278,6 +278,8 @@ class Engine:
         self.state.save_record(record)
 
     def publish(self, task):
+        if 'continuation' in task:
+            downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
         if task.get('downstream_recovery') and not downstream.current(self, task):
             return self.finish(task, 'source_error', 'English source changed during downstream recovery')
         source, candidate = self.state.source(task),self.state.candidate(task)
@@ -343,7 +345,11 @@ class Engine:
                 try:
                     if 'cycle_budget' in task:
                         from .cycle_budget import enforce_candidate_bound
-                        enforce_candidate_bound(result, task['cycle_budget']['max_candidate_bytes'])
+                        try:
+                            enforce_candidate_bound(result, task['cycle_budget']['max_candidate_bytes'])
+                        except ContractError:
+                            task['failure_kind'] = 'candidate_size_limit'
+                            raise
                     validate_translation(self.state.source(task),result,language=task['language'])
                 except ContractError as exc:
                     diagnostic_findings = None
@@ -470,6 +476,7 @@ class Engine:
     def collect(self):
         if not self.provider:
             return
+        downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
         for batch in self.state.batches():
             if batch['status'] in ('prepared','submitting','submission_unknown'):
                 self.submit(batch)

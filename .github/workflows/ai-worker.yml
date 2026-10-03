@@ -109,5 +109,6 @@ jobs:
             content/
             index.json
             STATUS.md
+            RECOVERY.json
           if-no-files-found: warn
           retention-days: 14

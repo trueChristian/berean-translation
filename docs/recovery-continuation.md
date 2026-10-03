@@ -69,11 +69,16 @@ Hourly recovery remains disabled with a $0 standing cap. An explicit total cap i
 required before activation. The existing $1 hourly envelope is unchanged and may
 fit fewer than the maximum three pairs: with Sol and a 120 KB candidate ceiling,
 conservative example cycles reserve about $0.53 for a tiny source, $0.96 for 25 KB,
-and $1.31 for 120 KB. These are offline planning examples, not measured API bills.
+and $1.31 for 120 KB. These are offline planning examples, not measured API bills. With the current
+saved backlog, each complete Sol cycle reserves more than $0.50, so a $1 hourly
+envelope admits one pair. A proposed $10 lifetime authorization would therefore
+permit at most ten accepted hourly campaigns, even when reported usage is much
+lower. It would be a bounded start, not funding for the entire backlog. No such
+standing authorization is enabled by this change.
 
 ## Progress and completion
 
-`state/recovery-frontier.json` is a derived, non-authorizing report of unfinished
+`RECOVERY.json` is a derived, non-authorizing report of unfinished
 latest tasks. It records accepted/remaining cycle counts, processing status,
 required complete-cycle reserve and the next action or blocking reason. STATUS
 summarizes these categories. Escalated items remain visibly unfinished.

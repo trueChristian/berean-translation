@@ -11,7 +11,7 @@ import subprocess
 from pathlib import Path
 from .common import ContractError
 
-MANAGED = ('state', 'content', 'index.json', 'STATUS.md')
+MANAGED = ('state', 'content', 'index.json', 'STATUS.md', 'RECOVERY.json')
 BOT_IDENTITY = ('-c', 'user.name=github-actions[bot]', '-c',
                 'user.email=41898282+github-actions[bot]@users.noreply.github.com')
 

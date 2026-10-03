@@ -199,7 +199,7 @@ class State:
         from .recovery import money
         funding = funding_ledger(self)
         recovery_frontier = frontier(config, self, tasks=list(task_by_id.values()), funding=funding)
-        self.write('state/recovery-frontier.json', recovery_frontier)
+        self.write('RECOVERY.json', recovery_frontier)
         allocated = funding['shared_policy_usd']
         cap = money(recovery_policy.get('total_budget_usd', 0))
         if not recovery_policy.get('enabled'):
@@ -216,7 +216,7 @@ class State:
                  'these permanent allocations do not consume or enable the hourly policy.',
                  'New continuation requests allow at most three accepted cycles per article/language/English fingerprint, '
                  'including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.',
-                 '[Recovery frontier](state/recovery-frontier.json) lists every unfinished latest task, its accepted cycle count, '
+                 '[Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, '
                  'eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.',
                  ' | '.join(f'{reason}: {count}' for reason, count in recovery_frontier['counts'].items()),
                  'A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.']

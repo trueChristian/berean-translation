@@ -93,7 +93,8 @@ def validate_request(config, request):
                 or request['id'] != 'downstream-' + hour.replace('-', '').replace('T', '')
                 or request['dry_run'] or count != policy.get('max_articles')
                 or any(request[key] != policy.get(key) for key in ('model', 'review_model'))
-                or budget != money(policy.get('campaign_budget_usd'))):
+                or budget != money(policy.get('campaign_budget_usd'))
+                or ('continuation_policy' in request and request['continuation_policy'] != continuation.policy())):
             raise ContractError('Scheduled recovery must match the configured hourly policy')
     return request
 
@@ -213,7 +214,7 @@ def usable_candidate(candidate):
 
 
 def eligible(state, config, task, used, tasks, *, continuation_policy=None, history=(),
-             next_strategy=None, automatic=False):
+             next_strategy=None, automatic=False, at=None):
     if task.get('status') not in ('not_ready', 'budget_blocked') or task.get('batch'):
         return 'not_held'
     if continuation_policy is None and (task.get('downstream_recovery') or recovery_key(task) in used):
@@ -249,7 +250,7 @@ def eligible(state, config, task, used, tasks, *, continuation_policy=None, hist
         raise ContractError('Held task source provenance disagrees with its identity')
     if continuation_policy is not None:
         return continuation.next_reason(state, task, history, continuation_policy, next_strategy,
-                                        automatic=automatic)
+                                        automatic=automatic, at=at)
     return None
 
 
@@ -304,6 +305,7 @@ def accept(engine, request):
     if not request['dry_run'] and not manual and allocated + budget > money(policy['total_budget_usd']):
         raise ContractError('Downstream lifetime spending envelope exhausted; prior allocations are never recycled')
     tasks = state.tasks()
+    accepted_at = now()
     settings = request.get('continuation_policy')
     template = execution_template(config, request)
     template['id'] = request['id']
@@ -328,7 +330,8 @@ def accept(engine, request):
         history = funding['lineages'].get(recovery_key(previous), [])
         chosen_strategy = continuation.strategy(template, previous['language'])
         reason = eligible(state, config, previous, used, tasks, continuation_policy=settings,
-            history=history, next_strategy=chosen_strategy, automatic='scheduled_hour' in request)
+            history=history, next_strategy=chosen_strategy, automatic='scheduled_hour' in request,
+            at=datetime.fromisoformat(accepted_at))
         if reason:
             skipped.append({'previous_task_id': previous['id'], 'reason': reason})
             continue
@@ -359,7 +362,7 @@ def accept(engine, request):
         if len(selections) >= request['max_articles']:
             break
     languages = list(dict.fromkeys(item['language'] for item in selections))
-    campaign = {'id': request['id'], 'operation': 'repair', 'created_at': now(),
+    campaign = {'id': request['id'], 'operation': 'repair', 'created_at': accepted_at,
         'requested_by': request.get('requested_by'), 'downstream_recovery': True,
         'downstream_request': copy.deepcopy(request), 'request_sha256': json_hash(request),
         'source_revision': state.read('state/source.json')['revision'],
@@ -447,7 +450,7 @@ def execution_settings(campaign):
 
 
 def validate_history(config, state, tasks):
-    allocated, _ = ledger(state)
+    funding = funding_ledger(state)
     # Reducing/disabling the live policy pauses future work; it cannot erase a
     # prior authorization. Validate every envelope against its frozen cap.
     for campaign in state.campaigns():
@@ -487,13 +490,36 @@ def validate_history(config, state, tasks):
                     or item['mode'] != ('repair' if usable_candidate(state.candidate(previous)) else 'fresh')):
                 raise ContractError('Downstream recovery original audit evidence changed')
             if settings is not None:
+                frozen_source = state.source(previous)
+                if (previous['status'] not in ('not_ready', 'budget_blocked') or previous.get('batch')
+                        or previous.get('protected') or refusal(previous)
+                        or item['record_before'].get('latest_task') != previous['id']
+                        or item['record_before'].get('published')
+                        or frozen_source['translation_key'] != previous['translation_key']
+                        or frozen_source['article']['id'] != previous['article_id']
+                        or (not previous.get('failure_kind') and (
+                            'Missing, ambiguous, or truncated model response' in previous.get('failure', '')
+                            or previous.get('provider_failure', {}).get('code') == 'provider_error'))):
+                    raise ContractError('Downstream frozen predecessor was not eligible held work')
                 from .cycle_budget import plan_cycle
                 planned = plan_cycle(config, state, new_task(previous, campaign, item), campaign,
                                      settings['max_candidate_bytes'])
                 if item.get('cycle_budget') != planned:
                     raise ContractError('Downstream complete-cycle reservation changed')
-                if item.get('continuation', {}).get('strategy_sha256') != continuation.strategy(campaign, previous['language']):
+                chosen_strategy = continuation.strategy(campaign, previous['language'])
+                if item.get('continuation', {}).get('strategy_sha256') != chosen_strategy:
                     raise ContractError('Downstream strategy provenance changed')
+                prefix = [entry for entry in funding['lineages'].get(item['recovery_key'], [])
+                          if entry['cycle'] < item['continuation']['cycle']]
+                try:
+                    accepted_at = datetime.fromisoformat(campaign['created_at'])
+                    if accepted_at.tzinfo is None:
+                        raise ValueError('missing timezone')
+                except (TypeError, ValueError) as exc:
+                    raise ContractError('Invalid continuation acceptance time') from exc
+                if continuation.next_reason(state, previous, prefix, settings, chosen_strategy,
+                        automatic='scheduled_hour' in campaign['downstream_request'], at=accepted_at):
+                    raise ContractError('Downstream frozen continuation admission is ineligible')
             identity = digest(campaign['id'] + ':' + previous['language'] + ':' + previous['article_id'])[:32]
             expected.append(identity)
             task = tasks.get(identity)
@@ -513,6 +539,21 @@ def validate_history(config, state, tasks):
                 if candidate is not None and json_hash(candidate) != item['candidate_sha256']:
                     raise ContractError('Partially staged recovery candidate changed')
                 continue
+            if settings is not None:
+                initial = new_task(previous, campaign, item)
+                review_result = state.read(f'state/tasks/{identity}/results/{task["stage"]}.json') if task['stage'].startswith('review') else None
+                expected_findings = (review_result['result'].get('findings', []) if review_result
+                                     and isinstance(review_result.get('result'), dict) else initial['findings'])
+                generation = 'correct' if item['mode'] == 'repair' else 'translate'
+                generation_result = state.read(f'state/tasks/{identity}/results/{generation}.json')
+                if generation_result is not None:
+                    if json_hash(state.candidate(task)) != json_hash(generation_result['result']):
+                        raise ContractError('Downstream candidate differs from its archived generation result')
+                elif item['mode'] == 'repair' and json_hash(state.candidate(task)) != item['candidate_sha256']:
+                    raise ContractError('Downstream repair input candidate changed before generation')
+                if (task.get('findings') != expected_findings
+                        or task.get('rejection_reason') != initial['rejection_reason']):
+                    raise ContractError('Downstream frozen repair findings or rejection context changed')
             if (not task.get('downstream_recovery') or task.get('campaign') != campaign['id']
                     or any(task.get(key) != campaign[key] for key in ('model', 'review_model', 'models'))
                     or task.get('downstream_previous_task') != previous['id']
