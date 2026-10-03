@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Duplicate HTML attribute",
       "task": "dc19683b7cef15416e57f6e0fc3c93e3"
+    },
+    {
+      "at": "2026-10-03T18:40:30+00:00",
+      "campaign": "downstream-2026100318",
+      "event": "downstream_repair_requested",
+      "previous_task": "dc19683b7cef15416e57f6e0fc3c93e3",
+      "task": "021a7cfeeaedea7c66fd17dea7d6505e"
     }
   ],
   "language": "ita",
-  "latest_task": "dc19683b7cef15416e57f6e0fc3c93e3",
+  "latest_task": "021a7cfeeaedea7c66fd17dea7d6505e",
   "published": null
 }

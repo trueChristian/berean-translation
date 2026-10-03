@@ -10,7 +10,7 @@ Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | `heartbeat-remnant-2024-summer` | 10 | 196 / 200 | 200 | 0 | 0 |
-| `heartbeat-remnant-2024-spring` | 11 | 132 / 220 | 6 | 82 | 0 |
+| `heartbeat-remnant-2024-spring` | 11 | 132 / 220 | 7 | 81 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 135 / 220 | 0 | 85 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 83 | 0 |
 | `heartbeat-remnant-2023-spring` | 10 | 90 / 200 | 0 | 110 | 0 |
@@ -128,7 +128,7 @@ Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
 | `afr` (af) | 91 / 1155 | 0 | 27 | 42 | 73 |
 | `swa` (sw) | 49 / 1155 | 0 | 27 | 84 | 113 |
 | `kor` (ko) | 84 / 1155 | 0 | 26 | 50 | 89 |
-| `ita` (it) | 100 / 1155 | 0 | 25 | 35 | 70 |
+| `ita` (it) | 100 / 1155 | 0 | 26 | 34 | 69 |
 | `heb` (he) | 31 / 1155 | 0 | 26 | 100 | 116 |
 | `ell` (el) | 74 / 1155 | 0 | 26 | 60 | 101 |
 | `swe` (sv) | 85 / 1155 | 0 | 27 | 48 | 89 |
@@ -175,7 +175,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-spring` | `afr` | 6 / 11 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2024-spring` | `swa` | 4 / 11 | 0 | 0 | 7 | 0 |
 | `heartbeat-remnant-2024-spring` | `kor` | 7 / 11 | 0 | 0 | 4 | 0 |
-| `heartbeat-remnant-2024-spring` | `ita` | 7 / 11 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2024-spring` | `ita` | 7 / 11 | 0 | 1 | 3 | 0 |
 | `heartbeat-remnant-2024-spring` | `heb` | 1 / 11 | 0 | 0 | 10 | 0 |
 | `heartbeat-remnant-2024-spring` | `ell` | 6 / 11 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2024-spring` | `swe` | 5 / 11 | 0 | 0 | 6 | 0 |
@@ -428,7 +428,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $3.000000 
 Separately authorized manual workflow allocations: $50.000000 across 5 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 526 | continuation_review_only_requires_attention: 13 | eligible_available: 1043 | legacy_response_outcome_unknown_requires_owner_attention: 12 | lineage_predecessor_changed_requires_attention: 1
+active: 527 | continuation_review_only_requires_attention: 13 | eligible_available: 1043 | legacy_response_outcome_unknown_requires_owner_attention: 12
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Rejected requests
@@ -443,7 +443,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |
 | `downstream-2026100311` | hourly recovery | repair | finished | 1 | 1 complete | 0.01892725 | 0.259971 / 1.00 | [state](state/campaigns/downstream-2026100311.json) |
 | `downstream-2026100316` | hourly recovery | repair | active | 1 | 1 active | 0.03619050 | 0.301512 / 1.00 | [state](state/campaigns/downstream-2026100316.json) |
-| `downstream-2026100318` | hourly recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 1.00 | [state](state/campaigns/downstream-2026100318.json) |
+| `downstream-2026100318` | hourly recovery | repair | active | 1 | 1 active | 0.00000000 | 0.000000 / 1.00 | [state](state/campaigns/downstream-2026100318.json) |
 | `gh-36549125967` | manual | translate | finished | 10 | 5 complete, 5 held | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
 | `gh-36908242193` | manual | translate | finished | 10 | 6 complete, 4 held | 0.06116328 | 0.321775 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
 | `gh-36908316701` | manual | translate | finished | 10 | 8 complete, 2 held | 0.06673089 | 0.352197 / 10.00 | [state](state/campaigns/gh-36908316701.json) |
