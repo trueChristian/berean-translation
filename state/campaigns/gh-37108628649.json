@@ -1892,7 +1892,9 @@
   "status": "active",
   "structural_feedback_version": "1",
   "task_counts": {
-    "in_batch": 220
+    "complete": 69,
+    "in_batch": 143,
+    "not_ready": 8
   },
   "tasks": [
     "724b6d536f65fed69d2ae5fd475dc64d",

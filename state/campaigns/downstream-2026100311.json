@@ -4605,6 +4605,9 @@
   ],
   "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
   "status": "active",
+  "task_counts": {
+    "in_batch": 1
+  },
   "tasks": [
     "a19d02617ef33f0a6ed6a855da907b83"
   ]
