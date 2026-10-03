@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9af1acb7-ef0c-4c56-9437-c740357f5c78",
+    "response_id": "chatcmpl-EV1dKNwvXF1aqk9nJfsM4fKTrNyGv",
+    "usage": {
+      "completion_tokens": 612,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2707,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2704,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3319
+    }
+  },
+  "received_at": "2026-10-03T21:50:40+00:00",
+  "result": {
+    "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"Ett stort lövträd intill en grön äng under blå himmel\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Han föddes i ett stall, avsett för markens djur.<br>\n    Redan från början skulle Han underordna sig Faderns vilja.</p>\n\n    <p>Han var aldrig omtyckt; föraktad av alla människor;<br>\n    utskrattad och hånad – om och om igen.</p>\n\n    <p>Ja, Hans uppdrag på jorden var verkligen ovanligt,<br>\n    Han sökte inte pengar eller vänner och strävade inte efter framgång.</p>\n\n    <p>Han visste att Hans uppgift var att behaga sin Fader,<br>\n    jordens småsaker skulle Han inte bekymra sig om.</p>\n\n    <p>Det var säkert inte lätt att vara kungarnas Kung.<br>\n    Och lida som en brottsling och ta följderna av det.</p>\n\n    <p>Han kunde ha kallat till sig tiotusen änglar,<br>\n    men den sargade Frälsaren öppnade inte sin mun.</p>\n\n    <p>Med blicken fäst på belöningen uthärdade Han smärtan;<br>\n    blev grymt avklädd och slagen och till sist dödad.</p>\n\n    <p>Men varför skulle Han lida så villigt där;<br>\n    uthärda korset och all smärta Han bar?</p>\n\n    <p>För Han höll oss kära; försoning för vår synd<br>\n    åstadkom Han när Han blödde och dog där för att göra oss till sina!</p>\n\n    <p>Nu tackar jag Gud för detta så stora offer;<br>\n    Han gav oss Lammet och förändrade mitt öde.</p>\n\n    <p>Jag säger: ”En underbar Frälsare, Jesus är min Herre”;<br>\n    Nu är relationen mellan Fadern och mig återupprättad!</p>\n  </div>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "En lidande Frälsare"
+  }
+}

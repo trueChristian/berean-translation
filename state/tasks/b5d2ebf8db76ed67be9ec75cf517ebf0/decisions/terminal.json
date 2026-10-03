@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Use “UITGELIGTE ARTIKEL” or another standard Afrikaans equivalent of “FEATURED ARTICLE.”",
+      "translation_quote": "GEWILDE ARTIKEL"
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“complete trust or confidence in someone or something.”",
+      "suggested_fix": "Translate the full definition, for example: “volledige vertroue in of sekerheid oor iemand of iets.”",
+      "translation_quote": "“volledige vertroue in iemand of iets.”"
+    },
+    {
+      "location": "Paragraph 6",
+      "severity": "major",
+      "source_quote": "“so that people are without excuse”",
+      "suggested_fix": "Translate the causal relation faithfully, e.g. “sodat mense geen verontskuldiging het nie.”",
+      "translation_quote": "“omdat dit verstaan word uit wat gemaak is, sodat mense geen verontskuldiging het nie”"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "“Yet, he went against all reasoning and said he needed more evidence.”",
+      "suggested_fix": "Replace “geïgnoreer” with wording meaning “went against,” such as “Tog het hy teen alle redenering in gegaan en gesê dat hy meer bewyse nodig het.”",
+      "translation_quote": "“Tog het hy alle redenering geïgnoreer en gesê dat hy meer bewyse nodig het.”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“They blindly cling to various theories such as: The Big Bang, Punctuated Equilibrium, and Descent with Modification.”",
+      "suggested_fix": "Translate the cited theory names as well as the sentence, for example: “Hulle klou blindelings vas aan verskeie teorieë soos die Oerknal, Punctuated Equilibrium (onderbroke ewewig) en afstamming met verandering.”",
+      "translation_quote": "“Hulle klou blindelings vas aan verskeie teorieë soos die Oerknal, Punctuated Equilibrium en Afstamming met Verandering.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[59]: source /article[1]/p[8]/em[4] ('start', 'em', ()); translation /article[1]/p[8] ('end', 'p')",
+  "stage": "terminal"
+}

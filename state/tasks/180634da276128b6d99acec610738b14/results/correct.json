@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "51a4d07f-861b-436f-b84b-c26c1b9656da",
+    "response_id": "chatcmpl-EV1YtXpLa3CW0LoMpU0RELQKWvaUH",
+    "usage": {
+      "completion_tokens": 813,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 205,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2361,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2358,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3174
+    }
+  },
+  "received_at": "2026-10-03T21:50:40+00:00",
+  "result": {
+    "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"Un grand arbre feuillu près d’un champ verdoyant sous un ciel bleu\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Il naquit dans une étable, destinée aux bêtes des champs.<br>\n    Dès le commencement, il était résolu à soumettre sa volonté.</p>\n\n    <p>Jamais très aimé, méprisé de tous les hommes ;<br>\n    Raillé, insulté, encore et encore.</p>\n\n    <p>Oui, sa mission sur cette terre était vraiment singulière,<br>\n    Il ne cherchait ni argent ni amis, et ne voulait pas réussir.</p>\n\n    <p>Il savait que son dessein était de plaire à son Père ;<br>\n    Les futilités de la terre ne le préoccupaient guère.</p>\n\n    <p>Ce n’était sûrement pas facile d’être le Roi des rois,<br>\n    Et de souffrir comme un criminel, d’en subir le sort.</p>\n\n    <p>Il aurait pu appeler dix mille anges vers le sud,<br>\n    Mais le Sauveur meurtri n’ouvrit pas la bouche.</p>\n\n    <p>Les yeux fixés sur la récompense, il endura la douleur ;<br>\n    Cruellement dépouillé et battu, puis finalement mis à mort.</p>\n\n    <p>Mais pourquoi souffrir ainsi si volontiers,<br>\n    Endurer la croix et toute cette douleur ?</p>\n\n    <p>Parce qu’il nous chérissait, il fit l’expiation de nos péchés<br>\n    En saignant et en mourant là, pour faire de nous les siens !</p>\n\n    <p>Je remercie maintenant Dieu pour ce si grand sacrifice ;<br>\n    Lui qui a fourni l’Agneau et transformé mon destin.</p>\n\n    <p>Je dis : « Merveilleux Sauveur, Jésus est mon Seigneur » ;<br>\n    Maintenant, le Père et moi, nous avons renoué notre relation !</p>\n  </div>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": "Poème",
+    "subtitle": null,
+    "title": "Un Sauveur qui souffre"
+  }
+}

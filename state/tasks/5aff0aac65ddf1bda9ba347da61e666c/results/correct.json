@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "186b7ca5-ad24-426b-9234-676d5749a3d9",
+    "response_id": "chatcmpl-EV1VWzogsMFGydy41dZ6HNtUaqtIc",
+    "usage": {
+      "completion_tokens": 753,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 158,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2288,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2285,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3041
+    }
+  },
+  "received_at": "2026-10-03T21:50:40+00:00",
+  "result": {
+    "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"Et stort, løvrikt tre ved en grønn åker under blå himmel\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Han ble født i en stall, ment for markens dyr.<br>\n    Helt fra begynnelsen ville han sin vilje bøye.</p>\n\n    <p>Han var aldri godt likt; alle foraktet ham;<br>\n    De lo hånlig, spottet ham – igjen og igjen.</p>\n\n    <p>Ja, hans oppdrag på denne jord var sannelig helt spesielt,<br>\n    Han søkte ikke penger og venner eller å lykkes selv.</p>\n\n    <p>Han visste at hans mål var å behage sin Far,<br>\n    Jordens småting ville han ikke bry seg om.</p>\n\n    <p>Det var sikkert ikke lett å være kongenes Konge<br>\n    og lide som en forbryter, med alt det innebar.</p>\n\n    <p>Ti tusen engler kunne han ha kalt ned,<br>\n    men den sårede Frelser åpnet ikke sin munn.</p>\n\n    <p>Med blikket festet på lønnen holdt han ut smerten;<br>\n    Han ble grusomt avkledd og slått, og til slutt drept.</p>\n\n    <p>Men hvorfor ville han lide så villig der,<br>\n    holde ut korset og all smerten han bar?</p>\n\n    <p>Fordi han satte oss høyt, sonet han for vår synd<br>\n    da han blødde og døde der, for å gjøre oss til sin familie!</p>\n\n    <p>Jeg takker Gud nå for dette store offer;<br>\n    Han sørget for Lammet og forvandlet min skjebne.</p>\n\n    <p>Jeg sier: «Jesus, min Herre, er en underfull Frelser!»<br>\n    Nå er forholdet mellom Faderen og meg gjenopprettet!</p>\n  </div>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "En lidende Frelser"
+  }
+}
