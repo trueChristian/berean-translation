@@ -2,6 +2,7 @@
   "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "491af23072ed4b93a8f27778b119668f",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -172,12 +173,12 @@
   },
   "protected": false,
   "quality_score": 88,
-  "review_attempts": 1,
+  "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
   "stage": "review2",
-  "status": "queued",
+  "status": "in_batch",
   "translation_attempts": 2,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6-luna"
