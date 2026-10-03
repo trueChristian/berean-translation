@@ -9,8 +9,9 @@
   "counts": {
     "active": 800,
     "continuation_review_only_requires_attention": 13,
-    "eligible_available": 1113,
+    "eligible_available": 1108,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
+    "lineage_predecessor_changed_requires_attention": 5,
     "provider_refusal_requires_owner_attention": 1,
     "public_or_human_replacement": 5
   },
@@ -953,15 +954,14 @@
       "source_fingerprint": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
       "has_publication": false,
       "language": "afr",
       "latest_task": "54ad1734d1729f094cb5f7af32f5ba35",
       "processing_status": "not_ready",
-      "reason": "eligible_available",
-      "remaining_cycles": 3,
-      "required_cycle_ceiling_usd": 0.562827,
+      "reason": "lineage_predecessor_changed_requires_attention",
+      "remaining_cycles": 2,
       "source_fingerprint": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c"
     },
     {
@@ -8465,15 +8465,14 @@
       "source_fingerprint": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
       "has_publication": false,
       "language": "heb",
       "latest_task": "ef5959fb66fe56b1f042a3c1ce76534f",
       "processing_status": "not_ready",
-      "reason": "eligible_available",
-      "remaining_cycles": 3,
-      "required_cycle_ceiling_usd": 0.572426,
+      "reason": "lineage_predecessor_changed_requires_attention",
+      "remaining_cycles": 2,
       "source_fingerprint": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6"
     },
     {
@@ -10829,15 +10828,14 @@
       "source_fingerprint": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
       "has_publication": false,
       "language": "hin",
       "latest_task": "e7342bdddca7e7d5c765bfe54dca2e96",
       "processing_status": "not_ready",
-      "reason": "eligible_available",
-      "remaining_cycles": 3,
-      "required_cycle_ceiling_usd": 0.53741,
+      "reason": "lineage_predecessor_changed_requires_attention",
+      "remaining_cycles": 2,
       "source_fingerprint": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a"
     },
     {
@@ -14056,15 +14054,14 @@
       "source_fingerprint": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
       "has_publication": false,
       "language": "kor",
       "latest_task": "546c43761949c9d7ded36e83ec28ac15",
       "processing_status": "not_ready",
-      "reason": "eligible_available",
-      "remaining_cycles": 3,
-      "required_cycle_ceiling_usd": 0.561352,
+      "reason": "lineage_predecessor_changed_requires_attention",
+      "remaining_cycles": 2,
       "source_fingerprint": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c"
     },
     {
@@ -18736,15 +18733,14 @@
       "source_fingerprint": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
       "has_publication": false,
       "language": "swa",
       "latest_task": "e4747416d30da5f8ceebbde8dd8e828e",
       "processing_status": "not_ready",
-      "reason": "eligible_available",
-      "remaining_cycles": 3,
-      "required_cycle_ceiling_usd": 0.577642,
+      "reason": "lineage_predecessor_changed_requires_attention",
+      "remaining_cycles": 2,
       "source_fingerprint": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab"
     },
     {
