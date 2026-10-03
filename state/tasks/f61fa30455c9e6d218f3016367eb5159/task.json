@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "740cfbf79de64ce1b39e5a5bf5bc3df8",
   "campaign": "downstream-2026100316",
   "continuation": {
     "cycle": 1,
@@ -40,18 +39,31 @@
         },
         "total_tokens": 14658
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 93,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 67,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9300,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 9297
+        },
+        "total_tokens": 9393
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[42]: source /article[1]/div[1]/p[1]/strong[1]/em[1]/br[7] ('start', 'br', ()); translation /article[1]/div[1]/p[1]/strong[1]/em[1] ('end', 'em')",
-      "translation_quote": ""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T18:41:29+00:00",
   "id": "f61fa30455c9e6d218f3016367eb5159",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "cmn",
@@ -140,12 +152,14 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[42]: source /article[1]/div[1]/p[1]/strong[1]/em[1]/br[7] ('start', 'br', ()); translation /article[1]/div[1]/p[1]/strong[1]/em[1] ('end', 'em')",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-6.1-sol"

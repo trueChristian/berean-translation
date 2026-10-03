@@ -7,7 +7,7 @@
     "version": 2
   },
   "counts": {
-    "active": 523,
+    "active": 522,
     "continuation_review_only_requires_attention": 13,
     "eligible_available": 1046,
     "legacy_response_outcome_unknown_requires_owner_attention": 12
@@ -3301,17 +3301,6 @@
       "reason": "active",
       "remaining_cycles": 3,
       "source_fingerprint": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
-      "has_publication": false,
-      "language": "cmn",
-      "latest_task": "f61fa30455c9e6d218f3016367eb5159",
-      "processing_status": "in_batch",
-      "reason": "active",
-      "remaining_cycles": 2,
-      "source_fingerprint": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4"
     },
     {
       "accepted_cycles": 0,
