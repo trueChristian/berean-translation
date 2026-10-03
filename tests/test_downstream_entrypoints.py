@@ -210,7 +210,7 @@ class DownstreamEntrypointTests(unittest.TestCase):
         self.assertEqual(workflow['name'], 'AI — Repair held translations')
         self.assertEqual(set(workflow['on']), {'workflow_dispatch'})
         inputs = workflow['on']['workflow_dispatch']['inputs']
-        self.assertEqual(set(inputs), {'model', 'review_model', 'max_articles', 'budget_usd', 'dry_run'})
+        self.assertEqual(set(inputs), {'model', 'review_model', 'max_articles', 'budget_usd', 'dry_run', 'max_candidate_bytes'})
         choices = {'gpt-6.1-sol', 'gpt-6-astra', 'gpt-6-luna', 'gpt-5-mini',
                    'gpt-4.1-mini', 'gpt-4.1-nano', 'gpt-4.1'}
         for field in ('model', 'review_model'):
@@ -239,6 +239,8 @@ class DownstreamEntrypointTests(unittest.TestCase):
         self.assertEqual(enqueue['env'], {
             'GH_TOKEN': '${{ github.token }}', 'TRANSLATION_OPERATION': 'repair',
             'TRANSLATION_SELECTION': 'downstream-recovery',
+            'TRANSLATION_CONTINUATION_VERSION': '2',
+            'INPUT_MAX_CANDIDATE_BYTES': '${{ inputs.max_candidate_bytes }}',
             'INPUT_MAX_ARTICLES': '${{ inputs.max_articles }}',
             'INPUT_MODEL': '${{ inputs.model }}', 'INPUT_REVIEW_MODEL': '${{ inputs.review_model }}',
             'INPUT_BUDGET_USD': '${{ inputs.budget_usd }}', 'INPUT_DRY_RUN': '${{ inputs.dry_run }}',

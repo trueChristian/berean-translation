@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from .common import ContractError, digest, json_hash, now, read_json
 from .recovery import money
 from .state import TERMINAL
+from . import continuation
 
 POLICY = 'automatic_downstream_recovery'
 MANUAL_SCOPE = 'manual_workflow'
@@ -67,7 +68,7 @@ def validate_manual_authorization(request):
 
 def validate_request(config, request):
     fields = {'id', 'operation', 'model', 'review_model', 'budget_usd', 'dry_run',
-              'requested_by', 'max_articles', 'scheduled_hour', 'manual_authorization'}
+              'requested_by', 'max_articles', 'scheduled_hour', 'manual_authorization', 'continuation_policy'}
     if (not isinstance(request, dict) or set(request) - fields
             or request.get('operation') != 'repair'
             or not isinstance(request.get('id'), str)
@@ -81,6 +82,7 @@ def validate_request(config, request):
     if not budget or budget > money(config.runtime['max_campaign_usd']):
         raise ContractError('Downstream request requires an explicit positive campaign budget')
     config.model(request.get('model')); config.model(request.get('review_model'))
+    continuation.validate_policy(request.get('continuation_policy'))
     manual = validate_manual_authorization(request)
     policy = validate_policy(config)
     if not request['dry_run'] and not manual and not policy['enabled']:
@@ -135,7 +137,7 @@ def submission_enabled(config, campaign):
 
 
 def funding_ledger(state):
-    total, manual_total, keys, allocations, manual_count = money(0), money(0), set(), [], 0
+    total, manual_total, entries, allocations, manual_count = money(0), money(0), [], [], 0
     for campaign in state.campaigns():
         queued = state.read(f'state/queue/{campaign["id"]}.json')
         if not (campaign.get('downstream_recovery') or campaign.get('operation') == 'repair'
@@ -173,11 +175,7 @@ def funding_ledger(state):
             manual_count += 1
         else:
             allocations.append(campaign)
-        for item in selections:
-            key = item.get('recovery_key')
-            if not isinstance(key, str) or key in keys:
-                raise ContractError('Duplicate downstream attempt for this source/language')
-            keys.add(key)
+        entries.extend((campaign, item) for item in selections)
     for index, campaign in enumerate(sorted(allocations, key=lambda c:c.get('allocation_index', -1)), 1):
         if (campaign.get('allocation_index') != index
                 or money(campaign.get('allocation_before_usd')) != total):
@@ -185,9 +183,10 @@ def funding_ledger(state):
         total += money(campaign['downstream_allocation_usd'])
         if total > money(campaign['approved_total_usd']):
             raise ContractError('Downstream allocations exceeded their frozen authorization')
+    lineages = continuation.lineages(entries)
     return {'shared_policy_usd': total, 'manual_workflow_usd': manual_total,
             'shared_policy_count': len(allocations), 'manual_workflow_count': manual_count,
-            'recovery_keys': keys}
+            'recovery_keys': set(lineages), 'lineages': lineages}
 
 
 def ledger(state):
@@ -213,10 +212,11 @@ def usable_candidate(candidate):
                     for k in ('title','subtitle','section')))
 
 
-def eligible(state, config, task, used, tasks):
+def eligible(state, config, task, used, tasks, *, continuation_policy=None, history=(),
+             next_strategy=None, automatic=False):
     if task.get('status') not in ('not_ready', 'budget_blocked') or task.get('batch'):
         return 'not_held'
-    if task.get('downstream_recovery') or recovery_key(task) in used:
+    if continuation_policy is None and (task.get('downstream_recovery') or recovery_key(task) in used):
         return 'downstream_attempt_exhausted'
     if refusal(task):
         return 'provider_refusal_requires_owner_attention'
@@ -247,7 +247,44 @@ def eligible(state, config, task, used, tasks):
     source = state.source(task)
     if source['translation_key'] != task['translation_key'] or source['article']['id'] != task['article_id']:
         raise ContractError('Held task source provenance disagrees with its identity')
+    if continuation_policy is not None:
+        return continuation.next_reason(state, task, history, continuation_policy, next_strategy,
+                                        automatic=automatic)
     return None
+
+
+def execution_template(config, request):
+    policy = validate_policy(config)
+    return {'model': request['model'], 'review_model': request['review_model'],
+        'models': copy.deepcopy(config.models), 'prompt_version': config.runtime['prompt_version'],
+        'prompts': {key: config.prompt(key) for key in ('translation', 'review', 'repair')},
+        'language_settings': copy.deepcopy(config.languages),
+        'glossaries': read_json(config.root/'config/glossaries.json')['languages'],
+        'max_output_tokens': policy.get('max_output_tokens', config.runtime['max_output_tokens']),
+        'review_output_tokens': policy.get('review_output_tokens', config.review_output_limit(request['review_model'])),
+        'quality_threshold': config.runtime['quality_threshold']}
+
+
+def new_task(previous, campaign, item):
+    task = {key: copy.deepcopy(previous[key]) for key in
+            ('article_id', 'issue_id', 'language', 'translation_key', 'source_snapshot')}
+    task.update(id=continuation.task_id(campaign, item), campaign=campaign['id'], created_at=now(),
+        status='queued', stage='correct' if item['mode'] == 'repair' else 'translate',
+        model=campaign['model'], review_model=campaign['review_model'], models=copy.deepcopy(campaign['models']),
+        protected=False, base_html_sha256=None, base_metadata_sha256=None,
+        translation_model_actual=previous.get('translation_model_actual'),
+        translation_attempts=0, review_attempts=0, events=[], downstream_recovery=True,
+        downstream_previous_task=previous['id'], downstream_previous_sha256=item['previous_task_sha256'],
+        downstream_candidate_sha256=item['candidate_sha256'], downstream_key=item['recovery_key'],
+        findings=copy.deepcopy(previous.get('findings', [])),
+        rejection_reason=('Candidate did not pass fidelity review; substantiate findings against the English'
+            if previous.get('failure_kind') == 'quality_rejection' or 'Final review failed' in previous.get('failure', '')
+            else previous.get('failure', 'Candidate did not pass a quality or structural gate')))
+    if 'continuation' in item:
+        task['continuation'] = copy.deepcopy(item['continuation'])
+        if 'cycle_budget' in item:
+            task['cycle_budget'] = copy.deepcopy(item['cycle_budget'])
+    return task
 
 
 def accept(engine, request):
@@ -267,8 +304,20 @@ def accept(engine, request):
     if not request['dry_run'] and not manual and allocated + budget > money(policy['total_budget_usd']):
         raise ContractError('Downstream lifetime spending envelope exhausted; prior allocations are never recycled')
     tasks = state.tasks()
-    selections, skipped = [], []
-    for record in sorted(state.records(), key=lambda r: (r['language'], r['article_id'])):
+    settings = request.get('continuation_policy')
+    template = execution_template(config, request)
+    template['id'] = request['id']
+    selections, skipped, planned = [], [], money(0)
+    records = state.records()
+    if settings is not None:
+        # Oldest terminal work first, across languages. A just-failed pair cannot
+        # monopolize every hourly slot ahead of other waiting articles.
+        task_by_id = {task['id']: task for task in tasks}
+        records.sort(key=lambda r: (task_by_id.get(r.get('latest_task'), {}).get('finished_at', ''),
+                                    r['language'], r['article_id']))
+    else:
+        records.sort(key=lambda r: (r['language'], r['article_id']))
+    for record in records:
         if not record.get('latest_task'):
             continue
         previous = state.read(f'state/tasks/{record["latest_task"]}/task.json')
@@ -276,17 +325,37 @@ def accept(engine, request):
             raise ContractError('Latest translation task is missing')
         if previous['status'] not in ('not_ready', 'budget_blocked'):
             continue
-        reason = eligible(state, config, previous, used, tasks)
+        history = funding['lineages'].get(recovery_key(previous), [])
+        chosen_strategy = continuation.strategy(template, previous['language'])
+        reason = eligible(state, config, previous, used, tasks, continuation_policy=settings,
+            history=history, next_strategy=chosen_strategy, automatic='scheduled_hour' in request)
         if reason:
             skipped.append({'previous_task_id': previous['id'], 'reason': reason})
             continue
         candidate = state.candidate(previous)
-        selections.append({'previous_task_id': previous['id'], 'previous_task_sha256': json_hash(previous),
+        item = {'previous_task_id': previous['id'], 'previous_task_sha256': json_hash(previous),
             'article_id': previous['article_id'], 'language': previous['language'],
             'recovery_key': recovery_key(previous), 'candidate_sha256': json_hash(candidate),
             'mode': 'repair' if usable_candidate(candidate) else 'fresh',
             'source_snapshot': previous['source_snapshot'], 'record_before': copy.deepcopy(record),
-            'record_before_sha256': json_hash(record)})
+            'record_before_sha256': json_hash(record)}
+        if settings is not None:
+            from .cycle_budget import plan_cycle
+            item['continuation'] = {'cycle': len(history) + 1, 'strategy_sha256': chosen_strategy}
+            try:
+                item['cycle_budget'] = plan_cycle(config, state, new_task(previous, template, item),
+                    template, settings['max_candidate_bytes'])
+            except ContractError as exc:
+                skipped.append({'previous_task_id': previous['id'], 'reason': 'continuation_cycle_context_blocked',
+                                'detail': str(exc)})
+                continue
+            ceiling = money(item['cycle_budget']['total_reserved_usd'])
+            if planned + ceiling > budget:
+                skipped.append({'previous_task_id': previous['id'], 'reason': 'continuation_cycle_budget_blocked',
+                                'required_usd': float(ceiling)})
+                continue
+            planned += ceiling
+        selections.append(item)
         if len(selections) >= request['max_articles']:
             break
     languages = list(dict.fromkeys(item['language'] for item in selections))
@@ -303,14 +372,11 @@ def accept(engine, request):
         'tasks': [], 'selection': selections, 'skipped': skipped, 'dry_run': request['dry_run'],
         'status': 'planned' if request['dry_run'] else 'acceptance_incomplete',
         'downstream_acceptance_complete': False,
-        'model': request['model'], 'review_model': request['review_model'], 'models': copy.deepcopy(config.models),
-        'languages': languages, 'issues': [], 'prompt_version': config.runtime['prompt_version'],
-        'prompts': {key: config.prompt(key) for key in ('translation', 'review', 'repair')},
-        'language_settings': {lang: copy.deepcopy(config.languages[lang]) for lang in languages},
-        'glossaries': read_json(config.root/'config/glossaries.json')['languages'],
-        'max_output_tokens': policy.get('max_output_tokens', config.runtime['max_output_tokens']),
-        'review_output_tokens': policy.get('review_output_tokens', config.review_output_limit(request['review_model'])),
-        'quality_threshold': config.runtime['quality_threshold']}
+        **template}
+    campaign['language_settings'] = {lang: template['language_settings'][lang] for lang in languages}
+    if settings is not None:
+        campaign['continuation_policy'] = copy.deepcopy(settings)
+        campaign['planned_cycle_ceiling_usd'] = float(planned)
     if not selections and not request['dry_run']:
         # No-op requests do not allocate funds. Record them as previews, while
         # retaining the actual request's dry_run value via explicit empty flag.
@@ -328,19 +394,7 @@ def accept(engine, request):
         task_id = digest(request['id'] + ':' + item['language'] + ':' + item['article_id'])[:32]
         if state.path(f'state/tasks/{task_id}').exists():
             raise ContractError('Downstream recovery cannot overwrite an existing task')
-        task = {key: copy.deepcopy(previous[key]) for key in
-                ('article_id', 'issue_id', 'language', 'translation_key', 'source_snapshot')}
-        task.update(id=task_id, campaign=campaign['id'], created_at=now(), status='queued', stage='correct' if item['mode'] == 'repair' else 'translate',
-            model=request['model'], review_model=request['review_model'], models=copy.deepcopy(config.models),
-            protected=False, base_html_sha256=None, base_metadata_sha256=None,
-            translation_model_actual=previous.get('translation_model_actual'),
-            translation_attempts=0, review_attempts=0, events=[], downstream_recovery=True,
-            downstream_previous_task=previous['id'], downstream_previous_sha256=item['previous_task_sha256'],
-            downstream_candidate_sha256=item['candidate_sha256'], downstream_key=item['recovery_key'],
-            findings=copy.deepcopy(previous.get('findings', [])),
-            rejection_reason=('Candidate did not pass fidelity review; substantiate findings against the English'
-                if previous.get('failure_kind') == 'quality_rejection' or 'Final review failed' in previous.get('failure', '')
-                else previous.get('failure', 'Candidate did not pass a quality or structural gate')))
+        task = new_task(previous, campaign, item)
         if item['mode'] == 'repair':
             state.save_candidate(task, state.candidate(previous))
         state.save_task(task)
@@ -370,7 +424,8 @@ def enqueue_hour(engine):
     request = {'id': identity, 'operation': 'repair', 'model': policy['model'],
         'review_model': policy['review_model'], 'budget_usd': policy['campaign_budget_usd'],
         'dry_run': False, 'max_articles': policy['max_articles'], 'scheduled_hour': hour,
-        'requested_by': 'owner-authorized-hourly-downstream-policy'}
+        'requested_by': 'owner-authorized-hourly-downstream-policy',
+        'continuation_policy': continuation.policy()}
     validate_request(engine.config, request)
     engine.state.write(path, request)
     engine.checkpoint('runtime: persist bounded hourly recovery request before acceptance')
@@ -383,8 +438,12 @@ def current(engine, task):
 
 
 def execution_settings(campaign):
-    return {key: campaign[key] for key in ('model','review_model','models','prompts','prompt_version',
+    result = {key: campaign[key] for key in ('model','review_model','models','prompts','prompt_version',
         'language_settings','glossaries','max_output_tokens','review_output_tokens','quality_threshold')}
+    if 'continuation_policy' in campaign:
+        result['continuation_policy'] = campaign['continuation_policy']
+        result['planned_cycle_ceiling_usd'] = campaign['planned_cycle_ceiling_usd']
+    return result
 
 
 def validate_history(config, state, tasks):
@@ -396,6 +455,15 @@ def validate_history(config, state, tasks):
             continue
         if json_hash(execution_settings(campaign)) != campaign.get('execution_settings_sha256'):
             raise ContractError('Downstream frozen execution settings changed')
+        settings = campaign['downstream_request'].get('continuation_policy')
+        if campaign.get('continuation_policy') != settings:
+            raise ContractError('Downstream continuation authority changed')
+        if settings is not None:
+            continuation.validate_policy(settings)
+            if (money(campaign.get('planned_cycle_ceiling_usd')) != sum(
+                    (money(item['cycle_budget']['total_reserved_usd']) for item in campaign['selection']), money(0))
+                    or money(campaign['planned_cycle_ceiling_usd']) > money(campaign['budget_usd'])):
+                raise ContractError('Downstream complete-cycle reservations exceed their frozen envelope')
         if campaign.get('empty_selection'):
             if (campaign.get('selection') or campaign.get('tasks') or campaign.get('reserved_usd')
                     or campaign.get('downstream_allocation_usd')):
@@ -418,6 +486,14 @@ def validate_history(config, state, tasks):
                     or item['language'] != previous['language'] or item['article_id'] != previous['article_id']
                     or item['mode'] != ('repair' if usable_candidate(state.candidate(previous)) else 'fresh')):
                 raise ContractError('Downstream recovery original audit evidence changed')
+            if settings is not None:
+                from .cycle_budget import plan_cycle
+                planned = plan_cycle(config, state, new_task(previous, campaign, item), campaign,
+                                     settings['max_candidate_bytes'])
+                if item.get('cycle_budget') != planned:
+                    raise ContractError('Downstream complete-cycle reservation changed')
+                if item.get('continuation', {}).get('strategy_sha256') != continuation.strategy(campaign, previous['language']):
+                    raise ContractError('Downstream strategy provenance changed')
             identity = digest(campaign['id'] + ':' + previous['language'] + ':' + previous['article_id'])[:32]
             expected.append(identity)
             task = tasks.get(identity)
@@ -443,6 +519,8 @@ def validate_history(config, state, tasks):
                     or task.get('downstream_previous_sha256') != item['previous_task_sha256']
                     or task.get('downstream_candidate_sha256') != item['candidate_sha256']
                     or task.get('downstream_key') != item['recovery_key']
+                    or task.get('continuation') != item.get('continuation')
+                    or task.get('cycle_budget') != item.get('cycle_budget')
                     or any(task[k] != previous[k] for k in ('language','article_id','issue_id','source_snapshot','translation_key'))
                     or task['stage'] not in (('correct', 'review2') if item['mode'] == 'repair' else ('translate', 'review1'))
                     or task['translation_attempts'] > 1 or task['review_attempts'] > 1):
@@ -497,3 +575,64 @@ def abort_incomplete(engine, campaign):
     if verify:
         verify()
     return campaign
+
+
+def frontier(config, state, *, tasks=None, funding=None):
+    """Derived work status, never authority to alter a terminal task or spend."""
+    tasks = state.tasks() if tasks is None else tasks
+    funding = funding_ledger(state) if funding is None else funding
+    by_id = {task['id']: task for task in tasks}
+    policy = validate_policy(config)
+    settings = continuation.policy()
+    request = {'id': 'frontier-preview', 'model': policy.get('model', 'gpt-6.1-sol'),
+               'review_model': policy.get('review_model', 'gpt-6.1-sol')}
+    template = execution_template(config, request)
+    template['id'] = request['id']
+    budget = money(policy.get('campaign_budget_usd', 0))
+    cap = money(policy.get('total_budget_usd', 0))
+    funding_state = ('paused' if not policy['enabled'] else
+                     'budget_exhausted' if funding['shared_policy_usd'] + budget > cap else 'available')
+    items, counts = [], {}
+    for record in sorted(state.records(), key=lambda r: (r['language'], r['article_id'])):
+        task = by_id.get(record.get('latest_task'))
+        if not task or task['status'] == 'complete':
+            continue
+        history = funding['lineages'].get(recovery_key(task), [])
+        row = {'language': task['language'], 'article_id': task['article_id'],
+               'latest_task': task['id'], 'source_fingerprint': task['translation_key'],
+               'processing_status': task['status'], 'accepted_cycles': len(history),
+               'remaining_cycles': max(0, settings['max_cycles'] - len(history)),
+               'has_publication': bool(record.get('published'))}
+        if task['status'] not in TERMINAL:
+            reason = 'active'
+        elif task['status'] not in ('not_ready', 'budget_blocked'):
+            reason = task['status'] + '_requires_attention'
+        else:
+            chosen = continuation.strategy(template, task['language'])
+            reason = eligible(state, config, task, funding['recovery_keys'], tasks,
+                continuation_policy=settings, history=history, next_strategy=chosen, automatic=True)
+            if reason is None:
+                item = {'previous_task_id': task['id'], 'previous_task_sha256': json_hash(task),
+                        'candidate_sha256': json_hash(state.candidate(task)),
+                        'language': task['language'], 'article_id': task['article_id'],
+                        'recovery_key': recovery_key(task),
+                        'mode': 'repair' if usable_candidate(state.candidate(task)) else 'fresh'}
+                try:
+                    from .cycle_budget import plan_cycle
+                    plan = plan_cycle(config, state, new_task(task, template, item), template,
+                                      settings['max_candidate_bytes'])
+                    row['required_cycle_ceiling_usd'] = plan['total_reserved_usd']
+                    reason = ('continuation_cycle_budget_blocked' if money(plan['total_reserved_usd']) > budget
+                              else 'eligible_' + funding_state)
+                except ContractError as exc:
+                    reason = 'continuation_cycle_context_blocked'
+                    row['detail'] = str(exc)
+        row['reason'] = reason
+        counts[reason] = counts.get(reason, 0) + 1
+        items.append(row)
+    return {'format_version': '1', 'derived': True,
+            'source_revision': state.read('state/source.json', {}).get('revision'),
+            'continuation_policy': settings, 'hourly_funding_state': funding_state,
+            'hourly_envelope_usd': float(budget), 'hourly_total_cap_usd': float(cap),
+            'hourly_allocated_usd': float(funding['shared_policy_usd']),
+            'counts': dict(sorted(counts.items())), 'items': items}

@@ -58,8 +58,14 @@ The separate downstream path is one repair using the original English, latest
 candidate and substantiated rejection findings, followed by one independent
 review. When a newly logged non-policy failure has no usable candidate, it may
 instead make one fresh translation followed by one independent review. No extra
-correction loop is allowed. Each language/article/source fingerprint is eligible
-at most once across downstream history. Historical attempt counts stay in audit,
+correction loop is allowed. Legacy requests allow each language/article/source fingerprint at most once.
+New version 2 continuation requests permit at most three accepted downstream
+cycles per language/article/English content fingerprint, including old cycles,
+and at most two per applicable repair strategy. Each cycle is a new immutable
+child of the exact latest predecessor with its own funded envelope. No-progress,
+ambiguous progress and exhausted limits remain unfinished for owner attention.
+Automatic successors wait at least an hour. Do not reset counts when prompts,
+models, prices or unrelated English repository commits change. Historical attempt counts stay in audit,
 not model prompts. Provider refusals, content filters and legacy outcomes that
 cannot distinguish them remain held for owner attention, never bypassed.
 
@@ -69,7 +75,9 @@ translations** `workflow_dispatch` instead authorizes only its selected one-time
 USD ceiling and at most five pairs, with durable run/workflow/repository/actor
 provenance. It does not enable hourly work or enlarge the standing cap. A rerun of
 the same run ID cannot allocate again or change the original inputs. Both funding
-scopes share the once-per-source attempt exclusion and serialized collector.
+scopes share the versioned source-lineage limits and serialized collector. New
+cycles preflight a complete repair-plus-review reservation and enforce a frozen
+full-candidate byte ceiling without truncation; historical requests stay unchanged.
 Accepted nonempty campaign envelopes are permanent allocations, including partial
 acceptance, cancellation and failure; never reset/recycle them or alter original
 campaign budgets. Cancel an incomplete

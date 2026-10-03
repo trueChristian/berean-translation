@@ -195,9 +195,11 @@ class State:
         recovery_policy = config.runtime.get('automatic_downstream_recovery', {})
         # Keep reporting on the same exact, non-recyclable ledger as acceptance.
         # Local imports avoid the recovery modules' dependency on TERMINAL.
-        from .downstream import funding_ledger
+        from .downstream import funding_ledger, frontier
         from .recovery import money
         funding = funding_ledger(self)
+        recovery_frontier = frontier(config, self, tasks=list(task_by_id.values()), funding=funding)
+        self.write('state/recovery-frontier.json', recovery_frontier)
         allocated = funding['shared_policy_usd']
         cap = money(recovery_policy.get('total_budget_usd', 0))
         if not recovery_policy.get('enabled'):
@@ -212,7 +214,11 @@ class State:
                  f'Separately authorized manual workflow allocations: ${funding["manual_workflow_usd"]:.6f} '
                  f'across {funding["manual_workflow_count"]} accepted runs. Each run is limited to its own explicit ceiling; '
                  'these permanent allocations do not consume or enable the hourly policy.',
-                 'Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.',
+                 'New continuation requests allow at most three accepted cycles per article/language/English fingerprint, '
+                 'including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.',
+                 '[Recovery frontier](state/recovery-frontier.json) lists every unfinished latest task, its accepted cycle count, '
+                 'eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.',
+                 ' | '.join(f'{reason}: {count}' for reason, count in recovery_frontier['counts'].items()),
                  'A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.']
         errors = sorted((self.root/'state/queue-errors').glob('*.json'))
         if errors:

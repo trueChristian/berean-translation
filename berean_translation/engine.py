@@ -341,6 +341,9 @@ class Engine:
                 task['translation_model_actual'] = provenance['model']
                 self.state.save_candidate(task,result)
                 try:
+                    if 'cycle_budget' in task:
+                        from .cycle_budget import enforce_candidate_bound
+                        enforce_candidate_bound(result, task['cycle_budget']['max_candidate_bytes'])
                     validate_translation(self.state.source(task),result,language=task['language'])
                 except ContractError as exc:
                     diagnostic_findings = None
@@ -599,6 +602,10 @@ class Engine:
                         continue
                     try:
                         line,cost,input_bound = build_request(self.config,self.state,task)
+                        if 'cycle_budget' in task:
+                            ceiling = task['cycle_budget']['review_reserved_usd' if stage.startswith('review') else 'repair_reserved_usd']
+                            if downstream.money(cost) > downstream.money(ceiling):
+                                raise ContractError('Request exceeds its frozen complete-cycle reservation')
                     except ContractError as exc:
                         self.finish(task,'not_ready',str(exc)); tasks.pop(0); continue
                     raw = canonical(line)+b'\n'

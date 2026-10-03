@@ -22,6 +22,7 @@ import yaml
 from berean_translation.collector import collect_window
 from berean_translation.common import canonical, loads
 from berean_translation.downstream import enqueue_hour, funding_ledger
+from berean_translation.continuation import policy as continuation_policy
 from berean_translation.validation import validate_repository
 from support import REPO_ROOT, drive, queue, setup
 
@@ -221,6 +222,7 @@ class ManualRepairWorkflowTests(unittest.TestCase):
             'id': REQUEST_ID, 'operation': 'repair', 'model': 'gpt-6-luna',
             'review_model': 'gpt-6-luna', 'budget_usd': '10', 'max_articles': 3,
             'dry_run': False, 'requested_by': 'fixture-owner',
+            'continuation_policy': continuation_policy(),
             'manual_authorization': {
                 'kind': 'github_workflow_dispatch', 'repository': REPOSITORY,
                 'workflow_ref': WORKFLOW_REF, 'run_id': RUN_ID, 'actor': 'fixture-owner'},
@@ -333,7 +335,9 @@ for event in ('socket.connect', 'socket.getaddrinfo', 'socket.sendto'):
         outcome = self.collect_captured(request)
         campaign = self.state.read(f'state/campaigns/{REQUEST_ID}.json')
         self.assertEqual(outcome['ticks'], 1)
-        self.assertEqual(len(campaign['selection']), 2)
+        self.assertEqual(len(campaign['selection']), 1)
+        self.assertEqual(campaign['skipped'][0]['reason'], 'continuation_cycle_budget_blocked')
+        self.assertLessEqual(campaign['planned_cycle_ceiling_usd'], campaign['budget_usd'])
         self.assertEqual(campaign['tasks'], [])
         self.assertEqual(campaign['downstream_allocation_usd'], 0)
         self.assertEqual(campaign['reserved_usd'], 0)
@@ -421,6 +425,30 @@ for event in ('socket.connect', 'socket.getaddrinfo', 'socket.sendto'):
         self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
         self.assertEqual(funding_ledger(self.state)['shared_policy_usd'], 0)
         self.assert_hourly_disabled()
+
+
+    def test_old_workflow_rerun_keeps_legacy_request_bytes(self):
+        # GitHub reruns the original workflow YAML. Its absent version variable
+        # preserves the old queue contract even though checkout reads new main.
+        context = {'TRANSLATION_CONTINUATION_VERSION': None, 'INPUT_MAX_CANDIDATE_BYTES': None}
+        first = self.run_workflow(FAILED_RUN_INPUTS, context)
+        self.assertEqual(first.returncode, 0, first.stderr)
+        self.assertNotIn('continuation_policy', self.captured())
+        frozen = (self.capture / 'immutable-request.json').read_bytes()
+        again = self.run_workflow(FAILED_RUN_INPUTS, {**context, 'GITHUB_RUN_ATTEMPT': '2'})
+        self.assertEqual(again.returncode, 0, again.stderr)
+        self.assertTrue(loads(again.stdout)['already_queued'])
+        self.assertEqual((self.capture / 'immutable-request.json').read_bytes(), frozen)
+
+    def test_candidate_cap_is_explicit_frozen_and_invalid_caps_fail_before_network(self):
+        for value in ('0', '1000001', 'true', '-1', '1.5'):
+            with self.subTest(value=value):
+                result = self.run_workflow({'max_candidate_bytes': value})
+                self.assertEqual(result.returncode, 1)
+                self.assertEqual(self.http_calls(), [])
+        result = self.run_workflow({'max_candidate_bytes': '240000'})
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(self.captured()['continuation_policy'], continuation_policy(240000))
 
 
 if __name__ == '__main__':
