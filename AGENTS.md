@@ -69,8 +69,12 @@ models, prices or unrelated English repository commits change. Historical attemp
 not model prompts. Provider refusals, content filters and legacy outcomes that
 cannot distinguish them remain held for owner attention, never bypassed.
 
-The disabled `automatic_downstream_recovery` policy requires a separately approved
-lifetime total cap before hourly work. An explicit main-branch **AI — Repair held
+The owner approved a **$10 total lifetime ceiling** for automatic recovery on
+October 3, 2026, separate from manual runs. `automatic_downstream_recovery` is
+configured enabled with that cap, a $1 per-hour campaign envelope and at most three
+pairs subject to complete-cycle admission. Activation requires this configuration
+on trusted main; a PR alone does not activate it. Stop when permanent allocations
+reach $10, without resetting or recycling them. Any increase requires new approval. An explicit main-branch **AI — Repair held
 translations** `workflow_dispatch` instead authorizes only its selected one-time
 USD ceiling and at most five pairs, with durable run/workflow/repository/actor
 provenance. It does not enable hourly work or enlarge the standing cap. A rerun of

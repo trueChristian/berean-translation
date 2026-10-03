@@ -154,10 +154,12 @@ class FakeProvider:
 def setup(root):
     shutil.copytree(REPO_ROOT/'config',root/'config')
     shutil.copytree(REPO_ROOT/'prompts',root/'prompts')
-    # Generic runtime tests exercise manual requests. Refresh-specific tests opt
-    # in explicitly so source changes do not add unrelated simulated campaigns.
+    # Generic runtime tests exercise manual requests. Scheduled-policy tests opt
+    # in explicitly; owner-approved production settings must not add unrelated
+    # simulated campaigns to legacy fixtures.
     runtime = read_json(root/'config/runtime.json')
     runtime['automatic_source_refresh']['enabled'] = False
+    runtime['automatic_downstream_recovery'].update(enabled=False, total_budget_usd=0)
     (root/'config/runtime.json').write_bytes(canonical(runtime))
     (root/'content').mkdir()
     state = State(root)

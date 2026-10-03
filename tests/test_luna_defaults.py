@@ -95,7 +95,7 @@ class LunaRegistryTests(unittest.TestCase):
                     self.assertEqual(inputs[field]['default'], default)
             self.assertEqual(inputs['dry_run']['default'], 'true')
 
-    def test_runtime_defaults_do_not_expand_standing_automatic_work(self):
+    def test_runtime_defaults_keep_separate_owner_approved_policies(self):
         runtime = read_json(REPO_ROOT / 'config/runtime.json')
         self.assertEqual(runtime['default_model'], LUNA)
         self.assertEqual(runtime['default_review_model'], LUNA)
@@ -104,7 +104,7 @@ class LunaRegistryTests(unittest.TestCase):
             'enabled': True, 'model': 'gpt-5-mini', 'review_model': 'gpt-5-mini',
             'budget_usd': 10, 'max_campaigns_per_tick': 5})
         self.assertEqual(runtime['automatic_downstream_recovery'], {
-            'enabled': False, 'total_budget_usd': 0, 'campaign_budget_usd': 1,
+            'enabled': True, 'total_budget_usd': 10, 'campaign_budget_usd': 1,
             'max_articles': 3, 'model': 'gpt-6.1-sol', 'review_model': 'gpt-6.1-sol',
             'max_output_tokens': 32768, 'review_output_tokens': 8192})
         self.assertEqual(runtime['max_translation_attempts'], 2)

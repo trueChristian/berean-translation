@@ -30,8 +30,8 @@
     "max_campaigns_per_tick": 5
   },
   "automatic_downstream_recovery": {
-    "enabled": false,
-    "total_budget_usd": 0,
+    "enabled": true,
+    "total_budget_usd": 10,
     "campaign_budget_usd": 1,
     "max_articles": 3,
     "model": "gpt-6.1-sol",

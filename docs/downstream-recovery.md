@@ -86,10 +86,12 @@ is invented, and no model or prompt switch is used to bypass a provider refusal.
 
 ## Spending and activation
 
-Hourly downstream execution ships **disabled**, with a zero standing total USD
-authorization. Preview is available without a provider. Before enabling hourly
-work, the owner must approve and configure a separate total cap and per-campaign
-envelope in `automatic_downstream_recovery`.
+The owner approved a **$10 total lifetime automatic-recovery ceiling** on October
+3, 2026, separate from manual runs. This branch configures hourly recovery enabled
+with that cap and the unchanged $1 per-campaign envelope. It becomes effective
+only after the configuration reaches trusted main; preparing the PR does not
+activate or dispatch work. Preview remains free. Permanent allocations stop new
+hourly campaigns at the approved total and are never reset or recycled.
 
 A manual **AI — Repair held translations** run from `main`, with preview unchecked
 and an explicit positive budget, authorizes only that run's chosen USD ceiling,

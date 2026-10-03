@@ -121,10 +121,12 @@ class ManualRepairWorkflowTests(unittest.TestCase):
             self.addCleanup(guard.stop)
 
     def assert_hourly_disabled(self):
-        for runtime in (self.config.runtime, loads((REPO_ROOT / 'config/runtime.json').read_bytes())):
-            policy = runtime['automatic_downstream_recovery']
-            self.assertIs(policy['enabled'], False)
-            self.assertEqual(policy['total_budget_usd'], 0)
+        # This fixture deliberately pauses hourly work to verify independent
+        # manual authorization. The repository policy is checked separately and
+        # run_workflow still asserts that neither configuration file is changed.
+        policy = self.config.runtime['automatic_downstream_recovery']
+        self.assertIs(policy['enabled'], False)
+        self.assertEqual(policy['total_budget_usd'], 0)
 
     def environment(self, inputs=None, context=None):
         # Whitelist process settings; do not inherit real tokens, proxy settings,

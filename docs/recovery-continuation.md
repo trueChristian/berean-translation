@@ -65,16 +65,19 @@ existing campaign reservation exactly once. Reported savings never replenish
 funds. New campaigns have independent permanent envelopes, and existing manual or
 parent allocations cannot fund unrelated successors.
 
-Hourly recovery remains disabled with a $0 standing cap. An explicit total cap is
-required before activation. The existing $1 hourly envelope is unchanged and may
+On October 3, 2026, the owner approved a **$10 total lifetime automatic-recovery
+ceiling**, separate from prior manual runs. This branch enables that bounded
+policy; activation requires merging the configuration to trusted main. No workflow
+is dispatched by preparing the PR. The existing $1 hourly envelope is unchanged and may
 fit fewer than the maximum three pairs: with Sol and a 120 KB candidate ceiling,
 conservative example cycles reserve about $0.53 for a tiny source, $0.96 for 25 KB,
 and $1.31 for 120 KB. These are offline planning examples, not measured API bills. With the current
 saved backlog, each complete Sol cycle reserves more than $0.50, so a $1 hourly
-envelope admits one pair. A proposed $10 lifetime authorization would therefore
-permit at most ten accepted hourly campaigns, even when reported usage is much
-lower. It would be a bounded start, not funding for the entire backlog. No such
-standing authorization is enabled by this change.
+envelope admits one pair. The approved $10 lifetime authorization therefore
+permits at most ten accepted hourly campaigns, even when reported usage is much
+lower. This is a bounded start, not funding for the entire backlog. Prior manual
+allocations remain separate; existing automatic allocations, if any, reduce the
+same $10 ceiling. A higher total requires another explicit approval.
 
 ## Progress and completion
 
