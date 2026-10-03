@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, final stanza, last line\",\"severity\":\"minor\",\"source_quote\":\"With confidence in God, His power to display.\",\"suggested_fix\":\"med <strong><em>tillit</em></strong> til Gud, så hans kraft kan komme til syne.\",\"translation_quote\":\"med <strong><em>tillit</em></strong> til Gud, som viser hans kraft.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 355,
+    "content_evidence_truncated": false,
+    "content_sha256": "111956cdae5860e25dc0094df5ee0f5e11dee09b6e5121dab5d1b9c961a649b0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1884,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1881,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2504
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

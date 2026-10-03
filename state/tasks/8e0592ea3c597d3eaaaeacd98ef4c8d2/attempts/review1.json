@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third poem stanza, first line\",\"severity\":\"major\",\"source_quote\":\"I’m sure it’s confusing, to the all-knowing One.\",\"suggested_fix\":\"Replace the line with “Lazima jambo hili liwe la kutatanisha kwa Yeye ajuaye yote.”\",\"translation_quote\":\"Hakika inashangaza kwa Yeye ajuaye yote.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 349,
+    "content_evidence_truncated": false,
+    "content_sha256": "27d747a29325ed1a57b97e0cba07e51e9eee2702a1a03af53db37e268d5de942",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 646,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1916,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2674
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

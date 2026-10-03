@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “There were friends in the same church…”",
+      "severity": "minor",
+      "source_quote": "“There were friends in the same church who each had a daughter of dating age.”",
+      "suggested_fix": "इस अंश को ऐसे करें: “एक ही कलीसिया में ऐसी सहेलियाँ थीं जिनमें से हर एक की एक बेटी डेटिंग की उम्र की थी।”",
+      "translation_quote": "“एक ही कलीसिया में ऐसी सहेलियाँ थीं जिनमें से हर एक की एक बेटी विवाह-पूर्व संबंध की उम्र में थी।”"
+    },
+    {
+      "location": "Same paragraph, closing sentence",
+      "severity": "minor",
+      "source_quote": "“it’s likely their children will be friends.”",
+      "suggested_fix": "“और संभव है कि उनके बच्चे भी दोस्त बनें।”",
+      "translation_quote": "“और संभव है कि उनके बच्चे भी सहेलियाँ बनें।”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

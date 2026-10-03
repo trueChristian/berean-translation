@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html 및 translation.html, 두 번째 문단의 인용문\",\"severity\":\"major\",\"source_quote\":\"“I can do all things through Christ which strengtheneth me.”\",\"suggested_fix\":\"인용문을 다음과 같이 고치세요: “내게 능력 주시는 그리스도 안에서 나는 모든 것을 할 수 있느니라.”를 “내게 능력 주시는 그리스도로 말미암아 나는 모든 것을 할 수 있느니라.”로 수정합니다.\",\"translation_quote\":\"내게 능력 주시는 그리스도 안에서 나는 모든 것을 할 수 있느니라.\"},{\"location\":\"source.html 및 translation.html, “Our Perspective Matters” 아래 두 번째 문단\",\"severity\":\"major\",\"source_quote\":\"“how we interact with God”\",\"suggested_fix\":\"“하나님과 교제하는 방식”을 “하나님과 상호작용하는 방식” 또는 “하나님과 관계 맺는 방식”으로 수정하세요.\",\"translation_quote\":\"하나님과 교제하는 방식\"},{\"location\":\"source.html 및 translation.html, “Our Perspective Matters” 아래 세 번째 문단\",\"severity\":\"major\",\"source_quote\":\"“There’s race discrimination on both sides of the matter.”\",\"suggested_fix\":\"“인종 차별은 양쪽 모두에서 나타납니다”를 “이 사안의 양쪽 모두에 인종 차별이 있습니다”로 수정하세요. 현재 번역은 양쪽 모두가 인종 차별을 한다는 뜻으로 읽혀 원문의 ‘양측에 차별이 있다’는 진술을 더 강한 비난으로 바꿉니다.\",\"translation_quote\":\"인종 차별은 양쪽 모두에서 나타납니다.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1637,
+    "content_evidence_truncated": false,
+    "content_sha256": "084146b0998117cc5d23b73240b4f6aa80f7a256f16ecb101bed232b3430fb55",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 380,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5666,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6049
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

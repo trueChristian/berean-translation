@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"waiting for her mom to fill her plate\",\"suggested_fix\":\"Replace «اپنی امی کے پلیٹ میں کھانا ڈالنے کا انتظار» with «اپنی پلیٹ میں کھانا ڈالنے کے لیے اپنی امی کا انتظار» so the plate belongs to Jennika, as in the source.\",\"translation_quote\":\"اپنی امی کے پلیٹ میں کھانا ڈالنے کا انتظار\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 504,
+    "content_evidence_truncated": false,
+    "content_sha256": "b10c6b6fbe5c2af310938df5e172f95d3b23cb2eafc3bda57f773bf34008c315",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 423,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2868,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2865,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3412
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

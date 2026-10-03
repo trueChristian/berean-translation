@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 느헤미야 2:12 인용문",
+      "severity": "major",
+      "source_quote": "what my God had put in my heart to do at Jerusalem",
+      "suggested_fix": "밑줄 친 부분을 “하나님께서 예루살렘에서 하도록 내 마음에 두신 일”로 바꾸어, 하나님께서 예루살렘에서 할 일을 마음에 두셨다는 원문의 뜻을 살려 주세요.",
+      "translation_quote": "하나님께서 <u>예루살렘을 위해 내 마음을 감동시키신 일을</u>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

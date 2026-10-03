@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Párrafo sobre los gobiernos locales y las reuniones de la iglesia",
+      "severity": "major",
+      "source_quote": "I have heard reports of some churches in other parts of the world being pushed by their local government to not meet for fellowship and group worship.",
+      "suggested_fix": "Reformular para conservar que el gobierno presiona a algunas iglesias para que no se reúnan en comunión y para el culto colectivo; por ejemplo: «He oído informes de que, en otras partes del mundo, los gobiernos locales presionan a algunas iglesias para que no se reúnan para tener comunión y celebrar el culto colectivo».",
+      "translation_quote": "He oído informes de que en otras partes del mundo algunos gobiernos locales presionan a ciertas iglesias para que no se reúnan en comunión y para el culto colectivo."
+    },
+    {
+      "location": "Párrafo sobre el modelo de consejería y el uso de mascarillas",
+      "severity": "major",
+      "source_quote": "I believe it WILL cause as much and more detriment to interpersonal relationships.",
+      "suggested_fix": "Restituir la afirmación de que el uso literal de la mascarilla causará un daño igual o mayor a las relaciones interpersonales; por ejemplo: «creo que CAUSARÁ tanto o más daño a las relaciones interpersonales».",
+      "translation_quote": "creo que causará un daño igual o mayor a las relaciones interpersonales."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

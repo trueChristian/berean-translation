@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5bfc1374-2cfb-4c34-b6a8-4cb5aa3aaa1e",
+    "response_id": "chatcmpl-EUrVpz2AUWn8WdOSfk1nri7HVkFHn",
+    "usage": {
+      "completion_tokens": 643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9256,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9902
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first stanza of the Timothy Dwight hymn",
+        "severity": "major",
+        "source_quote": "The church our blest Redeemer / Saved with His own precious blood.",
+        "suggested_fix": "Replace « A sauvée de son précieux sang » with « Sauvée par son propre sang précieux » so the line says the church was saved by the Redeemer’s blood, not saved from it.",
+        "translation_quote": "L’Église que notre bienheureux Rédempteur / A sauvée de son précieux sang."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph under “पर्याप्त (अच्छी) नींद लें”\",\"severity\":\"major\",\"source_quote\":\"This makes sense since our bodies heal the most when we are sleeping.\",\"suggested_fix\":\"यह समझ में आता है, क्योंकि सोते समय हमारा शरीर सबसे अधिक चंगा होता है।\",\"translation_quote\":\"यह समझ में आता है, क्योंकि सोते समय हमारा शरीर सबसे अधिक स्वस्थ होता है।\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 663,
+    "content_evidence_truncated": false,
+    "content_sha256": "214b3c2341020f8d65c4ba69de019c6acf4808f37b39729db19d3d5d23cbd797",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 434,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10186,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10737
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

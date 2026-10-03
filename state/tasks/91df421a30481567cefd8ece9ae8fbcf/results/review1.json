@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d7f8a8bf-e5b7-4bd5-8dfc-ec1166a4b9c0",
+    "response_id": "chatcmpl-EUrWgRUpotValvkMBMfDInWprM3YH",
+    "usage": {
+      "completion_tokens": 298,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9735,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9732,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10033
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragrafo sotto «Fare esercizio regolarmente»",
+        "severity": "major",
+        "source_quote": "“rushing out to run three miles”",
+        "suggested_fix": "Sostituire «cinque chilometri» con «circa cinque chilometri»? No: per mantenere la misura esatta, tradurre come «correre per tre miglia» oppure usare l’equivalente approssimativo esplicitandolo («correre per circa cinque chilometri»).",
+        "translation_quote": "«uscire di corsa per correre cinque chilometri»"
+      },
+      {
+        "location": "HTML, paragrafo sotto «Integratori mirati», frase sullo zinco",
+        "severity": "major",
+        "source_quote": "“it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.”",
+        "suggested_fix": "Riformulare per dire che lo zinco non è destinato all’assunzione quotidiana, ma che se ne dovrebbe assumere una quantità maggiore al primo sintomo di un’infezione delle vie respiratorie superiori.",
+        "translation_quote": "«non è pensato per essere assunto tutti i giorni, ma piuttosto che se ne dovrebbe assumere una quantità maggiore al primo sintomo dell’arrivo di un’infezione delle vie respiratorie superiori»"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

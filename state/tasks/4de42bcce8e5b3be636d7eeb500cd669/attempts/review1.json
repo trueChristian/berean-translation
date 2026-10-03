@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Throughout the article, including the opening quotation, the market-price paragraphs, the headings “...Two farthings,” and the final comparison\",\"severity\":\"major\",\"source_quote\":\"“two sparrows sold for a farthing”; “One copper farthing would purchase two sparrows”; “...Two farthings”\",\"suggested_fix\":\"Replace “Groschen” with a German rendering of the source denomination, such as “Farthing” or “Viertelpenny,” throughout. For example, render the heading “...Zwei Groschen” as “...Zwei Farthings” or “...Zwei Viertelpennys.”\",\"translation_quote\":\"“zwei Sperlinge für einen Groschen verkauft”; “Für einen Kupfergroschen konnte man zwei Sperlinge kaufen”; “...Zwei Groschen”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 784,
+    "content_evidence_truncated": false,
+    "content_sha256": "e17ffbf48b3d2b0a75b5c377c91937464ac14a58815ee42a4f522cb1989879a0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 861,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 660,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8692,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8689,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9553
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

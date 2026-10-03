@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first stanza of the Timothy Dwight hymn",
+      "severity": "major",
+      "source_quote": "The church our blest Redeemer / Saved with His own precious blood.",
+      "suggested_fix": "Replace « A sauvée de son précieux sang » with « Sauvée par son propre sang précieux » so the line says the church was saved by the Redeemer’s blood, not saved from it.",
+      "translation_quote": "L’Église que notre bienheureux Rédempteur / A sauvée de son précieux sang."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

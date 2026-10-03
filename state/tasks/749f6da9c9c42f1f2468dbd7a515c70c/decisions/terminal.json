@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, second stanza, first line",
+      "severity": "minor",
+      "source_quote": "Why would one question a God like this?",
+      "suggested_fix": "لماذا يتساءل المرء عن إله كهذا؟",
+      "translation_quote": "لماذا يشكّ المرء في إله كهذا؟"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

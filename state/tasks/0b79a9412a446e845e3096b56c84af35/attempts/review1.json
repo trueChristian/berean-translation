@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"This is a huge number and one that I can’t wrap my mind around.\",\"suggested_fix\":\"Replace “ek kan my kop nie daarom kry nie” with “ek kan dit nie begryp nie” to express that the number is difficult to comprehend.\",\"translation_quote\":\"Dit is ’n ontsaglike groot getal, en ek kan my kop nie daarom kry nie.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 434,
+    "content_evidence_truncated": false,
+    "content_sha256": "2460656fb1ec5bd16fd4aa12296a521a400ff9f44fdd66704ee44b0d07b636d9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 861,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 736,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9880,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9877,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10741
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

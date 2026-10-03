@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Article, opening paragraph",
+      "severity": "major",
+      "source_quote": "“When God told him to build an ark, there was no wavering. He spent the next 120 years confidently doing just that.”",
+      "suggested_fix": "Replace « il n’a pas hésité » with « il n’a pas vacillé » to preserve the source’s assertion that Noah did not waver.",
+      "translation_quote": "« il n’a pas hésité »"
+    },
+    {
+      "location": "Article, final paragraph; Isaiah 61:1-3 quotation",
+      "severity": "major",
+      "source_quote": "“to bind up the brokenhearted”",
+      "suggested_fix": "Replace « pour guérir ceux qui ont le cœur brisé » with « pour panser ceux qui ont le cœur brisé »; the source says to bind up, not to heal.",
+      "translation_quote": "« pour guérir ceux qui ont le cœur brisé »"
+    },
+    {
+      "location": "Article, final paragraph; Isaiah 61:1-3 quotation",
+      "severity": "major",
+      "source_quote": "“to proclaim liberty to the captives, and the opening of the prison to them that are bound”",
+      "suggested_fix": "Replace « pour proclamer la liberté aux captifs et la délivrance aux prisonniers » with « pour proclamer la liberté aux captifs et l’ouverture de la prison à ceux qui sont enchaînés »; preserve both the opening of the prison and the description of those bound.",
+      "translation_quote": "« pour proclamer la liberté aux captifs et la délivrance aux prisonniers »"
+    },
+    {
+      "location": "Article, final paragraph; Isaiah 61:1-3 quotation",
+      "severity": "major",
+      "source_quote": "“To appoint unto them that mourn in Zion, to give unto them beauty for ashes”",
+      "suggested_fix": "Replace « pour accorder aux affligés de Sion, pour leur donner un diadème au lieu de la cendre » with « pour accorder à ceux qui sont dans le deuil en Sion, pour leur donner la beauté au lieu de la cendre »; « diadème » changes the source’s image.",
+      "translation_quote": "« pour accorder aux affligés de Sion, pour leur donner un diadème au lieu de la cendre »"
+    },
+    {
+      "location": "Article, final paragraph; Isaiah 61:1-3 quotation",
+      "severity": "major",
+      "source_quote": "“that they might be called trees of righteousness”",
+      "suggested_fix": "Replace « afin qu’on les appelle des térébinthes de la justice » with « afin qu’on les appelle des arbres de justice »; the source says trees, not specifically terebinths.",
+      "translation_quote": "« afin qu’on les appelle des térébinthes de la justice »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

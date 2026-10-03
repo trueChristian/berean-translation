@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "578a8174-8e32-4f2f-bb1d-25162502ef35",
+    "response_id": "chatcmpl-EUrWTGLHhNVvG7ANAmTeIPeuXFxkH",
+    "usage": {
+      "completion_tokens": 550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 460,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9264,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9817
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second paragraph",
+        "severity": "major",
+        "source_quote": "“100 trillion bacteria”",
+        "suggested_fix": "Substitua “100 trilhões” por “100 mil milhões” para preservar o valor de 10¹⁴ em português internacional.",
+        "translation_quote": "“100 trilhões de bactérias”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

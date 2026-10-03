@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6dda4d6b-f286-4bc9-bfb4-d40ff99643e5",
+    "response_id": "chatcmpl-EUrVpKtL5SIr3hIcVc3wibZriAU8y",
+    "usage": {
+      "completion_tokens": 833,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 466,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9506,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10342
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Premier paragraphe, citation de Psaume 139:14",
+        "severity": "major",
+        "source_quote": "I will praise thee; for I am fearfully and wonderfully made",
+        "suggested_fix": "Remplacer la citation par une formulation qui conserve les deux idées, par exemple : « Je te louerai, car je suis merveilleusement et admirablement fait » ; garder la référence Psaume 139:14.",
+        "translation_quote": "Je te louerai ; car je suis une créature si merveilleuse"
+      },
+      {
+        "location": "Paragraphe sous « Au commencement », après le paragraphe sur le système immunitaire avant la Chute",
+        "severity": "major",
+        "source_quote": "After the Fall, everything was different. Bacteria and viruses began to be “pathogenic” or disease-causing.",
+        "suggested_fix": "Rendre le changement progressif exprimé par « began to be », par exemple : « Après la Chute, tout a changé. Les bactéries et les virus ont commencé à devenir “pathogènes”, c’est-à-dire à provoquer des maladies. »",
+        "translation_quote": "Après la Chute, tout a changé. Les bactéries et les virus sont devenus « pathogènes », c’est-à-dire responsables de maladies."
+      },
+      {
+        "location": "Paragraphe commençant par « Dieu a créé nos corps avec plusieurs systèmes différents »",
+        "severity": "major",
+        "source_quote": "We are indeed fearfully and wonderfully made.",
+        "suggested_fix": "Rétablir les deux nuances et l’accord avec « nous », par exemple : « Nous sommes véritablement merveilleusement et admirablement faits. »",
+        "translation_quote": "Nous sommes véritablement une créature merveilleuse."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, first stanza, line 6\",\"severity\":\"major\",\"source_quote\":\"Her walls before Thee stand,\",\"suggested_fix\":\"Sostituisci «Le sue mura davanti a te,» con «Le sue mura stanno davanti a te,» per rendere esplicito che le mura stanno davanti a Dio.\",\"translation_quote\":\"Le sue mura davanti a te,\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 359,
+    "content_evidence_truncated": false,
+    "content_sha256": "f7f9a01c09d356f8fed9b6dae002cdb1b98f059fe8882da9385707057afaaf87",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 698,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1775,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1772,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2585
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

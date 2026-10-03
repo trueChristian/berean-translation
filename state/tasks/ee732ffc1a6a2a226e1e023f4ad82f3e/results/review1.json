@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7442c0ab-0b69-4441-a4b0-015a252c7180",
+    "response_id": "chatcmpl-EUrVpjfqMfHs7myIinjA2kJEsATa8",
+    "usage": {
+      "completion_tokens": 727,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7562,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8292
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, quotation from Isaiah 61:1–3",
+        "severity": "major",
+        "source_quote": "to give unto them beauty for ashes",
+        "suggested_fix": "Replace “uma coroa em vez de cinzas” with “beleza em vez de cinzas” to preserve the source image and meaning.",
+        "translation_quote": "para dar aos que pranteiam em Sião uma coroa em vez de cinzas"
+      },
+      {
+        "location": "Paragraph beginning “It takes a lot of confidence in God…”, quotation from 2 Timothy 4:6–7",
+        "severity": "major",
+        "source_quote": "For I am now ready to be offered",
+        "suggested_fix": "Replace “já estou sendo oferecido por libação” with “estou pronto para ser oferecido” (or another faithful Portuguese rendering that preserves readiness rather than saying the offering is already underway).",
+        "translation_quote": "Quanto a mim, já estou sendo oferecido por libação"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

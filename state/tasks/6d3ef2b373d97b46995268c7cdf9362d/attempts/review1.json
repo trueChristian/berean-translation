@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph containing Ephesians 5:25–27\",\"severity\":\"major\",\"source_quote\":\"That he might sanctify and cleanse it with the washing of water by the word,\",\"suggested_fix\":\"Vervang die ooreenstemmende gedeelte binne die bestaande <em>-etiket met: “om dit te heilig en te reinig met die waterbad deur die woord,”\",\"translation_quote\":\"om dit te heilig nadat Hy dit gereinig het met die waterbad deur die woord,\"},{\"location\":\"HTML paragraph about boldly proclaiming the gospel\",\"severity\":\"minor\",\"source_quote\":\"willing to take the road less traveled.\",\"suggested_fix\":\"Vervang “die minder betrapte pad te kies” met “die minder bewandelde pad te kies”.\",\"translation_quote\":\"bereid is om die minder betrapte pad te kies.\"},{\"location\":\"Final HTML paragraph, sentence about seeking God’s will\",\"severity\":\"minor\",\"source_quote\":\"Let us earnestly seek God’s will for ourselves, for our families, for our churches, and for our neighbors.\",\"suggested_fix\":\"Vervang “Laat ons God ernstig soek se wil” met “Laat ons God se wil ernstig soek”.\",\"translation_quote\":\"Laat ons God ernstig soek se wil vir onsself, ons gesinne, ons kerke en ons bure.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1223,
+    "content_evidence_truncated": false,
+    "content_sha256": "9def87dd491e7ccfc0bd7d6420703a6f995267cfad863b0b6808ebe50e552211",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1008,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 696,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8200,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9211
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

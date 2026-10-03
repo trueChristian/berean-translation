@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, estrofa 3, verso 3",
+      "severity": "minor",
+      "source_quote": "Thy hand from ev’ry snare and foe",
+      "suggested_fix": "Sustituir «Tu mano, de toda trampa y enemigo,» por «Tu mano nos traerá gran liberación de toda trampa y de todo enemigo.» y unirlo al verso siguiente sin repetir «traerá gran liberación».",
+      "translation_quote": "Tu mano, de toda trampa y enemigo, / traerá gran liberación."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"1절, 1행\",\"severity\":\"major\",\"source_quote\":\"I love Thy kingdom, Lord,\",\"suggested_fix\":\"‘주님의 나라를 사랑합니다’ 대신 ‘주님의 왕국을 사랑합니다’ 또는 문맥에 맞는 표현으로 옮겨 ‘kingdom’을 보존해 주세요.\",\"translation_quote\":\"주님의 나라를 사랑합니다,\"},{\"location\":\"3절, 1행\",\"severity\":\"major\",\"source_quote\":\"Jesus, Thou Friend divine,\",\"suggested_fix\":\"‘신성한 친구시여’를 ‘하늘의 친구시여’ 또는 ‘거룩한 친구시여’로 고쳐, 예수님이 신성하다는 뜻이 아니라 예수님을 신성한 친구로 부르는 표현의 의미를 보존해 주세요.\",\"translation_quote\":\"예수님, 신성한 친구시여,\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 780,
+    "content_evidence_truncated": false,
+    "content_sha256": "462497740cb0bf2091300a7b2f3c7e48bd5a1990018a7a1ecb0c5393e5f63bd4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 201,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1812,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2016
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

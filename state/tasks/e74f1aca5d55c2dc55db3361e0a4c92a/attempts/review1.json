@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Примечание редактора, абзац о посланиях; ссылка на 2 Коринфянам 11:13–14\",\"severity\":\"major\",\"source_quote\":\"Satan and his agents will transform themselves …into the apostles of Christ and present themselves as …an angel of light –2 Corinthians 11:13-14.\",\"suggested_fix\":\"Заменить на: «…сатана и его служители преобразуются …в апостолов Христа и выдают себя за …ангела света — 2 Коринфянам 11:13-14.»\",\"translation_quote\":\"«…потому что сатана и его служители преобразуются …в апостолов Христа и выдают себя за …ангела света — 2 Коринфянам 11:13-14.»\"},{\"location\":\"Основной текст, раздел «Взаимозаменяемы ли понятия „Царство“ и „Церковь“?», первый абзац\",\"severity\":\"major\",\"source_quote\":\"The kingdom is not … a generic version of, or a substitute word for, the church.\",\"suggested_fix\":\"Исправить смысловую конструкцию, например: «Царство — это не, как могло бы показаться из современного употребления, общее понятие, обозначающее церковь, и не слово-замена для церкви.»\",\"translation_quote\":\"«Царство — это не, как могло бы показаться из современного употребления, общее название для церкви и не замена слова „церковь“.»\"},{\"location\":\"Основной текст, раздел «Взаимозаменяемы ли понятия „Царство“ и „Церковь“?», абзац с призывом трудиться ради Царства\",\"severity\":\"major\",\"source_quote\":\"Work for the good and growth of the church—your local church, and beyond.\",\"suggested_fix\":\"Заменить заключительную часть на: «Трудитесь ради блага и роста церкви — своей местной церкви и церкви за ее пределами.»\",\"translation_quote\":\"«Трудитесь ради блага и роста церкви — своей местной церкви и церкви в целом.»\"},{\"location\":\"Стихотворение в div.lyrics после слов «Тимоти Дуайт написал»\",\"severity\":\"major\",\"source_quote\":\"The church our blest Redeemer / Saved with His own precious blood.\",\"suggested_fix\":\"Перевести строки с сохранением смысла, например: «Церковь, искупленная нашим благословенным Спасителем / Его драгоценной кровью.»\",\"translation_quote\":\"«Церковь, которую кровью Своею / Искупил наш Спаситель любя.»\"},{\"location\":\"Стихотворение в div.lyrics после слов «Тимоти Дуайт написал»\",\"severity\":\"major\",\"source_quote\":\"Dear as the apple of Thine eye, / And graven on Thy hand.\",\"suggested_fix\":\"Передать обе строки ближе к исходному смыслу: «Дорога Тебе, как зеница ока, / И начертана на руке Твоей.»\",\"translation_quote\":\"«Дороже зеницы она для очей, / В ладонях начертана Твоих.»\"},{\"location\":\"Стихотворение в div.lyrics после абзаца «Так должны поступать и мы!»\",\"severity\":\"major\",\"source_quote\":\"To her my cares and toils be giv’n, / Till toils and cares shall end.\",\"suggested_fix\":\"Исправить эти строки, например: «Ей посвящу заботы и труды, / Пока не окончатся труды и заботы.»\",\"translation_quote\":\"«Ей отдам я заботы и труды, / Пока не окончатся труды и заботы.»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 4265,
+    "content_evidence_truncated": false,
+    "content_sha256": "4ec45c785bb1d2928e6df1eafbf23c6129201a2489af7585969d1d267a1c992f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 829,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9429,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9426,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10258
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

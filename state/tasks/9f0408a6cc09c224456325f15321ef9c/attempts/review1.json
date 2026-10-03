@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"הערת העורך, הפסקה על ״בעלי אמונה יקרה כמותם״\",\"severity\":\"major\",\"source_quote\":\"“like precious faith” (who believe as they do)\",\"suggested_fix\":\"שנו ל״בעלי אותה אמונה יקרה״ (המאמינים כמוהם), או לניסוח עברי טבעי אחר המשמר את המשמעות.\",\"translation_quote\":\"״בעלי אמונה יקרה כמותם״ (המאמינים כמוהם)\"},{\"location\":\"הערת העורך, הפסקה על המלכות כעת ובעתיד\",\"severity\":\"major\",\"source_quote\":\"an extreme focus on kingdom this and kingdom that, will by default cause Christians to ignore this Truth\",\"suggested_fix\":\"נסחו את הקטע כך שיבהיר שהתמקדות קיצונית בנושא המלכות עלולה לגרום לנוצרים להתעלם מן האמת הזאת, בלי להוסיף דימוי של ״זאת וההיא״. למשל: ״ובכל זאת, התמקדות קיצונית במלכות עלולה לגרום לנוצרים, כברירת מחדל, להתעלם מן האמת הזאת...״\",\"translation_quote\":\"התמקדות קיצונית במלכות הזאת ובמלכות ההיא תגרום לנוצרים, כברירת מחדל, להתעלם מן האמת הזאת\"},{\"location\":\"הערת העורך, הפסקה על תחייתו ועלייתו של ישוע\",\"severity\":\"major\",\"source_quote\":\"The full effect of the resurrection and the ascension of Jesus in the life of a believer can never fully be understood\",\"suggested_fix\":\"החליפו את הכפילות בניסוח המשמר את הטענה שאי אפשר להבין את מלוא ההשפעה: ״לעולם לא נוכל להבין במלואה את השפעת תחייתו ועלייתו של ישוע בחיי המאמין, אם...״\",\"translation_quote\":\"אי אפשר להבין במלואה את מלוא משמעותם של תחייתו ועלייתו של ישוע בחיי המאמין\"},{\"location\":\"המאמר, הפסקה על התמקדות האוונגליקלים בפאולוס\",\"severity\":\"major\",\"source_quote\":\"the kingdom of God, which Jesus inaugurated\",\"suggested_fix\":\"החליפו את ״שישוע ייסד״ בניסוח המקביל ל״שישוע החל לכונן״ או ״שישוע חולל את תחילתה״; המקור אומר שישוע חנך את המלכות, לא ייסד אותה במלואה.\",\"translation_quote\":\"מלכות האלוהים, שישוע ייסד\"},{\"location\":\"המאמר, הפסקה על הרקע ההיסטורי של הדאגות\",\"severity\":\"major\",\"source_quote\":\"the imbalanced Reformation emphasis regarding justification by faith\",\"suggested_fix\":\"תקנו ל״הדגש הלא מאוזן של הרפורמציה על הצדקה באמונה״. הנוסח הנוכחי משנה את היחס התחבירי ומשתמע ממנו שההדגשה עצמה היא ״של הצדקה״.\",\"translation_quote\":\"בדגש הלא מאוזן של הרפורמציה על הצדקה באמונה\"},{\"location\":\"המאמר, הכותרת ״האם הבשורות גוברות על שאר כתבי הקודש?״ והפסקה הראשונה תחתיה\",\"severity\":\"major\",\"source_quote\":\"should dominate and control the interpretation of the New Testament scriptures\",\"suggested_fix\":\"השתמשו במונח עברי ברור שמשמעו לשלוט בפרשנות, למשל: ״צריכות לשלוט בפרשנות של כתבי הברית החדשה״. ״להכתיב״ לבדו אינו מעביר את מלוא הצירוף, והניסוח בכותרת ״גוברות״ מציג את השאלה כתחרות ולא כשליטה פרשנית.\",\"translation_quote\":\"האם הבשורות גוברות על שאר כתבי הקודש? ... צריכות לשלוט ולְהכתיב את פרשנותם של כתבי הברית החדשה\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 3913,
+    "content_evidence_truncated": false,
+    "content_sha256": "47fe2501cb30771923ffe275d0b0416f6a80ea5c0227c0a22524f374bd1a02f6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9648,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9645,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10529
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

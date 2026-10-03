@@ -2,7 +2,6 @@
   "article_id": "77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 2234
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 627,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 490,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1992,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1989,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2619
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, poem, first stanza",
+      "severity": "minor",
+      "source_quote": "To carry, to store, or for a drink?",
+      "suggested_fix": "¿Para transportar, guardar o servir una bebida?",
+      "translation_quote": "¿Para llevar, guardar o beber?"
+    },
+    {
+      "location": "HTML, poem, third stanza",
+      "severity": "minor",
+      "source_quote": "About my life / are many others,",
+      "suggested_fix": "En mi vida / hay muchas otras personas:",
+      "translation_quote": "Alrededor de mi vida / hay muchas otras personas:"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:35+00:00",
   "id": "93155fafeae65d7eafe96819000d8c5a",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "spa",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fec2dd1703a9aded162631be7f3af606fa01a3b491621e431543b667d23c75a4.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bc9ecc613f1817378c3fc3dba2a55f8d1cc93b689cd94f6882b88808bf6a0937",
   "translation_model_actual": "gpt-6-luna"

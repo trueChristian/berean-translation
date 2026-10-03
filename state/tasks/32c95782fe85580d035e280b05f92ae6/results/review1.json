@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f498e617-f9d7-43fc-b819-11f72975b186",
+    "response_id": "chatcmpl-EUrXuUCGLxNe5nmN0wvBNvXjtXSzo",
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9279,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9906
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Redaktørens merknad, tredje avsnitt",
+        "severity": "major",
+        "source_quote": "All scripture … is profitable for doctrine, for reproof, [and] for correction… –2 Timothy 3:16",
+        "suggested_fix": "Bytt sitatet til en oversettelse som gjengir alle tre leddene: «Hele Skriften … er nyttig til lære, til irettesettelse [og] til opprettelse … – 2. Timoteus 3:16».",
+        "translation_quote": "Hele Skriften … er nyttig til undervisning, til overbevisning, [og] til rettledning… – 2. Timoteus 3:16"
+      },
+      {
+        "location": "Hovedartikkel, første avsnitt",
+        "severity": "minor",
+        "source_quote": "…I will build my church … And I will give unto thee the keys of the kingdom of heaven… –Matthew 16:18-19.",
+        "suggested_fix": "Bruk konvensjonelt norsk boknavn: «… – Matteus 16:18-19.»",
+        "translation_quote": "… – Matteus 16:18-19."
+      },
+      {
+        "location": "Hovedartikkel, sitatet om Eliza Hewitt",
+        "severity": "minor",
+        "source_quote": "“For Christ and the Church let our voices ring.”",
+        "suggested_fix": "Oversett «let our voices ring» mer direkte, for eksempel: «For Kristus og kirken skal våre røster klinge.»",
+        "translation_quote": "«For Kristus og kirken skal våre stemmer lyde.»"
+      },
+      {
+        "location": "Hovedartikkel, første sangstrofe",
+        "severity": "major",
+        "source_quote": "I love Thy Kingdom, Lord, / The house of Thine abode, / The church our blest Redeemer / Saved with His own precious blood.",
+        "suggested_fix": "Gjør sanglinjene tydelige i oversettelsen, og bevar at «house of Thine abode» er Guds bolig: «Jeg elsker ditt rike, Herre, / boligen der du bor, / kirken som vår salige Frelser / frelste med sitt eget dyrebare blod.»",
+        "translation_quote": "Jeg elsker ditt rike, Herre,<br>huset der du bor,<br>kirken som vår salige Frelser<br>frelste med sitt dyrebare blod."
+      },
+      {
+        "location": "Hovedartikkel, siste sangstrofe",
+        "severity": "major",
+        "source_quote": "To her my cares and toils be giv’n, / Till toils and cares shall end.",
+        "suggested_fix": "Bevar at sangeren vier både bekymringer og strev til kirken: «Til henne gir jeg mine bekymringer og mitt strev, / til strev og bekymringer tar slutt.»",
+        "translation_quote": "til henne skal jeg gi min omsorg og møye,<br>til møye og omsorg tar slutt."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

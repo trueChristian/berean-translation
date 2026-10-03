@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"Be Thankful\",\"suggested_fix\":\"היי אסיר תודה\",\"translation_quote\":\"היו אסירי תודה\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 200,
+    "content_evidence_truncated": false,
+    "content_sha256": "80d94c12e9bd7b63fa3ace96d9e8f7b450637953f6761ed32e3623b4d7a82d16",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 573,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2760,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2757,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3333
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "94176ca8-2059-4f1f-a051-ab44105591f2",
+    "response_id": "chatcmpl-EUrVpDdkFhXK2G8ZjcuqxKsH4Ix7Z",
+    "usage": {
+      "completion_tokens": 1131,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 917,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5801,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6935
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Ephesians 2:10, quoted passage",
+        "severity": "major",
+        "source_quote": "“which God hath before ordained that we should walk in them”",
+        "suggested_fix": "Change “wat God voorberei het” to “wat God vooraf voorberei het” so the translation retains the source’s “beforehand” meaning.",
+        "translation_quote": "“goeie werke wat God voorberei het, sodat ons daarin kan wandel”"
+      },
+      {
+        "location": "Paragraph beginning “There were friends in the same church”",
+        "severity": "minor",
+        "source_quote": "“each had a daughter of dating age”",
+        "suggested_fix": "Replace “’n dogter van hubare ouderdom” with “’n dogter wat oud genoeg was om uit te gaan” to convey dating age rather than marriageable age.",
+        "translation_quote": "“elkeen ’n dogter van hubare ouderdom gehad het”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

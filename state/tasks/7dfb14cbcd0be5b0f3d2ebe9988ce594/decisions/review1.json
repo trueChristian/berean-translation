@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "正文，第5段",
+      "severity": "major",
+      "source_quote": "this sordid specimen did not fall on the ground without the notice of the divine Father.",
+      "suggested_fix": "将“这只可怜的鸟落在地上，并没有逃过天父的注意”改为“这只卑微的鸟落在地上，天父也看见了”。",
+      "translation_quote": "这只可怜的鸟落在地上，并没有逃过天父的注意。"
+    },
+    {
+      "location": "正文，第14段（“……后来的人”）",
+      "severity": "major",
+      "source_quote": "And he was deposed of at the earliest opportunity.",
+      "suggested_fix": "将“祂一有机会，就被罢黜”改为“人们一有机会就把祂除掉”。",
+      "translation_quote": "一有机会，祂就被罢黜。"
+    },
+    {
+      "location": "正文，第17段（“……较不重要的人”）",
+      "severity": "major",
+      "source_quote": "we sigh and lament at the vast ignorance and injustice of such prejudice precinct",
+      "suggested_fix": "将“我们叹息并哀悼那些偏见之地的巨大无知与不公”改为“我们为这种偏见盛行之地的严重无知与不公叹息、哀悼”。",
+      "translation_quote": "我们叹息并哀悼那些偏见之地的巨大无知与不公"
+    },
+    {
+      "location": "正文，第20段（“……失丧的人”）",
+      "severity": "major",
+      "source_quote": "Some caring souls venture from the beaten path of common words to help them",
+      "suggested_fix": "将“会离开人们熟悉的话语，踏上不同的道路去帮助他们”改为“会不循常规，采取行动帮助他们”。",
+      "translation_quote": "一些有爱心的人会离开人们熟悉的话语，踏上不同的道路去帮助他们"
+    },
+    {
+      "location": "正文，第21段（“……两个小钱”）",
+      "severity": "major",
+      "source_quote": "The avenues of life that reach out to receive our copper coins are the shrines that hold our hands and our hearts",
+      "suggested_fix": "将“人生中伸手接过我们铜钱的途径，就是抓住我们双手和心灵的神龛”改为“我们把铜钱投向哪些生活途径，就会让那些事物成为攫住我们双手和心灵的神龛”。",
+      "translation_quote": "人生中伸手接过我们铜钱的途径，就是抓住我们双手和心灵的神龛"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

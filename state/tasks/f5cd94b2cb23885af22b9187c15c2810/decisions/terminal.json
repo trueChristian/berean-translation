@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "시, 두 번째 연 첫 두 행",
+      "severity": "minor",
+      "source_quote": "I’m a little bit shallow, I admit, / For I’m focusing on me quite a bit.",
+      "suggested_fix": "자기중심적인 면이 조금 있음을 인정하네, / 나 자신에게 꽤 마음을 쏟고 있네.",
+      "translation_quote": "인정하건대 나는 조금 속이 좁아, / 나 자신에게 꽤 마음을 쏟고 있네."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

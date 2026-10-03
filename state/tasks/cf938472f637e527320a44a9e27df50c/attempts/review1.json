@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة الخامسة\",\"severity\":\"minor\",\"source_quote\":\"Her older sister made two welcome-home signs for inside the house and her older brother made one for out by the driveway.\",\"suggested_fix\":\"استبدل «عند مدخل الممر المؤدي إلى المنزل» بـ «قرب مدخل السيارات» أو «عند الممر المؤدي إلى المنزل»؛ فالنص يحدد مكان اللافتة خارج المنزل بجانب ممر السيارات، لا عند مدخل ممر للمشاة.\",\"translation_quote\":\"وصنعت أختها الكبرى لافتتين ترحبان بعودة أمها، لتعليقهما داخل المنزل، بينما صنع أخوها الأكبر لافتة واحدة لوضعها عند مدخل الممر المؤدي إلى المنزل.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 872,
+    "content_evidence_truncated": false,
+    "content_sha256": "c36956cce8ebb6cbb0852b698ee1f1e305cb39dda5a0e3f66d73d986c0aa82c0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 178,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2702,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2699,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2880
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d9b2b9e9-8424-4334-981d-722f21d43efe",
+    "response_id": "chatcmpl-EUrVpN3OFRqQYvb6yvFxbyFIxWdqH",
+    "usage": {
+      "completion_tokens": 738,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 598,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2011,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2752
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, third stanza",
+        "severity": "minor",
+        "source_quote": "About my life / are many others, / A husband, a daughter, / and some brothers.",
+        "suggested_fix": "Replace the first two lines with «Nella mia vita ci sono molte altre persone:» to make clear that the following examples are people in the speaker’s life, not other pots.",
+        "translation_quote": "Intorno alla mia vita / ce ne sono molte altre: / un marito, una figlia / e alcuni fratelli."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

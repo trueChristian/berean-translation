@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final stanza, last line",
+      "severity": "minor",
+      "source_quote": "With confidence in God, His power to display.",
+      "suggested_fix": "med <strong><em>tillit</em></strong> til Gud, så hans kraft kan komme til syne.",
+      "translation_quote": "med <strong><em>tillit</em></strong> til Gud, som viser hans kraft."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

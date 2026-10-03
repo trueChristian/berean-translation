@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "da55834e-a09f-4b89-96bc-21c2b41f2377",
+    "response_id": "chatcmpl-EUrVoujHr8t54nUGW5k0cDMArK8qM",
+    "usage": {
+      "completion_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 621,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2075,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2072,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2973
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, second stanza, first line",
+        "severity": "major",
+        "source_quote": "I’m a little bit shallow, I admit,",
+        "suggested_fix": "Replace «کچھ تنگ نظر ہوں میں» with «مانتی ہوں، کچھ سطحی ہوں» to convey “shallow” in the context of self-focus without changing it to “narrow-minded.”",
+        "translation_quote": "مانتی ہوں، کچھ تنگ نظر ہوں میں،"
+      },
+      {
+        "location": "HTML poem, first stanza, second line",
+        "severity": "minor",
+        "source_quote": "What kind of vessel will I be:",
+        "suggested_fix": "Use the feminine form «میں کیسا برتن بنوں گی:» for consistency with the speaker’s feminine «مانتی ہوں» later in the poem.",
+        "translation_quote": "میں کیسا برتن بنوں گا:"
+      },
+      {
+        "location": "HTML poem, first stanza, first line; fourth stanza, first line; fifth stanza, third line",
+        "severity": "minor",
+        "source_quote": "God the Potter is molding me.",
+        "suggested_fix": "Correct «کمھار» to the standard Urdu spelling «کمہار» in these lines.",
+        "translation_quote": "خدا کمھار مجھے ڈھال رہا ہے۔"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

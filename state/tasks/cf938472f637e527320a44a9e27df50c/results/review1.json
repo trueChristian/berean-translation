@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2ce78728-f392-41c2-93aa-ee4413e1faaa",
+    "response_id": "chatcmpl-EUrWCCv2Lhfk6jNzo1KIFE4GwTGSH",
+    "usage": {
+      "completion_tokens": 178,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2702,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2699,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2880
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الخامسة",
+        "severity": "minor",
+        "source_quote": "Her older sister made two welcome-home signs for inside the house and her older brother made one for out by the driveway.",
+        "suggested_fix": "استبدل «عند مدخل الممر المؤدي إلى المنزل» بـ «قرب مدخل السيارات» أو «عند الممر المؤدي إلى المنزل»؛ فالنص يحدد مكان اللافتة خارج المنزل بجانب ممر السيارات، لا عند مدخل ممر للمشاة.",
+        "translation_quote": "وصنعت أختها الكبرى لافتتين ترحبان بعودة أمها، لتعليقهما داخل المنزل، بينما صنع أخوها الأكبر لافتة واحدة لوضعها عند مدخل الممر المؤدي إلى المنزل."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

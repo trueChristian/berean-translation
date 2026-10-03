@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, second stanza, final line",
+      "severity": "major",
+      "source_quote": "Her hymns of love and praise.",
+      "suggested_fix": "Erstatt «hennes lovsanger om kjærlighet og pris» med «hennes lovsanger om kjærlighet og lovprisning».",
+      "translation_quote": "hennes lovsanger om kjærlighet og pris."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

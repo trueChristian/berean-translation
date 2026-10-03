@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, second stanza",
+      "severity": "major",
+      "source_quote": "But our own understanding, we lean on instead?",
+      "suggested_fix": "Pero ¿no nos apoyamos, en cambio, en nuestro propio entendimiento?",
+      "translation_quote": "Pero ¿no nos apoyamos en nuestra propia cordura?"
+    },
+    {
+      "location": "HTML, poem, fifth stanza",
+      "severity": "minor",
+      "source_quote": "He stands and knocks; will you open the door?",
+      "suggested_fix": "Está de pie y llama a la puerta: ¿abrirás?",
+      "translation_quote": "Está de pie y llama: ¿abrirás la puerta?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

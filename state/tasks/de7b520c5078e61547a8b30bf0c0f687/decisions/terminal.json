@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Second lyrics stanza, third line",
+      "severity": "minor",
+      "source_quote": "To her my cares and toils be giv’n,",
+      "suggested_fix": "Correggere l’accordo: «a lei siano consacrate le mie cure e le mie fatiche,»",
+      "translation_quote": "a lei siano consacrati le mie cure e le mie fatiche,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

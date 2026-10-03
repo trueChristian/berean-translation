@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, final body paragraph",
+      "severity": "major",
+      "source_quote": "We are indeed fearfully and wonderfully made.",
+      "suggested_fix": "החליפו את «אכן נוראים ונפלאים אנחנו» ב«אכן נבראנו באופן מופלא ומעורר יראה».",
+      "translation_quote": "אכן נוראים ונפלאים אנחנו."
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "A Word from a Doctor",
+      "suggested_fix": "החליפו את «דברו של רופא» ב«דברי רופא».",
+      "translation_quote": "דברו של רופא"
+    },
+    {
+      "location": "source.html, final body paragraph",
+      "severity": "minor",
+      "source_quote": "with the Gospel message",
+      "suggested_fix": "החליפו את «עם בשורת הבשורה» ב«עם בשורת הבשורה»? כדי למנוע את הכפילות, השתמשו ב«כדי להפיץ את הבשורה בעולם שסביבנו».",
+      "translation_quote": "עם בשורת הבשורה"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

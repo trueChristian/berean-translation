@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2e2b4eb1-795f-493c-8e25-39a255673424",
+    "response_id": "chatcmpl-EUrWD2ZwDf8zPnlkv0wi9Eqx2qshe",
+    "usage": {
+      "completion_tokens": 258,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2009,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2006,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2267
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Gedicht, Strophe 1",
+        "severity": "minor",
+        "source_quote": "God the Potter is molding me.",
+        "suggested_fix": "„Gott, der Töpfer, formt mich.“",
+        "translation_quote": "Gott, der Töpfer, formt mich neu."
+      },
+      {
+        "location": "Gedicht, Strophe 3",
+        "severity": "minor",
+        "source_quote": "A husband, a daughter, and some brothers.",
+        "suggested_fix": "„einen Ehemann, eine Tochter und einige Brüder.“",
+        "translation_quote": "einen Mann, eine Tochter und ein paar Brüder."
+      },
+      {
+        "location": "Gedicht, Strophe 5",
+        "severity": "major",
+        "source_quote": "Until His likeness, again does show.",
+        "suggested_fix": "„bis sein Ebenbild wieder sichtbar wird.“",
+        "translation_quote": "bis wieder sein Ebenbild sichtbar wird."
+      },
+      {
+        "location": "Gedicht, Strophe 6",
+        "severity": "minor",
+        "source_quote": "Lest other’s pots become concave.",
+        "suggested_fix": "„damit die Töpfe anderer nicht nach innen eingedellt werden.“",
+        "translation_quote": "damit die Töpfe anderer nicht eingedrückt werden."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

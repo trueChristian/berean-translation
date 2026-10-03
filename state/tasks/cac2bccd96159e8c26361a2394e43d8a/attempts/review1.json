@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 7\",\"severity\":\"major\",\"source_quote\":\"Because her mom had been gone so long, Jennika learned to be more thankful for her mom.\",\"suggested_fix\":\"Vervang ‘leerde Jennika haar moeder meer dankbaar te zijn’ door ‘leerde Jennika dankbaarder voor haar moeder te zijn’.\",\"translation_quote\":\"Omdat haar moeder zo lang weg was geweest, leerde Jennika haar moeder meer dankbaar te zijn.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 457,
+    "content_evidence_truncated": false,
+    "content_sha256": "8d973eeedb9ad63fd19020612e5cb2904e69ce3196d2293364769c4e194a90c3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 449,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2592,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3167
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

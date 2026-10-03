@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening Scripture quotation (Matthew 10:29)\",\"severity\":\"major\",\"source_quote\":\"and one of them shall not fall on the ground without your Father\",\"suggested_fix\":\"Replace «اور ان میں سے ایک بھی تمہارے باپ کے بغیر زمین پر نہیں گرتی» with «اور ان میں سے ایک بھی تمہارے باپ کے علم میں آئے بغیر زمین پر نہیں گرتی» to convey that the Father is aware of the sparrow’s fall.\",\"translation_quote\":\"اور ان میں سے ایک بھی تمہارے باپ کے بغیر زمین پر نہیں گرتی۔\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 656,
+    "content_evidence_truncated": false,
+    "content_sha256": "3fb8ead837d651701d364a1ebf7e622e2bd51e6e8b87643f24a4546c296c65c6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 926,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 769,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9466,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9463,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10392
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

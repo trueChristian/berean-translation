@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, fifth stanza, third line",
+      "severity": "minor",
+      "source_quote": "He’s waiting for the church to trust Him once more.",
+      "suggested_fix": "वह फिर से कलीसिया द्वारा उस पर भरोसा किए जाने की प्रतीक्षा कर रहा है।",
+      "translation_quote": "वह फिर से कलीसिया के उसके भरोसा करने की बाट जोह रहा है।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

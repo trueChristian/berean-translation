@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 9591
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1036,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 666,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9414,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9411,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10450
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "पहला अनुच्छेद, मत्ती 10:29 का उद्धरण",
+      "severity": "major",
+      "source_quote": "one of them shall not fall on the ground without your Father",
+      "suggested_fix": "“और उनमें से एक भी तुम्हारे पिता के बिना भूमि पर नहीं गिरती”—अर्थात् पिता की जानकारी/देखरेख से बाहर नहीं।",
+      "translation_quote": "और उनमें से एक भी तुम्हारे पिता की अनुमति के बिना भूमि पर नहीं गिरती"
+    },
+    {
+      "location": "“...बाद में आने वाले जन” खंड, प्रेरितों के काम 17:21 का उद्धरण और आसपास का वाक्य",
+      "severity": "major",
+      "source_quote": "Many will avidly spend their time in nothing else, … but either to tell, or to hear [or to purchase] some new thing.",
+      "suggested_fix": "अर्थ को इस तरह ठीक करें कि वे लोग उत्सुकता से अपना समय और किसी काम में नहीं, बल्कि केवल कुछ नई बात कहने, सुनने [या खरीदने] में लगाते हैं।",
+      "translation_quote": "बहुत से लोग अपना समय और किसी चीज़ में लगाने को उत्सुक होंगे ही नहीं, … परन्तु कुछ नई बात कहने, या सुनने [या खरीदने] में।"
+    },
+    {
+      "location": "“...बाद में आने वाले जन” खंड, यशायाह 53:3 के उद्धरण के बाद",
+      "severity": "major",
+      "source_quote": "and He was deposed of at the earliest opportunity.",
+      "suggested_fix": "“और पहले ही अवसर पर उसे ठिकाने लगा दिया गया।”",
+      "translation_quote": "और पहले अवसर पर ही उसे पद से हटा दिया गया।"
+    }
+  ],
   "id": "60ec305cbbac19543863b519392e5485",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "hin",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

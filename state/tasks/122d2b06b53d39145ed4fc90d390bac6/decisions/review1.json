@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article opening, Matthew 10:29 quotation",
+      "severity": "major",
+      "source_quote": "“and one of them shall not fall on the ground without your Father”",
+      "suggested_fix": "Change «uten at deres Far vet det» to «uten at deres Far vil det» to avoid adding an assertion about the Father’s knowledge that is not stated in the printed source.",
+      "translation_quote": "«Og ikke én av dem faller til jorden uten at deres Far vet det»"
+    },
+    {
+      "location": "Paragraph beginning «Det er ikke bare små barn som blir foraktet»",
+      "severity": "minor",
+      "source_quote": "“all the noisy sacks of silver that resonated down the chute”",
+      "suggested_fix": "Replace «alle de støyende søkkene med sølv» with «alle sølvsekkene som klirret ned gjennom åpningen».",
+      "translation_quote": "«alle de støyende søkkene med sølv som klirret ned gjennom åpningen»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

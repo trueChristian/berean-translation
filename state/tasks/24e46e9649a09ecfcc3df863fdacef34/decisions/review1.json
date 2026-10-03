@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza 3, line 7",
+      "severity": "minor",
+      "source_quote": "The brightest glories earth can yield,",
+      "suggested_fix": "Replace the line with «Величайшая слава, какую может дать земля,» to preserve the source’s image of earthly glory rather than recasting it as benefits.",
+      "translation_quote": "Величайшие блага, какие может дать земля,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 1",
+      "severity": "minor",
+      "source_quote": "waiting for her mom to fill her plate",
+      "suggested_fix": "Replace «اپنی امی کے پلیٹ میں کھانا ڈالنے کا انتظار» with «اپنی پلیٹ میں کھانا ڈالنے کے لیے اپنی امی کا انتظار» so the plate belongs to Jennika, as in the source.",
+      "translation_quote": "اپنی امی کے پلیٹ میں کھانا ڈالنے کا انتظار"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

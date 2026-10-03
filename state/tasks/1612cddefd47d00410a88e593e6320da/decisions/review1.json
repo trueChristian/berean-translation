@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, Isaiah 61:1–3 quotation",
+      "severity": "major",
+      "source_quote": "to proclaim liberty to the captives, and the opening of the prison to them that are bound",
+      "suggested_fix": "Replace ״לקרוא לשבויים דרור ולאסורים פקיחת עיניים״ with ״לקרוא לשבויים דרור ולפתוח את הכלא לאסורים״.",
+      "translation_quote": "לקרוא לשבויים דרור ולאסורים פקיחת עיניים"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "601e0752-ef02-44cc-afeb-ea55847dc5f0",
+    "response_id": "chatcmpl-EUrW3LjDLfAr8ZI5pEgOuVD4Berd8",
+    "usage": {
+      "completion_tokens": 808,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 700,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1764,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2575
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, second stanza, final line",
+        "severity": "major",
+        "source_quote": "Her hymns of love and praise.",
+        "suggested_fix": "Erstatt «hennes lovsanger om kjærlighet og pris» med «hennes lovsanger om kjærlighet og lovprisning».",
+        "translation_quote": "hennes lovsanger om kjærlighet og pris."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

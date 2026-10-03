@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Lyrics, first stanza",
+      "severity": "major",
+      "source_quote": "The church our blest Redeemer / Saved with His own precious blood.",
+      "suggested_fix": "Die Gemeinde, die unser seliger Erlöser / mit seinem kostbaren Blut gerettet hat.",
+      "translation_quote": "die Gemeinde, die unser seliger Erlöser / mit seinem kostbaren Blut erkauft hat."
+    },
+    {
+      "location": "Editor’s Note, paragraph 5",
+      "severity": "minor",
+      "source_quote": "This manner of being an alone “local” Christian",
+      "suggested_fix": "Diese Art, ein isolierter „örtlicher“ Christ zu sein",
+      "translation_quote": "Diese Art, ein alleinstehender „örtlicher“ Christ zu sein"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

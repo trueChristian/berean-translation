@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "93a3f2a5-6c3e-4065-8a40-ea5b8a2acadf",
+    "response_id": "chatcmpl-EUrZjn6OkGgVNWT5zKkPIUAFYFCU6",
+    "usage": {
+      "completion_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 452,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2031,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2592
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem paragraph 5, line 3",
+        "severity": "major",
+        "source_quote": "He’s waiting for the church to trust Him once more.",
+        "suggested_fix": "Εκείνος περιμένει η εκκλησία να Τον εμπιστευτεί ξανά.",
+        "translation_quote": "Περιμένει η εκκλησία να Τον εμπιστευτεί ξανά."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

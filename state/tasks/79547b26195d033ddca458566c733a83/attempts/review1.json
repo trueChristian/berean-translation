@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, sömnavsnitt, andra stycket\",\"severity\":\"major\",\"source_quote\":\"If you are waking up feeling unrested, it is important to figure out why.\",\"suggested_fix\":\"Ändra till: ”Om du vaknar och känner dig outvilad är det viktigt att ta reda på varför.”\",\"translation_quote\":\"Om du vaknar och känner dig utvilad är det viktigt att ta reda på varför.\"},{\"location\":\"HTML, avsnittet ”Motionera regelbundet”, första stycket\",\"severity\":\"major\",\"source_quote\":\"…rushing out to run three miles…\",\"suggested_fix\":\"Ändra ”fem kilometer” till ”knappt fem kilometer” eller ”cirka 4,8 kilometer” för att återge tre miles.\",\"translation_quote\":\"…rusa ut och springa fem kilometer…\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 763,
+    "content_evidence_truncated": false,
+    "content_sha256": "369d3c1f21e7ce51affb0d63fe729a83fb635f31186a750faf7d0e3f1a428073",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9687,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9684,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9884
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

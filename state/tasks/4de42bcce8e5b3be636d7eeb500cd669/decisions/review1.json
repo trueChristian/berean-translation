@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Throughout the article, including the opening quotation, the market-price paragraphs, the headings “...Two farthings,” and the final comparison",
+      "severity": "major",
+      "source_quote": "“two sparrows sold for a farthing”; “One copper farthing would purchase two sparrows”; “...Two farthings”",
+      "suggested_fix": "Replace “Groschen” with a German rendering of the source denomination, such as “Farthing” or “Viertelpenny,” throughout. For example, render the heading “...Zwei Groschen” as “...Zwei Farthings” or “...Zwei Viertelpennys.”",
+      "translation_quote": "“zwei Sperlinge für einen Groschen verkauft”; “Für einen Kupfergroschen konnte man zwei Sperlinge kaufen”; “...Zwei Groschen”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

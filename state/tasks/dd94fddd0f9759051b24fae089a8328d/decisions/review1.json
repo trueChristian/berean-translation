@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, lyrics, verse 3",
+      "severity": "minor",
+      "source_quote": "Thy hand from ev’ry snare and foe / Shall great deliverance bring.",
+      "suggested_fix": "Replace the two lines with: “U hand sal groot verlossing bring / van elke strik en vyand.” This more clearly preserves that deliverance is brought from every snare and foe.",
+      "translation_quote": "U hand sal uit elke strik en vyand / groot verlossing bring."
+    },
+    {
+      "location": "HTML, lyrics, verse 2",
+      "severity": "minor",
+      "source_quote": "Her hymns of love and praise.",
+      "suggested_fix": "Consider “haar liedere van liefde en lofprysing” for a more natural rendering of “hymns of love and praise.”",
+      "translation_quote": "haar lofsange van liefde en lof."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

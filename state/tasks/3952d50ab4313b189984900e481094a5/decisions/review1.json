@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « Ce soir-là, Jennika se blottit… »",
+      "severity": "minor",
+      "source_quote": "“I’m glad you’re home,” she whispered. “I like it when you’re home.”",
+      "suggested_fix": "Remplacer la phrase par : « Je suis contente que tu sois rentrée », murmura-t-elle. « J’aime quand tu es à la maison. »",
+      "translation_quote": "« Je suis contente que tu sois rentrée, murmura-t-elle. J’aime quand tu es à la maison. »"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bdc50f46-1809-4c98-bdb9-b68b40c387e8",
+    "response_id": "chatcmpl-EUrWyUZhEQmB3dO4MdUaWDcr9YUVl",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 508,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2733,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2730,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3340
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second image description (alt text)",
+        "severity": "minor",
+        "source_quote": "A medical helicopter outside a hospital",
+        "suggested_fix": "Replace “Un elicottero medico fuori da un ospedale” with “Un elicottero sanitario fuori da un ospedale”.",
+        "translation_quote": "Un elicottero medico fuori da un ospedale"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

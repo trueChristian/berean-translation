@@ -1,0 +1,100 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4439acbc-c980-43d0-8671-4bd4d2e18b1a",
+    "response_id": "chatcmpl-EUrWMr8rrJaD5Uro3qM826Z7SyniP",
+    "usage": {
+      "completion_tokens": 1239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8088,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8085,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9327
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragrafo 1",
+        "severity": "major",
+        "source_quote": "“...confidently described what they should do with this new land of Canaan: …Let us go up at once, and possess it; for we are well able to overcome it –Numbers 13:30.”",
+        "suggested_fix": "Correggere in: «…Saliamo subito e prendiamone possesso, perché siamo ben in grado di conquistarla –Numeri 13:30.»",
+        "translation_quote": "«…Saliamo subito e conquistiamola, perché siamo ben in grado di superarla –Numeri 13:30.»"
+      },
+      {
+        "location": "Paragrafo 5",
+        "severity": "major",
+        "source_quote": "“The deacon, Stephen, showed great confidence when he was brought before his oppressors, even when they began to gnash their teeth at him, and stone him.”",
+        "suggested_fix": "Sostituire «a lapidarlo» con «a scagliargli pietre» o «a lapidarlo» non è un errore; correggere invece la sequenza resa ambigua: «…anche quando questi cominciarono a digrignare i denti contro di lui e a lapidarlo» è fedele. Nessuna modifica necessaria.",
+        "translation_quote": "«…anche quando questi cominciarono a digrignare i denti contro di lui e a lapidarlo.»"
+      },
+      {
+        "location": "Paragrafo 6",
+        "severity": "major",
+        "source_quote": "“...straightway he preached Christ in the synagogues, that he is the Son of God –Acts 9:20.”",
+        "suggested_fix": "Sostituire «Gesù» con «Cristo» nella citazione: «…subito si mise a predicare Cristo nelle sinagoghe, dicendo che egli è il Figlio di Dio –Atti 9:20.»",
+        "translation_quote": "«…subito si mise a predicare nelle sinagoghe che Gesù è il Figlio di Dio –Atti 9:20.»"
+      },
+      {
+        "location": "Paragrafo 8",
+        "severity": "major",
+        "source_quote": "“...they were killed all the day long… –Psalm 44:22.”",
+        "suggested_fix": "Rendere l’immagine della citazione senza cambiarne il senso: «…siamo messi a morte tutto il giorno… –Salmo 44:22.»",
+        "translation_quote": "«…uccise tutto il giorno… –Salmo 44:22.»"
+      },
+      {
+        "location": "Paragrafo 9",
+        "severity": "major",
+        "source_quote": "“...but it did not faze stop them.”",
+        "suggested_fix": "Il testo inglese contiene una formulazione evidentemente corrotta («faze stop»). Tradurre il senso recuperabile come: «ma ciò non li fermava.»",
+        "translation_quote": "«…ma questo non li fermava.»"
+      },
+      {
+        "location": "Paragrafo 10",
+        "severity": "major",
+        "source_quote": "“...they did not care about the things of this world, and even their very lives were a small thing to give up for their God.”",
+        "suggested_fix": "Rendere «a small thing to give up» come «un piccolo sacrificio da fare» o «poco da sacrificare»: «…e persino sacrificare la propria vita per il loro Dio era poca cosa.»",
+        "translation_quote": "«…e persino la loro stessa vita era un piccolo prezzo da pagare per il loro Dio.»"
+      },
+      {
+        "location": "Paragrafo 19",
+        "severity": "major",
+        "source_quote": "“...if they laid down their lives fully, if they surrendered all...”",
+        "suggested_fix": "Sostituire «avessero deposto interamente la propria vita» con «avessero sacrificato pienamente la propria vita»; per esempio: «E che, se avessero sacrificato pienamente la propria vita, se si fossero arresi completamente…»",
+        "translation_quote": "«E che, se avessero deposto interamente la propria vita, se si fossero arresi completamente…»"
+      },
+      {
+        "location": "Paragrafo 22",
+        "severity": "major",
+        "source_quote": "“...have we chosen the easy (broad) way and denied the straight and narrow?”",
+        "suggested_fix": "Correggere «rinnegato quella stretta e angusta» in «rinnegato la via stretta e angusta», mantenendo il contrasto tra via larga e via stretta: «…abbiamo scelto la via facile (larga) e rinnegato la via stretta e angusta?»",
+        "translation_quote": "«…abbiamo scelto la via facile (larga) e rinnegato quella stretta e angusta?»"
+      },
+      {
+        "location": "Paragrafo 25",
+        "severity": "major",
+        "source_quote": "“...a church that is nothing less than completely confident in their GOD?”",
+        "suggested_fix": "Usare un aggettivo riferito alla fiducia riposta in Dio, non alla sicurezza personale: «…una chiesa che ripone una fiducia assoluta nel suo DIO?»",
+        "translation_quote": "«…una chiesa che non è niente meno che completamente fiduciosa nel suo DIO?»"
+      },
+      {
+        "location": "Paragrafo 26, citazione di Isaia 61:1-3",
+        "severity": "major",
+        "source_quote": "“...to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness...”",
+        "suggested_fix": "Correggere «un diadema invece della cenere» in «un ornamento invece della cenere», che conserva l’immagine stampata («beauty»): «…per dare a quelli che fanno cordoglio in Sion un ornamento invece della cenere…»",
+        "translation_quote": "«…per dare a quelli che fanno cordoglio in Sion un diadema invece della cenere…»"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

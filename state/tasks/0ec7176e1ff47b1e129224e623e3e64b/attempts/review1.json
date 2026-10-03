@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraphs beginning “Does the Christian life…” and “When we look at the account in the garden…”; also the paragraphs about fleshly comforts and surrendering the flesh\",\"severity\":\"major\",\"source_quote\":\"“One of the ways he does this is by enticing our flesh.” / “He laid down His flesh” / “fulfill our fleshly comforts” / “surrender our flesh”\",\"suggested_fix\":\"In these contexts, translate “flesh” as the sinful or self-directed nature, rather than simply the physical body. For example, revise “kwa kushawishi miili yetu” to “kwa kushawishi asili yetu ya dhambi,” “Aliutiisha mwili wake” to “Aliishinda asili yake ya kibinadamu,” and “matamanio ya miili yetu ya kustarehe” to “tamaa zetu za kujifurahisha.” Use a contextually suitable equivalent in the later reference to surrendering the flesh.\",\"translation_quote\":\"“kwa kushawishi miili yetu” / “Aliutiisha mwili wake” / “matamanio ya miili yetu ya kustarehe” / “kuutiisha mwili wetu”\"},{\"location\":\"Section metadata\",\"severity\":\"minor\",\"source_quote\":\"“Inspirations for Youth”\",\"suggested_fix\":\"Use a Kiswahili rendering that preserves the sense of inspiration, such as “Mahamasiho kwa Vijana” or “Misukumo kwa Vijana,” rather than changing the section to teachings.\",\"translation_quote\":\"“Mafundisho kwa Vijana”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1427,
+    "content_evidence_truncated": false,
+    "content_sha256": "15e5d816028c6f1038c9a143f2c5eeaad5da11eaa50c0138440fe4982c9c25c0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 606,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7739,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7736,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8702
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

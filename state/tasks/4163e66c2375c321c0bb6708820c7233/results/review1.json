@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "64fe8d5f-1dc0-41a5-aa66-c1dbc5b777fb",
+    "response_id": "chatcmpl-EUrWn2UlgTlZ24cppUfgyZmdnPTF6",
+    "usage": {
+      "completion_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1971,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1968,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2534
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, fifth stanza, third line",
+        "severity": "minor",
+        "source_quote": "He’s waiting for the church to trust Him once more.",
+        "suggested_fix": "वह फिर से कलीसिया द्वारा उस पर भरोसा किए जाने की प्रतीक्षा कर रहा है।",
+        "translation_quote": "वह फिर से कलीसिया के उसके भरोसा करने की बाट जोह रहा है।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

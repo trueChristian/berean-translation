@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second paragraph",
+      "severity": "major",
+      "source_quote": "“100 trillion bacteria”",
+      "suggested_fix": "Substitua “100 trilhões” por “100 mil milhões” para preservar o valor de 10¹⁴ em português internacional.",
+      "translation_quote": "“100 trilhões de bactérias”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

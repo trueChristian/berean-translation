@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b0ca0c21-a46c-4787-88c4-5e7aaa274f2d",
+    "response_id": "chatcmpl-EUrVpBB8NsN4cyrmGwa3APY9sYTzp",
+    "usage": {
+      "completion_tokens": 906,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 630,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5600,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5597,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6506
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body; “Zähle deine eigenen Segnungen” section, 2. Korinther 10:12 quotation",
+        "severity": "major",
+        "source_quote": "“…but they measuring themselves by themselves, and comparing themselves among themselves, are not wise”",
+        "suggested_fix": "Replace “damit beweisen sie, dass sie töricht sind” with “sind nicht weise”, for example: “... sie messen sich an sich selbst und vergleichen sich mit sich selbst; sie sind nicht weise –2. Korinther 10:12.”",
+        "translation_quote": "“… sie messen sich an sich selbst und vergleichen sich mit sich selbst; damit beweisen sie, dass sie töricht sind –2. Korinther 10:12.”"
+      },
+      {
+        "location": "Article body; “Zähle deine eigenen Segnungen” section, anecdote about the two daughters",
+        "severity": "minor",
+        "source_quote": "“each had a daughter of dating age”",
+        "suggested_fix": "Use “eine Tochter im Alter, in dem man anfängt, sich zu verabreden” or a similarly clear rendering of dating age.",
+        "translation_quote": "“die beide eine Tochter im heiratsfähigen Alter hatten”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

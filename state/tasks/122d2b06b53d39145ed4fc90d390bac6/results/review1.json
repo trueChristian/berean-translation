@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3a94481f-bc15-4cad-89d2-4cdb0a95f606",
+    "response_id": "chatcmpl-EUrVoACZQnhMilL08VfzhpiOLbrQ5",
+    "usage": {
+      "completion_tokens": 1213,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 981,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8870,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10086
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article opening, Matthew 10:29 quotation",
+        "severity": "major",
+        "source_quote": "“and one of them shall not fall on the ground without your Father”",
+        "suggested_fix": "Change «uten at deres Far vet det» to «uten at deres Far vil det» to avoid adding an assertion about the Father’s knowledge that is not stated in the printed source.",
+        "translation_quote": "«Og ikke én av dem faller til jorden uten at deres Far vet det»"
+      },
+      {
+        "location": "Paragraph beginning «Det er ikke bare små barn som blir foraktet»",
+        "severity": "minor",
+        "source_quote": "“all the noisy sacks of silver that resonated down the chute”",
+        "suggested_fix": "Replace «alle de støyende søkkene med sølv» with «alle sølvsekkene som klirret ned gjennom åpningen».",
+        "translation_quote": "«alle de støyende søkkene med sølv som klirret ned gjennom åpningen»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

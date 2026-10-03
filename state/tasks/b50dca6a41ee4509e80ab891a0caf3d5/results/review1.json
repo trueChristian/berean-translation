@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0ab42884-c2ce-4707-be9e-5346e57c239a",
+    "response_id": "chatcmpl-EUrVpwDTI3Dd4WhfWaiwo4vYp89i7",
+    "usage": {
+      "completion_tokens": 210,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9289,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9286,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9499
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, ejercicio con regularidad, primer párrafo",
+        "severity": "major",
+        "source_quote": "“rushing out to run three miles”",
+        "suggested_fix": "Sustituir «cinco kilómetros» por «tres millas» para conservar la distancia indicada por el autor.",
+        "translation_quote": "«salir corriendo a hacer cinco kilómetros»"
+      },
+      {
+        "location": "HTML, suplementos específicos, párrafo sobre el zinc",
+        "severity": "major",
+        "source_quote": "“Zinc has been shown (short term) to reduce duration of colds.”",
+        "suggested_fix": "Ajustar la frase para conservar que se ha demostrado que el zinc reduce la duración de los resfriados a corto plazo, por ejemplo: «Se ha demostrado que el zinc reduce la duración de los resfriados a corto plazo».",
+        "translation_quote": "«Se ha demostrado que el zinc reduce (a corto plazo) la duración de los resfriados.»"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

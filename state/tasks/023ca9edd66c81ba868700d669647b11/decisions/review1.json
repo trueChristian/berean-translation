@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, puisi paragraf 5, baris 1",
+      "severity": "major",
+      "source_quote": "Into another pot I smack,",
+      "suggested_fix": "Hapus tambahan “Tanpa sengaja” agar barisnya berbunyi “Kutabrak pot lain,”; sumber menyatakan benturan, tetapi tidak menyebut bahwa benturan itu tidak disengaja.",
+      "translation_quote": "Tanpa sengaja kutabrak pot lain,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

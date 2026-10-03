@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Strophe 1, lignes 3–4",
+      "severity": "major",
+      "source_quote": "The church our blest Redeemer saved / With His own precious blood.",
+      "suggested_fix": "Remplacer par « L’Église que notre bienheureux Rédempteur a sauvée / Par le sang précieux du Rédempteur lui-même. » afin d’attribuer clairement le sang au Rédempteur.",
+      "translation_quote": "L’Église que notre bienheureux Rédempteur a sauvée / De son propre sang précieux."
+    },
+    {
+      "location": "Strophe 2, ligne 3",
+      "severity": "minor",
+      "source_quote": "To her my cares and toils be giv’n,",
+      "suggested_fix": "Remplacer « mes soucis et mes peines » par « mes soucis et mes labeurs » pour rendre l’idée du travail consacré à l’Église.",
+      "translation_quote": "À elle, je consacrerai mes soucis et mes peines,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

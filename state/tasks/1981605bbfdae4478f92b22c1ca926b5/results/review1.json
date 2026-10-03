@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0c0d367d-6b05-42c8-9dca-f50949b04b1a",
+    "response_id": "chatcmpl-EUrcBiSBgqjrWCkzuH5UXiNwkRtF5",
+    "usage": {
+      "completion_tokens": 854,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 724,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9673,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10530
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, Isaiah 61:1 quote",
+        "severity": "major",
+        "source_quote": "to preach good tidings unto the meek",
+        "suggested_fix": "Replace «να ευαγγελίζομαι στους φτωχούς» with «να ευαγγελίζομαι στους πράους» (or another contemporary Greek equivalent of “the meek”), preserving the existing tags and structure.",
+        "translation_quote": "να ευαγγελίζομαι στους φτωχούς"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

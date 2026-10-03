@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, tweede hoofdtekstparagraaf\",\"severity\":\"minor\",\"source_quote\":\"Throughout the Gospels, the kingdom was the unifying theme of His teaching.\",\"suggested_fix\":\"Vervang ‘In de hele Evangeliën’ door ‘In alle Evangeliën’.\",\"translation_quote\":\"In de hele Evangeliën vormde het koninkrijk het verbindende thema van Zijn onderwijs.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 402,
+    "content_evidence_truncated": false,
+    "content_sha256": "756a55dc0446eaa778e0031439e6a837ab3815dac053417f7227edefdb481d97",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 718,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9097,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9094,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9815
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, second paragraph\",\"severity\":\"major\",\"source_quote\":\"“100 trillion bacteria”\",\"suggested_fix\":\"Substitua “100 trilhões” por “100 mil milhões” para preservar o valor de 10¹⁴ em português internacional.\",\"translation_quote\":\"“100 trilhões de bactérias”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 336,
+    "content_evidence_truncated": false,
+    "content_sha256": "f3f0c9cd4f5957d22449904fb0d856302abc0c2da3304d0ac8ca14e0bd8272dd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 460,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9264,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9817
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Lirik, bait kedua",
+      "severity": "minor",
+      "source_quote": "To her my cares and toils be giv’n,",
+      "suggested_fix": "Kepadanya kuserahkan segala kepedulian dan jerih payahku,",
+      "translation_quote": "Kepadanya kuserahkan perhatian dan jerih payahku,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

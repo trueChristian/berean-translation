@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 7852
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 976,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 670,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7662,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7659,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8638
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, primer párrafo; cita de Números 13:30",
+      "severity": "major",
+      "source_quote": "for we are well able to overcome it",
+      "suggested_fix": "Sustituir «porque más podremos nosotros que ellos» por «porque podemos vencerlos» o una formulación equivalente que conserve que el pueblo es capaz de vencerlos.",
+      "translation_quote": "porque más podremos nosotros que ellos"
+    },
+    {
+      "location": "HTML, último párrafo; cita de Isaías 61:1-3",
+      "severity": "major",
+      "source_quote": "to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness",
+      "suggested_fix": "En esa cita, traducir fielmente las imágenes como «darles belleza en lugar de ceniza, aceite de alegría en lugar de luto, manto de alabanza en lugar de espíritu abatido».",
+      "translation_quote": "para darles gloria en lugar de ceniza, óleo de gozo en lugar del luto, manto de alegría en lugar del espíritu angustiado"
+    },
+    {
+      "location": "HTML, párrafo con la promesa de Hechos 1:8",
+      "severity": "minor",
+      "source_quote": "in Jerusalem",
+      "suggested_fix": "Cambiar «Jerusalem» por «Jerusalén», la forma convencional en español.",
+      "translation_quote": "en Jerusalem"
+    }
+  ],
   "id": "6b08c750bf0d6b2c12d5a8814523aee9",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "spa",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

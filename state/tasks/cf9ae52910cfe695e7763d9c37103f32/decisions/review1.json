@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, final stanza, last line",
+      "severity": "major",
+      "source_quote": "With confidence in God, His power to display.",
+      "suggested_fix": "que, com <strong><em>confiança</em></strong> em Deus, manifeste o poder de Deus.",
+      "translation_quote": "que, com <strong><em>confiança</em></strong> em Deus, manifeste o seu poder."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

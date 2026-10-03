@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening quotation, Psalm 139:14",
+      "severity": "major",
+      "source_quote": "“I am fearfully and wonderfully made”",
+      "suggested_fix": "Replace “ভয়াবহ ও আশ্চর্যরূপে নির্মিত” with “বিস্ময়কর ও আশ্চর্যরূপে নির্মিত” (or another Bengali phrase that conveys awe rather than something terrible).",
+      "translation_quote": "“আমি ভয়াবহ ও আশ্চর্যরূপে নির্মিত”"
+    },
+    {
+      "location": "Closing paragraph, echo of Psalm 139:14",
+      "severity": "major",
+      "source_quote": "“We are indeed fearfully and wonderfully made.”",
+      "suggested_fix": "Replace “আমরা ভয়াবহ ও আশ্চর্যরূপে নির্মিত” with “আমরা সত্যিই বিস্ময়কর ও আশ্চর্যরূপে নির্মিত” (or another Bengali phrase that conveys awe rather than something terrible).",
+      "translation_quote": "“সত্যিই, আমরা ভয়াবহ ও আশ্চর্যরূপে নির্মিত।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

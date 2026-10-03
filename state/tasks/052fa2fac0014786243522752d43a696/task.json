@@ -2,7 +2,6 @@
   "article_id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 5615
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 527,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5474,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5471,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6001
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, 2. Absatz",
+      "severity": "major",
+      "source_quote": "“... no matter what each of you has faced your inner motivation echoes with the words of Apostle Paul, … for I have learned, in whatsoever state I am, therewith to be content.”",
+      "suggested_fix": "Ändern Sie den Beginn des Absatzes und des Zitats so, dass die Aussage erhalten bleibt: „Wir vertrauen darauf, dass unabhängig davon, womit jeder von euch konfrontiert war, eure innere Einstellung den Worten des Apostels Paulus entspricht: ‚… denn ich habe gelernt, in jeder Lage zufrieden zu sein.‘“",
+      "translation_quote": "„Wir vertrauen darauf, dass eure innere Einstellung, ganz gleich, womit jeder von euch konfrontiert war, den Worten des Apostels Paulus entspricht: … denn ich habe gelernt, mit dem zufrieden zu sein, was ich habe.“"
+    },
+    {
+      "location": "HTML, 6. Absatz",
+      "severity": "major",
+      "source_quote": "“the collective conscience of the churches to face an unprecedented crisis level”",
+      "suggested_fix": "Geben Sie wieder, dass das gemeinsame Gewissen der Gemeinden ein beispielloses Krisenniveau erreichte, etwa: „Dadurch geriet das gemeinsame Gewissen der Gemeinden in eine beispiellose Krise …“",
+      "translation_quote": "„Dadurch geriet das gemeinsame Gewissen der Gemeinden in eine beispiellose Krise …“"
+    },
+    {
+      "location": "HTML, 8. Absatz",
+      "severity": "major",
+      "source_quote": "“the prescription of the glasses we have in front of our eyes”",
+      "suggested_fix": "Übersetzen Sie „prescription“ als „Sehstärke“ bzw. „Brillenstärke“, nicht als Brille selbst; zum Beispiel: „Sie ist wie die Sehstärke der Brille, die wir vor den Augen tragen …“",
+      "translation_quote": "„Sie ist wie die Sehstärke der Brille, die wir vor den Augen tragen …“"
+    },
+    {
+      "location": "HTML, 10. Absatz",
+      "severity": "major",
+      "source_quote": "“There’s race discrimination on both sides of the matter.”",
+      "suggested_fix": "Bewahren Sie die Aussage, dass es auf beiden Seiten Rassendiskriminierung gibt, statt sie zu Vorwürfen abzuschwächen: „Auf beiden Seiten gibt es Rassendiskriminierung.“",
+      "translation_quote": "„Bei der Frage der Rassendiskriminierung gibt es auf beiden Seiten Vorwürfe.“"
+    }
+  ],
   "id": "052fa2fac0014786243522752d43a696",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "deu",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08023a05d53dc6bd22a9177fbda131edfdc7c55d1f65f9b60a5d0b2ca28e7dfc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
   "translation_model_actual": "gpt-6-luna"

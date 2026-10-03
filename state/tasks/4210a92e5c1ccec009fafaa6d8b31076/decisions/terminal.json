@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Second image description (alt text)",
+      "severity": "minor",
+      "source_quote": "A medical helicopter outside a hospital",
+      "suggested_fix": "Replace “Un elicottero medico fuori da un ospedale” with “Un elicottero sanitario fuori da un ospedale”.",
+      "translation_quote": "Un elicottero medico fuori da un ospedale"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

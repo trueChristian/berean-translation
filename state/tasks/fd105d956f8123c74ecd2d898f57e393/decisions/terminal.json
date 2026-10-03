@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second stanza, third line",
+      "severity": "minor",
+      "source_quote": "To her my cares and toils be giv’n,",
+      "suggested_fix": "استبدلها بـ «وأكرّس لها اهتمامي وجهدي،» للحفاظ على معنى تكريس الاهتمام والعمل لها.",
+      "translation_quote": "ولأجلها أبذل همومي وتَعَبي،"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

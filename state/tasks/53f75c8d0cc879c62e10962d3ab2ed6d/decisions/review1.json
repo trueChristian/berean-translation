@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph under “...Lesser Ones”",
+      "severity": "major",
+      "source_quote": "This attitude is for the birds, but it is also intricately woven into our estimation of people.",
+      "suggested_fix": "Replace «هذا موقف لا يليق إلا بالطيور» with «هذا موقف سخيف، لكنه منسوج بإحكام أيضًا في تقديرنا للناس» to convey the idiom’s meaning while retaining the following clause.",
+      "translation_quote": "هذا موقف لا يليق إلا بالطيور، لكنه منسوج بإحكام أيضًا في تقديرنا للناس."
+    },
+    {
+      "location": "HTML paragraph immediately before the heading “...Little Ones”",
+      "severity": "minor",
+      "source_quote": "His delight is not merely in the sophisticated and prospering, but He makes His habitations among the…",
+      "suggested_fix": "Replace «المترفين والناجحين» with «المثقفين والناجحين» to retain the distinction between being sophisticated and prospering.",
+      "translation_quote": "ليس سروره في المترفين والناجحين فحسب، بل إنه يجعل مساكنه بين…"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

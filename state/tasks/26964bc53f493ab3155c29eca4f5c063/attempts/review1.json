@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening quotation, Psalm 139:14\",\"severity\":\"major\",\"source_quote\":\"“I am fearfully and wonderfully made”\",\"suggested_fix\":\"Replace “ভয়াবহ ও আশ্চর্যরূপে নির্মিত” with “বিস্ময়কর ও আশ্চর্যরূপে নির্মিত” (or another Bengali phrase that conveys awe rather than something terrible).\",\"translation_quote\":\"“আমি ভয়াবহ ও আশ্চর্যরূপে নির্মিত”\"},{\"location\":\"Closing paragraph, echo of Psalm 139:14\",\"severity\":\"major\",\"source_quote\":\"“We are indeed fearfully and wonderfully made.”\",\"suggested_fix\":\"Replace “আমরা ভয়াবহ ও আশ্চর্যরূপে নির্মিত” with “আমরা সত্যিই বিস্ময়কর ও আশ্চর্যরূপে নির্মিত” (or another Bengali phrase that conveys awe rather than something terrible).\",\"translation_quote\":\"“সত্যিই, আমরা ভয়াবহ ও আশ্চর্যরূপে নির্মিত।”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1187,
+    "content_evidence_truncated": false,
+    "content_sha256": "424cb26a3b31b526849ed93ffa838ed7eeb1023a016285ecc41f38eca750bfcb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 571,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 328,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10637,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10634,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11208
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

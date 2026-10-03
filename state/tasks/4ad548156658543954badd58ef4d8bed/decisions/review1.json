@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Body, “Count Your Own Blessings” paragraph; Philippians 4:8 quotation",
+      "severity": "major",
+      "source_quote": "“whatsoever things are lovely, whatsoever things are of good report”",
+      "suggested_fix": "Revise the quoted phrases to distinguish the meanings: for example, “جو باتیں دلکش ہیں، جو باتیں اچھی شہرت یا تعریف کے لائق ہیں” (preserving the surrounding HTML and reference).",
+      "translation_quote": "“جو باتیں پسندیدہ ہیں، جو باتیں دل پسند ہیں”"
+    },
+    {
+      "location": "Body, “Embrace The Thought: ‘Life Isn’t Fair’” paragraph about the two friends",
+      "severity": "major",
+      "source_quote": "“one daughter dated and married long before the other one began a courtship”",
+      "suggested_fix": "Make clear that the first daughter began dating and married before the other daughter began courting; for example, replace the timing clause with “ایک بیٹی نے دوسری کے رشتۂ ازدواج کی ابتدا کرنے سے بہت پہلے ہی کسی سے ملنا شروع کر دیا اور شادی بھی کر لی۔”",
+      "translation_quote": "“ایک بیٹی نے دوسری کے رشتۂ ازدواج میں بندھنے سے بہت پہلے ہی کسی سے ملنا شروع کر دیا اور شادی بھی کر لی۔”"
+    },
+    {
+      "location": "Body, paragraph quoting Proverbs 27:4",
+      "severity": "major",
+      "source_quote": "“Wrath is cruel, and anger is outrageous”",
+      "suggested_fix": "Replace the added comparison with wording that conveys anger as outrageous or overwhelming, such as “قہر بے رحم ہے اور غضب حد سے بڑھا ہوا” (keeping the existing reference and HTML structure).",
+      "translation_quote": "“قہر بے رحم ہے اور غضب طوفان کی مانند”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

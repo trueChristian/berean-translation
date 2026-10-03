@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"her mom to fill her plate\",\"suggested_fix\":\"Replace “अपनी माँ के थाली में खाना परोसने का इंतज़ार” with “अपनी माँ के उसके लिए थाली में खाना परोसने का इंतज़ार” so the plate is clearly Jennika’s, not her mother’s.\",\"translation_quote\":\"अपनी माँ के थाली में खाना परोसने का इंतज़ार\"},{\"location\":\"HTML, paragraph 5\",\"severity\":\"major\",\"source_quote\":\"her cousins, who lived about three hours away\",\"suggested_fix\":\"Use a gender- and lineage-neutral rendering such as “उसके कज़िन, जो लगभग तीन घंटे की दूरी पर रहते थे” rather than specifying paternal cousins.\",\"translation_quote\":\"उसके चचेरे भाई-बहन, जो लगभग तीन घंटे की दूरी पर रहते थे\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1136,
+    "content_evidence_truncated": false,
+    "content_sha256": "3521fa6ffbd88a61414e719201217f5eccc7045507e974ffff5405910e3892f8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 446,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2774,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2771,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3429
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

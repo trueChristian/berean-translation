@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "83fee9cc-09c2-45be-bc85-9ef995c56406",
+    "response_id": "chatcmpl-EUrWur2wVLgcoF3th6XlpxNoGWQlJ",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9329,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9326,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9936
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lirik, bait kedua",
+        "severity": "minor",
+        "source_quote": "To her my cares and toils be giv’n,",
+        "suggested_fix": "Kepadanya kuserahkan segala kepedulian dan jerih payahku,",
+        "translation_quote": "Kepadanya kuserahkan perhatian dan jerih payahku,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

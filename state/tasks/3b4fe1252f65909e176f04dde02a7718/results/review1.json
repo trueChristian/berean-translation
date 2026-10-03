@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7c7a7afc-9599-4a8e-8b34-4b48b8c4cafd",
+    "response_id": "chatcmpl-EUrWUO5PUifYPDRzZYB4NtghzCoXc",
+    "usage": {
+      "completion_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9031,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10011
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "编者按，第4段",
+        "severity": "minor",
+        "source_quote": "Some individuals believe it is wrong for spiritual authorities to “take the oversight thereof,” or to give clear admonition over the pulpit.",
+        "suggested_fix": "将“属灵权柄‘牧养群羊’”改为“属灵权柄‘承担监督职责’”，以保留原文所说的监督职责，而不是改成牧养群羊。",
+        "translation_quote": "有些人认为，属灵权柄“牧养群羊”，或在讲台上明确劝诫，是不对的。"
+      },
+      {
+        "location": "正文，编号列表第1项",
+        "severity": "minor",
+        "source_quote": "the One with whom we claim to be united in a living relationship.",
+        "suggested_fix": "将句末“然而他正是那一位”改为“就是我们声称与之有活泼关系的那一位”，使“那一位”与前文主耶稣基督的关系清楚。",
+        "translation_quote": "我们声称自己与他有活泼的关系，然而他正是那一位。"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

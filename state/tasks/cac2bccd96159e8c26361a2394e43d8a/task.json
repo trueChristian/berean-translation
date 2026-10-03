@@ -2,7 +2,6 @@
   "article_id": "8a3dfa09-f40f-4615-8f83-59a8fccb1a2f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 2817
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 572,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 449,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2595,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2592,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3167
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "major",
+      "source_quote": "Because her mom had been gone so long, Jennika learned to be more thankful for her mom.",
+      "suggested_fix": "Vervang ‘leerde Jennika haar moeder meer dankbaar te zijn’ door ‘leerde Jennika dankbaarder voor haar moeder te zijn’.",
+      "translation_quote": "Omdat haar moeder zo lang weg was geweest, leerde Jennika haar moeder meer dankbaar te zijn."
+    }
+  ],
   "id": "cac2bccd96159e8c26361a2394e43d8a",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "nld",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0187a14c6cec38529b6362fde85e4b02db54c08dbfa33fada22b9a0a9efb9919.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "367ec289a53c0c99a1e1be6dc0053370ed77c07d6491a13fe2e6d92fa3f794b5",
   "translation_model_actual": "gpt-6-luna"

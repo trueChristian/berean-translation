@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ea706990-8372-4a02-ac81-aeee0e4d2ef1",
+    "response_id": "chatcmpl-EUrWH0PTxptHIEeIZXyC2CvxPiw5J",
+    "usage": {
+      "completion_tokens": 710,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 594,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1844,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2557
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, final stanza, last line",
+        "severity": "major",
+        "source_quote": "With confidence in God, His power to display.",
+        "suggested_fix": "que, com <strong><em>confiança</em></strong> em Deus, manifeste o poder de Deus.",
+        "translation_quote": "que, com <strong><em>confiança</em></strong> em Deus, manifeste o seu poder."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

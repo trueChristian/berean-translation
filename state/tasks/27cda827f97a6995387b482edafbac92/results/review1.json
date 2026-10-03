@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "654b3ad2-5523-4020-9d34-111ee2748222",
+    "response_id": "chatcmpl-EUrXKDukLv8QwtSsySUBgn5lJbQf4",
+    "usage": {
+      "completion_tokens": 1109,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 822,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8048,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8045,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9157
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “En härlig församling…” (underlined quotation)",
+        "severity": "major",
+        "source_quote": "A glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish!",
+        "suggested_fix": "Ändra den sista delen till ”…utan fläck eller skrynkla eller något sådant, men helig och fullkomlig!” så att den inte säger att församlingen är utan helighet.",
+        "translation_quote": "En härlig församling, utan fläck eller skrynkla eller något sådant, utan helig och fullkomlig!"
+      },
+      {
+        "location": "HTML, paragraph beginning “Det krävs stor tillit till Gud…”",
+        "severity": "major",
+        "source_quote": "For I am now ready to be offered, and the time of my departure is at hand.",
+        "suggested_fix": "Ändra inledningen av citatet till exempelvis ”Ty jag är nu redo att offras, och tiden för mitt uppbrott är inne” för att bevara att Paulus är redo att offras, inte att han redan offras.",
+        "translation_quote": "Ty jag offras redan, och tiden är inne då jag skall bryta upp."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

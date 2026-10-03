@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 2, final line",
+      "severity": "minor",
+      "source_quote": "But our own understanding, we lean on instead?",
+      "suggested_fix": "তবু কি আমরা তার বদলে নিজেদের বোধবুদ্ধির ওপর নির্ভর করি?",
+      "translation_quote": "তবু কি তার বদলে নিজের বুদ্ধির ওপর নির্ভর রাখো?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

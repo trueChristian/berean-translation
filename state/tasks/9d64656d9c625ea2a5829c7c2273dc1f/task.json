@@ -2,7 +2,6 @@
   "article_id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7778
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 743,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 526,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7637,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7634,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8380
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Ek weet nie hoe dit was nie...”",
+      "severity": "major",
+      "source_quote": "...what was Achan thinking in the midst of a bloody battle that made him covet?",
+      "suggested_fix": "Change “wat hom begeerlik gemaak het” to “wat hom laat begeer het” so the question asks what made Achan covet.",
+      "translation_quote": "...waaraan het Agan gedink te midde van ’n bloedige geveg wat hom begeerlik gemaak het?"
+    },
+    {
+      "location": "Paragraph beginning “Ons sien dat dit belangrik is...”",
+      "severity": "major",
+      "source_quote": "There are many things that God may want us to surrender.",
+      "suggested_fix": "Change the sentence to “Daar is baie dinge wat God dalk wil hê ons aan Hom moet oorgee.”",
+      "translation_quote": "Daar is baie dinge waaraan God wil hê ons moet oorgee."
+    }
+  ],
   "id": "9d64656d9c625ea2a5829c7c2273dc1f",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "afr",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 87,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6-luna"

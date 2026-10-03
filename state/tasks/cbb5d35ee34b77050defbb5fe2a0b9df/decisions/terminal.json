@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 같은 교회에 다니는 두 친구에 관한 문단",
+      "severity": "minor",
+      "source_quote": "As life would have it, one daughter dated and married long before the other one began a courtship.",
+      "suggested_fix": "한 딸은 데이트를 시작해 결혼했지만, 다른 딸은 아직 교제를 시작하기도 훨씬 전이었습니다.",
+      "translation_quote": "인생의 흐름에 따라 한 딸은 데이트를 하고 결혼했지만, 다른 딸은 교제를 시작하기도 훨씬 전이었습니다."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, अंतिम अनुच्छेद\",\"severity\":\"major\",\"source_quote\":\"This poem was inspired by the Scripture passage in Jeremiah 18:1-6.\",\"suggested_fix\":\"यह कविता यिर्मयाह 18:1-6 के धर्मशास्त्र के वचन से प्रेरित थी। → यह कविता यिर्मयाह 18:1-6 के धर्मशास्त्र के उस अंश से प्रेरित थी।\",\"translation_quote\":\"यह कविता यिर्मयाह 18:1-6 के धर्मशास्त्र के वचन से प्रेरित थी।\"},{\"location\":\"HTML, कविता का पहला पद\",\"severity\":\"minor\",\"source_quote\":\"God the Potter is molding me.\",\"suggested_fix\":\"“कुम्हार परमेश्वर मुझे गढ़ रहे हैं” को “परमेश्वर रूपी कुम्हार मुझे गढ़ रहे हैं” करें, ताकि ‘God the Potter’ का आशय स्पष्ट रहे।\",\"translation_quote\":\"कुम्हार परमेश्वर मुझे गढ़ रहे हैं।\"},{\"location\":\"HTML, कविता का पाँचवाँ पद\",\"severity\":\"minor\",\"source_quote\":\"Until His likeness, again does show.\",\"suggested_fix\":\"“जब तक उनमें फिर से उनका स्वरूप न दिखे” को “जब तक फिर से उनमें उनका स्वरूप न दिखे” करें, ताकि आशय स्पष्ट हो कि पात्रों में कुम्हार का स्वरूप फिर से प्रकट होता है।\",\"translation_quote\":\"जब तक उनमें फिर से उनका स्वरूप न दिखे।\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1987,
+    "content_evidence_truncated": false,
+    "content_sha256": "de8a48b0b83e838647f5386c7cb6ed24a1cc899d840e34c7aa61fa77935e052b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 333,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2076,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2073,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2409
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

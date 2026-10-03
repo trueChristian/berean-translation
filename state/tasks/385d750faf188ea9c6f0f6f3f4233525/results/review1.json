@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "41253bde-fb22-4311-a300-c08dfaf0ed5d",
+    "response_id": "chatcmpl-EUrVoCSTrznxc8NlLLMbflpZZMvs1",
+    "usage": {
+      "completion_tokens": 484,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5591,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5588,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6075
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文，第4段",
+        "severity": "major",
+        "source_quote": "‘The cover design is tacky, there is a misspelling on page 11’, I should have said this, this, and this.",
+        "suggested_fix": "将“还有我本该说这个、那个、这个”改为“我本该说这个、那个、还有这个”，以保留原文所列三项的对应关系。",
+        "translation_quote": "‘封面设计俗气，第11页有个拼写错误’，还有我本该说这个、那个、这个。"
+      },
+      {
+        "location": "正文，嫉妒的定义段",
+        "severity": "major",
+        "source_quote": "Jealousy belittles the achievements of another and tries to control the way others think of that person.",
+        "suggested_fix": "将“还试图控制别人如何看待那个人”改为“还试图控制别人对那个人的看法”，以表达嫉妒者试图操纵他人看法，而非控制他人如何思考。",
+        "translation_quote": "嫉妒贬低别人的成就，还试图控制别人如何看待那个人。"
+      },
+      {
+        "location": "正文，“守护你的思想”第二段",
+        "severity": "major",
+        "source_quote": "We don’t know how long she thought about that visit or how her husband made it possible.",
+        "suggested_fix": "将“我们不知道她考虑这次探望有多久”改为“我们不知道她为这次探望考虑了多久”，明确所指是她考虑这次探访的时间。",
+        "translation_quote": "我们不知道她考虑这次探望有多久，也不知道她的丈夫是如何让这件事成为可能的。"
+      },
+      {
+        "location": "正文，“数算自己的福分”段",
+        "severity": "major",
+        "source_quote": "Happiness will not come to women who neglect to appreciate what they already have.",
+        "suggested_fix": "将“忽略珍惜自己已有之物的女人不会得到快乐”改为“那些不懂得珍惜自己已有之物的女人不会快乐”，避免误读为她们只是忽略了珍惜这一行为。",
+        "translation_quote": "忽略珍惜自己已有之物的女人不会得到快乐。"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

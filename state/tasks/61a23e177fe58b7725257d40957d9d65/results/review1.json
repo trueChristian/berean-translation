@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "70edf694-a498-42b9-bec4-1a92a1050ccd",
+    "response_id": "chatcmpl-EUrVokW4ZEENqiRi4qVkrjqrYejr2",
+    "usage": {
+      "completion_tokens": 569,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 414,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1854,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1851,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2423
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, second stanza",
+        "severity": "major",
+        "source_quote": "But our own understanding, we lean on instead?",
+        "suggested_fix": "Pero ¿no nos apoyamos, en cambio, en nuestro propio entendimiento?",
+        "translation_quote": "Pero ¿no nos apoyamos en nuestra propia cordura?"
+      },
+      {
+        "location": "HTML, poem, fifth stanza",
+        "severity": "minor",
+        "source_quote": "He stands and knocks; will you open the door?",
+        "suggested_fix": "Está de pie y llama a la puerta: ¿abrirás?",
+        "translation_quote": "Está de pie y llama: ¿abrirás la puerta?"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

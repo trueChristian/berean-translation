@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 8108
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 869,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 676,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7967,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7964,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8836
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Marilah kita datang ke hadapan Allah kita…”",
+      "severity": "minor",
+      "source_quote": "“for where we have lost our way”",
+      "suggested_fix": "Replace “atas jalan yang telah kita sesat” with “karena kita telah tersesat” to express the source meaning naturally.",
+      "translation_quote": "“atas jalan yang telah kita sesat”"
+    },
+    {
+      "location": "Paragraph defining “confidence”",
+      "severity": "minor",
+      "source_quote": "“proud of basically everything that is good in their lives”",
+      "suggested_fix": "Replace “bangga akan pada dasarnya segala hal yang baik dalam hidup mereka” with “bangga akan hampir segala hal yang baik dalam hidup mereka.”",
+      "translation_quote": "“bangga akan pada dasarnya segala hal yang baik dalam hidup mereka”"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:34+00:00",
   "id": "601c60e572242cd1279c483a7c2c4673",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ind",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

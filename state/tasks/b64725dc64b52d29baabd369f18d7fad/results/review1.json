@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ff26e12f-71ad-40e9-a0ce-570b244aceba",
+    "response_id": "chatcmpl-EUrVvPIJjosAkdPmqXgVQKZ9lnh9D",
+    "usage": {
+      "completion_tokens": 295,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3185,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3182,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3480
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 4",
+        "severity": "major",
+        "source_quote": "She thought sleeping on the chair in her mom’s room would be fun.",
+        "suggested_fix": "Αλλάξτε το «πολυθρόνα» σε «καρέκλα» ώστε να αποδοθεί το είδος του καθίσματος που αναφέρει το πρωτότυπο.",
+        "translation_quote": "Νόμιζε πως θα ήταν διασκεδαστικό να κοιμηθεί στην πολυθρόνα στο δωμάτιο της μαμάς της."
+      },
+      {
+        "location": "HTML, paragraph 5",
+        "severity": "major",
+        "source_quote": "Her older sister made two welcome-home signs for inside the house and her older brother made one for out by the driveway.",
+        "suggested_fix": "Αντικαταστήστε το «κοντά στον δρόμο προς το σπίτι» με «κοντά στον ιδιωτικό δρόμο εισόδου/το δρομάκι του σπιτιού» ώστε να διατηρηθεί η αναφορά στο driveway.",
+        "translation_quote": "Η μεγαλύτερη αδελφή της έφτιαξε δύο πινακίδες καλωσορίσματος για μέσα στο σπίτι, ενώ ο μεγαλύτερος αδελφός της έφτιαξε μία για έξω, κοντά στον δρόμο προς το σπίτι."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

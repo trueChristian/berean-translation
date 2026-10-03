@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац с описанием библейской ревности и зависти\",\"severity\":\"major\",\"source_quote\":\"“Jealousy is as cruel as the grave. (see Song of Solomon 8:6). Envy [is] the rottenness of the bones –Proverbs 14:30. And, Wrath is cruel, and anger is outrageous; but who is able to stand before envy? –Proverbs 27:4.”\",\"suggested_fix\":\"В первой фразе сохраните подлежащее «ревность»: например, «Ревность жестока, как преисподняя». Во второй цитате верните «зависть» вместо «ревность»: «…кто устоит против зависти?» Уточните вводное предложение так, чтобы оно сохраняло исходное утверждение о жестокости и зависти, например: «Библия описывает жестокость зависти и ревности».\",\"translation_quote\":\"«Библия говорит о жестокости зависти. Ревность жестока, как преисподняя (см. Песнь песней 8:6). „Зависть — гниль для костей“ — Притчи 14:30. И ещё: „Жесток гнев, неукротима ярость; но кто устоит против ревности?“ — Притчи 27:4.»\"},{\"location\":\"Раздел «Цените собственные благословения», цитата 2 Коринфянам 10:12\",\"severity\":\"major\",\"source_quote\":\"“…but they measuring themselves by themselves, and comparing themselves among themselves, are not wise –2 Corinthians 10:12.”\",\"suggested_fix\":\"Замените цитату на верный перевод приведённого в оригинале смысла: «…они, измеряя себя самими собою и сравнивая себя сами с собою, поступают неразумно» — 2 Коринфянам 10:12. Не меняйте номер ссылки.\",\"translation_quote\":\"«…они, измеряя себя самими собою и сравнивая себя сами с собою, неразумны» — 2 Коринфянам 10:12.\"},{\"location\":\"Раздел «Знайте, кто вы во Христе», цитата Ефесянам 2:8–10\",\"severity\":\"major\",\"source_quote\":\"“For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast. For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them –Ephesians 2:8-10.”\",\"suggested_fix\":\"В цитате передайте «unto good works» как «для добрых дел», не «на добрые дела», сохраняя структуру и ссылку: «…созданы во Христе Иисусе для добрых дел, которые Бог предназначил нам исполнять» — Ефесянам 2:8–10.\",\"translation_quote\":\"«…мы — Его творение, созданы во Христе Иисусе на добрые дела, которые Бог предназначил нам исполнять» — Ефесянам 2:8–10.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 3424,
+    "content_evidence_truncated": false,
+    "content_sha256": "cb3a0d5e738bb604255c77438af4ba4e0553de4a2ba1599374ca070cabaea5b2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 723,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5713,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6439
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

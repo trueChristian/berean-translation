@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, fifth stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"He’s waiting for the church to trust Him once more.\",\"suggested_fix\":\"वह फिर से कलीसिया द्वारा उस पर भरोसा किए जाने की प्रतीक्षा कर रहा है।\",\"translation_quote\":\"वह फिर से कलीसिया के उसके भरोसा करने की बाट जोह रहा है।\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 537,
+    "content_evidence_truncated": false,
+    "content_sha256": "05f34e5894f0abb03b75c55bbb72e482f360ce3f262c31dee97898d1b11568a8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1971,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1968,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2534
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

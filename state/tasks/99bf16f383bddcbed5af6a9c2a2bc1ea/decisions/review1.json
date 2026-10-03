@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “पर्याप्त (अच्छी) नींद लें”",
+      "severity": "major",
+      "source_quote": "This makes sense since our bodies heal the most when we are sleeping.",
+      "suggested_fix": "यह समझ में आता है, क्योंकि सोते समय हमारा शरीर सबसे अधिक चंगा होता है।",
+      "translation_quote": "यह समझ में आता है, क्योंकि सोते समय हमारा शरीर सबसे अधिक स्वस्थ होता है।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

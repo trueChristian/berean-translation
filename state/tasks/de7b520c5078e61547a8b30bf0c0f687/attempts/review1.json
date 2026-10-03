@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Second lyrics stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"To her my cares and toils be giv’n,\",\"suggested_fix\":\"Correggere l’accordo: «a lei siano consacrate le mie cure e le mie fatiche,»\",\"translation_quote\":\"a lei siano consacrati le mie cure e le mie fatiche,\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 335,
+    "content_evidence_truncated": false,
+    "content_sha256": "153c55456e491fb1774eb7876504be2e4aa75099fdbbbdc480c22d78dda7a7a1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 534,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9511,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10157
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

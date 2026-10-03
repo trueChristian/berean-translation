@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Si jambo jipya kuchanganya…”",
+      "severity": "major",
+      "source_quote": "Eliab said to him, “I know thy pride”.",
+      "suggested_fix": "Badilisha “Naujua ubishi wako” kuwa “Naujua kiburi chako” ili kuhifadhi madai ya Eliabu kuhusu kiburi cha Daudi.",
+      "translation_quote": "Eliabu, kaka mkubwa wa Daudi, alimwambia, “Naujua ubishi wako.”"
+    },
+    {
+      "location": "Paragraph beginning “Kabla hajawa mtume Paulo…”; Acts 9:20 quotation",
+      "severity": "minor",
+      "source_quote": "“…straightway he preached Christ in the synagogues, that he is the Son of God –Acts 9:20.”",
+      "suggested_fix": "Badilisha “Yesu” kuwa “Kristo” katika nukuu ili kuhifadhi jina la cheo lililotumiwa katika chanzo: “...mara akamhubiri Kristo katika masinagogi, ya kwamba yeye ndiye Mwana wa Mungu –Matendo 9:20.”",
+      "translation_quote": "“…mara akamhubiri Yesu katika masinagogi, ya kwamba yeye ndiye Mwana wa Mungu –Matendo 9:20.”"
+    },
+    {
+      "location": "Paragraph beginning “Kwa kushangaza…”",
+      "severity": "minor",
+      "source_quote": "“houses and lands were confiscated”",
+      "suggested_fix": "Badilisha “vilitaifishwa” kuwa “vilinyang’anywa” ili kueleza kunyang’anywa kwa mali kama ilivyo katika chanzo, badala ya kuashiria kuwa vilifanywa mali ya taifa.",
+      "translation_quote": "“nyumba na mashamba vilitaifishwa”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

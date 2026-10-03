@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문, 느헤미야 2:12 인용문\",\"severity\":\"major\",\"source_quote\":\"what my God had put in my heart to do at Jerusalem\",\"suggested_fix\":\"밑줄 친 부분을 “하나님께서 예루살렘에서 하도록 내 마음에 두신 일”로 바꾸어, 하나님께서 예루살렘에서 할 일을 마음에 두셨다는 원문의 뜻을 살려 주세요.\",\"translation_quote\":\"하나님께서 <u>예루살렘을 위해 내 마음을 감동시키신 일을</u>\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 516,
+    "content_evidence_truncated": false,
+    "content_sha256": "685a6f951af3115bdbf23257a5e01aef7c14b667f5836cd8bb03b488c004d684",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 821,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 662,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7886,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7883,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8707
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

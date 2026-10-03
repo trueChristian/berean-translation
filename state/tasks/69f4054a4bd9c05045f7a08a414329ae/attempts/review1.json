@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"正文末段，上帝创造身体与堕落的关系\",\"severity\":\"major\",\"source_quote\":\"These systems heal injuries, maintain our body, and protect it from a world damaged by the introduction of sin at the Fall of man, in the Garden of Eden.\",\"suggested_fix\":\"将该句改为：“这些系统能够修复损伤、维持身体运作，并保护身体免受人类在伊甸园堕落犯罪后罪进入世界所造成的破坏。”\",\"translation_quote\":\"这些系统能够修复损伤、维持身体运作，并保护身体免受人类在伊甸园堕落犯罪后受罪的引入所损害的世界侵袭。\"},{\"location\":\"标题\",\"severity\":\"minor\",\"source_quote\":\"A Healthy Immune System\",\"suggested_fix\":\"可改为“健康的免疫系统”，以更自然地表达英文标题。\",\"translation_quote\":\"健康的免疫系统\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 877,
+    "content_evidence_truncated": false,
+    "content_sha256": "bbb82ecfd5bfb080ac69b31755277a71dc4ebb13298808fcf8afc844e1665938",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9149,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9373
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

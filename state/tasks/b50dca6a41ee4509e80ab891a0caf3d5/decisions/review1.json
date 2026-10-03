@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, ejercicio con regularidad, primer párrafo",
+      "severity": "major",
+      "source_quote": "“rushing out to run three miles”",
+      "suggested_fix": "Sustituir «cinco kilómetros» por «tres millas» para conservar la distancia indicada por el autor.",
+      "translation_quote": "«salir corriendo a hacer cinco kilómetros»"
+    },
+    {
+      "location": "HTML, suplementos específicos, párrafo sobre el zinc",
+      "severity": "major",
+      "source_quote": "“Zinc has been shown (short term) to reduce duration of colds.”",
+      "suggested_fix": "Ajustar la frase para conservar que se ha demostrado que el zinc reduce la duración de los resfriados a corto plazo, por ejemplo: «Se ha demostrado que el zinc reduce la duración de los resfriados a corto plazo».",
+      "translation_quote": "«Se ha demostrado que el zinc reduce (a corto plazo) la duración de los resfriados.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

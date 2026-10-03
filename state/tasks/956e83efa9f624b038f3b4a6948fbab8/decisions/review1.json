@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraphe sur les mégachurches",
+      "severity": "minor",
+      "source_quote": "Mega churches have risen to console him.",
+      "suggested_fix": "Remplacer « Des még Églises ont vu le jour pour le réconforter » par « De grandes Églises ont vu le jour pour le réconforter » ou « Des még Églises ont vu le jour pour le réconforter » (sans espace après « még »).",
+      "translation_quote": "Des még Églises ont vu le jour pour le réconforter."
+    },
+    {
+      "location": "HTML, passage sur les lois concernant les enfants à naître",
+      "severity": "major",
+      "source_quote": "The laws of our land have legalized the murder of them if anyone cares not for their existence.",
+      "suggested_fix": "Traduire fidèlement l’affirmation du texte, par exemple : « Les lois de notre pays ont légalisé leur meurtre si quelqu’un ne se soucie pas de leur existence. »",
+      "translation_quote": "Les lois de notre pays ont légalisé leur meurtre si quelqu’un ne souhaite pas qu’ils vivent."
+    },
+    {
+      "location": "HTML, paragraphe sur les œuvres et activités para-ecclésiales",
+      "severity": "major",
+      "source_quote": "Para-church Outreaches, personal ministries, retreats, and seminars lend an exciting appeal, to religious zealots",
+      "suggested_fix": "Remplacer « attirent avec enthousiasme les zélotes religieux » par une formulation conservant l’idée que ces activités séduisent les zélotes religieux, par exemple : « exercent un attrait enthousiasmant sur les zélotes religieux ».",
+      "translation_quote": "Les œuvres para-ecclésiales, les ministères personnels, les retraites et les séminaires attirent avec enthousiasme les zélotes religieux"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

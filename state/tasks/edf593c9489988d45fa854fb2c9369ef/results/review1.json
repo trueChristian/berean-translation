@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f086e54a-47f5-4961-b7d2-8465c9662cf2",
+    "response_id": "chatcmpl-EUrWUT7jAyrez242ijblH8FI4yu0w",
+    "usage": {
+      "completion_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1775,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1772,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2477
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, estrofe 3, penúltimo verso",
+        "severity": "minor",
+        "source_quote": "The brightest glories earth can yield,",
+        "suggested_fix": "Substituir por: “As mais brilhantes glórias que a terra pode oferecer,”",
+        "translation_quote": "A mais brilhante glória que a terra pode oferecer,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

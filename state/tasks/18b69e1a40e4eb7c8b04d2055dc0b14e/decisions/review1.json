@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 1",
+      "severity": "minor",
+      "source_quote": "her mom to fill her plate",
+      "suggested_fix": "Replace “अपनी माँ के थाली में खाना परोसने का इंतज़ार” with “अपनी माँ के उसके लिए थाली में खाना परोसने का इंतज़ार” so the plate is clearly Jennika’s, not her mother’s.",
+      "translation_quote": "अपनी माँ के थाली में खाना परोसने का इंतज़ार"
+    },
+    {
+      "location": "HTML, paragraph 5",
+      "severity": "major",
+      "source_quote": "her cousins, who lived about three hours away",
+      "suggested_fix": "Use a gender- and lineage-neutral rendering such as “उसके कज़िन, जो लगभग तीन घंटे की दूरी पर रहते थे” rather than specifying paternal cousins.",
+      "translation_quote": "उसके चचेरे भाई-बहन, जो लगभग तीन घंटे की दूरी पर रहते थे"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

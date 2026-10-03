@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "baac9bca-071d-4076-aaac-3e2ce84858eb",
+    "response_id": "chatcmpl-EUrWAA6UkkCCdASu9UQvTLAbcQVQP",
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 591,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8838,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9464
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [],
+    "passed": true,
+    "score": 98
+  }
+}

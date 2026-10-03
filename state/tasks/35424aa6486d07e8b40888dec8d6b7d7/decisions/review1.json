@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Δεν περιφρονούνται μόνο τα μικρά παιδιά»",
+      "severity": "major",
+      "source_quote": "“Despite it all, God will never miss a sparrow, and neither can He ignore the smallest sacrifice offered freely by the hands of His little ones.”",
+      "suggested_fix": "Replace «Ούτε και ο έπαινος ενός σπουργιτιού» with «ούτε μπορεί να αγνοήσει την πιο μικρή θυσία που προσφέρεται πρόθυμα από τα χέρια των μικρών Του.» The source refers to a small sacrifice, not praise.",
+      "translation_quote": "«Παρ’ όλα αυτά, ο Θεός δεν θα χάσει ποτέ από τα μάτια Του ένα σπουργίτι, ούτε μπορεί να αγνοήσει την πιο μικρή θυσία που προσφέρεται πρόθυμα από τα χέρια των μικρών Του.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Αλλά αυτός ο εγωισμός δεν είναι κάτι καινούργιο»",
+      "severity": "major",
+      "source_quote": "“He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.”",
+      "suggested_fix": "Replace «και Τον εκθρόνισαν με την πρώτη ευκαιρία» with «και τον εξόντωσαν με την πρώτη ευκαιρία.» «Εκθρόνισαν» means dethroned, whereas “deposed of” here means they disposed of Him.",
+      "translation_quote": "«Καταφρονήθηκε και απορρίφθηκε από τους ανθρώπους… –Ησαΐας 53:3, και Τον εκθρόνισαν με την πρώτη ευκαιρία.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Υπήρχε ένας ιερέας»",
+      "severity": "minor",
+      "source_quote": "“There was a minister who was asked by a funeral director to come and hold a funeral service.”",
+      "suggested_fix": "Use a broader term such as «λειτουργός» or «κήρυκας» instead of «ιερέας», unless the source establishes that the minister was a priest.",
+      "translation_quote": "«Υπήρχε ένας ιερέας στον οποίο ζήτησε ένας διευθυντής γραφείου τελετών να έρθει και να τελέσει μια νεκρώσιμη ακολουθία.»"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "“Featured Article”",
+      "suggested_fix": "Replace «Προτεινόμενο άρθρο» with «Επιλεγμένο άρθρο», which conveys “featured” rather than “suggested.”",
+      "translation_quote": "«Προτεινόμενο άρθρο»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

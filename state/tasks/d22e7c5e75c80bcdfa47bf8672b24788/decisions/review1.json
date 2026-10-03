@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Strophe 1, Zeile 3",
+      "severity": "major",
+      "source_quote": "The church our blest Redeemer saved",
+      "suggested_fix": "Ändern in: „die Kirche, die unser seliger Erlöser gerettet hat“",
+      "translation_quote": "die Kirche, die unser seliger Erlöser"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

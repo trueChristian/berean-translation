@@ -2,7 +2,6 @@
   "article_id": "10d20eec-3e71-404f-9f8d-8068b010381e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 5916
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 977,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 707,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5725,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5722,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6702
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, Philippians 4:8 quotation",
+      "severity": "major",
+      "source_quote": "“whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things”",
+      "suggested_fix": "Replace only the quoted text inside the existing <em> tags with: «Til slutt, søsken: Alt som er sant, alt som er ærbart, alt som er rett, alt som er rent, alt som er verdt å elske, alt som har godt omdømme, om det finnes noen dyd og om det finnes noe å rose, legg vinn på dette –Filipperne 4:8.»",
+      "translation_quote": "«Til slutt, søsken: Alt som er sant, alt som er edelt, rett og rent, alt som er verdt å elske, alt som kan kalles godt, og all god gjerning og alt som er verdt å prise, legg vinn på det! –Filipperne 4:8.»"
+    }
+  ],
   "id": "e95f0fbf41d92f852a1f745222100270",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "nob",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"

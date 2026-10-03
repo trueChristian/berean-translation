@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fe8a160e-7822-43f3-a32d-cfab86825150",
+    "response_id": "chatcmpl-EUrbjclJekCFOqoteMCVelwHoPAJd",
+    "usage": {
+      "completion_tokens": 573,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2760,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2757,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3333
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Be Thankful",
+        "suggested_fix": "היי אסיר תודה",
+        "translation_quote": "היו אסירי תודה"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

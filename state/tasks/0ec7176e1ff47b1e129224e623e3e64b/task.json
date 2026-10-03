@@ -2,7 +2,6 @@
   "article_id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7881
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 963,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 606,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7739,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7736,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8702
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article body, paragraphs beginning “Does the Christian life…” and “When we look at the account in the garden…”; also the paragraphs about fleshly comforts and surrendering the flesh",
+      "severity": "major",
+      "source_quote": "“One of the ways he does this is by enticing our flesh.” / “He laid down His flesh” / “fulfill our fleshly comforts” / “surrender our flesh”",
+      "suggested_fix": "In these contexts, translate “flesh” as the sinful or self-directed nature, rather than simply the physical body. For example, revise “kwa kushawishi miili yetu” to “kwa kushawishi asili yetu ya dhambi,” “Aliutiisha mwili wake” to “Aliishinda asili yake ya kibinadamu,” and “matamanio ya miili yetu ya kustarehe” to “tamaa zetu za kujifurahisha.” Use a contextually suitable equivalent in the later reference to surrendering the flesh.",
+      "translation_quote": "“kwa kushawishi miili yetu” / “Aliutiisha mwili wake” / “matamanio ya miili yetu ya kustarehe” / “kuutiisha mwili wetu”"
+    },
+    {
+      "location": "Section metadata",
+      "severity": "minor",
+      "source_quote": "“Inspirations for Youth”",
+      "suggested_fix": "Use a Kiswahili rendering that preserves the sense of inspiration, such as “Mahamasiho kwa Vijana” or “Misukumo kwa Vijana,” rather than changing the section to teachings.",
+      "translation_quote": "“Mafundisho kwa Vijana”"
+    }
+  ],
   "id": "0ec7176e1ff47b1e129224e623e3e64b",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "swa",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6-luna"

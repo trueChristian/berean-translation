@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bdcfec35-d38c-4990-b475-afc47f4d0bb0",
+    "response_id": "chatcmpl-EUrVplczauIU5WohO3ic3upEp4biN",
+    "usage": {
+      "completion_tokens": 677,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 484,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5723,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5720,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6400
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragrafo sotto «Conta le tue benedizioni»; citazione di 2 Corinzi 10:12",
+        "severity": "major",
+        "source_quote": "…but they measuring themselves by themselves, and comparing themselves among themselves, are not wise –2 Corinthians 10:12.",
+        "suggested_fix": "Sostituisci solo il testo della citazione con: «…ma essi, misurando sé stessi con sé stessi e paragonando sé stessi fra loro, non agiscono con saggezza –2 Corinzi 10:12.» Mantieni invariati i tag HTML e la posizione del riferimento.",
+        "translation_quote": "…ma essi, misurandosi secondo la propria misura e paragonandosi fra loro, non hanno giudizio –2 Corinzi 10:12."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

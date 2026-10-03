@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph 2",
+      "severity": "minor",
+      "source_quote": "This is a huge number and one that I can’t wrap my mind around.",
+      "suggested_fix": "Replace “ek kan my kop nie daarom kry nie” with “ek kan dit nie begryp nie” to express that the number is difficult to comprehend.",
+      "translation_quote": "Dit is ’n ontsaglike groot getal, en ek kan my kop nie daarom kry nie."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

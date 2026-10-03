@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ee4f72fd-88df-4dd8-9e45-c8e9b87d5932",
+    "response_id": "chatcmpl-EUrWZAfV61EZplNJXwRM2LhMAf1Uh",
+    "usage": {
+      "completion_tokens": 650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 436,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1890,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1887,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2540
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 1, line 4",
+        "severity": "minor",
+        "source_quote": "The hairs of our head, He knows the sum.",
+        "suggested_fix": "Sa quanti sono i capelli del nostro capo.",
+        "translation_quote": "Sa contare i capelli del nostro capo."
+      },
+      {
+        "location": "Poem, stanza 5, line 4",
+        "severity": "minor",
+        "source_quote": "He stands and knocks; will you open the door?",
+        "suggested_fix": "È lì che bussa: aprirai la porta?",
+        "translation_quote": "Sta in piedi e bussa: aprirai la porta?"
+      },
+      {
+        "location": "Poem, stanza 6, line 2",
+        "severity": "minor",
+        "source_quote": "But every moment, your fears disregard.",
+        "suggested_fix": "ma in ogni momento, non dare ascolto alle tue paure.",
+        "translation_quote": "ma in ogni momento, non lasciarti sopraffare dalle paure."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

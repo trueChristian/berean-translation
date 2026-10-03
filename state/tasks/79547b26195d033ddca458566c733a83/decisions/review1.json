@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, sömnavsnitt, andra stycket",
+      "severity": "major",
+      "source_quote": "If you are waking up feeling unrested, it is important to figure out why.",
+      "suggested_fix": "Ändra till: ”Om du vaknar och känner dig outvilad är det viktigt att ta reda på varför.”",
+      "translation_quote": "Om du vaknar och känner dig utvilad är det viktigt att ta reda på varför."
+    },
+    {
+      "location": "HTML, avsnittet ”Motionera regelbundet”, första stycket",
+      "severity": "major",
+      "source_quote": "…rushing out to run three miles…",
+      "suggested_fix": "Ändra ”fem kilometer” till ”knappt fem kilometer” eller ”cirka 4,8 kilometer” för att återge tre miles.",
+      "translation_quote": "…rusa ut och springa fem kilometer…"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

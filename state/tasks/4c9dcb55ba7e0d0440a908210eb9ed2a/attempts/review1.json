@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning ‘The Bible describes the brutality…’\",\"severity\":\"major\",\"source_quote\":\"“Jealousy is as cruel as the grave.”\",\"suggested_fix\":\"Replace “Jaloezie is zo wreed als het graf” with “Jaloezie is zo wreed als het graf” only if “jealousy” is intended as the source’s distinct claim; the present Dutch wording already conveys this sentence. The substantive error is that the following quoted line and its attribution must preserve the source’s “envy” as the subject, rather than altering the cited wording: translate faithfully as “Afgunst [is] verrotting van de beenderen – Spreuken 14:30.”\",\"translation_quote\":\"“Afgunst [is] verrotting der beenderen – Spreuken 14:30.”\"},{\"location\":\"HTML, paragraph beginning ‘The Bible describes the brutality…’\",\"severity\":\"major\",\"source_quote\":\"“Wrath is cruel, and anger is outrageous; but who is able to stand before envy? –Proverbs 27:4.”\",\"suggested_fix\":\"Correct the first two clauses to distinguish wrath from anger, for example: “De grimmigheid is wreed en de toorn is overstelpend; maar wie kan voor afgunst bestaan? – Spreuken 27:4.”\",\"translation_quote\":\"“De grimmigheid is wreed, en de toorn is overstelpend; maar wie zal voor de nijdigheid bestaan? – Spreuken 27:4.”\"},{\"location\":\"HTML, paragraph beginning ‘There were friends in the same church…’\",\"severity\":\"major\",\"source_quote\":\"“one daughter dated and married long before the other one began a courtship.”\",\"suggested_fix\":\"Translate “dated” as dating/going out with someone, not starting a relationship generally; for example: “de ene dochter ging uit met iemand en trouwde lang voordat de andere aan verkering begon.”\",\"translation_quote\":\"“kreeg de ene dochter een relatie en trouwde ze lang voordat de andere aan verkering begon.”\"},{\"location\":\"HTML, paragraph beginning ‘The Scripture is clear about enmity…’\",\"severity\":\"major\",\"source_quote\":\"“He that saith he is in the light, and hateth his brother, is in darkness even until now.”\",\"suggested_fix\":\"Retain the source’s explicit ‘says he is in the light’ construction, for example: “Wie zegt in het licht te zijn en zijn broeder haat, is tot nu toe in de duisternis.”\",\"translation_quote\":\"“Wie zegt dat hij in het licht is en zijn broeder haat, is tot nu toe in de duisternis.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2434,
+    "content_evidence_truncated": false,
+    "content_sha256": "c2a1fbeea5ce9679fd1e195421dfd8d7757af8df4cf99508cc49936ec1f4b578",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 584,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5577,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5574,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6161
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

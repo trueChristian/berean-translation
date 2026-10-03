@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, paragraph under “Have Friends, Not Rivals”",
+      "severity": "major",
+      "source_quote": "“We might hesitate to admit that we have a rival, but that’s what a friend will become if we aren’t able to celebrate the blessings in her life.”",
+      "suggested_fix": "Replace the clause «αλλά αυτό θα γίνει μια φίλη αν δεν μπορούμε να γιορτάσουμε τις ευλογίες στη ζωή της» with «αλλά μια φίλη μπορεί να γίνει αντίπαλος αν δεν μπορούμε να γιορτάσουμε τις ευλογίες στη ζωή της»; this restores the source’s meaning that jealousy can turn a friend into a rival.",
+      "translation_quote": "«Ίσως διστάζουμε να παραδεχτούμε ότι έχουμε αντίπαλο, αλλά αυτό θα γίνει μια φίλη αν δεν μπορούμε να γιορτάσουμε τις ευλογίες στη ζωή της.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

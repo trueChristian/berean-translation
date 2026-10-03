@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo sui bambini non ancora nati\",\"severity\":\"major\",\"source_quote\":\"For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.\",\"suggested_fix\":\"Per molte madri in attesa, la vita che cresce nel grembo è un peso ingombrante, per il quale non vale la pena fare il sacrificio necessario a portarla a termine.\",\"translation_quote\":\"Per molte donne, la vita che cresce nel grembo è un peso ingombrante, per il quale non vale la pena fare il sacrificio necessario a portarla a termine.\"},{\"location\":\"Paragrafo sul vino nuovo e la durezza egoistica\",\"severity\":\"major\",\"source_quote\":\"He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.\",\"suggested_fix\":\"<em>Fu disprezzato e rifiutato dagli uomini… –Isaia 53:3,</em> e fu destituito alla prima occasione.\",\"translation_quote\":\"<em>Fu disprezzato e rifiutato dagli uomini… –Isaia 53:3,</em> e fu deposto alla prima occasione.\"},{\"location\":\"Paragrafo sugli sforzi modesti e le monetine della vedova\",\"severity\":\"major\",\"source_quote\":\"The addition of the widow’s two mites to the treasury arrested the attention of the general populace, though not in a positive fashion.\",\"suggested_fix\":\"L’aggiunta delle due monetine della vedova al tesoro attirò l’attenzione della gente, anche se non in modo favorevole.\",\"translation_quote\":\"L’aggiunta delle due monetine della vedova al tesoro attirò l’attenzione della gente, anche se non in senso positivo.\"},{\"location\":\"Paragrafo sulle iniziative paraecclesiali\",\"severity\":\"major\",\"source_quote\":\"Para-church Outreaches, personal ministries, retreats, and seminars lend an exciting appeal, to religious zealots, while the weekly meetings in the local church seem rather common and drab.\",\"suggested_fix\":\"Le iniziative paraecclesiali, i ministeri personali, i ritiri e i seminari esercitano un fascino entusiasmante sui fanatici religiosi, mentre le riunioni settimanali nella chiesa locale sembrano piuttosto ordinarie e monotone.\",\"translation_quote\":\"Le iniziative paraecclesiali, i ministeri personali, i ritiri e i seminari esercitano un fascino entusiasmante sui fanatici religiosi, mentre le riunioni settimanali nella chiesa locale sembrano piuttosto ordinarie e monotone.\"},{\"location\":\"Paragrafo finale biografico su Alex Posey\",\"severity\":\"major\",\"source_quote\":\"He held onto a branch of a tree until help came, but by the time they could throw him a rope his hands had paralyzed, and he couldn’t unmold them to clasp the rope, so he sank out of sight beneath the waters and died in the tide.\",\"suggested_fix\":\"Si aggrappò a un ramo di un albero finché non arrivarono i soccorsi, ma quando riuscirono a lanciargli una corda le mani gli si erano paralizzate e non riuscì a scioglierle per afferrare la corda; così scomparve sotto la superficie delle acque e morì nella corrente.\",\"translation_quote\":\"Si aggrappò a un ramo di un albero finché non arrivarono i soccorsi, ma quando riuscirono a lanciargli una corda le mani gli si erano paralizzate e non riuscì a distenderle per afferrare la corda; così scomparve sotto la superficie delle acque e morì nella corrente.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 3283,
+    "content_evidence_truncated": false,
+    "content_sha256": "7f497567628e7d852e6b045c007b74ac7bc20844c969d7d11965a0198e5133fa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8849,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8846,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9674
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

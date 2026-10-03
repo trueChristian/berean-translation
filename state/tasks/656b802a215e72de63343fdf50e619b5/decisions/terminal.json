@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, second stanza, final line",
+      "severity": "minor",
+      "source_quote": "I’m not the only pot.",
+      "suggested_fix": "Replace the line with “Não sou o único pote.” or another concise Portuguese equivalent that does not add a new image.",
+      "translation_quote": "Não sou o único pote nesta odisseia."
+    },
+    {
+      "location": "Poem, first stanza, final line",
+      "severity": "minor",
+      "source_quote": "A lamp, or a plate, or a kitchen sink?",
+      "suggested_fix": "Remove “a valer” and use a natural equivalent, such as “Uma lâmpada, um prato ou uma pia de cozinha?”",
+      "translation_quote": "Uma lâmpada, um prato ou pia de cozinha a valer?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "589f8380-2807-4273-8827-2f58c6e42e1c",
+    "response_id": "chatcmpl-EUrXBjLfBBeGY8F6s45JG7QjZkZdy",
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 493,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2018,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2015,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2629
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, puisi paragraf 5, baris 1",
+        "severity": "major",
+        "source_quote": "Into another pot I smack,",
+        "suggested_fix": "Hapus tambahan “Tanpa sengaja” agar barisnya berbunyi “Kutabrak pot lain,”; sumber menyatakan benturan, tetapi tidak menyebut bahwa benturan itu tidak disengaja.",
+        "translation_quote": "Tanpa sengaja kutabrak pot lain,"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

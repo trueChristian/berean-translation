@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f410c0c7-481b-4d36-8cb1-5c19d4cfebc4",
+    "response_id": "chatcmpl-EUrWMDlSw0h2Zal8pMXzPJNk6qsEH",
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 642,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7850,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7847,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8669
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文，第6段，引用使徒行传9:20",
+        "severity": "major",
+        "source_quote": "“…straightway he preached Christ in the synagogues, that he is the Son of God –Acts 9:20.”",
+        "suggested_fix": "将“……随即在各会堂里传扬耶稣，说祂是上帝的儿子。”改为“……随即在各会堂里传扬基督，说祂是上帝的儿子。”",
+        "translation_quote": "“……随即在各会堂里传扬耶稣，说祂是上帝的儿子。——使徒行传9:20。”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 8084
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 572,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7943,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7940,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8515
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, opening paragraph",
+      "severity": "major",
+      "source_quote": "“When God told him to build an ark, there was no wavering. He spent the next 120 years confidently doing just that.”",
+      "suggested_fix": "Replace « il n’a pas hésité » with « il n’a pas vacillé » to preserve the source’s assertion that Noah did not waver.",
+      "translation_quote": "« il n’a pas hésité »"
+    },
+    {
+      "location": "Article, final paragraph; Isaiah 61:1-3 quotation",
+      "severity": "major",
+      "source_quote": "“to bind up the brokenhearted”",
+      "suggested_fix": "Replace « pour guérir ceux qui ont le cœur brisé » with « pour panser ceux qui ont le cœur brisé »; the source says to bind up, not to heal.",
+      "translation_quote": "« pour guérir ceux qui ont le cœur brisé »"
+    },
+    {
+      "location": "Article, final paragraph; Isaiah 61:1-3 quotation",
+      "severity": "major",
+      "source_quote": "“to proclaim liberty to the captives, and the opening of the prison to them that are bound”",
+      "suggested_fix": "Replace « pour proclamer la liberté aux captifs et la délivrance aux prisonniers » with « pour proclamer la liberté aux captifs et l’ouverture de la prison à ceux qui sont enchaînés »; preserve both the opening of the prison and the description of those bound.",
+      "translation_quote": "« pour proclamer la liberté aux captifs et la délivrance aux prisonniers »"
+    },
+    {
+      "location": "Article, final paragraph; Isaiah 61:1-3 quotation",
+      "severity": "major",
+      "source_quote": "“To appoint unto them that mourn in Zion, to give unto them beauty for ashes”",
+      "suggested_fix": "Replace « pour accorder aux affligés de Sion, pour leur donner un diadème au lieu de la cendre » with « pour accorder à ceux qui sont dans le deuil en Sion, pour leur donner la beauté au lieu de la cendre »; « diadème » changes the source’s image.",
+      "translation_quote": "« pour accorder aux affligés de Sion, pour leur donner un diadème au lieu de la cendre »"
+    },
+    {
+      "location": "Article, final paragraph; Isaiah 61:1-3 quotation",
+      "severity": "major",
+      "source_quote": "“that they might be called trees of righteousness”",
+      "suggested_fix": "Replace « afin qu’on les appelle des térébinthes de la justice » with « afin qu’on les appelle des arbres de justice »; the source says trees, not specifically terebinths.",
+      "translation_quote": "« afin qu’on les appelle des térébinthes de la justice »"
+    }
+  ],
   "id": "1b1dd9be15166f0eac38544ac9bb4639",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "fra",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

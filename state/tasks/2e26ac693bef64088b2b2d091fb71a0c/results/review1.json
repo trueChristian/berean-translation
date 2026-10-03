@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "50b8db74-c16b-4518-944a-3a1ace13b62d",
+    "response_id": "chatcmpl-EUrXfeHkMyHQRg5FhcoV9EuPLehkv",
+    "usage": {
+      "completion_tokens": 496,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 401,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2001,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2500
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, third stanza",
+        "severity": "major",
+        "source_quote": "A husband, a daughter, and some brothers.",
+        "suggested_fix": "Vervang ‘een man’ door ‘een echtgenoot’, zodat de familierelatie uit de bron behouden blijft.",
+        "translation_quote": "een man, een dochter en enkele broers."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

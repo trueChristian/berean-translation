@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e63b4727-59b8-45f6-8e2e-03347d4fa7a3",
+    "response_id": "chatcmpl-EUrWCdbHgoRKiVW43PxP2399RElL8",
+    "usage": {
+      "completion_tokens": 905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 765,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7967,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7964,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8872
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, Isaiah 61:1–3 quotation",
+        "severity": "major",
+        "source_quote": "to proclaim liberty to the captives, and the opening of the prison to them that are bound",
+        "suggested_fix": "Replace ״לקרוא לשבויים דרור ולאסורים פקיחת עיניים״ with ״לקרוא לשבויים דרור ולפתוח את הכלא לאסורים״.",
+        "translation_quote": "לקרוא לשבויים דרור ולאסורים פקיחת עיניים"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

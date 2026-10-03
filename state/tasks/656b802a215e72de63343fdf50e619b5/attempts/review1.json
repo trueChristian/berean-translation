@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, second stanza, final line\",\"severity\":\"minor\",\"source_quote\":\"I’m not the only pot.\",\"suggested_fix\":\"Replace the line with “Não sou o único pote.” or another concise Portuguese equivalent that does not add a new image.\",\"translation_quote\":\"Não sou o único pote nesta odisseia.\"},{\"location\":\"Poem, first stanza, final line\",\"severity\":\"minor\",\"source_quote\":\"A lamp, or a plate, or a kitchen sink?\",\"suggested_fix\":\"Remove “a valer” and use a natural equivalent, such as “Uma lâmpada, um prato ou uma pia de cozinha?”\",\"translation_quote\":\"Uma lâmpada, um prato ou pia de cozinha a valer?\"}],\"passed\":true,\"score\":95}",
+    "content_bytes": 671,
+    "content_evidence_truncated": false,
+    "content_sha256": "b92901e869fa1e0a24ce6369de5e3b1404f6b2d6241965f0f9bd1e0891af8a91",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1158,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 975,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1987,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1984,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3145
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

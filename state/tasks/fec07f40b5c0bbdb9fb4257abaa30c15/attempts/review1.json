@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Strophe 1, lignes 3–4\",\"severity\":\"major\",\"source_quote\":\"The church our blest Redeemer saved / With His own precious blood.\",\"suggested_fix\":\"Remplacer par « L’Église que notre bienheureux Rédempteur a sauvée / Par le sang précieux du Rédempteur lui-même. » afin d’attribuer clairement le sang au Rédempteur.\",\"translation_quote\":\"L’Église que notre bienheureux Rédempteur a sauvée / De son propre sang précieux.\"},{\"location\":\"Strophe 2, ligne 3\",\"severity\":\"minor\",\"source_quote\":\"To her my cares and toils be giv’n,\",\"suggested_fix\":\"Remplacer « mes soucis et mes peines » par « mes soucis et mes labeurs » pour rendre l’idée du travail consacré à l’Église.\",\"translation_quote\":\"À elle, je consacrerai mes soucis et mes peines,\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 824,
+    "content_evidence_truncated": false,
+    "content_sha256": "3e199dab1123137c7378708ba334b549b002ed4f89c016bce63f18691458fa8d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 469,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1768,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1765,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2460
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

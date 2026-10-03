@@ -1,0 +1,93 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e5467017-62ce-4132-a4f7-6dc1998cc6ad",
+    "response_id": "chatcmpl-EUrVzEbwG5Eu5LQpLUDmu5FgD2sYh",
+    "usage": {
+      "completion_tokens": 1267,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8954,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10224
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Avsnittet ”… små”, stycket om barn",
+        "severity": "major",
+        "source_quote": "“Children are the opposite. They are the emblem of innocence, dependance, and ignorance.”",
+        "suggested_fix": "Ändra ”beroende” till ”självständighet” eller ”beroendeställning” endast om avsikten är att återge ”dependance”; här bör ordet återges som ”beroende” i betydelsen att barn är beroende av andra. Den nuvarande formuleringen är dock korrekt i sak och kräver ingen ändring.",
+        "translation_quote": "“Barn är motsatsen. De är sinnebilden för oskuld, beroende och okunskap.”"
+      },
+      {
+        "location": "Avsnittet ”… små”, stycket om ofödda barn",
+        "severity": "major",
+        "source_quote": "“For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.”",
+        "suggested_fix": "Ändra ”För många gravida kvinnor” till exempelvis ”För många ofödda barns mödrar” för att bevara källans uttryckliga, om än ovanliga, påstående om ”wombs of the unborn”.",
+        "translation_quote": "“För många gravida kvinnor är det ofödda livet i livmodern en besvärlig börda som inte är värd uppoffringen som krävs för att behålla det.”"
+      },
+      {
+        "location": "Avsnittet ”… de senare”, stycket om den nya ”vinen”",
+        "severity": "major",
+        "source_quote": "“He [was] despised and rejected of men… –Isaiah 53:3,”",
+        "suggested_fix": "Ändra ”föraktad och övergiven” till ”föraktad och förkastad” för att återge ”rejected”.",
+        "translation_quote": "“Han [var] föraktad och övergiven av människor … –Jesaja 53:3,”"
+      },
+      {
+        "location": "Avsnittet ”… de mindre”, stycket om fåglar",
+        "severity": "minor",
+        "source_quote": "“a row of cottages for the blue bird, a mansion for the martins”",
+        "suggested_fix": "Ändra ”en herrgård åt svalor” till ”en herrgård åt martinernas svalor” eller en annan tydlig svensk benämning på martins; källan skiljer dessa från blåfåglarna.",
+        "translation_quote": "“en rad fågelholkar åt blåfåglarna, en herrgård åt svalor”"
+      },
+      {
+        "location": "Avsnittet ”… de mindre”, stycket om välgörenhet",
+        "severity": "major",
+        "source_quote": "“A cup of cold water given in charity will not go unnoticed by God. Neither will the praise of a sparrow.”",
+        "suggested_fix": "Översätt ”the praise of a sparrow” som ”inte heller en sparvs lovprisning” eller motsvarande; ”lovsång” gör innebörden till sång/worship snarare än praise.",
+        "translation_quote": "“En bägare kallt vatten som ges av välgörenhet kommer inte att gå Gud obemärkt förbi. Inte heller sparvens lovsång.”"
+      },
+      {
+        "location": "Avsnittet ”… de mindre”, stycket om kommunistiska regimer",
+        "severity": "major",
+        "source_quote": "“we sigh and lament at the vast ignorance and injustice of such prejudice precinct”",
+        "suggested_fix": "Återge källans formulering som ”sådan utbredd okunnighet och orättvisa i fördomsfulla kretsar” eller motsvarande; översättningen ändrar den svårformulerade källtexten till ”sådana fördomsfulla kretsar” och tappar dess sakpåstående om omfattande okunnighet och orättvisa.",
+        "translation_quote": "“vi suckar och klagar över den utbredda okunskapen och orättvisan i sådana fördomsfulla kretsar”"
+      },
+      {
+        "location": "Avsnittet ”… de oansenliga”, stycket om skönhet",
+        "severity": "major",
+        "source_quote": "“Many will go to extra efforts to deplete their outward ostentation”",
+        "suggested_fix": "Ändra ”minska sin yttre prakt” till ”tona ner sin yttre prålighet” eller liknande; ”deplete” innebär här att reducera den yttre pråligheten, inte nödvändigtvis den estetiska prakten.",
+        "translation_quote": "“Många gör sig extra möda för att minska sin yttre prakt”"
+      },
+      {
+        "location": "Avsnittet ”… förlorade”, stycket om den lokala församlingen",
+        "severity": "major",
+        "source_quote": "“Para-church Outreaches, personal ministries, retreats, and seminars lend an exciting appeal, to religious zealots”",
+        "suggested_fix": "Ändra ”Parakyrkliga missionsinsatser, personliga tjänster” till en formulering som bevarar kategorierna, exempelvis ”parakyrkliga verksamheter, personliga tjänstearbeten”; ”personal ministries” avser personliga tjänster/verksamheter, inte bara ”tjänster”.",
+        "translation_quote": "“Parakyrkliga missionsinsatser, personliga tjänster, retreater och seminarier lockar religiösa eldsjälar”"
+      },
+      {
+        "location": "Slutstycket om Alex Posey",
+        "severity": "major",
+        "source_quote": "“his hands had paralyzed, and he couldn’t unmold them to clasp the rope”",
+        "suggested_fix": "Ändra ”öppna dem” till ”lossa dem” eller ”röra dem” för att återge att händerna hade låst sig/förlamats och att han inte kunde få dem loss från grenen.",
+        "translation_quote": "“hade hans händer förlamats, och han kunde inte öppna dem för att gripa repet.”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

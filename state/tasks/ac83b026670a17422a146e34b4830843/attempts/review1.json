@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / corresponding translation.html, paragraph beginning “It is probably best to get this from a combination…”\",\"severity\":\"major\",\"source_quote\":\"While it is probably best to get this from a combination of food and sun exposure, including supplements of Vitamin D may be helpful for older people or for anyone who has trouble achieving this.\",\"suggested_fix\":\"Replace only the corresponding Norwegian sentence with: «Selv om det sannsynligvis er best å få dette fra en kombinasjon av mat og soleksponering, kan det være nyttig å ta D-vitamintilskudd for eldre eller for alle som har problemer med å få til dette.»\",\"translation_quote\":\"Selv om det sannsynligvis er best å få det fra en kombinasjon av mat og soleksponering, kan vitamin D-tilskudd være nyttig for eldre eller for alle som har problemer med å få i seg nok på denne måten.\"},{\"location\":\"source.html / corresponding translation.html, final substantive paragraph\",\"severity\":\"major\",\"source_quote\":\"It is important that we are conscious of ways in which we can help, and not impede, these wonderfully designed cells and structures that prevent damaging organisms from entering our bodies and causing infection.\",\"suggested_fix\":\"Replace only the corresponding Norwegian sentence with: «Det er viktig at vi er bevisste på hvordan vi kan hjelpe disse underfullt utformede cellene og strukturene, og ikke hindre dem i å forhindre at skadelige organismer trenger inn i kroppen og forårsaker infeksjon.»\",\"translation_quote\":\"Det er viktig at vi er bevisste på hvordan vi kan hjelpe disse underfullt utformede cellene og strukturene, og ikke hindre dem i å stoppe skadelige organismer fra å trenge inn i kroppen og forårsake infeksjon.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1789,
+    "content_evidence_truncated": false,
+    "content_sha256": "02e2443bae75ab28db114ae248c090dccd69c6eda8e39dadb4940338dc633a34",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 401,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9661,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9658,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10062
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

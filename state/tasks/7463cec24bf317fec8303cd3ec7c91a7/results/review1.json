@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1789f4c5-2391-4521-8e15-381df6604c32",
+    "response_id": "chatcmpl-EUrVpOhIxyg0VSXxnVqXxI9xDlIov",
+    "usage": {
+      "completion_tokens": 473,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10331,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10328,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10804
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "متن، حصہ «مدافعتی خلیے»",
+        "severity": "major",
+        "source_quote": "“soldiers” of our immune system are: white blood cells, B cells (which make antibodies), and T cells.",
+        "suggested_fix": "«ہمارے مدافعتی نظام کے ’’سپاہی‘‘ یہ ہیں: سفید خون کے خلیے، بی خلیے (جو اینٹی باڈیز بناتے ہیں) اور ٹی خلیے۔»",
+        "translation_quote": "«ہمارے مدافعتی نظام کے ’’سپاہی‘‘ یہ ہیں: سفید خون کے خلیے، بی خلیے (جو اینٹی باڈیز بناتے ہیں) اور ٹی خلیے۔»"
+      },
+      {
+        "location": "متن، حصہ «غذا»",
+        "severity": "major",
+        "source_quote": "Foods that are high in added nitrates, like cured meats, tend to greatly increase these free radicals and should be avoided.",
+        "suggested_fix": "«اضافی نائٹریٹس والی غذائیں، مثلاً نمک لگا کر محفوظ کیا ہوا گوشت، ان آزاد ریڈیکلز میں نمایاں اضافہ کرتی ہیں، اس لیے ان سے پرہیز کرنا چاہیے۔»",
+        "translation_quote": "«اضافی نائٹریٹس والی غذائیں، مثلاً نمک لگا کر محفوظ کیا ہوا گوشت، ان آزاد ریڈیکلز میں نمایاں اضافہ کرتی ہیں، اس لیے ان سے پرہیز کرنا چاہیے۔»"
+      },
+      {
+        "location": "متن، حصہ «سپلیمنٹس»",
+        "severity": "major",
+        "source_quote": "I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.",
+        "suggested_fix": "«میں یہاں یہ تنبیہ کروں گا کہ اسے ہر روز لینے کا مشورہ نہیں؛ بلکہ جب سانس کی اوپری نالی کے انفیکشن کی پہلی علامت ظاہر ہو تو اسے لیا جائے۔»",
+        "translation_quote": "«میں یہاں یہ تنبیہ کروں گا کہ اسے ہر روز لینے کے لیے نہیں بنایا گیا؛ بلکہ سانس کی اوپری نالی کے انفیکشن کی پہلی علامت ظاہر ہوتے ہی زیادہ مقدار لینی چاہیے۔»"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

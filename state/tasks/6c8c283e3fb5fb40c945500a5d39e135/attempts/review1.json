@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Remember, the word desire…” (Psalm quotation)\",\"severity\":\"major\",\"source_quote\":\"“So they did eat, and were well filled: for he gave them their own desire; They were not estranged from their lust. But while their meat was yet in their mouths, The wrath of God came upon them, and slew the fattest of them, and smote down the chosen men of Israel –Psalm 78:29-31.”\",\"suggested_fix\":\"Correct the final clause to preserve the source’s meaning: replace “اور اسرائیل کے جوانوں کو پست کر دیا” with “اور اسرائیل کے چنے ہوئے لوگوں کو مار گرایا” (or an equivalent faithful Urdu rendering).\",\"translation_quote\":\"“اور خدا کا غضب اُن پر نازل ہوا اور اُن میں سے موٹوں کو مارا اور اسرائیل کے جوانوں کو پست کر دیا—زبور 78:29-31۔”\"},{\"location\":\"HTML, paragraph beginning “Another good example of God giving people…” (1 Samuel quotation)\",\"severity\":\"major\",\"source_quote\":\"“...for they have not rejected thee, but they have rejected me, that I should not reign over them –1 Samuel 8:5-7.”\",\"suggested_fix\":\"Replace “تاکہ میں اُن کا بادشاہ نہ رہوں” with a faithful rendering of God no longer reigning over them, such as “تاکہ میں اُن پر حکومت نہ کروں” or “تاکہ میں اُن پر بادشاہی نہ کروں”.\",\"translation_quote\":\"“کیونکہ اُنہوں نے تجھ کو نہیں بلکہ مجھ کو رد کیا ہے تاکہ میں اُن کا بادشاہ نہ رہوں—1 سموئیل 8:5-7۔”\"},{\"location\":\"HTML, paragraph beginning “Just like the children of Israel…”\",\"severity\":\"major\",\"source_quote\":\"“If we have been born of God’s Spirit, He led us out of our ‘Egypt’; He showed us the path of life; He brought us out of the miry clay; He set our feet on a solid rock.”\",\"suggested_fix\":\"Correct the final image to say that God set our feet on solid rock; replace “اُس نے ہمارے قدم مضبوط چٹان پر جما دیے” only if needed to make the meaning explicit as “اُس نے ہمارے پاؤں مضبوط چٹان پر جما دیے”.\",\"translation_quote\":\"“اُس نے ہمیں دلدل کی مٹی سے نکالا؛ اُس نے ہمارے قدم مضبوط چٹان پر جما دیے۔”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 2472,
+    "content_evidence_truncated": false,
+    "content_sha256": "cfcfff0f90289f8ee62af141ccecfc8c6ed2b34b9921303841cc305082edaa68",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 551,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8050,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8047,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8601
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first stanza, third line",
+      "severity": "minor",
+      "source_quote": "The church our blest Redeemer saved",
+      "suggested_fix": "den kyrka som vår välsignade Frälsare har räddat",
+      "translation_quote": "den kyrka som vår salige Frälsare räddat"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

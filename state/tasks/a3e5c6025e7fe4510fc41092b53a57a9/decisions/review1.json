@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "Like the present day “baker’s dozen”, this typical scene had repeated itself so often that it had become tradition",
+      "suggested_fix": "Replace «чёртова дюжина» with «пекарская дюжина» or another clear Russian rendering of the custom of giving thirteen for the price of twelve.",
+      "translation_quote": "Как и нынешняя «чёртова дюжина» у пекаря, эта типичная сцена повторялась так часто, что стала традицией"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

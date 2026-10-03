@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3a6f5d67-eed0-4f7d-8bf3-5643e18b4d7f",
+    "response_id": "chatcmpl-EUrVq9feyBGvDOBu4ty3UZfs0u4kq",
+    "usage": {
+      "completion_tokens": 753,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 606,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1966,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2722
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, final stanza",
+        "severity": "major",
+        "source_quote": "With confidence in God, His power to display.",
+        "suggested_fix": "Replace “하나님을 <strong><em>확신</em></strong>하며” with “하나님을 <strong><em>신뢰</em></strong>하며” to convey confidence placed in God, rather than certainty about God.",
+        "translation_quote": "하나님을 <strong><em>확신</em></strong>하며 그분의 능력을 드러낼 백성을."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph 1",
+      "severity": "major",
+      "source_quote": "“for we are well able to overcome it –Numbers 13:30.”",
+      "suggested_fix": "استبدل «لأننا قادرون عليها جدًا» بعبارة عربية تنقل معنى «نحن قادرون تمامًا على التغلب عليها»، مع إبقاء المرجع العدد 13:30 كما هو.",
+      "translation_quote": "«لأننا قادرون عليها جدًا –العدد 13:30.»"
+    },
+    {
+      "location": "source.html, paragraph 4",
+      "severity": "major",
+      "source_quote": "“They are guaranteed that they will be blessed if they suffer, if they are poor, if they are hungry, and if they mourn.”",
+      "suggested_fix": "استبدل «ويُؤكَّد لهم أنهم مباركون» بعبارة تفيد أنهم «مضمون لهم أن يكونوا مباركين» في الأحوال المذكورة، محافظةً على قوة التأكيد في الأصل.",
+      "translation_quote": "«ويُؤكَّد لهم أنهم مباركون إن تألموا، وإن كانوا فقراء، أو جياعًا، أو نائحين.»"
+    },
+    {
+      "location": "source.html, paragraph 5",
+      "severity": "major",
+      "source_quote": "“even when they began to gnash their teeth at him, and stone him.”",
+      "suggested_fix": "صحّح العبارة لتفيد أنهم بدؤوا يصرّون بأسنانهم عليه ويرجمونه، لا أن استفانوس هو الذي صرّ بأسنانه عليهم.",
+      "translation_quote": "«حتى عندما أخذوا يصرّون بأسنانهم عليه ويرجمونه.»"
+    },
+    {
+      "location": "source.html, paragraph 6",
+      "severity": "major",
+      "source_quote": "“the chiefest of sinners”",
+      "suggested_fix": "استبدل «رئيس الخطاة» بعبارة تعني «أعظم الخطاة» أو «أكبر الخطاة»، حتى لا توحي العبارة بأنه رئيسهم.",
+      "translation_quote": "«كان شاول عدوًا للصليب، ورئيس الخطاة، وفريسيًا ابن فريسيين.»"
+    },
+    {
+      "location": "source.html, paragraph 8",
+      "severity": "major",
+      "source_quote": "“Some may say it would be easier to have great confidence in God if we were still living in the New Testament Bible times”",
+      "suggested_fix": "احذف «للعهد الجديد» من وصف الأزمنة، أو أعد صياغة العبارة لتقول «في الأزمنة الكتابية التي يتحدث عنها العهد الجديد»، من دون الإيحاء بأن تلك الأزمنة نفسها هي «أزمنة العهد الجديد الكتابية».",
+      "translation_quote": "«في الأزمنة الكتابية للعهد الجديد»"
+    },
+    {
+      "location": "source.html, paragraph 10",
+      "severity": "major",
+      "source_quote": "“but it did not faze stop them.”",
+      "suggested_fix": "ترجم المعنى المقصود: «لكن ذلك لم يزعزعهم» أو «لم يثنهم»، واحذف الجمع غير السليم بين «لم يثنهم» و«لم يوقفهم».",
+      "translation_quote": "«لكن ذلك لم يثنهم ولم يوقفهم.»"
+    },
+    {
+      "location": "source.html, paragraph 11",
+      "severity": "major",
+      "source_quote": "“the easy (broad) way and denied the straight and narrow”",
+      "suggested_fix": "اجعل المقابلة بين الطريق السهل (الواسع) والطريق المستقيم والضيق، مثل «واخترنا الطريق السهل (الواسع) ورفضنا الطريق المستقيم والضيق».",
+      "translation_quote": "«واخترنا الطريق السهل (الواسع) وأنكرنا الطريق المستقيم والضيق.»"
+    },
+    {
+      "location": "source.html, paragraph 13",
+      "severity": "major",
+      "source_quote": "“In the uncertainty of our world today”",
+      "suggested_fix": "استبدل «في ظل ما يسود عالمنا اليوم من عدم يقين» بعبارة تفيد «في ظل الاضطراب/عدم اليقين في عالمنا اليوم» بحسب المقصود، من دون تحويل عدم اليقين إلى ما يسود العالم كله.",
+      "translation_quote": "«في ظل ما يسود عالمنا اليوم من عدم يقين»"
+    },
+    {
+      "location": "source.html, paragraph 14",
+      "severity": "major",
+      "source_quote": "“ye shall receive power, after that the Holy Ghost is come upon you”",
+      "suggested_fix": "أبقِ معنى الترتيب الزمني: «ستنـالون قوة بعد أن يحل الروح القدس عليكم»، بدل «متى حل» التي تجعل الحل شرطًا متزامنًا مع نيل القوة.",
+      "translation_quote": "«...لكنكم ستنالون قوة متى حل الروح القدس عليكم»"
+    },
+    {
+      "location": "source.html, paragraph 17",
+      "severity": "major",
+      "source_quote": "“the minister beside me”",
+      "suggested_fix": "استبدل «الخادم» بـ«القس» أو «الراعي» إذا كان المقصود وصف الوزير/القس المذكور في السياق، لا خادمًا على نحو عام.",
+      "translation_quote": "«لكن الخادم الجالس إلى جانبي لم يبدُ راضيًا»"
+    },
+    {
+      "location": "source.html, paragraph 20",
+      "severity": "major",
+      "source_quote": "“If I weep as I write”",
+      "suggested_fix": "استخدم صيغة المتكلم المذكر المتسقة مع الكاتب في السياق: «إذا بكيتُ وأنا أكتب» بدل «إذا كنت أبكي».",
+      "translation_quote": "«إذا كنت أبكي وأنا أكتب، فهل ستبكون وأنتم تقرأون؟»"
+    },
+    {
+      "location": "source.html, paragraph 25",
+      "severity": "major",
+      "source_quote": "“a church that has no doubt which way is the right way”",
+      "suggested_fix": "ترجم العبارة بمعنى «كنيسة لا يساورها شك في أي طريق هو الطريق الصحيح»، لا «كنيسة لا تشك في الطريق الصحيح» التي تجعل الشك متعلقًا بالطريق نفسه.",
+      "translation_quote": "«كنيسة لا تشك في الطريق الصحيح»"
+    },
+    {
+      "location": "source.html, paragraph 26",
+      "severity": "major",
+      "source_quote": "“with our hearts bowed low”",
+      "suggested_fix": "استبدل «مطأطئي القلوب» بعبارة عربية طبيعية تحفظ معنى التواضع والخضوع، مثل «وقلوبنا خاشعة».",
+      "translation_quote": "«مطأطئي القلوب»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

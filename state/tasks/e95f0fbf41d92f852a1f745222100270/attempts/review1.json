@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, Philippians 4:8 quotation\",\"severity\":\"major\",\"source_quote\":\"“whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things”\",\"suggested_fix\":\"Replace only the quoted text inside the existing <em> tags with: «Til slutt, søsken: Alt som er sant, alt som er ærbart, alt som er rett, alt som er rent, alt som er verdt å elske, alt som har godt omdømme, om det finnes noen dyd og om det finnes noe å rose, legg vinn på dette –Filipperne 4:8.»\",\"translation_quote\":\"«Til slutt, søsken: Alt som er sant, alt som er edelt, rett og rent, alt som er verdt å elske, alt som kan kalles godt, og all god gjerning og alt som er verdt å prise, legg vinn på det! –Filipperne 4:8.»\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 951,
+    "content_evidence_truncated": false,
+    "content_sha256": "03ed6388d3502890d90ecc8cdafd855848250f6471535673ae36e5977a76096d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 707,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5722,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6702
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e9f399fc-c7d7-47a3-b9c2-8b96e5ca350d",
+    "response_id": "chatcmpl-EUrbQ1iBBWJ7m5owlaD9yCknBPTla",
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 698,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1775,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1772,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2585
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first stanza, line 6",
+        "severity": "major",
+        "source_quote": "Her walls before Thee stand,",
+        "suggested_fix": "Sostituisci «Le sue mura davanti a te,» con «Le sue mura stanno davanti a te,» per rendere esplicito che le mura stanno davanti a Dio.",
+        "translation_quote": "Le sue mura davanti a te,"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

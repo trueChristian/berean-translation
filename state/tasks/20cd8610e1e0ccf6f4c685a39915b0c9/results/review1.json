@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b4a9f3b9-3a76-4274-ade6-d4ff1434cd9a",
+    "response_id": "chatcmpl-EUrWSSJmwI5pJ0EFU3xrUYEth9olV",
+    "usage": {
+      "completion_tokens": 527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 394,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5724,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6254
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning « Comme Sandra »",
+        "severity": "major",
+        "source_quote": "Unless checked immediately, that tinge of jealousy keeps me from being happy for others.",
+        "suggested_fix": "Replace « Si je ne les contrarie pas immédiatement » with « Si je ne les maîtrise pas immédiatement » so the sentence says that unchecked jealousy prevents the author from being happy for others.",
+        "translation_quote": "Si je ne les contrarie pas immédiatement, cette pointe de jalousie m’empêche de me réjouir pour les autres."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

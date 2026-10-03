@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "eb481665-d60b-9c09-9ab2-c516c1c11081",
+    "response_id": "chatcmpl-EUrVyCF9zR7WwOvuBMkF9YN0L0SFb",
+    "usage": {
+      "completion_tokens": 581,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 477,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1983,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2567
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 2, final line",
+        "severity": "minor",
+        "source_quote": "But our own understanding, we lean on instead?",
+        "suggested_fix": "তবু কি আমরা তার বদলে নিজেদের বোধবুদ্ধির ওপর নির্ভর করি?",
+        "translation_quote": "তবু কি তার বদলে নিজের বুদ্ধির ওপর নির্ভর রাখো?"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

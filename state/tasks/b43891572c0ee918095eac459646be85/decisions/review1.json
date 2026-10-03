@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Premier paragraphe, citation de Psaume 139:14",
+      "severity": "major",
+      "source_quote": "I will praise thee; for I am fearfully and wonderfully made",
+      "suggested_fix": "Remplacer la citation par une formulation qui conserve les deux idées, par exemple : « Je te louerai, car je suis merveilleusement et admirablement fait » ; garder la référence Psaume 139:14.",
+      "translation_quote": "Je te louerai ; car je suis une créature si merveilleuse"
+    },
+    {
+      "location": "Paragraphe sous « Au commencement », après le paragraphe sur le système immunitaire avant la Chute",
+      "severity": "major",
+      "source_quote": "After the Fall, everything was different. Bacteria and viruses began to be “pathogenic” or disease-causing.",
+      "suggested_fix": "Rendre le changement progressif exprimé par « began to be », par exemple : « Après la Chute, tout a changé. Les bactéries et les virus ont commencé à devenir “pathogènes”, c’est-à-dire à provoquer des maladies. »",
+      "translation_quote": "Après la Chute, tout a changé. Les bactéries et les virus sont devenus « pathogènes », c’est-à-dire responsables de maladies."
+    },
+    {
+      "location": "Paragraphe commençant par « Dieu a créé nos corps avec plusieurs systèmes différents »",
+      "severity": "major",
+      "source_quote": "We are indeed fearfully and wonderfully made.",
+      "suggested_fix": "Rétablir les deux nuances et l’accord avec « nous », par exemple : « Nous sommes véritablement merveilleusement et admirablement faits. »",
+      "translation_quote": "Nous sommes véritablement une créature merveilleuse."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

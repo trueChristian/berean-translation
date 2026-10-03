@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "71f6c18d-7db0-4894-b298-bc243acd02bf",
+    "response_id": "chatcmpl-EUrWLgKp3V8XjMjr8GejUTgj75nAd",
+    "usage": {
+      "completion_tokens": 88,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1746,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1743,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1834
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Strophe 1, Zeile 3",
+        "severity": "major",
+        "source_quote": "The church our blest Redeemer saved",
+        "suggested_fix": "Ändern in: „die Kirche, die unser seliger Erlöser gerettet hat“",
+        "translation_quote": "die Kirche, die unser seliger Erlöser"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d808eeba-3e1d-4616-be85-8d03d8457c8f",
+    "response_id": "chatcmpl-EUrW3vmGtKQiRoVAkQhiNg0cBZ6IN",
+    "usage": {
+      "completion_tokens": 690,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 492,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1768,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1765,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2458
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, lyrics, verse 3",
+        "severity": "minor",
+        "source_quote": "Thy hand from ev’ry snare and foe / Shall great deliverance bring.",
+        "suggested_fix": "Replace the two lines with: “U hand sal groot verlossing bring / van elke strik en vyand.” This more clearly preserves that deliverance is brought from every snare and foe.",
+        "translation_quote": "U hand sal uit elke strik en vyand / groot verlossing bring."
+      },
+      {
+        "location": "HTML, lyrics, verse 2",
+        "severity": "minor",
+        "source_quote": "Her hymns of love and praise.",
+        "suggested_fix": "Consider “haar liedere van liefde en lofprysing” for a more natural rendering of “hymns of love and praise.”",
+        "translation_quote": "haar lofsange van liefde en lof."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

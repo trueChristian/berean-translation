@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, final body paragraph\",\"severity\":\"major\",\"source_quote\":\"We are indeed fearfully and wonderfully made.\",\"suggested_fix\":\"החליפו את «אכן נוראים ונפלאים אנחנו» ב«אכן נבראנו באופן מופלא ומעורר יראה».\",\"translation_quote\":\"אכן נוראים ונפלאים אנחנו.\"},{\"location\":\"source.section\",\"severity\":\"minor\",\"source_quote\":\"A Word from a Doctor\",\"suggested_fix\":\"החליפו את «דברו של רופא» ב«דברי רופא».\",\"translation_quote\":\"דברו של רופא\"},{\"location\":\"source.html, final body paragraph\",\"severity\":\"minor\",\"source_quote\":\"with the Gospel message\",\"suggested_fix\":\"החליפו את «עם בשורת הבשורה» ב«עם בשורת הבשורה»? כדי למנוע את הכפילות, השתמשו ב«כדי להפיץ את הבשורה בעולם שסביבנו».\",\"translation_quote\":\"עם בשורת הבשורה\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1003,
+    "content_evidence_truncated": false,
+    "content_sha256": "b01b014822cd717da3e699b789c726fa00ac1b60d28f929f35123b9aba754d5b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9981,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9978,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10681
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

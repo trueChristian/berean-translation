@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Editor’s Note, paragraph 3; quotation of 2 Timothy 3:16",
+      "severity": "major",
+      "source_quote": "“All scripture … is profitable for doctrine, for reproof, [and] for correction…”",
+      "suggested_fix": "Replace “kwa kuwaongoza” with “kwa kurekebisha” so the quotation preserves “for correction” in the source.",
+      "translation_quote": "“Maandiko yote … yanafaa kwa mafundisho, kwa kuwaonya watu, [na] kwa kuwaongoza…”"
+    },
+    {
+      "location": "Editor’s Note, paragraph 4",
+      "severity": "minor",
+      "source_quote": "“They believe that structured church brings deadness to local bodies”",
+      "suggested_fix": "Correct the garbled phrase “huleta ufu hali” to “huleta ufu” or, more idiomatically in context, “huondoa uhai katika jumuiya za mahali.”",
+      "translation_quote": "“Wanaamini kwamba kanisa lenye muundo huleta ufu hali katika jumuiya za mahali”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

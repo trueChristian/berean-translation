@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Be Thankful",
+      "suggested_fix": "היי אסיר תודה",
+      "translation_quote": "היו אסירי תודה"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

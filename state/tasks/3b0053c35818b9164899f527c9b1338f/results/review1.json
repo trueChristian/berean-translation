@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a89ac76f-98cb-4a83-94ab-d2145b8f0226",
+    "response_id": "chatcmpl-EUrW9hE52gfoJr2oTQ6RX0Kpc4GCw",
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 673,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8967,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9802
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf “...Dua Duit”",
+        "severity": "major",
+        "source_quote": "“The avenues of life that reach out to receive our copper coins are the shrines that hold our hands and our hearts”",
+        "suggested_fix": "Ganti bagian itu dengan: “Saluran-saluran kehidupan tempat kita membelanjakan duit tembaga kita adalah tempat-tempat keramat yang menggenggam tangan dan hati kita”",
+        "translation_quote": "“Jalan-jalan kehidupan yang kita jangkau untuk menerima uang tembaga kita adalah tempat-tempat keramat yang menggenggam tangan dan hati kita”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

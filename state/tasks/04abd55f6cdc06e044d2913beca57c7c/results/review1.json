@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8183c56c-1625-4aca-b0dc-3193eed6d6d1",
+    "response_id": "chatcmpl-EUrVo2VMXlyPQVpWPmAPO7SlkSC1F",
+    "usage": {
+      "completion_tokens": 305,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5302,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5299,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5607
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Párrafo sobre los gobiernos locales y las reuniones de la iglesia",
+        "severity": "major",
+        "source_quote": "I have heard reports of some churches in other parts of the world being pushed by their local government to not meet for fellowship and group worship.",
+        "suggested_fix": "Reformular para conservar que el gobierno presiona a algunas iglesias para que no se reúnan en comunión y para el culto colectivo; por ejemplo: «He oído informes de que, en otras partes del mundo, los gobiernos locales presionan a algunas iglesias para que no se reúnan para tener comunión y celebrar el culto colectivo».",
+        "translation_quote": "He oído informes de que en otras partes del mundo algunos gobiernos locales presionan a ciertas iglesias para que no se reúnan en comunión y para el culto colectivo."
+      },
+      {
+        "location": "Párrafo sobre el modelo de consejería y el uso de mascarillas",
+        "severity": "major",
+        "source_quote": "I believe it WILL cause as much and more detriment to interpersonal relationships.",
+        "suggested_fix": "Restituir la afirmación de que el uso literal de la mascarilla causará un daño igual o mayor a las relaciones interpersonales; por ejemplo: «creo que CAUSARÁ tanto o más daño a las relaciones interpersonales».",
+        "translation_quote": "creo que causará un daño igual o mayor a las relaciones interpersonales."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

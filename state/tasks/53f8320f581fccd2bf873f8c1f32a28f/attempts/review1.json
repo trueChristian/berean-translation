@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem stanza 6\",\"severity\":\"major\",\"source_quote\":\"If what I do, and what I say,\\n    Changes the course of other’s clay,\",\"suggested_fix\":\"Replace the two corresponding lines with: “Om det jag gör och det jag säger,<br>\\n    förändrar hur andras lera formas,”\",\"translation_quote\":\"Om det jag gör och det jag säger\\n    påverkar andra krukors lera,\"},{\"location\":\"source.html, poem stanza 2\",\"severity\":\"minor\",\"source_quote\":\"I’m a little bit shallow, I admit,\\n    For I’m focusing on me quite a bit.\",\"suggested_fix\":\"Use, for example: “Lite ytlig är jag, det medger jag,<br>\\n    för jag fokuserar rätt mycket på mig själv varje dag.”\",\"translation_quote\":\"Lite ytlig är jag, det medger jag,\\n    för jag tänker rätt mycket på mig själv var dag.\"}],\"passed\":false,\"score\":83}",
+    "content_bytes": 850,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac5c85a0a3faac66314ae5396693d431963cf0c0f178739dfbe33aa0ea6ce5df",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2017,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2014,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2241
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

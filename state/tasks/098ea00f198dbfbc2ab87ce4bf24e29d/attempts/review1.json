@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Lyrics, stanza 3, line 5\",\"severity\":\"major\",\"source_quote\":\"Sure as Thy truth shall last,\",\"suggested_fix\":\"تیری سچائی کے ہمیشہ قائم رہنے کی طرح،\",\"translation_quote\":\"جیسے تیرا کلام ہمیشہ قائم رہے گا،\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 315,
+    "content_evidence_truncated": false,
+    "content_sha256": "2dc646f8d06b2f895c898876aaffd904710a3ee74921688c4c71ff4d6e1d1014",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 582,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1870,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1867,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2545
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

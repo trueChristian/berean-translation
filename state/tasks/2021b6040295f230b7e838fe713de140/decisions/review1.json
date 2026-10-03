@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Editor’s Note, paragraph beginning “Another area of shift”",
+      "severity": "minor",
+      "source_quote": "a life of obedient discipleship",
+      "suggested_fix": "Ändra «ett liv i lydig lärjungaskap» till «ett liv i lydigt lärjungaskap».",
+      "translation_quote": "ett liv i lydig lärjungaskap"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

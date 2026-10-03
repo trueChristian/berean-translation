@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html, Absatz beginnend „Denkt daran: Das Wort Wunsch …“; Zitat Psalm 78:29–31\",\"severity\":\"major\",\"source_quote\":\"They were not estranged from their lust.\",\"suggested_fix\":\"Übersetze die Aussage so, dass sie ausdrückt, dass die Israeliten sich nicht von ihrer Begierde abwandten bzw. nicht davon abließen; zum Beispiel: „Sie ließen nicht von ihrer Begierde ab.“\",\"translation_quote\":\"Sie wurden ihrer Begierde nicht überdrüssig.\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 528,
+    "content_evidence_truncated": false,
+    "content_sha256": "ec5517d5e94447dab507d7fd1f448879c9dc0c6e86ba13cf4cdf8030523a174c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7389,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8011
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

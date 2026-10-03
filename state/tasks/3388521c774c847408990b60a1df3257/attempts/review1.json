@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"major\",\"source_quote\":\"her mom’s chest suddenly started hurting very badly\",\"suggested_fix\":\"Заменить «у мамы вдруг сильно заболела грудь» на «у мамы вдруг сильно заболело в груди», чтобы передать боль в грудной клетке, а не боль в груди как части тела.\",\"translation_quote\":\"у мамы вдруг сильно заболела грудь\"},{\"location\":\"Sixth paragraph\",\"severity\":\"minor\",\"source_quote\":\"her favorite recliner\",\"suggested_fix\":\"Заменить «креслу-качалке» на «любимому креслу с откидывающейся спинкой» или другой естественный эквивалент кресла-реклайнера.\",\"translation_quote\":\"её любимому креслу-качалке\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 970,
+    "content_evidence_truncated": false,
+    "content_sha256": "0f7b1f3bf855b8fcacfd2473d2a9eb79a64a51ba8d7f70d17ca09df273371bdc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 394,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2711,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2708,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3297
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

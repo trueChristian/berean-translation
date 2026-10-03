@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "828e4c9d-e6e0-42fe-a1e0-cc8060ea0771",
+    "response_id": "chatcmpl-EUrVvVNq8iM8jH9lAvNsZSJ23Qnfg",
+    "usage": {
+      "completion_tokens": 595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 484,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2023,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2020,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2618
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, final line of the sixth stanza",
+        "severity": "minor",
+        "source_quote": "Lest other’s pots become concave.",
+        "suggested_fix": "Replace “hol” with “ingeduik” to preserve the image of pots becoming concave: “Sodat ander se potte nie ingeduik raak nie.”",
+        "translation_quote": "Sodat ander se potte nie hol word nie."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

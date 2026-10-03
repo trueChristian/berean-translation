@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Lyrics, first stanza\",\"severity\":\"major\",\"source_quote\":\"The church our blest Redeemer / Saved with His own precious blood.\",\"suggested_fix\":\"Die Gemeinde, die unser seliger Erlöser / mit seinem kostbaren Blut gerettet hat.\",\"translation_quote\":\"die Gemeinde, die unser seliger Erlöser / mit seinem kostbaren Blut erkauft hat.\"},{\"location\":\"Editor’s Note, paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"This manner of being an alone “local” Christian\",\"suggested_fix\":\"Diese Art, ein isolierter „örtlicher“ Christ zu sein\",\"translation_quote\":\"Diese Art, ein alleinstehender „örtlicher“ Christ zu sein\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 677,
+    "content_evidence_truncated": false,
+    "content_sha256": "5337ffa17a769b5fcf24a0fd245d747764ca93c9a11393e199b680be7cfa19ea",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 417,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8992,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8989,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9577
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "14b1a880-bc5a-4008-bfeb-1a29b0f3d678",
+    "response_id": "chatcmpl-EUrXanWcWef6Hg1MbzXE3Yn9WJFDm",
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 434,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10186,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10737
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph under “पर्याप्त (अच्छी) नींद लें”",
+        "severity": "major",
+        "source_quote": "This makes sense since our bodies heal the most when we are sleeping.",
+        "suggested_fix": "यह समझ में आता है, क्योंकि सोते समय हमारा शरीर सबसे अधिक चंगा होता है।",
+        "translation_quote": "यह समझ में आता है, क्योंकि सोते समय हमारा शरीर सबसे अधिक स्वस्थ होता है।"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

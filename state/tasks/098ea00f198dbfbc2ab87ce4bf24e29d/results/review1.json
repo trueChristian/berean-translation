@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b07fd5cf-5f33-485f-952f-5dcc8eee6fea",
+    "response_id": "chatcmpl-EUrXLIBziPpI1YRkEr8r9G2LqoMUA",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 582,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1870,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1867,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2545
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lyrics, stanza 3, line 5",
+        "severity": "major",
+        "source_quote": "Sure as Thy truth shall last,",
+        "suggested_fix": "تیری سچائی کے ہمیشہ قائم رہنے کی طرح،",
+        "translation_quote": "جیسے تیرا کلام ہمیشہ قائم رہے گا،"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

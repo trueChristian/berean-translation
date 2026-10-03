@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, third stanza",
+      "severity": "major",
+      "source_quote": "A husband, a daughter, and some brothers.",
+      "suggested_fix": "Vervang ‘een man’ door ‘een echtgenoot’, zodat de familierelatie uit de bron behouden blijft.",
+      "translation_quote": "een man, een dochter en enkele broers."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

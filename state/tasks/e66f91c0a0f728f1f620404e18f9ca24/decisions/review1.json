@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "কবিতার ১ম স্তবক",
+      "severity": "major",
+      "source_quote": "To carry, to store, or for a drink?",
+      "suggested_fix": "বহন করার, জিনিস রাখার, না পান করার পাত্র?",
+      "translation_quote": "বহনের, রাখার, না পান করার?"
+    },
+    {
+      "location": "কবিতার ৩য় স্তবক",
+      "severity": "major",
+      "source_quote": "About my life / are many others, / A husband, a daughter, / and some brothers.",
+      "suggested_fix": "আমার জীবনের সঙ্গে / জড়িয়ে আছেন আরও অনেকে— / একজন স্বামী, এক মেয়ে, / আর কয়েকজন ভাই।",
+      "translation_quote": "আমার জীবনের সঙ্গে / জড়িয়ে আছে আরও অনেকে, / স্বামী, এক মেয়ে, / আর কয়েকজন ভাই।"
+    },
+    {
+      "location": "কবিতার ৫ম স্তবক",
+      "severity": "major",
+      "source_quote": "Until His likeness, again does show.",
+      "suggested_fix": "যতক্ষণ না আবার তাঁর সাদৃশ্য ফুটে ওঠে।",
+      "translation_quote": "যতক্ষণ না আবার তাঁর প্রতিমূর্তি ফুটে ওঠে।"
+    },
+    {
+      "location": "কবিতার ৬ষ্ঠ স্তবক",
+      "severity": "major",
+      "source_quote": "Changes the course of other’s clay,",
+      "suggested_fix": "অন্যের মাটির গতিপথ বদলে দেয়,",
+      "translation_quote": "অন্যের মাটির গতিপথ বদলে দেয়,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

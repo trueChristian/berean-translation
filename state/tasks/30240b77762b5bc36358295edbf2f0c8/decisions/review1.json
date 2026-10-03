@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first stanza, line 6",
+      "severity": "major",
+      "source_quote": "Her walls before Thee stand,",
+      "suggested_fix": "Sostituisci «Le sue mura davanti a te,» con «Le sue mura stanno davanti a te,» per rendere esplicito che le mura stanno davanti a Dio.",
+      "translation_quote": "Le sue mura davanti a te,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

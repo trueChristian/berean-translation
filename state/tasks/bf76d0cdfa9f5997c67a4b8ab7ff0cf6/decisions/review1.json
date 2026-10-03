@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Ephesians 2:10, quoted passage",
+      "severity": "major",
+      "source_quote": "“which God hath before ordained that we should walk in them”",
+      "suggested_fix": "Change “wat God voorberei het” to “wat God vooraf voorberei het” so the translation retains the source’s “beforehand” meaning.",
+      "translation_quote": "“goeie werke wat God voorberei het, sodat ons daarin kan wandel”"
+    },
+    {
+      "location": "Paragraph beginning “There were friends in the same church”",
+      "severity": "minor",
+      "source_quote": "“each had a daughter of dating age”",
+      "suggested_fix": "Replace “’n dogter van hubare ouderdom” with “’n dogter wat oud genoeg was om uit te gaan” to convey dating age rather than marriageable age.",
+      "translation_quote": "“elkeen ’n dogter van hubare ouderdom gehad het”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

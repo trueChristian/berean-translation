@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Als jongetje met arme ouders”",
+      "severity": "major",
+      "source_quote": "As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.",
+      "suggested_fix": "Replace the sentence with: “Als jongetje met arme ouders heeft Jezus dit tafereel in de dagen van Zijn jeugd waarschijnlijk voor Zijn eigen ogen zien gebeuren.”",
+      "translation_quote": "Als jongetje met arme ouders heeft Jezus dit tafereel in zijn jonge jaren waarschijnlijk vaak met eigen ogen gezien."
+    },
+    {
+      "location": "Article body, paragraph beginning “De vrouw die haar zilveren munt verloor”",
+      "severity": "major",
+      "source_quote": "The woman who lost her silver searched her house until it was found, likewise, the shepherd with his lost lamb.",
+      "suggested_fix": "Replace the clause with: “De vrouw die haar zilveren munt verloor, doorzocht haar huis totdat ze die vond; zo deed ook de herder met zijn verloren lam.”",
+      "translation_quote": "De vrouw die haar zilveren munt verloor, doorzocht haar huis totdat ze die vond; zo deed ook de herder met zijn verloren lam."
+    },
+    {
+      "location": "Article body, paragraph beginning “Er was eens een predikant”",
+      "severity": "minor",
+      "source_quote": "While most people never experience a despondency this acute, it is real to some",
+      "suggested_fix": "Replace “De meeste mensen ervaren nooit zo’n diepe moedeloosheid, maar voor sommigen is die werkelijkheid.” with “Hoewel de meeste mensen nooit zo’n hevige moedeloosheid ervaren, is die voor sommigen wel degelijk reëel.”",
+      "translation_quote": "De meeste mensen ervaren nooit zo’n diepe moedeloosheid, maar voor sommigen is die werkelijkheid."
+    },
+    {
+      "location": "Article body, paragraph beginning “De totalitaire regeringen”",
+      "severity": "minor",
+      "source_quote": "such prejudice precinct",
+      "suggested_fix": "Replace “zulke vooringenomenheid” with “zulke vooroordelen” to convey the source’s reference to prejudice.",
+      "translation_quote": "zulke vooringenomenheid"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

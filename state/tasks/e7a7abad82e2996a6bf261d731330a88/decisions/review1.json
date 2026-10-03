@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, shairi, ubeti wa pili, mstari wa kwanza",
+      "severity": "minor",
+      "source_quote": "I’m a little bit shallow, I admit,",
+      "suggested_fix": "Ninakiri, nina mawazo ya juujuu kidogo,",
+      "translation_quote": "Ni kweli, ninajifikiria sana,"
+    },
+    {
+      "location": "HTML, shairi, ubeti wa tatu, mstari wa kwanza",
+      "severity": "minor",
+      "source_quote": "About my life<br>are many others,",
+      "suggested_fix": "Katika maisha yangu<br>wapo wengine wengi,",
+      "translation_quote": "Wanaonizunguka maishani<br>ni wengi,"
+    },
+    {
+      "location": "HTML, shairi, ubeti wa nne, mstari wa pili",
+      "severity": "minor",
+      "source_quote": "Making each of us, something new.",
+      "suggested_fix": "Akitufinyanga kila mmoja upya.",
+      "translation_quote": "Akitufanya kila mmoja kuwa mpya."
+    },
+    {
+      "location": "HTML, shairi, ubeti wa sita, mstari wa pili",
+      "severity": "major",
+      "source_quote": "Changes the course of other’s clay,",
+      "suggested_fix": "Hubadili umbo la udongo wa wengine,",
+      "translation_quote": "Yanaubadili mwelekeo wa udongo wa wengine,"
+    },
+    {
+      "location": "HTML, shairi, ubeti wa sita, mstari wa nne",
+      "severity": "minor",
+      "source_quote": "Lest other’s pots become concave.",
+      "suggested_fix": "Ili vyungu vya wengine visiwe na umbo la ndani lililopinda.",
+      "translation_quote": "Ili vyungu vya wengine visipinde kuelekea ndani."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

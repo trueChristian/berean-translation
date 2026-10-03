@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Стихотворение, первая строфа",
+      "severity": "major",
+      "source_quote": "God the Potter is molding me.",
+      "suggested_fix": "Заменить «Бог-Гончар меня лепит опять.» на «Бог-Гончар меня лепит.»",
+      "translation_quote": "Бог-Гончар меня лепит опять."
+    },
+    {
+      "location": "Стихотворение, вторая строфа",
+      "severity": "minor",
+      "source_quote": "For I’m focusing on me quite a bit.",
+      "suggested_fix": "Заменить «Ведь о себе думаю я часто и пристрастно.» на «Ведь я довольно часто сосредоточена на себе.»",
+      "translation_quote": "Ведь о себе думаю я часто и пристрастно."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

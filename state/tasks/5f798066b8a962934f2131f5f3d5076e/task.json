@@ -2,7 +2,6 @@
   "article_id": "77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 2281
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 333,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2076,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2073,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2409
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, अंतिम अनुच्छेद",
+      "severity": "major",
+      "source_quote": "This poem was inspired by the Scripture passage in Jeremiah 18:1-6.",
+      "suggested_fix": "यह कविता यिर्मयाह 18:1-6 के धर्मशास्त्र के वचन से प्रेरित थी। → यह कविता यिर्मयाह 18:1-6 के धर्मशास्त्र के उस अंश से प्रेरित थी।",
+      "translation_quote": "यह कविता यिर्मयाह 18:1-6 के धर्मशास्त्र के वचन से प्रेरित थी।"
+    },
+    {
+      "location": "HTML, कविता का पहला पद",
+      "severity": "minor",
+      "source_quote": "God the Potter is molding me.",
+      "suggested_fix": "“कुम्हार परमेश्वर मुझे गढ़ रहे हैं” को “परमेश्वर रूपी कुम्हार मुझे गढ़ रहे हैं” करें, ताकि ‘God the Potter’ का आशय स्पष्ट रहे।",
+      "translation_quote": "कुम्हार परमेश्वर मुझे गढ़ रहे हैं।"
+    },
+    {
+      "location": "HTML, कविता का पाँचवाँ पद",
+      "severity": "minor",
+      "source_quote": "Until His likeness, again does show.",
+      "suggested_fix": "“जब तक उनमें फिर से उनका स्वरूप न दिखे” को “जब तक फिर से उनमें उनका स्वरूप न दिखे” करें, ताकि आशय स्पष्ट हो कि पात्रों में कुम्हार का स्वरूप फिर से प्रकट होता है।",
+      "translation_quote": "जब तक उनमें फिर से उनका स्वरूप न दिखे।"
+    }
+  ],
   "id": "5f798066b8a962934f2131f5f3d5076e",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "hin",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fec2dd1703a9aded162631be7f3af606fa01a3b491621e431543b667d23c75a4.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "bc9ecc613f1817378c3fc3dba2a55f8d1cc93b689cd94f6882b88808bf6a0937",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html，第2段",
+      "severity": "major",
+      "source_quote": "I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.",
+      "suggested_fix": "将该引文译为：“我知道怎样处卑贱，也知道怎样处丰富；无论在什么地方、在什么事上，我都受过训练，或饱足，或饥饿；或有余，或缺乏。”保留前后原有译文及标签结构。",
+      "translation_quote": "我知道怎样处卑贱，也知道怎样处丰富；或饱足，或饥饿；或有余，或缺乏，随事随在，我都得了秘诀。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

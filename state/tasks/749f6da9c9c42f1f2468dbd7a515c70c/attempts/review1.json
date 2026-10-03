@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, second stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"Why would one question a God like this?\",\"suggested_fix\":\"لماذا يتساءل المرء عن إله كهذا؟\",\"translation_quote\":\"لماذا يشكّ المرء في إله كهذا؟\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 321,
+    "content_evidence_truncated": false,
+    "content_sha256": "ee215b72ee6945e02dc0cb0027de996d0a9d8b4d47423b45857574f77bb9ba4c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 416,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1916,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1913,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2422
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

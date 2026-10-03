@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “En härlig församling…” (underlined quotation)",
+      "severity": "major",
+      "source_quote": "A glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish!",
+      "suggested_fix": "Ändra den sista delen till ”…utan fläck eller skrynkla eller något sådant, men helig och fullkomlig!” så att den inte säger att församlingen är utan helighet.",
+      "translation_quote": "En härlig församling, utan fläck eller skrynkla eller något sådant, utan helig och fullkomlig!"
+    },
+    {
+      "location": "HTML, paragraph beginning “Det krävs stor tillit till Gud…”",
+      "severity": "major",
+      "source_quote": "For I am now ready to be offered, and the time of my departure is at hand.",
+      "suggested_fix": "Ändra inledningen av citatet till exempelvis ”Ty jag är nu redo att offras, och tiden för mitt uppbrott är inne” för att bevara att Paulus är redo att offras, inte att han redan offras.",
+      "translation_quote": "Ty jag offras redan, och tiden är inne då jag skall bryta upp."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

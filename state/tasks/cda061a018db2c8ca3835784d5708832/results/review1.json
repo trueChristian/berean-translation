@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ac58b6e1-5b16-4837-bace-3791f4cb208b",
+    "response_id": "chatcmpl-EUrW5IzwjqNCD1VMspJQupTSgQyG1",
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 405,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5516,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5513,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6142
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf 2, kutipan Filipi 4:11–13",
+        "severity": "major",
+        "source_quote": "“I am instructed both to be full and to be hungry ... I can do all things through Christ which strengtheneth me.”",
+        "suggested_fix": "Ganti bagian yang dimulai “Dalam segala hal dan dalam segala perkara...” dengan terjemahan yang mempertahankan maknanya, misalnya: “Dalam segala hal dan dalam segala perkara aku telah belajar untuk kenyang maupun lapar, berkelimpahan maupun berkekurangan. Segala perkara dapat kulakukan melalui Kristus yang memberi kekuatan kepadaku.”",
+        "translation_quote": "“Dalam segala hal dan dalam segala perkara tidak ada sesuatu yang merupakan rahasia bagiku; baik dalam hal kenyang, maupun dalam hal kelaparan, baik dalam hal kelimpahan maupun dalam hal kekurangan. Segala perkara dapat kutanggung di dalam Dia yang memberi kekuatan kepadaku.”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

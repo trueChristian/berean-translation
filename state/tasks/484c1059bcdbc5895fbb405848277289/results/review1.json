@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2d402680-d212-4a7b-9a96-2012197e3837",
+    "response_id": "chatcmpl-EUrX14FhM7NQyVJ3Kkh6RTd06bWyj",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9981,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9978,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10681
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, final body paragraph",
+        "severity": "major",
+        "source_quote": "We are indeed fearfully and wonderfully made.",
+        "suggested_fix": "החליפו את «אכן נוראים ונפלאים אנחנו» ב«אכן נבראנו באופן מופלא ומעורר יראה».",
+        "translation_quote": "אכן נוראים ונפלאים אנחנו."
+      },
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "A Word from a Doctor",
+        "suggested_fix": "החליפו את «דברו של רופא» ב«דברי רופא».",
+        "translation_quote": "דברו של רופא"
+      },
+      {
+        "location": "source.html, final body paragraph",
+        "severity": "minor",
+        "source_quote": "with the Gospel message",
+        "suggested_fix": "החליפו את «עם בשורת הבשורה» ב«עם בשורת הבשורה»? כדי למנוע את הכפילות, השתמשו ב«כדי להפיץ את הבשורה בעולם שסביבנו».",
+        "translation_quote": "עם בשורת הבשורה"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

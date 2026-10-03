@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, final line of the sixth stanza",
+      "severity": "minor",
+      "source_quote": "Lest other’s pots become concave.",
+      "suggested_fix": "Replace “hol” with “ingeduik” to preserve the image of pots becoming concave: “Sodat ander se potte nie ingeduik raak nie.”",
+      "translation_quote": "Sodat ander se potte nie hol word nie."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

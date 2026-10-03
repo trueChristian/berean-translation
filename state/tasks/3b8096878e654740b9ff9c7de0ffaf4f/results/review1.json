@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bdb15c4d-2b59-4128-adc3-eaff84a06fdd",
+    "response_id": "chatcmpl-EUrWYGspTwKPYO4CPpyScxePQ7J0r",
+    "usage": {
+      "completion_tokens": 1217,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 678,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9331,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10551
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "첫 문단의 마태복음 10:29 인용",
+        "severity": "major",
+        "source_quote": "“one of them shall not fall on the ground without your Father”",
+        "suggested_fix": "“그러나 너희 아버지와 상관없이 그중 하나도 땅에 떨어지지 아니하리라”처럼, 원문의 ‘without your Father’를 허락 여부로 바꾸지 않는 표현으로 고쳐 주세요.",
+        "translation_quote": "“그중 하나도 너희 아버지께서 허락하지 않으시면 땅에 떨어지지 아니하리라”"
+      },
+      {
+        "location": "‘작은 자들’ 단락의 마가복음 10:13 인용",
+        "severity": "major",
+        "source_quote": "“And they [mothers] brought young children to him”",
+        "suggested_fix": "인용문에 어머니들이 아이들을 데려왔다는 원문의 명시적 귀속을 살려 “어머니들이 어린아이들을 예수께 데리고 와서…”로 고쳐 주세요.",
+        "translation_quote": "“사람들이 어린아이들을 예수께 데리고 와서”"
+      },
+      {
+        "location": "‘두 앗사리온’ 제목 및 동전 관련 문장들",
+        "severity": "major",
+        "source_quote": "“Two farthings”; “A copper farthing would purchase two sparrows”; “a farthing is not a major expenditure”",
+        "suggested_fix": "이 기사에서 ‘farthing’으로 인쇄된 동전 명칭을 ‘앗사리온’으로 바꾸지 말고, 문맥에 맞는 한국어 동전 명칭(예: ‘한 푼’)으로 일관되게 옮겨 주세요. 제목과 본문에서 두 앗사리온이라고 한 곳도 함께 바로잡아 주세요.",
+        "translation_quote": "“두 앗사리온”; “구리 동전인 앗사리온 하나면 참새 두 마리를 살 수 있었습니다”; “앗사리온은 큰돈이 아닙니다”"
+      },
+      {
+        "location": "‘작은 자들’ 단락의 과부의 동전 문장",
+        "severity": "minor",
+        "source_quote": "“her little copper coins added more to His treasury”",
+        "suggested_fix": "‘재고’ 또는 ‘보물 창고’에 해당하는 자연스러운 한국어로 고쳐 주세요.",
+        "translation_quote": "“그분의 خز고에 더 많이 보탰다고”"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

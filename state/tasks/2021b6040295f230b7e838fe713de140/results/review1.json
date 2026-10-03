@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b46ffe1a-6411-419d-954b-b2ca922fdf7d",
+    "response_id": "chatcmpl-EUrWDQJRb39obrrMsin82VTxzRRgD",
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9354,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9351,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10155
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Editor’s Note, paragraph beginning “Another area of shift”",
+        "severity": "minor",
+        "source_quote": "a life of obedient discipleship",
+        "suggested_fix": "Ändra «ett liv i lydig lärjungaskap» till «ett liv i lydigt lärjungaskap».",
+        "translation_quote": "ett liv i lydig lärjungaskap"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

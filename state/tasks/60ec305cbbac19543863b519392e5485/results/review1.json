@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5ad049a8-22b7-4546-afc9-f48fd1522386",
+    "response_id": "chatcmpl-EUrVo5rVXwv5AnnpZPP8l9q7XKb3l",
+    "usage": {
+      "completion_tokens": 1036,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9411,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10450
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "पहला अनुच्छेद, मत्ती 10:29 का उद्धरण",
+        "severity": "major",
+        "source_quote": "one of them shall not fall on the ground without your Father",
+        "suggested_fix": "“और उनमें से एक भी तुम्हारे पिता के बिना भूमि पर नहीं गिरती”—अर्थात् पिता की जानकारी/देखरेख से बाहर नहीं।",
+        "translation_quote": "और उनमें से एक भी तुम्हारे पिता की अनुमति के बिना भूमि पर नहीं गिरती"
+      },
+      {
+        "location": "“...बाद में आने वाले जन” खंड, प्रेरितों के काम 17:21 का उद्धरण और आसपास का वाक्य",
+        "severity": "major",
+        "source_quote": "Many will avidly spend their time in nothing else, … but either to tell, or to hear [or to purchase] some new thing.",
+        "suggested_fix": "अर्थ को इस तरह ठीक करें कि वे लोग उत्सुकता से अपना समय और किसी काम में नहीं, बल्कि केवल कुछ नई बात कहने, सुनने [या खरीदने] में लगाते हैं।",
+        "translation_quote": "बहुत से लोग अपना समय और किसी चीज़ में लगाने को उत्सुक होंगे ही नहीं, … परन्तु कुछ नई बात कहने, या सुनने [या खरीदने] में।"
+      },
+      {
+        "location": "“...बाद में आने वाले जन” खंड, यशायाह 53:3 के उद्धरण के बाद",
+        "severity": "major",
+        "source_quote": "and He was deposed of at the earliest opportunity.",
+        "suggested_fix": "“और पहले ही अवसर पर उसे ठिकाने लगा दिया गया।”",
+        "translation_quote": "और पहले अवसर पर ही उसे पद से हटा दिया गया।"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

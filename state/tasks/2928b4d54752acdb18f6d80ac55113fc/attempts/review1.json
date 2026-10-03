@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem paragraph 5, line 3\",\"severity\":\"major\",\"source_quote\":\"He’s waiting for the church to trust Him once more.\",\"suggested_fix\":\"Εκείνος περιμένει η εκκλησία να Τον εμπιστευτεί ξανά.\",\"translation_quote\":\"Περιμένει η εκκλησία να Τον εμπιστευτεί ξανά.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 399,
+    "content_evidence_truncated": false,
+    "content_sha256": "1691c48a0ba46de4cfaf6107a6ced326d93334c1ddc364b1f36248340ab3150a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 452,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2031,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2592
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

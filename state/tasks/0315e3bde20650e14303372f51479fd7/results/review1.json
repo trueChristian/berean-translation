@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "77600bb7-5e3f-4bf5-9a47-8a73c54cc7bf",
+    "response_id": "chatcmpl-EUrXHXAdJLPHZKwKVGsFhpKrYVGUC",
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 670,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7726,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8547
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Alinea over belijdende christenen, zin over vervolging",
+        "severity": "major",
+        "source_quote": "Instead of enjoying persecution, they enjoy many of the same things that the world does.",
+        "suggested_fix": "Vervang ‘In plaats van vervolging te verdragen, genieten ze van veel van dezelfde dingen als de wereld.’ door ‘In plaats van vervolging te genieten, genieten ze van veel van dezelfde dingen als de wereld.’",
+        "translation_quote": "In plaats van vervolging te verdragen, genieten ze van veel van dezelfde dingen als de wereld."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

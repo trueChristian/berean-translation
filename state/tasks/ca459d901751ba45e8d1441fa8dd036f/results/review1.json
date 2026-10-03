@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "32822448-d891-45cf-a8e0-9ee402e952c4",
+    "response_id": "chatcmpl-EUrVpzYPJtCBVaoEuOcRdQCwwKzvf",
+    "usage": {
+      "completion_tokens": 729,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 488,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9711,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10443
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Editor’s Note, paragraph 3; quotation of 2 Timothy 3:16",
+        "severity": "major",
+        "source_quote": "“All scripture … is profitable for doctrine, for reproof, [and] for correction…”",
+        "suggested_fix": "Replace “kwa kuwaongoza” with “kwa kurekebisha” so the quotation preserves “for correction” in the source.",
+        "translation_quote": "“Maandiko yote … yanafaa kwa mafundisho, kwa kuwaonya watu, [na] kwa kuwaongoza…”"
+      },
+      {
+        "location": "Editor’s Note, paragraph 4",
+        "severity": "minor",
+        "source_quote": "“They believe that structured church brings deadness to local bodies”",
+        "suggested_fix": "Correct the garbled phrase “huleta ufu hali” to “huleta ufu” or, more idiomatically in context, “huondoa uhai katika jumuiya za mahali.”",
+        "translation_quote": "“Wanaamini kwamba kanisa lenye muundo huleta ufu hali katika jumuiya za mahali”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

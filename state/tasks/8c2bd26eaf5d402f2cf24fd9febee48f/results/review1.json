@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "662b033c-5235-4684-81b4-f8df39f8c410",
+    "response_id": "chatcmpl-EUrXA6IMvKl9HURDkNRh2H42n3MLJ",
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7523,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7520,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8153
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Avsnitt 3",
+        "severity": "major",
+        "source_quote": "Wish, want, crave, and covet all mean to have a longing for.",
+        "suggested_fix": "Erstatt «Å ønske seg, ville ha, begjære og begjære med misunnelse betyr alle» med «Å ønske seg, ville ha, lengte etter og begjære betyr alle» (eller tilsvarende som unngår å definere begjær som nødvendigvis misunnelig).",
+        "translation_quote": "Å ønske seg, ville ha, begjære og begjære med misunnelse betyr alle"
+      },
+      {
+        "location": "Avsnitt 4",
+        "severity": "major",
+        "source_quote": "our desires are so strong that of ourselves we are no match for them",
+        "suggested_fix": "Oversett at vi ikke er i stand til å stå imot ønskene alene, for eksempel: «Våre ønsker er så sterke at vi ikke kan stå imot dem på egen hånd».",
+        "translation_quote": "Våre ønsker er så sterke at vi ikke kan måle oss med dem på egen hånd"
+      },
+      {
+        "location": "Avsnitt 12",
+        "severity": "major",
+        "source_quote": "we don’t hear much about coveting positions that are not lawful for us",
+        "suggested_fix": "Gjengi at det gjelder stillinger vi ikke har rett til å inneha, for eksempel «å begjære stillinger vi ikke har lov til å inneha».",
+        "translation_quote": "å begjære stillinger som det ikke er lovlig for oss å ha"
+      },
+      {
+        "location": "Avsnitt 17",
+        "severity": "major",
+        "source_quote": "He led us out of our “Egypt”; He showed us the path of life; He brought us out of the miry clay",
+        "suggested_fix": "Bevar de opprinnelige bildene: «Han førte oss ut av vårt ‘Egypt’; Han viste oss livets vei; Han løftet oss opp av den gjørmete leiren».",
+        "translation_quote": "Han førte oss ut av vårt «Egypt»; Han viste oss livets vei; Han løftet oss opp av den dype gjørmen"
+      },
+      {
+        "location": "Avsnitt 18",
+        "severity": "major",
+        "source_quote": "He will give us according to our selfish desires.",
+        "suggested_fix": "Oversett «according to» som at Gud gir oss i samsvar med begjærene, for eksempel: «vil Han gi oss det i samsvar med våre egoistiske ønsker».",
+        "translation_quote": "vil Han gi oss det vi ønsker ut fra våre egoistiske begjær"
+      },
+      {
+        "location": "Avsnitt 19",
+        "severity": "major",
+        "source_quote": "The end is coming, which is what God has in mind.",
+        "suggested_fix": "Gjengi at det er enden som Gud har i tankene, for eksempel: «Enden kommer, og det er enden Gud har i tankene».",
+        "translation_quote": "Enden kommer, og det er det Gud har i tankene."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

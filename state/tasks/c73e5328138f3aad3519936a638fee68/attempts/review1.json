@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo sotto «Conta le tue benedizioni»; citazione di 2 Corinzi 10:12\",\"severity\":\"major\",\"source_quote\":\"…but they measuring themselves by themselves, and comparing themselves among themselves, are not wise –2 Corinthians 10:12.\",\"suggested_fix\":\"Sostituisci solo il testo della citazione con: «…ma essi, misurando sé stessi con sé stessi e paragonando sé stessi fra loro, non agiscono con saggezza –2 Corinzi 10:12.» Mantieni invariati i tag HTML e la posizione del riferimento.\",\"translation_quote\":\"…ma essi, misurandosi secondo la propria misura e paragonandosi fra loro, non hanno giudizio –2 Corinzi 10:12.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 691,
+    "content_evidence_truncated": false,
+    "content_sha256": "4b9bb641464830768bf3d76c81782866cc080239af57166c2a49347a06431d5b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 677,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 484,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5723,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5720,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6400
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

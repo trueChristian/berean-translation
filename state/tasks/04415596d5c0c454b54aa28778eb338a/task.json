@@ -2,7 +2,6 @@
   "article_id": "10d20eec-3e71-404f-9f8d-8068b010381e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 5979
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 529,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5838,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5835,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6367
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article body, anecdote about the dating-age daughters",
+      "severity": "major",
+      "source_quote": "“one daughter dated and married long before the other one began a courtship.”",
+      "suggested_fix": "Replace “alichumbiana na kuolewa” with “alianza uchumba na kuolewa” so the sequence is clear: one daughter began dating and married before the other began a courtship.",
+      "translation_quote": "“binti mmoja alichumbiana na kuolewa muda mrefu kabla ya mwingine kuanza uchumba.”"
+    },
+    {
+      "location": "Article body, Scripture quotation, Ephesians 2:8–10",
+      "severity": "major",
+      "source_quote": "“For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast. For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them”",
+      "suggested_fix": "Correct the quotation so its clauses retain the source meaning. In particular, replace “wala si kwa nafsi zenu” with “wala si kwa juhudi zenu,” and translate “which God hath before ordained” as God having prepared the good works beforehand, not merely made them: “...ambazo Mungu alizitengeneza tangu awali...” Keep the existing <em> wrapper and the reference “–Waefeso 2:8-10.”",
+      "translation_quote": "“Kwa maana mmeokolewa kwa neema, kwa njia ya imani; wala si kwa nafsi zenu, ni kipawa cha Mungu; wala si kwa matendo, mtu awaye yote asije akajisifu. Maana tu kazi yake, tuliumbwa katika Kristo Yesu, tutende matendo mema, ambayo tokea awali Mungu aliyatengeneza ili tuenende nayo –Waefeso 2:8-10.”"
+    },
+    {
+      "location": "Article body, Philippians 4:8 quotation",
+      "severity": "major",
+      "source_quote": "“if there be any virtue, and if there be any praise, think on these things”",
+      "suggested_fix": "Translate the conditional exhortation as “ikiwa kuna wema wowote na sifa yoyote, yafikirieni mambo hayo.” Preserve the existing <em> wrapper and “–Wafilipi 4:8” reference.",
+      "translation_quote": "“ukiwapo wema wo wote, ikiwapo sifa nzuri yo yote, yatafakarini hayo –Wafilipi 4:8.”"
+    }
+  ],
   "id": "04415596d5c0c454b54aa28778eb338a",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "swa",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"

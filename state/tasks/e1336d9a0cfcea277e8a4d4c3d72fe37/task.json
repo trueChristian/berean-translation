@@ -2,7 +2,6 @@
   "article_id": "a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 11676
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 352,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11515,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11512,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11867
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, άσκηση τακτικά, πρώτη παράγραφος",
+      "severity": "major",
+      "source_quote": "“rushing out to run three miles”",
+      "suggested_fix": "Αλλάξτε το «πέντε χιλιόμετρα» σε «περίπου πέντε χιλιόμετρα» ή, για ακριβή διατήρηση της απόστασης, σε «τρία μίλια».",
+      "translation_quote": "«να τρέξετε πέντε χιλιόμετρα»"
+    },
+    {
+      "location": "HTML, στοχευμένα συμπληρώματα, παράγραφος για τον ψευδάργυρο",
+      "severity": "major",
+      "source_quote": "“I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.”",
+      "suggested_fix": "Αντικαταστήστε την πρόταση με: «Θα ήθελα να επισημάνω εδώ ότι δεν προορίζεται πραγματικά για καθημερινή λήψη· αντίθετα, θα πρέπει να λαμβάνεται περισσότερο με την εμφάνιση του πρώτου συμπτώματος λοίμωξης του ανώτερου αναπνευστικού.»",
+      "translation_quote": "«Θα ήθελα να επισημάνω εδώ ότι δεν προορίζεται πραγματικά για καθημερινή λήψη· είναι προτιμότερο να λαμβάνεται περισσότερο με την εμφάνιση του πρώτου συμπτώματος λοίμωξης του ανώτερου αναπνευστικού.»"
+    }
+  ],
   "id": "e1336d9a0cfcea277e8a4d4c3d72fe37",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ell",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3d4ff54d38135b804080e8a3164c60951764437616b654687f2332c06c69e7ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
   "translation_model_actual": "gpt-6-luna"

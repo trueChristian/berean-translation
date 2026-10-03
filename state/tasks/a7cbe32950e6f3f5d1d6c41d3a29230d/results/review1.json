@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d41ab3a1-9b1d-4572-b467-e48953a34466",
+    "response_id": "chatcmpl-EUrVprbaq9WheOjkqdXrgR3SzvQLS",
+    "usage": {
+      "completion_tokens": 830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 712,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5605,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5602,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6435
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening dialogue, paragraph 4",
+        "severity": "minor",
+        "source_quote": "“I should have said this, this, and this.”",
+        "suggested_fix": "استبدلي «وكان ينبغي أن أقول هذا وذاك» بـ «وكان ينبغي أن أقول هذا وهذا وهذا» للمحافظة على التكرار في الأصل.",
+        "translation_quote": "«وكان ينبغي أن أقول هذا وذاك»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning « Ce soir-là, Jennika se blottit… »\",\"severity\":\"minor\",\"source_quote\":\"“I’m glad you’re home,” she whispered. “I like it when you’re home.”\",\"suggested_fix\":\"Remplacer la phrase par : « Je suis contente que tu sois rentrée », murmura-t-elle. « J’aime quand tu es à la maison. »\",\"translation_quote\":\"« Je suis contente que tu sois rentrée, murmura-t-elle. J’aime quand tu es à la maison. »\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 504,
+    "content_evidence_truncated": false,
+    "content_sha256": "8acb44fd10963a0ad0b5412be5cdcd3f697c32d41190369cd8e238bf2b0c9ed7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 621,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2670,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2667,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3436
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

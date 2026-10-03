@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "748ce5c1-5cd8-4dc4-a23a-856f664386e7",
+    "response_id": "chatcmpl-EUrVpPBBJhCniX1vMMQXOxcNsYlcI",
+    "usage": {
+      "completion_tokens": 726,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5470,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5467,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6196
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Абзац 2, цитата Филиппийцам 4:11–13",
+        "severity": "major",
+        "source_quote": "“for I have learned, in whatsoever state I am, therewith to be content. […] I can do all things through Christ which strengtheneth me.”",
+        "suggested_fix": "В цитате замените «ибо я научился быть довольным тем, что у меня есть» на «ибо я научился быть довольным в том положении, в каком нахожусь», а «Все могу в укрепляющем меня Иисусе Христе» — на «Все могу в укрепляющем меня Христе». Так сохраняются напечатанный смысл и формулировка источника без добавления имени, которого в английском тексте нет.",
+        "translation_quote": "«… ибо я научился быть довольным тем, что у меня есть. […] Все могу в укрепляющем меня Иисусе Христе.»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

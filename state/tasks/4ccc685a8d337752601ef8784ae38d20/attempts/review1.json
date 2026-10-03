@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, párrafo sobre los celos y las generaciones futuras\",\"severity\":\"major\",\"source_quote\":\"“Not only does it have the potential to destroy my relationships now, but also those of my children and grandchildren.”\",\"suggested_fix\":\"Sustituir «No solo pueden destruir mis relaciones actuales, sino también las de mis hijos y nietos» por «No solo tiene el potencial de destruir mis relaciones actuales, sino también las de mis hijos y nietos» para conservar el sujeto singular (los celos) y la afirmación de potencial.\",\"translation_quote\":\"«No solo pueden destruir mis relaciones actuales, sino también las de mis hijos y nietos.»\"},{\"location\":\"source.html, título de sección «Count Your Own Blessings»\",\"severity\":\"major\",\"source_quote\":\"“Count Your Own Blessings”\",\"suggested_fix\":\"Cambiar «Cuenta tus propias bendiciones» por «Cuenta tus bendiciones» para no añadir que sean propias; mantener la etiqueta <h2><em> y su estructura.\",\"translation_quote\":\"«Cuenta tus propias bendiciones»\"},{\"location\":\"source.html, párrafo sobre la definición de celoso\",\"severity\":\"major\",\"source_quote\":\"“Jealousy pops up in many ways, such as craving to copy a peer.”\",\"suggested_fix\":\"Cambiar «como el deseo de imitar a una compañera» por «como el ansia de copiar a una compañera», conservando la idea de querer copiar, no solo imitar.\",\"translation_quote\":\"«como el deseo de imitar a una compañera»\"},{\"location\":\"source.html, párrafo sobre la sospecha y la verdad\",\"severity\":\"major\",\"source_quote\":\"“Dwelling on a suspicion or envying another person distorts truth. This is dangerous, because what you perceive as a truth, is a lie.”\",\"suggested_fix\":\"Reformular la última oración para preservar la afirmación de que lo percibido como verdad es una mentira, por ejemplo: «Esto es peligroso, porque lo que percibes como verdadero es mentira»; quitar la coma entre sujeto y predicado.\",\"translation_quote\":\"«Esto es peligroso, porque lo que percibes como verdad es mentira.»\"},{\"location\":\"source.html, párrafo sobre los pensamientos divisivos\",\"severity\":\"major\",\"source_quote\":\"“It causes extra work for church leaders and stunts the growth of a body of believers.”\",\"suggested_fix\":\"Reemplazar «frena el crecimiento de una comunidad de creyentes» por «obstaculiza el crecimiento del cuerpo de creyentes» para conservar la imagen y el sentido de “a body of believers”.\",\"translation_quote\":\"«Esto genera trabajo adicional para los líderes de la iglesia y frena el crecimiento de una comunidad de creyentes.»\"},{\"location\":\"source.html, título de sección «Replace Jealousy With Gratitude And Contentment»\",\"severity\":\"major\",\"source_quote\":\"“contentment”\",\"suggested_fix\":\"En el título, sustituir «contentamiento» por «conformidad» o «satisfacción» para expresar el sentido de estar contento con lo que se tiene; mantener la etiqueta <h2><em> y su estructura.\",\"translation_quote\":\"«Reemplaza los celos con gratitud y contentamiento»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 3077,
+    "content_evidence_truncated": false,
+    "content_sha256": "462a255624caa65946883856571f50bd3fbcf77c6b917294be89c65f2e620905",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 688,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5462,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5459,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6150
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

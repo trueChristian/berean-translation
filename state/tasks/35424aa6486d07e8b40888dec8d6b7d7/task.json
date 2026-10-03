@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 10935
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1339,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 745,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10678,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10675,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12017
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Δεν περιφρονούνται μόνο τα μικρά παιδιά»",
+      "severity": "major",
+      "source_quote": "“Despite it all, God will never miss a sparrow, and neither can He ignore the smallest sacrifice offered freely by the hands of His little ones.”",
+      "suggested_fix": "Replace «Ούτε και ο έπαινος ενός σπουργιτιού» with «ούτε μπορεί να αγνοήσει την πιο μικρή θυσία που προσφέρεται πρόθυμα από τα χέρια των μικρών Του.» The source refers to a small sacrifice, not praise.",
+      "translation_quote": "«Παρ’ όλα αυτά, ο Θεός δεν θα χάσει ποτέ από τα μάτια Του ένα σπουργίτι, ούτε μπορεί να αγνοήσει την πιο μικρή θυσία που προσφέρεται πρόθυμα από τα χέρια των μικρών Του.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Αλλά αυτός ο εγωισμός δεν είναι κάτι καινούργιο»",
+      "severity": "major",
+      "source_quote": "“He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.”",
+      "suggested_fix": "Replace «και Τον εκθρόνισαν με την πρώτη ευκαιρία» with «και τον εξόντωσαν με την πρώτη ευκαιρία.» «Εκθρόνισαν» means dethroned, whereas “deposed of” here means they disposed of Him.",
+      "translation_quote": "«Καταφρονήθηκε και απορρίφθηκε από τους ανθρώπους… –Ησαΐας 53:3, και Τον εκθρόνισαν με την πρώτη ευκαιρία.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Υπήρχε ένας ιερέας»",
+      "severity": "minor",
+      "source_quote": "“There was a minister who was asked by a funeral director to come and hold a funeral service.”",
+      "suggested_fix": "Use a broader term such as «λειτουργός» or «κήρυκας» instead of «ιερέας», unless the source establishes that the minister was a priest.",
+      "translation_quote": "«Υπήρχε ένας ιερέας στον οποίο ζήτησε ένας διευθυντής γραφείου τελετών να έρθει και να τελέσει μια νεκρώσιμη ακολουθία.»"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "“Featured Article”",
+      "suggested_fix": "Replace «Προτεινόμενο άρθρο» with «Επιλεγμένο άρθρο», which conveys “featured” rather than “suggested.”",
+      "translation_quote": "«Προτεινόμενο άρθρο»"
+    }
+  ],
   "id": "35424aa6486d07e8b40888dec8d6b7d7",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ell",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, opening dialogue, paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"“I should have said this, this, and this.”\",\"suggested_fix\":\"استبدلي «وكان ينبغي أن أقول هذا وذاك» بـ «وكان ينبغي أن أقول هذا وهذا وهذا» للمحافظة على التكرار في الأصل.\",\"translation_quote\":\"«وكان ينبغي أن أقول هذا وذاك»\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 460,
+    "content_evidence_truncated": false,
+    "content_sha256": "c624c0b822b81227b842be07e926221695836ab0d723fafc1f0126f9d9ee78f3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 712,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5605,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5602,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6435
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

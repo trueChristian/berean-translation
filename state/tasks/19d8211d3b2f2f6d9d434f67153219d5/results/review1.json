@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "63eddd1b-d08e-46fb-8f7a-ac7800a93aa0",
+    "response_id": "chatcmpl-EUrWYo2JbLSme3cAocOE4DIuMxAAt",
+    "usage": {
+      "completion_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 777,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1768,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1765,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2644
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first stanza, third line",
+        "severity": "minor",
+        "source_quote": "The church our blest Redeemer saved",
+        "suggested_fix": "den kyrka som vår välsignade Frälsare har räddat",
+        "translation_quote": "den kyrka som vår salige Frälsare räddat"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

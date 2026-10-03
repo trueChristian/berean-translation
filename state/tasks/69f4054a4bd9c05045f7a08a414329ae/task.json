@@ -2,7 +2,6 @@
   "article_id": "a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9293
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 221,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9152,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9149,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9373
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "正文末段，上帝创造身体与堕落的关系",
+      "severity": "major",
+      "source_quote": "These systems heal injuries, maintain our body, and protect it from a world damaged by the introduction of sin at the Fall of man, in the Garden of Eden.",
+      "suggested_fix": "将该句改为：“这些系统能够修复损伤、维持身体运作，并保护身体免受人类在伊甸园堕落犯罪后罪进入世界所造成的破坏。”",
+      "translation_quote": "这些系统能够修复损伤、维持身体运作，并保护身体免受人类在伊甸园堕落犯罪后受罪的引入所损害的世界侵袭。"
+    },
+    {
+      "location": "标题",
+      "severity": "minor",
+      "source_quote": "A Healthy Immune System",
+      "suggested_fix": "可改为“健康的免疫系统”，以更自然地表达英文标题。",
+      "translation_quote": "健康的免疫系统"
+    }
+  ],
   "id": "69f4054a4bd9c05045f7a08a414329ae",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "cmn",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3d4ff54d38135b804080e8a3164c60951764437616b654687f2332c06c69e7ab.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
   "translation_model_actual": "gpt-6-luna"

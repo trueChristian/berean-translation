@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 9037
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1057,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 906,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8836,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8833,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9893
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "Like the present day “baker’s dozen”, this typical scene had repeated itself so often that it had become tradition",
+      "suggested_fix": "Replace «чёртова дюжина» with «пекарская дюжина» or another clear Russian rendering of the custom of giving thirteen for the price of twelve.",
+      "translation_quote": "Как и нынешняя «чёртова дюжина» у пекаря, эта типичная сцена повторялась так часто, что стала традицией"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:35+00:00",
   "id": "a3e5c6025e7fe4510fc41092b53a57a9",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "rus",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

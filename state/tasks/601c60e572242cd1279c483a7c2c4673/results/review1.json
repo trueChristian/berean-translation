@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b60e8113-2b32-4a98-98c6-69e8c8104e8b",
+    "response_id": "chatcmpl-EUrW0JIUcbwQBCM4IBRsD5z0qy1kJ",
+    "usage": {
+      "completion_tokens": 869,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7967,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7964,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8836
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Marilah kita datang ke hadapan Allah kita…”",
+        "severity": "minor",
+        "source_quote": "“for where we have lost our way”",
+        "suggested_fix": "Replace “atas jalan yang telah kita sesat” with “karena kita telah tersesat” to express the source meaning naturally.",
+        "translation_quote": "“atas jalan yang telah kita sesat”"
+      },
+      {
+        "location": "Paragraph defining “confidence”",
+        "severity": "minor",
+        "source_quote": "“proud of basically everything that is good in their lives”",
+        "suggested_fix": "Replace “bangga akan pada dasarnya segala hal yang baik dalam hidup mereka” with “bangga akan hampir segala hal yang baik dalam hidup mereka.”",
+        "translation_quote": "“bangga akan pada dasarnya segala hal yang baik dalam hidup mereka”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

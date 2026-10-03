@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e3aaa683-16b3-4f1c-9263-331e00cc9bb8",
+    "response_id": "chatcmpl-EUrYGV2tmsdXCGMSX9QEz6DBwcY3l",
+    "usage": {
+      "completion_tokens": 573,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 463,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1842,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2418
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, second stanza, first line",
+        "severity": "minor",
+        "source_quote": "Why would one question a God like this?",
+        "suggested_fix": "Vervang deze regel door: “Waarom zou je zo’n God in twijfel trekken?” Zo blijft het onderscheid met de volgende regel, die expliciet over twijfelen gaat, behouden.",
+        "translation_quote": "Waarom zou je aan zo’n God twijfelen?"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

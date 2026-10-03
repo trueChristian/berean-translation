@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, estrofe 3, penúltimo verso",
+      "severity": "minor",
+      "source_quote": "The brightest glories earth can yield,",
+      "suggested_fix": "Substituir por: “As mais brilhantes glórias que a terra pode oferecer,”",
+      "translation_quote": "A mais brilhante glória que a terra pode oferecer,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

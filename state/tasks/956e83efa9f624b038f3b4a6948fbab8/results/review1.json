@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9bfd7ad9-1829-4b1a-94c5-2f46b817129e",
+    "response_id": "chatcmpl-EUrVp2LvGYyoLBXEPosHEQYoRooHA",
+    "usage": {
+      "completion_tokens": 391,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8735,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9129
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraphe sur les mégachurches",
+        "severity": "minor",
+        "source_quote": "Mega churches have risen to console him.",
+        "suggested_fix": "Remplacer « Des még Églises ont vu le jour pour le réconforter » par « De grandes Églises ont vu le jour pour le réconforter » ou « Des még Églises ont vu le jour pour le réconforter » (sans espace après « még »).",
+        "translation_quote": "Des még Églises ont vu le jour pour le réconforter."
+      },
+      {
+        "location": "HTML, passage sur les lois concernant les enfants à naître",
+        "severity": "major",
+        "source_quote": "The laws of our land have legalized the murder of them if anyone cares not for their existence.",
+        "suggested_fix": "Traduire fidèlement l’affirmation du texte, par exemple : « Les lois de notre pays ont légalisé leur meurtre si quelqu’un ne se soucie pas de leur existence. »",
+        "translation_quote": "Les lois de notre pays ont légalisé leur meurtre si quelqu’un ne souhaite pas qu’ils vivent."
+      },
+      {
+        "location": "HTML, paragraphe sur les œuvres et activités para-ecclésiales",
+        "severity": "major",
+        "source_quote": "Para-church Outreaches, personal ministries, retreats, and seminars lend an exciting appeal, to religious zealots",
+        "suggested_fix": "Remplacer « attirent avec enthousiasme les zélotes religieux » par une formulation conservant l’idée que ces activités séduisent les zélotes religieux, par exemple : « exercent un attrait enthousiasmant sur les zélotes religieux ».",
+        "translation_quote": "Les œuvres para-ecclésiales, les ministères personnels, les retraites et les séminaires attirent avec enthousiasme les zélotes religieux"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

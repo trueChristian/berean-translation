@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "39d7ffed-4b03-4e6c-8db5-3851eb588d67",
+    "response_id": "chatcmpl-EUrVpnn3BymKDivY1Xf6GmxR7AGxL",
+    "usage": {
+      "completion_tokens": 743,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 526,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7637,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7634,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8380
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Ek weet nie hoe dit was nie...”",
+        "severity": "major",
+        "source_quote": "...what was Achan thinking in the midst of a bloody battle that made him covet?",
+        "suggested_fix": "Change “wat hom begeerlik gemaak het” to “wat hom laat begeer het” so the question asks what made Achan covet.",
+        "translation_quote": "...waaraan het Agan gedink te midde van ’n bloedige geveg wat hom begeerlik gemaak het?"
+      },
+      {
+        "location": "Paragraph beginning “Ons sien dat dit belangrik is...”",
+        "severity": "major",
+        "source_quote": "There are many things that God may want us to surrender.",
+        "suggested_fix": "Change the sentence to “Daar is baie dinge wat God dalk wil hê ons aan Hom moet oorgee.”",
+        "translation_quote": "Daar is baie dinge waaraan God wil hê ons moet oorgee."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

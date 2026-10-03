@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening dialogue, paragraph 4",
+      "severity": "minor",
+      "source_quote": "“I should have said this, this, and this.”",
+      "suggested_fix": "استبدلي «وكان ينبغي أن أقول هذا وذاك» بـ «وكان ينبغي أن أقول هذا وهذا وهذا» للمحافظة على التكرار في الأصل.",
+      "translation_quote": "«وكان ينبغي أن أقول هذا وذاك»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

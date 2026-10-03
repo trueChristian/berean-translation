@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning « Comme Sandra »\",\"severity\":\"major\",\"source_quote\":\"Unless checked immediately, that tinge of jealousy keeps me from being happy for others.\",\"suggested_fix\":\"Replace « Si je ne les contrarie pas immédiatement » with « Si je ne les maîtrise pas immédiatement » so the sentence says that unchecked jealousy prevents the author from being happy for others.\",\"translation_quote\":\"Si je ne les contrarie pas immédiatement, cette pointe de jalousie m’empêche de me réjouir pour les autres.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 581,
+    "content_evidence_truncated": false,
+    "content_sha256": "c1bbf144655b4b7b6e5e3bcdbcc7cf7049eb46ab914522c40d445387bc5c6894",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 394,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5724,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6254
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

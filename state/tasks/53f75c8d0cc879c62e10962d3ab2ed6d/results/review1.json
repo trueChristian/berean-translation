@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3c3dfd12-57ea-42d6-8bd8-395ffaf703b6",
+    "response_id": "chatcmpl-EUrVo1LwLKaltek1DhDy5GalTIpXH",
+    "usage": {
+      "completion_tokens": 1000,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8718,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8715,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9718
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph under “...Lesser Ones”",
+        "severity": "major",
+        "source_quote": "This attitude is for the birds, but it is also intricately woven into our estimation of people.",
+        "suggested_fix": "Replace «هذا موقف لا يليق إلا بالطيور» with «هذا موقف سخيف، لكنه منسوج بإحكام أيضًا في تقديرنا للناس» to convey the idiom’s meaning while retaining the following clause.",
+        "translation_quote": "هذا موقف لا يليق إلا بالطيور، لكنه منسوج بإحكام أيضًا في تقديرنا للناس."
+      },
+      {
+        "location": "HTML paragraph immediately before the heading “...Little Ones”",
+        "severity": "minor",
+        "source_quote": "His delight is not merely in the sophisticated and prospering, but He makes His habitations among the…",
+        "suggested_fix": "Replace «المترفين والناجحين» with «المثقفين والناجحين» to retain the distinction between being sophisticated and prospering.",
+        "translation_quote": "ليس سروره في المترفين والناجحين فحسب، بل إنه يجعل مساكنه بين…"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

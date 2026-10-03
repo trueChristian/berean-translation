@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ephesians 2:10, quoted passage\",\"severity\":\"major\",\"source_quote\":\"“which God hath before ordained that we should walk in them”\",\"suggested_fix\":\"Change “wat God voorberei het” to “wat God vooraf voorberei het” so the translation retains the source’s “beforehand” meaning.\",\"translation_quote\":\"“goeie werke wat God voorberei het, sodat ons daarin kan wandel”\"},{\"location\":\"Paragraph beginning “There were friends in the same church”\",\"severity\":\"minor\",\"source_quote\":\"“each had a daughter of dating age”\",\"suggested_fix\":\"Replace “’n dogter van hubare ouderdom” with “’n dogter wat oud genoeg was om uit te gaan” to convey dating age rather than marriageable age.\",\"translation_quote\":\"“elkeen ’n dogter van hubare ouderdom gehad het”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 841,
+    "content_evidence_truncated": false,
+    "content_sha256": "f8414212a5e9fc60923e682a25a37c1f187e58558eaaac4749db284abaf9da41",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1131,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 917,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5801,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6935
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

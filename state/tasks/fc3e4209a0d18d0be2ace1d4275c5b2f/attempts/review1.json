@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third stanza, line 3\",\"severity\":\"major\",\"source_quote\":\"Thy hand from ev’ry snare and foe\",\"suggested_fix\":\"Αναδιατύπωσε τη γραμμή ώστε να λέει καθαρά ότι το χέρι του Ιησού θα φέρει απελευθέρωση από κάθε παγίδα και εχθρό, π.χ. «Το χέρι Σου θα φέρει μεγάλη απελευθέρωση από κάθε παγίδα και εχθρό.»\",\"translation_quote\":\"Το χέρι Σου από κάθε παγίδα και εχθρό\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 603,
+    "content_evidence_truncated": false,
+    "content_sha256": "a74a218345218d8a3eb7899b9d70a94d98e4d4f511dc673d00e23713068d6a9f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 676,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1938,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1935,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2614
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

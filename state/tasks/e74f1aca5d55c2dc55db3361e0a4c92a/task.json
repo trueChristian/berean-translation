@@ -2,7 +2,6 @@
   "article_id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 9570
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 829,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9429,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9426,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10258
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Примечание редактора, абзац о посланиях; ссылка на 2 Коринфянам 11:13–14",
+      "severity": "major",
+      "source_quote": "Satan and his agents will transform themselves …into the apostles of Christ and present themselves as …an angel of light –2 Corinthians 11:13-14.",
+      "suggested_fix": "Заменить на: «…сатана и его служители преобразуются …в апостолов Христа и выдают себя за …ангела света — 2 Коринфянам 11:13-14.»",
+      "translation_quote": "«…потому что сатана и его служители преобразуются …в апостолов Христа и выдают себя за …ангела света — 2 Коринфянам 11:13-14.»"
+    },
+    {
+      "location": "Основной текст, раздел «Взаимозаменяемы ли понятия „Царство“ и „Церковь“?», первый абзац",
+      "severity": "major",
+      "source_quote": "The kingdom is not … a generic version of, or a substitute word for, the church.",
+      "suggested_fix": "Исправить смысловую конструкцию, например: «Царство — это не, как могло бы показаться из современного употребления, общее понятие, обозначающее церковь, и не слово-замена для церкви.»",
+      "translation_quote": "«Царство — это не, как могло бы показаться из современного употребления, общее название для церкви и не замена слова „церковь“.»"
+    },
+    {
+      "location": "Основной текст, раздел «Взаимозаменяемы ли понятия „Царство“ и „Церковь“?», абзац с призывом трудиться ради Царства",
+      "severity": "major",
+      "source_quote": "Work for the good and growth of the church—your local church, and beyond.",
+      "suggested_fix": "Заменить заключительную часть на: «Трудитесь ради блага и роста церкви — своей местной церкви и церкви за ее пределами.»",
+      "translation_quote": "«Трудитесь ради блага и роста церкви — своей местной церкви и церкви в целом.»"
+    },
+    {
+      "location": "Стихотворение в div.lyrics после слов «Тимоти Дуайт написал»",
+      "severity": "major",
+      "source_quote": "The church our blest Redeemer / Saved with His own precious blood.",
+      "suggested_fix": "Перевести строки с сохранением смысла, например: «Церковь, искупленная нашим благословенным Спасителем / Его драгоценной кровью.»",
+      "translation_quote": "«Церковь, которую кровью Своею / Искупил наш Спаситель любя.»"
+    },
+    {
+      "location": "Стихотворение в div.lyrics после слов «Тимоти Дуайт написал»",
+      "severity": "major",
+      "source_quote": "Dear as the apple of Thine eye, / And graven on Thy hand.",
+      "suggested_fix": "Передать обе строки ближе к исходному смыслу: «Дорога Тебе, как зеница ока, / И начертана на руке Твоей.»",
+      "translation_quote": "«Дороже зеницы она для очей, / В ладонях начертана Твоих.»"
+    },
+    {
+      "location": "Стихотворение в div.lyrics после абзаца «Так должны поступать и мы!»",
+      "severity": "major",
+      "source_quote": "To her my cares and toils be giv’n, / Till toils and cares shall end.",
+      "suggested_fix": "Исправить эти строки, например: «Ей посвящу заботы и труды, / Пока не окончатся труды и заботы.»",
+      "translation_quote": "«Ей отдам я заботы и труды, / Пока не окончатся труды и заботы.»"
+    }
+  ],
   "id": "e74f1aca5d55c2dc55db3361e0a4c92a",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "rus",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0831ff95490bffbe0e23f53ea5194e523e59b9c9715fefeab30577548f0a6209.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
   "translation_model_actual": "gpt-6-luna"

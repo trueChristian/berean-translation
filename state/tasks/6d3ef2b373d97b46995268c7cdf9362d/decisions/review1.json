@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph containing Ephesians 5:25–27",
+      "severity": "major",
+      "source_quote": "That he might sanctify and cleanse it with the washing of water by the word,",
+      "suggested_fix": "Vervang die ooreenstemmende gedeelte binne die bestaande <em>-etiket met: “om dit te heilig en te reinig met die waterbad deur die woord,”",
+      "translation_quote": "om dit te heilig nadat Hy dit gereinig het met die waterbad deur die woord,"
+    },
+    {
+      "location": "HTML paragraph about boldly proclaiming the gospel",
+      "severity": "minor",
+      "source_quote": "willing to take the road less traveled.",
+      "suggested_fix": "Vervang “die minder betrapte pad te kies” met “die minder bewandelde pad te kies”.",
+      "translation_quote": "bereid is om die minder betrapte pad te kies."
+    },
+    {
+      "location": "Final HTML paragraph, sentence about seeking God’s will",
+      "severity": "minor",
+      "source_quote": "Let us earnestly seek God’s will for ourselves, for our families, for our churches, and for our neighbors.",
+      "suggested_fix": "Vervang “Laat ons God ernstig soek se wil” met “Laat ons God se wil ernstig soek”.",
+      "translation_quote": "Laat ons God ernstig soek se wil vir onsself, ons gesinne, ons kerke en ons bure."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

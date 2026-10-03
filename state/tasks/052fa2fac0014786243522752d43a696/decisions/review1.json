@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, 2. Absatz",
+      "severity": "major",
+      "source_quote": "“... no matter what each of you has faced your inner motivation echoes with the words of Apostle Paul, … for I have learned, in whatsoever state I am, therewith to be content.”",
+      "suggested_fix": "Ändern Sie den Beginn des Absatzes und des Zitats so, dass die Aussage erhalten bleibt: „Wir vertrauen darauf, dass unabhängig davon, womit jeder von euch konfrontiert war, eure innere Einstellung den Worten des Apostels Paulus entspricht: ‚… denn ich habe gelernt, in jeder Lage zufrieden zu sein.‘“",
+      "translation_quote": "„Wir vertrauen darauf, dass eure innere Einstellung, ganz gleich, womit jeder von euch konfrontiert war, den Worten des Apostels Paulus entspricht: … denn ich habe gelernt, mit dem zufrieden zu sein, was ich habe.“"
+    },
+    {
+      "location": "HTML, 6. Absatz",
+      "severity": "major",
+      "source_quote": "“the collective conscience of the churches to face an unprecedented crisis level”",
+      "suggested_fix": "Geben Sie wieder, dass das gemeinsame Gewissen der Gemeinden ein beispielloses Krisenniveau erreichte, etwa: „Dadurch geriet das gemeinsame Gewissen der Gemeinden in eine beispiellose Krise …“",
+      "translation_quote": "„Dadurch geriet das gemeinsame Gewissen der Gemeinden in eine beispiellose Krise …“"
+    },
+    {
+      "location": "HTML, 8. Absatz",
+      "severity": "major",
+      "source_quote": "“the prescription of the glasses we have in front of our eyes”",
+      "suggested_fix": "Übersetzen Sie „prescription“ als „Sehstärke“ bzw. „Brillenstärke“, nicht als Brille selbst; zum Beispiel: „Sie ist wie die Sehstärke der Brille, die wir vor den Augen tragen …“",
+      "translation_quote": "„Sie ist wie die Sehstärke der Brille, die wir vor den Augen tragen …“"
+    },
+    {
+      "location": "HTML, 10. Absatz",
+      "severity": "major",
+      "source_quote": "“There’s race discrimination on both sides of the matter.”",
+      "suggested_fix": "Bewahren Sie die Aussage, dass es auf beiden Seiten Rassendiskriminierung gibt, statt sie zu Vorwürfen abzuschwächen: „Auf beiden Seiten gibt es Rassendiskriminierung.“",
+      "translation_quote": "„Bei der Frage der Rassendiskriminierung gibt es auf beiden Seiten Vorwürfe.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

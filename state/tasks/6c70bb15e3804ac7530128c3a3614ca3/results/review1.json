@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8b77b8b0-d38b-4ad6-8541-2d37cda8cced",
+    "response_id": "chatcmpl-EUrVpdT4fmivUKZdQeM5iwtgjNonk",
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8411,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9182
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, parágrafo sobre a infância de Jesus",
+        "severity": "major",
+        "source_quote": "As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.",
+        "suggested_fix": "Substitua por: “Quando Jesus era menino, filho de pais pobres, é muito provável que essa cena se repetisse diante de Seus próprios olhos.”",
+        "translation_quote": "Como menino de pais pobres, é muito provável que essa cena se repetisse diante dos olhos do próprio Jesus durante Sua infância."
+      },
+      {
+        "location": "source.html, parágrafo sobre crianças e os não nascidos",
+        "severity": "major",
+        "source_quote": "For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.",
+        "suggested_fix": "Substitua por: “Para muitas mães de crianças ainda não nascidas, a vida que carregam é um incômodo pesado, que não vale o sacrifício necessário para mantê-la.”",
+        "translation_quote": "Para muitos ventres, a vida dos não nascidos é um incômodo pesado, que não vale o sacrifício necessário para preservá-la."
+      },
+      {
+        "location": "source.html, título da seção",
+        "severity": "major",
+        "source_quote": "…Latter Ones",
+        "suggested_fix": "Substitua o título por: “...Os últimos”",
+        "translation_quote": "…Os que vêm depois"
+      },
+      {
+        "location": "source.html, parágrafo sobre a rejeição do novo",
+        "severity": "major",
+        "source_quote": "and He was deposed of at the earliest opportunity.",
+        "suggested_fix": "Substitua por: “e foi destituído na primeira oportunidade.”",
+        "translation_quote": "e foi deposto na primeira oportunidade."
+      },
+      {
+        "location": "source.html, parágrafo sobre os pardais e a espingarda",
+        "severity": "major",
+        "source_quote": "a BB gun for the sparrows—for they are worthless. This attitude is for the birds",
+        "suggested_fix": "Substitua por: “uma espingarda de pressão para os pardais — porque não valem nada. Essa atitude é absurda”",
+        "translation_quote": "uma espingarda de chumbinho para os pardais — porque não valem nada. Essa atitude é coisa de passarinho"
+      },
+      {
+        "location": "source.html, parágrafo sobre beleza exterior",
+        "severity": "major",
+        "source_quote": "Many will go to extra efforts to deplete their outward ostentation but forget that the emphasis of the verse is to make the inner heart beautiful.",
+        "suggested_fix": "Substitua por: “Muitos se esforçam ainda mais para reduzir sua ostentação exterior, mas se esquecem de que a ênfase do versículo é tornar belo o coração interior.”",
+        "translation_quote": "Muitos se esforçam ainda mais para reduzir sua ostentação exterior, mas se esquecem de que a ênfase do versículo é tornar belo o coração interior."
+      },
+      {
+        "location": "source.html, poema, primeira estrofe",
+        "severity": "major",
+        "source_quote": "Very wise men tell me why, / But I am never satisfied.",
+        "suggested_fix": "Substitua por: “Homens muito sábios me dizem por quê, / Mas nunca fico satisfeito.”",
+        "translation_quote": "Homens muito sábios me dizem por quê, / Mas nunca fico satisfeito."
+      },
+      {
+        "location": "source.html, último parágrafo biográfico",
+        "severity": "major",
+        "source_quote": "he couldn’t unmold them to clasp the rope",
+        "suggested_fix": "Substitua por: “ele não conseguiu desprendê-las para agarrar a corda”",
+        "translation_quote": "ele não conseguiu soltá-las para agarrar a corda"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

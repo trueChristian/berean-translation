@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem stanza 6",
+      "severity": "major",
+      "source_quote": "If what I do, and what I say,\n    Changes the course of other’s clay,",
+      "suggested_fix": "Replace the two corresponding lines with: “Om det jag gör och det jag säger,<br>\n    förändrar hur andras lera formas,”",
+      "translation_quote": "Om det jag gör och det jag säger\n    påverkar andra krukors lera,"
+    },
+    {
+      "location": "source.html, poem stanza 2",
+      "severity": "minor",
+      "source_quote": "I’m a little bit shallow, I admit,\n    For I’m focusing on me quite a bit.",
+      "suggested_fix": "Use, for example: “Lite ytlig är jag, det medger jag,<br>\n    för jag fokuserar rätt mycket på mig själv varje dag.”",
+      "translation_quote": "Lite ytlig är jag, det medger jag,\n    för jag tänker rätt mycket på mig själv var dag."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

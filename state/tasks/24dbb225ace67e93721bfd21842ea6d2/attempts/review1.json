@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"المقال، الفقرة الختامية عن أثر الصحة على الرسالة\",\"severity\":\"major\",\"source_quote\":\"I believe that if we are healthy, it will make it easier for us to fulfil our mission—to reach the world around us with the Gospel message.\",\"suggested_fix\":\"استبدلوا الجملة الأخيرة بـ: «وأعتقد أن التمتع بالصحة سيسهّل علينا إتمام رسالتنا، وهي إيصال رسالة الإنجيل إلى العالم من حولنا.»\",\"translation_quote\":\"وأعتقد أن صحتنا ستجعل من الأسهل علينا إتمام رسالتنا، أي إيصال رسالة الإنجيل إلى العالم من حولنا.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 771,
+    "content_evidence_truncated": false,
+    "content_sha256": "3e9b9b944721ad9e5117a6e5f3d3aa672f49b6c4a3f293704dc71337bb3ed5f9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 154,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9572,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9569,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9726
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “একই মণ্ডলীতে কয়েকজন বন্ধু ছিলেন”\",\"severity\":\"major\",\"source_quote\":\"one daughter dated and married long before the other one began a courtship.\",\"suggested_fix\":\"এখানে ঘটনাক্রমটি ঠিক করুন: একজন মেয়ে প্রেমের সম্পর্কে জড়িয়ে বিয়ে করেছিল, অন্য মেয়েটি প্রেমের সম্পর্ক শুরু করার অনেক আগেই।\",\"translation_quote\":\"এক মেয়ের বিয়ের প্রস্তাব আসা ও বিয়ে হওয়ার বহু আগেই আরেকজনের মেয়ের প্রস্তাব এসেছিল।\"},{\"location\":\"HTML paragraph under “নিজের আশীর্বাদগুলো গুনে দেখুন”\",\"severity\":\"major\",\"source_quote\":\"they measuring themselves by themselves, and comparing themselves among themselves, are not wise\",\"suggested_fix\":\"উদ্ধৃত অংশে মূলের ক্রিয়া ও সম্পর্কের ক্রম বজায় রাখুন: “তাহারা আপনাদিগকে আপনাদের দ্বারা পরিমাপ করে, এবং নিজেদের মধ্যে তুলনা করে, বুদ্ধিহীনতা প্রকাশ করে”—২ করিন্থীয় ১০:১২।\",\"translation_quote\":\"তাহারা আপনাদিগকে আপনাদের সহিত তুলনা করিয়া, এবং আপনাদের নিজেদের মধ্যে পরিমাপ করিয়া, বুদ্ধিহীনতা প্রকাশ করে—২ করিন্থীয় ১০:১২।\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1998,
+    "content_evidence_truncated": false,
+    "content_sha256": "84d77ef1dbbe1d6d33fb105d9bcc00711e2a77db16625be2a9cdc5ce901f9206",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 943,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 632,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6228,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6225,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7171
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

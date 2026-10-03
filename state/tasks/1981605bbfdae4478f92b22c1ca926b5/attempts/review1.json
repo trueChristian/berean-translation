@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, Isaiah 61:1 quote\",\"severity\":\"major\",\"source_quote\":\"to preach good tidings unto the meek\",\"suggested_fix\":\"Replace «να ευαγγελίζομαι στους φτωχούς» with «να ευαγγελίζομαι στους πράους» (or another contemporary Greek equivalent of “the meek”), preserving the existing tags and structure.\",\"translation_quote\":\"να ευαγγελίζομαι στους φτωχούς\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 502,
+    "content_evidence_truncated": false,
+    "content_sha256": "738ddba4e5d77251d969135ce0a1a268ee8c13b082c64fde31a1885a9ef30c6b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 854,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 724,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9673,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10530
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

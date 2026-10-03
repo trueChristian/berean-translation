@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “En härlig församling…” (underlined quotation)\",\"severity\":\"major\",\"source_quote\":\"A glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish!\",\"suggested_fix\":\"Ändra den sista delen till ”…utan fläck eller skrynkla eller något sådant, men helig och fullkomlig!” så att den inte säger att församlingen är utan helighet.\",\"translation_quote\":\"En härlig församling, utan fläck eller skrynkla eller något sådant, utan helig och fullkomlig!\"},{\"location\":\"HTML, paragraph beginning “Det krävs stor tillit till Gud…”\",\"severity\":\"major\",\"source_quote\":\"For I am now ready to be offered, and the time of my departure is at hand.\",\"suggested_fix\":\"Ändra inledningen av citatet till exempelvis ”Ty jag är nu redo att offras, och tiden för mitt uppbrott är inne” för att bevara att Paulus är redo att offras, inte att han redan offras.\",\"translation_quote\":\"Ty jag offras redan, och tiden är inne då jag skall bryta upp.\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 1094,
+    "content_evidence_truncated": false,
+    "content_sha256": "d75fead8f8617cdeb5eb6b736b85daace8fed0e10ace9d738e3f66e10fa61266",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1109,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 822,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8048,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8045,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9157
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

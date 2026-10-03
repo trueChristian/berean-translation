@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الخامسة، وصف مخزون شركات التصنيع",
+      "severity": "major",
+      "source_quote": "many manufacturers found themselves behind in their inventory reserve",
+      "suggested_fix": "استبدل «وجدت شركات تصنيع كثيرة أن مخزونها الاحتياطي قد نفد» بـ«وجدت شركات تصنيع كثيرة أنها متأخرة في تكوين مخزونها الاحتياطي».",
+      "translation_quote": "وجدت شركات تصنيع كثيرة أن مخزونها الاحتياطي قد نفد"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

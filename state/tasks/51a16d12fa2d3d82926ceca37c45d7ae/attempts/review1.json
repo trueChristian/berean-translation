@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3\",\"severity\":\"major\",\"source_quote\":\"“baker’s dozen”\",\"suggested_fix\":\"Replace “donati za ziada” with a Kiswahili rendering of the custom of a baker giving an extra item, such as “kama ilivyo desturi ya mwokaji kutoa bidhaa moja ya ziada”.\" ,\"translation_quote\":\"“donati za ziada”\"},{\"location\":\"Paragraph 4\",\"severity\":\"major\",\"source_quote\":\"“As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.”\",\"suggested_fix\":\"Translate as: “Akiwa mvulana mdogo mwenye wazazi maskini, inawezekana sana kwamba tukio hili lilikuwa limetukia mara nyingi mbele ya macho yake mwenyewe katika siku za utoto wa Yesu.”\",\"translation_quote\":\"“Nikiwa mvulana mdogo mwenye wazazi maskini, inawezekana sana kwamba katika siku za utoto wa Yesu, tukio hili lilikuwa limejirudia mbele ya macho yake mwenyewe.”\"},{\"location\":\"Paragraph 6\",\"severity\":\"major\",\"source_quote\":\"“The convergent link drawn to the worthless bird is a worthless person.”\",\"suggested_fix\":\"Restore the assertion linking the bird and a person considered worthless, for example: “Kiungo kinachounganisha ndege asiye na thamani na mtu asiye na thamani ni wazi.”\",\"translation_quote\":\"“Uhusiano unaounganisha ndege asiye na thamani na mtu asiye na thamani.”\"},{\"location\":\"Paragraph 8\",\"severity\":\"major\",\"source_quote\":\"“There was a minister who was asked by a funeral director to come and hold a funeral service.”\",\"suggested_fix\":\"Clarify that the person asked was a minister, e.g. “Kulikuwa na mhudumu wa kanisa ambaye aliombwa na mkurugenzi wa mazishi aje kuongoza ibada ya mazishi.”\",\"translation_quote\":\"“Kulikuwa na mhudumu wa kanisa ambaye mkurugenzi wa mazishi alimwomba aje kuendesha ibada ya mazishi.”\"},{\"location\":\"Paragraph 11, quotation Mark 10:13\",\"severity\":\"major\",\"source_quote\":\"“And they [mothers] brought young children to him, that he [Jesus] should touch them: and his disciples rebuked those that brought them”\",\"suggested_fix\":\"Translate the bracketed clarifications as part of the quotation: “Nao [akina mama] wakamletea watoto wadogo ili yeye [Yesu] awaguse; lakini wanafunzi wake wakawakemea wale waliowaleta.”\",\"translation_quote\":\"“Wakamletea watoto wadogo ili awaguse; lakini wanafunzi wake wakawakemea wale waliowaleta”\"},{\"location\":\"Paragraph 11\",\"severity\":\"major\",\"source_quote\":\"“For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.”\",\"suggested_fix\":\"Preserve the source’s claim about many mothers’ wombs, e.g. “Kwa wajawazito wengi, uhai wa mtoto aliye tumboni ni kero nzito ambayo hawaoni kuwa inastahili dhabihu inayohitajika ili kuuhifadhi.”\",\"translation_quote\":\"“Kwa akina mama wengi, uhai wa mtoto ambaye hajazaliwa tumboni ni kero nzito isiyostahili dhabihu inayohitajika ili kuuhifadhi.”\"},{\"location\":\"Paragraph 14\",\"severity\":\"major\",\"source_quote\":\"“But this selfishness is nothing new. Christ was confronted with the same hardness when He introduced the new ‘wine’ to the religious throng, but they insisted that the old was better.”\",\"suggested_fix\":\"Translate “hardness” as hardness/resistance rather than general difficulty, e.g. “Kristo alikabili ugumu huo huo wa mioyo alipoleta ‘divai’ mpya kwa umati wa kidini...”\",\"translation_quote\":\"“Kristo alikabili ugumu huohuo alipoleta ‘divai’ mpya kwa umati wa kidini...”\"},{\"location\":\"Paragraph 14\",\"severity\":\"major\",\"source_quote\":\"“He [was] despised and rejected of men… –Isaiah 53:3,”\",\"suggested_fix\":\"Preserve the bracketed “[was]” clarification in Kiswahili within the translated quotation, e.g. “Yeye [alikuwa] amedharauliwa na kukataliwa na watu…”\",\"translation_quote\":\"“Alidharauliwa na kukataliwa na watu…”\"},{\"location\":\"Paragraph 17\",\"severity\":\"major\",\"source_quote\":\"“The totalitarian governments of communist regimes have been blatant offenders. Any human who could not or would not contribute to the furtherance of the political vision was exterminated.”\",\"suggested_fix\":\"Render the perpetrators as totalitarian governments/regimes, not governments of regimes: “Serikali za kiimla za tawala za kikomunisti zimekuwa wakosaji wa waziwazi. Mwanadamu yeyote ambaye hakuweza au hakutaka kuchangia kuendeleza maono ya kisiasa aliangamizwa.”\",\"translation_quote\":\"“Serikali za kiimla za tawala za kikomunisti zimekuwa wakosaji wa waziwazi.”\"},{\"location\":\"Paragraph 20\",\"severity\":\"major\",\"source_quote\":\"“While some will thrust all their evangelical energies toward the lost heathen on foreign soils, there is another lost entity here on our own turf.”\",\"suggested_fix\":\"Translate the reference to people deemed heathen, rather than “pagans” as an abstract category, e.g. “Ingawa wengine huelekeza nguvu zao zote za uinjilisti kwa watu wapagani waliopotea katika nchi za kigeni...”\",\"translation_quote\":\"“Ingawa wengine huelekeza nguvu zao zote za uinjilisti kwa wapagani waliopotea katika nchi za kigeni...”\"}],\"passed\":false,\"score\":77}",
+    "content_bytes": 5165,
+    "content_evidence_truncated": false,
+    "content_sha256": "0d3e450fa34c421e2d75ec01affb4bca4bd83464a486e0d50b500a19168222fe",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1263,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9119,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9116,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10382
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

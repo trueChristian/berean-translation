@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f8b7b048-1d03-46da-adc4-d25b6930a0eb",
+    "response_id": "chatcmpl-EUrVoi4hVC9T9g2ah394ypH8XXhQb",
+    "usage": {
+      "completion_tokens": 1158,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 975,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1987,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1984,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3145
+    }
+  },
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, second stanza, final line",
+        "severity": "minor",
+        "source_quote": "I’m not the only pot.",
+        "suggested_fix": "Replace the line with “Não sou o único pote.” or another concise Portuguese equivalent that does not add a new image.",
+        "translation_quote": "Não sou o único pote nesta odisseia."
+      },
+      {
+        "location": "Poem, first stanza, final line",
+        "severity": "minor",
+        "source_quote": "A lamp, or a plate, or a kitchen sink?",
+        "suggested_fix": "Remove “a valer” and use a natural equivalent, such as “Uma lâmpada, um prato ou uma pia de cozinha?”",
+        "translation_quote": "Uma lâmpada, um prato ou pia de cozinha a valer?"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

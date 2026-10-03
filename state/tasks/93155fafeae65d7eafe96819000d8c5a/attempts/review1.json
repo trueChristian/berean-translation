@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, first stanza\",\"severity\":\"minor\",\"source_quote\":\"To carry, to store, or for a drink?\",\"suggested_fix\":\"¿Para transportar, guardar o servir una bebida?\",\"translation_quote\":\"¿Para llevar, guardar o beber?\"},{\"location\":\"HTML, poem, third stanza\",\"severity\":\"minor\",\"source_quote\":\"About my life / are many others,\",\"suggested_fix\":\"En mi vida / hay muchas otras personas:\",\"translation_quote\":\"Alrededor de mi vida / hay muchas otras personas:\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 511,
+    "content_evidence_truncated": false,
+    "content_sha256": "1ca7e1abed5196719c1e7501a1debf5dc1d82ab575ac8bb4ef205b4e9dd1bad3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 627,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1992,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1989,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2619
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

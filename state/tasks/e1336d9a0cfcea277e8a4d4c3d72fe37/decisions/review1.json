@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, άσκηση τακτικά, πρώτη παράγραφος",
+      "severity": "major",
+      "source_quote": "“rushing out to run three miles”",
+      "suggested_fix": "Αλλάξτε το «πέντε χιλιόμετρα» σε «περίπου πέντε χιλιόμετρα» ή, για ακριβή διατήρηση της απόστασης, σε «τρία μίλια».",
+      "translation_quote": "«να τρέξετε πέντε χιλιόμετρα»"
+    },
+    {
+      "location": "HTML, στοχευμένα συμπληρώματα, παράγραφος για τον ψευδάργυρο",
+      "severity": "major",
+      "source_quote": "“I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.”",
+      "suggested_fix": "Αντικαταστήστε την πρόταση με: «Θα ήθελα να επισημάνω εδώ ότι δεν προορίζεται πραγματικά για καθημερινή λήψη· αντίθετα, θα πρέπει να λαμβάνεται περισσότερο με την εμφάνιση του πρώτου συμπτώματος λοίμωξης του ανώτερου αναπνευστικού.»",
+      "translation_quote": "«Θα ήθελα να επισημάνω εδώ ότι δεν προορίζεται πραγματικά για καθημερινή λήψη· είναι προτιμότερο να λαμβάνεται περισσότερο με την εμφάνιση του πρώτου συμπτώματος λοίμωξης του ανώτερου αναπνευστικού.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

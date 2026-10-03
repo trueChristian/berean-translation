@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “Kinders is die teenoorgestelde”\",\"severity\":\"major\",\"source_quote\":\"“Children are the opposite. They are the emblem of innocence, dependance, and ignorance.”\",\"suggested_fix\":\"Change “afhanklikheid” to “afhanklikheid” is correct for “dependence”; however, translate “ignorance” as “onkunde” only if it conveys lack of knowledge rather than stupidity. Suggested wording: “Hulle is die toonbeeld van onskuld, afhanklikheid en gebrek aan kennis.”\",\"translation_quote\":\"“Hulle is die toonbeeld van onskuld, afhanklikheid en onkunde.”\"},{\"location\":\"Article, paragraph beginning “Die totalitêre regerings”\",\"severity\":\"major\",\"source_quote\":\"“we sigh and lament at the vast ignorance and injustice of such prejudice precinct”\",\"suggested_fix\":\"Replace “sulke bevooroordeelde gebiede” with a rendering of the source’s reference to prejudiced policies/practices, e.g. “sulke vooroordeel en onreg” (the English wording is awkward, but does not refer to geographical areas).\",\"translation_quote\":\"“die ontsaglike onkunde en onreg van sulke bevooroordeelde gebiede”\"},{\"location\":\"Article, paragraph beginning “God het duidelik geen beswaar”\",\"severity\":\"major\",\"source_quote\":\"“Many will go to extra efforts to deplete their outward ostentation but forget that the emphasis of the verse is to make the inner heart beautiful.”\",\"suggested_fix\":\"Change “verminder” to a faithful rendering of “deplete” in context, such as “hul uiterlike pronkery af te lê/te verminder” only if the intended meaning is reducing outward display. As written, the translation says they reduce ostentation, which is consistent with the source; no correction is required.\",\"translation_quote\":\"“Baie sal ekstra moeite doen om hul uiterlike pronkery te verminder, maar vergeet dat die klem van die vers daarop val dat die innerlike hart mooi gemaak moet word.”\"},{\"location\":\"Article, paragraph beginning “Die vrou wat haar silwermuntstuk verloor het”\",\"severity\":\"major\",\"source_quote\":\"“The woman who lost her silver searched her house until it was found, likewise, the shepherd with his lost lamb.”\",\"suggested_fix\":\"Replace “net so het die herder met sy verlore lam gemaak” with “net so het die herder na sy verlore lam gesoek,” preserving the explicit search action.\",\"translation_quote\":\"“Die vrou wat haar silwermuntstuk verloor het, het haar huis deurgesoek totdat sy dit gevind het; net so het die herder met sy verlore lam gemaak.”\"},{\"location\":\"Article, paragraph beginning “Die boodskap van die mossie”\",\"severity\":\"minor\",\"source_quote\":\"“For he who would dive to explore the recesses of the deep must first pass through the surface bubbles on the wave.”\",\"suggested_fix\":\"Make the image clearer by rendering “recesses of the deep” as the depths’ hidden reaches, for example: “Want hy wat in die dieptes wil afduik om hul verste uithoeke te verken, moet eers deur die borrels op die golwe se oppervlak gaan.”\",\"translation_quote\":\"“Want hy wat die dieptes wil verken, moet eers deur die borrels op die golwe se oppervlak gaan.”\"},{\"location\":\"Article, paragraph beginning “Die bemoedigende aspek”\",\"severity\":\"major\",\"source_quote\":\"“The avenues of life that reach out to receive our copper coins are the shrines that hold our hands and our hearts”\",\"suggested_fix\":\"Replace the sentence’s altered imagery with a close Afrikaans rendering that retains the source’s awkward metaphor, e.g. “Die lewensweë wat uitreik om ons kopermuntstukke te ontvang, is die heiligdomme wat ons hande en harte vashou.”\",\"translation_quote\":\"“Die lewensweë wat ons hande en harte na vore laat kom om ons kopermuntstukke te ontvang, is die heiligdomme wat hulle vashou”\"},{\"location\":\"Title\",\"severity\":\"minor\",\"source_quote\":\"“Sparrows”\",\"suggested_fix\":\"“Mossies” is a valid conventional Afrikaans title translation; no correction is needed.\",\"translation_quote\":\"“Mossies”\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 4080,
+    "content_evidence_truncated": false,
+    "content_sha256": "0fbb5a9eef5a8f4ff25f3dfd1b7a7ac3279fe5a124b86cf9a9e9af84132af51d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 948,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9092,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9089,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10040
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

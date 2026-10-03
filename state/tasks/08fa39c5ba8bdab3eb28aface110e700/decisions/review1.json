@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, second stanza, first line",
+      "severity": "minor",
+      "source_quote": "Why would one question a God like this?",
+      "suggested_fix": "Vervang deze regel door: “Waarom zou je zo’n God in twijfel trekken?” Zo blijft het onderscheid met de volgende regel, die expliciet over twijfelen gaat, behouden.",
+      "translation_quote": "Waarom zou je aan zo’n God twijfelen?"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b510c892-3835-443e-8284-cdbc3804700d",
+    "response_id": "chatcmpl-EUrVpmMfioBO2MoMDwVf4goIWIc1k",
+    "usage": {
+      "completion_tokens": 726,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8934,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8931,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9660
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Nota del editor, párrafo 3",
+        "severity": "major",
+        "source_quote": "…–2 Corinthians 11:13-14.",
+        "suggested_fix": "Conserve «2 Corintios 11:13-14»; el número del pasaje no debe cambiarse.",
+        "translation_quote": "…–2 Corintios 11:13-14."
+      },
+      {
+        "location": "Nota del editor, párrafo 4",
+        "severity": "major",
+        "source_quote": "“take the oversight thereof”",
+        "suggested_fix": "Traduzca la expresión como «cuiden de ella» o «asuman la supervisión de ella», según el contexto, para conservar la idea de ejercer supervisión espiritual.",
+        "translation_quote": "«cuiden de ella»"
+      },
+      {
+        "location": "Nota del editor, párrafo 4",
+        "severity": "major",
+        "source_quote": "“like precious faith” (who believe as they do)",
+        "suggested_fix": "Exprese que comparten una fe igualmente preciosa y que creen como ellos; por ejemplo: «de una fe igualmente preciosa (que creen como ellos)».",
+        "translation_quote": "«una fe igualmente preciosa» (que creen como ellos)"
+      },
+      {
+        "location": "Nota del editor, párrafo 5",
+        "severity": "major",
+        "source_quote": "an alone “local” Christian",
+        "suggested_fix": "Conserve la idea de estar solo o aislado, por ejemplo: «un cristiano “local” que está solo».",
+        "translation_quote": "un cristiano «local» aislado"
+      },
+      {
+        "location": "Nota del editor, párrafo 5",
+        "severity": "major",
+        "source_quote": "as they try to express the kingdom “on the earth,” and “in the now.”",
+        "suggested_fix": "Conserve los dos matices del original: «en la tierra» y «ahora mismo» o «en el presente».",
+        "translation_quote": "mientras intentan expresar el reino «en la tierra» y «en el presente»."
+      },
+      {
+        "location": "Cuerpo, primer párrafo después de la lista numerada",
+        "severity": "major",
+        "source_quote": "they tend to focus on Paul",
+        "suggested_fix": "Traduzca «focus on Paul» como «centrarse en Pablo», no como «centrarse en Pablo» únicamente si el sentido se mantiene; la traducción actual de esta frase es fiel. No requiere corrección.",
+        "translation_quote": "tienden a centrarse en Pablo"
+      },
+      {
+        "location": "Cuerpo, párrafo sobre los Evangelios y el reino",
+        "severity": "major",
+        "source_quote": "Christ is central to interpreting, not only the New Testament, but actually the entire Bible.",
+        "suggested_fix": "Use «Cristo es fundamental para interpretar no solo el Nuevo Testamento, sino en realidad toda la Biblia», que conserva el alcance del original.",
+        "translation_quote": "Cristo es fundamental para interpretar no solo el Nuevo Testamento, sino en realidad toda la Biblia."
+      },
+      {
+        "location": "Cuerpo, párrafo sobre la relación entre reino e iglesia",
+        "severity": "major",
+        "source_quote": "the church is composed of those who are in the kingdom; those who, through the work of Christ, have submitted to the rule of God.",
+        "suggested_fix": "Conserve la relación expresada en el original; la traducción «está compuesta por quienes están en el reino: quienes… se han sometido» es fiel y no requiere corrección.",
+        "translation_quote": "está compuesta por quienes están en el reino: quienes, mediante la obra de Cristo, se han sometido al gobierno de Dios."
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

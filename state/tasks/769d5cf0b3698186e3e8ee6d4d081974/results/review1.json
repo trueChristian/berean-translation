@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fbaedd17-b2b8-4a1c-9570-6b2145eaddf3",
+    "response_id": "chatcmpl-EUrWXI06yLDbQscyMpYQnSW8A5OHp",
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1880,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1877,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2611
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, stanza 1, line 2",
+        "severity": "major",
+        "source_quote": "He controls the sea, the storms that appear.",
+        "suggested_fix": "Заменить на «Он владеет морем и возникающими бурями» или другой вариант, сохраняющий мысль о том, что Бог управляет морем и бурями.",
+        "translation_quote": "Он морем владеет, и штормам случаться."
+      },
+      {
+        "location": "HTML, poem, stanza 2, line 1",
+        "severity": "major",
+        "source_quote": "Why would one question a God like this?",
+        "suggested_fix": "Заменить на вопрос о том, зачем сомневаться в таком Боге, например: «Зачем же сомневаться в таком Боге?»",
+        "translation_quote": "Зачем же такого Бога испытывать?"
+      },
+      {
+        "location": "HTML, poem, stanza 4, line 1",
+        "severity": "major",
+        "source_quote": "The things of this world are so brilliant and fast.",
+        "suggested_fix": "Передать обе характеристики мира — его блеск и быстротечность, например: «Мирские дела так ярки и быстротечны».",
+        "translation_quote": "Мирские дела так прекрасны и скоротечны."
+      },
+      {
+        "location": "HTML, poem, stanza 4, line 2",
+        "severity": "major",
+        "source_quote": "Do we even need God, maybe old-fashioned at last?!",
+        "suggested_fix": "Сохранить смысл риторического сомнения, не утверждая, что Бог навечно старомоден; например: «Нужен ли нам Бог? Может, Он уже старомоден?!»",
+        "translation_quote": "Нужен ли нам Бог? Может, Он старомоден уже навечно?!"
+      },
+      {
+        "location": "HTML, poem, stanza 4, line 4",
+        "severity": "major",
+        "source_quote": "We have seen God working, yes, from our youth.",
+        "suggested_fix": "Исправить на «Да, мы с юности видели, как действует Бог», сохранив, что речь о наблюдении за Божьим действием с юных лет.",
+        "translation_quote": "Видели, как Бог действовал, с юных лет."
+      },
+      {
+        "location": "HTML, poem, stanza 5, line 2",
+        "severity": "major",
+        "source_quote": "To say any different would certainly sound odd.",
+        "suggested_fix": "Передать условную мысль: «Сказать иначе, конечно, звучало бы странно».",
+        "translation_quote": "Иначе сказать — прозвучало бы странно."
+      },
+      {
+        "location": "HTML, poem, stanza 6, line 2",
+        "severity": "major",
+        "source_quote": "But every moment, your fears disregard.",
+        "suggested_fix": "Сохранить обращение к читателю и смысл не считаться со страхами, например: «Но каждый миг не поддавайся своим страхам».",
+        "translation_quote": "Но каждый миг, не давая страхам взять верх."
+      },
+      {
+        "location": "HTML, poem, stanza 6, line 4",
+        "severity": "major",
+        "source_quote": "With confidence in God, His power to display.",
+        "suggested_fix": "Уточнить, что народ являет силу Бога благодаря уверенности в Нём: «С <strong><em>уверенностью</em></strong> в Боге, являя Его силу».",
+        "translation_quote": "С <strong><em>уверенностью</em></strong> в Бога явит Его силу."
+      }
+    ],
+    "passed": false,
+    "score": 74
+  }
+}

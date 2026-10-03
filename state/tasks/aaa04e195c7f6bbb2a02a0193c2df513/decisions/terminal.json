@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, stanza 1, line 3",
+      "severity": "minor",
+      "source_quote": "The church our blest Redeemer saved",
+      "suggested_fix": "Ganti “Penebus terkasih kita” dengan “Penebus kita yang diberkati” agar “blest” tidak berubah makna menjadi “beloved/terkasih”.",
+      "translation_quote": "Gereja yang diselamatkan Penebus terkasih kita"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

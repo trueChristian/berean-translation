@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, final stanza",
+      "severity": "major",
+      "source_quote": "With confidence in God, His power to display.",
+      "suggested_fix": "Replace “하나님을 <strong><em>확신</em></strong>하며” with “하나님을 <strong><em>신뢰</em></strong>하며” to convey confidence placed in God, rather than certainty about God.",
+      "translation_quote": "하나님을 <strong><em>확신</em></strong>하며 그분의 능력을 드러낼 백성을."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

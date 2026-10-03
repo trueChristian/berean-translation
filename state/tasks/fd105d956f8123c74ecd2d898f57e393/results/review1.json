@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "61027367-b5c7-4e3b-9e3a-58f9614faa26",
+    "response_id": "chatcmpl-EUrVpQUH17TpoRTj71VktIncrFyDV",
+    "usage": {
+      "completion_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 731,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1791,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1788,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2634
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second stanza, third line",
+        "severity": "minor",
+        "source_quote": "To her my cares and toils be giv’n,",
+        "suggested_fix": "استبدلها بـ «وأكرّس لها اهتمامي وجهدي،» للحفاظ على معنى تكريس الاهتمام والعمل لها.",
+        "translation_quote": "ولأجلها أبذل همومي وتَعَبي،"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

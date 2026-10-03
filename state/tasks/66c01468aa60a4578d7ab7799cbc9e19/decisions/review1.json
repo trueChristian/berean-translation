@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, bait 1, baris 2",
+      "severity": "minor",
+      "source_quote": "He controls the sea, the storms that appear.",
+      "suggested_fix": "Ganti “badai yang datang menyambut” dengan ungkapan yang mempertahankan makna badai yang muncul, misalnya “Dia menguasai laut dan badai yang datang melanda.”",
+      "translation_quote": "Dia menguasai laut, badai yang datang menyambut."
+    },
+    {
+      "location": "HTML, bait 2, baris 3",
+      "severity": "major",
+      "source_quote": "“Trust in the Lord” the Scripture has said.",
+      "suggested_fix": "Terjemahkan sebagai kutipan, misalnya: “Percayalah kepada Tuhan,” demikian bunyi Kitab Suci.",
+      "translation_quote": "“Percayalah kepada Tuhan,” demikian firman Kitab Suci."
+    },
+    {
+      "location": "HTML, bait 3, baris 1",
+      "severity": "minor",
+      "source_quote": "I’m sure it’s confusing, to the all-knowing One.",
+      "suggested_fix": "Pertahankan makna bahwa hal itu membingungkan bagi Pribadi yang Mahatahu, misalnya: “Aku yakin, hal ini membingungkan bagi Dia yang Mahatahu.”",
+      "translation_quote": "Aku yakin, bagi Dia yang Mahatahu, ini membingungkan."
+    },
+    {
+      "location": "HTML, bait 5, baris 3",
+      "severity": "major",
+      "source_quote": "He’s waiting for the church to trust Him once more.",
+      "suggested_fix": "Pertahankan bahwa gereja diharapkan kembali percaya kepada-Nya, misalnya: “Dia menanti gereja kembali percaya kepada-Nya.”",
+      "translation_quote": "Dia menanti gereja kembali percaya kepada-Nya."
+    },
+    {
+      "location": "HTML, bait 6, baris 2",
+      "severity": "major",
+      "source_quote": "But every moment, your fears disregard.",
+      "suggested_fix": "Terjemahkan sebagai ajakan untuk tidak mengabaikan ketakutan, misalnya: “Namun setiap saat, jangan abaikan ketakutanmu.”",
+      "translation_quote": "Melainkan setiap saat, singkirkanlah ketakutanmu."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

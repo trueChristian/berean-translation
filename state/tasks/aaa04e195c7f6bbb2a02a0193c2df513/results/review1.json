@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "05539bde-de00-4271-9793-d19ec1acec9c",
+    "response_id": "chatcmpl-EUrW6I9EspOeqQrrzDNn0onyAXD4O",
+    "usage": {
+      "completion_tokens": 854,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 728,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1805,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1802,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2659
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, stanza 1, line 3",
+        "severity": "minor",
+        "source_quote": "The church our blest Redeemer saved",
+        "suggested_fix": "Ganti “Penebus terkasih kita” dengan “Penebus kita yang diberkati” agar “blest” tidak berubah makna menjadi “beloved/terkasih”.",
+        "translation_quote": "Gereja yang diselamatkan Penebus terkasih kita"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

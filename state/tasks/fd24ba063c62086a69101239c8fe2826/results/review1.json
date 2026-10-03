@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9173c332-2b0c-4bce-8a33-1b2824deb9dd",
+    "response_id": "chatcmpl-EUrWhzdIXkZrJm6TZbsZEyOeFtkWA",
+    "usage": {
+      "completion_tokens": 771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 641,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5462,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5459,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6233
+    }
+  },
+  "received_at": "2026-10-03T11:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الخامسة، وصف مخزون شركات التصنيع",
+        "severity": "major",
+        "source_quote": "many manufacturers found themselves behind in their inventory reserve",
+        "suggested_fix": "استبدل «وجدت شركات تصنيع كثيرة أن مخزونها الاحتياطي قد نفد» بـ«وجدت شركات تصنيع كثيرة أنها متأخرة في تكوين مخزونها الاحتياطي».",
+        "translation_quote": "وجدت شركات تصنيع كثيرة أن مخزونها الاحتياطي قد نفد"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

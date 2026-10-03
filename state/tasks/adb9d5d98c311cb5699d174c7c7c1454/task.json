@@ -2,7 +2,6 @@
   "article_id": "77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:04+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 2235
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 258,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2009,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2006,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2267
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Gedicht, Strophe 1",
+      "severity": "minor",
+      "source_quote": "God the Potter is molding me.",
+      "suggested_fix": "„Gott, der Töpfer, formt mich.“",
+      "translation_quote": "Gott, der Töpfer, formt mich neu."
+    },
+    {
+      "location": "Gedicht, Strophe 3",
+      "severity": "minor",
+      "source_quote": "A husband, a daughter, and some brothers.",
+      "suggested_fix": "„einen Ehemann, eine Tochter und einige Brüder.“",
+      "translation_quote": "einen Mann, eine Tochter und ein paar Brüder."
+    },
+    {
+      "location": "Gedicht, Strophe 5",
+      "severity": "major",
+      "source_quote": "Until His likeness, again does show.",
+      "suggested_fix": "„bis sein Ebenbild wieder sichtbar wird.“",
+      "translation_quote": "bis wieder sein Ebenbild sichtbar wird."
+    },
+    {
+      "location": "Gedicht, Strophe 6",
+      "severity": "minor",
+      "source_quote": "Lest other’s pots become concave.",
+      "suggested_fix": "„damit die Töpfe anderer nicht nach innen eingedellt werden.“",
+      "translation_quote": "damit die Töpfe anderer nicht eingedrückt werden."
+    }
+  ],
   "id": "adb9d5d98c311cb5699d174c7c7c1454",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "deu",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fec2dd1703a9aded162631be7f3af606fa01a3b491621e431543b667d23c75a4.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "bc9ecc613f1817378c3fc3dba2a55f8d1cc93b689cd94f6882b88808bf6a0937",
   "translation_model_actual": "gpt-6-luna"

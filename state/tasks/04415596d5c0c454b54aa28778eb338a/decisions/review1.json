@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article body, anecdote about the dating-age daughters",
+      "severity": "major",
+      "source_quote": "“one daughter dated and married long before the other one began a courtship.”",
+      "suggested_fix": "Replace “alichumbiana na kuolewa” with “alianza uchumba na kuolewa” so the sequence is clear: one daughter began dating and married before the other began a courtship.",
+      "translation_quote": "“binti mmoja alichumbiana na kuolewa muda mrefu kabla ya mwingine kuanza uchumba.”"
+    },
+    {
+      "location": "Article body, Scripture quotation, Ephesians 2:8–10",
+      "severity": "major",
+      "source_quote": "“For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast. For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them”",
+      "suggested_fix": "Correct the quotation so its clauses retain the source meaning. In particular, replace “wala si kwa nafsi zenu” with “wala si kwa juhudi zenu,” and translate “which God hath before ordained” as God having prepared the good works beforehand, not merely made them: “...ambazo Mungu alizitengeneza tangu awali...” Keep the existing <em> wrapper and the reference “–Waefeso 2:8-10.”",
+      "translation_quote": "“Kwa maana mmeokolewa kwa neema, kwa njia ya imani; wala si kwa nafsi zenu, ni kipawa cha Mungu; wala si kwa matendo, mtu awaye yote asije akajisifu. Maana tu kazi yake, tuliumbwa katika Kristo Yesu, tutende matendo mema, ambayo tokea awali Mungu aliyatengeneza ili tuenende nayo –Waefeso 2:8-10.”"
+    },
+    {
+      "location": "Article body, Philippians 4:8 quotation",
+      "severity": "major",
+      "source_quote": "“if there be any virtue, and if there be any praise, think on these things”",
+      "suggested_fix": "Translate the conditional exhortation as “ikiwa kuna wema wowote na sifa yoyote, yafikirieni mambo hayo.” Preserve the existing <em> wrapper and “–Wafilipi 4:8” reference.",
+      "translation_quote": "“ukiwapo wema wo wote, ikiwapo sifa nzuri yo yote, yatafakarini hayo –Wafilipi 4:8.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

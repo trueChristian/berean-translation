@@ -2,7 +2,6 @@
   "article_id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950e422e11f54a53a490cc1c62c849fd",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9133
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 585,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 417,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8992,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8989,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9577
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Lyrics, first stanza",
+      "severity": "major",
+      "source_quote": "The church our blest Redeemer / Saved with His own precious blood.",
+      "suggested_fix": "Die Gemeinde, die unser seliger Erlöser / mit seinem kostbaren Blut gerettet hat.",
+      "translation_quote": "die Gemeinde, die unser seliger Erlöser / mit seinem kostbaren Blut erkauft hat."
+    },
+    {
+      "location": "Editor’s Note, paragraph 5",
+      "severity": "minor",
+      "source_quote": "This manner of being an alone “local” Christian",
+      "suggested_fix": "Diese Art, ein isolierter „örtlicher“ Christ zu sein",
+      "translation_quote": "Diese Art, ein alleinstehender „örtlicher“ Christ zu sein"
+    }
+  ],
   "id": "cff3a7af69158026c77064dbfac736f4",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "deu",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0831ff95490bffbe0e23f53ea5194e523e59b9c9715fefeab30577548f0a6209.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
   "translation_model_actual": "gpt-6-luna"
