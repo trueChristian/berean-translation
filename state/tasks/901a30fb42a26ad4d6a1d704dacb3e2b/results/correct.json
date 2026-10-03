@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f925f88e-efe6-4e95-9d3e-6d1a023d7460",
+    "response_id": "chatcmpl-EUxVWo58cmfrN7ErQqKT9OnSgjvv1",
+    "usage": {
+      "completion_tokens": 858,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 211,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2339,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2336,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3197
+    }
+  },
+  "received_at": "2026-10-03T18:42:35+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\">\n  <div class=\"poem\">\n    <p>С Богом пойду я — сегодня —<br>\n    Завтра может не настать.<br>\n    Я наилучшим образом использую ВРЕМЯ — прямо сейчас —<br>\n    Дарованное мне Богом.</p>\n\n    <p>Я не стану строить план<br>\n    На жизнь в покое и достатке,<br>\n    Лишь проживу сегодняшний день,<br>\n    Чтоб угодить одному лишь Богу.</p>\n\n    <p>Не смею думать о годах<br>\n    И совершать скачки вперёд;<br>\n    Когда Бог исключён, а я замкнут в себе,<br>\n    И кругом — эгоистичные цели.</p>\n\n    <p>Есть те, кто планирует свою жизнь,<br>\n    Кто мало думает о Боге;<br>\n    Кто судит о себе не по Божьей истине,<br>\n    Как им следовало бы каждый день!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\" alt=\"Золотой солнечный свет над тёмным травянистым горизонтом\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>«Не хвались», — меня предупреждают, —<br>\n    «Тем, что завтра принесёт;<br>\n    Здоровье, богатство — даже сама жизнь —<br>\n    Вмиг могут улететь!»</p>\n\n    <p>«Этой ночью душу твою<br>\n    Могут у тебя потребовать:<br>\n    А ты планируешь весь Новый год<br>\n    Там, под какой-нибудь рождественской ёлкой?»</p>\n\n    <p>«Очнись! Оглянись: ты готов?<br>\n    Уроки усвоены как следует?<br>\n    Если Бог ещё через три часа, В ЭТОТ ДЕНЬ,<br>\n    завершит твой путь СЕГОДНЯ НОЧЬЮ?»</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\" alt=\"Человек на фоне золотого неба\">\n  </figure>\n</article>\n",
+    "section": "Стихотворение",
+    "subtitle": null,
+    "title": "Сегодня"
+  }
+}

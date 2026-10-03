@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "34c671ec-53b3-492c-8fd1-c5deed354b68",
+    "response_id": "chatcmpl-EUxZMmwNKPZcxkbHavlTIUYHZxP1e",
+    "usage": {
+      "completion_tokens": 689,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 213,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1939,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2631
+    }
+  },
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "result": {
+    "html": "<article data-article-id=\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\">\n  <div class=\"poem\">\n    <p>Wij kunnen ons de winst niet veroorloven die verlies voor een ander betekent;<br>\n    Wij kunnen het ons niet veroorloven de kroon mis te lopen door bij het kruis te struikelen.<br>\n    Wij kunnen ons de achteloze grap niet veroorloven die ons een vriend ontneemt;<br>\n    Wij kunnen ons de lach niet veroorloven die eindigt in bittere tranen.<br>\n    Wij kunnen ons het feestmaal van vandaag niet veroorloven dat morgen vasten brengt;<br>\n    Wij kunnen ons de wedloop niet veroorloven die uiteindelijk op een tragedie uitloopt.<br>\n    Wij kunnen niet met vuur spelen of een slangenbeet uitlokken;<br>\n    Wij kunnen niet denken dat zonde enig waar genot brengt.<br>\n    Wij kunnen het ons niet veroorloven de spot van de cynicus serieus te nemen;<br>\n    Wij kunnen geen achteloos oor lenen aan de woorden van wijzen.<br>\n    Wij kunnen haat niet met haat beantwoorden;<br>\n    Wij kunnen een vlam niet voeden en haar heviger laten branden.<br>\n    Wij kunnen onze ziel niet verliezen voor de vluchtige adem van deze wereld;<br>\n    Wij kunnen het leven niet in een dwaze ruil voor de dood inruilen.<br>\n    Maar zonder U, alziende Heer, zijn wij blind voor het goede;<br>\n    O, schenk ons licht, opdat wij weten wat wij ons niet kunnen veroorloven!</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\" alt=\"Zonlicht dat door een mistig bos schijnt\">\n  </figure>\n</article>\n",
+    "section": "Gedicht",
+    "subtitle": null,
+    "title": "Wat wij ons niet kunnen veroorloven"
+  }
+}

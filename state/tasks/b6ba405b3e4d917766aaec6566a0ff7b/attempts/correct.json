@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:35+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>سأسير مع الله—اليوم—<br>\\n    فقد لا يأتي الغد.<br>\\n    سأحسن استغلال الوقت—الآن—<br>\\n    الذي وهبني الله إياه.</p>\\n\\n    <p>لن أضع خطة لحياة<br>\\n    قد أعيشها في راحة،<br>\\n    بل سأعيش اليوم وحده<br>\\n    لإرضاء إلهي وحده.</p>\\n\\n    <p>ولا أجرؤ أن أفكر في السنين،<br>\\n    أو أن أقفز قفزات واسعة؛<br>\\n    حين يُستبعَد الله، وتنغلق الذات على نفسها،<br>\\n    وتحيط بنا الغايات الأنانية.</p>\\n\\n    <p>هناك من يخططون لحياتهم،<br>\\n    ولا يكادون يفكرون في الله؛<br>\\n    ويزنون أنفسهم، لا بميزان حق الله،<br>\\n    كما ينبغي لهم كل يوم!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"ضوء الشمس الذهبي ينساب فوق أفق عشبي داكن\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>«لا تفتخر بنفسك»، هكذا أُحذَّر،<br>\\n    «بما يأتي به الغد؛<br>\\n    فصحتك وغناك—بل حياتك نفسها—<br>\\n    قد تطير كلها دفعة واحدة!»</p>\\n\\n    <p>«في هذه الليلة، قد تُطلَب<br>\\n    نفسك منك:<br>\\n    أفتمضي تخطط لعام جديد كامل<br>\\n    هناك، تحت شجرة عيد الميلاد؟»</p>\\n\\n    <p>«استيقظ! حاسِب نفسك: أأنت مستعد؟<br>\\n    وهل أتقنت دروسك كما ينبغي؟<br>\\n    إن أغلق الله، بعد ثلاث ساعات فحسب من هذا اليوم،<br>\\n    مسيرتك هذه الليلة؟»</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"شخص يقف أمام سماء ذهبية\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"قصيدة\",\"subtitle\":null,\"title\":\"اليوم\"}",
+    "content_bytes": 2149,
+    "content_evidence_truncated": false,
+    "content_sha256": "d820835562a21ec859a2f33457ee73ff9abd14ae6642e4b052d38d9273ca4426",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1018,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2315,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2312,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3333
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

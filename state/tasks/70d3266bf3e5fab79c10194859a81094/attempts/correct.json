@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    上帝并未应许天空总是湛蓝，<br>\\n    一生所行的道路都铺满鲜花；<br>\\n    上帝并未应许只有阳光，没有雨水，<br>\\n    只有喜乐，没有忧伤；只有平安，没有痛苦。</p>\\n\\n    <p>副歌：<br>\\n    但上帝应许赐我们每日所需的力量，<br>\\n    使劳作者得安歇，为前路照亮；<br>\\n    在患难中赐恩典，从天上施帮助，<br>\\n    永不止息的恩慈，永不消逝的爱。</p>\\n\\n    <p>2.<br>\\n    上帝并未应许我们不会经历<br>\\n    劳苦、试探、困境与愁苦；<br>\\n    祂并未告诉我们不会承担<br>\\n    许多重担，许多忧虑。</p>\\n\\n    <p>3.<br>\\n    上帝并未应许道路平坦宽阔，<br>\\n    旅途迅捷轻松，无需向导；<br>\\n    也未应许途中绝无崎岖陡峭的山岭，<br>\\n    也未应许途中绝无浑浊深邃的河流。</p>\\n  </div>\\n</article>\\n\",\"section\":\"诗歌\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1078,
+    "content_evidence_truncated": false,
+    "content_sha256": "c1d65b99df484282c9d56944621b402413206f1b79712def7f15c7bcd6bfd320",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 499,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 82,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1840,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1837,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2339
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

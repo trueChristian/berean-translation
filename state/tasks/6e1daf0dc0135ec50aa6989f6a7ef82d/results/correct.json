@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "77199382-809d-4f6a-a500-351e41379776",
+    "response_id": "chatcmpl-EUxUHrFZkENSYQ2Mq3dDZWvm5QeSb",
+    "usage": {
+      "completion_tokens": 1115,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2998,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2995,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4113
+    }
+  },
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f36dee3-685c-47b8-b1d4-9981806d4cd5\">\n  <p>Den malende lyden av lastebildekk som kjørte på grusveien, fylte luften mens jeg satt inne i huset og leste i et leksikon. Jeg spratt opp på beina og kikket ut av vinduet.</p>\n\n  <p>Mamma hadde nettopp kommet tilbake fra frukt- og grøntauksjonen i Lewisburg med noen ferskener.</p>\n\n  <p>Jeg smelte døren igjen bak meg, løp tvers over det tykke, grønne gresset og hoppet opp på lasteplanet på pickupen vår.</p>\n\n  <p>Bak på pickupen sto det fire kasser med ferskener. Jeg smilte triumferende og stakk hånden ned i en kasse og lette til jeg fant en moden fersken. Like før jeg bet i den, sa mamma: «Steven, ikke spis noen ferskener; da ødelegger du middagen.» Jeg kastet ferskenen trist tilbake i kassen og gikk så langsomt bort.</p>\n\n  <figure>\n    <img src=\"/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg\" alt=\"En kasse med ferskener på værbitt treverk\">\n  </figure>\n\n  <p>Flere timer senere ropte pappa fra kalvefjøset. «Steven, gå og plukk reddikene til frukt- og grøntboden vår på fredagsmarkedet.»</p>\n\n  <p>Da jeg hadde plukket, vasket og buntet reddikene, bar jeg dem inn i det gamle kjølerommet inne i den røde låven. Døren til kjølerommet knirket da jeg dro den opp. Der, langs veggene i kjølerommet, sto de fire kassene med de fristende ferskenene. Jeg stirret på dem mens munnen løp i vann. Jeg satte raskt reddikene fra meg. Å, så gode de så ut. En liten fersken kunne vel ikke ødelegge middagen for en utsultet tiåring. Mamma ville ikke merke det hvis jeg bare tok én fersken.</p>\n\n  <p>Dypt inne i hjertet mitt begynte det å utspille seg en kamp mellom rett og galt. Jeg visste at det var galt å snike seg til det, men ferskenene så altfor gode ut.</p>\n\n  <p>Etter at jeg hadde slukt ferskenen, speidet jeg rundt i den mørke låven etter et godt gjemmested for steinen. Jeg så forbi løkene som lå på tørkestativene, bort på den åpne høyballen. Problemet var bare at hvis jeg la steinen under høyet, kunne noen finne den. Så fikk jeg øye på hullene i bordkledningen på vestsiden av låven. Hvis jeg dyttet steinen gjennom et av hullene, ville den lande ved siden av veien. Hvis noen så den, ville de tro at den hadde falt av et kjøretøy som passerte.</p>\n\n  <p>Jeg presset steinen gjennom hullet og så ut mens den falt ned ved veien. I samme øyeblikk kjente jeg en brennende smerte i pannen. Jeg fór forskrekket bakover. Over hullet hang det et vepsebol. Så fikk jeg øye på synderen, som svevde over meg og prøvde å stikke meg igjen. Jeg spurtet ut gjennom låvedøren og smalt døren i ansiktet på vepsen.</p>\n\n  <p>Den kvelden hovnet pannen min opp som en ballong, og det ble vanskelig å se.</p>\n\n  <p>Noen timer senere gikk alle de andre og la seg. Jeg lå på sofaen, så mamma kunne se til meg av og til i løpet av natten. Men jeg klarte ikke å sovne. Ansiktet var betent og klødde, men alt jeg kunne tenke på, var skyldfølelsen og angeren over det jeg hadde gjort.</p>\n\n  <p>Etter flere pinefulle timer samlet jeg mot til å gli ned fra sofaen og liste meg bort til soverommet til foreldrene mine. Jeg vekket dem og fortalte hele historien … hvordan jeg hadde spist ferskenen, prøvd å gjemme steinen og blitt stukket.</p>\n\n  <p>Foreldrene mine tilga meg og bestemte seg for at dette var en lekse jeg ikke kom til å glemme med det første. Med lett hjerte gikk jeg tilbake til sofaen, la meg ned og sovnet snart en fredelig søvn.</p>\n</article>",
+    "section": "Barnehjørnet",
+    "subtitle": null,
+    "title": "Vær lydig"
+  }
+}

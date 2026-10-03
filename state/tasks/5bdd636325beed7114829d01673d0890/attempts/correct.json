@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Με τον Θεό θα πορευτώ—Σήμερα—<br>\\n    Αύριο μπορεί να μην υπάρξει.<br>\\n    Θα αξιοποιήσω όσο καλύτερα μπορώ τον ΧΡΟΝΟ—τώρα αμέσως—<br>\\n    Που μου χάρισε ο Θεός.</p>\\n\\n    <p>Δεν θα σχεδιάσω μια ζωή<br>\\n    Που ίσως ζήσω με άνεση,<br>\\n    Παρά μόνο να ζήσω τη σημερινή μέρα<br>\\n    Ευαρεστώντας μόνο τον Θεό μου.</p>\\n\\n    <p>Ούτε τολμώ να σκέφτομαι με ορίζοντα χρόνων<br>\\n    Ή να προχωρώ με άλματα·<br>\\n    Με τον Θεό αποκλεισμένο έξω και τον εαυτό μου κλεισμένο μέσα,<br>\\n    Και τους εγωιστικούς στόχους να με περικυκλώνουν.</p>\\n\\n    <p>Υπάρχουν εκείνοι που σχεδιάζουν τη ζωή τους,<br>\\n    Που ελάχιστα σκέφτονται τον Θεό·<br>\\n    Που ζυγίζουν τον εαυτό τους, όχι με την αλήθεια του Θεού,<br>\\n    Όπως θα έπρεπε να κάνουν κάθε μέρα!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"Χρυσαφένιο φως του ήλιου πάνω από έναν σκοτεινό, χορταριασμένο ορίζοντα\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>«Μην καυχιέσαι», προειδοποιούμαι,<br>\\n    «για όσα φέρνει το αύριο·<br>\\n    Η υγεία κι ο πλούτος σου—ακόμα κι η ίδια η ζωή—<br>\\n    Μπορεί μονομιάς να πετάξουν μακριά!»</p>\\n\\n    <p>«Απόψε, η ψυχή σου<br>\\n    Μπορεί να ζητηθεί από σένα:<br>\\n    Κι εσύ σχεδιάζεις ολόκληρη τη νέα χρονιά<br>\\n    Εκεί, κάτω από κάποιο χριστουγεννιάτικο δέντρο;»</p>\\n\\n    <p>«Ξύπνα! Κάνε τον απολογισμό σου, είσαι έτοιμος;<br>\\n    Έμαθες καλά τα μαθήματά σου;<br>\\n    Αν ο Θεός, σε μόλις τρεις ώρες, ΑΥΤΗ ΤΗ ΜΕΡΑ,<br>\\n    Έβαζε απόψε τέλος στην πορεία σου;»</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"Ένα άτομο όρθιο μπροστά σε έναν χρυσαφένιο ουρανό\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Ποίημα\",\"subtitle\":null,\"title\":\"Σήμερα\"}",
+    "content_bytes": 2851,
+    "content_evidence_truncated": false,
+    "content_sha256": "5a3fa805ea1e9383d546a1e1ee95e9551e538703d3be7d4c604c6b6ab8553bd1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2418,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2415,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3371
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

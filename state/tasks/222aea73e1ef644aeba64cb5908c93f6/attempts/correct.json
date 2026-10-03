@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    Mungu hajaahidi anga kuwa la buluu daima,<br>\\n    Njia zetu zote za maisha zikiwa zimejaa maua;<br>\\n    Mungu hajaahidi jua bila mvua,<br>\\n    Furaha bila huzuni, amani bila maumivu.</p>\\n\\n    <p>Mwitikio:<br>\\n    Lakini Mungu ameahidi nguvu kwa kila siku,<br>\\n    Pumziko baada ya kazi, mwanga kwa njia,<br>\\n    Neema kwa majaribu, msaada kutoka juu,<br>\\n    Wema usioshindwa, upendo usiokufa.</p>\\n\\n    <p>2.<br>\\n    Mungu hajaahidi kwamba hatutajua<br>\\n    Kazi ngumu na majaribu, taabu na huzuni;<br>\\n    Hatujaambiwa kwamba hatutabeba<br>\\n    Mizigo mingi, mahangaiko mengi.</p>\\n\\n    <p>3.<br>\\n    Mungu hajaahidi barabara tambarare na pana,<br>\\n    Safari ya haraka na rahisi isiyohitaji mwongozo;<br>\\n    Hajaahidi kamwe kwamba hakutakuwa na mlima wenye miamba na mwinuko,<br>\\n    Wala hajaahidi kamwe kwamba hakutakuwa na mto wenye maji yenye tope na kina kirefu.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Shairi\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1088,
+    "content_evidence_truncated": false,
+    "content_sha256": "32dda675e21188a46c26f066ee281c68c6c1889399bb0bc6f9003562a971a966",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 597,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 202,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1797,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1794,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2394
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

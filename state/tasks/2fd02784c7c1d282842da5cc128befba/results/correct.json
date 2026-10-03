@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "870b5a44-2df8-4145-b177-7e05648e4727",
+    "response_id": "chatcmpl-EUxYzCkcBSHWeDTkwy3glsCkJtBg6",
+    "usage": {
+      "completion_tokens": 1097,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 153,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2708,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2705,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3805
+    }
+  },
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "result": {
+    "html": "<article data-article-id=\"54c17772-223b-4fc7-b2e6-0bda387f9b23\">\n  <div class=\"poem\">\n    <p>때로 내 마음은 무겁고,<br>\n    두려움과 근심에 짓눌립니다.<br>\n    그때 주님께서 내게 부르십니다.<br>\n    “오너라, 내 아이야. 네 짐은 내가 질게.”</p>\n\n    <p>때로 온갖 질문이 마음에 밀려오고,<br>\n    답은 피하는 듯 난감하기만 합니다.<br>\n    그럴 때 나는 눈을 들어 하나님을 바라보며,<br>\n    나를 덮고 있는 그분의 사랑을 붙듭니다.</p>\n\n    <p>때로는 그만두고 싶고,<br>\n    내 앞에 놓인 길은 멀고 험해 보입니다.<br>\n    하지만 목자께서 걸으신 길을 생각합니다.<br>\n    그분은 나를 위해 상처를 입으셨습니다.</p>\n\n    <p>때로 내 마음은 흐려지고,<br>\n    한 걸음 내디딜 때마다 비틀거립니다.<br>\n    그러나 안개 속에서 속삭임이 들려옵니다.<br>\n    “너는 내 것이다. 나를 믿어라. 내가 길을 내리라.”</p>\n\n    <p>때로 내 처지가<br>\n    모질고 불공평하게만 보입니다.<br>\n    그러나 그때 아버지께서 속삭이십니다.<br>\n    “사랑하는 아이야, 절망하지 마라.”</p>\n\n    <p>때로는 나 홀로인 듯하고,<br>\n    가슴속 아픔은 목을 죄고 타오릅니다.<br>\n    주님께서 말씀하십니다. “내가 택한 자야,<br>\n    네 마음이 바라는 것을 채워 줄 이는 나뿐이란다.</p>\n\n    <p>때로 내 눈에는 눈물이 가득하고,<br>\n    가슴은 터질 듯합니다.<br>\n    그때 구주께서 내게 일러 주십니다.<br>\n    그분은 내 앞에 놓인 이 길을 이미 지나가셨다고.</p>\n\n    <p>때로 걱정하며 궁금해합니다.<br>\n    일이 과연 어떻게 잘 풀릴지.<br>\n    그러나 약속은 변함없습니다. 모든 일이 잘 이루어지리니,<br>\n    하나님을 기뻐하는 자에게 그러합니다.</p>\n\n    <p>때로 미래는 두렵고,<br>\n    내가 바라던 모습과는 전혀 다릅니다.<br>\n    그래도 나는 그분이 궁극에 이루실 목적에 눈을 둡니다.<br>\n    내가 바라며 더듬어 찾던 것보다 나으리라 믿으며.</p>\n\n    <p>때로 나는 뒤처진 듯 느끼고,<br>\n    다른 이들의 삶은 자유롭게 흘러갑니다.<br>\n    그러나 아버지의 계획을 신뢰하며,<br>\n    그분의 영원한 기쁨의 잔치를 고대하겠습니다!</p>\n\n    <p>때로 나는 꿈을 꿉니다.<br>\n    다가올 하늘나라의 미래를.<br>\n    오, 그 기쁨이 얼마나 크리요,<br>\n    “잘하였다”라는 그 말씀을 듣는 것.</p>\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23-1.jpg\" alt=\"잔잔한 물 위로 드리운 짙은 폭풍 구름\">\n  </figure>\n</article>\n",
+    "section": "시",
+    "subtitle": null,
+    "title": "때로"
+  }
+}

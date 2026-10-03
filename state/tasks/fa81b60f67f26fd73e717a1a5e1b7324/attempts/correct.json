@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:36+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>১।<br>\\n    ঈশ্বর প্রতিশ্রুতি দেননি, আকাশ সব সময় নীল থাকবে,<br>\\n    সারা জীবন পথজুড়ে ফুল বিছানো থাকবে;<br>\\n    ঈশ্বর প্রতিশ্রুতি দেননি, বৃষ্টি ছাড়া সূর্য থাকবে,<br>\\n    দুঃখ ছাড়া আনন্দ, যন্ত্রণা ছাড়া শান্তি থাকবে।</p>\\n\\n    <p>ধুয়া:<br>\\n    কিন্তু ঈশ্বর প্রতিশ্রুতি দিয়েছেন, দিনের জন্য শক্তি,<br>\\n    শ্রমের পর বিশ্রাম, পথের জন্য আলো,<br>\\n    পরীক্ষার জন্য অনুগ্রহ, ওপর থেকে সাহায্য,<br>\\n    অক্লান্ত দয়া, অনন্ত প্রেম।</p>\\n\\n    <p>২।<br>\\n    ঈশ্বর প্রতিশ্রুতি দেননি যে আমরা জানব না<br>\\n    পরিশ্রম ও প্রলোভন, দুর্দশা ও দুঃখ;<br>\\n    তিনি বলেননি যে আমাদের বইতে হবে না<br>\\n    অনেক বোঝা, অনেক দুশ্চিন্তা।</p>\\n\\n    <p>৩।<br>\\n    ঈশ্বর প্রতিশ্রুতি দেননি মসৃণ, প্রশস্ত পথ,<br>\\n    দ্রুত, সহজ যাত্রা, যার জন্য কোনো পথপ্রদর্শক লাগে না;<br>\\n    পাথুরে, খাড়া পাহাড় কখনো থাকবে না—এমন প্রতিশ্রুতিও ঈশ্বর দেননি;<br>\\n    ঘোলা, গভীর নদী কখনো থাকবে না—এমন প্রতিশ্রুতিও দেননি।</p>\\n  </div>\\n</article>\\n\",\"section\":\"কবিতা\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 2223,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac2cefbac63694711394491a4be613b0b2eb9c1413c08fd1390c1ad59e35833b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 127,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1837,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1834,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2423
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

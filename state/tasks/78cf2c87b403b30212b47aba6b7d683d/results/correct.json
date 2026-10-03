@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "60d5d836-8e56-40c4-8709-5045a9c5be02",
+    "response_id": "chatcmpl-EUxTejf07zBKcnqT89FJDsdFVNcon",
+    "usage": {
+      "completion_tokens": 439,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1713,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1710,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2152
+    }
+  },
+  "received_at": "2026-10-03T18:42:35+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\">\n  <div class=\"poem\">\n    <p>1.<br>\n    Ο Θεός δεν υποσχέθηκε ουρανούς πάντα γαλανούς,<br>\n    ανθοστόλιστα μονοπάτια σε όλη μας τη ζωή·<br>\n    ο Θεός δεν υποσχέθηκε ήλιο χωρίς βροχή,<br>\n    χαρά χωρίς λύπη, ειρήνη χωρίς πόνο.</p>\n\n    <p>Ρεφρέν:<br>\n    Μα ο Θεός υποσχέθηκε δύναμη για κάθε μέρα,<br>\n    ανάπαυση για τον κόπο, φως για τον δρόμο,<br>\n    χάρη για τις δοκιμασίες, βοήθεια από ψηλά,<br>\n    καλοσύνη που δεν αποτυγχάνει, αγάπη που δεν πεθαίνει.</p>\n\n    <p>2.<br>\n    Ο Θεός δεν υποσχέθηκε πως δεν θα γνωρίσουμε<br>\n    μόχθο και πειρασμό, ταραχή και συμφορά·<br>\n    δεν μας είπε πως δεν θα σηκώσουμε<br>\n    πολλά βάρη, πολλές έγνοιες.</p>\n\n    <p>3.<br>\n    Ο Θεός δεν υποσχέθηκε δρόμους ομαλούς και πλατιούς,<br>\n    γρήγορο, εύκολο ταξίδι που δεν χρειάζεται οδηγό·<br>\n    ποτέ βουνό βραχώδες και απόκρημνο,<br>\n    ποτέ ποτάμι θολό και βαθύ.</p>\n  </div>\n</article>\n",
+    "section": "Ποίημα",
+    "subtitle": null,
+    "title": null
+  }
+}

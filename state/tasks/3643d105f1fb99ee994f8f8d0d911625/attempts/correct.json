@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6233e058-cfbc-4a1f-8f3f-58e59a9e3c95\\\">\\n  <div class=\\\"poem\\\">\\n    <p>1.<br>\\n    God heeft geen altijd blauwe luchten beloofd,<br>\\n    Paden vol bloemen, ons hele leven lang;<br>\\n    God heeft geen zon zonder regen beloofd,<br>\\n    Vreugde zonder verdriet, vrede zonder pijn.</p>\\n\\n    <p>Refrein:<br>\\n    Maar God heeft kracht voor de dag beloofd,<br>\\n    Rust na het werk, licht op de weg,<br>\\n    Genade voor beproevingen, hulp van boven,<br>\\n    Onwankelbare goedheid, onvergankelijke liefde.</p>\\n\\n    <p>2.<br>\\n    God heeft niet beloofd dat wij verschoond zullen blijven van<br>\\n    zwoegen en verzoeking, tegenspoed en ellende;<br>\\n    Hij heeft ons niet gezegd dat wij niet<br>\\n    vele lasten, vele zorgen zullen dragen.</p>\\n\\n    <p>3.<br>\\n    God heeft geen vlakke, brede wegen beloofd,<br>\\n    Een snelle, gemakkelijke reis, zonder gids;<br>\\n    Nooit een berg, rotsachtig en steil,<br>\\n    Nooit een rivier, troebel en diep.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Gedicht\",\"subtitle\":null,\"title\":null}",
+    "content_bytes": 1074,
+    "content_evidence_truncated": false,
+    "content_sha256": "ed9ac1f1ad733b91dc2e8117f17f57547ddb84e30b416aefdb7c06dbdfd17ea8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 631,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 270,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1793,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1790,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2424
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

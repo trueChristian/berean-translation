@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>היום אלך עם אלוהים—<br>\\n    מחר אולי לא יבוא.<br>\\n    אנצל את הזמן—ממש עכשיו—<br>\\n    שאלוהים העניק לי.</p>\\n\\n    <p>לא אתכנן חיים<br>\\n    שבהם אוכל לחיות בנוחות,<br>\\n    אלא רק לחיות את היום הזה<br>\\n    כדי לשמח את אלוהיי לבדו.</p>\\n\\n    <p>ואיני מעז לחשוב בשנים<br>\\n    או לדלג קדימה בצעדי ענק;<br>\\n    אלוהים נשאר בחוץ, ואני בפנים,<br>\\n    ומטרות אנוכיות מקיפות אותי.</p>\\n\\n    <p>יש המתכננים את חייהם,<br>\\n    וכמעט שאינם חושבים על אלוהים;<br>\\n    הם שוקלים את עצמם, ולא לאור אמתו של אלוהים,<br>\\n    כפי שעליהם לעשות מדי יום!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"אור שמש זהוב מעל קו אופק חשוך ומכוסה עשב\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>״אל תתפאר במה שיביא המחר״, מזהירים אותי,<br>\\n    ״על מה שיביא המחר;<br>\\n    בריאותך ועושרך—ואפילו חייך—<br>\\n    עלולים כולם לפרוש כנפיים ברגע!״</p>\\n\\n    <p>״הלילה, נפשך<br>\\n    עשויה להידרש ממך:<br>\\n    ואתה מתכנן את השנה החדשה כולה,<br>\\n    שם, מתחת לעץ חג המולד כלשהו?״</p>\\n\\n    <p>״התעורר! בדוק את מצבך: האם אתה מוכן?<br>\\n    האם למדת את לקחיך כראוי?<br>\\n    אם אלוהים, בעוד שלוש שעות בלבד, ביום הזה,<br>\\n    יסיים את מסלול חייך הלילה?״</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"אדם עומד על רקע שמיים זהובים\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"שיר\",\"subtitle\":null,\"title\":\"היום\"}",
+    "content_bytes": 2169,
+    "content_evidence_truncated": false,
+    "content_sha256": "813bd3e9b3a6d575d8a57c406f2cacfd66b4ce940a90680db78630807bf0a213",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 136,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2243,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2240,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3035
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

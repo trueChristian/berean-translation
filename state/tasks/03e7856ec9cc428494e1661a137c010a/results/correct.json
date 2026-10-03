@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "019deddd-d7a0-4ac1-8d37-13144cb2ee3e",
+    "response_id": "chatcmpl-EUxUcEMK9l6oEeuX5sk4909TlIKMp",
+    "usage": {
+      "completion_tokens": 1193,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3102,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3099,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4295
+    }
+  },
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f36dee3-685c-47b8-b1d4-9981806d4cd5\">\n  <p>Das mahlende Geräusch der Lkw-Reifen auf dem Schotterweg erfüllte die Luft, während ich im Haus saß und in einer Enzyklopädie las. Ich sprang auf und spähte aus dem Fenster.</p>\n\n  <p>Mama war gerade mit ein paar Pfirsichen von der Obstauktion in Lewisburg zurückgekommen.</p>\n\n  <p>Ich schlug die Tür hinter mir zu, rannte über das dichte grüne Gras und sprang auf die Ladefläche unseres Lastwagens.</p>\n\n  <p>Auf der Ladefläche standen vier Kisten mit Pfirsichen. Breit grinsend griff ich in eine Kiste und suchte, bis ich einen reifen fand. Kurz bevor ich hineinbiss, sagte Mama: „Steven, iss keine Pfirsiche; sonst verdirbst du dir das Abendessen.“ Traurig legte ich den Pfirsich zurück in die Kiste und ging dann langsam weg.</p>\n\n  <figure>\n    <img src=\"/images/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5-1.jpg\" alt=\"Eine Kiste Pfirsiche auf verwittertem Holz\">\n  </figure>\n\n  <p>Einige Stunden später rief Papa aus dem Kälberstall: „Steven, geh die Radieschen für unseren Marktstand am Freitag ernten.“</p>\n\n  <p>Nachdem ich die Radieschen geerntet, gewaschen und zu Bündeln zusammengebunden hatte, trug ich sie in den alten Kühlraum in der roten Scheune. Die Tür des Kühlraums quietschte, als ich sie aufriss. Dort, an den Wänden des Kühlraums, standen die vier Kisten mit den verlockenden Pfirsichen. Ich starrte die Pfirsiche an, und mir lief das Wasser im Mund zusammen. Schnell stellte ich die Radieschen ab. Ach, wie gut sie aussahen! Ein kleiner Pfirsich würde doch bestimmt nicht das Abendessen eines halb verhungerten Zehnjährigen verderben. Mama würde es nicht merken, wenn ich nur einen Pfirsich nähme.</p>\n\n  <p>Tief in meinem Herzen begann sich ein Kampf zwischen Gut und Böse zu entwickeln. Ich wusste, dass es falsch war, heimlich zu handeln, aber die Pfirsiche sahen einfach viel zu gut aus.</p>\n\n  <p>Nachdem ich den Pfirsich verschlungen hatte, suchte ich im dunklen Inneren der Scheune nach einem guten Versteck für den Pfirsichkern. Über die Zwiebeln hinweg, die auf Trockengestellen lagen, blickte ich zu einem offenen Heuballen. Das einzige Problem war, dass jemand den Kern finden könnte, wenn ich ihn unter das Heu legte. Dann entdeckte ich die Löcher in den Brettern der Scheunenwand auf der Westseite. Wenn ich den Kern durch eines dieser Löcher schob, würde er neben der Straße landen. Und wenn ihn dann jemand sähe, würde er denken, dass er von einem vorbeifahrenden Fahrzeug stammte.</p>\n\n  <p>Ich stieß den Kern durch das Loch und schaute hinaus, während er neben der Straße zu Boden fiel. Im selben Augenblick fühlte ich einen stechenden Schmerz an der Stirn. Hastig sprang ich zurück. Über dem Loch hing ein Wespennest. Dann sah ich die Übeltäterin, die über mir schwebte und versuchte, mich noch einmal zu stechen. Ich rannte aus der Scheune und schlug der Wespe die Tür vor den Kopf.</p>\n\n  <p>An diesem Abend schwoll meine Stirn an wie ein Luftballon, sodass mir das Sehen schwerfiel.</p>\n\n  <p>Ein paar Stunden später gingen alle anderen ins Bett. Ich lag auf dem Sofa, damit Mama in der Nacht ab und zu nach mir sehen konnte. Aber ich konnte einfach nicht einschlafen. Mein Gesicht war entzündet und juckte, doch ich konnte an nichts anderes denken als an die Schuld und Reue wegen dessen, was ich getan hatte.</p>\n\n  <p>Nach mehreren qualvollen Stunden nahm ich meinen Mut zusammen, glitt vom Sofa und schlich auf Zehenspitzen zum Schlafzimmer meiner Eltern. Ich weckte sie und erzählte ihnen die ganze Geschichte … wie ich den Pfirsich gegessen und dann versucht hatte, den Kern zu verstecken, und wie ich gestochen worden war.</p>\n\n  <p>Meine Eltern vergaben mir und beschlossen, dass ich diese Lektion so schnell nicht vergessen würde. Mit leichtem Herzen ging ich zurück zum Sofa, legte mich hin und fiel bald in einen friedlichen Schlaf.</p>\n</article>\n",
+    "section": "Kinderseite",
+    "subtitle": null,
+    "title": "Sei gehorsam"
+  }
+}

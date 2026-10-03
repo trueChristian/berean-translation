@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:34+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba4cef53-9a4b-4277-8afb-b53a7ab63735\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Caminaré con Dios—hoy—<br>\\n    quizá mañana no esté.<br>\\n    Aprovecharé el TIEMPO—ahora mismo—<br>\\n    que Dios me ha concedido.</p>\\n\\n    <p>No haré planes para una vida<br>\\n    que quizá viva con comodidad,<br>\\n    sino solo para vivir hoy<br>\\n    y agradar únicamente a mi Dios.</p>\\n\\n    <p>Ni me atrevo a pensar en años<br>\\n    ni a dar grandes saltos;<br>\\n    con Dios excluido, y yo encerrado,<br>\\n    rodeado de propósitos egoístas.</p>\\n\\n    <p>Hay quienes planean sus vidas<br>\\n    y apenas piensan en Dios;<br>\\n    se miden a sí mismos, no con la verdad de Dios,<br>\\n    ¡como deberían hacer cada día!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-1.jpg\\\" alt=\\\"Luz dorada del sol sobre un horizonte oscuro cubierto de hierba\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>«No te jactes», me advierten,<br>\\n    «de lo que traerá mañana;<br>\\n    tu salud y tus riquezas—hasta la vida misma—<br>\\n    ¡pueden desaparecer de golpe!»</p>\\n\\n    <p>«Esta noche, tu alma<br>\\n    puede serte exigida:<br>\\n    ¿y planeas ya todo el Año Nuevo<br>\\n    allí, bajo algún árbol de Navidad?»</p>\\n\\n    <p>«¡Despierta! Haz un balance, ¿estás preparado?<br>\\n    ¿Has aprendido bien tus lecciones?<br>\\n    Si Dios, dentro de apenas tres horas, HOY,<br>\\n    pusiera fin a tu vida ESTA NOCHE?»</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735-2.jpg\\\" alt=\\\"Una persona de pie frente a un cielo dorado\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Poema\",\"subtitle\":null,\"title\":\"Hoy\"}",
+    "content_bytes": 1756,
+    "content_evidence_truncated": false,
+    "content_sha256": "b37d6ab640bd9b486a1074b32de0855aba198f15ba5e5a334fed9888b1b04441",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 139,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2230,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2974
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

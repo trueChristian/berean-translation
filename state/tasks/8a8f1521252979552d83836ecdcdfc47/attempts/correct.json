@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:35+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"177fb1e6-bf90-48ef-ad9f-aa8508917fbd\\\">\\n  <div class=\\\"poem\\\">\\n    <p>איננו יכולים להרשות לעצמנו לזכות ברווח שפירושו הפסדו של הזולת;<br>\\n    איננו יכולים להרשות לעצמנו להחמיץ את הכתר במעידה על הצלב.<br>\\n    איננו יכולים להרשות לעצמנו בדיחה חסרת מחשבה הגוזלת מאיתנו חבר;<br>\\n    איננו יכולים להרשות לעצמנו צחוק שסופו בדמעות מרות.<br>\\n    איננו יכולים להרשות לעצמנו משתה היום המביא צום מחר;<br>\\n    איננו יכולים להרשות לעצמנו מרוץ שסופו אסון.<br>\\n    איננו יכולים להרשות לעצמנו להשתעשע באש או להסתכן בהכשת נחש;<br>\\n    איננו יכולים להרשות לעצמנו לחשוב שהחטא מביא עונג אמיתי כלשהו.<br>\\n    איננו יכולים להרשות לעצמנו להתייחס ברצינות ללעגו של הציניקן;<br>\\n    איננו יכולים להרשות לעצמנו להטות אוזן אטומה לדברי חכמים.<br>\\n    איננו יכולים להרשות לעצמנו להשיב שנאה בשנאה;<br>\\n    איננו יכולים להרשות לעצמנו ללבות אש ולהבעיר אותה ביתר שאת.<br>\\n    איננו יכולים להרשות לעצמנו לאבד את הנפש בעבור הבל העולם החולף;<br>\\n    איננו יכולים להרשות לעצמנו להמיר את החיים בטירוף במוות.<br>\\n    אך עיוורים לטוב אנו בלעדיך, אדון רואה כול;<br>\\n    אנא, הענק לנו אור כדי שנדע מהם הדברים שאיננו יכולים להרשות לעצמנו!</p>\\n  </div>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/177fb1e6-bf90-48ef-ad9f-aa8508917fbd-1.jpg\\\" alt=\\\"אור שמש חודר מבעד ליער עטוף ערפל\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"שיר\",\"subtitle\":null,\"title\":\"דברים שאיננו יכולים להרשות לעצמנו\"}",
+    "content_bytes": 2194,
+    "content_evidence_truncated": false,
+    "content_sha256": "6680fc95fd7d094b99d8e404692803aab69413343f6199fc2ab2f6ec9d681e15",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 762,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 221,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1966,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2731
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
