@@ -113,26 +113,26 @@ Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 78 / 1155 | 0 | 37 | 64 | 98 |
-| `hin` (hi) | 78 / 1155 | 0 | 33 | 71 | 108 |
-| `spa` (es) | 117 / 1155 | 0 | 29 | 33 | 75 |
-| `ara` (ar) | 73 / 1155 | 0 | 32 | 78 | 107 |
+| `cmn` (zh-Hans) | 78 / 1155 | 0 | 37 | 64 | 102 |
+| `hin` (hi) | 78 / 1155 | 0 | 33 | 71 | 110 |
+| `spa` (es) | 117 / 1155 | 0 | 29 | 33 | 77 |
+| `ara` (ar) | 73 / 1155 | 0 | 32 | 78 | 109 |
 | `fra` (fr) | 104 / 1155 | 0 | 32 | 46 | 83 |
-| `ben` (bn) | 74 / 1155 | 0 | 33 | 75 | 116 |
+| `ben` (bn) | 74 / 1155 | 0 | 33 | 75 | 119 |
 | `por` (pt) | 120 / 1155 | 0 | 29 | 30 | 76 |
 | `ind` (id) | 98 / 1155 | 0 | 34 | 49 | 90 |
-| `urd` (ur) | 79 / 1155 | 0 | 31 | 70 | 108 |
-| `rus` (ru) | 83 / 1155 | 0 | 30 | 66 | 109 |
+| `urd` (ur) | 79 / 1155 | 0 | 31 | 70 | 112 |
+| `rus` (ru) | 83 / 1155 | 0 | 30 | 66 | 113 |
 | `deu` (de) | 67 / 1155 | 0 | 28 | 82 | 116 |
-| `nld` (nl) | 104 / 1155 | 0 | 30 | 48 | 95 |
+| `nld` (nl) | 104 / 1155 | 0 | 30 | 48 | 96 |
 | `afr` (af) | 99 / 1155 | 0 | 33 | 50 | 82 |
-| `swa` (sw) | 52 / 1155 | 0 | 36 | 94 | 123 |
-| `kor` (ko) | 89 / 1155 | 0 | 33 | 56 | 100 |
-| `ita` (it) | 105 / 1155 | 0 | 33 | 42 | 79 |
-| `heb` (he) | 37 / 1155 | 0 | 31 | 110 | 131 |
-| `ell` (el) | 83 / 1155 | 0 | 28 | 71 | 105 |
+| `swa` (sw) | 52 / 1155 | 0 | 36 | 94 | 124 |
+| `kor` (ko) | 89 / 1155 | 0 | 33 | 56 | 101 |
+| `ita` (it) | 105 / 1155 | 0 | 33 | 42 | 80 |
+| `heb` (he) | 37 / 1155 | 0 | 31 | 110 | 138 |
+| `ell` (el) | 83 / 1155 | 0 | 28 | 71 | 106 |
 | `swe` (sv) | 89 / 1155 | 0 | 33 | 58 | 101 |
-| `nob` (nb) | 91 / 1155 | 0 | 33 | 57 | 103 |
+| `nob` (nb) | 91 / 1155 | 0 | 33 | 57 | 104 |
 
 ## Issue / language work
 
@@ -528,7 +528,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37138123265` | manual | review | finished | 200 | 91 complete, 109 held | 0.39069281 | 2.384344 / 5.00 | [state](state/campaigns/gh-37138123265.json) |
 | `gh-37138217502` | manual | translate | active | 200 | 56 complete, 23 held, 121 active | 0.55478413 | 3.410201 / 10.00 | [state](state/campaigns/gh-37138217502.json) |
 | `gh-37154280908` | manual | translate | active | 240 | 240 active | 0.22471102 | 2.333154 / 10.00 | [state](state/campaigns/gh-37154280908.json) |
-| `gh-37154319644` | manual | translate | active | 260 | 260 active | 0.22982345 | 1.363652 / 10.00 | [state](state/campaigns/gh-37154319644.json) |
+| `gh-37154319644` | manual | translate | active | 260 | 260 active | 0.22982345 | 1.571826 / 10.00 | [state](state/campaigns/gh-37154319644.json) |
 | `gh-37154369621` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.003405 / 10.00 | [state](state/campaigns/gh-37154369621.json) |
 | `gh-37154422984` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.088233 / 10.00 | [state](state/campaigns/gh-37154422984.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
@@ -769,3 +769,4 @@ Provider completion and local collection are separate clocks. Older records with
 | [fa89219c4e2d4e129f6faf7e7f8e775c](state/batches/fa89219c4e2d4e129f6faf7e7f8e775c/batch.json) / review2 | collected / completed | 6 / 6 / 0 | 2026-10-02T00:10:47+00:00 | 2026-10-02T00:12:37+00:00 | 2026-10-02T00:12:36+00:00 |
 | [fb6bd9415dcf4d76ba6a6c2fbe46dcc3](state/batches/fb6bd9415dcf4d76ba6a6c2fbe46dcc3/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-01T19:18:31+00:00 | 2026-10-01T19:19:18+00:00 | 2026-10-01T19:19:17+00:00 |
 | [fc7fdd94d4b84bd2838b8ec76eed25c4](state/batches/fc7fdd94d4b84bd2838b8ec76eed25c4/batch.json) / correct | collected / completed | 71 / 71 / 0 | 2026-10-02T12:58:34+00:00 | 2026-10-02T13:00:12+00:00 | 2026-10-02T13:00:10+00:00 |
+| [fe4d96952332474085c84d476b4854ff](state/batches/fe4d96952332474085c84d476b4854ff/batch.json) / correct | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
