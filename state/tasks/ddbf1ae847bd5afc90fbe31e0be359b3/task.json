@@ -1,0 +1,126 @@
+{
+  "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37109005676",
+  "created_at": "2026-10-03T08:16:53+00:00",
+  "downstream_candidate_sha256": "3220596de79de8fd3e5899de3d3eeb6722bc4ed02d48924b0fb93338dd539724",
+  "downstream_key": "31c0f36ee8ed1852fd067ce4184ed681e97aef362af04b2deb5d9f5f6ab5932f",
+  "downstream_previous_sha256": "eb20c37d1ffd381bd4feda560a0e06c3147fa4f576e1d5187d74da141cf0a11f",
+  "downstream_previous_task": "6a7a6154fdb2f0b9efd77e2bb9b657fb",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<p>…Hans was mortified, although he was innocent regarding his second marriage. He had no desire to be a polygamist or to commit adultery. …</p>",
+      "severity": "major",
+      "source_quote": "He had no desire to be a polygamist or to commit adultery.",
+      "suggested_fix": "In the translated paragraph replace the incorrect phrase that means \"to commit theft\" with a phrase meaning \"to commit adultery.\" For example: replace “Hy het geen begeerte gehad om poligamist te wees of om diefstal te pleeg nie.” with “Hy het geen begeerte gehad om poligamist te wees of egbreuk te pleeg nie.” Preserve surrounding HTML and punctuation exactly.",
+      "translation_quote": "Hy het geen begeerte gehad om poligamist te wees of om diefstal te pleeg nie."
+    },
+    {
+      "location": "<p>…These huge trees would need to be cut down by hand with axes and two-man saws. …</p>",
+      "severity": "major",
+      "source_quote": "These huge trees would need to be cut down by hand with axes and two-man saws.",
+      "suggested_fix": "The translation mistakenly uses a word that reads as \"bees\" (bye) instead of \"axes.\" Replace the incorrect term so it clearly reads \"axes\" (Afrikaans: byle/byle) and keep the two-man saw phrase. For example: replace “moes met die hand afgekap word met bye en tweeman-saag.” with “moes met die hand afgekap word met byle en tweeman-saag.” Preserve surrounding HTML and punctuation exactly.",
+      "translation_quote": "moes met die hand afgekap word met bye en tweeman-saag."
+    }
+  ],
+  "id": "ddbf1ae847bd5afc90fbe31e0be359b3",
+  "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+  "language": "afr",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

@@ -1,0 +1,140 @@
+{
+  "article_id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37109005676",
+  "created_at": "2026-10-03T08:16:53+00:00",
+  "downstream_candidate_sha256": "798784e468414c1f4f197020218922aa3371f322eb879ea369f4475bd8f6483a",
+  "downstream_key": "c2d402a5d73e0cb70cdb79b3029222d7b759d0b992ca7ec13d053fe530ed1714",
+  "downstream_previous_sha256": "a654040bfc95df11f819efa6491dfeb4b2330af9eb8a777eca2e71f838deb901",
+  "downstream_previous_task": "01b2c6b5ad6605d8c827c8b7f5ecfbab",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "source.html — first paragraph (italic quote)",
+      "severity": "major",
+      "source_quote": "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21.",
+      "suggested_fix": "Translate the Scripture reference using conventional Afrikaans book name and correct the reference formatting exactly as printed in the authoritative English: replace “–1 Corinthians –1:17-21” with “—1 Korintiërs 1:17-21” (preserve the verse range and numbers unchanged). Keep the quoted Scripture translated as-is, but update the book name and punctuation in the trailing citation. Example replacement (only the citation part): “…dit het God behaag deur die dwasedheid van die prediking dié wat glo te red —1 Korintiërs 1:17-21.”",
+      "translation_quote": "…want dit het God behaag deur die dwasedheid van die prediking dié wat glo te red –1 Corinthians –1:17-21."
+    },
+    {
+      "location": "Throughout source.html — all Scripture citations (examples: “Matthew 11:28”, “John 7:37”, “Acts 3:19”, “2 Corinthians 5:20”, “Acts 20:21”, “Luke 14:23”, “Mark 4:16-17”, “Hebrews 6:18-19”, “Romans 10:17”, “1 Corinthians 4:15-16”, “1 Corinthians 11:1”, “1 Thessalonians 5:13”, etc.)",
+      "severity": "major",
+      "source_quote": "(Representative samples from source): “Come unto me, …and I will give you rest –Matthew 11:28,” “…If any man thirst, let him come unto me, and drink –John 7:37,” “Repent ye therefore, and be converted… –Acts 3:19,” “…we pray you in Christ's stead, be ye reconciled to God –2 Corinthians 5:20,” “…to the Jews, and also to the Greeks, repentance toward God, and faith toward our Lord Jesus Christ –Acts 20:21,” “compel them to come in… –Luke 14:23”, “they likewise which are sown on stony ground… –Mark 4:16-17”, “Which hope we have as an anchor of the soul… –Hebrews 6:18-19”, “So then faith cometh by hearing… –Romans 10:17”, “For though ye have ten thousand instructors… –1 Corinthians 4:15-16”, “Be ye followers of me… –1 Corinthians 11:1.”",
+      "suggested_fix": "Book names in Scripture citations must use conventional Afrikaans forms while leaving chapter and verse numbers unchanged. Replace each English book name with its standard Afrikaans equivalent (examples): Matthew → Matteus, John → Johannes, Acts → Handelinge, 2 Corinthians → 2 Korintiërs, Luke → Lukas, Mark → Markus, Hebrews → Hebreërs, Romans → Romeine, 1 Corinthians → 1 Korintiërs, 1 Thessalonians → 1 Tessalonisense. Apply these replacements consistently for every citation in the article (including in parentheses, inline citations, and endnotes). Do not change the verse numbers or ranges. Example: “Matthew 11:28” → “Matteus 11:28”; “John 3:8” → “Johannes 3:8”; “Acts 3:19” → “Handelinge 3:19”.",
+      "translation_quote": "(Representative translation samples): “–Matthew 11:28,” “–John 7:37,” “–Acts 3:19,” “–2 Corinthians 5:20,” “–Acts 20:21,” “–Luke 14:23”, “–Mark 4:16-17”, “–Hebrews 6:18-19”, “–Romans 10:17”, “–1 Corinthians 4:15-16”, “–1 Corinthians 11:1.”"
+    },
+    {
+      "location": "source.html — paragraph 3 (English→Afrikaans translation of “sinner”)",
+      "severity": "major",
+      "source_quote": "The biblical truth spoken in simplicity was sufficient of itself for God’s Holy Spirit to use to convert the sinner.",
+      "suggested_fix": "The translation currently uses the nonstandard/incorrect Afrikaans word “senter”. Replace with the standard Afrikaans word for sinner, “sondaar”. Suggested repaired sentence (preserve surrounding HTML/tags exactly): “Die bybelse waarheid wat in eenvoud gepraat is, was op sigself voldoende vir God se Heilige Gees om te gebruik om die sondaar te bekeer.”",
+      "translation_quote": "Die bybelse waarheid wat in eenvoud gepraat is, was op sigself voldoende vir God se Heilige Gees om te gebruik om die senter te bekeer."
+    },
+    {
+      "location": "source.html — heading “…Extra-Biblical” translated as “…Bybels-uitgesonder”",
+      "severity": "minor",
+      "source_quote": "…Extra-Biblical",
+      "suggested_fix": "Use a more idiomatic Afrikaans heading that preserves the English meaning. Suggestions: “…Bybel-buiten” or “…Buite die Bybel”. Replace the heading text only, preserving the H3 tag and any surrounding markup. Example: <h3>…Buite die Bybel</h3>.",
+      "translation_quote": "<h3>…Bybels-uitgesonder</h3>"
+    }
+  ],
+  "id": "dfb39ea67c6ad1c1d5f1db69df0644aa",
+  "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+  "language": "afr",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/b4fa54187a6f53bb54a1fc744963a43657fb9cc366925b4147ee29ecc59e0ba6.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

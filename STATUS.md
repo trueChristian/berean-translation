@@ -12,12 +12,12 @@ Observed English revision: `22388745ad7f149609e65f5e28cfcc1257cd689e`
 | `heartbeat-remnant-2024-summer` | 10 | 158 / 200 | 0 | 42 | 0 |
 | `heartbeat-remnant-2024-spring` | 11 | 130 / 220 | 1 | 89 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 135 / 220 | 0 | 85 | 0 |
-| `heartbeat-remnant-2023-summer` | 13 | 176 / 260 | 0 | 84 | 0 |
+| `heartbeat-remnant-2023-summer` | 13 | 176 / 260 | 2 | 82 | 0 |
 | `heartbeat-remnant-2023-spring` | 10 | 90 / 200 | 0 | 110 | 0 |
 | `heartbeat-remnant-2023-winter` | 12 | 137 / 240 | 1 | 102 | 0 |
-| `heartbeat-remnant-2022-winter` | 10 | 83 / 200 | 2 | 115 | 0 |
-| `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 1 | 127 | 0 |
-| `heartbeat-remnant-2022-summer` | 9 | 98 / 180 | 0 | 82 | 0 |
+| `heartbeat-remnant-2022-winter` | 10 | 83 / 200 | 3 | 114 | 0 |
+| `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 2 | 126 | 0 |
+| `heartbeat-remnant-2022-summer` | 9 | 98 / 180 | 1 | 81 | 0 |
 | `heartbeat-remnant-2022-spring` | 9 | 85 / 180 | 0 | 95 | 0 |
 | `heartbeat-remnant-2021-summer` | 11 | 0 / 220 | 220 | 0 | 0 |
 | `heartbeat-remnant-2021-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
@@ -114,7 +114,7 @@ Observed English revision: `22388745ad7f149609e65f5e28cfcc1257cd689e`
 | `rus` (ru) | 59 / 1010 | 0 | 11 | 47 | 78 |
 | `deu` (de) | 45 / 1010 | 0 | 11 | 61 | 87 |
 | `nld` (nl) | 78 / 1010 | 0 | 11 | 28 | 64 |
-| `afr` (af) | 63 / 1010 | 0 | 16 | 38 | 71 |
+| `afr` (af) | 63 / 1010 | 0 | 21 | 33 | 66 |
 | `swa` (sw) | 30 / 1010 | 0 | 11 | 76 | 97 |
 | `kor` (ko) | 62 / 1010 | 0 | 11 | 44 | 74 |
 | `ita` (it) | 81 / 1010 | 0 | 11 | 25 | 56 |
@@ -201,7 +201,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2023-summer` | `rus` | 8 / 13 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2023-summer` | `deu` | 7 / 13 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2023-summer` | `nld` | 12 / 13 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-summer` | `afr` | 8 / 13 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2023-summer` | `afr` | 8 / 13 | 0 | 2 | 3 | 0 |
 | `heartbeat-remnant-2023-summer` | `swa` | 5 / 13 | 0 | 0 | 8 | 0 |
 | `heartbeat-remnant-2023-summer` | `kor` | 9 / 13 | 0 | 0 | 4 | 0 |
 | `heartbeat-remnant-2023-summer` | `ita` | 9 / 13 | 0 | 0 | 4 | 0 |
@@ -261,7 +261,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2022-winter` | `rus` | 4 / 10 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-winter` | `deu` | 5 / 10 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2022-winter` | `nld` | 4 / 10 | 0 | 0 | 6 | 0 |
-| `heartbeat-remnant-2022-winter` | `afr` | 4 / 10 | 0 | 2 | 4 | 0 |
+| `heartbeat-remnant-2022-winter` | `afr` | 4 / 10 | 0 | 3 | 3 | 0 |
 | `heartbeat-remnant-2022-winter` | `swa` | 1 / 10 | 0 | 0 | 9 | 0 |
 | `heartbeat-remnant-2022-winter` | `kor` | 4 / 10 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-winter` | `ita` | 6 / 10 | 0 | 0 | 4 | 0 |
@@ -281,7 +281,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2022-fall` | `rus` | 5 / 11 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-fall` | `deu` | 2 / 11 | 0 | 0 | 9 | 0 |
 | `heartbeat-remnant-2022-fall` | `nld` | 9 / 11 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-fall` | `afr` | 5 / 11 | 0 | 1 | 5 | 0 |
+| `heartbeat-remnant-2022-fall` | `afr` | 5 / 11 | 0 | 2 | 4 | 0 |
 | `heartbeat-remnant-2022-fall` | `swa` | 1 / 11 | 0 | 0 | 10 | 0 |
 | `heartbeat-remnant-2022-fall` | `kor` | 4 / 11 | 0 | 0 | 7 | 0 |
 | `heartbeat-remnant-2022-fall` | `ita` | 6 / 11 | 0 | 0 | 5 | 0 |
@@ -301,7 +301,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2022-summer` | `rus` | 5 / 9 | 0 | 0 | 4 | 0 |
 | `heartbeat-remnant-2022-summer` | `deu` | 3 / 9 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-summer` | `nld` | 7 / 9 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2022-summer` | `afr` | 5 / 9 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2022-summer` | `afr` | 5 / 9 | 0 | 1 | 3 | 0 |
 | `heartbeat-remnant-2022-summer` | `swa` | 3 / 9 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-summer` | `kor` | 4 / 9 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2022-summer` | `ita` | 9 / 9 | 0 | 0 | 0 | 0 |
@@ -354,7 +354,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 Paused: hourly/shared-policy recovery submissions are disabled; separately authorized manual workflow requests retain their own ceilings.
 Hourly/shared-policy funding. Accepted lifetime recovery allocations: $0.000000 / $0.00. Allocations are not recycled after failure or cancellation.
-Separately authorized manual workflow allocations: $20.000000 across 2 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
+Separately authorized manual workflow allocations: $30.000000 across 3 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
@@ -395,7 +395,8 @@ A finished original campaign remains historical; current publication readiness i
 | `gh-37045474073` | manual | translate | finished | 180 | 85 complete, 95 held | 0.53759431 | 2.991708 / 10.00 | [state](state/campaigns/gh-37045474073.json) |
 | `gh-37108593335` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.051780 / 10.00 | [state](state/campaigns/gh-37108593335.json) |
 | `gh-37108628649` | manual | translate | active | 220 | 220 active | 0.00000000 | 1.150157 / 10.00 | [state](state/campaigns/gh-37108628649.json) |
-| `gh-37109005676` | manual recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37109005676.json) |
+| `gh-37109005676` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37109005676.json) |
+| `gh-37109037884` | manual recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37109037884.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
