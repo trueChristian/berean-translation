@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"the many, what seem to be, “conspiracy theories” that are being propagated and peddled\",\"suggested_fix\":\"Translate the uncertainty as applying to whether these are conspiracy theories: “banyak hal yang tampaknya merupakan ‘teori konspirasi’ dan sedang disebarkan serta diperjualbelikan” (or an equally idiomatic rendering).\",\"translation_quote\":\"banyak “teori konspirasi” yang tampaknya beredar dan disebarluaskan\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 545,
+    "content_evidence_truncated": false,
+    "content_sha256": "95d46ea41ff149b147c387ac6ed926f130763222a1909699b5c82585bdb6eedc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 947,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 802,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5007,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5004,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5954
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

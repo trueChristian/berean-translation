@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Hopelik het jy ’n verhouding gekoester…”",
+      "severity": "major",
+      "source_quote": "“We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.”",
+      "suggested_fix": "Replace “Ons het tekens van oortuiging herken en hulle gelei tot berou en bekering, en om redding deur geloof in Christus te ontvang.” with “Ons het tekens van oortuiging herken en hulle tot gebrokenheid en bekering gelei, en om redding deur geloof in Christus te ontvang.” This restores “brokenness” and avoids adding a separate “remorse” step.",
+      "translation_quote": "“Ons het tekens van oortuiging herken en hulle gelei tot berou en bekering, en om redding deur geloof in Christus te ontvang.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

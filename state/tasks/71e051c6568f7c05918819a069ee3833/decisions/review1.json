@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, numbered list, item 1",
+      "severity": "minor",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "Replace «Esto se basa en Su hecho» with «Esto se basa en la verdad de Dios, no en lo que sentimos» to express the contrast clearly in Spanish.",
+      "translation_quote": "Esto se basa en Su hecho, no en lo que sentimos."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

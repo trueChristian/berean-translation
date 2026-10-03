@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem paragraph beginning “But why would He suffer…”\",\"severity\":\"major\",\"source_quote\":\"Because He treasured us\",\"suggested_fix\":\"Replace «وہ ہم سے عزیز رکھتا تھا» with «وہ ہمیں عزیز رکھتا تھا» to convey that he cherished us.\",\"translation_quote\":\"وہ ہم سے عزیز رکھتا تھا\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 397,
+    "content_evidence_truncated": false,
+    "content_sha256": "2ffced17d30a3d86ca892a6136f7020670d0d0723438c3c1cb9bf517cde29cad",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 520,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 425,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1988,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1985,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2508
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

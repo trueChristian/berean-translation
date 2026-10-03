@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poème, 1re strophe, 2e vers\",\"severity\":\"major\",\"source_quote\":\"It was from the beginning that His will He would yield.\",\"suggested_fix\":\"Remplacer « Dès le commencement, il se soumit à la volonté de son Père. » par « Dès le commencement, il était résolu à soumettre sa volonté. » afin de ne pas ajouter une attribution explicite au Père qui ne figure pas dans ce vers.\",\"translation_quote\":\"Dès le commencement, il se soumit à la volonté de son Père.\"},{\"location\":\"HTML, poème, 6e strophe, 1er vers\",\"severity\":\"major\",\"source_quote\":\"Ten thousand angels, He could have summoned south,\",\"suggested_fix\":\"Traduire le sens imprimé sans remplacer « south » par une destination de secours ; par exemple : « Il aurait pu appeler dix mille anges vers le sud, »\",\"translation_quote\":\"Il aurait pu appeler dix mille anges à son secours,\"},{\"location\":\"HTML, poème, 10e strophe, 2e vers\",\"severity\":\"major\",\"source_quote\":\"Providing the Lamb and transforming my fate.\",\"suggested_fix\":\"Remplacer « Il a pourvu à l’Agneau et transformé mon destin. » par « Il a fourni l’Agneau et transformé mon destin. » pour rendre le sens de Dieu fournissant l’Agneau, et non pourvoyant aux besoins de l’Agneau.\",\"translation_quote\":\"Il a pourvu à l’Agneau et transformé mon destin.\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 1368,
+    "content_evidence_truncated": false,
+    "content_sha256": "23af60806794f02633f038bd2e8e24327ad376602f4c44dbe1874bdb7ccc1759",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 932,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 577,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1896,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1893,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2828
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

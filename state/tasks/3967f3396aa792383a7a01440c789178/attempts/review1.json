@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph quoting Efésios 5:19\",\"severity\":\"major\",\"source_quote\":\"“singing and making melody in your heart to the Lord”\",\"suggested_fix\":\"Substitua apenas o texto citado dentro do elemento <em> por: “Falando entre vocês com salmos, hinos e cânticos espirituais, cantando e fazendo melodia em seu coração ao Senhor; –Efésios 5:19.”\",\"translation_quote\":\"“cantando e louvando de coração ao Senhor”\"},{\"location\":\"source.html, paragraph quoting Colossenses 3:16\",\"severity\":\"major\",\"source_quote\":\"“singing with grace in your hearts to the Lord”\",\"suggested_fix\":\"Substitua apenas o trecho final citado dentro do elemento <em> por: “cantando com graça em seus corações ao Senhor –Colossenses 3:16.”\",\"translation_quote\":\"“cantando com gratidão em seu coração ao Senhor”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 878,
+    "content_evidence_truncated": false,
+    "content_sha256": "383b33098742b656a6eb50c641aba8b3ed86bcfba04690d63a48367aefae35de",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 469,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5563,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5560,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6262
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

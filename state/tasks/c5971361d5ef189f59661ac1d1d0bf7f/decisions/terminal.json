@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, first stanza, second line",
+      "severity": "minor",
+      "source_quote": "It was from the beginning that His will He would yield.",
+      "suggested_fix": "Desde el principio, habría de someter su voluntad.",
+      "translation_quote": "Desde el principio, su voluntad habría de entregar."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "GEDANKEN EINES MISSIONARS",
+      "translation_quote": "GEDANKEN EINER MISSIONARIN"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

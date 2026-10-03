@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bf81150b-f4f9-4455-9bf3-d8d33ae6ced3",
+    "response_id": "chatcmpl-EUz9UQlxgV5Vq4flcDw1akmI828iN",
+    "usage": {
+      "completion_tokens": 858,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 783,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8904,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8901,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9762
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "From Childhood to Adulthood",
+        "suggested_fix": "بچپن سے جوانی تک",
+        "translation_quote": "بچپن سے بلوغت تک"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

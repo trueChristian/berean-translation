@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph on God-given authority; Romans 13:1-2 quotation\",\"severity\":\"major\",\"source_quote\":\"“and they that resist shall receive to themselves damnation”\",\"suggested_fix\":\"Translate “damnation” with a Dutch term conveying condemnation or damnation, such as “verdoemenis,” rather than the less severe “een oordeel halen.” For example: “en wie zich verzetten, zullen over zichzelf verdoemenis brengen.”\",\"translation_quote\":\"“en wie zich verzet, zal over zichzelf een oordeel halen”\"},{\"location\":\"Paragraph on church leaders; 1 Samuel 15:23 quotation\",\"severity\":\"major\",\"source_quote\":\"“and stubbornness is as iniquity and idolatry”\",\"suggested_fix\":\"Translate “stubbornness” as “hardnekkigheid” or an equivalent, rather than “ongehoorzaamheid,” which changes the stated comparison. For example: “en hardnekkigheid is als ongerechtigheid en afgoderij.”\",\"translation_quote\":\"“en ongehoorzaamheid is afgoderij”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1014,
+    "content_evidence_truncated": false,
+    "content_sha256": "43c94eade15dfcdb5c5bb49a2d4f0c1ffdcb33ecc629530cb2642c7f523f4f38",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 507,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9434,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10192
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

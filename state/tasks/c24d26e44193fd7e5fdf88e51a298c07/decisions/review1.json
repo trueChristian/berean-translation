@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning «Το έκτο βράδυ μας στο Μεξικό»",
+      "severity": "major",
+      "source_quote": "“Suddenly he screamed out, only to choke mid-scream and then go limp.”",
+      "suggested_fix": "Αντικαταστήστε το «και μετά χαλάρωσε εντελώς» με «και μετά έμεινε άτονος» ώστε να αποδοθεί ότι το σώμα του έγινε άτονο, όχι ότι απλώς χαλάρωσε.",
+      "translation_quote": "«Ξαφνικά ούρλιαξε, μα στη μέση της κραυγής πνίγηκε και μετά χαλάρωσε εντελώς.»"
+    },
+    {
+      "location": "HTML paragraph beginning «Στο τέλος της πρώτης εβδομάδας»",
+      "severity": "minor",
+      "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
+      "suggested_fix": "Ελέγξτε το «κουπί» και επιλέξτε απόδοση που μεταφέρει με σαφήνεια το νόημα του “paddies” στο συγκεκριμένο συμφραζόμενο, διατηρώντας το ότι πρόσφερε από ένα στον καθένα για να τα κρατούν όσο έτρωγε.",
+      "translation_quote": "«πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό του κουπί να κρατάμε όσο έτρωγε»"
+    },
+    {
+      "location": "HTML paragraph beginning «Την ενδέκατη μέρα επισκεφθήκαμε»",
+      "severity": "minor",
+      "source_quote": "“we visited a nurse practitioner in a Mennonite colony in Mexico”",
+      "suggested_fix": "Αποδώστε το “nurse practitioner” ως «νοσηλεύτρια με διευρυμένο κλινικό ρόλο» ή με άλλη καθιερωμένη ελληνική διατύπωση που διατηρεί την ιδιότητα· το «νοσηλεύτρια» μόνο του παραλείπει αυτή τη διάκριση.",
+      "translation_quote": "«επισκεφθήκαμε μια νοσηλεύτρια σε μια μενονιτική αποικία στο Μεξικό»"
+    },
+    {
+      "location": "HTML paragraph beginning «Η δέσμευσή μου να στηρίζω»",
+      "severity": "minor",
+      "source_quote": "“My commitment to stand behind my husband in this all tussled with my emotions”",
+      "suggested_fix": "Αντικαταστήστε το «πάλευε με τα συναισθήματά μου» με πιο φυσική διατύπωση, όπως «συγκρουόταν με τα συναισθήματά μου», διατηρώντας την εσωτερική σύγκρουση.",
+      "translation_quote": "«Η δέσμευσή μου να στηρίζω τον άντρα μου σε αυτό πάλευε με τα συναισθήματά μου»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

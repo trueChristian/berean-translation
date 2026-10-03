@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "beac8b81-db35-457a-9cb1-335f91414947",
+    "response_id": "chatcmpl-EUz8yvRsQSmCO2BB80ZJXNI9fzfh5",
+    "usage": {
+      "completion_tokens": 856,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 607,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10534,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10531,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11390
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "শেষের ‘…পিতামাতা’ অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "will sooner or later be walking through the broad gate to destruction.",
+        "suggested_fix": "তারা শীঘ্রই হোক বা পরে, ধ্বংসের প্রশস্ত ফটক দিয়ে চলবে।",
+        "translation_quote": "তারা sooner or later ধ্বংসের প্রশস্ত ফটক দিয়ে চলবে।"
+      },
+      {
+        "location": "প্রথম lead অনুচ্ছেদের প্রথম বাক্য",
+        "severity": "minor",
+        "source_quote": "Of all the word pictures painted by our Lord, it seems this one remains, for the most part, unexplored.",
+        "suggested_fix": "আমাদের প্রভুর আঁকা সব চিত্রকল্পের মধ্যে, মনে হয়, এই চিত্রটিই বেশির ভাগ ক্ষেত্রে এখনও অনাবিষ্কৃত রয়ে গেছে।",
+        "translation_quote": "হে প্রভু যে সব চিত্রকল্প এঁকেছেন, সেগুলোর মধ্যে মনে হয়, বেশির ভাগই এখনও অনাবিষ্কৃত রয়ে গেছে।"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

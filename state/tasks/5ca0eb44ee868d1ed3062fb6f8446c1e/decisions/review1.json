@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, строфа 6",
+      "severity": "major",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Заменить на: «Он мог бы призвать десять тысяч ангелов к Себе,»",
+      "translation_quote": "Он мог бы призвать с юга десять тысяч ангелов,"
+    },
+    {
+      "location": "source.html, строфа 11",
+      "severity": "major",
+      "source_quote": "Now the Father and I—a relationship restored!",
+      "suggested_fix": "Заменить на: «Теперь отношения между Отцом и мной восстановлены!»",
+      "translation_quote": "Теперь отношения Отца со мной восстановлены!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

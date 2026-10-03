@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"HTML, poem, first stanza, second line\",\n      \"severity\": \"major\",\n      \"source_quote\": \"It was from the beginning that His will He would yield.\",\n      \"suggested_fix\": \"Van die begin af was Hy bereid om Sy wil te onderwerp.\",\n      \"translation_quote\": \"Van die begin af was Hy bereid om Sy wil te laat geld.\"\n    },\n    {\n      \"location\": \"HTML, poem, fourth stanza, second line\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"With the trifles of earth, He would not bother.\",\n      \"suggested_fix\": \"Met die nietighede van die aarde sou Hy Hom nie bemoei nie.\",\n      \"translation_quote\": \"Met die nietighede van die aarde sou Hy Hom nie ophou plaag.\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 750,
+    "content_evidence_truncated": false,
+    "content_sha256": "7343fdd455c4f9d28b05e9aac02da4a86eaba4e4a3cce77f19e471a72e0d2ca7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 659,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1916,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2795
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

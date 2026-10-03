@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5877ba36-3003-4c2e-9f80-ae393b755048",
+    "response_id": "chatcmpl-EUz9NZyQIDsqwxiQGmwzG660ALKtF",
+    "usage": {
+      "completion_tokens": 877,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 702,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16516,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16513,
+        "cached_tokens": 0
+      },
+      "total_tokens": 17393
+    }
+  },
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "خاتمے سے پہلے والا آخری پیراگراف، جملہ: «Something about the clarity…»",
+        "severity": "major",
+        "source_quote": "Something about the clarity of his daddy being the authority in his life has also established my authority over him.",
+        "suggested_fix": "اس جملے کو یوں درست کریں: «اس بات کی وضاحت کہ اُس کی زندگی میں اُس کے ابو صاحبِ اختیار ہیں، مجھ سے متعلق میرا اختیار بھی قائم کرنے میں مددگار ہوئی۔»",
+        "translation_quote": "اُس کی زندگی میں اختیار رکھنے والے کے طور پر اپنے ابو کی حیثیت کی وضاحت نے مجھ پر بھی اُس کا اختیار قائم کیا ہے۔"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

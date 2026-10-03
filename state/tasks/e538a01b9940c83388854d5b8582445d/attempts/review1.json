@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first paragraph\",\"severity\":\"major\",\"source_quote\":\"“Her family had two horses and a pony. How fun those evenings were when they would hitch their pony, Tony, to the cart, and the whole family would take turns riding.”\",\"suggested_fix\":\"Replace «hele familien byttet på å kjøre» with «hele familien byttet på å ri» so it is clear that family members took turns riding the pony, not driving the cart.\",\"translation_quote\":\"«Familien hennes hadde to hester og en ponni. Så morsomme de kveldene var når de spente ponnien Tony for vognen, og hele familien byttet på å kjøre.»\"},{\"location\":\"HTML, paragraph beginning «Før han la henne»\",\"severity\":\"major\",\"source_quote\":\"“Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.”\",\"suggested_fix\":\"Change the translated quotation to «Stolthet går forut for ødeleggelse, og en hovmodig ånd før fall – Ordspråkene 16:18.» Preserve the existing emphasis and reference number.\",\"translation_quote\":\"«Stolthet kommer før undergang, og hovmod før fall – Ordspråkene 16:18.»\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1149,
+    "content_evidence_truncated": false,
+    "content_sha256": "d3b89b2f48c677c61cc4237393906a40ab60012808210f51c20c5ca0f39594bc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 288,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4051,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4342
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

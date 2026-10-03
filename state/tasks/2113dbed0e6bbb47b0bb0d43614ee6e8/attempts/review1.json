@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"正文第4段，父亲的警告\",\"severity\":\"major\",\"source_quote\":\"“Ramona,” he said, “I want you to stay off the gate.”\",\"suggested_fix\":\"将“我不许你再爬栅门”改为“拉莫娜，”他说，“我不许你再爬栅门。”\",\"translation_quote\":\"“拉莫娜，”他说，“我不许你再爬栅门。”\"},{\"location\":\"正文第4段，差点摔倒处\",\"severity\":\"major\",\"source_quote\":\"This time, however, she narrowly escaped falling to the ground.\",\"suggested_fix\":\"改为“不过这一次，她险些摔到地上。”\",\"translation_quote\":\"不过这次她差一点就摔到了地上。\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 674,
+    "content_evidence_truncated": false,
+    "content_sha256": "fe10bd0075948e916c96d96a8e1fbeb2de7678ccee99557fa89bb3cab09cec02",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 190,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4030,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4027,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4220
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

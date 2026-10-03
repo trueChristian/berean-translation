@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e018db1d-b344-45f8-a986-194dca8b8e9d",
+    "response_id": "chatcmpl-EUz8y0NXqoILpHPz9ayzIf6iZuf5u",
+    "usage": {
+      "completion_tokens": 1101,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 894,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14987,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16091
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «أذهلت هذه البصيرة اللطيفة ستيرلينغ»",
+        "severity": "major",
+        "source_quote": "“We decided to try clearly explaining to Judson our expectations and the consequences of disobedience. Instead of restraining him, demanding surrender to our desires, we agreed to use repeated small switches to reprimand his willfulness.”",
+        "suggested_fix": "Replace «اتفقنا على استخدام ضربات خفيفة متكررة بالعصا لتقويم عناده» with «اتفقنا على استخدام ضربات متكررة بقضيب رفيع لتقويم عناده». This removes the added qualifier «خفيفة» and more closely conveys the source’s reference to switches.",
+        "translation_quote": "«واتفقنا على استخدام ضربات خفيفة متكررة بالعصا لتقويم عناده»"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

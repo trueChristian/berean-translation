@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e1662a87-3ad6-4a79-ba0c-b7bb089b07e0",
+    "response_id": "chatcmpl-EUz9XsVCGwre0QsFCBAm7uHFUKw3v",
+    "usage": {
+      "completion_tokens": 1039,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 732,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15441,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16483
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקה המתחילה „בסוף השבוע הראשון ניכרו אצל ג'דסון סימני שיפור”",
+        "severity": "major",
+        "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
+        "suggested_fix": "החליפו את „אחת מהחבטות הקטנות שלו” בתיאור של כפות הידיים שלו, למשל: „היה נותן לסטרלינג ולי להחזיק כל אחד באחת מכפות ידיו הקטנות בזמן שאכל”.",
+        "translation_quote": "„היה נותן לכל אחד מאיתנו, לסטרלינג ולי, אחת מהחבטות הקטנות שלו להחזיק בזמן שאכל”"
+      },
+      {
+        "location": "פסקה המתחילה „״אני מרגיש שזו הייתה התגלות דמונית״”",
+        "severity": "minor",
+        "source_quote": "“I sense it was a demoniac display”",
+        "suggested_fix": "החליפו את „התגלות דמונית” ב„ביטוי דמוני” או „התגלמות דמונית” כדי לשמר את משמעות display כביטוי או הופעה, ולא כגילוי.",
+        "translation_quote": "„אני מרגיש שזו הייתה התגלות דמונית”"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

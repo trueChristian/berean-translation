@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, primo paragrafo",
+      "severity": "minor",
+      "source_quote": "We asked the Lord for him, our third child, third son.",
+      "suggested_fix": "Avevamo chiesto al Signore di darci lui, il nostro terzo figlio, il terzo maschio.",
+      "translation_quote": "Avevamo chiesto al Signore lui, il nostro terzo figlio, il terzo maschio."
+    },
+    {
+      "location": "HTML, paragrafo che inizia «Alla fine della prima settimana»",
+      "severity": "major",
+      "source_quote": "With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.",
+      "suggested_fix": "Con un’espressione comicamente patetica, offriva a me e a Sterling una delle sue manine da tenere mentre mangiava, come se questo gli desse coraggio.",
+      "translation_quote": "Con un’espressione comicamente patetica, offriva a me e a Sterling una delle sue piccole polpette perché gliela tenessimo mentre mangiava, come se questo gli desse coraggio."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

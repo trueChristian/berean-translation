@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “So what really was wrong with Judson?”\",\"severity\":\"major\",\"source_quote\":\"“In retrospect, I see that spoiling him crept in unawares.”\",\"suggested_fix\":\"Replace “Ninapotazama nyuma, ninaona kwamba nilianza kumlemaza kwa kumfuatafuata bila kujua.” with “Ninapotazama nyuma, ninaona kwamba bila kujua nilianza kumlea kwa kumharibu.”\",\"translation_quote\":\"“Ninapotazama nyuma, ninaona kwamba nilianza kumlemaza kwa kumfuatafuata bila kujua.”\"},{\"location\":\"Paragraph beginning “Somewhere in the transition between need and demand…”\",\"severity\":\"major\",\"source_quote\":\"“Somewhere in the transition between need and demand, I began to cater to his little self.”\",\"suggested_fix\":\"Replace “nilianza kujifanyia yote aliyotaka mtoto wangu mdogo” with “nilianza kutimiza matakwa ya mtoto wangu mdogo.”\",\"translation_quote\":\"“Wakati fulani katika mabadiliko kati ya hitaji na madai, nilianza kujifanyia yote aliyotaka mtoto wangu mdogo.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1046,
+    "content_evidence_truncated": false,
+    "content_sha256": "fc9b240d5002fe85ddf26db98e9b8d17e484bf0aad7748b301eb1cdf72a8d38d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 492,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15874,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15871,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16638
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph after the three hope bullet points",
+      "severity": "minor",
+      "source_quote": "“a burden that seems more than they can bear”",
+      "suggested_fix": "Replace “जिसे वह सहन करने से अधिक समझता है” with “जो उसे अपनी सहन-शक्ति से अधिक लगता है” to convey that the burden seems unbearable to the friend.",
+      "translation_quote": "“ऐसे बोझ से जूझ रहा हो जिसे वह सहन करने से अधिक समझता है”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

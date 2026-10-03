@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "خاتمے سے پہلے والا آخری پیراگراف، جملہ: «Something about the clarity…»",
+      "severity": "major",
+      "source_quote": "Something about the clarity of his daddy being the authority in his life has also established my authority over him.",
+      "suggested_fix": "اس جملے کو یوں درست کریں: «اس بات کی وضاحت کہ اُس کی زندگی میں اُس کے ابو صاحبِ اختیار ہیں، مجھ سے متعلق میرا اختیار بھی قائم کرنے میں مددگار ہوئی۔»",
+      "translation_quote": "اُس کی زندگی میں اختیار رکھنے والے کے طور پر اپنے ابو کی حیثیت کی وضاحت نے مجھ پر بھی اُس کا اختیار قائم کیا ہے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

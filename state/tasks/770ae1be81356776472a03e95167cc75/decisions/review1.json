@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 2",
+      "severity": "major",
+      "source_quote": "“How we do church”",
+      "suggested_fix": "החליפו את ״מקיימים את תפילותינו״ ב״מקיימים את פעילויות הכנסייה שלנו״, כדי לשמר את המשמעות הרחבה של קיום חיי הכנסייה ולא לצמצם אותה לתפילה בלבד.",
+      "translation_quote": "״האופן שבו אנו מקיימים את תפילותינו״"
+    },
+    {
+      "location": "HTML paragraphs 2, 4, 7, and 11",
+      "severity": "major",
+      "source_quote": "“plain communities” / “plain community”",
+      "suggested_fix": "החליפו את ״הקהילות השמרניות״ ואת ״בני הקהילה השמרנית״ במונח המתייחס לקהילות האנבפטיסטיות המסורתיות המתוארות כאן, למשל ״קהילות האנבפטיסטים שומרות המסורת״ ו״בני קהילת האנבפטיסטים שומרת המסורת״. ״שמרני״ לבדו אינו משמר את הזיהוי הקהילתי המסוים שבמקור.",
+      "translation_quote": "״בקהילותינו השמרניות״; ״בני הקהילה השמרנית״; ״בקהילה השמרנית״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

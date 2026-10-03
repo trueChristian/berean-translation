@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph quoting 1 Peter 2:2",
+      "severity": "major",
+      "source_quote": "“desire the sincere milk of the word, that ye may grow thereby”",
+      "suggested_fix": "Replace “ili kwa hayo mpate kuukulia wokovu” with “ili kwa hayo mpate kukua,” preserving the source’s meaning without adding “salvation.” Keep the existing emphasis and reference structure.",
+      "translation_quote": "“kutamani maziwa ya neno yasiyoghoshiwa, ili kwa hayo mpate kuukulia wokovu: –1 Petro 2:2.”"
+    },
+    {
+      "location": "Article paragraph quoting Matthew 7:22",
+      "severity": "major",
+      "source_quote": "“and in thy name done many wonderful works?”",
+      "suggested_fix": "Replace “kufanya miujiza mingi” with wording that conveys “doing many wonderful works,” such as “kufanya kazi nyingi za ajabu,” without narrowing the phrase to miracles.",
+      "translation_quote": "“Na kwa jina lako kufanya miujiza mingi?”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

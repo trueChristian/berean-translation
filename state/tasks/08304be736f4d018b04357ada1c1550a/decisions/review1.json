@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, citation biblique de clôture (Psaume 127:4)",
+      "severity": "major",
+      "source_quote": "“As arrows are in the hand of a mighty man; so are children of the youth”",
+      "suggested_fix": "Remplacer « les enfants de la jeunesse » par « les fils de la jeunesse » pour préserver le sens imprimé de « children of the youth » dans cette citation.",
+      "translation_quote": "« ainsi sont les enfants de la jeunesse »"
+    },
+    {
+      "location": "source.html, explication suivant la citation de Psaume 127:4",
+      "severity": "major",
+      "source_quote": "“If properly honed (trained) and balanced (taught disciplines) our children will have the potential to outlive us both in years and in usefulness.”",
+      "suggested_fix": "Traduire « outlive us » comme « nous survivre » et « both in years and in usefulness » comme « tant par le nombre d’années que par l’utilité » ; par exemple : « S’ils sont bien affûtés (formés) et équilibrés (instruits aux disciplines), nos enfants pourront nous survivre, tant par le nombre d’années que par leur utilité. »",
+      "translation_quote": "« nos enfants pourront nous survivre, tant par leur longévité que par leur utilité »"
+    },
+    {
+      "location": "source.html, citation biblique de clôture (Psaume 127:5)",
+      "severity": "major",
+      "source_quote": "“they shall not be ashamed, but they shall speak with the enemies in the gate”",
+      "suggested_fix": "Rétablir la négation omise : « Ils ne seront pas confus, mais ils parleront avec les ennemis à la porte –Psaume 127:5. »",
+      "translation_quote": "« Ils ne seront pas confus, quand ils parleront avec des ennemis à la porte –Psaume 127:5. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

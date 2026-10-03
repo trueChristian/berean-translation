@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, opsomming, punt 1\",\"severity\":\"minor\",\"source_quote\":\"This is according to His fact, not according to our feeling.\",\"suggested_fix\":\"Dit is gebaseerd op wat Hij zegt, niet op hoe wij ons voelen.\",\"translation_quote\":\"Dit is gebaseerd op Zijn feit, niet op ons gevoel.\"},{\"location\":\"HTML, alinea met de titel van het CNN-artikel\",\"severity\":\"minor\",\"source_quote\":\"1 IN 4 YOUNG PEOPLE ARE REPORTING SUICIDAL THOUGHTS\",\"suggested_fix\":\"‘1 OP DE 4 JONGEREN MELDT ZELFMOORDGEDACHTEN’\",\"translation_quote\":\"‘1 OP DE 4 JONGEREN MELDT GEDACHTEN AAN ZELFMOORD’\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 622,
+    "content_evidence_truncated": false,
+    "content_sha256": "1399b653cae6b3f41f89d4ef70e7fd95bdb3e2216afee3d883fde23ecf532aba",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 597,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5147,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5144,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5941
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

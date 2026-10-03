@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4510ecdc-2d68-4227-8773-1ab1b9dba2a3",
+    "response_id": "chatcmpl-EUz9DXvboLDyHsohRH0s8TBlQfd0s",
+    "usage": {
+      "completion_tokens": 1212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1006,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8799,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8796,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10011
+    }
+  },
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Galates 5:22-23, citation du fruit de l’Esprit",
+        "severity": "major",
+        "source_quote": "“the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance”",
+        "suggested_fix": "Dans la citation, remplacer « la patience, la bonté, la bienveillance, la foi, la douceur, la maîtrise de soi » par « la patience, la douceur, la bonté, la foi, l’humilité, la maîtrise de soi » afin de rétablir l’ordre et les distinctions du texte source.",
+        "translation_quote": "« …le fruit de l’Esprit, c’est l’amour, la joie, la paix, la patience, la bonté, la bienveillance, la foi, la douceur, la maîtrise de soi… »"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "본문 3단락",
+      "severity": "major",
+      "source_quote": "Yet at times we as believers still fail in listening to good wholesome music.",
+      "suggested_fix": "‘하지만 때때로 우리 믿는 사람들은 여전히 선하고 건전한 음악을 듣지 못합니다.’를 ‘하지만 때때로 우리 믿는 사람들은 선하고 건전한 음악을 듣는 데 여전히 실패합니다.’로 고쳐 ‘듣지 못한다’는 단순한 불능이 아니라 듣는 데 실패한다는 뜻을 살리세요.",
+      "translation_quote": "하지만 때때로 우리 믿는 사람들은 여전히 선하고 건전한 음악을 듣지 못합니다."
+    },
+    {
+      "location": "본문 10단락",
+      "severity": "major",
+      "source_quote": "after the fall of the second temple in 70 A.D.",
+      "suggested_fix": "‘서기 70년 제2성전이 무너진 뒤’를 ‘서기 70년 제2성전의 파괴 이후’로 고쳐 ‘성전의 몰락/파괴’라는 표현을 살리세요.",
+      "translation_quote": "서기 70년 제2성전이 무너진 뒤"
+    },
+    {
+      "location": "본문 12단락",
+      "severity": "major",
+      "source_quote": "the tradition of singing mostly A cappella still exists.",
+      "suggested_fix": "‘주로 아카펠라로 노래하는 전통이 지금도 남아 있습니다’를 ‘대체로 아카펠라로 노래하는 전통이 지금도 존재합니다’로 고쳐 원문의 전통 지속 진술을 보존하세요.",
+      "translation_quote": "주로 아카펠라로 노래하는 전통이 지금도 남아 있습니다"
+    },
+    {
+      "location": "제목",
+      "severity": "minor",
+      "source_quote": "What Is Right About My Music?",
+      "suggested_fix": "‘내 음악에서 무엇이 옳은가요?’를 ‘내 음악의 어떤 점이 옳은가요?’로 다듬으세요.",
+      "translation_quote": "내 음악에서 무엇이 옳은가요?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

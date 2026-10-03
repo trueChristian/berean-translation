@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Kutipan Galatia 6:1–5, kalimat “Bear ye one another’s burdens”",
+      "severity": "major",
+      "source_quote": "Bear ye one another’s burdens, and so fulfil the law of Christ.",
+      "suggested_fix": "Ganti “Bertolong-tolonganlah menanggung bebanmu!” menjadi “Bertolong-tolonganlah menanggung beban satu sama lain!” agar perintah untuk saling menanggung beban tetap terjaga.",
+      "translation_quote": "Bertolong-tolonganlah menanggung bebanmu! Demikianlah kamu memenuhi hukum Kristus."
+    },
+    {
+      "location": "Kutipan 1 Korintus 10:13",
+      "severity": "major",
+      "source_quote": "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able…",
+      "suggested_fix": "Terjemahkan teks yang tercetak tanpa menggantinya dengan rumusan ayat dari versi lain. Misalnya: “Tidak ada pencobaan yang menimpa kamu selain pencobaan yang biasa dialami manusia; tetapi Allah setia, sehingga Ia tidak akan membiarkan kamu dicobai melampaui kemampuanmu…”",
+      "translation_quote": "Pencobaan-pencobaan yang kamu alami ialah pencobaan-pencobaan biasa, yang tidak melebihi kekuatan manusia. Sebab Allah setia dan karena itu Ia tidak akan membiarkan kamu dicobai melampaui kekuatanmu…"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

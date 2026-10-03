@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9748
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 835,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 596,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9574,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9571,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10409
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "लूका 23:31 का उद्धरण",
+      "severity": "major",
+      "source_quote": "For if they do these things in a green tree, what shall be done in the dry?",
+      "suggested_fix": "क्योंकि यदि वे हरे पेड़ के साथ ऐसा करते हैं, तो सूखे पेड़ के साथ क्या न करेंगे? –लूका 23:31।",
+      "translation_quote": "क्योंकि जब वे हरे पेड़ के साथ ऐसा करते हैं, तो सूखे के साथ क्या न होगा? –लूका 23:31।"
+    },
+    {
+      "location": "अंतिम अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "There is a very rewarding feeling, a feeling of peace that passes all understanding.",
+      "suggested_fix": "इससे बहुत संतोष मिलता है—ऐसी शांति का एहसास जो सारी समझ से परे है।",
+      "translation_quote": "इससे बहुत प्रतिफल मिलता है, ऐसा शांति का एहसास जो सारी समझ से परे है।"
+    }
+  ],
   "id": "e0937a0bb6b58360e6043c4f009b2baa",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "hin",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

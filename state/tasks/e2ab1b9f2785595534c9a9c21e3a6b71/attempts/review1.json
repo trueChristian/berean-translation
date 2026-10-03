@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning « À la fin de la première semaine »\",\"severity\":\"major\",\"source_quote\":\"“he would offer Sterling and I each one of his little paddies to hold while he ate”\",\"suggested_fix\":\"Replace « une de ses petites crêpes » with a faithful translation of « one of his little paddies »; « crêpes » introduces a specific food that is not in the source.\",\"translation_quote\":\"« il proposait à Sterling et à moi de tenir chacun une de ses petites crêpes pendant qu’il mangeait »\"},{\"location\":\"HTML, paragraph beginning « Mais il continuait à pleurer »\",\"severity\":\"minor\",\"source_quote\":\"“I walked around with a little ‘leech’ on my skirt some days.”\",\"suggested_fix\":\"Correct the gender agreement: « certains jours, je me promenais avec une petite “sangsue” accrochée à ma jupe. »\",\"translation_quote\":\"« Certains jours, je me promenais avec un petit “sangsue” accroché à ma jupe. »\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1000,
+    "content_evidence_truncated": false,
+    "content_sha256": "101489fe3606054afd4c0ab4fd059e19fcd895e8e720213f241fe88060c3067d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1269,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1013,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14975,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14972,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16244
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

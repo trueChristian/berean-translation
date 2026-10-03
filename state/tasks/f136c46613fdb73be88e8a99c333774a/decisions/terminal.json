@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, heading “...Husbands” / translation.html, corresponding heading",
+      "severity": "minor",
+      "source_quote": "<h2><em>…Husbands</em></h2>",
+      "suggested_fix": "Change the heading to <h2><em>…Σύζυγοι (άντρες)</em></h2> so it specifically identifies husbands rather than spouses of either gender.",
+      "translation_quote": "<h2><em>…Συζύγους</em></h2>"
+    },
+    {
+      "location": "source.html, paragraph beginning “Straight and Narrow”",
+      "severity": "minor",
+      "source_quote": "“Straight and Narrow,” as ascribed by the early American revival movement",
+      "suggested_fix": "Replace «πρώιμο αμερικανικό αναγεννησιακό κίνημα» with «πρώιμο αμερικανικό κίνημα αναζωπύρωσης», which conveys a religious revival rather than a Renaissance movement.",
+      "translation_quote": "«Ευθεία και στενή», όπως την περιέγραφε το πρώιμο αμερικανικό αναγεννησιακό κίνημα"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

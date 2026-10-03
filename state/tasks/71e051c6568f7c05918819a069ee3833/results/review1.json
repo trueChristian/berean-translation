@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c28c8acb-d3ec-4e57-84d0-305252905383",
+    "response_id": "chatcmpl-EUz8yLEi6XgCZE9VHn8gf3y6eoCk3",
+    "usage": {
+      "completion_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 446,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5090,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5652
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, numbered list, item 1",
+        "severity": "minor",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "Replace «Esto se basa en Su hecho» with «Esto se basa en la verdad de Dios, no en lo que sentimos» to express the contrast clearly in Spanish.",
+        "translation_quote": "Esto se basa en Su hecho, no en lo que sentimos."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

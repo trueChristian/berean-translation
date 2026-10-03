@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “How does a parent lead his child to salvation?”",
+      "severity": "major",
+      "source_quote": "Be aware of evidence of conviction.",
+      "suggested_fix": "Replace “दोष-बोध के संकेतों के प्रति सजग रहें।” with “पाप-बोध के संकेतों के प्रति सजग रहें।”",
+      "translation_quote": "दोष-बोध के संकेतों के प्रति सजग रहें।"
+    },
+    {
+      "location": "source.html, paragraph beginning “Hopefully, you have nurtured a relationship…”",
+      "severity": "major",
+      "source_quote": "We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.",
+      "suggested_fix": "Replace “हमने दोष-बोध के चिह्न पहचाने” with “हमने पाप-बोध के चिह्न पहचाने।”",
+      "translation_quote": "हमने दोष-बोध के चिह्न पहचाने"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

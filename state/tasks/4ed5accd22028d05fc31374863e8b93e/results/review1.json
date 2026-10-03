@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "40f7c7a0-2dae-4d10-8e09-6eb15f6ca599",
+    "response_id": "chatcmpl-EUz8yBSA8lRWNeLGpZM0GuJiNAtAF",
+    "usage": {
+      "completion_tokens": 754,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 623,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9871,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9868,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10625
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, list of outcomes",
+        "severity": "major",
+        "source_quote": "“strength to preach and convert souls”",
+        "suggested_fix": "Replace “krag om siele te verkondig en tot bekering te bring” with “krag om te preek en siele tot bekering te bring” so the translation says that people preach and bring souls to conversion.",
+        "translation_quote": "“krag om siele te verkondig en tot bekering te bring”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

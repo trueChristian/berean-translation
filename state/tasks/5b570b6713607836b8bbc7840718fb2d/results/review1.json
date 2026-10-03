@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "049dbd5b-f24d-472f-b0bf-b9f20c293842",
+    "response_id": "chatcmpl-EUz8yK9hpWu38I8ifOKhiitzok65C",
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 421,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1975,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1972,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2504
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, stanza beginning “Because He treasured us”",
+        "severity": "minor",
+        "source_quote": "Because He treasured us, an atonement for our sin",
+        "suggested_fix": "क्योंकि उन्होंने हमें अनमोल समझा; हमारे पाप का प्रायश्चित",
+        "translation_quote": "क्योंकि उन्होंने हमसे प्रेम किया; हमारे पाप का प्रायश्चित"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

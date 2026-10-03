@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third paragraph\",\"severity\":\"minor\",\"source_quote\":\"sitting in the temple visiting with the doctors\",\"suggested_fix\":\"Replace «doctores» with «maestros de la ley» to make clear that the reference is to religious teachers, not medical doctors.\",\"translation_quote\":\"sentado en el templo, conversando con los doctores\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 380,
+    "content_evidence_truncated": false,
+    "content_sha256": "1556a36fa9dbbff95ed151ed62ae19811b44fd04ea3b332094264c225ea422de",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 611,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7859,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7856,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8576
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

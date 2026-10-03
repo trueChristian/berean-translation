@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, avsnittet som börjar ”Innan han lade henne i sängen”",
+      "severity": "major",
+      "source_quote": "“Ramona, listen, can you be quiet for a bit?”",
+      "suggested_fix": "Ändra till exempelvis: ”Ramona, lyssna, kan du vara tyst en liten stund?”",
+      "translation_quote": "”Ramona, lyssna, kan du vara tyst en liten stund?”"
+    },
+    {
+      "location": "HTML, stycket efter dialogen med pappan",
+      "severity": "major",
+      "source_quote": "“Are you sorry for disobeying me, Ramona?” Papa asked. “Yes, Papa, I am sorry” she replied tearfully.",
+      "suggested_fix": "Återge frågan som en fråga om ånger, till exempel: ”Ångrar du att du var olydig mot mig, Ramona?” frågade pappa. ”Ja, pappa, jag är ledsen”, svarade hon gråtande.",
+      "translation_quote": "”Ångrar du att du inte lydde mig, Ramona?” frågade pappa. ”Ja, pappa, det gör jag”, svarade hon gråtande."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

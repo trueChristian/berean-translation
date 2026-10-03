@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d7b9bc5-a62d-4ab1-b3b4-4b8bf46ef164",
+    "response_id": "chatcmpl-EUz8zJ6zw3lNwx8jDsyxLMHNyeokD",
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2017,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2014,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2759
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 2",
+        "severity": "major",
+        "source_quote": "He was never well-liked; despised by all men;",
+        "suggested_fix": "Replace “কেউ তাঁকে কখনো ভালোবাসেনি” with wording meaning “He was never well-liked,” such as “তিনি কখনোই মানুষের প্রিয় ছিলেন না,” to avoid intensifying this into a claim that nobody loved him.",
+        "translation_quote": "কেউ তাঁকে কখনো ভালোবাসেনি; সবাই করত অবজ্ঞা;"
+      },
+      {
+        "location": "Poem, stanza 6",
+        "severity": "major",
+        "source_quote": "But the stricken Savior opened not His mouth.",
+        "suggested_fix": "Replace “পাছে” with a phrase that simply says he did not open his mouth; for example: “কিন্তু ক্ষতবিক্ষত ত্রাণকর্তা মুখ খুললেন না।”",
+        "translation_quote": "কিন্তু ক্ষতবিক্ষত ত্রাণকর্তা মুখ খুললেন না পাছে।"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, parágrafo sobre Romanos 1:18-20\",\"severity\":\"major\",\"source_quote\":\"“all the godlessness and wickedness of people, who suppress the truth by their wickedness”\",\"suggested_fix\":\"Na citação, substitua “toda a impiedade e injustiça das pessoas que suprimem a verdade por meio de sua injustiça” por “toda a impiedade e maldade das pessoas que suprimem a verdade por meio de sua maldade”, preservando as tags e o restante da citação.\",\"translation_quote\":\"“toda a impiedade e injustiça das pessoas que suprimem a verdade por meio de sua injustiça”\"},{\"location\":\"HTML, parágrafo sobre a natureza e os animais\",\"severity\":\"major\",\"source_quote\":\"“animals produce after their own kind”; “what the Bible teaches about kinds”; “all animals exist within the Biblical framework of their own kind”\",\"suggested_fix\":\"Substitua, neste parágrafo, “espécie” por “tipo” nas referências ao conceito de “kind”: por exemplo, “os animais se reproduzem segundo o seu próprio tipo”, “o que a Bíblia ensina sobre os tipos” e “todos os animais se mantêm dentro do modelo bíblico do seu próprio tipo”. Preserve as tags e a estrutura do parágrafo.\",\"translation_quote\":\"“os animais se reproduzem segundo a sua própria espécie”; “o que a Bíblia ensina sobre as espécies”; “todos os animais se mantêm dentro do modelo bíblico de sua própria espécie”\"},{\"location\":\"HTML, terceiro parágrafo\",\"severity\":\"minor\",\"source_quote\":\"“Biblical faith is simply a state of mind that has confidence and trust in the Lord.”\",\"suggested_fix\":\"Para corrigir a construção pouco idiomática, substitua “um estado de espírito que tem confiança e confia no Senhor” por “uma disposição de confiança no Senhor”.\",\"translation_quote\":\"“um estado de espírito que tem confiança e confia no Senhor”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1924,
+    "content_evidence_truncated": false,
+    "content_sha256": "06c12b060610239ff749a8bdbe4f815b5ce6c36d93e2ecaeffc455acd3ade1d5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 900,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 461,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4070,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4973
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "शीर्षक",
+      "severity": "minor",
+      "source_quote": "What Is Right About My Music?",
+      "suggested_fix": "मेरे संगीत के बारे में क्या सही है?",
+      "translation_quote": "मेरे संगीत के बारे में सही क्या है?"
+    },
+    {
+      "location": "प्रेरितों के काम 16:25 वाला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "the doors flew open, and everyone’s prison bands broke.",
+      "suggested_fix": "इस वाक्यांश को इस तरह करें: “दरवाज़े खुल गए और सबकी बेड़ियाँ खुल गईं।”",
+      "translation_quote": "दरवाज़े खुल गए और सबकी बेड़ियाँ टूट गईं।"
+    },
+    {
+      "location": "कुलुस्सियों 3:16 वाला उद्धरण",
+      "severity": "major",
+      "source_quote": "teaching and admonishing one another",
+      "suggested_fix": "उद्धरण में “एक दूसरे को सिखाते और चिताते हुए” लिखें।",
+      "translation_quote": "एक दूसरे को सिखाओ और चिताओ"
+    },
+    {
+      "location": "यीशु और शिष्यों के भजन वाला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "I wonder what hymn Jesus sang with His disciples at the last supper before He went out to the Mount of Olives.",
+      "suggested_fix": "“मैं सोचता हूँ कि जैतून पहाड़ पर जाने से पहले, अंतिम भोज में यीशु ने अपने शिष्यों के साथ कौन-सा भजन गाया होगा।”",
+      "translation_quote": "मैं सोचता हूँ कि जैतून पहाड़ पर जाने से पहले, अंतिम भोज में यीशु ने अपने शिष्यों के साथ कौन-सा भजन गाया होगा।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph, drop-cap span",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+      "suggested_fix": "Replace only the drop-cap text with the Arabic initial, preserving the existing tags and attributes: <span class=\"drop-cap\">م</span>يسأل كثيرون",
+      "translation_quote": "<span class=\"drop-cap\">M</span>يسأل كثيرون"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

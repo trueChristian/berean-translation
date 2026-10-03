@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “One simple reason…” and paragraph beginning “One aspect of Christ’s dependability…”",
+      "severity": "major",
+      "source_quote": "“This is the same way the Bible defines faith.” / “We have more manuscripts of the Bible than any other work in antiquity.”",
+      "suggested_fix": "Replace תנ״ך with כתבי הקודש or המקרא (as appropriate) in these passages and elsewhere where the source says “the Bible.” תנ״ך refers specifically to the Hebrew Bible and narrows the source’s meaning.",
+      "translation_quote": "“כך בדיוק התנ״ך מגדיר אמונה.” / “יש לנו יותר כתבי יד של התנ״ך מכל יצירה אחרת מן העת העתיקה.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “One aspect of Christ’s dependability…”",
+      "severity": "minor",
+      "source_quote": "“in terms of its authorship, preservation, honesty, and accuracy”",
+      "suggested_fix": "Change למחבריו to מחברוּת (or ניסוח טבעי מקביל המתייחס למחברוּת), preserving the source’s reference to authorship rather than to the authors themselves.",
+      "translation_quote": "“בכל הנוגע למחבריו, לשימורו, ליושרו ולדיוקו.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

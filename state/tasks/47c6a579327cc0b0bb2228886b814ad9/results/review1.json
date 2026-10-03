@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9fd6f81b-bee7-4231-9ac3-40ae0036e69d",
+    "response_id": "chatcmpl-EUz9Hay1LTNFro6fUP5GymQKJnSOm",
+    "usage": {
+      "completion_tokens": 829,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 475,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5284,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6116
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Source HTML, paragraph beginning «How sad it is…»; quoted 1 Corinthians 15:19",
+        "severity": "major",
+        "source_quote": "If in this life only we have hope in Christ",
+        "suggested_fix": "Replace «Hvis vi bare har håp om Kristus i dette livet» with «Hvis vi bare har håp i Kristus i dette livet» to preserve the source’s distinction between hope in Christ and hope about Christ.",
+        "translation_quote": "Hvis vi bare har håp om Kristus i dette livet"
+      },
+      {
+        "location": "Source HTML, first blockquote; Galatians 6:1-5",
+        "severity": "major",
+        "source_quote": "and then shall he have rejoicing in himself alone, and not in another",
+        "suggested_fix": "Translate the sentence without adding a comparison: replace «Da kan han være stolt av det han selv har gjort, uten å sammenligne seg med andre» with «Da kan han glede seg over sitt eget arbeid, og ikke over en annens».",
+        "translation_quote": "Da kan han være stolt av det han selv har gjort, uten å sammenligne seg med andre."
+      },
+      {
+        "location": "Source HTML, final paragraph; quoted Galatians 6:9-10",
+        "severity": "major",
+        "source_quote": "As we have therefore opportunity, let us do good unto all men",
+        "suggested_fix": "Replace «Så la oss gjøre godt mot alle så lenge det er tid» with «La oss derfor gjøre godt mot alle når vi har anledning» to retain the source’s emphasis on opportunity.",
+        "translation_quote": "Så la oss gjøre godt mot alle så lenge det er tid"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

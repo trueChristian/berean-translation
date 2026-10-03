@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “As we step back…”\",\"severity\":\"minor\",\"source_quote\":\"“What about my housing?”\",\"suggested_fix\":\"Replace «E la mia casa?» with «E il mio alloggio?» to retain the broader meaning of housing.\",\"translation_quote\":\"«E la mia casa?»\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 320,
+    "content_evidence_truncated": false,
+    "content_sha256": "52c13e9e03992a881b89e50df9b9cedaafb4f99fdbfd3c613c2eb79b4da38ba8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 707,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 611,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5290,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5287,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5997
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

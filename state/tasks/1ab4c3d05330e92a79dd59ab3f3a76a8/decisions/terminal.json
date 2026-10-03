@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, stanza beginning “But why would He suffer…”",
+      "severity": "minor",
+      "source_quote": "“Enduring the cross, all the pain He did bear?”",
+      "suggested_fix": "Replace «Υπομένοντας τον σταυρό, όλο αυτόν τον πόνο που έφερε;» with «Υπομένοντας τον σταυρό και όλο αυτόν τον πόνο που υπέμεινε;» so the wording clearly says that He endured the pain.",
+      "translation_quote": "«Υπομένοντας τον σταυρό, όλο αυτόν τον πόνο που έφερε;»"
+    },
+    {
+      "location": "HTML, poem, stanza beginning “Because He treasured us…”",
+      "severity": "minor",
+      "source_quote": "“to make us His kin!”",
+      "suggested_fix": "Replace «για να μας κάνει δικούς Του!» with «για να μας κάνει μέλη της οικογένειάς Του!» to preserve the explicit family relationship in “His kin.”",
+      "translation_quote": "«για να μας κάνει δικούς Του!»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

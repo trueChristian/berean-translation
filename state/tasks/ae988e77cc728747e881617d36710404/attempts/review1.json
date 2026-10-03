@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning « L’apôtre Pierre a dit… », citation de 2 Timothée 1:7\",\"severity\":\"major\",\"source_quote\":\"“God hath not given us the spirit of fear; but of power, and of love, and of a sound mind”\",\"suggested_fix\":\"Remplacer « de sagesse » par « de maîtrise de soi » pour préserver le sens de « a sound mind » : « …Dieu ne nous a pas donné un esprit de crainte, mais de puissance, d’amour et de maîtrise de soi –2 Timothée 1:7. »\",\"translation_quote\":\"« …Dieu ne nous a pas donné un esprit de crainte, mais de puissance, d’amour et de sagesse –2 Timothée 1:7. »\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 669,
+    "content_evidence_truncated": false,
+    "content_sha256": "d883a711ac31db382da1afa815cdf082967a5c85191538f694abf62d6e64d07c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 651,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5071,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5068,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5722
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,93 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4b71ff83-7396-416b-af9f-dc12614183eb",
+    "response_id": "chatcmpl-EUz8zr1BcwGsNwyVnemZsjfjPfheQ",
+    "usage": {
+      "completion_tokens": 961,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5077,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5074,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6038
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 1",
+        "severity": "minor",
+        "source_quote": "over four months since the coronavirus pandemic started",
+        "suggested_fix": "Change “drygt fyra månader” to “mer än fyra månader” to preserve the source’s “over four months” without implying only a little over four months.",
+        "translation_quote": "drygt fyra månader sedan coronapandemin började"
+      },
+      {
+        "location": "Article, paragraph 1",
+        "severity": "minor",
+        "source_quote": "through our communities, churches, and society as a whole",
+        "suggested_fix": "Use distinct terms for all three groups, for example “genom våra lokalsamhällen, församlingar och samhället i stort”; the current wording repeats “samhälle”.",
+        "translation_quote": "genom våra samhällen, församlingar och hela samhället"
+      },
+      {
+        "location": "Article, paragraph 2",
+        "severity": "major",
+        "source_quote": "our plain communities",
+        "suggested_fix": "Translate this as “våra mennonitiska/amishiska församlingar” or another contextually accurate rendering of “plain communities”; “traditionella samfund” is broader and changes the group being discussed.",
+        "translation_quote": "våra traditionella samfund"
+      },
+      {
+        "location": "Article, paragraph 3",
+        "severity": "minor",
+        "source_quote": "In 1 Peter, the apostle Peter calls us to “honor the king”",
+        "suggested_fix": "Use “I Första Petrusbrevet” rather than “I Första Petrusbrevet” is acceptable; however, avoid shifting “honor” to an inconsistent or narrower sense. Current quotation and surrounding explanation are broadly faithful.",
+        "translation_quote": "I Första Petrusbrevet uppmanar aposteln Petrus oss att ”ära kungen”"
+      },
+      {
+        "location": "Article, paragraph 4",
+        "severity": "major",
+        "source_quote": "we as the plain community",
+        "suggested_fix": "Replace “traditionellt samfund” with a contextually accurate translation of “plain community,” consistent with the earlier occurrence.",
+        "translation_quote": "vi som traditionellt samfund"
+      },
+      {
+        "location": "Article, paragraph 5",
+        "severity": "major",
+        "source_quote": "When Ananias the high priest asked the ones by him to smite him",
+        "suggested_fix": "Use the conventional Swedish name “Ananias” only if that is the intended source name, but correct the event’s subject: Ananias ordered those standing by to strike Paul. Suggested wording: “När översteprästen Ananias bad dem som stod bredvid att slå Paulus …”.",
+        "translation_quote": "När översteprästen Hannas bad dem som stod bredvid honom att slå Paulus"
+      },
+      {
+        "location": "Article, paragraph 7",
+        "severity": "major",
+        "source_quote": "Many of the plain community tend to distrust the government’s way of handling the situation.",
+        "suggested_fix": "Replace “de traditionella samfunden” with a contextually accurate rendering of “the plain community,” consistent with the other occurrences.",
+        "translation_quote": "Många i de traditionella samfunden tenderar att misstro hur staten hanterar situationen."
+      },
+      {
+        "location": "Article, paragraph 9",
+        "severity": "critical",
+        "source_quote": "The Apostle Peter said that <em>…God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.</em>",
+        "suggested_fix": "Preserve the source’s attribution to Peter and translate the quoted wording faithfully. For example: “Aposteln Petrus sade att <em>…Gud har inte gett oss en fruktans ande, utan kraftens, kärlekens och ett sunt sinnes ande –2 Timoteusbrevet 1:7.</em>” The current Swedish quote changes “fear” to “modlöshet” and omits the “sound mind” distinction.",
+        "translation_quote": "Aposteln Petrus sade att <em>…Gud har inte gett oss modlöshetens ande, utan kraftens, kärlekens och självbehärskningens ande –2 Timoteusbrevet 1:7.</em>"
+      },
+      {
+        "location": "Article, paragraph 10",
+        "severity": "major",
+        "source_quote": "The unity within our groups is being challenged in ways it has not been before.",
+        "suggested_fix": "Replace “våra grupper” with a contextually accurate translation of “our plain communities,” such as “våra mennonitiska/amishiska gemenskaper,” as appropriate to the publication’s terminology.",
+        "translation_quote": "Enheten inom våra grupper prövas på sätt som den inte har prövats tidigare."
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

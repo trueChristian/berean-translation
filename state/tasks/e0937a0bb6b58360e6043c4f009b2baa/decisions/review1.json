@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "लूका 23:31 का उद्धरण",
+      "severity": "major",
+      "source_quote": "For if they do these things in a green tree, what shall be done in the dry?",
+      "suggested_fix": "क्योंकि यदि वे हरे पेड़ के साथ ऐसा करते हैं, तो सूखे पेड़ के साथ क्या न करेंगे? –लूका 23:31।",
+      "translation_quote": "क्योंकि जब वे हरे पेड़ के साथ ऐसा करते हैं, तो सूखे के साथ क्या न होगा? –लूका 23:31।"
+    },
+    {
+      "location": "अंतिम अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "There is a very rewarding feeling, a feeling of peace that passes all understanding.",
+      "suggested_fix": "इससे बहुत संतोष मिलता है—ऐसी शांति का एहसास जो सारी समझ से परे है।",
+      "translation_quote": "इससे बहुत प्रतिफल मिलता है, ऐसा शांति का एहसास जो सारी समझ से परे है।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

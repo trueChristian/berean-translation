@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, shairi, ubeti wa 6\",\"severity\":\"major\",\"source_quote\":\"Ten thousand angels, He could have summoned south,\",\"suggested_fix\":\"Tafsiri mstari huu bila kuongeza mwelekeo wa kijiografia: “Angeweza kuita malaika elfu kumi,”\",\"translation_quote\":\"Angeliweza kuwaita malaika elfu kumi kutoka kusini,\"},{\"location\":\"HTML, shairi, ubeti wa 9\",\"severity\":\"major\",\"source_quote\":\"Because He treasured us, an atonement for our sin / He made when He bled and died there to make us His kin!\",\"suggested_fix\":\"Hifadhi maana kwamba alifanya upatanisho kwa ajili ya dhambi zetu alipomwaga damu na kufa, ili kutufanya kuwa jamaa zake. Kwa mfano: “Kwa sababu alitutunza, alifanya upatanisho kwa ajili ya dhambi zetu / Alipomwaga damu na kufa pale, ili atufanye kuwa jamaa zake!”\",\"translation_quote\":\"Kwa sababu alituthamini, alifanya upatanisho kwa ajili ya dhambi zetu / Alipovuja damu na kufa pale ili atufanye kuwa jamaa zake!\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 980,
+    "content_evidence_truncated": false,
+    "content_sha256": "f57a52fdedca08b8f30ca49029adefd5b076268de91496485fdaeb084b4f657a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 282,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1943,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1940,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2225
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

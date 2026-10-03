@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, avsnitt 3\",\"severity\":\"major\",\"source_quote\":\"The word honour, as used in 1 Peter 2, in reference to the king, means to “prize” or to “fix valuation upon.”\",\"suggested_fix\":\"Erstatt med: «Ordet «ære», slik det brukes i 1. Peter 2 med henvisning til kongen, betyr å «sette høyt» eller «fastsette en verdi på».»\",\"translation_quote\":\"Ordet «ære», slik det brukes i 1. Peter 2 med henvisning til kongen, betyr å «sette pris på» eller «fastsette en verdi på».\"},{\"location\":\"HTML, avsnitt 4\",\"severity\":\"major\",\"source_quote\":\"we as the plain community\",\"suggested_fix\":\"Erstatt «vi som mennonittiske lokalsamfunn» med «vi i de enkle kristne miljøene» (eller en annen formulering som ikke tillegger kilden en bestemt mennonittisk identitet).\",\"translation_quote\":\"vi som mennonittiske lokalsamfunn\"},{\"location\":\"HTML, avsnitt 7\",\"severity\":\"major\",\"source_quote\":\"there have been numerous deaths that were not directly connected to Covid–19; however, it was reported that Covid–19 was marked on the death certificate as being the cause of these deaths.\",\"suggested_fix\":\"Erstatt setningen med: «Det har vært mange dødsfall som ikke var direkte knyttet til covid-19; likevel ble det meldt at covid-19 var ført opp på dødsattesten som en medvirkende årsak til disse dødsfallene.»\",\"translation_quote\":\"Det har vært mange dødsfall som ikke var direkte knyttet til covid-19; likevel ble det meldt at covid-19 var ført opp som dødsårsak på dødsattesten.\"},{\"location\":\"HTML, avsnitt 9\",\"severity\":\"major\",\"source_quote\":\"The Apostle Peter said that <em>…God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.</em>\",\"suggested_fix\":\"Erstatt med: «Apostelen Paulus sa at <em>…Gud har ikke gitt oss en ånd som gjør motløs, men en Ånd som gir kraft, kjærlighet og sindighet –2. Timoteus 1:7.</em>» Kilden tilskriver sitatet Paulus, ikke Peter.\",\"translation_quote\":\"Apostelen Peter sa at <em>…Gud har ikke gitt oss fryktens ånd, men kraftens, kjærlighetens og sindighetens ånd –2. Timoteus 1:7.</em>\"},{\"location\":\"HTML, avsnitt 9\",\"severity\":\"major\",\"source_quote\":\"whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report\",\"suggested_fix\":\"Rett sitatets betydning slik at «honest» gjengis som «hederlige», og «of good report» som «rosverdige» eller «som det står godt om»; behold referansen Filipperne 4:8.\",\"translation_quote\":\"alt som er sant, alt som er edelt, alt som er rett, alt som er rent, alt som er verdt å elske, alt som er verdt å aktes\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 2764,
+    "content_evidence_truncated": false,
+    "content_sha256": "c13a316b78a22f31b9fba4dc69e6079112f39d8c6e42798396acabe895f36684",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5158,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5155,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5910
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

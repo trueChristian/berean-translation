@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Relationship with God, paragraph beginning “How does a parent lead his child to salvation?”",
+      "severity": "major",
+      "source_quote": "Be aware of evidence of conviction.",
+      "suggested_fix": "Replace «ενδείξεις ελέγχου της συνείδησης» with «ενδείξεις πνευματικής πεποίθησης» so the phrase refers to spiritual conviction, not control of conscience.",
+      "translation_quote": "Να είστε σε εγρήγορση για ενδείξεις ελέγχου της συνείδησης."
+    },
+    {
+      "location": "Relationship with God, paragraph beginning “Hopefully, you have nurtured a relationship…”",
+      "severity": "major",
+      "source_quote": "We recognized signs of conviction",
+      "suggested_fix": "Replace «σημάδια ελέγχου της συνείδησης» with «σημάδια πνευματικής πεποίθησης» to preserve the source’s meaning.",
+      "translation_quote": "Αναγνωρίσαμε σημάδια ελέγχου της συνείδησης"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “A heart that has not been made new…”",
+      "severity": "major",
+      "source_quote": "It is no wonder that many churches of today are accepting drift.",
+      "suggested_fix": "Replace “Geen wonder dat veel kerken tegenwoordig afdwalen.” with “Geen wonder dat veel kerken tegenwoordig afdwaling tolereren.”",
+      "translation_quote": "Geen wonder dat veel kerken tegenwoordig afdwalen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

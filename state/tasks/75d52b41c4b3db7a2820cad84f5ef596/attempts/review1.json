@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문 첫 문단\",\"severity\":\"minor\",\"source_quote\":\"Ramona and three of her sisters would pack onto Tony’s back\",\"suggested_fix\":\"라모나와 자매 셋이 토니 등에 다 같이 올라타고\",\"translation_quote\":\"라모나와 언니들 셋이 토니 등에 다 같이 올라타고\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 343,
+    "content_evidence_truncated": false,
+    "content_sha256": "2183e076cde1d4f40499499bd1e7c82a14a863315e014f4e8eb5ffc3cf3e778c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 678,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4289,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4286,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5072
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

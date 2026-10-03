@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"פסקה המתחילה „בסוף השבוע הראשון ניכרו אצל ג'דסון סימני שיפור”\",\"severity\":\"major\",\"source_quote\":\"“he would offer Sterling and I each one of his little paddies to hold while he ate”\",\"suggested_fix\":\"החליפו את „אחת מהחבטות הקטנות שלו” בתיאור של כפות הידיים שלו, למשל: „היה נותן לסטרלינג ולי להחזיק כל אחד באחת מכפות ידיו הקטנות בזמן שאכל”.\" ,\"translation_quote\":\"„היה נותן לכל אחד מאיתנו, לסטרלינג ולי, אחת מהחבטות הקטנות שלו להחזיק בזמן שאכל”\"},{\"location\":\"פסקה המתחילה „״אני מרגיש שזו הייתה התגלות דמונית״”\",\"severity\":\"minor\",\"source_quote\":\"“I sense it was a demoniac display”\",\"suggested_fix\":\"החליפו את „התגלות דמונית” ב„ביטוי דמוני” או „התגלמות דמונית” כדי לשמר את משמעות display כביטוי או הופעה, ולא כגילוי.\" ,\"translation_quote\":\"„אני מרגיש שזו הייתה התגלות דמונית”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1247,
+    "content_evidence_truncated": false,
+    "content_sha256": "f30568ce377066080246fb5e80e0f48392e5e30732eaa91ff7b2aae234564ffd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1039,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 732,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15441,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16483
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

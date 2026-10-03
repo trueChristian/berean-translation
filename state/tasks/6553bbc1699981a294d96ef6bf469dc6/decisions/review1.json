@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "“Men’s hearts failing them for fear of things that are coming on the earth.”",
+      "suggested_fix": "अर्थ को इस रूप में ठीक करें: “पृथ्वी पर आनेवाली बातों के डर से लोगों के हृदय बैठ जाएँगे।”",
+      "translation_quote": "“पृथ्वी पर आनेवाली घटनाओं के डर से लोगों के जी में जी न रहेगा।”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "critical",
+      "source_quote": "“The Apostle Peter said that …God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.”",
+      "suggested_fix": "कथन का श्रेय पौलुस को दें, पतरस को नहीं। उदाहरण: “प्रेरित पौलुस ने कहा कि …” बाकी उद्धरण और संदर्भ यथावत रखें।",
+      "translation_quote": "“प्रेरित पतरस ने कहा कि …परमेश्वर ने हमें भय की आत्मा नहीं, पर सामर्थ्य, प्रेम और संयम की आत्मा दी है –2 तीमुथियुस 1:7.”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“To spend even a little time following these theories will have a negative and spiritually draining effect on our lives and the lives around us.”",
+      "suggested_fix": "“इन सिद्धांतों का अनुसरण करने में थोड़ा-सा समय भी बिताने से हमारे और हमारे आसपास के लोगों के जीवन पर नकारात्मक तथा आत्मिक रूप से थका देने वाला असर पड़ेगा।”",
+      "translation_quote": "“इन सिद्धांतों पर थोड़ा-सा समय भी लगाने से हमारे जीवन और हमारे आसपास के लोगों के जीवन पर नकारात्मक तथा आत्मिक रूप से थका देने वाला असर पड़ेगा।”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“As Christians we try to be a peaceful and trusting people, yet this tends to make us vulnerable to be quite gullible.”",
+      "suggested_fix": "“मसीही होने के नाते हम शांतिप्रिय और भरोसा करने वाले लोग बनने की कोशिश करते हैं, फिर भी इस वजह से हम आसानी से किसी भी बात पर विश्वास कर बैठते हैं।”",
+      "translation_quote": "“मसीही होने के नाते हम शांतिप्रिय और भरोसा करने वाले लोग बनने की कोशिश करते हैं, फिर भी इसके कारण हम आसानी से किसी भी बात पर विश्वास कर बैठते हैं।”"
+    },
+    {
+      "location": "Section",
+      "severity": "minor",
+      "source_quote": "MODERN-DAY PERILS",
+      "suggested_fix": "शीर्षक को समकालीन मानक हिंदी में लिखें, जैसे “आज के समय के ख़तरे”।",
+      "translation_quote": "आज के ख़तरे"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

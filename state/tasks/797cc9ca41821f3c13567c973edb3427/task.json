@@ -2,7 +2,6 @@
   "article_id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 4747
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 136,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4606,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4603,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4742
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, fourth paragraph",
+      "severity": "major",
+      "source_quote": "The Old Testament was written by prophets and leaders who correctly predicted future events and ruled nations.",
+      "suggested_fix": "عہدِ عتیق انبیاؤں اور رہنماؤں نے لکھا، جنہوں نے آنے والے واقعات کی درست پیش گوئی کی اور قوموں پر حکومت کی۔",
+      "translation_quote": "عہدِ عتیق انبیاؤں اور رہنماؤں نے لکھا، جنہوں نے آنے والے واقعات کی درست پیش گوئی کی اور قوموں پر حکومت کی۔"
+    }
+  ],
   "id": "797cc9ca41821f3c13567c973edb3427",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "urd",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"

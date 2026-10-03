@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cc11cf6e-efd1-46f7-8cad-7b0d61a411de",
+    "response_id": "chatcmpl-EUzAUFG2YdNShQcvWUUJfQkbUx1ch",
+    "usage": {
+      "completion_tokens": 765,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 621,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5195
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "অনুচ্ছেদ ৯, শাস্তির তুলনা",
+        "severity": "major",
+        "source_quote": "“Ramona would have preferred a spanking instead of needing to go to bed early”",
+        "suggested_fix": "“তাড়াতাড়ি বিছানায় যাওয়ার বদলে রামোনা বরং চড় খাওয়াই পছন্দ করত”",
+        "translation_quote": "“তাড়াতাড়ি বিছানায় যাওয়ার বদলে রামোনা বরং বেত্রাঘাতই পছন্দ করত”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 8990
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 698,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8822,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8819,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9520
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article paragraph beginning «Et hjerte som ikke er blitt gjort nytt …»",
+      "severity": "major",
+      "source_quote": "It is no wonder that many churches of today are accepting drift.",
+      "suggested_fix": "Replace «godtar frafall» with «aksepterer at folk driver bort» (or another wording that conveys tolerating spiritual drift, rather than accepting apostasy).",
+      "translation_quote": "Det er ikke rart at så mange kirker i dag godtar frafall."
+    },
+    {
+      "location": "Article paragraph beginning «Folk har sagt til meg …»; quotation from 1 Peter 2:2",
+      "severity": "major",
+      "source_quote": "…desire the sincere milk of the word, that ye may grow thereby: –1 Peter 2:2.",
+      "suggested_fix": "Correct the translated quotation to preserve the source’s meaning, for example: «…lengte etter melk, den rene åndelige melk, så dere kan vokse ved den. –1. Peter 2:2.»",
+      "translation_quote": "…lengte etter den rene melk, så dere kan vokse ved den. –1. Peter 2:2."
+    },
+    {
+      "location": "Article paragraph beginning «Når noen kommer og sier …»",
+      "severity": "major",
+      "source_quote": "Some see it as God’s Word and soak it in.",
+      "suggested_fix": "Replace «ser at dette er Guds Ord og tar det til seg» with wording that means they recognize it as God’s Word and absorb it, e.g. «Noen ser at dette er Guds Ord og suger det til seg.»",
+      "translation_quote": "Noen ser at dette er Guds Ord og tar det til seg."
+    },
+    {
+      "location": "Article paragraph beginning «Gud vil at vi skal sette all vår lit …»",
+      "severity": "major",
+      "source_quote": "We walk by faith, NOT by sight… even when things are going well.",
+      "suggested_fix": "Replace «Vi vandrer i tro, IKKE i det synlige» with «Vi vandrer i tro, IKKE ved det vi ser» to preserve the contrast with sight.",
+      "translation_quote": "Vi vandrer i tro, IKKE i det synlige … selv når alt går bra."
+    },
+    {
+      "location": "Article paragraph beginning «Bibelens sier at» (Åndens frukt)",
+      "severity": "major",
+      "source_quote": "…faith, meekness, temperance… –Galatians 5:22-23.",
+      "suggested_fix": "Translate «faith» here as «tro», not «trofasthet», and retain all the listed qualities; for example, change «trofasthet» to «tro».",
+      "translation_quote": "…godhet, trofasthet, ydmykhet og selvbeherskelse … –Galaterne 5:22–23."
+    },
+    {
+      "location": "Article paragraph beginning «Bibelens sier at» (Åndens frukt)",
+      "severity": "major",
+      "source_quote": "Are these the things that people see when they look at you and I?",
+      "suggested_fix": "Change «Er dette det folk ser når de ser på deg og meg?» to «Er dette det folk ser når de ser på deg og meg?» The source’s intended meaning is already conveyed; no correction needed.",
+      "translation_quote": "Er dette det folk ser når de ser på deg og meg?"
+    }
+  ],
   "id": "0723318ed0ea8a868cd7c190c6f65a6e",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

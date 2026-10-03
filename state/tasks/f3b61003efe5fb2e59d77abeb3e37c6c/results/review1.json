@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c36384ba-add7-4c71-8b59-ac85de212658",
+    "response_id": "chatcmpl-EUz8z75p1uYmnCF7gI0HN6Wb69sBC",
+    "usage": {
+      "completion_tokens": 869,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 618,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8773,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8770,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9642
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “People have told me…”; quoted reference Luke 2:52",
+        "severity": "major",
+        "source_quote": "“…in wisdom and stature, and in favour with God and man –Luke 2:52.”",
+        "suggested_fix": "Ganti kutipan di dalam tag <em> menjadi: “…dalam hikmat dan perawakan, serta dalam perkenanan Allah dan manusia –Lukas 2:52.”",
+        "translation_quote": "“…dalam hikmat dan pertumbuhan, serta dalam kasih Allah dan manusia –Lukas 2:52.”"
+      },
+      {
+        "location": "HTML paragraph beginning “A heart that has not been made new…”",
+        "severity": "major",
+        "source_quote": "“It is no wonder that many churches of today are accepting drift.”",
+        "suggested_fix": "Ganti “menerima kemerosotan” dengan “menerima penyimpangan” agar makna drift tetap merujuk pada penyimpangan, bukan sekadar kemunduran.",
+        "translation_quote": "“Tidak heran jika banyak gereja masa kini menerima kemerosotan.”"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

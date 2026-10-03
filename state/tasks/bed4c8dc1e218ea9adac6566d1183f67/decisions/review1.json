@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “El conocimiento de la naturaleza…”",
+      "severity": "major",
+      "source_quote": "“animals produce after their own kind” and “all animals exist within the Biblical framework of their own kind”",
+      "suggested_fix": "Replace “especie” in these claims with a rendering that preserves the author’s distinct category of “kind,” for example: “los animales se reproducen según su tipo” and “todos los animales existen dentro del marco bíblico de su propio tipo.” Keep the HTML structure unchanged.",
+      "translation_quote": "“los animales se reproducen según su especie” and “todos los animales existen dentro del marco bíblico de su propia especie”"
+    },
+    {
+      "location": "HTML, paragraph beginning “En algunas conversaciones sobre la fe…”, Scripture quotation and its attribution",
+      "severity": "major",
+      "source_quote": "“Have you believed because you have seen me? Blessed are those who have not seen and yet have believed –John 20:29. (ESV)”",
+      "suggested_fix": "Keep the Spanish quotation as a faithful translation, but change “(RVC)” to “(ESV)” so the attribution identifies the source version rather than a different Spanish Bible version.",
+      "translation_quote": "“¿Porque me has visto has creído? Dichosos los que no han visto y sin embargo han creído. –Juan 20:29. (RVC)”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

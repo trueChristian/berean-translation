@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Gesù dice alcuni versetti prima…”\",\"severity\":\"major\",\"source_quote\":\"Jesus says a few verses earlier that we will know each other by our fruits.\",\"suggested_fix\":\"Replace “riconosceremo gli uni gli altri dai nostri frutti” with “li riconosceremo dai loro frutti” to preserve the source’s meaning: recognizing people by their fruits.\",\"translation_quote\":\"Gesù dice alcuni versetti prima che riconosceremo gli uni gli altri dai nostri frutti.\"},{\"location\":\"Paragraph beginning “Il desiderio di servire Gesù.”\",\"severity\":\"major\",\"source_quote\":\"Should the church need to force its people to be modest? Should the church need to force its people to be Christ-like?\",\"suggested_fix\":\"Replace “La chiesa dovrebbe essere costretta a imporre la modestia ai suoi membri? Dovrebbe essere costretta a imporre loro di essere simili a Cristo?” with “La chiesa dovrebbe aver bisogno di costringere i suoi membri a vestirsi con modestia? Dovrebbe aver bisogno di costringerli a essere simili a Cristo?”\",\"translation_quote\":\"La chiesa dovrebbe essere costretta a imporre la modestia ai suoi membri? Dovrebbe essere costretta a imporre loro di essere simili a Cristo?\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1263,
+    "content_evidence_truncated": false,
+    "content_sha256": "293e70e3feb11008a6a671a40d3e5315105465c4726d6dbb87f42ec5d243f6e5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8830,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9625
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, first stanza, second line",
+      "severity": "major",
+      "source_quote": "It was from the beginning that His will He would yield.",
+      "suggested_fix": "Van die begin af was Hy bereid om Sy wil te onderwerp.",
+      "translation_quote": "Van die begin af was Hy bereid om Sy wil te laat geld."
+    },
+    {
+      "location": "HTML, poem, fourth stanza, second line",
+      "severity": "minor",
+      "source_quote": "With the trifles of earth, He would not bother.",
+      "suggested_fix": "Met die nietighede van die aarde sou Hy Hom nie bemoei nie.",
+      "translation_quote": "Met die nietighede van die aarde sou Hy Hom nie ophou plaag."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning «En Lucas 21»",
+      "severity": "major",
+      "source_quote": "“Men’s hearts failing them for fear of things that are coming on the earth.”",
+      "suggested_fix": "Replace only the quoted wording with «Desfalleciendo los hombres por el temor de las cosas que sobrevendrán en la tierra»; this preserves the source quote without adding «expectación».",
+      "translation_quote": "«Desfalleciendo los hombres por el temor y la expectación de las cosas que sobrevendrán en la tierra»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

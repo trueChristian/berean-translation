@@ -2,7 +2,6 @@
   "article_id": "97d8ed1e-7d4a-471d-8508-727664288d74",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 4195
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 288,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4054,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4051,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4342
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, first paragraph",
+      "severity": "major",
+      "source_quote": "“Her family had two horses and a pony. How fun those evenings were when they would hitch their pony, Tony, to the cart, and the whole family would take turns riding.”",
+      "suggested_fix": "Replace «hele familien byttet på å kjøre» with «hele familien byttet på å ri» so it is clear that family members took turns riding the pony, not driving the cart.",
+      "translation_quote": "«Familien hennes hadde to hester og en ponni. Så morsomme de kveldene var når de spente ponnien Tony for vognen, og hele familien byttet på å kjøre.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Før han la henne»",
+      "severity": "major",
+      "source_quote": "“Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.”",
+      "suggested_fix": "Change the translated quotation to «Stolthet går forut for ødeleggelse, og en hovmodig ånd før fall – Ordspråkene 16:18.» Preserve the existing emphasis and reference number.",
+      "translation_quote": "«Stolthet kommer før undergang, og hovmod før fall – Ordspråkene 16:18.»"
+    }
+  ],
   "id": "e538a01b9940c83388854d5b8582445d",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a3afe3193f88de971053d6bc9f8f2b47e5b930a326842e12fe0e764e30c7a8db.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "অনুচ্ছেদ ৯, শাস্তির তুলনা",
+      "severity": "major",
+      "source_quote": "“Ramona would have preferred a spanking instead of needing to go to bed early”",
+      "suggested_fix": "“তাড়াতাড়ি বিছানায় যাওয়ার বদলে রামোনা বরং চড় খাওয়াই পছন্দ করত”",
+      "translation_quote": "“তাড়াতাড়ি বিছানায় যাওয়ার বদলে রামোনা বরং বেত্রাঘাতই পছন্দ করত”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

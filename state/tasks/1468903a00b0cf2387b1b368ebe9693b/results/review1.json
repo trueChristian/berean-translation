@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "eec342b3-540b-4a43-af2b-4cd1bbcf920c",
+    "response_id": "chatcmpl-EUz9h9wMC89HlmmH9VCVTJQK1x6lI",
+    "usage": {
+      "completion_tokens": 1127,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5900,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7030
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Статья, абзац о предназначении музыки",
+        "severity": "major",
+        "source_quote": "The primary purpose of music is to worship (the expression of reverence and adoration to something or someone).",
+        "suggested_fix": "Заменить «Главное предназначение музыки — поклонение (выражение почтения и благоговения перед чем-либо или кем-либо)» на «Главное предназначение музыки — поклонение (выражение почтения и обожания по отношению к чему-либо или кому-либо)».",
+        "translation_quote": "Главное предназначение музыки — поклонение (выражение почтения и благоговения перед чем-либо или кем-либо)."
+      },
+      {
+        "location": "Статья, абзац о Послании к Филиппийцам 4:8",
+        "severity": "major",
+        "source_quote": "… whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things –Philippians 4:8.",
+        "suggested_fix": "Перевести цитату с сохранением всех названных качеств и точной ссылки; например: «…всё истинное, честное, справедливое, чистое, любезное, достойное доброй славы; если есть какая добродетель и если есть что достойное похвалы, о том помышляйте — Филиппийцам 4:8».",
+        "translation_quote": "том, что истинно, честно, справедливо, чисто, любезно, достойно похвалы, что добродетель и похвала, — о том помышляйте. –К Филиппийцам 4:8."
+      },
+      {
+        "location": "Статья, абзац об инструментальном сопровождении в ранней церкви",
+        "severity": "major",
+        "source_quote": "The early church developed the tradition of A cappella singing from the Hebrews’ Jewish tradition, chanting psalms, or other scriptures and using a cantor as a leader.",
+        "suggested_fix": "Исправить фразу так, чтобы ранняя церковь развила традицию пения а капелла из еврейской традиции, а не просто переняла её: «Ранняя церковь развила традицию пения а капелла на основе еврейской традиции: распевали псалмы и другие тексты Писания, а руководил пением кантор».",
+        "translation_quote": "Ранняя церковь переняла традицию пения а капелла из еврейской традиции, распевая псалмы и другие тексты Писания, а во главе пения ставя кантора."
+      },
+      {
+        "location": "Статья, абзац о Послании к Ефесянам 5:19",
+        "severity": "major",
+        "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord; –Ephesians 5:19.",
+        "suggested_fix": "Перевести цитату как обращённую друг к другу речь в псалмах, гимнах и духовных песнях, сохранив пение и мелодию в сердце Господу и ссылку Ефесянам 5:19; например: «Говоря друг другу псалмами, гимнами и духовными песнями, пойте и воспевайте в сердце Господу — Ефесянам 5:19».",
+        "translation_quote": "разговаривая между собою псалмами и славословиями и песнопениями духовными, поя и воспевая в сердцах ваших Господу; –К Ефесянам 5:19."
+      },
+      {
+        "location": "Статья, абзац о Послании к Колоссянам 3:16",
+        "severity": "major",
+        "source_quote": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord –Colossians 3:16.",
+        "suggested_fix": "В цитате заменить «славословием» на «гимнами», сохранив различие между hymns и spiritual songs и остальной смысл: «…научайте и вразумляйте друг друга псалмами, гимнами и духовными песнями, с благодарностью воспевая в сердцах ваших Господу — Колоссянам 3:16».",
+        "translation_quote": "слово Христово да вселяется в вас обильно, со всякою премудростью; научайте и вразумляйте друг друга псалмами, славословием и духовными песнями, во благодати воспевая в сердцах ваших Господу. –К Колоссянам 3:16."
+      },
+      {
+        "location": "Заголовок",
+        "severity": "minor",
+        "source_quote": "What Is Right About My Music?",
+        "suggested_fix": "Для более точной передачи вопроса о том, что правильно в выборе музыки, заменить заголовок на «Что правильно в музыке, которую я слушаю?»",
+        "translation_quote": "Что хорошего в музыке, которую я слушаю?"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

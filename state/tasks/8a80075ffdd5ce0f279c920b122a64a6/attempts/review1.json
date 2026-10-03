@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraf tentang jemaat Yahudi Ortodoks dan Konservatif\",\"severity\":\"major\",\"source_quote\":\"“a cantor to chant or sing an authoritative text from the scriptures”\",\"suggested_fix\":\"Ganti “seorang kantur untuk melantunkan atau menyanyikan teks berwibawa dari kitab suci” dengan “seorang pemimpin nyanyian untuk melantunkan atau menyanyikan teks otoritatif dari kitab suci” agar tidak keliru menyebut cantor sebagai kantur (pembantu gereja).\",\"translation_quote\":\"“seorang kantur untuk melantunkan atau menyanyikan teks berwibawa dari kitab suci”\"},{\"location\":\"HTML, paragraf tentang nyanyian Paulus dan Silas\",\"severity\":\"major\",\"source_quote\":\"“they were in stocks”\",\"suggested_fix\":\"Ganti “terbelenggu” dengan “dipasung” atau “terpasung” agar mempertahankan keterangan bahwa mereka berada dalam pasungan.\",\"translation_quote\":\"“terbelenggu”\"},{\"location\":\"HTML, paragraf tentang musik Renaisans dan akustik kapel\",\"severity\":\"minor\",\"source_quote\":\"“had a particularly ethereal effect”\",\"suggested_fix\":\"Pertimbangkan “menghasilkan kesan yang sangat ethereal/transenden” sebagai pengganti “menghasilkan kesan yang sangat halus dan surgawi”; terjemahan saat ini menambahkan kesan “surgawi” yang tidak dinyatakan secara eksplisit.\",\"translation_quote\":\"“menghasilkan kesan yang sangat halus dan surgawi”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1420,
+    "content_evidence_truncated": false,
+    "content_sha256": "3080e541b6de0c4bf8d6a7713edde8fb3d4024f99747326b2152d1ecf10ad0f5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 349,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5920,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5917,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6269
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

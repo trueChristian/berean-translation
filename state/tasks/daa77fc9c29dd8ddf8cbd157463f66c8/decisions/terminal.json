@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph discussing politicized issues",
+      "severity": "minor",
+      "source_quote": "race inequality",
+      "suggested_fix": "Replace “rassistische Ungleichheit” with “Ungleichheit zwischen den ethnischen Gruppen” to convey inequality between racial groups rather than inequality characterized as racist.",
+      "translation_quote": "rassistische Ungleichheit"
+    },
+    {
+      "location": "HTML ordered list, item 1",
+      "severity": "minor",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "For a clear German rendering of the printed wording, replace “Das entspricht seiner Tatsache” with “Das entspricht seiner Tatsache, nicht unserem Gefühl” only if the source wording is intentional; otherwise clarify with the editor, since “fact” is unusual in this context and should not be silently changed to “faith.”",
+      "translation_quote": "Das entspricht seiner Tatsache, nicht unserem Gefühl."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

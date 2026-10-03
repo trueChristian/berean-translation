@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "الاقتباس الكتابي في بداية المقال",
+      "severity": "major",
+      "source_quote": "that our daughters may be as corner stones, polished after the similitude of a palace",
+      "suggested_fix": "استبدل «أعمدة الزوايا» بـ«حجارة الزوايا» ليبقى التشبيه بحجارة الزوايا، لا بالأعمدة.",
+      "translation_quote": "وبناتنا مثل أعمدة الزوايا المنحوتة على مثال بناء قصر"
+    },
+    {
+      "location": "الفقرة التي تبدأ «تُعد السنوات الأولى من المراهقة...»",
+      "severity": "major",
+      "source_quote": "A life of dedicated service to God is the only life of blessing and fulfilment.",
+      "suggested_fix": "استبدل «البركة والوفاء» بـ«البركة والإشباع» أو «البركة والتحقق» لنقل معنى fulfilment هنا.",
+      "translation_quote": "إن الحياة المكرسة لخدمة الله هي الحياة الوحيدة التي تحمل البركة والوفاء."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

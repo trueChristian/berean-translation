@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "正文，关于教会要求成员端庄穿着的段落",
+      "severity": "major",
+      "source_quote": "the church soon gives in and no longer requires their people to dress and live modestly.",
+      "suggested_fix": "将“教会很快就会让步，不再要求成员穿着端庄、生活端庄”改为“教会很快就会让步，不再要求成员穿着端庄、过端庄的生活”，以准确表达穿着与生活都要端庄。",
+      "translation_quote": "教会很快就会让步，不再要求成员穿着端庄、生活端庄。"
+    },
+    {
+      "location": "正文，讲述一千年前被囚禁的人的段落",
+      "severity": "major",
+      "source_quote": "He’s claustrophobic, weary, and worn.",
+      "suggested_fix": "将“他幽闭恐惧，疲惫不堪，身心俱损”改为“他患有幽闭恐惧症，疲惫不堪，身心交瘁”或其他能表达幽闭恐惧的说法。",
+      "translation_quote": "他幽闭恐惧，疲惫不堪，身心俱损。"
+    },
+    {
+      "location": "正文，宣教士讲述教会崇拜的段落",
+      "severity": "major",
+      "source_quote": "The service began and I realized quickly that this was not a good place for my family, so I took them home and returned by myself.",
+      "suggested_fix": "将“聚会开始后，我很快意识到这里不适合我的家人，于是送他们回家，自己再回来”改为明确表达作者把家人带回家后，自己返回教会。",
+      "translation_quote": "聚会开始后，我很快意识到这里不适合我的家人，于是送他们回家，自己再回来。"
+    },
+    {
+      "location": "正文，关于教会只凭基督徒自称来判断的段落",
+      "severity": "major",
+      "source_quote": "For Christians we are expected to judge by what they claim.",
+      "suggested_fix": "将“对于基督徒，我们却被期待只凭他们的自称来判断”改为“对于基督徒，我们却被要求只凭他们的自称来判断”，以清楚表达社会对人们的期待。",
+      "translation_quote": "对于基督徒，我们却被期待只凭他们的自称来判断。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

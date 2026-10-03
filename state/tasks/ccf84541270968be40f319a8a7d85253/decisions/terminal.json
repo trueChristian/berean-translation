@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraphs 2, 4, and 7",
+      "severity": "minor",
+      "source_quote": "“our plain communities”; “the plain community”",
+      "suggested_fix": "Replace “comunidades plain” / “comunidade plain” with a clear Portuguese rendering such as “comunidades anabatistas de tradição simples” / “comunidade anabatista de tradição simples”, consistently throughout.",
+      "translation_quote": "“nossas comunidades plain”; “comunidade plain”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “How does a parent lead his child to salvation?”\",\"severity\":\"major\",\"source_quote\":\"Be aware of evidence of conviction.\",\"suggested_fix\":\"Replace “दोष-बोध के संकेतों के प्रति सजग रहें।” with “पाप-बोध के संकेतों के प्रति सजग रहें।”\",\"translation_quote\":\"दोष-बोध के संकेतों के प्रति सजग रहें।\"},{\"location\":\"source.html, paragraph beginning “Hopefully, you have nurtured a relationship…”\",\"severity\":\"major\",\"source_quote\":\"We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.\",\"suggested_fix\":\"Replace “हमने दोष-बोध के चिह्न पहचाने” with “हमने पाप-बोध के चिह्न पहचाने।”\",\"translation_quote\":\"हमने दोष-बोध के चिह्न पहचाने\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1129,
+    "content_evidence_truncated": false,
+    "content_sha256": "9198bc03ab253163256c1268f46519bffea1ff4ecf50f5960309a43e97a68386",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 205,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8826,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9034
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

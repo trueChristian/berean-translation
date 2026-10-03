@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html, opening lead paragraph",
+      "severity": "minor",
+      "source_quote": "“grow into mature adulthood”",
+      "suggested_fix": "Replace “גדלים והופכים למבוגרים בוגרים” with “גדלים ומגיעים לבגרות” to avoid the redundant phrasing.",
+      "translation_quote": "“גדלים והופכים למבוגרים בוגרים”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

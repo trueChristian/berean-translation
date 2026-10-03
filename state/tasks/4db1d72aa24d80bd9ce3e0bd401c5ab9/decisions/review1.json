@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraaf die begint met ‘Sterling was verbijsterd…’",
+      "severity": "major",
+      "source_quote": "“Instead of restraining him, demanding surrender to our desires, we agreed to use repeated small switches to reprimand his willfulness.”",
+      "suggested_fix": "Vervang ‘besloten we hem met herhaalde lichte tikken terecht te wijzen wanneer hij zijn zin doordreef’ door een vertaling die het gebruik van kleine stokjes of twijgen om zijn eigenzinnigheid te bestraffen behoudt, bijvoorbeeld: ‘besloten we hem herhaaldelijk met kleine rottinkjes te bestraffen wanneer hij zijn zin doordreef.’",
+      "translation_quote": "“In plaats van hem in bedwang te houden en te eisen dat hij zich aan onze wensen onderwierp, besloten we hem met herhaalde lichte tikken terecht te wijzen wanneer hij zijn zin doordreef.”"
+    },
+    {
+      "location": "Paragraaf die begint met ‘Die week was zwaar.’",
+      "severity": "major",
+      "source_quote": "“I prayed and switched.”",
+      "suggested_fix": "Vertaal ‘switched’ als het slaan met een stokje of twijg, bijvoorbeeld: ‘Ik bad en sloeg hem met een stokje.’",
+      "translation_quote": "“Ik bad en gaf hem tikken.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

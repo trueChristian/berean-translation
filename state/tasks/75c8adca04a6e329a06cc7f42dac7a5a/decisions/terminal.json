@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Little Ramona’s Pride",
+      "suggested_fix": "Гордость маленькой Рамоны",
+      "translation_quote": "Гордая маленькая Рамона"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

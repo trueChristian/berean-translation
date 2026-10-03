@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf “Ketundukan Mengaktifkan Kuasa,” kutipan Roma 13:5",
+      "severity": "major",
+      "source_quote": "“Wherefore ye must needs be subject, not only for wrath, but also for conscience sake”",
+      "suggested_fix": "Ubah “bukan hanya karena murka Allah” menjadi “bukan hanya karena murka” agar tidak menambahkan atribusi yang tidak ada dalam kutipan sumber.",
+      "translation_quote": "“Itulah sebabnya kamu harus takluk, bukan hanya karena murka Allah, tetapi juga karena suara hati”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “In Luke 21”\",\"severity\":\"major\",\"source_quote\":\"“Men’s hearts failing them for fear of things that are coming on the earth.”\",\"suggested_fix\":\"将引文改为：“人们因惧怕那将要临到地上的事，心里惊惶。”\",\"translation_quote\":\"“人因等待那将要临到世界的事，就吓得魂不附体。”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 422,
+    "content_evidence_truncated": false,
+    "content_sha256": "77c3d53e912c9cfa9dabf0a692b8c7be00f7376b3ae21e8a866f9e387e4c1515",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 410,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 287,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4862,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4859,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5272
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

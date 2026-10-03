@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Relationship with God, paragraph beginning “How does a parent lead his child to salvation?”\",\"severity\":\"major\",\"source_quote\":\"Be aware of evidence of conviction.\",\"suggested_fix\":\"Replace «ενδείξεις ελέγχου της συνείδησης» with «ενδείξεις πνευματικής πεποίθησης» so the phrase refers to spiritual conviction, not control of conscience.\",\"translation_quote\":\"Να είστε σε εγρήγορση για ενδείξεις ελέγχου της συνείδησης.\"},{\"location\":\"Relationship with God, paragraph beginning “Hopefully, you have nurtured a relationship…”\",\"severity\":\"major\",\"source_quote\":\"We recognized signs of conviction\",\"suggested_fix\":\"Replace «σημάδια ελέγχου της συνείδησης» with «σημάδια πνευματικής πεποίθησης» to preserve the source’s meaning.\",\"translation_quote\":\"Αναγνωρίσαμε σημάδια ελέγχου της συνείδησης\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1070,
+    "content_evidence_truncated": false,
+    "content_sha256": "a56078090192d527ce904985a873650e164e5d0670cc53f4fce65211aacbd8ff",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 643,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9906,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9903,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10786
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

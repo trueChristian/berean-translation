@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, numbered list, point 1",
+      "severity": "minor",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "Cela repose sur ce que Dieu affirme, et non sur ce que nous ressentons.",
+      "translation_quote": "Cela dépend de son fait, et non de ce que nous ressentons."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

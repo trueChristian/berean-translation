@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “عبرانیوں نے 70ء...”\",\"severity\":\"major\",\"source_quote\":\"The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.\",\"suggested_fix\":\"Translate the sentence so it says the Hebrews began the tradition after the Second Temple fell in 70 A.D., when instruments were not permitted during a period of mourning. For example: «عبرانیوں نے 70ء میں دوسرے ہیکل کے انہدام کے بعد بغیر سازوں کے موسیقی کی روایت شروع کی؛ اس انہدام کے بعد ماتم کے ایک عرصے میں سازوں کی اجازت نہیں تھی۔»\",\"translation_quote\":\"عبرانیوں نے 70ء میں دوسرے ہیکل کی تباہی کے بعد ساتھ کے بغیر موسیقی استعمال کرنے کی روایت شروع کی؛ تباہی کے بعد ماتم کے ایک دور میں سازوں کی اجازت نہیں تھی۔\"},{\"location\":\"Article, paragraph beginning “پالسترینا انداز”\",\"severity\":\"major\",\"source_quote\":\"‘The Palestrina Style,’ as it is called, was a sophisticated A cappella form using many voices singing with different music and text coming in at different times.\",\"suggested_fix\":\"Correct the description to say that the different musical lines and texts enter at different times, rather than saying the voices themselves start at different times: «”پالسترینا انداز“، جیسا کہ اسے کہا جاتا ہے، اے کیپیلا کی ایک پیچیدہ صورت تھی جس میں بہت سی آوازیں مختلف موسیقی اور متن گاتی تھیں، جو مختلف اوقات میں شروع ہوتے تھے۔»\",\"translation_quote\":\"”پالسترینا انداز“، جیسا کہ اسے کہا جاتا ہے، اے کیپیلا کی ایک پیچیدہ صورت تھی جس میں بہت سی آوازیں مختلف موسیقی اور متن گاتی تھیں، اور وہ مختلف اوقات میں شروع ہوتے تھے۔\"},{\"location\":\"Article, paragraph beginning “کلسیوں کا خط بھی”\",\"severity\":\"major\",\"source_quote\":\"Colossians also tells us that we should Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord –Colossians 3:16.\",\"suggested_fix\":\"Restore the omitted instruction to let Christ’s word dwell richly in the readers, and render the concluding phrase as singing with grace in their hearts to the Lord. For example: «مسیح کے کلام کو ساری حکمت کے ساتھ اپنے اندر کثرت سے بسنے دو؛ زبور، حمدیہ گیت اور روحانی گیتوں کے ذریعے ایک دوسرے کو تعلیم دو اور نصیحت کرو، اور اپنے دلوں میں فضل کے ساتھ خداوند کے لیے گاؤ۔ –کلسیوں 3:16۔»\",\"translation_quote\":\"مسیح کے کلام کو اپنے دلوں میں کثرت سے بسنے دو؛ اور کمال دانائی سے آپس میں تعلیم اور نصیحت کرو اور اپنے دلوں میں خدا کے لیے شکرگزاری کے ساتھ زبور اور گیت اور روحانی غزلیں گایا کرو۔ –کلسیوں 3:16۔\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 3516,
+    "content_evidence_truncated": false,
+    "content_sha256": "6be6b3cbf1588dcc4c509fe0010946b94876def7bd031fab98ffecd4e884862e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 690,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6364,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6361,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7054
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

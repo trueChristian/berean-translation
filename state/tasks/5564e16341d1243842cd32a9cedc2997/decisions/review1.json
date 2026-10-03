@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Giovanni Pierluigi da Palestrina…”",
+      "severity": "major",
+      "source_quote": "‘The Palestrina Style,’ as it is called, was a sophisticated A cappella form",
+      "suggested_fix": "Replace “aina ya kisasa ya A cappella” with “aina changamano ya A cappella” to convey “sophisticated” rather than “modern.”",
+      "translation_quote": "“Mtindo wa Palestrina,” kama unavyoitwa, ulikuwa aina ya kisasa ya A cappella"
+    },
+    {
+      "location": "Acts 16:25 paragraph",
+      "severity": "major",
+      "source_quote": "the doors flew open, and everyone’s prison bands broke.",
+      "suggested_fix": "Revise the sentence to preserve both details: “milango ikafunguka kwa kishindo, na vifungo vya wafungwa wote vikavunjika.”",
+      "translation_quote": "milango ikafunguka, na vifungo vya kila mtu gerezani vikalegea."
+    },
+    {
+      "location": "Colossians 3:16 quotation",
+      "severity": "major",
+      "source_quote": "singing with grace in your hearts to the Lord",
+      "suggested_fix": "Replace “mbele za Mungu” with “kwa Bwana” so the quotation retains the source’s stated recipient.",
+      "translation_quote": "huku mkiimba kwa neema mioyoni mwenu mbele za Mungu"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

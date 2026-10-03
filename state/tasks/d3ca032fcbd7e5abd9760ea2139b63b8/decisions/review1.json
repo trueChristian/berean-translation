@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «В этих стихах…», пункт 1",
+      "severity": "major",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "Заменить «Это основано на Его слове, а не на наших ощущениях» на формулировку, сохраняющую напечатанное в источнике слово «fact», например: «Это соответствует Его факту, а не нашим ощущениям».",
+      "translation_quote": "Это основано на Его слове, а не на наших ощущениях."
+    },
+    {
+      "location": "HTML, абзац о последствиях пандемии, предложение «Some have gone through a time of sickness.»",
+      "severity": "minor",
+      "source_quote": "Some have gone through a time of sickness.",
+      "suggested_fix": "Заменить «Некоторые переболели» на «Некоторые перенесли период болезни» — источник не говорит, что они выздоровели.",
+      "translation_quote": "Некоторые переболели."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

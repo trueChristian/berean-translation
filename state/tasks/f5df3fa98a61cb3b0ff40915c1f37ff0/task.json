@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 6057
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 619,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 299,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5916,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5913,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6535
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article HTML, opening lead paragraph",
+      "severity": "major",
+      "source_quote": "Many people ask, “Is listening to secular music a sin? Is there anything wrong with CCM (Christian Contemporary Music)? Is it okay for Christians to listen to rap, rock, country, pop, or rhythm and blues?”",
+      "suggested_fix": "Remplacez le début du paragraphe par du français et adaptez l’initiale dans la même balise : <p class=\"lead\"><span class=\"drop-cap\">B</span>eaucoup de gens demandent : « Écouter de la musique profane est-il un péché ? Y a-t-il quelque chose de mal avec la musique chrétienne contemporaine (CCM) ? Est-il acceptable pour les chrétiens d’écouter du rap, du rock, de la country, de la pop ou du rhythm and blues ? » Pour les besoins de cet article, je désignerai toute la musique mentionnée ci-dessus comme de la musique « profane ».</p>",
+      "translation_quote": "<span class=\"drop-cap\">M</span>any people ask, « Écouter de la musique profane est-il un péché ? Y a-t-il quelque chose de mal avec la musique chrétienne contemporaine (CCM) ? Est-il acceptable pour les chrétiens d’écouter du rap, du rock, de la country, de la pop ou du rhythm and blues ? »"
+    }
+  ],
   "id": "f5df3fa98a61cb3b0ff40915c1f37ff0",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "fra",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

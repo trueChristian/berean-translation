@@ -2,7 +2,6 @@
   "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,87 @@
         },
         "total_tokens": 5384
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 936,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5243,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5240,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6179
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "major",
+      "source_quote": "“It is August 2020, over four months since the coronavirus pandemic started”",
+      "suggested_fix": "Replace “zaidi ya miezi minne tangu” with “zaidi ya miezi minne imepita tangu” to convey that more than four months have elapsed.",
+      "translation_quote": "“Ni Agosti 2020, zaidi ya miezi minne tangu janga la virusi vya corona lianze”"
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“even from well-meaning Christians from what they would consider to be very valid and from legitimate sources”",
+      "suggested_fix": "Revise this clause to say that well-meaning Christians pass along such claims from sources they consider very valid and legitimate; the current wording says the Christians themselves consider the sources trustworthy, but does not convey the source’s phrasing clearly.",
+      "translation_quote": "“hata na Wakristo wenye nia njema, ambao wanaona kuwa yanatoka katika vyanzo vinavyoaminika sana na halali”"
+    },
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "“the Apostle Paul admonishes us in Romans 13 to be ‘subject to the higher Powers, for there is no power but of God’”",
+      "suggested_fix": "Replace “kuzitii mamlaka zilizo kuu, kwa maana hakuna mamlaka isipokuwa kutoka kwa Mungu” with “kuwatii wenye mamlaka walio juu, kwa maana hakuna mamlaka isipokuwa ile itokayo kwa Mungu” to preserve the sense of being subject to governing authorities and the source’s explicit wording.",
+      "translation_quote": "“kuzitii mamlaka zilizo kuu, kwa maana hakuna mamlaka isipokuwa kutoka kwa Mungu”"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "“Case in point, there have been numerous deaths that were not directly connected to Covid–19”",
+      "suggested_fix": "Replace “vifo vingi” with “vifo vingi sana” or “vifo vingi kadhaa” to preserve “numerous” rather than merely many.",
+      "translation_quote": "“kumekuwa na vifo vingi ambavyo havikuhusiana moja kwa moja na Covid–19”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“The Apostle Peter said that …God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.”",
+      "suggested_fix": "Change “Mtume Petro” to “Mtume Paulo”; translate the quotation as printed, including “moyo wa kiasi,” and retain the reference as 2 Timotheo 1:7.",
+      "translation_quote": "“Mtume Petro alisema kwamba …Mungu hakutupa roho ya woga, bali ya nguvu, na ya upendo, na ya moyo wa kiasi –2 Timotheo 1:7.”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“Thinking about them not only promotes fear but also makes it even more difficult to respect and honor the government.”",
+      "suggested_fix": "Replace “kuheshimu na kuitukuza serikali” with wording meaning “to respect and honor the government,” such as “kuheshimu na kuipa serikali heshima,” avoiding the added idea of exalting it.",
+      "translation_quote": "“Kuzifikiria hakuchochei tu hofu bali pia kunafanya iwe vigumu hata zaidi kuiheshimu na kuitukuza serikali.”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“I think we should all be very careful what we do with the information we come across”",
+      "suggested_fix": "Revise “jinsi tunavyoshughulikia habari” to express care about what we do with the information, for example “kuhusu tunachofanya na habari tunazokutana nazo.”",
+      "translation_quote": "“Nadhani sote tunapaswa kuwa waangalifu sana kuhusu jinsi tunavyoshughulikia habari tunazokutana nazo”"
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "major",
+      "source_quote": "“Let us seek peace and ensue it!”",
+      "suggested_fix": "Replace “Na tutafute amani na kuifuata!” with “Na tutafute amani na kuifuatilia!” or an equivalent that conveys pursuing peace.",
+      "translation_quote": "“Na tutafute amani na kuifuata!”"
+    }
+  ],
   "id": "0f41a987d8e25f92404f9edc49b1f5bf",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -116,11 +193,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

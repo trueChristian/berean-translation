@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, stanza beginning “Because He treasured us”",
+      "severity": "minor",
+      "source_quote": "Because He treasured us, an atonement for our sin",
+      "suggested_fix": "क्योंकि उन्होंने हमें अनमोल समझा; हमारे पाप का प्रायश्चित",
+      "translation_quote": "क्योंकि उन्होंने हमसे प्रेम किया; हमारे पाप का प्रायश्चित"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

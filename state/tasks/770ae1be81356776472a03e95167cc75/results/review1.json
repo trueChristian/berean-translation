@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d52adede-165c-4307-9ed4-3c6969a635ee",
+    "response_id": "chatcmpl-EUz9OIuyLqEhPiJrsCUfZq3dQ1ysX",
+    "usage": {
+      "completion_tokens": 815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5142,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5139,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5957
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 2",
+        "severity": "major",
+        "source_quote": "“How we do church”",
+        "suggested_fix": "החליפו את ״מקיימים את תפילותינו״ ב״מקיימים את פעילויות הכנסייה שלנו״, כדי לשמר את המשמעות הרחבה של קיום חיי הכנסייה ולא לצמצם אותה לתפילה בלבד.",
+        "translation_quote": "״האופן שבו אנו מקיימים את תפילותינו״"
+      },
+      {
+        "location": "HTML paragraphs 2, 4, 7, and 11",
+        "severity": "major",
+        "source_quote": "“plain communities” / “plain community”",
+        "suggested_fix": "החליפו את ״הקהילות השמרניות״ ואת ״בני הקהילה השמרנית״ במונח המתייחס לקהילות האנבפטיסטיות המסורתיות המתוארות כאן, למשל ״קהילות האנבפטיסטים שומרות המסורת״ ו״בני קהילת האנבפטיסטים שומרת המסורת״. ״שמרני״ לבדו אינו משמר את הזיהוי הקהילתי המסוים שבמקור.",
+        "translation_quote": "״בקהילותינו השמרניות״; ״בני הקהילה השמרנית״; ״בקהילה השמרנית״"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

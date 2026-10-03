@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraf tentang masa remaja dan Lukas 2:51",
+      "severity": "major",
+      "source_quote": "“And he went down with them, and came to Nazareth, and was subject unto them…”",
+      "suggested_fix": "Terjemahkan kutipan sesuai teks sumber, misalnya: “Lalu Ia turun bersama-sama mereka, kembali ke Nazaret, dan tunduk kepada mereka…” Pertahankan rujukan –Lukas 2:51.",
+      "translation_quote": "“Lalu Ia pulang bersama-sama mereka ke Nazaret, dan Ia tetap hidup dalam asuhan mereka…”"
+    },
+    {
+      "location": "source.html, paragraf tentang tembok blok beton",
+      "severity": "minor",
+      "source_quote": "“Dad provided the blocks and the mortar and got me started. Then I was on my own.”",
+      "suggested_fix": "Ubah bagian ini agar ayah hanya memulai pekerjaan, lalu penulis mengerjakannya sendiri, misalnya: “Ayah menyediakan blok dan adukan semen, lalu membantu saya memulai. Setelah itu, saya mengerjakannya sendiri.”",
+      "translation_quote": "“Ayah menyediakan blok dan adukan semen, lalu memulai pekerjaan itu bersama saya. Setelah itu, saya mengerjakannya sendiri.”"
+    },
+    {
+      "location": "source.html, paragraf tentang tanda-tanda keyakinan rohani",
+      "severity": "minor",
+      "source_quote": "“Be aware of evidence of conviction.”",
+      "suggested_fix": "Gunakan ungkapan yang lebih jelas untuk tanda-tanda keinsafan akan dosa, misalnya: “Perhatikan tanda-tanda keinsafan akan dosa.”",
+      "translation_quote": "“Waspadalah terhadap tanda-tanda adanya keyakinan akan dosa.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

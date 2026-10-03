@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문 첫 문단",
+      "severity": "minor",
+      "source_quote": "Ramona and three of her sisters would pack onto Tony’s back",
+      "suggested_fix": "라모나와 자매 셋이 토니 등에 다 같이 올라타고",
+      "translation_quote": "라모나와 언니들 셋이 토니 등에 다 같이 올라타고"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

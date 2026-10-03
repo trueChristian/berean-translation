@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "71a1d6b9-3a0b-4ca9-b438-7f78bb802d1a",
+    "response_id": "chatcmpl-EUz8xCAE6d5cGlQlnspQmOsh0PVBk",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 646,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4381,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4378,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5176
+    }
+  },
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, Romans 1:18–20 quotation",
+        "severity": "major",
+        "source_quote": "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people",
+        "suggested_fix": "Replace “juu ya uasi wote wa Mungu na udhalimu wa watu” with “juu ya kutomcha Mungu kote na uovu wa watu” to avoid saying that God is in rebellion.",
+        "translation_quote": "Hasira ya Mungu inafunuliwa kutoka mbinguni juu ya uasi wote wa Mungu na udhalimu wa watu"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Bildbeschreibung (alt-Text)",
+      "severity": "minor",
+      "source_quote": "Piano keys beside open sheet music",
+      "suggested_fix": "<img src=\"/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg\" alt=\"Klaviertasten neben aufgeschlagenen Notenblättern\">",
+      "translation_quote": "Klavierasten neben aufgeschlagener Notenschrift"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

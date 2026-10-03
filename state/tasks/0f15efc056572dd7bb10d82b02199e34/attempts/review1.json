@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 3\",\"severity\":\"major\",\"source_quote\":\"Yet at times we as believers still fail in listening to good wholesome music.\",\"suggested_fix\":\"Tog skiet ons as gelowiges soms steeds tekort daarin om na goeie, gesonde musiek te luister.\",\"translation_quote\":\"Tog skiet ons as gelowiges soms steeds tekort wanneer ons na goeie, gesonde musiek luister.\"},{\"location\":\"Article, paragraph on Orthodox and Conservative Jewish congregations\",\"severity\":\"minor\",\"source_quote\":\"a pitch pipe to give everyone a starting note\",\"suggested_fix\":\"’n toonpyp om vir almal ’n begintoon te gee\",\"translation_quote\":\"’n stemvurk wees om vir almal ’n begintoon te gee\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 723,
+    "content_evidence_truncated": false,
+    "content_sha256": "f1cbeca7fdebbbcbecd0e23905e71b3ca4f3fe47643b756a2fc75bb28da41e09",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6002,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5999,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6804
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

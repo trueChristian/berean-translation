@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5e1ecd91-c90e-4c63-8fad-4870c7b3ae3f",
+    "response_id": "chatcmpl-EUzAQTC7RQeiJ7g3NWseCgvhsMint",
+    "usage": {
+      "completion_tokens": 815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 652,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15056,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15053,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15871
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “By the end of the first week”",
+        "severity": "major",
+        "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
+        "suggested_fix": "Translate “paddies” without inventing a specific object. For example, use “sina små [oklart vad ‘paddies’ avser]” only if the intended object can be established; otherwise retain the source’s ambiguity rather than specifying blocks.",
+        "translation_quote": "“brukade han räcka Sterling och mig varsin av sina små klossar att hålla i medan han åt”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

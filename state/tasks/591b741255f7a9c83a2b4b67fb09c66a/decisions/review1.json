@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Citação de Lucas 23:31",
+      "severity": "major",
+      "source_quote": "For if they do these things in a green tree, what shall be done in the dry? –Luke 23:31.",
+      "suggested_fix": "Substitua “o que acontecerá com a seca?” por “o que acontecerá com a árvore seca?” para preservar o contraste com “a árvore verde”.",
+      "translation_quote": "Pois, se fazem estas coisas com a árvore verde, o que acontecerá com a seca? –Lucas 23:31."
+    },
+    {
+      "location": "Parágrafo sobre o convite para pregar",
+      "severity": "major",
+      "source_quote": "I was asked to preach for a large church that I had never been to before.",
+      "suggested_fix": "Substitua “Pediriam-me que pregasse” por “Fui convidado a pregar” para manter o sentido de que o narrador recebeu o convite.",
+      "translation_quote": "Pediriam-me que pregasse em uma grande igreja onde eu nunca tinha estado."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

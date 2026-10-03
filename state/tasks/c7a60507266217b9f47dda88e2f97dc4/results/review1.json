@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1eaf8e59-0bae-4773-af86-208289c8199d",
+    "response_id": "chatcmpl-EUz9EtTAdLXJJqHmC3iVRlmek4oeR",
+    "usage": {
+      "completion_tokens": 1150,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8383,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8380,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9533
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Heading and paragraphs under “The affirmation factor”",
+        "severity": "major",
+        "source_quote": "“The affirmation factor”; “Every teen longs to be affirmed by their parents”; “Affirming is recognizing and encouraging the good that you see in another.”",
+        "suggested_fix": "Use wording based on “apprezzamento” or “riconoscimento” for “affirmation/affirming” throughout this section, for example: “Il fattore dell’apprezzamento” and “riconoscere e incoraggiare il bene che si vede nell’altro”. Keep “approvazione” only where the source specifically means approval.",
+        "translation_quote": "“Il fattore approvazione”; “Ogni adolescente desidera ardentemente ricevere l’approvazione dei genitori”; “Dimostrare approvazione significa riconoscere e incoraggiare il bene che si vede in un’altra persona.”"
+      },
+      {
+        "location": "Paragraph beginning “Hopefully, you have nurtured a relationship…”",
+        "severity": "minor",
+        "source_quote": "“We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.”",
+        "suggested_fix": "Restore the distinct idea of brokenness/contrition, for example: “Abbiamo riconosciuto i segni della convinzione di peccato e li abbiamo guidati alla contrizione e al ravvedimento, e a ricevere la salvezza mediante la fede in Cristo.”",
+        "translation_quote": "“Abbiamo riconosciuto i segni della convinzione di peccato e li abbiamo guidati al ravvedimento e al pentimento, e a ricevere la salvezza mediante la fede in Cristo.”"
+      },
+      {
+        "location": "Paragraph beginning “For every critical comment…”",
+        "severity": "minor",
+        "source_quote": "“you earn the right to criticize what is wrong by blessing what is right.”",
+        "suggested_fix": "Replace “facendo del bene a ciò che è giusto” with an expression conveying affirming or valuing what is right, such as “valorizzando ciò che è giusto”.",
+        "translation_quote": "“vi guadagnate il diritto di criticare ciò che è sbagliato facendo del bene a ciò che è giusto.”"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "본문 8문단",
+      "severity": "major",
+      "source_quote": "Will it change the way I live for the other kingdom now?",
+      "suggested_fix": "“지금 하나님 나라를 위해 살아가는 내 삶의 방식에 어떤 영향을 미칠까요?”처럼 ‘the other kingdom’을 하나님 나라를 가리키는 표현으로 옮겨 주세요.",
+      "translation_quote": "지금 다른 나라를 위해 살아가는 나의 방식에는 어떤 영향을 미칠까요?"
+    },
+    {
+      "location": "본문 2문단 및 이후의 ‘plain community’ 표현",
+      "severity": "minor",
+      "source_quote": "our plain communities",
+      "suggested_fix": "문맥상 특정 공동체를 가리키므로 ‘플레인 공동체’ 또는 독자가 이해할 수 있는 일관된 설명적 표현으로 옮겨 주세요. 예: “우리 플레인 공동체 곳곳에서”.",
+      "translation_quote": "우리 소박한 공동체 곳곳에서"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9024
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 792,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 490,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8833,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8830,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9625
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Gesù dice alcuni versetti prima…”",
+      "severity": "major",
+      "source_quote": "Jesus says a few verses earlier that we will know each other by our fruits.",
+      "suggested_fix": "Replace “riconosceremo gli uni gli altri dai nostri frutti” with “li riconosceremo dai loro frutti” to preserve the source’s meaning: recognizing people by their fruits.",
+      "translation_quote": "Gesù dice alcuni versetti prima che riconosceremo gli uni gli altri dai nostri frutti."
+    },
+    {
+      "location": "Paragraph beginning “Il desiderio di servire Gesù.”",
+      "severity": "major",
+      "source_quote": "Should the church need to force its people to be modest? Should the church need to force its people to be Christ-like?",
+      "suggested_fix": "Replace “La chiesa dovrebbe essere costretta a imporre la modestia ai suoi membri? Dovrebbe essere costretta a imporre loro di essere simili a Cristo?” with “La chiesa dovrebbe aver bisogno di costringere i suoi membri a vestirsi con modestia? Dovrebbe aver bisogno di costringerli a essere simili a Cristo?”",
+      "translation_quote": "La chiesa dovrebbe essere costretta a imporre la modestia ai suoi membri? Dovrebbe essere costretta a imporre loro di essere simili a Cristo?"
+    }
+  ],
   "id": "5acaf507dbaf05962af3e9a61e7e9e98",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ita",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

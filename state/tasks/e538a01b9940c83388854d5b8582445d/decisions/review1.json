@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first paragraph",
+      "severity": "major",
+      "source_quote": "“Her family had two horses and a pony. How fun those evenings were when they would hitch their pony, Tony, to the cart, and the whole family would take turns riding.”",
+      "suggested_fix": "Replace «hele familien byttet på å kjøre» with «hele familien byttet på å ri» so it is clear that family members took turns riding the pony, not driving the cart.",
+      "translation_quote": "«Familien hennes hadde to hester og en ponni. Så morsomme de kveldene var når de spente ponnien Tony for vognen, og hele familien byttet på å kjøre.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Før han la henne»",
+      "severity": "major",
+      "source_quote": "“Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.”",
+      "suggested_fix": "Change the translated quotation to «Stolthet går forut for ødeleggelse, og en hovmodig ånd før fall – Ordspråkene 16:18.» Preserve the existing emphasis and reference number.",
+      "translation_quote": "«Stolthet kommer før undergang, og hovmod før fall – Ordspråkene 16:18.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "the many, what seem to be, “conspiracy theories” that are being propagated and peddled",
+      "suggested_fix": "Translate the uncertainty as applying to whether these are conspiracy theories: “banyak hal yang tampaknya merupakan ‘teori konspirasi’ dan sedang disebarkan serta diperjualbelikan” (or an equally idiomatic rendering).",
+      "translation_quote": "banyak “teori konspirasi” yang tampaknya beredar dan disebarluaskan"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

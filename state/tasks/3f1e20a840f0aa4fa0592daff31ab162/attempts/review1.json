@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 6\",\"severity\":\"minor\",\"source_quote\":\"Ramona didn’t like that advice.\",\"suggested_fix\":\"Replace «Η Ραμόνα δεν άρεσε αυτή η συμβουλή» with «Η Ραμόνα δεν συμπάθησε αυτή τη συμβουλή» or «Αυτή η συμβουλή δεν άρεσε στη Ραμόνα».\",\"translation_quote\":\"Η Ραμόνα δεν άρεσε αυτή η συμβουλή.\"},{\"location\":\"HTML, paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"It looked like so much fun as they trotted around the pond and through the lawn.\",\"suggested_fix\":\"Replace «κάλπαζαν» with «τροχάδην γύρω από τη λιμνούλα και μέσα στο γρασίδι» to retain the source’s description of trotting rather than galloping.\",\"translation_quote\":\"Φαινόταν τόσο διασκεδαστικό καθώς κάλπαζαν γύρω από τη λιμνούλα και μέσα στο γρασίδι.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1029,
+    "content_evidence_truncated": false,
+    "content_sha256": "c8b4f2a043c9bbf5f2eef31a845d9f1bf3d813e76533e01b7800e9ba2da2dcc6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 473,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4899,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4896,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5616
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

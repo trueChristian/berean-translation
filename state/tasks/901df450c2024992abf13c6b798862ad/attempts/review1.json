@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Eerste citaat, Psalm 144:12\",\"severity\":\"major\",\"source_quote\":\"“That our sons may be as plants grown up in their youth; that our daughters may be as corner stones, polished after the similitude of a palace”\",\"suggested_fix\":\"Vertaal het citaat getrouw zonder de betekenis te veranderen, bijvoorbeeld: “Opdat onze zonen als planten mogen zijn, grootgebracht in hun jeugd; opdat onze dochters als hoekstenen mogen zijn, gepolijst naar de gelijkenis van een paleis –Psalm 144:12.”\",\"translation_quote\":\"“Opdat onze zonen als planten mogen zijn, opgegroeid in hun jeugd; opdat onze dochters als hoekstenen mogen zijn, gepolijst naar het voorbeeld van een paleis”\"},{\"location\":\"Alinea over Jezus in de tempel\",\"severity\":\"major\",\"source_quote\":\"“sitting in the temple visiting with the doctors, both hearing them and asking them questions.”\",\"suggested_fix\":\"Vervang “met de leraren sprak” door een formulering die de betekenis van “visiting with the doctors” weergeeft, bijvoorbeeld “bij de leraren zat”, en behoud dat Hij naar hen luisterde en hun vragen stelde.\",\"translation_quote\":\"“in de tempel, waar Hij met de leraren sprak, naar hen luisterde en hun vragen stelde.”\"},{\"location\":\"Alinea over gezag en leiding van ouders\",\"severity\":\"major\",\"source_quote\":\"“Parental authority has a place in shaping and controlling our children when they are young.”\",\"suggested_fix\":\"Vervang “vorming en leiding” door “vorming en controle”, bijvoorbeeld: “Ouderlijk gezag heeft een plaats in de vorming en controle van onze kinderen wanneer ze jong zijn.”\",\"translation_quote\":\"“Ouderlijk gezag heeft een plaats in de vorming en leiding van onze kinderen wanneer ze jong zijn.”\"},{\"location\":\"Alinea over beleefdheidsuitdrukkingen\",\"severity\":\"major\",\"source_quote\":\"“Simple things like ‘please’ and ‘thank you’, ‘I’m sorry’, ‘pardon me’, ‘good bye’, ‘have a good day’, ‘drive safely’, and ‘God bless you’”\",\"suggested_fix\":\"Voeg een vertaling toe van “please” naast “alsjeblieft”, bijvoorbeeld “alsjeblieft / alstublieft”, zodat de lijst de bronbetekenis weergeeft.\",\"translation_quote\":\"“‘alsjeblieft’ en ‘dank je’, ‘het spijt me’, ‘pardon’, ‘tot ziens’, ‘een fijne dag’, ‘rij voorzichtig’ en ‘God zegene je’”\"},{\"location\":\"Alinea over tieners tot Christus leiden\",\"severity\":\"major\",\"source_quote\":\"“We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.”\",\"suggested_fix\":\"Herstel de betekenis van “conviction” door de extra bepaling “van zonde” weg te laten, bijvoorbeeld: “We herkenden tekenen van overtuiging en leidden hen tot verslagenheid en bekering, en tot het ontvangen van redding door geloof in Christus.”\",\"translation_quote\":\"“We herkenden tekenen van overtuiging van zonde en leidden hen tot verslagenheid en bekering, en tot het ontvangen van redding door geloof in Christus.”\"},{\"location\":\"Citaat Psalm 127:4\",\"severity\":\"major\",\"source_quote\":\"“As arrows are in the hand of a mighty man; so are children of the youth”\",\"suggested_fix\":\"Vertaal “children” als “kinderen” in plaats van “zonen”, bijvoorbeeld: “Zoals pijlen in de hand van een held, zo zijn de kinderen van de jeugd –Psalm 127:4.”\",\"translation_quote\":\"“Zoals pijlen in de hand van een held, zo zijn de zonen die men verwekt in zijn jeugd –Psalm 127:4.”\"},{\"location\":\"Slotuitleg van Psalm 127:4\",\"severity\":\"major\",\"source_quote\":\"“If properly honed (trained) and balanced (taught disciplines) our children will have the potential to outlive us both in years and in usefulness.”\",\"suggested_fix\":\"Behoud de vergelijking met “balanced” als evenwichtig gemaakt, in plaats van de betekenis te veranderen in uitgebalanceerd met discipline bijgebracht. Bijvoorbeeld: “Als ze goed geslepen (getraind) en in evenwicht gebracht (discipline bijgebracht) zijn, kunnen onze kinderen ons overtreffen, zowel in levensjaren als in bruikbaarheid.”\",\"translation_quote\":\"“Als ze goed geslepen (getraind) en uitgebalanceerd (discipline bijgebracht) zijn, kunnen onze kinderen ons overtreffen, zowel in levensjaren als in bruikbaarheid.”\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 4329,
+    "content_evidence_truncated": false,
+    "content_sha256": "324fbb7c5bfb2f926a42d97f6f669b0b920eea16e7d5f8f9ecb51ccfeffec88e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7979,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7976,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8999
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

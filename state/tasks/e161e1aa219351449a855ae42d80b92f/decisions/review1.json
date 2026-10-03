@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf tentang nasihat memukul dan melatih kehendak Judson",
+      "severity": "critical",
+      "source_quote": "“Instead of restraining him, demanding surrender to our desires, we agreed to use repeated small switches to reprimand his willfulness.”",
+      "suggested_fix": "Ganti “kami sepakat menggunakan pukulan-pukulan kecil yang berulang untuk menegur sikap keras kepalanya” dengan terjemahan yang mempertahankan makna spesifik *switches* (alat pemukul tipis dari ranting), misalnya “kami sepakat menggunakan beberapa pukulan ringan dengan ranting kecil untuk menegur sikap keras kepalanya.”",
+      "translation_quote": "“Alih-alih menahannya dan menuntut agar ia menyerah pada keinginan kami, kami sepakat menggunakan pukulan-pukulan kecil yang berulang untuk menegur sikap keras kepalanya.”"
+    },
+    {
+      "location": "Paragraf tentang Judson menawarkan benda untuk dipegang saat makan",
+      "severity": "major",
+      "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
+      "suggested_fix": "Terjemahkan *paddies* sebagai benda kecil yang dimaksud dalam konteks—misalnya, “masing-masing sebuah dayung kecilnya”—bukan “tongkat kecilnya.”",
+      "translation_quote": "“ia akan menawarkan kepada saya dan Sterling masing-masing satu tongkat kecilnya untuk dipegang sambil ia makan”"
+    },
+    {
+      "location": "Paragraf tentang masa sulit saat Judson berusia sekitar enam bulan",
+      "severity": "major",
+      "source_quote": "“We requested an anointing by our ministry.”",
+      "suggested_fix": "Perbaiki menjadi “Kami meminta agar pelayanan kami mengurapi Judson,” agar *our ministry* tidak berubah menjadi sekadar “pelayanan kami mengurapinya” tanpa menyebut siapa yang mengurapi.",
+      "translation_quote": "“Kami meminta pelayanan kami mengurapinya.”"
+    },
+    {
+      "location": "Paragraf tentang saran menghentikan produk susu",
+      "severity": "major",
+      "source_quote": "“I didn’t mind stopping the dairy-free diet.”",
+      "suggested_fix": "Ubah menjadi “Saya tidak keberatan menghentikan pola makan bebas produk susu.” Kalimat berikutnya menyebut mereka mencoba hal lain; terjemahan sekarang menghilangkan bahwa yang dihentikan adalah pola makan tersebut.",
+      "translation_quote": "“Saya tidak keberatan berhenti menjalani pola makan bebas produk susu.”"
+    },
+    {
+      "location": "Paragraf tentang masalah kelekatan dan dugaan masa bayi yang sulit",
+      "severity": "major",
+      "source_quote": "“Perhaps that had undone the natural bonding process.”",
+      "suggested_fix": "Ubah “Mungkin itu telah mengganggu proses kelekatan yang alami” menjadi “Mungkin itu telah merusak proses kelekatan yang alami” atau ungkapan setara yang mempertahankan dugaan bahwa proses itu telah terganggu/digagalkan.",
+      "translation_quote": "“Mungkin itu telah mengganggu proses kelekatan yang alami.”"
+    },
+    {
+      "location": "Paragraf tentang perjalanan pulang dari Meksiko",
+      "severity": "minor",
+      "source_quote": "“As we traveled back to the States”",
+      "suggested_fix": "Gunakan “Dalam perjalanan pulang ke Amerika Serikat” alih-alih “Dalam perjalanan pulang ke Amerika Serikat” hanya jika maksudnya perlu diperjelas; tidak ada perubahan yang diperlukan. (Temuan ini tidak seharusnya dicantumkan.)",
+      "translation_quote": "“Dalam perjalanan pulang ke Amerika Serikat”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

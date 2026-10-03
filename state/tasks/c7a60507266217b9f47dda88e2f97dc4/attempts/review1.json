@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Heading and paragraphs under “The affirmation factor”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“The affirmation factor”; “Every teen longs to be affirmed by their parents”; “Affirming is recognizing and encouraging the good that you see in another.”\",\n      \"suggested_fix\": \"Use wording based on “apprezzamento” or “riconoscimento” for “affirmation/affirming” throughout this section, for example: “Il fattore dell’apprezzamento” and “riconoscere e incoraggiare il bene che si vede nell’altro”. Keep “approvazione” only where the source specifically means approval.\",\n      \"translation_quote\": \"“Il fattore approvazione”; “Ogni adolescente desidera ardentemente ricevere l’approvazione dei genitori”; “Dimostrare approvazione significa riconoscere e incoraggiare il bene che si vede in un’altra persona.”\"\n    },\n    {\n      \"location\": \"Paragraph beginning “Hopefully, you have nurtured a relationship…”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.”\",\n      \"suggested_fix\": \"Restore the distinct idea of brokenness/contrition, for example: “Abbiamo riconosciuto i segni della convinzione di peccato e li abbiamo guidati alla contrizione e al ravvedimento, e a ricevere la salvezza mediante la fede in Cristo.”\",\n      \"translation_quote\": \"“Abbiamo riconosciuto i segni della convinzione di peccato e li abbiamo guidati al ravvedimento e al pentimento, e a ricevere la salvezza mediante la fede in Cristo.”\"\n    },\n    {\n      \"location\": \"Paragraph beginning “For every critical comment…”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“you earn the right to criticize what is wrong by blessing what is right.”\",\n      \"suggested_fix\": \"Replace “facendo del bene a ciò che è giusto” with an expression conveying affirming or valuing what is right, such as “valorizzando ciò che è giusto”.\",\n      \"translation_quote\": \"“vi guadagnate il diritto di criticare ciò che è sbagliato facendo del bene a ciò che è giusto.”\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 2269,
+    "content_evidence_truncated": false,
+    "content_sha256": "d54fc69210e94d33799f07bc2254f8d54ad5d39466547742dab5111c43a92f0a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1150,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8383,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8380,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9533
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

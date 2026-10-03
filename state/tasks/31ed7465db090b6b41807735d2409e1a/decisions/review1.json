@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph, lead drop-cap",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+      "suggested_fix": "Translate the drop-cap character to Greek while preserving the existing span and structure; for example, use «Π» in <span class=\"drop-cap\">Π</span>ολλοί people ask, with the remainder rendered as «Πολλοί άνθρωποι ρωτούν».",
+      "translation_quote": "<span class=\"drop-cap\">M</span>Πολλοί ρωτούν"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

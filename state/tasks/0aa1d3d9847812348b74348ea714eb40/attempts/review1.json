@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, अनुच्छेद: जडसन को मिशनरी की पत्नी को सौंपना\",\"severity\":\"major\",\"source_quote\":\"When the missionary’s wife appeared, I handed him to her\",\"suggested_fix\":\"मूल के अनुसार पुल्लिंग सर्वनाम बनाए रखें: “जब मिशनरी की पत्नी आईं, तो मैंने उसे उन्हें सौंप दिया।”\",\"translation_quote\":\"जब मिशनरी की पत्नी आईं, तो मैंने उसे उनकी गोद में दे दिया।\"},{\"location\":\"HTML, अनुच्छेद: अस्पताल में तेल लगाने की प्रार्थना\",\"severity\":\"major\",\"source_quote\":\"We requested an anointing by our ministry.\",\"suggested_fix\":\"“हमने अपनी सेवकाई से अभिषेक करने का अनुरोध किया।”\",\"translation_quote\":\"हमने अपनी सेवकाई-टीम से उस पर तेल लगाने की प्रार्थना करने का अनुरोध किया।\"},{\"location\":\"HTML, अनुच्छेद: बेटे की छोटी-छोटी paddies\",\"severity\":\"major\",\"source_quote\":\"he would offer Sterling and I each one of his little paddies to hold while he ate\",\"suggested_fix\":\"“वह खाते समय स्टर्लिंग और मुझे अपनी छोटी-छोटी हथेलियों में से एक-एक पकड़ने के लिए देता…”\",\"translation_quote\":\"वह खाते समय अपनी छोटी-छोटी हथेलियाँ एक-एक करके स्टर्लिंग और मेरे हाथ में थमा देता…\"},{\"location\":\"HTML, अनुच्छेद: माता-पिता के अधिकार का वर्णन\",\"severity\":\"major\",\"source_quote\":\"Something about the clarity of his daddy being the authority in his life has also established my authority over him.\",\"suggested_fix\":\"“उसके जीवन में उसके पापा का अधिकार स्पष्ट होने से मेरा अधिकार भी उस पर स्थापित हुआ है।”\",\"translation_quote\":\"उसके जीवन में उसके पापा का अधिकार स्पष्ट होने से मुझ पर उसका अधिकार भी स्थापित हुआ है।\"}],\"passed\":false,\"score\":81}",
+    "content_bytes": 2772,
+    "content_evidence_truncated": false,
+    "content_sha256": "a9660fc84a7d33e2d6d72b5a12f29501d9e28da4c37428ea9c320acc50d56d35",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 411,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16141,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16555
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

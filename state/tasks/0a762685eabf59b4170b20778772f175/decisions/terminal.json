@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, facts list, second bullet",
+      "severity": "minor",
+      "source_quote": "researchers surveyed 5,412 adults in the US between June 24 and 30.",
+      "suggested_fix": "os pesquisadores realizaram uma pesquisa com 5.412 adultos nos EUA entre 24 e 30 de junho",
+      "translation_quote": "os pesquisadores entrevistaram 5.412 adultos nos EUA entre 24 e 30 de junho"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

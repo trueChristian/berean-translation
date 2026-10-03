@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning „Bevor er sie ins Bett brachte“; quoted Scripture",
+      "severity": "major",
+      "source_quote": "Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.",
+      "suggested_fix": "<em>Stolz kommt vor dem Verderben und Hochmut vor dem Fall –Sprüche 16,18.</em>",
+      "translation_quote": "Stolz kommt vor dem Sturz und Hochmut vor dem Fall –Sprüche 16,18."
+    },
+    {
+      "location": "HTML, paragraph beginning „Ramona nickte“",
+      "severity": "minor",
+      "source_quote": "which was a great grief to her little heart.",
+      "suggested_fix": "Ersetze „was ihr kleinen Herzen großen Kummer bereitete“ durch „was ihrem kleinen Herzen großen Kummer bereitete“.",
+      "translation_quote": "was ihr kleinen Herzen großen Kummer bereitete"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

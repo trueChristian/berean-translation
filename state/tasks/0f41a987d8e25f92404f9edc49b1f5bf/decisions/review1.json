@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "major",
+      "source_quote": "“It is August 2020, over four months since the coronavirus pandemic started”",
+      "suggested_fix": "Replace “zaidi ya miezi minne tangu” with “zaidi ya miezi minne imepita tangu” to convey that more than four months have elapsed.",
+      "translation_quote": "“Ni Agosti 2020, zaidi ya miezi minne tangu janga la virusi vya corona lianze”"
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“even from well-meaning Christians from what they would consider to be very valid and from legitimate sources”",
+      "suggested_fix": "Revise this clause to say that well-meaning Christians pass along such claims from sources they consider very valid and legitimate; the current wording says the Christians themselves consider the sources trustworthy, but does not convey the source’s phrasing clearly.",
+      "translation_quote": "“hata na Wakristo wenye nia njema, ambao wanaona kuwa yanatoka katika vyanzo vinavyoaminika sana na halali”"
+    },
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "“the Apostle Paul admonishes us in Romans 13 to be ‘subject to the higher Powers, for there is no power but of God’”",
+      "suggested_fix": "Replace “kuzitii mamlaka zilizo kuu, kwa maana hakuna mamlaka isipokuwa kutoka kwa Mungu” with “kuwatii wenye mamlaka walio juu, kwa maana hakuna mamlaka isipokuwa ile itokayo kwa Mungu” to preserve the sense of being subject to governing authorities and the source’s explicit wording.",
+      "translation_quote": "“kuzitii mamlaka zilizo kuu, kwa maana hakuna mamlaka isipokuwa kutoka kwa Mungu”"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "“Case in point, there have been numerous deaths that were not directly connected to Covid–19”",
+      "suggested_fix": "Replace “vifo vingi” with “vifo vingi sana” or “vifo vingi kadhaa” to preserve “numerous” rather than merely many.",
+      "translation_quote": "“kumekuwa na vifo vingi ambavyo havikuhusiana moja kwa moja na Covid–19”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“The Apostle Peter said that …God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.”",
+      "suggested_fix": "Change “Mtume Petro” to “Mtume Paulo”; translate the quotation as printed, including “moyo wa kiasi,” and retain the reference as 2 Timotheo 1:7.",
+      "translation_quote": "“Mtume Petro alisema kwamba …Mungu hakutupa roho ya woga, bali ya nguvu, na ya upendo, na ya moyo wa kiasi –2 Timotheo 1:7.”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“Thinking about them not only promotes fear but also makes it even more difficult to respect and honor the government.”",
+      "suggested_fix": "Replace “kuheshimu na kuitukuza serikali” with wording meaning “to respect and honor the government,” such as “kuheshimu na kuipa serikali heshima,” avoiding the added idea of exalting it.",
+      "translation_quote": "“Kuzifikiria hakuchochei tu hofu bali pia kunafanya iwe vigumu hata zaidi kuiheshimu na kuitukuza serikali.”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“I think we should all be very careful what we do with the information we come across”",
+      "suggested_fix": "Revise “jinsi tunavyoshughulikia habari” to express care about what we do with the information, for example “kuhusu tunachofanya na habari tunazokutana nazo.”",
+      "translation_quote": "“Nadhani sote tunapaswa kuwa waangalifu sana kuhusu jinsi tunavyoshughulikia habari tunazokutana nazo”"
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "major",
+      "source_quote": "“Let us seek peace and ensue it!”",
+      "suggested_fix": "Replace “Na tutafute amani na kuifuata!” with “Na tutafute amani na kuifuatilia!” or an equivalent that conveys pursuing peace.",
+      "translation_quote": "“Na tutafute amani na kuifuata!”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

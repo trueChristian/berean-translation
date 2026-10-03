@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third paragraph",
+      "severity": "minor",
+      "source_quote": "sitting in the temple visiting with the doctors",
+      "suggested_fix": "Replace «doctores» with «maestros de la ley» to make clear that the reference is to religious teachers, not medical doctors.",
+      "translation_quote": "sentado en el templo, conversando con los doctores"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2102e87f-7be1-44de-9d1d-9c57170e4570",
+    "response_id": "chatcmpl-EUz8ynlhja85uKqHF4zL9GkyYBaNp",
+    "usage": {
+      "completion_tokens": 153,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1908,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2064
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, строфа 6",
+        "severity": "major",
+        "source_quote": "Ten thousand angels, He could have summoned south,",
+        "suggested_fix": "Заменить на: «Он мог бы призвать десять тысяч ангелов к Себе,»",
+        "translation_quote": "Он мог бы призвать с юга десять тысяч ангелов,"
+      },
+      {
+        "location": "source.html, строфа 11",
+        "severity": "major",
+        "source_quote": "Now the Father and I—a relationship restored!",
+        "suggested_fix": "Заменить на: «Теперь отношения между Отцом и мной восстановлены!»",
+        "translation_quote": "Теперь отношения Отца со мной восстановлены!"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

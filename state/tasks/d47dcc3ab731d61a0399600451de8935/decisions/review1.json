@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "正文，训练用餐的第二周",
+      "severity": "major",
+      "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.”",
+      "suggested_fix": "将“把自己小小的拍手板递给我和斯特林各一个”改为“他会摆出滑稽又可怜的表情，把自己的小便便各递给我和斯特林一个，让我们拿着，好像这样能给他勇气。”这里的“paddies”是便便的俏皮说法；译文现有的“拍手板”改变了原文含义。",
+      "translation_quote": "“他会摆出滑稽又可怜的表情，把自己小小的拍手板递给我和斯特林各一个，边吃边让我们拿着，好像这样能给他勇气。”"
+    },
+    {
+      "location": "正文，后记谈管教方式",
+      "severity": "major",
+      "source_quote": "“We agreed to use repeated small switches to reprimand his willfulness.”",
+      "suggested_fix": "将“用多次轻轻的打屁股来管教他的任性”改为“同意用小戒尺反复打他，以惩戒他的任性。”原文明确写的是 switches（细枝条／小戒尺），不是打屁股。",
+      "translation_quote": "“我们不再制住他、强迫他顺从我们的意愿，而是同意用多次轻轻的打屁股来管教他的任性。”"
+    },
+    {
+      "location": "正文，后记谈养育孩子",
+      "severity": "major",
+      "source_quote": "“The rod of correction works.”",
+      "suggested_fix": "将“管教的杖有效”改为“惩戒的杖是有效的。”现译把 rod（杖）泛化为“管教”，削弱了原文明确使用的意象。",
+      "translation_quote": "“祷告有效。管教的杖有效。”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

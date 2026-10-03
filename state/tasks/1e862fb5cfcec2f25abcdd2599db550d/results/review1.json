@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "811a14f3-d32e-4edf-b06b-5e890227802a",
+    "response_id": "chatcmpl-EUzA2nsujefR6jXBzYKyT3JDqV2UM",
+    "usage": {
+      "completion_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5619,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5616,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6322
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "শেষ অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "As strangers and pilgrims here on this earth",
+        "suggested_fix": "এই পৃথিবীতে প্রবাসী ও যাত্রী হিসেবে",
+        "translation_quote": "এই পৃথিবীতে অপরিচিত ও প্রবাসী হিসেবে"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

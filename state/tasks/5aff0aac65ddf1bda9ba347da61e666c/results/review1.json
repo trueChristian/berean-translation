@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b56cc87b-76fd-4ef7-8d87-eb8c9de6a3f4",
+    "response_id": "chatcmpl-EUz9Lw1TOzCYzifJBc3ihUbxrcUmN",
+    "usage": {
+      "completion_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 660,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1888,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1885,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2839
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem stanza beginning «Fordi han satte oss høyt»",
+        "severity": "major",
+        "source_quote": "Because He treasured us, an atonement for our sin / He made when He bled and died there to make us His kin!",
+        "suggested_fix": "Replace only these two lines with: «Fordi han satte oss høyt, sonet han for vår synd / da han blødde og døde der, for å gjøre oss til sin familie!» This preserves the explicit family relationship in «His kin».",
+        "translation_quote": "Fordi han satte oss høyt, sonet han for vår synd / da han blødde og døde der for å gjøre oss til sine!"
+      },
+      {
+        "location": "HTML, poem stanza beginning «Jeg takker Gud nå»",
+        "severity": "major",
+        "source_quote": "I thank God now for that sacrifice so great; / Providing the Lamb and transforming my fate.",
+        "suggested_fix": "Replace only the second line with «Han sørget for Lammet og forvandlet min skjebne.» This conveys that the Lamb was provided without adding «for us» as the recipient.",
+        "translation_quote": "Jeg takker Gud nå for dette store offer; / Han ga oss Lammet og forvandlet min skjebne."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

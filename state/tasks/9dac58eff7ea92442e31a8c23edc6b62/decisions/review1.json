@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "시의 여섯 번째 연, 첫째 행",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "원문의 ‘south’에 해당하는 방향 표현을 덧붙여 번역해 주세요. 예: “그분은 만 명의 천사를 남쪽으로 부르실 수도 있었지만,”",
+      "translation_quote": "그분은 만 명의 천사를 부르실 수도 있었지만,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

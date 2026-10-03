@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "From Childhood to Adulthood",
+      "suggested_fix": "بچپن سے جوانی تک",
+      "translation_quote": "بچپن سے بلوغت تک"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0742b0e0-fea1-4450-8528-48b2b6273b31",
+    "response_id": "chatcmpl-EUz9GTpSRl2sdaVqN23TTCTHZcS7o",
+    "usage": {
+      "completion_tokens": 316,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9383,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9380,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9699
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "문단 12",
+        "severity": "major",
+        "source_quote": "So new Christians don’t need space to continue for a time in their ungodly ways, but they do need space to grow",
+        "suggested_fix": "“그러므로 새 그리스도인에게는 경건하지 않은 삶의 방식을 한동안 계속하도록 허용할 여유가 필요한 것이 아니라, 자라 갈 여유가 필요합니다”처럼 ‘그런 삶을 계속할 여유’가 아니라 ‘그런 삶을 계속하도록 허용하지 않는다’는 대조를 분명히 옮기세요.",
+        "translation_quote": "그러므로 새 그리스도인에게는 경건하지 않은 삶의 방식을 한동안 계속할 여유가 필요한 것이 아니라"
+      },
+      {
+        "location": "문단 15",
+        "severity": "major",
+        "source_quote": "Now picture this man… is you.",
+        "suggested_fix": "“이제 이 남자가… 바로 여러분이라고 상상해 보십시오”를 “이제 이 남자가… 바로 당신이라고 상상해 보십시오” 또는 “이제 이 남자가… 바로 나 자신이라고 상상해 보십시오”로 고쳐, 원문의 비문을 그대로 의미가 불분명한 문장으로 옮기지 말고 독자에게 자신을 그 상황에 놓아 보라는 뜻을 분명히 하세요.",
+        "translation_quote": "이제 이 남자가… 바로 여러분이라고 상상해 보십시오."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

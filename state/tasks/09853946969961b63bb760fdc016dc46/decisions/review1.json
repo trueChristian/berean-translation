@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Galates 5:22-23, citation du fruit de l’Esprit",
+      "severity": "major",
+      "source_quote": "“the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance”",
+      "suggested_fix": "Dans la citation, remplacer « la patience, la bonté, la bienveillance, la foi, la douceur, la maîtrise de soi » par « la patience, la douceur, la bonté, la foi, l’humilité, la maîtrise de soi » afin de rétablir l’ordre et les distinctions du texte source.",
+      "translation_quote": "« …le fruit de l’Esprit, c’est l’amour, la joie, la paix, la patience, la bonté, la bienveillance, la foi, la douceur, la maîtrise de soi… »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

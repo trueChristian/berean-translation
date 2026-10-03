@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Paragraph beginning “Hopefully, you have nurtured a relationship…”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.”\",\n      \"suggested_fix\": \"Replace “kuvunjika moyo” with wording that conveys humble contrition, such as “unyenyekevu na toba,” so the sentence does not imply discouragement or heartbreak.\",\n      \"translation_quote\": \"“Tulitambua dalili za hatia ya dhambi na kuwaongoza kwenye kuvunjika moyo na toba, na kupokea wokovu kwa imani katika Kristo.”\"\n    },\n    {\n      \"location\": \"Paragraph beginning “It is important to worship in a church that you can support…”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Many children have been lost to the faith because mom and dad were not supportive of the church where they were worshipping.”\",\n      \"suggested_fix\": \"Revise “wamepoteza imani” to convey that children have been lost from, or drawn away from, the faith—for example, “watoto wengi wamepotea kutoka katika imani.”\",\n      \"translation_quote\": \"“Watoto wengi wamepoteza imani kwa sababu mama na baba hawakuliunga mkono kanisa walimokuwa wakiabudu.”\"\n    },\n    {\n      \"location\": \"Paragraph beginning “Our first responsibility in evangelization…”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“If we cannot evangelize our children, how can we expect to win others to the Lord?”\",\n      \"suggested_fix\": \"Use wording for sharing or bringing the gospel to the children, such as “Ikiwa hatuwezi kuwafikishia watoto wetu injili,” rather than wording that specifically means preaching to them.\",\n      \"translation_quote\": \"“Ikiwa hatuwezi kuwahubiria watoto wetu, tunawezaje kutarajia kuwaongoza wengine kwa Bwana?”\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 1931,
+    "content_evidence_truncated": false,
+    "content_sha256": "29569aa1a0e5f2ebf8a352b4b0fb759d2708a8c71b5f721b19091ae28a774a13",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1178,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 697,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8535,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9716
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

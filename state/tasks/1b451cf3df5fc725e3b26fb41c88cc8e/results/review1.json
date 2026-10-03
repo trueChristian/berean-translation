@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5a5966e4-9cc6-498f-b66c-662861e10c46",
+    "response_id": "chatcmpl-EUz9qcFUUBpDWuPyspIZkVyZEQufp",
+    "usage": {
+      "completion_tokens": 755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 507,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9434,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10192
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph on God-given authority; Romans 13:1-2 quotation",
+        "severity": "major",
+        "source_quote": "“and they that resist shall receive to themselves damnation”",
+        "suggested_fix": "Translate “damnation” with a Dutch term conveying condemnation or damnation, such as “verdoemenis,” rather than the less severe “een oordeel halen.” For example: “en wie zich verzetten, zullen over zichzelf verdoemenis brengen.”",
+        "translation_quote": "“en wie zich verzet, zal over zichzelf een oordeel halen”"
+      },
+      {
+        "location": "Paragraph on church leaders; 1 Samuel 15:23 quotation",
+        "severity": "major",
+        "source_quote": "“and stubbornness is as iniquity and idolatry”",
+        "suggested_fix": "Translate “stubbornness” as “hardnekkigheid” or an equivalent, rather than “ongehoorzaamheid,” which changes the stated comparison. For example: “en hardnekkigheid is als ongerechtigheid en afgoderij.”",
+        "translation_quote": "“en ongehoorzaamheid is afgoderij”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

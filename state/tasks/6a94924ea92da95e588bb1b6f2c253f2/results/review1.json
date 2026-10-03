@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4c557efe-8cd6-43e2-82f6-ea28925c0184",
+    "response_id": "chatcmpl-EUz9DqCMGkcxPLmHaAlryEmH7swd7",
+    "usage": {
+      "completion_tokens": 518,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5429,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5426,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5947
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article.html — 4번째 단락",
+        "severity": "minor",
+        "source_quote": "There are phone conference lines. There are chat lines. There are webinars geared towards the issue.",
+        "suggested_fix": "전화 회의 서비스도 있고, 채팅 서비스도 있으며, 이 문제를 다루는 웨비나도 있습니다.",
+        "translation_quote": "전화 회의 회선이 마련되고, 채팅 창구도 생겼습니다. 이 문제를 다루는 웨비나도 있습니다."
+      },
+      {
+        "location": "article.html — 9번째 단락, 두 번째 글머리표",
+        "severity": "major",
+        "source_quote": "As many as one in four people ages 18 through 24 having seriously considered suicide in the 30 days preceding the survey (researchers surveyed 5,412 adults in the US between June 24 and 30.)",
+        "suggested_fix": "18세에서 24세 사이의 사람들 중 많게는 4명 중 1명이 설문조사 전 30일 동안 자살을 진지하게 고려했습니다(연구진은 6월 24일부터 30일까지 미국 성인 5,412명을 조사했습니다).",
+        "translation_quote": "18세에서 24세 사이의 사람들 중 많게는 4명 중 1명이 설문조사 전 30일 동안 자살을 진지하게 고려했습니다(연구진은 6월 24일부터 30일까지 미국 성인 5,412명을 조사했습니다)."
+      },
+      {
+        "location": "article.html — 13번째 단락",
+        "severity": "major",
+        "source_quote": "We never know when our smile or encouraging word will help make a change in someone’s eternal welfare.",
+        "suggested_fix": "우리의 미소나 격려의 말이 누군가의 영원한 운명에 변화를 가져오는 때가 언제일지 우리는 알 수 없습니다.",
+        "translation_quote": "우리의 미소나 격려의 말이 누군가의 영원한 복에 변화를 가져오는 때가 언제일지 우리는 알 수 없습니다."
+      },
+      {
+        "location": "article.html — 18번째 단락, 첫 번째 항목",
+        "severity": "major",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "이것은 우리의 느낌이 아니라 그분의 사실에 따른 것입니다.",
+        "translation_quote": "이것은 우리의 느낌이 아니라 그분의 사실에 따른 것입니다."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

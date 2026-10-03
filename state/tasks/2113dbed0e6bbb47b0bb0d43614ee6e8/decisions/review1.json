@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "正文第4段，父亲的警告",
+      "severity": "major",
+      "source_quote": "“Ramona,” he said, “I want you to stay off the gate.”",
+      "suggested_fix": "将“我不许你再爬栅门”改为“拉莫娜，”他说，“我不许你再爬栅门。”",
+      "translation_quote": "“拉莫娜，”他说，“我不许你再爬栅门。”"
+    },
+    {
+      "location": "正文第4段，差点摔倒处",
+      "severity": "major",
+      "source_quote": "This time, however, she narrowly escaped falling to the ground.",
+      "suggested_fix": "改为“不过这一次，她险些摔到地上。”",
+      "translation_quote": "不过这次她差一点就摔到了地上。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

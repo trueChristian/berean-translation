@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, third paragraph",
+      "severity": "major",
+      "source_quote": "However, as time has passed, this seems to have been short-lived by all who did not have a deeper level of stability in their lives.",
+      "suggested_fix": "لكن يبدو أن ذلك لم يدم طويلًا لدى كل من لم يكن في حياته قدر أعمق من الثبات.",
+      "translation_quote": "لكن يبدو أن ذلك لم يدم، مع مرور الوقت، إلا لدى من لم يكن في حياتهم قدر أعمق من الثبات."
+    },
+    {
+      "location": "source.html, numbered list, item 5",
+      "severity": "minor",
+      "source_quote": "God will allow our fellow man to go through times of difficulty",
+      "suggested_fix": "سيسمح الله لأمثالنا من الناس بأن يمروا بأوقات صعبة",
+      "translation_quote": "سيسمح الله لقريبنا الإنسان بأن يمر بأوقات صعبة"
+    },
+    {
+      "location": "source.html, final paragraph",
+      "severity": "minor",
+      "source_quote": "our Sovereign God",
+      "suggested_fix": "إلهنا صاحب السيادة",
+      "translation_quote": "إلهنا السيد"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

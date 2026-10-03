@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, fourth paragraph",
+      "severity": "major",
+      "source_quote": "The Old Testament was written by prophets and leaders who correctly predicted future events and ruled nations.",
+      "suggested_fix": "عہدِ عتیق انبیاؤں اور رہنماؤں نے لکھا، جنہوں نے آنے والے واقعات کی درست پیش گوئی کی اور قوموں پر حکومت کی۔",
+      "translation_quote": "عہدِ عتیق انبیاؤں اور رہنماؤں نے لکھا، جنہوں نے آنے والے واقعات کی درست پیش گوئی کی اور قوموں پر حکومت کی۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

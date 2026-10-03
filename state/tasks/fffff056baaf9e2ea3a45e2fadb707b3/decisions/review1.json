@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 2",
+      "severity": "major",
+      "source_quote": "He was never well-liked; despised by all men;",
+      "suggested_fix": "Replace “কেউ তাঁকে কখনো ভালোবাসেনি” with wording meaning “He was never well-liked,” such as “তিনি কখনোই মানুষের প্রিয় ছিলেন না,” to avoid intensifying this into a claim that nobody loved him.",
+      "translation_quote": "কেউ তাঁকে কখনো ভালোবাসেনি; সবাই করত অবজ্ঞা;"
+    },
+    {
+      "location": "Poem, stanza 6",
+      "severity": "major",
+      "source_quote": "But the stricken Savior opened not His mouth.",
+      "suggested_fix": "Replace “পাছে” with a phrase that simply says he did not open his mouth; for example: “কিন্তু ক্ষতবিক্ষত ত্রাণকর্তা মুখ খুললেন না।”",
+      "translation_quote": "কিন্তু ক্ষতবিক্ষত ত্রাণকর্তা মুখ খুললেন না পাছে।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

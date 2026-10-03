@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e0a1b6b4-a8b1-477a-be4f-d4a002fe97e1",
+    "response_id": "chatcmpl-EUz8yRYdKhiq3pDWcs7eLbKvo2Dyt",
+    "usage": {
+      "completion_tokens": 1040,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 637,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14104,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14101,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15144
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Parágrafo sobre Judson ter sete semanas quando a família voltou para casa",
+        "severity": "major",
+        "source_quote": "From the time he was three weeks until he was seven months, he struggled with his bowels.",
+        "suggested_fix": "Altere “Dos três meses aos sete meses” para “Das três semanas aos sete meses”.",
+        "translation_quote": "Dos três meses aos sete meses, teve dificuldades intestinais."
+      },
+      {
+        "location": "Parágrafo sobre o progresso ao final da primeira semana",
+        "severity": "major",
+        "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate",
+        "suggested_fix": "Substitua “uma de suas pequenas raquetes” por uma tradução fiel do termo do original; “raquetes” não corresponde a “paddies”.",
+        "translation_quote": "oferecia a Sterling e a mim uma de suas pequenas raquetes para segurarmos enquanto comia"
+      },
+      {
+        "location": "Parágrafo sobre a disciplina durante as refeições",
+        "severity": "major",
+        "source_quote": "I prayed and switched.",
+        "suggested_fix": "Traduza “switched” como o uso de uma vara pequena, por exemplo: “Eu orava e lhe dava pequenas varadas.” “Dava palmadas” apaga a referência específica ao instrumento indicada pelo original.",
+        "translation_quote": "Eu orava e lhe dava palmadas."
+      },
+      {
+        "location": "Parágrafo sobre os métodos de treinamento após cancelar a consulta",
+        "severity": "major",
+        "source_quote": "we agreed to use repeated small switches to reprimand his willfulness.",
+        "suggested_fix": "Traduza “small switches” preservando a referência a pequenas varas, por exemplo: “concordamos em usar pequenas varas repetidas vezes para repreender sua obstinação.”",
+        "translation_quote": "concordamos em usar repetidas palmadas leves para repreender sua obstinação."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

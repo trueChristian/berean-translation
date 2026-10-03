@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5ea0d100-114c-44c3-b995-a7d2974ac962",
+    "response_id": "chatcmpl-EUz9S7fxlj8GGa1fF8ChS9oSnydTJ",
+    "usage": {
+      "completion_tokens": 1182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 746,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4596,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4593,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5778
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Luke bases his whole Gospel…”; translated Luke 1:1–4 quotation",
+        "severity": "major",
+        "source_quote": "“Many have undertaken to draw up an account of the things that have been fulfilled [or been surely believed] among us”",
+        "suggested_fix": "Replace “हममें से बहुतों ने उन बातों का विवरण लिखने का प्रयास किया है” with “बहुतों ने उन बातों का विवरण लिखने का प्रयास किया है” so the translation does not say that the writers were themselves among the people addressed by “among us.” Preserve the existing emphasis tags and reference.",
+        "translation_quote": "“हममें से बहुतों ने उन बातों का विवरण लिखने का प्रयास किया है जो हमारे बीच पूरी हुई हैं [या जिन पर दृढ़ विश्वास किया गया है]”"
+      },
+      {
+        "location": "source.html, paragraph beginning “One aspect of Christ’s dependability…”",
+        "severity": "major",
+        "source_quote": "“it stands alone above all other books in terms of its authorship, preservation, honesty, and accuracy.”",
+        "suggested_fix": "Replace “लेखन” with “लेखकत्व” or “लेखकों की विश्वसनीयता” to convey the source’s claim about authorship, rather than about the act or manner of writing.",
+        "translation_quote": "“लेखन, संरक्षण, ईमानदारी और सटीकता के मामले में वह बाकी सभी पुस्तकों से बढ़कर है।”"
+      },
+      {
+        "location": "source.html, paragraph beginning “In some discussions of faith…”; translated John 20:29 quotation",
+        "severity": "minor",
+        "source_quote": "“Have you believed because you have seen me?”",
+        "suggested_fix": "For grammatical, idiomatic Hindi, replace “क्या तूने मुझे इसलिए विश्वास किया कि तूने मुझे देखा है?” with “क्या तूने मुझे देखकर मुझ पर विश्वास किया?” Preserve the quotation’s existing tags and reference.",
+        "translation_quote": "“क्या तूने मुझे इसलिए विश्वास किया कि तूने मुझे देखा है?”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

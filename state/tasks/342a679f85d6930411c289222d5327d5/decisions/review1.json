@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, first stanza, second line",
+      "severity": "major",
+      "source_quote": "It was from the beginning that His will He would yield.",
+      "suggested_fix": "כבר מראשית הדרך היה נכון לוותר על רצונו.",
+      "translation_quote": "כבר מראשית דרכו בחר לעשות את רצונו."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "79b78624-7485-430e-ad58-4d5c91ee110e",
+    "response_id": "chatcmpl-EUz9IioLI7R3fibqrORV3J4J0UXf5",
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 468,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2005,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2002,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2597
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "시의 여섯 번째 연, 첫째 행",
+        "severity": "minor",
+        "source_quote": "Ten thousand angels, He could have summoned south,",
+        "suggested_fix": "원문의 ‘south’에 해당하는 방향 표현을 덧붙여 번역해 주세요. 예: “그분은 만 명의 천사를 남쪽으로 부르실 수도 있었지만,”",
+        "translation_quote": "그분은 만 명의 천사를 부르실 수도 있었지만,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

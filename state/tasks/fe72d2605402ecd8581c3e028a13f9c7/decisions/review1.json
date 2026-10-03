@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, final paragraph; Psalm 127:4 quotation",
+      "severity": "major",
+      "source_quote": "As arrows are in the hand of a mighty man; so are children of the youth –Psalm 127:4.",
+      "suggested_fix": "将引文改为：“勇士手中的箭怎样，少年所生的儿女也怎样——诗篇 127:4。”保留原有的 <em> 标签结构。",
+      "translation_quote": "箭袋充满了箭的勇士，少年时所生的儿女也是这样——诗篇 127:4。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

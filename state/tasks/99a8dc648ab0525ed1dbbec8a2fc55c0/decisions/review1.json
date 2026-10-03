@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "마지막 문단, 이론 목록",
+      "severity": "major",
+      "source_quote": "Descent with Modification",
+      "suggested_fix": "“변이를 동반한 계승”으로 수정해 계통적 계승이라는 뜻을 살려 주세요.",
+      "translation_quote": "변형을 동반한 하강"
+    },
+    {
+      "location": "마지막 문단, 무신론자들이 현실에 근거한다고 주장하는 부분",
+      "severity": "minor",
+      "source_quote": "they still claim to base all their thoughts on observable, repeatable reality",
+      "suggested_fix": "“관찰하고 반복해서 확인할 수 있는 현실에 자신들의 모든 생각을 근거한다고 계속 주장합니다”처럼 문장을 다듬어 주세요.",
+      "translation_quote": "관찰하고 반복해서 확인할 수 있는 현실에 모든 생각을 근거한다고 계속 주장합니다"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

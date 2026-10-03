@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning „Bevor er sie ins Bett brachte“; quoted Scripture\",\"severity\":\"major\",\"source_quote\":\"Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.\",\"suggested_fix\":\"<em>Stolz kommt vor dem Verderben und Hochmut vor dem Fall –Sprüche 16,18.</em>\",\"translation_quote\":\"Stolz kommt vor dem Sturz und Hochmut vor dem Fall –Sprüche 16,18.\"},{\"location\":\"HTML, paragraph beginning „Ramona nickte“\",\"severity\":\"minor\",\"source_quote\":\"which was a great grief to her little heart.\",\"suggested_fix\":\"Ersetze „was ihr kleinen Herzen großen Kummer bereitete“ durch „was ihrem kleinen Herzen großen Kummer bereitete“.\",\"translation_quote\":\"was ihr kleinen Herzen großen Kummer bereitete\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 806,
+    "content_evidence_truncated": false,
+    "content_sha256": "036e9e0b9c83060443e1df2a35dc6dadd67b0955813775be8019835164a8e90a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 387,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4059,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4056,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4654
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

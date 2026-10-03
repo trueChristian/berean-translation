@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Den rette og smale vei»",
+      "severity": "major",
+      "source_quote": "“Straight and Narrow,” as ascribed by the early American revival movement",
+      "suggested_fix": "Change «Den rette og smale vei» to «Den trange og smale vei». In this context “straight” is part of the article’s narrow/strait-gate wordplay, not a claim that the way is morally “right.”",
+      "translation_quote": "«Den rette og smale vei»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Uavhengig av hvordan vi tolker»",
+      "severity": "major",
+      "source_quote": "the adjectives, <em><u>straight</u> and <u>narrow</u></em>",
+      "suggested_fix": "Translate the paired terms as «<em><u>trang</u> og <u>smal</u></em>», keeping the existing HTML tags and order, so the contrast remains about the narrow gate rather than a «rett» (right/straight) way.",
+      "translation_quote": "<em><u>rett</u> og <u>smal</u></em>"
+    },
+    {
+      "location": "HTML, paragraph beginning «Her er det en inngang», quoted Luke 12:50",
+      "severity": "major",
+      "source_quote": "But I have a baptism to be baptized with; and how am I straitened till it be accomplished! –Luke 12:50.",
+      "suggested_fix": "Replace «og hvor jeg gruer meg til den er fullført!» with a faithful rendering of being constrained or pressed until it is accomplished, for example «og hvor trengt jeg er inntil det er fullført!» Keep the reference as Lukas 12:50.",
+      "translation_quote": "Men jeg har en dåp jeg må døpes med, og hvor jeg gruer meg til den er fullført! –Lukas 12:50."
+    },
+    {
+      "location": "HTML, paragraph beginning «Gud har gitt mennesker myndighet», quoted Romans 13:1-2",
+      "severity": "major",
+      "source_quote": "and they that resist shall receive to themselves damnation –Romans 13:1-2.",
+      "suggested_fix": "Render «damnation» with a Norwegian term that preserves the source’s condemnation meaning, such as «fordømmelse», rather than the less specific «dom». Keep the reference as Romerne 13:1-2.",
+      "translation_quote": "De som gjør det, skal få sin dom –Romerne 13:1-2."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opsomming, punt 1",
+      "severity": "minor",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "Dit is gebaseerd op wat Hij zegt, niet op hoe wij ons voelen.",
+      "translation_quote": "Dit is gebaseerd op Zijn feit, niet op ons gevoel."
+    },
+    {
+      "location": "HTML, alinea met de titel van het CNN-artikel",
+      "severity": "minor",
+      "source_quote": "1 IN 4 YOUNG PEOPLE ARE REPORTING SUICIDAL THOUGHTS",
+      "suggested_fix": "‘1 OP DE 4 JONGEREN MELDT ZELFMOORDGEDACHTEN’",
+      "translation_quote": "‘1 OP DE 4 JONGEREN MELDT GEDACHTEN AAN ZELFMOORD’"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

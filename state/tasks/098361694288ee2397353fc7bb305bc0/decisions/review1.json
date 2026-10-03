@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Kolosserbrevet 3:16 quotation",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Bytt «synge for Gud med takknemlighet i hjertet» med «synge med nåde i hjertene deres for Herren», slik at formuleringen bevarer betydningen av «grace» og «the Lord».",
+      "translation_quote": "«… og synge for Gud med takknemlighet i hjertet – Kolosserne 3:16.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

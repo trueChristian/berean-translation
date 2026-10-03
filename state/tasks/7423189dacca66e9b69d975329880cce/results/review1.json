@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2d49c56e-6701-44eb-af95-8582f1a488c5",
+    "response_id": "chatcmpl-EUz9MkteVl1mWkvZmv08bRQMGlKAV",
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 416,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5114,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5111,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5767
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 2 (final sentence), paragraph 4, and paragraph 7",
+        "severity": "major",
+        "source_quote": "“throughout our plain communities”; “we as the plain community”; “Many of the plain community”",
+        "suggested_fix": "Sostituire «comunità anabattiste tradizionaliste» e «comunità anabattista tradizionalista» con una resa che mantenga il riferimento più ampio dell’originale senza aggiungere un’identificazione confessionale, ad esempio «comunità di tradizione semplice» / «comunità di tradizione semplice», nei tre punti interessati. Nella frase finale del paragrafo 2, rendere inoltre «nelle nostre comunità di tradizione semplice».",
+        "translation_quote": "“nelle nostre comunità anabattiste tradizionaliste”; “noi, come comunità anabattista tradizionalista”; “Molti appartenenti alle comunità anabattiste tradizionaliste”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

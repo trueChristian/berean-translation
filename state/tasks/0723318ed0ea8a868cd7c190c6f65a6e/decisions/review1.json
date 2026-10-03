@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning «Et hjerte som ikke er blitt gjort nytt …»",
+      "severity": "major",
+      "source_quote": "It is no wonder that many churches of today are accepting drift.",
+      "suggested_fix": "Replace «godtar frafall» with «aksepterer at folk driver bort» (or another wording that conveys tolerating spiritual drift, rather than accepting apostasy).",
+      "translation_quote": "Det er ikke rart at så mange kirker i dag godtar frafall."
+    },
+    {
+      "location": "Article paragraph beginning «Folk har sagt til meg …»; quotation from 1 Peter 2:2",
+      "severity": "major",
+      "source_quote": "…desire the sincere milk of the word, that ye may grow thereby: –1 Peter 2:2.",
+      "suggested_fix": "Correct the translated quotation to preserve the source’s meaning, for example: «…lengte etter melk, den rene åndelige melk, så dere kan vokse ved den. –1. Peter 2:2.»",
+      "translation_quote": "…lengte etter den rene melk, så dere kan vokse ved den. –1. Peter 2:2."
+    },
+    {
+      "location": "Article paragraph beginning «Når noen kommer og sier …»",
+      "severity": "major",
+      "source_quote": "Some see it as God’s Word and soak it in.",
+      "suggested_fix": "Replace «ser at dette er Guds Ord og tar det til seg» with wording that means they recognize it as God’s Word and absorb it, e.g. «Noen ser at dette er Guds Ord og suger det til seg.»",
+      "translation_quote": "Noen ser at dette er Guds Ord og tar det til seg."
+    },
+    {
+      "location": "Article paragraph beginning «Gud vil at vi skal sette all vår lit …»",
+      "severity": "major",
+      "source_quote": "We walk by faith, NOT by sight… even when things are going well.",
+      "suggested_fix": "Replace «Vi vandrer i tro, IKKE i det synlige» with «Vi vandrer i tro, IKKE ved det vi ser» to preserve the contrast with sight.",
+      "translation_quote": "Vi vandrer i tro, IKKE i det synlige … selv når alt går bra."
+    },
+    {
+      "location": "Article paragraph beginning «Bibelens sier at» (Åndens frukt)",
+      "severity": "major",
+      "source_quote": "…faith, meekness, temperance… –Galatians 5:22-23.",
+      "suggested_fix": "Translate «faith» here as «tro», not «trofasthet», and retain all the listed qualities; for example, change «trofasthet» to «tro».",
+      "translation_quote": "…godhet, trofasthet, ydmykhet og selvbeherskelse … –Galaterne 5:22–23."
+    },
+    {
+      "location": "Article paragraph beginning «Bibelens sier at» (Åndens frukt)",
+      "severity": "major",
+      "source_quote": "Are these the things that people see when they look at you and I?",
+      "suggested_fix": "Change «Er dette det folk ser når de ser på deg og meg?» to «Er dette det folk ser når de ser på deg og meg?» The source’s intended meaning is already conveyed; no correction needed.",
+      "translation_quote": "Er dette det folk ser når de ser på deg og meg?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

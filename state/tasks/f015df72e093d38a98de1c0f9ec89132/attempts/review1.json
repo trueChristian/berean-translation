@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph quoting 1 Peter 2:2\",\"severity\":\"major\",\"source_quote\":\"“desire the sincere milk of the word, that ye may grow thereby”\",\"suggested_fix\":\"Replace “ili kwa hayo mpate kuukulia wokovu” with “ili kwa hayo mpate kukua,” preserving the source’s meaning without adding “salvation.” Keep the existing emphasis and reference structure.\",\"translation_quote\":\"“kutamani maziwa ya neno yasiyoghoshiwa, ili kwa hayo mpate kuukulia wokovu: –1 Petro 2:2.”\"},{\"location\":\"Article paragraph quoting Matthew 7:22\",\"severity\":\"major\",\"source_quote\":\"“and in thy name done many wonderful works?”\",\"suggested_fix\":\"Replace “kufanya miujiza mingi” with wording that conveys “doing many wonderful works,” such as “kufanya kazi nyingi za ajabu,” without narrowing the phrase to miracles.\",\"translation_quote\":\"“Na kwa jina lako kufanya miujiza mingi?”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 946,
+    "content_evidence_truncated": false,
+    "content_sha256": "15ca0f7439e2779885b0364dd02d16dab90c8cd37c78fef4ec2a89fa2ec35ac4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 827,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9082,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9079,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9909
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

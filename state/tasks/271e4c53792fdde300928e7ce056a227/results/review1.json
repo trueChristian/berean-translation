@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bee39314-4544-4047-825b-e2a3221309a8",
+    "response_id": "chatcmpl-EUzAAxx2TIVefpqZAFIZj61MErFHl",
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 597,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5147,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5144,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5941
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opsomming, punt 1",
+        "severity": "minor",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "Dit is gebaseerd op wat Hij zegt, niet op hoe wij ons voelen.",
+        "translation_quote": "Dit is gebaseerd op Zijn feit, niet op ons gevoel."
+      },
+      {
+        "location": "HTML, alinea met de titel van het CNN-artikel",
+        "severity": "minor",
+        "source_quote": "1 IN 4 YOUNG PEOPLE ARE REPORTING SUICIDAL THOUGHTS",
+        "suggested_fix": "‘1 OP DE 4 JONGEREN MELDT ZELFMOORDGEDACHTEN’",
+        "translation_quote": "‘1 OP DE 4 JONGEREN MELDT GEDACHTEN AAN ZELFMOORD’"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

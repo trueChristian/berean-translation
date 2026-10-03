@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c7b7a911-bfe2-486a-b52b-67baf98318b6",
+    "response_id": "chatcmpl-EUz8yMXeSaE7KLT9dcmPmQBeOTCwT",
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 440,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8999,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8996,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9683
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph about new Christians; Luke 2:52 quotation",
+        "severity": "major",
+        "source_quote": "…in wisdom and stature, and in favour with God and man –Luke 2:52.",
+        "suggested_fix": "Replace only the quoted Afrikaans wording with: <em>…in wysheid en gestalte en in guns by God en die mense –Lukas 2:52.</em>",
+        "translation_quote": "…in wysheid en grootte en in genade by God en die mense. –Lukas 2:52."
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Use consistent Afrikaans capitalization: OORDENKINGS VAN ’N SENDeling → OORDENKINGS VAN ’N SENDEling is still inconsistent; use OORDENKINGS VAN ’N SENDeling only if preserving the source casing is intentional, otherwise use OORDENKINGS VAN ’N SENDELING.",
+        "translation_quote": "OORDENKINGS VAN ’N SENDeling"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

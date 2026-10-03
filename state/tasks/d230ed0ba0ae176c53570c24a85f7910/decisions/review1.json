@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, Psalm 127:4 quotation",
+      "severity": "major",
+      "source_quote": "As arrows are in the hand of a mighty man; so are children of the youth –Psalm 127:4.",
+      "suggested_fix": "Replace only the quotation text with: <em>Som pilar i en hjältes hand är barn man får i sin ungdom – Psaltaren 127:4.</em>",
+      "translation_quote": "Som pilar i en hjältes hand är söner man får i sin ungdom – Psaltaren 127:4."
+    },
+    {
+      "location": "Final paragraph, Psalm 127:5 quotation",
+      "severity": "major",
+      "source_quote": "they shall speak with the enemies in the gate –Psalm 127:5.",
+      "suggested_fix": "Replace only the final clause with: De ska tala med fienderna i stadsporten – Psaltaren 127:5.",
+      "translation_quote": "De kommer inte på skam, när de går till rätta med fiender i porten – Psaltaren 127:5."
+    },
+    {
+      "location": "Affirmation factor, paragraph beginning “Affirming is not flattery”",
+      "severity": "major",
+      "source_quote": "This is my beloved Son, in whom I am well pleased.",
+      "suggested_fix": "Translate the quoted words as: ”Detta är min älskade Son, som jag har behag till.”",
+      "translation_quote": "Detta är min älskade Son, han är min glädje."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

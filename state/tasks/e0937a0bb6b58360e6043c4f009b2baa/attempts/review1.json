@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"लूका 23:31 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"For if they do these things in a green tree, what shall be done in the dry?\",\"suggested_fix\":\"क्योंकि यदि वे हरे पेड़ के साथ ऐसा करते हैं, तो सूखे पेड़ के साथ क्या न करेंगे? –लूका 23:31।\",\"translation_quote\":\"क्योंकि जब वे हरे पेड़ के साथ ऐसा करते हैं, तो सूखे के साथ क्या न होगा? –लूका 23:31।\"},{\"location\":\"अंतिम अनुच्छेद\",\"severity\":\"minor\",\"source_quote\":\"There is a very rewarding feeling, a feeling of peace that passes all understanding.\",\"suggested_fix\":\"इससे बहुत संतोष मिलता है—ऐसी शांति का एहसास जो सारी समझ से परे है।\",\"translation_quote\":\"इससे बहुत प्रतिफल मिलता है, ऐसा शांति का एहसास जो सारी समझ से परे है।\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1248,
+    "content_evidence_truncated": false,
+    "content_sha256": "82558f344ed1ec2a0a19277fd6521e5992e006a41331d08ae6dd820f727f7a30",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 596,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9571,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10409
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

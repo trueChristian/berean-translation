@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, shairi, ubeti wa 6",
+      "severity": "major",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Tafsiri mstari huu bila kuongeza mwelekeo wa kijiografia: “Angeweza kuita malaika elfu kumi,”",
+      "translation_quote": "Angeliweza kuwaita malaika elfu kumi kutoka kusini,"
+    },
+    {
+      "location": "HTML, shairi, ubeti wa 9",
+      "severity": "major",
+      "source_quote": "Because He treasured us, an atonement for our sin / He made when He bled and died there to make us His kin!",
+      "suggested_fix": "Hifadhi maana kwamba alifanya upatanisho kwa ajili ya dhambi zetu alipomwaga damu na kufa, ili kutufanya kuwa jamaa zake. Kwa mfano: “Kwa sababu alitutunza, alifanya upatanisho kwa ajili ya dhambi zetu / Alipomwaga damu na kufa pale, ili atufanye kuwa jamaa zake!”",
+      "translation_quote": "Kwa sababu alituthamini, alifanya upatanisho kwa ajili ya dhambi zetu / Alipovuja damu na kufa pale ili atufanye kuwa jamaa zake!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

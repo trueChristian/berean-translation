@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "08b6ab7f-c645-4dc4-a1ac-6e44b7b1ba07",
+    "response_id": "chatcmpl-EUz9BHApzFI2cUNV8xtGGt6lagTbQ",
+    "usage": {
+      "completion_tokens": 516,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 430,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1858,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1855,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2374
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first stanza, second line",
+        "severity": "minor",
+        "source_quote": "It was from the beginning that His will He would yield.",
+        "suggested_fix": "Desde el principio, habría de someter su voluntad.",
+        "translation_quote": "Desde el principio, su voluntad habría de entregar."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

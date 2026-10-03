@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Giovanni Pierluigi da Palestrina…”\",\"severity\":\"major\",\"source_quote\":\"‘The Palestrina Style,’ as it is called, was a sophisticated A cappella form\",\"suggested_fix\":\"Replace “aina ya kisasa ya A cappella” with “aina changamano ya A cappella” to convey “sophisticated” rather than “modern.”\",\"translation_quote\":\"“Mtindo wa Palestrina,” kama unavyoitwa, ulikuwa aina ya kisasa ya A cappella\"},{\"location\":\"Acts 16:25 paragraph\",\"severity\":\"major\",\"source_quote\":\"the doors flew open, and everyone’s prison bands broke.\",\"suggested_fix\":\"Revise the sentence to preserve both details: “milango ikafunguka kwa kishindo, na vifungo vya wafungwa wote vikavunjika.”\",\"translation_quote\":\"milango ikafunguka, na vifungo vya kila mtu gerezani vikalegea.\"},{\"location\":\"Colossians 3:16 quotation\",\"severity\":\"major\",\"source_quote\":\"singing with grace in your hearts to the Lord\",\"suggested_fix\":\"Replace “mbele za Mungu” with “kwa Bwana” so the quotation retains the source’s stated recipient.\",\"translation_quote\":\"huku mkiimba kwa neema mioyoni mwenu mbele za Mungu\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1180,
+    "content_evidence_truncated": false,
+    "content_sha256": "6f6cd65a94745cf476d664cd1d81a84b7c86f8431a947df3aa0341f32f8a3db7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1063,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 757,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6254,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7320
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

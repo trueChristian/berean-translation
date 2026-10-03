@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"시의 여섯 번째 연, 첫째 행\",\"severity\":\"minor\",\"source_quote\":\"Ten thousand angels, He could have summoned south,\",\"suggested_fix\":\"원문의 ‘south’에 해당하는 방향 표현을 덧붙여 번역해 주세요. 예: “그분은 만 명의 천사를 남쪽으로 부르실 수도 있었지만,”\",\"translation_quote\":\"그분은 만 명의 천사를 부르실 수도 있었지만,\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 452,
+    "content_evidence_truncated": false,
+    "content_sha256": "2a2c37e432c7f357f3112bbfbe9b0926c001577cdbea29722ba8d6f9ed7ac44a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 468,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2005,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2002,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2597
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

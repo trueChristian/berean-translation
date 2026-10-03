@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, first stanza, second line\",\"severity\":\"major\",\"source_quote\":\"It was from the beginning that His will He would yield.\",\"suggested_fix\":\"כבר מראשית הדרך היה נכון לוותר על רצונו.\",\"translation_quote\":\"כבר מראשית דרכו בחר לעשות את רצונו.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 369,
+    "content_evidence_truncated": false,
+    "content_sha256": "c551e394ba4aec0d74111a07aa401b673ad0ea694c19a026fd2300c3e19ea9c0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 713,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1900,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2616
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

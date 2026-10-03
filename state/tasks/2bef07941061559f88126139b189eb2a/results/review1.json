@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c0b4b698-40e4-46dd-b104-777693cd07a4",
+    "response_id": "chatcmpl-EUzAGRh7PRShqKiXX267w1EUwvuMZ",
+    "usage": {
+      "completion_tokens": 787,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 537,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5197,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5987
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, third paragraph",
+        "severity": "major",
+        "source_quote": "However, as time has passed, this seems to have been short-lived by all who did not have a deeper level of stability in their lives.",
+        "suggested_fix": "لكن يبدو أن ذلك لم يدم طويلًا لدى كل من لم يكن في حياته قدر أعمق من الثبات.",
+        "translation_quote": "لكن يبدو أن ذلك لم يدم، مع مرور الوقت، إلا لدى من لم يكن في حياتهم قدر أعمق من الثبات."
+      },
+      {
+        "location": "source.html, numbered list, item 5",
+        "severity": "minor",
+        "source_quote": "God will allow our fellow man to go through times of difficulty",
+        "suggested_fix": "سيسمح الله لأمثالنا من الناس بأن يمروا بأوقات صعبة",
+        "translation_quote": "سيسمح الله لقريبنا الإنسان بأن يمر بأوقات صعبة"
+      },
+      {
+        "location": "source.html, final paragraph",
+        "severity": "minor",
+        "source_quote": "our Sovereign God",
+        "suggested_fix": "إلهنا صاحب السيادة",
+        "translation_quote": "إلهنا السيد"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

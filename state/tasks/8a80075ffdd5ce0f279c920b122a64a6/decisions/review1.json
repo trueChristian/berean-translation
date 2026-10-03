@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraf tentang jemaat Yahudi Ortodoks dan Konservatif",
+      "severity": "major",
+      "source_quote": "“a cantor to chant or sing an authoritative text from the scriptures”",
+      "suggested_fix": "Ganti “seorang kantur untuk melantunkan atau menyanyikan teks berwibawa dari kitab suci” dengan “seorang pemimpin nyanyian untuk melantunkan atau menyanyikan teks otoritatif dari kitab suci” agar tidak keliru menyebut cantor sebagai kantur (pembantu gereja).",
+      "translation_quote": "“seorang kantur untuk melantunkan atau menyanyikan teks berwibawa dari kitab suci”"
+    },
+    {
+      "location": "HTML, paragraf tentang nyanyian Paulus dan Silas",
+      "severity": "major",
+      "source_quote": "“they were in stocks”",
+      "suggested_fix": "Ganti “terbelenggu” dengan “dipasung” atau “terpasung” agar mempertahankan keterangan bahwa mereka berada dalam pasungan.",
+      "translation_quote": "“terbelenggu”"
+    },
+    {
+      "location": "HTML, paragraf tentang musik Renaisans dan akustik kapel",
+      "severity": "minor",
+      "source_quote": "“had a particularly ethereal effect”",
+      "suggested_fix": "Pertimbangkan “menghasilkan kesan yang sangat ethereal/transenden” sebagai pengganti “menghasilkan kesan yang sangat halus dan surgawi”; terjemahan saat ini menambahkan kesan “surgawi” yang tidak dinyatakan secara eksplisit.",
+      "translation_quote": "“menghasilkan kesan yang sangat halus dan surgawi”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

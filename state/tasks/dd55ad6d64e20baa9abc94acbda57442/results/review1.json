@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f0ec1236-8216-42cf-b5bb-4246d77e16db",
+    "response_id": "chatcmpl-EUz9AlPXIJYBvYqsGOuXXWuJ2TIZN",
+    "usage": {
+      "completion_tokens": 355,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5726,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5723,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6081
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article.html, lead paragraph",
+        "severity": "minor",
+        "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+        "suggested_fix": "将装饰性首字母改为中文排版，或移除首字母大写样式；例如：<p class=\"lead\">许多人会问……</p>，并保留其余原有标签结构。",
+        "translation_quote": "<span class=\"drop-cap\">M</span>许多人会问"
+      },
+      {
+        "location": "article.html, paragraph beginning “保罗和西拉在监狱里”",
+        "severity": "major",
+        "source_quote": "When Paul and Silas were in prison, and they were in stocks singing at midnight",
+        "suggested_fix": "将“脚上戴着木狗”改为“被戴上脚镣”或“脚上戴着枷锁”，以准确表达被囚禁时戴着刑具。",
+        "translation_quote": "保罗和西拉在监狱里，脚上戴着木狗，半夜唱诗时"
+      },
+      {
+        "location": "article.html, paragraph beginning “早期教会从希伯来人的犹太传统”",
+        "severity": "minor",
+        "source_quote": "Gregorian chant was the dominant form of church music starting around 590 A.D.",
+        "suggested_fix": "将“公元590年前后开始”改为“从公元590年前后起”，明确表达该形式从这一时期开始成为主流。",
+        "translation_quote": "公元590年前后开始，格里高利圣咏成为教会音乐的主流形式。"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, seconda strofa",
+      "severity": "major",
+      "source_quote": "It was from the beginning that His will He would yield.",
+      "suggested_fix": "Sostituire con: «Fin dal principio avrebbe ceduto la propria volontà.»",
+      "translation_quote": "Fin dal principio avrebbe fatto la volontà di Lui."
+    },
+    {
+      "location": "source.html, sesta strofa",
+      "severity": "major",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Sostituire con: «Avrebbe potuto convocare diecimila angeli verso sud,»",
+      "translation_quote": "Avrebbe potuto convocare diecimila angeli in suo aiuto,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

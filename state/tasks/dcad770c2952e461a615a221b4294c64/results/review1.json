@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "74fe69b5-b461-4b45-b394-0792ce9677e6",
+    "response_id": "chatcmpl-EUz8zGmAIGlnClWWvlPb3fvQYt7Wz",
+    "usage": {
+      "completion_tokens": 335,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5730,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5727,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6065
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “De apostel Paulus schrijft” (Ephesians 5:19)",
+        "severity": "major",
+        "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord",
+        "suggested_fix": "Replace only the quoted passage, preserving its surrounding <em> tag and reference, with a faithful Dutch translation, for example: “Spreek onder elkaar met psalmen, lofzangen en geestelijke liederen, zing en maak in uw hart melodie voor de Heer”",
+        "translation_quote": "Spreek onder elkaar met psalmen, lofzangen en geestelijke liederen, zing en maak melodie in uw hart voor de Heer"
+      },
+      {
+        "location": "Article, paragraph beginning “Ook in Kolossenzen staat” (Colossians 3:16)",
+        "severity": "major",
+        "source_quote": "teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord",
+        "suggested_fix": "Replace only the quoted passage, preserving its surrounding <em> tag and reference, with a faithful Dutch translation, for example: “elkaar onderwijzen en vermanen met psalmen, lofzangen en geestelijke liederen, zingend met genade in uw hart voor de Heer”",
+        "translation_quote": "elkaar moeten onderwijzen en terechtwijzen met psalmen, lofzangen en geestelijke liederen, zingend met dankbaarheid in uw hart voor de Heer"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “People have told me…”; quoted 1 Peter 2:2\",\"severity\":\"major\",\"source_quote\":\"“desire the sincere milk of the word, that ye may grow thereby”\",\"suggested_fix\":\"Replace the quoted clause with «жаждать чистого словесного молока, чтобы благодаря ему возрастать» (or an equally faithful Russian rendering). Preserve the existing <em> tags and the reference 1 Петра 2:2. The source says to grow through the word; it does not add “unto salvation.”\",\"translation_quote\":\"«возлюбить чистое словесное молоко, дабы от него возрасти во спасение»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 762,
+    "content_evidence_truncated": false,
+    "content_sha256": "02047c7064851fbde9cb19be513e3c4c96b2c4c985fb419946cbd417883df374",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 919,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 740,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8778,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8775,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9697
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

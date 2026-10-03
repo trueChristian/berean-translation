@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "56773914-f4e4-4c64-8a38-9edb931e2338",
+    "response_id": "chatcmpl-EUz9JCXvX2mH1kR6w3KZoX45kpPue",
+    "usage": {
+      "completion_tokens": 595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 457,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5612,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5609,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6207
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second blockquote (1 Corinthians 10:13), opening clause",
+        "severity": "major",
+        "source_quote": "There hath no temptation taken you but such as is common to man",
+        "suggested_fix": "Replace the opening clause with a faithful Urdu rendering of the printed meaning, for example: «تم پر ایسی کوئی آزمائش نہیں آئی جو انسانوں پر عام نہ ہو؛» Keep the existing reference and the remainder of the blockquote unchanged.",
+        "translation_quote": "تم کسی ایسی آزمائش میں نہیں پڑے جو انسان کے برداشت سے باہر ہو"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

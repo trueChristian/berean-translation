@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2f6ed96c-9f1a-442a-a1f2-6073667311f8",
+    "response_id": "chatcmpl-EUz9EN6cGoDUAIyCvCG4SmrJ3uJfw",
+    "usage": {
+      "completion_tokens": 263,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4103,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4100,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4366
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, avsnittet som börjar ”Innan han lade henne i sängen”",
+        "severity": "major",
+        "source_quote": "“Ramona, listen, can you be quiet for a bit?”",
+        "suggested_fix": "Ändra till exempelvis: ”Ramona, lyssna, kan du vara tyst en liten stund?”",
+        "translation_quote": "”Ramona, lyssna, kan du vara tyst en liten stund?”"
+      },
+      {
+        "location": "HTML, stycket efter dialogen med pappan",
+        "severity": "major",
+        "source_quote": "“Are you sorry for disobeying me, Ramona?” Papa asked. “Yes, Papa, I am sorry” she replied tearfully.",
+        "suggested_fix": "Återge frågan som en fråga om ånger, till exempel: ”Ångrar du att du var olydig mot mig, Ramona?” frågade pappa. ”Ja, pappa, jag är ledsen”, svarade hon gråtande.",
+        "translation_quote": "”Ångrar du att du inte lydde mig, Ramona?” frågade pappa. ”Ja, pappa, det gör jag”, svarade hon gråtande."
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

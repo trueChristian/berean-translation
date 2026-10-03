@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, Psalm 127:4 quotation\",\"severity\":\"major\",\"source_quote\":\"As arrows are in the hand of a mighty man; so are children of the youth –Psalm 127:4.\",\"suggested_fix\":\"Replace only the quotation text with: <em>Som pilar i en hjältes hand är barn man får i sin ungdom – Psaltaren 127:4.</em>\",\"translation_quote\":\"Som pilar i en hjältes hand är söner man får i sin ungdom – Psaltaren 127:4.\"},{\"location\":\"Final paragraph, Psalm 127:5 quotation\",\"severity\":\"major\",\"source_quote\":\"they shall speak with the enemies in the gate –Psalm 127:5.\",\"suggested_fix\":\"Replace only the final clause with: De ska tala med fienderna i stadsporten – Psaltaren 127:5.\",\"translation_quote\":\"De kommer inte på skam, när de går till rätta med fiender i porten – Psaltaren 127:5.\"},{\"location\":\"Affirmation factor, paragraph beginning “Affirming is not flattery”\",\"severity\":\"major\",\"source_quote\":\"This is my beloved Son, in whom I am well pleased.\",\"suggested_fix\":\"Translate the quoted words as: ”Detta är min älskade Son, som jag har behag till.”\",\"translation_quote\":\"Detta är min älskade Son, han är min glädje.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1202,
+    "content_evidence_truncated": false,
+    "content_sha256": "1c2a29ec270243b42edc28c0cc77f79452684fc8320d99484cda2d58c6b649ae",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1070,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 739,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8364,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9437
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

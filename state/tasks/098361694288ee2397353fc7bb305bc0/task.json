@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 6102
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 745,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 593,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5899,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5896,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6644
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, Kolosserbrevet 3:16 quotation",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Bytt «synge for Gud med takknemlighet i hjertet» med «synge med nåde i hjertene deres for Herren», slik at formuleringen bevarer betydningen av «grace» og «the Lord».",
+      "translation_quote": "«… og synge for Gud med takknemlighet i hjertet – Kolosserne 3:16.»"
+    }
+  ],
   "id": "098361694288ee2397353fc7bb305bc0",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

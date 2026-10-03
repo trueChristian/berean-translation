@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "57dc3ece-0d62-4f64-8bff-d1be3633cbbc",
+    "response_id": "chatcmpl-EUz9JjWB3w5sq0y9GyMAEHEaJTiEU",
+    "usage": {
+      "completion_tokens": 844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 669,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1904,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1901,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2748
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, seconda strofa",
+        "severity": "major",
+        "source_quote": "It was from the beginning that His will He would yield.",
+        "suggested_fix": "Sostituire con: «Fin dal principio avrebbe ceduto la propria volontà.»",
+        "translation_quote": "Fin dal principio avrebbe fatto la volontà di Lui."
+      },
+      {
+        "location": "source.html, sesta strofa",
+        "severity": "major",
+        "source_quote": "Ten thousand angels, He could have summoned south,",
+        "suggested_fix": "Sostituire con: «Avrebbe potuto convocare diecimila angeli verso sud,»",
+        "translation_quote": "Avrebbe potuto convocare diecimila angeli in suo aiuto,"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

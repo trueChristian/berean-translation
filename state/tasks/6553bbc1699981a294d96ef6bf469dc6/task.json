@@ -2,7 +2,6 @@
   "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 5558
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 589,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5334,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5331,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5923
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "“Men’s hearts failing them for fear of things that are coming on the earth.”",
+      "suggested_fix": "अर्थ को इस रूप में ठीक करें: “पृथ्वी पर आनेवाली बातों के डर से लोगों के हृदय बैठ जाएँगे।”",
+      "translation_quote": "“पृथ्वी पर आनेवाली घटनाओं के डर से लोगों के जी में जी न रहेगा।”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "critical",
+      "source_quote": "“The Apostle Peter said that …God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.”",
+      "suggested_fix": "कथन का श्रेय पौलुस को दें, पतरस को नहीं। उदाहरण: “प्रेरित पौलुस ने कहा कि …” बाकी उद्धरण और संदर्भ यथावत रखें।",
+      "translation_quote": "“प्रेरित पतरस ने कहा कि …परमेश्वर ने हमें भय की आत्मा नहीं, पर सामर्थ्य, प्रेम और संयम की आत्मा दी है –2 तीमुथियुस 1:7.”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“To spend even a little time following these theories will have a negative and spiritually draining effect on our lives and the lives around us.”",
+      "suggested_fix": "“इन सिद्धांतों का अनुसरण करने में थोड़ा-सा समय भी बिताने से हमारे और हमारे आसपास के लोगों के जीवन पर नकारात्मक तथा आत्मिक रूप से थका देने वाला असर पड़ेगा।”",
+      "translation_quote": "“इन सिद्धांतों पर थोड़ा-सा समय भी लगाने से हमारे जीवन और हमारे आसपास के लोगों के जीवन पर नकारात्मक तथा आत्मिक रूप से थका देने वाला असर पड़ेगा।”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“As Christians we try to be a peaceful and trusting people, yet this tends to make us vulnerable to be quite gullible.”",
+      "suggested_fix": "“मसीही होने के नाते हम शांतिप्रिय और भरोसा करने वाले लोग बनने की कोशिश करते हैं, फिर भी इस वजह से हम आसानी से किसी भी बात पर विश्वास कर बैठते हैं।”",
+      "translation_quote": "“मसीही होने के नाते हम शांतिप्रिय और भरोसा करने वाले लोग बनने की कोशिश करते हैं, फिर भी इसके कारण हम आसानी से किसी भी बात पर विश्वास कर बैठते हैं।”"
+    },
+    {
+      "location": "Section",
+      "severity": "minor",
+      "source_quote": "MODERN-DAY PERILS",
+      "suggested_fix": "शीर्षक को समकालीन मानक हिंदी में लिखें, जैसे “आज के समय के ख़तरे”।",
+      "translation_quote": "आज के ख़तरे"
+    }
+  ],
   "id": "6553bbc1699981a294d96ef6bf469dc6",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "hin",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

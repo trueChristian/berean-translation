@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Articolo, paragrafo sulla musica secolare",
+      "severity": "major",
+      "source_quote": "If the song encourages evil, promotes worldliness, gives you bad thoughts, changes your actions for the wrong, and influences your speech for the wrong, we should not be listening to it.",
+      "suggested_fix": "Sostituire «ti induce pensieri cattivi, ti spinge ad agire in modo sbagliato e influenza negativamente il tuo modo di parlare» con «ti induce pensieri cattivi, cambia in peggio le tue azioni e influenza negativamente il tuo modo di parlare».",
+      "translation_quote": "Se una canzone incoraggia il male, promuove la mondanità, ti induce pensieri cattivi, ti spinge ad agire in modo sbagliato e influenza negativamente il tuo modo di parlare, non dovremmo ascoltarla."
+    },
+    {
+      "location": "Articolo, paragrafo sulla storia della musica senza accompagnamento",
+      "severity": "major",
+      "source_quote": "The Hebrews started the tradition of using music without accompaniment after the fall of the second temple in 70 A.D., at which time instruments were not allowed during a period of mourning after the fall.",
+      "suggested_fix": "Correggere «Gli ebrei iniziarono la tradizione ... nel 70 d.C.; in quel periodo, dopo la caduta, non era consentito usare strumenti durante il lutto» in modo da riferire chiaramente che gli strumenti non erano consentiti durante un periodo di lutto successivo alla caduta del tempio.",
+      "translation_quote": "Gli ebrei iniziarono la tradizione di usare musica senza accompagnamento dopo la caduta del secondo tempio, nel 70 d.C.; in quel periodo, dopo la caduta, non era consentito usare strumenti durante il lutto."
+    },
+    {
+      "location": "Articolo, citazione di Colossesi 3:16",
+      "severity": "major",
+      "source_quote": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord",
+      "suggested_fix": "Tradurre la citazione fedelmente includendo «in ogni sapienza» e rendendo «singing with grace in your hearts to the Lord» come «cantando con grazia nei vostri cuori al Signore»; per esempio: «La parola di Cristo abiti in voi abbondantemente, in ogni sapienza, insegnandovi e ammonendovi a vicenda con salmi, inni e cantici spirituali, cantando con grazia nei vostri cuori al Signore –Colossesi 3:16.»",
+      "translation_quote": "La parola di Cristo abiti in voi abbondantemente, ammaestrandovi e ammonendovi gli uni gli altri con ogni sapienza, con salmi, inni e cantici spirituali, cantando con gratitudine nei vostri cuori a Dio –Colossesi 3:16."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

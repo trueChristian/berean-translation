@@ -2,7 +2,6 @@
   "article_id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 15622
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1039,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 732,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15444,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15441,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16483
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "פסקה המתחילה „בסוף השבוע הראשון ניכרו אצל ג'דסון סימני שיפור”",
+      "severity": "major",
+      "source_quote": "“he would offer Sterling and I each one of his little paddies to hold while he ate”",
+      "suggested_fix": "החליפו את „אחת מהחבטות הקטנות שלו” בתיאור של כפות הידיים שלו, למשל: „היה נותן לסטרלינג ולי להחזיק כל אחד באחת מכפות ידיו הקטנות בזמן שאכל”.",
+      "translation_quote": "„היה נותן לכל אחד מאיתנו, לסטרלינג ולי, אחת מהחבטות הקטנות שלו להחזיק בזמן שאכל”"
+    },
+    {
+      "location": "פסקה המתחילה „״אני מרגיש שזו הייתה התגלות דמונית״”",
+      "severity": "minor",
+      "source_quote": "“I sense it was a demoniac display”",
+      "suggested_fix": "החליפו את „התגלות דמונית” ב„ביטוי דמוני” או „התגלמות דמונית” כדי לשמר את משמעות display כביטוי או הופעה, ולא כגילוי.",
+      "translation_quote": "„אני מרגיש שזו הייתה התגלות דמונית”"
+    }
+  ],
   "id": "f5d66ee985f2a73e2a9002c157feec42",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening paragraph, lead drop-cap\",\"severity\":\"minor\",\"source_quote\":\"<span class=\\\"drop-cap\\\">M</span>any people ask\",\"suggested_fix\":\"Translate the drop-cap character to Greek while preserving the existing span and structure; for example, use «Π» in <span class=\\\"drop-cap\\\">Π</span>ολλοί people ask, with the remainder rendered as «Πολλοί άνθρωποι ρωτούν».\",\"translation_quote\":\"<span class=\\\"drop-cap\\\">M</span>Πολλοί ρωτούν\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 526,
+    "content_evidence_truncated": false,
+    "content_sha256": "6e6b02df07ec14d257d91f9b033307d7eb033154d7856e7dd53554d1a619d254",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 135,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6978,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6975,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7113
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

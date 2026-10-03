@@ -2,7 +2,6 @@
   "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 5770
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 613,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 365,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5520,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5517,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6133
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "অনুচ্ছেদ ৮",
+      "severity": "major",
+      "source_quote": "Will it change the way I live for the other kingdom now?",
+      "suggested_fix": "এখন অন্য রাজ্যের জন্য আমার জীবনযাপনের ওপর তার কী প্রভাব পড়বে?—এর বদলে লিখুন: “এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কি এর কোনো পরিবর্তন আসবে?”",
+      "translation_quote": "এখন অন্য রাজ্যের জন্য আমার জীবনযাপনের ওপর তার কী প্রভাব পড়বে?"
+    },
+    {
+      "location": "অনুচ্ছেদ ১০",
+      "severity": "major",
+      "source_quote": "As Christians we try to be a peaceful and trusting people",
+      "suggested_fix": "“খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও নির্ভরশীল মানুষ হওয়ার চেষ্টা করি”–এর বদলে লিখুন: “খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও আস্থাশীল মানুষ হওয়ার চেষ্টা করি”।",
+      "translation_quote": "খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও নির্ভরশীল মানুষ হওয়ার চেষ্টা করি"
+    }
+  ],
   "id": "ad7b9125d5bcbc71a490543e0a515845",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ben",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

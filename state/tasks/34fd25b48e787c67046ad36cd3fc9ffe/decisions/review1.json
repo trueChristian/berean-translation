@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Galaterbrevet 6:1–5, citatet",
+      "severity": "major",
+      "source_quote": "“and then shall he have rejoicing in himself alone, and not in another.”",
+      "suggested_fix": "Ersätt «Då kan han ha sin berömmelse för sig själv och inte för någon annan» med exempelvis «Då kan han själv glädja sig åt sitt arbete, inte åt någon annans.»",
+      "translation_quote": "“Då kan han ha sin berömmelse för sig själv och inte för någon annan.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

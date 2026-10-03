@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, Romans 1:18–20 quotation",
+      "severity": "major",
+      "source_quote": "The wrath of God is being revealed from heaven against all the godlessness and wickedness of people",
+      "suggested_fix": "Replace “juu ya uasi wote wa Mungu na udhalimu wa watu” with “juu ya kutomcha Mungu kote na uovu wa watu” to avoid saying that God is in rebellion.",
+      "translation_quote": "Hasira ya Mungu inafunuliwa kutoka mbinguni juu ya uasi wote wa Mungu na udhalimu wa watu"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

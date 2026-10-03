@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 10, quoted Philippians 4:8",
+      "severity": "minor",
+      "source_quote": "whatsoever things are of good report",
+      "suggested_fix": "Replace «καλόφημα» with «καλής φήμης» (for example, «όσα έχουν καλή φήμη») to convey the meaning in idiomatic Modern Greek.",
+      "translation_quote": "όσα είναι καλόφημα"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

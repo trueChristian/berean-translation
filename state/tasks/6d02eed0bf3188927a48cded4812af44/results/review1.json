@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "64ddefaf-14cf-4966-b613-93ced98add44",
+    "response_id": "chatcmpl-EUz8yDJYJlohq8jz5ygWTG7PHbJ3Q",
+    "usage": {
+      "completion_tokens": 262,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5070,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5335
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文第2段",
+        "severity": "minor",
+        "source_quote": "an obscure news article",
+        "suggested_fix": "改为“ 一篇鲜为人知的新闻报道”或“ 一篇不太为人注意的新闻报道”，以表达报道本身鲜为人知，而非内容不显眼。",
+        "translation_quote": "一篇不太起眼的新闻报道"
+      },
+      {
+        "location": "正文第3段",
+        "severity": "minor",
+        "source_quote": "a deeper level of stability in their lives",
+        "suggested_fix": "可改为“生活中缺乏更深层稳定基础的人”，避免把稳定说成主观的“稳定感”。",
+        "translation_quote": "生活中缺乏更深层稳定感的人"
+      },
+      {
+        "location": "正文第13段",
+        "severity": "major",
+        "source_quote": "Each of us WILL fall into temptations",
+        "suggested_fix": "改为“我们每个人都会遭遇各种试探”，以保留原文所说必然遭遇试探的意思，避免译成陷入试探、带有屈服于试探的含义。",
+        "translation_quote": "我们每个人都会落入试探之中"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

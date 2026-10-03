@@ -2,7 +2,6 @@
   "article_id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 5279
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 262,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5073,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5070,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5335
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "正文第2段",
+      "severity": "minor",
+      "source_quote": "an obscure news article",
+      "suggested_fix": "改为“ 一篇鲜为人知的新闻报道”或“ 一篇不太为人注意的新闻报道”，以表达报道本身鲜为人知，而非内容不显眼。",
+      "translation_quote": "一篇不太起眼的新闻报道"
+    },
+    {
+      "location": "正文第3段",
+      "severity": "minor",
+      "source_quote": "a deeper level of stability in their lives",
+      "suggested_fix": "可改为“生活中缺乏更深层稳定基础的人”，避免把稳定说成主观的“稳定感”。",
+      "translation_quote": "生活中缺乏更深层稳定感的人"
+    },
+    {
+      "location": "正文第13段",
+      "severity": "major",
+      "source_quote": "Each of us WILL fall into temptations",
+      "suggested_fix": "改为“我们每个人都会遭遇各种试探”，以保留原文所说必然遭遇试探的意思，避免译成陷入试探、带有屈服于试探的含义。",
+      "translation_quote": "我们每个人都会落入试探之中"
+    }
+  ],
   "id": "6d02eed0bf3188927a48cded4812af44",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "cmn",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/53b4e1ce5089087c0746aac470499d70ca4c5d75990f78fce69f59c9e579096c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "572ec209-1870-46a2-ba99-bc6121777d7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 2239
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 529,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 421,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1975,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1972,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2504
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML poem, stanza beginning “Because He treasured us”",
+      "severity": "minor",
+      "source_quote": "Because He treasured us, an atonement for our sin",
+      "suggested_fix": "क्योंकि उन्होंने हमें अनमोल समझा; हमारे पाप का प्रायश्चित",
+      "translation_quote": "क्योंकि उन्होंने हमसे प्रेम किया; हमारे पाप का प्रायश्चित"
+    }
+  ],
+  "finished_at": "2026-10-03T21:16:25+00:00",
   "id": "5b570b6713607836b8bbc7840718fb2d",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "hin",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

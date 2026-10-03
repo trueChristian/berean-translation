@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, heading “...Husbands” / translation.html, corresponding heading\",\"severity\":\"minor\",\"source_quote\":\"<h2><em>…Husbands</em></h2>\",\"suggested_fix\":\"Change the heading to <h2><em>…Σύζυγοι (άντρες)</em></h2> so it specifically identifies husbands rather than spouses of either gender.\",\"translation_quote\":\"<h2><em>…Συζύγους</em></h2>\"},{\"location\":\"source.html, paragraph beginning “Straight and Narrow”\",\"severity\":\"minor\",\"source_quote\":\"“Straight and Narrow,” as ascribed by the early American revival movement\",\"suggested_fix\":\"Replace «πρώιμο αμερικανικό αναγεννησιακό κίνημα» with «πρώιμο αμερικανικό κίνημα αναζωπύρωσης», which conveys a religious revival rather than a Renaissance movement.\",\"translation_quote\":\"«Ευθεία και στενή», όπως την περιέγραφε το πρώιμο αμερικανικό αναγεννησιακό κίνημα\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1053,
+    "content_evidence_truncated": false,
+    "content_sha256": "aae37b3ec510f748f5087ebb56c5f97a628828a7cf538b34c641c9bf98324437",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1372,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1099,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11457,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11454,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12829
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

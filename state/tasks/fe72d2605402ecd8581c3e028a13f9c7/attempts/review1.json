@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, final paragraph; Psalm 127:4 quotation\",\"severity\":\"major\",\"source_quote\":\"As arrows are in the hand of a mighty man; so are children of the youth –Psalm 127:4.\",\"suggested_fix\":\"将引文改为：“勇士手中的箭怎样，少年所生的儿女也怎样——诗篇 127:4。”保留原有的 <em> 标签结构。\",\"translation_quote\":\"箭袋充满了箭的勇士，少年时所生的儿女也是这样——诗篇 127:4。\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 498,
+    "content_evidence_truncated": false,
+    "content_sha256": "38fe1edcd3a4b3f4dc319dc899c439b580f79f7e4f444a1c008d7d455d5d1b9e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 584,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 435,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7894,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7891,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8478
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

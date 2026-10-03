@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "61f0e3db-311a-4d63-985a-0d12daabdccf",
+    "response_id": "chatcmpl-EUz9qhkGYQIiz2LfwGjPiE3OmlZGa",
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 623,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15457,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15454,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16410
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “By the end of the first week”",
+        "severity": "major",
+        "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.”",
+        "suggested_fix": "Translate “paddies” without changing it into slaps. For example, if the intended meaning is his little hands, use “het hy vir my en Sterling elkeen een van sy klein handjies aangebied om vas te hou terwyl hy eet”.",
+        "translation_quote": "“Met ’n komies patetiese uitdrukking het hy vir my en Sterling elkeen een van sy klein klappies aangebied om vas te hou terwyl hy eet, asof dit hom moed gegee het.”"
+      },
+      {
+        "location": "HTML, paragraph beginning “That sounded good, too. It also sounded huge.”",
+        "severity": "minor",
+        "source_quote": "“I didn’t know where to begin research on ‘worms’, nor did I have the mental space.”",
+        "suggested_fix": "Use a phrase meaning mental capacity or headspace, such as “en ek het ook nie die geestelike kapasiteit daarvoor gehad nie” or “en ek het ook nie die kopruimte daarvoor gehad nie.”",
+        "translation_quote": "“Ek het nie geweet waar om met navorsing oor ‘wurms’ te begin nie, en ek het ook nie die geestelike ruimte daarvoor gehad nie.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

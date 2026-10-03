@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, eerste alinea\",\"severity\":\"minor\",\"source_quote\":\"an agenda of political nature\",\"suggested_fix\":\"Vervang „een politiek agenda” door „een politieke agenda”.\",\"translation_quote\":\"een politiek agenda is\"},{\"location\":\"HTML, vierde alinea\",\"severity\":\"minor\",\"source_quote\":\"our “light” and “witness”\",\"suggested_fix\":\"Vervang „onze ‘licht’” door „ons ‘licht’”.\",\"translation_quote\":\"onze „licht” en ons „getuigenis”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 515,
+    "content_evidence_truncated": false,
+    "content_sha256": "40883a3007ba5c3a507cd476cadf2f056327143603c9f0edaea25831d5c40500",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 733,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 588,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4926,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4923,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5659
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

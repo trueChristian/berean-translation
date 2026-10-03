@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 3",
+      "severity": "major",
+      "source_quote": "Yet at times we as believers still fail in listening to good wholesome music.",
+      "suggested_fix": "Tog skiet ons as gelowiges soms steeds tekort daarin om na goeie, gesonde musiek te luister.",
+      "translation_quote": "Tog skiet ons as gelowiges soms steeds tekort wanneer ons na goeie, gesonde musiek luister."
+    },
+    {
+      "location": "Article, paragraph on Orthodox and Conservative Jewish congregations",
+      "severity": "minor",
+      "source_quote": "a pitch pipe to give everyone a starting note",
+      "suggested_fix": "’n toonpyp om vir almal ’n begintoon te gee",
+      "translation_quote": "’n stemvurk wees om vir almal ’n begintoon te gee"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

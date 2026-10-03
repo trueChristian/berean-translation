@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Gesù dice alcuni versetti prima…”",
+      "severity": "major",
+      "source_quote": "Jesus says a few verses earlier that we will know each other by our fruits.",
+      "suggested_fix": "Replace “riconosceremo gli uni gli altri dai nostri frutti” with “li riconosceremo dai loro frutti” to preserve the source’s meaning: recognizing people by their fruits.",
+      "translation_quote": "Gesù dice alcuni versetti prima che riconosceremo gli uni gli altri dai nostri frutti."
+    },
+    {
+      "location": "Paragraph beginning “Il desiderio di servire Gesù.”",
+      "severity": "major",
+      "source_quote": "Should the church need to force its people to be modest? Should the church need to force its people to be Christ-like?",
+      "suggested_fix": "Replace “La chiesa dovrebbe essere costretta a imporre la modestia ai suoi membri? Dovrebbe essere costretta a imporre loro di essere simili a Cristo?” with “La chiesa dovrebbe aver bisogno di costringere i suoi membri a vestirsi con modestia? Dovrebbe aver bisogno di costringerli a essere simili a Cristo?”",
+      "translation_quote": "La chiesa dovrebbe essere costretta a imporre la modestia ai suoi membri? Dovrebbe essere costretta a imporre loro di essere simili a Cristo?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

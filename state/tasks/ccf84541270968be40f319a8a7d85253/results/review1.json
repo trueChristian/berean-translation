@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f92760d2-db32-44e6-bba6-d741142ff0f2",
+    "response_id": "chatcmpl-EUz9KVW6NkVz3OsZzs5UTBB45nfVq",
+    "usage": {
+      "completion_tokens": 763,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 629,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4794,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4791,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5557
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraphs 2, 4, and 7",
+        "severity": "minor",
+        "source_quote": "“our plain communities”; “the plain community”",
+        "suggested_fix": "Replace “comunidades plain” / “comunidade plain” with a clear Portuguese rendering such as “comunidades anabatistas de tradição simples” / “comunidade anabatista de tradição simples”, consistently throughout.",
+        "translation_quote": "“nossas comunidades plain”; “comunidade plain”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

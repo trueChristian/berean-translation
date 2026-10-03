@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 5704
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 699,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 469,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5563,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5560,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6262
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph quoting Efésios 5:19",
+      "severity": "major",
+      "source_quote": "“singing and making melody in your heart to the Lord”",
+      "suggested_fix": "Substitua apenas o texto citado dentro do elemento <em> por: “Falando entre vocês com salmos, hinos e cânticos espirituais, cantando e fazendo melodia em seu coração ao Senhor; –Efésios 5:19.”",
+      "translation_quote": "“cantando e louvando de coração ao Senhor”"
+    },
+    {
+      "location": "source.html, paragraph quoting Colossenses 3:16",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Substitua apenas o trecho final citado dentro do elemento <em> por: “cantando com graça em seus corações ao Senhor –Colossenses 3:16.”",
+      "translation_quote": "“cantando com gratidão em seu coração ao Senhor”"
+    }
+  ],
   "id": "3967f3396aa792383a7a01440c789178",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "por",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

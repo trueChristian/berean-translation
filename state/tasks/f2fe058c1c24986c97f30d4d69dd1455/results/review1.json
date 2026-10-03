@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5d3f9f79-2fb1-4e9f-bb6f-4b1d07f55567",
+    "response_id": "chatcmpl-EUz9Vg7XjIKZedQg45fb9IBnNhAvJ",
+    "usage": {
+      "completion_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5494,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5491,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6084
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, para 1",
+        "severity": "minor",
+        "source_quote": "We are trusting that each of you as our readers are doing well and continuing to trust the Lord.",
+        "suggested_fix": "Tunatumaini kwamba kila mmoja wenu, wasomaji wetu, anaendelea vizuri na kuendelea kumtumaini Bwana.",
+        "translation_quote": "Tunatumaini kwamba kila mmoja wenu kama wasomaji wetu anaendelea vizuri na anaendelea kumtumaini Bwana."
+      },
+      {
+        "location": "HTML, para 8",
+        "severity": "major",
+        "source_quote": "According to the news article, the CDC has published data from a survey which was conducted to determine the outcome of the negative effects of the pandemic.",
+        "suggested_fix": "Kulingana na makala ya habari, CDC imechapisha data kutoka kwa utafiti uliofanywa ili kubaini matokeo ya athari hasi za janga hili.",
+        "translation_quote": "Kulingana na habari hiyo, CDC imechapisha takwimu kutoka kwa utafiti uliofanywa ili kubaini matokeo ya athari hasi za janga hili."
+      },
+      {
+        "location": "HTML, para 10",
+        "severity": "major",
+        "source_quote": "we are of all men most miserable",
+        "suggested_fix": "sisi ni wa kusikitikiwa kuliko watu wote",
+        "translation_quote": "sisi ni wa kusikitikiwa kuliko watu wote"
+      },
+      {
+        "location": "HTML, para 13",
+        "severity": "major",
+        "source_quote": "will help make a change in someone’s eternal welfare",
+        "suggested_fix": "litasaidia kuboresha hali ya mtu ya milele",
+        "translation_quote": "litasaidia lini kubadili hali ya mtu kuhusu ustawi wake wa milele."
+      },
+      {
+        "location": "HTML, blockquote 1",
+        "severity": "major",
+        "source_quote": "then shall he have rejoicing in himself alone, and not in another",
+        "suggested_fix": "ndipo atakapokuwa na furaha kwa ajili yake mwenyewe peke yake, wala si kwa ajili ya mwingine",
+        "translation_quote": "ndipo atakapokuwa na sababu ya kujisifu yeye mwenyewe peke yake, wala si kwa kumlinganisha na mwingine."
+      },
+      {
+        "location": "HTML, blockquote 2",
+        "severity": "major",
+        "source_quote": "There hath no temptation taken you but such as is common to man",
+        "suggested_fix": "Jaribu halikuwapata ninyi isipokuwa lile lililo la kawaida kwa wanadamu",
+        "translation_quote": "Jaribu halikuwapata ninyi, isipokuwa lililo kawaida ya wanadamu"
+      },
+      {
+        "location": "HTML, paragraph following numbered list",
+        "severity": "major",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "Hili linategemea ukweli Wake, si hisia zetu.",
+        "translation_quote": "Hili linategemea ukweli Wake, si hisia zetu."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

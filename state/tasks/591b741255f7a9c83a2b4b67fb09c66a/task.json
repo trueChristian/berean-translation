@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 8535
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 615,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 383,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8353,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8350,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8968
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Citação de Lucas 23:31",
+      "severity": "major",
+      "source_quote": "For if they do these things in a green tree, what shall be done in the dry? –Luke 23:31.",
+      "suggested_fix": "Substitua “o que acontecerá com a seca?” por “o que acontecerá com a árvore seca?” para preservar o contraste com “a árvore verde”.",
+      "translation_quote": "Pois, se fazem estas coisas com a árvore verde, o que acontecerá com a seca? –Lucas 23:31."
+    },
+    {
+      "location": "Parágrafo sobre o convite para pregar",
+      "severity": "major",
+      "source_quote": "I was asked to preach for a large church that I had never been to before.",
+      "suggested_fix": "Substitua “Pediriam-me que pregasse” por “Fui convidado a pregar” para manter o sentido de que o narrador recebeu o convite.",
+      "translation_quote": "Pediriam-me que pregasse em uma grande igreja onde eu nunca tinha estado."
+    }
+  ],
   "id": "591b741255f7a9c83a2b4b67fb09c66a",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "por",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

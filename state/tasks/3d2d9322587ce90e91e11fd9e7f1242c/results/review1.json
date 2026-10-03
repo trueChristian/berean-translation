@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cfeb95e6-1e0a-4d18-a979-78742e7e658d",
+    "response_id": "chatcmpl-EUz8yzBxJf0bqnd6NzcULMg8WcsKI",
+    "usage": {
+      "completion_tokens": 735,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5956,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5953,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6691
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph, drop-cap span",
+        "severity": "minor",
+        "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+        "suggested_fix": "Replace only the drop-cap text with the Arabic initial, preserving the existing tags and attributes: <span class=\"drop-cap\">م</span>يسأل كثيرون",
+        "translation_quote": "<span class=\"drop-cap\">M</span>يسأل كثيرون"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

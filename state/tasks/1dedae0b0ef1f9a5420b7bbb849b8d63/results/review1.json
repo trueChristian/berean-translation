@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "85a64588-0966-4e77-803b-fbb049f9cd50",
+    "response_id": "chatcmpl-EUzA2XaUvINqKPhD0tnsgwKF4sbWu",
+    "usage": {
+      "completion_tokens": 1046,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 670,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16759,
+        "cached_tokens": 0
+      },
+      "total_tokens": 17808
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “We agreed to cancel the childhood development appointment”",
+        "severity": "major",
+        "source_quote": "“Instead of restraining him, demanding surrender to our desires, we agreed to use repeated small switches to reprimand his willfulness.”",
+        "suggested_fix": "Translate “small switches” as small flexible rods/twigs, not whips; for example: “তাকে আটকে রেখে আমাদের ইচ্ছার কাছে আত্মসমর্পণ করানোর বদলে, তার জেদকে শাসন করতে বারবার ছোট সরু ডাল ব্যবহার করতে আমরা একমত হলাম।”",
+        "translation_quote": "“তাকে আটকে রেখে আমাদের ইচ্ছার কাছে আত্মসমর্পণ করানোর বদলে, তার জেদকে তিরস্কার করতে বারবার হালকা চাবুকের আঘাত ব্যবহার করতে একমত হলাম।”"
+      },
+      {
+        "location": "Article body, paragraph beginning “By the end of the first week”",
+        "severity": "major",
+        "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.”",
+        "suggested_fix": "Recheck “paddies” against the intended sense and translate the offered item accordingly; do not render it as part of his buttock. For example, if the intended word is “pats,” use “তার ছোট্ট হাতের চাপড়” or the contextually correct equivalent.",
+        "translation_quote": "“হাস্যকরভাবে করুণ মুখ করে খাওয়ার সময় সাহস পাওয়ার জন্য যেন সে তার ছোট্ট পাছার একটি দিক করে আমাকে ও স্টার্লিংকে ধরে রাখতে দিত।”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

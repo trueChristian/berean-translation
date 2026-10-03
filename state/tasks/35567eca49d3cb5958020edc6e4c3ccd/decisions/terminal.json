@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “As we step back…”",
+      "severity": "minor",
+      "source_quote": "“What about my housing?”",
+      "suggested_fix": "Replace «E la mia casa?» with «E il mio alloggio?» to retain the broader meaning of housing.",
+      "translation_quote": "«E la mia casa?»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

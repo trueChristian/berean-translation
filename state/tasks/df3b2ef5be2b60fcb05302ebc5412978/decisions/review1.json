@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Θα μπορούσες να ακούσεις μια καρφίτσα να πέφτει»",
+      "severity": "minor",
+      "source_quote": "I regretted taking my job for granted.",
+      "suggested_fix": "Replace «Μετανόησα που θεωρούσα τη δουλειά μου δεδομένη» with «Μετάνιωσα που θεωρούσα τη δουλειά μου δεδομένη».",
+      "translation_quote": "Μετανόησα που θεωρούσα τη δουλειά μου δεδομένη."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

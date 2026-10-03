@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 6543
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 360,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6402,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6399,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6762
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "शीर्षक",
+      "severity": "minor",
+      "source_quote": "What Is Right About My Music?",
+      "suggested_fix": "मेरे संगीत के बारे में क्या सही है?",
+      "translation_quote": "मेरे संगीत के बारे में सही क्या है?"
+    },
+    {
+      "location": "प्रेरितों के काम 16:25 वाला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "the doors flew open, and everyone’s prison bands broke.",
+      "suggested_fix": "इस वाक्यांश को इस तरह करें: “दरवाज़े खुल गए और सबकी बेड़ियाँ खुल गईं।”",
+      "translation_quote": "दरवाज़े खुल गए और सबकी बेड़ियाँ टूट गईं।"
+    },
+    {
+      "location": "कुलुस्सियों 3:16 वाला उद्धरण",
+      "severity": "major",
+      "source_quote": "teaching and admonishing one another",
+      "suggested_fix": "उद्धरण में “एक दूसरे को सिखाते और चिताते हुए” लिखें।",
+      "translation_quote": "एक दूसरे को सिखाओ और चिताओ"
+    },
+    {
+      "location": "यीशु और शिष्यों के भजन वाला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "I wonder what hymn Jesus sang with His disciples at the last supper before He went out to the Mount of Olives.",
+      "suggested_fix": "“मैं सोचता हूँ कि जैतून पहाड़ पर जाने से पहले, अंतिम भोज में यीशु ने अपने शिष्यों के साथ कौन-सा भजन गाया होगा।”",
+      "translation_quote": "मैं सोचता हूँ कि जैतून पहाड़ पर जाने से पहले, अंतिम भोज में यीशु ने अपने शिष्यों के साथ कौन-सा भजन गाया होगा।"
+    }
+  ],
   "id": "d69ca75f0f83c501c33a21c5a2dbfbdf",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "hin",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

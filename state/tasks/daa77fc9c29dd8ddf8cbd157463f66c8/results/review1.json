@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ce3c2883-f2e5-4396-b99d-4789b12621c9",
+    "response_id": "chatcmpl-EUz8zTSyFqOfT70ylseavwEfHYwcW",
+    "usage": {
+      "completion_tokens": 714,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5175,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5172,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5889
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph discussing politicized issues",
+        "severity": "minor",
+        "source_quote": "race inequality",
+        "suggested_fix": "Replace “rassistische Ungleichheit” with “Ungleichheit zwischen den ethnischen Gruppen” to convey inequality between racial groups rather than inequality characterized as racist.",
+        "translation_quote": "rassistische Ungleichheit"
+      },
+      {
+        "location": "HTML ordered list, item 1",
+        "severity": "minor",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "For a clear German rendering of the printed wording, replace “Das entspricht seiner Tatsache” with “Das entspricht seiner Tatsache, nicht unserem Gefühl” only if the source wording is intentional; otherwise clarify with the editor, since “fact” is unusual in this context and should not be silently changed to “faith.”",
+        "translation_quote": "Das entspricht seiner Tatsache, nicht unserem Gefühl."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

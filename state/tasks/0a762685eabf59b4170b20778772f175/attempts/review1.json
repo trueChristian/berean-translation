@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, facts list, second bullet\",\"severity\":\"minor\",\"source_quote\":\"researchers surveyed 5,412 adults in the US between June 24 and 30.\",\"suggested_fix\":\"os pesquisadores realizaram uma pesquisa com 5.412 adultos nos EUA entre 24 e 30 de junho\",\"translation_quote\":\"os pesquisadores entrevistaram 5.412 adultos nos EUA entre 24 e 30 de junho\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 403,
+    "content_evidence_truncated": false,
+    "content_sha256": "e559de649fefaf70a7c9494c8d8396d82af3305de0315018c29ed1e0f3c062e9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 579,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4988,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5690
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

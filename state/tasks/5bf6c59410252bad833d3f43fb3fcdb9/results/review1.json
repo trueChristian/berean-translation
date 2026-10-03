@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "83f1128f-0137-4655-879c-47badb417da1",
+    "response_id": "chatcmpl-EUz8ylw6a1yIf4iJZTrCB0YhgKbGL",
+    "usage": {
+      "completion_tokens": 1276,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1068,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16116,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16113,
+        "cached_tokens": 0
+      },
+      "total_tokens": 17392
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, 식사 시간 훈련에 관한 문단(“By the end of the first week…”)",
+        "severity": "major",
+        "source_quote": "“With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.”",
+        "suggested_fix": "‘paddies’가 가리키는 대상을 확인해 번역하세요. 원문에 없는 ‘엉덩이 방석’이라는 의미를 덧붙이지 말고, 확인된 대상을 한국어로 옮기세요.",
+        "translation_quote": "“우스울 만큼 애처로운 표정을 지으며 자기 작은 엉덩이 방석을 스털링과 제게 하나씩 내밀어 잡아 달라고 했습니다.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

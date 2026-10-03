@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ba27fd4d-5155-482c-b425-44542ba5a26d",
+    "response_id": "chatcmpl-EUzA99gomSxLaYfuLnHgQF8fqmS6x",
+    "usage": {
+      "completion_tokens": 190,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4030,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4027,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4220
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文第4段，父亲的警告",
+        "severity": "major",
+        "source_quote": "“Ramona,” he said, “I want you to stay off the gate.”",
+        "suggested_fix": "将“我不许你再爬栅门”改为“拉莫娜，”他说，“我不许你再爬栅门。”",
+        "translation_quote": "“拉莫娜，”他说，“我不许你再爬栅门。”"
+      },
+      {
+        "location": "正文第4段，差点摔倒处",
+        "severity": "major",
+        "source_quote": "This time, however, she narrowly escaped falling to the ground.",
+        "suggested_fix": "改为“不过这一次，她险些摔到地上。”",
+        "translation_quote": "不过这次她差一点就摔到了地上。"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

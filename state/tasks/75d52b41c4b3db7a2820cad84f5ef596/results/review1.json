@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fc52dcc9-bb51-4a86-b020-21c019a7a598",
+    "response_id": "chatcmpl-EUz8ycvOOj4s26STBZGVZblYUqKgX",
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 678,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4289,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4286,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5072
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문 첫 문단",
+        "severity": "minor",
+        "source_quote": "Ramona and three of her sisters would pack onto Tony’s back",
+        "suggested_fix": "라모나와 자매 셋이 토니 등에 다 같이 올라타고",
+        "translation_quote": "라모나와 언니들 셋이 토니 등에 다 같이 올라타고"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

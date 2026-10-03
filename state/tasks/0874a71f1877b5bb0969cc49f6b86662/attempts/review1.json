@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf 3, kutipan Ibrani 11:1\",\"severity\":\"major\",\"source_quote\":\"“<u>confidence</u> in what we hope for and <u>assurance</u> about what we do not see.”\",\"suggested_fix\":\"Ganti kutipan menjadi “<u>keyakinan</u> akan apa yang kita harapkan dan <u>kepastian</u> mengenai apa yang tidak kita lihat.” Pertahankan tag HTML dan penempatannya.\",\"translation_quote\":\"“<u>dasar</u> dari segala sesuatu yang kita harapkan dan <u>bukti</u> dari segala sesuatu yang tidak kita lihat.”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 542,
+    "content_evidence_truncated": false,
+    "content_sha256": "d603331ff57c46711cac6e6487edf2ec47ab64d6598f26a3104403bc6c71760a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 560,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 391,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4246,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4243,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4806
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

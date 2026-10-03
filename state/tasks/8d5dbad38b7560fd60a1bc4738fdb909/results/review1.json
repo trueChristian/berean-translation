@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "99c182c6-a7d3-4d21-b2b3-b3ac791b3aeb",
+    "response_id": "chatcmpl-EUz8yElTghnqcWT7CO5xJ4hv5ymcg",
+    "usage": {
+      "completion_tokens": 460,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8826,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9289
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Vi vet vilket slags träd…”",
+        "severity": "major",
+        "source_quote": "There were small avocados hanging from its branches.",
+        "suggested_fix": "Replace “Små avokador hängde från grenarna.” with “Små avokadofrukter hängde från grenarna.”",
+        "translation_quote": "Små avokador hängde från grenarna."
+      },
+      {
+        "location": "HTML, paragraph beginning “Ett hjärta som inte har gjorts nytt…”",
+        "severity": "major",
+        "source_quote": "It is no wonder that many churches of today are accepting drift.",
+        "suggested_fix": "Replace “Det är inte konstigt att många av dagens kyrkor accepterar att människor driver bort.” with “Det är inte konstigt att många av dagens kyrkor accepterar avfall från tron.”",
+        "translation_quote": "Det är inte konstigt att många av dagens kyrkor accepterar att människor driver bort."
+      },
+      {
+        "location": "HTML, paragraph beginning “När någon kommer och säger…”",
+        "severity": "major",
+        "source_quote": "We simply go over some scriptures that explain practical, foundational doctrines like non-conformity, non-resistance, and such like.",
+        "suggested_fix": "Replace “praktiska grundläggande läror som icke-konformitet, icke-motstånd och liknande” with “praktiska grundläggande läror som att inte anpassa sig till världen, icke-motstånd och liknande.”",
+        "translation_quote": "praktiska grundläggande läror som icke-konformitet, icke-motstånd och liknande."
+      },
+      {
+        "location": "HTML, paragraph beginning “Tänk dig en man som lever för 1 000 år sedan.”",
+        "severity": "major",
+        "source_quote": "He knows that if he continues to hold to his beliefs, a fire awaits him.",
+        "suggested_fix": "Replace “om han fortsätter att hålla fast vid sin tro väntar honom en eld” with “om han fortsätter att hålla fast vid sin tro väntar honom att brännas på bål.”",
+        "translation_quote": "Han vet att om han fortsätter att hålla fast vid sin tro väntar honom en eld."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

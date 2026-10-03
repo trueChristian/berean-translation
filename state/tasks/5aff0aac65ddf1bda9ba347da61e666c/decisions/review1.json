@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem stanza beginning «Fordi han satte oss høyt»",
+      "severity": "major",
+      "source_quote": "Because He treasured us, an atonement for our sin / He made when He bled and died there to make us His kin!",
+      "suggested_fix": "Replace only these two lines with: «Fordi han satte oss høyt, sonet han for vår synd / da han blødde og døde der, for å gjøre oss til sin familie!» This preserves the explicit family relationship in «His kin».",
+      "translation_quote": "Fordi han satte oss høyt, sonet han for vår synd / da han blødde og døde der for å gjøre oss til sine!"
+    },
+    {
+      "location": "HTML, poem stanza beginning «Jeg takker Gud nå»",
+      "severity": "major",
+      "source_quote": "I thank God now for that sacrifice so great; / Providing the Lamb and transforming my fate.",
+      "suggested_fix": "Replace only the second line with «Han sørget for Lammet og forvandlet min skjebne.» This conveys that the Lamb was provided without adding «for us» as the recipient.",
+      "translation_quote": "Jeg takker Gud nå for dette store offer; / Han ga oss Lammet og forvandlet min skjebne."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

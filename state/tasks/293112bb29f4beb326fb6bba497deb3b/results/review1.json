@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bba5c0d1-8570-495d-bcdb-3104847eb97b",
+    "response_id": "chatcmpl-EUzAFgzWgYhZkxoRJRvFV1cwGsLKq",
+    "usage": {
+      "completion_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 659,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1916,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2795
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, first stanza, second line",
+        "severity": "major",
+        "source_quote": "It was from the beginning that His will He would yield.",
+        "suggested_fix": "Van die begin af was Hy bereid om Sy wil te onderwerp.",
+        "translation_quote": "Van die begin af was Hy bereid om Sy wil te laat geld."
+      },
+      {
+        "location": "HTML, poem, fourth stanza, second line",
+        "severity": "minor",
+        "source_quote": "With the trifles of earth, He would not bother.",
+        "suggested_fix": "Met die nietighede van die aarde sou Hy Hom nie bemoei nie.",
+        "translation_quote": "Met die nietighede van die aarde sou Hy Hom nie ophou plaag."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

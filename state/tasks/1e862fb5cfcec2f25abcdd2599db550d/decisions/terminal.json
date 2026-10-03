@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "শেষ অনুচ্ছেদ",
+      "severity": "minor",
+      "source_quote": "As strangers and pilgrims here on this earth",
+      "suggested_fix": "এই পৃথিবীতে প্রবাসী ও যাত্রী হিসেবে",
+      "translation_quote": "এই পৃথিবীতে অপরিচিত ও প্রবাসী হিসেবে"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

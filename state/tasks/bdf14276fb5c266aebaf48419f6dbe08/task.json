@@ -2,7 +2,6 @@
   "article_id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 6259
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 520,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6037,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6034,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6557
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "פסקה 3",
+      "severity": "major",
+      "source_quote": "The primary purpose of music is to worship (the expression of reverence and adoration to something or someone).",
+      "suggested_fix": "שנו ל: „מטרתה העיקרית של המוזיקה היא עבודת אלוהים (ביטוי של יראת כבוד והערצה כלפי דבר או אדם).” כך נשמרת ההגדרה הכללית שבמקור, שאינה אומרת שכל מוזיקה מיועדת לעבודת אלוהים.",
+      "translation_quote": "מטרתה העיקרית של המוזיקה היא לעבוד את אלוהים (לבטא יראת כבוד והערצה כלפי דבר או אדם)."
+    },
+    {
+      "location": "פסקה 9, הציטוט מפיליפים 4:8",
+      "severity": "major",
+      "source_quote": "whatsoever things are lovely",
+      "suggested_fix": "תקנו את „כל אשר אהוב” ל„כל אשר נאהב” או לניסוח עברי טבעי אחר שמשמעו דברים הראויים לאהבה; „אהוב” מציין דבר שמישהו כבר אוהב, ולא את האיכות שבמקור.",
+      "translation_quote": "כל אשר אהוב"
+    },
+    {
+      "location": "פסקה 16",
+      "severity": "major",
+      "source_quote": "And at midnight Paul and Silas prayed, and sang praises unto God: and the prisoners heard them –Acts 16:25.",
+      "suggested_fix": "תקנו את הציטוט ל: „ובחצות הלילה התפללו פאולוס וסילא, שרו תהילות לאלוהים, והאסירים שמעו אותם – מעשי השליחים 16:25.” בתרגום חסר הקשר „התפללו” לפני „שרו”.",
+      "translation_quote": "ובחצות הלילה התפללו פאולוס וסילא ושרו לאלוהים תהילות, והאסירים שמעו אותם – מעשי השליחים 16:25."
+    },
+    {
+      "location": "פסקה 20",
+      "severity": "major",
+      "source_quote": "So, let us sing in sincere worship to our Creator",
+      "suggested_fix": "החליפו את „בשבח כן” ב„בעבודת אלוהים כנה” או „בפולחן כן”; המקור אומר לשיר בעבודת אלוהים כנה, לא לשיר שבח כן.",
+      "translation_quote": "לכן הבה נשיר בשבח כן לבוראנו"
+    }
+  ],
   "id": "bdf14276fb5c266aebaf48419f6dbe08",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 87,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

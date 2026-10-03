@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “So what really was wrong with Judson?”",
+      "severity": "major",
+      "source_quote": "“In retrospect, I see that spoiling him crept in unawares.”",
+      "suggested_fix": "Replace “Ninapotazama nyuma, ninaona kwamba nilianza kumlemaza kwa kumfuatafuata bila kujua.” with “Ninapotazama nyuma, ninaona kwamba bila kujua nilianza kumlea kwa kumharibu.”",
+      "translation_quote": "“Ninapotazama nyuma, ninaona kwamba nilianza kumlemaza kwa kumfuatafuata bila kujua.”"
+    },
+    {
+      "location": "Paragraph beginning “Somewhere in the transition between need and demand…”",
+      "severity": "major",
+      "source_quote": "“Somewhere in the transition between need and demand, I began to cater to his little self.”",
+      "suggested_fix": "Replace “nilianza kujifanyia yote aliyotaka mtoto wangu mdogo” with “nilianza kutimiza matakwa ya mtoto wangu mdogo.”",
+      "translation_quote": "“Wakati fulani katika mabadiliko kati ya hitaji na madai, nilianza kujifanyia yote aliyotaka mtoto wangu mdogo.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

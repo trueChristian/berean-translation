@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “De apostel Paulus schrijft” (Ephesians 5:19)",
+      "severity": "major",
+      "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord",
+      "suggested_fix": "Replace only the quoted passage, preserving its surrounding <em> tag and reference, with a faithful Dutch translation, for example: “Spreek onder elkaar met psalmen, lofzangen en geestelijke liederen, zing en maak in uw hart melodie voor de Heer”",
+      "translation_quote": "Spreek onder elkaar met psalmen, lofzangen en geestelijke liederen, zing en maak melodie in uw hart voor de Heer"
+    },
+    {
+      "location": "Article, paragraph beginning “Ook in Kolossenzen staat” (Colossians 3:16)",
+      "severity": "major",
+      "source_quote": "teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord",
+      "suggested_fix": "Replace only the quoted passage, preserving its surrounding <em> tag and reference, with a faithful Dutch translation, for example: “elkaar onderwijzen en vermanen met psalmen, lofzangen en geestelijke liederen, zingend met genade in uw hart voor de Heer”",
+      "translation_quote": "elkaar moeten onderwijzen en terechtwijzen met psalmen, lofzangen en geestelijke liederen, zingend met dankbaarheid in uw hart voor de Heer"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

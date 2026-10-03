@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Sezione «Una cosa necessaria», citazione di Luca 20:1-8",
+      "severity": "major",
+      "source_quote": "«If we shall say, From heaven; he will say, Why then believed ye him not? But and if we say, Of men; all the people will stone us»",
+      "suggested_fix": "Correggere la citazione rendendo il passaggio: «Se diciamo: “Dal cielo”, egli dirà: “Perché dunque non gli avete creduto?”. Ma se diciamo: “Dagli uomini”, tutto il popolo ci lapiderà…»; evitare di trasformare il discorso indiretto dell’originale in un discorso diretto attribuito ai presenti.",
+      "translation_quote": "«Se diciamo: “Dal cielo”, egli dirà: “Perché dunque non gli avete creduto?”. Ma se diciamo: “Dagli uomini”, tutto il popolo ci lapiderà»"
+    },
+    {
+      "location": "Sezione «…Padroni», citazione di Genesi 24:12",
+      "severity": "major",
+      "source_quote": "«…send me good speed this day, and shew kindness unto my master Abraham.»",
+      "suggested_fix": "Tradurre fedelmente la richiesta di successo e di benevolenza, per esempio: «…fa’ che oggi io abbia successo e mostra benevolenza al mio padrone Abraamo».",
+      "translation_quote": "«…fammi incontrare oggi la buona sorte e mostra benignità al mio padrone Abraamo»"
+    },
+    {
+      "location": "Sezione «…Genitori», citazione di Efesini 6:1-3",
+      "severity": "major",
+      "source_quote": "«That it may be well with thee»",
+      "suggested_fix": "Rendere «affinché ti vada bene» o «affinché tutto ti vada bene», senza sostituire questa promessa con l’essere felice.",
+      "translation_quote": "«affinché tu sia felice»"
+    },
+    {
+      "location": "Sezione «…Chiesa», citazione di 1 Samuele 15:23",
+      "severity": "major",
+      "source_quote": "«For rebellion is as the sin of witchcraft»",
+      "suggested_fix": "Tradurre «la ribellione è come il peccato della stregoneria» (o una formulazione italiana equivalente); «divinazione» non conserva il significato di «witchcraft».",
+      "translation_quote": "«la ribellione è come il peccato della divinazione»"
+    },
+    {
+      "location": "Sezione «…Chiesa», frase sulla scelta della via",
+      "severity": "major",
+      "source_quote": "«Efforts to choose …a way which seemeth right unto a man… –Proverbs 14:12, leads to bondage»",
+      "suggested_fix": "Riformulare in modo che siano gli sforzi/tentativi di scegliere la via apparentemente giusta a condurre alla schiavitù, ad esempio: «Gli sforzi per scegliere …una via che all’uomo sembra diritta… –Proverbi 14:12, conducono alla schiavitù».",
+      "translation_quote": "«Il tentativo di scegliere …una via che all’uomo sembra diritta… –Proverbi 14:12, conduce alla schiavitù»"
+    },
+    {
+      "location": "Sezione «…Chiesa», frase sulla tentazione di Satana",
+      "severity": "major",
+      "source_quote": "«if He would only throw off the “yoke” of obedience to God»",
+      "suggested_fix": "Ripristinare il senso di liberarsi dal giogo dell’ubbidienza a Dio, per esempio: «se soltanto si fosse liberato del “giogo” dell’ubbidienza a Dio».",
+      "translation_quote": "«se soltanto avesse deposto il “giogo” dell’ubbidienza a Dio»"
+    },
+    {
+      "location": "Sezione «La sottomissione produce autorità spirituale», frase conclusiva",
+      "severity": "major",
+      "source_quote": "«Faith that comes through wholehearted and humble subjection is the most suspect and under-estimated power available to mankind.»",
+      "suggested_fix": "Correggere «sospetta» in una resa di «underestimated», per esempio: «La fede che nasce da una sottomissione piena e umile è la potenza più sottovalutata e meno apprezzata a disposizione dell’umanità».",
+      "translation_quote": "«La fede che nasce da una sottomissione umile e piena di tutto il cuore è la potenza più sospetta e sottovalutata a disposizione dell’umanità.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

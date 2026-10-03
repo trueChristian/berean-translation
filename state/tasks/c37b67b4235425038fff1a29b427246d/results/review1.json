@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8d5db465-4aa8-45fd-9e2b-4da074042d59",
+    "response_id": "chatcmpl-EUz98neFMEi2ZhGBol2rMHItJNCoJ",
+    "usage": {
+      "completion_tokens": 1047,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 833,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14747,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15797
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "The paragraph beginning “Then he began spitting up.”",
+        "severity": "major",
+        "source_quote": "Then he began spitting up.",
+        "suggested_fix": "Replace “Dann begann er, Milch wieder hochzuwürgen.” with “Dann begann er zu spucken.”",
+        "translation_quote": "Dann begann er, Milch wieder hochzuwürgen."
+      },
+      {
+        "location": "The paragraph beginning “By the end of the first week”",
+        "severity": "minor",
+        "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate",
+        "suggested_fix": "Use “Händchen” rather than “Paddel” to convey that he offered his little hands to be held; for example: “bot er Sterling und mir jeweils eines seiner kleinen Händchen zum Festhalten an”.",
+        "translation_quote": "bot er Sterling und mir je eines seiner kleinen Paddel zum Festhalten an"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

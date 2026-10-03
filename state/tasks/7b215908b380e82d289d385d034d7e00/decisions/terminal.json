@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, opening Psalm 144:12 quotation",
+      "severity": "minor",
+      "source_quote": "“corner stones, polished after the similitude of a palace”",
+      "suggested_fix": "Change «utskåret etter mønsteret til et palass» to «polert etter mønsteret av et palass» to preserve the source image of polished corner stones.",
+      "translation_quote": "«hjørnesteiner, utskåret etter mønsteret til et palass»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

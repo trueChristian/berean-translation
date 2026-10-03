@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second blockquote (1 Corinthians 10:13), opening clause",
+      "severity": "major",
+      "source_quote": "There hath no temptation taken you but such as is common to man",
+      "suggested_fix": "Replace the opening clause with a faithful Urdu rendering of the printed meaning, for example: «تم پر ایسی کوئی آزمائش نہیں آئی جو انسانوں پر عام نہ ہو؛» Keep the existing reference and the remainder of the blockquote unchanged.",
+      "translation_quote": "تم کسی ایسی آزمائش میں نہیں پڑے جو انسان کے برداشت سے باہر ہو"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

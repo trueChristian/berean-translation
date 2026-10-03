@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d4015fe9-5d13-4e24-a29c-551a8c89d6e2",
+    "response_id": "chatcmpl-EUz9DksEUEkmPZPoPOnB2ZjNuYa74",
+    "usage": {
+      "completion_tokens": 502,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4203,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4708
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph beginning “Ramona was a little girl…”",
+        "severity": "major",
+        "source_quote": "“Like other four-year-old’s, there were a lot of things Ramona could do. She could ride a bike, climb a tree, wash dishes, write her name, and ride her pony all by herself.”",
+        "suggested_fix": "Replace the affected sentence with: “Kama watoto wengine wa miaka minne, Ramona aliweza kufanya mambo mengi. Aliweza kuendesha baiskeli, kupanda mti, kuosha vyombo, kuandika jina lake, na kumpanda farasi wake mdogo peke yake.”",
+        "translation_quote": "“Kama watoto wengine wa miaka minne, Ramona aliweza kufanya mambo mengi. Aliweza kuendesha baiskeli, kupanda mti, kuosha vyombo, kuandika jina lake, na kumpanda farasi wake mdogo peke yake.”"
+      },
+      {
+        "location": "html, paragraph beginning “One beautiful Summer evening…”",
+        "severity": "major",
+        "source_quote": "“Her siblings and their guests were riding nearby.”",
+        "suggested_fix": "Replace “Ndugu na dada zake pamoja na wageni wao walikuwa wakipanda farasi karibu na hapo.” with “Ndugu zake pamoja na wageni wao walikuwa wakipanda farasi karibu na hapo.” This avoids implying that her siblings were both brothers and sisters, which the source does not specify.",
+        "translation_quote": "“Ndugu na dada zake pamoja na wageni wao walikuwa wakipanda farasi karibu na hapo.”"
+      },
+      {
+        "location": "html, paragraph beginning “Before putting her to bed…”",
+        "severity": "major",
+        "source_quote": "“The Bible says, Pride goeth before destruction, and an haughty spirit before a fall –Proverbs 16:18.”",
+        "suggested_fix": "Within the existing <em> element, use: “Biblia inasema, <em>Kiburi hutangulia uharibifu, na roho ya majivuno hutangulia anguko –Mithali 16:18.</em>” Keep the verse reference number and its placement unchanged.",
+        "translation_quote": "“Biblia inasema, <em>Kiburi hutangulia uangamivu; na roho yenye majivuno hutangulia maanguko –Mithali 16:18.</em>”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

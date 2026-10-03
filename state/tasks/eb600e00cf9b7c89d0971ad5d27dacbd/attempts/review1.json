@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"HTML, primo paragrafo\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We asked the Lord for him, our third child, third son.\",\n      \"suggested_fix\": \"Avevamo chiesto al Signore di darci lui, il nostro terzo figlio, il terzo maschio.\",\n      \"translation_quote\": \"Avevamo chiesto al Signore lui, il nostro terzo figlio, il terzo maschio.\"\n    },\n    {\n      \"location\": \"HTML, paragrafo che inizia «Alla fine della prima settimana»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"With a comically pathetic expression, he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.\",\n      \"suggested_fix\": \"Con un’espressione comicamente patetica, offriva a me e a Sterling una delle sue manine da tenere mentre mangiava, come se questo gli desse coraggio.\",\n      \"translation_quote\": \"Con un’espressione comicamente patetica, offriva a me e a Sterling una delle sue piccole polpette perché gliela tenessimo mentre mangiava, come se questo gli desse coraggio.\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 1114,
+    "content_evidence_truncated": false,
+    "content_sha256": "f68824116c0e88c0a4919a9038f14e615e65ff58b0619dd15b81920c5c75c26d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1096,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 781,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15279,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15276,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16375
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

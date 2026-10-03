@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0ac69edb-3a69-4f7f-9993-43f6c23cdee3",
+    "response_id": "chatcmpl-EUz9BG2TxZhIUVgijpLLe5HdyxeB8",
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 660,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5667,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5664,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6476
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Colossians 3:16 quotation",
+        "severity": "major",
+        "source_quote": "Let the word of Christ dwell in you richly in all wisdom;",
+        "suggested_fix": "Change the beginning of the quotation to «Que la palabra de Cristo more en abundancia en vosotros, con toda sabiduría, ...» so the Spanish retains the source’s imperative to let Christ’s word dwell in the believers.",
+        "translation_quote": "La palabra de Cristo more en abundancia en vosotros, enseñándoos y exhortándoos unos a otros con toda sabiduría, ..."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

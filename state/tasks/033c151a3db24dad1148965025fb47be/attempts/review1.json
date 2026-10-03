@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph after the three hope bullet points\",\"severity\":\"minor\",\"source_quote\":\"“a burden that seems more than they can bear”\",\"suggested_fix\":\"Replace “जिसे वह सहन करने से अधिक समझता है” with “जो उसे अपनी सहन-शक्ति से अधिक लगता है” to convey that the burden seems unbearable to the friend.\",\"translation_quote\":\"“ऐसे बोझ से जूझ रहा हो जिसे वह सहन करने से अधिक समझता है”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 641,
+    "content_evidence_truncated": false,
+    "content_sha256": "99d69c0824f0e8c86f78da185fc2c89519797bcfb877a39c59dc8ee7d8b1dd6e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 716,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5551,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6403
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

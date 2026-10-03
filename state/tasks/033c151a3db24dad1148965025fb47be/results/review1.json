@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9b3255d9-3766-4293-8ef5-93abd40548c9",
+    "response_id": "chatcmpl-EUz8xs43Tn3E2ZWRGW45EXtVPaTkM",
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 716,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5551,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6403
+    }
+  },
+  "received_at": "2026-10-03T21:16:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph after the three hope bullet points",
+        "severity": "minor",
+        "source_quote": "“a burden that seems more than they can bear”",
+        "suggested_fix": "Replace “जिसे वह सहन करने से अधिक समझता है” with “जो उसे अपनी सहन-शक्ति से अधिक लगता है” to convey that the burden seems unbearable to the friend.",
+        "translation_quote": "“ऐसे बोझ से जूझ रहा हो जिसे वह सहन करने से अधिक समझता है”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, eerste alinea",
+      "severity": "minor",
+      "source_quote": "an agenda of political nature",
+      "suggested_fix": "Vervang „een politiek agenda” door „een politieke agenda”.",
+      "translation_quote": "een politiek agenda is"
+    },
+    {
+      "location": "HTML, vierde alinea",
+      "severity": "minor",
+      "source_quote": "our “light” and “witness”",
+      "suggested_fix": "Vervang „onze ‘licht’” door „ons ‘licht’”.",
+      "translation_quote": "onze „licht” en ons „getuigenis”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4e04340a-31cd-4dfd-a368-fbd90c4f4043",
+    "response_id": "chatcmpl-EUz8yH3xkZZ84vmsgFb8d0iqog7JS",
+    "usage": {
+      "completion_tokens": 866,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 717,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9747,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9744,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10613
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf “Ketundukan Mengaktifkan Kuasa,” kutipan Roma 13:5",
+        "severity": "major",
+        "source_quote": "“Wherefore ye must needs be subject, not only for wrath, but also for conscience sake”",
+        "suggested_fix": "Ubah “bukan hanya karena murka Allah” menjadi “bukan hanya karena murka” agar tidak menambahkan atribusi yang tidak ada dalam kutipan sumber.",
+        "translation_quote": "“Itulah sebabnya kamu harus takluk, bukan hanya karena murka Allah, tetapi juga karena suara hati”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

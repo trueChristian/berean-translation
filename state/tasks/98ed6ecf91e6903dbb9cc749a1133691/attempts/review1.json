@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML، الفقرة التي تبدأ «الرغبة في خدمة يسوع»\",\"severity\":\"major\",\"source_quote\":\"“When God converts a person’s soul, that individual is a new creature”\",\"suggested_fix\":\"استبدل «عندما يجدد الله نفس شخص» بـ«عندما يخلّص الله نفس شخص» أو «عندما يغيّر الله نفس شخص»، بما يحفظ معنى تحويل النفس إلى خليقة جديدة ولا يوحي بالتجدد الروحي بمعنى تجديد النفس.\",\"translation_quote\":\"«عندما يجدد الله نفس شخص، يصبح ذلك الفرد خليقة جديدة»\"},{\"location\":\"HTML، الفقرة التي تبدأ «عندما يعلن شخص ما أنه قد تجدد»\",\"severity\":\"major\",\"source_quote\":\"“When someone comes declaring they have been converted, it is easy to find out.”\",\"suggested_fix\":\"استبدل «عندما يعلن شخص ما أنه قد تجدد» بـ«عندما يعلن شخص ما أنه قد اهتدى» أو «أنه قد تغيّر»؛ فالمقصود إعلان التحول إلى الإيمان، لا التجدد.\",\"translation_quote\":\"«عندما يعلن شخص ما أنه قد تجدد، يسهل التحقق من ذلك»\"},{\"location\":\"HTML، الفقرة التي تبدأ «قال لي أناس»\",\"severity\":\"major\",\"source_quote\":\"“Every conversion brought a tremendous change, a new creature.”\",\"suggested_fix\":\"استبدل «فقد أحدث كل تجدد تغييرًا هائلًا، وأنتج خليقة جديدة» بـ«فقد أحدث كل اهتداء تغييرًا هائلًا، وأنتج خليقة جديدة» أو صياغة عربية تؤدي معنى التحول إلى الإيمان.\",\"translation_quote\":\"«فقد أحدث كل تجدد تغييرًا هائلًا، وأنتج خليقة جديدة»\"},{\"location\":\"HTML، الفقرة التي تبدأ «يبدو أننا نحكم على كل شيء»\",\"severity\":\"major\",\"source_quote\":\"“It seems that we judge everything by its fruit, except for Christians. For Christians we are expected to judge by what they claim.”\",\"suggested_fix\":\"استبدل «أما المسيحيون، فيُتوقع منا أن نحكم عليهم بناءً على ما يدّعون» بـ«أما المسيحيون، فيُتوقع منا أن نحكم عليهم بناءً على ما يدّعونه»؛ فالنص يقول إنهم يُحكَم عليهم وفق ادعائهم، لا إننا متوقع منا ذلك.\",\"translation_quote\":\"«أما المسيحيون، فيُتوقع منا أن نحكم عليهم بناءً على ما يدّعون»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2736,
+    "content_evidence_truncated": false,
+    "content_sha256": "8d244b3fc703274b9c32e3055dac320f1b80df5ec0a131717c9cc2ba4937c317",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8758,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8755,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9312
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

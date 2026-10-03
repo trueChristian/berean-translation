@@ -2,7 +2,6 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9274
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 827,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 589,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9082,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9079,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9909
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article paragraph quoting 1 Peter 2:2",
+      "severity": "major",
+      "source_quote": "“desire the sincere milk of the word, that ye may grow thereby”",
+      "suggested_fix": "Replace “ili kwa hayo mpate kuukulia wokovu” with “ili kwa hayo mpate kukua,” preserving the source’s meaning without adding “salvation.” Keep the existing emphasis and reference structure.",
+      "translation_quote": "“kutamani maziwa ya neno yasiyoghoshiwa, ili kwa hayo mpate kuukulia wokovu: –1 Petro 2:2.”"
+    },
+    {
+      "location": "Article paragraph quoting Matthew 7:22",
+      "severity": "major",
+      "source_quote": "“and in thy name done many wonderful works?”",
+      "suggested_fix": "Replace “kufanya miujiza mingi” with wording that conveys “doing many wonderful works,” such as “kufanya kazi nyingi za ajabu,” without narrowing the phrase to miracles.",
+      "translation_quote": "“Na kwa jina lako kufanya miujiza mingi?”"
+    }
+  ],
   "id": "f015df72e093d38a98de1c0f9ec89132",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

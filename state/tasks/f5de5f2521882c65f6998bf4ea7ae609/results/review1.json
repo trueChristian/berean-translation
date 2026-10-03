@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6fb0b56a-b639-4aa6-952e-a236ef9074d8",
+    "response_id": "chatcmpl-EUz8zaanbhuaJfZvvIzNVuu7xy2fl",
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 409,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5435,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5432,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6007
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 10, quotation from 2 Timothy 1:7",
+        "severity": "major",
+        "source_quote": "…God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.",
+        "suggested_fix": "<em>…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور صحیح سوچ کی روح دی ہے—2 تیمتھیس 1:7۔</em>",
+        "translation_quote": "…خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور پرہیزگاری کی روح دی ہے—2 تیمتھیس 1:7۔"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

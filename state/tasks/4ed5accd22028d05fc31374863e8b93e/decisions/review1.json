@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, list of outcomes",
+      "severity": "major",
+      "source_quote": "“strength to preach and convert souls”",
+      "suggested_fix": "Replace “krag om siele te verkondig en tot bekering te bring” with “krag om te preek en siele tot bekering te bring” so the translation says that people preach and bring souls to conversion.",
+      "translation_quote": "“krag om siele te verkondig en tot bekering te bring”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "52209280-0130-41e7-ae2a-ae55d268c1c0",
+    "response_id": "chatcmpl-EUz96WjPchX8ghAQy47DroDiIWAWO",
+    "usage": {
+      "completion_tokens": 907,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9848,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9845,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10755
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Wengine watathibitisha…”",
+        "severity": "major",
+        "source_quote": "the “Jesus only” movement has opened the gate so broadly that it can hardly be considered “strait”.",
+        "suggested_fix": "Replace the final sentence with: “Hata hivyo, tumeona kwamba vuguvugu la ‘Yesu pekee’ limefungua lango kwa upana kiasi kwamba haliwezi tena kuitwa ‘jembamba’.”",
+        "translation_quote": "Hata hivyo, tumeona kwamba vuguvugu la “Yesu pekee” limefungua lango kwa upana kiasi kwamba haliwezi tena kuitwa “jembamba”."
+      },
+      {
+        "location": "HTML, paragraph beginning “Submission Activates Power.”",
+        "severity": "major",
+        "source_quote": "The authority ushered in by Christ Jesus left His followers astonished and amazed—But when the multitudes saw it, they marvelled, and glorified God, which had given such power unto men –Matthew 9:8.",
+        "suggested_fix": "In the quotation, replace “mamlaka ya namna hii” with “nguvu ya namna hii,” preserving the reference: “Makutano walipoona hayo, walishangaa, wakamtukuza Mungu aliyewapa wanadamu nguvu ya namna hii –Mathayo 9:8.”",
+        "translation_quote": "Makutano walipoona hayo, walishangaa, wakamtukuza Mungu aliyewapa wanadamu mamlaka ya namna hii –Mathayo 9:8."
+      },
+      {
+        "location": "HTML, paragraph beginning “While slavery has been predominantly eradicated…”",
+        "severity": "major",
+        "source_quote": "The authority given to Eleazer is amazing and inspiring. Abraham trusted him to secure a wife for Isaac; He was even permitted to determine the rules.",
+        "suggested_fix": "Replace “Ahadi hii kubwa” with “Dhamana hii kubwa” to convey the source’s “colossal commitment” rather than “this great promise.”",
+        "translation_quote": "Ahadi hii kubwa ilimwacha mtumishi aliyefungwa kwa mkataba katika hali ngumu kati ya Bwana Mungu na bwana wake Abrahamu."
+      },
+      {
+        "location": "HTML, paragraph beginning “The American workforce…”",
+        "severity": "major",
+        "source_quote": "The Ethiopian eunuch served God while also serving under Queen Candace.",
+        "suggested_fix": "Replace “akimtumikia chini ya Malkia Kandake” with “akitumika chini ya mamlaka ya Malkia Kandake” or “akiwa mtumishi chini ya Malkia Kandake.”",
+        "translation_quote": "Towashi Mwethiopia alimtumikia Mungu huku pia akimtumikia chini ya Malkia Kandake."
+      },
+      {
+        "location": "HTML, paragraph beginning “As Jesus entered into dialogue…”",
+        "severity": "major",
+        "source_quote": "Women who stand up for their rights kick at the narrowness of the gate and forfeit their God-ordained dignity.",
+        "suggested_fix": "Replace “Wanawake wanaosimamia haki zao” with “Wanawake wanaodai haki zao kwa kusimama dhidi ya mipaka hii” so the sentence conveys the source’s criticism of women asserting their rights, rather than merely standing up for them.",
+        "translation_quote": "Wanawake wanaosimamia haki zao huipiga teke nafasi finyu ya lango na kupoteza heshima waliyoamriwa na Mungu."
+      },
+      {
+        "location": "HTML, paragraph beginning “The authority ushered in by Christ Jesus…”",
+        "severity": "minor",
+        "source_quote": "the posts and thus forfeit the life that the strait gate brings.",
+        "suggested_fix": "Replace “kuyatenganisha zaidi” with “kuzisogeza zaidi” to retain the source’s image of widening the posts by moving them apart.",
+        "translation_quote": "wanafanikiwa tu kuyatenganisha zaidi na hivyo kupoteza uzima unaoletwa na lango jembamba."
+      },
+      {
+        "location": "HTML, paragraph beginning “The American workforce…”",
+        "severity": "minor",
+        "source_quote": "This attitude has left them spiritually anemic and powerless.",
+        "suggested_fix": "Replace “dhaifu kiroho” with “waliodhoofika kiroho” for a more natural rendering of “spiritually anemic.”",
+        "translation_quote": "Mtazamo huu umewaacha wakiwa dhaifu kiroho na wasio na nguvu."
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

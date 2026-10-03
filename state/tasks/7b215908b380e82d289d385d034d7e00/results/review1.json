@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6899df71-06cb-43dc-8e0a-79fa164d4690",
+    "response_id": "chatcmpl-EUz9UzhoS1VLXkZcvPbgcUhrm5aDl",
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 606,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8331,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9076
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, opening Psalm 144:12 quotation",
+        "severity": "minor",
+        "source_quote": "“corner stones, polished after the similitude of a palace”",
+        "suggested_fix": "Change «utskåret etter mønsteret til et palass» to «polert etter mønsteret av et palass» to preserve the source image of polished corner stones.",
+        "translation_quote": "«hjørnesteiner, utskåret etter mønsteret til et palass»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

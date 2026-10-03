@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e3af5b10-de2b-420b-a182-91b312b2d309",
+    "response_id": "chatcmpl-EUz9O82gVtqtzSL5WdxtzUBYthF6N",
+    "usage": {
+      "completion_tokens": 561,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6028,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6025,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6589
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 10, quoted Philippians 4:8",
+        "severity": "minor",
+        "source_quote": "whatsoever things are of good report",
+        "suggested_fix": "Replace «καλόφημα» with «καλής φήμης» (for example, «όσα έχουν καλή φήμη») to convey the meaning in idiomatic Modern Greek.",
+        "translation_quote": "όσα είναι καλόφημα"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

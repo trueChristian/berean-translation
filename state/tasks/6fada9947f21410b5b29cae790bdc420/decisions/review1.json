@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph about new Christians; Luke 2:52 quotation",
+      "severity": "major",
+      "source_quote": "…in wisdom and stature, and in favour with God and man –Luke 2:52.",
+      "suggested_fix": "Replace only the quoted Afrikaans wording with: <em>…in wysheid en gestalte en in guns by God en die mense –Lukas 2:52.</em>",
+      "translation_quote": "…in wysheid en grootte en in genade by God en die mense. –Lukas 2:52."
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Use consistent Afrikaans capitalization: OORDENKINGS VAN ’N SENDeling → OORDENKINGS VAN ’N SENDEling is still inconsistent; use OORDENKINGS VAN ’N SENDeling only if preserving the source casing is intentional, otherwise use OORDENKINGS VAN ’N SENDELING.",
+      "translation_quote": "OORDENKINGS VAN ’N SENDeling"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4132ed2b-e049-450c-b9e0-adf242220c1c",
+    "response_id": "chatcmpl-EUz8ynIicKDVbEQ5bWcVHU4VHDIyw",
+    "usage": {
+      "completion_tokens": 613,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 365,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5520,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5517,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6133
+    }
+  },
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "অনুচ্ছেদ ৮",
+        "severity": "major",
+        "source_quote": "Will it change the way I live for the other kingdom now?",
+        "suggested_fix": "এখন অন্য রাজ্যের জন্য আমার জীবনযাপনের ওপর তার কী প্রভাব পড়বে?—এর বদলে লিখুন: “এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কি এর কোনো পরিবর্তন আসবে?”",
+        "translation_quote": "এখন অন্য রাজ্যের জন্য আমার জীবনযাপনের ওপর তার কী প্রভাব পড়বে?"
+      },
+      {
+        "location": "অনুচ্ছেদ ১০",
+        "severity": "major",
+        "source_quote": "As Christians we try to be a peaceful and trusting people",
+        "suggested_fix": "“খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও নির্ভরশীল মানুষ হওয়ার চেষ্টা করি”–এর বদলে লিখুন: “খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও আস্থাশীল মানুষ হওয়ার চেষ্টা করি”।",
+        "translation_quote": "খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও নির্ভরশীল মানুষ হওয়ার চেষ্টা করি"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "32041160-1baa-49bf-abd2-f7e4f8940db6",
+    "response_id": "chatcmpl-EUz8yI1NSp6sxmXYIVoaHIaaDY5qR",
+    "usage": {
+      "completion_tokens": 209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5411,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5408,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5620
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “In hierdie verse…”; numbered list item 1",
+        "severity": "major",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "Replace “Dit is volgens sy feit, nie volgens ons gevoel nie.” with “Dit is volgens sy Woord, nie volgens ons gevoel nie.”",
+        "translation_quote": "Dit is volgens sy feit, nie volgens ons gevoel nie."
+      },
+      {
+        "location": "Article, paragraph beginning “In hierdie verse…”; numbered list item 3",
+        "severity": "major",
+        "source_quote": "God is in the middle of it and that He is up to something according to His will.",
+        "suggested_fix": "Replace “dat Hy volgens sy wil iets aan die werk is” with “dat Hy volgens sy wil besig is om iets te doen.”",
+        "translation_quote": "dat God daar midde-in is en dat Hy volgens sy wil iets aan die werk is."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

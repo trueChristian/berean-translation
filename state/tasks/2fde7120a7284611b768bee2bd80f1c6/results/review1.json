@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b0af97d3-71cc-48dd-a5f6-c6e6f49c8fd7",
+    "response_id": "chatcmpl-EUz8xFIqsESCvnYVvRSZaFNHTns0t",
+    "usage": {
+      "completion_tokens": 934,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 638,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1920,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1917,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2854
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Puisi, bait 1, baris 2",
+        "severity": "major",
+        "source_quote": "It was from the beginning that His will He would yield.",
+        "suggested_fix": "Ganti baris terjemahan itu menjadi: \"Sejak semula, Ia rela menyerahkan kehendak-Nya.\"",
+        "translation_quote": "Sejak semula, Ia bersedia melakukan kehendak-Nya yang tunduk."
+      },
+      {
+        "location": "Puisi, bait 6, baris 2",
+        "severity": "major",
+        "source_quote": "But the stricken Savior opened not His mouth.",
+        "suggested_fix": "Ganti baris terjemahan itu menjadi: \"Namun Sang Juruselamat yang menderita tidak membuka mulut-Nya.\"",
+        "translation_quote": "Namun Sang Juruselamat yang menderita tak membuka mulut-Nya seorang pun."
+      },
+      {
+        "location": "Puisi, bait 10, baris 2",
+        "severity": "minor",
+        "source_quote": "Providing the Lamb and transforming my fate.",
+        "suggested_fix": "Hapus \"selamanya\" agar baris tetap menyatakan perubahan nasib tanpa menambahkan klaim bahwa perubahan itu berlangsung selamanya: \"Yang menyediakan Anak Domba dan mengubah nasibku.\"",
+        "translation_quote": "Yang menyediakan Anak Domba dan mengubah nasibku selamanya."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

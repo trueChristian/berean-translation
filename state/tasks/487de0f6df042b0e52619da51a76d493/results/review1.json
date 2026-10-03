@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "83bfe6c7-fc13-4c8e-ba97-26014269f3d9",
+    "response_id": "chatcmpl-EUz9Kiba9lJlo5kIvx5XlX4tmbcgF",
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8382,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9266
+    }
+  },
+  "received_at": "2026-10-03T21:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “Hopelik het jy ’n verhouding gekoester…”",
+        "severity": "major",
+        "source_quote": "“We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.”",
+        "suggested_fix": "Replace “Ons het tekens van oortuiging herken en hulle gelei tot berou en bekering, en om redding deur geloof in Christus te ontvang.” with “Ons het tekens van oortuiging herken en hulle tot gebrokenheid en bekering gelei, en om redding deur geloof in Christus te ontvang.” This restores “brokenness” and avoids adding a separate “remorse” step.",
+        "translation_quote": "“Ons het tekens van oortuiging herken en hulle gelei tot berou en bekering, en om redding deur geloof in Christus te ontvang.”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

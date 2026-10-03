@@ -2,7 +2,6 @@
   "article_id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a59ce6dac17e4116a113d177968d1166",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 8435
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 363,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8237,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8234,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8600
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraf tentang masa remaja dan Lukas 2:51",
+      "severity": "major",
+      "source_quote": "“And he went down with them, and came to Nazareth, and was subject unto them…”",
+      "suggested_fix": "Terjemahkan kutipan sesuai teks sumber, misalnya: “Lalu Ia turun bersama-sama mereka, kembali ke Nazaret, dan tunduk kepada mereka…” Pertahankan rujukan –Lukas 2:51.",
+      "translation_quote": "“Lalu Ia pulang bersama-sama mereka ke Nazaret, dan Ia tetap hidup dalam asuhan mereka…”"
+    },
+    {
+      "location": "source.html, paragraf tentang tembok blok beton",
+      "severity": "minor",
+      "source_quote": "“Dad provided the blocks and the mortar and got me started. Then I was on my own.”",
+      "suggested_fix": "Ubah bagian ini agar ayah hanya memulai pekerjaan, lalu penulis mengerjakannya sendiri, misalnya: “Ayah menyediakan blok dan adukan semen, lalu membantu saya memulai. Setelah itu, saya mengerjakannya sendiri.”",
+      "translation_quote": "“Ayah menyediakan blok dan adukan semen, lalu memulai pekerjaan itu bersama saya. Setelah itu, saya mengerjakannya sendiri.”"
+    },
+    {
+      "location": "source.html, paragraf tentang tanda-tanda keyakinan rohani",
+      "severity": "minor",
+      "source_quote": "“Be aware of evidence of conviction.”",
+      "suggested_fix": "Gunakan ungkapan yang lebih jelas untuk tanda-tanda keinsafan akan dosa, misalnya: “Perhatikan tanda-tanda keinsafan akan dosa.”",
+      "translation_quote": "“Waspadalah terhadap tanda-tanda adanya keyakinan akan dosa.”"
+    }
+  ],
   "id": "8345f759c18eb2c830ad7ccb04942be9",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ind",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

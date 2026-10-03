@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:16:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"অনুচ্ছেদ ৮\",\"severity\":\"major\",\"source_quote\":\"Will it change the way I live for the other kingdom now?\",\"suggested_fix\":\"এখন অন্য রাজ্যের জন্য আমার জীবনযাপনের ওপর তার কী প্রভাব পড়বে?—এর বদলে লিখুন: “এখন অন্য রাজ্যের জন্য যেভাবে আমি জীবনযাপন করি, তাতে কি এর কোনো পরিবর্তন আসবে?”\",\"translation_quote\":\"এখন অন্য রাজ্যের জন্য আমার জীবনযাপনের ওপর তার কী প্রভাব পড়বে?\"},{\"location\":\"অনুচ্ছেদ ১০\",\"severity\":\"major\",\"source_quote\":\"As Christians we try to be a peaceful and trusting people\",\"suggested_fix\":\"“খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও নির্ভরশীল মানুষ হওয়ার চেষ্টা করি”–এর বদলে লিখুন: “খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও আস্থাশীল মানুষ হওয়ার চেষ্টা করি”।\",\"translation_quote\":\"খ্রিস্টান হিসেবে আমরা শান্তিপ্রিয় ও নির্ভরশীল মানুষ হওয়ার চেষ্টা করি\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1605,
+    "content_evidence_truncated": false,
+    "content_sha256": "8cc1d6122342e9e26791a202e6ed36afe7c86392b458bd51e4074ee9530f3653",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 613,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 365,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5520,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5517,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6133
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
