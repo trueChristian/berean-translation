@@ -1,0 +1,175 @@
+{
+  "article_id": "64012528-bcec-4189-96b5-32a226869815",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37109120670",
+  "created_at": "2026-10-03T08:20:25+00:00",
+  "downstream_candidate_sha256": "193df3f4ef91b14a0d3dd2c142b5d436ee416ea366f8782968b9d01502ee3181",
+  "downstream_key": "831ff772e0bfae5445c12b8d18b8ef8d39054b24ed2210bea3f95f13724564cf",
+  "downstream_previous_sha256": "933514d002786cf436d5d50a74227e45a1bf8756123ac6be0cd01c1c5df233c9",
+  "downstream_previous_task": "2875c7f93532def0bee46f7967c7a8c1",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line 3",
+      "severity": "major",
+      "source_quote": "But we must not forget that day has not come.",
+      "suggested_fix": "Vertaal betekenis getrou sonder toevoegings en grammatikaal korrek: bv. \"Maar ons moet nie vergeet dat daardie dag nog nie aangebreek het nie.\" Behoud die poëtiese toon en brokkie HTML-struktuur.",
+      "translation_quote": "Maar ons moet nie vergeet daardie dag het nog nie gekom."
+    },
+    {
+      "location": "<p class=\"poem\"> line 4",
+      "severity": "major",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "Korrekte, natuurlike Afrikaans wat die oorspronklike betekenis bewaar: bv. \"Ons is in 'n geveg; ons moet steeds oorwin.\" (nie 'oorwin kom'). Maak die zin grammatikaal en idiomaties korrek.",
+      "translation_quote": "Ons is in ’n geveg; ons moet steeds oorwin kom."
+    },
+    {
+      "location": "<p class=\"poem\"> line 6",
+      "severity": "major",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "Vertaal die sin getrou sonder om nuwe begrippe by te voeg. Voorstel: \"Hy versprei al sy leuens om die waarheid te verdraai.\" Verwyder die additionele woord 'en verloor' wat nie in die Engelse sin voorkom nie.",
+      "translation_quote": "Hy versprei al sy leuens om die waarheid te verdraai en verloor."
+    },
+    {
+      "location": "<p class=\"poem\"> lines 7-8",
+      "severity": "major",
+      "source_quote": "Sin in our lives, it is his great goal.\nFor he knows very well it will cost us our soul.",
+      "suggested_fix": "Maak die paar betekenisgetrou en sinvol in Afrikaans sonder toevoegings of nonsensiese rymwoorde. Voorstel: \"Sonde in ons lewens is sy groot doelwit, want hy weet goed dit kan ons siel kos.\" Verwyder die onverklaarbare frase 'dit is sy strydwit'.",
+      "translation_quote": "Sonde in ons lewens is sy groot doelwit,\nWant hy weet heel goed dit sal ons siel kos, dit is sy strydwit."
+    },
+    {
+      "location": "<p class=\"poem\"> line 10",
+      "severity": "major",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Corrigeer na natuurlike, verstaanbare Afrikaans sonder verkeerde of onvertaalde vorme: bv. \"Hy sal bedrieg en mislei en elke siel agterna jaag.\" Verwyder die onduidelike woord 'bekaan' (skynbaar 'betrek' of 'teiken') en gebruik 'jaag' of 'teiken'.",
+      "translation_quote": "Hy sal bedrieg en mislei om elke siel te bekaan."
+    },
+    {
+      "location": "<p class=\"poem\"> line 12",
+      "severity": "major",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Vertaal die emosie en betekenis noukeurig sonder onnodige toevoegings: bv. \"In die aangesig van God se krag, verberg daardie duiwel hom!\" Verwyder die foutiewe bywoord 'gaaf' wat geen betekenis hier het nie.",
+      "translation_quote": "In die aangesig van God se krag, verberg daardie duiwel hom gaaf!"
+    },
+    {
+      "location": "<p class=\"poem\"> lines 15-16",
+      "severity": "major",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "Behou betekenis en implikasie waarna verwys word sonder om nuwe idees by te voeg of herhalings te skep. Voorstel: \"Want die oë van die Here soek heen en weer om 'n volmaakte een te vind; dan sal Hy sy krag openbaar.\" Verwyder die oortollige en veranderde frase \"hier en weer\" wat die ritme en betekenis verander.",
+      "translation_quote": "Want die oë van die Here soek heen en weer,\nOm ’n volmaakte een te vind, dan sal Hy sy krag openbaar hier en weer!"
+    },
+    {
+      "location": "<p class=\"poem\"> final line",
+      "severity": "minor",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "Gebruik natuurlike Afrikaans en vermy onnodige uitbreiding. Voorstel: \"Kom ons gryp God se krag! Dit is tyd om te reageer!\" ('uit te stuit' of 'en uit te stuit' is nie in bron nie.)",
+      "translation_quote": "Kom ons gryp God se krag! Dit is tyd om te reageer en uit te stuit!"
+    },
+    {
+      "location": "<figure> <img> alt attribute",
+      "severity": "minor",
+      "source_quote": "Silhouette of a person raising both hands against a warm sky",
+      "suggested_fix": "Gebruik standaard, natuurlike Afrikaans alt-tekst sonder stylafwykings: bv. \"Silhoeët van 'n persoon wat albei hande ophef teen 'n warm lug.\" Huidige vertaling is aanvaardbaar, maar let op apos-trofe vorms (‘ Silhoeët’ is okay) en konsekwentheid.",
+      "translation_quote": "Silhoeët van ’n persoon wat albei hande ophef teen ’n warm lug"
+    }
+  ],
+  "id": "a2b0c78e359730b756235fab174977c4",
+  "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+  "language": "afr",
+  "model": "gpt-6-luna",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[20]: source /article[1]/p[1]/br[16] ('start', 'br', ()); translation /article[1]/p[1] ('end', 'p')",
+  "review_attempts": 0,
+  "review_model": "gpt-6-luna",
+  "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

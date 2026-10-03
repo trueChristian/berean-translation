@@ -1,0 +1,168 @@
+{
+  "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37109120670",
+  "created_at": "2026-10-03T08:20:25+00:00",
+  "downstream_candidate_sha256": "60cc6679624d98dc41444e7cbe150fdecbb160515074f8716d20917727c77d18",
+  "downstream_key": "ec1ca8f1f063c582341c16ccb9f5ccf870f25a0d4c3f503164ff834054b264c9",
+  "downstream_previous_sha256": "d1c677697b0744e1e05e6a634fdd2fcc669e9980bf9ca706a2d24a2e00a936a1",
+  "downstream_previous_task": "a8fac8bc46cdaf73b932a8b42a0f901f",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "First paragraph ( Deuteronomy 3:25,26 quotation )",
+      "severity": "critical",
+      "source_quote": "“I pray thee, let me go over, and see the good land . . . But the Lord . . . would not hear me: and the Lord said unto me, Let it suffice thee; speak no more unto me of this matter” (Deuteronomy 3:25,26).",
+      "suggested_fix": "Translate the quoted Scripture into Afrikaans and keep the chapter/verse numbers unchanged. For example: “Ek bid u, laat my oorgaan en die goeie land aanskou … Maar die Here wou nie na my luister nie: en die Here het tot my gesê: Dit is genoeg; praat nie verder oor hierdie saak met My nie” (Deuteronomium 3:25,26). Preserve the punctuation and the existing parentheses around the reference.",
+      "translation_quote": "“I pray thee, let me go over, and see the good land . . . But the Lord . . . would not hear me: and the Lord said unto me, Let it suffice thee; speak no more unto me of this matter” (Deuteronomy 3:25,26)."
+    },
+    {
+      "location": "Second paragraph ( Deuteronomy 1:42 and 1:45 quotations )",
+      "severity": "critical",
+      "source_quote": "“And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies” … “And ye returned and wept before the Lord; but the Lord would not hearken to your voice, nor give ear unto you” (Deuteronomy 1:45).",
+      "suggested_fix": "Translate both quoted Scripture passages into Afrikaans and render the book name in conventional Afrikaans form. For example: “En die Here het tot my gesê: Sê vir hulle: Gaan nie op nie, en veg nie; want Ek is nie onder julle nie; sodat julle nie deur julle vyande geslaan word nie.” … “En julle het teruggekeer en voor die Here geween; maar die Here wou nie na julle stem luister of na julle oë luister nie” (Deuteronomium 1:42; 1:45). Keep verse numbers exactly as in the source.",
+      "translation_quote": "“And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies”, maar hulle het by Sy “nee” in opstand gekom. “And ye returned and wept before the Lord; but the Lord would not hearken to your voice, nor give ear unto you” (Deuteronomy 1:45)."
+    },
+    {
+      "location": "Third paragraph (2 Corinthians 12:7-9 quotation)",
+      "severity": "critical",
+      "source_quote": "“And lest I should be exalted above measure through the abundance of the revelations, there was given to me a thorn in the flesh, the messenger of Satan to buffet me, lest I should be exalted above measure. For this thing I besought the Lord thrice, that it might depart from me. And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I glory in my infirmities, that the power of Christ may rest upon me” (2 Corinthians 12:7-9).",
+      "suggested_fix": "Translate the quoted Pauline passage into Afrikaans and use the conventional Afrikaans book name. Example: “En om te voorkom dat ek te hoog verhef word deur die oorvloed van die openbarings, is daar vir my ’n doring in die vlees gegee, ’n boodskapper van die Satan om my te slaan, opdat ek nie te veel verhef word nie. Hieroor het ek die Here driemaal aanbedel dat hy dit van my af sou wegneem. En hy het tot my gesê: My genade is genoeg vir jou; want my krag word in swakheid volbring. Daarom sal ek saam met vreugde eerder roem in my swakhede, sodat die krag van Christus oor my mag rus” (2 Korintiërs 12:7–9). Preserve the verse range and punctuation.",
+      "translation_quote": "“And lest I should be exalted above measure through the abundance of the revelations, there was given to me a thorn in the flesh, the messenger of Satan to buffet me, lest I should be exalted above measure. For this thing I besought the Lord thrice, that it might depart from me. And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I glory in my infirmities, that the power of Christ may rest upon me” (2 Corinthians 12:7-9)."
+    },
+    {
+      "location": "Throughout (other quoted Scripture and quoted phrases left in English)",
+      "severity": "critical",
+      "source_quote": "Multiple occurrences: e.g. “Therefore I take pleasure in infirmities … for when I am weak, then am I strong” (2 Corinthians 12:10); “He is … a God of truth and without iniquity, just and right is he” (Deuteronomy 32:4); “Not my will, but thine, be done,”; “Such knowledge is too wonderful for me; it is high, I cannot attain unto it” (Psalms 139:6); final sentence “Thanks be unto God for his unspeakable gift.”",
+      "suggested_fix": "All quoted Scripture verses and any other quoted substantive English phrases must be rendered into Afrikaans, using conventional Afrikaans book names and keeping chapter/verse numbers identical. Examples: “Daarom neem ek behagen in swakhede … want sotydens ek swak is, is ek sterk” (2 Korintiërs 12:10) etc. Also translate the final non-scripture thanksgiving: “Dank die Here vir sy onuitspreeklike gawe.” Ensure every quoted block that was in English is translated into Afrikaans.",
+      "translation_quote": "Varied locations (example given): “Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ’s sake: for when I am weak, then am I strong” (2 Corinthians 12:10). and the closing: “Thanks be unto God for his unspeakable gift.”"
+    },
+    {
+      "location": "Scripture references and in-text citation labels (throughout)",
+      "severity": "major",
+      "source_quote": "Parenthetical references and abbreviated citations left in English, e.g. (cf. Luke 18:1-8), (Acts 19:21; 23:11), (Acts 24:27; 27:20), (Acts 28:16), (Matthew 5:45; Acts 14:17; 1 Timothy 5:23), (cf. 2 Co 4:7-11; Gal 4:13,14; 6:14,17).",
+      "suggested_fix": "Convert all Bible book names and standard abbreviations to conventional Afrikaans forms consistently: e.g. Luke → Lukas; Acts → Handelinge; Matthew → Matteus; 1 Timothy → 1 Timoteus; 2 Co → 2 Korintiërs or 2 Kor; Gal → Galasiërs. Keep the verse numbers and punctuation unchanged. Example: (vgl. Lukas 18:1–8), (Handelinge 19:21; 23:11), (Handelinge 24:27; 27:20), (Handelinge 28:16), (Matteus 5:45; Handelinge 14:17; 1 Timoteus 5:23), (vgl. 2 Korintiërs 4:7–11; Galasiërs 4:13,14; 6:14,17).",
+      "translation_quote": "(cf. Luke 18:1-8) ; (Acts 19:21; 23:11) ; (Acts 24:27; 27:20) ; (Acts 28:16) ; (Matthew 5:45; Acts 14:17; 1 Timothy 5:23) ; (cf. 2 Co 4:7-11; Gal 4:13,14; 6:14,17)."
+    },
+    {
+      "location": "Paragraph about Paul beseeching (sentence left partly in English)",
+      "severity": "major",
+      "source_quote": "“Paul “besought the Lord thrice, that it might depart from me.”” (in translation left as English phrase inside Afrikaans paragraph)",
+      "suggested_fix": "Translate this clause into Afrikaans rather than leaving the English phrase inserted. For example: “Paulus het die Here driemaal aangebied dat dit van hom weg sou gaan.” Or better match the earlier suggested scripture translation: use the Afrikaans rendering of the scripture quote (see 2 Korintiërs 12:7–9).",
+      "translation_quote": "Paulus het “the Lord thrice besought, that it might depart from me.” Ons moet volhardend wees, selfs wanneer God se antwoord nie onmiddellik kom nie. (cf. Luke 18:1-8)."
+    },
+    {
+      "location": "Paragraph about imprisonment: “Twee jaar van’sluiting” (typographical/idiomatic error)",
+      "severity": "minor",
+      "source_quote": "“Two years of confinement were not convincing evidence of a trip to Rome”",
+      "suggested_fix": "Correct Afrikaans phrasing and spacing. Use idiomatic translation such as: “Twee jaar van opsluiting was nie oortuigend bewyse van ’n reis na Rome nie,” or “Twee jaar se opsluiting was nie oortuigend bewyse van ’n reis na Rome nie.” Fix the apostrophe/spacing in “van’sluiting.”",
+      "translation_quote": "Twee jaar van’sluiting was nie oortuigend bewys van ’n reis na Rome nie, nor was a hopeless sea voyage (Acts 24:27; 27:20)."
+    },
+    {
+      "location": "Image alt text (unchanged but acceptable with minor issue)",
+      "severity": "minor",
+      "source_quote": "alt=\"An old house and bare trees in a snowy field\"",
+      "suggested_fix": "The translator converted the alt text to Afrikaans — good — but check style: current translation is “’n Ou huis en kaal bome in ’n sneeulandskap”. This is acceptable; optionally change to “’n Ou huis en kaal bome in ’n sneeuveld” if preferred. No mandatory change required.",
+      "translation_quote": "alt=\"’n Ou huis en kaal bome in ’n sneeulandskap\""
+    }
+  ],
+  "id": "23aa7dadc8d3ab17824501b9eb3757a3",
+  "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+  "language": "afr",
+  "model": "gpt-6-luna",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: none; extra: 1:42",
+  "review_attempts": 0,
+  "review_model": "gpt-6-luna",
+  "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

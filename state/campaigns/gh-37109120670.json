@@ -4,7 +4,7 @@
   "approved_total_usd": 10.0,
   "budget_usd": 10.0,
   "created_at": "2026-10-03T08:20:19+00:00",
-  "downstream_acceptance_complete": false,
+  "downstream_acceptance_complete": true,
   "downstream_allocation_usd": 10.0,
   "downstream_recovery": true,
   "downstream_request": {
@@ -303,6 +303,12 @@
   ],
   "skipped": [],
   "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
-  "status": "acceptance_incomplete",
-  "tasks": []
+  "status": "active",
+  "tasks": [
+    "bbdc08f96fc457d148ba521375eef790",
+    "a2b0c78e359730b756235fab174977c4",
+    "fa6e65e2a9670d21994e17c042309f21",
+    "23aa7dadc8d3ab17824501b9eb3757a3",
+    "208b4a2d2e0753229c4c08438d5ed1fd"
+  ]
 }

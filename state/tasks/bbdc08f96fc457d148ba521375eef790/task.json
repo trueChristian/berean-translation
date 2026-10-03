@@ -1,0 +1,140 @@
+{
+  "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37109120670",
+  "created_at": "2026-10-03T08:20:25+00:00",
+  "downstream_candidate_sha256": "e2db4674d5942c5760e9538f5ce26446c95220ba81635d6fad6a279bb9c39d97",
+  "downstream_key": "8ae750662d485ab43e53aec66c17f0f8b19f9689a820c98897011ec1bfc3e721",
+  "downstream_previous_sha256": "3f61441bf4cb72d900dc4d2c52f64e6ea258d2662f364990910942b980fea47d",
+  "downstream_previous_task": "8e98215ca38c26c25dd297254439f2ac",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning: “Preek en aanvaar ons ’n nederlaag-e-hervang (defeated) Evangelie—’n evangelie...”",
+      "severity": "major",
+      "source_quote": "Are we preaching and accepting a defeated Gospel—a gospel that doesn’t offer complete forgiveness and complete victory?",
+      "suggested_fix": "Replace the corrupted phrase with an accurate Afrikaans rendering that preserves the English meaning. For example: “Preek en aanvaar ons ’n nederlaag-evangelie — ’n evangelie wat nie volledige vergifnis en volledige oorwinning bied nie?” Ensure the English parenthetical “(defeated)” is removed (it must not remain untranslated) and that the phrase is fluent Afrikaans.",
+      "translation_quote": "Preek en aanvaar ons ’n nederlaag-e-hervang (defeated) Evangelie—’n evangelie wat nie volledige vergifnis en volledige oorwinning bied nie?"
+    },
+    {
+      "location": "Paragraph beginning: “We must be bold and confident in our faith so we can lead people to the Master.”",
+      "severity": "major",
+      "source_quote": "We must be bold and confident in our faith so we can lead people to the Master.",
+      "suggested_fix": "Correct the mistranslation of “bold” (rendered as “nuuskierig”) to an appropriate Afrikaans word such as “dapper” or “moedig”. For example: “Ons moet dapper en vol vertroue in ons geloof wees sodat ons mense tot die Meester kan bring.”",
+      "translation_quote": "Ons moet nuuskierig en vol vertroue in ons geloof wees sodat ons mense tot die Meester kan bring."
+    },
+    {
+      "location": "Paragraph beginning: “One day, I came face to face with the Creator. The hand of the almighty God got ahold of me and opened my eyes. I repented of my sins and was given a clean slate and a clean heart.”",
+      "severity": "minor",
+      "source_quote": "I repented of my sins and was given a clean slate and a clean heart.",
+      "suggested_fix": "“clean slate” is translated as “skoon lei”, which is not idiomatic Afrikaans. Use a standard idiom such as “’n skoon blad” or “’n nuwe begin”. For example: “Ek het van my sondes bekeer en ’n skoon blad en ’n skoon hart ontvang.”",
+      "translation_quote": "Ek het van my sondes bekeer en ’n skoon lei en ’n skoon hart ontvang."
+    },
+    {
+      "location": "Paragraph beginning: “The world out there does need to be convinced. They need to see something that science cannot explain. They need to see something that defies all odds.”",
+      "severity": "minor",
+      "source_quote": "They need to see something that science cannot explain. They need to see something that defies all odds.",
+      "suggested_fix": "Stylistic/word-choice note: translation is generally correct but consider smoothing phrasing if desired (optional). No mandatory change required. Example improvement: “Die wêreld daarbuite moet oortuig word. Hulle moet iets sien wat die wetenskap nie kan verklaar nie, iets wat alle waarskynlikhede trotseer.”",
+      "translation_quote": "Die wêreld daar buite moet oortuig word. Hulle moet iets sien wat die wetenskap nie kan verklaar nie. Hulle moet iets sien wat alle waarskynlikhede trotseer."
+    }
+  ],
+  "id": "bbdc08f96fc457d148ba521375eef790",
+  "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+  "language": "afr",
+  "model": "gpt-6-luna",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6-luna",
+  "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}

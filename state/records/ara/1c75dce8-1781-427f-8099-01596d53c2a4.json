@@ -24,9 +24,15 @@
       "event": "not_ready",
       "reason": "Final review failed; no further automatic correction is allowed",
       "task": "e4b1bcba2a37b4581b6705edfaef0f4e"
+    },
+    {
+      "at": "2026-10-03T08:20:25+00:00",
+      "campaign": "gh-37109168265",
+      "event": "requested",
+      "task": "0469f79b29b85dd61eadfcd54aedee87"
     }
   ],
   "language": "ara",
-  "latest_task": "e4b1bcba2a37b4581b6705edfaef0f4e",
+  "latest_task": "0469f79b29b85dd61eadfcd54aedee87",
   "published": null
 }

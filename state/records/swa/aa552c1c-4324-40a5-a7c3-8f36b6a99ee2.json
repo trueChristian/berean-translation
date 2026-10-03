@@ -24,9 +24,15 @@
       "event": "not_ready",
       "reason": "Final review failed; no further automatic correction is allowed",
       "task": "00a2acce292eaa651e148688c8459e8f"
+    },
+    {
+      "at": "2026-10-03T08:20:25+00:00",
+      "campaign": "gh-37109168265",
+      "event": "requested",
+      "task": "fb09b5725c49da09cbc41b1ca7e98196"
     }
   ],
   "language": "swa",
-  "latest_task": "00a2acce292eaa651e148688c8459e8f",
+  "latest_task": "fb09b5725c49da09cbc41b1ca7e98196",
   "published": null
 }

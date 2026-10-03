@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Edward Martin",
+          "role": "Editor"
+        }
+      ],
+      "raw": "Edward Martin"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+    "images": [
+      {
+        "alt": "Pink and white crown vetch flowers in a green meadow",
+        "caption": null,
+        "credit": "Belle Vie Images",
+        "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg",
+        "repository_path": "public/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg",
+        "rights_note": "The page-2 masthead credits Belle Vie Images for printed page 3; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "closing illustration",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the EDITOR",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "383cb781cb3a8f379c5a2c85302364a58e713f2dc71b32ab938e770815ee7c42",
+    "metadata_sha256": "e0042adc69051c036d97f663b6694fed693018ec0c7013566beb3bc8438ee521",
+    "structure_sha256": "bc1d52f7332b42d9f30b636dfc7ccf02ebf32292dba24d613879e2f3cb739ab5",
+    "text_sha256": "9fbcfdb470d6d975f029aff643263440820a5b625bc6d3023b4d6ca5b717e0c8",
+    "translation_metadata_sha256": "c267a2c7a884889bd37fcf2ca4b7b8ef8e56507f098d3ebf5ccff87cb303de9d"
+  },
+  "html": "<article data-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\">\n  <p class=\"drop-cap\">I can still smell the tantalizing cacophony of odors as I clutched my father’s strong hand, weaving our way through the masses of tourists that crowded the building. The vendors at the Green Dragon Farmer’s Market in Ephrata, PA, were trying their best to entice buyers with their rows of fresh fish over ice, cheeses of every variety, deli meat and sandwiches, and piles of fresh fruit. And, oh, the candy! My young preschool mind had never seen so many delectable sweets in one place at one time.</p>\n\n  <p>The past two days for me were like the boy at the candy store. I had the privilege of attending Christian Aid Ministries’ first Annual Writers’ Conference. I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox. I chatted with aspiring writers and seasoned school teachers. I had the opportunity to sit under hours of inspirational and educational workshops on how to write to communicate, using realistic dialog, descriptive writing, and much more. We all had one common goal in mind. Together, we share and learn how to effectively communicate what is in our hearts, and through the power of the written word, transmit those thoughts to your hearts.</p>\n\n  <p><em>The Heartbeat of the Remnant</em> is a means to communicate inspirational thoughts to eager readers scattered across the globe. Courageous writers step forward with pen and paper or keyboard and monitor and help spread the Good News of the Word of God with caution, correction, and edification. Yet, we need more such writers. We need young believers who bravely submit their first children’s stories. Seasoned grandfathers who bring words of admonishment to the younger generation. Mothers who share experiences and trials with other mothers who are in the throes of raising little ones. Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus. Fathers who with a concerned eye watch the world pressing in on the Christian homes. Together, these aspiring writers will produce a periodical that will endure on the family coffee table for many years. I encourage you, fellow believers, to give it a try. Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”</p>\n\n  <p>The Berean Voice has a goal to provide printed material that will help readers navigate through the varied and difficult seasons of life. All our material is available at no charge, but we are dependent on the donations of our supporters. Here is a list of books we have available:</p>\n\n  <p class=\"book-list\">The Power of the Love of Truth<br>\n  Christian Counseling- Counterfeit?<br>\n  The Heart of God<br>\n  Free Indeed!<br>\n  Pilgrims and Politics<br>\n  Cup &amp; Cross<br>\n  The High Cost of Holistic Healing<br>\n  Secrets of Successful Writing<br>\n  The Catholic Connection<br>\n  Psychiatry and Mood altering Medications<br>\n  The Mennonite Church and Modernism</p>\n\n  <p>In 2017 and 2018, the Berean Voice printed a series of vaccine articles in <em>The Heartbeat of the Remnant</em> magazine. These articles were a sincere effort to examine various aspects of vaccine usage with an unbiased approach. We attempted to present the facts as clearly as possible and let the readers draw their own conclusions.</p>\n\n  <p>Since then, we have received numerous requests from our readers to publish all the vaccine articles in a booklet, which we agreed to do. But then along came 2019, bringing coronavirus with it. This monumental event upended the vaccine debate and ushered in a frenzied rush to market COVID-19 remedies, many of which were not properly tested. We put the printing on hold, unsure whether to include information on these new and unproven COVID-19 “vaccines.” As time progressed and the deadly nature of COVID-19 abated, we decided to publish the original vaccine articles in a booklet without any additional articles on the COVID-19 debate. We are pleased that the project is nearing completion and will be announced when it is released.</p>\n\n  <p>Blessings to all,</p>\n\n  <p class=\"byline\">Edward Martin</p>\n\n  <figure>\n    <img src=\"/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg\" alt=\"Pink and white crown vetch flowers in a green meadow\" loading=\"lazy\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
+  "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e"
+}
