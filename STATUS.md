@@ -115,13 +115,13 @@ Observed English revision: `560a18daec9ea00bf768f20a473668441df62d78`
 | `ind` (id) | 74 / 1048 | 0 | 23 | 31 | 68 |
 | `urd` (ur) | 56 / 1048 | 0 | 25 | 47 | 82 |
 | `rus` (ru) | 59 / 1048 | 0 | 24 | 45 | 81 |
-| `deu` (de) | 45 / 1048 | 0 | 25 | 58 | 90 |
+| `deu` (de) | 45 / 1048 | 0 | 25 | 58 | 91 |
 | `nld` (nl) | 78 / 1048 | 0 | 23 | 27 | 65 |
 | `afr` (af) | 66 / 1048 | 0 | 28 | 34 | 56 |
 | `swa` (sw) | 30 / 1048 | 0 | 26 | 72 | 97 |
 | `kor` (ko) | 62 / 1048 | 0 | 23 | 43 | 77 |
 | `ita` (it) | 81 / 1048 | 0 | 23 | 24 | 55 |
-| `heb` (he) | 14 / 1048 | 0 | 28 | 86 | 102 |
+| `heb` (he) | 14 / 1048 | 0 | 28 | 86 | 105 |
 | `ell` (el) | 54 / 1048 | 0 | 23 | 51 | 85 |
 | `swe` (sv) | 64 / 1048 | 0 | 26 | 38 | 71 |
 | `nob` (nb) | 69 / 1048 | 0 | 23 | 36 | 76 |
@@ -422,7 +422,7 @@ A finished original campaign remains historical; current publication readiness i
 | `gh-37109037884` | manual recovery | repair | active | 5 | 5 active | 0.00752210 | 0.075083 / 10.00 | [state](state/campaigns/gh-37109037884.json) |
 | `gh-37109077881` | manual | translate | active | 220 | 220 active | 0.20038315 | 2.103292 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
 | `gh-37109120670` | manual recovery | repair | active | 5 | 2 complete, 3 held | 0.00839031 | 0.069530 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
-| `gh-37109168265` | manual | translate | active | 42 | 42 active | 1.00129850 | 4.575439 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
+| `gh-37109168265` | manual | translate | active | 42 | 42 active | 1.00129850 | 5.156718 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
@@ -476,6 +476,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [26af0fabd93643cf9f48087e9e5b9227](state/batches/26af0fabd93643cf9f48087e9e5b9227/batch.json) / correct | collected / completed | 35 / 35 / 0 | 2026-10-02T18:19:09+00:00 | 2026-10-02T18:19:30+00:00 | 2026-10-02T18:19:29+00:00 |
 | [26b236dfffaa4f7fa0ea4b47e0cef9a1](state/batches/26b236dfffaa4f7fa0ea4b47e0cef9a1/batch.json) / review2 | collected / completed | 5 / 5 / 0 | 2026-10-03T09:01:37+00:00 | 2026-10-03T10:40:49+00:00 | 2026-10-03T10:40:49+00:00 |
 | [27171e827da04653b84d0d866d017219](state/batches/27171e827da04653b84d0d866d017219/batch.json) / review2 | collected / completed | 7 / 7 / 0 | 2026-10-02T00:10:22+00:00 | 2026-10-02T00:12:04+00:00 | 2026-10-02T00:12:03+00:00 |
+| [27236deb31a54518a1fb8cfac3091e29](state/batches/27236deb31a54518a1fb8cfac3091e29/batch.json) / correct | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [29f4bd4370794e738641607e3e709498](state/batches/29f4bd4370794e738641607e3e709498/batch.json) / review1 | collected / completed | 8 / 8 / 0 | 2026-10-01T19:37:10+00:00 | 2026-10-01T20:28:05+00:00 | 2026-10-01T20:28:04+00:00 |
 | [2aa45245153e4fa38e372963ca132581](state/batches/2aa45245153e4fa38e372963ca132581/batch.json) / review1 | collected / completed | 8 / 8 / 0 | 2026-10-01T21:03:48+00:00 | 2026-10-02T00:07:08+00:00 | 2026-10-02T00:07:07+00:00 |
 | [2b829424ac2143779297d452dd7a0178](state/batches/2b829424ac2143779297d452dd7a0178/batch.json) / correct | collected / completed | 55 / 55 / 0 | 2026-10-02T10:12:05+00:00 | 2026-10-02T11:17:30+00:00 | 2026-10-02T11:17:28+00:00 |
