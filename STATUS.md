@@ -424,11 +424,11 @@ Only combinations with requested or published work appear below. Counts of pendi
 ## Held-work recovery
 
 Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.
-Hourly/shared-policy funding. Accepted lifetime recovery allocations: $3.000000 / $10.00. Allocations are not recycled after failure or cancellation.
+Hourly/shared-policy funding. Accepted lifetime recovery allocations: $4.000000 / $10.00. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $50.000000 across 5 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 479 | continuation_review_only_requires_attention: 13 | eligible_available: 1046 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | public_or_human_replacement: 2
+active: 479 | continuation_review_only_requires_attention: 13 | eligible_available: 1045 | legacy_response_outcome_unknown_requires_owner_attention: 12 | lineage_predecessor_changed_requires_attention: 1 | provider_refusal_requires_owner_attention: 1 | public_or_human_replacement: 2
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Rejected requests
@@ -444,6 +444,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `downstream-2026100311` | hourly recovery | repair | finished | 1 | 1 complete | 0.01892725 | 0.259971 / 1.00 | [state](state/campaigns/downstream-2026100311.json) |
 | `downstream-2026100316` | hourly recovery | repair | finished | 1 | 1 complete | 0.03712335 | 0.301512 / 1.00 | [state](state/campaigns/downstream-2026100316.json) |
 | `downstream-2026100318` | hourly recovery | repair | active | 1 | 1 active | 0.00000000 | 0.220249 / 1.00 | [state](state/campaigns/downstream-2026100318.json) |
+| `downstream-2026100321` | hourly recovery | repair | acceptance_incomplete | 0 | no task work | 0.00000000 | 0.000000 / 1.00 | [state](state/campaigns/downstream-2026100321.json) |
 | `gh-36549125967` | manual | translate | finished | 10 | 5 complete, 5 held | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
 | `gh-36908242193` | manual | translate | finished | 10 | 6 complete, 4 held | 0.06116328 | 0.321775 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
 | `gh-36908316701` | manual | translate | finished | 10 | 8 complete, 2 held | 0.06673089 | 0.352197 / 10.00 | [state](state/campaigns/gh-36908316701.json) |
