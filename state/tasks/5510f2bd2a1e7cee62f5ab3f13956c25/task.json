@@ -2,10 +2,54 @@
   "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7da4bd9a71ba4f1c87a361705234759b",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 4477,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4895,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4892,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9372
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/p[6]/em[1]/u[2]; translation /article[1]/p[6]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p>Regardless of our interpretation of what the gate may represent, the decided emphasis given here is upon the adjectives, <em><u>straight</u> and <u>narrow</u></em>, as opposed to <em><u>wide</u> and <u>broad</u></em>. <strong>Strait</strong> (<em>Sten-os’</em>) means <em>narrow (from obstacles standing close about) –Strongs.</em> <strong>Narrow</strong> (<em>Thlee’-bo</em>) means to <em>crowd (literally or figuratively): afflict, narrow, throng, suffer tribulation, trouble –Strongs.</em> Here we find some solid definition to our entrance. We must endure an uncomfortable squeeze between tw…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[38:40], translation signature[38:38], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>无论我们如何解释这门所代表的事物，这里明确强调的都是形容词：<em><u>窄而小</u></em>，而不是<em><u>宽而大</u></em>。<strong>窄</strong>（<em>Sten-os’</em>）意为<em>狭窄（因障碍物近在周围）：逼迫、狭窄、拥挤、遭受患难、困苦。——Strongs。</em><strong>小</strong>（<em>Thlee’-bo</em>）意为<em>挤压（字面或比喻意义）：使受苦、狭窄、拥挤、遭受患难、困苦。——Strongs。</em>由此，我们对入口有了一些明确的认识。若要找到生命，我们就必须忍受两根门柱之间令人不适的挤压。在这里，我们能看见那些进入其中之人的见证。</p>"
+    },
+    {
+      "location": "Source /article[1]/p[6]/em[2]/u[1]; translation /article[1]/p[6]/em[2]/u[1]",
+      "severity": "critical",
+      "source_quote": "<p>Regardless of our interpretation of what the gate may represent, the decided emphasis given here is upon the adjectives, <em><u>straight</u> and <u>narrow</u></em>, as opposed to <em><u>wide</u> and <u>broad</u></em>. <strong>Strait</strong> (<em>Sten-os’</em>) means <em>narrow (from obstacles standing close about) –Strongs.</em> <strong>Narrow</strong> (<em>Thlee’-bo</em>) means to <em>crowd (literally or figuratively): afflict, narrow, throng, suffer tribulation, trouble –Strongs.</em> Here we find some solid definition to our entrance. We must endure an uncomfortable squeeze between tw…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[42:44], translation signature[40:40], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>无论我们如何解释这门所代表的事物，这里明确强调的都是形容词：<em><u>窄而小</u></em>，而不是<em><u>宽而大</u></em>。<strong>窄</strong>（<em>Sten-os’</em>）意为<em>狭窄（因障碍物近在周围）：逼迫、狭窄、拥挤、遭受患难、困苦。——Strongs。</em><strong>小</strong>（<em>Thlee’-bo</em>）意为<em>挤压（字面或比喻意义）：使受苦、狭窄、拥挤、遭受患难、困苦。——Strongs。</em>由此，我们对入口有了一些明确的认识。若要找到生命，我们就必须忍受两根门柱之间令人不适的挤压。在这里，我们能看见那些进入其中之人的见证。</p>"
+    },
+    {
+      "location": "Source /article[1]/p[11]/em[2]/strong[1]; translation /article[1]/p[11]/em[2]",
+      "severity": "critical",
+      "source_quote": "…soldier’s pack the second mile. Today, it is an inner authority that empowers us to respond respectfully and to glorify God while doing it. <em>Wherefore ye must needs be subject, not only for wrath, <strong>but also for conscience sake</strong> –Romans 13:5.</em> To embrace our authorities in our heart is ultimately the inner channel to freedom and a deterrent to legalism, for it takes to task the issue of sin, sulking, and selfishness, while replacing it with righteousness, well-being, and peace. While many disdain these earthly authorities and remove them as far as possible from their hea…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[106:108], translation signature[102:102], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>基督耶稣所带来的权柄，使跟随祂的人惊奇赞叹——<em>众人看见都惊奇，就归荣耀与神，因为祂将这样的权柄赐给人。——马太福音9:8。</em>他们过去所认识的权柄，不过是社会等级中的隶属关系，使他们受压迫、遭贬抑，被迫屈从。基督示范了一条崭新而狭窄的道路。这并非抛弃民事权柄，而是使它得着力量。这是一道窄门，它尊重权柄，甚至甘愿替士兵把行李多背一里路。今天，这是一种内在的权柄，使我们能以尊重的态度回应，并在这样做时荣耀神。<em>所以你们必须顺服，不但是因为刑罚，也是因为良心的缘故。——罗马书13:5。</em>我们在心里接纳所处的权柄，最终便能由内心通向自由，也能抵挡律法主义，因为这使我们认真面对罪、怨怼和自私的问题，并以公义、福祉与和平取而代之。许多人蔑视这些地上的权柄，尽可能不让它们约束自己的内心，结果只是把门柱推得更开，从而失去窄门所带来的生命。能在门柱之间找到福分的人，实在寥寥无几。</p>"
+    }
+  ],
   "id": "5510f2bd2a1e7cee62f5ab3f13956c25",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "cmn",
@@ -97,9 +141,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[19]; translation /article[1]/p[19]/em[3]",
+      "severity": "critical",
+      "source_quote": "…p, so likewise this attitude robs the believer of true authoritative power and nobility. <em>For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry… –1 Samuel 15:23.</em> Efforts to choose …a way which seemeth right unto a man… –Proverbs 14:12, leads to bondage, but choosing to walk in surrender and subjection leads to liberation and life. Satan promised Jesus the entire world if He would only throw off the “yoke” of obedience to God. Instead, He set His face like a flint, endured the constraint of subordination, and ultimately liberated the entire world.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[177:177], translation signature[177:179], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…ہوا، اسی طرح یہ رویہ ایماندار کو حقیقی بااختیار قوت اور شرافت سے محروم کر دیتا ہے۔ <em>کیونکہ بغاوت جادوگری کے گناہ کے برابر ہے، اور ضد بدکاری اور بت پرستی کے برابر…—1 سموئیل 15:23۔</em> اپنی مرضی سے چنا ہوا راستہ، <em>…جو آدمی کو سیدھا معلوم ہوتا ہے…—امثال 14:12،</em> غلامی کی طرف لے جاتا ہے، لیکن سپردگی اور تابع داری میں چلنے کا انتخاب آزادی اور زندگی کی طرف لے جاتا ہے۔ شیطان نے یسوع سے وعدہ کیا کہ اگر وہ صرف خدا کی فرمانبرداری کا ”جوا“ اتار پھینکیں تو ساری دنیا اُن کی ہو جائے گی۔ اس کے بجائے، اُس نے چقماق کی طرح اپنا چہرہ جما لیا، محکومی کی پابندی سہی اور بالآخر پوری دنیا کو آزاد کیا۔</p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[177]: source /article[1]/p[19] ('end', 'p'); translation /article[1]/p[19]/em[3] ('start', 'em', ())",
+  "stage": "translate"
+}

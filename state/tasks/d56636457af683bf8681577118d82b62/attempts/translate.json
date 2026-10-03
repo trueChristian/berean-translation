@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-03T18:42:02+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a7f59621-7083-44ce-8074-6ece8fdfbdcf\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg\\\" alt=\\\"Um portão estreito de madeira entre paredes brancas\\\">\\n  </figure>\\n\\n  <p><em>Entrai pela porta estreita; porque larga é a porta, e espaçoso o caminho que conduz à perdição, e muitos são os que entram por ela. Porque estreita é a porta, e apertado o",
+    "content_bytes": 431,
+    "content_evidence_truncated": false,
+    "content_sha256": "22212dddd0db702ba0fb76f798c24148d4cfaae8fdb9bf03f00c3c231c1f75fd",
+    "finish_reason": "content_filter",
+    "model": "gpt-6-luna",
+    "outcome": "content_filter",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 152,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4892,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5044
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

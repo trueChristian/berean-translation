@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:02+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"572ec209-1870-46a2-ba99-bc6121777d7c\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\\\" alt=\\\"شجرة كبيرة وارفة الأوراق بجوار حقل أخضر تحت سماء زرقاء\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>وُلد في إسطبلٍ أُعِدَّ لبهائم الحقول.<br>\\n    ومنذ البداية، اختار أن يخضع لمشيئة الآب.</p>\\n\\n    <p>لم يحظَ يومًا بمحبة الناس؛ بل احتقره الجميع؛<br>\\n    وسخروا منه وعيّروه، مرةً بعد مرة.</p>\\n\\n    <p>نعم، كانت رسالته على هذه الأرض حقًا فريدة،<br>\\n    فلم يسعَ إلى المال والأصدقاء، ولم يحاول أن ينجح.</p>\\n\\n    <p>كان يعلم أن غايته إرضاء أبيه،<br>\\n    ولم يكن ليشغل نفسه بتوافه الأرض.</p>\\n\\n    <p>لم يكن الأمر سهلًا بالتأكيد، أن يكون ملك الملوك،<br>\\n    وأن يتألم كمجرم، ويتحمل ما يترتب على ذلك.</p>\\n\\n    <p>كان بوسعه أن يستدعي عشرة آلاف ملاك من الجنوب،<br>\\n    لكن المخلّص المنكوب لم يفتح فاه.</p>\\n\\n    <p>وعيناه على المكافأة، احتمل الألم؛<br>\\n    جُرِّد بقسوة وجُلد، ثم قُتل في نهاية المطاف.</p>\\n\\n    <p>لكن لماذا رضي أن يتألم هناك هكذا؛<br>\\n    وأن يحتمل الصليب وكل ذلك الألم؟</p>\\n\\n    <p>لأنه اعتزّ بنا، فصنع كفارةً عن خطايانا،<br>\\n    حين نزف ومات هناك ليجعلنا من أهله!</p>\\n\\n    <p>أشكر الله الآن على تلك الذبيحة العظيمة؛<br>\\n    إذ قدّم الحمل وغيّر مصيري.</p>\\n\\n    <p>أقول: «يا له من مخلّص عجيب، يسوع ربي»؛<br>\\n    والآن عادت العلاقة بين الآب وبيني!</p>\\n  </div>\\n\\n  <p><em>–باري غرانت</em></p>\\n</article>\\n\",\"section\":\"قصيدة\",\"subtitle\":null,\"title\":\"مخلّص متألم\"}",
+    "content_bytes": 2227,
+    "content_evidence_truncated": false,
+    "content_sha256": "f9c0bd727f9328ab7a5a3bce6c9d173effbb8e7c29dfd84c9ac83ce208763674",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 147,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1436,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1433,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2218
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"572ec209-1870-46a2-ba99-bc6121777d7c\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\\\" alt=\\\"蓝天下，绿野旁一棵枝叶繁茂的大树\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>祂降生在马厩里，那原是田野走兽的居所。<br>\\n    从起初，祂就愿意顺服父的旨意。</p>\\n\\n    <p>祂从不受人喜爱；众人都藐视祂；<br>\\n    祂遭人嘲笑、辱骂，一次又一次。</p>\\n\\n    <p>是的，祂在世上的使命确实与众不同，<br>\\n    不求金钱与朋友，也不图功成名就。</p>\\n\\n    <p>祂知道自己的使命是讨父喜悦，<br>\\n    世上的琐事，祂全不挂心。</p>\\n\\n    <p>身为万王之王，必定并不容易，<br>\\n    还要像罪犯一样受苦，承受随之而来的一切。</p>\\n\\n    <p>祂本可以召来一万天使，<br>\\n    但受苦的救主一言不发。</p>\\n\\n    <p>祂定睛仰望那奖赏，忍受痛苦；<br>\\n    祂被残酷地剥去衣服、鞭打，最终被杀。</p>\\n\\n    <p>但祂为何甘愿在那里受苦；<br>\\n    忍受十字架，以及所承受的一切痛楚？</p>\\n\\n    <p>因为祂珍爱我们，为我们的罪作了赎罪祭，<br>\\n    祂在那里流血舍命，使我们成为祂的亲人！</p>\\n\\n    <p>如今我感谢上帝，赐下如此伟大的牺牲；<br>\\n    祂预备了羔羊，也改变了我的命运。</p>\\n\\n    <p>我说：“耶稣我的主，是何等奇妙的救主！”<br>\\n    如今我与父之间，关系得以恢复！</p>\\n  </div>\\n\\n  <p><em>–巴里·格兰特</em></p>\\n</article>\\n\",\"section\":\"诗歌\",\"subtitle\":null,\"title\":\"受苦的救主\"}",
+    "content_bytes": 1705,
+    "content_evidence_truncated": false,
+    "content_sha256": "a4bd8c76959ae72b84a4097b0aa5ead31fe0485e778eb07a6313d74cee227ad4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1440,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2231
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

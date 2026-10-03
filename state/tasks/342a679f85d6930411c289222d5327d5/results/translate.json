@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0b58148c-14b5-435b-9f5e-92d759edb462",
+    "response_id": "chatcmpl-EUxbn3Njh72LndoRwxxawJHr47IxR",
+    "usage": {
+      "completion_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 108,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1434,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2158
+    }
+  },
+  "received_at": "2026-10-03T18:41:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"עץ גדול ורחב־עלים לצד שדה ירוק, תחת שמיים כחולים\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>הוא נולד באורווה, שנועדה לבהמות השדה.<br>\n    כבר מראשית דרכו בחר לעשות את רצונו.</p>\n\n    <p>מעולם לא היה אהוד; כל האנשים בזו לו;<br>\n    לעגו לו וחרפו אותו — שוב ושוב.</p>\n\n    <p>אכן, שליחותו בעולם הזה הייתה יוצאת דופן,<br>\n    הוא לא חיפש כסף וחברים ולא ניסה להצליח.</p>\n\n    <p>הוא ידע שתכליתו היא לשמח את אביו,<br>\n    ובענייני העולם הקטנים לא התעסק.</p>\n\n    <p>ודאי לא היה קל להיות מלך המלכים,<br>\n    ולסבול כפושע, על כל הכרוך בכך.</p>\n\n    <p>הוא יכול היה לזמן עשרת אלפים מלאכים מדרום,<br>\n    אך המושיע המוכה לא פצה את פיו.</p>\n\n    <p>עיניו נשואות אל הגמול, הוא עמד בכאב;<br>\n    הפשיטו אותו באכזריות, הלקו אותו ולבסוף הרגו אותו.</p>\n\n    <p>אך מדוע היה מוכן כל כך לסבול שם;<br>\n    לשאת את הצלב ואת כל הכאב?</p>\n\n    <p>כי היינו יקרים לו; כפרה על חטאנו<br>\n    עשה, כשדימם ומת שם כדי שנהיה בני משפחתו!</p>\n\n    <p>אני מודה כעת לאלוהים על הקורבן הגדול הזה;<br>\n    הוא סיפק את השה ושינה את גורלי.</p>\n\n    <p>אני אומר: „מושיע נפלא, ישוע אדוני”;<br>\n    כעת היחסים ביני לבין האב — שבו והשתקמו!</p>\n  </div>\n\n  <p><em>–בארי גרנט</em></p>\n</article>\n",
+    "section": "שיר",
+    "subtitle": null,
+    "title": "מושיע סובל"
+  }
+}

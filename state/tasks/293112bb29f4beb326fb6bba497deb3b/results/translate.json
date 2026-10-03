@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4213c5dd-cede-423a-89fe-88ce7a8ff40f",
+    "response_id": "chatcmpl-EUxjfx5ebGJQXQLldGLX6NtebNyob",
+    "usage": {
+      "completion_tokens": 774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 142,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1434,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1431,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2208
+    }
+  },
+  "received_at": "2026-10-03T18:41:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"’n Groot boom met digte blare langs ’n groen veld onder ’n blou lug\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Hy is in ’n stal gebore, bedoel vir die diere van die veld.<br>\n    Van die begin af was Hy bereid om Sy wil te laat geld.</p>\n\n    <p>Hy was nooit geliefd nie; deur almal verag;<br>\n    Bespot en uitgeskel—weer en weer, dag na dag.</p>\n\n    <p>Ja, Sy sending op hierdie aarde was inderdaad buitengewoon,<br>\n    Hy het nie geld en vriende gesoek of probeer om sukses te behaal nie.</p>\n\n    <p>Hy het geweet Sy doel was om Sy Vader te behaag,<br>\n    Met die nietighede van die aarde sou Hy Hom nie ophou plaag.</p>\n\n    <p>Dit was beslis nie maklik om die Koning van konings te wees.<br>\n    En as ’n misdadiger te ly en te dra wat daarmee gepaard gaan, gewis.</p>\n\n    <p>Hy kon tienduisend engele na die suide ontbied,<br>\n    Maar die geteisterde Verlosser het nie Sy mond oopgemaak nie.</p>\n\n    <p>Met Sy oë op die beloning het Hy die pyn verduur;<br>\n    Wreed ontklee en geslaan, en uiteindelik om die lewe gebring.</p>\n\n    <p>Maar waarom sou Hy so gewillig daar ly;<br>\n    Die kruis verduur en al die pyn dra?</p>\n\n    <p>Omdat Hy ons kosbaar geag het, het Hy versoening vir ons sonde bewerk<br>\n    Toe Hy daar gebloei en gesterf het om ons Sy kinders te maak!</p>\n\n    <p>Ek dank God nou vir daardie groot offer;<br>\n    Hy het die Lam voorsien en my lot verander.</p>\n\n    <p>Ek sê: “’n Wonderlike Verlosser is Jesus, my Here;”<br>\n    Nou is die verhouding tussen die Vader en my herstel!</p>\n  </div>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": "Gedig",
+    "subtitle": null,
+    "title": "’n Lydende Verlosser"
+  }
+}

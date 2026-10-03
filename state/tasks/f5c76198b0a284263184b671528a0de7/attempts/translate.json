@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"572ec209-1870-46a2-ba99-bc6121777d7c\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\\\" alt=\\\"Mti mkubwa wenye majani mengi kando ya shamba la kijani chini ya anga la buluu\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Alizaliwa zizini, palipokusudiwa wanyama wa shambani.<br>\\n    Tangu mwanzo, alikuwa tayari kutii mapenzi yake.</p>\\n\\n    <p>Hakupendwa kamwe; alidharauliwa na watu wote;<br>\\n    Alidhihakiwa na kutukanwa—tena na tena.</p>\\n\\n    <p>Naam, utume wake duniani hapa ulikuwa wa ajabu kweli,<br>\\n    Hakutafuta pesa wala marafiki, wala kujitahidi kufanikiwa.</p>\\n\\n    <p>Alijua kusudi lake lilikuwa kumpendeza Baba yake,<br>\\n    Hakujishughulisha na mambo madogo ya dunia.</p>\\n\\n    <p>Kwa hakika haikuwa rahisi kuwa Mfalme wa wafalme,<br>\\n    Na kuteseka kama mhalifu, akibeba matokeo yake.</p>\\n\\n    <p>Angeliweza kuwaita malaika elfu kumi kutoka kusini,<br>\\n    Lakini Mwokozi aliyeumizwa hakufungua kinywa chake.</p>\\n\\n    <p>Akiwa ameyaelekeza macho yake kwenye thawabu, alistahimili maumivu;<br>\\n    Alivuliwa nguo kikatili, akapigwa, na hatimaye akauawa.</p>\\n\\n    <p>Lakini kwa nini angekubali kuteseka huko kwa hiari;<br>\\n    Akistahimili msalaba, akivumilia maumivu yote?</p>\\n\\n    <p>Kwa sababu alituthamini, alifanya upatanisho kwa ajili ya dhambi zetu<br>\\n    Alipovuja damu na kufa pale ili atufanye kuwa jamaa zake!</p>\\n\\n    <p>Sasa namshukuru Mungu kwa dhabihu hiyo kuu;<br>\\n    Alimtoa Mwana-Kondoo na kubadili hatima yangu.</p>\\n\\n    <p>Nasema, “Mwokozi wa ajabu, Yesu ni Bwana wangu;”<br>\\n    Sasa mimi na Baba—uhusiano wetu umerejeshwa!</p>\\n  </div>\\n\\n  <p><em>–Barry Grant</em></p>\\n</article>\\n\",\"section\":\"Shairi\",\"subtitle\":null,\"title\":\"Mwokozi Anayeteseka\"}",
+    "content_bytes": 1812,
+    "content_evidence_truncated": false,
+    "content_sha256": "2679dc82e55b63b2053c2080b31421f5b17c2b98b13a193cf8787d0d655a5936",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 229,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1434,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1431,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2319
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

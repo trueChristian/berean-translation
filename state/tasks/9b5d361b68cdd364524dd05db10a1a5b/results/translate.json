@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "595d9a09-a71b-498a-8eab-b809ceda274e",
+    "response_id": "chatcmpl-EUxbZKBZqWtMFw7LWAp8mLVKX5eOr",
+    "usage": {
+      "completion_tokens": 729,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 122,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1428,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2160
+    }
+  },
+  "received_at": "2026-10-03T18:42:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"Ein großer, belaubter Baum neben einem grünen Feld unter blauem Himmel\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Er wurde in einem Stall geboren, der für die Tiere des Feldes bestimmt war.<br>\n    Von Anfang an war es sein Wille, sich zu fügen.</p>\n\n    <p>Er war nie beliebt; alle Menschen verachteten ihn;<br>\n    man verspottete und verhöhnte ihn – immer wieder.</p>\n\n    <p>Ja, seine Mission auf dieser Erde war wahrlich ungewöhnlich,<br>\n    er suchte weder Geld noch Freunde und versuchte nicht, Erfolg zu haben.</p>\n\n    <p>Er wusste, dass es seine Bestimmung war, seinem Vater zu gefallen,<br>\n    um die Nichtigkeiten der Erde würde er sich nicht kümmern.</p>\n\n    <p>Es war gewiss nicht leicht, der König der Könige zu sein.<br>\n    Und wie ein Verbrecher zu leiden und die Folgen davon zu tragen.</p>\n\n    <p>Zehntausend Engel hätte er nach Süden rufen lassen können,<br>\n    doch der geschlagene Erlöser öffnete seinen Mund nicht.</p>\n\n    <p>Mit dem Blick auf den Lohn ertrug er den Schmerz;<br>\n    grausam entkleidet und geschlagen, wurde er schließlich getötet.</p>\n\n    <p>Doch warum hätte er dort so bereitwillig leiden sollen;<br>\n    das Kreuz ertragen und all den Schmerz auf sich nehmen?</p>\n\n    <p>Weil er uns liebgewann, brachte er Sühnung für unsere Sünde,<br>\n    als er dort blutete und starb, um uns zu seinen Angehörigen zu machen!</p>\n\n    <p>Nun danke ich Gott für dieses so große Opfer;<br>\n    er stellte das Lamm bereit und verwandelte mein Schicksal.</p>\n\n    <p>Ich sage: „Ein wunderbarer Erlöser ist Jesus, mein Herr“;<br>\n    nun ist die Beziehung zwischen dem Vater und mir wiederhergestellt!</p>\n  </div>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": "Gedicht",
+    "subtitle": null,
+    "title": "Ein leidender Erlöser"
+  }
+}

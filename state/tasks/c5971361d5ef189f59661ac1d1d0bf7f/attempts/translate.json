@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:42:02+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"572ec209-1870-46a2-ba99-bc6121777d7c\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\\\" alt=\\\"Un gran árbol frondoso junto a un campo verde bajo un cielo azul\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Nació en un establo, destinado a las bestias del campo.<br>\\n    Desde el principio, su voluntad habría de entregar.</p>\\n\\n    <p>Nunca fue bien querido; todos lo despreciaban;<br>\\n    se burlaban de él, lo injuriaban, una y otra vez.</p>\\n\\n    <p>Sí, su misión en esta tierra fue ciertamente singular,<br>\\n    sin buscar dinero ni amigos, ni intentar triunfar.</p>\\n\\n    <p>Sabía que su propósito era agradar a su Padre;<br>\\n    no se preocuparía por las nimiedades terrenales.</p>\\n\\n    <p>Sin duda no era fácil ser el Rey de reyes<br>\\n    y sufrir como un criminal, con todo lo que eso implica.</p>\\n\\n    <p>Podría haber convocado a diez mil ángeles hacia el sur,<br>\\n    pero el Salvador afligido no abrió la boca.</p>\\n\\n    <p>Con la mirada puesta en la recompensa, soportó el dolor;<br>\\n    lo despojaron cruelmente, lo golpearon y, finalmente, lo mataron.</p>\\n\\n    <p>Pero ¿por qué habría de sufrir allí tan voluntariamente,<br>\\n    soportando la cruz y todo el dolor que padeció?</p>\\n\\n    <p>Porque nos tenía en gran estima, hizo expiación por nuestro pecado<br>\\n    al sangrar y morir allí para hacernos parte de su familia.</p>\\n\\n    <p>Ahora doy gracias a Dios por ese sacrificio tan grande;<br>\\n    por proveer al Cordero y transformar mi destino.</p>\\n\\n    <p>Digo: «¡Qué maravilloso Salvador es Jesús, mi Señor!»;<br>\\n    ahora el Padre y yo tenemos una relación restaurada.</p>\\n  </div>\\n\\n  <p><em>–Barry Grant</em></p>\\n</article>\\n\",\"section\":\"Poema\",\"subtitle\":null,\"title\":\"Un Salvador que sufrió\"}",
+    "content_bytes": 1860,
+    "content_evidence_truncated": false,
+    "content_sha256": "458a93a25373fe4f3e7d67d16b239c6c9f4cfe81d9a0c02ade62654c0cfddb04",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 660,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1436,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1433,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2096
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -2,10 +2,40 @@
   "article_id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7da4bd9a71ba4f1c87a361705234759b",
   "campaign": "gh-37138217502",
   "created_at": "2026-10-03T16:59:33+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 4333,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4563,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4560,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8896
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/p[17]/em[3]; translation /article[1]/p[17]",
+      "severity": "critical",
+      "source_quote": "…sin… for carnality? Absolutely not. Every example in the Bible says differently. Every conversion brought a tremendous change, a new creature. Many people confuse ‘grace to learn and to grow’ in the faith as an ‘excuse for sin’. The Scriptures define new Christians… <em>As newborn babes,</em> and commands each of us to <em>desire the sincere milk of the word, that ye may grow thereby: –1 Peter 2:2.</em> So new Christians don’t need space to continue for a time in their ungodly ways, but they do need space to grow <em>…in wisdom and stature, and in favour with God and man –Luke 2:52.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[55:57], translation signature[55:55], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>אנשים אמרו לי שעלינו לתת לנוצרי חדש קצת מרחב. „מרחב בשביל מה?” אני שואל. מרחב לחטוא… לגשמיות? בהחלט לא. כל דוגמה בכתבי הקודש אומרת אחרת. כל המרה הביאה עמה שינוי עצום, ברייה חדשה. רבים מבלבלים בין „חסד ללמוד ולצמוח” באמונה לבין „תירוץ לחטא”. הכתובים מתארים את הנוצרים החדשים כ„תינוקות בני יומם”, ומצווים על כל אחד מאיתנו <em>להשתוקק לחלב הטהור של הדבר, כדי שתגדלו באמצעותו –פטרוס הראשונה ב׳:ב׳.</em> לכן נוצרים חדשים אינם זקוקים למרחב כדי להמשיך לזמן מה בדרכיהם שאינן יראות אלוהים, אך הם כן זקוקים למרחב כדי לגדול <em>…בחכמה ובקומה ובחן לפני אלוהים ואדם –לוקס ב׳:נ״ב.</em></p>"
+    }
+  ],
   "id": "14c60ac21c173af352ecc70847aba6f3",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -97,9 +127,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

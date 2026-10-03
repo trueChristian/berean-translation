@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b068fc8d-4704-45d6-9cd7-ca6aed7bd48d",
+    "response_id": "chatcmpl-EUxbqT91NP8l1noQjevZDcTvdJKNj",
+    "usage": {
+      "completion_tokens": 899,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 184,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1434,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2336
+    }
+  },
+  "received_at": "2026-10-03T18:42:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"푸른 하늘 아래 푸른 들판 곁에 선 무성한 나무\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>그분은 짐승을 위한 외양간에서 태어나셨네.<br>\n    처음부터 자신의 뜻을 내려놓으셨네.</p>\n\n    <p>그분은 결코 사랑받지 못하셨고, 모든 이에게 멸시받으셨네.<br>\n    조롱과 비난을 거듭, 거듭 당하셨네.</p>\n\n    <p>참으로 이 땅에서 그분의 사명은 남달랐네.<br>\n    돈과 친구를 구하거나 성공을 바라지 않으셨네.</p>\n\n    <p>그분은 아버지를 기쁘시게 하는 것이 자신의 목적임을 아셨네.<br>\n    세상의 하찮은 일에는 마음을 두지 않으셨네.</p>\n\n    <p>왕 중의 왕이 되는 일은 결코 쉽지 않았네.<br>\n    죄인처럼 고난을 겪고 그에 따르는 대가를 치르셨네.</p>\n\n    <p>그분은 만 명의 천사를 부르실 수도 있었지만,<br>\n    고통받으신 구주께서는 입을 열지 않으셨네.</p>\n\n    <p>그분은 상급을 바라보며 고통을 견디셨네.<br>\n    잔인하게 옷 벗김을 당하고 매 맞으신 뒤, 마침내 죽임을 당하셨네.</p>\n\n    <p>그런데 왜 그곳에서 그토록 기꺼이 고난을 당하셨을까?<br>\n    십자가를 견디시며 그 모든 고통을 짊어지신 까닭은 무엇일까?</p>\n\n    <p>우리를 귀히 여기셨기에, 우리의 죄를 위한 속죄를 이루셨네.<br>\n    우리를 자신의 가족으로 삼으시려 그곳에서 피 흘려 죽으셨네!</p>\n\n    <p>그토록 위대한 희생을 베푸신 하나님께 이제 감사드리네.<br>\n    어린양을 마련하시고 내 운명을 바꾸어 주셨네.</p>\n\n    <p>나는 말하네. “나의 주 예수님, 놀라운 구주시여.”<br>\n    이제 아버지와 나의 관계가 회복되었네!</p>\n  </div>\n\n  <p><em>–배리 그랜트</em></p>\n</article>\n",
+    "section": "시",
+    "subtitle": null,
+    "title": "고난받으신 구주"
+  }
+}

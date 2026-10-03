@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1dd9bc29-5ef2-4489-b8d1-cea8d9df4d40",
+    "response_id": "chatcmpl-EUxdPz6LrwCPViq9vTq1v5H9xlNrk",
+    "usage": {
+      "completion_tokens": 690,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1428,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2121
+    }
+  },
+  "received_at": "2026-10-03T18:42:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\">\n  <figure>\n    <img src=\"/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg\" alt=\"Een grote, lommerrijke boom naast een groen veld onder een blauwe hemel\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Hij werd geboren in een stal, bedoeld voor de dieren van het veld.<br>\n    Vanaf het begin gaf Hij Zich over aan Gods wil, zoals die voor Hem gold.</p>\n\n    <p>Hij was nooit geliefd; door alle mensen veracht;<br>\n    Bespot en gehoond—keer op keer, zonder erbarmen.</p>\n\n    <p>Ja, Zijn missie op aarde was werkelijk ongewoon,<br>\n    Hij zocht geen geld en vrienden, geen succes of aanzien.</p>\n\n    <p>Hij wist dat Zijn doel was Zijn Vader te behagen,<br>\n    Om aardse kleinigheden zou Hij Zich niet bekommeren.</p>\n\n    <p>Het was vast niet gemakkelijk, de Koning der koningen te zijn.<br>\n    En als een misdadiger te lijden, met alles wat daarbij komt.</p>\n\n    <p>Tienduizend engelen had Hij naar het zuiden kunnen roepen,<br>\n    Maar de gekwelde Heiland opende Zijn mond niet.</p>\n\n    <p>Met Zijn blik op de beloning verdroeg Hij de pijn;<br>\n    Wreed ontkleed en geslagen, en uiteindelijk gedood.</p>\n\n    <p>Maar waarom zou Hij daar zo gewillig lijden;<br>\n    Het kruis verdragen, al die pijn dragen?</p>\n\n    <p>Omdat Hij ons koesterde, bracht Hij verzoening voor onze zonde<br>\n    Toen Hij daar bloedde en stierf om ons tot de Zijnen te maken!</p>\n\n    <p>Nu dank ik God voor dat zo grote offer;<br>\n    Hij gaf het Lam en veranderde mijn lot.</p>\n\n    <p>Ik zeg: ‘Een wonderbare Heiland is Jezus, mijn Heer;’<br>\n    Nu is de band tussen de Vader en mij hersteld!</p>\n  </div>\n\n  <p><em>–Barry Grant</em></p>\n</article>\n",
+    "section": "Gedicht",
+    "subtitle": null,
+    "title": "Een lijdende Heiland"
+  }
+}
