@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Myerstown, PA",
+          "name": "Louella Burkholder"
+        }
+      ],
+      "raw": "Louella Burkholder\nMyerstown, PA"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "85306410-6a2d-46f1-b6db-6d3450f7f908",
+    "images": [
+      {
+        "alt": "Open white-handled pocket knife with a metal blade",
+        "caption": null,
+        "credit": "pixabay.com",
+        "public_path": "/images/articles/85306410-6a2d-46f1-b6db-6d3450f7f908-1.jpg",
+        "repository_path": "public/images/articles/85306410-6a2d-46f1-b6db-6d3450f7f908-1.jpg",
+        "rights_note": "The page-2 photo credits attribute printed page 18 to pixabay.com; no license terms or separate permission requirement are stated. The embedded knife image-object layers and their published shadow were recomposited without title or article text at the native 300-dpi size, then normalized as a baseline sRGB JPEG without changing the illustration's crop or orientation.",
+        "role": "title illustration",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "Exterior of Weaver’s Country Store and its parking lot",
+        "caption": null,
+        "credit": "Google Maps",
+        "public_path": "/images/articles/85306410-6a2d-46f1-b6db-6d3450f7f908-2.jpg",
+        "repository_path": "public/images/articles/85306410-6a2d-46f1-b6db-6d3450f7f908-2.jpg",
+        "rights_note": "The page-2 photo credits attribute printed page 19 to Google Maps; no license terms or separate permission requirement are stated. The clean published image region was rendered at 300 dpi from its embedded CMYK pieces, excluding article text and page furniture, then normalized as a baseline sRGB JPEG while preserving the printed crop, fade, and orientation.",
+        "role": "continuation-page setting photograph",
+        "sequence": 2,
+        "source_page": 19
+      }
+    ],
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 8,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "That Ugly, White Pocket Knife",
+    "topics": [
+      "a7d95343-40e5-5e71-98f2-6e09ac9bfb6e",
+      "862c3071-6aee-5a28-ae7b-356175f29db1",
+      "eae06def-4dfa-58c1-8384-2115509836ba",
+      "4ed7b007-fb79-5a83-a19c-9fedc490a4f1",
+      "ccdcfb82-dfbd-5f30-b4e5-e4b2e94a3081"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0d610a2eef1ca3f8e6a9c5ef14a2976daecffcac13ee99dc76729e20ce7c8a98",
+    "metadata_sha256": "748044cc57c50bbf46cd375c70de27746a3f3c1004bf1efb66d7a805416a698d",
+    "structure_sha256": "bf1104a43e1e79b68d7c91cd0d29e6ce8c80df8c5c12671ee75ac3917b938215",
+    "text_sha256": "7a6a1e4615274175de01a9b1e73eb8a28693fdae1805873cef1f86d80467b9a0",
+    "translation_metadata_sha256": "1a1154632d18aab513b5a109e3283e86aace699758aa540ea337b53d72fc3038"
+  },
+  "html": "<article data-article-id=\"85306410-6a2d-46f1-b6db-6d3450f7f908\">\n  <figure>\n    <img src=\"/images/articles/85306410-6a2d-46f1-b6db-6d3450f7f908-1.jpg\" alt=\"Open white-handled pocket knife with a metal blade\">\n  </figure>\n  <p class=\"drop-cap\">Joel had a serious problem of taking things which did not belong to him. Sometimes he would sneak mother’s freshly baked cookies from the cookie jar, or he would take Nathan’s magic markers without asking to use them. To make matters worse, Joel would lie or make excuses when he was caught. Mother and Father had to punish Joel many times. They told him that if he continued to take small things without asking for permission, it could lead to stealing bigger things as he grew older.</p>\n  <p>And God hates stealing!</p>\n  <p>One day Mother took Joel and Nathan to Weaver’s Country Store to buy shoes. “Look Mother,” Joel said excitedly, pointing to the shiny pocketknives on the counter. “Will you please buy one for me?”</p>\n  <p>“No, Joel,” Mother replied. “You must wait until you are older for a pocketknife.”</p>\n  <p>“O.K.,” Joel answered rather disappointedly.</p>\n  <p>Later, while Mother was fitting shoes on Nathan, Joel wandered front to the pocketknives again. He looked at them longingly. “That white one is a beauty,” he thought to himself. “Oh, if only I could have it! Mother just does not understand that I am old enough to have one. All the other boys my age have pocketknives.” Just then another ugly thought entered his head. “I think I will just take that white one. No one will ever know.” Joel glanced toward the back of the store where Mr. Weaver was helping fit shoes on Nathan. No one was looking, so he quickly reached up, took the white pocketknife from the box on the counter, and stuck it into his pocket.</p>\n  <p>Turning nervously, Joel walked back up the aisle. His head started to pound, and his heart was thumping so hard he was afraid everyone could hear it. He hoped Mother would take more time fitting shoes on Nathan. Then maybe she would not notice how hot and red his face was getting. Mother always seemed to notice when something was wrong.</p>\n  <p>But Mother did not notice this time, and soon they were on their way home. After several days, Joel discovered that it was not fun having a stolen pocketknife. He could hardly ever use it for fear of getting caught. He had to keep it well hidden most of the time!</p>\n  <p>Several weeks passed. Then one evening, Nathan came into the kitchen where Joel and Mother were doing the supper dishes. “Look, Mother! I found this pocketknife under the couch cushion. I wonder where it came from?”</p>\n  <p>Joel’s heart began to thump wildly as he watched Mother examine the pocketknife. He wished he could dash outside and disappear. He had just slipped the pocketknife under the couch cushion that evening when Mother had walked into the parlor unexpectedly as she announced that supper was ready. He never thought someone would find it there.</p>\n  <figure>\n    <img src=\"/images/articles/85306410-6a2d-46f1-b6db-6d3450f7f908-2.jpg\" alt=\"Exterior of Weaver’s Country Store and its parking lot\">\n  </figure>\n  <p>Suddenly he realized Mother was looking at him. “Joel, do you know where this comes from?” she asked.</p>\n  <p>“Oh! Err – well – ah – I think Cousin Mike has a white one like that,” Joel stammered. “It – ah – it probably slipped out of his pocket the other evening when they were here visiting.”</p>\n  <p>“I see… Well, I will need to ask Aunt Eva about this,” Mother replied calmly as she placed the pocketknife on the window shelf.</p>\n  <p>Joel felt miserable. It seemed as if Mother’s sad eyes were watching every move he made. Oh, how he wished he had never stolen that pocketknife! Every time he looked at it, sitting there on the shelf, it seemed to grow larger in size! He decided to go to bed early, but when he closed his eyes, all he saw was that ugly, white pocketknife, leering at him from the window shelf!</p>\n  <p>The next day, Mother called Joel to her. She was holding the white pocketknife. “I called Aunt Eva today, and she said that Mike does not have a pocketknife. Now Joel, tell me… where did you get this pocketknife? And remember, it does not pay to lie,” Mother said firmly as she placed her hand under his chin and raised his drooping head to look into his eyes.</p>\n  <p>“I – ah – took it from Weaver’s Store,” Joel stammered.</p>\n  <p>“Do you realize that was stealing?” Mother asked.</p>\n  <p>“Yes, I do, and I – I am sorry I lied about it too. I will never do anything like that again. I – ah – I felt so awful ever since I stole it,” choked Joel as his body shook with sobs.</p>\n  <p>“I am glad to hear you say that Joel,” Mother said. “Father and I have been asking God to help you with this problem of lying and stealing. This evening when Father comes home, you will need to tell him all about it, then Father and I will decide what your punishment should be. After that, we will take you back to the store and you can give the pocketknife to Mr. Weaver. Also, since you used the knife, you will need to pay for it with your own money.”</p>\n  <p>How Joel dreaded facing Father and Mr. Weaver, but later when it was all over, he felt so much better. That day Joel learned a lesson he never forgot.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+  "translation_key": "52312be3ef09bf5ffdab8a70e367174f0881d5471c2718e5f3179c003a023038"
+}
