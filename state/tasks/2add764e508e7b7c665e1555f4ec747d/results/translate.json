@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fb353dfe-7840-4d75-b1cc-86a0213f8fbe",
+    "response_id": "chatcmpl-EV1atY0K8WLpo7PL579fcSVMudEyU",
+    "usage": {
+      "completion_tokens": 1549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 204,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2070,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2067,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3619
+    }
+  },
+  "received_at": "2026-10-03T21:49:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"af526358-a4bb-44b9-aeec-2535f8ce9a29\">\n  <div class=\"poem\">\n    <p>Un tempo pregavo per il sole,<br>\n    perché nessuna tempesta segnasse il cielo.<br>\n    Per brezze fresche e fiori<br>\n    che deliziassero e catturassero il mio sguardo.</p>\n\n    <p>Un tempo pregavo per la felicità,<br>\n    per sorrisi, gioia e pace.<br>\n    Che tutto fosse facile<br>\n    e ogni cosa aspra avesse fine.</p>\n\n    <p>Un tempo pregavo per qualcuno<br>\n    con cui camminare in questa vita.<br>\n    Da amare, con cui ridere e da custodire,<br>\n    che dissipasse ogni discordia.</p>\n\n    <p>Un tempo pregavo che sempre<br>\n    i sentieri della vita fossero limpidi.<br>\n    Che nessuna circostanza indesiderata<br>\n    rendesse cupa l’esistenza.</p>\n\n    <p>Ma quelle preghiere sembravano inascoltate,<br>\n    perché la vita non andava così.<br>\n    Le tempeste arrivavano senza essere invitate,<br>\n    piogge torrenziali rendevano buio un giorno dopo l’altro.</p>\n\n    <p>I fiori non si vedevano,<br>\n    il vento sferzava e feriva.<br>\n    Non riuscivo a trovare pace intorno a me;<br>\n    invece, il tuono rimbombava.</p>\n\n    <p>Non trovai nessuno che camminasse con me,<br>\n    solo vagavo per sentieri impervi.<br>\n    Erano svaniti i sogni di tranquillità,<br>\n    la mia anima gridava, desiderando una casa.</p>\n\n    <p>Allora una voce possente parlò dentro di me:<br>\n    «Hai cercato le cose che puoi vedere.<br>\n    Le vere preghiere del tuo cuore possono essere esaudite,<br>\n    se solo guarderai a Me.</p>\n\n    <p>Ho udito i tuoi bisogni e i tuoi desideri,<br>\n    le tue preghiere non sono rimaste inascoltate.<br>\n    Ma ho visto che il tuo cuore aveva bisogno di qualcosa di diverso<br>\n    da ciò che la facilità avrebbe preferito.</p>\n\n    <p>Ho disposto i sentieri impervi che hai percorso,<br>\n    non per deluderti, ma per purificarti.<br>\n    Perché sapevo che la vera felicità comincia solo<br>\n    nel cuore che si unisce a Me.»</p>\n\n    <p>Allora mi prostrai ai piedi del mio Maestro<br>\n    e mi arresi alla Sua volontà e al Suo piano.<br>\n    Non pretendevo più ciò che desideravo,<br>\n    ma confidavo che avrebbe portato a compimento ciò che aveva iniziato.</p>\n\n    <p>Non molto tempo dopo, scoprii di essere felice;<br>\n    nessuna nube poteva prevalere nel mio cuore.<br>\n    Anche se le circostanze parevano sconfortanti,<br>\n    nessuna tempesta esteriore poteva offuscare il mio Sole interiore.</p>\n\n    <p>Le brezze fresche del dolce riposo in Lui<br>\n    placavano tutte le mie preoccupazioni e paure.<br>\n    E i fiori delle Sue promesse erano sempre<br>\n    visibili quando la vita mi portava lacrime.</p>\n\n    <p>Scoprii anche che non camminavo più da sola;<br>\n    il Buon Pastore era lì, al mio fianco!<br>\n    Con Lui potevo condividere gioie e dolori,<br>\n    e in mezzo a ogni battaglia potevo trovare rifugio in Lui.</p>\n\n    <p>Così ora, invece di pregare<br>\n    per le comodità terrene,<br>\n    ringrazio il Signore per aver mandato cose<br>\n    che mi hanno portata in ginocchio.</p>\n\n    <p>Ora prego invece per l’umiltà,<br>\n    perché mi guidi nel corso della giornata.<br>\n    Per avere occhi pronti a servire e a condividere le benedizioni<br>\n    che il Signore manda sul mio cammino.</p>\n\n    <p>Prego che il mio cuore si arrenda<br>\n    al tocco della mano del Maestro,<br>\n    lasciando che la Sua volontà mi trasformi<br>\n    attraverso tutto ciò che ha disposto.</p>\n\n    <p>Perché ho scoperto che la vera felicità<br>\n    non sta in una vita facile e perfetta.<br>\n    La si trova invece quando siamo radicati in Cristo,<br>\n    senza lasciarci smuovere dal fuoco o dalla discordia.</p>\n\n    <p>Se Egli regna nel nostro intimo,<br>\n    nulla di ciò che è al di fuori ci turberà.<br>\n    Perché Egli è il Fondamento saldo<br>\n    e la vera fonte della Vita vera e sublime.</p>\n\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29-1.jpg\" alt=\"Alba sulle onde che si infrangono lungo una costa rocciosa\">\n  </figure>\n</article>\n",
+    "section": "Poesia",
+    "subtitle": null,
+    "title": "Un tempo pregavo"
+  }
+}

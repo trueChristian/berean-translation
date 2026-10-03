@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9d75752f-9641-4caa-8e6a-cdb6f6ab2de1",
+    "response_id": "chatcmpl-EV1ZNWsuk1NplFWsS5i5OyuXwvsts",
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1331,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1939
+    }
+  },
+  "received_at": "2026-10-03T21:49:40+00:00",
+  "result": {
+    "html": "<article data-article-id=\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\">\n  <div class=\"poem\">\n    <p>Døden virket sikker, sa alle legene.<br>\n    Var det virkelig sant «at han ville være død om få dager»?<br>\n    Han ville ikke innrømme det, men frykten drev ham.<br>\n    Han rettet ryggen og skjulte hver tåre.<br>\n    Før han visste når hans ende kunne komme,<br>\n    proklamerte han modig sin egen suverenitet.<br>\n    Å innrømme frykten for det ukjente<br>\n    ville være verre enn døden og evig ensomhet.</p>\n\n    <p>«Ingen kan vite hvor vondt jeg har det inni meg!<br>\n    Jeg later som jeg har det bra, og skjuler følelsene mine.<br>\n    Folk snakker om Gud – å, så sint det gjør meg!<br>\n    Vær så snill, gå, eller snakk om noe annet!»<br>\n    Alene i sengen begynner tankene å rase.<br>\n    «Jeg er lei av å være bundet; kan det finnes nåde?<br>\n    Nei, det vil aldri fungere, for meg er det for sent.»<br>\n    Med ryggen vendt mot Gud ventet han på sin skjebne.</p>\n\n    <p>Predikanten visste ikke akkurat hva han skulle si<br>\n    i begravelsen til mannen som hadde gått sine egne veier.<br>\n    Alt han visste, var at mannen hadde tatt et dårlig valg,<br>\n    forherdet hjertet sitt og stengt Guds stemme ute.<br>\n    Nå kunne det ikke gjøres om; han måtte ta konsekvensene.<br>\n    Døden slukte sitt offer – sjelen hans var fortapt for evig.</p>\n  </div>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "En synders død"
+  }
+}

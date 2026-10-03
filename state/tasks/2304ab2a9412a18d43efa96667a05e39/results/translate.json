@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "417b3b60-389c-401f-ad46-a7505b7518cd",
+    "response_id": "chatcmpl-EV1Zf3iXYSxBwDNmDRC8eIWxTPvc5",
+    "usage": {
+      "completion_tokens": 1586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2082,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2079,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3668
+    }
+  },
+  "received_at": "2026-10-03T21:49:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"af526358-a4bb-44b9-aeec-2535f8ce9a29\">\n  <div class=\"poem\">\n    <p>我曾祈求阳光明媚，<br>\n    天空不见风暴的痕迹。<br>\n    祈求凉爽的微风和花朵，<br>\n    取悦我的目光，令我欢喜。</p>\n\n    <p>我曾祈求幸福，<br>\n    祈求微笑、喜乐与平安。<br>\n    祈求万事都能顺遂，<br>\n    一切艰难都归于消散。</p>\n\n    <p>我曾祈求有个人相伴，<br>\n    与我同行人生路。<br>\n    彼此相爱、欢笑、珍惜，<br>\n    消散一切纷争。</p>\n\n    <p>我曾祈求生命的道路<br>\n    总是清晰可见。<br>\n    不要有任何不想要的境遇，<br>\n    使人生变得黯淡。</p>\n\n    <p>但那些祷告似乎没有蒙应允，<br>\n    因为人生并未照那样展开。<br>\n    风暴——不请自来，<br>\n    滂沱大雨让许多日子阴暗。</p>\n\n    <p>再也看不见花朵，<br>\n    狂风刮得人刺痛难当。<br>\n    我身边寻不着一丝平安；<br>\n    取而代之的是雷声轰响。</p>\n\n    <p>没有一个人陪我同行，<br>\n    我独自走过崎岖的道路。<br>\n    安宁的梦想已然消逝，<br>\n    我的灵魂渴望着一个家。</p>\n\n    <p>这时，一个深沉浑厚的声音在我心里响起，<br>\n    “你一直在寻求眼睛看得见的事物。<br>\n    你心中真正的祈求可以蒙应允，<br>\n    只要你仰望我。</p>\n\n    <p>我听见了你的需要和渴望，<br>\n    你的祷告并未落空。<br>\n    但我看见，你心里所需要的，<br>\n    与安逸所偏爱的并不相同。</p>\n\n    <p>你祈求晴朗的天空和阳光，<br>\n    祈求凉爽的微风和花朵初开。<br>\n    但我看见，单单这些并不能带给你<br>\n    你心中所寻求的真正平安。</p>\n\n    <p>我安排了你所走过的崎岖道路，<br>\n    不是要叫你失望，而是要炼净你。<br>\n    因我知道，真正的幸福唯有从<br>\n    与我合而为一的心中开始。”</p>\n\n    <p>于是我俯伏在主人的脚前，<br>\n    顺服他的旨意和计划。<br>\n    不再执意索求自己想要的，<br>\n    而是信靠他必完成他所开始的工作。</p>\n\n    <p>不久之后，我发现自己快乐起来；<br>\n    心中的乌云无从笼罩我。<br>\n    即使境遇似乎令人疲惫，<br>\n    外面的风暴也无法使我内心的阳光黯淡。</p>\n\n    <p>在他里面安歇的清凉微风，<br>\n    平息了我一切的忧虑和恐惧。<br>\n    他应许的花朵总是可见，<br>\n    每当人生使我落泪之时。</p>\n\n    <p>我也发现，自己不再独自行走；<br>\n    好牧人就在我身旁！<br>\n    与他同在，我可以分享喜乐与忧伤，<br>\n    无论遭遇什么争战，都可以藏身在他里面。</p>\n\n    <p>所以如今我不再祈求<br>\n    世间安逸的事物，<br>\n    而是感谢主赐下那些事，<br>\n    使我俯伏在他面前。</p>\n\n    <p>我转而祈求谦卑，<br>\n    引领我度过每一天。<br>\n    求主赐我一双服事的眼睛，分享福分，<br>\n    就是主赐给我的种种福分。</p>\n\n    <p>我祈求自己的心愿意降服，<br>\n    接受主人的手触摸。<br>\n    让他的旨意改变我，<br>\n    借着他所安排的一切。</p>\n\n    <p>因为我已发现，真正的幸福<br>\n    不在于平坦完美的人生。<br>\n    而在于我们扎根于基督，<br>\n    不因烈火或纷争而动摇。</p>\n\n    <p>若他掌管人最深处的生命，<br>\n    外面的一切就无法扰乱人心。<br>\n    因为他是坚固的根基，<br>\n    也是真生命真正而美好的源头。</p>\n\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29-1.jpg\" alt=\"日出映照着海浪拍打岩石海岸\">\n  </figure>\n</article>\n",
+    "section": "诗歌",
+    "subtitle": null,
+    "title": "我曾祈求"
+  }
+}

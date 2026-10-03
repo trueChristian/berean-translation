@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:40+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. Este mundo no es mi hogar, solo estoy de paso<br>\\n    Mis tesoros están guardados en algún lugar más allá del cielo;<br>\\n    Los ángeles me llaman desde la puerta abierta del cielo,<br>\\n    Y ya no puedo sentirme en casa en este mundo.</em></p>\\n\\n    <h2>Coro:</h2>\\n\\n    <p><em>Oh, Señor, tú sabes que no tengo amigo como tú,<br>\\n    Si el cielo no es mi hogar, entonces, Señor, ¿qué haré?<br>\\n    Los ángeles me llaman desde la puerta abierta del cielo,<br>\\n    Y ya no puedo sentirme en casa en este mundo.</em></p>\\n\\n    <p><em>2. Todos me esperan, y eso es algo que sé,<br>\\n    Mi Salvador me perdonó y ahora sigo adelante;<br>\\n    Sé que me llevará hasta allí, aunque soy débil y pobre,<br>\\n    Y ya no puedo sentirme en casa en este mundo.</em></p>\\n\\n    <p><em>3. Tengo un Salvador amoroso en la tierra de gloria,<br>\\n    No espero detenerme hasta estar allí con él,<br>\\n    Ahora me espera en la puerta abierta del cielo,<br>\\n    Y ya no puedo sentirme en casa en este mundo.</em></p>\\n\\n    <p><em>4. Allá, en la tierra de gloria, viviremos eternamente,<br>\\n    Los santos a nuestro alrededor proclaman la victoria,<br>\\n    Sus cantos de la más dulce alabanza llegan desde la orilla del cielo,<br>\\n    Y ya no puedo sentirme en casa en este mundo.</em></p>\\n  </div>\\n\\n  <p><em>Fuente: Hymns of Faith n.º 311<br>\\n  Derechos de autor: Dominio público<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"Himno\",\"subtitle\":null,\"title\":\"Este mundo no es mi hogar\"}",
+    "content_bytes": 1634,
+    "content_evidence_truncated": false,
+    "content_sha256": "c9d91c1a17605fce3b1ae51f9bf4793292c0525e68422719cf33a911b33886b7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 669,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1386,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2058
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

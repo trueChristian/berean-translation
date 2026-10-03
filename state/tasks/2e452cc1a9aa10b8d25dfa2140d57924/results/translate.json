@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "de1ea8b3-6c61-430c-a749-12c416397389",
+    "response_id": "chatcmpl-EV1YnWlNezIM4iXMw1N7F7xRw3EtM",
+    "usage": {
+      "completion_tokens": 496,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1331,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1830
+    }
+  },
+  "received_at": "2026-10-03T21:49:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\">\n  <div class=\"poem\">\n    <p>医生们都说，死亡似乎已成定局。<br>\n    “他几天后就会死”，这真的是真的吗？<br>\n    他不愿承认，却被恐惧驱使。<br>\n    他挺起胸膛，藏起每一滴眼泪。<br>\n    在他还不知道自己何时走到尽头时，<br>\n    他便大胆宣称自己主宰一切。<br>\n    承认自己害怕未知，<br>\n    比独自面对死亡与永恒更难以忍受。</p>\n\n    <p>“没人能知道我内心的痛苦！<br>\n    我会装作一切都好，把感受藏起来。<br>\n    人们一谈上帝，啊，那真叫人愤怒！<br>\n    请走开，或者谈点别的！”<br>\n    他独自躺在床上，思绪开始飞驰。<br>\n    “我受够了被束缚；会不会有恩典呢？<br>\n    不，这绝不会有用，对我来说太迟了。”<br>\n    他背向上帝，等待着自己的命运。</p>\n\n    <p>对于这个自行其是、已然离世的人，<br>\n    牧师在他的葬礼上不知究竟该说些什么。<br>\n    他只知道，这人做了一个错误的选择，<br>\n    他刚硬了自己的心，堵住了上帝的声音。<br>\n    如今已无法改变，他必须付出代价。<br>\n    死亡吞噬了它的受害者——他的灵魂永远失丧。</p>\n  </div>\n</article>\n",
+    "section": "诗歌",
+    "subtitle": null,
+    "title": "罪人的死亡"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:36+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\\\">\\n  <div class=\\\"poem\\\">\\n    <p>La morte pareva certa, dissero tutti i medici.<br>\\n    Era davvero vero «che in pochi giorni sarebbe morto»?<br>\\n    Non voleva ammetterlo, eppure era spinto dalla paura.<br>\\n    Inarcò le spalle, nascose ogni lacrima.<br>\\n    Prima ancora di sapere quando sarebbe giunta la fine,<br>\\n    proclamò audacemente la propria sovranità.<br>\\n    Ammettere di temere ciò che non si conosce<br>\\n    sarebbe peggio della morte e di un’eternità in solitudine.</p>\\n\\n    <p>«Nessuno può conoscere l’angoscia che ho dentro!<br>\\n    Farò finta di stare bene, nasconderò ciò che provo.<br>\\n    La gente parla di Dio: oh, quanta rabbia mi fa!<br>\\n    Per favore, andatevene, o parlate d’altro!»<br>\\n    Solo, sul letto, la mente comincia a correre.<br>\\n    «Sono stanco di questa schiavitù; potrebbe esserci grazia?<br>\\n    No, non funzionerà mai, per me è troppo tardi».<br>\\n    Voltando le spalle a Dio, attese il proprio destino.</p>\\n\\n    <p>Il predicatore non sapeva esattamente cosa dire,<br>\\n    al funerale dell’uomo che aveva seguito la propria strada.<br>\\n    Sapeva soltanto che aveva fatto una scelta sbagliata,<br>\\n    indurendo il cuore e ignorando la voce di Dio.<br>\\n    Ora non si poteva più cambiare: doveva pagarne il prezzo.<br>\\n    La morte inghiottì la sua vittima: la sua anima era perduta per sempre.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Poesia\",\"subtitle\":null,\"title\":\"La morte di un peccatore\"}",
+    "content_bytes": 1566,
+    "content_evidence_truncated": false,
+    "content_sha256": "7b764f46d7c728c87f623c11d2f890a47501e1c63b47451ec6e61c5f5fda14f7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 117,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1942
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

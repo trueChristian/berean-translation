@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[15]/em[1]/strong[1]; translation /article[1]/p[15]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p>A quiet and restful spirit is an amazing quality. It is not humanly possible to achieve. When you see this spirit in someone, you can know it comes from a heart of brokenness. According to Isaiah, it is a choice: <em>…In returning and rest shall ye be saved; in quietness and in confidence shall be your strength: <strong>and ye would not</strong> –Isaiah 30:15.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[55:57], translation signature[55:55], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>安静、安宁的灵是一种奇妙的品格。人凭自己不可能达到。当你在某人身上看见这样的灵，就可以知道它源于一颗破碎的心。根据以赛亚书，这是一个选择：<em>你们得救在乎归回安息；你们得力在乎平静安稳；你们竟不肯如此。——以赛亚书30:15。</em></p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[55]: source /article[1]/p[15]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[15]/em[1] ('end', 'em')",
+  "stage": "translate"
+}

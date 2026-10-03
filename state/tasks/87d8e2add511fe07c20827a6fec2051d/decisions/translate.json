@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[8]/strong[1]; translation /article[1]/p[8]/strong[1]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p>Current preaching styles have trended <strong>from</strong> <em>Knowing therefore the terror of the Lord, we persuade men… –2 Corinthians 5:11</em> and <em>…We ought to obey God rather than men –Acts 5:29;</em> <strong>to</strong> “God understands and feels your pain.” Such is not erroneous, per se, but passionate urgency must fill the preacher’s heart to convince, to convict, and to pierce the darkness of today.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[37:38], translation signature[37:37], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>当今的讲道风格已从<strong><em>“既然知道主是可畏的，所以劝人……”——哥林多后书5:11</em>以及<em>“顺从上帝，不顺从人，是应当的。”——使徒行传5:29；</em></strong>转向“上帝理解你，也感受你的痛苦。”这话本身并非错误，但传道者心中必须充满迫切的热情，才能使人信服、叫人知罪，并刺透今日的黑暗。</p>"
+    },
+    {
+      "location": "Source /article[1]/p[8]/strong[2]; translation /article[1]/p[8]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<p>Current preaching styles have trended <strong>from</strong> <em>Knowing therefore the terror of the Lord, we persuade men… –2 Corinthians 5:11</em> and <em>…We ought to obey God rather than men –Acts 5:29;</em> <strong>to</strong> “God understands and feels your pain.” Such is not erroneous, per se, but passionate urgency must fill the preacher’s heart to convince, to convict, and to pierce the darkness of today.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[42:43], translation signature[41:41], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>当今的讲道风格已从<strong><em>“既然知道主是可畏的，所以劝人……”——哥林多后书5:11</em>以及<em>“顺从上帝，不顺从人，是应当的。”——使徒行传5:29；</em></strong>转向“上帝理解你，也感受你的痛苦。”这话本身并非错误，但传道者心中必须充满迫切的热情，才能使人信服、叫人知罪，并刺透今日的黑暗。</p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[37]: source /article[1]/p[8]/strong[1] ('end', 'strong'); translation /article[1]/p[8]/strong[1]/em[1] ('start', 'em', ())",
+  "stage": "translate"
+}

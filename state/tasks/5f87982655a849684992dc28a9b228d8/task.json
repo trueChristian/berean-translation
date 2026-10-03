@@ -2,10 +2,40 @@
   "article_id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0b3116af80fa4ce991afb1662665970b",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 2364,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 44,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2638,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2635,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5002
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/p[3]/em[1]/strong[1]; translation /article[1]/p[3]/em[1]",
+      "severity": "critical",
+      "source_quote": "<p>Paul says, <em>Let no man despise thy youth; but be thou an <strong>example</strong> of the believers, in word, in conversation, in charity, in spirit, in faith, in purity –1 Timothy 4:12.</em> Let’s take a closer look at this verse. It starts out with, <em>Let no man despise thy youth.</em> How should we view our youth—our teenage years? Some view this as a time to live life to the fullest, to have a party, and to do whatever they want. This path leads to much sin, foolishness, immorality, and more. I think we should view the time of our youth as a huge opportunity to do all we can do, a…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[7:9], translation signature[7:7], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>पौलुस कहता है, <em>कोई तेरी जवानी को तुच्छ न जाने; पर विश्वासियों के लिये वचन, चालचलन, प्रेम, आत्मा, विश्वास और पवित्रता में आदर्श बन—1 तीमुथियुस 4:12।</em> आइए, इस पद को ध्यान से देखें। इसकी शुरुआत इन शब्दों से होती है, <em>कोई तेरी जवानी को तुच्छ न जाने।</em> हमें अपनी जवानी—किशोरावस्था—को किस नज़र से देखना चाहिए? कुछ लोग इसे जीवन का पूरा आनंद लेने, मौज-मस्ती करने और अपनी मनमानी करने का समय मानते हैं। यह रास्ता बहुत पाप, मूर्खता, अनैतिकता और दूसरी बुराइयों की ओर ले जाता है। मेरा मानना है कि हमें अपनी जवानी के समय को यीशु के लिए जितना हो सके उतना करने और जो कुछ हम बन सकते हैं, वह बनने का…"
+    }
+  ],
   "id": "5f87982655a849684992dc28a9b228d8",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "hin",
@@ -97,9 +127,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/69f858811196da658de21ba4ed172ec8e605eb1fce976ee6b5c4c768c55e7389.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

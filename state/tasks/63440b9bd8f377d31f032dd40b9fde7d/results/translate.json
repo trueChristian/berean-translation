@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8ec90c95-20e2-46d7-826e-387f82ca0712",
+    "response_id": "chatcmpl-EV1ZNBls5AjBVQIutEpeGpNlCczSE",
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 203,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1325,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1322,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2074
+    }
+  },
+  "received_at": "2026-10-03T21:49:38+00:00",
+  "result": {
+    "html": "<article data-article-id=\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\">\n  <div class=\"poem\">\n    <p>Kifo kilionekana hakiepukiki, ndivyo madaktari wote walivyosema.<br>\n    Je, kweli ilikuwa kweli “kwamba angekuwa amekufa baada ya siku chache”?<br>\n    Hakutaka kukubali, lakini alisukumwa na hofu.<br>\n    Alijikaza, akaficha kila chozi.<br>\n    Kabla hajajua mwisho wake ungefika lini,<br>\n    Alitangaza kwa ujasiri enzi yake mwenyewe.<br>\n    Kukubali hofu yake ya yasiyojulikana,<br>\n    Kungekuwa vibaya kuliko kifo na umilele wa upweke.</p>\n\n    <p>“Hakuna ajuaye uchungu nilio nao ndani!<br>\n    Nitafanya kana kwamba niko sawa, nitaficha hisia zangu.<br>\n    Watu wanazungumza kuhusu Mungu—lo, hilo hunikasirisha kiasi gani!<br>\n    Tafadhali ondokeni, au zungumzieni mambo mengine!”<br>\n    Akiwa peke yake kitandani, mawazo yake yakaanza kwenda mbio.<br>\n    “Nimechoshwa na utumwa; je, kunaweza kuwa na neema?<br>\n    Hapana, haitafanikiwa kamwe; kwangu mimi, muda umekwisha.”<br>\n    Akiwa amempa Mungu kisogo, alingojea hatima yake.</p>\n\n    <p>Mhubiri hakujua hasa la kusema,<br>\n    Katika mazishi ya mtu aliyekuwa amejichagulia njia yake mwenyewe.<br>\n    Alichokijua tu ni kwamba alikuwa amefanya uchaguzi mbaya,<br>\n    Akaufanya moyo wake kuwa mgumu na kuzuia sauti ya Mungu.<br>\n    Sasa hakuna la kubadilisha; lazima alipe gharama yake.<br>\n    Kifo kikammeza mwathiriwa wake—nafsi yake ikapotea milele.</p>\n  </div>\n</article>\n",
+    "section": "Shairi",
+    "subtitle": null,
+    "title": "Kifo cha Mwenye Dhambi"
+  }
+}

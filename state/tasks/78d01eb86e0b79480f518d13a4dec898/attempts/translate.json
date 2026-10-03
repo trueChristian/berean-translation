@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:39+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. Dunia ini bukan rumahku, aku hanya singgah<br>\\n    Hartaku tersimpan jauh di balik cakrawala;<br>\\n    Para malaikat memanggilku dari pintu surga yang terbuka,<br>\\n    Dan dunia ini tak lagi terasa seperti rumah bagiku.</em></p>\\n\\n    <h2>Refrain:</h2>\\n\\n    <p><em>Oh Tuhan, Engkau tahu tiada sahabat sepertimu,<br>\\n    Jika surga bukan rumahku, lalu Tuhan, apa yang akan kulakukan?<br>\\n    Para malaikat memanggilku dari pintu surga yang terbuka,<br>\\n    Dan dunia ini tak lagi terasa seperti rumah bagiku.</em></p>\\n\\n    <p><em>2. Mereka semua menantikanku, dan itulah satu hal yang kutahu,<br>\\n    Juru Selamatku telah mengampuniku, dan kini aku terus melangkah;<br>\\n    Aku tahu Dia akan menuntunku, meski aku lemah dan miskin,<br>\\n    Dan dunia ini tak lagi terasa seperti rumah bagiku.</em></p>\\n\\n    <p><em>3. Aku memiliki Juru Selamat yang penuh kasih di negeri kemuliaan,<br>\\n    Aku tak berniat berhenti sampai aku berdiri bersama-Nya,<br>\\n    Kini Dia menantikanku di pintu surga yang terbuka,<br>\\n    Dan dunia ini tak lagi terasa seperti rumah bagiku.</em></p>\\n\\n    <p><em>4. Di negeri kemuliaan kita akan hidup selama-lamanya,<br>\\n    Orang-orang kudus di segala penjuru bersorak menyambut kemenangan,<br>\\n    Lagu-lagu pujian terindah mereka terdengar kembali dari pantai surga,<br>\\n    Dan dunia ini tak lagi terasa seperti rumah bagiku.</em></p>\\n  </div>\\n\\n  <p><em>Sumber: Hymns of Faith #311<br>\\n  Hak cipta: Domain Publik<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"Nyanyian Rohani\",\"subtitle\":null,\"title\":\"Dunia Ini Bukan Rumahku\"}",
+    "content_bytes": 1702,
+    "content_evidence_truncated": false,
+    "content_sha256": "e37a6c3a132a9fc2e6b13aeb5a72adfb9d0d07d273d921160f9f0eedd1f4c36e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 82,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1386,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1383,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2019
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

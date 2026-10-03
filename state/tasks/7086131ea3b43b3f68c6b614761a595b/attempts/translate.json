@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:39+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Der Tod schien gewiss, sagten alle Ärzte.<br>\\n    War es wirklich wahr, „dass er in wenigen Tagen tot wäre“?<br>\\n    Er wollte es nicht zugeben, doch die Angst trieb ihn an.<br>\\n    Er machte sich groß und verbarg jede Träne.<br>\\n    Ehe er wusste, wann sein Ende kommen könnte,<br>\\n    verkündete er kühn seine eigene Selbstbestimmung.<br>\\n    Seine Angst vor dem Unbekannten einzugestehen,<br>\\n    wäre schlimmer als der Tod und eine einsame Ewigkeit.</p>\\n\\n    <p>„Niemand kann meinen inneren Schmerz kennen!<br>\\n    Ich tue, als ginge es mir gut, meine Gefühle werde ich verbergen.<br>\\n    Die Leute sprechen von Gott – ach, wie mich das erzürnt!<br>\\n    Bitte geht weg oder redet über etwas anderes!“<br>\\n    Allein im Bett beginnt sein Gedankenkarussell.<br>\\n    „Ich bin der Gefangenschaft müde; könnte es Gnade geben?<br>\\n    Nein, es wird niemals funktionieren, für mich ist es zu spät.“<br>\\n    Gott den Rücken zugewandt, wartete er auf sein Schicksal.</p>\\n\\n    <p>Der Prediger wusste nicht genau, was er sagen sollte,<br>\\n    bei der Beerdigung des Mannes, der seinen eigenen Weg gegangen war.<br>\\n    Alles, was er wusste, war, dass der Mann eine schlechte Wahl getroffen hatte,<br>\\n    sein Herz verhärtet und Gottes Stimme zum Schweigen gebracht hatte.<br>\\n    Jetzt ließ sich nichts mehr ändern, er musste den Preis dafür zahlen.<br>\\n    Der Tod verschlang sein Opfer – seine Seele war für immer verloren.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"Der Tod eines Sünders\"}",
+    "content_bytes": 1686,
+    "content_evidence_truncated": false,
+    "content_sha256": "03db44584e79f2b4160744f424454089153f74bd4b62e43d981a701674fa50d9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 583,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1905
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

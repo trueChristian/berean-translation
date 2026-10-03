@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ae607ed6-87f1-4b9c-8145-61d199a2054b",
+    "response_id": "chatcmpl-EV1bFBR2BOPvJfJce5ZD727LfAEN1",
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 60,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1387,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1384,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1998
+    }
+  },
+  "received_at": "2026-10-03T21:49:40+00:00",
+  "result": {
+    "html": "<article data-article-id=\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\">\n  <div class=\"hymn\">\n    <p><em>1. Hierdie wêreld is nie my tuiste nie; ek trek net daardeur<br>\n    My skatte lê êrens daar anderkant die blou;<br>\n    Die engele wink my vanuit die hemel se oop deur,<br>\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\n\n    <h2>Koor:</h2>\n\n    <p><em>O Here, U weet, ek het geen vriend soos U nie,<br>\n    As die hemel nie my tuiste is nie, Here, wat sal ek dan doen?<br>\n    Die engele wink my vanuit die hemel se oop deur,<br>\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\n\n    <p><em>2. Hulle wag almal op my, en dit weet ek gewis,<br>\n    My Verlosser het my vergewe, en nou gaan ek voort;<br>\n    Ek weet Hy sal my deurbring, al is ek swak en arm,<br>\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\n\n    <p><em>3. Ek het ’n liefdevolle Verlosser in die heerlikheidsland,<br>\n    Ek verwag nie om stil te staan totdat ek by Hom is nie,<br>\n    Hy wag nou vir my by die hemel se oop deur,<br>\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\n\n    <p><em>4. Daar, in die heerlikheidsland, sal ons vir ewig leef,<br>\n    Die heiliges roep oral om ons die oorwinning uit,<br>\n    Hulle liedere van die soetste lof dryf terug van die hemel se strand,<br>\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\n  </div>\n\n  <p><em>Bron: Hymns of Faith #311<br>\n  Kopiereg: Publieke domein<br></em>\n  hymnary.org</p>\n</article>\n",
+    "section": "Gesang",
+    "subtitle": null,
+    "title": "Hierdie wêreld is nie my tuiste nie"
+  }
+}

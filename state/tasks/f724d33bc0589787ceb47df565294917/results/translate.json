@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6c91d090-720f-4229-a937-5a0283da9bef",
+    "response_id": "chatcmpl-EV1YlmQbHGx6N3gIU1iPiFVwFuHqZ",
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 217,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1381,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2121
+    }
+  },
+  "received_at": "2026-10-03T21:49:40+00:00",
+  "result": {
+    "html": "<article data-article-id=\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\">\n  <div class=\"hymn\">\n    <p><em>1. Deze wereld is niet mijn thuis, ik trek er slechts doorheen<br>\n    Mijn schatten liggen ergens ver voorbij het blauw;<br>\n    De engelen wenken mij vanuit de open hemelpoort,<br>\n    En ik voel me in deze wereld niet langer thuis.</em></p>\n\n    <h2>Refrein:</h2>\n\n    <p><em>O Heer, U weet dat ik geen vriend heb zoals U,<br>\n    Als de hemel niet mijn thuis is, Heer, wat moet ik dan doen?<br>\n    De engelen wenken mij vanuit de open hemelpoort,<br>\n    En ik voel me in deze wereld niet langer thuis.</em></p>\n\n    <p><em>2. Ze verwachten me allemaal, dat weet ik zeker,<br>\n    Mijn Redder heeft mij vergeven en nu ga ik verder;<br>\n    Ik weet dat Hij mij erdoorheen zal helpen, al ben ik zwak en arm,<br>\n    En ik voel me in deze wereld niet langer thuis.</em></p>\n\n    <p><em>3. Daar in het land van heerlijkheid heb ik een liefdevolle Redder,<br>\n    Ik verwacht niet stil te staan tot ik bij Hem ben,<br>\n    Hij wacht nu op mij bij de open hemelpoort,<br>\n    En ik voel me in deze wereld niet langer thuis.</em></p>\n\n    <p><em>4. Daar in het land van heerlijkheid zullen we eeuwig leven,<br>\n    Overal roepen de heiligen hun overwinning uit,<br>\n    Hun liederen van de heerlijkste lof klinken vanaf de hemelse kust,<br>\n    En ik voel me in deze wereld niet langer thuis.</em></p>\n  </div>\n\n  <p><em>Bron: Hymns of Faith #311<br>\n  Auteursrecht: Publiek domein<br></em>\n  hymnary.org</p>\n</article>\n",
+    "section": "Lied",
+    "subtitle": null,
+    "title": "Deze wereld is niet mijn thuis"
+  }
+}

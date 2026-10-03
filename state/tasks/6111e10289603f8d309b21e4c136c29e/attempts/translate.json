@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:38+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. Diese Welt ist nicht mein Zuhause, ich bin nur auf der Durchreise<br>\\n    Meine Schätze liegen irgendwo jenseits des Himmels;<br>\\n    Die Engel winken mir von der offenen Himmelstür,<br>\\n    Und ich fühle mich in dieser Welt nicht mehr daheim.</em></p>\\n\\n    <h2>Refrain:</h2>\\n\\n    <p><em>O Herr, du weißt, dass ich keinen Freund wie dich habe,<br>\\n    Wenn der Himmel nicht mein Zuhause ist, was soll ich dann tun, Herr?<br>\\n    Die Engel winken mir von der offenen Himmelstür,<br>\\n    Und ich fühle mich in dieser Welt nicht mehr daheim.</em></p>\\n\\n    <p><em>2. Sie alle erwarten mich, und das weiß ich ganz gewiss,<br>\\n    Mein Erlöser hat mir vergeben, und nun gehe ich weiter;<br>\\n    Ich weiß, er wird mich hindurchbringen, auch wenn ich schwach und arm bin,<br>\\n    Und ich fühle mich in dieser Welt nicht mehr daheim.</em></p>\\n\\n    <p><em>3. Ich habe einen liebevollen Erlöser im Land der Herrlichkeit,<br>\\n    Ich erwarte nicht, Halt zu machen, bis ich bei ihm stehe,<br>\\n    Er wartet jetzt auf mich an der offenen Himmelstür,<br>\\n    Und ich fühle mich in dieser Welt nicht mehr daheim.</em></p>\\n\\n    <p><em>4. Dort oben im Land der Herrlichkeit werden wir ewig leben,<br>\\n    Überall rufen die Heiligen ihren Sieg aus,<br>\\n    Ihre süßesten Loblieder wehen vom himmlischen Ufer herüber,<br>\\n    Und ich fühle mich in dieser Welt nicht mehr daheim.</em></p>\\n  </div>\\n\\n  <p><em>Quelle: Hymns of Faith Nr. 311<br>\\n  Urheberrecht: Gemeinfrei<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"Lied\",\"subtitle\":null,\"title\":\"Diese Welt ist nicht mein Zuhause\"}",
+    "content_bytes": 1731,
+    "content_evidence_truncated": false,
+    "content_sha256": "0d905612f07770053e91eda4f9678af2daae8cdd786ab4817b685af1fa08e362",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 639,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1381,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2023
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

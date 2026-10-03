@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ddd11ad7-3dc0-4977-83dd-ca3746e2cc28",
+    "response_id": "chatcmpl-EV1ZdaySXhnzNLELdjf4Etvyr9A5u",
+    "usage": {
+      "completion_tokens": 501,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1321,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1825
+    }
+  },
+  "received_at": "2026-10-03T21:49:39+00:00",
+  "result": {
+    "html": "<article data-article-id=\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\">\n  <div class=\"poem\">\n    <p>La mort semblait certaine, disaient tous les médecins.<br>\n    Était-il vrai, vraiment, « qu’il serait mort dans quelques jours » ?<br>\n    Il ne voulait pas l’admettre, mais la peur le tenaillait.<br>\n    Il bombait le torse et cachait chaque larme.<br>\n    Avant même de savoir quand viendrait sa fin,<br>\n    Il proclama hardiment sa propre souveraineté.<br>\n    Avouer sa peur de l’inconnu<br>\n    Serait pire que la mort et l’éternité dans la solitude.</p>\n\n    <p>« Personne ne peut savoir l’angoisse que je porte en moi !<br>\n    Je ferai comme si tout allait bien, je cacherai mes sentiments.<br>\n    Les gens parlent de Dieu — quelle colère cela suscite en moi !<br>\n    S’il vous plaît, partez, ou parlez d’autre chose ! »<br>\n    Seul dans son lit, son esprit s’emballe.<br>\n    « Je suis las de l’asservissement ; pourrait-il y avoir une grâce ?<br>\n    Non, cela ne marchera jamais, pour moi il est trop tard. »<br>\n    Le dos tourné à Dieu, il attendait son destin.</p>\n\n    <p>Le prédicateur ne savait pas exactement quoi dire,<br>\n    Aux funérailles de l’homme qui avait suivi sa propre voie.<br>\n    Tout ce qu’il savait, c’est que l’homme avait fait un mauvais choix,<br>\n    Endurcissant son cœur et faisant taire la voix de Dieu.<br>\n    Il n’y a plus rien à changer, il doit en payer le prix.<br>\n    La mort engloutit sa victime — son âme était perdue pour l’éternité.</p>\n  </div>\n</article>\n",
+    "section": "Poème",
+    "subtitle": null,
+    "title": "La mort d’un pécheur"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:37+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\\\">\\n  <div class=\\\"poem\\\">\\n    <p>De dood leek zeker, zeiden alle artsen.<br>\\n    Was het echt waar: ‘Dat hij over enkele dagen dood zou zijn’?<br>\\n    Hij wilde het niet toegeven, maar werd gedreven door angst.<br>\\n    Hij zette zijn schouders breed, verborg elke traan.<br>\\n    Nog voordat hij wist wanneer zijn einde zou komen,<br>\\n    Verkondigde hij stoutmoedig zijn eigen soevereiniteit.<br>\\n    Toegeven dat hij bang was voor het onbekende,<br>\\n    Zou erger zijn dan de dood en de eenzaamheid van de eeuwigheid.</p>\\n\\n    <p>‘Niemand kan weten welke angst ik vanbinnen voel!<br>\\n    Ik zal doen alsof het goed met me gaat, mijn gevoelens verbergen.<br>\\n    Mensen praten over God, o, wat maakt me dat kwaad!<br>\\n    Ga alsjeblieft weg, of praat over iets anders!’<br>\\n    Alleen op bed begint zijn hoofd op hol te slaan.<br>\\n    ‘Ik ben het zat om in slavernij te leven; zou er genade kunnen zijn?<br>\\n    Nee, het zal nooit werken, voor mij is het te laat.’<br>\\n    Met zijn rug naar God gekeerd wachtte hij zijn lot af.</p>\\n\\n    <p>De predikant wist niet precies wat hij moest zeggen,<br>\\n    Bij de begrafenis van de man die zijn eigen weg was gegaan.<br>\\n    Het enige wat hij wist, was dat de man een verkeerde keuze had gemaakt,<br>\\n    Zijn hart had verhard en Gods stem had geblokkeerd.<br>\\n    Nu kon er niets meer aan veranderen; hij moest de prijs betalen.<br>\\n    De dood verslond zijn slachtoffer—zijn ziel was voor eeuwig verloren.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"De dood van een zondaar\"}",
+    "content_bytes": 1663,
+    "content_evidence_truncated": false,
+    "content_sha256": "671669df44094e977470137b4b61d85dbf7a06da41166cb18872064976e20059",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 90,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1907
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -2,10 +2,40 @@
   "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0b3116af80fa4ce991afb1662665970b",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 1428,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 102,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2076,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2073,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3504
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/div[1]/p[20]; translation /article[1]/div[1]",
+      "severity": "critical",
+      "source_quote": "<p>If He rules the inmost being,<br>\n    Then nothing outside will disturb.<br>\n    For He is the solid Foundation,<br>\n    And the real source of True Life superb.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[97:102], translation signature[97:97], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "… אותי על ברכיי.</p>\n\n    <p>במקום זאת אני מתפלל לענווה,<br>\n    שתנחה אותי לאורך היום.<br>\n    לעיניים שרואות כיצד לשרת ולחלוק את הברכות<br>\n    שהאדון שולח בדרכי.</p>\n\n    <p>אני מתפלל שלבי יהיה מסור<br>\n    למגע ידו של האדון.<br>\n    שאניח לרצונו לשנות אותי<br>\n    דרך כל מה שתכנן.</p>\n\n    <p>כי גיליתי שאושר אמיתי<br>\n    אינו נמצא בחיים חלקים ומושלמים.<br>\n    הוא נמצא כשאנו מושרשים במשיח,<br>\n    ואיננו נעים ממקומנו באש או במאבק.</p>\n\n    <p>אם הוא שולט בעומק הווייתנו,<br>\n    שום דבר מבחוץ לא יפר את שלוותנו.<br>\n    כי הוא היסוד האיתן,<br>\n    והמקור האמיתי לחיים מופלאים.</p>\n\n  </div>"
+    }
+  ],
   "id": "ae336f6163596b2b8e8bbe32626fe17b",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -97,9 +127,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/8518be006699d10e3e2d64df41c659fb10c9ac4a210156c22bbf03e9d7302254.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

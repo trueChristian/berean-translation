@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:39+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Kematian tampak pasti, kata semua dokter.<br>\\n    Benarkah “dalam beberapa hari ia akan mati”?<br>\\n    Ia tak ingin mengakuinya, tetapi dicekam ketakutan.<br>\\n    Ia membusungkan dada, menyembunyikan setiap air mata.<br>\\n    Sebelum tahu kapan ajalnya mungkin tiba,<br>\\n    Dengan berani ia menyatakan kedaulatannya sendiri.<br>\\n    Mengakui ketakutannya akan hal yang tak diketahui,<br>\\n    Lebih buruk daripada kematian dan kekekalan dalam kesendirian.</p>\\n\\n    <p>“Tak seorang pun bisa tahu penderitaanku di dalam!<br>\\n    Aku akan berpura-pura baik-baik saja, kusembunyikan perasaanku.<br>\\n    Orang-orang bicara tentang Allah, betapa marahnya aku mendengarnya!<br>\\n    Tolong pergi, atau bicarakan hal lain!”<br>\\n    Sendirian di ranjang, pikirannya mulai berpacu.<br>\\n    “Aku lelah terbelenggu; mungkinkah ada anugerah?<br>\\n    Tidak, itu tak akan berhasil, bagiku sudah terlambat.”<br>\\n    Dengan membelakangi Allah, ia menantikan nasibnya.</p>\\n\\n    <p>Sang pengkhotbah tak tahu persis apa yang harus dikatakan,<br>\\n    di pemakaman lelaki yang telah menempuh jalannya sendiri.<br>\\n    Yang ia tahu hanyalah bahwa lelaki itu telah membuat pilihan yang buruk,<br>\\n    mengeraskan hatinya dan menutup diri dari suara Allah.<br>\\n    Kini tak ada yang dapat mengubahnya; ia harus menanggung akibatnya.<br>\\n    Kematian menelan korbannya—jiwanya hilang untuk selama-lamanya.</p>\\n  </div>\\n</article>\\n\",\"section\":\"Puisi\",\"subtitle\":null,\"title\":\"Kematian Seorang Pendosa\"}",
+    "content_bytes": 1621,
+    "content_evidence_truncated": false,
+    "content_sha256": "322f6f961a877ae5652215fe24df9ee196ec7e021b262e12fbf8eca9d717d84d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 494,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1321,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1818
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

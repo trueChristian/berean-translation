@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:36+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. 这世界不是我的家，我只是暂居于此<br>\\n    我的财宝积存在蓝天之外的某处；<br>\\n    天使从天国敞开的门前向我招手，<br>\\n    我再也无法觉得这世界是我的家。</em></p>\\n\\n    <h2>副歌：</h2>\\n\\n    <p><em>哦，主啊，你知道没有人像你这样与我亲近，<br>\\n    若天国不是我的家，主啊，我又该怎么办？<br>\\n    天使从天国敞开的门前向我招手，<br>\\n    我再也无法觉得这世界是我的家。</em></p>\\n\\n    <p><em>2. 他们都在等着我，这一点我深知，<br>\\n    我的救主赦免了我，如今我继续前行；<br>\\n    我知道祂会领我经过，虽然我软弱又贫穷，<br>\\n    我再也无法觉得这世界是我的家。</em></p>\\n\\n    <p><em>3. 在荣耀之地，我有一位慈爱的救主，<br>\\n    我不指望停下脚步，直到与祂同立；<br>\\n    祂此刻正在天国敞开的门前等我，<br>\\n    我再也无法觉得这世界是我的家。</em></p>\\n\\n    <p><em>4. 就在荣耀之地，我们将永远生活，<br>\\n    四围的圣徒都在高唱得胜，<br>\\n    最甜美的赞美诗从天国岸边飘来，<br>\\n    我再也无法觉得这世界是我的家。</em></p>\\n  </div>\\n\\n  <p><em>来源：《信心圣诗》#311<br>\\n  版权：公有领域<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"圣诗\",\"subtitle\":null,\"title\":\"这世界不是我的家\"}",
+    "content_bytes": 1547,
+    "content_evidence_truncated": false,
+    "content_sha256": "3c66831f04564a3928553bf95955e2fa5a614087a4d68a5da5910bf6ccd62d3b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 654,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1393,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2050
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

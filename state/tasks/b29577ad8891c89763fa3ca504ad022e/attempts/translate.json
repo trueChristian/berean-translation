@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:40+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. Ce monde n’est pas chez moi, je ne fais qu’y passer<br>\\n    Mes trésors sont déposés quelque part au-delà des cieux ;<br>\\n    Les anges me font signe depuis la porte ouverte du ciel,<br>\\n    Et je ne me sens plus chez moi dans ce monde.</em></p>\\n\\n    <h2>Refrain :</h2>\\n\\n    <p><em>Ô Seigneur, tu sais que je n’ai pas d’ami comme toi,<br>\\n    Si le ciel n’est pas chez moi, Seigneur, que ferai-je alors ?<br>\\n    Les anges me font signe depuis la porte ouverte du ciel,<br>\\n    Et je ne me sens plus chez moi dans ce monde.</em></p>\\n\\n    <p><em>2. Tous m’attendent, et c’est une chose que je sais,<br>\\n    Mon Sauveur m’a pardonné et maintenant je poursuis ma route ;<br>\\n    Je sais qu’il me conduira jusqu’au bout, bien que je sois faible et pauvre,<br>\\n    Et je ne me sens plus chez moi dans ce monde.</em></p>\\n\\n    <p><em>3. J’ai un Sauveur aimant dans le royaume de gloire,<br>\\n    Je ne compte pas m’arrêter avant de me tenir auprès de lui,<br>\\n    Il m’attend maintenant à la porte ouverte du ciel,<br>\\n    Et je ne me sens plus chez moi dans ce monde.</em></p>\\n\\n    <p><em>4. Là-haut, dans le royaume de gloire, nous vivrons éternellement,<br>\\n    Les saints de tous côtés acclament la victoire,<br>\\n    Leurs chants de louange les plus doux nous parviennent des rivages du ciel,<br>\\n    Et je ne me sens plus chez moi dans ce monde.</em></p>\\n  </div>\\n\\n  <p><em>Source : Hymns of Faith #311<br>\\n  Copyright : domaine public<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"Hymne\",\"subtitle\":null,\"title\":\"Ce monde n’est pas chez moi\"}",
+    "content_bytes": 1733,
+    "content_evidence_truncated": false,
+    "content_sha256": "489d7278ce0d976dff51bea0d49b1b511a52a3ba64590b6a29ad7676cd64b73c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1386,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1383,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2041
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

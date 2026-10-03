@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2e32a8a5-db8a-4cdc-a265-e8cf4da11b33",
+    "response_id": "chatcmpl-EV1d6s4YuuzTHBFMRuWeiwjldtRBb",
+    "usage": {
+      "completion_tokens": 636,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 132,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1325,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1964
+    }
+  },
+  "received_at": "2026-10-03T21:49:39+00:00",
+  "result": {
+    "html": "<article data-article-id=\"c233b16f-7c75-4b40-b250-9ed3a1e336d5\">\n  <div class=\"poem\">\n    <p>המוות נראה ודאי, כך אמרו כל הרופאים.<br>\n    האם באמת נכון היה ש״תוך ימים ימות״?<br>\n    הוא לא רצה להודות בכך, אך הפחד הניע אותו.<br>\n    הוא הזדקף, הרחיב כתפיים והסתיר כל דמעה.<br>\n    בטרם ידע מתי יבוא קצו,<br>\n    הכריז באומץ על ריבונותו שלו.<br>\n    להודות בפחדו מפני הלא־נודע,<br>\n    היה גרוע ממוות ומבדידות נצחית.</p>\n\n    <p>״איש אינו יכול לדעת את הייסורים שבתוכי!<br>\n    אתנהג כאילו הכול בסדר, אסתיר את רגשותיי.<br>\n    אנשים מדברים על אלוהים — כמה כעס זה מעורר!<br>\n    בבקשה, לכו מכאן, או דברו על דברים אחרים!״<br>\n    לבדו במיטה, מחשבותיו מתחילות לדהור.<br>\n    ״נמאס לי מהשעבוד; אולי יש חסד?<br>\n    לא, זה לעולם לא יעבוד, בשבילי כבר מאוחר מדי.״<br>\n    בגבו אל אלוהים, הוא המתין לגורלו.</p>\n\n    <p>המטיף לא ידע בדיוק מה לומר,<br>\n    בהלוויה של האיש שבחר ללכת בדרכו שלו.<br>\n    כל מה שידע הוא שהוא בחר בחירה רעה,<br>\n    הקשה את לבו וחסם את קולו של אלוהים.<br>\n    עכשיו כבר אי אפשר לשנות זאת; עליו לשלם את המחיר.<br>\n    המוות בלע את קורבנו — נפשו אבדה לנצח.</p>\n  </div>\n</article>\n",
+    "section": "שיר",
+    "subtitle": null,
+    "title": "מותו של חוטא"
+  }
+}

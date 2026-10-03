@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c46631ab-40ce-4af4-8549-d0bda31f2fdd",
+    "response_id": "chatcmpl-EV1ZBn6knpFePqQ67RFF3ShSQHay8",
+    "usage": {
+      "completion_tokens": 1398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 116,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2075,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2072,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3473
+    }
+  },
+  "received_at": "2026-10-03T21:49:38+00:00",
+  "result": {
+    "html": "<article data-article-id=\"af526358-a4bb-44b9-aeec-2535f8ce9a29\">\n  <div class=\"poem\">\n    <p>Antes oraba por el sol,<br>\n    por cielos sin tormentas.<br>\n    Por brisas frescas y flores<br>\n    que alegraran y atrajeran mi mirada.</p>\n\n    <p>Antes oraba por la felicidad,<br>\n    por sonrisas, alegría y paz.<br>\n    Que todo fuera fácil<br>\n    y cesaran todas las cosas duras.</p>\n\n    <p>Antes oraba por alguien<br>\n    con quien caminar por esta vida.<br>\n    Amar, reír y atesorar,<br>\n    y disipar todo conflicto.</p>\n\n    <p>Antes oraba para que siempre<br>\n    fueran claros los caminos de la vida.<br>\n    Que ninguna circunstancia indeseada<br>\n    volviera triste la existencia.</p>\n\n    <p>Pero aquellas oraciones parecían quedar sin respuesta,<br>\n    pues la vida no transcurría así.<br>\n    Las tormentas llegaron sin invitación,<br>\n    y las lluvias intensas oscurecieron muchos días.</p>\n\n    <p>No se veían las flores,<br>\n    el viento cortaba y azotaba.<br>\n    No encontraba paz a mi alrededor;<br>\n    en cambio, retumbaban los truenos.</p>\n\n    <p>No encontré a nadie que caminara conmigo;<br>\n    sola, recorrí caminos difíciles.<br>\n    Se desvanecieron los sueños de tranquilidad,<br>\n    y mi alma clamó, anhelando un hogar.</p>\n\n    <p>Entonces, una voz profunda habló dentro de mí:<br>\n    «Has estado buscando las cosas que puedes ver.<br>\n    Las verdaderas oraciones de tu corazón pueden ser respondidas<br>\n    si tan solo diriges la mirada hacia Mí.</p>\n\n    <p>He oído tus necesidades y deseos;<br>\n    tus oraciones no quedaron sin ser oídas.<br>\n    Pero vi que tu corazón necesitaba algo diferente<br>\n    de lo que habría preferido la comodidad.</p>\n\n    <p>Orabas por cielos despejados y sol,<br>\n    por brisas frescas y flores al comenzar el día.<br>\n    Pero vi que solo esas cosas no te darían<br>\n    la verdadera paz que buscabas en tu corazón.</p>\n\n    <p>Dispuse los caminos difíciles que has recorrido,<br>\n    no para decepcionarte, sino para purificarte.<br>\n    Pues sabía que la verdadera felicidad comienza solo<br>\n    en el corazón que se une a Mí».</p>\n\n    <p>Entonces caí a los pies de mi Maestro<br>\n    y me sometí a Su voluntad y a Su plan.<br>\n    Ya no exigía lo que yo quería,<br>\n    sino que confiaba en que Él terminaría lo que había comenzado.</p>\n\n    <p>No mucho después, descubrí que era feliz;<br>\n    ninguna nube podía prevalecer en mi corazón.<br>\n    Aunque mis circunstancias parecieran agobiantes,<br>\n    ninguna tormenta exterior podía apagar mi sol interior.</p>\n\n    <p>Las frescas brisas del dulce descanso en Él<br>\n    calmaron todas mis preocupaciones y temores.<br>\n    Y siempre las flores de Sus promesas<br>\n    eran visibles cuando la vida me hacía llorar.</p>\n\n    <p>También descubrí que ya no caminaba sola;<br>\n    ¡el Buen Pastor estaba a mi lado!<br>\n    Con Él podía compartir mis alegrías y tristezas,<br>\n    y, en medio de cualquier batalla, podía refugiarme en Él.</p>\n\n    <p>Así que ahora, en vez de orar<br>\n    por las comodidades terrenales,<br>\n    doy gracias al Señor por enviar cosas<br>\n    que me hicieron caer de rodillas.</p>\n\n    <p>En cambio, oro por humildad,<br>\n    para que me guíe durante el día.<br>\n    Oro por tener ojos para servir y compartir las bendiciones<br>\n    que el Señor pone en mi camino.</p>\n\n    <p>Oro para que mi corazón se someta<br>\n    al toque de la mano del Maestro,<br>\n    permitiendo que Su voluntad me transforme<br>\n    por medio de todo lo que Él ha dispuesto.</p>\n\n    <p>Pues he descubierto que la verdadera felicidad<br>\n    no consiste en una vida apacible y perfecta,<br>\n    sino que se encuentra cuando estamos arraigados en Cristo,<br>\n    sin dejarnos mover por el fuego ni el conflicto.</p>\n\n    <p>Si Él gobierna nuestro ser más íntimo,<br>\n    nada de lo que esté fuera podrá perturbarnos.<br>\n    Pues Él es el Fundamento sólido<br>\n    y la verdadera fuente de la Vida Verdadera, sublime.</p>\n\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29-1.jpg\" alt=\"Amanecer sobre las olas que rompen junto a una costa rocosa\">\n  </figure>\n</article>\n",
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Antes oraba"
+  }
+}

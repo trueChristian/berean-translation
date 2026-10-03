@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a0926052-ef73-4172-96c2-992ba801ebb9",
+    "response_id": "chatcmpl-EV1eOkaXexBLMN0eIACJjwKDmYfhI",
+    "usage": {
+      "completion_tokens": 1432,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2070,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2067,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3502
+    }
+  },
+  "received_at": "2026-10-03T21:49:38+00:00",
+  "result": {
+    "html": "<article data-article-id=\"af526358-a4bb-44b9-aeec-2535f8ce9a29\">\n  <div class=\"poem\">\n    <p>Ik bad vroeger om zonneschijn,<br>\n    Geen stormen die de hemel doorkruisten.<br>\n    Om koele briesjes en bloemen<br>\n    Die mijn blik zouden verblijden en boeien.</p>\n\n    <p>Ik bad vroeger om geluk,<br>\n    Om glimlachen, vreugde en vrede.<br>\n    Dat alles gemakkelijk zou gaan,<br>\n    En alle narigheid zou ophouden.</p>\n\n    <p>Ik bad vroeger om iemand<br>\n    Om mee door dit leven te gaan.<br>\n    Om lief te hebben, mee te lachen en te koesteren,<br>\n    En alle strijd te doen verdwijnen.</p>\n\n    <p>Ik bad vroeger dat de wegen<br>\n    Van het leven altijd helder zouden zijn.<br>\n    Dat geen ongewenste omstandigheid<br>\n    Het bestaan somber zou maken.</p>\n\n    <p>Maar het leek alsof die gebeden geen gehoor vonden,<br>\n    Want het leven verliep niet zo.<br>\n    De stormen — ze kwamen ongevraagd,<br>\n    Zware regen maakte menige dag donker.</p>\n\n    <p>De bloemen waren nergens te zien,<br>\n    De wind sneed en geselde.<br>\n    Nergens om mij heen was vrede te vinden;<br>\n    In plaats daarvan daverde de donder.</p>\n\n    <p>Er was niemand om met mij mee te gaan,<br>\n    Alleen dwaalde ik over ruwe wegen.<br>\n    De dromen van rust waren verdwenen,<br>\n    Mijn ziel schreeuwde om een thuis.</p>\n\n    <p>Toen sprak een rijke stem in mij,<br>\n    ‘Je hebt gezocht naar de dingen die je kunt zien.<br>\n    De ware gebeden van je hart kunnen worden verhoord,<br>\n    als je maar naar Mij wilt opzien.</p>\n\n    <p>Ik heb je behoeften en verlangens gehoord,<br>\n    Je gebeden zijn niet onbeantwoord gebleven.<br>\n    Maar Ik zag dat je hart iets anders nodig had<br>\n    Dan wat gemak verkoos.</p>\n\n    <p>Je bad om heldere luchten en zonneschijn,<br>\n    Om koele briesjes en bloemen die opkwamen.<br>\n    Maar Ik zag dat juist die dingen je niet zouden geven<br>\n    De ware vrede die je in je hart zocht.</p>\n\n    <p>Ik heb de ruwe wegen bepaald die je bent gegaan,<br>\n    Niet om je teleur te stellen, maar om je te louteren.<br>\n    Want Ik wist dat waar geluk alleen begint<br>\n    In het hart dat zich met Mij verenigt.’</p>\n\n    <p>Dus viel ik neer aan de voeten van mijn Meester<br>\n    En onderwierp mij aan Zijn wil en Zijn plan.<br>\n    Ik eiste niet langer dat ik kreeg wat ik wilde,<br>\n    Maar vertrouwde erop dat Hij zou voltooien wat Hij begonnen was.</p>\n\n    <p>Niet lang daarna merkte ik dat ik gelukkig was;<br>\n    Geen wolk in mijn hart kon standhouden.<br>\n    Zelfs als mijn omstandigheden zwaar leken,<br>\n    Kon geen storm van buiten mijn innerlijke Zonneschijn doen verbleken.</p>\n\n    <p>De koele bries van zoete rust in Hem<br>\n    Kalmeerde al mijn zorgen en angsten.<br>\n    En telkens waren de bloemen van Zijn beloften<br>\n    Zichtbaar wanneer het leven mij tranen bracht.</p>\n\n    <p>Ik ontdekte ook dat ik niet langer alleen liep;<br>\n    De Goede Herder was daar aan mijn zijde!<br>\n    Met Hem kon ik mijn vreugde en verdriet delen,<br>\n    En midden in elke strijd kon ik bij Hem schuilen.</p>\n\n    <p>Dus bid ik nu niet langer<br>\n    Om aardse gemakken,<br>\n    Maar dank ik de Heer voor de dingen die Hij zond<br>\n    Die mij op mijn knieën brachten.</p>\n\n    <p>In plaats daarvan bid ik om nederigheid,<br>\n    Om mij door de dag te leiden.<br>\n    Om oog te hebben voor dienstbaarheid en het delen van de zegeningen<br>\n    Die de Heer op mijn weg zendt.</p>\n\n    <p>Ik bid dat mijn hart zich zal overgeven<br>\n    Aan de aanraking van de hand van de Meester.<br>\n    Dat Zijn wil mij mag veranderen,<br>\n    Door alles heen wat Hij heeft gepland.</p>\n\n    <p>Want ik heb ontdekt dat waar geluk<br>\n    Niet te vinden is in een probleemloos, volmaakt leven.<br>\n    Maar wanneer we in Christus geworteld zijn,<br>\n    En niet wijken bij vuur of strijd.</p>\n\n    <p>Als Hij heerst over ons diepste wezen,<br>\n    Dan zal niets van buiten ons verstoren.<br>\n    Want Hij is het vaste Fundament,<br>\n    En de ware bron van het heerlijke Ware Leven.</p>\n\n  </div>\n\n  <figure>\n    <img src=\"/images/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29-1.jpg\" alt=\"Zonsopgang boven golven die breken langs een rotsachtige kust\">\n  </figure>\n</article>\n",
+    "section": "Gedicht",
+    "subtitle": null,
+    "title": "Ik bad vroeger"
+  }
+}

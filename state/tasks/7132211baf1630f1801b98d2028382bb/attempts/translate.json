@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:39+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. Este mundo não é meu lar, estou apenas de passagem<br>\\n    Meus tesouros estão guardados além do céu azul;<br>\\n    Os anjos me chamam da porta aberta do céu,<br>\\n    E já não me sinto em casa neste mundo.</em></p>\\n\\n    <h2>Refrão:</h2>\\n\\n    <p><em>Ó Senhor, sabes que não tenho amigo como tu,<br>\\n    Se o céu não é meu lar, Senhor, o que farei então?<br>\\n    Os anjos me chamam da porta aberta do céu,<br>\\n    E já não me sinto em casa neste mundo.</em></p>\\n\\n    <p><em>2. Todos me esperam, e isso é algo que sei,<br>\\n    Meu Salvador me perdoou, e agora sigo em frente;<br>\\n    Sei que me conduzirá, embora eu seja fraco e pobre,<br>\\n    E já não me sinto em casa neste mundo.</em></p>\\n\\n    <p><em>3. Tenho um Salvador amoroso na glória,<br>\\n    Não espero parar até estar com Ele,<br>\\n    Ele me espera agora na porta aberta do céu,<br>\\n    E já não me sinto em casa neste mundo.</em></p>\\n\\n    <p><em>4. Lá na glória viveremos eternamente,<br>\\n    Os santos por toda parte proclamam a vitória,<br>\\n    Seus mais doces cânticos de louvor chegam da praia celestial,<br>\\n    E já não me sinto em casa neste mundo.</em></p>\\n  </div>\\n\\n  <p><em>Fonte: Hinos da Fé #311<br>\\n  Direitos autorais: Domínio público<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"Hino\",\"subtitle\":null,\"title\":\"Este Mundo Não é Meu Lar\"}",
+    "content_bytes": 1501,
+    "content_evidence_truncated": false,
+    "content_sha256": "20499ae7830e6ca4e573c0ecdca58414bd9b91c2c4e74dacba1641056392f18a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 110,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1393,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1390,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1997
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

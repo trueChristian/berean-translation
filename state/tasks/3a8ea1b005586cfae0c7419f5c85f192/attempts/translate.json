@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:38+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. Этот мир — не мой дом, я здесь лишь проездом<br>\\n    Сокровища мои хранятся где-то за небесной синевой;<br>\\n    Ангелы манят меня из открытых небесных врат,<br>\\n    И больше этот мир мне домом не кажется.</em></p>\\n\\n    <h2>Припев:</h2>\\n\\n    <p><em>О Господь, Ты знаешь: нет у меня друга, подобного Тебе,<br>\\n    Если небеса — не мой дом, Господь, что же мне делать?<br>\\n    Ангелы манят меня из открытых небесных врат,<br>\\n    И больше этот мир мне домом не кажется.</em></p>\\n\\n    <p><em>2. Все меня там ждут — это я точно знаю,<br>\\n    Спаситель простил меня, и теперь я иду дальше;<br>\\n    Я знаю, Он проведёт меня через всё, хоть я слаб и беден,<br>\\n    И больше этот мир мне домом не кажется.</em></p>\\n\\n    <p><em>3. На небесах у меня любящий Спаситель,<br>\\n    Я не остановлюсь, пока не предстану перед Ним,<br>\\n    Он ждёт меня у открытых небесных врат,<br>\\n    И больше этот мир мне домом не кажется.</em></p>\\n\\n    <p><em>4. Там, на небесах, мы будем жить вечно,<br>\\n    Повсюду святые восклицают о победе,<br>\\n    Их сладчайшие хвалебные песни доносятся с небесного берега,<br>\\n    И больше этот мир мне домом не кажется.</em></p>\\n  </div>\\n\\n  <p><em>Источник: Hymns of Faith № 311<br>\\n  Авторские права: общественное достояние<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"Гимн\",\"subtitle\":null,\"title\":\"Этот мир — не мой дом\"}",
+    "content_bytes": 2263,
+    "content_evidence_truncated": false,
+    "content_sha256": "0c1bdd949845fafdd855798179621f4ad1151f2d5af5ed87e3b7c89cdc48f370",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 226,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1381,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2159
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

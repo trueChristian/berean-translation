@@ -2,10 +2,40 @@
   "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0b3116af80fa4ce991afb1662665970b",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 1549,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 204,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2070,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2067,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3619
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/div[1]/p[20]; translation /article[1]/div[1]",
+      "severity": "critical",
+      "source_quote": "<p>If He rules the inmost being,<br>\n    Then nothing outside will disturb.<br>\n    For He is the solid Foundation,<br>\n    And the real source of True Life superb.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[97:102], translation signature[97:97], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "… <p>Prego che il mio cuore si arrenda<br>\n    al tocco della mano del Maestro,<br>\n    lasciando che la Sua volontà mi trasformi<br>\n    attraverso tutto ciò che ha disposto.</p>\n\n    <p>Perché ho scoperto che la vera felicità<br>\n    non sta in una vita facile e perfetta.<br>\n    La si trova invece quando siamo radicati in Cristo,<br>\n    senza lasciarci smuovere dal fuoco o dalla discordia.</p>\n\n    <p>Se Egli regna nel nostro intimo,<br>\n    nulla di ciò che è al di fuori ci turberà.<br>\n    Perché Egli è il Fondamento saldo<br>\n    e la vera fonte della Vita vera e sublime.</p>\n\n  </div>"
+    }
+  ],
   "id": "2add764e508e7b7c665e1555f4ec747d",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ita",
@@ -97,9 +127,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/8518be006699d10e3e2d64df41c659fb10c9ac4a210156c22bbf03e9d7302254.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

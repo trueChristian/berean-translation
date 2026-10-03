@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:49:38+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>۱۔ یہ دنیا میرا گھر نہیں، میں تو بس گزر رہا ہوں<br>\\n    میرے خزانے کہیں نیلے آسمان سے پرے رکھے ہیں؛<br>\\n    فرشتے مجھے آسمان کے کھلے دروازے سے بلا رہے ہیں،<br>\\n    اور اب اس دنیا میں میرا دل نہیں لگتا۔</em></p>\\n\\n    <h2>کورس:</h2>\\n\\n    <p><em>اے خداوند، تو جانتا ہے کہ تیرے جیسا میرا کوئی دوست نہیں،<br>\\n    اگر آسمان میرا گھر نہیں، تو اے خداوند، میں کیا کروں گا؟<br>\\n    فرشتے مجھے آسمان کے کھلے دروازے سے بلا رہے ہیں،<br>\\n    اور اب اس دنیا میں میرا دل نہیں لگتا۔</em></p>\\n\\n    <p><em>۲۔ وہ سب میرے منتظر ہیں، اور یہ ایک بات میں جانتا ہوں،<br>\\n    میرے نجات دہندہ نے مجھے معاف کر دیا، اور اب میں آگے بڑھتا ہوں؛<br>\\n    میں جانتا ہوں کہ وہ مجھے منزل تک پہنچائے گا، اگرچہ میں کمزور اور نادار ہوں،<br>\\n    اور اب اس دنیا میں میرا دل نہیں لگتا۔</em></p>\\n\\n    <p><em>۳۔ جلال کی سرزمین میں میرا ایک شفیق نجات دہندہ ہے،<br>\\n    میں اس وقت تک رکنے کی امید نہیں رکھتا جب تک اُس کے ساتھ نہ کھڑا ہوں،<br>\\n    وہ اب آسمان کے کھلے دروازے پر میرا منتظر ہے،<br>\\n    اور اب اس دنیا میں میرا دل نہیں لگتا۔</em></p>\\n\\n    <p><em>۴۔ جلال کی سرزمین میں ہم ہمیشہ کے لیے زندگی گزاریں گے،<br>\\n    ہر طرف مقدسین فتح کے نعرے لگا رہے ہیں،<br>\\n    اُن کی نہایت شیریں حمد کے گیت آسمان کے ساحل سے بہتے ہوئے آتے ہیں،<br>\\n    اور اب اس دنیا میں میرا دل نہیں لگتا۔</em></p>\\n  </div>\\n\\n  <p><em>ماخذ: Hymns of Faith #311<br>\\n  حقوقِ اشاعت: عوامی ملکیت<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"حمد\",\"subtitle\":null,\"title\":\"یہ دنیا میرا گھر نہیں\"}",
+    "content_bytes": 2398,
+    "content_evidence_truncated": false,
+    "content_sha256": "0f3a8e53df229759adc0a71540c7e0b525047aa77352e887af29ee648d7f7bc4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 118,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1389,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2141
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[11]/strong[1]; translation /article[1]/p[11]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<p>I believe that first we must look closer at the verse in Ephesians. What does the word <strong>in</strong> mean? Does it mean the same thing as the word <strong>with</strong>? I believe not. We can speak the truth <strong>with</strong> love and not be speaking it <strong>in</strong> love. On the other hand, if we speak <strong>in</strong> love it will always be with love in our heart (God’s love—love for a soul’s eternal welfare), but it may not be the kind of love that is <strong>felt</strong> by the other person if they are going by feelings. Could it be that this little <strong>in</str…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[44:46], translation signature[44:44], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>میرا خیال ہے کہ پہلے ہمیں افسیوں کی آیت پر زیادہ غور کرنا چاہیے۔ لفظ <strong>کے ساتھ</strong> کا کیا مطلب ہے؟ کیا اس کا مطلب لفظ <strong>میں</strong> جیسا ہے؟ میرے خیال میں ایسا نہیں۔ ہم محبت <strong>کے ساتھ</strong> سچ بول سکتے ہیں، مگر ضروری نہیں کہ ہم محبت <strong>میں</strong> سچ بول رہے ہوں۔ دوسری طرف، اگر ہم محبت <strong>میں</strong> بولیں گے تو ہمارے دل میں ہمیشہ محبت ہوگی (خدا کی محبت—کسی جان کی ابدی بھلائی کی فکر)، لیکن اگر دوسرا شخص اپنے جذبات کے مطابق فیصلہ کر رہا ہو تو شاید اسے یہ ایسی محبت محسوس نہ ہو۔ کیا ممکن ہے کہ یہی چھوٹا سا لفظ <strong>میں</strong> ساری الجھن کا سبب ہو؟<…"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[56]: source /article[1]/p[11]/strong[7] ('start', 'strong', ()); translation /article[1]/p[11] ('end', 'p')",
+  "stage": "translate"
+}
