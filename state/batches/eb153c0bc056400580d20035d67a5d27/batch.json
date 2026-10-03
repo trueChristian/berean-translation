@@ -1,0 +1,38 @@
+{
+  "campaign": "gh-37119584204",
+  "created_at": "2026-10-03T16:49:37+00:00",
+  "custom_ids": [
+    "037e5330b518b9bc58755abfc110e7c7:correct",
+    "18c33dc97389b8913697de104fd2e722:correct",
+    "2607bc2d0311cbb0f5f4fff4ef77e8c8:correct",
+    "2844ce82ff4784a4382858db5fc86142:correct",
+    "741d881ad520b76d609c5e0c00859e43:correct",
+    "80a3d30e491489c211fdb8ad21686af9:correct",
+    "a50554a1598bc9c49d9e01df6713003b:correct",
+    "aa1ed3ad07e24d1efca01ce309f215e5:correct",
+    "b7598c73440c8936f87cf998b6689fa1:correct",
+    "b7910ba82e4d4db516809d8095fdcbdd:correct",
+    "ebd9ddc23d457231e9c7b8b5913c6569:correct"
+  ],
+  "id": "eb153c0bc056400580d20035d67a5d27",
+  "input_file_id": null,
+  "model": "gpt-6-luna",
+  "payload_sha256": "77c49c431cc63cfe6bc764ee15391b3771cfabacf5ec6603aa90a6ef00ddd015",
+  "remote_id": null,
+  "reserved_usd": 0.075513,
+  "stage": "correct",
+  "status": "prepared",
+  "tasks": [
+    "037e5330b518b9bc58755abfc110e7c7",
+    "18c33dc97389b8913697de104fd2e722",
+    "2607bc2d0311cbb0f5f4fff4ef77e8c8",
+    "2844ce82ff4784a4382858db5fc86142",
+    "741d881ad520b76d609c5e0c00859e43",
+    "80a3d30e491489c211fdb8ad21686af9",
+    "a50554a1598bc9c49d9e01df6713003b",
+    "aa1ed3ad07e24d1efca01ce309f215e5",
+    "b7598c73440c8936f87cf998b6689fa1",
+    "b7910ba82e4d4db516809d8095fdcbdd",
+    "ebd9ddc23d457231e9c7b8b5913c6569"
+  ]
+}
