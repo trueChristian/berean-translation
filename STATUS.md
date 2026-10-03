@@ -419,7 +419,7 @@ A finished original campaign remains historical; current publication readiness i
 | `gh-37109005676` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.073089 / 10.00 | [state](state/campaigns/gh-37109005676.json) |
 | `gh-37109037884` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.053413 / 10.00 | [state](state/campaigns/gh-37109037884.json) |
 | `gh-37109077881` | manual | translate | active | 220 | 220 active | 0.00000000 | 1.157502 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
-| `gh-37109120670` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
+| `gh-37109120670` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 0.051054 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
 | `gh-37109168265` | manual | translate | active | 42 | 42 active | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
@@ -572,6 +572,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [bae56518e5c441c89c52a3fb7cd782ac](state/batches/bae56518e5c441c89c52a3fb7cd782ac/batch.json) / review2 | collected / completed | 12 / 12 / 0 | 2026-10-02T08:46:52+00:00 | 2026-10-02T08:47:58+00:00 | 2026-10-02T08:47:57+00:00 |
 | [bd664b332dc94252bac8ffeccdd68e4c](state/batches/bd664b332dc94252bac8ffeccdd68e4c/batch.json) / correct | collected / completed | ? / ? / ? | not recorded | 2026-09-29T20:52:08+00:00 | not recorded |
 | [be26e857fe16474b984fb476d48a7898](state/batches/be26e857fe16474b984fb476d48a7898/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:22:15+00:00 | 2026-10-01T20:28:40+00:00 | 2026-10-01T20:28:40+00:00 |
+| [c194c5ba19974d29879d2803092a5c92](state/batches/c194c5ba19974d29879d2803092a5c92/batch.json) / correct | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [c3e7a4466f0d4ab0908f61acb97e1758](state/batches/c3e7a4466f0d4ab0908f61acb97e1758/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-02T00:10:36+00:00 | 2026-10-02T00:12:26+00:00 | 2026-10-02T00:12:25+00:00 |
 | [c4f222df206e49f7811a3db1d2258e94](state/batches/c4f222df206e49f7811a3db1d2258e94/batch.json) / correct | collected / completed | 113 / 113 / 0 | 2026-10-02T12:56:26+00:00 | 2026-10-02T13:00:01+00:00 | 2026-10-02T12:59:59+00:00 |
 | [c70e8a233c9f4f0c91a4d3abd7601056](state/batches/c70e8a233c9f4f0c91a4d3abd7601056/batch.json) / correct | collected / completed | 57 / 57 / 0 | 2026-10-02T13:01:04+00:00 | 2026-10-02T13:03:53+00:00 | 2026-10-02T13:03:51+00:00 |
