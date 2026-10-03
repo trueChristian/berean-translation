@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9d091f68-c721-40a3-b3e2-6bf1a56bda91",
+    "response_id": "chatcmpl-EUxYNz4gRzvPB1ulW3XO6TjSLpufb",
+    "usage": {
+      "completion_tokens": 80,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2900,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2897,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2980
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Titre",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Remplacer par « La procrastination à outrance » ou une formulation française équivalente qui conserve l’idée d’une procrastination envahissante.",
+        "translation_quote": "Procrastination excessive"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

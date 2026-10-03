@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Temo que estamos cayendo…”\",\"severity\":\"minor\",\"source_quote\":\"We talk the talk; we say we believe in God.\",\"suggested_fix\":\"Replace “Hablamos la palabra” with “Decimos que creemos en Dios” only if restructuring the sentence, or more closely: “Hablamos mucho; decimos que creemos en Dios.”\",\"translation_quote\":\"Hablamos la palabra; decimos que creemos en Dios.\"},{\"location\":\"Paragraph beginning “El cristiano se niega a sí mismo…”\",\"severity\":\"minor\",\"source_quote\":\"he is merely dust\",\"suggested_fix\":\"Change “es mera polvo” to “es mero polvo”.\",\"translation_quote\":\"es mera polvo\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 692,
+    "content_evidence_truncated": false,
+    "content_sha256": "deff2ef4aa4ed09a40ec96c796631e53a864c4965a5c6efce719b1ed6d8cfc7b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 852,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6552,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6549,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7583
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

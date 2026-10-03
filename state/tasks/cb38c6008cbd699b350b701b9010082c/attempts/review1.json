@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Poem, first stanza, third line\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The Dayspring shineth from on high,\",\n      \"suggested_fix\": \"Die Dagbreeklig skyn van omhoog,\",\n      \"translation_quote\": \"Die Oggendster skyn van bo af,\"\n    },\n    {\n      \"location\": \"Poem, second stanza, second line\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Extol and praise His worthy name!\",\n      \"suggested_fix\": \"Verhef en prys sy waardige naam!\",\n      \"translation_quote\": \"Verheug en prys sy waardige naam!\"\n    },\n    {\n      \"location\": \"Poem, third stanza, second line\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And worship Him with reverent praise;\",\n      \"suggested_fix\": \"En aanbid Hom met eerbiedige lof;\",\n      \"translation_quote\": \"En diens Hom met eerbiedige lof;\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 82\n}",
+    "content_bytes": 881,
+    "content_evidence_truncated": false,
+    "content_sha256": "73aa308dfd63c4143ae5324a58f6102d480903f06a2452602a711d9e41e23ba6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 410,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1626,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1623,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2292
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

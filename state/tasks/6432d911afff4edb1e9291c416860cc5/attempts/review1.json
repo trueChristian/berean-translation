@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Immagine, testo alternativo\",\"severity\":\"minor\",\"source_quote\":\"Pink and white crown vetch flowers in a green meadow\",\"suggested_fix\":\"Tradurre il nome comune della pianta, per esempio: “Fiori rosa e bianchi di veccia coronata in un prato verde”.\",\"translation_quote\":\"Fiori rosa e bianchi di crown vetch in un prato verde\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 381,
+    "content_evidence_truncated": false,
+    "content_sha256": "e7769d7ff7b6fecf52456bd6b37fed9ee3dca2e8aeeb70e81ef717f063cde27f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 621,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3127,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3124,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3748
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

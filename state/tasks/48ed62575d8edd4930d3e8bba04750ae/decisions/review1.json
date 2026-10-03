@@ -1,0 +1,126 @@
+{
+  "findings": [
+    {
+      "location": "HTML, lead paragraph; Paul’s quotation",
+      "severity": "major",
+      "source_quote": "“Doth not nature itself teach you?”",
+      "suggested_fix": "Translate the quotation into Greek, for example: «Δεν σας διδάσκει αυτή καθαυτή η φύση;»",
+      "translation_quote": "“Doth not nature itself teach you?”"
+    },
+    {
+      "location": "HTML, second paragraph; Job 6:5 quotation",
+      "severity": "major",
+      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+      "suggested_fix": "Translate the quoted prose into Greek and render the book name conventionally, while retaining 6:5; for example: «Γκαρίζει ο άγριος γάιδαρος όταν έχει χορτάρι; Μουγκρίζει το βόδι πάνω από την τροφή του;» (Ιώβ 6:5).",
+      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+    },
+    {
+      "location": "HTML, third paragraph; expression about a lark",
+      "severity": "major",
+      "source_quote": "The expression “happy as a lark”",
+      "suggested_fix": "Replace «ευτυχισμένος σαν κούκος» with a Greek rendering that preserves the source bird and the expression’s meaning, such as «χαρούμενος σαν κορυδαλλός».",
+      "translation_quote": "Η έκφραση «ευτυχισμένος σαν κούκος»"
+    },
+    {
+      "location": "HTML, third paragraph; James 5:13 quotation",
+      "severity": "major",
+      "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).",
+      "suggested_fix": "Translate the quotation into Greek and render the book name conventionally, retaining 5:13; for example: «Είναι κανείς χαρούμενος; Ας ψάλλει ύμνους» (Ιακώβου 5:13).",
+      "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13)."
+    },
+    {
+      "location": "HTML, fourth paragraph; Psalm 40:3 quotation and repeated phrase",
+      "severity": "major",
+      "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
+      "suggested_fix": "Translate both the quoted verse and the phrase into Greek, keeping the reference number unchanged; for example: «Έβαλε στο στόμα μου νέο ύμνο, αίνο στον Θεό μας» (Ψαλμός 40:3). … τη φράση «Θα ψάλλω».",
+      "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). Σε 22 περιπτώσεις, οι Γραφές επαναλαμβάνουν τη φράση, I will sing."
+    },
+    {
+      "location": "HTML, sixth paragraph; Ephesians 5:19 quotation",
+      "severity": "major",
+      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19).",
+      "suggested_fix": "Translate the quotation into Greek and render the book name conventionally, retaining 5:19; for example: «Μιλώντας ο ένας στον άλλον με ψαλμούς, ύμνους και πνευματικά άσματα, ψάλλοντας και υμνώντας μέσα στην καρδιά σας τον Κύριο» (Εφεσίους 5:19).",
+      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19)."
+    },
+    {
+      "location": "HTML, sixth paragraph; Samaritan woman’s statement",
+      "severity": "major",
+      "source_quote": "“Jews have no dealings with the Samaritans.”",
+      "suggested_fix": "Translate the quoted statement into Greek; for example: «Οι Ιουδαίοι δεν έχουν σχέσεις με τους Σαμαρείτες».",
+      "translation_quote": "“Jews have no dealings with the Samaritans.”"
+    },
+    {
+      "location": "HTML, sixth paragraph; John 4:14 quotation",
+      "severity": "major",
+      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Translate the quotation into Greek and render the book name conventionally, retaining 4:14; for example: «Το νερό που θα του δώσω θα γίνει μέσα του πηγή νερού που αναβλύζει σε αιώνια ζωή» (Ιωάννης 4:14).",
+      "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
+    },
+    {
+      "location": "HTML, seventh paragraph; John 7:38 reference",
+      "severity": "major",
+      "source_quote": "as in John 7:38",
+      "suggested_fix": "Translate the reference into Greek, retaining its exact chapter and verse: «όπως στο Ιωάννης 7:38».",
+      "translation_quote": "όπως στο John 7:38"
+    },
+    {
+      "location": "HTML, seventh paragraph; Isaiah 65:14 quotation",
+      "severity": "major",
+      "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
+      "suggested_fix": "Translate the quotation into Greek and render the book name conventionally, retaining 65:14; for example: «Ιδού, οι δούλοι μου θα ψάλλουν από χαρά καρδιάς» (Ησαΐας 65:14).",
+      "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
+    },
+    {
+      "location": "HTML, eighth paragraph; Revelation 18:2 quotation",
+      "severity": "major",
+      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+      "suggested_fix": "Translate the quotation into Greek and render the book name conventionally, retaining 18:2; for example: «Έπεσε, έπεσε η μεγάλη Βαβυλώνα, και έγινε κατοικητήριο δαιμονίων και καταφύγιο κάθε ακάθαρτου πνεύματος, και κλουβί κάθε ακάθαρτου και μισητού πουλιού» (Αποκάλυψη 18:2).",
+      "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
+    },
+    {
+      "location": "HTML, ninth paragraph; Psalm 22:9 quotation",
+      "severity": "major",
+      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
+      "suggested_fix": "Translate the quotation into Greek and render the book name conventionally, retaining 22:9; for example: «Εσύ με έβγαλες από τη μήτρα· μου έδωσες ελπίδα όταν ήμουν στο στήθος της μητέρας μου» (Ψαλμός 22:9).",
+      "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9)."
+    },
+    {
+      "location": "HTML, ninth paragraph; Genesis 26:15 quotation",
+      "severity": "major",
+      "source_quote": "The Philistines “had filled them with earth” (Gen 26:15).",
+      "suggested_fix": "Translate the quoted words into Greek and render the book name conventionally, retaining 26:15; for example: Οι Φιλισταίοι «τα είχαν γεμίσει με χώμα» (Γένεση 26:15).",
+      "translation_quote": "Οι Φιλισταίοι “had filled them with earth” (Gen 26:15)."
+    },
+    {
+      "location": "HTML, tenth paragraph; Psalm 137:2–4 quotation",
+      "severity": "major",
+      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).",
+      "suggested_fix": "Translate the entire quotation into Greek and render the book name conventionally, preserving the reference range 137:2-4; for example: «Στις ιτιές που ήταν στο μέσο της κρεμάσαμε τις άρπες μας. Εκείνοι που μας αιχμαλώτισαν ζητούσαν από εμάς ένα τραγούδι, και οι καταπιεστές μας ζητούσαν ευθυμία, λέγοντας: “Τραγουδήστε μας ένα από τα τραγούδια της Σιών”. Πώς να τραγουδήσουμε το τραγούδι του Κυρίου σε ξένη γη;» (Ψαλμός 137:2-4).",
+      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
+    },
+    {
+      "location": "HTML, tenth paragraph; Jeremiah 29:5–7 quotation",
+      "severity": "major",
+      "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
+      "suggested_fix": "Translate the quoted prose into Greek and render the book name conventionally, preserving the reference range 29:5-7; for example: «… Και επιζητήστε την ειρήνη της πόλης όπου σας έκανα να οδηγηθείτε αιχμάλωτοι, και προσευχηθείτε στον Κύριο γι’ αυτήν· γιατί στην ειρήνη της θα έχετε κι εσείς ειρήνη» (Ιερεμίας 29:5-7).",
+      "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
+    },
+    {
+      "location": "HTML, tenth paragraph; historical claim about Israel’s song",
+      "severity": "major",
+      "source_quote": "Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.",
+      "suggested_fix": "Correct the historical statement to match the source: «Το τραγούδι τους ξέσπασε κατά τη διάβαση της Ερυθράς Θάλασσας και στις ημέρες του Ιωσαφάτ, και ήταν γνωστό ότι νικούσε στρατούς.»",
+      "translation_quote": "Το τραγούδι τους εκδηλώθηκε στο πέρασμα της Ερυθράς Θάλασσας τις ημέρες του Ιωσαφάτ και ήταν γνωστό ότι νικούσε στρατούς."
+    },
+    {
+      "location": "HTML, final paragraph; Colossians 3:16, 23 quotation",
+      "severity": "major",
+      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "Translate the full quoted prose into Greek and render the book name conventionally, preserving both references and their order; for example: «Ο λόγος του Χριστού ας κατοικεί πλούσια μέσα σας με κάθε σοφία· διδάσκοντας και νουθετώντας ο ένας τον άλλον με ψαλμούς, ύμνους και πνευματικά άσματα, ψάλλοντας με χάρη στον Κύριο μέσα στις καρδιές σας … Και ό,τι κάνετε, να το κάνετε με όλη σας την ψυχή, σαν για τον Κύριο και όχι για ανθρώπους» (Κολοσσαείς 3:16, 23).",
+      "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

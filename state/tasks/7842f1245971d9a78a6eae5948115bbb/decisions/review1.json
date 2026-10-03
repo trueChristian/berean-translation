@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Titre",
+      "severity": "minor",
+      "source_quote": "Jamin Smartens Up",
+      "suggested_fix": "« Jamin gagne en sagesse »",
+      "translation_quote": "Jamin devient plus sage"
+    },
+    {
+      "location": "Paragraphe 3",
+      "severity": "minor",
+      "source_quote": "Kenny had a way of avoiding earshot.",
+      "suggested_fix": "« Mais Kenny savait éviter d’être entendu. »",
+      "translation_quote": "Mais Kenny savait se tenir hors d’écoute."
+    },
+    {
+      "location": "Paragraphe 7",
+      "severity": "minor",
+      "source_quote": "the sun was growing old as he crossed the border of the woods",
+      "suggested_fix": "« le soleil déclinait lorsqu’il franchit la lisière du bois »",
+      "translation_quote": "le soleil vieillissait quand il franchit la lisière du bois"
+    },
+    {
+      "location": "Paragraphe 7",
+      "severity": "minor",
+      "source_quote": "His golden head caught the tired beams that fled from the sun as they flickered through the trees.",
+      "suggested_fix": "« Sa chevelure dorée captait les rayons pâles du soleil qui filtraient entre les arbres. »",
+      "translation_quote": "Sa chevelure dorée attrapait les rayons fatigués qui fuyèrent du soleil en scintillant à travers les arbres."
+    },
+    {
+      "location": "Paragraphe 9",
+      "severity": "minor",
+      "source_quote": "a frustrated heap to his right",
+      "suggested_fix": "« un amas de frustration à sa droite » ou, plus naturellement, « Kenny, recroquevillé de frustration, à sa droite »",
+      "translation_quote": "un tas frustré à sa droite"
+    },
+    {
+      "location": "Paragraphe 11",
+      "severity": "minor",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "« L’obscurité assombrissait le sol autour de Kenny. »",
+      "translation_quote": "L’obscurité ternissait le sol autour de Kenny."
+    },
+    {
+      "location": "Paragraphe 16",
+      "severity": "minor",
+      "source_quote": "The porch light showed her in her old rocker.",
+      "suggested_fix": "« La lumière de la véranda l’éclairait dans son vieux fauteuil à bascule. »",
+      "translation_quote": "La lumière de la véranda la montrait dans son vieux fauteuil à bascule."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

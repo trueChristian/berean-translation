@@ -1,0 +1,177 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f111a5b6-3b4f-4ddd-92e3-4023640c721b",
+    "response_id": "chatcmpl-EUxYZcg3Xdwg8eZ05RbYKi6ENiN3a",
+    "usage": {
+      "completion_tokens": 2643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7211,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7208,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9854
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening paragraph",
+        "severity": "major",
+        "source_quote": "Do you believe in miracles?",
+        "suggested_fix": "Badilisha “Je, unaamini kwa miujiza?” kuwa “Je, unaamini miujiza?”",
+        "translation_quote": "Je, unaamini kwa miujiza?"
+      },
+      {
+        "location": "HTML, greenhouse anecdote",
+        "severity": "major",
+        "source_quote": "My brother was working in the greenhouse when a customer walked in and marveled at the beauty of all the plants. He then exclaimed how impressed he was at all our hard work.",
+        "suggested_fix": "Tafsiri kwa maana kwamba mteja aliingia kwenye chafu, akastaajabia uzuri wa mimea, kisha akasema alivutiwa sana na bidii yao. “Kizibazi cha mimea” si neno linalofaa kwa greenhouse.",
+        "translation_quote": "Ndugu yangu alikuwa akifanya kazi katika kizibazi cha mimea alipokuwa mteja akiingia na kustaajabu uzuri wa mimea yote. Kisha alishtuka kwa jinsi alivyoshangazwa na kazi zetu zote."
+      },
+      {
+        "location": "HTML, greenhouse anecdote",
+        "severity": "major",
+        "source_quote": "Some plant, some water, but God gives the increase.",
+        "suggested_fix": "Tafsiri kwa maana ya “Mmoja hupanda, mwingine humwagilia, lakini Mungu ndiye hukuza.” Usitafsiri “increase” kama uzalishaji.",
+        "translation_quote": "Mtu alifanya mimea, mtu alileta maji, lakini Mungu ndiye anayetoa uzalishaji."
+      },
+      {
+        "location": "HTML, greenhouse anecdote",
+        "severity": "major",
+        "source_quote": "You planted, watered, and fertilized all these plants",
+        "suggested_fix": "Badilisha orodha hii iwe na maana ya “mlipanda, mkamwagilia, na kuweka mbolea kwenye mimea hii yote.”",
+        "translation_quote": "Mlimwaga mimea, mlimea, mlipatia mbolea mimea hizi"
+      },
+      {
+        "location": "HTML, heading and terminology throughout",
+        "severity": "major",
+        "source_quote": "What is Humanism?",
+        "suggested_fix": "Tumia istilahi sahihi na thabiti ya Kiswahili, kama “Ubinadamu wa kifalsafa ni nini?” au “Humanizimu ni nini?”, na itumie kwa humanism/humanist kwa namna inayoeleweka. Usitumie “utu-tukio” au “mwanadamu-anayetukana,” ambazo zinabadilisha maana na zinamaanisha kitu tofauti.",
+        "translation_quote": "Nini Ni Utu-Tukio (Humanism)? … mwanadamu-anayetukana (humanisti)."
+      },
+      {
+        "location": "HTML, definition paragraph",
+        "severity": "major",
+        "source_quote": "rather than divine or supernatural matters",
+        "suggested_fix": "Tafsiri kama “badala ya mambo ya kimungu au ya kimiujiza/kisiyo ya kawaida,” si mambo ya “kimataifa ya kiroho.”",
+        "translation_quote": "badala ya yale ya kimungu au ya kimataifa ya kiroho"
+      },
+      {
+        "location": "HTML, paragraph beginning “If God does exist”",
+        "severity": "major",
+        "source_quote": "If God does exist, then we will have to recognize this fact and answer to Him.",
+        "suggested_fix": "Tafsiri maana ya “Ikiwa Mungu yupo, basi itatubidi tukubali ukweli huo na kuwajibika mbele zake.”",
+        "translation_quote": "Kama Mungu atalipo, basi tutalazimika kutambua ukweli huu na kumjibu."
+      },
+      {
+        "location": "HTML, “Two Types of Humanism,” first type",
+        "severity": "major",
+        "source_quote": "There are no other factors or supernatural involvement.",
+        "suggested_fix": "Tafsiri “Hakuna mambo mengine yanayochangia wala uingiliaji wa nguvu zisizo za kawaida.” “Kimawimbi” haimaanishi supernatural.",
+        "translation_quote": "Hakuna vigezo vingine wala uingiliaji wa kimawimbi."
+      },
+      {
+        "location": "HTML, Romans quotation",
+        "severity": "critical",
+        "source_quote": "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead",
+        "suggested_fix": "Tafsiri nukuu yote ya Warumi 1:18–32 kwa Kiswahili kinachoeleweka na kwa uaminifu kwa maandishi ya Kiingereza. Kwa mfano, hapa sema kuwa mambo ya Mungu yasiyoonekana yanaonekana wazi tangu uumbaji, yakitambuliwa kupitia vitu vilivyoumbwa, yaani nguvu zake za milele na Uungu wake. Kwa sasa, tafsiri hii ina makosa mengi ya maana, ikiwa ni pamoja na kubadilisha “Godhead” kuwa ubinadamu, “glorified” kuwa hawakumlifu, na kuacha/kugeuza kauli kuhusu kumtambua Mungu na matendo yaliyoorodheshwa.",
+        "translation_quote": "Kwa vitu visivyoonekana kutoka kwa yeye tangu uumbaji wa dunia vinaonekana wazi, vinavyofikiriwa kwa vitu vilivyotengenezwa, hata nguvu yake ya milele na ubinadamu wake; hivyo hawana msamaha: Kwa maana, walipomjua Mungu, hawakumlifu kama Mungu, wala hawakushukuru; bali walitulia wasio na maana katika mawazo yao, na moyo wao wa upumbavu ulikuwa umechacha."
+      },
+      {
+        "location": "HTML, paragraph after Romans quotation",
+        "severity": "major",
+        "source_quote": "He believes in a Creator God but does not believe he has to serve Him In reality.",
+        "suggested_fix": "Tafsiri kwa maana ya kwamba anaamini Mungu Muumba, lakini kwa kweli haamini kwamba anapaswa kumtumikia. “In reality” hapa haimaanishi “kwa uzuri.”",
+        "translation_quote": "Anaamini katika Mungu Muumba lakini haamini kwamba lazima amtumikie Kwa uzuri."
+      },
+      {
+        "location": "HTML, garden example",
+        "severity": "major",
+        "source_quote": "He waters and fertilizes weeds and prunes.",
+        "suggested_fix": "Hifadhi matendo yaliyotajwa kwenye chanzo: anamwagilia, anaweka mbolea, anaondoa magugu na kupogoa mimea. “Weeds” ni magugu, si sehemu ya kupatia mbolea.",
+        "translation_quote": "Anamwagilia, anampatia mbolea, anatupa magugu na kukata."
+      },
+      {
+        "location": "HTML, garden example",
+        "severity": "major",
+        "source_quote": "One gave God the credit, and one credited himself. He will say he accomplished the same thing without God that his neighbor did with God.",
+        "suggested_fix": "Hakikisha kauli hizi zinaweka wazi tofauti ya kumpa Mungu sifa na kujipa sifa, na kwamba mtu huyo atasema amefanikisha jambo hilo bila Mungu, sawa na jirani yake aliyefanya akiwa na Mungu. Tumia “amekosea” badala ya “mkosefu” katika sentensi inayofuata.",
+        "translation_quote": "Mmoja alimpa Mungu sifa, mmoja akajipa sifa yake mwenyewe. Atasema alifanikiwa kufanya kitu hicho bila Mungu kama jirani yake alivyofanya kwa Mungu. Wakristo wanajua kwamba yeye ni mkosefu"
+      },
+      {
+        "location": "HTML, paragraph beginning “When something happens”",
+        "severity": "major",
+        "source_quote": "the Christian humanist prays and asks others to pray. However, he does not believe God will answer their prayers",
+        "suggested_fix": "Tafsiri “humanist” kwa istilahi iliyorekebishwa, na uhifadhi maana kwamba anaomba lakini haamini Mungu atajibu maombi yao. Badilisha “kimawimbi” kwa “kisicho cha kawaida/kiungu” kulingana na muktadha.",
+        "translation_quote": "mwanadamu-anayetukana Mkristo anaomba sala na kuomba wengine wasali. Hata hivyo, hapati imani kwamba Mungu atajibu sala zao"
+      },
+      {
+        "location": "HTML, Colossians quotation and following paragraph",
+        "severity": "major",
+        "source_quote": "all things were created by him, and for him",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili fasaha huku ukihifadhi rejeo Colossians 1:16 kama Wakolosai 1:16. Pia, badilisha “kitu cha kimawimbi” kuwa kitu cha kimiujiza/kisicho cha kawaida; neno lililotumika kwa sasa linamaanisha mawimbi.",
+        "translation_quote": "vitu vyote viliumbwa kwa yeye, na kwa ajili yake” (Wakolosai 1:16). … kitu cha kimawimbi"
+      },
+      {
+        "location": "HTML, paragraph beginning “When the neighbor sees”",
+        "severity": "major",
+        "source_quote": "forgiving someone who wronged him",
+        "suggested_fix": "Tafsiri “kumsamehe mtu aliyemkosea/kumdhulumu”; “kumwacha msamaha” haimaanishi kusamehe.",
+        "translation_quote": "kumwacha msamaha mtu aliyemdhulumu"
+      },
+      {
+        "location": "HTML, “What About Us?” paragraph",
+        "severity": "major",
+        "source_quote": "Because we have centered our lives around ourselves and our well-being, the God of heaven does not hear us.",
+        "suggested_fix": "Tafsiri kwa maana ya kwamba tumeweka sisi wenyewe na ustawi wetu katikati ya maisha, hivyo Mungu wa mbinguni hatutusikii. “Tumemwekea maisha yetu katikati yetu wenyewe” si fasaha na inapotosha.",
+        "translation_quote": "Kwa sababu tumemwekea maisha yetu katikati yetu wenyewe na ustawi wetu, Mungu wa mbinguni hasikii."
+      },
+      {
+        "location": "HTML, China minister anecdote",
+        "severity": "major",
+        "source_quote": "I am amazed at what all they have accomplished without God.",
+        "suggested_fix": "Hifadhi maana ya “nashangazwa na yote waliyofanikiwa kufanya bila Mungu”; usiweke “kile walichokifanya” ambacho kinaacha wazi wingi na mafanikio yaliyosisitizwa.",
+        "translation_quote": "Nashangazwa na kile walichokifanya bila Mungu."
+      },
+      {
+        "location": "HTML, paragraph beginning “The Christian denies himself”",
+        "severity": "major",
+        "source_quote": "The Christian thinks nothing of himself or the ability of man, confidently admitting that he is merely dust and back to that dust he will quickly go.",
+        "suggested_fix": "Tafsiri maana kwamba Mkristo hajivuni yeye mwenyewe wala uwezo wa mwanadamu, na anakiri kuwa ni mavumbi tu na atarudi mavumbini upesi. Usibadilishe “back to that dust” kuwa “harudi katika mavumbi.”",
+        "translation_quote": "Mkristo hahisi chochote kuhusu yeye mwenyewe au uwezo wa mwanadamu, akikiri kwa ujasiri kwamba yeye ni mavumbi tu na harudi katika mavumbi hayo haraka."
+      },
+      {
+        "location": "HTML, Christians as servants paragraph",
+        "severity": "major",
+        "source_quote": "They are hated by the world and despised by most, rejected. “If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+        "suggested_fix": "Tafsiri sentensi na nukuu ya Yohana 15:18 kwa Kiswahili fasaha na kwa maana sahihi. Kwa mfano, “Ikiwa ulimwengu unawachukia, jueni kwamba ulinichukia mimi kabla ya kuwachukia ninyi.” Hifadhi Yohana 15:18 na nafasi yake ndani ya nukuu.",
+        "translation_quote": "Wanachukiwa na dunia na wachukuliwa na wengi, wakataliwa. “Kama dunia inakuchukia, mnajua kuwa iliniondani kabla ilivyokuchukieni. (Yohana 15:18)”"
+      },
+      {
+        "location": "HTML, paragraph beginning “God is still looking”",
+        "severity": "major",
+        "source_quote": "who will put aside human reasoning and common sense and obey the voice from heaven",
+        "suggested_fix": "Tafsiri “atakayeweka kando mantiki ya kibinadamu na akili ya kawaida na kutii sauti kutoka mbinguni”; “at liquidate”/“atanuia” si maana ya kuweka kando.",
+        "translation_quote": "atakayenuia mantiki ya mwanadamu na mantiki ya kawaida na kutii sauti kutoka mbinguni."
+      },
+      {
+        "location": "HTML, section metadata",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Tumia Kiswahili sanifu, kama “TAFAKARI ZA MMISIONARI,” badala ya tafsiri isiyo sahihi “Mawazo ya Misionari.”",
+        "translation_quote": "Mawazo ya Misionari"
+      }
+    ],
+    "passed": false,
+    "score": 29
+  }
+}

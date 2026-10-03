@@ -2,10 +2,89 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "df4b49c7b6a0e83043f80f62dc3af5f254484d7e9a194f3670705cd8142f41a8",
   "base_metadata_sha256": "4f32f834cd746b9610e6f76bf3de1a5c6abfc1508227d58347007e9179327d99",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1031,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3072,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3069,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4103
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, eerste alinea",
+      "severity": "minor",
+      "source_quote": "the tantalizing cacophony of odors",
+      "suggested_fix": "Vervang door: “de verleidelijke kakofonie van geuren” (met het bijvoeglijk naamwoord in de juiste vorm).",
+      "translation_quote": "het verleidelijke kakofonie van geuren"
+    },
+    {
+      "location": "HTML, tweede alinea",
+      "severity": "major",
+      "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+      "suggested_fix": "Vertaal de ontmoeting idiomatisch, bijvoorbeeld: “Ik ontmoette bekende auteurs als Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox.”",
+      "translation_quote": "Ik raakte bekende auteurs als Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox."
+    },
+    {
+      "location": "HTML, derde alinea",
+      "severity": "major",
+      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+      "suggested_fix": "Vertaal het citaat naar het Nederlands en behoud de betekenis, bijvoorbeeld: “Mislukking is een leermeester, en wat denk je dat je aan het einde van je leven het ergst zult vinden: dat je hebt gefaald of dat je het nooit hebt geprobeerd?”",
+      "translation_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
+    },
+    {
+      "location": "HTML, derde alinea",
+      "severity": "major",
+      "source_quote": "Courageous writers step forward ... Yet, we need more such writers. We need young believers who bravely submit their first children’s stories. Seasoned grandfathers who bring words of admonishment ... Mothers who share experiences and trials ... Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus. Fathers who with a concerned eye watch the world pressing in on the Christian homes.",
+      "suggested_fix": "Herstel de oproep en vertaal de opgesomde groepen en hun handelingen nauwkeurig. Bijvoorbeeld: “Toch hebben we meer van zulke schrijvers nodig. We hebben jonge gelovigen nodig die moedig hun eerste kinderverhalen inzenden. Ervaren grootvaders die de jongere generatie vermanen. Moeders die ervaringen en beproevingen delen met andere moeders die midden in de opvoeding van kleine kinderen zitten. Jongeren die andere jongeren aansporen zich uit te strekken naar de prijs van de hoge roeping in Christus Jezus. Vaders die met bezorgde blik toezien hoe de wereld de christelijke gezinnen onder druk zet.”",
+      "translation_quote": "Toch hebben we meer van zulke schrijvers nodig. We hebben jonge gelovigen die moedig hun eerste kinderverhalen inzenden. Doorleefde grootvaders die woorden van vermaning brengen aan de jongere generatie. Moeders die ervaringen en beproevingen delen met andere moeders die in het hart van de opvoeding van kleintjes staan. Jongeren die medejongeren aansporen het doel van de voortreffelijke roeping in Christus Jezus na te streven. Vaders die met bezorgde blik toezien hoe de wereld druk uitoefent op christelijke gezinnen."
+    },
+    {
+      "location": "HTML, vierde alinea",
+      "severity": "major",
+      "source_quote": "The Berean Voice has a goal to provide printed material",
+      "suggested_fix": "Vervang “Het doel van The Berean Voice is drukwerk te leveren” door bijvoorbeeld: “The Berean Voice streeft ernaar drukwerk aan te bieden”.",
+      "translation_quote": "Het doel van The Berean Voice is drukwerk te leveren"
+    },
+    {
+      "location": "HTML, zesde alinea",
+      "severity": "major",
+      "source_quote": "we have received numerous requests from our readers to publish all the vaccine articles in a booklet, which we agreed to do.",
+      "suggested_fix": "Gebruik “vaccinartikelen” en herstel dat de redactie ermee instemde: “Sindsdien hebben we talloze verzoeken van lezers ontvangen om alle artikelen over vaccins in een boekje te publiceren, en daarmee hebben we ingestemd.”",
+      "translation_quote": "Sindsdien hebben we talloze verzoeken van onze lezers ontvangen om alle vaccinatartikelen in een boekje te publiceren, wat wij hebben toegezegd."
+    },
+    {
+      "location": "HTML, zesde alinea",
+      "severity": "major",
+      "source_quote": "We put the printing on hold",
+      "suggested_fix": "Vertaal als “We stelden het drukken uit” of “We zetten het drukken voorlopig stil”.",
+      "translation_quote": "We stelden de druk uit"
+    },
+    {
+      "location": "HTML, sectietitel",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Gebruik een Nederlandse sectietitel, bijvoorbeeld “Van de redactie”, met overeenkomstige hoofdlettergebruik.",
+      "translation_quote": "Van de REDACTIE"
+    }
+  ],
   "id": "cffd873dbc784b2e553c5383573e3176",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -94,11 +173,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

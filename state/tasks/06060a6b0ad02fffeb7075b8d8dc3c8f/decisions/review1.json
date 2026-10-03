@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph 3",
+      "severity": "major",
+      "source_quote": "Very well, then Jamin would be simple.",
+      "suggested_fix": "החליפו את ״טיפש״ בניסוח שמשמר את המשמעות של ״simple״ בהקשר, למשל: ״טוב, אם כך ג'יימין יהיה פשוט־דעת.״",
+      "translation_quote": "טוב, אם כך ג'יימין יהיה טיפש."
+    },
+    {
+      "location": "source.html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "the sun was growing old as he crossed the border of the woods.",
+      "suggested_fix": "אפשר לנסח: ״והשמש הלכה והזדקנה כשחצה את גבול היער״, או ״והשמש נטתה לשקוע״; התרגום הנוכחי משנה את הדימוי לשקיעה מפורשת.",
+      "translation_quote": "והשמש הלכה ושקעה כשחצה את גבול היער."
+    },
+    {
+      "location": "source.html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+      "suggested_fix": "תקנו את הפועל כך שיבטא שהווילונות כיסו/הסתירו את הענפים, למשל: ״וזחלי עש הסתיו כבר פעלו, ווילונות הקורים שלהם הסתירו את הענפים שמעליו.״",
+      "translation_quote": "זחלי העש הטווים קורים בסתיו כבר עשו את מלאכתם, ווילונות הקורים שלהם התנופפו מן הענפים שמעליו."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

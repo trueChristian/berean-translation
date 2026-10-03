@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "38e9c63a-86e1-4d62-8e8f-7245f1769f0e",
+    "response_id": "chatcmpl-EUxYrty1WMa41ty4l3oRmvE5H60J9",
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 423,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1626,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1623,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2401
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first stanza, final line",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Sostituisci con una resa italiana che conservi l’idea di «more is here», per esempio: «Rendete grazie e lodate, perché qui c’è ancora di più!»",
+        "translation_quote": "Rendete grazie e inni, per c'è di più qui!"
+      },
+      {
+        "location": "HTML, second stanza, second line",
+        "severity": "minor",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Sostituisci con «Esaltate e lodate il suo nome glorioso!»",
+        "translation_quote": "Esalta e loda il Suo nome degno!"
+      },
+      {
+        "location": "HTML, third stanza, third line",
+        "severity": "minor",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Rendi il senso di reverente timore, per esempio: «Prostratevi in santo e reverente timore;»",
+        "translation_quote": "Inchinatevi in tremendo, santo timore-"
+      },
+      {
+        "location": "HTML, third stanza, fifth line",
+        "severity": "minor",
+        "source_quote": "In wondrous beauty bend the knee;",
+        "suggested_fix": "Riformula in modo che la meravigliosa bellezza descriva la scena, non il modo di piegare il ginocchio: «Nella meravigliosa bellezza, piegate il ginocchio;»",
+        "translation_quote": "Con mirabile bellezza piegate il ginocchio;"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

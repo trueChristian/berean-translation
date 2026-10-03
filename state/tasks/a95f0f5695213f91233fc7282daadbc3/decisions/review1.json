@@ -1,0 +1,112 @@
+{
+  "findings": [
+    {
+      "location": "پہلا پیراگراف",
+      "severity": "minor",
+      "source_quote": "“Eight-year-old Jamin wasn’t very smart.”",
+      "suggested_fix": "“آٹھ سالہ جیمِن زیادہ ذہین نہیں تھا۔”",
+      "translation_quote": "آٹھ سالہ جیمِن بہت ہوشیار نہیں تھا۔"
+    },
+    {
+      "location": "دوسرا پیراگراف",
+      "severity": "major",
+      "source_quote": "“Would he always be clumsy?”",
+      "suggested_fix": "“کیا وہ ہمیشہ اناڑی رہے گا؟”",
+      "translation_quote": "“کیا وہ ہمیشہ بے پاؤں رہے گا؟”"
+    },
+    {
+      "location": "تیسرا پیراگراف",
+      "severity": "major",
+      "source_quote": "“Dad and Mom disliked Kenny’s proud talk and punished him whenever they walked in on one of his speeches.”",
+      "suggested_fix": "“پاپا اور ماما کو کینی کی شیخی بھری باتیں ناپسند تھیں اور جب بھی وہ اس کی تقریروں کے دوران آ جاتے تو اسے سزا دیتے۔”",
+      "translation_quote": "“پاپا اور ماما کو کینی کی غرور بھری باتیں ناپسند آتیں اور جب بھی وہ اس کے سخن سن لیتے تو اُسے سزا دیتے۔”"
+    },
+    {
+      "location": "چوتھا پیراگراف",
+      "severity": "major",
+      "source_quote": "“Grandma Otto watched these trials from her rocker on the porch.”",
+      "suggested_fix": "“دادی اوٹو برآمدے میں اپنی جھولنے والی کرسی پر بیٹھ کر یہ آزمائشیں دیکھتی رہتی تھیں۔”",
+      "translation_quote": "“دادی اوٹو ان آزمائشوں کو اپنے برِکر پر بیٹھ کر دیکھتی رہیں۔”"
+    },
+    {
+      "location": "ساتواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“His golden head caught the tired beams that fled from the sun as they flickered through the trees.”",
+      "suggested_fix": "“اس کے سنہرے بال سورج کی تھکی ماندی شعاعوں میں چمکتے تھے، جو درختوں کے بیچ جھلملاتی ہوئی آ رہی تھیں۔”",
+      "translation_quote": "“اُس کا سنہری سر اُن تھکے ہوئے شعاعوں کو پکڑتا جو درختوں کے بیچ جھلملاتے سورج سے بھاگ رہی تھیں۔”"
+    },
+    {
+      "location": "ساتواں پیراگراف",
+      "severity": "minor",
+      "source_quote": "“The fall webworms had been at work, and their web curtains shuttered from branches overhead.”",
+      "suggested_fix": "“خزاں کے ویب ورمز اپنا کام کر چکے تھے، اور ان کے جال اوپر شاخوں سے پردوں کی طرح لٹک رہے تھے۔”",
+      "translation_quote": "“فال ویب ورمز نے کام کیا تھا، اُن کے جال شاخوں سے اوپر پردے کی طرح جھول رہے تھے۔”"
+    },
+    {
+      "location": "نویں پیراگراف",
+      "severity": "major",
+      "source_quote": "“The heap’s face was lit in pain.”",
+      "suggested_fix": "“اس ڈھیر نما شخص کے چہرے پر درد جھلک رہا تھا۔”",
+      "translation_quote": "“اُس کے چہرے پر درد کی روشنی تھی۔”"
+    },
+    {
+      "location": "نویں پیراگراف",
+      "severity": "major",
+      "source_quote": "“Jamin felt strange, seeing Kenny scrunched in the dirt.”",
+      "suggested_fix": "“کینی کو مٹی میں سکڑا سمٹا دیکھ کر جیمِن کو عجیب لگا۔”",
+      "translation_quote": "“جیمِن کو عجیب سا محسوس ہوا کہ کینی مٹی میں دوُبھا ہوا ہے۔”"
+    },
+    {
+      "location": "گیارہواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“Kenny reeled free.”",
+      "suggested_fix": "“کینی لڑکھڑاتا ہوا آزاد ہوا۔”",
+      "translation_quote": "“کینی آزاد ہو کر جھٹکا۔”"
+    },
+    {
+      "location": "بارہواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“If you support me, I can hobble along.”",
+      "suggested_fix": "“اگر تم مجھے سہارا دو تو میں لنگڑاتا ہوا چل سکتا ہوں۔”",
+      "translation_quote": "“اگر تم میری حمایت کرو تو میں ٹٹول کر چل سکتا ہوں۔”"
+    },
+    {
+      "location": "چودھواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“The screen door banged shut as Dad swept across the porch.”",
+      "suggested_fix": "“جب پاپا تیزی سے برآمدے سے گزرے تو جالی والا دروازہ زور سے بند ہوا۔”",
+      "translation_quote": "“اور جب باپ نے برِکر عبور کیا تو اسکرین دروازہ زور سے بند ہو گیا۔”"
+    },
+    {
+      "location": "چودھواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“Jamin went to the wash house and scrubbed his hands.”",
+      "suggested_fix": "“جیمِن دھلائی والے کمرے میں گیا اور اپنے ہاتھ اچھی طرح دھوئے۔”",
+      "translation_quote": "“جیمِن واش ہاؤس گیا اور اپنے ہاتھ رگڑے۔”"
+    },
+    {
+      "location": "دادی کے ساتھ مکالمہ",
+      "severity": "major",
+      "source_quote": "“Jamin squirmed.”",
+      "suggested_fix": "“جیمِن بے چینی سے پہلو بدلنے لگا۔”",
+      "translation_quote": "“جیمِن شرمندگی محسوس کرتے ہوئے ہلانے لگا۔”"
+    },
+    {
+      "location": "دادی کے ساتھ مکالمہ",
+      "severity": "major",
+      "source_quote": "“Grandma Otto rocked some more, then smiled.”",
+      "suggested_fix": "“دادی اوٹو نے کچھ دیر اور جھولا لیا، پھر مسکرائیں۔”",
+      "translation_quote": "“دادی اوٹو نے مزید جھٹکے میں کرسی ہلائی، پھر مسکرائیں۔”"
+    },
+    {
+      "location": "عنوان",
+      "severity": "minor",
+      "source_quote": "“Jamin Smartens Up”",
+      "suggested_fix": "“جیمِن کو اپنی خوبیوں کا احساس”",
+      "translation_quote": "“جیمِن ہوشیار ہوتا ہے”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

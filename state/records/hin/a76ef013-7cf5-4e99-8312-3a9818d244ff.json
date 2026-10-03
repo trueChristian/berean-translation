@@ -30,6 +30,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "d022b573f924f26dc222ae53055f9d62"
+    },
+    {
+      "at": "2026-10-03T18:43:07+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "d022b573f924f26dc222ae53055f9d62"
     }
   ],
   "language": "hin",
@@ -44,12 +50,12 @@
     "metadata_sha256": "c71a902648c2eded6e9bf4c53efea665b4198d37788bad48adbae3ab7a6eefce",
     "model": "gpt-5-mini-2025-08-07",
     "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"hi\" dir=\"ltr\" role=\"note\">\n  <p>इस लेख का अनुवाद OpenAI (मॉडल: gpt-5-mini-2025-08-07) द्वारा कृत्रिम बुद्धिमत्ता से किया गया है और अभी इसकी मानवीय समीक्षा नहीं हुई है। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है। अर्थ के बारे में संदेह होने पर कृपया अंग्रेज़ी मूल पाठ देखें। <a href=\"/en/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff/\" data-source-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\" hreflang=\"en\">अंग्रेज़ी मूल पाठ</a></p>\n</aside>",
-    "published_at": "2026-10-02T10:00:49+00:00",
-    "quality_score": 100,
-    "review_model": "gpt-5-mini-2025-08-07",
-    "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
-    "source_snapshot": "state/sources/374829da19aeb25c23474e53de9000b94d88c83b52e5f5d4f0166cf323f185ff.json",
-    "task": "57b5774cef804f8e8ac27718a40fc2ba",
+    "published_at": "2026-10-03T18:43:07+00:00",
+    "quality_score": 96,
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
+    "task": "d022b573f924f26dc222ae53055f9d62",
     "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3fc63f68-8bf3-4bd6-8361-97e69c54ca11",
+    "response_id": "chatcmpl-EUxZjbuJlcMVFTpkNVNvFNnbAOaOM",
+    "usage": {
+      "completion_tokens": 172,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4241,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4238,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4413
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Sometimes this type of overload…”",
+        "severity": "major",
+        "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+        "suggested_fix": "Replace רק the phrase ״בקהילות שלנו, הדוגלות באורח חיים פשוט״ with wording that conveys “in our plain circles,” for example: ״בחוגים שלנו, החיים בפשטות״. The source does not say the communities advocate a simple lifestyle.",
+        "translation_quote": "אירועים טראומטיים בקהילות שלנו, הדוגלות באורח חיים פשוט, זוכים בדרך כלל לתפילות, לסיוע כספי ולעדכונים שבועיים על התקציב."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “It is a mystery to me…”",
+      "severity": "major",
+      "source_quote": "“the frustration of an unplanned trip to the dentist at an inopportune time”",
+      "suggested_fix": "Replace “התסכול מנסיעת חירום ללא תכנון לרופא שיניים בזמן לא מתאים” with “התסכול מנסיעה לא מתוכננת לרופא השיניים בזמן לא מתאים” כדי לא להוסיף שמדובר בנסיעת חירום.",
+      "translation_quote": "“התסכול מנסיעת חירום ללא תכנון לרופא שיניים בזמן לא מתאים”"
+    },
+    {
+      "location": "HTML, paragraph beginning “It is a mystery to me…”",
+      "severity": "major",
+      "source_quote": "“If it is not a dental emergency”",
+      "suggested_fix": "Replace “אם זה לא חירום שיניי” with “אם לא מדובר במקרה חירום דנטלי” או “אם זה לא מקרה חירום שקשור לשיניים”.",
+      "translation_quote": "“אם זה לא חירום שיניי”"
+    },
+    {
+      "location": "HTML, paragraph beginning “For example…”",
+      "severity": "minor",
+      "source_quote": "“a bee sting and a stubbed toe”",
+      "suggested_fix": "Replace “עקיצת דבורה ולחבטת בהונות” with “עקיצת דבורה וחבלה בבוהן” כדי לנסח בעברית טבעית וברורה את שתי התקלות המתוכננות.",
+      "translation_quote": "“עקיצת דבורה ולחבטת בהונות”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Deadlines are a normal part of life.”",
+      "severity": "minor",
+      "source_quote": "“Without them we would be unmotivated”",
+      "suggested_fix": "Replace “בלעדיהם נרגיש לא מוטיבציות” with “בלעדיהם חסרה לנו המוטיבציה”.",
+      "translation_quote": "“בלעדיהם נרגיש לא מוטיבציות”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Why not schedule window washing…”",
+      "severity": "minor",
+      "source_quote": "“That might mean some fingerprints on the windows and a simpler dessert”",
+      "suggested_fix": "Replace “זה עשוי להישאר עם טביעות אצבעות על החלונות וקינוח פשוט יותר” with “המשמעות עשויה להיות טביעות אצבעות על החלונות וקינוח פשוט יותר”.",
+      "translation_quote": "“זה עשוי להישאר עם טביעות אצבעות על החלונות וקינוח פשוט יותר”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Sometimes the enormity of a task…”",
+      "severity": "major",
+      "source_quote": "“Sometimes the enormity of a task makes it seem too huge to start.”",
+      "suggested_fix": "Replace “לפעמים עצמתה של משימה גורמת לה להיראות עצומה מדי להתחיל בה” with “לפעמים היקפה של משימה גורם לה להיראות גדולה מכדי להתחיל בה”.",
+      "translation_quote": "“לפעמים עצמתה של משימה גורמת לה להיראות עצומה מדי להתחיל בה”"
+    },
+    {
+      "location": "HTML, paragraphs beginning “Sometimes the enormity…” and “But if my planner says…”",
+      "severity": "minor",
+      "source_quote": "“If my planner says…” / “if my planner says…”",
+      "suggested_fix": "In both places, replace “המתכננת שלי” with “היומן שלי” or “המתכנן שלי” לפי הכוונה, כדי שהמילה תציין כלי לתכנון ולא אישה שמתכננת.",
+      "translation_quote": "“המתכננת שלי אומרת”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

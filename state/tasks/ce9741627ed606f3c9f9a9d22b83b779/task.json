@@ -2,10 +2,68 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "6a8521e91e2f10d9efc433fec319a9778da0897203a316ea3312b11ea94bfe15",
   "base_metadata_sha256": "2877492aae16327edf4ddf9eb5d6fb56f6cc8a3645b4b52a1095a47996e1b65e",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 767,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3138,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3135,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3905
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+      "suggested_fix": "Oversett sitatet til bokmål, for eksempel: «Nederlag er en læremester, og når livet går mot slutten, hva tror du at du vil angre mest på – å ha mislyktes eller aldri å ha prøvd?»",
+      "translation_quote": "Nelson Mandela, tidligere president i Sør-Afrika, skrev: «Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?»"
+    },
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+      "suggested_fix": "Bytt ut med «Ungdom som oppmuntrer andre ungdommer til å strekke seg mot målet og prisen som følger med det høye kallet i Kristus Jesus.»",
+      "translation_quote": "Ungdom som oppmuntrer medungdom til å presse seg mot målet om å motta prisen for det høye kall i Kristus Jesus."
+    },
+    {
+      "location": "HTML, paragraph 5, book-list",
+      "severity": "major",
+      "source_quote": "The Power of the Love of Truth<br>\n  Christian Counseling- Counterfeit?<br>\n  The Heart of God<br>\n  Free Indeed!<br>\n  Pilgrims and Politics<br>\n  Cup &amp; Cross<br>\n  The High Cost of Holistic Healing<br>\n  Secrets of Successful Writing<br>\n  The Catholic Connection<br>\n  Psychiatry and Mood altering Medications<br>\n  The Mennonite Church and Modernism",
+      "suggested_fix": "Oversett boktitlene til bokmål og behold den eksisterende rekkefølgen og <br>-taggene, for eksempel «Sannhetskjærlighetens kraft», «Kristen sjelesorg – forfalskning?», «Guds hjerte», «Virkelig fri!», «Pilegrimer og politikk», «Kalk og kors», «Den høye prisen for holistisk helbredelse», «Hemmelighetene bak vellykket skriving», «Den katolske forbindelsen», «Psykiatri og humørendrende medisiner» og «Mennonittkirken og modernismen».",
+      "translation_quote": "The Power of the Love of Truth<br>Christian Counseling- Counterfeit?<br>The Heart of God<br>Free Indeed!<br>Pilgrims and Politics<br>Cup &amp; Cross<br>The High Cost of Holistic Healing<br>Secrets of Successful Writing<br>The Catholic Connection<br>Psychiatry and Mood altering Medications<br>The Mennonite Church and Modernism"
+    },
+    {
+      "location": "HTML, paragraph 6",
+      "severity": "minor",
+      "source_quote": "with an unbiased approach",
+      "suggested_fix": "Bytt ut «ubiasert tilnærming» med «upartisk tilnærming».",
+      "translation_quote": "med en ubiasert tilnærming"
+    },
+    {
+      "location": "HTML, image alt text",
+      "severity": "minor",
+      "source_quote": "Pink and white crown vetch flowers in a green meadow",
+      "suggested_fix": "Bruk for eksempel «Rosa og hvite blomster av kransvikke i en grønn eng».",
+      "translation_quote": "Rosa og hvite kransvicker-blomster i en grønn eng"
+    }
+  ],
   "id": "ce9741627ed606f3c9f9a9d22b83b779",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nob",
@@ -94,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

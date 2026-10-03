@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 1",
+      "severity": "minor",
+      "source_quote": "many homemakers deal with regularly",
+      "suggested_fix": "Replace «hemmavarande» with «personer som sköter hemmet» to convey the meaning of homemakers more clearly.",
+      "translation_quote": "många hemmavarande möter regelbundet"
+    },
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "minor",
+      "source_quote": "a stubbed toe",
+      "suggested_fix": "Replace «en stukad tå» with «en tå som slagit i något» or «en stubbad tå»; the source describes stubbing a toe, not spraining it.",
+      "translation_quote": "en stukad tå"
+    },
+    {
+      "location": "HTML, paragraph 4",
+      "severity": "minor",
+      "source_quote": "If it is not a dental emergency",
+      "suggested_fix": "Replace «ett tandläkarakutfall» with «ett akut tandproblem» for natural Swedish and the intended meaning.",
+      "translation_quote": "ett tandläkarakutfall"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Use a natural Swedish title such as «Överbelastad av uppskjutande».",
+      "translation_quote": "Prokrastinering överbelastning"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate the section label as «SYSTER TILL SYSTER».",
+      "translation_quote": "SISTER TO SISTER"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

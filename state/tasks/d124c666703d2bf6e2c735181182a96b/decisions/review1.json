@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, final paragraph of Grandma Otto’s speech",
+      "severity": "major",
+      "source_quote": "“God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason.”",
+      "suggested_fix": "“上帝造你成为现在的样子自有祂的理由，Jamin。祂造 Kenny 成为现在的样子也自有祂的理由。”",
+      "translation_quote": "“上帝按着祂的旨意造就了你的样子，Jamin。祂按着祂的旨意造就了 Kenny 的样子。”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Jamin went to the wash house”",
+      "severity": "minor",
+      "source_quote": "“Jamin went to the wash house and scrubbed his hands.”",
+      "suggested_fix": "将“洗手房”改为“洗涤间”或符合上下文的其他译法，例如：“Jamin 去洗涤间把手洗干净。”",
+      "translation_quote": "“Jamin 到洗手房洗了手。”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Jamin.” It was Grandma",
+      "severity": "minor",
+      "source_quote": "“A heavy comforter lay on her shoulders.”",
+      "suggested_fix": "将“安慰被”改为“厚厚的被子”或“厚厚的棉被”，例如：“她肩上披着一床厚厚的被子。”",
+      "translation_quote": "“一床厚厚的安慰被披在她肩上。”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Avsnittet under «Tro at Gud bryr seg»\",\"severity\":\"major\",\"source_quote\":\"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\",\"suggested_fix\":\"Oversett sitatet til norsk bokmål, for eksempel: «Gråt kan vare natten over, men glede kommer om morgenen» (Salme 30:5).\",\"translation_quote\":\"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\"},{\"location\":\"Siste avsnitt\",\"severity\":\"major\",\"source_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\"suggested_fix\":\"Oversett sitatet til norsk bokmål, for eksempel: «Til deg, Herre, setter jeg min lit; la meg aldri bli til skamme» (Salme 71:1).\",\"translation_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\"},{\"location\":\"Avsnittet om traumatiske hendelser\",\"severity\":\"major\",\"source_quote\":\"Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.\",\"suggested_fix\":\"Bytt «våre nære kretser» med en formulering som bevarer betydningen av «plain circles», for eksempel «våre plain-menigheter», dersom det er den religiøse gruppen artikkelen sikter til.\",\"translation_quote\":\"Traumatiske hendelser i våre nære kretser får ofte bønn, økonomisk støtte og ukentlige budsjettoppdateringer.\"},{\"location\":\"Første avsnitt\",\"severity\":\"minor\",\"source_quote\":\"if a child breaks a leg\",\"suggested_fix\":\"Rett skrivefeilen «brukker» til «brekker».\",\"translation_quote\":\"hvis et barn brukker beinet\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 1617,
+    "content_evidence_truncated": false,
+    "content_sha256": "64577bee9f61e561372c17fdbad1e6f98a5d041493945091de6fde7cc1eb32a8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 660,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 213,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4099,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4096,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4759
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

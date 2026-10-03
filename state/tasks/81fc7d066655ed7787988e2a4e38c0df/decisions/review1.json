@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, avsnittet som begynner «On board the ship, Newton picked up…»",
+      "severity": "major",
+      "source_quote": "The storm awakened Newton, the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.",
+      "suggested_fix": "Bevar årsaksforholdet og meningen, for eksempel: «Stormen vekket Newton; bølgene hadde brutt opp skipets råtne bord, og flomvann virvlet inn i lugaren hans.»",
+      "translation_quote": "Stormen vekket Newton; bølgene hadde knust skipets råtne treverk, og vann strømmet virvlende inn i lugaren hans."
+    },
+    {
+      "location": "source.html, avsnittet som begynner «The last words of John Newton…»",
+      "severity": "major",
+      "source_quote": "“I am still in the land of the dying; I shall be in the land of the living soon.”",
+      "suggested_fix": "Oversett det faste uttrykket «the land of the dying» uten å endre det til et annet begrep, for eksempel: «Jeg er fremdeles i de døendes land; snart skal jeg være i de levendes land.»",
+      "translation_quote": "«Jeg er fremdeles i de døendes land; snart skal jeg være i de levendes land.»"
+    },
+    {
+      "location": "source.html, siste avsnitt, omtalen av «Glorious Things of Thee are Spoken»",
+      "severity": "major",
+      "source_quote": "“Glorious Things of Thee are Spoken”",
+      "suggested_fix": "Oversett tittelen til norsk og bevar meningen «det tales herlige ting om deg», for eksempel: «Det tales herlige ting om deg».",
+      "translation_quote": "«Herlighet tales om deg»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

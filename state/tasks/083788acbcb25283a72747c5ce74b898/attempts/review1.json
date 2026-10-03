@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, ابتدائی پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“...turn him into a blood-washed saint and preacher of the gospel!”\",\"suggested_fix\":\"«اسے خون سے دھلا ہوا مقدس اور انجیل کا واعظ بنا دے!» استعمال کریں۔\",\"translation_quote\":\"اسے خون سے دھلے ہوئے عابد اور بشارت کا واعظ بنا دے!\"},{\"location\":\"HTML، جان کی عمر 17 برس ہونے والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“for a well-paying job overseeing a plantation”\",\"suggested_fix\":\"«ایک باغات کی نگرانی کی اچھی تنخواہ والی ملازمت کے لیے» لکھیں۔\",\"translation_quote\":\"ایک اچھی ملازمت کے لیے بھیجنے کا انتظام کیا تاکہ وہ ایک پلانٹیشن کی نگرانی کریں۔\"},{\"location\":\"HTML، طوفان اور نیوٹن کی دعا والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin”\",\"suggested_fix\":\"«جہاز کی بوسیدہ لکڑیاں لہروں سے ٹوٹ رہی تھیں اور سیلابی پانی اس کے کیبن میں گھس رہا تھا» لکھیں۔\",\"translation_quote\":\"جہاز کے سڑے ہوئے لرکیاں لہروں سے ٹوٹ گئی اور سیلابی پانی اس کے کیبن میں گھومنے لگا۔\"},{\"location\":\"HTML، جہاز کے کپتان پر نیوٹن کے فرائض والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“he was tied to the helm”\",\"suggested_fix\":\"«اسے جہاز کے سکان پر باندھ دیا گیا» لکھیں۔\",\"translation_quote\":\"اسے ہتھکنڈے کے ساتھ اسٹیرنگ پر باندھ دیا گیا\"},{\"location\":\"HTML، نیوٹن کے مطالعے اور عبادت والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“reading and meditating on the Scriptures”\",\"suggested_fix\":\"«کلامِ مقدس کے مطالعے اور اُس پر غور و فکر» لکھیں۔\",\"translation_quote\":\"کلامِ مقدس کے مطالعہ اور غور و فلسفہ\"},{\"location\":\"HTML، نیوٹن اور میری کی شادی والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“Mary and her parents recognized the change the Lord had brought in John.”\",\"suggested_fix\":\"«میری اور اس کے والدین نے وہ تبدیلی پہچان لی جو خداوند جان میں لایا تھا» لکھیں۔\",\"translation_quote\":\"میری اور اس کے والدین نے جان میں لائے گئے تبدیلی کو پہچانا۔\"},{\"location\":\"HTML، جان اور میری کے خطوط کا اقتباس\",\"severity\":\"major\",\"source_quote\":\"“When I indulge myself with a particular thought of you, it usually carries me on farther”\",\"suggested_fix\":\"«جب میں خاص طور پر تمہارے بارے میں سوچنے میں محو ہوتا ہوں، تو عموماً یہ خیال مجھے مزید آگے لے جاتا ہے» لکھیں۔\",\"translation_quote\":\"جب میں تمہاری بارے میں خاص طور پر سوچنے کی زحمت کرتا ہوں تو یہ مجھے آگے لے جاتا ہے\"},{\"location\":\"HTML، اولنی ہمنز اور 1 تواریخ والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“grew out of David’s exclamation in 1 Chronicles 17:16-17”\",\"suggested_fix\":\"«داؤد کے اظہارِ حیرت سے ماخوذ ہے» لکھیں، اور حوالہ 1 تواریخ 17:16-17 جوں کا توں رکھیں۔\",\"translation_quote\":\"داؤد کے اندازے سے اُبھری\"},{\"location\":\"HTML، غلاموں کی تجارت کے خلاف نیوٹن کی کتاب والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”\",\"suggested_fix\":\"«سیاہ فام غلاموں کو پکڑنا، بیچنا اور ویسٹ انڈیز اور امریکہ کے باغات تک لے جانا ایک ظالمانہ اور سنگ دلانہ طرزِ عمل تھا۔» لکھیں۔\",\"translation_quote\":\"سیاہ فام غلاموں کا پکڑا جانا، فروخت کیا جانا اور مغربی انڈیز اور امریکہ کے کھیتوں تک منتقل کیا جانا ایک ظالمانہ اور بدطینت طرزِ زندگی تھا۔\"},{\"location\":\"HTML، آخری الفاظ والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“I am still in the land of the dying; I shall be in the land of the living soon.”\",\"suggested_fix\":\"«میں ابھی مرنے والوں کی سرزمین میں ہوں؛ جلد ہی زندہ لوگوں کی سرزمین میں ہوں گا» لکھیں۔\",\"translation_quote\":\"میں ابھی مرنے والوں کی زمین میں ہوں؛ میں جلد ہی زندگان کی زمین میں ہوں گا۔\"}],\"passed\":false,\"score\":73}",
+    "content_bytes": 5097,
+    "content_evidence_truncated": false,
+    "content_sha256": "4dd463c8833b093ea817f8dbeda4b171631fc1bc85b31f2b3efa970e4fda4b22",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1066,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7256,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8325
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

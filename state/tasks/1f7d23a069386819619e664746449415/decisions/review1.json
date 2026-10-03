@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "본문 7번째 문단: 릭의 선출 및 직무",
+      "severity": "major",
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+      "suggested_fix": "“그때 그는 불가리아에 잠시 가 있는 한 형제를 대신해 남은 네 달 동안 서기 업무를 맡도록 선출되었습니다.”",
+      "translation_quote": "“그때 그는 불가리아에 잠시 간 형제의 사무직 마지막 네 달을 채우기 위해 선출되었습니다.”"
+    },
+    {
+      "location": "본문 13번째 문단: ‘plain circles’ 표현",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "“우리 평원 공동체에서 일어나는 외상 사건은 기도와 재정 지원, 주간 예산 상황을 알리는 업데이트를 받는 경향이 있습니다.”",
+      "translation_quote": "“우리의 평범한 범주에서 발생한 외상 사건은 기도, 재정적 도움, 주간 예산 업데이트를 받는 경향이 있습니다.”"
+    },
+    {
+      "location": "본문 20번째 문단: 시편 30:5 인용문",
+      "severity": "critical",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "“울음은 밤 동안 계속될지라도, 기쁨은 아침에 오리라” (시편 30:5).",
+      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)"
+    },
+    {
+      "location": "본문 마지막 문단: 시편 71:1 인용문",
+      "severity": "critical",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "“여호와여, 내가 주께 피하오니 내가 결코 수치를 당하지 않게 하소서” (시편 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)"
+    },
+    {
+      "location": "제목",
+      "severity": "minor",
+      "source_quote": "Circumstantial Overload",
+      "suggested_fix": "“상황적 과부하”",
+      "translation_quote": "상황적 과부하"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

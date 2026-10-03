@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 2\",\"severity\":\"major\",\"source_quote\":\"I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.\",\"suggested_fix\":\"Я познакомился с известными авторами, такими как Katrina Hoover Lee, Johnny Miller и Ruthann Stelfox.\",\"translation_quote\":\"Я обменивался рукопожатиями с известными авторами, такими как Katrina Hoover Lee, Johnny Miller и Ruthann Stelfox.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 569,
+    "content_evidence_truncated": false,
+    "content_sha256": "440ec1b5eefc3df266e3bde0df078cf31138bb4efe5c387e05ed676688e206e6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 793,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 660,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3155,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3152,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3948
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

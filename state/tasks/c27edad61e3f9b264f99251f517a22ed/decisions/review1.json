@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "로마서 인용문",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven ... have pleasure in them that do them” (Romans 1:18-32).",
+      "suggested_fix": "인용문 전체를 권위 있는 영어 원문의 의미에 충실하게 한국어로 번역하고, 인용 뒤의 참조는 같은 범위로 유지해 “(로마서 1:18-32)”로 표기하세요.",
+      "translation_quote": "“For the wrath of God is revealed from heaven ... have pleasure in them that do them” (Romans 1:18-32)."
+    },
+    {
+      "location": "골로새서 인용문",
+      "severity": "major",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible ... all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "인용문을 영어로 남기지 말고 원문의 의미를 충실히 담아 한국어로 번역하고, 참조는 “(골로새서 1:16)”으로 표기하세요.",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+    },
+    {
+      "location": "요한복음 인용문",
+      "severity": "major",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "인용문을 원문의 의미에 충실하게 한국어로 번역하고 참조를 “(요한복음 15:18)”로 표기하세요.",
+      "translation_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”"
+    },
+    {
+      "location": "온실에서 형제가 한 말",
+      "severity": "minor",
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "‘어떤 이는 심고, 어떤 이는 물을 주지만, 자라게 하시는 분은 하나님이십니다.’처럼 ‘심다’와 ‘물을 주다’의 의미를 살려 다듬으세요.",
+      "translation_quote": "“어떤 것은 씨앗이고, 어떤 것은 물이지만, 증가를 주시는 분은 하나님이십니다.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, second stanza, third line",
+      "severity": "major",
+      "source_quote": "He shineth from the heav’ns in love,",
+      "suggested_fix": "তিনি প্রেমে স্বর্গ থেকে জ্যোতি ছড়ান,",
+      "translation_quote": "তিনি প্রেমে আকাশ থেকে উদিত হচ্ছেন,"
+    },
+    {
+      "location": "source.html, poem, third stanza, third line",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "ভক্তিভরে, পবিত্র শ্রদ্ধামিশ্রিত ভয়ে নত হও—",
+      "translation_quote": "ভয়ানক, পবিত্র ভয়ে নমো—"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Titre",
+      "severity": "minor",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Remplacer par « La procrastination à outrance » ou une formulation française équivalente qui conserve l’idée d’une procrastination envahissante.",
+      "translation_quote": "Procrastination excessive"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

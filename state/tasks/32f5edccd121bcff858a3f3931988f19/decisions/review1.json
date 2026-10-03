@@ -1,0 +1,119 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 1",
+      "severity": "minor",
+      "source_quote": "“Almost daily, brother Kenny found ways to remind Jamin of his shortcomings”",
+      "suggested_fix": "Replace «του έλεγε συχνά» with «του έλεγε» or «του έλεγε σχεδόν καθημερινά», so the sentence retains “almost daily” without changing the meaning to merely “often.”",
+      "translation_quote": "«Ή τουλάχιστον αυτό του έλεγε συχνά ο μεγαλύτερος αδελφός του.»"
+    },
+    {
+      "location": "Article, paragraph 3",
+      "severity": "major",
+      "source_quote": "“But Kenny had a way of avoiding earshot.”",
+      "suggested_fix": "Replace «είχε τρόπο να αποφεύγει τα αυτιά» with «φρόντιζε όμως να μη βρίσκονται οι γονείς σε απόσταση που να τον ακούν» or another natural rendering that makes clear Kenny avoided being overheard.",
+      "translation_quote": "«Αλλά ο Κέννι είχε τρόπο να αποφεύγει τα αυτιά.»"
+    },
+    {
+      "location": "Article, paragraph 5",
+      "severity": "major",
+      "source_quote": "“It’s almost supper time.”",
+      "suggested_fix": "Replace «Περίπου ώρα του φαγητού είναι» with «Σχεδόν ήρθε η ώρα για δείπνο» or «Πλησιάζει η ώρα του φαγητού».",
+      "translation_quote": "«Περίπου ώρα του φαγητού είναι.»"
+    },
+    {
+      "location": "Article, paragraph 7",
+      "severity": "major",
+      "source_quote": "“Eventually, the trail would end up in a meadow, but Jamin hoped he would find Kenny before he had to go that far.”",
+      "suggested_fix": "Correct the tense and mood to convey that Jamin hoped to find Kenny before having to go that far, for example: «Τελικά, το μονοπάτι θα κατέληγε σε ένα λιβάδι, αλλά ο Τζάμιν ήλπιζε να βρει τον Κέννι προτού χρειαστεί να φτάσει ως εκεί.»",
+      "translation_quote": "«Τελικά, το μονοπάτι θα κατέληγε σε ένα λιβάδι, αλλά ο Τζάμιν ελπίζε ότι θα βρει τον Κέννι πριν χρειαστεί να φτάσει τόσο μακριά.»"
+    },
+    {
+      "location": "Article, paragraph 7",
+      "severity": "major",
+      "source_quote": "“The fall webworms had been at work, and their web curtains shuttered from branches overhead.”",
+      "suggested_fix": "Replace «οι μακριές τους ιστοί κρέμονταν από τα κλαδιά πάνω» with a natural rendering that preserves the image of the caterpillars’ web-like curtains hanging from the overhead branches, e.g. «οι ιστοί τους σχημάτιζαν παραπετάσματα από τα κλαδιά πάνω από το κεφάλι του».",
+      "translation_quote": "«Οι κάμπιες του φθινοπώρου είχαν δουλέψει, και οι μακριές τους ιστοί κρέμονταν από τα κλαδιά πάνω.»"
+    },
+    {
+      "location": "Article, paragraph 9",
+      "severity": "major",
+      "source_quote": "“Did you step in a trap?”",
+      "suggested_fix": "Replace «Πέταξες πάνω σε παγίδα;» with «Πάτησες σε παγίδα;» or «Έπεσες σε παγίδα;».",
+      "translation_quote": "«Πέταξες πάνω σε παγίδα;»"
+    },
+    {
+      "location": "Article, paragraph 11",
+      "severity": "major",
+      "source_quote": "“Jamin bent and found an ankle firmly held in the jaws of a steel trap. Darkness stained the ground around Kenny.”",
+      "suggested_fix": "Use past tense («έσκυψε και βρήκε») and render the second sentence as a dark stain on the ground, for example «Γύρω από τον Κέννι, μια σκοτεινή κηλίδα είχε απλωθεί στο χώμα.»",
+      "translation_quote": "«Ο Τζάμιν σκύβει και βρήκε έναν αστράγαλο σφιχτά πιασμένο στα σαγόνια μιας μεταλλικής παγίδας. Το σκοτάδι είχε λεκιαστεί στο χώμα γύρω από τον Κέννι.»"
+    },
+    {
+      "location": "Article, paragraph 13",
+      "severity": "major",
+      "source_quote": "“We’ve missed supper.”",
+      "suggested_fix": "Replace «Έχουμε χάσει το δείπνο» with «Χάσαμε την ώρα του δείπνου» or «Έχει περάσει η ώρα του δείπνου».",
+      "translation_quote": "«Έχουμε χάσει το δείπνο.»"
+    },
+    {
+      "location": "Article, paragraph 14",
+      "severity": "major",
+      "source_quote": "“He was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.”",
+      "suggested_fix": "Make clear that the father quickly came alongside them, saw the injured ankle, and lifted Kenny like an injured sheep; for example: «Σε μια στιγμή ήταν δίπλα τους. Είδε τον τραυματισμένο αστράγαλο και σήκωσε τον Κέννι σαν πληγωμένο πρόβατο.»",
+      "translation_quote": "«Ο Τζάμιν ανταπάντησε και σε μια στιγμή ήταν στο πλευρό τους, βλέποντας τον αστράγαλο και σηκώνοντας τον Κέννι σαν τραυματισμένο πρόβατο.»"
+    },
+    {
+      "location": "Article, paragraph 14",
+      "severity": "major",
+      "source_quote": "“The odd little band hurried home”",
+      "suggested_fix": "Replace «βιάστηκε σπίτι» with «βιάστηκε να γυρίσει σπίτι» or «έσπευσε στο σπίτι», so the group is described as hurrying home.",
+      "translation_quote": "«Η παράξενη αυτή μικρή ομάδα βιάστηκε σπίτι»"
+    },
+    {
+      "location": "Article, paragraph 14",
+      "severity": "major",
+      "source_quote": "“Jamin went to the wash house and scrubbed his hands. He headed for the front door.”",
+      "suggested_fix": "Retain the washing/scrubbing action with «έτριψε τα χέρια του» rather than merely «έπλυνε», and convey that he headed for the front door, not that he was already at it: «Κατευθύνθηκε προς την εξώπορτα.»",
+      "translation_quote": "«Ο Τζάμιν πήγε στο πλυσταριό και έπλυνε τα χέρια του. Κατευθύνθηκε προς την εξώπορτα.»"
+    },
+    {
+      "location": "Article, paragraph 19",
+      "severity": "major",
+      "source_quote": "“Jamin squirmed.”",
+      "suggested_fix": "Replace «στριφογύρισε» with «ένιωσε άβολα» or «σάλεψε αμήχανα», to convey his discomfort at Kenny’s claim.",
+      "translation_quote": "«Ο Τζάμιν στριφογύρισε.»"
+    },
+    {
+      "location": "Article, paragraph 20",
+      "severity": "major",
+      "source_quote": "“He made Kenny the way he is for a reason.”",
+      "suggested_fix": "Use «Έκανε τον Κέννι όπως είναι για κάποιο λόγο» or «Έπλασε τον Κέννι όπως είναι για κάποιο λόγο», maintaining the source’s assertion without changing its tense.",
+      "translation_quote": "«Έκανε τον Κέννι όπως είναι για κάποιο λόγο.»"
+    },
+    {
+      "location": "Article, paragraph 21",
+      "severity": "minor",
+      "source_quote": "“Jamin turned and walked into the warm kitchen.”",
+      "suggested_fix": "Replace «μπήκε στην ζεστή κουζίνα» with the idiomatic «μπήκε στη ζεστή κουζίνα».",
+      "translation_quote": "«Ο Τζάμιν γύρισε και μπήκε στην ζεστή κουζίνα.»"
+    },
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "“A narrow path winding through a leafy woodland”",
+      "suggested_fix": "Use a natural Greek description, e.g. «Ένα στενό μονοπάτι που ελίσσεται μέσα σε ένα καταπράσινο δάσος».",
+      "translation_quote": "«Μονοπάτι στενό που στρίβει μέσα από φυλλώδες δάσος»"
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "“Jamin Smartens Up”",
+      "suggested_fix": "Use a natural Greek title that conveys Jamin gaining confidence or realizing his worth, e.g. «Ο Τζάμιν ανακαλύπτει την αξία του».",
+      "translation_quote": "«Ο Τζάμιν γίνεται πιο έξυπνος»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

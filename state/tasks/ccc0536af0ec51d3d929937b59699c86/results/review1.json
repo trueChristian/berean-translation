@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c00215f6-a316-441d-9cf7-7052f35aa157",
+    "response_id": "chatcmpl-EUxbdqQjAPW0FmZybGkM6b4sQIIdf",
+    "usage": {
+      "completion_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 429,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2862,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3409
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "„Schwester zu Schwester“",
+        "translation_quote": "SISTER TO SISTER"
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "„Überlastung durch Aufschieben“",
+        "translation_quote": "Prokrastination Überlastung"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, second stanza, first line",
+      "severity": "minor",
+      "source_quote": "Arise and glorify the Lord!",
+      "suggested_fix": "Use matching singular or plural imperatives; for example, change «Σήκω και δοξολογήστε» to «Σήκω και δοξολόγησε».",
+      "translation_quote": "Σήκω και δοξολογήστε τον Κύριο!"
+    },
+    {
+      "location": "source.html, third stanza, fourth line",
+      "severity": "minor",
+      "source_quote": "The Holiness of God is here;",
+      "suggested_fix": "Use the more idiomatic Modern Greek «Η αγιότητα του Θεού είναι εδώ·».",
+      "translation_quote": "Η Αγιοσύνη του Θεού είναι εδώ·"
+    },
+    {
+      "location": "source.html, third stanza, fifth line",
+      "severity": "minor",
+      "source_quote": "In wondrous beauty bend the knee;",
+      "suggested_fix": "For a more natural Greek rendering, use «Με θαυμαστή ομορφιά, γονατίστε·».",
+      "translation_quote": "Σε θαυμαστή ομορφιά λυγώστε τα γόνατα·"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,10 +2,68 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 741,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12538,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12535,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13279
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "סעיף 7, הפסקה המצטטת את אפסים 5:21-24",
+      "severity": "major",
+      "source_quote": "“Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord.”",
+      "suggested_fix": "החליפו את ״היכנעו זה לזה ביראת אלוהים. נשים, היכנעו לבעליכן כפי שאתן נכנעות לאדון.״ ב״היכנעו זה לזה ביראת אלוהים. נשים, היכנעו לבעליכן כאדון.״ (כך גם בציטוט החוזר בהמשך.)",
+      "translation_quote": "״היכנעו זה לזה ביראת אלוהים. נשים, היכנעו לבעליכן כפי שאתן נכנעות לאדון.״"
+    },
+    {
+      "location": "סעיף 8, הפסקה המצטטת את הראשונה לפטרוס 3:7",
+      "severity": "major",
+      "source_quote": "“as being heirs together of the grace of life”",
+      "suggested_fix": "תקנו בכל המקומות בסעיף 8 שבהם התרגום אומר ״יורשות יחד״, ״יורשים יחד״ או ״יורשים בנפרד״ לניסוח שמבהיר שהבעל והאישה הם יורשים יחד: למשל, בציטוט ״וכמי שיורשים יחד איתך את חסד החיים״; ובדיון ״אם איננו יורשים יחד... האם נוכל להיות יורשים בנפרד...״",
+      "translation_quote": "״וכמי שיורשות יחד איתכם את חסד החיים״; ״אם איננו יורשים יחד של חסד החיים... האם נוכל להיות יורשים בנפרד של חסד החיים?״"
+    },
+    {
+      "location": "סעיף 10, הפסקה על אמהות",
+      "severity": "major",
+      "source_quote": "“There’s also a need for mothers who are submissive and yielded to authority.”",
+      "suggested_fix": "תקנו את ״אמהות שנכנעות ומתמסרות לסמכות״ ל״אמהות הכפופות לסמכות ונכנעות לה״ או לניסוח עברי טבעי אחר המשמר את שתי התכונות שבמקור.",
+      "translation_quote": "״יש גם צורך באמהות שנכנעות ומתמסרות לסמכות.״"
+    },
+    {
+      "location": "סעיף 10, הפסקת השאלות לצעירות",
+      "severity": "major",
+      "source_quote": "“Are you willing to be a helpmeet, giving yourself for his burden and vision?”",
+      "suggested_fix": "תקנו את ״למען הדאגה והחזון שלו״ ל״למען הנטל שהוא נושא והחזון שלו״ או לניסוח טבעי אחר המשמר את משמעות burden כנטל/אחריות.",
+      "translation_quote": "״האם אתן מוכנות להיות עוזרת מתאימה, ולתת את עצמכן למען הדאגה והחזון שלו?״"
+    },
+    {
+      "location": "כותרת המשנה",
+      "severity": "minor",
+      "source_quote": "“God’s Plan for Male and Female”",
+      "suggested_fix": "שקלו להחליף את ״תוכנית אלוהים לזכר ולנקבה״ ב״תוכנית אלוהים לגבר ולאישה״, ניסוח טבעי יותר בעברית בהקשר של המאמר.",
+      "translation_quote": "״תוכנית אלוהים לזכר ולנקבה״"
+    }
+  ],
   "id": "c21475ea3885691f7fe53904572fb3c6",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -94,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-6.1-sol"

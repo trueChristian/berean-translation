@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "48e7146f-fe40-4b03-afbd-732ba907c0f9",
+    "response_id": "chatcmpl-EUxYZZxxndctjOcMPDsV2QCtoZQFu",
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 607,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1633,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1630,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2435
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first stanza, final line",
+        "severity": "minor",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Consider «Takk og pris, for mer er her!» to express both “give thanks” and “laud” idiomatically while retaining “is here.”",
+        "translation_quote": "Gi takk og lov, for mer er kommet!"
+      },
+      {
+        "location": "source.html, third stanza, third line",
+        "severity": "minor",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Consider «Bøy deg i hellig ærefrykt—» to convey the reverential awe expressed by “awful, holy fear” in this context.",
+        "translation_quote": "Bøy deg i aktelsens, hellige frykt—"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

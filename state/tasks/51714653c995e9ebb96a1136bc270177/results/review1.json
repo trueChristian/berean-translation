@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "06df03d6-9e9e-48de-ab87-a8e6bf3217f2",
+    "response_id": "chatcmpl-EUxZnmVzBFzUDVORXhSOmWMc9K37X",
+    "usage": {
+      "completion_tokens": 947,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7044,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7041,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7991
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “A ship called The Greyhound”",
+        "severity": "major",
+        "source_quote": "A friend of John’s rowed out from shore to trade.",
+        "suggested_fix": "존의 친구 한 사람이 무역을 하려고 해안에서 배를 향해 노를 저어 나왔다.",
+        "translation_quote": "존의 친구 한 사람이 무역을 위해 배에서 노를 저어 나왔다."
+      },
+      {
+        "location": "source.html, paragraph beginning “As John began a new chapter”",
+        "severity": "major",
+        "source_quote": "With the help and providence of God, John saw the day, several months before his death, in 1807, when slavery was officially banned from England.",
+        "suggested_fix": "하나님의 도우심과 섭리로 존은 1807년, 죽기 몇 달 전에 영국에서 노예제가 공식적으로 금지되는 날을 보았다.",
+        "translation_quote": "하나님의 도우심과 섭리로 존은 1807년 몇 달 전 마침내 영국에서 노예제가 공식적으로 금지되는 날을 보았다."
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "HYMN HISTORY",
+        "suggested_fix": "찬송가의 역사",
+        "translation_quote": "HYMN HISTORY"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

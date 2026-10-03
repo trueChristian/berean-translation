@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf kutipan Roma 1:18–32",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ... Because that, when they knew God, they glorified him not as God, neither were thankful; ...” (Romans 1:18-32)",
+      "suggested_fix": "Terjemahkan ulang kutipan ini dengan mempertahankan seluruh makna dan susunan isinya, termasuk bagian “ketika mereka mengenal Allah, mereka tidak memuliakan Dia sebagai Allah dan tidak bersyukur.” Betulkan juga frasa salah ketik “Karena mengetahuan mereka tentang Allah” dan gunakan bentuk Indonesia untuk nama kitab pada referensi, dengan nomor tetap Roma 1:18-32.",
+      "translation_quote": "“Sebab murka Allah nyata dari sorga atas segala kefasikan dan kelaliman manusia yang menahan kebenaran dalam kelaliman mereka; ... Karena mengetahuan mereka tentang Allah tidak membawa mereka memuliakan Dia sebagai Allah, ataupun berterima kasih, ...” (Romans 1:18-32)"
+    },
+    {
+      "location": "Paragraf yang dimulai “Jadi bagaimana seseorang bisa menjadi humanis...”",
+      "severity": "major",
+      "source_quote": "“This is where we hit a little closer to home.”",
+      "suggested_fix": "Ganti idiom yang diterjemahkan harfiah dengan ungkapan Indonesia yang menyampaikan bahwa pembahasan mulai terasa lebih dekat dengan kehidupan atau keadaan kita sendiri.",
+      "translation_quote": "“Di sinilah kita menyentuh sesuatu yang lebih dekat dengan rumah.”"
+    },
+    {
+      "location": "Paragraf yang dimulai “Aku khawatir...”",
+      "severity": "major",
+      "source_quote": "“We talk the talk; we say we believe in God.”",
+      "suggested_fix": "Terjemahkan idiom tersebut sebagai mengatakan atau mengaku percaya tanpa mengamalkannya, misalnya “Kita hanya berkata-kata; kita mengatakan bahwa kita percaya kepada Tuhan.”",
+      "translation_quote": "“Kita berbicara sesuai kata-kata; kita mengatakan kita percaya kepada Tuhan.”"
+    },
+    {
+      "location": "Paragraf yang dimulai “Aku khawatir...”",
+      "severity": "major",
+      "source_quote": "“the time on our knees is a struggle at best.”",
+      "suggested_fix": "Sampaikan bahwa waktu berlutut dalam doa paling-paling terasa sebagai perjuangan yang berat; jangan gunakan ungkapan literal “waktu di lutut.”",
+      "translation_quote": "“waktu di lutut kita adalah perjuangan paling baik.”"
+    },
+    {
+      "location": "Paragraf yang dimulai “Orang Kristen percaya mereka hanyalah hamba...”",
+      "severity": "major",
+      "source_quote": "“They are hated by the world and despised by most, rejected.”",
+      "suggested_fix": "Ubah bagian ini agar jelas menyatakan bahwa mereka dibenci dunia, dipandang rendah oleh kebanyakan orang, dan ditolak.",
+      "translation_quote": "“Mereka dibenci oleh dunia dan dipandang rendah oleh kebanyakan orang, ditolak.”"
+    },
+    {
+      "location": "Referensi kutipan dalam paragraf yang dimulai “Orang Kristen percaya mereka hanyalah hamba...”",
+      "severity": "major",
+      "source_quote": "“(John 15:18)”",
+      "suggested_fix": "Gunakan nama kitab dalam bentuk Indonesia dan pertahankan nomor pasal serta ayat persis: “(Yohanes 15:18)”.",
+      "translation_quote": "“(John 15:18)”"
+    },
+    {
+      "location": "Referensi kutipan dalam paragraf tentang orang Kristen dan penalaran manusia",
+      "severity": "major",
+      "source_quote": "“(Colossians 1:16)”",
+      "suggested_fix": "Gunakan nama kitab dalam bentuk Indonesia dan pertahankan nomor pasal serta ayat persis: “(Kolose 1:16)”.",
+      "translation_quote": "“(Colossians 1:16)”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

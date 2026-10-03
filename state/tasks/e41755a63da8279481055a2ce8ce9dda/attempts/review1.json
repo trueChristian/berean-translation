@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem stanza 1, line 2\",\"severity\":\"minor\",\"source_quote\":\"Rejoice and sing! The night is past,\",\"suggested_fix\":\"Ganti “Bergembiralah dan nyanyikan!” dengan “Bergembiralah dan bernyanyilah!” agar ungkapan “sing” tersampaikan secara idiomatis.\",\"translation_quote\":\"Bergembiralah dan nyanyikan! Malam telah berlalu,\"},{\"location\":\"source.html, poem stanza 1, line 6\",\"severity\":\"minor\",\"source_quote\":\"Give thanks and laud, for more is here!\",\"suggested_fix\":\"Perjelas ungkapan “more is here” dalam bahasa Indonesia, misalnya: “Bersyukurlah dan pujilah, sebab lebih banyak lagi tersedia!”\",\"translation_quote\":\"Ucap syukur dan puji, sebab lebih lagi telah datang!\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 750,
+    "content_evidence_truncated": false,
+    "content_sha256": "72a0c5cb2ec8053d1b0c30ee95d81a83c21abbcd51721f618bc1f4611d12ff54",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 628,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 414,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1646,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1643,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2274
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

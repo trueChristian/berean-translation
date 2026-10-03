@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third paragraph",
+      "severity": "minor",
+      "source_quote": "“with caution, correction, and edification”",
+      "suggested_fix": "Replace “সতর্কবাণী” with “সতর্কতা” in this phrase, for example: “সতর্কতা, সংশোধন ও আত্মিক গঠনমূলক শিক্ষা দিয়ে”",
+      "translation_quote": "“সতর্কবাণী, সংশোধন ও আত্মিক গঠনমূলক শিক্ষা দিয়ে”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

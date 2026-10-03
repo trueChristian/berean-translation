@@ -2,10 +2,40 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "89b2103a296a48e6de29d0a379e20d944a208cec41652746670b7c438bf0d27c",
   "base_metadata_sha256": "67a824c0300dd7b3f1703c7a8c0fcc5b83164b1b076d46253066cc2354eb5eed",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 793,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 660,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3155,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3152,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3948
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML paragraph 2",
+      "severity": "major",
+      "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+      "suggested_fix": "Я познакомился с известными авторами, такими как Katrina Hoover Lee, Johnny Miller и Ruthann Stelfox.",
+      "translation_quote": "Я обменивался рукопожатиями с известными авторами, такими как Katrina Hoover Lee, Johnny Miller и Ruthann Stelfox."
+    }
+  ],
   "id": "e6f0ad3045e49cb635676534b7a303db",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -94,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

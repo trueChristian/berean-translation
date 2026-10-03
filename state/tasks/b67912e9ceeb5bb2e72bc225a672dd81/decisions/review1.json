@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 3",
+      "severity": "major",
+      "source_quote": "“So he continued mocking Jamin.”",
+      "suggested_fix": "Ganti “Tetapi Kenny pandai menghindari pendengaran. Jadi ia terus mengejek Jamin.” dengan “Tetapi Kenny pandai menghindar agar tidak terdengar. Jadi ia terus mengejek Jamin.”",
+      "translation_quote": "“Tetapi Kenny pandai menghindari pendengaran. Jadi ia terus mengejek Jamin.”"
+    },
+    {
+      "location": "Paragraf 7",
+      "severity": "major",
+      "source_quote": "“His golden head caught the tired beams that fled from the sun as they flickered through the trees.”",
+      "suggested_fix": "Ganti “Kepala keemasannya menangkap sinar-sinar letih yang kabur dari matahari saat berkelebat melalui pepohonan.” dengan “Rambutnya yang keemasan menangkap sinar-sinar redup yang memancar dari matahari dan berkelap-kelip menembus pepohonan.”",
+      "translation_quote": "“Kepala keemasannya menangkap sinar-sinar letih yang kabur dari matahari saat berkelebat melalui pepohonan.”"
+    },
+    {
+      "location": "Paragraf 7",
+      "severity": "major",
+      "source_quote": "“The fall webworms had been at work, and their web curtains shuttered from branches overhead.”",
+      "suggested_fix": "Ganti “Ulat jaring musim gugur telah bekerja, dan tirai-tirai jaring mereka menutup dari cabang-cabang di atas kepala.” dengan “Ulat jaring musim gugur telah bekerja, dan tirai-tirai jaringnya menggantung dari cabang-cabang di atas.”",
+      "translation_quote": "“Ulat jaring musim gugur telah bekerja, dan tirai-tirai jaring mereka menutup dari cabang-cabang di atas kepala.”"
+    },
+    {
+      "location": "Paragraf 12",
+      "severity": "major",
+      "source_quote": "“Kenny reeled free.”",
+      "suggested_fix": "Ganti “Kenny tersentak lepas.” dengan “Kenny terhuyung bebas.”",
+      "translation_quote": "“Kenny tersentak lepas.”"
+    },
+    {
+      "location": "Paragraf 14",
+      "severity": "major",
+      "source_quote": "“Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.”",
+      "suggested_fix": "Ganti “Jamin membalas panggilan, dan ayah segera berada di sisi mereka, melihat pergelangan kaki itu dan menggendong Kenny seperti domba yang terluka.” dengan “Jamin membalas panggilan, dan dalam sekejap ayah berada di sisi mereka. Setelah melihat pergelangan kaki Kenny, ia menggendong Kenny seperti domba yang terluka.”",
+      "translation_quote": "“Jamin membalas panggilan, dan ayah segera berada di sisi mereka, melihat pergelangan kaki itu dan menggendong Kenny seperti domba yang terluka.”"
+    },
+    {
+      "location": "Paragraf 17",
+      "severity": "major",
+      "source_quote": "“You were strong enough to open the trap, and Kenny wasn’t.”",
+      "suggested_fix": "Ganti “Kamu cukup kuat untuk membuka jebakan, dan Kenny tidak.” dengan “Kamu cukup kuat untuk membuka jebakan, sedangkan Kenny tidak cukup kuat.”",
+      "translation_quote": "“Kamu cukup kuat untuk membuka jebakan, dan Kenny tidak.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem stanza 1, line 3",
+      "severity": "major",
+      "source_quote": "The Dayspring shineth from on high,",
+      "suggested_fix": "Replace only this line with: אור השחר זורח ממרום,",
+      "translation_quote": "זריחת היום זורחת מעלה,"
+    },
+    {
+      "location": "source.html, poem stanza 2, line 1",
+      "severity": "major",
+      "source_quote": "Arise and glorify the Lord!",
+      "suggested_fix": "Replace only this line with: קום והלל את ה׳!",
+      "translation_quote": "קום והדר את ה׳!"
+    },
+    {
+      "location": "source.html, poem stanza 3, line 2",
+      "severity": "major",
+      "source_quote": "And worship Him with reverent praise;",
+      "suggested_fix": "Replace only this line with: והשתחוו לו בהלל מלא יראת כבוד;",
+      "translation_quote": "והשתחוו לו בשבח ירא;"
+    },
+    {
+      "location": "source.html, poem stanza 3, line 3",
+      "severity": "major",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Replace only this line with: כרעו ביראה עמוקה וקדושה—",
+      "translation_quote": "השתחוו בפחד קדוש ומכובד—"
+    },
+    {
+      "location": "source.html, poem stanza 3, line 5",
+      "severity": "major",
+      "source_quote": "In wondrous beauty bend the knee;",
+      "suggested_fix": "Replace only this line with: ביופי מופלא כרעו ברך;",
+      "translation_quote": "בתפארה כפפו את הברך;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

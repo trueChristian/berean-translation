@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first stanza, final line",
+      "severity": "minor",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Rends grâces et loue, car il y a plus encore !",
+      "translation_quote": "Rends grâces et louanges, car davantage est ici !"
+    },
+    {
+      "location": "HTML, second stanza, second line",
+      "severity": "minor",
+      "source_quote": "Extol and praise His worthy name!",
+      "suggested_fix": "Exalte et loue son nom digne de louange !",
+      "translation_quote": "Exalte et loue Son nom digne !"
+    },
+    {
+      "location": "HTML, third stanza, third line",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Incline-toi dans une crainte révérencielle et sainte-",
+      "translation_quote": "Incline-toi dans une crainte redoutable et sainte-"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

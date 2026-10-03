@@ -1,0 +1,196 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "minor",
+      "source_quote": "“Dr. Waldron, Elsie needs help!” Elsie’s husband was adamant, almost angry",
+      "suggested_fix": "Change «Ο σύζυγος της Έλσι ήταν αποφασισμένος» to «Ο σύζυγος της Έλσι επέμενε» or «ήταν ανένδοτος», preserving the sense of insistence.",
+      "translation_quote": "«Dr. Waldron, η Έλσι χρειάζεται βοήθεια!» Ο σύζυγος της Έλσι ήταν αποφασισμένος"
+    },
+    {
+      "location": "HTML, paragraphs 2 and 10",
+      "severity": "minor",
+      "source_quote": "her liver enzymes were a little elevated",
+      "suggested_fix": "Replace «όλα φαινόντουσαν εντάξει» with «όλα φαίνονταν εντάξει».",
+      "translation_quote": "όλα φαινόντουσαν εντάξει"
+    },
+    {
+      "location": "HTML, paragraph 12",
+      "severity": "major",
+      "source_quote": "“She’s ready,” he husband said firmly.",
+      "suggested_fix": "Change «ο σύζυγος» to «ο σύζυγός της» so the speaker attribution is clear and faithful to context.",
+      "translation_quote": "«Είναι έτοιμη,» είπε ο σύζυγος σταθερά."
+    },
+    {
+      "location": "HTML, paragraph 13",
+      "severity": "major",
+      "source_quote": "Abrupt cessation of alcohol use causes the body to go into withdrawal which can produce a state called Delirium Tremens and even seizures.",
+      "suggested_fix": "Translate the sentence fully, for example: «Η απότομη διακοπή της χρήσης αλκοόλ προκαλεί στερητικό σύνδρομο, το οποίο μπορεί να οδηγήσει σε μια κατάσταση που ονομάζεται παραλήρημα τρέμενς (delirium tremens), ακόμη και σε επιληπτικές κρίσεις.»",
+      "translation_quote": "Η απότομη διακοπή της χρήσης αλκοόλ προκαλεί στον οργανισμό στερητικό σύνδρομο που μπορεί να οδηγήσει σε κατάσταση που ονομάζεται Delirium Tremens και ακόμη και σε σπασμούς."
+    },
+    {
+      "location": "HTML, paragraph 16",
+      "severity": "major",
+      "source_quote": "I had been afraid that I wouldn’t find anywhere for her to go.",
+      "suggested_fix": "Change «Φοβόμουν ότι δεν θα έβρισκα πουθενά για να πάει» to «Φοβόμουν ότι δεν θα έβρισκα κάποιο μέρος για να πάει».",
+      "translation_quote": "Φοβόμουν ότι δεν θα έβρισκα πουθενά για να πάει."
+    },
+    {
+      "location": "HTML, paragraph 17",
+      "severity": "major",
+      "source_quote": "while Elise continued to stare silently at the floor.",
+      "suggested_fix": "Use the established name spelling «Έλσι» rather than «Έλις».",
+      "translation_quote": "ενώ η Έλις συνέχισε να κοιτάζει σιωπηλά στο πάτωμα."
+    },
+    {
+      "location": "HTML, paragraph 18",
+      "severity": "major",
+      "source_quote": "I had a happy glow about me for the rest of the morning",
+      "suggested_fix": "Replace «είχα μια ευχάριστη λάμψη» with «ένιωθα χαρούμενος/η» or another idiomatic equivalent conveying the narrator’s happy feeling.",
+      "translation_quote": "Είχα μια ευχάριστη λάμψη για το υπόλοιπο της πρωινής βάρδιας"
+    },
+    {
+      "location": "HTML, paragraph 19",
+      "severity": "major",
+      "source_quote": "With a sinking feeling, I dialed the couple’s phone number.",
+      "suggested_fix": "Translate the idiom as «Με βαριά καρδιά» or «Με ένα προαίσθημα απογοήτευσης» rather than «Με μια βουβή αίσθηση».",
+      "translation_quote": "Με μια βουβή αίσθηση, κάλεσα τον αριθμό του ζευγαριού."
+    },
+    {
+      "location": "HTML, paragraph 21",
+      "severity": "major",
+      "source_quote": "stunned",
+      "suggested_fix": "Replace «κατακεδρακωμένος» with «εμβρόντητος» or «άναυδος».",
+      "translation_quote": "κάθισα στην καρέκλα μου, κατακεδρακωμένος."
+    },
+    {
+      "location": "HTML, paragraph 25",
+      "severity": "major",
+      "source_quote": "they often dressed in rags",
+      "suggested_fix": "Replace «φορούσαν σκουπίδια» with «φορούσαν κουρέλια».",
+      "translation_quote": "Συχνά φορούσαν σκουπίδια"
+    },
+    {
+      "location": "HTML, paragraph 29",
+      "severity": "critical",
+      "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
+      "suggested_fix": "Translate the quoted passage into Greek, faithfully preserving its meaning, and render the book name conventionally as «Εκκλησιαστής». Keep the reference numbers exactly «2:22,23».",
+      "translation_quote": "«For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.» (Ecclesiastes 2:22,23)"
+    },
+    {
+      "location": "HTML, paragraph 30",
+      "severity": "critical",
+      "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+      "suggested_fix": "Translate the quoted passage into Greek and render the book name as «Εκκλησιαστής», retaining reference «4:13».",
+      "translation_quote": "«Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor» (Ecclesiastes 4:13)."
+    },
+    {
+      "location": "HTML, paragraph 31",
+      "severity": "critical",
+      "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
+      "suggested_fix": "Translate the quotation into Greek and retain the reference «6:6».",
+      "translation_quote": "«Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?»"
+    },
+    {
+      "location": "HTML, paragraph 33",
+      "severity": "critical",
+      "source_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).",
+      "suggested_fix": "Translate the quoted passage into Greek and render the book name as «Ιερεμίας», retaining reference «7:27».",
+      "translation_quote": "«Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee» (Jeremiah 7:27)."
+    },
+    {
+      "location": "HTML, paragraph 34",
+      "severity": "critical",
+      "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+      "suggested_fix": "Translate the quotation into Greek and render the book name as «Β΄ Τιμόθεο», retaining reference «4:3».",
+      "translation_quote": "«For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;» (2 Timothy 4:3)."
+    },
+    {
+      "location": "HTML, paragraph 41",
+      "severity": "critical",
+      "source_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
+      "suggested_fix": "Translate the quotation into Greek and render the book name as «Ματθαίος», retaining reference «4:8».",
+      "translation_quote": "«All these things will I give thee, if thou wilt fall down and worship me» (Matthew 4:8)."
+    },
+    {
+      "location": "HTML, heading before paragraph 44",
+      "severity": "major",
+      "source_quote": "Remember that We Have Undeserved Hope",
+      "suggested_fix": "Replace «Ανεξήγητη Ελπίδα» with «Ανάξια Ελπίδα» or «Ελπίδα που δεν μας αξίζει», conveying that the hope is undeserved, not inexplicable.",
+      "translation_quote": "Να Θυμάστε Ότι Έχουμε Ανεξήγητη Ελπίδα"
+    },
+    {
+      "location": "HTML, paragraph 44",
+      "severity": "major",
+      "source_quote": "we have received great and undeserved forgiveness",
+      "suggested_fix": "Replace «ανεπιθύμητη συγχώρεση» with «συγχώρεση που δεν μας αξίζει» or «ανάξια συγχώρεση».",
+      "translation_quote": "έχουμε λάβει μεγάλη και ανεπιθύμητη συγχώρεση"
+    },
+    {
+      "location": "HTML, paragraph 45",
+      "severity": "major",
+      "source_quote": "we were still given a ray of light in the midst of our darkness",
+      "suggested_fix": "Replace «μια ραβδούλα φωτός» with «μια αχτίδα φωτός».",
+      "translation_quote": "μας δόθηκε μια ραβδούλα φωτός μέσα στο σκοτάδι μας"
+    },
+    {
+      "location": "HTML, paragraph 49",
+      "severity": "major",
+      "source_quote": "over-promises and under-delivers",
+      "suggested_fix": "Use a natural Greek equivalent such as «υπόσχεται περισσότερα απ’ όσα μπορεί να προσφέρει και τελικά προσφέρει λιγότερα».",
+      "translation_quote": "πάντα υπεραπαιτεί και υπο-παραδίδει."
+    },
+    {
+      "location": "HTML, paragraph 50",
+      "severity": "major",
+      "source_quote": "what are valuable, and that will bring hope",
+      "suggested_fix": "Add the omitted idea «και που θα φέρουν ελπίδα» after «τα πολύτιμα πράγματα».",
+      "translation_quote": "να αποσπάσει τους χριστιανούς από το να επιδιώκουν τα πολύτιμα πράγματα που θα φέρουν ελπίδα."
+    },
+    {
+      "location": "HTML, paragraph 55",
+      "severity": "critical",
+      "source_quote": "“the least of these my brethren,” they were ministering to Him.",
+      "suggested_fix": "Translate the quoted phrase into Greek, for example «έναν από τους ελάχιστους αυτούς αδελφούς μου», preserving its quoted status.",
+      "translation_quote": "«the least of these my brethren»"
+    },
+    {
+      "location": "HTML, paragraph 60",
+      "severity": "major",
+      "source_quote": "They, too, are growing",
+      "suggested_fix": "Replace «Αυτοί κι αυτοί αναπτύσσονται» with «Κι εκείνοι επίσης εξελίσσονται» or «Κι εκείνοι επίσης προοδεύουν».",
+      "translation_quote": "Αυτοί κι αυτοί αναπτύσσονται"
+    },
+    {
+      "location": "HTML, paragraph 63",
+      "severity": "critical",
+      "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+      "suggested_fix": "Translate the quoted lyric into Greek, faithfully preserving its meaning.",
+      "translation_quote": "«Oh to have no hope in Jesus, how dark this world must be!»"
+    },
+    {
+      "location": "HTML, paragraph 64",
+      "severity": "major",
+      "source_quote": "God is the one who redeems us.",
+      "suggested_fix": "Replace «Ο Θεός είναι αυτός που μας εξαγοράζει» with «Ο Θεός είναι αυτός που μας λυτρώνει».",
+      "translation_quote": "Ο Θεός είναι αυτός που μας εξαγοράζει."
+    },
+    {
+      "location": "HTML, title",
+      "severity": "minor",
+      "source_quote": "Dealing with Cynicism",
+      "suggested_fix": "Consider «Αντιμετωπίζοντας τον κυνισμό»; use lowercase for the common noun in standard Greek title styling.",
+      "translation_quote": "Αντιμετωπίζοντας τον κυνισμό"
+    },
+    {
+      "location": "HTML, section",
+      "severity": "minor",
+      "source_quote": "A WORD FROM THE DOCTOR",
+      "suggested_fix": "Consider the idiomatic «Ένα μήνυμα από τον γιατρό» rather than the literal «Λόγια από τον γιατρό».",
+      "translation_quote": "ΛΟΓΙΑ ΑΠΟ ΤΟΝ ΓΙΑΤΡΟ"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

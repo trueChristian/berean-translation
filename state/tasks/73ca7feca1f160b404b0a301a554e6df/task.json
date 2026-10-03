@@ -2,10 +2,82 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": "6cbb891f4aeae13b6244eb9fb4b289e2d7d9764c0bf6bddf1d25b6420d2f263b",
   "base_metadata_sha256": "bcd8b940880fe51af1733f101fd75ee32da7d7a8c4dc62055c383b84e34e0c27",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 787,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6411,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6408,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7198
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html 第2段",
+      "severity": "major",
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "将这句引语译为中文，例如：“有人栽种，有人浇灌，但使之生长的是神。”",
+      "translation_quote": "“一些种子，一些水，但神赐增长。”"
+    },
+    {
+      "location": "source.html 罗马书引文",
+      "severity": "critical",
+      "source_quote": "整段罗马书1:18-32引文（从“For the wrath of God is revealed…”到“…have pleasure in them that do them”）",
+      "suggested_fix": "将这段引文完整翻译成简体中文，保留经文信息及罗马书1:18-32的原有引用位置和范围。",
+      "translation_quote": "该段引文全文仍为英文，末尾标注“(Romans 1:18-32)”。"
+    },
+    {
+      "location": "source.html “第二种人本主义信念”段",
+      "severity": "major",
+      "source_quote": "“a theory of humanism that acknowledges the existence of God”",
+      "suggested_fix": "将“人本主义理论”改为“人本主义信念”，如：“第二种人本主义信念是一种承认神存在的观点。”",
+      "translation_quote": "“第二种人本主义信念是承认神存在的一种人本主义理论。”"
+    },
+    {
+      "location": "source.html “当需要超自然介入的事发生时”段",
+      "severity": "major",
+      "source_quote": "“This type of humanism has confused the modern world.”",
+      "suggested_fix": "将“这样的重构”改为准确表达原文的“这种人本主义”，例如：“这种人本主义使现代世界困惑不已。”",
+      "translation_quote": "“这样的重构使现代世界困惑不已。”"
+    },
+    {
+      "location": "source.html “基督徒不信赖人的推理”段",
+      "severity": "major",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "将经文引文完整翻译成简体中文，并将书名按中文惯例写作“歌罗西书”，保留章节与节数1:16及原有引文位置。",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+    },
+    {
+      "location": "source.html “基督徒相信自己仅是主人之仆”段",
+      "severity": "critical",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "将经文引文完整译成简体中文，并把引用改为中文书名“约翰福音”，保留15:18及引用在引文之后的位置。",
+      "translation_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "The Christian Humanist",
+      "suggested_fix": "将标题改为较自然、忠实的“基督教人本主义者”。",
+      "translation_quote": "基督教人文主义者"
+    }
+  ],
   "id": "73ca7feca1f160b404b0a301a554e6df",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "cmn",
@@ -94,11 +166,13 @@
     }
   },
   "protected": false,
+  "quality_score": 74,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73ffad35e60323218112f91b03e6a992fcbade0106463ff2ccfcd441d944684a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

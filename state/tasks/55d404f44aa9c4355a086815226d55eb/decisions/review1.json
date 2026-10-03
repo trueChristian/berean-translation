@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "第13段，“our plain circles”",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "将“我们明显圈子里的创伤事件”改为“我们朴素派社群中的创伤事件”，以表达这里指特定社群，而非“明显的圈子”。",
+      "translation_quote": "我们明显圈子里的创伤事件往往会得到祷告、财政支持和每周的预算更新。"
+    },
+    {
+      "location": "第22段，诗篇30:5引文",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "将英文引文及括号中的英文书名改为中文，例如：“一宿虽有哭泣，早晨便必欢呼”（诗篇30:5）。",
+      "translation_quote": "“ Weeping may endure for a night, but joy cometh in the morning ”（Psalm 30:5）。"
+    },
+    {
+      "location": "末段，诗篇71:1引文",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "将英文引文及括号中的英文书名改为中文，例如：“耶和华啊，我投靠你；求你叫我永不羞愧”（诗篇71:1）。",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

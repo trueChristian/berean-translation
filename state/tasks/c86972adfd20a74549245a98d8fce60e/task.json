@@ -2,10 +2,41 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "57ddb1ba4ec74e65404ef9c10c4880b37620daf4f5ef975e70f7558abd266623",
   "base_metadata_sha256": "286de3e1637002df76b2c09004497a47ac0e2e50963dfc1538dbb32e55d69fad",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 615,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 504,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3014,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3011,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3629
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, primeiro parágrafo",
+      "severity": "minor",
+      "source_quote": "“the tantalizing cacophony of odors”",
+      "suggested_fix": "Substitua “o caleidoscópio tentador de cheiros” por “a tentadora cacofonia de odores” para preservar a imagem sensorial do original.",
+      "translation_quote": "“o caleidoscópio tentador de cheiros”"
+    }
+  ],
+  "finished_at": "2026-10-03T18:43:07+00:00",
   "id": "c86972adfd20a74549245a98d8fce60e",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "por",
@@ -94,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

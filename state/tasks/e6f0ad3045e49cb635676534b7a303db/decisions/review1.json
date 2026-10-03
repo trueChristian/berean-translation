@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 2",
+      "severity": "major",
+      "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+      "suggested_fix": "Я познакомился с известными авторами, такими как Katrina Hoover Lee, Johnny Miller и Ruthann Stelfox.",
+      "translation_quote": "Я обменивался рукопожатиями с известными авторами, такими как Katrina Hoover Lee, Johnny Miller и Ruthann Stelfox."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

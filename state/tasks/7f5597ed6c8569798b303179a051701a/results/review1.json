@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b4150c6c-750a-4233-ba53-74e9f6f04f6b",
+    "response_id": "chatcmpl-EUxZ1lph9Nmux21DIlOkUMIkR5Wzo",
+    "usage": {
+      "completion_tokens": 1086,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 727,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1605,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1602,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2691
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem stanza 1, line 3",
+        "severity": "major",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "Replace only this line with: אור השחר זורח ממרום,",
+        "translation_quote": "זריחת היום זורחת מעלה,"
+      },
+      {
+        "location": "source.html, poem stanza 2, line 1",
+        "severity": "major",
+        "source_quote": "Arise and glorify the Lord!",
+        "suggested_fix": "Replace only this line with: קום והלל את ה׳!",
+        "translation_quote": "קום והדר את ה׳!"
+      },
+      {
+        "location": "source.html, poem stanza 3, line 2",
+        "severity": "major",
+        "source_quote": "And worship Him with reverent praise;",
+        "suggested_fix": "Replace only this line with: והשתחוו לו בהלל מלא יראת כבוד;",
+        "translation_quote": "והשתחוו לו בשבח ירא;"
+      },
+      {
+        "location": "source.html, poem stanza 3, line 3",
+        "severity": "major",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Replace only this line with: כרעו ביראה עמוקה וקדושה—",
+        "translation_quote": "השתחוו בפחד קדוש ומכובד—"
+      },
+      {
+        "location": "source.html, poem stanza 3, line 5",
+        "severity": "major",
+        "source_quote": "In wondrous beauty bend the knee;",
+        "suggested_fix": "Replace only this line with: ביופי מופלא כרעו ברך;",
+        "translation_quote": "בתפארה כפפו את הברך;"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

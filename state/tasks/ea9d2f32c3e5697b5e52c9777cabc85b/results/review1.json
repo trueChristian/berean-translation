@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "87b208a0-9a03-4da7-94b4-58b8e972c8ee",
+    "response_id": "chatcmpl-EUxYrX9Q968H8B4fhrrTgunhxr8sm",
+    "usage": {
+      "completion_tokens": 671,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 334,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4099,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4096,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4770
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Верьте, что Бог заботится»",
+        "severity": "major",
+        "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+        "suggested_fix": "Переведите цитату на русский, сохранив смысл и ссылку: например, «Плач может длиться ночь, а утром приходит радость» (Псалом 30:5).",
+        "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+      },
+      {
+        "location": "HTML, последний абзац",
+        "severity": "major",
+        "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+        "suggested_fix": "Переведите цитату на русский, сохранив смысл и ссылку: например, «На Тебя, Господи, уповаю; да не постыжусь вовек» (Псалом 71:1).",
+        "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Переведите название раздела на русский, например: «СЕСТРА СЕСТРЕ».",
+        "translation_quote": "SISTER TO SISTER"
+      }
+    ],
+    "passed": false,
+    "score": 75
+  }
+}

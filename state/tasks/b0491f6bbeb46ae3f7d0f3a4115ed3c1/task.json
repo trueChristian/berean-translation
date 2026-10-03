@@ -2,10 +2,54 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": "8928e592d0b595d251d0f8ab2d9f032b62c293b7485d28189ac8bd695fe5f03b",
   "base_metadata_sha256": "73bba6f7877a2ff44c425dc28bd9f1603b7e1447f84db8ac9147ae4800ac0ba2",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 479,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6678,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6675,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7157
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "article.html, the quotation beginning “I Romerne leser vi”",
+      "severity": "critical",
+      "source_quote": "The complete quotation from Romans 1:18-32, printed in English, followed by “(Romans 1:18-32)”",
+      "suggested_fix": "Translate the quoted passage into Norwegian Bokmål, preserving its meaning and extent, and render the reference as “(Romerne 1:18-32)”. Keep the quotation inside the existing <p> and preserve the reference’s placement.",
+      "translation_quote": "The complete quotation is left in English, ending “(Romans 1:18-32).”"
+    },
+    {
+      "location": "article.html, the quotation beginning “Den kristne tror at himmelens Gud er årsaken til alt”",
+      "severity": "critical",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "Translate the quoted sentence into Norwegian Bokmål, faithfully retaining its meaning, and render the reference as “(Kolosserne 1:16)”. Keep it inside the existing <p> in the same position.",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+    },
+    {
+      "location": "article.html, the quotation in the paragraph beginning “Kristne tror de bare er tjenere”",
+      "severity": "critical",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Translate the quoted sentence into Norwegian Bokmål and render the reference in Norwegian as “(Johannes 15:18)”, preserving its placement within the quotation.",
+      "translation_quote": "«If the world hate you, ye know that it hated me before it hated you. (John 15:18)»"
+    }
+  ],
   "id": "b0491f6bbeb46ae3f7d0f3a4115ed3c1",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nob",
@@ -94,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 55,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73ffad35e60323218112f91b03e6a992fcbade0106463ff2ccfcd441d944684a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

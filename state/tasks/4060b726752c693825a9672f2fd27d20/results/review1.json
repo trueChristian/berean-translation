@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8df261e0-3f78-44cc-9d75-ad12f9888b76",
+    "response_id": "chatcmpl-EUxZhWOrpaSuWKaqbzGXXWjnprtxJ",
+    "usage": {
+      "completion_tokens": 980,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3304,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4287
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz 2",
+        "severity": "minor",
+        "source_quote": "Deep inside Jamin felt resigned to a life of muddled trip-ups.",
+        "suggested_fix": "„Tief in seinem Inneren hatte Jamin sich mit einem Leben voller verworrener Missgeschicke abgefunden.“",
+        "translation_quote": "Tief in seinem Inneren fühlte sich Jamin einem Leben voller verlegener Patzer ergeben."
+      },
+      {
+        "location": "Absatz 3",
+        "severity": "major",
+        "source_quote": "Dad and Mom disliked Kenny’s proud talk and punished him whenever they walked in on one of his speeches.",
+        "suggested_fix": "„Vater und Mutter missfielen Kennys großspurige Reden und bestraften ihn, wann immer sie ihn bei einer seiner Ansprachen ertappten.“",
+        "translation_quote": "Vater und Mutter missfielen Kennys stolze Reden und bestraften ihn, wann immer sie eine seiner Vorträge unterbrachen."
+      },
+      {
+        "location": "Absatz 11",
+        "severity": "major",
+        "source_quote": "Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.",
+        "suggested_fix": "„Schnell stemmte Jamin mit seinen kräftigen Armen die Backen auseinander. Kenny taumelte frei.“",
+        "translation_quote": "Schnell presste Jamin seine kräftigen Arme in die Falle und sprengte die Backen auseinander. Kenny stürzte heraus."
+      },
+      {
+        "location": "Absatz 15",
+        "severity": "major",
+        "source_quote": "Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.",
+        "suggested_fix": "„Jamin rief zurück, und im nächsten Moment war sein Vater bei ihnen. Als er den Knöchel sah, hob er Kenny hoch wie ein verletztes Schaf.“",
+        "translation_quote": "Jamin rief zurück, und im nächsten Moment war er an ihrer Seite, sah den Knöchel und nahm Kenny auf wie ein verletztes Schaf."
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "„Kinder-Ecke“",
+        "translation_quote": "Children’s Corner"
+      }
+    ],
+    "passed": false,
+    "score": 81
+  }
+}

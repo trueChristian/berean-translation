@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third stanza, line 5",
+      "severity": "minor",
+      "source_quote": "In wondrous beauty bend the knee;",
+      "suggested_fix": "Replace the line with «في جمالٍ مهيبٍ اثنوا ركبكم؛» to express the source meaning idiomatically in Arabic.",
+      "translation_quote": "في جمالٍ مدهش انحنوا الركبة؛"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Deadlines are a normal part of life”",
+      "severity": "major",
+      "source_quote": "“Without them we would be unmotivated, and our days would lack purpose.”",
+      "suggested_fix": "Replace «Χωρίς αυτές θα ήμασταν χωρίς κίνητρο και οι μέρες μας θα έλειπαν από σκοπό» with «Χωρίς αυτές δεν θα είχαμε κίνητρο και οι μέρες μας θα στερούνταν σκοπού» to preserve the intended meaning in natural Greek.",
+      "translation_quote": "«Χωρίς αυτές θα ήμασταν χωρίς κίνητρο και οι μέρες μας θα έλειπαν από σκοπό.»"
+    },
+    {
+      "location": "HTML, paragraph beginning “Deciding early in the day”",
+      "severity": "minor",
+      "source_quote": "“packing the diaper bag in advance”",
+      "suggested_fix": "Replace «την τσάντα της πάνας» with «την τσάντα με τα απαραίτητα για το μωρό» for a natural Greek rendering of the diaper bag.",
+      "translation_quote": "«την τσάντα της πάνας»"
+    },
+    {
+      "location": "HTML, paragraph beginning “Sometimes the enormity of a task”",
+      "severity": "minor",
+      "source_quote": "“Deep cleaning my kitchen is a task that I do not enjoy.”",
+      "suggested_fix": "Replace «Το βαθύ καθάρισμα της κουζίνας μου» with «Ο γενικός καθαρισμός της κουζίνας μου» for idiomatic Greek.",
+      "translation_quote": "«Το βαθύ καθάρισμα της κουζίνας μου»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

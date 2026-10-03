@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e51bde15-a073-4085-b008-6f6aa526325e",
+    "response_id": "chatcmpl-EUxYOax5q3aKx31XosLWsE5mB3g36",
+    "usage": {
+      "completion_tokens": 771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 600,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1678,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1675,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2449
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, second stanza, third line",
+        "severity": "major",
+        "source_quote": "He shineth from the heav’ns in love,",
+        "suggested_fix": "তিনি প্রেমে স্বর্গ থেকে জ্যোতি ছড়ান,",
+        "translation_quote": "তিনি প্রেমে আকাশ থেকে উদিত হচ্ছেন,"
+      },
+      {
+        "location": "source.html, poem, third stanza, third line",
+        "severity": "minor",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "ভক্তিভরে, পবিত্র শ্রদ্ধামিশ্রিত ভয়ে নত হও—",
+        "translation_quote": "ভয়ানক, পবিত্র ভয়ে নমো—"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “Rencana Allah bagi Laki-laki dan Perempuan” beginning “Pengkhotbah 12:1”",
+      "severity": "major",
+      "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
+      "suggested_fix": "Terjemahkan kutipan ayat ini ke dalam bahasa Indonesia dengan mempertahankan maknanya; misalnya, “Ingatlah Penciptamu pada masa mudamu, sebelum tiba hari-hari yang malang dan tahun-tahun mendekat ketika engkau berkata, ‘Aku tidak menyukainya.’”",
+      "translation_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”"
+    },
+    {
+      "location": "HTML, paragraf panjang yang dimulai “Marilah kita pergi ke awal Kejadian” (Kejadian 2:18–24 dan 1:26–28)",
+      "severity": "major",
+      "source_quote": "Kedua kutipan ayat dalam paragraf ini, masing-masing dimulai “And the LORD God said” dan “And God said, Let us make man in our image”.",
+      "suggested_fix": "Terjemahkan kedua kutipan panjang itu ke dalam bahasa Indonesia, tanpa mengubah rujukan Kejadian 2:18-24 dan Kejadian 1:26-28.",
+      "translation_quote": "Kedua kutipan tersebut tetap seluruhnya dalam bahasa Inggris."
+    },
+    {
+      "location": "HTML, paragraf kutipan Kejadian 2:18 dan paragraf kutipan Kejadian 1:27",
+      "severity": "major",
+      "source_quote": "“And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18). “So God created man in his own image, in the image of God created he him; male and female created he them” (Genesis 1:27).",
+      "suggested_fix": "Terjemahkan kedua kutipan ke bahasa Indonesia dan gunakan nama kitab yang lazim, “Kejadian”, sambil mempertahankan nomor ayat.",
+      "translation_quote": "Kedua kutipan masih berbahasa Inggris; rujukannya ditulis “Genesis 2:18” dan “Genesis 1:27”."
+    },
+    {
+      "location": "HTML, bagian 1, kutipan Kejadian 2:22-23",
+      "severity": "major",
+      "source_quote": "“And the rib, which the Lord God had taken from man, made he a woman, and brought her unto the man. And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man” (Genesis 2:22-23).",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke bahasa Indonesia dan ubah nama kitab dalam rujukan menjadi “Kejadian”, dengan nomor ayat tetap 2:22-23.",
+      "translation_quote": "Kutipan tersebut masih seluruhnya berbahasa Inggris dan rujukannya ditulis “Genesis 2:22-23”."
+    },
+    {
+      "location": "HTML, bagian 2, kutipan Kejadian 2:24",
+      "severity": "major",
+      "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+      "suggested_fix": "Terjemahkan kutipan itu ke bahasa Indonesia dan gunakan “Kejadian 2:24”. Hapus huruf “B” yang tersisip pada “Bshall” dalam teks terjemahan.",
+      "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+    },
+    {
+      "location": "HTML, bagian 2, kutipan Markus 10:7 di paragraf kedua",
+      "severity": "major",
+      "source_quote": "“For this cause shall a man leave his father and mother, and cleave to his wife.”",
+      "suggested_fix": "Terjemahkan kutipan Markus 10:7 ke bahasa Indonesia; gunakan nama kitab “Markus” dan pertahankan nomor ayat.",
+      "translation_quote": "Kutipan Markus 10:7 tetap berbahasa Inggris."
+    },
+    {
+      "location": "HTML, bagian 3, kutipan Kejadian 2:24 dan Markus 10:8-9",
+      "severity": "major",
+      "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24). “And they twain shall be one flesh: so then they are no more twain, but one flesh. What therefore God hath joined together, let not man put asunder” (Mark 10:8-9).",
+      "suggested_fix": "Terjemahkan kedua kutipan ke bahasa Indonesia dan gunakan nama kitab “Kejadian” dan “Markus”; pertahankan nomor dan rentang ayat.",
+      "translation_quote": "Kedua kutipan tetap berbahasa Inggris; rujukannya ditulis “Genesis 2:24” dan “Mark 10:8-9”."
+    },
+    {
+      "location": "HTML, bagian 4, kedua kutipan ayat",
+      "severity": "major",
+      "source_quote": "Kutipan yang dimulai “Be ye not unequally yoked together with unbelievers” (2 Corinthians 6:14-15) dan “The wife is bound by the law” (1 Corinthians 7:39).",
+      "suggested_fix": "Terjemahkan kedua kutipan ke bahasa Indonesia dan gunakan nama kitab “2 Korintus” dan “1 Korintus”, dengan nomor ayat tetap.",
+      "translation_quote": "Kedua kutipan masih berbahasa Inggris; rujukannya ditulis “2 Corinthians 6:14-15” dan “1 Corinthians 7:39”."
+    },
+    {
+      "location": "HTML, bagian 5, kutipan Kejadian 1:28, 9:1, dan 9:7",
+      "severity": "major",
+      "source_quote": "Kutipan yang dimulai “And God blessed them” (Genesis 1:28), “And God blessed Noah and his sons” (Genesis 9:1), dan “And you, be ye fruitful” (Genesis 9:7).",
+      "suggested_fix": "Terjemahkan ketiga kutipan ke bahasa Indonesia dan gunakan nama kitab “Kejadian”, tanpa mengubah nomor ayat.",
+      "translation_quote": "Ketiga kutipan tetap berbahasa Inggris; rujukannya ditulis “Genesis 1:28”, “Genesis 9:1”, dan “Genesis 9:7”."
+    },
+    {
+      "location": "HTML, bagian 6, kutipan 1 Korintus 11:3, Efesus 6:1-3, dan Amsal 3:1-2",
+      "severity": "major",
+      "source_quote": "Kutipan yang dimulai “But I would have you know” (1 Corinthians 11:3), “Children, obey your parents in the Lord” (Ephesians 6:1-3), dan “My son, forget not my law” (Proverbs 3:1-2).",
+      "suggested_fix": "Terjemahkan ketiga kutipan ke bahasa Indonesia dan gunakan nama kitab “1 Korintus”, “Efesus”, dan “Amsal”; pertahankan nomor serta rentang ayat.",
+      "translation_quote": "Ketiga kutipan tetap berbahasa Inggris; rujukannya ditulis “1 Corinthians 11:3”, “Ephesians 6:1-3”, dan “Proverbs 3:1-2”."
+    },
+    {
+      "location": "HTML, bagian 7, kutipan Efesus 5:21-24, 5:22,24, 5:25,28,29, dan ayat 33",
+      "severity": "major",
+      "source_quote": "Kutipan yang dimulai “Submitting yourselves one to another”, “Wives, submit yourselves unto your own husbands”, “Husbands, love your wives”, dan “Nevertheless let every one of you”.",
+      "suggested_fix": "Terjemahkan semua kutipan ayat tersebut ke bahasa Indonesia dan gunakan nama kitab “Efesus” pada penyebutan rujukannya; pertahankan nomor ayat seperti sumber.",
+      "translation_quote": "Kutipan-kutipan ayat dalam bagian ini masih berbahasa Inggris; beberapa pengantar rujukan juga tetap berbunyi “Ephesians 5:21,22,24”, “Ephesians 5: 22, 24”, dan “Ephesians 5:25,28,29”."
+    },
+    {
+      "location": "HTML, bagian 8, kutipan 1 Petrus 3:7 dan kutipan pendek sesudahnya",
+      "severity": "major",
+      "source_quote": "Kutipan yang dimulai “Likewise, ye husbands, dwell with them according to knowledge” serta pengulangan “Husbands, dwell with them according to knowledge.”",
+      "suggested_fix": "Terjemahkan kutipan-kutipan itu ke bahasa Indonesia dan gunakan nama kitab “1 Petrus”, dengan rujukan 3:7 tetap.",
+      "translation_quote": "Kedua kutipan masih berbahasa Inggris; rujukan pertama ditulis “1 Peter 3:7”."
+    },
+    {
+      "location": "HTML, bagian 9, kutipan Mazmur 144:12",
+      "severity": "major",
+      "source_quote": "“That our sons may be as plants grown up in their youth; that our daughters may be as corner stones, polished after the similitude of a palace.”",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke bahasa Indonesia; pertahankan rujukan Mazmur 144:12.",
+      "translation_quote": "Kutipan Mazmur 144:12 tetap seluruhnya berbahasa Inggris."
+    },
+    {
+      "location": "HTML, bagian 10, kutipan Efesus 5:24-29 dan kutipan pendek sesudahnya",
+      "severity": "major",
+      "source_quote": "Kutipan panjang yang dimulai “Therefore as the church is subject unto Christ” (Ephesians 5:24-29), serta kutipan “Husbands, love your wives, even as Christ also loved the church”.",
+      "suggested_fix": "Terjemahkan kedua kutipan ke bahasa Indonesia dan gunakan nama kitab “Efesus”; pertahankan rujukan 5:24-29.",
+      "translation_quote": "Kedua kutipan masih berbahasa Inggris; rujukan ditulis “Ephesians 5:24-29”."
+    },
+    {
+      "location": "Metadata, section",
+      "severity": "major",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Terjemahkan nama bagian, misalnya “INSPIRASI BAGI KAUM MUDA”.",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

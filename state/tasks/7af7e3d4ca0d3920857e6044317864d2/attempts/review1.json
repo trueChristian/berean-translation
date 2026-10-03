@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third paragraph, quotation attributed to Nelson Mandela\",\"severity\":\"major\",\"source_quote\":\"“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”\",\"suggested_fix\":\"Translate the quotation into Spanish, preserving its meaning and punctuation. For example: “El fracaso es un maestro y, al final de tu vida, ¿qué crees que lamentarás más: haber fracasado o no haberlo intentado nunca?”\",\"translation_quote\":\"“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”\"},{\"location\":\"Title and section metadata\",\"severity\":\"major\",\"source_quote\":\"title: “From the Editor”; section: “From the EDITOR”\",\"suggested_fix\":\"Translate both metadata fields into Spanish, for example, title: “Del editor”; section: “DEL EDITOR”.\",\"translation_quote\":\"title: “From the Editor”; section: “From the EDITOR”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1024,
+    "content_evidence_truncated": false,
+    "content_sha256": "f5d34f41884ef9178dfe3c150dda4d066d7f8f18538f3b9e962201e36e6bf30c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 359,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3013,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3010,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3615
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

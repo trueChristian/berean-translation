@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f2c5ae49-a043-405b-8881-ed0d7741043d",
+    "response_id": "chatcmpl-EUxcetMgFSsHf0UA4M0RQB6XhbgBf",
+    "usage": {
+      "completion_tokens": 588,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 414,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1625,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1622,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2213
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, third stanza, third line",
+        "severity": "major",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Replace with «Inclinaos con temor reverencial y santo-» to convey awe-filled reverence rather than something fearsome.",
+        "translation_quote": "Inclinaos en temible y santa reverencia-"
+      },
+      {
+        "location": "HTML, image alt text",
+        "severity": "minor",
+        "source_quote": "during a vivid sunset",
+        "suggested_fix": "Use «durante una puesta de sol de colores intensos» (or another natural equivalent); this also corrects the feminine article before «atardecer» if that word is retained.",
+        "translation_quote": "durante una atardecer vívido"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

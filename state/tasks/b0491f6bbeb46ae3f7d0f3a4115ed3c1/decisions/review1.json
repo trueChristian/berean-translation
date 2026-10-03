@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "article.html, the quotation beginning “I Romerne leser vi”",
+      "severity": "critical",
+      "source_quote": "The complete quotation from Romans 1:18-32, printed in English, followed by “(Romans 1:18-32)”",
+      "suggested_fix": "Translate the quoted passage into Norwegian Bokmål, preserving its meaning and extent, and render the reference as “(Romerne 1:18-32)”. Keep the quotation inside the existing <p> and preserve the reference’s placement.",
+      "translation_quote": "The complete quotation is left in English, ending “(Romans 1:18-32).”"
+    },
+    {
+      "location": "article.html, the quotation beginning “Den kristne tror at himmelens Gud er årsaken til alt”",
+      "severity": "critical",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "Translate the quoted sentence into Norwegian Bokmål, faithfully retaining its meaning, and render the reference as “(Kolosserne 1:16)”. Keep it inside the existing <p> in the same position.",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+    },
+    {
+      "location": "article.html, the quotation in the paragraph beginning “Kristne tror de bare er tjenere”",
+      "severity": "critical",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Translate the quoted sentence into Norwegian Bokmål and render the reference in Norwegian as “(Johannes 15:18)”, preserving its placement within the quotation.",
+      "translation_quote": "«If the world hate you, ye know that it hated me before it hated you. (John 15:18)»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "398475d9-1caf-4610-b43d-b2c036634ce0",
+    "response_id": "chatcmpl-EUxZMnnpk4p76lN1Ewl1ywpj9tmDP",
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 617,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3314,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4438
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 2",
+        "severity": "major",
+        "source_quote": "Christian Aid Ministries’ first Annual Writers’ Conference",
+        "suggested_fix": "Replace “क्रिश्चियन एड मिशनरीज़ की पहली वार्षिक लेखकों की सम्मेलन” with “क्रिश्चियन एड मिनिस्ट्रीज़ के पहले वार्षिक लेखक सम्मेलन” to retain the organization’s name and correct the Hindi agreement.",
+        "translation_quote": "क्रिश्चियन एड मिशनरीज़ की पहली वार्षिक लेखकों की सम्मेलन"
+      },
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "major",
+        "source_quote": "help spread the Good News of the Word of God with caution, correction, and edification",
+        "suggested_fix": "Replace “सावधानी, सुधार, और प्रेरणा” with “सावधानी, सुधार और आत्मिक उन्नति” (or another faithful equivalent for “edification”); “प्रेरणा” changes the source’s sense of building up.",
+        "translation_quote": "सावधानी, सुधार, और प्रेरणा"
+      },
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "minor",
+        "source_quote": "Seasoned grandfathers who bring words of admonishment to the younger generation.",
+        "suggested_fix": "Change “अनुभवी दादा-दादी” to “अनुभवी दादाजी” or “अनुभवी दादा” so the translation preserves the source’s specific reference to grandfathers.",
+        "translation_quote": "अनुभवी दादा-दादी जो युवा पीढ़ी को उपदेशमय शब्द दें।"
+      },
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "minor",
+        "source_quote": "Together, these aspiring writers will produce a periodical",
+        "suggested_fix": "Correct the Hindi agreement in “ये आकांक्षी लेखकों एक ऐसा पत्रिका” to “ये आकांक्षी लेखक एक ऐसी पत्रिका”.",
+        "translation_quote": "ये आकांक्षी लेखकों एक ऐसा पत्रिका तैयार करेंगे"
+      },
+      {
+        "location": "HTML, paragraph 4",
+        "severity": "minor",
+        "source_quote": "help readers navigate through the varied and difficult seasons of life",
+        "suggested_fix": "For more idiomatic Hindi, replace “जीवन के विविध और कठिन मौसमों से नेविगेट करने” with “जीवन के विविध और कठिन दौरों से राह पाने”.",
+        "translation_quote": "जीवन के विविध और कठिन मौसमों से नेविगेट करने में मदद करे"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

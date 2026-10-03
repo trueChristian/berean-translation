@@ -1,0 +1,135 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3e42fb77-05f3-4d0b-b615-05b05cf26a81",
+    "response_id": "chatcmpl-EUxa8kuXYvJeDksWZ4Uh5axGdepVp",
+    "usage": {
+      "completion_tokens": 1543,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3182,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3179,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4725
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "শিরোনামটি বাংলায় অনুবাদ করুন, যেমন: “কাজ ফেলে রাখার চাপে নাজেহাল”।",
+        "translation_quote": "Procrastination Overload"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "বিভাগ-শিরোনামটি বাংলায় অনুবাদ করুন, যেমন: “বোনে বোনে”।",
+        "translation_quote": "SISTER TO SISTER"
+      },
+      {
+        "location": "প্যারাগ্রাফ 2",
+        "severity": "major",
+        "source_quote": "“By the time the last minute things are completed I’m too exhausted to enjoy the planned event.”",
+        "suggested_fix": "লিখুন: “শেষ মুহূর্তের কাজগুলো শেষ হতে হতে আমি এতটাই ক্লান্ত হয়ে পড়ি যে পরিকল্পিত অনুষ্ঠানটি উপভোগ করতে পারি না।”",
+        "translation_quote": "“শেষ মুহূর্তের কাজগুলি শেষ হওয়ার সময় পর্যন্ত আমি এত ক্লান্ত হয়ে যাই যে পরিকল্পিত অনুষ্ঠানটি উপভোগ করাও কঠিন হয়ে পড়ে।”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 3",
+        "severity": "major",
+        "source_quote": "“It is a mystery to me why a family member ends up in a dentist chair a day or two before we leave on a trip.”",
+        "suggested_fix": "লিখুন: “ভ্রমণে রওনা হওয়ার এক-দুদিন আগে পরিবারের কেউ কেন শেষ পর্যন্ত দাঁতের ডাক্তারের চেয়ারে গিয়ে বসে, তা আমার কাছে রহস্য।”",
+        "translation_quote": "“আমার কাছে এটি রহস্যবশত কেন কোনো পরিবারের কেউ ভ্রমণের এক-দুই দিন আগে দাঁতের ডাক্তারের চেয়ারে শেষ পর্যন্ত পৌঁছে যায়।”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 3",
+        "severity": "major",
+        "source_quote": "“the frustration of an unplanned trip to the dentist at an inopportune time is riveted in my mind.”",
+        "suggested_fix": "লিখুন: “অনুপযুক্ত সময়ে পরিকল্পনাবহির্ভূতভাবে দাঁতের ডাক্তারের কাছে যাওয়ার হতাশার কথা আমার মনে গেঁথে আছে।”",
+        "translation_quote": "“অপ্রত্যাশিতভাবে অনুকূল না এমন সময়ে ডেন্টিস্টের কাছে যাওয়ার হতাশা আমার মনে জড়িয়ে আছে।”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 3",
+        "severity": "major",
+        "source_quote": "“If it is not a dental emergency, some other issue is bound to fill that time slot.”",
+        "suggested_fix": "লিখুন: “দাঁতের জরুরি সমস্যা না হলে, অন্য কোনো সমস্যা যে ওই সময়টা নিয়ে নেবে, তা নিশ্চিত।”",
+        "translation_quote": "“যদি দাঁতের জরুরি অবস্থা না হয়, অন্য কোনো সমস্যাই সেই সময়স্লটটি পূরণ করবে বলে বলাব্য।”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 4",
+        "severity": "major",
+        "source_quote": "“Deadlines are a normal part of life.”",
+        "suggested_fix": "লিখুন: “সময়সীমা জীবনের একটি স্বাভাবিক অংশ।”",
+        "translation_quote": "“ডেডলাইনে থাকা জীবনের একটি স্বাভাবিক অংশ।”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 6",
+        "severity": "major",
+        "source_quote": "“Often, we blame it on interruptions and fail to realize that poor planning or procrastination might have been the culprit.”",
+        "suggested_fix": "লিখুন: “প্রায়ই আমরা এর জন্য বাধাকে দায়ী করি এবং বুঝতে পারি না যে খারাপ পরিকল্পনা বা কাজ ফেলে রাখাই হয়তো এর কারণ।”",
+        "translation_quote": "“প্রায়ই, আমরা এটিকে ব্যাঘাতের উঃপরে চাপিয়ে দিই এবং বুঝতে পারি না যে খারাপ পরিকল্পনা বা পিছে ঠেলা আমাদের দোষী হয়ে থাকতে পারে।”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 7",
+        "severity": "major",
+        "source_quote": "“wash windows and make a dessert along with a dozen more tasks”",
+        "suggested_fix": "লিখুন: “জানালা ধোয়া ও একটি মিষ্টান্ন তৈরি করাসহ আরও ডজনখানেক কাজ”। “windows” এখানে জানালা—জানালার ঝাঁকনা নয়।",
+        "translation_quote": "“জানালার ঝাকনা মুছব এবং একটি মিষ্টান্ন তৈরি করব সহ আরও ডজনখানেক কাজ”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 8",
+        "severity": "major",
+        "source_quote": "“schedule window washing and dessert another day”",
+        "suggested_fix": "লিখুন: “জানালা ধোয়া ও মিষ্টান্ন তৈরির কাজ অন্য দিনের জন্য রাখা যায় না কেন?”",
+        "translation_quote": "“কেন না জানালার ঝাকনা করা এবং মিষ্টান্ন অন্য দিনে নির্ধারণ করা হবে?”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 10",
+        "severity": "major",
+        "source_quote": "“packing suitcases a day before a trip versus the day of leaving”",
+        "suggested_fix": "লিখুন: “রওনা হওয়ার দিন স্যুটকেস গোছানোর বদলে ভ্রমণের এক দিন আগে গোছাতে শুরু করেছিলাম।”",
+        "translation_quote": "“ভ্রমণের এক দিন আগে স্যুটকেস প্যাক করা শুরু করেছিলাম, যেটা ছাড়ার দিনেই করার পরিবর্তে।”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 12",
+        "severity": "major",
+        "source_quote": "“Dropping a task is difficult for a perfectionist”",
+        "suggested_fix": "লিখুন: “যিনি সবকিছু নিখুঁতভাবে করতে চান, তাঁর পক্ষে কোনো কাজ বাদ দেওয়া কঠিন”।",
+        "translation_quote": "“একটি নিখুঁততা-প্রীত মানুষর জন্য কোনো কাজ বাদ দেওয়া কঠিন”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 13",
+        "severity": "major",
+        "source_quote": "“Deep cleaning my kitchen is a task that I do not enjoy.”",
+        "suggested_fix": "লিখুন: “আমার রান্নাঘর ভালোভাবে পরিষ্কার করা এমন একটি কাজ, যা করতে আমি পছন্দ করি না।”",
+        "translation_quote": "“রেস্তোরাঁর মতো আমার রান্নাঘর গভীরভাবে পরিষ্কার করা এমন একটি কাজ যা আমি উপভোগ করি না।”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 14",
+        "severity": "major",
+        "source_quote": "“clean appliances, wipe out cupboards, and wash windows”",
+        "suggested_fix": "লিখুন: “যন্ত্রপাতি পরিষ্কার করো, আলমারি মুছে পরিষ্কার করো, আর জানালা ধোও”।",
+        "translation_quote": "“যন্ত্রপাতি পরিষ্কার কর, আলमारी মুছা, এবং জানালা ধো”"
+      },
+      {
+        "location": "প্যারাগ্রাফ 15",
+        "severity": "major",
+        "source_quote": "“A few minor changes can make the biggest difference between a blessed or stressed last minute.”",
+        "suggested_fix": "লিখুন: “কয়েকটি ছোট পরিবর্তনই আশীর্বাদময় ও চাপপূর্ণ শেষ মুহূর্তের মধ্যে বড় পার্থক্য গড়ে দিতে পারে।”",
+        "translation_quote": "“কয়েকটি ছোট পরিবর্তনই শেষ মুহূর্তকে আশীর্বাদপ্রাপ্ত বা চাপগ্রস্তের মধ্যে বড় পার্থক্য করতে পারে।”"
+      }
+    ],
+    "passed": false,
+    "score": 66
+  }
+}

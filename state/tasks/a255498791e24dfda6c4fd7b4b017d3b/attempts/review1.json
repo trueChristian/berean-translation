@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 3, Nelson Mandela quotation\",\"severity\":\"major\",\"source_quote\":\"“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”\",\"suggested_fix\":\"Vertaal die aangehaalde woorde in Afrikaans, byvoorbeeld: “Mislukking is ’n leermeester, en aan die einde van jou lewe, waaroor dink jy sal jy die slegste voel: omdat jy misluk het, of omdat jy nooit probeer het nie?”\",\"translation_quote\":\"“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”\"},{\"location\":\"HTML paragraph 3, sentence beginning “Fathers”\",\"severity\":\"major\",\"source_quote\":\"Fathers who with a concerned eye watch the world pressing in on the Christian homes.\",\"suggested_fix\":\"Vervang “Vaderfigure” met “Vaders” om die bron se verwysing na fathers te behou.\",\"translation_quote\":\"Vaderfigure wat met ’n bewerkte oog die wêreld sien inbeweeg op die Christelike huise.\"},{\"location\":\"HTML paragraph 3, same sentence\",\"severity\":\"major\",\"source_quote\":\"with a concerned eye watch the world pressing in on the Christian homes\",\"suggested_fix\":\"Gebruik byvoorbeeld “wat met ’n besorgde oog toekyk hoe die wêreld al hoe meer op Christelike huise druk”.\",\"translation_quote\":\"wat met ’n bewerkte oog die wêreld sien inbeweeg op die Christelike huise\"},{\"location\":\"HTML paragraph 2, sentence about meeting authors\",\"severity\":\"minor\",\"source_quote\":\"I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.\",\"suggested_fix\":\"Vervang “Ek het skouers geboen met” met die idiomatiese “Ek het skouers geskuur met”.\",\"translation_quote\":\"Ek het skouers geboen met bekende outeurs soos Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox.\"},{\"location\":\"HTML paragraph 1, opening sentence\",\"severity\":\"minor\",\"source_quote\":\"the tantalizing cacophony of odors\",\"suggested_fix\":\"Vervang “versoekende kakofonie van reuke” met byvoorbeeld “aanloklike kakofonie van geure”.\",\"translation_quote\":\"die versoekende kakofonie van reuke\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 2184,
+    "content_evidence_truncated": false,
+    "content_sha256": "c9c0258204becd0f36e8923f3a4d5c958dd8496adf20c11f5622ca7129229d5f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1021,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 484,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3219,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3216,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4240
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

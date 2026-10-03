@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 6\",\"severity\":\"major\",\"source_quote\":\"These articles were a sincere effort to examine various aspects of vaccine usage with an unbiased approach.\",\"suggested_fix\":\"Replace « avec une approche équilibrée » with « avec une approche impartiale » to preserve the source’s claim of an unbiased approach.\",\"translation_quote\":\"Ces articles étaient un effort sincère pour examiner divers aspects de l’utilisation des vaccins avec une approche équilibrée.\"},{\"location\":\"HTML, paragraph 3\",\"severity\":\"major\",\"source_quote\":\"Mothers who share experiences and trials with other mothers who are in the throes of raising little ones.\",\"suggested_fix\":\"Replace « en plein élevage des tout-petits » with « qui sont aux prises avec l’éducation de jeunes enfants » (or another idiomatic equivalent conveying the demands of raising little ones).\",\"translation_quote\":\"De mères qui partagent expériences et épreuves avec d’autres mères en plein élevage des tout-petits.\"},{\"location\":\"HTML, paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"descriptive writing\",\"suggested_fix\":\"Change « un écriture descriptive » to « une écriture descriptive » or « une rédaction descriptive ».\",\"translation_quote\":\"un écriture descriptive\"},{\"location\":\"HTML, paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"a periodical\",\"suggested_fix\":\"Change « une périodique » to « un périodique » or, more idiomatically, « une revue ».\",\"translation_quote\":\"une périodique\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1549,
+    "content_evidence_truncated": false,
+    "content_sha256": "c5813fe8ca34e47f1fd62ddcfdacd22959c4074eaa8fd5e50abf5fbe0d22925b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 894,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 552,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3116,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3113,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4010
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

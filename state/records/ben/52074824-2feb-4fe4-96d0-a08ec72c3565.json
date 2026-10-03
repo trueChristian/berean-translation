@@ -42,6 +42,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "e3f76eab5313453f952ffbc3ec381b79"
+    },
+    {
+      "at": "2026-10-03T18:43:07+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "e3f76eab5313453f952ffbc3ec381b79"
     }
   ],
   "language": "ben",
@@ -56,12 +62,12 @@
     "metadata_sha256": "f45d5f4b097da87034e94aa85babb74df04c1e5ec736fbe3077d1bbe8eef5f4f",
     "model": "gpt-6.1-sol",
     "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"bn\" dir=\"ltr\" role=\"note\">\n  <p>এই নিবন্ধটি OpenAI (মডেল: gpt-6.1-sol) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন। <a href=\"/en/articles/52074824-2feb-4fe4-96d0-a08ec72c3565/\" data-source-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\" hreflang=\"en\">মূল ইংরেজি পাঠ</a></p>\n</aside>",
-    "published_at": "2026-10-03T11:26:54+00:00",
-    "quality_score": 100,
-    "review_model": "gpt-6.1-sol",
-    "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
-    "source_snapshot": "state/sources/5f853044811aade09085f08c69f2a4b352dc7a1f297a90dd37237c517f3f9904.json",
-    "task": "c9b62536f0b82435428d6d737cd346ad",
+    "published_at": "2026-10-03T18:43:07+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
+    "task": "e3f76eab5313453f952ffbc3ec381b79",
     "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e"
   }
 }

@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b59b7ea4-87c8-487e-a04c-03e525c4ad9d",
+    "response_id": "chatcmpl-EUxYNRoape8Lp0lx5ucfg7znl8lyT",
+    "usage": {
+      "completion_tokens": 938,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6719,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7660
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.section",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Översätt avdelningsrubriken, till exempel: ”EN MISSIONÄRS FUNDERINGAR”.",
+        "translation_quote": "MUSINGS OF A MISSIONARY"
+      },
+      {
+        "location": "translation.html, första stycket",
+        "severity": "minor",
+        "source_quote": "Or a better question might be, have you seen God working in your life?",
+        "suggested_fix": "Ändra till ”Eller en bättre fråga kanske är: har du sett Gud verka i ditt liv?”",
+        "translation_quote": "Eller en bättre fråga kanske är: har du sett Gud verka i ditt liv?"
+      },
+      {
+        "location": "translation.html, första citatet i andra stycket",
+        "severity": "major",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Översätt citatet till idiomatisk svenska och bevara dess innebörd, exempelvis: ”En del planterar, en del vattnar, men Gud får det att växa.”",
+        "translation_quote": "”Viss planta, viss vatten, men Gud ger tillväxten.”"
+      },
+      {
+        "location": "translation.html, Romarbrevet-citatet",
+        "severity": "critical",
+        "source_quote": "In Romans, we read, “For the wrath of God is revealed from heaven ... that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32).",
+        "suggested_fix": "Översätt hela det citerade bibelstycket till svenska med bibehållen innebörd, och ändra referensen till konventionell svensk bokform med samma nummer: ”(Romarbrevet 1:18-32)”. Bevara styckets befintliga HTML-struktur.",
+        "translation_quote": "I Romarbrevet läser vi, “For the wrath of God is revealed from heaven ... that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32)."
+      },
+      {
+        "location": "translation.html, stycket som inleds ”Så hur kan man vara humanist”",
+        "severity": "minor",
+        "source_quote": "This is where we hit a little closer to home.",
+        "suggested_fix": "Ändra idiomet till exempelvis ”Här kommer vi lite närmare vår egen verklighet.”",
+        "translation_quote": "Här kommer vi lite närmare hemma."
+      },
+      {
+        "location": "translation.html, stycket som inleds ”När något händer”",
+        "severity": "minor",
+        "source_quote": "requires supernatural intervention",
+        "suggested_fix": "Ändra till ”kräver övernaturligt ingripande”.",
+        "translation_quote": "kräver övernaturlig ingripande"
+      },
+      {
+        "location": "translation.html, citatet med Kolosserbrevet 1:16",
+        "severity": "critical",
+        "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+        "suggested_fix": "Översätt hela citatet till svenska, troget källtextens tryckta innebörd, och använd svensk bokform för referensen utan att ändra numren: ”(Kolosserbrevet 1:16)”.",
+        "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+      },
+      {
+        "location": "translation.html, stycket som inleds ”Kristna anser sig”",
+        "severity": "critical",
+        "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+        "suggested_fix": "Översätt det citerade bibelcitatet till svenska och skriv referensen i svensk bokform med oförändrat kapitel och vers: ”(Johannes 15:18)”.",
+        "translation_quote": "”If the world hate you, ye know that it hated me before it hated you. (John 15:18)”"
+      }
+    ],
+    "passed": false,
+    "score": 67
+  }
+}

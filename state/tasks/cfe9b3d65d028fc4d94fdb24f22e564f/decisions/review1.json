@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Temo que estamos cayendo…”",
+      "severity": "minor",
+      "source_quote": "We talk the talk; we say we believe in God.",
+      "suggested_fix": "Replace “Hablamos la palabra” with “Decimos que creemos en Dios” only if restructuring the sentence, or more closely: “Hablamos mucho; decimos que creemos en Dios.”",
+      "translation_quote": "Hablamos la palabra; decimos que creemos en Dios."
+    },
+    {
+      "location": "Paragraph beginning “El cristiano se niega a sí mismo…”",
+      "severity": "minor",
+      "source_quote": "he is merely dust",
+      "suggested_fix": "Change “es mera polvo” to “es mero polvo”.",
+      "translation_quote": "es mera polvo"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,10 +2,89 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": "9f685562bd3266ceee96f8ccae38fa6fc8aa6497075307a8e77736c853a0f000",
   "base_metadata_sha256": "84bc7e0eaddbeb5162a8ee216b899fdfb48fd24629c12a82e88aea5b4269e5da",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 509,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1627,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1624,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2136
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Erste Strophe, Zeile 3",
+      "severity": "major",
+      "source_quote": "The Dayspring shineth from on high,",
+      "suggested_fix": "Der Morgenanbruch leuchtet von oben herab,",
+      "translation_quote": "Der Morgenstern leuchtet von oben herab,"
+    },
+    {
+      "location": "Erste Strophe, Zeile 6",
+      "severity": "major",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Dankt und lobt, denn mehr ist da!",
+      "translation_quote": "Danksagung und Lob – denn noch mehr ist hier!"
+    },
+    {
+      "location": "Zweite Strophe, Zeile 2",
+      "severity": "major",
+      "source_quote": "Extol and praise His worthy name!",
+      "suggested_fix": "Rühmt und preist seinen würdigen Namen!",
+      "translation_quote": "Erhebe und preise seinen würdigen Namen!"
+    },
+    {
+      "location": "Zweite Strophe, Zeile 5",
+      "severity": "major",
+      "source_quote": "His mercy reaches down to men-",
+      "suggested_fix": "Seine Barmherzigkeit reicht hinab zu den Menschen-",
+      "translation_quote": "Seine Barmherzigkeit reicht hinab zu den Menschen-"
+    },
+    {
+      "location": "Zweite Strophe, Zeile 6",
+      "severity": "major",
+      "source_quote": "Adore and praise our mighty Lord!",
+      "suggested_fix": "Betet unseren mächtigen Herrn an und preist ihn!",
+      "translation_quote": "Anbete und preise unseren mächtigen Herrn!"
+    },
+    {
+      "location": "Dritte Strophe, Zeile 1",
+      "severity": "major",
+      "source_quote": "Give thanks and sing to Christ our King",
+      "suggested_fix": "Dankt und singt Christus, unserem König,",
+      "translation_quote": "Danket und singet Christus, unserem König"
+    },
+    {
+      "location": "Dritte Strophe, Zeile 3",
+      "severity": "major",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Beugt euch in heiliger Ehrfurcht nieder-",
+      "translation_quote": "Beugt euch in scheuer, heiliger Furcht-"
+    },
+    {
+      "location": "Dritte Strophe, Zeile 6",
+      "severity": "major",
+      "source_quote": "Adore th’ almighty King of Kings!",
+      "suggested_fix": "Betet den allmächtigen König der Könige an!",
+      "translation_quote": "Anbetet den allmächtigen König der Könige!"
+    }
+  ],
   "id": "6a8fd4df5497e9b6aea0a739200230ca",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -94,11 +173,13 @@
     }
   },
   "protected": false,
+  "quality_score": 75,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7e4377db0d65abeff417aa9deee1a21496eb8249b5901b6b1a4f32f9b38cd090.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

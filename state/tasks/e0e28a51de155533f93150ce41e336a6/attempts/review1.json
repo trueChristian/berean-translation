@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “A veces este tipo de sobrecarga…”\",\"severity\":\"major\",\"source_quote\":\"Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.\",\"suggested_fix\":\"Replace «Los eventos traumáticos en nuestros círculos a la vista suelen recibir oración, ayuda financiera y actualizaciones semanales del presupuesto» with «Los acontecimientos traumáticos en nuestras comunidades de vida sencilla suelen recibir oración, apoyo económico y actualizaciones semanales del presupuesto»; adjust wording as needed to preserve the sense of “plain circles.”\",\"translation_quote\":\"Los eventos traumáticos en nuestros círculos a la vista suelen recibir oración, ayuda financiera y actualizaciones semanales del presupuesto.\"},{\"location\":\"HTML, paragraph beginning “Dilo.”\",\"severity\":\"major\",\"source_quote\":\"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\",\"suggested_fix\":\"Translate the quoted Scripture into Spanish, for example: «El llanto puede durar toda la noche, pero a la mañana vendrá la alegría» (Salmo 30:5).\",\"translation_quote\":\"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\"},{\"location\":\"HTML, final paragraph\",\"severity\":\"major\",\"source_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\"suggested_fix\":\"Translate the quoted Scripture into Spanish, for example: «En ti, oh SEÑOR, he confiado; no sea yo confundido jamás» (Salmo 71:1).\",\"translation_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 1709,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d35917494650b8bdc153a90b5ceed7eb6214825560a8509f561a7931d58205a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 296,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3923,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3920,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4621
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

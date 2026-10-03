@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2a117e5a-04cd-41fb-af58-9c282abef0b6",
+    "response_id": "chatcmpl-EUxZqqffTxPGGtkLexTmkH3laFvta",
+    "usage": {
+      "completion_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 259,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2840,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2837,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3225
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.section",
+        "severity": "major",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Translate the section label into Dutch, for example: “ZUS TOT ZUS”.",
+        "translation_quote": "SISTER TO SISTER"
+      },
+      {
+        "location": "translation.title",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Use a natural Dutch title such as “Overbelasting door uitstelgedrag”.",
+        "translation_quote": "Uitstelgedrag Overbelast"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

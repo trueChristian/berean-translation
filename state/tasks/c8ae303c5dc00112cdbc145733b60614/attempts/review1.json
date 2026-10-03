@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraf setelah judul “Ubah Situasi Menit Terakhir”\",\"severity\":\"minor\",\"source_quote\":\"“plan” for a bee sting and a stubbed toe?\",\"suggested_fix\":\"Ganti “tersandung jari kaki” dengan “jari kaki terbentur”: <p>Sebagai contoh, jika tamu akan datang dan kita berencana mencuci jendela dan membuat makanan penutup bersama dengan selusin tugas lainnya pada hari kedatangan mereka, tidak ada ruang untuk gangguan. Dari pengalaman, kita tahu gangguan pasti akan datang. Jadi, bukankah lebih baik “merencanakan” sengatan lebah dan jari kaki terbentur?</p>\",\"translation_quote\":\"“merencanakan” sengatan lebah dan tersandung jari kaki?\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 719,
+    "content_evidence_truncated": false,
+    "content_sha256": "28fbc1aa4de5fdde976ea8833e2c5225752ce2d1c45cd72832e6c3933d8a8db3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 392,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2858,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2855,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3447
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

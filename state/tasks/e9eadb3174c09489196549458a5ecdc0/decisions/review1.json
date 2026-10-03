@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "critical",
+      "source_quote": "The complete quoted passage ending “have pleasure in them that do them” (Romans 1:18-32).",
+      "suggested_fix": "Translate the full quoted passage into contemporary Modern Greek, preserving its meaning and the reference as Ρωμαίους 1:18–32.",
+      "translation_quote": "The entire Romans quotation remains in English, including “For the wrath of God is revealed…” and the reference “(Romans 1:18-32).”"
+    },
+    {
+      "location": "Colossians 1:16 quotation",
+      "severity": "critical",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "Translate the quoted sentence into contemporary Modern Greek and render the reference in Greek as Κολοσσαείς 1:16.",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+    },
+    {
+      "location": "John 15:18 quotation",
+      "severity": "critical",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Translate the quotation into contemporary Modern Greek and render the reference as Ιωάννης 15:18, preserving its placement within the quotation.",
+      "translation_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”"
+    },
+    {
+      "location": "Paragraph beginning “Οι χριστιανοί πιστεύουν…”",
+      "severity": "major",
+      "source_quote": "“To God, they are His dear children.”",
+      "suggested_fix": "Replace «Φωνακλάδες» with a translation meaning “fools,” such as «ανόητοι», to preserve the source’s contrast: strange, fools to the world, dear children to God.",
+      "translation_quote": "«Για τον κόσμο, είναι περίεργοι. Φωνακλάδες. Για τον Θεό, είναι τα αγαπημένα Του παιδιά.»"
+    },
+    {
+      "location": "Paragraph beginning “Ένας υπουργός από την Κίνα…”",
+      "severity": "major",
+      "source_quote": "“A minister from China was visiting the churches in America.”",
+      "suggested_fix": "Use «ιερέας» or «λειτουργός» rather than «υπουργός», which means a government minister in Greek in this context.",
+      "translation_quote": "«Ένας υπουργός από την Κίνα επισκεπτόταν τις εκκλησίες στην Αμερική.»"
+    },
+    {
+      "location": "Paragraph beginning “Να ένα παράδειγμα…”",
+      "severity": "major",
+      "source_quote": "“He, too, went out each day and watered, pruned, weeded, and fertilized.”",
+      "suggested_fix": "Translate the final action as fertilizing the garden, for example «πότιζε, κλάδευε, ξεχορτάριαζε και λίπαινε».",
+      "translation_quote": "«Αυτός επίσης έβγαινε κάθε μέρα και πότιζε, κλάδευε, έβγαζε ζιζάνια και λίπασμα.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

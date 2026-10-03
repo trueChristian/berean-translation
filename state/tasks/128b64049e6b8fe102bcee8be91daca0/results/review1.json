@@ -1,0 +1,93 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "685b1d04-f12e-493b-ae22-8f936214cb0a",
+    "response_id": "chatcmpl-EUxYMrth6cqlOWNIHLzzQl4nGPCu5",
+    "usage": {
+      "completion_tokens": 933,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3569,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3566,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4502
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, third paragraph",
+        "severity": "major",
+        "source_quote": "But Kenny had a way of avoiding earshot.",
+        "suggested_fix": "Replace the sentence with: “पर केनी इस तरह बच निकलने का तरीका जानता था कि उसकी बातें उनकी सुनने की पहुँच से बाहर रहें।”",
+        "translation_quote": "पर केनी ढूँढ़ निकालने के बावजूद सुनने से बच निकलने का तरीका जानता था।"
+      },
+      {
+        "location": "translation.html, seventh paragraph",
+        "severity": "major",
+        "source_quote": "There was a chill in the air as he tramped up over the lawn",
+        "suggested_fix": "Use a Hindi rendering that conveys him tramping across/up over the lawn, for example: “जब वह लॉन पार करते हुए भारी कदमों से चला, हवा ठंडी थी...”",
+        "translation_quote": "जब वह लॉन पर चढ़ते हुए पैरों से आहिस्ता-आहिस्ता हुआ"
+      },
+      {
+        "location": "translation.html, seventh paragraph",
+        "severity": "major",
+        "source_quote": "His golden head caught the tired beams that fled from the sun as they flickered through the trees.",
+        "suggested_fix": "Restore that the golden light fell on Jamin’s head/hair: “उसके सुनहरे सिर पर सूरज से आती थकी हुई किरणें पड़ती थीं, जो पेड़ों के बीच से झिलमिलाती हुई निकल रही थीं।”",
+        "translation_quote": "उसके सुनहरे बालों पर पेड़ों से छनकर आने वाली थकी हुई किरणें पड़ रही थीं।"
+      },
+      {
+        "location": "translation.html, ninth paragraph",
+        "severity": "major",
+        "source_quote": "The heap’s face was lit in pain. The heap was Kenny.",
+        "suggested_fix": "Translate the face as lit/illuminated by pain, without changing it to being exposed: “उस ढेर का चेहरा दर्द से दमक रहा था। वह ढेर केनी था।”",
+        "translation_quote": "उस गठरी का चेहरा दर्द से उजागर था। वह गठरी केनी ही थी।"
+      },
+      {
+        "location": "translation.html, tenth paragraph",
+        "severity": "major",
+        "source_quote": "I..I wasn’t looking where I was going.",
+        "suggested_fix": "Translate the speaker’s failure to watch where he was going: “मैं... मैं जहाँ जा रहा था, वहाँ देख नहीं रहा था।”",
+        "translation_quote": "मैं..मैं देख नहीं रहा था जहाँ जा रहा था।"
+      },
+      {
+        "location": "translation.html, eleventh paragraph",
+        "severity": "major",
+        "source_quote": "Jamin bent and found an ankle firmly held in the jaws of a steel trap.",
+        "suggested_fix": "Use “टखना” rather than “एड़ी,” e.g. “जैमिन झुका और देखा कि स्टील के जाल के जबड़ों में एक टखना मज़बूती से फँसा था।”",
+        "translation_quote": "जैमिन झुका और पाया कि एक एड़ी को स्टील के जाल की जबड़ों ने मजबूती से पकड़ा हुआ था।"
+      },
+      {
+        "location": "translation.html, seventeenth paragraph",
+        "severity": "major",
+        "source_quote": "Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.",
+        "suggested_fix": "Restore that the father came to their side, saw the ankle, and lifted Kenny: “जैमिन ने जवाब दिया और उनके पिता पल भर में उनके पास आ गए। टखना देखकर उन्होंने घायल भेड़ की तरह केनी को उठा लिया।”",
+        "translation_quote": "जैमिन ने जवाब दिया, और वह कुछ ही क्षणों में उनके पास था, एड़ी देखकर और केनी को घायल भेड़ की तरह उठा लिया।"
+      },
+      {
+        "location": "translation.html, eighteenth paragraph",
+        "severity": "major",
+        "source_quote": "Jamin went to the wash house and scrubbed his hands.",
+        "suggested_fix": "Translate “scrubbed” as thorough rubbing/scrubbing, for example: “जैमिन धुलाईघर गया और अपने हाथ अच्छी तरह रगड़कर धोए।”",
+        "translation_quote": "जैमिन धुलाईघर गया और अपने हाथ धोए।"
+      },
+      {
+        "location": "translation.html, twenty-fourth paragraph",
+        "severity": "major",
+        "source_quote": "Grandma Otto rocked some more, then smiled.",
+        "suggested_fix": "Correct the verb to indicate that Grandma continued rocking: “दादी ऑट्टो थोड़ी देर और झूलती रहीं, फिर मुस्कुराईं।”",
+        "translation_quote": "दादी ऑट्टो थोड़ी और झूलियाँ। फिर मुस्कुराईं।"
+      }
+    ],
+    "passed": false,
+    "score": 74
+  }
+}

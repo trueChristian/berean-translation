@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate the section label into Dutch, for example: “ZUS TOT ZUS”.",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Use a natural Dutch title such as “Overbelasting door uitstelgedrag”.",
+      "translation_quote": "Uitstelgedrag Overbelast"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

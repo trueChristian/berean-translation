@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "47de1e22-60eb-4b91-9227-b86c93aec3bb",
+    "response_id": "chatcmpl-EUxaNaNjsj0AJ91Jl7btdQbuP9JgZ",
+    "usage": {
+      "completion_tokens": 437,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3584,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3581,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4021
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 7",
+        "severity": "major",
+        "source_quote": "“There was a chill in the air as he tramped up over the lawn, and the sun was growing old as he crossed the border of the woods.”",
+        "suggested_fix": "Replace “alipokuwa akipanda kupitia kwenye nyasi za uani” with “alipokuwa akivuka kwa hatua nzito eneo la nyasi za uani,” and replace “jua lilikuwa likielekea kutua” with “jua lilikuwa likichoka” or another rendering that preserves the image of the sun growing old.",
+        "translation_quote": "“Hewa ilikuwa na ubaridi alipokuwa akipanda kupitia kwenye nyasi za uani, na jua lilikuwa likielekea kutua alipovuka mpaka wa msitu.”"
+      },
+      {
+        "location": "Article, paragraph 11",
+        "severity": "major",
+        "source_quote": "“Jamin bent and found an ankle firmly held in the jaws of a steel trap.”",
+        "suggested_fix": "Change “mtego wa chuma cha pua” to “mtego wa chuma.”",
+        "translation_quote": "“Jamin aliinama na kuona kifundo cha mguu kimeshikwa kwa nguvu na taya za mtego wa chuma cha pua.”"
+      },
+      {
+        "location": "Article, paragraph 14",
+        "severity": "major",
+        "source_quote": "“The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.”",
+        "suggested_fix": "Revise the ending to preserve the screen door banging shut as Dad hurried across the porch; for example: “Kikundi hicho kidogo kisicho cha kawaida kiliharakisha kurudi nyumbani, na mlango wa wavu ukafungwa kwa kishindo Baba alipoharakisha kuvuka baraza.”",
+        "translation_quote": "“Kikundi hicho kidogo kisicho cha kawaida kiliharakisha kurudi nyumbani, na mlango wa wavu ukafungwa kwa kishindo Baba alipovuka baraza kwa haraka.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

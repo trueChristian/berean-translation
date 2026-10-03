@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “জনের বয়স যখন ১৭”—the job in Jamaica",
+      "severity": "major",
+      "source_quote": "a well-paying job overseeing a plantation",
+      "suggested_fix": "Replace “একটি বাগানের তত্ত্বাবধানে ভালো বেতনের চাকরি” with “একটি প্ল্যান্টেশনের তত্ত্বাবধানে ভালো বেতনের চাকরি” to preserve that the job was overseeing a plantation, not an ordinary garden.",
+      "translation_quote": "একটি বাগানের তত্ত্বাবধানে ভালো বেতনের চাকরি"
+    },
+    {
+      "location": "HTML, final paragraph—the tune’s original description",
+      "severity": "major",
+      "source_quote": "a plantation melody entitled “Loving Lambs”",
+      "suggested_fix": "Replace “একটি বাগানের সুর” with “একটি প্ল্যান্টেশনের সুর” so the description retains the source’s reference to a plantation melody.",
+      "translation_quote": "একটি বাগানের সুর হিসেবে পরিচিত ছিল"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

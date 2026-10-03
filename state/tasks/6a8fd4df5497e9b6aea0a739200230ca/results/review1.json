@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c5b9ab7d-fd3b-4db4-a523-6c4b1672e706",
+    "response_id": "chatcmpl-EUxYeMRcKNpXh5IIcST58HECI9XoN",
+    "usage": {
+      "completion_tokens": 509,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1627,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1624,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2136
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Erste Strophe, Zeile 3",
+        "severity": "major",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "Der Morgenanbruch leuchtet von oben herab,",
+        "translation_quote": "Der Morgenstern leuchtet von oben herab,"
+      },
+      {
+        "location": "Erste Strophe, Zeile 6",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Dankt und lobt, denn mehr ist da!",
+        "translation_quote": "Danksagung und Lob – denn noch mehr ist hier!"
+      },
+      {
+        "location": "Zweite Strophe, Zeile 2",
+        "severity": "major",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Rühmt und preist seinen würdigen Namen!",
+        "translation_quote": "Erhebe und preise seinen würdigen Namen!"
+      },
+      {
+        "location": "Zweite Strophe, Zeile 5",
+        "severity": "major",
+        "source_quote": "His mercy reaches down to men-",
+        "suggested_fix": "Seine Barmherzigkeit reicht hinab zu den Menschen-",
+        "translation_quote": "Seine Barmherzigkeit reicht hinab zu den Menschen-"
+      },
+      {
+        "location": "Zweite Strophe, Zeile 6",
+        "severity": "major",
+        "source_quote": "Adore and praise our mighty Lord!",
+        "suggested_fix": "Betet unseren mächtigen Herrn an und preist ihn!",
+        "translation_quote": "Anbete und preise unseren mächtigen Herrn!"
+      },
+      {
+        "location": "Dritte Strophe, Zeile 1",
+        "severity": "major",
+        "source_quote": "Give thanks and sing to Christ our King",
+        "suggested_fix": "Dankt und singt Christus, unserem König,",
+        "translation_quote": "Danket und singet Christus, unserem König"
+      },
+      {
+        "location": "Dritte Strophe, Zeile 3",
+        "severity": "major",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Beugt euch in heiliger Ehrfurcht nieder-",
+        "translation_quote": "Beugt euch in scheuer, heiliger Furcht-"
+      },
+      {
+        "location": "Dritte Strophe, Zeile 6",
+        "severity": "major",
+        "source_quote": "Adore th’ almighty King of Kings!",
+        "suggested_fix": "Betet den allmächtigen König der Könige an!",
+        "translation_quote": "Anbetet den allmächtigen König der Könige!"
+      }
+    ],
+    "passed": false,
+    "score": 75
+  }
+}

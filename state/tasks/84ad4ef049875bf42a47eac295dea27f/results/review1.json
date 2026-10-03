@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a54a4a68-6a40-4d12-bb95-f6c3d4360ed7",
+    "response_id": "chatcmpl-EUxZP70VtOYSySLH6kjWc0Fbzpuff",
+    "usage": {
+      "completion_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 355,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1636,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1633,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2150
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, third stanza, third line",
+        "severity": "major",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Böj er i helig, vördnadsfull fruktan—",
+        "translation_quote": "Böj er i fruktansvärd, helig fruktan—"
+      },
+      {
+        "location": "source.html, first stanza, final line",
+        "severity": "minor",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Tacka och lova, för här finns ännu mer!",
+        "translation_quote": "Tacka och lova, för mer är här!"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first stanza, third line\",\"severity\":\"major\",\"source_quote\":\"The Dayspring shineth from on high,\",\"suggested_fix\":\"Translate “Dayspring” as dawn or daybreak, for example: “De dageraad breekt aan van omhoog,” rather than “Morgenster,” which means “morning star.”\",\"translation_quote\":\"De Morgenster schijnt van hoogten neer,\"},{\"location\":\"HTML, third stanza, fifth line\",\"severity\":\"minor\",\"source_quote\":\"In wondrous beauty bend the knee;\",\"suggested_fix\":\"Use idiomatic Dutch, such as “Buig in wonderlijke schoonheid de knie;”\",\"translation_quote\":\"In wonderlijke schoonheid buig het knieval;\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 676,
+    "content_evidence_truncated": false,
+    "content_sha256": "db156a6df88b91f2bb56331da53a58a3bb5aa01e6444123f55110990ef1365d3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 340,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1606,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1603,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2120
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

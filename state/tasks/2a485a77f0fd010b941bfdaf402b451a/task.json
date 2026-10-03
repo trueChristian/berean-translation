@@ -2,10 +2,103 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "045e3f7933f183975dcb4551d7957bcf2a0b64428208440ae76659547ce84c56",
   "base_metadata_sha256": "3002bbce815d08c8a85e4cacca95c1421f2e5e2b491d4c4d95b516c98a3ff5dc",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1141,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3424,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3421,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4565
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "“Dad and Mom disliked Kenny’s proud talk and punished him whenever they walked in on one of his speeches.”",
+      "suggested_fix": "Заменить «гордых речей» на «хвастливых речей» или «самодовольных речей», чтобы передать смысл proud talk в контексте.",
+      "translation_quote": "«Папа и мама не одобряли гордых речей Кенни и наказывали его всякий раз, когда они заходили и слышали его разговоры.»"
+    },
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "minor",
+      "source_quote": "“The fleeting shadows scurried over the hills.”",
+      "suggested_fix": "Заменить «сползали» на «суетливо пробегали» или «мелькали», сохранив образ быстро движущихся теней.",
+      "translation_quote": "«Мимолётные тени сползали по холмам.»"
+    },
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "major",
+      "source_quote": "“The fall webworms had been at work, and their web curtains shuttered from branches overhead.”",
+      "suggested_fix": "Заменить предложение на: «Осенние паутинные черви уже потрудились, и их паутинные завесы закрывали ветви над головой.»",
+      "translation_quote": "«Паутинные гусеницы осеннего сезона работали, и их паутинки нависали над ветвями, словно занавеси.»"
+    },
+    {
+      "location": "HTML, paragraph 9",
+      "severity": "major",
+      "source_quote": "“Jamin felt strange, seeing Kenny scrunched in the dirt.”",
+      "suggested_fix": "Заменить «почувствовал Джамин странное волнение» на «Джамину было непривычно видеть Кенни съёжившимся в грязи», без добавления волнения.",
+      "translation_quote": "«— почувствовал Джамин странное волнение, увидев Кенни, свернувшегося в грязи.»"
+    },
+    {
+      "location": "HTML, paragraph 14",
+      "severity": "major",
+      "source_quote": "“Sure enough, as the brothers hobbled back through the woods, they heard the long calling of their father.”",
+      "suggested_fix": "Заменить «Как ни странно» на «И правда» или «Как и следовало ожидать», чтобы передать Sure enough, а не оттенок удивления.",
+      "translation_quote": "«Как ни странно, когда братья шли обратно через лес, они услышали громкий зов отца.»"
+    },
+    {
+      "location": "HTML, paragraph 14",
+      "severity": "major",
+      "source_quote": "“The odd little band hurried home”",
+      "suggested_fix": "Исправить «Эти двое» на «Эта необычная маленькая компания» или иной вариант, сохраняющий описание odd little band.",
+      "translation_quote": "«Эти двое поспешили домой»"
+    },
+    {
+      "location": "HTML, paragraph 14",
+      "severity": "minor",
+      "source_quote": "“Jamin went to the wash house and scrubbed his hands.”",
+      "suggested_fix": "Заменить «умывалню» на «прачечную» или другое подходящее название хозяйственного помещения; «умывалня» не является естественным обозначением места для мытья рук.",
+      "translation_quote": "«Джамин пошёл в умывальню и тщательно вымыл руки.»"
+    },
+    {
+      "location": "HTML, paragraph 20",
+      "severity": "major",
+      "source_quote": "“You were strong enough to open the trap, and Kenny wasn’t. You were brave enough to find him in the dark. Lots of young boys wouldn’t be.”",
+      "suggested_fix": "Исправить род и число: «Ты был достаточно силён, чтобы открыть капкан, а Кенни — нет. Ты был достаточно храбр, чтобы найти его в темноте. Многие мальчики не смогли бы этого сделать».",
+      "translation_quote": "«Ты были достаточно силён, чтобы открыть капкан, а Кенни — нет. Ты был достаточно храбр, чтобы найти его в темноте. Многие мальчики не смогли бы»."
+    },
+    {
+      "location": "HTML, paragraph 20",
+      "severity": "major",
+      "source_quote": "“He has a plan for you, and a place only you can fill, you know.”",
+      "suggested_fix": "Заменить «Он создал Кенни таким по своей причине» на «Он создал Кенни таким по Своему замыслу»; устранить неестественное «знаешь ли» в конце, например: «У Него есть план для тебя и место, которое можешь занять только ты».",
+      "translation_quote": "«Бог создал тебя таким не просто так, Джамин. Он создал Кенни таким по своей причине. У Него есть план для тебя и место, которое можешь занять только ты, знаешь ли»."
+    },
+    {
+      "location": "Заголовок статьи",
+      "severity": "minor",
+      "source_quote": "Jamin Smartens Up",
+      "suggested_fix": "Рассмотреть «Джамин становится умнее»; нынешний вариант допустим, но может звучать как утверждение, что Джамин действительно становится умнее, тогда как заголовок обыгрывает слова брата и сюжет о достоинствах Джамина.",
+      "translation_quote": "«Джамин становится умнее»"
+    }
+  ],
   "id": "2a485a77f0fd010b941bfdaf402b451a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -94,11 +187,13 @@
     }
   },
   "protected": false,
+  "quality_score": 87,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

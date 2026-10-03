@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Neglect.”\",\"severity\":\"major\",\"source_quote\":\"No doubt that the singing mother can implant copious songs in her infant and set the stage for a happy and hope-filled life.\",\"suggested_fix\":\"Replace «אין ספק שאם שרה יכולה להטמיע שירים רבים בתינוקה ולהניח את היסודות לחיים מאושרים ומלאי תקווה.» with «אין ספק שאם מזמרת יכולה להטמיע שירים רבים בתינוקה, היא יכולה להניח את היסודות לחיים מאושרים ומלאי תקווה.»\",\"translation_quote\":\"אין ספק שאם שרה יכולה להטמיע שירים רבים בתינוקה ולהניח את היסודות לחיים מאושרים ומלאי תקווה.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 846,
+    "content_evidence_truncated": false,
+    "content_sha256": "9524d9ea3192a21f0f1f61d0e8c7640b08d18fbae35ed139e5f31c0f6e9c6c31",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 970,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6828,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6825,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7798
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

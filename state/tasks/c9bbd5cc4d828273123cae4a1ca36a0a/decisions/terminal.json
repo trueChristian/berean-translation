@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning „Dieser Tag blieb John Newton für immer im Gedächtnis“",
+      "severity": "minor",
+      "source_quote": "“On that day, the Lord sent from on high and delivered me out of deep waters.”",
+      "suggested_fix": "„An diesem Tag sandte der Herr aus der Höhe und rettete mich aus tiefen Wassern.“",
+      "translation_quote": "„An diesem Tag sandte der Herr Hilfe aus der Höhe und rettete mich aus tiefen Wassern.“"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,10 +2,54 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "20c47fa6b4ff518f512312df408f1956fe4674fff5f3db128431b51a763bb8c7",
   "base_metadata_sha256": "96fd941a81c8ef18a1cce74a9a154265a3638195329a8d7889d43c72f8b60f04",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 947,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 653,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7044,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7041,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7991
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “A ship called The Greyhound”",
+      "severity": "major",
+      "source_quote": "A friend of John’s rowed out from shore to trade.",
+      "suggested_fix": "존의 친구 한 사람이 무역을 하려고 해안에서 배를 향해 노를 저어 나왔다.",
+      "translation_quote": "존의 친구 한 사람이 무역을 위해 배에서 노를 저어 나왔다."
+    },
+    {
+      "location": "source.html, paragraph beginning “As John began a new chapter”",
+      "severity": "major",
+      "source_quote": "With the help and providence of God, John saw the day, several months before his death, in 1807, when slavery was officially banned from England.",
+      "suggested_fix": "하나님의 도우심과 섭리로 존은 1807년, 죽기 몇 달 전에 영국에서 노예제가 공식적으로 금지되는 날을 보았다.",
+      "translation_quote": "하나님의 도우심과 섭리로 존은 1807년 몇 달 전 마침내 영국에서 노예제가 공식적으로 금지되는 날을 보았다."
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "HYMN HISTORY",
+      "suggested_fix": "찬송가의 역사",
+      "translation_quote": "HYMN HISTORY"
+    }
+  ],
   "id": "51714653c995e9ebb96a1136bc270177",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "kor",
@@ -94,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ccd65564-0819-4a34-94a7-34c77f178d3a",
+    "response_id": "chatcmpl-EUxZ4iipeY9jOvic7Dsf5eT7zdyQh",
+    "usage": {
+      "completion_tokens": 1115,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 413,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6352,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6349,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7467
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, quoted passages throughout the article",
+        "severity": "major",
+        "source_quote": "“Doth not nature itself teach you?”; “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?”; “Is any merry? Let him sing psalms”; “And he hath put a new song in my mouth, even praise unto our God”; “Speaking to yourselves in psalms and hymns and spiritual songs…”; “Jews have no dealings with the Samaritans”; “But the water that I shall give him…”; “Behold, my servants shall sing for joy of heart”; “Babylon the great is fallen…”; “But thou art he that took me out of the womb…”; “We hanged our harps upon the willows…”; “… And seek the peace of the city…”; “giving glory to God in the highest”; “Let the word of Christ dwell in you richly…”",
+        "suggested_fix": "Translate each quoted passage into Spanish, faithfully preserving its printed meaning and the surrounding quotation structure. Do not leave quoted Scripture or other substantive quoted prose in English. Keep the existing reference numbers, ranges, and placement unchanged, using conventional Spanish book names.",
+        "translation_quote": "The cited quoted passages remain in English throughout, for example: “Doth not nature itself teach you?”; “Is any merry? Let him sing psalms”; “Jews have no dealings with the Samaritans”; and “Let the word of Christ dwell in you richly in all wisdom…”"
+      },
+      {
+        "location": "HTML, paragraph beginning “Las aves son diversas”",
+        "severity": "minor",
+        "source_quote": "The expression “happy as a lark” is so common a term…",
+        "suggested_fix": "Translate the expression into an idiomatic Spanish equivalent, for example «feliz como una alondra», retaining the point that the expression is widely used.",
+        "translation_quote": "La expresión “happy as a lark” es tan común…"
+      },
+      {
+        "location": "HTML, paragraphs beginning “Qué poco conocimiento del cielo” and “El pozo de Cristo”",
+        "severity": "minor",
+        "source_quote": "“Revelations”; “I will sing.”",
+        "suggested_fix": "Use the conventional Spanish name «Apocalipsis» for the biblical book, and translate the quoted phrase as «cantaré», preserving the source’s statement that the phrase recurs 22 times.",
+        "translation_quote": "“Revelations”; “I will sing.”"
+      },
+      {
+        "location": "HTML, paragraph beginning “Es la naturaleza de las aves cantar”",
+        "severity": "minor",
+        "source_quote": "The buntings fill in the heat of the day when other birds are silent.",
+        "suggested_fix": "Translate “buntings” into an intelligible Spanish bird name or descriptive equivalent; avoid leaving the bird name in English.",
+        "translation_quote": "Los buntings llenan el calor del día cuando otras aves están en silencio."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

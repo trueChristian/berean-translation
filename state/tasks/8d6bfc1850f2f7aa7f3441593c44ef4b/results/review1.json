@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cb591c9c-4008-4fa8-9a84-f964486543c0",
+    "response_id": "chatcmpl-EUxZPU1wOGWWBkerd56WJhqcJHuUA",
+    "usage": {
+      "completion_tokens": 1042,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 689,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6878,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6875,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7920
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first paragraph",
+        "severity": "major",
+        "source_quote": "“Doth not nature itself teach you?”",
+        "suggested_fix": "Ersätt med: ”Lär inte själva naturen er?”",
+        "translation_quote": "”Lär er inte själva naturen?”"
+      },
+      {
+        "location": "HTML, femte stycket",
+        "severity": "major",
+        "source_quote": "“On 22 occasions, the Scriptures reiterate the phrase, I will sing.”",
+        "suggested_fix": "Ändra frasen till ”Jag ska sjunga” så att den uttrycker framtidsformen i källtexten.",
+        "translation_quote": "”Vid 22 tillfällen upprepar Skriften uttrycket: Jag vill sjunga.”"
+      },
+      {
+        "location": "HTML, femte stycket",
+        "severity": "major",
+        "source_quote": "“the rose-breasted grosbeak”",
+        "suggested_fix": "Ersätt ”den brokiga kardinalen” med en svensk benämning på rose-breasted grosbeak, exempelvis ”rosenbröstad kardinal”.",
+        "translation_quote": "”den brokiga kardinalen”"
+      },
+      {
+        "location": "HTML, femte stycket",
+        "severity": "major",
+        "source_quote": "“The buntings fill in the heat of the day when other birds are silent.”",
+        "suggested_fix": "Ersätt ”Sparvarna” med ”sävsparvarna” eller en annan korrekt svensk benämning på buntings i sammanhanget.",
+        "translation_quote": "”Sparvarna fyller dagens heta timmar med sång när andra fåglar är tysta.”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "266ff9d9-2daf-472b-a8db-27990d7804c2",
+    "response_id": "chatcmpl-EUxa64j20E8Ml2CLrb7YOVgavRJGq",
+    "usage": {
+      "completion_tokens": 2183,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 339,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6872,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6869,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9055
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "첫째 문단, 바울의 인용문",
+        "severity": "major",
+        "source_quote": "“Doth not nature itself teach you?”",
+        "suggested_fix": "인용문을 한국어로 번역하십시오. 예: “자연 자체가 너희에게 가르치지 않느냐?”",
+        "translation_quote": "“Doth not nature itself teach you?”"
+      },
+      {
+        "location": "둘째 문단, 욥기 인용문",
+        "severity": "major",
+        "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+        "suggested_fix": "인용문을 한국어로 번역하고 성경 책 이름도 통용되는 한국어 표기로 옮기십시오. 예: “들나귀가 풀이 있을 때 울겠느냐? 소가 꼴 앞에서 울겠느냐?” (욥기 6:5).",
+        "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+      },
+      {
+        "location": "셋째 문단, 속담과 야고보서 인용문",
+        "severity": "major",
+        "source_quote": "The expression “happy as a lark” ... “Is any merry? Let him sing psalms” (James 5:13).",
+        "suggested_fix": "속담의 뜻과 성경 인용문을 한국어로 옮기십시오. 예: ‘종달새처럼 행복하다’라는 표현 ... “기쁜 일이 있느냐? 시편을 노래할지니라” (야고보서 5:13).",
+        "translation_quote": "“happy as a lark”라는 표현 ... “Is any merry? Let him sing psalms” (James 5:13)."
+      },
+      {
+        "location": "넷째 문단, 시편 인용문",
+        "severity": "major",
+        "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3).",
+        "suggested_fix": "인용문을 한국어로 번역하고 책 이름을 한국어 표기로 옮기십시오. 예: “그가 내 입에 새 노래를 두셨으니, 곧 우리 하나님께 드릴 찬송이라” (시편 40:3).",
+        "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3)."
+      },
+      {
+        "location": "여섯째 문단, 에베소서·요한복음 인용문",
+        "severity": "major",
+        "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). ... “Jews have no dealings with the Samaritans.” ... “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+        "suggested_fix": "세 인용문을 모두 한국어로 번역하고 성경 책 이름도 한국어 표기로 옮기십시오. 인용문의 내용과 참고 구절은 그대로 보존하십시오.",
+        "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). ... “Jews have no dealings with the Samaritans.” ... “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
+      },
+      {
+        "location": "일곱째 문단, 이사야 인용문",
+        "severity": "major",
+        "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
+        "suggested_fix": "인용문을 한국어로 번역하고 책 이름을 한국어 표기로 옮기십시오. 예: “보라, 나의 종들은 마음의 기쁨으로 노래할 것이다” (이사야 65:14).",
+        "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
+      },
+      {
+        "location": "아홉째 문단, 시편 및 예레미야 인용문",
+        "severity": "major",
+        "source_quote": "“We hanged our harps upon the willows ... How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4). ... “… And seek the peace of the city ... for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
+        "suggested_fix": "두 인용문을 한국어로 번역하고 책 이름을 한국어 표기로 옮기십시오. 인용문의 내용과 장·절 범위는 그대로 보존하십시오.",
+        "translation_quote": "“We hanged our harps upon the willows ... How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4). ... “… And seek the peace of the city ... for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
+      },
+      {
+        "location": "아홉째 문단, 예레미야 인용문 뒤",
+        "severity": "major",
+        "source_quote": "But they could see no worth in it.",
+        "suggested_fix": "누락된 문장을 번역해 해당 위치에 추가하십시오. 예: “그러나 그들은 그 일에서 아무 가치도 찾지 못했습니다.”",
+        "translation_quote": "해당 문장 누락"
+      },
+      {
+        "location": "아홉째 문단, 예레미야의 지시 내용",
+        "severity": "major",
+        "source_quote": "God’s people had been instructed by Jeremiah to build houses, plant gardens, and raise families.",
+        "suggested_fix": "‘하나님의 백성은 예레미야를 통해 집을 짓고, 정원을 가꾸고, 가정을 이루라는 지시를 받았습니다’처럼 옮기십시오. 현재 번역은 ‘자녀를 키우라’고만 하여 raise families의 의미를 좁혔습니다.",
+        "translation_quote": "하나님의 백성은 예레미야에게 집을 짓고, 정원을 심고, 자녀를 키우라고 명령받았습니다."
+      },
+      {
+        "location": "마지막 문단, 천사들의 인용문과 골로새서 인용문",
+        "severity": "major",
+        "source_quote": "“giving glory to God in the highest.” ... “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+        "suggested_fix": "인용된 문구를 모두 한국어로 번역하고 성경 책 이름을 한국어 표기로 옮기십시오. 참고 구절의 장·절 번호와 배치는 유지하십시오.",
+        "translation_quote": "“giving glory to God in the highest.” ... “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
+      },
+      {
+        "location": "다섯째 문단, 새들의 노래가 다양하다는 설명",
+        "severity": "minor",
+        "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak. The song of the wren trumps them all for longevity and vibrancy.",
+        "suggested_fix": "‘로빈’의 노래가 송스패로와 장미가슴멧새의 노래에 아름다움에서 뒤지고, 굴뚝새의 노래가 지속성과 활력에서 앞선다는 비교를 종별로 구분해 표현하십시오. 현재 번역의 ‘장미가슴찌르레기’와 뒤의 ‘찌르레기’는 서로 다른 새를 같은 이름처럼 보이게 합니다.",
+        "translation_quote": "로빈은 이른 봄에 합창을 열지만 그의 노래는 곧 송스파로우의 노래에 의해, 다시 장미가슴찌르레기의 노래에 의해 아름다움 면에서 능가됩니다. 찌르레기의 노래는 오래 지속되고 활력 면에서 모두를 능가합니다."
+      }
+    ],
+    "passed": false,
+    "score": 53
+  }
+}

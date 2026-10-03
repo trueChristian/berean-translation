@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, third stanza, third line\",\"severity\":\"major\",\"source_quote\":\"Bow down in awful, holy fear-\",\"suggested_fix\":\"Böj er i helig, vördnadsfull fruktan—\",\"translation_quote\":\"Böj er i fruktansvärd, helig fruktan—\"},{\"location\":\"source.html, first stanza, final line\",\"severity\":\"minor\",\"source_quote\":\"Give thanks and laud, for more is here!\",\"suggested_fix\":\"Tacka och lova, för här finns ännu mer!\",\"translation_quote\":\"Tacka och lova, för mer är här!\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 530,
+    "content_evidence_truncated": false,
+    "content_sha256": "40ed90a1d5802137561a5224b9d348335ca9ce74d4f6a90200e9ebc1dc9b8d8b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 355,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1636,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1633,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2150
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

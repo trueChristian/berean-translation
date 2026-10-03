@@ -2,10 +2,103 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": "aea003e16ee06ab86c45da1fae3cb02f86e3abb4b3302c83933d2498c67bf53f",
   "base_metadata_sha256": "619d28cf5ba506eaed343f7d03aed7f47e635133011da14e2c9ffcd74510c090",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2322,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 634,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8741,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8738,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11063
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, parágrafo que começa “In chapter 2:17-23”",
+      "severity": "major",
+      "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
+      "suggested_fix": "Traduza a citação para português, preservando seu sentido e a referência com o nome convencional do livro, por exemplo: “Que proveito tem o homem de todo o seu trabalho e da aflição do seu coração, em que trabalhou debaixo do sol? Pois todos os seus dias são sofrimentos, e o seu trabalho é tristeza; nem de noite o seu coração descansa. Também isto é vaidade.” (Eclesiastes 2:22,23).",
+      "translation_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)"
+    },
+    {
+      "location": "HTML, parágrafo que começa “Ele via o mundo dominado por tiranos”",
+      "severity": "major",
+      "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+      "suggested_fix": "Traduza a citação para português e use o nome convencional do livro na referência; preserve exatamente o número: “Melhor é um jovem pobre e sábio do que um rei velho e insensato, que já não aceita conselho. Pois ele sai da prisão para reinar, embora também aquele que nasceu em seu reino possa empobrecer” (Eclesiastes 4:13).",
+      "translation_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13)."
+    },
+    {
+      "location": "HTML, parágrafo que começa “Em Eclesiastes 6:6”",
+      "severity": "major",
+      "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
+      "suggested_fix": "Traduza a citação para português, por exemplo: “Ainda que viva duas vezes mil anos, não verá o bem; não vão todos para o mesmo lugar?” Mantenha a referência Eclesiastes 6:6.",
+      "translation_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”"
+    },
+    {
+      "location": "HTML, parágrafo que começa “Mais adiante, pareceu quase que Deus havia desistido”",
+      "severity": "major",
+      "source_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).",
+      "suggested_fix": "Traduza a citação para português, por exemplo: “Portanto, falarás todas estas palavras a eles, mas não te darão ouvidos; também os chamarás, mas não te responderão” (Jeremias 7:27).",
+      "translation_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27)."
+    },
+    {
+      "location": "HTML, parágrafo que começa “Mesmo no Novo Testamento”",
+      "severity": "major",
+      "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+      "suggested_fix": "Traduza a citação para português e use o nome convencional do livro: “Pois virá o tempo em que não suportarão a sã doutrina; pelo contrário, seguindo os seus próprios desejos, ajuntarão para si mestres que lhes agradem aos ouvidos” (2 Timóteo 4:3).",
+      "translation_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3)."
+    },
+    {
+      "location": "HTML, parágrafo que começa “É interessante que o apóstolo Paulo”",
+      "severity": "major",
+      "source_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5).",
+      "suggested_fix": "Traduza a citação para português e use o nome convencional do livro, preservando o intervalo: “E não somente isso, mas também nos gloriamos nas tribulações, sabendo que a tribulação produz perseverança; a perseverança, experiência; e a experiência, esperança. E a esperança não decepciona, porque o amor de Deus foi derramado em nosso coração pelo Espírito Santo que nos foi dado” (Romanos 5:3-5).",
+      "translation_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5)."
+    },
+    {
+      "location": "HTML, parágrafo que começa “Foi isso que ele tentou com Jesus”",
+      "severity": "major",
+      "source_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
+      "suggested_fix": "Traduza a citação para português e use o nome convencional do livro: “Tudo isto te darei, se te prostrares e me adorares” (Mateus 4:8).",
+      "translation_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8)."
+    },
+    {
+      "location": "HTML, parágrafo que começa “Além disso, percebemos que fazer esse esforço”",
+      "severity": "major",
+      "source_quote": "“the least of these my brethren,”",
+      "suggested_fix": "Traduza a expressão citada para português, mantendo-a como citação: “a um destes meus irmãos, ainda que dos mais pequeninos,”.",
+      "translation_quote": "“the least of these my brethren,”"
+    },
+    {
+      "location": "HTML, parágrafo que começa “A canção diz”",
+      "severity": "major",
+      "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+      "suggested_fix": "Traduza a linha citada para português, preservando seu sentido: “Ah, não ter esperança em Jesus — quão sombrio deve ser este mundo!”",
+      "translation_quote": "“Oh to have no hope in Jesus, how dark this world must be!”"
+    },
+    {
+      "location": "HTML, parágrafo que começa “Parte do problema é que procuramos esperança”",
+      "severity": "minor",
+      "source_quote": "“Hope and Change”",
+      "suggested_fix": "Traduza o slogan para português, preservando-o entre aspas: “Esperança e Mudança”.",
+      "translation_quote": "“Hope and Change”"
+    }
+  ],
   "id": "af63dfb8ce5bfcaaebcf47839dee66e9",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "por",
@@ -94,11 +187,13 @@
     }
   },
   "protected": false,
+  "quality_score": 55,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0bb630bbebe5b6489e1904aa9ad4850dc4032d135b3d216f200c4d36001e2eeb.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

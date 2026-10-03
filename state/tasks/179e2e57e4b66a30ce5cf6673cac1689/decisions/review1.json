@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraphe sur le livre de Newton de 1788",
+      "severity": "major",
+      "source_quote": "“Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
+      "suggested_fix": "Dans la citation, remplacez « un mode de vie cruel et vicieux » par une formulation qui conserve l’idée de l’anglais : « une pratique cruelle et violente » (par exemple : « Il va sans dire que capturer, vendre et transporter des esclaves noirs vers les plantations des Antilles et d’Amérique était une pratique cruelle et violente. »).",
+      "translation_quote": "« Il va sans dire que capturer, vendre et transporter des esclaves noirs vers les plantations des Antilles et d’Amérique était un mode de vie cruel et vicieux. »"
+    },
+    {
+      "location": "HTML, paragraphe sur la fin de vie de Newton",
+      "severity": "major",
+      "source_quote": "“What, shall the old African blasphemer stop while he can still speak?”",
+      "suggested_fix": "Remplacez la question par une formulation qui conserve son sens rhétorique : « Quoi ! Le vieux blasphémateur africain devrait-il s’arrêter alors qu’il peut encore parler ? »",
+      "translation_quote": "« Quoi ! Le vieux blasphémateur d’Afrique devrait-il s’arrêter alors qu’il peut encore parler ? »"
+    },
+    {
+      "location": "HTML, paragraphe sur l’emploi en Jamaïque",
+      "severity": "minor",
+      "source_quote": "“a well-paying job overseeing a plantation”",
+      "suggested_fix": "Remplacez « surveillant de plantation » par « responsable de la gestion d’une plantation » afin de rendre plus clairement la responsabilité décrite.",
+      "translation_quote": "« un emploi bien rémunéré de surveillant de plantation »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

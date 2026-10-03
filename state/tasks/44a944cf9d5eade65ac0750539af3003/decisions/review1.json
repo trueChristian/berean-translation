@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first stanza, third line",
+      "severity": "major",
+      "source_quote": "The Dayspring shineth from on high,",
+      "suggested_fix": "Translate “Dayspring” as dawn or daybreak, for example: “De dageraad breekt aan van omhoog,” rather than “Morgenster,” which means “morning star.”",
+      "translation_quote": "De Morgenster schijnt van hoogten neer,"
+    },
+    {
+      "location": "HTML, third stanza, fifth line",
+      "severity": "minor",
+      "source_quote": "In wondrous beauty bend the knee;",
+      "suggested_fix": "Use idiomatic Dutch, such as “Buig in wonderlijke schoonheid de knie;”",
+      "translation_quote": "In wonderlijke schoonheid buig het knieval;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

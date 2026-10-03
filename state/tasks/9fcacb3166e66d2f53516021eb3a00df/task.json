@@ -2,10 +2,61 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": "ed34304a88739c2713842178b23c672b2fa030313371b44940c1a734e98e98d7",
   "base_metadata_sha256": "65eff85240b775c746c7e258d22fcb0966babad43d777ce80831d9a33b039288",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 402,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3118,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3115,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3520
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML: heading “Toothaches and Road Trips”",
+      "severity": "minor",
+      "source_quote": "Toothaches and Road Trips",
+      "suggested_fix": "Use a more idiomatic heading such as “دانت درد اور سڑک کے سفر” or “دانت درد اور لمبے سفر”.",
+      "translation_quote": "دانت کا درد اور سڑک کے سفر"
+    },
+    {
+      "location": "HTML: paragraph beginning “Sometimes the enormity of a task…”",
+      "severity": "major",
+      "source_quote": "“clean appliances, wipe out cupboards, and wash windows,”",
+      "suggested_fix": "Translate “appliances” as household appliances, not electrical appliances; for example: “گھریلو آلات صاف کریں، الماریوں کے اندر پونچھیں، اور کھڑکیاں دھوئیں”",
+      "translation_quote": "“برقی آلات صاف کریں، الماریوں کو پونچھیں، اور کھڑکیاں دھویں,”"
+    },
+    {
+      "location": "HTML: final paragraph",
+      "severity": "major",
+      "source_quote": "“why be hassled by procrastination?”",
+      "suggested_fix": "Replace the transliterated English with a natural Urdu rendering, e.g. “تو کام ٹالنے کی وجہ سے پریشان کیوں ہوں؟”",
+      "translation_quote": "“تو پروکراستی نیشن کی وجہ سے کیوں پریشان ہوں؟”"
+    },
+    {
+      "location": "HTML: final paragraph",
+      "severity": "minor",
+      "source_quote": "“A few minor changes can make the biggest difference between a blessed or stressed last minute.”",
+      "suggested_fix": "Use natural Urdu for the contrast, e.g. “چند معمولی تبدیلیاں آخری لمحے کو بابرکت یا تناؤ بھرا بنانے میں بڑا فرق ڈال سکتی ہیں۔”",
+      "translation_quote": "چند معمولی تبدیلیاں آخری لمحے کو بابرکت یا دباؤ والا بنانے میں سب سے بڑا فرق ڈال سکتی ہیں۔"
+    }
+  ],
   "id": "9fcacb3166e66d2f53516021eb3a00df",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "urd",
@@ -94,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

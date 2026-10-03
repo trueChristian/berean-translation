@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1485fc32-128a-4598-af6b-e0d05594fe2d",
+    "response_id": "chatcmpl-EUxYNRzeRGLR69iK9m7AMkKRQr9eH",
+    "usage": {
+      "completion_tokens": 986,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3308,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3305,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4294
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Book list, line 7",
+        "severity": "major",
+        "source_quote": "The High Cost of Holistic Healing",
+        "suggested_fix": "اس عنوان کا ترجمہ «ہولسٹک علاج کی بھاری قیمت» کریں؛ موجودہ «ہولی سٹک» املا لفظ کو “holy stick” جیسا بنا دیتا ہے اور اصل عنوان کا مفہوم واضح نہیں کرتا۔",
+        "translation_quote": "ہولی سٹک علاج کی بلند قیمت"
+      },
+      {
+        "location": "Second paragraph, workshop sentence",
+        "severity": "minor",
+        "source_quote": "I had the opportunity to sit under hours of inspirational and educational workshops",
+        "suggested_fix": "مدت بھی شامل کریں، مثلاً: «مجھے کئی گھنٹوں تک جاری رہنے والی حوصلہ افزا اور تعلیمی ورکشاپس میں شرکت کا موقع ملا۔»",
+        "translation_quote": "مجھے ایسے حوصلہ افزا اور تعلیمی ورکشاپس سُننے کا موقع ملا"
+      },
+      {
+        "location": "Final article paragraph, sentence about whether to include information",
+        "severity": "minor",
+        "source_quote": "We put the printing on hold, unsure whether to include information on these new and unproven COVID-19 “vaccines.”",
+        "suggested_fix": "«ناواقف» کی جگہ عدمِ یقین کا مفہوم دیں، مثلاً: «ہم نے طباعت روک دی، کیونکہ ہمیں یقین نہیں تھا کہ ان نئی اور غیر ثابت شدہ COVID-19 “ویکسینوں” کے بارے میں معلومات شامل کی جائیں یا نہیں۔»",
+        "translation_quote": "ہم نے شائع کرنے کو مؤخر رکھا، اس بات سے ناواقف کہ آیا ان نئے اور غیر ثابت شدہ COVID-19 “ویکسینوں” کے بارے میں معلومات شامل کی جائیں یا نہیں۔"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

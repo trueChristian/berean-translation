@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "56b1e893-362a-40f9-9089-b4adeea75a70",
+    "response_id": "chatcmpl-EUxbHQHFyfyauPJe9oElvyegaJGtc",
+    "usage": {
+      "completion_tokens": 589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 421,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4603,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4600,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5192
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “Then he was elected…”",
+        "severity": "major",
+        "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+        "suggested_fix": "এই অংশে “তাঁর সম্পাদকের দায়িত্বের শেষ চার মাসের কাজ” বদলে “তাঁর সচিবীয় দায়িত্বের শেষ চার মাসের কাজ” লিখুন।",
+        "translation_quote": "“এরপর এক বিশ্বাসী ভাই বুলগেরিয়ায় কিছু সময় কাটাতে যাওয়ায়, তাঁর সম্পাদকের দায়িত্বের শেষ চার মাসের কাজ শেষ করার জন্য রিককে নির্বাচিত করা হলো।”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

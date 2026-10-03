@@ -2,10 +2,33 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": "1a1f86b62c2d1c8b50154498e193d279de97cd01cef940e9d3a88ffade2ef779",
   "base_metadata_sha256": "61e0e23a9b12e85d49a03a16b7960690d28038e56c716f5531159e06f8b91831",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 610,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 578,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1681,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1678,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2291
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [],
+  "finished_at": "2026-10-03T18:43:05+00:00",
   "id": "38047218a4451d767f38d6bc6496f434",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "kor",
@@ -94,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7e4377db0d65abeff417aa9deee1a21496eb8249b5901b6b1a4f32f9b38cd090.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

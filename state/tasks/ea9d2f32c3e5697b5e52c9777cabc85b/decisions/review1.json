@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Верьте, что Бог заботится»",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Переведите цитату на русский, сохранив смысл и ссылку: например, «Плач может длиться ночь, а утром приходит радость» (Псалом 30:5).",
+      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+    },
+    {
+      "location": "HTML, последний абзац",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Переведите цитату на русский, сохранив смысл и ссылку: например, «На Тебя, Господи, уповаю; да не постыжусь вовек» (Псалом 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    },
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Переведите название раздела на русский, например: «СЕСТРА СЕСТРЕ».",
+      "translation_quote": "SISTER TO SISTER"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

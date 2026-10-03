@@ -2,10 +2,54 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "49441034e654d5bcb4449b7bceab783b99be13d3a90070538819cd833346e698",
   "base_metadata_sha256": "b9fe9f8673ee721dcef910c6a30a09ab813815e0b439ebfc883a0f7661017328",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 366,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3492,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3489,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3858
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph 3",
+      "severity": "major",
+      "source_quote": "Very well, then Jamin would be simple.",
+      "suggested_fix": "החליפו את ״טיפש״ בניסוח שמשמר את המשמעות של ״simple״ בהקשר, למשל: ״טוב, אם כך ג'יימין יהיה פשוט־דעת.״",
+      "translation_quote": "טוב, אם כך ג'יימין יהיה טיפש."
+    },
+    {
+      "location": "source.html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "the sun was growing old as he crossed the border of the woods.",
+      "suggested_fix": "אפשר לנסח: ״והשמש הלכה והזדקנה כשחצה את גבול היער״, או ״והשמש נטתה לשקוע״; התרגום הנוכחי משנה את הדימוי לשקיעה מפורשת.",
+      "translation_quote": "והשמש הלכה ושקעה כשחצה את גבול היער."
+    },
+    {
+      "location": "source.html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+      "suggested_fix": "תקנו את הפועל כך שיבטא שהווילונות כיסו/הסתירו את הענפים, למשל: ״וזחלי עש הסתיו כבר פעלו, ווילונות הקורים שלהם הסתירו את הענפים שמעליו.״",
+      "translation_quote": "זחלי העש הטווים קורים בסתיו כבר עשו את מלאכתם, ווילונות הקורים שלהם התנופפו מן הענפים שמעליו."
+    }
+  ],
   "id": "06060a6b0ad02fffeb7075b8d8dc3c8f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -94,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-6.1-sol"

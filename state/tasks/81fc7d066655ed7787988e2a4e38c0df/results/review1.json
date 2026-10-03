@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8b98d5b3-2bc6-43be-b5e7-507e02f62c2f",
+    "response_id": "chatcmpl-EUxYN52HE6uHmBz8WuBD5gZh7jUtF",
+    "usage": {
+      "completion_tokens": 388,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6678,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6675,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7066
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, avsnittet som begynner «On board the ship, Newton picked up…»",
+        "severity": "major",
+        "source_quote": "The storm awakened Newton, the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.",
+        "suggested_fix": "Bevar årsaksforholdet og meningen, for eksempel: «Stormen vekket Newton; bølgene hadde brutt opp skipets råtne bord, og flomvann virvlet inn i lugaren hans.»",
+        "translation_quote": "Stormen vekket Newton; bølgene hadde knust skipets råtne treverk, og vann strømmet virvlende inn i lugaren hans."
+      },
+      {
+        "location": "source.html, avsnittet som begynner «The last words of John Newton…»",
+        "severity": "major",
+        "source_quote": "“I am still in the land of the dying; I shall be in the land of the living soon.”",
+        "suggested_fix": "Oversett det faste uttrykket «the land of the dying» uten å endre det til et annet begrep, for eksempel: «Jeg er fremdeles i de døendes land; snart skal jeg være i de levendes land.»",
+        "translation_quote": "«Jeg er fremdeles i de døendes land; snart skal jeg være i de levendes land.»"
+      },
+      {
+        "location": "source.html, siste avsnitt, omtalen av «Glorious Things of Thee are Spoken»",
+        "severity": "major",
+        "source_quote": "“Glorious Things of Thee are Spoken”",
+        "suggested_fix": "Oversett tittelen til norsk og bevar meningen «det tales herlige ting om deg», for eksempel: «Det tales herlige ting om deg».",
+        "translation_quote": "«Herlighet tales om deg»"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

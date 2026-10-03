@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "HTML lead paragraph; opening drop-cap",
+      "severity": "minor",
+      "source_quote": "Our Father’s world",
+      "suggested_fix": "Ändern Sie den Drop-Cap-Text von „O“ zu „U“ und beginnen Sie den Absatz mit „Unsere Welt des Vaters …“, damit der Anfang nicht „ODie“ lautet.",
+      "translation_quote": "<span class=\"drop-cap\">O</span>Die Welt unseres Vaters"
+    },
+    {
+      "location": "HTML lead paragraph; Paulus-Zitat",
+      "severity": "major",
+      "source_quote": "“Doth not nature itself teach you?”",
+      "suggested_fix": "Übersetzen Sie das Zitat ins Deutsche, zum Beispiel: „Lehrt euch nicht schon die Natur selbst?“",
+      "translation_quote": "„Doth not nature itself teach you?“"
+    },
+    {
+      "location": "HTML, 2. Absatz; Hiob-Zitat",
+      "severity": "major",
+      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+      "suggested_fix": "Übersetzen Sie das Zitat und verwenden Sie den deutschen Buchnamen bei unveränderter Referenz: „Schreit der Wildesel, wenn er Gras hat? Brüllt der Ochse über seinem Futter?“ (Hiob 6:5).",
+      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+    },
+    {
+      "location": "HTML, 3. Absatz; Jakobus-Zitat",
+      "severity": "major",
+      "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).",
+      "suggested_fix": "Übersetzen Sie das Zitat und lokalisieren Sie den Buchnamen: „Ist jemand fröhlich? Er soll Psalmen singen.“ (Jakobus 5:13).",
+      "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13)."
+    },
+    {
+      "location": "HTML, 4. Absatz; Psalmzitat und anschließende Wendung",
+      "severity": "major",
+      "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
+      "suggested_fix": "Übersetzen Sie beides ins Deutsche und bewahren Sie die Referenz: „Er hat mir ein neues Lied in den Mund gelegt, ein Lob für unseren Gott“ (Ps 40:3). […] An 22 Stellen wiederholt die Schrift die Wendung: „Ich will singen.“",
+      "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). In 22 Stellen wiederholt die Schrift die Wendung, I will sing."
+    },
+    {
+      "location": "HTML, 5. Absatz; Vogelnamen",
+      "severity": "major",
+      "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak. […] The buntings fill in the heat of the day",
+      "suggested_fix": "Geben Sie die Vogelnamen auf Deutsch wieder, etwa: „Das Rotkehlchen eröffnet im frühen Frühling den Chor; sein Gesang wird bald an Schönheit vom Singammer und dann vom Rosenbrust-Kernknacker übertroffen. […] Die Ammern füllen die Hitze des Tages mit ihrem Gesang.“",
+      "translation_quote": "Die Amsel eröffnet den Chor im frühen Frühling, doch ihr Gesang wird schnell in Schönheit übertroffen vom Song Sparrow und wieder vom Rose-breasted Grosbeak. […] Die Buntings füllen die Hitze des Tages aus …"
+    },
+    {
+      "location": "HTML, 6. Absatz; Epheser-, Johannes- und Jesus-Zitate",
+      "severity": "major",
+      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). […] “Jews have no dealings with the Samaritans.” […] “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Übersetzen Sie alle drei Zitate ins Deutsche und verwenden Sie deutsche Buchnamen, ohne die Verszahlen zu ändern. Zum Beispiel: „Redet zueinander mit Psalmen, Lobgesängen und geistlichen Liedern …“ (Eph 5:19); „Juden haben keinen Umgang mit den Samaritern“; „Das Wasser aber, das ich ihm geben werde, wird in ihm zu einer Quelle Wassers werden, das ins ewige Leben quillt“ (Joh 4:14).",
+      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). […] „Jews have no dealings with the Samaritans.“ […] “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
+    },
+    {
+      "location": "HTML, 7. Absatz; Johannes-, Jesaja- und Psalmverweise",
+      "severity": "major",
+      "source_quote": "as in John 7:38 […] “Behold, my servants shall sing for joy of heart” (Is 65:14).",
+      "suggested_fix": "Verwenden Sie deutsche Buchnamen und übersetzen Sie das Zitat, bei unveränderten Kapitel- und Verszahlen: „wie in Joh 7:38“; „Siehe, meine Knechte werden vor Freude des Herzens singen“ (Jes 65:14).",
+      "translation_quote": "wie in John 7:38 […] “Behold, my servants shall sing for joy of heart” (Is 65:14)."
+    },
+    {
+      "location": "HTML, 8. Absatz; Offenbarung-Zitat",
+      "severity": "major",
+      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+      "suggested_fix": "Übersetzen Sie das Zitat ins Deutsche und verwenden Sie den deutschen Buchnamen: „Gefallen, gefallen ist Babylon, die Große, und sie ist eine Behausung der Dämonen geworden, ein Gefängnis jedes unreinen Geistes und ein Käfig jedes unreinen und verhassten Vogels“ (Offb 18:2).",
+      "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
+    },
+    {
+      "location": "HTML, 9. Absatz; Psalm- und Genesiszitate",
+      "severity": "major",
+      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9). […] “had filled them with earth” (Gen 26:15).",
+      "suggested_fix": "Übersetzen Sie beide Zitate ins Deutsche und verwenden Sie deutsche Buchnamen bei unveränderten Referenzen: „Du bist es, der mich aus dem Mutterleib gezogen hat; du hast mich geborgen an der Brust meiner Mutter“ (Ps 22:9). […] „hatten sie mit Erde gefüllt“ (Gen 26:15).",
+      "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9). […] „had filled them with earth“ (Gen 26:15)."
+    },
+    {
+      "location": "HTML, 10. Absatz; Psalm- und Jeremiazitate",
+      "severity": "major",
+      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4). […] “… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
+      "suggested_fix": "Übersetzen Sie die beiden Zitate vollständig ins Deutsche und verwenden Sie deutsche Buchnamen; bewahren Sie die Referenzen Ps 137:2-4 und Jer 29:5-7. Zum Beispiel: „An den Weiden in ihrer Mitte hängten wir unsere Harfen auf. Denn dort verlangten unsere Gefangennehmer von uns ein Lied … Wie sollten wir das Lied des HERRN in einem fremden Land singen?“; „Sucht den Frieden der Stadt … und betet für sie zum HERRN; denn in ihrem Frieden werdet auch ihr Frieden haben.“",
+      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4). […] „… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
+    },
+    {
+      "location": "HTML, 10. Absatz; Wortwahl und Grammatik",
+      "severity": "minor",
+      "source_quote": "the major song of modern women bears chords that are but dissident and melancholy. […] feeding on rotting carcasses. […] Earthly discomfort is no excuse",
+      "suggested_fix": "Formulieren Sie idiomatisch: „Das Hauptlied moderner Frauen klingt jedoch nur dissonant und melancholisch.“ Ändern Sie außerdem „ernähren sich von verwesenden Aas“ zu „ernähren sich von verwesendem Aas“ und „Irdischer Unbehagen“ zu „Irdisches Unbehagen“.",
+      "translation_quote": "trägt das Hauptlied moderner Frauen Akkorde, die nur dissident und melancholisch sind. […] ernähren sich von verwesenden Aas. […] Irdischer Unbehagen ist keine Entschuldigung"
+    },
+    {
+      "location": "HTML, 11. Absatz; Kolosserzitat und Engelszitat",
+      "severity": "major",
+      "source_quote": "“giving glory to God in the highest.” […] “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "Übersetzen Sie beide Zitate vollständig ins Deutsche und verwenden Sie den deutschen Buchnamen bei unveränderten Versangaben. Zum Beispiel: „Ehre sei Gott in der Höhe“; „Lasst das Wort Christi reichlich unter euch wohnen … Und alles, was ihr tut, das tut von Herzen, als dem Herrn und nicht den Menschen“ (Kol 3:16, 23).",
+      "translation_quote": "„giving glory to God in the highest.“ […] “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
+    },
+    {
+      "location": "HTML, 2. Absatz; Tierlaut-Beschreibung",
+      "severity": "minor",
+      "source_quote": "Of the ones that do speak, it is often to threaten or express complaint.",
+      "suggested_fix": "Verwenden Sie für den Zusammenhang eine passende Formulierung wie „Von denen, die Laute von sich geben, dienen diese oft dazu, zu drohen oder Unmut auszudrücken.“",
+      "translation_quote": "Von denen, die doch Geräusche von sich geben, ist es oft eine Drohung oder ein Ausdruck des Unmuts."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

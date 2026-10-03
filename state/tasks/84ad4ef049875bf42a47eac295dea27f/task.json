@@ -2,10 +2,47 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": "867ad9d77770b1d489fa6f4c41fbef6a2b83151f78df0dc1c8974a430e44f3e9",
   "base_metadata_sha256": "2b28e1094426eb7f15286e599e72da28790142b6b34ef96b890425c81034ea9e",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 514,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 355,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1636,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1633,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2150
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, third stanza, third line",
+      "severity": "major",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Böj er i helig, vördnadsfull fruktan—",
+      "translation_quote": "Böj er i fruktansvärd, helig fruktan—"
+    },
+    {
+      "location": "source.html, first stanza, final line",
+      "severity": "minor",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Tacka och lova, för här finns ännu mer!",
+      "translation_quote": "Tacka och lova, för mer är här!"
+    }
+  ],
   "id": "84ad4ef049875bf42a47eac295dea27f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -94,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7e4377db0d65abeff417aa9deee1a21496eb8249b5901b6b1a4f32f9b38cd090.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

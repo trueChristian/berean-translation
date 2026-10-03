@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "477ba623-2306-4d39-b3af-86506e233089",
+    "response_id": "chatcmpl-EUxYaZDqvCnMzK0CKzocevnu1Iq8G",
+    "usage": {
+      "completion_tokens": 1153,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 360,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12357,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12354,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13510
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article note; opening sentence",
+        "severity": "major",
+        "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.",
+        "suggested_fix": "Replace « Un courtisan centré sur Christ est une série de messages sur le fréquentation pieuse » with « La cour chrétienne centrée sur Christ est une série de messages sur la cour chrétienne pieuse », adjusting the wording throughout the sentence so it refers to the courtship theme, not a male courtier.",
+        "translation_quote": "Un courtisan centré sur Christ est une série de messages sur le fréquentation pieuse prêchés par Paul Hershberger."
+      },
+      {
+        "location": "Section « Le plan de Dieu pour l’homme et la femme », second paragraph",
+        "severity": "major",
+        "source_quote": "What does he mean, “while the evil days come not” and “the years draw nigh”?",
+        "suggested_fix": "Translate both quoted phrases into French, for example: « Que signifie “avant que les jours mauvais arrivent” et “que les années approchent” ? »",
+        "translation_quote": "Que veut dire « while the evil days come not » et « nor the years draw nigh » ?"
+      },
+      {
+        "location": "Section 4, final paragraph",
+        "severity": "major",
+        "source_quote": "He wants to see us joined in heart, mind, and fleashthe whole being, being one.",
+        "suggested_fix": "Correct the joined words and translate the complete thought, for example: « Il veut nous voir unis de cœur, d’esprit et dans tout notre être, ne faisant qu’un. »",
+        "translation_quote": "Il veut nous voir unis en cœur, en pensée et en chairetout l’être, être un."
+      },
+      {
+        "location": "Section 6 heading and body; repeated wording",
+        "severity": "major",
+        "source_quote": "6) Headship order. God established a headship order, and this headship order is a blessing.",
+        "suggested_fix": "Replace « ordre de la tête » / « ordre de tête » with a clear French rendering of the concept, such as « ordre de l’autorité » or « ordre de la responsabilité », consistently in the heading and body.",
+        "translation_quote": "6) Ordre de la tête. Dieu a établi un ordre de tête, et cet ordre de tête est une bénédiction."
+      },
+      {
+        "location": "Section 10, final paragraph before the concluding sentence",
+        "severity": "major",
+        "source_quote": "Seek after Christlike character, and do it on purpose.",
+        "suggested_fix": "Translate « Christlike character » into French, for example: « Recherchez un caractère semblable à celui de Christ, et faites-le intentionnellement. »",
+        "translation_quote": "Cherchez le caractère christlike, et faites-le intentionnellement."
+      },
+      {
+        "location": "Scripture references throughout the article",
+        "severity": "minor",
+        "source_quote": "(Genesis 2:18-24); (Mark 10:8-9); (2 Corinthians 6:14-15); (1 Corinthians 7:39); (Ephesians 6:1-3); (Proverbs 3:1-2)",
+        "suggested_fix": "Use conventional French book names in the references, while preserving every chapter and verse number, range, and reference placement: for example, « Genèse », « Marc », « 2 Corinthiens », « 1 Corinthiens », « Éphésiens » and « Proverbes ». Apply this consistently to the other English book names as well.",
+        "translation_quote": "(Genesis 2:18-24); (Mark 10:8-9); (2 Corinthians 6:14-15); (1 Corinthians 7:39); (Ephesians 6:1-3); (Proverbs 3:1-2)"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

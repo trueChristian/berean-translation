@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.section\",\"severity\":\"major\",\"source_quote\":\"SISTER TO SISTER\",\"suggested_fix\":\"Translate the section label into Dutch, for example: “ZUS TOT ZUS”.\",\"translation_quote\":\"SISTER TO SISTER\"},{\"location\":\"translation.title\",\"severity\":\"minor\",\"source_quote\":\"Procrastination Overload\",\"suggested_fix\":\"Use a natural Dutch title such as “Overbelasting door uitstelgedrag”.\",\"translation_quote\":\"Uitstelgedrag Overbelast\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 490,
+    "content_evidence_truncated": false,
+    "content_sha256": "19b0d324a6a669eaf0830f3b0443ea5cdbfe1b2156b830cc04977e816784828d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 259,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2840,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2837,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3225
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

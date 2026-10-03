@@ -2,10 +2,89 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": "5beda8b7f19b897bae0b9e7fda9dace1acec6f7d07c3e553799c47e9ab40c78e",
   "base_metadata_sha256": "2847d1d492e101e339993129b7973c45d098d3a03d8a4fd18717aa19bb8136ef",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 901,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 397,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3015,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3012,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3916
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Kuzidiwa na Kuahirisha Mambo",
+      "translation_quote": "Kuzidiwa na Kuwachelewesha"
+    },
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "wait until we are under pressure",
+      "suggested_fix": "...au tunasubiri hadi tuwe chini ya shinikizo.",
+      "translation_quote": "...au tunasubiri hadi tukanyanyashwe na shinikizo."
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "the planned event",
+      "suggested_fix": "...hadi siwezi kufurahia tukio lililopangwa.",
+      "translation_quote": "...hadi siwezi kufurahia tukio lililotangazwa."
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "They constantly give an unpredictable twist to our days and weeks.",
+      "suggested_fix": "Huvuruga siku na wiki zetu mara kwa mara kwa namna isiyotabirika.",
+      "translation_quote": "Huwapa kwa daima mabadiliko yasiyotabirika kwa siku na wiki zetu."
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "interruptions and deadlines collide",
+      "suggested_fix": "usumbufu na tarehe za mwisho zinapokutana",
+      "translation_quote": "kuingiliwa na tarehe za mwisho huzuriana"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "a bee sting and a stubbed toe",
+      "suggested_fix": "...kudungwa na nyuki na kugonga kidole cha mguu.",
+      "translation_quote": "...kuumwa na sindano ya nyuki au kugonga mguu"
+    },
+    {
+      "location": "Paragraph 15",
+      "severity": "major",
+      "source_quote": "why be hassled by procrastination?",
+      "suggested_fix": "kwa nini ujisumbue kwa sababu ya kuahirisha mambo?",
+      "translation_quote": "kwa nini ujibwage kwa kuchelewesha?"
+    },
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A cup of coffee beside a spiral notebook and pencil.",
+      "suggested_fix": "Kikombe cha kahawa kando ya daftari lenye jalada la mzunguko na penseli.",
+      "translation_quote": "Kikombe cha kahawa kando ya daftari lenye kishikilia na penseli."
+    }
+  ],
   "id": "165b747383933c4a48a904ef84d9434d",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -94,11 +173,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

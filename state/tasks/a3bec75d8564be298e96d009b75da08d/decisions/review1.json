@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Letzter Satz des Absatzes unter „Glauben Sie, dass Gott sich kümmert“",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning”",
+      "suggested_fix": "„Weinen mag eine Nacht dauern, doch am Morgen kommt Freude.“",
+      "translation_quote": "„Weeping may endure for a night, but joy cometh in the morning“"
+    },
+    {
+      "location": "Letzter Absatz, Psalm 71:1",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion”",
+      "suggested_fix": "„Auf dich, HERR, vertraue ich; lass mich niemals in Verwirrung geraten.“",
+      "translation_quote": "„In thee, O LORD, do I put my trust: let me never be put to confusion“"
+    },
+    {
+      "location": "Absatz unter „Finden Sie eine Routine“",
+      "severity": "minor",
+      "source_quote": "“racing thoughts”",
+      "suggested_fix": "Ersetzen Sie „Renn-Gedanken“ durch „rasende Gedanken“.",
+      "translation_quote": "„Renn-Gedanken“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

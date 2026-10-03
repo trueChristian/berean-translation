@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5b988a62-c982-4041-afaf-4bd1382ae518",
+    "response_id": "chatcmpl-EUxZJcvz2Vi9OZ7eYFn5HrPglluGK",
+    "usage": {
+      "completion_tokens": 1145,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 604,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3387,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3384,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4532
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 6",
+        "severity": "major",
+        "source_quote": "“He went to check his coyote traps. I’ll go find him.”",
+        "suggested_fix": "“Hy het sy koyootstrikke gaan nagaan. Ek gaan hom soek.”",
+        "translation_quote": "“Hy het weggegaan om sy jakhalslotte na te gaan. Ek gaan hom soek.”"
+      },
+      {
+        "location": "HTML, paragraph 7",
+        "severity": "major",
+        "source_quote": "“His golden head caught the tired beams that fled from the sun”",
+        "suggested_fix": "“Sy goue kop het die moeë strale gevang wat van die son af weggevlug het”",
+        "translation_quote": "“Sy goue kop het die moedervlak strale gevang wat van die son gevlug het”"
+      },
+      {
+        "location": "HTML, paragraph 7",
+        "severity": "major",
+        "source_quote": "“leaving behind the musky smell of the woods. The fall webworms had been at work”",
+        "suggested_fix": "“en die muskusagtige geur van die woud agtergelaat. Die herfswebwurms was aan die werk”",
+        "translation_quote": "“die muskuskruid van die woud oorgebly. Die herfspinnekopwebbe was aan die werk”"
+      },
+      {
+        "location": "HTML, paragraph 9",
+        "severity": "major",
+        "source_quote": "“The heap’s face was lit in pain.”",
+        "suggested_fix": "“Die hoop se gesig was verlig deur pyn.”",
+        "translation_quote": "“Die hoop se gesig was van pyn verlig.”"
+      },
+      {
+        "location": "HTML, paragraph 11",
+        "severity": "major",
+        "source_quote": "“Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.”",
+        "suggested_fix": "“Jamin het die kake vinnig met sy sterk arms oopgewurg. Kenny het strompelend losgekom.”",
+        "translation_quote": "“Vinnig het Jamin se sterk arms die kake oopgebreek. Kenny het vrygekom en gedraai.”"
+      },
+      {
+        "location": "HTML, paragraph 4",
+        "severity": "minor",
+        "source_quote": "“Grandma Otto watched these trials from her rocker on the porch.”",
+        "suggested_fix": "“Ouma Otto het hierdie beproewings vanuit haar wiegstoel op die stoep dopgehou.”",
+        "translation_quote": "“Ouma Otto het hierdie beproewings van haar stoeltjie op die stoep afgekijk.”"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -2,10 +2,96 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": "e9fa941340383f36ee3de223bda2f08a172dae0d335fc17e33485b9dafdfe171",
   "base_metadata_sha256": "b4e36534c1f1e241aaca1047e02c05c74f27fa309239451d2089bbd38dee90a9",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1158,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12396,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12393,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13554
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "A Christ-Centered Courtship",
+      "suggested_fix": "Translate the title into Afrikaans, for example: “’n Christus-gesentreerde hofmakery”.",
+      "translation_quote": "A Christ-Centered Courtship"
+    },
+    {
+      "location": "subtitle",
+      "severity": "major",
+      "source_quote": "God’s Plan for Male and Female",
+      "suggested_fix": "Translate the subtitle into Afrikaans, for example: “God se plan vir man en vrou”.",
+      "translation_quote": "God’s Plan for Male and Female"
+    },
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the section label into Afrikaans, for example: “INSPIRASIE VIR JONGMENSE”.",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "html, Scripture quotations throughout the article",
+      "severity": "critical",
+      "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
+      "suggested_fix": "Translate the quoted Scripture into Afrikaans, faithfully conveying the English text as printed. Apply this to all English Scripture quotations throughout the article, preserving the existing HTML structure and exact references; do not leave the quoted prose in English.",
+      "translation_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”"
+    },
+    {
+      "location": "html, section 2, second paragraph",
+      "severity": "major",
+      "source_quote": "What God is saying it doesn’t work for there to be cleaving unless there’s leaving.",
+      "suggested_fix": "Replace “sonder verwerping” with “sonder dat daar eers ’n verwydering/weggaan is” so the sentence says that cleaving requires leaving, not rejection.",
+      "translation_quote": "Wat God sê is dit werk nie dat daar hegting kan wees sonder verwerping nie."
+    },
+    {
+      "location": "html, section 3, second paragraph",
+      "severity": "major",
+      "source_quote": "Pulling apart is no blessing at all but brings agony, pain, travail, and hurt.",
+      "suggested_fix": "Translate the full phrase into Afrikaans, for example: “Om uitmekaar te trek bring glad nie seën nie, maar bring lyding, pyn, benoudheid en seerkry.”",
+      "translation_quote": "Afskeur bring geen seën nie maar bringsagony,pain,travail, and hurt."
+    },
+    {
+      "location": "html, paragraphs 1–2, section 2",
+      "severity": "minor",
+      "source_quote": "Leaving means to leave behind, to abandon.",
+      "suggested_fix": "Replace the repeated, awkward wording with idiomatic Afrikaans, for example: “Om te verlaat beteken om agter te laat, om vaarwel te sê.”",
+      "translation_quote": "Verlaat beteken om agter te laat, om te verlaat."
+    },
+    {
+      "location": "html, section 10, paragraph beginning “Jong mans”",
+      "severity": "minor",
+      "source_quote": "Are you willing to lay down your life, your agenda, and those independent things you like to do?",
+      "suggested_fix": "Add the missing verb in Afrikaans, for example: “Is julle bereid om julle lewe, julle eie agenda en daardie onafhanklike dinge wat julle graag doen, neer te lê?”",
+      "translation_quote": "Jong mans, is julle bereid om julle lewe, julle eie agenda, en daardie onafhanklike dinge wat julle graag doen, neerlê?"
+    },
+    {
+      "location": "html, section 10, paragraph beginning “Maar as ons na God se plan”",
+      "severity": "minor",
+      "source_quote": "Rise up and make decisions that will lead to maturity.",
+      "suggested_fix": "Replace “Staak op” with an idiomatic rendering such as “Staan op”.",
+      "translation_quote": "Staak op en maak besluite wat tot volwassenheid lei."
+    }
+  ],
   "id": "a2d221e7ca9005ccfe7de8541a9a7d30",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "afr",
@@ -94,11 +180,13 @@
     }
   },
   "protected": false,
+  "quality_score": 54,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

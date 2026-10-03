@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "Judul artikel",
+      "severity": "major",
+      "source_quote": "Dealing with Cynicism",
+      "suggested_fix": "Terjemahkan judul menjadi “Menghadapi Sinisme”.",
+      "translation_quote": "Dealing with Cynicism"
+    },
+    {
+      "location": "Bagian artikel",
+      "severity": "major",
+      "source_quote": "A WORD FROM THE DOCTOR",
+      "suggested_fix": "Terjemahkan bagian menjadi “PESAN DARI DOKTER”.",
+      "translation_quote": "A WORD FROM THE DOCTOR"
+    },
+    {
+      "location": "Judul-judul bagian",
+      "severity": "major",
+      "source_quote": "Cynicism; Cynicism in the Bible; The Opposite of Cynicism; Look for Hope in the Right Places; Remember that We Have Undeserved Hope; Small Efforts Do Make a Difference; A Few Things to Remember; Conclusion",
+      "suggested_fix": "Terjemahkan judul-judul bagian, dengan urutan dan tag <h2> yang sama, misalnya: “Sinisme”; “Sinisme dalam Alkitab”; “Lawan dari Sinisme”; “Carilah Pengharapan di Tempat yang Tepat”; “Ingatlah bahwa Kita Memiliki Pengharapan yang Tidak Layak Kita Terima”; “Upaya Kecil Memang Membuat Perbedaan”; “Beberapa Hal untuk Diingat”; “Kesimpulan”.",
+      "translation_quote": "Cynicism; Cynicism in the Bible; The Opposite of Cynicism; Look for Hope in the Right Places; Remember that We Have Undeserved Hope; Small Efforts Do Make a Difference; A Few Things to Remember; Conclusion"
+    },
+    {
+      "location": "Pengkhotbah 2:22–23, kutipan dalam paragraf yang diawali “Dalam pasal 2:17-23”",
+      "severity": "critical",
+      "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke dalam bahasa Indonesia dengan mempertahankan makna teks Inggris yang dicetak, dan ubah nama kitab menjadi bentuk lazim “Pengkhotbah”. Pertahankan angka dan penempatan rujukan: (Pengkhotbah 2:22,23).",
+      "translation_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)"
+    },
+    {
+      "location": "Pengkhotbah 4:13, kutipan dalam paragraf yang diawali “Ia melihat dunia dikuasai tiran”",
+      "severity": "critical",
+      "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke dalam bahasa Indonesia dengan setia pada makna teks Inggris yang dicetak. Pertahankan rujukan dengan nama kitab lazim: (Pengkhotbah 4:13).",
+      "translation_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13)."
+    },
+    {
+      "location": "Pengkhotbah 6:6, kutipan dalam paragraf yang diawali “Dalam Pengkhotbah 6:6”",
+      "severity": "critical",
+      "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke dalam bahasa Indonesia, tetap menyampaikan makna teks Inggris yang dicetak.",
+      "translation_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”"
+    },
+    {
+      "location": "Yeremia 7:27, kutipan dalam paragraf yang diawali “Kemudian, tampak seolah-olah Allah”",
+      "severity": "critical",
+      "source_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke dalam bahasa Indonesia dengan setia pada makna teks Inggris yang dicetak. Pertahankan rujukan dengan nama kitab lazim: (Yeremia 7:27).",
+      "translation_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27)."
+    },
+    {
+      "location": "2 Timotius 4:3, kutipan dalam paragraf yang diawali “Bahkan dalam Perjanjian Baru”",
+      "severity": "critical",
+      "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke dalam bahasa Indonesia dengan setia pada makna teks Inggris yang dicetak. Pertahankan rujukan dengan nama kitab lazim: (2 Timotius 4:3).",
+      "translation_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3)."
+    },
+    {
+      "location": "Roma 5:3–5, kutipan dalam paragraf yang diawali “Menarik bahwa Rasul Paulus”",
+      "severity": "critical",
+      "source_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5).",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke dalam bahasa Indonesia dengan setia pada makna teks Inggris yang dicetak. Pertahankan rentang dan rujukan dengan nama kitab lazim: (Roma 5:3-5).",
+      "translation_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5)."
+    },
+    {
+      "location": "Matius 4:8, kutipan dalam paragraf yang diawali “Itulah yang dilakukannya saat ia mencobai Yesus”",
+      "severity": "critical",
+      "source_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
+      "suggested_fix": "Terjemahkan kutipan tersebut ke dalam bahasa Indonesia dengan setia pada makna teks Inggris yang dicetak. Pertahankan rujukan dengan nama kitab lazim: (Matius 4:8).",
+      "translation_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8)."
+    },
+    {
+      "location": "Paragraf tentang slogan calon presiden",
+      "severity": "major",
+      "source_quote": "“Hope and Change”",
+      "suggested_fix": "Terjemahkan slogan yang dikutip menjadi “Harapan dan Perubahan”.",
+      "translation_quote": "“Hope and Change”"
+    },
+    {
+      "location": "Kesimpulan, kutipan lagu",
+      "severity": "major",
+      "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+      "suggested_fix": "Terjemahkan baris lagu itu ke dalam bahasa Indonesia dengan mempertahankan maknanya, misalnya: “Oh, betapa gelapnya dunia ini jika tiada pengharapan di dalam Yesus!”",
+      "translation_quote": "“Oh to have no hope in Jesus, how dark this world must be!”"
+    },
+    {
+      "location": "Paragraf tentang orang-orang yang ditinggalkan Juruselamat",
+      "severity": "minor",
+      "source_quote": "The only people we should give up on are the ones that our Savior has given up on as well.",
+      "suggested_fix": "Agar maknanya tidak terdengar seperti “meninggalkan” secara fisik, ubah menjadi, misalnya: “Satu-satunya orang yang patut kita anggap tak lagi memiliki harapan adalah mereka yang juga telah dianggap demikian oleh Juruselamat kita.”",
+      "translation_quote": "Satu-satunya orang yang harus kita putuskan adalah orang yang juga telah ditinggalkan oleh Juruselamat kita."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

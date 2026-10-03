@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1a98046b-fb10-4f93-a0fc-1318c0b4c3a4",
+    "response_id": "chatcmpl-EUxZ3xMXvhLLL0SsjmBxiwMmofHKy",
+    "usage": {
+      "completion_tokens": 1114,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 581,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4148,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5265
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “Ibland är denna typ av överbelastning...”",
+        "severity": "major",
+        "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+        "suggested_fix": "Översätt “plain circles” som den särskilda religiösa gemenskapen, inte som nära personliga kretsar. Exempel: “Traumatiska händelser i våra plain-församlingar får ofta förbön, ekonomiskt stöd och veckovisa budgetuppdateringar.”",
+        "translation_quote": "“Traumatiska händelser i våra närmaste kretsar får ofta bön, ekonomiskt stöd och veckouppdateringar om budgeten.”"
+      },
+      {
+        "location": "HTML paragraph under “Tro att Gud bryr sig”",
+        "severity": "major",
+        "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+        "suggested_fix": "Översätt det citerade bibelstället till svenska och använd det svenska boknamnet, med samma kapitel- och versnummer: “Gråt kan vara för natten, men på morgonen kommer jubel” (Psaltaren 30:5).",
+        "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+      },
+      {
+        "location": "Sista HTML-paragrafen",
+        "severity": "major",
+        "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+        "suggested_fix": "Översätt det citerade bibelstället till svenska och använd det svenska boknamnet, med samma kapitel- och versnummer. Exempel: “Till dig, HERRE, tar jag min tillflykt; låt mig aldrig komma på skam” (Psaltaren 71:1).",
+        "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

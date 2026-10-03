@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "76e3c5c8-8eb6-4187-8211-e649f3cb9cf4",
+    "response_id": "chatcmpl-EUxYksY2HHUle7NkMzSPgEdbt9lmh",
+    "usage": {
+      "completion_tokens": 1046,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 503,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4140,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5189
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "Circumstantial Overload",
+        "suggested_fix": "Sovraccarico dovuto alle circostanze",
+        "translation_quote": "Circumstantial Overload"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "DA SORELLA A SORELLA",
+        "translation_quote": "SISTER TO SISTER"
+      },
+      {
+        "location": "html, paragraph beginning “Talvolta questo tipo di sovraccarico”",
+        "severity": "major",
+        "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+        "suggested_fix": "Sostituisci “Eventi traumatici nel nostro cerchio immediato tendono a ricevere preghiere, aiuti finanziari e aggiornamenti settimanali sul bilancio.” con “Gli eventi traumatici nelle nostre comunità plain tendono a ricevere preghiere, aiuti finanziari e aggiornamenti settimanali sul bilancio.”",
+        "translation_quote": "Eventi traumatici nel nostro cerchio immediato tendono a ricevere preghiere, aiuti finanziari e aggiornamenti settimanali sul bilancio."
+      },
+      {
+        "location": "html, paragrafo che inizia «Di'lo.»",
+        "severity": "major",
+        "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+        "suggested_fix": "Sostituisci la citazione inglese con una traduzione italiana fedele, mantenendo il riferimento: «Il pianto può durare una notte, ma al mattino viene la gioia» (Salmo 30:5).",
+        "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+      },
+      {
+        "location": "html, ultimo paragrafo",
+        "severity": "major",
+        "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+        "suggested_fix": "Sostituisci la citazione inglese con una traduzione italiana fedele, mantenendo il riferimento: «In te, o SIGNORE, ripongo la mia fiducia: fa’ che io non sia mai confuso» (Salmo 71:1).",
+        "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

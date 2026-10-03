@@ -2,10 +2,61 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "b213f97747564eb1fdbff7586e07c3a4849e857af069f870411db5ea30d1f40b",
   "base_metadata_sha256": "70d069e349b380f4fe38d081500d44f5ab385b506fc9aed73a294ef19c3b2157",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1115,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 413,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6352,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6349,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7467
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, quoted passages throughout the article",
+      "severity": "major",
+      "source_quote": "“Doth not nature itself teach you?”; “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?”; “Is any merry? Let him sing psalms”; “And he hath put a new song in my mouth, even praise unto our God”; “Speaking to yourselves in psalms and hymns and spiritual songs…”; “Jews have no dealings with the Samaritans”; “But the water that I shall give him…”; “Behold, my servants shall sing for joy of heart”; “Babylon the great is fallen…”; “But thou art he that took me out of the womb…”; “We hanged our harps upon the willows…”; “… And seek the peace of the city…”; “giving glory to God in the highest”; “Let the word of Christ dwell in you richly…”",
+      "suggested_fix": "Translate each quoted passage into Spanish, faithfully preserving its printed meaning and the surrounding quotation structure. Do not leave quoted Scripture or other substantive quoted prose in English. Keep the existing reference numbers, ranges, and placement unchanged, using conventional Spanish book names.",
+      "translation_quote": "The cited quoted passages remain in English throughout, for example: “Doth not nature itself teach you?”; “Is any merry? Let him sing psalms”; “Jews have no dealings with the Samaritans”; and “Let the word of Christ dwell in you richly in all wisdom…”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Las aves son diversas”",
+      "severity": "minor",
+      "source_quote": "The expression “happy as a lark” is so common a term…",
+      "suggested_fix": "Translate the expression into an idiomatic Spanish equivalent, for example «feliz como una alondra», retaining the point that the expression is widely used.",
+      "translation_quote": "La expresión “happy as a lark” es tan común…"
+    },
+    {
+      "location": "HTML, paragraphs beginning “Qué poco conocimiento del cielo” and “El pozo de Cristo”",
+      "severity": "minor",
+      "source_quote": "“Revelations”; “I will sing.”",
+      "suggested_fix": "Use the conventional Spanish name «Apocalipsis» for the biblical book, and translate the quoted phrase as «cantaré», preserving the source’s statement that the phrase recurs 22 times.",
+      "translation_quote": "“Revelations”; “I will sing.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Es la naturaleza de las aves cantar”",
+      "severity": "minor",
+      "source_quote": "The buntings fill in the heat of the day when other birds are silent.",
+      "suggested_fix": "Translate “buntings” into an intelligible Spanish bird name or descriptive equivalent; avoid leaving the bird name in English.",
+      "translation_quote": "Los buntings llenan el calor del día cuando otras aves están en silencio."
+    }
+  ],
   "id": "089f4242ed091c31d074de8d80b8f1c9",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "spa",
@@ -94,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"article-note\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.\",\n      \"suggested_fix\": \"Vertaal de volledige artikelnoot naar het Nederlands; laat de HTML-tags en de plaatsing van de titel van het tijdschrift ongewijzigd.\",\n      \"translation_quote\": \"A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.\"\n    },\n    {\n      \"location\": \"Artikeltekst: geciteerde Schriftgedeelten en geciteerde tekst, door het hele artikel\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”\",\n      \"suggested_fix\": \"Vertaal alle geciteerde Schriftgedeelten en andere inhoudelijke citaten naar het Nederlands, getrouw aan de Engelse tekst zoals afgedrukt. Behoud de bestaande HTML-structuur en laat de aantallen, plaatsen en exacte hoofdstuk- en versnummers van de verwijzingen ongewijzigd.\",\n      \"translation_quote\": \"“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”\"\n    },\n    {\n      \"location\": \"Artikelmetadata: title, subtitle en section\",\n      \"severity\": \"major\",\n      \"source_quote\": \"title: “A Christ-Centered Courtship”; subtitle: “God’s Plan for Male and Female”; section: “INSPIRATIONS FOR YOUTH”\",\n      \"suggested_fix\": \"Vertaal de titel, ondertitel en sectienaam naar standaard Nederlands, bijvoorbeeld: “Een Christusgerichte verkering”, “Gods plan voor man en vrouw” en “Inspiratie voor jongeren”.\",\n      \"translation_quote\": \"title: “A Christ-Centered Courtship”; subtitle: “God’s Plan for Male and Female”; section: “INSPIRATIONS FOR YOUTH”\"\n    },\n    {\n      \"location\": \"Artikeltekst: 1) God brengt Eva bij Adam\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Adam and Eve had never had a companion before. Adam and Eve had never let the emotions of their heart go before. Something happened in Adam and Eve’s hearts.\",\n      \"suggested_fix\": \"Voeg de ontbrekende betekenis toe in het Nederlands, bijvoorbeeld: “Adam en Eva hadden nog nooit eerder een metgezel gehad. Adam en Eva hadden hun hartstocht nog nooit de vrije loop gelaten. Er gebeurde iets in hun harten.”\",\n      \"translation_quote\": \"Adam en Eva hadden nog nooit eerder een metgezel gehad. Adam en Eva hadden hun hartspassies nooit aan iemand anders gegeven. Er gebeurde iets in de harten van Adam en Eva.\"\n    },\n    {\n      \"location\": \"Artikeltekst: 8) Gezamenlijke erfgenamen van de genade des levens\",\n      \"severity\": \"major\",\n      \"source_quote\": \"She is the weaker vessel and the one that born the children!\",\n      \"suggested_fix\": \"Vervang “de zwakkere schaal” door “het zwakkere vat”, zodat het beeld en de betekenis van “weaker vessel” behouden blijven.\",\n      \"translation_quote\": \"Zij is de zwakkere schaal en degene die de kinderen draagt!\"\n    },\n    {\n      \"location\": \"Artikeltekst: Schriftverwijzingen door het hele artikel\",\n      \"severity\": \"major\",\n      \"source_quote\": \"(Genesis 2:18-24); (Mark 10:7); (2 Corinthians 6:14-15); (1 Corinthians 7:39)\",\n      \"suggested_fix\": \"Gebruik de conventionele Nederlandse Bijbelboeknamen bij alle verwijzingen, met behoud van exact dezelfde hoofdstuk- en versnummers, bereiken en plaatsing; bijvoorbeeld “Genesis”, “Markus”, “2 Korintiërs” en “1 Korintiërs”.\",\n      \"translation_quote\": \"(Genesis 2:18-24); Markus 10:7; (2 Corinthians 6:14-15); (1 Corinthians 7:39)\"\n    },\n    {\n      \"location\": \"Artikeltekst: 10) Als Christus en de kerk, alinea over jonge vrouwen\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Will you give your heart to be guided and led? Are you willing to follow and to cheerfully submit to your authority?\",\n      \"suggested_fix\": \"Herformuleer idiomatisch en grammaticaal, bijvoorbeeld: “Ben je bereid je te laten leiden? Ben je bereid te volgen en je bereidwillig aan het gezag te onderwerpen?”\",\n      \"translation_quote\": \"Geef je hart om geleid en geleid te worden? Zijn jullie bereid te volgen en vrolijk onder gezag te onderwerpen?\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 35\n}",
+    "content_bytes": 4413,
+    "content_evidence_truncated": false,
+    "content_sha256": "2b0138ca030cad8b24840b6d30c53e2f03df87a1e84d4bb376dfb4f52561513d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 416,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11886,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11883,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13398
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraf setelah judul “Ubah Situasi Menit Terakhir”",
+      "severity": "minor",
+      "source_quote": "“plan” for a bee sting and a stubbed toe?",
+      "suggested_fix": "Ganti “tersandung jari kaki” dengan “jari kaki terbentur”: <p>Sebagai contoh, jika tamu akan datang dan kita berencana mencuci jendela dan membuat makanan penutup bersama dengan selusin tugas lainnya pada hari kedatangan mereka, tidak ada ruang untuk gangguan. Dari pengalaman, kita tahu gangguan pasti akan datang. Jadi, bukankah lebih baik “merencanakan” sengatan lebah dan jari kaki terbentur?</p>",
+      "translation_quote": "“merencanakan” sengatan lebah dan tersandung jari kaki?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

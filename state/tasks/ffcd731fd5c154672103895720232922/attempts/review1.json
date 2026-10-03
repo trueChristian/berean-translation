@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first stanza, final line\",\"severity\":\"major\",\"source_quote\":\"Give thanks and laud, for more is here!\",\"suggested_fix\":\"Sostituisci con una resa italiana che conservi l’idea di «more is here», per esempio: «Rendete grazie e lodate, perché qui c’è ancora di più!»\",\"translation_quote\":\"Rendete grazie e inni, per c'è di più qui!\"},{\"location\":\"HTML, second stanza, second line\",\"severity\":\"minor\",\"source_quote\":\"Extol and praise His worthy name!\",\"suggested_fix\":\"Sostituisci con «Esaltate e lodate il suo nome glorioso!»\",\"translation_quote\":\"Esalta e loda il Suo nome degno!\"},{\"location\":\"HTML, third stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"Bow down in awful, holy fear-\",\"suggested_fix\":\"Rendi il senso di reverente timore, per esempio: «Prostratevi in santo e reverente timore;»\",\"translation_quote\":\"Inchinatevi in tremendo, santo timore-\"},{\"location\":\"HTML, third stanza, fifth line\",\"severity\":\"minor\",\"source_quote\":\"In wondrous beauty bend the knee;\",\"suggested_fix\":\"Riformula in modo che la meravigliosa bellezza descriva la scena, non il modo di piegare il ginocchio: «Nella meravigliosa bellezza, piegate il ginocchio;»\",\"translation_quote\":\"Con mirabile bellezza piegate il ginocchio;\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1295,
+    "content_evidence_truncated": false,
+    "content_sha256": "939f6b2ed93617a121893e7d4974769ecc1a868c24ba4fa9acd893ca92f8d901",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 423,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1626,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1623,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2401
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a1c5b10b-7bce-4d7b-8b25-0ed997969e7a",
+    "response_id": "chatcmpl-EUxZyA4LnJyOCoqadaH1a3yEjmizp",
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6751,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6748,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7654
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Premier paragraphe après « Deux types d'humanisme » — citation de Romains 1:18-32",
+        "severity": "major",
+        "source_quote": "“Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections”",
+        "suggested_fix": "Rétablir en français les éléments omis, en conservant la référence et la structure HTML : « C'est pourquoi Dieu aussi les a livrés à l'impureté, selon les convoitises de leurs cœurs, de sorte qu'ils déshonorent eux-mêmes leurs corps ; eux qui ont changé la vérité de Dieu en mensonge et ont adoré et servi la créature au lieu du Créateur, qui est béni éternellement. Amen. C'est pourquoi Dieu les a livrés à des passions infâmes… » Vérifier également que le reste de la citation traduit tous les éléments de l'original sans omission.",
+        "translation_quote": "« C'est pourquoi aussi Dieu les a livrés aux convoitises infâmes ; leurs femmes ont changé l'usage naturel en celui qui est contre nature… »"
+      },
+      {
+        "location": "Deuxième paragraphe de l'article — paroles du frère dans la serre",
+        "severity": "major",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Traduire l'action de planter et d'arroser, par exemple : « L'un plante, l'autre arrose, mais c'est Dieu qui donne la croissance. »",
+        "translation_quote": "« Quelques plantes, un peu d'eau, mais c'est Dieu qui donne l'accroissement. »"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

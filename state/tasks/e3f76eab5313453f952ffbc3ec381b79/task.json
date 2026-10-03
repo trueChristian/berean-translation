@@ -2,10 +2,41 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "29474b327ad79463811ac0ae62f45e16394c5b1ac5596d05c52694e68bca5cd2",
   "base_metadata_sha256": "f45d5f4b097da87034e94aa85babb74df04c1e5ec736fbe3077d1bbe8eef5f4f",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 484,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 360,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3513,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3510,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3997
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, third paragraph",
+      "severity": "minor",
+      "source_quote": "“with caution, correction, and edification”",
+      "suggested_fix": "Replace “সতর্কবাণী” with “সতর্কতা” in this phrase, for example: “সতর্কতা, সংশোধন ও আত্মিক গঠনমূলক শিক্ষা দিয়ে”",
+      "translation_quote": "“সতর্কবাণী, সংশোধন ও আত্মিক গঠনমূলক শিক্ষা দিয়ে”"
+    }
+  ],
+  "finished_at": "2026-10-03T18:43:07+00:00",
   "id": "e3f76eab5313453f952ffbc3ec381b79",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -94,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6.1-sol"

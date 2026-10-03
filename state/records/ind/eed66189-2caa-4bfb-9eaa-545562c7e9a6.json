@@ -18,6 +18,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "e41755a63da8279481055a2ce8ce9dda"
+    },
+    {
+      "at": "2026-10-03T18:43:07+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "e41755a63da8279481055a2ce8ce9dda"
     }
   ],
   "language": "ind",
@@ -32,12 +38,12 @@
     "metadata_sha256": "a09a1ad8e6c7bd0d68e1f175685555c3514f837242dd5d17873a739199b73ad0",
     "model": "gpt-5-mini-2025-08-07",
     "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"id\" dir=\"ltr\" role=\"note\">\n  <p>Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: gpt-5-mini-2025-08-07) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris. <a href=\"/en/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6/\" data-source-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\" hreflang=\"en\">Naskah asli bahasa Inggris</a></p>\n</aside>",
-    "published_at": "2026-10-02T00:07:13+00:00",
-    "quality_score": 100,
-    "review_model": "gpt-5-mini-2025-08-07",
-    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
-    "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
-    "task": "159e829f7eb29071522c36ab960850e1",
+    "published_at": "2026-10-03T18:43:07+00:00",
+    "quality_score": 96,
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/7e4377db0d65abeff417aa9deee1a21496eb8249b5901b6b1a4f32f9b38cd090.json",
+    "task": "e41755a63da8279481055a2ce8ce9dda",
     "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb"
   }
 }

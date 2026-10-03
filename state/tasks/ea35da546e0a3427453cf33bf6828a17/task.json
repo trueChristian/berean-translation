@@ -2,10 +2,76 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": "8c75c72ab7d6e3dae0afef458a22996ad74772d07cbc0d4038b2d1c4e3ae423d",
   "base_metadata_sha256": "4cfb80ad63948dd5994a36df2e64318f4a514243f4edbcb95e8d2e7469cfdeba",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 642,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9134,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9131,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9776
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Абзац о ежедневном употреблении алкоголя",
+      "severity": "minor",
+      "source_quote": "“She drinks till she passes out every night and has to have something every morning to get her started.”",
+      "suggested_fix": "Заменить «и каждый утром ей нужно что-то» на «и каждое утро ей нужно что-нибудь, чтобы начать день»; например: «Она каждую ночь пьёт до потери сознания, и каждое утро ей нужно что-нибудь, чтобы начать день».",
+      "translation_quote": "«Она пьёт до потери сознания каждую ночь и каждый утром ей нужно что-то, чтобы начать день»."
+    },
+    {
+      "location": "Абзац о поиске места для лечения",
+      "severity": "minor",
+      "source_quote": "“I stepped out of the exam room and to make phone calls.”",
+      "suggested_fix": "Уточнить, что врач вышел из кабинета для осмотра, чтобы сделать звонки: заменить «Я вышел из приёмной» на «Я вышел из кабинета для осмотра».",
+      "translation_quote": "«Я вышел из приёмной, чтобы позвонить»."
+    },
+    {
+      "location": "Абзац о молитве перед отъездом",
+      "severity": "minor",
+      "source_quote": "“Can we pray together before you go?”",
+      "suggested_fix": "Добавить смысловой субъект «мы»: «Можем ли мы помолиться вместе, прежде чем вы уйдёте?»",
+      "translation_quote": "«Молиться вместе, прежде чем вы уйдёте?»"
+    },
+    {
+      "location": "Абзац о пожилом и молодом мужчинах",
+      "severity": "minor",
+      "source_quote": "“I could sense the heart of the youth sinking as this older man shared.”",
+      "suggested_fix": "Заменить неестественное «Я видел, как опустилось сердце молодого человека» на идиоматичное «Я чувствовал, как у молодого человека падает дух, пока пожилой мужчина делился своим мнением».",
+      "translation_quote": "«Я видел, как опустилось сердце молодого человека, когда этот старший делился своим мнением»."
+    },
+    {
+      "location": "Абзац о надежде и неудачах других",
+      "severity": "minor",
+      "source_quote": "“They, too, are growing, and if they have a failure today, they will do better tomorrow.”",
+      "suggested_fix": "Исправить неестественную формулировку «завтра у них будет лучше» на «завтра у них получится лучше».",
+      "translation_quote": "«Они тоже растут, и если сегодня у них неудача, завтра у них будет лучше»."
+    },
+    {
+      "location": "Заголовок «Dealing with Cynicism»",
+      "severity": "minor",
+      "source_quote": "Dealing with Cynicism",
+      "suggested_fix": "Для более точной передачи смысла заголовка заменить «Борьба с цинизмом» на «Как справляться с цинизмом».",
+      "translation_quote": "Борьба с цинизмом"
+    }
+  ],
+  "finished_at": "2026-10-03T18:43:07+00:00",
   "id": "ea35da546e0a3427453cf33bf6828a17",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -94,11 +160,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0bb630bbebe5b6489e1904aa9ad4850dc4032d135b3d216f200c4d36001e2eeb.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

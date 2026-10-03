@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “But Kenny was there”\",\"severity\":\"major\",\"source_quote\":\"The heap’s face was lit in pain.\",\"suggested_fix\":\"Vervang “Het gezicht van de hoop was van pijn verlicht” door “Het gezicht van de hoop was vertrokken van de pijn.”\",\"translation_quote\":\"Het gezicht van de hoop was van pijn verlicht.\"},{\"location\":\"HTML paragraph beginning “Jamin bent and found an ankle”\",\"severity\":\"major\",\"source_quote\":\"Quickly, Jamin’s strong arms pried open the jaws.\",\"suggested_fix\":\"Vervang “Snel wreven Jamins sterke armen de kaken open” door “Snel wrikten Jamins sterke armen de kaken open.”\",\"translation_quote\":\"Snel wreven Jamins sterke armen de kaken open.\"},{\"location\":\"HTML paragraph beginning “Yes. I think so”\",\"severity\":\"major\",\"source_quote\":\"If you support me, I can hobble along.\",\"suggested_fix\":\"Vervang “kan ik hinkelen” door “kan ik hinkend verder.”\",\"translation_quote\":\"Als je me ondersteunt, kan ik hinkelen.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1038,
+    "content_evidence_truncated": false,
+    "content_sha256": "0d54deec9fdcdc20a032b5998315e8b49258ff27e39877107b4625a21f503872",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 392,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3236,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3233,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3889
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Kuzidiwa na Kuahirisha Mambo",
+      "translation_quote": "Kuzidiwa na Kuwachelewesha"
+    },
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "wait until we are under pressure",
+      "suggested_fix": "...au tunasubiri hadi tuwe chini ya shinikizo.",
+      "translation_quote": "...au tunasubiri hadi tukanyanyashwe na shinikizo."
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "the planned event",
+      "suggested_fix": "...hadi siwezi kufurahia tukio lililopangwa.",
+      "translation_quote": "...hadi siwezi kufurahia tukio lililotangazwa."
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "They constantly give an unpredictable twist to our days and weeks.",
+      "suggested_fix": "Huvuruga siku na wiki zetu mara kwa mara kwa namna isiyotabirika.",
+      "translation_quote": "Huwapa kwa daima mabadiliko yasiyotabirika kwa siku na wiki zetu."
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "interruptions and deadlines collide",
+      "suggested_fix": "usumbufu na tarehe za mwisho zinapokutana",
+      "translation_quote": "kuingiliwa na tarehe za mwisho huzuriana"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "a bee sting and a stubbed toe",
+      "suggested_fix": "...kudungwa na nyuki na kugonga kidole cha mguu.",
+      "translation_quote": "...kuumwa na sindano ya nyuki au kugonga mguu"
+    },
+    {
+      "location": "Paragraph 15",
+      "severity": "major",
+      "source_quote": "why be hassled by procrastination?",
+      "suggested_fix": "kwa nini ujisumbue kwa sababu ya kuahirisha mambo?",
+      "translation_quote": "kwa nini ujibwage kwa kuchelewesha?"
+    },
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A cup of coffee beside a spiral notebook and pencil.",
+      "suggested_fix": "Kikombe cha kahawa kando ya daftari lenye jalada la mzunguko na penseli.",
+      "translation_quote": "Kikombe cha kahawa kando ya daftari lenye kishikilia na penseli."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

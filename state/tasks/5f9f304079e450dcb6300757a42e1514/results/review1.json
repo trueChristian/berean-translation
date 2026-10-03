@@ -1,0 +1,114 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d15813ba-4a00-47f0-8122-116ff9cfe075",
+    "response_id": "chatcmpl-EUxYMYyG592kYd2XWwyvQvYRRHbx7",
+    "usage": {
+      "completion_tokens": 1693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 209,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4215,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4212,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5908
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 6",
+        "severity": "major",
+        "source_quote": "“I first felt the adjustment in my wallet, but I consoled myself that this was only temporary.”",
+        "suggested_fix": "Replace “nilijifichulia” with “nilijifariji” to convey that she reassured herself the change was temporary.",
+        "translation_quote": "“Nilianza kuhisi mabadiliko kwenye pochi zangu, lakini nilijifichulia kwamba hili lilikuwa la muda tu.”"
+      },
+      {
+        "location": "Paragraph 7",
+        "severity": "major",
+        "source_quote": "“I am not mentally capable of handling one more duty.”",
+        "suggested_fix": "Use wording that conveys mental capacity, such as “Sina uwezo wa kiakili wa kushughulikia jukumu jingine.”",
+        "translation_quote": "“Sihisi nafsi kushughulikia jukumu jingine.”"
+      },
+      {
+        "location": "Paragraph 8",
+        "severity": "major",
+        "source_quote": "“I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+        "suggested_fix": "Translate “yawning” as “kupiga miayo,” for example: “Nilishtuka nilipomsikia akipiga miayo katikati ya usiku na nikajua kwamba hakuwa akilala.”",
+        "translation_quote": "“Nilihisi wasiwasi niliposikia akinomeza katikati ya usiku na nikajua hajalala.”"
+      },
+      {
+        "location": "Paragraph 10",
+        "severity": "major",
+        "source_quote": "“I felt like a lifeguard trying to keep a man from drowning while taking in a bit too much water myself.”",
+        "suggested_fix": "Render the image of the narrator herself taking on too much water, e.g. “Nilijihisi kama mwokoaji wa majini anayejaribu kumzuia mtu asizame huku nami nikimeza maji mengi kiasi.”",
+        "translation_quote": "“Nilijihisi kama mlinzi wa uzima akiijaribu kuzuia mtu asizame huku nikikula maji kidogo mwenyewe.”"
+      },
+      {
+        "location": "Paragraph 11",
+        "severity": "major",
+        "source_quote": "“the victim can be misunderstood or misjudged”",
+        "suggested_fix": "Use a Kiswahili word for a person affected by hardship, such as “mhusika” or “aliyeathiriwa,” rather than wording that means the injured person.",
+        "translation_quote": "“majeruhi anaweza kuelezewa vibaya au kuhukumiwa kwa makosa.”"
+      },
+      {
+        "location": "Paragraph 13",
+        "severity": "major",
+        "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+        "suggested_fix": "Translate “traumatic events” as events causing trauma or distress, not events causing physical injury; preserve “plain circles” as the source’s community context. For example: “Matukio ya kuhuzunisha katika jumuiya zetu za Plain kwa kawaida hupata maombi, msaada wa kifedha, na taarifa za bajeti za kila wiki.”",
+        "translation_quote": "“Matukio ya kusababisha jeraha katika mizunguko yetu ya kawaida huwa yanapokea sala, fedha, na sasisho za bajeti kila wiki.”"
+      },
+      {
+        "location": "Paragraph 13",
+        "severity": "major",
+        "source_quote": "“Betrayal and rejection cause stress beyond measure.”",
+        "suggested_fix": "Translate “betrayal” as “usaliti,” not “uasi,” which means rebellion. For example: “Usaliti na kukataliwa husababisha msongo usio na kipimo.”",
+        "translation_quote": "“Uasi na kukataliwa husababisha msongo usio na kipimo.”"
+      },
+      {
+        "location": "Paragraph 15",
+        "severity": "major",
+        "source_quote": "“Hearing yourself verbalize a stressful situation somehow clears brain fog and gives a clearer path forward.”",
+        "suggested_fix": "Correct the mistranslated verb “kunaoesha” and express that verbalizing the situation clears mental fog: “Kujisikia ukieleza kwa sauti hali yenye msongo kwa namna fulani huondoa ukungu wa akili na hutoa njia iliyo wazi zaidi ya kusonga mbele.”",
+        "translation_quote": "“Kujisikia ukisema kwa sauti hali yenye msongo kwa namna fulani kunaoesha ukungu wa akili na kunatoa njia wazi ya mbele.”"
+      },
+      {
+        "location": "Paragraph 18",
+        "severity": "major",
+        "source_quote": "“Lingering stress can cause agitation, moodiness, and the desire to take control.”",
+        "suggested_fix": "Translate “agitation” as restlessness/agitation and “moodiness” as mood changes; “kusitasita” means hesitation and does not convey agitation. For example: “Msongo unaodumu unaweza kusababisha fadhaa, mabadiliko ya hisia, na tamaa ya kuchukua udhibiti.”",
+        "translation_quote": "“Msongo unaodumu unaweza kusababisha kusitasita, mhemko wa haraka, na tamaa ya kuchukua udhibiti.”"
+      },
+      {
+        "location": "Paragraph 20",
+        "severity": "major",
+        "source_quote": "“Believe ‘Weeping may endure for a night, but joy cometh in the morning’ (Psalm 30:5).”",
+        "suggested_fix": "Translate the quoted Scripture faithfully into Kiswahili and localize the book name while retaining the reference number: “Amini, ‘Kilio huenda kikadumu usiku kucha, lakini furaha huja asubuhi’ (Zaburi 30:5).”",
+        "translation_quote": "Amini “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+      },
+      {
+        "location": "Paragraph 21",
+        "severity": "major",
+        "source_quote": "“God will make a way for you. Many times, He opens doors just when we are running out of options.”",
+        "suggested_fix": "Correct the changed assertion “Huona mlango ukifunguliwa” to say that God opens doors, e.g. “Mara nyingi, Yeye hufungua milango tunapokaribia kuishiwa na chaguo.”",
+        "translation_quote": "“Mungu atatengenezea njia kwako. Mara nyingi, Huona mlango ukifunguliwa wakati tunapokaribia kumalizika kwa chaguo.”"
+      },
+      {
+        "location": "Paragraph 23",
+        "severity": "major",
+        "source_quote": "“And say with the Psalmist, ‘In thee, O LORD, do I put my trust: let me never be put to confusion’ (Psalm 71:1).”",
+        "suggested_fix": "Translate the quoted Scripture into Kiswahili and localize the book name, preserving the reference number: “Na useme pamoja na mtunga-zaburi, ‘Ninakutumaini Wewe, Ee BWANA; usiniache nichanganyikiwe kamwe’ (Zaburi 71:1).”",
+        "translation_quote": "“Na sema pamoja na Mwandishi wa Zaburi, ‘In thee, O LORD, do I put my trust: let me never be put to confusion’ (Psalm 71:1)."
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

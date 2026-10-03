@@ -2,10 +2,41 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "4583330d476d8f7b0830c0564611b2d5475a855aada4d39ec65ef7f4ece48c16",
   "base_metadata_sha256": "fdc1f6fec69dcf906807b20a75fc29ff90dbe01507c7e813301b3b2a52d7b442",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 800,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 667,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6624,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6621,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7424
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning „Dieser Tag blieb John Newton für immer im Gedächtnis“",
+      "severity": "minor",
+      "source_quote": "“On that day, the Lord sent from on high and delivered me out of deep waters.”",
+      "suggested_fix": "„An diesem Tag sandte der Herr aus der Höhe und rettete mich aus tiefen Wassern.“",
+      "translation_quote": "„An diesem Tag sandte der Herr Hilfe aus der Höhe und rettete mich aus tiefen Wassern.“"
+    }
+  ],
+  "finished_at": "2026-10-03T18:43:07+00:00",
   "id": "c9bbd5cc4d828273123cae4a1ca36a0a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -94,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6.1-sol"

@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "574d59a8-68c0-49d2-936a-2024ba2fa314",
+    "response_id": "chatcmpl-EUxYQJHddsgFXX6aEhHRz9ncPRZfi",
+    "usage": {
+      "completion_tokens": 1107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 591,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3639,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3636,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4746
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문 3문단",
+        "severity": "major",
+        "source_quote": "Dad and Mom disliked Kenny’s proud talk and punished him whenever they walked in on one of his speeches.",
+        "suggested_fix": "아버지와 어머니는 케니의 거만한 말을 싫어했고, 케니가 그런 말을 늘어놓는 것을 듣게 될 때마다 그를 벌주었다.",
+        "translation_quote": "아버지와 어머니는 케니의 거만한 말을 달가워하지 않아 그가 잔소리를 할 때마다 그를 벌주곤 했다."
+      },
+      {
+        "location": "본문 7문단",
+        "severity": "major",
+        "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+        "suggested_fix": "가을미국흰불나방 애벌레들이 활동한 흔적이 있었고, 머리 위 가지들에는 그들이 친 거미줄 같은 장막이 드리워져 있었다.",
+        "translation_quote": "가을거미들이 바쁘게 지었는지 가지 위로 그물 장막이 드리워져 있었다."
+      },
+      {
+        "location": "본문 16문단",
+        "severity": "major",
+        "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
+        "suggested_fix": "그 기묘한 작은 무리는 서둘러 집으로 돌아갔고, 아버지가 현관을 가로질러 가는 사이 방충망 문이 쾅 닫혔다.",
+        "translation_quote": "그 기묘한 작은 무리는 서둘러 집으로 돌아갔고, 문망치 소리가 현관문에 쾅 닫혔다."
+      },
+      {
+        "location": "본문 23문단",
+        "severity": "major",
+        "source_quote": "God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason.",
+        "suggested_fix": "하나님께서는 자민, 분명한 이유가 있어 너를 지금의 모습으로 만드셨단다. 케니도 분명한 이유가 있어 지금의 모습으로 만드셨지.",
+        "translation_quote": "하나님께서는 자민, 네가 지금 있는 모습대로 너를 만드셨단다. 케니도 그런 식으로 만드셨지."
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

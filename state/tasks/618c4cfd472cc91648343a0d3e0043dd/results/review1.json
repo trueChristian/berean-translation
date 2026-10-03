@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "30d15385-6477-44c4-9823-2c9421a73d1c",
+    "response_id": "chatcmpl-EUxYPIRuH9mRfaKtuUDEO9FWkuclc",
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 344,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4607
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Alineage over Beckys man na de explosie",
+        "severity": "major",
+        "source_quote": "“My husband faced the disaster like a man,” says Becky.",
+        "suggested_fix": "“Mijn man ging de ramp als een man tegemoet,” zegt Becky.",
+        "translation_quote": "“Mijn man stond het onheil te woord als een man,” zegt Becky."
+      },
+      {
+        "location": "Alineage over Beckys geloofsadvies",
+        "severity": "major",
+        "source_quote": "Believe “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+        "suggested_fix": "Vertaal het citaat naar het Nederlands, bijvoorbeeld: Geloof: “’s Avonds is er geween, maar ’s morgens gejuich” (Psalm 30:5).",
+        "translation_quote": "Geloof “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+      },
+      {
+        "location": "Laatste alinea, citaat uit Psalm 71",
+        "severity": "major",
+        "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+        "suggested_fix": "Vertaal het citaat naar het Nederlands, bijvoorbeeld: “Op U, HEER, vertrouw ik; laat mij nooit beschaamd worden” (Psalm 71:1).",
+        "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Toe is hy gekies…”\",\"severity\":\"major\",\"source_quote\":\"“I am not mentally capable of handling one more duty.”\",\"suggested_fix\":\"Vervang “Ek is geestelik nie meer in staat om nog ’n plig te dra nie” met “Ek is verstandelik nie in staat om nog ’n plig te hanteer nie.”\",\"translation_quote\":\"“Ek is geestelik nie meer in staat om nog ’n plig te dra nie.”\"},{\"location\":\"HTML, paragraph beginning “Ek het gevoel soos…”\",\"severity\":\"major\",\"source_quote\":\"“the position of food committee for Mrs. ‘Going-to-Bulgaria.’”\",\"suggested_fix\":\"Vervang “die pos van voedselaanbieder te vul vir mev. ‘Gaan-na-Bulgarye’” met “die pos in die voedselkomitee vir mev. ‘Gaan-na-Bulgarye’ te vul.”\",\"translation_quote\":\"“die pos van voedselaanbieder te vul vir mev. ‘Gaan-na-Bulgarye.’”\"},{\"location\":\"HTML, paragraph beginning “Ongelukkig gaan…”\",\"severity\":\"major\",\"source_quote\":\"“because I declined the food committee request.”\",\"suggested_fix\":\"Vervang “die versoek vir die voedselaanbiedingspos afgeslaan het” met “die versoek om op die voedselkomitee te dien, van die hand gewys het.”\",\"translation_quote\":\"“omdat ek die versoek vir die voedselaanbiedingspos afgeslaan het.”\"},{\"location\":\"HTML, heading “Soek doelbewus na asemhaling”\",\"severity\":\"major\",\"source_quote\":\"“Intentionally seek a breather”\",\"suggested_fix\":\"Vervang die opskrif met “Soek doelbewus ’n blaaskans.”\",\"translation_quote\":\"“Soek doelbewus na asemhaling”\"},{\"location\":\"HTML, paragraph beginning “Glo ‘Weeping…”\",\"severity\":\"major\",\"source_quote\":\"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\",\"suggested_fix\":\"Vertaal die aangehaalde teks, byvoorbeeld: “Die geween mag ’n nag duur, maar die vreugde kom in die môre” (Psalm 30:5).\",\"translation_quote\":\"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\"},{\"location\":\"HTML, final paragraph\",\"severity\":\"major\",\"source_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\"suggested_fix\":\"Vertaal die aanhaling in Afrikaans, byvoorbeeld: “Op U, HERE, vertrou ek; laat my nooit beskaamd staan nie” (Psalm 71:1).\",\"translation_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\"},{\"location\":\"HTML, image alt text\",\"severity\":\"major\",\"source_quote\":\"“Ocean waves breaking along a sandy shoreline seen from above.”\",\"suggested_fix\":\"Vervang die alt-teks met “Oseaanbranders wat langs ’n sanderige kus breek, van bo af gesien.”\",\"translation_quote\":\"“Oseaanwaaiers wat langs ’n sandstrand breek, gesien van bo af.”\"}],\"passed\":false,\"score\":67}",
+    "content_bytes": 2804,
+    "content_evidence_truncated": false,
+    "content_sha256": "96a895ade479106af141e6d5bd513b77a86ca7fa57f6492df58eb4ad9ccdb8b9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 747,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4154,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4151,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4901
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

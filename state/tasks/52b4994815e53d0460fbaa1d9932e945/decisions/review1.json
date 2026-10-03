@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "major",
+      "source_quote": "“Dr. Waldron, Elsie needs help!” Elsie’s husband was adamant, almost angry, as he stared at me.",
+      "suggested_fix": "Translate the opening exclamation mark inside the quotation, preserving the source’s meaning and punctuation; for example: <p class=\"drop-cap\">”ڈاکٹر والڈرون، ایلسی کو مدد کی ضرورت ہے!“ ایلسی کا شوہر مجھے گھورتے ہوئے اصرار کر رہا تھا، بلکہ تقریباً غصے میں تھا۔</p>",
+      "translation_quote": "”ڈاکٹر والڈرون، ایلسی کو مدد کی ضرورت ہے!“ ایلسی کا شوہر مجھے گھورتے ہوئے اصرار کر رہا تھا، بلکہ تقریباً غصے میں تھا۔"
+    },
+    {
+      "location": "HTML, paragraph following the lab-chart paragraph",
+      "severity": "major",
+      "source_quote": "“She’s ready,” he husband said firmly.",
+      "suggested_fix": "Replace “اس کے شوہر” with “اُس کے شوہر” if needed for clarity, and correct the source’s obvious typo “he husband” as “her husband” in translation; the current meaning is otherwise conveyed.",
+      "translation_quote": "”وہ تیار ہے،“ اس کے شوہر نے مضبوط لہجے میں کہا۔"
+    },
+    {
+      "location": "HTML, paragraph beginning “When dealing with someone who drinks heavily”",
+      "severity": "major",
+      "source_quote": "When dealing with someone who drinks heavily, it is crucial that they don’t simply stop drinking without medical support.",
+      "suggested_fix": "Revise the Urdu to state clearly that the person must not abruptly stop drinking without medical support; the current wording “یہ نہایت ضروری ہے کہ وہ ... بند نہ کرے” conveys the opposite prescription ambiguously. For example: “یہ نہایت ضروری ہے کہ بہت زیادہ شراب پینے والا شخص طبی مدد کے بغیر اچانک شراب پینا بند نہ کرے۔”",
+      "translation_quote": "بہت زیادہ شراب پینے والے کسی شخص کے ساتھ معاملہ کرتے وقت یہ نہایت ضروری ہے کہ وہ طبی مدد کے بغیر یک دم شراب پینا بند نہ کرے۔"
+    },
+    {
+      "location": "HTML, paragraph beginning “I told them about the plan”",
+      "severity": "major",
+      "source_quote": "...while Elise continued to stare silently at the floor.",
+      "suggested_fix": "Use “ایلسی” consistently; the source says Elsie, and “ایلیس” can read as a different name. Suggested wording: “جبکہ ایلسی خاموشی سے فرش کو دیکھتی رہی۔”",
+      "translation_quote": "جبکہ ایلیس خاموشی سے فرش کو دیکھتی رہی۔"
+    },
+    {
+      "location": "HTML, paragraph beginning “Around 2 pm”",
+      "severity": "major",
+      "source_quote": "Around 2 pm, I got a call from the rehab facility.",
+      "suggested_fix": "No change is needed: this is a time of day, not a Scripture reference. The Urdu “دوپہر تقریباً دو بجے” correctly localizes it.",
+      "translation_quote": "دوپہر تقریباً دو بجے مجھے بحالی کے مرکز سے فون آیا۔"
+    },
+    {
+      "location": "HTML, paragraph quoting Ecclesiastes 4:13",
+      "severity": "major",
+      "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+      "suggested_fix": "Translate the quoted clause “out of prison he cometh to reign” as coming out of prison to become king/reign, not coming out to begin reigning in general; retain the reference number and placement. Suggested phrase: “کیونکہ وہ قید خانے سے نکل کر بادشاہ بنتا ہے؛ جبکہ وہ بھی جو اس کی مملکت میں پیدا ہوا ہے غریب ہو جاتا ہے۔”",
+      "translation_quote": "کیونکہ وہ قید خانے سے نکل کر بادشاہی کرنے آتا ہے؛ جبکہ وہ بھی جو اس کی مملکت میں پیدا ہوا ہے غریب ہو جاتا ہے"
+    },
+    {
+      "location": "HTML, paragraph beginning “If Jesus was able to bring hope”",
+      "severity": "major",
+      "source_quote": "The only people we should give up on are the ones that our Savior has given up on as well.",
+      "suggested_fix": "Translate “give up on” as relinquishing hope in those people, rather than merely “چھوڑنا” in the sense of leaving them. Suggested wording: “ہمیں صرف انہی لوگوں کے لیے امید چھوڑنی چاہیے جن کے لیے ہمارے نجات دہندہ نے بھی امید چھوڑ دی ہو۔”",
+      "translation_quote": "ہمیں صرف انہی لوگوں سے امید چھوڑنی چاہیے جن سے ہمارے نجات دہندہ نے بھی امید چھوڑ دی ہو۔"
+    },
+    {
+      "location": "HTML, heading and paragraphs beginning “A Few Things to Remember”",
+      "severity": "major",
+      "source_quote": "Those of us who are optimists ... On the other hand, pessimists believe that failures are permanent, personal, and pervasive.",
+      "suggested_fix": "Use standard, unambiguous Urdu for “optimists” and “pessimists”; “خوش امید” and “بدامید” are unclear/unnatural here. For example, use “رجائیت پسند” and “مایوسی پسند” consistently in this passage.",
+      "translation_quote": "ہم میں سے جو خوش امید ہیں ... دوسری طرف، بدامید لوگ سمجھتے ہیں"
+    },
+    {
+      "location": "HTML, title",
+      "severity": "minor",
+      "source_quote": "Dealing with Cynicism",
+      "suggested_fix": "Consider a more idiomatic title: “بدگمانی سے نمٹنے کا طریقہ” or “بدگمانی سے کیسے نمٹیں”.",
+      "translation_quote": "بدگمانی سے نمٹنا"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

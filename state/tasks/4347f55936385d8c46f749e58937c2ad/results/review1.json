@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1034b52d-1160-40ad-8866-d82790075490",
+    "response_id": "chatcmpl-EUxZtfTaqjWR5QzPrtVCWUvTj6jlI",
+    "usage": {
+      "completion_tokens": 1105,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7097,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7094,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8202
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Body, paragraph 2",
+        "severity": "major",
+        "source_quote": "In the small cemetery of a churchyard in Olney, England",
+        "suggested_fix": "Katika makaburi madogo ya uwanja wa kanisa huko Olney, Uingereza",
+        "translation_quote": "Katika makaburi madogo yaliyo kwenye uwanja wa kanisa huko Olney, Uingereza"
+      },
+      {
+        "location": "Body, paragraph 3 (inscription)",
+        "severity": "major",
+        "source_quote": "a servant of slaves in Africa",
+        "suggested_fix": "mtu aliyewatumikia watumwa barani Afrika",
+        "translation_quote": "mtumishi wa watumwa barani Afrika"
+      },
+      {
+        "location": "Body, paragraph 9",
+        "severity": "major",
+        "source_quote": "He sent several letters back to his father during this time, pleading for help.",
+        "suggested_fix": "Wakati huo alimtumia baba yake barua kadhaa, akimsihi amsaidie.",
+        "translation_quote": "Wakati huo alimtumia baba yake barua kadhaa, akiomba msaada kwa kusihi."
+      },
+      {
+        "location": "Body, paragraph 10",
+        "severity": "major",
+        "source_quote": "The ship, while being almost too far from shore to trade, decided to give trading a try.",
+        "suggested_fix": "Ingawa meli ilikuwa karibu kuwa mbali mno na ufuo kufanya biashara, waliamua kujaribu kufanya biashara.",
+        "translation_quote": "Ingawa meli ilikuwa karibu mbali mno na ufuo kufanya biashara, waliamua kujaribu kufanya biashara."
+      },
+      {
+        "location": "Body, paragraph 11",
+        "severity": "major",
+        "source_quote": "The storm awakened Newton, the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.",
+        "suggested_fix": "Dhoruba ilimwamsha Newton; mbao zilizooza za meli zilikuwa zimevunjwa na mawimbi, na maji ya mafuriko yalikuwa yakizunguka na kuingia katika chumba chake.",
+        "translation_quote": "Dhoruba ilimwamsha Newton, huku mbao zilizooza za meli zikivunjwa na mawimbi na maji yakizunguka na kuingia katika chumba chake."
+      },
+      {
+        "location": "Body, paragraph 12",
+        "severity": "major",
+        "source_quote": "From one o’clock until midnight, he was at the helm.",
+        "suggested_fix": "Kuanzia saa moja asubuhi hadi usiku wa manane, alikuwa kwenye usukani.",
+        "translation_quote": "Kuanzia saa saba mchana hadi usiku wa manane, alikuwa kwenye usukani."
+      },
+      {
+        "location": "Body, paragraph 15",
+        "severity": "major",
+        "source_quote": "He took an interest in prayer, reading and meditating on the Scriptures, and only speaking words pleasing to God.",
+        "suggested_fix": "Alijitolea kwa maombi, kusoma na kutafakari Maandiko, na kusema maneno yanayompendeza Mungu pekee.",
+        "translation_quote": "Alianza kupendezwa na maombi, kusoma na kutafakari Maandiko, na kusema maneno yanayompendeza Mungu pekee."
+      },
+      {
+        "location": "Body, paragraph 19",
+        "severity": "major",
+        "source_quote": "“Faith’s Review and Expectation”",
+        "suggested_fix": "“Tafakari na Matarajio ya Imani”",
+        "translation_quote": "“Kutazama Nyuma na Matarajio ya Imani”"
+      },
+      {
+        "location": "Body, paragraph 20",
+        "severity": "major",
+        "source_quote": "In 1788, 34 years after he left the slave trade, He wrote a book entitled Thoughts Upon the African Slave Trade and sent it to all the members of parliament.",
+        "suggested_fix": "Mwaka 1788, miaka 34 baada ya kuacha biashara ya watumwa, aliandika kitabu kilichoitwa <em>Thoughts Upon the African Slave Trade</em> na kukituma kwa wabunge wote.",
+        "translation_quote": "Mwaka 1788, miaka 34 baada ya kuacha biashara ya watumwa, aliandika kitabu kilichoitwa <em>Thoughts Upon the African Slave Trade</em> na kukituma kwa wabunge wote."
+      },
+      {
+        "location": "Body, paragraph 20, quoted passage",
+        "severity": "major",
+        "source_quote": "“Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
+        "suggested_fix": "“Bila shaka, kuwakamata, kuwauza na kuwasafirisha watumwa weusi hadi kwenye mashamba makubwa ya West Indies na Amerika kulikuwa maisha ya kikatili na ya kinyama.”",
+        "translation_quote": "“Bila shaka, kuwakamata, kuwauza na kuwasafirisha watumwa weusi kwenda kwenye mashamba makubwa katika visiwa vya West Indies na Amerika ilikuwa njia ya maisha ya ukatili na uovu.”"
+      },
+      {
+        "location": "Body, paragraph 25",
+        "severity": "major",
+        "source_quote": "It was first known as a plantation melody entitled “Loving Lambs”.",
+        "suggested_fix": "Mwanzoni lilijulikana kama melodia ya mashamba iliyoitwa “Wanakondoo Wapendwa”.",
+        "translation_quote": "Kwanza ilijulikana kama melodia ya mashambani iliyoitwa “Wanakondoo Wenye Upendo”."
+      }
+    ],
+    "passed": false,
+    "score": 79
+  }
+}

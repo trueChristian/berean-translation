@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third paragraph, quotation attributed to Nelson Mandela",
+      "severity": "major",
+      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+      "suggested_fix": "Translate the quotation into Spanish, preserving its meaning and punctuation. For example: “El fracaso es un maestro y, al final de tu vida, ¿qué crees que lamentarás más: haber fracasado o no haberlo intentado nunca?”",
+      "translation_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
+    },
+    {
+      "location": "Title and section metadata",
+      "severity": "major",
+      "source_quote": "title: “From the Editor”; section: “From the EDITOR”",
+      "suggested_fix": "Translate both metadata fields into Spanish, for example, title: “Del editor”; section: “DEL EDITOR”.",
+      "translation_quote": "title: “From the Editor”; section: “From the EDITOR”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

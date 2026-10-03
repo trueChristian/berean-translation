@@ -1,0 +1,205 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fb006bbe-f285-4c04-96dd-1bc586e0199e",
+    "response_id": "chatcmpl-EUxYM3r0OnF5NZbNcpzJBSu64eq1q",
+    "usage": {
+      "completion_tokens": 2724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6747,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9474
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, aya ya kwanza",
+        "severity": "major",
+        "source_quote": "“Doth not nature itself teach you?” … “We are exhorted to consider the lilies, the ravens, and the grass of the field.”",
+        "suggested_fix": "Tafsiri maneno ya nukuu kwa Kiswahili na uhifadhi rejea zake ikiwa zipo. Badilisha “maua ya lili, tai” kuwa maana sahihi: maua ya mashambani na kunguru; “ravens” si tai.",
+        "translation_quote": "“Doth not nature itself teach you?” … “Tunasukumwa kutafakari juu ya maua ya lili, tai na nyasi za uwanja.”"
+      },
+      {
+        "location": "HTML, aya ya pili",
+        "severity": "major",
+        "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili, ukihifadhi rejea kama (Ayubu 6:5).",
+        "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+      },
+      {
+        "location": "HTML, aya ya tatu",
+        "severity": "major",
+        "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili na tumia jina la kawaida la kitabu: (Yakobo 5:13).",
+        "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13)."
+      },
+      {
+        "location": "HTML, aya ya nne",
+        "severity": "major",
+        "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
+        "suggested_fix": "Tafsiri nukuu na maneno “I will sing” kwa Kiswahili; hifadhi rejeo (Zaburi 40:3) na idadi 22.",
+        "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). Mara 22, Maandiko yanarudia kifungu, I will sing."
+      },
+      {
+        "location": "HTML, aya ya sita",
+        "severity": "major",
+        "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19).",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili na tumia rejeo la kawaida (Waefeso 5:19).",
+        "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19)."
+      },
+      {
+        "location": "HTML, aya ya sita",
+        "severity": "major",
+        "source_quote": "“Jews have no dealings with the Samaritans.”",
+        "suggested_fix": "Tafsiri nukuu hiyo kwa Kiswahili, kwa mfano: “Wayahudi hawashirikiani na Wasamaria.”",
+        "translation_quote": "“Jews have no dealings with the Samaritans.”"
+      },
+      {
+        "location": "HTML, aya ya sita",
+        "severity": "major",
+        "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili na tumia rejeo (Yohana 4:14).",
+        "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
+      },
+      {
+        "location": "HTML, aya ya saba",
+        "severity": "major",
+        "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili na tumia rejeo (Isaya 65:14).",
+        "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
+      },
+      {
+        "location": "HTML, aya ya nane",
+        "severity": "major",
+        "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili na tumia rejeo (Ufunuo 18:2).",
+        "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
+      },
+      {
+        "location": "HTML, aya ya tisa",
+        "severity": "major",
+        "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili na tumia rejeo (Zaburi 22:9).",
+        "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9)."
+      },
+      {
+        "location": "HTML, aya ya tisa",
+        "severity": "major",
+        "source_quote": "The Philistines “had filled them with earth” (Gen 26:15).",
+        "suggested_fix": "Tafsiri nukuu kwa Kiswahili na tumia rejeo (Mwanzo 26:15).",
+        "translation_quote": "Wafilisti “had filled them with earth” (Gen 26:15)."
+      },
+      {
+        "location": "HTML, aya ya kumi",
+        "severity": "major",
+        "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).",
+        "suggested_fix": "Tafsiri nukuu nzima kwa Kiswahili; hifadhi rejeo na masafa yake kama (Zaburi 137:2-4).",
+        "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
+      },
+      {
+        "location": "HTML, aya ya kumi",
+        "severity": "major",
+        "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
+        "suggested_fix": "Tafsiri nukuu nzima kwa Kiswahili; hifadhi rejeo na masafa yake kama (Yeremia 29:5-7).",
+        "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
+      },
+      {
+        "location": "HTML, aya ya mwisho",
+        "severity": "major",
+        "source_quote": "“giving glory to God in the highest.”",
+        "suggested_fix": "Tafsiri nukuu hiyo kwa Kiswahili, kwa mfano: “utukufu kwa Mungu juu mbinguni.”",
+        "translation_quote": "“giving glory to God in the highest.”"
+      },
+      {
+        "location": "HTML, aya ya mwisho",
+        "severity": "major",
+        "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+        "suggested_fix": "Tafsiri nukuu nzima kwa Kiswahili; hifadhi idadi, mpangilio na namba za mistari katika rejeo (Wakolosai 3:16, 23).",
+        "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
+      },
+      {
+        "location": "HTML, aya ya kwanza",
+        "severity": "major",
+        "source_quote": "“the ravens”",
+        "suggested_fix": "Tumia “kunguru” badala ya “tai”; chanzo kinarejelea ravens, si eagles.",
+        "translation_quote": "“tai”"
+      },
+      {
+        "location": "HTML, aya ya pili",
+        "severity": "major",
+        "source_quote": "“The dog barks at an intruder to drive him away”",
+        "suggested_fix": "Sahihisha sentensi ili iseme kuwa mbwa hubweka kwa mvamizi ili kumfukuza.",
+        "translation_quote": "“Mbwa huwauwa mduku kwa mgeni kumzuilia”"
+      },
+      {
+        "location": "HTML, aya ya tatu",
+        "severity": "major",
+        "source_quote": "“the expression ‘happy as a lark’”",
+        "suggested_fix": "Tumia ulinganisho unaohifadhi maana ya kuwa na furaha sana kama lark; usitafsiri lark kama shujaa wa shambani.",
+        "translation_quote": "“furaha kama shujaa wa shambani”"
+      },
+      {
+        "location": "HTML, aya ya nne",
+        "severity": "major",
+        "source_quote": "“It is their waking thought as morning gilds the sky”",
+        "suggested_fix": "Tafsiri maana ya kuwa wimbo ni jambo lao la kwanza wanapoamka, wakati alfajiri inapopamba anga; “wazo lao wa kufungua macho” haieleweki hivyo.",
+        "translation_quote": "“Ni wazo lao wa kufungua macho wakati asubuhi inavyopendeza anga”"
+      },
+      {
+        "location": "HTML, aya ya saba",
+        "severity": "major",
+        "source_quote": "“We are not unaware of his devices...”",
+        "suggested_fix": "Tafsiri maana: “Tunajua hila zake...” Badilisha “Hatuwezi kusahau viwango vyake” kwa maana inayolingana.",
+        "translation_quote": "“Hatuwezi kusahau viwango vyake...”"
+      },
+      {
+        "location": "HTML, aya ya tisa",
+        "severity": "major",
+        "source_quote": "“These are stopped-up wells like unto the wells that Isaac found upon his return to Gerar.”",
+        "suggested_fix": "Tafsiri “stopped-up wells” kama visima vilivyozibwa/vilivyojaa udongo, si tu visima vilivyoziba bila uwazi kuhusu hali yake.",
+        "translation_quote": "“Haya ni visima vimeziba kama vile visima ambavyo Isaki alipata aliporudi Gerari.”"
+      },
+      {
+        "location": "HTML, aya ya kumi",
+        "severity": "major",
+        "source_quote": "“they lost their song.”",
+        "suggested_fix": "Tafsiri maana ya kupoteza wimbo wao, si kukosa wimbo wao kwa maana isiyo wazi.",
+        "translation_quote": "“walikosa wimbo wao.”"
+      },
+      {
+        "location": "HTML, aya ya mwisho",
+        "severity": "major",
+        "source_quote": "“we enact the grace of God”",
+        "suggested_fix": "Tafsiri maana ya kutenda/kuonyesha neema ya Mungu; “tunafanya neema ya Mungu” si Kiswahili cha kawaida na hubadilisha uhusiano wa maana.",
+        "translation_quote": "“tunafanya neema ya Mungu.”"
+      },
+      {
+        "location": "HTML, aya ya mwisho",
+        "severity": "major",
+        "source_quote": "“the innumerable hosts of our feathered friends who are thankful for God’s loving providence”",
+        "suggested_fix": "Hifadhi maana ya wingi usiohesabika wa ndege na shukrani zao kwa majaliwa ya Mungu yenye upendo; “ulinzi” ni finyu kuliko “providence.”",
+        "translation_quote": "“jeshi lisilohesabika la marafiki zetu wenye manyoya ambao wamejaa shukrani kwa ulinzi wa upendo wa Mungu.”"
+      },
+      {
+        "location": "subtitle",
+        "severity": "major",
+        "source_quote": "and ‘round me rings the music of the spheres.",
+        "suggested_fix": "Tafsiri kwa Kiswahili maana ya muziki wa anga unaonizunguka na kunivuma; kwa mfano, “na pande zote hunizunguka muziki wa anga.”",
+        "translation_quote": "na karibu nami kunatia sauti muziki wa anga."
+      }
+    ],
+    "passed": false,
+    "score": 35
+  }
+}

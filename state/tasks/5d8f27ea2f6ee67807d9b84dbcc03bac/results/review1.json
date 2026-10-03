@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a51e57c0-0010-4df4-b604-48189187fb75",
+    "response_id": "chatcmpl-EUxcqoCRhu6HzWIja62EJ1XPxjfSG",
+    "usage": {
+      "completion_tokens": 970,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6828,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6825,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7798
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Neglect.”",
+        "severity": "major",
+        "source_quote": "No doubt that the singing mother can implant copious songs in her infant and set the stage for a happy and hope-filled life.",
+        "suggested_fix": "Replace «אין ספק שאם שרה יכולה להטמיע שירים רבים בתינוקה ולהניח את היסודות לחיים מאושרים ומלאי תקווה.» with «אין ספק שאם מזמרת יכולה להטמיע שירים רבים בתינוקה, היא יכולה להניח את היסודות לחיים מאושרים ומלאי תקווה.»",
+        "translation_quote": "אין ספק שאם שרה יכולה להטמיע שירים רבים בתינוקה ולהניח את היסודות לחיים מאושרים ומלאי תקווה."
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first stanza, fifth line",
+      "severity": "minor",
+      "source_quote": "Rejoice and praise the King of Kings!",
+      "suggested_fix": "Replace “Alegre-vos” with “Alegrai-vos” to correctly express the plural imperative and match the surrounding lines.",
+      "translation_quote": "Alegre-vos e louvai o Rei dos Reis!"
+    },
+    {
+      "location": "HTML, third stanza, second line",
+      "severity": "minor",
+      "source_quote": "And worship Him with reverent praise;",
+      "suggested_fix": "Replace “com cânticos reverentes” with “com louvor reverente” to preserve the source’s reference to reverent praise without specifying songs.",
+      "translation_quote": "E adorai‑o com cânticos reverentes;"
+    },
+    {
+      "location": "HTML, third stanza, third line",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Replace “temor santo e tremendo” with “temor santo e reverente” to convey the source’s sense of reverential awe.",
+      "translation_quote": "Prostrai‑vos em temor santo e tremendo—"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

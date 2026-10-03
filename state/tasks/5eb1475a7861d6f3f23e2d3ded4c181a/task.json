@@ -2,10 +2,89 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": "b3019b779caad40e26614592fda731d589453558fa0bd87b656b513ece10279f",
   "base_metadata_sha256": "02ee54d8d94c2ee85f54daafc6ca1beb2bfb153bd787ec06f3fce9e37b9529af",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1598,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 655,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12418,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12415,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14016
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, quoted Genesis 2:18–24, sentence about Adam’s rib",
+      "severity": "major",
+      "source_quote": "“and he took one of his ribs, and closed up the flesh instead thereof”",
+      "suggested_fix": "Replace «взял одну из ребер его и зарыл плоть ту на её место» with «взял одно из рёбер его и закрыл то место плотью»; preserve the existing paragraph and reference.",
+      "translation_quote": "«взял одну из ребер его и зарыл плоть ту на её место»"
+    },
+    {
+      "location": "HTML, quoted Genesis 2:18–24, Adam’s naming of the woman",
+      "severity": "major",
+      "source_quote": "“she shall be called Woman, because she was taken out of Man”",
+      "suggested_fix": "Translate the wordplay and its stated reason as «она будет называться Женщиной, потому что взята от Мужчины» (or an equally clear Russian rendering), not as «Женой … от Адама».",
+      "translation_quote": "«она наречется Женой, потому что взята от Адама»"
+    },
+    {
+      "location": "HTML, quoted Genesis 1:26–28",
+      "severity": "major",
+      "source_quote": "“and let them have dominion … over all the earth”",
+      "suggested_fix": "Replace «и всякая земля» with «и над всей землёй», preserving the source’s claim of dominion over the whole earth.",
+      "translation_quote": "«и да владычествуют рыбы морские и птицы небесные, и скот, и всякая земля, и всякое пресмыкающееся»"
+    },
+    {
+      "location": "HTML, quoted Genesis 2:24 (heading 2 and heading 3)",
+      "severity": "major",
+      "source_quote": "“and they shall be one flesh”",
+      "suggested_fix": "In both quotations, use a grammatical Russian equivalent such as «и будут они одной плотью»; the current «и будут две одна плоть» is ungrammatical and incorrectly uses the feminine numeral «две» for the man and woman.",
+      "translation_quote": "«и будут две одна плоть»"
+    },
+    {
+      "location": "HTML, paragraph beginning “But an equal yoke brings blessing!”",
+      "severity": "major",
+      "source_quote": "“He wants to see us joined in heart, mind, and flesh—the whole being, being one.”",
+      "suggested_fix": "Replace «соединёнными в сердце, уме и плоти — во всём существе» with a grammatical equivalent that clearly says they are joined in heart, mind, and flesh—the whole being; for example, «соединёнными сердцем, разумом и плотью — всем своим существом».",
+      "translation_quote": "«соединёнными в сердце, уме и плоти — во всём существе, будучи единым»"
+    },
+    {
+      "location": "HTML, quoted 1 Peter 3:7 and the following discussion (heading 8)",
+      "severity": "major",
+      "source_quote": "“as being heirs together of the grace of life”",
+      "suggested_fix": "Use the grammatically correct plural form «как сонаследниками благодати жизни» in the quotation and «сонаследниками благодати жизни» in the repeated phrase and discussion.",
+      "translation_quote": "«как с сонаследнице благодати жизни»; «Как с сонаследнице благодати жизни»"
+    },
+    {
+      "location": "HTML, paragraph beginning “I remember looking at married life”",
+      "severity": "minor",
+      "source_quote": "“the anointing of the Spirit of God can come down on your family”",
+      "suggested_fix": "Correct the grammatical error «присутствовала помазание» to «присутствовало помазание» (or another grammatical rendering that preserves the image of the anointing coming upon the family).",
+      "translation_quote": "«чтобы присутствовала помазание Духа Божьего над вашей семьёй»"
+    },
+    {
+      "location": "HTML, quoted Ephesians 5:24–29 (heading 10)",
+      "severity": "major",
+      "source_quote": "“That he might sanctify and cleanse it with the washing of water by the word”",
+      "suggested_fix": "Replace «чтобы осветить её» with «чтобы освятить её»; the source says Christ sanctifies the church, not merely illuminates it.",
+      "translation_quote": "«чтобы осветить её, очистив омовением воды при слове»"
+    }
+  ],
   "id": "5eb1475a7861d6f3f23e2d3ded4c181a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -94,11 +173,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

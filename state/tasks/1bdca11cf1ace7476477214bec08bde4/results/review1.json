@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "623e7b5b-cb7d-4218-96c9-77dd3534bf6f",
+    "response_id": "chatcmpl-EUxYicCulUIpGodFFW94WZvCH0Oq7",
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 348,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3565,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4461
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "major",
+        "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+        "suggested_fix": "Translate the quotation into Greek while preserving its meaning, for example: «Η αποτυχία είναι δάσκαλος και, στο τέλος της ζωής σου, τι πιστεύεις ότι θα σε κάνει να νιώσεις χειρότερα: η αποτυχία ή το ότι δεν προσπάθησες ποτέ;»",
+        "translation_quote": "«Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?»"
+      },
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "major",
+        "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+        "suggested_fix": "Restore the omitted image of pressing toward the goal/mark, while retaining the reference to fellow youth and the high calling in Christ Jesus. For example: «Νέοι που ενθαρρύνουν άλλους νέους να προχωρούν προς τον στόχο, προς το βραβείο της άνω κλήσης εν Χριστώ Ιησού.»",
+        "translation_quote": "Νέους που ενθαρρύνουν συμμαθητές τους να επιδιώξουν το βραβείο της ανώτερης κλήσης εν Χριστώ Ιησού."
+      },
+      {
+        "location": "HTML, paragraph 7",
+        "severity": "major",
+        "source_quote": "This monumental event upended the vaccine debate",
+        "suggested_fix": "Correct the meaning to say that the event upended the debate: «Αυτό το κοσμοϊστορικό γεγονός ανέτρεψε τη συζήτηση για τα εμβόλια…»",
+        "translation_quote": "Αυτό το ιστορικό γεγονός ανατράπηκε τη συζήτηση για τα εμβόλια"
+      },
+      {
+        "location": "HTML, paragraph 7",
+        "severity": "major",
+        "source_quote": "these new and unproven COVID-19 “vaccines.”",
+        "suggested_fix": "Correct the typo and ensure the adjective means «μη αποδεδειγμένα» (unproven): «…για αυτά τα νέα και μη αποδεδειγμένα “εμβόλια” κατά της COVID-19.»",
+        "translation_quote": "αυτά τα νέα και ααποδεδειγμένα «εμβόλια» για την COVID-19"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

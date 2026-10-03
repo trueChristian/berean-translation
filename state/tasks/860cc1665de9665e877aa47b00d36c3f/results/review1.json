@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "26b9a53a-d1b5-4981-8784-5e501a9c19da",
+    "response_id": "chatcmpl-EUxZmoODkHglJ3okBigFrFFwS5UyR",
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 415,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2922,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3665
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 1",
+        "severity": "minor",
+        "source_quote": "many homemakers deal with regularly",
+        "suggested_fix": "Replace «hemmavarande» with «personer som sköter hemmet» to convey the meaning of homemakers more clearly.",
+        "translation_quote": "många hemmavarande möter regelbundet"
+      },
+      {
+        "location": "HTML, paragraph 7",
+        "severity": "minor",
+        "source_quote": "a stubbed toe",
+        "suggested_fix": "Replace «en stukad tå» with «en tå som slagit i något» or «en stubbad tå»; the source describes stubbing a toe, not spraining it.",
+        "translation_quote": "en stukad tå"
+      },
+      {
+        "location": "HTML, paragraph 4",
+        "severity": "minor",
+        "source_quote": "If it is not a dental emergency",
+        "suggested_fix": "Replace «ett tandläkarakutfall» with «ett akut tandproblem» for natural Swedish and the intended meaning.",
+        "translation_quote": "ett tandläkarakutfall"
+      },
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Use a natural Swedish title such as «Överbelastad av uppskjutande».",
+        "translation_quote": "Prokrastinering överbelastning"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Translate the section label as «SYSTER TILL SYSTER».",
+        "translation_quote": "SISTER TO SISTER"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

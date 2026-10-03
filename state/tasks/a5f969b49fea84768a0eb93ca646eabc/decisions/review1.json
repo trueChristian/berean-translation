@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "Or a better question might be, have you seen God working in your life?",
+      "suggested_fix": "Vervang die strepiestring met ’n natuurlike Afrikaanse frase: “Of dalk is ’n beter vraag: het jy God in jou lewe sien werk?”",
+      "translation_quote": "Of dalk &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; is die beter vraag: het jy God in jou lewe sien werk?"
+    },
+    {
+      "location": "Paragraaf wat met “Die humaniste” begin",
+      "severity": "minor",
+      "source_quote": "mock the very existence of God",
+      "suggested_fix": "Vervang “very” met ’n Afrikaanse woord, byvoorbeeld “werklike”: “bespot die werklike bestaan van God.”",
+      "translation_quote": "bespot die very bestaan van God."
+    },
+    {
+      "location": "Paragraaf wat met “In Romans, we read” begin",
+      "severity": "critical",
+      "source_quote": "In Romans, we read, “For the wrath of God is revealed from heaven …” (Romans 1:18-32).",
+      "suggested_fix": "Vertaal die inleidende woorde en die volledige aangehaalde Skrifgedeelte in Afrikaans, en gebruik die konvensionele Afrikaanse Bybelboeknaam; behou die aangehaalde inhoud en verwysing 1:18-32.",
+      "translation_quote": "In Romans, we read, “For the wrath of God is revealed from heaven …” (Romans 1:18-32). [Die volledige aangehaalde gedeelte is onvertaal in Engels.]"
+    },
+    {
+      "location": "Paragraaf wat met “Die Christen glo nie in menslike redenasie nie” begin",
+      "severity": "critical",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "Vertaal die volledige aangehaalde Skrifgedeelte in Afrikaans en gebruik die konvensionele Afrikaanse Bybelboeknaam; behou die verwysing 1:16.",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+    },
+    {
+      "location": "Paragraaf wat met “Christene glo hulle is bloot” begin",
+      "severity": "critical",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Vertaal die aangehaalde Skrifgedeelte in Afrikaans en gebruik die konvensionele Afrikaanse Bybelboeknaam; behou die verwysing 15:18 en die verwysing se plasing.",
+      "translation_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”"
+    },
+    {
+      "location": "Paragraaf wat met “Wanneer hierdie lewe verby is” begin",
+      "severity": "major",
+      "source_quote": "the humanists, whether they say they believe in God or not, will perish.",
+      "suggested_fix": "Vervang “verderf” met “omkom” om die betekenis “sal sterf/omkom” weer te gee: “sal omkom.”",
+      "translation_quote": "sal verderf."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

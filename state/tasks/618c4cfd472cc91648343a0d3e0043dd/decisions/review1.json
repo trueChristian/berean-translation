@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Alineage over Beckys man na de explosie",
+      "severity": "major",
+      "source_quote": "“My husband faced the disaster like a man,” says Becky.",
+      "suggested_fix": "“Mijn man ging de ramp als een man tegemoet,” zegt Becky.",
+      "translation_quote": "“Mijn man stond het onheil te woord als een man,” zegt Becky."
+    },
+    {
+      "location": "Alineage over Beckys geloofsadvies",
+      "severity": "major",
+      "source_quote": "Believe “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Vertaal het citaat naar het Nederlands, bijvoorbeeld: Geloof: “’s Avonds is er geween, maar ’s morgens gejuich” (Psalm 30:5).",
+      "translation_quote": "Geloof “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+    },
+    {
+      "location": "Laatste alinea, citaat uit Psalm 71",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Vertaal het citaat naar het Nederlands, bijvoorbeeld: “Op U, HEER, vertrouw ik; laat mij nooit beschaamd worden” (Psalm 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

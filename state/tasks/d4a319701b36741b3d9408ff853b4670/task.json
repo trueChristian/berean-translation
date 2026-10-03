@@ -2,10 +2,47 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": "f2bad361a25b46c97715fed25e232c3bf10c1ac1303b6211f4b5db0d452a9b8c",
   "base_metadata_sha256": "b00f30a6c58b18921aea1f5be598b6639f8d92fd75a9a2640ecc4137bb902a3e",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 385,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 259,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2840,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2837,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3225
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate the section label into Dutch, for example: “ZUS TOT ZUS”.",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Use a natural Dutch title such as “Overbelasting door uitstelgedrag”.",
+      "translation_quote": "Uitstelgedrag Overbelast"
+    }
+  ],
   "id": "d4a319701b36741b3d9408ff853b4670",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -94,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

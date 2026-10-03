@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraphe commençant par « Parfois, ce type de surcharge… »",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates. At the same time, other saints are suffering deeply on the sidelines with little recognition or financial aid.”",
+      "suggested_fix": "Remplacer « Les événements traumatisants dans nos cercles visibles reçoivent généralement prières, soutien financier et mises à jour hebdomadaires du budget » par une formulation qui conserve le sens de « plain circles », par exemple « Les événements traumatisants dans nos communautés plain tendent à susciter des prières, un soutien financier et des nouvelles hebdomadaires sur le budget ».",
+      "translation_quote": "« Les événements traumatisants dans nos cercles visibles reçoivent généralement prières, soutien financier et mises à jour hebdomadaires du budget. En même temps, d’autres saints souffrent profondément en coulisses avec peu de reconnaissance ou d’aide financière. »"
+    },
+    {
+      "location": "HTML, paragraphe commençant par « Dites-le. Lisez les Psaumes… »",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Traduire la citation et le nom du livre, sans modifier le numéro de référence : par exemple, « Les pleurs peuvent durer toute la nuit, mais la joie vient au matin » (Psaume 30:5).",
+      "translation_quote": "« Weeping may endure for a night, but joy cometh in the morning » (Psalm 30:5)."
+    },
+    {
+      "location": "HTML, dernier paragraphe",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Traduire la citation et le nom du livre, en conservant exactement la référence : par exemple, « En toi, ÉTERNEL, je place ma confiance : que je ne sois jamais confondu » (Psaume 71:1).",
+      "translation_quote": "« In thee, O LORD, do I put my trust: let me never be put to confusion » (Psalm 71:1)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

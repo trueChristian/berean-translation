@@ -1,0 +1,126 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraf pembuka",
+      "severity": "major",
+      "source_quote": "“Doth not nature itself teach you?”",
+      "suggested_fix": "Terjemahkan kutipan itu ke bahasa Indonesia, misalnya: “Bukankah alam sendiri mengajar kamu?”",
+      "translation_quote": "“Doth not nature itself teach you?”"
+    },
+    {
+      "location": "HTML, paragraf 2",
+      "severity": "major",
+      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan nomor ayat tetap 6:5, misalnya: “Apakah keledai liar meringkik ketika ada rumput? Apakah lembu melenguh ketika ada makanannya?” (Ayub 6:5).",
+      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+    },
+    {
+      "location": "HTML, paragraf 3",
+      "severity": "major",
+      "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan nomor ayat tetap 5:13; misalnya: “Adakah orang yang bergembira? Baiklah ia menyanyikan mazmur” (Yakobus 5:13).",
+      "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13)."
+    },
+    {
+      "location": "HTML, paragraf 4",
+      "severity": "major",
+      "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
+      "suggested_fix": "Terjemahkan kutipan, referensi kitab, dan frasa yang dikutip, tanpa mengubah angka 40:3 atau 22. Misalnya: “Ia menaruh nyanyian baru dalam mulutku, pujian kepada Allah kita” (Mazmur 40:3). Dalam 22 kesempatan, Kitab Suci mengulangi frasa, “Aku akan bernyanyi.”",
+      "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). Dalam 22 kesempatan, Kitab Suci menegaskan kembali frasa, I will sing."
+    },
+    {
+      "location": "HTML, paragraf 6",
+      "severity": "major",
+      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan referensi tetap 5:19; misalnya: “Berbicaralah seorang kepada yang lain dalam mazmur, kidung puji-pujian dan nyanyian rohani; bernyanyi dan bermazmurlah dalam hatimu kepada Tuhan” (Efesus 5:19).",
+      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19)."
+    },
+    {
+      "location": "HTML, paragraf 6",
+      "severity": "major",
+      "source_quote": "“Jews have no dealings with the Samaritans.”",
+      "suggested_fix": "Terjemahkan kutipan ke bahasa Indonesia, misalnya: “Orang Yahudi tidak bergaul dengan orang Samaria.”",
+      "translation_quote": "“Jews have no dealings with the Samaritans.”"
+    },
+    {
+      "location": "HTML, paragraf 6",
+      "severity": "major",
+      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan nomor ayat tetap 4:14; misalnya: “Tetapi air yang akan Kuberikan kepadanya akan menjadi mata air di dalam dirinya, yang memancar sampai kepada hidup yang kekal” (Yohanes 4:14).",
+      "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
+    },
+    {
+      "location": "HTML, paragraf 7",
+      "severity": "major",
+      "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan nomor ayat tetap 65:14; misalnya: “Lihatlah, hamba-hamba-Ku akan bersorak-sorai karena sukacita hati” (Yesaya 65:14).",
+      "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
+    },
+    {
+      "location": "HTML, paragraf 8",
+      "severity": "major",
+      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan nomor ayat tetap 18:2; misalnya: “Babel besar sudah jatuh, sudah jatuh, dan telah menjadi tempat kediaman roh-roh jahat, dan tempat berlindung setiap roh najis, dan sangkar setiap burung najis dan yang dibenci” (Wahyu 18:2).",
+      "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
+    },
+    {
+      "location": "HTML, paragraf 9",
+      "severity": "major",
+      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan nomor ayat tetap 22:9; misalnya: “Sungguh, Engkaulah yang mengeluarkan aku dari kandungan; Engkau membuat aku berharap ketika aku berada di pangkuan ibuku” (Mazmur 22:9).",
+      "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9)."
+    },
+    {
+      "location": "HTML, paragraf 9",
+      "severity": "major",
+      "source_quote": "The Philistines “had filled them with earth” (Gen 26:15).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan nomor ayat tetap 26:15; misalnya: Orang Filistin “telah menimbunnya dengan tanah” (Kejadian 26:15).",
+      "translation_quote": "Orang Filistin “had filled them with earth” (Gen 26:15)."
+    },
+    {
+      "location": "HTML, paragraf 11",
+      "severity": "major",
+      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).",
+      "suggested_fix": "Terjemahkan seluruh kutipan dan nama kitab ke bahasa Indonesia, dengan mempertahankan satu referensi dan rentang 137:2-4; misalnya: “Pada pohon-pohon gandarusa di tengah-tengahnya kita menggantungkan kecapi kita. Sebab di sanalah orang-orang yang menawan kita meminta nyanyian dari kita; dan orang-orang yang menyiksa kita meminta sukacita, katanya, ‘Nyanyikanlah bagi kami salah satu nyanyian Sion!’ Bagaimanakah kita dapat menyanyikan nyanyian TUHAN di negeri asing?” (Mazmur 137:2-4).",
+      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
+    },
+    {
+      "location": "HTML, paragraf 11",
+      "severity": "major",
+      "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
+      "suggested_fix": "Terjemahkan kutipan dan nama kitab, dengan mempertahankan rentang 29:5-7; misalnya: “… Usahakanlah kesejahteraan kota ke mana Aku telah membawa kamu sebagai tawanan, dan berdoalah untuk kota itu kepada TUHAN, sebab kesejahteraannya adalah kesejahteraanmu” (Yeremia 29:5-7).",
+      "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
+    },
+    {
+      "location": "HTML, paragraf 12",
+      "severity": "major",
+      "source_quote": "At evening, we sing with our Lord and His disciples after supper, and with legions of angels “giving glory to God in the highest.”",
+      "suggested_fix": "Terjemahkan kutipan ke bahasa Indonesia, misalnya: Pada malam hari, kita bernyanyi bersama Tuhan kita dan murid-murid-Nya setelah makan malam, dan bersama barisan malaikat yang “memuliakan Allah di tempat yang mahatinggi.”",
+      "translation_quote": "Pada malam hari, kita bernyanyi bersama Tuhan kita dan murid-murid-Nya setelah makan malam, dan bersama barisan malaikat “giving glory to God in the highest.”"
+    },
+    {
+      "location": "HTML, paragraf 12",
+      "severity": "major",
+      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "Terjemahkan seluruh kutipan dan nama kitab, dengan kedua nomor ayat tetap 3:16, 23; misalnya: “Hendaklah perkataan Kristus diam dengan segala kekayaannya di antara kamu; ajarlah dan tegurlah seorang akan yang lain dalam segala hikmat dengan mazmur, kidung puji-pujian dan nyanyian rohani, sambil bernyanyi dengan penuh syukur dalam hatimu kepada Allah … Apa pun juga yang kamu perbuat, perbuatlah dengan segenap hatimu seperti untuk Tuhan dan bukan untuk manusia” (Kolose 3:16, 23).",
+      "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "ALL NATURE SINGS",
+      "suggested_fix": "Pertimbangkan judul yang lebih idiomatis dan setia, misalnya: “SELURUH ALAM BERNYANYI”.",
+      "translation_quote": "SELURUH ALAM BERNYANYI"
+    },
+    {
+      "location": "subtitle",
+      "severity": "minor",
+      "source_quote": "and ‘round me rings the music of the spheres.",
+      "suggested_fix": "Terjemahkan seluruh subjudul ke bahasa Indonesia, misalnya: “dan di sekelilingku bergema musik jagat raya.”",
+      "translation_quote": "dan 'di sekelilingku bergema musik alam semesta."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

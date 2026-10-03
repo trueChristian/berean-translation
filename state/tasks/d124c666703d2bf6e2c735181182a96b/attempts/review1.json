@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.html, final paragraph of Grandma Otto’s speech\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason.”\",\n      \"suggested_fix\": \"“上帝造你成为现在的样子自有祂的理由，Jamin。祂造 Kenny 成为现在的样子也自有祂的理由。”\",\n      \"translation_quote\": \"“上帝按着祂的旨意造就了你的样子，Jamin。祂按着祂的旨意造就了 Kenny 的样子。”\"\n    },\n    {\n      \"location\": \"source.html, paragraph beginning “Jamin went to the wash house”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“Jamin went to the wash house and scrubbed his hands.”\",\n      \"suggested_fix\": \"将“洗手房”改为“洗涤间”或符合上下文的其他译法，例如：“Jamin 去洗涤间把手洗干净。”\",\n      \"translation_quote\": \"“Jamin 到洗手房洗了手。”\"\n    },\n    {\n      \"location\": \"source.html, paragraph beginning “Jamin.” It was Grandma\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“A heavy comforter lay on her shoulders.”\",\n      \"suggested_fix\": \"将“安慰被”改为“厚厚的被子”或“厚厚的棉被”，例如：“她肩上披着一床厚厚的被子。”\",\n      \"translation_quote\": \"“一床厚厚的安慰被披在她肩上。”\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 1446,
+    "content_evidence_truncated": false,
+    "content_sha256": "f60d64fe368baf3d8bd28b5f3ca10cf43f7cc5cac40fa2a683637312524f7517",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1088,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3311,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3308,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4399
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

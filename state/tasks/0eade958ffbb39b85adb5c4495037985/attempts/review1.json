@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"Deep inside Jamin felt resigned to a life of muddled trip-ups.\",\"suggested_fix\":\"Replace «una vida de torpezas confusas» with «una vida llena de errores y tropiezos» to express the idea more naturally in Spanish.\",\"translation_quote\":\"En lo más profundo, Jamin se sentía resignado a una vida de torpezas confusas.\"},{\"location\":\"Paragraph 7\",\"severity\":\"minor\",\"source_quote\":\"Eventually, the trail would end up in a meadow\",\"suggested_fix\":\"Replace «Eventualmente» with «Con el tiempo» or «Al final»; in this context, «eventualmente» can suggest possibility or occurrence from time to time.\",\"translation_quote\":\"Eventualmente, el sendero desembocaría en un prado\"},{\"location\":\"Paragraph 7\",\"severity\":\"minor\",\"source_quote\":\"He breathed the rich air\",\"suggested_fix\":\"Replace «el aire denso» with «el aire fragante» or «el aire lleno de aromas» to convey the sensory richness of the woodland air.\",\"translation_quote\":\"Respiró el aire denso\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1068,
+    "content_evidence_truncated": false,
+    "content_sha256": "1a735b3f004dbd8f957a87bf5c6c24cc99be5e1d6945087fcd587a9c1c57bc16",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1134,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 865,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3308,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3305,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4442
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

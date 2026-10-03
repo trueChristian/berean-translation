@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.section / translation.section\",\"severity\":\"minor\",\"source_quote\":\"SISTER TO SISTER\",\"suggested_fix\":\"„Schwester zu Schwester“\",\"translation_quote\":\"SISTER TO SISTER\"},{\"location\":\"source.title / translation.title\",\"severity\":\"minor\",\"source_quote\":\"Procrastination Overload\",\"suggested_fix\":\"„Überlastung durch Aufschieben“\",\"translation_quote\":\"Prokrastination Überlastung\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 446,
+    "content_evidence_truncated": false,
+    "content_sha256": "56e269bf9948255401fa1ec60edfb4ece0481cb83a74e65672738f9229c2c5a2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 429,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2862,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3409
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

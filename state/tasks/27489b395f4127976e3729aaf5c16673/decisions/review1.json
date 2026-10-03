@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Circumstantial Overload",
+      "suggested_fix": "Υπερφόρτωση λόγω περιστάσεων",
+      "translation_quote": "Υπερφόρτωση από περιστάσεις"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "ΑΔΕΛΦΗ ΠΡΟΣ ΑΔΕΛΦΗ",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "major",
+      "source_quote": "Circumstantial overload might be the most difficult.",
+      "suggested_fix": "Η υπερφόρτωση λόγω περιστάσεων μπορεί να είναι η πιο δύσκολη.",
+      "translation_quote": "Το περιστασιακό υπερφορτωμένο φορτίο ίσως είναι το πιο δύσκολο."
+    },
+    {
+      "location": "HTML, paragraphs describing circumstantial overload and stress",
+      "severity": "major",
+      "source_quote": "Circumstantial overload may happen slowly",
+      "suggested_fix": "Η υπερφόρτωση λόγω περιστάσεων μπορεί να αναπτυχθεί σταδιακά",
+      "translation_quote": "Το περιστασιακό υπερφόρτωμα μπορεί να συμβεί αργά"
+    },
+    {
+      "location": "HTML, paragraph beginning “I felt like a lifeguard”",
+      "severity": "major",
+      "source_quote": "while taking in a bit too much water myself.",
+      "suggested_fix": "κι ενώ κι εγώ κατάπινα λίγο παραπάνω νερό.",
+      "translation_quote": "ενώ παίρνω λίγο πολύ νερό ο ίδιος."
+    },
+    {
+      "location": "HTML, paragraph beginning “Traumatic events”",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Τα τραυματικά γεγονότα στις κοινότητές μας των Plain τείνουν να λαμβάνουν προσευχή, οικονομική βοήθεια και εβδομαδιαίες ενημερώσεις για τον προϋπολογισμό.",
+      "translation_quote": "Τα τραυματικά γεγονότα στους στενούς μας κύκλους τείνουν να λαμβάνουν προσευχή, οικονομική βοήθεια και εβδομαδιαίες ενημερώσεις προϋπολογισμού."
+    },
+    {
+      "location": "HTML, quotation in “Believe that God cares”",
+      "severity": "critical",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Πίστεψε «Το κλάμα μπορεί να διαρκέσει μια νύχτα, μα το πρωί έρχεται η χαρά» (Ψαλμός 30:5).",
+      "translation_quote": "Πίστεψε «Weeping may endure for a night, but joy cometh in the morning\" (Psalm 30:5)."
+    },
+    {
+      "location": "HTML, final paragraph",
+      "severity": "critical",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Και πες μαζί με τον Ψαλμωδό: «Σε εσένα, Κύριε, έχω θέσει την εμπιστοσύνη μου· ας μην ντροπιαστώ ποτέ» (Ψαλμός 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    },
+    {
+      "location": "HTML, paragraph beginning “If you are facing circumstantial overload”",
+      "severity": "minor",
+      "source_quote": "He will supply the needed grace for that hour.",
+      "suggested_fix": "Θα παράσχει τη χρειαζούμενη χάρη για εκείνη την ώρα.",
+      "translation_quote": "Θα παράσχει τη χρειζόμενη χάρη για εκείνη την ώρα."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

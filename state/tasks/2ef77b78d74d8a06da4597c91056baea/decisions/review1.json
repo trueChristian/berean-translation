@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Sometimes this type of overload…”",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Replace רק the phrase ״בקהילות שלנו, הדוגלות באורח חיים פשוט״ with wording that conveys “in our plain circles,” for example: ״בחוגים שלנו, החיים בפשטות״. The source does not say the communities advocate a simple lifestyle.",
+      "translation_quote": "אירועים טראומטיים בקהילות שלנו, הדוגלות באורח חיים פשוט, זוכים בדרך כלל לתפילות, לסיוע כספי ולעדכונים שבועיים על התקציב."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

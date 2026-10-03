@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "Throughout the article, especially headings and paragraphs under “Cynicism”",
+      "severity": "major",
+      "source_quote": "“Today, cynicism means a tendency to believe the worst about people and circumstances.”",
+      "suggested_fix": "Use a consistent Arabic equivalent for cynicism as a pessimistic, distrustful outlook—for example, «التشاؤم» or «النظرة التشاؤمية»—rather than «السخرية», which means mockery or sarcasm. Update the related headings and instances throughout to preserve the article’s distinction between cynicism and hope.",
+      "translation_quote": "«اليوم، تعني السخرية الميل إلى تصديق الأسوأ عن الناس والظروف.»"
+    },
+    {
+      "location": "“Cynicism in the Bible,” paragraph beginning “In chapter 2:17-23”",
+      "severity": "major",
+      "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
+      "suggested_fix": "Translate the quoted Scripture into Arabic, retaining its meaning and the reference numbers: «لأنه ماذا يكون للإنسان من كل تعبه ومن كدّ قلبه الذي تعب فيه تحت الشمس؟ لأن كل أيامه أحزان، وعمله غمّ، وحتى في الليل لا يستريح قلبه. هذا أيضًا باطل.» (الجامعة 2:22،23).",
+      "translation_quote": "\"For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.\" (Ecclesiastes 2:22,23)"
+    },
+    {
+      "location": "“Cynicism in the Bible,” paragraph beginning “He saw the world”",
+      "severity": "major",
+      "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+      "suggested_fix": "Translate the quoted Scripture into Arabic, retaining the reference number: «خيرٌ من ملكٍ شيخٍ جاهلٍ لا يقبل النصح صبيٌّ فقيرٌ حكيم. لأنه قد يخرج من السجن إلى الملك، مع أنه وُلد فقيرًا في مملكته.» (الجامعة 4:13).",
+      "translation_quote": "\"Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor\" (Ecclesiastes 4:13)."
+    },
+    {
+      "location": "“Cynicism in the Bible,” paragraph beginning “In Ecclesiastes 6:6”",
+      "severity": "major",
+      "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
+      "suggested_fix": "Translate the quoted Scripture into Arabic: «بل ولو عاش ألف سنة مرتين، ولم يرَ خيرًا، أليس الجميع يذهبون إلى مكان واحد؟» Keep the existing reference as الجامعة 6:6.",
+      "translation_quote": "\"Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?\""
+    },
+    {
+      "location": "“Cynicism in the Bible,” paragraph beginning “Later on”",
+      "severity": "major",
+      "source_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).",
+      "suggested_fix": "Translate the quoted Scripture into Arabic and retain the reference number: «فتتكلم إليهم بكل هذه الكلمات، ولكنهم لا يسمعون لك؛ وتدعوهم أيضًا، ولكنهم لا يجيبونك.» (إرميا 7:27).",
+      "translation_quote": "\"Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee\" (Jeremiah 7:27)."
+    },
+    {
+      "location": "“Cynicism in the Bible,” paragraph beginning “Even in the New Testament”",
+      "severity": "major",
+      "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+      "suggested_fix": "Translate the quoted Scripture into Arabic and retain the reference number: «لأنه سيأتي وقت لا يحتملون فيه التعليم الصحيح، بل بحسب شهواتهم الخاصة يجمعون لأنفسهم معلمين، إذ تكون لهم آذان حَكّة.» (تيموثاوس الثانية 4:3).",
+      "translation_quote": "\"For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;\" (2 Timothy 4:3)."
+    },
+    {
+      "location": "“The Opposite of Cynicism,” paragraph beginning “It is interesting”",
+      "severity": "major",
+      "source_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5).",
+      "suggested_fix": "Translate the quoted Scripture into Arabic, retaining the exact range: «وليس ذلك فقط، بل نفتخر أيضًا بالضيقات، عالمين أن الضيق ينشئ صبرًا، والصبر تزكية، والتزكية رجاءً، والرجاء لا يُخزي، لأن محبة الله قد انسكبت في قلوبنا بالروح القدس المعطى لنا.» (رومية 5:3-5).",
+      "translation_quote": "\"And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us\" (Romans 5:3-5)."
+    },
+    {
+      "location": "“Look for Hope in the Right Places,” paragraph beginning “This was what he did”",
+      "severity": "major",
+      "source_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
+      "suggested_fix": "Translate the quoted Scripture into Arabic and retain the reference number: «أعطيك هذه كلها إن خررت وسجدت لي.» (متى 4:8).",
+      "translation_quote": "\"All these things will I give thee, if thou wilt fall down and worship me\" (Matthew 4:8)."
+    },
+    {
+      "location": "“Conclusion,” paragraph beginning “The song says”",
+      "severity": "major",
+      "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+      "suggested_fix": "Translate the quoted song line into Arabic, for example: «ما أشد ظلمة هذا العالم إن لم يكن لنا رجاء في يسوع!»",
+      "translation_quote": "\"Oh to have no hope in Jesus, how dark this world must be!\""
+    },
+    {
+      "location": "“Cynicism in the Bible,” paragraph beginning “Of course”",
+      "severity": "major",
+      "source_quote": "“There is a blessing for those who choose to focus on God when they have a little bit of energy left and not, when they are old and jaded, like Solomon.”",
+      "suggested_fix": "Replace the corrupted ending with a clear rendering of the contrast: «هناك بركة لمن يختارون التركيز على الله وهم لا يزالون يملكون بعض الطاقة، لا حين يصبحون متقدمين في السن ومتهكمين، مثل سليمان.»",
+      "translation_quote": "«هناك بركة لأولئك الذين يختارون أن يركزوا على الله عندما يكون لديهم قليل من الطاقة المتبقية وليس عندما يكونون علًى وشكّ الخُبْث، مثل سليمان.»"
+    },
+    {
+      "location": "“The Opposite of Cynicism,” paragraph beginning “Certainly, there was no reason”",
+      "severity": "major",
+      "source_quote": "“Yet, that is exactly what our Heavenly Father does for us.”",
+      "suggested_fix": "Correct «أبوينا السماوي» to the singular «أبونا السماوي», preserving the source’s reference to God as Father: «ومع ذلك، فهذا بالضبط ما يفعله أبونا السماوي من أجلنا.»",
+      "translation_quote": "«ومع ذلك، هذا بالضبط ما يفعله أبوينا السماوي لنا.»"
+    },
+    {
+      "location": "“Small Efforts Do Make a Difference,” paragraph beginning “As we were talking”",
+      "severity": "major",
+      "source_quote": "“As we were talking, an older man entered the conversation and shared that he saw little hope for change in developing countries.”",
+      "suggested_fix": "Replace the garbled wording with a faithful rendering: «وبينما كنا نتحدث، انضم رجل أكبر سنًا إلى الحديث وقال إنه لا يرى أملًا كبيرًا في حدوث تغيير في البلدان النامية.»",
+      "translation_quote": "«بينما كنا نتحدث، دخل رجل مسن المحادثة وشارك أنفاقته ضئيلة للتغيير في البلدان النامية.»"
+    },
+    {
+      "location": "“Cynicism,” first paragraph",
+      "severity": "minor",
+      "source_quote": "“They often dressed in rags”",
+      "suggested_fix": "Replace «بالًا» with the idiomatic Arabic «خِرَقًا»: «كانوا غالبًا يرتدون خِرَقًا».",
+      "translation_quote": "«كانوا غالبًا يرتدون بالًا»"
+    },
+    {
+      "location": "“Cynicism,” paragraph beginning “Sometimes this cynicism”",
+      "severity": "major",
+      "source_quote": "“Sometimes it is only anger directed against members of the party that opposes their party’s positions. Hope is replaced by cynicism.”",
+      "suggested_fix": "Translate “anger” as غضب, not «غيرة», and preserve the point that hope is replaced by cynicism; for example: «وأحيانًا لا يكون هذا إلا غضبًا موجّهًا إلى أعضاء الحزب الذي يعارض مواقف حزبهم. ويحلّ التشاؤم محل الأمل.»",
+      "translation_quote": "«وأحيانًا تكون غيرة من أعضاء الحزب المعارض فقط. يحل اليأس محل الأمل.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

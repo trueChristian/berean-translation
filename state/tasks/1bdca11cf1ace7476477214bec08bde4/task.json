@@ -2,10 +2,61 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "df56eeafd5887858e481b0c6fd24ad4fa3b8bd0bf140686b93a7cd8c231e409b",
   "base_metadata_sha256": "2a34981cf040b0493bf293966e59936f743448d2b1b4a2565bfdb82e0fbaebb1",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 893,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 348,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3568,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3565,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4461
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+      "suggested_fix": "Translate the quotation into Greek while preserving its meaning, for example: «Η αποτυχία είναι δάσκαλος και, στο τέλος της ζωής σου, τι πιστεύεις ότι θα σε κάνει να νιώσεις χειρότερα: η αποτυχία ή το ότι δεν προσπάθησες ποτέ;»",
+      "translation_quote": "«Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?»"
+    },
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+      "suggested_fix": "Restore the omitted image of pressing toward the goal/mark, while retaining the reference to fellow youth and the high calling in Christ Jesus. For example: «Νέοι που ενθαρρύνουν άλλους νέους να προχωρούν προς τον στόχο, προς το βραβείο της άνω κλήσης εν Χριστώ Ιησού.»",
+      "translation_quote": "Νέους που ενθαρρύνουν συμμαθητές τους να επιδιώξουν το βραβείο της ανώτερης κλήσης εν Χριστώ Ιησού."
+    },
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "major",
+      "source_quote": "This monumental event upended the vaccine debate",
+      "suggested_fix": "Correct the meaning to say that the event upended the debate: «Αυτό το κοσμοϊστορικό γεγονός ανέτρεψε τη συζήτηση για τα εμβόλια…»",
+      "translation_quote": "Αυτό το ιστορικό γεγονός ανατράπηκε τη συζήτηση για τα εμβόλια"
+    },
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "major",
+      "source_quote": "these new and unproven COVID-19 “vaccines.”",
+      "suggested_fix": "Correct the typo and ensure the adjective means «μη αποδεδειγμένα» (unproven): «…για αυτά τα νέα και μη αποδεδειγμένα “εμβόλια” κατά της COVID-19.»",
+      "translation_quote": "αυτά τα νέα και ααποδεδειγμένα «εμβόλια» για την COVID-19"
+    }
+  ],
   "id": "1bdca11cf1ace7476477214bec08bde4",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -94,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,10 +2,48 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": "12883f776ba6820bb361afa1d79946fe3b99d8ca786863a7ed50adb6b66e804e",
   "base_metadata_sha256": "61fb5bd1544f8b5b10d9dbea9f2c7c3818aea22df0f57d2b8248e27a5f5ede49",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1031,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 852,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6552,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6549,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7583
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Temo que estamos cayendo…”",
+      "severity": "minor",
+      "source_quote": "We talk the talk; we say we believe in God.",
+      "suggested_fix": "Replace “Hablamos la palabra” with “Decimos que creemos en Dios” only if restructuring the sentence, or more closely: “Hablamos mucho; decimos que creemos en Dios.”",
+      "translation_quote": "Hablamos la palabra; decimos que creemos en Dios."
+    },
+    {
+      "location": "Paragraph beginning “El cristiano se niega a sí mismo…”",
+      "severity": "minor",
+      "source_quote": "he is merely dust",
+      "suggested_fix": "Change “es mera polvo” to “es mero polvo”.",
+      "translation_quote": "es mera polvo"
+    }
+  ],
+  "finished_at": "2026-10-03T18:43:07+00:00",
   "id": "cfe9b3d65d028fc4d94fdb24f22e564f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "spa",
@@ -94,11 +132,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73ffad35e60323218112f91b03e6a992fcbade0106463ff2ccfcd441d944684a.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

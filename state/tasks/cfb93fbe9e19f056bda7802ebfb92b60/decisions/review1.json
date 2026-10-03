@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “I felt like a lifeguard”",
+      "severity": "major",
+      "source_quote": "“I felt like a lifeguard trying to keep a man from drowning while taking in a bit too much water myself.”",
+      "suggested_fix": "Replace «بينما أنتعل قليلًا من الماء نفسيًا» with «بينما كنت أبتلع أنا نفسي قدرًا زائدًا قليلًا من الماء» to preserve the image of the speaker taking on too much strain while trying to help.",
+      "translation_quote": "“شعرت وكأنني منقذة تحاول إبقاء رجل من الغرق بينما أنتعل قليلًا من الماء نفسيًا.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Say it. Read the Psalms”",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Translate the quoted prose into Arabic, for example: «قد يدوم البكاء ليلة، أما الفرح ففي الصباح» (المزمور 30:5). Keep the reference number unchanged.",
+      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+    },
+    {
+      "location": "HTML, final paragraph",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Translate the quotation into Arabic, for example: «عليك يا رب توكلت؛ فلا تدعني أخزى أبدًا» (المزمور 71:1). Keep the reference number unchanged.",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    },
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate the section label into Arabic, for example: «من أخت إلى أخت».",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "HTML, first paragraph",
+      "severity": "minor",
+      "source_quote": "“a Norwex party”",
+      "suggested_fix": "Use «حفل نورويكس» or another concise rendering that does not add the idea of seminars.",
+      "translation_quote": "«حفل ندوات نورويكس»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

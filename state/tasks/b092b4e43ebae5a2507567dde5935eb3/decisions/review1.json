@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "major",
+      "source_quote": "The urgency of the last minute is something that many homemakers deal with regularly.",
+      "suggested_fix": "Replace «Nødvendigheten av siste liten» with «Tidspresset i siste liten» to convey urgency rather than necessity.",
+      "translation_quote": "Nødvendigheten av siste liten er noe mange hjemmeværende ofte må forholde seg til."
+    },
+    {
+      "location": "Heading, Toothaches and Road Trips",
+      "severity": "minor",
+      "source_quote": "Toothaches and Road Trips",
+      "suggested_fix": "Correct the typo «Tanntverk» to «Tannverk».",
+      "translation_quote": "Tanntverk og bilturer"
+    },
+    {
+      "location": "Paragraph beginning “When our children were young”",
+      "severity": "minor",
+      "source_quote": "I was better able to cope with the last-minute rush if that job was out of the way.",
+      "suggested_fix": "Use «hastverket i siste liten» rather than «siste-liten-stresset» to retain the source’s reference to a rush.",
+      "translation_quote": "Jeg taklet siste-liten-stresset bedre hvis den oppgaven var unnagjort."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

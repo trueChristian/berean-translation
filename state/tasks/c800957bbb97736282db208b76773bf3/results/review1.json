@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8f167c78-8e16-4a84-8ea2-3db466e594c7",
+    "response_id": "chatcmpl-EUxZBTcfQKnZYxxYF8MaeyBgg172U",
+    "usage": {
+      "completion_tokens": 889,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6888,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6885,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7777
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 2, tombstone inscription",
+        "severity": "major",
+        "source_quote": "a servant of slaves in Africa",
+        "suggested_fix": "Replace «слуга рабов в Африке» with «работорговец в Африке» to convey that Newton served in the slave trade, rather than serving enslaved people.",
+        "translation_quote": "слуга рабов в Африке"
+      },
+      {
+        "location": "Article, paragraph 4, hymn history",
+        "severity": "major",
+        "source_quote": "It was referenced in Harriet Beecher Stowe’s anti-slavery novel Uncle Tom’s Cabin.",
+        "suggested_fix": "Replace «Он упоминался в направленном против рабства романе» with «Он упоминается в романе против рабства» or another phrasing that says the hymn is referenced in the novel, not that the novel references something unspecified.",
+        "translation_quote": "Он упоминался в направленном против рабства романе Гарриет Бичер-Стоу «Хижина дяди Тома»."
+      },
+      {
+        "location": "Article, paragraph 7, John’s Royal Navy service",
+        "severity": "major",
+        "source_quote": "he was sent to work on a slave ship.",
+        "suggested_fix": "Replace «его отправили работать на невольничье судно» with «его отправили служить на работорговое судно»; “невольничье судно” can suggest a ship of enslaved people without clearly conveying the slave-trading role.",
+        "translation_quote": "его отправили работать на невольничье судно"
+      },
+      {
+        "location": "Article, paragraph 10, storm aboard The Greyhound",
+        "severity": "major",
+        "source_quote": "the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.",
+        "suggested_fix": "Replace «волны ломали прогнившие деревянные части корабля» with «волны ломали прогнивший корпус корабля» (or «прогнившие балки корабля»), keeping the source’s detail that the ship’s rotten timbers were being broken by waves.",
+        "translation_quote": "волны ломали прогнившие деревянные части корабля"
+      },
+      {
+        "location": "Article, paragraph 17, origin of “Faith’s Review and Expectation”",
+        "severity": "major",
+        "source_quote": "grew out of David’s exclamation in 1 Chronicles 17:16-17.",
+        "suggested_fix": "Replace «вырос из восклицания Давида» with «возник из восклицания Давида» or «был навеян восклицанием Давида», preserving that the hymn sprang from David’s exclamation.",
+        "translation_quote": "вырос из восклицания Давида в 1 Паралипоменон 17:16-17."
+      },
+      {
+        "location": "Article, paragraph 18, quotation from Thoughts Upon the African Slave Trade",
+        "severity": "major",
+        "source_quote": "He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
+        "suggested_fix": "Translate the quotation as a statement about the capturing, selling, and transporting of enslaved Black people being a cruel and vicious practice; for example, «Он пишет: “Нет нужды говорить, что захват, продажа и перевозка чернокожих рабов на плантации Вест-Индии и Америки были жестокой и порочной практикой”» (with suitable grammatical agreement).",
+        "translation_quote": "Он писал: «Нет нужды говорить, что захват, продажа и перевозка чернокожих рабов на плантации Вест-Индии и Америки были жестоким и порочным образом жизни»."
+      },
+      {
+        "location": "Article, final paragraph, Newton’s other hymns",
+        "severity": "major",
+        "source_quote": "“Glorious Things of Thee are Spoken”.",
+        "suggested_fix": "Correct the hymn-title translation to «Славное говорится о Тебе» or another rendering that preserves “glorious things” as the subject being spoken of the addressee; «Славные слова сказаны о тебе» changes the sense to glorious words.",
+        "translation_quote": "«Славные слова сказаны о тебе»."
+      }
+    ],
+    "passed": false,
+    "score": 77
+  }
+}

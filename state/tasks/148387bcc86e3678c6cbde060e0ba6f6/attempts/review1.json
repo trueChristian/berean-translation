@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"第一节，第六行\",\"severity\":\"major\",\"source_quote\":\"Give thanks and laud, for more is here!\",\"suggested_fix\":\"感谢并颂扬，因为更多已临！\",\"translation_quote\":\"感谢且颂扬，更多恩典在此显现！\"},{\"location\":\"第三节，第五行\",\"severity\":\"minor\",\"source_quote\":\"In wondrous beauty bend the knee;\",\"suggested_fix\":\"在奇妙的美中屈膝；\",\"translation_quote\":\"在奇妙的荣耀中屈膝；\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 485,
+    "content_evidence_truncated": false,
+    "content_sha256": "0dad89e7e1060fbee0592b673a0cd01778a0b9a1646c3f73c595bc70001e159b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 542,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 401,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1627,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1624,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2169
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

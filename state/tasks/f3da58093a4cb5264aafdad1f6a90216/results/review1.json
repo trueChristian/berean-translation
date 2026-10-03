@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f4c1d422-6ef5-4ab2-b3ca-b20b37c9d354",
+    "response_id": "chatcmpl-EUxYR0eBo5pB2rwbp95QHJMd43qgA",
+    "usage": {
+      "completion_tokens": 333,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4584,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4581,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4917
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Body, paragraph beginning “Sometimes this type of overload…”",
+        "severity": "major",
+        "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+        "suggested_fix": "Replace «ہمارے سادہ طرزِ زندگی رکھنے والے مسیحی حلقوں» with «ہمارے اَنابپتست (Plain) حلقوں» to retain the source’s reference to Plain communities; the phrase «سادہ طرزِ زندگی رکھنے والے» changes the community designation.",
+        "translation_quote": "ہمارے سادہ طرزِ زندگی رکھنے والے مسیحی حلقوں میں صدمہ انگیز واقعات کے لیے عموماً دعائیں کی جاتی ہیں، مالی مدد دی جاتی ہے اور بجٹ کی ہفتہ وار تازہ صورتِ حال بتائی جاتی ہے۔"
+      },
+      {
+        "location": "Final paragraph, Scripture quotation (Psalm 71:1)",
+        "severity": "major",
+        "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+        "suggested_fix": "Translate the printed quotation’s request not to be put to confusion, for example: «اے خداوند، میں تجھ پر بھروسا رکھتا ہوں؛ مجھے کبھی پریشان نہ ہونے دے» (زبور 71:1).",
+        "translation_quote": "”اے خداوند، میں تجھ پر بھروسا رکھتا ہوں؛ مجھے کبھی شرمندہ نہ ہونے دے“ (زبور 71:1)۔"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

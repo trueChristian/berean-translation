@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1, line 5",
+      "severity": "major",
+      "source_quote": "Rejoice and praise the King of Kings!",
+      "suggested_fix": "Replace with “Furahini na msifu Mfalme wa Wafalme!”",
+      "translation_quote": "Furahi; mshangilie na mnumbeni Mfalme wa Wafalme!"
+    },
+    {
+      "location": "Paragraph 1, line 6",
+      "severity": "major",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Replace with “Toeni shukrani na sifa, kwa maana mengi zaidi yamekuja!”",
+      "translation_quote": "Mpe shukrani na sifu, maana mema zaidi yamekuja hapa!"
+    },
+    {
+      "location": "Paragraph 2, line 2",
+      "severity": "major",
+      "source_quote": "Extol and praise His worthy name!",
+      "suggested_fix": "Replace with “Litukuzeni na kulisifu jina lake linalostahili!”",
+      "translation_quote": "Mtukuzeni na mnumbeni jina lake linalostahili!"
+    },
+    {
+      "location": "Paragraph 2, line 4",
+      "severity": "minor",
+      "source_quote": "And showers blessings from above,",
+      "suggested_fix": "Replace with “Naye humimina baraka kutoka juu,”",
+      "translation_quote": "Na hunyesha baraka kama mvua kutoka mbinguni,"
+    },
+    {
+      "location": "Paragraph 2, line 6",
+      "severity": "major",
+      "source_quote": "Adore and praise our mighty Lord!",
+      "suggested_fix": "Replace with “Mwabuduni na kumsifu Bwana wetu mkuu!”",
+      "translation_quote": "Mtukuzeni na mbariki Bwana wetu Mwenye Nguvu!"
+    },
+    {
+      "location": "Paragraph 3, lines 1–2",
+      "severity": "major",
+      "source_quote": "Give thanks and sing to Christ our King / And worship Him with reverent praise;",
+      "suggested_fix": "Replace these lines with “Toeni shukrani na kumwimbia Kristo, Mfalme wetu, / Nanyi mwabuduni kwa sifa za heshima;”",
+      "translation_quote": "Mshukuru na imbe kwa Kristo mfalme wetu / Na mnamwabudu kwa sifa za kuheshimu;"
+    },
+    {
+      "location": "Paragraph 3, line 6",
+      "severity": "major",
+      "source_quote": "Adore th’ almighty King of Kings!",
+      "suggested_fix": "Replace with “Mwabuduni Mfalme wa Wafalme Mwenyezi!”",
+      "translation_quote": "Mtukuzeni Mfalme wa Wafalme Mwenye Nguvu!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

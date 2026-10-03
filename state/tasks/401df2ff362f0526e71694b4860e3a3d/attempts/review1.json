@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"HTML paragraph beginning “Ibland är denna typ av överbelastning...”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”\",\n      \"suggested_fix\": \"Översätt “plain circles” som den särskilda religiösa gemenskapen, inte som nära personliga kretsar. Exempel: “Traumatiska händelser i våra plain-församlingar får ofta förbön, ekonomiskt stöd och veckovisa budgetuppdateringar.”\",\n      \"translation_quote\": \"“Traumatiska händelser i våra närmaste kretsar får ofta bön, ekonomiskt stöd och veckouppdateringar om budgeten.”\"\n    },\n    {\n      \"location\": \"HTML paragraph under “Tro att Gud bryr sig”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\",\n      \"suggested_fix\": \"Översätt det citerade bibelstället till svenska och använd det svenska boknamnet, med samma kapitel- och versnummer: “Gråt kan vara för natten, men på morgonen kommer jubel” (Psaltaren 30:5).\",\n      \"translation_quote\": \"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\"\n    },\n    {\n      \"location\": \"Sista HTML-paragrafen\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\n      \"suggested_fix\": \"Översätt det citerade bibelstället till svenska och använd det svenska boknamnet, med samma kapitel- och versnummer. Exempel: “Till dig, HERRE, tar jag min tillflykt; låt mig aldrig komma på skam” (Psaltaren 71:1).\",\n      \"translation_quote\": \"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 78\n}",
+    "content_bytes": 1869,
+    "content_evidence_truncated": false,
+    "content_sha256": "a9696f6496016719392d6ecb83d7e688f0b8eb2641038a84928b4186f3bd8b8a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1114,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 581,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4148,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5265
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

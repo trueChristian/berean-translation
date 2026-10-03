@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “फिर उन्हें…”",
+      "severity": "major",
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+      "suggested_fix": "सिर्फ़ इस वाक्यांश को ठीक करें: “फिर उन्हें उस भाई के लिए सचिवीय कर्तव्यों के आख़िरी चार महीने पूरे करने के लिए चुना गया, जो कुछ समय के लिए बुल्गारिया गया था।”",
+      "translation_quote": "“फिर उन्हें उस भाई के लिए सचिवीय कर्तव्यों के अंतिम चार महीने पूरा करने के लिए निर्वाचित किया गया, जो कुछ समय बुल्गारिया में रहे थे।”"
+    },
+    {
+      "location": "HTML, paragraph beginning “फिर उन्हें…”",
+      "severity": "major",
+      "source_quote": "“Every time I turn around, there is something to do.”",
+      "suggested_fix": "“जिधर भी देखता हूँ, कुछ न कुछ करने को होता है।”",
+      "translation_quote": "“हर बार मैं घुमता हूँ, कुछ न कुछ करने को होता है।”"
+    },
+    {
+      "location": "HTML, paragraph beginning “मुझे ऐसा लगा…”",
+      "severity": "major",
+      "source_quote": "“Then I was asked to fill the position of food committee for Mrs. ‘Going-to-Bulgaria.’”",
+      "suggested_fix": "“फिर मुझे ‘बुल्गारिया जा रही’ श्रीमती के लिए भोजन-समिति का पद संभालने को कहा गया।”",
+      "translation_quote": "“फिर मुझे 'बुल्गारिया जा रही' महिला के लिए फ़ूड कमेटी की जिम्मेदारी देने को कहा गया।”"
+    },
+    {
+      "location": "HTML, paragraph beginning “दुर्भाग्यवश…”",
+      "severity": "major",
+      "source_quote": "“because I declined the food committee request.”",
+      "suggested_fix": "“क्योंकि मैंने भोजन-समिति के अनुरोध को अस्वीकार कर दिया।”",
+      "translation_quote": "“क्योंकि मैंने फ़ूड कमेटी के अनुरोध को इंकार कर दिया।”"
+    },
+    {
+      "location": "HTML, paragraph beginning “कभी-कभी इस प्रकार…”",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "“हमारे सादे समुदायों में होने वाली आघातकारी घटनाओं के लिए अक्सर प्रार्थना, आर्थिक सहायता और साप्ताहिक बजट की जानकारी मिलती है।”",
+      "translation_quote": "“हमारे दिखने वाले गोत्रों में घटी आघातकारी घटनाओं को अक्सर प्रार्थना, वित्त और साप्ताहिक बजट अपडेट मिलते हैं।”"
+    },
+    {
+      "location": "HTML, paragraph beginning “कभी-कभी इस प्रकार…”",
+      "severity": "major",
+      "source_quote": "“It could be strained relationships or little bills that add up to a big sum.”",
+      "suggested_fix": "“यह तनावपूर्ण रिश्ते हो सकते हैं या छोटे-छोटे बिल, जो जुड़कर बड़ी रकम बन जाते हैं।”",
+      "translation_quote": "“यह तनाउ—भरी रिश्तों या छोटी-छोटी बिलों का जमा होकर बड़े योग बन जाना—हो सकता है।”"
+    },
+    {
+      "location": "HTML, paragraph beginning “कभी-कभी इस प्रकार…”",
+      "severity": "major",
+      "source_quote": "“little sparks of light can help you navigate the darkness.”",
+      "suggested_fix": "“उम्मीद की छोटी-छोटी किरणें अँधेरे में राह खोजने में आपकी मदद कर सकती हैं।”",
+      "translation_quote": "“छोटी-छोटी उम्मीद की किरणें आपकी अंधकार में नेविगेट करने में मदद कर सकती हैं।”"
+    },
+    {
+      "location": "HTML, paragraph beginning “लंबा तनाव उग्रता…”",
+      "severity": "minor",
+      "source_quote": "“Lingering stress can cause agitation, moodiness, and the desire to take control.”",
+      "suggested_fix": "“लंबे समय तक बना रहने वाला तनाव बेचैनी, चिड़चिड़ापन और नियंत्रण अपने हाथ में लेने की इच्छा पैदा कर सकता है।”",
+      "translation_quote": "“लंबा तनाव उग्रता, मूडीनेस, और नियंत्रण लेने की इच्छा पैदा कर सकता है।”"
+    },
+    {
+      "location": "HTML, paragraph beginning “कहिए यह।”",
+      "severity": "critical",
+      "source_quote": "“Believe ‘Weeping may endure for a night, but joy cometh in the morning’ (Psalm 30:5).”",
+      "suggested_fix": "उद्धृत पद का हिंदी में अनुवाद करें और संदर्भ को “(भजन संहिता 30:5)” लिखें; उदाहरण: “विश्वास कीजिए, ‘रात भर रोना ठहर सकता है, पर भोर होते ही जयजयकार होती है’ (भजन संहिता 30:5)।”",
+      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+    },
+    {
+      "location": "HTML, अंतिम अनुच्छेद",
+      "severity": "critical",
+      "source_quote": "“And say with the Psalmist, ‘In thee, O LORD, do I put my trust: let me never be put to confusion’ (Psalm 71:1).”",
+      "suggested_fix": "उद्धृत पद का हिंदी में अनुवाद करें और संदर्भ को “(भजन संहिता 71:1)” लिखें; उदाहरण: “और भजनकार के साथ कहिए, ‘हे यहोवा, मैं तुझ पर भरोसा रखता हूँ; मुझे कभी लज्जित न होने दे’ (भजन संहिता 71:1)।”",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

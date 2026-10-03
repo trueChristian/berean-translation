@@ -2,10 +2,166 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": "800e9183c2cafcf985b02ac7b6876c49477097a176216d659d96cba2bfce0bea",
   "base_metadata_sha256": "983a9fa6f5d9e7d5f4745423ff84f183d3648f418f4b324865ae902c97719701",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1784,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12032,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12029,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13816
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "article-note",
+      "severity": "major",
+      "source_quote": "After printing all six articles in The Heartbeat of the Remnant, we will publish them in a booklet.",
+      "suggested_fix": "أبقوا اسم الدورية بالإنجليزية إذا كان اسمًا رسميًا، لكن ترجموا الجملة المحيطة به إلى العربية كما هي؛ وإذا كان للدورية اسم عربي معتمد فاستخدموه.",
+      "translation_quote": "بعد طباعة المقالات الست كلها في The Heartbeat of the Remnant، سننشرها في كتيب."
+    },
+    {
+      "location": "Introduction, first paragraph",
+      "severity": "major",
+      "source_quote": "a courtship without regrets or guilt",
+      "suggested_fix": "استبدلوا «بلا ندامات أو ذِمَّة» بما يفيد «دون ندم أو شعور بالذنب».",
+      "translation_quote": "بخِطبةٍ بلا ندامات أو ذِمَّة."
+    },
+    {
+      "location": "God’s Plan for Male and Female, Genesis 12:1 quotation",
+      "severity": "major",
+      "source_quote": "Ecclesiastes 12:1 says",
+      "suggested_fix": "صححوا اسم السفر إلى «سفر الجامعة» مع إبقاء رقم الإصحاح والآية كما هما: 12:1.",
+      "translation_quote": "يكلم حكيم 12:1 يقول"
+    },
+    {
+      "location": "God’s Plan for Male and Female, Genesis 1:26-28 quotation",
+      "severity": "major",
+      "source_quote": "replenish the earth, and subdue it",
+      "suggested_fix": "استبدلوا «وسبّطوها» بتعبير عربي صحيح ينقل معنى إخضاع الأرض، مثل «وأخضعوها».",
+      "translation_quote": "املأوا الأرض وسبّطوها"
+    },
+    {
+      "location": "God’s Plan for Male and Female, commentary after Genesis 1:27",
+      "severity": "major",
+      "source_quote": "It takes a lot of blind faith to believe that we evolved perfectly as male and female.",
+      "suggested_fix": "احذفوا الإضافة «بدون خالق»؛ فالمصدر يقول إن الاعتقاد بالتطور يتطلب إيمانًا أعمى، ولا يضيف عبارة «بدون خالق».",
+      "translation_quote": "يلزم قدر كبير من الإيمان الأعمى للاعتقاد أننا تطورنا تمامًا كذكور وإناث بدون خالق."
+    },
+    {
+      "location": "Section 2, paragraph beginning “Leaving means”",
+      "severity": "major",
+      "source_quote": "“For this cause shall a man leave his father and mother” is to leave parents behind.",
+      "suggested_fix": "صححوا العبارة لتفيد أن الرجل يترك والديه وراءه، لا أن الوالدين هما من يتركهما وراءه.",
+      "translation_quote": "يعني أن يترك الوالدان خلفه."
+    },
+    {
+      "location": "Section 2, paragraph beginning “Leaving means”",
+      "severity": "major",
+      "source_quote": "once God brings his Eve into his life",
+      "suggested_fix": "استبدلوا «حوته» بـ«حواء».",
+      "translation_quote": "متى جلب الله حوته إلى حياته"
+    },
+    {
+      "location": "Section 3, Mark 10:8-9 quotation",
+      "severity": "major",
+      "source_quote": "What therefore God hath joined together, let not man put asunder",
+      "suggested_fix": "ترجموا العبارة بمعنى «فالذي جمعه الله لا يفرقه الإنسان»؛ لا تجعلوا النهي تقريرًا بأنهما لم يعودا اثنين فقط.",
+      "translation_quote": "فإذا لم يعدا الإثنان فإِنَّهما جسد واحد. فالذي جمعه الله لا يفرقه الإنسان"
+    },
+    {
+      "location": "Section 4, paragraph beginning “But an equal yoke”",
+      "severity": "major",
+      "source_quote": "one heart, and one mind",
+      "suggested_fix": "استبدلوا «اللحم» بـ«الكيان كله» أو ما يفيد whole being؛ فالمصدر يتحدث عن الوحدة في الكيان كله، لا اللحم.",
+      "translation_quote": "متحدين في القلب والعقل واللحم — الكل بذاته، كوننا واحدًا."
+    },
+    {
+      "location": "Section 5, paragraph beginning “God planned for us to have children”",
+      "severity": "major",
+      "source_quote": "If they are equally yoked",
+      "suggested_fix": "استبدلوا «مكلوبين» بتعبير عربي سليم يفيد أنهم مرتبطون بنير متكافئ، مثل «مرتبطين بنير متكافئ».",
+      "translation_quote": "إن كانوا مكلوبين بنير متكافئ"
+    },
+    {
+      "location": "Section 7, Ephesians 5:21,22,24 quotation",
+      "severity": "major",
+      "source_quote": "in the fear of God",
+      "suggested_fix": "صححوا «رهبة المسيح» إلى «مخافة الله» أو عبارة عربية مكافئة للأصل.",
+      "translation_quote": "اخضعوا لبعضكم بعضًا في رهبة المسيح."
+    },
+    {
+      "location": "Section 7, paragraph beginning “It goes on”",
+      "severity": "major",
+      "source_quote": "and the wife see that she reverence her husband",
+      "suggested_fix": "ترجموا معنى الآية بأمانة: «وأما المرأة فلتُكرم زوجها» أو تعبيرًا عربيًا مكافئًا للتوقير؛ لا تستبدلوا ذلك بكونها مكرمة جدًا.",
+      "translation_quote": "لتكن المرأة مكرمة جدًا لزوجها"
+    },
+    {
+      "location": "Section 8, 1 Peter 3:7 quotation and commentary",
+      "severity": "major",
+      "source_quote": "as being heirs together of the grace of life",
+      "suggested_fix": "استخدموا «وارثين معًا نعمة الحياة» بدل «كمشاركة في نعمة الحياة»، واحتفظوا بكون الزوجين وارثين معًا في الاقتباس.",
+      "translation_quote": "كمشاركة في نعمة الحياة"
+    },
+    {
+      "location": "Section 9, Psalm 144:12 quotation",
+      "severity": "major",
+      "source_quote": "that our daughters may be as corner stones, polished after the similitude of a palace",
+      "suggested_fix": "صححوا وصف البنات إلى معنى «كأعمدة زوايا مصقولة على مثال قصر»؛ «ركائز محفوفة بلمعان» لا ينقل الصورة الواردة في النص.",
+      "translation_quote": "لتكن بناتنا كركائز محفوفة بلمعان، على شبه قصر."
+    },
+    {
+      "location": "Section 10, Ephesians 5:24-29 quotation",
+      "severity": "major",
+      "source_quote": "not having spot, or wrinkle, or any such thing",
+      "suggested_fix": "صححوا «غير مخطوفة» إلى «بلا دنس» أو تعبير مكافئ لمعنى spot; أبقوا معنى الخلو من البقعة والتجعد كما في الأصل.",
+      "translation_quote": "كنيسة مجيدة غير مخطوفة ولا مجعدة"
+    },
+    {
+      "location": "Section 10, paragraph beginning “Young ladies”",
+      "severity": "major",
+      "source_quote": "Are you willing to serve and be spent for your family?",
+      "suggested_fix": "ترجموا العبارة بما يفيد بذل النفس/الجهد في خدمة الأسرة؛ احذفوا «مهدرات»، التي تعني مهدورات أو ضائعات.",
+      "translation_quote": "هل أنتن مستعدات أن تخدمن وتبدين مهدرات لأسرتكن؟"
+    },
+    {
+      "location": "Section 10, paragraph beginning “Young ladies”",
+      "severity": "major",
+      "source_quote": "Are you willing to follow and to cheerfully submit to your authority?",
+      "suggested_fix": "احتفظوا بمعنى الخضوع لسلطتكن/السلطة الموضوعة عليكن؛ لا تحوّلوه إلى «تخضعن ... لسلطتك» بما يوحي أن السلطة ملك المخاطبات.",
+      "translation_quote": "هل أنتن مستعدات أن تتبعن وتخضعن بفرح لسلطتك؟"
+    },
+    {
+      "location": "Section 10, paragraph beginning “Young ladies”",
+      "severity": "major",
+      "source_quote": "Are you willing to be a helpmeet, giving yourself for his burden and vision?",
+      "suggested_fix": "صححوا «حموله» إلى «عبئه» أو «ما يحمله من مسؤولية»؛ «حموله» لا تنقل معنى burden هنا.",
+      "translation_quote": "تعطين نفسك لحموله ورؤيته؟"
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "A Christ-Centered Courtship",
+      "suggested_fix": "وحّدوا كتابة عنوان المقال مع الوصف في النص، مثل «خِطبة تتمحور حول المسيح».",
+      "translation_quote": "خِطبة تتمحور حول المسيح"
+    }
+  ],
   "id": "331c12f9b1d49e315056e97e13c39d37",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -94,11 +250,13 @@
     }
   },
   "protected": false,
+  "quality_score": 66,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

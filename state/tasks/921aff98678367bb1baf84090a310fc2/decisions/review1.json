@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraph beginning “Às vezes esse tipo de sobrecarga”",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Replace “em nossos círculos visíveis” with “em nossas comunidades religiosas tradicionais” to preserve the reference to the plain religious community, rather than changing it to visibility.",
+      "translation_quote": "Eventos traumáticos em nossos círculos visíveis tendem a receber orações, auxílio financeiro e atualizações semanais do orçamento."
+    },
+    {
+      "location": "translation.html, final sentence of the paragraph under “Acredite que Deus se importa”",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Translate the quoted Scripture and localize the book name, preserving the reference number: “O choro pode durar uma noite, mas a alegria vem pela manhã” (Salmo 30:5).",
+      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+    },
+    {
+      "location": "translation.html, final paragraph",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Translate the quoted Scripture and localize the book name, preserving the reference number: “Em ti, ó SENHOR, ponho a minha confiança; não me deixes jamais confundido” (Salmo 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    },
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "Circumstantial Overload",
+      "suggested_fix": "Translate as “Sobrecarga circunstancial”.",
+      "translation_quote": "Circumstantial Overload"
+    },
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate as “DE IRMÃ PARA IRMÃ”.",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "translation.html, heading “Sobreacarga prolongada...”",
+      "severity": "minor",
+      "source_quote": "Prolonged overload can be emotionally and mentally damaging",
+      "suggested_fix": "Correct the typo: “Sobrecarga prolongada pode ser emocional e mentalmente danosa”.",
+      "translation_quote": "Sobreacarga prolongada pode ser emocional e mentalmente danosa"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

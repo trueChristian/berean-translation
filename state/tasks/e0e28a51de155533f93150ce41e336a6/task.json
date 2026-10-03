@@ -2,10 +2,54 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "541615a67b7452ed4db5c8600218f90520b677d2947bb21db28d785615a12f1c",
   "base_metadata_sha256": "158d47201854c93b85e551e6ad9b5a9cbdd16b25bceed8695bd9f0af63f67c31",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 698,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 296,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3923,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3920,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4621
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “A veces este tipo de sobrecarga…”",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Replace «Los eventos traumáticos en nuestros círculos a la vista suelen recibir oración, ayuda financiera y actualizaciones semanales del presupuesto» with «Los acontecimientos traumáticos en nuestras comunidades de vida sencilla suelen recibir oración, apoyo económico y actualizaciones semanales del presupuesto»; adjust wording as needed to preserve the sense of “plain circles.”",
+      "translation_quote": "Los eventos traumáticos en nuestros círculos a la vista suelen recibir oración, ayuda financiera y actualizaciones semanales del presupuesto."
+    },
+    {
+      "location": "HTML, paragraph beginning “Dilo.”",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Translate the quoted Scripture into Spanish, for example: «El llanto puede durar toda la noche, pero a la mañana vendrá la alegría» (Salmo 30:5).",
+      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+    },
+    {
+      "location": "HTML, final paragraph",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Translate the quoted Scripture into Spanish, for example: «En ti, oh SEÑOR, he confiado; no sea yo confundido jamás» (Salmo 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    }
+  ],
   "id": "e0e28a51de155533f93150ce41e336a6",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "spa",
@@ -94,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

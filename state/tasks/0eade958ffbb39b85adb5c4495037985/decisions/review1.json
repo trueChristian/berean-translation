@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "Deep inside Jamin felt resigned to a life of muddled trip-ups.",
+      "suggested_fix": "Replace «una vida de torpezas confusas» with «una vida llena de errores y tropiezos» to express the idea more naturally in Spanish.",
+      "translation_quote": "En lo más profundo, Jamin se sentía resignado a una vida de torpezas confusas."
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "Eventually, the trail would end up in a meadow",
+      "suggested_fix": "Replace «Eventualmente» with «Con el tiempo» or «Al final»; in this context, «eventualmente» can suggest possibility or occurrence from time to time.",
+      "translation_quote": "Eventualmente, el sendero desembocaría en un prado"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "He breathed the rich air",
+      "suggested_fix": "Replace «el aire denso» with «el aire fragante» or «el aire lleno de aromas» to convey the sensory richness of the woodland air.",
+      "translation_quote": "Respiró el aire denso"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

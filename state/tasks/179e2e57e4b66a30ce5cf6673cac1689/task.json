@@ -2,10 +2,54 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "f2795f2edfcc5a31b490546fb884968546dbbed22404a869a0b2e36d71e43460",
   "base_metadata_sha256": "a4b699b06955684e674b77edda37b3187204797c2ef70e35cdc2470b2934a957",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 399,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6683,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6680,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7082
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraphe sur le livre de Newton de 1788",
+      "severity": "major",
+      "source_quote": "“Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
+      "suggested_fix": "Dans la citation, remplacez « un mode de vie cruel et vicieux » par une formulation qui conserve l’idée de l’anglais : « une pratique cruelle et violente » (par exemple : « Il va sans dire que capturer, vendre et transporter des esclaves noirs vers les plantations des Antilles et d’Amérique était une pratique cruelle et violente. »).",
+      "translation_quote": "« Il va sans dire que capturer, vendre et transporter des esclaves noirs vers les plantations des Antilles et d’Amérique était un mode de vie cruel et vicieux. »"
+    },
+    {
+      "location": "HTML, paragraphe sur la fin de vie de Newton",
+      "severity": "major",
+      "source_quote": "“What, shall the old African blasphemer stop while he can still speak?”",
+      "suggested_fix": "Remplacez la question par une formulation qui conserve son sens rhétorique : « Quoi ! Le vieux blasphémateur africain devrait-il s’arrêter alors qu’il peut encore parler ? »",
+      "translation_quote": "« Quoi ! Le vieux blasphémateur d’Afrique devrait-il s’arrêter alors qu’il peut encore parler ? »"
+    },
+    {
+      "location": "HTML, paragraphe sur l’emploi en Jamaïque",
+      "severity": "minor",
+      "source_quote": "“a well-paying job overseeing a plantation”",
+      "suggested_fix": "Remplacez « surveillant de plantation » par « responsable de la gestion d’une plantation » afin de rendre plus clairement la responsabilité décrite.",
+      "translation_quote": "« un emploi bien rémunéré de surveillant de plantation »"
+    }
+  ],
   "id": "179e2e57e4b66a30ce5cf6673cac1689",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "fra",
@@ -94,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6.1-sol"

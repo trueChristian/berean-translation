@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Titre\",\"severity\":\"minor\",\"source_quote\":\"Procrastination Overload\",\"suggested_fix\":\"Remplacer par « La procrastination à outrance » ou une formulation française équivalente qui conserve l’idée d’une procrastination envahissante.\",\"translation_quote\":\"Procrastination excessive\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 342,
+    "content_evidence_truncated": false,
+    "content_sha256": "4dec1293b19dc3c59c8e5de2a88729668eca2dccd0bfcfa7bd1a9fd3fb679a35",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 80,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2900,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2897,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2980
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, second stanza, third line\",\"severity\":\"major\",\"source_quote\":\"He shineth from the heav’ns in love,\",\"suggested_fix\":\"তিনি প্রেমে স্বর্গ থেকে জ্যোতি ছড়ান,\",\"translation_quote\":\"তিনি প্রেমে আকাশ থেকে উদিত হচ্ছেন,\"},{\"location\":\"source.html, poem, third stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"Bow down in awful, holy fear-\",\"suggested_fix\":\"ভক্তিভরে, পবিত্র শ্রদ্ধামিশ্রিত ভয়ে নত হও—\",\"translation_quote\":\"ভয়ানক, পবিত্র ভয়ে নমো—\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 754,
+    "content_evidence_truncated": false,
+    "content_sha256": "d84abfeb3b8cd7ec7006be379a1c1f3010d353729c65ffa0337cd79721dce3bd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 600,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1678,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1675,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2449
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

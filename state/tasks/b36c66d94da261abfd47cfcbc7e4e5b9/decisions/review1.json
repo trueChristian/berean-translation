@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ بـ«على سبيل المثال»",
+      "severity": "major",
+      "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+      "suggested_fix": "استبدل «للسعة نحلة وإصبع مدوس» بـ«للسعة نحلة وإصبع قدم مُرضوض»؛ فالمقصود الاستعداد لمقاطعات غير متوقعة، لا «سعة» نحلة.",
+      "translation_quote": "أليس من الأفضل إذن أن \"نخطط\" للسعة نحلة وإصبع مدوس؟"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

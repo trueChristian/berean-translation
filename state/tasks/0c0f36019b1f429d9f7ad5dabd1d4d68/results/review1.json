@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "797eb39c-b202-4e76-bfcb-56c63e6b9d51",
+    "response_id": "chatcmpl-EUxYM8usaA2nSwn1tYpco5k0TebDX",
+    "usage": {
+      "completion_tokens": 535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 385,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2942,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3480
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, ‘가장 중요한 일을 먼저 하라’ 아래 두 번째 문단",
+        "severity": "minor",
+        "source_quote": "Dropping a task is difficult for a perfectionist, but it is possible to develop new habits.",
+        "suggested_fix": "“완벽주의자에게는 일을 포기하는 것이 어렵지만, 새로운 습관을 기르는 것은 가능합니다.”처럼 ‘어렵하지만’을 자연스러운 형태인 ‘어렵지만’으로 고쳐 주세요.",
+        "translation_quote": "완벽주의자에게는 일을 포기하는 것이 어렵하지만 새로운 습관을 기를 수 있습니다."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

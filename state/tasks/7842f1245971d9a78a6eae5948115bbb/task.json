@@ -2,10 +2,83 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "320d0aa2f644b051ca7e2724b96a6768970acc1deb3a5710a7fbe80db8c184e9",
   "base_metadata_sha256": "64ac433e622780f81c5f237a4dae90404e3b72487c6d2a4a2d6d99d1e2a52353",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 485,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3356,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3353,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3841
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Titre",
+      "severity": "minor",
+      "source_quote": "Jamin Smartens Up",
+      "suggested_fix": "« Jamin gagne en sagesse »",
+      "translation_quote": "Jamin devient plus sage"
+    },
+    {
+      "location": "Paragraphe 3",
+      "severity": "minor",
+      "source_quote": "Kenny had a way of avoiding earshot.",
+      "suggested_fix": "« Mais Kenny savait éviter d’être entendu. »",
+      "translation_quote": "Mais Kenny savait se tenir hors d’écoute."
+    },
+    {
+      "location": "Paragraphe 7",
+      "severity": "minor",
+      "source_quote": "the sun was growing old as he crossed the border of the woods",
+      "suggested_fix": "« le soleil déclinait lorsqu’il franchit la lisière du bois »",
+      "translation_quote": "le soleil vieillissait quand il franchit la lisière du bois"
+    },
+    {
+      "location": "Paragraphe 7",
+      "severity": "minor",
+      "source_quote": "His golden head caught the tired beams that fled from the sun as they flickered through the trees.",
+      "suggested_fix": "« Sa chevelure dorée captait les rayons pâles du soleil qui filtraient entre les arbres. »",
+      "translation_quote": "Sa chevelure dorée attrapait les rayons fatigués qui fuyèrent du soleil en scintillant à travers les arbres."
+    },
+    {
+      "location": "Paragraphe 9",
+      "severity": "minor",
+      "source_quote": "a frustrated heap to his right",
+      "suggested_fix": "« un amas de frustration à sa droite » ou, plus naturellement, « Kenny, recroquevillé de frustration, à sa droite »",
+      "translation_quote": "un tas frustré à sa droite"
+    },
+    {
+      "location": "Paragraphe 11",
+      "severity": "minor",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "« L’obscurité assombrissait le sol autour de Kenny. »",
+      "translation_quote": "L’obscurité ternissait le sol autour de Kenny."
+    },
+    {
+      "location": "Paragraphe 16",
+      "severity": "minor",
+      "source_quote": "The porch light showed her in her old rocker.",
+      "suggested_fix": "« La lumière de la véranda l’éclairait dans son vieux fauteuil à bascule. »",
+      "translation_quote": "La lumière de la véranda la montrait dans son vieux fauteuil à bascule."
+    }
+  ],
+  "finished_at": "2026-10-03T18:43:06+00:00",
   "id": "7842f1245971d9a78a6eae5948115bbb",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "fra",
@@ -94,11 +167,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

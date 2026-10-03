@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Letzter Satz des Absatzes unter „Glauben Sie, dass Gott sich kümmert“\",\"severity\":\"major\",\"source_quote\":\"“Weeping may endure for a night, but joy cometh in the morning”\",\"suggested_fix\":\"„Weinen mag eine Nacht dauern, doch am Morgen kommt Freude.“\",\"translation_quote\":\"„Weeping may endure for a night, but joy cometh in the morning“\"},{\"location\":\"Letzter Absatz, Psalm 71:1\",\"severity\":\"major\",\"source_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion”\",\"suggested_fix\":\"„Auf dich, HERR, vertraue ich; lass mich niemals in Verwirrung geraten.“\",\"translation_quote\":\"„In thee, O LORD, do I put my trust: let me never be put to confusion“\"},{\"location\":\"Absatz unter „Finden Sie eine Routine“\",\"severity\":\"minor\",\"source_quote\":\"“racing thoughts”\",\"suggested_fix\":\"Ersetzen Sie „Renn-Gedanken“ durch „rasende Gedanken“.\",\"translation_quote\":\"„Renn-Gedanken“\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 991,
+    "content_evidence_truncated": false,
+    "content_sha256": "21c88fe35ebe77a94d59faa302914522cd454837002e8c2a41bb09f5ef97999e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 820,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 548,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4078,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4075,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4898
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

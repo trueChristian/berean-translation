@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cc792f5c-392d-4578-bf37-64b62e748064",
+    "response_id": "chatcmpl-EUxYSvAphSSiBBqwGl4gx5WSSz8qW",
+    "usage": {
+      "completion_tokens": 551,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1662,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1659,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2213
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1, line 5",
+        "severity": "major",
+        "source_quote": "Rejoice and praise the King of Kings!",
+        "suggested_fix": "Replace with “Furahini na msifu Mfalme wa Wafalme!”",
+        "translation_quote": "Furahi; mshangilie na mnumbeni Mfalme wa Wafalme!"
+      },
+      {
+        "location": "Paragraph 1, line 6",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Replace with “Toeni shukrani na sifa, kwa maana mengi zaidi yamekuja!”",
+        "translation_quote": "Mpe shukrani na sifu, maana mema zaidi yamekuja hapa!"
+      },
+      {
+        "location": "Paragraph 2, line 2",
+        "severity": "major",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Replace with “Litukuzeni na kulisifu jina lake linalostahili!”",
+        "translation_quote": "Mtukuzeni na mnumbeni jina lake linalostahili!"
+      },
+      {
+        "location": "Paragraph 2, line 4",
+        "severity": "minor",
+        "source_quote": "And showers blessings from above,",
+        "suggested_fix": "Replace with “Naye humimina baraka kutoka juu,”",
+        "translation_quote": "Na hunyesha baraka kama mvua kutoka mbinguni,"
+      },
+      {
+        "location": "Paragraph 2, line 6",
+        "severity": "major",
+        "source_quote": "Adore and praise our mighty Lord!",
+        "suggested_fix": "Replace with “Mwabuduni na kumsifu Bwana wetu mkuu!”",
+        "translation_quote": "Mtukuzeni na mbariki Bwana wetu Mwenye Nguvu!"
+      },
+      {
+        "location": "Paragraph 3, lines 1–2",
+        "severity": "major",
+        "source_quote": "Give thanks and sing to Christ our King / And worship Him with reverent praise;",
+        "suggested_fix": "Replace these lines with “Toeni shukrani na kumwimbia Kristo, Mfalme wetu, / Nanyi mwabuduni kwa sifa za heshima;”",
+        "translation_quote": "Mshukuru na imbe kwa Kristo mfalme wetu / Na mnamwabudu kwa sifa za kuheshimu;"
+      },
+      {
+        "location": "Paragraph 3, line 6",
+        "severity": "major",
+        "source_quote": "Adore th’ almighty King of Kings!",
+        "suggested_fix": "Replace with “Mwabuduni Mfalme wa Wafalme Mwenyezi!”",
+        "translation_quote": "Mtukuzeni Mfalme wa Wafalme Mwenye Nguvu!"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

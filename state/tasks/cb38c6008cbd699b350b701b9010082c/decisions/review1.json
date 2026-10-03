@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, first stanza, third line",
+      "severity": "major",
+      "source_quote": "The Dayspring shineth from on high,",
+      "suggested_fix": "Die Dagbreeklig skyn van omhoog,",
+      "translation_quote": "Die Oggendster skyn van bo af,"
+    },
+    {
+      "location": "Poem, second stanza, second line",
+      "severity": "major",
+      "source_quote": "Extol and praise His worthy name!",
+      "suggested_fix": "Verhef en prys sy waardige naam!",
+      "translation_quote": "Verheug en prys sy waardige naam!"
+    },
+    {
+      "location": "Poem, third stanza, second line",
+      "severity": "major",
+      "source_quote": "And worship Him with reverent praise;",
+      "suggested_fix": "En aanbid Hom met eerbiedige lof;",
+      "translation_quote": "En diens Hom met eerbiedige lof;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

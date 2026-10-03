@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, paragraph beginning “Às vezes esse tipo de sobrecarga”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.\",\n      \"suggested_fix\": \"Replace “em nossos círculos visíveis” with “em nossas comunidades religiosas tradicionais” to preserve the reference to the plain religious community, rather than changing it to visibility.\",\n      \"translation_quote\": \"Eventos traumáticos em nossos círculos visíveis tendem a receber orações, auxílio financeiro e atualizações semanais do orçamento.\"\n    },\n    {\n      \"location\": \"translation.html, final sentence of the paragraph under “Acredite que Deus se importa”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\",\n      \"suggested_fix\": \"Translate the quoted Scripture and localize the book name, preserving the reference number: “O choro pode durar uma noite, mas a alegria vem pela manhã” (Salmo 30:5).\",\n      \"translation_quote\": \"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\"\n    },\n    {\n      \"location\": \"translation.html, final paragraph\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\n      \"suggested_fix\": \"Translate the quoted Scripture and localize the book name, preserving the reference number: “Em ti, ó SENHOR, ponho a minha confiança; não me deixes jamais confundido” (Salmo 71:1).\",\n      \"translation_quote\": \"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\"\n    },\n    {\n      \"location\": \"translation.title\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Circumstantial Overload\",\n      \"suggested_fix\": \"Translate as “Sobrecarga circunstancial”.\",\n      \"translation_quote\": \"Circumstantial Overload\"\n    },\n    {\n      \"location\": \"translation.section\",\n      \"severity\": \"major\",\n      \"source_quote\": \"SISTER TO SISTER\",\n      \"suggested_fix\": \"Translate as “DE IRMÃ PARA IRMÃ”.\",\n      \"translation_quote\": \"SISTER TO SISTER\"\n    },\n    {\n      \"location\": \"translation.html, heading “Sobreacarga prolongada...”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Prolonged overload can be emotionally and mentally damaging\",\n      \"suggested_fix\": \"Correct the typo: “Sobrecarga prolongada pode ser emocional e mentalmente danosa”.\",\n      \"translation_quote\": \"Sobreacarga prolongada pode ser emocional e mentalmente danosa\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 72\n}",
+    "content_bytes": 2721,
+    "content_evidence_truncated": false,
+    "content_sha256": "9f6880388e4123e8fcac770898713c9fa862e4956b3ac6ccc045d9bac9ac1392",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 321,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3936,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3933,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4930
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Deadlines are a normal part of life”\",\"severity\":\"major\",\"source_quote\":\"“Without them we would be unmotivated, and our days would lack purpose.”\",\"suggested_fix\":\"Replace «Χωρίς αυτές θα ήμασταν χωρίς κίνητρο και οι μέρες μας θα έλειπαν από σκοπό» with «Χωρίς αυτές δεν θα είχαμε κίνητρο και οι μέρες μας θα στερούνταν σκοπού» to preserve the intended meaning in natural Greek.\",\"translation_quote\":\"«Χωρίς αυτές θα ήμασταν χωρίς κίνητρο και οι μέρες μας θα έλειπαν από σκοπό.»\"},{\"location\":\"HTML, paragraph beginning “Deciding early in the day”\",\"severity\":\"minor\",\"source_quote\":\"“packing the diaper bag in advance”\",\"suggested_fix\":\"Replace «την τσάντα της πάνας» with «την τσάντα με τα απαραίτητα για το μωρό» for a natural Greek rendering of the diaper bag.\",\"translation_quote\":\"«την τσάντα της πάνας»\"},{\"location\":\"HTML, paragraph beginning “Sometimes the enormity of a task”\",\"severity\":\"minor\",\"source_quote\":\"“Deep cleaning my kitchen is a task that I do not enjoy.”\",\"suggested_fix\":\"Replace «Το βαθύ καθάρισμα της κουζίνας μου» with «Ο γενικός καθαρισμός της κουζίνας μου» for idiomatic Greek.\",\"translation_quote\":\"«Το βαθύ καθάρισμα της κουζίνας μου»\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1629,
+    "content_evidence_truncated": false,
+    "content_sha256": "a22ac2b7852a8d45641bb8532972b0a3dcb3d58deb735678bf4e3f43811db896",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 344,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3364,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3711
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

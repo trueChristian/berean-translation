@@ -2,10 +2,61 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "c0a7da966b352f0f9cacd664637e641bd5c8ea23455b75e874c346f59a563869",
   "base_metadata_sha256": "437a37793a83e564291983417f336cfd05ae8a7cfc4bd92ebc86e4808c605a0e",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 369,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3380,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3377,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3749
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Titolo",
+      "severity": "minor",
+      "source_quote": "Jamin Smartens Up",
+      "suggested_fix": "Jamin diventa più sveglio",
+      "translation_quote": "Jamin si fa più saggio"
+    },
+    {
+      "location": "HTML, paragrafo che inizia «C’era un brivido nell’aria»",
+      "severity": "major",
+      "source_quote": "“There was a chill in the air as he tramped up over the lawn”",
+      "suggested_fix": "Sostituisci «mentre calpestava il prato» con «mentre attraversava a passi pesanti il prato», per mantenere l’idea che Jamin avanza camminando con passo deciso.",
+      "translation_quote": "«C’era un brivido nell’aria mentre calpestava il prato»"
+    },
+    {
+      "location": "HTML, paragrafo che inizia «Jamin si chinò»",
+      "severity": "major",
+      "source_quote": "“Darkness stained the ground around Kenny.”",
+      "suggested_fix": "Sostituisci «L’oscurità macchiava il terreno intorno a Kenny» con «Il sangue macchiava il terreno intorno a Kenny», rendendo esplicito il riferimento al sangue implicato dal contesto della ferita.",
+      "translation_quote": "«L’oscurità macchiava il terreno intorno a Kenny»"
+    },
+    {
+      "location": "HTML, paragrafo che inizia «Jamin si voltò»",
+      "severity": "minor",
+      "source_quote": "“He was smiling.”",
+      "suggested_fix": "Sostituisci «Sorrideva» con «Stava sorridendo», mantenendo esplicito il soggetto Jamin.",
+      "translation_quote": "«Sorrideva.»"
+    }
+  ],
   "id": "c3ea5d153407b2a0aafd3122f369000f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -94,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

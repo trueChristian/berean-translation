@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Jamin se curvou”\",\"severity\":\"major\",\"source_quote\":\"Darkness stained the ground around Kenny.\",\"suggested_fix\":\"Replace with a grammatical rendering that preserves the image, for example: “A escuridão cobria o chão ao redor de Kenny.”\",\"translation_quote\":\"A escuridão manchas rodeava o chão ao redor de Kenny.\"},{\"location\":\"HTML, paragraph beginning “Havia um arrepio no ar”\",\"severity\":\"minor\",\"source_quote\":\"Eventually, the trail would end up in a meadow\",\"suggested_fix\":\"Use “Por fim, a trilha terminaria em um prado” to convey the eventual endpoint rather than a possibility.\",\"translation_quote\":\"Eventualmente, a trilha terminaria em um prado\"},{\"location\":\"HTML, paragraph beginning “Jamin se curvou”\",\"severity\":\"major\",\"source_quote\":\"Kenny reeled free.\",\"suggested_fix\":\"Use “Kenny cambaleou para fora da armadilha” or another rendering that conveys that he staggered free after Jamin opened the jaws.\",\"translation_quote\":\"Kenny recuou livre.\"},{\"location\":\"HTML, paragraph beginning “Havia um arrepio no ar”\",\"severity\":\"minor\",\"source_quote\":\"the musky smell of the woods\",\"suggested_fix\":\"Replace “musgoso” with a term for the woods’ musky, earthy smell, such as “almiscarado” or “terroso”, according to the intended nuance.\",\"translation_quote\":\"o cheiro musgoso da mata\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 1419,
+    "content_evidence_truncated": false,
+    "content_sha256": "08bed660d9267fb9a093c5a7a361983d318e5c82355d7d31f4059f523e3438a6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 476,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3285,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3282,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4103
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

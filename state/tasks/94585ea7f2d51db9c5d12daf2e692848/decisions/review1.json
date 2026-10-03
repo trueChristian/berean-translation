@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML image alt text",
+      "severity": "major",
+      "source_quote": "Pink and white crown vetch flowers in a green meadow",
+      "suggested_fix": "غيّر الوصف إلى: «أزهار نبات التاجية الوردية والبيضاء في مرج أخضر».",
+      "translation_quote": "زهور الكرونة البنفسجية والبيضاء في مرج أخضر"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title / translation.title\",\"severity\":\"major\",\"source_quote\":\"Circumstantial Overload\",\"suggested_fix\":\"Terjemahkan judul menjadi “Beban Situasional”.\",\"translation_quote\":\"Circumstantial Overload\"},{\"location\":\"source.section / translation.section\",\"severity\":\"major\",\"source_quote\":\"SISTER TO SISTER\",\"suggested_fix\":\"Terjemahkan nama rubrik, misalnya “DARI SAUDARI KE SAUDARI”.\",\"translation_quote\":\"SISTER TO SISTER\"},{\"location\":\"Paragraf tentang peristiwa traumatis dalam komunitas\",\"severity\":\"major\",\"source_quote\":\"Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.\",\"suggested_fix\":\"Ganti frasa “lingkaran kita yang jelas” dengan rujukan yang tepat pada komunitas plain, misalnya: “Peristiwa traumatis dalam komunitas plain kita cenderung mendapat dukungan doa dan finansial, serta pembaruan anggaran mingguan.”\",\"translation_quote\":\"Peristiwa traumatis dalam lingkaran kita yang jelas cenderung memperoleh doa, dukungan finansial, dan pembaruan anggaran mingguan.\"},{\"location\":\"Paragraf “Percayalah bahwa Tuhan peduli” — kutipan Mazmur 30:5\",\"severity\":\"major\",\"source_quote\":\"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\",\"suggested_fix\":\"Terjemahkan kutipannya dan gunakan nama kitab dalam bahasa Indonesia, dengan nomor tetap: “Tangisan dapat bertahan sepanjang malam, tetapi sukacita datang pada pagi hari” (Mazmur 30:5).\",\"translation_quote\":\"“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\"},{\"location\":\"Paragraf penutup — kutipan Mazmur 71:1\",\"severity\":\"major\",\"source_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\"suggested_fix\":\"Terjemahkan kutipannya dan gunakan nama kitab dalam bahasa Indonesia, dengan nomor tetap: “Kepada-Mulah, ya TUHAN, aku percaya; jangan biarkan aku dipermalukan” (Mazmur 71:1).\",\"translation_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 2105,
+    "content_evidence_truncated": false,
+    "content_sha256": "392e6bdd6c476102c41aeaf07691093ed46984ea0ab319df2ea13adaf5cea6e3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 989,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 449,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3967,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4959
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

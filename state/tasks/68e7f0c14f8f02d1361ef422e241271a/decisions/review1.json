@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "Titolo",
+      "severity": "minor",
+      "source_quote": "The Christian Humanist",
+      "suggested_fix": "L'umanista cristiano",
+      "translation_quote": "L'Umanista Cristiano"
+    },
+    {
+      "location": "Citazione biblica in Romani 1:18-32",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ... Because that, when they knew God, they glorified him not as God, neither were thankful; ... and their foolish heart was darkened.”",
+      "suggested_fix": "Correggere la citazione italiana per conservare i significati stampati: ad esempio, usare «sopprimono la verità nell'ingiustizia» per “hold the truth in unrighteousness” e «il loro cuore stolto si oscurò» per “their foolish heart was darkened”; verificare inoltre l'intera citazione contro il testo inglese.",
+      "translation_quote": "«... uomini che sopprimono la verità mediante l'ingiustizia; ... ma sono diventati vani nei loro ragionamenti e il loro stolto cuore è stato inaridito.»"
+    },
+    {
+      "location": "Citazione biblica in Romani 1:18-32",
+      "severity": "major",
+      "source_quote": "“... God gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves”",
+      "suggested_fix": "Rendere l'immagine e il nesso causale del testo stampato: «Dio li abbandonò all'impurità, secondo i desideri dei loro cuori, affinché disonorassero i propri corpi tra loro».",
+      "translation_quote": "«Perciò Dio li ha abbandonati alle passioni della loro vergogna, alle impurità, perché disonorassero i loro corpi tra loro»"
+    },
+    {
+      "location": "Citazione biblica in Romani 1:18-32",
+      "severity": "major",
+      "source_quote": "“And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind”",
+      "suggested_fix": "Correggere gli errori lessicali e rendere fedelmente il senso: «E poiché non ritennero opportuno conservare la conoscenza di Dio, Dio li abbandonò a una mente reproba».",
+      "translation_quote": "«E, non gradando neppure di conservare Dio nel loro conoscere, Dio li ha consegnati a una mente reprobata»"
+    },
+    {
+      "location": "Citazione biblica in Romani 1:18-32",
+      "severity": "major",
+      "source_quote": "“... inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection...”",
+      "suggested_fix": "Correggere la resa della lista, in particolare «inventori di cose malvagie», «senza intendimento» e «senza fedeltà agli accordi», mantenendo tutti gli elementi del testo inglese.",
+      "translation_quote": "«... inventori di mali cose, disubbidienti ai genitori, senza intelligenza, senza alleanza...»"
+    },
+    {
+      "location": "Citazione in Giovanni 15:18",
+      "severity": "major",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you.”",
+      "suggested_fix": "Aggiungere l'imperativo «sappiate» o una resa equivalente di “ye know”, per esempio: «Se il mondo vi odia, sappiate che ha odiato me prima di voi».",
+      "translation_quote": "«Se il mondo vi odia, ricordate che ha odiato me prima di voi»"
+    },
+    {
+      "location": "Paragrafo sull'umanista cristiano, esempio del giardino",
+      "severity": "major",
+      "source_quote": "“He waters and fertilizes weeds and prunes.”",
+      "suggested_fix": "Preservare la sequenza dell'originale: «Annaffia, concima, estirpa le erbacce e pota».",
+      "translation_quote": "«Annaffia e concima, estirpa le erbacce e pota.»"
+    },
+    {
+      "location": "Paragrafo conclusivo prima della perorazione",
+      "severity": "major",
+      "source_quote": "“Someone who will deny himself and this world and follow the Savior.”",
+      "suggested_fix": "Tradurre «deny himself and this world» senza omettere il riferimento al mondo: «Qualcuno che rinneghi se stesso e questo mondo e segua il Salvatore».",
+      "translation_quote": "«Qualcuno che si neghi e questo mondo e segua il Salvatore.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

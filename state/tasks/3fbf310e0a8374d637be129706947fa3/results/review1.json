@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e2ccdc11-1e46-44e6-8294-1fe1cc525f4a",
+    "response_id": "chatcmpl-EUxYwocfxz8LFKlxAdZ5yYCpxzRas",
+    "usage": {
+      "completion_tokens": 534,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3311,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3848
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "Jamin Smartens Up",
+        "suggested_fix": "Jamin blir klokare",
+        "translation_quote": "Jamin blir klokare"
+      },
+      {
+        "location": "html, paragraph 3",
+        "severity": "major",
+        "source_quote": "Kenny had a way of avoiding earshot.",
+        "suggested_fix": "Men Kenny hade ett sätt att se till att de inte hörde honom.",
+        "translation_quote": "Men Kenny hade ett sätt att undvika att bli hörd."
+      },
+      {
+        "location": "html, paragraph 7",
+        "severity": "major",
+        "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+        "suggested_fix": "Höstspinnarmaskarna hade varit i farten, och deras spinnvävsgardiner hängde från grenarna ovanför.",
+        "translation_quote": "Spindelvävssjoken hade gjort sitt, och deras väggar hängde från grenarna ovanför."
+      },
+      {
+        "location": "html, paragraph 8",
+        "severity": "minor",
+        "source_quote": "as the trees subdued and thinned",
+        "suggested_fix": "när skogen glesnade",
+        "translation_quote": "när träden tunnades ut"
+      },
+      {
+        "location": "html, paragraph 9",
+        "severity": "major",
+        "source_quote": "Jamin felt strange, seeing Kenny scrunched in the dirt.",
+        "suggested_fix": "Jamin kände sig underlig när han såg Kenny hopkrupen i jorden.",
+        "translation_quote": "Jamin kände sig underlig när han såg Kenny hopkrupen i gräset."
+      },
+      {
+        "location": "html, paragraph 10",
+        "severity": "major",
+        "source_quote": "Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.",
+        "suggested_fix": "Snabbt bände Jamin upp käftarna med sina starka armar. Kenny stapplade loss.",
+        "translation_quote": "Snabbt vred Jamin sina starka armar och öppnade käftarna. Kenny föll fri."
+      },
+      {
+        "location": "html, paragraph 13",
+        "severity": "major",
+        "source_quote": "The odd little band hurried home",
+        "suggested_fix": "Den märkliga lilla gruppen skyndade hem",
+        "translation_quote": "Den konstiga lilla sällskapet skyndade hem"
+      },
+      {
+        "location": "html, paragraph 14",
+        "severity": "major",
+        "source_quote": "A heavy comforter lay on her shoulders.",
+        "suggested_fix": "En tung täckfilt låg över hennes axlar.",
+        "translation_quote": "En tung filt låg över hennes axlar."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

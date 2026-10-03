@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, third stanza, third line\",\"severity\":\"major\",\"source_quote\":\"Bow down in awful, holy fear-\",\"suggested_fix\":\"Replace with «Inclinaos con temor reverencial y santo-» to convey awe-filled reverence rather than something fearsome.\",\"translation_quote\":\"Inclinaos en temible y santa reverencia-\"},{\"location\":\"HTML, image alt text\",\"severity\":\"minor\",\"source_quote\":\"during a vivid sunset\",\"suggested_fix\":\"Use «durante una puesta de sol de colores intensos» (or another natural equivalent); this also corrects the feminine article before «atardecer» if that word is retained.\",\"translation_quote\":\"durante una atardecer vívido\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 698,
+    "content_evidence_truncated": false,
+    "content_sha256": "382b2b4193e46d79436bf86fdcbd717f4952062c686eb4014d7c6636e505aadd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 588,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 414,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1625,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1622,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2213
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

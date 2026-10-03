@@ -1,0 +1,114 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0bfcbe23-7d95-4d64-94e6-5f0a03a1bf38",
+    "response_id": "chatcmpl-EUxYMMaorTUJYwUHAXDTTlFpvrjCE",
+    "usage": {
+      "completion_tokens": 2622,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 619,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12677,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12674,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15299
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문: 전도서 12:1 인용 및 이어지는 설명",
+        "severity": "major",
+        "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
+        "suggested_fix": "인용문과 그 뒤에 반복 인용된 “while the evil days come not” 및 “the years draw nigh”를 한국어로 번역하십시오. 성경 책 이름은 통상적인 한국어 표기인 “전도서”를 사용하고 장·절 번호는 그대로 유지하십시오.",
+        "translation_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”"
+      },
+      {
+        "location": "본문: 창세기 2:18–24 및 창세기 1:26–28 인용문",
+        "severity": "major",
+        "source_quote": "“And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him...” (Genesis 2:18-24).",
+        "suggested_fix": "두 인용문 전체를 인쇄된 영어 원문의 뜻에 충실하게 한국어로 번역하십시오. 인용문 뒤의 성경 책 이름도 “창세기”로 표기하고 장·절 번호와 범위는 유지하십시오.",
+        "translation_quote": "“And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him...” (Genesis 2:18-24)."
+      },
+      {
+        "location": "본문: 창세기 2:18, 창세기 1:27 및 1) 항목의 창세기 2:22–23 인용문",
+        "severity": "major",
+        "source_quote": "“And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18).",
+        "suggested_fix": "이 단락들에 있는 성경 인용문을 모두 한국어로 번역하십시오. 성경 책 이름은 “창세기”로 표기하고, 기존 장·절 번호는 변경하지 마십시오.",
+        "translation_quote": "“And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18)."
+      },
+      {
+        "location": "본문: 2) 항목의 창세기 2:24 및 마가복음 10:7 인용문; 3) 항목의 창세기 2:24 및 마가복음 10:8–9 인용문",
+        "severity": "major",
+        "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+        "suggested_fix": "해당 항목에 남아 있는 성경 인용문을 모두 한국어로 번역하십시오. 인용문과 함께 나오는 “Genesis”는 “창세기”, “Mark”는 “마가복음”으로 표기하되 장·절 번호와 범위는 그대로 두십시오.",
+        "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      },
+      {
+        "location": "본문: 4) 항목의 고린도후서 6:14–15 및 고린도전서 7:39 인용문",
+        "severity": "major",
+        "source_quote": "“Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness” (2 Corinthians 6:14-15).",
+        "suggested_fix": "이 항목의 두 성경 인용문을 한국어로 번역하고 성경 책 이름을 “고린도후서”, “고린도전서”로 표기하십시오. 장·절 번호와 범위는 그대로 유지하십시오.",
+        "translation_quote": "“Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness” (2 Corinthians 6:14-15)."
+      },
+      {
+        "location": "본문: 5) 항목의 창세기 1:28 및 창세기 9:1, 9:7 인용문",
+        "severity": "major",
+        "source_quote": "“And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth...” (Genesis 1:28).",
+        "suggested_fix": "이 항목의 세 성경 인용문을 모두 한국어로 번역하고 “Genesis”를 “창세기”로 표기하십시오. 장·절 번호는 그대로 유지하십시오.",
+        "translation_quote": "“And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth...” (Genesis 1:28)."
+      },
+      {
+        "location": "본문: 6) 항목의 고린도전서 11:3, 에베소서 6:1–3 및 잠언 3:1–2 인용문",
+        "severity": "major",
+        "source_quote": "“But I would have you know, that the head of every man is Christ; and the head of the woman is the man; and the head of Christ is God” (1 Corinthians 11:3).",
+        "suggested_fix": "이 항목에 남아 있는 세 성경 인용문을 모두 한국어로 번역하십시오. 성경 책 이름은 “고린도전서”, “에베소서”, “잠언”으로 표기하고 장·절 번호와 범위는 유지하십시오.",
+        "translation_quote": "“But I would have you know, that the head of every man is Christ; and the head of the woman is the man; and the head of Christ is God” (1 Corinthians 11:3)."
+      },
+      {
+        "location": "본문: 7) 항목의 에베소서 5:21–25, 28–29, 33 인용문",
+        "severity": "major",
+        "source_quote": "“Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord...”",
+        "suggested_fix": "이 항목의 성경 인용문 전체를 한국어로 번역하십시오. 번역문에 이미 표기된 “에베소서”와 장·절 번호는 그대로 유지하십시오.",
+        "translation_quote": "“Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord...”"
+      },
+      {
+        "location": "본문: 8) 항목의 베드로전서 3:7 인용문",
+        "severity": "major",
+        "source_quote": "“Likewise, ye husbands, dwell with them according to knowledge, giving honor unto the wife, as unto the weaker vessel...”",
+        "suggested_fix": "이 항목의 성경 인용문을 모두 한국어로 번역하십시오. 인용문에 붙은 성경 책 이름은 “베드로전서”로 표기하고 장·절 번호는 유지하십시오.",
+        "translation_quote": "“Likewise, ye husbands, dwell with them according to knowledge, giving honor unto the wife, as unto the weaker vessel...”"
+      },
+      {
+        "location": "본문: 9) 항목의 시편 144:12 인용문",
+        "severity": "major",
+        "source_quote": "“That our sons may be as plants grown up in their youth; that our daughters may be as corner stones, polished after the similitude of a palace.”",
+        "suggested_fix": "시편 인용문을 한국어로 번역하고 성경 책 이름 및 장·절 표기를 한국어 관례에 맞추십시오. 장·절 번호는 변경하지 마십시오.",
+        "translation_quote": "“That our sons may be as plants grown up in their youth; that our daughters may be as corner stones, polished after the similitude of a palace.”"
+      },
+      {
+        "location": "본문: 10) 항목의 에베소서 5:24–29 인용문 및 이어지는 에베소서 5:25 인용",
+        "severity": "major",
+        "source_quote": "“Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing. Husbands, love your wives, even as Christ also loved the church...” (Ephesians 5:24-29).",
+        "suggested_fix": "이 항목의 성경 인용문 전체를 한국어로 번역하십시오. 성경 책 이름은 “에베소서”로 표기하고 장·절 번호와 범위는 그대로 유지하십시오.",
+        "translation_quote": "“Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing. Husbands, love your wives, even as Christ also loved the church...” (Ephesians 5:24-29)."
+      },
+      {
+        "location": "본문: 1) 항목, 아담이 이브를 알아보는 대목",
+        "severity": "minor",
+        "source_quote": "Adam awoke and realized, “This one is for me!”",
+        "suggested_fix": "“이 사람은 나를 위한 사람이구나!”처럼 옮겨, 아담이 이브를 자신에게 맞는 짝으로 알아보았다는 뜻을 살리십시오.",
+        "translation_quote": "“이 사람은 내 것을 위한 사람이다!”"
+      }
+    ],
+    "passed": false,
+    "score": 55
+  }
+}

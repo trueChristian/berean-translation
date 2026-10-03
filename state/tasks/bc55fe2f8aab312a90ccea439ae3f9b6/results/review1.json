@@ -1,0 +1,100 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "58e52322-52b0-43c0-a729-ed1df8383731",
+    "response_id": "chatcmpl-EUxZX3K9TvOARDE68GsD2TckQcEpI",
+    "usage": {
+      "completion_tokens": 2020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 529,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9156,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9153,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11176
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragrafo sotto «Il cinismo nella Bibbia» (Ecclesiaste 2:22,23)",
+        "severity": "major",
+        "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
+        "suggested_fix": "Tradurre integralmente la citazione in italiano, mantenendone il significato e il riferimento con il nome convenzionale italiano: «Ecclesiaste 2:22,23».",
+        "translation_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)"
+      },
+      {
+        "location": "HTML, paragrafo sulla critica al potere politico (Ecclesiaste 4:13)",
+        "severity": "major",
+        "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+        "suggested_fix": "Tradurre integralmente la citazione in italiano e rendere il riferimento come «Ecclesiaste 4:13», senza modificarne numero o collocazione.",
+        "translation_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13)."
+      },
+      {
+        "location": "HTML, paragrafo su Ecclesiaste 6:6",
+        "severity": "major",
+        "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
+        "suggested_fix": "Tradurre integralmente la citazione in italiano, conservando il senso del versetto.",
+        "translation_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”"
+      },
+      {
+        "location": "HTML, paragrafo sulla profezia in Geremia 7:27",
+        "severity": "major",
+        "source_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).",
+        "suggested_fix": "Tradurre integralmente la citazione in italiano e usare il nome convenzionale «Geremia» nel riferimento, mantenendo il numero 7:27.",
+        "translation_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27)."
+      },
+      {
+        "location": "HTML, paragrafo sulla sana dottrina (2 Timoteo 4:3)",
+        "severity": "major",
+        "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+        "suggested_fix": "Tradurre integralmente la citazione in italiano e rendere il riferimento come «2 Timoteo 4:3», mantenendone numero e collocazione.",
+        "translation_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3)."
+      },
+      {
+        "location": "HTML, paragrafo sulle tribolazioni (Romani 5:3-5)",
+        "severity": "major",
+        "source_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5).",
+        "suggested_fix": "Tradurre integralmente la citazione in italiano e usare il riferimento «Romani 5:3-5», preservando il numero e l’intervallo.",
+        "translation_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5)."
+      },
+      {
+        "location": "HTML, paragrafo sulla tentazione di Gesù (Matteo 4:8)",
+        "severity": "major",
+        "source_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
+        "suggested_fix": "Tradurre la citazione in italiano e rendere il riferimento come «Matteo 4:8», mantenendone numero e collocazione.",
+        "translation_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8)."
+      },
+      {
+        "location": "HTML, paragrafo sullo slogan del candidato presidenziale",
+        "severity": "minor",
+        "source_quote": "“Hope and Change”",
+        "suggested_fix": "Tradurre lo slogan in italiano, ad esempio «Speranza e cambiamento».",
+        "translation_quote": "“Hope and Change”"
+      },
+      {
+        "location": "HTML, paragrafo finale sulla canzone",
+        "severity": "major",
+        "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+        "suggested_fix": "Tradurre in italiano anche il testo citato della canzone, mantenendone il senso, ad esempio: «Oh, non avere speranza in Gesù: quanto deve essere oscuro questo mondo!»",
+        "translation_quote": "“Oh to have no hope in Jesus, how dark this world must be!”"
+      },
+      {
+        "location": "HTML, sezione «Il cinismo nella Bibbia», paragrafo sugli interessati alla politica",
+        "severity": "minor",
+        "source_quote": "“as time goes by and the faces in charge change, the policies don’t really change, they tend to become cynical.”",
+        "suggested_fix": "Riformulare la parte finale facendo riferire il cinismo alle persone coinvolte nella politica, non alle politiche: «…le politiche non cambiano davvero e le persone tendono a diventare ciniche».",
+        "translation_quote": "“col passare del tempo e col cambiare delle persone al potere, le politiche non cambiano davvero e tendono a diventare cinici.”"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

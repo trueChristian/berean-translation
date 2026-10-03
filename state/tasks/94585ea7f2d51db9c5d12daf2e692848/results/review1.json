@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "96285cdd-0f6e-476d-bd3c-732e71ed1414",
+    "response_id": "chatcmpl-EUxYNid9wqnjMpJLhJPz118r2lXag",
+    "usage": {
+      "completion_tokens": 765,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 654,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3086,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3854
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML image alt text",
+        "severity": "major",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "غيّر الوصف إلى: «أزهار نبات التاجية الوردية والبيضاء في مرج أخضر».",
+        "translation_quote": "زهور الكرونة البنفسجية والبيضاء في مرج أخضر"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

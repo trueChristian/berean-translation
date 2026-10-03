@@ -2,10 +2,82 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": "a76d65ba9ddfbcfba1f9604ea770a1dc6357e38a9d86477c94616294ed77ba56",
   "base_metadata_sha256": "52ab35591f99592449b36d120090f18bae3f0bc4b013ba7dd8819e2d9914f53e",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1198,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 456,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12531,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12528,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13729
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Sezione «Il piano di Dio per maschio e femmina», citazione di Genesi 2:18-24",
+      "severity": "major",
+      "source_quote": "“And Adam said, This is now bone of my bones, and flesh of my flesh”",
+      "suggested_fix": "Sostituire «Questa volta ossea dalle mie ossa e carne dalla mia carne» con «Questa è ora osso delle mie ossa e carne della mia carne» (o una formulazione italiana idiomatica equivalente).",
+      "translation_quote": "«Questa volta ossea dalle mie ossa e carne dalla mia carne»"
+    },
+    {
+      "location": "Sezione «4) Non un giogo diseguale», citazione di 2 Corinzi 6:14-15",
+      "severity": "major",
+      "source_quote": "“Be ye not unequally yoked together with unbelievers”",
+      "suggested_fix": "Sostituire «infedeli» con «non credenti», ad esempio: «Non vi mettete con i non credenti sotto un giogo diseguale».",
+      "translation_quote": "«Non vi mettete con gli infedeli sotto un giogo non conforme»"
+    },
+    {
+      "location": "Sezione «8) Essere eredi insieme della grazia della vita», citazione di 1 Pietro 3:7",
+      "severity": "major",
+      "source_quote": "“that your prayers be not hindered”",
+      "suggested_fix": "Sostituire «affinché non siano vanificate le vostre preghiere» con «affinché le vostre preghiere non siano impedite» (o equivalente fedele).",
+      "translation_quote": "«affinché non siano vanificate le vostre preghiere»"
+    },
+    {
+      "location": "Sezione «9) Una casa benedetta e sicura», citazione del Salmo 144:12",
+      "severity": "major",
+      "source_quote": "“That our sons may be as plants grown up in their youth”",
+      "suggested_fix": "Rendere «grown up» con un’espressione come «cresciuti nella loro giovinezza», anziché «nate nella giovinezza».",
+      "translation_quote": "«I nostri figli cresceranno come piante nate nella giovinezza»"
+    },
+    {
+      "location": "Metadato section",
+      "severity": "major",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Tradurre il metadato in italiano, ad esempio «ISPIRAZIONI PER I GIOVANI».",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "Sezione «Introduzione», secondo paragrafo",
+      "severity": "minor",
+      "source_quote": "“a burning burden and vision in your heart”",
+      "suggested_fix": "Sostituire «un ardente fardello» con una formulazione idiomatica come «un forte peso nel cuore» o «una profonda sollecitudine», mantenendo l’idea di una motivazione sentita.",
+      "translation_quote": "«un ardente fardello e una visione»"
+    },
+    {
+      "location": "Sezione «Il piano di Dio per maschio e femmina», citazione e commento su Ecclesiaste 12:1",
+      "severity": "minor",
+      "source_quote": "“Turn your heart, your focus, and your life to pursue after your Creator”",
+      "suggested_fix": "Sostituire «il vostro foco» con «la vostra attenzione» o «il vostro focus».",
+      "translation_quote": "«Volgete il vostro cuore, il vostro foco e la vostra vita»"
+    }
+  ],
   "id": "4b48858037d22390cb0f2874a1e607ee",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -94,11 +166,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

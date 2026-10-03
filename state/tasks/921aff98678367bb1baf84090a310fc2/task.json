@@ -2,10 +2,75 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "75b74db9c37f2c88b080225dda7742239b6939bb4ba3708cc5aeb41a76ca359f",
   "base_metadata_sha256": "eba838f7a6f3f5967923bb35aa536da73bc531fb5dd3806dc663f763ccb2e1dc",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 994,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 321,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3936,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3933,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4930
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, paragraph beginning “Às vezes esse tipo de sobrecarga”",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Replace “em nossos círculos visíveis” with “em nossas comunidades religiosas tradicionais” to preserve the reference to the plain religious community, rather than changing it to visibility.",
+      "translation_quote": "Eventos traumáticos em nossos círculos visíveis tendem a receber orações, auxílio financeiro e atualizações semanais do orçamento."
+    },
+    {
+      "location": "translation.html, final sentence of the paragraph under “Acredite que Deus se importa”",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Translate the quoted Scripture and localize the book name, preserving the reference number: “O choro pode durar uma noite, mas a alegria vem pela manhã” (Salmo 30:5).",
+      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+    },
+    {
+      "location": "translation.html, final paragraph",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Translate the quoted Scripture and localize the book name, preserving the reference number: “Em ti, ó SENHOR, ponho a minha confiança; não me deixes jamais confundido” (Salmo 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    },
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "Circumstantial Overload",
+      "suggested_fix": "Translate as “Sobrecarga circunstancial”.",
+      "translation_quote": "Circumstantial Overload"
+    },
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate as “DE IRMÃ PARA IRMÃ”.",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "translation.html, heading “Sobreacarga prolongada...”",
+      "severity": "minor",
+      "source_quote": "Prolonged overload can be emotionally and mentally damaging",
+      "suggested_fix": "Correct the typo: “Sobrecarga prolongada pode ser emocional e mentalmente danosa”.",
+      "translation_quote": "Sobreacarga prolongada pode ser emocional e mentalmente danosa"
+    }
+  ],
   "id": "921aff98678367bb1baf84090a310fc2",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "por",
@@ -94,11 +159,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

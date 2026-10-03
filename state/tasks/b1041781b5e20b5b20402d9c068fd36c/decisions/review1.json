@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "Título e artigo, usos de “courtship”",
+      "severity": "major",
+      "source_quote": "A Christ-centered courtship is a period of time between a single life and a married life.",
+      "suggested_fix": "Substitua “namoro” por uma expressão que preserve a ideia de cortejo/relacionamento intencional voltado ao casamento, de modo consistente no título, na nota e no artigo; por exemplo, “cortejo centrado em Cristo”. “Namoro” pode sugerir um relacionamento diferente e menos especificamente voltado ao casamento que o conceito do texto.",
+      "translation_quote": "Um namoro centrado em Cristo é um período de tempo entre a vida de solteiro e a vida de casado."
+    },
+    {
+      "location": "§ 4, segundo parágrafo",
+      "severity": "major",
+      "source_quote": "God desires that we be joined together in one flesh, one heart, and one mind. He wants to see us joined in heart, mind, and flesh—the whole being, being one.",
+      "suggested_fix": "Traduza “flesh” como “carne”, não “corpo”; por exemplo: “unidos em coração, mente e carne — todo o ser, sendo um”.",
+      "translation_quote": "Ele quer nos ver unidos em coração, mente e carne—todo o ser, sendo um."
+    },
+    {
+      "location": "§ 5, citação de Gênesis 9:7",
+      "severity": "major",
+      "source_quote": "“And you, be ye fruitful, and multiply; bring forth abundantly in the earth, and multiply therein” (Genesis 9:7).",
+      "suggested_fix": "Ajuste a citação para preservar o sentido de “bring forth abundantly” (produzir abundantemente/frutificar abundantemente), sem substituir essa ideia por “frutificai na terra”. Mantenha a referência exatamente como “Gênesis 9:7”.",
+      "translation_quote": "“E quanto a vós, sede fecundos e multiplicai‑vos; frutificai na terra e multiplicai‑vos nela” (Gênesis 9:7)."
+    },
+    {
+      "location": "§ 8, citação e comentário de 1 Pedro 3:7",
+      "severity": "major",
+      "source_quote": "“and as being heirs together of the grace of life” … “She is the weaker vessel and the one that born the children!”",
+      "suggested_fix": "Na citação, traduza “heirs together” como “herdeiros juntos” ou equivalente, e no comentário traduza “the one that bore the children” como “a que deu à luz os filhos”. Não substitua a afirmação de que ela deu à luz os filhos por “cooperadores na graça da vida”.",
+      "translation_quote": "“como sendo vós os seus cooperadores na graça da vida” … “Ela é o vaso mais fraco e a que deu à luz as crianças!”"
+    },
+    {
+      "location": "§ 8, último parágrafo",
+      "severity": "major",
+      "source_quote": "Every ounce you can gain in this area will only bless you later.",
+      "suggested_fix": "Traduza “ounce” como uma pequena quantidade ou medida de progresso nesta área, por exemplo: “Cada pequeno progresso que fizerem nesta área só os abençoará mais tarde.”",
+      "translation_quote": "Cada voto de atenção que vocês ganharem nesta área só os abençoará mais tarde."
+    },
+    {
+      "location": "§ 9, citação de Salmo 144:12",
+      "severity": "major",
+      "source_quote": "“That our sons may be as plants grown up in their youth; that our daughters may be as corner stones, polished after the similitude of a palace.”",
+      "suggested_fix": "Traduza a imagem de “corner stones” como pedras angulares e preserve “polished” como polidas/lavradas; por exemplo: “que nossas filhas sejam como pedras angulares, polidas à semelhança de um palácio”.",
+      "translation_quote": "“Para que os nossos filhos sejam como plantas crescidas na sua juventude; para que as nossas filhas sejam como cantarias, lavradas à semelhança de um palácio.”"
+    },
+    {
+      "location": "§ 10, citação de Efésios 5:24-29",
+      "severity": "major",
+      "source_quote": "“Therefore as the church is subject unto Christ” … “even as the Lord the church.”",
+      "suggested_fix": "Preserve as frases impressas na fonte: traduza “is subject unto Christ” como “está sujeita a Cristo”, em vez de “submeteu-se a Cristo”, e “as the Lord the church” como “assim como o Senhor à igreja”, sem trocar “Senhor” por “Cristo”.",
+      "translation_quote": "“Assim como a igreja submeteu‑se a Cristo” … “como também Cristo à igreja”."
+    },
+    {
+      "location": "Metadados, subtítulo",
+      "severity": "minor",
+      "source_quote": "God’s Plan for Male and Female",
+      "suggested_fix": "Use uma formulação idiomática em português que transmita o sentido de “male and female”, por exemplo, “homem e mulher”, em vez de “masculino e feminino” como substantivos abstratos.",
+      "translation_quote": "O Plano de Deus para Masculino e Feminino"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

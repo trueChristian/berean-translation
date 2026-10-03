@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning „Dieser Tag blieb John Newton für immer im Gedächtnis“\",\"severity\":\"minor\",\"source_quote\":\"“On that day, the Lord sent from on high and delivered me out of deep waters.”\",\"suggested_fix\":\"„An diesem Tag sandte der Herr aus der Höhe und rettete mich aus tiefen Wassern.“\",\"translation_quote\":\"„An diesem Tag sandte der Herr Hilfe aus der Höhe und rettete mich aus tiefen Wassern.“\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 480,
+    "content_evidence_truncated": false,
+    "content_sha256": "b88e397594458530c6e64eb711429a6ecd3d8b78b70b3a08abfb46ccf413232d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6621,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7424
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

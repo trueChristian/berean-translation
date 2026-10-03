@@ -42,6 +42,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "6c89bdc2ef7a5cae69bf8a5e77318273"
+    },
+    {
+      "at": "2026-10-03T18:43:06+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "6c89bdc2ef7a5cae69bf8a5e77318273"
     }
   ],
   "language": "cmn",
@@ -56,12 +62,12 @@
     "metadata_sha256": "bc961587e2bfb3177aa5f823ebeda1699eeaded4ae42c4f0b6b348d9dd59865d",
     "model": "gpt-6.1-sol",
     "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-6.1-sol）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1/\" data-source-article-id=\"28cd0392-f481-4e7c-9674-fbeb3c49fdf1\" hreflang=\"en\">英文原文</a></p>\n</aside>",
-    "published_at": "2026-10-03T11:26:54+00:00",
-    "quality_score": 99,
-    "review_model": "gpt-6.1-sol",
-    "source_revision": "9f125b01b12c7ad1ac860850d5e31186c14c8101",
-    "source_snapshot": "state/sources/f0c25c3577311c7c02b2cb60e52d3dc036fc05e7110d4da4ab1ec416de46e1d1.json",
-    "task": "90cec41f6793001fd0503ab61b72a575",
+    "published_at": "2026-10-03T18:43:06+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/0bb630bbebe5b6489e1904aa9ad4850dc4032d135b3d216f200c4d36001e2eeb.json",
+    "task": "6c89bdc2ef7a5cae69bf8a5e77318273",
     "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05"
   }
 }

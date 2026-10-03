@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bdde4eeb-2fcc-4771-8464-ba70415b8d4c",
+    "response_id": "chatcmpl-EUxYnmhNy4SIWNb8TNt2bUDl6R5BW",
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 388,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1637,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1634,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2241
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first stanza, final line",
+        "severity": "minor",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Rends grâces et loue, car il y a plus encore !",
+        "translation_quote": "Rends grâces et louanges, car davantage est ici !"
+      },
+      {
+        "location": "HTML, second stanza, second line",
+        "severity": "minor",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Exalte et loue son nom digne de louange !",
+        "translation_quote": "Exalte et loue Son nom digne !"
+      },
+      {
+        "location": "HTML, third stanza, third line",
+        "severity": "minor",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Incline-toi dans une crainte révérencielle et sainte-",
+        "translation_quote": "Incline-toi dans une crainte redoutable et sainte-"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

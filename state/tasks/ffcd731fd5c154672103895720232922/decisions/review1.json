@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first stanza, final line",
+      "severity": "major",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Sostituisci con una resa italiana che conservi l’idea di «more is here», per esempio: «Rendete grazie e lodate, perché qui c’è ancora di più!»",
+      "translation_quote": "Rendete grazie e inni, per c'è di più qui!"
+    },
+    {
+      "location": "HTML, second stanza, second line",
+      "severity": "minor",
+      "source_quote": "Extol and praise His worthy name!",
+      "suggested_fix": "Sostituisci con «Esaltate e lodate il suo nome glorioso!»",
+      "translation_quote": "Esalta e loda il Suo nome degno!"
+    },
+    {
+      "location": "HTML, third stanza, third line",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Rendi il senso di reverente timore, per esempio: «Prostratevi in santo e reverente timore;»",
+      "translation_quote": "Inchinatevi in tremendo, santo timore-"
+    },
+    {
+      "location": "HTML, third stanza, fifth line",
+      "severity": "minor",
+      "source_quote": "In wondrous beauty bend the knee;",
+      "suggested_fix": "Riformula in modo che la meravigliosa bellezza descriva la scena, non il modo di piegare il ginocchio: «Nella meravigliosa bellezza, piegate il ginocchio;»",
+      "translation_quote": "Con mirabile bellezza piegate il ginocchio;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

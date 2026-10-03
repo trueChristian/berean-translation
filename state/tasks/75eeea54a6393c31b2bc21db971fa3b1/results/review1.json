@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "012d45c8-84ec-4290-a972-9c0109b1c64f",
+    "response_id": "chatcmpl-EUxYZDPta5210aDI2b2IF261QGrMn",
+    "usage": {
+      "completion_tokens": 625,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 427,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1649,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2277
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, first stanza, fourth line",
+        "severity": "minor",
+        "source_quote": "The grace of God to man is nigh!",
+        "suggested_fix": "Исправить согласование: «Благодать Божия близка человеку!»",
+        "translation_quote": "Благодать Божия к человеку близко!"
+      },
+      {
+        "location": "HTML poem, first stanza, final line",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Передать мысль о том, что «больше» уже здесь, не добавляя утверждения о прибытии чего-то более великого. Например: «Благодарите и прославляйте, ведь здесь есть большее!»",
+        "translation_quote": "Благодарите и прославляйте, ведь пришло нечто большее!"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, second stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"Arise and glorify the Lord!\",\"suggested_fix\":\"Use matching singular or plural imperatives; for example, change «Σήκω και δοξολογήστε» to «Σήκω και δοξολόγησε».\",\"translation_quote\":\"Σήκω και δοξολογήστε τον Κύριο!\"},{\"location\":\"source.html, third stanza, fourth line\",\"severity\":\"minor\",\"source_quote\":\"The Holiness of God is here;\",\"suggested_fix\":\"Use the more idiomatic Modern Greek «Η αγιότητα του Θεού είναι εδώ·».\",\"translation_quote\":\"Η Αγιοσύνη του Θεού είναι εδώ·\"},{\"location\":\"source.html, third stanza, fifth line\",\"severity\":\"minor\",\"source_quote\":\"In wondrous beauty bend the knee;\",\"suggested_fix\":\"For a more natural Greek rendering, use «Με θαυμαστή ομορφιά, γονατίστε·».\",\"translation_quote\":\"Σε θαυμαστή ομορφιά λυγώστε τα γόνατα·\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1059,
+    "content_evidence_truncated": false,
+    "content_sha256": "a5cdf3a40113e4976c8f41f8fd58cb29a17f4305e039d335ed844f30f5ae3ece",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 491,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1758,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1755,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2513
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

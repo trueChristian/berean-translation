@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Sure enough”",
+      "severity": "minor",
+      "source_quote": "“the screen door banged shut”",
+      "suggested_fix": "Replace «dørskjermen» with «myggnettdøren» or another natural Bokmål term for a screen door, preserving the meaning that the door itself banged shut.",
+      "translation_quote": "«dørskjermen smalt igjen»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

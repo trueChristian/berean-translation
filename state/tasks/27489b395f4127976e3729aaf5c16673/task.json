@@ -2,10 +2,96 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "a174d69957a2bc7c3ec9098d05cbba0c8668bfe6caea034c278196e7b4ce1aeb",
   "base_metadata_sha256": "503c2eccbee595e53b68264732d65f29bbd7c2bddc4826902726d0cc0bf7f492",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1280,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 455,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4848,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4845,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6128
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Circumstantial Overload",
+      "suggested_fix": "Υπερφόρτωση λόγω περιστάσεων",
+      "translation_quote": "Υπερφόρτωση από περιστάσεις"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "ΑΔΕΛΦΗ ΠΡΟΣ ΑΔΕΛΦΗ",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "major",
+      "source_quote": "Circumstantial overload might be the most difficult.",
+      "suggested_fix": "Η υπερφόρτωση λόγω περιστάσεων μπορεί να είναι η πιο δύσκολη.",
+      "translation_quote": "Το περιστασιακό υπερφορτωμένο φορτίο ίσως είναι το πιο δύσκολο."
+    },
+    {
+      "location": "HTML, paragraphs describing circumstantial overload and stress",
+      "severity": "major",
+      "source_quote": "Circumstantial overload may happen slowly",
+      "suggested_fix": "Η υπερφόρτωση λόγω περιστάσεων μπορεί να αναπτυχθεί σταδιακά",
+      "translation_quote": "Το περιστασιακό υπερφόρτωμα μπορεί να συμβεί αργά"
+    },
+    {
+      "location": "HTML, paragraph beginning “I felt like a lifeguard”",
+      "severity": "major",
+      "source_quote": "while taking in a bit too much water myself.",
+      "suggested_fix": "κι ενώ κι εγώ κατάπινα λίγο παραπάνω νερό.",
+      "translation_quote": "ενώ παίρνω λίγο πολύ νερό ο ίδιος."
+    },
+    {
+      "location": "HTML, paragraph beginning “Traumatic events”",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Τα τραυματικά γεγονότα στις κοινότητές μας των Plain τείνουν να λαμβάνουν προσευχή, οικονομική βοήθεια και εβδομαδιαίες ενημερώσεις για τον προϋπολογισμό.",
+      "translation_quote": "Τα τραυματικά γεγονότα στους στενούς μας κύκλους τείνουν να λαμβάνουν προσευχή, οικονομική βοήθεια και εβδομαδιαίες ενημερώσεις προϋπολογισμού."
+    },
+    {
+      "location": "HTML, quotation in “Believe that God cares”",
+      "severity": "critical",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Πίστεψε «Το κλάμα μπορεί να διαρκέσει μια νύχτα, μα το πρωί έρχεται η χαρά» (Ψαλμός 30:5).",
+      "translation_quote": "Πίστεψε «Weeping may endure for a night, but joy cometh in the morning\" (Psalm 30:5)."
+    },
+    {
+      "location": "HTML, final paragraph",
+      "severity": "critical",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Και πες μαζί με τον Ψαλμωδό: «Σε εσένα, Κύριε, έχω θέσει την εμπιστοσύνη μου· ας μην ντροπιαστώ ποτέ» (Ψαλμός 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    },
+    {
+      "location": "HTML, paragraph beginning “If you are facing circumstantial overload”",
+      "severity": "minor",
+      "source_quote": "He will supply the needed grace for that hour.",
+      "suggested_fix": "Θα παράσχει τη χρειαζούμενη χάρη για εκείνη την ώρα.",
+      "translation_quote": "Θα παράσχει τη χρειζόμενη χάρη για εκείνη την ώρα."
+    }
+  ],
   "id": "27489b395f4127976e3729aaf5c16673",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -94,11 +180,13 @@
     }
   },
   "protected": false,
+  "quality_score": 55,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

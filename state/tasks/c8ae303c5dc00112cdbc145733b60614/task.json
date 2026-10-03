@@ -2,10 +2,41 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": "bb3ef53389b44e47bee3375618e72a807854d007836fe7a4612158273b91f33f",
   "base_metadata_sha256": "a1f22b481778fe98024c5accd1b59c61344e1b2fc503a0294183c085c865b26f",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 589,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 392,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2858,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2855,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3447
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraf setelah judul “Ubah Situasi Menit Terakhir”",
+      "severity": "minor",
+      "source_quote": "“plan” for a bee sting and a stubbed toe?",
+      "suggested_fix": "Ganti “tersandung jari kaki” dengan “jari kaki terbentur”: <p>Sebagai contoh, jika tamu akan datang dan kita berencana mencuci jendela dan membuat makanan penutup bersama dengan selusin tugas lainnya pada hari kedatangan mereka, tidak ada ruang untuk gangguan. Dari pengalaman, kita tahu gangguan pasti akan datang. Jadi, bukankah lebih baik “merencanakan” sengatan lebah dan jari kaki terbentur?</p>",
+      "translation_quote": "“merencanakan” sengatan lebah dan tersandung jari kaki?"
+    }
+  ],
+  "finished_at": "2026-10-03T18:43:07+00:00",
   "id": "c8ae303c5dc00112cdbc145733b60614",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ind",
@@ -94,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, first stanza, fourth line",
+      "severity": "minor",
+      "source_quote": "The grace of God to man is nigh!",
+      "suggested_fix": "Исправить согласование: «Благодать Божия близка человеку!»",
+      "translation_quote": "Благодать Божия к человеку близко!"
+    },
+    {
+      "location": "HTML poem, first stanza, final line",
+      "severity": "major",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Передать мысль о том, что «больше» уже здесь, не добавляя утверждения о прибытии чего-то более великого. Например: «Благодарите и прославляйте, ведь здесь есть большее!»",
+      "translation_quote": "Благодарите и прославляйте, ведь пришло нечто большее!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

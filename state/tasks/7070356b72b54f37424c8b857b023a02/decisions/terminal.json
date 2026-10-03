@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Último parágrafo",
+      "severity": "minor",
+      "source_quote": "A few minor changes can make the biggest difference between a blessed or stressed last minute.",
+      "suggested_fix": "Algumas pequenas mudanças podem fazer toda a diferença entre um momento de última hora abençoado e um estressante.",
+      "translation_quote": "Algumas pequenas mudanças podem fazer a maior diferença entre um último minuto abençoado ou estressante."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

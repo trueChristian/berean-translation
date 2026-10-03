@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "77a749c3-84c1-4b40-940f-5f3b101cb09e",
+    "response_id": "chatcmpl-EUxb4XtbbEVl5CbJ3X5sFnZmKBxl0",
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6701,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6698,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6913
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Artikel, paragraf tentang penerbitan himne dan asal judulnya; frasa judul karya dalam tanda kutip",
+        "severity": "major",
+        "source_quote": "“Faith’s Review and Expectation”",
+        "suggested_fix": "Ganti frasa tersebut dengan terjemahan judul yang mempertahankan maknanya, misalnya “Tinjauan dan Pengharapan Iman”.",
+        "translation_quote": "“Tinjauan dan Pengharapan Iman”"
+      },
+      {
+        "location": "Artikel, paragraf tentang penerbitan himne dan asal judulnya; rujukan Kitab Suci",
+        "severity": "major",
+        "source_quote": "1 Chronicles 17:16-17",
+        "suggested_fix": "Ubah nama kitab menjadi bentuk konvensional bahasa Indonesia dan pertahankan nomor serta rentangnya persis: “1 Tawarikh 17:16-17”.",
+        "translation_quote": "1 Tawarikh 17:16-17"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

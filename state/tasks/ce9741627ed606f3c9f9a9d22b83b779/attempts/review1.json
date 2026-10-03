@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 3\",\"severity\":\"major\",\"source_quote\":\"Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”\",\"suggested_fix\":\"Oversett sitatet til bokmål, for eksempel: «Nederlag er en læremester, og når livet går mot slutten, hva tror du at du vil angre mest på – å ha mislyktes eller aldri å ha prøvd?»\",\"translation_quote\":\"Nelson Mandela, tidligere president i Sør-Afrika, skrev: «Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?»\"},{\"location\":\"HTML, paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.\",\"suggested_fix\":\"Bytt ut med «Ungdom som oppmuntrer andre ungdommer til å strekke seg mot målet og prisen som følger med det høye kallet i Kristus Jesus.»\",\"translation_quote\":\"Ungdom som oppmuntrer medungdom til å presse seg mot målet om å motta prisen for det høye kall i Kristus Jesus.\"},{\"location\":\"HTML, paragraph 5, book-list\",\"severity\":\"major\",\"source_quote\":\"The Power of the Love of Truth<br>\\n  Christian Counseling- Counterfeit?<br>\\n  The Heart of God<br>\\n  Free Indeed!<br>\\n  Pilgrims and Politics<br>\\n  Cup &amp; Cross<br>\\n  The High Cost of Holistic Healing<br>\\n  Secrets of Successful Writing<br>\\n  The Catholic Connection<br>\\n  Psychiatry and Mood altering Medications<br>\\n  The Mennonite Church and Modernism\",\"suggested_fix\":\"Oversett boktitlene til bokmål og behold den eksisterende rekkefølgen og <br>-taggene, for eksempel «Sannhetskjærlighetens kraft», «Kristen sjelesorg – forfalskning?», «Guds hjerte», «Virkelig fri!», «Pilegrimer og politikk», «Kalk og kors», «Den høye prisen for holistisk helbredelse», «Hemmelighetene bak vellykket skriving», «Den katolske forbindelsen», «Psykiatri og humørendrende medisiner» og «Mennonittkirken og modernismen».\",\"translation_quote\":\"The Power of the Love of Truth<br>Christian Counseling- Counterfeit?<br>The Heart of God<br>Free Indeed!<br>Pilgrims and Politics<br>Cup &amp; Cross<br>The High Cost of Holistic Healing<br>Secrets of Successful Writing<br>The Catholic Connection<br>Psychiatry and Mood altering Medications<br>The Mennonite Church and Modernism\"},{\"location\":\"HTML, paragraph 6\",\"severity\":\"minor\",\"source_quote\":\"with an unbiased approach\",\"suggested_fix\":\"Bytt ut «ubiasert tilnærming» med «upartisk tilnærming».\",\"translation_quote\":\"med en ubiasert tilnærming\"},{\"location\":\"HTML, image alt text\",\"severity\":\"minor\",\"source_quote\":\"Pink and white crown vetch flowers in a green meadow\",\"suggested_fix\":\"Bruk for eksempel «Rosa og hvite blomster av kransvikke i en grønn eng».\",\"translation_quote\":\"Rosa og hvite kransvicker-blomster i en grønn eng\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 2977,
+    "content_evidence_truncated": false,
+    "content_sha256": "f404733354df0b4906a82eea44b9ac8dacdea7d28ec89b7750807057b6ad467a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 767,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3138,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3135,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3905
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

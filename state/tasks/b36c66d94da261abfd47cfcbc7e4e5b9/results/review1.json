@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "31a7900f-736b-4cba-81f5-799bd195258a",
+    "response_id": "chatcmpl-EUxZ13aynMKzY2ckMOlVm6S6dNQAw",
+    "usage": {
+      "completion_tokens": 579,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 427,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2915,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2912,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3494
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة التي تبدأ بـ«على سبيل المثال»",
+        "severity": "major",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "استبدل «للسعة نحلة وإصبع مدوس» بـ«للسعة نحلة وإصبع قدم مُرضوض»؛ فالمقصود الاستعداد لمقاطعات غير متوقعة، لا «سعة» نحلة.",
+        "translation_quote": "أليس من الأفضل إذن أن \"نخطط\" للسعة نحلة وإصبع مدوس؟"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

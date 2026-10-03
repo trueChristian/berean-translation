@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aeca6cf0-eda7-4be7-8ec9-e1abfbb0db1f",
+    "response_id": "chatcmpl-EUxZ3NHgnQbgUQyWzSjRWOKYxLosM",
+    "usage": {
+      "completion_tokens": 815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3079,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3076,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3894
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraf 1",
+        "severity": "major",
+        "source_quote": "“the tantalizing cacophony of odors”",
+        "suggested_fix": "Ganti “paduan aroma yang menggoda” dengan “hiruk-pikuk aroma yang menggoda” agar gambaran campuran aroma yang ramai tetap tersampaikan.",
+        "translation_quote": "“paduan aroma yang menggoda”"
+      },
+      {
+        "location": "HTML, paragraf 2",
+        "severity": "major",
+        "source_quote": "“I brushed shoulders with well-known authors”",
+        "suggested_fix": "Ganti “Saya bersinggungan dengan penulis terkenal” dengan “Saya berkesempatan bertemu langsung dengan penulis terkenal”.",
+        "translation_quote": "“Saya bersinggungan dengan penulis terkenal”"
+      },
+      {
+        "location": "HTML, paragraf 3",
+        "severity": "major",
+        "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+        "suggested_fix": "Terjemahkan kutipan ke bahasa Indonesia, misalnya: “Kegagalan adalah seorang guru, dan pada akhir hidup Anda, menurut Anda mana yang akan paling Anda sesali: gagal atau tidak pernah mencoba?” Pertahankan tanda kutip dalam struktur HTML yang ada.",
+        "translation_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
+      },
+      {
+        "location": "HTML, paragraf 4",
+        "severity": "major",
+        "source_quote": "“The Berean Voice has a goal to provide printed material that will help readers navigate through the varied and difficult seasons of life.”",
+        "suggested_fix": "Terjemahkan nama publikasi tetap dipertahankan, lalu ganti “menavigasi melalui musim-musim kehidupan yang beragam dan sulit” dengan “mengarungi berbagai masa sulit dan penuh perubahan dalam kehidupan”.",
+        "translation_quote": "“The Berean Voice memiliki tujuan menyediakan bahan cetak yang akan membantu pembaca menavigasi melalui musim-musim kehidupan yang beragam dan sulit.”"
+      },
+      {
+        "location": "HTML, daftar buku",
+        "severity": "major",
+        "source_quote": "Daftar sebelas judul buku, dari “The Power of the Love of Truth” hingga “The Mennonite Church and Modernism”",
+        "suggested_fix": "Terjemahkan judul-judul buku ke bahasa Indonesia, dengan tetap mempertahankan nama atau judul yang memang merupakan nama resmi apabila diperlukan.",
+        "translation_quote": "Semua sebelas judul buku dibiarkan dalam bahasa Inggris."
+      },
+      {
+        "location": "HTML, paragraf 7",
+        "severity": "major",
+        "source_quote": "“This monumental event upended the vaccine debate and ushered in a frenzied rush to market COVID-19 remedies”",
+        "suggested_fix": "Ganti “mengantar pada euforia buru-buru memasarkan obat COVID-19” dengan “memicu perlombaan yang hiruk-pikuk untuk memasarkan penanganan COVID-19”, agar tidak menyebutnya sebagai euforia dan tidak mempersempit remedies menjadi obat.",
+        "translation_quote": "“mengantar pada euforia buru-buru memasarkan obat COVID-19”"
+      },
+      {
+        "location": "HTML, alt gambar",
+        "severity": "minor",
+        "source_quote": "“Pink and white crown vetch flowers in a green meadow”",
+        "suggested_fix": "Terjemahkan nama tanaman secara jelas, misalnya: “Bunga crown vetch berwarna merah muda dan putih di padang rumput hijau”; jika crown vetch memiliki nama Indonesia baku, gunakan nama tersebut.",
+        "translation_quote": "“Bunga crown vetch berwarna merah muda dan putih di padang rumput hijau”"
+      },
+      {
+        "location": "Judul",
+        "severity": "minor",
+        "source_quote": "“From the Editor”",
+        "suggested_fix": "Gunakan “Dari Editor” atau “Dari Redaksi” secara konsisten dengan istilah yang dipakai untuk rubrik ini.",
+        "translation_quote": "“Dari Editor”"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

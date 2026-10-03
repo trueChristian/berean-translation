@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Even in the New Testament”; corresponding translation paragraph",
+      "severity": "major",
+      "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+      "suggested_fix": "Vertaal “having itching ears” met de betekenis van verlangen naar wat men graag hoort, bijvoorbeeld: “die hun naar het gehoor strelen”; behoud de verwijzing als “(2 Timoteüs 4:3).”",
+      "translation_quote": "“Want er zal een tijd zijn, dat zij de gezonde leer niet zullen verdragen; maar naar hun eigen begeerten zullen zij zich leraren verzamelen, die zich horen krabben;” (2 Timoteüs 4:3)."
+    },
+    {
+      "location": "source.html, heading “Look for Hope in the Right Places”; corresponding translation paragraph",
+      "severity": "major",
+      "source_quote": "“Hope and Change,”",
+      "suggested_fix": "Vertaal de slogan in het Nederlands en behoud de aanhalingstekens, bijvoorbeeld: “Hoop en verandering,”",
+      "translation_quote": "“Hope and Change,”"
+    },
+    {
+      "location": "source.html, paragraph beginning “I remember having a conversation with a young person”; corresponding translation paragraph",
+      "severity": "major",
+      "source_quote": "“a foreign country”",
+      "suggested_fix": "Vervang “vreemd land” door “buitenland” of “ander land”, zodat duidelijk is dat het om een ander land gaat, niet om een land dat vreemd of ongewoon is.",
+      "translation_quote": "“een vreemd land”"
+    },
+    {
+      "location": "source.html, paragraph beginning “He is the one who continues to hope for us”; corresponding translation paragraph",
+      "severity": "major",
+      "source_quote": "“He is the one who continues to hope for us”",
+      "suggested_fix": "Herstel de onvoltooide formulering met “blijft hopen”, bijvoorbeeld: “Hij is degene die voor ons blijft hopen, zelfs wanneer we Hem in het verleden zo vaak hebben teleurgesteld.”",
+      "translation_quote": "“Hij is degene die blijf hopen voor ons”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7a936f82-a350-4020-b5a4-bdba7ce5828d",
+    "response_id": "chatcmpl-EUxYYZVtrgMPds28Iq6CLxhWVo9lF",
+    "usage": {
+      "completion_tokens": 418,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 305,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2820,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2817,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3238
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Último parágrafo",
+        "severity": "minor",
+        "source_quote": "A few minor changes can make the biggest difference between a blessed or stressed last minute.",
+        "suggested_fix": "Algumas pequenas mudanças podem fazer toda a diferença entre um momento de última hora abençoado e um estressante.",
+        "translation_quote": "Algumas pequenas mudanças podem fazer a maior diferença entre um último minuto abençoado ou estressante."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

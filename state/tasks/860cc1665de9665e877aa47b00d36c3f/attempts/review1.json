@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"many homemakers deal with regularly\",\"suggested_fix\":\"Replace «hemmavarande» with «personer som sköter hemmet» to convey the meaning of homemakers more clearly.\",\"translation_quote\":\"många hemmavarande möter regelbundet\"},{\"location\":\"HTML, paragraph 7\",\"severity\":\"minor\",\"source_quote\":\"a stubbed toe\",\"suggested_fix\":\"Replace «en stukad tå» with «en tå som slagit i något» or «en stubbad tå»; the source describes stubbing a toe, not spraining it.\",\"translation_quote\":\"en stukad tå\"},{\"location\":\"HTML, paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"If it is not a dental emergency\",\"suggested_fix\":\"Replace «ett tandläkarakutfall» with «ett akut tandproblem» for natural Swedish and the intended meaning.\",\"translation_quote\":\"ett tandläkarakutfall\"},{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"Procrastination Overload\",\"suggested_fix\":\"Use a natural Swedish title such as «Överbelastad av uppskjutande».\",\"translation_quote\":\"Prokrastinering överbelastning\"},{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"SISTER TO SISTER\",\"suggested_fix\":\"Translate the section label as «SYSTER TILL SYSTER».\",\"translation_quote\":\"SISTER TO SISTER\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1301,
+    "content_evidence_truncated": false,
+    "content_sha256": "70242529c87062bb19ec653d5e000ca9a693c2f6371f76c944e1bce3ece3b9fc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 415,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2922,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3665
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

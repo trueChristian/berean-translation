@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dca9bc38-5e8d-4a24-a614-a9676719a1d2",
+    "response_id": "chatcmpl-EUxYs5ufFD4MgeNtdUQFOApXXDs94",
+    "usage": {
+      "completion_tokens": 479,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3401
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Titolo",
+        "severity": "major",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Sostituire con: \"La procrastinazione: quando diventa eccessiva\".",
+        "translation_quote": "Procrastination Overload"
+      },
+      {
+        "location": "Sezione",
+        "severity": "major",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Usare la resa italiana della sezione: \"DA SORELLA A SORELLA\".",
+        "translation_quote": "SISTER TO SISTER"
+      },
+      {
+        "location": "Paragrafo sotto «Mal di denti e viaggi su strada»",
+        "severity": "major",
+        "source_quote": "“plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Sostituire «prevedere» con «pianificare» e correggere il refuso: «Quindi, non è meglio “pianificare” una puntura d'ape e un dito del piede contuso?»",
+        "translation_quote": "“prevedere” una puntura d'ape e un dito storta?"
+      },
+      {
+        "location": "Paragrafo «Do some tasks ahead of time»",
+        "severity": "major",
+        "source_quote": "packing the diaper bag in advance",
+        "suggested_fix": "Sostituire «borsa del cambio» con «borsa dei pannolini».",
+        "translation_quote": "preparare la borsa del cambio in anticipo"
+      },
+      {
+        "location": "Paragrafo «Do some tasks ahead of time»",
+        "severity": "minor",
+        "source_quote": "I was better able to cope with the last-minute rush if that job was out of the way.",
+        "suggested_fix": "Rendere più idiomatico: «Riuscivo ad affrontare meglio la fretta dell'ultimo minuto se mi ero già tolta quel compito di torno».",
+        "translation_quote": "Sono stata più capace di affrontare la corsa dell'ultimo minuto se quel compito era già fuori mano."
+      },
+      {
+        "location": "Paragrafo conclusivo",
+        "severity": "major",
+        "source_quote": "why be hassled by procrastination?",
+        "suggested_fix": "Sostituire con: «perché lasciarsi tormentare dalla procrastinazione?»",
+        "translation_quote": "perché farsi rovinare dalla procrastinazione?"
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

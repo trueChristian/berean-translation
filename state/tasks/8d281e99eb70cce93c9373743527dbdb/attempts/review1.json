@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"section\",\"severity\":\"major\",\"source_quote\":\"MUSINGS OF A MISSIONARY\",\"suggested_fix\":\"Translate the section label as “REFLEXÕES DE UM MISSIONÁRIO”.\",\"translation_quote\":\"MUSINGS OF A MISSIONARY\"},{\"location\":\"Romans 1:18–32 quotation, final verse reference (John 15:18)\",\"severity\":\"major\",\"source_quote\":\"“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”\",\"suggested_fix\":\"Restore the omitted final clause in Portuguese, for example: “Se o mundo vos odeia, sabei que primeiro me odiou a mim. Se a vós odia, também odiou a mim antes de odiar a vós.” Keep the reference as João 15:18.\",\"translation_quote\":\"“Se o mundo vos odeia, sabei que primeiro me odiou a mim.” (João 15:18)\"},{\"location\":\"Paragraph beginning “O cristão não confia no raciocínio humano”\",\"severity\":\"major\",\"source_quote\":\"“The Christian does not believe in human reasoning.”\",\"suggested_fix\":\"Translate the assertion as “O cristão não acredita no raciocínio humano.”\",\"translation_quote\":\"“O cristão não confia no raciocínio humano.”\"},{\"location\":\"Paragraph beginning “Meu irmão estava trabalhando na estufa”\",\"severity\":\"minor\",\"source_quote\":\"“Some plant, some water, but God gives the increase.”\",\"suggested_fix\":\"Use a clear Portuguese rendering of the contrast, such as “Um planta, outro rega, mas Deus dá o crescimento.”\",\"translation_quote\":\"“Alguma planta, alguma água, mas Deus dá o crescimento.”\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 1537,
+    "content_evidence_truncated": false,
+    "content_sha256": "b3690ee49456a8780a3c90b56ba32433ad254a65b8cc4d429d75f547ad740cb8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 668,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6506,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7567
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац о ежедневном употреблении алкоголя\",\"severity\":\"minor\",\"source_quote\":\"“She drinks till she passes out every night and has to have something every morning to get her started.”\",\"suggested_fix\":\"Заменить «и каждый утром ей нужно что-то» на «и каждое утро ей нужно что-нибудь, чтобы начать день»; например: «Она каждую ночь пьёт до потери сознания, и каждое утро ей нужно что-нибудь, чтобы начать день».\",\"translation_quote\":\"«Она пьёт до потери сознания каждую ночь и каждый утром ей нужно что-то, чтобы начать день».\"},{\"location\":\"Абзац о поиске места для лечения\",\"severity\":\"minor\",\"source_quote\":\"“I stepped out of the exam room and to make phone calls.”\",\"suggested_fix\":\"Уточнить, что врач вышел из кабинета для осмотра, чтобы сделать звонки: заменить «Я вышел из приёмной» на «Я вышел из кабинета для осмотра».\",\"translation_quote\":\"«Я вышел из приёмной, чтобы позвонить».\"},{\"location\":\"Абзац о молитве перед отъездом\",\"severity\":\"minor\",\"source_quote\":\"“Can we pray together before you go?”\",\"suggested_fix\":\"Добавить смысловой субъект «мы»: «Можем ли мы помолиться вместе, прежде чем вы уйдёте?»\",\"translation_quote\":\"«Молиться вместе, прежде чем вы уйдёте?»\"},{\"location\":\"Абзац о пожилом и молодом мужчинах\",\"severity\":\"minor\",\"source_quote\":\"“I could sense the heart of the youth sinking as this older man shared.”\",\"suggested_fix\":\"Заменить неестественное «Я видел, как опустилось сердце молодого человека» на идиоматичное «Я чувствовал, как у молодого человека падает дух, пока пожилой мужчина делился своим мнением».\",\"translation_quote\":\"«Я видел, как опустилось сердце молодого человека, когда этот старший делился своим мнением».\"},{\"location\":\"Абзац о надежде и неудачах других\",\"severity\":\"minor\",\"source_quote\":\"“They, too, are growing, and if they have a failure today, they will do better tomorrow.”\",\"suggested_fix\":\"Исправить неестественную формулировку «завтра у них будет лучше» на «завтра у них получится лучше».\",\"translation_quote\":\"«Они тоже растут, и если сегодня у них неудача, завтра у них будет лучше».\"},{\"location\":\"Заголовок «Dealing with Cynicism»\",\"severity\":\"minor\",\"source_quote\":\"Dealing with Cynicism\",\"suggested_fix\":\"Для более точной передачи смысла заголовка заменить «Борьба с цинизмом» на «Как справляться с цинизмом».\",\"translation_quote\":\"Борьба с цинизмом\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 3519,
+    "content_evidence_truncated": false,
+    "content_sha256": "99b5bbba074941c97ac0f274d8b899d0ba6484671e375671b12917ee4beab3aa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 642,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9134,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9131,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9776
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

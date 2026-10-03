@@ -2,10 +2,54 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": "58394f69434493cb19fa9c81ff4659248f4aa929870157c037e5992598dcc186",
   "base_metadata_sha256": "45ad4c72016533306934853c4bdc9e691a13cd703804576ca469a26fcfe7c50f",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 935,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 500,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9095,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9092,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10030
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "« Le cynisme dans la Bible », paragraphe sur Ecclésiaste 6:6",
+      "severity": "major",
+      "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
+      "suggested_fix": "Remplacer « Même s’il vivait mille ans, deux fois cent ans » par « Même s’il vivait deux fois mille ans » afin de préserver le sens de « a thousand years twice told ».",
+      "translation_quote": "« Même s’il vivait mille ans, deux fois cent ans, et qu’il ne voyait point de bien, n’ont-ils pas tous un même lieu ? »"
+    },
+    {
+      "location": "« Le cynisme dans la Bible », paragraphe sur les personnes qui s’engagent en politique",
+      "severity": "major",
+      "source_quote": "“Unfortunately, as time goes by and the faces in charge change, the policies don’t really change, they tend to become cynical.”",
+      "suggested_fix": "Corriger la fin pour que ce soient les personnes qui deviennent cyniques, par exemple : « Malheureusement, avec le temps, et tandis que les visages au pouvoir changent sans que les politiques changent vraiment, elles tendent à devenir cyniques. »",
+      "translation_quote": "« Malheureusement, avec le temps et le renouvellement des visages au pouvoir, les politiques ne changent guère ; elles tendent à devenir cyniques. »"
+    },
+    {
+      "location": "« Le contraire du cynisme », paragraphe sur le fils prodigue",
+      "severity": "major",
+      "source_quote": "“the father still desired to see the prodigal come to himself and return home.”",
+      "suggested_fix": "Rendre « come to himself » par une expression signifiant « reprendre ses esprits » ou « revenir à la raison », tout en conservant l’idée distincte du retour à la maison.",
+      "translation_quote": "« le père désirait toujours voir le prodigue revenir à lui et rentrer à la maison. »"
+    }
+  ],
   "id": "b41a7a5a175b3516f0ad1d852ec345bc",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "fra",
@@ -94,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0bb630bbebe5b6489e1904aa9ad4850dc4032d135b3d216f200c4d36001e2eeb.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

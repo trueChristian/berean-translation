@@ -2,10 +2,61 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "3899d06f9d81678a89c234ddc415c079ff9a40534034e8b0c08af76c0bfed9c2",
   "base_metadata_sha256": "20e43782bb5ca52a840b32cf78cdecd3fdd34b75aafb52053741847bba800798",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 818,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 476,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3285,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3282,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4103
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Jamin se curvou”",
+      "severity": "major",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "Replace with a grammatical rendering that preserves the image, for example: “A escuridão cobria o chão ao redor de Kenny.”",
+      "translation_quote": "A escuridão manchas rodeava o chão ao redor de Kenny."
+    },
+    {
+      "location": "HTML, paragraph beginning “Havia um arrepio no ar”",
+      "severity": "minor",
+      "source_quote": "Eventually, the trail would end up in a meadow",
+      "suggested_fix": "Use “Por fim, a trilha terminaria em um prado” to convey the eventual endpoint rather than a possibility.",
+      "translation_quote": "Eventualmente, a trilha terminaria em um prado"
+    },
+    {
+      "location": "HTML, paragraph beginning “Jamin se curvou”",
+      "severity": "major",
+      "source_quote": "Kenny reeled free.",
+      "suggested_fix": "Use “Kenny cambaleou para fora da armadilha” or another rendering that conveys that he staggered free after Jamin opened the jaws.",
+      "translation_quote": "Kenny recuou livre."
+    },
+    {
+      "location": "HTML, paragraph beginning “Havia um arrepio no ar”",
+      "severity": "minor",
+      "source_quote": "the musky smell of the woods",
+      "suggested_fix": "Replace “musgoso” with a term for the woods’ musky, earthy smell, such as “almiscarado” or “terroso”, according to the intended nuance.",
+      "translation_quote": "o cheiro musgoso da mata"
+    }
+  ],
   "id": "380bd231d5f544098f9826ed36fcb648",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "por",
@@ -94,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 87,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

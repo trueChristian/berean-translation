@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “But Kenny was there”",
+      "severity": "major",
+      "source_quote": "The heap’s face was lit in pain.",
+      "suggested_fix": "Vervang “Het gezicht van de hoop was van pijn verlicht” door “Het gezicht van de hoop was vertrokken van de pijn.”",
+      "translation_quote": "Het gezicht van de hoop was van pijn verlicht."
+    },
+    {
+      "location": "HTML paragraph beginning “Jamin bent and found an ankle”",
+      "severity": "major",
+      "source_quote": "Quickly, Jamin’s strong arms pried open the jaws.",
+      "suggested_fix": "Vervang “Snel wreven Jamins sterke armen de kaken open” door “Snel wrikten Jamins sterke armen de kaken open.”",
+      "translation_quote": "Snel wreven Jamins sterke armen de kaken open."
+    },
+    {
+      "location": "HTML paragraph beginning “Yes. I think so”",
+      "severity": "major",
+      "source_quote": "If you support me, I can hobble along.",
+      "suggested_fix": "Vervang “kan ik hinkelen” door “kan ik hinkend verder.”",
+      "translation_quote": "Als je me ondersteunt, kan ik hinkelen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

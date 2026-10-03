@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Translate the section label as “REFLEXÕES DE UM MISSIONÁRIO”.",
+      "translation_quote": "MUSINGS OF A MISSIONARY"
+    },
+    {
+      "location": "Romans 1:18–32 quotation, final verse reference (John 15:18)",
+      "severity": "major",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Restore the omitted final clause in Portuguese, for example: “Se o mundo vos odeia, sabei que primeiro me odiou a mim. Se a vós odia, também odiou a mim antes de odiar a vós.” Keep the reference as João 15:18.",
+      "translation_quote": "“Se o mundo vos odeia, sabei que primeiro me odiou a mim.” (João 15:18)"
+    },
+    {
+      "location": "Paragraph beginning “O cristão não confia no raciocínio humano”",
+      "severity": "major",
+      "source_quote": "“The Christian does not believe in human reasoning.”",
+      "suggested_fix": "Translate the assertion as “O cristão não acredita no raciocínio humano.”",
+      "translation_quote": "“O cristão não confia no raciocínio humano.”"
+    },
+    {
+      "location": "Paragraph beginning “Meu irmão estava trabalhando na estufa”",
+      "severity": "minor",
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "Use a clear Portuguese rendering of the contrast, such as “Um planta, outro rega, mas Deus dá o crescimento.”",
+      "translation_quote": "“Alguma planta, alguma água, mas Deus dá o crescimento.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

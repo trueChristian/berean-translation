@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “John Newton often composed a hymn…”",
+      "severity": "major",
+      "source_quote": "“Faith’s Review and Expectation”, grew out of David’s exclamation in 1 Chronicles 17:16-17.",
+      "suggested_fix": "Replace “1 Chronicles 17:16-17” with the conventional Spanish book name, preserving the numbers and range: “1 Crónicas 17:16-17”.",
+      "translation_quote": "“Faith’s Review and Expectation”, surgió de la exclamación de David en 1 Chronicles 17:16-17."
+    },
+    {
+      "location": "HTML, paragraph beginning “That was a day John Newton remembered…”",
+      "severity": "minor",
+      "source_quote": "“Not well able to write; but I endeavor to observe the return of this day with humiliation, prayer, and praise.”",
+      "suggested_fix": "Replace “No estoy muy capaz de escribir” with the more idiomatic “No me encuentro con fuerzas para escribir”, keeping the rest of the quotation unchanged.",
+      "translation_quote": "“No estoy muy capaz de escribir; pero me esfuerzo por observar el regreso de este día con humillación, oración y alabanza.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

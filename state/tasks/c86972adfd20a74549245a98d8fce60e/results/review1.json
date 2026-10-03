@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c7d92858-5149-4678-bd68-30d6f0319746",
+    "response_id": "chatcmpl-EUxZVmEvDWhf2wzc73vPSWv6753qj",
+    "usage": {
+      "completion_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 504,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3011,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3629
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, primeiro parágrafo",
+        "severity": "minor",
+        "source_quote": "“the tantalizing cacophony of odors”",
+        "suggested_fix": "Substitua “o caleidoscópio tentador de cheiros” por “a tentadora cacofonia de odores” para preservar a imagem sensorial do original.",
+        "translation_quote": "“o caleidoscópio tentador de cheiros”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

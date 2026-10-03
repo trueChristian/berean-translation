@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, p.book-list\",\"severity\":\"major\",\"source_quote\":\"The Power of the Love of Truth<br> ... The Mennonite Church and Modernism\",\"suggested_fix\":\"Translate the book titles into Korean while preserving the existing <p class=\\\"book-list\\\"> element, line order, and <br> tags. For example: 진리의 사랑의 능력<br>기독교 상담—가짜인가?<br>하나님의 마음<br>참으로 자유롭게!<br>순례자들과 정치<br>잔과 십자가<br>전인적 치유의 높은 대가<br>성공적인 글쓰기의 비결<br>가톨릭과의 연결<br>정신의학과 기분을 변화시키는 약물<br>메노나이트 교회와 현대주의\",\"translation_quote\":\"The Power of the Love of Truth<br> ... The Mennonite Church and Modernism\"},{\"location\":\"HTML, third paragraph, Nelson Mandela quotation\",\"severity\":\"minor\",\"source_quote\":\"what do you think you’ll feel worst about, failing or never trying?\",\"suggested_fix\":\"Replace “무엇이 더 더 나쁘다고 느끼겠는가” with “무엇을 더 후회하겠는가” to remove the duplicated “더” and express the comparison naturally.\",\"translation_quote\":\"당신은 무엇이 더 더 나쁘다고 느끼겠는가, 실패인가 아니면 시도조차 하지 않은 것인가?\"},{\"location\":\"HTML, figure img alt\",\"severity\":\"minor\",\"source_quote\":\"Pink and white crown vetch flowers in a green meadow\",\"suggested_fix\":\"Replace “관목충영 꽃” with a Korean rendering of crown vetch, such as “왕관갈퀴나물 꽃”: “초록 초원에 핀 분홍색과 흰색 왕관갈퀴나물 꽃”.\",\"translation_quote\":\"초록 초원에 핀 분홍색과 흰색 관목충영 꽃\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 1699,
+    "content_evidence_truncated": false,
+    "content_sha256": "8f5676cc5c2ea8a372c4cc4c19c2ea6c8891b82eda45c95d62416045964e33ed",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 902,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 462,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3220,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3217,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4122
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

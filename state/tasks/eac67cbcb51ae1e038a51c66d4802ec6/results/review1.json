@@ -1,0 +1,373 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "02fcf9fb-ae75-4bae-a934-ddaa9beedf17",
+    "response_id": "chatcmpl-EUxYOCg9wQYozJfY4s7U0QE359hls",
+    "usage": {
+      "completion_tokens": 4877,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7072,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7069,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11949
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "শিরোনাম",
+        "severity": "minor",
+        "source_quote": "ALL NATURE SINGS",
+        "suggested_fix": "শিরোনামটি “সমস্ত প্রকৃতি গান গায়” করুন।",
+        "translation_quote": "সমস্ত প্রকৃতি গান করে"
+      },
+      {
+        "location": "প্রথম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Our Father’s world is a world unspoiled by human invention and intervention.",
+        "suggested_fix": "অর্থটি করুন: “আমাদের পিতার জগৎ মানুষের উদ্ভাবন ও হস্তক্ষেপে কলুষিত নয়।” পরের বাক্যগুলিতেও এই বক্তব্যের সঙ্গে সামঞ্জস্য রাখুন।",
+        "translation_quote": "আমাদের পিতার জগৎ মানুষের আবিষ্কার ও হস্তক্ষেপে অক্ষত রয়ে গেছে।"
+      },
+      {
+        "location": "প্রথম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "there abide still a few that remain unmarred by civilization.",
+        "suggested_fix": "“তবু সভ্যতার কলুষ থেকে অমলিন কিছু জিনিস এখনো রয়ে গেছে” লিখুন।",
+        "translation_quote": "তবু কিছু জিনিস আছে যা সভ্যতায় অনাবৃত হৈয়েও রয়ে গেছে।"
+      },
+      {
+        "location": "প্রথম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Little children in the fresh innocence of their unsoiled morning top the ranks as a bit of heaven on earth",
+        "suggested_fix": "শিশুদের নিষ্পাপ জীবনের ভোর ও পৃথিবীতে স্বর্গের এক টুকরো হওয়ার অর্থ অক্ষুণ্ণ রেখে বাক্যাংশটি সংশোধন করুন।",
+        "translation_quote": "অপদুষ্টিহীন সকালে টাটকা নির্দোষতায় ছোট শিশুরা পৃথিবীর স্বর্গের এক অল্প অংশ"
+      },
+      {
+        "location": "প্রথম অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "Paul pleaded with the Corinthian church, “Doth not nature itself teach you?”",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন, যেমন: “প্রকৃতি নিজেই কি তোমাদের শিক্ষা দেয় না?”",
+        "translation_quote": "পলের করিন্থীয় গির্জার প্রতি আরজি ছিল, “Doth not nature itself teach you?”"
+      },
+      {
+        "location": "প্রথম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "We are exhorted to consider the lilies, the ravens, and the grass of the field.",
+        "suggested_fix": "লিলি, দাঁড়কাক এবং মাঠের ঘাস বিবেচনা করার জন্য আমাদের উপদেশ দেওয়া হয়েছে—এই অর্থে লিখুন।",
+        "translation_quote": "আমরা কুসুমফুল, কাক, এবং ক্ষেতের ঘাস বিবেচনা করার জন্য উৎকণ্ঠিত করা হয়েছি।"
+      },
+      {
+        "location": "দ্বিতীয় অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "They are a natural representation of the saints and angels of God",
+        "suggested_fix": "“তারা ঈশ্বরের সাধু ও ফেরেশতাদের স্বাভাবিক প্রতিরূপ” লিখুন; ‘পবিত্রানুষ্ঠান’ এখানে ভুল অর্থ দেয়।",
+        "translation_quote": "তারা ঈশ্বরের পবিত্রানুষ্ঠান ও দেবদূতদের একটি প্রাকৃতিক প্রতিনিধিত্ব"
+      },
+      {
+        "location": "দ্বিতীয় অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং গ্রন্থনামটি প্রচলিত বাংলা রূপে দিন; অধ্যায়-পদ 6:5 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+      },
+      {
+        "location": "তৃতীয় অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "The expression “happy as a lark” is so common a term",
+        "suggested_fix": "“লার্কের মতো সুখী” অভিব্যক্তিটি এত প্রচলিত—এভাবে বাংলায় অর্থটি দিন।",
+        "translation_quote": "“happy as a lark” এই অভিব্যক্তিটি এতই প্রচলিত"
+      },
+      {
+        "location": "তৃতীয় অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং “James” প্রচলিত বাংলা গ্রন্থনামে লিখুন; 5:13 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13)."
+      },
+      {
+        "location": "তৃতীয় অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "the killdeer also has no qualms with expressing rash disfavor",
+        "suggested_fix": "‘rash disfavor’ অর্থাৎ হঠকারী/তীব্র বিরাগ প্রকাশের অর্থটি দিন; ‘তুচ্ছ ঘৃণা’ যথাযথ নয়।",
+        "translation_quote": "কিলডিয়ারও তাদের অনুপ্রবেশকারীদের প্রতি তুচ্ছ ঘৃণা প্রকাশ করতে দ্বিধা করে না"
+      },
+      {
+        "location": "চতুর্থ অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Revelations",
+        "suggested_fix": "প্রকাশিত বাক্য বইটির নাম প্রচলিত বাংলা রূপে লিখুন (“প্রকাশিত বাক্য”)।",
+        "translation_quote": "প্রকাশিত গ্রন্থে"
+      },
+      {
+        "location": "চতুর্থ অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "finite minds",
+        "suggested_fix": "‘সীমিত মানবমন’ অর্থে সংশোধন করুন; ‘সান্দ্র মস্তিষ্ক’ অর্থবিকৃত ও অস্বাভাবিক।",
+        "translation_quote": "আমাদের সান্দ্র মস্তিষ্ককে"
+      },
+      {
+        "location": "চতুর্থ অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং গীতসংহিতা প্রচলিত বাংলা গ্রন্থনামে লিখুন; 40:3 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3)."
+      },
+      {
+        "location": "চতুর্থ অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
+        "suggested_fix": "“শাস্ত্রে ২২ বার ‘আমি গান গাইব’ কথাটি পুনরাবৃত্ত হয়েছে” লিখুন; বাক্যাংশটি বাংলায় অনুবাদ করুন।",
+        "translation_quote": "বইজুড়ে 22 স্থানে, শাস্ত্রগুলি I will sing এই বাক্যাংশটি পুনরাবৃত্তি করে।"
+      },
+      {
+        "location": "পঞ্চম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Some merely chirp with a merry heart.",
+        "suggested_fix": "‘আনন্দিত মনে কেবল কিচিরমিচির করে’ অর্থে লিখুন; ‘মধুর হৃদয়’ নয়।",
+        "translation_quote": "কিছু কেবল মধুর হৃদয় নিয়ে চিচিঁ করে।"
+      },
+      {
+        "location": "ষষ্ঠ অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং ইফিষীয় প্রচলিত বাংলা গ্রন্থনাম ব্যবহার করুন; 5:19 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19)."
+      },
+      {
+        "location": "ষষ্ঠ অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "The advent of Christ was marked by the angelic host announcing peace and goodwill toward men.",
+        "suggested_fix": "“খ্রিস্টের আগমন ফেরেশতাদের দল মানুষের প্রতি শান্তি ও সদিচ্ছা ঘোষণা করে চিহ্নিত করেছিল”—এই অর্থে সংশোধন করুন।",
+        "translation_quote": "খ্রিস্টের আগমন দ্যুতিময় দেবপুণ্য দ্বারা শান্তি ও মানুষের প্রতি সদিচ্ছা ঘোষণা করে চিহ্নিত হয়েছিল।"
+      },
+      {
+        "location": "ষষ্ঠ অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“Jews have no dealings with the Samaritans.”",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন, যেমন: “ইহুদিদের সঙ্গে শমরীয়দের কোনো সম্পর্ক নেই।”",
+        "translation_quote": "“Jews have no dealings with the Samaritans.”"
+      },
+      {
+        "location": "ষষ্ঠ অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "she had no song.",
+        "suggested_fix": "“তার কোনো গান ছিল না” লিখুন।",
+        "translation_quote": "তাঁর কাছে কোনো গান ছিল নেই।"
+      },
+      {
+        "location": "ষষ্ঠ অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং যোহন প্রচলিত বাংলা গ্রন্থনামে লিখুন; 4:14 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
+      },
+      {
+        "location": "সপ্তম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "it spews forth abundantly on its own accord.",
+        "suggested_fix": "কূপটি নিজে থেকেই প্রচুর জল উগরে দেয়—এই অর্থে লিখুন; ‘উজাড় করে’ এখানে অনুপযুক্ত।",
+        "translation_quote": "এটি স্বতস্ফূর্তভাবে প্রাচুর্যে উজাড় করে।"
+      },
+      {
+        "location": "সপ্তম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং যিশাইয় প্রচলিত বাংলা গ্রন্থনামে লিখুন; 65:14 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
+      },
+      {
+        "location": "অষ্টম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "The babbling noise we hear emanating from many passing vehicles",
+        "suggested_fix": "‘babbling noise’ অর্থে অসংলগ্ন/বকবক শব্দ বোঝান; ‘বাক্‌বিচ্ছিন্ন’ অর্থ উল্টো বা অস্পষ্ট।",
+        "translation_quote": "আমরা যে বাক্‌বিচ্ছিন্ন শব্দগুলি অনেক পার হওয়া যানবাহন থেকে শোনা যায়"
+      },
+      {
+        "location": "অষ্টম অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং প্রকাশিত বাক্য প্রচলিত গ্রন্থনামে লিখুন; 18:2 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
+      },
+      {
+        "location": "অষ্টম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "the seed sown by the wayside",
+        "suggested_fix": "‘পথের ধারে বপন করা বীজ’ লিখুন; অনুবাদে বাক্যাংশটি বিকৃত হয়েছে।",
+        "translation_quote": "সেই পাখিরা যারা উপায়টি বেয়ে বীজ খেয়ে ফেলে যারাস্তা দিয়ে বপন করা হয়েছিল"
+      },
+      {
+        "location": "অষ্টম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "feeding on rotting carcasses",
+        "suggested_fix": "‘পচা মৃতদেহ খেয়ে’ লিখুন; ‘খুঁড়ে পড়া মরির’ অর্থবোধক নয়।",
+        "translation_quote": "খুঁড়ে পড়া মরির উপর ভক্ষণ করে"
+      },
+      {
+        "location": "নবম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "The cowbird is also black (the female is brown/gray).",
+        "suggested_fix": "“কাউবার্ডও কালো (স্ত্রী পাখিটি বাদামি/ধূসর)” লিখুন; বন্ধনীর অর্থটি সংশোধন করুন।",
+        "translation_quote": "কাউবর্ডও কালো (মহিলা ভরিতে বাদামী/ধূসর)।"
+      },
+      {
+        "location": "নবম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "This is certainly a fitting emblem for a good number of females in our day.",
+        "suggested_fix": "‘আমাদের সময়ের বহু নারীর উপযুক্ত প্রতীক’ অর্থে লিখুন; বর্তমান অনুবাদের বাক্যটি অর্থহীন।",
+        "translation_quote": "এটি নিশ্চিতভাবেই আমাদের যুগের বহু মহিলার একটি উপযুক্ত প্রতীক।"
+      },
+      {
+        "location": "নবম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Though justified by circumstances, these women care not for their own, but are products of neglect.",
+        "suggested_fix": "পরিস্থিতি তাদের আচরণকে ন্যায্যতা দিলেও তারা নিজেদের সন্তানদের যত্ন নেয় না এবং অবহেলার ফল—এই অর্থ অক্ষুণ্ণ রেখে লিখুন।",
+        "translation_quote": "পরিস্থতি দ্বারা ন্যায্যতা প্রাপ্ত হলেও, এই মহিলারা তাদের নিজের সম্পর্কে উদাসীন এবং উপেক্ষার ফল; তারা উপেক্ষিত।"
+      },
+      {
+        "location": "নবম অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং গীতসংহিতা প্রচলিত বাংলা গ্রন্থনামে লিখুন; 22:9 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9)."
+      },
+      {
+        "location": "নবম অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“had filled them with earth” (Gen 26:15).",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন এবং আদিপুস্তক প্রচলিত বাংলা গ্রন্থনামে লিখুন; 26:15 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“had filled them with earth” (Gen 26:15)."
+      },
+      {
+        "location": "নবম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "they pack their schedules so full of earthly commitments",
+        "suggested_fix": "‘পার্থিব ব্যস্ততায় তাদের সময়সূচি এতটাই ভরে ফেলে’ অর্থে লিখুন; ‘পশ্চিমে ধরে জলের মতো’ উৎসে নেই।",
+        "translation_quote": "তারা তাদের সূচি পশ্চিমে ধরে জলের মতো পৃথিবীজ বিষয় দিয়ে এতটা ভরিয়ে দেয়"
+      },
+      {
+        "location": "দশম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "“We hanged our harps upon the willows … How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).",
+        "suggested_fix": "উদ্ধৃত অংশটি বাংলায় অনুবাদ করুন এবং গীতসংহিতা প্রচলিত বাংলা গ্রন্থনামে লিখুন; 137:2-4 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
+      },
+      {
+        "location": "দশম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "God’s people had been instructed by Jeremiah to build houses, plant gardens, and raise families.",
+        "suggested_fix": "“যিরমিয়ের মাধ্যমে ঈশ্বর তাঁর লোকদের ঘর বানাতে, বাগান করতে ও পরিবার গড়তে নির্দেশ দিয়েছিলেন” লিখুন।",
+        "translation_quote": "যিরূশালেম আক্রান্ত হয়ে যারা বন্দি করে নিয়ে গিয়েছিল তাদেরকে ইরেমিয়াহ্ প্রভৃতির উপদেশ ছিল ঘর বানাও, বাগান রোপণ করো, ও পরিবার গড়ো।"
+      },
+      {
+        "location": "দশম অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
+        "suggested_fix": "উদ্ধৃত অংশটি বাংলায় অনুবাদ করুন এবং যিরমিয় প্রচলিত বাংলা গ্রন্থনামে লিখুন; 29:5-7 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
+      },
+      {
+        "location": "দশম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "their eyes fixed upon the dismal scene around them",
+        "suggested_fix": "‘চারপাশের বিষণ্ণ দৃশ্যের দিকে চোখ স্থির রেখে’ লিখুন; ‘চোখ গুঁজে দিলোময়’ অর্থবোধক নয়।",
+        "translation_quote": "তাদের চোখ গুঁজে দিলোময় পরিস্থিতির দিকে"
+      },
+      {
+        "location": "দশম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "in the days of Jehoshaphat",
+        "suggested_fix": "যিহোশাফট নামটি প্রচলিত বাংলা রূপে লিখুন।",
+        "translation_quote": "জেফোস্ফাতের দিনে"
+      },
+      {
+        "location": "দশম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "had been known to defeat armies",
+        "suggested_fix": "‘সেনাবাহিনীকে পরাজিত করতে পরিচিত ছিল’ অর্থে লিখুন; বর্তমান বাক্যে অর্থ অস্পষ্ট।",
+        "translation_quote": "এটি আরাম্ভ করেছিল সামরিক বাহিনীকে পরাজিত করার জন্য"
+      },
+      {
+        "location": "দশম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "two jailbirds, Paul and Silas",
+        "suggested_fix": "এখানে ‘জেলবন্দি পাখি’ নয়, ‘দুই বন্দি—পৌল ও সীল’ লিখুন; উৎসের শব্দখেলা বজায় রাখতে চাইলে স্বাভাবিক বাংলায় সীমিতভাবে তা ফুটিয়ে তুলুন।",
+        "translation_quote": "দুই বন্দি পাখি, পল ও সিলাস"
+      },
+      {
+        "location": "අন্তিম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "we enact the grace of God",
+        "suggested_fix": "‘আমরা ঈশ্বরের অনুগ্রহের কার্যকারিতা প্রকাশ করি’ অর্থে লিখুন; ‘অনুগৃহীত কর্মপ্রয়োগ’ স্বাভাবিক বাংলা নয়।",
+        "translation_quote": "আমরা ঈশ্বরের অনুগৃহীত কর্মপ্রয়োগ করি"
+      },
+      {
+        "location": "অন্তিম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Miriam, Deborah, and Hannah",
+        "suggested_fix": "মিরিয়ম, দবোরা ও হান্না নামগুলোর প্রচলিত বাংলা রূপ ব্যবহার করুন।",
+        "translation_quote": "মিরিয়াম, দিবরা, ও হান্না"
+      },
+      {
+        "location": "অন্তিম অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“giving glory to God in the highest.”",
+        "suggested_fix": "উদ্ধৃতিটি বাংলায় অনুবাদ করুন, যেমন: “ঊর্ধ্বলোকে ঈশ্বরের মহিমা হোক।”",
+        "translation_quote": "“giving glory to God in the highest.”"
+      },
+      {
+        "location": "অন্তিম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "innumerable hosts of our feathered friends",
+        "suggested_fix": "‘আমাদের অসংখ্য পালকওয়ালা বন্ধু’ লিখুন; ‘পালকঝুলি’ অর্থবিকৃত।",
+        "translation_quote": "আমাদের পালকঝুলির অসংখ্য বাহিনী"
+      },
+      {
+        "location": "অন্তিম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "God’s loving providence",
+        "suggested_fix": "‘ঈশ্বরের প্রেমময় বিধানের’ অর্থে লিখুন; ‘প্রয়োজনীয়তা’ providence-এর ভুল অর্থ।",
+        "translation_quote": "ঈশ্বরের প্রেমময় প্রয়োজনীয়তায়"
+      },
+      {
+        "location": "অন্তিম অনুচ্ছেদ",
+        "severity": "critical",
+        "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+        "suggested_fix": "উদ্ধৃত অংশটি বাংলায় অনুবাদ করুন এবং কলসীয় প্রচলিত বাংলা গ্রন্থনামে লিখুন; 3:16, 23 অপরিবর্তিত রাখুন।",
+        "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
+      },
+      {
+        "location": "উপশিরোনাম",
+        "severity": "major",
+        "source_quote": "and ‘round me rings the music of the spheres.",
+        "suggested_fix": "“আর আমার চারপাশে গোলকের সুর বেজে ওঠে” অর্থে স্বাভাবিক বাংলায় অনুবাদ করুন।",
+        "translation_quote": "এবং আমার চারপাশে বৃত্তাকার সঙ্গীত ঘুরছে।"
+      },
+      {
+        "location": "বিভাগ",
+        "severity": "minor",
+        "source_quote": "FEATURED ARTICLE",
+        "suggested_fix": "“বিশেষ নিবন্ধ” ব্যবহার করুন।",
+        "translation_quote": "প্রধান নিবন্ধ"
+      },
+      {
+        "location": "চতুর্থ অনুচ্ছেদের শেষাংশ",
+        "severity": "major",
+        "source_quote": "On 22 occasions",
+        "suggested_fix": "সংখ্যাটি 22-ই রাখা হয়েছে, তবে বাক্যে অর্থবোধক বাংলায় “২২ বার” লিখুন।",
+        "translation_quote": "22 স্থানে"
+      }
+    ],
+    "passed": false,
+    "score": 32
+  }
+}

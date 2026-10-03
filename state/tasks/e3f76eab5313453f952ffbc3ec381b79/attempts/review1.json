@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third paragraph\",\"severity\":\"minor\",\"source_quote\":\"“with caution, correction, and edification”\",\"suggested_fix\":\"Replace “সতর্কবাণী” with “সতর্কতা” in this phrase, for example: “সতর্কতা, সংশোধন ও আত্মিক গঠনমূলক শিক্ষা দিয়ে”\",\"translation_quote\":\"“সতর্কবাণী, সংশোধন ও আত্মিক গঠনমূলক শিক্ষা দিয়ে”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 566,
+    "content_evidence_truncated": false,
+    "content_sha256": "d06003ab0976dd1cbdd18e207b98004a2682fee9fb29bf2ab0ba90f1c83f0ed2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 484,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 360,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3510,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3997
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

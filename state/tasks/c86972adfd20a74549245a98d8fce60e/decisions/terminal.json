@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, primeiro parágrafo",
+      "severity": "minor",
+      "source_quote": "“the tantalizing cacophony of odors”",
+      "suggested_fix": "Substitua “o caleidoscópio tentador de cheiros” por “a tentadora cacofonia de odores” para preservar a imagem sensorial do original.",
+      "translation_quote": "“o caleidoscópio tentador de cheiros”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

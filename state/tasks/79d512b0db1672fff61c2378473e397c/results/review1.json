@@ -1,0 +1,100 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7dbae369-b509-41e8-b92b-02721f1100a6",
+    "response_id": "chatcmpl-EUxYNiEUpP2UFcDKQofnce0IHnNfT",
+    "usage": {
+      "completion_tokens": 2119,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 482,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9111,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9108,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11230
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, «Kynisme i Bibelen», paragraph beginning «I kapittel 2:17–23»",
+        "severity": "major",
+        "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
+        "suggested_fix": "Oversett hele sitatet til norsk bokmål, og bruk den norske bokformen «Forkynneren» i referansen. Behold versnumrene 2:22,23 uendret.",
+        "translation_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)"
+      },
+      {
+        "location": "HTML, «Kynisme i Bibelen», paragraph beginning «Han så verden»",
+        "severity": "major",
+        "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+        "suggested_fix": "Oversett sitatet til norsk bokmål, og bruk «Forkynneren 4:13» som referanse. Behold kapittel- og versnummeret uendret.",
+        "translation_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13)."
+      },
+      {
+        "location": "HTML, «Kynisme i Bibelen», paragraph beginning «I Predikeren 6:6»",
+        "severity": "major",
+        "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
+        "suggested_fix": "Oversett sitatet til norsk bokmål, og bruk den konvensjonelle norske bokformen «Forkynneren» i referansen.",
+        "translation_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”"
+      },
+      {
+        "location": "HTML, «Kynisme i Bibelen», avsnittet som begynner «Senere kan det nesten virke»",
+        "severity": "major",
+        "source_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).",
+        "suggested_fix": "Oversett sitatet til norsk bokmål, og bruk den norske bokformen «Jeremia» i referansen. Behold 7:27 uendret.",
+        "translation_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27)."
+      },
+      {
+        "location": "HTML, «Kynisme i Bibelen», avsnittet som begynner «Selve i Det nye testamente»",
+        "severity": "major",
+        "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+        "suggested_fix": "Oversett sitatet til norsk bokmål, og bruk den norske bokformen «2. Timoteus» i referansen. Behold 4:3 uendret.",
+        "translation_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3)."
+      },
+      {
+        "location": "HTML, «Motsatsen til kynisme», avsnittet som begynner «Det er interessant»",
+        "severity": "major",
+        "source_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5).",
+        "suggested_fix": "Oversett sitatet til norsk bokmål, og bruk den norske bokformen «Romerne» i referansen. Behold versrekken 5:3-5 uendret.",
+        "translation_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5)."
+      },
+      {
+        "location": "HTML, «Se etter håp på de rette stedene», paragraph beginning «Det var det han gjorde»",
+        "severity": "major",
+        "source_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
+        "suggested_fix": "Oversett sitatet til norsk bokmål, og bruk den norske bokformen «Matteus» i referansen. Behold 4:8 uendret.",
+        "translation_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8)."
+      },
+      {
+        "location": "HTML, «Små anstrengelser gjør en forskjell», paragraph beginning «Mer enn det lærer vi»",
+        "severity": "major",
+        "source_quote": "“the least of these my brethren”",
+        "suggested_fix": "Oversett det siterte uttrykket til norsk bokmål, for eksempel «en av disse mine minste brødre», slik at sitatet ikke står igjen på engelsk.",
+        "translation_quote": "“the least of these my brethren,”"
+      },
+      {
+        "location": "HTML, «Konklusjon», avsnittet som begynner «Sangen sier»",
+        "severity": "major",
+        "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+        "suggested_fix": "Oversett den siterte sanglinjen til norsk bokmål, samtidig som meningen og utropstonen bevares.",
+        "translation_quote": "“Oh to have no hope in Jesus, how dark this world must be!”"
+      },
+      {
+        "location": "HTML, sitatene i avsnittene med bibelhenvisninger",
+        "severity": "major",
+        "source_quote": "(Ecclesiastes 2:22,23); (Ecclesiastes 4:13); (Jeremiah 7:27); (2 Timothy 4:3); (Romans 5:3-5); (Matthew 4:8)",
+        "suggested_fix": "Bruk konvensjonelle norske boknavn i disse henvisningene, uten å endre kapittel- og versnumre eller antallet og plasseringen av henvisningene: «Forkynneren», «Jeremia», «2. Timoteus», «Romerne» og «Matteus».",
+        "translation_quote": "(Ecclesiastes 2:22,23); (Ecclesiastes 4:13); (Jeremiah 7:27); (2 Timothy 4:3); (Romans 5:3-5); (Matthew 4:8)"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

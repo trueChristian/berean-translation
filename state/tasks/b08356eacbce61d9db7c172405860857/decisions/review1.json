@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "Abschnitt „Gottes Plan für Mann und Frau“, Absatz zu Prediger 12:1",
+      "severity": "major",
+      "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
+      "suggested_fix": "Den ersten Satz des Zitats an die Aufforderung im Anschluss angleichen, z. B.: „Gedenke deines Schöpfers in den Tagen deiner Jugend, ehe die bösen Tage kommen und die Jahre nahen, von denen du sagen wirst: Ich habe keine Freude an ihnen.“",
+      "translation_quote": "„Gedenke jetzt deines Schöpfers in den Tagen deiner Jugend, solange die bösen Tage noch nicht kommen und die Jahre noch nicht nahen, von denen du sagen wirst: Ich habe keine Freude an ihnen.“ Mein Wunsch ist, dass jeder von euch in den Tagen seiner Jugend seines Schöpfers gedenkt."
+    },
+    {
+      "location": "Abschnitt 1, Absatz nach dem Genesis-Zitat",
+      "severity": "major",
+      "source_quote": "“Adam was a ‘one-woman man,’ and Eve was a ‘one-man woman.’ They never gave their heart passions to anybody else.”",
+      "suggested_fix": "Die Aussagen als Beschreibung ihrer Treue wiedergeben, z. B.: „Adam war ein Mann, der nur einer Frau zugetan war, und Eva eine Frau, die nur einem Mann zugetan war. Sie hatten die leidenschaftlichen Regungen ihres Herzens keinem anderen geschenkt.“",
+      "translation_quote": "Adam war ein „Mann für eine einzige Frau“, und Eva war eine „Frau für einen einzigen Mann“. Sie schenkten die leidenschaftlichen Gefühle ihres Herzens niemals jemand anderem."
+    },
+    {
+      "location": "Abschnitt 3, Absatz zum Zitat aus Markus 10:8-9",
+      "severity": "major",
+      "source_quote": "“Pulling apart is no blessing at all but brings agony, pain, travail, and hurt.”",
+      "suggested_fix": "Den Sinn der Aussage vollständig wiedergeben, z. B.: „Das Auseinanderreißen bringt überhaupt keinen Segen, sondern Qual, Schmerz, Mühsal und Verletzungen.“",
+      "translation_quote": "Das Auseinanderreißen bringt überhaupt keinen Segen, sondern Qual, Schmerz, Leid und Verletzungen."
+    },
+    {
+      "location": "Abschnitt 4, Absatz zum gleichen Joch",
+      "severity": "major",
+      "source_quote": "“God desires that we be joined together in one flesh, one heart, and one mind. He wants to see us joined in heart, mind, and flesh—the whole being, being one.”",
+      "suggested_fix": "Die erste Aussage um „ein Fleisch“ ergänzen und den letzten Satz ohne Bedeutungsverschiebung wiedergeben, z. B.: „Gott möchte, dass wir zu einem Fleisch, einem Herzen und einem Sinn verbunden sind. Er möchte uns mit Herz, Sinn und Fleisch verbunden sehen – dass unser ganzes Wesen eins ist.“",
+      "translation_quote": "Gott möchte, dass wir miteinander verbunden sind in einem Fleisch, einem Herzen und einem Sinn. Er möchte uns in Herz, Sinn und Fleisch verbunden sehen – mit unserem ganzen Wesen eins sein."
+    },
+    {
+      "location": "Abschnitt 7, Absatz über Epheser 5:22,24",
+      "severity": "major",
+      "source_quote": "“Young ladies, you can count on it: submission to Dad equals submission to a husband.”",
+      "suggested_fix": "Die Aussage als Gleichsetzung beibehalten, z. B.: „Ihr jungen Frauen, darauf könnt ihr zählen: Sich dem Vater unterzuordnen ist gleichbedeutend mit der Unterordnung unter einen Ehemann.“",
+      "translation_quote": "Ihr jungen Frauen, darauf könnt ihr euch verlassen: Sich dem Vater unterzuordnen entspricht dem Sichunterordnen unter einen Ehemann."
+    },
+    {
+      "location": "Abschnitt 8, erster Absatz",
+      "severity": "major",
+      "source_quote": "“She’s the one that gets worn out and tires sooner.”",
+      "suggested_fix": "Die Aussage über schnelleres Ermüden präzise wiedergeben, z. B.: „Sie ist diejenige, die erschöpft wird und schneller müde wird.“",
+      "translation_quote": "Sie ist diejenige, die sich aufreibt und schneller müde wird."
+    },
+    {
+      "location": "Abschnitt 9, Zitat aus Psalm 144:12",
+      "severity": "major",
+      "source_quote": "“That our sons may be as plants grown up in their youth”",
+      "suggested_fix": "Den Vergleich mit ausgewachsenen Pflanzen bewahren, z. B.: „Dass unsere Söhne in ihrer Jugend wie herangewachsene Pflanzen seien“",
+      "translation_quote": "„Dass unsere Söhne wie Pflanzen seien, die in ihrer Jugend herangewachsen sind“"
+    },
+    {
+      "location": "Abschnitt 10, Absatz über Mütter",
+      "severity": "major",
+      "source_quote": "“Mothers who do not follow the women’s lib of our day but are rather content to be keepers at home.”",
+      "suggested_fix": "„Frauenbefreiungsbewegung“ durch eine idiomatische Wiedergabe von „women’s lib“ ersetzen und „keepers at home“ als Rolle der häuslichen Betreuung ausdrücken, z. B.: „Mütter, die nicht der Frauenbefreiungsbewegung unserer Zeit folgen, sondern vielmehr zufrieden sind, sich um den Haushalt und das Zuhause zu kümmern.“",
+      "translation_quote": "Mütter, die nicht der Frauenbefreiungsbewegung unserer Zeit folgen, sondern vielmehr damit zufrieden sind, für ihr Zuhause zu sorgen."
+    },
+    {
+      "location": "Abschnitt 10, Absatz mit den Fragen an junge Frauen",
+      "severity": "major",
+      "source_quote": "“Are you willing to be a helpmeet, giving yourself for his burden and vision?”",
+      "suggested_fix": "Den Bezug auf seine Last und Vision erhalten, z. B.: „Seid ihr bereit, eine ihm entsprechende Hilfe zu sein und euch für seine Last und seine Vision hinzugeben?“",
+      "translation_quote": "Seid ihr bereit, eine entsprechende Hilfe zu sein und euch für sein Anliegen und seine Vision hinzugeben?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

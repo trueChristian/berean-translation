@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "feb39142-85bb-4579-939a-884badcb8059",
+    "response_id": "chatcmpl-EUxZ1phqLoa1AJRyrCo1N7IcNFNJK",
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 476,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3285,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3282,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4103
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Jamin se curvou”",
+        "severity": "major",
+        "source_quote": "Darkness stained the ground around Kenny.",
+        "suggested_fix": "Replace with a grammatical rendering that preserves the image, for example: “A escuridão cobria o chão ao redor de Kenny.”",
+        "translation_quote": "A escuridão manchas rodeava o chão ao redor de Kenny."
+      },
+      {
+        "location": "HTML, paragraph beginning “Havia um arrepio no ar”",
+        "severity": "minor",
+        "source_quote": "Eventually, the trail would end up in a meadow",
+        "suggested_fix": "Use “Por fim, a trilha terminaria em um prado” to convey the eventual endpoint rather than a possibility.",
+        "translation_quote": "Eventualmente, a trilha terminaria em um prado"
+      },
+      {
+        "location": "HTML, paragraph beginning “Jamin se curvou”",
+        "severity": "major",
+        "source_quote": "Kenny reeled free.",
+        "suggested_fix": "Use “Kenny cambaleou para fora da armadilha” or another rendering that conveys that he staggered free after Jamin opened the jaws.",
+        "translation_quote": "Kenny recuou livre."
+      },
+      {
+        "location": "HTML, paragraph beginning “Havia um arrepio no ar”",
+        "severity": "minor",
+        "source_quote": "the musky smell of the woods",
+        "suggested_fix": "Replace “musgoso” with a term for the woods’ musky, earthy smell, such as “almiscarado” or “terroso”, according to the intended nuance.",
+        "translation_quote": "o cheiro musgoso da mata"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

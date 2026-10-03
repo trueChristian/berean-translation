@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Then he was elected…”",
+      "severity": "major",
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+      "suggested_fix": "এই অংশে “তাঁর সম্পাদকের দায়িত্বের শেষ চার মাসের কাজ” বদলে “তাঁর সচিবীয় দায়িত্বের শেষ চার মাসের কাজ” লিখুন।",
+      "translation_quote": "“এরপর এক বিশ্বাসী ভাই বুলগেরিয়ায় কিছু সময় কাটাতে যাওয়ায়, তাঁর সম্পাদকের দায়িত্বের শেষ চার মাসের কাজ শেষ করার জন্য রিককে নির্বাচিত করা হলো।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

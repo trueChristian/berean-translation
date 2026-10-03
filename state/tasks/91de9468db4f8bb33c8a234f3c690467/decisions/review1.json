@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Artikel, paragraf tentang penerbitan himne dan asal judulnya; frasa judul karya dalam tanda kutip",
+      "severity": "major",
+      "source_quote": "“Faith’s Review and Expectation”",
+      "suggested_fix": "Ganti frasa tersebut dengan terjemahan judul yang mempertahankan maknanya, misalnya “Tinjauan dan Pengharapan Iman”.",
+      "translation_quote": "“Tinjauan dan Pengharapan Iman”"
+    },
+    {
+      "location": "Artikel, paragraf tentang penerbitan himne dan asal judulnya; rujukan Kitab Suci",
+      "severity": "major",
+      "source_quote": "1 Chronicles 17:16-17",
+      "suggested_fix": "Ubah nama kitab menjadi bentuk konvensional bahasa Indonesia dan pertahankan nomor serta rentangnya persis: “1 Tawarikh 17:16-17”.",
+      "translation_quote": "1 Tawarikh 17:16-17"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ac39aa40-e748-4e0b-93ad-03ff1535c7e0",
+    "response_id": "chatcmpl-EUxYfzGsA67tj0BkZZFpqrdoeqMTd",
+    "usage": {
+      "completion_tokens": 1198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12528,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13729
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Sezione «Il piano di Dio per maschio e femmina», citazione di Genesi 2:18-24",
+        "severity": "major",
+        "source_quote": "“And Adam said, This is now bone of my bones, and flesh of my flesh”",
+        "suggested_fix": "Sostituire «Questa volta ossea dalle mie ossa e carne dalla mia carne» con «Questa è ora osso delle mie ossa e carne della mia carne» (o una formulazione italiana idiomatica equivalente).",
+        "translation_quote": "«Questa volta ossea dalle mie ossa e carne dalla mia carne»"
+      },
+      {
+        "location": "Sezione «4) Non un giogo diseguale», citazione di 2 Corinzi 6:14-15",
+        "severity": "major",
+        "source_quote": "“Be ye not unequally yoked together with unbelievers”",
+        "suggested_fix": "Sostituire «infedeli» con «non credenti», ad esempio: «Non vi mettete con i non credenti sotto un giogo diseguale».",
+        "translation_quote": "«Non vi mettete con gli infedeli sotto un giogo non conforme»"
+      },
+      {
+        "location": "Sezione «8) Essere eredi insieme della grazia della vita», citazione di 1 Pietro 3:7",
+        "severity": "major",
+        "source_quote": "“that your prayers be not hindered”",
+        "suggested_fix": "Sostituire «affinché non siano vanificate le vostre preghiere» con «affinché le vostre preghiere non siano impedite» (o equivalente fedele).",
+        "translation_quote": "«affinché non siano vanificate le vostre preghiere»"
+      },
+      {
+        "location": "Sezione «9) Una casa benedetta e sicura», citazione del Salmo 144:12",
+        "severity": "major",
+        "source_quote": "“That our sons may be as plants grown up in their youth”",
+        "suggested_fix": "Rendere «grown up» con un’espressione come «cresciuti nella loro giovinezza», anziché «nate nella giovinezza».",
+        "translation_quote": "«I nostri figli cresceranno come piante nate nella giovinezza»"
+      },
+      {
+        "location": "Metadato section",
+        "severity": "major",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Tradurre il metadato in italiano, ad esempio «ISPIRAZIONI PER I GIOVANI».",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "Sezione «Introduzione», secondo paragrafo",
+        "severity": "minor",
+        "source_quote": "“a burning burden and vision in your heart”",
+        "suggested_fix": "Sostituire «un ardente fardello» con una formulazione idiomatica come «un forte peso nel cuore» o «una profonda sollecitudine», mantenendo l’idea di una motivazione sentita.",
+        "translation_quote": "«un ardente fardello e una visione»"
+      },
+      {
+        "location": "Sezione «Il piano di Dio per maschio e femmina», citazione e commento su Ecclesiaste 12:1",
+        "severity": "minor",
+        "source_quote": "“Turn your heart, your focus, and your life to pursue after your Creator”",
+        "suggested_fix": "Sostituire «il vostro foco» con «la vostra attenzione» o «il vostro focus».",
+        "translation_quote": "«Volgete il vostro cuore, il vostro foco e la vostra vita»"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

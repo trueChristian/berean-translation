@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "36245aa4-16c5-4a84-9363-3503694b782b",
+    "response_id": "chatcmpl-EUxZ2jHdq7ROiOneCeI87VWgnnOey",
+    "usage": {
+      "completion_tokens": 995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3090,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4088
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, third paragraph, Nelson Mandela quotation",
+        "severity": "major",
+        "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+        "suggested_fix": "Translate the quoted prose into German while preserving its meaning, for example: „Scheitern ist ein Lehrer, und am Ende deines Lebens: Was glaubst du, wirst du mehr bereuen – zu scheitern oder es nie versucht zu haben?“",
+        "translation_quote": "„Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?“"
+      },
+      {
+        "location": "HTML, third paragraph",
+        "severity": "minor",
+        "source_quote": "“Seasoned grandfathers who bring words of admonishment to the younger generation.”",
+        "suggested_fix": "Use the correct German gender and a natural phrasing, for example: „Erfahrene Großväter, die der jüngeren Generation mahnende Worte mitgeben.“",
+        "translation_quote": "„Erfahrene Großväter, die dem jüngeren Generation mahnende Worte bringen.“"
+      },
+      {
+        "location": "HTML, first paragraph",
+        "severity": "minor",
+        "source_quote": "“My young preschool mind had never seen so many delectable sweets in one place at one time.”",
+        "suggested_fix": "Keep the source's reference to the narrator's young mind rather than changing it to memory; for example: „Mein junges Vorschulkind-Gemüt hatte noch nie so viele köstliche Süßigkeiten auf einmal an einem Ort gesehen.“",
+        "translation_quote": "„Mein junges Vorschulkind-Gedächtnis hatte noch nie so viele köstliche Süßigkeiten an einem Ort zu einer Zeit gesehen.“"
+      },
+      {
+        "location": "HTML, third paragraph",
+        "severity": "minor",
+        "source_quote": "“Fathers who with a concerned eye watch the world pressing in on the Christian homes.”",
+        "suggested_fix": "Use a more idiomatic rendering for Christian households, for example: „Väter, die mit besorgtem Blick beobachten, wie die Welt auf die christlichen Familien eindringt.“",
+        "translation_quote": "„Väter, die mit besorgtem Blick die Welt beobachten, wie sie auf christliche Häuser drängt.“"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

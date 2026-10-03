@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “John Newton often composed a hymn…”",
+      "severity": "major",
+      "source_quote": "John Newton often composed a hymn to go with his Sunday evening services. In 1779, 280 of these were collected and combined with 68 hymns by Newton’s friend and parishioner, William Cowper, and published as the Olney Hymns.",
+      "suggested_fix": "Replace the opening sentence of this paragraph with: ג'ון ניוטון חיבר לעיתים קרובות מזמור שילווה את טקסי יום ראשון בערב שלו. Preserve the remaining translated sentences.",
+      "translation_quote": "ג'ון ניוטון חיבר לעיתים קרובות מזמור שילווה את תפילות ערב יום ראשון שלו."
+    },
+    {
+      "location": "HTML paragraph beginning “As minister in the church…”",
+      "severity": "major",
+      "source_quote": "He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
+      "suggested_fix": "Replace the introductory words הוא מצטט כך: with הוא כתב:.",
+      "translation_quote": "הוא מצטט כך: ״מיותר לומר שתפיסתם, מכירתם והובלתם של עבדים שחורים למטעים באיי הודו המערבית ובאמריקה היו דרך חיים אכזרית ומרושעת.״"
+    },
+    {
+      "location": "HTML paragraph beginning “The tune ‘Amazing Grace’…”",
+      "severity": "major",
+      "source_quote": "In 1910, Edwin O. Excell added the last verse, which eventually replaced the last three original verses of the song.",
+      "suggested_fix": "Correct the year to 1910 while retaining the source’s account of Edwin O. Excell adding the last verse.",
+      "translation_quote": "בשנת 1910 הוסיף אדווין או. אקסל את הבית האחרון, שבסופו של דבר החליף את שלושת הבתים האחרונים המקוריים של השיר."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

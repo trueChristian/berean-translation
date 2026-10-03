@@ -2,10 +2,61 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": "ded3e46e45f7b512df6dc7d732bbae84b24d5ea386ea784ddb5f18572a55ea1a",
   "base_metadata_sha256": "27dec0d168ca3465664e081e548c9114969cbe50909d34f0793fcb2d722ef54b",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 775,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 423,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1626,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1623,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2401
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, first stanza, final line",
+      "severity": "major",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Sostituisci con una resa italiana che conservi l’idea di «more is here», per esempio: «Rendete grazie e lodate, perché qui c’è ancora di più!»",
+      "translation_quote": "Rendete grazie e inni, per c'è di più qui!"
+    },
+    {
+      "location": "HTML, second stanza, second line",
+      "severity": "minor",
+      "source_quote": "Extol and praise His worthy name!",
+      "suggested_fix": "Sostituisci con «Esaltate e lodate il suo nome glorioso!»",
+      "translation_quote": "Esalta e loda il Suo nome degno!"
+    },
+    {
+      "location": "HTML, third stanza, third line",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Rendi il senso di reverente timore, per esempio: «Prostratevi in santo e reverente timore;»",
+      "translation_quote": "Inchinatevi in tremendo, santo timore-"
+    },
+    {
+      "location": "HTML, third stanza, fifth line",
+      "severity": "minor",
+      "source_quote": "In wondrous beauty bend the knee;",
+      "suggested_fix": "Riformula in modo che la meravigliosa bellezza descriva la scena, non il modo di piegare il ginocchio: «Nella meravigliosa bellezza, piegate il ginocchio;»",
+      "translation_quote": "Con mirabile bellezza piegate il ginocchio;"
+    }
+  ],
   "id": "ffcd731fd5c154672103895720232922",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -94,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7e4377db0d65abeff417aa9deee1a21496eb8249b5901b6b1a4f32f9b38cd090.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

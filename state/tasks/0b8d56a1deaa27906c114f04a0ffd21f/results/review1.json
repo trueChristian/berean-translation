@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dfae1ef7-0cd0-4206-a8c7-f2c497f0a8ed",
+    "response_id": "chatcmpl-EUxZJnX2txQYLETd2BjryNMx5ykqo",
+    "usage": {
+      "completion_tokens": 738,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 235,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2965,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2962,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3703
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph",
+        "severity": "major",
+        "source_quote": "The urgency of the last minute",
+        "suggested_fix": "Die dringendheid van die laaste minuut",
+        "translation_quote": "Die dringency van die laaste minuut"
+      },
+      {
+        "location": "Paragraph 2",
+        "severity": "major",
+        "source_quote": "stay calm and collected",
+        "suggested_fix": "kalm en bedaard te bly",
+        "translation_quote": "kalm en byhand te bly"
+      },
+      {
+        "location": "“Tandpyn en Paduitstappies” paragraph",
+        "severity": "major",
+        "source_quote": "the frustration of an unplanned trip to the dentist at an inopportune time is riveted in my mind",
+        "suggested_fix": "die frustrasie van ’n onbeplande tandartsbesoek op ’n ongeleë tyd is in my geheue ingeprent",
+        "translation_quote": "die frustrasie van ’n onbeplande tandartsbesoek op ’n ongeleentheidstyd is vasgespes in my gedagtes"
+      },
+      {
+        "location": "“Verander die laaste-minuut-scenario” paragraph",
+        "severity": "major",
+        "source_quote": "Deadlines and interruptions cannot be eliminated",
+        "suggested_fix": "Sperdatums en onderbrekings kan nie uitgeskakel word nie",
+        "translation_quote": "Sperdatums en onderbrekings kan nie uitgepluis word nie"
+      },
+      {
+        "location": "Example paragraph",
+        "severity": "major",
+        "source_quote": "a bee sting and a stubbed toe",
+        "suggested_fix": "’n bysteek en ’n toon wat gestamp is",
+        "translation_quote": "’n bye-steek en ’n verstapte toon"
+      },
+      {
+        "location": "“Doen sommige take vooruit” paragraph",
+        "severity": "major",
+        "source_quote": "packing the diaper bag in advance",
+        "suggested_fix": "die doeksak vooraf in te pak",
+        "translation_quote": "die doopsak vooraf in te pak"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "why be hassled by procrastination?",
+        "suggested_fix": "waarom jou deur uitstel laat pla?",
+        "translation_quote": "waarom laat uitstel jou terg?"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "A few minor changes can make the biggest difference",
+        "suggested_fix": "’n Paar klein veranderinge kan die grootste verskil maak",
+        "translation_quote": "’n Paar minder veranderinge kan die grootste verskil maak"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

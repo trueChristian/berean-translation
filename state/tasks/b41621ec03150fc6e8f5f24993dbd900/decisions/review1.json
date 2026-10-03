@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Avsnittet under «Tro at Gud bryr seg»",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
+      "suggested_fix": "Oversett sitatet til norsk bokmål, for eksempel: «Gråt kan vare natten over, men glede kommer om morgenen» (Salme 30:5).",
+      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+    },
+    {
+      "location": "Siste avsnitt",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Oversett sitatet til norsk bokmål, for eksempel: «Til deg, Herre, setter jeg min lit; la meg aldri bli til skamme» (Salme 71:1).",
+      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+    },
+    {
+      "location": "Avsnittet om traumatiske hendelser",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Bytt «våre nære kretser» med en formulering som bevarer betydningen av «plain circles», for eksempel «våre plain-menigheter», dersom det er den religiøse gruppen artikkelen sikter til.",
+      "translation_quote": "Traumatiske hendelser i våre nære kretser får ofte bønn, økonomisk støtte og ukentlige budsjettoppdateringer."
+    },
+    {
+      "location": "Første avsnitt",
+      "severity": "minor",
+      "source_quote": "if a child breaks a leg",
+      "suggested_fix": "Rett skrivefeilen «brukker» til «brekker».",
+      "translation_quote": "hvis et barn brukker beinet"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

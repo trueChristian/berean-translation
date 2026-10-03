@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph 3",
+      "severity": "major",
+      "source_quote": "But Kenny had a way of avoiding earshot. So he continued mocking Jamin.",
+      "suggested_fix": "استبدل الجملة الأخيرة بما يفيد أنه كان يتجنب أن يسمعه والداه، مثل: «لكن كيني كان يعرف كيف يبتعد عن مرمى سمعهما، ولذلك واصل السخرية من جامين.»",
+      "translation_quote": "لكن كيني كان يعرف كيف يتحدث بعيدًا عن مسامعهما. وهكذا واصل السخرية من جامين."
+    },
+    {
+      "location": "source.html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "his golden head caught the tired beams that fled from the sun",
+      "suggested_fix": "عدّل العبارة لتُبقي الصورة على أن أشعة الشمس الواهنة تنعكس على شعره الذهبي، مثل: «التقط شعره الذهبي أشعة الشمس الواهنة التي كانت تنسحب من الشمس...»",
+      "translation_quote": "التقط شعره الذهبي أشعة الشمس الواهنة المنسحبة"
+    },
+    {
+      "location": "source.html, paragraph 9",
+      "severity": "major",
+      "source_quote": "The heap’s face was lit in pain. The heap was Kenny.",
+      "suggested_fix": "اجعل الوصف مؤنثًا متسقًا مع «كومة»، أو أعد صياغته بما يوضح أن المقصود هو كيني، مثل: «وكان وجه الكومة مضاءً بالألم. وكانت الكومة هي كيني.»",
+      "translation_quote": "وكان وجهها ينطق بالألم. كانت تلك الكومة كيني."
+    },
+    {
+      "location": "source.html, paragraph 11",
+      "severity": "major",
+      "source_quote": "Jamin bent and found an ankle firmly held in the jaws of a steel trap.",
+      "suggested_fix": "وضّح أن الكاحل هو كاحل كيني، مثل: «انحنى جامين فوجد كاحل كيني عالقًا بإحكام بين فكي مصيدة فولاذية.»",
+      "translation_quote": "انحنى جامين فوجد كاحلًا عالقًا بإحكام بين فكي مصيدة فولاذية."
+    },
+    {
+      "location": "source.html, paragraph 18",
+      "severity": "minor",
+      "source_quote": "Lots of young boys wouldn’t be.",
+      "suggested_fix": "اجعل مرجع العبارة صريحًا: «كثير من الصبية الصغار لن يتحلوا بمثل هذه الشجاعة.»",
+      "translation_quote": "كثير من الصبية الصغار لا يملكون تلك الشجاعة."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f9c1ee27-4152-4eec-acd8-113ff87f2783",
+    "response_id": "chatcmpl-EUxbRDkJ5Rf8G1FmKii0SudJHveuI",
+    "usage": {
+      "completion_tokens": 1110,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6703,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7816
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Пение — природа птиц»",
+        "severity": "major",
+        "source_quote": "“the song sparrow and again by the rose-breasted grosbeak”",
+        "suggested_fix": "Заменить «певчий воробей, а затем рябок с розовой грудью» на «певчий воробей, а затем розовогрудый дубонос».",
+        "translation_quote": "«певчий воробей, а затем рябок с розовой грудью»"
+      },
+      {
+        "location": "HTML, абзац «Пренебрежение», предложение о cowbird",
+        "severity": "major",
+        "source_quote": "“The cowbird is also black (the female is brown/gray).”",
+        "suggested_fix": "Заменить «Птица cowbird (cowbird) тоже тёмная (самка — коричнево‑серая)» на «Буроголовый коровий трупиал тоже тёмный (самка — коричнево-серая)».",
+        "translation_quote": "«Птица cowbird (cowbird) тоже тёмная (самка — коричнево‑серая).»"
+      },
+      {
+        "location": "HTML, абзац «Пренебрежение», предложение о призыве птицы",
+        "severity": "major",
+        "source_quote": "“shamelessly calling to her lovers by her shrill screeching”",
+        "suggested_fix": "Заменить «бесстыдно взывающую к своим поклонникам резким криком» на «бесстыдно призывающую резким криком своих ухажёров».",
+        "translation_quote": "«бесстыдно взывающую к своим поклонникам резким криком»"
+      },
+      {
+        "location": "HTML, абзац «Неблагодарность», цитата из Пс. 137:2–4",
+        "severity": "major",
+        "source_quote": "“Babylon the great is fallen, is fallen”",
+        "suggested_fix": "Исправить начало цитаты, передав повтор и смысл падения: «Пал, пал Вавилон великий».",
+        "translation_quote": "«Пал падший, пал великий Вавилон»"
+      },
+      {
+        "location": "HTML, заключительный абзац, предложение о птицах",
+        "severity": "minor",
+        "source_quote": "“thankful for God’s loving providence”",
+        "suggested_fix": "Заменить неестественное «благодарных за любящее промысел Божье» на «благодарных за любящее Божье провидение».",
+        "translation_quote": "«благодарных за любящее промысел Божье»"
+      }
+    ],
+    "passed": false,
+    "score": 79
+  }
+}

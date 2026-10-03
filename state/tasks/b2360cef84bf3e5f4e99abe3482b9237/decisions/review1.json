@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html، الفقرة الأولى؛ اقتباس 1 كورنثوس",
+      "severity": "major",
+      "source_quote": "Paul pleaded with the Corinthian church, “Doth not nature itself teach you?”",
+      "suggested_fix": "استبدل الاقتباس بـ «أليست الطبيعة نفسها تعلّمكم؟»، بما يطابق معنى الاقتباس المطبوع.",
+      "translation_quote": "وقد ناشد بولس كنيسة كورنثوس قائلًا: «أليست الطبيعة نفسها تعلّمكم؟»"
+    },
+    {
+      "location": "source.html، فقرة «الإهمال»؛ وصف سبب اصطحاب الأطفال",
+      "severity": "major",
+      "source_quote": "they have escorted them to the nest of another while her mind is preoccupied with work and business.",
+      "suggested_fix": "استبدل «لأنهن قد اصطحبنهم إلى عش غيرهن، بينما تنشغل أذهانهن بالعمل والأعمال التجارية» بـ «لأنهن قد أرسلنهم إلى عش غيرهن، فيما تنشغل أذهانهن بالعمل والشؤون التجارية».",
+      "translation_quote": "لأنهن قد اصطحبنهم إلى عش غيرهن، بينما تنشغل أذهانهن بالعمل والأعمال التجارية."
+    },
+    {
+      "location": "source.html، فقرة «الجحود»؛ وصف غناء إسرائيل",
+      "severity": "major",
+      "source_quote": "Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.",
+      "suggested_fix": "استبدل «فقد انطلق غناؤهم عند عبور البحر الأحمر في أيام يهوشافاط، وكان معروفًا عنه أنه يهزم الجيوش» بـ «فقد انطلق غناؤهم عند عبور البحر الأحمر، وفي أيام يهوشافاط عُرف غناؤهم بهزيمة الجيوش».",
+      "translation_quote": "فقد انطلق غناؤهم عند عبور البحر الأحمر في أيام يهوشافاط، وكان معروفًا عنه أنه يهزم الجيوش."
+    },
+    {
+      "location": "source.html، فقرة «الإهمال»؛ الإشارة الكتابية في الاقتباس من المزامير",
+      "severity": "major",
+      "source_quote": "(Ps 22:9)",
+      "suggested_fix": "غيّر رقم الإصحاح في المرجع إلى «(المزامير 22:9)»، مع إبقاء رقم العدد كما هو.",
+      "translation_quote": "(المزامير 22:9)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

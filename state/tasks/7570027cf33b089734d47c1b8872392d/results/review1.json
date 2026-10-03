@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0a5b15a1-deb7-4f1c-96c0-558853e8de49",
+    "response_id": "chatcmpl-EUxYWODxUMrHflSDlW5TvOmZMv14w",
+    "usage": {
+      "completion_tokens": 980,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 415,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1686,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1683,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2666
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "نظم، پہلا بند، تیسری اور چوتھی سطریں",
+        "severity": "major",
+        "source_quote": "The Dayspring shineth from on high, / The grace of God to man is nigh!",
+        "suggested_fix": "اوپر سے صبح کا نور چمک رہا ہے، / خدا کا فضل انسانوں کے قریب ہے!",
+        "translation_quote": "اوپر سے دن کا تجلی نمودار ہے، / خدا کی رحمتِ انسانوں پر نزدیک ہے!"
+      },
+      {
+        "location": "نظم، پہلا بند، آخری سطر",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "شکر کرو اور حمد کرو، کیونکہ یہاں اور بھی بہت کچھ ہے!",
+        "translation_quote": "شکر کرو اور ثنا پڑھو، کیونکہ مزید کچھ یہاں ہے!"
+      },
+      {
+        "location": "نظم، دوسرا بند، دوسری اور آخری سطریں",
+        "severity": "major",
+        "source_quote": "Extol and praise His worthy name! / Adore and praise our mighty Lord!",
+        "suggested_fix": "اس کے لائقِ ستائش نام کی حمد و ثنا کرو! / ہمارے قادرِ مطلق خداوند کی عبادت اور ستائش کرو!",
+        "translation_quote": "اس کے باوقار نام کی حمد کرو! / ہمارے زبردست خدا کی عبادت اور ستائش کرو!"
+      },
+      {
+        "location": "نظم، تیسرا بند، پہلی سطر",
+        "severity": "major",
+        "source_quote": "Give thanks and sing to Christ our King",
+        "suggested_fix": "مسیح ہمارے بادشاہ کے شکر میں گاؤ",
+        "translation_quote": "مسیح ہمارا بادشاہ ہے، اس کا شکر اور نعت گاؤ"
+      },
+      {
+        "location": "نظم، تیسرا بند، چوتھی اور پانچویں سطریں",
+        "severity": "major",
+        "source_quote": "The Holiness of God is here; / In wondrous beauty bend the knee;",
+        "suggested_fix": "خدا کی پاکیزگی یہاں موجود ہے؛ / حیرت انگیز حسن کے حضور گھٹنے ٹیکو؛",
+        "translation_quote": "خدا کی تقدّس یہاں موجود ہے؛ / عجیب حسن میں گھڑے گھٹنے جھکو؛"
+      },
+      {
+        "location": "نظم، تیسرا بند، آخری سطر",
+        "severity": "major",
+        "source_quote": "Adore th’ almighty King of Kings!",
+        "suggested_fix": "بادشاہوں کے بادشاہ، قادرِ مطلق کی عبادت کرو!",
+        "translation_quote": "بادشاہِ بادشاہوں کے عظیم بادشاہ کی عبادت کرو!"
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «في رسالة رومية نقرأ»",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ... who have pleasure in them that do them” (Romans 1:18-32).",
+      "suggested_fix": "Translate the entire quoted passage into Arabic, preserving its meaning and wording as printed, and retain the reference in the same position using the conventional Arabic book name and the exact chapter and verse range: (رومية 1:18-32).",
+      "translation_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ... who have pleasure in them that do them” (Romans 1:18-32)."
+    },
+    {
+      "location": "HTML, paragraph beginning «المسيحي لا يؤمن بالعقل البشري»",
+      "severity": "major",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "Translate the quoted Scripture into Arabic and retain the reference in the same position, using the conventional Arabic book name and exact chapter and verse: (كولوسي 1:16).",
+      "translation_quote": "«For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him» (Colossians 1:16)."
+    },
+    {
+      "location": "HTML, paragraph beginning «يؤمن المسيحيون أنهم مجرد خدام لسيدهم»",
+      "severity": "major",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Translate the quoted Scripture into Arabic and retain its reference and placement, using the conventional Arabic book name and exact chapter and verse: (يوحنا 15:18).",
+      "translation_quote": "«If the world hate you, ye know that it hated me before it hated you. (John 15:18)»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

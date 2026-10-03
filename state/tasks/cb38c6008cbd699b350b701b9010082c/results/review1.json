@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3e39a9b1-c4cc-4a6a-80dc-0b6fd23c11fb",
+    "response_id": "chatcmpl-EUxbRpOx70MfQ0PIw9haSjd0bRsAh",
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 410,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1626,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1623,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2292
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first stanza, third line",
+        "severity": "major",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "Die Dagbreeklig skyn van omhoog,",
+        "translation_quote": "Die Oggendster skyn van bo af,"
+      },
+      {
+        "location": "Poem, second stanza, second line",
+        "severity": "major",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Verhef en prys sy waardige naam!",
+        "translation_quote": "Verheug en prys sy waardige naam!"
+      },
+      {
+        "location": "Poem, third stanza, second line",
+        "severity": "major",
+        "source_quote": "And worship Him with reverent praise;",
+        "suggested_fix": "En aanbid Hom met eerbiedige lof;",
+        "translation_quote": "En diens Hom met eerbiedige lof;"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

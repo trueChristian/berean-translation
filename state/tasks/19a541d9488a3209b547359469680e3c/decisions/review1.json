@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Romans quotation",
+      "severity": "critical",
+      "source_quote": "“For the wrath of God is revealed from heaven ... have pleasure in them that do them” (Romans 1:18-32).",
+      "suggested_fix": "Translate the entire quoted passage into Hindi, faithfully preserving its meaning, and render the reference as “(रोमियों 1:18-32)”. Keep the existing <p> structure.",
+      "translation_quote": "“For the wrath of God is revealed from heaven ... have pleasure in them that do them” (Romans 1:18-32)."
+    },
+    {
+      "location": "Colossians quotation",
+      "severity": "major",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "Translate the full quotation into Hindi, preserving its meaning, and render the reference as “(कुलुस्सियों 1:16)”. Keep the existing <p> structure.",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+    },
+    {
+      "location": "John quotation",
+      "severity": "major",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Translate the quotation into Hindi, faithfully preserving its meaning, and use the conventional Hindi reference form “(यूहन्ना 15:18)”. Keep it within the existing <p> structure.",
+      "translation_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”"
+    },
+    {
+      "location": "Paragraph beginning “The second type of humanistic belief”",
+      "severity": "major",
+      "source_quote": "“a secularized continuation of Western Christian theology”",
+      "suggested_fix": "Replace “पश्चिमी ईसाई विद्वता का धर्मनिरपेक्ष रूप से जारी रखा गया स्वरूप” with “पश्चिमी ईसाई धर्मशास्त्र की धर्मनिरपेक्ष रूप में जारी रहने वाली परंपरा” (or an equally faithful Hindi rendering).",
+      "translation_quote": "“पश्चिमी ईसाई विद्वता का धर्मनिरपेक्ष रूप से जारी रखा गया स्वरूप”"
+    },
+    {
+      "location": "Paragraph beginning “It can be extremely difficult to seek the Lord”",
+      "severity": "major",
+      "source_quote": "“A society that has perfected the pursuit of liberty and happiness.”",
+      "suggested_fix": "Replace “एक ऐसा समाज जिसने स्वतंत्रता और खुशी के पालन‑पोषण को सिद्ध कर लिया है” with a rendering that conveys the pursuit being perfected, such as “एक ऐसा समाज जिसने स्वतंत्रता और खुशी की खोज को चरम पर पहुँचा दिया है।”",
+      "translation_quote": "“एक ऐसा समाज जिसने स्वतंत्रता और खुशी के पालन‑पोषण को सिद्ध कर लिया है”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

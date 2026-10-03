@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2518b3b6-532e-420b-a927-df476830bf27",
+    "response_id": "chatcmpl-EUxYcz55rD01kt01SV5Wm6imE3dNy",
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 672,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1620,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1617,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2403
+    }
+  },
+  "received_at": "2026-10-03T18:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, third stanza, line 5",
+        "severity": "minor",
+        "source_quote": "In wondrous beauty bend the knee;",
+        "suggested_fix": "Replace the line with «في جمالٍ مهيبٍ اثنوا ركبكم؛» to express the source meaning idiomatically in Arabic.",
+        "translation_quote": "في جمالٍ مدهش انحنوا الركبة؛"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

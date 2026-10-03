@@ -1,0 +1,147 @@
+{
+  "findings": [
+    {
+      "location": "مقدمہ، پہلے پیراگراف",
+      "severity": "major",
+      "source_quote": "“Doth not nature itself teach you?”",
+      "suggested_fix": "اقتباس کو اردو میں ترجمہ کریں، مثلاً: “کیا خود فطرت تمہیں تعلیم نہیں دیتی؟”",
+      "translation_quote": "“Doth not nature itself teach you?”"
+    },
+    {
+      "location": "مقدمہ، پہلے پیراگراف",
+      "severity": "major",
+      "source_quote": "“a bit of heaven on earth”",
+      "suggested_fix": "«زمین پر جنت کا ایک ٹکڑا» یا اسی مفہوم کا فطری اردو محاورہ لکھیں۔",
+      "translation_quote": "“زمین پر ایک طرح کا جنتی منظر”"
+    },
+    {
+      "location": "دوسرا پیراگراف، ایوب 6:5 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+      "suggested_fix": "اقتباس اردو میں ترجمہ کریں اور حوالہ اردو کتاب کے نام کے ساتھ اسی باب اور آیت پر رکھیں: “کیا جنگلی گدھا گھاس ہونے پر رینکتا ہے؟ یا بیل اپنے چارے پر آواز نکالتا ہے؟” (ایوب 6:5)",
+      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+    },
+    {
+      "location": "تیسرا پیراگراف، لَرک کی مثال",
+      "severity": "major",
+      "source_quote": "“happy as a lark”",
+      "suggested_fix": "محاورے کا مفہوم اردو میں ادا کریں، مثلاً «بہت خوش»، اور lark کے لیے اردو میں مناسب نام یا وضاحتی ترجمہ استعمال کریں۔",
+      "translation_quote": "“خوش جیسے لکڑیا”"
+    },
+    {
+      "location": "تیسرا پیراگراف، یعقوب کے کنویں کے قریب گھونسلے کی مثال",
+      "severity": "major",
+      "source_quote": "“Wander near the nest of a swallow and you will find that they have ways of expressing depreciation as well.”",
+      "suggested_fix": "متن کو اصل معنی کے مطابق درست کریں: «ابابیل کے گھونسلے کے قریب جائیں تو آپ دیکھیں گے کہ وہ ناپسندیدگی ظاہر کرنے کے طریقے بھی رکھتے ہیں۔»",
+      "translation_quote": "“کسی لسبھ کے گھونسلے کے قریب گھومیں تو آپ پائیں گے کہ وہ ناقدانہ اظہار کے طریقے بھی رکھتے ہیں۔”"
+    },
+    {
+      "location": "آسمان اور گیت پر پیراگراف",
+      "severity": "major",
+      "source_quote": "“On 22 occasions, the Scriptures reiterate the phrase, I will sing.”",
+      "suggested_fix": "تعداد اور مفہوم برقرار رکھتے ہوئے اردو میں لکھیں: «صحیفوں میں 22 مواقع پر “میں گاؤں گا/گی” کا فقرہ دہرایا گیا ہے۔»",
+      "translation_quote": "“تقریباً 22 مواقع پر صحیفہ جات اس فقرے کی تکرار کرتے ہیں: 'I will sing.'”"
+    },
+    {
+      "location": "چھٹا پیراگراف، افسیوں 5:19 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19).",
+      "suggested_fix": "اقتباس اردو میں ترجمہ کریں اور حوالہ اردو میں برقرار رکھیں، مثلاً: “آپس میں زبور، حمد اور روحانی گیتوں کے ذریعے کلام کرو، اور اپنے دل میں خداوند کے لیے گاتے اور نغمہ بجاتے رہو” (افسیوں 5:19)۔",
+      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19)."
+    },
+    {
+      "location": "چھٹا پیراگراف، مسیح کی آمد",
+      "severity": "major",
+      "source_quote": "“The advent of Christ was marked by the angelic host announcing peace and goodwill toward men.”",
+      "suggested_fix": "«مسیح کی آمد کے موقع پر فرشتوں کے لشکر نے زمین پر امن اور انسانوں کے لیے خیرسگالی کا اعلان کیا۔»",
+      "translation_quote": "“مسیح کا ظہور فرشتوں کی فوج کے امن اور انسانوں کے لیے خیرسگالی کا اعلان کرنے سے نشان زد تھا۔”"
+    },
+    {
+      "location": "چھٹا پیراگراف، سامری عورت کا جواب",
+      "severity": "major",
+      "source_quote": "“Jews have no dealings with the Samaritans.”",
+      "suggested_fix": "اقتباس اردو میں ترجمہ کریں: «یہودی سامریوں سے میل جول نہیں رکھتے۔»",
+      "translation_quote": "“Jews have no dealings with the Samaritans.”"
+    },
+    {
+      "location": "چھٹا پیراگراف، یوحنا 4:14 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "اقتباس اردو میں ترجمہ کریں اور حوالہ اردو میں رکھیں: “لیکن جو پانی میں اسے دوں گا، وہ اس کے اندر پانی کا ایسا چشمہ بنے گا جو ہمیشہ کی زندگی تک جاری رہے گا” (یوحنا 4:14)۔",
+      "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
+    },
+    {
+      "location": "ساتواں پیراگراف، یسعیاہ 65:14 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
+      "suggested_fix": "اقتباس اردو میں ترجمہ کریں اور حوالہ اردو میں رکھیں: “دیکھو، میرے خادم دل کی خوشی سے گائیں گے” (یسعیاہ 65:14)۔",
+      "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
+    },
+    {
+      "location": "آٹھواں پیراگراف، مکاشفہ 18:2 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+      "suggested_fix": "پورا اقتباس اردو میں ترجمہ کریں، مثلاً: “بابلِ عظیم گر پڑا، گر پڑا، اور شیاطین کا مسکن، ہر ناپاک روح کا ٹھکانا، اور ہر ناپاک اور نفرت انگیز پرندے کا پنجرہ بن گیا” (مکاشفہ 18:2)۔",
+      "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
+    },
+    {
+      "location": "آٹھواں پیراگراف، کوا اور مردار",
+      "severity": "major",
+      "source_quote": "“The crows show themselves also at the roadside, feeding on rotting carcasses.”",
+      "suggested_fix": "«کوے بھی سڑک کنارے دکھائی دیتے ہیں اور سڑتی ہوئی لاشوں پر کھاتے ہیں۔»",
+      "translation_quote": "“کواڑ راستے کنارے بھی خود کو ظاہر کرتے ہیں، سڑے ہوئے لاشوں پر کھاتے ہیں۔”"
+    },
+    {
+      "location": "نویں پیراگراف، زبور 22:9 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
+      "suggested_fix": "اقتباس اردو میں ترجمہ کریں اور حوالہ اردو میں رکھیں: “لیکن تو ہی ہے جس نے مجھے رحم سے نکالا؛ جب میں اپنی ماں کی چھاتیوں پر تھا تو تو نے مجھے امید دلائی” (زبور 22:9)۔",
+      "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9)."
+    },
+    {
+      "location": "نویں پیراگراف، پیدائش 26:15 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“had filled them with earth” (Gen 26:15).",
+      "suggested_fix": "اقتباس کو اردو میں منتقل کریں اور حوالہ اردو میں رکھیں: «“انہیں مٹی سے بھر دیا تھا” (پیدائش 26:15)»۔",
+      "translation_quote": "“انہیں مٹی سے بھر دیا تھا” (Gen 26:15)."
+    },
+    {
+      "location": "دسواں پیراگراف، شکرگزاری اور یرمیاہ کی ہدایت",
+      "severity": "major",
+      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).",
+      "suggested_fix": "پورا اقتباس اردو میں ترجمہ کریں؛ زبور کا حوالہ اور آیات 2-4 برقرار رکھیں۔",
+      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
+    },
+    {
+      "location": "دسواں پیراگراف، یرمیاہ 29:5-7 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
+      "suggested_fix": "اقتباس اردو میں ترجمہ کریں اور حوالہ اردو میں اسی آیات کے ساتھ رکھیں: «… اور اُس شہر کی سلامتی کے طالب ہو جہاں میں نے تمہیں اسیر کر کے بھیجا ہے، اور اُس کے لیے خداوند سے دعا کرو، کیونکہ اُس کی سلامتی میں تمہاری سلامتی ہے» (یرمیاہ 29:5-7)۔",
+      "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
+    },
+    {
+      "location": "آخری پیراگراف، فرشتوں کی حمد",
+      "severity": "major",
+      "source_quote": "“giving glory to God in the highest.”",
+      "suggested_fix": "اقتباس کو اردو میں ترجمہ کریں، مثلاً: “آسمان پر خدا کی تمجید کرتے ہوئے”۔",
+      "translation_quote": "“giving glory to God in the highest”"
+    },
+    {
+      "location": "آخری پیراگراف، کلسیوں 3:16، 23 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "پورا اقتباس اردو میں ترجمہ کریں اور حوالہ اردو کتاب کے ناموں کے ساتھ انہی آیات پر رکھیں: «مسیح کا کلام پوری حکمت کے ساتھ تم میں کثرت سے بسے؛ زبور، حمد اور روحانی گیتوں کے ذریعے ایک دوسرے کو تعلیم دو اور نصیحت کرو، اور اپنے دلوں میں فضل کے ساتھ خداوند کے لیے گاؤ … اور جو کچھ بھی کرو، دل سے خداوند کے لیے کرو، انسانوں کے لیے نہیں» (کلسیوں 3:16، 23)۔",
+      "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
+    },
+    {
+      "location": "عنوان",
+      "severity": "minor",
+      "source_quote": "“ALL NATURE SINGS”",
+      "suggested_fix": "اردو عنوان میں گانے/گیت کے مفہوم کو صریح رکھیں، مثلاً «ساری فطرت گاتی ہے»۔",
+      "translation_quote": "“تمام فطرت گاتی ہے”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

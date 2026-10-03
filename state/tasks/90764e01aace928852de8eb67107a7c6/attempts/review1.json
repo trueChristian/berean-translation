@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة التي تبدأ «عندما كان جون في السابعة عشرة»\",\"severity\":\"major\",\"source_quote\":\"John had been invited to stay four days, but he stayed two weeks and missed the ship to Jamaica.\",\"suggested_fix\":\"استبدل «وقد دُعي جون للإقامة أربعة أيام» بـ«كان جون قد دُعي للإقامة أربعة أيام»؛ فالمصدر يقول إنه دُعي للإقامة أربعة أيام، لا إن الدعوة كانت لمدة أربعة أيام.\",\"translation_quote\":\"وقد دُعي جون للإقامة أربعة أيام، لكنه بقي أسبوعين وفاته موعد السفينة المتجهة إلى جامايكا.\"},{\"location\":\"الفقرة التي تبدأ «على متن السفينة، التقط نيوتن نسخة»\",\"severity\":\"major\",\"source_quote\":\"The storm awakened Newton, the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.\",\"suggested_fix\":\"عدّل العبارة لتقول إن العاصفة أيقظت نيوتن، وإن الأمواج حطّمت أخشاب السفينة المتعفنة، وإن مياه الفيضان أخذت تندفع إلى حجرته؛ مثلًا: «أيقظت العاصفة نيوتن، بعدما حطمت الأمواج أخشاب السفينة المتعفنة وأخذت مياه الفيضان تندفع إلى حجرته»\",\"translation_quote\":\"أيقظت العاصفة نيوتن، وكانت الأمواج قد حطمت أخشاب السفينة المتعفنة، ومياه الفيضان تندفع ملتفة إلى حجرته.\"},{\"location\":\"الفقرة التي تبدأ «سعى جون إلى «إضفاء طابع مسيحي»»\",\"severity\":\"major\",\"source_quote\":\"He made three more voyages to bring slaves from Africa to North America.\",\"suggested_fix\":\"استبدل «وقام بثلاث رحلات أخرى لجلب العبيد» بـ«وقام بثلاث رحلات أخرى لنقل العبيد من أفريقيا إلى أمريكا الشمالية»؛ فالمصدر يحدد وجهة الرحلات.\",\"translation_quote\":\"وقام بثلاث رحلات أخرى لجلب العبيد من أفريقيا إلى أمريكا الشمالية.\"},{\"location\":\"الفقرة التي تبدأ «كثيرًا ما ألّف جون نيوتن ترنيمة»\",\"severity\":\"major\",\"source_quote\":\"“Faith’s Review and Expectation”\",\"suggested_fix\":\"استبدل عنوان الترنيمة بـ«مراجعة الإيمان وتطلعه» أو صياغة عربية تنقل معنى العنوان، من دون إضافة معنى «الماضي» غير الوارد في المصدر.\",\"translation_quote\":\"«تأمل الإيمان في الماضي وتطلعه إلى المستقبل»\"},{\"location\":\"الفقرة التي تبدأ «كثيرًا ما ألّف جون نيوتن ترنيمة»\",\"severity\":\"major\",\"source_quote\":\"David’s exclamation in 1 Chronicles 17:16-17.\",\"suggested_fix\":\"استبدل «تعجّب داود» بـ«ابتهال داود» أو «هتاف داود» بما ينقل معنى exclamation في السياق.\",\"translation_quote\":\"تعجّب داود في أخبار الأيام الأول 17:16-17.\"},{\"location\":\"الفقرة التي تبدأ «بصفته خادمًا في الكنيسة»\",\"severity\":\"major\",\"source_quote\":\"In 1788, 34 years after he left the slave trade, He wrote a book entitled Thoughts Upon the African Slave Trade and sent it to all the members of parliament.\",\"suggested_fix\":\"استبدل «بعد 34 عامًا من تركه تجارة العبيد» بـ«بعد 34 عامًا من خروجه من تجارة العبيد»؛ فصياغة الترجمة قد تُفهم على أنها تعني أنه تركها قبل 34 عامًا من عام 1788، بينما المصدر يذكر مرور 34 عامًا منذ تركها.\",\"translation_quote\":\"وفي عام 1788، بعد 34 عامًا من تركه تجارة العبيد، كتب كتابًا بعنوان أفكار حول تجارة العبيد الأفريقية وأرسله إلى جميع أعضاء البرلمان.\"},{\"location\":\"الفقرة التي تبدأ «بصفته خادمًا في الكنيسة»\",\"severity\":\"major\",\"source_quote\":\"He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”\",\"suggested_fix\":\"استبدل «أسر العبيد السود» بـ«أسر السود المستعبَدين» أو صياغة عربية مكافئة، لتحافظ على وصفهم بأنهم مستعبَدون لا مجرد عبيد في الأسر.\",\"translation_quote\":\"«لا حاجة إلى القول إن أسر العبيد السود وبيعهم ونقلهم إلى المزارع في جزر الهند الغربية وأمريكا كان أسلوب حياة قاسيًا وشريرًا»\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 5053,
+    "content_evidence_truncated": false,
+    "content_sha256": "a2543989b1bb071f589cb4ccdf0ca2f0652cfd6b42425cabeb20e1510807b899",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1002,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6826,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7831
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “John werd op 24 juli 1725 geboren”",
+      "severity": "major",
+      "source_quote": "“His character disintegrated to the point that he was dismissed from one school and moved to another.”",
+      "suggested_fix": "Vervang de betreffende zin door: “Zijn karakter ging zo achteruit dat hij van de ene school werd weggestuurd en naar een andere werd overgeplaatst.”",
+      "translation_quote": "“Zijn karakter ging zo achteruit dat hij van de ene school werd weggestuurd en naar een andere ging.”"
+    },
+    {
+      "location": "Article, paragraph beginning “Als predikant in de kerk”",
+      "severity": "major",
+      "source_quote": "“This book brought an awareness to the public of the evils of the slave trade. He quotes this, ‘Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.’”",
+      "suggested_fix": "Vervang de twee zinnen door: “Dit boek maakte het publiek bewust van het kwaad van de slavenhandel. Hij schrijft: ‘Het behoeft geen betoog dat het gevangennemen, verkopen en vervoeren van zwarte slaven naar de plantages in West-Indië en Amerika een wrede en gewelddadige manier van leven was.’”",
+      "translation_quote": "“Dit boek maakte het publiek bewust van het kwaad van de slavenhandel. Hij schrijft daarin: ‘Het spreekt vanzelf dat het gevangennemen, verkopen en vervoeren van zwarte slaven naar de plantages in West-Indië en Amerika een wrede en kwaadaardige manier van leven was.’”"
+    },
+    {
+      "location": "Article, paragraph beginning “John Newton schreef vaak een geestelijk lied”",
+      "severity": "major",
+      "source_quote": "“In 1779, 280 of these were collected and combined with 68 hymns by Newton’s friend and parishioner, William Cowper, and published as the Olney Hymns.”",
+      "suggested_fix": "Vervang “68 liederen van Newtons vriend en gemeentelid William Cowper” door “68 liederen van Newtons vriend en parochiaan William Cowper”.",
+      "translation_quote": "“68 liederen van Newtons vriend en gemeentelid William Cowper”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

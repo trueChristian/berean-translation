@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Абзац под заголовком «Измените сцену „последней минуты“»",
+      "severity": "minor",
+      "source_quote": "“plan” for a bee sting and a stubbed toe?",
+      "suggested_fix": "Заменить «укус пчелы или ушибший палец» на «укус пчелы или ушиб пальца ноги»; так сохраняются оба примера непредвиденных происшествий.",
+      "translation_quote": "«запланировать» укус пчелы или ушибший палец?"
+    },
+    {
+      "location": "Абзац, начинающийся «Иногда огромность задания…»",
+      "severity": "minor",
+      "source_quote": "If my planner says, “deep-clean kitchen,” it’s easy to ignore.",
+      "suggested_fix": "Заменить «глубоко почистить кухню» на «сделать генеральную уборку на кухне» для естественного русского выражения.",
+      "translation_quote": "Если в планировщике написано «глубоко почистить кухню», её легко игнорировать."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML：最后一段",
+      "severity": "minor",
+      "source_quote": "A few minor changes can make the biggest difference between a blessed or stressed last minute.",
+      "suggested_fix": "将“在‘受祝福的最后一分钟’与‘压力山大的最后一分钟’之间带来最大差别”改为“让临近最后一刻时的体验大不相同：可以从容而蒙福，也可以压力重重。”",
+      "translation_quote": "几处小小的改变就能在“受祝福的最后一分钟”与“压力山大的最后一分钟”之间带来最大差别。"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

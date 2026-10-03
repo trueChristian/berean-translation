@@ -2,10 +2,48 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": "2a121363d728d745e0890e419dfe02fee64a5cc69d41d9f0d6e105952705f7db",
   "base_metadata_sha256": "29f374ca8e13b527ffd27fca3926f38269c99085e8c78d795027f8b5dac4df8a",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 802,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 607,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1633,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1630,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2435
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, first stanza, final line",
+      "severity": "minor",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Consider «Takk og pris, for mer er her!» to express both “give thanks” and “laud” idiomatically while retaining “is here.”",
+      "translation_quote": "Gi takk og lov, for mer er kommet!"
+    },
+    {
+      "location": "source.html, third stanza, third line",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Consider «Bøy deg i hellig ærefrykt—» to convey the reverential awe expressed by “awful, holy fear” in this context.",
+      "translation_quote": "Bøy deg i aktelsens, hellige frykt—"
+    }
+  ],
+  "finished_at": "2026-10-03T18:43:07+00:00",
   "id": "de17579fbad6e2ad05808219356ba492",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nob",
@@ -94,11 +132,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7e4377db0d65abeff417aa9deee1a21496eb8249b5901b6b1a4f32f9b38cd090.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

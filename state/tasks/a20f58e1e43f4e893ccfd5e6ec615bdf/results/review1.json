@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3425acd0-89d9-4ea6-8830-99f9d729bb6a",
+    "response_id": "chatcmpl-EUxYNxQgjoRaTn7rDYwwmH1Ld10Qc",
+    "usage": {
+      "completion_tokens": 820,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7226,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7223,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8046
+    }
+  },
+  "received_at": "2026-10-03T18:43:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Main text, paragraph beginning “When John was 17”",
+        "severity": "major",
+        "source_quote": "“John received an invitation to the home of some old-time friends, the Catletts. It was in this home that John’s mother had died ten years earlier.”",
+        "suggested_fix": "Replace “रास्ते में जहाज़ के प्रस्थान की प्रतीक्षा करते समय जॉन को पुराने मित्रों, कैटलेट परिवार के घर आने का निमंत्रण मिला। इसी घर में दस वर्ष पहले जॉन की माता की मृत्यु हुई थी।” with “रास्ते में, जहाज़ के प्रस्थान की प्रतीक्षा करते समय, जॉन को अपने पुराने मित्रों—कैटलेट परिवार—के घर आने का निमंत्रण मिला। इसी घर में दस वर्ष पहले जॉन की माता की मृत्यु हुई थी।”",
+        "translation_quote": "“रास्ते में जहाज़ के प्रस्थान की प्रतीक्षा करते समय जॉन को पुराने मित्रों, कैटलेट परिवार के घर आने का निमंत्रण मिला। इसी घर में दस वर्ष पहले जॉन की माता की मृत्यु हुई थी।”"
+      },
+      {
+        "location": "Main text, paragraph beginning “The Greyhound thrashed about”",
+        "severity": "major",
+        "source_quote": "“From one o’clock until midnight, he was at the helm.”",
+        "suggested_fix": "Replace “एक बजे से आधी रात तक वह पतवार पर रहा।” with “दोपहर एक बजे से आधी रात तक वह पतवार पर रहा।”",
+        "translation_quote": "“एक बजे से आधी रात तक वह पतवार पर रहा।”"
+      },
+      {
+        "location": "Main text, paragraph beginning “On his return home”",
+        "severity": "major",
+        "source_quote": "“On his return home, Mary and her parents recognized the change the Lord had brought in John.”",
+        "suggested_fix": "Replace “उसके घर लौटने पर मैरी और उसके माता-पिता ने जॉन में प्रभु द्वारा लाए गए परिवर्तन को पहचान लिया।” with “जॉन के घर लौटने पर मैरी और उसके माता-पिता ने उसमें प्रभु द्वारा लाए गए परिवर्तन को पहचान लिया।”",
+        "translation_quote": "“उसके घर लौटने पर मैरी और उसके माता-पिता ने जॉन में प्रभु द्वारा लाए गए परिवर्तन को पहचान लिया।”"
+      },
+      {
+        "location": "Main text, paragraph beginning “For the next four years”",
+        "severity": "major",
+        "source_quote": "“... When I indulge myself with a particular thought of you, it usually carries me on farther and brings me upon my knees to bless the Lord for giving me such a treasure and to pray for your peace and welfare”",
+        "suggested_fix": "Replace the quoted Hindi sentence with: “... जब मैं विशेष रूप से तुम्हारे बारे में सोचने में मग्न होता हूँ, तो आम तौर पर वह विचार मुझे और आगे ले जाता है और घुटनों पर ला देता है, ताकि मैं मुझे ऐसा अनमोल रत्न देने के लिए प्रभु को धन्य कहूँ और तुम्हारी शांति और कुशलता के लिए प्रार्थना करूँ।”",
+        "translation_quote": "“... जब मैं तुम्हारे किसी विशेष विचार में खो जाता हूँ, तो वह आम तौर पर मुझे और आगे ले जाता है और घुटनों पर ला देता है, ताकि मैं मुझे ऐसा अनमोल रत्न देने के लिए प्रभु को धन्य कहूँ और तुम्हारी शांति और कुशलता के लिए प्रार्थना करूँ।”"
+      },
+      {
+        "location": "Main text, paragraph beginning “As minister in the church”",
+        "severity": "major",
+        "source_quote": "“He quotes this, ‘Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.’”",
+        "suggested_fix": "Replace “वह यह कहता है” with “उसने यह लिखा” (or “उसने यह उद्धृत किया”), to retain the source’s past-tense attribution.",
+        "translation_quote": "“वह यह कहता है”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

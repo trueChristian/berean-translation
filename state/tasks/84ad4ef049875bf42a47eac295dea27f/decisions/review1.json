@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, third stanza, third line",
+      "severity": "major",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Böj er i helig, vördnadsfull fruktan—",
+      "translation_quote": "Böj er i fruktansvärd, helig fruktan—"
+    },
+    {
+      "location": "source.html, first stanza, final line",
+      "severity": "minor",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Tacka och lova, för här finns ännu mer!",
+      "translation_quote": "Tacka och lova, för mer är här!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

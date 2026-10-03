@@ -2,10 +2,54 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "919faaedc00d30ca0a62e2fc065e4b71af1a936c0d90473735bda569eccd690f",
   "base_metadata_sha256": "32553e9e1db982214e043e273894c62303c291bda442e445c99a4ea438f63459",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 820,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 548,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4078,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4075,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4898
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Letzter Satz des Absatzes unter „Glauben Sie, dass Gott sich kümmert“",
+      "severity": "major",
+      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning”",
+      "suggested_fix": "„Weinen mag eine Nacht dauern, doch am Morgen kommt Freude.“",
+      "translation_quote": "„Weeping may endure for a night, but joy cometh in the morning“"
+    },
+    {
+      "location": "Letzter Absatz, Psalm 71:1",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion”",
+      "suggested_fix": "„Auf dich, HERR, vertraue ich; lass mich niemals in Verwirrung geraten.“",
+      "translation_quote": "„In thee, O LORD, do I put my trust: let me never be put to confusion“"
+    },
+    {
+      "location": "Absatz unter „Finden Sie eine Routine“",
+      "severity": "minor",
+      "source_quote": "“racing thoughts”",
+      "suggested_fix": "Ersetzen Sie „Renn-Gedanken“ durch „rasende Gedanken“.",
+      "translation_quote": "„Renn-Gedanken“"
+    }
+  ],
   "id": "a3bec75d8564be298e96d009b75da08d",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -94,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

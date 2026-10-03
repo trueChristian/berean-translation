@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first stanza, fifth line\",\"severity\":\"minor\",\"source_quote\":\"Rejoice and praise the King of Kings!\",\"suggested_fix\":\"Replace “Alegre-vos” with “Alegrai-vos” to correctly express the plural imperative and match the surrounding lines.\",\"translation_quote\":\"Alegre-vos e louvai o Rei dos Reis!\"},{\"location\":\"HTML, third stanza, second line\",\"severity\":\"minor\",\"source_quote\":\"And worship Him with reverent praise;\",\"suggested_fix\":\"Replace “com cânticos reverentes” with “com louvor reverente” to preserve the source’s reference to reverent praise without specifying songs.\",\"translation_quote\":\"E adorai‑o com cânticos reverentes;\"},{\"location\":\"HTML, third stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"Bow down in awful, holy fear-\",\"suggested_fix\":\"Replace “temor santo e tremendo” with “temor santo e reverente” to convey the source’s sense of reverential awe.\",\"translation_quote\":\"Prostrai‑vos em temor santo e tremendo—\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1031,
+    "content_evidence_truncated": false,
+    "content_sha256": "57d27eb1406a2c150d3798154606bf434598976da868676a7c688fed14f400af",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1634,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1631,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2258
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

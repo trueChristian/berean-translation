@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "12883345-d18c-4d34-a302-d5ed7f37d3a9",
+    "response_id": "chatcmpl-EUxYNQjGdIqommX9WVz9wlQVNnaUA",
+    "usage": {
+      "completion_tokens": 1031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 852,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6552,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6549,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7583
+    }
+  },
+  "received_at": "2026-10-03T18:43:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Temo que estamos cayendo…”",
+        "severity": "minor",
+        "source_quote": "We talk the talk; we say we believe in God.",
+        "suggested_fix": "Replace “Hablamos la palabra” with “Decimos que creemos en Dios” only if restructuring the sentence, or more closely: “Hablamos mucho; decimos que creemos en Dios.”",
+        "translation_quote": "Hablamos la palabra; decimos que creemos en Dios."
+      },
+      {
+        "location": "Paragraph beginning “El cristiano se niega a sí mismo…”",
+        "severity": "minor",
+        "source_quote": "he is merely dust",
+        "suggested_fix": "Change “es mera polvo” to “es mero polvo”.",
+        "translation_quote": "es mera polvo"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

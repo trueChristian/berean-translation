@@ -2,10 +2,138 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "8bef94f0c45ef22f3e678704a70eadfdc05722777569b6b0c1ead04bb5bafad5",
   "base_metadata_sha256": "28997cc858a5c49598f371e56a278745442cb313b4d2d2415b617e8247924c2f",
-  "batch": "d233aef8a68e423aa25eb2a54656dc7d",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2668,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 281,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3673,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3670,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6341
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "Deep inside Jamin felt resigned to a life of muddled trip-ups. Would he always be clumsy?",
+      "suggested_fix": "Replace the sentence with: “জামিন মনে মনে মেনে নিয়েছিল যে তার জীবন ভুলভ্রান্তিতে ভরা থাকবে। সে কি সবসময়ই আনাড়ি থাকবে?”",
+      "translation_quote": "জামিনের ভিতরে গভীরে মনে হয়েছিল যে তার জীবনটি ভুলে-চুসে ভরা থাকবে। সে কি সবসময়ই অনর্গল থাকবে?"
+    },
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "Dad and Mom disliked Kenny’s proud talk and punished him whenever they walked in on one of his speeches. But Kenny had a way of avoiding earshot.",
+      "suggested_fix": "Replace these sentences with: “বাবা-মা কেনির দম্ভভরা কথাবার্তা পছন্দ করতেন না এবং তার বক্তৃতার মধ্যে ঢুকে পড়লে তাকে শাস্তি দিতেন। কিন্তু কেনি এমনভাবে কথা বলত যে তাদের কানে তা পৌঁছাত না।”",
+      "translation_quote": "বাবা-মা কেনির গর্বিত কথাবার্তা পছন্দ করে না এবং তাদের কারও এক বক্তৃতার সময় ঢুকে পড়লে তাকে শাস্তি দিত। কিন্তু কেনির একটি উপায় ছিল কানে কেউ শুনতে না পারে এমন জায়গায় চলে যাওয়ার।"
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "Grandma Otto watched these trials from her rocker on the porch.",
+      "suggested_fix": "Replace the sentence with: “দিদিমা ওটো বারান্দার দোলনা-চেয়ারে বসে এই দুর্দশাগুলো দেখতেন।”",
+      "translation_quote": "ওটো দিদিমা তাদের আড়াল থেকে পাইকারির কুঁড়ো চেয়ারে বসে এই পরীক্ষাগুলো দেখতেন।"
+    },
+    {
+      "location": "Paragraph 5",
+      "severity": "major",
+      "source_quote": "“It’s almost supper time.”",
+      "suggested_fix": "Replace with: “রাতের খাবারের প্রায় সময় হয়ে এসেছে।”",
+      "translation_quote": "“একটা দিনধরা খাওয়ার সময় হয়ে এসেছে।”"
+    },
+    {
+      "location": "Paragraph 6",
+      "severity": "major",
+      "source_quote": "“He went to check his coyote traps. I’ll go find him.”",
+      "suggested_fix": "Replace with: “সে তার কায়োটি ধরার ফাঁদগুলো দেখতে গেছে। আমি তাকে খুঁজে আনছি।”",
+      "translation_quote": "“সে কoyote ফাঁদগুলো চেক করতে গেছিল। আমি তাকে খুঁজে নিয়ে আসব।”"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "The fleeting shadows scurried over the hills. The chill deepened as he stumped further in. He breathed the rich air and followed Kenny’s trail.",
+      "suggested_fix": "Replace these sentences with: “ক্ষণস্থায়ী ছায়াগুলো টিলার ওপর দিয়ে দ্রুত ছুটে গেল। সে আরও ভেতরে এগোতে থাকলে ঠান্ডা বাড়ল। সে বনভূমির সজীব বাতাসে শ্বাস নিয়ে কেনির পথ ধরে এগোল।”",
+      "translation_quote": "ক্ষণস্থায়ী ছায়াগুলো টিলার ওপর চটকচট করে ছড়িয়ে পড়ছিল। যত বেশি তিনি অগভীর জঙ্গলভাগে হাঁটলেন ততই ঠান্ডা বাড়তে থাকল। তিনি সমৃদ্ধ বায়ু শ্বাস নিলেন এবং কেনির পদচিহ্ন অনুসরণ করলেন।"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "His golden head caught the tired beams that fled from the sun as they flickered through the trees. And soon those too had faded leaving behind the musky smell of the woods.",
+      "suggested_fix": "Replace these sentences with: “গাছের ফাঁক দিয়ে ঝিলমিল করে আসা সূর্যের ম্লান আলো তার সোনালি চুলে পড়ল। শিগগিরই সেই আলোও মিলিয়ে গেল, আর বনে রয়ে গেল মাটির মতো সোঁদা গন্ধ।”",
+      "translation_quote": "তার সোনালী চুল ধবধবে আলো আঁকড়ে ধরল যা গাছপালার মধ্য দিয়ে সরে যাচ্ছিল। দ্রুতই সেগুলোও ম্লান হয়ে গেল এবং পশুচিহ্নতলা গন্ধ আর গাছগাছালির গন্ধ রেখে গেল।"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "At length, as the trees subdued and thinned, and the meadow appeared Jamin knew this was the end of his brother’s trap route.",
+      "suggested_fix": "Replace with: “অবশেষে গাছপালা কমে ও বিরল হয়ে এলে মাঠটি দেখা দিল, আর জামিন বুঝল এটাই তার ভাইয়ের ফাঁদ-পরিদর্শনের পথের শেষ।”",
+      "translation_quote": "অবশেষে, যখন গাছগুলো শান্ত ও পাতলা হয়ে এলো, এবং মাঠটি দেখা দিল, জামিন জানল এটি কেনির ফাঁদ ঘোরার শেষ প্রান্ত।"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny.",
+      "suggested_fix": "Replace these sentences with: “জামিন ভারী পায়ে মাঠে ঢুকতেই ডানদিকে কাতর হয়ে পড়ে থাকা এক অবয়ব দেখতে পেল। তার কণ্ঠস্বর পরিচিত শোনাল। ব্যথায় তার মুখ যন্ত্রণায় বিকৃত হয়ে ছিল। সে ছিল কেনি।”",
+      "translation_quote": "জামিন যখন মাঠে ঢুকল, সে ডানদিকে বিরক্ত এক কচকচে ভাঁজ দেখতে পেল। ভাঁজটির কন্ঠ স্বরটি পরিচিত ছিল। ভাঁজটির মুখ বেদনার আলোয় ছড়িয়ে ছিল। ভাঁজটি কেনি ছিল।"
+    },
+    {
+      "location": "Paragraph 11",
+      "severity": "major",
+      "source_quote": "Darkness stained the ground around Kenny. Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.",
+      "suggested_fix": "Replace with: “কেনির চারপাশের মাটি অন্ধকারে ঢেকে ছিল। জামিন দ্রুত তার শক্ত বাহু দিয়ে ফাঁদের চোয়াল দুটো ফাঁক করল। কেনি টলতে টলতে মুক্ত হলো।”",
+      "translation_quote": "মাটিতে কালের চারপাশে অন্ধকার লেগে ছিল। দ্রুত, জামিনের শক্ত বাহুগুলো দন্তগুলো খুলে দিল। কেনি ছুটি করে বেরিয়ে এল।"
+    },
+    {
+      "location": "Paragraph 13",
+      "severity": "major",
+      "source_quote": "“Dad and Mom will be worried. We’ve missed supper.”",
+      "suggested_fix": "Replace with: “বাবা-মা চিন্তিত হবেন। রাতের খাবারের সময় পেরিয়ে গেছে।”",
+      "translation_quote": "“বাবা-মা চিন্তিত থাকবে। আমরা রাতের খাবার ছুঁয়ে ফেলেছি।”"
+    },
+    {
+      "location": "Paragraph 14",
+      "severity": "major",
+      "source_quote": "Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.",
+      "suggested_fix": "Replace with: “জামিনও ডাক দিল। মুহূর্তেই বাবা তাদের পাশে এসে কেনির আহত গোড়ালিটি দেখে তাকে আহত ভেড়ার বাচ্চার মতো কোলে তুলে নিলেন।”",
+      "translation_quote": "জামিন ডাক দিল, এবং মুহূর্তের মধ্যে তিনি তাদের পাশে উপস্থিত হলেন, টাখনাটি দেখে কেনিকে ভেঙে কৃশ একটি ভেড়ার মত কাঁধে তুলে নিলেন।"
+    },
+    {
+      "location": "Paragraph following the figure",
+      "severity": "major",
+      "source_quote": "“You were strong enough to open the trap, and Kenny wasn’t. You were brave enough to find him in the dark. Lots of young boys wouldn’t be.”",
+      "suggested_fix": "Replace with: “তুমি ফাঁদটা খোলার মতো যথেষ্ট শক্তিশালী ছিলে, কিন্তু কেনি ছিল না। অন্ধকারে তাকে খুঁজে বের করার মতো সাহস তোমার ছিল। অনেক ছোট ছেলে তা করতে পারত না।”",
+      "translation_quote": "“তুই ফাঁদটা খোলার জন্য যথেষ্ট শক্ত ছিলি, আর কেনি সেটা ছিল না। অন্ধকারে তাকে খুঁজে পেতে তুই যথেষ্ট সাহসী ছিলি। অনেক ছোট ছেলেরা তা করতে পারত না।”"
+    },
+    {
+      "location": "Paragraph following the figure",
+      "severity": "critical",
+      "source_quote": "“God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason. He has a plan for you, and a place only you can fill, you know.”",
+      "suggested_fix": "Replace with: “ঈশ্বর তোমাকে এমনভাবে সৃষ্টি করেছেন একটি বিশেষ কারণেই, জামিন। কেনিকেও তিনি এমনভাবে সৃষ্টি করেছেন একটি বিশেষ কারণেই। তোমার জন্য তাঁর একটি পরিকল্পনা আছে, আর এমন একটি জায়গা আছে যা শুধু তুমিই পূরণ করতে পারবে, বুঝলে?”",
+      "translation_quote": "“সৃজনহীনের কারণে ঈশ্বর তোর মতো করে তোর সৃষ্টি করেছেন, জামিন। তিনি কেনির মতো করে কেনিকে সৃষ্টি করেছেন। তাঁর একটি পরিকল্পনা আছে তোর জন্য়, এবং একটি স্থান আছে যা কেবল তুইই পূরণ করতে পারিস, জানিস কি।”"
+    },
+    {
+      "location": "Paragraph following the figure",
+      "severity": "major",
+      "source_quote": "“That’s what Kenny says.” Jamin squirmed.",
+      "suggested_fix": "Replace the second sentence with: “জামিন অস্বস্তিতে নড়েচড়ে উঠল।”",
+      "translation_quote": "“এটাই কেনি বলে।” জামিন ঐকান্তিকভাবে ঘোরলেন।"
+    }
+  ],
   "id": "842face17deceb3432bac102caa9ae5c",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -94,11 +222,13 @@
     }
   },
   "protected": false,
+  "quality_score": 38,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
