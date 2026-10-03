@@ -112,26 +112,26 @@ Observed English revision: `a069ecca8827634ebc256b3b1cabc16aeb942ed7`
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 70 / 1142 | 0 | 31 | 59 | 81 |
-| `hin` (hi) | 72 / 1142 | 0 | 26 | 62 | 96 |
-| `spa` (es) | 108 / 1142 | 0 | 25 | 27 | 63 |
-| `ara` (ar) | 70 / 1142 | 0 | 26 | 64 | 93 |
-| `fra` (fr) | 102 / 1142 | 0 | 21 | 37 | 71 |
-| `ben` (bn) | 65 / 1142 | 0 | 27 | 68 | 102 |
-| `por` (pt) | 113 / 1142 | 0 | 23 | 24 | 69 |
-| `ind` (id) | 95 / 1142 | 0 | 27 | 38 | 74 |
-| `urd` (ur) | 74 / 1142 | 0 | 29 | 57 | 89 |
-| `rus` (ru) | 75 / 1142 | 0 | 29 | 56 | 89 |
-| `deu` (de) | 59 / 1142 | 0 | 24 | 76 | 101 |
-| `nld` (nl) | 96 / 1142 | 0 | 28 | 36 | 78 |
-| `afr` (af) | 91 / 1142 | 0 | 27 | 42 | 67 |
-| `swa` (sw) | 49 / 1142 | 0 | 27 | 84 | 106 |
-| `kor` (ko) | 84 / 1142 | 0 | 26 | 50 | 84 |
-| `ita` (it) | 100 / 1142 | 0 | 25 | 35 | 65 |
-| `heb` (he) | 31 / 1142 | 0 | 26 | 100 | 111 |
-| `ell` (el) | 74 / 1142 | 0 | 26 | 60 | 95 |
-| `swe` (sv) | 85 / 1142 | 0 | 27 | 48 | 82 |
-| `nob` (nb) | 88 / 1142 | 0 | 26 | 46 | 86 |
+| `cmn` (zh-Hans) | 70 / 1142 | 0 | 31 | 59 | 88 |
+| `hin` (hi) | 72 / 1142 | 0 | 26 | 62 | 100 |
+| `spa` (es) | 108 / 1142 | 0 | 25 | 27 | 68 |
+| `ara` (ar) | 70 / 1142 | 0 | 26 | 64 | 99 |
+| `fra` (fr) | 102 / 1142 | 0 | 21 | 37 | 72 |
+| `ben` (bn) | 65 / 1142 | 0 | 27 | 68 | 109 |
+| `por` (pt) | 113 / 1142 | 0 | 23 | 24 | 72 |
+| `ind` (id) | 95 / 1142 | 0 | 27 | 38 | 80 |
+| `urd` (ur) | 74 / 1142 | 0 | 29 | 57 | 98 |
+| `rus` (ru) | 75 / 1142 | 0 | 29 | 56 | 98 |
+| `deu` (de) | 59 / 1142 | 0 | 24 | 76 | 105 |
+| `nld` (nl) | 96 / 1142 | 0 | 28 | 36 | 86 |
+| `afr` (af) | 91 / 1142 | 0 | 27 | 42 | 73 |
+| `swa` (sw) | 49 / 1142 | 0 | 27 | 84 | 113 |
+| `kor` (ko) | 84 / 1142 | 0 | 26 | 50 | 89 |
+| `ita` (it) | 100 / 1142 | 0 | 25 | 35 | 70 |
+| `heb` (he) | 31 / 1142 | 0 | 26 | 100 | 116 |
+| `ell` (el) | 74 / 1142 | 0 | 26 | 60 | 101 |
+| `swe` (sv) | 85 / 1142 | 0 | 27 | 48 | 89 |
+| `nob` (nb) | 88 / 1142 | 0 | 26 | 46 | 92 |
 
 ## Issue / language work
 
@@ -480,7 +480,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `gh-37109077881` | manual | translate | finished | 220 | 132 complete, 88 held | 0.56007440 | 3.329526 / 10.00 | [state](state/campaigns/gh-37109077881.json) |
 | `gh-37109120670` | manual recovery | repair | finished | 5 | 2 complete, 3 held | 0.00839031 | 0.069530 / 10.00 | [state](state/campaigns/gh-37109120670.json) |
 | `gh-37109168265` | manual | translate | finished | 42 | 38 complete, 4 held | 1.44131250 | 8.625625 / 10.00 | [state](state/campaigns/gh-37109168265.json) |
-| `gh-37119584204` | manual | translate | active | 240 | 113 complete, 7 held, 120 active | 0.32099707 | 2.168770 / 10.00 | [state](state/campaigns/gh-37119584204.json) |
+| `gh-37119584204` | manual | translate | active | 240 | 113 complete, 7 held, 120 active | 0.32099707 | 2.879344 / 10.00 | [state](state/campaigns/gh-37119584204.json) |
 | `gh-37137754122` | manual recovery | repair | active | 5 | 5 active | 0.00000000 | 1.027635 / 10.00 | [state](state/campaigns/gh-37137754122.json) |
 | `gh-37138123265` | manual | review | active | 200 | 200 active | 0.00000000 | 0.000000 / 5.00 | [state](state/campaigns/gh-37138123265.json) |
 | `gh-37138217502` | manual | translate | active | 200 | 200 active | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37138217502.json) |
@@ -663,6 +663,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [c4f222df206e49f7811a3db1d2258e94](state/batches/c4f222df206e49f7811a3db1d2258e94/batch.json) / correct | collected / completed | 113 / 113 / 0 | 2026-10-02T12:56:26+00:00 | 2026-10-02T13:00:01+00:00 | 2026-10-02T12:59:59+00:00 |
 | [c70e8a233c9f4f0c91a4d3abd7601056](state/batches/c70e8a233c9f4f0c91a4d3abd7601056/batch.json) / correct | collected / completed | 57 / 57 / 0 | 2026-10-02T13:01:04+00:00 | 2026-10-02T13:03:53+00:00 | 2026-10-02T13:03:51+00:00 |
 | [c86e1c86d1ff469f95c03d3e7fb8f431](state/batches/c86e1c86d1ff469f95c03d3e7fb8f431/batch.json) / correct | collected / completed | 3 / 3 / 0 | 2026-10-01T20:32:54+00:00 | 2026-10-01T20:33:22+00:00 | 2026-10-01T20:33:22+00:00 |
+| [c9bcee85e5cd4da6a107fecd7aca5cfd](state/batches/c9bcee85e5cd4da6a107fecd7aca5cfd/batch.json) / correct | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [ca6791dfd9564bfbaf2be5345bf1e4d4](state/batches/ca6791dfd9564bfbaf2be5345bf1e4d4/batch.json) / review1 | collected / completed | 7 / 7 / 0 | 2026-10-01T19:45:29+00:00 | 2026-10-01T20:28:42+00:00 | 2026-10-01T20:28:42+00:00 |
 | [cadcb0d80e1f4b5b8f33fddbb0b600e2](state/batches/cadcb0d80e1f4b5b8f33fddbb0b600e2/batch.json) / correct | collected / completed | 3 / 3 / 0 | 2026-10-01T18:58:33+00:00 | 2026-10-01T18:59:05+00:00 | 2026-10-01T18:59:05+00:00 |
 | [cb37f274b6fa45918b621106710bd92c](state/batches/cb37f274b6fa45918b621106710bd92c/batch.json) / review2 | collected / completed | 38 / 38 / 0 | 2026-10-02T12:49:06+00:00 | 2026-10-02T12:50:15+00:00 | 2026-10-02T12:50:14+00:00 |
