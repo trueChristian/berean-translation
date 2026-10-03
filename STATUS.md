@@ -457,7 +457,7 @@ Provider completion and local collection are separate clocks. Older records with
 | Batch / stage | Worker / provider status | Requests total / completed / failed | Provider completed (UTC) | Collected locally (UTC) | Last poll attempted (UTC) |
 | --- | --- | --- | --- | --- | --- |
 | [005d6b83485c49659fba640717bfa560](state/batches/005d6b83485c49659fba640717bfa560/batch.json) / translate | collected / completed | 180 / 180 / 0 | 2026-10-02T12:50:12+00:00 | 2026-10-02T12:54:59+00:00 | 2026-10-02T12:54:56+00:00 |
-| [027c460e2d1147da8067ffa446004d26](state/batches/027c460e2d1147da8067ffa446004d26/batch.json) / review2 | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
+| [027c460e2d1147da8067ffa446004d26](state/batches/027c460e2d1147da8067ffa446004d26/batch.json) / review2 | submitting / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [02d1b71a8124447b8ab2153682ffb0f5](state/batches/02d1b71a8124447b8ab2153682ffb0f5/batch.json) / translate | collected / completed | 220 / 220 / 0 | 2026-10-03T09:03:28+00:00 | 2026-10-03T10:40:31+00:00 | 2026-10-03T10:40:25+00:00 |
 | [02d4a7e00b9e41f990f9dced3c048991](state/batches/02d4a7e00b9e41f990f9dced3c048991/batch.json) / correct | collected / completed | 2 / 2 / 0 | 2026-10-01T20:37:12+00:00 | 2026-10-02T00:06:52+00:00 | 2026-10-02T00:06:51+00:00 |
 | [02f1c01f4c0c4918b31d802306658076](state/batches/02f1c01f4c0c4918b31d802306658076/batch.json) / review1 | collected / completed | 9 / 9 / 0 | 2026-10-01T19:21:56+00:00 | 2026-10-01T20:27:50+00:00 | 2026-10-01T20:27:49+00:00 |
