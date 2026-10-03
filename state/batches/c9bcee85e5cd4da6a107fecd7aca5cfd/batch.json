@@ -120,7 +120,7 @@
     "fe9b648b69620daa983aefd9dc294112:correct"
   ],
   "id": "c9bcee85e5cd4da6a107fecd7aca5cfd",
-  "input_file_id": null,
+  "input_file_id": "file-NPU1dyiK5JdJUQao58VDVr",
   "model": "gpt-6-luna",
   "payload_sha256": "e45adf508896271e57005d41e52b36cbd278e3049a3395325dc5918b7d45861e",
   "remote_id": null,
