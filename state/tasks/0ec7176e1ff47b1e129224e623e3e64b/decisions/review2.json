@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “There are good desires and bad desires.”",
+      "severity": "major",
+      "source_quote": "One of the ways he does this is by enticing our flesh.",
+      "suggested_fix": "Replace “kwa kushawishi asili yetu ya dhambi” with “kwa kushawishi tamaa za mwili wetu” to preserve the source’s reference to the flesh rather than introducing “our sinful nature.”",
+      "translation_quote": "Mojawapo ya njia anazofanya hivyo ni kwa kushawishi asili yetu ya dhambi."
+    },
+    {
+      "location": "Paragraph beginning “Sometimes we are trying so hard…”",
+      "severity": "major",
+      "source_quote": "Sometimes we are trying so hard to fulfill our fleshly comforts that we lose sight of the real purpose that God has put us here.",
+      "suggested_fix": "Replace “kutimiza tamaa za asili yetu ya kujipendeza” with “kujitosheleza katika starehe za mwili” or equivalent wording that retains the source’s reference to fleshly comforts.",
+      "translation_quote": "Wakati mwingine tunajitahidi sana kutimiza tamaa za asili yetu ya kujipendeza kiasi cha kupoteza mtazamo wa kusudi halisi ambalo Mungu alituweka hapa."
+    },
+    {
+      "location": "Paragraph beginning “Remember, the word desire is a deep longing…”; Psalm 78:29–31 quotation",
+      "severity": "major",
+      "source_quote": "They were not estranged from their lust. But while their meat was yet in their mouths, The wrath of God came upon them, and slew the fattest of them, and smote down the chosen men of Israel",
+      "suggested_fix": "Replace “Hawakuwa wageni wa tamaa yao” with “Hawakuacha tamaa yao” (or equivalent wording meaning they did not restrain their craving). Replace “vijana wa Israeli” with “wanaume wateule wa Israeli” to preserve “the chosen men of Israel.”",
+      "translation_quote": "Hawakuwa wageni wa tamaa yao. Lakini walipokuwa na nyama vinywani mwao, hasira ya Mungu ikawajia, akawaua walionona sana, na vijana wa Israeli akawaangusha"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

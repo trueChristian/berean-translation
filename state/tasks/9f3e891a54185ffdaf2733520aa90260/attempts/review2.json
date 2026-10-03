@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “একই মণ্ডলীতে কয়েকজন বন্ধু…”\",\"severity\":\"major\",\"source_quote\":\"As life would have it, one daughter dated and married long before the other one began a courtship.\",\"suggested_fix\":\"অর্থটি সংশোধন করে লিখুন: “জীবনের নিয়মেই, একজনের মেয়ে প্রেমের সম্পর্কে জড়িয়ে বিয়ে করেছিল, অন্য মেয়েটি প্রেমের সম্পর্ক শুরু করার অনেক আগেই।”\",\"translation_quote\":\"জীবনের নিয়মেই, একজনের মেয়ে প্রেমের সম্পর্কে জড়িয়ে বিয়ে করেছিল, অন্য মেয়েটি প্রেমের সম্পর্ক শুরু করার অনেক আগেই।\"},{\"location\":\"Article body, paragraph beginning “একই মণ্ডলীতে কয়েকজন বন্ধু…”\",\"severity\":\"major\",\"source_quote\":\"The mother of the single girl determined that she would rejoice with her friend and her daughter.\",\"suggested_fix\":\"উৎসের অর্থ অনুযায়ী লিখুন: “অবিবাহিত মেয়েটির মা স্থির করলেন যে তিনি তার বন্ধুর ও বন্ধুর মেয়ের সঙ্গে আনন্দ করবেন।”\",\"translation_quote\":\"অবিবাহিত মেয়েটির মা স্থির করলেন যে তিনি তার বন্ধু ও বন্ধুর মেয়ের সঙ্গে আনন্দ করবেন।\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1890,
+    "content_evidence_truncated": false,
+    "content_sha256": "330c7f77bf41555330f195d9ced0edbf8fd0b90b99d9a1316c356cc123040513",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 285,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6220,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6217,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6505
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

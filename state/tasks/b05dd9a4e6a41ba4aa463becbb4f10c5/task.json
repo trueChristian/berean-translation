@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,81 +64,47 @@
         },
         "total_tokens": 16365
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1541,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1144,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9776,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9773,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11317
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 4",
+      "location": "Paragraph beginning “Children are the opposite,” quoted Mark 10:13",
       "severity": "major",
-      "source_quote": "“the fifth sparrow, of no value”",
-      "suggested_fix": "Replace ״דוגמה עלובה זו״ with ״הדרור החמישי, חסר הערך״ so the sentence refers to the fifth sparrow, not to a specimen/example.",
-      "translation_quote": "״דוגמה עלובה זו לא נפלה ארצה״"
+      "source_quote": "And they [mothers] brought young children to him",
+      "suggested_fix": "Replace the quoted Hebrew with: וְהֵן [הָאִמָּהוֹת] הֵבִיאוּ אֵלָיו יְלָדִים, כְּדֵי שֶׁיִּגַּע בָּהֶם [יֵשׁוּעַ]; וְתַלְמִידָיו גָּעֲרוּ בַּמְּבִיאוֹת. Keep the existing reference Mark 10:13 unchanged.",
+      "translation_quote": "וַיָּבִיאוּ אֵלָיו יְלָדִים [אִמּוֹתֵיהֶם], לְמַעַן יִגַּע בָּהֶם [יֵשׁוּעַ]; וְהַתַּלְמִידִים גָּעֲרוּ בְּמֵבִיאֵיהֶם –מרקוס 10:13."
     },
     {
-      "location": "Paragraph 7",
-      "severity": "major",
-      "source_quote": "“the minister stood up to preach”",
-      "suggested_fix": "Change ״אך כשהכומר קם לשאת את דרשתו״ to ״אך כשהכומר קם לשאת את דרשתו״ is already idiomatic; instead correct the preceding mistranslation: render “a funeral director” as ״מנהל בית לוויות״ and make clear that he asked the minister to conduct the service: ״מנהל בית לוויות ביקש מכומר לבוא ולערוך טקס הלוויה״.",
-      "translation_quote": "״היה כומר שמנהל בית לוויות ביקש ממנו לבוא ולערוך טקס הלוויה״"
-    },
-    {
-      "location": "Paragraph 10",
-      "severity": "major",
-      "source_quote": "“dependance, and ignorance”",
-      "suggested_fix": "Replace ״לתמימות, לתלות ולאי־ידיעה״ with ״לתמימות, לתלות ולחוסר ידע״ or another clear contemporary Hebrew rendering of dependence and ignorance.",
-      "translation_quote": "״לתמימות, לתלות ולאי־ידיעה״"
-    },
-    {
-      "location": "Paragraph 12",
-      "severity": "major",
-      "source_quote": "“the addition of the widow’s two mites to the treasury arrested the attention of the general populace, though not in a positive fashion”",
-      "suggested_fix": "Replace ״משכה את תשומת לבו של הציבור הרחב״ with ״משכה את תשומת לב הציבור הרחב״; the source describes public attention, not one person’s attention.",
-      "translation_quote": "״משכה את תשומת לבו של הציבור הרחב״"
-    },
-    {
-      "location": "Paragraph 16",
-      "severity": "major",
-      "source_quote": "“the general populace”",
-      "suggested_fix": "Replace ״תשומת לבו של הציבור הרחב״ with ״תשומת לב הציבור הרחב״ to avoid implying a specific male observer.",
-      "translation_quote": "״תשומת לבו של הציבור הרחב״"
-    },
-    {
-      "location": "Paragraph 18",
-      "severity": "major",
-      "source_quote": "“the robin boasts his red breast and the cardinal his red crest”",
-      "suggested_fix": "Replace ״הקרדינל בציציתו האדומה״ with ״הקרדינל בציצתו האדומה״ or an accurate Hebrew term for its red crest.",
-      "translation_quote": "״הקרדינל בציציתו האדומה״"
-    },
-    {
-      "location": "Paragraph 20",
-      "severity": "major",
-      "source_quote": "“to wipe His dirty feet with their hair”",
-      "suggested_fix": "Replace ״לנגב את רגליו המלוכלכות בשערם״ with ״לנגב את רגליו המלוכלכות בשיערם״; ״שערם״ means their gate, not their hair.",
-      "translation_quote": "״לנגב את רגליו המלוכלכות בשערם״"
-    },
-    {
-      "location": "Paragraph 23",
-      "severity": "major",
-      "source_quote": "“nursing homes are full of discarded souls”",
-      "suggested_fix": "Change ״בעוד שבבתי האבות שלנו מלאים אנשים״ to grammatical Hebrew, for example ״בעוד שבתי האבות שלנו מלאים באנשים״.",
-      "translation_quote": "״בעוד שבבתי האבות שלנו מלאים אנשים״"
-    },
-    {
-      "location": "Poem, first stanza",
-      "severity": "major",
-      "source_quote": "“But I am never satisfied.”",
-      "suggested_fix": "Replace ״אך אני לעולם איני מסתפק״ with ״אך לעולם איני שבע רצון״ or another idiomatic Hebrew equivalent.",
-      "translation_quote": "״אך אני לעולם איני מסתפק״"
-    },
-    {
-      "location": "Poem, second stanza",
-      "severity": "major",
-      "source_quote": "“The drowning from the clutches of / The cold remorseless wave.”",
-      "suggested_fix": "Replace ״את הטובעים מלפיתת / הגל הקר והאכזר״ with a grammatical phrase such as ״את הטובעים מציפורניו של / הגל הקר וחסר הרחמים״.",
-      "translation_quote": "״את הטובעים מלפיתת / הגל הקר והאכזר״"
+      "location": "Paragraph beginning “Such are the sparrows,” discussing people valued as a resource",
+      "severity": "minor",
+      "source_quote": "Those that are useful are esteemed highly, but those who are not, are ignored.",
+      "suggested_fix": "Change the ending to: אך מתעלמים ממי שאינם מועילים.",
+      "translation_quote": "מי שמועילים זוכים להערכה רבה, אך את מי שאינם מועילים מתעלמים."
     }
   ],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "b05dd9a4e6a41ba4aa463becbb4f10c5",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "heb",
@@ -228,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

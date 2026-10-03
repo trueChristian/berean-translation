@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, second stanza",
+      "severity": "major",
+      "source_quote": "I’m a little bit shallow, I admit,",
+      "suggested_fix": "Replace «Признаюсь, я немного эгоистична,» with «Признаюсь, я бываю немного поверхностна,» to convey “shallow” without changing it to “selfish.”",
+      "translation_quote": "Признаюсь, я немного эгоистична,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

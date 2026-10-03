@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “It is harder for jealousy to take root”",
+      "severity": "major",
+      "source_quote": "“It’s a battle worth fighting.”",
+      "suggested_fix": "Replace “Ini pergumulan yang patut diperjuangkan.” with “Ini adalah pergumulan yang layak diperjuangkan.”",
+      "translation_quote": "“Ini pergumulan yang patut diperjuangkan.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “The definition of jealous is”",
+      "severity": "major",
+      "source_quote": "“The definition of jealous is: ‘Feeling or showing envy of someone or their achievements and advantages.’”",
+      "suggested_fix": "Revise the definition to preserve “jealous” as cemburu and “achievements and advantages” as pencapaian serta keuntungan/kelebihan, for example: “Definisi cemburu adalah: ‘Merasa iri kepada seseorang atau pencapaian dan kelebihannya, atau menunjukkan rasa iri itu.’”",
+      "translation_quote": "“Definisi pencemburu adalah: ‘Merasa iri kepada seseorang atau pencapaian dan kelebihannya, atau menunjukkan rasa iri itu.’”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Count Your Own Blessings”",
+      "severity": "major",
+      "source_quote": "“Happiness will not come to women who neglect to appreciate what they already have. Neither will they happily rejoice with those who rejoice.”",
+      "suggested_fix": "Replace the two sentences with “Perempuan yang lalai menghargai apa yang sudah mereka miliki tidak akan memperoleh kebahagiaan. Mereka juga tidak akan dapat bersukacita dengan tulus bersama orang-orang yang bersukacita.”",
+      "translation_quote": "“Perempuan yang lalai menghargai apa yang sudah mereka miliki tidak akan bahagia. Mereka juga tidak akan bersukacita dengan bahagia bersama orang-orang yang bersukacita.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

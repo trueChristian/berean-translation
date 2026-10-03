@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3fa4859f-f7d7-45cc-9738-b81c88016128",
+    "response_id": "chatcmpl-EUsNOBJNtSC6BMrzgb5rbC9KzdK0G",
+    "usage": {
+      "completion_tokens": 596,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10672,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10669,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11268
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “Children are the opposite”",
+        "severity": "major",
+        "source_quote": "“They are the emblem of innocence, dependance, and ignorance.”",
+        "suggested_fix": "Replace «σύμβολα αθωότητας, εξάρτησης και άγνοιας» with «σύμβολα αθωότητας, εξάρτησης και ανωριμότητας».",
+        "translation_quote": "«Είναι σύμβολα αθωότητας, εξάρτησης και άγνοιας.»"
+      },
+      {
+        "location": "Article body, paragraph beginning “Such are the sparrows” under “…Latter Ones”",
+        "severity": "major",
+        "source_quote": "“Folks stand for hours outside a store front in an effort to have the first chance at a bargain.”",
+        "suggested_fix": "Replace «προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία» with «προσπαθώντας να είναι οι πρώτοι που θα προλάβουν μια προσφορά».",
+        "translation_quote": "«προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία»"
+      },
+      {
+        "location": "Article body, paragraph beginning “The totalitarian governments”",
+        "severity": "major",
+        "source_quote": "“the vast ignorance and injustice of such prejudice precinct”",
+        "suggested_fix": "Replace «τέτοιων προκατειλημμένων περιοχών» with «τέτοιων προκατειλημμένων καθεστώτων».",
+        "translation_quote": "«τέτοιων προκατειλημμένων περιοχών»"
+      },
+      {
+        "location": "Article body, paragraph beginning “The woman who lost her silver”",
+        "severity": "major",
+        "source_quote": "“The woman who lost her silver searched her house until it was found”",
+        "suggested_fix": "Replace «Η γυναίκα που έχασε το ασημένιο νόμισμά της» with «Η γυναίκα που έχασε το ασημένιο νόμισμά της» only if the context clearly identifies it as a coin; otherwise use «Η γυναίκα που έχασε το ασήμι της» to avoid adding an object not stated in the source.",
+        "translation_quote": "«Η γυναίκα που έχασε το ασημένιο νόμισμά της»"
+      },
+      {
+        "location": "Article body, final paragraph",
+        "severity": "major",
+        "source_quote": "“he couldn’t unmold them to clasp the rope”",
+        "suggested_fix": "Replace «δεν μπορούσε να τα ξεκολλήσει για να πιάσει το σχοινί» with «δεν μπορούσε να τα ξεμουδιάσει για να πιάσει το σχοινί».",
+        "translation_quote": "«δεν μπορούσε να τα ξεκολλήσει για να πιάσει το σχοινί»"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

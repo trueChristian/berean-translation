@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “একই মণ্ডলীতে কয়েকজন বন্ধু…”",
+      "severity": "major",
+      "source_quote": "As life would have it, one daughter dated and married long before the other one began a courtship.",
+      "suggested_fix": "অর্থটি সংশোধন করে লিখুন: “জীবনের নিয়মেই, একজনের মেয়ে প্রেমের সম্পর্কে জড়িয়ে বিয়ে করেছিল, অন্য মেয়েটি প্রেমের সম্পর্ক শুরু করার অনেক আগেই।”",
+      "translation_quote": "জীবনের নিয়মেই, একজনের মেয়ে প্রেমের সম্পর্কে জড়িয়ে বিয়ে করেছিল, অন্য মেয়েটি প্রেমের সম্পর্ক শুরু করার অনেক আগেই।"
+    },
+    {
+      "location": "Article body, paragraph beginning “একই মণ্ডলীতে কয়েকজন বন্ধু…”",
+      "severity": "major",
+      "source_quote": "The mother of the single girl determined that she would rejoice with her friend and her daughter.",
+      "suggested_fix": "উৎসের অর্থ অনুযায়ী লিখুন: “অবিবাহিত মেয়েটির মা স্থির করলেন যে তিনি তার বন্ধুর ও বন্ধুর মেয়ের সঙ্গে আনন্দ করবেন।”",
+      "translation_quote": "অবিবাহিত মেয়েটির মা স্থির করলেন যে তিনি তার বন্ধু ও বন্ধুর মেয়ের সঙ্গে আনন্দ করবেন।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

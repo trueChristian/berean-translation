@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 2, final line\",\"severity\":\"major\",\"source_quote\":\"But our own understanding, we lean on instead?\",\"suggested_fix\":\"Replace the line with «Αντί γι’ αυτό, στηριζόμαστε στη δική μας κατανόηση;» to retain the contrast and the question’s meaning.\",\"translation_quote\":\"Κι όμως, στηριζόμαστε στη δική μας κατανόηση;\"},{\"location\":\"Poem, stanza 3, line 2\",\"severity\":\"major\",\"source_quote\":\"All the miracles, with a word, they were done!\",\"suggested_fix\":\"Replace with «Όλα τα θαύματα έγιναν με έναν λόγο!»\",\"translation_quote\":\"Όλα τα θαύματα έγιναν με έναν λόγο!\"},{\"location\":\"Poem, stanza 6, line 2\",\"severity\":\"major\",\"source_quote\":\"But every moment, your fears disregard.\",\"suggested_fix\":\"Replace with «Αλλά κάθε στιγμή, μην αφήνεις τους φόβους σου να σε αποτρέπουν.»\",\"translation_quote\":\"αλλά κάθε στιγμή, παραμερίζοντας τους φόβους σου.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1145,
+    "content_evidence_truncated": false,
+    "content_sha256": "0812543cee982a1f3fd3eaf493c00dba153b66d807edccf4b9b6059ae55d619f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 262,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2037,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2034,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2299
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

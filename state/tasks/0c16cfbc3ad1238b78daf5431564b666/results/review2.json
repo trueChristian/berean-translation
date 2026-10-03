@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4998ca4a-8d7a-95de-8d59-466469441cf2",
+    "response_id": "chatcmpl-EUsNPeOl2QZJfroqlUrYBLTCmub6X",
+    "usage": {
+      "completion_tokens": 498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9469,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9466,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9967
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "بچپن میں یسوع کے سامنے دہرائے جانے والے منظر کا پیراگراف",
+        "severity": "major",
+        "source_quote": "As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.",
+        "suggested_fix": "چونکہ یسوع کے والدین غریب تھے، اس لیے غالب امکان ہے کہ اُن کے بچپن میں یہ منظر اُن کی اپنی آنکھوں کے سامنے بار بار دہرایا گیا ہو۔",
+        "translation_quote": "چونکہ یسوع کے والدین غریب تھے، اس لیے غالب امکان ہے کہ آپ کے بچپن کے زمانے میں یہ منظر آپ کی اپنی آنکھوں کے سامنے بھی بار بار آیا ہو۔"
+      },
+      {
+        "location": "عقاب اور آزادی والا پیراگراف",
+        "severity": "major",
+        "source_quote": "to remind us of the glorious freedom of liberty and independence.",
+        "suggested_fix": "تاکہ وہ ہمیں آزادی اور خودمختاری کی شاندار شان یاد دلائیں۔",
+        "translation_quote": "تاکہ وہ ہمیں آزادی اور خودمختاری کی شاندار شان یاد دلائیں۔"
+      },
+      {
+        "location": "چھوٹے بچوں والا پیراگراف، unborn بچوں سے متعلق جملہ",
+        "severity": "major",
+        "source_quote": "For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.",
+        "suggested_fix": "بہت سے غیر پیدائشی بچوں کے لیے، ماں کے پیٹ میں ان کی زندگی ایک بوجھل پریشانی سمجھی جاتی ہے، اور اسے برقرار رکھنے کے لیے درکار قربانی اس کے قابل نہیں لگتی۔",
+        "translation_quote": "کئی ماؤں کے لیے، جن کے بطن میں بچے پل رہے ہوتے ہیں، اندر کی زندگی ایک بوجھل پریشانی ہوتی ہے اور اسے برقرار رکھنے کے لیے درکار قربانی اس کے قابل نہیں لگتی۔"
+      },
+      {
+        "location": "چڑیا کی قدر اور کم تر سمجھے جانے والوں والا پیراگراف",
+        "severity": "major",
+        "source_quote": "Despite it all, God will never miss a sparrow",
+        "suggested_fix": "اس سب کے باوجود، خدا کسی چڑیا کو کبھی نظر انداز نہیں کرے گا",
+        "translation_quote": "اس سب کے باوجود، خدا سے کوئی چڑیا کبھی چھوٹی نہیں رہ جائے گی"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

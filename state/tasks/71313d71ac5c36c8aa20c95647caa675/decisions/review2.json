@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "The end is coming, which is what God has in mind.",
+      "suggested_fix": "Replace „daran denkt Gott“ with „was Gott im Sinn hat“ to preserve the sense that this is what God intends.",
+      "translation_quote": "Das Ende kommt – daran denkt Gott."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

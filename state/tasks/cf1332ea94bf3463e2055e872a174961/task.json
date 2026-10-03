@@ -2,7 +2,6 @@
   "article_id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,67 +64,54 @@
         },
         "total_tokens": 14278
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 394,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8937,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8934,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9331
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Nota del editor, párrafo 3",
+      "location": "Nota del editor, párrafo que cita 2 Corintios 11:13-14",
       "severity": "major",
-      "source_quote": "…–2 Corinthians 11:13-14.",
-      "suggested_fix": "Conserve «2 Corintios 11:13-14»; el número del pasaje no debe cambiarse.",
-      "translation_quote": "…–2 Corintios 11:13-14."
+      "source_quote": "…into the apostles of Christ and present themselves as …an angel of light –2 Corinthians 11:13-14.",
+      "suggested_fix": "Revisar el pasaje para conservar las formas plurales del original: «…en apóstoles de Cristo y se presentan como …ángeles de luz –2 Corintios 11:13-14.»",
+      "translation_quote": "…en apóstoles de Cristo y se presentarán como …ángel de luz –2 Corintios 11:13-14."
     },
     {
-      "location": "Nota del editor, párrafo 4",
+      "location": "Nota del editor, párrafo sobre autoridades espirituales",
       "severity": "major",
-      "source_quote": "“take the oversight thereof”",
-      "suggested_fix": "Traduzca la expresión como «cuiden de ella» o «asuman la supervisión de ella», según el contexto, para conservar la idea de ejercer supervisión espiritual.",
-      "translation_quote": "«cuiden de ella»"
+      "source_quote": "Some individuals believe it is wrong for spiritual authorities to “take the oversight thereof”",
+      "suggested_fix": "Traducir la cita con un sentido equivalente a «ejercer supervisión sobre ello» o «cuidar de ello», manteniendo la referencia a la supervisión espiritual.",
+      "translation_quote": "Algunas personas creen que está mal que las autoridades espirituales «ejerzan supervisión sobre ella»"
     },
     {
-      "location": "Nota del editor, párrafo 4",
+      "location": "Nota del editor, párrafo sobre el reino ahora y futuro",
       "severity": "major",
-      "source_quote": "“like precious faith” (who believe as they do)",
-      "suggested_fix": "Exprese que comparten una fe igualmente preciosa y que creen como ellos; por ejemplo: «de una fe igualmente preciosa (que creen como ellos)».",
-      "translation_quote": "«una fe igualmente preciosa» (que creen como ellos)"
-    },
-    {
-      "location": "Nota del editor, párrafo 5",
-      "severity": "major",
-      "source_quote": "an alone “local” Christian",
-      "suggested_fix": "Conserve la idea de estar solo o aislado, por ejemplo: «un cristiano “local” que está solo».",
-      "translation_quote": "un cristiano «local» aislado"
-    },
-    {
-      "location": "Nota del editor, párrafo 5",
-      "severity": "major",
-      "source_quote": "as they try to express the kingdom “on the earth,” and “in the now.”",
-      "suggested_fix": "Conserve los dos matices del original: «en la tierra» y «ahora mismo» o «en el presente».",
-      "translation_quote": "mientras intentan expresar el reino «en la tierra» y «en el presente»."
-    },
-    {
-      "location": "Cuerpo, primer párrafo después de la lista numerada",
-      "severity": "major",
-      "source_quote": "they tend to focus on Paul",
-      "suggested_fix": "Traduzca «focus on Paul» como «centrarse en Pablo», no como «centrarse en Pablo» únicamente si el sentido se mantiene; la traducción actual de esta frase es fiel. No requiere corrección.",
-      "translation_quote": "tienden a centrarse en Pablo"
-    },
-    {
-      "location": "Cuerpo, párrafo sobre los Evangelios y el reino",
-      "severity": "major",
-      "source_quote": "Christ is central to interpreting, not only the New Testament, but actually the entire Bible.",
-      "suggested_fix": "Use «Cristo es fundamental para interpretar no solo el Nuevo Testamento, sino en realidad toda la Biblia», que conserva el alcance del original.",
-      "translation_quote": "Cristo es fundamental para interpretar no solo el Nuevo Testamento, sino en realidad toda la Biblia."
-    },
-    {
-      "location": "Cuerpo, párrafo sobre la relación entre reino e iglesia",
-      "severity": "major",
-      "source_quote": "the church is composed of those who are in the kingdom; those who, through the work of Christ, have submitted to the rule of God.",
-      "suggested_fix": "Conserve la relación expresada en el original; la traducción «está compuesta por quienes están en el reino: quienes… se han sometido» es fiel y no requiere corrección.",
-      "translation_quote": "está compuesta por quienes están en el reino: quienes, mediante la obra de Cristo, se han sometido al gobierno de Dios."
+      "source_quote": "an extreme focus on kingdom this and kingdom that, will by default cause Christians to ignore this Truth",
+      "suggested_fix": "Sustituir «el reino, esto y aquello» por una formulación que transmita el énfasis excesivo en distintos aspectos del reino, por ejemplo: «un enfoque extremo en esto y aquello del reino hará que, por defecto, los cristianos ignoren esta Verdad».",
+      "translation_quote": "un enfoque extremo en el reino, esto y aquello, hará que los cristianos, por defecto, ignoren esta Verdad"
     }
   ],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "cf1332ea94bf3463e2055e872a174961",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "spa",
@@ -214,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0831ff95490bffbe0e23f53ea5194e523e59b9c9715fefeab30577548f0a6209.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Children are the opposite”",
+      "severity": "major",
+      "source_quote": "“They are the emblem of innocence, dependance, and ignorance.”",
+      "suggested_fix": "Replace «σύμβολα αθωότητας, εξάρτησης και άγνοιας» with «σύμβολα αθωότητας, εξάρτησης και ανωριμότητας».",
+      "translation_quote": "«Είναι σύμβολα αθωότητας, εξάρτησης και άγνοιας.»"
+    },
+    {
+      "location": "Article body, paragraph beginning “Such are the sparrows” under “…Latter Ones”",
+      "severity": "major",
+      "source_quote": "“Folks stand for hours outside a store front in an effort to have the first chance at a bargain.”",
+      "suggested_fix": "Replace «προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία» with «προσπαθώντας να είναι οι πρώτοι που θα προλάβουν μια προσφορά».",
+      "translation_quote": "«προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία»"
+    },
+    {
+      "location": "Article body, paragraph beginning “The totalitarian governments”",
+      "severity": "major",
+      "source_quote": "“the vast ignorance and injustice of such prejudice precinct”",
+      "suggested_fix": "Replace «τέτοιων προκατειλημμένων περιοχών» with «τέτοιων προκατειλημμένων καθεστώτων».",
+      "translation_quote": "«τέτοιων προκατειλημμένων περιοχών»"
+    },
+    {
+      "location": "Article body, paragraph beginning “The woman who lost her silver”",
+      "severity": "major",
+      "source_quote": "“The woman who lost her silver searched her house until it was found”",
+      "suggested_fix": "Replace «Η γυναίκα που έχασε το ασημένιο νόμισμά της» with «Η γυναίκα που έχασε το ασημένιο νόμισμά της» only if the context clearly identifies it as a coin; otherwise use «Η γυναίκα που έχασε το ασήμι της» to avoid adding an object not stated in the source.",
+      "translation_quote": "«Η γυναίκα που έχασε το ασημένιο νόμισμά της»"
+    },
+    {
+      "location": "Article body, final paragraph",
+      "severity": "major",
+      "source_quote": "“he couldn’t unmold them to clasp the rope”",
+      "suggested_fix": "Replace «δεν μπορούσε να τα ξεκολλήσει για να πιάσει το σχοινί» with «δεν μπορούσε να τα ξεμουδιάσει για να πιάσει το σχοινί».",
+      "translation_quote": "«δεν μπορούσε να τα ξεκολλήσει για να πιάσει το σχοινί»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

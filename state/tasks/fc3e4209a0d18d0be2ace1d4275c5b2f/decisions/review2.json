@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Lyrics, stanza 2, line 5",
+      "severity": "minor",
+      "source_quote": "Beyond my highest joy / I prize her heav’nly ways,",
+      "suggested_fix": "Πάνω κι από τη μεγαλύτερή μου χαρά / εκτιμώ τους ουράνιους δρόμους της,",
+      "translation_quote": "Πάνω από τη μεγαλύτερή μου χαρά / αγαπώ τους ουράνιους δρόμους της,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5452fbc1-b17d-40a8-8ad2-7bca028fbc9e",
+    "response_id": "chatcmpl-EUsNQeciUDMRhfc9eEF4mKgh1ybBB",
+    "usage": {
+      "completion_tokens": 856,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 718,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3192,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3189,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4048
+    }
+  },
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 5",
+        "severity": "minor",
+        "source_quote": "one for out by the driveway",
+        "suggested_fix": "Replace «μία για έξω, κοντά στον ιδιωτικό δρόμο εισόδου του σπιτιού» with «μία για έξω, κοντά στον δρόμο πρόσβασης του σπιτιού», avoiding the unsupported detail that the driveway is private.",
+        "translation_quote": "μία για έξω, κοντά στον ιδιωτικό δρόμο εισόδου του σπιτιού"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

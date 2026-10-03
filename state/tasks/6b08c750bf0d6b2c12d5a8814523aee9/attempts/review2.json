@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article HTML, paragraph beginning “Before he became the apostle Paul” (Acts 9:20 quotation)\",\"severity\":\"major\",\"source_quote\":\"that he is the Son of God –Acts 9:20.\",\"suggested_fix\":\"Change the quoted clause to «diciendo que este es el Hijo de Dios» so it preserves the source’s present-tense assertion.\",\"translation_quote\":\"diciendo que éste era el Hijo de Dios –Hechos 9:20.\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 447,
+    "content_evidence_truncated": false,
+    "content_sha256": "73771443e900666bcbcd26634404b925ea79206eab858a9652b3fa7953d18417",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 641,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7662,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7659,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8303
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 1, kutipan Yakobus 1:2–4",
+      "severity": "major",
+      "source_quote": "“My brethren, count it all joy when ye fall into divers temptations; Knowing this, that the trying of your faith worketh patience. But let patience have her perfect work, that ye may be perfect and entire, wanting nothing”",
+      "suggested_fix": "Revisi kutipan agar mempertahankan makna teks sumber, misalnya: “Saudara-saudaraku, anggaplah sebagai suatu kebahagiaan apabila kamu menghadapi berbagai pencobaan, sebab kamu tahu bahwa ujian terhadap imanmu menghasilkan ketekunan. Biarkanlah ketekunan itu menyelesaikan pekerjaannya, supaya kamu menjadi sempurna dan utuh, tanpa kekurangan apa pun.”",
+      "translation_quote": "“Saudara-saudaraku, anggaplah sebagai suatu kebahagiaan apabila kamu jatuh ke dalam berbagai-bagai pencobaan, sebab kamu tahu bahwa ujian terhadap imanmu itu menghasilkan ketekunan. Dan biarkanlah ketekunan itu memperoleh buah yang matang, supaya kamu menjadi sempurna dan utuh dan tak kekurangan suatu apa pun”"
+    },
+    {
+      "location": "Paragraf 2, kutipan Filipi 4:11–13",
+      "severity": "major",
+      "source_quote": "“I can do all things through Christ which strengtheneth me.”",
+      "suggested_fix": "Ubah “melalui Kristus yang memberi kekuatan kepadaku” menjadi “di dalam Kristus yang memberi kekuatan kepadaku” atau ungkapan lain yang menyampaikan bahwa Kristuslah yang menguatkan penulis.",
+      "translation_quote": "“Segala perkara dapat kulakukan melalui Kristus yang memberi kekuatan kepadaku.”"
+    },
+    {
+      "location": "Paragraf 7, definisi “perspective”",
+      "severity": "minor",
+      "source_quote": "“a particular attitude toward, or way, of regarding something; a point of view”",
+      "suggested_fix": "Ganti “suatu cara pandang” yang mengulang istilah sebelumnya dengan “sudut pandang”.",
+      "translation_quote": "“sikap tertentu terhadap, atau cara memandang sesuatu; suatu cara pandang”"
+    },
+    {
+      "location": "Paragraf 7, perumpamaan kacamata",
+      "severity": "major",
+      "source_quote": "“the prescription of the glasses we have in front of our eyes causing us to see things in a distorted manner or with a clear 20/20 view”",
+      "suggested_fix": "Pertahankan gagasan tentang resep lensa yang membuat penglihatan terdistorsi atau jelas 20/20; misalnya, “resep lensa kacamata yang kita kenakan, yang membuat kita melihat segala sesuatu secara menyimpang atau dengan penglihatan yang jelas 20/20.”",
+      "translation_quote": "“resep kacamata yang kita kenakan di depan mata, yang membuat kita melihat segala sesuatu dengan cara yang menyimpang atau dengan penglihatan yang jelas dan sempurna”"
+    },
+    {
+      "location": "Paragraf 12, keluarga yang memilih menaati pemerintah",
+      "severity": "major",
+      "source_quote": "“There are families whose conscience chooses to obey the government in long-term mask wearing and social distancing.”",
+      "suggested_fix": "Ubah agar keputusan itu dikaitkan dengan hati nurani keluarga, bukan dengan makna “menurut hati nurani mereka” sebagai sisipan; misalnya, “Ada keluarga-keluarga yang hati nuraninya memilih untuk menaati pemerintah dengan memakai masker dan menjaga jarak sosial dalam jangka panjang.”",
+      "translation_quote": "“Ada keluarga-keluarga yang, menurut hati nurani mereka, memilih untuk menaati pemerintah dengan memakai masker dan menjaga jarak sosial dalam jangka panjang.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

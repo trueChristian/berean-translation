@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, dialoog over de predikant",
+      "severity": "major",
+      "source_quote": "“The minister said, ‘If you feel critical toward someone who is rejoicing, likely you are struggling with jealousy.’ I don’t remember anything else he said,” Sandra chucked, “but, I knew he had identified my problem.”",
+      "suggested_fix": "Behoud de vertaalde uitspraak en herstel de betekenis van de omliggende tekst: Sandra weet niet meer wat de predikant verder zei, en ze lachte. Bijvoorbeeld: ‘Ik weet niet meer wat hij verder zei,’ lachte Sandra, ‘maar ik wist dat hij mijn probleem had benoemd.’",
+      "translation_quote": "‘Ik weet niet meer wat hij verder zei,’ lachte Sandra, ‘maar ik wist dat hij mijn probleem had benoemd.’"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

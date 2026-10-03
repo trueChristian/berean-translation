@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Editor’s Note, Absatz 3\",\"severity\":\"major\",\"source_quote\":\"“Others lift up the ‘Sermon on the Mount,’ the ‘red letter Scriptures,’ or walking in the ‘footsteps of Jesus,’ without realizing that a default outcome of this focus tends to leave out specific teachings of the Epistles…”\",\"suggested_fix\":\"Ersetze „ohne zu erkennen, dass diese Konzentration zwangsläufig dazu führt, bestimmte Lehren der Briefe … auszulassen“ durch „ohne zu erkennen, dass eine typische Folge dieser Konzentration darin besteht, bestimmte Lehren der Briefe … auszulassen“; so bleibt die Aussage eine Tendenz und wird nicht zur unausweichlichen Folge.\",\"translation_quote\":\"„… ohne zu erkennen, dass diese Konzentration zwangsläufig dazu führt, bestimmte Lehren der Briefe über die praktische Gemeindearbeit und das christliche Leben auszulassen.“\"},{\"location\":\"Editor’s Note, Absatz 4\",\"severity\":\"major\",\"source_quote\":\"“They come to believe that the traditional way of having church the Anabaptist way is ‘not the way it used to be’ or ‘not according to the early church’.”\",\"suggested_fix\":\"Übersetze die beiden Zitate sinngemäß, etwa: „Sie kommen zu der Überzeugung, die traditionelle täuferische Art, Gemeinde zu leben, sei ‚nicht mehr so wie früher‘ oder ‚entspreche nicht der frühen Kirche‘.“\",\"translation_quote\":\"„Sie kommen zu der Überzeugung, die traditionelle Art, als Täufer Gemeinde zu haben, sei ‚nicht mehr so wie früher‘ oder ‚nicht gemäß der frühen Kirche‘.“\"},{\"location\":\"Editor’s Note, Absatz 5\",\"severity\":\"major\",\"source_quote\":\"“This manner of being an alone ‘local’ Christian is categorically opposite from the ‘group spirituality’…”\",\"suggested_fix\":\"Ändere „isolierter ‚örtlicher‘ Christ“ zu „alleinstehender ‚örtlicher‘ Christ“ oder „Christ, der als Einzelner zur Ortsgemeinde gehört“, damit der Gegensatz zur gemeinschaftlichen Spiritualität nicht als bloße soziale Isolation verstanden wird.\",\"translation_quote\":\"„Diese Art, als isolierter ‚örtlicher‘ Christ zu leben, steht kategorisch im Gegensatz zu der ‚Gruppenspiritualität‘…“\"},{\"location\":\"Editor’s Note, Absatz 7\",\"severity\":\"major\",\"source_quote\":\"“Many of these points will require their own complete article to sort out all the nuances, which we plan to do as the Lord continues to allow time to continue.”\",\"suggested_fix\":\"Korrigiere die Aussage über die geplanten Artikel und die Zeit, etwa: „Viele dieser Punkte erfordern jeweils einen eigenen vollständigen Artikel, um alle Feinheiten zu klären. Das haben wir vor, solange der Herr uns weiterhin Zeit dazu schenkt.“\",\"translation_quote\":\"„Viele dieser Punkte erfordern einen eigenen, vollständigen Artikel, um alle Feinheiten zu klären; das haben wir vor, wenn der Herr uns weiterhin Zeit dazu gewährt.“\"},{\"location\":\"Haupttext, Absatz „Do you want to work for the kingdom…?“\",\"severity\":\"major\",\"source_quote\":\"“Do you want to work for the kingdom (see Colossians 4:11)?”\",\"suggested_fix\":\"Korrigiere den Buchverweis auf „Kolosser 4:11“ nicht inhaltlich; die deutsche Fassung kann „Willst du für das Reich arbeiten (siehe Kolosser 4:11)?“ lauten. Behalte die angegebene Kapitel- und Verszahl bei.\",\"translation_quote\":\"„Willst du für das Reich arbeiten (siehe Kolosser 4:11)?“\"},{\"location\":\"Haupttext, Lied von Timothy Dwight, erste Strophe\",\"severity\":\"major\",\"source_quote\":\"“The church our blest Redeemer / Saved with His own precious blood.”\",\"suggested_fix\":\"Ändere „die Gemeinde, die unser seliger Erlöser / mit seinem kostbaren Blut gerettet hat“ zu „die Gemeinde, die unser gesegneter Erlöser / mit seinem kostbaren Blut gerettet hat“; „blest“ bedeutet hier gesegnet, nicht selig.\",\"translation_quote\":\"„die Gemeinde, die unser seliger Erlöser / mit seinem kostbaren Blut gerettet hat.“\"},{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"Church and Kingdom\",\"suggested_fix\":\"Für die gängige deutsche Bezeichnung im theologischen Kontext kann der Titel „Kirche und Reich“ lauten.\",\"translation_quote\":\"Gemeinde und Reich\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 4244,
+    "content_evidence_truncated": false,
+    "content_sha256": "96c4bf53babd3973a258fbe02a6ffdfb05ec45a785d97bcfbeac7ae22dffb0a4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 968,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8988,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9959
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

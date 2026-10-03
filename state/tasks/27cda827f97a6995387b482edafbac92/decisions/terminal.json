@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Ephesians 5:25–27 quotation and the immediately following underlined quotation",
+      "severity": "major",
+      "source_quote": "“not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish” / “holy and without blemish”",
+      "suggested_fix": "Replace “helig och fullkomlig” in both places with wording that conveys “holy and without blemish,” for example “helig och obefläckad.” Keep the existing HTML structure and Scripture reference unchanged.",
+      "translation_quote": "“utan fläck eller skrynkla eller något annat sådant, utan att den skulle vara helig och fullkomlig” / “utan fläck eller skrynkla eller något sådant, men helig och fullkomlig”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

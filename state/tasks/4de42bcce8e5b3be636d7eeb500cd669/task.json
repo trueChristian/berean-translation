@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 13429
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1297,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1006,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8694,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8691,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9991
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Throughout the article, including the opening quotation, the market-price paragraphs, the headings “...Two farthings,” and the final comparison",
+      "location": "Opening quotation, Matthew 10:29",
       "severity": "major",
-      "source_quote": "“two sparrows sold for a farthing”; “One copper farthing would purchase two sparrows”; “...Two farthings”",
-      "suggested_fix": "Replace “Groschen” with a German rendering of the source denomination, such as “Farthing” or “Viertelpenny,” throughout. For example, render the heading “...Zwei Groschen” as “...Zwei Farthings” or “...Zwei Viertelpennys.”",
-      "translation_quote": "“zwei Sperlinge für einen Groschen verkauft”; “Für einen Kupfergroschen konnte man zwei Sperlinge kaufen”; “...Zwei Groschen”"
+      "source_quote": "“one of them shall not fall on the ground without your Father”",
+      "suggested_fix": "Replace “ohne euren Vater zu Boden” with “zu Boden, ohne dass euer Vater es weiß” to convey the Father’s awareness, rather than suggesting the bird falls in the Father’s absence.",
+      "translation_quote": "“Und doch fällt keiner von ihnen ohne euren Vater zu Boden”"
+    },
+    {
+      "location": "Paragraph beginning “Sein Wohlgefallen gilt…”",
+      "severity": "major",
+      "source_quote": "“His delight is not merely in the sophisticated and prospering”",
+      "suggested_fix": "Replace “den Gebildeten und Wohlhabenden” with “den Anspruchsvollen und Erfolgreichen” to preserve the contrast with those who are considered successful or prosperous.",
+      "translation_quote": "“Sein Wohlgefallen gilt nicht nur den Gebildeten und Wohlhabenden”"
+    },
+    {
+      "location": "Heading for “Latter Ones”",
+      "severity": "minor",
+      "source_quote": "“…Latter Ones”",
+      "suggested_fix": "Use a natural German heading such as “…die Späteren” (or another contextually suitable rendering) instead of the awkward standalone “…Späteren”.",
+      "translation_quote": "“…Späteren”"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "4de42bcce8e5b3be636d7eeb500cd669",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "deu",
@@ -171,7 +206,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

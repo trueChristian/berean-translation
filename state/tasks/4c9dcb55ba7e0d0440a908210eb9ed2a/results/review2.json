@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1e7bcbc4-1746-4649-a7b7-1bd369a6504e",
+    "response_id": "chatcmpl-EUsNpUdgXsmqbKLHsozE7HqOi8nru",
+    "usage": {
+      "completion_tokens": 187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5576,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5573,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5763
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, dialoog over de predikant",
+        "severity": "major",
+        "source_quote": "“The minister said, ‘If you feel critical toward someone who is rejoicing, likely you are struggling with jealousy.’ I don’t remember anything else he said,” Sandra chucked, “but, I knew he had identified my problem.”",
+        "suggested_fix": "Behoud de vertaalde uitspraak en herstel de betekenis van de omliggende tekst: Sandra weet niet meer wat de predikant verder zei, en ze lachte. Bijvoorbeeld: ‘Ik weet niet meer wat hij verder zei,’ lachte Sandra, ‘maar ik wist dat hij mijn probleem had benoemd.’",
+        "translation_quote": "‘Ik weet niet meer wat hij verder zei,’ lachte Sandra, ‘maar ik wist dat hij mijn probleem had benoemd.’"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

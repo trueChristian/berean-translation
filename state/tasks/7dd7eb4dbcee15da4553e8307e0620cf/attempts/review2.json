@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, first dialogue quote about rejoicing\",\"severity\":\"major\",\"source_quote\":\"“rejoice with them that do rejoice,”\",\"suggested_fix\":\"Replace the quoted phrase with contemporary Modern Greek, for example: «να χαίρομαι μαζί με όσους χαίρονται».\",\"translation_quote\":\"“χαίρω μετά χαιρόντων”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 409,
+    "content_evidence_truncated": false,
+    "content_sha256": "e5742f494010ebb80e021efe98992a0e2ec1faa862c1937f4e1c8cf9de848439",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 660,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6703,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7475
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

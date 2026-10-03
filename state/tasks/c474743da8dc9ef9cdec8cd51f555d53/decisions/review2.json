@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Note de la rédaction, citation de 2 Timothée 3:16",
+      "severity": "major",
+      "source_quote": "“All scripture … is profitable for doctrine, for reproof, [and] for correction…” –2 Timothy 3:16",
+      "suggested_fix": "Remplacer « pour convaincre » par une traduction de « for reproof », par exemple « pour reprendre », en conservant le reste de la citation et la référence.",
+      "translation_quote": "« Toute Écriture […] est utile pour enseigner, pour convaincre, [et] pour corriger » –2 Timothée 3:16"
+    },
+    {
+      "location": "Premier intertitre, citation de Jean 16:12-13",
+      "severity": "major",
+      "source_quote": "“Howbeit when he, the Spirit of truth, is come…” –John 16:12-13",
+      "suggested_fix": "Supprimer « le consolateur, » : cette précision n’apparaît pas dans la citation anglaise. Conserver une formulation telle que « Quand l’Esprit de vérité sera venu… » et la référence existante.",
+      "translation_quote": "« Quand le consolateur, l’Esprit de vérité, sera venu… » –Jean 16:12-13"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “...Lesser Ones”",
+      "severity": "major",
+      "source_quote": "“a row of cottages for the blue bird”",
+      "suggested_fix": "Replace “deretan sangkar untuk burung biru” with “deretan rumah kecil untuk burung biru” to preserve the source’s image of cottages, rather than cages.",
+      "translation_quote": "“deretan sangkar untuk burung biru”"
+    },
+    {
+      "location": "Final HTML paragraph, Alex Posey’s description",
+      "severity": "major",
+      "source_quote": "“a Creek Indian poet”",
+      "suggested_fix": "Replace “penyair Indian Creek” with “penyair suku Creek” so Creek is identified as the Indigenous people, not as part of the name “Indian Creek.”",
+      "translation_quote": "“seorang penyair Indian Creek”"
+    },
+    {
+      "location": "HTML, paragraph under “...Little Ones”",
+      "severity": "minor",
+      "source_quote": "“For many wombs of the unborn, the life within is a cumbersome bother”",
+      "suggested_fix": "Rephrase narrowly to make clear that the source refers to people viewing unborn life as a burden, for example: “Bagi banyak orang, kehidupan dalam rahim dianggap sebagai beban yang tidak sepadan dengan pengorbanan untuk mempertahankannya.”",
+      "translation_quote": "“Bagi banyak rahim, kehidupan yang belum lahir di dalamnya merupakan beban yang tidak sepadan dengan pengorbanan yang diperlukan untuk mempertahankannya.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

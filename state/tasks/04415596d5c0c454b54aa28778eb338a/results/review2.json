@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6b5a6c0c-4a5f-4707-9676-59a34bed8d0a",
+    "response_id": "chatcmpl-EUsNvkWwwFSpGwQcthxaKqmaAgUZo",
+    "usage": {
+      "completion_tokens": 1111,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 689,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5834,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5831,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6945
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “We decide someone is proud…”",
+        "severity": "major",
+        "source_quote": "“a sister is a negligent homemaker”",
+        "suggested_fix": "Replace “mlinzi wa nyumba asiyejali” with “mama wa nyumbani asiyejali” to convey “negligent homemaker.”",
+        "translation_quote": "“dada ni mlinzi wa nyumba asiyejali”"
+      },
+      {
+        "location": "Dialogue paragraph beginning “That’s likely true”",
+        "severity": "major",
+        "source_quote": "“Don’t react to her behavior.”",
+        "suggested_fix": "Replace “Usijibu tabia yake kwa hasira” with “Usiitikie tabia yake” so the source instruction is not narrowed by adding “with anger.”",
+        "translation_quote": "“Usijibu tabia yake kwa hasira.”"
+      },
+      {
+        "location": "Paragraph beginning “The Bible describes the brutality…”",
+        "severity": "major",
+        "source_quote": "“Wrath is cruel, and anger is outrageous; but who is able to stand before envy? –Proverbs 27:4.”",
+        "suggested_fix": "Revise “hasira ni gharika” to convey that anger is outrageous or overwhelming, rather than saying that anger is a flood; retain the reference “Mithali 27:4.”",
+        "translation_quote": "“Ghadhabu ni kali, na hasira ni gharika; lakini ni nani awezaye kusimama mbele ya husuda? –Mithali 27:4.”"
+      },
+      {
+        "location": "Dialogue paragraph beginning “It was one point in a message”",
+        "severity": "minor",
+        "source_quote": "“If you feel critical toward someone who is rejoicing”",
+        "suggested_fix": "Consider “Ikiwa unamwona mtu anayeshangilia kwa jicho la ukosoaji” to preserve the sense of feeling critical toward that person, rather than judging them.",
+        "translation_quote": "“Ikiwa unamhukumu mtu anayeshangilia”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "第6段，《Conscience in Crisis》书名",
+      "severity": "major",
+      "source_quote": "a book titled Conscience in Crisis",
+      "suggested_fix": "将书名译为中文，例如“《良心的危机》”；书名应以中文呈现。",
+      "translation_quote": "书名是《良心的危机》。"
+    },
+    {
+      "location": "第9段，观点的比喻",
+      "severity": "major",
+      "source_quote": "the prescription of the glasses we have in front of our eyes causing us to see things in a distorted manner or with a clear 20/20 view",
+      "suggested_fix": "改为“这就像我们眼前眼镜的度数，会使我们以扭曲的方式看事物，或让我们看得清清楚楚”，保留“眼镜度数”这一比喻。",
+      "translation_quote": "这就像我们眼前眼镜的度数，会使我们以扭曲的方式看事物，或看得清清楚楚"
+    },
+    {
+      "location": "第10段，观点的形成因素",
+      "severity": "major",
+      "source_quote": "the reading material we absorbed",
+      "suggested_fix": "将“读过并吸收的材料”改为“我们阅读并吸收的读物”，明确指阅读材料。",
+      "translation_quote": "读过并吸收的材料"
+    },
+    {
+      "location": "第12段，选举相关争议",
+      "severity": "major",
+      "source_quote": "There are voices crying “foul” in their effort to gain support and an advantage against their opponents regarding voting rights, honesty of the election outcomes, and desired legislative changes to the judicial system and the Constitution.",
+      "suggested_fix": "将“选举权”改为“投票权”，并将“选举结果是否诚实”改为“选举结果是否公正可信”，以保留原文所说的投票权、选举结果诚信及相关立法改革争议。",
+      "translation_quote": "在选举权、选举结果是否诚实，以及司法制度和宪法所需的立法改革等问题上压过对手。"
+    },
+    {
+      "location": "第13段，偏离道路的比喻",
+      "severity": "major",
+      "source_quote": "pushing us off-course in our walk as strangers and pilgrims",
+      "suggested_fix": "将“开始使我们偏离道路，不再以客旅和寄居者的身份行走”改为“开始使我们作为客旅和寄居者的行走偏离正道”，避免暗示不再具有客旅和寄居者身份。",
+      "translation_quote": "开始使我们偏离道路，不再以客旅和寄居者的身份行走"
+    },
+    {
+      "location": "第15段，婚礼与葬礼规模",
+      "severity": "major",
+      "source_quote": "They can’t comprehend the large size of our weddings and especially our funerals.",
+      "suggested_fix": "将“我们的婚礼规模为何那么大，尤其是葬礼规模为何那么大”改为“我们的婚礼规模为何那么大，尤其无法理解我们葬礼的规模”，明确“especially”强调的是他们尤其无法理解葬礼规模。",
+      "translation_quote": "他们无法理解我们的婚礼规模为何那么大，尤其是葬礼规模为何那么大。"
+    },
+    {
+      "location": "第16段，正常敬拜",
+      "severity": "major",
+      "source_quote": "normal worship as we understand the Scriptures to teach",
+      "suggested_fix": "改为“我们按自己对圣经教导的理解所进行的正常敬拜”，保留原文“按我们对圣经教导的理解”这一限定。",
+      "translation_quote": "我们按着对圣经教导的理解所进行的正常敬拜"
+    },
+    {
+      "location": "第17段，长期戴口罩造成的影响",
+      "severity": "major",
+      "source_quote": "I believe it WILL cause as much and more detriment to interpersonal relationships.",
+      "suggested_fix": "将“相信这对人际关系造成的损害会同样严重，甚至更大”改为“我相信这确实会对人际关系造成同样严重、甚至更大的损害”，保留原文对必然影响的强调。",
+      "translation_quote": "相信这对人际关系造成的损害会同样严重，甚至更大。"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

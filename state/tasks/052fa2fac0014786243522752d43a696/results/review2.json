@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a45e5990-e88c-4cff-a607-27db6042f3ce",
+    "response_id": "chatcmpl-EUsNX6VVbeaB4mNBMgQIhYrUjJbqd",
+    "usage": {
+      "completion_tokens": 969,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5470,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5467,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6439
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Ich habe Berichte gehört …”",
+        "severity": "major",
+        "source_quote": "There are families whose conscience chooses to obey the government in long-term mask wearing and social distancing.",
+        "suggested_fix": "Ändere die Formulierung so, dass sie die Aussage des Originals wiedergibt, dass sich Familien aus Gewissensgründen dafür entscheiden, der Regierung durch langfristiges Maskentragen und Abstandhalten zu gehorchen. Zum Beispiel: „Es gibt Familien, die sich aus Gewissensgründen dafür entscheiden, der Regierung zu gehorchen und langfristig Masken zu tragen sowie Abstand zu halten.“",
+        "translation_quote": "Es gibt Familien, deren Gewissen ihnen gebietet, der Regierung zu gehorchen und langfristig Masken zu tragen sowie Abstand zu halten."
+      },
+      {
+        "location": "HTML, paragraph beginning “In unserer heutigen Welt …”",
+        "severity": "major",
+        "source_quote": "There are voices crying “foul” in their effort to gain support and an advantage against their opponents regarding voting rights, honesty of the election outcomes, and desired legislative changes to the judicial system and the Constitution.",
+        "suggested_fix": "Ersetze „Rechtmäßigkeit der Wahlergebnisse“ durch eine Formulierung, die die im Original genannte Ehrlichkeit beziehungsweise Wahrhaftigkeit der Wahlergebnisse wiedergibt, etwa „Ehrlichkeit der Wahlergebnisse“.",
+        "translation_quote": "Stimmen rufen „Unrecht!“, um Unterstützung und einen Vorteil gegenüber ihren Gegnern zu gewinnen – in Fragen des Wahlrechts, der Rechtmäßigkeit der Wahlergebnisse und der gewünschten Gesetzesänderungen am Justizsystem und an der Verfassung."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

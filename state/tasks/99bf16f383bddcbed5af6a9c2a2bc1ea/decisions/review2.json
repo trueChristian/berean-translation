@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html, paragraph beginning “Vitamin C is another thing…”",
+      "severity": "major",
+      "source_quote": "Studies seem to indicate that it is well tolerated and effective.",
+      "suggested_fix": "Translate this claim without changing its scope, for example: “अध्ययनों से लगता है कि यह अच्छी तरह सहन किया जाता है और प्रभावी है।”",
+      "translation_quote": "अध्ययनों से लगता है कि यह अच्छी तरह सहन होता है और प्रभावी है।"
+    },
+    {
+      "location": "source.html / translation.html, paragraph beginning “Zinc has been shown…”",
+      "severity": "major",
+      "source_quote": "I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.",
+      "suggested_fix": "Correct the instruction to preserve the source’s contrast between not taking zinc daily and taking more at the first symptom; for example: “मैं यहाँ सावधान करना चाहूँगा कि इसे हर दिन लेने के लिए नहीं बनाया गया है; बल्कि ऊपरी श्वसन तंत्र के संक्रमण का पहला लक्षण दिखाई देते ही इसे लेना चाहिए।”",
+      "translation_quote": "मैं यहाँ सावधान करना चाहूँगा कि इसे हर दिन लेने के लिए नहीं बनाया गया है, बल्कि ऊपरी श्वसन तंत्र का संक्रमण शुरू होने के पहले लक्षण पर अधिक लेना चाहिए।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

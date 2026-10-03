@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,81 +64,39 @@
         },
         "total_tokens": 13993
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 662,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 567,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8571,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8568,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9233
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Párrafo 1",
-      "severity": "major",
-      "source_quote": "“Are not two sparrows sold for a farthing? and one of them shall not fall on the ground without your Father”",
-      "suggested_fix": "Sustituir «una moneda» por «un cuadrante» (o el nombre convencional del equivalente monetario en español), conservando la referencia exacta «Mateo 10:29».",
-      "translation_quote": "«¿No se venden dos gorriones por una moneda?»"
-    },
-    {
-      "location": "Párrafo 3",
-      "severity": "major",
-      "source_quote": "“two were sold for a farthing (about a half cent)”",
-      "suggested_fix": "Traducir «farthing» con el mismo término monetario específico que en las demás menciones y conservar la explicación «(alrededor de medio centavo)».",
-      "translation_quote": "«se vendían dos por una moneda (alrededor de medio centavo)»"
-    },
-    {
-      "location": "Párrafo 4",
-      "severity": "major",
-      "source_quote": "“One copper farthing would purchase two sparrows. If they were to place two coins on the counter, they would receive four birds.”",
-      "suggested_fix": "Precisar la primera moneda como un cuadrante (o su equivalente convencional en español), manteniendo la relación de dos monedas por cuatro aves.",
-      "translation_quote": "«Una moneda de cobre les permitía comprar dos gorriones. Si ponían dos monedas sobre el mostrador, recibían cuatro aves.»"
-    },
-    {
-      "location": "Párrafo 4",
-      "severity": "major",
-      "source_quote": "“Like the present day ‘baker’s dozen’”",
-      "suggested_fix": "Traducir la expresión como «Como la docena del panadero de hoy», sin omitir el concepto de docena, que explica la costumbre de añadir una unidad.",
-      "translation_quote": "«Como la “docena del panadero” de hoy»"
-    },
-    {
-      "location": "Párrafo 5",
-      "severity": "major",
-      "source_quote": "“As a little boy with poor parents”",
-      "suggested_fix": "Reformular como «Como niño de padres pobres», para conservar que Jesús era un niño cuyos padres eran pobres; no atribuirle personalmente la pobreza.",
-      "translation_quote": "«Siendo un niño pequeño de padres pobres»"
-    },
-    {
-      "location": "Párrafo 8",
-      "severity": "major",
-      "source_quote": "“there was no one in attendance but himself and the director”",
-      "suggested_fix": "Cambiar «no había nadie presente, salvo él y el director» por «no había nadie presente aparte de él y el director» o «solo estaban presentes él y el director», evitando que «nadie» incluya también a esas dos personas.",
-      "translation_quote": "«no había nadie presente, salvo él y el director»"
-    },
-    {
-      "location": "Párrafo 13",
-      "severity": "major",
-      "source_quote": "“dependance”",
-      "suggested_fix": "Corregir «dependencia» por «dependencia» está ya bien traducido; no procede una corrección.",
-      "translation_quote": "«dependencia»"
-    },
-    {
-      "location": "Párrafo 17",
-      "severity": "major",
-      "source_quote": "“a mansion for the martins”",
-      "suggested_fix": "Traducir «martins» como «golondrinas» (aves conocidas en español), no como «vencejos».",
-      "translation_quote": "«una mansión para los vencejos»"
-    },
-    {
-      "location": "Párrafo 18",
-      "severity": "major",
-      "source_quote": "“Neither will the praise of a sparrow.”",
-      "suggested_fix": "Traducir «praise» como «elogio» o «alabanza» únicamente si se refiere a una alabanza que el gorrión ofrece; aquí debe conservarse el sentido de «el elogio de un gorrión» sin cambiar el referente.",
-      "translation_quote": "«Tampoco dejará pasar inadvertido el elogio de un gorrión.»"
-    },
-    {
-      "location": "Párrafo 23",
-      "severity": "major",
-      "source_quote": "“the fifth sparrow for free”",
-      "suggested_fix": "Hacer explícito que Dios añade/regala el quinto gorrión: «Dios añade gratis el quinto gorrión»; la versión actual puede sugerir que simplemente lo regala, sin conservar la imagen de añadirlo al trato.",
-      "translation_quote": "«la sonrisa pronta de Dios regala el quinto gorrión»"
+      "location": "HTML, paragraph beginning «El vínculo que se traza…»",
+      "severity": "minor",
+      "source_quote": "Mega churches have risen to console him.",
+      "suggested_fix": "Replace «meg iglesias» with «megaiglesias».",
+      "translation_quote": "Han surgido meg iglesias para consolarlo."
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "65f95db3a0374e913e6ef5d28927d09d",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "spa",
@@ -228,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

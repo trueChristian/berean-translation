@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,32 +64,54 @@
         },
         "total_tokens": 13698
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 378,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8745,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8742,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9123
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraphe sur les mégachurches",
+      "location": "Corps, paragraphe commençant « Les enfants sont tout le contraire »",
+      "severity": "major",
+      "source_quote": "For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.",
+      "suggested_fix": "Remplacer par : « Pour bien des femmes enceintes, la vie qu’elles portent est une gêne encombrante qui ne vaut pas le sacrifice nécessaire pour la garder. »",
+      "translation_quote": "Pour bien des femmes portant un enfant à naître, la vie qu’elles portent est une gêne encombrante qui ne vaut pas le sacrifice nécessaire pour la garder."
+    },
+    {
+      "location": "Corps, paragraphe commençant « Tels sont les moineaux. Le merle se vante… »",
+      "severity": "major",
+      "source_quote": "The robin boasts his red breast and the cardinal his red crest",
+      "suggested_fix": "Remplacer par : « Le rouge-gorge arbore fièrement sa poitrine rouge et le cardinal sa huppe rouge… »",
+      "translation_quote": "Le merle se vante de sa poitrine rouge et le cardinal de sa huppe rouge"
+    },
+    {
+      "location": "Corps, dernier paragraphe biographique",
       "severity": "minor",
-      "source_quote": "Mega churches have risen to console him.",
-      "suggested_fix": "Remplacer « Des még Églises ont vu le jour pour le réconforter » par « De grandes Églises ont vu le jour pour le réconforter » ou « Des még Églises ont vu le jour pour le réconforter » (sans espace après « még »).",
-      "translation_quote": "Des még Églises ont vu le jour pour le réconforter."
-    },
-    {
-      "location": "HTML, passage sur les lois concernant les enfants à naître",
-      "severity": "major",
-      "source_quote": "The laws of our land have legalized the murder of them if anyone cares not for their existence.",
-      "suggested_fix": "Traduire fidèlement l’affirmation du texte, par exemple : « Les lois de notre pays ont légalisé leur meurtre si quelqu’un ne se soucie pas de leur existence. »",
-      "translation_quote": "Les lois de notre pays ont légalisé leur meurtre si quelqu’un ne souhaite pas qu’ils vivent."
-    },
-    {
-      "location": "HTML, paragraphe sur les œuvres et activités para-ecclésiales",
-      "severity": "major",
-      "source_quote": "Para-church Outreaches, personal ministries, retreats, and seminars lend an exciting appeal, to religious zealots",
-      "suggested_fix": "Remplacer « attirent avec enthousiasme les zélotes religieux » par une formulation conservant l’idée que ces activités séduisent les zélotes religieux, par exemple : « exercent un attrait enthousiasmant sur les zélotes religieux ».",
-      "translation_quote": "Les œuvres para-ecclésiales, les ministères personnels, les retraites et les séminaires attirent avec enthousiasme les zélotes religieux"
+      "source_quote": "He held onto a branch of a tree until help came, but by the time they could throw him a rope his hands had paralyzed, and he couldn’t unmold them to clasp the rope",
+      "suggested_fix": "Remplacer « ses mains étaient paralysées et il ne pouvait les desserrer » par « ses mains s’étaient paralysées et il ne pouvait les déplier pour saisir la corde ».",
+      "translation_quote": "ses mains étaient paralysées et il ne pouvait les desserrer pour saisir la corde"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "956e83efa9f624b038f3b4a6948fbab8",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "fra",
@@ -179,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:04+00:00",
   "events": [
@@ -65,46 +64,31 @@
         },
         "total_tokens": 3581
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 551,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 519,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2041,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2038,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2592
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, shairi, ubeti wa pili, mstari wa kwanza",
-      "severity": "minor",
-      "source_quote": "I’m a little bit shallow, I admit,",
-      "suggested_fix": "Ninakiri, nina mawazo ya juujuu kidogo,",
-      "translation_quote": "Ni kweli, ninajifikiria sana,"
-    },
-    {
-      "location": "HTML, shairi, ubeti wa tatu, mstari wa kwanza",
-      "severity": "minor",
-      "source_quote": "About my life<br>are many others,",
-      "suggested_fix": "Katika maisha yangu<br>wapo wengine wengi,",
-      "translation_quote": "Wanaonizunguka maishani<br>ni wengi,"
-    },
-    {
-      "location": "HTML, shairi, ubeti wa nne, mstari wa pili",
-      "severity": "minor",
-      "source_quote": "Making each of us, something new.",
-      "suggested_fix": "Akitufinyanga kila mmoja upya.",
-      "translation_quote": "Akitufanya kila mmoja kuwa mpya."
-    },
-    {
-      "location": "HTML, shairi, ubeti wa sita, mstari wa pili",
-      "severity": "major",
-      "source_quote": "Changes the course of other’s clay,",
-      "suggested_fix": "Hubadili umbo la udongo wa wengine,",
-      "translation_quote": "Yanaubadili mwelekeo wa udongo wa wengine,"
-    },
-    {
-      "location": "HTML, shairi, ubeti wa sita, mstari wa nne",
-      "severity": "minor",
-      "source_quote": "Lest other’s pots become concave.",
-      "suggested_fix": "Ili vyungu vya wengine visiwe na umbo la ndani lililopinda.",
-      "translation_quote": "Ili vyungu vya wengine visipinde kuelekea ndani."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "e7a7abad82e2996a6bf261d731330a88",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "swa",
@@ -193,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fec2dd1703a9aded162631be7f3af606fa01a3b491621e431543b667d23c75a4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bc9ecc613f1817378c3fc3dba2a55f8d1cc93b689cd94f6882b88808bf6a0937",
   "translation_model_actual": "gpt-6-luna"

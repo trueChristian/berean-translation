@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, verse 2, final line\",\"severity\":\"minor\",\"source_quote\":\"Her hymns of love and praise.\",\"suggested_fix\":\"Replace only this phrase with «محبت اور ستائش سے بھرے اس کے گیت» so the wording clearly describes hymns characterized by love and praise.\",\"translation_quote\":\"اس کے محبت اور ستائش کے گیت۔\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 402,
+    "content_evidence_truncated": false,
+    "content_sha256": "d4181e4099add15440a3a77a6ec526efcf0197be492794a704e3304620616203",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1872,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1869,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2647
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "正文，第1段",
+      "severity": "minor",
+      "source_quote": "We cannot speak of confidence without mentioning Caleb and Joshua, who after hearing all their comrades give their doubting reports, confidently described what they should do with this new land of Canaan",
+      "suggested_fix": "将“满怀信心地说出了他们该如何对待这片新的迦南地”改为“满怀信心地说出了他们该如何处置这片新的迦南地”或“满怀信心地说出了他们该如何进取这片新的迦南地”，以表达他们主张上去占领迦南地。",
+      "translation_quote": "他们听见所有同伴报出怀疑的消息后，却满怀信心地说出了他们该如何对待这片新的迦南地"
+    },
+    {
+      "location": "正文，第6段",
+      "severity": "minor",
+      "source_quote": "The next verse says the people were amazed, then in verse 23, five verses after he was baptized",
+      "suggested_fix": "将“到了第23节，也就是他受洗后五节经文”改为“到了第23节，也就是他受洗后过了五节经文”，避免误读为受洗后仅隔五节便发生。",
+      "translation_quote": "到了第23节，也就是他受洗后五节经文"
+    },
+    {
+      "location": "正文，第10段",
+      "severity": "major",
+      "source_quote": "but it did not faze stop them.",
+      "suggested_fix": "按上下文改为“但这些都没有使他们退缩”，保留原文虽有笔误但意为“没有动摇/阻止他们”的意思；不要译成“没有使他们退缩”以外的相反含义。",
+      "translation_quote": "但这些都没有使他们退缩。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

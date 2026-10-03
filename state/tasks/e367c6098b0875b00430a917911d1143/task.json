@@ -2,7 +2,6 @@
   "article_id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,32 +64,31 @@
         },
         "total_tokens": 9075
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5675,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5672,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6213
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html 및 translation.html, 두 번째 문단의 인용문",
-      "severity": "major",
-      "source_quote": "“I can do all things through Christ which strengtheneth me.”",
-      "suggested_fix": "인용문을 다음과 같이 고치세요: “내게 능력 주시는 그리스도 안에서 나는 모든 것을 할 수 있느니라.”를 “내게 능력 주시는 그리스도로 말미암아 나는 모든 것을 할 수 있느니라.”로 수정합니다.",
-      "translation_quote": "내게 능력 주시는 그리스도 안에서 나는 모든 것을 할 수 있느니라."
-    },
-    {
-      "location": "source.html 및 translation.html, “Our Perspective Matters” 아래 두 번째 문단",
-      "severity": "major",
-      "source_quote": "“how we interact with God”",
-      "suggested_fix": "“하나님과 교제하는 방식”을 “하나님과 상호작용하는 방식” 또는 “하나님과 관계 맺는 방식”으로 수정하세요.",
-      "translation_quote": "하나님과 교제하는 방식"
-    },
-    {
-      "location": "source.html 및 translation.html, “Our Perspective Matters” 아래 세 번째 문단",
-      "severity": "major",
-      "source_quote": "“There’s race discrimination on both sides of the matter.”",
-      "suggested_fix": "“인종 차별은 양쪽 모두에서 나타납니다”를 “이 사안의 양쪽 모두에 인종 차별이 있습니다”로 수정하세요. 현재 번역은 양쪽 모두가 인종 차별을 한다는 뜻으로 읽혀 원문의 ‘양측에 차별이 있다’는 진술을 더 강한 비난으로 바꿉니다.",
-      "translation_quote": "인종 차별은 양쪽 모두에서 나타납니다."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "e367c6098b0875b00430a917911d1143",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "kor",
@@ -179,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08023a05d53dc6bd22a9177fbda131edfdc7c55d1f65f9b60a5d0b2ca28e7dfc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 15207
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html / corresponding translation.html, paragraph beginning “It is probably best to get this from a combination…”",
-      "severity": "major",
-      "source_quote": "While it is probably best to get this from a combination of food and sun exposure, including supplements of Vitamin D may be helpful for older people or for anyone who has trouble achieving this.",
-      "suggested_fix": "Replace only the corresponding Norwegian sentence with: «Selv om det sannsynligvis er best å få dette fra en kombinasjon av mat og soleksponering, kan det være nyttig å ta D-vitamintilskudd for eldre eller for alle som har problemer med å få til dette.»",
-      "translation_quote": "Selv om det sannsynligvis er best å få det fra en kombinasjon av mat og soleksponering, kan vitamin D-tilskudd være nyttig for eldre eller for alle som har problemer med å få i seg nok på denne måten."
     },
     {
-      "location": "source.html / corresponding translation.html, final substantive paragraph",
-      "severity": "major",
-      "source_quote": "It is important that we are conscious of ways in which we can help, and not impede, these wonderfully designed cells and structures that prevent damaging organisms from entering our bodies and causing infection.",
-      "suggested_fix": "Replace only the corresponding Norwegian sentence with: «Det er viktig at vi er bevisste på hvordan vi kan hjelpe disse underfullt utformede cellene og strukturene, og ikke hindre dem i å forhindre at skadelige organismer trenger inn i kroppen og forårsaker infeksjon.»",
-      "translation_quote": "Det er viktig at vi er bevisste på hvordan vi kan hjelpe disse underfullt utformede cellene og strukturene, og ikke hindre dem i å stoppe skadelige organismer fra å trenge inn i kroppen og forårsake infeksjon."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 659,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9658,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9655,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10317
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Opening Scripture quotation (Psalm 139:14); the same wording recurs near the end of the article.",
+      "severity": "major",
+      "source_quote": "“fearfully and wonderfully made”",
+      "suggested_fix": "Replace «skapt på skremmende og underfullt vis» with «skapt på underfullt og forunderlig vis» (or another Bokmål rendering that conveys being wondrously made without suggesting being frightening). Make the same correction to the repeated wording near the end.",
+      "translation_quote": "«skapt på skremmende og underfullt vis»"
+    }
+  ],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "ac83b026670a17422a146e34b4830843",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "nob",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3d4ff54d38135b804080e8a3164c60951764437616b654687f2332c06c69e7ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
   "translation_model_actual": "gpt-6-luna"

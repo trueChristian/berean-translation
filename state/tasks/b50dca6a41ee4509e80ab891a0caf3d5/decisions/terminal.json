@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Dios creó nuestro cuerpo con varios sistemas diferentes»",
+      "severity": "minor",
+      "source_quote": "We are indeed fearfully and wonderfully made.",
+      "suggested_fix": "Cambiar «En verdad, somos hechos de manera asombrosa y maravillosa» por «En verdad, fuimos creados de manera asombrosa y maravillosa».",
+      "translation_quote": "En verdad, somos hechos de manera asombrosa y maravillosa."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

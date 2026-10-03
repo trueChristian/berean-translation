@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, second stanza\",\"severity\":\"major\",\"source_quote\":\"I’m a little bit shallow, I admit,\",\"suggested_fix\":\"Replace «Признаюсь, я немного эгоистична,» with «Признаюсь, я бываю немного поверхностна,» to convey “shallow” without changing it to “selfish.”\",\"translation_quote\":\"Признаюсь, я немного эгоистична,\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 479,
+    "content_evidence_truncated": false,
+    "content_sha256": "b3d3e019be975188999805cf73a7e07aa29ad569be0e4c6f9671d372df7dff7c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 449,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2026,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2023,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2594
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

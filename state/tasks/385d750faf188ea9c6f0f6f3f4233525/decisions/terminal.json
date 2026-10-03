@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "正文：与同事对话段落",
+      "severity": "major",
+      "source_quote": "“The cover design is tacky, there is a misspelling on page 11’, I should have said this, this, and this.”",
+      "suggested_fix": "将“我本该说这个、那个，还有这个”改为“我本该说：‘封面设计俗气，第11页有个拼写错误’；我本该说这个、那个，还有这个”，以保留引述与后续列举的关系。",
+      "translation_quote": "“封面设计俗气，第11页有个拼写错误”，我本该说这个、那个，还有这个。"
+    },
+    {
+      "location": "正文：谈及同辈欢喜的段落",
+      "severity": "major",
+      "source_quote": "“Generally, we aren’t envious of people that we’re not close to.”",
+      "suggested_fix": "将“我们不会嫉妒与自己不亲近的人”改为“通常，我们不会嫉妒与自己不亲近的人”，保留“generally”的限定语气。",
+      "translation_quote": "一般来说，我们不会嫉妒与自己不亲近的人。"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

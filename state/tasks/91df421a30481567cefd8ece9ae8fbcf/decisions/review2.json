@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html / primo paragrafo",
+      "severity": "major",
+      "source_quote": "I will praise thee; for I am fearfully and wonderfully made",
+      "suggested_fix": "Sostituire l’inizio della citazione con «Ti loderò, perché sono fatto in modo meraviglioso e stupendo»; preservare il resto della frase e il tag <em>.",
+      "translation_quote": "Ti loderò, perché sono stato fatto in modo meraviglioso e stupendo"
+    },
+    {
+      "location": "source.html / sezione «In principio»",
+      "severity": "major",
+      "source_quote": "all of Creation was working together",
+      "suggested_fix": "Sostituire «tutta la Creazione funzionava in armonia» con «tutta la Creazione funzionava insieme», così da non aggiungere l’idea di armonia.",
+      "translation_quote": "tutta la Creazione funzionava in armonia"
+    },
+    {
+      "location": "source.html / sezione «Dormi abbastanza (e bene)», paragrafo sul sonno",
+      "severity": "major",
+      "source_quote": "the cutoff point seemed to be around six hours for adults",
+      "suggested_fix": "Sostituire «La soglia sembrava aggirarsi intorno alle sei ore» con «Il limite sembrava essere di circa sei ore», mantenendo il riferimento alla soglia temporale di sonno.",
+      "translation_quote": "La soglia sembrava aggirarsi intorno alle sei ore"
+    },
+    {
+      "location": "source.html / sezione «Ridurre il consumo di zuccheri», paragrafo sulla fagocitosi",
+      "severity": "major",
+      "source_quote": "(the process of swallowing)",
+      "suggested_fix": "Sostituire «(il processo di ingestione)» con «(il processo di inglobamento)» per rendere il significato specifico di fagocitosi.",
+      "translation_quote": "(il processo di ingestione)"
+    },
+    {
+      "location": "source.html / sezione «Integratori mirati», paragrafo sullo zinco",
+      "severity": "major",
+      "source_quote": "Zinc has been shown (short term) to reduce duration of colds.",
+      "suggested_fix": "Sostituire «ha dimostrato di ridurre (nel breve periodo) la durata dei raffreddori» con «ha dimostrato, se assunto a breve termine, di ridurre la durata dei raffreddori».",
+      "translation_quote": "ha dimostrato di ridurre (nel breve periodo) la durata dei raffreddori"
+    },
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "A Healthy Immune System",
+      "suggested_fix": "Sostituire con «Un sistema immunitario in salute» oppure «Un sistema immunitario sano».",
+      "translation_quote": "Un sistema immunitario sano"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

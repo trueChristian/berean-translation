@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, dialoog over de predikant\",\"severity\":\"major\",\"source_quote\":\"“The minister said, ‘If you feel critical toward someone who is rejoicing, likely you are struggling with jealousy.’ I don’t remember anything else he said,” Sandra chucked, “but, I knew he had identified my problem.”\",\"suggested_fix\":\"Behoud de vertaalde uitspraak en herstel de betekenis van de omliggende tekst: Sandra weet niet meer wat de predikant verder zei, en ze lachte. Bijvoorbeeld: ‘Ik weet niet meer wat hij verder zei,’ lachte Sandra, ‘maar ik wist dat hij mijn probleem had benoemd.’\",\"translation_quote\":\"‘Ik weet niet meer wat hij verder zei,’ lachte Sandra, ‘maar ik wist dat hij mijn probleem had benoemd.’\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 779,
+    "content_evidence_truncated": false,
+    "content_sha256": "8d56409b5d647216a4c914ca8d292615edaebf367e42d3e1e8f2dc2656d96fe6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5576,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5573,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5763
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

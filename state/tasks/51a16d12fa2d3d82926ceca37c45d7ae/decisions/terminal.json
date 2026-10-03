@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Luke 12:7",
+      "severity": "major",
+      "source_quote": "ye are of more value than many sparrows",
+      "suggested_fix": "Change “ninyi ni bora kuliko shomoro wengi” to “ninyi mna thamani kuliko shomoro wengi” to preserve the comparison of value.",
+      "translation_quote": "ninyi ni bora kuliko shomoro wengi"
+    },
+    {
+      "location": "Paragraph describing the market prices and the free fifth sparrow; also heading “...Two farthings”",
+      "severity": "major",
+      "source_quote": "One copper farthing would purchase two sparrows. If they were to place two coins on the counter, they would receive four birds.",
+      "suggested_fix": "Use a consistent Kiswahili rendering for the historical coin, such as “farthingi”: change “senti moja ya shaba” to “farthingi moja ya shaba,” “senti mbili” in the quoted Luke passage to “farthingi mbili,” and the heading “...Senti Mbili” to “...Farthingi Mbili.” The source identifies a farthing as about half a cent, so translating it as one cent changes the stated price.",
+      "translation_quote": "Senti moja ya shaba ingenunua shomoro wawili. Kama wangeweka sarafu mbili kaunta ... <h2>…Senti Mbili</h2>"
+    },
+    {
+      "location": "Alt text for the second image",
+      "severity": "minor",
+      "source_quote": "A sparrow standing on moss beside water",
+      "suggested_fix": "Translate “moss” into Kiswahili, for example: “Shomoro amesimama juu ya manyoya ya moss kando ya maji” (or another clear Kiswahili term for moss).",
+      "translation_quote": "Shomoro amesimama juu ya moss kando ya maji"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -6,6 +6,12 @@
       "campaign": "gh-37109077881",
       "event": "requested",
       "task": "71313d71ac5c36c8aa20c95647caa675"
+    },
+    {
+      "at": "2026-10-03T16:46:14+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[20]; missing: none; extra: !invalid[deu] 1 Samuel 8, ",
+      "task": "71313d71ac5c36c8aa20c95647caa675"
     }
   ],
   "language": "deu",

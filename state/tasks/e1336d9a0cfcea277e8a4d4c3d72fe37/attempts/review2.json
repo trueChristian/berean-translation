@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, opening paragraph (Psalm 139:14)\",\"severity\":\"minor\",\"source_quote\":\"“fearfully and wonderfully made”\",\"suggested_fix\":\"Replace «με θαυμαστό και εκπληκτικό τρόπο» with «με τρόπο θαυμαστό και φοβερό» to retain the source’s sense of being made awe-inspiringly as well as wonderfully.\",\"translation_quote\":\"«με έπλασες με θαυμαστό και εκπληκτικό τρόπο»\"},{\"location\":\"source.html, concluding paragraph beginning “God made our bodies…”\",\"severity\":\"minor\",\"source_quote\":\"“We are indeed fearfully and wonderfully made.”\",\"suggested_fix\":\"Replace «Πράγματι, είμαστε πλασμένοι με θαυμαστό και εκπληκτικό τρόπο.» with «Πράγματι, είμαστε πλασμένοι με τρόπο θαυμαστό και φοβερό.»\",\"translation_quote\":\"«Πράγματι, είμαστε πλασμένοι με θαυμαστό και εκπληκτικό τρόπο.»\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1093,
+    "content_evidence_truncated": false,
+    "content_sha256": "b09c5da1d1cecaaeaf17d4ce8f8cbdea7d516b2caaf886f839548d57895ea847",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 607,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11516,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11513,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12365
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

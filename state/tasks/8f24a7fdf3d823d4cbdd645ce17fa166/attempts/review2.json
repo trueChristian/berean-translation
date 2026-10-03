@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html, paragraph beginning “The message of the sparrow”\",\"severity\":\"major\",\"source_quote\":\"“it is the simple truths that give God His greatness.”\",\"suggested_fix\":\"Replace “sono le verità semplici a rendere grande Dio” with “sono le verità semplici a rivelare la grandezza di Dio” to preserve the meaning without implying that truths make God great.\",\"translation_quote\":\"“sono le verità semplici a rendere grande Dio.”\"}],\"passed\":false,\"score\":96}",
+    "content_bytes": 524,
+    "content_evidence_truncated": false,
+    "content_sha256": "024cb8b2efa47f7cb4fee68763d17229d38134af5c25591ad695e324a1e6729b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 714,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8857,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9710
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

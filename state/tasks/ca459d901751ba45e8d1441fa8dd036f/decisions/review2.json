@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Editor’s Note, paragraph 5",
+      "severity": "minor",
+      "source_quote": "Many of these individuals are interacting and fellowshipping so closely with others from various other groups and churches instead of their own home church",
+      "suggested_fix": "Replace “hushirikiana na kufellowship kwa ukaribu sana” with “hushirikiana kwa ukaribu sana” (or “wana ushirika wa karibu sana”).",
+      "translation_quote": "Wengi wa watu hawa hushirikiana na kufellowship kwa ukaribu sana na wengine kutoka vikundi na makanisa mengine mbalimbali badala ya kanisa lao la nyumbani"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

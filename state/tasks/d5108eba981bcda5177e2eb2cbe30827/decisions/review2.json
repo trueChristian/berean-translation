@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second paragraph",
+      "severity": "minor",
+      "source_quote": "Normally, these bacteria aren’t toxic until they get out of balance or get to a place where they are not intended to be.",
+      "suggested_fix": "Normally, essas bactérias não são tóxicas até que haja um desequilíbrio entre elas ou que cheguem a um lugar onde não deveriam estar.",
+      "translation_quote": "Normalmente, essas bactérias não são tóxicas até que se desequilibrem ou cheguem a um lugar onde não deveriam estar."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

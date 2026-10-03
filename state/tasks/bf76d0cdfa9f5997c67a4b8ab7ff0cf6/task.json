@@ -2,7 +2,6 @@
   "article_id": "10d20eec-3e71-404f-9f8d-8068b010381e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 9027
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 775,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 743,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5808,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5805,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6583
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Ephesians 2:10, quoted passage",
-      "severity": "major",
-      "source_quote": "“which God hath before ordained that we should walk in them”",
-      "suggested_fix": "Change “wat God voorberei het” to “wat God vooraf voorberei het” so the translation retains the source’s “beforehand” meaning.",
-      "translation_quote": "“goeie werke wat God voorberei het, sodat ons daarin kan wandel”"
-    },
-    {
-      "location": "Paragraph beginning “There were friends in the same church”",
-      "severity": "minor",
-      "source_quote": "“each had a daughter of dating age”",
-      "suggested_fix": "Replace “’n dogter van hubare ouderdom” with “’n dogter wat oud genoeg was om uit te gaan” to convey dating age rather than marriageable age.",
-      "translation_quote": "“elkeen ’n dogter van hubare ouderdom gehad het”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "bf76d0cdfa9f5997c67a4b8ab7ff0cf6",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "afr",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"

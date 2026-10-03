@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.section / translation.section\",\"severity\":\"minor\",\"source_quote\":\"Featured Article\",\"suggested_fix\":\"Use a more standard Afrikaans equivalent for the section label, such as “Hoofartikel”.\",\"translation_quote\":\"Uitgesoekte artikel\"},{\"location\":\"source.html, paragraph beginning “Such are the sparrows. The robin boasts…”\",\"severity\":\"minor\",\"source_quote\":\"The robin boasts his red breast\",\"suggested_fix\":\"Translate “robin” as “rooiborslyster” to distinguish the American robin from a starling.\",\"translation_quote\":\"Die rooiborsspreeu spog met sy rooi bors\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 638,
+    "content_evidence_truncated": false,
+    "content_sha256": "0cf56bb2a019829a4989c482660ead5c62922081f5a993f2b63c34c100da99e6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1095,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 932,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9104,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9101,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10199
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Children are the opposite,” quoted Mark 10:13",
+      "severity": "major",
+      "source_quote": "And they [mothers] brought young children to him",
+      "suggested_fix": "Replace the quoted Hebrew with: וְהֵן [הָאִמָּהוֹת] הֵבִיאוּ אֵלָיו יְלָדִים, כְּדֵי שֶׁיִּגַּע בָּהֶם [יֵשׁוּעַ]; וְתַלְמִידָיו גָּעֲרוּ בַּמְּבִיאוֹת. Keep the existing reference Mark 10:13 unchanged.",
+      "translation_quote": "וַיָּבִיאוּ אֵלָיו יְלָדִים [אִמּוֹתֵיהֶם], לְמַעַן יִגַּע בָּהֶם [יֵשׁוּעַ]; וְהַתַּלְמִידִים גָּעֲרוּ בְּמֵבִיאֵיהֶם –מרקוס 10:13."
+    },
+    {
+      "location": "Paragraph beginning “Such are the sparrows,” discussing people valued as a resource",
+      "severity": "minor",
+      "source_quote": "Those that are useful are esteemed highly, but those who are not, are ignored.",
+      "suggested_fix": "Change the ending to: אך מתעלמים ממי שאינם מועילים.",
+      "translation_quote": "מי שמועילים זוכים להערכה רבה, אך את מי שאינם מועילים מתעלמים."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article opening, first paragraph (Matthew 10:29 quotation)",
+      "severity": "major",
+      "source_quote": "and one of them shall not fall on the ground without your Father",
+      "suggested_fix": "Replace “utan er Faders vilja” with “utan er Fader” to preserve the source’s wording and avoid adding an assertion about the Father’s will.",
+      "translation_quote": "Och inte en enda av dem faller till marken utan er Faders vilja"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

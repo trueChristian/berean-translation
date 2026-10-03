@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e0757d14-a731-4b7e-98db-eba187e21459",
+    "response_id": "chatcmpl-EUsNSqmfgB1Vy5vlRtXb7KP642kku",
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 497,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1769,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1766,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2371
+    }
+  },
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, verse 2, final line",
+        "severity": "minor",
+        "source_quote": "Her hymns of love and praise.",
+        "suggested_fix": "Translate this as hymns characterized by love and praise, for example: «hennes salmer preget av kjærlighet og lovprisning.»",
+        "translation_quote": "hennes lovsanger om kjærlighet og lovprisning."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

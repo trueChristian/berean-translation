@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "af7f677c-3859-48e3-bfb6-81895f46067c",
+    "response_id": "chatcmpl-EUsNBt2OO9LPRr2eQer2TlBHO28NQ",
+    "usage": {
+      "completion_tokens": 1106,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 705,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9149,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9146,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10255
+    }
+  },
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph quoting Luke 12:7",
+        "severity": "major",
+        "source_quote": "ye are of more value than many sparrows",
+        "suggested_fix": "Change “ninyi ni bora kuliko shomoro wengi” to “ninyi mna thamani kuliko shomoro wengi” to preserve the comparison of value.",
+        "translation_quote": "ninyi ni bora kuliko shomoro wengi"
+      },
+      {
+        "location": "Paragraph describing the market prices and the free fifth sparrow; also heading “...Two farthings”",
+        "severity": "major",
+        "source_quote": "One copper farthing would purchase two sparrows. If they were to place two coins on the counter, they would receive four birds.",
+        "suggested_fix": "Use a consistent Kiswahili rendering for the historical coin, such as “farthingi”: change “senti moja ya shaba” to “farthingi moja ya shaba,” “senti mbili” in the quoted Luke passage to “farthingi mbili,” and the heading “...Senti Mbili” to “...Farthingi Mbili.” The source identifies a farthing as about half a cent, so translating it as one cent changes the stated price.",
+        "translation_quote": "Senti moja ya shaba ingenunua shomoro wawili. Kama wangeweka sarafu mbili kaunta ... <h2>…Senti Mbili</h2>"
+      },
+      {
+        "location": "Alt text for the second image",
+        "severity": "minor",
+        "source_quote": "A sparrow standing on moss beside water",
+        "suggested_fix": "Translate “moss” into Kiswahili, for example: “Shomoro amesimama juu ya manyoya ya moss kando ya maji” (or another clear Kiswahili term for moss).",
+        "translation_quote": "Shomoro amesimama juu ya moss kando ya maji"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

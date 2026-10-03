@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "18e10ad7-be92-40f0-8b5c-cca4db3a9f17",
+    "response_id": "chatcmpl-EUsNP669RfTxTM8fDaojLmnxwo3Xa",
+    "usage": {
+      "completion_tokens": 1095,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 932,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9104,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9101,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10199
+    }
+  },
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "Featured Article",
+        "suggested_fix": "Use a more standard Afrikaans equivalent for the section label, such as “Hoofartikel”.",
+        "translation_quote": "Uitgesoekte artikel"
+      },
+      {
+        "location": "source.html, paragraph beginning “Such are the sparrows. The robin boasts…”",
+        "severity": "minor",
+        "source_quote": "The robin boasts his red breast",
+        "suggested_fix": "Translate “robin” as “rooiborslyster” to distinguish the American robin from a starling.",
+        "translation_quote": "Die rooiborsspreeu spog met sy rooi bors"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,60 +64,31 @@
         },
         "total_tokens": 12349
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 623,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 591,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7559,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7556,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8182
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraf kutipan Amsal 4:23",
-      "severity": "major",
-      "source_quote": "Keep thy heart with all diligence; for out of it are the issues of life –Proverbs 4:23.",
-      "suggested_fix": "Ganti kutipan dengan terjemahan yang mempertahankan makna “jagalah hatimu dengan segala kewaspadaan, sebab dari situlah terpancar sumber-sumber kehidupan,” misalnya: «Jagalah hatimu dengan segala kewaspadaan, karena dari situlah terpancar sumber kehidupan –Amsal 4:23.»",
-      "translation_quote": "Jagalah hatimu dengan segala kewaspadaan, karena dari situlah terpancar kehidupan –Amsal 4:23."
-    },
-    {
-      "location": "HTML, paragraf tentang keinginan dan Markus 12:30",
-      "severity": "major",
-      "source_quote": "…with all thy soul, and with all thy mind, and with all thy strength… –Mark 12:30",
-      "suggested_fix": "Pertahankan rujukan Markus 12:30, tetapi terjemahkan kutipan sesuai teks sumber sebagai fragmen yang menyebut jiwa, pikiran, dan kekuatan: «…dengan segenap jiwamu, dengan segenap pikiranmu, dan dengan segenap kekuatanmu… –Markus 12:30»; jangan mengganti “pikiran” dengan “akal budi.”",
-      "translation_quote": "…dengan segenap jiwamu, dengan segenap akal budimu, dan dengan segenap kekuatanmu… –Markus 12:30"
-    },
-    {
-      "location": "HTML, paragraf tentang pekerjaan sebagai cara melakukan pekerjaan Allah",
-      "severity": "major",
-      "source_quote": "Instead, we should see our job as a way of doing God’s work by being a light and encouragement to the ones around us.",
-      "suggested_fix": "Terjemahkan “our job” sebagai pekerjaan kita, bukan pekerjaan Allah. Misalnya: «Sebaliknya, kita seharusnya memandang pekerjaan kita sebagai cara untuk melakukan pekerjaan Allah dengan menjadi terang dan memberi semangat kepada orang-orang di sekitar kita.»",
-      "translation_quote": "Sebaliknya, kita seharusnya memandang pekerjaan sebagai cara untuk melakukan pekerjaan Allah dengan menjadi terang dan memberi semangat kepada orang-orang di sekitar kita."
-    },
-    {
-      "location": "HTML, paragraf tentang kepemimpinan demi reputasi",
-      "severity": "major",
-      "source_quote": "However, it is a wrong desire to want leadership for our own reputation, which is pride.",
-      "suggested_fix": "Pulihkan kaitan tegas pada sumber bahwa menginginkan kepemimpinan demi reputasi sendiri adalah keinginan yang salah, yaitu kesombongan. Misalnya: «Namun, keinginan untuk memimpin demi reputasi kita sendiri adalah keinginan yang salah, yaitu kesombongan.»",
-      "translation_quote": "Namun, menginginkan kepemimpinan demi nama baik kita sendiri adalah keinginan yang salah, yaitu kesombongan."
-    },
-    {
-      "location": "HTML, paragraf tentang mengasihi Allah dengan segenap hati",
-      "severity": "major",
-      "source_quote": "However, there are times in our life that we will need to take a specific action or purpose to love God with all our heart.",
-      "suggested_fix": "Terjemahkan “specific action or purpose” tanpa menghilangkan unsur tindakan atau tujuan tertentu. Misalnya: «Namun, ada kalanya dalam hidup kita perlu mengambil tindakan tertentu atau menetapkan tujuan tertentu untuk mengasihi Allah dengan segenap hati.»",
-      "translation_quote": "Namun, ada kalanya dalam hidup kita perlu mengambil tindakan atau menetapkan tujuan tertentu untuk mengasihi Allah dengan segenap hati."
-    },
-    {
-      "location": "HTML, paragraf tentang teman dekat dan titik-titik buta",
-      "severity": "major",
-      "source_quote": "A close friend who genuinely wants to help us follow God, will help us look at what is right in God’s eyes.",
-      "suggested_fix": "Terjemahkan “look at what is right in God’s eyes” sebagai melihat atau memahami apa yang benar di mata Allah, bukan hanya “melihat apa yang benar.” Misalnya: «Teman dekat yang sungguh-sungguh ingin membantu kita mengikuti Allah akan menolong kita memahami apa yang benar di mata Allah.»",
-      "translation_quote": "Teman dekat yang sungguh-sungguh ingin membantu kita mengikuti Allah akan menolong kita melihat apa yang benar di mata Allah."
-    },
-    {
-      "location": "HTML, paragraf kutipan Keluaran 36:2",
-      "severity": "major",
-      "source_quote": "in whose heart the LORD had put wisdom",
-      "suggested_fix": "Pertahankan pernyataan bahwa TUHAN menaruh hikmat dalam hati mereka, bukan bahwa mereka dikaruniai hikmat. Misalnya: «yang di dalam hatinya TUHAN telah menaruh hikmat»",
-      "translation_quote": "yang hatinya telah dikaruniai TUHAN hikmat"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "d21b5686e88e5c9701f3e3717c3ae99c",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ind",
@@ -207,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6-luna"

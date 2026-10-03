@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Lyrics, stanza 2, line 5\",\"severity\":\"minor\",\"source_quote\":\"Beyond my highest joy / I prize her heav’nly ways,\",\"suggested_fix\":\"Πάνω κι από τη μεγαλύτερή μου χαρά / εκτιμώ τους ουράνιους δρόμους της,\",\"translation_quote\":\"Πάνω από τη μεγαλύτερή μου χαρά / αγαπώ τους ουράνιους δρόμους της,\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 459,
+    "content_evidence_truncated": false,
+    "content_sha256": "8051c437f74f89c5cbb0c6e9d4f511e9d242efd9a4d563f54b8c4b7f936063c1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 723,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1939,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2792
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

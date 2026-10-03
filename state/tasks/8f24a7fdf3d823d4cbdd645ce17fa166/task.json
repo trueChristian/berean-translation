@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,46 +64,40 @@
         },
         "total_tokens": 14479
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 850,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 714,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8860,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8857,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9710
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragrafo sui bambini non ancora nati",
+      "location": "source.html / translation.html, paragraph beginning “The message of the sparrow”",
       "severity": "major",
-      "source_quote": "For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.",
-      "suggested_fix": "Per molte madri in attesa, la vita che cresce nel grembo è un peso ingombrante, per il quale non vale la pena fare il sacrificio necessario a portarla a termine.",
-      "translation_quote": "Per molte donne, la vita che cresce nel grembo è un peso ingombrante, per il quale non vale la pena fare il sacrificio necessario a portarla a termine."
-    },
-    {
-      "location": "Paragrafo sul vino nuovo e la durezza egoistica",
-      "severity": "major",
-      "source_quote": "He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.",
-      "suggested_fix": "<em>Fu disprezzato e rifiutato dagli uomini… –Isaia 53:3,</em> e fu destituito alla prima occasione.",
-      "translation_quote": "<em>Fu disprezzato e rifiutato dagli uomini… –Isaia 53:3,</em> e fu deposto alla prima occasione."
-    },
-    {
-      "location": "Paragrafo sugli sforzi modesti e le monetine della vedova",
-      "severity": "major",
-      "source_quote": "The addition of the widow’s two mites to the treasury arrested the attention of the general populace, though not in a positive fashion.",
-      "suggested_fix": "L’aggiunta delle due monetine della vedova al tesoro attirò l’attenzione della gente, anche se non in modo favorevole.",
-      "translation_quote": "L’aggiunta delle due monetine della vedova al tesoro attirò l’attenzione della gente, anche se non in senso positivo."
-    },
-    {
-      "location": "Paragrafo sulle iniziative paraecclesiali",
-      "severity": "major",
-      "source_quote": "Para-church Outreaches, personal ministries, retreats, and seminars lend an exciting appeal, to religious zealots, while the weekly meetings in the local church seem rather common and drab.",
-      "suggested_fix": "Le iniziative paraecclesiali, i ministeri personali, i ritiri e i seminari esercitano un fascino entusiasmante sui fanatici religiosi, mentre le riunioni settimanali nella chiesa locale sembrano piuttosto ordinarie e monotone.",
-      "translation_quote": "Le iniziative paraecclesiali, i ministeri personali, i ritiri e i seminari esercitano un fascino entusiasmante sui fanatici religiosi, mentre le riunioni settimanali nella chiesa locale sembrano piuttosto ordinarie e monotone."
-    },
-    {
-      "location": "Paragrafo finale biografico su Alex Posey",
-      "severity": "major",
-      "source_quote": "He held onto a branch of a tree until help came, but by the time they could throw him a rope his hands had paralyzed, and he couldn’t unmold them to clasp the rope, so he sank out of sight beneath the waters and died in the tide.",
-      "suggested_fix": "Si aggrappò a un ramo di un albero finché non arrivarono i soccorsi, ma quando riuscirono a lanciargli una corda le mani gli si erano paralizzate e non riuscì a scioglierle per afferrare la corda; così scomparve sotto la superficie delle acque e morì nella corrente.",
-      "translation_quote": "Si aggrappò a un ramo di un albero finché non arrivarono i soccorsi, ma quando riuscirono a lanciargli una corda le mani gli si erano paralizzate e non riuscì a distenderle per afferrare la corda; così scomparve sotto la superficie delle acque e morì nella corrente."
+      "source_quote": "“it is the simple truths that give God His greatness.”",
+      "suggested_fix": "Replace “sono le verità semplici a rendere grande Dio” with “sono le verità semplici a rivelare la grandezza di Dio” to preserve the meaning without implying that truths make God great.",
+      "translation_quote": "“sono le verità semplici a rendere grande Dio.”"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "8f24a7fdf3d823d4cbdd645ce17fa166",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ita",
@@ -193,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

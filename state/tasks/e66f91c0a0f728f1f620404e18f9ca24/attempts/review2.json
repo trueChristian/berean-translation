@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 2, lines 1–3\",\"severity\":\"minor\",\"source_quote\":\"“I’m a little bit shallow, I admit, / For I’m focusing on me quite a bit. / But here is a thought,”\",\"suggested_fix\":\"“স্বীকার করি, আমি কিছুটা আত্মকেন্দ্রিক, / কারণ নিজেকেই নিয়ে ভাবি বেশির ভাগ সময়। / তবে একটা কথা ভাবার আছে,”\",\"translation_quote\":\"“স্বীকার করি, আমার মনটা কিছুটা সংকীর্ণ, / কারণ নিজেকেই নিয়ে ভাবি বেশির ভাগ সময়। / তবে একটি কথা মনে রেখো,”\"},{\"location\":\"Poem, stanza 2, line 4\",\"severity\":\"minor\",\"source_quote\":\"“I’m not the only pot.”\",\"suggested_fix\":\"“শুধু আমিই পাত্র নই।”\",\"translation_quote\":\"“একমাত্র পাত্র আমি নই।”\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1085,
+    "content_evidence_truncated": false,
+    "content_sha256": "8f65e22b2bb1984e34533d6e9246c7adf60031e81e60dd5920601fe0470a4ebe",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 563,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2101,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2098,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2889
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

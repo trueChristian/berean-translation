@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "093039f5-0584-400d-9d51-3abe9c475d45",
+    "response_id": "chatcmpl-EUsNMvsplkZtavIdg9FASOqrJHSQ3",
+    "usage": {
+      "completion_tokens": 106,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9687,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9684,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9793
+    }
+  },
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Artikelns första stycke",
+        "severity": "major",
+        "source_quote": "I am fearfully and wonderfully made",
+        "suggested_fix": "Ändra till ”jag är underbart och förunderligt skapad” eller en annan idiomatisk formulering som bevarar innebörden att jag är underbart skapad.",
+        "translation_quote": "jag är danad på ett förunderligt och underbart sätt"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,61 @@
         },
         "total_tokens": 14866
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 498,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9469,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9466,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9967
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening Scripture quotation (Matthew 10:29)",
+      "location": "بچپن میں یسوع کے سامنے دہرائے جانے والے منظر کا پیراگراف",
       "severity": "major",
-      "source_quote": "and one of them shall not fall on the ground without your Father",
-      "suggested_fix": "Replace «اور ان میں سے ایک بھی تمہارے باپ کے بغیر زمین پر نہیں گرتی» with «اور ان میں سے ایک بھی تمہارے باپ کے علم میں آئے بغیر زمین پر نہیں گرتی» to convey that the Father is aware of the sparrow’s fall.",
-      "translation_quote": "اور ان میں سے ایک بھی تمہارے باپ کے بغیر زمین پر نہیں گرتی۔"
+      "source_quote": "As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.",
+      "suggested_fix": "چونکہ یسوع کے والدین غریب تھے، اس لیے غالب امکان ہے کہ اُن کے بچپن میں یہ منظر اُن کی اپنی آنکھوں کے سامنے بار بار دہرایا گیا ہو۔",
+      "translation_quote": "چونکہ یسوع کے والدین غریب تھے، اس لیے غالب امکان ہے کہ آپ کے بچپن کے زمانے میں یہ منظر آپ کی اپنی آنکھوں کے سامنے بھی بار بار آیا ہو۔"
+    },
+    {
+      "location": "عقاب اور آزادی والا پیراگراف",
+      "severity": "major",
+      "source_quote": "to remind us of the glorious freedom of liberty and independence.",
+      "suggested_fix": "تاکہ وہ ہمیں آزادی اور خودمختاری کی شاندار شان یاد دلائیں۔",
+      "translation_quote": "تاکہ وہ ہمیں آزادی اور خودمختاری کی شاندار شان یاد دلائیں۔"
+    },
+    {
+      "location": "چھوٹے بچوں والا پیراگراف، unborn بچوں سے متعلق جملہ",
+      "severity": "major",
+      "source_quote": "For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.",
+      "suggested_fix": "بہت سے غیر پیدائشی بچوں کے لیے، ماں کے پیٹ میں ان کی زندگی ایک بوجھل پریشانی سمجھی جاتی ہے، اور اسے برقرار رکھنے کے لیے درکار قربانی اس کے قابل نہیں لگتی۔",
+      "translation_quote": "کئی ماؤں کے لیے، جن کے بطن میں بچے پل رہے ہوتے ہیں، اندر کی زندگی ایک بوجھل پریشانی ہوتی ہے اور اسے برقرار رکھنے کے لیے درکار قربانی اس کے قابل نہیں لگتی۔"
+    },
+    {
+      "location": "چڑیا کی قدر اور کم تر سمجھے جانے والوں والا پیراگراف",
+      "severity": "major",
+      "source_quote": "Despite it all, God will never miss a sparrow",
+      "suggested_fix": "اس سب کے باوجود، خدا کسی چڑیا کو کبھی نظر انداز نہیں کرے گا",
+      "translation_quote": "اس سب کے باوجود، خدا سے کوئی چڑیا کبھی چھوٹی نہیں رہ جائے گی"
     }
   ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "0c16cfbc3ad1238b78daf5431564b666",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "urd",
@@ -165,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

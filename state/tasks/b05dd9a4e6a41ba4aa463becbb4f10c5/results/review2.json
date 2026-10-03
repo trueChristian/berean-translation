@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1fa13aa4-41c5-9fd1-9db7-e8fe9e29f457",
+    "response_id": "chatcmpl-EUsNN47Dd36Izh1RYVqs3blKajoNj",
+    "usage": {
+      "completion_tokens": 1541,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1144,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9776,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9773,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11317
+    }
+  },
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Children are the opposite,” quoted Mark 10:13",
+        "severity": "major",
+        "source_quote": "And they [mothers] brought young children to him",
+        "suggested_fix": "Replace the quoted Hebrew with: וְהֵן [הָאִמָּהוֹת] הֵבִיאוּ אֵלָיו יְלָדִים, כְּדֵי שֶׁיִּגַּע בָּהֶם [יֵשׁוּעַ]; וְתַלְמִידָיו גָּעֲרוּ בַּמְּבִיאוֹת. Keep the existing reference Mark 10:13 unchanged.",
+        "translation_quote": "וַיָּבִיאוּ אֵלָיו יְלָדִים [אִמּוֹתֵיהֶם], לְמַעַן יִגַּע בָּהֶם [יֵשׁוּעַ]; וְהַתַּלְמִידִים גָּעֲרוּ בְּמֵבִיאֵיהֶם –מרקוס 10:13."
+      },
+      {
+        "location": "Paragraph beginning “Such are the sparrows,” discussing people valued as a resource",
+        "severity": "minor",
+        "source_quote": "Those that are useful are esteemed highly, but those who are not, are ignored.",
+        "suggested_fix": "Change the ending to: אך מתעלמים ממי שאינם מועילים.",
+        "translation_quote": "מי שמועילים זוכים להערכה רבה, אך את מי שאינם מועילים מתעלמים."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

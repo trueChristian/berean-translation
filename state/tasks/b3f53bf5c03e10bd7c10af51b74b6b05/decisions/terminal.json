@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Maana ya neno uhakika”",
+      "severity": "minor",
+      "source_quote": "proud of their favorite sports team",
+      "suggested_fix": "Replace “timu yao ya michezo waipendayo” with “timu yao ya michezo wanayoipenda” to make the agreement and phrasing clear.",
+      "translation_quote": "Watu hujivunia watoto wao, nchi yao, timu yao ya michezo waipendayo, nyasi zao, na kimsingi kila kitu kizuri maishani mwao."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

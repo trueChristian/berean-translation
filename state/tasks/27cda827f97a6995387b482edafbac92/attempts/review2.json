@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ephesians 5:25–27 quotation and the immediately following underlined quotation\",\"severity\":\"major\",\"source_quote\":\"“not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish” / “holy and without blemish”\",\"suggested_fix\":\"Replace “helig och fullkomlig” in both places with wording that conveys “holy and without blemish,” for example “helig och obefläckad.” Keep the existing HTML structure and Scripture reference unchanged.\",\"translation_quote\":\"“utan fläck eller skrynkla eller något annat sådant, utan att den skulle vara helig och fullkomlig” / “utan fläck eller skrynkla eller något sådant, men helig och fullkomlig”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 752,
+    "content_evidence_truncated": false,
+    "content_sha256": "a1eb80f84caeab6a682d17b6da520e865d771afd97e740f4f5ed8ef7d9b10f37",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 959,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 764,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8049,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9011
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

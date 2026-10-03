@@ -2,7 +2,6 @@
   "article_id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 8482
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 550,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5469,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5466,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6019
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Абзац 2, цитата Филиппийцам 4:11–13",
+      "location": "source.html, paragraph 7",
       "severity": "major",
-      "source_quote": "“for I have learned, in whatsoever state I am, therewith to be content. […] I can do all things through Christ which strengtheneth me.”",
-      "suggested_fix": "В цитате замените «ибо я научился быть довольным тем, что у меня есть» на «ибо я научился быть довольным в том положении, в каком нахожусь», а «Все могу в укрепляющем меня Иисусе Христе» — на «Все могу в укрепляющем меня Христе». Так сохраняются напечатанный смысл и формулировка источника без добавления имени, которого в английском тексте нет.",
-      "translation_quote": "«… ибо я научился быть довольным тем, что у меня есть. […] Все могу в укрепляющем меня Иисусе Христе.»"
+      "source_quote": "It is like the prescription of the glasses we have in front of our eyes causing us to see things in a distorted manner or with a clear 20/20 view.",
+      "suggested_fix": "Заменить «какой рецепт имеют очки» на «какая оправа у очков» или другую естественную формулировку, передающую мысль об очках, через которые мы видим искаженно или ясно.",
+      "translation_quote": "Это похоже на то, какой рецепт имеют очки перед нашими глазами: они могут заставлять нас видеть все искаженно или обеспечивать ясное, стопроцентное зрение."
+    },
+    {
+      "location": "source.html, paragraph 12",
+      "severity": "major",
+      "source_quote": "I have heard reports of some churches in other parts of the world being pushed by their local government to not meet for fellowship and group worship.",
+      "suggested_fix": "Передать, что местные власти вынуждают некоторые церкви не собираться для общения и совместного богослужения; например: «Я слышал сообщения о том, что в некоторых частях мира местные власти вынуждают церкви не собираться для общения и совместного богослужения».",
+      "translation_quote": "Я слышал сообщения о том, что в некоторых частях мира местные власти подталкивают церкви к тому, чтобы они не собирались для общения и совместного богослужения."
+    },
+    {
+      "location": "source.html, paragraph 13",
+      "severity": "major",
+      "source_quote": "There are numerous things I have heard them testify regarding the churches of the conservative, Anabaptist persuasion. These people are awed by the way we help each other both on a regular basis and when tragedy strikes.",
+      "suggested_fix": "Уточнить, что люди свидетельствуют именно о церквах консервативного анабаптистского направления, и прямо передать их восхищение тем, как прихожане этих церквей помогают друг другу регулярно и в беде. Например: «…я не раз слышал их свидетельства о церквах консервативного анабаптистского направления. Эти люди поражены тем, как мы помогаем друг другу…».",
+      "translation_quote": "…я не раз слышал, как они с восхищением отзывались о церквах консервативного анабаптистского направления. Их поражает, как мы помогаем друг другу и в обычное время, и когда случается беда."
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "6d4c8a6b2c897d3b1ff8b9d94bd97f3c",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "rus",
@@ -171,7 +206,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08023a05d53dc6bd22a9177fbda131edfdc7c55d1f65f9b60a5d0b2ca28e7dfc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
   "translation_model_actual": "gpt-6-luna"

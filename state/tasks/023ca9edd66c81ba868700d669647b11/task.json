@@ -2,7 +2,6 @@
   "article_id": "77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:04+00:00",
   "events": [
@@ -65,18 +64,68 @@
         },
         "total_tokens": 3060
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 436,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2014,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2011,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2450
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, puisi paragraf 5, baris 1",
+      "location": "Paragraf puisi 2",
       "severity": "major",
-      "source_quote": "Into another pot I smack,",
-      "suggested_fix": "Hapus tambahan “Tanpa sengaja” agar barisnya berbunyi “Kutabrak pot lain,”; sumber menyatakan benturan, tetapi tidak menyebut bahwa benturan itu tidak disengaja.",
-      "translation_quote": "Tanpa sengaja kutabrak pot lain,"
+      "source_quote": "But here is a thought, / I’m not the only pot.",
+      "suggested_fix": "Ganti dua baris terakhir bait ini dengan: “Namun, ini sebuah pemikiran: / Bukan hanya aku yang menjadi pot.”",
+      "translation_quote": "Namun, ada satu hal yang perlu kupikirkan, / Bukan hanya aku satu-satunya pot."
+    },
+    {
+      "location": "Paragraf puisi 3",
+      "severity": "minor",
+      "source_quote": "About my life / are many others,",
+      "suggested_fix": "Agar maknanya lebih tepat, ubah menjadi: “Dalam hidupku / ada banyak orang lain,”",
+      "translation_quote": "Di sekitar hidupku / ada banyak orang lain,"
+    },
+    {
+      "location": "Paragraf puisi 4",
+      "severity": "major",
+      "source_quote": "The Potter’s hand is on them, too, / Making each of us, something new.",
+      "suggested_fix": "Perjelas bahwa tangan Sang Penjunan juga membentuk mereka: “Tangan Sang Penjunan juga membentuk mereka, / Menjadikan kita masing-masing sesuatu yang baru.”",
+      "translation_quote": "Tangan Sang Penjunan juga membentuk mereka, / Menjadikan kita masing-masing sesuatu yang baru."
+    },
+    {
+      "location": "Paragraf puisi 5",
+      "severity": "major",
+      "source_quote": "Into another pot I smack, / It seems they now have a crack.",
+      "suggested_fix": "Terjemahkan benturan dan akibatnya dengan sudut pandang yang sama: “Aku membentur pot lain, / Tampaknya kini pot itu retak.”",
+      "translation_quote": "Kutabrak pot lain, / Tampaknya kini pot itu retak."
+    },
+    {
+      "location": "Paragraf puisi 6",
+      "severity": "minor",
+      "source_quote": "Changes the course of other’s clay,",
+      "suggested_fix": "Gunakan bentuk yang lebih alami dan jelas: “Mengubah arah tanah liat milik orang lain,”",
+      "translation_quote": "Mengubah arah tanah liat orang lain,"
     }
   ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "023ca9edd66c81ba868700d669647b11",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ind",
@@ -165,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fec2dd1703a9aded162631be7f3af606fa01a3b491621e431543b667d23c75a4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bc9ecc613f1817378c3fc3dba2a55f8d1cc93b689cd94f6882b88808bf6a0937",
   "translation_model_actual": "gpt-6-luna"

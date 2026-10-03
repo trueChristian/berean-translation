@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 1",
+      "severity": "minor",
+      "source_quote": "To carry, to store, or for a drink?",
+      "suggested_fix": "Change to “Att bära, förvara eller dricka ur?” so the lines describe what the vessel is for, rather than imply that someone carries or stores something inside it.",
+      "translation_quote": "Ett att bära i, förvara i eller dricka ur?"
+    },
+    {
+      "location": "Poem, stanza 3",
+      "severity": "minor",
+      "source_quote": "About my life / are many others,",
+      "suggested_fix": "Use a natural Swedish equivalent such as “I mitt liv / finns många andra,”.",
+      "translation_quote": "Runt mitt liv / finns många andra,"
+    },
+    {
+      "location": "Poem, stanza 4",
+      "severity": "minor",
+      "source_quote": "Making each of us, something new.",
+      "suggested_fix": "Change to “och gör var och en av oss till något nytt.” The translation adds “igen” (again), which is not in the source.",
+      "translation_quote": "gör var och en av oss till något nytt igen."
+    },
+    {
+      "location": "Poem, stanza 5",
+      "severity": "minor",
+      "source_quote": "Until His likeness, again does show.",
+      "suggested_fix": "Change “framträder där” to “åter framträder” to preserve the sense that the Potter’s likeness appears again, without adding a location.",
+      "translation_quote": "tills hans likhet åter framträder där."
+    },
+    {
+      "location": "Poem, stanza 6",
+      "severity": "minor",
+      "source_quote": "Lest other’s pots become concave.",
+      "suggested_fix": "Use a direct Swedish equivalent of “concave,” such as “så att andras krukor inte blir konkava.” “Intryckta” suggests dented or pressed in, rather than concave.",
+      "translation_quote": "så att andras krukor inte blir intryckta."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

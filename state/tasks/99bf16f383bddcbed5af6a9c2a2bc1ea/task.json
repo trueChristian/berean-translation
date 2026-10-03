@@ -2,7 +2,6 @@
   "article_id": "a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 16024
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 297,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10191,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10188,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10488
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph under “पर्याप्त (अच्छी) नींद लें”",
+      "location": "source.html / translation.html, paragraph beginning “Vitamin C is another thing…”",
       "severity": "major",
-      "source_quote": "This makes sense since our bodies heal the most when we are sleeping.",
-      "suggested_fix": "यह समझ में आता है, क्योंकि सोते समय हमारा शरीर सबसे अधिक चंगा होता है।",
-      "translation_quote": "यह समझ में आता है, क्योंकि सोते समय हमारा शरीर सबसे अधिक स्वस्थ होता है।"
+      "source_quote": "Studies seem to indicate that it is well tolerated and effective.",
+      "suggested_fix": "Translate this claim without changing its scope, for example: “अध्ययनों से लगता है कि यह अच्छी तरह सहन किया जाता है और प्रभावी है।”",
+      "translation_quote": "अध्ययनों से लगता है कि यह अच्छी तरह सहन होता है और प्रभावी है।"
+    },
+    {
+      "location": "source.html / translation.html, paragraph beginning “Zinc has been shown…”",
+      "severity": "major",
+      "source_quote": "I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.",
+      "suggested_fix": "Correct the instruction to preserve the source’s contrast between not taking zinc daily and taking more at the first symptom; for example: “मैं यहाँ सावधान करना चाहूँगा कि इसे हर दिन लेने के लिए नहीं बनाया गया है; बल्कि ऊपरी श्वसन तंत्र के संक्रमण का पहला लक्षण दिखाई देते ही इसे लेना चाहिए।”",
+      "translation_quote": "मैं यहाँ सावधान करना चाहूँगा कि इसे हर दिन लेने के लिए नहीं बनाया गया है, बल्कि ऊपरी श्वसन तंत्र का संक्रमण शुरू होने के पहले लक्षण पर अधिक लेना चाहिए।"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "99bf16f383bddcbed5af6a9c2a2bc1ea",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "hin",
@@ -165,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3d4ff54d38135b804080e8a3164c60951764437616b654687f2332c06c69e7ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
   "translation_model_actual": "gpt-6-luna"

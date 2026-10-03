@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Editor’s Note, paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"Many of these individuals are interacting and fellowshipping so closely with others from various other groups and churches instead of their own home church\",\"suggested_fix\":\"Replace “hushirikiana na kufellowship kwa ukaribu sana” with “hushirikiana kwa ukaribu sana” (or “wana ushirika wa karibu sana”).\",\"translation_quote\":\"Wengi wa watu hawa hushirikiana na kufellowship kwa ukaribu sana na wengine kutoka vikundi na makanisa mengine mbalimbali badala ya kanisa lao la nyumbani\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 612,
+    "content_evidence_truncated": false,
+    "content_sha256": "0387412624de3f32937d688f1a57196f96011003fcae3b8b8a884056d38732ae",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 628,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9713,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10504
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

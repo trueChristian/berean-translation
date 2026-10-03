@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning « L’assurance conduit à l’obéissance. »\",\"severity\":\"major\",\"source_quote\":\"Confidence equals obedience.\",\"suggested_fix\":\"Remplacer « L’assurance conduit à l’obéissance. » par « L’assurance équivaut à l’obéissance. »\",\"translation_quote\":\"L’assurance conduit à l’obéissance.\"},{\"location\":\"Article body, citation d’Actes 9:20\",\"severity\":\"major\",\"source_quote\":\"…straightway he preached Christ in the synagogues, that he is the Son of God\",\"suggested_fix\":\"Dans la citation, remplacer « Jésus » par « Christ » afin de rendre fidèlement l’affirmation imprimée dans la source.\",\"translation_quote\":\"…il se mit aussitôt à prêcher dans les synagogues que Jésus est le Fils de Dieu\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 817,
+    "content_evidence_truncated": false,
+    "content_sha256": "35df9a97ea94e1761c9b2f910e6a8a30643b237a37edb7b6f76287daf6f596be",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 714,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7947,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7944,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8661
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

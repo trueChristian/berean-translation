@@ -2,7 +2,6 @@
   "article_id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 8246
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 342,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 316,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5306,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5303,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5648
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Párrafo sobre los gobiernos locales y las reuniones de la iglesia",
-      "severity": "major",
-      "source_quote": "I have heard reports of some churches in other parts of the world being pushed by their local government to not meet for fellowship and group worship.",
-      "suggested_fix": "Reformular para conservar que el gobierno presiona a algunas iglesias para que no se reúnan en comunión y para el culto colectivo; por ejemplo: «He oído informes de que, en otras partes del mundo, los gobiernos locales presionan a algunas iglesias para que no se reúnan para tener comunión y celebrar el culto colectivo».",
-      "translation_quote": "He oído informes de que en otras partes del mundo algunos gobiernos locales presionan a ciertas iglesias para que no se reúnan en comunión y para el culto colectivo."
-    },
-    {
-      "location": "Párrafo sobre el modelo de consejería y el uso de mascarillas",
-      "severity": "major",
-      "source_quote": "I believe it WILL cause as much and more detriment to interpersonal relationships.",
-      "suggested_fix": "Restituir la afirmación de que el uso literal de la mascarilla causará un daño igual o mayor a las relaciones interpersonales; por ejemplo: «creo que CAUSARÁ tanto o más daño a las relaciones interpersonales».",
-      "translation_quote": "creo que causará un daño igual o mayor a las relaciones interpersonales."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "04abd55f6cdc06e044d2913beca57c7c",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "spa",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/08023a05d53dc6bd22a9177fbda131edfdc7c55d1f65f9b60a5d0b2ca28e7dfc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
   "translation_model_actual": "gpt-6-luna"

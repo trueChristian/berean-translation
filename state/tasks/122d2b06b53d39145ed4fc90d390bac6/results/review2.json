@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c746a23b-113c-41d0-b3eb-1d8f301e267b",
+    "response_id": "chatcmpl-EUsNBnCPSwop4Cw4PKQOnYr8RMZzw",
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8868,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8865,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9521
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first paragraph / Matteus 10:29",
+        "severity": "major",
+        "source_quote": "“and one of them shall not fall on the ground without your Father”",
+        "suggested_fix": "Endre sitatet til «… og ikke én av dem faller til jorden uten at deres Far vet det» (eller en annen formulering som bevarer at ingenting skjer uten Faderens viten, uten å legge til at han vil det).",
+        "translation_quote": "«Og ikke én av dem faller til jorden uten at deres Far vil det»"
+      },
+      {
+        "location": "HTML, avsnittet som begynner «As a little boy with poor parents»",
+        "severity": "major",
+        "source_quote": "“Though one may have no interest in bubbles and has chosen to ignore them, it is the simple truths that give God His greatness.”",
+        "suggested_fix": "Endre til «Selv om man kanskje ikke bryr seg om bobler og har valgt å overse dem, er det de enkle sannhetene som viser Guds storhet.»",
+        "translation_quote": "«Selv om man kanskje ikke bryr seg om bobler og har valgt å overse dem, er det de enkle sannhetene som gjør Gud stor.»"
+      },
+      {
+        "location": "HTML, overskriften «…Little Ones»",
+        "severity": "minor",
+        "source_quote": "“…Little Ones”",
+        "suggested_fix": "Bruk «…De små» for å bevare den substantiverte overskriftens betydning.",
+        "translation_quote": "«…Små»"
+      },
+      {
+        "location": "HTML, avsnittet som begynner «The convergent link drawn to the worthless bird»",
+        "severity": "major",
+        "source_quote": "“The convergent link drawn to the worthless bird is a worthless person. There are so many things that argue for our worthlessness.”",
+        "suggested_fix": "Endre «Så mye taler for at vi er verdiløse» til «Det er så mange ting som taler for vår verdiløshet» (eller tilsvarende), slik at setningen beholder kildens uttrykkelige påstand.",
+        "translation_quote": "«Så mye taler for at vi er verdiløse.»"
+      },
+      {
+        "location": "HTML, avsnittet som begynner «The totalitarian governments of communist regimes»",
+        "severity": "major",
+        "source_quote": "“the vast ignorance and injustice of such prejudice precinct”",
+        "suggested_fix": "Oversett uttrykket som «den omfattende uvitenheten og urettferdigheten i slike fordomsfulle kretser/miljøer», uten å endre det til at det gjelder steder eller institusjoner.",
+        "translation_quote": "«den omfattende uvitenheten og urettferdigheten i slike fordomsfulle miljøer»"
+      },
+      {
+        "location": "HTML, siste avsnitt om Alex Posey",
+        "severity": "minor",
+        "source_quote": "“a Creek Indian poet”",
+        "suggested_fix": "Bruk en tydelig norsk betegnelse for Creek-folket, for eksempel «en poet fra Creek-folket».",
+        "translation_quote": "«en creekindiansk poet»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

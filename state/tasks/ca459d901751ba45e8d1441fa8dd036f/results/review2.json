@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a869c098-6180-49e6-98f6-3888369d9987",
+    "response_id": "chatcmpl-EUsNBiqest5B3aN4gXjiWcY0rwdmK",
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 628,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9713,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10504
+    }
+  },
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Editor’s Note, paragraph 5",
+        "severity": "minor",
+        "source_quote": "Many of these individuals are interacting and fellowshipping so closely with others from various other groups and churches instead of their own home church",
+        "suggested_fix": "Replace “hushirikiana na kufellowship kwa ukaribu sana” with “hushirikiana kwa ukaribu sana” (or “wana ushirika wa karibu sana”).",
+        "translation_quote": "Wengi wa watu hawa hushirikiana na kufellowship kwa ukaribu sana na wengine kutoka vikundi na makanisa mengine mbalimbali badala ya kanisa lao la nyumbani"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

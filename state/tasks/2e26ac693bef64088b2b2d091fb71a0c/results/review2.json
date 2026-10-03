@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fdbd3c8f-4f6b-4c47-81c0-e403e9adafd8",
+    "response_id": "chatcmpl-EUsO9OrxAm3zdebUYNx2WnI2rH0XM",
+    "usage": {
+      "completion_tokens": 564,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 446,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2005,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2002,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2569
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Gedicht, vierde strofe",
+        "severity": "major",
+        "source_quote": "Another pot gives me a bump, / And now I have a little lump.",
+        "suggested_fix": "Vervang de laatste twee regels door: “Een andere pot stoot tegen mij aan, / en nu heb ik een klein bobbeltje.”",
+        "translation_quote": "Een andere pot stoot tegen mij aan, / en nu heb ik een klein deukje."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem paragraph 6, line 2",
+      "severity": "major",
+      "source_quote": "But every moment, your fears disregard.",
+      "suggested_fix": "Bali kila wakati, puuza hofu zako.",
+      "translation_quote": "Bali kila wakati, usizipe hofu zako nafasi."
+    },
+    {
+      "location": "source.html, poem paragraph 6, line 4",
+      "severity": "major",
+      "source_quote": "With confidence in God, His power to display.",
+      "suggested_fix": "Kwa uhakika katika Mungu, wakionyesha nguvu zake.",
+      "translation_quote": "Wenye uhakika katika Mungu, ili waidhihirishe nguvu zake."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

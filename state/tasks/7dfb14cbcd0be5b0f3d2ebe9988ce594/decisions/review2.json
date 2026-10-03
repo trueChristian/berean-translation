@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "首段引文（马太福音 10:29）",
+      "severity": "major",
+      "source_quote": "and one of them shall not fall on the ground without your Father",
+      "suggested_fix": "将“若没有你们的父亲，连一只也不会掉在地上”改为“若没有你们的父亲的许可，连一只也不会掉在地上”，以表达“without your Father”不是“没有父亲在场”。",
+      "translation_quote": "若没有你们的父亲，连一只也不会掉在地上。"
+    },
+    {
+      "location": "关于耶稣童年与第五只麻雀的段落",
+      "severity": "major",
+      "source_quote": "this sordid specimen did not fall on the ground without the notice of the divine Father",
+      "suggested_fix": "将“然而，这只卑微的鸟落在地上，天父也看见了”改为“然而，这只卑微的鸟落在地上，并未逃过天父的察看”，保留“没有落在地上而未被天父留意”的意思。",
+      "translation_quote": "然而，这只卑微的鸟落在地上，天父也看见了。"
+    },
+    {
+      "location": "“麻雀就是这样”后关于地方教会的段落",
+      "severity": "major",
+      "source_quote": "Para-church Outreaches, personal ministries, retreats, and seminars lend an exciting appeal, to religious zealots",
+      "suggested_fix": "将“教会之外的外展事工、个人事工、退修会和研讨会，对宗教热心人士颇具吸引力”改为“跨教会的外展事工、个人事工、退修会和研讨会，对宗教热心人士颇具吸引力”，避免把 Para-church 误解为一般的教会之外事工。",
+      "translation_quote": "教会之外的外展事工、个人事工、退修会和研讨会，对宗教热心人士颇具吸引力"
+    },
+    {
+      "location": "关于树木与溺水者的诗，第二节",
+      "severity": "major",
+      "source_quote": "The drowning from the clutches of / The cold remorseless wave.",
+      "suggested_fix": "将“为要救起溺水的人，/ 脱离冰冷无情的波涛”改为“为把溺水者从冰冷无情的波涛魔爪中救出”，补出原文“from the clutches of”的意象。",
+      "translation_quote": "为要救起溺水的人，/ 脱离冰冷无情的波涛。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

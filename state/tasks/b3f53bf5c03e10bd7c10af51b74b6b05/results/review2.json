@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8f881d89-2736-4ee6-80f7-31ba1fef2c04",
+    "response_id": "chatcmpl-EUsNBOiOb57EN9xxUUZUP09FP36jr",
+    "usage": {
+      "completion_tokens": 743,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 595,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8270,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8267,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9013
+    }
+  },
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Maana ya neno uhakika”",
+        "severity": "minor",
+        "source_quote": "proud of their favorite sports team",
+        "suggested_fix": "Replace “timu yao ya michezo waipendayo” with “timu yao ya michezo wanayoipenda” to make the agreement and phrasing clear.",
+        "translation_quote": "Watu hujivunia watoto wao, nchi yao, timu yao ya michezo waipendayo, nyasi zao, na kimsingi kila kitu kizuri maishani mwao."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

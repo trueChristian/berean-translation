@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “There were friends in the same church…”",
+      "severity": "major",
+      "source_quote": "one daughter dated and married long before the other one began a courtship.",
+      "suggested_fix": "Replace the sentence with: “زندگی کے اتفاق سے، ایک بیٹی نے دوسری بیٹی کے کسی سے ملاقات شروع کرنے سے بہت پہلے ہی کسی سے ملاقات شروع کر دی اور شادی بھی کر لی۔” This preserves that the second daughter had not yet begun courting, rather than implying she was beginning marriage.",
+      "translation_quote": "ایک بیٹی نے دوسری بیٹی کے رشتۂ ازدواج کی ابتدا کرنے سے بہت پہلے ہی کسی سے ملنا شروع کر دیا اور شادی بھی کر لی۔"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

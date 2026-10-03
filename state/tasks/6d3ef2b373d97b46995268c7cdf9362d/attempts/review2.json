@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, sentence before the Isaiah quotation\",\"severity\":\"minor\",\"source_quote\":\"Let us ask God to show us how we can be His examples to the world around us.\",\"suggested_fix\":\"Change “hoe ons sy voorbeelde vir die wêreld om ons kan wees” to “hoe ons voorbeelde van Hom vir die wêreld om ons kan wees” to make clear that believers are to exemplify God to the world.\",\"translation_quote\":\"Laat ons God vra om ons te wys hoe ons sy voorbeelde vir die wêreld om ons kan wees.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 546,
+    "content_evidence_truncated": false,
+    "content_sha256": "6f1944ff4aabc44ff3e86d47e8f2ac5e5c95b5b452c50621ebbeeb46b66fd471",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 773,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 626,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8198,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8974
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

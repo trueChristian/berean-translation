@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ac3c994e-cf8b-4d20-badb-254ee5a07efd",
+    "response_id": "chatcmpl-EUsNJJ53O1Gs9ci8QMpBfTpMKbOTS",
+    "usage": {
+      "completion_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 864,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8966,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9959
+    }
+  },
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article opening, first paragraph (Matthew 10:29 quotation)",
+        "severity": "major",
+        "source_quote": "and one of them shall not fall on the ground without your Father",
+        "suggested_fix": "Replace “utan er Faders vilja” with “utan er Fader” to preserve the source’s wording and avoid adding an assertion about the Father’s will.",
+        "translation_quote": "Och inte en enda av dem faller till marken utan er Faders vilja"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

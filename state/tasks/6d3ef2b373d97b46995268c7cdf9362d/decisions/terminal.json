@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, sentence before the Isaiah quotation",
+      "severity": "minor",
+      "source_quote": "Let us ask God to show us how we can be His examples to the world around us.",
+      "suggested_fix": "Change “hoe ons sy voorbeelde vir die wêreld om ons kan wees” to “hoe ons voorbeelde van Hom vir die wêreld om ons kan wees” to make clear that believers are to exemplify God to the world.",
+      "translation_quote": "Laat ons God vra om ons te wys hoe ons sy voorbeelde vir die wêreld om ons kan wees."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

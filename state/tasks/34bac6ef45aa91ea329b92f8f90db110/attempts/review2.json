@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML figure, first image alt text\",\"severity\":\"minor\",\"source_quote\":\"Hands shaping a clay pot on a potter’s wheel\",\"suggested_fix\":\"کمھار کے چاک پر ہاتھ مٹی کا برتن بنا رہے ہیں → کمہار کے چاک پر ہاتھ مٹی کا برتن بنا رہے ہیں\",\"translation_quote\":\"کمھار کے چاک پر ہاتھ مٹی کا برتن بنا رہے ہیں\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 452,
+    "content_evidence_truncated": false,
+    "content_sha256": "2d7f175d499e8eef1f5417de214613912b4827b29888a268ac0b854e9220238b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 547,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2072,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2069,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2738
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

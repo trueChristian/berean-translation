@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem stanza 5\",\"severity\":\"major\",\"source_quote\":\"Until His likeness, again does show.\",\"suggested_fix\":\"Bis sein Ebenbild wieder sichtbar wird.\",\"translation_quote\":\"bis sein Ebenbild wieder sichtbar wird.\"},{\"location\":\"source.html, poem stanza 6\",\"severity\":\"major\",\"source_quote\":\"If what I do, and what I say, / Changes the course of other’s clay,\",\"suggested_fix\":\"Wenn das, was ich tue und sage, / den Lauf des Tons anderer verändert,\",\"translation_quote\":\"Wenn das, was ich tue und sage, / den Weg des Tons anderer verändert,\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 606,
+    "content_evidence_truncated": false,
+    "content_sha256": "25bdc4c520d70d4c5d0d7142e6dcf60ece959e0893541533470ad24b3c00bddf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 150,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2010,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2007,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2160
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "Featured Article",
+      "suggested_fix": "Use a more standard Afrikaans equivalent for the section label, such as “Hoofartikel”.",
+      "translation_quote": "Uitgesoekte artikel"
+    },
+    {
+      "location": "source.html, paragraph beginning “Such are the sparrows. The robin boasts…”",
+      "severity": "minor",
+      "source_quote": "The robin boasts his red breast",
+      "suggested_fix": "Translate “robin” as “rooiborslyster” to distinguish the American robin from a starling.",
+      "translation_quote": "Die rooiborsspreeu spog met sy rooi bors"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

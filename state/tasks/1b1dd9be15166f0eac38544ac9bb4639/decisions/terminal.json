@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning « L’assurance conduit à l’obéissance. »",
+      "severity": "major",
+      "source_quote": "Confidence equals obedience.",
+      "suggested_fix": "Remplacer « L’assurance conduit à l’obéissance. » par « L’assurance équivaut à l’obéissance. »",
+      "translation_quote": "L’assurance conduit à l’obéissance."
+    },
+    {
+      "location": "Article body, citation d’Actes 9:20",
+      "severity": "major",
+      "source_quote": "…straightway he preached Christ in the synagogues, that he is the Son of God",
+      "suggested_fix": "Dans la citation, remplacer « Jésus » par « Christ » afin de rendre fidèlement l’affirmation imprimée dans la source.",
+      "translation_quote": "…il se mit aussitôt à prêcher dans les synagogues que Jésus est le Fils de Dieu"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

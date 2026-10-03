@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, dialogue paragraph beginning « C’est logique »\",\"severity\":\"minor\",\"source_quote\":\"“That makes sense,” replied Abby.\",\"suggested_fix\":\"Close Abby’s quotation before the dialogue tag: « C’est logique », répondit Abby.\",\"translation_quote\":\"« C’est logique, répondit Abby.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 350,
+    "content_evidence_truncated": false,
+    "content_sha256": "c4cb6dcec1eb64be6ad26b12c03f821566082c204f25c9808db83b6a1f73bb31",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 736,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5726,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5723,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6558
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

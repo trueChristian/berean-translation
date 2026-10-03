@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"minor\",\"source_quote\":\"The end is coming, which is what God has in mind.\",\"suggested_fix\":\"Replace „daran denkt Gott“ with „was Gott im Sinn hat“ to preserve the sense that this is what God intends.\",\"translation_quote\":\"Das Ende kommt – daran denkt Gott.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 349,
+    "content_evidence_truncated": false,
+    "content_sha256": "9d8b818ba64e40e7eb04999812acbc552000f94a178f4e65a2fbb4f0f81869bc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7391,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7388,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8235
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "הערת העורך, הפסקה על התיאולוגיה ואורח החיים",
+      "severity": "minor",
+      "source_quote": "the soil out of which our behavior grows",
+      "suggested_fix": "שנו ל: ״הקרקע שממנה צומחת התנהגותנו״.",
+      "translation_quote": "הקרקע שממנה צומח התנהגותנו"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

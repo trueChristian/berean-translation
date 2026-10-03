@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,46 +64,61 @@
         },
         "total_tokens": 13443
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 589,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8583,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8580,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9172
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "正文，第5段",
+      "location": "首段引文（马太福音 10:29）",
       "severity": "major",
-      "source_quote": "this sordid specimen did not fall on the ground without the notice of the divine Father.",
-      "suggested_fix": "将“这只可怜的鸟落在地上，并没有逃过天父的注意”改为“这只卑微的鸟落在地上，天父也看见了”。",
-      "translation_quote": "这只可怜的鸟落在地上，并没有逃过天父的注意。"
+      "source_quote": "and one of them shall not fall on the ground without your Father",
+      "suggested_fix": "将“若没有你们的父亲，连一只也不会掉在地上”改为“若没有你们的父亲的许可，连一只也不会掉在地上”，以表达“without your Father”不是“没有父亲在场”。",
+      "translation_quote": "若没有你们的父亲，连一只也不会掉在地上。"
     },
     {
-      "location": "正文，第14段（“……后来的人”）",
+      "location": "关于耶稣童年与第五只麻雀的段落",
       "severity": "major",
-      "source_quote": "And he was deposed of at the earliest opportunity.",
-      "suggested_fix": "将“祂一有机会，就被罢黜”改为“人们一有机会就把祂除掉”。",
-      "translation_quote": "一有机会，祂就被罢黜。"
+      "source_quote": "this sordid specimen did not fall on the ground without the notice of the divine Father",
+      "suggested_fix": "将“然而，这只卑微的鸟落在地上，天父也看见了”改为“然而，这只卑微的鸟落在地上，并未逃过天父的察看”，保留“没有落在地上而未被天父留意”的意思。",
+      "translation_quote": "然而，这只卑微的鸟落在地上，天父也看见了。"
     },
     {
-      "location": "正文，第17段（“……较不重要的人”）",
+      "location": "“麻雀就是这样”后关于地方教会的段落",
       "severity": "major",
-      "source_quote": "we sigh and lament at the vast ignorance and injustice of such prejudice precinct",
-      "suggested_fix": "将“我们叹息并哀悼那些偏见之地的巨大无知与不公”改为“我们为这种偏见盛行之地的严重无知与不公叹息、哀悼”。",
-      "translation_quote": "我们叹息并哀悼那些偏见之地的巨大无知与不公"
+      "source_quote": "Para-church Outreaches, personal ministries, retreats, and seminars lend an exciting appeal, to religious zealots",
+      "suggested_fix": "将“教会之外的外展事工、个人事工、退修会和研讨会，对宗教热心人士颇具吸引力”改为“跨教会的外展事工、个人事工、退修会和研讨会，对宗教热心人士颇具吸引力”，避免把 Para-church 误解为一般的教会之外事工。",
+      "translation_quote": "教会之外的外展事工、个人事工、退修会和研讨会，对宗教热心人士颇具吸引力"
     },
     {
-      "location": "正文，第20段（“……失丧的人”）",
+      "location": "关于树木与溺水者的诗，第二节",
       "severity": "major",
-      "source_quote": "Some caring souls venture from the beaten path of common words to help them",
-      "suggested_fix": "将“会离开人们熟悉的话语，踏上不同的道路去帮助他们”改为“会不循常规，采取行动帮助他们”。",
-      "translation_quote": "一些有爱心的人会离开人们熟悉的话语，踏上不同的道路去帮助他们"
-    },
-    {
-      "location": "正文，第21段（“……两个小钱”）",
-      "severity": "major",
-      "source_quote": "The avenues of life that reach out to receive our copper coins are the shrines that hold our hands and our hearts",
-      "suggested_fix": "将“人生中伸手接过我们铜钱的途径，就是抓住我们双手和心灵的神龛”改为“我们把铜钱投向哪些生活途径，就会让那些事物成为攫住我们双手和心灵的神龛”。",
-      "translation_quote": "人生中伸手接过我们铜钱的途径，就是抓住我们双手和心灵的神龛"
+      "source_quote": "The drowning from the clutches of / The cold remorseless wave.",
+      "suggested_fix": "将“为要救起溺水的人，/ 脱离冰冷无情的波涛”改为“为把溺水者从冰冷无情的波涛魔爪中救出”，补出原文“from the clutches of”的意象。",
+      "translation_quote": "为要救起溺水的人，/ 脱离冰冷无情的波涛。"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "7dfb14cbcd0be5b0f3d2ebe9988ce594",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "cmn",
@@ -193,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

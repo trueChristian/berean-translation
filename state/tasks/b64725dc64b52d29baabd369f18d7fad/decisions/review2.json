@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 5",
+      "severity": "minor",
+      "source_quote": "one for out by the driveway",
+      "suggested_fix": "Replace «μία για έξω, κοντά στον ιδιωτικό δρόμο εισόδου του σπιτιού» with «μία για έξω, κοντά στον δρόμο πρόσβασης του σπιτιού», avoiding the unsupported detail that the driveway is private.",
+      "translation_quote": "μία για έξω, κοντά στον ιδιωτικό δρόμο εισόδου του σπιτιού"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

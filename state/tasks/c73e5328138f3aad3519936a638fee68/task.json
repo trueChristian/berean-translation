@@ -2,7 +2,6 @@
   "article_id": "10d20eec-3e71-404f-9f8d-8068b010381e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 8770
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5727,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5724,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6265
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragrafo sotto «Conta le tue benedizioni»; citazione di 2 Corinzi 10:12",
-      "severity": "major",
-      "source_quote": "…but they measuring themselves by themselves, and comparing themselves among themselves, are not wise –2 Corinthians 10:12.",
-      "suggested_fix": "Sostituisci solo il testo della citazione con: «…ma essi, misurando sé stessi con sé stessi e paragonando sé stessi fra loro, non agiscono con saggezza –2 Corinzi 10:12.» Mantieni invariati i tag HTML e la posizione del riferimento.",
-      "translation_quote": "…ma essi, misurandosi secondo la propria misura e paragonandosi fra loro, non hanno giudizio –2 Corinzi 10:12."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "c73e5328138f3aad3519936a638fee68",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ita",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"

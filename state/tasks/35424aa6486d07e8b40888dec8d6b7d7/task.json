@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,39 +64,68 @@
         },
         "total_tokens": 17766
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 596,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10672,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10669,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11268
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning «Δεν περιφρονούνται μόνο τα μικρά παιδιά»",
+      "location": "Article body, paragraph beginning “Children are the opposite”",
       "severity": "major",
-      "source_quote": "“Despite it all, God will never miss a sparrow, and neither can He ignore the smallest sacrifice offered freely by the hands of His little ones.”",
-      "suggested_fix": "Replace «Ούτε και ο έπαινος ενός σπουργιτιού» with «ούτε μπορεί να αγνοήσει την πιο μικρή θυσία που προσφέρεται πρόθυμα από τα χέρια των μικρών Του.» The source refers to a small sacrifice, not praise.",
-      "translation_quote": "«Παρ’ όλα αυτά, ο Θεός δεν θα χάσει ποτέ από τα μάτια Του ένα σπουργίτι, ούτε μπορεί να αγνοήσει την πιο μικρή θυσία που προσφέρεται πρόθυμα από τα χέρια των μικρών Του.»"
+      "source_quote": "“They are the emblem of innocence, dependance, and ignorance.”",
+      "suggested_fix": "Replace «σύμβολα αθωότητας, εξάρτησης και άγνοιας» with «σύμβολα αθωότητας, εξάρτησης και ανωριμότητας».",
+      "translation_quote": "«Είναι σύμβολα αθωότητας, εξάρτησης και άγνοιας.»"
     },
     {
-      "location": "HTML, paragraph beginning «Αλλά αυτός ο εγωισμός δεν είναι κάτι καινούργιο»",
+      "location": "Article body, paragraph beginning “Such are the sparrows” under “…Latter Ones”",
       "severity": "major",
-      "source_quote": "“He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.”",
-      "suggested_fix": "Replace «και Τον εκθρόνισαν με την πρώτη ευκαιρία» with «και τον εξόντωσαν με την πρώτη ευκαιρία.» «Εκθρόνισαν» means dethroned, whereas “deposed of” here means they disposed of Him.",
-      "translation_quote": "«Καταφρονήθηκε και απορρίφθηκε από τους ανθρώπους… –Ησαΐας 53:3, και Τον εκθρόνισαν με την πρώτη ευκαιρία.»"
+      "source_quote": "“Folks stand for hours outside a store front in an effort to have the first chance at a bargain.”",
+      "suggested_fix": "Replace «προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία» with «προσπαθώντας να είναι οι πρώτοι που θα προλάβουν μια προσφορά».",
+      "translation_quote": "«προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία»"
     },
     {
-      "location": "HTML, paragraph beginning «Υπήρχε ένας ιερέας»",
-      "severity": "minor",
-      "source_quote": "“There was a minister who was asked by a funeral director to come and hold a funeral service.”",
-      "suggested_fix": "Use a broader term such as «λειτουργός» or «κήρυκας» instead of «ιερέας», unless the source establishes that the minister was a priest.",
-      "translation_quote": "«Υπήρχε ένας ιερέας στον οποίο ζήτησε ένας διευθυντής γραφείου τελετών να έρθει και να τελέσει μια νεκρώσιμη ακολουθία.»"
+      "location": "Article body, paragraph beginning “The totalitarian governments”",
+      "severity": "major",
+      "source_quote": "“the vast ignorance and injustice of such prejudice precinct”",
+      "suggested_fix": "Replace «τέτοιων προκατειλημμένων περιοχών» with «τέτοιων προκατειλημμένων καθεστώτων».",
+      "translation_quote": "«τέτοιων προκατειλημμένων περιοχών»"
     },
     {
-      "location": "section",
-      "severity": "minor",
-      "source_quote": "“Featured Article”",
-      "suggested_fix": "Replace «Προτεινόμενο άρθρο» with «Επιλεγμένο άρθρο», which conveys “featured” rather than “suggested.”",
-      "translation_quote": "«Προτεινόμενο άρθρο»"
+      "location": "Article body, paragraph beginning “The woman who lost her silver”",
+      "severity": "major",
+      "source_quote": "“The woman who lost her silver searched her house until it was found”",
+      "suggested_fix": "Replace «Η γυναίκα που έχασε το ασημένιο νόμισμά της» with «Η γυναίκα που έχασε το ασημένιο νόμισμά της» only if the context clearly identifies it as a coin; otherwise use «Η γυναίκα που έχασε το ασήμι της» to avoid adding an object not stated in the source.",
+      "translation_quote": "«Η γυναίκα που έχασε το ασημένιο νόμισμά της»"
+    },
+    {
+      "location": "Article body, final paragraph",
+      "severity": "major",
+      "source_quote": "“he couldn’t unmold them to clasp the rope”",
+      "suggested_fix": "Replace «δεν μπορούσε να τα ξεκολλήσει για να πιάσει το σχοινί» with «δεν μπορούσε να τα ξεμουδιάσει για να πιάσει το σχοινί».",
+      "translation_quote": "«δεν μπορούσε να τα ξεκολλήσει για να πιάσει το σχοινί»"
     }
   ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "35424aa6486d07e8b40888dec8d6b7d7",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ell",
@@ -186,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

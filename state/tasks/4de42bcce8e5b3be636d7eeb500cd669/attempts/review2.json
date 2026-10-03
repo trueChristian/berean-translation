@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening quotation, Matthew 10:29\",\"severity\":\"major\",\"source_quote\":\"“one of them shall not fall on the ground without your Father”\",\"suggested_fix\":\"Replace “ohne euren Vater zu Boden” with “zu Boden, ohne dass euer Vater es weiß” to convey the Father’s awareness, rather than suggesting the bird falls in the Father’s absence.\",\"translation_quote\":\"“Und doch fällt keiner von ihnen ohne euren Vater zu Boden”\"},{\"location\":\"Paragraph beginning “Sein Wohlgefallen gilt…”\",\"severity\":\"major\",\"source_quote\":\"“His delight is not merely in the sophisticated and prospering”\",\"suggested_fix\":\"Replace “den Gebildeten und Wohlhabenden” with “den Anspruchsvollen und Erfolgreichen” to preserve the contrast with those who are considered successful or prosperous.\",\"translation_quote\":\"“Sein Wohlgefallen gilt nicht nur den Gebildeten und Wohlhabenden”\"},{\"location\":\"Heading for “Latter Ones”\",\"severity\":\"minor\",\"source_quote\":\"“…Latter Ones”\",\"suggested_fix\":\"Use a natural German heading such as “…die Späteren” (or another contextually suitable rendering) instead of the awkward standalone “…Späteren”.\",\"translation_quote\":\"“…Späteren”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1266,
+    "content_evidence_truncated": false,
+    "content_sha256": "d60b901d5cf7825ef3fdb4fca7db82ae1d1f8858742931beb089e6d5f48c80f2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1297,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1006,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8694,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8691,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9991
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

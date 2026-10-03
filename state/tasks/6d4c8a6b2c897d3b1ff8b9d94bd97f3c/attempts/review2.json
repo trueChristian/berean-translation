@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph 7\",\"severity\":\"major\",\"source_quote\":\"It is like the prescription of the glasses we have in front of our eyes causing us to see things in a distorted manner or with a clear 20/20 view.\",\"suggested_fix\":\"Заменить «какой рецепт имеют очки» на «какая оправа у очков» или другую естественную формулировку, передающую мысль об очках, через которые мы видим искаженно или ясно.\",\"translation_quote\":\"Это похоже на то, какой рецепт имеют очки перед нашими глазами: они могут заставлять нас видеть все искаженно или обеспечивать ясное, стопроцентное зрение.\"},{\"location\":\"source.html, paragraph 12\",\"severity\":\"major\",\"source_quote\":\"I have heard reports of some churches in other parts of the world being pushed by their local government to not meet for fellowship and group worship.\",\"suggested_fix\":\"Передать, что местные власти вынуждают некоторые церкви не собираться для общения и совместного богослужения; например: «Я слышал сообщения о том, что в некоторых частях мира местные власти вынуждают церкви не собираться для общения и совместного богослужения».\",\"translation_quote\":\"Я слышал сообщения о том, что в некоторых частях мира местные власти подталкивают церкви к тому, чтобы они не собирались для общения и совместного богослужения.\"},{\"location\":\"source.html, paragraph 13\",\"severity\":\"major\",\"source_quote\":\"There are numerous things I have heard them testify regarding the churches of the conservative, Anabaptist persuasion. These people are awed by the way we help each other both on a regular basis and when tragedy strikes.\",\"suggested_fix\":\"Уточнить, что люди свидетельствуют именно о церквах консервативного анабаптистского направления, и прямо передать их восхищение тем, как прихожане этих церквей помогают друг другу регулярно и в беде. Например: «…я не раз слышал их свидетельства о церквах консервативного анабаптистского направления. Эти люди поражены тем, как мы помогаем друг другу…».\",\"translation_quote\":\"…я не раз слышал, как они с восхищением отзывались о церквах консервативного анабаптистского направления. Их поражает, как мы помогаем друг другу и в обычное время, и когда случается беда.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 3278,
+    "content_evidence_truncated": false,
+    "content_sha256": "3ef107d239e442ebba7360748f8c856247a075357748a630e88fa46194aedb0b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5469,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5466,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6019
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first paragraph",
+      "severity": "minor",
+      "source_quote": "Later that afternoon, she and her siblings heard that their mom had suffered a heart attack.",
+      "suggested_fix": "Заменить «Позже в тот день» на «Позже тем днём», чтобы сохранить указание на время суток.",
+      "translation_quote": "Позже в тот день Дженника и её братья и сёстры узнали, что у мамы случился сердечный приступ."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

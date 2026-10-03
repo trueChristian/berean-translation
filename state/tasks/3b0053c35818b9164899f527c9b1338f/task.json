@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 13797
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1148,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 815,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8971,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8968,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10119
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraf “...Dua Duit”",
+      "location": "HTML, paragraph under “...Lesser Ones”",
       "severity": "major",
-      "source_quote": "“The avenues of life that reach out to receive our copper coins are the shrines that hold our hands and our hearts”",
-      "suggested_fix": "Ganti bagian itu dengan: “Saluran-saluran kehidupan tempat kita membelanjakan duit tembaga kita adalah tempat-tempat keramat yang menggenggam tangan dan hati kita”",
-      "translation_quote": "“Jalan-jalan kehidupan yang kita jangkau untuk menerima uang tembaga kita adalah tempat-tempat keramat yang menggenggam tangan dan hati kita”"
+      "source_quote": "“a row of cottages for the blue bird”",
+      "suggested_fix": "Replace “deretan sangkar untuk burung biru” with “deretan rumah kecil untuk burung biru” to preserve the source’s image of cottages, rather than cages.",
+      "translation_quote": "“deretan sangkar untuk burung biru”"
+    },
+    {
+      "location": "Final HTML paragraph, Alex Posey’s description",
+      "severity": "major",
+      "source_quote": "“a Creek Indian poet”",
+      "suggested_fix": "Replace “penyair Indian Creek” with “penyair suku Creek” so Creek is identified as the Indigenous people, not as part of the name “Indian Creek.”",
+      "translation_quote": "“seorang penyair Indian Creek”"
+    },
+    {
+      "location": "HTML, paragraph under “...Little Ones”",
+      "severity": "minor",
+      "source_quote": "“For many wombs of the unborn, the life within is a cumbersome bother”",
+      "suggested_fix": "Rephrase narrowly to make clear that the source refers to people viewing unborn life as a burden, for example: “Bagi banyak orang, kehidupan dalam rahim dianggap sebagai beban yang tidak sepadan dengan pengorbanan untuk mempertahankannya.”",
+      "translation_quote": "“Bagi banyak rahim, kehidupan yang belum lahir di dalamnya merupakan beban yang tidak sepadan dengan pengorbanan yang diperlukan untuk mempertahankannya.”"
     }
   ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "3b0053c35818b9164899f527c9b1338f",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ind",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

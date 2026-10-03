@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,39 +64,75 @@
         },
         "total_tokens": 13363
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 608,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8605,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8602,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9213
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article body, paragraph beginning “Als jongetje met arme ouders”",
+      "location": "HTML, alinea over de vrouw met arme ouders",
       "severity": "major",
       "source_quote": "As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.",
-      "suggested_fix": "Replace the sentence with: “Als jongetje met arme ouders heeft Jezus dit tafereel in de dagen van Zijn jeugd waarschijnlijk voor Zijn eigen ogen zien gebeuren.”",
-      "translation_quote": "Als jongetje met arme ouders heeft Jezus dit tafereel in zijn jonge jaren waarschijnlijk vaak met eigen ogen gezien."
+      "suggested_fix": "Vervang de eerste zin door: “Als jongetje met arme ouders heeft Jezus dit tafereel waarschijnlijk zelf meerdere keren zien gebeuren.”",
+      "translation_quote": "Als jongetje met arme ouders heeft Jezus dit tafereel in de dagen van zijn jeugd waarschijnlijk voor zijn eigen ogen zien gebeuren."
     },
     {
-      "location": "Article body, paragraph beginning “De vrouw die haar zilveren munt verloor”",
+      "location": "HTML, alinea over de adelaar en vrijheid",
       "severity": "major",
-      "source_quote": "The woman who lost her silver searched her house until it was found, likewise, the shepherd with his lost lamb.",
-      "suggested_fix": "Replace the clause with: “De vrouw die haar zilveren munt verloor, doorzocht haar huis totdat ze die vond; zo deed ook de herder met zijn verloren lam.”",
-      "translation_quote": "De vrouw die haar zilveren munt verloor, doorzocht haar huis totdat ze die vond; zo deed ook de herder met zijn verloren lam."
+      "source_quote": "to remind us of the glorious freedom of liberty and independence.",
+      "suggested_fix": "Vervang “de glorieuze vrijheid van onafhankelijkheid” door een formulering die beide begrippen behoudt, bijvoorbeeld: “de glorieuze vrijheid en onafhankelijkheid”",
+      "translation_quote": "de glorieuze vrijheid van onafhankelijkheid"
     },
     {
-      "location": "Article body, paragraph beginning “Er was eens een predikant”",
-      "severity": "minor",
-      "source_quote": "While most people never experience a despondency this acute, it is real to some",
-      "suggested_fix": "Replace “De meeste mensen ervaren nooit zo’n diepe moedeloosheid, maar voor sommigen is die werkelijkheid.” with “Hoewel de meeste mensen nooit zo’n hevige moedeloosheid ervaren, is die voor sommigen wel degelijk reëel.”",
-      "translation_quote": "De meeste mensen ervaren nooit zo’n diepe moedeloosheid, maar voor sommigen is die werkelijkheid."
+      "location": "HTML, alinea over kinderen en ongeboren leven",
+      "severity": "major",
+      "source_quote": "For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.",
+      "suggested_fix": "Vervang “Voor veel vrouwen is het ongeboren leven in hun schoot een lastige hinder die het vereiste offer niet waard is om het te behouden” door: “Voor velen is het ongeboren kind in de moederschoot een lastige hinder, die het vereiste offer om het te behouden niet waard is.”",
+      "translation_quote": "Voor veel vrouwen is het ongeboren leven in hun schoot een lastige hinder die het vereiste offer niet waard is om het te behouden."
     },
     {
-      "location": "Article body, paragraph beginning “De totalitaire regeringen”",
+      "location": "HTML, alinea over nieuwe wijn en verwerping",
+      "severity": "major",
+      "source_quote": "He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.",
+      "suggested_fix": "Vervang “en bij de eerste gelegenheid werd Hij afgezet” door “en bij de eerste gelegenheid werd Hij verworpen” om de betekenis van “deposed of” in deze context weer te geven.",
+      "translation_quote": "en bij de eerste gelegenheid werd Hij afgezet."
+    },
+    {
+      "location": "HTML, alinea over de beker koud water",
+      "severity": "major",
+      "source_quote": "Neither will the praise of a sparrow.",
+      "suggested_fix": "Vervang “Evenmin de lof van een mus” door “Ook de lof van een mus zal God niet ontgaan.”",
+      "translation_quote": "Evenmin de lof van een mus."
+    },
+    {
+      "location": "HTML, titel",
       "severity": "minor",
-      "source_quote": "such prejudice precinct",
-      "suggested_fix": "Replace “zulke vooringenomenheid” with “zulke vooroordelen” to convey the source’s reference to prejudice.",
-      "translation_quote": "zulke vooringenomenheid"
+      "source_quote": "Sparrows",
+      "suggested_fix": "Gebruik als titel “Mussen” (meervoud), zodat de titel overeenkomt met het onderwerp en de Engelse titel.",
+      "translation_quote": "Mussen"
     }
   ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "1f09ad7779ebc38ddea6b92023555d26",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "nld",
@@ -186,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

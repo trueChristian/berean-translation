@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,25 +64,75 @@
         },
         "total_tokens": 13818
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article opening, Matthew 10:29 quotation",
-      "severity": "major",
-      "source_quote": "“and one of them shall not fall on the ground without your Father”",
-      "suggested_fix": "Change «uten at deres Far vet det» to «uten at deres Far vil det» to avoid adding an assertion about the Father’s knowledge that is not stated in the printed source.",
-      "translation_quote": "«Og ikke én av dem faller til jorden uten at deres Far vet det»"
     },
     {
-      "location": "Paragraph beginning «Det er ikke bare små barn som blir foraktet»",
-      "severity": "minor",
-      "source_quote": "“all the noisy sacks of silver that resonated down the chute”",
-      "suggested_fix": "Replace «alle de støyende søkkene med sølv» with «alle sølvsekkene som klirret ned gjennom åpningen».",
-      "translation_quote": "«alle de støyende søkkene med sølv som klirret ned gjennom åpningen»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 653,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8868,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8865,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9521
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, first paragraph / Matteus 10:29",
+      "severity": "major",
+      "source_quote": "“and one of them shall not fall on the ground without your Father”",
+      "suggested_fix": "Endre sitatet til «… og ikke én av dem faller til jorden uten at deres Far vet det» (eller en annen formulering som bevarer at ingenting skjer uten Faderens viten, uten å legge til at han vil det).",
+      "translation_quote": "«Og ikke én av dem faller til jorden uten at deres Far vil det»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «As a little boy with poor parents»",
+      "severity": "major",
+      "source_quote": "“Though one may have no interest in bubbles and has chosen to ignore them, it is the simple truths that give God His greatness.”",
+      "suggested_fix": "Endre til «Selv om man kanskje ikke bryr seg om bobler og har valgt å overse dem, er det de enkle sannhetene som viser Guds storhet.»",
+      "translation_quote": "«Selv om man kanskje ikke bryr seg om bobler og har valgt å overse dem, er det de enkle sannhetene som gjør Gud stor.»"
+    },
+    {
+      "location": "HTML, overskriften «…Little Ones»",
+      "severity": "minor",
+      "source_quote": "“…Little Ones”",
+      "suggested_fix": "Bruk «…De små» for å bevare den substantiverte overskriftens betydning.",
+      "translation_quote": "«…Små»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «The convergent link drawn to the worthless bird»",
+      "severity": "major",
+      "source_quote": "“The convergent link drawn to the worthless bird is a worthless person. There are so many things that argue for our worthlessness.”",
+      "suggested_fix": "Endre «Så mye taler for at vi er verdiløse» til «Det er så mange ting som taler for vår verdiløshet» (eller tilsvarende), slik at setningen beholder kildens uttrykkelige påstand.",
+      "translation_quote": "«Så mye taler for at vi er verdiløse.»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «The totalitarian governments of communist regimes»",
+      "severity": "major",
+      "source_quote": "“the vast ignorance and injustice of such prejudice precinct”",
+      "suggested_fix": "Oversett uttrykket som «den omfattende uvitenheten og urettferdigheten i slike fordomsfulle kretser/miljøer», uten å endre det til at det gjelder steder eller institusjoner.",
+      "translation_quote": "«den omfattende uvitenheten og urettferdigheten i slike fordomsfulle miljøer»"
+    },
+    {
+      "location": "HTML, siste avsnitt om Alex Posey",
+      "severity": "minor",
+      "source_quote": "“a Creek Indian poet”",
+      "suggested_fix": "Bruk en tydelig norsk betegnelse for Creek-folket, for eksempel «en poet fra Creek-folket».",
+      "translation_quote": "«en creekindiansk poet»"
+    }
+  ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "122d2b06b53d39145ed4fc90d390bac6",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "nob",
@@ -178,7 +227,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

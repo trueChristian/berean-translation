@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 2, final line",
+      "severity": "major",
+      "source_quote": "But our own understanding, we lean on instead?",
+      "suggested_fix": "Replace the line with «Αντί γι’ αυτό, στηριζόμαστε στη δική μας κατανόηση;» to retain the contrast and the question’s meaning.",
+      "translation_quote": "Κι όμως, στηριζόμαστε στη δική μας κατανόηση;"
+    },
+    {
+      "location": "Poem, stanza 3, line 2",
+      "severity": "major",
+      "source_quote": "All the miracles, with a word, they were done!",
+      "suggested_fix": "Replace with «Όλα τα θαύματα έγιναν με έναν λόγο!»",
+      "translation_quote": "Όλα τα θαύματα έγιναν με έναν λόγο!"
+    },
+    {
+      "location": "Poem, stanza 6, line 2",
+      "severity": "major",
+      "source_quote": "But every moment, your fears disregard.",
+      "suggested_fix": "Replace with «Αλλά κάθε στιγμή, μην αφήνεις τους φόβους σου να σε αποτρέπουν.»",
+      "translation_quote": "αλλά κάθε στιγμή, παραμερίζοντας τους φόβους σου."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

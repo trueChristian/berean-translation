@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, opening Psalm quotation\",\"severity\":\"major\",\"source_quote\":\"I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and that my soul knoweth right well –Psalm 139:14.\",\"suggested_fix\":\"استبدل الاقتباس بترجمة عربية أمينة للنص المطبوع، مع الحفاظ على المرجع مزمور 139:14. مثلًا: «أحمدك لأنني صُنعت برهبة وعجب؛ عجيبة هي أعمالك، وهذا تعرفه نفسي حقًا».\",\"translation_quote\":\"أحمدك، لأنني صُنعتُ بعجبٍ ورهبة؛ عجيبةٌ هي أعمالك، وهذا تعرفه نفسي جيدًا –مزمور 139:14.\"},{\"location\":\"html, paragraph under “Consider Probiotics”\",\"severity\":\"major\",\"source_quote\":\"One study gave 326 children probiotics or a placebo during the cold season. The children who were receiving the probiotics had significantly fewer respiratory illnesses and fevers during those six months.\",\"suggested_fix\":\"عدّل العبارة لتفيد أن الأطفال الذين تلقوا البروبيوتيك أصيبوا بأمراض تنفسية وحمى أقل بكثير، مع الحفاظ على المدة: «وأُصيب الأطفال الذين تلقوا البروبيوتيك بعدد أقل بكثير من الأمراض التنفسية ونوبات الحمى خلال تلك الأشهر الستة».\",\"translation_quote\":\"وأصيب الأطفال الذين تناولوا البروبيوتيك بأمراض تنفسية وحمى أقل بكثير خلال تلك الأشهر الستة.\"},{\"location\":\"html, paragraph under “Targeted Supplements,” Zinc\",\"severity\":\"major\",\"source_quote\":\"I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.\",\"suggested_fix\":\"أصلح التناقض الظاهري في الترجمة بإبقاء المقارنة كما في المصدر: «وأود أن أنبه هنا إلى أنه ليس معدًا حقًا للتناول كل يوم، بل يُتناول عند أول أعراض بدء عدوى في الجهاز التنفسي العلوي»؛ لا تضف معنى الجرعة أو زيادتها.\",\"translation_quote\":\"وأود أن أنبه هنا إلى أنه ليس معدًا حقًا للتناول كل يوم، بل ينبغي تناوله عند أول أعراض ظهور عدوى في الجهاز التنفسي العلوي.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2582,
+    "content_evidence_truncated": false,
+    "content_sha256": "360778b6ecd1530747a7c4287fedd8125932abb0ebaf95cfc03bfee75d5bb510",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 518,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9572,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9569,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10090
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

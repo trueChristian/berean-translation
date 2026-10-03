@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «El vínculo que se traza…»\",\"severity\":\"minor\",\"source_quote\":\"Mega churches have risen to console him.\",\"suggested_fix\":\"Replace «meg iglesias» with «megaiglesias».\",\"translation_quote\":\"Han surgido meg iglesias para consolarlo.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 319,
+    "content_evidence_truncated": false,
+    "content_sha256": "c8c7034d8b7f6ba81387cb737f7b069d06c2b1f27d89fe9eab75cee6636f13cf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 662,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 567,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8571,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8568,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9233
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

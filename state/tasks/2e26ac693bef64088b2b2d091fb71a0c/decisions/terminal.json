@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Gedicht, vierde strofe",
+      "severity": "major",
+      "source_quote": "Another pot gives me a bump, / And now I have a little lump.",
+      "suggested_fix": "Vervang de laatste twee regels door: “Een andere pot stoot tegen mij aan, / en nu heb ik een klein bobbeltje.”",
+      "translation_quote": "Een andere pot stoot tegen mij aan, / en nu heb ik een klein deukje."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

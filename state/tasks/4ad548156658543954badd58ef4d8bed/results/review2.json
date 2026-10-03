@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8d4afed8-47af-4001-9e4d-a476781194a5",
+    "response_id": "chatcmpl-EUsNkOAiaWfIQOfTq1APYIsh5VUoA",
+    "usage": {
+      "completion_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6196,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6193,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6874
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “There were friends in the same church…”",
+        "severity": "major",
+        "source_quote": "one daughter dated and married long before the other one began a courtship.",
+        "suggested_fix": "Replace the sentence with: “زندگی کے اتفاق سے، ایک بیٹی نے دوسری بیٹی کے کسی سے ملاقات شروع کرنے سے بہت پہلے ہی کسی سے ملاقات شروع کر دی اور شادی بھی کر لی۔” This preserves that the second daughter had not yet begun courting, rather than implying she was beginning marriage.",
+        "translation_quote": "ایک بیٹی نے دوسری بیٹی کے رشتۂ ازدواج کی ابتدا کرنے سے بہت پہلے ہی کسی سے ملنا شروع کر دیا اور شادی بھی کر لی۔"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

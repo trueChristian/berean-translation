@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Strophe 3, Zeile 3",
+      "severity": "major",
+      "source_quote": "Thy hand from ev’ry snare and foe",
+      "suggested_fix": "Deine Hand wird uns aus jeder Falle und aus der Hand jedes Feindes",
+      "translation_quote": "Deine Hand wird aus jeder Falle und vor jedem Feind"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

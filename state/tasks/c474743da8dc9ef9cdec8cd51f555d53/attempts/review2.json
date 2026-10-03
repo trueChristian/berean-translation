@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Note de la rédaction, citation de 2 Timothée 3:16\",\"severity\":\"major\",\"source_quote\":\"“All scripture … is profitable for doctrine, for reproof, [and] for correction…” –2 Timothy 3:16\",\"suggested_fix\":\"Remplacer « pour convaincre » par une traduction de « for reproof », par exemple « pour reprendre », en conservant le reste de la citation et la référence.\",\"translation_quote\":\"« Toute Écriture […] est utile pour enseigner, pour convaincre, [et] pour corriger » –2 Timothée 3:16\"},{\"location\":\"Premier intertitre, citation de Jean 16:12-13\",\"severity\":\"major\",\"source_quote\":\"“Howbeit when he, the Spirit of truth, is come…” –John 16:12-13\",\"suggested_fix\":\"Supprimer « le consolateur, » : cette précision n’apparaît pas dans la citation anglaise. Conserver une formulation telle que « Quand l’Esprit de vérité sera venu… » et la référence existante.\",\"translation_quote\":\"« Quand le consolateur, l’Esprit de vérité, sera venu… » –Jean 16:12-13\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1064,
+    "content_evidence_truncated": false,
+    "content_sha256": "b3b5b4e415b4a8ec0e8adce5a00a6496979adda1396ce77bc34dcb668214266c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 690,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 416,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9257,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9950
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

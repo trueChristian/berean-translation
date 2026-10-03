@@ -2,7 +2,6 @@
   "article_id": "10d20eec-3e71-404f-9f8d-8068b010381e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,53 +64,31 @@
         },
         "total_tokens": 8950
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 439,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 413,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5465,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5462,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5904
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, párrafo sobre los celos y las generaciones futuras",
-      "severity": "major",
-      "source_quote": "“Not only does it have the potential to destroy my relationships now, but also those of my children and grandchildren.”",
-      "suggested_fix": "Sustituir «No solo pueden destruir mis relaciones actuales, sino también las de mis hijos y nietos» por «No solo tiene el potencial de destruir mis relaciones actuales, sino también las de mis hijos y nietos» para conservar el sujeto singular (los celos) y la afirmación de potencial.",
-      "translation_quote": "«No solo pueden destruir mis relaciones actuales, sino también las de mis hijos y nietos.»"
-    },
-    {
-      "location": "source.html, título de sección «Count Your Own Blessings»",
-      "severity": "major",
-      "source_quote": "“Count Your Own Blessings”",
-      "suggested_fix": "Cambiar «Cuenta tus propias bendiciones» por «Cuenta tus bendiciones» para no añadir que sean propias; mantener la etiqueta <h2><em> y su estructura.",
-      "translation_quote": "«Cuenta tus propias bendiciones»"
-    },
-    {
-      "location": "source.html, párrafo sobre la definición de celoso",
-      "severity": "major",
-      "source_quote": "“Jealousy pops up in many ways, such as craving to copy a peer.”",
-      "suggested_fix": "Cambiar «como el deseo de imitar a una compañera» por «como el ansia de copiar a una compañera», conservando la idea de querer copiar, no solo imitar.",
-      "translation_quote": "«como el deseo de imitar a una compañera»"
-    },
-    {
-      "location": "source.html, párrafo sobre la sospecha y la verdad",
-      "severity": "major",
-      "source_quote": "“Dwelling on a suspicion or envying another person distorts truth. This is dangerous, because what you perceive as a truth, is a lie.”",
-      "suggested_fix": "Reformular la última oración para preservar la afirmación de que lo percibido como verdad es una mentira, por ejemplo: «Esto es peligroso, porque lo que percibes como verdadero es mentira»; quitar la coma entre sujeto y predicado.",
-      "translation_quote": "«Esto es peligroso, porque lo que percibes como verdad es mentira.»"
-    },
-    {
-      "location": "source.html, párrafo sobre los pensamientos divisivos",
-      "severity": "major",
-      "source_quote": "“It causes extra work for church leaders and stunts the growth of a body of believers.”",
-      "suggested_fix": "Reemplazar «frena el crecimiento de una comunidad de creyentes» por «obstaculiza el crecimiento del cuerpo de creyentes» para conservar la imagen y el sentido de “a body of believers”.",
-      "translation_quote": "«Esto genera trabajo adicional para los líderes de la iglesia y frena el crecimiento de una comunidad de creyentes.»"
-    },
-    {
-      "location": "source.html, título de sección «Replace Jealousy With Gratitude And Contentment»",
-      "severity": "major",
-      "source_quote": "“contentment”",
-      "suggested_fix": "En el título, sustituir «contentamiento» por «conformidad» o «satisfacción» para expresar el sentido de estar contento con lo que se tiene; mantener la etiqueta <h2><em> y su estructura.",
-      "translation_quote": "«Reemplaza los celos con gratitud y contentamiento»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "4ccc685a8d337752601ef8784ae38d20",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "spa",
@@ -200,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"

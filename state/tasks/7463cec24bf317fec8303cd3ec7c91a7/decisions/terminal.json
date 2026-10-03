@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “Eat the Right Foods” / “درست غذائیں کھائیں”",
+      "severity": "major",
+      "source_quote": "Foods that are high in added nitrates, like cured meats, tend to greatly increase these free radicals and should be avoided.",
+      "suggested_fix": "اضافی نائٹریٹس والی غذائیں، مثلاً نمک لگا کر محفوظ کیا ہوا گوشت، ان آزاد ریڈیکلز میں نمایاں اضافہ کرنے کا رجحان رکھتی ہیں، اس لیے ان سے پرہیز کرنا چاہیے۔",
+      "translation_quote": "اضافی نائٹریٹس والی غذائیں، مثلاً نمک لگا کر محفوظ کیا ہوا گوشت، ان آزاد ریڈیکلز میں نمایاں اضافہ کرتی ہیں، اس لیے ان سے پرہیز کرنا چاہیے۔"
+    },
+    {
+      "location": "HTML, paragraph under “Consider Probiotics” / “پروبایوٹکس پر غور کریں”",
+      "severity": "major",
+      "source_quote": "The children who were receiving the probiotics had significantly fewer respiratory illnesses and fevers during those six months.",
+      "suggested_fix": "پروبایوٹکس لینے والے بچوں کو ان چھ مہینوں کے دوران سانس کی بیماریاں اور بخار نمایاں طور پر کم ہوئے۔",
+      "translation_quote": "پروبایوٹکس لینے والے بچوں کو ان چھ مہینوں کے دوران سانس کی بیماریاں اور بخار نمایاں طور پر کم ہوئے۔"
+    },
+    {
+      "location": "HTML, paragraph under “Targeted Supplements” / “مخصوص سپلیمنٹس”",
+      "severity": "major",
+      "source_quote": "I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.",
+      "suggested_fix": "میں یہاں یہ تنبیہ کروں گا کہ اسے ہر روز لینے کے لیے نہیں بنایا گیا؛ بلکہ سانس کی اوپری نالی کے انفیکشن کی پہلی علامت ظاہر ہونے پر اسے لینا چاہیے۔",
+      "translation_quote": "میں یہاں یہ تنبیہ کروں گا کہ اسے ہر روز لینے کا مشورہ نہیں؛ بلکہ جب سانس کی اوپری نالی کے انفیکشن کی پہلی علامت ظاہر ہو تو زیادہ مقدار لینی چاہیے۔"
+    },
+    {
+      "location": "HTML, closing paragraph before endnotes",
+      "severity": "major",
+      "source_quote": "These systems heal injuries, maintain our body, and protect it from a world damaged by the introduction of sin at the Fall of man, in the Garden of Eden.",
+      "suggested_fix": "یہ نظام زخموں کو مندمل کرتے، ہمارے جسم کو برقرار رکھتے اور اسے اُس دنیا سے محفوظ رکھتے ہیں جو باغِ عدن میں انسان کے سقوط کے وقت گناہ کے داخل ہونے سے نقصان زدہ ہوئی۔",
+      "translation_quote": "یہ نظام زخموں کو مندمل کرتے، ہمارے جسم کو برقرار رکھتے اور انسان کے سقوط کے وقت باغِ عدن میں گناہ کے داخل ہونے سے نقصان یافتہ دنیا سے اس کی حفاظت کرتے ہیں۔"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

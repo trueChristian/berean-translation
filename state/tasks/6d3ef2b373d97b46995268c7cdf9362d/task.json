@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,32 +64,39 @@
         },
         "total_tokens": 12795
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 773,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 626,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8201,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8198,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8974
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML paragraph containing Ephesians 5:25–27",
-      "severity": "major",
-      "source_quote": "That he might sanctify and cleanse it with the washing of water by the word,",
-      "suggested_fix": "Vervang die ooreenstemmende gedeelte binne die bestaande <em>-etiket met: “om dit te heilig en te reinig met die waterbad deur die woord,”",
-      "translation_quote": "om dit te heilig nadat Hy dit gereinig het met die waterbad deur die woord,"
-    },
-    {
-      "location": "HTML paragraph about boldly proclaiming the gospel",
+      "location": "Final paragraph, sentence before the Isaiah quotation",
       "severity": "minor",
-      "source_quote": "willing to take the road less traveled.",
-      "suggested_fix": "Vervang “die minder betrapte pad te kies” met “die minder bewandelde pad te kies”.",
-      "translation_quote": "bereid is om die minder betrapte pad te kies."
-    },
-    {
-      "location": "Final HTML paragraph, sentence about seeking God’s will",
-      "severity": "minor",
-      "source_quote": "Let us earnestly seek God’s will for ourselves, for our families, for our churches, and for our neighbors.",
-      "suggested_fix": "Vervang “Laat ons God ernstig soek se wil” met “Laat ons God se wil ernstig soek”.",
-      "translation_quote": "Laat ons God ernstig soek se wil vir onsself, ons gesinne, ons kerke en ons bure."
+      "source_quote": "Let us ask God to show us how we can be His examples to the world around us.",
+      "suggested_fix": "Change “hoe ons sy voorbeelde vir die wêreld om ons kan wees” to “hoe ons voorbeelde van Hom vir die wêreld om ons kan wees” to make clear that believers are to exemplify God to the world.",
+      "translation_quote": "Laat ons God vra om ons te wys hoe ons sy voorbeelde vir die wêreld om ons kan wees."
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "6d3ef2b373d97b46995268c7cdf9362d",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "afr",
@@ -179,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "4e180a0e-db17-4e62-9eb8-da82bbe72d17",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 2999
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 428,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 402,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1969,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1966,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2397
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Poem, final stanza",
-      "severity": "major",
-      "source_quote": "With confidence in God, His power to display.",
-      "suggested_fix": "Replace “하나님을 <strong><em>확신</em></strong>하며” with “하나님을 <strong><em>신뢰</em></strong>하며” to convey confidence placed in God, rather than certainty about God.",
-      "translation_quote": "하나님을 <strong><em>확신</em></strong>하며 그분의 능력을 드러낼 백성을."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "ff44035de7bbdf6052422462e3609052",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "kor",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5636133dbab39e4eaf1bb0dd64c7d4f151e264d545ee62ceef45000ae30cece8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "2a97fefda431f6b0230a62317a2f23507f948c9c54a8e9e9e0526f6f35bea3df",
   "translation_model_actual": "gpt-6-luna"

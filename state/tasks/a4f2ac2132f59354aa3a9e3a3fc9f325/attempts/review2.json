@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Artikeltext, Absatz über die Grausamkeit von Neid und Eifersucht; Sprüche 27:4\",\"severity\":\"major\",\"source_quote\":\"“Wrath is cruel, and anger is outrageous; but who is able to stand before envy? –Proverbs 27:4.”\",\"suggested_fix\":\"Ändere in diesem Zitat „aber wer kann vor Eifersucht bestehen?“ zu „aber wer kann vor Neid bestehen?“, sodass der im Original ausdrücklich verwendete Begriff „envy“ als „Neid“ wiedergegeben wird. Behalte das bestehende HTML und die Referenz bei.\",\"translation_quote\":\"„Zorn ist grausam, und Grimm ist eine Flut; aber wer kann vor Eifersucht bestehen? –Sprüche 27:4.“\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 685,
+    "content_evidence_truncated": false,
+    "content_sha256": "ee21c0921aa6651a664a6885fab2efd8504a6fc8d89cc85bb6c7f12fdea4fc3b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5603,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5600,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6305
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

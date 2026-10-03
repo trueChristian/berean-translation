@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening Scripture quotation (Matthew 10:29)",
+      "severity": "major",
+      "source_quote": "“one of them shall not fall on the ground without your Father”",
+      "suggested_fix": "Replace “sem o consentimento de vosso Pai” with wording that conveys that a sparrow does not fall without the Father’s knowledge, for example: “E nenhum deles cairá por terra sem que vosso Pai o saiba.”",
+      "translation_quote": "“E nenhum deles cairá por terra sem o consentimento de vosso Pai”"
+    },
+    {
+      "location": "HTML, references to the farthing throughout, including the title “...Two farthings”",
+      "severity": "major",
+      "source_quote": "“two were sold for a farthing (about a half cent)”; “One copper farthing”; “two coins”; “And a farthing is not a major expenditure”; “...Two farthings”",
+      "suggested_fix": "Use a consistent Portuguese rendering that identifies the specific coin (for example, “farthing”, with a brief explanation at its first occurrence if needed), rather than replacing it throughout with a generic low-value coin. Preserve the source’s references to copper and the exact amounts; adapt the heading accordingly.",
+      "translation_quote": "“dois eram vendidos por uma moeda de pouco valor (cerca de meio centavo)”; “Uma moeda de cobre de pouco valor”; “duas moedas”; “uma moeda de pouco valor”; “...Duas moedas de pouco valor”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

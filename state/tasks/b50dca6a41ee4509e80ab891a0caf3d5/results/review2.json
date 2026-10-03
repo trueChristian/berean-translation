@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "89072d67-1eaa-460d-b140-7537ef149e7d",
+    "response_id": "chatcmpl-EUsNP5e3YnVqFCduGt41pQ3252ybe",
+    "usage": {
+      "completion_tokens": 679,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 554,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9290,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9287,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9969
+    }
+  },
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Dios creó nuestro cuerpo con varios sistemas diferentes»",
+        "severity": "minor",
+        "source_quote": "We are indeed fearfully and wonderfully made.",
+        "suggested_fix": "Cambiar «En verdad, somos hechos de manera asombrosa y maravillosa» por «En verdad, fuimos creados de manera asombrosa y maravillosa».",
+        "translation_quote": "En verdad, somos hechos de manera asombrosa y maravillosa."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

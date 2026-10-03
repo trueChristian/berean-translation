@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"הערת העורך, הפסקה על התיאולוגיה ואורח החיים\",\"severity\":\"minor\",\"source_quote\":\"the soil out of which our behavior grows\",\"suggested_fix\":\"שנו ל: ״הקרקע שממנה צומחת התנהגותנו״.\",\"translation_quote\":\"הקרקע שממנה צומח התנהגותנו\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 369,
+    "content_evidence_truncated": false,
+    "content_sha256": "18c50439264c24bc9d3d075bc3daa366a161477f51435f7d00344e7df6196dfd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 900,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 790,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9644,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9641,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10544
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

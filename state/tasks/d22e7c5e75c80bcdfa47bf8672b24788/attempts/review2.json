@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Strophe 3, Zeile 3\",\"severity\":\"major\",\"source_quote\":\"Thy hand from ev’ry snare and foe\",\"suggested_fix\":\"Deine Hand wird uns aus jeder Falle und aus der Hand jedes Feindes\",\"translation_quote\":\"Deine Hand wird aus jeder Falle und vor jedem Feind\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 305,
+    "content_evidence_truncated": false,
+    "content_sha256": "a00e410e88785c92d8db111272887edd2903b8dc3618412643448f245b4522e8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 647,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1747,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1744,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2495
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

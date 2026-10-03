@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,32 +64,103 @@
         },
         "total_tokens": 15104
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1036,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9417,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9414,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10453
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "पहला अनुच्छेद, मत्ती 10:29 का उद्धरण",
+      "location": "आरंभिक उद्धरण, मत्ती 10:29",
       "severity": "major",
-      "source_quote": "one of them shall not fall on the ground without your Father",
-      "suggested_fix": "“और उनमें से एक भी तुम्हारे पिता के बिना भूमि पर नहीं गिरती”—अर्थात् पिता की जानकारी/देखरेख से बाहर नहीं।",
-      "translation_quote": "और उनमें से एक भी तुम्हारे पिता की अनुमति के बिना भूमि पर नहीं गिरती"
+      "source_quote": "“one of them shall not fall on the ground without your Father”",
+      "suggested_fix": "“और उनमें से एक भी तुम्हारे पिता के बिना भूमि पर नहीं गिरती।”",
+      "translation_quote": "“उनमें से एक भी तुम्हारे पिता की जानकारी के बिना भूमि पर नहीं गिरती”"
     },
     {
-      "location": "“...बाद में आने वाले जन” खंड, प्रेरितों के काम 17:21 का उद्धरण और आसपास का वाक्य",
+      "location": "अनुच्छेद: “As a little boy with poor parents…”",
       "severity": "major",
-      "source_quote": "Many will avidly spend their time in nothing else, … but either to tell, or to hear [or to purchase] some new thing.",
-      "suggested_fix": "अर्थ को इस तरह ठीक करें कि वे लोग उत्सुकता से अपना समय और किसी काम में नहीं, बल्कि केवल कुछ नई बात कहने, सुनने [या खरीदने] में लगाते हैं।",
-      "translation_quote": "बहुत से लोग अपना समय और किसी चीज़ में लगाने को उत्सुक होंगे ही नहीं, … परन्तु कुछ नई बात कहने, या सुनने [या खरीदने] में।"
+      "source_quote": "“As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.”",
+      "suggested_fix": "“यीशु के बाल्यकाल में, जब वे गरीब माता-पिता के पुत्र थे, यह बहुत संभव है कि यह दृश्य उनकी आँखों के सामने बार-बार घटा हो।”",
+      "translation_quote": "“जब यीशु छोटे बालक थे और उनके माता-पिता गरीब थे, तो बहुत संभव है कि उनके जीवन के उन दिनों में यह दृश्य उनकी आँखों के सामने भी बार-बार घटा हो।”"
     },
     {
-      "location": "“...बाद में आने वाले जन” खंड, यशायाह 53:3 के उद्धरण के बाद",
+      "location": "अनुच्छेद: “Not only are little children despised…”",
       "severity": "major",
-      "source_quote": "and He was deposed of at the earliest opportunity.",
-      "suggested_fix": "“और पहले ही अवसर पर उसे ठिकाने लगा दिया गया।”",
-      "translation_quote": "और पहले अवसर पर ही उसे पद से हटा दिया गया।"
+      "source_quote": "“The addition of the widow’s two mites to the treasury arrested the attention of the general populace, though not in a positive fashion.”",
+      "suggested_fix": "“विधवा द्वारा भेंट-पेटी में डाले गए दो छोटे सिक्कों ने आम लोगों का ध्यान खींचा, हालाँकि सकारात्मक ढंग से नहीं।”",
+      "translation_quote": "“विधवा के दो दमड़ियों के भेंट में डालने ने आम लोगों का ध्यान खींचा, हालाँकि सकारात्मक ढंग से नहीं।”"
+    },
+    {
+      "location": "अनुच्छेद: “Such are the sparrows. Are not the native birds…”; नीतिवचन 26:16 उद्धरण",
+      "severity": "major",
+      "source_quote": "“The sluggard is wiser in his own conceit than seven men that can render a reason”",
+      "suggested_fix": "“आलसी अपनी ही दृष्टि में उन सात पुरुषों से अधिक बुद्धिमान है जो तर्कपूर्ण उत्तर दे सकते हैं।”",
+      "translation_quote": "“आलसी अपनी दृष्टि में सात ऐसे पुरुषों से अधिक बुद्धिमान है जो उचित उत्तर दे सकते हैं”"
+    },
+    {
+      "location": "अनुच्छेद: “But this selfishness is nothing new.”; यशायाह 53:3 उद्धरण",
+      "severity": "major",
+      "source_quote": "“He [was] despised and rejected of men…”",
+      "suggested_fix": "“वह मनुष्यों में तुच्छ जाना और अस्वीकार किया गया…”",
+      "translation_quote": "“वह मनुष्यों में तुच्छ जाना और निकम्मा ठहरा…”"
+    },
+    {
+      "location": "अनुच्छेद: “Such are the sparrows. An orange for the orioles…”",
+      "severity": "major",
+      "source_quote": "“a BB gun for the sparrows”",
+      "suggested_fix": "“गौरैयों के लिए बीबी बंदूक” या “गौरैयों के लिए छोटी छर्रे वाली बंदूक”",
+      "translation_quote": "“गौरैयों के लिए छर्रे वाली बंदूक”"
+    },
+    {
+      "location": "अनुच्छेद: “The totalitarian governments…”",
+      "severity": "major",
+      "source_quote": "“such prejudice precinct”",
+      "suggested_fix": "“ऐसे पूर्वाग्रहपूर्ण समाज/व्यवस्था”",
+      "translation_quote": "“ऐसे पूर्वाग्रहपूर्ण क्षेत्र”"
+    },
+    {
+      "location": "अनुच्छेद: “Many will go to extra efforts…”",
+      "severity": "major",
+      "source_quote": "“Many will go to extra efforts to deplete their outward ostentation”",
+      "suggested_fix": "“बहुत-से लोग अपने बाहरी दिखावे को बढ़ाने के लिए अतिरिक्त प्रयास करेंगे”",
+      "translation_quote": "“बहुत से लोग अपने बाहरी दिखावे को घटाने के लिए अतिरिक्त प्रयास करेंगे”"
+    },
+    {
+      "location": "कविता, दूसरी पद्य-पंक्ति",
+      "severity": "major",
+      "source_quote": "“The drowning from the clutches of / The cold remorseless wave.”",
+      "suggested_fix": "“डूबते हुए लोगों को / ठंडी, निर्दयी लहर के शिकंजे से बचाने के लिए।”",
+      "translation_quote": "“उन्हें, जिन्हें ठंडी, निर्दयी लहर / अपनी पकड़ में डुबो रही है।”"
+    },
+    {
+      "location": "अंतिम अनुच्छेद: एलेक्स पोसी का वृत्तांत",
+      "severity": "major",
+      "source_quote": "“his hands had paralyzed, and he couldn’t unmold them to clasp the rope”",
+      "suggested_fix": "“उनके हाथ लकवाग्रस्त हो गए थे और वे रस्सी पकड़ने के लिए उन्हें खोल नहीं सके”",
+      "translation_quote": "“उनके हाथ लकवाग्रस्त हो गए थे और वे रस्सी पकड़ने के लिए उन्हें खोल नहीं सके”"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "60ec305cbbac19543863b519392e5485",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "hin",
@@ -179,13 +249,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

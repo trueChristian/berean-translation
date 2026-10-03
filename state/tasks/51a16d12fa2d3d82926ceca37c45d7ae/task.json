@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,81 +64,54 @@
         },
         "total_tokens": 15491
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1106,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 705,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9149,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9146,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10255
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 3",
+      "location": "Paragraph quoting Luke 12:7",
       "severity": "major",
-      "source_quote": "“baker’s dozen”",
-      "suggested_fix": "Replace “donati za ziada” with a Kiswahili rendering of the custom of a baker giving an extra item, such as “kama ilivyo desturi ya mwokaji kutoa bidhaa moja ya ziada”.",
-      "translation_quote": "“donati za ziada”"
+      "source_quote": "ye are of more value than many sparrows",
+      "suggested_fix": "Change “ninyi ni bora kuliko shomoro wengi” to “ninyi mna thamani kuliko shomoro wengi” to preserve the comparison of value.",
+      "translation_quote": "ninyi ni bora kuliko shomoro wengi"
     },
     {
-      "location": "Paragraph 4",
+      "location": "Paragraph describing the market prices and the free fifth sparrow; also heading “...Two farthings”",
       "severity": "major",
-      "source_quote": "“As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.”",
-      "suggested_fix": "Translate as: “Akiwa mvulana mdogo mwenye wazazi maskini, inawezekana sana kwamba tukio hili lilikuwa limetukia mara nyingi mbele ya macho yake mwenyewe katika siku za utoto wa Yesu.”",
-      "translation_quote": "“Nikiwa mvulana mdogo mwenye wazazi maskini, inawezekana sana kwamba katika siku za utoto wa Yesu, tukio hili lilikuwa limejirudia mbele ya macho yake mwenyewe.”"
+      "source_quote": "One copper farthing would purchase two sparrows. If they were to place two coins on the counter, they would receive four birds.",
+      "suggested_fix": "Use a consistent Kiswahili rendering for the historical coin, such as “farthingi”: change “senti moja ya shaba” to “farthingi moja ya shaba,” “senti mbili” in the quoted Luke passage to “farthingi mbili,” and the heading “...Senti Mbili” to “...Farthingi Mbili.” The source identifies a farthing as about half a cent, so translating it as one cent changes the stated price.",
+      "translation_quote": "Senti moja ya shaba ingenunua shomoro wawili. Kama wangeweka sarafu mbili kaunta ... <h2>…Senti Mbili</h2>"
     },
     {
-      "location": "Paragraph 6",
-      "severity": "major",
-      "source_quote": "“The convergent link drawn to the worthless bird is a worthless person.”",
-      "suggested_fix": "Restore the assertion linking the bird and a person considered worthless, for example: “Kiungo kinachounganisha ndege asiye na thamani na mtu asiye na thamani ni wazi.”",
-      "translation_quote": "“Uhusiano unaounganisha ndege asiye na thamani na mtu asiye na thamani.”"
-    },
-    {
-      "location": "Paragraph 8",
-      "severity": "major",
-      "source_quote": "“There was a minister who was asked by a funeral director to come and hold a funeral service.”",
-      "suggested_fix": "Clarify that the person asked was a minister, e.g. “Kulikuwa na mhudumu wa kanisa ambaye aliombwa na mkurugenzi wa mazishi aje kuongoza ibada ya mazishi.”",
-      "translation_quote": "“Kulikuwa na mhudumu wa kanisa ambaye mkurugenzi wa mazishi alimwomba aje kuendesha ibada ya mazishi.”"
-    },
-    {
-      "location": "Paragraph 11, quotation Mark 10:13",
-      "severity": "major",
-      "source_quote": "“And they [mothers] brought young children to him, that he [Jesus] should touch them: and his disciples rebuked those that brought them”",
-      "suggested_fix": "Translate the bracketed clarifications as part of the quotation: “Nao [akina mama] wakamletea watoto wadogo ili yeye [Yesu] awaguse; lakini wanafunzi wake wakawakemea wale waliowaleta.”",
-      "translation_quote": "“Wakamletea watoto wadogo ili awaguse; lakini wanafunzi wake wakawakemea wale waliowaleta”"
-    },
-    {
-      "location": "Paragraph 11",
-      "severity": "major",
-      "source_quote": "“For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.”",
-      "suggested_fix": "Preserve the source’s claim about many mothers’ wombs, e.g. “Kwa wajawazito wengi, uhai wa mtoto aliye tumboni ni kero nzito ambayo hawaoni kuwa inastahili dhabihu inayohitajika ili kuuhifadhi.”",
-      "translation_quote": "“Kwa akina mama wengi, uhai wa mtoto ambaye hajazaliwa tumboni ni kero nzito isiyostahili dhabihu inayohitajika ili kuuhifadhi.”"
-    },
-    {
-      "location": "Paragraph 14",
-      "severity": "major",
-      "source_quote": "“But this selfishness is nothing new. Christ was confronted with the same hardness when He introduced the new ‘wine’ to the religious throng, but they insisted that the old was better.”",
-      "suggested_fix": "Translate “hardness” as hardness/resistance rather than general difficulty, e.g. “Kristo alikabili ugumu huo huo wa mioyo alipoleta ‘divai’ mpya kwa umati wa kidini...”",
-      "translation_quote": "“Kristo alikabili ugumu huohuo alipoleta ‘divai’ mpya kwa umati wa kidini...”"
-    },
-    {
-      "location": "Paragraph 14",
-      "severity": "major",
-      "source_quote": "“He [was] despised and rejected of men… –Isaiah 53:3,”",
-      "suggested_fix": "Preserve the bracketed “[was]” clarification in Kiswahili within the translated quotation, e.g. “Yeye [alikuwa] amedharauliwa na kukataliwa na watu…”",
-      "translation_quote": "“Alidharauliwa na kukataliwa na watu…”"
-    },
-    {
-      "location": "Paragraph 17",
-      "severity": "major",
-      "source_quote": "“The totalitarian governments of communist regimes have been blatant offenders. Any human who could not or would not contribute to the furtherance of the political vision was exterminated.”",
-      "suggested_fix": "Render the perpetrators as totalitarian governments/regimes, not governments of regimes: “Serikali za kiimla za tawala za kikomunisti zimekuwa wakosaji wa waziwazi. Mwanadamu yeyote ambaye hakuweza au hakutaka kuchangia kuendeleza maono ya kisiasa aliangamizwa.”",
-      "translation_quote": "“Serikali za kiimla za tawala za kikomunisti zimekuwa wakosaji wa waziwazi.”"
-    },
-    {
-      "location": "Paragraph 20",
-      "severity": "major",
-      "source_quote": "“While some will thrust all their evangelical energies toward the lost heathen on foreign soils, there is another lost entity here on our own turf.”",
-      "suggested_fix": "Translate the reference to people deemed heathen, rather than “pagans” as an abstract category, e.g. “Ingawa wengine huelekeza nguvu zao zote za uinjilisti kwa watu wapagani waliopotea katika nchi za kigeni...”",
-      "translation_quote": "“Ingawa wengine huelekeza nguvu zao zote za uinjilisti kwa wapagani waliopotea katika nchi za kigeni...”"
+      "location": "Alt text for the second image",
+      "severity": "minor",
+      "source_quote": "A sparrow standing on moss beside water",
+      "suggested_fix": "Translate “moss” into Kiswahili, for example: “Shomoro amesimama juu ya manyoya ya moss kando ya maji” (or another clear Kiswahili term for moss).",
+      "translation_quote": "Shomoro amesimama juu ya moss kando ya maji"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "51a16d12fa2d3d82926ceca37c45d7ae",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "swa",
@@ -228,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 77,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

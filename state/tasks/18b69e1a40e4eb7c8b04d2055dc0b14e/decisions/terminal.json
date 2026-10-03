@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "HTML, पैराग्राफ 1",
+      "severity": "minor",
+      "source_quote": "her mom’s chest suddenly started hurting very badly. It hurt so badly, she had to go lie on the couch.",
+      "suggested_fix": "इसे अधिक स्वाभाविक और स्पष्ट रूप में करें: “तभी उसकी माँ की छाती में अचानक बहुत तेज़ दर्द उठा। दर्द इतना तेज़ था कि उन्हें सोफ़े पर लेटना पड़ा।”",
+      "translation_quote": "उसकी माँ की छाती में अचानक बहुत तेज़ दर्द होने लगा। दर्द इतना तेज़ था कि उन्हें सोफ़े पर जाकर लेटना पड़ा।"
+    },
+    {
+      "location": "HTML, पैराग्राफ 3",
+      "severity": "minor",
+      "source_quote": "One time she almost got lost in the halls, but one of her mom’s nurses saw her and showed her the right room.",
+      "suggested_fix": "“एक बार वह गलियारों में लगभग खो गई थी, लेकिन उसकी माँ की एक नर्स ने उसे देख लिया और सही कमरे का रास्ता दिखाया।”",
+      "translation_quote": "एक बार वह गलियारों में लगभग खो ही गई थी, लेकिन उसकी माँ की एक नर्स ने उसे देख लिया और सही कमरे तक पहुँचा दिया।"
+    },
+    {
+      "location": "HTML, पैराग्राफ 4",
+      "severity": "minor",
+      "source_quote": "Her dad needed to come back to pick her up.",
+      "suggested_fix": "स्पष्ट रहे कि पिता को उसे लेने वापस आना था: “उसके पिता को उसे लेने के लिए वापस आना था।”",
+      "translation_quote": "उसके पिता को उसे लेने वापस आना पड़ा।"
+    },
+    {
+      "location": "HTML, पैराग्राफ 6",
+      "severity": "minor",
+      "source_quote": "They led their mom to her favorite recliner which was close to the air conditioner that their uncle had just installed that morning.",
+      "suggested_fix": "“वे अपनी माँ को उनकी पसंदीदा आरामकुर्सी तक ले गए। वह कुर्सी उस एयर कंडीशनर के पास थी जिसे उनके चाचा ने उसी सुबह लगाया था।”",
+      "translation_quote": "वे अपनी माँ को उनकी पसंदीदा आरामकुर्सी तक ले गए, जो उस एयर कंडीशनर के पास थी जिसे उनके चाचा ने उसी सुबह अभी-अभी लगाया था।"
+    },
+    {
+      "location": "HTML, पैराग्राफ 7",
+      "severity": "minor",
+      "source_quote": "Because her mom had been gone so long, Jennika learned to be more thankful for her mom.",
+      "suggested_fix": "“अपनी माँ के इतने लंबे समय तक दूर रहने के कारण, जेनिका ने उनके प्रति और अधिक आभारी होना सीखा।”",
+      "translation_quote": "उसकी माँ इतने लंबे समय तक घर से दूर रही थीं, इसलिए जेनिका ने अपनी माँ के लिए और अधिक आभारी होना सीखा।"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Be Thankful",
+      "suggested_fix": "शीर्षक को अधिक स्वाभाविक हिंदी में करें: “आभारी बनें” या “कृतज्ञ रहें।”",
+      "translation_quote": "आभारी रहें"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

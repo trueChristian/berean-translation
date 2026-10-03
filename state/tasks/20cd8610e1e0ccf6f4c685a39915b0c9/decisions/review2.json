@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, dialogue paragraph beginning « C’est logique »",
+      "severity": "minor",
+      "source_quote": "“That makes sense,” replied Abby.",
+      "suggested_fix": "Close Abby’s quotation before the dialogue tag: « C’est logique », répondit Abby.",
+      "translation_quote": "« C’est logique, répondit Abby."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

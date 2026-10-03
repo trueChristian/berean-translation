@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "본문, 첫 인용문",
+      "severity": "critical",
+      "source_quote": "“one of them shall not fall on the ground without your Father”",
+      "suggested_fix": "아버지께서 아시지 않고서는 그중 하나도 땅에 떨어지지 아니하리라",
+      "translation_quote": "그러나 너희 아버지와 상관없이 그중 하나도 땅에 떨어지지 아니하리라"
+    },
+    {
+      "location": "본문, 하나님께서 거처를 삼으시는 이들로 이어지는 문단",
+      "severity": "major",
+      "source_quote": "“His delight is not merely in the sophisticated and prospering, but He makes His habitations among the…”",
+      "suggested_fix": "그분은 세련되고 번영하는 사람들만 기뻐하시는 것이 아니라, … 가운데 거처를 삼으십니다.",
+      "translation_quote": "그분은 세련되고 번영하는 사람들만 기뻐하시는 것이 아니라, …가운데 거처를 삼으십니다."
+    },
+    {
+      "location": "본문, ‘…나중 된 자들’ 아래 첫 문단",
+      "severity": "major",
+      "source_quote": "“The sluggard is wiser in his own conceit than seven men that can render a reason”",
+      "suggested_fix": "게으른 자는 이치에 맞는 대답을 할 수 있는 일곱 사람보다 자기를 더 지혜롭게 여기느니라",
+      "translation_quote": "게으른 자는 사리에 맞게 대답하는 사람 일곱보다 자기를 더 지혜롭게 여기느니라"
+    },
+    {
+      "location": "본문, ‘…나중 된 자들’ 아래 둘째 문단",
+      "severity": "critical",
+      "source_quote": "“He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.”",
+      "suggested_fix": "그는 멸시를 받아 사람들에게 버림받았으며… –이사야 53:3, 그리고 그분은 가장 이른 기회에 자리에서 밀려나셨습니다.",
+      "translation_quote": "그는 멸시를 받아 사람들에게 버림받았으며… –이사야 53:3, 그리고 그분은 기회가 닿는 대로 곧바로 배척당하셨습니다."
+    },
+    {
+      "location": "본문, ‘…더 작은 자들’ 아래 둘째 문단",
+      "severity": "major",
+      "source_quote": "“Neither will the praise of a sparrow.”",
+      "suggested_fix": "참새의 찬양도 하나님께서 지나치지 않으십니다.",
+      "translation_quote": "참새의 찬양도 마찬가지입니다."
+    },
+    {
+      "location": "본문, ‘…더 작은 자들’ 아래 셋째 문단",
+      "severity": "major",
+      "source_quote": "“Any human who could not or would not contribute to the furtherance of the political vision was exterminated.”",
+      "suggested_fix": "정치적 이상을 실현하는 데 기여할 수 없거나 기여하려 하지 않는 사람은 누구든 몰살당했습니다.",
+      "translation_quote": "정치적 이상을 실현하는 데 기여할 수 없거나 기여하려 하지 않는 사람은 누구든 제거되었습니다."
+    },
+    {
+      "location": "본문, ‘…두 푼’ 아래 문단",
+      "severity": "major",
+      "source_quote": "“The avenues of life that reach out to receive our copper coins are the shrines that hold our hands and our hearts”",
+      "suggested_fix": "우리의 구리 동전을 받아들이려고 손을 내미는 삶의 길들이야말로 우리의 손과 마음을 사로잡는 신전입니다.",
+      "translation_quote": "우리 손과 마음을 받아들이는 삶의 길들은 우리 손과 마음을 붙드는 신전입니다."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

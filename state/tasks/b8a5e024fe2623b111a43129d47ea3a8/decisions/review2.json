@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, verse 2, final line",
+      "severity": "minor",
+      "source_quote": "Her hymns of love and praise.",
+      "suggested_fix": "Translate this as hymns characterized by love and praise, for example: «hennes salmer preget av kjærlighet og lovprisning.»",
+      "translation_quote": "hennes lovsanger om kjærlighet og lovprisning."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

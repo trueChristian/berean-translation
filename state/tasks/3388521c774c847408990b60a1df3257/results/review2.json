@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "85bcfdbe-3ed4-4b33-b4d3-43c2308962a2",
+    "response_id": "chatcmpl-EUsNNOTgTatmvpYItuBiJ6IjdfTHL",
+    "usage": {
+      "completion_tokens": 599,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 473,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2717,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2714,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3316
+    }
+  },
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first paragraph",
+        "severity": "minor",
+        "source_quote": "Later that afternoon, she and her siblings heard that their mom had suffered a heart attack.",
+        "suggested_fix": "Заменить «Позже в тот день» на «Позже тем днём», чтобы сохранить указание на время суток.",
+        "translation_quote": "Позже в тот день Дженника и её братья и сёстры узнали, что у мамы случился сердечный приступ."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,67 +64,47 @@
         },
         "total_tokens": 13299
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1022,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 692,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8415,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8412,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9437
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, parágrafo sobre a infância de Jesus",
+      "location": "HTML, opening Scripture quotation (Matthew 10:29)",
       "severity": "major",
-      "source_quote": "As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.",
-      "suggested_fix": "Substitua por: “Quando Jesus era menino, filho de pais pobres, é muito provável que essa cena se repetisse diante de Seus próprios olhos.”",
-      "translation_quote": "Como menino de pais pobres, é muito provável que essa cena se repetisse diante dos olhos do próprio Jesus durante Sua infância."
+      "source_quote": "“one of them shall not fall on the ground without your Father”",
+      "suggested_fix": "Replace “sem o consentimento de vosso Pai” with wording that conveys that a sparrow does not fall without the Father’s knowledge, for example: “E nenhum deles cairá por terra sem que vosso Pai o saiba.”",
+      "translation_quote": "“E nenhum deles cairá por terra sem o consentimento de vosso Pai”"
     },
     {
-      "location": "source.html, parágrafo sobre crianças e os não nascidos",
+      "location": "HTML, references to the farthing throughout, including the title “...Two farthings”",
       "severity": "major",
-      "source_quote": "For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.",
-      "suggested_fix": "Substitua por: “Para muitas mães de crianças ainda não nascidas, a vida que carregam é um incômodo pesado, que não vale o sacrifício necessário para mantê-la.”",
-      "translation_quote": "Para muitos ventres, a vida dos não nascidos é um incômodo pesado, que não vale o sacrifício necessário para preservá-la."
-    },
-    {
-      "location": "source.html, título da seção",
-      "severity": "major",
-      "source_quote": "…Latter Ones",
-      "suggested_fix": "Substitua o título por: “...Os últimos”",
-      "translation_quote": "…Os que vêm depois"
-    },
-    {
-      "location": "source.html, parágrafo sobre a rejeição do novo",
-      "severity": "major",
-      "source_quote": "and He was deposed of at the earliest opportunity.",
-      "suggested_fix": "Substitua por: “e foi destituído na primeira oportunidade.”",
-      "translation_quote": "e foi deposto na primeira oportunidade."
-    },
-    {
-      "location": "source.html, parágrafo sobre os pardais e a espingarda",
-      "severity": "major",
-      "source_quote": "a BB gun for the sparrows—for they are worthless. This attitude is for the birds",
-      "suggested_fix": "Substitua por: “uma espingarda de pressão para os pardais — porque não valem nada. Essa atitude é absurda”",
-      "translation_quote": "uma espingarda de chumbinho para os pardais — porque não valem nada. Essa atitude é coisa de passarinho"
-    },
-    {
-      "location": "source.html, parágrafo sobre beleza exterior",
-      "severity": "major",
-      "source_quote": "Many will go to extra efforts to deplete their outward ostentation but forget that the emphasis of the verse is to make the inner heart beautiful.",
-      "suggested_fix": "Substitua por: “Muitos se esforçam ainda mais para reduzir sua ostentação exterior, mas se esquecem de que a ênfase do versículo é tornar belo o coração interior.”",
-      "translation_quote": "Muitos se esforçam ainda mais para reduzir sua ostentação exterior, mas se esquecem de que a ênfase do versículo é tornar belo o coração interior."
-    },
-    {
-      "location": "source.html, poema, primeira estrofe",
-      "severity": "major",
-      "source_quote": "Very wise men tell me why, / But I am never satisfied.",
-      "suggested_fix": "Substitua por: “Homens muito sábios me dizem por quê, / Mas nunca fico satisfeito.”",
-      "translation_quote": "Homens muito sábios me dizem por quê, / Mas nunca fico satisfeito."
-    },
-    {
-      "location": "source.html, último parágrafo biográfico",
-      "severity": "major",
-      "source_quote": "he couldn’t unmold them to clasp the rope",
-      "suggested_fix": "Substitua por: “ele não conseguiu desprendê-las para agarrar a corda”",
-      "translation_quote": "ele não conseguiu soltá-las para agarrar a corda"
+      "source_quote": "“two were sold for a farthing (about a half cent)”; “One copper farthing”; “two coins”; “And a farthing is not a major expenditure”; “...Two farthings”",
+      "suggested_fix": "Use a consistent Portuguese rendering that identifies the specific coin (for example, “farthing”, with a brief explanation at its first occurrence if needed), rather than replacing it throughout with a generic low-value coin. Preserve the source’s references to copper and the exact amounts; adapt the heading accordingly.",
+      "translation_quote": "“dois eram vendidos por uma moeda de pouco valor (cerca de meio centavo)”; “Uma moeda de cobre de pouco valor”; “duas moedas”; “uma moeda de pouco valor”; “...Duas moedas de pouco valor”"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "6c70bb15e3804ac7530128c3a3614ca3",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "por",
@@ -220,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

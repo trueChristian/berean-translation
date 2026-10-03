@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Nota del editor, párrafo que cita 2 Corintios 11:13-14",
+      "severity": "major",
+      "source_quote": "…into the apostles of Christ and present themselves as …an angel of light –2 Corinthians 11:13-14.",
+      "suggested_fix": "Revisar el pasaje para conservar las formas plurales del original: «…en apóstoles de Cristo y se presentan como …ángeles de luz –2 Corintios 11:13-14.»",
+      "translation_quote": "…en apóstoles de Cristo y se presentarán como …ángel de luz –2 Corintios 11:13-14."
+    },
+    {
+      "location": "Nota del editor, párrafo sobre autoridades espirituales",
+      "severity": "major",
+      "source_quote": "Some individuals believe it is wrong for spiritual authorities to “take the oversight thereof”",
+      "suggested_fix": "Traducir la cita con un sentido equivalente a «ejercer supervisión sobre ello» o «cuidar de ello», manteniendo la referencia a la supervisión espiritual.",
+      "translation_quote": "Algunas personas creen que está mal que las autoridades espirituales «ejerzan supervisión sobre ella»"
+    },
+    {
+      "location": "Nota del editor, párrafo sobre el reino ahora y futuro",
+      "severity": "major",
+      "source_quote": "an extreme focus on kingdom this and kingdom that, will by default cause Christians to ignore this Truth",
+      "suggested_fix": "Sustituir «el reino, esto y aquello» por una formulación que transmita el énfasis excesivo en distintos aspectos del reino, por ejemplo: «un enfoque extremo en esto y aquello del reino hará que, por defecto, los cristianos ignoren esta Verdad».",
+      "translation_quote": "un enfoque extremo en el reino, esto y aquello, hará que los cristianos, por defecto, ignoren esta Verdad"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

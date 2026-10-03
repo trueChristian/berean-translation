@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening Scripture quotation (Psalm 139:14); the same wording recurs near the end of the article.",
+      "severity": "major",
+      "source_quote": "“fearfully and wonderfully made”",
+      "suggested_fix": "Replace «skapt på skremmende og underfullt vis» with «skapt på underfullt og forunderlig vis» (or another Bokmål rendering that conveys being wondrously made without suggesting being frightening). Make the same correction to the repeated wording near the end.",
+      "translation_quote": "«skapt på skremmende og underfullt vis»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

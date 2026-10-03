@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem stanza 5",
+      "severity": "major",
+      "source_quote": "Until His likeness, again does show.",
+      "suggested_fix": "Bis sein Ebenbild wieder sichtbar wird.",
+      "translation_quote": "bis sein Ebenbild wieder sichtbar wird."
+    },
+    {
+      "location": "source.html, poem stanza 6",
+      "severity": "major",
+      "source_quote": "If what I do, and what I say, / Changes the course of other’s clay,",
+      "suggested_fix": "Wenn das, was ich tue und sage, / den Lauf des Tons anderer verändert,",
+      "translation_quote": "Wenn das, was ich tue und sage, / den Weg des Tons anderer verändert,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,166 @@
         },
         "total_tokens": 12258
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1915,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7968,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7965,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9883
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Final paragraph, Isaiah 61:1–3 quotation",
+      "location": "Paragraph 1",
       "severity": "major",
-      "source_quote": "to proclaim liberty to the captives, and the opening of the prison to them that are bound",
-      "suggested_fix": "Replace ״לקרוא לשבויים דרור ולאסורים פקיחת עיניים״ with ״לקרוא לשבויים דרור ולפתוח את הכלא לאסורים״.",
-      "translation_quote": "לקרוא לשבויים דרור ולאסורים פקיחת עיניים"
+      "source_quote": "“there was no wavering. He spent the next 120 years confidently doing just that.”",
+      "suggested_fix": "Replace “הוא לא היסס. במשך 120 השנים הבאות הוא עשה בדיוק זאת בביטחון.” with “לא היה בו כל היסוס. במשך 120 השנים הבאות הוא עסק בביטחון בדיוק בכך.”",
+      "translation_quote": "“הוא לא היסס. במשך 120 השנים הבאות הוא עשה בדיוק זאת בביטחון.”"
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“the large naysayer—Goliath”",
+      "suggested_fix": "Replace “את גדול המלעיזים — גוליית” with “את המתנגד הגדול — גוליית” or “את גדול המפקפקים — גוליית,” preserving the point that Goliath was the prominent doubter/opponent.",
+      "translation_quote": "“את גדול המלעיזים — גוליית”"
+    },
+    {
+      "location": "Paragraph 5",
+      "severity": "major",
+      "source_quote": "“The deacon, Stephen”",
+      "suggested_fix": "Replace “סטפנוס, הדיאקון” with “סטפנוס, השמש” (or another clear Hebrew rendering of “deacon”); “דיאקון” is not a clear contemporary Hebrew equivalent here.",
+      "translation_quote": "“סטפנוס, הדיאקון”"
+    },
+    {
+      "location": "Paragraph 6",
+      "severity": "major",
+      "source_quote": "“then in verse 23, five verses after he was baptized”",
+      "suggested_fix": "Replace “ואז בפסוק 23, חמישה פסוקים לאחר טבילתו” with “ואז, בפסוק 23, שלושה פסוקים לאחר טבילתו,” keeping the printed verse reference 23 unchanged and correcting the interval.",
+      "translation_quote": "“ואז בפסוק 23, חמישה פסוקים לאחר טבילתו”"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "“five verses after he was baptized”",
+      "suggested_fix": "Render “I have finished my course” as “השלמתי את מסלולי” or “סיימתי את המרוץ שלי,” rather than “השלמתי את המרוץ,” which can suggest a race rather than Paul's course of life or ministry.",
+      "translation_quote": "“השלמתי את המרוץ”"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“if we were still living in the New Testament Bible times”",
+      "suggested_fix": "Replace “בתקופת המקרא של הברית החדשה” with “בימי המקרא של הברית החדשה” or “בתקופת הברית החדשה המתוארת במקרא,” to convey the source's period reference clearly.",
+      "translation_quote": "“בתקופת המקרא של הברית החדשה”"
+    },
+    {
+      "location": "Paragraph 11",
+      "severity": "major",
+      "source_quote": "“but it did not faze stop them”",
+      "suggested_fix": "Translate the source’s apparent intended meaning as “אך הדבר לא עצר בעדם” or “אך הדבר לא הרתיע אותם.” The current text says only that it did not discourage them and omits the source’s “stop” element.",
+      "translation_quote": "“אך הדבר לא הרתיע אותם.”"
+    },
+    {
+      "location": "Paragraph 12",
+      "severity": "major",
+      "source_quote": "“the church of Jesus Christ suffered”",
+      "suggested_fix": "Replace “קבוצת שסבלה כפי שסבלה כנסיית ישוע המשיח” with “קבוצה שסבלה כפי שסבלה כנסיית ישוע המשיח.”",
+      "translation_quote": "“קבוצה שסבלה כפי שסבלה כנסיית ישוע המשיח”"
+    },
+    {
+      "location": "Paragraph 12",
+      "severity": "major",
+      "source_quote": "“the new religion of heretics”",
+      "suggested_fix": "Revise “הדת החדשה הזאת של ה<em>כופרים</em>” to convey that the religion was regarded as heretical, e.g. “הדת החדשה הזאת שנחשבה לכפירתית,” while preserving the existing <em>...</em> markup structure.",
+      "translation_quote": "“הדת החדשה הזאת של ה<em>כופרים</em>”"
+    },
+    {
+      "location": "Paragraph 12",
+      "severity": "major",
+      "source_quote": "“accept the spoiling of their goods”",
+      "suggested_fix": "Replace “היו מקבלים בשמחה את ביזת רכושם” with “היו מקבלים בשמחה את החרמת רכושם” or “את שלילת רכושם,” to convey that their property was plundered/confiscated, not that they themselves accepted looting as a practice.",
+      "translation_quote": "“היו מקבלים בשמחה את ביזת רכושם”"
+    },
+    {
+      "location": "Paragraph 13",
+      "severity": "major",
+      "source_quote": "“denying the world and the lust thereof”",
+      "suggested_fix": "Replace “מתכחשים לעולם ולתאוותיו” with “מתכחשים לעולם ולתאוותיו” only if understood as renouncing them; clearer contemporary Hebrew is “מוותרים על העולם ועל תאוותיו.”",
+      "translation_quote": "“מתכחשים לעולם ולתאוותיו”"
+    },
+    {
+      "location": "Paragraph 16",
+      "severity": "major",
+      "source_quote": "“we need to rid ourselves of all these wretched gray areas”",
+      "suggested_fix": "Replace “תחומי הביניים העלובים האלה” with “התחומים האפורים העלובים האלה,” which conveys the metaphorical gray areas rather than merely intermediate areas.",
+      "translation_quote": "“תחומי הביניים העלובים האלה”"
+    },
+    {
+      "location": "Paragraph 17",
+      "severity": "major",
+      "source_quote": "“unto the uttermost part of the earth”",
+      "suggested_fix": "Replace “ועד קצה הארץ” with “ועד קצה העולם” or “עד קצות תבל,” conveying the source's farthest reaches of the earth/world.",
+      "translation_quote": "“ועד קצה הארץ”"
+    },
+    {
+      "location": "Paragraph 20",
+      "severity": "major",
+      "source_quote": "“I was excited to answer their questions.”",
+      "suggested_fix": "Replace “שמחתי לענות על שאלותיהם” with “התלהבתי לענות על שאלותיהם” or “ששתי לענות על שאלותיהם,” to retain the source's eager enthusiasm rather than simple gladness.",
+      "translation_quote": "“שמחתי לענות על שאלותיהם”"
+    },
+    {
+      "location": "Paragraph 20",
+      "severity": "major",
+      "source_quote": "“another ordained brother sitting beside me”",
+      "suggested_fix": "Replace “אח אחר שהוסמך לכהונה” with “אח אחר שהוסמך לשרת” or another contextually suitable rendering of an ordained fellow believer; “הוסמך לכהונה” introduces a priesthood implication not stated in the source.",
+      "translation_quote": "“אח אחר שהוסמך לכהונה”"
+    },
+    {
+      "location": "Paragraph 20",
+      "severity": "major",
+      "source_quote": "“As another forty-five minutes passed”",
+      "suggested_fix": "Replace “כעבור ארבעים וחמש דקות נוספות” with “כשעברו עוד ארבעים וחמש דקות,” making clear that an additional 45 minutes elapsed.",
+      "translation_quote": "“כעבור ארבעים וחמש דקות נוספות”"
+    },
+    {
+      "location": "Paragraph 24",
+      "severity": "major",
+      "source_quote": "“People are proud of their children, proud of their country, proud of their favorite sports team, proud of their lawns”",
+      "suggested_fix": "Replace “אנשים גאים בילדיהם, בארצם, בקבוצת הספורט האהובה עליהם, במדשאותיהם” with “אנשים גאים בילדיהם, גאים בארצם, גאים בקבוצת הספורט האהובה עליהם, גאים במדשאותיהם,” preserving the source's repeated assertion of pride.",
+      "translation_quote": "“אנשים גאים בילדיהם, בארצם, בקבוצת הספורט האהובה עליהם, במדשאותיהם”"
+    },
+    {
+      "location": "Paragraph 25",
+      "severity": "major",
+      "source_quote": "“David’s oldest brother Eliab said to him, ‘I know thy pride’.”",
+      "suggested_fix": "Replace “אני יודע את גאוותך” with “אני יודע את גאוותך” only if the phrase is intended as “I know of your pride”; clearer Hebrew is “אני יודע שאתה גאוותן,” while retaining the quotation's accusation.",
+      "translation_quote": "“אני יודע את גאוותך”"
+    },
+    {
+      "location": "Paragraph 28",
+      "severity": "major",
+      "source_quote": "“with our hearts bowed low, demonstrating genuine godly sorrow for where we have lost our way”",
+      "suggested_fix": "Replace “בלבבות שפופים, ונבטא צער כן ואלוהי על שאיבדנו את דרכנו” with “בלבבות שפופים, ונבטא צער אמיתי לפני אלוהים על כך שאיבדנו את דרכנו.” The current wording makes sorrow itself sound divine rather than sincere sorrow before God.",
+      "translation_quote": "“בלבבות שפופים, ונבטא צער כן ואלוהי על שאיבדנו את דרכנו”"
     }
   ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "1612cddefd47d00410a88e593e6320da",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "heb",
@@ -165,13 +312,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,53 +64,39 @@
         },
         "total_tokens": 16050
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 900,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 790,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9644,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9641,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10544
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "הערת העורך, הפסקה על ״בעלי אמונה יקרה כמותם״",
-      "severity": "major",
-      "source_quote": "“like precious faith” (who believe as they do)",
-      "suggested_fix": "שנו ל״בעלי אותה אמונה יקרה״ (המאמינים כמוהם), או לניסוח עברי טבעי אחר המשמר את המשמעות.",
-      "translation_quote": "״בעלי אמונה יקרה כמותם״ (המאמינים כמוהם)"
-    },
-    {
-      "location": "הערת העורך, הפסקה על המלכות כעת ובעתיד",
-      "severity": "major",
-      "source_quote": "an extreme focus on kingdom this and kingdom that, will by default cause Christians to ignore this Truth",
-      "suggested_fix": "נסחו את הקטע כך שיבהיר שהתמקדות קיצונית בנושא המלכות עלולה לגרום לנוצרים להתעלם מן האמת הזאת, בלי להוסיף דימוי של ״זאת וההיא״. למשל: ״ובכל זאת, התמקדות קיצונית במלכות עלולה לגרום לנוצרים, כברירת מחדל, להתעלם מן האמת הזאת...״",
-      "translation_quote": "התמקדות קיצונית במלכות הזאת ובמלכות ההיא תגרום לנוצרים, כברירת מחדל, להתעלם מן האמת הזאת"
-    },
-    {
-      "location": "הערת העורך, הפסקה על תחייתו ועלייתו של ישוע",
-      "severity": "major",
-      "source_quote": "The full effect of the resurrection and the ascension of Jesus in the life of a believer can never fully be understood",
-      "suggested_fix": "החליפו את הכפילות בניסוח המשמר את הטענה שאי אפשר להבין את מלוא ההשפעה: ״לעולם לא נוכל להבין במלואה את השפעת תחייתו ועלייתו של ישוע בחיי המאמין, אם...״",
-      "translation_quote": "אי אפשר להבין במלואה את מלוא משמעותם של תחייתו ועלייתו של ישוע בחיי המאמין"
-    },
-    {
-      "location": "המאמר, הפסקה על התמקדות האוונגליקלים בפאולוס",
-      "severity": "major",
-      "source_quote": "the kingdom of God, which Jesus inaugurated",
-      "suggested_fix": "החליפו את ״שישוע ייסד״ בניסוח המקביל ל״שישוע החל לכונן״ או ״שישוע חולל את תחילתה״; המקור אומר שישוע חנך את המלכות, לא ייסד אותה במלואה.",
-      "translation_quote": "מלכות האלוהים, שישוע ייסד"
-    },
-    {
-      "location": "המאמר, הפסקה על הרקע ההיסטורי של הדאגות",
-      "severity": "major",
-      "source_quote": "the imbalanced Reformation emphasis regarding justification by faith",
-      "suggested_fix": "תקנו ל״הדגש הלא מאוזן של הרפורמציה על הצדקה באמונה״. הנוסח הנוכחי משנה את היחס התחבירי ומשתמע ממנו שההדגשה עצמה היא ״של הצדקה״.",
-      "translation_quote": "בדגש הלא מאוזן של הרפורמציה על הצדקה באמונה"
-    },
-    {
-      "location": "המאמר, הכותרת ״האם הבשורות גוברות על שאר כתבי הקודש?״ והפסקה הראשונה תחתיה",
-      "severity": "major",
-      "source_quote": "should dominate and control the interpretation of the New Testament scriptures",
-      "suggested_fix": "השתמשו במונח עברי ברור שמשמעו לשלוט בפרשנות, למשל: ״צריכות לשלוט בפרשנות של כתבי הברית החדשה״. ״להכתיב״ לבדו אינו מעביר את מלוא הצירוף, והניסוח בכותרת ״גוברות״ מציג את השאלה כתחרות ולא כשליטה פרשנית.",
-      "translation_quote": "האם הבשורות גוברות על שאר כתבי הקודש? ... צריכות לשלוט ולְהכתיב את פרשנותם של כתבי הברית החדשה"
+      "location": "הערת העורך, הפסקה על התיאולוגיה ואורח החיים",
+      "severity": "minor",
+      "source_quote": "the soil out of which our behavior grows",
+      "suggested_fix": "שנו ל: ״הקרקע שממנה צומחת התנהגותנו״.",
+      "translation_quote": "הקרקע שממנה צומח התנהגותנו"
     }
   ],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "9f0408a6cc09c224456325f15321ef9c",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "heb",
@@ -200,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0831ff95490bffbe0e23f53ea5194e523e59b9c9715fefeab30577548f0a6209.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
   "translation_model_actual": "gpt-6-luna"

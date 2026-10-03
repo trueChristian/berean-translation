@@ -2,7 +2,6 @@
   "article_id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 12317
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article body, paragraphs beginning “Does the Christian life…” and “When we look at the account in the garden…”; also the paragraphs about fleshly comforts and surrendering the flesh",
-      "severity": "major",
-      "source_quote": "“One of the ways he does this is by enticing our flesh.” / “He laid down His flesh” / “fulfill our fleshly comforts” / “surrender our flesh”",
-      "suggested_fix": "In these contexts, translate “flesh” as the sinful or self-directed nature, rather than simply the physical body. For example, revise “kwa kushawishi miili yetu” to “kwa kushawishi asili yetu ya dhambi,” “Aliutiisha mwili wake” to “Aliishinda asili yake ya kibinadamu,” and “matamanio ya miili yetu ya kustarehe” to “tamaa zetu za kujifurahisha.” Use a contextually suitable equivalent in the later reference to surrendering the flesh.",
-      "translation_quote": "“kwa kushawishi miili yetu” / “Aliutiisha mwili wake” / “matamanio ya miili yetu ya kustarehe” / “kuutiisha mwili wetu”"
     },
     {
-      "location": "Section metadata",
-      "severity": "minor",
-      "source_quote": "“Inspirations for Youth”",
-      "suggested_fix": "Use a Kiswahili rendering that preserves the sense of inspiration, such as “Mahamasiho kwa Vijana” or “Misukumo kwa Vijana,” rather than changing the section to teachings.",
-      "translation_quote": "“Mafundisho kwa Vijana”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1294,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 817,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7753,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7750,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9047
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph beginning “There are good desires and bad desires.”",
+      "severity": "major",
+      "source_quote": "One of the ways he does this is by enticing our flesh.",
+      "suggested_fix": "Replace “kwa kushawishi asili yetu ya dhambi” with “kwa kushawishi tamaa za mwili wetu” to preserve the source’s reference to the flesh rather than introducing “our sinful nature.”",
+      "translation_quote": "Mojawapo ya njia anazofanya hivyo ni kwa kushawishi asili yetu ya dhambi."
+    },
+    {
+      "location": "Paragraph beginning “Sometimes we are trying so hard…”",
+      "severity": "major",
+      "source_quote": "Sometimes we are trying so hard to fulfill our fleshly comforts that we lose sight of the real purpose that God has put us here.",
+      "suggested_fix": "Replace “kutimiza tamaa za asili yetu ya kujipendeza” with “kujitosheleza katika starehe za mwili” or equivalent wording that retains the source’s reference to fleshly comforts.",
+      "translation_quote": "Wakati mwingine tunajitahidi sana kutimiza tamaa za asili yetu ya kujipendeza kiasi cha kupoteza mtazamo wa kusudi halisi ambalo Mungu alituweka hapa."
+    },
+    {
+      "location": "Paragraph beginning “Remember, the word desire is a deep longing…”; Psalm 78:29–31 quotation",
+      "severity": "major",
+      "source_quote": "They were not estranged from their lust. But while their meat was yet in their mouths, The wrath of God came upon them, and slew the fattest of them, and smote down the chosen men of Israel",
+      "suggested_fix": "Replace “Hawakuwa wageni wa tamaa yao” with “Hawakuacha tamaa yao” (or equivalent wording meaning they did not restrain their craving). Replace “vijana wa Israeli” with “wanaume wateule wa Israeli” to preserve “the chosen men of Israel.”",
+      "translation_quote": "Hawakuwa wageni wa tamaa yao. Lakini walipokuwa na nyama vinywani mwao, hasira ya Mungu ikawajia, akawaua walionona sana, na vijana wa Israeli akawaangusha"
+    }
+  ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "0ec7176e1ff47b1e129224e623e3e64b",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "swa",
@@ -172,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6-luna"

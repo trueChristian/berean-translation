@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Artikelns första stycke",
+      "severity": "major",
+      "source_quote": "I am fearfully and wonderfully made",
+      "suggested_fix": "Ändra till ”jag är underbart och förunderligt skapad” eller en annan idiomatisk formulering som bevarar innebörden att jag är underbart skapad.",
+      "translation_quote": "jag är danad på ett förunderligt och underbart sätt"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

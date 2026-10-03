@@ -2,7 +2,6 @@
   "article_id": "2e21a1f2-3b5b-44d9-a29d-4d7767a772c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,39 +64,82 @@
         },
         "total_tokens": 15010
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 797,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9318,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9315,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10115
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "첫 문단의 마태복음 10:29 인용",
-      "severity": "major",
+      "location": "본문, 첫 인용문",
+      "severity": "critical",
       "source_quote": "“one of them shall not fall on the ground without your Father”",
-      "suggested_fix": "“그러나 너희 아버지와 상관없이 그중 하나도 땅에 떨어지지 아니하리라”처럼, 원문의 ‘without your Father’를 허락 여부로 바꾸지 않는 표현으로 고쳐 주세요.",
-      "translation_quote": "“그중 하나도 너희 아버지께서 허락하지 않으시면 땅에 떨어지지 아니하리라”"
+      "suggested_fix": "아버지께서 아시지 않고서는 그중 하나도 땅에 떨어지지 아니하리라",
+      "translation_quote": "그러나 너희 아버지와 상관없이 그중 하나도 땅에 떨어지지 아니하리라"
     },
     {
-      "location": "‘작은 자들’ 단락의 마가복음 10:13 인용",
+      "location": "본문, 하나님께서 거처를 삼으시는 이들로 이어지는 문단",
       "severity": "major",
-      "source_quote": "“And they [mothers] brought young children to him”",
-      "suggested_fix": "인용문에 어머니들이 아이들을 데려왔다는 원문의 명시적 귀속을 살려 “어머니들이 어린아이들을 예수께 데리고 와서…”로 고쳐 주세요.",
-      "translation_quote": "“사람들이 어린아이들을 예수께 데리고 와서”"
+      "source_quote": "“His delight is not merely in the sophisticated and prospering, but He makes His habitations among the…”",
+      "suggested_fix": "그분은 세련되고 번영하는 사람들만 기뻐하시는 것이 아니라, … 가운데 거처를 삼으십니다.",
+      "translation_quote": "그분은 세련되고 번영하는 사람들만 기뻐하시는 것이 아니라, …가운데 거처를 삼으십니다."
     },
     {
-      "location": "‘두 앗사리온’ 제목 및 동전 관련 문장들",
+      "location": "본문, ‘…나중 된 자들’ 아래 첫 문단",
       "severity": "major",
-      "source_quote": "“Two farthings”; “A copper farthing would purchase two sparrows”; “a farthing is not a major expenditure”",
-      "suggested_fix": "이 기사에서 ‘farthing’으로 인쇄된 동전 명칭을 ‘앗사리온’으로 바꾸지 말고, 문맥에 맞는 한국어 동전 명칭(예: ‘한 푼’)으로 일관되게 옮겨 주세요. 제목과 본문에서 두 앗사리온이라고 한 곳도 함께 바로잡아 주세요.",
-      "translation_quote": "“두 앗사리온”; “구리 동전인 앗사리온 하나면 참새 두 마리를 살 수 있었습니다”; “앗사리온은 큰돈이 아닙니다”"
+      "source_quote": "“The sluggard is wiser in his own conceit than seven men that can render a reason”",
+      "suggested_fix": "게으른 자는 이치에 맞는 대답을 할 수 있는 일곱 사람보다 자기를 더 지혜롭게 여기느니라",
+      "translation_quote": "게으른 자는 사리에 맞게 대답하는 사람 일곱보다 자기를 더 지혜롭게 여기느니라"
     },
     {
-      "location": "‘작은 자들’ 단락의 과부의 동전 문장",
-      "severity": "minor",
-      "source_quote": "“her little copper coins added more to His treasury”",
-      "suggested_fix": "‘재고’ 또는 ‘보물 창고’에 해당하는 자연스러운 한국어로 고쳐 주세요.",
-      "translation_quote": "“그분의 خز고에 더 많이 보탰다고”"
+      "location": "본문, ‘…나중 된 자들’ 아래 둘째 문단",
+      "severity": "critical",
+      "source_quote": "“He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.”",
+      "suggested_fix": "그는 멸시를 받아 사람들에게 버림받았으며… –이사야 53:3, 그리고 그분은 가장 이른 기회에 자리에서 밀려나셨습니다.",
+      "translation_quote": "그는 멸시를 받아 사람들에게 버림받았으며… –이사야 53:3, 그리고 그분은 기회가 닿는 대로 곧바로 배척당하셨습니다."
+    },
+    {
+      "location": "본문, ‘…더 작은 자들’ 아래 둘째 문단",
+      "severity": "major",
+      "source_quote": "“Neither will the praise of a sparrow.”",
+      "suggested_fix": "참새의 찬양도 하나님께서 지나치지 않으십니다.",
+      "translation_quote": "참새의 찬양도 마찬가지입니다."
+    },
+    {
+      "location": "본문, ‘…더 작은 자들’ 아래 셋째 문단",
+      "severity": "major",
+      "source_quote": "“Any human who could not or would not contribute to the furtherance of the political vision was exterminated.”",
+      "suggested_fix": "정치적 이상을 실현하는 데 기여할 수 없거나 기여하려 하지 않는 사람은 누구든 몰살당했습니다.",
+      "translation_quote": "정치적 이상을 실현하는 데 기여할 수 없거나 기여하려 하지 않는 사람은 누구든 제거되었습니다."
+    },
+    {
+      "location": "본문, ‘…두 푼’ 아래 문단",
+      "severity": "major",
+      "source_quote": "“The avenues of life that reach out to receive our copper coins are the shrines that hold our hands and our hearts”",
+      "suggested_fix": "우리의 구리 동전을 받아들이려고 손을 내미는 삶의 길들이야말로 우리의 손과 마음을 사로잡는 신전입니다.",
+      "translation_quote": "우리 손과 마음을 받아들이는 삶의 길들은 우리 손과 마음을 붙드는 신전입니다."
     }
   ],
+  "finished_at": "2026-10-03T16:46:13+00:00",
   "id": "3b8096878e654740b9ff9c7de0ffaf4f",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "kor",
@@ -186,13 +228,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

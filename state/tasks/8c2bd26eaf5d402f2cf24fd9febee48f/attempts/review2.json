@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Avsnittet som siterer Ordspråkene 4:23\",\"severity\":\"major\",\"source_quote\":\"Keep thy heart with all diligence; for out of it are the issues of life\",\"suggested_fix\":\"Erstatt med en trofast bokmålsoversettelse som bevarer meningen «Bevar hjertet ditt med all årvåkenhet, for livet springer ut fra det», samtidig som versreferansen beholdes som Ordspråkene 4:23.\",\"translation_quote\":\"Bevar ditt hjerte framfor alt du bevarer, for livet går ut fra det – Ordspråkene 4:23.\"},{\"location\":\"Avsnittet om Jesu bønn i Getsemane\",\"severity\":\"major\",\"source_quote\":\"He did not want to take the cup that was before Him. In other words, Jesus desired to not go through the suffering\",\"suggested_fix\":\"Rett formuleringen slik at den sier at Jesus ikke ønsket å gjennomgå lidelsen, for eksempel: «Med andre ord ønsket Jesus ikke å gjennomgå lidelsen, men lovet være Gud, Han valgte å behage sin Far.»\",\"translation_quote\":\"Med andre ord ønsket ikke Jesus å gå gjennom lidelsen, men lovet være Gud, Han valgte å behage sin Far.\"},{\"location\":\"Avsnittet om Israels folk i ørkenen, sitatet fra Salme 78:29–31\",\"severity\":\"major\",\"source_quote\":\"and slew the fattest of them, and smote down the chosen men of Israel\",\"suggested_fix\":\"Oversett begge påstandene i sitatet, for eksempel: «Han drepte de feteste blant dem og slo ned Israels utvalgte menn»; behold referansen Salme 78:29–31.\",\"translation_quote\":\"Han drepte de sterkeste av dem og slo Israels unge menn i hjel – Salme 78:29-31.\"},{\"location\":\"Avsnittet om Akans synd\",\"severity\":\"major\",\"source_quote\":\"It’s very sad that there were so many of God’s people killed because of Achan’s sin.\",\"suggested_fix\":\"Gjengi «so many» uten å endre omfanget, for eksempel: «Det er svært trist at så mange av Guds folk ble drept på grunn av Akans synd.»\",\"translation_quote\":\"Det er svært trist at så mange av Guds folk ble drept på grunn av Akans synd.\"},{\"location\":\"Avsnittet om Israels utgang fra Egypt\",\"severity\":\"major\",\"source_quote\":\"He brought us out of the miry clay\",\"suggested_fix\":\"Erstatt «den gjørmete leiren» med en formulering som gjengir «miry clay», for eksempel «den gjørmete leiren» bare dersom dette er et etablert bilde i konteksten; ellers bruk «den dype gjørmen» eller tilsvarende.\",\"translation_quote\":\"Han førte oss ut av den gjørmete leiren.\"},{\"location\":\"Sitatet fra 1. Samuelsbok 8:5–7\",\"severity\":\"major\",\"source_quote\":\"they have not rejected thee, but they have rejected me, that I should not reign over them\",\"suggested_fix\":\"Bevar den eksplisitte meningen at folket har forkastet Gud som konge: «For det er ikke deg de har forkastet, men meg, så jeg ikke skal regjere over dem.» Behold referansen 1. Samuelsbok 8:5–7.\",\"translation_quote\":\"For det er ikke deg de har forkastet, men meg. De vil ikke at jeg skal være konge over dem\"}],\"passed\":false,\"score\":83}",
+    "content_bytes": 2927,
+    "content_evidence_truncated": false,
+    "content_sha256": "03398a1dc1016204cfca9643c66e8b8577715b6792a4690738020f3119c3ef7e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 784,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7510,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8297
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

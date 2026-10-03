@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «El vínculo que se traza…»",
+      "severity": "minor",
+      "source_quote": "Mega churches have risen to console him.",
+      "suggested_fix": "Replace «meg iglesias» with «megaiglesias».",
+      "translation_quote": "Han surgido meg iglesias para consolarlo."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

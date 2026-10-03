@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Corps, paragraphe commençant « Les enfants sont tout le contraire »\",\"severity\":\"major\",\"source_quote\":\"For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.\",\"suggested_fix\":\"Remplacer par : « Pour bien des femmes enceintes, la vie qu’elles portent est une gêne encombrante qui ne vaut pas le sacrifice nécessaire pour la garder. »\",\"translation_quote\":\"Pour bien des femmes portant un enfant à naître, la vie qu’elles portent est une gêne encombrante qui ne vaut pas le sacrifice nécessaire pour la garder.\"},{\"location\":\"Corps, paragraphe commençant « Tels sont les moineaux. Le merle se vante… »\",\"severity\":\"major\",\"source_quote\":\"The robin boasts his red breast and the cardinal his red crest\",\"suggested_fix\":\"Remplacer par : « Le rouge-gorge arbore fièrement sa poitrine rouge et le cardinal sa huppe rouge… »\",\"translation_quote\":\"Le merle se vante de sa poitrine rouge et le cardinal de sa huppe rouge\"},{\"location\":\"Corps, dernier paragraphe biographique\",\"severity\":\"minor\",\"source_quote\":\"He held onto a branch of a tree until help came, but by the time they could throw him a rope his hands had paralyzed, and he couldn’t unmold them to clasp the rope\",\"suggested_fix\":\"Remplacer « ses mains étaient paralysées et il ne pouvait les desserrer » par « ses mains s’étaient paralysées et il ne pouvait les déplier pour saisir la corde ».\",\"translation_quote\":\"ses mains étaient paralysées et il ne pouvait les desserrer pour saisir la corde\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1616,
+    "content_evidence_truncated": false,
+    "content_sha256": "fdfbfcdb51fa9b78f7f04c6d44ab8ba8b43706bdd3e1e9500aabbc558291dafd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 378,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8745,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8742,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9123
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

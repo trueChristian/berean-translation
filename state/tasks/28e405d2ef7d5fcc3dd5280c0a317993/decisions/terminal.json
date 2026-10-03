@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragrafo sulle economie globali",
+      "severity": "major",
+      "source_quote": "“the cost of purchase for many products has skyrocketed”",
+      "suggested_fix": "Sostituire «il costo d'acquisto di molti prodotti è salito alle stelle» con «i prezzi di molti prodotti sono saliti alle stelle» oppure «il costo di molti prodotti è salito alle stelle».",
+      "translation_quote": "«il costo d'acquisto di molti prodotti è salito alle stelle»"
+    },
+    {
+      "location": "HTML, paragrafo sulla prospettiva e gli occhiali",
+      "severity": "major",
+      "source_quote": "“a clear 20/20 view”",
+      "suggested_fix": "Sostituire «con una visione nitida da 10/10» con «con una visione nitida da 20/20», mantenendo il riferimento numerico dell'originale.",
+      "translation_quote": "«con una visione nitida da 10/10»"
+    },
+    {
+      "location": "HTML, paragrafo sul modello di consulenza e la maschera figurata",
+      "severity": "major",
+      "source_quote": "“it was spoken of as quite troubling and detrimental to interpersonal relationships IF someone had a ‘mask’ on (figuratively).”",
+      "suggested_fix": "Rendere il passaggio, per esempio, con «si diceva che fosse assai preoccupante e dannoso per le relazioni interpersonali SE qualcuno portava una “maschera” (in senso figurato)».",
+      "translation_quote": "«si diceva che fosse assai problematico e dannoso per le relazioni interpersonali SE qualcuno portava una “maschera” (in senso figurato)»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

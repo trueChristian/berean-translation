@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section « Faire régulièrement de l’exercice », premier paragraphe",
+      "severity": "major",
+      "source_quote": "“three miles”",
+      "suggested_fix": "Remplacer « trois miles » par une distance équivalente exprimée en français, par exemple « environ cinq kilomètres » : « …pour sortir en courant faire environ cinq kilomètres… »",
+      "translation_quote": "« …pour sortir en courant faire trois miles… »"
+    },
+    {
+      "location": "HTML, section « Des compléments ciblés », paragraphe sur le zinc",
+      "severity": "major",
+      "source_quote": "“Zinc has been shown (short term) to reduce duration of colds.”",
+      "suggested_fix": "Reformuler en indiquant que le zinc s’est révélé capable de réduire la durée des rhumes à court terme, par exemple : « Il a été démontré que le zinc peut, à court terme, réduire la durée des rhumes. »",
+      "translation_quote": "« Le zinc a montré qu’à court terme, il pouvait réduire la durée des rhumes. »"
+    },
+    {
+      "location": "HTML, section « Des compléments ciblés », paragraphe sur le zinc",
+      "severity": "major",
+      "source_quote": "“I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.”",
+      "suggested_fix": "Remplacer par une formulation fidèle qui ne recommande pas une dose accrue : « Je précise toutefois qu’il n’est pas vraiment destiné à être pris tous les jours, mais plutôt dès l’apparition du premier symptôme d’une infection des voies respiratoires supérieures. »",
+      "translation_quote": "« Je tiens à préciser ici qu’il n’est pas vraiment destiné à être pris tous les jours ; il vaut mieux en prendre davantage dès les premiers symptômes d’une infection des voies respiratoires supérieures. »"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

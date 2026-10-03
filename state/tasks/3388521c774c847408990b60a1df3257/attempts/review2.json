@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, first paragraph\",\"severity\":\"minor\",\"source_quote\":\"Later that afternoon, she and her siblings heard that their mom had suffered a heart attack.\",\"suggested_fix\":\"Заменить «Позже в тот день» на «Позже тем днём», чтобы сохранить указание на время суток.\",\"translation_quote\":\"Позже в тот день Дженника и её братья и сёстры узнали, что у мамы случился сердечный приступ.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 584,
+    "content_evidence_truncated": false,
+    "content_sha256": "12dfda6a1cf891201d80d8703d4d678d27cd6054c427af771b0019aff4f925f5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 599,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 473,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2717,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2714,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3316
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

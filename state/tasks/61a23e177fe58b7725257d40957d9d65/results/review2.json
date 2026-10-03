@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6057a317-2141-4269-abae-ed67f04e273a",
+    "response_id": "chatcmpl-EUsNBmTBhyTmczYkUp9KTWKi3EsDb",
+    "usage": {
+      "completion_tokens": 434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2300
+    }
+  },
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, stanza 1",
+        "severity": "major",
+        "source_quote": "He knows tomorrow, before it has come. The hairs of our head, He knows the sum.",
+        "suggested_fix": "Replace the last two lines with: «Conoce el mañana antes de que llegue. Sabe cuántos cabellos tenemos en la cabeza.»",
+        "translation_quote": "Conoce el mañana antes de que llegue. Sabe cuántos cabellos tenemos en la cabeza."
+      },
+      {
+        "location": "source.html, poem, stanza 3",
+        "severity": "major",
+        "source_quote": "All the miracles, with a word, they were done!",
+        "suggested_fix": "Translate the line as «¡Todos los milagros se hicieron con una palabra!»",
+        "translation_quote": "¡Todos los milagros se hicieron con una palabra!"
+      },
+      {
+        "location": "source.html, poem, stanza 4",
+        "severity": "major",
+        "source_quote": "Do we even need God, maybe old-fashioned at last?!",
+        "suggested_fix": "Translate the line as «¿Acaso necesitamos a Dios, que quizá ya sea anticuado?»",
+        "translation_quote": "¿Acaso necesitamos a Dios, que quizá ya sea anticuado?"
+      },
+      {
+        "location": "source.html, poem, stanza 5",
+        "severity": "major",
+        "source_quote": "He stands and knocks; will you open the door?",
+        "suggested_fix": "Translate the line as «Está de pie y llama a la puerta: ¿abrirás la puerta?»",
+        "translation_quote": "Está de pie y llama a la puerta: ¿abrirás?"
+      },
+      {
+        "location": "source.html, poem, stanza 6",
+        "severity": "major",
+        "source_quote": "He’s looking for a people once more in our day, With confidence in God, His power to display.",
+        "suggested_fix": "Replace the final two lines with: «En nuestros días, busca de nuevo a un pueblo que tenga confianza en Dios y manifieste su poder.»",
+        "translation_quote": "En nuestros días, busca de nuevo a un pueblo que, con confianza en Dios, manifieste su poder."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

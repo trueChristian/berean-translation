@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, verse 2, final line",
+      "severity": "minor",
+      "source_quote": "Her hymns of love and praise.",
+      "suggested_fix": "Replace only this phrase with «محبت اور ستائش سے بھرے اس کے گیت» so the wording clearly describes hymns characterized by love and praise.",
+      "translation_quote": "اس کے محبت اور ستائش کے گیت۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

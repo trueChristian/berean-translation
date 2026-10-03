@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "आरंभिक उद्धरण, मत्ती 10:29",
+      "severity": "major",
+      "source_quote": "“one of them shall not fall on the ground without your Father”",
+      "suggested_fix": "“और उनमें से एक भी तुम्हारे पिता के बिना भूमि पर नहीं गिरती।”",
+      "translation_quote": "“उनमें से एक भी तुम्हारे पिता की जानकारी के बिना भूमि पर नहीं गिरती”"
+    },
+    {
+      "location": "अनुच्छेद: “As a little boy with poor parents…”",
+      "severity": "major",
+      "source_quote": "“As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.”",
+      "suggested_fix": "“यीशु के बाल्यकाल में, जब वे गरीब माता-पिता के पुत्र थे, यह बहुत संभव है कि यह दृश्य उनकी आँखों के सामने बार-बार घटा हो।”",
+      "translation_quote": "“जब यीशु छोटे बालक थे और उनके माता-पिता गरीब थे, तो बहुत संभव है कि उनके जीवन के उन दिनों में यह दृश्य उनकी आँखों के सामने भी बार-बार घटा हो।”"
+    },
+    {
+      "location": "अनुच्छेद: “Not only are little children despised…”",
+      "severity": "major",
+      "source_quote": "“The addition of the widow’s two mites to the treasury arrested the attention of the general populace, though not in a positive fashion.”",
+      "suggested_fix": "“विधवा द्वारा भेंट-पेटी में डाले गए दो छोटे सिक्कों ने आम लोगों का ध्यान खींचा, हालाँकि सकारात्मक ढंग से नहीं।”",
+      "translation_quote": "“विधवा के दो दमड़ियों के भेंट में डालने ने आम लोगों का ध्यान खींचा, हालाँकि सकारात्मक ढंग से नहीं।”"
+    },
+    {
+      "location": "अनुच्छेद: “Such are the sparrows. Are not the native birds…”; नीतिवचन 26:16 उद्धरण",
+      "severity": "major",
+      "source_quote": "“The sluggard is wiser in his own conceit than seven men that can render a reason”",
+      "suggested_fix": "“आलसी अपनी ही दृष्टि में उन सात पुरुषों से अधिक बुद्धिमान है जो तर्कपूर्ण उत्तर दे सकते हैं।”",
+      "translation_quote": "“आलसी अपनी दृष्टि में सात ऐसे पुरुषों से अधिक बुद्धिमान है जो उचित उत्तर दे सकते हैं”"
+    },
+    {
+      "location": "अनुच्छेद: “But this selfishness is nothing new.”; यशायाह 53:3 उद्धरण",
+      "severity": "major",
+      "source_quote": "“He [was] despised and rejected of men…”",
+      "suggested_fix": "“वह मनुष्यों में तुच्छ जाना और अस्वीकार किया गया…”",
+      "translation_quote": "“वह मनुष्यों में तुच्छ जाना और निकम्मा ठहरा…”"
+    },
+    {
+      "location": "अनुच्छेद: “Such are the sparrows. An orange for the orioles…”",
+      "severity": "major",
+      "source_quote": "“a BB gun for the sparrows”",
+      "suggested_fix": "“गौरैयों के लिए बीबी बंदूक” या “गौरैयों के लिए छोटी छर्रे वाली बंदूक”",
+      "translation_quote": "“गौरैयों के लिए छर्रे वाली बंदूक”"
+    },
+    {
+      "location": "अनुच्छेद: “The totalitarian governments…”",
+      "severity": "major",
+      "source_quote": "“such prejudice precinct”",
+      "suggested_fix": "“ऐसे पूर्वाग्रहपूर्ण समाज/व्यवस्था”",
+      "translation_quote": "“ऐसे पूर्वाग्रहपूर्ण क्षेत्र”"
+    },
+    {
+      "location": "अनुच्छेद: “Many will go to extra efforts…”",
+      "severity": "major",
+      "source_quote": "“Many will go to extra efforts to deplete their outward ostentation”",
+      "suggested_fix": "“बहुत-से लोग अपने बाहरी दिखावे को बढ़ाने के लिए अतिरिक्त प्रयास करेंगे”",
+      "translation_quote": "“बहुत से लोग अपने बाहरी दिखावे को घटाने के लिए अतिरिक्त प्रयास करेंगे”"
+    },
+    {
+      "location": "कविता, दूसरी पद्य-पंक्ति",
+      "severity": "major",
+      "source_quote": "“The drowning from the clutches of / The cold remorseless wave.”",
+      "suggested_fix": "“डूबते हुए लोगों को / ठंडी, निर्दयी लहर के शिकंजे से बचाने के लिए।”",
+      "translation_quote": "“उन्हें, जिन्हें ठंडी, निर्दयी लहर / अपनी पकड़ में डुबो रही है।”"
+    },
+    {
+      "location": "अंतिम अनुच्छेद: एलेक्स पोसी का वृत्तांत",
+      "severity": "major",
+      "source_quote": "“his hands had paralyzed, and he couldn’t unmold them to clasp the rope”",
+      "suggested_fix": "“उनके हाथ लकवाग्रस्त हो गए थे और वे रस्सी पकड़ने के लिए उन्हें खोल नहीं सके”",
+      "translation_quote": "“उनके हाथ लकवाग्रस्त हो गए थे और वे रस्सी पकड़ने के लिए उन्हें खोल नहीं सके”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

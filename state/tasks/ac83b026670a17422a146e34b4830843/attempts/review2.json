@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening Scripture quotation (Psalm 139:14); the same wording recurs near the end of the article.\",\"severity\":\"major\",\"source_quote\":\"“fearfully and wonderfully made”\",\"suggested_fix\":\"Replace «skapt på skremmende og underfullt vis» with «skapt på underfullt og forunderlig vis» (or another Bokmål rendering that conveys being wondrously made without suggesting being frightening). Make the same correction to the repeated wording near the end.\",\"translation_quote\":\"«skapt på skremmende og underfullt vis»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 575,
+    "content_evidence_truncated": false,
+    "content_sha256": "656e3932769907e4e59018a8ea907dd772d3f58e54f63f72bfc33e2ce5dc9bea",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9658,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9655,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10317
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

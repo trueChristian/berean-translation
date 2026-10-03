@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html, paragraph beginning “The message of the sparrow”",
+      "severity": "major",
+      "source_quote": "“it is the simple truths that give God His greatness.”",
+      "suggested_fix": "Replace “sono le verità semplici a rendere grande Dio” with “sono le verità semplici a rivelare la grandezza di Dio” to preserve the meaning without implying that truths make God great.",
+      "translation_quote": "“sono le verità semplici a rendere grande Dio.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

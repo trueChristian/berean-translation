@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "HTML, alinea over de vrouw met arme ouders",
+      "severity": "major",
+      "source_quote": "As a little boy with poor parents, it is highly probable that in the days of Jesus’ young life this scene had repeated itself before His own eyes.",
+      "suggested_fix": "Vervang de eerste zin door: “Als jongetje met arme ouders heeft Jezus dit tafereel waarschijnlijk zelf meerdere keren zien gebeuren.”",
+      "translation_quote": "Als jongetje met arme ouders heeft Jezus dit tafereel in de dagen van zijn jeugd waarschijnlijk voor zijn eigen ogen zien gebeuren."
+    },
+    {
+      "location": "HTML, alinea over de adelaar en vrijheid",
+      "severity": "major",
+      "source_quote": "to remind us of the glorious freedom of liberty and independence.",
+      "suggested_fix": "Vervang “de glorieuze vrijheid van onafhankelijkheid” door een formulering die beide begrippen behoudt, bijvoorbeeld: “de glorieuze vrijheid en onafhankelijkheid”",
+      "translation_quote": "de glorieuze vrijheid van onafhankelijkheid"
+    },
+    {
+      "location": "HTML, alinea over kinderen en ongeboren leven",
+      "severity": "major",
+      "source_quote": "For many wombs of the unborn, the life within is a cumbersome bother that is not worth the sacrifice required to retain it.",
+      "suggested_fix": "Vervang “Voor veel vrouwen is het ongeboren leven in hun schoot een lastige hinder die het vereiste offer niet waard is om het te behouden” door: “Voor velen is het ongeboren kind in de moederschoot een lastige hinder, die het vereiste offer om het te behouden niet waard is.”",
+      "translation_quote": "Voor veel vrouwen is het ongeboren leven in hun schoot een lastige hinder die het vereiste offer niet waard is om het te behouden."
+    },
+    {
+      "location": "HTML, alinea over nieuwe wijn en verwerping",
+      "severity": "major",
+      "source_quote": "He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.",
+      "suggested_fix": "Vervang “en bij de eerste gelegenheid werd Hij afgezet” door “en bij de eerste gelegenheid werd Hij verworpen” om de betekenis van “deposed of” in deze context weer te geven.",
+      "translation_quote": "en bij de eerste gelegenheid werd Hij afgezet."
+    },
+    {
+      "location": "HTML, alinea over de beker koud water",
+      "severity": "major",
+      "source_quote": "Neither will the praise of a sparrow.",
+      "suggested_fix": "Vervang “Evenmin de lof van een mus” door “Ook de lof van een mus zal God niet ontgaan.”",
+      "translation_quote": "Evenmin de lof van een mus."
+    },
+    {
+      "location": "HTML, titel",
+      "severity": "minor",
+      "source_quote": "Sparrows",
+      "suggested_fix": "Gebruik als titel “Mussen” (meervoud), zodat de titel overeenkomt met het onderwerp en de Engelse titel.",
+      "translation_quote": "Mussen"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

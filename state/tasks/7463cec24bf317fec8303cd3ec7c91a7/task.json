@@ -2,7 +2,6 @@
   "article_id": "a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,32 +64,61 @@
         },
         "total_tokens": 16485
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 611,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10332,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10329,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10943
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "متن، حصہ «مدافعتی خلیے»",
-      "severity": "major",
-      "source_quote": "“soldiers” of our immune system are: white blood cells, B cells (which make antibodies), and T cells.",
-      "suggested_fix": "«ہمارے مدافعتی نظام کے ’’سپاہی‘‘ یہ ہیں: سفید خون کے خلیے، بی خلیے (جو اینٹی باڈیز بناتے ہیں) اور ٹی خلیے۔»",
-      "translation_quote": "«ہمارے مدافعتی نظام کے ’’سپاہی‘‘ یہ ہیں: سفید خون کے خلیے، بی خلیے (جو اینٹی باڈیز بناتے ہیں) اور ٹی خلیے۔»"
-    },
-    {
-      "location": "متن، حصہ «غذا»",
+      "location": "HTML, paragraph under “Eat the Right Foods” / “درست غذائیں کھائیں”",
       "severity": "major",
       "source_quote": "Foods that are high in added nitrates, like cured meats, tend to greatly increase these free radicals and should be avoided.",
-      "suggested_fix": "«اضافی نائٹریٹس والی غذائیں، مثلاً نمک لگا کر محفوظ کیا ہوا گوشت، ان آزاد ریڈیکلز میں نمایاں اضافہ کرتی ہیں، اس لیے ان سے پرہیز کرنا چاہیے۔»",
-      "translation_quote": "«اضافی نائٹریٹس والی غذائیں، مثلاً نمک لگا کر محفوظ کیا ہوا گوشت، ان آزاد ریڈیکلز میں نمایاں اضافہ کرتی ہیں، اس لیے ان سے پرہیز کرنا چاہیے۔»"
+      "suggested_fix": "اضافی نائٹریٹس والی غذائیں، مثلاً نمک لگا کر محفوظ کیا ہوا گوشت، ان آزاد ریڈیکلز میں نمایاں اضافہ کرنے کا رجحان رکھتی ہیں، اس لیے ان سے پرہیز کرنا چاہیے۔",
+      "translation_quote": "اضافی نائٹریٹس والی غذائیں، مثلاً نمک لگا کر محفوظ کیا ہوا گوشت، ان آزاد ریڈیکلز میں نمایاں اضافہ کرتی ہیں، اس لیے ان سے پرہیز کرنا چاہیے۔"
     },
     {
-      "location": "متن، حصہ «سپلیمنٹس»",
+      "location": "HTML, paragraph under “Consider Probiotics” / “پروبایوٹکس پر غور کریں”",
+      "severity": "major",
+      "source_quote": "The children who were receiving the probiotics had significantly fewer respiratory illnesses and fevers during those six months.",
+      "suggested_fix": "پروبایوٹکس لینے والے بچوں کو ان چھ مہینوں کے دوران سانس کی بیماریاں اور بخار نمایاں طور پر کم ہوئے۔",
+      "translation_quote": "پروبایوٹکس لینے والے بچوں کو ان چھ مہینوں کے دوران سانس کی بیماریاں اور بخار نمایاں طور پر کم ہوئے۔"
+    },
+    {
+      "location": "HTML, paragraph under “Targeted Supplements” / “مخصوص سپلیمنٹس”",
       "severity": "major",
       "source_quote": "I would caution here that it isn’t really meant to be taken every day, but more should be taken at the first symptom of an upper respiratory infection coming on.",
-      "suggested_fix": "«میں یہاں یہ تنبیہ کروں گا کہ اسے ہر روز لینے کا مشورہ نہیں؛ بلکہ جب سانس کی اوپری نالی کے انفیکشن کی پہلی علامت ظاہر ہو تو اسے لیا جائے۔»",
-      "translation_quote": "«میں یہاں یہ تنبیہ کروں گا کہ اسے ہر روز لینے کے لیے نہیں بنایا گیا؛ بلکہ سانس کی اوپری نالی کے انفیکشن کی پہلی علامت ظاہر ہوتے ہی زیادہ مقدار لینی چاہیے۔»"
+      "suggested_fix": "میں یہاں یہ تنبیہ کروں گا کہ اسے ہر روز لینے کے لیے نہیں بنایا گیا؛ بلکہ سانس کی اوپری نالی کے انفیکشن کی پہلی علامت ظاہر ہونے پر اسے لینا چاہیے۔",
+      "translation_quote": "میں یہاں یہ تنبیہ کروں گا کہ اسے ہر روز لینے کا مشورہ نہیں؛ بلکہ جب سانس کی اوپری نالی کے انفیکشن کی پہلی علامت ظاہر ہو تو زیادہ مقدار لینی چاہیے۔"
+    },
+    {
+      "location": "HTML, closing paragraph before endnotes",
+      "severity": "major",
+      "source_quote": "These systems heal injuries, maintain our body, and protect it from a world damaged by the introduction of sin at the Fall of man, in the Garden of Eden.",
+      "suggested_fix": "یہ نظام زخموں کو مندمل کرتے، ہمارے جسم کو برقرار رکھتے اور اسے اُس دنیا سے محفوظ رکھتے ہیں جو باغِ عدن میں انسان کے سقوط کے وقت گناہ کے داخل ہونے سے نقصان زدہ ہوئی۔",
+      "translation_quote": "یہ نظام زخموں کو مندمل کرتے، ہمارے جسم کو برقرار رکھتے اور انسان کے سقوط کے وقت باغِ عدن میں گناہ کے داخل ہونے سے نقصان یافتہ دنیا سے اس کی حفاظت کرتے ہیں۔"
     }
   ],
+  "finished_at": "2026-10-03T16:46:14+00:00",
   "id": "7463cec24bf317fec8303cd3ec7c91a7",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "urd",
@@ -185,7 +213,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3d4ff54d38135b804080e8a3164c60951764437616b654687f2332c06c69e7ab.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, opening paragraph (Psalm 139:14)",
+      "severity": "minor",
+      "source_quote": "“fearfully and wonderfully made”",
+      "suggested_fix": "Replace «με θαυμαστό και εκπληκτικό τρόπο» with «με τρόπο θαυμαστό και φοβερό» to retain the source’s sense of being made awe-inspiringly as well as wonderfully.",
+      "translation_quote": "«με έπλασες με θαυμαστό και εκπληκτικό τρόπο»"
+    },
+    {
+      "location": "source.html, concluding paragraph beginning “God made our bodies…”",
+      "severity": "minor",
+      "source_quote": "“We are indeed fearfully and wonderfully made.”",
+      "suggested_fix": "Replace «Πράγματι, είμαστε πλασμένοι με θαυμαστό και εκπληκτικό τρόπο.» with «Πράγματι, είμαστε πλασμένοι με τρόπο θαυμαστό και φοβερό.»",
+      "translation_quote": "«Πράγματι, είμαστε πλασμένοι με θαυμαστό και εκπληκτικό τρόπο.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -6,6 +6,12 @@
       "campaign": "gh-37109077881",
       "event": "requested",
       "task": "484c1059bcdbc5895fbb405848277289"
+    },
+    {
+      "at": "2026-10-03T16:46:13+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[44]; missing: 1 Peter 5:7; extra: 5:7",
+      "task": "484c1059bcdbc5895fbb405848277289"
     }
   ],
   "language": "heb",

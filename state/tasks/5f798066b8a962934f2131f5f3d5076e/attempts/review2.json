@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:46:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, final paragraph\",\"severity\":\"minor\",\"source_quote\":\"This poem was inspired by the Scripture passage in Jeremiah 18:1-6.\",\"suggested_fix\":\"Replace “धर्मशास्त्र के उस अंश” with “बाइबल के उस अंश” (or “पवित्रशास्त्र के उस अंश”) so the phrase refers clearly to Scripture, not theology.\",\"translation_quote\":\"यह कविता यिर्मयाह 18:1-6 में दिए गए धर्मशास्त्र के उस अंश से प्रेरित थी।\"},{\"location\":\"HTML, poem, first stanza\",\"severity\":\"minor\",\"source_quote\":\"What kind of vessel will I be:\",\"suggested_fix\":\"Change “बनूँगा” to “बनूँगी” to match the feminine speaker used later in the poem (“मानती हूँ,” “टकराती हूँ”).\",\"translation_quote\":\"मैं कैसा पात्र बनूँगा:\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1044,
+    "content_evidence_truncated": false,
+    "content_sha256": "aac8cd2ec4fe4e29c1bd9f4af85c487798d0292d5c72ba627b119afb3ca8f813",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 899,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 674,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2082,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2079,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2981
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

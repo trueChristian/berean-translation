@@ -2,7 +2,6 @@
   "article_id": "77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:04+00:00",
   "events": [
@@ -65,39 +64,46 @@
         },
         "total_tokens": 3505
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 788,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 563,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2101,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2098,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2889
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "কবিতার ১ম স্তবক",
-      "severity": "major",
-      "source_quote": "To carry, to store, or for a drink?",
-      "suggested_fix": "বহন করার, জিনিস রাখার, না পান করার পাত্র?",
-      "translation_quote": "বহনের, রাখার, না পান করার?"
+      "location": "Poem, stanza 2, lines 1–3",
+      "severity": "minor",
+      "source_quote": "“I’m a little bit shallow, I admit, / For I’m focusing on me quite a bit. / But here is a thought,”",
+      "suggested_fix": "“স্বীকার করি, আমি কিছুটা আত্মকেন্দ্রিক, / কারণ নিজেকেই নিয়ে ভাবি বেশির ভাগ সময়। / তবে একটা কথা ভাবার আছে,”",
+      "translation_quote": "“স্বীকার করি, আমার মনটা কিছুটা সংকীর্ণ, / কারণ নিজেকেই নিয়ে ভাবি বেশির ভাগ সময়। / তবে একটি কথা মনে রেখো,”"
     },
     {
-      "location": "কবিতার ৩য় স্তবক",
-      "severity": "major",
-      "source_quote": "About my life / are many others, / A husband, a daughter, / and some brothers.",
-      "suggested_fix": "আমার জীবনের সঙ্গে / জড়িয়ে আছেন আরও অনেকে— / একজন স্বামী, এক মেয়ে, / আর কয়েকজন ভাই।",
-      "translation_quote": "আমার জীবনের সঙ্গে / জড়িয়ে আছে আরও অনেকে, / স্বামী, এক মেয়ে, / আর কয়েকজন ভাই।"
-    },
-    {
-      "location": "কবিতার ৫ম স্তবক",
-      "severity": "major",
-      "source_quote": "Until His likeness, again does show.",
-      "suggested_fix": "যতক্ষণ না আবার তাঁর সাদৃশ্য ফুটে ওঠে।",
-      "translation_quote": "যতক্ষণ না আবার তাঁর প্রতিমূর্তি ফুটে ওঠে।"
-    },
-    {
-      "location": "কবিতার ৬ষ্ঠ স্তবক",
-      "severity": "major",
-      "source_quote": "Changes the course of other’s clay,",
-      "suggested_fix": "অন্যের মাটির গতিপথ বদলে দেয়,",
-      "translation_quote": "অন্যের মাটির গতিপথ বদলে দেয়,"
+      "location": "Poem, stanza 2, line 4",
+      "severity": "minor",
+      "source_quote": "“I’m not the only pot.”",
+      "suggested_fix": "“শুধু আমিই পাত্র নই।”",
+      "translation_quote": "“একমাত্র পাত্র আমি নই।”"
     }
   ],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "e66f91c0a0f728f1f620404e18f9ca24",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ben",
@@ -186,13 +192,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fec2dd1703a9aded162631be7f3af606fa01a3b491621e431543b667d23c75a4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bc9ecc613f1817378c3fc3dba2a55f8d1cc93b689cd94f6882b88808bf6a0937",
   "translation_model_actual": "gpt-6-luna"

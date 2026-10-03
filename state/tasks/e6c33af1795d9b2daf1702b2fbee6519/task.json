@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 12096
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 401,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7848,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7845,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8249
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "正文，第6段，引用使徒行传9:20",
+      "location": "正文，第1段",
+      "severity": "minor",
+      "source_quote": "We cannot speak of confidence without mentioning Caleb and Joshua, who after hearing all their comrades give their doubting reports, confidently described what they should do with this new land of Canaan",
+      "suggested_fix": "将“满怀信心地说出了他们该如何对待这片新的迦南地”改为“满怀信心地说出了他们该如何处置这片新的迦南地”或“满怀信心地说出了他们该如何进取这片新的迦南地”，以表达他们主张上去占领迦南地。",
+      "translation_quote": "他们听见所有同伴报出怀疑的消息后，却满怀信心地说出了他们该如何对待这片新的迦南地"
+    },
+    {
+      "location": "正文，第6段",
+      "severity": "minor",
+      "source_quote": "The next verse says the people were amazed, then in verse 23, five verses after he was baptized",
+      "suggested_fix": "将“到了第23节，也就是他受洗后五节经文”改为“到了第23节，也就是他受洗后过了五节经文”，避免误读为受洗后仅隔五节便发生。",
+      "translation_quote": "到了第23节，也就是他受洗后五节经文"
+    },
+    {
+      "location": "正文，第10段",
       "severity": "major",
-      "source_quote": "“…straightway he preached Christ in the synagogues, that he is the Son of God –Acts 9:20.”",
-      "suggested_fix": "将“……随即在各会堂里传扬耶稣，说祂是上帝的儿子。”改为“……随即在各会堂里传扬基督，说祂是上帝的儿子。”",
-      "translation_quote": "“……随即在各会堂里传扬耶稣，说祂是上帝的儿子。——使徒行传9:20。”"
+      "source_quote": "but it did not faze stop them.",
+      "suggested_fix": "按上下文改为“但这些都没有使他们退缩”，保留原文虽有笔误但意为“没有动摇/阻止他们”的意思；不要译成“没有使他们退缩”以外的相反含义。",
+      "translation_quote": "但这些都没有使他们退缩。"
     }
   ],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "e6c33af1795d9b2daf1702b2fbee6519",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "cmn",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

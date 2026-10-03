@@ -2,7 +2,6 @@
   "article_id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6a5707c36f94a0085861885061cffb7",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 11558
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 724,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 692,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7561,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7558,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8285
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Final paragraph, quotation from Isaiah 61:1–3",
-      "severity": "major",
-      "source_quote": "to give unto them beauty for ashes",
-      "suggested_fix": "Replace “uma coroa em vez de cinzas” with “beleza em vez de cinzas” to preserve the source image and meaning.",
-      "translation_quote": "para dar aos que pranteiam em Sião uma coroa em vez de cinzas"
-    },
-    {
-      "location": "Paragraph beginning “It takes a lot of confidence in God…”, quotation from 2 Timothy 4:6–7",
-      "severity": "major",
-      "source_quote": "For I am now ready to be offered",
-      "suggested_fix": "Replace “já estou sendo oferecido por libação” with “estou pronto para ser oferecido” (or another faithful Portuguese rendering that preserves readiness rather than saying the offering is already underway).",
-      "translation_quote": "Quanto a mim, já estou sendo oferecido por libação"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:46:15+00:00",
   "id": "ee732ffc1a6a2a226e1e023f4ad82f3e",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "por",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

@@ -6,6 +6,12 @@
       "campaign": "gh-37109077881",
       "event": "requested",
       "task": "4de42bcce8e5b3be636d7eeb500cd669"
+    },
+    {
+      "at": "2026-10-03T16:46:14+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; no further automatic correction is allowed",
+      "task": "4de42bcce8e5b3be636d7eeb500cd669"
     }
   ],
   "language": "deu",
