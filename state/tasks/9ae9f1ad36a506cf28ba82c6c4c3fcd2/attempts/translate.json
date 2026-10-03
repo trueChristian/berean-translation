@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"Χέρια πλάθουν ένα πήλινο αγγείο στον τροχό του αγγειοπλάστη\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"Συνέχεια της φωτογραφίας με τα χέρια που πλάθουν ένα πήλινο αγγείο\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Ο Θεός, ο Αγγειοπλάστης, με πλάθει.<br>\\n    Τι είδους αγγείο θα γίνω:<br>\\n    Για να μεταφέρω, να αποθηκεύσω ή για να πιω;<br>\\n    Λυχνάρι, πιάτο ή νεροχύτης της κουζίνας;</p>\\n\\n    <p>Λίγο ρηχή είμαι, το παραδέχομαι,<br>\\n    γιατί αρκετά τον εαυτό μου σκέφτομαι.<br>\\n    Μα να μια σκέψη:<br>\\n    δεν είμαι το μόνο αγγείο.</p>\\n\\n    <p>Γύρω από τη ζωή μου<br>\\n    υπάρχουν κι άλλοι πολλοί:<br>\\n    ένας σύζυγος, μια κόρη<br>\\n    και μερικοί αδελφοί.</p>\\n\\n    <p>Το χέρι του Αγγειοπλάστη είναι και πάνω τους,<br>\\n    και πλάθει κάτι νέο στον καθένα μας.<br>\\n    Ένα άλλο αγγείο με χτυπά,<br>\\n    κι έτσι αποκτώ ένα μικρό εξόγκωμα.</p>\\n\\n    <p>Πέφτω πάνω σε ένα άλλο αγγείο,<br>\\n    και φαίνεται πως τώρα έχει ραγίσει.<br>\\n    Πίσω στον τροχό του Αγγειοπλάστη πηγαίνουμε,<br>\\n    ώσπου να φανεί και πάλι η ομοιότητά Του.</p>\\n\\n    <p>Αν όσα κάνω κι όσα λέω<br>\\n    αλλάζουν την πορεία του πηλού των άλλων,<br>\\n    τότε πρέπει να φέρομαι με μεγάλη προσοχή,<br>\\n    για να μη γίνουν κοίλα τα αγγεία των άλλων.</p>\\n\\n    <p>Ο Θεός επιθυμεί αγγεία χρήσιμα,<br>\\n    που να αντέχουν στη φωτιά.<br>\\n    Δεν είμαι μόνο εγώ, ούτε μόνο εσύ·<br>\\n    ο Θεός εργάζεται και με άλλα αγγεία.</p>\\n  </div>\\n\\n  <p><em>από την Ελίζαμπεθ Ραστ</em></p>\\n\\n  <p><em>Αυτό το ποίημα εμπνεύστηκε από το χωρίο της Αγίας Γραφής στο Ιερεμίας 18:1-6.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Τα πήλινα αγγεία\"}",
+    "content_bytes": 2799,
+    "content_evidence_truncated": false,
+    "content_sha256": "f65e2b4afa6603b09f23846ade42624e1a5477203af40685c2372f4f9227cf3e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 934,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1503,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1500,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2437
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

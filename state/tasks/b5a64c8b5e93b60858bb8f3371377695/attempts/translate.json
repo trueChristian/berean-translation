@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8a3dfa09-f40f-4615-8f83-59a8fccb1a2f\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-1.jpg\\\" alt=\\\"’n Hospitaalkamer soos gesien vanaf ’n pasiënt se bed\\\">\\n  </figure>\\n\\n  <p>Een Sondagoggend het ’n dogtertjie, wat ons Jennika sal noem, wakker geword terwyl die son by haar slaapkamer inskyn. Sy het haar Sondagrok aangetrek, net soos sy elke ander Sondagoggend gedoen het. Maar hierdie Sondagoggend was heeltemal anders. Terwyl sy by die ontbyttafel gesit en wag het dat haar ma haar bord vol skep, het haar ma se bors skielik baie seer begin kry. Dit was so seer dat sy op die rusbank moes gaan lê. Jennika het bang gevoel. Sy het nie geweet wat gaan gebeur nie. Sowat tien minute later het haar pa haar ma hospitaal toe geneem. Later daardie middag het sy en haar sibbe gehoor dat hulle ma ’n hartaanval gehad het.</p>\\n\\n  <p>Die volgende Woensdagaand het haar pa gevra: “Jennika, wil jy môre saam hospitaal toe gaan om vir Ma te sien?”</p>\\n\\n  <p>“Ja!” het sy stralend geantwoord.</p>\\n\\n  <p>Die volgende oggend ná ontbyt het haar ouer suster en kleinboet saam met haar en haar pa hospitaal toe gegaan. Daardie dag het sy baie pret gehad. Sy het dit geniet om by die venster van die wagkamer uit te kyk en die helikopters dop te hou terwyl hulle opstyg en land. Een keer het sy selfs ’n ambulans met sy ligte aan en sirene wat loei, sien aankom. Dit was opwindend! Een keer het sy amper in die gange verdwaal, maar een van haar ma se verpleegsters het haar gesien en vir haar die regte kamer gewys.</p>\\n\\n  <p>Daardie aand sou sy by haar ma oorslaap. Sy was so opgewonde! Sy het gedink dit sou lekker wees om op die stoel in haar ma se kamer te slaap. Haar ma sou die verpleegsters vir ’n kussing en ’n paar komberse vra. Sowat vyftien minute nadat haar pa vertrek het, het ’n verpleegster ingekom en gesê dat sy tog nie daar kon oorslaap nie! Haar pa moes terugkom om haar te kom haal. Sy was so teleurgesteld! Sy het amper die hele pad huis toe gehuil. Daardie aand het hulle haar twee weke oue boetie by een van die kerkgesinne afgelaai sodat haar ouer susters ’n ruskans kon kry van die sorg vir hom.</p>\\n\\n  <p>Die volgende dag het sy ’n wonderlike verrassing gehad. Eers het haar neefs en niggies, wat sowat drie uur ver gewoon het, kom kuier. En sy het uitgevind dat haar ma daardie dag huis toe sou kom! Sy het haar sibbe gehelp om die huis te versier. Haar ouer suster het twee “Welkom tuis”-plakkate vir binne-in die huis gemaak, en haar ouer broer het een gemaak vir buite, by die oprit.</p>\\n\\n  <p>“Ma is tuis!” het haar jonger broer geskree toe hy die motor buite die huis sien stilhou. Jennika en haar sibbe het na die voordeur gehardloop. Hulle het hulle ma na haar gunsteling-leunstoel geneem, wat naby die lugversorger was wat hulle oom daardie oggend pas geïnstalleer het.</p>\\n\\n  <p>Daardie aand het Jennika styf teen haar ma gekruip. “Ek is bly jy is tuis,” het sy gefluister. “Ek hou daarvan as jy tuis is.” Omdat haar ma so lank weg was, het Jennika geleer om meer dankbaar vir haar ma te wees.</p>\\n\\n  <p>Jennika is nou ouer en is steeds baie dankbaar vir haar ma. Miskien hoef jou ma nie ’n week lank in die hospitaal te wees nie, maar jy behoort steeds dankbaar vir haar te wees. Moenie vergeet om dit vir haar te sê nie!</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-2.jpg\\\" alt=\\\"’n Mediese helikopter buite ’n hospitaal\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Kinderhoek\",\"subtitle\":null,\"title\":\"Wees dankbaar\"}",
+    "content_bytes": 3628,
+    "content_evidence_truncated": false,
+    "content_sha256": "6e04d162d01b35d1a6d59400ce4b0cac665445c5004203bb0627a53a10fbed52",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1163,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1776
+      },
+      "total_tokens": 2942
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

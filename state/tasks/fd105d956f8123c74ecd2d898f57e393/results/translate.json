@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c150bc14-0b5a-4877-94ff-ebd5759f4f73",
+    "response_id": "chatcmpl-EUpYCBtkBh0jQaX9j3hXNKe1WCD1O",
+    "usage": {
+      "completion_tokens": 679,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 136,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1395,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1392,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2074
+    }
+  },
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"نوتة ترنيمة أحب ملكوتك يا رب\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>أحب ملكوتك يا رب،<br>\n    ومسكنك المقدس؛<br>\n    الكنيسة التي خلّصها فادينا المبارك<br>\n    بدمه الثمين.<br>\n    أحب كنيستك يا الله!<br>\n    أسوارها قائمة أمامك،<br>\n    عزيزة كحدقة عينك،<br>\n    ومنقوشة على كفك.</li>\n    <li>من أجلها ستسيل دموعي،<br>\n    ومن أجلها ترتفع صلواتي؛<br>\n    ولأجلها أبذل همومي وتَعَبي،<br>\n    حتى ينتهي التعب والهم.<br>\n    وفوق أعظم أفراحي<br>\n    أُجلّ سبلها السماوية،<br>\n    وشركتها العذبة، ونذورها المهيبة،<br>\n    وترانيمها المفعمة بالمحبة والتسبيح.</li>\n    <li>يا يسوع، يا الصديق الإلهي،<br>\n    مخلّصنا وملكنا!<br>\n    ستأتي يدك بخلاص عظيم<br>\n    من كل فخ وعدو.<br>\n    وكما أن حقك يدوم،<br>\n    سيُمنح لصهيون<br>\n    أبهى الأمجاد التي تستطيع الأرض أن تهبها،<br>\n    ونعيم السماء الأعظم بهاءً.</li>\n  </ol>\n\n  <p>الكلمات: تيموثي دوايت<br>\n  الموسيقى: أ. ب. إيفريت</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "أحب ملكوتك يا رب"
+  }
+}

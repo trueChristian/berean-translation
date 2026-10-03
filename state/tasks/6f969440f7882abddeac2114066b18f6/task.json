@@ -2,10 +2,68 @@
   "article_id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8857f576c26c47338fafed41b52904f2",
   "campaign": "gh-37109077881",
   "created_at": "2026-10-03T08:17:03+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 5102,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4751,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4748,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9853
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/aside[1]/p[5]/strong[1]; translation /article[1]/aside[1]/p[5]",
+      "severity": "critical",
+      "source_quote": "…r of being an alone “local” Christian is categorically opposite from the “group spirituality” that our Anabaptist forefathers specifically believed and taught. Another area of misunderstanding in this whole issue, is that there is a very clear difference between the expression of the kingdom <strong>now</strong> and the kingdom <strong>future</strong>. Remember that Jesus said, “my kingdom is not of this world,” yet an extreme focus on kingdom this and kingdom that, will by default cause Christians to ignore this Truth, as they try to express the kingdom “on the earth,” and “in the now.”</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[13:17], translation signature[13:13], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>이들 가운데 많은 사람은 자기 교회보다 여러 다른 단체와 교회 사람들과 더 긴밀히 교류하고 교제합니다. 그러면서도 실제로는 매우 개인주의적인 방식으로 살아가고 있다는 사실을 깨닫지 못합니다. 홀로 “지역” 그리스도인으로 살아가는 이러한 방식은 아나뱁티스트 선조들이 특별히 믿고 가르친 “공동체적 영성”과 정반대입니다. 이 모든 문제와 관련하여 또 하나 오해되는 점은 지금 드러나는 하나님 나라와 장차 임할 하나님 나라 사이에 매우 분명한 차이가 있다는 것입니다. 예수님께서 “내 나라는 이 세상에 속한 것이 아니니라”고 하신 말씀을 기억하십시오. 그런데 하나님 나라에 지나치게 초점을 맞추면, 그 결과 그리스도인들은 “땅 위에서”, “지금 여기에서” 하나님 나라를 드러내려 하다가 이 진리를 무시하게 됩니다.</p>"
+    },
+    {
+      "location": "Source /article[1]/p[1]/em[1]; translation /article[1]/p[1]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<p class=\"drop-cap\">When Jesus blessed Simon Peter for his confident confession that Jesus was <em>the Christ, the Son of the living God –Matthew 16:16,</em> He brought together two overarching New Testament themes: <strong>the church</strong> and <strong>the kingdom</strong>—<em>…I will build my church … And I will give unto thee the keys of the kingdom of heaven… –Matthew 16:18-19.</em> Ever since, Christ’s followers have deliberated, with varying opinions, on the meaning and the nature of the kingdom, and its relation to the church.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[29:31], translation signature[25:25], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p class=\"drop-cap\">예수님께서 시몬 베드로가 “주는 그리스도시요 살아 계신 하나님의 아들이시니이다”(마태복음 16:16)라고 확신에 차 고백한 것을 칭찬하셨을 때, 신약의 두 가지 큰 주제인 <strong>교회</strong>와 <strong>하나님 나라</strong>를 함께 말씀하셨습니다. “내가 내 교회를 세우리니 … 내가 천국 열쇠를 네게 주리니”(마태복음 16:18-19). 그때부터 그리스도를 따르는 이들은 여러 의견을 내놓으며 하나님 나라의 의미와 본질, 그리고 교회와의 관계를 숙고해 왔습니다.</p>"
+    },
+    {
+      "location": "Source /article[1]/p[1]/em[2]; translation /article[1]/p[1]",
+      "severity": "critical",
+      "source_quote": "<p class=\"drop-cap\">When Jesus blessed Simon Peter for his confident confession that Jesus was <em>the Christ, the Son of the living God –Matthew 16:16,</em> He brought together two overarching New Testament themes: <strong>the church</strong> and <strong>the kingdom</strong>—<em>…I will build my church … And I will give unto thee the keys of the kingdom of heaven… –Matthew 16:18-19.</em> Ever since, Christ’s followers have deliberated, with varying opinions, on the meaning and the nature of the kingdom, and its relation to the church.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[35:37], translation signature[29:29], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p class=\"drop-cap\">예수님께서 시몬 베드로가 “주는 그리스도시요 살아 계신 하나님의 아들이시니이다”(마태복음 16:16)라고 확신에 차 고백한 것을 칭찬하셨을 때, 신약의 두 가지 큰 주제인 <strong>교회</strong>와 <strong>하나님 나라</strong>를 함께 말씀하셨습니다. “내가 내 교회를 세우리니 … 내가 천국 열쇠를 네게 주리니”(마태복음 16:18-19). 그때부터 그리스도를 따르는 이들은 여러 의견을 내놓으며 하나님 나라의 의미와 본질, 그리고 교회와의 관계를 숙고해 왔습니다.</p>"
+    },
+    {
+      "location": "Source /article[1]/p[7]/em[3]; translation /article[1]/p[7]",
+      "severity": "critical",
+      "source_quote": "…stly the Revelation, contains a divinely inspired progression of fuller revelation and doctrinal explanation. This is seen when we consider the words of Jesus regarding the coming of the Holy Spirit: <em>I have yet many things to say unto you, but ye cannot bear them now. Howbeit when he, the Spirit of truth, is come, he will guide you into all truth: for he shall not speak of himself; but whatsoever he shall hear, that shall he speak: and he will shew you things to come –John 16:12-13.</em> Those New Testament books following the Gospels are the anticipated fulfillment of these words. They …",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[77:79], translation signature[69:69], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>첫째, 복음서(예수님의 생애와 가르침)가 신약 성경 해석을 <em>지배하고</em> <em>통제해야 한다</em>고 전제하는 것은 잘못이라고 생각합니다. 오히려 신약은 복음서와 사도행전, 서신서, 마지막으로 요한계시록을 거치며 더 충만한 계시와 교리적 설명으로 나아가는 신적으로 영감된 발전 과정을 담고 있습니다. 성령의 오심에 관한 예수님의 말씀을 생각해 보면 이를 알 수 있습니다. “내가 아직도 너희에게 이를 것이 많으나 지금은 너희가 감당하지 못하리라. 그러나 진리의 성령이 오시면 그가 너희를 모든 진리 가운데로 인도하시리니, 그가 자의로 말하지 않고 오직 듣는 것을 말하시며 장래 일을 너희에게 알리시리라”(요한복음 16:12-13). 복음서 뒤에 나오는 신약의 책들은 이 말씀의 예고된 성취입니다. 이 책들은 그리스도의 가르침과 사역을 온전히 전개하고 이해하도록 해 줍니다.</p>"
+    },
+    {
+      "location": "Source /article[1]/p[11]/strong[1]; translation /article[1]/p[11]/strong[1]",
+      "severity": "critical",
+      "source_quote": "<p>Finally, we should think correctly about the kingdom in relation to the church. What is the relationship of the kingdom to the church? The kingdom is <strong>not</strong>, as contemporary usage would almost have us think, a generic version <strong>of</strong>, or a substitute word <strong>for</strong>, the church. Rather, the kingdom has to do with the reign or rule of God. It is both a <em>present reality,</em> having been inaugurated in the person and mission of Jesus, and a <em>future expectation</em> which God will bring to completion at the end of time. The church, while not the king…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[95:97], translation signature[85:85], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>마지막으로, 하나님 나라와 교회의 관계를 올바르게 생각해야 합니다. 하나님 나라와 교회는 어떤 관계일까요? 현대의 용법이 거의 우리로 하여금 그렇게 생각하게 하지만, 하나님 나라는 교회를 가리키는 포괄적인 표현도 아니고 교회를 <strong>대신하는</strong> 말도 <strong>아닙니다</strong>. 오히려 하나님 나라는 하나님의 통치 또는 다스림과 관련이 있습니다. 하나님 나라는 예수님의 인격과 사역 안에서 시작된 <em>현재의 실재</em>인 동시에, 하나님께서 세상 끝에 완성하실 <em>미래의 소망</em>입니다. 교회는 하나님 나라 자체는 아니지만, 하나님 나라에 속한 이들, 곧 그리스도의 사역을 통해 하나님의 통치에 복종한 이들로 이루어져 있습니다.</p>"
+    }
+  ],
   "id": "6f969440f7882abddeac2114066b18f6",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "kor",
@@ -97,9 +155,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/0831ff95490bffbe0e23f53ea5194e523e59b9c9715fefeab30577548f0a6209.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

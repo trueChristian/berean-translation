@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\\\" alt=\\\"धुंध से ढका वन-प्रदेश\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>इतना महान परमेश्वर हो, तो डर क्यों लगे?<br>\\n    वह सागर और उठते तूफ़ानों को थामे रहे।<br>\\n    कल आने से पहले ही, उसे कल का ज्ञान है।<br>\\n    हमारे सिर के बालों की संख्या भी उसे मालूम है।</p>\\n\\n    <p>ऐसे परमेश्वर पर सवाल क्यों उठाएँ?<br>\\n    कुछ लोग संदेह क्यों करें, या गलत सवाल पूछें?<br>\\n    शास्त्र ने कहा है, “प्रभु पर भरोसा रखो।”<br>\\n    फिर हम अपने ही विवेक का सहारा क्यों लें?</p>\\n\\n    <p>मुझे यक़ीन है, सर्वज्ञ परमेश्वर भी हैरान होता होगा।<br>\\n    सारे चमत्कार एक ही शब्द से हुए थे!<br>\\n    आज वह इस संसार में इधर-उधर देखता है,<br>\\n    किसी ऐसे को ढूँढ़ता है जो बिना देर किए भरोसा करे।</p>\\n\\n    <p>इस संसार की चीज़ें कितनी चमकदार और तेज़ हैं।<br>\\n    क्या हमें परमेश्वर की ज़रूरत भी है—शायद अब वह पुराना ख़याल हो गया है?!<br>\\n    बस करो यह मूर्खता, हम सब सच्चाई जानते हैं।<br>\\n    हमने परमेश्वर को काम करते देखा है—हाँ, बचपन से।</p>\\n\\n    <p>हमारे सर्वशक्तिमान परमेश्वर की जगह कोई नहीं ले सकता;<br>\\n    इसके उलट कहना यक़ीनन अजीब लगेगा।<br>\\n    वह फिर से कलीसिया के उसके भरोसा करने की बाट जोह रहा है।<br>\\n    वह खड़ा है और दरवाज़ा खटखटाता है; क्या तुम दरवाज़ा खोलोगे?</p>\\n\\n    <p>केवल संकट में नहीं, या जब जीवन बहुत कठिन हो,<br>\\n    बल्कि हर पल, अपने भय को दरकिनार करो।<br>\\n    वह आज के हमारे समय में फिर से ऐसे लोगों को ढूँढ़ रहा है,<br>\\n    जो परमेश्वर पर <strong><em>भरोसा</em></strong> रखें और उसकी सामर्थ्य प्रकट करें।</p>\\n\\n    <p class=\\\"byline\\\"><em>बैरी ग्रांट द्वारा</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"भरोसा\"}",
+    "content_bytes": 3515,
+    "content_evidence_truncated": false,
+    "content_sha256": "e3672b548afd99f111f31188621117dbcf440d70fa66aafc820dd7e805c2c56e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 157,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1435,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1432,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2275
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

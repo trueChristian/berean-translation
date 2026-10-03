@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dfdb5c68-d490-45cd-adf7-94af08819fed",
+    "response_id": "chatcmpl-EUpRNu6bFucGkbxvJP5zbKk1PyySd",
+    "usage": {
+      "completion_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1429,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2014
+    }
+  },
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\">\n  <figure>\n    <img src=\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\" alt=\"Un paysage de forêt brumeuse\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Avec un Dieu si grand, pourquoi avoir peur ?<br>\n    Il maîtrise la mer et les tempêtes qui se lèvent.<br>\n    Il connaît demain avant qu’il ne soit venu.<br>\n    Il connaît le nombre des cheveux de notre tête.</p>\n\n    <p>Pourquoi remettre en question un Dieu comme celui-ci ?<br>\n    Pourquoi certains doutent-ils ou posent-ils de mauvaises questions ?<br>\n    « Mets ta confiance dans le Seigneur », dit l’Écriture.<br>\n    Mais ne nous appuyons-nous pas plutôt sur notre propre intelligence ?</p>\n\n    <p>Je suis sûr que cela déroute Celui qui sait tout.<br>\n    Tous les miracles furent accomplis d’une parole !<br>\n    Aujourd’hui, il parcourt le monde du regard,<br>\n    À la recherche de quelqu’un qui lui fera confiance sans tarder.</p>\n\n    <p>Les choses de ce monde sont si brillantes et si rapides.<br>\n    Avons-nous même besoin de Dieu, peut-être est-il enfin démodé ?!<br>\n    Assez de sottises, nous connaissons tous la vérité.<br>\n    Nous avons vu Dieu à l’œuvre, oui, depuis notre jeunesse.</p>\n\n    <p>Rien ne peut remplacer notre Dieu tout-puissant ;<br>\n    Dire le contraire semblerait certainement étrange.<br>\n    Il attend que l’Église lui fasse de nouveau confiance.<br>\n    Il se tient là et frappe ; ouvriras-tu la porte ?</p>\n\n    <p>Pas seulement dans un moment difficile, ou quand la vie devient trop dure,<br>\n    Mais à chaque instant, écarte tes peurs.<br>\n    De nouveau, en notre temps, il cherche un peuple<br>\n    Qui ait <strong><em>confiance</em></strong> en Dieu et manifeste sa puissance.</p>\n\n    <p class=\"byline\"><em>de Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Confiance"
+  }
+}

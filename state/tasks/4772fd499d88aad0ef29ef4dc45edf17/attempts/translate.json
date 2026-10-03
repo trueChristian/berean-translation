@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"ידיים מעצבות כלי חרס על אובניים\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"המשך התצלום של ידיים מעצבות כלי חרס\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>האל הקדר מעצב אותי.<br>\\n    איזה כלי אהיה:<br>\\n    כלי לנשיאה, לאחסון או לשתייה?<br>\\n    מנורה, צלחת או כיור מטבח?</p>\\n\\n    <p>אני קצת שטחית, אני מודה,<br>\\n    כי אני מתמקדת בעצמי לא מעט.<br>\\n    אבל הנה מחשבה:<br>\\n    אני לא הכלי היחיד.</p>\\n\\n    <p>סביב חיי<br>\\n    יש רבים אחרים,<br>\\n    בעל, בת,<br>\\n    וכמה אחים.</p>\\n\\n    <p>יד הקדר מונחת גם עליהם,<br>\\n    ועושה מכל אחד מאיתנו משהו חדש.<br>\\n    כלי אחר נתקל בי,<br>\\n    ועכשיו יש בי גוש קטן.</p>\\n\\n    <p>אני מתנגשת בכלי אחר,<br>\\n    ונראה שעכשיו נוצר בו סדק.<br>\\n    אנחנו חוזרים אל אובני הקדר,<br>\\n    עד שדמותו נגלית שוב.</p>\\n\\n    <p>אם מעשיי ודבריי<br>\\n    משנים את מסלול החימר של אחרים,<br>\\n    עליי לנהוג בזהירות רבה,<br>\\n    פן ייעשו כליהם של אחרים קעורים.</p>\\n\\n    <p>כלים שימושיים הם רצון האל,<br>\\n    כאלה שיכולים לעמוד באש.<br>\\n    לא רק אני, ולא רק את;<br>\\n    האל עובד גם עם כלים אחרים.</p>\\n  </div>\\n\\n  <p><em>מאת אליזבת ראסט</em></p>\\n\\n  <p><em>השיר הזה נכתב בהשראת הקטע המקראי בירמיהו 18:1-6.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"כדים\"}",
+    "content_bytes": 2015,
+    "content_evidence_truncated": false,
+    "content_sha256": "02e6bf553fcac5e02c9d297b2352c6eb29f79e230ec33551dccee66e0699c851",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1021,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 387,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1502,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1499,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2523
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

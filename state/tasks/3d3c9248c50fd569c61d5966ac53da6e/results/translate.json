@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1ef8c499-512f-4afa-bab7-519620501e24",
+    "response_id": "chatcmpl-EUpMiA5NkWoIksm40KSa23ggsQvK1",
+    "usage": {
+      "completion_tokens": 755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 86,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1508,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1505,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2263
+    }
+  },
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\">\n  <figure>\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\" alt=\"Hender former en leirkrukke på en dreieskive\">\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\" alt=\"Fortsettelse av fotografiet av hender som former en leirkrukke\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Gud, pottemakeren, former meg.<br>\n    Hva slags kar skal jeg bli:<br>\n    Til å bære, oppbevare eller drikke av?<br>\n    En lampe, en tallerken eller en kjøkkenvask?</p>\n\n    <p>Jeg er litt overfladisk, det må jeg innrømme,<br>\n    for jeg tenker ganske mye på meg selv.<br>\n    Men her er en tanke:<br>\n    Jeg er ikke den eneste krukken.</p>\n\n    <p>Rundt livet mitt<br>\n    finnes mange andre,<br>\n    en ektemann, en datter<br>\n    og noen brødre.</p>\n\n    <p>Pottemakerens hånd hviler også på dem,<br>\n    og former noe nytt i hver og en av oss.<br>\n    En annen krukke støter borti meg,<br>\n    og nå har jeg fått en liten bulk.</p>\n\n    <p>Jeg dundrer inn i en annen krukke,<br>\n    og det ser ut til at den nå har fått en sprekk.<br>\n    Tilbake til pottemakerens dreieskive går vi,<br>\n    til hans bilde igjen blir synlig.</p>\n\n    <p>Hvis det jeg gjør og det jeg sier,<br>\n    endrer hvordan andres leire formes,<br>\n    må jeg oppføre meg med stor varsomhet,<br>\n    så ikke andres krukker blir innsunkne.</p>\n\n    <p>Gud ønsker seg kar som er nyttige,<br>\n    kar som tåler ilden.<br>\n    Det gjelder ikke bare meg, og ikke bare deg;<br>\n    Gud arbeider også med andre kar.</p>\n  </div>\n\n  <p><em>av Elizabeth Rust</em></p>\n\n  <p><em>Dette diktet er inspirert av skriftstedet i Jeremia 18:1-6.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Krukker"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c9e84b12-c4fe-46a1-872b-0dcc72f06674",
+    "response_id": "chatcmpl-EUpQUQOCUl72n2LVNoYW2I59DMomV",
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1402,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1399,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2163
+    }
+  },
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"《我爱你的国度，主》乐谱\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>主啊，我爱你的国度，<br>\n    你居住的殿宇；<br>\n    我们蒙福的救赎主以自己的宝血<br>\n    救赎的教会。<br>\n    上帝啊，我爱你的教会！<br>\n    她的城墙立在你面前，<br>\n    如同你眼中的瞳人那般宝贵，<br>\n    并且铭刻在你的手上。</li>\n    <li>我为她流下眼泪，<br>\n    我为她献上祷告；<br>\n    我将忧虑与劳苦献给她，<br>\n    直到劳苦与忧虑止息。<br>\n    我珍视她属天的道路，<br>\n    胜过我最大的喜乐；<br>\n    她甜美的团契、庄严的誓约，<br>\n    她爱的颂歌与赞美。</li>\n    <li>耶稣，你是神圣的朋友，<br>\n    是我们的救主和君王！<br>\n    你的手必带来极大的拯救，<br>\n    救我们脱离一切网罗和仇敌。<br>\n    你的真理必永存，<br>\n    锡安必得着<br>\n    世上所能赐予的最辉煌荣耀，<br>\n    以及天上更大的福乐。</li>\n  </ol>\n\n  <p>词：提摩太·德怀特<br>\n  曲：A. B. 埃弗里特</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "主啊，我爱你的国度"
+  }
+}

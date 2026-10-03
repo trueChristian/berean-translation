@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0f248760-ae98-49ab-84c1-9ea05f99087f",
+    "response_id": "chatcmpl-EUpP11iytIPyCEyye2AvFYouSGigF",
+    "usage": {
+      "completion_tokens": 690,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1435,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1432,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2125
+    }
+  },
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\">\n  <figure>\n    <img src=\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\" alt=\"مشهد غابة ضبابية\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>إذا كان الله عظيمًا إلى هذا الحد، فلماذا يخاف المرء؟<br>\n    فهو يسيطر على البحر، وعلى العواصف التي تهبّ.<br>\n    ويعرف الغد قبل أن يأتي.<br>\n    ويعرف عدد شعرات رؤوسنا.</p>\n\n    <p>لماذا يشكّ المرء في إله كهذا؟<br>\n    ولماذا يشكّ بعضهم أو يطرحون أسئلة في غير محلها؟<br>\n    «اتّكل على الرب»، كما يقول الكتاب المقدس.<br>\n    لكننا نعتمد بدلًا من ذلك على فهمنا الخاص؟</p>\n\n    <p>لا بد أن الأمر محيّرٌ للعليم بكل شيء.<br>\n    بكلمة واحدة، صُنعت كل المعجزات!<br>\n    وهو يتطلّع في أرجاء هذا العالم اليوم،<br>\n    باحثًا عمّن يثق به دون إبطاء.</p>\n\n    <p>إن أمور هذا العالم براقة وسريعة للغاية.<br>\n    أحقًّا نحتاج إلى الله؟ لعلّه صار قديم الطراز في نهاية المطاف؟!<br>\n    كفى حماقة، فنحن جميعًا نعرف الحق.<br>\n    لقد رأينا الله يعمل، أجل، منذ نعومة أظفارنا.</p>\n\n    <p>لا شيء يمكن أن يحلّ محل إلهنا القدير؛<br>\n    وأي قول بغير ذلك سيبدو غريبًا بالتأكيد.<br>\n    إنه ينتظر الكنيسة لتثق به من جديد.<br>\n    يقف ويقرع؛ فهل تفتح الباب؟</p>\n\n    <p>ليس في أوقات الضيق فحسب، أو حين تقسو الحياة،<br>\n    بل في كل لحظة، لا تدع مخاوفك تسيطر عليك.<br>\n    إنه يبحث من جديد في أيامنا هذه عن شعب،<br>\n    لديه <strong><em>ثقة</em></strong> بالله، ليُظهر قدرته.</p>\n\n    <p class=\"byline\"><em>بقلم باري غرانت</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "الثقة"
+  }
+}

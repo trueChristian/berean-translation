@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"يدان تشكّلان جرّة من الطين على دولاب الفخّار\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"تكملة صورة اليدين وهما تشكّلان جرّة من الطين\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>الله، الفخّاري، يشكّلني.<br>\\n    فأيّ إناء سأكون؟<br>\\n    أحمل، أم أخزّن، أم أُستخدم للشرب؟<br>\\n    مصباحًا، أم طبقًا، أم حوضًا للمطبخ؟</p>\\n\\n    <p>أعترف أنني ضيّقة الأفق قليلًا،<br>\\n    إذ أركّز على نفسي كثيرًا.<br>\\n    لكن ثمة فكرة هنا:<br>\\n    لستُ الإناء الوحيد.</p>\\n\\n    <p>حول حياتي<br>\\n    أناس كثيرون،<br>\\n    زوج، وابنة،<br>\\n    وبعض الإخوة.</p>\\n\\n    <p>ويد الفخّاري عليهم أيضًا،<br>\\n    تصنع من كلٍّ منا شيئًا جديدًا.<br>\\n    يصطدم بي إناء آخر،<br>\\n    فتظهر فيّ الآن نتوءة صغيرة.</p>\\n\\n    <p>أصطدم بإناء آخر،<br>\\n    فيبدو أن فيه الآن شقًّا.<br>\\n    نعود إلى دولاب الفخّاري،<br>\\n    حتى تعود صورته وتظهر.</p>\\n\\n    <p>إن كان ما أفعله وما أقوله<br>\\n    يغيّر مسار طين الآخرين،<br>\\n    فعليّ أن أتصرف بحرص شديد،<br>\\n    لئلا تنبعج أواني الآخرين إلى الداخل.</p>\\n\\n    <p>يريد الله أواني نافعة،<br>\\n    أواني تصمد أمام النار.<br>\\n    فالأمر لا يخصّني وحدي، ولا يخصّك وحدك؛<br>\\n    الله يعمل أيضًا في أوانٍ أخرى.</p>\\n  </div>\\n\\n  <p><em>بقلم إليزابيث راست</em></p>\\n\\n  <p><em>استُلهمت هذه القصيدة من مقطع الكتاب المقدس في إرميا 18:1-6.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"الأواني\"}",
+    "content_bytes": 2233,
+    "content_evidence_truncated": false,
+    "content_sha256": "e5750bda5463efd98e0f21724ec66040560a047c8846d205cde110cb46477699",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1501,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1498,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2319
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"Hande vorm ’n kleipot op ’n pottebakkerswiel\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"Voortsetting van die foto van hande wat ’n kleipot vorm\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>God die Pottebakker vorm my.<br>\\n    Watter soort pot sal ek wees:<br>\\n    Om te dra, te bêre, of om uit te drink?<br>\\n    ’n Lamp, ’n bord, of ’n kombuiswasbak?</p>\\n\\n    <p>Ek is ’n bietjie oppervlakkig, ek erken,<br>\\n    Want ek fokus nogal baie op myself.<br>\\n    Maar hier is ’n gedagte,<br>\\n    Ek is nie die enigste pot nie.</p>\\n\\n    <p>Om my lewe<br>\\n    is daar baie ander,<br>\\n    ’n man, ’n dogter,<br>\\n    en ’n paar broers.</p>\\n\\n    <p>Die Pottebakker se hand is ook op hulle,<br>\\n    En maak elkeen van ons iets nuuts.<br>\\n    ’n Ander pot stamp teen my,<br>\\n    En nou het ek ’n klein bultjie.</p>\\n\\n    <p>Ek stamp teen ’n ander pot,<br>\\n    Dit lyk of hulle nou ’n kraak het.<br>\\n    Terug na die Pottebakker se wiel gaan ons,<br>\\n    Totdat sy gelykenis weer verskyn.</p>\\n\\n    <p>As wat ek doen en wat ek sê,<br>\\n    Die koers van ander se klei verander,<br>\\n    Dan moet ek my baie versigtig gedra,<br>\\n    Sodat ander se potte nie hol word nie.</p>\\n\\n    <p>God begeer nuttige potte,<br>\\n    Wat die vuur kan weerstaan.<br>\\n    Dit gaan nie net oor my of net oor jou nie;<br>\\n    God werk ook met ander vate.</p>\\n  </div>\\n\\n  <p><em>deur Elizabeth Rust</em></p>\\n\\n  <p><em>Hierdie gedig is geïnspireer deur die Skrifgedeelte in Jeremia 18:1-6.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Potte\"}",
+    "content_bytes": 1811,
+    "content_evidence_truncated": false,
+    "content_sha256": "1d889f0e537a48eed1783f8171df97a12cdce4a375569cbc1afa90d3f753e7a2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 767,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1499,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1496,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2266
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

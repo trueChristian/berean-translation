@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "35420233-f0a2-4cc8-aad6-2e81cfd57f1a",
+    "response_id": "chatcmpl-EUpLupFQprsDnOBj0p3D0RdUKze2X",
+    "usage": {
+      "completion_tokens": 594,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1436,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1433,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2030
+    }
+  },
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\">\n  <figure>\n    <img src=\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\" alt=\"נוף של יער אפוף ערפל\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>עם אל גדול כל כך, למה לפחד?<br>\n    הוא שולט בים ובסערות המשתוללות.<br>\n    הוא יודע את המחר עוד בטרם יבוא.<br>\n    הוא יודע את מספר שערות ראשנו.</p>\n\n    <p>למה להטיל ספק באל כזה?<br>\n    למה יש המטילים ספק או שואלים שלא כראוי?<br>\n    „בטח באדון”, כך נאמר בכתובים.<br>\n    ובכל זאת, אנו נשענים דווקא על הבנתנו?</p>\n\n    <p>אני בטוח שהדבר מבלבל את יודע־הכול.<br>\n    את כל הניסים חוללו במילה אחת!<br>\n    הוא מביט אנה ואנה בעולם הזה כיום,<br>\n    ומחפש מי שיבטח בו בלי להתמהמה.</p>\n\n    <p>דברי העולם הזה נוצצים כל כך ומהירים.<br>\n    האם אנו בכלל זקוקים לאלוהים, אולי הוא כבר מיושן?!<br>\n    די בשטות הזאת, כולנו יודעים את האמת.<br>\n    ראינו את אלוהים פועל, כן, עוד מילדותנו.</p>\n\n    <p>שום דבר אינו יכול להחליף את אלוהינו הכול־יכול;<br>\n    לומר אחרת יישמע בוודאי מוזר.<br>\n    הוא ממתין שהכנסייה תבטח בו שוב.<br>\n    הוא עומד ודופק; האם תפתחו את הדלת?</p>\n\n    <p>לא רק בעת צרה, או כשהחיים קשים מדי,<br>\n    אלא בכל רגע, הניחו לפחדיכם.<br>\n    גם בימינו הוא מחפש שוב עם,<br>\n    שיפגין את כוחו מתוך <strong><em>ביטחון</em></strong> באלוהים.</p>\n\n    <p class=\"byline\"><em>מאת בארי גרנט</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "ביטחון"
+  }
+}

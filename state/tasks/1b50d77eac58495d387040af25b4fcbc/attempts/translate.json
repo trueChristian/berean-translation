@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"11b11932-7978-4944-8e7e-16e48c9aef1a\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\\\" alt=\\\"תווים לשיר ״אוהב אני את מלכותך, אדוני״\\\">\\n  </figure>\\n\\n  <ol class=\\\"lyrics\\\">\\n    <li>אוהב אני את מלכותך, אדוני,<br>\\n    את בית משכנך;<br>\\n    את הכנסייה שגאל גואלנו המבורך<br>\\n    בדמו היקר שלו.<br>\\n    אוהב אני את כנסייתך, אלוהים!<br>\\n    חומותיה ניצבות לפניך,<br>\\n    יקרה כבת עינך,<br>\\n    וחקוקה על ידך.</li>\\n    <li>למענה יזלו דמעותיי,<br>\\n    למענה יעלו תפילותיי;<br>\\n    לה יוקדשו דאגותיי ועמלי,<br>\\n    עד שיחדלו העמל והדאגה.<br>\\n    יותר מכל שמחה גדולה<br>\\n    אוקיר את דרכיה השמימיות,<br>\\n    את אחוותה הנעימה, את נדריה הקדושים,<br>\\n    את מזמורי האהבה והשבח שלה.</li>\\n    <li>ישוע, ידיד אלוהי,<br>\\n    מושיענו ומלכנו!<br>\\n    ידך תביא הצלה גדולה<br>\\n    מכל מלכודת ואויב.<br>\\n    כשם שאמיתך תעמוד לעד,<br>\\n    כך יינתנו לציון<br>\\n    תפארות האדמה הנעלות ביותר,<br>\\n    ואושר שמימי נשגב עוד יותר.</li>\\n  </ol>\\n\\n  <p>מילים מאת טימותי דווייט<br>\\n  לחן מאת א. ב. אוורט</p>\\n\\n  <p><em>PDHymns.com</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"אוהב אני את מלכותך, אדוני\"}",
+    "content_bytes": 1697,
+    "content_evidence_truncated": false,
+    "content_sha256": "e89674948e9c612daec978edc93b7f892e04c0d9fe686d7c4d572b2012d5a961",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 798,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 252,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1393,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2194
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

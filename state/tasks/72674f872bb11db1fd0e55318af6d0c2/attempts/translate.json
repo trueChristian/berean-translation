@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\\\" alt=\\\"薄雾笼罩的森林景色\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>有这样一位伟大的上帝，人怎会惧怕？<br>\\n    他掌管海洋，也掌管骤起的风暴。<br>\\n    明日尚未来到，他已知晓一切。<br>\\n    我们头上的发丝有多少，他也数得清。</p>\\n\\n    <p>人怎会质疑这样的上帝？<br>\\n    为什么有些人怀疑，或提出不当的问题？<br>\\n    圣经说：“你要信靠耶和华。”<br>\\n    可我们反倒倚靠自己的聪明？</p>\\n\\n    <p>我想，全知的上帝一定也会感到困惑。<br>\\n    只需一句话，所有神迹便都成就了！<br>\\n    如今他在这世上四处察看，<br>\\n    寻找一个毫不迟疑、愿意信靠他的人。</p>\\n\\n    <p>这世界的一切如此耀眼，变化如此迅速。<br>\\n    我们真的还需要上帝吗？也许他终究已经过时了？！<br>\\n    别再愚妄了，我们都知道真理。<br>\\n    从我们年幼时起，我们就看见上帝在作工，是的。</p>\\n\\n    <p>没有什么能取代我们全能的上帝；<br>\\n    若说别的，听起来肯定荒唐。<br>\\n    他正等着教会再次信靠他。<br>\\n    他站在门外叩门；你愿意开门吗？</p>\\n\\n    <p>不只是在危急关头，或生活艰难时，<br>\\n    而是每时每刻，都要放下你的恐惧。<br>\\n    在我们这个时代，他再次寻找一群人，<br>\\n    对上帝满有<strong><em>信心</em></strong>，彰显他的大能。</p>\\n\\n    <p class=\\\"byline\\\"><em>作者：Barry Grant</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"信心\"}",
+    "content_bytes": 1801,
+    "content_evidence_truncated": false,
+    "content_sha256": "eed436d3922ea51e93849f0e0c4b84021c8cab84a29f4cb4cf69e5dfabddbfcb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 147,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1442,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1439,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2227
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

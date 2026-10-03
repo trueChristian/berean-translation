@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3d196d7c-6445-4b2a-9ac5-29d01a9a1766",
+    "response_id": "chatcmpl-EUpkrYNsGluX0WcVXVVssidIFaS0A",
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 140,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1495,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2305
+    }
+  },
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\">\n  <figure>\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\" alt=\"Tangan membentuk pot tanah liat di atas roda pembuat tembikar\">\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\" alt=\"Lanjutan foto tangan yang sedang membentuk pot tanah liat\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Allah Sang Penjunan sedang membentukku.<br>\n    Akan menjadi bejana seperti apakah aku:<br>\n    Untuk membawa, menyimpan, atau menampung minuman?<br>\n    Lampu, piring, atau bak cuci dapur?</p>\n\n    <p>Harus kuakui, aku agak dangkal,<br>\n    Sebab aku cukup sering berfokus pada diriku sendiri.<br>\n    Namun, ada satu hal yang perlu kupikirkan,<br>\n    Bukan hanya aku satu-satunya pot.</p>\n\n    <p>Di sekitar hidupku<br>\n    ada banyak orang lain,<br>\n    Seorang suami, seorang putri,<br>\n    dan beberapa saudara laki-laki.</p>\n\n    <p>Tangan Sang Penjunan juga membentuk mereka,<br>\n    Menjadikan kita masing-masing sesuatu yang baru.<br>\n    Pot lain menyenggolku,<br>\n    Dan kini ada sedikit benjolan padaku.</p>\n\n    <p>Tanpa sengaja kutabrak pot lain,<br>\n    Tampaknya kini pot itu retak.<br>\n    Kita kembali ke roda pembuat tembikar,<br>\n    Hingga rupa-Nya tampak lagi.</p>\n\n    <p>Jika yang kulakukan dan kukatakan<br>\n    Mengubah arah tanah liat orang lain,<br>\n    Maka aku harus berperilaku dengan sangat hati-hati,<br>\n    Agar pot-pot orang lain tidak menjadi cekung.</p>\n\n    <p>Allah menghendaki pot-pot yang berguna,<br>\n    Yang sanggup bertahan dalam api.<br>\n    Bukan hanya aku, dan bukan hanya kamu;<br>\n    Allah juga sedang bekerja dengan bejana-bejana lain.</p>\n  </div>\n\n  <p><em>oleh Elizabeth Rust</em></p>\n\n  <p><em>Puisi ini terinspirasi oleh bagian Kitab Suci dalam Yeremia 18:1-6.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Pot-pot"
+  }
+}

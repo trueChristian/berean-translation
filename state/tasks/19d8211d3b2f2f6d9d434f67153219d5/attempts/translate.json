@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"11b11932-7978-4944-8e7e-16e48c9aef1a\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\\\" alt=\\\"Noter till Jag älskar ditt rike, Herre\\\">\\n  </figure>\\n\\n  <ol class=\\\"lyrics\\\">\\n    <li>Jag älskar ditt rike, Herre,<br>\\n    ditt bonings hus så kärt;<br>\\n    den kyrka som vår salige Frälsare räddat<br>\\n    med sitt eget dyrbara blod.<br>\\n    Jag älskar din kyrka, o Gud!<br>\\n    Hennes murar står inför dig,<br>\\n    kära som din ögonsten,<br>\\n    och inskrivna på din hand.</li>\\n    <li>För henne skall mina tårar falla,<br>\\n    för henne skall mina böner stiga upp;<br>\\n    åt henne ges mina bekymmer och mödor,<br>\\n    tills mödor och bekymmer tar slut.<br>\\n    Mer än min högsta glädje<br>\\n    värdesätter jag hennes himmelska vägar,<br>\\n    hennes ljuva gemenskap, högtidliga löften,<br>\\n    hennes kärleks- och lovsånger.</li>\\n    <li>Jesus, du gudomlige vän,<br>\\n    vår Frälsare och vår Kung!<br>\\n    Din hand skall föra stor räddning<br>\\n    från varje fälla och fiende.<br>\\n    Så visst som din sanning består,<br>\\n    skall Sion få<br>\\n    den klaraste härlighet jorden kan ge,<br>\\n    och himlens ännu större salighet.</li>\\n  </ol>\\n\\n  <p>Text av Timothy Dwight<br>\\n  Musik av A. B. Everett</p>\\n\\n  <p><em>PDHymns.com</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Jag älskar ditt rike, Herre\"}",
+    "content_bytes": 1471,
+    "content_evidence_truncated": false,
+    "content_sha256": "f89aa0b929c31d4ead80ac1ea89380a9dfbfebfd1d8fdea334b5efcaaebdef2e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 622,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1391,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1388,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2013
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

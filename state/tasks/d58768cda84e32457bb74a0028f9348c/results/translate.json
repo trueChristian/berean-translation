@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "acba648c-5c7f-4395-9563-d3bb8738a520",
+    "response_id": "chatcmpl-EUpRAa2yY6y2EBMnyAYMEDJTgrmRP",
+    "usage": {
+      "completion_tokens": 738,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 171,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1393,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1390,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2131
+    }
+  },
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"Noti za muziki za Ninaipenda, Ee Bwana, Ufalme Wako\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>Ninaipenda, Ee Bwana, ufalme wako,<br>\n    Makao yako ya kuishi;<br>\n    Kanisa ambalo Mwokozi wetu mbarikiwa aliliokoa<br>\n    Kwa damu yake ya thamani.<br>\n    Nalipenda kanisa lako, Ee Mungu!<br>\n    Kuta zake zasimama mbele zako,<br>\n    Zenye thamani kama mboni ya jicho lako,<br>\n    Na zimeandikwa mkononi mwako.</li>\n    <li>Kwa ajili yake machozi yangu yatamwagika,<br>\n    Kwa ajili yake sala zangu zitapanda juu;<br>\n    Kwake nitatoa mahangaiko na taabu zangu,<br>\n    Hadi taabu na mahangaiko yatakapokwisha.<br>\n    Zaidi ya furaha yangu kuu,<br>\n    Nazithamini njia zake za mbinguni,<br>\n    Ushirika wake mtamu, nadhiri zake takatifu,<br>\n    Nyimbo zake za upendo na sifa.</li>\n    <li>Yesu, Rafiki wa kiungu,<br>\n    Mwokozi wetu na Mfalme wetu!<br>\n    Mkono wako utatuletea ukombozi mkuu<br>\n    Kutokana na kila mtego na adui.<br>\n    Hakika kama ukweli wako utakavyodumu,<br>\n    Sayuni atapewa<br>\n    Utukufu mkuu zaidi ambao dunia yaweza kutoa,<br>\n    Na furaha ya mbinguni iliyo kuu zaidi.</li>\n  </ol>\n\n  <p>Maneno ya Timothy Dwight<br>\n  Muziki wa A. B. Everett</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Ninaipenda, Ee Bwana, Ufalme Wako"
+  }
+}

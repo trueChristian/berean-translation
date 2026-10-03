@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\\\" alt=\\\"Mandhari ya msitu yenye ukungu\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Mungu akiwa mkuu kiasi hiki, kwa nini mtu aogope?<br>\\n    Anatawala bahari na dhoruba zitokeazo.<br>\\n    Anajua kesho kabla haijafika.<br>\\n    Anajua idadi ya nywele za vichwa vyetu.</p>\\n\\n    <p>Kwa nini mtu amtilie shaka Mungu wa namna hii?<br>\\n    Kwa nini wengine wana shaka, au kuuliza maswali yasiyofaa?<br>\\n    “Mtumaini Bwana,” ndivyo Maandiko yasemavyo.<br>\\n    Lakini je, badala yake tunategemea uelewa wetu wenyewe?</p>\\n\\n    <p>Hakika inashangaza kwa Yeye ajuaye yote.<br>\\n    Miujiza yote ilitendeka kwa neno moja!<br>\\n    Leo anatazama huku na huko katika ulimwengu huu,<br>\\n    akitafuta mtu atakayemwamini bila kuchelewa.</p>\\n\\n    <p>Vitu vya ulimwengu huu vinavutia sana na vina kasi.<br>\\n    Je, kweli tunamhitaji Mungu, labda yeye ni wa kizamani sasa?!<br>\\n    Basi tuache upumbavu; sote tunaijua kweli.<br>\\n    Tumemwona Mungu akitenda kazi, naam, tangu ujana wetu.</p>\\n\\n    <p>Hakuna kinachoweza kuchukua nafasi ya Mungu wetu mwenye nguvu zote;<br>\\n    Kusema tofauti na hilo bila shaka kungeonekana kuwa jambo la ajabu.<br>\\n    Anangojea kanisa limtumaini tena.<br>\\n    Anasimama na kubisha; je, utafungua mlango?</p>\\n\\n    <p>Si wakati wa shida tu, au maisha yanapokuwa magumu mno,<br>\\n    Bali kila wakati, usizipe hofu zako nafasi.<br>\\n    Katika siku zetu, anatafuta tena watu<br>\\n    Wenye <strong><em>imani</em></strong> kwa Mungu, ili waidhihirishe nguvu zake.</p>\\n\\n    <p class=\\\"byline\\\"><em>na Barry Grant</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"imani\"}",
+    "content_bytes": 1803,
+    "content_evidence_truncated": false,
+    "content_sha256": "779cd1ae756a90125101afd85702f225923ab3c7ef1c1e7ba5da82c7a01f65dc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 135,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1433,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1430,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2201
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

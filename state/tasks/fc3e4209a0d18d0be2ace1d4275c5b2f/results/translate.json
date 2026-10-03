@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f25e3de9-8f65-467c-9ab6-49dd9c9822e4",
+    "response_id": "chatcmpl-EUpMWARqQ0MX5qjqYTXWp9YwezKO4",
+    "usage": {
+      "completion_tokens": 779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1397,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1394,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2176
+    }
+  },
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"Παρτιτούρα του ύμνου «Αγαπώ τη βασιλεία Σου, Κύριε»\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>Αγαπώ τη βασιλεία Σου, Κύριε,<br>\n    τον οίκο όπου κατοικείς·<br>\n    την Εκκλησία που ο μακάριος Λυτρωτής μας έσωσε<br>\n    με το πολύτιμο αίμα Του.<br>\n    Αγαπώ την Εκκλησία Σου, Θεέ μου!<br>\n    Τα τείχη της στέκουν μπροστά Σου,<br>\n    τόσο αγαπητά όσο η κόρη του ματιού Σου,<br>\n    και γραμμένα στο χέρι Σου.</li>\n    <li>Γι’ αυτήν θα κυλούν τα δάκρυά μου,<br>\n    γι’ αυτήν θα ανεβαίνουν οι προσευχές μου·<br>\n    σ’ αυτήν θα αφιερώνονται οι φροντίδες και οι κόποι μου,<br>\n    ώσπου να πάψουν οι κόποι και οι φροντίδες.<br>\n    Πάνω από τη μεγαλύτερή μου χαρά<br>\n    αγαπώ τους ουράνιους δρόμους της,<br>\n    την γλυκιά κοινωνία της, τους ιερούς όρκους της,<br>\n    τους ύμνους αγάπης και δοξολογίας της.</li>\n    <li>Ιησού, θεϊκέ Φίλε,<br>\n    Σωτήρα μας και Βασιλιά μας!<br>\n    Το χέρι Σου από κάθε παγίδα και εχθρό<br>\n    θα φέρει μεγάλη λύτρωση.<br>\n    Όσο βέβαιη είναι η αλήθεια Σου που θα διαρκεί,<br>\n    τόσο βέβαια θα δοθούν στη Σιών<br>\n    οι λαμπρότερες δόξες που μπορεί να προσφέρει η γη,<br>\n    και η λαμπρότερη μακαριότητα του ουρανού.</li>\n  </ol>\n\n  <p>Στίχοι: Timothy Dwight<br>\n  Μουσική: A. B. Everett</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Αγαπώ τη βασιλεία Σου, Κύριε"
+  }
+}

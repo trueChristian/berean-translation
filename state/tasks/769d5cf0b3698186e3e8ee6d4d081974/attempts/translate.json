@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\\\" alt=\\\"Туманный лесной пейзаж\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Если Бог так велик, чего же бояться?<br>\\n    Он морем владеет, и штормам случаться.<br>\\n    Он знает грядущее прежде, чем оно настанет.<br>\\n    И число волос на главе нашей знает.</p>\\n\\n    <p>Зачем же такого Бога испытывать?<br>\\n    Зачем сомневаться, вопросы напрасно задавать?<br>\\n    «Уповай на Господа», — сказано в Писании.<br>\\n    Но мы вместо этого на свой разум полагаемся?</p>\\n\\n    <p>Должно быть, Всеведущему это непонятно.<br>\\n    Одним словом Он совершал чудеса — и так многократно!<br>\\n    Он ныне взирает на мир, ищет повсюду,<br>\\n    Кто без промедления верить Ему будет.</p>\\n\\n    <p>Мирские дела так прекрасны и скоротечны.<br>\\n    Нужен ли нам Бог? Может, Он старомоден уже навечно?!<br>\\n    Хватит глупостей — истину знаем мы все.<br>\\n    Видели, как Бог действовал, с юных лет.</p>\\n\\n    <p>Ничто не заменит Всемогущего Бога;<br>\\n    Иначе сказать — прозвучало бы странно.<br>\\n    Он ждёт, когда церковь снова Ему доверится.<br>\\n    Он стоит и стучит; откроешь ли дверь?</p>\\n\\n    <p>Не только в беде, не только когда жизнь тяжела,<br>\\n    Но каждый миг, не давая страхам взять верх.<br>\\n    Он и ныне ищет народ, который вновь<br>\\n    С <strong><em>уверенностью</em></strong> в Бога явит Его силу.</p>\\n\\n    <p class=\\\"byline\\\"><em>Барри Грант</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Уверенность\"}",
+    "content_bytes": 2450,
+    "content_evidence_truncated": false,
+    "content_sha256": "3e716b572f58e2ec5d37d7a27ac6ab51b91f90d7c7b569ac8462e1ed6bd4de12",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 839,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 242,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2269
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

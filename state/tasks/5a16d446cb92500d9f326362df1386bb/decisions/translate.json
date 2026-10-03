@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[18]/em[1]/u[1]; translation /article[1]/p[18]/em[1]",
+      "severity": "critical",
+      "source_quote": "…desires something, we pursue it with a deep longing. In fact, there are examples in the Bible where God gave people desires to serve Him. <em>And I arose in the night, I and some few men with me; neither told I any man <u>what my God had put in my heart to do</u> at Jerusalem: neither was there any beast with me, save the beast that I rode upon –Nehemiah 2:12.</em> Reading further… <em>And Moses called Bezaleel and Aholiab, and every wise hearted man, <u>in whose heart the LORD had put wisdom, even every one whose heart stirred him up to come unto the work to do it</u> –Exodus 36:2.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[62:64], translation signature[62:62], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>عندما نتأمل رغبات القلب، نرى أن لها تأثيرًا كبيرًا فيمن نكون ومن سنصير. فعندما يرغب قلبنا في شيء، نسعى إليه بتوق عميق. وفي الواقع، ترد في الكتاب المقدس أمثلة أعطى فيها الله أناسًا رغبات تخدمه. <em>«فقمت ليلًا أنا ورجال قليلون معي، ولم أخبر أحدًا بما جعله إلهي في قلبي لأعمله في أورشليم. ولم يكن معي دابة إلا الدابة التي كنت راكبًا عليها» –نحميا 2:12.</em> ونقرأ أيضًا… <em>«ودعا موسى بصلئيل وأهوليآب وكل رجل حكيم القلب، الذي جعل الرب في قلبه حكمة، كل من أنهضه قلبه أن يتقدم إلى العمل ليعمله» –الخروج 36:2.</em></p>"
+    },
+    {
+      "location": "Source /article[1]/p[18]/em[2]/u[1]; translation /article[1]/p[18]/em[2]",
+      "severity": "critical",
+      "source_quote": "…desires something, we pursue it with a deep longing. In fact, there are examples in the Bible where God gave people desires to serve Him. <em>And I arose in the night, I and some few men with me; neither told I any man <u>what my God had put in my heart to do</u> at Jerusalem: neither was there any beast with me, save the beast that I rode upon –Nehemiah 2:12.</em> Reading further… <em>And Moses called Bezaleel and Aholiab, and every wise hearted man, <u>in whose heart the LORD had put wisdom, even every one whose heart stirred him up to come unto the work to do it</u> –Exodus 36:2.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[66:68], translation signature[64:64], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>عندما نتأمل رغبات القلب، نرى أن لها تأثيرًا كبيرًا فيمن نكون ومن سنصير. فعندما يرغب قلبنا في شيء، نسعى إليه بتوق عميق. وفي الواقع، ترد في الكتاب المقدس أمثلة أعطى فيها الله أناسًا رغبات تخدمه. <em>«فقمت ليلًا أنا ورجال قليلون معي، ولم أخبر أحدًا بما جعله إلهي في قلبي لأعمله في أورشليم. ولم يكن معي دابة إلا الدابة التي كنت راكبًا عليها» –نحميا 2:12.</em> ونقرأ أيضًا… <em>«ودعا موسى بصلئيل وأهوليآب وكل رجل حكيم القلب، الذي جعل الرب في قلبه حكمة، كل من أنهضه قلبه أن يتقدم إلى العمل ليعمله» –الخروج 36:2.</em></p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[62]: source /article[1]/p[18]/em[1]/u[1] ('start', 'u', ()); translation /article[1]/p[18]/em[1] ('end', 'em')",
+  "stage": "translate"
+}

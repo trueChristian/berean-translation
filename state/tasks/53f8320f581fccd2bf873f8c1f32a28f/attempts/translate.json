@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"Händer formar en lerkruka på en drejskiva\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"Fortsättning på fotografiet av händer som formar en lerkruka\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Gud, Krukmakaren, formar mig.<br>\\n    Vad för slags kärl ska jag bli:<br>\\n    Ett att bära i, förvara i eller dricka ur?<br>\\n    En lampa, en tallrik eller en diskho, månntro?</p>\\n\\n    <p>Lite ytlig är jag, det medger jag,<br>\\n    för jag tänker rätt mycket på mig själv var dag.<br>\\n    Men här är en tanke,<br>\\n    jag är inte den enda krukan.</p>\\n\\n    <p>Runt mitt liv<br>\\n    finns många andra,<br>\\n    en make, en dotter<br>\\n    och några bröder.</p>\\n\\n    <p>Krukmakarens hand vilar också på dem,<br>\\n    gör var och en av oss till något nytt igen.<br>\\n    En annan kruka stöter till mig,<br>\\n    och nu har jag fått en liten bula på mig.</p>\\n\\n    <p>Jag stöter till en annan kruka,<br>\\n    och nu verkar den ha fått en spricka.<br>\\n    Tillbaka till Krukmakarens drejskiva vi går,<br>\\n    tills hans likhet åter framträder där.</p>\\n\\n    <p>Om det jag gör och det jag säger<br>\\n    påverkar andra krukors lera,<br>\\n    då måste jag uppföra mig mycket varsamt,<br>\\n    så att andras krukor inte blir intryckta.</p>\\n\\n    <p>Gud vill ha användbara krukor,<br>\\n    sådana som kan uthärda elden.<br>\\n    Det handlar inte bara om mig eller dig;<br>\\n    Gud arbetar också med andra kärl.</p>\\n  </div>\\n\\n  <p><em>av Elizabeth Rust</em></p>\\n\\n  <p><em>Den här dikten inspirerades av bibelstället i Jeremia 18:1-6.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Krukor\"}",
+    "content_bytes": 1879,
+    "content_evidence_truncated": false,
+    "content_sha256": "3d34c66df3204ad8e2c3589a57bff128152d97dbc2b1c66ac181e85324259b32",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 287,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1494,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2451
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

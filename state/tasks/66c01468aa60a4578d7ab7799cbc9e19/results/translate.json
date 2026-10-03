@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5f10205b-14af-4f39-9eea-77feacf55378",
+    "response_id": "chatcmpl-EUpivr6nsbaSVY9CHwhaaoXJEalbk",
+    "usage": {
+      "completion_tokens": 714,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 117,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1429
+      },
+      "total_tokens": 2146
+    }
+  },
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\">\n  <figure>\n    <img src=\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\" alt=\"Pemandangan hutan berkabut\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Dengan Allah yang begitu besar, mengapa harus takut?<br>\n    Dia menguasai laut, badai yang datang menyambut.<br>\n    Dia tahu hari esok, sebelum hari itu tiba.<br>\n    Jumlah rambut di kepala kita pun Dia tahu semuanya.</p>\n\n    <p>Mengapa mempertanyakan Allah seperti ini?<br>\n    Mengapa ada yang ragu, atau bertanya keliru?<br>\n    “Percayalah kepada Tuhan,” demikian firman Kitab Suci.<br>\n    Namun kita malah bersandar pada pengertian sendiri?</p>\n\n    <p>Aku yakin, bagi Dia yang Mahatahu, ini membingungkan.<br>\n    Semua mukjizat terjadi hanya dengan satu firman!<br>\n    Dia menatap ke sana kemari di dunia ini hari ini,<br>\n    Mencari orang yang mau percaya tanpa menunda.</p>\n\n    <p>Hal-hal dunia ini begitu gemerlap dan serba cepat.<br>\n    Apa kita bahkan masih perlu Allah, mungkin Dia sudah ketinggalan zaman?!<br>\n    Cukup dengan kebodohan ini, kita semua tahu kebenarannya.<br>\n    Kita telah melihat Allah bekerja, ya, sejak masa muda kita.</p>\n\n    <p>Tak ada yang dapat menggantikan Allah kita yang Mahakuasa;<br>\n    Mengatakan sebaliknya tentu terdengar aneh.<br>\n    Dia menanti gereja kembali percaya kepada-Nya.<br>\n    Dia berdiri dan mengetuk; maukah engkau membuka pintu?</p>\n\n    <p>Bukan hanya saat terdesak, atau ketika hidup terasa terlalu berat,<br>\n    Melainkan setiap saat, singkirkanlah ketakutanmu.<br>\n    Pada zaman kita ini, Dia kembali mencari suatu umat,<br>\n    Yang memiliki <strong><em>keyakinan</em></strong> kepada Allah, untuk menyatakan kuasa-Nya.</p>\n\n    <p class=\"byline\"><em>oleh Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "keyakinan"
+  }
+}

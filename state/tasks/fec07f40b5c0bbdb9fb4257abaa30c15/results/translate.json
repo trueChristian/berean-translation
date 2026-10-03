@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "23be31ea-8c95-475a-a935-9e11ca20bab2",
+    "response_id": "chatcmpl-EUpTDh33In828sh5FaEYNkyOpy8IA",
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 169,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1389,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2084
+    }
+  },
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"Partition de J’aime ton royaume, Seigneur\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>J’aime ton royaume, Seigneur,<br>\n    La maison où tu demeures ;<br>\n    L’Église que notre bienheureux Rédempteur a sauvée<br>\n    De son propre sang précieux.<br>\n    J’aime ton Église, ô Dieu !<br>\n    Ses murailles se tiennent devant toi,<br>\n    Chères comme la prunelle de tes yeux,<br>\n    Et inscrites sur ta main.</li>\n    <li>Pour elle, mes larmes couleront,<br>\n    Pour elle, mes prières monteront ;<br>\n    À elle, je consacrerai mes soucis et mes peines,<br>\n    Jusqu’à ce que peines et soucis prennent fin.<br>\n    Plus que ma plus grande joie,<br>\n    Je chéris ses voies célestes,<br>\n    Sa douce communion, ses vœux solennels,<br>\n    Ses hymnes d’amour et de louange.</li>\n    <li>Jésus, ami divin,<br>\n    Notre Sauveur et notre Roi !<br>\n    Ta main nous apportera une grande délivrance<br>\n    De tout piège et de tout ennemi.<br>\n    Aussi sûrement que ta vérité subsistera,<br>\n    Sion recevra<br>\n    Les plus éclatantes gloires que la terre puisse offrir,<br>\n    Et une félicité céleste plus grande encore.</li>\n  </ol>\n\n  <p>Paroles de Timothy Dwight<br>\n  Musique de A. B. Everett</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "J’aime ton royaume, Seigneur"
+  }
+}

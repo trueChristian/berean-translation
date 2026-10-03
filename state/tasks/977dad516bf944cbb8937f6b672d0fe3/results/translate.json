@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ae678312-e582-44bf-81a1-ce63f6a208ba",
+    "response_id": "chatcmpl-EUpHwn4qK9DTOcWhd5ZpatW9DNGPF",
+    "usage": {
+      "completion_tokens": 1057,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1788,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1785,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2845
+    }
+  },
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8a3dfa09-f40f-4615-8f83-59a8fccb1a2f\">\n  <figure>\n    <img src=\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-1.jpg\" alt=\"Et sykehusrom sett fra en pasientseng\">\n  </figure>\n\n  <p>En søndag morgen våknet ei lita jente, som vi skal kalle Jennika, av at solen skinte inn på soverommet hennes. Hun tok på seg søndagskjolen sin, akkurat som hun gjorde hver søndag morgen. Men denne søndagsmorgenen var ganske annerledes. Mens hun satt ved frokostbordet og ventet på at mamma skulle fylle tallerkenen hennes, begynte det plutselig å gjøre veldig vondt i brystet til mamma. Det gjorde så vondt at hun måtte legge seg på sofaen. Jennika ble redd. Hun visste ikke hva som kom til å skje. Omtrent ti minutter senere kjørte pappa mamma til sykehuset. Senere den ettermiddagen fikk Jennika og søsknene hennes høre at mamma hadde hatt et hjerteinfarkt.</p>\n\n  <p>Onsdag kveld den påfølgende uken spurte pappa: «Jennika, har du lyst til å bli med til sykehuset i morgen og besøke mamma?»</p>\n\n  <p>«Ja!» strålte hun.</p>\n\n  <p>Neste morgen, etter frokost, ble storesøsteren og lillebroren hennes med henne og pappa til sykehuset. Den dagen hadde hun det veldig gøy. Hun likte å se ut av vinduet i venterommet og følge med på helikoptrene som lettet og landet. En gang så hun til og med en ambulanse komme med lysene og sirenene på. Det var spennende! En gang holdt hun nesten på å gå seg vill i gangene, men en av sykepleierne til mamma fikk øye på henne og viste henne veien til det riktige rommet.</p>\n\n  <p>Den kvelden skulle hun overnatte hos mamma. Hun gledet seg sånn! Hun syntes det ville være morsomt å sove på stolen på rommet til mamma. Mamma skulle be sykepleierne om en pute og noen tepper. Omtrent femten minutter etter at pappa hadde dratt, kom en sykepleier inn og sa at hun likevel ikke kunne overnatte der! Pappa måtte komme tilbake og hente henne. Hun ble så skuffet! Hun gråt nesten hele veien hjem. Den kvelden leverte de den to uker gamle lillebroren hennes hos en av familiene i menigheten, slik at storesøstrene hennes skulle få en pause fra å ta seg av ham.</p>\n\n  <p>Dagen etter fikk hun en herlig overraskelse. Først kom søskenbarna hennes, som bodde omtrent tre timer unna, på besøk. Og så fikk hun vite at mamma skulle komme hjem den dagen! Hun hjalp søsknene sine med å pynte huset. Storesøsteren hennes laget to velkomstskilt til å henge opp inne i huset, og storebroren hennes laget et som skulle stå ute ved innkjørselen.</p>\n\n  <p>«Mamma er hjemme!» ropte lillebroren hennes da han så bilen kjøre opp utenfor huset. Jennika og søsknene hennes løp bort til ytterdøra. De fulgte mamma bort til favorittlenestolen hennes, som sto nær klimaanlegget som onkelen deres hadde installert samme morgen.</p>\n\n  <p>Den kvelden krøp Jennika inntil mamma. «Jeg er glad for at du er hjemme», hvisket hun. «Jeg liker at du er hjemme.» Fordi mamma hadde vært borte så lenge, lærte Jennika å sette enda større pris på henne.</p>\n\n  <p>Jennika er eldre nå og er fortsatt svært takknemlig for mammaen sin. Kanskje trengte ikke moren din å være på sykehuset i en hel uke, men du bør likevel være takknemlig for henne. Ikke glem å si det til henne!</p>\n\n  <figure>\n    <img src=\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-2.jpg\" alt=\"Et medisinsk helikopter utenfor et sykehus\">\n  </figure>\n</article>\n",
+    "section": "Barnas hjørne",
+    "subtitle": null,
+    "title": "Vær takknemlig"
+  }
+}

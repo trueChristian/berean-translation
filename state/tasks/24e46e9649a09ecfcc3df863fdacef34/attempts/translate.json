@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"11b11932-7978-4944-8e7e-16e48c9aef1a\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\\\" alt=\\\"Ноты гимна «Люблю Твоё Царство, Господи»\\\">\\n  </figure>\\n\\n  <ol class=\\\"lyrics\\\">\\n    <li>Люблю Твоё Царство, Господь,<br>\\n    Твой дом, где Ты обитаешь;<br>\\n    Церковь, спасённую нашим блаженным Искупителем<br>\\n    Его драгоценной Кровью.<br>\\n    Люблю Твою Церковь, о Боже!<br>\\n    Стены её пред Тобой стоят,<br>\\n    Дороги Тебе, как зеница ока,<br>\\n    И начертаны на руке Твоей.</li>\\n    <li>За неё польются мои слёзы,<br>\\n    За неё вознесутся мои молитвы;<br>\\n    Ей посвящу свои заботы и труды,<br>\\n    Пока не окончатся труды и заботы.<br>\\n    Превыше величайшей моей радости<br>\\n    Дорожу её небесными путями,<br>\\n    Её сладким общением, священными обетами,<br>\\n    Её гимнами любви и хвалы.</li>\\n    <li>Иисус, Божественный Друг,<br>\\n    Наш Спаситель и наш Царь!<br>\\n    Твоя рука от всяких сетей и врагов<br>\\n    Дарует великое избавление.<br>\\n    Как непреложна истина Твоя,<br>\\n    Так Сиону будут дарованы<br>\\n    Величайшие блага, какие может дать земля,<br>\\n    И ещё большая радость небес.</li>\\n  </ol>\\n\\n  <p>Слова: Timothy Dwight<br>\\n  Музыка: A. B. Everett</p>\\n\\n  <p><em>PDHymns.com</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Люблю Твоё Царство, Господи\"}",
+    "content_bytes": 2056,
+    "content_evidence_truncated": false,
+    "content_sha256": "c84fdca86c6dc1674e8af6d8faf90ef743334442a106e91aa0b5dbef36c11fe7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1390,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1387,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2074
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

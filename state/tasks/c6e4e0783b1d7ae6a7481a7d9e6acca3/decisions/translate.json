@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[6]; translation /article[1]/p[6]/em[1]",
+      "severity": "critical",
+      "source_quote": "…ally examines the struggle of the “peace” churches in colonial America. One of the key points the book focuses on is that the global events of that time period shook the very foundations of their faith and practice. This caused the collective conscience of the churches to face an unprecedented crisis level, which many individuals never overcame. Some gave up the faith, some quit going to church, some walked away from their church and started going to more worldly churches. And the ones that remained, struggled substantially through many issues until they once more were considered stable.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[19:19], translation signature[19:21], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…ہماری جانوں کا دشمن‘‘ نے اس عالمی واقعے کو ہر جگہ کلیسیاؤں کے لیے متعدد پہلوؤں سے مشکلات پیدا کرنے کے لیے استعمال کیا ہے۔ میری کتابوں کی الماری میں کلیسیا کی تاریخ کے بارے میں ایک کتاب ہے جس کا عنوان <em>ضمیر بحران میں</em> ہے۔ یہ کتاب بالخصوص نوآبادیاتی امریکہ کی ’’امن پسند‘‘ کلیسیاؤں کی جدوجہد کا جائزہ لیتی ہے۔ کتاب کے اہم نکات میں سے ایک یہ ہے کہ اُس دور کے عالمی واقعات نے اُن کے ایمان اور عمل کی بنیادوں کو ہلا کر رکھ دیا۔ اس کے نتیجے میں کلیسیاؤں کے اجتماعی ضمیر کو ایک بے مثال بحران کا سامنا کرنا پڑا، جس پر بہت سے افراد کبھی قابو نہ پا سکے۔ بعض نے ایمان چھوڑ دیا، بعض نے کلیسیا جانا چھوڑ …"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[19]: source /article[1]/p[6] ('end', 'p'); translation /article[1]/p[6]/em[1] ('start', 'em', ())",
+  "stage": "translate"
+}

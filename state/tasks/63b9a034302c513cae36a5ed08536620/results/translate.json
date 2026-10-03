@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e1f97877-cb92-4c10-adcd-45ba0ce5a86b",
+    "response_id": "chatcmpl-EUpFXpdkTvZneC1qE1ZQHJ93PySmM",
+    "usage": {
+      "completion_tokens": 697,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1395,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1392,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2092
+    }
+  },
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"‘हे प्रभु, मैं तेरे राज्य से प्रेम करता हूँ’ के स्वरलेख\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>हे प्रभु, मैं तेरे राज्य से प्रेम करता हूँ,<br>\n    तेरे निवास के भवन से;<br>\n    उस कलीसिया से, जिसे हमारे धन्य उद्धारकर्ता ने<br>\n    अपने अनमोल लहू से बचाया।<br>\n    हे परमेश्वर, मैं तेरी कलीसिया से प्रेम करता हूँ!<br>\n    उसकी दीवारें तेरे सम्मुख खड़ी हैं,<br>\n    तेरी आँख की पुतली के समान प्रिय,<br>\n    और तेरे हाथ पर लिखी हुई।</li>\n    <li>उसके लिए मेरे आँसू बहेंगे,<br>\n    उसके लिए मेरी प्रार्थनाएँ ऊपर उठेंगी;<br>\n    उसे मैं अपनी चिंताएँ और परिश्रम अर्पित करूँ,<br>\n    जब तक परिश्रम और चिंताएँ समाप्त न हों।<br>\n    अपने सर्वोच्च आनंद से भी बढ़कर<br>\n    मैं उसके स्वर्गिक मार्गों को मान देता हूँ,<br>\n    उसकी मधुर संगति, उसकी गंभीर प्रतिज्ञाओं,<br>\n    उसके प्रेम और स्तुति के भजनों को।</li>\n    <li>यीशु, हे दिव्य मित्र,<br>\n    हमारे उद्धारकर्ता और हमारे राजा!<br>\n    तेरा हाथ हर फंदे और शत्रु से<br>\n    महान छुटकारा दिलाएगा।<br>\n    जैसे तेरा सत्य सदा बना रहेगा,<br>\n    वैसे ही सिय्योन को दिया जाएगा<br>\n    वह परम वैभव जो पृथ्वी दे सकती है,<br>\n    और स्वर्ग का उससे भी उज्ज्वल आनंद।</li>\n  </ol>\n\n  <p>शब्द: टिमोथी ड्वाइट<br>\n  संगीत: ए. बी. एवरेट</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "हे प्रभु, मैं तेरे राज्य से प्रेम करता हूँ"
+  }
+}

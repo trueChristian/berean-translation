@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\\\" alt=\\\"Un paesaggio di foresta avvolto dalla nebbia\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Con un Dio così grande, perché aver paura?<br>\\n    Egli governa il mare e le tempeste che si scatenano.<br>\\n    Conosce il domani prima ancora che arrivi.<br>\\n    Sa contare i capelli del nostro capo.</p>\\n\\n    <p>Perché mettere in dubbio un Dio così?<br>\\n    Perché alcuni dubitano o fanno domande fuori luogo?<br>\\n    «Confida nel Signore», dice la Scrittura.<br>\\n    E invece ci affidiamo alla nostra intelligenza?</p>\\n\\n    <p>Sono certo che sia fonte di confusione per Colui che tutto sa.<br>\\n    Tutti i miracoli sono compiuti con una parola!<br>\\n    Oggi Egli scruta il mondo in lungo e in largo,<br>\\n    cercando qualcuno che si fidi senza esitare.</p>\\n\\n    <p>Le cose di questo mondo sono così splendenti e veloci.<br>\\n    Abbiamo davvero bisogno di Dio? Forse ormai è fuori moda?!<br>\\n    Basta con le sciocchezze: tutti conosciamo la verità.<br>\\n    Abbiamo visto Dio all’opera, sì, fin dalla nostra giovinezza.</p>\\n\\n    <p>Niente può sostituire il nostro Dio onnipotente;<br>\\n    dire il contrario suonerebbe certamente strano.<br>\\n    Egli aspetta che la chiesa torni a fidarsi di Lui.<br>\\n    Sta in piedi e bussa: aprirai la porta?</p>\\n\\n    <p>Non solo nei momenti difficili, o quando la vita è troppo dura,<br>\\n    ma in ogni momento, non lasciarti sopraffare dalle paure.<br>\\n    Ancora oggi Egli cerca un popolo<br>\\n    che, con <strong><em>fiducia</em></strong> in Dio, manifesti la Sua potenza.</p>\\n\\n    <p class=\\\"byline\\\"><em>di Barry Grant</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"fiducia\"}",
+    "content_bytes": 1856,
+    "content_evidence_truncated": false,
+    "content_sha256": "dd0ba94fdae424a5fdd293f83df92b5b6b1e311dd4ea5ea3eadc5eddd6a96123",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2138
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8a3dfa09-f40f-4615-8f83-59a8fccb1a2f\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-1.jpg\\\" alt=\\\"Una habitación de hospital vista desde la cama de un paciente\\\">\\n  </figure>\\n\\n  <p>Una mañana de domingo, una niña pequeña, a quien llamaremos Jennika, se despertó al ver el sol entrar por la ventana de su dormitorio. Se vistió con su vestido de domingo, como hacía todos los domingos por la mañana. Pero aquel domingo por la mañana fue muy diferente. Mientras estaba sentada a la mesa del desayuno esperando que su mamá le llenara el plato, a su mamá empezó a dolerle mucho el pecho de repente. Le dolía tanto que tuvo que ir a acostarse en el sofá. Jennika sintió miedo. No sabía qué iba a pasar. Unos diez minutos después, su papá llevó a su mamá al hospital. Más tarde, esa tarde, ella y sus hermanos se enteraron de que su mamá había sufrido un ataque al corazón.</p>\\n\\n  <p>El miércoles siguiente por la noche, su papá le preguntó: «Jennika, ¿te gustaría acompañarme mañana al hospital para visitar a mamá?»</p>\\n\\n  <p>«¡Sí!», respondió radiante.</p>\\n\\n  <p>A la mañana siguiente, después del desayuno, su hermana mayor y su hermanito bebé fueron con ella y su papá al hospital. Ese día se divirtió mucho. Le gustaba mirar por la ventana de la sala de espera y observar cómo despegaban y aterrizaban los helicópteros. Una vez incluso vio llegar una ambulancia con las luces encendidas y la sirena sonando. ¡Fue emocionante! Una vez estuvo a punto de perderse en los pasillos, pero una de las enfermeras de su mamá la vio y le indicó cuál era la habitación correcta.</p>\\n\\n  <p>Esa noche iba a pasar la noche con su mamá. ¡Estaba muy emocionada! Pensaba que sería divertido dormir en la silla de la habitación de su mamá. Su mamá iba a pedirles a las enfermeras una almohada y unas mantas. Unos quince minutos después de que su papá se fuera, entró una enfermera y dijo que, después de todo, no podía pasar la noche allí. ¡Su papá tenía que volver para recogerla! ¡Se sintió muy decepcionada! Lloró casi todo el camino de vuelta a casa. Esa noche dejaron a su hermanito de dos semanas con una de las familias de la iglesia, para que sus hermanas mayores descansaran de cuidarlo.</p>\\n\\n  <p>Al día siguiente tuvo una sorpresa maravillosa. Primero, fueron a visitarlos sus primos, que vivían a unas tres horas de distancia. ¡Y se enteró de que su mamá volvería a casa ese mismo día! Ayudó a sus hermanos a decorar la casa. Su hermana mayor hizo dos carteles de bienvenida para poner dentro de la casa, y su hermano mayor hizo uno para colocar junto a la entrada del camino de acceso.</p>\\n\\n  <p>«¡Mamá ya está en casa!», gritó su hermano menor cuando vio que el auto se detenía frente a la casa. Jennika y sus hermanos corrieron hacia la puerta principal. Acompañaron a su mamá hasta su sillón reclinable favorito, que estaba cerca del aire acondicionado que su tío acababa de instalar esa misma mañana.</p>\\n\\n  <p>Esa noche, Jennika se acurrucó junto a su mamá. «Me alegra que estés en casa», susurró. «Me gusta cuando estás en casa». Como su mamá había estado fuera tanto tiempo, Jennika aprendió a estar más agradecida por ella.</p>\\n\\n  <p>Ahora Jennika es mayor y sigue estando muy agradecida por su mamá. Tal vez tu mamá no haya tenido que pasar una semana en el hospital, pero aun así debes estar agradecido por ella. ¡No olvides decírselo!</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-2.jpg\\\" alt=\\\"Un helicóptero médico frente a un hospital\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Rincón infantil\",\"subtitle\":null,\"title\":\"Sé agradecido\"}",
+    "content_bytes": 3790,
+    "content_evidence_truncated": false,
+    "content_sha256": "d4fc595f7dd9b6381511ae5c40cbd9c9e56b514ec59f619ec937f6d05b48fbf5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1781,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1778,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2864
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

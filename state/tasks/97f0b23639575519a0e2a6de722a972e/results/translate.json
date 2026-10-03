@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7fbb9681-ad6d-44a3-91d6-5fa4f05af54b",
+    "response_id": "chatcmpl-EUpaBgTEU8Gzqti7x1k3PYcPeE9v6",
+    "usage": {
+      "completion_tokens": 805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 195,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1428,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2236
+    }
+  },
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\">\n  <figure>\n    <img src=\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\" alt=\"Ett dimmigt skogslandskap\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Med en så stor Gud, varför skulle man då vara rädd?<br>\n    Han styr över havet och stormarna som drar fram.<br>\n    Han känner morgondagen innan den har kommit.<br>\n    Han vet hur många hårstrån vi har på våra huvuden.</p>\n\n    <p>Varför skulle man ifrågasätta en sådan Gud?<br>\n    Varför tvivlar vissa eller ställer fel frågor?<br>\n    ”Förtrösta på Herren”, säger Skriften.<br>\n    Men i stället förlitar vi oss på vårt eget förstånd?</p>\n\n    <p>Jag är säker på att det är förbryllande för den allvetande.<br>\n    Alla under utfördes med ett enda ord!<br>\n    Han ser sig omkring i världen i dag,<br>\n    efter någon som vill förtrösta utan att tveka.</p>\n\n    <p>Det som hör världen till är så bländande och går så fort.<br>\n    Behöver vi ens Gud – kanske är han ändå gammaldags?!<br>\n    Nog med dårskapen, vi vet alla sanningen.<br>\n    Vi har sett Gud verka, ja, ända sedan vi var unga.</p>\n\n    <p>Inget kan ersätta vår allsmäktige Gud;<br>\n    Att säga något annat skulle sannerligen låta märkligt.<br>\n    Han väntar på att kyrkan åter ska förtrösta på honom.<br>\n    Han står och knackar; öppnar du dörren?</p>\n\n    <p>Inte bara när det krisar eller när livet är alltför svårt,<br>\n    utan varje stund – låt inte dina rädslor styra.<br>\n    Än en gång söker han i vår tid ett folk<br>\n    som med <strong><em>förtröstan</em></strong> på Gud visar hans kraft.</p>\n\n    <p class=\"byline\"><em>av Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "förtröstan"
+  }
+}

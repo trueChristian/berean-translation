@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8a3dfa09-f40f-4615-8f83-59a8fccb1a2f\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-1.jpg\\\" alt=\\\"Une chambre d’hôpital vue depuis le lit d’un patient\\\">\\n  </figure>\\n\\n  <p>Un dimanche matin, une petite fille, que nous appellerons Jennika, se réveilla avec le soleil qui brillait dans sa chambre. Elle enfila sa robe du dimanche, comme tous les autres dimanches matin. Mais ce dimanche matin-là était bien différent. Alors qu’elle était assise à la table du petit-déjeuner et attendait que sa mère remplisse son assiette, celle-ci se mit soudain à ressentir une très forte douleur à la poitrine. La douleur était si intense qu’elle dut aller s’allonger sur le canapé. Jennika eut peur. Elle ne savait pas ce qui allait se passer. Une dizaine de minutes plus tard, son père emmena sa mère à l’hôpital. Plus tard dans l’après-midi, elle et ses frères et sœurs apprirent que leur mère avait fait une crise cardiaque.</p>\\n\\n  <p>Le mercredi soir suivant, son père lui demanda : « Jennika, aimerais-tu venir avec moi à l’hôpital demain pour voir maman ? »</p>\\n\\n  <p>« Oui ! » répondit-elle avec enthousiasme.</p>\\n\\n  <p>Le lendemain matin, après le petit-déjeuner, sa grande sœur et son petit frère allèrent avec elle et son père à l’hôpital. Ce jour-là, elle s’amusa beaucoup. Elle aimait regarder par la fenêtre de la salle d’attente et voir les hélicoptères décoller et atterrir. Une fois, elle vit même une ambulance arriver, gyrophares allumés et sirène hurlante. C’était passionnant ! Une fois, elle faillit se perdre dans les couloirs, mais l’une des infirmières de sa mère la vit et lui indiqua la bonne chambre.</p>\\n\\n  <p>Cette nuit-là, elle devait passer la nuit avec sa mère. Elle était tellement excitée ! Elle pensait que dormir sur la chaise dans la chambre de sa mère serait amusant. Sa mère allait demander aux infirmières un oreiller et quelques couvertures. Environ quinze minutes après le départ de son père, une infirmière entra et lui annonça qu’elle ne pouvait finalement pas passer la nuit là ! Son père devait revenir la chercher. Elle était tellement déçue ! Elle pleura presque tout le trajet du retour. Ce soir-là, ils confièrent son petit frère de deux semaines à une famille de l’église, afin que ses grandes sœurs puissent souffler un peu après s’être occupées de lui.</p>\\n\\n  <p>Le lendemain, elle eut une merveilleuse surprise. D’abord, ses cousins, qui habitaient à environ trois heures de route, vinrent leur rendre visite. Et elle apprit que sa mère allait rentrer à la maison ce jour-là ! Elle aida ses frères et sœurs à décorer la maison. Sa grande sœur fabriqua deux pancartes de bienvenue à placer à l’intérieur, et son grand frère en fit une à installer près de l’allée.</p>\\n\\n  <p>« Maman est rentrée ! » cria son petit frère en voyant la voiture arriver devant la maison. Jennika et ses frères et sœurs se précipitèrent vers la porte d’entrée. Ils conduisirent leur mère jusqu’à son fauteuil inclinable préféré, près du climatiseur que leur oncle venait d’installer ce matin-là.</p>\\n\\n  <p>Ce soir-là, Jennika se blottit contre sa mère. « Je suis contente que tu sois rentrée, murmura-t-elle. J’aime quand tu es à la maison. » Comme sa mère était restée absente si longtemps, Jennika apprit à lui être encore plus reconnaissante.</p>\\n\\n  <p>Jennika est maintenant plus grande et elle est toujours très reconnaissante envers sa mère. Peut-être que ta maman n’a pas eu besoin de passer une semaine à l’hôpital, mais tu devrais quand même lui être reconnaissant. N’oublie pas de le lui dire !</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-2.jpg\\\" alt=\\\"Un hélicoptère médical devant un hôpital\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Le coin des enfants\",\"subtitle\":null,\"title\":\"Soyez reconnaissants\"}",
+    "content_bytes": 4047,
+    "content_evidence_truncated": false,
+    "content_sha256": "90edb3665b451bcd8639eb195b343b25a43cd416938c9d67a02a12a6042e34e6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 177,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1778,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1775,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2994
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d81e1f39-9893-461f-9c76-836007a705b5",
+    "response_id": "chatcmpl-EUpqBO1veANrBwR1XkHLikUBbyPI5",
+    "usage": {
+      "completion_tokens": 1082,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1776,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1773,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2858
+    }
+  },
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8a3dfa09-f40f-4615-8f83-59a8fccb1a2f\">\n  <figure>\n    <img src=\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-1.jpg\" alt=\"Ein Krankenzimmer aus der Perspektive eines Patientenbetts\">\n  </figure>\n\n  <p>An einem Sonntagmorgen wachte ein kleines Mädchen, das wir Jennika nennen wollen, auf und sah, wie die Sonne in ihr Schlafzimmer schien. Sie zog ihr Sonntagskleid an, wie an jedem anderen Sonntagmorgen auch. Doch dieser Sonntagmorgen war ganz anders. Während sie am Frühstückstisch saß und darauf wartete, dass ihre Mutter ihr den Teller füllte, bekam ihre Mutter plötzlich sehr starke Schmerzen in der Brust. Es tat so weh, dass sie sich auf das Sofa legen musste. Jennika bekam Angst. Sie wusste nicht, was passieren würde. Etwa zehn Minuten später brachte ihr Vater ihre Mutter ins Krankenhaus. Später an diesem Nachmittag erfuhren Jennika und ihre Geschwister, dass ihre Mutter einen Herzinfarkt erlitten hatte.</p>\n\n  <p>Am darauffolgenden Mittwochabend fragte ihr Vater: „Jennika, möchtest du morgen mit ins Krankenhaus kommen, um Mama zu besuchen?“</p>\n\n  <p>„Ja!“, strahlte sie.</p>\n\n  <p>Am nächsten Morgen gingen ihre ältere Schwester und ihr kleiner Bruder nach dem Frühstück mit ihr und ihrem Vater ins Krankenhaus. An diesem Tag hatte sie viel Spaß. Sie schaute gern aus dem Fenster des Warteraums und beobachtete, wie die Hubschrauber starteten und landeten. Einmal sah sie sogar einen Krankenwagen mit eingeschaltetem Blaulicht und Martinshorn ankommen. Das war aufregend! Einmal hätte sie sich beinahe in den Fluren verlaufen, aber eine der Krankenschwestern ihrer Mutter entdeckte sie und zeigte ihr das richtige Zimmer.</p>\n\n  <p>In dieser Nacht sollte sie bei ihrer Mutter übernachten. Sie freute sich riesig! Sie dachte, es würde Spaß machen, auf dem Stuhl im Zimmer ihrer Mutter zu schlafen. Ihre Mutter wollte die Krankenschwestern um ein Kissen und ein paar Decken bitten. Etwa fünfzehn Minuten nachdem ihr Vater gegangen war, kam eine Krankenschwester herein und sagte, dass Jennika doch nicht dort übernachten könne! Ihr Vater musste zurückkommen, um sie abzuholen. Sie war so enttäuscht! Fast den ganzen Heimweg weinte sie. An diesem Abend brachten sie ihren zwei Wochen alten Bruder zu einer Familie aus der Gemeinde, damit ihre älteren Schwestern eine Pause davon bekamen, sich um ihn zu kümmern.</p>\n\n  <p>Am nächsten Tag erlebte sie eine wunderbare Überraschung. Zuerst kamen ihre Cousins und Cousinen zu Besuch, die etwa drei Stunden entfernt wohnten. Und sie erfuhr, dass ihre Mutter noch an diesem Tag nach Hause kommen würde! Sie half ihren Geschwistern, das Haus zu schmücken. Ihre ältere Schwester bastelte zwei Willkommensschilder für drinnen, und ihr älterer Bruder machte eines für draußen an der Auffahrt.</p>\n\n  <p>„Mama ist zu Hause!“, rief ihr jüngerer Bruder, als er sah, wie das Auto vor dem Haus hielt. Jennika und ihre Geschwister eilten zur Haustür. Sie begleiteten ihre Mutter zu ihrem Lieblingssessel, der nahe an der Klimaanlage stand, die ihr Onkel erst an diesem Morgen eingebaut hatte.</p>\n\n  <p>An diesem Abend kuschelte sich Jennika an ihre Mutter. „Ich bin froh, dass du wieder zu Hause bist“, flüsterte sie. „Ich mag es, wenn du zu Hause bist.“ Weil ihre Mutter so lange fort gewesen war, lernte Jennika, noch dankbarer für sie zu sein.</p>\n\n  <p>Jennika ist jetzt älter und ist ihrer Mutter immer noch sehr dankbar. Vielleicht musste deine Mutter nicht eine Woche im Krankenhaus bleiben, aber trotzdem solltest du ihr dankbar sein. Vergiss nicht, es ihr zu sagen!</p>\n\n  <figure>\n    <img src=\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-2.jpg\" alt=\"Ein Rettungshubschrauber vor einem Krankenhaus\">\n  </figure>\n</article>\n",
+    "section": "Kinderecke",
+    "subtitle": null,
+    "title": "Sei dankbar"
+  }
+}

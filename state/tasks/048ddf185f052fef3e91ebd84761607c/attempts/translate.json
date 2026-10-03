@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8a3dfa09-f40f-4615-8f83-59a8fccb1a2f\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-1.jpg\\\" alt=\\\"Chumba cha hospitali kinachoonekana kutoka kwenye kitanda cha mgonjwa\\\">\\n  </figure>\\n\\n  <p>Asubuhi moja ya Jumapili, msichana mdogo, ambaye tutamwita Jennika, aliamka na kuona jua likiangaza ndani ya chumba chake cha kulala. Alivaa gauni lake la Jumapili kama alivyofanya kila Jumapili nyingine asubuhi. Hata hivyo, asubuhi hii ya Jumapili ilikuwa tofauti kabisa. Alipokuwa ameketi kwenye meza ya kiamsha kinywa akisubiri mama yake amuwekee chakula kwenye sahani, ghafla kifua cha mama yake kilianza kuuma sana. Kilimuuma sana hivi kwamba ilimbidi kwenda kujilaza kwenye kochi. Jennika aliogopa. Hakujua nini kingetokea. Takriban dakika kumi baadaye, baba yake alimpeleka mama yake hospitalini. Baadaye alasiri hiyo, yeye na ndugu zake walisikia kwamba mama yao alikuwa amepata mshtuko wa moyo.</p>\\n\\n  <p>Jumatano iliyofuata jioni, baba yake aliuliza, “Jennika, ungependa kuandamana nami kesho kwenda hospitalini kumwona Mama?”</p>\\n\\n  <p>“Ndiyo!” akasema kwa furaha.</p>\\n\\n  <p>Asubuhi iliyofuata baada ya kiamsha kinywa, dada yake mkubwa na mdogo wake wa kiume mchanga waliandamana naye na baba yake kwenda hospitalini. Siku hiyo alifurahi sana. Alifurahia kutazama nje ya dirisha la chumba cha kusubiri na kutazama helikopta zikiruka na kutua. Wakati mmoja hata aliona ambulensi ikija ikiwa na taa zake zikiwaka na king'ora kikilia. Hilo lilisisimua sana! Wakati mmoja alikaribia kupotea kwenye korido, lakini mmoja wa wauguzi wa mama yake alimwona na kumwonyesha chumba sahihi.</p>\\n\\n  <p>Usiku huo angekaa na mama yake hospitalini. Alifurahi sana! Alifikiri ingekuwa jambo la kufurahisha kulala kwenye kiti katika chumba cha mama yake. Mama yake angewaomba wauguzi wamletee mto na blanketi kadhaa. Takriban dakika kumi na tano baada ya baba yake kuondoka, muuguzi aliingia na kusema kwamba, hata hivyo, hangeweza kukaa hapo usiku kucha! Baba yake alihitaji kurudi kumchukua. Alivunjika moyo sana! Alilia karibu muda wote wa safari ya kwenda nyumbani. Usiku huo walimwacha mdogo wake wa kiume mwenye umri wa wiki mbili kwa mojawapo ya familia za kanisa ili kuwapa dada zake wakubwa nafasi ya kupumzika kutokana na kumtunza.</p>\\n\\n  <p>Siku iliyofuata alipata mshangao mzuri sana. Kwanza, binamu zake, walioishi umbali wa takriban saa tatu, walikuja kumtembelea. Pia aligundua kwamba mama yake angerudi nyumbani siku hiyo! Aliwasaidia ndugu zake kupamba nyumba. Dada yake mkubwa alitengeneza mabango mawili ya kumkaribisha nyumbani, ya kuweka ndani ya nyumba, na kaka yake mkubwa akatengeneza bango moja la kuweka kando ya njia ya kuingia garini.</p>\\n\\n  <p>“Mama amerudi nyumbani!” akapiga kelele mdogo wake wa kiume alipoona gari likisimama nje ya nyumba. Jennika na ndugu zake walikimbia hadi mlangoni. Walimsaidia mama yao kwenda kwenye kiti chake anachopenda cha kujilaza, kilichokuwa karibu na kiyoyozi ambacho mjomba wao alikuwa amekifunga asubuhi hiyo.</p>\\n\\n  <p>Jioni hiyo Jennika alijikunyata karibu na mama yake. “Ninafurahi kwamba umerudi nyumbani,” alinong’ona. “Napenda unapokuwa nyumbani.” Kwa sababu mama yake alikuwa amekaa mbali kwa muda mrefu hivyo, Jennika alijifunza kumshukuru mama yake zaidi.</p>\\n\\n  <p>Sasa Jennika ni mkubwa zaidi na bado anamshukuru sana mama yake. Huenda mama yako hakuhitaji kukaa hospitalini kwa wiki moja, lakini bado unapaswa kumshukuru. Usisahau kumwambia!</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-2.jpg\\\" alt=\\\"Helikopta ya kitabibu nje ya hospitali\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Sehemu ya Watoto\",\"subtitle\":null,\"title\":\"Shukuru\"}",
+    "content_bytes": 3751,
+    "content_evidence_truncated": false,
+    "content_sha256": "cee8e3b971e28471988df3d8cee12784f54920dc7ee605fee58bd02ec133a4a6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1776,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3003
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

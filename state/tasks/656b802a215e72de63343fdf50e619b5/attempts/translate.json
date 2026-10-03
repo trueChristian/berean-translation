@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"Mãos moldando um pote de barro na roda de oleiro\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"Continuação da fotografia de mãos moldando um pote de barro\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Deus, o Oleiro, está me moldando.<br>\\n    Que tipo de vaso serei, afinal:<br>\\n    Para levar, guardar ou beber?<br>\\n    Uma lâmpada, um prato ou pia de cozinha a valer?</p>\\n\\n    <p>Admito, sou um tanto superficial,<br>\\n    Pois penso muito em mim, no geral.<br>\\n    Mas aqui vai uma ideia:<br>\\n    Não sou o único pote nesta odisseia.</p>\\n\\n    <p>Em torno da minha vida<br>\\nhá muitos outros,<br>\\nUm marido, uma filha<br>\\ne alguns irmãos.</p>\\n\\n    <p>A mão do Oleiro também está sobre eles,<br>\\n    Fazendo de cada um de nós algo novo.<br>\\n    Outro pote me dá um encontrão,<br>\\n    E agora tenho um pequeno calombão.</p>\\n\\n    <p>Em outro pote dou uma trombada,<br>\\n    E parece que ele ficou rachado.<br>\\n    De volta à roda do Oleiro vamos,<br>\\n    Até que Sua semelhança outra vez encontremos.</p>\\n\\n    <p>Se o que faço e o que digo<br>\\n    Muda o rumo do barro de outros,<br>\\n    Então devo agir com muito cuidado,<br>\\n    Para que os potes dos outros não fiquem côncavos.</p>\\n\\n    <p>Deus deseja potes úteis,<br>\\n    Que resistam ao fogo ardente.<br>\\n    Não sou só eu, nem só você;<br>\\n    Deus também trabalha com outros vasos, pode crer.</p>\\n  </div>\\n\\n  <p><em>por Elizabeth Rust</em></p>\\n\\n  <p><em>Este poema foi inspirado na passagem bíblica em Jeremias 18:1-6.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Potes\"}",
+    "content_bytes": 1829,
+    "content_evidence_truncated": false,
+    "content_sha256": "55b15941bdad41651f4cfa1f9c4753c3ad5eced1e2cee730097814389d17a778",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 90,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1505,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1502,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2224
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

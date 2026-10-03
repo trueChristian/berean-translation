@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[11]/em[1]; translation /article[1]/p[11]",
+      "severity": "critical",
+      "source_quote": "… Jesus Christ suffered? Yes, we know that salvation is of the Lord, but it was the confidence of God’s people that caused others to wonder, that caused them to seriously consider this new religion of <em>heretics</em>. This was a group of people that would gladly accept the spoiling of their goods, be happy to give all they had to help others, and not resist their capture by the authorities. The true church of Jesus Christ was a group of people that always caused others to wonder, “Who are these people?” They clearly put all their faith in their God, and that was not a common occurrence. The…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[39:41], translation signature[39:39], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…тавляло других задумываться и всерьёз рассматривать эту новую религию «еретиков». Это была группа людей, которые с радостью принимали разграбление своего имущества, охотно отдавали всё, что имели, чтобы помочь другим, и не сопротивлялись властям, когда те их арестовывали. Истинная церковь Иисуса Христа всегда заставляла других спрашивать: «Кто эти люди?» Они ясно возлагали всю свою веру на Бога, а это было необычно. Они стояли за Божью Истину, как бы ни пылал огонь и какой бы невыносимой ни становилась их жизнь. Всё это свидетельствовало о великом уповании — не на себя, а на своего Бога.</p>"
+    }
+  ],
+  "outcome": "structural_rejection",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[39]: source /article[1]/p[11]/em[1] ('start', 'em', ()); translation /article[1]/p[11] ('end', 'p')",
+  "stage": "translate"
+}

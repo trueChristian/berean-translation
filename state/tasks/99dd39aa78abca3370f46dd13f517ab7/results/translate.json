@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ad45dae9-7d0e-4e8a-b6fa-9eab16d0248e",
+    "response_id": "chatcmpl-EUpaQKh4wUqQq5zJQ7sYdK6rW2LCW",
+    "usage": {
+      "completion_tokens": 659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1496,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1493,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2155
+    }
+  },
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\">\n  <figure>\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\" alt=\"Mani che modellano un vaso d’argilla sul tornio del vasaio\">\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\" alt=\"Continuazione della fotografia di mani che modellano un vaso d’argilla\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Dio, il Vasaio, mi sta modellando.<br>\n    Che tipo di vaso diventerò:<br>\n    Per portare, conservare o bere?<br>\n    Una lampada, un piatto o un lavello da cucina?</p>\n\n    <p>Lo ammetto, sono un po’ superficiale,<br>\n    perché mi concentro parecchio su di me.<br>\n    Ma ecco un pensiero:<br>\n    non sono l’unico vaso.</p>\n\n    <p>Intorno alla mia vita<br>\n    ce ne sono molte altre:<br>\n    un marito, una figlia<br>\n    e alcuni fratelli.</p>\n\n    <p>La mano del Vasaio è anche su di loro,<br>\n    e fa di ciascuno di noi qualcosa di nuovo.<br>\n    Un altro vaso mi dà una botta,<br>\n    e ora ho un piccolo bernoccolo.</p>\n\n    <p>Mi schianto contro un altro vaso,<br>\n    e a quanto pare ora ha una crepa.<br>\n    Torniamo al tornio del Vasaio,<br>\n    finché non riappare la Sua immagine.</p>\n\n    <p>Se ciò che faccio e ciò che dico<br>\n    cambia il corso dell’argilla altrui,<br>\n    allora devo comportarmi con grande cura,<br>\n    perché i vasi degli altri non diventino concavi.</p>\n\n    <p>Dio desidera vasi utili,<br>\n    capaci di resistere al fuoco.<br>\n    Non ci sono solo io, né solo tu:<br>\n    Dio sta lavorando anche con altri vasi.</p>\n  </div>\n\n  <p><em>di Elizabeth Rust</em></p>\n\n  <p><em>Questa poesia è stata ispirata dal passo biblico di Geremia 18:1-6.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Vasi"
+  }
+}

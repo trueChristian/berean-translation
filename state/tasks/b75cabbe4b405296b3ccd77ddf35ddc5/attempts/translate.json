@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"双手在陶轮上塑造陶罐\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"双手塑造陶罐的照片续图\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>神这位陶匠正在塑造我。<br>\\n    我会成为怎样的器皿呢：<br>\\n    用来盛装、储存，还是饮用？<br>\\n    是灯、盘子，还是厨房水槽？</p>\\n\\n    <p>我承认，我有点肤浅，<br>\\n    因为我实在太关注自己。<br>\\n    不过有个想法，<br>\\n    陶罐不止我一个。</p>\\n\\n    <p>围绕着我的生活，<br>\\n    还有许多人，<br>\\n    一位丈夫，一个女儿，<br>\\n    还有几个兄弟。</p>\\n\\n    <p>陶匠的手也在他们身上，<br>\\n    使我们每个人都焕然一新。<br>\\n    另一个陶罐撞了我一下，<br>\\n    于是我多了一个小疙瘩。</p>\\n\\n    <p>我猛地撞上另一个陶罐，<br>\\n    看来它现在有了裂缝。<br>\\n    我们又回到陶轮上，<br>\\n    直到再次显出他的形象。</p>\\n\\n    <p>如果我的所作所言，<br>\\n    会改变别人的陶土走向，<br>\\n    那么我必须谨慎行事，<br>\\n    免得别人的陶罐凹陷变形。</p>\\n\\n    <p>神所期望的是有用的陶罐，<br>\\n    是经得起火炼的陶罐。<br>\\n    这不只是我，也不只是你；<br>\\n    神也在塑造其他器皿。</p>\\n  </div>\\n\\n  <p><em>作者：Elizabeth Rust</em></p>\\n\\n  <p><em>这首诗的灵感来自《耶利米书》18:1-6。</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"陶罐\"}",
+    "content_bytes": 1731,
+    "content_evidence_truncated": false,
+    "content_sha256": "704e345a7e8efa716fd9e6766b155d8becc997eac162ea987898a9832a0c9d41",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 847,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 164,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1508,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1505
+      },
+      "total_tokens": 2355
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

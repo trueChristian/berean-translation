@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e1dd20ef-afba-44b5-a283-5e133e10ba35",
+    "response_id": "chatcmpl-EUpXU02nxK1mh1YTrdkjtt7Ze7J21",
+    "usage": {
+      "completion_tokens": 837,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 248,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1442,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1439,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2279
+    }
+  },
+  "received_at": "2026-10-03T10:41:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\">\n  <figure>\n    <img src=\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\" alt=\"Et tåkedekt skoglandskap\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Når Gud er så stor, hvorfor skulle vi da frykte?<br>\n    Han styrer havet og stormene som bryter løs.<br>\n    Han kjenner morgendagen før den har kommet.<br>\n    Han vet hvor mange hår vi har på hodet.</p>\n\n    <p>Hvorfor skulle noen tvile på en slik Gud?<br>\n    Hvorfor tviler noen eller spør feil?<br>\n    «Stol på Herren», sier Skriften.<br>\n    Men i stedet støtter vi oss til vår egen forstand?</p>\n\n    <p>Jeg er sikker på at det forvirrer Den allvitende.<br>\n    Alle miraklene ble gjort med ett ord!<br>\n    Han ser utover verden i dag,<br>\n    etter én som vil stole på ham uten å nøle.</p>\n\n    <p>Det som hører denne verden til, er så strålende og går så fort.<br>\n    Trenger vi egentlig Gud, kanskje han er gammeldags nå?!<br>\n    Nok av tåpelighetene, vi vet alle sannheten.<br>\n    Vi har sett Gud virke, ja, helt fra ungdommen av.</p>\n\n    <p>Ingenting kan erstatte vår allmektige Gud;<br>\n    Å si noe annet ville sannelig høres merkelig ut.<br>\n    Han venter på at kirken skal stole på ham igjen.<br>\n    Han står og banker; vil du åpne døren?</p>\n\n    <p>Ikke bare når det kniper, eller når livet er for vanskelig,<br>\n    men hvert øyeblikk: legg frykten til side.<br>\n    Han leter igjen etter et folk i vår tid,<br>\n    med <strong><em>tillit</em></strong> til Gud, som viser hans kraft.</p>\n\n    <p class=\"byline\"><em>av Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "tillit"
+  }
+}

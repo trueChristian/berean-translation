@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:41:07+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"Manos dando forma a una vasija de barro en el torno de alfarero\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"Continuación de la fotografía de unas manos dando forma a una vasija de barro\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Dios, el Alfarero, me está moldeando.<br>\\n    ¿Qué tipo de vasija acabaré siendo?<br>\\n    ¿Para llevar, guardar o beber?<br>\\n    ¿Una lámpara, un plato o un fregadero?</p>\\n\\n    <p>Admito que soy un poco superficial,<br>\\n    pues me centro bastante en mí, al final.<br>\\n    Pero hay algo que pensar:<br>\\n    no soy la única vasija que hay.</p>\\n\\n    <p>Alrededor de mi vida<br>\\n    hay muchas otras personas:<br>\\n    un esposo, una hija<br>\\n    y algunos hermanos.</p>\\n\\n    <p>La mano del Alfarero también está sobre ellos,<br>\\n    haciendo algo nuevo de cada uno de nosotros.<br>\\n    Otra vasija me da un golpe,<br>\\n    y ahora tengo un pequeño bulto.</p>\\n\\n    <p>Choco contra otra vasija,<br>\\n    y parece que ahora tiene una grieta.<br>\\n    Volvemos a la rueda del Alfarero,<br>\\n    hasta que de nuevo se refleja Su imagen.</p>\\n\\n    <p>Si lo que hago y lo que digo<br>\\n    cambia el rumbo del barro de otros,<br>\\n    debo comportarme con mucho cuidado,<br>\\n    no sea que otras vasijas queden cóncavas.</p>\\n\\n    <p>Dios desea vasijas útiles,<br>\\n    capaces de resistir el fuego.<br>\\n    No se trata solo de mí, ni solo de ti;<br>\\n    Dios también trabaja con otras vasijas.</p>\\n  </div>\\n\\n  <p><em>por Elizabeth Rust</em></p>\\n\\n  <p><em>Este poema se inspiró en el pasaje bíblico de Jeremías 18:1-6.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Vasijas\"}",
+    "content_bytes": 1883,
+    "content_evidence_truncated": false,
+    "content_sha256": "0599b253fefc729d4d2c87bc4e7735d0dc8a34f6df410a306552f902a8bba7c2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 733,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1501,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1498,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2234
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

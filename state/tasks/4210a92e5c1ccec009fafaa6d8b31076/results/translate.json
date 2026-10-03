@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b84bd2af-d891-42c7-a2c8-742e4ffbfd87",
+    "response_id": "chatcmpl-EUpkB4lrrlbnAefJLwrXRDNugiyoB",
+    "usage": {
+      "completion_tokens": 1098,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1776,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1773
+      },
+      "total_tokens": 2874
+    }
+  },
+  "received_at": "2026-10-03T10:41:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8a3dfa09-f40f-4615-8f83-59a8fccb1a2f\">\n  <figure>\n    <img src=\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-1.jpg\" alt=\"Una stanza d’ospedale vista dal letto di un paziente\">\n  </figure>\n\n  <p>Una domenica mattina una bambina, che chiameremo Jennika, si svegliò con il sole che entrava nella sua camera. Si vestì con il suo abito della domenica, proprio come faceva ogni altra domenica mattina. Quella domenica mattina, però, fu molto diversa. Mentre era seduta al tavolo della colazione, in attesa che la mamma le riempisse il piatto, il petto della mamma cominciò all’improvviso a farle molto male. Le faceva così male che dovette andare a sdraiarsi sul divano. Jennika ebbe paura. Non sapeva cosa sarebbe successo. Circa dieci minuti dopo, il papà accompagnò la mamma all’ospedale. Più tardi, quel pomeriggio, lei e i suoi fratelli seppero che la mamma aveva avuto un infarto.</p>\n\n  <p>Il mercoledì sera successivo, il papà le chiese: «Jennika, domani ti piacerebbe venire in ospedale a trovare la mamma?»</p>\n\n  <p>«Sì!» rispose con un sorriso radioso.</p>\n\n  <p>La mattina seguente, dopo colazione, la sorella maggiore e il fratellino andarono con lei e il papà all’ospedale. Quel giorno si divertì molto. Le piaceva guardare fuori dalla finestra della sala d’attesa e osservare gli elicotteri decollare e atterrare. Una volta vide persino arrivare un’ambulanza con le luci accese e la sirena in funzione. Che emozione! Una volta stava quasi per perdersi nei corridoi, ma un’infermiera della mamma la vide e le indicò la stanza giusta.</p>\n\n  <p>Quella notte avrebbe dormito con la mamma. Era così emozionata! Pensava che sarebbe stato divertente dormire sulla sedia nella stanza della mamma. La mamma avrebbe chiesto alle infermiere un cuscino e alcune coperte. Circa quindici minuti dopo che il papà se ne fu andato, entrò un’infermiera e disse che, invece, non poteva passare la notte lì! Il papà doveva tornare a prenderla. Rimase così delusa! Pianse per quasi tutto il tragitto verso casa. Quella sera lasciarono il fratellino di due settimane a casa di una delle famiglie della chiesa, per dare alle sorelle maggiori un po’ di tregua dal prendersi cura di lui.</p>\n\n  <p>Il giorno dopo ebbe una bellissima sorpresa. Per prima cosa, vennero a farle visita i cugini, che abitavano a circa tre ore di distanza. E scoprì che la mamma sarebbe tornata a casa proprio quel giorno! Aiutò i fratelli a decorare la casa. La sorella maggiore preparò due cartelli di bentornata da mettere dentro casa, mentre il fratello maggiore ne fece uno da mettere vicino al vialetto d’ingresso.</p>\n\n  <p>«La mamma è a casa!» gridò il fratellino più piccolo quando vide l’auto fermarsi davanti alla casa. Jennika e i suoi fratelli corsero alla porta d’ingresso. Accompagnarono la mamma alla sua poltrona reclinabile preferita, vicino al condizionatore che lo zio aveva appena installato quella mattina.</p>\n\n  <p>Quella sera Jennika si accoccolò vicino alla mamma. «Sono contenta che tu sia a casa», le sussurrò. «Mi piace quando sei a casa». Dato che la mamma era stata via così a lungo, Jennika imparò a essere più riconoscente per la sua mamma.</p>\n\n  <p>Ora Jennika è più grande ed è ancora molto riconoscente per la sua mamma. Forse la tua mamma non ha avuto bisogno di stare in ospedale per una settimana, ma dovresti comunque esserle riconoscente. Non dimenticare di dirglielo!</p>\n\n  <figure>\n    <img src=\"/images/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f-2.jpg\" alt=\"Un elicottero medico fuori da un ospedale\">\n  </figure>\n</article>\n",
+    "section": "L’angolo dei bambini",
+    "subtitle": null,
+    "title": "Sii riconoscente"
+  }
+}
