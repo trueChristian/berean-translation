@@ -6,6 +6,12 @@
       "campaign": "gh-37109077881",
       "event": "requested",
       "task": "53671873f59b375d0db7d7d6805adc42"
+    },
+    {
+      "at": "2026-10-03T11:27:50+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[23]; missing: 2 Corinthians 10:12; extra: 10:12",
+      "task": "53671873f59b375d0db7d7d6805adc42"
     }
   ],
   "language": "heb",
