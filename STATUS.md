@@ -5,7 +5,7 @@ Generated from the pinned source catalogue and durable work records. No API call
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `a069ecca8827634ebc256b3b1cabc16aeb942ed7`
+Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -107,31 +107,32 @@ Observed English revision: `a069ecca8827634ebc256b3b1cabc16aeb942ed7`
 | `heartbeat-remnant-2001-03` | 15 | 0 / 300 | 0 | 0 | 0 |
 | `heartbeat-remnant-2001-01` | 15 | 0 / 300 | 0 | 0 | 0 |
 | `heartbeat-remnant-2000-11` | 16 | 0 / 320 | 0 | 0 | 0 |
+| `heartbeat-remnant-2000-09` | 13 | 0 / 260 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 70 / 1142 | 0 | 31 | 59 | 88 |
-| `hin` (hi) | 72 / 1142 | 0 | 26 | 62 | 100 |
-| `spa` (es) | 108 / 1142 | 0 | 25 | 27 | 68 |
-| `ara` (ar) | 70 / 1142 | 0 | 26 | 64 | 99 |
-| `fra` (fr) | 102 / 1142 | 0 | 21 | 37 | 72 |
-| `ben` (bn) | 65 / 1142 | 0 | 27 | 68 | 109 |
-| `por` (pt) | 113 / 1142 | 0 | 23 | 24 | 72 |
-| `ind` (id) | 95 / 1142 | 0 | 27 | 38 | 80 |
-| `urd` (ur) | 74 / 1142 | 0 | 29 | 57 | 98 |
-| `rus` (ru) | 75 / 1142 | 0 | 29 | 56 | 98 |
-| `deu` (de) | 59 / 1142 | 0 | 24 | 76 | 105 |
-| `nld` (nl) | 96 / 1142 | 0 | 28 | 36 | 86 |
-| `afr` (af) | 91 / 1142 | 0 | 27 | 42 | 73 |
-| `swa` (sw) | 49 / 1142 | 0 | 27 | 84 | 113 |
-| `kor` (ko) | 84 / 1142 | 0 | 26 | 50 | 89 |
-| `ita` (it) | 100 / 1142 | 0 | 25 | 35 | 70 |
-| `heb` (he) | 31 / 1142 | 0 | 26 | 100 | 116 |
-| `ell` (el) | 74 / 1142 | 0 | 26 | 60 | 101 |
-| `swe` (sv) | 85 / 1142 | 0 | 27 | 48 | 89 |
-| `nob` (nb) | 88 / 1142 | 0 | 26 | 46 | 92 |
+| `cmn` (zh-Hans) | 70 / 1155 | 0 | 31 | 59 | 88 |
+| `hin` (hi) | 72 / 1155 | 0 | 26 | 62 | 100 |
+| `spa` (es) | 108 / 1155 | 0 | 25 | 27 | 68 |
+| `ara` (ar) | 70 / 1155 | 0 | 26 | 64 | 99 |
+| `fra` (fr) | 102 / 1155 | 0 | 21 | 37 | 72 |
+| `ben` (bn) | 65 / 1155 | 0 | 27 | 68 | 109 |
+| `por` (pt) | 113 / 1155 | 0 | 23 | 24 | 72 |
+| `ind` (id) | 95 / 1155 | 0 | 27 | 38 | 80 |
+| `urd` (ur) | 74 / 1155 | 0 | 29 | 57 | 98 |
+| `rus` (ru) | 75 / 1155 | 0 | 29 | 56 | 98 |
+| `deu` (de) | 59 / 1155 | 0 | 24 | 76 | 105 |
+| `nld` (nl) | 96 / 1155 | 0 | 28 | 36 | 86 |
+| `afr` (af) | 91 / 1155 | 0 | 27 | 42 | 73 |
+| `swa` (sw) | 49 / 1155 | 0 | 27 | 84 | 113 |
+| `kor` (ko) | 84 / 1155 | 0 | 26 | 50 | 89 |
+| `ita` (it) | 100 / 1155 | 0 | 25 | 35 | 70 |
+| `heb` (he) | 31 / 1155 | 0 | 26 | 100 | 116 |
+| `ell` (el) | 74 / 1155 | 0 | 26 | 60 | 101 |
+| `swe` (sv) | 85 / 1155 | 0 | 27 | 48 | 89 |
+| `nob` (nb) | 88 / 1155 | 0 | 26 | 46 | 92 |
 
 ## Issue / language work
 
