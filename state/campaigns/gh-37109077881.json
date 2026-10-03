@@ -2128,12 +2128,11 @@
   ],
   "skipped": [],
   "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
-  "status": "active",
+  "status": "finished",
   "structural_feedback_version": "1",
   "task_counts": {
-    "complete": 83,
-    "in_batch": 106,
-    "not_ready": 31
+    "complete": 132,
+    "not_ready": 88
   },
   "tasks": [
     "906a191f8699645f16dbb4a0bd440740",
