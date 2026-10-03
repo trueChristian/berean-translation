@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 4",
+      "severity": "major",
+      "source_quote": "There is a sense in which many families abandon their elderly or ill family members.",
+      "suggested_fix": "Ganti “mengabaikan” dengan “menelantarkan” agar klaim bahwa keluarga meninggalkan atau tidak merawat anggota keluarga yang lanjut usia atau sakit tetap tersampaikan.",
+      "translation_quote": "Ada benarnya bahwa banyak keluarga mengabaikan anggota keluarga mereka yang lanjut usia atau sakit."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

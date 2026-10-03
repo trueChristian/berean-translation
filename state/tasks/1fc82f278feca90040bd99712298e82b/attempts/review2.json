@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Heading “A Caring Conscience”\",\"severity\":\"minor\",\"source_quote\":\"A Caring Conscience\",\"suggested_fix\":\"Replace “Uma consciência atenciosa” with “Uma consciência que se importa” to convey the sense of caring or concern in the source heading.\",\"translation_quote\":\"Uma consciência atenciosa\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 359,
+    "content_evidence_truncated": false,
+    "content_sha256": "bda0c288abe2eed97e25d9e24353babc399b537830c80a65834c1ce0c4a97808",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 784,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 688,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7165,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7162,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7949
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

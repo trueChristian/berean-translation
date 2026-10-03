@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,32 +64,82 @@
         },
         "total_tokens": 13006
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 835,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8120,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8117,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8955
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning “What about all the what if ’s…?”",
+      "location": "Lead paragraph, Genesis quotation",
       "severity": "major",
-      "source_quote": "“The Democrats are taking the U.S. to war with Russia.”",
-      "suggested_fix": "Replace “Demokrasia wanaipeleka Marekani vitani na Urusi.” with “Wanademokrasia wanaipeleka Marekani vitani na Urusi.”",
-      "translation_quote": "“Demokrasia wanaipeleka Marekani vitani na Urusi.”"
+      "source_quote": "“While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease”",
+      "suggested_fix": "Use “Maadamu dunia ingalipo, majira ya kupanda na ya kuvuna, baridi na joto, wakati wa kiangazi na wa baridi, mchana na usiku havitakoma” (or another clear Kiswahili equivalent for “heat”).",
+      "translation_quote": "“Maadamu dunia ingalipo, majira ya kupanda na ya kuvuna, baridi na hari, wakati wa kiangazi na wa baridi, mchana na usiku havitakoma”"
     },
     {
-      "location": "HTML, paragraph beginning “From my perspective it seems that many in the world…”",
+      "location": "Paragraph beginning “Vipi kuhusu mambo yote…”; Psalm 20:7a",
       "severity": "major",
-      "source_quote": "“…the kings of the earth, and the great men, and the rich men, and the chief captains, and the mighty men, and every bondman, and every free man, [will hide] themselves in the dens and in the rocks of the mountains; And [will say] to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb…”",
-      "suggested_fix": "Correct the quoted passage to preserve the source’s meaning, for example: “…wafalme wa dunia, na wakuu, na matajiri, na majemadari, na wenye nguvu, na kila mtumwa, na kila mtu huru, [watajificha] katika mapango na katika miamba ya milima; Nao [wataziambia] milima na miamba, Tuangukieni, na kutuficha usoni pake yeye aketiye juu ya kiti cha enzi, na mbali na ghadhabu ya Mwana-Kondoo…” The rest of the quotation should likewise retain the source’s distinction between hiding from God’s face and from the Lamb’s wrath.",
-      "translation_quote": "“…wafalme wa dunia, na wakuu, na matajiri, na majemadari, na wenye nguvu, na kila mtumwa, na kila mtu huru, [watajificha] katika mapango na katikati ya miamba ya milima; Nao [wataziambia] milima na miamba, Tuangukieni, tukaficheni mbali na uso wake yeye aketiye juu ya kiti cha enzi, na ghadhabu ya Mwana-Kondoo…”"
+      "source_quote": "“trust in chariots, and some in horses”",
+      "suggested_fix": "Translate “chariots” as “magari ya kukokotwa” or an equivalent that clearly means chariots, not “magari ya vita.”",
+      "translation_quote": "“kutumaini magari ya vita, na wengine farasi”"
     },
     {
-      "location": "HTML, paragraph beginning “One specific thing that I wish to focus on…”",
+      "location": "Paragraph beginning “Vipi kuhusu mambo yote…”; Psalm 20:8a",
       "severity": "major",
-      "source_quote": "“…within the plain communities.”",
-      "suggested_fix": "Replace “jumuiya za watu wa kawaida” with “jumuiya za Waamishi,” or another established Kiswahili rendering that identifies the plain communities in this context.",
-      "translation_quote": "“…katika jumuiya za watu wa kawaida.”"
+      "source_quote": "“They are brought down and [are] fallen”",
+      "suggested_fix": "Revise to preserve the source’s passive sense, for example, “Wao wameshushwa na [wame]anguka” or another natural Kiswahili equivalent.",
+      "translation_quote": "“Wao wameinama na kuanguka”"
+    },
+    {
+      "location": "Paragraph beginning “Kwa mtazamo wangu…”; Revelation 6:15-17",
+      "severity": "major",
+      "source_quote": "“hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb”",
+      "suggested_fix": "Translate “from the face of him” and “from the wrath of the Lamb” without changing the relationship, for example, “tuficheni mbele ya uso wa yeye aketiye juu ya kiti cha enzi, na mbali na ghadhabu ya Mwana-Kondoo.”",
+      "translation_quote": "“kutuficha usoni pake yeye aketiye juu ya kiti cha enzi, na mbali na ghadhabu ya Mwana-Kondoo”"
+    },
+    {
+      "location": "Paragraph beginning “Kwa wengi wetu…”",
+      "severity": "major",
+      "source_quote": "“How much more can we become lulled into the sameness of our everyday lives and tend to forget…”",
+      "suggested_fix": "Replace “Tena, tunawezaje zaidi kudumbukia…” with wording that conveys becoming lulled by the sameness of daily life and tending to forget, such as “Ni kwa kiasi gani zaidi tunaweza kuzoea maisha yetu ya kila siku yanayofanana na kusahau…”",
+      "translation_quote": "“Tena, tunawezaje zaidi kudumbukia katika mazoea yale yale ya maisha yetu ya kila siku, na kusahau…”"
+    },
+    {
+      "location": "Paragraph beginning “Mara nyingi sana, kanisa…”",
+      "severity": "major",
+      "source_quote": "“since it is their lot in life”",
+      "suggested_fix": "Clarify that the church treats the struggle as the struggling people’s lot in life, for example, “kwa kuwa wanaona kuwa hiyo ndiyo hali yao ya maisha,” rather than saying they regard it as their burden.",
+      "translation_quote": "“kwa sababu wanaona huo ndio mzigo wao wa maisha”"
+    },
+    {
+      "location": "Paragraph beginning “Mungu alituumba…”",
+      "severity": "major",
+      "source_quote": "“the shoe is on the other foot”",
+      "suggested_fix": "Use a Kiswahili expression conveying that roles or circumstances may be reversed, for example, “huenda siku moja hali ikawa kinyume na leo,” rather than a literal shoe-and-foot rendering.",
+      "translation_quote": "“kiatu kitakuwa mguu mwingine”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "2ea1c1aae4fa121dad8157b73e36f015",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swa",
@@ -179,13 +228,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

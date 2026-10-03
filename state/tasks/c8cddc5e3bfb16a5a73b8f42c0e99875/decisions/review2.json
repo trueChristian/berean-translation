@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "लेख का lead, उत्पत्ति 8:22 का उद्धरण",
+      "severity": "major",
+      "source_quote": "“While the earth remaineth”",
+      "suggested_fix": "“जब तक पृथ्वी बनी रहे” का अनुवाद करें, ताकि अर्थ पृथ्वी के बने रहने की अवधि का हो, न कि पृथ्वी के बने रहने की बात को वर्तमान भविष्यकाल में कहने का।",
+      "translation_quote": "“जब तक पृथ्वी बनी रहेगी”"
+    },
+    {
+      "location": "लेख का lead, पेड़ों और शुरुआती फूलों का वर्णन",
+      "severity": "minor",
+      "source_quote": "“select early flowers have pushed their blossoms up to wave bravely”",
+      "suggested_fix": "“कुछ शुरुआती फूल अपनी कलियाँ निकालकर” लिखें; मूल में कलियों के ऊपर उठने की नहीं, फूलों के खिलने की बात है।",
+      "translation_quote": "“कुछ शुरुआती फूलों ने … अपनी कलियाँ ऊपर उठा दी हैं”"
+    },
+    {
+      "location": "युद्धों और अफवाहों पर अनुच्छेद, भजन संहिता 20:7-8 का उद्धरण",
+      "severity": "major",
+      "source_quote": "“They are brought down and [are] fallen… –Psalm 20:8a.”",
+      "suggested_fix": "उद्धरण को “वे झुकाए जाते हैं और गिर पड़ते हैं…” के अर्थ में रखें; इसे निष्क्रिय क्रिया के वर्तमान काल में अनूदित करें।",
+      "translation_quote": "“वे झुका दिए जाते हैं और गिर पड़ते हैं…”"
+    },
+    {
+      "location": "रूस-यूक्रेन संघर्ष पर भय के वर्णन वाला अनुच्छेद, लूका 21:26",
+      "severity": "major",
+      "source_quote": "“Men’s hearts [are] failing them for fear, and for looking after those things which are coming on the earth”",
+      "suggested_fix": "उद्धरण का अर्थ इस रूप में रखें कि आने वाली घटनाओं के भय और प्रतीक्षा से लोगों के हृदय विफल हो रहे हैं; “बाट देखते-देखते जीर्ण” मूल कथन नहीं है।",
+      "translation_quote": "“लोग भय और पृथ्वी पर आनेवाली घटनाओं की बाट देखते-देखते जीर्ण हो जाएंगे”"
+    },
+    {
+      "location": "रूस-यूक्रेन संघर्ष पर भय के वर्णन वाला अनुच्छेद, प्रकाशितवाक्य 6:15-17",
+      "severity": "major",
+      "source_quote": "“from the wrath of the Lamb: For the great day of his wrath is come”",
+      "suggested_fix": "दोनों स्थानों पर मेम्ने के क्रोध को स्पष्ट रखें: “मेम्ने के क्रोध से … क्योंकि उसके क्रोध का बड़ा दिन आ पहुँचा है।”",
+      "translation_quote": "“मेम्ने के क्रोध से … क्योंकि उनके क्रोध का बड़ा दिन आ पहुँचा है”"
+    },
+    {
+      "location": "“दूर की बात” वाला अनुच्छेद, वाहन मैकेनिक की गवाही",
+      "severity": "major",
+      "source_quote": "“folks have been pointed to a Living God and a life after death”",
+      "suggested_fix": "यह स्पष्ट करें कि लोगों को जीवित परमेश्वर और मृत्यु के बाद के जीवन की ओर निर्देशित किया गया; “जीवन की ओर संकेत मिला” कहने से आशय बदलता है।",
+      "translation_quote": "“लोगों को जीवित परमेश्वर तथा मृत्यु के बाद के जीवन की ओर संकेत मिला है”"
+    },
+    {
+      "location": "टूटते रिश्तों और संघर्षों पर अनुच्छेद",
+      "severity": "major",
+      "source_quote": "“within the plain communities”",
+      "suggested_fix": "“सादे समुदायों” या उस समुदाय के प्रचलित नाम का प्रयोग करें; स्रोत में “परंपरागत अनाबैपटिस्ट” नहीं है।",
+      "translation_quote": "“परंपरागत अनाबैपटिस्ट समुदायों के भीतर”"
+    },
+    {
+      "location": "संसाधन अनुच्छेद, सीडी सेट का शीर्षक",
+      "severity": "major",
+      "source_quote": "“People Helping in the Local Church”",
+      "suggested_fix": "शीर्षक का हिंदी अनुवाद “स्थानीय कलीसिया में लोगों की मदद करना” करें; उद्धरण में दिए शीर्षक को अंग्रेज़ी में न छोड़ें और उसके आशय को “सहायता” के रूप में रखें।",
+      "translation_quote": "“स्थानीय कलीसिया में लोगों की सहायता”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

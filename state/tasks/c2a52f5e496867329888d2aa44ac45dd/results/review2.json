@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e5c2d49e-1cd7-4c38-86d4-69a70beefabe",
+    "response_id": "chatcmpl-EUeoud9i8Dj95tRjBDKhelLjibMgt",
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 463,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3146,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3143,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3770
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, stanza beginning “This promise can also open to you”",
+        "severity": "major",
+        "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+        "suggested_fix": "Replace the final two lines of this stanza with: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই শক্তি ও ক্ষমতা আমার ইচ্ছার সঙ্গে সঙ্গতিপূর্ণ হয়।” This keeps the stated subject as God’s strength and power, rather than the hidden secrets.",
+        "translation_quote": "কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "618950e2-8b35-4e91-816a-e09f0b8fda2e",
+    "response_id": "chatcmpl-EUepLnzLb967l9Gj3NfVhCg8xiG35",
+    "usage": {
+      "completion_tokens": 1198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12348,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12345,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13546
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “স্বামী বা স্ত্রীর যেকোনো একজনের মৃত্যু…”",
+        "severity": "major",
+        "source_quote": "Only the death of either spouse will terminate the initial marriage covenant in the heavenly records.",
+        "suggested_fix": "Replace “প্রাথমিক বিবাহ-নিয়মের অবসান” with “প্রাথমিক বিবাহ-অঙ্গীকারের অবসান” so “covenant” is rendered as an enduring covenant or commitment, not a rule.",
+        "translation_quote": "স্বামী বা স্ত্রীর যেকোনো একজনের মৃত্যু হলেই কেবল স্বর্গীয় নথিতে প্রাথমিক বিবাহ-নিয়মের অবসান ঘটে।"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

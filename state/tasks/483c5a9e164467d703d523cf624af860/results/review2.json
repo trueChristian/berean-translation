@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d05f1368-9c0a-42fa-bc69-3d30a4dea8e8",
+    "response_id": "chatcmpl-EUeqSdwZHlztbqMd52PKmEaKcR6cu",
+    "usage": {
+      "completion_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 714,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9520,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9517,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10371
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML: blockquote, Matthew 9:2–8 quotation",
+        "severity": "major",
+        "source_quote": "“Son, be of good cheer; thy sins be forgiven thee”",
+        "suggested_fix": "In the quoted passage, replace “작은 자야 안심하라” with “아들아, 안심하라” to preserve the source’s address, “Son.”",
+        "translation_quote": "“작은 자야 안심하라 네 죄 사함을 받았느니라”"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

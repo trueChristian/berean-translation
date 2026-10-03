@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Avsnittet om menneskets verdi",
+      "severity": "major",
+      "source_quote": "They are not worth something because of their intelligence or talents.",
+      "suggested_fix": "Bytt «De er ikke verdifulle på grunn av intelligensen eller talentene sine.» med «De er ikke verdt noe på grunn av intelligensen eller talentene sine.»",
+      "translation_quote": "De er ikke verdifulle på grunn av intelligensen eller talentene sine."
+    },
+    {
+      "location": "Avsnittet om lidelse",
+      "severity": "major",
+      "source_quote": "It brings glory to God when we suffer with a meek and quiet spirit.",
+      "suggested_fix": "Bytt «Gud blir herliggjort når vi lider med en ydmyk og stille ånd.» med «Det bringer Gud ære når vi lider med en ydmyk og stille ånd.»",
+      "translation_quote": "Gud blir herliggjort når vi lider med en ydmyk og stille ånd."
+    },
+    {
+      "location": "Avsnittet om Guds forutviten",
+      "severity": "major",
+      "source_quote": "There are many other verses like Jeremiah 1:4-5 and Psalm 139:13-15 that speak of God’s foreknowledge in our creation.",
+      "suggested_fix": "Bytt «som taler om Guds forutviten da han skapte oss» med «som taler om Guds forutviten om vår tilblivelse».",
+      "translation_quote": "som taler om Guds forutviten da han skapte oss"
+    },
+    {
+      "location": "Avsnittet om palliativ behandling",
+      "severity": "minor",
+      "source_quote": "This is a type of care that is specifically designed to treat the pain and other symptoms",
+      "suggested_fix": "Bytt «en type behandling som er spesielt utformet for å behandle smerter og andre symptomer» med «en type omsorg som er spesielt utformet for å lindre smerter og andre symptomer».",
+      "translation_quote": "en type behandling som er spesielt utformet for å behandle smerter og andre symptomer"
+    },
+    {
+      "location": "Avsnittet om behandling i Sverige under COVID",
+      "severity": "minor",
+      "source_quote": "Many were not even given oxygen, but simply started on Morphine and sedatives",
+      "suggested_fix": "Bytt «ble i stedet satt på morfin og beroligende midler» med «fikk i stedet morfin og beroligende midler».",
+      "translation_quote": "ble i stedet satt på morfin og beroligende midler"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

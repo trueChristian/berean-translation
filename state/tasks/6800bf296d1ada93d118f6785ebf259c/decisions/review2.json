@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, third stanza",
+      "severity": "minor",
+      "source_quote": "Not knowing how next to begin.",
+      "suggested_fix": "Niet wetend hoe ik opnieuw moest beginnen.",
+      "translation_quote": "Niet wetend hoe ik verder moest gaan."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

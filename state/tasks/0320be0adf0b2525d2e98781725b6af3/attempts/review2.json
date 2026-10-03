@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"“the underdog”\",\"suggested_fix\":\"Use a natural Afrikaans equivalent such as “die swakker party” or “die underdog (swakker party)” for clarity.\",\"translation_quote\":\"“die underdog”\"},{\"location\":\"Paragraph beginning “Onbesorgde apatie”\",\"severity\":\"major\",\"source_quote\":\"“Give a man a reason to live and he will supply the how –Nietzke.”\",\"suggested_fix\":\"Translate the quotation faithfully, for example: “Gee ’n mens ’n rede om te lewe, en hy sal self uitwerk hoe –Nietzke.”\",\"translation_quote\":\"“Gee ’n mens ’n rede om te lewe en hy sal die hoe voorsien –Nietzke.”\"},{\"location\":\"Paragraph beginning “Goliat het vanselfsprekend aangeneem”\",\"severity\":\"major\",\"source_quote\":\"“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”\",\"suggested_fix\":\"Correct “45 mm” to “.45-kaliber” in Afrikaans, for example: “die trefkrag van ’n .45-kaliber-handwapen gehad”.\",\"translation_quote\":\"“die trefkrag van ’n .45-kaliber-handwapen gehad”\"},{\"location\":\"Paragraph beginning “Waarom sou Japannese kamikazevlieëniers”\",\"severity\":\"major\",\"source_quote\":\"“God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael”\",\"suggested_fix\":\"Translate “nail” as “spyker” here, preserving the stated image: “van Dorkas se naald… tot Jael se spyker”.\",\"translation_quote\":\"“van Dorkas se naald… tot Jael se tentpen”\"},{\"location\":\"Poem, second line\",\"severity\":\"minor\",\"source_quote\":\"“David had a sling;”\",\"suggested_fix\":\"For the poem’s concise parallel phrasing, use “Dawid het ’n slingervel;”\",\"translation_quote\":\"“Dawid het ’n slingervel gehad;”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1852,
+    "content_evidence_truncated": false,
+    "content_sha256": "6e3ad3b57289919094dc6dbc2e85e1bc1af3653f98df2757a5f0d27b82def17d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 476,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7813,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8292
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

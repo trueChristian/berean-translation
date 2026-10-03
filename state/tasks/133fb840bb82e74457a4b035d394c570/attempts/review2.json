@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “One specific thing that I wish to focus on”; translation.html, corresponding paragraph\",\"severity\":\"major\",\"source_quote\":\"“within the plain communities”\",\"suggested_fix\":\"Replace “سادہ طرزِ زندگی اختیار کرنے والی برادریوں میں” with “پلین برادریوں میں” (or another established Urdu rendering that identifies the Plain communities), preserving the sentence’s existing HTML structure.\",\"translation_quote\":\"“سادہ طرزِ زندگی اختیار کرنے والی برادریوں میں”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 655,
+    "content_evidence_truncated": false,
+    "content_sha256": "1a5b996a26602d269f5ff2fb4e441d1e29dbf814c5ecbe3d501c6cce22cf21cf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 762,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8273,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8270,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9177
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

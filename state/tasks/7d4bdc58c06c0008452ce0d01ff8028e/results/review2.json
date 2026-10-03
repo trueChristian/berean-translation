@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a62b3d51-9944-4f7a-9315-22f60da02bf3",
+    "response_id": "chatcmpl-EUeqy9fWrAMYHndk1PuXSvtH9fQ7z",
+    "usage": {
+      "completion_tokens": 293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10832,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10829,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11125
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Those who lose loved ones…”",
+        "severity": "major",
+        "source_quote": "Consider the experience of Elizabeth Elliot and the four others who were made widows in 1956 by jungle killers in Ecuador.",
+        "suggested_fix": "Change “Elizabeth Elliott” to “Elizabeth Elliot” to match the source name; leave the rest of the sentence unchanged.",
+        "translation_quote": "Σκεφτείτε την εμπειρία της Elizabeth Elliott και των άλλων τεσσάρων γυναικών που έμειναν χήρες το 1956 από δολοφόνους της ζούγκλας στον Ισημερινό."
+      },
+      {
+        "location": "source.html, quoted Scripture in the final blockquote (Matthew 9:2–8)",
+        "severity": "major",
+        "source_quote": "“Arise, take up thy bed, and go unto thine house.”",
+        "suggested_fix": "Translate the quotation in contemporary Greek, preserving the meaning “Σήκω, πάρε το κρεβάτι σου και πήγαινε στο σπίτι σου.” Translate the whole quoted passage in contemporary Greek while preserving the reference Matthew 9:2-8.",
+        "translation_quote": "«Σηκώθητι, σήκωσον την κλίνην σου και ύπαγε εις τον οίκον σου.»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

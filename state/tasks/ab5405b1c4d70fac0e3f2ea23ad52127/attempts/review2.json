@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «ظن أليآب أن موقف داود يدل على الكبرياء»\",\"severity\":\"major\",\"source_quote\":\"A ruddy youth walks up from tending sheep\",\"suggested_fix\":\"استبدل «فتى أشقر يافع» بـ«فتى محمرّ الوجه»؛ فـ«ruddy» تصف احمرار الوجه أو البشرة، لا شُقرة الشعر.\",\"translation_quote\":\"فتى أشقر يافع يأتي من رعاية الغنم\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 502,
+    "content_evidence_truncated": false,
+    "content_sha256": "f8a85a6a7c4dace4c070255f36c5d76a09e35bae1cf655d8feb8b83a8c5d6114",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 681,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8975
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

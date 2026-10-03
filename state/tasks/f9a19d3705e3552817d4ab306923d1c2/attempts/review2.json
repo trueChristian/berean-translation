@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph of the blockquote\",\"severity\":\"major\",\"source_quote\":\"“Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.”\",\"suggested_fix\":\"Change the clause to make clear that the person being addressed is to help carry the grieving friend’s burden, for example: “Kyk hoe hulle genees word, help om hulle las van droefheid te dra, en stap dan saam met hulle verder op pad na hulle hemelse tuiste.”\",\"translation_quote\":\"“Kyk hoe hulle genees word, hulle las van droefheid op hulle skouers neem en dan verder stap op pad na hulle hemelse tuiste.”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 665,
+    "content_evidence_truncated": false,
+    "content_sha256": "15666ac1b507ee9580255e9f4bb140683b189c413487c04b9e65d7a16cbdf4d3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 493,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9835
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

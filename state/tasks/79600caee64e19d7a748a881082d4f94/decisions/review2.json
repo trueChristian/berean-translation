@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “The story of David and Goliath…”",
+      "severity": "minor",
+      "source_quote": "“a perennial favorite of the young and old ever since”",
+      "suggested_fix": "Replace «è sempre stata una delle preferite di grandi e piccini» with «è da allora un classico amato da grandi e piccini» to convey the sense of enduring popularity.",
+      "translation_quote": "«da allora è sempre stata una delle preferite di grandi e piccini»"
+    },
+    {
+      "location": "Article, paragraph beginning “A Caring Conscience…”",
+      "severity": "major",
+      "source_quote": "“Jacob’s aspirations for Rachael made him forget the seven years of labor.”",
+      "suggested_fix": "Replace «Le aspirazioni di Giacobbe per Rachele gli permisero di sopportare i sette anni di lavoro» with «Le aspirazioni di Giacobbe per Rachele gli fecero dimenticare i sette anni di lavoro», preserving the source’s assertion.",
+      "translation_quote": "«Le aspirazioni di Giacobbe per Rachele gli permisero di sopportare i sette anni di lavoro.»"
+    },
+    {
+      "location": "Article, paragraph beginning “An Honest Imagination…”",
+      "severity": "major",
+      "source_quote": "“He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.”",
+      "suggested_fix": "Replace «Sulle colline di Betlemme aveva avuto la meglio sulle bestie (un leone e un orso) e, con l’aiuto di Dio, non teme di affrontarne uno nella valle di Ela (un uomo che era guerriero fin dalla giovinezza)» with «Sulle colline di Betlemme aveva avuto la meglio sulle bestie (un leone e un orso) e, con l’aiuto di Dio, non teme di affrontare un uomo nella valle di Ela, un guerriero fin dalla giovinezza». The source’s “one” refers to a man, not a beast.",
+      "translation_quote": "«Sulle colline di Betlemme aveva avuto la meglio sulle bestie (un leone e un orso) e, con l’aiuto di Dio, non teme di affrontarne uno nella valle di Ela (un uomo che era guerriero fin dalla giovinezza).»"
+    },
+    {
+      "location": "Article, paragraph beginning “Faithful Action…”",
+      "severity": "major",
+      "source_quote": "“His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.”",
+      "suggested_fix": "Replace «L’adrenalina gli scorreva in corpo mentre disprezzava la giovane età di Davide, saltava a conclusioni affrettate, si offendeva facilmente e si stupiva dell’ignoranza altrui» with «L’adrenalina gli scorreva in corpo mentre disprezzava la giovane età di Davide, traeva conclusioni affrettate, si lasciava offendere facilmente e si stupiva dell’ignoranza altrui». Here “jumped to conclusions” means making unwarranted assumptions, not literally jumping.",
+      "translation_quote": "«L’adrenalina gli scorreva in corpo mentre disprezzava la giovane età di Davide, saltava a conclusioni affrettate, si offendeva facilmente e si stupiva dell’ignoranza altrui.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

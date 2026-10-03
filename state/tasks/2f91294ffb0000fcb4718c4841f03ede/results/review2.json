@@ -1,0 +1,100 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "371d7077-c7c1-47f6-87f4-daaa1e3023e8",
+    "response_id": "chatcmpl-EUep73zmTVKpiAmNkxFuLSDsB0tQ9",
+    "usage": {
+      "completion_tokens": 1404,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8168,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8165,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9572
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article HTML, opening quotation and repeated question (first paragraph; Eliab quotation)",
+        "severity": "major",
+        "source_quote": "“What have I now done? Is there not a cause?”",
+        "suggested_fix": "Replace both instances of הֲאֵין לָכֶם סִיבָּה? with הֲלֹא יֵשׁ סִיבָּה? (or another natural Hebrew rendering of “Is there not a cause?”). Preserve the existing Scripture references and HTML structure.",
+        "translation_quote": "מֶה עָשִׂיתִי עַתָּה? הֲאֵין לָכֶם סִיבָּה?"
+      },
+      {
+        "location": "Article HTML, quotation of Eliab, 1 Samuel 17:28",
+        "severity": "major",
+        "source_quote": "“I know thy pride, and the naughtiness of thine heart”",
+        "suggested_fix": "Translate the accusation as a statement about David’s pride and wickedness, for example: אֲנִי יוֹדֵעַ אֶת־גַּאֲוָתְךָ וְאֶת־רֹעַ לְבָבֶךָ. Keep the quote in its existing <em> element and retain the reference.",
+        "translation_quote": "אֲנִי יָדַעְתִּי אֶת־זְדֹנְךָ וְאֵת רֹעַ לְבָבֶךָ"
+      },
+      {
+        "location": "Article HTML, paragraph beginning “As David arose early”",
+        "severity": "major",
+        "source_quote": "“The Lord was his Shepherd, and he had no lack”",
+        "suggested_fix": "Translate this as a statement that the Lord was David’s shepherd and David lacked nothing, for example: ה׳ היה רועהו, ולא חסר לו דבר. Do not change it to a statement that the Lord was David’s shepherd alone.",
+        "translation_quote": "ה׳ היה רועהו, ולא חסר לו דבר"
+      },
+      {
+        "location": "Article HTML, paragraph beginning “The greatest and superior endowment”",
+        "severity": "major",
+        "source_quote": "“If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs”",
+        "suggested_fix": "Translate “yodel” as the specific singing style, not ordinary singing; for example, replace each instance of לשיר יודל with לשיר יודל (יודל) or לשיר בסגנון יודל, phrased naturally in context.",
+        "translation_quote": "ללמד את הכלב שלי לשיר יודל, ... שכלבים יכולים ללמוד לשיר יודל"
+      },
+      {
+        "location": "Article HTML, paragraph beginning “As a holocaust prisoner”",
+        "severity": "major",
+        "source_quote": "“As a holocaust prisoner in a Nazi concentration camp, Victor Frankl was commissioned to labor in the ward of the camp where prisoners were dying of typhus.”",
+        "suggested_fix": "Correct the factual misstatement that Frankl was assigned to work in the ward: the source says he was commissioned to labor there. Use a Hebrew rendering such as הוטל עליו לעבוד במחלקה במחנה שבה גססו אסירים מטיפוס.",
+        "translation_quote": "ויקטור פרנקל, שהיה אסיר בשואה במחנה ריכוז נאצי, נשלח לעבוד במחלקה במחנה שבה גססו אסירים מטיפוס."
+      },
+      {
+        "location": "Article HTML, paragraph beginning “As Saul reluctantly consents”",
+        "severity": "major",
+        "source_quote": "“And David put them off him –1 Samuel 17:39,”",
+        "suggested_fix": "Retain the existing quotation and reference, but translate the printed Scripture wording faithfully, for example: וַיָּסִר דָּוִד אֹתָם מֵעָלָיו –שמואל א׳ 17:39,.",
+        "translation_quote": "וַיְסִרֵם דָּוִד מֵעָלָיו –שמואל א׳ 17:39,"
+      },
+      {
+        "location": "Article HTML, paragraph beginning “Goliath had automatically assumed”",
+        "severity": "major",
+        "source_quote": "“and the hand of a skillful slinger … could sling stones at an hair breadth, and not miss –Judges 20:16.”",
+        "suggested_fix": "Render the quoted prose in contemporary Hebrew, preserving its meaning (“could sling stones at a hair’s breadth and not miss”), and keep the reference as שופטים 20:16. For example: …היה יכול לקלוע אבנים במדויק עד כדי רוחב שערה ולא להחטיא.",
+        "translation_quote": "…הָיְתָה יָכֹל לִקְלֹעַ אֶבֶן אֶל־הַשַּׂעֲרָה וְלֹא יַחֲטִא –שופטים 20:16."
+      },
+      {
+        "location": "Article HTML, paragraph beginning “But David carried no such reactive mission”",
+        "severity": "major",
+        "source_quote": "“Joseph could not change his brothers’ reception, his master’s wife’s deception, the jail’s seclusion, or the butler’s delusion.”",
+        "suggested_fix": "Translate “the butler’s delusion” as the butler’s forgetting or failure to remember Joseph, not as an illusion. For example, use את שכחתו של שר המשקים.",
+        "translation_quote": "את אשליית שר המשקים"
+      },
+      {
+        "location": "Article HTML, paragraph beginning “Why would Japanese Kamikaze pilots” and poem",
+        "severity": "major",
+        "source_quote": "“from the needle of Dorcas… to the nail of Jael” and “Dorcus had a needle”",
+        "suggested_fix": "Use one consistent Hebrew form of the biblical name Dorcas/Dorcus (conventionally טביתא) throughout. The body currently uses טביתא, but the poem’s Dorcus should not be treated as a different person; ensure the wording consistently refers to the same name.",
+        "translation_quote": "ממחטו של טביתא… ; לטביתא הייתה מחט"
+      },
+      {
+        "location": "Article HTML, final paragraph before the poem",
+        "severity": "major",
+        "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+        "suggested_fix": "Translate the boats as belonging to Zebedee’s business, rather than as business boats belonging to Zebedee; for example: מסירות העסק של זבדי. Preserve the final phrase’s reference to his sons as the source’s poetic wording.",
+        "translation_quote": "מסירות עסקו של זבדי…"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragrafo che inizia «In Matthew 19:3-12»\",\"severity\":\"major\",\"source_quote\":\"«Don't equate man’s authority (the civil court) with God’s authority when it comes to deciding what the facts are concerning marriage, divorce, and remarriage.»\",\"suggested_fix\":\"Sostituire «Non equiparate l’autorità dell’uomo (il tribunale civile) all’autorità di Dio quando si tratta di stabilire i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.» con «Non equiparate l’autorità dell’uomo (il tribunale civile) a quella di Dio nel decidere quali siano i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.»\",\"translation_quote\":\"«Non equiparate l’autorità dell’uomo (il tribunale civile) all’autorità di Dio quando si tratta di stabilire i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.»\"},{\"location\":\"source.html, paragrafo che inizia «The context of 1 Corinthians 7:10-16»\",\"severity\":\"major\",\"source_quote\":\"«If verse 15 is speaking of the marriage covenant, then verse 39 would contradict verse 15 and the will of God according to the rest of Scripture, (see Matthew 19:5 and 1 Corinthians 7:10).»\",\"suggested_fix\":\"Correggere il riferimento nella traduzione da «(vedi Matteo 19:5 e 1 Corinzi 7:10)» a «(vedi Matteo 19:5 e 1 Corinzi 7:10)»? Il riferimento è già identico; non è necessaria alcuna modifica.\",\"translation_quote\":\"«(vedi Matteo 19:5 e 1 Corinzi 7:10)»\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1509,
+    "content_evidence_truncated": false,
+    "content_sha256": "455c00b9957da73370d6cb38caa4a9710a0188e0a1f4ea1e6e9db252bae00197",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11148,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11564
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

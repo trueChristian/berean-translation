@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,39 +64,47 @@
         },
         "total_tokens": 12269
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 962,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 605,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7778,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7775,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8740
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, first blockquote (Matteus 24:6–7)",
+      "location": "HTML paragraph beginning “En särskild sak som jag vill fokusera på”",
       "severity": "major",
-      "source_quote": "“and there shall be famines, and pestilences, and earthquakes, in divers places”",
-      "suggested_fix": "Ändra slutet av citatet till: ”och det ska bli hungersnöd, farsoter och jordbävningar på olika platser” så att även jordbävningarna i källtexten återges.",
-      "translation_quote": "“och det ska bli hungersnöd och pest på många platser”"
+      "source_quote": "this growing problem of broken relationships and emotional/mental struggles within the plain communities",
+      "suggested_fix": "Ändra ”i de enkla församlingarna” till en formulering som anger de särskilda plain-/traditionella anabaptistiska gemenskaperna, till exempel ”i de traditionella anabaptistiska gemenskaperna” (om det stämmer med publikationens terminologi).",
+      "translation_quote": "det växande problemet med trasiga relationer och känslomässiga och psykiska svårigheter i de enkla församlingarna"
     },
     {
-      "location": "HTML, stycket med citatet från Psaltaren 20:8a",
+      "location": "Sista bibelcitatet, Judasbrevet 1:24–25",
       "severity": "major",
-      "source_quote": "“They are brought down and [are] fallen”",
-      "suggested_fix": "Ändra till en formulering som återger att de blir nedslagna och faller, till exempel: ”De blir nedslagna och faller …”",
-      "translation_quote": "“De stapplar och faller…”"
-    },
-    {
-      "location": "HTML, stycket med citatet från Lukasevangeliet 21:26",
-      "severity": "major",
-      "source_quote": "“Men’s hearts [are] failing them for fear, and for looking after those things which are coming on the earth”",
-      "suggested_fix": "Ändra citatet så att det återger att människors hjärtan sviktar av rädsla och väntan på det som ska komma över jorden, till exempel: ”Människors hjärtan ska svikta av rädsla och väntan på det som ska komma över världen”.",
-      "translation_quote": "“Människor ska ge upp andan av skräck och väntan på det som ska komma över världen”"
-    },
-    {
-      "location": "HTML, sista blockcitatet (Judasbrevet 1:24–25)",
-      "severity": "major",
-      "source_quote": "“To the only wise God our Saviour”",
-      "suggested_fix": "Lägg till uppgiften att Gud är vis, till exempel: ”den ende vise Guden, vår Frälsare”.",
-      "translation_quote": "“den ende Guden, vår Frälsare”"
+      "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.",
+      "suggested_fix": "Översätt den tryckta formuleringen utan tillägget om Jesus Kristus och utan ”före all tid”. Exempel: ”den ende vise Guden, vår Frälsare, tillhör härlighet och majestät, välde och makt, nu och i all evighet. Amen.”",
+      "translation_quote": "honom, den ende vise Guden, vår Frälsare, genom Jesus Kristus, vår Herre, tillhör härlighet, majestät, välde och makt, före all tid, nu och i all evighet. Amen."
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "eb1800bc443963440849181748d35f52",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swe",
@@ -186,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

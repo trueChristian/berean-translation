@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dernière strophe du chant, première ligne",
+      "severity": "major",
+      "source_quote": "“Master, the terror is over, the elements sweetly rest;",
+      "suggested_fix": "Remplacer « Maître, la tempête est passée, les éléments reposent en paix ; » par « Maître, la terreur est passée, les éléments reposent doucement ; »",
+      "translation_quote": "« Maître, la tempête est passée, les éléments reposent en paix ;"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

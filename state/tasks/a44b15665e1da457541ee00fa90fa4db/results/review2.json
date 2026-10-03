@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7f9384c6-2c6f-4733-b6b9-4742e56073b8",
+    "response_id": "chatcmpl-EUeooQTiiwq0kwbri6hm1hrvMdmi5",
+    "usage": {
+      "completion_tokens": 1094,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 954,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7449,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7446,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8543
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «جليات بالغ كثيرًا في تقدير قدرته الشخصية»",
+        "severity": "minor",
+        "source_quote": "It was not unusual for them to be able to hit birds in flight.",
+        "suggested_fix": "Change «ولم يكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم» to «ولم تكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم».",
+        "translation_quote": "ولم يكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

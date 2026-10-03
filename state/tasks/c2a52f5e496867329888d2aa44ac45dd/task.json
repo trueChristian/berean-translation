@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 4992
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 624,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 463,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3146,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3143,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3770
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
-    {
-      "location": "HTML, paragraph beginning “My precious child”",
-      "severity": "major",
-      "source_quote": "“Not for a second could I leave your side.”",
-      "suggested_fix": "Replace the second sentence of this stanza with: “এক মুহূর্তের জন্যও আমি তোমার পাশ ছেড়ে যাইনি।”",
-      "translation_quote": "“এক মুহূর্তের জন্যও আমি তোমার পাশ ছেড়ে যেতে পারি না।”"
-    },
     {
       "location": "HTML, stanza beginning “This promise can also open to you”",
       "severity": "major",
-      "source_quote": "“For My strength and power are manifest, / When these to My will conform.”",
-      "suggested_fix": "Revise the last two lines to preserve that God’s strength and power become manifest when the hidden secrets conform to God’s will; for example: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।”",
-      "translation_quote": "“কারণ আমার শক্তি ও ক্ষমতা প্রকাশিত হয়, / যখন এগুলো আমার ইচ্ছার সঙ্গে মেলে।”"
+      "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+      "suggested_fix": "Replace the final two lines of this stanza with: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই শক্তি ও ক্ষমতা আমার ইচ্ছার সঙ্গে সঙ্গতিপূর্ণ হয়।” This keeps the stated subject as God’s strength and power, rather than the hidden secrets.",
+      "translation_quote": "কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "c2a52f5e496867329888d2aa44ac45dd",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ben",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

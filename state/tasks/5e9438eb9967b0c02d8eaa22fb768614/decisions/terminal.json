@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Alinea over David en Goliath",
+      "severity": "major",
+      "source_quote": "“The Lord was his Shepherd, and he had no lack”",
+      "suggested_fix": "Vervang “De Heer was zijn Herder en het ontbrak hem aan niets” niet door een afwijkende tekst? De huidige vertaling geeft de betekenis weer; geen wijziging nodig.",
+      "translation_quote": "“De Heer was zijn Herder en het ontbrak hem aan niets”"
+    },
+    {
+      "location": "Alinea over de oorzaak en Sauls beloning",
+      "severity": "major",
+      "source_quote": "“King Saul had offered tax exempt wealth and son-in-law status”",
+      "suggested_fix": "Vertaal “tax exempt wealth” als “belastingvrije rijkdom” (of een gelijkwaardige formulering), niet als “belastingvrijdom”; behoud daarnaast de beloning als rijkdom plus schoonzoonstatus.",
+      "translation_quote": "“Koning Saul had belastingvrijdom en de status van schoonzoon in het vooruitzicht gesteld”"
+    },
+    {
+      "location": "Alinea over zorgzaam geweten",
+      "severity": "major",
+      "source_quote": "“Edison’s pursuit of a successful light bulb caused him to forget the thousands of elements that had failed.”",
+      "suggested_fix": "Vervang “onderdelen” door “elementen” of “materialen” om de bronbetekenis te behouden; de bron zegt niet dat duizenden onderdelen van een lamp niet werkten.",
+      "translation_quote": "“Edisons streven naar een werkende gloeilamp deed hem de duizenden onderdelen vergeten die niet hadden gewerkt.”"
+    },
+    {
+      "location": "Alinea over David als herder",
+      "severity": "major",
+      "source_quote": "“He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.”",
+      "suggested_fix": "Herformuleer het slot zodat David niet wordt beschreven als iemand die een krijger “al vanaf zijn jeugd” is: bijvoorbeeld “...en vreest met Gods hulp niet de confrontatie in de vallei van Ela met een krijger, die al sinds zijn jeugd een man van oorlog is.”",
+      "translation_quote": "“...en vreest met Gods hulp niet de confrontatie in de vallei van Ela met een krijger die al vanaf zijn jeugd een man van oorlog is.”"
+    },
+    {
+      "location": "Alinea over het initiatief en Goliath",
+      "severity": "major",
+      "source_quote": "“The desire to dominate is no more noble than Goliath’s unbridled rage to destroy this young upstart.”",
+      "suggested_fix": "Behoud de vergelijking met Goliaths woede om David te vernietigen. Vertaal bijvoorbeeld: “Het verlangen om te overheersen is niet edeler dan Goliaths ongebreidelde woede om deze jonge nieuwkomer te vernietigen.”",
+      "translation_quote": "“Goliath was in zijn verlangen om te heersen niet edeler dan in zijn ongebreidelde woede om deze jonge nieuwkomer te vernietigen.”"
+    },
+    {
+      "location": "Alinea over Jozef en getrouw handelen",
+      "severity": "major",
+      "source_quote": "“the butler’s delusion”",
+      "suggested_fix": "Vertaal “delusion” als “waan” of “misvatting”; “waanvoorstelling” verandert hier de betekenis en suggereert een hallucinatie.",
+      "translation_quote": "“de waanvoorstelling van de schenker”"
+    },
+    {
+      "location": "Alinea over de middelen waarmee God reuzen velt",
+      "severity": "major",
+      "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Behoud het beeld van Zebedeüs’ bedrijfsboten en vertaal “boys of his bosom” als de jongens die hem dierbaar zijn (of een gelijkwaardige formulering); “de jongens die Hij aan zijn hart koestert” verandert de verwijzing naar Zebedeüs in God.",
+      "translation_quote": "“van de boten waarmee Zebedeüs zijn bedrijf dreef… tot de jongens die Hij aan zijn hart koestert.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

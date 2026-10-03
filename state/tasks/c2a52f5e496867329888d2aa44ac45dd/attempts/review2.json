@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza beginning “This promise can also open to you”\",\"severity\":\"major\",\"source_quote\":\"For My strength and power are manifest, / When these to My will conform.\",\"suggested_fix\":\"Replace the final two lines of this stanza with: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই শক্তি ও ক্ষমতা আমার ইচ্ছার সঙ্গে সঙ্গতিপূর্ণ হয়।” This keeps the stated subject as God’s strength and power, rather than the hidden secrets.\",\"translation_quote\":\"কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 875,
+    "content_evidence_truncated": false,
+    "content_sha256": "4aeb3ca51aa35d4a35bacecab429869ee893e2b9a47f2db20594254e71c159f2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 463,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3146,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3143,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3770
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

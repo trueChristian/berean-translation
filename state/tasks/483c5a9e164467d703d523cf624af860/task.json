@@ -2,7 +2,6 @@
   "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,46 +64,40 @@
         },
         "total_tokens": 15597
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 851,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 714,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9520,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9517,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10371
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "본문 2문단",
+      "location": "HTML: blockquote, Matthew 9:2–8 quotation",
       "severity": "major",
-      "source_quote": "You struggle and flail to regain your footing.",
-      "suggested_fix": "“다시 발을 디디려고 안간힘을 쓰며 허우적댑니다.”처럼, 발을 되찾으려 애쓰는 동작을 보존하세요.",
-      "translation_quote": "다시 발을 디디려고 버둥거리고 허우적댑니다."
-    },
-    {
-      "location": "본문, 고인의 죽음과 하나님의 영광에 관한 문단",
-      "severity": "major",
-      "source_quote": "This death was not a senseless tragedy; it was meant to bring glory to God.",
-      "suggested_fix": "“이 죽음은 무의미한 비극이 아니었습니다. 하나님의 영광을 드러내도록 의도된 일이었습니다.”처럼, 죽음이 하나님의 영광을 위한 것이었다는 원문의 주장을 보존하세요.",
-      "translation_quote": "이 죽음은 무의미한 비극이 아니었습니다. 하나님께 영광을 돌리기 위한 것이었습니다."
-    },
-    {
-      "location": "‘무슨 말을 해야 할까요?’ 아래 첫 번째 인용문",
-      "severity": "major",
-      "source_quote": "They need not tell us we are alone now. We know that already.",
-      "suggested_fix": "“이제 우리가 혼자라고 굳이 말해 줄 필요는 없습니다. 이미 알고 있습니다.”처럼, ‘alone’을 ‘홀로 남았다’가 아니라 ‘혼자’라는 뜻으로 옮기세요.",
-      "translation_quote": "이제 우리가 홀로 남았다고 굳이 말해 줄 필요는 없습니다. 이미 알고 있습니다."
-    },
-    {
-      "location": "‘슬픔을 겪으며 마주하는 또 다른 어려움’ 아래 첫 번째 인용문",
-      "severity": "major",
-      "source_quote": "Everyone grieves differently; there is no right or wrong way. And it never goes away even though all my friends’ lives go on as normal, which is very painful to watch.",
-      "suggested_fix": "“사람마다 슬퍼하는 방식은 다르며, 옳거나 그른 방식은 없습니다. 친구들의 삶이 모두 평소처럼 이어져도 슬픔은 사라지지 않습니다. 그 모습을 보는 것은 몹시 고통스럽습니다.”처럼, 슬픔이 사라지지 않는다는 원문의 주어와 뜻을 명확히 보존하세요.",
-      "translation_quote": "사람마다 슬퍼하는 방식은 다릅니다. 옳거나 그른 방식이 따로 없습니다. 친구들의 삶은 모두 평소처럼 흘러가지만, 슬픔은 사라지지 않습니다. 그 모습을 보는 것은 몹시 고통스럽습니다."
-    },
-    {
-      "location": "인용된 성경 구절, 마태복음 9:2-8",
-      "severity": "major",
-      "source_quote": "And he arose, and departed to his house. But when the multitudes saw it, they marvelled, and glorified God, which had given such power unto men –Matthew 9:2-8.",
-      "suggested_fix": "“그가 일어나 자기 집으로 돌아갔다. 무리가 이것을 보고 놀라 사람들에게 이런 권능을 주신 하나님께 영광을 돌렸다 –마태복음 9:2-8.”처럼, 그가 일어나 집으로 갔다는 내용과 무리가 놀랐다는 내용을 모두 보존하세요.",
-      "translation_quote": "그가 일어나 자기 집으로 돌아가거늘, 무리가 보고 두려워하며 이런 권능을 사람에게 주신 하나님께 영광을 돌리니라 –마태복음 9:2-8."
+      "source_quote": "“Son, be of good cheer; thy sins be forgiven thee”",
+      "suggested_fix": "In the quoted passage, replace “작은 자야 안심하라” with “아들아, 안심하라” to preserve the source’s address, “Son.”",
+      "translation_quote": "“작은 자야 안심하라 네 죄 사함을 받았느니라”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "483c5a9e164467d703d523cf624af860",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "kor",
@@ -193,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b81ed107719e1b3d59a5926df9439e3f25c21b973c7d37fb85d82f877dc026.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
   "translation_model_actual": "gpt-6-luna"

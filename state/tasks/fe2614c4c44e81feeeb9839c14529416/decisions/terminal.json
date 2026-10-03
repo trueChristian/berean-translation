@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poème, lignes 3–4",
+      "severity": "major",
+      "source_quote": "There’s a place up there, no toil or strife. However, the church, can forget of that life,",
+      "suggested_fix": "Remplacer par : « Là-haut, il y a un lieu sans labeur ni conflits. / Pourtant, l’Église peut oublier cette vie, » afin de conserver l’idée de l’existence d’un lieu sans peine ni conflit, et le contraste avec l’Église qui peut oublier cette vie.",
+      "translation_quote": "Là-haut, il y a un lieu sans labeur ni conflits. Pourtant, l’Église peut oublier cette vie,"
+    },
+    {
+      "location": "Poème, ligne 5",
+      "severity": "major",
+      "source_quote": "If the presence of God, shines as the sun,",
+      "suggested_fix": "Remplacer « Si » par « Puisque » : « Puisque la présence de Dieu brille comme le soleil, »",
+      "translation_quote": "Si la présence de Dieu brille comme le soleil,"
+    },
+    {
+      "location": "Poème, lignes 19–20",
+      "severity": "major",
+      "source_quote": "If heaven is real, we must be confused / For it seems it’s this life, that has us amused.",
+      "suggested_fix": "Rendre explicitement le lien d’inférence et l’idée que cette vie nous amuse, par exemple : « Si le ciel est réel, nous devons être dans la confusion, / Car il semble que c’est cette vie qui nous divertit. »",
+      "translation_quote": "Si le ciel est réel, nous devons être dans la confusion, / Car il semble que cette vie nous amuse."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

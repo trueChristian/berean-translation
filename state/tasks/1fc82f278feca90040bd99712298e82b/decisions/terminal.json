@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Heading “A Caring Conscience”",
+      "severity": "minor",
+      "source_quote": "A Caring Conscience",
+      "suggested_fix": "Replace “Uma consciência atenciosa” with “Uma consciência que se importa” to convey the sense of caring or concern in the source heading.",
+      "translation_quote": "Uma consciência atenciosa"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Ο Ελιάβ θεώρησε υπερήφανη τη στάση του Δαβίδ»",
+      "severity": "minor",
+      "source_quote": "A ruddy youth walks up from tending sheep",
+      "suggested_fix": "Replace «Ένα κοκκινομάλλικο παλικάρι» with «Ένα κοκκινωπό παλικάρι» to convey “ruddy” as a reddish complexion rather than red hair.",
+      "translation_quote": "Ένα κοκκινομάλλικο παλικάρι, που έρχεται από τη βοσκή των προβάτων"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

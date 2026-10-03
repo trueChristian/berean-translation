@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,39 +64,110 @@
         },
         "total_tokens": 14334
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1290,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8964,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8961,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10254
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, David’s speech (1 Samuel 17:45–46)",
-      "severity": "major",
-      "source_quote": "“I come to thee in the name of the LORD of hosts, the God of the armies of Israel”",
-      "suggested_fix": "Change «ربُّ الافواج» to «لشکروں کے خداوند» (or another conventional Urdu rendering of “the LORD of hosts”) so the line conveys the source’s title and wording.",
-      "translation_quote": "«میں تیرے پاس ربُّ الافواج کے نام سے آتا ہوں»"
+      "location": "پہلا پیراگراف",
+      "severity": "minor",
+      "source_quote": "“Pride is something that everyone must deal with.”",
+      "suggested_fix": "”غرور ایسی چیز ہے جس کا ہر شخص کو سامنا کرنا پڑتا ہے۔“",
+      "translation_quote": "”غرور ایسی چیز ہے جس سے ہر شخص کو نمٹنا پڑتا ہے۔“"
     },
     {
-      "location": "source.html, paragraph beginning “Let us look at an example to help us understand”",
-      "severity": "major",
-      "source_quote": "“every day you put on your nail bag and get to work”",
-      "suggested_fix": "Render “nail bag” as a bag or pouch for carrying nails, for example «ہر روز کیل رکھنے والی تھیلی باندھ کر کام پر لگ جاتے ہیں۔»",
-      "translation_quote": "«ہر روز کیلوں کی تھیلی پہن کر کام پر لگ جاتے ہیں۔»"
+      "location": "پہلا پیراگراف",
+      "severity": "minor",
+      "source_quote": "“the carnal man”",
+      "suggested_fix": "”نفسانی انسان“ یا ”جسمانی فطرت کا انسان“",
+      "translation_quote": "”جسمانی انسان“"
     },
     {
-      "location": "source.html, same house-building example",
+      "location": "دوسرا پیراگراف",
       "severity": "major",
-      "source_quote": "“that gable”",
-      "suggested_fix": "Replace «اُس ڈھلوان حصے» with «اُس گیبل/چھت کے مثلثی حصے» to identify the gable, rather than a sloping area generally.",
-      "translation_quote": "«اُس ڈھلوان حصے میں مجھ سے غلطی ہوئی»"
+      "source_quote": "“Psalms 40:4 says He will not respect the proud”",
+      "suggested_fix": "”زبور 40:4 کہتا ہے کہ وہ مغروروں کی طرف التفات نہیں کرے گا“ کو ”زبور 40:4 کہتا ہے کہ وہ اُس شخص کو برکت دیتا ہے جو خداوند پر بھروسا رکھتا ہے اور متکبروں یا جھوٹ کی طرف نہیں مڑتا“ سے بدلیں؛ اصل میں یہاں زبور 40:4 کا دعویٰ غلط طور پر پیش ہوا ہے، اس لیے ترجمہ اسے مزید پھیلا کر درست نہ کرے بلکہ ماخذ کے مطابق رکھے۔",
+      "translation_quote": "”زبور 40:4 کہتا ہے کہ وہ مغروروں کی طرف التفات نہیں کرے گا“"
     },
     {
-      "location": "source.html, final paragraph",
+      "location": "دوسرا پیراگراف",
       "severity": "major",
-      "source_quote": "“I’m perfect!”",
-      "suggested_fix": "Use «میں کامل ہوں!» or «میں بے عیب ہوں!»; do not convert the speaker’s first-person assertion into a description of an external quality.",
-      "translation_quote": "«میں کامل ہوں!»"
+      "source_quote": "“in Psalm 119: Thou hast rebuked the proud that are cursed, which do err from thy commandments –Psalm 119:21.”",
+      "suggested_fix": "”زبور 119:21 میں: تُو نے اُن مغروروں کو ملامت کی ہے جو ملعون ہیں اور تیرے احکام سے بھٹک جاتے ہیں—زبور 119:21۔“ کو ماخذ کے مطابق رہنے دیں، مگر حوالہ جاتی متن میں آیت کا نمبر 119:21 ہی برقرار رکھتے ہوئے عبارت کا حوالہ ماخذ کے مطابق ترجمہ کریں۔",
+      "translation_quote": "”زبور 119 میں: تُو نے اُن مغروروں کو ملامت کی ہے جو ملعون ہیں اور تیرے احکام سے بھٹک جاتے ہیں—زبور 119:21۔“"
+    },
+    {
+      "location": "چھٹا پیراگراف",
+      "severity": "major",
+      "source_quote": "“trying to keep it from being noticed by the uncovered public”",
+      "suggested_fix": "”تاکہ بے ڈھکے سر والے لوگوں کی نظر میں نہ آئے“ کو ”تاکہ سر نہ ڈھانپنے والے لوگوں کی نظر میں نہ آئے“ سے بدلیں۔",
+      "translation_quote": "”تاکہ بے ڈھکے سر والے لوگوں کی نظر میں نہ آئے“"
+    },
+    {
+      "location": "آٹھواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“It causes one to love their God with all their heart and obey God’s commands because of a passionate love for Him.”",
+      "suggested_fix": "”یہ اسے اپنے خدا سے اپنے سارے دل کے ساتھ محبت کرنے اور اُس کے احکام کی اطاعت کرنے پر آمادہ کرتی ہے، کیونکہ وہ اُس سے پرجوش محبت رکھتا ہے۔“ کو ”یہ انسان کو اپنے سارے دل سے خدا سے محبت کرنے اور اُس کے لیے پرجوش محبت کے باعث اُس کے احکام ماننے پر آمادہ کرتی ہے۔“ سے بدلیں۔",
+      "translation_quote": "”یہ اسے اپنے خدا سے اپنے سارے دل کے ساتھ محبت کرنے اور اُس کے احکام کی اطاعت کرنے پر آمادہ کرتی ہے، کیونکہ وہ اُس سے پرجوش محبت رکھتا ہے۔“"
+    },
+    {
+      "location": "بارھواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“David seemed a bit shocked, and aggrieved”",
+      "suggested_fix": "”داؤد کچھ چونکا ہوا اور رنجیدہ معلوم ہوتا تھا“ کو ”داؤد کچھ حیران اور رنجیدہ معلوم ہوتا تھا“ سے بدلیں۔",
+      "translation_quote": "”داؤد کچھ چونکا ہوا اور رنجیدہ معلوم ہوتا تھا“"
+    },
+    {
+      "location": "چودھواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“I cannot go against these; for I have not proved them.”",
+      "suggested_fix": "”میں یہ پہن کر نہیں جا سکتا، کیونکہ میں نے انہیں آزمایا نہیں۔“ کو ”میں ان چیزوں کے ساتھ نہیں جا سکتا، کیونکہ میں نے انہیں آزمایا نہیں۔“ سے بدلیں۔",
+      "translation_quote": "”میں یہ پہن کر نہیں جا سکتا، کیونکہ میں نے انہیں آزمایا نہیں۔“"
+    },
+    {
+      "location": "اکیسواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“If we would say, ‘Yes, it is a beautiful house; I did a great job building it!’”",
+      "suggested_fix": "”ہاں، یہ خوب صورت گھر ہے؛ میں نے اسے بنانے میں بہت اچھا کام کیا!“ کو ”ہاں، یہ خوب صورت گھر ہے؛ میں نے اسے بہت اچھا بنایا!“ سے بدلیں۔",
+      "translation_quote": "”ہاں، یہ خوب صورت گھر ہے؛ میں نے اسے بنانے میں بہت اچھا کام کیا!“"
+    },
+    {
+      "location": "بائیسواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“You never even put on your nail bag”",
+      "suggested_fix": "”آپ نے کیلوں کی تھیلی بھی نہیں پہنی“ کو ”آپ نے کیل رکھنے والی تھیلی بھی نہیں باندھی“ سے بدلیں۔",
+      "translation_quote": "”آپ نے کیلوں کی تھیلی بھی نہیں پہنی“"
+    },
+    {
+      "location": "چھبیسواں پیراگراف",
+      "severity": "major",
+      "source_quote": "“only known the city streets as home”",
+      "suggested_fix": "”جس نے صرف شہر کی گلیوں کو اپنا گھر جانا ہے“ کو ”جس نے شہر کی گلیوں کے سوا کوئی گھر نہیں جانا“ سے بدلیں۔",
+      "translation_quote": "”جس نے صرف شہر کی گلیوں کو اپنا گھر جانا ہے“"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "6e1d2b95113d7a44a0193c16b589e30f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "urd",
@@ -186,13 +256,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

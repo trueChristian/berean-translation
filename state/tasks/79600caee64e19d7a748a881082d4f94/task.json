@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,60 +64,61 @@
         },
         "total_tokens": 12714
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 748,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7713,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7710,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8461
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, terzo paragrafo",
-      "severity": "major",
-      "source_quote": "“sporting talent adds little to their honest pure worth as a human”",
-      "suggested_fix": "Replace “al loro autentico valore umano” with “al loro valore intrinseco e autentico come esseri umani”, preserving the distinction that athletic ability adds little to a person’s honest, inherent worth.",
-      "translation_quote": "“Ma il talento sportivo aggiunge ben poco al loro autentico valore umano.”"
+      "location": "Article, paragraph beginning “The story of David and Goliath…”",
+      "severity": "minor",
+      "source_quote": "“a perennial favorite of the young and old ever since”",
+      "suggested_fix": "Replace «è sempre stata una delle preferite di grandi e piccini» with «è da allora un classico amato da grandi e piccini» to convey the sense of enduring popularity.",
+      "translation_quote": "«da allora è sempre stata una delle preferite di grandi e piccini»"
     },
     {
-      "location": "HTML, paragrafo sulla mente e sui principi universali",
-      "severity": "major",
-      "source_quote": "“If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs”",
-      "suggested_fix": "Replace “a gorgheggiare” with “a cantare con lo jodel” (or another clear Italian equivalent); “gorgheggiare” means to sing with trills and loses the specific example of yodeling.",
-      "translation_quote": "“Se potessi insegnare al mio cane a gorgheggiare”"
-    },
-    {
-      "location": "HTML, paragrafo sulla coscienza sollecita",
+      "location": "Article, paragraph beginning “A Caring Conscience…”",
       "severity": "major",
       "source_quote": "“Jacob’s aspirations for Rachael made him forget the seven years of labor.”",
-      "suggested_fix": "Correct “gli fecero dimenticare” to “lo fecero affrontare” or “gli fecero sopportare”: the source says Jacob’s aspirations enabled him to bear the seven years of labor, not forget them.",
-      "translation_quote": "“Le aspirazioni di Giacobbe per Rachele gli fecero dimenticare i sette anni di lavoro.”"
+      "suggested_fix": "Replace «Le aspirazioni di Giacobbe per Rachele gli permisero di sopportare i sette anni di lavoro» with «Le aspirazioni di Giacobbe per Rachele gli fecero dimenticare i sette anni di lavoro», preserving the source’s assertion.",
+      "translation_quote": "«Le aspirazioni di Giacobbe per Rachele gli permisero di sopportare i sette anni di lavoro.»"
     },
     {
-      "location": "HTML, paragrafo su Golia e la fionda",
+      "location": "Article, paragraph beginning “An Honest Imagination…”",
       "severity": "major",
-      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
-      "suggested_fix": "Correct “una pistola da 45 mm” to “una pistola calibro .45” (or “una pistola da 11,4 mm”): the source refers to a .45-caliber handgun, not a 45-millimeter handgun.",
-      "translation_quote": "“la fionda di Davide aveva una potenza d’arresto pari a quella di una pistola da 45 mm”"
+      "source_quote": "“He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.”",
+      "suggested_fix": "Replace «Sulle colline di Betlemme aveva avuto la meglio sulle bestie (un leone e un orso) e, con l’aiuto di Dio, non teme di affrontarne uno nella valle di Ela (un uomo che era guerriero fin dalla giovinezza)» with «Sulle colline di Betlemme aveva avuto la meglio sulle bestie (un leone e un orso) e, con l’aiuto di Dio, non teme di affrontare un uomo nella valle di Ela, un guerriero fin dalla giovinezza». The source’s “one” refers to a man, not a beast.",
+      "translation_quote": "«Sulle colline di Betlemme aveva avuto la meglio sulle bestie (un leone e un orso) e, con l’aiuto di Dio, non teme di affrontarne uno nella valle di Ela (un uomo che era guerriero fin dalla giovinezza).»"
     },
     {
-      "location": "HTML, paragrafo finale prima della poesia",
+      "location": "Article, paragraph beginning “Faithful Action…”",
       "severity": "major",
-      "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
-      "suggested_fix": "Replace “dalle barche da pesca dell’attività di Zebedeo… ai ragazzi del suo cuore” with a translation conveying the source’s contrast: “dalle barche dell’attività di Zebedeo… ai ragazzi stretti al suo cuore.” The current wording distorts both the boats belonging to Zebedee’s business and “boys of his bosom.”",
-      "translation_quote": "“dalle barche da pesca dell’attività di Zebedeo… ai ragazzi del suo cuore.”"
-    },
-    {
-      "location": "HTML, poesia, riga 1",
-      "severity": "major",
-      "source_quote": "“Shamgar had an oxgoad;”",
-      "suggested_fix": "Correct “Sanghar” to “Samgar” (or another conventional Italian form of Shamgar), preserving the identity of the biblical figure.",
-      "translation_quote": "“Sanghar aveva un pungolo per buoi;”"
-    },
-    {
-      "location": "HTML, poesia, riga 4",
-      "severity": "major",
-      "source_quote": "“Rahab had a string;”",
-      "suggested_fix": "Replace “Raab” with the conventional Italian form “Rahab” (or “Raab” only if this is the established spelling used consistently in the target edition); ensure it identifies the biblical figure Rahab.",
-      "translation_quote": "“Raab aveva una corda;”"
+      "source_quote": "“His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.”",
+      "suggested_fix": "Replace «L’adrenalina gli scorreva in corpo mentre disprezzava la giovane età di Davide, saltava a conclusioni affrettate, si offendeva facilmente e si stupiva dell’ignoranza altrui» with «L’adrenalina gli scorreva in corpo mentre disprezzava la giovane età di Davide, traeva conclusioni affrettate, si lasciava offendere facilmente e si stupiva dell’ignoranza altrui». Here “jumped to conclusions” means making unwarranted assumptions, not literally jumping.",
+      "translation_quote": "«L’adrenalina gli scorreva in corpo mentre disprezzava la giovane età di Davide, saltava a conclusioni affrettate, si offendeva facilmente e si stupiva dell’ignoranza altrui.»"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "79600caee64e19d7a748a881082d4f94",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ita",
@@ -207,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

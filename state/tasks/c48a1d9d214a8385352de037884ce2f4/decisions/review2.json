@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph on David's response to Saul (1 Samuel 17:34–36)",
+      "severity": "major",
+      "source_quote": "“Thy servant slew both the lion and the bear”",
+      "suggested_fix": "Replace “Mtumishi wako amewaua simba na dubu wote wawili” with “Mtumishi wako alimwua simba na dubu” to preserve the source's statement that David killed both animals.",
+      "translation_quote": "“Mtumishi wako amewaua simba na dubu wote wawili”"
+    },
+    {
+      "location": "HTML paragraph beginning “Instead, it seems we have many defeated people”",
+      "severity": "major",
+      "source_quote": "“to act as if we are a defeated sinner trying to struggle through this earthly existence.”",
+      "suggested_fix": "Change “kana kwamba sisi ni wenye dhambi walioshindwa” to “kana kwamba sisi ni mwenye dhambi aliyeshindwa” to retain the source's singular “a defeated sinner.”",
+      "translation_quote": "“kana kwamba sisi ni wenye dhambi walioshindwa wanaojaribu kujikakamua katika maisha haya ya duniani.”"
+    },
+    {
+      "location": "HTML paragraph on the poor criminal who repents",
+      "severity": "major",
+      "source_quote": "“He leaves that alley a new person!”",
+      "suggested_fix": "Replace “Anaondoka katika kichochoro hicho akiwa mtu mpya!” with “Anaondoka katika kichochoro hicho akiwa mtu aliyebadilika!” or another natural rendering that does not say he leaves while physically inside the alley.",
+      "translation_quote": "“Anaondoka katika kichochoro hicho akiwa mtu mpya!”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

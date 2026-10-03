@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 4637
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 20,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2931,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2928,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2951
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, stanza beginning “This promise can also open to you”",
-      "severity": "major",
-      "source_quote": "“This promise can also open to you, / The secrets that are hid 'midst the storm. / For My strength and power are manifest, / When these to My will conform.”",
-      "suggested_fix": "Replace the corresponding stanza with: „Dieses Versprechen kann dir auch / die Geheimnisse erschließen, die sich im Sturm verbergen. / Denn Meine Kraft und Macht werden offenbar, / wenn diese sich Meinem Willen fügen.“",
-      "translation_quote": "„Diese Verheißung kann dir auch / die Geheimnisse erschließen, die sich im Sturm verbergen. / Denn Meine Kraft und Macht werden offenbar, / wenn sich diese Meinem Willen fügen.“"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "98dd9627edf9cb010a92398f479be279",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "deu",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,67 +64,61 @@
         },
         "total_tokens": 12808
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 598,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7558,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7555,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8156
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Первый абзац после цитаты; затем абзац, начинающийся «Когда Давид рано утром…»",
+      "location": "HTML, абзац о воинских доспехах Давида",
       "severity": "major",
-      "source_quote": "“over three millenniums ago”; “his pack of corn, bread, and cheese”",
-      "suggested_fix": "Заменить «более трёх тысяч лет назад» на «более трёх тысячелетий назад»; «мешок с зерном, хлебом и сыром» — на «сумку с зерном, хлебом и сыром» (или «мешок с кукурузой, хлебом и сыром», если сохранить выбранное значение corn).",
-      "translation_quote": "«более трёх тысяч лет назад»; «мешок с зерном, хлебом и сыром»"
+      "source_quote": "“…And David put them off him –1 Samuel 17:39,”",
+      "suggested_fix": "Исправить цитату на: «…не могу ходить в этом, потому что не испытал их. И снял их с себя — 1 Царств 17:39,»",
+      "translation_quote": "«…не могу ходить в этом, потому что не испытал их. И снял Давид всё это с себя — 1 Царств 17:39,»"
     },
     {
-      "location": "Абзац с цитатой из Евреям 12:2",
-      "severity": "major",
-      "source_quote": "“who for the joy that was set before him”",
-      "suggested_fix": "Перевести смысл напечатанной английской цитаты: например, «Который ради предлежавшей Ему радости…». Не заменять его другим вариантом цитаты, меняющим смысл.",
-      "translation_quote": "«Который вместо предлежавшей Ему радости»"
-    },
-    {
-      "location": "Абзац о спортивной арене",
-      "severity": "minor",
-      "source_quote": "“stressed parents”",
-      "suggested_fix": "Заменить «родителей, измученных стрессом» на более естественное «родителей, испытывающих стресс» или «родителей, находящихся в стрессе».",
-      "translation_quote": "«родителей, измученных стрессом»"
-    },
-    {
-      "location": "Абзац «Честное воображение»",
+      "location": "HTML, абзац о преследовании цели Давидом",
       "severity": "major",
       "source_quote": "“He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.”",
-      "suggested_fix": "Исправить смысловую связь: Давид уже одержал победу над зверями (львом и медведем) на холмах Вифлеема и с Божьей помощью не боится сразиться с воином в долине Ела.",
-      "translation_quote": "«Он добился успеха, сражаясь со зверями — львом и медведем — на холмах Вифлеема, и с Божьей помощью не боится вступить в схватку с человеком в долине Ела, воином с юности.»"
+      "suggested_fix": "Уточнить перевод: «Он уже успешно справлялся со зверями (львом и медведем) на холмах Вифлеема и с Божьей помощью не боится сразиться с человеком, который с юности был воином, в долине Ела.»",
+      "translation_quote": "«Он уже одержал победу над зверями — львом и медведем — на холмах Вифлеема и с Божьей помощью не боится сразиться с воином в долине Ела.»"
     },
     {
-      "location": "Абзац с цитатой из 1 Царств 17:39",
+      "location": "HTML, абзац о средствах, которыми Бог поражает великанов",
       "severity": "major",
-      "source_quote": "“…for I have not proved them.”",
-      "suggested_fix": "Передать смысл «я не испытал их / не опробовал их», а не «я не привык».",
-      "translation_quote": "«…не могу ходить в этом, я не привык.»"
+      "source_quote": "“…from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Сохранить смысл образа «nail» как кола и не превращать последнюю фразу в утверждение о детях в доме: «…от иглы Тавифы… до кола Иаили, от лодок Зеведея, связанных с его делом… до сыновей, прижатых к его груди.»",
+      "translation_quote": "«…от иглы Тавифы… до кола Иаили, от лодок Зеведея, связанных с его делом… до детей его дома.»"
     },
     {
-      "location": "Абзац, начинающийся «Голиаф самонадеянно…»",
-      "severity": "major",
-      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
-      "suggested_fix": "Сохранить число и единицу измерения как в источнике: заменить «пистолета калибра 45 мм» на «пистолета калибра 45 мм» только если это именно подразумеваемый калибр; в русском переводе исходное значение здесь фактически искажено, поскольку английское “45 mm” означает 45-миллиметровый пистолет, а не замену единицы. Уточнить формулировку без изменения 45 mm.",
-      "translation_quote": "«пистолета калибра 45 мм»"
-    },
-    {
-      "location": "Абзац, начинающийся «Но Давид не руководствовался…»",
-      "severity": "major",
-      "source_quote": "“Joseph could not change his brothers’ reception, his master’s wife’s deception, the jail’s seclusion, or the butler’s delusion.”",
-      "suggested_fix": "Исправить смысл перечисления: речь о приёме/отношении братьев, обмане жены господина, заточении в тюрьме и заблуждении виночерпия. Например: «Иосиф не мог изменить того, как его приняли братья, обмана жены своего господина, заточения в темнице или заблуждения виночерпия».",
-      "translation_quote": "«Иосиф не мог изменить отношение братьев, обман жены своего господина, одиночество темницы или заблуждение виночерпия.»"
-    },
-    {
-      "location": "Заключительный абзац и стихотворение",
-      "severity": "major",
-      "source_quote": "“from the needle of Dorcas… to the nail of Jael”; “Dorcus had a needle”",
-      "suggested_fix": "Исправить имя Dorcas/Dorcus на общепринятое русское «Тавифа» в обоих местах; также перевести “the boys of his bosom” как детей/сыновей из его дома, не меняя образ без основания.",
-      "translation_quote": "«от иглы Серны…»; «У Серны была игла»"
+      "location": "HTML, стихотворение, строка о Самсоне",
+      "severity": "minor",
+      "source_quote": "“Samson had a jawbone;”",
+      "suggested_fix": "Для точности указать, что это была челюсть осла: «У Самсона была ослиная челюсть;»",
+      "translation_quote": "«У Самсона была ослиная челюсть;»"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "e30135eb7d6ac75caf2a7ec9047e5e41",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "rus",
@@ -214,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

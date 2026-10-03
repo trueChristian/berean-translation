@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "134b0386-0576-4bdf-9872-459c41a1e419",
+    "response_id": "chatcmpl-EUepSeMLazF9KSRqUSd1G5RzQuR5v",
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7278,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7275,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7935
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "المتن، فقرة «صُنعنا على صورة الله»",
+        "severity": "major",
+        "source_quote": "“It is helpful to review how we, as Christians, approach end-of-life situations and try to understand where the world around us has gone so terribly wrong.”",
+        "suggested_fix": "استبدل «أين انحرف العالم من حولنا انحرافًا فادحًا» بـ«كيف أخطأ العالم من حولنا خطأً فادحًا»؛ المقصود فهم ما الذي سلكه العالم على نحو خاطئ، لا تحديد موضع انحرافه.",
+        "translation_quote": "«وأن نحاول أن نفهم أين انحرف العالم من حولنا انحرافًا فادحًا»"
+      },
+      {
+        "location": "المتن، فقرة «نهاية الحياة» عن السويد",
+        "severity": "major",
+        "source_quote": "“the government made the decision that elderly residents of nursing facilities would not be treated for COVID.”",
+        "suggested_fix": "استبدل «قررت الحكومة عدم علاج المقيمين المسنين في مرافق الرعاية من كوفيد» بـ«قررت الحكومة ألا يُعالَج المقيمون المسنون في مرافق الرعاية من كوفيد»؛ النص يذكر قرارًا بعدم علاجهم، لا مجرد عدم علاجهم من كوفيد تحديدًا.",
+        "translation_quote": "«قررت الحكومة عدم علاج المقيمين المسنين في مرافق الرعاية من كوفيد»"
+      },
+      {
+        "location": "المتن، فقرة «أدرك أن الألم مرجح» عن الرعاية التلطيفية",
+        "severity": "major",
+        "source_quote": "“This is a type of care that is specifically designed to treat the pain and other symptoms, usually of a terminally ill patient (to keep them comfortable, not to try to cure them).”",
+        "suggested_fix": "عدّل العبارة لتقول إن الرعاية تُقدَّم عادةً لمريض مصاب بمرض عضال، مثلًا: «وهي نوع من الرعاية صُمم خصيصًا لمعالجة الألم والأعراض الأخرى، ويُقدَّم عادةً للمريض المصاب بمرض عضال (لإراحته، لا لمحاولة شفائه).»",
+        "translation_quote": "«وهي نوع من الرعاية صُمم خصيصًا لمعالجة الألم والأعراض الأخرى، وعادةً ما يُقدّم للمريض المصاب بمرض عضال»"
+      },
+      {
+        "location": "المتن، الفقرة نفسها عن برامج الهوسبيس",
+        "severity": "major",
+        "source_quote": "“This is the sort of care that is offered by hospice programs.”",
+        "suggested_fix": "استبدل «وهذا هو نوع الرعاية الذي تقدمه برامج الهوسبيس، أي برامج الرعاية التلطيفية في دور رعاية المحتضرين» بـ«وهذا هو نوع الرعاية الذي تقدمه برامج رعاية المحتضرين»؛ المصدر لا يحدد أن البرامج تُقدَّم في دور رعاية.",
+        "translation_quote": "«وهذا هو نوع الرعاية الذي تقدمه برامج الهوسبيس، أي برامج الرعاية التلطيفية في دور رعاية المحتضرين»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

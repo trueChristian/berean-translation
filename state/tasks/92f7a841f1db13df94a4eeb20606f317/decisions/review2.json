@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Hosea discussion, paragraph beginning “Algún tiempo después de que Oseas…”",
+      "severity": "minor",
+      "source_quote": "By Hosea patiently “alluring her and speaking comfortably to her”",
+      "suggested_fix": "Replace «la seduce y le habla con ternura» with «la atrae pacientemente y le habla con ternura» to avoid suggesting sexual seduction.",
+      "translation_quote": "Oseas «la seduce y le habla con ternura»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

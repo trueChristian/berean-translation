@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদের উদ্ধৃতি, আদিপুস্তক ৮:২২",
+      "severity": "major",
+      "source_quote": "seedtime and harvest, and cold and heat, and summer and winter",
+      "suggested_fix": "উদ্ধৃতিটির ওই অংশে উৎসের ক্রম ও অর্থ বজায় রেখে লিখুন: “বীজ বোনার সময় ও ফসল কাটার সময়, শীত ও গরম, গ্রীষ্ম ও শীতকাল”।",
+      "translation_quote": "বীজ বোনা ও ফসল কাটার সময়, শীত ও গ্রীষ্ম, গরম ও ঠান্ডা"
+    },
+    {
+      "location": "“The worth of a soul” অংশের প্রথম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "both close to home and abroad",
+      "suggested_fix": "লিখুন: “দেশের কাছাকাছি ও বিদেশে—উভয় ক্ষেত্রেই”।",
+      "translation_quote": "দেশের কাছাকাছি ও বিদেশে"
+    },
+    {
+      "location": "আত্মার মূল্য অংশ, বারান্দা ও যানবাহনের অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "I am one of those who enjoys relaxing on the porch of a house, which is located along a major highway, and watching the traffic.",
+      "suggested_fix": "লিখুন: “আমি তাদের একজন, যারা একটি বড় সড়কের পাশে অবস্থিত বাড়ির বারান্দায় আরাম করে বসে যানবাহন চলাচল দেখতে উপভোগ করি।”",
+      "translation_quote": "আমি তাদের একজন, যারা একটি বাড়ির বারান্দায় আরাম করে বসে থাকতে উপভোগ করি; বাড়িটি একটি বড় সড়কের পাশে, আর সেখানে বসে যানবাহন চলাচল দেখতে ভালো লাগে।"
+    },
+    {
+      "location": "একই অনুচ্ছেদ, আত্মা অনন্তকাল কোথায় কাটাবে",
+      "severity": "major",
+      "source_quote": "each one has a soul that will spend all of eternity somewhere! Alive!",
+      "suggested_fix": "“প্রত্যেকেরই এমন একটি আত্মা আছে, যা অনন্তকাল কোথাও কাটাবে! জীবিত!”—এই অর্থটি বজায় রাখুন; এখানে “Alive!” আত্মার অস্তিত্ব/জীবিত থাকার ওপর জোর, “জীবিত অবস্থায়” নয়।",
+      "translation_quote": "তাদের প্রত্যেকেরই এমন একটি আত্মা আছে, যা অনন্তকাল কোথাও কাটাবে! জীবিত অবস্থায়!"
+    },
+    {
+      "location": "আত্মার মূল্য অংশ, গাড়ি মেরামতকারীর সাক্ষ্য",
+      "severity": "major",
+      "source_quote": "folks have been pointed to a Living God and a life after death",
+      "suggested_fix": "লিখুন: “লোকেদের জীবন্ত ঈশ্বর ও মৃত্যুর পরের জীবনের দিকে নির্দেশিত করা হয়েছে।”",
+      "translation_quote": "লোকেরা কীভাবে জীবন্ত ঈশ্বর ও মৃত্যুর পরের জীবনের দিকে নির্দেশিত হয়েছে"
+    },
+    {
+      "location": "আত্মার মূল্য অংশ, সৃষ্টিকর্তার বিষয়ে অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "What if we were the one who God wanted to say a word for Him out of a life that was living for Him to bring His awareness to one who knows not the One, Living, and True God?",
+      "suggested_fix": "বাক্যটির অর্থ—ঈশ্বরের জন্য নিবেদিত জীবনযাপনকারী আমাদের কাউকে ব্যবহার করে, একমাত্র জীবন্ত ও সত্য ঈশ্বরকে না-জানা ব্যক্তির কাছে তাঁর পরিচয় পৌঁছে দিতে পারেন—স্পষ্ট করে অনুবাদ করুন।",
+      "translation_quote": "যদি আমিই সেই ব্যক্তি হই, যার মাধ্যমে ঈশ্বর তাঁর বিষয়ে একটি কথা বলতে চান—এমন একজনের কাছে, যে একমাত্র, জীবন্ত ও সত্য ঈশ্বরকে চেনে না—যাতে ঈশ্বরের পরিচয় তার কাছে পৌঁছে যায়?"
+    },
+    {
+      "location": "স্থানীয় সম্প্রদায়ে সম্পর্ক ও মানসিক সংগ্রাম প্রসঙ্গ",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "“plain communities” বলতে নির্দিষ্ট Plain সম্প্রদায়গুলো বোঝানো হয়েছে; “প্লেইন সম্প্রদায়গুলো”র বদলে প্রচলিত নাম/ব্যাখ্যাসহ বাংলায় তা স্পষ্ট করুন, যেমন “প্লেইন (Plain) সম্প্রদায়গুলো”।",
+      "translation_quote": "প্লেইন সম্প্রদায়গুলোর মধ্যে"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

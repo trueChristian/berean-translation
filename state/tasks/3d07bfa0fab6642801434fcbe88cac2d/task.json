@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,25 +64,68 @@
         },
         "total_tokens": 11376
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Avsnittet som begynner «Kristne bør ikke handle ut fra slike motiver»",
-      "severity": "major",
-      "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.",
-      "suggested_fix": "Erstatt sitatet med en trofast oversettelse av den trykte teksten, for eksempel: «For Gud har ikke gitt oss en fryktens ånd, men krafts og kjærlighets og sindighets ånd – 2. Timoteus 1:7.»",
-      "translation_quote": "For Gud har ikke gitt oss en ånd som gjør motløs; vi har fått krafts og kjærlighets og sindighets ånd – 2. Timoteus 1:7."
     },
     {
-      "location": "Tittelen på artikkelen",
-      "severity": "minor",
-      "source_quote": "End of Life",
-      "suggested_fix": "«Livets slutt» er forståelig, men bruk gjerne «Ved livets slutt» for å gjengi tittelen idiomatisk på norsk bokmål.",
-      "translation_quote": "Livets slutt"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 534,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7410,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7407,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7944
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Avsnittet om menneskets verdi",
+      "severity": "major",
+      "source_quote": "They are not worth something because of their intelligence or talents.",
+      "suggested_fix": "Bytt «De er ikke verdifulle på grunn av intelligensen eller talentene sine.» med «De er ikke verdt noe på grunn av intelligensen eller talentene sine.»",
+      "translation_quote": "De er ikke verdifulle på grunn av intelligensen eller talentene sine."
+    },
+    {
+      "location": "Avsnittet om lidelse",
+      "severity": "major",
+      "source_quote": "It brings glory to God when we suffer with a meek and quiet spirit.",
+      "suggested_fix": "Bytt «Gud blir herliggjort når vi lider med en ydmyk og stille ånd.» med «Det bringer Gud ære når vi lider med en ydmyk og stille ånd.»",
+      "translation_quote": "Gud blir herliggjort når vi lider med en ydmyk og stille ånd."
+    },
+    {
+      "location": "Avsnittet om Guds forutviten",
+      "severity": "major",
+      "source_quote": "There are many other verses like Jeremiah 1:4-5 and Psalm 139:13-15 that speak of God’s foreknowledge in our creation.",
+      "suggested_fix": "Bytt «som taler om Guds forutviten da han skapte oss» med «som taler om Guds forutviten om vår tilblivelse».",
+      "translation_quote": "som taler om Guds forutviten da han skapte oss"
+    },
+    {
+      "location": "Avsnittet om palliativ behandling",
+      "severity": "minor",
+      "source_quote": "This is a type of care that is specifically designed to treat the pain and other symptoms",
+      "suggested_fix": "Bytt «en type behandling som er spesielt utformet for å behandle smerter og andre symptomer» med «en type omsorg som er spesielt utformet for å lindre smerter og andre symptomer».",
+      "translation_quote": "en type behandling som er spesielt utformet for å behandle smerter og andre symptomer"
+    },
+    {
+      "location": "Avsnittet om behandling i Sverige under COVID",
+      "severity": "minor",
+      "source_quote": "Many were not even given oxygen, but simply started on Morphine and sedatives",
+      "suggested_fix": "Bytt «ble i stedet satt på morfin og beroligende midler» med «fikk i stedet morfin og beroligende midler».",
+      "translation_quote": "ble i stedet satt på morfin og beroligende midler"
+    }
+  ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "3d07bfa0fab6642801434fcbe88cac2d",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nob",
@@ -172,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

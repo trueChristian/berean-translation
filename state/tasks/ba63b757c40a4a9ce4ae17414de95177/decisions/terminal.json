@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Citação final, último parágrafo do blockquote",
+      "severity": "minor",
+      "source_quote": "you can carry your grief-‘paralyzed’ friend to Jesus. Watch them be healed, shoulder their burden of grief",
+      "suggested_fix": "Troque “Veja-as serem curadas, ajude-as a carregar o fardo do pesar” por “Veja seu amigo ser curado, carregue o fardo do pesar com ele” (ou use uma formulação singular e neutra quanto ao gênero).",
+      "translation_quote": "você pode levar a Jesus seu amigo ‘paralisado’ pelo pesar. Veja-as serem curadas, ajude-as a carregar o fardo do pesar"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

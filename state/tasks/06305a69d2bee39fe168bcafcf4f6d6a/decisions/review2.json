@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “One specific thing that I wish to focus on”",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "Sostituire «nelle comunità anabattiste tradizionali» con «nelle comunità che seguono uno stile di vita semplice», evitando di attribuire loro una specifica identità religiosa non indicata nel testo fonte.",
+      "translation_quote": "nelle comunità anabattiste tradizionali"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

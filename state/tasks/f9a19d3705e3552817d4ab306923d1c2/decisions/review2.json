@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph of the blockquote",
+      "severity": "major",
+      "source_quote": "“Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.”",
+      "suggested_fix": "Change the clause to make clear that the person being addressed is to help carry the grieving friend’s burden, for example: “Kyk hoe hulle genees word, help om hulle las van droefheid te dra, en stap dan saam met hulle verder op pad na hulle hemelse tuiste.”",
+      "translation_quote": "“Kyk hoe hulle genees word, hulle las van droefheid op hulle skouers neem en dan verder stap op pad na hulle hemelse tuiste.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

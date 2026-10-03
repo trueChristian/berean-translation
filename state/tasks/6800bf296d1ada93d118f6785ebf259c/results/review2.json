@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ed9b9ca8-c19c-4b39-b517-d20d7273cfe0",
+    "response_id": "chatcmpl-EUeqcHj7ynEu9NNiCvS5IJyRZY6Jz",
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2899,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3489
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, third stanza",
+        "severity": "minor",
+        "source_quote": "Not knowing how next to begin.",
+        "suggested_fix": "Niet wetend hoe ik opnieuw moest beginnen.",
+        "translation_quote": "Niet wetend hoe ik verder moest gaan."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

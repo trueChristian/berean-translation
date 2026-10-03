@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, kutipan Matius 9:2–8 di dalam blockquote",
+      "severity": "major",
+      "source_quote": "“Son, be of good cheer; thy sins be forgiven thee …”",
+      "suggested_fix": "Ganti “Percayalah, hai anak-Ku, dosamu sudah diampuni.” dengan “Tabahlah, anak-Ku, dosamu sudah diampuni.” Ini mempertahankan maksud “be of good cheer” tanpa mengubahnya menjadi perintah untuk percaya.",
+      "translation_quote": "“Percayalah, hai anak-Ku, dosamu sudah diampuni.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

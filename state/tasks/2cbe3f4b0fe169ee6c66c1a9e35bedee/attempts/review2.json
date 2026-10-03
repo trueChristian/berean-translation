@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, абзац 3\",\"severity\":\"minor\",\"source_quote\":\"I’m sure the children would enjoy a vacation as well.\",\"suggested_fix\":\"Заменить «Уверена, дети тоже будут рады небольшой поездке» на «Уверена, детям тоже понравятся каникулы» (или «дети тоже будут рады отпуску»), чтобы сохранить смысл vacation.\",\"translation_quote\":\"Уверена, дети тоже будут рады небольшой поездке\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 610,
+    "content_evidence_truncated": false,
+    "content_sha256": "031ce85bca7823b613d8f8015536b716bdeb7a6789600c357effb5de28f9d951",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 547,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 424,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2809,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2806,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3356
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

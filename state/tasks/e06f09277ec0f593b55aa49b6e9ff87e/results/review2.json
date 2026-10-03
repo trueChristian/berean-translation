@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1fa79046-9da6-427b-a2b3-a05d51bee17a",
+    "response_id": "chatcmpl-EUer3Seh0SYdRyOpckfR9JmVV4xpG",
+    "usage": {
+      "completion_tokens": 635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8021,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8018,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8656
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “As a man has a cause…” / corresponding translation paragraph",
+        "severity": "major",
+        "source_quote": "“When a man has a cause set before him, he can endure almost anything.”",
+        "suggested_fix": "Replace “사람 앞에 분명한 대의가 놓여 있으면 거의 무엇이든 견딜 수 있습니다.” with “사람 앞에 대의가 놓여 있으면 거의 무엇이든 견딜 수 있습니다.” The source does not say the cause must be clear.",
+        "translation_quote": "“사람 앞에 분명한 대의가 놓여 있으면 거의 무엇이든 견딜 수 있습니다.”"
+      },
+      {
+        "location": "source.html, paragraph beginning “As Saul reluctantly consents…” / corresponding translation paragraph",
+        "severity": "major",
+        "source_quote": "“And David put them off him –1 Samuel 17:39,”",
+        "suggested_fix": "Correct the reference in this quotation from “사무엘상 17:39” to “사무엘상 17:39,” preserving the source punctuation and reference number; the translation currently does not add a verse, but the closing comma belongs after the reference in the source quotation.",
+        "translation_quote": "“다윗은 그것들을 벗어 버렸습니다 —사무엘상 17:39,”"
+      },
+      {
+        "location": "source.html, paragraph beginning “As Saul reluctantly consents…” / corresponding translation paragraph",
+        "severity": "major",
+        "source_quote": "“choosing five stones instead.”",
+        "suggested_fix": "Replace “그리고 대신 돌 다섯 개를 골랐습니다” with “대신 돌 다섯 개를 골랐습니다.” The source makes David the subject of choosing the stones; the current sentence can read as though Saul chose them.",
+        "translation_quote": "“그리고 대신 돌 다섯 개를 골랐습니다.”"
+      },
+      {
+        "location": "source.html, paragraph beginning “Goliath had automatically assumed…” / corresponding translation paragraph",
+        "severity": "major",
+        "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+        "suggested_fix": "Translate the printed measurement faithfully as “45mm 권총”; do not change millimeters to “밀리미터” in a way that suggests a 45-millimeter handgun. For example: “45mm 권총에 맞먹는 저지력을 냈고”.",
+        "translation_quote": "“45밀리미터 권총에 맞먹는 저지력을 냈고”"
+      },
+      {
+        "location": "source.html, poem / corresponding translation poem",
+        "severity": "major",
+        "source_quote": "“Dorcus had a needle;”",
+        "suggested_fix": "Correct the name to the source’s “Dorcus” rendering in Korean, such as “도르쿠스에게는 바늘이 있었고;”. Do not substitute “도르가,” which is a different spelling/name form from the printed source.",
+        "translation_quote": "“도르가에게는 바늘이 있었고;”"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

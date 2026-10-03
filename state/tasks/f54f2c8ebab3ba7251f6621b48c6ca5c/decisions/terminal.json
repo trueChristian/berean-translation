@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “In Psalms, it says…”",
+      "severity": "major",
+      "source_quote": "Psalms 40:4 says He will not respect the proud",
+      "suggested_fix": "Correct the reference’s subject and verb to preserve the source: «Salmo 40:4 dice que no respetará a los orgullosos» (or a clear equivalent).",
+      "translation_quote": "Salmo 40:4 dice que no tendrá en cuenta a los orgullosos"
+    },
+    {
+      "location": "source.html, paragraph beginning “When we do a work on our own…”",
+      "severity": "major",
+      "source_quote": "When we do a work on our own, we cannot boast of it because we did it.",
+      "suggested_fix": "Translate “because we did it” as «porque la hicimos nosotros» or an equivalent that retains the stated reason; remove the reversal of meaning.",
+      "translation_quote": "Cuando hacemos una obra por nuestra cuenta, no podemos jactarnos de ella porque la hicimos nosotros."
+    },
+    {
+      "location": "source.html, paragraph beginning “Your cheeks blush a little…”",
+      "severity": "major",
+      "source_quote": "Your cheeks blush a little and you begin to point out the flaws that you know",
+      "suggested_fix": "Keep the subject as «tus mejillas» or render the sentence impersonally, for example: «Se te sonrojan un poco las mejillas y empiezas a señalar…»",
+      "translation_quote": "Se te sonrojan un poco las mejillas y empiezas a señalar los defectos que conoces"
+    },
+    {
+      "location": "source.html, paragraph beginning “A poor criminal…”",
+      "severity": "major",
+      "source_quote": "A poor criminal who has only known the city streets as home, steals and robs just to get by.",
+      "suggested_fix": "Use «roba y asalta» or another equivalent that preserves the source’s two actions; do not change «asalta» to «insulta».",
+      "translation_quote": "Un pobre delincuente que solo ha conocido las calles de la ciudad como hogar, roba y asalta para poder salir adelante."
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Pride or Humility?",
+      "suggested_fix": "No correction needed; the title is faithfully translated.",
+      "translation_quote": "¿Orgullo o humildad?"
+    },
+    {
+      "location": "source.html, paragraph beginning “When God does a work in our lives…”",
+      "severity": "minor",
+      "source_quote": "what God is doing in their lives",
+      "suggested_fix": "No substantive correction needed; the Spanish singular phrasing is idiomatic and preserves the meaning.",
+      "translation_quote": "lo que Dios está haciendo en su vida"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

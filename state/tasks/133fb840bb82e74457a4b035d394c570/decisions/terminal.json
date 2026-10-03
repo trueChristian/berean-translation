@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “One specific thing that I wish to focus on”; translation.html, corresponding paragraph",
+      "severity": "major",
+      "source_quote": "“within the plain communities”",
+      "suggested_fix": "Replace “سادہ طرزِ زندگی اختیار کرنے والی برادریوں میں” with “پلین برادریوں میں” (or another established Urdu rendering that identifies the Plain communities), preserving the sentence’s existing HTML structure.",
+      "translation_quote": "“سادہ طرزِ زندگی اختیار کرنے والی برادریوں میں”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

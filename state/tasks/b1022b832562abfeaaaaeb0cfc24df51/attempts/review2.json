@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, Eliab’s quoted rebuke (1 Samuel 17:28-29)\",\"severity\":\"major\",\"source_quote\":\"I know thy pride, and the naughtiness of thine heart\",\"suggested_fix\":\"Ganti “Aku kenal sifat pemberanimu dan hatimu yang jahat” dengan “Aku tahu betapa angkuhnya engkau dan betapa jahat hatimu” agar tuduhan Eliab tentang kesombongan Daud tetap tersampaikan.\",\"translation_quote\":\"Aku kenal sifat pemberanimu dan hatimu yang jahat\"},{\"location\":\"source.html and translation.html, quoted description of a skilled slinger (Hakim-hakim 20:16)\",\"severity\":\"major\",\"source_quote\":\"could sling stones at an hair breadth, and not miss\",\"suggested_fix\":\"Ganti “dapat mengumban batu dengan tepat pada rambut tanpa meleset” dengan “dapat mengumban batu dengan ketepatan selebar rambut tanpa meleset” agar ungkapan tentang ketepatan bidikan tersampaikan secara jelas dan alami.\",\"translation_quote\":\"dapat mengumban batu dengan tepat pada rambut tanpa meleset\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1034,
+    "content_evidence_truncated": false,
+    "content_sha256": "3d694af4de5c9bb6b4ad60e8b5c2bbeb57d93fa233db030c40205cdb8553c24b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 910,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 635,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7482,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8395
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

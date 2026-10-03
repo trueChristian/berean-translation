@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 5",
+      "severity": "major",
+      "source_quote": "“self ”-administer",
+      "suggested_fix": "Badili “hujitumia mwenyewe” kuwa “hujidunga au kujitumia mwenyewe,” ili kuhifadhi maana ya kwamba anayepokea dawa ndiye anayejisimamia kuitumia na hivyo kujiua; kwa mfano: “...dawa ambazo mtu huyo hujitumia mwenyewe, na hivyo kujiua.” (Kama inavyosomeka sasa, “hujitumia mwenyewe” tayari inawasilisha maana hiyo; badili tu iwapo muktadha wa Kiswahili hauieleweki.)",
+      "translation_quote": "“...dawa ambazo mtu huyo hujitumia mwenyewe, na hivyo kujiua.”"
+    },
+    {
+      "location": "HTML, paragraph 10",
+      "severity": "major",
+      "source_quote": "“...worthy of His redemption.”",
+      "suggested_fix": "Badili “anastahili ukombozi wake” kuwa “anastahili kukombolewa naye,” ili kueleza kwamba kila mtu anastahili ukombozi wa Mungu, si kwamba anastahili ukombozi wake mwenyewe.",
+      "translation_quote": "“...ana thamani kwa Mungu na anastahili ukombozi wake.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

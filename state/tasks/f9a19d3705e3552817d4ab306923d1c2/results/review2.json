@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "253d6c72-4248-41a2-8847-90db7c7cf9e2",
+    "response_id": "chatcmpl-EUepcD0gaYynspUWve5ykoVSKqxvO",
+    "usage": {
+      "completion_tokens": 659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 493,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9835
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph of the blockquote",
+        "severity": "major",
+        "source_quote": "“Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.”",
+        "suggested_fix": "Change the clause to make clear that the person being addressed is to help carry the grieving friend’s burden, for example: “Kyk hoe hulle genees word, help om hulle las van droefheid te dra, en stap dan saam met hulle verder op pad na hulle hemelse tuiste.”",
+        "translation_quote": "“Kyk hoe hulle genees word, hulle las van droefheid op hulle skouers neem en dan verder stap op pad na hulle hemelse tuiste.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

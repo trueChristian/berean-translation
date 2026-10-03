@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,32 +64,54 @@
         },
         "total_tokens": 12476
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 367,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7990,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7987,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8357
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article body, paragraph beginning “One specific thing…”",
+      "location": "HTML, paragraph beginning “One specific thing…”",
       "severity": "major",
-      "source_quote": "“broken relationships and emotional/mental struggles within the plain communities”",
-      "suggested_fix": "Replace “emosionele/geestelike probleme” with “emosionele-/geestesgesondheidsprobleme” to convey emotional and mental-health struggles, not spiritual problems.",
-      "translation_quote": "“gebroke verhoudings en emosionele/geestelike probleme binne die plain-gemeenskappe”"
-    },
-    {
-      "location": "Article body, Matthew 16:24–26 quotation",
-      "severity": "major",
-      "source_quote": "“For what is a man profited, if he shall gain the whole world, and lose his own soul?”",
-      "suggested_fix": "Replace “maar aan sy siel skade ly” with “maar sy eie siel verloor” so the quotation says that the person loses their soul, rather than suffers harm to it.",
-      "translation_quote": "“Want wat baat dit ’n mens as hy die hele wêreld win, maar aan sy siel skade ly?”"
-    },
-    {
-      "location": "Article body, paragraph beginning “One specific thing…”",
-      "severity": "minor",
       "source_quote": "“within the plain communities”",
-      "suggested_fix": "Use a clear Afrikaans rendering of “plain communities” appropriate to the community meant, rather than leaving “plain” in English; for example, “binne die konserwatiewe Anabaptistiese gemeenskappe” if that is the intended reference.",
-      "translation_quote": "“binne die plain-gemeenskappe”"
+      "suggested_fix": "Replace “konserwatiewe Anabaptistiese gemeenskappe” with “plain-gemeenskappe” (or another established Afrikaans equivalent that does not identify them specifically as Anabaptist).",
+      "translation_quote": "“binne die konserwatiewe Anabaptistiese gemeenskappe”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Too many times…”",
+      "severity": "major",
+      "source_quote": "“since it is their lot in life and we are too busy to be bothered”",
+      "suggested_fix": "Revise to preserve the source’s point that the church treats their struggle as simply their lot in life, while the church is too busy to be bothered; for example: “omdat hulle swaarkry as maar hul lot in die lewe beskou word en ons te besig is om ons daaraan te steur.”",
+      "translation_quote": "“omdat hulle glo dit is maar hoe die lewe vir hulle is en ons te besig is om ons daarmee te bemoei”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Too many times…”",
+      "severity": "major",
+      "source_quote": "“leave sleeping dogs lie” or that it would be best to not “open that can of worms”",
+      "suggested_fix": "Use the idiomatic Afrikaans equivalent for not raising a troublesome issue, such as “laat slapende honde lê” and “maak nie daardie blikkie wurms oop nie.”",
+      "translation_quote": "“slapende honde te laat lê” or … “die wurmpies uit die blikkie te laat kom”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "eb144386d61b24476fb6da10455022e3",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "afr",
@@ -185,7 +206,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 17601
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 768,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 736,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11399,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11396,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12167
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, Malachi 2:14–16 quotation",
-      "severity": "major",
-      "source_quote": "“And did not he make one? Yet had he the residue of the spirit.”",
-      "suggested_fix": "Change “Tog het Hy ’n oorvloed van Gees gehad” to “Tog het Hy die oorblyfsel van die Gees gehad” to preserve “residue” rather than changing it to “abundance.”",
-      "translation_quote": "“Het Hy hulle nie een gemaak nie? Tog het Hy ’n oorvloed van Gees gehad.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "9031c6d3a5a2cc31d257094f82d51fa4",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "afr",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

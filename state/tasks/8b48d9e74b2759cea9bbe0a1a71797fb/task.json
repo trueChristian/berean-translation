@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 13104
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8485,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8482,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9023
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html / translation.html, paragraph beginning “And Saul armed David…”",
-      "severity": "major",
-      "source_quote": "“for he had not proved it” … “for I have not proved them.”",
-      "suggested_fix": "In both places, translate “proved” as tested or tried, for example: “want hy nie die wapenrusting getoets het nie” and “Ek kan nie hiermee gaan nie, want ek het dit nie getoets nie.” Preserve the existing paragraph structure and reference.",
-      "translation_quote": "“want hy was dit nie gewoond nie” … “want ek is dit nie gewoond nie.”"
-    },
-    {
-      "location": "source.section / translation.section",
-      "severity": "minor",
-      "source_quote": "MUSINGS OF A MISSIONARY",
-      "suggested_fix": "Correct the inconsistent capitalization: “DIE OORDENKINGS VAN ’N SENDeling” → “DIE OORDENKINGS VAN ’N SENDELING”.",
-      "translation_quote": "DIE OORDENKINGS VAN ’N SENDeling"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "8b48d9e74b2759cea9bbe0a1a71797fb",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "afr",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

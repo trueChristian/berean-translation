@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“the underdog”",
+      "suggested_fix": "Use a natural Afrikaans equivalent such as “die swakker party” or “die underdog (swakker party)” for clarity.",
+      "translation_quote": "“die underdog”"
+    },
+    {
+      "location": "Paragraph beginning “Onbesorgde apatie”",
+      "severity": "major",
+      "source_quote": "“Give a man a reason to live and he will supply the how –Nietzke.”",
+      "suggested_fix": "Translate the quotation faithfully, for example: “Gee ’n mens ’n rede om te lewe, en hy sal self uitwerk hoe –Nietzke.”",
+      "translation_quote": "“Gee ’n mens ’n rede om te lewe en hy sal die hoe voorsien –Nietzke.”"
+    },
+    {
+      "location": "Paragraph beginning “Goliat het vanselfsprekend aangeneem”",
+      "severity": "major",
+      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+      "suggested_fix": "Correct “45 mm” to “.45-kaliber” in Afrikaans, for example: “die trefkrag van ’n .45-kaliber-handwapen gehad”.",
+      "translation_quote": "“die trefkrag van ’n .45-kaliber-handwapen gehad”"
+    },
+    {
+      "location": "Paragraph beginning “Waarom sou Japannese kamikazevlieëniers”",
+      "severity": "major",
+      "source_quote": "“God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael”",
+      "suggested_fix": "Translate “nail” as “spyker” here, preserving the stated image: “van Dorkas se naald… tot Jael se spyker”.",
+      "translation_quote": "“van Dorkas se naald… tot Jael se tentpen”"
+    },
+    {
+      "location": "Poem, second line",
+      "severity": "minor",
+      "source_quote": "“David had a sling;”",
+      "suggested_fix": "For the poem’s concise parallel phrasing, use “Dawid het ’n slingervel;”",
+      "translation_quote": "“Dawid het ’n slingervel gehad;”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

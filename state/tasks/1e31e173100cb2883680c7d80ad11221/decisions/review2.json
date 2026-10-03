@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Hoofdbedekkingsalinea",
+      "severity": "minor",
+      "source_quote": "trying to keep it from being noticed by the uncovered public",
+      "suggested_fix": "Vervang ‘bij het onbedekte publiek’ door ‘bij mensen die hun hoofd niet bedekken’.",
+      "translation_quote": "in een poging te voorkomen dat het opvalt bij het onbedekte publiek"
+    },
+    {
+      "location": "Voorbeeld van het bouwen van een huis, eerste alinea",
+      "severity": "minor",
+      "source_quote": "you put on your nail bag",
+      "suggested_fix": "Vervang ‘je spijkerschort om’ door ‘je spijkertas om’ of ‘je spijkerriem om’.",
+      "translation_quote": "Elke dag doe je je spijkerschort om"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

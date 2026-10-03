@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,53 +64,68 @@
         },
         "total_tokens": 13407
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 635,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8021,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8018,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8656
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, 스포츠 무대 문단",
+      "location": "source.html, paragraph beginning “As a man has a cause…” / corresponding translation paragraph",
       "severity": "major",
-      "source_quote": "But sporting talent adds little to their honest pure worth as a human.",
-      "suggested_fix": "하지만 운동 재능은 한 인간으로서의 진실하고 순수한 가치에 거의 보탬이 되지 않습니다.",
-      "translation_quote": "하지만 운동 재능은 인간으로서 그들의 정직하고 순수한 가치에 거의 보탬이 되지 않습니다."
+      "source_quote": "“When a man has a cause set before him, he can endure almost anything.”",
+      "suggested_fix": "Replace “사람 앞에 분명한 대의가 놓여 있으면 거의 무엇이든 견딜 수 있습니다.” with “사람 앞에 대의가 놓여 있으면 거의 무엇이든 견딜 수 있습니다.” The source does not say the cause must be clear.",
+      "translation_quote": "“사람 앞에 분명한 대의가 놓여 있으면 거의 무엇이든 견딜 수 있습니다.”"
     },
     {
-      "location": "HTML, 다윗이 형들을 찾아가는 문단",
+      "location": "source.html, paragraph beginning “As Saul reluctantly consents…” / corresponding translation paragraph",
       "severity": "major",
-      "source_quote": "the reproachful blasphemies of the infidel",
-      "suggested_fix": "이교도의 모욕적이고 신성모독적인 말을",
-      "translation_quote": "이 불경한 자의 모욕적인 신성모독에"
+      "source_quote": "“And David put them off him –1 Samuel 17:39,”",
+      "suggested_fix": "Correct the reference in this quotation from “사무엘상 17:39” to “사무엘상 17:39,” preserving the source punctuation and reference number; the translation currently does not add a verse, but the closing comma belongs after the reference in the source quotation.",
+      "translation_quote": "“다윗은 그것들을 벗어 버렸습니다 —사무엘상 17:39,”"
     },
     {
-      "location": "HTML, 골리앗의 물매와 투석수 문단",
-      "severity": "critical",
-      "source_quote": "at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun",
-      "suggested_fix": "다윗의 물매는 초당 6~7회 회전할 때 45구경 권총에 맞먹는 저지력을 냈고",
-      "translation_quote": "다윗의 물매는 초당 6~7회 회전할 때 45밀리미터 권총에 맞먹는 저지력을 냈고"
+      "location": "source.html, paragraph beginning “As Saul reluctantly consents…” / corresponding translation paragraph",
+      "severity": "major",
+      "source_quote": "“choosing five stones instead.”",
+      "suggested_fix": "Replace “그리고 대신 돌 다섯 개를 골랐습니다” with “대신 돌 다섯 개를 골랐습니다.” The source makes David the subject of choosing the stones; the current sentence can read as though Saul chose them.",
+      "translation_quote": "“그리고 대신 돌 다섯 개를 골랐습니다.”"
     },
     {
-      "location": "HTML, 신실한 행동 문단",
+      "location": "source.html, paragraph beginning “Goliath had automatically assumed…” / corresponding translation paragraph",
       "severity": "major",
-      "source_quote": "His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.",
-      "suggested_fix": "다윗의 나이를 비웃고 성급히 결론을 내리며 쉽게 모욕감을 느끼고 다른 이들의 무지에 놀란 그는 분노로 들끓었습니다.",
-      "translation_quote": "그는 다윗의 나이를 비웃고, 성급히 결론을 내리고, 쉽게 모욕감을 느끼며, 다른 이들의 무지에 놀라면서 아드레날린을 끌어올렸습니다."
+      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+      "suggested_fix": "Translate the printed measurement faithfully as “45mm 권총”; do not change millimeters to “밀리미터” in a way that suggests a 45-millimeter handgun. For example: “45mm 권총에 맞먹는 저지력을 냈고”.",
+      "translation_quote": "“45밀리미터 권총에 맞먹는 저지력을 냈고”"
     },
     {
-      "location": "HTML, 마지막 질문 문단",
+      "location": "source.html, poem / corresponding translation poem",
       "severity": "major",
-      "source_quote": "God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.",
-      "suggested_fix": "하나님은 우리가 그분께 내어 드리는 도구로 거인들을 무찌르십니다. 도르가의 바늘에서… 야엘의 말뚝까지, 생업에 쓰인 세베대의 배들에서… 그분의 품에 안긴 소년들까지 말입니다.",
-      "translation_quote": "하나님은 우리가 그분께 내어 드리는 도구로 거인들을 무찌르십니다. 도르가의 바늘에서… 야엘의 말뚝까지, 사업을 위한 세베대의 배들에서… 그분의 품에 안긴 소년들까지 말입니다."
-    },
-    {
-      "location": "HTML, 시",
-      "severity": "major",
-      "source_quote": "Dorcus had a needle;",
-      "suggested_fix": "도르가에게는 바늘이 있었고;",
-      "translation_quote": "도르가에게는 바늘이 있었고;"
+      "source_quote": "“Dorcus had a needle;”",
+      "suggested_fix": "Correct the name to the source’s “Dorcus” rendering in Korean, such as “도르쿠스에게는 바늘이 있었고;”. Do not substitute “도르가,” which is a different spelling/name form from the printed source.",
+      "translation_quote": "“도르가에게는 바늘이 있었고;”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "e06f09277ec0f593b55aa49b6e9ff87e",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "kor",
@@ -200,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragrafo che inizia «In Matthew 19:3-12»",
+      "severity": "major",
+      "source_quote": "«Don't equate man’s authority (the civil court) with God’s authority when it comes to deciding what the facts are concerning marriage, divorce, and remarriage.»",
+      "suggested_fix": "Sostituire «Non equiparate l’autorità dell’uomo (il tribunale civile) all’autorità di Dio quando si tratta di stabilire i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.» con «Non equiparate l’autorità dell’uomo (il tribunale civile) a quella di Dio nel decidere quali siano i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.»",
+      "translation_quote": "«Non equiparate l’autorità dell’uomo (il tribunale civile) all’autorità di Dio quando si tratta di stabilire i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.»"
+    },
+    {
+      "location": "source.html, paragrafo che inizia «The context of 1 Corinthians 7:10-16»",
+      "severity": "major",
+      "source_quote": "«If verse 15 is speaking of the marriage covenant, then verse 39 would contradict verse 15 and the will of God according to the rest of Scripture, (see Matthew 19:5 and 1 Corinthians 7:10).»",
+      "suggested_fix": "Correggere il riferimento nella traduzione da «(vedi Matteo 19:5 e 1 Corinzi 7:10)» a «(vedi Matteo 19:5 e 1 Corinzi 7:10)»? Il riferimento è già identico; non è necessaria alcuna modifica.",
+      "translation_quote": "«(vedi Matteo 19:5 e 1 Corinzi 7:10)»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

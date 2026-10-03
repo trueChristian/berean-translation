@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,81 +64,68 @@
         },
         "total_tokens": 13406
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 476,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7816,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7813,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8292
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening quotation and repeated quotation, 1 Samuel 17:29; 17:28–29",
-      "severity": "major",
-      "source_quote": "“What have I now done? Is there not a cause?”",
-      "suggested_fix": "Change “Is daar nie ’n rede nie?” to “Is daar nie ’n saak nie?” in both quotations, to preserve the source’s sense of a cause or motivating purpose rather than merely a reason.",
-      "translation_quote": "“Wat het ek nou gedoen? Is daar nie ’n rede nie?”"
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“the underdog”",
+      "suggested_fix": "Use a natural Afrikaans equivalent such as “die swakker party” or “die underdog (swakker party)” for clarity.",
+      "translation_quote": "“die underdog”"
     },
     {
-      "location": "Paragraph beginning “As David arose early…”; 1 Samuel 17:28",
+      "location": "Paragraph beginning “Onbesorgde apatie”",
       "severity": "major",
-      "source_quote": "“I know thy pride, and the naughtiness of thine heart”",
-      "suggested_fix": "Replace “Ek ken jou vermetelheid en die boosheid van jou hart” with “Ek ken jou trots en die kwaadwilligheid van jou hart” to retain Eliab’s specific accusation of pride and naughtiness.",
-      "translation_quote": "“Ek ken jou vermetelheid en die boosheid van jou hart”"
+      "source_quote": "“Give a man a reason to live and he will supply the how –Nietzke.”",
+      "suggested_fix": "Translate the quotation faithfully, for example: “Gee ’n mens ’n rede om te lewe, en hy sal self uitwerk hoe –Nietzke.”",
+      "translation_quote": "“Gee ’n mens ’n rede om te lewe en hy sal die hoe voorsien –Nietzke.”"
     },
     {
-      "location": "Paragraph beginning “As David arose early…”",
+      "location": "Paragraph beginning “Goliat het vanselfsprekend aangeneem”",
       "severity": "major",
-      "source_quote": "“To take your entire army down into the valley and fight the opposition uphill would leave you at a tremendous disadvantage.”",
-      "suggested_fix": "Revise the clause to say the opposing army would be uphill—for example, “As jy jou hele leër in die vallei laat afdaal om teen die vyand te veg wat teen die helling af staan, plaas dit jou in ’n groot nadeel.” The translation currently says the enemy is coming downhill, reversing the tactical situation.",
-      "translation_quote": "“As jy jou hele leër in die vallei laat afdaal om teen die vyand te veg wat teen die helling afkom, plaas dit jou in ’n groot nadeel”"
+      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+      "suggested_fix": "Correct “45 mm” to “.45-kaliber” in Afrikaans, for example: “die trefkrag van ’n .45-kaliber-handwapen gehad”.",
+      "translation_quote": "“die trefkrag van ’n .45-kaliber-handwapen gehad”"
     },
     {
-      "location": "Paragraph beginning “A Caring Conscience”",
+      "location": "Paragraph beginning “Waarom sou Japannese kamikazevlieëniers”",
       "severity": "major",
-      "source_quote": "“A Caring Conscience is seated in the soul of man and determines what we care about.”",
-      "suggested_fix": "Change “’n Besorgde gewete” and “bepaal waaroor ons ons bekommer” to wording conveying concern or care, such as “’n Omgee-gewete setel in die mens se siel en bepaal waarvoor ons omgee.” The current wording shifts the idea toward worry.",
-      "translation_quote": "“’n Besorgde gewete setel in die mens se siel en bepaal waaroor ons ons bekommer.”"
+      "source_quote": "“God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael”",
+      "suggested_fix": "Translate “nail” as “spyker” here, preserving the stated image: “van Dorkas se naald… tot Jael se spyker”.",
+      "translation_quote": "“van Dorkas se naald… tot Jael se tentpen”"
     },
     {
-      "location": "Paragraph beginning “Careless apathy…”; quotation attributed to Nietzke",
-      "severity": "major",
-      "source_quote": "“Give a man a reason to live and he will supply the how”",
-      "suggested_fix": "Replace “hy sal die manier vind” with a phrase meaning that he will find or provide the how, such as “en hy sal uitwerk hoe.” As written, the quotation says only that he will find a way, not that he will supply the how.",
-      "translation_quote": "“Gee ’n mens ’n rede om te lewe en hy sal die manier vind”"
-    },
-    {
-      "location": "Paragraph beginning “As Saul reluctantly consents…”",
-      "severity": "major",
-      "source_quote": "“As Saul reluctantly consents to David’s proposal, he proceeds to arm the lad in typical worldly fashion.”",
-      "suggested_fix": "Make Saul the subject of both actions, for example: “Wanneer Saul teësinnig tot Dawid se voorstel instem, probeer hy die seun op tipies wêreldse wyse bewapen.” The translation currently makes David the one who proceeds to arm the lad.",
-      "translation_quote": "“Wanneer Saul teësinnig tot Dawid se voorstel instem, gaan hy voort om die seun op tipies wêreldse wyse te bewapen.”"
-    },
-    {
-      "location": "Paragraph beginning “Goliath had automatically assumed…”; 1 Samuel 17:44",
-      "severity": "major",
-      "source_quote": "“Come to me, and I will give thy flesh unto the fowls of the air, and to the beasts of the field”",
-      "suggested_fix": "Translate “I will give thy flesh” as “Ek sal jou vlees … gee” or equivalent. The current “ek sal jou vlees … gee” is present, but “die voëls van die hemel en die diere van die veld” is acceptable; ensure the quotation is understood as Goliath threatening to give David’s flesh to them. No change is required to the reference.",
-      "translation_quote": "“Kom na my toe, en ek sal jou vlees aan die voëls van die hemel en die diere van die veld gee”"
-    },
-    {
-      "location": "Paragraph beginning “Goliath had automatically assumed…”; 45 mm handgun comparison",
-      "severity": "major",
-      "source_quote": "“the stopping power of a 45 mm handgun”",
-      "suggested_fix": "Change “45 mm-handwapen” to “.45-kaliber-handwapen” (or another clear equivalent for a .45 handgun). The translation changes the source’s handgun caliber specification.",
-      "translation_quote": "“die trefkrag van ’n 45 mm-handwapen”"
-    },
-    {
-      "location": "Paragraph beginning “Why would Japanese Kamikaze pilots…”",
-      "severity": "major",
-      "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
-      "suggested_fix": "Correct the second image to “van Sebedeus se sakebote… tot die seuns van sy boesem.” The translation omits the source’s possessive relationship in “his bosom.”",
-      "translation_quote": "“van Sebedeus se sakebote… tot die seuns in sy boesem.”"
-    },
-    {
-      "location": "Poem",
-      "severity": "major",
-      "source_quote": "“Samson had a jawbone;”",
-      "suggested_fix": "Replace “’n kakebeen gehad” with “’n eselskakebeen gehad” or an equivalent that preserves the source’s biblical allusion to Samson’s jawbone weapon.",
-      "translation_quote": "“Simson het ’n kakebeen gehad;”"
+      "location": "Poem, second line",
+      "severity": "minor",
+      "source_quote": "“David had a sling;”",
+      "suggested_fix": "For the poem’s concise parallel phrasing, use “Dawid het ’n slingervel;”",
+      "translation_quote": "“Dawid het ’n slingervel gehad;”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "0320be0adf0b2525d2e98781725b6af3",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "afr",
@@ -228,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

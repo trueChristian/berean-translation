@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Jambo moja nililotambua haraka sana…”",
+      "severity": "minor",
+      "source_quote": "“we live in a very couple-orientated world.”",
+      "suggested_fix": "Replace “tunaishi katika ulimwengu unaowajali sana wanandoa” with “tunaishi katika ulimwengu unaozunguka sana maisha ya wanandoa” to convey that society is organized around couples, rather than that it cares about them.",
+      "translation_quote": "“tunaishi katika ulimwengu unaowajali sana wanandoa.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

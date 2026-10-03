@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “The head covering is a good example.”",
+      "severity": "major",
+      "source_quote": "“Some even put it all the way on the back of the head and color it the same as their hair”",
+      "suggested_fix": "Replace “और उसके रंग को अपने बालों जैसा कर लेते हैं” with “और उसे अपने बालों के रंग का कर लेते हैं” so it is clear that the covering is made the same color as the hair.",
+      "translation_quote": "“कुछ तो उसे सिर के बिलकुल पीछे लगाते हैं और उसके रंग को अपने बालों जैसा कर लेते हैं”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Let us look at an example to help us understand.”",
+      "severity": "major",
+      "source_quote": "“every day you put on your nail bag and get to work”",
+      "suggested_fix": "Replace “अपने नाखूनों वाला थैला पहनकर” with “अपने कीलों का थैला पहनकर”; the source refers to a bag of nails used for construction, not a bag for fingernails.",
+      "translation_quote": "“हर दिन अपने नाखूनों वाला थैला पहनकर काम पर लग जाते हैं”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Your cheeks blush a little…”",
+      "severity": "major",
+      "source_quote": "“that gable”",
+      "suggested_fix": "Replace “उस गेबल को बनाने में” with “उस त्रिकोणाकार छत-भाग को बनाने में” (or another clear Hindi rendering of the gable); do not leave the construction term untranslated.",
+      "translation_quote": "“उस गेबल को बनाने में मुझसे गड़बड़ हो गई”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Now, what if you wanted to build a house…”",
+      "severity": "major",
+      "source_quote": "“You never even put on your nail bag”",
+      "suggested_fix": "Replace “अपने नाखूनों वाला थैला” with “कीलों का थैला” to preserve the construction meaning.",
+      "translation_quote": "“आपने अपने नाखूनों वाला थैला तक नहीं पहना”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

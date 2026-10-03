@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "25fca83c-2f04-4676-8241-f923b0a48da3",
+    "response_id": "chatcmpl-EUepTDeisVWMhfkJREbDVGYXCSzQk",
+    "usage": {
+      "completion_tokens": 450,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9070,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9067,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9520
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, অনুচ্ছেদ ২ — গীতসংহিতা 40:4-এর বাক্য",
+        "severity": "major",
+        "source_quote": "Psalms 40:4 says He will not respect the proud",
+        "suggested_fix": "“গীতসংহিতা 40:4 বলে, তিনি অহংকারীদের প্রতি অনুগ্রহ করবেন না” লিখুন।",
+        "translation_quote": "গীতসংহিতা 40:4 বলে, তিনি অহংকারীদের প্রতি সম্মান দেখাবেন না"
+      },
+      {
+        "location": "HTML, অনুচ্ছেদ ৫ — বিধান ও হত্যার উদাহরণ",
+        "severity": "major",
+        "source_quote": "the law states that we should not kill",
+        "suggested_fix": "“বিধান বলে, আমাদের হত্যা করা উচিত নয়” লিখুন।",
+        "translation_quote": "বিধান বলে আমাদের হত্যা করা উচিত নয়"
+      },
+      {
+        "location": "HTML, অনুচ্ছেদ ১৮ — দায়ূদের উত্তরের উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "Thy servant slew both the lion and the bear",
+        "suggested_fix": "“তোমার দাস সিংহ ও ভালুক—উভয়কেই মেরেছে” অংশটি সংশোধন করে লিখুন: “তোমার দাস সিংহ ও ভালুক—উভয়কেই হত্যা করেছে” নয়, বরং উৎসের অর্থ অনুযায়ী “তোমার দাস সিংহ ও ভালুক—উভয়কেই মেরেছে”।",
+        "translation_quote": "তোমার দাস সিংহ ও ভালুক—উভয়কেই মেরেছে"
+      },
+      {
+        "location": "HTML, অনুচ্ছেদ ২৭ — দরিদ্র অপরাধীর গল্প",
+        "severity": "major",
+        "source_quote": "God saves him, transforms him, converts him.",
+        "suggested_fix": "“ঈশ্বর তাকে উদ্ধার করেন, রূপান্তরিত করেন, ধর্মান্তরিত করেন” লিখুন, যাতে ‘converts him’ কথাটিও বাদ না যায়।",
+        "translation_quote": "ঈশ্বর তাকে উদ্ধার করেন, রূপান্তরিত করেন, নতুন মানুষ করেন"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

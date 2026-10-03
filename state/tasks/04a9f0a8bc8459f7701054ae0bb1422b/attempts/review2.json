@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “One specific thing…”\",\"severity\":\"major\",\"source_quote\":\"“within the plain communities”\",\"suggested_fix\":\"Vervang “binnen de eenvoudige gemeenschappen” door “binnen de plain-gemeenschappen” (of een andere herkenbare aanduiding voor de religieuze plain communities).\",\"translation_quote\":\"“binnen de eenvoudige gemeenschappen”\"},{\"location\":\"HTML, paragraph beginning “What if we were the one…”\",\"severity\":\"major\",\"source_quote\":\"“What if we were the one who God wanted to say a word for Him out of a life that was living for Him to bring His awareness to one who knows not the One, Living, and True God?”\",\"suggested_fix\":\"Vertaal de vraag met behoud van de betekenis, bijvoorbeeld: “Wat als God juist ons wilde gebruiken om namens Hem een woord te spreken vanuit een leven dat voor Hem geleefd wordt, zodat iemand die de Ene, levende en ware God niet kent, zich van Hem bewust wordt?”\",\"translation_quote\":\"“Wat als God juist ons wilde gebruiken om namens Hem een woord te spreken, vanuit een leven dat voor Hem geleefd wordt, zodat iemand die de Ene, levende en ware God niet kent Hem leert kennen?”\"},{\"location\":\"HTML, alinea over sancties tegen Rusland\",\"severity\":\"major\",\"source_quote\":\"“there have been ripple effects causing negative outcomes for many of the world’s economies”\",\"suggested_fix\":\"Herstel de betekenis van ‘ripple effects’ als doorwerkende gevolgen, zonder de bewering te veranderen in een domino-effect: bijvoorbeeld “hebben doorwerkingseffecten gehad die negatieve gevolgen hebben veroorzaakt voor veel economieën in de wereld”.\",\"translation_quote\":\"“hebben domino-effecten veroorzaakt met negatieve gevolgen voor veel economieën in de wereld”\"},{\"location\":\"HTML, alinea over mondiale bbp en recessie\",\"severity\":\"major\",\"source_quote\":\"“While recent data from the International Monetary Fund (IMF) estimates…”\",\"suggested_fix\":\"Vertaal de onvolledige bronzin als onvolledige zin en behoud “mediane mondiale bbp”; bijvoorbeeld: “Hoewel recente gegevens van het Internationaal Monetair Fonds (IMF) schatten dat het mediane mondiale bbp van 2019 tot 2020 met 3,9% is gedaald, waarmee dit de zwaarste economische neergang sinds de Grote Depressie werd en een wereldwijde recessie ontstond die dieper was dan sinds het einde van de Tweede Wereldoorlog.”\",\"translation_quote\":\"“Hoewel recente gegevens van het Internationaal Monetair Fonds (IMF) aangeven dat het mediane mondiale bbp tussen 2019 en 2020 met 3,9% daalde, waarmee dit de zwaarste economische neergang sinds de Grote Depressie werd en een wereldwijde recessie ontstond die het diepst was sinds het einde van de Tweede Wereldoorlog.”\"},{\"location\":\"HTML, alinea over de mechanic en verloren zielen\",\"severity\":\"major\",\"source_quote\":\"“How many of us bear a burden for the lost souls around us?”\",\"suggested_fix\":\"Vertaal “bear a burden” als een last/bekommernis dragen, niet als zich verantwoordelijk voelen; bijvoorbeeld: “Hoevelen van ons dragen een last voor de verloren zielen om ons heen?”\",\"translation_quote\":\"“Hoevelen van ons voelen zich verantwoordelijk voor de verloren zielen om ons heen?”\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 3265,
+    "content_evidence_truncated": false,
+    "content_sha256": "1920f29a591181af8b30190b576f84fb46aa3169b4450a72fad9f09d761142cf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7519,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8254
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

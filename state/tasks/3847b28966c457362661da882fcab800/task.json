@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 11090
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 866,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 583,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7206,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7203,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8072
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, párrafo que comienza «Goliat había supuesto automáticamente…»",
+      "location": "Párrafo que comienza «Una imaginación honesta»",
       "severity": "major",
-      "source_quote": "According to some estimates, at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun",
-      "suggested_fix": "Replace «una pistola de 45 mm» with «una pistola de calibre 45» to preserve the source’s handgun caliber reference.",
-      "translation_quote": "la honda de David tenía una potencia de parada comparable a la de una pistola de 45 mm"
+      "source_quote": "«…with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.»",
+      "suggested_fix": "Cambiar «no temía enfrentarse a una de ellas» por «no temía enfrentarse a uno (un hombre de guerra desde su juventud)», para que el referente sea un hombre, no una de las bestias mencionadas antes.",
+      "translation_quote": "«…y, con la ayuda de Dios, no temía enfrentarse a una de ellas (un hombre de guerra desde su juventud) en el valle de Ela.»"
+    },
+    {
+      "location": "Párrafo final antes del poema",
+      "severity": "major",
+      "source_quote": "«…from Zebedee’s boats of the business… to the boys of his bosom.»",
+      "suggested_fix": "Sustituir «hasta los muchachos que llevaba en su seno» por una expresión que se refiera a sus hijos, por ejemplo «hasta sus hijos queridos».",
+      "translation_quote": "«…desde las barcas de Zebedeo para el negocio… hasta los muchachos que llevaba en su seno.»"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "3847b28966c457362661da882fcab800",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "spa",
@@ -165,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

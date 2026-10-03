@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b0332f08-aa77-4598-8106-78cd03bb165b",
+    "response_id": "chatcmpl-EUer75IYLuMUYRPiwhECgtrXoFQBS",
+    "usage": {
+      "completion_tokens": 639,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7511,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8153
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML، الفقرة الأولى؛ اقتباس تكوين 8:22",
+        "severity": "major",
+        "source_quote": "While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease –Genesis 8:22.",
+        "suggested_fix": "عدّل بداية الاقتباس إلى «ما دامت الأرض قائمة، لا ينقطع زرع وحصاد، وبرد وحر، وصيف وشتاء، وليل ونهار –تكوين 8:22.» مع الإبقاء على وسوم HTML وترتيبها.",
+        "translation_quote": "ما دامت الأرض، فزرع وحصاد، وبرد وحر، وصيف وشتاء، ونهار وليل لا تزال –تكوين 8:22."
+      },
+      {
+        "location": "HTML، فقرة العقوبات وآثارها الاقتصادية",
+        "severity": "major",
+        "source_quote": "With the many sanctions enacted by the EU and the west, there have been ripple effects causing negative outcomes for many of the world’s economies",
+        "suggested_fix": "استبدل «العقوبات الكثيرة التي فرضها الاتحاد الأوروبي والغرب» بـ«العقوبات الكثيرة التي فرضها الاتحاد الأوروبي والغرب» مع صياغة الجملة لتوضح أن العقوبات هي التي أحدثت آثارًا متتابعة ونتائج سلبية في اقتصادات كثيرة حول العالم؛ النص الحالي لا يذكر أن العقوبات فُرضت.",
+        "translation_quote": "وقد أدت العقوبات الكثيرة التي فرضها الاتحاد الأوروبي والغرب إلى آثار متتابعة أفضت إلى نتائج سلبية لاقتصادات كثيرة في العالم"
+      },
+      {
+        "location": "HTML، الفقرة عن الخوف وما سيأتي على الأرض؛ اقتباس رؤيا 9:4-6",
+        "severity": "major",
+        "source_quote": "those men which have not the seal of God in their foreheads … should be tormented five months",
+        "suggested_fix": "أعد معنى الاقتباس إلى أن «الذين ليس لهم ختم الله على جباههم … يُعذَّبون خمسة أشهر»، مع الإبقاء على بقية الاقتباس والوسوم والمرجع كما هي.",
+        "translation_quote": "أولئك الذين ليس لهم ختم الله على جباههم … يُعذَّبون خمسة أشهر"
+      },
+      {
+        "location": "HTML، فقرة قيمة النفس؛ اقتباس متى 16:24-26",
+        "severity": "major",
+        "source_quote": "Then said Jesus unto his disciples, If any man will come after me, let him deny himself, and take up his cross, and follow me.",
+        "suggested_fix": "أضف في الاقتباس معنى «ثم قال يسوع لتلاميذه: إن أراد أحد أن يأتي ورائي، فلينكر نفسه ويحمل صليبه ويتبعني»، مع الحفاظ على وسوم HTML وترتيبها والمرجع.",
+        "translation_quote": "حينئذ قال يسوع لتلاميذه: إن أراد أحد أن يأتي ورائي، فلينكر نفسه ويحمل صليبه ويتبعني."
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

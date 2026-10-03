@@ -2,7 +2,6 @@
   "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,67 +64,40 @@
         },
         "total_tokens": 20733
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1198,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12348,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12345,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13546
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "শুরুর অনুচ্ছেদ",
+      "location": "HTML paragraph beginning “স্বামী বা স্ত্রীর যেকোনো একজনের মৃত্যু…”",
       "severity": "major",
-      "source_quote": "In Leviticus chapters 21 and 22, a plan, called a divorce, was put in place to legally dissolve the “first love”.",
-      "suggested_fix": "সংশ্লিষ্ট শাস্ত্র-উল্লেখের সংখ্যা অপরিবর্তিত রেখে লিখুন: “লেবীয় পুস্তকের ২১ ও ২২ অধ্যায়ে ‘বিবাহবিচ্ছেদ’ নামে একটি ব্যবস্থা চালু করা হয়েছিল, যাতে ‘প্রথম প্রেম’ আইনগতভাবে ভেঙে দেওয়া যায়।”",
-      "translation_quote": "লেবীয় পুস্তকের ২১ ও ২২ অধ্যায়ে “প্রথম প্রেম” আইনগতভাবে ভেঙে দেওয়ার জন্য বিবাহবিচ্ছেদ নামে একটি ব্যবস্থা চালু করা হয়েছিল।"
-    },
-    {
-      "location": "মালাখি ২:১৪-১৬ উদ্ধৃতির ব্যাখ্যা",
-      "severity": "major",
-      "source_quote": "And did not he make one? Yet had he the residue of the spirit. And wherefore one? That he might seek a godly seed.",
-      "suggested_fix": "উদ্ধৃতিটির বক্তব্য অক্ষুণ্ণ রেখে অনুবাদ করুন, যেমন: “তিনি কি তাদের এক করেননি? তবুও তাঁর মধ্যে আত্মার অবশিষ্টাংশ ছিল। আর কেন এক? যেন তিনি ঈশ্বরভক্ত বংশ খুঁজতেন।”",
-      "translation_quote": "তিনি কি এক করেন নাই? তাঁহার মধ্যে আত্মার অবশিষ্টাংশও ছিল। আর কেন এক? যেন তিনি ঈশ্বরভক্ত বংশ উৎপন্ন করিতে পারেন।"
-    },
-    {
-      "location": "মথি ১৯:৩-১২ সম্পর্কিত ব্যাখ্যা",
-      "severity": "major",
-      "source_quote": "when He chides them…",
-      "suggested_fix": "“চাইড/ভর্ৎসনা” অর্থটি বাদ দিয়ে লিখুন: “যখন তিনি তাদের তিরস্কার করেন…” (অথবা প্রসঙ্গসঙ্গত অন্য সমতুল্য শব্দ)।",
-      "translation_quote": "তখন তিনি তাদের ভর্ৎসনা করে পিতার আদি অভিপ্রায়ের দিকে ফিরিয়ে নিয়ে গেলেন…"
-    },
-    {
-      "location": "মথি ৫:৩১-৩২-এর পরের অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "Fornication is any type of immorality prior to marriage.",
-      "suggested_fix": "এখানে “ব্যভিচার” নয়, বিয়ের আগে সংঘটিত অনৈতিক আচরণ বোঝানো হয়েছে; লিখুন: “বিবাহের আগে যেকোনো ধরনের অনৈতিক আচরণই অবৈধ যৌনাচার।”",
-      "translation_quote": "বিবাহের আগে যেকোনো ধরনের অনৈতিক যৌন আচরণই ব্যভিচার।"
-    },
-    {
-      "location": "“Saving for the cause of fornication” অনুচ্ছেদের শেষাংশ",
-      "severity": "major",
-      "source_quote": "Thus, just prior to the point in time when they are considered by God as being married, any outside relationship would be fornication, while just after they are considered married, any similar relationship would be adultery.",
-      "suggested_fix": "দুই অবস্থার পার্থক্য বজায় রেখে লিখুন: “তাই ঈশ্বরের দৃষ্টিতে বিবাহিত বলে গণ্য হওয়ার ঠিক আগে অন্য কারও সঙ্গে সম্পর্ক হলে তা অবৈধ যৌনাচার; আর ঠিক পরে একই ধরনের সম্পর্ক হলে তা ব্যভিচার।”",
-      "translation_quote": "তাই ঈশ্বরের দৃষ্টিতে তারা বিবাহিত বলে গণ্য হওয়ার ঠিক আগে অন্য কারও সঙ্গে সম্পর্ক হলে তা হবে অবৈধ যৌনাচার; আর বিবাহিত বলে গণ্য হওয়ার ঠিক পরে একই ধরনের সম্পর্ক হলে তা হবে ব্যভিচার।"
-    },
-    {
-      "location": "যোহন ৪:১-৪২ সম্পর্কিত অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "Jesus' purpose of this account is to reveal Himself as the \"Messias\" with \"Living Water\" to this woman and many more in Sychar.",
-      "suggested_fix": "স্থাননামটি ঠিক রেখে লিখুন: “এই ঘটনার মাধ্যমে যিশুর উদ্দেশ্য ছিল সেই নারীকে এবং শিখর নগরের আরও অনেককে ‘মশীহ’ হিসেবে এবং ‘জীবন্ত জল’ নিয়ে নিজের পরিচয় প্রকাশ করা।”",
-      "translation_quote": "এই ঘটনার মাধ্যমে যিশুর উদ্দেশ্য ছিল সেই নারীকে এবং শিখরে আরও অনেককে “মশীহ” হিসেবে এবং “জীবন্ত জল” নিয়ে নিজের পরিচয় প্রকাশ করা।"
-    },
-    {
-      "location": "১ করিন্থীয় ৭:১০-১৬ সম্পর্কিত অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "In verse 15, the remaining believing spouse is not under obligation to denounce their walk of faith to continue a marriage relationship, neither are they free to remarry (verse 11) in the event of the unbelieving spouse leaving.",
-      "suggested_fix": "বিশ্বাসের পথে চলা অস্বীকার না করার অর্থটি স্পষ্ট রেখে লিখুন: “১৫ পদে, অবিশ্বাসী স্বামী বা স্ত্রী চলে গেলে থেকে যাওয়া বিশ্বাসী সঙ্গী বিবাহ-সম্পর্ক বজায় রাখার জন্য নিজের বিশ্বাসের পথ ত্যাগ করতে বাধ্য নন; তবে তিনি পুনর্বিবাহ করতেও মুক্ত নন (১১ পদ)।”",
-      "translation_quote": "১৫ পদে, থেকে যাওয়া বিশ্বাসী স্বামী বা স্ত্রী বিবাহ-সম্পর্ক চালিয়ে যেতে নিজের বিশ্বাসের পথে চলা অস্বীকার করতে বাধ্য নন; আবার অবিশ্বাসী স্বামী বা স্ত্রী চলে গেলে তিনি পুনর্বিবাহ করতেও মুক্ত নন (১১ পদ)।"
-    },
-    {
-      "location": "শেষ অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "Jesus has offered to come between and restore struggling relationships that through humility and repentance seek forgiveness, thus returning to full service for their Lord resulting in eternal joy.",
-      "suggested_fix": "উদ্ধার ও পুনরুদ্ধারের প্রস্তাবের অর্থ অক্ষুণ্ণ রেখে লিখুন: “নম্রতা ও অনুতাপের মাধ্যমে ক্ষমা চায়—এমন সংগ্রামরত সম্পর্কগুলোর মাঝে এসে সেগুলো পুনরুদ্ধার করার প্রস্তাব যিশু দিয়েছেন; এর ফলে তারা আবার তাদের প্রভুর পূর্ণ সেবায় ফিরবে এবং অনন্ত আনন্দ লাভ করবে।”",
-      "translation_quote": "যে সংগ্রামরত সম্পর্কগুলো নম্রতা ও অনুতাপের মাধ্যমে ক্ষমা চায়, তাদের মাঝে এসে সেগুলো পুনরুদ্ধার করার প্রস্তাব যিশু দিয়েছেন; এর ফলে তারা আবার তাদের প্রভুর পূর্ণ সেবায় ফিরবে এবং অনন্ত আনন্দ লাভ করবে।"
+      "source_quote": "Only the death of either spouse will terminate the initial marriage covenant in the heavenly records.",
+      "suggested_fix": "Replace “প্রাথমিক বিবাহ-নিয়মের অবসান” with “প্রাথমিক বিবাহ-অঙ্গীকারের অবসান” so “covenant” is rendered as an enduring covenant or commitment, not a rule.",
+      "translation_quote": "স্বামী বা স্ত্রীর যেকোনো একজনের মৃত্যু হলেই কেবল স্বর্গীয় নথিতে প্রাথমিক বিবাহ-নিয়মের অবসান ঘটে।"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "5d45931b193da591e5e1240f0103850a",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ben",
@@ -214,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 83,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

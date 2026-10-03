@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 4687
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 377,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2956,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2953,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3333
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Dikt, strofen som börjar ”This promise can also open to you”",
+      "location": "Dikten, strofen som börjar ”Men här har jag satt min regnbåge”",
       "severity": "major",
-      "source_quote": "“This promise can also open to you,\nThe secrets that are hid 'midst the storm.\nFor My strength and power are manifest,\nWhen these to My will conform.”",
-      "suggested_fix": "Ersätt motsvarande strof med: ”Detta löfte kan också öppna för dig / de hemligheter som döljer sig mitt i stormen. / För min styrka och kraft blir synliga / när dessa fogar sig efter min vilja.”",
-      "translation_quote": "”Detta löfte kan också öppna för dig\nstormens dolda hemligheter.\nFör min styrka och kraft blir synliga\nnär detta fogar sig efter min vilja.”"
+      "source_quote": "“But here I have placed My rainbow, / That amidst all the darkness and fear, / You can see that My promise is certain.”",
+      "suggested_fix": "Ändra de första tre raderna till: ”Men här har jag placerat min regnbåge, / så att du mitt i allt mörker och all rädsla / kan se att mitt löfte är säkert.”",
+      "translation_quote": "”Men här har jag satt min regnbåge, / så att du mitt i allt mörker och all rädsla / kan se att mitt löfte är säkert.”"
+    },
+    {
+      "location": "Dikten, strofen som börjar ”Detta löfte kan också öppna för dig”",
+      "severity": "major",
+      "source_quote": "“For My strength and power are manifest, / When these to My will conform.”",
+      "suggested_fix": "Ändra de två sista raderna till: ”För min styrka och kraft blir uppenbara / när detta sker i enlighet med min vilja.”",
+      "translation_quote": "För min styrka och kraft blir uppenbara / när dessa fogar sig efter min vilja."
+    },
+    {
+      "location": "HTML, div.poem, avslutande bylinerad",
+      "severity": "minor",
+      "source_quote": "<p class=\"byline\">~by Adrianna Fanton</p>",
+      "suggested_fix": "Behåll raden i samma HTML-struktur och ändra texten till <p class=\"byline\">~av Adrianna Fanton</p>.",
+      "translation_quote": "<p class=\"byline\">~av Adrianna Fanton</p>"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "132b99c3163d556b0eabcbd9b5aab2fb",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swe",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Those who lose loved ones…”",
+      "severity": "major",
+      "source_quote": "Consider the experience of Elizabeth Elliot and the four others who were made widows in 1956 by jungle killers in Ecuador.",
+      "suggested_fix": "Change “Elizabeth Elliott” to “Elizabeth Elliot” to match the source name; leave the rest of the sentence unchanged.",
+      "translation_quote": "Σκεφτείτε την εμπειρία της Elizabeth Elliott και των άλλων τεσσάρων γυναικών που έμειναν χήρες το 1956 από δολοφόνους της ζούγκλας στον Ισημερινό."
+    },
+    {
+      "location": "source.html, quoted Scripture in the final blockquote (Matthew 9:2–8)",
+      "severity": "major",
+      "source_quote": "“Arise, take up thy bed, and go unto thine house.”",
+      "suggested_fix": "Translate the quotation in contemporary Greek, preserving the meaning “Σήκω, πάρε το κρεβάτι σου και πήγαινε στο σπίτι σου.” Translate the whole quoted passage in contemporary Greek while preserving the reference Matthew 9:2-8.",
+      "translation_quote": "«Σηκώθητι, σήκωσον την κλίνην σου και ύπαγε εις τον οίκον σου.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

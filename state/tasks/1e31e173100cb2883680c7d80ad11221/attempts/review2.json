@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Hoofdbedekkingsalinea\",\"severity\":\"minor\",\"source_quote\":\"trying to keep it from being noticed by the uncovered public\",\"suggested_fix\":\"Vervang ‘bij het onbedekte publiek’ door ‘bij mensen die hun hoofd niet bedekken’.\",\"translation_quote\":\"in een poging te voorkomen dat het opvalt bij het onbedekte publiek\"},{\"location\":\"Voorbeeld van het bouwen van een huis, eerste alinea\",\"severity\":\"minor\",\"source_quote\":\"you put on your nail bag\",\"suggested_fix\":\"Vervang ‘je spijkerschort om’ door ‘je spijkertas om’ of ‘je spijkerriem om’.\",\"translation_quote\":\"Elke dag doe je je spijkerschort om\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 667,
+    "content_evidence_truncated": false,
+    "content_sha256": "794483c653aa268c1b39d15f71355419db980f36ac29d13893ae9458c8048eb9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 831,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 645,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8097,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8094,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8928
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

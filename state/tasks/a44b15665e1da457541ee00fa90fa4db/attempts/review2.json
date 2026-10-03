@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «جليات بالغ كثيرًا في تقدير قدرته الشخصية»\",\"severity\":\"minor\",\"source_quote\":\"It was not unusual for them to be able to hit birds in flight.\",\"suggested_fix\":\"Change «ولم يكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم» to «ولم تكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم».\",\"translation_quote\":\"ولم يكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 588,
+    "content_evidence_truncated": false,
+    "content_sha256": "48453e8791e10ac95f65a4e1039621c0f219b3d88b7b74e5e44e094ec43ec646",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1094,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 954,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7449,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7446,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8543
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

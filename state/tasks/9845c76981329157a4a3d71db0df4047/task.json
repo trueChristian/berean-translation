@@ -2,7 +2,6 @@
   "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 5284
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 698,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3249,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3246,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3979
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, paragraph beginning “«Εντάξει»”",
-      "severity": "major",
-      "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight to let them know we’re coming.”",
-      "suggested_fix": "Replace «Πέιτ» with a Greek transliteration matching the surname Peight, such as «Πάιτ», in this paragraph and elsewhere in the article.",
-      "translation_quote": "«Θα κανονίσω να στείλω ένα γράμμα στον αδελφό Όσκαρ Πέιτ για να τους ενημερώσω ότι ερχόμαστε»."
-    },
-    {
-      "location": "Article, paragraph beginning “Την επόμενη Πέμπτη”",
-      "severity": "major",
-      "source_quote": "“The next Thursday found the Coblentz family heading for Pennsylvania.”",
-      "suggested_fix": "Correct the surname transliteration «Κόμπλεντς» to a closer rendering of Coblentz, such as «Κόμπλεντζ».",
-      "translation_quote": "Την επόμενη Πέμπτη, η οικογένεια Κόμπλεντς ξεκίνησε για την Πενσιλβάνια."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "9845c76981329157a4a3d71db0df4047",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ell",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
   "translation_model_actual": "gpt-6-luna"

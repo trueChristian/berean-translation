@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, fourth paragraph\",\"severity\":\"minor\",\"source_quote\":\"“our instincts or environmental training”\",\"suggested_fix\":\"Replace the English word “conditioning” with a Hindi equivalent, such as “पर्यावरण से मिली conditioning” → “पर्यावरण से मिली ढाल” or “पर्यावरण से मिले संस्कार” (choose the term that best fits the intended sense).\",\"translation_quote\":\"“अपनी सहज प्रवृत्तियों और conditioning के अनुरूप”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 646,
+    "content_evidence_truncated": false,
+    "content_sha256": "d19ff1fa8adc316143d28c8d072d64feefd093a7030f12f2de0b5385fd42ee58",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 855,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 724,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8049,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8907
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

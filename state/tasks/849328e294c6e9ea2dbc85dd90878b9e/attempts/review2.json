@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem line 25\",\"severity\":\"minor\",\"source_quote\":\"Our life’s but a vapor, the Good Book conveys.\",\"suggested_fix\":\"Replace the line with: חיינו אינם אלא אד חולף, כך מלמד הספר הטוב.\",\"translation_quote\":\"חיינו אינם אלא אד ואדים, כך מלמד הספר הטוב.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 380,
+    "content_evidence_truncated": false,
+    "content_sha256": "207ae636ef5e8bbebe0d6994c3945e65794f83996ec1fbb025453a82a265d0f9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 599,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 500,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1799,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2401
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

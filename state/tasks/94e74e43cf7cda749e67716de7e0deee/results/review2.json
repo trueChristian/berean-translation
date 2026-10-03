@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6203ec32-15a7-437a-afba-c777df65d23c",
+    "response_id": "chatcmpl-EUerIYCv2l7muyGCTjdtZoGpt8ubi",
+    "usage": {
+      "completion_tokens": 589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 485,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1814,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1811,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2403
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, line beginning “Then death is the beginning”",
+        "severity": "minor",
+        "source_quote": "Then death is the beginning, so why is it grim?",
+        "suggested_fix": "죽음은 시작인데, 어찌하여 암울하게 여깁니까?",
+        "translation_quote": "죽음은 시작인데, 어찌하여 슬퍼합니까?"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

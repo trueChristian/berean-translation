@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "50dbcc37-44d4-4aa6-b6c7-a8b63efb5cec",
+    "response_id": "chatcmpl-EUeosnxagPmLD4rOjqS0tGSq6oWdf",
+    "usage": {
+      "completion_tokens": 665,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 535,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7740,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8408
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “One specific thing that I wish to focus on”",
+        "severity": "major",
+        "source_quote": "within the plain communities",
+        "suggested_fix": "Sostituire «nelle comunità anabattiste tradizionali» con «nelle comunità che seguono uno stile di vita semplice», evitando di attribuire loro una specifica identità religiosa non indicata nel testo fonte.",
+        "translation_quote": "nelle comunità anabattiste tradizionali"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

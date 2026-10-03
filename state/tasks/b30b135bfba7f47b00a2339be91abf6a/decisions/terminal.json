@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Den kvelden snakket familien igjen»",
+      "severity": "major",
+      "source_quote": "If that letter would have reached Brother Oscars, they would have been preparing for us.",
+      "suggested_fix": "Bytt «Hvis brevet hadde kommet fram til bror Oscar og dem som var hos ham» med «Hvis brevet hadde kommet fram til bror Oscar».",
+      "translation_quote": "Hvis brevet hadde kommet fram til bror Oscar og dem som var hos ham, ville de ha gjort seg klare til å ta imot oss."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

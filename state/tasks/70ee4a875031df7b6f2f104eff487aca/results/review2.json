@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1de400f7-6bc3-4b99-9780-7c13d402675b",
+    "response_id": "chatcmpl-EUeqrx4rQwiViBz0mcw0HeBUU8BDT",
+    "usage": {
+      "completion_tokens": 372,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7639,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8014
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraphe commençant « Un sujet précis… »",
+        "severity": "major",
+        "source_quote": "“plain communities”",
+        "suggested_fix": "Remplacer « communautés plain » par « communautés anabaptistes traditionnelles » ou par une autre formulation française qui identifie clairement les communautés auxquelles renvoie « plain communities ».",
+        "translation_quote": "« au sein des communautés plain »"
+      },
+      {
+        "location": "HTML, dernier paragraphe avant la citation finale",
+        "severity": "major",
+        "source_quote": "“If you wish to receive one or more of these CD sets”",
+        "suggested_fix": "Remplacer « de ces coffrets de CD » par « de ces coffrets de CD » uniquement si le contexte désigne bien les ensembles de CD; mieux, clarifier en français : « Si vous souhaitez recevoir un ou plusieurs de ces ensembles de CD… »",
+        "translation_quote": "« Si vous souhaitez recevoir un ou plusieurs de ces coffrets de CD »"
+      },
+      {
+        "location": "HTML, paragraphe commençant « What about all the what if’s…? »",
+        "severity": "major",
+        "source_quote": "“when countries and individuals …trust in chariots, and some in horses: Psalm 20:7a, then their outcome will be that They are brought down and [are] fallen… –Psalm 20:8a.”",
+        "suggested_fix": "Traduire fidèlement le fragment de Psaume 20:8a, sans en changer le sujet ni la voix : par exemple, « eux, ils plient et tombent… » (en conservant les références et leur placement).",
+        "translation_quote": "« leur sort sera Ils plient et tombent… –Psaume 20:8a »"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

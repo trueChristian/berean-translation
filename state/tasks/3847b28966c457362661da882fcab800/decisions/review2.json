@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Párrafo que comienza «Una imaginación honesta»",
+      "severity": "major",
+      "source_quote": "«…with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.»",
+      "suggested_fix": "Cambiar «no temía enfrentarse a una de ellas» por «no temía enfrentarse a uno (un hombre de guerra desde su juventud)», para que el referente sea un hombre, no una de las bestias mencionadas antes.",
+      "translation_quote": "«…y, con la ayuda de Dios, no temía enfrentarse a una de ellas (un hombre de guerra desde su juventud) en el valle de Ela.»"
+    },
+    {
+      "location": "Párrafo final antes del poema",
+      "severity": "major",
+      "source_quote": "«…from Zebedee’s boats of the business… to the boys of his bosom.»",
+      "suggested_fix": "Sustituir «hasta los muchachos que llevaba en su seno» por una expresión que se refiera a sus hijos, por ejemplo «hasta sus hijos queridos».",
+      "translation_quote": "«…desde las barcas de Zebedeo para el negocio… hasta los muchachos que llevaba en su seno.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

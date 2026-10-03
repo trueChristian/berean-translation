@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"پہلا پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"“Pride is something that everyone must deal with.”\",\"suggested_fix\":\"”غرور ایسی چیز ہے جس کا ہر شخص کو سامنا کرنا پڑتا ہے۔“\",\"translation_quote\":\"”غرور ایسی چیز ہے جس سے ہر شخص کو نمٹنا پڑتا ہے۔“\"},{\"location\":\"پہلا پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"“the carnal man”\",\"suggested_fix\":\"”نفسانی انسان“ یا ”جسمانی فطرت کا انسان“\",\"translation_quote\":\"”جسمانی انسان“\"},{\"location\":\"دوسرا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“Psalms 40:4 says He will not respect the proud”\",\"suggested_fix\":\"”زبور 40:4 کہتا ہے کہ وہ مغروروں کی طرف التفات نہیں کرے گا“ کو ”زبور 40:4 کہتا ہے کہ وہ اُس شخص کو برکت دیتا ہے جو خداوند پر بھروسا رکھتا ہے اور متکبروں یا جھوٹ کی طرف نہیں مڑتا“ سے بدلیں؛ اصل میں یہاں زبور 40:4 کا دعویٰ غلط طور پر پیش ہوا ہے، اس لیے ترجمہ اسے مزید پھیلا کر درست نہ کرے بلکہ ماخذ کے مطابق رکھے۔\",\"translation_quote\":\"”زبور 40:4 کہتا ہے کہ وہ مغروروں کی طرف التفات نہیں کرے گا“\"},{\"location\":\"دوسرا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“in Psalm 119: Thou hast rebuked the proud that are cursed, which do err from thy commandments –Psalm 119:21.”\",\"suggested_fix\":\"”زبور 119:21 میں: تُو نے اُن مغروروں کو ملامت کی ہے جو ملعون ہیں اور تیرے احکام سے بھٹک جاتے ہیں—زبور 119:21۔“ کو ماخذ کے مطابق رہنے دیں، مگر حوالہ جاتی متن میں آیت کا نمبر 119:21 ہی برقرار رکھتے ہوئے عبارت کا حوالہ ماخذ کے مطابق ترجمہ کریں۔\",\"translation_quote\":\"”زبور 119 میں: تُو نے اُن مغروروں کو ملامت کی ہے جو ملعون ہیں اور تیرے احکام سے بھٹک جاتے ہیں—زبور 119:21۔“\"},{\"location\":\"چھٹا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“trying to keep it from being noticed by the uncovered public”\",\"suggested_fix\":\"”تاکہ بے ڈھکے سر والے لوگوں کی نظر میں نہ آئے“ کو ”تاکہ سر نہ ڈھانپنے والے لوگوں کی نظر میں نہ آئے“ سے بدلیں۔\",\"translation_quote\":\"”تاکہ بے ڈھکے سر والے لوگوں کی نظر میں نہ آئے“\"},{\"location\":\"آٹھواں پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“It causes one to love their God with all their heart and obey God’s commands because of a passionate love for Him.”\",\"suggested_fix\":\"”یہ اسے اپنے خدا سے اپنے سارے دل کے ساتھ محبت کرنے اور اُس کے احکام کی اطاعت کرنے پر آمادہ کرتی ہے، کیونکہ وہ اُس سے پرجوش محبت رکھتا ہے۔“ کو ”یہ انسان کو اپنے سارے دل سے خدا سے محبت کرنے اور اُس کے لیے پرجوش محبت کے باعث اُس کے احکام ماننے پر آمادہ کرتی ہے۔“ سے بدلیں۔\",\"translation_quote\":\"”یہ اسے اپنے خدا سے اپنے سارے دل کے ساتھ محبت کرنے اور اُس کے احکام کی اطاعت کرنے پر آمادہ کرتی ہے، کیونکہ وہ اُس سے پرجوش محبت رکھتا ہے۔“\"},{\"location\":\"بارھواں پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“David seemed a bit shocked, and aggrieved”\",\"suggested_fix\":\"”داؤد کچھ چونکا ہوا اور رنجیدہ معلوم ہوتا تھا“ کو ”داؤد کچھ حیران اور رنجیدہ معلوم ہوتا تھا“ سے بدلیں۔\",\"translation_quote\":\"”داؤد کچھ چونکا ہوا اور رنجیدہ معلوم ہوتا تھا“\"},{\"location\":\"چودھواں پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“I cannot go against these; for I have not proved them.”\",\"suggested_fix\":\"”میں یہ پہن کر نہیں جا سکتا، کیونکہ میں نے انہیں آزمایا نہیں۔“ کو ”میں ان چیزوں کے ساتھ نہیں جا سکتا، کیونکہ میں نے انہیں آزمایا نہیں۔“ سے بدلیں۔\",\"translation_quote\":\"”میں یہ پہن کر نہیں جا سکتا، کیونکہ میں نے انہیں آزمایا نہیں۔“\"},{\"location\":\"اکیسواں پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“If we would say, ‘Yes, it is a beautiful house; I did a great job building it!’”\",\"suggested_fix\":\"”ہاں، یہ خوب صورت گھر ہے؛ میں نے اسے بنانے میں بہت اچھا کام کیا!“ کو ”ہاں، یہ خوب صورت گھر ہے؛ میں نے اسے بہت اچھا بنایا!“ سے بدلیں۔\",\"translation_quote\":\"”ہاں، یہ خوب صورت گھر ہے؛ میں نے اسے بنانے میں بہت اچھا کام کیا!“\"},{\"location\":\"بائیسواں پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“You never even put on your nail bag”\",\"suggested_fix\":\"”آپ نے کیلوں کی تھیلی بھی نہیں پہنی“ کو ”آپ نے کیل رکھنے والی تھیلی بھی نہیں باندھی“ سے بدلیں۔\",\"translation_quote\":\"”آپ نے کیلوں کی تھیلی بھی نہیں پہنی“\"},{\"location\":\"چھبیسواں پیراگراف\",\"severity\":\"major\",\"source_quote\":\"“only known the city streets as home”\",\"suggested_fix\":\"”جس نے صرف شہر کی گلیوں کو اپنا گھر جانا ہے“ کو ”جس نے شہر کی گلیوں کے سوا کوئی گھر نہیں جانا“ سے بدلیں۔\",\"translation_quote\":\"”جس نے صرف شہر کی گلیوں کو اپنا گھر جانا ہے“\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 6185,
+    "content_evidence_truncated": false,
+    "content_sha256": "88b0c8def6ff8c28bad656da837fc3d87f0e59668b60108b40f828e16a0d5054",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8964,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8961,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10254
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

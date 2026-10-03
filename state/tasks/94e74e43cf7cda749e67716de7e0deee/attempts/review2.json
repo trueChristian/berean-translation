@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, line beginning “Then death is the beginning”\",\"severity\":\"minor\",\"source_quote\":\"Then death is the beginning, so why is it grim?\",\"suggested_fix\":\"죽음은 시작인데, 어찌하여 암울하게 여깁니까?\",\"translation_quote\":\"죽음은 시작인데, 어찌하여 슬퍼합니까?\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 364,
+    "content_evidence_truncated": false,
+    "content_sha256": "67f332f9c9fe3e3609911eaf2f2ce0ed33d541c4d4ccb8e288b45556a745658e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 485,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1814,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1811,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2403
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

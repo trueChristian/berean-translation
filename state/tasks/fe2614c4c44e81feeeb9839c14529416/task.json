@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 2779
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, poem, lines 6–7",
-      "severity": "minor",
-      "source_quote": "The singing so sweet, includes everyone.",
-      "suggested_fix": "Replace the translated line with « Le chant, si doux, inclut tout le monde. »",
-      "translation_quote": "Le chant, si doux, accueille chacun à l’éveil."
     },
     {
-      "location": "HTML, poem, lines 17–18",
-      "severity": "major",
-      "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
-      "suggested_fix": "Replace these two lines with « Ou si nous aimons notre vie, la Bible dit clairement / que nous perdrions notre chance d’accéder à ce ciel si précieux. »",
-      "translation_quote": "Ou aimerions-nous notre vie, alors que la Bible est claire : / Nous perdrions notre chance d’accéder à ce ciel si précieux."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 357,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1756,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1753,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2113
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Poème, lignes 3–4",
+      "severity": "major",
+      "source_quote": "There’s a place up there, no toil or strife. However, the church, can forget of that life,",
+      "suggested_fix": "Remplacer par : « Là-haut, il y a un lieu sans labeur ni conflits. / Pourtant, l’Église peut oublier cette vie, » afin de conserver l’idée de l’existence d’un lieu sans peine ni conflit, et le contraste avec l’Église qui peut oublier cette vie.",
+      "translation_quote": "Là-haut, il y a un lieu sans labeur ni conflits. Pourtant, l’Église peut oublier cette vie,"
+    },
+    {
+      "location": "Poème, ligne 5",
+      "severity": "major",
+      "source_quote": "If the presence of God, shines as the sun,",
+      "suggested_fix": "Remplacer « Si » par « Puisque » : « Puisque la présence de Dieu brille comme le soleil, »",
+      "translation_quote": "Si la présence de Dieu brille comme le soleil,"
+    },
+    {
+      "location": "Poème, lignes 19–20",
+      "severity": "major",
+      "source_quote": "If heaven is real, we must be confused / For it seems it’s this life, that has us amused.",
+      "suggested_fix": "Rendre explicitement le lien d’inférence et l’idée que cette vie nous amuse, par exemple : « Si le ciel est réel, nous devons être dans la confusion, / Car il semble que c’est cette vie qui nous divertit. »",
+      "translation_quote": "Si le ciel est réel, nous devons être dans la confusion, / Car il semble que cette vie nous amuse."
+    }
+  ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "fe2614c4c44e81feeeb9839c14529416",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "fra",
@@ -178,7 +206,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"

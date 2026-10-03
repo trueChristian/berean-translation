@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “One of the Ten Commandments”",
+      "severity": "major",
+      "source_quote": "Thou shalt not kill – Exodus 20:13.",
+      "suggested_fix": "Replace the quoted command with a Swedish rendering that preserves “kill,” such as “Du ska inte döda”, while keeping the reference to Andra Moseboken 20:13 unchanged.",
+      "translation_quote": "Du ska inte mörda – Andra Moseboken 20:13."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

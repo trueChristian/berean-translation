@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "96cd8e9d-b6cc-4a4f-b679-882dd40f69a1",
+    "response_id": "chatcmpl-EUepo62hjX8G0DZ3B62FilQye25xI",
+    "usage": {
+      "completion_tokens": 326,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1784,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1781,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2110
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, lines 13–14",
+        "severity": "major",
+        "source_quote": "Treasures are worthy, of that we agree. But lay them in heaven where forever they’ll be.",
+        "suggested_fix": "Ganti dua baris ini dengan: “Harta itu berharga, kita semua sepakat. / Namun, simpanlah harta itu di surga, tempatnya kekal.”",
+        "translation_quote": "Harta adalah sesuatu yang layak diperjuangkan, kita sepakat. Namun, simpanlah di surga, tempatnya untuk selamanya."
+      },
+      {
+        "location": "Poem, line 16",
+        "severity": "major",
+        "source_quote": "Then eternity we’d gain, and heaven partake.",
+        "suggested_fix": "Ganti dengan: “Maka kita akan memperoleh kekekalan dan mengambil bagian di surga.”",
+        "translation_quote": "Maka kita akan memperoleh hidup kekal dan mendapat bagian di surga."
+      },
+      {
+        "location": "Poem, lines 17–18",
+        "severity": "major",
+        "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
+        "suggested_fix": "Ganti dua baris ini dengan: “Atau mencintai hidup kita—Alkitab dengan jelas mengatakan / Kita akan kehilangan kesempatan untuk memperoleh surga yang begitu berharga.”",
+        "translation_quote": "Ataukah kita mencintai hidup kita, padahal Alkitab dengan jelas mengatakan / Kita akan kehilangan kesempatan untuk meraih surga yang begitu berharga."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

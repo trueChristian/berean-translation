@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraf pembuka",
+      "severity": "major",
+      "source_quote": "In Leviticus chapters 21 and 22, a plan, called a divorce, was put in place to legally dissolve the “first love”.",
+      "suggested_fix": "Ganti rujukan kitab dengan bentuk yang benar: “Dalam pasal 21 dan 22 Imamat, sebuah cara yang disebut perceraian diberlakukan untuk mengakhiri ‘cinta pertama’ secara hukum.”",
+      "translation_quote": "Dalam Imamat pasal 21 dan 22, sebuah cara yang disebut perceraian diberlakukan untuk mengakhiri “cinta pertama” secara hukum."
+    },
+    {
+      "location": "source.html, bagian tentang Matius 5:31-32, paragraf yang dimulai “Saving for the cause of fornication”",
+      "severity": "major",
+      "source_quote": "Fornication is any type of immorality prior to marriage.",
+      "suggested_fix": "Gunakan istilah yang membedakan fornication dari adultery, konsisten dengan kontras yang dijelaskan dalam paragraf: “Perbuatan cabul dalam pengertian ini adalah segala jenis amoralitas sebelum pernikahan.” Periksa dan sesuaikan pula kemunculan “zinah” pada kalimat-kalimat berikutnya dalam paragraf agar istilah fornication tidak tertukar dengan perzinaan setelah menikah.",
+      "translation_quote": "Zinah dalam pengertian ini adalah segala jenis amoralitas sebelum pernikahan."
+    },
+    {
+      "location": "source.html, paragraf tentang Hosea dan Gomer",
+      "severity": "major",
+      "source_quote": "she resorts to the life of a “harlot'' (Hosea 3:3) and goes after other “lovers” (2:7).",
+      "suggested_fix": "Pertahankan rujukan yang tercetak pada sumber untuk bagian ini: “perempuan itu kembali menjalani kehidupan sebagai ‘pelacur’ (Hosea 3:3) dan mengejar ‘kekasih-kekasih’ lain (Hosea 2:7).”",
+      "translation_quote": "perempuan itu kembali menjalani kehidupan sebagai “pelacur” (Hosea 3:3) dan mengejar “kekasih-kekasih” lain (2:7)."
+    },
+    {
+      "location": "source.html, paragraf tentang Yohanes 4:1-42",
+      "severity": "major",
+      "source_quote": "none of your five former husbands of which you have divorced or put away (including your first one) are your husband",
+      "suggested_fix": "Terjemahkan “former husbands” sebagai “mantan suamimu”, bukan “mantan suamimu yang telah engkau ceraikan atau tinggalkan”; misalnya: “tak satu pun dari kelima mantan suamimu (termasuk yang pertama) adalah suamimu, dan laki-laki yang sekarang bersamamu juga bukan.”",
+      "translation_quote": "tak satu pun dari lima mantan suamimu yang telah engkau ceraikan atau tinggalkan (termasuk yang pertama) adalah suamimu, dan laki-laki yang sekarang bersamamu juga bukan."
+    },
+    {
+      "location": "source.html, paragraf tentang Yohanes 4:1-42",
+      "severity": "major",
+      "source_quote": "So, to use this account and say that all five husbands are adulterous and still classified as God-recorded husbands",
+      "suggested_fix": "Terjemahkan bahwa kelima suami “melakukan perzinaan” atau “adulterous” sebagai predikat terhadap mereka; jangan ubah menjadi klaim bahwa mereka “semuanya berzina”. Misalnya: “Jadi, menggunakan kisah ini dan mengatakan bahwa kelima suami itu adalah pezina dan masih digolongkan sebagai suami yang tercatat oleh Allah…”",
+      "translation_quote": "Jadi, menggunakan kisah ini dan mengatakan bahwa kelima suaminya semuanya berzina dan masih digolongkan sebagai suami yang tercatat oleh Allah"
+    },
+    {
+      "location": "source.html, bagian kesimpulan, paragraf yang dimulai “The context of 1 Corinthians 7:10-16”",
+      "severity": "major",
+      "source_quote": "the remaining believing spouse is not under obligation to denounce their walk of faith to continue a marriage relationship",
+      "suggested_fix": "Perbaiki “menyangkal kehidupan imannya” agar jelas bahwa yang dimaksud adalah menyangkal perjalanan iman demi mempertahankan pernikahan: “pasangan yang percaya dan tetap tinggal itu tidak berkewajiban menyangkal perjalanan imannya demi melanjutkan hubungan pernikahan.”",
+      "translation_quote": "pasangan yang percaya dan tetap tinggal itu tidak berkewajiban menyangkal kehidupan imannya demi melanjutkan hubungan pernikahan"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

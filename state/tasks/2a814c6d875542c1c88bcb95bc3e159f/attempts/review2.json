@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “While we and those we know…”\",\"severity\":\"minor\",\"source_quote\":\"While we and those we know will hardly face that level of exposure\",\"suggested_fix\":\"مع أنَّنا نحن ومن نعرفهم لن نواجه على الأرجح ذلك القدر من الظهور\",\"translation_quote\":\"مع أنني أنا ومن أعرفهم لن نواجه على الأرجح ذلك القدر من الظهور\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 483,
+    "content_evidence_truncated": false,
+    "content_sha256": "b337a0c78f2efba2c58be27e99b9d839878fa53c4648d1bc9e8741454733b2a2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 900,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 779,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8870,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8867,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9770
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

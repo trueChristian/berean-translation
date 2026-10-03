@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Dikten, strofen som börjar ”Men här har jag satt min regnbåge”",
+      "severity": "major",
+      "source_quote": "“But here I have placed My rainbow, / That amidst all the darkness and fear, / You can see that My promise is certain.”",
+      "suggested_fix": "Ändra de första tre raderna till: ”Men här har jag placerat min regnbåge, / så att du mitt i allt mörker och all rädsla / kan se att mitt löfte är säkert.”",
+      "translation_quote": "”Men här har jag satt min regnbåge, / så att du mitt i allt mörker och all rädsla / kan se att mitt löfte är säkert.”"
+    },
+    {
+      "location": "Dikten, strofen som börjar ”Detta löfte kan också öppna för dig”",
+      "severity": "major",
+      "source_quote": "“For My strength and power are manifest, / When these to My will conform.”",
+      "suggested_fix": "Ändra de två sista raderna till: ”För min styrka och kraft blir uppenbara / när detta sker i enlighet med min vilja.”",
+      "translation_quote": "För min styrka och kraft blir uppenbara / när dessa fogar sig efter min vilja."
+    },
+    {
+      "location": "HTML, div.poem, avslutande bylinerad",
+      "severity": "minor",
+      "source_quote": "<p class=\"byline\">~by Adrianna Fanton</p>",
+      "suggested_fix": "Behåll raden i samma HTML-struktur och ändra texten till <p class=\"byline\">~av Adrianna Fanton</p>.",
+      "translation_quote": "<p class=\"byline\">~av Adrianna Fanton</p>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

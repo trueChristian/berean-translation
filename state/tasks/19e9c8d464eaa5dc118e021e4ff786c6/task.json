@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 11796
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 20,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7638,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7635,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7658
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “Dit is belangrik dat ons voortgaan…”",
-      "severity": "major",
-      "source_quote": "“even if we are dealing with a terminal illness.”",
-      "suggested_fix": "Translate the English phrase as “selfs al gaan ons deur ’n terminale siekte.”",
-      "translation_quote": "“even al gaan ons deur ’n terminale siekte.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "19e9c8d464eaa5dc118e021e4ff786c6",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "afr",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

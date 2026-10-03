@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"মূল অনুচ্ছেদ, দায়ূদের উদ্দেশ্যের বর্ণনা\",\"severity\":\"major\",\"source_quote\":\"“While the thought of earthly prominence meant nothing to the tender heart of David, there was a jealous fire kindled by the blasphemous taunts of Goliath”\",\"suggested_fix\":\"“পার্থিব প্রতিষ্ঠার চিন্তা কোমল হৃদয়ের দায়ূদের কাছে অর্থহীন হলেও, গোলিয়াতের ঈশ্বরনিন্দামূলক বিদ্রূপে তাঁর মধ্যে পবিত্র ক্রোধের আগুন জ্বলে উঠেছিল”\",\"translation_quote\":\"“পার্থিব প্রতিষ্ঠার চিন্তা কোমল হৃদয়ের দায়ূদের কাছে অর্থহীন হলেও, গোলিয়াতের ঈশ্বরনিন্দামূলক বিদ্রূপে তাঁর মধ্যে ঈর্ষার আগুন জ্বলে উঠেছিল”\"},{\"location\":\"মূল অনুচ্ছেদ, ভিক্টর ফ্রাঙ্কলের প্রসঙ্গ\",\"severity\":\"major\",\"source_quote\":\"“As a holocaust prisoner in a Nazi concentration camp, Victor Frankl was commissioned to labor in the ward of the camp where prisoners were dying of typhus.”\",\"suggested_fix\":\"“নাৎসি বন্দিশিবিরে হলোকাস্টের বন্দি হিসেবে ভিক্টর ফ্রাঙ্কলকে শিবিরের সেই ওয়ার্ডে কাজ করার দায়িত্ব দেওয়া হয়েছিল, যেখানে বন্দিরা টাইফাসে মারা যাচ্ছিল।”\",\"translation_quote\":\"“নাৎসি বন্দিশিবিরে হলোকাস্টের বন্দি হিসেবে ভিক্টর ফ্রাঙ্কলকে শিবিরের সেই ওয়ার্ডে কাজ করার দায়িত্ব দেওয়া হয়েছিল, যেখানে বন্দিরা টাইফাসে মারা যাচ্ছিল।”\"},{\"location\":\"শেষের আগের মূল অনুচ্ছেদ, যিশয়ের অবসরজীবন-সংক্রান্ত প্রশ্ন\",\"severity\":\"major\",\"source_quote\":\"“How would history be different if Jesse would have spent his retirement like the elders of our day?”\",\"suggested_fix\":\"“যিশয় যদি আমাদের সময়ের প্রবীণদের মতো অবসরজীবন কাটাতেন, তবে ইতিহাস কত ভিন্ন হতো?”\",\"translation_quote\":\"“যিশয়ের অবসরজীবন যদি আমাদের সময়ের প্রবীণদের মতো কাটত, তবে ইতিহাস কত ভিন্ন হতো?”\"},{\"location\":\"শেষের আগের মূল অনুচ্ছেদ, শেষ বাক্য\",\"severity\":\"major\",\"source_quote\":\"“from Zebedee’s boats of the business… to the boys of his bosom.”\",\"suggested_fix\":\"“ব্যবসায়ী সবদিয়ের নৌকা থেকে… তাঁর বুকের ছেলেদের পর্যন্ত।”\",\"translation_quote\":\"“ব্যবসার জন্য সবদিয়ের নৌকা থেকে… তাঁর বুকের ছেলেদের পর্যন্ত।”\"},{\"location\":\"কবিতা, দ্বিতীয় পঙ্‌ক্তি\",\"severity\":\"major\",\"source_quote\":\"“David had a sling;”\",\"suggested_fix\":\"“দায়ূদের ছিল একটি গুলতি;”\",\"translation_quote\":\"“দায়ূদের ছিল গুলতি;”\"},{\"location\":\"কবিতা, ষষ্ঠ পঙ্‌ক্তি\",\"severity\":\"major\",\"source_quote\":\"“Moses had a rod;”\",\"suggested_fix\":\"“মোশির ছিল একটি দণ্ড;”\",\"translation_quote\":\"“মোশির ছিল একটি দণ্ড;”\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 4376,
+    "content_evidence_truncated": false,
+    "content_sha256": "25766b20431a63091765184381286a93372c46a9cac60190ddf4d71c429782f3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8329,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9060
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

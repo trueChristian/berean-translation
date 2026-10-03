@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Un asunto específico…”",
+      "severity": "minor",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "Replace «dentro de las comunidades sencillas» with «dentro de las comunidades de vida sencilla» to make clear that “plain communities” refers to these communities, not to communities that are merely simple.",
+      "translation_quote": "dentro de las comunidades sencillas"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

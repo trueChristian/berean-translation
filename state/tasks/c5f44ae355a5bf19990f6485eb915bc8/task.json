@@ -2,7 +2,6 @@
   "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,39 +64,47 @@
         },
         "total_tokens": 17392
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 413,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11151,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11148,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11564
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “In the book of Hosea…”",
+      "location": "source.html, paragrafo che inizia «In Matthew 19:3-12»",
       "severity": "major",
-      "source_quote": "“Sometime after Hosea marries her, she resorts to the life of a ‘harlot’”",
-      "suggested_fix": "Change “Osea ricorre alla vita di una «prostituta»” to “lei si dà alla vita di una «prostituta»” so the subject remains Gomer, as in the source.",
-      "translation_quote": "“Qualche tempo dopo averla sposata, Osea ricorre alla vita di una «prostituta»”"
+      "source_quote": "«Don't equate man’s authority (the civil court) with God’s authority when it comes to deciding what the facts are concerning marriage, divorce, and remarriage.»",
+      "suggested_fix": "Sostituire «Non equiparate l’autorità dell’uomo (il tribunale civile) all’autorità di Dio quando si tratta di stabilire i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.» con «Non equiparate l’autorità dell’uomo (il tribunale civile) a quella di Dio nel decidere quali siano i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.»",
+      "translation_quote": "«Non equiparate l’autorità dell’uomo (il tribunale civile) all’autorità di Dio quando si tratta di stabilire i fatti riguardanti il matrimonio, il divorzio e le nuove nozze.»"
     },
     {
-      "location": "source.html, paragraph beginning “Sometime after Hosea marries her…”",
+      "location": "source.html, paragrafo che inizia «The context of 1 Corinthians 7:10-16»",
       "severity": "major",
-      "source_quote": "“Hosea betrothed her again”",
-      "suggested_fix": "Change “Osea la prende di nuovo in moglie” to “Osea si fidanzò di nuovo con lei” to preserve the source’s distinction between betrothal and marriage.",
-      "translation_quote": "“Osea la prende di nuovo in moglie”"
-    },
-    {
-      "location": "source.html, paragraph beginning “In the book of Hosea…”; quoted Hosea 1:2",
-      "severity": "major",
-      "source_quote": "“take unto thee a wife of whoredoms”",
-      "suggested_fix": "Replace “una donna adultera” with “una donna dedita alla prostituzione” (or an equivalent Italian rendering of “donna di prostituzione”) to preserve the source’s wording without asserting adultery.",
-      "translation_quote": "“prenditi in moglie una donna adultera”"
-    },
-    {
-      "location": "source.section",
-      "severity": "minor",
-      "source_quote": "“THE GODLY HOME”",
-      "suggested_fix": "Use an Italian rendering that preserves the idea of a godly home, such as “LA CASA PIA,” rather than “LA FAMIGLIA CRISTIANA.”",
-      "translation_quote": "“LA FAMIGLIA CRISTIANA”"
+      "source_quote": "«If verse 15 is speaking of the marriage covenant, then verse 39 would contradict verse 15 and the will of God according to the rest of Scripture, (see Matthew 19:5 and 1 Corinthians 7:10).»",
+      "suggested_fix": "Correggere il riferimento nella traduzione da «(vedi Matteo 19:5 e 1 Corinzi 7:10)» a «(vedi Matteo 19:5 e 1 Corinzi 7:10)»? Il riferimento è già identico; non è necessaria alcuna modifica.",
+      "translation_quote": "«(vedi Matteo 19:5 e 1 Corinzi 7:10)»"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "c5f44ae355a5bf19990f6485eb915bc8",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ita",
@@ -186,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4ec38ebc-75df-4b72-997e-b3de3cc7802a",
+    "response_id": "chatcmpl-EUep0laAXTIAfGfILxbxqTPvpMfep",
+    "usage": {
+      "completion_tokens": 584,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 482,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1799,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1796,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2383
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, line 24",
+        "severity": "minor",
+        "source_quote": "Then death is the beginning, so why is it grim?",
+        "suggested_fix": "Basi kifo ni mwanzo; kwa nini basi kinaonekana kuwa cha kuhuzunisha?",
+        "translation_quote": "Basi kifo ni mwanzo, kwa nini basi kinakutisha?"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

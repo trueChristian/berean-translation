@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,32 +64,61 @@
         },
         "total_tokens": 11967
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 505,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7582,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7579,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8087
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article body, paragraph beginning “David gick alltså framåt…”",
+      "location": "HTML, in the paragraph beginning “När David steg upp tidigt”",
       "severity": "major",
-      "source_quote": "<em>For as the body without the spirit is dead, so faith without works [action] is dead also –James 2:26.</em>",
-      "suggested_fix": "Ersätt ”tron utan gärningar [handling] död” med ”tron utan gärningar [handling] också är död”, så att översättningen återger ”is dead also”. Behåll referensen till Jakobsbrevet 2:26.",
-      "translation_quote": "<em>För liksom kroppen utan anden är död, så är också tron utan gärningar [handling] död –Jakobsbrevet 2:26.</em>"
+      "source_quote": "“as he came upon the scene he was shocked at the sight. Both armies were positioned on opposite mountains”",
+      "suggested_fix": "Ändra till: “men när han kom fram till platsen blev han chockad av det han såg. Båda arméerna stod på var sitt berg”",
+      "translation_quote": "“men när han kom fram till platsen blev han chockad av det han såg. Båda arméerna stod på var sitt berg”"
     },
     {
-      "location": "Article body, paragraph beginning “David gick alltså framåt…”",
+      "location": "HTML, paragraph beginning “När Saul motvilligt går med på Davids förslag”",
       "severity": "major",
-      "source_quote": "“If David defeated Goliath by miracle alone, then there is no hope for us but to sit and wait for God to do the same for us.”",
-      "suggested_fix": "Ändra början till ”Om David besegrade Goljat enbart genom ett mirakel, finns det inget hopp för oss annat än att sitta och vänta på att Gud ska göra detsamma för oss.” Nuvarande formulering tappar den uttryckliga villkorssatsen och låter påståendet bli kategoriskt.",
-      "translation_quote": "“På samma sätt finns det inget hopp för oss annat än att sitta och vänta på att Gud ska göra detsamma för oss, om David besegrade Goljat enbart genom ett mirakel.”"
+      "source_quote": "“As Saul reluctantly consents to David’s proposal, he proceeds to arm the lad”",
+      "suggested_fix": "Ändra “går han vidare med att beväpna ynglingen” till “låter han beväpna ynglingen” så att det framgår att Saul låter David få rustning, inte själv utrustar honom.",
+      "translation_quote": "“går han vidare med att beväpna ynglingen på typiskt världsligt vis”"
     },
     {
-      "location": "Article body, paragraph beginning “Varför dog japanska kamikazepiloter…”",
+      "location": "HTML, paragraph beginning “Varför dog japanska kamikazepiloter”",
       "severity": "major",
-      "source_quote": "“God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael”",
-      "suggested_fix": "Ändra ”Jaels tältplugg” till ”Jaels spik”, så att den specifika bilden av en nail bevaras.",
-      "translation_quote": "“Gud fäller jättar genom de redskap vi räcker honom, från Dorkas nål… till Jaels tältplugg”"
+      "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Ändra “från Sebedaios båtar i hans verksamhet… till pojkarna i hans famn” till en formulering som återger kontrasten mellan Sebedaios båtar knutna till hans yrkesverksamhet och sönerna han hade vid sitt bröst, till exempel: “från Sebedaios båtar i hans näring… till pojkarna vid hans bröst”.",
+      "translation_quote": "“från Sebedaios båtar i hans verksamhet… till pojkarna i hans famn”"
+    },
+    {
+      "location": "HTML, diktens fjärde rad",
+      "severity": "major",
+      "source_quote": "“Rahab had a string;”",
+      "suggested_fix": "Ändra “Rahab hade ett snöre;” till “Rahab hade en tråd;”",
+      "translation_quote": "“Rahab hade ett snöre;”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "f30363ebc38c8cc95483b1331f395906",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swe",
@@ -179,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

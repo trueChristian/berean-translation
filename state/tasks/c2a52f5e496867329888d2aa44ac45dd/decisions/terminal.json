@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza beginning “This promise can also open to you”",
+      "severity": "major",
+      "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+      "suggested_fix": "Replace the final two lines of this stanza with: “কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই শক্তি ও ক্ষমতা আমার ইচ্ছার সঙ্গে সঙ্গতিপূর্ণ হয়।” This keeps the stated subject as God’s strength and power, rather than the hidden secrets.",
+      "translation_quote": "কারণ আমার শক্তি ও ক্ষমতা প্রকাশ পায়, / যখন এই রহস্যগুলো আমার ইচ্ছার সঙ্গে মেলে।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

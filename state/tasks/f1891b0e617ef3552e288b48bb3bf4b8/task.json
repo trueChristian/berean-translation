@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,32 +64,54 @@
         },
         "total_tokens": 12972
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 480,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8345,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8342,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8825
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “Let us look first at Law and Grace”",
+      "location": "HTML, paragraf tentang penutup kepala",
       "severity": "major",
-      "source_quote": "Someone that is under the law does not desire to do what he must do, but rather, he does it because of the law.",
-      "suggested_fix": "Change “tidak ingin melakukan apa yang harus dilakukannya” to “tidak ingin melakukan apa yang harus dilakukannya, tetapi melakukannya karena hukum” only if needed for clarity; the current translation preserves the source meaning.",
-      "translation_quote": "Orang yang berada di bawah hukum tidak ingin melakukan apa yang harus dilakukannya, melainkan melakukannya karena hukum."
+      "source_quote": "“Some even put it all the way on the back of the head and color it the same as their hair, trying to keep it from being noticed by the uncovered public.”",
+      "suggested_fix": "Pertahankan makna bahwa penutup kepala dipakai sampai ke bagian belakang kepala dan diwarnai sama dengan rambut agar tidak terlihat oleh orang-orang yang tidak menutupi kepala; misalnya, ubah “orang-orang di luar yang tidak menutupi kepala” menjadi “orang-orang yang tidak menutupi kepala.”",
+      "translation_quote": "“Bahkan ada yang memakainya sampai ke bagian belakang kepala dan mewarnainya sama dengan rambut mereka, berusaha agar tidak terlihat oleh orang-orang di luar yang tidak menutupi kepala.”"
     },
     {
-      "location": "source.html, paragraph beginning “Let us look at grace”",
+      "location": "HTML, paragraf tentang kesaksian atas pekerjaan Allah",
       "severity": "major",
-      "source_quote": "You are not your own and you desire to be all you can be for your Savior who died for you.",
-      "suggested_fix": "Replace “Kamu bukan milikmu sendiri” with “Kamu bukan milikmu sendiri” only if retaining the idiom; otherwise, use “Kamu bukan milik dirimu sendiri,” preserving the meaning that the person belongs to another.",
-      "translation_quote": "Kamu bukan milikmu sendiri dan ingin melakukan segala yang kamu mampu bagi Juruselamatmu yang telah mati untukmu."
+      "source_quote": "“When someone believes it is pride, just like Eliab did, it’s because they only see the working of the Law, where all is done by man’s feeble attempts.”",
+      "suggested_fix": "Terjemahkan “believes it is pride” sebagai “menganggapnya sebagai kesombongan,” bukan sebagai kepercayaan bahwa itu memang kesombongan. Contoh: “Ketika seseorang menganggapnya sebagai kesombongan, seperti yang dilakukan Eliab, itu karena mereka hanya melihat cara kerja Hukum Taurat, yang semuanya dilakukan melalui upaya manusia yang lemah.”",
+      "translation_quote": "“Ketika seseorang menganggapnya kesombongan, seperti Eliab, itu karena mereka hanya melihat cara kerja Hukum Taurat, ketika semuanya dilakukan oleh upaya manusia yang lemah.”"
     },
     {
-      "location": "source.html, paragraph beginning “A poor criminal who has only known the city streets as home”",
+      "location": "HTML, paragraf tentang contoh penjahat yang bertobat",
       "severity": "major",
-      "source_quote": "God saves him, transforms him, converts him.",
-      "suggested_fix": "Replace “membarui dirinya” with “mempertobatkannya” to preserve the distinct assertion that God converts him.",
-      "translation_quote": "Allah menyelamatkannya, mengubahnya, dan membarui dirinya."
+      "source_quote": "“God saves him, transforms him, converts him.”",
+      "suggested_fix": "Terjemahkan ketiga tindakan itu tanpa mengubah tindakan “converts” menjadi tindakan mempertobatkan orang lain; misalnya: “Allah menyelamatkannya, mengubahnya, dan menjadikannya orang yang bertobat.”",
+      "translation_quote": "“Allah menyelamatkannya, mengubahnya, dan mempertobatkannya.”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "f1891b0e617ef3552e288b48bb3bf4b8",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -179,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

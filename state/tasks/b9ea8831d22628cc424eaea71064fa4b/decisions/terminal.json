@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening quotation (1 Samuel 17:29)",
+      "severity": "major",
+      "source_quote": "“What have I now done? Is there not a cause?”",
+      "suggested_fix": "Replace „Gibt es nicht einen Grund?“ with „Gibt es nicht einen Anlass?“ (or another German rendering that conveys a compelling cause/justification in context), in both this opening quotation and the repeated quotation in the article.",
+      "translation_quote": "„Was habe ich nun getan? Gibt es nicht einen Grund?“"
+    },
+    {
+      "location": "HTML, David’s response to Eliab (1 Samuel 17:28–29)",
+      "severity": "major",
+      "source_quote": "“I know thy pride, and the naughtiness of thine heart”",
+      "suggested_fix": "Translate “naughtiness” as wickedness or evil, for example: „Ich kenne deinen Hochmut und die Bosheit deines Herzens“ is accurate; however, the source continues with “for thou art come down that thou mightest see the battle,” which is translated accurately. No change needed here.",
+      "translation_quote": "„Ich kenne deinen Hochmut und die Bosheit deines Herzens“"
+    },
+    {
+      "location": "HTML, Victor Frankl passage",
+      "severity": "major",
+      "source_quote": "“As a holocaust prisoner in a Nazi concentration camp, Victor Frankl was commissioned to labor in the ward of the camp where prisoners were dying of typhus.”",
+      "suggested_fix": "Correct the added specificity: translate “holocaust prisoner” without changing it to merely “Häftling in einem Konzentrationslager der Nazis,” for example „Als Holocaust-Häftling in einem nationalsozialistischen Konzentrationslager wurde Victor Frankl zur Arbeit auf der Krankenstation des Lagers eingeteilt, wo Gefangene an Typhus starben.“",
+      "translation_quote": "„Als Häftling in einem Konzentrationslager der Nazis wurde Victor Frankl zur Arbeit auf der Krankenstation des Lagers eingeteilt, wo Gefangene an Typhus starben.“"
+    },
+    {
+      "location": "HTML, David’s armor and five stones",
+      "severity": "major",
+      "source_quote": "“…I cannot go with these; for I have not proved them. And David put them off him –1 Samuel 17:39, choosing five stones instead.”",
+      "suggested_fix": "Preserve that David himself had not tested the armor: change „ich habe es nicht erprobt“ to „ich habe sie nicht erprobt“ (referring to the armor/weapons), while retaining the quotation and surrounding structure.",
+      "translation_quote": "„…ich kann damit nicht gehen, denn ich habe es nicht erprobt. Und David legte es ab –1. Samuel 17:39,“"
+    },
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "minor",
+      "source_quote": "“our own ‘ship will come in’ in a similar fashion”",
+      "suggested_fix": "Use a German idiom that preserves the idea of a hoped-for stroke of good fortune, such as „dass auch für uns eines Tages das Glück kommt“; the current phrasing shifts this to a general change of fortune.",
+      "translation_quote": "„dass sich eines Tages auch unser Glück wendet“"
+    },
+    {
+      "location": "HTML, closing paragraph",
+      "severity": "major",
+      "source_quote": "“from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Correct the reversed/unclear final image: translate “the boys of his bosom” as the sons/children close to Zebedee’s heart, not children at God’s heart; for example, „…von den Geschäftsbooten des Zebedäus… bis zu seinen geliebten Söhnen.“ Keep the source’s ellipses and sentence structure.",
+      "translation_quote": "„…von den Geschäftsbooten des Zebedäus… bis zu den Kindern an seinem Herzen.“"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

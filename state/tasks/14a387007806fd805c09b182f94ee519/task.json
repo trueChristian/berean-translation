@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,32 +64,61 @@
         },
         "total_tokens": 11211
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 657,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7278,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7275,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7935
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "المتن، الفقرة التي تعرّف نوعية الحياة والكرامة",
+      "location": "المتن، فقرة «صُنعنا على صورة الله»",
       "severity": "major",
-      "source_quote": "Dignity refers to people feeling that they are being given adequate levels of respect.",
-      "suggested_fix": "استبدل «شعور الناس بأنهم يُعاملون بمستوى لائق من الاحترام» بـ«شعور الناس بأنهم يحظون بقدر كافٍ من الاحترام».",
-      "translation_quote": "أما الكرامة فتشير إلى شعور الناس بأنهم يُعاملون بمستوى لائق من الاحترام."
+      "source_quote": "“It is helpful to review how we, as Christians, approach end-of-life situations and try to understand where the world around us has gone so terribly wrong.”",
+      "suggested_fix": "استبدل «أين انحرف العالم من حولنا انحرافًا فادحًا» بـ«كيف أخطأ العالم من حولنا خطأً فادحًا»؛ المقصود فهم ما الذي سلكه العالم على نحو خاطئ، لا تحديد موضع انحرافه.",
+      "translation_quote": "«وأن نحاول أن نفهم أين انحرف العالم من حولنا انحرافًا فادحًا»"
     },
     {
-      "location": "المتن، فقرة سفر أعمال بولس",
+      "location": "المتن، فقرة «نهاية الحياة» عن السويد",
       "severity": "major",
-      "source_quote": "He experienced stonings, beatings, and shipwreck.",
-      "suggested_fix": "استبدل «وتحطمت به السفن» بـ«وتعرّض لحوادث تحطم السفن» أو «وعانى من حوادث غرق السفن»، مع الحفاظ على بقية الجملة.",
-      "translation_quote": "فقد تعرض للرجم والضرب وتحطمت به السفن."
+      "source_quote": "“the government made the decision that elderly residents of nursing facilities would not be treated for COVID.”",
+      "suggested_fix": "استبدل «قررت الحكومة عدم علاج المقيمين المسنين في مرافق الرعاية من كوفيد» بـ«قررت الحكومة ألا يُعالَج المقيمون المسنون في مرافق الرعاية من كوفيد»؛ النص يذكر قرارًا بعدم علاجهم، لا مجرد عدم علاجهم من كوفيد تحديدًا.",
+      "translation_quote": "«قررت الحكومة عدم علاج المقيمين المسنين في مرافق الرعاية من كوفيد»"
     },
     {
-      "location": "المتن، فقرة الرعاية التلطيفية",
+      "location": "المتن، فقرة «أدرك أن الألم مرجح» عن الرعاية التلطيفية",
       "severity": "major",
-      "source_quote": "This is the sort of care that is offered by hospice programs.",
-      "suggested_fix": "استبدل «برامج رعاية المحتضرين» بـ«برامج رعاية المحتضرين (الهوسبيس)» أو صياغة عربية واضحة تشير إلى برامج الرعاية التلطيفية المقدمة في دور رعاية المحتضرين؛ فالمقصود برامج hospice، لا برامج لرعاية من يحتضرون فحسب.",
-      "translation_quote": "وهذا هو نوع الرعاية الذي تقدمه برامج رعاية المحتضرين."
+      "source_quote": "“This is a type of care that is specifically designed to treat the pain and other symptoms, usually of a terminally ill patient (to keep them comfortable, not to try to cure them).”",
+      "suggested_fix": "عدّل العبارة لتقول إن الرعاية تُقدَّم عادةً لمريض مصاب بمرض عضال، مثلًا: «وهي نوع من الرعاية صُمم خصيصًا لمعالجة الألم والأعراض الأخرى، ويُقدَّم عادةً للمريض المصاب بمرض عضال (لإراحته، لا لمحاولة شفائه).»",
+      "translation_quote": "«وهي نوع من الرعاية صُمم خصيصًا لمعالجة الألم والأعراض الأخرى، وعادةً ما يُقدّم للمريض المصاب بمرض عضال»"
+    },
+    {
+      "location": "المتن، الفقرة نفسها عن برامج الهوسبيس",
+      "severity": "major",
+      "source_quote": "“This is the sort of care that is offered by hospice programs.”",
+      "suggested_fix": "استبدل «وهذا هو نوع الرعاية الذي تقدمه برامج الهوسبيس، أي برامج الرعاية التلطيفية في دور رعاية المحتضرين» بـ«وهذا هو نوع الرعاية الذي تقدمه برامج رعاية المحتضرين»؛ المصدر لا يحدد أن البرامج تُقدَّم في دور رعاية.",
+      "translation_quote": "«وهذا هو نوع الرعاية الذي تقدمه برامج الهوسبيس، أي برامج الرعاية التلطيفية في دور رعاية المحتضرين»"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "14a387007806fd805c09b182f94ee519",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -179,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

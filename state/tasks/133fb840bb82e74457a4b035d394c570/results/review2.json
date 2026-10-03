@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e2313e5e-5b1e-4b09-8b01-55d3dbe9abb1",
+    "response_id": "chatcmpl-EUep8B1e5ycbpWcYgsPE4Tn9L7Gfs",
+    "usage": {
+      "completion_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 762,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8273,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8270,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9177
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “One specific thing that I wish to focus on”; translation.html, corresponding paragraph",
+        "severity": "major",
+        "source_quote": "“within the plain communities”",
+        "suggested_fix": "Replace “سادہ طرزِ زندگی اختیار کرنے والی برادریوں میں” with “پلین برادریوں میں” (or another established Urdu rendering that identifies the Plain communities), preserving the sentence’s existing HTML structure.",
+        "translation_quote": "“سادہ طرزِ زندگی اختیار کرنے والی برادریوں میں”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

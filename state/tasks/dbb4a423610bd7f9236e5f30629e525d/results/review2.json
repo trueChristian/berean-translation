@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0369b981-5d2d-4c81-9443-0301675e0ac4",
+    "response_id": "chatcmpl-EUeqtEBZuRuViJZW4J4o7Gmn3DBkD",
+    "usage": {
+      "completion_tokens": 1016,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 613,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8399,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8396,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9415
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Citation de 1 Samuel 17:34-36",
+        "severity": "major",
+        "source_quote": "“I went out after him, and smote him, and delivered it out of his mouth”",
+        "suggested_fix": "Remplacer « Je partis à leur poursuite, frappai le lion et l’ours, et arrachai l’agneau de la gueule du lion » par « Je partis à sa poursuite, le frappai et arrachai l’agneau de sa gueule », afin de ne pas attribuer à David le fait d’avoir frappé les deux animaux.",
+        "translation_quote": "« Je partis à leur poursuite, frappai le lion et l’ours, et arrachai l’agneau de la gueule du lion. »"
+      },
+      {
+        "location": "Citation de 1 Samuel 17:38-39",
+        "severity": "major",
+        "source_quote": "“And David girded his sword upon his armour, and he assayed to go; for he had not proved it. And David said unto Saul, I cannot go with these; for I have not proved them.”",
+        "suggested_fix": "Dans cette citation, remplacer « car il n’en avait pas l’habitude » et « car je n’en ai pas l’habitude » par « car il ne les avait pas éprouvés » et « car je ne les ai pas éprouvés », respectivement. Le texte source indique que David n’avait pas essayé l’armure, et non qu’il n’y était pas habitué.",
+        "translation_quote": "« David ceignit son épée par-dessus son armure et essaya de marcher, car il n’en avait pas l’habitude. David dit à Saül : Je ne peux pas marcher avec tout cela, car je n’en ai pas l’habitude. »"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

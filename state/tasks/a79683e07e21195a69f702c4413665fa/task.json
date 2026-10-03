@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,39 +64,47 @@
         },
         "total_tokens": 11993
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 905,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 620,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7669,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7666,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8574
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, kutipan Matius 24:6-7 dan judul antara",
+      "location": "HTML, kutipan Mazmur 20:7a",
       "severity": "major",
-      "source_quote": "“and there shall be famines, and pestilences, and earthquakes, in divers places” / “And there shall be … pestilences … in divers places”",
-      "suggested_fix": "Kembalikan unsur yang hilang dengan menerjemahkan frasa kutipan sebagai “Akan ada kelaparan, penyakit sampar, dan gempa bumi di berbagai tempat” dan judul sebagai “Dan akan ada … penyakit sampar … di berbagai tempat”.",
-      "translation_quote": "“Akan ada kelaparan dan gempa bumi di berbagai tempat” / “Dan akan ada … penyakit sampar … di berbagai tempat”"
+      "source_quote": "…trust in chariots, and some in horses: Psalm 20:7a,",
+      "suggested_fix": "Ganti dengan: «…percaya kepada kereta, dan sebagian kepada kuda: Mazmur 20:7a,»",
+      "translation_quote": "…percaya kepada kereta dan kuda: Mazmur 20:7a,"
     },
     {
-      "location": "HTML, kutipan Mazmur 20:8a",
+      "location": "HTML, kutipan Matius 16:26",
       "severity": "major",
-      "source_quote": "“They are brought down and [are] fallen”",
-      "suggested_fix": "Terjemahkan kedua tindakan itu, misalnya: “Mereka ditundukkan dan jatuh…”.",
-      "translation_quote": "“Mereka ditundukkan dan jatuh…”"
-    },
-    {
-      "location": "HTML, paragraf tentang ketakutan dan Wahyu 9:4-6",
-      "severity": "major",
-      "source_quote": "“those men which have not the seal of God in their foreheads … should be tormented five months”",
-      "suggested_fix": "Terjemahkan bahwa orang-orang yang tidak memiliki meterai Allah di dahi mereka akan disiksa, tanpa menghilangkan penegasan “akan”: “…orang-orang yang tidak memiliki meterai Allah di dahi mereka … akan disiksa selama lima bulan…”.",
-      "translation_quote": "“orang-orang yang tidak memiliki meterai Allah di dahi mereka … akan disiksa selama lima bulan”"
-    },
-    {
-      "location": "HTML, paragraf tentang konflik Rusia-Ukraina",
-      "severity": "major",
-      "source_quote": "“With the many sanctions enacted by the EU and the west”",
-      "suggested_fix": "Pertahankan atribusi kepada Uni Eropa dan negara-negara Barat, misalnya: “Dengan banyaknya sanksi yang diberlakukan oleh Uni Eropa dan negara-negara Barat…”.",
-      "translation_quote": "“Dengan banyaknya sanksi yang diberlakukan oleh Uni Eropa dan negara-negara Barat”"
+      "source_quote": "For what is a man profited, if he shall gain the whole world, and lose his own soul? or what shall a man give in exchange for his soul?",
+      "suggested_fix": "Pertahankan «nyawa» untuk bagian sebelumnya di ayat 25, tetapi gunakan «jiwa» di sini agar pembedaan yang tercetak dalam sumber tetap terjaga. Misalnya: «Apa gunanya seorang memperoleh seluruh dunia tetapi kehilangan jiwanya? Dan apakah yang dapat diberikannya sebagai ganti jiwanya?»",
+      "translation_quote": "Apa gunanya seorang memperoleh seluruh dunia tetapi kehilangan nyawanya? Dan apakah yang dapat diberikannya sebagai ganti nyawanya?"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "a79683e07e21195a69f702c4413665fa",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -186,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

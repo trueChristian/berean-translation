@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, line beginning “Then death is the beginning”",
+      "severity": "minor",
+      "source_quote": "Then death is the beginning, so why is it grim?",
+      "suggested_fix": "죽음은 시작인데, 어찌하여 암울하게 여깁니까?",
+      "translation_quote": "죽음은 시작인데, 어찌하여 슬퍼합니까?"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

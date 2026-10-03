@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, kutipan Mazmur 20:7a",
+      "severity": "major",
+      "source_quote": "…trust in chariots, and some in horses: Psalm 20:7a,",
+      "suggested_fix": "Ganti dengan: «…percaya kepada kereta, dan sebagian kepada kuda: Mazmur 20:7a,»",
+      "translation_quote": "…percaya kepada kereta dan kuda: Mazmur 20:7a,"
+    },
+    {
+      "location": "HTML, kutipan Matius 16:26",
+      "severity": "major",
+      "source_quote": "For what is a man profited, if he shall gain the whole world, and lose his own soul? or what shall a man give in exchange for his soul?",
+      "suggested_fix": "Pertahankan «nyawa» untuk bagian sebelumnya di ayat 25, tetapi gunakan «jiwa» di sini agar pembedaan yang tercetak dalam sumber tetap terjaga. Misalnya: «Apa gunanya seorang memperoleh seluruh dunia tetapi kehilangan jiwanya? Dan apakah yang dapat diberikannya sebagai ganti jiwanya?»",
+      "translation_quote": "Apa gunanya seorang memperoleh seluruh dunia tetapi kehilangan nyawanya? Dan apakah yang dapat diberikannya sebagai ganti nyawanya?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

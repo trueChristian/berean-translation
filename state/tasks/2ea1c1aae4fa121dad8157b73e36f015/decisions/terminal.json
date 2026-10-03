@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Lead paragraph, Genesis quotation",
+      "severity": "major",
+      "source_quote": "“While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease”",
+      "suggested_fix": "Use “Maadamu dunia ingalipo, majira ya kupanda na ya kuvuna, baridi na joto, wakati wa kiangazi na wa baridi, mchana na usiku havitakoma” (or another clear Kiswahili equivalent for “heat”).",
+      "translation_quote": "“Maadamu dunia ingalipo, majira ya kupanda na ya kuvuna, baridi na hari, wakati wa kiangazi na wa baridi, mchana na usiku havitakoma”"
+    },
+    {
+      "location": "Paragraph beginning “Vipi kuhusu mambo yote…”; Psalm 20:7a",
+      "severity": "major",
+      "source_quote": "“trust in chariots, and some in horses”",
+      "suggested_fix": "Translate “chariots” as “magari ya kukokotwa” or an equivalent that clearly means chariots, not “magari ya vita.”",
+      "translation_quote": "“kutumaini magari ya vita, na wengine farasi”"
+    },
+    {
+      "location": "Paragraph beginning “Vipi kuhusu mambo yote…”; Psalm 20:8a",
+      "severity": "major",
+      "source_quote": "“They are brought down and [are] fallen”",
+      "suggested_fix": "Revise to preserve the source’s passive sense, for example, “Wao wameshushwa na [wame]anguka” or another natural Kiswahili equivalent.",
+      "translation_quote": "“Wao wameinama na kuanguka”"
+    },
+    {
+      "location": "Paragraph beginning “Kwa mtazamo wangu…”; Revelation 6:15-17",
+      "severity": "major",
+      "source_quote": "“hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb”",
+      "suggested_fix": "Translate “from the face of him” and “from the wrath of the Lamb” without changing the relationship, for example, “tuficheni mbele ya uso wa yeye aketiye juu ya kiti cha enzi, na mbali na ghadhabu ya Mwana-Kondoo.”",
+      "translation_quote": "“kutuficha usoni pake yeye aketiye juu ya kiti cha enzi, na mbali na ghadhabu ya Mwana-Kondoo”"
+    },
+    {
+      "location": "Paragraph beginning “Kwa wengi wetu…”",
+      "severity": "major",
+      "source_quote": "“How much more can we become lulled into the sameness of our everyday lives and tend to forget…”",
+      "suggested_fix": "Replace “Tena, tunawezaje zaidi kudumbukia…” with wording that conveys becoming lulled by the sameness of daily life and tending to forget, such as “Ni kwa kiasi gani zaidi tunaweza kuzoea maisha yetu ya kila siku yanayofanana na kusahau…”",
+      "translation_quote": "“Tena, tunawezaje zaidi kudumbukia katika mazoea yale yale ya maisha yetu ya kila siku, na kusahau…”"
+    },
+    {
+      "location": "Paragraph beginning “Mara nyingi sana, kanisa…”",
+      "severity": "major",
+      "source_quote": "“since it is their lot in life”",
+      "suggested_fix": "Clarify that the church treats the struggle as the struggling people’s lot in life, for example, “kwa kuwa wanaona kuwa hiyo ndiyo hali yao ya maisha,” rather than saying they regard it as their burden.",
+      "translation_quote": "“kwa sababu wanaona huo ndio mzigo wao wa maisha”"
+    },
+    {
+      "location": "Paragraph beginning “Mungu alituumba…”",
+      "severity": "major",
+      "source_quote": "“the shoe is on the other foot”",
+      "suggested_fix": "Use a Kiswahili expression conveying that roles or circumstances may be reversed, for example, “huenda siku moja hali ikawa kinyume na leo,” rather than a literal shoe-and-foot rendering.",
+      "translation_quote": "“kiatu kitakuwa mguu mwingine”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

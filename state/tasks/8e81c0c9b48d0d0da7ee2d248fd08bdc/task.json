@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,74 +64,61 @@
         },
         "total_tokens": 12456
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 639,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7514,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7511,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8153
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, quoted Matthew 24:6-7",
+      "location": "HTML، الفقرة الأولى؛ اقتباس تكوين 8:22",
       "severity": "major",
-      "source_quote": "but the end is not yet",
-      "suggested_fix": "Replace «ولكن ليس المنتهى بعد» with «ولكن النهاية لم تأتِ بعد» or another Arabic rendering that conveys that the end has not yet come.",
-      "translation_quote": "ولكن ليس المنتهى بعد"
+      "source_quote": "While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease –Genesis 8:22.",
+      "suggested_fix": "عدّل بداية الاقتباس إلى «ما دامت الأرض قائمة، لا ينقطع زرع وحصاد، وبرد وحر، وصيف وشتاء، وليل ونهار –تكوين 8:22.» مع الإبقاء على وسوم HTML وترتيبها.",
+      "translation_quote": "ما دامت الأرض، فزرع وحصاد، وبرد وحر، وصيف وشتاء، ونهار وليل لا تزال –تكوين 8:22."
     },
     {
-      "location": "HTML, quotation from Matthew 16:24-26",
+      "location": "HTML، فقرة العقوبات وآثارها الاقتصادية",
       "severity": "major",
-      "source_quote": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it.",
-      "suggested_fix": "Translate the contrast as losing one's life for Jesus' sake and finding it; for example: «فمن أراد أن يحفظ حياته يفقدها، ومن يفقد حياته من أجلي يجدها».",
-      "translation_quote": "فإن من أراد أن يخلّص نفسه يهلكها، ومن يهلك نفسه من أجلي يجدها."
+      "source_quote": "With the many sanctions enacted by the EU and the west, there have been ripple effects causing negative outcomes for many of the world’s economies",
+      "suggested_fix": "استبدل «العقوبات الكثيرة التي فرضها الاتحاد الأوروبي والغرب» بـ«العقوبات الكثيرة التي فرضها الاتحاد الأوروبي والغرب» مع صياغة الجملة لتوضح أن العقوبات هي التي أحدثت آثارًا متتابعة ونتائج سلبية في اقتصادات كثيرة حول العالم؛ النص الحالي لا يذكر أن العقوبات فُرضت.",
+      "translation_quote": "وقد أدت العقوبات الكثيرة التي فرضها الاتحاد الأوروبي والغرب إلى آثار متتابعة أفضت إلى نتائج سلبية لاقتصادات كثيرة في العالم"
     },
     {
-      "location": "HTML, paragraph beginning “First, that which is abroad…”",
+      "location": "HTML، الفقرة عن الخوف وما سيأتي على الأرض؛ اقتباس رؤيا 9:4-6",
       "severity": "major",
-      "source_quote": "a God who is alive, sovereign, and holy who will some day require an accounting for all things done in this earthly body",
-      "suggested_fix": "Revise the final clause to say that God will one day require an account of everything done in this earthly body; for example: «إله حيّ وسيد وقدوس سيطلب يومًا حسابًا عن كل ما فُعل في هذا الجسد الأرضي».",
-      "translation_quote": "إله حيّ وسيد وقدوس، سيطلب يومًا حسابًا عن كل ما فعله الإنسان في هذا الجسد الأرضي"
+      "source_quote": "those men which have not the seal of God in their foreheads … should be tormented five months",
+      "suggested_fix": "أعد معنى الاقتباس إلى أن «الذين ليس لهم ختم الله على جباههم … يُعذَّبون خمسة أشهر»، مع الإبقاء على بقية الاقتباس والوسوم والمرجع كما هي.",
+      "translation_quote": "أولئك الذين ليس لهم ختم الله على جباههم … يُعذَّبون خمسة أشهر"
     },
     {
-      "location": "HTML, paragraph beginning “What about all the what if ’s…?”",
+      "location": "HTML، فقرة قيمة النفس؛ اقتباس متى 16:24-26",
       "severity": "major",
-      "source_quote": "then their outcome will be that They are brought down and [are] fallen…",
-      "suggested_fix": "Translate the quoted result as «هم يخرّون ويسقطون…» (or an equivalent that preserves the subject as those who trusted in chariots and horses).",
-      "translation_quote": "تكون عاقبتهم أنهم جثوا وسقطوا…"
-    },
-    {
-      "location": "HTML, quotation from Luke 21:26",
-      "severity": "major",
-      "source_quote": "Men’s hearts [are] failing them for fear",
-      "suggested_fix": "Render this as hearts failing because of fear, for example: «تخور قلوب الناس من الخوف».",
-      "translation_quote": "تخفق قلوب الناس من الخوف"
-    },
-    {
-      "location": "HTML, quotation from Revelation 9:4-6",
-      "severity": "major",
-      "source_quote": "those men which have not the seal of God in their foreheads … should be tormented five months … and shall desire to die, and death shall flee from them",
-      "suggested_fix": "Preserve that the unsealed people are tormented for five months and will long to die but death will flee from them; for example: «أولئك الذين ليس لهم ختم الله على جباههم … يُعذَّبون خمسة أشهر … ويشتهون أن يموتوا، فيهرب الموت منهم».",
-      "translation_quote": "أولئك الناس الذين ليس لهم ختم الله على جباههم … يُعذَّبون خمسة أشهر … ويطلبون الموت ولا يجدونه"
-    },
-    {
-      "location": "HTML, quotation from Matthew 25:34-40",
-      "severity": "major",
-      "source_quote": "Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me",
-      "suggested_fix": "Translate “my brethren” as «إخوتي» rather than «إخوتي هؤلاء»? Actually preserve its possessive meaning while making clear that the king says the deed was done to him: «بما أنكم فعلتموه بأحد إخوتي هؤلاء الأصاغر، فبي فعلتموه».",
-      "translation_quote": "بما أنكم فعلتموه بأحد إخوتي هؤلاء الأصاغر فبي فعلتم"
-    },
-    {
-      "location": "HTML, paragraph beginning “One specific thing that I wish to focus on…”",
-      "severity": "major",
-      "source_quote": "within the plain communities",
-      "suggested_fix": "Use an accurate Arabic rendering for the plain communities (the Plain Anabaptist communities), such as «مجتمعات الأنابابتست السهلية», rather than «مجتمعات السهول», which suggests geographic plains generally.",
-      "translation_quote": "في مجتمعات السهول"
-    },
-    {
-      "location": "HTML, paragraph beginning “For many of us, for me in particular…”",
-      "severity": "major",
-      "source_quote": "What if we were the one who God wanted to say a word for Him out of a life that was living for Him to bring His awareness to one who knows not the One, Living, and True God?",
-      "suggested_fix": "Clarify the intended idea: God may want us, through a life lived for Him, to speak on His behalf and make Him known to someone who does not know the one true and living God. For example: «ماذا لو كنا نحن الشخص الذي يريد الله أن يتكلم من خلاله بكلمة عنه، في حياة تعيش له، ليعرّف به شخصًا لا يعرف الإله الواحد الحي الحقيقي؟»",
-      "translation_quote": "ماذا لو كنا نحن الشخص الذي أراد الله أن يقول كلمةً نيابةً عنه، من حياة تعيش له، ليعرّف به شخصًا لا يعرف الإله الواحد الحي الحقيقي؟"
+      "source_quote": "Then said Jesus unto his disciples, If any man will come after me, let him deny himself, and take up his cross, and follow me.",
+      "suggested_fix": "أضف في الاقتباس معنى «ثم قال يسوع لتلاميذه: إن أراد أحد أن يأتي ورائي، فلينكر نفسه ويحمل صليبه ويتبعني»، مع الحفاظ على وسوم HTML وترتيبها والمرجع.",
+      "translation_quote": "حينئذ قال يسوع لتلاميذه: إن أراد أحد أن يأتي ورائي، فلينكر نفسه ويحمل صليبه ويتبعني."
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "8e81c0c9b48d0d0da7ee2d248fd08bdc",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -221,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 73,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

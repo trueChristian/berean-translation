@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "God is Glorified in Our Suffering — quoted Scripture, 2 Corinthians 4:17-18",
+      "severity": "major",
+      "source_quote": "“worketh for us a far more exceeding and eternal weight of glory”",
+      "suggested_fix": "इस अंश को इस तरह सुधारें: “हमारे लिए कहीं अधिक बढ़कर अनन्त महिमा का भार उत्पन्न करता है।”",
+      "translation_quote": "“हमारे लिए बहुत ही महत्वपूर्ण और अनन्त महिमा उत्पन्न करता जाता है”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

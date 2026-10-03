@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,32 +64,47 @@
         },
         "total_tokens": 13232
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1016,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 613,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8399,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8396,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9415
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraphe sur Psaume 40:4",
+      "location": "Citation de 1 Samuel 17:34-36",
       "severity": "major",
-      "source_quote": "Psalms 40:4 says He will not respect the proud",
-      "suggested_fix": "Remplacer « Psaume 40:4 dit qu’il ne regardera pas les orgueilleux » par une traduction fidèle de « Psaume 40:4 dit qu’il n’aura pas égard aux orgueilleux » (ou « ne fera pas cas des orgueilleux »).",
-      "translation_quote": "Psaume 40:4 dit qu’il ne regardera pas les orgueilleux"
+      "source_quote": "“I went out after him, and smote him, and delivered it out of his mouth”",
+      "suggested_fix": "Remplacer « Je partis à leur poursuite, frappai le lion et l’ours, et arrachai l’agneau de la gueule du lion » par « Je partis à sa poursuite, le frappai et arrachai l’agneau de sa gueule », afin de ne pas attribuer à David le fait d’avoir frappé les deux animaux.",
+      "translation_quote": "« Je partis à leur poursuite, frappai le lion et l’ours, et arrachai l’agneau de la gueule du lion. »"
     },
     {
-      "location": "source.html, paragraphe sur 1 Samuel 17:34-36",
+      "location": "Citation de 1 Samuel 17:38-39",
       "severity": "major",
-      "source_quote": "and there came a lion, and a bear, and took a lamb out of the flock: And I went out after him, and smote him, and delivered it out of his mouth: and when he arose against me, I caught him by his beard, and smote him, and slew him.",
-      "suggested_fix": "Rétablir le singulier de l’original dans le récit : « Un lion et un ours vinrent, emportèrent un agneau du troupeau, et je partis à leur poursuite » peut conserver le pluriel pour la poursuite, mais traduire ensuite fidèlement le singulier « quand il se dressait contre moi, je le saisissais par la barbe, je le frappais et le tuais », sans attribuer l’action aux deux animaux.",
-      "translation_quote": "Un lion et un ours sont venus et ont emporté un agneau du troupeau. Je suis sorti à leur poursuite, je les ai frappés et j’ai arraché l’agneau de leur gueule ; et, quand ils se sont dressés contre moi, je les ai saisis par la barbe, je les ai frappés et je les ai tués."
-    },
-    {
-      "location": "source.html, paragraphe sur 1 Samuel 17:45-46",
-      "severity": "major",
-      "source_quote": "Thou comest to me with a sword, and with a spear, and with a shield",
-      "suggested_fix": "Dans la citation, remplacer « le javelot » par « le bouclier » afin de conserver l’arme mentionnée dans la source.",
-      "translation_quote": "Tu marches contre moi avec l’épée, la lance et le javelot"
+      "source_quote": "“And David girded his sword upon his armour, and he assayed to go; for he had not proved it. And David said unto Saul, I cannot go with these; for I have not proved them.”",
+      "suggested_fix": "Dans cette citation, remplacer « car il n’en avait pas l’habitude » et « car je n’en ai pas l’habitude » par « car il ne les avait pas éprouvés » et « car je ne les ai pas éprouvés », respectivement. Le texte source indique que David n’avait pas essayé l’armure, et non qu’il n’y était pas habitué.",
+      "translation_quote": "« David ceignit son épée par-dessus son armure et essaya de marcher, car il n’en avait pas l’habitude. David dit à Saül : Je ne peux pas marcher avec tout cela, car je n’en ai pas l’habitude. »"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "dbb4a423610bd7f9236e5f30629e525d",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "fra",
@@ -179,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

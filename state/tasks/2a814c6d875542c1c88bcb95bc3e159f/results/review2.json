@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "85dbff8c-684e-430b-ba96-b47e2d7657c2",
+    "response_id": "chatcmpl-EUeofUBDpm0SbhU8Hnw1Z5KEfcybo",
+    "usage": {
+      "completion_tokens": 900,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 779,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8870,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8867,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9770
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “While we and those we know…”",
+        "severity": "minor",
+        "source_quote": "While we and those we know will hardly face that level of exposure",
+        "suggested_fix": "مع أنَّنا نحن ومن نعرفهم لن نواجه على الأرجح ذلك القدر من الظهور",
+        "translation_quote": "مع أنني أنا ومن أعرفهم لن نواجه على الأرجح ذلك القدر من الظهور"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

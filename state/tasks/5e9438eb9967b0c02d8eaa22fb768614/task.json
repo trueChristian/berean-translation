@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,60 +64,82 @@
         },
         "total_tokens": 12109
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 873,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7338,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7335,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8211
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning “De sportwereld”",
+      "location": "Alinea over David en Goliath",
       "severity": "major",
-      "source_quote": "The other side of the coin produces an immense amount of negative and degrading input that seeks to thwart any effort to try.",
-      "suggested_fix": "Vervang “die elke poging om het te proberen willen dwarsbomen” door “die elke poging om iets te proberen willen dwarsbomen” (of een gelijkwaardige formulering).",
-      "translation_quote": "De keerzijde van de medaille levert een enorme hoeveelheid negatieve en vernederende boodschappen op, die elke poging om het te proberen willen dwarsbomen."
+      "source_quote": "“The Lord was his Shepherd, and he had no lack”",
+      "suggested_fix": "Vervang “De Heer was zijn Herder en het ontbrak hem aan niets” niet door een afwijkende tekst? De huidige vertaling geeft de betekenis weer; geen wijziging nodig.",
+      "translation_quote": "“De Heer was zijn Herder en het ontbrak hem aan niets”"
     },
     {
-      "location": "HTML, paragraph beginning “De grootste en meest verheven gave”",
+      "location": "Alinea over de oorzaak en Sauls beloning",
       "severity": "major",
-      "source_quote": "If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs and open the possibility for others to do it too.",
-      "suggested_fix": "Wijzig “zou dat bewijzen dat honden kunnen jodelen en de mogelijkheid openen dat anderen het ook doen” in een formulering als “zou dat bewijzen dat honden kunnen leren jodelen en de mogelijkheid openen dat andere honden dat ook kunnen”.",
-      "translation_quote": "Als ik mijn hond kon leren jodelen, zou dat bewijzen dat honden kunnen jodelen en de mogelijkheid openen dat anderen het ook doen."
+      "source_quote": "“King Saul had offered tax exempt wealth and son-in-law status”",
+      "suggested_fix": "Vertaal “tax exempt wealth” als “belastingvrije rijkdom” (of een gelijkwaardige formulering), niet als “belastingvrijdom”; behoud daarnaast de beloning als rijkdom plus schoonzoonstatus.",
+      "translation_quote": "“Koning Saul had belastingvrijdom en de status van schoonzoon in het vooruitzicht gesteld”"
     },
     {
-      "location": "HTML, paragraph beginning “Een zorgzaam geweten”",
+      "location": "Alinea over zorgzaam geweten",
       "severity": "major",
-      "source_quote": "Jacob’s aspirations for Rachael made him forget the seven years of labor.",
-      "suggested_fix": "Vervang “Jakobs verlangen naar Rachel” door “Jakobs verlangen naar Rachel” alleen als bedoeld wordt dat hij haar begeerde; beter: “Jakobs verlangen om Rachel tot vrouw te krijgen deed hem de zeven jaar arbeid vergeten.”",
-      "translation_quote": "Jakobs verlangen naar Rachel deed hem de zeven jaar arbeid vergeten."
+      "source_quote": "“Edison’s pursuit of a successful light bulb caused him to forget the thousands of elements that had failed.”",
+      "suggested_fix": "Vervang “onderdelen” door “elementen” of “materialen” om de bronbetekenis te behouden; de bron zegt niet dat duizenden onderdelen van een lamp niet werkten.",
+      "translation_quote": "“Edisons streven naar een werkende gloeilamp deed hem de duizenden onderdelen vergeten die niet hadden gewerkt.”"
     },
     {
-      "location": "HTML, paragraph beginning “Een eerlijke verbeelding”",
+      "location": "Alinea over David als herder",
       "severity": "major",
-      "source_quote": "He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.",
-      "suggested_fix": "Vertaal de haakjes zo dat “from his youth” op Goliath slaat, bijvoorbeeld: “...vreest met Gods hulp niet de confrontatie met een man uit de vallei van Ela, een krijger vanaf zijn jeugd.”",
-      "translation_quote": "Hij heeft in de heuvels van Bethlehem successen behaald tegen wilde dieren (een leeuw en een beer) en vreest met Gods hulp niet de confrontatie met een man van oorlog, die al sinds zijn jeugd een krijger is, in de vallei van Ela."
+      "source_quote": "“He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.”",
+      "suggested_fix": "Herformuleer het slot zodat David niet wordt beschreven als iemand die een krijger “al vanaf zijn jeugd” is: bijvoorbeeld “...en vreest met Gods hulp niet de confrontatie in de vallei van Ela met een krijger, die al sinds zijn jeugd een man van oorlog is.”",
+      "translation_quote": "“...en vreest met Gods hulp niet de confrontatie in de vallei van Ela met een krijger die al vanaf zijn jeugd een man van oorlog is.”"
     },
     {
-      "location": "HTML, alinea die begint met “Getrouwe daden”",
+      "location": "Alinea over het initiatief en Goliath",
       "severity": "major",
-      "source_quote": "The desire to dominate is no more noble than Goliath’s unbridled rage to destroy this young upstart. His adrenaline flowed as he scorned David’s youth, jumped to conclusions, was easily insulted, and marveled at the ignorance of others.",
-      "suggested_fix": "Maak expliciet dat de beschrijving van Goliath doorgaat: “Goliath was niet edeler in zijn verlangen om te heersen dan in zijn ongebreidelde woede om deze jonge nieuwkomer te vernietigen. Zijn adrenaline stroomde terwijl hij...”",
-      "translation_quote": "Het verlangen om te heersen is niet edeler dan Goliaths ongebreidelde woede om deze jonge nieuwkomer te vernietigen. Zijn adrenaline stroomde terwijl hij..."
+      "source_quote": "“The desire to dominate is no more noble than Goliath’s unbridled rage to destroy this young upstart.”",
+      "suggested_fix": "Behoud de vergelijking met Goliaths woede om David te vernietigen. Vertaal bijvoorbeeld: “Het verlangen om te overheersen is niet edeler dan Goliaths ongebreidelde woede om deze jonge nieuwkomer te vernietigen.”",
+      "translation_quote": "“Goliath was in zijn verlangen om te heersen niet edeler dan in zijn ongebreidelde woede om deze jonge nieuwkomer te vernietigen.”"
     },
     {
-      "location": "HTML, alinea die begint met “Getrouwe daden”",
+      "location": "Alinea over Jozef en getrouw handelen",
       "severity": "major",
-      "source_quote": "The faith of the shepherd boy teaches us to stop lamenting over what we wanna-be and start being what we oughta-be.",
-      "suggested_fix": "Vervang “Het geloof van de herdersjongen” door “Het geloof van de herdersjongen” alleen als de eerdere verwijzing naar David bedoeld is; hier staat “herdersjongen” goed. Vervang wel “treuren om” door een passendere weergave van “lamenting over”, zoals “klagen over”.",
-      "translation_quote": "Het geloof van de herdersjongen leert ons op te houden met treuren om wat we zouden willen zijn en te beginnen met te zijn wat we behoren te zijn."
+      "source_quote": "“the butler’s delusion”",
+      "suggested_fix": "Vertaal “delusion” als “waan” of “misvatting”; “waanvoorstelling” verandert hier de betekenis en suggereert een hallucinatie.",
+      "translation_quote": "“de waanvoorstelling van de schenker”"
     },
     {
-      "location": "HTML, alinea vóór het gedicht",
+      "location": "Alinea over de middelen waarmee God reuzen velt",
       "severity": "major",
-      "source_quote": "God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.",
-      "suggested_fix": "Vertaal “the boys of his bosom” als de jongens die God aan zijn hart koestert, niet als jongens aan Gods hart. Bijvoorbeeld: “...van de boten waarmee Zebedeüs zijn bedrijf dreef… tot de jongens die Hij aan zijn hart koestert.”",
-      "translation_quote": "God velt reuzen met de middelen die wij Hem aanreiken: van de naald van Dorkas… tot de pin van Jaël, van de boten van Zebedeüs voor zijn bedrijf… tot de jongens aan zijn hart."
+      "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Behoud het beeld van Zebedeüs’ bedrijfsboten en vertaal “boys of his bosom” als de jongens die hem dierbaar zijn (of een gelijkwaardige formulering); “de jongens die Hij aan zijn hart koestert” verandert de verwijzing naar Zebedeüs in God.",
+      "translation_quote": "“van de boten waarmee Zebedeüs zijn bedrijf dreef… tot de jongens die Hij aan zijn hart koestert.”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "5e9438eb9967b0c02d8eaa22fb768614",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nld",
@@ -207,13 +228,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 79,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

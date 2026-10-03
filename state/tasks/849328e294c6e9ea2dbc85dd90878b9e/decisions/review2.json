@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem line 25",
+      "severity": "minor",
+      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
+      "suggested_fix": "Replace the line with: חיינו אינם אלא אד חולף, כך מלמד הספר הטוב.",
+      "translation_quote": "חיינו אינם אלא אד ואדים, כך מלמד הספר הטוב."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

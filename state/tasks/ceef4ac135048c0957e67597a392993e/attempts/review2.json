@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “The cowering beliefs…”\",\"severity\":\"major\",\"source_quote\":\"“faithless fear”\",\"suggested_fix\":\"Replace “بے ایمانی کا خوف” with “ایمان سے خالی خوف” to convey fear rooted in lack of faith, not dishonesty.\",\"translation_quote\":\"“بے ایمانی کا خوف”\"},{\"location\":\"HTML paragraph beginning “Goliath had automatically assumed…”\",\"severity\":\"major\",\"source_quote\":\"“…could sling stones at an hair breadth, and not miss…”\",\"suggested_fix\":\"Replace “بال کی نوک پر پتھر مار سکتا تھا” with wording that conveys striking a target within a hair’s breadth without missing, such as “بال جتنے باریک نشانے پر پتھر مار سکتا تھا اور چوک نہیں سکتا تھا”.\",\"translation_quote\":\"“…بال کی نوک پر پتھر مار سکتا تھا اور چوک نہیں سکتا تھا…”\"},{\"location\":\"HTML paragraph beginning “Faithful Action is inevitable…”\",\"severity\":\"major\",\"source_quote\":\"“when our bodies are subject to our soul and spirit, and they are under the direction of God’s Spirit”\",\"suggested_fix\":\"Preserve the distinction between soul and spirit; replace “ہماری روح اور باطن کے تابع ہوں” with “ہماری جان اور روح کے تابع ہوں” (or another clear Urdu rendering of “soul and spirit”).\",\"translation_quote\":\"“جب ہمارے جسم ہماری روح اور باطن کے تابع ہوں”\"},{\"location\":\"HTML paragraph beginning “Some believe that being proactive…”\",\"severity\":\"minor\",\"source_quote\":\"“the sons of Sceva”\",\"suggested_fix\":\"Correct the name to the conventional Urdu form for Sceva, for example “سکیوا کے بیٹے”.\",\"translation_quote\":\"“سکّوہ کے بیٹوں”\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 1911,
+    "content_evidence_truncated": false,
+    "content_sha256": "ed8029481b517f5a8cd2e6ac723ffd6b3d3175ac56f577866648b712ced64758",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1060,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 659,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8122,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9185
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Jambo moja nililotambua haraka sana…”\",\"severity\":\"minor\",\"source_quote\":\"“we live in a very couple-orientated world.”\",\"suggested_fix\":\"Replace “tunaishi katika ulimwengu unaowajali sana wanandoa” with “tunaishi katika ulimwengu unaozunguka sana maisha ya wanandoa” to convey that society is organized around couples, rather than that it cares about them.\",\"translation_quote\":\"“tunaishi katika ulimwengu unaowajali sana wanandoa.”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 530,
+    "content_evidence_truncated": false,
+    "content_sha256": "c4f38d4d644a687eb141ec5d1231f186f92fbbe2d7f7ef677df97abbfd1632eb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 997,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 847,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9404,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9401,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10401
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

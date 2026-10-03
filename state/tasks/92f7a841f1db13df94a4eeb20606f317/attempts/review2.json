@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Hosea discussion, paragraph beginning “Algún tiempo después de que Oseas…”\",\"severity\":\"minor\",\"source_quote\":\"By Hosea patiently “alluring her and speaking comfortably to her”\",\"suggested_fix\":\"Replace «la seduce y le habla con ternura» with «la atrae pacientemente y le habla con ternura» to avoid suggesting sexual seduction.\",\"translation_quote\":\"Oseas «la seduce y le habla con ternura»\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 464,
+    "content_evidence_truncated": false,
+    "content_sha256": "83d3bb28a43a4285a88303193f5d1bf33d064fe1663e3c7a0334e3b20218f3d7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 766,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10663,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10660,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11560
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

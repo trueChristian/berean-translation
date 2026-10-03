@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f6882e6e-d145-42e9-9cfb-5d98938385cc",
+    "response_id": "chatcmpl-EUeqWHzTtrwnlZ36B5fu2uNMWVa3B",
+    "usage": {
+      "completion_tokens": 1076,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 735,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7494,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8573
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Goliath had automatically assumed”; comparison of the sling’s stopping power",
+        "severity": "major",
+        "source_quote": "“the stopping power of a 45 mm handgun”",
+        "suggested_fix": "Remplacer « un pistolet de calibre .45 » par « un pistolet de 45 mm », afin de conserver l’unité imprimée dans la source.",
+        "translation_quote": "« une puissance d’arrêt comparable à celle d’un pistolet de calibre .45 »"
+      },
+      {
+        "location": "Poème, dernière ligne",
+        "severity": "major",
+        "source_quote": "“And all were used for God!”",
+        "suggested_fix": "Remplacer la dernière ligne par « Et tous servirent Dieu ! » pour conserver l’idée que les objets énumérés furent employés au service de Dieu.",
+        "translation_quote": "« Et Dieu s’en servit pour tous ! »"
+      },
+      {
+        "location": "Article, paragraphe beginning “The greatest and superior endowment”",
+        "severity": "minor",
+        "source_quote": "“The greatest and superior endowment given to mankind over the rest of creation”",
+        "suggested_fix": "Pour une formulation française plus naturelle, remplacer « Le plus grand don, et le plus supérieur, accordé à l’humanité par rapport au reste de la création » par « Le don le plus grand et supérieur accordé à l’humanité par rapport au reste de la création ».",
+        "translation_quote": "« Le plus grand don, et le plus supérieur, accordé à l’humanité par rapport au reste de la création »"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

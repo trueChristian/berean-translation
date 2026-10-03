@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf 4\",\"severity\":\"major\",\"source_quote\":\"There is a sense in which many families abandon their elderly or ill family members.\",\"suggested_fix\":\"Ganti “mengabaikan” dengan “menelantarkan” agar klaim bahwa keluarga meninggalkan atau tidak merawat anggota keluarga yang lanjut usia atau sakit tetap tersampaikan.\",\"translation_quote\":\"Ada benarnya bahwa banyak keluarga mengabaikan anggota keluarga mereka yang lanjut usia atau sakit.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 501,
+    "content_evidence_truncated": false,
+    "content_sha256": "9c88a8b4d340b97911511edb218fede56089d614ed014957221c838d070bc342",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 594,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7323,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7320,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7917
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

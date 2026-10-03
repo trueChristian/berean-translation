@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final quoted stanza about the storm’s secrets",
+      "severity": "major",
+      "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+      "suggested_fix": "Replace the last two lines of this stanza with «Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτά υποτάσσονται στο θέλημά Μου». Using the neuter plural «αυτά» refers to «τα μυστικά» rather than making God’s strength and power the things that conform to His will.",
+      "translation_quote": "Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτές συμμορφώνονται με το θέλημά Μου"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

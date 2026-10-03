@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b27ca002-9c8c-4043-ad90-8ea7716b3b01",
+    "response_id": "chatcmpl-EUerQDoWChHU9OJyD1nURUp7TOZEk",
+    "usage": {
+      "completion_tokens": 534,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 332,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2814,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2811,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3348
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “That evening at the supper table”",
+        "severity": "major",
+        "source_quote": "“If that letter would have reached Brother Oscars, they would have been preparing for us. But this way, they did not even know we were coming to visit.”",
+        "suggested_fix": "غيّر ضمائر المفرد إلى الجمع للحفاظ على أن أهل الأخ أوسكار هم من كانوا سيستعدون ولم يكونوا يعلمون بالزيارة: «فلو وصلت الرسالة إلى الأخ أوسكار، لكانوا يستعدون لاستقبالنا. لكن بهذه الطريقة، لم يكونوا يعلمون حتى أننا قادمون للزيارة.»",
+        "translation_quote": "«فلو وصلت الرسالة إلى الأخ أوسكار، لكان يستعد لاستقبالنا. لكن بهذه الطريقة، لم يكن حتى يعلم أننا قادمون لزيارته.»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

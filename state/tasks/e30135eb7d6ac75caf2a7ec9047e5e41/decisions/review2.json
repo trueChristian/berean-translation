@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, абзац о воинских доспехах Давида",
+      "severity": "major",
+      "source_quote": "“…And David put them off him –1 Samuel 17:39,”",
+      "suggested_fix": "Исправить цитату на: «…не могу ходить в этом, потому что не испытал их. И снял их с себя — 1 Царств 17:39,»",
+      "translation_quote": "«…не могу ходить в этом, потому что не испытал их. И снял Давид всё это с себя — 1 Царств 17:39,»"
+    },
+    {
+      "location": "HTML, абзац о преследовании цели Давидом",
+      "severity": "major",
+      "source_quote": "“He has met with success over the beasts (a lion and a bear) in the hills of Bethlehem and with God’s help, incurs no fear of contending with one (a man of war from his youth) in the valley of Elah.”",
+      "suggested_fix": "Уточнить перевод: «Он уже успешно справлялся со зверями (львом и медведем) на холмах Вифлеема и с Божьей помощью не боится сразиться с человеком, который с юности был воином, в долине Ела.»",
+      "translation_quote": "«Он уже одержал победу над зверями — львом и медведем — на холмах Вифлеема и с Божьей помощью не боится сразиться с воином в долине Ела.»"
+    },
+    {
+      "location": "HTML, абзац о средствах, которыми Бог поражает великанов",
+      "severity": "major",
+      "source_quote": "“…from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Сохранить смысл образа «nail» как кола и не превращать последнюю фразу в утверждение о детях в доме: «…от иглы Тавифы… до кола Иаили, от лодок Зеведея, связанных с его делом… до сыновей, прижатых к его груди.»",
+      "translation_quote": "«…от иглы Тавифы… до кола Иаили, от лодок Зеведея, связанных с его делом… до детей его дома.»"
+    },
+    {
+      "location": "HTML, стихотворение, строка о Самсоне",
+      "severity": "minor",
+      "source_quote": "“Samson had a jawbone;”",
+      "suggested_fix": "Для точности указать, что это была челюсть осла: «У Самсона была ослиная челюсть;»",
+      "translation_quote": "«У Самсона была ослиная челюсть;»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

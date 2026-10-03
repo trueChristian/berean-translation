@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,74 +64,47 @@
         },
         "total_tokens": 12833
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 910,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 635,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7485,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7482,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8395
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening quotation; 1 Samuel 17:29",
+      "location": "source.html and translation.html, Eliab’s quoted rebuke (1 Samuel 17:28-29)",
       "severity": "major",
-      "source_quote": "“Is there not a cause?”",
-      "suggested_fix": "Ganti “Bukankah ada alasan?” dengan “Bukankah ada alasan yang kuat?” atau rumusan lain yang menyampaikan bahwa ada sebab/urgensi untuk bertindak, bukan sekadar alasan.",
-      "translation_quote": "“Bukankah ada alasan?”"
+      "source_quote": "I know thy pride, and the naughtiness of thine heart",
+      "suggested_fix": "Ganti “Aku kenal sifat pemberanimu dan hatimu yang jahat” dengan “Aku tahu betapa angkuhnya engkau dan betapa jahat hatimu” agar tuduhan Eliab tentang kesombongan Daud tetap tersampaikan.",
+      "translation_quote": "Aku kenal sifat pemberanimu dan hatimu yang jahat"
     },
     {
-      "location": "Paragraph beginning “When a man has a cause set before him”; Hebrews 12:2",
+      "location": "source.html and translation.html, quoted description of a skilled slinger (Hakim-hakim 20:16)",
       "severity": "major",
-      "source_quote": "“who for the joy that was set before him endured the cross, despising the shame”",
-      "suggested_fix": "Terjemahkan kutipan ini dengan urutan makna sumber, misalnya: “yang demi sukacita yang terbentang di hadapan-Nya menanggung salib dan tidak menghiraukan kehinaan”.",
-      "translation_quote": "“yang dengan mengabaikan kehinaan tekun memikul salib ganti sukacita yang disediakan bagi Dia”"
-    },
-    {
-      "location": "Paragraph beginning “A Caring Conscience”; Jacob and Rachel",
-      "severity": "major",
-      "source_quote": "“Jacob’s aspirations for Rachael made him forget the seven years of labor.”",
-      "suggested_fix": "Ganti “Kerinduan Yakub kepada Rahel” dengan “Aspirasi/keinginan Yakub untuk mendapatkan Rahel”, agar tetap menyatakan bahwa keinginannya membuatnya melupakan tujuh tahun kerja.",
-      "translation_quote": "“Kerinduan Yakub kepada Rahel membuatnya melupakan tujuh tahun kerja.”"
-    },
-    {
-      "location": "Paragraph beginning “Careless apathy”; quotation attributed to Nietzke",
-      "severity": "major",
-      "source_quote": "“Give a man a reason to live and he will supply the how –Nietzke.”",
-      "suggested_fix": "Perbaiki kutipan agar mempertahankan hubungan sebab-akibat dan makna “ia akan menemukan caranya”, misalnya: “Beri seseorang alasan untuk hidup, maka ia akan menemukan caranya –Nietzke.”",
-      "translation_quote": "“Beri seseorang alasan untuk hidup, maka ia akan menemukan caranya –Nietzke.”"
-    },
-    {
-      "location": "Paragraph beginning “As Saul reluctantly consents”; 1 Samuel 17:39",
-      "severity": "major",
-      "source_quote": "“I cannot go with these; for I have not proved them. And David put them off him”",
-      "suggested_fix": "Terjemahkan kutipan tanpa menghilangkan “And David put them off him”, misalnya: “…aku tidak dapat pergi dengan memakai ini, sebab aku belum pernah mengujinya. Lalu Daud menanggalkan semuanya –1 Samuel 17:39,” dengan tanda baca yang sesuai struktur HTML sumber.",
-      "translation_quote": "“…aku tidak dapat berjalan dengan memakai ini, sebab belum pernah mencobanya.” Lalu Daud menanggalkannya –1 Samuel 17:39,"
-    },
-    {
-      "location": "Paragraph beginning “Goliath had automatically assumed”; sling speed and handgun comparison",
-      "severity": "major",
-      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
-      "suggested_fix": "Pertahankan angka dan satuan sumber: ganti “pistol 45 mm” dengan “pistol 45 mm” hanya jika memang yang dimaksud sumber adalah 45 mm; namun untuk menyampaikan sumber secara tepat, pertahankan ungkapan “45 mm handgun” sebagai “pistol kaliber 45 mm” tanpa mengubahnya menjadi kaliber lain. (Pastikan terjemahan menyebut daya henti setara.)",
-      "translation_quote": "“dengan enam atau tujuh putaran per detik, umban Daud memiliki daya henti setara pistol 45 mm”"
-    },
-    {
-      "location": "Paragraph beginning “Faithful Action”; sons of Sceva",
-      "severity": "major",
-      "source_quote": "“any more than it did for the sons of Sceva.”",
-      "suggested_fix": "Ganti “anak-anak Skewa” dengan bentuk yang jelas merujuk kepada putra-putra Skewa, misalnya “anak-anak lelaki Skewa”, agar tidak terbaca sebagai anak-anak secara umum.",
-      "translation_quote": "“anak-anak Skewa”"
-    },
-    {
-      "location": "Paragraph beginning “Why would Japanese Kamikaze pilots”; final rhetorical question",
-      "severity": "major",
-      "source_quote": "“Or isn’t there even one that transforms our mundane work into a channel of grace for the service of the King of the Universe?”",
-      "suggested_fix": "Terjemahkan pertanyaan sebagai pertanyaan tentang adanya tujuan yang mengubah pekerjaan sehari-hari menjadi saluran kasih karunia, misalnya: “Atau, bukankah ada satu tujuan pun yang mengubah pekerjaan kita sehari-hari menjadi saluran kasih karunia untuk melayani Raja Semesta Alam?”",
-      "translation_quote": "“Atau bahkan, bukankah ada tujuan yang mengubah pekerjaan kita yang biasa-biasa saja menjadi saluran kasih karunia untuk melayani Raja Semesta Alam?”"
-    },
-    {
-      "location": "Paragraph beginning “God slays giants”; Dorcas and Zebedee",
-      "severity": "major",
-      "source_quote": "“from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.”",
-      "suggested_fix": "Perbaiki bagian terakhir agar mencerminkan “boats of the business” dan “boys of his bosom” tanpa mengganti maknanya menjadi “perahu usaha” dan “anak-anak kesayangannya”; misalnya “dari perahu-perahu usaha Zebedeus… hingga anak-anak yang dipeliharanya”.",
-      "translation_quote": "“mulai dari jarum Dorkas… hingga patok Yael, dari perahu usaha Zebedeus… hingga anak-anak kesayangannya.”"
+      "source_quote": "could sling stones at an hair breadth, and not miss",
+      "suggested_fix": "Ganti “dapat mengumban batu dengan tepat pada rambut tanpa meleset” dengan “dapat mengumban batu dengan ketepatan selebar rambut tanpa meleset” agar ungkapan tentang ketepatan bidikan tersampaikan secara jelas dan alami.",
+      "translation_quote": "dapat mengumban batu dengan tepat pada rambut tanpa meleset"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "b1022b832562abfeaaaaeb0cfc24df51",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -221,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

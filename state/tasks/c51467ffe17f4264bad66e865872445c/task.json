@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 4510
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 702,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 670,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2909,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2906,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3611
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Poem, from “My precious child” onward",
-      "severity": "major",
-      "source_quote": "“My precious child, look up.” … “My child, fear not” … “So, My child, gaze long at the rainbow.”",
-      "suggested_fix": "Replace “filha” with a gender-neutral rendering of “child” throughout these lines, such as “criança” (for example, “Minha preciosa criança, olha para cima” and “Minha criança, não temas”). Preserve the source’s gender-neutral address.",
-      "translation_quote": "“Minha preciosa filha, olhe para cima.” … “Minha filha, não temas” … “minha filha, contempla longamente o arco-íris.”"
-    },
-    {
-      "location": "Poem, “My precious child, look up”",
-      "severity": "minor",
-      "source_quote": "“My precious child, look up.”",
-      "suggested_fix": "Use the same second-person form as the surrounding lines: change “olhe” to “olha” if retaining the informal “tu” forms used elsewhere.",
-      "translation_quote": "“Minha preciosa filha, olhe para cima.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "c51467ffe17f4264bad66e865872445c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "por",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

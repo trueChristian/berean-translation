@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,25 +64,75 @@
         },
         "total_tokens": 12247
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, paragraph beginning “David responded” (1 Samuel 17:34-36)",
-      "severity": "major",
-      "source_quote": "“I caught him by his beard”",
-      "suggested_fix": "Cambia «yo le echaba mano de la quijada» por «lo agarré por la barba», conservando el resto de la cita y la referencia.",
-      "translation_quote": "«yo le echaba mano de la quijada»"
     },
     {
-      "location": "source.html, paragraph beginning “Then David said” (1 Samuel 17:45-46)",
-      "severity": "major",
-      "source_quote": "“Thou comest to me with a sword, and with a spear, and with a shield”",
-      "suggested_fix": "Cambia «con espada y lanza y jabalina» por «con espada, lanza y escudo», conservando el resto de la cita y la referencia.",
-      "translation_quote": "«Tú vienes a mí con espada y lanza y jabalina»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 548,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8056,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8053,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8604
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “In Psalms, it says…”",
+      "severity": "major",
+      "source_quote": "Psalms 40:4 says He will not respect the proud",
+      "suggested_fix": "Correct the reference’s subject and verb to preserve the source: «Salmo 40:4 dice que no respetará a los orgullosos» (or a clear equivalent).",
+      "translation_quote": "Salmo 40:4 dice que no tendrá en cuenta a los orgullosos"
+    },
+    {
+      "location": "source.html, paragraph beginning “When we do a work on our own…”",
+      "severity": "major",
+      "source_quote": "When we do a work on our own, we cannot boast of it because we did it.",
+      "suggested_fix": "Translate “because we did it” as «porque la hicimos nosotros» or an equivalent that retains the stated reason; remove the reversal of meaning.",
+      "translation_quote": "Cuando hacemos una obra por nuestra cuenta, no podemos jactarnos de ella porque la hicimos nosotros."
+    },
+    {
+      "location": "source.html, paragraph beginning “Your cheeks blush a little…”",
+      "severity": "major",
+      "source_quote": "Your cheeks blush a little and you begin to point out the flaws that you know",
+      "suggested_fix": "Keep the subject as «tus mejillas» or render the sentence impersonally, for example: «Se te sonrojan un poco las mejillas y empiezas a señalar…»",
+      "translation_quote": "Se te sonrojan un poco las mejillas y empiezas a señalar los defectos que conoces"
+    },
+    {
+      "location": "source.html, paragraph beginning “A poor criminal…”",
+      "severity": "major",
+      "source_quote": "A poor criminal who has only known the city streets as home, steals and robs just to get by.",
+      "suggested_fix": "Use «roba y asalta» or another equivalent that preserves the source’s two actions; do not change «asalta» to «insulta».",
+      "translation_quote": "Un pobre delincuente que solo ha conocido las calles de la ciudad como hogar, roba y asalta para poder salir adelante."
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Pride or Humility?",
+      "suggested_fix": "No correction needed; the title is faithfully translated.",
+      "translation_quote": "¿Orgullo o humildad?"
+    },
+    {
+      "location": "source.html, paragraph beginning “When God does a work in our lives…”",
+      "severity": "minor",
+      "source_quote": "what God is doing in their lives",
+      "suggested_fix": "No substantive correction needed; the Spanish singular phrasing is idiomatic and preserves the meaning.",
+      "translation_quote": "lo que Dios está haciendo en su vida"
+    }
+  ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "f54f2c8ebab3ba7251f6621b48c6ca5c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "spa",
@@ -172,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b4e3baa2-f4d4-4be1-ae9d-4d8787696d51",
+    "response_id": "chatcmpl-EUeofjmc7snf3VsXvbtR3r6iQsZNY",
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2765,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2762,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3413
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Den kvelden snakket familien igjen»",
+        "severity": "major",
+        "source_quote": "If that letter would have reached Brother Oscars, they would have been preparing for us.",
+        "suggested_fix": "Bytt «Hvis brevet hadde kommet fram til bror Oscar og dem som var hos ham» med «Hvis brevet hadde kommet fram til bror Oscar».",
+        "translation_quote": "Hvis brevet hadde kommet fram til bror Oscar og dem som var hos ham, ville de ha gjort seg klare til å ta imot oss."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

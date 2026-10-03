@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Заключительная цитата из Матфея 9:2–8, абзац в blockquote",
+      "severity": "minor",
+      "source_quote": "And, behold, they brought to him a man sick of the palsy, lying on a bed: and Jesus seeing their faith said unto the sick of the palsy",
+      "suggested_fix": "Заменить фрагмент на грамматически корректный русский: «И вот, принесли к Нему расслабленного, лежащего на постели. Иисус, видя веру их, сказал расслабленному…»",
+      "translation_quote": "И вот, принесли к Нему расслабленного, положенного на постели. И, видя Иисус веру их, сказал расслабленному"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

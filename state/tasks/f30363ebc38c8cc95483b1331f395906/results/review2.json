@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4347cbac-b781-494c-9f92-7d36ef7ec94f",
+    "response_id": "chatcmpl-EUep7m1DFMvsRrDySPJAXltFRoVos",
+    "usage": {
+      "completion_tokens": 505,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7582,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7579,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8087
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, in the paragraph beginning “När David steg upp tidigt”",
+        "severity": "major",
+        "source_quote": "“as he came upon the scene he was shocked at the sight. Both armies were positioned on opposite mountains”",
+        "suggested_fix": "Ändra till: “men när han kom fram till platsen blev han chockad av det han såg. Båda arméerna stod på var sitt berg”",
+        "translation_quote": "“men när han kom fram till platsen blev han chockad av det han såg. Båda arméerna stod på var sitt berg”"
+      },
+      {
+        "location": "HTML, paragraph beginning “När Saul motvilligt går med på Davids förslag”",
+        "severity": "major",
+        "source_quote": "“As Saul reluctantly consents to David’s proposal, he proceeds to arm the lad”",
+        "suggested_fix": "Ändra “går han vidare med att beväpna ynglingen” till “låter han beväpna ynglingen” så att det framgår att Saul låter David få rustning, inte själv utrustar honom.",
+        "translation_quote": "“går han vidare med att beväpna ynglingen på typiskt världsligt vis”"
+      },
+      {
+        "location": "HTML, paragraph beginning “Varför dog japanska kamikazepiloter”",
+        "severity": "major",
+        "source_quote": "“from Zebedee’s boats of the business… to the boys of his bosom.”",
+        "suggested_fix": "Ändra “från Sebedaios båtar i hans verksamhet… till pojkarna i hans famn” till en formulering som återger kontrasten mellan Sebedaios båtar knutna till hans yrkesverksamhet och sönerna han hade vid sitt bröst, till exempel: “från Sebedaios båtar i hans näring… till pojkarna vid hans bröst”.",
+        "translation_quote": "“från Sebedaios båtar i hans verksamhet… till pojkarna i hans famn”"
+      },
+      {
+        "location": "HTML, diktens fjärde rad",
+        "severity": "major",
+        "source_quote": "“Rahab had a string;”",
+        "suggested_fix": "Ändra “Rahab hade ett snöre;” till “Rahab hade en tråd;”",
+        "translation_quote": "“Rahab hade ett snöre;”"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

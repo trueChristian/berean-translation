@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,60 +64,31 @@
         },
         "total_tokens": 12512
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7961,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7958,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8499
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, parágrafo sobre a cobertura da cabeça",
-      "severity": "major",
-      "source_quote": "Some even put it all the way on the back of the head and color it the same as their hair",
-      "suggested_fix": "Substitua «a tingem da mesma cor do cabelo» por «a escolhem da mesma cor do cabelo», preservando o sentido de que a cobertura é feita ou escolhida para combinar com a cor do cabelo.",
-      "translation_quote": "Alguns até a colocam bem atrás da cabeça e a tingem da mesma cor do cabelo"
-    },
-    {
-      "location": "source.html, parágrafo sobre a graça",
-      "severity": "major",
-      "source_quote": "It causes one to love their God with all their heart",
-      "suggested_fix": "Substitua «ame a Deus» por «ame o seu Deus» para preservar a referência explícita ao Deus da pessoa.",
-      "translation_quote": "Faz com que ame a Deus de todo o coração"
-    },
-    {
-      "location": "source.html, parágrafo sobre Davi e Golias, resposta de Eliabe",
-      "severity": "major",
-      "source_quote": "“I know thy pride.”",
-      "suggested_fix": "Substitua «Conheço o teu orgulho» por «Sei como és presunçoso» ou formulação equivalente que atribua a Eliabe uma acusação de orgulho, não apenas conhecimento do orgulho de Davi.",
-      "translation_quote": "“Conheço o teu orgulho.”"
-    },
-    {
-      "location": "source.html, parágrafo sobre a confiança de Davi",
-      "severity": "major",
-      "source_quote": "David was not concerned that he was “but a youth” and he did not understand why people questioned him.",
-      "suggested_fix": "Substitua «não entendia por que as pessoas questionavam sua capacidade» por «não entendia por que as pessoas o questionavam», sem acrescentar que a dúvida delas dizia respeito especificamente à sua capacidade.",
-      "translation_quote": "Davi não estava preocupado por ser “apenas um jovem” e não entendia por que as pessoas questionavam sua capacidade."
-    },
-    {
-      "location": "source.html, parágrafo sobre a obra sobrenatural de Deus",
-      "severity": "major",
-      "source_quote": "we now must boast of what God has done!",
-      "suggested_fix": "Substitua «temos de nos gloriar no que Deus fez» por «temos de nos gloriar do que Deus fez», preservando o sentido de proclamar aquilo que Deus realizou.",
-      "translation_quote": "quando se trata de uma obra sobrenatural de Deus, agora temos de nos gloriar no que Deus fez!"
-    },
-    {
-      "location": "source.html, parágrafo da pergunta sobre ser justo",
-      "severity": "major",
-      "source_quote": "“So, we should go around boasting about how righteous we are?”",
-      "suggested_fix": "Substitua «nos gabando de como somos justos» por «nos gabando da nossa justiça» ou expressão equivalente que mantenha o foco em quão justos somos, sem sugerir que nos gabamos de como nos tornamos justos.",
-      "translation_quote": "“Então, devemos sair por aí nos gabando de como somos justos?”"
-    },
-    {
-      "location": "source.title",
-      "severity": "minor",
-      "source_quote": "Pride or Humility?",
-      "suggested_fix": "Use capitalização consistente com o título em português: «Orgulho ou humildade?»",
-      "translation_quote": "Orgulho ou humildade?"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "f6e7b53c896fd4f36b9bd61339e22d48",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "por",
@@ -207,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "79ae650a-a8d0-439c-9e52-27747c512ac6",
+    "response_id": "chatcmpl-EUepE0bdpfSTNO3WDNvSZJ2CY1GtO",
+    "usage": {
+      "completion_tokens": 377,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2956,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2953,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3333
+    }
+  },
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Dikten, strofen som börjar ”Men här har jag satt min regnbåge”",
+        "severity": "major",
+        "source_quote": "“But here I have placed My rainbow, / That amidst all the darkness and fear, / You can see that My promise is certain.”",
+        "suggested_fix": "Ändra de första tre raderna till: ”Men här har jag placerat min regnbåge, / så att du mitt i allt mörker och all rädsla / kan se att mitt löfte är säkert.”",
+        "translation_quote": "”Men här har jag satt min regnbåge, / så att du mitt i allt mörker och all rädsla / kan se att mitt löfte är säkert.”"
+      },
+      {
+        "location": "Dikten, strofen som börjar ”Detta löfte kan också öppna för dig”",
+        "severity": "major",
+        "source_quote": "“For My strength and power are manifest, / When these to My will conform.”",
+        "suggested_fix": "Ändra de två sista raderna till: ”För min styrka och kraft blir uppenbara / när detta sker i enlighet med min vilja.”",
+        "translation_quote": "För min styrka och kraft blir uppenbara / när dessa fogar sig efter min vilja."
+      },
+      {
+        "location": "HTML, div.poem, avslutande bylinerad",
+        "severity": "minor",
+        "source_quote": "<p class=\"byline\">~by Adrianna Fanton</p>",
+        "suggested_fix": "Behåll raden i samma HTML-struktur och ändra texten till <p class=\"byline\">~av Adrianna Fanton</p>.",
+        "translation_quote": "<p class=\"byline\">~av Adrianna Fanton</p>"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

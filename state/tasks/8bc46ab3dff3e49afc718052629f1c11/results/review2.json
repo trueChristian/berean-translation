@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "07a9dea9-b145-4b0b-9da6-f5060cdec89c",
+    "response_id": "chatcmpl-EUepyYj37EatO1HZala1MubNnVthL",
+    "usage": {
+      "completion_tokens": 950,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 820,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7483,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7480,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8433
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “One of the Ten Commandments”",
+        "severity": "major",
+        "source_quote": "Thou shalt not kill – Exodus 20:13.",
+        "suggested_fix": "Replace the quoted command with a Swedish rendering that preserves “kill,” such as “Du ska inte döda”, while keeping the reference to Andra Moseboken 20:13 unchanged.",
+        "translation_quote": "Du ska inte mörda – Andra Moseboken 20:13."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

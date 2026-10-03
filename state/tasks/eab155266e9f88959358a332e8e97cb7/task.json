@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,32 +64,31 @@
         },
         "total_tokens": 3237
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 439,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 413,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1765,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1762,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2204
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Poem, lines 4–6",
-      "severity": "major",
-      "source_quote": "However, the church, can forget of that life, / If the presence of God, shines as the sun, / The singing so sweet, includes everyone.",
-      "suggested_fix": "Replace these lines with: “Tog kan die kerk daardie lewe vergeet, / as God se teenwoordigheid soos die son skyn, / en die sang so lieflik is dat almal deelneem.” This preserves the source’s conditional “If” and the claim that the singing includes everyone.",
-      "translation_quote": "Tog kan die kerk daardie lewe vergeet, / As God se teenwoordigheid soos die son skyn, / Is die sang so lieflik dat almal daarby inskakel."
-    },
-    {
-      "location": "Poem, lines 15–18",
-      "severity": "major",
-      "source_quote": "Would we lose our life, for the good Lord’s sake? / Then eternity we’d gain, and heaven partake. / Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
-      "suggested_fix": "Replace with: “Sou ons ons lewe ter wille van die goeie Here verloor? / Dan sou ons die ewigheid wen en deel hê aan die hemel. / Of sou ons ons lewe liefhê? Die Bybel stel dit duidelik: / Ons sou ons kans op die kosbare hemel verloor.” The source contrasts losing one’s life for the Lord with loving one’s life; it does not say to lay down one’s life.",
-      "translation_quote": "Sou ons ons lewe ter wille van die goeie Here aflê? / Dan sou ons die ewigheid wen en deel hê aan die hemel. / Of het ons ons lewe lief, terwyl die Bybel dit duidelik stel: / Ons sou ons kans op die kosbare hemel verloor."
-    },
-    {
-      "location": "Poem, lines 23–24",
-      "severity": "major",
-      "source_quote": "When the next life is heaven, eternity with Him, / Then death is the beginning, so why is it grim?",
-      "suggested_fix": "Replace with: “As die volgende lewe die hemel is, die ewigheid saam met Hom, / Dan is die dood die begin—waarom is dit dan somber?” The source asks why death is grim; “donker” changes the sense to dark.",
-      "translation_quote": "As die volgende lewe die hemel is, die ewigheid saam met Hom, / Dan is die dood die begin—waarom is dit dan so donker?"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "eab155266e9f88959358a332e8e97cb7",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "afr",
@@ -179,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"

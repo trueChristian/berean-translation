@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 13251
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 157,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8385,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8382,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8542
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html / paragrafo su Davide, 1 Samuele 17:34-36",
+      "location": "source.html / translation.html, citazione di Giobbe 40:11",
       "severity": "major",
-      "source_quote": "“there came a lion, and a bear, and took a lamb out of the flock”",
-      "suggested_fix": "Sostituire «quando arrivò un leone o un orso e portò via un agnello dal gregge» con «quando arrivò un leone e un orso e portarono via un agnello dal gregge», mantenendo invariati il tag <p> e il riferimento.",
-      "translation_quote": "«quando arrivò un leone o un orso e portò via un agnello dal gregge»"
-    },
-    {
-      "location": "source.html / paragrafo sull’esempio della casa, confronto con la casa costruita da Dio",
-      "severity": "major",
-      "source_quote": "“You would boast of its perfection”",
-      "suggested_fix": "Sostituire «Ti vanteresti della sua perfezione» con «Ti vanteresti della sua perfezione [della casa]» oppure «Ti vanteresti di quanto è perfetta», così che il referente sia la casa, non la sua qualità astratta.",
-      "translation_quote": "«Ti vanteresti della sua perfezione»"
-    },
-    {
-      "location": "source.html / paragrafo finale, esempio dell’ex criminale",
-      "severity": "major",
-      "source_quote": "“I’m perfect!”",
-      "suggested_fix": "Sostituire «Sono perfetto!» con «Sono perfetto!» se il senso è la persona resa perfetta, oppure, per evitare l’ambiguità con la perfezione morale, «Dio mi ha reso perfetto!»; la frase deve restare attribuita all’uomo convertito.",
-      "translation_quote": "«Sono perfetto!»"
+      "source_quote": "…behold every one that is proud, and abase [put down or make low] him",
+      "suggested_fix": "Sostituire con «…guarda ogni superbo e lo umilia [lo abbassa o lo rende umile]» (oppure «lo abbassa» senza l’equivalenza «lo rende umile»), conservando il riferimento «Giobbe 40:11».",
+      "translation_quote": "…guarda ogni superbo e lo umilia [lo abbassa o lo rende umile]"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "c6b4ca4dfdb9d5ffa6f50698b76fd2b1",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ita",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

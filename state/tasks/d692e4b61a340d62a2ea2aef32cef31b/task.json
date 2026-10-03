@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 11421
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 594,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 474,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7323,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7320,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7917
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraf tentang bunuh diri dengan bantuan dokter",
+      "location": "Paragraf 4",
       "severity": "major",
-      "source_quote": "“self ”-administer",
-      "suggested_fix": "Ganti frasa tersebut dengan «memberikan sendiri» atau «menggunakan sendiri», tanpa menambahkan cara pemberian yang tidak disebutkan dalam sumber; misalnya, «lalu orang itu menggunakan sendiri obat tersebut sehingga mengakhiri hidupnya».",
-      "translation_quote": "“menyuntikkan atau meminum sendiri” obat tersebut"
-    },
-    {
-      "location": "HTML, paragraf yang mengutip 2 Korintus 4:17-18",
-      "severity": "major",
-      "source_quote": "“worketh for us a far more exceeding and eternal weight of glory”",
-      "suggested_fix": "Terjemahkan maknanya sebagai kemuliaan kekal yang jauh lebih besar dan berbobot daripada penderitaan itu, bukan dengan menyatakan bahwa penderitaan mengerjakan kemuliaan bagi kami. Contoh: «penderitaan ringan yang sekarang ini mengerjakan bagi kami bobot kemuliaan kekal yang jauh lebih besar».",
-      "translation_quote": "“mengerjakan bagi kami kemuliaan kekal yang jauh lebih besar daripada penderitaan itu”"
-    },
-    {
-      "location": "HTML, paragraf penutup tentang merawat seseorang",
-      "severity": "major",
-      "source_quote": "“God values their lives and so should we.”",
-      "suggested_fix": "Ubah «Allah menghargai hidup mereka» menjadi «Allah menghargai hidupnya» agar kata ganti tunggal pada kalimat ini selaras dengan orang yang sedang dirawat dan tidak mengubahnya menjadi jamak.",
-      "translation_quote": "“Allah menghargai hidup mereka, dan kita pun seharusnya demikian.”"
+      "source_quote": "There is a sense in which many families abandon their elderly or ill family members.",
+      "suggested_fix": "Ganti “mengabaikan” dengan “menelantarkan” agar klaim bahwa keluarga meninggalkan atau tidak merawat anggota keluarga yang lanjut usia atau sakit tetap tersampaikan.",
+      "translation_quote": "Ada benarnya bahwa banyak keluarga mengabaikan anggota keluarga mereka yang lanjut usia atau sakit."
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "d692e4b61a340d62a2ea2aef32cef31b",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

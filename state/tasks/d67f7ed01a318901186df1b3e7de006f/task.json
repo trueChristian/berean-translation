@@ -2,7 +2,6 @@
   "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,18 +64,75 @@
         },
         "total_tokens": 16830
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 980,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11003,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11000,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11983
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, bagian “Ada beberapa pengecualian terhadap cita-cita Alkitab,” kutipan 1 Korintus 7:5",
+      "location": "source.html, paragraf pembuka",
       "severity": "major",
-      "source_quote": "Defraud [deprive, keep back] ye not one the other",
-      "suggested_fix": "Ganti bagian awal kutipan menjadi: “Janganlah kamu saling mengurangi hak satu sama lain [merampas, menahan] ...” agar maknanya adalah tidak saling menahan atau merampas hak, bukan sekadar tidak saling menahan diri.",
-      "translation_quote": "Janganlah kamu saling menahan diri [merampas, menahan]"
+      "source_quote": "In Leviticus chapters 21 and 22, a plan, called a divorce, was put in place to legally dissolve the “first love”.",
+      "suggested_fix": "Ganti rujukan kitab dengan bentuk yang benar: “Dalam pasal 21 dan 22 Imamat, sebuah cara yang disebut perceraian diberlakukan untuk mengakhiri ‘cinta pertama’ secara hukum.”",
+      "translation_quote": "Dalam Imamat pasal 21 dan 22, sebuah cara yang disebut perceraian diberlakukan untuk mengakhiri “cinta pertama” secara hukum."
+    },
+    {
+      "location": "source.html, bagian tentang Matius 5:31-32, paragraf yang dimulai “Saving for the cause of fornication”",
+      "severity": "major",
+      "source_quote": "Fornication is any type of immorality prior to marriage.",
+      "suggested_fix": "Gunakan istilah yang membedakan fornication dari adultery, konsisten dengan kontras yang dijelaskan dalam paragraf: “Perbuatan cabul dalam pengertian ini adalah segala jenis amoralitas sebelum pernikahan.” Periksa dan sesuaikan pula kemunculan “zinah” pada kalimat-kalimat berikutnya dalam paragraf agar istilah fornication tidak tertukar dengan perzinaan setelah menikah.",
+      "translation_quote": "Zinah dalam pengertian ini adalah segala jenis amoralitas sebelum pernikahan."
+    },
+    {
+      "location": "source.html, paragraf tentang Hosea dan Gomer",
+      "severity": "major",
+      "source_quote": "she resorts to the life of a “harlot'' (Hosea 3:3) and goes after other “lovers” (2:7).",
+      "suggested_fix": "Pertahankan rujukan yang tercetak pada sumber untuk bagian ini: “perempuan itu kembali menjalani kehidupan sebagai ‘pelacur’ (Hosea 3:3) dan mengejar ‘kekasih-kekasih’ lain (Hosea 2:7).”",
+      "translation_quote": "perempuan itu kembali menjalani kehidupan sebagai “pelacur” (Hosea 3:3) dan mengejar “kekasih-kekasih” lain (2:7)."
+    },
+    {
+      "location": "source.html, paragraf tentang Yohanes 4:1-42",
+      "severity": "major",
+      "source_quote": "none of your five former husbands of which you have divorced or put away (including your first one) are your husband",
+      "suggested_fix": "Terjemahkan “former husbands” sebagai “mantan suamimu”, bukan “mantan suamimu yang telah engkau ceraikan atau tinggalkan”; misalnya: “tak satu pun dari kelima mantan suamimu (termasuk yang pertama) adalah suamimu, dan laki-laki yang sekarang bersamamu juga bukan.”",
+      "translation_quote": "tak satu pun dari lima mantan suamimu yang telah engkau ceraikan atau tinggalkan (termasuk yang pertama) adalah suamimu, dan laki-laki yang sekarang bersamamu juga bukan."
+    },
+    {
+      "location": "source.html, paragraf tentang Yohanes 4:1-42",
+      "severity": "major",
+      "source_quote": "So, to use this account and say that all five husbands are adulterous and still classified as God-recorded husbands",
+      "suggested_fix": "Terjemahkan bahwa kelima suami “melakukan perzinaan” atau “adulterous” sebagai predikat terhadap mereka; jangan ubah menjadi klaim bahwa mereka “semuanya berzina”. Misalnya: “Jadi, menggunakan kisah ini dan mengatakan bahwa kelima suami itu adalah pezina dan masih digolongkan sebagai suami yang tercatat oleh Allah…”",
+      "translation_quote": "Jadi, menggunakan kisah ini dan mengatakan bahwa kelima suaminya semuanya berzina dan masih digolongkan sebagai suami yang tercatat oleh Allah"
+    },
+    {
+      "location": "source.html, bagian kesimpulan, paragraf yang dimulai “The context of 1 Corinthians 7:10-16”",
+      "severity": "major",
+      "source_quote": "the remaining believing spouse is not under obligation to denounce their walk of faith to continue a marriage relationship",
+      "suggested_fix": "Perbaiki “menyangkal kehidupan imannya” agar jelas bahwa yang dimaksud adalah menyangkal perjalanan iman demi mempertahankan pernikahan: “pasangan yang percaya dan tetap tinggal itu tidak berkewajiban menyangkal perjalanan imannya demi melanjutkan hubungan pernikahan.”",
+      "translation_quote": "pasangan yang percaya dan tetap tinggal itu tidak berkewajiban menyangkal kehidupan imannya demi melanjutkan hubungan pernikahan"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "d67f7ed01a318901186df1b3e7de006f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -165,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

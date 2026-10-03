@@ -2,7 +2,6 @@
   "article_id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,88 +64,54 @@
         },
         "total_tokens": 14196
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 342,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8510,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8507,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8852
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 2, Job 40:11 quotation",
+      "location": "HTML paragraph on David's response to Saul (1 Samuel 17:34–36)",
       "severity": "major",
-      "source_quote": "“…behold every one that is proud, and abase [put down or make low] him”",
-      "suggested_fix": "Replace “kuwaweka chini au kuwafanya wanyenyekee” with “kuwashusha chini au kuwafanya wa chini,” preserving the meaning of “abase” without implying they become humble.",
-      "translation_quote": "“…wote wenye kiburi, na kuwashusha [kuwaweka chini au kuwafanya wanyenyekee]”"
+      "source_quote": "“Thy servant slew both the lion and the bear”",
+      "suggested_fix": "Replace “Mtumishi wako amewaua simba na dubu wote wawili” with “Mtumishi wako alimwua simba na dubu” to preserve the source's statement that David killed both animals.",
+      "translation_quote": "“Mtumishi wako amewaua simba na dubu wote wawili”"
     },
     {
-      "location": "Paragraph 5, Law and Grace example",
+      "location": "HTML paragraph beginning “Instead, it seems we have many defeated people”",
       "severity": "major",
-      "source_quote": "“the law states that we should not kill, yet (according to the law) we are allowed to be angry.”",
-      "suggested_fix": "Change “hatupaswi kuua” to “hatupaswi kuua,” and make clear the contrast is that the law permits anger: “sheria inasema kwamba hatupaswi kuua, lakini (kwa mujibu wa sheria) tunaruhusiwa kukasirika.” The current wording is already substantially faithful; no correction needed.",
-      "translation_quote": "“sheria inasema kwamba hatupaswi kuua, lakini (kwa mujibu wa sheria) tunaruhusiwa kukasirika.”"
+      "source_quote": "“to act as if we are a defeated sinner trying to struggle through this earthly existence.”",
+      "suggested_fix": "Change “kana kwamba sisi ni wenye dhambi walioshindwa” to “kana kwamba sisi ni mwenye dhambi aliyeshindwa” to retain the source's singular “a defeated sinner.”",
+      "translation_quote": "“kana kwamba sisi ni wenye dhambi walioshindwa wanaojaribu kujikakamua katika maisha haya ya duniani.”"
     },
     {
-      "location": "Paragraph 8, John 1:17 quotation",
+      "location": "HTML paragraph on the poor criminal who repents",
       "severity": "major",
-      "source_quote": "“the law was given by Moses”",
-      "suggested_fix": "Translate as “sheria ilitolewa na Musa” rather than “sheria ilitolewa kwa mkono wa Musa,” which adds the assertion that it was given by his hand.",
-      "translation_quote": "“sheria ilitolewa kwa mkono wa Musa”"
-    },
-    {
-      "location": "Paragraph 11, David's question, 1 Samuel 17:26",
-      "severity": "major",
-      "source_quote": "“who is this uncircumcised Philistine, that he should defy the armies of the living God?”",
-      "suggested_fix": "Replace “hata ayatukane” with “hata ayatukane/ayadharau” only if intended as defy; a clear rendering is “hata ayapinge majeshi ya Mungu aliye hai?”",
-      "translation_quote": "“huyu Mfilisti asiyetahiriwa ni nani, hata ayatukane majeshi ya Mungu aliye hai?”"
-    },
-    {
-      "location": "Paragraph 12, Eliab's accusation",
-      "severity": "major",
-      "source_quote": "“I know thy pride.”",
-      "suggested_fix": "Translate “Najua kiburi chako” (or “Naujua huo kiburi wako”); “ukaidi” means stubbornness/rebellion, not pride.",
-      "translation_quote": "“Naujua huo ukaidi wako.”"
-    },
-    {
-      "location": "Paragraph 14, 1 Samuel 17:34-36 quotation",
-      "severity": "major",
-      "source_quote": "“Thy servant kept his father’s sheep”",
-      "suggested_fix": "Change “kondoo za babaye” to “kondoo za baba yake.”",
-      "translation_quote": "“Mtumishi wako alikuwa akichunga kondoo za babaye”"
-    },
-    {
-      "location": "Paragraph 17, 1 Samuel 17:42-44 quotation",
-      "severity": "major",
-      "source_quote": "“Come to me, and I will give thy flesh unto the fowls of the air, and to the beasts of the field”",
-      "suggested_fix": "Translate the threat as “Njoo kwangu, nami nitaitoa nyama yako kwa ndege wa angani na wanyama wa mwituni.” The current wording says he will give the birds and beasts the speaker's flesh, reversing the intended person.",
-      "translation_quote": "“Njoo kwangu, nami nitawapa ndege wa angani na wanyama wa mwituni nyama yako”"
-    },
-    {
-      "location": "Paragraph 20, supernatural work and boasting",
-      "severity": "major",
-      "source_quote": "“When we do a work on our own, we cannot boast of it because we did it.”",
-      "suggested_fix": "Clarify the distinction in the translation: “Tunapofanya kazi kwa nguvu zetu wenyewe, hatuwezi kujisifu kwa kazi hiyo, kwa kuwa sisi wenyewe ndio tuliifanya.” As written, “hat... kwa sababu sisi ndio tuliifanya” can read as saying we cannot boast because we did it, but the contrast is unclear; the following sentence should explicitly state that boasting would be pride.",
-      "translation_quote": "“Tunapofanya kazi kwa nguvu zetu wenyewe, hatuwezi kujisifu kwa sababu sisi ndio tuliifanya.”"
-    },
-    {
-      "location": "Paragraph 21, personal testimony",
-      "severity": "major",
-      "source_quote": "“I spent most of my childhood and teenage years going to anger management classes where counselors tried to teach us how to control our anger.”",
-      "suggested_fix": "Change “muda mwingi wa utoto na ujana wangu” to “sehemu kubwa ya utoto na miaka yangu ya ujana” for the author's claim that this occupied most of those years.",
-      "translation_quote": "“Nilitumia muda mwingi wa utoto na ujana wangu nikihudhuria madarasa ya kudhibiti hasira”"
-    },
-    {
-      "location": "Paragraph 24, description of the house",
-      "severity": "major",
-      "source_quote": "“And the siding over there… it’s not exactly straight.”",
-      "suggested_fix": "Replace “ule ubao wa ukutani” with “vibao vya kufunika ukuta” or another Kiswahili expression for exterior siding; the current singular board narrows the source’s building-material reference.",
-      "translation_quote": "“Na ule ubao wa ukutani pale… hauko sawasawa kabisa.”"
-    },
-    {
-      "location": "Paragraph 28, criminal's conversion",
-      "severity": "major",
-      "source_quote": "“God saves him, transforms him, converts him.”",
-      "suggested_fix": "Render the distinct verbs without the nonstandard/unclear “anamwongoka,” for example: “Mungu anamwokoa, anamgeuza, anamfanya ageuke.”",
-      "translation_quote": "“Mungu anamwokoa, anamgeuza, anamwongoka.”"
+      "source_quote": "“He leaves that alley a new person!”",
+      "suggested_fix": "Replace “Anaondoka katika kichochoro hicho akiwa mtu mpya!” with “Anaondoka katika kichochoro hicho akiwa mtu aliyebadilika!” or another natural rendering that does not say he leaves while physically inside the alley.",
+      "translation_quote": "“Anaondoka katika kichochoro hicho akiwa mtu mpya!”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "c48a1d9d214a8385352de037884ce2f4",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swa",
@@ -235,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

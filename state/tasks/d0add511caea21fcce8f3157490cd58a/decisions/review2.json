@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html, final song stanza (p.poem)",
+      "severity": "major",
+      "source_quote": "“Master, the terror is over, the elements sweetly rest;",
+      "suggested_fix": "Lägg till den utelämnade inledande raden i samma p.poem, före den befintliga första raden: ”Mästare, faran är över, elementen vilar ljuvligt stilla;",
+      "translation_quote": "”Mästare, elementen vilar ljuvligt stilla;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

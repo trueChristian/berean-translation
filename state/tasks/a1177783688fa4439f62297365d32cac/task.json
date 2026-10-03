@@ -2,7 +2,6 @@
   "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,46 +64,40 @@
         },
         "total_tokens": 4684
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 534,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 332,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3348
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "النص، الفقرة التي تقترح زيارة جماعة Bethel Fellowship",
+      "location": "source.html, paragraph beginning “That evening at the supper table”",
       "severity": "major",
-      "source_quote": "“Why don’t we plan to visit the congregation at Bethel Fellowship next Sunday then?”",
-      "suggested_fix": "استبدل «جماعة بيت إيل» بـ«جماعة زمالة بيت إيل» للحفاظ على اسم Bethel Fellowship، لا Bethel وحده.",
-      "translation_quote": "«فلماذا لا نخطط لزيارة جماعة بيت إيل يوم الأحد المقبل إذن؟»"
-    },
-    {
-      "location": "النص، الفقرة التي تذكر إرسال الرسالة إلى الأخ أوسكار",
-      "severity": "major",
-      "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight to let them know we’re coming.”",
-      "suggested_fix": "استخدم «الأخ أوسكار بايت» بصورة متسقة في هذا الموضع والموضعين اللاحقين اللذين ورد فيهما اسمه، وصحّح الضمير إلى المفرد: «لأخبره بأننا قادمون».",
-      "translation_quote": "«سأخطط لإرسال رسالة إلى الأخ أوسكار بايت لأخبرهم بأننا قادمون.»"
-    },
-    {
-      "location": "النص، فقرة وصول الأسرة إلى المنزل",
-      "severity": "minor",
-      "source_quote": "“then drove in their lane.”",
-      "suggested_fix": "لإبقاء معنى lane في سياق القيادة إلى المنزل، استبدل «في الممر المؤدي إلى المنزل» بـ«في الممر الخاص بمنزلهم».",
-      "translation_quote": "«وقادت سيارتها في الممر المؤدي إلى المنزل.»"
-    },
-    {
-      "location": "النص، فقرة العشاء التي تذكر وصول الرسالة إلى الأخ أوسكار",
-      "severity": "major",
-      "source_quote": "“If that letter would have reached Brother Oscars, they would have been preparing for us.”",
-      "suggested_fix": "استخدم «لو وصلت الرسالة إلى الأخ أوسكار، لكان يستعد لاستقبالنا»؛ فالمصدر يذكر أوسكار بصيغة المفرد، ولا يذكر إخوته أو جماعةً تستعد نيابةً عنه.",
-      "translation_quote": "«فلو وصلت الرسالة إلى الأخ أوسكار، لكانوا يستعدون لاستقبالنا.»"
-    },
-    {
-      "location": "النص، فقرة إرجاع الرسالة",
-      "severity": "minor",
-      "source_quote": "“Why ever had it been returned?”",
-      "suggested_fix": "صياغة أوضح للسؤال: «لماذا أُعيدت الرسالة؟»",
-      "translation_quote": "«لماذا أُعيدت إليه؟»"
+      "source_quote": "“If that letter would have reached Brother Oscars, they would have been preparing for us. But this way, they did not even know we were coming to visit.”",
+      "suggested_fix": "غيّر ضمائر المفرد إلى الجمع للحفاظ على أن أهل الأخ أوسكار هم من كانوا سيستعدون ولم يكونوا يعلمون بالزيارة: «فلو وصلت الرسالة إلى الأخ أوسكار، لكانوا يستعدون لاستقبالنا. لكن بهذه الطريقة، لم يكونوا يعلمون حتى أننا قادمون للزيارة.»",
+      "translation_quote": "«فلو وصلت الرسالة إلى الأخ أوسكار، لكان يستعد لاستقبالنا. لكن بهذه الطريقة، لم يكن حتى يعلم أننا قادمون لزيارته.»"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "a1177783688fa4439f62297365d32cac",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -193,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
   "translation_model_actual": "gpt-6-luna"

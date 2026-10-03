@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "84f15a07-32c5-4f53-ba83-7e5d3610fa64",
+    "response_id": "chatcmpl-EUeqhxWeRYYNq6r0KWi5W3EaLcmKO",
+    "usage": {
+      "completion_tokens": 483,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 353,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7870,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8356
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "God is Glorified in Our Suffering — quoted Scripture, 2 Corinthians 4:17-18",
+        "severity": "major",
+        "source_quote": "“worketh for us a far more exceeding and eternal weight of glory”",
+        "suggested_fix": "इस अंश को इस तरह सुधारें: “हमारे लिए कहीं अधिक बढ़कर अनन्त महिमा का भार उत्पन्न करता है।”",
+        "translation_quote": "“हमारे लिए बहुत ही महत्वपूर्ण और अनन्त महिमा उत्पन्न करता जाता है”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

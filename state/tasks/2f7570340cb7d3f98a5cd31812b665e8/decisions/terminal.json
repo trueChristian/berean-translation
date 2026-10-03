@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, line 24",
+      "severity": "minor",
+      "source_quote": "Then death is the beginning, so why is it grim?",
+      "suggested_fix": "Basi kifo ni mwanzo; kwa nini basi kinaonekana kuwa cha kuhuzunisha?",
+      "translation_quote": "Basi kifo ni mwanzo, kwa nini basi kinakutisha?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

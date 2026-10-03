@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Dernière strophe du chant, première ligne\",\"severity\":\"major\",\"source_quote\":\"“Master, the terror is over, the elements sweetly rest;\",\"suggested_fix\":\"Remplacer « Maître, la tempête est passée, les éléments reposent en paix ; » par « Maître, la terreur est passée, les éléments reposent doucement ; »\",\"translation_quote\":\"« Maître, la tempête est passée, les éléments reposent en paix ;\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 467,
+    "content_evidence_truncated": false,
+    "content_sha256": "ca152e27875b3c708d7bd1fd408d542d7a02c5d1bfe96ac7b9da4f4165784fb7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9086,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9896
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

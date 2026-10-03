@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, абзац 3",
+      "severity": "minor",
+      "source_quote": "I’m sure the children would enjoy a vacation as well.",
+      "suggested_fix": "Заменить «Уверена, дети тоже будут рады небольшой поездке» на «Уверена, детям тоже понравятся каникулы» (или «дети тоже будут рады отпуску»), чтобы сохранить смысл vacation.",
+      "translation_quote": "Уверена, дети тоже будут рады небольшой поездке"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -65,46 +64,54 @@
         },
         "total_tokens": 12281
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 372,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7642,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7639,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8014
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraphe sur les communautés et les difficultés relationnelles",
+      "location": "HTML, paragraphe commençant « Un sujet précis… »",
       "severity": "major",
-      "source_quote": "“within the plain communities”",
-      "suggested_fix": "Remplacer « communautés mennonites conservatrices » par « communautés anabaptistes conservatrices » si cela rend le sens voulu ici, ou plus directement « communautés plain » en expliquant le terme uniquement si le contexte source l’autorise. Le texte source ne précise pas qu’il s’agit de communautés mennonites.",
-      "translation_quote": "« au sein des communautés mennonites conservatrices »"
+      "source_quote": "“plain communities”",
+      "suggested_fix": "Remplacer « communautés plain » par « communautés anabaptistes traditionnelles » ou par une autre formulation française qui identifie clairement les communautés auxquelles renvoie « plain communities ».",
+      "translation_quote": "« au sein des communautés plain »"
     },
     {
-      "location": "Paragraphe sur le PIB mondial",
+      "location": "HTML, dernier paragraphe avant la citation finale",
       "severity": "major",
-      "source_quote": "“the median global GDP dropped by 3.9% from 2019 to 2020, making it the worst economic downturn since the Great Depression, creating a global recession that is the deepest since the end of World War 2.”",
-      "suggested_fix": "Réviser pour préserver les affirmations imprimées sans les inverser : « … le PIB mondial médian a baissé de 3,9 % entre 2019 et 2020, ce qui en fait le pire ralentissement économique depuis la Grande Dépression et crée une récession mondiale, la plus profonde depuis la fin de la Seconde Guerre mondiale. »",
-      "translation_quote": "« …le PIB mondial médian a baissé de 3,9 % entre 2019 et 2020, ce qui en fait la pire récession économique depuis la Grande Dépression et a provoqué une récession mondiale dont l’ampleur est la plus importante depuis la fin de la Seconde Guerre mondiale. »"
+      "source_quote": "“If you wish to receive one or more of these CD sets”",
+      "suggested_fix": "Remplacer « de ces coffrets de CD » par « de ces coffrets de CD » uniquement si le contexte désigne bien les ensembles de CD; mieux, clarifier en français : « Si vous souhaitez recevoir un ou plusieurs de ces ensembles de CD… »",
+      "translation_quote": "« Si vous souhaitez recevoir un ou plusieurs de ces coffrets de CD »"
     },
     {
-      "location": "Paragraphe sur les chariots, les chevaux et le Psaume 20",
+      "location": "HTML, paragraphe commençant « What about all the what if’s…? »",
       "severity": "major",
-      "source_quote": "“But if …we will remember the name of the LORD our God –Psalm 20:7b”",
-      "suggested_fix": "Traduire « remember the name » par « nous nous souviendrons du nom » ou un équivalent fidèle, sans le remplacer par l’idée d’invoquer le nom.",
-      "translation_quote": "« Mais si… nous invoquons le nom de l’Éternel, notre Dieu –Psaume 20:7b »"
-    },
-    {
-      "location": "Paragraphe sur les peurs liées au conflit Russie-Ukraine",
-      "severity": "major",
-      "source_quote": "“when some new ‘scary’ development surfaces in this current Russia/Ukraine conflict and the many issues connected to it”",
-      "suggested_fix": "Remplacer « événement » par une formulation qui restitue l’idée d’un développement ou d’une évolution nouvelle et inquiétante, par exemple « lorsqu’une nouvelle évolution “effrayante” survient dans le conflit actuel entre la Russie et l’Ukraine et dans les nombreuses questions qui s’y rattachent ».",
-      "translation_quote": "« chaque fois qu’un nouvel événement “effrayant” survient dans le conflit actuel entre la Russie et l’Ukraine, ainsi que dans les nombreuses questions qui s’y rattachent »"
-    },
-    {
-      "location": "Paragraphe sur le témoignage du mécanicien",
-      "severity": "major",
-      "source_quote": "“the various ways that God has led and folks have been pointed to a Living God and a life after death.”",
-      "suggested_fix": "Rendre explicite que Dieu a conduit le mécanicien et que des personnes ont été orientées vers Dieu et vers la vie après la mort, sans attribuer explicitement à Dieu le fait de les avoir conduites : « Il m’a aussi raconté de quelles différentes façons Dieu l’a guidé et comment des personnes ont été orientées vers un Dieu vivant et vers la vie après la mort. »",
-      "translation_quote": "« Il m’a aussi raconté de quelles différentes façons Dieu l’a guidé et comment des personnes ont été conduites vers un Dieu vivant et vers la vie après la mort. »"
+      "source_quote": "“when countries and individuals …trust in chariots, and some in horses: Psalm 20:7a, then their outcome will be that They are brought down and [are] fallen… –Psalm 20:8a.”",
+      "suggested_fix": "Traduire fidèlement le fragment de Psaume 20:8a, sans en changer le sujet ni la voix : par exemple, « eux, ils plient et tombent… » (en conservant les références et leur placement).",
+      "translation_quote": "« leur sort sera Ils plient et tombent… –Psaume 20:8a »"
     }
   ],
+  "finished_at": "2026-10-03T00:23:57+00:00",
   "id": "70ee4a875031df7b6f2f104eff487aca",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "fra",
@@ -199,7 +206,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

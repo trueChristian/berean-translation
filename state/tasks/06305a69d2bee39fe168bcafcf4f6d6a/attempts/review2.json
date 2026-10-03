@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “One specific thing that I wish to focus on”\",\"severity\":\"major\",\"source_quote\":\"within the plain communities\",\"suggested_fix\":\"Sostituire «nelle comunità anabattiste tradizionali» con «nelle comunità che seguono uno stile di vita semplice», evitando di attribuire loro una specifica identità religiosa non indicata nel testo fonte.\",\"translation_quote\":\"nelle comunità anabattiste tradizionali\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 495,
+    "content_evidence_truncated": false,
+    "content_sha256": "a7b3b81d89c24048165ffecfaecba4fab2d823be04db0f93098e6421427548d9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 665,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 535,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7740,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8408
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

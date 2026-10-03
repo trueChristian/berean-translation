@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"कविता, छठा पद, उद्धरण की दूसरी पंक्ति\",\"severity\":\"major\",\"source_quote\":\"“Tarry not, oh my King!”\",\"suggested_fix\":\"“हे प्रभु, मेरे पास आ! देर न कर, हे मेरे राजा!” का आशय मूल के अनुरूप है; लेकिन वर्तमान अनुवाद में “मेरे पास आ” कहा गया है, जबकि स्रोत में “come unto me” है और भाव सुरक्षित है। कोई बदलाव आवश्यक नहीं।\",\"translation_quote\":\"“हे प्रभु, मेरे पास आ! देर न कर, हे मेरे राजा!”\"},{\"location\":\"कविता, दसवाँ पद, उद्धरण की दूसरी पंक्ति\",\"severity\":\"major\",\"source_quote\":\"“Not for a second could I leave your side.”\",\"suggested_fix\":\"“एक पल के लिए भी मैं तेरा साथ नहीं छोड़ सकता था।” को “एक पल के लिए भी मैं तेरा साथ नहीं छोड़ूँगा।” करें। मूल में भविष्य/निरंतर आश्वासन है कि वक्ता साथ नहीं छोड़ेगा; अनुवाद का “नहीं छोड़ सकता था” भूतकाल और असमर्थता का अर्थ देता है।\",\"translation_quote\":\"“एक पल के लिए भी मैं तेरा साथ नहीं छोड़ सकता था।”\"},{\"location\":\"कविता, चौदहवाँ पद, अंतिम पंक्ति\",\"severity\":\"major\",\"source_quote\":\"“For My strength and power are manifest, / When these to My will conform.”\",\"suggested_fix\":\"“क्योंकि मेरी सामर्थ्य और शक्ति प्रकट होती है, / जब ये मेरी इच्छा के अनुरूप होते हैं।” को “क्योंकि मेरी सामर्थ्य और शक्ति प्रकट होती हैं, / जब ये मेरी इच्छा के अनुरूप होते हैं।” करें। स्रोत का आशय सुरक्षित है; केवल हिंदी में संयुक्त कर्ता के अनुसार क्रिया बहुवचन होनी चाहिए।\",\"translation_quote\":\"“क्योंकि मेरी सामर्थ्य और शक्ति प्रकट होती है, / जब ये मेरी इच्छा के अनुरूप होते हैं।”\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 2999,
+    "content_evidence_truncated": false,
+    "content_sha256": "5f1370d902841e5cb58d9a0a36d6a3047891272acd6eada04b74964c545cd971",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 441,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3090,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3534
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

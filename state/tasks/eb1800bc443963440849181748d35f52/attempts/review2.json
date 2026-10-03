@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “En särskild sak som jag vill fokusera på”\",\"severity\":\"major\",\"source_quote\":\"this growing problem of broken relationships and emotional/mental struggles within the plain communities\",\"suggested_fix\":\"Ändra ”i de enkla församlingarna” till en formulering som anger de särskilda plain-/traditionella anabaptistiska gemenskaperna, till exempel ”i de traditionella anabaptistiska gemenskaperna” (om det stämmer med publikationens terminologi).\",\"translation_quote\":\"det växande problemet med trasiga relationer och känslomässiga och psykiska svårigheter i de enkla församlingarna\"},{\"location\":\"Sista bibelcitatet, Judasbrevet 1:24–25\",\"severity\":\"major\",\"source_quote\":\"To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.\",\"suggested_fix\":\"Översätt den tryckta formuleringen utan tillägget om Jesus Kristus och utan ”före all tid”. Exempel: ”den ende vise Guden, vår Frälsare, tillhör härlighet och majestät, välde och makt, nu och i all evighet. Amen.”\",\"translation_quote\":\"honom, den ende vise Guden, vår Frälsare, genom Jesus Kristus, vår Herre, tillhör härlighet, majestät, välde och makt, före all tid, nu och i all evighet. Amen.\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 1310,
+    "content_evidence_truncated": false,
+    "content_sha256": "fbebee5d0139fa27a3547726ba092b4bd2c58e504e7729bdcd299aabe6a3dd50",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 962,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 605,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7778,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7775,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8740
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

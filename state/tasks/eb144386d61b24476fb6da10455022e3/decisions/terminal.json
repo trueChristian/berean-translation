@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “One specific thing…”",
+      "severity": "major",
+      "source_quote": "“within the plain communities”",
+      "suggested_fix": "Replace “konserwatiewe Anabaptistiese gemeenskappe” with “plain-gemeenskappe” (or another established Afrikaans equivalent that does not identify them specifically as Anabaptist).",
+      "translation_quote": "“binne die konserwatiewe Anabaptistiese gemeenskappe”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Too many times…”",
+      "severity": "major",
+      "source_quote": "“since it is their lot in life and we are too busy to be bothered”",
+      "suggested_fix": "Revise to preserve the source’s point that the church treats their struggle as simply their lot in life, while the church is too busy to be bothered; for example: “omdat hulle swaarkry as maar hul lot in die lewe beskou word en ons te besig is om ons daaraan te steur.”",
+      "translation_quote": "“omdat hulle glo dit is maar hoe die lewe vir hulle is en ons te besig is om ons daarmee te bemoei”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Too many times…”",
+      "severity": "major",
+      "source_quote": "“leave sleeping dogs lie” or that it would be best to not “open that can of worms”",
+      "suggested_fix": "Use the idiomatic Afrikaans equivalent for not raising a troublesome issue, such as “laat slapende honde lê” and “maak nie daardie blikkie wurms oop nie.”",
+      "translation_quote": "“slapende honde te laat lê” or … “die wurmpies uit die blikkie te laat kom”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

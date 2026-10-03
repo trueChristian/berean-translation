@@ -2,7 +2,6 @@
   "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,46 +64,39 @@
         },
         "total_tokens": 14502
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 862,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 672,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8893,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8890,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9755
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html, абзац с цитатой вдовы о помощи",
-      "severity": "major",
-      "source_quote": "“We’d like to come and bring a meal if you’re up to it?”",
-      "suggested_fix": "Заменить только реплику на: «Мы хотели бы зайти и принести вам еды, если вы будете в состоянии принять нас» — сохранив окружающие HTML-теги.",
-      "translation_quote": "«Мы хотели бы прийти и принести вам еды, если вы не против»"
-    },
-    {
-      "location": "html, абзац «Наконец, нам следует помнить…»",
-      "severity": "major",
-      "source_quote": "“Sometimes there are those among us whose life is racked by a grief worse than that of an actual death. Perhaps there was betrayal, abandonment, incarceration, or suicide in their life’s journey.”",
-      "suggested_fix": "Исправить фрагмент на: «Иногда среди нас есть те, чья жизнь терзаема горем, которое тяжелее, чем горе от настоящей смерти. Возможно, на их жизненном пути были предательство, оставление, заключение в тюрьму или самоубийство»; сохранить структуру абзаца.",
-      "translation_quote": "«Иногда среди нас есть те, чья жизнь изранена горем, более тяжелым, чем смерть близкого. Возможно, на их жизненном пути случились предательство, оставление, заключение в тюрьму или самоубийство»"
-    },
-    {
-      "location": "html, цитата из Матфея 9:2–8",
-      "severity": "major",
-      "source_quote": "“And Jesus knowing their thoughts said, Wherefore think ye evil in your hearts?”",
-      "suggested_fix": "Исправить соответствующую часть цитаты на: «Иисус же, зная помышления их, сказал: для чего вы мыслите худое в сердцах ваших?»; сохранить ссылку Матфея 9:2-8 и структуру HTML.",
-      "translation_quote": "«Иисус же, видя помышления их, сказал: для чего вы мыслите худое в сердцах ваших?»"
-    },
-    {
-      "location": "html, заключительный абзац цитаты вдовы",
-      "severity": "major",
-      "source_quote": "“Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.”",
-      "suggested_fix": "Заменить только эту фразу на: «Смотрите, как они исцеляются, берут на себя бремя скорби и затем продолжают путь к своему небесному дому»; сохранить HTML-разметку.",
-      "translation_quote": "«Смотрите, как он исцеляется, берет на плечи бремя скорби и затем продолжает путь к своему небесному дому»"
-    },
-    {
-      "location": "title",
+      "location": "Заключительная цитата из Матфея 9:2–8, абзац в blockquote",
       "severity": "minor",
-      "source_quote": "To Walk With Her Through Grief",
-      "suggested_fix": "Более точно передать значение «идти рядом с ней сквозь горе»: «Идти с ней через горе».",
-      "translation_quote": "Идти рядом с ней в горе"
+      "source_quote": "And, behold, they brought to him a man sick of the palsy, lying on a bed: and Jesus seeing their faith said unto the sick of the palsy",
+      "suggested_fix": "Заменить фрагмент на грамматически корректный русский: «И вот, принесли к Нему расслабленного, лежащего на постели. Иисус, видя веру их, сказал расслабленному…»",
+      "translation_quote": "И вот, принесли к Нему расслабленного, положенного на постели. И, видя Иисус веру их, сказал расслабленному"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "e2495b2825db6659e57a273b52b38442",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "rus",
@@ -193,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b81ed107719e1b3d59a5926df9439e3f25c21b973c7d37fb85d82f877dc026.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
   "translation_model_actual": "gpt-6-luna"

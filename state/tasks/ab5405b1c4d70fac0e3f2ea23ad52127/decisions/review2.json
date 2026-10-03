@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «ظن أليآب أن موقف داود يدل على الكبرياء»",
+      "severity": "major",
+      "source_quote": "A ruddy youth walks up from tending sheep",
+      "suggested_fix": "استبدل «فتى أشقر يافع» بـ«فتى محمرّ الوجه»؛ فـ«ruddy» تصف احمرار الوجه أو البشرة، لا شُقرة الشعر.",
+      "translation_quote": "فتى أشقر يافع يأتي من رعاية الغنم"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

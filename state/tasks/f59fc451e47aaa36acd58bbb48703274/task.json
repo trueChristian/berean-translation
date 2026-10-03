@@ -2,7 +2,6 @@
   "article_id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 5217
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Poem, stanza beginning “My child, fear not”",
-      "severity": "major",
-      "source_quote": "Though the path is obscure, and there is much to endure,",
-      "suggested_fix": "Αν και το μονοπάτι είναι ασαφές και υπάρχουν πολλά που πρέπει να υπομείνεις,",
-      "translation_quote": "Αν και το μονοπάτι είναι ασαφές και έχεις πολλά να υπομείνεις,"
     },
     {
-      "location": "Poem, stanza beginning “This promise can also open to you”",
-      "severity": "major",
-      "source_quote": "For My strength and power are manifest, / When these to My will conform.",
-      "suggested_fix": "Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτά συμμορφώνονται με το θέλημά Μου.",
-      "translation_quote": "Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτά συμμορφώνονται με το θέλημά Μου"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 675,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 493,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3321,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3318,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3996
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, final quoted stanza about the storm’s secrets",
+      "severity": "major",
+      "source_quote": "For My strength and power are manifest, / When these to My will conform.",
+      "suggested_fix": "Replace the last two lines of this stanza with «Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτά υποτάσσονται στο θέλημά Μου». Using the neuter plural «αυτά» refers to «τα μυστικά» rather than making God’s strength and power the things that conform to His will.",
+      "translation_quote": "Γιατί η δύναμη και η ισχύς Μου φανερώνονται / Όταν αυτές συμμορφώνονται με το θέλημά Μου"
+    }
+  ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "f59fc451e47aaa36acd58bbb48703274",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ell",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7ea24e17-d24b-4ea3-a815-0751109ed397",
+    "response_id": "chatcmpl-EUepYBENMghP81fMz2FiKOMkFxmJR",
+    "usage": {
+      "completion_tokens": 1060,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 659,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8122,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9185
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “The cowering beliefs…”",
+        "severity": "major",
+        "source_quote": "“faithless fear”",
+        "suggested_fix": "Replace “بے ایمانی کا خوف” with “ایمان سے خالی خوف” to convey fear rooted in lack of faith, not dishonesty.",
+        "translation_quote": "“بے ایمانی کا خوف”"
+      },
+      {
+        "location": "HTML paragraph beginning “Goliath had automatically assumed…”",
+        "severity": "major",
+        "source_quote": "“…could sling stones at an hair breadth, and not miss…”",
+        "suggested_fix": "Replace “بال کی نوک پر پتھر مار سکتا تھا” with wording that conveys striking a target within a hair’s breadth without missing, such as “بال جتنے باریک نشانے پر پتھر مار سکتا تھا اور چوک نہیں سکتا تھا”.",
+        "translation_quote": "“…بال کی نوک پر پتھر مار سکتا تھا اور چوک نہیں سکتا تھا…”"
+      },
+      {
+        "location": "HTML paragraph beginning “Faithful Action is inevitable…”",
+        "severity": "major",
+        "source_quote": "“when our bodies are subject to our soul and spirit, and they are under the direction of God’s Spirit”",
+        "suggested_fix": "Preserve the distinction between soul and spirit; replace “ہماری روح اور باطن کے تابع ہوں” with “ہماری جان اور روح کے تابع ہوں” (or another clear Urdu rendering of “soul and spirit”).",
+        "translation_quote": "“جب ہمارے جسم ہماری روح اور باطن کے تابع ہوں”"
+      },
+      {
+        "location": "HTML paragraph beginning “Some believe that being proactive…”",
+        "severity": "minor",
+        "source_quote": "“the sons of Sceva”",
+        "suggested_fix": "Correct the name to the conventional Urdu form for Sceva, for example “سکیوا کے بیٹے”.",
+        "translation_quote": "“سکّوہ کے بیٹوں”"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

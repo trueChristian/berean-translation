@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,39 +64,61 @@
         },
         "total_tokens": 3040
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 513,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1760,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1757,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2273
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, стихотворение, строки 13–14",
+      "location": "HTML, стихотворение, строки 3–6",
       "severity": "major",
-      "source_quote": "Treasures are worthy, of that we agree. But lay them in heaven where forever they’ll be.",
-      "suggested_fix": "Заменить две строки на: «Сокровища ценны — с этим мы согласны. / Но собирайте их на небесах, где они пребудут вечно.»",
-      "translation_quote": "Сокровища ценны — с этим мы согласны. Но собирай их на небесах, где они пребудут вечно."
+      "source_quote": "There’s a place up there, no toil or strife. However, the church, can forget of that life, If the presence of God, shines as the sun, The singing so sweet, includes everyone.",
+      "suggested_fix": "Там, наверху, есть место, где нет ни труда, ни раздоров. Однако церковь может забыть об этой жизни, где присутствие Бога сияет, как солнце, а сладостное пение доступно каждому.",
+      "translation_quote": "Там, наверху, нет ни труда, ни раздоров. И всё же церковь может забыть о той жизни, Где присутствие Бога сияет, как солнце, А сладостное пение объединяет всех."
     },
     {
-      "location": "HTML, стихотворение, строки 17–18",
-      "severity": "major",
-      "source_quote": "Or love our life, which the Bible is clear / We’d lose our chance, at heaven so dear.",
-      "suggested_fix": "Заменить две строки на: «Или полюбить свою жизнь — а Библия ясно говорит: / Мы потеряли бы шанс попасть в столь дорогие нам небеса.»",
-      "translation_quote": "Или же полюбили бы свою жизнь, хотя Библия ясно говорит: Мы упустили бы свой шанс попасть в дорогие нам небеса."
+      "location": "HTML, стихотворение, строка 8",
+      "severity": "minor",
+      "source_quote": "Why so much focus on a life that won’t last?",
+      "suggested_fix": "Почему так много внимания уделяется жизни, которая не продлится вечно?",
+      "translation_quote": "Почему так много внимания жизни, что не продлится?"
     },
     {
-      "location": "HTML, стихотворение, строки 21–22",
+      "location": "HTML, стихотворение, строки 15–18",
       "severity": "major",
-      "source_quote": "If heaven awaits, and we know there we’d go, / Then why do we fear when death gives its blow?",
-      "suggested_fix": "Заменить две строки на: «Если нас ждут небеса и мы знаем, что отправимся туда, / Почему же мы боимся удара смерти?»",
-      "translation_quote": "Если нас ждут небеса и мы знаем, что попадём туда, Почему же мы боимся, когда смерть наносит удар?"
+      "source_quote": "Would we lose our life, for the good Lord’s sake? Then eternity we’d gain, and heaven partake. Or love our life, which the Bible is clear We’d lose our chance, at heaven so dear.",
+      "suggested_fix": "Отдали бы мы свою жизнь ради благого Господа? Тогда обрели бы вечность и стали причастны небесам. Или полюбили бы свою жизнь — а Библия ясно говорит: мы потеряли бы шанс попасть в столь дорогие нам небеса.",
+      "translation_quote": "Отдали бы мы свою жизнь ради благого Господа? Тогда мы обрели бы вечность и разделили участь небес. Или полюбить свою жизнь — а Библия ясно говорит: Мы потеряли бы шанс попасть в столь дорогие нам небеса."
     },
     {
       "location": "HTML, стихотворение, строка 25",
-      "severity": "major",
+      "severity": "minor",
       "source_quote": "Our life’s but a vapor, the Good Book conveys.",
-      "suggested_fix": "Заменить строку на: «Наша жизнь — лишь пар, как говорит Священное Писание.»",
-      "translation_quote": "Наша жизнь — лишь пар, как сказано в Благой Книге."
+      "suggested_fix": "Наша жизнь — лишь пар, как говорит Священная книга.",
+      "translation_quote": "Наша жизнь — лишь пар, как говорит Священное Писание."
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "a192fee7beb1dccfc3a6997e3ac9977a",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "rus",
@@ -192,7 +213,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"

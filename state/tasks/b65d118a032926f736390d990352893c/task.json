@@ -2,7 +2,6 @@
   "article_id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,67 +64,110 @@
         },
         "total_tokens": 12683
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1569,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7623,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7620,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9192
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article body, paragraph beginning “The greatest and superior endowment…”",
+      "location": "Source HTML, paragraph beginning “The sports arena…”",
+      "severity": "major",
+      "source_quote": "“The individuals are praised who can run, throw, or shoot better than everyone else. But sporting talent adds little to their honest pure worth as a human.”",
+      "suggested_fix": "Replace «Men idrettstalent bidrar lite til deres ekte, grunnleggende verdi som mennesker.» with «Men idrettstalent tilfører lite til deres egentlige, uforfalskede verdi som mennesker.»",
+      "translation_quote": "«Men idrettstalent bidrar lite til deres ekte, grunnleggende verdi som mennesker.»"
+    },
+    {
+      "location": "Source HTML, paragraph beginning “The greatest and superior endowment…”",
       "severity": "major",
       "source_quote": "“Those of us who live in natural accordance with our instincts and conditioning, will scarcely rise above the animal kingdom.”",
-      "suggested_fix": "Replace «De av oss som lever i naturlig samsvar med instinktene og betingingen vår, vil knapt heve oss over dyreriket.» with «De av oss som lever i naturlig samsvar med instinktene våre og den påvirkningen vi er blitt formet av, vil knapt heve oss over dyreriket.»",
-      "translation_quote": "«De av oss som lever i naturlig samsvar med instinktene og betingingen vår, vil knapt heve oss over dyreriket.»"
+      "suggested_fix": "Replace «De av oss som lever i naturlig samsvar med instinktene våre og den påvirkningen vi er blitt formet av, vil knapt heve oss over dyreriket.» with «De av oss som lever i naturlig samsvar med instinktene våre og vår betinging, vil knapt heve oss over dyreriket.»",
+      "translation_quote": "«De av oss som lever i naturlig samsvar med instinktene våre og den påvirkningen vi er blitt formet av, vil knapt heve oss over dyreriket.»"
     },
     {
-      "location": "Article body, paragraph beginning “As David arose early…”",
+      "location": "Source HTML, paragraph beginning “The greatest and superior endowment…”",
       "severity": "major",
-      "source_quote": "“The Lord was his Shepherd, and he had no lack”",
-      "suggested_fix": "Replace «Herren var hans hyrde, og han manglet ingenting» with «Herren var hans hyrde, og han led ingen nød» (or another natural Bokmål rendering that preserves the sense of having no lack).",
-      "translation_quote": "«Herren var hans hyrde, og han manglet ingenting»"
+      "source_quote": "“The most intelligent of animals can be trained to be responsible, but they cannot choose or direct that training.”",
+      "suggested_fix": "Replace «De mest intelligente dyrene kan trenes til å være ansvarsfulle, men de kan ikke selv velge eller styre treningen.» with «De mest intelligente dyrene kan trenes til å være ansvarlige, men de kan ikke selv velge eller styre treningen.»",
+      "translation_quote": "«De mest intelligente dyrene kan trenes til å være ansvarsfulle, men de kan ikke selv velge eller styre treningen.»"
     },
     {
-      "location": "Article body, paragraph beginning “A Caring Conscience”",
+      "location": "Source HTML, paragraph beginning “A Caring Conscience”",
       "severity": "major",
-      "source_quote": "“Careless apathy is the opposite and is the result of a seared conscience.”",
-      "suggested_fix": "Replace «Likegyldig sløvhet er det motsatte og skyldes en brennemerket samvittighet.» with «Tankeløs likegyldighet er det motsatte og er et resultat av en avstumpet samvittighet.»",
-      "translation_quote": "«Likegyldig sløvhet er det motsatte og skyldes en brennemerket samvittighet.»"
+      "source_quote": "“Edison’s pursuit of a successful light bulb caused him to forget the thousands of elements that had failed.”",
+      "suggested_fix": "Replace «Edisons jakt på en fungerende lyspære fikk ham til å glemme de tusenvis av materialene som hadde slått feil.» with «Edisons jakt på en fungerende lyspære fikk ham til å glemme de tusenvis av forsøkene som hadde mislyktes.»",
+      "translation_quote": "«Edisons jakt på en fungerende lyspære fikk ham til å glemme de tusenvis av materialene som hadde slått feil.»"
     },
     {
-      "location": "Article body, paragraph beginning “A Caring Conscience,” quotation attributed to Nietzke",
+      "location": "Source HTML, paragraph beginning “As Saul reluctantly consents…”",
       "severity": "major",
-      "source_quote": "“Give a man a reason to live and he will supply the how –Nietzke.”",
-      "suggested_fix": "Replace «Gi et menneske en grunn til å leve, så finner det ut hvordan –Nietzke.» with «Gi et menneske en grunn til å leve, så vil det finne ut hvordan –Nietzke.»",
-      "translation_quote": "«Gi et menneske en grunn til å leve, så finner det ut hvordan –Nietzke.»"
+      "source_quote": "“While it may have been an honor to wear the armor of the king, David would have none of it: …I cannot go with these; for I have not proved them. And David put them off him –1 Samuel 17:39,”",
+      "suggested_fix": "Correct the quoted wording to preserve that David had not tested the armor: «… Jeg kan ikke gå med dette, for jeg har ikke prøvd det. Så tok David det av seg –1. Samuelsbok 17:39,»",
+      "translation_quote": "«… Jeg kan ikke gå med dette, for jeg har ikke prøvd det. Så tok David det av seg –1. Samuelsbok 17:39,»"
     },
     {
-      "location": "Article body, paragraph beginning “An Honest Imagination,” quotation attributed to Unknown",
-      "severity": "major",
-      "source_quote": "“Necessity is the mother of invention –Unknown.”",
-      "suggested_fix": "Translate the quoted saying as «Nødvendigheten er oppfinnelsenes mor –Ukjent.» rather than substituting a different Norwegian proverb.",
-      "translation_quote": "«Nød lærer naken kvinne å spinne –Ukjent.»"
+      "location": "Source HTML, paragraph beginning “Goliath had automatically assumed…”",
+      "severity": "critical",
+      "source_quote": "“at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
+      "suggested_fix": "Replace «en stopeffekt som et 45 mm håndvåpen» with «en stansevirkning som et 45 mm håndvåpen»; the source specifies stopping power, not a stopping effect in the sense of stopping an object’s effect.",
+      "translation_quote": "«en stopeffekt som et 45 mm håndvåpen»"
     },
     {
-      "location": "Article body, paragraph beginning “Goliath had automatically assumed…”",
+      "location": "Source HTML, paragraph beginning “Goliath had automatically assumed…”",
       "severity": "major",
-      "source_quote": "“According to some estimates, at six or seven revolutions per second, David’s sling had the stopping power of a 45 mm handgun”",
-      "suggested_fix": "Correct «45 mm pistol» to «45 mm håndvåpen» or «pistol med 45 mm kaliber», preserving the source’s stated figure without attempting to correct it.",
-      "translation_quote": "«… en stopeffekt som en 45 mm pistol»"
+      "source_quote": "“the hand of a skillful slinger …could sling stones at an hair breadth, and not miss –Judges 20:16.”",
+      "suggested_fix": "Replace «… kunne slynge stein på et hårs bredde og ikke bomme» with «… kunne slynge steiner innenfor en hårsbredd og ikke bomme» to convey the passage’s precision claim idiomatically and accurately.",
+      "translation_quote": "«… kunne slynge stein på et hårs bredde og ikke bomme»"
     },
     {
-      "location": "Article body, poem",
+      "location": "Source HTML, paragraph beginning “Faithful Action”",
       "severity": "major",
-      "source_quote": "“Shamgar had an oxgoad;”",
-      "suggested_fix": "Replace «Shamgar hadde en oksepik;» with «Shamgar hadde en oksedrivers stav;» or another accurate Bokmål term for an oxgoad.",
-      "translation_quote": "«Shamgar hadde en oksepik;»"
+      "source_quote": "“The desire to dominate is no more noble than Goliath’s unbridled rage to destroy this young upstart.”",
+      "suggested_fix": "Replace «Goliats hemningsløse raseri etter å ødelegge denne unge oppkomlingen» with «Goliats hemningsløse raseri over å ville ødelegge denne unge oppkomlingen.»",
+      "translation_quote": "«Goliats hemningsløse raseri etter å ødelegge denne unge oppkomlingen.»"
     },
     {
-      "location": "Article body, final paragraph before the poem",
+      "location": "Source HTML, paragraph beginning “But David carried no such reactive mission.”",
       "severity": "major",
-      "source_quote": "“from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.”",
-      "suggested_fix": "Clarify the mistranslated images while preserving the source’s wording and structure: replace «fra Dorkas’ nål … til Jaels teltplugg, fra Sebedeus’ forretningsbåter … til guttene ved hans bryst» with «fra Dorkas’ nål … til Jaels teltplugg, fra Sebedeus’ båter brukt i virksomheten … til sønnene som lå ham nær».",
-      "translation_quote": "«fra Dorkas’ nål … til Jaels teltplugg, fra Sebedeus’ forretningsbåter … til guttene ved hans bryst.»"
+      "source_quote": "“Joseph could not change his brothers’ reception, his master’s wife’s deception, the jail’s seclusion, or the butler’s delusion.”",
+      "suggested_fix": "Replace «brødrenes mottakelse» with «brødrenes behandling av ham», and «munnskjenkens vrangforestillinger» with «munnskjenkens bedrag» so the translated list retains the source’s references to how Joseph was received and the butler’s failure to remember him.",
+      "translation_quote": "«Josef kunne ikke forandre brødrenes mottakelse, bedraget fra sin herres kone, isolasjonen i fengselet eller munnskjenkens vrangforestillinger.»"
+    },
+    {
+      "location": "Source HTML, paragraph beginning “Why would Japanese Kamikaze pilots…”",
+      "severity": "major",
+      "source_quote": "“God slays giants by the instruments we yield to him, from the needle of Dorcas… to the nail of Jael, from Zebedee’s boats of the business… to the boys of his bosom.”",
+      "suggested_fix": "Replace «fra Sebedeus’ båter brukt i virksomheten … til sønnene som lå ham nær» with «fra Sebedeus’ båter i arbeidet … til sønnene hans som var ham nær».",
+      "translation_quote": "«fra Sebedeus’ båter brukt i virksomheten … til sønnene som lå ham nær.»"
+    },
+    {
+      "location": "Poem, lines for Shamgar and Moses",
+      "severity": "minor",
+      "source_quote": "“Shamgar had an oxgoad; … Moses had a rod;”",
+      "suggested_fix": "Use distinct Norwegian terms matching the two implements: «Shamgar hadde en oksedriversstav;» and «Moses hadde en stav;».",
+      "translation_quote": "«Shamgar hadde en oksedrivers stav;» / «Moses hadde en stav;»"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "b65d118a032926f736390d990352893c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nob",
@@ -214,13 +256,13 @@
     }
   },
   "protected": false,
-  "quality_score": 76,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html, final song stanza (p.poem)\",\"severity\":\"major\",\"source_quote\":\"“Master, the terror is over, the elements sweetly rest;\",\"suggested_fix\":\"Lägg till den utelämnade inledande raden i samma p.poem, före den befintliga första raden: ”Mästare, faran är över, elementen vilar ljuvligt stilla;\",\"translation_quote\":\"”Mästare, elementen vilar ljuvligt stilla;\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 452,
+    "content_evidence_truncated": false,
+    "content_sha256": "4f9e68b27433f20537232adfd603b7869f697c9fbe985f9a6e51ce6355d02792",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 776,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 633,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9001,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8998,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9777
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

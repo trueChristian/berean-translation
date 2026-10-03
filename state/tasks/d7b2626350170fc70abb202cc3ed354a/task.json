@@ -2,7 +2,6 @@
   "article_id": "719ef93a-7242-445f-8e5b-201567145e20",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 12579
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 483,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 353,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7873,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7870,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8356
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "पाँचवाँ अनुच्छेद",
+      "location": "God is Glorified in Our Suffering — quoted Scripture, 2 Corinthians 4:17-18",
       "severity": "major",
-      "source_quote": "“self ”-administer, thereby killing themselves",
-      "suggested_fix": "वाक्यांश को इस तरह अनुवाद करें कि दवा दूसरे व्यक्ति को दी जाती है और वह उसे स्वयं अपने ऊपर प्रयोग करता है, जिससे उसकी मृत्यु होती है। उदाहरण: “जबकि सहायता-प्राप्त आत्महत्या में एक व्यक्ति दूसरे को दवा देता है, जिसे वह फिर स्वयं लेता है और इस तरह अपनी जान लेता है।”",
-      "translation_quote": "“जिसे वह फिर स्वयं “लेता” है और इस तरह अपनी जान लेता है।"
-    },
-    {
-      "location": "“परमेश्वर के स्वरूप में रचे गए” शीर्षक के बाद, आदम और हव्वा पर अनुच्छेद",
-      "severity": "major",
-      "source_quote": "God put the life into Adam and Eve during Creation.",
-      "suggested_fix": "यहाँ “जीवन का श्वास” नहीं, जीवन देने की बात है। इसे इस अर्थ में संशोधित करें: “सृष्टि के समय परमेश्वर ने आदम और हव्वा में जीवन डाला।”",
-      "translation_quote": "सृष्टि के समय परमेश्वर ने आदम और हव्वा में जीवन का श्वास फूँका।"
-    },
-    {
-      "location": "“परमेश्वर की सामर्थ्य पर भरोसा रखें” शीर्षक के बाद, पौलुस के कष्टों पर अनुच्छेद",
-      "severity": "major",
-      "source_quote": "He experienced stonings, beatings, and shipwreck.",
-      "suggested_fix": "“जहाज़ टूट गया” को जहाज़-डूबने/जहाज़-टूटने की घटना के रूप में पौलुस के अनुभव से जोड़ें। उदाहरण: “उसने पत्थरवाह किए जाने, मार खाने और जहाज़ टूटने का अनुभव किया।”",
-      "translation_quote": "उसे पत्थरवाह किया गया, पीटा गया और उसका जहाज़ टूट गया।"
+      "source_quote": "“worketh for us a far more exceeding and eternal weight of glory”",
+      "suggested_fix": "इस अंश को इस तरह सुधारें: “हमारे लिए कहीं अधिक बढ़कर अनन्त महिमा का भार उत्पन्न करता है।”",
+      "translation_quote": "“हमारे लिए बहुत ही महत्वपूर्ण और अनन्त महिमा उत्पन्न करता जाता है”"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "d7b2626350170fc70abb202cc3ed354a",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "hin",
@@ -185,7 +192,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"

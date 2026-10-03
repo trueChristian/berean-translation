@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html, citazione di Giobbe 40:11\",\"severity\":\"major\",\"source_quote\":\"…behold every one that is proud, and abase [put down or make low] him\",\"suggested_fix\":\"Sostituire con «…guarda ogni superbo e lo umilia [lo abbassa o lo rende umile]» (oppure «lo abbassa» senza l’equivalenza «lo rende umile»), conservando il riferimento «Giobbe 40:11».\",\"translation_quote\":\"…guarda ogni superbo e lo umilia [lo abbassa o lo rende umile]\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 521,
+    "content_evidence_truncated": false,
+    "content_sha256": "35d63cd3946da9f8769225939a007be1209300e353042828b815b5e0ff50bd38",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 157,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8382,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8542
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

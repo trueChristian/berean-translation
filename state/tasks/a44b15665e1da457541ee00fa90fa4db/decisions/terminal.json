@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «جليات بالغ كثيرًا في تقدير قدرته الشخصية»",
+      "severity": "minor",
+      "source_quote": "It was not unusual for them to be able to hit birds in flight.",
+      "suggested_fix": "Change «ولم يكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم» to «ولم تكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم».",
+      "translation_quote": "ولم يكن إصابة الطيور وهي طائرة أمرًا غير مألوف لهم."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

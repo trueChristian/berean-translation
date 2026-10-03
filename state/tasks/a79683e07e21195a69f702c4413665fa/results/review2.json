@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bb446278-7ddf-41c0-bd93-a3f25534741f",
+    "response_id": "chatcmpl-EUeqcpGAoWxaGZtQCSe8MkfqTvkgW",
+    "usage": {
+      "completion_tokens": 905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 620,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7666,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8574
+    }
+  },
+  "received_at": "2026-10-03T00:23:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, kutipan Mazmur 20:7a",
+        "severity": "major",
+        "source_quote": "…trust in chariots, and some in horses: Psalm 20:7a,",
+        "suggested_fix": "Ganti dengan: «…percaya kepada kereta, dan sebagian kepada kuda: Mazmur 20:7a,»",
+        "translation_quote": "…percaya kepada kereta dan kuda: Mazmur 20:7a,"
+      },
+      {
+        "location": "HTML, kutipan Matius 16:26",
+        "severity": "major",
+        "source_quote": "For what is a man profited, if he shall gain the whole world, and lose his own soul? or what shall a man give in exchange for his soul?",
+        "suggested_fix": "Pertahankan «nyawa» untuk bagian sebelumnya di ayat 25, tetapi gunakan «jiwa» di sini agar pembedaan yang tercetak dalam sumber tetap terjaga. Misalnya: «Apa gunanya seorang memperoleh seluruh dunia tetapi kehilangan jiwanya? Dan apakah yang dapat diberikannya sebagai ganti jiwanya?»",
+        "translation_quote": "Apa gunanya seorang memperoleh seluruh dunia tetapi kehilangan nyawanya? Dan apakah yang dapat diberikannya sebagai ganti nyawanya?"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

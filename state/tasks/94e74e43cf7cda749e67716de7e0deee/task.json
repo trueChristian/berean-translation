@@ -2,7 +2,6 @@
   "article_id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "15687a1119df44beb599f87f2f392da9",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 2682
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 589,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 485,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1811,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2403
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html, poem, line 15",
-      "severity": "major",
-      "source_quote": "Would we lose our life, for the good Lord’s sake?",
-      "suggested_fix": "주님을 위해 우리의 목숨을 잃겠습니까?",
-      "translation_quote": "주님의 선하심을 위해 우리의 목숨을 잃겠습니까?"
-    },
-    {
-      "location": "source.html, poem, line 25",
-      "severity": "major",
-      "source_quote": "Our life’s but a vapor, the Good Book conveys.",
-      "suggested_fix": "성경은 우리 삶이 한낱 안개와 같다고 전합니다.",
-      "translation_quote": "좋은 책은 우리 삶이 한낱 안개와 같다고 전합니다."
+      "location": "source.html, poem, line beginning “Then death is the beginning”",
+      "severity": "minor",
+      "source_quote": "Then death is the beginning, so why is it grim?",
+      "suggested_fix": "죽음은 시작인데, 어찌하여 암울하게 여깁니까?",
+      "translation_quote": "죽음은 시작인데, 어찌하여 슬퍼합니까?"
     }
   ],
+  "finished_at": "2026-10-03T00:23:58+00:00",
   "id": "94e74e43cf7cda749e67716de7e0deee",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "kor",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7c1aa5c090974ecfa7407fd319e02b2e150990289b1fd5c907fb0586db65b30a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698",
   "translation_model_actual": "gpt-6-luna"
