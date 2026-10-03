@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, seção “Guerra”, último período do parágrafo",
+      "severity": "major",
+      "source_quote": "“The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.”",
+      "suggested_fix": "Preserve a frase incompleta do original, sem acrescentar uma conclusão: “A igreja americana chama de heroísmo ou bravura ‘defender a nós mesmos’, nossas famílias e nosso país; a Bíblia chama isso.”",
+      "translation_quote": "“A igreja americana chama de heroísmo ou bravura ‘defender a nós mesmos’, nossas famílias e nosso país; a Bíblia chama isso de.”"
+    },
+    {
+      "location": "HTML, seção “Não conformidade”, primeiro parágrafo",
+      "severity": "major",
+      "source_quote": "“say ‘No’ to evil communication”",
+      "suggested_fix": "Substitua “má comunicação” por “más conversas” ou “comunicação nociva”, preservando a ideia de evitar conversas corruptoras, não apenas comunicação deficiente: “dizer ‘Não’ às más conversas e aos caminhos deste mundo”.",
+      "translation_quote": "“dizer ‘Não’ à má comunicação e aos caminhos deste mundo”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

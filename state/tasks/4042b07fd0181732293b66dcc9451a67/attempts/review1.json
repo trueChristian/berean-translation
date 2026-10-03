@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “But she beat him to the subject”\",\"severity\":\"major\",\"source_quote\":\"“I mean, jumping around like that in front of the maidens, just like a vain fellow from off the streets!”\",\"suggested_fix\":\"Replace “kama mtu mpumbavu wa mitaani” with “kama mtu mwenye majivuno wa mitaani” to preserve the meaning of “vain fellow.”\",\"translation_quote\":\"“Namaanisha, kurukaruka hivyo mbele ya vijakazi, kama mtu mpumbavu wa mitaani!”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 525,
+    "content_evidence_truncated": false,
+    "content_sha256": "5fb02810ae768e96ecae138cbf3850d16fe5c7d4747ae3ae7acc654edada1a36",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 984,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 835,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4954,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5941
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

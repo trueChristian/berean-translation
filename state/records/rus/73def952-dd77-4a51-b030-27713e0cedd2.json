@@ -6,9 +6,32 @@
       "campaign": "gh-37108628649",
       "event": "requested",
       "task": "fc8dd85f5ca5e07e8f8d33d0f31b5d7d"
+    },
+    {
+      "at": "2026-10-03T11:27:20+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "fc8dd85f5ca5e07e8f8d33d0f31b5d7d"
     }
   ],
   "language": "rus",
   "latest_task": "fc8dd85f5ca5e07e8f8d33d0f31b5d7d",
-  "published": null
+  "published": {
+    "html_path": "content/rus/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
+    "html_sha256": "0f45dea9b98d0002a8391bfa5e056f5aefa820d0c43e9bebbbe66ea84b1c34b3",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+    "metadata_path": "content/rus/articles/73def952-dd77-4a51-b030-27713e0cedd2.json",
+    "metadata_sha256": "f2dd25830fdfd15c3a32a142d3bd154fcfc716119301bfeafe07641a16bfe8da",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ru\" dir=\"ltr\" role=\"note\">\n  <p>Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: gpt-6-luna) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу. <a href=\"/en/articles/73def952-dd77-4a51-b030-27713e0cedd2/\" data-source-article-id=\"73def952-dd77-4a51-b030-27713e0cedd2\" hreflang=\"en\">Английский оригинал</a></p>\n</aside>",
+    "published_at": "2026-10-03T11:27:20+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+    "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
+    "task": "fc8dd85f5ca5e07e8f8d33d0f31b5d7d",
+    "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13"
+  }
 }

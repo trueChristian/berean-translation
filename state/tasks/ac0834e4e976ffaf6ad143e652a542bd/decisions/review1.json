@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Jesus is also very clear…”",
+      "severity": "major",
+      "source_quote": "“come out from among them and be separate”",
+      "suggested_fix": "Change «να βγούμε ανάμεσά τους και να ξεχωρίσουμε» to «να βγούμε από ανάμεσά τους και να ξεχωρίσουμε», preserving the meaning of separation.",
+      "translation_quote": "«να βγούμε ανάμεσά τους και να ξεχωρίσουμε»"
+    },
+    {
+      "location": "source.html, quotation from Ephesians 5:10–13",
+      "severity": "major",
+      "source_quote": "“for whatsoever doth make manifest is light”",
+      "suggested_fix": "Translate the active sense, for example: «γιατί καθετί που φανερώνει είναι φως», rather than saying that whatever is revealed is light.",
+      "translation_quote": "«γιατί καθετί που φανερώνεται είναι φως»"
+    },
+    {
+      "location": "source.html, paragraph beginning “While out witnessing…”",
+      "severity": "minor",
+      "source_quote": "“I’m amazed at the backlash”",
+      "suggested_fix": "Correct the spelling to «με εκπλήσσει η αντίδραση».",
+      "translation_quote": "«με εκπλήστει η αντίδραση»"
+    },
+    {
+      "location": "source.html, paragraph beginning “She was a nice young lady.”",
+      "severity": "minor",
+      "source_quote": "“a good citizen and nice person”",
+      "suggested_fix": "Use the feminine adjective: «καλή πολίτισσα και συμπαθητική γυναίκα» (or another idiomatic feminine equivalent).",
+      "translation_quote": "«καλή πολίτισσα και συμπαθητικός άνθρωπος»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

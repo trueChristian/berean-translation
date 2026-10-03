@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Our Unique Personality, paragraph beginning “Those disinterested in mathematics…”\",\"severity\":\"major\",\"source_quote\":\"“without the innate quickening of the Spirit”\",\"suggested_fix\":\"“पवित्र आत्मा की सहज जागृति के बिना”\",\"translation_quote\":\"“आत्मा की सहज जागृति के बिना”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 444,
+    "content_evidence_truncated": false,
+    "content_sha256": "0cfab0bc36639b1fc1ee11d2ba2a1a490f3e647c2ba47ea2bc74a946d6f3c7d7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 973,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 871,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8698,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8695,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9671
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

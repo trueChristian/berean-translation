@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 1, line 2\",\"severity\":\"major\",\"source_quote\":\"Minute degrees observed as nil.\",\"suggested_fix\":\"Klein treetjies, asof hulle niks beteken nie.\",\"translation_quote\":\"Klein treetjies, skaars raakgesien.\"},{\"location\":\"Poem, stanza 2, line 2\",\"severity\":\"major\",\"source_quote\":\"Our courage wanes in blasting chill.\",\"suggested_fix\":\"Ons moed kwyn in ysige koue.\",\"translation_quote\":\"Ons moed kwyn in skroeiende koue.\"},{\"location\":\"Poem, stanza 2, line 3\",\"severity\":\"major\",\"source_quote\":\"We’ve failed the earthly honor roll,\",\"suggested_fix\":\"Ons het nie die aardse ereplek behaal nie,\",\"translation_quote\":\"Ons het nie die aardse ereplek behaal nie,\"},{\"location\":\"Poem, stanza 3, line 2\",\"severity\":\"major\",\"source_quote\":\"They barter truth for empty thrill.\",\"suggested_fix\":\"Hulle verruil die waarheid vir ’n leë opwinding.\",\"translation_quote\":\"Hulle verruil die waarheid vir ’n leë opwinding.\"},{\"location\":\"Poem, stanza 4, line 2\",\"severity\":\"major\",\"source_quote\":\"With dreams afresh to seek and fill.\",\"suggested_fix\":\"Met nuwe drome om na te jaag en te verwesenlik.\",\"translation_quote\":\"Met vars drome om na te streef en te vervul.\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1219,
+    "content_evidence_truncated": false,
+    "content_sha256": "2ad9b924a1a56e9b42626689b7780b4f084bc5b28ee4a08f6c570a7852cb033b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 330,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1966,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2299
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “From a medical standpoint”\",\"severity\":\"major\",\"source_quote\":\"“It tends to increase insulin resistance”\",\"suggested_fix\":\"Replace “ইনসুলিন প্রতিরোধী ক্ষমতা বাড়ার প্রবণতা থাকে” with “ইনসুলিন প্রতিরোধ ক্ষমতা বাড়ার প্রবণতা থাকে” (or “ইনসুলিনের প্রতি প্রতিরোধ বাড়ে”), so it says insulin resistance increases, rather than suggesting increased insulin resistance ability.\",\"translation_quote\":\"“এতে ইনসুলিন প্রতিরোধী ক্ষমতা বাড়ার প্রবণতা থাকে”\"},{\"location\":\"source.html, paragraph beginning “Some foods have almost no calories”\",\"severity\":\"major\",\"source_quote\":\"“then suddenly they aren’t the low-calorie foods they purport to be.”\",\"suggested_fix\":\"Replace “হঠাৎ করেই সেগুলো আর সেই কম-ক্যালোরির খাবার থাকে না বলে দাবি করা হয়” with “তখন হঠাৎ করেই সেগুলো আর কথিত কম-ক্যালোরির খাবার থাকে না।”\",\"translation_quote\":\"“হঠাৎ করেই সেগুলো আর সেই কম-ক্যালোরির খাবার থাকে না বলে দাবি করা হয়।”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1624,
+    "content_evidence_truncated": false,
+    "content_sha256": "bf83e59bfac527d7a674d27e6f50c9a13092bdb6687fceae62b0a68cc4bafc1d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 275,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9068,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9065,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9343
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

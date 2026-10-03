@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “From a medical standpoint”",
+      "severity": "major",
+      "source_quote": "“It tends to increase insulin resistance”",
+      "suggested_fix": "Replace “ইনসুলিন প্রতিরোধী ক্ষমতা বাড়ার প্রবণতা থাকে” with “ইনসুলিন প্রতিরোধ ক্ষমতা বাড়ার প্রবণতা থাকে” (or “ইনসুলিনের প্রতি প্রতিরোধ বাড়ে”), so it says insulin resistance increases, rather than suggesting increased insulin resistance ability.",
+      "translation_quote": "“এতে ইনসুলিন প্রতিরোধী ক্ষমতা বাড়ার প্রবণতা থাকে”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Some foods have almost no calories”",
+      "severity": "major",
+      "source_quote": "“then suddenly they aren’t the low-calorie foods they purport to be.”",
+      "suggested_fix": "Replace “হঠাৎ করেই সেগুলো আর সেই কম-ক্যালোরির খাবার থাকে না বলে দাবি করা হয়” with “তখন হঠাৎ করেই সেগুলো আর কথিত কম-ক্যালোরির খাবার থাকে না।”",
+      "translation_quote": "“হঠাৎ করেই সেগুলো আর সেই কম-ক্যালোরির খাবার থাকে না বলে দাবি করা হয়।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

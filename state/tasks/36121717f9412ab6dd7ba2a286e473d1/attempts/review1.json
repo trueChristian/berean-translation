@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, fourth stanza\",\"severity\":\"major\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"Hy was by ’n kruispad, met sy hele lewe voor hom.\",\"translation_quote\":\"Hy was by ’n kruispad, met sy hele lewe in die weegskaal.\"},{\"location\":\"Poem, line 15\",\"severity\":\"major\",\"source_quote\":\"God wants to show strong, in my life every day.\",\"suggested_fix\":\"God wil elke dag sy krag in my lewe toon.\",\"translation_quote\":\"God wil elke dag sterk in my lewe optree.\"},{\"location\":\"Poem, final two lines\",\"severity\":\"major\",\"source_quote\":\"There’s no better One, in Whom to put all your trust;\\n\\nThan the almighty God. For all men it’s a must!\",\"suggested_fix\":\"Daar is niemand beter op wie jy al jou vertroue kan stel nie;\\n\\n<p>as die almagtige God. Vir alle mense is dit ’n moet!</p>\",\"translation_quote\":\"Daar is niemand beter in wie jy al jou vertroue kan stel nie;\\n\\nAs die almagtige God. Vir alle mense is dit ’n moet!\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1020,
+    "content_evidence_truncated": false,
+    "content_sha256": "aa4e5489f34a4c9df857dea1ca9d93a0c93f4d37b8c35f2b3314285a1287fd6a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 665,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1864,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1861,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2818
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

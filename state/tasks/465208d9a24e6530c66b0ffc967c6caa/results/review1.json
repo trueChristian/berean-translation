@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "95ef7dc0-e9f4-462f-9200-fd2d8018ed45",
+    "response_id": "chatcmpl-EUrUKn21ScyrR0DKuE0m6Y46pdwly",
+    "usage": {
+      "completion_tokens": 848,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 682,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9942,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10793
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Τα πράγματα στα οποία προσηλώνουμε…»",
+        "severity": "minor",
+        "source_quote": "“Live nobly and you will hear nobly”",
+        "suggested_fix": "Replace «Ζήσε ευγενικά και θα ακούς ευγενικά» with «Ζήσε με ευγένεια και θα ακούς με ευγένεια» only if the intended sense is courteous; to preserve “nobly,” use «Ζήσε με ευγενή τρόπο και θα ακούς με ευγενή τρόπο».",
+        "translation_quote": "«Ζήσε ευγενικά και θα ακούς ευγενικά»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

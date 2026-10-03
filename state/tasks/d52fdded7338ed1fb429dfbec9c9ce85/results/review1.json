@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d99bbc38-2565-4499-9462-7f6281881aed",
+    "response_id": "chatcmpl-EUrULIuJnvpdKj1DGaFJ8qfpuSYhf",
+    "usage": {
+      "completion_tokens": 974,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 711,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12776,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13753
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section I.a, Romans 10:17 quotation",
+        "severity": "major",
+        "source_quote": "“So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.”",
+        "suggested_fix": "Change “मसीह के वचन से” to “परमेश्वर के वचन से” so the attribution matches the source.",
+        "translation_quote": "“सो विश्वास सुनने से, और सुनना मसीह के वचन से होता है –रोमियों 10:17।”"
+      },
+      {
+        "location": "HTML, section I.a, Hebrews 11:6 quotation",
+        "severity": "major",
+        "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+        "suggested_fix": "Include the omitted qualification in the translated quotation, for example: “विश्वास आशा की हुई वस्तुओं का निश्चय और अनदेखी (या प्रदर्शित न की गई) वस्तुओं का प्रमाण है।”",
+        "translation_quote": "“विश्वास आशा की हुई वस्तुओं का निश्चय, और अनदेखी वस्तुओं का प्रमाण है।”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

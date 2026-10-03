@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "caacd533-4644-4b27-86fd-8df5a7cd4016",
+    "response_id": "chatcmpl-EUrULdUYpxmYrL84xTTlDh5TlFsJ0",
+    "usage": {
+      "completion_tokens": 343,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9257,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9603
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «سمعت كثيرًا من الأنابابتست»",
+        "severity": "major",
+        "source_quote": "The Bible says that few will make it.",
+        "suggested_fix": "استبدل «يقول الكتاب المقدس إن قليلين سينجون» بـ«يقول الكتاب المقدس إن قليلين سيبلغون الغاية» أو صياغة عربية تنقل معنى أن قلة فقط ستصل إلى السماء، من دون تغيير المقصود.",
+        "translation_quote": "يقول الكتاب المقدس إن قليلين سينجون."
+      },
+      {
+        "location": "HTML, paragraph beginning «كنت أتحدث إلى شابة»",
+        "severity": "major",
+        "source_quote": "She was ready to do what it took, or so she said.",
+        "suggested_fix": "عدّل العبارة إلى «قالت إنها مستعدة لفعل ما يلزم، أو هكذا زعمت» للحفاظ على تحفّظ الكاتب وشكّه في صدق قولها.",
+        "translation_quote": "قالت إنها مستعدة لفعل ما يلزم."
+      },
+      {
+        "location": "HTML, فقرة الاقتباس من متى 5:14",
+        "severity": "major",
+        "source_quote": "A city that is set on an hill cannot be hid –Matthew 5:14.",
+        "suggested_fix": "استخدم «لا يمكن أن تُخفى مدينة قائمة على جبل –متى 5:14.» بدلًا من صيغة التأنيث «موضوعة»، التي لا تلائم «مدينة» في العربية الفصحى.",
+        "translation_quote": "لا يمكن أن تُخفى مدينة موضوعة على جبل –متى 5:14."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

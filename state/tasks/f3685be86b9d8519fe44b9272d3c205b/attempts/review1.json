@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Source HTML, paragraph beginning “The man talked.”\",\"severity\":\"major\",\"source_quote\":\"“She was presently meeting with a new boyfriend”\",\"suggested_fix\":\"Change “Sy het op daardie oomblik met ’n nuwe kêrel afgespreek” to “Sy was op daardie oomblik besig om ’n nuwe kêrel te ontmoet” to preserve that she was meeting him then, rather than merely arranging to meet him.\",\"translation_quote\":\"“Sy het op daardie oomblik met ’n nuwe kêrel afgespreek”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 531,
+    "content_evidence_truncated": false,
+    "content_sha256": "6c49ffc04393b5a02194c69a40c43ad304eb07fe293862e574389f3a227502eb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4818,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5473
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

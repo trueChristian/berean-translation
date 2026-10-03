@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Article, III.b Preaching, quotation of Mark 1:14",
+      "severity": "major",
+      "source_quote": "…[He] came into Galilee, preaching the gospel of the kingdom of God –Mark 1:14.",
+      "suggested_fix": "Replace the quotation with: <em>…[Alifika] Galilaya, akihubiri Injili ya ufalme wa Mungu –Marko 1:14.</em>",
+      "translation_quote": "…[Alifika] Galilaya, akihubiri Injili ya Mungu –Marko 1:14."
+    },
+    {
+      "location": "Article, III.b Preaching, quotation of Romans 10:17",
+      "severity": "major",
+      "source_quote": "So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.",
+      "suggested_fix": "Replace the quotation with: <em>Basi imani huja kwa kusikia, na kusikia huja kwa neno la Mungu –Warumi 10:17.</em>",
+      "translation_quote": "Basi imani, chanzo chake ni kusikia; na kusikia huja kwa neno la Kristo –Warumi 10:17."
+    },
+    {
+      "location": "Article, III.c Singing, quotation of Ephesians 5:19",
+      "severity": "major",
+      "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord –Ephesians 5:19.",
+      "suggested_fix": "Replace the quotation with: <em>Mkisemezana kwa zaburi na nyimbo na tenzi za rohoni, mkiimba na kufanya melody mioyoni mwenu kwa Bwana –Waefeso 5:19.</em> Translate “making melody” idiomatically into Kiswahili while preserving that it means making melody in the heart; for example: <em>Mkisemezana kwa zaburi, nyimbo na tenzi za rohoni, mkiimba na kuimba kwa moyo wenu kwa Bwana –Waefeso 5:19.</em>",
+      "translation_quote": "Mkisemezana kwa zaburi na tenzi na nyimbo za rohoni, huku mkiimba na kumshangilia Bwana mioyoni mwenu –Waefeso 5:19."
+    },
+    {
+      "location": "Article, IV Essence of True Worship, final paragraph",
+      "severity": "major",
+      "source_quote": "If our spirits are not responding to truth, we are not worshiping!",
+      "suggested_fix": "Correct the missing space and render “worshiping” as a single word: <em>Ikiwa roho zetu haziitikii kweli, hatuabudu!</em>",
+      "translation_quote": "Ikiwa roho zetu haziitikii kweli, hatu abudu!"
+    },
+    {
+      "location": "Article, Works Cited, title of A. W. Tozer work",
+      "severity": "minor",
+      "source_quote": "The Menace of the Religious Movie, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press.",
+      "suggested_fix": "Translate the title faithfully as “Tishio la Filamu za Kidini” (or another idiomatic rendering conveying the plural/general “religious movie”).",
+      "translation_quote": "Tishio la Filamu ya Kidini, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

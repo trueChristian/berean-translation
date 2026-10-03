@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Has the true church slipped so far…”; Ephesians 5:11 quotation",
+      "severity": "major",
+      "source_quote": "And have no fellowship with the unfruitful works of darkness, but rather reprove them.",
+      "suggested_fix": "将“那暗昧无益的事，不要与人同行，倒要责备行这事的人”改为“不要与黑暗无益的行为有份，倒要责备这些行为”。",
+      "translation_quote": "那暗昧无益的事，不要与人同行，倒要责备行这事的人"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

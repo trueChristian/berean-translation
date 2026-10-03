@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, third stanza, second line",
+      "severity": "major",
+      "source_quote": "All would have escaped this pain.",
+      "suggested_fix": "iedereen zou aan deze pijn zijn ontkomen.",
+      "translation_quote": "iedereen zou deze pijn hebben willen ontlopen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

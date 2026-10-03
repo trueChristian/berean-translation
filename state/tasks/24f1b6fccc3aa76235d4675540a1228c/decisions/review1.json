@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph quoting Hebrews 3:12–15",
+      "severity": "major",
+      "source_quote": "“an evil heart of unbelief”",
+      "suggested_fix": "Replace «сердца лукавого и неверного» with a Russian rendering that conveys an evil heart characterized by unbelief, for example «злого сердца неверия».",
+      "translation_quote": "«сердца лукавого и неверного»"
+    },
+    {
+      "location": "HTML, paragraph quoting Hebrews 3:12–15",
+      "severity": "major",
+      "source_quote": "“if we hold the beginning of our confidence stedfast unto the end”",
+      "suggested_fix": "Replace «если только начатую жизнь твёрдо сохраним до конца» with a rendering that preserves the source’s meaning of holding firmly to one’s confidence until the end, for example «если только до конца сохраним твёрдость нашей первоначальной уверенности».",
+      "translation_quote": "«если только начатую жизнь твёрдо сохраним до конца»"
+    },
+    {
+      "location": "HTML, final paragraph quoting Jude 1:24–25",
+      "severity": "major",
+      "source_quote": "“To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.”",
+      "suggested_fix": "Remove «чрез Иисуса Христа Господа нашего»: the source does not include that attribution in this sentence. Preserve the source’s wording and order for the doxology.",
+      "translation_quote": "«Единому Премудрому Богу, Спасителю нашему чрез Иисуса Христа Господа нашего, слава и величие, сила и власть прежде всех веков, ныне и во все веки»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

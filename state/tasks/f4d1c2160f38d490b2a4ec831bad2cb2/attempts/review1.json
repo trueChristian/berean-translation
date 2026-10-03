@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first paragraph\",\"severity\":\"minor\",\"source_quote\":\"“Let’s ask my mom if we can go on a walk to the creek. I want to go wading.” Angie told her friend Melissa.\",\"suggested_fix\":\"Change the dialogue punctuation to standard French, for example: « Demandons à ma maman si nous pouvons aller nous promener jusqu’au ruisseau. J’ai envie d’aller patauger », dit Angie à son amie Melissa.\",\"translation_quote\":\"« Demandons à ma maman si nous pouvons aller nous promener jusqu’au ruisseau. J’ai envie d’aller patauger. » dit Angie à son amie Melissa.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 629,
+    "content_evidence_truncated": false,
+    "content_sha256": "e12084f7e17d865276ed41acdc7c3ffbc2c330014b827e1ab21c3afe7bd213aa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 636,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3857,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4661
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

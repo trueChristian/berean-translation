@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Абзац о том, почему пара не может помочь супругам",
+      "severity": "major",
+      "source_quote": "“And if you don’t want His help, there’s no hope for your marriage.”",
+      "suggested_fix": "Заменить «И если вам не нужна Его помощь» на «И если вы не хотите Его помощи», чтобы сохранить исходное различие между нежеланием и отсутствием нужды.",
+      "translation_quote": "«И если вам не нужна Его помощь, у вашего брака нет надежды»"
+    },
+    {
+      "location": "Абзац о старости Мелхолы и том, как события могли повлиять на Давида",
+      "severity": "major",
+      "source_quote": "“I also wonder if Michal’s dishonor and their fall-out weakened King David.”",
+      "suggested_fix": "Заменить «бесчестие, которому подверглась Мелхола» на «неуважение Мелхолы к Давиду» или «то, что Мелхола бесчестила Давида», чтобы сохранить исходную атрибуцию.",
+      "translation_quote": "«Мне также интересно, ослабили ли бесчестие, которому подверглась Мелхола, и их размолвка царя Давида»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

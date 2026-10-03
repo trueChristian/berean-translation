@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf kutipan Wahyu 21:1–4\",\"severity\":\"major\",\"source_quote\":\"“And I heard a great voice out of heaven saying”\",\"suggested_fix\":\"Ganti “Lalu aku mendengar suara nyaring dari takhta itu berkata” dengan “Lalu aku mendengar suara nyaring dari surga berkata”.\",\"translation_quote\":\"“Lalu aku mendengar suara nyaring dari takhta itu berkata”\"},{\"location\":\"Paragraf kutipan Wahyu 21:1–4\",\"severity\":\"major\",\"source_quote\":\"“and there shall be no more pain”\",\"suggested_fix\":\"Pertahankan penyebutan rasa sakit secara terpisah dalam daftar tersebut. Misalnya, ganti bagian “tidak akan ada lagi perkabungan, ratap tangis, ataupun dukacita” dengan “tidak akan ada lagi dukacita, ratap tangis, ataupun rasa sakit”.\",\"translation_quote\":\"“tidak akan ada lagi perkabungan, ratap tangis, ataupun dukacita”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 888,
+    "content_evidence_truncated": false,
+    "content_sha256": "d113a7732666450b429b7bb6897606ce135a1a4bdac8aae81bcb0d3e939d0e26",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 343,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3870,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3867,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4456
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

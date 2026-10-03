@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "شعر، چھٹا بند، پہلی سطر",
+      "severity": "major",
+      "source_quote": "Help us, Father, to be broken,",
+      "suggested_fix": "اے باپ، ہماری مدد کر کہ ہم تیرے حضور فروتن اور سپردِ کامل ہوں،",
+      "translation_quote": "اے باپ، ہماری مدد کر کہ ہم شکستہ دل ہوں،"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

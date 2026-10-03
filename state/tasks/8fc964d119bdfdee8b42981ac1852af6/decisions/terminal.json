@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, heading <h2> before the Isaiah 6:9–10 quotation",
+      "severity": "minor",
+      "source_quote": "Fat Hearts",
+      "suggested_fix": "Use a heading that retains the source’s image of “fat” hearts, such as «Corações insensíveis», rather than changing it to hardened hearts.",
+      "translation_quote": "Corações endurecidos"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

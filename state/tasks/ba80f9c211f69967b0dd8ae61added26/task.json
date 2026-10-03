@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9030
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 263,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8838,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8835,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9101
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, seção “Guerra”, último período do parágrafo",
+      "severity": "major",
+      "source_quote": "“The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.”",
+      "suggested_fix": "Preserve a frase incompleta do original, sem acrescentar uma conclusão: “A igreja americana chama de heroísmo ou bravura ‘defender a nós mesmos’, nossas famílias e nosso país; a Bíblia chama isso.”",
+      "translation_quote": "“A igreja americana chama de heroísmo ou bravura ‘defender a nós mesmos’, nossas famílias e nosso país; a Bíblia chama isso de.”"
+    },
+    {
+      "location": "HTML, seção “Não conformidade”, primeiro parágrafo",
+      "severity": "major",
+      "source_quote": "“say ‘No’ to evil communication”",
+      "suggested_fix": "Substitua “má comunicação” por “más conversas” ou “comunicação nociva”, preservando a ideia de evitar conversas corruptoras, não apenas comunicação deficiente: “dizer ‘Não’ às más conversas e aos caminhos deste mundo”.",
+      "translation_quote": "“dizer ‘Não’ à má comunicação e aos caminhos deste mundo”"
+    }
+  ],
   "id": "ba80f9c211f69967b0dd8ae61added26",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "por",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

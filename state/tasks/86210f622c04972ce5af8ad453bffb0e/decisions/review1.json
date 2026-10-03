@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem stanza 1, line 2",
+      "severity": "major",
+      "source_quote": "Minute degrees observed as nil.",
+      "suggested_fix": "Vervang door een vertaling die de betekenis behoudt dat de kleine stapjes als niets opgemerkt worden, bijvoorbeeld: “Kleine stapjes, als niets opgemerkt.”",
+      "translation_quote": "Kleine stapjes, nauwelijks opgemerkt."
+    },
+    {
+      "location": "source.html, poem stanza 2, line 3",
+      "severity": "major",
+      "source_quote": "We’ve failed the earthly honor roll,",
+      "suggested_fix": "Behoud de betekenis van niet op de erelijst van de aarde staan, bijvoorbeeld: “We hebben de erelijst van de aarde niet gehaald,”",
+      "translation_quote": "We haalden geen plaats op de erelijst van de wereld,"
+    },
+    {
+      "location": "source.html, poem stanza 3, line 2",
+      "severity": "major",
+      "source_quote": "They barter truth for empty thrill.",
+      "suggested_fix": "Vertaal “thrill” hier als een lege sensatie of opwinding, bijvoorbeeld: “Ze ruilen waarheid in voor een lege sensatie.”",
+      "translation_quote": "Ze ruilen de waarheid in voor een lege kick."
+    },
+    {
+      "location": "source.html, poem stanza 3, line 4",
+      "severity": "major",
+      "source_quote": "Achieving not God’s blessed will.",
+      "suggested_fix": "Behoud dat zij Gods gezegende wil niet volbrengen, bijvoorbeeld: “En volbrengen Gods gezegende wil niet.”",
+      "translation_quote": "En Gods gezegende wil niet volbrengt."
+    },
+    {
+      "location": "source.html, poem stanza 4, line 5",
+      "severity": "major",
+      "source_quote": "He who wins is he who hears...",
+      "suggested_fix": "Vertaal “wins” als winnen en vermijd de betekenisverschuiving naar overwinnen, bijvoorbeeld: “Wie wint, is wie luistert...”",
+      "translation_quote": "Wie overwint, is wie luistert..."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

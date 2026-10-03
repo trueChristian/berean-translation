@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 9401
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 343,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9260,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9257,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9603
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «سمعت كثيرًا من الأنابابتست»",
+      "severity": "major",
+      "source_quote": "The Bible says that few will make it.",
+      "suggested_fix": "استبدل «يقول الكتاب المقدس إن قليلين سينجون» بـ«يقول الكتاب المقدس إن قليلين سيبلغون الغاية» أو صياغة عربية تنقل معنى أن قلة فقط ستصل إلى السماء، من دون تغيير المقصود.",
+      "translation_quote": "يقول الكتاب المقدس إن قليلين سينجون."
+    },
+    {
+      "location": "HTML, paragraph beginning «كنت أتحدث إلى شابة»",
+      "severity": "major",
+      "source_quote": "She was ready to do what it took, or so she said.",
+      "suggested_fix": "عدّل العبارة إلى «قالت إنها مستعدة لفعل ما يلزم، أو هكذا زعمت» للحفاظ على تحفّظ الكاتب وشكّه في صدق قولها.",
+      "translation_quote": "قالت إنها مستعدة لفعل ما يلزم."
+    },
+    {
+      "location": "HTML, فقرة الاقتباس من متى 5:14",
+      "severity": "major",
+      "source_quote": "A city that is set on an hill cannot be hid –Matthew 5:14.",
+      "suggested_fix": "استخدم «لا يمكن أن تُخفى مدينة قائمة على جبل –متى 5:14.» بدلًا من صيغة التأنيث «موضوعة»، التي لا تلائم «مدينة» في العربية الفصحى.",
+      "translation_quote": "لا يمكن أن تُخفى مدينة موضوعة على جبل –متى 5:14."
+    }
+  ],
   "id": "944f6d99f0b00ae56e5fa21552949cb4",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ara",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

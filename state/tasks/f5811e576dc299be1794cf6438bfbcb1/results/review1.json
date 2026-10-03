@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6fe024a2-7804-4fdb-91d4-9545ea19b76e",
+    "response_id": "chatcmpl-EUrUpNeGWCv7ATjXTF5zhqKZqq9cG",
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 524,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3731,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3728,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4379
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, párrafo 7",
+        "severity": "minor",
+        "source_quote": "“Yes, let’s do that and then we can walk along the road back to the driveway.”",
+        "suggested_fix": "—Sí, hagámoslo, y luego podemos volver caminando por el camino hasta el camino de entrada.",
+        "translation_quote": "—Sí, hagámoslo, y luego podemos volver caminando por el camino hasta la entrada del camino de acceso."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

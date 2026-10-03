@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Throughout the article, especially the paragraphs beginning “Finally, the wife opened her mouth,” “All wives are tempted,” and “Every day I choose”",
+      "severity": "major",
+      "source_quote": "“Dishonor” / “dishonor their husbands” / “honor or dishonor the husband God gave me.”",
+      "suggested_fix": "Translate “dishonor” consistently as a form of «δεν τιμώ» or «ατιμάζω», rather than «περιφρονώ» (“despise/contempt”). For example: «Όλες οι σύζυγοι μπαίνουμε στον πειρασμό να μην τιμούμε τους άντρες μας» and «Κάθε μέρα επιλέγω αν θα τιμήσω ή θα ατιμάσω τον άντρα που μου έδωσε ο Θεός». Preserve the existing HTML structure.",
+      "translation_quote": "«Ξεχείλισε η πίκρα· οι προσβολές· παλιά παράπονα»; «Όλες οι γυναίκες μπαίνουμε στον πειρασμό να περιφρονούμε τους άντρες μας»; «Κάθε μέρα επιλέγω αν θα τιμήσω ή θα περιφρονήσω τον άντρα που μου έδωσε ο Θεός»"
+    },
+    {
+      "location": "Final reflection paragraph, sentence beginning “My choice determines”",
+      "severity": "major",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Revise the sentence to express that her choice determines the favor or loss returned in response, without adding that she specifically loses her husband's favor. For example: «Η επιλογή μου καθορίζει την εύνοια ή την απώλεια που θα μου ανταποδοθεί.»",
+      "translation_quote": "«Η επιλογή μου καθορίζει αν θα λάβω ανταπόδοση ή θα χάσω την εύνοιά του.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

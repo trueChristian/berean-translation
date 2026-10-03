@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "“there’s the ever-present issue of a worldwide pestilence—Covid-19.”",
+      "suggested_fix": "Replace “de altijd aanwezige dreiging van een wereldwijde plaag” with “het altijd aanwezige probleem van een wereldwijde plaag” to retain the source’s assertion that this is an ongoing issue, not merely a threat.",
+      "translation_quote": "“er is ook nog de altijd aanwezige dreiging van een wereldwijde plaag—Covid-19.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

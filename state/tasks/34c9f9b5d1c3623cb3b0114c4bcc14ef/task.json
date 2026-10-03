@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,94 @@
         },
         "total_tokens": 8452
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1214,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8274,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8271,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9488
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Our minds are accustomed…”",
+      "severity": "major",
+      "source_quote": "“Is it a blemish in the virtue of the first who cannot hear the misfiring cylinder or the rasping brakes?”",
+      "suggested_fix": "Replace «Er det en brist ved den førstes karakter» with «Er det en brist ved den førstes dyd» (or «moralske dyd»), preserving the source’s assertion about virtue.",
+      "translation_quote": "«Er det en brist ved den førstes karakter at han ikke hører en sylinder som fusker eller bremser som skraper?»"
+    },
+    {
+      "location": "Article body, paragraph beginning “There is an elusive and gnawing factor…”",
+      "severity": "major",
+      "source_quote": "“honesty will surely deem it otherwise. It could very well be considered spiritual attention deficit.”",
+      "suggested_fix": "Translate the claim that honesty would judge otherwise, without reversing it—for example: «ærlighet vil sannelig fastslå at det forholder seg annerledes. Det kan godt betraktes som åndelig oppmerksomhetsunderskudd.»",
+      "translation_quote": "«men ærlighet tilsier sannelig noe annet. Det kan like gjerne regnes som åndelig oppmerksomhetsforstyrrelse.»"
+    },
+    {
+      "location": "Article body, paragraph beginning “We play only the finest recorded music…”",
+      "severity": "major",
+      "source_quote": "“If an orator must be articulate and schooled in the professional world…”",
+      "suggested_fix": "Replace «skolert i yrkeslivet» with a rendering of being professionally educated or trained, such as «utdannet og skolert i den profesjonelle verden».",
+      "translation_quote": "«Hvis en taler må være veltalende og skolert i yrkeslivet for å holde på oppmerksomheten vår»"
+    },
+    {
+      "location": "Article body, paragraph beginning “Many people will listen to a myriad of voices…”",
+      "severity": "major",
+      "source_quote": "“the many questionable things that people bring to our attention really depend upon our meager character”",
+      "suggested_fix": "Correct «magre karakter» to convey the source’s meaning of meager/weak character, for example «svake karakter».",
+      "translation_quote": "«de mange tvilsomme tingene folk gjør oss oppmerksomme på, i virkeligheten avhenger av vår magre karakter»"
+    },
+    {
+      "location": "Article body, paragraph beginning “Many people will listen to a myriad of voices…”",
+      "severity": "major",
+      "source_quote": "“I should be ashamed that he had such thoughts of me and of the kind of thing that I love to hear that he should venture to bring such garbage to my attention.”",
+      "suggested_fix": "Translate the speaker’s shame both that the person thinks this of him and that the person believes he would like hearing such things; for example, «Jeg burde skamme meg over at han tenkte slik om meg, og over hva slags ting han tror jeg liker å høre, siden han våger å rette slikt søppel mot meg.»",
+      "translation_quote": "«Jeg ville skamme meg over at han hadde slike tanker om meg, og over hva slags ting han tror jeg liker å høre, siden han våger å rette slikt søppel mot meg.»"
+    },
+    {
+      "location": "Article body, paragraph beginning “To make the hearts burn is primarily…”",
+      "severity": "major",
+      "source_quote": "“It is the truth, alone, that can shake the bedrock of the never-dying soul.”",
+      "suggested_fix": "Replace «den udødelige sjelen» with wording that preserves «never-dying», such as «sjelen som aldri dør».",
+      "translation_quote": "«Det er sannheten alene som kan ryste grunnfjellet i den udødelige sjelen.»"
+    },
+    {
+      "location": "Article body, final paragraph",
+      "severity": "major",
+      "source_quote": "“Those who will accept this responsibility must purge themselves from the rabble of earth-linked daydreams in order to give ear to the rising Day Star…”",
+      "suggested_fix": "Remove the added «og larm» and retain the source’s specific image of earth-linked daydreams; for example: «må rense seg for jordbundne dagdrømmer for å lytte til den oppgående Morgenstjernen».",
+      "translation_quote": "«må rense seg for jordbundne dagdrømmer og larm, slik at de kan lytte til morgenstjernen»"
+    },
+    {
+      "location": "Article body, final paragraph, quoted 2 Peter 1:19",
+      "severity": "major",
+      "source_quote": "“We have also a more sure word of prophecy; whereunto ye do well that ye take heed, as unto a light that shineth in a dark place…”",
+      "suggested_fix": "Translate the printed quotation faithfully, including «we have also» and the comparison to a light that shines in a dark place. For example: «Vi har også et enda sikrere profetisk ord; dere gjør vel i å gi akt på det, som på et lys som skinner på et mørkt sted, inntil dagen gryr og morgenstjernen går opp i hjertene deres.»",
+      "translation_quote": "«Og vi har det profetiske ord desto fastere. Dere gjør vel i å holde fast ved det, som ved en lampe som lyser på et mørkt sted, til dagen gryr og morgenstjernen går opp i hjertene deres»"
+    },
+    {
+      "location": "Section metadata",
+      "severity": "minor",
+      "source_quote": "“Bible Doctrines”",
+      "suggested_fix": "Use a closer Bokmål rendering of the section label, such as «Bibelske doktriner» or «Bibelske læresetninger», rather than changing the category to teachings without the doctrinal sense.",
+      "translation_quote": "«Bibelske læresetninger»"
+    }
+  ],
   "id": "34c9f9b5d1c3623cb3b0114c4bcc14ef",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nob",
@@ -116,11 +200,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

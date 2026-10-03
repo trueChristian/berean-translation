@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "In het begin, alinea 2",
+      "severity": "major",
+      "source_quote": "“Adam and Eve did not struggle with their weight before sin entered the world.”",
+      "suggested_fix": "Vervang door: “We mogen aannemen dat Adam en Eva vóór de zonde in de wereld kwam niet met hun gewicht worstelden.” → “We mogen aannemen dat Adam en Eva vóór de zonde in de wereld kwam niet met hun gewicht worstelden.” (Correcte Nederlandse congruentie: “We mogen aannemen dat Adam en Eva vóór de zonde in de wereld kwam” moet zijn “... vóór de zonde in de wereld kwam” is het onderwerp de zonde, dus de vorm is correct.)",
+      "translation_quote": "“We mogen aannemen dat Adam en Eva vóór de zonde in de wereld kwam niet met hun gewicht worstelden.”"
+    },
+    {
+      "location": "Mythen over afvallen, alinea over calorie-inname uit havermout",
+      "severity": "major",
+      "source_quote": "“A bowl of oatmeal may have a similar number of grams of carbohydrates as compared to a sugary breakfast cereal, but it will be broken down more slowly by our bodies and is easier for them to deal with.”",
+      "suggested_fix": "Vervang “een gezoete ontbijtgranen” door “een portie gezoete ontbijtgranen” en verduidelijk dat ‘die’ naar havermout/koolhydraten verwijst, bijvoorbeeld: “Een kom havermout kan ongeveer evenveel gram koolhydraten bevatten als een portie gezoete ontbijtgranen, maar de koolhydraten uit havermout worden door ons lichaam langzamer afgebroken en zijn gemakkelijker te verwerken.”",
+      "translation_quote": "“Een kom havermout kan ongeveer evenveel gram koolhydraten bevatten als een gezoete ontbijtgranen, maar ons lichaam breekt die koolhydraten langzamer af en kan ze gemakkelijker verwerken.”"
+    },
+    {
+      "location": "Mythen over afvallen, alinea over uithongering en concentratiekampen",
+      "severity": "minor",
+      "source_quote": "“there were no heavy-set people who came out of the concentration camps in World War II.”",
+      "suggested_fix": "Vervang “geen mensen met overgewicht” door “geen mensen met een fors postuur” om de betekenis van “heavy-set” nauwkeuriger weer te geven.",
+      "translation_quote": "“uit de concentratiekampen in de Tweede Wereldoorlog kwamen geen mensen met overgewicht.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

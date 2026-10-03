@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "all the right that we have ever sought",
+      "suggested_fix": "al die reg waarna ons ooit gestreef het",
+      "translation_quote": "al die reg waarop ons ooit aanspraak gemaak het"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

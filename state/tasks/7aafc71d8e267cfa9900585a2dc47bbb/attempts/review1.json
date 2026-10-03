@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 9\",\"severity\":\"major\",\"source_quote\":\"“There was a crayfish under there!”\",\"suggested_fix\":\"“वहाँ नीचे एक क्रेफ़िश (मीठे पानी का झींगा) था!”\",\"translation_quote\":\"“उसके नीचे एक केकड़ा था!”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 377,
+    "content_evidence_truncated": false,
+    "content_sha256": "115ada6d196ab1a21c453ec60330a6cec9b2e1cbbd51065f15ea0aea43854e60",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 293,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4116,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4113,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4501
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, fourth paragraph",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Replace the second clause with «وكان عند مفترق طرق حياته كلها» to convey that the crossroads concerns his life as a whole, without adding that his life was at stake.",
+      "translation_quote": "كان عند مفترق الطرق، وكانت حياته كلها على المحك."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

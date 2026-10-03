@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "47d932f6-e834-41d0-8f46-79de886b660b",
+    "response_id": "chatcmpl-EUrUnbjVGGiBYKRrJFmiw8sRgJLAS",
+    "usage": {
+      "completion_tokens": 531,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 354,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9011,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9545
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Quoted Scripture, paragraph beginning “क्या तुम नहीं जानते कि तुम्हारी देह…” (1 कुरिन्थियों 6:19-20)",
+        "severity": "major",
+        "source_quote": "therefore glorify God in your body, and in your spirit, which are God’s",
+        "suggested_fix": "अनुवाद में छूटा हुआ अंश जोड़ें: “इसलिये अपनी देह और अपनी आत्मा के द्वारा परमेश्वर की महिमा करो, जो परमेश्वर के हैं” — और इसे उद्धरण के अंत में संदर्भ से पहले रखें।",
+        "translation_quote": "इसलिये अपनी देह के द्वारा परमेश्वर की महिमा करो –1 कुरिन्थियों 6:19-20।"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

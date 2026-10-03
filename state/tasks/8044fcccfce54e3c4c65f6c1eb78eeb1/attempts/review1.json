@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Title and article paragraphs discussing dishonor and the wife’s choices\",\"severity\":\"minor\",\"source_quote\":\"“Dishonor and Loss”; “All wives are tempted to dishonor their husbands”; “I can choose to honor or dishonor the husband God gave me.”\",\"suggested_fix\":\"Use wording centered on disrespect or dishonoring rather than contempt, for example: title «الإهانة والخسارة»; «تُجرَّب جميع الزوجات على إهانة أزواجهن»; «أختار أن أكرم الزوج الذي وهبني الله إياه أو أهينه». Apply the same distinction to related occurrences where the source says “dishonor.”\",\"translation_quote\":\"«الازدراء والخسارة»; «تُجرَّب جميع الزوجات بأن يزدرين أزواجهن»; «أختار أن أكرم الزوج الذي وهبني الله إياه أو أزدريه»\"},{\"location\":\"Paragraph beginning “We sat with sagging hearts”\",\"severity\":\"minor\",\"source_quote\":\"“a cool, young fellow”\",\"suggested_fix\":\"Replace «وسيم» with an equivalent conveying “cool” as appealing or fashionable in this context, such as «شاب جذاب وعصري».\",\"translation_quote\":\"«شاب وسيـم، يافع»\"},{\"location\":\"Paragraph beginning “But she beat him to the subject”\",\"severity\":\"minor\",\"source_quote\":\"“were her frosty words”\",\"suggested_fix\":\"Use a natural Arabic expression for emotionally cold or icy words, such as «كانت تلك كلماتها الجافة».\",\"translation_quote\":\"«كانت تلك كلماتها المتجمدة»\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 1656,
+    "content_evidence_truncated": false,
+    "content_sha256": "12071111cefa4b4aa2450d1d7a13671b7ef4de3cd1ed86ba5fc78beacaa2a839",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1071,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 699,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4744,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4741,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5815
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

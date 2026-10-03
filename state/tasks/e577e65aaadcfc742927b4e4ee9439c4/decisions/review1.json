@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Section I.a, paragraph on Jesus’ use of parables",
+      "severity": "major",
+      "source_quote": "(Mat 13:18)",
+      "suggested_fix": "Replace “Mat 13:18” with “Mateus 13:18”.",
+      "translation_quote": "(Mat 13:18)"
+    },
+    {
+      "location": "Section III.a, paragraph on prayer-meeting attendance",
+      "severity": "major",
+      "source_quote": "(Act 6:4)",
+      "suggested_fix": "Replace “Act 6:4” with “Atos 6:4”.",
+      "translation_quote": "(Act 6:4)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

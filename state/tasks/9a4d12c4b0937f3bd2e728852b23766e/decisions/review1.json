@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Quoted Scripture, paragraph beginning “क्या तुम नहीं जानते कि तुम्हारी देह…” (1 कुरिन्थियों 6:19-20)",
+      "severity": "major",
+      "source_quote": "therefore glorify God in your body, and in your spirit, which are God’s",
+      "suggested_fix": "अनुवाद में छूटा हुआ अंश जोड़ें: “इसलिये अपनी देह और अपनी आत्मा के द्वारा परमेश्वर की महिमा करो, जो परमेश्वर के हैं” — और इसे उद्धरण के अंत में संदर्भ से पहले रखें।",
+      "translation_quote": "इसलिये अपनी देह के द्वारा परमेश्वर की महिमा करो –1 कुरिन्थियों 6:19-20।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

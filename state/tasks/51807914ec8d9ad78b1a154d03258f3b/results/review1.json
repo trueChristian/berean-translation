@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b4ab2cf6-ad9f-4695-8637-87f423d34d2d",
+    "response_id": "chatcmpl-EUrUWTWykPBqq8qeyPDchkgGRgoPJ",
+    "usage": {
+      "completion_tokens": 595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 472,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8499,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8496,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9094
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section “Vetvrye en dieetkosse,” first paragraph",
+        "severity": "minor",
+        "source_quote": "There are many foods and condiments on the market that have reduced fat",
+        "suggested_fix": "Change “speserye” to “souse en geurmiddels” or another suitable Afrikaans equivalent for “condiments.”",
+        "translation_quote": "Daar is baie kossoorte en speserye op die mark waarvan die vetinhoud verlaag is"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

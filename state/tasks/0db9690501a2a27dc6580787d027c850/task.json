@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 8505
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 206,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8364,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8361,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8570
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, “What the Bible Says About Food” paragraph quoting Acts 15:20",
+      "severity": "major",
+      "source_quote": "The Jerusalem council specifically required …that they abstain from pollutions of idols, and from fornication, and from things strangled, and from blood –Acts 15:20.",
+      "suggested_fix": "인용을 원문의 의미와 순서에 맞춰 다음처럼 고치세요: <em>…우상의 더러운 것과 음행과 목매어 죽인 것과 피를 멀리하라 –사도행전 15:20.</em>",
+      "translation_quote": "예루살렘 공의회가 특별히 요구한 것은 <em>우상의 더러움과 음행과 목매어 죽인 것과 피를 멀리하라는 것… –사도행전 15:20.</em>"
+    }
+  ],
   "id": "0db9690501a2a27dc6580787d027c850",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

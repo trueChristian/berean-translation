@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "96e9e617-11ce-462b-bf0e-d7b80978a830",
+    "response_id": "chatcmpl-EUrUfIYOPZ4WzCsCG5jkqakd8RbMU",
+    "usage": {
+      "completion_tokens": 651,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5018,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5015,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5669
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Hebrews 3:12–15 quotation",
+        "severity": "minor",
+        "source_quote": "“But exhort one another daily, while it is called To day”",
+        "suggested_fix": "Replace “আজই প্রতিদিন পরস্পরকে উৎসাহিত করো” with “প্রতিদিন পরস্পরকে উৎসাহিত করো”, retaining the following clause about it being called “আজ”.",
+        "translation_quote": "“বরং আজই প্রতিদিন পরস্পরকে উৎসাহিত করো, যতক্ষণ ‘আজ’ বলা হয়”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

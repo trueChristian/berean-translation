@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, opening paragraph",
+      "severity": "major",
+      "source_quote": "Like Job, our friends might have turned against us.",
+      "suggested_fix": "I likhet med Job kan vennene våre ha vendt seg mot oss.",
+      "translation_quote": "I likhet med Jobs venner kan våre venner ha vendt seg mot oss."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

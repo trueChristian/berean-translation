@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4c046dc8-285f-4ced-a013-5c56196a960e",
+    "response_id": "chatcmpl-EUrUJqDhu0iwauZa4ddTc1axIKtsJ",
+    "usage": {
+      "completion_tokens": 619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2390,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2387,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3009
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, stanza beginning “Grow in us, Lord”",
+        "severity": "major",
+        "source_quote": "Grow in us, Lord, a humility,",
+        "suggested_fix": "Replace the corresponding line with “Kuza ndani yetu, Bwana, unyenyekevu,”",
+        "translation_quote": "Utukuze ndani yetu, Bwana, unyenyekevu,"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 3854
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 751,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3713,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3710,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4464
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "lyrics, first verse",
+      "severity": "major",
+      "source_quote": "In the dark of the midnight have I oft hid my face",
+      "suggested_fix": "Replace «a menudo escondí mi rostro» with «a menudo he escondido mi rostro» to preserve the source’s recurring/present-perfect sense.",
+      "translation_quote": "En la oscuridad de la medianoche, a menudo escondí mi rostro,"
+    },
+    {
+      "location": "Lyrics, second verse",
+      "severity": "major",
+      "source_quote": "But I know Thou art with me, and tomorrow I’ll rise / Where the storms never darken the skies.",
+      "suggested_fix": "Change «Pero sé que estás conmigo, y mañana me alzaré / donde las tormentas nunca oscurecen los cielos» to «Pero sé que estás conmigo, y mañana me levantaré / donde las tormentas nunca oscurecen los cielos» (or another wording that clearly conveys rising in that place).",
+      "translation_quote": "Pero sé que estás conmigo, y mañana me alzaré / donde las tormentas nunca oscurecen los cielos."
+    },
+    {
+      "location": "Paragraph beginning “Este era un canto”",
+      "severity": "major",
+      "source_quote": "This song was one I’d pray in the dark of the midnight when I couldn’t sleep, and fear threatened to overwhelm me.",
+      "suggested_fix": "Change «Este era un canto que oraba» to «Este era un canto que rezaba» or «Este era un canto con el que oraba»; the current wording says the author prayed the song, rather than prayed using/singing it.",
+      "translation_quote": "Este era un canto que oraba en la oscuridad de la medianoche, cuando no podía dormir y el miedo amenazaba con abrumarme."
+    },
+    {
+      "location": "Paragraph beginning “Es muy importante”",
+      "severity": "major",
+      "source_quote": "We will reach out to others for comfort and council.",
+      "suggested_fix": "Replace «el consuelo y el consejo» with «consuelo y asesoramiento» or «consuelo y orientación»; “council” in the source means guidance/counsel, not “consejo” as a council body.",
+      "translation_quote": "Buscaremos el consuelo y el consejo de otras personas."
+    },
+    {
+      "location": "Paragraph beginning “Es muy importante”",
+      "severity": "major",
+      "source_quote": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose –Romans 8:28.",
+      "suggested_fix": "Use «Y sabemos que Dios dispone todas las cosas para el bien de quienes lo aman, de quienes han sido llamados conforme a su propósito –Romanos 8:28.» or another faithful rendering that makes clear that all things work together for good for those people.",
+      "translation_quote": "Y sabemos que a los que aman a Dios, a los que conforme a su propósito son llamados, todas las cosas les ayudan a bien –Romanos 8:28."
+    },
+    {
+      "location": "Final paragraph, Revelation quotation",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city, new Jerusalem, coming down from God out of heaven",
+      "suggested_fix": "Change «Y yo, Juan, vi la ciudad santa, la nueva Jerusalén, que descendía del cielo, de Dios» to «Y yo, Juan, vi la ciudad santa, la nueva Jerusalén, que descendía de Dios, desde el cielo» to preserve the source’s meaning that it came from God out of heaven.",
+      "translation_quote": "Y yo, Juan, vi la ciudad santa, la nueva Jerusalén, que descendía del cielo, de Dios,"
+    }
+  ],
   "id": "2df525e618b01b36fec1f452d689ed56",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "spa",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6-luna"

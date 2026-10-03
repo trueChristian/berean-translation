@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, párrafo sobre la vejez de Mical\",\"severity\":\"minor\",\"source_quote\":\"“I doubt if her king-husband bothered to stop in with her anymore.”\",\"suggested_fix\":\"Cambiar «se molestara en visitarla alguna vez» por «ya se molestara en visitarla», para conservar la idea de que él dejó de visitarla.\",\"translation_quote\":\"«Dudo que su esposo, el rey, se molestara en visitarla alguna vez.»\"},{\"location\":\"HTML, párrafo que comienza «Cada día decido honrar»\",\"severity\":\"minor\",\"source_quote\":\"“My choice determines the reciprocating favor or loss.”\",\"suggested_fix\":\"Reformular como «Mi elección determina el favor que recibo a cambio, o su pérdida» para expresar con más claridad la reciprocidad.\",\"translation_quote\":\"«Mi elección determina que recibamos favor o lo perdamos en reciprocidad.»\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 873,
+    "content_evidence_truncated": false,
+    "content_sha256": "ba71db4d4843401488277a20db658bdcac0300269fa09187424caa06a08e9bcf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 430,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4596,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4593,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5240
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

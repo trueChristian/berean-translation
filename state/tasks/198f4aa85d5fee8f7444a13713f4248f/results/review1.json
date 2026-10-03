@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "74c2555a-c921-4ff1-81c0-4b8b35551f74",
+    "response_id": "chatcmpl-EUrUMCe1cnltIJEUTPTal61CIHTfR",
+    "usage": {
+      "completion_tokens": 579,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 351,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3851,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3848,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4430
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 2",
+        "severity": "minor",
+        "source_quote": "“Let’s ask my mom if we can go on a walk to the creek. I want to go wading.” Angie told her friend Melissa.",
+        "suggested_fix": "Ganti titik sebelum kata pengiring menjadi koma: “Ayo kita tanya Ibu apakah kita boleh berjalan-jalan ke anak sungai. Aku ingin bermain air,” kata Angie kepada temannya, Melissa.",
+        "translation_quote": "“Ayo kita tanya Ibu apakah kita boleh berjalan-jalan ke anak sungai. Aku ingin bermain air.” kata Angie kepada temannya, Melissa."
+      },
+      {
+        "location": "HTML paragraph 13",
+        "severity": "minor",
+        "source_quote": "Melissa followed her example and began splashing on her side of the boat.",
+        "suggested_fix": "Ubah menjadi “Melissa menirunya dan mulai mencipratkan air di sisi perahu.”",
+        "translation_quote": "Melissa menirunya dan mulai mencipratkan air di sisinya perahu."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

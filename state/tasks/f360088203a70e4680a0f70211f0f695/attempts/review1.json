@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, fourth stanza\",\"severity\":\"major\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"Replace the second clause with wording that conveys that the crossroads concerned his whole life, without adding that his life was at stake. For example: <p>הוא עמד בצומת דרכים, ובכל חייו היה עליו לבחור.</p>\",\"translation_quote\":\"הוא עמד בצומת דרכים, וכל חייו עמדו על הפרק.\"},{\"location\":\"Poem, sixteenth stanza\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"Revise “רוצה שאוכיח את עצמי” so it does not say that God wants the speaker to prove himself. For example: <p>הוא רוצה שאעמוד במבחן; הוא החיים והדרך.</p>\",\"translation_quote\":\"הוא רוצה שאוכיח את עצמי; הוא החיים והדרך.\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 970,
+    "content_evidence_truncated": false,
+    "content_sha256": "a664a3fbe64eb411c0d8e3775b6e2fbf3557bea0615885c21e7a0980a163f580",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1844,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1841,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2661
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “The Pharisees’ sole motivation to pray in public…”\",\"severity\":\"major\",\"source_quote\":\"Jesus made it very clear that religious devotion was to be private, in “thy closet.”\",\"suggested_fix\":\"Replace «στο ταμείο σου» with «στο ιδιαίτερο δωμάτιό σου» (or another clear modern Greek equivalent for a private room), preserving the quotation marks.\",\"translation_quote\":\"Ο Ιησούς ξεκαθάρισε ότι η θρησκευτική αφοσίωση έπρεπε να είναι ιδιωτική, «στο ταμείο σου».\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 670,
+    "content_evidence_truncated": false,
+    "content_sha256": "3117b6b80ea58f7cdb7d084e342437b339b9f92464ae235431eebdd8f21810df",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 642,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14342,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15149
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

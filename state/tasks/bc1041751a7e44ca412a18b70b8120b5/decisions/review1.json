@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "III. Patterns of True Worship — c. Singing, Colossians 3:16",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Ändra i citatet till: ”sjung med nåd i era hjärtan till Herren”.",
+      "translation_quote": "”sjung med tacksamhet i era hjärtan till Gud”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Ce que la Bible dit de la nourriture — citation d’Ecclésiaste 2:24",
+      "severity": "major",
+      "source_quote": "“...that he should make his soul enjoy good in his labour.”",
+      "suggested_fix": "Remplacer « et de jouir du bien-être au milieu de son travail » par une formulation qui conserve l’idée de l’âme jouissant du bien dans son travail, par exemple : « et que son âme jouisse du bien dans son travail ». Garder les balises <em> et la référence inchangées.",
+      "translation_quote": "« … de manger, de boire et de jouir du bien-être au milieu de son travail. »"
+    },
+    {
+      "location": "Ce que la Bible dit de la nourriture — citation de 1 Corinthiens 3:16-17",
+      "severity": "major",
+      "source_quote": "“If any man defile the temple of God, him shall God destroy”",
+      "suggested_fix": "Rendre « defile » par une formulation correspondant à profaner/souiller, et non détruire, par exemple : « Si quelqu’un profane le temple de Dieu, Dieu le détruira ». Conserver la balise <em> et la référence inchangées.",
+      "translation_quote": "« Si quelqu’un détruit le temple de Dieu, Dieu le détruira »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

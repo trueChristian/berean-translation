@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 8569
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 718,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 582,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8395,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8392,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9113
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “There was a crowd of people…”; quoted John 12:29",
+      "severity": "major",
+      "source_quote": "The people therefore, that stood by, and heard it, said that it thundered",
+      "suggested_fix": "Replace the quoted clause with: העם שעמד שם ושמע זאת אמר שזה היה רעם. This corrects the meaning while preserving the existing <em> structure and reference.",
+      "translation_quote": "העם שעמד שם ושמע זאת אמר שהתרעם"
+    }
+  ],
   "id": "b0c4911750ea4e635b85e4af14aef390",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "heb",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

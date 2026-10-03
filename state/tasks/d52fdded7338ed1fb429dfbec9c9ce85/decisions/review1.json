@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section I.a, Romans 10:17 quotation",
+      "severity": "major",
+      "source_quote": "“So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.”",
+      "suggested_fix": "Change “मसीह के वचन से” to “परमेश्वर के वचन से” so the attribution matches the source.",
+      "translation_quote": "“सो विश्वास सुनने से, और सुनना मसीह के वचन से होता है –रोमियों 10:17।”"
+    },
+    {
+      "location": "HTML, section I.a, Hebrews 11:6 quotation",
+      "severity": "major",
+      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+      "suggested_fix": "Include the omitted qualification in the translated quotation, for example: “विश्वास आशा की हुई वस्तुओं का निश्चय और अनदेखी (या प्रदर्शित न की गई) वस्तुओं का प्रमाण है।”",
+      "translation_quote": "“विश्वास आशा की हुई वस्तुओं का निश्चय, और अनदेखी वस्तुओं का प्रमाण है।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

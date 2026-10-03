@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, fourth stanza, second line\",\"severity\":\"minor\",\"source_quote\":\"With dreams afresh to seek and fill.\",\"suggested_fix\":\"Replace with: \\\"עם חלומות חדשים לשאוף אליהם ולהגשים.\\\"\",\"translation_quote\":\"כשחלומות חדשים ממתינים לחיפוש ולהגשמה.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 357,
+    "content_evidence_truncated": false,
+    "content_sha256": "3257b1b6b09ad19c8d76cc8edb4bc5ec372b3bf4f3b4eae2f0674c9d2ada3d55",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 716,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1962,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1959,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2777
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

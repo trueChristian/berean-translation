@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning « Je priais souvent… »",
+      "severity": "major",
+      "source_quote": "This song was one I’d pray in the dark of the midnight when I couldn’t sleep",
+      "suggested_fix": "Replace « Je priais souvent en chantant ce cantique dans l’obscurité de minuit » with « Je priais souvent avec ce cantique dans l’obscurité de minuit » to avoid adding that the author sang it.",
+      "translation_quote": "Je priais souvent en chantant ce cantique dans l’obscurité de minuit"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

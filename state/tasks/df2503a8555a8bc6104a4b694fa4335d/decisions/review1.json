@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second paragraph",
+      "severity": "major",
+      "source_quote": "“At dusk that evening, my husband, and I, waited with our friend outside his sister’s home.”",
+      "suggested_fix": "Change “met onze vriendin buiten het huis van haar zus” to “met onze vriend buiten het huis van zijn zus” to preserve the source’s male friend and his sister.",
+      "translation_quote": "“met onze vriendin buiten het huis van haar zus”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

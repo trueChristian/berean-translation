@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 12392
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 695,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12222,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12219,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12917
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, III.b Preaching, quotation of Mark 1:14",
+      "severity": "major",
+      "source_quote": "…[He] came into Galilee, preaching the gospel of the kingdom of God –Mark 1:14.",
+      "suggested_fix": "Replace the quotation with: <em>…[Alifika] Galilaya, akihubiri Injili ya ufalme wa Mungu –Marko 1:14.</em>",
+      "translation_quote": "…[Alifika] Galilaya, akihubiri Injili ya Mungu –Marko 1:14."
+    },
+    {
+      "location": "Article, III.b Preaching, quotation of Romans 10:17",
+      "severity": "major",
+      "source_quote": "So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.",
+      "suggested_fix": "Replace the quotation with: <em>Basi imani huja kwa kusikia, na kusikia huja kwa neno la Mungu –Warumi 10:17.</em>",
+      "translation_quote": "Basi imani, chanzo chake ni kusikia; na kusikia huja kwa neno la Kristo –Warumi 10:17."
+    },
+    {
+      "location": "Article, III.c Singing, quotation of Ephesians 5:19",
+      "severity": "major",
+      "source_quote": "Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord –Ephesians 5:19.",
+      "suggested_fix": "Replace the quotation with: <em>Mkisemezana kwa zaburi na nyimbo na tenzi za rohoni, mkiimba na kufanya melody mioyoni mwenu kwa Bwana –Waefeso 5:19.</em> Translate “making melody” idiomatically into Kiswahili while preserving that it means making melody in the heart; for example: <em>Mkisemezana kwa zaburi, nyimbo na tenzi za rohoni, mkiimba na kuimba kwa moyo wenu kwa Bwana –Waefeso 5:19.</em>",
+      "translation_quote": "Mkisemezana kwa zaburi na tenzi na nyimbo za rohoni, huku mkiimba na kumshangilia Bwana mioyoni mwenu –Waefeso 5:19."
+    },
+    {
+      "location": "Article, IV Essence of True Worship, final paragraph",
+      "severity": "major",
+      "source_quote": "If our spirits are not responding to truth, we are not worshiping!",
+      "suggested_fix": "Correct the missing space and render “worshiping” as a single word: <em>Ikiwa roho zetu haziitikii kweli, hatuabudu!</em>",
+      "translation_quote": "Ikiwa roho zetu haziitikii kweli, hatu abudu!"
+    },
+    {
+      "location": "Article, Works Cited, title of A. W. Tozer work",
+      "severity": "minor",
+      "source_quote": "The Menace of the Religious Movie, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press.",
+      "suggested_fix": "Translate the title faithfully as “Tishio la Filamu za Kidini” (or another idiomatic rendering conveying the plural/general “religious movie”).",
+      "translation_quote": "Tishio la Filamu ya Kidini, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press."
+    }
+  ],
   "id": "ffe1c0be1cae529e6b66739bcc391b7d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

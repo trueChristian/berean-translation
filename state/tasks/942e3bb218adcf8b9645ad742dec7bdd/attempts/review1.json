@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, paragraph 4\",\"severity\":\"major\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"Han sto ved et veiskille, med hele livet sitt i spill.\",\"translation_quote\":\"Han sto ved et veiskille, med hele livet foran seg.\"},{\"location\":\"source.html, poem, paragraph 16\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"Han vil at jeg skal bli bevist; Han er Livet og Veien.\",\"translation_quote\":\"Han vil at det skal vise seg at Han er Livet og Veien.\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 608,
+    "content_evidence_truncated": false,
+    "content_sha256": "ce97218a311de9cc31e286efd64ea7cb7bf346aa098dbdf2ef354718d45a88f6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 673,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 504,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1835,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2511
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

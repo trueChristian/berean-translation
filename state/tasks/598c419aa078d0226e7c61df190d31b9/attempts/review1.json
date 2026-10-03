@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Body, paragraph beginning “Tunaita idadi ya kalori…”\",\"severity\":\"major\",\"source_quote\":\"“the number of calories our bodies burn while at rest”\",\"suggested_fix\":\"Change “miili yetu hutumia tukiwa tumepumzika” to “miili yetu huchoma tukiwa tumepumzika” (or “miili yetu hutumia kwa shughuli za msingi tukiwa tumepumzika”) to preserve that these are calories burned at rest, rather than calories consumed.\",\"translation_quote\":\"“idadi ya kalori ambazo miili yetu hutumia tukiwa tumepumzika”\"},{\"location\":\"Body, paragraph beginning “Kuna vyakula na viungo vingi sokoni…”\",\"severity\":\"minor\",\"source_quote\":\"“These often have a lot of different chemicals and sugar substitutes in them to get the taste and texture as similar to the regular versions as possible.”\",\"suggested_fix\":\"Use “ili ladha na umbile lake vifanane” → “ili ladha na umbile lake vifanane” (or “ili ladha na umbile vifanane”), matching the plural subject “ladha na umbile.”\",\"translation_quote\":\"“ili ladha na umbile lake vifanane kadiri iwezekanavyo”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 1130,
+    "content_evidence_truncated": false,
+    "content_sha256": "03d132a741a2862cddc9347b939b351c4140971de32a3f97ac9878dc61334fb1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8741,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8738,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9031
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

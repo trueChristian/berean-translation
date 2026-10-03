@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph, Psalm 46:1 quotation",
+      "severity": "major",
+      "source_quote": "“a very present help in trouble”",
+      "suggested_fix": "Replace “as hulp in benoudhede is Hy in hoë mate beproef” with wording that conveys that God is readily present to help in trouble, for example: “altyd ’n hulp in benoudhede” (retain the existing emphasis and reference).",
+      "translation_quote": "“as hulp in benoudhede is Hy in hoë mate beproef”"
+    },
+    {
+      "location": "Matthew 24:4–14 quotation",
+      "severity": "major",
+      "source_quote": "“the love of many shall wax cold”",
+      "suggested_fix": "Replace “die liefde van die meeste verkoel” with “die liefde van baie verkoel” so the translation preserves “many” rather than changing it to “most.”",
+      "translation_quote": "“die liefde van die meeste verkoel”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

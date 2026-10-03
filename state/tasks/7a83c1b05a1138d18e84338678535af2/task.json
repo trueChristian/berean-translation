@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 9551
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 788,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 649,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9382,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9379,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10170
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Sista bibelcitatet, Romarbrevet 1:16",
+      "severity": "minor",
+      "source_quote": "“for it is the power of God unto salvation”",
+      "suggested_fix": "Ändra ”Det är en Guds kraft till frälsning” till ”Det är Guds kraft till frälsning” för att återge bestämdheten i citatet.",
+      "translation_quote": "”Det är en Guds kraft till frälsning för var och en som tror”"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:19+00:00",
   "id": "7a83c1b05a1138d18e84338678535af2",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swe",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

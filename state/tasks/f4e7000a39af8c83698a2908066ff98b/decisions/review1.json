@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "القصيدة، المقطع الأول",
+      "severity": "major",
+      "source_quote": "‘Mid the crash of the thunder, Precious Lord, hear my cry, / Keep me safe till the storm passes by.",
+      "suggested_fix": "استبدل «وسط دوي الرعد، يا ربّي العزيز، اسمع صراخي،<br>واحفظني آمنة حتى تعبر العاصفة.» بـ «وسط دوي الرعد، يا ربّي الثمين، اسمع صراخي،<br>واحفظني آمنًا حتى تعبر العاصفة.»",
+      "translation_quote": "وسط دوي الرعد، يا ربّي العزيز، اسمع صراخي،<br>واحفظني آمنة حتى تعبر العاصفة."
+    },
+    {
+      "location": "القصيدة، اللازمة",
+      "severity": "major",
+      "source_quote": "Hold me fast, let me stand in the hollow of Thy hand,",
+      "suggested_fix": "استبدل «أمسك بي بإحكام، ودعني أقف في كنف يدك،» بـ «أمسكني بإحكام، ودعني أقف في جوف كفك،»",
+      "translation_quote": "أمسك بي بإحكام، ودعني أقف في كنف يدك،"
+    },
+    {
+      "location": "القصيدة، المقطع الثاني",
+      "severity": "major",
+      "source_quote": "But I know Thou art with me, and tomorrow I’ll rise / Where the storms never darken the skies.",
+      "suggested_fix": "استبدل «لكنني أعلم أنك معي، وغدًا سأقوم،<br>حيث لا تعتم العواصف السماء أبدًا.» بـ «لكنني أعلم أنك معي، وغدًا سأقوم<br>إلى حيث لا تظلم العواصف السماء أبدًا.»",
+      "translation_quote": "لكنني أعلم أنك معي، وغدًا سأقوم،<br>حيث لا تعتم العواصف السماء أبدًا."
+    },
+    {
+      "location": "الفقرة الأخيرة قبل الصورة",
+      "severity": "major",
+      "source_quote": "And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.",
+      "suggested_fix": "استبدل «ثم رأيت سماء جديدة وأرضًا جديدة، لأن السماء الأولى والأرض الأولى قد زالتا، ولم يعد البحر موجودًا.» بـ «ورأيت سماءً جديدة وأرضًا جديدة، لأن السماء الأولى والأرض الأولى قد مضتا، ولم يعد بحرٌ موجودًا.»",
+      "translation_quote": "ثم رأيت سماء جديدة وأرضًا جديدة، لأن السماء الأولى والأرض الأولى قد زالتا، ولم يعد البحر موجودًا."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 13026
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 311,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12857,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12854,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13168
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "III. Patterns of True Worship > c. Singing; paragraph beginning “New Testament worship”",
+      "severity": "major",
+      "source_quote": "“External instrumentation tends to focus on a person’s abilities rather than on the heart.”",
+      "suggested_fix": "“বাহ্যিক বাদ্যযন্ত্র একজন ব্যক্তির হৃদয়ের বদলে তার দক্ষতার দিকে মনোযোগ আকর্ষণ করে।”",
+      "translation_quote": "“বাহ্যিক বাদ্যযন্ত্র একজন ব্যক্তির হৃদয়ের বদলে তার দক্ষতার দিকে মনোযোগ আকর্ষণ করে।”"
+    },
+    {
+      "location": "III. Patterns of True Worship > c. Singing; final paragraph",
+      "severity": "major",
+      "source_quote": "“The spirit of worship replaces the rituals.”",
+      "suggested_fix": "“উপাসনার আত্মা আচার-অনুষ্ঠানের পরিবর্তে আসে।”",
+      "translation_quote": "“উপাসনার আত্মা আচার-অনুষ্ঠানের স্থান নেয়।”"
+    },
+    {
+      "location": "IV. Essence of True Worship; paragraph quoting John 4:22c",
+      "severity": "major",
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "“পরিত্রাণ যিশুর কাছ থেকে আসে” অংশটি সংশোধন করে লিখুন: “পরিত্রাণ ইহুদিদের কাছ থেকে আসে” (৪:২২গ)।",
+      "translation_quote": "“পরিত্রাণ যিশুর কাছ থেকে আসে” (৪:২২গ)।"
+    }
+  ],
   "id": "a5a9996b0bac9e1c846da98499b4a1b6",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ben",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

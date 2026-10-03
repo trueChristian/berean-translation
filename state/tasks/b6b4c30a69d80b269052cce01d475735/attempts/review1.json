@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ce que la Bible dit de la nourriture — citation d’Ecclésiaste 2:24\",\"severity\":\"major\",\"source_quote\":\"“...that he should make his soul enjoy good in his labour.”\",\"suggested_fix\":\"Remplacer « et de jouir du bien-être au milieu de son travail » par une formulation qui conserve l’idée de l’âme jouissant du bien dans son travail, par exemple : « et que son âme jouisse du bien dans son travail ». Garder les balises <em> et la référence inchangées.\",\"translation_quote\":\"« … de manger, de boire et de jouir du bien-être au milieu de son travail. »\"},{\"location\":\"Ce que la Bible dit de la nourriture — citation de 1 Corinthiens 3:16-17\",\"severity\":\"major\",\"source_quote\":\"“If any man defile the temple of God, him shall God destroy”\",\"suggested_fix\":\"Rendre « defile » par une formulation correspondant à profaner/souiller, et non détruire, par exemple : « Si quelqu’un profane le temple de Dieu, Dieu le détruira ». Conserver la balise <em> et la référence inchangées.\",\"translation_quote\":\"« Si quelqu’un détruit le temple de Dieu, Dieu le détruira »\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1161,
+    "content_evidence_truncated": false,
+    "content_sha256": "51a6f49422a587929f1e1369099fbd9c2dfefe24366bdfe64b6e7a6c266a6e62",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 884,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 578,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8222,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8219,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9106
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

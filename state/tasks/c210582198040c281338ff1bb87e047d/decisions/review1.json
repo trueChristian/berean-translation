@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Ephesians 5:10–13 quotation",
+      "severity": "major",
+      "source_quote": "“whatsoever doth make manifest is light”",
+      "suggested_fix": "Change “want alles wat openbaar word, is lig” to “want alles wat openbaar maak, is lig” so the sentence says that what exposes things is light.",
+      "translation_quote": "“want alles wat openbaar word, is lig”"
+    },
+    {
+      "location": "Romans 1:16 quotation",
+      "severity": "major",
+      "source_quote": "“for it is the power of God unto salvation”",
+      "suggested_fix": "Change “want dit is ’n krag van God tot redding” to “want dit is die krag van God tot redding” to preserve the source’s definite assertion.",
+      "translation_quote": "“want dit is ’n krag van God tot redding”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

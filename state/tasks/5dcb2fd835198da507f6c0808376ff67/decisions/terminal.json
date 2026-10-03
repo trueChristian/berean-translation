@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Alinea over de weg naar Emmaüs",
+      "severity": "minor",
+      "source_quote": "“While they marveled at this newcomer’s oblivious ignorance to the current events”",
+      "suggested_fix": "Vervang “de onwetende onwetendheid van deze nieuwkomer over de actuele gebeurtenissen” door bijvoorbeeld “dat deze nieuwkomer zo onwetend was over de actuele gebeurtenissen”.",
+      "translation_quote": "“terwijl ze zich verbaasden over de onwetende onwetendheid van deze nieuwkomer over de actuele gebeurtenissen”"
+    },
+    {
+      "location": "Alinea over de verantwoordelijkheid van predikanten",
+      "severity": "minor",
+      "source_quote": "“fall prey to animated preaching”",
+      "suggested_fix": "Vervang “geanimeerde prediking” door “overdreven expressieve prediking” of een andere gangbare formulering voor levendig, nadrukkelijk preken.",
+      "translation_quote": "“ten prooi vallen aan geanimeerde prediking”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

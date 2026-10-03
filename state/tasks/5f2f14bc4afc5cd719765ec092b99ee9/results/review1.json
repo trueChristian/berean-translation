@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8774ff6c-903e-4ae6-ace2-eb5b48145d92",
+    "response_id": "chatcmpl-EUrUKxZiPIqOXfhkBInv5wWwYuaiv",
+    "usage": {
+      "completion_tokens": 838,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 573,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4748,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4745,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5586
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, final paragraph (Jude 1:24-25)",
+        "severity": "major",
+        "source_quote": "“To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.”",
+        "suggested_fix": "Replace the ending with a faithful Italian translation of the printed wording, for example: «all’unico Dio, nostro Salvatore, siano gloria e maestà, dominio e potenza, ora e per sempre». Do not add wording absent from the source.",
+        "translation_quote": "“all’unico Dio, nostro Salvatore, per mezzo di Gesù Cristo nostro Signore, siano gloria, maestà, forza e potere, prima di tutti i tempi, ora e per tutti i secoli.”"
+      },
+      {
+        "location": "HTML, first paragraph (Psalm 62:7)",
+        "severity": "minor",
+        "source_quote": "“In God is my salvation and my glory”",
+        "suggested_fix": "For clearer Italian agreement, use «In Dio è la mia salvezza e la mia gloria».",
+        "translation_quote": "“In Dio sono la mia salvezza e la mia gloria”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

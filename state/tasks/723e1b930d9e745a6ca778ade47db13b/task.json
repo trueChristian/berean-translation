@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 9880
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 653,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9684,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9681,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10564
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “There was a modern church that caught my attention.”",
+      "severity": "minor",
+      "source_quote": "“They seemed to be on fire for the Lord!”",
+      "suggested_fix": "Replace “Walionekana kumwaka kwa ajili ya Bwana!” with “Walionekana kuwaka moto kwa ajili ya Bwana!”",
+      "translation_quote": "“Walionekana kumwaka kwa ajili ya Bwana!”"
+    },
+    {
+      "location": "HTML paragraph beginning “As I was standing in line at a fast-food restaurant”",
+      "severity": "minor",
+      "source_quote": "“He got sober and explained that he wanted to believe in God but couldn’t.”",
+      "suggested_fix": "Use “Alitulia na kueleza...” or “Akawa na uzito wa mawazo, kisha akaeleza...” to convey that he became serious or sober in demeanor.",
+      "translation_quote": "“Akawa mtulivu na kueleza kwamba alitaka kumwamini Mungu lakini hakuweza.”"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:19+00:00",
   "id": "723e1b930d9e745a6ca778ade47db13b",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

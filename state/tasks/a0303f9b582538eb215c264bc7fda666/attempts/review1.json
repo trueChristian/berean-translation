@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph beginning “When I was a little girl”\",\"severity\":\"major\",\"source_quote\":\"a life-threatening heart attack caused by a spontaneous coronary artery dissection\",\"suggested_fix\":\"Replace “خودبخود دل کی شریان پھٹنے کے باعث” with “کورونری شریان کی دیوار میں اچانک شگاف پڑنے کے باعث” to convey a spontaneous coronary artery dissection rather than a ruptured artery.\",\"translation_quote\":\"خودبخود دل کی شریان پھٹنے کے باعث جان لیوا دل کا دورہ\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 629,
+    "content_evidence_truncated": false,
+    "content_sha256": "3616ecdbdd8b2d9771ecaa1adf92ee010448ab395aa7ab7d0375da89520a5895",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 555,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4126,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4123,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4832
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

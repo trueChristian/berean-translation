@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf kutipan terakhir, Roma 1:16",
+      "severity": "major",
+      "source_quote": "For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation to every one that believeth",
+      "suggested_fix": "Ganti teks kutipan di dalam tag <em> dengan: “Sebab aku tidak malu terhadap Injil Kristus: karena Injil itu adalah kekuatan Allah yang menyelamatkan setiap orang yang percaya, pertama-tama orang Yahudi, tetapi juga orang Yunani –Roma 1:16.” Pertahankan tag dan strukturnya.",
+      "translation_quote": "Sebab aku mempunyai keyakinan yang kokoh dalam Injil, karena Injil adalah kekuatan Allah yang menyelamatkan setiap orang yang percaya, pertama-tama orang Yahudi, tetapi juga orang Yunani –Roma 1:16."
+    },
+    {
+      "location": "Paragraf tentang pemuda bertato di restoran cepat saji",
+      "severity": "minor",
+      "source_quote": "He got sober and explained that he wanted to believe in God but couldn’t.",
+      "suggested_fix": "Ganti “Ia menjadi tenang” dengan “Ia menjadi serius” agar nuansa bahwa ia menanggapi pembicaraan itu dengan sungguh-sungguh lebih terjaga.",
+      "translation_quote": "Ia menjadi tenang dan menjelaskan bahwa ia ingin percaya kepada Allah, tetapi tidak bisa."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

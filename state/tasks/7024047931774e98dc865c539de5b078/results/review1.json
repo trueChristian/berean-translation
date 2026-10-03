@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "63401594-597e-4de2-a901-c917d0962d75",
+    "response_id": "chatcmpl-EUrUUn9GF8nJEpZcKC36IDGn0iSeN",
+    "usage": {
+      "completion_tokens": 226,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8157,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8386
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, heading “...Carbohydrates make you gain weight.” and the following paragraph",
+        "severity": "major",
+        "source_quote": "“Carbohydrate is the medical term for sugars.”",
+        "suggested_fix": "استبدل «الكربوهيدرات هو المصطلح الطبي للسكريات» بصياغة تنقل العبارة المطبوعة كما هي، مثل: «الكربوهيدرات مصطلح طبي يُطلق على السكريات.»",
+        "translation_quote": "«الكربوهيدرات هو المصطلح الطبي للسكريات.»"
+      },
+      {
+        "location": "source.html and translation.html, paragraph beginning “If these foods work...”",
+        "severity": "major",
+        "source_quote": "“5 strips of bacon”",
+        "suggested_fix": "ترجم نوع الطعام كما ورد في المصدر، مثلاً: «خمس شرائح من لحم الخنزير المقدد»؛ ولا تستبدله بلحم عام.",
+        "translation_quote": "«خمس شرائح من لحم الخنزير المقدد»"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, paragraph 4",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Era a un bivio, con tutta la sua vita in gioco.",
+      "translation_quote": "Era a un bivio, con tutta la sua vita davanti."
+    },
+    {
+      "location": "HTML, poem, final two paragraphs",
+      "severity": "major",
+      "source_quote": "There’s no better One, in Whom to put all your trust; Than the almighty God. For all men it’s a must!",
+      "suggested_fix": "Non c’è nessuno migliore di Dio onnipotente in cui riporre tutta la propria fiducia; per ogni uomo è indispensabile farlo!",
+      "translation_quote": "Non c’è nessuno migliore in cui riporre tutta la propria fiducia; se non Dio onnipotente. Per ogni uomo è un dovere!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

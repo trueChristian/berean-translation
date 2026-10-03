@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, third stanza, second line",
+      "severity": "major",
+      "source_quote": "All would have escaped this pain.",
+      "suggested_fix": "काश, सब इस पीड़ा से बच निकलते।",
+      "translation_quote": "ताकि सभी इस पीड़ा से बच निकलें।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

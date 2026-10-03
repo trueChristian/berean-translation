@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 3\",\"severity\":\"major\",\"source_quote\":\"“there’s the ever-present issue of a worldwide pestilence—Covid-19.”\",\"suggested_fix\":\"Replace “de altijd aanwezige dreiging van een wereldwijde plaag” with “het altijd aanwezige probleem van een wereldwijde plaag” to retain the source’s assertion that this is an ongoing issue, not merely a threat.\",\"translation_quote\":\"“er is ook nog de altijd aanwezige dreiging van een wereldwijde plaag—Covid-19.”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 536,
+    "content_evidence_truncated": false,
+    "content_sha256": "8f6b0ec40f60c72fba1543fc50cac5021eb6a6c36d944995d0f425a980cf4cdf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4638,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4635,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5375
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

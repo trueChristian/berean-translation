@@ -2,7 +2,6 @@
   "article_id": "73def952-dd77-4a51-b030-27713e0cedd2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 4161
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 981,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 499,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4020,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4017,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5001
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“There was a crayfish under there!”",
+      "suggested_fix": "Replace “kamba” with a Kiswahili term for a freshwater crayfish, such as “kaa-mdogo wa maji baridi,” so the animal is not confused with a shrimp/prawn.",
+      "translation_quote": "“Kulikuwa na kamba chini yake!”"
+    },
+    {
+      "location": "Paragraph 14",
+      "severity": "major",
+      "source_quote": "“Their splashes got bigger and bigger. They were having a lot of fun seeing who could make the biggest splash.”",
+      "suggested_fix": "Revise these sentences to say that the splashes grew larger and that the girls enjoyed seeing who could make the biggest splash; for example: “Mikupuo ya maji ilizidi kuwa mikubwa. Walifurahia sana kuona ni nani angeweza kutengeneza mkupuo mkubwa zaidi.”",
+      "translation_quote": "“Maji waliyokuwa wakiyatawanya yalizidi kuwa mengi. Walifurahia sana kuona ni nani angeweza kutapakaza maji mengi zaidi.”"
+    },
+    {
+      "location": "Paragraph 19",
+      "severity": "minor",
+      "source_quote": "“I’m going to tell Mom that you broke the oar.”",
+      "suggested_fix": "Correct the spacing error: “Nitamwambia Mama kwamba mmevunja kasia.”",
+      "translation_quote": "“Nit amwambia Mama kwamba mmevunja kasia.”"
+    },
+    {
+      "location": "First image alt text",
+      "severity": "minor",
+      "source_quote": "“Rowboat reflected in calm water”",
+      "suggested_fix": "Make the reflection explicit, for example: “Mashua ya makasia ikionekana kwenye maji tulivu.”",
+      "translation_quote": "“Boti ya makasia ikionekana kwenye maji tulivu”"
+    },
+    {
+      "location": "Second image alt text",
+      "severity": "minor",
+      "source_quote": "“Weathered and broken wooden oars on boards”",
+      "suggested_fix": "Describe the oars themselves as weathered and broken, rather than describing only their handles; for example: “Makasia ya mbao yaliyochakaa na kuvunjika juu ya mbao.”",
+      "translation_quote": "“Mikono ya makasia ya mbao iliyochakaa na kuvunjika juu ya mbao”"
+    }
+  ],
   "id": "611928661e834d70759a6c58e8583187",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
   "translation_model_actual": "gpt-6-luna"

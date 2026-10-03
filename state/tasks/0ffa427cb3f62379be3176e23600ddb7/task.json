@@ -2,7 +2,6 @@
   "article_id": "201a1b3e-85b3-4e62-bc45-118a8c1f5367",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 4866
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 146,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4725,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4722,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4871
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article paragraph beginning “What all can we be deceived by?”; Scripture reference to Job",
+      "severity": "major",
+      "source_quote": "(See Job 1;11; 2:5; and 2:9).",
+      "suggested_fix": "Behåll hänvisningen enligt källans exakta kapitel- och versnummer, men rätta versavskiljaren: ”(se Job 1:11; 2:5; och 2:9).”",
+      "translation_quote": "(se Job 1;11; 2:5; och 2:9)."
+    }
+  ],
   "id": "0ffa427cb3f62379be3176e23600ddb7",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swe",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3247d37db60af5cb04c89fcb95f19a48f92e4609f34cce657f7405b402cfca9f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
   "translation_model_actual": "gpt-6-luna"

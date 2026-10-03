@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3b61a1f9-a4f7-4d8c-89b8-8882e9060010",
+    "response_id": "chatcmpl-EUrUKHUn2lKPm0FznvSPzmtyecZcG",
+    "usage": {
+      "completion_tokens": 949,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 659,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11530,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11527,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12479
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section I.a, Hebrews 11:6 quotation",
+        "severity": "major",
+        "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+        "suggested_fix": "Vertaal de haakjes zo dat ze aansluiten bij ‘dingen die men niet ziet’, bijvoorbeeld: ‘een bewijs van de dingen waarop men hoopt, en een bewijs van de dingen die men niet ziet (of die niet worden gedemonstreerd).’",
+        "translation_quote": "„Het geloof nu is een vaste grond van de dingen die men hoopt, en een bewijs van de zaken die men niet ziet (of demonstreert).”"
+      },
+      {
+        "location": "HTML, section III.a, paragraph about prayer-meeting attendance",
+        "severity": "minor",
+        "source_quote": "“Prayer meeting attendance was not a monthly or a bimonthly option”",
+        "suggested_fix": "Gebruik een formulering die ‘bimonthly’ niet vastlegt op tweemaal per maand, bijvoorbeeld: ‘Deelname aan gebedsbijeenkomsten was geen maandelijkse of tweemaandelijkse keuze.’",
+        "translation_quote": "“Deelname aan gebedsbijeenkomsten was geen keuze die men maandelijks of tweemaal per maand kon maken”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

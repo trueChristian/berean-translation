@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,80 @@
         },
         "total_tokens": 10207
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 803,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10066,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10063,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10869
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "पैराग्राफ 7",
+      "severity": "major",
+      "source_quote": "“Bigot!”",
+      "suggested_fix": "“कट्टरपंथी!” के स्थान पर “असहिष्णु!” या संदर्भानुसार “संकीर्ण विचारों वाला!” करें।",
+      "translation_quote": "“कट्टरपंथी!”"
+    },
+    {
+      "location": "पैराग्राफ 19",
+      "severity": "major",
+      "source_quote": "“because we know that we have what they need!”",
+      "suggested_fix": "इसे “क्योंकि हम जानते हैं कि हमारे पास वह है जिसकी उन्हें ज़रूरत है!” करें।",
+      "translation_quote": "“क्योंकि हम जानते हैं कि उनके पास वही नहीं है जिसकी उन्हें ज़रूरत है!”"
+    },
+    {
+      "location": "पैराग्राफ 23",
+      "severity": "major",
+      "source_quote": "“The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.”",
+      "suggested_fix": "अधूरे वाक्य को अधूरा ही रखते हुए “अमेरिकी कलीसिया अपनी, अपने परिवारों और अपने देश की ‘रक्षा करने’ को वीरता या बहादुरी कहती है; बाइबल इसे कहती है।” करें। अभी अनुवाद में अतिरिक्त “कहती है” से वाक्य पूरा कर दिया गया है।",
+      "translation_quote": "“अमेरिकी कलीसिया अपनी, अपने परिवारों और अपने देश की ‘रक्षा करने’ को वीरता या बहादुरी कहती है; बाइबल इसे कहती है।”"
+    },
+    {
+      "location": "पैराग्राफ 28",
+      "severity": "major",
+      "source_quote": "“The Bible says that few will make it.”",
+      "suggested_fix": "“बाइबल कहती है कि थोड़े ही लोग सफल होंगे।” करें। स्रोत में “उद्धार पाएँगे” स्पष्ट नहीं कहा गया है; अनुवाद में उद्धार का अर्थ जोड़ दिया गया है।",
+      "translation_quote": "“बाइबल कहती है कि थोड़े ही लोग उद्धार पाएँगे।”"
+    },
+    {
+      "location": "पैराग्राफ 30",
+      "severity": "major",
+      "source_quote": "“The pastor preached as a dying man.”",
+      "suggested_fix": "इसे “पास्टर ने ऐसे प्रचार किया मानो वह मरने वाला हो।” करें। “मर रहा हो” वर्तमान में मरने की स्थिति बताता है, जबकि स्रोत का आशय मृत्यु के निकट व्यक्ति की तरह प्रचार करना है।",
+      "translation_quote": "“पास्टर ने ऐसे प्रचार किया मानो वह मर रहा हो।”"
+    },
+    {
+      "location": "पैराग्राफ 31",
+      "severity": "major",
+      "source_quote": "“the pastor was released from his position because he was having an affair.”",
+      "suggested_fix": "इसे “उस पास्टर को उसके पद से हटा दिया गया, क्योंकि उसका विवाहेतर संबंध चल रहा था।” करें। “था” से संबंध जारी होने का अर्थ अस्पष्ट/परिवर्तित हो जाता है।",
+      "translation_quote": "“उस पास्टर को उसके पद से हटा दिया गया, क्योंकि उसका विवाहेतर संबंध था।”"
+    },
+    {
+      "location": "पैराग्राफ 32",
+      "severity": "major",
+      "source_quote": "“Being cool does not define a true Christian but being rejected for the sake of the Gospel does.”",
+      "suggested_fix": "“कूल होना सच्चे मसीही की पहचान नहीं है, लेकिन सुसमाचार के लिए अस्वीकार किया जाना है।” करें। मौजूदा अनुवाद में “cool” का अर्थ “लोकप्रिय” कर दिया गया है; स्रोत का आशय फैशनेबल/कूल दिखने से है।",
+      "translation_quote": "“लोकप्रिय होना सच्चे मसीही होने की पहचान नहीं है, लेकिन सुसमाचार के लिए अस्वीकार किया जाना है।”"
+    }
+  ],
   "id": "ab71b75677820f3ef9a1f57a25313065",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -116,11 +186,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Τα πράγματα στα οποία προσηλώνουμε…»",
+      "severity": "minor",
+      "source_quote": "“Live nobly and you will hear nobly”",
+      "suggested_fix": "Replace «Ζήσε ευγενικά και θα ακούς ευγενικά» with «Ζήσε με ευγένεια και θα ακούς με ευγένεια» only if the intended sense is courteous; to preserve “nobly,” use «Ζήσε με ευγενή τρόπο και θα ακούς με ευγενή τρόπο».",
+      "translation_quote": "«Ζήσε ευγενικά και θα ακούς ευγενικά»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "73def952-dd77-4a51-b030-27713e0cedd2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,53 @@
         },
         "total_tokens": 4353
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1151,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 766,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4212,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4209,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5363
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “মেয়েরা চারণভূমি পেরিয়ে” and paragraph beginning “এই জায়গাতেই”",
+      "severity": "minor",
+      "source_quote": "“They walked down a dirt path to the stream.” / “It was at this spot that the creek bed was filled with some unusual rocks.”",
+      "suggested_fix": "Use “খাল” or “ছোট জলধারা” consistently for “creek/stream” here and in the later references to the creek; for example, change “ঝরনার দিকে” to “খালের দিকে” and “ঝরনার তলদেশ” to “খালের তলদেশ।”",
+      "translation_quote": "“তারা মাটির পথ ধরে ঝরনার দিকে নামল।” / “এই জায়গাতেই ঝরনার তলদেশ ভরে ছিল কিছু অদ্ভুত পাথরে।”"
+    },
+    {
+      "location": "HTML, first figure alt text",
+      "severity": "minor",
+      "source_quote": "“Rowboat reflected in calm water”",
+      "suggested_fix": "Change “নৌকা” to “বৈঠাচালিত নৌকা” to retain that the pictured boat is a rowboat.",
+      "translation_quote": "“শান্ত জলে প্রতিফলিত নৌকা”"
+    },
+    {
+      "location": "HTML, final figure alt text",
+      "severity": "minor",
+      "source_quote": "“Weathered and broken wooden oars on boards”",
+      "suggested_fix": "Add the weathered quality, for example: “তক্তার ওপর পড়ে থাকা আবহাওয়ায় ক্ষয়প্রাপ্ত ও ভাঙা কাঠের বৈঠা।”",
+      "translation_quote": "“পুরোনো ও ভাঙা কাঠের বৈঠা তক্তার ওপর রাখা”"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:20+00:00",
   "id": "e8d18d9e4d2083d82aeb42651f18ae72",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ben",
@@ -116,11 +159,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
   "translation_model_actual": "gpt-6-luna"

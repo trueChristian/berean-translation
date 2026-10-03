@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "24af66d1-d87d-454d-b86c-492a4debac7c",
+    "response_id": "chatcmpl-EUrVcM6s3RnIVHbBppnTppWltMrQI",
+    "usage": {
+      "completion_tokens": 984,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 835,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4954,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5941
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “But she beat him to the subject”",
+        "severity": "major",
+        "source_quote": "“I mean, jumping around like that in front of the maidens, just like a vain fellow from off the streets!”",
+        "suggested_fix": "Replace “kama mtu mpumbavu wa mitaani” with “kama mtu mwenye majivuno wa mitaani” to preserve the meaning of “vain fellow.”",
+        "translation_quote": "“Namaanisha, kurukaruka hivyo mbele ya vijakazi, kama mtu mpumbavu wa mitaani!”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

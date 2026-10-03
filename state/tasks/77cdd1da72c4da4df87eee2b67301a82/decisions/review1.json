@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 요한계시록 21:3 인용",
+      "severity": "major",
+      "source_quote": "And I heard a great voice out of heaven saying",
+      "suggested_fix": "해당 구절을 “내가 들으니 하늘에서 큰 음성이 나서 이르되”로 고쳐, 음성이 난 곳을 원문과 일치시키세요.",
+      "translation_quote": "내가 들으니 보좌에서 큰 음성이 나서 이르되"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"诗歌第三节第二行\",\"severity\":\"major\",\"source_quote\":\"All would have escaped this pain.\",\"suggested_fix\":\"可改为：“我们所有人都本可以逃脱这痛苦。”\",\"translation_quote\":\"若能逃脱这痛苦，一切都会好起来。\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 303,
+    "content_evidence_truncated": false,
+    "content_sha256": "0219c3ce82667d4163ed51d987c788b45a2fbb0c2b900d4b9c5205a93685d03b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 393,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2393,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2877
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

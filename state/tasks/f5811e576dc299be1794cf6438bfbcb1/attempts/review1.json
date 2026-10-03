@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, párrafo 7\",\"severity\":\"minor\",\"source_quote\":\"“Yes, let’s do that and then we can walk along the road back to the driveway.”\",\"suggested_fix\":\"—Sí, hagámoslo, y luego podemos volver caminando por el camino hasta el camino de entrada.\",\"translation_quote\":\"—Sí, hagámoslo, y luego podemos volver caminando por el camino hasta la entrada del camino de acceso.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 433,
+    "content_evidence_truncated": false,
+    "content_sha256": "2c5df26cab04dd6c98b3b7e556356561365b2fad08a61bbd62fa52774cd3315c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 524,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3731,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3728,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4379
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Lyrics, refrain",
+      "severity": "minor",
+      "source_quote": "Hold me fast, let me stand in the hollow of Thy hand,",
+      "suggested_fix": "“দৃঢ় করে ধরে রাখো, তোমার হাতের করতলে আমাকে দাঁড়াতে দাও,”",
+      "translation_quote": "দৃঢ় করে ধরে রাখো, তোমার হাতের ছায়ায় আমাকে দাঁড়াতে দাও,"
+    },
+    {
+      "location": "Paragraph beginning “When I was a little girl”",
+      "severity": "minor",
+      "source_quote": "The storm was howling, and the thunder was crashing.",
+      "suggested_fix": "“ঝড় গর্জাচ্ছিল, আর বজ্রের গর্জন হচ্ছিল।”",
+      "translation_quote": "ঝড় গর্জাচ্ছিল, বজ্রপাত হচ্ছিল।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

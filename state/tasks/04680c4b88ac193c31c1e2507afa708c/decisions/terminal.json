@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "मुख्य लेख, अनुच्छेद 2; उद्धृत गीत की पंक्ति 3",
+      "severity": "minor",
+      "source_quote": "But I know Thou art with me, and tomorrow I’ll rise",
+      "suggested_fix": "गीत के वक्ता के लिए स्त्रीलिंग रूप अपनाएँ: “पर मैं जानती हूँ, तू मेरे साथ है, और कल मैं उठ खड़ी होऊँगी,”",
+      "translation_quote": "पर मैं जानता हूँ, तू मेरे साथ है, और कल मैं उठ खड़ा होऊँगा,"
+    },
+    {
+      "location": "मुख्य लेख, अनुच्छेद 3",
+      "severity": "minor",
+      "source_quote": "This song was one I’d pray in the dark of the midnight when I couldn’t sleep",
+      "suggested_fix": "“जब मैं आधी रात के अँधेरे में सो नहीं पाती थी और डर मुझ पर हावी होने की धमकी देता था, तब मैं इस गीत को प्रार्थना के रूप में दोहराती थी।”",
+      "translation_quote": "जब मैं आधी रात के अँधेरे में सो नहीं पाती थी और डर मुझ पर हावी होने की धमकी देता था, तब यह उन गीतों में से एक था जिसे मैं प्रार्थना में गाती थी।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

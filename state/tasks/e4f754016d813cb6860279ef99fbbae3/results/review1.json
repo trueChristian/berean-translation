@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1f1f8f3f-76b7-4ec0-89a3-00958f87b2af",
+    "response_id": "chatcmpl-EUrUMpNKSAw6EKhOT8MaeBBQVooGV",
+    "usage": {
+      "completion_tokens": 293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5038,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5035,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5331
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "अनुच्छेद 10",
+        "severity": "major",
+        "source_quote": "“The only one who can help you is God. And if you don’t want His help, there’s no hope for your marriage.”",
+        "suggested_fix": "“केवल परमेश्वर ही आपकी मदद कर सकता है। और अगर आप उसकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।” में “उसकी” को बहुवचन/सम्मानसूचक “उनकी” करें: “और अगर आप उनकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।”",
+        "translation_quote": "“केवल परमेश्वर ही आपकी मदद कर सकता है। और अगर आप उसकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।”"
+      },
+      {
+        "location": "अनुच्छेद 18",
+        "severity": "major",
+        "source_quote": "“My choice determines the reciprocating favor or loss.”",
+        "suggested_fix": "वाक्य को इस अर्थ में संशोधित करें कि चुनाव यह तय करता है कि बदले में पति का अनुग्रह/पक्ष मिलेगा या खो जाएगा; उदाहरण: “मेरी पसंद तय करती है कि बदले में मेरे पति का अनुग्रह मिलेगा या उसका नुकसान होगा।”",
+        "translation_quote": "“मेरी पसंद तय करती है कि बदले में मुझे अनुग्रह मिलेगा या नुकसान।”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

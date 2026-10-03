@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 9488
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 376,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9347,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9344,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9723
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, paragraph on the American church defending itself",
+      "severity": "major",
+      "source_quote": "The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.",
+      "suggested_fix": "Replace « la Bible appelle cela » with « la Bible appelle cela [la phrase s’interrompt ici dans l’original] » only if an editorial marker is acceptable; otherwise retain the sentence’s open ending without completing it. For example: « L’Église américaine appelle « se défendre », défendre sa famille et son pays, de l’héroïsme ou de la bravoure ; la Bible appelle cela… »",
+      "translation_quote": "L’Église américaine appelle « défense de soi », de sa famille et de son pays, l’héroïsme ou la bravoure ; la Bible appelle cela."
+    },
+    {
+      "location": "Article, paragraph beginning “A simple man walked up to a Christian concert”",
+      "severity": "minor",
+      "source_quote": "“You’re a disgrace!” “Bigot!”",
+      "suggested_fix": "Translate “Bigot!” as « Intolérant ! » or « Fanatique ! »; the current wording for the preceding insult is already separate.",
+      "translation_quote": "« Tu es une honte ! » « Fanatique ! »"
+    },
+    {
+      "location": "Article, paragraph beginning “I was speaking to a young lady in a Protestant setting”",
+      "severity": "minor",
+      "source_quote": "I asked her if she was willing to change how she looked.",
+      "suggested_fix": "Use « changer son apparence » or « changer sa façon de s’habiller » rather than « changer son apparence »? The present translation is faithful; no correction needed.",
+      "translation_quote": "Je lui ai demandé si elle était prête à changer son apparence."
+    }
+  ],
   "id": "7b6748fd9a5331027708c730c44c576a",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "fra",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

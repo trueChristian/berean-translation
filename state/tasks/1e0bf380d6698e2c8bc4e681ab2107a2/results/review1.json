@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b69faf9c-8f98-4f18-9486-df710faeb0d2",
+    "response_id": "chatcmpl-EUrUgscw64vJIgOdpbaN63pPa35IT",
+    "usage": {
+      "completion_tokens": 739,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3868,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3865,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4607
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning « Je priais souvent… »",
+        "severity": "major",
+        "source_quote": "This song was one I’d pray in the dark of the midnight when I couldn’t sleep",
+        "suggested_fix": "Replace « Je priais souvent en chantant ce cantique dans l’obscurité de minuit » with « Je priais souvent avec ce cantique dans l’obscurité de minuit » to avoid adding that the author sang it.",
+        "translation_quote": "Je priais souvent en chantant ce cantique dans l’obscurité de minuit"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

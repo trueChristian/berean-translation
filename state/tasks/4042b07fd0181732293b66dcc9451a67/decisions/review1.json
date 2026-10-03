@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “But she beat him to the subject”",
+      "severity": "major",
+      "source_quote": "“I mean, jumping around like that in front of the maidens, just like a vain fellow from off the streets!”",
+      "suggested_fix": "Replace “kama mtu mpumbavu wa mitaani” with “kama mtu mwenye majivuno wa mitaani” to preserve the meaning of “vain fellow.”",
+      "translation_quote": "“Namaanisha, kurukaruka hivyo mbele ya vijakazi, kama mtu mpumbavu wa mitaani!”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

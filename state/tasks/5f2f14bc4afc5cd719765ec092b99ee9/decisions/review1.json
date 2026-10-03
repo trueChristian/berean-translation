@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final paragraph (Jude 1:24-25)",
+      "severity": "major",
+      "source_quote": "“To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.”",
+      "suggested_fix": "Replace the ending with a faithful Italian translation of the printed wording, for example: «all’unico Dio, nostro Salvatore, siano gloria e maestà, dominio e potenza, ora e per sempre». Do not add wording absent from the source.",
+      "translation_quote": "“all’unico Dio, nostro Salvatore, per mezzo di Gesù Cristo nostro Signore, siano gloria, maestà, forza e potere, prima di tutti i tempi, ora e per tutti i secoli.”"
+    },
+    {
+      "location": "HTML, first paragraph (Psalm 62:7)",
+      "severity": "minor",
+      "source_quote": "“In God is my salvation and my glory”",
+      "suggested_fix": "For clearer Italian agreement, use «In Dio è la mia salvezza e la mia gloria».",
+      "translation_quote": "“In Dio sono la mia salvezza e la mia gloria”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, paragraph 16",
+      "severity": "major",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "वह चाहता है कि मैं प्रमाणित होऊँ; वही जीवन और मार्ग है।",
+      "translation_quote": "वह चाहता है कि मैं परखा जाऊँ; वही जीवन और मार्ग है।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

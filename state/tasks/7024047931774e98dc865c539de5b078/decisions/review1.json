@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, heading “...Carbohydrates make you gain weight.” and the following paragraph",
+      "severity": "major",
+      "source_quote": "“Carbohydrate is the medical term for sugars.”",
+      "suggested_fix": "استبدل «الكربوهيدرات هو المصطلح الطبي للسكريات» بصياغة تنقل العبارة المطبوعة كما هي، مثل: «الكربوهيدرات مصطلح طبي يُطلق على السكريات.»",
+      "translation_quote": "«الكربوهيدرات هو المصطلح الطبي للسكريات.»"
+    },
+    {
+      "location": "source.html and translation.html, paragraph beginning “If these foods work...”",
+      "severity": "major",
+      "source_quote": "“5 strips of bacon”",
+      "suggested_fix": "ترجم نوع الطعام كما ورد في المصدر، مثلاً: «خمس شرائح من لحم الخنزير المقدد»؛ ولا تستبدله بلحم عام.",
+      "translation_quote": "«خمس شرائح من لحم الخنزير المقدد»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

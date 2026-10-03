@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poème, 4e paragraphe",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Remplacer « toute sa vie en jeu » par une formulation qui exprime que la croisée des chemins concerne sa vie dans son ensemble, par exemple : « Il était à la croisée des chemins, considérant toute sa vie dans son ensemble. »",
+      "translation_quote": "Il était à la croisée des chemins, toute sa vie en jeu."
+    },
+    {
+      "location": "HTML, poème, 17e–18e paragraphes",
+      "severity": "minor",
+      "source_quote": "There’s no better One, in Whom to put all your trust; Than the almighty God.",
+      "suggested_fix": "Rattacher clairement la comparaison à la phrase précédente, par exemple en remplaçant le point-virgule par une virgule : « Il n’y a personne de meilleur en qui placer toute sa confiance, que le Dieu tout-puissant. »",
+      "translation_quote": "Il n’y a personne de meilleur en qui placer toute sa confiance ; que le Dieu tout-puissant."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Title and article paragraphs discussing dishonor and the wife’s choices",
+      "severity": "minor",
+      "source_quote": "“Dishonor and Loss”; “All wives are tempted to dishonor their husbands”; “I can choose to honor or dishonor the husband God gave me.”",
+      "suggested_fix": "Use wording centered on disrespect or dishonoring rather than contempt, for example: title «الإهانة والخسارة»; «تُجرَّب جميع الزوجات على إهانة أزواجهن»; «أختار أن أكرم الزوج الذي وهبني الله إياه أو أهينه». Apply the same distinction to related occurrences where the source says “dishonor.”",
+      "translation_quote": "«الازدراء والخسارة»; «تُجرَّب جميع الزوجات بأن يزدرين أزواجهن»; «أختار أن أكرم الزوج الذي وهبني الله إياه أو أزدريه»"
+    },
+    {
+      "location": "Paragraph beginning “We sat with sagging hearts”",
+      "severity": "minor",
+      "source_quote": "“a cool, young fellow”",
+      "suggested_fix": "Replace «وسيم» with an equivalent conveying “cool” as appealing or fashionable in this context, such as «شاب جذاب وعصري».",
+      "translation_quote": "«شاب وسيـم، يافع»"
+    },
+    {
+      "location": "Paragraph beginning “But she beat him to the subject”",
+      "severity": "minor",
+      "source_quote": "“were her frosty words”",
+      "suggested_fix": "Use a natural Arabic expression for emotionally cold or icy words, such as «كانت تلك كلماتها الجافة».",
+      "translation_quote": "«كانت تلك كلماتها المتجمدة»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

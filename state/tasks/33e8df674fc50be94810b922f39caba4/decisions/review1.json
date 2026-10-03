@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section “Myths About Weight Loss,” paragraph beginning “Most people burn between 200 and 300 calories”",
+      "severity": "major",
+      "source_quote": "“a body must burn 3500 calories to lose one pound”",
+      "suggested_fix": "Replace “כדי להוריד חצי קילו” with “כדי להוריד פאונד אחד” (or give a faithful metric equivalent of one pound, approximately 0.45 ק״ג).",
+      "translation_quote": "“הגוף צריך לשרוף 3500 קלוריות כדי להוריד חצי קילו”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

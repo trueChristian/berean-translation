@@ -2,7 +2,6 @@
   "article_id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 2128
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 481,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 392,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1922,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1919,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2403
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, poem, fourth stanza, fourth line",
+      "severity": "minor",
+      "source_quote": "Than all of life’s great wit and will.",
+      "suggested_fix": "Do que toda a sabedoria e determinação que a vida pode oferecer.",
+      "translation_quote": "Do que toda a grande inteligência e vontade da vida."
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:19+00:00",
   "id": "327ddb688d71039c74a652882f1f08ba",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "por",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3cb89a87a9aa0e8e788ce5f8b7d50505397494e0bb1438849093ff394f7a7a49.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
   "translation_model_actual": "gpt-6-luna"

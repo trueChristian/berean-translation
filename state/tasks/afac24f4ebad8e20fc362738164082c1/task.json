@@ -2,7 +2,6 @@
   "article_id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 3911
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 657,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3715,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3712,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4372
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “This song was one…”",
+      "severity": "minor",
+      "source_quote": "This song was one I’d pray in the dark of the midnight when I couldn’t sleep",
+      "suggested_fix": "Replace “Esta era uma canção que eu orava em plena escuridão da meia-noite” with “Esta era uma canção que eu cantava em oração durante a escuridão da meia-noite” to express the idea naturally in Portuguese.",
+      "translation_quote": "Esta era uma canção que eu orava em plena escuridão da meia-noite"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:20+00:00",
   "id": "afac24f4ebad8e20fc362738164082c1",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "por",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6-luna"

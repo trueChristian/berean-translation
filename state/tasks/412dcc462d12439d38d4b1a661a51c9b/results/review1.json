@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6d0cc1bb-a2ed-4ed4-ad31-ddea24ae0c6b",
+    "response_id": "chatcmpl-EUrUKnpmzu6KWCCkt555xBHDNblf1",
+    "usage": {
+      "completion_tokens": 846,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 630,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2467,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2464,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3313
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 5, line 2",
+        "severity": "minor",
+        "source_quote": "Acknowledging Your omnipotent might.",
+        "suggested_fix": "Replace “আপনার সর্বশক্তিমান মহিমা” with “আপনার সর্বশক্তিমান ক্ষমতা” to convey God’s might or power, rather than glory.",
+        "translation_quote": "আপনার সর্বশক্তিমান মহিমা স্বীকার করে।"
+      },
+      {
+        "location": "Poem, stanza 6, line 1",
+        "severity": "minor",
+        "source_quote": "Help us, Father, to be broken,",
+        "suggested_fix": "Use wording that conveys surrender or being humbled before God, such as “পিতা, আমাদের আত্মসমর্পণকারী হতে সাহায্য করুন,” rather than “ভেঙে পড়তে,” which suggests collapsing or breaking down.",
+        "translation_quote": "পিতা, আমাদের ভেঙে পড়তে সাহায্য করুন,"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "73fc4af6-719a-497f-b936-9c38c7d97f3d",
+    "response_id": "chatcmpl-EUrV2cBJjlijLhD2oYrfawu15xDLP",
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5164,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5161,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5828
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “Every day I choose…”",
+        "severity": "major",
+        "source_quote": "“My choice determines the reciprocating favor or loss.”",
+        "suggested_fix": "Replace «میرا انتخاب طے کرتا ہے کہ بدلے میں موافقت ملے گی یا نقصان۔» with «میرا انتخاب طے کرتا ہے کہ مجھے جواب میں احسان ملے گا یا نقصان۔» This preserves the source’s contrast between reciprocal favor and loss without changing the surrounding sentence.",
+        "translation_quote": "«میرا انتخاب طے کرتا ہے کہ بدلے میں موافقت ملے گی یا نقصان۔»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first paragraph and references to the friend in the first section",
+      "severity": "major",
+      "source_quote": "“a friend asked my husband” ... “his sister’s home” ... “Our friend talked”",
+      "suggested_fix": "Use masculine forms for the friend throughout this section: change « une amie » to « un ami », and « notre amie » to « notre ami ». The source identifies the friend as male through “his sister.”",
+      "translation_quote": "« demanda une amie à mon mari » ... « devant la maison de sa sœur » ... « Notre amie a pris la parole »"
+    },
+    {
+      "location": "HTML, paragraph beginning “Every day I choose”",
+      "severity": "major",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Clarify that the alternative is loss of favor, for example: « Mon choix détermine la faveur qu’il me rendra ou la perte de cette faveur. »",
+      "translation_quote": "« Mon choix détermine la faveur qu’il me rendra ou sa perte. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

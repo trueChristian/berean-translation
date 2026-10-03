@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “What all can we be deceived by?”; Scripture reference to Job",
+      "severity": "major",
+      "source_quote": "(See Job 1;11; 2:5; and 2:9).",
+      "suggested_fix": "Behåll hänvisningen enligt källans exakta kapitel- och versnummer, men rätta versavskiljaren: ”(se Job 1:11; 2:5; och 2:9).”",
+      "translation_quote": "(se Job 1;11; 2:5; och 2:9)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

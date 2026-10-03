@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b89bc7d5-0f17-476f-8c91-47ad2f9ad1ea",
+    "response_id": "chatcmpl-EUrULFA9Vn4ZjdxHkDkFcaScNr5XB",
+    "usage": {
+      "completion_tokens": 718,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 582,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8395,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8392,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9113
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “There was a crowd of people…”; quoted John 12:29",
+        "severity": "major",
+        "source_quote": "The people therefore, that stood by, and heard it, said that it thundered",
+        "suggested_fix": "Replace the quoted clause with: העם שעמד שם ושמע זאת אמר שזה היה רעם. This corrects the meaning while preserving the existing <em> structure and reference.",
+        "translation_quote": "העם שעמד שם ושמע זאת אמר שהתרעם"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

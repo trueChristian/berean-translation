@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Dishonor and Loss",
+      "suggested_fix": "불경과 상실을 남편을 존중하지 않음과 상실 등으로 수정해, 남편에게 마땅한 존중을 보이지 않는다는 제목의 의미를 살리세요.",
+      "translation_quote": "불경과 상실"
+    },
+    {
+      "location": "본문: 미갈에 관한 단락부터 결론까지",
+      "severity": "major",
+      "source_quote": "“I know I am low in your esteem,” ... “but those maidens you mentioned, they esteem me.” / “All wives are tempted to dishonor their husbands.” / “Every day I choose to honor or dishonor the husband God gave me.”",
+      "suggested_fix": "해당 구절의 ‘업신여기다’를 ‘존중하지 않다’ 또는 ‘존중을 저버리다’로 바로잡으세요. 예: ‘모든 아내는 남편을 존중하지 않으려는 유혹을 받습니다.’ 마지막 단락에서도 honor/dishonor의 대비를 같은 표현으로 일관되게 살리세요.",
+      "translation_quote": "“나는 당신 눈에 하찮은 사람인 줄 알고 있소,” ... “하지만 당신이 말한 그 아가씨들은 나를 존중하오.” / “모든 아내는 남편을 업신여기려는 유혹을 받습니다.” / “나는 매일 하나님께서 내게 주신 남편을 존중할지 업신여길지 선택합니다.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

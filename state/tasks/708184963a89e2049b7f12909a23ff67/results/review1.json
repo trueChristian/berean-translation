@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a441e79b-ad33-4f01-8229-02c885c26d5b",
+    "response_id": "chatcmpl-EUrUVUEcxL6PpmgHXzmucRVN6Tvsr",
+    "usage": {
+      "completion_tokens": 543,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 408,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3776,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3773,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4319
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Just as the girls stepped out of the barn…”",
+        "severity": "major",
+        "source_quote": "“I followed you the whole time you were in the creek and down by the road too.”",
+        "suggested_fix": "Vervang de betreffende zin door: ‘Ik heb jullie de hele tijd gevolgd toen jullie bij de beek waren en ook beneden bij de weg.’",
+        "translation_quote": "‘Ik ben de hele tijd met jullie meegegaan, toen jullie bij de beek waren en ook beneden bij de weg.’"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

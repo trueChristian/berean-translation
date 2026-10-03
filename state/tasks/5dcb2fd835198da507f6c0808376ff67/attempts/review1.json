@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Alinea over de weg naar Emmaüs\",\"severity\":\"minor\",\"source_quote\":\"“While they marveled at this newcomer’s oblivious ignorance to the current events”\",\"suggested_fix\":\"Vervang “de onwetende onwetendheid van deze nieuwkomer over de actuele gebeurtenissen” door bijvoorbeeld “dat deze nieuwkomer zo onwetend was over de actuele gebeurtenissen”.\",\"translation_quote\":\"“terwijl ze zich verbaasden over de onwetende onwetendheid van deze nieuwkomer over de actuele gebeurtenissen”\"},{\"location\":\"Alinea over de verantwoordelijkheid van predikanten\",\"severity\":\"minor\",\"source_quote\":\"“fall prey to animated preaching”\",\"suggested_fix\":\"Vervang “geanimeerde prediking” door “overdreven expressieve prediking” of een andere gangbare formulering voor levendig, nadrukkelijk preken.\",\"translation_quote\":\"“ten prooi vallen aan geanimeerde prediking”\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 930,
+    "content_evidence_truncated": false,
+    "content_sha256": "c5f773315663e866710193b15ea96ac406570dff2c04ba0356dd1cf9285cafae",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 738,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7899,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8640
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

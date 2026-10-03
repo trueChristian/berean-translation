@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 12450
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 789,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 600,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12260,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12257,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13049
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "본문, I.a., 히브리서 11:6 인용",
+      "severity": "major",
+      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+      "suggested_fix": "“믿음은 바라는 것들의 실상이요 보이지 않는 것들(또는 시연된 것들)의 증거니.”로 고치십시오. 괄호 안의 “증명되지 않은 것들”은 원문의 “demonstrated”(시연된 것들)와 의미가 다릅니다.",
+      "translation_quote": "“믿음은 바라는 것들의 실상이요 보이지 않는 것들(또는 증명되지 않은 것들)의 증거니.”"
+    }
+  ],
   "id": "de08c21abc463ee737df1e57fb073526",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

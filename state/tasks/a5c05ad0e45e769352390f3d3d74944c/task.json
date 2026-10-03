@@ -2,7 +2,6 @@
   "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2103
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 775,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1830,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1827,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2605
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, poème, 4e paragraphe",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Remplacer « toute sa vie en jeu » par une formulation qui exprime que la croisée des chemins concerne sa vie dans son ensemble, par exemple : « Il était à la croisée des chemins, considérant toute sa vie dans son ensemble. »",
+      "translation_quote": "Il était à la croisée des chemins, toute sa vie en jeu."
+    },
+    {
+      "location": "HTML, poème, 17e–18e paragraphes",
+      "severity": "minor",
+      "source_quote": "There’s no better One, in Whom to put all your trust; Than the almighty God.",
+      "suggested_fix": "Rattacher clairement la comparaison à la phrase précédente, par exemple en remplaçant le point-virgule par une virgule : « Il n’y a personne de meilleur en qui placer toute sa confiance, que le Dieu tout-puissant. »",
+      "translation_quote": "Il n’y a personne de meilleur en qui placer toute sa confiance ; que le Dieu tout-puissant."
+    }
+  ],
   "id": "a5c05ad0e45e769352390f3d3d74944c",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "fra",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

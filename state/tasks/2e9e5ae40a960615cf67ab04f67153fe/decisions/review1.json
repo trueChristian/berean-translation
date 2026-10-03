@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final paragraph (Apocalisse 21:3)",
+      "severity": "major",
+      "source_quote": "And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men",
+      "suggested_fix": "Sostituire «E udii una gran voce dal trono, che diceva» con «E udii una gran voce dal cielo, che diceva», mantenendo invariata la struttura HTML.",
+      "translation_quote": "E udii una gran voce dal trono, che diceva: «Ecco il tabernacolo di Dio con gli uomini!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

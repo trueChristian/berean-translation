@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo sobre la vejez de Mical",
+      "severity": "minor",
+      "source_quote": "“I doubt if her king-husband bothered to stop in with her anymore.”",
+      "suggested_fix": "Cambiar «se molestara en visitarla alguna vez» por «ya se molestara en visitarla», para conservar la idea de que él dejó de visitarla.",
+      "translation_quote": "«Dudo que su esposo, el rey, se molestara en visitarla alguna vez.»"
+    },
+    {
+      "location": "HTML, párrafo que comienza «Cada día decido honrar»",
+      "severity": "minor",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Reformular como «Mi elección determina el favor que recibo a cambio, o su pérdida» para expresar con más claridad la reciprocidad.",
+      "translation_quote": "«Mi elección determina que recibamos favor o lo perdamos en reciprocidad.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

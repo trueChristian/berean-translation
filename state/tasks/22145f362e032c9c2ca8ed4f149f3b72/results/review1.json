@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "826772cf-015f-40b4-87b1-ef956be31d49",
+    "response_id": "chatcmpl-EUrUJvdLmuvIjkfQ3nvVvOr4wsycE",
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1848,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1845,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2452
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "诗歌，第16行",
+        "severity": "minor",
+        "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+        "suggested_fix": "将“祂要我得以验证”改为“祂要我经受考验；祂是生命，是道路。”",
+        "translation_quote": "祂要我得以验证；祂是生命，是道路。"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

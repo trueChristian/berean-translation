@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, стихотворная строфа, строка 4",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Заменить «Он стоял на распутье — вся жизнь его на кону была.» на «Он стоял на распутье — вся его жизнь была перед ним.»: не вводить отсутствующую в оригинале мысль, что жизнь поставлена на карту.",
+      "translation_quote": "Он стоял на распутье — вся жизнь его на кону была."
+    },
+    {
+      "location": "HTML, стихотворная строфа, строка 10",
+      "severity": "major",
+      "source_quote": "I even helped the neighbor, just the other day!",
+      "suggested_fix": "Заменить «Вот даже соседу на днях помогу!» на «Вот даже соседу на днях помог!» — сохранить прошедшее время и факт уже оказанной помощи.",
+      "translation_quote": "Вот даже соседу на днях помогу!"
+    },
+    {
+      "location": "HTML, стихотворная строфа, строка 14",
+      "severity": "major",
+      "source_quote": "I believe in myself, not the God from way back.",
+      "suggested_fix": "Заменить «Я верю в себя, а не в Бога, о Котором слышал давно.» на «Я верю в себя, а не в Бога прежних времён.» — в переводе не следует добавлять, что говорящий лишь слышал о Боге.",
+      "translation_quote": "Я верю в себя, а не в Бога, о Котором слышал давно."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

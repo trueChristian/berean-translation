@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Dikt, stycke 1\",\"severity\":\"minor\",\"source_quote\":\"The night was still, the air was drear.\",\"suggested_fix\":\"Överväg «Natten var stilla, luften var dyster.» för att återge «drear» snarare än «kall».\",\"translation_quote\":\"Natten var stilla, luften var kall.\"},{\"location\":\"Dikt, stycke 16\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"Ändra till exempel till «Han vill att jag ska bevisas; han är Livet och Vägen.» eller en idiomatisk formulering som bevarar innebörden av «be proved».\",\"translation_quote\":\"Han vill att jag ska bli prövad; han är Livet och Vägen.\"},{\"location\":\"Dikt, stycke 17\",\"severity\":\"major\",\"source_quote\":\"There’s no better One, in Whom to put all your trust;\",\"suggested_fix\":\"Ändra till «Det finns ingen bättre att sätta all sin tillit till;» och undvik att ändra den personliga tillitsuppmaningen till ett allmänt «sin» om den avsedda innebörden kräver direkt tilltal: exempelvis «Det finns ingen bättre att sätta all din tillit till;».\",\"translation_quote\":\"Det finns ingen bättre att sätta all sin tillit till;\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1200,
+    "content_evidence_truncated": false,
+    "content_sha256": "67467022bb37dc3f83b513f71652c2af7ec819980528476a10ef15278bd26313",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 330,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1834,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1831,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2164
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

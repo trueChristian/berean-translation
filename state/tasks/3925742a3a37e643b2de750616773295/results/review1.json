@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e853e2d6-33cb-4968-8301-a598b3b8da4d",
+    "response_id": "chatcmpl-EUrUQ8kww4oOL1xGrSyRe1c4EeLLq",
+    "usage": {
+      "completion_tokens": 266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3839,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3836,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4105
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, avsnittet som begynner «Plutselig skjønte Melissa…»",
+        "severity": "major",
+        "source_quote": "“Suddenly, realizing she was alone, Melissa turned around and saw that Angie was still at the entrance of the tunnel looking into a pool of water. She moved a rock, then screamed and scrambled up the bank to join Melissa.”",
+        "suggested_fix": "Behold Melissa som den som snur seg, men gjør det tydelig at Angie flytter steinen, skriker og klatrer opp. For eksempel: «Plutselig skjønte Melissa at hun var alene. Hun snudde seg og så at Angie fortsatt sto ved inngangen til tunnelen og så ned i en vannpytt. Angie flyttet på en stein, skrek og klatret opp skråningen for å komme bort til Melissa.»",
+        "translation_quote": "«Plutselig skjønte Melissa at hun var alene. Hun snudde seg og så at Angie fortsatt sto ved inngangen til tunnelen og så ned i en vannpytt. Angie flyttet på en stein, skrek og klatret opp skråningen for å komme bort til Melissa.»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

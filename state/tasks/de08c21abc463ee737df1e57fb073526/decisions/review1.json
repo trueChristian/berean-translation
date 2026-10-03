@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, I.a., 히브리서 11:6 인용",
+      "severity": "major",
+      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+      "suggested_fix": "“믿음은 바라는 것들의 실상이요 보이지 않는 것들(또는 시연된 것들)의 증거니.”로 고치십시오. 괄호 안의 “증명되지 않은 것들”은 원문의 “demonstrated”(시연된 것들)와 의미가 다릅니다.",
+      "translation_quote": "“믿음은 바라는 것들의 실상이요 보이지 않는 것들(또는 증명되지 않은 것들)의 증거니.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

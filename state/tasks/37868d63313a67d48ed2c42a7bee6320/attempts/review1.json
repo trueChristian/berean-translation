@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph under “…Vigorous exercise is the only way to lose weight.”\",\"severity\":\"major\",\"source_quote\":\"a body must burn 3500 calories to lose one pound\",\"suggested_fix\":\"Change «3500 θερμίδες για να χάσει μισό κιλό» to «3500 θερμίδες για να χάσει μία λίβρα (περίπου 450 γραμμάρια)» so the amount in the source is preserved accurately.\",\"translation_quote\":\"το σώμα πρέπει να κάψει 3500 θερμίδες για να χάσει μισό κιλό\"},{\"location\":\"HTML paragraph beginning “While these sorts of solutions may give short-term help”\",\"severity\":\"major\",\"source_quote\":\"The goal should never be simply to “take off ten pounds,”\",\"suggested_fix\":\"Replace «να χάσουμε πέντε κιλά» with «να χάσουμε δέκα λίβρες (περίπου 4,5 κιλά)» to retain the source quantity.\",\"translation_quote\":\"Ο στόχος δεν πρέπει ποτέ να είναι απλώς «να χάσουμε πέντε κιλά»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1123,
+    "content_evidence_truncated": false,
+    "content_sha256": "0a98865887ab51a0426a309bf640b1ebc8fef278db57ee56cffead56c578fd50",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 688,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 430,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9914,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10605
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

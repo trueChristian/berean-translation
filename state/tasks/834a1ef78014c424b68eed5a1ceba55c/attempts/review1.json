@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, third stanza, second line\",\"severity\":\"major\",\"source_quote\":\"They barter truth for empty thrill.\",\"suggested_fix\":\"তারা শূন্য উল্লাসের বিনিময়ে সত্য বেচে দেয়।\",\"translation_quote\":\"মিথ্যা উল্লাসের বদলে তারা সত্য বেচে দেয়।\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 432,
+    "content_evidence_truncated": false,
+    "content_sha256": "ab5c5465e66b63b91e346b094faf037e76969e60002a399a367964eb0efb89d1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 647,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2070,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2821
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

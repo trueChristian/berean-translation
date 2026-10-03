@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c2494d82-e6d2-44e6-8384-1a11fa5ebe23",
+    "response_id": "chatcmpl-EUrURyYy3KHePNiQSvUR0MbOS4QqM",
+    "usage": {
+      "completion_tokens": 827,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11952,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11949,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12779
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, sezione I.a, citazione di Ebrei 11:6",
+        "severity": "major",
+        "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+        "suggested_fix": "Correggere la parentesi in «(o dimostrate)», mantenendo il resto della citazione e il riferimento invariati.",
+        "translation_quote": "«La fede è certezza di cose che si sperano, dimostrazione di cose che non si vedono (o non si dimostrano)»."
+      },
+      {
+        "location": "HTML, sezione III.c, paragrafo sull’adorazione nell’Antico Testamento",
+        "severity": "major",
+        "source_quote": "“When we move from intrinsic methods of worship to extrinsic methods, we violate the New Testament ‘spirit’ of worship.”",
+        "suggested_fix": "Sostituire «metodi interiori … a quelli esteriori» con «metodi intrinseci … a metodi estrinseci», preservando la distinzione terminologica dell’autore.",
+        "translation_quote": "«Quando passiamo dai metodi interiori di adorazione a quelli esteriori, violiamo lo “spirito” dell’adorazione del Nuovo Testamento»."
+      },
+      {
+        "location": "HTML, sezione IV, elenco puntato, voce «Casual»",
+        "severity": "major",
+        "source_quote": "“Casual –becoming so aloof to any form of worship that the One being worshiped becomes obscured by indifference.”",
+        "suggested_fix": "Rendere «Casual» con «Informale» o altra formulazione italiana che esprima un atteggiamento disinvolto/noncurante verso il culto, non «disinvolto» nel senso di semplice scioltezza; mantenere invariati tag e struttura.",
+        "translation_quote": "«Disinvolto –diventare così indifferenti a qualsiasi forma di adorazione che colui che adoriamo viene oscurato dall’indifferenza»."
+      },
+      {
+        "location": "HTML, sezione Opere citate, prima voce bibliografica",
+        "severity": "minor",
+        "source_quote": "“The American Heritage College Dictionary, New York: Houghton Mifflin Company, 2007.”",
+        "suggested_fix": "Tradurre il titolo descrittivo dell’opera, mantenendo invariati nomi propri e dati bibliografici, ad esempio «Dizionario universitario American Heritage, New York: Houghton Mifflin Company, 2007.»",
+        "translation_quote": "“The American Heritage College Dictionary, New York: Houghton Mifflin Company, 2007.”"
+      },
+      {
+        "location": "HTML, sezione Opere citate, terza voce bibliografica",
+        "severity": "minor",
+        "source_quote": "“The Vance Havner Quotebook, Dennis J. Hester, Grand Rapids: Baker Book House, 1986.”",
+        "suggested_fix": "Tradurre il titolo descrittivo, conservando nome dell’autore, editore, luogo e anno, ad esempio «La raccolta di citazioni di Vance Havner, Dennis J. Hester, Grand Rapids: Baker Book House, 1986.»",
+        "translation_quote": "“The Vance Havner Quotebook, Dennis J. Hester, Grand Rapids: Baker Book House, 1986.”"
+      },
+      {
+        "location": "HTML, sezione Opere citate, quarta voce bibliografica",
+        "severity": "minor",
+        "source_quote": "“The Menace of the Religious Movie, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press.”",
+        "suggested_fix": "Tradurre il titolo descrittivo, mantenendo invariati nome dell’autore e dati editoriali, ad esempio «La minaccia del film religioso, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press.»",
+        "translation_quote": "“The Menace of the Religious Movie, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press.”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

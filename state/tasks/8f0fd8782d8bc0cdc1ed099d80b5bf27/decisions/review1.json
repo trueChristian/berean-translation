@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 7, line 3",
+      "severity": "major",
+      "source_quote": "It’s a jewel that nothing but trials can teach.",
+      "suggested_fix": "Det er en juvel som bare prøvelser kan lære oss.",
+      "translation_quote": "Det er en juvel som bare prøvelser kan lære oss å verdsette."
+    },
+    {
+      "location": "Poem, stanza 8, line 4",
+      "severity": "minor",
+      "source_quote": "Nothing but what You plan will prevail.",
+      "suggested_fix": "Bare det du planlegger, vil seire.",
+      "translation_quote": "og ingenting annet enn det du har planlagt, vil skje."
+    },
+    {
+      "location": "Poem, stanza 2, lines 1–2",
+      "severity": "minor",
+      "source_quote": "We’ve wept and writhed and prayed / Asking, Lord, this cup to avoid.",
+      "suggested_fix": "Vi har grått, vridd oss i smerte og bedt, / Herre, om å slippe dette begeret.",
+      "translation_quote": "Vi har grått, vridd oss i smerte og bedt, / bedt, Herre, om å slippe dette begeret."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

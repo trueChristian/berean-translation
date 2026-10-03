@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "77ee5872-e476-4f21-bdbf-01826fc39edf",
+    "response_id": "chatcmpl-EUrULQSWI6voHYnpsqeughO3ZTLHo",
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8968,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8965,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9631
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph under “La no conformidad”",
+        "severity": "minor",
+        "source_quote": "to say “No” to evil communication and the ways of this world",
+        "suggested_fix": "Cambiar «decir “no” a la mala comunicación y a las costumbres de este mundo» por «decir “no” a las malas compañías y a las costumbres de este mundo»; aquí “evil communication” alude a influencias o relaciones corruptoras, no a una comunicación deficiente.",
+        "translation_quote": "decir «no» a la mala comunicación y a las costumbres de este mundo"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

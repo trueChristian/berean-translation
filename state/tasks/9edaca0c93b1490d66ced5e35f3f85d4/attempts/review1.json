@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, parágrafo sob o título “Perseverar até o fim”\",\"severity\":\"major\",\"source_quote\":\"“Doesn’t Scripture assure us … that ye may know that ye have eternal life… –1 John 5:13.”\",\"suggested_fix\":\"Altere para “A Escritura não nos assegura … que saibais que tendes a vida eterna… –1 João 5:13?” para preservar a pergunta retórica do original e a referência.\",\"translation_quote\":\"“A Escritura não nos assegura …que saibais que tendes a vida eterna… –1 João 5:13.”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 562,
+    "content_evidence_truncated": false,
+    "content_sha256": "f131376742bfc5d379ff47524833b704e0e3fe87ee5b0ebf051706c983d78403",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4563,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5171
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

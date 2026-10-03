@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, puisi paragraf 3, baris 2\",\"severity\":\"major\",\"source_quote\":\"All would have escaped this pain.\",\"suggested_fix\":\"Ganti dengan «Seandainya kami semua dapat luput dari rasa sakit ini.»\",\"translation_quote\":\"Andai saja kami semua dapat luput dari rasa sakit ini.\"},{\"location\":\"HTML, puisi paragraf 5, baris 2\",\"severity\":\"minor\",\"source_quote\":\"Acknowledging Your omnipotent might.\",\"suggested_fix\":\"Ganti dengan «Mengakui kuasa-Mu yang mahakuasa.» agar makna kuasa yang mahakuasa tersampaikan tanpa pengulangan yang janggal.\",\"translation_quote\":\"Mengakui kuasa-Mu yang mahakuasa.\"},{\"location\":\"HTML, puisi paragraf 6, baris 1\",\"severity\":\"major\",\"source_quote\":\"Help us, Father, to be broken,\",\"suggested_fix\":\"Ganti dengan «Tolonglah kami, Bapa, agar kami diremukkan,» untuk mempertahankan gambaran doa tentang menjadi remuk atau hancur.\",\"translation_quote\":\"Tolonglah kami, Bapa, agar rela hancur,\"},{\"location\":\"HTML, puisi paragraf 7, baris 2\",\"severity\":\"minor\",\"source_quote\":\"Quiet, yet deep and true.\",\"suggested_fix\":\"Ganti dengan «Tenang, namun dalam dan sejati.»\",\"translation_quote\":\"Yang tenang, namun dalam dan tulus.\"},{\"location\":\"HTML, puisi paragraf 8, baris 4\",\"severity\":\"major\",\"source_quote\":\"Nothing but what You plan will prevail.\",\"suggested_fix\":\"Ganti dengan «Hanya yang Engkau rencanakanlah yang akan terlaksana.»\",\"translation_quote\":\"Tak ada yang akan menang selain rencana-Mu.\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1482,
+    "content_evidence_truncated": false,
+    "content_sha256": "f8de6d5edd9ef7ec27908ccb30fb69915dfe91d06337c1fb892809bd8f230bcf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2346,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2747
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"“I want to go wading.”\",\"suggested_fix\":\"Replace “Quero entrar na água” with “Quero andar dentro da água” to retain the sense of wading.\",\"translation_quote\":\"“Quero entrar na água.”\"},{\"location\":\"HTML, paragraph 15\",\"severity\":\"minor\",\"source_quote\":\"“Melissa felt guilty for breaking the oar and Angie felt bad for suggesting that they splash in the water.”\",\"suggested_fix\":\"Replace “Angie ficou chateada” with “Angie se sentiu mal” to convey that Angie felt bad about suggesting it.\",\"translation_quote\":\"“Melissa sentiu-se culpada por ter quebrado o remo, e Angie ficou chateada por ter sugerido que batessem na água.”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 769,
+    "content_evidence_truncated": false,
+    "content_sha256": "de1929fb3bf69dd4e8dbf56a525fdd0f4099867d97ac0dfe9c9b723227d18bbb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 333,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3707,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4239
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

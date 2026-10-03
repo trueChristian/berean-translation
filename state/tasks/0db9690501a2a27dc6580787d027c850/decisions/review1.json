@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, “What the Bible Says About Food” paragraph quoting Acts 15:20",
+      "severity": "major",
+      "source_quote": "The Jerusalem council specifically required …that they abstain from pollutions of idols, and from fornication, and from things strangled, and from blood –Acts 15:20.",
+      "suggested_fix": "인용을 원문의 의미와 순서에 맞춰 다음처럼 고치세요: <em>…우상의 더러운 것과 음행과 목매어 죽인 것과 피를 멀리하라 –사도행전 15:20.</em>",
+      "translation_quote": "예루살렘 공의회가 특별히 요구한 것은 <em>우상의 더러움과 음행과 목매어 죽인 것과 피를 멀리하라는 것… –사도행전 15:20.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

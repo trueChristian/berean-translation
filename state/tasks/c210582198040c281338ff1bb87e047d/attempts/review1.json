@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ephesians 5:10–13 quotation\",\"severity\":\"major\",\"source_quote\":\"“whatsoever doth make manifest is light”\",\"suggested_fix\":\"Change “want alles wat openbaar word, is lig” to “want alles wat openbaar maak, is lig” so the sentence says that what exposes things is light.\",\"translation_quote\":\"“want alles wat openbaar word, is lig”\"},{\"location\":\"Romans 1:16 quotation\",\"severity\":\"major\",\"source_quote\":\"“for it is the power of God unto salvation”\",\"suggested_fix\":\"Change “want dit is ’n krag van God tot redding” to “want dit is die krag van God tot redding” to preserve the source’s definite assertion.\",\"translation_quote\":\"“want dit is ’n krag van God tot redding”\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 762,
+    "content_evidence_truncated": false,
+    "content_sha256": "9dde0b7a2cb2fc7c5bf34316bc9d755dc7f874c31df478e37fad9ea3c4f6860f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9551,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10239
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

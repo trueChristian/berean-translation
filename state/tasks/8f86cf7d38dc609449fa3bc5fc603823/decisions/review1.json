@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section I.a, Hebrews 11:6 quotation",
+      "severity": "major",
+      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+      "suggested_fix": "Vertaal de haakjes zo dat ze aansluiten bij ‘dingen die men niet ziet’, bijvoorbeeld: ‘een bewijs van de dingen waarop men hoopt, en een bewijs van de dingen die men niet ziet (of die niet worden gedemonstreerd).’",
+      "translation_quote": "„Het geloof nu is een vaste grond van de dingen die men hoopt, en een bewijs van de zaken die men niet ziet (of demonstreert).”"
+    },
+    {
+      "location": "HTML, section III.a, paragraph about prayer-meeting attendance",
+      "severity": "minor",
+      "source_quote": "“Prayer meeting attendance was not a monthly or a bimonthly option”",
+      "suggested_fix": "Gebruik een formulering die ‘bimonthly’ niet vastlegt op tweemaal per maand, bijvoorbeeld: ‘Deelname aan gebedsbijeenkomsten was geen maandelijkse of tweemaandelijkse keuze.’",
+      "translation_quote": "“Deelname aan gebedsbijeenkomsten was geen keuze die men maandelijks of tweemaal per maand kon maken”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

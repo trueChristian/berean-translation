@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "10bcf2c4-6df3-4f31-a7cc-f0d3d1e39f00",
+    "response_id": "chatcmpl-EUrUK43SfrzOvMK7ImA27idwrGIUi",
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 649,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9382,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9379,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10170
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Sista bibelcitatet, Romarbrevet 1:16",
+        "severity": "minor",
+        "source_quote": "“for it is the power of God unto salvation”",
+        "suggested_fix": "Ändra ”Det är en Guds kraft till frälsning” till ”Det är Guds kraft till frälsning” för att återge bestämdheten i citatet.",
+        "translation_quote": "”Det är en Guds kraft till frälsning för var och en som tror”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "03f93af6-fbec-4887-9de0-191dacfdab89",
+    "response_id": "chatcmpl-EUrUK69srCal2ZpPxyA6YcLyyBByI",
+    "usage": {
+      "completion_tokens": 481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 392,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2403
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, fourth stanza, fourth line",
+        "severity": "minor",
+        "source_quote": "Than all of life’s great wit and will.",
+        "suggested_fix": "Do que toda a sabedoria e determinação que a vida pode oferecer.",
+        "translation_quote": "Do que toda a grande inteligência e vontade da vida."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

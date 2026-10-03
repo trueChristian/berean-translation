@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, opening paragraph and paragraphs describing the visit and conversation\",\"severity\":\"major\",\"source_quote\":\"“a friend asked my husband” … “outside his sister’s home” … “Our friend talked, pleading with his sister and brother-in-law”\",\"suggested_fix\":\"Use masculine forms for the friend throughout, consistent with the later “his sister” and “brother-in-law”: for example, change “eine Freundin” to “ein Freund,” “unserer Freundin” to “unserem Freund,” and “Unsere Freundin” to “Unser Freund.” Adjust the associated possessive forms accordingly.\",\"translation_quote\":\"„…“, fragte eine Freundin meinen Mann. … mit unserer Freundin vor dem Haus ihrer Schwester. … Unsere Freundin redete und flehte ihre Schwester und ihren Schwager an …\"},{\"location\":\"HTML, paragraph beginning “Every day I choose to honor or dishonor”\",\"severity\":\"major\",\"source_quote\":\"“My choice determines the reciprocating favor or loss.”\",\"suggested_fix\":\"Revise this sentence to preserve the idea that her choice affects whether favor is reciprocated or lost, without changing whose affection is being reciprocated. For example: “Meine Entscheidung beeinflusst, ob Zuneigung erwidert wird oder verloren geht.”\",\"translation_quote\":\"Meine Entscheidung bestimmt, ob mir seine Zuneigung erwidert wird oder verloren geht.\"},{\"location\":\"HTML, paragraph beginning “I think of the wayward lady in town”\",\"severity\":\"minor\",\"source_quote\":\"“who was chased from home by her children”\",\"suggested_fix\":\"Correct the case and phrasing to “die von ihren eigenen Kindern aus dem Haus gejagt wurde.”\",\"translation_quote\":\"die vom eigenen Kindern aus dem Haus gejagt wurde\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 1776,
+    "content_evidence_truncated": false,
+    "content_sha256": "8e43091aa661a2a6e291b5f49be80e469d00d65e1bae0af90f2917e23fda2c34",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 721,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4685,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4682,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5792
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

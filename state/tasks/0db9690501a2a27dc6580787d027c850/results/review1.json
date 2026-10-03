@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6a5c7d93-f18b-4fa8-8719-8799a7905890",
+    "response_id": "chatcmpl-EUrUJY9qGcISxKDy1XOyIiNlLquVb",
+    "usage": {
+      "completion_tokens": 206,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8364,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8361,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8570
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, “What the Bible Says About Food” paragraph quoting Acts 15:20",
+        "severity": "major",
+        "source_quote": "The Jerusalem council specifically required …that they abstain from pollutions of idols, and from fornication, and from things strangled, and from blood –Acts 15:20.",
+        "suggested_fix": "인용을 원문의 의미와 순서에 맞춰 다음처럼 고치세요: <em>…우상의 더러운 것과 음행과 목매어 죽인 것과 피를 멀리하라 –사도행전 15:20.</em>",
+        "translation_quote": "예루살렘 공의회가 특별히 요구한 것은 <em>우상의 더러움과 음행과 목매어 죽인 것과 피를 멀리하라는 것… –사도행전 15:20.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

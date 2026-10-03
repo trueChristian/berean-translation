@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section I.a, paragraph on Jesus’ use of parables\",\"severity\":\"major\",\"source_quote\":\"(Mat 13:18)\",\"suggested_fix\":\"Replace “Mat 13:18” with “Mateus 13:18”.\",\"translation_quote\":\"(Mat 13:18)\"},{\"location\":\"Section III.a, paragraph on prayer-meeting attendance\",\"severity\":\"major\",\"source_quote\":\"(Act 6:4)\",\"suggested_fix\":\"Replace “Act 6:4” with “Atos 6:4”.\",\"translation_quote\":\"(Act 6:4)\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 463,
+    "content_evidence_truncated": false,
+    "content_sha256": "d37217738c8548e14316192d23834c6df0af8b592b427dec60a51a8d9373f53a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11203,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11869
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

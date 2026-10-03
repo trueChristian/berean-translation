@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 9349
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 431,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9093,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9090,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9524
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Een eenvoudige man liep…”",
+      "severity": "major",
+      "source_quote": "“Bigot!”",
+      "suggested_fix": "Vervang ‘Fanaticus!’ door ‘Bekrompen racist!’ of een andere gangbare Nederlandse vertaling die de beschuldiging van onverdraagzaamheid behoudt.",
+      "translation_quote": "‘Fanaticus!’"
+    },
+    {
+      "location": "HTML, paragraph beginning “Jaren geleden verzamelde…”",
+      "severity": "major",
+      "source_quote": "“a foreign land”",
+      "suggested_fix": "Vervang ‘een vreemd land’ door ‘een ander land’ of ‘een buitenlands land’.",
+      "translation_quote": "“een vreemd land”"
+    },
+    {
+      "location": "HTML, alinea met de verwijzing naar Johannes 8",
+      "severity": "major",
+      "source_quote": "“Ye are of your father the devil…”",
+      "suggested_fix": "Vervang ‘U bent uit uw vader, de duivel…’ door ‘U hebt de duivel als vader…’ of een andere formulering die de betekenis behoudt.",
+      "translation_quote": "“U bent uit uw vader, de duivel…”"
+    },
+    {
+      "location": "HTML, alinea beginnend “We kunnen een leven leiden…”",
+      "severity": "major",
+      "source_quote": "“Should the only thing that’s different between us and the Protestant church be a head covering?”",
+      "suggested_fix": "Vervang de zin door ‘Moet een hoofdbedekking het enige zijn wat ons van de protestantse kerk onderscheidt?’",
+      "translation_quote": "“Moet er tussen ons en de protestantse kerk alleen een hoofdbedekking verschil zijn?”"
+    },
+    {
+      "location": "HTML, slotcitaat met Romeinen 1:16",
+      "severity": "major",
+      "source_quote": "“for it is the power of God unto salvation”",
+      "suggested_fix": "Vervang ‘want het is een kracht van God tot zaligheid’ door ‘want het is de kracht van God tot zaligheid’.",
+      "translation_quote": "“want het is een kracht van God tot zaligheid”"
+    }
+  ],
   "id": "92e3246eed4acfef6c94cd68417c8147",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nld",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

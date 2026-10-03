@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph under “…Vigorous exercise is the only way to lose weight.”",
+      "severity": "major",
+      "source_quote": "a body must burn 3500 calories to lose one pound",
+      "suggested_fix": "Change «3500 θερμίδες για να χάσει μισό κιλό» to «3500 θερμίδες για να χάσει μία λίβρα (περίπου 450 γραμμάρια)» so the amount in the source is preserved accurately.",
+      "translation_quote": "το σώμα πρέπει να κάψει 3500 θερμίδες για να χάσει μισό κιλό"
+    },
+    {
+      "location": "HTML paragraph beginning “While these sorts of solutions may give short-term help”",
+      "severity": "major",
+      "source_quote": "The goal should never be simply to “take off ten pounds,”",
+      "suggested_fix": "Replace «να χάσουμε πέντε κιλά» with «να χάσουμε δέκα λίβρες (περίπου 4,5 κιλά)» to retain the source quantity.",
+      "translation_quote": "Ο στόχος δεν πρέπει ποτέ να είναι απλώς «να χάσουμε πέντε κιλά»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

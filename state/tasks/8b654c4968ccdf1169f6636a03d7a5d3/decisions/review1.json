@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "Τίτλος",
+      "severity": "minor",
+      "source_quote": "‘Til the Storm Passes By",
+      "suggested_fix": "Χρησιμοποιήστε τίτλο που διατηρεί την ατελή, συνομιλιακή μορφή του πρωτοτύπου, π.χ. «Ώσπου να περάσει η καταιγίδα»· η υπάρχουσα απόδοση είναι αποδεκτή και δεν απαιτείται αλλαγή.",
+      "translation_quote": "Ώσπου να περάσει η καταιγίδα"
+    },
+    {
+      "location": "Στίχοι, πρώτη στροφή",
+      "severity": "major",
+      "source_quote": "In the dark of the midnight have I oft hid my face",
+      "suggested_fix": "Αποδώστε το ως «Στο σκοτάδι των μεσάνυχτων έχω συχνά κρύψει το πρόσωπό μου», ώστε να διατηρείται το νόημα ότι ο αφηγητής έχει κρυφτεί συχνά, όχι μόνο μία φορά στο παρελθόν.",
+      "translation_quote": "Μέσα στο σκοτάδι των μεσάνυχτων έκρυψα συχνά το πρόσωπό μου"
+    },
+    {
+      "location": "Στίχοι, ρεφρέν",
+      "severity": "major",
+      "source_quote": "Hold me fast, let me stand in the hollow of Thy hand",
+      "suggested_fix": "Αποδώστε το ως «Κράτησέ με σφιχτά, άφησέ με να σταθώ στην κοιλότητα της παλάμης σου», διατηρώντας την εικόνα της κοιλότητας του χεριού.",
+      "translation_quote": "κράτησέ με γερά, άφησέ με να σταθώ στην παλάμη του χεριού σου"
+    },
+    {
+      "location": "Στίχοι, δεύτερη στροφή",
+      "severity": "major",
+      "source_quote": "For there’s no end of sorrow, there’s no hope by and by",
+      "suggested_fix": "Αποδώστε το ως «Γιατί η θλίψη δεν έχει τέλος και δεν υπάρχει ελπίδα στο μέλλον», χωρίς να προσθέτετε την απόλυτη διατύπωση «ποτέ».",
+      "translation_quote": "γιατί η θλίψη δεν θα τελειώσει ποτέ, ούτε θα υπάρξει ελπίδα αργότερα"
+    },
+    {
+      "location": "Στίχοι, τρίτη στροφή",
+      "severity": "major",
+      "source_quote": "In that land where the tempest, never comes, Lord, may I / Dwell with Thee when the storm passes by.",
+      "suggested_fix": "Αποδώστε το ως «Σε εκείνη τη χώρα όπου δεν έρχεται ποτέ η θύελλα, Κύριε, είθε να κατοικώ μαζί σου όταν περάσει η καταιγίδα», ώστε το αίτημα να αφορά το να κατοικήσει μαζί Του.",
+      "translation_quote": "σε εκείνη τη χώρα όπου δεν έρχεται ποτέ η θύελλα, Κύριε, μακάρι / να κατοικώ μαζί σου όταν περάσει η καταιγίδα."
+    },
+    {
+      "location": "Παράγραφος για την προσευχή στο τραγούδι",
+      "severity": "major",
+      "source_quote": "This song was one I’d pray in the dark of the midnight",
+      "suggested_fix": "Αλλάξτε σε «Αυτό ήταν ένα τραγούδι που προσευχόμουν λέγοντας τα λόγια του μέσα στο σκοτάδι των μεσάνυχτων», ώστε να αποδίδεται καθαρά ότι προσευχόταν με τα λόγια του τραγουδιού.",
+      "translation_quote": "Αυτό ήταν ένα τραγούδι που προσευχόμουν λέγοντάς το μέσα στο σκοτάδι των μεσάνυχτων"
+    },
+    {
+      "location": "Ποίημα στο blockquote",
+      "severity": "major",
+      "source_quote": "It may be in the better land",
+      "suggested_fix": "Αποδώστε το ως «Ίσως στην καλύτερη χώρα», όχι ως «στην καλύτερη εκείνη χώρα», που προσθέτει δεικτική αναφορά και αλλάζει ελαφρά την απόχρωση.",
+      "translation_quote": "ίσως στην καλύτερη εκείνη χώρα"
+    },
+    {
+      "location": "Παράγραφος με Ρωμαίους 8:28",
+      "severity": "major",
+      "source_quote": "to them who are the called according to his purpose",
+      "suggested_fix": "Χρησιμοποιήστε «σε όσους είναι καλεσμένοι σύμφωνα με τον σκοπό του», διατηρώντας το «όσοι» του πρωτοτύπου και αποφεύγοντας να περιορίζεται η αναφορά σε ορισμένους καλεσμένους.",
+      "translation_quote": "εκείνων που είναι καλεσμένοι σύμφωνα με τον σκοπό του"
+    },
+    {
+      "location": "Τίτλος ενότητας",
+      "severity": "minor",
+      "source_quote": "Encouragement for Christian Women",
+      "suggested_fix": "Προτιμήστε «Ενθάρρυνση για τις χριστιανές γυναίκες» για πιο φυσική σύγχρονη ελληνική διατύπωση.",
+      "translation_quote": "Ενθάρρυνση για χριστιανές γυναίκες"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

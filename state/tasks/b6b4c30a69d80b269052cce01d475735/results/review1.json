@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9d1016dd-0d10-473a-98b8-c169069dbb46",
+    "response_id": "chatcmpl-EUrUoCjLaDLIKk2hAv74OvcuLMWys",
+    "usage": {
+      "completion_tokens": 884,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 578,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8222,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8219,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9106
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Ce que la Bible dit de la nourriture — citation d’Ecclésiaste 2:24",
+        "severity": "major",
+        "source_quote": "“...that he should make his soul enjoy good in his labour.”",
+        "suggested_fix": "Remplacer « et de jouir du bien-être au milieu de son travail » par une formulation qui conserve l’idée de l’âme jouissant du bien dans son travail, par exemple : « et que son âme jouisse du bien dans son travail ». Garder les balises <em> et la référence inchangées.",
+        "translation_quote": "« … de manger, de boire et de jouir du bien-être au milieu de son travail. »"
+      },
+      {
+        "location": "Ce que la Bible dit de la nourriture — citation de 1 Corinthiens 3:16-17",
+        "severity": "major",
+        "source_quote": "“If any man defile the temple of God, him shall God destroy”",
+        "suggested_fix": "Rendre « defile » par une formulation correspondant à profaner/souiller, et non détruire, par exemple : « Si quelqu’un profane le temple de Dieu, Dieu le détruira ». Conserver la balise <em> et la référence inchangées.",
+        "translation_quote": "« Si quelqu’un détruit le temple de Dieu, Dieu le détruira »"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

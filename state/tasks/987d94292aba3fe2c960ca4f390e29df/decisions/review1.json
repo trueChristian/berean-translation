@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final quoted Scripture (Philipperbrevet 3:14)",
+      "severity": "major",
+      "source_quote": "the high calling of God in Christ Jesus",
+      "suggested_fix": "Replace the second line with: <br>den höga kallelsen från Gud i Kristus Jesus",
+      "translation_quote": "den höga kallelse som Gud har kallat oss till i Kristus Jesus"
+    },
+    {
+      "location": "HTML, fourth stanza, third line",
+      "severity": "minor",
+      "source_quote": "A humble heart will stay more tears,",
+      "suggested_fix": "Replace the line with: Ett ödmjukt hjärta sparar många tårar",
+      "translation_quote": "Ett ödmjukt hjärta fäller färre tårar"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

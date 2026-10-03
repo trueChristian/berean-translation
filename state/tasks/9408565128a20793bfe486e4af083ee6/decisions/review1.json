@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final body paragraph, sentence beginning “Every day I choose…”",
+      "severity": "major",
+      "source_quote": "My choice determines the reciprocating favor or loss.",
+      "suggested_fix": "Replace “Mitt val avgör om jag får kärlek tillbaka eller går miste om den” with “Mitt val avgör om jag får gensvar eller går miste om det.”",
+      "translation_quote": "Mitt val avgör om jag får kärlek tillbaka eller går miste om den."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

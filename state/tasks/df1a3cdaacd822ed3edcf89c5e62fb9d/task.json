@@ -2,7 +2,6 @@
   "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 2187
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 977,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 618,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1846,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1843,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2823
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, стихотворная строфа, строка 4",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Заменить «Он стоял на распутье — вся жизнь его на кону была.» на «Он стоял на распутье — вся его жизнь была перед ним.»: не вводить отсутствующую в оригинале мысль, что жизнь поставлена на карту.",
+      "translation_quote": "Он стоял на распутье — вся жизнь его на кону была."
+    },
+    {
+      "location": "HTML, стихотворная строфа, строка 10",
+      "severity": "major",
+      "source_quote": "I even helped the neighbor, just the other day!",
+      "suggested_fix": "Заменить «Вот даже соседу на днях помогу!» на «Вот даже соседу на днях помог!» — сохранить прошедшее время и факт уже оказанной помощи.",
+      "translation_quote": "Вот даже соседу на днях помогу!"
+    },
+    {
+      "location": "HTML, стихотворная строфа, строка 14",
+      "severity": "major",
+      "source_quote": "I believe in myself, not the God from way back.",
+      "suggested_fix": "Заменить «Я верю в себя, а не в Бога, о Котором слышал давно.» на «Я верю в себя, а не в Бога прежних времён.» — в переводе не следует добавлять, что говорящий лишь слышал о Боге.",
+      "translation_quote": "Я верю в себя, а не в Бога, о Котором слышал давно."
+    }
+  ],
   "id": "df1a3cdaacd822ed3edcf89c5e62fb9d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

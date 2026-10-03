@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, paragraph beginning “He fought with his mind”",
+      "severity": "major",
+      "source_quote": "He fought with his mind, justifying the wrong.",
+      "suggested_fix": "Replace the paragraph with: <p>তিনি মনে মনে লড়লেন, ভুল কাজকে ন্যায্য বলে প্রতিপন্ন করতে করতে।</p>",
+      "translation_quote": "তিনি মনে মনে লড়লেন, ভুলকে সঠিক বলে оправনা করলেন।"
+    },
+    {
+      "location": "source.html, poem, paragraph beginning “It was God that was working”",
+      "severity": "major",
+      "source_quote": "It was God that was working, He seemed quite strong.",
+      "suggested_fix": "Replace the paragraph with: <p>ঈশ্বরই কাজ করছিলেন; তাঁকে বেশ শক্তিশালী বলে মনে হচ্ছিল।</p>",
+      "translation_quote": "ঈশ্বরই কাজ করছিলেন; তাঁকে বেশ শক্তিশালী মনে হচ্ছিল।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

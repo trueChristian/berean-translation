@@ -6,9 +6,32 @@
       "campaign": "gh-37108628649",
       "event": "requested",
       "task": "00a042196c9f6422c8e7bd421af0cd73"
+    },
+    {
+      "at": "2026-10-03T11:27:18+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "00a042196c9f6422c8e7bd421af0cd73"
     }
   ],
   "language": "nld",
   "latest_task": "00a042196c9f6422c8e7bd421af0cd73",
-  "published": null
+  "published": {
+    "html_path": "content/nld/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
+    "html_sha256": "f56ef8459d5f550deba3a119c46e50b3a3d5a4a35bf1db46f25e6532ed07ae2a",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+    "metadata_path": "content/nld/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.json",
+    "metadata_sha256": "e9d81daafcd85a7924156bbc59b5748120e768c54dc2b281703ff9dfd470e6d3",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nl\" dir=\"ltr\" role=\"note\">\n  <p>Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: gpt-6-luna) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel. <a href=\"/en/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0/\" data-source-article-id=\"affa9e6e-7d44-4174-ae66-fd44cfaeeaa0\" hreflang=\"en\">Engels origineel</a></p>\n</aside>",
+    "published_at": "2026-10-03T11:27:18+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+    "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
+    "task": "00a042196c9f6422c8e7bd421af0cd73",
+    "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a"
+  }
 }

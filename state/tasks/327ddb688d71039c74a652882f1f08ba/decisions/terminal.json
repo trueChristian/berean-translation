@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, fourth stanza, fourth line",
+      "severity": "minor",
+      "source_quote": "Than all of life’s great wit and will.",
+      "suggested_fix": "Do que toda a sabedoria e determinação que a vida pode oferecer.",
+      "translation_quote": "Do que toda a grande inteligência e vontade da vida."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

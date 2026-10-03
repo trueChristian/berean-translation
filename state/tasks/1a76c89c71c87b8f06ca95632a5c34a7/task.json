@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 12289
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 949,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 805,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12115,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12112,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13064
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, section III.c “Singing,” Colossians 3:16 quotation",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Change “en met dankbaarheid in julle harte tot eer van die Here sing” to “en sing met genade in julle harte tot eer van die Here” so the quotation preserves “with grace,” rather than changing it to gratitude.",
+      "translation_quote": "“en met dankbaarheid in julle harte tot eer van die Here sing”"
+    }
+  ],
   "id": "1a76c89c71c87b8f06ca95632a5c34a7",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "afr",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

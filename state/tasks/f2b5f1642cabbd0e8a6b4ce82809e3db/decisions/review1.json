@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, stanza 3, line 4",
+      "severity": "major",
+      "source_quote": "Your hand in it all You’ve made plain.",
+      "suggested_fix": "Replace the line with “U het dit duidelik gemaak dat U hand in alles is.”",
+      "translation_quote": "U het dit duidelik gemaak dat U hand daarin is."
+    },
+    {
+      "location": "HTML, poem, stanza 6, line 4",
+      "severity": "major",
+      "source_quote": "Making everything open to Your view.",
+      "suggested_fix": "Replace the line with “en alles vir U oop te stel.”",
+      "translation_quote": "om alles oop voor U te lê."
+    },
+    {
+      "location": "HTML, poem, stanza 9, line 4",
+      "severity": "major",
+      "source_quote": "For which no earthly price can exceed.",
+      "suggested_fix": "Replace the line with “waarmee geen aardse prys kan vergelyk nie.”",
+      "translation_quote": "waarvoor geen aardse prys te hoog is nie."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

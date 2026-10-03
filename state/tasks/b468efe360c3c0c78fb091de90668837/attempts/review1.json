@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, third stanza, second line\",\"severity\":\"minor\",\"source_quote\":\"All would have escaped this pain.\",\"suggested_fix\":\"Все мы избежали бы этой боли.\",\"translation_quote\":\"Все хотели бы избежать этой боли.\"},{\"location\":\"HTML, poem, ninth stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"Obedient even unto death, Lord,\",\"suggested_fix\":\"Послушные даже до смерти, Господи,\",\"translation_quote\":\"Господи, помоги нам быть послушными даже до смерти,\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 633,
+    "content_evidence_truncated": false,
+    "content_sha256": "6cdae2f875192ffdf43ee76f92b2e479e3e2d324f595ccaafa107c3a10d21eca",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 446,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2389,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2979
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

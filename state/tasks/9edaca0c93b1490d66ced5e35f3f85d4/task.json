@@ -2,7 +2,6 @@
   "article_id": "201a1b3e-85b3-4e62-bc45-118a8c1f5367",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 4707
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 605,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4566,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4563,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5171
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, parágrafo sob o título “Perseverar até o fim”",
+      "severity": "major",
+      "source_quote": "“Doesn’t Scripture assure us … that ye may know that ye have eternal life… –1 John 5:13.”",
+      "suggested_fix": "Altere para “A Escritura não nos assegura … que saibais que tendes a vida eterna… –1 João 5:13?” para preservar a pergunta retórica do original e a referência.",
+      "translation_quote": "“A Escritura não nos assegura …que saibais que tendes a vida eterna… –1 João 5:13.”"
+    }
+  ],
   "id": "9edaca0c93b1490d66ced5e35f3f85d4",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "por",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3247d37db60af5cb04c89fcb95f19a48f92e4609f34cce657f7405b402cfca9f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
   "translation_model_actual": "gpt-6-luna"

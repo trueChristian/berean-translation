@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3ab6e1ee-d8df-4d37-a8c4-f63c6677d51f",
+    "response_id": "chatcmpl-EUrUL3wNupUexI92iY1fkfluOroMf",
+    "usage": {
+      "completion_tokens": 753,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4613,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4610,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5366
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final reflective paragraph, sentence beginning “Todos os dias escolho…”",
+        "severity": "minor",
+        "source_quote": "My choice determines the reciprocating favor or loss.",
+        "suggested_fix": "Minha escolha determina se haverá reciprocidade e favor ou se haverá perda.",
+        "translation_quote": "Minha escolha determina a retribuição de favor ou de perda."
+      },
+      {
+        "location": "Scripture quotation, Ephesians 5:33b",
+        "severity": "minor",
+        "source_quote": "“And the wife see that she reverence her husband.”",
+        "suggested_fix": "“E a esposa respeite o marido.”",
+        "translation_quote": "“E a esposa veja que reverencie o marido.”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

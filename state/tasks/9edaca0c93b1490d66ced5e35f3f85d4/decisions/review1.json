@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, parágrafo sob o título “Perseverar até o fim”",
+      "severity": "major",
+      "source_quote": "“Doesn’t Scripture assure us … that ye may know that ye have eternal life… –1 John 5:13.”",
+      "suggested_fix": "Altere para “A Escritura não nos assegura … que saibais que tendes a vida eterna… –1 João 5:13?” para preservar a pergunta retórica do original e a referência.",
+      "translation_quote": "“A Escritura não nos assegura …que saibais que tendes a vida eterna… –1 João 5:13.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

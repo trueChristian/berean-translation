@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “This song was one…”",
+      "severity": "minor",
+      "source_quote": "This song was one I’d pray in the dark of the midnight when I couldn’t sleep",
+      "suggested_fix": "Replace “Esta era uma canção que eu orava em plena escuridão da meia-noite” with “Esta era uma canção que eu cantava em oração durante a escuridão da meia-noite” to express the idea naturally in Portuguese.",
+      "translation_quote": "Esta era uma canção que eu orava em plena escuridão da meia-noite"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

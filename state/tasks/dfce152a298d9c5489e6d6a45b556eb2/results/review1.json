@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "37097d4e-b23a-498a-a19a-87c8a7e328e9",
+    "response_id": "chatcmpl-EUrV4LPnoIKKZXe3v5dgyN9ybgm5j",
+    "usage": {
+      "completion_tokens": 682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 575,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2600,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2597,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3282
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, third stanza, second line",
+        "severity": "major",
+        "source_quote": "All would have escaped this pain.",
+        "suggested_fix": "Replace the line with «Όλοι θα είχαμε γλιτώσει αυτόν τον πόνο.»",
+        "translation_quote": "όλοι θα θέλαμε να είχαμε γλιτώσει αυτόν τον πόνο"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

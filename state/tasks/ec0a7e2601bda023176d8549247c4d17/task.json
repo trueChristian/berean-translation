@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 7990
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 333,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7849,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7846,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8182
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, sección «Mitos sobre la pérdida de peso», párrafo sobre las calorías del ejercicio",
+      "severity": "major",
+      "source_quote": "a body must burn 3500 calories to lose one pound",
+      "suggested_fix": "Cambiar «3500 calorías para perder una libra» por «3500 calorías para perder una libra (aproximadamente 450 gramos)» o usar otra conversión que mantenga explícita la equivalencia original.",
+      "translation_quote": "el cuerpo debe quemar 3500 calorías para perder una libra"
+    },
+    {
+      "location": "HTML, sección «Mitos sobre la pérdida de peso», subtítulo sobre carbohidratos",
+      "severity": "minor",
+      "source_quote": "…Carbohydrates make you gain weight.",
+      "suggested_fix": "Para conservar el sentido general del subtítulo en un registro internacional: «…Los carbohidratos hacen que se aumente de peso.»",
+      "translation_quote": "…Los carbohidratos hacen que aumentes de peso."
+    },
+    {
+      "location": "HTML, sección «Mitos sobre la pérdida de peso», subtítulo sobre el alimento que quema grasa",
+      "severity": "minor",
+      "source_quote": "You just need to eat ‘___’ fat burning food to lose weight!",
+      "suggested_fix": "Usar una formulación coherente con el tratamiento de «usted» del artículo: «…¡Solo tiene que comer «___», un alimento que quema grasa, para bajar de peso!»",
+      "translation_quote": "…¡Solo tienes que comer «___», un alimento que quema grasa, para bajar de peso!"
+    }
+  ],
   "id": "ec0a7e2601bda023176d8549247c4d17",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "spa",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

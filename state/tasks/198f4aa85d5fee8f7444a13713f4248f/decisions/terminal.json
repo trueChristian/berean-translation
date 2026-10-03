@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 2",
+      "severity": "minor",
+      "source_quote": "“Let’s ask my mom if we can go on a walk to the creek. I want to go wading.” Angie told her friend Melissa.",
+      "suggested_fix": "Ganti titik sebelum kata pengiring menjadi koma: “Ayo kita tanya Ibu apakah kita boleh berjalan-jalan ke anak sungai. Aku ingin bermain air,” kata Angie kepada temannya, Melissa.",
+      "translation_quote": "“Ayo kita tanya Ibu apakah kita boleh berjalan-jalan ke anak sungai. Aku ingin bermain air.” kata Angie kepada temannya, Melissa."
+    },
+    {
+      "location": "HTML paragraph 13",
+      "severity": "minor",
+      "source_quote": "Melissa followed her example and began splashing on her side of the boat.",
+      "suggested_fix": "Ubah menjadi “Melissa menirunya dan mulai mencipratkan air di sisi perahu.”",
+      "translation_quote": "Melissa menirunya dan mulai mencipratkan air di sisinya perahu."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

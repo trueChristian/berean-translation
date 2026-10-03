@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f8dc5551-6103-445a-845a-5399ab776650",
+    "response_id": "chatcmpl-EUrW48GGW3hPk6Scnzl8ek7GoH4JL",
+    "usage": {
+      "completion_tokens": 667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8610,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8607,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9277
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, final paragraph",
+        "severity": "major",
+        "source_quote": "“All our hope is in our hearing and all selfishness is in our hearing”",
+        "suggested_fix": "Replace “Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote uko katika kusikia kwetu” with “Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote unadhihirika katika kusikia kwetu.”",
+        "translation_quote": "“Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote uko katika kusikia kwetu”"
+      },
+      {
+        "location": "source.html, paragraph beginning “There is an elusive and gnawing factor…”",
+        "severity": "major",
+        "source_quote": "“There is an elusive and gnawing factor corroding the moral fiber of this nation.”",
+        "suggested_fix": "Replace “Kuna jambo lisilo rahisi kutambulika na linalosumbua, linaloikumba nguvu ya maadili ya taifa hili” with “Kuna jambo lisilo rahisi kutambua na linalosumbua, linalomomonyoa msingi wa maadili ya taifa hili.”",
+        "translation_quote": "“Kuna jambo lisilo rahisi kutambulika na linalosumbua, linaloikumba nguvu ya maadili ya taifa hili.”"
+      },
+      {
+        "location": "source.html, paragraph beginning “We play only the finest recorded music…”",
+        "severity": "major",
+        "source_quote": "“the sincere and humble offerings of common singing”",
+        "suggested_fix": "Replace “nyimbo za kawaida zinazoimbwa kwa unyofu na unyenyekevu” with “nyimbo za kawaida zinazotolewa kwa unyofu na unyenyekevu.”",
+        "translation_quote": "“nyimbo za kawaida zinazoimbwa kwa unyofu na unyenyekevu”"
+      },
+      {
+        "location": "source.html, paragraph beginning “As two bedraggled disciples…”",
+        "severity": "major",
+        "source_quote": "“two bedraggled disciples trudged the road to Emmaus”",
+        "suggested_fix": "Replace “Wanafunzi wawili waliokuwa wamechoka na wenye mavumbi walipokuwa wakitembea kwa shida katika barabara ya kwenda Emau” with “Wanafunzi wawili waliokuwa wamechoka na waliochafuka walipokuwa wakitembea kwa shida kwenye barabara ya kwenda Emau.”",
+        "translation_quote": "“Wanafunzi wawili waliokuwa wamechoka na wenye mavumbi walipokuwa wakitembea kwa shida katika barabara ya kwenda Emau”"
+      },
+      {
+        "location": "source.html, paragraph beginning “To make the hearts burn…”",
+        "severity": "major",
+        "source_quote": "“and their hearts burned with the rapturous revelation falling upon their ears”",
+        "suggested_fix": "Replace “na mioyo yao ikawaka kwa ufunuo wa furaha uliosikika masikioni mwao” with “na mioyo yao ikawaka kwa ufunuo wa shangwe uliowafikia masikioni.”",
+        "translation_quote": "“na mioyo yao ikawaka kwa ufunuo wa furaha uliosikika masikioni mwao”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

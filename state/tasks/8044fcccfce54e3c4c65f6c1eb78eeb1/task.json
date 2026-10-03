@@ -2,7 +2,6 @@
   "article_id": "0678981b-d0f9-4c28-970e-2617f9543c9b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 4968
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1071,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 699,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4744,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4741,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5815
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Title and article paragraphs discussing dishonor and the wife’s choices",
+      "severity": "minor",
+      "source_quote": "“Dishonor and Loss”; “All wives are tempted to dishonor their husbands”; “I can choose to honor or dishonor the husband God gave me.”",
+      "suggested_fix": "Use wording centered on disrespect or dishonoring rather than contempt, for example: title «الإهانة والخسارة»; «تُجرَّب جميع الزوجات على إهانة أزواجهن»; «أختار أن أكرم الزوج الذي وهبني الله إياه أو أهينه». Apply the same distinction to related occurrences where the source says “dishonor.”",
+      "translation_quote": "«الازدراء والخسارة»; «تُجرَّب جميع الزوجات بأن يزدرين أزواجهن»; «أختار أن أكرم الزوج الذي وهبني الله إياه أو أزدريه»"
+    },
+    {
+      "location": "Paragraph beginning “We sat with sagging hearts”",
+      "severity": "minor",
+      "source_quote": "“a cool, young fellow”",
+      "suggested_fix": "Replace «وسيم» with an equivalent conveying “cool” as appealing or fashionable in this context, such as «شاب جذاب وعصري».",
+      "translation_quote": "«شاب وسيـم، يافع»"
+    },
+    {
+      "location": "Paragraph beginning “But she beat him to the subject”",
+      "severity": "minor",
+      "source_quote": "“were her frosty words”",
+      "suggested_fix": "Use a natural Arabic expression for emotionally cold or icy words, such as «كانت تلك كلماتها الجافة».",
+      "translation_quote": "«كانت تلك كلماتها المتجمدة»"
+    }
+  ],
   "id": "8044fcccfce54e3c4c65f6c1eb78eeb1",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ara",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/337b0f85be679bd2862d74a2fd4fd6c0823bf7edba4d475821c72f925c77a031.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
   "translation_model_actual": "gpt-6-luna"

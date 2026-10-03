@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Hebrews 3:12–15 quotation",
+      "severity": "minor",
+      "source_quote": "“But exhort one another daily, while it is called To day”",
+      "suggested_fix": "Replace “আজই প্রতিদিন পরস্পরকে উৎসাহিত করো” with “প্রতিদিন পরস্পরকে উৎসাহিত করো”, retaining the following clause about it being called “আজ”.",
+      "translation_quote": "“বরং আজই প্রতিদিন পরস্পরকে উৎসাহিত করো, যতক্ষণ ‘আজ’ বলা হয়”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

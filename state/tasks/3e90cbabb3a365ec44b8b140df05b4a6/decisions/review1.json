@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Не случайно протестантский реформатор…»",
+      "severity": "major",
+      "source_quote": "There is a reason why the Protestant reformer, Martin Luther, died hating the Anabaptist people—because they rejected his interpretation of the Scriptures.",
+      "suggested_fix": "Заменить «Не случайно протестантский реформатор Мартин Лютер умер, ненавидя анабаптистов: они отвергли его толкование Писания» на «Протестантский реформатор Мартин Лютер умер, ненавидя анабаптистов, потому что они отвергли его толкование Писания».",
+      "translation_quote": "Не случайно протестантский реформатор Мартин Лютер умер, ненавидя анабаптистов: они отвергли его толкование Писания."
+    },
+    {
+      "location": "HTML, paragraph beginning «Американская церковь называет…»",
+      "severity": "major",
+      "source_quote": "The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.",
+      "suggested_fix": "Исправить на «Американская церковь называет “защиту себя, своих семей и своей страны” героизмом и отвагой; Библия называет это…», сохранив многоточие как незавершенную фразу оригинала.",
+      "translation_quote": "Американская церковь называет «защиту» себя, своей семьи и страны героизмом и отвагой; Библия называет это."
+    },
+    {
+      "location": "HTML, paragraph beginning «Неудивительно, что наши дети…»",
+      "severity": "major",
+      "source_quote": "If we pass on to our children that the Protestant church is also ok, and that they just do things differently, we are destroying everything that Jesus preached.",
+      "suggested_fix": "Заменить «мы разрушим все, о чем проповедовал Иисус» на «мы разрушаем все, о чем проповедовал Иисус».",
+      "translation_quote": "Если мы передадим детям, что протестантская церковь тоже приемлема и просто делает все по-другому, мы разрушим все, о чем проповедовал Иисус."
+    },
+    {
+      "location": "HTML, абзац перед заключительной цитатой из Послания к Римлянам",
+      "severity": "major",
+      "source_quote": "This does not mean that we shun people or act distasteful towards them",
+      "suggested_fix": "Исправить грамматически и точно: «Это не означает, что мы избегаем людей или ведем себя с ними неприязненно».",
+      "translation_quote": "Это не означает, что мы сторонится людей или ведем себя с ними неприязненно"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

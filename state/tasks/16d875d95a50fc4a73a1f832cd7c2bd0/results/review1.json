@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8fff3347-6b58-42c3-ae34-bc95df15399b",
+    "response_id": "chatcmpl-EUrUJ7Jkw1pvV1ihWQHEt8WLLABOr",
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 617,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1827,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1824,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2659
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, paragraph 4",
+        "severity": "major",
+        "source_quote": "He was at the crossroads, all his life as a whole.",
+        "suggested_fix": "Era a un bivio, con tutta la sua vita in gioco.",
+        "translation_quote": "Era a un bivio, con tutta la sua vita davanti."
+      },
+      {
+        "location": "HTML, poem, final two paragraphs",
+        "severity": "major",
+        "source_quote": "There’s no better One, in Whom to put all your trust; Than the almighty God. For all men it’s a must!",
+        "suggested_fix": "Non c’è nessuno migliore di Dio onnipotente in cui riporre tutta la propria fiducia; per ogni uomo è indispensabile farlo!",
+        "translation_quote": "Non c’è nessuno migliore in cui riporre tutta la propria fiducia; se non Dio onnipotente. Per ogni uomo è un dovere!"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

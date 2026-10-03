@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, paragraph 16\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"वह चाहता है कि मैं प्रमाणित होऊँ; वही जीवन और मार्ग है।\",\"translation_quote\":\"वह चाहता है कि मैं परखा जाऊँ; वही जीवन और मार्ग है।\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 477,
+    "content_evidence_truncated": false,
+    "content_sha256": "83df33e5fc60a52725cc9324db1dc1a76036133ab5c4cd12047152ab0ef52167",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 484,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1915,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1912,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2502
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

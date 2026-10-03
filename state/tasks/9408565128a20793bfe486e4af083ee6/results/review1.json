@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f380e22d-6437-4142-a7a4-04e044113072",
+    "response_id": "chatcmpl-EUrULDsY0gYO64x3xs1Js7YgmeHnn",
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 697,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4719,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5547
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final body paragraph, sentence beginning “Every day I choose…”",
+        "severity": "major",
+        "source_quote": "My choice determines the reciprocating favor or loss.",
+        "suggested_fix": "Replace “Mitt val avgör om jag får kärlek tillbaka eller går miste om den” with “Mitt val avgör om jag får gensvar eller går miste om det.”",
+        "translation_quote": "Mitt val avgör om jag får kärlek tillbaka eller går miste om den."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

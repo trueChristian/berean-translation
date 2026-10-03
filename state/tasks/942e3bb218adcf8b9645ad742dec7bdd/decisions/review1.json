@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, paragraph 4",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Han sto ved et veiskille, med hele livet sitt i spill.",
+      "translation_quote": "Han sto ved et veiskille, med hele livet foran seg."
+    },
+    {
+      "location": "source.html, poem, paragraph 16",
+      "severity": "major",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "Han vil at jeg skal bli bevist; Han er Livet og Veien.",
+      "translation_quote": "Han vil at det skal vise seg at Han er Livet og Veien."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

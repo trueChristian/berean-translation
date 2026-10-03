@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3b7adebc-b4fd-4847-b169-6c58f6fe81b7",
+    "response_id": "chatcmpl-EUrULGaY9TTtPKr0FNYOkjvhJaknq",
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 481,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11755,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11752,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12516
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "III. Pola-Pola Ibadah Sejati, bagian c. Bernyanyi; kutipan Efesus 5:19 dan kalimat penjelas sesudahnya",
+        "severity": "major",
+        "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord –Ephesians 5:19.” “Making melody in your heart” involves the accompaniment of the heart.",
+        "suggested_fix": "Terjemahkan kutipan dan frasa yang dirujuk dengan mempertahankan makna “singing and making melody in your heart to the Lord,” misalnya: “sambil bernyanyi dan melantunkan melodi dalam hatimu kepada Tuhan.” Sesuaikan kalimat berikutnya agar menjelaskan bahwa “melantunkan melodi dalam hatimu” melibatkan hati sebagai pengiring.",
+        "translation_quote": "“Dan berkata-katalah seorang kepada yang lain dalam mazmur, puji-pujian dan nyanyian rohani. Bernyanyi dan bersoraklah bagi Tuhan dengan segenap hati –Efesus 5:19.” “Bersoraklah bagi Tuhan dengan segenap hati” melibatkan hati sebagai pengiring."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

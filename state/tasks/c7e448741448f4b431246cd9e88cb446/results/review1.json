@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2c58636e-de7f-465d-9aac-141b1dcfadd4",
+    "response_id": "chatcmpl-EUrUaGs7Gv68LeWLcLa8HcwRTHtpU",
+    "usage": {
+      "completion_tokens": 693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4184,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4181,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4877
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “After getting permission”",
+        "severity": "major",
+        "source_quote": "“They had to cross a pasture to get to the creek, so Angie pushed apart the fence wires and stepped through.”",
+        "suggested_fix": "Replace “ندی تک پہنچنے کے لیے انہیں چراگاہ سے گزرنا تھا” with “چھوٹی ندی تک پہنچنے کے لیے انہیں گھاس کے میدان سے گزرنا تھا” to distinguish the pasture from the creek.",
+        "translation_quote": "“ندی تک پہنچنے کے لیے انہیں چراگاہ سے گزرنا تھا”"
+      },
+      {
+        "location": "HTML, paragraph beginning “They stepped out of the cool water”",
+        "severity": "major",
+        "source_quote": "“Melissa scrambled up the steep bank to the gravel road.”",
+        "suggested_fix": "Replace “پھسلتے ڈھلوان کنارے” with “کھڑی ڈھلوان والے کنارے” or “کھڑے کنارے” to convey steep, not slippery.",
+        "translation_quote": "“میلیسا پھسلتے ڈھلوان کنارے پر چڑھ کر بجری والی سڑک تک جا پہنچی”"
+      },
+      {
+        "location": "HTML, paragraph beginning “Suddenly, realizing she was alone”",
+        "severity": "major",
+        "source_quote": "“She moved a rock, then screamed and scrambled up the bank to join Melissa.”",
+        "suggested_fix": "Replace “اینجی نے ایک پتھر ہٹایا” with “اس نے ایک پتھر ہٹایا” so the action remains Melissa’s, as in the source.",
+        "translation_quote": "“اینجی نے ایک پتھر ہٹایا، پھر چیخی”"
+      },
+      {
+        "location": "HTML, paragraph beginning “Melissa grinned in excitement”",
+        "severity": "major",
+        "source_quote": "“She followed Angie into the barn to help get the oars and life jackets.”",
+        "suggested_fix": "Replace “اصطبل” with “گودام” to preserve that the girls go to the barn to get the equipment.",
+        "translation_quote": "“وہ چپو اور لائف جیکٹیں لینے میں مدد کے لیے اینجی کے پیچھے اصطبل میں گئی۔”"
+      },
+      {
+        "location": "HTML, paragraph beginning “Melissa felt bad but she did not want to tell anyone”",
+        "severity": "major",
+        "source_quote": "“All she could think about was that she had broken the oar and that she was going to hide what she had done.”",
+        "suggested_fix": "Replace “اب وہ اپنے کیے کو چھپانے والی ہے” with “وہ اپنے کیے کو چھپانے کا ارادہ رکھتی ہے” to retain the source’s stated intention rather than implying inevitability.",
+        "translation_quote": "“وہ بس یہی سوچ رہی تھی کہ اس نے چپو توڑا ہے اور اب وہ اپنے کیے کو چھپانے والی ہے۔”"
+      },
+      {
+        "location": "HTML, paragraph beginning “Just as the girls stepped out of the barn”",
+        "severity": "major",
+        "source_quote": "“Angie’s big brother jumped out from behind the barn where he had been hiding.”",
+        "suggested_fix": "Replace “اصطبل” with “گودام” in this sentence and its references, consistently translating “barn” as “گودام.”",
+        "translation_quote": "“اینجی کا بڑا بھائی، جو اصطبل کے پیچھے چھپا ہوا تھا، اچھل کر باہر آ گیا۔”"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e954f16f-cdc5-414b-b322-a61d5a745744",
+    "response_id": "chatcmpl-EUrUjCVXmHqhJWetJT36gwIGSRh83",
+    "usage": {
+      "completion_tokens": 214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1939,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2156
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, paragraph beginning “He fought with his mind”",
+        "severity": "major",
+        "source_quote": "He fought with his mind, justifying the wrong.",
+        "suggested_fix": "Replace the paragraph with: <p>তিনি মনে মনে লড়লেন, ভুল কাজকে ন্যায্য বলে প্রতিপন্ন করতে করতে।</p>",
+        "translation_quote": "তিনি মনে মনে লড়লেন, ভুলকে সঠিক বলে оправনা করলেন।"
+      },
+      {
+        "location": "source.html, poem, paragraph beginning “It was God that was working”",
+        "severity": "major",
+        "source_quote": "It was God that was working, He seemed quite strong.",
+        "suggested_fix": "Replace the paragraph with: <p>ঈশ্বরই কাজ করছিলেন; তাঁকে বেশ শক্তিশালী বলে মনে হচ্ছিল।</p>",
+        "translation_quote": "ঈশ্বরই কাজ করছিলেন; তাঁকে বেশ শক্তিশালী মনে হচ্ছিল।"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

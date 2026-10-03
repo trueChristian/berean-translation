@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ad130d0a-5156-465b-83e9-f2d32d1a6e77",
+    "response_id": "chatcmpl-EUrUKPLfM6G0GRs3Oi2Jlx2cmeQrT",
+    "usage": {
+      "completion_tokens": 694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 479,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9941,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10638
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, 요한복음 8:39-44 인용",
+        "severity": "major",
+        "source_quote": "“a man that hath told you the truth”",
+        "suggested_fix": "인용문에서 해당 부분을 “너희에게 진리를 말한 사람인 나를”로 고쳐, 원문의 ‘진리를 말했다’는 뜻을 보존하세요.",
+        "translation_quote": "“하나님의 말씀을 너희에게 이르신 사람인 나를”"
+      },
+      {
+        "location": "본문, 로마서 1:16 인용",
+        "severity": "major",
+        "source_quote": "“the gospel of Christ”",
+        "suggested_fix": "인용문 첫머리를 “그리스도의 복음을 부끄러워하지 아니하노니”로 고쳐 ‘그리스도의’라는 수식어를 반영하세요.",
+        "translation_quote": "“내가 복음을 부끄러워하지 아니하노니”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

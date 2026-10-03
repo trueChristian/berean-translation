@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "标题",
+      "severity": "minor",
+      "source_quote": "‘Til the Storm Passes By",
+      "suggested_fix": "建议将标题译为《直到风暴过去》，与歌词标题一致；当前译文已采用此译法，故无需修改。",
+      "translation_quote": "直到风暴过去"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

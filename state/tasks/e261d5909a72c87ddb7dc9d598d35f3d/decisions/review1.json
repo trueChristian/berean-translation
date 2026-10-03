@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, цитата 1 Коринфянам 6:19–20",
+      "severity": "major",
+      "source_quote": "“therefore glorify God in your body, and in your spirit, which are God’s”",
+      "suggested_fix": "Заменить «и в душах ваших» на «и в духе вашем», сохранив остальную структуру цитаты и ссылку.",
+      "translation_quote": "«Посему прославляйте Бога и в телах ваших, и в душах ваших, которые суть Божии»"
+    },
+    {
+      "location": "source.html, цитата 1 Коринфянам 3:16–17",
+      "severity": "major",
+      "source_quote": "“If any man defile the temple of God, him shall God destroy”",
+      "suggested_fix": "Заменить «того покарает Бог» на «того уничтожит Бог» (или равноценную формулировку, передающую именно уничтожение), сохранив остальную структуру цитаты и ссылку.",
+      "translation_quote": "«Если кто разорит храм Божий, того покарает Бог»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

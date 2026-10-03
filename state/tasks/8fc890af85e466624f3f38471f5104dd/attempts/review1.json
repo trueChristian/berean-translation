@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Isaiah 6:9–10 quotation, first sentence\",\"severity\":\"major\",\"source_quote\":\"Make the heart of this people fat\",\"suggested_fix\":\"Translate the image of a “fat” or dulled heart rather than changing it to a hardened heart; for example, “Buatlah hati bangsa ini tumpul” (and retain the rest of the quotation’s existing structure).\",\"translation_quote\":\"Buatlah hati bangsa ini keras\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 446,
+    "content_evidence_truncated": false,
+    "content_sha256": "8190633153061ff1c3ac17c6dca77b9519e4738e47efaa01196ad262929ec2ee",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 669,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8302,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8299,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9097
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

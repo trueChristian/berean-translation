@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, section “Myths About Weight Loss,” paragraph beginning “Most people burn between 200 and 300 calories”\",\"severity\":\"major\",\"source_quote\":\"“a body must burn 3500 calories to lose one pound”\",\"suggested_fix\":\"Replace “כדי להוריד חצי קילו” with “כדי להוריד פאונד אחד” (or give a faithful metric equivalent of one pound, approximately 0.45 ק״ג).\",\"translation_quote\":\"“הגוף צריך לשרוף 3500 קלוריות כדי להוריד חצי קילו”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 573,
+    "content_evidence_truncated": false,
+    "content_sha256": "c488654e02e2996621f8ec82e94099b1c2dad3f3d4a70b0640c0e1a31556205d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 864,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 707,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8435,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8432,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9299
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

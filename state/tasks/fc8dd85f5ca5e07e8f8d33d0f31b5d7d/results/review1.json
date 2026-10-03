@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c779e939-3bb8-4db3-8ba0-948e19c54cdd",
+    "response_id": "chatcmpl-EUrUMcY3eGxe75Y6e1pygW22s1saH",
+    "usage": {
+      "completion_tokens": 596,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 375,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3907,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4506
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Вдруг поняв…»",
+        "severity": "minor",
+        "source_quote": "“Angie was still at the entrance of the tunnel looking into a pool of water.”",
+        "suggested_fix": "Replace «лужу» with «водоем» to avoid narrowing “pool of water” to a puddle: «…Энджи все еще стоит у входа в туннель и смотрит в водоем»",
+        "translation_quote": "«…Энджи все еще стоит у входа в туннель и смотрит в лужу»"
+      },
+      {
+        "location": "HTML, paragraph beginning «Мелиссе было не по себе…»",
+        "severity": "minor",
+        "source_quote": "“the noisy goat pen”",
+        "suggested_fix": "Use «загон для коз» for the enclosure: «…и шумного загона для коз…»",
+        "translation_quote": "«…и шумного козлятника…»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

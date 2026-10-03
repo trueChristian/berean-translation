@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «سمعت كثيرًا من الأنابابتست»",
+      "severity": "major",
+      "source_quote": "The Bible says that few will make it.",
+      "suggested_fix": "استبدل «يقول الكتاب المقدس إن قليلين سينجون» بـ«يقول الكتاب المقدس إن قليلين سيبلغون الغاية» أو صياغة عربية تنقل معنى أن قلة فقط ستصل إلى السماء، من دون تغيير المقصود.",
+      "translation_quote": "يقول الكتاب المقدس إن قليلين سينجون."
+    },
+    {
+      "location": "HTML, paragraph beginning «كنت أتحدث إلى شابة»",
+      "severity": "major",
+      "source_quote": "She was ready to do what it took, or so she said.",
+      "suggested_fix": "عدّل العبارة إلى «قالت إنها مستعدة لفعل ما يلزم، أو هكذا زعمت» للحفاظ على تحفّظ الكاتب وشكّه في صدق قولها.",
+      "translation_quote": "قالت إنها مستعدة لفعل ما يلزم."
+    },
+    {
+      "location": "HTML, فقرة الاقتباس من متى 5:14",
+      "severity": "major",
+      "source_quote": "A city that is set on an hill cannot be hid –Matthew 5:14.",
+      "suggested_fix": "استخدم «لا يمكن أن تُخفى مدينة قائمة على جبل –متى 5:14.» بدلًا من صيغة التأنيث «موضوعة»، التي لا تلائم «مدينة» في العربية الفصحى.",
+      "translation_quote": "لا يمكن أن تُخفى مدينة موضوعة على جبل –متى 5:14."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

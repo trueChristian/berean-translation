@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poème, 5e strophe",
+      "severity": "minor",
+      "source_quote": "Acknowledging Your omnipotent might.",
+      "suggested_fix": "Remplacer « reconnaissant ta puissance toute-puissante » par « reconnaissant ta toute-puissance ».",
+      "translation_quote": "reconnaissant ta puissance toute-puissante."
+    },
+    {
+      "location": "HTML, poème, 7e strophe",
+      "severity": "minor",
+      "source_quote": "Quiet, yet deep and true.",
+      "suggested_fix": "Remplacer « paisible » par « discrète » pour rendre l’idée d’une humilité silencieuse.",
+      "translation_quote": "paisible, mais profonde et véritable."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

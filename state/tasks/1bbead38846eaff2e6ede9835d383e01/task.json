@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 11498
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 757,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11321,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11318,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12078
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "IV. Essence of True Worship, paragraph beginning “The fathers of the woman at the well…”",
+      "severity": "major",
+      "source_quote": "“We know what we worship” (4:22b). True worship is the exercise of our mind and intellect. True worship has something to offer: “Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "将这两处分段标记分别改为“（约翰福音4:22中）”和“（4:22下）”；并将引文改为“救恩是从耶稣来的”，以保留原文所说的“救恩是从耶稣来的”，而不是改成“救恩是从犹太人出来的”。",
+      "translation_quote": "“我们所拜的，我们知道”（4:22下）。真正的敬拜是运用我们的思想和理智。真正的敬拜有所献上：“救恩是从犹太人出来的”（4:22下）。"
+    }
+  ],
   "id": "1bbead38846eaff2e6ede9835d383e01",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "cmn",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

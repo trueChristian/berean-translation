@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "poem, lines 1 and 7–14",
+      "severity": "major",
+      "source_quote": "“The night was still, the air was drear.” / “But something’s not right, there’s something I lack.” / “I’ve lived like most others, as my life plays back.” / “He fought with his mind, justifying the wrong.” / “It was God that was working, He seemed quite strong.” / “The fact of the matter, it’s confidence I lack. I believe in myself, not the God from way back.”",
+      "suggested_fix": "Correct the affected lines to preserve the printed meanings: use «Η νύχτα ήταν γαλήνια, ο αέρας βαρύς/μουντός» for the first line; «Μα κάτι δεν πάει καλά, κάτι μου λείπει» is acceptable for the seventh. In line 8, preserve the original past-tense reflection rather than changing its perspective, e.g. «Έζησα όπως οι περισσότεροι, καθώς ξετυλίγεται η ζωή μου». In line 11, translate “the wrong” as «το άδικο» or «το κακό» without changing the sense. In line 12, render “He seemed quite strong” as «Φαινόταν πολύ δυνατός». In lines 13–14, convey lack of confidence and “the God from way back” without turning it into “old God,” e.g. «Η αλήθεια είναι πως μου λείπει η αυτοπεποίθηση. / Πιστεύω στον εαυτό μου, όχι στον Θεό που γνώριζα παλιά.»",
+      "translation_quote": "«Η νύχτα ήταν ήσυχη, ο αέρας σκοτεινός.» / «Μα κάτι δεν πάει καλά, κάτι μου λείπει.» / «Έζησα όπως οι περισσότεροι, καθώς ανατρέχω στη ζωή μου.» / «Πάλευε με το μυαλό του, δικαιολογώντας το κακό.» / «Ο Θεός ήταν αυτός που ενεργούσε· έμοιαζε πολύ δυνατός.» / «Η αλήθεια είναι πως μου λείπει η εμπιστοσύνη. / Πιστεύω στον εαυτό μου, όχι στον Θεό τον παλιό.»"
+    },
+    {
+      "location": "poem, line 4",
+      "severity": "minor",
+      "source_quote": "“He was at the crossroads, all his life as a whole.”",
+      "suggested_fix": "Preserve the source’s idea of standing at a crossroads with his whole life in view, for example: «Βρισκόταν σε σταυροδρόμι, με ολόκληρη τη ζωή του μπροστά του.»",
+      "translation_quote": "«Βρισκόταν σε σταυροδρόμι, αναλογιζόμενος όλη του τη ζωή.»"
+    },
+    {
+      "location": "poem, lines 15–18",
+      "severity": "major",
+      "source_quote": "“God wants to show strong, in my life every day. He wants me to be proved; He’s the Life and the Way. There’s no better One, in Whom to put all your trust; Than the almighty God. For all men it’s a must!”",
+      "suggested_fix": "Keep the speaker’s first-person perspective and the source’s assertion that God wants to demonstrate strength in the speaker’s life; render the unusual “wants me to be proved” without changing its meaning (for example, «Θέλει να φανώ άξιος»). Keep «η Ζωή και η Οδός» and translate the final lines as an exhortation to trust the almighty God, preserving that this is a necessity for all people.",
+      "translation_quote": "«Ο Θεός θέλει να δείχνει τη δύναμή Του στη ζωή μου κάθε μέρα. Θέλει να αποδειχτώ· Αυτός είναι η Ζωή και η Οδός. Δεν υπάρχει Καλύτερος για να Του εμπιστευτείς τα πάντα· Ο παντοδύναμος Θεός. Για όλους τους ανθρώπους είναι ανάγκη!»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

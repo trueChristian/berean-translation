@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, paragraph 16\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"Vervang alleen deze alinea door: <p>Hij wil dat ik bewezen word; Hij is het Leven en de Weg.</p>\",\"translation_quote\":\"Hij wil dat ik beproefd word; Hij is het Leven en de Weg.\"},{\"location\":\"HTML, poem, paragraph 18\",\"severity\":\"major\",\"source_quote\":\"Than the almighty God. For all men it’s a must!\",\"suggested_fix\":\"Vervang alleen deze alinea door: <p>dan de almachtige God. Voor ieder mens is dat een noodzaak!</p>\",\"translation_quote\":\"dan de almachtige God. Voor alle mensen is dat een must!\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 689,
+    "content_evidence_truncated": false,
+    "content_sha256": "d0c9f2337794bc11c999932f12c1e95facc5e6d44a8c5f50fcf03c18cde2693b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 710,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 510,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1819,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1816,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2529
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

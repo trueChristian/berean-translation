@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Immagino la solitaria vecchiaia di Mical”\",\"severity\":\"minor\",\"source_quote\":\"“Several chapters later tell of his eyes roving to a neighbor’s wife and the resulting sin.”\",\"suggested_fix\":\"Per una frase più chiara e grammaticalmente parallela: «Diversi capitoli più avanti raccontano che il suo sguardo vagò sulla moglie del vicino e del peccato che ne seguì.»\",\"translation_quote\":\"“Diversi capitoli più avanti raccontano che il suo sguardo si posò sulla moglie del vicino e del peccato che ne seguì.”\"},{\"location\":\"HTML, paragraph beginning “Restammo seduti con il cuore appesantito”\",\"severity\":\"minor\",\"source_quote\":\"“so-o-o special”\",\"suggested_fix\":\"Correggere il refuso mantenendo l’enfasi, per esempio: «cosììì speciale» → «così speciale» oppure «cosììì speciale» → «così tanto speciale».\",\"translation_quote\":\"“cosììì speciale”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 980,
+    "content_evidence_truncated": false,
+    "content_sha256": "f56d372139af5321f50e3403d8a321669ec03416fbf3f9b6e285ded0afddbc63",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4771,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4768,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5499
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

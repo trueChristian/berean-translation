@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Matthew 24:4–14 quotation",
+      "severity": "major",
+      "source_quote": "this gospel of the kingdom shall be preached in all the world",
+      "suggested_fix": "Translate “kingdom” as God’s kingdom/heavenly kingdom, for example: “이 천국 복음이 온 세상에 전파되어”. Preserve the existing <u> markup and the reference.",
+      "translation_quote": "이 나라의 복음이 온 세상에 전파되어"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

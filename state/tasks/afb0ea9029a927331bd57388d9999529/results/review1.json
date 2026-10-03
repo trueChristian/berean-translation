@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9c0029d2-7433-47df-a731-d6629726e59b",
+    "response_id": "chatcmpl-EUrULrEhfeduKRTsUpeq7cTO7OzLF",
+    "usage": {
+      "completion_tokens": 674,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2352,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3029
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poème, 5e strophe",
+        "severity": "minor",
+        "source_quote": "Acknowledging Your omnipotent might.",
+        "suggested_fix": "Remplacer « reconnaissant ta puissance toute-puissante » par « reconnaissant ta toute-puissance ».",
+        "translation_quote": "reconnaissant ta puissance toute-puissante."
+      },
+      {
+        "location": "HTML, poème, 7e strophe",
+        "severity": "minor",
+        "source_quote": "Quiet, yet deep and true.",
+        "suggested_fix": "Remplacer « paisible » par « discrète » pour rendre l’idée d’une humilité silencieuse.",
+        "translation_quote": "paisible, mais profonde et véritable."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

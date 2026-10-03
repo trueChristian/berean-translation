@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c2060f18-b40c-4e86-900d-2bb21691e246",
+    "response_id": "chatcmpl-EUrUNWwKiuTI8bY4QLtE6QdBDVmvV",
+    "usage": {
+      "completion_tokens": 154,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3924,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3921,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4078
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1",
+        "severity": "minor",
+        "source_quote": "“Let’s ask my mom if we can go on a walk to the creek. I want to go wading.” Angie told her friend Melissa.",
+        "suggested_fix": "Punctuate the dialogue conventionally: “Kom ons vra my ma of ons ’n entjie na die spruit toe kan gaan stap. Ek wil graag deur die water loop,” het Angie vir haar vriendin Melissa gesê.",
+        "translation_quote": "“Kom ons vra my ma of ons ’n entjie na die spruit toe kan gaan stap. Ek wil graag deur die water loop.” het Angie vir haar vriendin Melissa gesê."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

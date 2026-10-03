@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza, fourth line",
+      "severity": "minor",
+      "source_quote": "Than all of life’s great wit and will.",
+      "suggested_fix": "Remplacer « Que tout l'esprit et la volonté du monde » par « Que tout l’esprit et la volonté de la vie » pour conserver l’image de « life’s » dans le texte source.",
+      "translation_quote": "Que tout l'esprit et la volonté du monde."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

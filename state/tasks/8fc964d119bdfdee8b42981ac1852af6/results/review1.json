@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6b8c452a-94fe-4b46-8c0d-ed932ca9465a",
+    "response_id": "chatcmpl-EUrUd2l1MunikByekof2imQCMcHkf",
+    "usage": {
+      "completion_tokens": 735,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 628,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7839,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7836,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8574
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, heading <h2> before the Isaiah 6:9–10 quotation",
+        "severity": "minor",
+        "source_quote": "Fat Hearts",
+        "suggested_fix": "Use a heading that retains the source’s image of “fat” hearts, such as «Corações insensíveis», rather than changing it to hardened hearts.",
+        "translation_quote": "Corações endurecidos"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

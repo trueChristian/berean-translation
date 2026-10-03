@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f3337f6a-32da-4724-a91e-213c4e96ac48",
+    "response_id": "chatcmpl-EUrUUKh9d4mHrAzFZQHl9PrZ17XyS",
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 587,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1838,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2549
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, fourth paragraph",
+        "severity": "major",
+        "source_quote": "He was at the crossroads, all his life as a whole.",
+        "suggested_fix": "Replace the second clause with «وكان عند مفترق طرق حياته كلها» to convey that the crossroads concerns his life as a whole, without adding that his life was at stake.",
+        "translation_quote": "كان عند مفترق الطرق، وكانت حياته كلها على المحك."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

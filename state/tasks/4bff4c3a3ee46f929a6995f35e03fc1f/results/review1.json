@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a51fdcd1-c386-44eb-a9d6-68384923071d",
+    "response_id": "chatcmpl-EUrW8jo8CLmJAeiTsEM3Xmsn4BoFi",
+    "usage": {
+      "completion_tokens": 689,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2401,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2398,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3090
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, third stanza, second line",
+        "severity": "major",
+        "source_quote": "All would have escaped this pain.",
+        "suggested_fix": "काश, सब इस पीड़ा से बच निकलते।",
+        "translation_quote": "ताकि सभी इस पीड़ा से बच निकलें।"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

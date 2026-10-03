@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Ephesians 5:10–13",
+      "severity": "major",
+      "source_quote": "“But all things that are reproved are made manifest by the light: for whatsoever doth make manifest is light”",
+      "suggested_fix": "Replace only the final sentence of the quotation with «Men alt som blir avslørt, blir synlig i lyset; for alt som avslører, er lys», preserving the existing <em> tags and reference.",
+      "translation_quote": "«Men alt som blir avslørt, blir synlig i lyset. For alt som blir synlig, er lys»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

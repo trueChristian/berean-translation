@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “As I was standing in line…”",
+      "severity": "major",
+      "source_quote": "“He got sober and explained that he wanted to believe in God but couldn’t.”",
+      "suggested_fix": "Replace «Si fece serio» with «Si riprese» (or «Tornò in sé») to preserve the sense of becoming sober, rather than merely appearing serious.",
+      "translation_quote": "«Si fece serio e mi spiegò che avrebbe voluto credere in Dio, ma non ci riusciva.»"
+    },
+    {
+      "location": "source.html, paragraph beginning “I’ve heard many Anabaptist people…”",
+      "severity": "major",
+      "source_quote": "“I’ve heard many Anabaptist people say they can’t say that those in the worldly church are not Christians; they just don’t want to go in that direction.”",
+      "suggested_fix": "Change «È sincero?» to «È onesto?» or «È veritiero?»; the source asks whether the claim is truthful, not sincere.",
+      "translation_quote": "«È sincero?»"
+    },
+    {
+      "location": "source.html, paragraph beginning “There was a modern church…”",
+      "severity": "major",
+      "source_quote": "“They seemed to be on fire for the Lord! The pastor preached as a dying man. They were very interested in reaching the lost. But there were so many Bible teachings that they simply ignored!”",
+      "suggested_fix": "Replace «Ma ignoravano semplicemente così tanti insegnamenti biblici!» with «Ma ignoravano semplicemente moltissimi insegnamenti biblici!» to convey “so many” as a large number, not “simply so many” in the sense of merely many.",
+      "translation_quote": "«Ma ignoravano semplicemente così tanti insegnamenti biblici!»"
+    },
+    {
+      "location": "source.html, paragraph beginning “It seems that most Christians in America…”",
+      "severity": "major",
+      "source_quote": "“Spending thousands on big hunting trips and expensive vacations is completed without a second thought.”",
+      "suggested_fix": "Replace «Si spendono migliaia di dollari in grandi battute di caccia e vacanze costose senza pensarci due volte» with «Si spendono migliaia di dollari per battute di caccia importanti e vacanze costose senza pensarci due volte»; «big» describes the trips, not the amount of money spent.",
+      "translation_quote": "«Si spendono migliaia di dollari in grandi battute di caccia e vacanze costose senza pensarci due volte.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

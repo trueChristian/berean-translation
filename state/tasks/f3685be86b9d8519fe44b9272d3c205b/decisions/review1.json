@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source HTML, paragraph beginning “The man talked.”",
+      "severity": "major",
+      "source_quote": "“She was presently meeting with a new boyfriend”",
+      "suggested_fix": "Change “Sy het op daardie oomblik met ’n nuwe kêrel afgespreek” to “Sy was op daardie oomblik besig om ’n nuwe kêrel te ontmoet” to preserve that she was meeting him then, rather than merely arranging to meet him.",
+      "translation_quote": "“Sy het op daardie oomblik met ’n nuwe kêrel afgespreek”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

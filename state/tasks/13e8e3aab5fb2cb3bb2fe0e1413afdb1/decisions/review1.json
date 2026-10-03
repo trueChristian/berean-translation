@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, stanza beginning “Grow in us, Lord”",
+      "severity": "major",
+      "source_quote": "Grow in us, Lord, a humility,",
+      "suggested_fix": "Replace the corresponding line with “Kuza ndani yetu, Bwana, unyenyekevu,”",
+      "translation_quote": "Utukuze ndani yetu, Bwana, unyenyekevu,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

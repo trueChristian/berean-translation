@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c545b604-df18-49d1-903d-77e74a494e73",
+    "response_id": "chatcmpl-EUrUJm4knaYMExE9W6v6b9E6i2qSF",
+    "usage": {
+      "completion_tokens": 148,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1818,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1815,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1966
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, final two lines",
+        "severity": "major",
+        "source_quote": "There’s no better One, in Whom to put all your trust; / Than the almighty God. For all men it’s a must!",
+        "suggested_fix": "Preserve the original comparison: “Não há ninguém melhor em quem depositar toda a confiança; / Do que o Deus Todo-Poderoso. Para todos os homens, isso é indispensável!”",
+        "translation_quote": "Não há ninguém melhor em quem depositar toda a confiança; / Que o Deus Todo-Poderoso. Para todos os homens, isso é essencial!"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

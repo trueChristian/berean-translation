@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Our Unique Personality, paragraph beginning “Those disinterested in mathematics…”",
+      "severity": "major",
+      "source_quote": "“without the innate quickening of the Spirit”",
+      "suggested_fix": "“पवित्र आत्मा की सहज जागृति के बिना”",
+      "translation_quote": "“आत्मा की सहज जागृति के बिना”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

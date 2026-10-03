@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "“Let’s ask my mom if we can go on a walk to the creek. I want to go wading.” Angie told her friend Melissa.",
+      "suggested_fix": "Punctuate the dialogue conventionally: “Kom ons vra my ma of ons ’n entjie na die spruit toe kan gaan stap. Ek wil graag deur die water loop,” het Angie vir haar vriendin Melissa gesê.",
+      "translation_quote": "“Kom ons vra my ma of ons ’n entjie na die spruit toe kan gaan stap. Ek wil graag deur die water loop.” het Angie vir haar vriendin Melissa gesê."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

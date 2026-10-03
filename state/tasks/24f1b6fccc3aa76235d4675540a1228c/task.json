@@ -2,7 +2,6 @@
   "article_id": "201a1b3e-85b3-4e62-bc45-118a8c1f5367",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 4984
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 888,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4766,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4763,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5654
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph quoting Hebrews 3:12–15",
+      "severity": "major",
+      "source_quote": "“an evil heart of unbelief”",
+      "suggested_fix": "Replace «сердца лукавого и неверного» with a Russian rendering that conveys an evil heart characterized by unbelief, for example «злого сердца неверия».",
+      "translation_quote": "«сердца лукавого и неверного»"
+    },
+    {
+      "location": "HTML, paragraph quoting Hebrews 3:12–15",
+      "severity": "major",
+      "source_quote": "“if we hold the beginning of our confidence stedfast unto the end”",
+      "suggested_fix": "Replace «если только начатую жизнь твёрдо сохраним до конца» with a rendering that preserves the source’s meaning of holding firmly to one’s confidence until the end, for example «если только до конца сохраним твёрдость нашей первоначальной уверенности».",
+      "translation_quote": "«если только начатую жизнь твёрдо сохраним до конца»"
+    },
+    {
+      "location": "HTML, final paragraph quoting Jude 1:24–25",
+      "severity": "major",
+      "source_quote": "“To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.”",
+      "suggested_fix": "Remove «чрез Иисуса Христа Господа нашего»: the source does not include that attribution in this sentence. Preserve the source’s wording and order for the doxology.",
+      "translation_quote": "«Единому Премудрому Богу, Спасителю нашему чрез Иисуса Христа Господа нашего, слава и величие, сила и власть прежде всех веков, ныне и во все веки»"
+    }
+  ],
   "id": "24f1b6fccc3aa76235d4675540a1228c",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3247d37db60af5cb04c89fcb95f19a48f92e4609f34cce657f7405b402cfca9f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
   "translation_model_actual": "gpt-6-luna"

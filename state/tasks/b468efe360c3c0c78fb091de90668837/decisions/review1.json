@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, third stanza, second line",
+      "severity": "minor",
+      "source_quote": "All would have escaped this pain.",
+      "suggested_fix": "Все мы избежали бы этой боли.",
+      "translation_quote": "Все хотели бы избежать этой боли."
+    },
+    {
+      "location": "HTML, poem, ninth stanza, first line",
+      "severity": "minor",
+      "source_quote": "Obedient even unto death, Lord,",
+      "suggested_fix": "Послушные даже до смерти, Господи,",
+      "translation_quote": "Господи, помоги нам быть послушными даже до смерти,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

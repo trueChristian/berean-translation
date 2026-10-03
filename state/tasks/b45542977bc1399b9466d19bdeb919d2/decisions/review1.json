@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ بـ«بعد أن أمضت ميليسا...» والفقرة التالية التي تبدأ بـ«خرجتا من الماء...»",
+      "severity": "major",
+      "source_quote": "“that big culvert under the road” / “the tunnel-like culvert”",
+      "suggested_fix": "استبدلي «العبّارة» في الموضعين بتعبير يدل على ممرّ أو قناة تصريف كبيرة تحت الطريق، مثل «مجرى التصريف الكبير تحت الطريق»؛ فالحديث عن نفق تمرّان عبره، لا عن عبّارة.",
+      "translation_quote": "«تلك العبّارة الكبيرة تحت الطريق» / «العبّارة التي تشبه النفق»"
+    },
+    {
+      "location": "الفقرة التي تبدأ بـ«ابتلت أطراف فستاني الفتاتين...»",
+      "severity": "major",
+      "source_quote": "“The girls’ dress hems were damp from the creek”",
+      "suggested_fix": "استبدلي العبارة بـ«ابتلت أطراف فساتين الفتاتين بماء الجدول»؛ فالنص يتحدث عن فساتين الفتاتين، لا عن «فستاني» المتكلم.",
+      "translation_quote": "«ابتلت أطراف فستاني الفتاتين بماء الجدول»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

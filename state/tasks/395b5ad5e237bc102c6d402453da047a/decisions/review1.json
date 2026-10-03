@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final Scripture quotation, Philippians 3:14",
+      "severity": "major",
+      "source_quote": "the high calling of God in Christ Jesus",
+      "suggested_fix": "Replace „himmlischen Berufung Gottes in Christus Jesus“ with „hohen Berufung Gottes in Christus Jesus“, preserving the existing HTML tags and line break.",
+      "translation_quote": "himmlischen Berufung Gottes in Christus Jesus"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

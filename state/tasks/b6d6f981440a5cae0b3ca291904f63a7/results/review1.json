@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8e722c1a-3838-4e91-9ad6-f3888f7ce941",
+    "response_id": "chatcmpl-EUrUTF7aOa4GgyFrG0nRjaLMS3wWw",
+    "usage": {
+      "completion_tokens": 625,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1948,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2576
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, fourth stanza, fourth line",
+        "severity": "minor",
+        "source_quote": "Than all of life’s great wit and will.",
+        "suggested_fix": "Remplacer « Que tout l'esprit et la volonté du monde » par « Que tout l’esprit et la volonté de la vie » pour conserver l’image de « life’s » dans le texte source.",
+        "translation_quote": "Que tout l'esprit et la volonté du monde."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "201a1b3e-85b3-4e62-bc45-118a8c1f5367",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 5219
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 651,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5018,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5015,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5669
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, Hebrews 3:12–15 quotation",
+      "severity": "minor",
+      "source_quote": "“But exhort one another daily, while it is called To day”",
+      "suggested_fix": "Replace “আজই প্রতিদিন পরস্পরকে উৎসাহিত করো” with “প্রতিদিন পরস্পরকে উৎসাহিত করো”, retaining the following clause about it being called “আজ”.",
+      "translation_quote": "“বরং আজই প্রতিদিন পরস্পরকে উৎসাহিত করো, যতক্ষণ ‘আজ’ বলা হয়”"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:19+00:00",
   "id": "834def0c02dd542337b25dd60fbecf5d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ben",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3247d37db60af5cb04c89fcb95f19a48f92e4609f34cce657f7405b402cfca9f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
   "translation_model_actual": "gpt-6-luna"

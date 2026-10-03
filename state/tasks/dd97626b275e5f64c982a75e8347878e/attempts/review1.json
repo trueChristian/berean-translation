@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Dikten, strofen som börjar ”Help us, Father”\",\"severity\":\"major\",\"source_quote\":\"Help us, Father, to be broken,\",\"suggested_fix\":\"Ändra till exempel till ”Hjälp oss, Fader, att bli krossade,” så att bilden av att bli bruten bevaras, i stället för att ersättas med ödmjukhet.\",\"translation_quote\":\"Hjälp oss, Fader, att bli ödmjuka,\"},{\"location\":\"Dikten, strofen som börjar ”Grow in us, Lord”\",\"severity\":\"major\",\"source_quote\":\"It’s a jewel that nothing but trials can teach.\",\"suggested_fix\":\"Ändra till exempel till ”Det är en juvel som endast prövningar kan lära oss.” Undvik tillägget att prövningar lär oss att värdesätta ödmjukheten; det står inte i källtexten.\",\"translation_quote\":\"Det är en juvel som endast prövningar kan lära oss att värdesätta.\"},{\"location\":\"Dikten, strofen som börjar ”Grow in us, Lord”\",\"severity\":\"minor\",\"source_quote\":\"Grow in us, Lord, a humility,\",\"suggested_fix\":\"För idiomatisk svenska: ”Låt ödmjukhet växa i oss, Herre,”\",\"translation_quote\":\"Väx fram i oss, Herre, en ödmjukhet,\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 1137,
+    "content_evidence_truncated": false,
+    "content_sha256": "02886265fc63af317094ccf608fd4b6741ca201fe242405266097f8d1bd53ff3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 396,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2381,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3105
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

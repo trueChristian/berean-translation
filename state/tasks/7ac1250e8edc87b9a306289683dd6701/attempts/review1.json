@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, paragraph 13\",\"severity\":\"major\",\"source_quote\":\"The fact of the matter, it’s confidence I lack.\",\"suggested_fix\":\"Ganti dengan: “Sesungguhnya, keyakinanlah yang kurang dariku.”\",\"translation_quote\":\"Sesungguhnya, aku kurang percaya diri.\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 312,
+    "content_evidence_truncated": false,
+    "content_sha256": "02a531c5eab900608bac969a7a97059c69b439be01ed33a9aeb642043f1e4828",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 899,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 801,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1844,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1841,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2743
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

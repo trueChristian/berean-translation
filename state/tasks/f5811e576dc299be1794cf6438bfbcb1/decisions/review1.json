@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo 7",
+      "severity": "minor",
+      "source_quote": "“Yes, let’s do that and then we can walk along the road back to the driveway.”",
+      "suggested_fix": "—Sí, hagámoslo, y luego podemos volver caminando por el camino hasta el camino de entrada.",
+      "translation_quote": "—Sí, hagámoslo, y luego podemos volver caminando por el camino hasta la entrada del camino de acceso."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

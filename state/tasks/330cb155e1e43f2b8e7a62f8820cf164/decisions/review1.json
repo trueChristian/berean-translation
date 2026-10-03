@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, final stanza, first line",
+      "severity": "major",
+      "source_quote": "Obedient even unto death, Lord,",
+      "suggested_fix": "Que sejamos obedientes até à morte, Senhor,",
+      "translation_quote": "Obediente até à morte, Senhor,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, section III.c “Singing,” Colossians 3:16 quotation\",\"severity\":\"major\",\"source_quote\":\"“singing with grace in your hearts to the Lord”\",\"suggested_fix\":\"Change “en met dankbaarheid in julle harte tot eer van die Here sing” to “en sing met genade in julle harte tot eer van die Here” so the quotation preserves “with grace,” rather than changing it to gratitude.\",\"translation_quote\":\"“en met dankbaarheid in julle harte tot eer van die Here sing”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 539,
+    "content_evidence_truncated": false,
+    "content_sha256": "b4c041f71d56eaa6c739cfbffc9ad43c7a44ff4dca16aa0daf5535527078e1f6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 949,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 805,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12115,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12112,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13064
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

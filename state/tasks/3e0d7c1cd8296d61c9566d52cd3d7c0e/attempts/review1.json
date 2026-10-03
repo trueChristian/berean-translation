@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, fourth paragraph\",\"severity\":\"major\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"Replace the second clause with «وكان عند مفترق طرق حياته كلها» to convey that the crossroads concerns his life as a whole, without adding that his life was at stake.\",\"translation_quote\":\"كان عند مفترق الطرق، وكانت حياته كلها على المحك.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 498,
+    "content_evidence_truncated": false,
+    "content_sha256": "58ebcfbdf392032b39723fc5f4d74240fe7b9788c78babae4555e8378c1e2b75",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 587,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1838,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2549
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

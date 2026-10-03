@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d311723c-4334-4e18-a8e3-6794a99927cf",
+    "response_id": "chatcmpl-EUrUZdXJdf7regPyGcgAvOaQzjJ7l",
+    "usage": {
+      "completion_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 557,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1979,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1976,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2720
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, final quoted Scripture (Philipperbrevet 3:14)",
+        "severity": "major",
+        "source_quote": "the high calling of God in Christ Jesus",
+        "suggested_fix": "Replace the second line with: <br>den höga kallelsen från Gud i Kristus Jesus",
+        "translation_quote": "den höga kallelse som Gud har kallat oss till i Kristus Jesus"
+      },
+      {
+        "location": "HTML, fourth stanza, third line",
+        "severity": "minor",
+        "source_quote": "A humble heart will stay more tears,",
+        "suggested_fix": "Replace the line with: Ett ödmjukt hjärta sparar många tårar",
+        "translation_quote": "Ett ödmjukt hjärta fäller färre tårar"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

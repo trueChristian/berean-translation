@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, section I.a, paragraph beginning “Paul raises some sobering questions”\",\"severity\":\"major\",\"source_quote\":\"So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.\",\"suggested_fix\":\"اس اقتباس کے آخر میں «اور سننا خدا کے کلام سے» لکھیں، اور حوالہ «–رومیوں 10:17۔» برقرار رکھیں۔\",\"translation_quote\":\"پس ایمان سننے سے پیدا ہوتا ہے اور سننا مسیح کے کلام سے۔ –رومیوں 10:17۔\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 584,
+    "content_evidence_truncated": false,
+    "content_sha256": "b1264e3587390ba3460b23c0faf32774c6e4901067c4295b4ad0ba64ff73cdc4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 477,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12628,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13257
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

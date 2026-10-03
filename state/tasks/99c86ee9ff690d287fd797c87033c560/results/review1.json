@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "32fff809-12f8-4837-9c98-c51d3f1d2856",
+    "response_id": "chatcmpl-EUrUux0yaP5h2tdEfRBd2bRZ5Yalm",
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 502,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4759,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5392
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article HTML, closing Scripture quotation (Ephesians 5:33b)",
+        "severity": "major",
+        "source_quote": "“And the wife see that she reverence her husband.”",
+        "suggested_fix": "Replace ״והאישה תירא את בעלה.״ with ״והאישה תכבד את בעלה.״ This conveys the source’s meaning of reverence/respect rather than fear.",
+        "translation_quote": "״והאישה תירא את בעלה.״"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

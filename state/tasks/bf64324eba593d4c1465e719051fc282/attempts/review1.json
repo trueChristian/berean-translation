@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Throughout the article, especially the paragraphs beginning “Finally, the wife opened her mouth,” “All wives are tempted,” and “Every day I choose”\",\"severity\":\"major\",\"source_quote\":\"“Dishonor” / “dishonor their husbands” / “honor or dishonor the husband God gave me.”\",\"suggested_fix\":\"Translate “dishonor” consistently as a form of «δεν τιμώ» or «ατιμάζω», rather than «περιφρονώ» (“despise/contempt”). For example: «Όλες οι σύζυγοι μπαίνουμε στον πειρασμό να μην τιμούμε τους άντρες μας» and «Κάθε μέρα επιλέγω αν θα τιμήσω ή θα ατιμάσω τον άντρα που μου έδωσε ο Θεός». Preserve the existing HTML structure.\",\"translation_quote\":\"«Ξεχείλισε η πίκρα· οι προσβολές· παλιά παράπονα»; «Όλες οι γυναίκες μπαίνουμε στον πειρασμό να περιφρονούμε τους άντρες μας»; «Κάθε μέρα επιλέγω αν θα τιμήσω ή θα περιφρονήσω τον άντρα που μου έδωσε ο Θεός»\"},{\"location\":\"Final reflection paragraph, sentence beginning “My choice determines”\",\"severity\":\"major\",\"source_quote\":\"“My choice determines the reciprocating favor or loss.”\",\"suggested_fix\":\"Revise the sentence to express that her choice determines the favor or loss returned in response, without adding that she specifically loses her husband's favor. For example: «Η επιλογή μου καθορίζει την εύνοια ή την απώλεια που θα μου ανταποδοθεί.»\",\"translation_quote\":\"«Η επιλογή μου καθορίζει αν θα λάβω ανταπόδοση ή θα χάσω την εύνοιά του.»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1921,
+    "content_evidence_truncated": false,
+    "content_sha256": "1fbf98c1442e951d8fc54d903ba118e6915e4de998ca425cfdd507e96508f96b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1000,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 572,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5654,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5651,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6654
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

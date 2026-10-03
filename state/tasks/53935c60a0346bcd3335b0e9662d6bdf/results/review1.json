@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ba049f9d-e779-4c1e-8225-63c9bc338a69",
+    "response_id": "chatcmpl-EUrUaJSpzc7vgJpdKNkr5NOn7o91N",
+    "usage": {
+      "completion_tokens": 907,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 540,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4713,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5623
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning « So how do we bring this together », final sentence",
+        "severity": "major",
+        "source_quote": "Then lastly, we are finally saved forever, IF we endure through life faithfully until the end (the end of our life here on earth).",
+        "suggested_fix": "Remplacer « si, et seulement si, nous persévérons fidèlement tout au long de notre vie jusqu’à la fin » par « si nous persévérons fidèlement tout au long de notre vie jusqu’à la fin ». « Si, et seulement si » affirme une équivalence plus forte que le « IF » du texte source.",
+        "translation_quote": "Enfin, nous sommes sauvés pour toujours si, et seulement si, nous persévérons fidèlement tout au long de notre vie jusqu’à la fin (la fin de notre vie ici-bas)."
+      },
+      {
+        "location": "HTML, dernière citation, phrase commençant par « au seul Dieu »",
+        "severity": "major",
+        "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen.",
+        "suggested_fix": "Traduire la phrase sans ajouter « par Jésus-Christ notre Seigneur » et rétablir « sage ». Par exemple : « au seul Dieu sage, notre Sauveur, soient gloire et majesté, domination et puissance, dès maintenant et pour toujours. Amen. » Conserver les balises HTML existantes.",
+        "translation_quote": "au seul Dieu, notre Sauveur, par Jésus-Christ notre Seigneur, soient gloire, majesté, force et puissance, dès avant tous les temps, maintenant et dans tous les siècles ! Amen."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

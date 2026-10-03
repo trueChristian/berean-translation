@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, shairi la wimbo, ubeti wa kwanza\",\"severity\":\"major\",\"source_quote\":\"“‘Mid the crash of the thunder, Precious Lord, hear my cry”\",\"suggested_fix\":\"Tafsiri “crash of the thunder” kama “mlipuko wa ngurumo” au “ngurumo kali”; “Katikati ya ngurumo” inakosa wazo la sauti yake kali ya kupasuka.\",\"translation_quote\":\"“Katikati ya ngurumo, Bwana mpendwa, sikia kilio changu”\"},{\"location\":\"HTML, shairi la wimbo, kiitikio\",\"severity\":\"major\",\"source_quote\":\"“Till the thunder sounds no more”\",\"suggested_fix\":\"Badilisha “mpaka ngurumo zisikike tena” kuwa “mpaka ngurumo zisiwe tena” au “mpaka ngurumo zisikike tena kamwe” ili kuhifadhi maana ya kuwa hazitasikika tena.\",\"translation_quote\":\"“mpaka ngurumo zisikike tena”\"},{\"location\":\"HTML, shairi la wimbo, ubeti wa pili\",\"severity\":\"major\",\"source_quote\":\"“But I know Thou art with me, and tomorrow I’ll rise / Where the storms never darken the skies.”\",\"suggested_fix\":\"Tafsiri “I’ll rise” kama “nitaamka/nitainuka,” si “nitainuka Mahali”; kwa mfano: “Lakini najua uko pamoja nami, na kesho nitaamka / Mahali ambapo dhoruba haziti giza kamwe angani.”\",\"translation_quote\":\"“Lakini najua uko pamoja nami, na kesho nitainuka / Mahali ambapo dhoruba hazitawahi kutia giza angani.”\"},{\"location\":\"HTML, shairi la wimbo, ubeti wa mwisho\",\"severity\":\"major\",\"source_quote\":\"“Dwell with Thee when the storm passes by.”\",\"suggested_fix\":\"Tafsiri “when the storm passes by” kama “dhoruba inapopita”; “dhoruba ipitapo” inakubalika, lakini hakikisha sentensi nzima inasema kuishi pamoja na Bwana dhoruba inapopita, si dhoruba ipite kwanza. Kwa mfano: “Nikae pamoja nawe dhoruba inapopita.”\",\"translation_quote\":\"“Nikae pamoja nawe dhoruba ipitapo.”\"},{\"location\":\"HTML, aya ya shairi lililonukuliwa\",\"severity\":\"major\",\"source_quote\":\"“It may be in the better land / We’ll read the meaning of our tears”\",\"suggested_fix\":\"Tafsiri kama uwezekano: “Huenda katika nchi iliyo bora zaidi / Tutaelewa maana ya machozi yetu.” Epuka kuacha “Huenda” bila kiunganishi kinachoonyesha kuwa jambo linalowezekana ni kwamba huko ndipo tutaelewa.\",\"translation_quote\":\"“Huenda katika nchi iliyo bora zaidi / Tutaelewa maana ya machozi yetu”\"},{\"location\":\"HTML, nukuu ya Ufunuo 21:1–4\",\"severity\":\"critical\",\"source_quote\":\"“And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them”\",\"suggested_fix\":\"Rejesha katika Kiswahili kauli iliyo katika chanzo kwamba sauti kubwa ilitoka mbinguni na kutangaza kuwa maskani ya Mungu iko pamoja na wanadamu, na kwamba Mungu atakaa pamoja nao. Tafsiri iliyopo inabadilisha chanzo cha sauti kuwa kile kiti cha enzi na kuacha sehemu ya tangazo hilo.\",\"translation_quote\":\"“Nikasikia sauti kubwa kutoka katika kile kiti cha enzi ikisema, Tazama, maskani ya Mungu ni pamoja na wanadamu, naye atakaa pamoja nao”\"},{\"location\":\"HTML, nukuu ya Ufunuo 21:1–4\",\"severity\":\"major\",\"source_quote\":\"“and they shall be his people, and God himself shall be with them, and be their God.”\",\"suggested_fix\":\"Ongeza tafsiri ya kauli “and be their God,” kwa mfano “naye atakuwa Mungu wao,” bila kuacha au kubadilisha kauli zilizo karibu.\",\"translation_quote\":\"“nao watakuwa watu wake. Naye Mungu mwenyewe atakuwa pamoja nao.”\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 3433,
+    "content_evidence_truncated": false,
+    "content_sha256": "0f278244e59d7248012f6a9d65388973e4507835115d89015c1dd83d18c1adcd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 946,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3987,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4936
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

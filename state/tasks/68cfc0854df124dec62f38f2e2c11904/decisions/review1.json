@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraf kutipan Pengkhotbah 2:24",
+      "severity": "major",
+      "source_quote": "There is nothing better for a man, than that he should eat and drink, and that he should make his soul enjoy good in his labour.",
+      "suggested_fix": "Ganti dengan terjemahan yang mempertahankan makna “membuat dirinya menikmati kebaikan dari jerih payahnya,” misalnya: “Tidak ada yang lebih baik bagi manusia daripada makan dan minum serta menikmati kebaikan dari jerih payahnya sendiri.” Pertahankan penanda kutipan dan rujukan.",
+      "translation_quote": "Tidak ada yang lebih baik bagi manusia daripada makan dan minum, serta membuat jiwanya menikmati kebaikan dalam jerih payahnya. Aku melihat bahwa hal ini pun berasal dari tangan Allah –Pengkhotbah 2:24."
+    },
+    {
+      "location": "source.html, kutipan 1 Korintus 6:19–20",
+      "severity": "major",
+      "source_quote": "…which are God’s",
+      "suggested_fix": "Terjemahkan bagian akhir sebagai “yang adalah milik Allah,” sehingga kutipan menyatakan bahwa tubuh dan roh adalah milik Allah; pertahankan rujukan 1 Korintus 6:19-20.",
+      "translation_quote": "…muliakanlah Allah dengan tubuhmu dan dengan rohmu, yang adalah milik Allah –1 Korintus 6:19-20."
+    },
+    {
+      "location": "source.html, paragraf tentang perhitungan laju metabolisme basal",
+      "severity": "major",
+      "source_quote": "The important thing to know is that this is the number of calories you should consume to maintain your current body weight.",
+      "suggested_fix": "Perbaiki menjadi “angka ini adalah jumlah kalori yang perlu Anda konsumsi untuk mempertahankan berat badan Anda saat ini,” agar tidak mengubah saran sumber menjadi anjuran yang lebih lemah.",
+      "translation_quote": "angka ini merupakan jumlah kalori yang sebaiknya Anda konsumsi untuk mempertahankan berat badan saat ini."
+    },
+    {
+      "location": "source.html, paragraf oatmeal dan sarapan",
+      "severity": "minor",
+      "source_quote": "2 slices of toast",
+      "suggested_fix": "Ganti “2 iris roti panggang” dengan “2 lembar roti panggang” agar satuan untuk irisan roti lebih idiomatis dalam bahasa Indonesia.",
+      "translation_quote": "2 iris roti panggang"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

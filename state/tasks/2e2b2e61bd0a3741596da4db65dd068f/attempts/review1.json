@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"شعر، چھٹا بند، پہلی سطر\",\"severity\":\"major\",\"source_quote\":\"Help us, Father, to be broken,\",\"suggested_fix\":\"اے باپ، ہماری مدد کر کہ ہم تیرے حضور فروتن اور سپردِ کامل ہوں،\",\"translation_quote\":\"اے باپ، ہماری مدد کر کہ ہم شکستہ دل ہوں،\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 389,
+    "content_evidence_truncated": false,
+    "content_sha256": "e43d58bb4730b9885e5097d13113e26ffe889fe6e5135478e4cbb9f3c018ca69",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 456,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2463,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2460,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3022
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

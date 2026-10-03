@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "본문, 요한복음 8:39-44 인용",
+      "severity": "major",
+      "source_quote": "“a man that hath told you the truth”",
+      "suggested_fix": "인용문에서 해당 부분을 “너희에게 진리를 말한 사람인 나를”로 고쳐, 원문의 ‘진리를 말했다’는 뜻을 보존하세요.",
+      "translation_quote": "“하나님의 말씀을 너희에게 이르신 사람인 나를”"
+    },
+    {
+      "location": "본문, 로마서 1:16 인용",
+      "severity": "major",
+      "source_quote": "“the gospel of Christ”",
+      "suggested_fix": "인용문 첫머리를 “그리스도의 복음을 부끄러워하지 아니하노니”로 고쳐 ‘그리스도의’라는 수식어를 반영하세요.",
+      "translation_quote": "“내가 복음을 부끄러워하지 아니하노니”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

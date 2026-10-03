@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “This song was one…”\",\"severity\":\"minor\",\"source_quote\":\"This song was one I’d pray in the dark of the midnight when I couldn’t sleep\",\"suggested_fix\":\"Replace “Esta era uma canção que eu orava em plena escuridão da meia-noite” with “Esta era uma canção que eu cantava em oração durante a escuridão da meia-noite” to express the idea naturally in Portuguese.\",\"translation_quote\":\"Esta era uma canção que eu orava em plena escuridão da meia-noite\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 563,
+    "content_evidence_truncated": false,
+    "content_sha256": "badc0ccfef346c03188108ef218921b34e9567a789ab017f7c0914d695a515d0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3715,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3712,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4372
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

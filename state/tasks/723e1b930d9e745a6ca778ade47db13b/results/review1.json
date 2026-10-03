@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "62d1e2b5-6a89-47eb-8898-d800497d761a",
+    "response_id": "chatcmpl-EUrUKSj2d6LrkZsN3BQraY1DQtrcs",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9684,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9681,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10564
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “There was a modern church that caught my attention.”",
+        "severity": "minor",
+        "source_quote": "“They seemed to be on fire for the Lord!”",
+        "suggested_fix": "Replace “Walionekana kumwaka kwa ajili ya Bwana!” with “Walionekana kuwaka moto kwa ajili ya Bwana!”",
+        "translation_quote": "“Walionekana kumwaka kwa ajili ya Bwana!”"
+      },
+      {
+        "location": "HTML paragraph beginning “As I was standing in line at a fast-food restaurant”",
+        "severity": "minor",
+        "source_quote": "“He got sober and explained that he wanted to believe in God but couldn’t.”",
+        "suggested_fix": "Use “Alitulia na kueleza...” or “Akawa na uzito wa mawazo, kisha akaeleza...” to convey that he became serious or sober in demeanor.",
+        "translation_quote": "“Akawa mtulivu na kueleza kwamba alitaka kumwamini Mungu lakini hakuweza.”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

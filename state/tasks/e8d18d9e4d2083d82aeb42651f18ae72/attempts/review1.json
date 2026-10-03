@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “মেয়েরা চারণভূমি পেরিয়ে” and paragraph beginning “এই জায়গাতেই”\",\"severity\":\"minor\",\"source_quote\":\"“They walked down a dirt path to the stream.” / “It was at this spot that the creek bed was filled with some unusual rocks.”\",\"suggested_fix\":\"Use “খাল” or “ছোট জলধারা” consistently for “creek/stream” here and in the later references to the creek; for example, change “ঝরনার দিকে” to “খালের দিকে” and “ঝরনার তলদেশ” to “খালের তলদেশ।”\",\"translation_quote\":\"“তারা মাটির পথ ধরে ঝরনার দিকে নামল।” / “এই জায়গাতেই ঝরনার তলদেশ ভরে ছিল কিছু অদ্ভুত পাথরে।”\"},{\"location\":\"HTML, first figure alt text\",\"severity\":\"minor\",\"source_quote\":\"“Rowboat reflected in calm water”\",\"suggested_fix\":\"Change “নৌকা” to “বৈঠাচালিত নৌকা” to retain that the pictured boat is a rowboat.\",\"translation_quote\":\"“শান্ত জলে প্রতিফলিত নৌকা”\"},{\"location\":\"HTML, final figure alt text\",\"severity\":\"minor\",\"source_quote\":\"“Weathered and broken wooden oars on boards”\",\"suggested_fix\":\"Add the weathered quality, for example: “তক্তার ওপর পড়ে থাকা আবহাওয়ায় ক্ষয়প্রাপ্ত ও ভাঙা কাঠের বৈঠা।”\",\"translation_quote\":\"“পুরোনো ও ভাঙা কাঠের বৈঠা তক্তার ওপর রাখা”\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1844,
+    "content_evidence_truncated": false,
+    "content_sha256": "517a7acefbd8430ac3abd575039da5cdec02a0a16dd235bafd7a1a71fc7d0b10",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 766,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4212,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4209,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5363
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

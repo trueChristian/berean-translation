@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6ace3485-4a0c-4c08-b50c-537238ee2952",
+    "response_id": "chatcmpl-EUrW310CT5UXr3Be6ObxMW4sbXkIC",
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 393,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4547,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5213
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "“Let’s ask my mom if we can go on a walk to the creek. I want to go wading.” Angie told her friend Melissa.",
+        "suggested_fix": "«Ας ρωτήσουμε τη μαμά μου αν μπορούμε να πάμε μια βόλτα στο ρυάκι. Θέλω να περπατήσω μέσα στο νερό», είπε η Άντζι στη φίλη της, τη Μελίσα.",
+        "translation_quote": "«Ας ρωτήσουμε τη μαμά μου αν μπορούμε να πάμε μια βόλτα στο ρυάκι. Θέλω να περπατήσω μέσα στο νερό». είπε η Άντζι στη φίλη της, τη Μελίσα."
+      },
+      {
+        "location": "Dialogue about the oars",
+        "severity": "minor",
+        "source_quote": "“We have some oars that are fun to use.”",
+        "suggested_fix": "«Έχουμε κάτι κουπιά που έχει πλάκα να τα χρησιμοποιείς».",
+        "translation_quote": "«Έχουμε κάτι κουπιά που είναι διασκεδαστικό να τα χρησιμοποιείς»."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

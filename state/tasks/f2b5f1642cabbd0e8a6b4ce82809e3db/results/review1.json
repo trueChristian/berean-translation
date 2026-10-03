@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6b1534e6-1a30-4523-91c3-c4b0b4345a36",
+    "response_id": "chatcmpl-EUrUM9ebx2r3jWeA8M5x3p4NJESGN",
+    "usage": {
+      "completion_tokens": 219,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2350,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2347,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2569
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, stanza 3, line 4",
+        "severity": "major",
+        "source_quote": "Your hand in it all You’ve made plain.",
+        "suggested_fix": "Replace the line with “U het dit duidelik gemaak dat U hand in alles is.”",
+        "translation_quote": "U het dit duidelik gemaak dat U hand daarin is."
+      },
+      {
+        "location": "HTML, poem, stanza 6, line 4",
+        "severity": "major",
+        "source_quote": "Making everything open to Your view.",
+        "suggested_fix": "Replace the line with “en alles vir U oop te stel.”",
+        "translation_quote": "om alles oop voor U te lê."
+      },
+      {
+        "location": "HTML, poem, stanza 9, line 4",
+        "severity": "major",
+        "source_quote": "For which no earthly price can exceed.",
+        "suggested_fix": "Replace the line with “waarmee geen aardse prys kan vergelyk nie.”",
+        "translation_quote": "waarvoor geen aardse prys te hoog is nie."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

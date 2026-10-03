@@ -2,7 +2,6 @@
   "article_id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2411
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 268,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2155,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2152,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2423
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, poem stanza 2",
+      "severity": "major",
+      "source_quote": "“We’ve failed the earthly honor roll,”",
+      "suggested_fix": "Replace the line with «Δεν μπήκαμε στον κατάλογο των διακεκριμένων του κόσμου,» to retain the idea of failing to make the earthly honor roll.",
+      "translation_quote": "Δεν διακριθήκαμε στον επίγειο κατάλογο τιμών,"
+    },
+    {
+      "location": "HTML, poem stanza 4",
+      "severity": "major",
+      "source_quote": "“A humble heart will stay more tears, / Than all of life’s great wit and will.”",
+      "suggested_fix": "Revise these lines to convey that a humble heart will prevent more tears than all the world’s cleverness and will, for example: «Μια ταπεινή καρδιά θα αποτρέψει περισσότερα δάκρυα / απ’ όσα μπορούν η εξυπνάδα και η θέληση όλης της ζωής.»",
+      "translation_quote": "Μια ταπεινή καρδιά θα συγκρατήσει περισσότερα δάκρυα, / απ’ όση μπορούν να συγκρατήσουν όλη η εξυπνάδα και η θέληση της ζωής."
+    }
+  ],
   "id": "6c61cff7b5c7004e5376ce21ae4e1fd6",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ell",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3cb89a87a9aa0e8e788ce5f8b7d50505397494e0bb1438849093ff394f7a7a49.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
   "translation_model_actual": "gpt-6-luna"

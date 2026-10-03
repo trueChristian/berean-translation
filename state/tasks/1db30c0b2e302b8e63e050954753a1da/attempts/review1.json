@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “But she beat him to the subject”\",\"severity\":\"minor\",\"source_quote\":\"“...just like a vain fellow from off the streets!”\",\"suggested_fix\":\"Ganti “seperti orang bodoh yang suka pamer dari jalanan” dengan “seperti orang congkak dari jalanan” agar mempertahankan makna “vain” tanpa menambahkan kesan bodoh.\",\"translation_quote\":\"“...seperti orang bodoh yang suka pamer dari jalanan!”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 492,
+    "content_evidence_truncated": false,
+    "content_sha256": "bbfd71f5e54bd62e1269d3ac5d0ef47e2eeb8d7a8eab003572055aa940f1579b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 739,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 601,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4800,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4797,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5539
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "lyrics, first verse",
+      "severity": "major",
+      "source_quote": "In the dark of the midnight have I oft hid my face",
+      "suggested_fix": "Replace «a menudo escondí mi rostro» with «a menudo he escondido mi rostro» to preserve the source’s recurring/present-perfect sense.",
+      "translation_quote": "En la oscuridad de la medianoche, a menudo escondí mi rostro,"
+    },
+    {
+      "location": "Lyrics, second verse",
+      "severity": "major",
+      "source_quote": "But I know Thou art with me, and tomorrow I’ll rise / Where the storms never darken the skies.",
+      "suggested_fix": "Change «Pero sé que estás conmigo, y mañana me alzaré / donde las tormentas nunca oscurecen los cielos» to «Pero sé que estás conmigo, y mañana me levantaré / donde las tormentas nunca oscurecen los cielos» (or another wording that clearly conveys rising in that place).",
+      "translation_quote": "Pero sé que estás conmigo, y mañana me alzaré / donde las tormentas nunca oscurecen los cielos."
+    },
+    {
+      "location": "Paragraph beginning “Este era un canto”",
+      "severity": "major",
+      "source_quote": "This song was one I’d pray in the dark of the midnight when I couldn’t sleep, and fear threatened to overwhelm me.",
+      "suggested_fix": "Change «Este era un canto que oraba» to «Este era un canto que rezaba» or «Este era un canto con el que oraba»; the current wording says the author prayed the song, rather than prayed using/singing it.",
+      "translation_quote": "Este era un canto que oraba en la oscuridad de la medianoche, cuando no podía dormir y el miedo amenazaba con abrumarme."
+    },
+    {
+      "location": "Paragraph beginning “Es muy importante”",
+      "severity": "major",
+      "source_quote": "We will reach out to others for comfort and council.",
+      "suggested_fix": "Replace «el consuelo y el consejo» with «consuelo y asesoramiento» or «consuelo y orientación»; “council” in the source means guidance/counsel, not “consejo” as a council body.",
+      "translation_quote": "Buscaremos el consuelo y el consejo de otras personas."
+    },
+    {
+      "location": "Paragraph beginning “Es muy importante”",
+      "severity": "major",
+      "source_quote": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose –Romans 8:28.",
+      "suggested_fix": "Use «Y sabemos que Dios dispone todas las cosas para el bien de quienes lo aman, de quienes han sido llamados conforme a su propósito –Romanos 8:28.» or another faithful rendering that makes clear that all things work together for good for those people.",
+      "translation_quote": "Y sabemos que a los que aman a Dios, a los que conforme a su propósito son llamados, todas las cosas les ayudan a bien –Romanos 8:28."
+    },
+    {
+      "location": "Final paragraph, Revelation quotation",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city, new Jerusalem, coming down from God out of heaven",
+      "suggested_fix": "Change «Y yo, Juan, vi la ciudad santa, la nueva Jerusalén, que descendía del cielo, de Dios» to «Y yo, Juan, vi la ciudad santa, la nueva Jerusalén, que descendía de Dios, desde el cielo» to preserve the source’s meaning that it came from God out of heaven.",
+      "translation_quote": "Y yo, Juan, vi la ciudad santa, la nueva Jerusalén, que descendía del cielo, de Dios,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

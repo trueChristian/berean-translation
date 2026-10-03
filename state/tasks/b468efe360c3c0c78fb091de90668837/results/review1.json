@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ce142ea8-76ae-4c25-8913-e05bd051c884",
+    "response_id": "chatcmpl-EUrUOo9gpB18rsmIitZlv6C40JeIw",
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 446,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2389,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2979
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, third stanza, second line",
+        "severity": "minor",
+        "source_quote": "All would have escaped this pain.",
+        "suggested_fix": "Все мы избежали бы этой боли.",
+        "translation_quote": "Все хотели бы избежать этой боли."
+      },
+      {
+        "location": "HTML, poem, ninth stanza, first line",
+        "severity": "minor",
+        "source_quote": "Obedient even unto death, Lord,",
+        "suggested_fix": "Послушные даже до смерти, Господи,",
+        "translation_quote": "Господи, помоги нам быть послушными даже до смерти,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

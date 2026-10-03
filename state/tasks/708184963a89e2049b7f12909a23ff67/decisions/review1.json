@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Just as the girls stepped out of the barn…”",
+      "severity": "major",
+      "source_quote": "“I followed you the whole time you were in the creek and down by the road too.”",
+      "suggested_fix": "Vervang de betreffende zin door: ‘Ik heb jullie de hele tijd gevolgd toen jullie bij de beek waren en ook beneden bij de weg.’",
+      "translation_quote": "‘Ik ben de hele tijd met jullie meegegaan, toen jullie bij de beek waren en ook beneden bij de weg.’"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

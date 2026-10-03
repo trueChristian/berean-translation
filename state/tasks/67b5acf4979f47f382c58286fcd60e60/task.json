@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 9497
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 533,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9356,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9353,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9889
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “As I was standing in line…”",
+      "severity": "major",
+      "source_quote": "“He got sober and explained that he wanted to believe in God but couldn’t.”",
+      "suggested_fix": "Replace «Si fece serio» with «Si riprese» (or «Tornò in sé») to preserve the sense of becoming sober, rather than merely appearing serious.",
+      "translation_quote": "«Si fece serio e mi spiegò che avrebbe voluto credere in Dio, ma non ci riusciva.»"
+    },
+    {
+      "location": "source.html, paragraph beginning “I’ve heard many Anabaptist people…”",
+      "severity": "major",
+      "source_quote": "“I’ve heard many Anabaptist people say they can’t say that those in the worldly church are not Christians; they just don’t want to go in that direction.”",
+      "suggested_fix": "Change «È sincero?» to «È onesto?» or «È veritiero?»; the source asks whether the claim is truthful, not sincere.",
+      "translation_quote": "«È sincero?»"
+    },
+    {
+      "location": "source.html, paragraph beginning “There was a modern church…”",
+      "severity": "major",
+      "source_quote": "“They seemed to be on fire for the Lord! The pastor preached as a dying man. They were very interested in reaching the lost. But there were so many Bible teachings that they simply ignored!”",
+      "suggested_fix": "Replace «Ma ignoravano semplicemente così tanti insegnamenti biblici!» with «Ma ignoravano semplicemente moltissimi insegnamenti biblici!» to convey “so many” as a large number, not “simply so many” in the sense of merely many.",
+      "translation_quote": "«Ma ignoravano semplicemente così tanti insegnamenti biblici!»"
+    },
+    {
+      "location": "source.html, paragraph beginning “It seems that most Christians in America…”",
+      "severity": "major",
+      "source_quote": "“Spending thousands on big hunting trips and expensive vacations is completed without a second thought.”",
+      "suggested_fix": "Replace «Si spendono migliaia di dollari in grandi battute di caccia e vacanze costose senza pensarci due volte» with «Si spendono migliaia di dollari per battute di caccia importanti e vacanze costose senza pensarci due volte»; «big» describes the trips, not the amount of money spent.",
+      "translation_quote": "«Si spendono migliaia di dollari in grandi battute di caccia e vacanze costose senza pensarci due volte.»"
+    }
+  ],
   "id": "67b5acf4979f47f382c58286fcd60e60",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ita",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

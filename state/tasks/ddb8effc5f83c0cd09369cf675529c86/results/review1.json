@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1fcdd4ef-0c4a-4514-bd2a-82cddd9a9119",
+    "response_id": "chatcmpl-EUrUL7lbX1HGJOWio4scj1oqP2U3v",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 560,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1871,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1868,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2571
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 13",
+        "severity": "major",
+        "source_quote": "The fact of the matter, it’s confidence I lack.",
+        "suggested_fix": "Ukweli ni kwamba, ninakosa kujiamini.",
+        "translation_quote": "Ukweli ni kwamba, ninakosa ujasiri wa kumtumaini."
+      },
+      {
+        "location": "Attribution paragraph at the end of the article",
+        "severity": "minor",
+        "source_quote": "–by Barry Grant",
+        "suggested_fix": "–na Barry Grant",
+        "translation_quote": "–by Barry Grant"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Immagino la solitaria vecchiaia di Mical”",
+      "severity": "minor",
+      "source_quote": "“Several chapters later tell of his eyes roving to a neighbor’s wife and the resulting sin.”",
+      "suggested_fix": "Per una frase più chiara e grammaticalmente parallela: «Diversi capitoli più avanti raccontano che il suo sguardo vagò sulla moglie del vicino e del peccato che ne seguì.»",
+      "translation_quote": "“Diversi capitoli più avanti raccontano che il suo sguardo si posò sulla moglie del vicino e del peccato che ne seguì.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Restammo seduti con il cuore appesantito”",
+      "severity": "minor",
+      "source_quote": "“so-o-o special”",
+      "suggested_fix": "Correggere il refuso mantenendo l’enfasi, per esempio: «cosììì speciale» → «così speciale» oppure «cosììì speciale» → «così tanto speciale».",
+      "translation_quote": "“cosììì speciale”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

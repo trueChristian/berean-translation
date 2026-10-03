@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dc12c3de-a4da-4d72-b3c2-555b23f36fd3",
+    "response_id": "chatcmpl-EUrUnEYExU6D92V1pz1xWwoVTivE5",
+    "usage": {
+      "completion_tokens": 961,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12002,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11999,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12963
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, section I.a, Romans 10:17 quotation",
+        "severity": "major",
+        "source_quote": "So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.",
+        "suggested_fix": "Change «budskapet kommer av Kristi ord» to «og det en hører, er Kristi ord»? No: the source specifically says «Guds ord», so render the quotation’s ending as «og det en hører, er Guds ord» (or another faithful Bokmål rendering of «hearing by the word of God»).",
+        "translation_quote": "Så kommer da troen av det budskapet en hører, og budskapet kommer av Kristi ord – Romerne 10:17."
+      },
+      {
+        "location": "Article body, section III.c, Colossians 3:16 quotation",
+        "severity": "major",
+        "source_quote": "singing with grace in your hearts to the Lord –Colossians 3:16.",
+        "suggested_fix": "Replace «med takknemlighet i hjertet for Gud» with a faithful rendering of «with grace in your hearts to the Lord», such as «med nåde i hjertene for Herren».",
+        "translation_quote": "og synger med takknemlighet i hjertet for Gud – Kolosserne 3:16."
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

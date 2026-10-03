@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Een eenvoudige man liep…”\",\"severity\":\"major\",\"source_quote\":\"“Bigot!”\",\"suggested_fix\":\"Vervang ‘Fanaticus!’ door ‘Bekrompen racist!’ of een andere gangbare Nederlandse vertaling die de beschuldiging van onverdraagzaamheid behoudt.\",\"translation_quote\":\"‘Fanaticus!’\"},{\"location\":\"HTML, paragraph beginning “Jaren geleden verzamelde…”\",\"severity\":\"major\",\"source_quote\":\"“a foreign land”\",\"suggested_fix\":\"Vervang ‘een vreemd land’ door ‘een ander land’ of ‘een buitenlands land’.\",\"translation_quote\":\"“een vreemd land”\"},{\"location\":\"HTML, alinea met de verwijzing naar Johannes 8\",\"severity\":\"major\",\"source_quote\":\"“Ye are of your father the devil…”\",\"suggested_fix\":\"Vervang ‘U bent uit uw vader, de duivel…’ door ‘U hebt de duivel als vader…’ of een andere formulering die de betekenis behoudt.\",\"translation_quote\":\"“U bent uit uw vader, de duivel…”\"},{\"location\":\"HTML, alinea beginnend “We kunnen een leven leiden…”\",\"severity\":\"major\",\"source_quote\":\"“Should the only thing that’s different between us and the Protestant church be a head covering?”\",\"suggested_fix\":\"Vervang de zin door ‘Moet een hoofdbedekking het enige zijn wat ons van de protestantse kerk onderscheidt?’\",\"translation_quote\":\"“Moet er tussen ons en de protestantse kerk alleen een hoofdbedekking verschil zijn?”\"},{\"location\":\"HTML, slotcitaat met Romeinen 1:16\",\"severity\":\"major\",\"source_quote\":\"“for it is the power of God unto salvation”\",\"suggested_fix\":\"Vervang ‘want het is een kracht van God tot zaligheid’ door ‘want het is de kracht van God tot zaligheid’.\",\"translation_quote\":\"“want het is een kracht van God tot zaligheid”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1809,
+    "content_evidence_truncated": false,
+    "content_sha256": "da56cf5c1efe131828de42f4c01eb72e77b440d04b85ccc69dbdcb4eddc65fe3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9090,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9524
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

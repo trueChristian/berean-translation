@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b5be110c-fec3-4f69-80e0-322fd32679ba",
+    "response_id": "chatcmpl-EUrUeF9gtn9HmW9jUP2TuSJxyGKrH",
+    "usage": {
+      "completion_tokens": 967,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 693,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2370,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3340
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, third stanza, line 3",
+        "severity": "major",
+        "source_quote": "But Lord, You bade us go through it;",
+        "suggested_fix": "Replace «ci hai chiesto di attraversarlo» with «ci hai fatto attraversarlo» or another Italian wording that preserves the source’s assertion that the Lord directed them to undergo it.",
+        "translation_quote": "Ma, Signore, ci hai chiesto di attraversarlo;"
+      },
+      {
+        "location": "HTML, poem, final stanza, line 4",
+        "severity": "major",
+        "source_quote": "For which no earthly price can exceed.",
+        "suggested_fix": "Revise to express that no earthly price can surpass the value of the heavenly treasure, for example: «il cui valore nessun prezzo terreno può superare.»",
+        "translation_quote": "per il quale nessun prezzo terreno è troppo alto."
+      },
+      {
+        "location": "HTML, poem, fifth stanza, line 2",
+        "severity": "minor",
+        "source_quote": "Acknowledging Your omnipotent might.",
+        "suggested_fix": "Use «riconoscendo la tua onnipotenza» to avoid the redundant «onnipotente potenza».",
+        "translation_quote": "riconoscendo la tua onnipotente potenza."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

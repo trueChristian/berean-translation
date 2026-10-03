@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, Matthew 24:4–14 quotation\",\"severity\":\"major\",\"source_quote\":\"this gospel of the kingdom shall be preached in all the world\",\"suggested_fix\":\"Translate “kingdom” as God’s kingdom/heavenly kingdom, for example: “이 천국 복음이 온 세상에 전파되어”. Preserve the existing <u> markup and the reference.\",\"translation_quote\":\"이 나라의 복음이 온 세상에 전파되어\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 466,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac57035f8c9716608c88e02feb86935f4ca921bbba3ea223ddf872a9c7ab68ff",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 499,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4938,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4935,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5562
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

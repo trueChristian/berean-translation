@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza, second line",
+      "severity": "minor",
+      "source_quote": "With dreams afresh to seek and fill.",
+      "suggested_fix": "Replace with: \"עם חלומות חדשים לשאוף אליהם ולהגשים.\"",
+      "translation_quote": "כשחלומות חדשים ממתינים לחיפוש ולהגשמה."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

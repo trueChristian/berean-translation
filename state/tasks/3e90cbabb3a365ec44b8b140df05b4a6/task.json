@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 9589
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 608,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9397,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9394,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10005
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Не случайно протестантский реформатор…»",
+      "severity": "major",
+      "source_quote": "There is a reason why the Protestant reformer, Martin Luther, died hating the Anabaptist people—because they rejected his interpretation of the Scriptures.",
+      "suggested_fix": "Заменить «Не случайно протестантский реформатор Мартин Лютер умер, ненавидя анабаптистов: они отвергли его толкование Писания» на «Протестантский реформатор Мартин Лютер умер, ненавидя анабаптистов, потому что они отвергли его толкование Писания».",
+      "translation_quote": "Не случайно протестантский реформатор Мартин Лютер умер, ненавидя анабаптистов: они отвергли его толкование Писания."
+    },
+    {
+      "location": "HTML, paragraph beginning «Американская церковь называет…»",
+      "severity": "major",
+      "source_quote": "The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.",
+      "suggested_fix": "Исправить на «Американская церковь называет “защиту себя, своих семей и своей страны” героизмом и отвагой; Библия называет это…», сохранив многоточие как незавершенную фразу оригинала.",
+      "translation_quote": "Американская церковь называет «защиту» себя, своей семьи и страны героизмом и отвагой; Библия называет это."
+    },
+    {
+      "location": "HTML, paragraph beginning «Неудивительно, что наши дети…»",
+      "severity": "major",
+      "source_quote": "If we pass on to our children that the Protestant church is also ok, and that they just do things differently, we are destroying everything that Jesus preached.",
+      "suggested_fix": "Заменить «мы разрушим все, о чем проповедовал Иисус» на «мы разрушаем все, о чем проповедовал Иисус».",
+      "translation_quote": "Если мы передадим детям, что протестантская церковь тоже приемлема и просто делает все по-другому, мы разрушим все, о чем проповедовал Иисус."
+    },
+    {
+      "location": "HTML, абзац перед заключительной цитатой из Послания к Римлянам",
+      "severity": "major",
+      "source_quote": "This does not mean that we shun people or act distasteful towards them",
+      "suggested_fix": "Исправить грамматически и точно: «Это не означает, что мы избегаем людей или ведем себя с ними неприязненно».",
+      "translation_quote": "Это не означает, что мы сторонится людей или ведем себя с ними неприязненно"
+    }
+  ],
   "id": "3e90cbabb3a365ec44b8b140df05b4a6",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

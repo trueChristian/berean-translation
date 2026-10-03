@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"article.html, opening paragraph\",\"severity\":\"major\",\"source_quote\":\"Like Job, our friends might have turned against us.\",\"suggested_fix\":\"Ändra till exempelvis: ”Liksom Jobs vänner kanske våra vänner har vänt sig mot oss.”\",\"translation_quote\":\"Liksom Jobs vänner kanske våra vänner har vänt sig mot oss.\"},{\"location\":\"article.html, song lyrics, second stanza\",\"severity\":\"major\",\"source_quote\":\"For there’s no end of sorrow, there’s no hope by and by”\",\"suggested_fix\":\"Översätt utan att lägga till att hoppet försvinner snart, till exempel: ”för sorgen tar aldrig slut, och längre fram finns inget hopp”\",\"translation_quote\":\"för sorgen tar aldrig slut, och snart finns inget hopp.\"},{\"location\":\"article.html, paragraph beginning “When I was a little girl”\",\"severity\":\"major\",\"source_quote\":\"a spontaneous coronary artery dissection\",\"suggested_fix\":\"Använd en svensk medicinsk benämning som bevarar att det var en dissektion av kransartären, till exempel ”en spontan kransartärdissektion”.\",\"translation_quote\":\"en spontan dissektion i en kransartär\"},{\"location\":\"article.html, paragraph beginning “This song was one I’d pray”\",\"severity\":\"major\",\"source_quote\":\"This song was one I’d pray in the dark of the midnight\",\"suggested_fix\":\"Ändra ”bad jag med” till en formulering som säger att berättaren bad eller bad med hjälp av sången, exempelvis ”Den här sången brukade jag be i midnattens mörker”.\",\"translation_quote\":\"Den här sången bad jag med i midnattens mörker\"},{\"location\":\"article.html, paragraph beginning “This song was one I’d pray”\",\"severity\":\"major\",\"source_quote\":\"“Not my will, but Thine be done.”\",\"suggested_fix\":\"Bevara uppmaningen/bönen om att Guds vilja ska ske; till exempel: ”Inte min vilja, utan din vilja ske.”\",\"translation_quote\":\"”Inte min vilja, utan din ske.”\"},{\"location\":\"article.html, paragraph beginning “When the disciples were out on the sea”\",\"severity\":\"major\",\"source_quote\":\"An old preacher used to quote:\",\"suggested_fix\":\"Lägg till den utelämnade meningen efter ”det är okej”: ”En gammal predikant brukade citera:”\",\"translation_quote\":\"[Uttrycket saknas; texten går direkt från ”men det är okej” till ”En gammal predikant brukade citera:”]\"},{\"location\":\"article.html, paragraph beginning “It is so important”\",\"severity\":\"major\",\"source_quote\":\"we should have peace.\",\"suggested_fix\":\"Översätt ”should” som en möjlighet eller önskan, inte som ett krav: exempelvis ”men vi kan ändå ha frid”.\",\"translation_quote\":\"men vi bör ha frid.\"},{\"location\":\"article.html, final Scripture quotation\",\"severity\":\"major\",\"source_quote\":\"And I heard a great voice out of heaven saying\",\"suggested_fix\":\"Återge källans uppgift om att rösten kom från himlen och ta inte bort denna detalj; exempelvis ”Och jag hörde en stark röst från himlen säga”.\",\"translation_quote\":\"Och jag hörde en stark röst från tronen säga:\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 3060,
+    "content_evidence_truncated": false,
+    "content_sha256": "d6f0ede1831ba2b7f318ca2e74bdf0eac226f1098e9771f8cdda44b78e5bc753",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3832,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3829,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4560
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

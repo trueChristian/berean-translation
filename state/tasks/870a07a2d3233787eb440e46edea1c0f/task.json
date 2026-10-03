@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 9068
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 633,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 481,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8927,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8924,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9560
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Has the true church slipped so far…”; Ephesians 5:11 quotation",
+      "severity": "major",
+      "source_quote": "And have no fellowship with the unfruitful works of darkness, but rather reprove them.",
+      "suggested_fix": "将“那暗昧无益的事，不要与人同行，倒要责备行这事的人”改为“不要与黑暗无益的行为有份，倒要责备这些行为”。",
+      "translation_quote": "那暗昧无益的事，不要与人同行，倒要责备行这事的人"
+    }
+  ],
   "id": "870a07a2d3233787eb440e46edea1c0f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "cmn",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

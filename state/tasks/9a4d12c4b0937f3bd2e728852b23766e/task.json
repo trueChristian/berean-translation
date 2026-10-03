@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 9182
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 531,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 354,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9014,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9011,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9545
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Quoted Scripture, paragraph beginning “क्या तुम नहीं जानते कि तुम्हारी देह…” (1 कुरिन्थियों 6:19-20)",
+      "severity": "major",
+      "source_quote": "therefore glorify God in your body, and in your spirit, which are God’s",
+      "suggested_fix": "अनुवाद में छूटा हुआ अंश जोड़ें: “इसलिये अपनी देह और अपनी आत्मा के द्वारा परमेश्वर की महिमा करो, जो परमेश्वर के हैं” — और इसे उद्धरण के अंत में संदर्भ से पहले रखें।",
+      "translation_quote": "इसलिये अपनी देह के द्वारा परमेश्वर की महिमा करो –1 कुरिन्थियों 6:19-20।"
+    }
+  ],
   "id": "9a4d12c4b0937f3bd2e728852b23766e",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

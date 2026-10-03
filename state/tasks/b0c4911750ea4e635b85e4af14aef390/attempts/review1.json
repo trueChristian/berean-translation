@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “There was a crowd of people…”; quoted John 12:29\",\"severity\":\"major\",\"source_quote\":\"The people therefore, that stood by, and heard it, said that it thundered\",\"suggested_fix\":\"Replace the quoted clause with: העם שעמד שם ושמע זאת אמר שזה היה רעם. This corrects the meaning while preserving the existing <em> structure and reference.\",\"translation_quote\":\"העם שעמד שם ושמע זאת אמר שהתרעם\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 522,
+    "content_evidence_truncated": false,
+    "content_sha256": "f000cba70bfe9a5bf71e0d8388018f9ae00660cf085dce7b9b0f8de80518c03d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 718,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 582,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8395,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8392,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9113
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

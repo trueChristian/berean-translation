@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "lyrics, final stanza",
+      "severity": "major",
+      "source_quote": "In that land where the tempest, never comes, Lord, may I / Dwell with Thee when the storm passes by.",
+      "suggested_fix": "Замените строки на перевод, сохраняющий смысл: «Господи, позволь мне жить с Тобой в той стране, / где никогда не бывает бурь, когда буря минует» — или близкий поэтический вариант без изменения смысла.",
+      "translation_quote": "Господи, позволь мне жить с Тобой в той стране, / Где никогда не бывает бурь, когда буря минует."
+    },
+    {
+      "location": "Paragraph beginning “When the disciples were out on the sea”",
+      "severity": "minor",
+      "source_quote": "When the disciples were out on the sea in the storm, Jesus was with them.",
+      "suggested_fix": "Исправьте падежную конструкцию: «Когда ученики оказались в бурю на море, Иисус был с ними» или «Когда ученики были на море во время бури, Иисус был с ними».",
+      "translation_quote": "Когда ученики оказались в бурю в море, Иисус был с ними."
+    },
+    {
+      "location": "Paragraph beginning “When I was a little girl”",
+      "severity": "minor",
+      "source_quote": "What a shock for a 40-year-old mother.",
+      "suggested_fix": "Исправьте грамматику: «Какое потрясение для сорокалетней матери!»",
+      "translation_quote": "Какой потрясением это было для сорокалетней матери!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "73def952-dd77-4a51-b030-27713e0cedd2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 3976
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 543,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 408,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3776,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3773,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4319
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Just as the girls stepped out of the barn…”",
+      "severity": "major",
+      "source_quote": "“I followed you the whole time you were in the creek and down by the road too.”",
+      "suggested_fix": "Vervang de betreffende zin door: ‘Ik heb jullie de hele tijd gevolgd toen jullie bij de beek waren en ook beneden bij de weg.’",
+      "translation_quote": "‘Ik ben de hele tijd met jullie meegegaan, toen jullie bij de beek waren en ook beneden bij de weg.’"
+    }
+  ],
   "id": "708184963a89e2049b7f12909a23ff67",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nld",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
   "translation_model_actual": "gpt-6-luna"

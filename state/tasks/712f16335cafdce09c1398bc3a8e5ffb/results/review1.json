@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ea838a95-bb76-4aec-a219-c1a5827b5379",
+    "response_id": "chatcmpl-EUrUKrmIiyPHlwcznO9qxLdVLhNfu",
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 511,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3789,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4396
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, opening paragraph",
+        "severity": "major",
+        "source_quote": "Like Job, our friends might have turned against us.",
+        "suggested_fix": "I likhet med Job kan vennene våre ha vendt seg mot oss.",
+        "translation_quote": "I likhet med Jobs venner kan våre venner ha vendt seg mot oss."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

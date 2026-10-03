@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza line (<p>…</p>)",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "وہ دوراہے پر تھا، گویا اس کی پوری زندگی ایک دوراہے پر تھی۔",
+      "translation_quote": "وہ دوراہے پر کھڑا تھا، جہاں اس کی پوری زندگی داؤ پر تھی۔"
+    },
+    {
+      "location": "Poem, fourteenth stanza line (<p><em>…</em></p>)",
+      "severity": "major",
+      "source_quote": "I believe in myself, not the God from way back.",
+      "suggested_fix": "میں اپنے آپ پر ایمان رکھتا ہوں، نہ کہ اُس پرانے خدا پر۔",
+      "translation_quote": "میں اپنے آپ پر ایمان رکھتا ہوں، نہ کہ اس خدا پر جس کا ذکر زمانۂ قدیم سے ہوتا آیا ہے۔"
+    },
+    {
+      "location": "Image description (<img alt>)",
+      "severity": "minor",
+      "source_quote": "Three sailboats on calm water",
+      "suggested_fix": "پرسکون پانی میں تین بادبانی کشتیاں",
+      "translation_quote": "پرسکون پانی میں بادبانی کشتیاں"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

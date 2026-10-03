@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "16772bcd-7921-403e-b68d-0f7791dfb804",
+    "response_id": "chatcmpl-EUrUSFipX4epATJDyhyDviefV0evk",
+    "usage": {
+      "completion_tokens": 774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3887,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3884,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4661
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة التي تبدأ بـ«بعد أن أمضت ميليسا...» والفقرة التالية التي تبدأ بـ«خرجتا من الماء...»",
+        "severity": "major",
+        "source_quote": "“that big culvert under the road” / “the tunnel-like culvert”",
+        "suggested_fix": "استبدلي «العبّارة» في الموضعين بتعبير يدل على ممرّ أو قناة تصريف كبيرة تحت الطريق، مثل «مجرى التصريف الكبير تحت الطريق»؛ فالحديث عن نفق تمرّان عبره، لا عن عبّارة.",
+        "translation_quote": "«تلك العبّارة الكبيرة تحت الطريق» / «العبّارة التي تشبه النفق»"
+      },
+      {
+        "location": "الفقرة التي تبدأ بـ«ابتلت أطراف فستاني الفتاتين...»",
+        "severity": "major",
+        "source_quote": "“The girls’ dress hems were damp from the creek”",
+        "suggested_fix": "استبدلي العبارة بـ«ابتلت أطراف فساتين الفتاتين بماء الجدول»؛ فالنص يتحدث عن فساتين الفتاتين، لا عن «فستاني» المتكلم.",
+        "translation_quote": "«ابتلت أطراف فستاني الفتاتين بماء الجدول»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

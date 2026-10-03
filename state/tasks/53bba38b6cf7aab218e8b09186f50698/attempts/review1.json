@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, § I.a, paragraph beginning « La prédication de Jésus faisait appel à l’écoute »\",\"severity\":\"major\",\"source_quote\":\"(Mat 13:18)\",\"suggested_fix\":\"Remplacer « (Mat 13:18) » par « (Matthieu 13:18) » : employer la forme française conventionnelle du nom du livre tout en conservant le numéro exact.\",\"translation_quote\":\"(Mat 13:18)\"},{\"location\":\"HTML, § III.a, paragraphe commençant « La présence aux réunions de prière »\",\"severity\":\"major\",\"source_quote\":\"(Act 6:4)\",\"suggested_fix\":\"Remplacer « (Act 6:4) » par « (Actes 6:4) » : employer la forme française conventionnelle du nom du livre tout en conservant le numéro exact.\",\"translation_quote\":\"(Act 6:4)\"},{\"location\":\"HTML, § I.a, paragraphe commençant « Hébreux 11:6 nous dit »\",\"severity\":\"major\",\"source_quote\":\"“Therefore, religious drama borders on being anti-Christ”\",\"suggested_fix\":\"Remplacer « frôle l’antichristianisme » par une formulation qui exprime l’opposition au Christ, par exemple « frôle l’opposition au Christ ».\",\"translation_quote\":\"« Par conséquent, le théâtre religieux frôle l’antichristianisme »\"},{\"location\":\"HTML, § IV, premier paragraphe\",\"severity\":\"major\",\"source_quote\":\"“she expressed a concern about His change in worship format (John 4:20)”\",\"suggested_fix\":\"Remplacer « au sujet de la modification du lieu de culte » par « au sujet du changement dans la forme du culte » afin de rendre l’idée de format ou de manière de célébrer, et non celle du lieu.\",\"translation_quote\":\"« elle exprima sa préoccupation au sujet de la modification du lieu de culte (Jean 4:20) »\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 1693,
+    "content_evidence_truncated": false,
+    "content_sha256": "3ca762d849242d92da14fe9fcf37449a15865a2031665e37e9ad4c551995aa16",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1074,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 628,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11666,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12743
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

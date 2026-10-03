@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Sista bibelcitatet, Romarbrevet 1:16",
+      "severity": "minor",
+      "source_quote": "“for it is the power of God unto salvation”",
+      "suggested_fix": "Ändra ”Det är en Guds kraft till frälsning” till ”Det är Guds kraft till frälsning” för att återge bestämdheten i citatet.",
+      "translation_quote": "”Det är en Guds kraft till frälsning för var och en som tror”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

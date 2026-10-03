@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 8500
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 727,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 644,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8333,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8330,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9060
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "all the right that we have ever sought",
+      "suggested_fix": "al die reg waarna ons ooit gestreef het",
+      "translation_quote": "al die reg waarop ons ooit aanspraak gemaak het"
+    }
+  ],
+  "finished_at": "2026-10-03T11:27:19+00:00",
   "id": "2597ee2b455c38a27182d905d74ac21f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "afr",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

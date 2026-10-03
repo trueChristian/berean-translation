@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0c98b431-7ef3-4184-a87f-82bd1b8f2624",
+    "response_id": "chatcmpl-EUrVYvg35ylNvEyOec8vjbreL11sa",
+    "usage": {
+      "completion_tokens": 311,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12857,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12854,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13168
+    }
+  },
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "III. Patterns of True Worship > c. Singing; paragraph beginning “New Testament worship”",
+        "severity": "major",
+        "source_quote": "“External instrumentation tends to focus on a person’s abilities rather than on the heart.”",
+        "suggested_fix": "“বাহ্যিক বাদ্যযন্ত্র একজন ব্যক্তির হৃদয়ের বদলে তার দক্ষতার দিকে মনোযোগ আকর্ষণ করে।”",
+        "translation_quote": "“বাহ্যিক বাদ্যযন্ত্র একজন ব্যক্তির হৃদয়ের বদলে তার দক্ষতার দিকে মনোযোগ আকর্ষণ করে।”"
+      },
+      {
+        "location": "III. Patterns of True Worship > c. Singing; final paragraph",
+        "severity": "major",
+        "source_quote": "“The spirit of worship replaces the rituals.”",
+        "suggested_fix": "“উপাসনার আত্মা আচার-অনুষ্ঠানের পরিবর্তে আসে।”",
+        "translation_quote": "“উপাসনার আত্মা আচার-অনুষ্ঠানের স্থান নেয়।”"
+      },
+      {
+        "location": "IV. Essence of True Worship; paragraph quoting John 4:22c",
+        "severity": "major",
+        "source_quote": "“Salvation is of Jesus” (4:22c).",
+        "suggested_fix": "“পরিত্রাণ যিশুর কাছ থেকে আসে” অংশটি সংশোধন করে লিখুন: “পরিত্রাণ ইহুদিদের কাছ থেকে আসে” (৪:২২গ)।",
+        "translation_quote": "“পরিত্রাণ যিশুর কাছ থেকে আসে” (৪:২২গ)।"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

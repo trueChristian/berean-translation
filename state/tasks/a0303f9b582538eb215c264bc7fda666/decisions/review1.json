@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “When I was a little girl”",
+      "severity": "major",
+      "source_quote": "a life-threatening heart attack caused by a spontaneous coronary artery dissection",
+      "suggested_fix": "Replace “خودبخود دل کی شریان پھٹنے کے باعث” with “کورونری شریان کی دیوار میں اچانک شگاف پڑنے کے باعث” to convey a spontaneous coronary artery dissection rather than a ruptured artery.",
+      "translation_quote": "خودبخود دل کی شریان پھٹنے کے باعث جان لیوا دل کا دورہ"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

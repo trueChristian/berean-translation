@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, third stanza, second line",
+      "severity": "major",
+      "source_quote": "They barter truth for empty thrill.",
+      "suggested_fix": "তারা শূন্য উল্লাসের বিনিময়ে সত্য বেচে দেয়।",
+      "translation_quote": "মিথ্যা উল্লাসের বদলে তারা সত্য বেচে দেয়।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

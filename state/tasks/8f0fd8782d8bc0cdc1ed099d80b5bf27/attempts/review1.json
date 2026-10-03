@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 7, line 3\",\"severity\":\"major\",\"source_quote\":\"It’s a jewel that nothing but trials can teach.\",\"suggested_fix\":\"Det er en juvel som bare prøvelser kan lære oss.\",\"translation_quote\":\"Det er en juvel som bare prøvelser kan lære oss å verdsette.\"},{\"location\":\"Poem, stanza 8, line 4\",\"severity\":\"minor\",\"source_quote\":\"Nothing but what You plan will prevail.\",\"suggested_fix\":\"Bare det du planlegger, vil seire.\",\"translation_quote\":\"og ingenting annet enn det du har planlagt, vil skje.\"},{\"location\":\"Poem, stanza 2, lines 1–2\",\"severity\":\"minor\",\"source_quote\":\"We’ve wept and writhed and prayed / Asking, Lord, this cup to avoid.\",\"suggested_fix\":\"Vi har grått, vridd oss i smerte og bedt, / Herre, om å slippe dette begeret.\",\"translation_quote\":\"Vi har grått, vridd oss i smerte og bedt, / bedt, Herre, om å slippe dette begeret.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 918,
+    "content_evidence_truncated": false,
+    "content_sha256": "086e7f210d88bb08c81953ce3d6a22eaeb371a715f9248ea1e135f7584df2472",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 427,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2370,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3069
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

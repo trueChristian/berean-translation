@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5857d59b-45b4-491a-a099-426f4025d1d1",
+    "response_id": "chatcmpl-EUrUM36JaZTyE3Q2wntqhHkOSUlRa",
+    "usage": {
+      "completion_tokens": 790,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 606,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3724,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4517
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz nach dem Liedtext, Satz beginnend „Die Gegenwart des Herrn …“",
+        "severity": "major",
+        "source_quote": "I came through this storm with a greater awareness of how God reveals Himself to us in a deeper way when we are going through hard times.",
+        "suggested_fix": "Die Gegenwart des Herrn war für mich ganz real. Ich kam durch diesen Sturm und gewann ein größeres Bewusstsein dafür, wie Gott sich uns auf tiefere Weise offenbart, wenn wir schwere Zeiten durchmachen.",
+        "translation_quote": "Die Gegenwart des Herrn war für mich ganz real. Ich ging gestärkt aus diesem Sturm hervor und war mir stärker bewusst, wie Gott sich uns auf tiefere Weise offenbart, wenn wir schwere Zeiten durchmachen."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

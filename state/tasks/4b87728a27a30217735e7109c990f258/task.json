@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 8785
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 667,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8610,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8607,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9277
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, final paragraph",
+      "severity": "major",
+      "source_quote": "“All our hope is in our hearing and all selfishness is in our hearing”",
+      "suggested_fix": "Replace “Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote uko katika kusikia kwetu” with “Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote unadhihirika katika kusikia kwetu.”",
+      "translation_quote": "“Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote uko katika kusikia kwetu”"
+    },
+    {
+      "location": "source.html, paragraph beginning “There is an elusive and gnawing factor…”",
+      "severity": "major",
+      "source_quote": "“There is an elusive and gnawing factor corroding the moral fiber of this nation.”",
+      "suggested_fix": "Replace “Kuna jambo lisilo rahisi kutambulika na linalosumbua, linaloikumba nguvu ya maadili ya taifa hili” with “Kuna jambo lisilo rahisi kutambua na linalosumbua, linalomomonyoa msingi wa maadili ya taifa hili.”",
+      "translation_quote": "“Kuna jambo lisilo rahisi kutambulika na linalosumbua, linaloikumba nguvu ya maadili ya taifa hili.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “We play only the finest recorded music…”",
+      "severity": "major",
+      "source_quote": "“the sincere and humble offerings of common singing”",
+      "suggested_fix": "Replace “nyimbo za kawaida zinazoimbwa kwa unyofu na unyenyekevu” with “nyimbo za kawaida zinazotolewa kwa unyofu na unyenyekevu.”",
+      "translation_quote": "“nyimbo za kawaida zinazoimbwa kwa unyofu na unyenyekevu”"
+    },
+    {
+      "location": "source.html, paragraph beginning “As two bedraggled disciples…”",
+      "severity": "major",
+      "source_quote": "“two bedraggled disciples trudged the road to Emmaus”",
+      "suggested_fix": "Replace “Wanafunzi wawili waliokuwa wamechoka na wenye mavumbi walipokuwa wakitembea kwa shida katika barabara ya kwenda Emau” with “Wanafunzi wawili waliokuwa wamechoka na waliochafuka walipokuwa wakitembea kwa shida kwenye barabara ya kwenda Emau.”",
+      "translation_quote": "“Wanafunzi wawili waliokuwa wamechoka na wenye mavumbi walipokuwa wakitembea kwa shida katika barabara ya kwenda Emau”"
+    },
+    {
+      "location": "source.html, paragraph beginning “To make the hearts burn…”",
+      "severity": "major",
+      "source_quote": "“and their hearts burned with the rapturous revelation falling upon their ears”",
+      "suggested_fix": "Replace “na mioyo yao ikawaka kwa ufunuo wa furaha uliosikika masikioni mwao” with “na mioyo yao ikawaka kwa ufunuo wa shangwe uliowafikia masikioni.”",
+      "translation_quote": "“na mioyo yao ikawaka kwa ufunuo wa furaha uliosikika masikioni mwao”"
+    }
+  ],
   "id": "4b87728a27a30217735e7109c990f258",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

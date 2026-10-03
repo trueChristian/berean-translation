@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 4\",\"severity\":\"major\",\"source_quote\":\"“The two friends talked and laughed as they walked further downstream to a special spot in the creek where they always loved to go.”\",\"suggested_fix\":\"Sostituire «risalivano il corso d’acqua» con «proseguivano verso valle» (o «scendevano lungo il corso d’acqua»), così da mantenere la direzione indicata nel testo fonte.\",\"translation_quote\":\"«Le due amiche chiacchieravano e ridevano mentre risalivano il corso d’acqua fino a un punto speciale del ruscello dove adoravano andare.»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 610,
+    "content_evidence_truncated": false,
+    "content_sha256": "b97566d31bd9914591d1042433c5c9a896a3c8f5daa0afc553a722cd0f872cb1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 450,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 285,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3889,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3886,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4339
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7f4d5c1f-7758-43c3-b90e-f2acb664b987",
+    "response_id": "chatcmpl-EUrUSNjdt6pNzgVOvXVjlqFOhbfdl",
+    "usage": {
+      "completion_tokens": 767,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 656,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1940,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1937,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2707
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final Scripture quotation, Philippians 3:14",
+        "severity": "major",
+        "source_quote": "the high calling of God in Christ Jesus",
+        "suggested_fix": "Replace „himmlischen Berufung Gottes in Christus Jesus“ with „hohen Berufung Gottes in Christus Jesus“, preserving the existing HTML tags and line break.",
+        "translation_quote": "himmlischen Berufung Gottes in Christus Jesus"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

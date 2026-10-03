@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Вдруг поняв…»",
+      "severity": "minor",
+      "source_quote": "“Angie was still at the entrance of the tunnel looking into a pool of water.”",
+      "suggested_fix": "Replace «лужу» with «водоем» to avoid narrowing “pool of water” to a puddle: «…Энджи все еще стоит у входа в туннель и смотрит в водоем»",
+      "translation_quote": "«…Энджи все еще стоит у входа в туннель и смотрит в лужу»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Мелиссе было не по себе…»",
+      "severity": "minor",
+      "source_quote": "“the noisy goat pen”",
+      "suggested_fix": "Use «загон для коз» for the enclosure: «…и шумного загона для коз…»",
+      "translation_quote": "«…и шумного козлятника…»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

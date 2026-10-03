@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “There was a modern church that caught my attention.”",
+      "severity": "minor",
+      "source_quote": "“They seemed to be on fire for the Lord!”",
+      "suggested_fix": "Replace “Walionekana kumwaka kwa ajili ya Bwana!” with “Walionekana kuwaka moto kwa ajili ya Bwana!”",
+      "translation_quote": "“Walionekana kumwaka kwa ajili ya Bwana!”"
+    },
+    {
+      "location": "HTML paragraph beginning “As I was standing in line at a fast-food restaurant”",
+      "severity": "minor",
+      "source_quote": "“He got sober and explained that he wanted to believe in God but couldn’t.”",
+      "suggested_fix": "Use “Alitulia na kueleza...” or “Akawa na uzito wa mawazo, kisha akaeleza...” to convey that he became serious or sober in demeanor.",
+      "translation_quote": "“Akawa mtulivu na kueleza kwamba alitaka kumwamini Mungu lakini hakuweza.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "320b1a24-d9e6-46ef-ae70-ad7ad5f73627",
+    "response_id": "chatcmpl-EUrUKEMrFm52D2O2iBjyAm1AFavMX",
+    "usage": {
+      "completion_tokens": 344,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3869,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3866,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4213
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lyrics, stanza 1",
+        "severity": "minor",
+        "source_quote": "“‘Mid the crash of the thunder, Precious Lord, hear my cry,”",
+        "suggested_fix": "Change “Tussen die gedreun van die donder, kosbare Here, hoor my geroep,” to “Te midde van die gedreun van die donder, kosbare Here, hoor my noodkreet,” to retain the sense of crying out to the Lord.",
+        "translation_quote": "“Tussen die gedreun van die donder, kosbare Here, hoor my geroep,”"
+      },
+      {
+        "location": "Lyrics, stanza 3",
+        "severity": "minor",
+        "source_quote": "“Where the storms never darken the skies.”",
+        "suggested_fix": "Consider “waar die storms nooit die hemelruim verduister nie” rather than “waar die storms nooit die lug verduister nie,” which can suggest the physical air rather than the sky.",
+        "translation_quote": "“waar die storms nooit die lug verduister nie.”"
+      },
+      {
+        "location": "Closing Scripture quotation",
+        "severity": "minor",
+        "source_quote": "“And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away”",
+        "suggested_fix": "Translate “het verbygegaan” as “het verbygegaan” or “verdwyn het” only if it clearly conveys that the former heaven and earth passed away; consider “want die eerste hemel en die eerste aarde het verbygegaan” as acceptable. No change is necessary.",
+        "translation_quote": "“want die eerste hemel en die eerste aarde het verbygegaan”"
+      }
+    ],
+    "passed": false,
+    "score": 95
+  }
+}

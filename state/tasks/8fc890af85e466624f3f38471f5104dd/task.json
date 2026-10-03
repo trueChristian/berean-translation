@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 8482
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 795,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 669,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8302,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8299,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9097
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Isaiah 6:9–10 quotation, first sentence",
+      "severity": "major",
+      "source_quote": "Make the heart of this people fat",
+      "suggested_fix": "Translate the image of a “fat” or dulled heart rather than changing it to a hardened heart; for example, “Buatlah hati bangsa ini tumpul” (and retain the rest of the quotation’s existing structure).",
+      "translation_quote": "Buatlah hati bangsa ini keras"
+    }
+  ],
   "id": "8fc890af85e466624f3f38471f5104dd",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ind",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

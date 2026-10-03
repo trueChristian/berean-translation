@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bcd1046f-b095-499a-807e-917586315f4f",
+    "response_id": "chatcmpl-EUrUKXCfegoVfwT7xInM8hEE3VKcp",
+    "usage": {
+      "completion_tokens": 561,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 477,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2325,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2322,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2886
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, final stanza, first line",
+        "severity": "major",
+        "source_quote": "Obedient even unto death, Lord,",
+        "suggested_fix": "Que sejamos obedientes até à morte, Senhor,",
+        "translation_quote": "Obediente até à morte, Senhor,"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

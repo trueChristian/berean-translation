@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"III. Patterns of True Worship — c. Singing, Colossians 3:16\",\"severity\":\"major\",\"source_quote\":\"“singing with grace in your hearts to the Lord”\",\"suggested_fix\":\"Ändra i citatet till: ”sjung med nåd i era hjärtan till Herren”.\",\"translation_quote\":\"”sjung med tacksamhet i era hjärtan till Gud”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 368,
+    "content_evidence_truncated": false,
+    "content_sha256": "ec539c32a9849c2bb92b5e582acf73d6676bb2c4a1a572d9ba5568aa6fb869e6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 750,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 629,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12031,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12784
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

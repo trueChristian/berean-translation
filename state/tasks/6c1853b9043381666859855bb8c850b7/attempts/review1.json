@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo sulla spesa annuale e la prevalenza del sovrappeso\",\"severity\":\"major\",\"source_quote\":\"“65 percent of Americans are either overweight or obese.”\",\"suggested_fix\":\"Sostituire «il 65 per cento degli americani è in sovrappeso o obeso» con «il 65 per cento degli americani è in sovrappeso o obeso», mantenendo l’accordo plurale: «il 65 per cento degli americani è in sovrappeso o obeso» è grammaticalmente possibile in italiano, quindi nessuna modifica sostanziale necessaria.\",\"translation_quote\":\"«il 65 per cento degli americani è in sovrappeso o obeso»\"},{\"location\":\"Sezione «Miti sul dimagrimento», paragrafo sui cibi dietetici\",\"severity\":\"major\",\"source_quote\":\"“our goal should not be to try to eat all the same foods, just with fewer calories, but rather to eat a variety of healthy foods and moderate-sized portions.”\",\"suggested_fix\":\"Correggere la prima parte in «il nostro obiettivo non dovrebbe essere cercare di mangiare gli stessi cibi di sempre, ma con meno calorie; dovremmo invece mangiare una varietà di alimenti sani e porzioni moderate».\",\"translation_quote\":\"«il nostro obiettivo non dovrebbe essere mangiare tutti gli stessi cibi, ma con meno calorie»\"},{\"location\":\"Sezione «Miti sul dimagrimento», paragrafo sull’esercizio e sulle calorie\",\"severity\":\"critical\",\"source_quote\":\"“a body must burn 3500 calories to lose one pound.”\",\"suggested_fix\":\"Sostituire «mezzo chilo» con «una libbra» oppure «circa 450 grammi», conservando la quantità indicata dall’originale: «il corpo deve bruciare 3500 calorie per perdere circa 450 grammi».\",\"translation_quote\":\"«il corpo deve bruciare 3500 calorie per perdere mezzo chilo»\"},{\"location\":\"Sezione «Miti sul dimagrimento», paragrafo sulle pillole dimagranti\",\"severity\":\"major\",\"source_quote\":\"“The goal should never be simply to ‘take off ten pounds,’”\",\"suggested_fix\":\"Sostituire «perdere cinque chili» con «perdere dieci libbre» oppure «perdere circa 4,5 chili», in modo da preservare la quantità dell’originale.\",\"translation_quote\":\"«perdere cinque chili»\"},{\"location\":\"Sezione «Miti sul dimagrimento», paragrafo sui carboidrati\",\"severity\":\"minor\",\"source_quote\":\"“Carbohydrate is the medical term for sugars.”\",\"suggested_fix\":\"Per una resa più corretta e naturale: «Il termine medico per gli zuccheri è carboidrati».\",\"translation_quote\":\"«Carboidrati è il termine medico per gli zuccheri.»\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 2517,
+    "content_evidence_truncated": false,
+    "content_sha256": "b858b12ad2752d96fe17a8cf5e6fa466b0e94709bfc82a064286308aadf36f0f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8273,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8270,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8908
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

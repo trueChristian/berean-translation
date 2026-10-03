@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, “What the Bible Says About Food,” quotation of 1 Corinthians 3:16–17\",\"severity\":\"major\",\"source_quote\":\"“If any man defile the temple of God, him shall God destroy”\",\"suggested_fix\":\"Replace “Se alguém destruir o templo de Deus, Deus o destruirá” with “Se alguém profanar o templo de Deus, Deus o destruirá” to preserve the distinction between defiling the temple and God destroying the person.\",\"translation_quote\":\"“Se alguém destruir o templo de Deus, Deus o destruirá”\"},{\"location\":\"source.html, “Vigorous exercise” section\",\"severity\":\"major\",\"source_quote\":\"“a body must burn 3500 calories to lose one pound”\",\"suggested_fix\":\"Replace “perder meio quilo” with an equivalent of one pound, such as “perder cerca de 450 gramas,” preserving the amount stated in the source.\",\"translation_quote\":\"“o corpo precisa queimar 3.500 calorias para perder meio quilo”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 980,
+    "content_evidence_truncated": false,
+    "content_sha256": "fb890902a6b42a15859cb5a7515b9d0963362730b06b3007e3282ccfac686fc5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 634,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 394,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7813,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7810,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8447
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

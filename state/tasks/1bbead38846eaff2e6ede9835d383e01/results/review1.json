@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "778b90b4-690e-4392-978a-77f6e7497aba",
+    "response_id": "chatcmpl-EUrUO3dlmmgkyfVs3RLRI1LUZ26Gh",
+    "usage": {
+      "completion_tokens": 757,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11321,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11318,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12078
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "IV. Essence of True Worship, paragraph beginning “The fathers of the woman at the well…”",
+        "severity": "major",
+        "source_quote": "“We know what we worship” (4:22b). True worship is the exercise of our mind and intellect. True worship has something to offer: “Salvation is of Jesus” (4:22c).",
+        "suggested_fix": "将这两处分段标记分别改为“（约翰福音4:22中）”和“（4:22下）”；并将引文改为“救恩是从耶稣来的”，以保留原文所说的“救恩是从耶稣来的”，而不是改成“救恩是从犹太人出来的”。",
+        "translation_quote": "“我们所拜的，我们知道”（4:22下）。真正的敬拜是运用我们的思想和理智。真正的敬拜有所献上：“救恩是从犹太人出来的”（4:22下）。"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

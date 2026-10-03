@@ -2,7 +2,6 @@
   "article_id": "0678981b-d0f9-4c28-970e-2617f9543c9b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 5179
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 293,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5038,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5035,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5331
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "अनुच्छेद 10",
+      "severity": "major",
+      "source_quote": "“The only one who can help you is God. And if you don’t want His help, there’s no hope for your marriage.”",
+      "suggested_fix": "“केवल परमेश्वर ही आपकी मदद कर सकता है। और अगर आप उसकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।” में “उसकी” को बहुवचन/सम्मानसूचक “उनकी” करें: “और अगर आप उनकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।”",
+      "translation_quote": "“केवल परमेश्वर ही आपकी मदद कर सकता है। और अगर आप उसकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।”"
+    },
+    {
+      "location": "अनुच्छेद 18",
+      "severity": "major",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "वाक्य को इस अर्थ में संशोधित करें कि चुनाव यह तय करता है कि बदले में पति का अनुग्रह/पक्ष मिलेगा या खो जाएगा; उदाहरण: “मेरी पसंद तय करती है कि बदले में मेरे पति का अनुग्रह मिलेगा या उसका नुकसान होगा।”",
+      "translation_quote": "“मेरी पसंद तय करती है कि बदले में मुझे अनुग्रह मिलेगा या नुकसान।”"
+    }
+  ],
   "id": "e4f754016d813cb6860279ef99fbbae3",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/337b0f85be679bd2862d74a2fd4fd6c0823bf7edba4d475821c72f925c77a031.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
   "translation_model_actual": "gpt-6-luna"

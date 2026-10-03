@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 8242
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 594,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 337,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8101,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8098,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8695
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, цитата 1 Коринфянам 6:19–20",
+      "severity": "major",
+      "source_quote": "“therefore glorify God in your body, and in your spirit, which are God’s”",
+      "suggested_fix": "Заменить «и в душах ваших» на «и в духе вашем», сохранив остальную структуру цитаты и ссылку.",
+      "translation_quote": "«Посему прославляйте Бога и в телах ваших, и в душах ваших, которые суть Божии»"
+    },
+    {
+      "location": "source.html, цитата 1 Коринфянам 3:16–17",
+      "severity": "major",
+      "source_quote": "“If any man defile the temple of God, him shall God destroy”",
+      "suggested_fix": "Заменить «того покарает Бог» на «того уничтожит Бог» (или равноценную формулировку, передающую именно уничтожение), сохранив остальную структуру цитаты и ссылку.",
+      "translation_quote": "«Если кто разорит храм Божий, того покарает Бог»"
+    }
+  ],
   "id": "e261d5909a72c87ddb7dc9d598d35f3d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

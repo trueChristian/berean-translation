@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e21d4297-a878-4015-972d-0c9f52d715c2",
+    "response_id": "chatcmpl-EUrUOFoEEhZSEbLEiNLPKPOSAavKI",
+    "usage": {
+      "completion_tokens": 345,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3801,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3798,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4146
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "lyrics, final stanza",
+        "severity": "major",
+        "source_quote": "In that land where the tempest, never comes, Lord, may I / Dwell with Thee when the storm passes by.",
+        "suggested_fix": "Замените строки на перевод, сохраняющий смысл: «Господи, позволь мне жить с Тобой в той стране, / где никогда не бывает бурь, когда буря минует» — или близкий поэтический вариант без изменения смысла.",
+        "translation_quote": "Господи, позволь мне жить с Тобой в той стране, / Где никогда не бывает бурь, когда буря минует."
+      },
+      {
+        "location": "Paragraph beginning “When the disciples were out on the sea”",
+        "severity": "minor",
+        "source_quote": "When the disciples were out on the sea in the storm, Jesus was with them.",
+        "suggested_fix": "Исправьте падежную конструкцию: «Когда ученики оказались в бурю на море, Иисус был с ними» или «Когда ученики были на море во время бури, Иисус был с ними».",
+        "translation_quote": "Когда ученики оказались в бурю в море, Иисус был с ними."
+      },
+      {
+        "location": "Paragraph beginning “When I was a little girl”",
+        "severity": "minor",
+        "source_quote": "What a shock for a 40-year-old mother.",
+        "suggested_fix": "Исправьте грамматику: «Какое потрясение для сорокалетней матери!»",
+        "translation_quote": "Какой потрясением это было для сорокалетней матери!"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

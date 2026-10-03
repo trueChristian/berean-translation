@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Lyrics, stanza 1",
+      "severity": "minor",
+      "source_quote": "“‘Mid the crash of the thunder, Precious Lord, hear my cry,”",
+      "suggested_fix": "Change “Tussen die gedreun van die donder, kosbare Here, hoor my geroep,” to “Te midde van die gedreun van die donder, kosbare Here, hoor my noodkreet,” to retain the sense of crying out to the Lord.",
+      "translation_quote": "“Tussen die gedreun van die donder, kosbare Here, hoor my geroep,”"
+    },
+    {
+      "location": "Lyrics, stanza 3",
+      "severity": "minor",
+      "source_quote": "“Where the storms never darken the skies.”",
+      "suggested_fix": "Consider “waar die storms nooit die hemelruim verduister nie” rather than “waar die storms nooit die lug verduister nie,” which can suggest the physical air rather than the sky.",
+      "translation_quote": "“waar die storms nooit die lug verduister nie.”"
+    },
+    {
+      "location": "Closing Scripture quotation",
+      "severity": "minor",
+      "source_quote": "“And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away”",
+      "suggested_fix": "Translate “het verbygegaan” as “het verbygegaan” or “verdwyn het” only if it clearly conveys that the former heaven and earth passed away; consider “want die eerste hemel en die eerste aarde het verbygegaan” as acceptable. No change is necessary.",
+      "translation_quote": "“want die eerste hemel en die eerste aarde het verbygegaan”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

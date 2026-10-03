@@ -2,7 +2,6 @@
   "article_id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 4058
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 344,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3869,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3866,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4213
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Lyrics, stanza 1",
+      "severity": "minor",
+      "source_quote": "“‘Mid the crash of the thunder, Precious Lord, hear my cry,”",
+      "suggested_fix": "Change “Tussen die gedreun van die donder, kosbare Here, hoor my geroep,” to “Te midde van die gedreun van die donder, kosbare Here, hoor my noodkreet,” to retain the sense of crying out to the Lord.",
+      "translation_quote": "“Tussen die gedreun van die donder, kosbare Here, hoor my geroep,”"
+    },
+    {
+      "location": "Lyrics, stanza 3",
+      "severity": "minor",
+      "source_quote": "“Where the storms never darken the skies.”",
+      "suggested_fix": "Consider “waar die storms nooit die hemelruim verduister nie” rather than “waar die storms nooit die lug verduister nie,” which can suggest the physical air rather than the sky.",
+      "translation_quote": "“waar die storms nooit die lug verduister nie.”"
+    },
+    {
+      "location": "Closing Scripture quotation",
+      "severity": "minor",
+      "source_quote": "“And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away”",
+      "suggested_fix": "Translate “het verbygegaan” as “het verbygegaan” or “verdwyn het” only if it clearly conveys that the former heaven and earth passed away; consider “want die eerste hemel en die eerste aarde het verbygegaan” as acceptable. No change is necessary.",
+      "translation_quote": "“want die eerste hemel en die eerste aarde het verbygegaan”"
+    }
+  ],
   "id": "0a2c72bde2cfc22129e29cf516f461d1",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "afr",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6-luna"

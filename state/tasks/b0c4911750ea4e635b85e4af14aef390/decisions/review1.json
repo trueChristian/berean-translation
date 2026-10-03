@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “There was a crowd of people…”; quoted John 12:29",
+      "severity": "major",
+      "source_quote": "The people therefore, that stood by, and heard it, said that it thundered",
+      "suggested_fix": "Replace the quoted clause with: העם שעמד שם ושמע זאת אמר שזה היה רעם. This corrects the meaning while preserving the existing <em> structure and reference.",
+      "translation_quote": "העם שעמד שם ושמע זאת אמר שהתרעם"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

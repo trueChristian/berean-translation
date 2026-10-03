@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, sección «Mitos sobre la pérdida de peso», párrafo sobre las calorías del ejercicio",
+      "severity": "major",
+      "source_quote": "a body must burn 3500 calories to lose one pound",
+      "suggested_fix": "Cambiar «3500 calorías para perder una libra» por «3500 calorías para perder una libra (aproximadamente 450 gramos)» o usar otra conversión que mantenga explícita la equivalencia original.",
+      "translation_quote": "el cuerpo debe quemar 3500 calorías para perder una libra"
+    },
+    {
+      "location": "HTML, sección «Mitos sobre la pérdida de peso», subtítulo sobre carbohidratos",
+      "severity": "minor",
+      "source_quote": "…Carbohydrates make you gain weight.",
+      "suggested_fix": "Para conservar el sentido general del subtítulo en un registro internacional: «…Los carbohidratos hacen que se aumente de peso.»",
+      "translation_quote": "…Los carbohidratos hacen que aumentes de peso."
+    },
+    {
+      "location": "HTML, sección «Mitos sobre la pérdida de peso», subtítulo sobre el alimento que quema grasa",
+      "severity": "minor",
+      "source_quote": "You just need to eat ‘___’ fat burning food to lose weight!",
+      "suggested_fix": "Usar una formulación coherente con el tratamiento de «usted» del artículo: «…¡Solo tiene que comer «___», un alimento que quema grasa, para bajar de peso!»",
+      "translation_quote": "…¡Solo tienes que comer «___», un alimento que quema grasa, para bajar de peso!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

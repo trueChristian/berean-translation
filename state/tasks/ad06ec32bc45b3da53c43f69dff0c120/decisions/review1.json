@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “La no conformidad”",
+      "severity": "minor",
+      "source_quote": "to say “No” to evil communication and the ways of this world",
+      "suggested_fix": "Cambiar «decir “no” a la mala comunicación y a las costumbres de este mundo» por «decir “no” a las malas compañías y a las costumbres de este mundo»; aquí “evil communication” alude a influencias o relaciones corruptoras, no a una comunicación deficiente.",
+      "translation_quote": "decir «no» a la mala comunicación y a las costumbres de este mundo"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

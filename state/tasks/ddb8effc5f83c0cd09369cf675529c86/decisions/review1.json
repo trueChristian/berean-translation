@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 13",
+      "severity": "major",
+      "source_quote": "The fact of the matter, it’s confidence I lack.",
+      "suggested_fix": "Ukweli ni kwamba, ninakosa kujiamini.",
+      "translation_quote": "Ukweli ni kwamba, ninakosa ujasiri wa kumtumaini."
+    },
+    {
+      "location": "Attribution paragraph at the end of the article",
+      "severity": "minor",
+      "source_quote": "–by Barry Grant",
+      "suggested_fix": "–na Barry Grant",
+      "translation_quote": "–by Barry Grant"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 5, line 2",
+      "severity": "minor",
+      "source_quote": "Acknowledging Your omnipotent might.",
+      "suggested_fix": "Replace “আপনার সর্বশক্তিমান মহিমা” with “আপনার সর্বশক্তিমান ক্ষমতা” to convey God’s might or power, rather than glory.",
+      "translation_quote": "আপনার সর্বশক্তিমান মহিমা স্বীকার করে।"
+    },
+    {
+      "location": "Poem, stanza 6, line 1",
+      "severity": "minor",
+      "source_quote": "Help us, Father, to be broken,",
+      "suggested_fix": "Use wording that conveys surrender or being humbled before God, such as “পিতা, আমাদের আত্মসমর্পণকারী হতে সাহায্য করুন,” rather than “ভেঙে পড়তে,” which suggests collapsing or breaking down.",
+      "translation_quote": "পিতা, আমাদের ভেঙে পড়তে সাহায্য করুন,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

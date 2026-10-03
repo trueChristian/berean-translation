@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c1508cf8-2280-47a0-aff8-58a4f603cc5a",
+    "response_id": "chatcmpl-EUrULikktx3ukOx8Hjtkzn5glsmKa",
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 555,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4126,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4123,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4832
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article paragraph beginning “When I was a little girl”",
+        "severity": "major",
+        "source_quote": "a life-threatening heart attack caused by a spontaneous coronary artery dissection",
+        "suggested_fix": "Replace “خودبخود دل کی شریان پھٹنے کے باعث” with “کورونری شریان کی دیوار میں اچانک شگاف پڑنے کے باعث” to convey a spontaneous coronary artery dissection rather than a ruptured artery.",
+        "translation_quote": "خودبخود دل کی شریان پھٹنے کے باعث جان لیوا دل کا دورہ"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

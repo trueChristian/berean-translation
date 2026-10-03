@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0ee55aac-31c6-4e63-9d5e-50191c1b729b",
+    "response_id": "chatcmpl-EUrUNwbg6usnWeavw3Jf4j5lKkk6U",
+    "usage": {
+      "completion_tokens": 815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 716,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1962,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1959,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2777
+    }
+  },
+  "received_at": "2026-10-03T11:27:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, fourth stanza, second line",
+        "severity": "minor",
+        "source_quote": "With dreams afresh to seek and fill.",
+        "suggested_fix": "Replace with: \"עם חלומות חדשים לשאוף אליהם ולהגשים.\"",
+        "translation_quote": "כשחלומות חדשים ממתינים לחיפוש ולהגשמה."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

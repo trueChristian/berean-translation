@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, closing Scripture quotation (Ephesians 5:33b)",
+      "severity": "major",
+      "source_quote": "“And the wife see that she reverence her husband.”",
+      "suggested_fix": "Replace ״והאישה תירא את בעלה.״ with ״והאישה תכבד את בעלה.״ This conveys the source’s meaning of reverence/respect rather than fear.",
+      "translation_quote": "״והאישה תירא את בעלה.״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

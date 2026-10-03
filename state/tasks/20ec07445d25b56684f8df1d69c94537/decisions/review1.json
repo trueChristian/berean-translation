@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, section I.a, Romans 10:17 quotation",
+      "severity": "major",
+      "source_quote": "So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.",
+      "suggested_fix": "Change «budskapet kommer av Kristi ord» to «og det en hører, er Kristi ord»? No: the source specifically says «Guds ord», so render the quotation’s ending as «og det en hører, er Guds ord» (or another faithful Bokmål rendering of «hearing by the word of God»).",
+      "translation_quote": "Så kommer da troen av det budskapet en hører, og budskapet kommer av Kristi ord – Romerne 10:17."
+    },
+    {
+      "location": "Article body, section III.c, Colossians 3:16 quotation",
+      "severity": "major",
+      "source_quote": "singing with grace in your hearts to the Lord –Colossians 3:16.",
+      "suggested_fix": "Replace «med takknemlighet i hjertet for Gud» with a faithful rendering of «with grace in your hearts to the Lord», such as «med nåde i hjertene for Herren».",
+      "translation_quote": "og synger med takknemlighet i hjertet for Gud – Kolosserne 3:16."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

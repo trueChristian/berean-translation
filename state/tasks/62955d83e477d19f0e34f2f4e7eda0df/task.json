@@ -2,7 +2,6 @@
   "article_id": "0678981b-d0f9-4c28-970e-2617f9543c9b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 4826
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1107,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 721,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4685,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4682,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5792
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, opening paragraph and paragraphs describing the visit and conversation",
+      "severity": "major",
+      "source_quote": "“a friend asked my husband” … “outside his sister’s home” … “Our friend talked, pleading with his sister and brother-in-law”",
+      "suggested_fix": "Use masculine forms for the friend throughout, consistent with the later “his sister” and “brother-in-law”: for example, change “eine Freundin” to “ein Freund,” “unserer Freundin” to “unserem Freund,” and “Unsere Freundin” to “Unser Freund.” Adjust the associated possessive forms accordingly.",
+      "translation_quote": "„…“, fragte eine Freundin meinen Mann. … mit unserer Freundin vor dem Haus ihrer Schwester. … Unsere Freundin redete und flehte ihre Schwester und ihren Schwager an …"
+    },
+    {
+      "location": "HTML, paragraph beginning “Every day I choose to honor or dishonor”",
+      "severity": "major",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Revise this sentence to preserve the idea that her choice affects whether favor is reciprocated or lost, without changing whose affection is being reciprocated. For example: “Meine Entscheidung beeinflusst, ob Zuneigung erwidert wird oder verloren geht.”",
+      "translation_quote": "Meine Entscheidung bestimmt, ob mir seine Zuneigung erwidert wird oder verloren geht."
+    },
+    {
+      "location": "HTML, paragraph beginning “I think of the wayward lady in town”",
+      "severity": "minor",
+      "source_quote": "“who was chased from home by her children”",
+      "suggested_fix": "Correct the case and phrasing to “die von ihren eigenen Kindern aus dem Haus gejagt wurde.”",
+      "translation_quote": "die vom eigenen Kindern aus dem Haus gejagt wurde"
+    }
+  ],
   "id": "62955d83e477d19f0e34f2f4e7eda0df",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "deu",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/337b0f85be679bd2862d74a2fd4fd6c0823bf7edba4d475821c72f925c77a031.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
   "translation_model_actual": "gpt-6-luna"

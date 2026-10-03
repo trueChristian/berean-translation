@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, third stanza, second line\",\"severity\":\"major\",\"source_quote\":\"All would have escaped this pain.\",\"suggested_fix\":\"Replace the line with «Όλοι θα είχαμε γλιτώσει αυτόν τον πόνο.»\",\"translation_quote\":\"όλοι θα θέλαμε να είχαμε γλιτώσει αυτόν τον πόνο\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 384,
+    "content_evidence_truncated": false,
+    "content_sha256": "7050ce21edbc76f7fe3c2c1d595a857a834b3ed8506db845c2d0a2a1935bf9c3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 575,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2600,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2597,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3282
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

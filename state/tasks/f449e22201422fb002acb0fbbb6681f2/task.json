@@ -2,7 +2,6 @@
   "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42e13bc0a2ea4c5cb8e8644b5bc13303",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2192
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 214,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1942,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1939,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2156
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, poem, paragraph beginning “He fought with his mind”",
+      "severity": "major",
+      "source_quote": "He fought with his mind, justifying the wrong.",
+      "suggested_fix": "Replace the paragraph with: <p>তিনি মনে মনে লড়লেন, ভুল কাজকে ন্যায্য বলে প্রতিপন্ন করতে করতে।</p>",
+      "translation_quote": "তিনি মনে মনে লড়লেন, ভুলকে সঠিক বলে оправনা করলেন।"
+    },
+    {
+      "location": "source.html, poem, paragraph beginning “It was God that was working”",
+      "severity": "major",
+      "source_quote": "It was God that was working, He seemed quite strong.",
+      "suggested_fix": "Replace the paragraph with: <p>ঈশ্বরই কাজ করছিলেন; তাঁকে বেশ শক্তিশালী বলে মনে হচ্ছিল।</p>",
+      "translation_quote": "ঈশ্বরই কাজ করছিলেন; তাঁকে বেশ শক্তিশালী মনে হচ্ছিল।"
+    }
+  ],
   "id": "f449e22201422fb002acb0fbbb6681f2",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ben",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

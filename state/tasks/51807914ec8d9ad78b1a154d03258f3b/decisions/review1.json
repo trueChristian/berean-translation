@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section “Vetvrye en dieetkosse,” first paragraph",
+      "severity": "minor",
+      "source_quote": "There are many foods and condiments on the market that have reduced fat",
+      "suggested_fix": "Change “speserye” to “souse en geurmiddels” or another suitable Afrikaans equivalent for “condiments.”",
+      "translation_quote": "Daar is baie kossoorte en speserye op die mark waarvan die vetinhoud verlaag is"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
