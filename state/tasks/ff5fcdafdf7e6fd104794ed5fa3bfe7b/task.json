@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5faa5e30bcd446e094dc09e5ee10d877",
   "campaign": "gh-37109037884",
   "created_at": "2026-10-03T08:17:02+00:00",
   "downstream_candidate_sha256": "90730b7027d5413542461f1faa08ca265c6c59074156cf68f37edb1e4876db7f",
@@ -30,18 +29,61 @@
         },
         "total_tokens": 12701
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 652,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8178,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8175,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8830
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[46]: source /article[1]/p[23]/em[1] ('start', 'em', ()); translation /article[1]/p[23] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Article body, paragraph beginning “Ons behoort die lig van die wêreld te wees!”",
+      "severity": "major",
+      "source_quote": "“...there is laid up for each of us a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only but unto all them also that love his appearing.”",
+      "suggested_fix": "Correct the pronouns to match the source: “...lê daar vir elkeen van ons ’n kroon van geregtigheid gereed, wat die Here, die regverdige Regter, op daardie dag aan my sal gee; en nie net aan my nie, maar ook aan almal wat sy verskyning liefhet.”",
+      "translation_quote": "“...lê daar vir elkeen van ons ’n kroon van geregtigheid gereed, wat die Here, die regverdige Regter, my op daardie dag sal gee; en nie net aan my nie, maar ook aan almal wat sy verskyning liefhet.”"
+    },
+    {
+      "location": "Article body, same paragraph, quoted passage and its repeated citation",
+      "severity": "major",
+      "source_quote": "“I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness...”",
+      "suggested_fix": "Translate the quoted passage to preserve the source’s colon and its wording distinction: “Ek het die goeie stryd gestry, ek het my wedloop voltooi, ek het die geloof behou: Van nou af lê daar vir my ’n kroon van geregtigheid gereed...”",
+      "translation_quote": "“Ek het die goeie stryd gestry, ek het die wedloop voltooi, ek het die geloof behou. Van nou af lê daar vir my ’n kroon van geregtigheid gereed...”"
+    },
+    {
+      "location": "Article body, paragraph beginning “As Christene, wanneer laas...”",
+      "severity": "major",
+      "source_quote": "“...be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.”",
+      "suggested_fix": "Translate the printed wording faithfully, retaining its bracketed pronoun structure and reference: “...altyd gereed te wees om ’n antwoord te gee aan elkeen wat [ons] vra na ’n rede vir die hoop wat in [ons] is, met sagmoedigheid en vrees: –1 Petrus 3:15.”",
+      "translation_quote": "“...altyd gereed te wees om ’n antwoord te gee aan elkeen wat [ons] vra na die rede vir die hoop wat in [ons] is, met sagmoedigheid en eerbied: –1 Petrus 3:15.”"
+    },
+    {
+      "location": "Article section, title",
+      "severity": "minor",
+      "source_quote": "God Would Not Let Me Go",
+      "suggested_fix": "Use the sense of God not abandoning or releasing the speaker: “God wou my nie laat vaar nie.”",
+      "translation_quote": "God wou my nie laat gaan nie"
     }
   ],
+  "finished_at": "2026-10-03T10:46:31+00:00",
   "id": "ff5fcdafdf7e6fd104794ed5fa3bfe7b",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "afr",
@@ -130,12 +172,14 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[52]: source /article[1]/p[25]/em[1] ('start', 'em', ()); translation /article[1]/p[25] ('end', 'p')",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-6-luna"

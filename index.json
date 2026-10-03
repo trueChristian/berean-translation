@@ -470,6 +470,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/47fbbdc9-6663-49d8-96d7-b5a6ecb8d689.html",
+      "html_sha256": "6465b6c83773e4ce2118e783da04a1ec9365cfa13a551e19f5a20c028d1cb99f",
+      "human_reviewed": false,
+      "id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
+      "images": [],
+      "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/47fbbdc9-6663-49d8-96d7-b5a6ecb8d689.json",
+      "metadata_sha256": "50a1810eb6b4effe12c6ca4c830bc7e7565268872869ca1dbd4f9f1c54d6d2b6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Suster aan Suster",
+      "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
+      "source_translation_key": "acee92c005287a538cca2ea8301c5c01a8922523349a8b855f3e2b33bcddbab6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ek sal God se Woord in my (kind se) hart wegsteek",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
       "html_sha256": "08c15c2a3e3813481d528bf8ddcf3f4cf474ea0762a4c8b36d8f168e448a76cf",
       "human_reviewed": false,
@@ -577,6 +600,34 @@
       "subtitle": null,
       "title": "Van die Redakteur",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "54bff8375aa94d66300ca2f8f805be46aa1443f34de1975ae4367cdd741f5d44",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "’n Sterregevulde naghemel bo ’n bergmeer",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "8d157d3dbccf6f5d85c5d7aae1f1cc7bdebcdc07f7c5a99759806e38699eedec",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "GESANGGESKIEDENIS",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die sand van tyd sak weg",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

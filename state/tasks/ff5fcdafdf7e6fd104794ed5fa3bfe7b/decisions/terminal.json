@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Ons behoort die lig van die wêreld te wees!”",
+      "severity": "major",
+      "source_quote": "“...there is laid up for each of us a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only but unto all them also that love his appearing.”",
+      "suggested_fix": "Correct the pronouns to match the source: “...lê daar vir elkeen van ons ’n kroon van geregtigheid gereed, wat die Here, die regverdige Regter, op daardie dag aan my sal gee; en nie net aan my nie, maar ook aan almal wat sy verskyning liefhet.”",
+      "translation_quote": "“...lê daar vir elkeen van ons ’n kroon van geregtigheid gereed, wat die Here, die regverdige Regter, my op daardie dag sal gee; en nie net aan my nie, maar ook aan almal wat sy verskyning liefhet.”"
+    },
+    {
+      "location": "Article body, same paragraph, quoted passage and its repeated citation",
+      "severity": "major",
+      "source_quote": "“I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness...”",
+      "suggested_fix": "Translate the quoted passage to preserve the source’s colon and its wording distinction: “Ek het die goeie stryd gestry, ek het my wedloop voltooi, ek het die geloof behou: Van nou af lê daar vir my ’n kroon van geregtigheid gereed...”",
+      "translation_quote": "“Ek het die goeie stryd gestry, ek het die wedloop voltooi, ek het die geloof behou. Van nou af lê daar vir my ’n kroon van geregtigheid gereed...”"
+    },
+    {
+      "location": "Article body, paragraph beginning “As Christene, wanneer laas...”",
+      "severity": "major",
+      "source_quote": "“...be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.”",
+      "suggested_fix": "Translate the printed wording faithfully, retaining its bracketed pronoun structure and reference: “...altyd gereed te wees om ’n antwoord te gee aan elkeen wat [ons] vra na ’n rede vir die hoop wat in [ons] is, met sagmoedigheid en vrees: –1 Petrus 3:15.”",
+      "translation_quote": "“...altyd gereed te wees om ’n antwoord te gee aan elkeen wat [ons] vra na die rede vir die hoop wat in [ons] is, met sagmoedigheid en eerbied: –1 Petrus 3:15.”"
+    },
+    {
+      "location": "Article section, title",
+      "severity": "minor",
+      "source_quote": "God Would Not Let Me Go",
+      "suggested_fix": "Use the sense of God not abandoning or releasing the speaker: “God wou my nie laat vaar nie.”",
+      "translation_quote": "God wou my nie laat gaan nie"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

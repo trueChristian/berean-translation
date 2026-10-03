@@ -19,6 +19,12 @@
       "event": "downstream_repair_requested",
       "previous_task": "3c25f5895eacf3d0b2c36d97808e1116",
       "task": "ff5fcdafdf7e6fd104794ed5fa3bfe7b"
+    },
+    {
+      "at": "2026-10-03T10:46:31+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; no further automatic correction is allowed",
+      "task": "ff5fcdafdf7e6fd104794ed5fa3bfe7b"
     }
   ],
   "language": "afr",

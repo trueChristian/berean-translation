@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5faa5e30bcd446e094dc09e5ee10d877",
   "campaign": "gh-37109037884",
   "created_at": "2026-10-03T08:17:02+00:00",
   "downstream_candidate_sha256": "91f65f5c40756df3c3a0957f7016b0422fa3f657c1cb27016fd4a0abe86ff7bd",
@@ -30,32 +29,40 @@
         },
         "total_tokens": 13936
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1121,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 947,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8683,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8680,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9804
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph containing Mark 14:27 (third paragraph)",
+      "location": "Article body, paragraph beginning “In her early years, Michal loved David”",
       "severity": "major",
-      "source_quote": "He informed the inner 12 that had stuck with Him, “All ye shall be offended because of me this night” (Mark 14:27).",
-      "suggested_fix": "Translate the clause to convey the meaning “you will all stumble/offend because of me this night.” In Afrikaans a faithful rendering would be: “Gij sal al by my ter sprake kom vanaand” is incorrect. Use: “Gij sal almal vanaand oor my struikel” or “Gij sal almal vanaand aanstoot neem oor my.” Preserve the Scripture reference (Markus 14:27) and the surrounding HTML and punctuation.",
-      "translation_quote": "Hy het die innerlike twaalf wat by Hom gebly het, gewaarsku: “Gij sal ter sprake kom van my allen hierdie nag” (Markus 14:27)."
-    },
-    {
-      "location": "Paragraph containing Ephesians 5:8-11 (section 'Walk as Children of Light')",
-      "severity": "major",
-      "source_quote": "“Walk as children of light . . . proving what is acceptable unto the Lord. And have no fellowship with the unfruitful works of darkness, but rather reprove them” (Ephesians 5:8-11).",
-      "suggested_fix": "The translation misrenders the quoted clause and is ungrammatical, changing the meaning. It should clearly render “proving what is acceptable unto the Lord” as testing/discerning what pleases the Lord. Suggested Afrikaans rendering: “en ondersoek wat die Here behaag” or “en beproewend wat behaaglik is aan die Here.” Keep the Scripture reference (Efesiërs 5:8-11) and the quote formatting.",
-      "translation_quote": "“Wandel as kinders van die lig . . . beproewende wat behaaglik is die Here. En het geen gemeenskap met die onvrugbare werke van die duisternis nie, maar verklaar dit eerder” (Efesiërs 5:8-11)."
-    },
-    {
-      "location": "Paragraph with Luke 7:20-23 (reference to John the Baptist)",
-      "severity": "minor",
-      "source_quote": "Christ's response would indicate that this apparently did not fully fit the aspirations of what John had in mind, and he was struggling to accept it.",
-      "suggested_fix": "The personal name 'John' is left in English in the translation, which is inconsistent with the rest of the Afrikaans rendering of biblical names. Replace 'John' with the conventional Afrikaans form 'Johannes'. Suggested sentence: “Christus se antwoord dui daarop dat dit blykbaar nie heeltemal in pas was met Johannes se aspirasies nie ...”",
-      "translation_quote": "Christus se antwoord dui daarop dat dit blykbaar nie heeltemal in pas was met John se aspirasies nie, en hy het daarin gesukkel om dit te aanvaar."
+      "source_quote": "“during David's ecstatic dancing in his loin cloth, his discretion elapsed”",
+      "suggested_fix": "Replace “Dawid se oordeel tydens sy ekstatische dans in sy lendekleed hom begewe” with “Dawid se skaamte/beskroomdheid het tydens sy uitbundige dans in sy lendekleed hom begewe” to preserve the source’s point that David’s modesty or propriety lapsed.",
+      "translation_quote": "“Dawid se oordeel tydens sy ekstatische dans in sy lendekleed hom begewe”"
     }
   ],
+  "finished_at": "2026-10-03T10:46:31+00:00",
   "id": "a5ed7013e5e93b15301e3b0ab24f560c",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "afr",
@@ -144,12 +151,14 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-6-luna"

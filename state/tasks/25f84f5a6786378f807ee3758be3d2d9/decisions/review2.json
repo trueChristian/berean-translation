@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "Most years I memorized everything that was assigned.",
+      "suggested_fix": "Change “Meestal het ek alles gememoriseer wat opgedra is” to “Die meeste jare het ek alles gememoriseer wat opgedra is.”",
+      "translation_quote": "Meestal het ek alles gememoriseer wat opgedra is."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

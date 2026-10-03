@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5faa5e30bcd446e094dc09e5ee10d877",
   "campaign": "gh-37109037884",
   "created_at": "2026-10-03T08:17:02+00:00",
   "downstream_candidate_sha256": "8b00717a2701223c29e2a20d9dc612b0f018ff79c8ac06e968c5d087d9fc5dd9",
@@ -30,60 +29,31 @@
         },
         "total_tokens": 14966
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1170,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1131,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9257,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9254,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10427
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning \"In 1627...\" (source.html) — quoted commission sentence",
-      "severity": "major",
-      "source_quote": "\"I have received the commission from the royal and princely Master, my Lord Jesus, to preach Christ to the people.\"",
-      "suggested_fix": "Translate the entire quoted sentence into Afrikaans, preserving it as a quotation and keeping surrounding HTML tags unchanged. For example: \"Ek het die opdrag ontvang van die koninklike en prinslike Meester, my Here Jesus, om Christus aan die volk te preek.\"",
-      "translation_quote": "\"I have received the commission from the royal and princely Master, my Lord Jesus, to preach Christ to the people.\""
-    },
-    {
-      "location": "Paragraph beginning \"My removal from my flock is so heavy...\" (source.html) — quoted sentence",
-      "severity": "major",
-      "source_quote": "\"My removal from my flock is so heavy to me, that it maketh my life a burden to me, I had never such a longing for death. The Lord help and hold up this sad clay.\"",
-      "suggested_fix": "Translate the full quotation into Afrikaans, keeping it as a single quoted passage and preserving HTML. Example: \"My verwydering van my kudde is so swaar vir my, dat dit my lewe 'n las maak; ek het nog nooit so 'n verlange na die dood gehad nie. Die Here help en hou hierdie droewe klei op.\"",
-      "translation_quote": "\"My removal from my flock is so heavy to me, that it maketh my life a burden to me, I had never such a longing for death. The Lord help and hold up this sad clay.\""
-    },
-    {
-      "location": "Paragraph beginning \"Rutherford continued to be an influential leader...\" (source.html) — quoted summons sentence",
-      "severity": "major",
-      "source_quote": "\"I have a summons already from a superior Judge, and I behoove to answer my first summons and when your day arrives I shall be where few Kings and great folks come.\"",
-      "suggested_fix": "Translate the quotation into Afrikaans, preserving it as a quotation. Example: \"Ek het reeds 'n dagvaarding van 'n hoër Regter, en ek behoort my eerste dagvaarding te beantwoord; en wanneer julle dag aanbreek, sal ek wees waar min konings en grootmense kom.\"",
-      "translation_quote": "\"I have a summons already from a superior Judge, and I behoove to answer my first summons and when your day arrives I shall be where few Kings and great folks come.\""
-    },
-    {
-      "location": "Hymn stanza 4 (The Lamb with His fair army...)",
-      "severity": "major",
-      "source_quote": "\"The Lamb with His fair army, Doth on Mount Zion stand;\"",
-      "suggested_fix": "Correct the Afrikaans to reflect the original meaning \"fair army\" (i.e., a noble/beautiful host), not a fearful or terrible army. For example: \"Die Lam met Sy lieflike leër, Staan op Sion se berg;\" (or \"Die Lam met Sy pragtige leër\"). Preserve the stanza HTML and formatting.",
-      "translation_quote": "\"Die Lam met Sy vreeslike leër, Staan op Sion se berg;\""
-    },
-    {
-      "location": "Hymn stanza 1, line 3 (\"The summer morn I’ve sighed for\")",
-      "severity": "minor",
-      "source_quote": "\"The summer morn I’ve sighed for\"",
-      "suggested_fix": "Adjust the Afrikaans verb to 'gesug het' (sighed) rather than 'gesuig het' (sucked). Example: \"Die somermôre waarna ek gesug het,\" Preserve stanza tags and emphasis.",
-      "translation_quote": "\"Die somermôre waarop ek gesuig het,\""
-    },
-    {
-      "location": "Paragraph about the tune (near end) — refrain left in English",
-      "severity": "minor",
-      "source_quote": "\"And glory—glory dwelleth in Immanuel's land.\"",
-      "suggested_fix": "Either translate the quoted refrain into Afrikaans in that narrative sentence or place a parallel translated version in parentheses right after the English refrain, to reflect the printed English while giving an Afrikaans rendering. Example: \"... die refrein—'En heerlikheid, heerlikheid woon in Immanuel se land.'\"",
-      "translation_quote": "\"And glory, glory dwelleth in Immanuel's land.\""
-    },
-    {
-      "location": "Final paragraph — closing quote left in English",
-      "severity": "minor",
-      "source_quote": "\"They lose nothing who gain Christ.\"",
-      "suggested_fix": "Translate this closing quotation into Afrikaans while preserving it as a quotation. Example: \"Hulle verloor niks wat Christus gewen het nie.\"",
-      "translation_quote": "\"They lose nothing who gain Christ.\""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T10:46:31+00:00",
   "id": "1e4152f8fbef363838eaa1ddd6a974db",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "afr",
@@ -172,12 +142,14 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-6-luna"

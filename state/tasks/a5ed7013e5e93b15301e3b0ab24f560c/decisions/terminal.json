@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “In her early years, Michal loved David”",
+      "severity": "major",
+      "source_quote": "“during David's ecstatic dancing in his loin cloth, his discretion elapsed”",
+      "suggested_fix": "Replace “Dawid se oordeel tydens sy ekstatische dans in sy lendekleed hom begewe” with “Dawid se skaamte/beskroomdheid het tydens sy uitbundige dans in sy lendekleed hom begewe” to preserve the source’s point that David’s modesty or propriety lapsed.",
+      "translation_quote": "“Dawid se oordeel tydens sy ekstatische dans in sy lendekleed hom begewe”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:46:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “In her early years, Michal loved David”\",\"severity\":\"major\",\"source_quote\":\"“during David's ecstatic dancing in his loin cloth, his discretion elapsed”\",\"suggested_fix\":\"Replace “Dawid se oordeel tydens sy ekstatische dans in sy lendekleed hom begewe” with “Dawid se skaamte/beskroomdheid het tydens sy uitbundige dans in sy lendekleed hom begewe” to preserve the source’s point that David’s modesty or propriety lapsed.\",\"translation_quote\":\"“Dawid se oordeel tydens sy ekstatische dans in sy lendekleed hom begewe”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 631,
+    "content_evidence_truncated": false,
+    "content_sha256": "8d3b39cbc31a762e533dcd24ef61f602660bb94bef23d7394e959341f81f04c0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 947,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8683,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8680,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9804
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

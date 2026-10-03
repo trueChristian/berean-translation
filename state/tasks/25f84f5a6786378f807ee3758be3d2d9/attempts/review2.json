@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T10:46:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"Most years I memorized everything that was assigned.\",\"suggested_fix\":\"Change “Meestal het ek alles gememoriseer wat opgedra is” to “Die meeste jare het ek alles gememoriseer wat opgedra is.”\",\"translation_quote\":\"Meestal het ek alles gememoriseer wat opgedra is.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 374,
+    "content_evidence_truncated": false,
+    "content_sha256": "3d588ac6d81b1cd9485b725b06718f319656766364ccc1efb8959066c92987dc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 524,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 420,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5788,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5785,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6312
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
