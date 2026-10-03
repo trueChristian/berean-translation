@@ -1,0 +1,140 @@
+{
+  "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "gh-37108593335",
+  "created_at": "2026-10-03T08:07:46+00:00",
+  "downstream_candidate_sha256": "68f4eff2b3b1996375c6c385dc43d1d063887d8a20b1bcf817422064208873bd",
+  "downstream_key": "dc83bd91deef711eb474adf3197f24373bcdfc62dfd048ea0962ed3754fe5fc8",
+  "downstream_previous_sha256": "db340e4fbeeb3d453f94aaf93e9e93afba6c64269c81d074af30b9248a3c3004",
+  "downstream_previous_task": "fef5c0cd16ca02e786dcec5946338b56",
+  "downstream_recovery": true,
+  "events": [],
+  "findings": [
+    {
+      "location": "Paragraph listing other hymns (near end of main text)",
+      "severity": "major",
+      "source_quote": "including “Make Me A Captive Lord”, and “Then I Shall Be Free.”",
+      "suggested_fix": "Translate the quoted hymn titles into Afrikaans (quoted substantive prose must be translated). For example: “Maak My ’n Gevangene, Here” and “Dan Sal Ek Vry Wees.” Preserve the quotes and punctuation and place them where the English originals appear.",
+      "translation_quote": "insluitende “Make Me A Captive Lord”, en “Then I Shall Be Free.”"
+    },
+    {
+      "location": "Image <img> alt attribute",
+      "severity": "major",
+      "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+      "suggested_fix": "Translate the alt text into Afrikaans and translate the hymn title inside it. For example: alt=\"Bladmuziek vir 'O Liefde, wat my nie loslaat nie'\". Preserve the same HTML attribute structure.",
+      "translation_quote": "alt=\"Bladmuziek vir 'O Love That Wilt Not Let Me Go'\""
+    },
+    {
+      "location": "Paragraph about hints in the hymn (mentions third stanza)",
+      "severity": "major",
+      "source_quote": "the tracing of the “rainbow through the rain” in the third stanza",
+      "suggested_fix": "Replace the mistranslation of 'stanza' with the correct Afrikaans term (e.g., 'strofe' or 'verse'). For example: “die nasporing van die ‘reënboog deur die reën’ in die derde strofe.” Keep the quoted English phrase translated into Afrikaans.",
+      "translation_quote": "die nasporing van die “reënboog deur die reën” in die derde refrein"
+    },
+    {
+      "location": "Paragraph on later writings (list of devotional works)",
+      "severity": "minor",
+      "source_quote": "including Moments on the Mount, Voice of the Spirit, and Rests by the River.",
+      "suggested_fix": "Correct a typographical error and ensure the titles are translated consistently into Afrikaans. 'Moomente op die Berg' should read 'Momente op die Berg'. Also consider translating the titles as quoted substantive prose into Afrikaans if the publication standard requires (e.g., 'Momente op die Berg', 'Stem van die Gees', 'Rus by die Rivier').",
+      "translation_quote": "insluitend <em>Moomente op die Berg</em>, <em>Stem van die Gees</em>, en <em>Rus by die Rivier</em>."
+    }
+  ],
+  "id": "7ec434a705afbeb07dd11dc147a77a51",
+  "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+  "language": "afr",
+  "model": "gpt-6-luna",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Candidate did not pass fidelity review; substantiate findings against the English",
+  "review_attempts": 0,
+  "review_model": "gpt-6-luna",
+  "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
+  "stage": "correct",
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
