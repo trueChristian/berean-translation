@@ -12,23 +12,11 @@ from __future__ import annotations
 import re
 import unicodedata
 from functools import lru_cache
+from .scripture_books import CORE_BOOK_NAMES
 
 # The English identities are also accepted in localized text: language quality
 # belongs to semantic review, while this gate protects citation identity.
-_ENGLISH_BOOKS = (
-    'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy', 'Joshua',
-    'Judges', 'Ruth', '1 Samuel', '2 Samuel', '1 Kings', '2 Kings',
-    '1 Chronicles', '2 Chronicles', 'Ezra', 'Nehemiah', 'Esther', 'Job',
-    'Psalm', 'Proverbs', 'Ecclesiastes', 'Song of Solomon', 'Isaiah',
-    'Jeremiah', 'Lamentations', 'Ezekiel', 'Daniel', 'Hosea', 'Joel',
-    'Amos', 'Obadiah', 'Jonah', 'Micah', 'Nahum', 'Habakkuk', 'Zephaniah',
-    'Haggai', 'Zechariah', 'Malachi', 'Matthew', 'Mark', 'Luke', 'John',
-    'Acts', 'Romans', '1 Corinthians', '2 Corinthians', 'Galatians',
-    'Ephesians', 'Philippians', 'Colossians', '1 Thessalonians',
-    '2 Thessalonians', '1 Timothy', '2 Timothy', 'Titus', 'Philemon',
-    'Hebrews', 'James', '1 Peter', '2 Peter', '1 John', '2 John',
-    '3 John', 'Jude', 'Revelation',
-)
+_ENGLISH_BOOKS = tuple(row[0] for row in CORE_BOOK_NAMES)
 _GERMAN_BOOKS = {
     '1. Mose': 'Genesis', '2. Mose': 'Exodus', '3. Mose': 'Leviticus',
     '4. Mose': 'Numbers', '5. Mose': 'Deuteronomy',
@@ -42,6 +30,7 @@ _GERMAN_BOOKS = {
     'Markus': 'Mark', 'Hiob': 'Job', '1. Timotheus': '1 Timothy',
     '2. Timotheus': '2 Timothy', '1. Thessalonicher': '1 Thessalonians',
     '2. Thessalonicher': '2 Thessalonians', 'Philipper': 'Philippians',
+    'Epheser': 'Ephesians', 'Apg.': 'Acts',
 }
 _HEBREW_BOOKS = {
     'בראשית': 'Genesis', 'שמות': 'Exodus', 'מתי': 'Matthew',
@@ -55,10 +44,22 @@ _HEBREW_BOOKS = {
     'א׳ קורינתיים': '1 Corinthians', 'א׳ טימותאוס': '1 Timothy',
     'ב׳ טימותאוס': '2 Timothy', '2 טימותיוס': '2 Timothy',
     '1 קורינתים': '1 Corinthians',
+    '2 טימותיאוס': '2 Timothy',
+    '1 פטרוס': '1 Peter', '2 פטרוס': '2 Peter',
+    'א׳ פטרוס': '1 Peter', 'ב׳ פטרוס': '2 Peter',
+    'אפסים': 'Ephesians', 'קולוסים': 'Colossians', 'רומים': 'Romans', 'עברים': 'Hebrews',
+    'הראשונה לקורינתים': '1 Corinthians', 'השנייה לקורינתים': '2 Corinthians',
+    'הראשונה לפטרוס': '1 Peter', 'אל האפסים': 'Ephesians',
     'הראשונה אל הקורינתים': '1 Corinthians',
     '1 יוחנן': '1 John', '2 יוחנן': '2 John', '3 יוחנן': '3 John',
     'א׳ יוחנן': '1 John', 'ב׳ יוחנן': '2 John', 'ג׳ יוחנן': '3 John',
 }
+# The complete finite baseline is authoritative; observed, source-paired
+# spelling variants above remain exact aliases rather than fuzzy matching.
+_GERMAN_BOOKS = {**{row[1]: row[0] for row in CORE_BOOK_NAMES}, **_GERMAN_BOOKS}
+_HEBREW_BOOKS = {**{row[2]: row[0] for row in CORE_BOOK_NAMES}, **_HEBREW_BOOKS}
+_HEBREW_BOOKS.update({row[2] + '׳': row[0] for row in CORE_BOOK_NAMES
+                      if row[2].endswith((' א', ' ב'))})
 _DASHES = '-‐‑–—−־'
 _QUOTES = str.maketrans({"'": '׳', '‘': '׳', '’': '׳',
                         '"': '״', '“': '״', '”': '״'})
@@ -74,7 +75,13 @@ _BARE_COLON = re.compile(r'(?<![0-9])[0-9]+\s*:')
 _HEBREW_COLON = re.compile(rf'(?<![\w׳״])({_HEBREW_TOKEN})\s*:')
 # Never match a Gospel/book suffix within an unsupported numbered identity.
 _PRECEDING_ORDINAL = re.compile(
-    r"(?<![\w:,\-‐‑–—−־])(?:[0-9]+\.?|[IVX]+\.?|[אבגדהוזחט](?:[׳'’‘])?)\s*$", re.I)
+    r"(?<![\w:,\-‐‑–—−־])(?:[0-9]+(?:st|nd|rd|th)?\.?|[IVX]+\.?|[אבגדהוזחט](?:[׳'’‘])?)\s*$", re.I)
+_PRECEDING_NAMED_ORDINAL = re.compile(
+    r'(?<!\w)(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|'
+    r'(?:erst|zweit|dritt|viert|fünft|sechst|siebt|acht|neunt|zehnt)e[rsnm]?|'
+    r'הראשו(?:ן|נה)|השני(?:ה|יה|ת)?|השלישי(?:ת)?|הרביעי(?:ת)?|'
+    r'החמישי(?:ת)?|השישי(?:ת)?|השביעי(?:ת)?|השמיני(?:ת)?|התשיעי(?:ת)?|העשירי(?:ת)?)'
+    r'(?:\s+אל)?\s*$', re.I)
 _BARE_CLOCK_VALUE = re.compile(r'(?:[01]?[0-9]|2[0-3])\s*:\s*[0-5][0-9]')
 _AMOUNT_WORDS = (r'(?:Euro|EUR|US-Dollar|Dollar|USD|CHF|Franken|GBP|Pfund|JPY|Yen|'
                  r'Prozent|percent|Kilogramm|Kilometer|Liter|kg|km|cm|mm|g|'
@@ -147,6 +154,8 @@ def _number(token: str, language: str, *, suffix: bool = False) -> tuple[int, st
 
 
 def _alias_pattern(alias: str) -> str:
+    if alias == 'Is.':
+        return r'(?-i:Is\.?)'  # The English verb "is" is never a book alias.
     return re.escape(alias).replace(r'\.', r'\.?').replace(r'\ ', r'\s*').replace('׳', "[׳'’‘]")
 
 
@@ -156,8 +165,18 @@ def _book_pattern(language: str, target_language: str | None = None) -> tuple[re
     supported = ({'deu': _GERMAN_BOOKS, 'heb': _HEBREW_BOOKS}.get(paired))
     identities_supported = set(supported.values()) if supported is not None else set(_ENGLISH_BOOKS)
     aliases = {book: book for book in _ENGLISH_BOOKS if book in identities_supported}
+    for book, _, _, osis in CORE_BOOK_NAMES:
+        if book not in identities_supported:
+            continue
+        aliases[(osis[0] + ' ' + osis[1:] if osis[0] in '123' else osis) + '.'] = book
+        if book[0] in '123':
+            roman = {'1': 'I', '2': 'II', '3': 'III'}[book[0]]
+            aliases[roman + '. ' + book[2:]] = book
+            aliases[roman + '. ' + osis[1:] + '.'] = book
     aliases.update({alias: identity for alias, identity in
-                    {'Psalms': 'Psalm', 'Song of Songs': 'Song of Solomon'}.items()
+                    {'Psalms': 'Psalm', 'Song of Songs': 'Song of Solomon',
+                     'Ps.': 'Psalm', 'Rev.': 'Revelation', 'Gen.': 'Genesis',
+                     'Jer.': 'Jeremiah', 'Ecc.': 'Ecclesiastes', 'Is.': 'Isaiah'}.items()
                     if identity in identities_supported})
     if language == 'deu':
         aliases.update(_GERMAN_BOOKS)
@@ -165,13 +184,14 @@ def _book_pattern(language: str, target_language: str | None = None) -> tuple[re
         aliases.update(_HEBREW_BOOKS)
     # Longest first avoids treating "1 John" as "John" and ordinal suffixes
     # as chapters. Recognize only the observed attached conjunction vav and
-    # preposition bet ("in"), optionally combined, not arbitrary word prefixes.
+    # prepositions bet ("in") and mem ("from"), optionally combined with vav,
+    # not arbitrary word prefixes.
     groups, identities = [], {}
     for index, alias in enumerate(sorted(aliases, key=len, reverse=True)):
         group = f'b{index}'
         groups.append(f'(?P<{group}>{_alias_pattern(alias)})')
         identities[group] = aliases[alias]
-    prefix = '(?:ו?ב|ו)?' if language == 'heb' else ''
+    prefix = '(?:ו?[במ]|ו)?' if language == 'heb' else ''
     return re.compile(r'(?<!\w)' + prefix + '(?:' + '|'.join(groups) +
                       r')(?![^\W\d_])', re.I), identities
 
@@ -190,7 +210,7 @@ def _numeric_looking(token: str) -> bool:
     return token[:1].isdigit() or any(c in token for c in '׳״\'"‘’“”')
 
 
-def _unsupported_numeric_tail(text: str, end: int, language: str) -> int | None:
+def _unsupported_numeric_tail(text: str, end: int, language: str, *, qualified=False) -> int | None:
     """Hold unknown arithmetic/range/list connectors with numeric endpoints.
 
     Unicode categories catch math symbols and dash variants without an endless
@@ -210,7 +230,8 @@ def _unsupported_numeric_tail(text: str, end: int, language: str) -> int | None:
     if position == start:
         return None
     connectors = text[start:position]
-    if connectors == ':' and _verse_annotation(text, start, language):
+    if connectors == ':' and (_verse_annotation(text, start, language)
+            or qualified and _quoted_prose_after_colon(text, start)):
         return None
     endpoint_start = _space(text, position)
     # A full stop plus whitespace belongs to ordinary sentence punctuation.
@@ -233,7 +254,7 @@ def _unsupported_numeric_tail(text: str, end: int, language: str) -> int | None:
     return endpoint.end()
 
 
-def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | None] | None:
+def _verse_expression(text: str, start: int, language: str, *, qualified=False) -> tuple[int, str | None] | None:
     """Parse ordered verse pieces, coalescing only non-overlapping adjacency."""
     first = _atom(text, start, language)
     if first is None:
@@ -271,7 +292,8 @@ def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | 
             after_colon = _space(text, next_pos + 1)
             following = _atom(text, after_colon, language)
             if (following and _numeric_looking(following.group())
-                    and not _verse_annotation(text, next_pos, language)):
+                    and not _verse_annotation(text, next_pos, language)
+                    and not (qualified and _quoted_prose_after_colon(text, next_pos))):
                 invalid = True
                 end = following.end()
                 next_pos = _space(text, end)
@@ -281,7 +303,13 @@ def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | 
             end += tail.end()
             invalid = True
             next_pos = _space(text, end)
-        tail_end = _unsupported_numeric_tail(text, end, language)
+        if (qualified and text[next_pos:next_pos + 1] == ':'
+                and text[next_pos + 1:].lstrip()[:1] in _QUOTE_PAIRS
+                and not _quoted_prose_after_colon(text, next_pos)):
+            invalid = True
+            end = next_pos + 1
+            next_pos = _space(text, end)
+        tail_end = _unsupported_numeric_tail(text, end, language, qualified=qualified)
         if tail_end is not None:
             # Do not silently truncate unsupported /19, +19, etc. to verse 18.
             end = tail_end
@@ -291,13 +319,21 @@ def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | 
             break
         following = _atom(text, _space(text, next_pos + 1), language)
         if not following or not _numeric_looking(following.group()):
-            if text[_space(text, next_pos + 1):].startswith(','):
+            if text[_space(text, next_pos + 1):].startswith((',', ':')):
                 invalid = True
                 end = _space(text, next_pos + 1) + 1
             break
         # "3:16, 4:2" comprises separate chapter references, not verses 16,4.
         after_following = _space(text, following.end())
-        if text[after_following:after_following + 1] == ':':
+        if (text[after_following:after_following + 1] == ':'
+                and not (qualified and _quoted_prose_after_colon(text, after_following))):
+            next_verse = _atom(text, _space(text, after_following + 1), language)
+            if next_verse and _numeric_looking(next_verse.group()):
+                break  # A separately protected chapter:verse follows.
+            # A malformed/ambiguous final list member must not disappear just
+            # because it cannot be recognized as an independent reference.
+            invalid = True
+            end = after_following + 1
             break
         current = following
     if invalid:
@@ -317,9 +353,9 @@ def _verse_expression(text: str, start: int, language: str) -> tuple[int, str | 
 
 def _plain_prose(tail: str) -> bool:
     """Require two plain words, excluding numeric and ambiguous numeral tails."""
-    if tail[:1] in ('"', '“', '„', '«', '‘', '「', '『'):
+    if tail[:1] in ('"', '“', '„', '«', '‘', '「', '『', '״'):
         tail = tail[1:].lstrip()
-    words = re.match(r'([^\W\d_]{2,})(?:\s+|[.!?…]+\s+)'
+    words = re.match(r'([^\W\d_]{2,})(?:\s+|[,.!?…]+\s+)'
                      r'([^\W\d_]{2,})(?=\W|$)', tail)
     if not words:
         return False
@@ -340,6 +376,36 @@ def _prose_after_colon(text: str, colon: int) -> bool:
     return (text[colon:colon + 1] == ':'
             and text[colon + 1:colon + 2].isspace()
             and _plain_prose(text[colon + 1:].lstrip()))
+
+
+_QUOTE_PAIRS = {'"': '"', '“': '”', '„': '“', '«': '»', '»': '«',
+                '‘': '’', '「': '」', '『': '』', '״': '״'}
+
+
+def _quoted_prose(tail: str) -> bool:
+    """A balanced quotation with plain words, never a quoted numeric endpoint."""
+    closer = _QUOTE_PAIRS.get(tail[:1])
+    if closer is None:
+        return False
+    end = tail.find(closer, 1)
+    if end < 0:
+        return False
+    words = re.match(r'([^\W\d_]+)(?:\s+|[,.!?…]+\s+)([^\W\d_]+)(?=\W|$)', tail[1:end])
+    if not words:
+        return False
+    first = words[1]
+    if re.fullmatch('[IVXLCDM]+', first, re.I) and first not in ('I',):
+        return False
+    if all(character in _HEBREW_VALUES for character in first):
+        value = sum(_HEBREW_VALUES[character] for character in first)
+        if value > 999 or _hebrew_spelling(value).replace('׳', '').replace('״', '') == first:
+            return False  # Canonical unmarked Hebrew numerals remain ambiguous.
+    return True
+
+
+def _quoted_prose_after_colon(text: str, colon: int) -> bool:
+    return (text[colon:colon + 1] == ':' and text[colon + 1:colon + 2].isspace()
+            and _quoted_prose(text[colon + 1:].lstrip()))
 
 
 def _verse_annotation(text: str, colon: int, language: str) -> tuple[int, int] | None:
@@ -374,7 +440,8 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
     ambiguous_book = False
     if after < len(text) and (text[after] == ':' or (comma and text[after] == ',')):
         verse_start = _space(text, after + 1)
-        if book and chapter_value is not None and _prose_after_colon(text, after):
+        if book and chapter_value is not None and (_prose_after_colon(text, after)
+                                                   or _quoted_prose_after_colon(text, after)):
             # Record only the introductory prefix as consumed. In particular,
             # a later real citation in the quoted prose must still be parsed.
             return verse_start, None
@@ -404,7 +471,7 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
         # Hebrew words on both sides of a colon are not numeric evidence.
         # A source citation replaced with such ambiguous text remains missing.
         return None
-    verses = _verse_expression(text, verse_start, language)
+    verses = _verse_expression(text, verse_start, language, qualified=book is not None)
     if verses is None:
         # Retain an obvious, qualified dangling citation as an invalid key.
         if book and _numeric_looking(chapter.group()):
@@ -420,6 +487,10 @@ def _parse_at(text: str, start: int, language: str, book: str | None = None,
     if (chapter_value is None or expression is None or ambiguous_book
             or (redundant and repeated != chapter_value)):
         return end, f'!invalid[{language}] {prefix}{text[start:end]}'
+    if book and _quoted_prose_after_colon(text, _space(text, end)):
+        # Consume only the quote-introduction delimiter, so the last list
+        # member cannot also become a phantom bare chapter:verse reference.
+        end = _space(text, _space(text, end) + 1)
     return end, f'{prefix}{chapter_value[0]}:{expression}'
 
 
@@ -440,12 +511,19 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
     introductions = []
     book_pattern, identities = _book_pattern(language, target_language)
     for match in book_pattern.finditer(normalized):
-        if _PRECEDING_ORDINAL.search(normalized[:match.start()]):
+        if (_PRECEDING_ORDINAL.search(normalized[:match.start()])
+                or _PRECEDING_NAMED_ORDINAL.search(normalized[:match.start()])):
             continue
         parsed = _parse_at(normalized, _space(normalized, match.end()), language,
                            identities[match.lastgroup], comma=language == 'deu')
         if parsed:
             end, key = parsed
+            if match.group(match.lastgroup).rstrip('.') == 'Is':
+                # This short source abbreviation is ambiguous with ordinary
+                # prose. Only a complete parenthesized citation qualifies it.
+                if (normalized[:match.start()].rstrip()[-1:] != '('
+                        or normalized[_space(normalized, end):_space(normalized, end) + 1] != ')'):
+                    continue
             if key is None:
                 introductions.append((match.start(), end))
             else:
@@ -462,6 +540,28 @@ def reference_mentions(text: str, language: str, *, target_language: str | None 
         return (any(left <= start and end <= right for left, right, _ in mentions)
                 or any(left <= start and end <= right for left, right in introductions))
 
+    if language in ('deu', 'heb') or (language == 'eng' and target_language in ('deu', 'heb')):
+        # Source-backed standalone verse labels introduce a quotation, not an
+        # invented chapter. Protect their numbers separately on both sides.
+        label = (r"(?<!\w)(?:ו?[במ]|ו)?(?:פסוק|פס[׳'’‘])\s*" if language == 'heb'
+                 else r'(?<!\w)(?:Vers|V\.)\s*' if language == 'deu'
+                 else r'(?<!\w)(?:verse|v\.)\s*')
+        pattern = re.compile(label + r'([0-9]+)(?!\w)\s*([,:])', re.I)
+        for match in pattern.finditer(normalized):
+            delimiter = match.start(2)
+            tail = normalized[delimiter + 1:].lstrip()
+            if covered(match.start(), match.end()):
+                continue
+            valid_number = len(match[1]) <= 3 and 1 <= int(match[1]) <= 999
+            if (not valid_number or pattern.match(normalized, _space(normalized, delimiter + 1))
+                    or tail[:1] in _QUOTE_PAIRS and not _quoted_prose(tail)):
+                mentions.append((match.start(), match.end(),
+                                 f'!invalid[{language}] nested verse-label {match[1]}'))
+                continue
+            if (not covered(match.start(), match.end())
+                    and normalized[delimiter + 1:delimiter + 2].isspace()
+                    and _quoted_prose(tail)):
+                mentions.append((match.start(), match.end(), f'verse-label {int(match[1])}'))
     if language == 'deu':
         # Only full parentheses qualify a bookless comma expression. Source
         # comparison in the SAME block is still required for equivalence.

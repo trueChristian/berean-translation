@@ -88,3 +88,6 @@ tests verify that a newly recognized candidate still needs an independent review
 and that a saved historical candidate can only be published through a separately
 authorized bounded review. No live provider call, paid retry or held-state rewrite
 is part of this change.
+
+The expanded finite book-name table and quote/list boundary rules are documented
+in [Exact Scripture book identities](scripture-book-aliases.md).

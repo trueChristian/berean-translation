@@ -65,7 +65,7 @@ class ReferenceNotationTests(unittest.TestCase):
                 with self.subTest(language=language, source=source):
                     self.assert_equivalent(source, source, language)
 
-    def test_unsupported_books_keep_existing_number_protection(self):
+    def test_expanded_book_coverage_preserves_numbers_and_rejects_other_books(self):
         self.assert_equivalent('Daniel 3:4', 'דניאל 3:4', 'heb')
         self.assert_equivalent('Daniel 3:4', 'Daniel 3:4', 'heb')
         self.assert_changed('Daniel 3:4', 'דניאל 3:5', 'heb')
