@@ -3517,7 +3517,7 @@
       "has_publication": false,
       "language": "cmn",
       "latest_task": "f61fa30455c9e6d218f3016367eb5159",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4"
