@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "07f287fd58c64744945853cf1aa988ce",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8214
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4024,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 97,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8651,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8648,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12675
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[11]; missing: 15:20; extra: none",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"b8181ffd-5861-420e-b92a-573b7e66fc3e\">\n  <p class=\"drop-cap\">„Dr. Waldron“, sagte die Frau zu mir, als ich mich anschickte, den Untersuchungsraum zu verlassen. „Ich habe noch eine Frage. Wie kann ich dieses zusätzliche Gewicht verlieren?“</p>\n  <p>Unhörbar seufzte ich, als ich mich hinsetzte, um die Situation mit ihr zu besprechen. Mit einer Gewichtszunahme umzugehen, ist nichts, was man leicht ans Ende eines Arztbesuchs anhängen kann, und zu diesem Thema sind viele umfangreiche Bücher geschrieben worden.</p>\n  <p>Die Amerikaner scheinen damit zu kämpfen. Sie geben je"
     }
   ],
+  "finished_at": "2026-10-03T11:26:41+00:00",
   "id": "780944a4916ea3c2fd03d051991fc2fd",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "deu",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

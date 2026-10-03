@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "07f287fd58c64744945853cf1aa988ce",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 9647
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5000,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 220,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10133,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10130,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15133
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[27]; missing: 1 John 2:15-16; extra: 2:15-16",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"37272f7d-a8c0-4c15-b884-ebbf333303cb\">\n  <figure>\n    <img src=\"/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg\" alt=\"ישוע עומד לפני פילטוס והמון שהתאסף\">\n  </figure>\n\n  <p>הנה הוא, המלך בכבודו ובעצמו, עומד לפני פילטוס וממתין לגזר דין המוות שלו. בחוץ התאסף המון רב. לא היה ספק בכך: האנשים האלה זעמו. הם רצו שהאיש הזה, ישוע מנצרת, ימות. ״צלוב אותו! צלוב אותו!״ — אלה היו כל הדברים שנשמעו. האיש הזה ודאי עשה דבר נורא. אבל מי היו האנשים שכעסו כל כך על בן האלוהים? אולי הם היו אנסים, גנבים ורוצחים. ייתכן שהיו אלה שקרנים מקומיים, שיכורים או חוטאים אחרים. למעשה, הם ה"
     }
   ],
+  "finished_at": "2026-10-03T11:26:42+00:00",
   "id": "f29df9093680bdfe8bade0e7f30a49f8",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

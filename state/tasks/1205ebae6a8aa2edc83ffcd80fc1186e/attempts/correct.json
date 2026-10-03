@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:26:41+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\\\" alt=\\\"कोहरे से ढका सदाबहार वन\\\">\\n  </figure>\\n\\n  <p><em>इसलिए, हे पवित्र भाइयो, स्वर्गीय बुलाहट में सहभागी... –इब्रानियों 3:1।</em></p>\\n\\n  <div class=\\\"poem\\\">\\n    <p>सच्ची बुद्धि धीरे-धीरे किरणों में दमकती है,<br>\\n    सूक्ष्म बदलावों पर ध्यान ही नहीं जाता।<br>\\n    बचपन के दिनों की किताबों से आगे,<br>\\n    वह तुम्हें उस दूर की पहाड़ी पर बुलाती है।<br>\\n    धीरज धर, धैर्य के पथ पर आगे बढ़...<br>\\n    “आगे! ऊपर! और भी ऊँचे!”</p>\\n\\n    <p>कभी उदास मन से हम खीझ उठते हैं,<br>\\n    प्रचंड शीत में हमारा साहस घटता है।<br>\\n    धरती की सम्मान-सूची में हम असफल रहे,<br>\\n    आशा क्षीण, इच्छाशक्ति निराश।<br>\\n    पर सुनो, वह गूँजती हुई घंटी...<br>\\n    “आगे! ऊपर! और भी ऊँचे!”</p>\\n\\n    <p>प्रलोभन उठते हैं, सुख-साधन बुलाते हैं,<br>\\n    वे सत्य के बदले खोखला रोमांच देते हैं।<br>\\n    जो झुक जाते हैं, वही गिरते हैं,<br>\\n    परमेश्वर की धन्य इच्छा पूरी नहीं करते।<br>\\n    शरीर के लिए बोओगे तो कटुता ही काटोगे...<br>\\n    “आगे! ऊपर! और भी ऊँचे!”</p>\\n\\n    <p>उमंग से भरे युवावस्था के दिनों में,<br>\\n    नए सपनों को खोजने और पूरा करने के साथ।<br>\\n    विनम्र हृदय अधिक आँसू रोक सकता है,<br>\\n    जीवन की सारी बुद्धि और इच्छाशक्ति से भी।<br>\\n    वही जीतता है, जो सुनता है...<br>\\n    “आगे! ऊपर! और भी ऊँचे!”</p>\\n  </div>\\n\\n  <p><em>–ली रूफेनर द्वारा</em></p>\\n\\n  <p><em>मैं उस लक्ष्य की ओर दौड़ा चला जाता हूँ, ताकि वह पुरस्कार पाऊँ, जिसके लिए परमेश्वर ने मसीह यीशु में<br>\\n  ऊपर की बुलाहट दी है –फिलिप्पियों 3:14।</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"स्वर्गीय बुलाहट\"}",
+    "content_bytes": 3321,
+    "content_evidence_truncated": false,
+    "content_sha256": "0e548e45169a195c7699e9574dc2ccf168919bd414d09e4e94957a2b2fb6255a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1167,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 458,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2391,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2388,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3558
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}

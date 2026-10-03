@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:26:42+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\\\" alt=\\\"안개 낀 상록수 숲\\\">\\n  </figure>\\n\\n  <p><em>그러므로 하늘의 부르심을 함께 받은 거룩한 형제들아… –히브리서 3:1.</em></p>\\n\\n  <div class=\\\"poem\\\">\\n    <p>참된 지혜는 서서히 빛을 드리우고,<br>\\n    사소한 한 걸음 한 걸음은 하찮게 여겨지네.<br>\\n    젊은 날 읽은 책들을 지나,<br>\\n    저 언덕으로 너를 손짓해 부르네.<br>\\n    참고 인내하며 나아가라...<br>\\n    “앞으로! 위로! 더 높이!”</p>\\n\\n    <p>때로 우리는 낙심하여 마음을 졸이고,<br>\\n    매서운 추위에 용기는 시들어 가네.<br>\\n    세상의 명예로운 명단에 들지 못했고,<br>\\n    희망은 줄고 의지는 꺾였네.<br>\\n    그러나 들어 보라, 울려 퍼지는 종소리를...<br>\\n    “앞으로! 위로! 더 높이!”</p>\\n\\n    <p>유혹은 솟아오르고 쾌락은 손짓하며,<br>\\n    진리를 헛된 흥분과 맞바꾸려 하네.<br>\\n    굴복하는 자가 넘어지는 자요,<br>\\n    하나님의 복된 뜻을 이루지 못하네.<br>\\n    육체를 위해 뿌리면 쓰라림만 거두리...<br>\\n    “앞으로! 위로! 더 높이!”</p>\\n\\n    <p>젊음이 넘쳐흐르는 나날에,<br>\\n    새로 품은 꿈을 찾아 이루려 할 때,<br>\\n    겸손한 마음은 눈물을 더 많이 막아 주리,<br>\\n    인생의 그 어떤 재치와 의지보다도.<br>\\n    이기는 자는 귀 기울이는 자...<br>\\n    “앞으로! 위로! 더 높이!”</p>\\n  </div>\\n\\n  <p><em>— 리 루페너 지음</em></p>\\n\\n  <p><em>그리스도 예수 안에서 하나님께서 위로부터 부르신 부르심의 상을 얻으려고<br>\\n  표적을 향해 달려갑니다 –빌립보서 3:14.</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"하늘의 부르심\"}",
+    "content_bytes": 1995,
+    "content_evidence_truncated": false,
+    "content_sha256": "badd045e09661eb2b2c8026f53803baed000ddc433d53c49cae9ed6ff11feb20",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 932,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 231,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2373,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3308
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}

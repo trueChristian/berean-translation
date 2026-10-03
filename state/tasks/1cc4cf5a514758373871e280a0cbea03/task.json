@@ -2,7 +2,6 @@
   "article_id": "201a1b3e-85b3-4e62-bc45-118a8c1f5367",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "07f287fd58c64744945853cf1aa988ce",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 4867
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2218,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 53,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5448,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5445,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7666
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 12:9; extra: !invalid[heb] וי״ב:ט׳",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"201a1b3e-85b3-4e62-bc45-118a8c1f5367\">\n  <figure>\n    <img src=\"/images/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367-1.png\" alt=\"\">\n  </figure>\n\n  <p>ברכות בשם הראוי לשבח של אדוננו ומושיענו, ישוע המשיח. אני בטוח שגם בתוך אי־הוודאות השוררת כיום בעולם, לבנו מהדהד את דברי בעל המזמור: <em>באלוהים ישועתי וכבודי; צור עוזי ומחסי באלוהים – תהילים ס״ב:ז׳.</em> וכן: <em>אלוהים לנו מחסה ועוז, עזרה בצרות, נמצא מאוד – תהילים מ״ו:ב׳.</em></p>\n\n  <p>אנו מתמודדים עם תקופה חסרת תקדים ומאתגרת, יותר מכפי שרבים מאיתנו זוכרים במהלך חייהם. אני בטוח שכל דור התמודד עם אתגרים ייחודיים לתקופת"
     }
   ],
+  "finished_at": "2026-10-03T11:26:41+00:00",
   "id": "1cc4cf5a514758373871e280a0cbea03",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/3247d37db60af5cb04c89fcb95f19a48f92e4609f34cce657f7405b402cfca9f.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
   "translation_model_actual": "gpt-6-luna"

@@ -6,6 +6,12 @@
       "campaign": "gh-37108628649",
       "event": "requested",
       "task": "f29df9093680bdfe8bade0e7f30a49f8"
+    },
+    {
+      "at": "2026-10-03T11:26:42+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[27]; missing: 1 John 2:15-16; extra: 2:15-16",
+      "task": "f29df9093680bdfe8bade0e7f30a49f8"
     }
   ],
   "language": "heb",

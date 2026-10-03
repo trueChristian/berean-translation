@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "07f287fd58c64744945853cf1aa988ce",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8210
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4078,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 166,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8797,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8794,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12875
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[20]; missing: 1:19; extra: none",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"93f83966-049f-4767-8fe5-497ec16dad40\">\n  <aside>\n    <p><em>Matthäus 11,15, Matthäus 13,9, Matthäus 13,43, Markus 4,9, Markus 4,23, Markus 7,16, Lukas 8,8, Lukas 14,35<br>\n    Matthäus 11,15; 13,9, 43, Markus 4,9, 23; 7,16, Lukas 8,8; 14,35</em></p>\n  </aside>\n\n  <p>Wenn es je einen geflügelten Ausspruch unseres Herrn Jesus Christus gab, dann war es gewiss dieser. Manchmal zu Beginn einer Rede, manchmal am Ende beobachtete das Publikum, wie er während seiner Ansprache innehielt, zu den Menschen um sich herum blickte und sagte: „Wer Ohren hat zu hören, der höre.“ Es wa"
     }
   ],
+  "finished_at": "2026-10-03T11:26:41+00:00",
   "id": "14034a9ba60fdfacea7485b9598449ad",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "deu",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

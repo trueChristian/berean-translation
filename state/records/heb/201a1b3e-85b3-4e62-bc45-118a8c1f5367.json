@@ -6,6 +6,12 @@
       "campaign": "gh-37108628649",
       "event": "requested",
       "task": "1cc4cf5a514758373871e280a0cbea03"
+    },
+    {
+      "at": "2026-10-03T11:26:41+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 12:9; extra: !invalid[heb] וי״ב:ט׳",
+      "task": "1cc4cf5a514758373871e280a0cbea03"
     }
   ],
   "language": "heb",

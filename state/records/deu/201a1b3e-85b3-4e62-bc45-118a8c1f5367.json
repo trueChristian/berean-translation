@@ -6,6 +6,12 @@
       "campaign": "gh-37108628649",
       "event": "requested",
       "task": "d0a4278a86fb2efb849469e0bfdb4127"
+    },
+    {
+      "at": "2026-10-03T11:26:42+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: none; extra: Job 1:11",
+      "task": "d0a4278a86fb2efb849469e0bfdb4127"
     }
   ],
   "language": "deu",

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:26:42+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\\\" alt=\\\"دھند میں لپٹا سدا بہار جنگل\\\">\\n  </figure>\\n\\n  <p><em>پس اے مقدس بھائیو، جو آسمانی بلاہٹ میں شریک ہو… –عبرانیوں 3:1۔</em></p>\\n\\n  <div class=\\\"poem\\\">\\n    <p>حقیقی حکمت بتدریج کرنوں میں طلوع ہوتی ہے،<br>\\n    چھوٹے چھوٹے قدم نظر ہی نہیں آتے۔<br>\\n    جوانی کے دنوں کی کتابوں سے آگے،<br>\\n    وہ تمہیں اُس دور کی پہاڑی کی طرف بلاتی ہے۔<br>\\n    صبر سے چلتے رہو، آگے بڑھتے رہو...<br>\\n    ”آگے! اوپر! اور بھی بلند!“</p>\\n\\n    <p>کبھی ہم افسردہ دل کے ساتھ بے چین ہوتے ہیں،<br>\\n    کڑاکے کی سردی میں ہمارا حوصلہ پست پڑ جاتا ہے۔<br>\\n    ہم دنیا کی اعزازی فہرست میں جگہ پانے میں ناکام رہے،<br>\\n    امید گھٹ گئی، ارادہ بجھ گیا۔<br>\\n    مگر سنو، یہ آواز، یہ گونجتی ہوئی صدا...<br>\\n    ”آگے! اوپر! اور بھی بلند!“</p>\\n\\n    <p>آزمائشیں اٹھتی ہیں اور لذتیں پکارتی ہیں،<br>\\n    وہ کھوکھلے سنسنی خیز مزے کے بدلے سچائی کا سودا کرتی ہیں۔<br>\\n    جو جھک جاتے ہیں، وہی گرتے ہیں،<br>\\n    اور خدا کی مبارک مرضی پوری نہیں کرتے۔<br>\\n    جسم کے لیے بونے والا صرف کڑوا پھل کاٹے گا...<br>\\n    ”آگے! اوپر! اور بھی بلند!“</p>\\n\\n    <p>جوانی کے بھرپور دنوں میں،<br>\\n    نئے خوابوں کی جستجو اور تکمیل کی آرزو کے ساتھ۔<br>\\n    ایک فروتن دل زندگی کی تمام عقل و ارادے سے،<br>\\n    کہیں زیادہ آنسوؤں کو تھام سکتا ہے۔<br>\\n    وہی کامیاب ہوتا ہے جو سنتا ہے...<br>\\n    ”آگے! اوپر! اور بھی بلند!“</p>\\n  </div>\\n\\n  <p><em>–لی رفینر کی تحریر</em></p>\\n\\n  <p><em>میں اُس نشان کی طرف بڑھتا ہوں تاکہ اُس انعام کو حاصل کروں جو<br>\\n  مسیح یسوع میں خدا کی اعلیٰ بلاہٹ کا ہے –فلپیوں 3:14۔</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"آسمانی بلاہٹ\"}",
+    "content_bytes": 2599,
+    "content_evidence_truncated": false,
+    "content_sha256": "3d0547b6b6356a66fe888b49ac9b2114c01df120dd40d015be0aec0f09498653",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1126,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 377,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2446,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2443,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3572
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}

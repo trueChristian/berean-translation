@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "07f287fd58c64744945853cf1aa988ce",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8194
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3946,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10160,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10157,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14106
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[29]: source /article[1]/p[8]/em[1] ('start', 'em', ()); translation /article[1]/p[8] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[8]/em[1]; translation /article[1]/p[8]",
@@ -58,6 +78,7 @@
       "translation_quote": "<p>我们一切的盼望都在于我们如何聆听，一切的自私也在于我们如何聆听——我们曾追求的一切正当之事，以及我们曾行的一切错误之事。爱一个人，他的话就甜美；恨一个人，他的每句话都带刺。我们以爱与恨、慷慨与嫉妒来领受每一句话。因此，要认识自己，不仅要留心自己说的话，也要留心自己听的话，这至关重要。我们的主说：“我的羊听我的声音。”——约翰福音 10:27；他们听见，是因为他们爱牧人。愿意承担这份责任的人，必须清除心中那些与尘世纠缠的杂念，才能侧耳倾听那升起的晨星；当祂发光的光辉照亮他们燃烧的心时，他们便得以聆听。“我们并有先知更确的预言；你们留意这预言，犹如留意照在暗处的灯，直等到天发亮，晨星在你们心里升起。”——彼得后书 1:19。</p>"
     }
   ],
+  "finished_at": "2026-10-03T11:26:42+00:00",
   "id": "a3ac852838c23b39c1d842b83cf0cbbb",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "cmn",
@@ -150,7 +171,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

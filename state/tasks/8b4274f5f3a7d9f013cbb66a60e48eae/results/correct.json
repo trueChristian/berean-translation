@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "abc8da0c-0e26-4843-b4ff-fc185292917d",
+    "response_id": "chatcmpl-EUrVZWZpCY8RLu5eAIFriiPVa5JgF",
+    "usage": {
+      "completion_tokens": 1023,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 367,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3342
+    }
+  },
+  "received_at": "2026-10-03T11:26:41+00:00",
+  "result": {
+    "html": "<article data-article-id=\"fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b\">\n  <figure>\n    <img src=\"/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg\" alt=\"Hutan hijau abadi berkabut\">\n  </figure>\n\n  <p><em>Karena itu, saudara-saudara yang kudus, yang mengambil bagian dalam panggilan surgawi… –Ibrani 3:1.</em></p>\n\n  <div class=\"poem\">\n    <p>Hikmat sejati terbit perlahan,<br>\n    Tahap demi tahap, nyaris tak terlihat.<br>\n    Melampaui buku-buku masa muda,<br>\n    Hikmat itu memanggilmu ke bukit di sana.<br>\n    Bersabarlah dan terus melangkah...<br>\n    “Maju! Naik! Lebih tinggi lagi!”</p>\n\n    <p>Adakalanya kita resah, jiwa pun muram,<br>\n    Keberanian meredup dalam dingin yang menusuk.<br>\n    Kita gagal masuk daftar kehormatan duniawi,<br>\n    Harapan menyusut, semangat pun lesu.<br>\n    Namun dengarlah bunyi, dentang yang menggema...<br>\n    “Maju! Naik! Lebih tinggi lagi!”</p>\n\n    <p>Godaan datang dan kesenangan memanggil,<br>\n    Keduanya menukar kebenaran dengan gairah hampa.<br>\n    Mereka yang menyerah adalah mereka yang jatuh,<br>\n    Tak mencapai kehendak Allah yang diberkati.<br>\n    Menabur dalam daging hanya akan menuai kepahitan...<br>\n    “Maju! Naik! Lebih tinggi lagi!”</p>\n\n    <p>Pada masa tahun-tahun muda yang berlimpah,<br>\n    Dengan impian baru untuk dikejar dan diwujudkan.<br>\n    Hati yang rendah hati akan mencegah lebih banyak air mata,<br>\n    Daripada segala kecerdasan dan kemauan besar dalam hidup.<br>\n    Yang menang ialah dia yang mendengar...<br>\n    “Maju! Naik! Lebih tinggi lagi!”</p>\n  </div>\n\n  <p><em>–oleh Lee Rufener</em></p>\n\n  <p><em>Aku berlari menuju sasaran untuk meraih hadiah berupa panggilan Allah yang<br>\n  tinggi dalam Kristus Yesus –Filipi 3:14.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "PANGGILAN SURGAWI"
+  }
+}
