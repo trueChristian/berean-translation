@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d29fff22-0312-4283-bc14-6d845523a569",
+    "response_id": "chatcmpl-EUz4iAkCsuq8SeHbWS7pneQXrNjH4",
+    "usage": {
+      "completion_tokens": 939,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 825,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8761,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8758,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9700
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph immediately before the heading “… Botar våra svagheter”",
+        "severity": "minor",
+        "source_quote": "The rest shall be brightly effected with a hope that…",
+        "suggested_fix": "Replace only the sentence with: “De övriga ska lysas upp av ett hopp som …”",
+        "translation_quote": "De övriga ska påverkas strålande av ett hopp som …"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

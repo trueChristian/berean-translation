@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "659a8154-d166-40f5-9cf2-b1cc2695ab24",
+    "response_id": "chatcmpl-EUz3osqutNPAGyvTMMif6TP6aBqff",
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 670,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4874,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4871,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5674
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “Veel van de leerstellingen…”",
+        "severity": "minor",
+        "source_quote": "without needing to be a partaker of the “fellowship of His sufferings”",
+        "suggested_fix": "Vervang alleen “deel te hoeven hebben aan ‘de gemeenschap aan Zijn lijden’” door “deel te hoeven nemen aan ‘de gemeenschap van Zijn lijden’”.",
+        "translation_quote": "zonder deel te hoeven hebben aan “de gemeenschap aan Zijn lijden”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

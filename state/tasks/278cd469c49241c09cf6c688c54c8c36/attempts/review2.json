@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First body paragraph\",\"severity\":\"major\",\"source_quote\":\"It was a the younger prodigal brother that asked for an early draw on his inheritance\",\"suggested_fix\":\"Het was de jongere verloren zoon die vroeg om een vervroegde uitbetaling van zijn erfdeel\",\"translation_quote\":\"Het was de jongere verloren zoon die vroeg om zijn erfdeel\"},{\"location\":\"First body paragraph\",\"severity\":\"major\",\"source_quote\":\"There, she was exposed to the heathen young men of the land and occasioned a bloody massacre\",\"suggested_fix\":\"Daar werd ze blootgesteld aan de heidense jongemannen van het land en was zij de aanleiding tot een bloedbad\",\"translation_quote\":\"Daar werd ze blootgesteld aan de heidense jongemannen van het land en leidde haar aanwezigheid tot een bloedbad\"},{\"location\":\"“...Onze gebreken geneest,” paragraph about the man at Bethesda\",\"severity\":\"major\",\"source_quote\":\"Upon the wake of his new day, a new remedy was given to him—\",\"suggested_fix\":\"Bij het aanbreken van zijn nieuwe dag kreeg hij een nieuw geneesmiddel:\",\"translation_quote\":\"Bij het aanbreken van zijn nieuwe dag kreeg hij een nieuwe opdracht:\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1176,
+    "content_evidence_truncated": false,
+    "content_sha256": "cf3c414ea3de283d7c57a05d20ccc596ffb9530a1d67488d0eb507f172eae315",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 996,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 715,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8504,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8501,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9500
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

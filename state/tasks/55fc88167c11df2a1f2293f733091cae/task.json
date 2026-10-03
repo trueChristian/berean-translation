@@ -2,7 +2,6 @@
   "article_id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 7377
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 800,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 670,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4874,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4871,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5674
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “If not before now…”",
-      "severity": "major",
-      "source_quote": "Our children need to know that ALL who live godly in Christ Jesus WILL suffer persecution.",
-      "suggested_fix": "Vervang de betreffende zin door: “Onze kinderen moeten weten dat ALLEN die godvruchtig leven in Christus Jezus vervolgd ZULLEN worden.”",
-      "translation_quote": "Onze kinderen moeten weten dat ALLEN die godvruchtig willen leven in Christus Jezus vervolgd ZULLEN worden."
+      "location": "HTML paragraph beginning “Veel van de leerstellingen…”",
+      "severity": "minor",
+      "source_quote": "without needing to be a partaker of the “fellowship of His sufferings”",
+      "suggested_fix": "Vervang alleen “deel te hoeven hebben aan ‘de gemeenschap aan Zijn lijden’” door “deel te hoeven nemen aan ‘de gemeenschap van Zijn lijden’”.",
+      "translation_quote": "zonder deel te hoeven hebben aan “de gemeenschap aan Zijn lijden”"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "55fc88167c11df2a1f2293f733091cae",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nld",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e6374334d6e72ef0337761efa27ba0d4b445710a6cd11331ff241df7b97827d8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
   "translation_model_actual": "gpt-6-luna"

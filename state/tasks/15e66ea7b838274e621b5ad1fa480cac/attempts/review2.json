@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Puisi, refrain pada bait-bait puisi; juga judul\",\"severity\":\"major\",\"source_quote\":\"“We can’t afford…”; title: “Things We Can’t Afford”\",\"suggested_fix\":\"Terjemahkan gagasan refrain sebagai sesuatu yang tidak sanggup kita pertaruhkan atau tidak mampu kita tanggung akibatnya, bukan sebagai larangan umum. Sesuaikan tiap baris dengan konteksnya; misalnya judul dapat menjadi “Hal-Hal yang Tak Sanggup Kita Pertaruhkan”. Pada baris penutup, gunakan “hal-hal yang tak sanggup kita pertaruhkan” alih-alih “hal-hal yang tak boleh kami lakukan”.\",\"translation_quote\":\"“Kita tak boleh…”; title: “Hal-Hal yang Tak Boleh Kita Lakukan”; penutup: “hal-hal yang tak boleh kami lakukan”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 769,
+    "content_evidence_truncated": false,
+    "content_sha256": "19c364f88743ddb8c2f5e81b89bb544da2556fd61b70b2f2933f4457f03a5780",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1654,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1651,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2373
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

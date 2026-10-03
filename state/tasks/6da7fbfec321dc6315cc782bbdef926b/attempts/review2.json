@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph under “Worship and Gratitude”\",\"severity\":\"minor\",\"source_quote\":\"We are able to see how unworthy we really are.\",\"suggested_fix\":\"ہم یہ دیکھ پاتے ہیں کہ ہم درحقیقت کتنے غیر مستحق ہیں۔\",\"translation_quote\":\"ہم یہ دیکھ پاتے ہیں کہ ہم درحقیقت کتنے نااہل ہیں۔\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 419,
+    "content_evidence_truncated": false,
+    "content_sha256": "8cef18f6744142f8a798c785966033243b5c47af1b6684d4ea7a67c0b336d162",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 598,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3812,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3809,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4524
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

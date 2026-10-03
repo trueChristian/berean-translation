@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 13605
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 807,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 703,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8720,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8717,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9527
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “I have since traveled to hundreds of churches…”",
+      "location": "Gang-leader account, paragraph beginning “আমি পাশের গ্রামে…”",
       "severity": "major",
-      "source_quote": "We know that God is power.",
-      "suggested_fix": "Replace “ঈশ্বরই ক্ষমতার উৎস” with “ঈশ্বরই ক্ষমতা” to preserve the source’s assertion that God is power, rather than saying that God is the source of power.",
-      "translation_quote": "আমরা জানি, ঈশ্বরই ক্ষমতার উৎস।"
+      "source_quote": "“I wanted God to save him.”",
+      "suggested_fix": "“আমি চেয়েছিলাম ঈশ্বর তাকে পরিত্রাণ দিন।”",
+      "translation_quote": "“আমি চেয়েছিলাম ঈশ্বর তাকে রক্ষা করুন।”"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "4b36bc8c1a3f6dde90125b148a3bdee3",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ben",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 2, third line\",\"severity\":\"major\",\"source_quote\":\"He has not told us we shall not bear\",\"suggested_fix\":\"Mungu hajatuambia kwamba hatutabeba\",\"translation_quote\":\"Hatujaambiwa kwamba hatutabeba\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 262,
+    "content_evidence_truncated": false,
+    "content_sha256": "f1c1a961e328ecf9759c2246712016119b9e02057b2926f2c7e39e38def74088",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 594,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 511,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1470,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1467,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2064
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

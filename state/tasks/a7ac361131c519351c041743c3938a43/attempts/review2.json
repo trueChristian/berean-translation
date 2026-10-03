@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, párrafo que comienza «Esa noche»\",\"severity\":\"minor\",\"source_quote\":\"making it difficult to look out of my eyes.\",\"suggested_fix\":\"Replace «y me costaba mirar con los ojos» with «lo que me dificultaba ver» to convey that the swelling made it hard to see.\",\"translation_quote\":\"y me costaba mirar con los ojos\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 376,
+    "content_evidence_truncated": false,
+    "content_sha256": "f25896b39588500ad6515437b8688a26475ef6011773430267a8d97cf4cafab8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 470,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 365,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2788,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2785,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3258
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

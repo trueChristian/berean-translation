@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 12989
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 996,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 715,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8504,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8501,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9500
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “Deze nobele jeugdige ambities…”",
+      "location": "First body paragraph",
       "severity": "major",
-      "source_quote": "These noble youthful ambitions were followed by Josiah, Isaiah, Jeremiah, Daniel, Mary, and the disciples of the Lord",
-      "suggested_fix": "Replace “werden nagevolgd door” with wording that indicates these people came later as further examples, such as “Later zagen we ook Josia, Jesaja, Jeremia, Daniël, Maria en de discipelen van de Heer.”",
-      "translation_quote": "Deze nobele jeugdige ambities werden nagevolgd door Josia, Jesaja, Jeremia, Daniël, Maria en de discipelen van de Heer"
+      "source_quote": "It was a the younger prodigal brother that asked for an early draw on his inheritance",
+      "suggested_fix": "Het was de jongere verloren zoon die vroeg om een vervroegde uitbetaling van zijn erfdeel",
+      "translation_quote": "Het was de jongere verloren zoon die vroeg om zijn erfdeel"
+    },
+    {
+      "location": "First body paragraph",
+      "severity": "major",
+      "source_quote": "There, she was exposed to the heathen young men of the land and occasioned a bloody massacre",
+      "suggested_fix": "Daar werd ze blootgesteld aan de heidense jongemannen van het land en was zij de aanleiding tot een bloedbad",
+      "translation_quote": "Daar werd ze blootgesteld aan de heidense jongemannen van het land en leidde haar aanwezigheid tot een bloedbad"
+    },
+    {
+      "location": "“...Onze gebreken geneest,” paragraph about the man at Bethesda",
+      "severity": "major",
+      "source_quote": "Upon the wake of his new day, a new remedy was given to him—",
+      "suggested_fix": "Bij het aanbreken van zijn nieuwe dag kreeg hij een nieuw geneesmiddel:",
+      "translation_quote": "Bij het aanbreken van zijn nieuwe dag kreeg hij een nieuwe opdracht:"
     }
   ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "278cd469c49241c09cf6c688c54c8c36",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nld",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

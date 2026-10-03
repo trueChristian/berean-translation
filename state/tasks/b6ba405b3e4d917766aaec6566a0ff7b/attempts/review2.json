@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, second poem, final stanza, third line\",\"severity\":\"major\",\"source_quote\":\"If God, in yet three hours, THIS DAY,\",\"suggested_fix\":\"Replace the corresponding Arabic line with «إن أغلق الله مسيرتك هذه الليلة، بعد ثلاث ساعات فحسب من الآن؟» to convey that this could happen three hours from now.\",\"translation_quote\":\"إن أغلق الله، بعد ثلاث ساعات فحسب من هذا اليوم،\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 511,
+    "content_evidence_truncated": false,
+    "content_sha256": "79fcaf1b6721b895efcf9a812e9fad3fa1a307d29f6fb86b05cd235cdab86268",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 545,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1963,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1960,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2633
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

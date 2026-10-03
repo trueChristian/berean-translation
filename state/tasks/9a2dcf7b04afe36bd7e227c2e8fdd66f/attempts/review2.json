@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Joshua 7:24–26 quotation\",\"severity\":\"major\",\"source_quote\":\"“and they brought them unto the valley of Achor … And all Israel stoned him with stones”\",\"suggested_fix\":\"Within the existing <em> element, replace וַיַּעֲלוּ אֹתָם עֵמֶק עָכוֹר with וַיָּבִיאוּ אֹתָם אֶל עֵמֶק עָכוֹר, and replace רָגְמוּ אֹתוֹ אֶבֶן with רָגְמוּ אֹתוֹ בָּאֲבָנִים. These changes convey that they brought them to the Valley of Achor and that Israel stoned him with stones.\",\"translation_quote\":\"וַיַּעֲלוּ אֹתָם עֵמֶק עָכוֹר… וְכָל־יִשְׂרָאֵל רָגְמוּ אֹתוֹ אֶבֶן\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 762,
+    "content_evidence_truncated": false,
+    "content_sha256": "85218cc98be64b9f9ea1244310461aed2fefc62b4a2a78373196e7eb472af32e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8592,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9629
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

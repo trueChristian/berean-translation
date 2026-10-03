@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, sección «La grandeza del amor», encabezado c.) y párrafos bíblicos",
+      "severity": "major",
+      "source_quote": "<h3>c.) It endureth all things.</h3>",
+      "suggested_fix": "Cambie el encabezado a «<h3>c.) Todo lo soporta.</h3>» y traduzca el texto del versículo de 1 Crónicas 16:34 como «<em>Den gracias al SEÑOR, porque es bueno; porque para siempre es su misericordia –1 Crónicas 16:34.</em>» (o con otra formulación fiel).",
+      "translation_quote": "<h3>c.) Todo lo soporta.</h3> ... <em>Den gracias al SEÑOR, porque él es bueno; porque su misericordia es para siempre –1 Crónicas 16:34.</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

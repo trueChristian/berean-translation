@@ -2,7 +2,6 @@
   "article_id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 4366
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph 10 (yellow-jacket nest)",
-      "severity": "major",
-      "source_quote": "There above the hole hung a yellow jacket nest.",
-      "suggested_fix": "Replace “’n perdeby nes” with “’n geelbaardby-nes” (or another locally established Afrikaans term for yellow jackets), preserving the sentence structure.",
-      "translation_quote": "Daar bo die gat het ’n perdeby nes gehang."
     },
     {
-      "location": "HTML, paragraph 11",
-      "severity": "major",
-      "source_quote": "making it difficult to look out of my eyes.",
-      "suggested_fix": "Replace “sodat dit moeilik was om deur my oë te kyk” with “sodat dit moeilik was om my oë oop te maak” to convey that the swelling made it hard to see/open the eyes.",
-      "translation_quote": "sodat dit moeilik was om deur my oë te kyk."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 945,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 580,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2868,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2865,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3813
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML paragraph 9",
+      "severity": "major",
+      "source_quote": "There above the hole hung a yellow jacket nest. Then I saw the culprit as it hovered over me trying to sting me again.",
+      "suggested_fix": "Replace “geelbaardby-nes” with “geelbaadjie-nes” and “die by” with “die geelbaadjie” so the insect is identified as a yellow jacket (a wasp), not a bee.",
+      "translation_quote": "Daar bo die gat het ’n geelbaardby-nes gehang. Toe sien ek die skuldige, wat bo my gesweef het en my weer probeer steek het. Ek het by die skuurdeur uitgehardloop en die deur in die by se gesig toegeklap."
+    },
+    {
+      "location": "HTML paragraph 9",
+      "severity": "minor",
+      "source_quote": "Frantically, I sprang back.",
+      "suggested_fix": "Change “Ek het paniekerig terugspring” to “Ek het paniekerig teruggedeins.”",
+      "translation_quote": "Ek het paniekerig terugspring."
+    },
+    {
+      "location": "HTML paragraph 8",
+      "severity": "minor",
+      "source_quote": "I scanned the dark interior of the barn for a good hiding place to put the peach stone.",
+      "suggested_fix": "For consistent and accurate wording for “peach stone,” change “perskesaad” to “perskepit.”",
+      "translation_quote": "Nadat ek die perske verslind het, het ek die donker binnekant van die skuur deurgesoek na ’n goeie wegsteekplek vir die perskesaad."
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:37+00:00",
   "id": "ebf69f4990316b57547198bdfc085eae",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "afr",
@@ -172,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3beb81221e24fb7edf745b287b1a293c166349a5772e1451dc761a3ac359e6d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
   "translation_model_actual": "gpt-6-luna"

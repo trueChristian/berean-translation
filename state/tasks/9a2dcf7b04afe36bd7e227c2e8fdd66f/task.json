@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 13574
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph quoting Acts 1:8",
-      "severity": "major",
-      "source_quote": "“...and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth –Acts 1:8.”",
-      "suggested_fix": "Replace ״וְהִתְקַיֵּם בִּי עֵדִים״ with ״וְתִהְיוּ עֵדִים לִי״ so the quotation says that the disciples will be witnesses to Jesus, as in the source.",
-      "translation_quote": "״וְהִתְקַיֵּם בִּי עֵדִים בִּירוּשָׁלַיִם וּבְכָל יְהוּדָה וְשֹׁמְרוֹן וְעַד קְצֵה הָאָרֶץ״"
     },
     {
-      "location": "Paragraph about Achan hiding the items",
-      "severity": "major",
-      "source_quote": "“He slipped them into his armor, then later hid them under his tent”",
-      "suggested_fix": "Replace ״החביא אותם בבגדיו״ with ״החביא אותם בשריונו״ to preserve the source’s detail that Achan put the items in his armor.",
-      "translation_quote": "״הוא החביא אותם בבגדיו, ואחר כך הסתיר אותם מתחת לאוהלו״"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1034,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 771,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8595,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8592,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9629
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Joshua 7:24–26 quotation",
+      "severity": "major",
+      "source_quote": "“and they brought them unto the valley of Achor … And all Israel stoned him with stones”",
+      "suggested_fix": "Within the existing <em> element, replace וַיַּעֲלוּ אֹתָם עֵמֶק עָכוֹר with וַיָּבִיאוּ אֹתָם אֶל עֵמֶק עָכוֹר, and replace רָגְמוּ אֹתוֹ אֶבֶן with רָגְמוּ אֹתוֹ בָּאֲבָנִים. These changes convey that they brought them to the Valley of Achor and that Israel stoned him with stones.",
+      "translation_quote": "וַיַּעֲלוּ אֹתָם עֵמֶק עָכוֹר… וְכָל־יִשְׂרָאֵל רָגְמוּ אֹתוֹ אֶבֶן"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "9a2dcf7b04afe36bd7e227c2e8fdd66f",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "heb",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

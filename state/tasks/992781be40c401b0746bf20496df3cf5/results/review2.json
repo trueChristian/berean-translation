@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "484cfb0f-a523-4d63-9be4-5b29c1a8e13a",
+    "response_id": "chatcmpl-EUz3o6CmCkTKB5OYo0DuSbju57HTx",
+    "usage": {
+      "completion_tokens": 686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3008
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, second stanza",
+        "severity": "minor",
+        "source_quote": "The answers seem evasive and trying.",
+        "suggested_fix": "Överväg att återge även innebörden av ”trying” (besvärliga eller påfrestande), till exempel: ”Svaren tycks undflyende och påfrestande.”",
+        "translation_quote": "Svaren tycks undflyende och svårfångade."
+      },
+      {
+        "location": "HTML, poem, sixth stanza",
+        "severity": "minor",
+        "source_quote": "“My chosen one,”",
+        "suggested_fix": "Använd en formulering som inte anger kön, till exempel: ”Du som jag har utvalt,”",
+        "translation_quote": "”Min utvalda,”"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

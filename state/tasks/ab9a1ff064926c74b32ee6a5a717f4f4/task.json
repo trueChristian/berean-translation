@@ -2,7 +2,6 @@
   "article_id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,61 @@
         },
         "total_tokens": 8522
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, paragraph beginning “As I interact with folks…”",
-      "severity": "minor",
-      "source_quote": "As I interact with folks from around the country there seems to be a common issue that many folks are struggling with—weariness.",
-      "suggested_fix": "Replace “جب میں ملک بھر کے لوگوں سے بات کرتا ہوں” with “جب میں ملک بھر کے لوگوں سے بات چیت کرتا ہوں” only if desired; the current wording is understandable but “بات کرتا ہوں” slightly narrows the sense of interacting. No substantive correction is necessary.",
-      "translation_quote": "جب میں ملک بھر کے لوگوں سے بات کرتا ہوں تو ایک ایسا مسئلہ عام نظر آتا ہے جس سے بہت سے لوگ نبردآزما ہیں—تھکن۔"
     },
     {
-      "location": "source.html, paragraph beginning “Here, in the United States…”",
-      "severity": "major",
-      "source_quote": "Christians have had over 60 years (since World War 2) of relative peace and tranquility.",
-      "suggested_fix": "Write: “مسیحیوں کو دوسری عالمی جنگ کے بعد سے ساٹھ سال سے زیادہ عرصے تک نسبتاً امن و سکون حاصل رہا ہے۔” The translation currently omits the parenthetical “since World War 2” only insofar as it is implicit; make the reference explicit as “دوسری عالمی جنگ کے بعد سے” (already present). No correction is needed.",
-      "translation_quote": "مسیحیوں کو دوسری عالمی جنگ کے بعد سے ساٹھ سال سے زیادہ عرصے تک نسبتاً امن و سکون حاصل رہا ہے۔"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 575,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5387,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5384,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5962
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "پہلا پیراگراف",
+      "severity": "minor",
+      "source_quote": "Another year has passed us by, and another is spread out before us to navigate.",
+      "suggested_fix": "«ایک اور سال گزر گیا، اور ایک اور سال ہمارے سامنے ہے جس میں ہمیں اپنا راستہ طے کرنا ہے۔» میں «ایک اور» سے مراد سال کو واضح کریں، مثلاً: «ایک اور سال گزر گیا، اور ایک اور سال ہمارے سامنے ہے جس میں ہمیں راستہ طے کرنا ہے۔»",
+      "translation_quote": "ایک اور سال گزر گیا، اور ایک اور سال ہمارے سامنے ہے جس میں ہمیں اپنا راستہ طے کرنا ہے۔"
+    },
+    {
+      "location": "چھٹا پیراگراف",
+      "severity": "minor",
+      "source_quote": "first generation Christians are “on fire” for their Lord",
+      "suggested_fix": "«اپنے خداوند کے لیے بہت پُرجوش» جیسی فطری تعبیر استعمال کریں؛ موجودہ لفظی استعارہ اردو میں غیر فطری ہے۔",
+      "translation_quote": "پہلی نسل کے مسیحی اپنے خداوند کے لیے ”آگ میں جل رہے“ ہوتے ہیں۔"
+    },
+    {
+      "location": "آٹھواں پیراگراف، متی 24:3-5 کا اقتباس",
+      "severity": "major",
+      "source_quote": "and shall deceive many",
+      "suggested_fix": "اقتباس کا آخری حصہ یوں درست کریں: «اور بہتوں کو گمراہ کریں گے»۔ موجودہ ترجمے میں «بہتیرے میرے نام سے آئیں گے» کے بعد «کہیں گے کہ میں مسیح ہوں» موجود ہے، مگر «اور بہتوں کو گمراہ کریں گے» والا جملہ حذف ہو گیا ہے۔ اصل HTML ٹیگ اور اقتباس کی ترتیب برقرار رکھیں۔",
+      "translation_quote": "کیونکہ بہتیرے میرے نام سے آئیں گے اور کہیں گے کہ میں مسیح ہوں، اور بہتوں کو گمراہ کریں گے—متی 24:3-5۔"
+    },
+    {
+      "location": "آخری پیراگراف، لوقا 9:23-24 کا اقتباس",
+      "severity": "major",
+      "source_quote": "but whosoever will lose his life for my sake, the same shall save it",
+      "suggested_fix": "«لیکن جو کوئی میری خاطر اپنی جان کھوئے، وہی اُسے بچائے گا» کریں۔ موجودہ عبارت «جو کوئی میری خاطر اپنی جان کھوئے وہ اُسے بچائے گا» میں «وہی» کا زور غائب ہے؛ اقتباس کی دیگر عبارت اور HTML ساخت برقرار رکھیں۔",
+      "translation_quote": "لیکن جو کوئی میری خاطر اپنی جان کھوئے وہ اُسے بچائے گا"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "ab9a1ff064926c74b32ee6a5a717f4f4",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "urd",
@@ -172,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 95,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e6374334d6e72ef0337761efa27ba0d4b445710a6cd11331ff241df7b97827d8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
   "translation_model_actual": "gpt-6-luna"

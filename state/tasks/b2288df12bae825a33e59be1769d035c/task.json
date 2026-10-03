@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 16714
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 408,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10388,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10385,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10796
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html and translation.html, paragraph 3; 1 Samuel 17:43",
+      "location": "HTML, παράγραφος που αρχίζει «Όμως οι νέοι δεν προορίζονται…»",
       "severity": "major",
-      "source_quote": "“Am I a dog, that thou comest to me with staves…”",
-      "suggested_fix": "Change the quoted Greek to a rhetorical question, for example: «…Μήπως είμαι σκύλος, ώστε να έρχεσαι εναντίον μου με ραβδιά…»",
-      "translation_quote": "«…Είμαι σκύλος, ώστε να έρχεσαι εναντίον μου με ραβδιά…»"
+      "source_quote": "He was despised by his brothers:",
+      "suggested_fix": "Αλλά τα αδέλφια του τον περιφρονούσαν:",
+      "translation_quote": "Εκείνοι τον περιφρονούσαν:"
+    },
+    {
+      "location": "HTML, παράγραφος που αρχίζει «Αυτές οι ευγενείς νεανικές φιλοδοξίες…»",
+      "severity": "major",
+      "source_quote": "But these were not naive specimens seeking to secure their place in life, they were graphic examples of youth who were seeking to imitate the image of their Lord.",
+      "suggested_fix": "Όμως αυτοί δεν ήταν αφελείς άνθρωποι που επιζητούσαν να εξασφαλίσουν τη θέση τους στη ζωή· ήταν παραστατικά παραδείγματα νέων που επιζητούσαν να μιμηθούν την εικόνα του Κυρίου τους.",
+      "translation_quote": "Όμως δεν ήταν αφελείς άνθρωποι που επιζητούσαν να εξασφαλίσουν τη θέση τους στη ζωή· ήταν ζωντανά παραδείγματα νέων που επιζητούσαν να μιμηθούν την εικόνα του Κυρίου τους."
+    },
+    {
+      "location": "HTML, ενότητα «…Ταπεινώνει τις επιδιώξεις μας», τελευταία πρόταση παραγράφου",
+      "severity": "major",
+      "source_quote": "those who have an appetite for it will reap in hope of its youthful reward.",
+      "suggested_fix": "και όσοι έχουν όρεξη γι’ αυτό θα θερίσουν με την ελπίδα της νεανικής ανταμοιβής του.",
+      "translation_quote": "και όσοι έχουν όρεξη γι’ αυτό θα θερίσουν με την ελπίδα της νεανικής του ανταμοιβής."
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "b2288df12bae825a33e59be1769d035c",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ell",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

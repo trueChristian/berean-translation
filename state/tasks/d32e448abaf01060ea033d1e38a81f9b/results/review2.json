@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "415ea000-3144-4006-aa57-0abfee5ad5ac",
+    "response_id": "chatcmpl-EUz5iF1I7yrkB1hjgIswOf3Y2v3rU",
+    "usage": {
+      "completion_tokens": 612,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7950,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7947,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8562
+    }
+  },
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Sedan dess har jag besökt hundratals kyrkor”",
+        "severity": "minor",
+        "source_quote": "“We know that God is power.”",
+        "suggested_fix": "Överväg den idiomatiska formuleringen ”Vi vet att Gud är kraften.”",
+        "translation_quote": "“Vi vet att Gud är kraft.”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

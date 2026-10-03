@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "시 9행",
+      "severity": "major",
+      "source_quote": "We can’t afford with serious heed to treat the cynic’s sneer;",
+      "suggested_fix": "냉소하는 이의 조롱을 진지하게 받아들이는 것도 감당할 수 없네;",
+      "translation_quote": "냉소하는 이의 조롱에 진지한 주의를 기울이는 것도 감당할 수 없네;"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

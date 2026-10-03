@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 9",
+      "severity": "major",
+      "source_quote": "There above the hole hung a yellow jacket nest. Then I saw the culprit as it hovered over me trying to sting me again.",
+      "suggested_fix": "Replace “geelbaardby-nes” with “geelbaadjie-nes” and “die by” with “die geelbaadjie” so the insect is identified as a yellow jacket (a wasp), not a bee.",
+      "translation_quote": "Daar bo die gat het ’n geelbaardby-nes gehang. Toe sien ek die skuldige, wat bo my gesweef het en my weer probeer steek het. Ek het by die skuurdeur uitgehardloop en die deur in die by se gesig toegeklap."
+    },
+    {
+      "location": "HTML paragraph 9",
+      "severity": "minor",
+      "source_quote": "Frantically, I sprang back.",
+      "suggested_fix": "Change “Ek het paniekerig terugspring” to “Ek het paniekerig teruggedeins.”",
+      "translation_quote": "Ek het paniekerig terugspring."
+    },
+    {
+      "location": "HTML paragraph 8",
+      "severity": "minor",
+      "source_quote": "I scanned the dark interior of the barn for a good hiding place to put the peach stone.",
+      "suggested_fix": "For consistent and accurate wording for “peach stone,” change “perskesaad” to “perskepit.”",
+      "translation_quote": "Nadat ek die perske verslind het, het ek die donker binnekant van die skuur deurgesoek na ’n goeie wegsteekplek vir die perskesaad."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

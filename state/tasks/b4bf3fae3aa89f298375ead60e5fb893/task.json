@@ -2,7 +2,6 @@
   "article_id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 2779
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 170,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1710,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1707,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1880
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Заголовок и повторяющийся рефрен стихотворения",
+      "location": "source.html, poem, lines 9–10",
       "severity": "major",
-      "source_quote": "“We Can’t Afford” means the speaker cannot risk or allow these moral failures; the refrain concludes, “the things we can’t afford!”",
-      "suggested_fix": "Заменить заголовок на «Чего мы не можем себе позволить» и в рефрене использовать «чего мы не можем себе позволить». В строках стихотворения также заменить повторяющееся «Нам не по силам» на «Мы не можем себе позволить».",
-      "translation_quote": "«Чего нам не по силам допустить»; повторяющееся «Нам не по силам»"
+      "source_quote": "We can’t afford with serious heed to treat the cynic’s sneer;<br>We can’t afford to wise men’s words to turn a careless ear.",
+      "suggested_fix": "Заменить эти две строки на: «Мы не можем позволить себе всерьёз прислушиваться к насмешкам циника;<br>Мы не можем позволить себе беспечно пропускать мимо ушей слова мудрых.»",
+      "translation_quote": "Мы не можем себе позволить всерьёз внимать насмешкам циника;<br>Мы не можем себе позволить беспечно пропускать мимо ушей слова мудрых."
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "b4bf3fae3aa89f298375ead60e5fb893",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "rus",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed6221e4c3f7ed957c68f67fd9e6401b2d9ddea55030972d9c84bb2f4d302be0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
   "translation_model_actual": "gpt-6-luna"

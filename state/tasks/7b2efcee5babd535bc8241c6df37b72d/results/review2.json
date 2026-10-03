@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a0fc175f-6927-4c87-9035-7b4bd32b2fd4",
+    "response_id": "chatcmpl-EUz3FJkHZAtMR09HDGVm7UFwkGxEs",
+    "usage": {
+      "completion_tokens": 111,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1751,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1748,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1862
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "시 9행",
+        "severity": "major",
+        "source_quote": "We can’t afford with serious heed to treat the cynic’s sneer;",
+        "suggested_fix": "냉소하는 이의 조롱을 진지하게 받아들이는 것도 감당할 수 없네;",
+        "translation_quote": "냉소하는 이의 조롱에 진지한 주의를 기울이는 것도 감당할 수 없네;"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

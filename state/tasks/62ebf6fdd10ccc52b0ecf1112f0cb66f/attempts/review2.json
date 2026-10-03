@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph about the widow of Zarephath\",\"severity\":\"major\",\"source_quote\":\"The widow of Zarephath agreed to give her last handful of flour and the last remaining drops of oil to a stranger.\",\"suggested_fix\":\"Change «أن تعطي غريبًا آخر حفنة» to «أن تعطي غريبًا حفنتها الأخيرة» so the text says she gave it to a stranger, without adding that the stranger was another one.\",\"translation_quote\":\"وافقت أرملة صرفة أن تعطي غريبًا آخر حفنة من الدقيق وآخر قطرات الزيت المتبقية لديها.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 647,
+    "content_evidence_truncated": false,
+    "content_sha256": "d051d75890f4cd048c23ae0f5ffac10f0d4b70dbab249f780cca9a04b9e5b072",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1102,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 943,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6421
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

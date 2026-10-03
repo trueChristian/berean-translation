@@ -2,7 +2,6 @@
   "article_id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,39 +64,40 @@
         },
         "total_tokens": 3625
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 230,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1990,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1987,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2220
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Poem, stanza 2",
+      "location": "Shairi, ubeti wa 3",
       "severity": "major",
-      "source_quote": "I’ll plan not for a life / That I might live in ease, / But only for today to live / My God alone to please.",
-      "suggested_fix": "Replace “Sitapanga maisha / Ambayo huenda nikaishi kwa raha, / Bali nitajitahidi kuishi leo / Ili kumpendeza Mungu wangu peke yake.” with “Sitaweka mipango ya maisha / Ambayo huenda nikaishi kwa raha, / Bali nitaishi kwa ajili ya leo tu / Ili kumpendeza Mungu wangu peke yake.”",
-      "translation_quote": "Sitapanga maisha / Ambayo huenda nikaishi kwa raha, / Bali nitajitahidi kuishi leo / Ili kumpendeza Mungu wangu peke yake."
-    },
-    {
-      "location": "Poem, stanza 3",
-      "severity": "major",
-      "source_quote": "Nor dare I think in years / Or move from leaps to bounds; / With God shut out, and self shut in / And selfish aims surround.",
-      "suggested_fix": "Replace “Wala sitathubutu kufikiria kwa miaka mingi / Au kupiga hatua kubwa; / Mungu akiwa ametengwa, na nafsi yangu ikiwa imefungiwa ndani, / Nikiwa nimezingirwa na malengo ya ubinafsi.” with “Wala sitathubutu kuwaza kwa miaka mingi / Au kuruka hatua kubwa; / Huku nikimwacha Mungu nje na kujifungia ndani yangu mwenyewe, / Nikiwa nimezungukwa na malengo ya ubinafsi.”",
-      "translation_quote": "Wala sitathubutu kufikiria kwa miaka mingi / Au kupiga hatua kubwa; / Mungu akiwa ametengwa, na nafsi yangu ikiwa imefungiwa ndani, / Nikiwa nimezingirwa na malengo ya ubinafsi."
-    },
-    {
-      "location": "Poem, stanza 4",
-      "severity": "major",
-      "source_quote": "Who weigh themselves, not with God’s truth, / As every day they ought!",
-      "suggested_fix": "Replace “Wanaojipima, si kwa kweli ya Mungu, / Ingawa ndivyo wanavyopaswa kufanya kila siku!” with “Wanaojipima, si kwa ukweli wa Mungu, / Kama wanavyopaswa kufanya kila siku!”",
-      "translation_quote": "Wanaojipima, si kwa kweli ya Mungu, / Ingawa ndivyo wanavyopaswa kufanya kila siku!"
-    },
-    {
-      "location": "Poem, stanza 6",
-      "severity": "major",
-      "source_quote": "And dost thou plan the New Year full / There, ‘neath some Christmas tree?",
-      "suggested_fix": "Replace “Je, unapanga mwaka mpya mzima / Huko, chini ya mti fulani wa Krismasi?” with “Na je, unapanga mwaka mzima ujao / Huko, chini ya mti fulani wa Krismasi?”",
-      "translation_quote": "Je, unapanga mwaka mpya mzima / Huko, chini ya mti fulani wa Krismasi?”"
+      "source_quote": "“Nor dare I think in years / Or move from leaps to bounds; / With God shut out, and self shut in / And selfish aims surround.”",
+      "suggested_fix": "Badili mistari ya mwisho ili ihifadhi maana ya kujifungia katika nafsi na kuzungukwa na malengo ya ubinafsi, bila kuongeza maana ya mwandishi kumwacha Mungu nje kimakusudi. Kwa mfano: “Wala sitathubutu kuwaza kwa miaka mingi / Au kuruka kutoka hatua moja kubwa hadi nyingine; / Mungu akiwa nje, nami nimejifungia ndani, / Na malengo ya ubinafsi yamenizunguka.”",
+      "translation_quote": "Wala sitathubutu kuwaza kwa miaka mingi / Au kuruka hatua kubwa; / Huku nikimwacha Mungu nje na kujifungia ndani yangu mwenyewe, / Nikiwa nimezungukwa na malengo ya ubinafsi."
     }
   ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "18e8cbeb1abb844097b8692f10b6bd45",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "swa",
@@ -186,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dbc43587e58be8105de6efc8c64b115ee947e41513159ee085108212ce456b1b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
   "translation_model_actual": "gpt-6-luna"

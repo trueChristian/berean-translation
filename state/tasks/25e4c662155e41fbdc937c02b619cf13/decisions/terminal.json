@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Body, paragraph 2",
+      "severity": "major",
+      "source_quote": "“that God-forsaken village”",
+      "suggested_fix": "Replace “خدا کے فراموش کردہ اُس گاؤں” with “اُس خدا کے چھوڑے ہوئے گاؤں” to preserve the source’s forceful description.",
+      "translation_quote": "“خدا کے فراموش کردہ اُس گاؤں”"
+    },
+    {
+      "location": "Body, paragraph 6",
+      "severity": "major",
+      "source_quote": "“The fact is, He didn’t need us there anymore.”",
+      "suggested_fix": "Replace “حقیقت یہ ہے کہ اب اُسے وہاں ہماری ضرورت نہیں تھی” with “حقیقت یہ ہے کہ اب اسے وہاں ہماری ضرورت نہیں رہی تھی۔”",
+      "translation_quote": "“حقیقت یہ ہے کہ اب اُسے وہاں ہماری ضرورت نہیں تھی۔”"
+    },
+    {
+      "location": "Body, paragraph 11",
+      "severity": "major",
+      "source_quote": "“The widow of Zarephath”",
+      "suggested_fix": "Use the conventional Urdu name for Zarephath: “صَرَفَت کی بیوہ” is a different/incorrect rendering here; change to “صَرَفَت (زرپت) کی بیوہ” or another established Urdu form that unambiguously identifies the biblical place.",
+      "translation_quote": "“صَرَفَت کی بیوہ”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d714c1a9-4211-40f0-a3e3-8400a27bf888",
+    "response_id": "chatcmpl-EUzA2NPA0mCelIkj7rOqgQ86h1wSP",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 606,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11184,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11181,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12036
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html and translation.html, section “4. Umiltà,” Proverbs 29:23 quotation",
+        "severity": "major",
+        "source_quote": "A man’s pride shall bring him low: but honour shall uphold the humble in spirit –Proverbs 29:23.",
+        "suggested_fix": "Replace only the quotation text with «La superbia dell’uomo lo abbatterà, ma l’onore sosterrà l’umile di spirito»; retain the existing reference and HTML structure.",
+        "translation_quote": "La superbia dell’uomo lo abbatterà, ma l’umile di spirito otterrà onore –Proverbi 29:23."
+      },
+      {
+        "location": "source.html and translation.html, heading for section 7",
+        "severity": "minor",
+        "source_quote": "7. Good Temper",
+        "suggested_fix": "Use «7. Mitezza» or «7. Controllo dell’ira» to convey the section’s focus on being slow to anger; keep the existing heading tag.",
+        "translation_quote": "7. Buon carattere"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

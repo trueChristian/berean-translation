@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7b3b1ce4-3bf3-4c0c-b141-5b97e919a749",
+    "response_id": "chatcmpl-EUzBGyuU7Bdx8Ipvc2ZDGQggh5UUk",
+    "usage": {
+      "completion_tokens": 520,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 400,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9254,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9777
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Första stycket",
+        "severity": "major",
+        "source_quote": "since I had dropped into bed from my last admission",
+        "suggested_fix": "Ändra till exempelvis ”sedan jag stupade i säng efter att ha tagit emot min senaste patient” så att det framgår att det är patientens inläggning, inte författarens egen.",
+        "translation_quote": "sedan jag stupade i säng efter min senaste inläggning"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

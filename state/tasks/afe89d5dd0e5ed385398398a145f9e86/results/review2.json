@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d22575b9-be2f-4b9f-8b69-f0b7ac0fa475",
+    "response_id": "chatcmpl-EUz3FHqRuwOSLJ9OxMXBaA5ecgXiI",
+    "usage": {
+      "completion_tokens": 924,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 689,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9677,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9674,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10601
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, quoted passage from Joshua 7:24–26",
+        "severity": "major",
+        "source_quote": "“...and they brought them unto the valley of Achor … And all Israel stoned him with stones, and burned them with fire…”",
+        "suggested_fix": "Replace the translated quotation with a faithful rendering that does not add “Achan and his family” or specify “the remaining persons and things”: «…και τους έφεραν στην κοιλάδα του Αχώρ … Και όλος ο Ισραήλ τον λιθοβόλησε με πέτρες και τους έκαψε με φωτιά…»",
+        "translation_quote": "«…και έφεραν τον Αχάν και την οικογένειά του στην κοιλάδα του Αχώρ … Και όλος ο Ισραήλ λιθοβόλησε τον Αχάν με πέτρες και έκαψε στη φωτιά τα υπόλοιπα πρόσωπα και πράγματα…»"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

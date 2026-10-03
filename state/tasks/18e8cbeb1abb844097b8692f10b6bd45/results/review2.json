@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aed001fe-9c8f-450b-8317-e0a34ef9ad92",
+    "response_id": "chatcmpl-EUz4dmqhESJsDrO6BIIY1MHxKW15W",
+    "usage": {
+      "completion_tokens": 230,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1987,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2220
+    }
+  },
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Shairi, ubeti wa 3",
+        "severity": "major",
+        "source_quote": "“Nor dare I think in years / Or move from leaps to bounds; / With God shut out, and self shut in / And selfish aims surround.”",
+        "suggested_fix": "Badili mistari ya mwisho ili ihifadhi maana ya kujifungia katika nafsi na kuzungukwa na malengo ya ubinafsi, bila kuongeza maana ya mwandishi kumwacha Mungu nje kimakusudi. Kwa mfano: “Wala sitathubutu kuwaza kwa miaka mingi / Au kuruka kutoka hatua moja kubwa hadi nyingine; / Mungu akiwa nje, nami nimejifungia ndani, / Na malengo ya ubinafsi yamenizunguka.”",
+        "translation_quote": "Wala sitathubutu kuwaza kwa miaka mingi / Au kuruka hatua kubwa; / Huku nikimwacha Mungu nje na kujifungia ndani yangu mwenyewe, / Nikiwa nimezungukwa na malengo ya ubinafsi."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

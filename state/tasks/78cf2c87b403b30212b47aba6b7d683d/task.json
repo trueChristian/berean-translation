@@ -2,7 +2,6 @@
   "article_id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 2152
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 496,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 470,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1524,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1521,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2020
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Poem, refrain, third line",
-      "severity": "major",
-      "source_quote": "Grace for the trials",
-      "suggested_fix": "χάρη μέσα στις δοκιμασίες",
-      "translation_quote": "χάρη στις δοκιμασίες"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "78cf2c87b403b30212b47aba6b7d683d",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ell",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f5647b7e6fa93ad07954ab0a3da6676a3d3e5e9185664021cd0049abc41f0391.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
   "translation_model_actual": "gpt-6-luna"

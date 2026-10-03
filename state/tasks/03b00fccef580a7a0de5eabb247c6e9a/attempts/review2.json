@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"I’ll walk with God—Today—\",\"suggested_fix\":\"Ik zal vandaag met God wandelen—\",\"translation_quote\":\"Ik wandel met God—vandaag—\"},{\"location\":\"HTML, first stanza, second line\",\"severity\":\"minor\",\"source_quote\":\"Tomorrow may not be.\",\"suggested_fix\":\"Morgen komt misschien niet.\",\"translation_quote\":\"Morgen is er misschien niet.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 460,
+    "content_evidence_truncated": false,
+    "content_sha256": "4d98e19bfd81caa120c66a179a1f123395ba2aa2dff9e719544dac926fefd28a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 725,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1900,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2754
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

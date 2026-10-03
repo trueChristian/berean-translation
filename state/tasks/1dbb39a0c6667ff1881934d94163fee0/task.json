@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,89 @@
         },
         "total_tokens": 16989
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html and translation.html, opening Scripture quotation, 1 Corinthians 13:4",
-      "severity": "major",
-      "source_quote": "“charity vaunteth not itself, is not puffed up”",
-      "suggested_fix": "Replace „die Liebe treibt nicht Mutwillen, sie bläht sich nicht auf“ with „die Liebe rühmt sich nicht, sie bläht sich nicht auf“, preserving the existing <em> tag and the rest of the quotation. The source distinguishes boasting from being puffed up.",
-      "translation_quote": "„die Liebe treibt nicht Mutwillen, sie bläht sich nicht auf“"
     },
     {
-      "location": "source.html and translation.html, opening Scripture quotation, 1 Corinthians 13:11",
-      "severity": "major",
-      "source_quote": "“I spake as a child, I understood as a child, I thought as a child”",
-      "suggested_fix": "Translate all three distinct actions in the existing quotation, for example: „redete wie ein Kind, verstand wie ein Kind und dachte wie ein Kind“; retain the surrounding <em> tag and quotation structure.",
-      "translation_quote": "„redete wie ein Kind und dachte wie ein Kind und war klug wie ein Kind“"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 947,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10987,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10984,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11934
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Artikeltext, Abschnitt 1. Geduld",
+      "severity": "major",
+      "source_quote": "That time will be shortened in perspective when a man of faith exemplifies a life of obedience and sacrifice in patience.",
+      "suggested_fix": "Ersetze den Satz durch: „Diese Zeit wird aus der Perspektive verkürzt, wenn ein Glaubensmann geduldig ein Leben des Gehorsams und der Opferbereitschaft vorlebt.“",
+      "translation_quote": "Diese Zeit wird aus der Perspektive kürzer, wenn ein Glaubensmann geduldig ein Leben des Gehorsams und der Aufopferung vorlebt."
+    },
+    {
+      "location": "Artikeltext, Abschnitt 4. Demut",
+      "severity": "major",
+      "source_quote": "Pride will destroy the work of God and it will destroy any effort to love my brother or sister.",
+      "suggested_fix": "Ersetze den Satz durch: „Hochmut wird Gottes Werk zerstören und jeden Versuch zunichtemachen, meinen Bruder oder meine Schwester zu lieben.“",
+      "translation_quote": "Hochmut wird Gottes Werk zerstören und jeden Versuch, meinen Bruder oder meine Schwester zu lieben."
+    },
+    {
+      "location": "Artikeltext, Abschnitt 7. Gutes Temperament",
+      "severity": "major",
+      "source_quote": "Few things unchristianize a good man than an evil temper.",
+      "suggested_fix": "Ersetze „bösartiges Temperament“ durch „bösen Jähzorn“; zum Beispiel: „Weniges lässt einen guten Menschen so unchristlich erscheinen wie böser Jähzorn.“",
+      "translation_quote": "Weniges lässt einen guten Menschen so unchristlich erscheinen wie ein bösartiges Temperament."
+    },
+    {
+      "location": "Artikeltext, Abschnitt 8. Die Fähigkeit, „nichts Böses zuzurechnen“",
+      "severity": "major",
+      "source_quote": "The quickest way to destroy love in marriage is to assume something negative about the motives of your spouse when only the Lord knows the heart.",
+      "suggested_fix": "Ersetze „deiner Ehefrau“ durch „deines Ehepartners“, damit der Satz dem geschlechtsneutralen „your spouse“ entspricht.",
+      "translation_quote": "Der schnellste Weg, die Liebe in einer Ehe zu zerstören, besteht darin, deiner Ehefrau negative Beweggründe zu unterstellen, obwohl nur der Herr das Herz kennt."
+    },
+    {
+      "location": "Artikeltext, Abschnitt 9. Aufrichtigkeit",
+      "severity": "major",
+      "source_quote": "A man who knows the love of Christ chooses the high road to make wrongs right.",
+      "suggested_fix": "Ersetze „den besseren Weg“ durch „den Weg der Größe“ oder „den vornehmen Weg“, zum Beispiel: „Ein Mann, der die Liebe Christi kennt, wählt den vornehmen Weg, um Unrecht wiedergutzumachen.“",
+      "translation_quote": "Ein Mann, der die Liebe Christi kennt, wählt den besseren Weg, um Unrecht wiedergutzumachen."
+    },
+    {
+      "location": "Artikeltext, Abschnitt 9. Aufrichtigkeit",
+      "severity": "major",
+      "source_quote": "Rejoicing in righteousness and thinking NO EVIL is a normal and final attitude of love.",
+      "suggested_fix": "Ersetze „Sich über die Gerechtigkeit zu freuen“ durch „Sich über die Wahrheit zu freuen“, entsprechend dem vorausgehenden Bibelzitat und dem Sinn von „righteousness“ im Kontext.",
+      "translation_quote": "Sich über die Gerechtigkeit zu freuen und NICHTS BÖSES ZUZURECHNEN ist eine normale und abschließende Haltung der Liebe."
+    },
+    {
+      "location": "Artikeltext, Unterabschnitt c.) Sie duldet alles, Bibelzitat",
+      "severity": "major",
+      "source_quote": "O give thanks unto the LORD; for he is good; for his mercy endureth for ever –1 Chronicles 16:34.",
+      "suggested_fix": "Gib das Zitat sinngemäß nach dem englischen Wortlaut wieder, etwa: „Danket dem HERRN; denn er ist gut, denn seine Gnade währt ewig –1. Chronik 16:34.“",
+      "translation_quote": "Danket dem HERRN; denn er ist freundlich, und seine Güte währet ewiglich –1. Chronik 16:34."
+    },
+    {
+      "location": "Titel und Untertitel",
+      "severity": "minor",
+      "source_quote": "This Thing Called Love / The greatest thing in the world",
+      "suggested_fix": "Ersetze den Untertitel durch „Das Größte in der Welt“, um „in the world“ wiederzugeben.",
+      "translation_quote": "Dieses Ding namens Liebe / Das Größte auf der Welt"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "1dbb39a0c6667ff1881934d94163fee0",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "deu",
@@ -172,13 +235,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

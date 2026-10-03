@@ -2,7 +2,6 @@
   "article_id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,32 +64,68 @@
         },
         "total_tokens": 2424
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML poem, refrain, final line",
-      "severity": "major",
-      "source_quote": "Unfailing kindness, undying love.",
-      "suggested_fix": "Vervang door: “Onophoudelijke goedheid, onvergankelijke liefde.”",
-      "translation_quote": "Onfeilbare goedheid, onsterfelijke liefde."
     },
     {
-      "location": "HTML poem, refrain, second line",
-      "severity": "minor",
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 371,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1433,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1430,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1804
+      }
+    }
+  ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Gedicht, strofe 1, regel 2",
+      "severity": "major",
+      "source_quote": "Flower-strewn pathways all our lives through;",
+      "suggested_fix": "Vervang de regel door: “Met bloemen bezaaide paden, heel ons leven lang;”",
+      "translation_quote": "Paden vol bloemen, ons hele leven lang;"
+    },
+    {
+      "location": "Gedicht, refrein, regel 1",
+      "severity": "major",
+      "source_quote": "But God has promised strength for the day,",
+      "suggested_fix": "Vervang de regel door: “Maar God heeft kracht beloofd voor de dag,”",
+      "translation_quote": "Maar God heeft kracht voor de dag beloofd,"
+    },
+    {
+      "location": "Gedicht, refrein, regel 2",
+      "severity": "major",
       "source_quote": "Rest for the labor, light for the way,",
-      "suggested_fix": "Vervang “Rust na het werk” door “Rust voor het werk” om het beeld van rust voor de inspanning te behouden.",
+      "suggested_fix": "Vervang de regel door: “Rust voor het werk, licht voor de weg,”",
       "translation_quote": "Rust na het werk, licht op de weg,"
     },
     {
-      "location": "HTML poem, stanza 2, second line",
-      "severity": "minor",
-      "source_quote": "Toil and temptation, trouble and woe;",
-      "suggested_fix": "Schrijf “zwoegen” met een kleine letter na de regelafbreking voor een natuurlijkere doorlopende zin.",
-      "translation_quote": "Zwoegen en verzoeking, tegenspoed en ellende zullen kennen;"
+      "location": "Gedicht, strofe 2, regel 1",
+      "severity": "major",
+      "source_quote": "God has not promised we shall not know",
+      "suggested_fix": "Vervang de regel door: “God heeft niet beloofd dat wij niet te maken zullen krijgen met”",
+      "translation_quote": "God heeft niet beloofd dat wij verschoond zullen blijven van"
+    },
+    {
+      "location": "Gedicht, strofe 3, regel 1",
+      "severity": "major",
+      "source_quote": "God has not promised smooth roads and wide,",
+      "suggested_fix": "Vervang de regel door: “God heeft geen gladde, brede wegen beloofd,”",
+      "translation_quote": "God heeft geen vlakke, brede wegen beloofd,"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "3643d105f1fb99ee994f8f8d0d911625",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nld",
@@ -179,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 75,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f5647b7e6fa93ad07954ab0a3da6676a3d3e5e9185664021cd0049abc41f0391.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
   "translation_model_actual": "gpt-6-luna"

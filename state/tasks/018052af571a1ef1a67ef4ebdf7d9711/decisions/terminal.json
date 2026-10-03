@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 2",
+      "severity": "minor",
+      "source_quote": "Mom had just returned from the produce auction in Lewisburg with some peaches.",
+      "suggested_fix": "Use a rendering that identifies the auction as a produce auction, such as: ”ماں ابھی ابھی لیوسبرگ کی پھلوں اور سبزیوں کی نیلامی سے کچھ آڑو لے کر واپس آئی تھیں۔“",
+      "translation_quote": "ماں ابھی ابھی لیوسبرگ میں پھلوں اور سبزیوں کی نیلامی سے کچھ آڑو لے کر واپس آئی تھیں۔"
+    },
+    {
+      "location": "HTML, paragraph 8",
+      "severity": "major",
+      "source_quote": "After devouring the peach, I scanned the dark interior of the barn for a good hiding place to put the peach stone.",
+      "suggested_fix": "Replace the opening clause with ”آڑو جلدی جلدی کھا جانے کے بعد“ or an equivalent that conveys devouring/eating eagerly.",
+      "translation_quote": "آڑو کھا چکنے کے بعد، میں آڑو کی گٹھلی چھپانے کی اچھی جگہ ڈھونڈنے کے لیے بارن کے تاریک اندرونی حصے پر نظر دوڑانے لگا۔"
+    },
+    {
+      "location": "HTML, paragraph 10",
+      "severity": "minor",
+      "source_quote": "Then I saw the culprit as it hovered over me trying to sting me again.",
+      "suggested_fix": "Clarify that the culprit is the yellow jacket: ”پھر میں نے اس بھڑ کو دیکھا جو میرے اوپر منڈلا رہی تھی اور دوبارہ ڈنک مارنے کی کوشش کر رہی تھی۔“",
+      "translation_quote": "پھر میں نے اس بھڑ کو دیکھ لیا جو میرے اوپر منڈلا رہی تھی اور دوبارہ ڈنک مارنے کی کوشش کر رہی تھی۔"
+    },
+    {
+      "location": "HTML, paragraph 11",
+      "severity": "major",
+      "source_quote": "That evening my forehead swelled like a balloon, making it difficult to look out of my eyes.",
+      "suggested_fix": "Revise to convey difficulty seeing, e.g. ”اس شام میری پیشانی غبارے کی طرح سوج گئی، جس سے دیکھنا مشکل ہو گیا۔“",
+      "translation_quote": "اس شام میری پیشانی غبارے کی طرح سوج گئی، جس سے میری آنکھوں سے دیکھنا مشکل ہو گیا۔"
+    },
+    {
+      "location": "HTML, paragraph 12",
+      "severity": "minor",
+      "source_quote": "I laid on the couch so that Mom could occasionally check up on me during the night.",
+      "suggested_fix": "Use a word for checking on his condition, such as ”میری خیریت دریافت کر سکیں“ rather than a phrasing that may imply only looking.",
+      "translation_quote": "میں صوفے پر لیٹ گیا تاکہ ماں رات کے دوران کبھی کبھار میری خیریت دیکھ سکیں۔"
+    },
+    {
+      "location": "HTML, paragraph 13",
+      "severity": "minor",
+      "source_quote": "After several agonizing hours, I gathered the courage to slide off the couch and tiptoed over to my parent’s bedroom.",
+      "suggested_fix": "For a more natural Urdu expression of tiptoeing, use ”دبے پاؤں چل کر“ in place of ”دبے پاؤں ... جانے“ if desired.",
+      "translation_quote": "میں نے صوفے سے اترنے اور دبے پاؤں اپنے والدین کے کمرے تک جانے کی ہمت جمع کی۔"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

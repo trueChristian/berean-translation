@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Matthew 11:28–30 quotation",
+      "severity": "major",
+      "source_quote": "“For my yoke is easy, and my burden is light”",
+      "suggested_fix": "Replace «For mitt åk er godt» with «For mitt åk er lett», preserving the rest of the quotation and its markup.",
+      "translation_quote": "«For mitt åk er godt og min byrde lett»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

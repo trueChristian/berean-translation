@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문, 6. 이타심 문단\",\"severity\":\"major\",\"source_quote\":\"Only for the great and noble purposes of divine love can we justify the waste of having given up that which we naturally perceive belongs to us by right.\",\"suggested_fix\":\"“본래 정당한 권리로 여기는 것을 포기하는 희생이 헛되지 않다고 정당화할 수 있는 것은 오직 신성한 사랑의 위대하고 고귀한 목적을 위해서입니다.”\",\"translation_quote\":\"신성한 사랑의 위대하고 고귀한 목적을 위해서만, 본래 내 권리라고 여겼던 것을 포기한 일이 헛된 것이라고 정당화할 수 있습니다.\"},{\"location\":\"본문, 5. 예의 문단\",\"severity\":\"major\",\"source_quote\":\"The groom’s brash boast was that his in-laws may as well get to know him sooner than later.\",\"suggested_fix\":\"“신랑은 장인·장모가 자신을 늦게 알기보다 차라리 일찍 알아두는 편이 낫다는 식으로 거칠게 큰소리쳤습니다.”\",\"translation_quote\":\"신랑은 장인·장모가 자신을 일찍 알게 되든 늦게 알게 되든 상관없다는 거친 자랑을 했습니다.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1184,
+    "content_evidence_truncated": false,
+    "content_sha256": "4462cb2a50781167b3f2c44a78df22a916687cb44d6f94687d5d3cacece492c1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1094,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 782,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11511,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12608
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

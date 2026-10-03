@@ -2,7 +2,6 @@
   "article_id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 3035
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "First stanza, second line",
-      "severity": "major",
-      "source_quote": "Tomorrow may not be.",
-      "suggested_fix": "מחר אולי לא יבוא.",
-      "translation_quote": "מחר אולי כבר לא אהיה."
     },
     {
-      "location": "Second poem section, first stanza, first two lines",
-      "severity": "major",
-      "source_quote": "“Boast not thyself,” I’m warned, / “Of what tomorrow brings;",
-      "suggested_fix": "״אל תתפאר במה שיביא המחר״, מזהירים אותי;",
-      "translation_quote": "״אל תתפאר בעצמך״, מזהירים אותי, / ״במה שיביא המחר;"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 664,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1972,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1969,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2636
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Second poem, first stanza",
+      "severity": "major",
+      "source_quote": "“Boast not thyself,” I’m warned,<br>“Of what tomorrow brings;",
+      "suggested_fix": "Replace the stanza’s first two lines with a single, non-repeated rendering of the warning, for example: <p>״הוזהרתי: אל תתפאר<br>\n    במה שיביא המחר;״</p>",
+      "translation_quote": "״אל תתפאר במה שיביא המחר״, מזהירים אותי,<br>\n    ״על מה שיביא המחר;"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "7759466851025bad09a6f02fabd7d339",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "heb",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dbc43587e58be8105de6efc8c64b115ee947e41513159ee085108212ce456b1b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
   "translation_model_actual": "gpt-6-luna"

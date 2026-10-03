@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "Small Things",
+      "suggested_fix": "Use conventional Dutch capitalization: “Kleine dingen”.",
+      "translation_quote": "Kleine dingen"
+    },
+    {
+      "location": "source.html, paragraph 3",
+      "severity": "major",
+      "source_quote": "Our fifth grader needs help with multiplying fractions.",
+      "suggested_fix": "Replace “Mijn kind in groep zeven” with “Mijn kind in groep vijf” (or another accurate Dutch equivalent for a fifth-grade child).",
+      "translation_quote": "Mijn kind in groep zeven heeft hulp nodig bij het vermenigvuldigen van breuken."
+    },
+    {
+      "location": "source.html, paragraph 4",
+      "severity": "major",
+      "source_quote": "It’s the only way I can express my faith as a living faith.",
+      "suggested_fix": "Translate “express” as expressing or giving expression to faith, for example: “Het is de enige manier waarop ik mijn geloof als levend geloof tot uiting kan brengen.”",
+      "translation_quote": "Het is de enige manier waarop ik mijn geloof als een levend geloof kan tonen."
+    },
+    {
+      "location": "source.html, paragraph 10",
+      "severity": "major",
+      "source_quote": "Sometimes it will happen sub-consciously, sometimes it happens if we decide to reach out instead of taking a nap or something else enjoyable",
+      "suggested_fix": "Clarify that “reach out” means reaching out to others, not merely going to meet someone; for example: “Soms gebeurt dat onbewust; soms wanneer we besluiten anderen de hand te reiken in plaats van een dutje te doen of iets anders aangenaams.”",
+      "translation_quote": "Soms gebeurt dat onbewust; soms gebeurt het wanneer we besluiten iemand tegemoet te komen in plaats van een dutje te doen of iets anders aangenaams te doen."
+    },
+    {
+      "location": "source.html, paragraph 12",
+      "severity": "major",
+      "source_quote": "that little bit of flour was all she had to give him.",
+      "suggested_fix": "Translate the source’s “give him” without adding the idea of feeding him; for example: “want zij was immers verantwoordelijk voor haar zoon en dat beetje meel was alles wat ze hem te geven had.”",
+      "translation_quote": "want zij was immers verantwoordelijk voor haar zoon en dat beetje meel was alles wat ze hem te eten kon geven."
+    },
+    {
+      "location": "source.html, paragraph 13",
+      "severity": "major",
+      "source_quote": "Normally, Gideon was accustomed to armies of thousands.",
+      "suggested_fix": "Remove the unsupported claim that Gideon himself was normally accustomed to large armies; retain the source’s contrast without assigning that experience to Gideon, for example: “Normaal gesproken bestonden legers uit duizenden mannen.”",
+      "translation_quote": "Gideon was gewoonlijk gewend aan legers van duizenden"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "16747cd9-a166-4bd5-bd30-cf4147bb046a",
+    "response_id": "chatcmpl-EUz3zeKJKMVLLxXPPtk7afRYsNiAg",
+    "usage": {
+      "completion_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 725,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1900,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2754
+    }
+  },
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first stanza, first line",
+        "severity": "minor",
+        "source_quote": "I’ll walk with God—Today—",
+        "suggested_fix": "Ik zal vandaag met God wandelen—",
+        "translation_quote": "Ik wandel met God—vandaag—"
+      },
+      {
+        "location": "HTML, first stanza, second line",
+        "severity": "minor",
+        "source_quote": "Tomorrow may not be.",
+        "suggested_fix": "Morgen komt misschien niet.",
+        "translation_quote": "Morgen is er misschien niet."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

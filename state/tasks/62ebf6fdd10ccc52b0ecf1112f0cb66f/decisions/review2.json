@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph about the widow of Zarephath",
+      "severity": "major",
+      "source_quote": "The widow of Zarephath agreed to give her last handful of flour and the last remaining drops of oil to a stranger.",
+      "suggested_fix": "Change «أن تعطي غريبًا آخر حفنة» to «أن تعطي غريبًا حفنتها الأخيرة» so the text says she gave it to a stranger, without adding that the stranger was another one.",
+      "translation_quote": "وافقت أرملة صرفة أن تعطي غريبًا آخر حفنة من الدقيق وآخر قطرات الزيت المتبقية لديها."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

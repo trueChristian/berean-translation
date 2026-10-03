@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Puisi, refrain pada bait-bait puisi; juga judul",
+      "severity": "major",
+      "source_quote": "“We can’t afford…”; title: “Things We Can’t Afford”",
+      "suggested_fix": "Terjemahkan gagasan refrain sebagai sesuatu yang tidak sanggup kita pertaruhkan atau tidak mampu kita tanggung akibatnya, bukan sebagai larangan umum. Sesuaikan tiap baris dengan konteksnya; misalnya judul dapat menjadi “Hal-Hal yang Tak Sanggup Kita Pertaruhkan”. Pada baris penutup, gunakan “hal-hal yang tak sanggup kita pertaruhkan” alih-alih “hal-hal yang tak boleh kami lakukan”.",
+      "translation_quote": "“Kita tak boleh…”; title: “Hal-Hal yang Tak Boleh Kita Lakukan”; penutup: “hal-hal yang tak boleh kami lakukan”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

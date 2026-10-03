@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d79ebccf-fe02-49c1-a2cd-023814aa60ca",
+    "response_id": "chatcmpl-EUz5doG43j38Qj4g6NNnk65YhSV7I",
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 659,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8793,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8790,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9643
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "The paragraph beginning “It is important to see…”",
+        "severity": "major",
+        "source_quote": "True biblical peace is intrinsically intertwined with the concept of peace, even in the midst of a chaotic world.",
+        "suggested_fix": "将“真正符合圣经的安息，与平安这一概念密不可分，即使身处混乱的世界也是如此。”改为“真正符合圣经的平安，与平安这一概念密不可分，即使身处混乱的世界也是如此。”这样保留原文印出的“peace”含义，而不是将其改成“rest”。",
+        "translation_quote": "真正符合圣经的安息，与平安这一概念密不可分，即使身处混乱的世界也是如此。"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

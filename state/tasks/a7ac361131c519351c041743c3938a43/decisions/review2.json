@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo que comienza «Esa noche»",
+      "severity": "minor",
+      "source_quote": "making it difficult to look out of my eyes.",
+      "suggested_fix": "Replace «y me costaba mirar con los ojos» with «lo que me dificultaba ver» to convey that the swelling made it hard to see.",
+      "translation_quote": "y me costaba mirar con los ojos"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

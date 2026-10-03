@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8ee51007-b7e7-4ead-8a65-f051d0a414cb",
+    "response_id": "chatcmpl-EUz9fLhewSL87Ug27RNvzaJa2vaWp",
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 703,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8720,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8717,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9527
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Gang-leader account, paragraph beginning “আমি পাশের গ্রামে…”",
+        "severity": "major",
+        "source_quote": "“I wanted God to save him.”",
+        "suggested_fix": "“আমি চেয়েছিলাম ঈশ্বর তাকে পরিত্রাণ দিন।”",
+        "translation_quote": "“আমি চেয়েছিলাম ঈশ্বর তাকে রক্ষা করুন।”"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

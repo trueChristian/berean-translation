@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "source.html, avsnitt 2",
+      "severity": "major",
+      "source_quote": "“Then suddenly, our labors were abruptly ended by burn-out and a host of government suspicions.”",
+      "suggested_fix": "Erstatt med «Så tok arbeidet vårt plutselig brått slutt på grunn av utbrenthet og en rekke mistanker fra myndighetene.» Kilden sier at arbeidet tok slutt på grunn av utbrenthet, ikke at det ble avsluttet av «utbrenthet».",
+      "translation_quote": "«Så ble arbeidet vårt plutselig brått avsluttet på grunn av utbrenthet og en rekke mistanker fra myndighetene.»"
+    },
+    {
+      "location": "source.html, avsnitt 3",
+      "severity": "major",
+      "source_quote": "“I wipe the baby’s nose for the umpteenth time as she sits on top of the table disrupting her brother’s books and papers.”",
+      "suggested_fix": "Endre «Jeg tørker babyen på nesen for tusende gang» til «Jeg tørker nesen til babyen for tusende gang».",
+      "translation_quote": "«Jeg tørker babyen på nesen for tusende gang»"
+    },
+    {
+      "location": "source.html, avsnitt 4",
+      "severity": "major",
+      "source_quote": "“It is He who designed that my spiritual walk and the propagation thereof happens as my hands touch the earthly.”",
+      "suggested_fix": "Endre «Det er han som har bestemt at min åndelige vandring og utbredelsen av den skjer når hendene mine berører det jordiske» til «Det er han som har lagt det slik til rette at min åndelige vandring og utbredelsen av evangeliet skjer når hendene mine berører det jordiske».",
+      "translation_quote": "«Det er han som har bestemt at min åndelige vandring og utbredelsen av den skjer når hendene mine berører det jordiske.»"
+    },
+    {
+      "location": "source.html, avsnitt 5",
+      "severity": "major",
+      "source_quote": "“But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty; And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are: That no flesh should glory in his presence –1 Corinthians 1:27-29.”",
+      "suggested_fix": "Bruk «1. Korinterbrev» som konvensjonelt boknavn og fjern den innskutte tankestreken foran referansen. For eksempel: «… for at ingen mennesker skal rose seg overfor Gud – 1. Korinterbrev 1:27-29.»",
+      "translation_quote": "«… for at ingen mennesker skal rose seg overfor Gud –1. Korinter 1:27-29.»"
+    },
+    {
+      "location": "source.html, avsnitt 7",
+      "severity": "major",
+      "source_quote": "“To have my heart set on accomplishments and success is a selfish way to live.”",
+      "suggested_fix": "Endre «Å være opptatt av prestasjoner og suksess er en egoistisk måte å leve på» til «Å ha hjertet innstilt på prestasjoner og suksess er en egoistisk måte å leve på.»",
+      "translation_quote": "«Å være opptatt av prestasjoner og suksess er en egoistisk måte å leve på.»"
+    },
+    {
+      "location": "source.html, avsnitt om Gideons hær",
+      "severity": "major",
+      "source_quote": "“Normally, Gideon was accustomed to armies of thousands. and now God was asking him to fight a momentous battle with only a few hundred.”",
+      "suggested_fix": "Endre «Vanligvis var Gideon vant til hærer på flere tusen. og nå ba Gud ham kjempe et avgjørende slag med bare noen få hundre» til «Gideon var vanligvis vant til hærer på flere tusen, men nå ba Gud ham kjempe et avgjørende slag med bare noen få hundre».",
+      "translation_quote": "«Vanligvis var Gideon vant til hærer på flere tusen. og nå ba Gud ham kjempe et avgjørende slag med bare noen få hundre.»"
+    },
+    {
+      "location": "source.html, kildeliste, punkt 5",
+      "severity": "major",
+      "source_quote": "“Luke 6:13-16, John 19”",
+      "suggested_fix": "Fjern anførselstegnene og bruk norske boknavn, med referansene uendret: «Lukas 6:13-16, Johannes 19».",
+      "translation_quote": "««Lukas 6:13-16, Johannes 19»»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

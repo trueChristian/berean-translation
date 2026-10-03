@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html، الاقتباس الافتتاحي من 1 كورنثوس 13:5، وأيضًا الفقرة التي تبدأ «المحبة تتأنى»\",\"severity\":\"major\",\"source_quote\":\"“thinketh no evil”\",\"suggested_fix\":\"ترجم العبارة في الاقتباسين بما يحفظ معنى عدم إضمار الشر أو سوء الظن، مثل «لا تظن السوء»، مع إبقاء مواضع الاقتباس وبنيته كما هي.\",\"translation_quote\":\"«ولا تظن السوء» في الاقتباس الافتتاحي، لكن الفقرة تقول «المحبة تفهم ذلك»؛ والعبارة المقابلة لـ “thinketh no evil” غير موجودة في شرح العناصر.\"},{\"location\":\"html، الاقتباس الكتابي من أمثال 16:18\",\"severity\":\"major\",\"source_quote\":\"“Pride goeth before destruction, and an haughty spirit before a fall”\",\"suggested_fix\":\"استبدل نص الآية بترجمة عربية أمينة لمعناها، مثل: «قبل الكسر الكبرياء، وقبل السقوط تشامخ الروح»، مع إبقاء وسم الفقرة والمرجع كما هما.\",\"translation_quote\":\"«قبل الكسر الكبرياء، وقبل السقوط تشامخ الروح.»\"},{\"location\":\"html، شرح الفقرة 7 «Good Temper»\",\"severity\":\"major\",\"source_quote\":\"“Few things unchristianize a good man than an evil temper.”\",\"suggested_fix\":\"صحح العبارة لتفيد أن سوء الطبع من أكثر الأمور التي تجعل الرجل الصالح غير مسيحي السلوك، مثل: «قلّما يوجد ما يجعل الرجل الصالح يتصرف على نحو غير مسيحي أكثر من سوء الطبع».\",\"translation_quote\":\"«قلما يوجد ما يجعل الرجل الصالح أقل مسيحية من سوء الطبع.»\"},{\"location\":\"html، الفقرة 7، الجملة الختامية\",\"severity\":\"major\",\"source_quote\":\"“To be tempered by the power of God is a normal attitude of love.”\",\"suggested_fix\":\"ترجم معنى أن يتشكل الطبع أو يُضبط بسلطان الله؛ مثل: «أن يُهذَّب طبعنا بسلطان الله سمة معتادة للمحبة».\",\"translation_quote\":\"«أن يضبطنا سلطان الله هو سمة معتادة للمحبة.»\"},{\"location\":\"html، الفقرة التي تبدأ «A man who knows the love of Christ»\",\"severity\":\"major\",\"source_quote\":\"“A man who knows the love of Christ chooses the high road to make wrongs right.”\",\"suggested_fix\":\"اجعل المقصود اختيار الطريق الأسمى لإصلاح المظالم أو تصحيح الخطأ، لا مجرد إصلاح الأخطاء؛ مثل: «يختار الطريق الأسمى ليردّ المظالم إلى نصابها».\",\"translation_quote\":\"«الرجل الذي يعرف محبة المسيح يختار الطريق الأسمى ليصلح الأخطاء.»\"},{\"location\":\"html، الفقرة التي تبدأ «Love and trust go hand in hand»\",\"severity\":\"major\",\"source_quote\":\"“I can safely reach out in sincerity to those who have entered into the realm of influence.”\",\"suggested_fix\":\"احفظ معنى المبادرة بصدق نحو الأشخاص الذين دخلوا نطاق تأثير المتكلم، من دون إضافة معنى الأمان؛ مثل: «أستطيع أن أبادر بصدق نحو الذين دخلوا نطاق تأثيري».\",\"translation_quote\":\"«أستطيع أن أتوجه بإخلاص وأمان إلى الذين دخلوا نطاق تأثيري.»\"},{\"location\":\"html، الآية المقتبسة من 1 أخبار الأيام 16:34\",\"severity\":\"major\",\"source_quote\":\"“O give thanks unto the LORD; for he is good; for his mercy endureth for ever”\",\"suggested_fix\":\"أضف الأمر الافتتاحي بتقديم الشكر، مع الحفاظ على المرجع: «احمدوا الرب، لأنه صالح، لأن إلى الأبد رحمته».\",\"translation_quote\":\"«احمدوا الرب لأنه صالح، لأن إلى الأبد رحمته.»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 4208,
+    "content_evidence_truncated": false,
+    "content_sha256": "cea23fc0c9d0971a1397bb117d87ce7d4bddec98828c44b3baf6897c620c9c6d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10857,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11731
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

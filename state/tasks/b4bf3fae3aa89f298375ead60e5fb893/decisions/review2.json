@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, lines 9–10",
+      "severity": "major",
+      "source_quote": "We can’t afford with serious heed to treat the cynic’s sneer;<br>We can’t afford to wise men’s words to turn a careless ear.",
+      "suggested_fix": "Заменить эти две строки на: «Мы не можем позволить себе всерьёз прислушиваться к насмешкам циника;<br>Мы не можем позволить себе беспечно пропускать мимо ушей слова мудрых.»",
+      "translation_quote": "Мы не можем себе позволить всерьёз внимать насмешкам циника;<br>Мы не можем себе позволить беспечно пропускать мимо ушей слова мудрых."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

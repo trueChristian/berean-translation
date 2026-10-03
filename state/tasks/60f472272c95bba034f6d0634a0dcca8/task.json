@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,82 @@
         },
         "total_tokens": 13559
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Heading «…Ridimensiona le nostre ambizioni»",
-      "severity": "minor",
-      "source_quote": "…Humbles Our Pursuits",
-      "suggested_fix": "Sostituire con «…Umilia le nostre aspirazioni» per conservare il senso di “humbles” invece di attenuarlo in «ridimensiona».",
-      "translation_quote": "…Ridimensiona le nostre ambizioni"
     },
     {
-      "location": "Paragrafo sotto «…Santifica le nostre prove», citazione di Romani 8:24",
-      "severity": "major",
-      "source_quote": "For we are saved by hope: but hope that is seen is not hope... –Romans 8:24.",
-      "suggested_fix": "Correggere la citazione in «Poiché siamo stati salvati in speranza; ma la speranza che si vede non è speranza... –Romani 8:24.» Rimuovere «ora» e rendere «hope that is seen» come «la speranza che si vede», non «una speranza di ciò che si vede».",
-      "translation_quote": "Poiché siamo stati salvati in speranza; ora, una speranza di ciò che si vede non è speranza... –Romani 8:24."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1079,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8734,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8731,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9813
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragrafo iniziale sulla figlia di Giacobbe",
+      "severity": "major",
+      "source_quote": "There, she was exposed to the heathen young men of the land and occasioned a bloody massacre, leaving Jacob as a stench in the land.",
+      "suggested_fix": "Sostituire «Là fu esposta ai giovani pagani del paese e provocò un massacro sanguinoso, lasciando Giacobbe come un fetore nel paese» con «Là fu esposta ai giovani pagani del paese, e ciò provocò un massacro sanguinoso, lasciando Giacobbe come un fetore nel paese», così da non attribuire a Dina stessa la causa del massacro.",
+      "translation_quote": "Là fu esposta ai giovani pagani del paese e provocò un massacro sanguinoso, lasciando Giacobbe come un fetore nel paese."
+    },
+    {
+      "location": "HTML, paragrafo sul Salmo 110",
+      "severity": "major",
+      "source_quote": "Psalm 110 is perhaps the most referred-to scripture in the Old Testament.",
+      "suggested_fix": "Sostituire «Il Salmo 110 è forse il passo più citato dell’Antico Testamento» con «Il Salmo 110 è forse il passo dell’Antico Testamento a cui si fa più spesso riferimento».",
+      "translation_quote": "Il Salmo 110 è forse il passo più citato dell’Antico Testamento."
+    },
+    {
+      "location": "HTML, paragrafo sulla rugiada e la natura",
+      "severity": "major",
+      "source_quote": "The nature of dew belongs to the terrestrial, where everyone who will but stoop to observe it will behold a uniformed regiment of grass sparkling as if embedded with a myriad of diamonds.",
+      "suggested_fix": "Sostituire «La rugiada appartiene alla natura terrestre, dove chiunque si chini a osservarla vedrà un reggimento uniforme d’erba scintillare come se fosse incastonato di miriadi di diamanti» con «La rugiada appartiene al mondo terreno, dove chiunque si chini a osservarla vedrà un reggimento d’erba in uniforme scintillare come se fosse incastonato di miriadi di diamanti».",
+      "translation_quote": "La rugiada appartiene alla natura terrestre, dove chiunque si chini a osservarla vedrà un reggimento uniforme d’erba scintillare come se fosse incastonato di miriadi di diamanti."
+    },
+    {
+      "location": "HTML, paragrafo sull’esperienza e la speranza",
+      "severity": "major",
+      "source_quote": "Outside of Christ, a sour experience always tends to pessimism.",
+      "suggested_fix": "Sostituire «Al di fuori di Cristo, un’esperienza amara conduce sempre al pessimismo» con «Al di fuori di Cristo, un’esperienza amara tende sempre al pessimismo», preservando la qualificazione di tendenza presente nell’originale.",
+      "translation_quote": "Al di fuori di Cristo, un’esperienza amara conduce sempre al pessimismo."
+    },
+    {
+      "location": "HTML, paragrafo sull’uomo di Betesda",
+      "severity": "major",
+      "source_quote": "Upon the wake of his new day, a new remedy was given to him—… Behold, thou art made whole: sin no more, lest a worse thing come unto thee –John 5:14.",
+      "suggested_fix": "Sostituire «All’alba della sua nuova vita gli fu offerto un nuovo rimedio» con «Al risveglio del suo nuovo giorno gli fu dato un nuovo rimedio», mantenendo l’immagine originale senza introdurre l’idea di una nuova vita.",
+      "translation_quote": "All’alba della sua nuova vita gli fu offerto un nuovo rimedio:"
+    },
+    {
+      "location": "HTML, paragrafo sull’uomo di Betesda",
+      "severity": "major",
+      "source_quote": "Age sets in when we have more memories of the past than hope for tomorrow.",
+      "suggested_fix": "Sostituire «La vecchiaia si instaura quando abbiamo più ricordi del passato che speranze per il domani» con «L’età avanza quando abbiamo più ricordi del passato che speranza per il domani».",
+      "translation_quote": "La vecchiaia si instaura quando abbiamo più ricordi del passato che speranze per il domani."
+    },
+    {
+      "location": "HTML, paragrafo sulla speranza e il dolore di Giobbe",
+      "severity": "major",
+      "source_quote": "But before his pain had received an ounce of retribution, the healing streams began to flow as Job reverenced his Creator.",
+      "suggested_fix": "Sostituire «Ma prima che il suo dolore ricevesse anche solo un briciolo di ricompensa» con «Ma prima che il suo dolore fosse ripagato anche solo in minima parte», per rendere il senso di retribuzione o compensazione senza suggerire una ricompensa concessa al dolore.",
+      "translation_quote": "Ma prima che il suo dolore ricevesse anche solo un briciolo di ricompensa, i flussi di guarigione cominciarono a scorrere quando Giobbe rese riverenza al suo Creatore."
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "60f472272c95bba034f6d0634a0dcca8",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ita",
@@ -172,13 +228,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 83,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

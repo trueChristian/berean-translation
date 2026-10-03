@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"正文，耶稣拣选十二人的段落\",\"severity\":\"minor\",\"source_quote\":\"Jesus chose only twelve men to disciple, instead of the crowds.\",\"suggested_fix\":\"将“耶稣选择了十二个人来教导”改为“耶稣只拣选了十二个人来训练他们作门徒”，以保留“门徒训练”的意思。\",\"translation_quote\":\"耶稣选择了十二个人来教导，而不是选择群众。\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 452,
+    "content_evidence_truncated": false,
+    "content_sha256": "1f4702ce4e2a9d180db2c0607f92d8880bf40c0ef59cad95c010b96eddfa84d4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 528,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5346,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6016
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

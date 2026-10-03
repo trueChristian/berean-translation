@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,46 +64,40 @@
         },
         "total_tokens": 14961
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 714,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 487,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9221,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9218,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9935
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "ابتدائی پیراگراف، ضال بھائی کی مثال",
+      "location": "HTML, paragraph beginning “It is not that life grows poorer”; quotation of John 6:27",
       "severity": "major",
-      "source_quote": "It was a the younger prodigal brother that asked for an early draw on his inheritance then went and wasted it on riotous living.",
-      "suggested_fix": "Translate the younger brother as the younger son of the parable, e.g. «وہ اَڑیل بیٹے کا چھوٹا بھائی تھا جس نے…» is not appropriate; use «اِس تمثیل کا چھوٹا بیٹا ہی تھا جس نے اپنی میراث میں سے اپنا حصہ پہلے ہی مانگا، پھر جا کر اُسے عیاشی میں اڑا دیا۔»",
-      "translation_quote": "چھوٹا اَور بےقابو بیٹا ہی تھا جس نے اپنی میراث میں سے حصہ وقت سے پہلے مانگا، پھر جا کر اسے عیاشی میں اڑا دیا۔"
-    },
-    {
-      "location": "ابتدائی پیراگراف، دینہ کے واقعے کا نتیجہ",
-      "severity": "major",
-      "source_quote": "There, she was exposed to the heathen young men of the land and occasioned a bloody massacre, leaving Jacob as a stench in the land.",
-      "suggested_fix": "Make clear that the episode brought about a bloody massacre and left Jacob disgraced/abhorred in the land, e.g. «وہاں اُس کا واسطہ ملک کے بت پرست نوجوانوں سے پڑا، اور اُس کے نتیجے میں خونریز قتلِ عام ہوا، جس سے یعقوب ملک میں بدنام ہو گیا۔»",
-      "translation_quote": "وہاں اس کا واسطہ ملک کے بت پرست نوجوانوں سے پڑا، جس کے نتیجے میں خونریز قتلِ عام ہوا اور یعقوب ملک میں بدبو کی مانند ہو گیا۔"
-    },
-    {
-      "location": "حوالہ 1 تیمتھیس 4:12 کا اقتباس",
-      "severity": "major",
-      "source_quote": "Let no man despise thy youth; but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity –1 Timothy 4:12.",
-      "suggested_fix": "Restore the omitted quality «in spirit» in the translated list, e.g. «کلام، چال چلن، محبت، روح، ایمان اور پاکیزگی میں»۔",
-      "translation_quote": "کلام، چال چلن، محبت، روح، ایمان اور پاکیزگی میں ایمانداروں کے لیے نمونہ بن"
-    },
-    {
-      "location": "آخری پیراگراف، آسمان کی دہلیز پر پہنچنے والے کی وضاحت",
-      "severity": "major",
-      "source_quote": "Blessed is the venerable saint who arrives at the portals of heaven in such a condition.",
-      "suggested_fix": "Render «venerable saint» as a revered/venerable saint, not merely a respectable holy person; for example: «مبارک ہے وہ قابلِ احترام بزرگ مقدس جو ایسی حالت میں آسمان کے دروازوں تک پہنچتا ہے۔»",
-      "translation_quote": "وہ قابلِ احترام مقدس مبارک ہے جو ایسی حالت میں آسمان کے دروازوں تک پہنچتا ہے۔"
-    },
-    {
-      "location": "عنوان، ذیلی عنوان «...Thou hast the dew of thy youth»",
-      "severity": "minor",
-      "source_quote": "Thou hast the dew of thy youth. Psalm 110:3 / ...Thou hast the dew of thy youth",
-      "suggested_fix": "Correct the ungrammatical possessive construction consistently, e.g. «تیرے پاس تیری جوانی کی شبنم ہے» (and use the corresponding construction in the heading).",
-      "translation_quote": "تیرے جوانی کے شبنم ہے۔ زبور 110:3 / ...تیرے جوانی کے شبنم ہے"
+      "source_quote": "Christ labored <em>…not for the meat which perisheth, but for that meat which endureth unto everlasting life… –John 6:27</em>",
+      "suggested_fix": "Replace only the quoted clause with a faithful Urdu rendering of Christ’s action, preserving the existing <em> tags and reference: <em>…نے اُس خوراک کے لیے محنت کی جو فنا ہوتی ہے نہیں، بلکہ اُس خوراک کے لیے جو ہمیشہ کی زندگی تک باقی رہتی ہے…—یوحنا 6:27</em>.",
+      "translation_quote": "مسیح نے <em>…اُس خوراک کے لیے محنت کرنے کو کہا جو فنا ہوتی ہے نہیں، بلکہ اُس خوراک کے لیے جو ہمیشہ کی زندگی تک باقی رہتی ہے…—یوحنا 6:27</em>"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "742a8fdffedb7cf9565ffaa3f97d21a2",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "urd",
@@ -193,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 83,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

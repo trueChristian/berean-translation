@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 17857
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1094,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 782,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11514,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11511,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12608
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "본문, “b.) 사랑은 모든 것을 바랍니다” 아래 로마서 5:5 인용문",
+      "location": "본문, 6. 이타심 문단",
       "severity": "major",
-      "source_quote": "And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us –Romans 5:5.",
-      "suggested_fix": "인용문을 다음과 같이 수정해 빠진 앞부분을 포함해 주세요: <em>소망이 우리를 부끄럽게 하지 아니함은 우리에게 주신 성령으로 말미암아 하나님의 사랑이 우리 마음에 부은 바 됨이라 –로마서 5:5.</em>",
-      "translation_quote": "<em>우리에게 주신 성령으로 말미암아 하나님의 사랑이 우리 마음에 부은 바 되었느니라 –로마서 5:5.</em>"
+      "source_quote": "Only for the great and noble purposes of divine love can we justify the waste of having given up that which we naturally perceive belongs to us by right.",
+      "suggested_fix": "“본래 정당한 권리로 여기는 것을 포기하는 희생이 헛되지 않다고 정당화할 수 있는 것은 오직 신성한 사랑의 위대하고 고귀한 목적을 위해서입니다.”",
+      "translation_quote": "신성한 사랑의 위대하고 고귀한 목적을 위해서만, 본래 내 권리라고 여겼던 것을 포기한 일이 헛된 것이라고 정당화할 수 있습니다."
+    },
+    {
+      "location": "본문, 5. 예의 문단",
+      "severity": "major",
+      "source_quote": "The groom’s brash boast was that his in-laws may as well get to know him sooner than later.",
+      "suggested_fix": "“신랑은 장인·장모가 자신을 늦게 알기보다 차라리 일찍 알아두는 편이 낫다는 식으로 거칠게 큰소리쳤습니다.”",
+      "translation_quote": "신랑은 장인·장모가 자신을 일찍 알게 되든 늦게 알게 되든 상관없다는 거친 자랑을 했습니다."
     }
   ],
+  "finished_at": "2026-10-03T21:15:37+00:00",
   "id": "de6bce70b93f81b5968f0c875c421c6e",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "kor",
@@ -171,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

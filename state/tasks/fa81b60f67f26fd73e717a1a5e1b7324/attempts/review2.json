@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"ধুয়া, তৃতীয় পঙ্‌ক্তি\",\"severity\":\"minor\",\"source_quote\":\"Grace for the trials\",\"suggested_fix\":\"“পরীক্ষার সময় অনুগ্রহ” লিখুন, যাতে এখানে জীবনের কঠিন পরীক্ষা বা প্রতিকূলতার অর্থটি স্পষ্ট হয়।\",\"translation_quote\":\"পরীক্ষার জন্য অনুগ্রহ\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 530,
+    "content_evidence_truncated": false,
+    "content_sha256": "28277e1afbb0fe77f6118da1b89d47e9896793872a64a55fa4aacd66518268bc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 539,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 436,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1533,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2075
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

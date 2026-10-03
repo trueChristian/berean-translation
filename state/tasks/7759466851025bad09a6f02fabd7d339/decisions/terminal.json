@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Second poem, first stanza",
+      "severity": "major",
+      "source_quote": "“Boast not thyself,” I’m warned,<br>“Of what tomorrow brings;",
+      "suggested_fix": "Replace the stanza’s first two lines with a single, non-repeated rendering of the warning, for example: <p>״הוזהרתי: אל תתפאר<br>\n    במה שיביא המחר;״</p>",
+      "translation_quote": "״אל תתפאר במה שיביא המחר״, מזהירים אותי,<br>\n    ״על מה שיביא המחר;"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "43ad5590-c177-4a7f-b08b-415bd22d0c35",
+    "response_id": "chatcmpl-EUz9LutunFp1E2f8LdOMVfm7m32ON",
+    "usage": {
+      "completion_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 596,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9141,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9138,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9984
+    }
+  },
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning «Важно понимать, что новозаветное представление об отдыхе…»",
+        "severity": "major",
+        "source_quote": "True biblical peace is intrinsically intertwined with the concept of peace, even in the midst of a chaotic world.",
+        "suggested_fix": "Заменить «Истинный библейский мир неразрывно связан с понятием покоя» на «Истинный библейский мир неразрывно связан с понятием мира», сохранив остальную часть предложения.",
+        "translation_quote": "Истинный библейский мир неразрывно связан с понятием покоя, даже посреди хаотичного мира."
+      },
+      {
+        "location": "HTML paragraph «„О, — сонно ответил я.»",
+        "severity": "minor",
+        "source_quote": "“Oh,” I said sleepily.",
+        "suggested_fix": "Добавить закрывающую кавычку в конце реплики: «О, — сонно ответил я».",
+        "translation_quote": "«О, — сонно ответил я."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

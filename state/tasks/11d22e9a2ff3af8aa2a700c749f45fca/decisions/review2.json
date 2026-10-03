@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «I Josva, kapittel 6»",
+      "severity": "major",
+      "source_quote": "“God tells Joshua and all the men of war to compass the city, and walk around it once every day, for six days.”",
+      "suggested_fix": "Bytt «at de skal gå rundt byen én gang hver dag i seks dager» med «at de skal gå rundt byen én gang om dagen i seks dager»; slik blir det tydelig at dette er én runde per dag.",
+      "translation_quote": "«Gud sier til Josva og alle krigsmennene at de skal gå rundt byen én gang hver dag i seks dager.»"
+    },
+    {
+      "location": "HTML, avsnittet etter beretningen om Ai",
+      "severity": "major",
+      "source_quote": "“They did many wonderful things, they destroyed all their enemies around them, and they lived in COMPLETE victory.”",
+      "suggested_fix": "Bytt «De gjorde mange vidunderlige ting» med «De utførte mange storslagne gjerninger».",
+      "translation_quote": "«De gjorde mange vidunderlige ting, ødela alle fiendene omkring seg og levde i FULLSTENDIG seier.»"
+    },
+    {
+      "location": "HTML, avsnittet om kirkene som glir inn i verden",
+      "severity": "major",
+      "source_quote": "“They gradually let go of convictions and allow some new fashion and pomp of the world to enter.”",
+      "suggested_fix": "Bytt «nye moter og verdens pomp og prakt» med «en ny mote og verdens pomp og prakt».",
+      "translation_quote": "«De gir gradvis slipp på overbevisningene sine og lar nye moter og verdens pomp og prakt komme inn.»"
+    },
+    {
+      "location": "HTML, avsnittet om den velstående haitiske mannen",
+      "severity": "major",
+      "source_quote": "“I asked him why not.”",
+      "suggested_fix": "Bytt «Jeg spurte ham hvorfor ikke» med «Jeg spurte ham hvorfor han ikke ønsket å bli kristen».",
+      "translation_quote": "«Jeg spurte ham hvorfor ikke.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Наши тела обречены на могилу»\",\"severity\":\"major\",\"source_quote\":\"The impotent man of 38 years at Bethesda could only utter a hopeless complaint\",\"suggested_fix\":\"Заменить «Расслабленный, пролежавший 38 лет у Вифезды» на «Человек, страдавший недугом 38 лет у купальни Вифезда» — это передаёт, что 38 лет длился его недуг, а не пребывание у купальни.\",\"translation_quote\":\"Расслабленный, пролежавший 38 лет у Вифезды\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 706,
+    "content_evidence_truncated": false,
+    "content_sha256": "4748690ab0b3191662f97b482b7e5224758cdc80329941645a44f24345854530",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 636,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8728,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8725,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9532
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

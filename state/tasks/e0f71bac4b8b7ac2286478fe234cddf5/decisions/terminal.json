@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, third paragraph",
+      "severity": "minor",
+      "source_quote": "Since then, humans have been at war, both within their own hearts and without, with other folks.",
+      "suggested_fix": "Ända sedan dess har människor befunnit sig i krig, både i sina egna hjärtan och med andra människor.",
+      "translation_quote": "Ända sedan dess har människor befunnit sig i krig, både i sina egna hjärtan och utåt, med andra människor."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

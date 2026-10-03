@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,53 +64,82 @@
         },
         "total_tokens": 12829
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 879,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7889,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7886,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8768
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "الفقرة عن عخان وانتصار عاي",
+      "location": "الفقرة التي تبدأ «في يشوع، الإصحاح 6»",
       "severity": "major",
-      "source_quote": "“However, the men of Ai smote the children of Israel and chased them away.”",
-      "suggested_fix": "استبدل «لكن رجال عاي ضربوا بني إسرائيل وطردوهم» بـ«لكن رجال عاي هزموا بني إسرائيل وطاردوهم»؛ فـ«smote» هنا تعني هزموهم، لا مجرد ضربهم.",
-      "translation_quote": "لكن رجال عاي ضربوا بني إسرائيل وطردوهم."
+      "source_quote": "God tells Joshua and all the men of war to compass the city, and walk around it once every day, for six days.",
+      "suggested_fix": "استبدل «بأن يطوفوا بالمدينة، ويدوروا حولها مرة كل يوم» بـ«بأن يطوفوا حول المدينة مرة واحدة كل يوم»؛ فالنص العربي الحالي يحوّل طوافًا واحدًا حولها إلى فعلين منفصلين.",
+      "translation_quote": "أن يطوفوا بالمدينة، ويدوروا حولها مرة كل يوم"
     },
     {
-      "location": "الفقرة عن البرص، لاويين 13 و14",
+      "location": "الفقرة التي تبدأ «بعد هذا النصر العظيم»",
       "severity": "major",
-      "source_quote": "“Leprosy was a strange disease. If one were to get leprosy, it was easily spread.”",
-      "suggested_fix": "استبدل «فإذا أُصيب أحد بالبرص، انتقل المرض بسهولة» بـ«فإذا أُصيب أحد بالبرص، كان المرض ينتشر بسهولة»؛ فالنص يصف انتشار المرض، لا انتقاله إلى شخص بعينه.",
-      "translation_quote": "فإذا أُصيب أحد بالبرص، انتقل المرض بسهولة."
+      "source_quote": "The men returned and told Joshua not to send all the men to Ai, for there were only a few defenders protecting the city.",
+      "suggested_fix": "استبدل «إذ لم يكن فيها سوى عدد قليل من المدافعين عن المدينة» بـ«لأن المدينة لا تحتاج إلا إلى رجلين أو ثلاثة آلاف»؟ لا؛ حافظ على المصدر كما هو: «لأن عدد المدافعين عن المدينة كان قليلًا».",
+      "translation_quote": "إذ لم يكن فيها سوى عدد قليل من المدافعين عن المدينة"
     },
     {
-      "location": "الفقرة التي تبدأ «لنفترض أنك سمعت...»",
+      "location": "الفقرة التي تبدأ «في العهد القديم، غالبًا ما يكون بنو إسرائيل»",
       "severity": "major",
-      "source_quote": "“Then you’re sitting in church on Sunday morning, when the doors open, and a man enters with skin and flesh hanging from his extremities. He is badly infected, but he does not seem to know it.”",
-      "suggested_fix": "استبدل «يدخل رجل يتدلى اللحم والجلد من أطرافه. إنه مصاب بالمرض بشدة» بـ«يدخل رجل يتدلى الجلد واللحم من أطرافه. إنه مصاب بالبرص بشدة»؛ فـ«infected» هنا يحيل بوضوح إلى البرص المذكور في السياق.",
-      "translation_quote": "يدخل رجل يتدلى اللحم والجلد من أطرافه. إنه مصاب بالمرض بشدة."
+      "source_quote": "When there was no sin in the camp (or in the church) God’s people had complete victory; they lost not one.",
+      "suggested_fix": "استبدل «ولم يفقدوا رجلًا واحدًا» بـ«ولم يُهزموا قط»؟ لا، الأدق: «ولم يخسروا واحدًا»؛ إذ تعود عبارة المصدر إلى عدم فقدان أيٍّ منهم.",
+      "translation_quote": "ولم يفقدوا رجلًا واحدًا"
     },
     {
-      "location": "الفقرة عن الواعظ والخطية",
+      "location": "الفقرة التي تبدأ «لنفترض أنك سمعت»",
       "severity": "major",
-      "source_quote": "“Jesus came to save us from ALL sin; ALL unrighteousness.”",
-      "suggested_fix": "استبدل «لقد جاء يسوع ليخلّصنا من كل خطية؛ ومن كل إثم» بـ«لقد جاء يسوع ليخلّصنا من كل خطية؛ ومن كل إثم» مع إبراز «كل» في الموضعين، مثل «كُلِّ خطية» و«كُلِّ إثم»، للحفاظ على تشديد المصدر الصريح على ALL.",
-      "translation_quote": "لقد جاء يسوع ليخلّصنا من كل خطية؛ ومن كل إثم."
+      "source_quote": "This flesh-destroying disease had made a comeback and many from your village were now infected.",
+      "suggested_fix": "استبدل «وأصيب به الآن كثيرون من أهل قريتك» بـ«وكان كثيرون من أهل قريتك قد أُصيبوا به من جديد»؛ فصيغة النص الحالي لا تنقل معنى عودة المرض.",
+      "translation_quote": "وأصيب به الآن كثيرون من أهل قريتك"
     },
     {
-      "location": "الفقرة عن الرجل الهايتي الثري",
+      "location": "الفقرة التي تبدأ «كنت أعمل عن قرب مع زعيم عصابة»",
       "severity": "major",
-      "source_quote": "“I have desired to become a Christian, I’ve gone to all the churches around here, but I don’t feel they have anything to offer me.”",
-      "suggested_fix": "استبدل «ذهبت إلى كل الكنائس حول هنا» بـ«ذهبت إلى جميع الكنائس في هذه المنطقة»؛ فالمصدر يقول إنه زار الكنائس المحلية كلها، لا مجرد كنائس «حول هنا» بصياغة مبهمة.",
-      "translation_quote": "لطالما رغبت في أن أصبح مسيحيًا، وذهبت إلى كل الكنائس حول هنا، لكنني لا أشعر أن لديها ما تقدمه لي."
+      "source_quote": "He seemed very sober as I continued",
+      "suggested_fix": "استبدل «بدا عليه أنه رصين جدًا» بـ«بدا رزينًا جدًا» أو «بدا متماسكًا جدًا»؛ فـ«رصين» هنا لا تنقل بوضوح معنى أنه كان متيقظًا وغير مخمور.",
+      "translation_quote": "بدا عليه أنه رصين جدًا"
     },
     {
-      "location": "الفقرة عن زعيم العصابة، حديثه عن قتل الله",
+      "location": "الفقرة التي تبدأ «وبينما كنا لا نزال نتحدث»",
       "severity": "major",
-      "source_quote": "“That is fine; tell God to come down here, and I’ll cut off His head.”",
-      "suggested_fix": "استبدل «قل لله أن ينزل إلى هنا، وسأقطع رأسه» بـ«قل لله أن ينزل إلى هنا، وسأقطع رأسه» مع ضبط «لله» بوصفها خطابًا مباشرًا: «قُلْ للهِ أن ينزل إلى هنا...»؛ النص العربي الحالي يحافظ على المعنى، لكن الضبط وحده لا يغيّر المعنى.",
-      "translation_quote": "«لا بأس؛ قل لله أن ينزل إلى هنا، وسأقطع رأسه»."
+      "source_quote": "I was pleading, pleading for his soul.",
+      "suggested_fix": "استبدل «كنت أتوسل إليه، أتوسل من أجل نفسه» بـ«كنت أتوسل إليه، أتوسل من أجل خلاص نفسه»؛ فـ«نفسه» وحدها لا توضح المقصود الروحي الوارد في السياق.",
+      "translation_quote": "كنت أتوسل إليه، أتوسل من أجل نفسه"
+    },
+    {
+      "location": "الفقرة التي تبدأ «عندما نصرخ إلى الله طالبين الخلاص»",
+      "severity": "major",
+      "source_quote": "When we call out to God for salvation, we are doing so because we know we need to be saved; converted.",
+      "suggested_fix": "استبدل «بحاجة إلى أن نُخلَّص؛ وأن نتغير» بـ«بحاجة إلى أن نُخلَّص؛ أي أن نتجدد»؛ فالمصدر يصرّح بالتحول/التوبة المسيحية، لا بمجرد التغيير العام.",
+      "translation_quote": "بحاجة إلى أن نُخلَّص؛ وأن نتغير"
     }
   ],
+  "finished_at": "2026-10-03T21:15:37+00:00",
   "id": "e7ffcecba70f8e5623a8255f8b1f81fe",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ara",
@@ -200,13 +228,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

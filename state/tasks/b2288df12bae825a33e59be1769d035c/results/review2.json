@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "615d2237-0047-48c3-bb1f-d2bc6dd6351a",
+    "response_id": "chatcmpl-EUz4GSDLSJJNumWqdhhByGoVJLBau",
+    "usage": {
+      "completion_tokens": 408,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10388,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10385,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10796
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, παράγραφος που αρχίζει «Όμως οι νέοι δεν προορίζονται…»",
+        "severity": "major",
+        "source_quote": "He was despised by his brothers:",
+        "suggested_fix": "Αλλά τα αδέλφια του τον περιφρονούσαν:",
+        "translation_quote": "Εκείνοι τον περιφρονούσαν:"
+      },
+      {
+        "location": "HTML, παράγραφος που αρχίζει «Αυτές οι ευγενείς νεανικές φιλοδοξίες…»",
+        "severity": "major",
+        "source_quote": "But these were not naive specimens seeking to secure their place in life, they were graphic examples of youth who were seeking to imitate the image of their Lord.",
+        "suggested_fix": "Όμως αυτοί δεν ήταν αφελείς άνθρωποι που επιζητούσαν να εξασφαλίσουν τη θέση τους στη ζωή· ήταν παραστατικά παραδείγματα νέων που επιζητούσαν να μιμηθούν την εικόνα του Κυρίου τους.",
+        "translation_quote": "Όμως δεν ήταν αφελείς άνθρωποι που επιζητούσαν να εξασφαλίσουν τη θέση τους στη ζωή· ήταν ζωντανά παραδείγματα νέων που επιζητούσαν να μιμηθούν την εικόνα του Κυρίου τους."
+      },
+      {
+        "location": "HTML, ενότητα «…Ταπεινώνει τις επιδιώξεις μας», τελευταία πρόταση παραγράφου",
+        "severity": "major",
+        "source_quote": "those who have an appetite for it will reap in hope of its youthful reward.",
+        "suggested_fix": "και όσοι έχουν όρεξη γι’ αυτό θα θερίσουν με την ελπίδα της νεανικής ανταμοιβής του.",
+        "translation_quote": "και όσοι έχουν όρεξη γι’ αυτό θα θερίσουν με την ελπίδα της νεανικής του ανταμοιβής."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Gedicht, zweiter Absatz\",\"severity\":\"minor\",\"source_quote\":\"That I might live in ease,\",\"suggested_fix\":\"Ändere „In dem ich sorglos leben könnt,“ zu „In dem ich sorglos leben könnte,“ für standardsprachliches Deutsch.\",\"translation_quote\":\"In dem ich sorglos leben könnt,\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 345,
+    "content_evidence_truncated": false,
+    "content_sha256": "aa05ab1fa03f4a2f443a22f9d8c906858db20257be72e20a90bb943868145dad",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 887,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1908,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2901
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

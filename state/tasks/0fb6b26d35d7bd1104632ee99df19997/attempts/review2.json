@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section 5, second paragraph\",\"severity\":\"major\",\"source_quote\":\"Married brothers...\",\"suggested_fix\":\"Replace «Giftesøsken …» with «Brødre som er gift …» to address married men, as in the source.\",\"translation_quote\":\"Giftesøsken …\"},{\"location\":\"Opening Scripture quotation (1. Korinter 13:8)\",\"severity\":\"major\",\"source_quote\":\"but whether there be prophecies, they shall fail\",\"suggested_fix\":\"Translate the reference to prophecies themselves ending, for example: «men profetiene skal ta slutt».\",\"translation_quote\":\"Profetiske gaver skal ta slutt\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 622,
+    "content_evidence_truncated": false,
+    "content_sha256": "1bcee1a67c5f4359ddb41878651b9d229755b9481e7190fa252d831ea3deb2da",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1147,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 978,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11167,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11164,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12314
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2a2b509e-1a88-4780-9c67-1effd2aadb76",
+    "response_id": "chatcmpl-EUz6CPjkFlhig9NYWooteNEblvyH2",
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 794,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11416,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12422
+    }
+  },
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section 7, paragraph 1",
+        "severity": "major",
+        "source_quote": "“they have a short fuse.”",
+        "suggested_fix": "Replace “hukata tamaa upesi” with “hukasirika upesi” to convey that they are quick-tempered.",
+        "translation_quote": "“hukata tamaa upesi.”"
+      },
+      {
+        "location": "Section 3, paragraph 1",
+        "severity": "minor",
+        "source_quote": "“when that better person is your wife.”",
+        "suggested_fix": "Correct “anapekuwa” to “anapokuwa.”",
+        "translation_quote": "“Mambo huwa magumu zaidi mtu huyo anapekuwa mke wako.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fb6448b1-e04e-4c51-8ef5-5f28b7501c6f",
+    "response_id": "chatcmpl-EUzAQNsijxRwdzlZvAnDddDZDKgim",
+    "usage": {
+      "completion_tokens": 871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10781,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10778,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11652
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, alinea onder ‘1. Geduld’",
+        "severity": "major",
+        "source_quote": "“It will wait for the perfect opportunity and will, in the best way, quietly instruct, or exemplify, the purposes of God before your family, before your church, and before your spouse.”",
+        "suggested_fix": "Vervang ‘Zij wacht op het juiste moment’ door ‘Zij wacht op de perfecte gelegenheid’ om ‘perfect opportunity’ volledig weer te geven; behoud de rest van de alinea.",
+        "translation_quote": "“Zij wacht op het juiste moment en zal op de beste manier, rustig, de bedoelingen van God aan uw gezin, uw kerk en uw echtgenoot of echtgenote voorhouden of voordoen.”"
+      },
+      {
+        "location": "HTML, alinea onder ‘4. Nederigheid’",
+        "severity": "major",
+        "source_quote": "“Pride will destroy the work of God and it will destroy any effort to love my brother or sister.”",
+        "suggested_fix": "Voeg na ‘Gods werk vernietigen’ de ontbrekende woorden toe: ‘en iedere poging om mijn broeder of zuster lief te hebben vernietigen’.",
+        "translation_quote": "“Hoogmoed zal Gods werk vernietigen en iedere poging om mijn broeder of zuster lief te hebben.”"
+      },
+      {
+        "location": "HTML, alinea onder ‘5. Hoffelijkheid’",
+        "severity": "major",
+        "source_quote": "“The word ‘gentleman’ is a compound word, and it literally means ‘gentle man’.”",
+        "suggested_fix": "Behoud de uitleg van de woordbetekenis, maar maak expliciet dat de term een ‘zachtaardige man’ betekent, bijvoorbeeld: ‘Het Engelse woord “gentleman” is een samenstelling en betekent letterlijk “zachtaardige man”.’",
+        "translation_quote": "“Het Engelse woord ‘gentleman’ is een samenstelling en betekent letterlijk ‘gentle man’ (‘zachtaardige man’).”"
+      },
+      {
+        "location": "HTML, eerste alinea onder ‘6. Onzelfzuchtigheid’",
+        "severity": "major",
+        "source_quote": "“Love seeketh not her own. Or we could say it this way—love will not attempt to snatch that which belongs to me, even by right.”",
+        "suggested_fix": "Corrigeer ‘wat mij toebehoort’ naar ‘wat haar toebehoort’ (of ‘wat mij toebehoort’ alleen als de zin expliciet als citaat van de spreker wordt gemarkeerd); de bron stelt dat de liefde niet grijpt wat haar toebehoort, zelfs niet als zij daar recht op heeft.",
+        "translation_quote": "“de liefde zal niet proberen te grijpen wat mij toebehoort, zelfs niet wanneer ik daar recht op heb.”"
+      },
+      {
+        "location": "HTML, alinea onder ‘8. Het vermogen om ‘geen kwaad te denken’’",
+        "severity": "major",
+        "source_quote": "“The Son of man came to seek and to save that which was lost.”",
+        "suggested_fix": "Vervang ‘zalig te maken’ door ‘te redden’, zodat de geciteerde zin ‘te zoeken en te redden wat verloren is’ weergeeft.",
+        "translation_quote": "“De Mensenzoon is gekomen om te zoeken en zalig te maken wat verloren is.”"
+      },
+      {
+        "location": "HTML, alinea over de eerste ontmoeting van echtgenoten",
+        "severity": "major",
+        "source_quote": "“You saw it as through a glass darkly or as a poor reflection in the mirror.”",
+        "suggested_fix": "Vervang ‘een vage weerspiegeling’ door ‘een gebrekkige weerspiegeling’ of ‘een slechte weerspiegeling’; ‘poor’ betekent hier dat de weerspiegeling gebrekkig is, niet vaag.",
+        "translation_quote": "“U zag haar als door een spiegel, in raadselen, of als een vage weerspiegeling in de spiegel.”"
+      },
+      {
+        "location": "HTML, titel",
+        "severity": "minor",
+        "source_quote": "“This Thing Called Love”",
+        "suggested_fix": "Overweeg de idiomatischer Nederlandse titel ‘Dit wat liefde heet’ of ‘Dit dat liefde heet’.",
+        "translation_quote": "“Dit ding dat liefde heet”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

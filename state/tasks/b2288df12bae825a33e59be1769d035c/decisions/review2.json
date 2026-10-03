@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, παράγραφος που αρχίζει «Όμως οι νέοι δεν προορίζονται…»",
+      "severity": "major",
+      "source_quote": "He was despised by his brothers:",
+      "suggested_fix": "Αλλά τα αδέλφια του τον περιφρονούσαν:",
+      "translation_quote": "Εκείνοι τον περιφρονούσαν:"
+    },
+    {
+      "location": "HTML, παράγραφος που αρχίζει «Αυτές οι ευγενείς νεανικές φιλοδοξίες…»",
+      "severity": "major",
+      "source_quote": "But these were not naive specimens seeking to secure their place in life, they were graphic examples of youth who were seeking to imitate the image of their Lord.",
+      "suggested_fix": "Όμως αυτοί δεν ήταν αφελείς άνθρωποι που επιζητούσαν να εξασφαλίσουν τη θέση τους στη ζωή· ήταν παραστατικά παραδείγματα νέων που επιζητούσαν να μιμηθούν την εικόνα του Κυρίου τους.",
+      "translation_quote": "Όμως δεν ήταν αφελείς άνθρωποι που επιζητούσαν να εξασφαλίσουν τη θέση τους στη ζωή· ήταν ζωντανά παραδείγματα νέων που επιζητούσαν να μιμηθούν την εικόνα του Κυρίου τους."
+    },
+    {
+      "location": "HTML, ενότητα «…Ταπεινώνει τις επιδιώξεις μας», τελευταία πρόταση παραγράφου",
+      "severity": "major",
+      "source_quote": "those who have an appetite for it will reap in hope of its youthful reward.",
+      "suggested_fix": "και όσοι έχουν όρεξη γι’ αυτό θα θερίσουν με την ελπίδα της νεανικής ανταμοιβής του.",
+      "translation_quote": "και όσοι έχουν όρεξη γι’ αυτό θα θερίσουν με την ελπίδα της νεανικής του ανταμοιβής."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

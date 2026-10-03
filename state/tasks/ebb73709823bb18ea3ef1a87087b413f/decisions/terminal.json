@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning «Важно понимать, что новозаветное представление об отдыхе…»",
+      "severity": "major",
+      "source_quote": "True biblical peace is intrinsically intertwined with the concept of peace, even in the midst of a chaotic world.",
+      "suggested_fix": "Заменить «Истинный библейский мир неразрывно связан с понятием покоя» на «Истинный библейский мир неразрывно связан с понятием мира», сохранив остальную часть предложения.",
+      "translation_quote": "Истинный библейский мир неразрывно связан с понятием покоя, даже посреди хаотичного мира."
+    },
+    {
+      "location": "HTML paragraph «„О, — сонно ответил я.»",
+      "severity": "minor",
+      "source_quote": "“Oh,” I said sleepily.",
+      "suggested_fix": "Добавить закрывающую кавычку в конце реплики: «О, — сонно ответил я».",
+      "translation_quote": "«О, — сонно ответил я."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

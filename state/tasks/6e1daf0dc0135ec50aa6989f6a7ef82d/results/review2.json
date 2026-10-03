@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bb243d72-7c90-45b1-a02f-c32bf1c9133e",
+    "response_id": "chatcmpl-EUz4DfSWiLYBvlvbHsSOBA97h0wu0",
+    "usage": {
+      "completion_tokens": 596,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 461,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2812,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3411
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first paragraph",
+        "severity": "minor",
+        "source_quote": "The grinding sound of truck tires driving in the gravel lane filled the air",
+        "suggested_fix": "Endre «Den malende lyden av lastebildekk som kjørte på grusveien» til for eksempel «Den skrapende lyden av lastebildekk som rullet langs grusveien».",
+        "translation_quote": "Den malende lyden av lastebildekk som kjørte på grusveien, fylte luften"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

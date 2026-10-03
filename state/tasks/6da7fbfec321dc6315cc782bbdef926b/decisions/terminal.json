@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph under “Worship and Gratitude”",
+      "severity": "minor",
+      "source_quote": "We are able to see how unworthy we really are.",
+      "suggested_fix": "ہم یہ دیکھ پاتے ہیں کہ ہم درحقیقت کتنے غیر مستحق ہیں۔",
+      "translation_quote": "ہم یہ دیکھ پاتے ہیں کہ ہم درحقیقت کتنے نااہل ہیں۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

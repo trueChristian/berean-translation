@@ -2,7 +2,6 @@
   "article_id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 2394
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, stanza 3, line 3",
-      "severity": "major",
-      "source_quote": "Never a mountain rocky and steep,",
-      "suggested_fix": "Replace the line with “Hajaahidi kamwe kwamba hakutakuwa na mlima wenye miamba na mwinuko,” so it remains part of what God has not promised, rather than asserting that no such mountain will exist.",
-      "translation_quote": "Hakutakuwa na mlima wenye miamba na mwinuko,"
     },
     {
-      "location": "source.html, stanza 3, line 4",
-      "severity": "major",
-      "source_quote": "Never a river turbid and deep.",
-      "suggested_fix": "Replace the line with “Wala hajaahidi kamwe kwamba hakutakuwa na mto wenye maji yenye matope na kina kirefu.” This preserves the unpromised absence of such a river and translates “deep” as “kina kirefu,” not “mengi” (many).",
-      "translation_quote": "Wala mto wenye maji machafu na mengi."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 594,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 511,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1470,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1467,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2064
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Poem, stanza 2, third line",
+      "severity": "major",
+      "source_quote": "He has not told us we shall not bear",
+      "suggested_fix": "Mungu hajatuambia kwamba hatutabeba",
+      "translation_quote": "Hatujaambiwa kwamba hatutabeba"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "222aea73e1ef644aeba64cb5908c93f6",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "swa",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f5647b7e6fa93ad07954ab0a3da6676a3d3e5e9185664021cd0049abc41f0391.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
   "translation_model_actual": "gpt-6-luna"

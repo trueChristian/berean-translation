@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 1, kutipan Kejadian 34:1",
+      "severity": "major",
+      "source_quote": "“...went out to see the daughters of the land”",
+      "suggested_fix": "Ganti “pergi melihat-lihat perempuan-perempuan di negeri itu” dengan “pergi melihat-lihat anak-anak perempuan negeri itu” agar makna “daughters” tetap tersampaikan.",
+      "translation_quote": "“…pergi melihat-lihat perempuan-perempuan di negeri itu”"
+    },
+    {
+      "location": "Paragraf 2, kutipan Amsal 7:23",
+      "severity": "major",
+      "source_quote": "“Till a dart [struck] through his liver”",
+      "suggested_fix": "Ganti “menembus hatinya” dengan “menembus hatinya” hanya jika terjemahan sasaran memang memakai “hati” untuk liver; agar perbedaan organ dalam teks sumber terjaga, gunakan “menembus livernya.”",
+      "translation_quote": "“sebuah anak panah menembus hatinya”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

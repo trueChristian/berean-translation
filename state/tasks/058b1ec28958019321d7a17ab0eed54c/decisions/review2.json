@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML，第9节“真诚”，第一段",
+      "severity": "major",
+      "source_quote": "A man who knows the love of Christ chooses the high road to make wrongs right.",
+      "suggested_fix": "将“会选择走正道，使错事得到纠正”改为“会选择采取高尚的做法，主动弥补过错”。",
+      "translation_quote": "认识基督之爱的人，会选择走正道，使错事得到纠正。"
+    },
+    {
+      "location": "HTML，第9节“真诚”，第三段",
+      "severity": "major",
+      "source_quote": "Rejoicing in righteousness and thinking NO EVIL",
+      "suggested_fix": "将“喜爱公义并且不计算人的恶”改为“因公义而欢喜，并且不作恶意的想法”（或其他能表达“不思恶事”的译法），避免把这里的“thinking no evil”误作前文“不记人的恶”。",
+      "translation_quote": "喜爱公义并且不计算人的恶"
+    },
+    {
+      "location": "HTML，第9节“真诚”，第三段",
+      "severity": "major",
+      "source_quote": "is a normal and final attitude of love.",
+      "suggested_fix": "将“是爱通常且最终的态度”改为“是爱通常且最后的态度”，或用其他自然表达保留“final”的意思。",
+      "translation_quote": "是爱通常且最终的态度"
+    },
+    {
+      "location": "HTML，结尾经文，约翰一书 4:7",
+      "severity": "major",
+      "source_quote": "Beloved, let us love one another:",
+      "suggested_fix": "将“亲爱的弟兄啊”改为“亲爱的，我们应当彼此相爱”，以保留对所有读者的称呼及“让我们彼此相爱”的劝勉。",
+      "translation_quote": "亲爱的弟兄啊，我们应当彼此相爱"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

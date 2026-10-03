@@ -2,7 +2,6 @@
   "article_id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 3197
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 952,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 920,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1957,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1954,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2909
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, first poem stanza",
-      "severity": "major",
-      "source_quote": "I’ll make the best of TIME—right now— / That God has granted me.",
-      "suggested_fix": "Передайте мысль о том, что автор намерен как можно лучше использовать время, которое Бог даровал ему: например, «Я проживу как можно лучше / ВРЕМЯ — прямо сейчас, / Которое даровал мне Бог»; сохраните структуру стихотворения.",
-      "translation_quote": "Лучшее время — СЕЙЧАС — / Бог мне дал его проживать."
-    },
-    {
-      "location": "source.html, final poem stanza",
-      "severity": "major",
-      "source_quote": "If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?",
-      "suggested_fix": "Замените «ЗАВТРА НОЧЬЮ» на «СЕГОДНЯ НОЧЬЮ» или другой точный русский эквивалент TONIGHT, сохранив указание «ещё через три часа» и структуру стихотворения.",
-      "translation_quote": "Если Бог ещё через три часа, В ЭТОТ ДЕНЬ, / ЗАВТРА НОЧЬЮ завершит твой путь?"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "901a30fb42a26ad4d6a1d704dacb3e2b",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "rus",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dbc43587e58be8105de6efc8c64b115ee947e41513159ee085108212ce456b1b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
   "translation_model_actual": "gpt-6-luna"

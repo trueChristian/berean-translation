@@ -2,7 +2,6 @@
   "article_id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 4456
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 806,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 631,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2848,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2845,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3654
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, абзац 7",
-      "severity": "major",
-      "source_quote": "I knew that sneaking was wrong",
-      "suggested_fix": "Заменить «Я знал, что красть нехорошо» на «Я знал, что поступать тайком было неправильно»: в оригинале речь о том, что мальчик прокрался за персиком, а не о краже.",
-      "translation_quote": "Я знал, что красть нехорошо"
+      "location": "Paragraph 6",
+      "severity": "minor",
+      "source_quote": "“the old cooler which was inside the red bank barn. The cooler door squeaked… There along the cooler walls…”",
+      "suggested_fix": "To make clear this is a walk-in cold-storage room rather than an ordinary refrigerator, change the relevant wording to «старая холодильная камера, которая находилась в красном амбаре. Дверь холодильной камеры скрипнула… Там, вдоль стен холодильной камеры…»",
+      "translation_quote": "«в старый холодильник, который находился в красном амбаре. Дверь холодильника скрипнула… Там, вдоль стен холодильника…»"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "5064d74f0692b50f519553f80201d576",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "rus",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3beb81221e24fb7edf745b287b1a293c166349a5772e1451dc761a3ac359e6d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
   "translation_model_actual": "gpt-6-luna"

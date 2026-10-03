@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Gedicht, zweiter Absatz",
+      "severity": "minor",
+      "source_quote": "That I might live in ease,",
+      "suggested_fix": "Ändere „In dem ich sorglos leben könnt,“ zu „In dem ich sorglos leben könnte,“ für standardsprachliches Deutsch.",
+      "translation_quote": "In dem ich sorglos leben könnt,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

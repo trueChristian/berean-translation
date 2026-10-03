@@ -2,7 +2,6 @@
   "article_id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 8093
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 667,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 528,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5349,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5346,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6016
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "第五段，保罗引文",
-      "severity": "major",
-      "source_quote": "and things which are not, to bring to nought things that are",
-      "suggested_fix": "将“为要废掉那些自以为是的”改为“为要废掉那些存在的事物”或其他准确表达“废掉那些确实存在之事物”的译法。",
-      "translation_quote": "以及那些算不得什么的，为要废掉那些自以为是的"
+      "location": "正文，耶稣拣选十二人的段落",
+      "severity": "minor",
+      "source_quote": "Jesus chose only twelve men to disciple, instead of the crowds.",
+      "suggested_fix": "将“耶稣选择了十二个人来教导”改为“耶稣只拣选了十二个人来训练他们作门徒”，以保留“门徒训练”的意思。",
+      "translation_quote": "耶稣选择了十二个人来教导，而不是选择群众。"
     }
   ],
+  "finished_at": "2026-10-03T21:15:37+00:00",
   "id": "d93c8dafe08eb5971981ad2135651c5d",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "cmn",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
   "translation_model_actual": "gpt-6-luna"

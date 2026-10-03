@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 2, third line",
+      "severity": "major",
+      "source_quote": "He has not told us we shall not bear",
+      "suggested_fix": "Mungu hajatuambia kwamba hatutabeba",
+      "translation_quote": "Hatujaambiwa kwamba hatutabeba"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

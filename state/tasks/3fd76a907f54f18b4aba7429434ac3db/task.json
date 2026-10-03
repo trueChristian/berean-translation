@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 17240
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html / translation.html, paragraph citing Proverbs 29:23",
-      "severity": "major",
-      "source_quote": "A man’s pride shall bring him low: but honour shall uphold the humble in spirit –Proverbs 29:23.",
-      "suggested_fix": "Replace the translated sentence with: « L’orgueil d’un homme l’abaisse, mais l’honneur soutient celui qui est humble d’esprit –Proverbes 29:23. » Keep the existing <p> tag and its position.",
-      "translation_quote": "L’orgueil d’un homme l’abaisse, mais l’humilité d’esprit lui procure l’honneur –Proverbes 29:23."
     },
     {
-      "location": "source.html / translation.html, section “b.) It hopeth all things,” sentence addressed to wives",
-      "severity": "minor",
-      "source_quote": "Sisters, if your husband falls short of the glory you married him with, can you wait patiently for the Lord to work in his life?",
-      "suggested_fix": "Correct « pariez » to an idiomatic rendering of the intended sense, for example: « Sœurs, si votre mari n’est pas à la hauteur de l’image glorieuse que vous aviez de lui lorsque vous l’avez épousé, pouvez-vous attendre patiemment que le Seigneur agisse dans sa vie ? »",
-      "translation_quote": "Sœurs, si votre mari n’est pas à la hauteur de la gloire dont vous le pariez lorsque vous l’avez épousé, pouvez-vous attendre patiemment que le Seigneur agisse dans sa vie ?"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 981,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 683,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11133,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11130,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12114
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, citation 1 Chroniques 16:34",
+      "severity": "major",
+      "source_quote": "O give thanks unto the LORD; for he is good; for his mercy endureth for ever",
+      "suggested_fix": "Remplacer « Louez l’Éternel, car il est bon, car sa miséricorde dure à toujours » par « Rendez grâces à l’Éternel, car il est bon, car sa miséricorde dure à toujours », afin de conserver l’appel à rendre grâce plutôt qu’à louer.",
+      "translation_quote": "Louez l’Éternel, car il est bon, car sa miséricorde dure à toujours –1 Chroniques 16:34."
+    },
+    {
+      "location": "HTML, citation Proverbes 4:18",
+      "severity": "major",
+      "source_quote": "But the path of the just is as the shining light, that shineth more and more unto the perfect day",
+      "suggested_fix": "Remplacer « jusqu’au milieu du jour » par « jusqu’au plein jour », pour conserver l’image d’une lumière qui croît jusqu’à l’éclat complet du jour.",
+      "translation_quote": "Le sentier des justes est comme la lumière resplendissante, dont l’éclat va croissant jusqu’au milieu du jour –Proverbes 4:18."
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "3fd76a907f54f18b4aba7429434ac3db",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "fra",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 2717
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 750,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 718,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1768,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1765,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2518
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Poem, line 3",
-      "severity": "minor",
-      "source_quote": "We can’t afford the heedless jest that robs us of a friend;",
-      "suggested_fix": "ہم ایسے غافلانہ مذاق کا خطرہ مول نہیں لے سکتے جو ہمیں ایک دوست سے محروم کر دے؛",
-      "translation_quote": "ہم ایسی بےفکر ہنسی کا خطرہ مول نہیں لے سکتے جو ہمیں ایک دوست سے محروم کر دے؛"
-    },
-    {
-      "location": "Poem, line 13",
-      "severity": "major",
-      "source_quote": "We can’t afford to lose the soul for this world’s fleeting breath;",
-      "suggested_fix": "ہم اس دنیا کی عارضی سانس کے لیے اپنی روح گنوانے کا خطرہ مول نہیں لے سکتے؛",
-      "translation_quote": "ہم اس دنیا کی عارضی سانس کے لیے اپنی جان گنوانے کا خطرہ مول نہیں لے سکتے؛"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "9dfe37251270e427da7f42b77b8e91f5",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "urd",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed6221e4c3f7ed957c68f67fd9e6401b2d9ddea55030972d9c84bb2f4d302be0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
   "translation_model_actual": "gpt-6-luna"

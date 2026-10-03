@@ -2,7 +2,6 @@
   "article_id": "61996151-3b49-4498-9285-995520ca542d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 14044
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Hebreerne 4:9–11, both quoted passages",
-      "severity": "major",
-      "source_quote": "“lest any man fall after the same example of unbelief”",
-      "suggested_fix": "Change «på grunn av samme slags ulydighet» to «etter samme eksempel på vantro» in both quoted passages, preserving the existing <em> tags and reference placement.",
-      "translation_quote": "«så ingen faller fra på grunn av samme slags ulydighet»"
     },
     {
-      "location": "Johannes 14:27 quotation",
-      "severity": "major",
-      "source_quote": "“Let not your heart be troubled, neither let it be afraid”",
-      "suggested_fix": "Translate both parts of the source meaning, for example: «La ikke hjertet bli urolig, og la det heller ikke være redd», keeping the quotation in its existing <em> tags and retaining the reference.",
-      "translation_quote": "«La ikke hjertet bli grepet av angst og motløshet»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 562,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 453,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9171,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9168,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9733
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Matthew 11:28–30 quotation",
+      "severity": "major",
+      "source_quote": "“For my yoke is easy, and my burden is light”",
+      "suggested_fix": "Replace «For mitt åk er godt» with «For mitt åk er lett», preserving the rest of the quotation and its markup.",
+      "translation_quote": "«For mitt åk er godt og min byrde lett»"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "673bea232ebc8df5ae26ad4f957102ef",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nob",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/524d40c54ec6764637a5f253440ead3daccb8d3dce30013c3273f7254041ebde.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
   "translation_model_actual": "gpt-6-luna"

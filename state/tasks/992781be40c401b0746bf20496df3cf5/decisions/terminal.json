@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, second stanza",
+      "severity": "minor",
+      "source_quote": "The answers seem evasive and trying.",
+      "suggested_fix": "Överväg att återge även innebörden av ”trying” (besvärliga eller påfrestande), till exempel: ”Svaren tycks undflyende och påfrestande.”",
+      "translation_quote": "Svaren tycks undflyende och svårfångade."
+    },
+    {
+      "location": "HTML, poem, sixth stanza",
+      "severity": "minor",
+      "source_quote": "“My chosen one,”",
+      "suggested_fix": "Använd en formulering som inte anger kön, till exempel: ”Du som jag har utvalt,”",
+      "translation_quote": "”Min utvalda,”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second poem, final stanza, third line",
+      "severity": "major",
+      "source_quote": "If God, in yet three hours, THIS DAY,",
+      "suggested_fix": "Replace the corresponding Arabic line with «إن أغلق الله مسيرتك هذه الليلة، بعد ثلاث ساعات فحسب من الآن؟» to convey that this could happen three hours from now.",
+      "translation_quote": "إن أغلق الله، بعد ثلاث ساعات فحسب من هذا اليوم،"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

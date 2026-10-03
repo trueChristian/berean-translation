@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,32 +64,61 @@
         },
         "total_tokens": 16567
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 414,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10719,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10716,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11133
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "开篇引文，哥林多前书 13:12",
+      "location": "HTML，第9节“真诚”，第一段",
       "severity": "major",
-      "source_quote": "now I know in part; but then shall I know even as also I am known.",
-      "suggested_fix": "将引文中的“到那时就全知道，如同主知道我一样”改为“到那时我就知道，正如我被知道一样”，避免把原文的被动表达改成明确归于“主”的主动表达。",
-      "translation_quote": "我如今所知道的有限，到那时就全知道，如同主知道我一样。"
+      "source_quote": "A man who knows the love of Christ chooses the high road to make wrongs right.",
+      "suggested_fix": "将“会选择走正道，使错事得到纠正”改为“会选择采取高尚的做法，主动弥补过错”。",
+      "translation_quote": "认识基督之爱的人，会选择走正道，使错事得到纠正。"
     },
     {
-      "location": "第3节“慷慨”，橱柜搬运的例子",
+      "location": "HTML，第9节“真诚”，第三段",
       "severity": "major",
-      "source_quote": "Pinching someone’s fingers in a tight doorway is a perfect way to reduce my foe down to his size",
-      "suggested_fix": "将“让我的对手跌回他该有的地位”改为“贬低我的对手”，或其他能表达故意羞辱、压低对方而不暗示对方理应处于较低地位的说法。",
-      "translation_quote": "在狭窄的门口夹别人手指，是让我的对手跌回他该有的地位、妨碍工作顺利完成的绝妙方法"
+      "source_quote": "Rejoicing in righteousness and thinking NO EVIL",
+      "suggested_fix": "将“喜爱公义并且不计算人的恶”改为“因公义而欢喜，并且不作恶意的想法”（或其他能表达“不思恶事”的译法），避免把这里的“thinking no evil”误作前文“不记人的恶”。",
+      "translation_quote": "喜爱公义并且不计算人的恶"
     },
     {
-      "location": "“爱永不止息，因为上帝是爱的源头”之后的段落",
+      "location": "HTML，第9节“真诚”，第三段",
       "severity": "major",
-      "source_quote": "Love cannot be achieved through the eloquence of words.",
-      "suggested_fix": "将“eloquence”译为中文，例如把“爱无法靠言辞的 eloquence 获得”改为“爱无法靠言辞的雄辩获得”。",
-      "translation_quote": "爱无法靠言辞的 eloquence 获得"
+      "source_quote": "is a normal and final attitude of love.",
+      "suggested_fix": "将“是爱通常且最终的态度”改为“是爱通常且最后的态度”，或用其他自然表达保留“final”的意思。",
+      "translation_quote": "是爱通常且最终的态度"
+    },
+    {
+      "location": "HTML，结尾经文，约翰一书 4:7",
+      "severity": "major",
+      "source_quote": "Beloved, let us love one another:",
+      "suggested_fix": "将“亲爱的弟兄啊”改为“亲爱的，我们应当彼此相爱”，以保留对所有读者的称呼及“让我们彼此相爱”的劝勉。",
+      "translation_quote": "亲爱的弟兄啊，我们应当彼此相爱"
     }
   ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "058b1ec28958019321d7a17ab0eed54c",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "cmn",
@@ -179,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

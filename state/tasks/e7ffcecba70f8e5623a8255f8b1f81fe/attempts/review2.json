@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة التي تبدأ «في يشوع، الإصحاح 6»\",\"severity\":\"major\",\"source_quote\":\"God tells Joshua and all the men of war to compass the city, and walk around it once every day, for six days.\",\"suggested_fix\":\"استبدل «بأن يطوفوا بالمدينة، ويدوروا حولها مرة كل يوم» بـ«بأن يطوفوا حول المدينة مرة واحدة كل يوم»؛ فالنص العربي الحالي يحوّل طوافًا واحدًا حولها إلى فعلين منفصلين.\",\"translation_quote\":\"أن يطوفوا بالمدينة، ويدوروا حولها مرة كل يوم\"},{\"location\":\"الفقرة التي تبدأ «بعد هذا النصر العظيم»\",\"severity\":\"major\",\"source_quote\":\"The men returned and told Joshua not to send all the men to Ai, for there were only a few defenders protecting the city.\",\"suggested_fix\":\"استبدل «إذ لم يكن فيها سوى عدد قليل من المدافعين عن المدينة» بـ«لأن المدينة لا تحتاج إلا إلى رجلين أو ثلاثة آلاف»؟ لا؛ حافظ على المصدر كما هو: «لأن عدد المدافعين عن المدينة كان قليلًا».\",\"translation_quote\":\"إذ لم يكن فيها سوى عدد قليل من المدافعين عن المدينة\"},{\"location\":\"الفقرة التي تبدأ «في العهد القديم، غالبًا ما يكون بنو إسرائيل»\",\"severity\":\"major\",\"source_quote\":\"When there was no sin in the camp (or in the church) God’s people had complete victory; they lost not one.\",\"suggested_fix\":\"استبدل «ولم يفقدوا رجلًا واحدًا» بـ«ولم يُهزموا قط»؟ لا، الأدق: «ولم يخسروا واحدًا»؛ إذ تعود عبارة المصدر إلى عدم فقدان أيٍّ منهم.\",\"translation_quote\":\"ولم يفقدوا رجلًا واحدًا\"},{\"location\":\"الفقرة التي تبدأ «لنفترض أنك سمعت»\",\"severity\":\"major\",\"source_quote\":\"This flesh-destroying disease had made a comeback and many from your village were now infected.\",\"suggested_fix\":\"استبدل «وأصيب به الآن كثيرون من أهل قريتك» بـ«وكان كثيرون من أهل قريتك قد أُصيبوا به من جديد»؛ فصيغة النص الحالي لا تنقل معنى عودة المرض.\",\"translation_quote\":\"وأصيب به الآن كثيرون من أهل قريتك\"},{\"location\":\"الفقرة التي تبدأ «كنت أعمل عن قرب مع زعيم عصابة»\",\"severity\":\"major\",\"source_quote\":\"He seemed very sober as I continued\",\"suggested_fix\":\"استبدل «بدا عليه أنه رصين جدًا» بـ«بدا رزينًا جدًا» أو «بدا متماسكًا جدًا»؛ فـ«رصين» هنا لا تنقل بوضوح معنى أنه كان متيقظًا وغير مخمور.\",\"translation_quote\":\"بدا عليه أنه رصين جدًا\"},{\"location\":\"الفقرة التي تبدأ «وبينما كنا لا نزال نتحدث»\",\"severity\":\"major\",\"source_quote\":\"I was pleading, pleading for his soul.\",\"suggested_fix\":\"استبدل «كنت أتوسل إليه، أتوسل من أجل نفسه» بـ«كنت أتوسل إليه، أتوسل من أجل خلاص نفسه»؛ فـ«نفسه» وحدها لا توضح المقصود الروحي الوارد في السياق.\",\"translation_quote\":\"كنت أتوسل إليه، أتوسل من أجل نفسه\"},{\"location\":\"الفقرة التي تبدأ «عندما نصرخ إلى الله طالبين الخلاص»\",\"severity\":\"major\",\"source_quote\":\"When we call out to God for salvation, we are doing so because we know we need to be saved; converted.\",\"suggested_fix\":\"استبدل «بحاجة إلى أن نُخلَّص؛ وأن نتغير» بـ«بحاجة إلى أن نُخلَّص؛ أي أن نتجدد»؛ فالمصدر يصرّح بالتحول/التوبة المسيحية، لا بمجرد التغيير العام.\",\"translation_quote\":\"بحاجة إلى أن نُخلَّص؛ وأن نتغير\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 4209,
+    "content_evidence_truncated": false,
+    "content_sha256": "8bd9a44fbbe9db8836dc44561b735e06886492f72047b7d0ee2dbbf9d7827315",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7889,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7886,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8768
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

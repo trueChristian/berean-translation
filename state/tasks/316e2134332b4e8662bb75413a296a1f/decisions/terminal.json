@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, first stanza",
+      "severity": "major",
+      "source_quote": "“Come My child, your burden I’ll bear.”",
+      "suggested_fix": "Change «میرے بچو» to «میرے بچے» so the address remains singular, as in the source.",
+      "translation_quote": "”آؤ، میرے بچو، میں تمہارا بوجھ اٹھاؤں گا۔“"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

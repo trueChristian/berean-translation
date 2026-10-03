@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Section 7, paragraph 1",
+      "severity": "major",
+      "source_quote": "“they have a short fuse.”",
+      "suggested_fix": "Replace “hukata tamaa upesi” with “hukasirika upesi” to convey that they are quick-tempered.",
+      "translation_quote": "“hukata tamaa upesi.”"
+    },
+    {
+      "location": "Section 3, paragraph 1",
+      "severity": "minor",
+      "source_quote": "“when that better person is your wife.”",
+      "suggested_fix": "Correct “anapekuwa” to “anapokuwa.”",
+      "translation_quote": "“Mambo huwa magumu zaidi mtu huyo anapekuwa mke wako.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

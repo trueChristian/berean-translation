@@ -2,7 +2,6 @@
   "article_id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 2497
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 719,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1654,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1651,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2373
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Puisi, baris terakhir kedua",
+      "location": "Puisi, refrain pada bait-bait puisi; juga judul",
       "severity": "major",
-      "source_quote": "But blind to good are we apart from THEE, all-seeing Lord;",
-      "suggested_fix": "Ganti “Tuhan yang Mahatahu” dengan “Tuhan yang Mahamelihat” agar sesuai dengan “all-seeing Lord.”",
-      "translation_quote": "Namun, terpisah dari-MU, Tuhan yang Mahatahu, kita buta terhadap kebaikan;"
+      "source_quote": "“We can’t afford…”; title: “Things We Can’t Afford”",
+      "suggested_fix": "Terjemahkan gagasan refrain sebagai sesuatu yang tidak sanggup kita pertaruhkan atau tidak mampu kita tanggung akibatnya, bukan sebagai larangan umum. Sesuaikan tiap baris dengan konteksnya; misalnya judul dapat menjadi “Hal-Hal yang Tak Sanggup Kita Pertaruhkan”. Pada baris penutup, gunakan “hal-hal yang tak sanggup kita pertaruhkan” alih-alih “hal-hal yang tak boleh kami lakukan”.",
+      "translation_quote": "“Kita tak boleh…”; title: “Hal-Hal yang Tak Boleh Kita Lakukan”; penutup: “hal-hal yang tak boleh kami lakukan”"
     }
   ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "15e66ea7b838274e621b5ad1fa480cac",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ind",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed6221e4c3f7ed957c68f67fd9e6401b2d9ddea55030972d9c84bb2f4d302be0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
   "translation_model_actual": "gpt-6-luna"

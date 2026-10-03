@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first stanza, first line",
+      "severity": "minor",
+      "source_quote": "I’ll walk with God—Today—",
+      "suggested_fix": "Ik zal vandaag met God wandelen—",
+      "translation_quote": "Ik wandel met God—vandaag—"
+    },
+    {
+      "location": "HTML, first stanza, second line",
+      "severity": "minor",
+      "source_quote": "Tomorrow may not be.",
+      "suggested_fix": "Morgen komt misschien niet.",
+      "translation_quote": "Morgen is er misschien niet."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

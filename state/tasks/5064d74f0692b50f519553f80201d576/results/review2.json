@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bf2d63c7-1520-4a1d-8e45-82d24dac44db",
+    "response_id": "chatcmpl-EUz5uh5UwTH1ZJvJAbeEHWEzT8RSN",
+    "usage": {
+      "completion_tokens": 806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 631,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2848,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2845,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3654
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 6",
+        "severity": "minor",
+        "source_quote": "“the old cooler which was inside the red bank barn. The cooler door squeaked… There along the cooler walls…”",
+        "suggested_fix": "To make clear this is a walk-in cold-storage room rather than an ordinary refrigerator, change the relevant wording to «старая холодильная камера, которая находилась в красном амбаре. Дверь холодильной камеры скрипнула… Там, вдоль стен холодильной камеры…»",
+        "translation_quote": "«в старый холодильник, который находился в красном амбаре. Дверь холодильника скрипнула… Там, вдоль стен холодильника…»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

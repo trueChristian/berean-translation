@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph; repeated in the second paragraph",
+      "severity": "minor",
+      "source_quote": "“my pager going off” / “the number on the pager”",
+      "suggested_fix": "Replace “kipaji changu” and “kipaji” with “kipajeri changu” and “kipajeri” (or another clear Kiswahili term for a pager). For example: “nikisikiliza kipajeri changu kikiita” and “Niliangalia nambari iliyoonyeshwa kwenye kipajeri.”",
+      "translation_quote": "“mlio wa kipaji changu ukilia” / “namba iliyoonyeshwa kwenye kipaji”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

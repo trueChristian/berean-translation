@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b7da6cc7-daca-4650-9ea7-09e670ec8a26",
+    "response_id": "chatcmpl-EUz3j53gDLkT54QJ75k2kiRYbNcAC",
+    "usage": {
+      "completion_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1654,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1651,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2373
+    }
+  },
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Puisi, refrain pada bait-bait puisi; juga judul",
+        "severity": "major",
+        "source_quote": "“We can’t afford…”; title: “Things We Can’t Afford”",
+        "suggested_fix": "Terjemahkan gagasan refrain sebagai sesuatu yang tidak sanggup kita pertaruhkan atau tidak mampu kita tanggung akibatnya, bukan sebagai larangan umum. Sesuaikan tiap baris dengan konteksnya; misalnya judul dapat menjadi “Hal-Hal yang Tak Sanggup Kita Pertaruhkan”. Pada baris penutup, gunakan “hal-hal yang tak sanggup kita pertaruhkan” alih-alih “hal-hal yang tak boleh kami lakukan”.",
+        "translation_quote": "“Kita tak boleh…”; title: “Hal-Hal yang Tak Boleh Kita Lakukan”; penutup: “hal-hal yang tak boleh kami lakukan”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

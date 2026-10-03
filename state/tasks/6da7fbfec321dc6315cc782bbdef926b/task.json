@@ -2,7 +2,6 @@
   "article_id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,32 +64,39 @@
         },
         "total_tokens": 6355
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 712,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 598,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3812,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3809,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4524
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "آخری پیراگراف، زبور 16:11 کا اقتباس",
-      "severity": "major",
-      "source_quote": "“…in thy presence is fulness of joy; at thy right hand there are pleasures for evermore –Psalm 16:11.”",
-      "suggested_fix": "اردو اقتباس کو یوں درست کریں: «…تیرے حضور میں شادمانی کی کامل فراوانی ہے؛ تیرے دہنے ہاتھ میں ابد تک خوشیاں ہیں—زبور 16:11۔» یہ انگریزی میں چھپے اقتباس کا مفہوم محفوظ رکھتا ہے؛ موجودہ «ہمیشہ کی مسرتیں» کو «ابد تک خوشیاں» سے بدلیں۔",
-      "translation_quote": "«…تیرے حضور میں کامل شادمانی ہے؛ تیرے دہنے ہاتھ میں ہمیشہ کی مسرتیں ہیں—زبور 16:11۔»"
-    },
-    {
-      "location": "پیراگراف: Relationships",
-      "severity": "major",
-      "source_quote": "“The life of God can flow through us and both show others the way to Him and give us joy and fulfillment in doing it.”",
-      "suggested_fix": "اس حصے کو یوں کریں: «خدا کی زندگی ہم میں سے گزر سکتی ہے، دوسروں کو اس تک پہنچنے کا راستہ دکھا سکتی ہے، اور یہ کام کرتے ہوئے ہمیں خوشی اور تکمیل بخش سکتی ہے۔»",
-      "translation_quote": "«خدا کی زندگی ہم میں سے گزر سکتی ہے، دوسروں کو اس تک پہنچنے کا راستہ دکھا سکتی ہے اور ایسا کرنے میں ہمیں خوشی اور تکمیل بخش سکتی ہے۔»"
-    },
-    {
-      "location": "پیراگراف: Living in the Present",
+      "location": "source.html, paragraph under “Worship and Gratitude”",
       "severity": "minor",
-      "source_quote": "“because we are fulfilling His purpose for us.”",
-      "suggested_fix": "«کیونکہ ہم ہمارے لیے اس کے مقصد کو پورا کر رہے ہوتے ہیں» کو «کیونکہ ہم اپنے لیے اس کے مقصد کو پورا کر رہے ہوتے ہیں» کریں۔",
-      "translation_quote": "«کیونکہ ہم ہمارے لیے اس کے مقصد کو پورا کر رہے ہوتے ہیں۔»"
+      "source_quote": "We are able to see how unworthy we really are.",
+      "suggested_fix": "ہم یہ دیکھ پاتے ہیں کہ ہم درحقیقت کتنے غیر مستحق ہیں۔",
+      "translation_quote": "ہم یہ دیکھ پاتے ہیں کہ ہم درحقیقت کتنے نااہل ہیں۔"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "6da7fbfec321dc6315cc782bbdef926b",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "urd",
@@ -179,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/18c2186c1295c47c04075ef2762adbedbd6d20fe5aab53eec4d3dda0200a660c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
   "translation_model_actual": "gpt-6-luna"

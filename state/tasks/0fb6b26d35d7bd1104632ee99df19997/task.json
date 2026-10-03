@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 17316
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, opening quoted passage (1 Corinthians 13:5)",
-      "severity": "major",
-      "source_quote": "“thinketh no evil”",
-      "suggested_fix": "Replace «gjemmer ikke på det onde» with «tenker ikke ondt» to convey the printed meaning.",
-      "translation_quote": "«gjemmer ikke på det onde»"
     },
     {
-      "location": "source.section",
-      "severity": "major",
-      "source_quote": "THE GODLY HOME",
-      "suggested_fix": "Use «DET GUDSFYRTIGE HJEMMET» to preserve the meaning of “godly home”; correct the current inconsistent capitalization as part of the replacement.",
-      "translation_quote": "DET GUDVELSIGNede HJEMMET"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1147,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 978,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11167,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11164,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12314
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Section 5, second paragraph",
+      "severity": "major",
+      "source_quote": "Married brothers...",
+      "suggested_fix": "Replace «Giftesøsken …» with «Brødre som er gift …» to address married men, as in the source.",
+      "translation_quote": "Giftesøsken …"
+    },
+    {
+      "location": "Opening Scripture quotation (1. Korinter 13:8)",
+      "severity": "major",
+      "source_quote": "but whether there be prophecies, they shall fail",
+      "suggested_fix": "Translate the reference to prophecies themselves ending, for example: «men profetiene skal ta slutt».",
+      "translation_quote": "Profetiske gaver skal ta slutt"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "0fb6b26d35d7bd1104632ee99df19997",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nob",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

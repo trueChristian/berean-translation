@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4fa97811-29a8-4cf9-940c-fdc1e96e53b7",
+    "response_id": "chatcmpl-EUz4Ng7OBjv2vKKJ22nu0jnPjBN00",
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8818,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9580
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, parágrafo sobre as razões para trabalhar",
+        "severity": "major",
+        "source_quote": "The New Testament gives a couple of more reasons to work. We are to work so we can provide for our families (see II Thessalonians 3:10).",
+        "suggested_fix": "Substitua «O Novo Testamento apresenta mais algumas razões para trabalharmos. Devemos trabalhar para poder sustentar as nossas famílias (ver II Tessalonicenses 3:10).» por «O Novo Testamento apresenta mais algumas razões para trabalharmos. Devemos trabalhar para podermos sustentar as nossas famílias (ver II Tessalonicenses 3:10).»",
+        "translation_quote": "O Novo Testamento apresenta mais algumas razões para trabalharmos. Devemos trabalhar para poder sustentar as nossas famílias (ver II Tessalonicenses 3:10)."
+      },
+      {
+        "location": "HTML, citação de Hebreus 4:9-11",
+        "severity": "major",
+        "source_quote": "Let us labour therefore to enter into that rest, lest any man fall after the same example of unbelief –Hebrews 4:9-11.",
+        "suggested_fix": "Corrija a citação para preservar a exortação de «trabalhar/esforçar-se» para entrar no descanso: «Esforcemo-nos, pois, por entrar nesse descanso, para que ninguém caia seguindo o mesmo exemplo de desobediência –Hebreus 4:9-11.»",
+        "translation_quote": "Procuremos, pois, entrar naquele repouso, para que ninguém caia no mesmo exemplo de incredulidade –Hebreus 4:9-11."
+      },
+      {
+        "location": "HTML, parágrafo sobre o conceito neotestamentário de descanso",
+        "severity": "major",
+        "source_quote": "True biblical peace is intrinsically intertwined with the concept of peace, even in the midst of a chaotic world.",
+        "suggested_fix": "Corrija a repetição inadvertida de «paz» para refletir o sentido do original: «A verdadeira paz bíblica está intrinsecamente ligada ao conceito de descanso, mesmo no meio de um mundo caótico.»",
+        "translation_quote": "A verdadeira paz bíblica está intrinsecamente ligada ao conceito de paz, mesmo no meio de um mundo caótico."
+      },
+      {
+        "location": "HTML, parágrafo sobre os resultados da privação do sono",
+        "severity": "major",
+        "source_quote": "They found that even a single night of sleep deprivation was enough to make people feel pain more acutely.",
+        "suggested_fix": "Substitua «uma única noite sem dormir» por «uma única noite de privação do sono», preservando que se trata de privação do sono, sem afirmar necessariamente ausência total de sono.",
+        "translation_quote": "Concluíram que até mesmo uma única noite sem dormir era suficiente para que as pessoas sentissem a dor de forma mais intensa."
+      },
+      {
+        "location": "HTML, citação final de Hebreus 4:11",
+        "severity": "major",
+        "source_quote": "Let us labour therefore to enter into that rest, lest any man fall after the same example of unbelief –Hebrew 4:11.",
+        "suggested_fix": "Corrija a citação para preservar a exortação de «trabalhar/esforçar-se» para entrar no descanso: «Esforcemo-nos, pois, por entrar nesse descanso, para que ninguém caia seguindo o mesmo exemplo de desobediência –Hebreus 4:11.»",
+        "translation_quote": "Procuremos, pois, entrar naquele repouso, para que ninguém caia no mesmo exemplo de incredulidade –Hebreus 4:11."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

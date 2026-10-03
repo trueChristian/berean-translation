@@ -2,7 +2,6 @@
   "article_id": "177fb1e6-bf90-48ef-ad9f-aa8508917fbd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 2624
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 426,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 323,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1710,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1707,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2136
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
       "location": "Gedicht, vierte Zeile",
-      "severity": "major",
+      "severity": "minor",
       "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
       "suggested_fix": "Wir können uns das Lachen nicht leisten, das in bitteren Tränen endet.",
-      "translation_quote": "Wir können es uns nicht leisten, mit einem Lachen bittere Tränen zu beenden."
+      "translation_quote": "Wir können es uns nicht leisten, über ein Lachen, das in bitteren Tränen endet."
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "7742f408e217b82f295169b7248e672c",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "deu",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed6221e4c3f7ed957c68f67fd9e6401b2d9ddea55030972d9c84bb2f4d302be0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f331b029d6394e5c028332262667a2ede25ca334bfe390a7cc3495ee2c6fd03e",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Gang-leader account, paragraph beginning “আমি পাশের গ্রামে…”",
+      "severity": "major",
+      "source_quote": "“I wanted God to save him.”",
+      "suggested_fix": "“আমি চেয়েছিলাম ঈশ্বর তাকে পরিত্রাণ দিন।”",
+      "translation_quote": "“আমি চেয়েছিলাম ঈশ্বর তাকে রক্ষা করুন।”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

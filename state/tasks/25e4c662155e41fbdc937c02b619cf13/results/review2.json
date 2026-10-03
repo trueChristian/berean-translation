@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5c570137-eb93-4840-881f-9aaac9c309b3",
+    "response_id": "chatcmpl-EUz4yaZlFWnxtXQXmiCWVWCihrnZj",
+    "usage": {
+      "completion_tokens": 298,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5901,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5898,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6199
+    }
+  },
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Body, paragraph 2",
+        "severity": "major",
+        "source_quote": "“that God-forsaken village”",
+        "suggested_fix": "Replace “خدا کے فراموش کردہ اُس گاؤں” with “اُس خدا کے چھوڑے ہوئے گاؤں” to preserve the source’s forceful description.",
+        "translation_quote": "“خدا کے فراموش کردہ اُس گاؤں”"
+      },
+      {
+        "location": "Body, paragraph 6",
+        "severity": "major",
+        "source_quote": "“The fact is, He didn’t need us there anymore.”",
+        "suggested_fix": "Replace “حقیقت یہ ہے کہ اب اُسے وہاں ہماری ضرورت نہیں تھی” with “حقیقت یہ ہے کہ اب اسے وہاں ہماری ضرورت نہیں رہی تھی۔”",
+        "translation_quote": "“حقیقت یہ ہے کہ اب اُسے وہاں ہماری ضرورت نہیں تھی۔”"
+      },
+      {
+        "location": "Body, paragraph 11",
+        "severity": "major",
+        "source_quote": "“The widow of Zarephath”",
+        "suggested_fix": "Use the conventional Urdu name for Zarephath: “صَرَفَت کی بیوہ” is a different/incorrect rendering here; change to “صَرَفَت (زرپت) کی بیوہ” or another established Urdu form that unambiguously identifies the biblical place.",
+        "translation_quote": "“صَرَفَت کی بیوہ”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "source.html, 1 Corinthians 13 quotation",
+      "severity": "major",
+      "source_quote": "“We know in part, and we prophesy in part. But when that which is perfect is come, then that which is in part shall be done away.”",
+      "suggested_fix": "اس اقتباس کو یوں درست کریں: «کیونکہ ہمارا علم جزوی ہے اور ہماری نبوت جزوی ہے۔ لیکن جب کامل چیز آ جائے گی تو جزوی چیز مٹا دی جائے گی۔»",
+      "translation_quote": "«کیونکہ ہمارا علم ناقص ہے اور ہماری نبوت ناقص۔ لیکن جب کامل آئے گا تو ناقص جاتا رہے گا۔»"
+    },
+    {
+      "location": "source.html, heading 5, Courtesy, definition of “gentleman”",
+      "severity": "major",
+      "source_quote": "“A man who does not possess this quality can do nothing less than to be ungentle, unsympathetic, and rude. He cannot help it.”",
+      "suggested_fix": "جملے کو یوں درست کریں: «جس آدمی میں یہ خوبی نہ ہو وہ لازماً غیر نرم خو، بے ہمدرد اور بدتمیز ہوگا۔ وہ اس سے بچ نہیں سکتا۔»",
+      "translation_quote": "«جس آدمی میں یہ خوبی نہیں ہوتی وہ نرم خو، بے ہمدرد اور بدتمیز نہیں ہو سکتا۔ وہ اس سے بچ نہیں سکتا۔»"
+    },
+    {
+      "location": "source.html, heading 6, Unselfishness, comparison about pursuing one’s wife",
+      "severity": "major",
+      "source_quote": "“There would be few divorces if a husband worked as hard to keep his wife as he did to get her in the first place.”",
+      "suggested_fix": "نمایاں الفاظ کا مفہوم یوں درست کریں: «اگر شوہر اپنی بیوی کو <em><strong>اپنے ساتھ قائم رکھنے</strong></em> کے لیے اتنی ہی محنت کرتا جتنی ابتدا میں اسے <em><strong>حاصل کرنے</strong></em> کے لیے کرتا تھا، تو طلاقیں بہت کم ہوتیں۔»",
+      "translation_quote": "«اگر شوہر اپنی بیوی کو <em><strong>حاصل کرنے</strong></em> کے لیے اتنی ہی محنت کرتا جتنی وہ ابتدا میں اسے <em><strong>جیتنے</strong></em> کے لیے کرتا تھا، تو طلاقیں بہت کم ہوتیں۔»"
+    },
+    {
+      "location": "source.html, heading 7, Good Temper, description of the misery-producing power",
+      "severity": "major",
+      "source_quote": "“It is made up of jealousy, anger, pride, cruelty, self-righteousness, touchiness, doggedness, sullenness...”",
+      "suggested_fix": "فہرست میں “doggedness” کا مفہوم برقرار رکھتے ہوئے اسے یوں کریں: «یہ حسد، غصے، غرور، ظلم، خود راست باز ہونے کے احساس، زود رنجی، ضد، رنجیدگی... سے مل کر بنتی ہے۔»",
+      "translation_quote": "«یہ حسد، غصے، غرور، ظلم، خود راست باز ہونے کے احساس، زود رنجی، ہٹ دھرمی، اداسی... سے مل کر بنتی ہے۔»"
+    },
+    {
+      "location": "source.html, heading 7, Good Temper, final sentence of second paragraph",
+      "severity": "major",
+      "source_quote": "“To be tempered by the power of God is a normal attitude of love.”",
+      "suggested_fix": "اس جملے کو یوں درست کریں: «خدا کی قوت سے ضبطِ مزاج پیدا کرنا محبت کا معمول کا رویہ ہے۔»",
+      "translation_quote": "«خدا کی قوت سے مزاج میں اعتدال آنا محبت کا معمول کا رویہ ہے۔»"
+    },
+    {
+      "location": "source.html, heading 8, “think no evil,” second paragraph",
+      "severity": "major",
+      "source_quote": "“If we treat our spouses dishonorably and with disrespect, there is a good chance they will become or remain the person we detest.”",
+      "suggested_fix": "جملے کو یوں درست کریں: «اگر ہم اپنے شریکِ حیات کے ساتھ بے عزتی اور بے احترامی سے پیش آئیں تو غالب امکان ہے کہ وہ وہی شخص بن جائے یا بنا رہے جس سے ہم نفرت کرتے ہیں۔»",
+      "translation_quote": "«اگر ہم اپنے شریکِ حیات کے ساتھ بے عزتی اور بے احترامی سے پیش آئیں تو غالب امکان ہے کہ وہ وہی شخص بن جائیں یا رہیں گے جس سے ہم نفرت کرتے ہیں۔»"
+    },
+    {
+      "location": "source.html, heading 9, Sincerity, first paragraph",
+      "severity": "major",
+      "source_quote": "“A man who knows the love of Christ chooses the high road to make wrongs right.”",
+      "suggested_fix": "اس جملے کو یوں درست کریں: «جو آدمی مسیح کی محبت کو جانتا ہے وہ غلطیوں کی اصلاح کے لیے اعلیٰ راستہ اختیار کرتا ہے۔»",
+      "translation_quote": "«جو آدمی مسیح کی محبت کو جانتا ہے وہ غلطیوں کو درست کرنے کے لیے بہتر راستہ اختیار کرتا ہے۔»"
+    },
+    {
+      "location": "source.html, heading 9, Sincerity, final paragraph",
+      "severity": "major",
+      "source_quote": "“Rejoicing in righteousness and thinking NO EVIL is a normal and final attitude of love.”",
+      "suggested_fix": "جملے کو یوں درست کریں: «راست بازی سے خوش ہونا اور بدگمانی نہ کرنا محبت کا معمول کا اور آخری رویہ ہے۔»",
+      "translation_quote": "«راست بازی سے خوش ہونا اور بدگمانی بالکل نہ کرنا محبت کا معمول کا اور آخری رویہ ہے۔»"
+    },
+    {
+      "location": "source.html, Romans 5:5 quotation",
+      "severity": "major",
+      "source_quote": "“And hope maketh not ashamed”",
+      "suggested_fix": "ابتدائی فقرے کا مفہوم یوں درست کریں: «اور امید شرمندہ نہیں کرتی، کیونکہ روح القدس جو ہمیں بخشا گیا ہے اُس کے وسیلے سے خدا کی محبت ہمارے دلوں میں اُنڈیلی گئی ہے۔»",
+      "translation_quote": "«اور امید شرمندہ نہیں ہونے دیتی، کیونکہ روح القدس جو ہمیں بخشا گیا ہے اُس کے وسیلے سے خدا کی محبت ہمارے دلوں میں اُنڈیلی گئی ہے۔»"
+    },
+    {
+      "location": "source.html, Proverbs 4:18 quotation",
+      "severity": "major",
+      "source_quote": "“But the path of the just is as the shining light, that shineth more and more unto the perfect day”",
+      "suggested_fix": "آیت کا اختتام یوں درست کریں: «لیکن صادقوں کی راہ چمکتی ہوئی روشنی کی مانند ہے، جو کامل دن تک بڑھتی اور روشن ہوتی جاتی ہے۔»",
+      "translation_quote": "«لیکن صادقوں کی راہ صبح کی روشنی کی مانند ہے، جو دوپہر تک بڑھتی ہی جاتی ہے۔»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

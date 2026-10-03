@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 16178
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 924,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 689,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9677,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9674,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10601
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Άρθρο, παράγραφος με παράθεση Ιησούς του Ναυή 7:24–26",
+      "location": "HTML, quoted passage from Joshua 7:24–26",
       "severity": "major",
-      "source_quote": "“and they brought them unto the valley of Achor … And all Israel stoned him with stones, and burned them with fire…”",
-      "suggested_fix": "Διορθώστε μόνο την παράθεση ώστε να αποδίδει ότι ο Αχάν και η οικογένειά του οδηγήθηκαν στην κοιλάδα, και ότι όλος ο Ισραήλ λιθοβόλησε τον Αχάν και έκαψε τα υπόλοιπα πρόσωπα/πράγματα όπως δηλώνει το αγγλικό κείμενο. Διατηρήστε το <em> και την αναφορά Ιησούς του Ναυή 7:24-26.",
-      "translation_quote": "«…και τους έφεραν στην κοιλάδα του Αχώρ … Και όλος ο Ισραήλ τον λιθοβόλησε με πέτρες, και τους έκαψε με φωτιά… –Ιησούς του Ναυή 7:24-26.»"
-    },
-    {
-      "location": "Άρθρο, παράγραφος για την εξουσία του Θεού στις εκκλησίες",
-      "severity": "major",
-      "source_quote": "“We have many things figured out, we look good and sound good, but do we still have the power of God in our churches?”",
-      "suggested_fix": "Αποδώστε το “sound good” ως ότι «ακουγόμαστε καλά» (ή ότι «τα λόγια μας ακούγονται καλά»), διατηρώντας τη διάκριση από το “look good”.",
-      "translation_quote": "«Έχουμε καταλάβει πολλά πράγματα, δείχνουμε καλοί και ακούγονται καλά όσα λέμε, αλλά εξακολουθεί να υπάρχει η δύναμη του Θεού στις εκκλησίες μας;»"
-    },
-    {
-      "location": "Άρθρο, παράγραφος για την αμαρτία στο στρατόπεδο",
-      "severity": "major",
-      "source_quote": "“When there was no sin in the camp (or in the church) God’s people had complete victory; they lost not one.”",
-      "suggested_fix": "Αντικαταστήστε το «δεν έχαναν ούτε έναν» με «δεν έχασαν ούτε έναν», ώστε να διατηρηθεί ο παρελθοντικός χρόνος της αφήγησης.",
-      "translation_quote": "«Όταν δεν υπήρχε αμαρτία στο στρατόπεδο (ή στην εκκλησία), ο λαός του Θεού είχε πλήρη νίκη· δεν έχαναν ούτε έναν.»"
+      "source_quote": "“...and they brought them unto the valley of Achor … And all Israel stoned him with stones, and burned them with fire…”",
+      "suggested_fix": "Replace the translated quotation with a faithful rendering that does not add “Achan and his family” or specify “the remaining persons and things”: «…και τους έφεραν στην κοιλάδα του Αχώρ … Και όλος ο Ισραήλ τον λιθοβόλησε με πέτρες και τους έκαψε με φωτιά…»",
+      "translation_quote": "«…και έφεραν τον Αχάν και την οικογένειά του στην κοιλάδα του Αχώρ … Και όλος ο Ισραήλ λιθοβόλησε τον Αχάν με πέτρες και έκαψε στη φωτιά τα υπόλοιπα πρόσωπα και πράγματα…»"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "afe89d5dd0e5ed385398398a145f9e86",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ell",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

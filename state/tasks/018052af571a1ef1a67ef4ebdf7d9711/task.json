@@ -2,7 +2,6 @@
   "article_id": "8f36dee3-685c-47b8-b1d4-9981806d4cd5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,32 +64,75 @@
         },
         "total_tokens": 5077
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 700,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3102,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3099,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3802
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML paragraph 2",
+      "location": "HTML, paragraph 2",
       "severity": "minor",
       "source_quote": "Mom had just returned from the produce auction in Lewisburg with some peaches.",
-      "suggested_fix": "سبزیوں کی نیلامی سے مراد واضح کرنے کے لیے اسے یوں کریں: ”ماں ابھی ابھی لیوسبرگ میں سبزیوں اور پھلوں کی نیلامی سے کچھ آڑو لے کر واپس آئی تھیں۔“",
-      "translation_quote": "ماں ابھی ابھی لیوسبرگ کی سبزی منڈی سے کچھ آڑو لے کر واپس آئی تھیں۔"
+      "suggested_fix": "Use a rendering that identifies the auction as a produce auction, such as: ”ماں ابھی ابھی لیوسبرگ کی پھلوں اور سبزیوں کی نیلامی سے کچھ آڑو لے کر واپس آئی تھیں۔“",
+      "translation_quote": "ماں ابھی ابھی لیوسبرگ میں پھلوں اور سبزیوں کی نیلامی سے کچھ آڑو لے کر واپس آئی تھیں۔"
     },
     {
-      "location": "HTML paragraph 8",
-      "severity": "minor",
-      "source_quote": "I jammed the stone through the hole, peering out as it fell beside the road.",
-      "suggested_fix": "”میں نے گٹھلی سوراخ میں دھکیلی اور اسے سڑک کے کنارے گرتے ہوئے دیکھنے کے لیے باہر جھانکا۔“",
-      "translation_quote": "میں نے گٹھلی سوراخ میں دھکیلی اور اسے سڑک کے کنارے گرتے دیکھنے کے لیے باہر جھانکا۔"
-    },
-    {
-      "location": "HTML paragraph 14",
+      "location": "HTML, paragraph 8",
       "severity": "major",
-      "source_quote": "Walking back to the couch with a light heart, I laid down, and quickly fell into a peaceful sleep.",
-      "suggested_fix": "پہلے شخص کو برقرار رکھتے ہوئے یوں کریں: ”دل ہلکا لیے میں صوفے کی طرف واپس آیا، لیٹا، اور جلد ہی پُرسکون نیند سو گیا۔“",
-      "translation_quote": "دل ہلکا لیے صوفے کی طرف واپس آیا، لیٹا، اور جلد ہی پُرسکون نیند سو گیا۔"
+      "source_quote": "After devouring the peach, I scanned the dark interior of the barn for a good hiding place to put the peach stone.",
+      "suggested_fix": "Replace the opening clause with ”آڑو جلدی جلدی کھا جانے کے بعد“ or an equivalent that conveys devouring/eating eagerly.",
+      "translation_quote": "آڑو کھا چکنے کے بعد، میں آڑو کی گٹھلی چھپانے کی اچھی جگہ ڈھونڈنے کے لیے بارن کے تاریک اندرونی حصے پر نظر دوڑانے لگا۔"
+    },
+    {
+      "location": "HTML, paragraph 10",
+      "severity": "minor",
+      "source_quote": "Then I saw the culprit as it hovered over me trying to sting me again.",
+      "suggested_fix": "Clarify that the culprit is the yellow jacket: ”پھر میں نے اس بھڑ کو دیکھا جو میرے اوپر منڈلا رہی تھی اور دوبارہ ڈنک مارنے کی کوشش کر رہی تھی۔“",
+      "translation_quote": "پھر میں نے اس بھڑ کو دیکھ لیا جو میرے اوپر منڈلا رہی تھی اور دوبارہ ڈنک مارنے کی کوشش کر رہی تھی۔"
+    },
+    {
+      "location": "HTML, paragraph 11",
+      "severity": "major",
+      "source_quote": "That evening my forehead swelled like a balloon, making it difficult to look out of my eyes.",
+      "suggested_fix": "Revise to convey difficulty seeing, e.g. ”اس شام میری پیشانی غبارے کی طرح سوج گئی، جس سے دیکھنا مشکل ہو گیا۔“",
+      "translation_quote": "اس شام میری پیشانی غبارے کی طرح سوج گئی، جس سے میری آنکھوں سے دیکھنا مشکل ہو گیا۔"
+    },
+    {
+      "location": "HTML, paragraph 12",
+      "severity": "minor",
+      "source_quote": "I laid on the couch so that Mom could occasionally check up on me during the night.",
+      "suggested_fix": "Use a word for checking on his condition, such as ”میری خیریت دریافت کر سکیں“ rather than a phrasing that may imply only looking.",
+      "translation_quote": "میں صوفے پر لیٹ گیا تاکہ ماں رات کے دوران کبھی کبھار میری خیریت دیکھ سکیں۔"
+    },
+    {
+      "location": "HTML, paragraph 13",
+      "severity": "minor",
+      "source_quote": "After several agonizing hours, I gathered the courage to slide off the couch and tiptoed over to my parent’s bedroom.",
+      "suggested_fix": "For a more natural Urdu expression of tiptoeing, use ”دبے پاؤں چل کر“ in place of ”دبے پاؤں ... جانے“ if desired.",
+      "translation_quote": "میں نے صوفے سے اترنے اور دبے پاؤں اپنے والدین کے کمرے تک جانے کی ہمت جمع کی۔"
     }
   ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "018052af571a1ef1a67ef4ebdf7d9711",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "urd",
@@ -185,7 +227,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3beb81221e24fb7edf745b287b1a293c166349a5772e1451dc761a3ac359e6d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c17970925962b55af78cbd0b58f7e539f4a0c941b50485e7efff43c48a936d64",
   "translation_model_actual": "gpt-6-luna"

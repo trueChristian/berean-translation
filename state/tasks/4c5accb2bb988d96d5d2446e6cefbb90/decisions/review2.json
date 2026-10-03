@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "HTML, första stycket (1 Korinthierbrevet 13:1–13)",
+      "severity": "major",
+      "source_quote": "“and have not charity, I am nothing”",
+      "suggested_fix": "Ändra till ”men inte hade kärlek, vore jag ingenting” eller motsvarande: källtexten säger att talaren själv är ingenting, inte bara att något inte skulle gagna honom.",
+      "translation_quote": "“men inte hade kärlek, skulle det inte gagna mig”"
+    },
+    {
+      "location": "HTML, avsnitt 3, stycke 2",
+      "severity": "major",
+      "source_quote": "“to reduce my foe down to his size”",
+      "suggested_fix": "Ersätt ”till hans rätta nivå” med en formulering som återger att berättaren vill trycka ner motståndaren till sin egen nivå, exempelvis ”trycka ner min motståndare till min egen nivå”.",
+      "translation_quote": "“trycka ner min motståndare till hans rätta nivå”"
+    },
+    {
+      "location": "HTML, avsnitt 5, stycke 1",
+      "severity": "major",
+      "source_quote": "“The word ‘gentleman’ is a compound word, and it literally means ‘gentle man’.”",
+      "suggested_fix": "Översätt de citerade uttrycken till svenska och bevara poängen med ordleken, exempelvis: ”Ordet ’gentleman’ är ett sammansatt ord och betyder bokstavligen ’mild man’.” (Behåll gärna det engelska uppslagsordet som själva ordet som diskuteras.)",
+      "translation_quote": "“Ordet ”gentleman” är sammansatt och betyder bokstavligen ”mild man”.”"
+    },
+    {
+      "location": "HTML, avsnitt 7, stycke 1",
+      "severity": "major",
+      "source_quote": "“Few things unchristianize a good man than an evil temper.”",
+      "suggested_fix": "Ändra ”Få saker gör en god man så okristen som ett ont temperament” till en formulering som säger att få saker gör en god man mer okristen än ett ont temperament, exempelvis ”Få saker gör en god man mer okristen än ett ont temperament.”",
+      "translation_quote": "“Få saker gör en god man så okristen som ett ont temperament.”"
+    },
+    {
+      "location": "HTML, avsnitt 8, stycke 2",
+      "severity": "major",
+      "source_quote": "“the greatest thing you can do for a person is to use the power of love to aid in the restoration of what has been lost.”",
+      "suggested_fix": "Återställ ”det största” i stället för ”det största” i en annan konstruktion? Ändra den nuvarande formuleringen så att den säger att det största man kan göra är att använda kärlekens kraft för att hjälpa till att återupprätta det som gått förlorat.",
+      "translation_quote": "“det största du kan göra för en människa är att använda kärlekens kraft för att hjälpa till att återupprätta det som gått förlorat.”"
+    },
+    {
+      "location": "HTML, avsnitt 9, stycke 3",
+      "severity": "major",
+      "source_quote": "“I can safely reach out in sincerity to those who have entered into the realm of influence.”",
+      "suggested_fix": "Översätt ”safely” som tryggt/säkert och bevara ”in sincerity” som uppriktigt, exempelvis ”kan jag tryggt och uppriktigt nå ut till dem som kommit inom min påverkanssfär”.",
+      "translation_quote": "“kan jag uppriktigt sträcka mig ut till dem som kommit inom min påverkanssfär.”"
+    },
+    {
+      "location": "HTML, avsnitt d, stycket efter citatet från Filipperbrevet",
+      "severity": "major",
+      "source_quote": "“your love was very immature. You saw it as through a glass darkly or as a poor reflection in the mirror.”",
+      "suggested_fix": "Bevara att den omogna kärleken var det som sågs dunkelt/som en dålig spegelbild; exempelvis ”Ni såg er kärlek som genom en dunkel spegel eller som en dålig spegelbild.”",
+      "translation_quote": "“Ni såg den som genom en dunkel spegel eller som en suddig spegelbild.”"
+    },
+    {
+      "location": "HTML, avsnitt d, stycket efter citatet från Filipperbrevet",
+      "severity": "major",
+      "source_quote": "“the path of the just is as the shining light, that shineth more and more unto the perfect day” –Proverbs 4:18.",
+      "suggested_fix": "Översätt citatet troget med innebörden ”De rättfärdigas väg är som gryningens ljus, som lyser allt klarare fram till full dag” och behåll referensen Ordspråksboken 4:18.",
+      "translation_quote": "“de rättfärdigas väg är som gryningens ljus, som växer i klarhet till full dag” –Ordspråksboken 4:18."
+    },
+    {
+      "location": "HTML, sista citatet före välsignelsen (1 Johannesbrevet 5:4)",
+      "severity": "major",
+      "source_quote": "“For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith”",
+      "suggested_fix": "Översätt båda leden utan att ändra satsförhållandet, exempelvis: ”Ty allt som är fött av Gud övervinner världen, och detta är segern som har övervunnit världen: vår tro.”",
+      "translation_quote": "“Ty allt som är fött av Gud övervinner världen. Och detta är den seger som har övervunnit världen: vår tro”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

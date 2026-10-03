@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza beginning “Sometimes I worry and wonder”",
+      "severity": "minor",
+      "source_quote": "“Yet the promise remains, all works out well, / For him that in God does delight.”",
+      "suggested_fix": "Replace “tutto coopererà al bene” with “tutto finirà per andare bene” to convey the source’s assurance without adding the implication that circumstances actively cooperate toward the good.",
+      "translation_quote": "“Eppure la promessa resta: tutto coopererà al bene / Di chi si compiace in Dio.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

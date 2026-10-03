@@ -2,7 +2,6 @@
   "article_id": "ba4cef53-9a4b-4277-8afb-b53a7ab63735",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 3333
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "قصيدة، المقطع الثالث، السطران الثالث والرابع",
-      "severity": "major",
-      "source_quote": "With God shut out, and self shut in / And selfish aims surround.",
-      "suggested_fix": "استبدل السطرين بـ«حين يُبعَد الله وتُحبَس الذات في داخلها، / وتحيط الغايات الأنانية بالمرء.»",
-      "translation_quote": "فالله مُبعَد، والذات مُغلقة عليها، / والغايات الأنانية تحيط بي."
     },
     {
-      "location": "قصيدة، المقطع الأخير، السطران الثالث والرابع",
-      "severity": "major",
-      "source_quote": "If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?",
-      "suggested_fix": "استبدل السطرين بـ«إن أغلق الله مسيرتك هذه الليلة، / بعد ثلاث ساعات فحسب من هذا اليوم؟»",
-      "translation_quote": "إن أغلق الله، بعد ثلاث ساعات فحسب، في هذا اليوم، / مسيرتك هذه الليلة؟"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 670,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 545,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1963,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1960,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2633
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, second poem, final stanza, third line",
+      "severity": "major",
+      "source_quote": "If God, in yet three hours, THIS DAY,",
+      "suggested_fix": "Replace the corresponding Arabic line with «إن أغلق الله مسيرتك هذه الليلة، بعد ثلاث ساعات فحسب من الآن؟» to convey that this could happen three hours from now.",
+      "translation_quote": "إن أغلق الله، بعد ثلاث ساعات فحسب من هذا اليوم،"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "b6ba405b3e4d917766aaec6566a0ff7b",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ara",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dbc43587e58be8105de6efc8c64b115ee947e41513159ee085108212ce456b1b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326",
   "translation_model_actual": "gpt-6-luna"

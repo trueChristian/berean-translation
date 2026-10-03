@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, final stanza",
+      "severity": "major",
+      "source_quote": "To hear those words, “Well done.”",
+      "suggested_fix": "Заменить «Хорошо» на «Хорошо сделано» или другой естественный русский эквивалент, сохраняющий смысл похвалы за совершённое.",
+      "translation_quote": "Услышать те слова: «Хорошо»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

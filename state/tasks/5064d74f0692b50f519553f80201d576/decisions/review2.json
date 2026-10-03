@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 6",
+      "severity": "minor",
+      "source_quote": "“the old cooler which was inside the red bank barn. The cooler door squeaked… There along the cooler walls…”",
+      "suggested_fix": "To make clear this is a walk-in cold-storage room rather than an ordinary refrigerator, change the relevant wording to «старая холодильная камера, которая находилась в красном амбаре. Дверь холодильной камеры скрипнула… Там, вдоль стен холодильной камеры…»",
+      "translation_quote": "«в старый холодильник, который находился в красном амбаре. Дверь холодильника скрипнула… Там, вдоль стен холодильника…»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

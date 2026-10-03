@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Gedicht, strofe 1, regel 2",
+      "severity": "major",
+      "source_quote": "Flower-strewn pathways all our lives through;",
+      "suggested_fix": "Vervang de regel door: “Met bloemen bezaaide paden, heel ons leven lang;”",
+      "translation_quote": "Paden vol bloemen, ons hele leven lang;"
+    },
+    {
+      "location": "Gedicht, refrein, regel 1",
+      "severity": "major",
+      "source_quote": "But God has promised strength for the day,",
+      "suggested_fix": "Vervang de regel door: “Maar God heeft kracht beloofd voor de dag,”",
+      "translation_quote": "Maar God heeft kracht voor de dag beloofd,"
+    },
+    {
+      "location": "Gedicht, refrein, regel 2",
+      "severity": "major",
+      "source_quote": "Rest for the labor, light for the way,",
+      "suggested_fix": "Vervang de regel door: “Rust voor het werk, licht voor de weg,”",
+      "translation_quote": "Rust na het werk, licht op de weg,"
+    },
+    {
+      "location": "Gedicht, strofe 2, regel 1",
+      "severity": "major",
+      "source_quote": "God has not promised we shall not know",
+      "suggested_fix": "Vervang de regel door: “God heeft niet beloofd dat wij niet te maken zullen krijgen met”",
+      "translation_quote": "God heeft niet beloofd dat wij verschoond zullen blijven van"
+    },
+    {
+      "location": "Gedicht, strofe 3, regel 1",
+      "severity": "major",
+      "source_quote": "God has not promised smooth roads and wide,",
+      "suggested_fix": "Vervang de regel door: “God heeft geen gladde, brede wegen beloofd,”",
+      "translation_quote": "God heeft geen vlakke, brede wegen beloofd,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

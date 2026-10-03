@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “Emosies”",
+      "severity": "minor",
+      "source_quote": "“ever present joy”",
+      "suggested_fix": "Replace “altyd teenwoordige vreugde” with “voortdurende vreugde” to express joy that remains present continually in changing circumstances.",
+      "translation_quote": "“altyd teenwoordige vreugde”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

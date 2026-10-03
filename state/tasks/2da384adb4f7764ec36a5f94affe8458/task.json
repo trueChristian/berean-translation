@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 13386
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML paragraph beginning “Our bodies are destined for the grave”",
-      "severity": "major",
-      "source_quote": "The impotent man of 38 years at Bethesda",
-      "suggested_fix": "Change “Orang lumpuh yang telah 38 tahun berada di Betesda” to “Orang lumpuh yang telah menderita selama 38 tahun di Betesda” so the 38 years describes the duration of his condition, not how long he was at Bethesda.",
-      "translation_quote": "Orang lumpuh yang telah 38 tahun berada di Betesda"
     },
     {
-      "location": "HTML paragraph beginning “The world entices us to selfish living”",
-      "severity": "minor",
-      "source_quote": "teach them to “be all that you can be”",
-      "suggested_fix": "Replace “menjadi segala yang dapat kamu capai” with “menjadi diri terbaik yang dapat kamu capai” to convey the slogan’s sense of realizing one’s full potential.",
-      "translation_quote": "mengajari mereka untuk “menjadi segala yang dapat kamu capai”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 749,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 511,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8675,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8672,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9424
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraf 1, kutipan Kejadian 34:1",
+      "severity": "major",
+      "source_quote": "“...went out to see the daughters of the land”",
+      "suggested_fix": "Ganti “pergi melihat-lihat perempuan-perempuan di negeri itu” dengan “pergi melihat-lihat anak-anak perempuan negeri itu” agar makna “daughters” tetap tersampaikan.",
+      "translation_quote": "“…pergi melihat-lihat perempuan-perempuan di negeri itu”"
+    },
+    {
+      "location": "Paragraf 2, kutipan Amsal 7:23",
+      "severity": "major",
+      "source_quote": "“Till a dart [struck] through his liver”",
+      "suggested_fix": "Ganti “menembus hatinya” dengan “menembus hatinya” hanya jika terjemahan sasaran memang memakai “hati” untuk liver; agar perbedaan organ dalam teks sumber terjaga, gunakan “menembus livernya.”",
+      "translation_quote": "“sebuah anak panah menembus hatinya”"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "2da384adb4f7764ec36a5f94affe8458",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ind",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

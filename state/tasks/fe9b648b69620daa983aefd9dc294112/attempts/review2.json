@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 3\",\"severity\":\"major\",\"source_quote\":\"Miriam, at the age of twelve, stood post over the future deliverer of the entire Jewish nation and secured her own mother, Jochebed, to be the nurse of the baby Moses.\",\"suggested_fix\":\"Replace «مخلّص الأمة اليهودية كلها في المستقبل» with «محرّر الأمة اليهودية كلها في المستقبل» to preserve the source’s description of Moses as the future deliverer, without implying the theological title “Savior.”\",\"translation_quote\":\"ووقفت مريم، وهي في الثانية عشرة من عمرها، حارسةً لمخلّص الأمة اليهودية كلها في المستقبل\"},{\"location\":\"HTML, paragraph 15\",\"severity\":\"major\",\"source_quote\":\"The pursuit of pleasure and lieu of leisure will always disappoint its recipient\",\"suggested_fix\":\"Replace «السعي وراء اللذة بدلًا من الراحة» with «السعي وراء اللذة وطلب الترفيه» (or another phrase conveying the source’s pursuit of pleasure and leisure); «بدلًا من» changes the relationship to “instead of.”\",\"translation_quote\":\"والسعي وراء اللذة بدلًا من الراحة سيخيب دائمًا من يناله\"},{\"location\":\"HTML, paragraph 16\",\"severity\":\"major\",\"source_quote\":\"But before his pain had received an ounce of retribution, the healing streams began to flow as Job reverenced his Creator.\",\"suggested_fix\":\"Replace «قبل أن ينال ألمه أي قدر من التعويض» with «قبل أن ينال ألمه أي قدر من القصاص/الجزاء» to retain the source’s unusual wording about retribution, rather than changing it to compensation.\",\"translation_quote\":\"لكن قبل أن ينال ألمه أي قدر من التعويض\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1897,
+    "content_evidence_truncated": false,
+    "content_sha256": "0e53e266193b594baf791ccb2a6747a7f5e5af4908147e4595bcf1598534f8c4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 381,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8439,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8436,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8820
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

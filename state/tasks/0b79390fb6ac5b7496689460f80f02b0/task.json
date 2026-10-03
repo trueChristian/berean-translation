@@ -2,7 +2,6 @@
   "article_id": "78e2618e-368f-42b8-af2b-79f85a36ef83",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,32 +64,31 @@
         },
         "total_tokens": 5300
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 426,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 400,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3482,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3479,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3908
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 4",
-      "severity": "major",
-      "source_quote": "This is not too much for Him to ask of us, because He is sovereign.",
-      "suggested_fix": "ليس هذا كثيرًا مما يطلبه منا، لأنه صاحب السيادة.",
-      "translation_quote": "ليس في هذا ما يطلبه أكثر مما ينبغي، لأنه صاحب السيادة."
-    },
-    {
-      "location": "Paragraph under “Relationships”",
-      "severity": "major",
-      "source_quote": "The life of God can flow through us and both show others the way to Him and give us joy and fulfillment in doing it.",
-      "suggested_fix": "ويمكن لحياة الله أن تجري فينا، فتُري الآخرين الطريق إليه وتمنحنا الفرح والإشباع ونحن نفعل ذلك.",
-      "translation_quote": "ويمكن لحياة الله أن تجري فينا، فترينا الطريق إليه وتمنحنا الفرح والإشباع ونحن نفعل ذلك."
-    },
-    {
-      "location": "Final paragraph, quoted Scripture",
-      "severity": "minor",
-      "source_quote": "at thy right hand there are pleasures for evermore",
-      "suggested_fix": "وفي يمينك لذّات إلى الأبد",
-      "translation_quote": "وفي يمينك نِعَم إلى الأبد"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "0b79390fb6ac5b7496689460f80f02b0",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ara",
@@ -179,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/18c2186c1295c47c04075ef2762adbedbd6d20fe5aab53eec4d3dda0200a660c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "849d8152dd99c5d161135a19fbdad1fc7471e8042bc4947e7e613b21270bb408",
   "translation_model_actual": "gpt-6-luna"

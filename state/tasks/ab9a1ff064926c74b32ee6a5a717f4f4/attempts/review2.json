@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"پہلا پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"Another year has passed us by, and another is spread out before us to navigate.\",\"suggested_fix\":\"«ایک اور سال گزر گیا، اور ایک اور سال ہمارے سامنے ہے جس میں ہمیں اپنا راستہ طے کرنا ہے۔» میں «ایک اور» سے مراد سال کو واضح کریں، مثلاً: «ایک اور سال گزر گیا، اور ایک اور سال ہمارے سامنے ہے جس میں ہمیں راستہ طے کرنا ہے۔»\",\"translation_quote\":\"ایک اور سال گزر گیا، اور ایک اور سال ہمارے سامنے ہے جس میں ہمیں اپنا راستہ طے کرنا ہے۔\"},{\"location\":\"چھٹا پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"first generation Christians are “on fire” for their Lord\",\"suggested_fix\":\"«اپنے خداوند کے لیے بہت پُرجوش» جیسی فطری تعبیر استعمال کریں؛ موجودہ لفظی استعارہ اردو میں غیر فطری ہے۔\",\"translation_quote\":\"پہلی نسل کے مسیحی اپنے خداوند کے لیے ”آگ میں جل رہے“ ہوتے ہیں۔\"},{\"location\":\"آٹھواں پیراگراف، متی 24:3-5 کا اقتباس\",\"severity\":\"major\",\"source_quote\":\"and shall deceive many\",\"suggested_fix\":\"اقتباس کا آخری حصہ یوں درست کریں: «اور بہتوں کو گمراہ کریں گے»۔ موجودہ ترجمے میں «بہتیرے میرے نام سے آئیں گے» کے بعد «کہیں گے کہ میں مسیح ہوں» موجود ہے، مگر «اور بہتوں کو گمراہ کریں گے» والا جملہ حذف ہو گیا ہے۔ اصل HTML ٹیگ اور اقتباس کی ترتیب برقرار رکھیں۔\",\"translation_quote\":\"کیونکہ بہتیرے میرے نام سے آئیں گے اور کہیں گے کہ میں مسیح ہوں، اور بہتوں کو گمراہ کریں گے—متی 24:3-5۔\"},{\"location\":\"آخری پیراگراف، لوقا 9:23-24 کا اقتباس\",\"severity\":\"major\",\"source_quote\":\"but whosoever will lose his life for my sake, the same shall save it\",\"suggested_fix\":\"«لیکن جو کوئی میری خاطر اپنی جان کھوئے، وہی اُسے بچائے گا» کریں۔ موجودہ عبارت «جو کوئی میری خاطر اپنی جان کھوئے وہ اُسے بچائے گا» میں «وہی» کا زور غائب ہے؛ اقتباس کی دیگر عبارت اور HTML ساخت برقرار رکھیں۔\",\"translation_quote\":\"لیکن جو کوئی میری خاطر اپنی جان کھوئے وہ اُسے بچائے گا\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 2761,
+    "content_evidence_truncated": false,
+    "content_sha256": "d87f46e581cc435a25ed00b093be94de7cbba9ac5e7c8ab10fe4a0ff37f9745c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 575,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5387,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5384,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5962
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

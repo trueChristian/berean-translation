@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Puisi, bait 6",
+      "severity": "major",
+      "source_quote": "“My chosen one, I alone can fulfill, that for which your heart yearns.”",
+      "suggested_fix": "Terjemahkan lengkap dengan tanda kutip penutup dan pertahankan tag HTML: “Engkau pilihan-Ku, hanya Aku yang dapat memenuhi apa yang dirindukan hatimu.”</p>",
+      "translation_quote": "“Engkau pilihan-Ku,\n    Hanya Aku dapat memenuhi kerinduan hatimu.</p>"
+    },
+    {
+      "location": "Puisi, bait 8",
+      "severity": "major",
+      "source_quote": "“For him that in God does delight.”",
+      "suggested_fix": "Ganti dengan frasa yang menyatakan bersukacita di dalam Allah, bukan bersukacita bagi Allah: “Bagi dia yang bersukacita di dalam Allah.”",
+      "translation_quote": "Bagi dia yang bersukacita di dalam Allah."
+    },
+    {
+      "location": "Puisi, bait 11",
+      "severity": "major",
+      "source_quote": "“Well done.”",
+      "suggested_fix": "Ganti “Baik sekali” dengan padanan yang menyampaikan pujian atas pekerjaan yang telah dilakukan, misalnya: “Baik sekali perbuatanmu.”",
+      "translation_quote": "“Baik sekali.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

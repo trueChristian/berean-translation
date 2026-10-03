@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “It is not that life grows poorer”; quotation of John 6:27",
+      "severity": "major",
+      "source_quote": "Christ labored <em>…not for the meat which perisheth, but for that meat which endureth unto everlasting life… –John 6:27</em>",
+      "suggested_fix": "Replace only the quoted clause with a faithful Urdu rendering of Christ’s action, preserving the existing <em> tags and reference: <em>…نے اُس خوراک کے لیے محنت کی جو فنا ہوتی ہے نہیں، بلکہ اُس خوراک کے لیے جو ہمیشہ کی زندگی تک باقی رہتی ہے…—یوحنا 6:27</em>.",
+      "translation_quote": "مسیح نے <em>…اُس خوراک کے لیے محنت کرنے کو کہا جو فنا ہوتی ہے نہیں، بلکہ اُس خوراک کے لیے جو ہمیشہ کی زندگی تک باقی رہتی ہے…—یوحنا 6:27</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

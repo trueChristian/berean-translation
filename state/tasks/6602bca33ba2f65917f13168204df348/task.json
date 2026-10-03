@@ -2,7 +2,6 @@
   "article_id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,82 @@
         },
         "total_tokens": 8410
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1000,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5505,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5502,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6505
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, Scripture quotation from Zechariah 4:10",
+      "location": "source.html, avsnitt 2",
       "severity": "major",
-      "source_quote": "For who hath despised the day of small things… –Zechariah 4:10.",
-      "suggested_fix": "Replace only the quoted wording with «For hvem har foraktet dagen med små ting …», keeping the existing <em> tag and reference in place.",
-      "translation_quote": "For hvem har foraktet den dagen da det begynte i det små … –Sakarja 4:10."
+      "source_quote": "“Then suddenly, our labors were abruptly ended by burn-out and a host of government suspicions.”",
+      "suggested_fix": "Erstatt med «Så tok arbeidet vårt plutselig brått slutt på grunn av utbrenthet og en rekke mistanker fra myndighetene.» Kilden sier at arbeidet tok slutt på grunn av utbrenthet, ikke at det ble avsluttet av «utbrenthet».",
+      "translation_quote": "«Så ble arbeidet vårt plutselig brått avsluttet på grunn av utbrenthet og en rekke mistanker fra myndighetene.»"
+    },
+    {
+      "location": "source.html, avsnitt 3",
+      "severity": "major",
+      "source_quote": "“I wipe the baby’s nose for the umpteenth time as she sits on top of the table disrupting her brother’s books and papers.”",
+      "suggested_fix": "Endre «Jeg tørker babyen på nesen for tusende gang» til «Jeg tørker nesen til babyen for tusende gang».",
+      "translation_quote": "«Jeg tørker babyen på nesen for tusende gang»"
+    },
+    {
+      "location": "source.html, avsnitt 4",
+      "severity": "major",
+      "source_quote": "“It is He who designed that my spiritual walk and the propagation thereof happens as my hands touch the earthly.”",
+      "suggested_fix": "Endre «Det er han som har bestemt at min åndelige vandring og utbredelsen av den skjer når hendene mine berører det jordiske» til «Det er han som har lagt det slik til rette at min åndelige vandring og utbredelsen av evangeliet skjer når hendene mine berører det jordiske».",
+      "translation_quote": "«Det er han som har bestemt at min åndelige vandring og utbredelsen av den skjer når hendene mine berører det jordiske.»"
+    },
+    {
+      "location": "source.html, avsnitt 5",
+      "severity": "major",
+      "source_quote": "“But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty; And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are: That no flesh should glory in his presence –1 Corinthians 1:27-29.”",
+      "suggested_fix": "Bruk «1. Korinterbrev» som konvensjonelt boknavn og fjern den innskutte tankestreken foran referansen. For eksempel: «… for at ingen mennesker skal rose seg overfor Gud – 1. Korinterbrev 1:27-29.»",
+      "translation_quote": "«… for at ingen mennesker skal rose seg overfor Gud –1. Korinter 1:27-29.»"
+    },
+    {
+      "location": "source.html, avsnitt 7",
+      "severity": "major",
+      "source_quote": "“To have my heart set on accomplishments and success is a selfish way to live.”",
+      "suggested_fix": "Endre «Å være opptatt av prestasjoner og suksess er en egoistisk måte å leve på» til «Å ha hjertet innstilt på prestasjoner og suksess er en egoistisk måte å leve på.»",
+      "translation_quote": "«Å være opptatt av prestasjoner og suksess er en egoistisk måte å leve på.»"
+    },
+    {
+      "location": "source.html, avsnitt om Gideons hær",
+      "severity": "major",
+      "source_quote": "“Normally, Gideon was accustomed to armies of thousands. and now God was asking him to fight a momentous battle with only a few hundred.”",
+      "suggested_fix": "Endre «Vanligvis var Gideon vant til hærer på flere tusen. og nå ba Gud ham kjempe et avgjørende slag med bare noen få hundre» til «Gideon var vanligvis vant til hærer på flere tusen, men nå ba Gud ham kjempe et avgjørende slag med bare noen få hundre».",
+      "translation_quote": "«Vanligvis var Gideon vant til hærer på flere tusen. og nå ba Gud ham kjempe et avgjørende slag med bare noen få hundre.»"
+    },
+    {
+      "location": "source.html, kildeliste, punkt 5",
+      "severity": "major",
+      "source_quote": "“Luke 6:13-16, John 19”",
+      "suggested_fix": "Fjern anførselstegnene og bruk norske boknavn, med referansene uendret: «Lukas 6:13-16, Johannes 19».",
+      "translation_quote": "««Lukas 6:13-16, Johannes 19»»"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "6602bca33ba2f65917f13168204df348",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nob",
@@ -165,13 +228,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
   "translation_model_actual": "gpt-6-luna"

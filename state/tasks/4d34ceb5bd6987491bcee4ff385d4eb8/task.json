@@ -2,7 +2,6 @@
   "article_id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 8359
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 646,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 614,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5420,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5417,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6066
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article body, Zechariah quotation",
-      "severity": "major",
-      "source_quote": "For who hath despised the day of small things… –Zechariah 4:10.",
-      "suggested_fix": "Replace «Ибо кто возненавидел день малых сих…» with «Ибо кто пренебрёг днём малых сих…»; preserve the existing reference and markup.",
-      "translation_quote": "Ибо кто возненавидел день малых сих… –Захария 4:10."
-    },
-    {
-      "location": "Article body, paragraph beginning “Из этих примеров мы видим”",
-      "severity": "major",
-      "source_quote": "God has chosen these weak things to be significant in His kingdom.",
-      "suggested_fix": "Change «Бог избрал это немощное, чтобы оно имело значение в Его Царстве» to «Бог избрал эти немощные вещи, чтобы они имели значение в Его Царстве».",
-      "translation_quote": "Бог избрал это немощное, чтобы оно имело значение в Его Царстве."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "4d34ceb5bd6987491bcee4ff385d4eb8",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "rus",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
   "translation_model_actual": "gpt-6-luna"

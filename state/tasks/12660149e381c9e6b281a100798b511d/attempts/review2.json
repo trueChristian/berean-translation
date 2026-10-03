@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Section 7, paragraph 1\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“they have a short fuse.”\",\n      \"suggested_fix\": \"Replace “hukata tamaa upesi” with “hukasirika upesi” to convey that they are quick-tempered.\",\n      \"translation_quote\": \"“hukata tamaa upesi.”\"\n    },\n    {\n      \"location\": \"Section 3, paragraph 1\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“when that better person is your wife.”\",\n      \"suggested_fix\": \"Correct “anapekuwa” to “anapokuwa.”\",\n      \"translation_quote\": \"“Mambo huwa magumu zaidi mtu huyo anapekuwa mke wako.”\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 688,
+    "content_evidence_truncated": false,
+    "content_sha256": "44545b07fdf2b5623fc6930c78fff9e1bd30d6eb2d50a8fb05817e2a2ee561ce",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 794,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11416,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12422
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

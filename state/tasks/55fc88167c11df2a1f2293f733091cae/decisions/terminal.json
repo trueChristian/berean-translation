@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Veel van de leerstellingen…”",
+      "severity": "minor",
+      "source_quote": "without needing to be a partaker of the “fellowship of His sufferings”",
+      "suggested_fix": "Vervang alleen “deel te hoeven hebben aan ‘de gemeenschap aan Zijn lijden’” door “deel te hoeven nemen aan ‘de gemeenschap van Zijn lijden’”.",
+      "translation_quote": "zonder deel te hoeven hebben aan “de gemeenschap aan Zijn lijden”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

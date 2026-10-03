@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "This is how my spirit is refined.",
+      "suggested_fix": "Replace the sentence with: “Hivi ndivyo roho yangu inavyosafishwa na kukuzwa.”",
+      "translation_quote": "Hivi ndivyo roho yangu inavyokua na kukomaa."
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "major",
+      "source_quote": "Sometimes it will happen sub-consciously, sometimes it happens if we decide to reach out instead of taking a nap or something else enjoyable",
+      "suggested_fix": "Revise the relevant clause to: “Nyakati nyingine hilo litatokea bila sisi kutambua; nyakati nyingine hutokea tunapoamua kuwafikia wengine badala ya kulala usingizi wa mchana au kufanya jambo jingine la kufurahisha”",
+      "translation_quote": "Nyakati nyingine hilo litatokea bila sisi kutambua; nyakati nyingine hutokea tunapoamua kuwafikia wengine badala ya kulala usingizi wa mchana au kujishughulisha na jambo jingine la kufurahisha"
+    },
+    {
+      "location": "Paragraph 11",
+      "severity": "major",
+      "source_quote": "we cannot confuse our resignation to the smallness in our lives, with lethargy.",
+      "suggested_fix": "Replace “kukubali udogo wa mambo katika maisha yetu” with “kujizoeza na mambo madogo katika maisha yetu” to convey resignation/acquiescence rather than acceptance in the neutral sense.",
+      "translation_quote": "hatupaswi kuchanganya kukubali udogo wa mambo katika maisha yetu na kulegea."
+    },
+    {
+      "location": "Paragraph 17",
+      "severity": "major",
+      "source_quote": "those simple fishermen turned the world upside down with the gospel.",
+      "suggested_fix": "Replace “wavuvi hao wa kawaida waliugeuza ulimwengu kwa injili” with “wavuvi hao wa kawaida waliupindua ulimwengu kwa injili.”",
+      "translation_quote": "wavuvi hao wa kawaida waliugeuza ulimwengu kwa injili."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

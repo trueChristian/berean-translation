@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, first stanza\",\"severity\":\"major\",\"source_quote\":\"“Come My child, your burden I’ll bear.”\",\"suggested_fix\":\"Change «میرے بچو» to «میرے بچے» so the address remains singular, as in the source.\",\"translation_quote\":\"”آؤ، میرے بچو، میں تمہارا بوجھ اٹھاؤں گا۔“\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 383,
+    "content_evidence_truncated": false,
+    "content_sha256": "5e6e8364e08fa6d1339bebd32dbd47ab5f801d143a8f6f44778abc06bac7b8ed",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 635,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2542,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3293
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

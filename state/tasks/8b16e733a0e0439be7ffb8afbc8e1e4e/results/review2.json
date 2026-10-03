@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5d216390-a2ad-407e-8f84-e11a22ce8818",
+    "response_id": "chatcmpl-EUz8v9mVgfAuw5HoNEjNozUj5MbNg",
+    "usage": {
+      "completion_tokens": 209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10648,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10645,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10857
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, sección «La grandeza del amor», encabezado c.) y párrafos bíblicos",
+        "severity": "major",
+        "source_quote": "<h3>c.) It endureth all things.</h3>",
+        "suggested_fix": "Cambie el encabezado a «<h3>c.) Todo lo soporta.</h3>» y traduzca el texto del versículo de 1 Crónicas 16:34 como «<em>Den gracias al SEÑOR, porque es bueno; porque para siempre es su misericordia –1 Crónicas 16:34.</em>» (o con otra formulación fiel).",
+        "translation_quote": "<h3>c.) Todo lo soporta.</h3> ... <em>Den gracias al SEÑOR, porque él es bueno; porque su misericordia es para siempre –1 Crónicas 16:34.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

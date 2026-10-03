@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,32 +64,47 @@
         },
         "total_tokens": 18118
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1003,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 794,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11419,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11416,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12422
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article HTML, opening Scripture quotation (1 Wakorintho 13:1-13)",
+      "location": "Section 7, paragraph 1",
       "severity": "major",
-      "source_quote": "“Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.”",
-      "suggested_fix": "Replace the corrupted characters “yatाबatilika” with Kiswahili text, for example “yatabatilika,” so the sentence reads “zikiwepo lugha, zitakoma; yakiwepo maarifa, yatabatilika.”",
-      "translation_quote": "“zikiwepo lugha, zitakoma; yakiwepo maarifa, yatाबatilika.”"
+      "source_quote": "“they have a short fuse.”",
+      "suggested_fix": "Replace “hukata tamaa upesi” with “hukasirika upesi” to convey that they are quick-tempered.",
+      "translation_quote": "“hukata tamaa upesi.”"
     },
     {
-      "location": "Article HTML, section 3. Generosity, paragraph beginning “There is only one character trait…”",
-      "severity": "major",
-      "source_quote": "“If envy rules, subtle things like carrying a cabinet awkwardly can hinder the work. Pinching someone’s fingers in a tight doorway is a perfect way to reduce my foe down to his size and the work successfully is hindered, and I can still maintain my innocence.”",
-      "suggested_fix": "Revise this sentence to preserve the speaker’s description of spitefully pinching someone’s fingers in a tight doorway and hindering the work while maintaining plausible innocence; for example: “Kumnasa mtu vidole kwenye mlango mwembamba ni njia nzuri ya kumshusha adui yangu hadi kiwango chake na kuzuia kazi ifanyike vizuri, nami bado ninaweza kujifanya sina hatia.”",
-      "translation_quote": "“Kumnasa mtu vidole kwenye mlango mwembamba ni njia bora ya kumshusha adui yangu hadi kiwango chake na kuzuia kazi ifanyike vizuri, nami bado ninaweza kuendelea kujiona sina hatia.”"
-    },
-    {
-      "location": "Article HTML, section 8, second paragraph",
-      "severity": "major",
-      "source_quote": "“If we treat our spouses dishonorably and with disrespect, there is a good chance they will become or remain the person we detest.”",
-      "suggested_fix": "Correct the garbled phrase “Tukiwa tenda wake zetu” to express treating one’s spouse dishonorably and disrespectfully, for example: “Tukiwatendea wenzi wetu kwa dharau na bila heshima, kuna uwezekano mkubwa kwamba watakuwa au wataendelea kuwa watu tunaowachukia.”",
-      "translation_quote": "“Tukiwa tenda wake zetu kwa dharau na bila heshima, kuna uwezekano mkubwa kwamba watakuwa au wataendelea kuwa watu tunaowachukia.”"
+      "location": "Section 3, paragraph 1",
+      "severity": "minor",
+      "source_quote": "“when that better person is your wife.”",
+      "suggested_fix": "Correct “anapekuwa” to “anapokuwa.”",
+      "translation_quote": "“Mambo huwa magumu zaidi mtu huyo anapekuwa mke wako.”"
     }
   ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "12660149e381c9e6b281a100798b511d",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "swa",
@@ -179,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

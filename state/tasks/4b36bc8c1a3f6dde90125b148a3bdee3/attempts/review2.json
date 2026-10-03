@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Gang-leader account, paragraph beginning “আমি পাশের গ্রামে…”\",\"severity\":\"major\",\"source_quote\":\"“I wanted God to save him.”\",\"suggested_fix\":\"“আমি চেয়েছিলাম ঈশ্বর তাকে পরিত্রাণ দিন।”\",\"translation_quote\":\"“আমি চেয়েছিলাম ঈশ্বর তাকে রক্ষা করুন।”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 480,
+    "content_evidence_truncated": false,
+    "content_sha256": "b31a5e94c5ac449ac37cdc8f2c127bf162130e169611cffec03251cf8841bcc6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 703,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8720,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8717,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9527
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

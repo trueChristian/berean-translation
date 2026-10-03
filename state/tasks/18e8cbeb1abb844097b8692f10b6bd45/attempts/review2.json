@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Shairi, ubeti wa 3\",\"severity\":\"major\",\"source_quote\":\"“Nor dare I think in years / Or move from leaps to bounds; / With God shut out, and self shut in / And selfish aims surround.”\",\"suggested_fix\":\"Badili mistari ya mwisho ili ihifadhi maana ya kujifungia katika nafsi na kuzungukwa na malengo ya ubinafsi, bila kuongeza maana ya mwandishi kumwacha Mungu nje kimakusudi. Kwa mfano: “Wala sitathubutu kuwaza kwa miaka mingi / Au kuruka kutoka hatua moja kubwa hadi nyingine; / Mungu akiwa nje, nami nimejifungia ndani, / Na malengo ya ubinafsi yamenizunguka.”\",\"translation_quote\":\"Wala sitathubutu kuwaza kwa miaka mingi / Au kuruka hatua kubwa; / Huku nikimwacha Mungu nje na kujifungia ndani yangu mwenyewe, / Nikiwa nimezungukwa na malengo ya ubinafsi.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 821,
+    "content_evidence_truncated": false,
+    "content_sha256": "c5b7e26a393ba9e89ba024625d62ac42a36f46be3c5492e19dd8dea19b72f9ee",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 230,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1987,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2220
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

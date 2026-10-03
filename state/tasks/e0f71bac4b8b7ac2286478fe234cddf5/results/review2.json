@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "027bbab8-e39e-4454-9c19-9a70b2ab24ce",
+    "response_id": "chatcmpl-EUz8eTtLlqgMuwbkUfXjgZiFETmFZ",
+    "usage": {
+      "completion_tokens": 638,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3612,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4253
+    }
+  },
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, third paragraph",
+        "severity": "minor",
+        "source_quote": "Since then, humans have been at war, both within their own hearts and without, with other folks.",
+        "suggested_fix": "Ända sedan dess har människor befunnit sig i krig, både i sina egna hjärtan och med andra människor.",
+        "translation_quote": "Ända sedan dess har människor befunnit sig i krig, både i sina egna hjärtan och utåt, med andra människor."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "61996151-3b49-4498-9285-995520ca542d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 13210
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 454,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 428,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8787,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8784,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9241
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Citas de Hebreos 4:9-11 y Hebreos 4:11",
-      "severity": "major",
-      "source_quote": "“lest any man fall after the same example of unbelief”",
-      "suggested_fix": "En ambas citas, sustituir «desobediencia» por «incredulidad» para conservar el sentido de “unbelief” en el texto fuente. Por ejemplo: «Procuremos, pues, entrar en aquel reposo, para que nadie caiga siguiendo el mismo ejemplo de incredulidad».",
-      "translation_quote": "«que ninguno caiga en semejante ejemplo de desobediencia»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "c0c33bd8bc91d06f570dfb8962d59376",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "spa",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/524d40c54ec6764637a5f253440ead3daccb8d3dce30013c3273f7254041ebde.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4287665e0bb0dbf9abc51c5feff816370fd437e282ddae8b58eaace1a92e537a",
   "translation_model_actual": "gpt-6-luna"

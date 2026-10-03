@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Mental Health and Emotional Stability; paragraph beginning “Some years ago…”",
+      "severity": "minor",
+      "source_quote": "“the flashback memories he had”",
+      "suggested_fix": "Replace “স্মৃতিচারণমূলক দৃশ্যগুলো” with “আঘাতজনক ঘটনার আকস্মিক ফ্ল্যাশব্যাকগুলো” to convey intrusive flashback memories rather than ordinary recollection.",
+      "translation_quote": "“সেই স্মৃতিচারণমূলক দৃশ্যগুলো”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

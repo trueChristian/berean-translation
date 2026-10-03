@@ -2,7 +2,6 @@
   "article_id": "15567d7e-1146-48d9-9b34-a0f770ca06fc",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,89 @@
         },
         "total_tokens": 14852
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Third paragraph, Miriam sentence",
-      "severity": "major",
-      "source_quote": "Miriam, at the age of twelve, stood post over the future deliverer of the entire Jewish nation and secured her own mother, Jochebed, to be the nurse of the baby Moses.",
-      "suggested_fix": "Replace “अपने ही माता-पिता, योकेबेद, को” with “अपनी ही माता, योकेबेद, को” to preserve that Jochebed was Miriam’s mother.",
-      "translation_quote": "बारह वर्ष की मरियम ने पूरे यहूदी राष्ट्र के भावी उद्धारकर्ता की रखवाली की और अपने ही माता-पिता, योकेबेद, को बालक मूसा की धाय बनने की व्यवस्था की।"
     },
     {
-      "location": "“...आशा” section, Hebrews 10:12–13 quotation",
-      "severity": "major",
-      "source_quote": "From henceforth expecting till his enemies be made his footstool.",
-      "suggested_fix": "Replace “उसके बैरी उसके पाँवों की पीढ़ी बनें” with “उसके बैरी उसके पाँवों की चौकी बनें” so the image of a footstool is preserved.",
-      "translation_quote": "और उसी समय से इसकी बाट जोह रहा है कि उसके बैरी उसके पाँवों की पीढ़ी बनें।"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1125,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9376,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9373,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10501
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "शीर्षक / h2 “...तेरे युवाकाल की ओस”",
+      "severity": "major",
+      "source_quote": "...Thou hast the dew of thy youth",
+      "suggested_fix": "स्रोत के इस उद्धरण का आशय बनाए रखते हुए शीर्षक को “...तेरे युवाकाल की ओस बनी रहती है” करें।",
+      "translation_quote": "...तेरे युवाकाल की ओस"
+    },
+    {
+      "location": "पहला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "It was a the younger prodigal brother that asked for an early draw on his inheritance then went and wasted it on riotous living.",
+      "suggested_fix": "“वह छोटा उड़ाऊ भाई ही था जिसने अपनी विरासत का हिस्सा समय से पहले माँगा और फिर उसे ऐयाशी में उड़ा दिया।” करें।",
+      "translation_quote": "वह छोटा उड़ाऊ भाई ही था जिसने अपनी विरासत में से हिस्सा पहले ही माँगा और फिर जाकर उसे ऐयाशी में उड़ा दिया।"
+    },
+    {
+      "location": "परिचय, दीना का प्रसंग",
+      "severity": "major",
+      "source_quote": "There, she was exposed to the heathen young men of the land and occasioned a bloody massacre, leaving Jacob as a stench in the land.",
+      "suggested_fix": "“वहाँ वह उस देश के विधर्मी जवानों के संपर्क में आई और उसके कारण एक खूनी नरसंहार हुआ, जिससे याकूब उस देश में दुर्गंध के समान हो गया।” करें।",
+      "translation_quote": "वहाँ वह उस देश के विधर्मी जवानों के संपर्क में आई और एक खूनी नरसंहार का कारण बनी, जिससे याकूब उस देश में दुर्गंध के समान हो गया।"
+    },
+    {
+      "location": "“आशा” खंड, रोमियों 5:3-4 का उद्धरण",
+      "severity": "major",
+      "source_quote": "And patience, experience; and experience, hope",
+      "suggested_fix": "“और धीरज से अनुभव, और अनुभव से आशा” करें; मौजूदा “खरा निकलना/खरे निकलने” स्रोत के “experience” को इस संदर्भ में ठीक से नहीं दर्शाता।",
+      "translation_quote": "और धीरज से खरा निकलना, और खरे निकलने से आशा उत्पन्न होती है"
+    },
+    {
+      "location": "“आशा” खंड, युवा आशा पर अनुच्छेद",
+      "severity": "major",
+      "source_quote": "There is an effervescent expectation that is naturally and magnificently borne in youth and retained in Christ.",
+      "suggested_fix": "“युवावस्था में स्वाभाविक रूप से और अद्भुत ढंग से एक उल्लासपूर्ण अपेक्षा जन्म लेती है और मसीह में बनी रहती है।” करें।",
+      "translation_quote": "युवावस्था में स्वाभाविक रूप से और अद्भुत ढंग से एक उत्साहपूर्ण अपेक्षा जन्म लेती है और मसीह में बनी रहती है।"
+    },
+    {
+      "location": "“हमारी दुर्बलताओं को चंगा करती है” खंड, बेथेस्दा का प्रसंग",
+      "severity": "major",
+      "source_quote": "The impotent man of 38 years at Bethesda could only utter a hopeless complaint when Christ asked him, …Wilt thou be made whole? –John 5:6.",
+      "suggested_fix": "“बेथेस्दा में अड़तीस वर्ष से रोगी पड़ा वह मनुष्य मसीह के ‘…क्या तू चंगा होना चाहता है?—यूहन्ना 5:6।’ पूछने पर केवल निराशा से भरी शिकायत ही कर सका।” करें।",
+      "translation_quote": "बेथेस्दा का अड़तीस वर्ष से लाचार मनुष्य, जब मसीह ने उससे पूछा, …क्या तू चंगा होना चाहता है?—यूहन्ना 5:6। तो केवल निराशा से भरी शिकायत ही कर सका।"
+    },
+    {
+      "location": "“हमारी आकांक्षाओं को नम्र करती है” खंड, 1 यूहन्ना 2:14 उद्धरण",
+      "severity": "major",
+      "source_quote": "…I have written unto you, young men, because ye are strong, and the word of God abideth in you, and ye have overcome the wicked one. –1 John 2:14.",
+      "suggested_fix": "उद्धरण को इस अर्थ में अनुवादित करें: “...हे जवानों, मैंने तुम्हें इसलिए लिखा है कि तुम बलवान हो, परमेश्वर का वचन तुम में बना रहता है और तुमने उस दुष्ट पर विजय पाई है—1 यूहन्ना 2:14।”",
+      "translation_quote": "…मैं ने तुम्हें, हे जवानों, इसलिये लिखा है, कि तुम बलवन्त हो, और परमेश्वर का वचन तुम में बना रहता है, और तुम ने उस दुष्ट पर जय पाई है।—1 यूहन्ना 2:14।"
+    },
+    {
+      "location": "“हमारी आकांक्षाओं को नम्र करती है” खंड, 1 यूहन्ना 2:16-17 उद्धरण",
+      "severity": "major",
+      "source_quote": "…the pride of life…",
+      "suggested_fix": "“जीविका का घमण्ड” की जगह “जीवन का घमण्ड” करें; स्रोत में आशय जीवन के घमण्ड से है, जीविका से नहीं।",
+      "translation_quote": "…और जीविका का घमण्ड…"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "6744c1c68495283753e2f5839fbee07d",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "hin",
@@ -172,13 +235,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/62e446a54bc7f848b338fc83c1c9d9a05682ee580d3223cf5cf3277d63377c00.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "65b6a768168915ab8f91c283e9f1950476647ff04800571a514b3c3fbaae3be9",
   "translation_model_actual": "gpt-6-luna"

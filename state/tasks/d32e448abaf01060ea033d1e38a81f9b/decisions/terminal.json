@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Sedan dess har jag besökt hundratals kyrkor”",
+      "severity": "minor",
+      "source_quote": "“We know that God is power.”",
+      "suggested_fix": "Överväg den idiomatiska formuleringen ”Vi vet att Gud är kraften.”",
+      "translation_quote": "“Vi vet att Gud är kraft.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

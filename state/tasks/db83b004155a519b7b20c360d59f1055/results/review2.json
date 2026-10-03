@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "37a114da-06d9-4bd4-80c9-bc558f38f4e3",
+    "response_id": "chatcmpl-EUz7ZYj9u3I5a0IfacxSqMTVwWYqm",
+    "usage": {
+      "completion_tokens": 753,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 592,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4948,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5704
+    }
+  },
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Абзац о солдате с ПТСР",
+        "severity": "minor",
+        "source_quote": "I found myself becoming increasingly frustrated with the lack of answers that were being provided to a severely struggling young man.",
+        "suggested_fix": "Заменить «из-за того, что тяжело страдающему молодому человеку не предлагали никаких ответов» на «из-за недостатка ответов, которые предлагали тяжело страдающему молодому человеку».",
+        "translation_quote": "я всё больше раздражался из-за того, что тяжело страдающему молодому человеку не предлагали никаких ответов."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

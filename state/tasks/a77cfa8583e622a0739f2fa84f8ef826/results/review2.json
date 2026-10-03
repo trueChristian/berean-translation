@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9e83ff44-0a52-436d-9c98-0e3084e3b1bf",
+    "response_id": "chatcmpl-EUz57wgnAnmSk8bQeEEnnDy3mBQHz",
+    "usage": {
+      "completion_tokens": 870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 504,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11180,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11177,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12050
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening Scripture quotation (1 Korintus 13:7)",
+        "severity": "major",
+        "source_quote": "“Beareth all things”",
+        "suggested_fix": "Ganti “Ia menutupi segala sesuatu” dengan “Ia menanggung segala sesuatu” agar maknanya sesuai dengan “Beareth all things” dan tidak tertukar dengan menutupi atau menyembunyikan.",
+        "translation_quote": "“Ia menutupi segala sesuatu”"
+      },
+      {
+        "location": "HTML, heading 2 and its paragraph",
+        "severity": "major",
+        "source_quote": "“2. Kindness” and “Kindness is love in action!”",
+        "suggested_fix": "Gunakan istilah yang membedakan kindness dari generosity pada bagian 3, misalnya ubah judul menjadi “2. Kebaikan hati” dan sesuaikan pemakaian “kemurahan hati” dalam paragraf ini menjadi “kebaikan hati” atau “bersikap baik” sesuai konteks.",
+        "translation_quote": "“2. Kemurahan hati” and “Kemurahan hati adalah kasih dalam tindakan!”"
+      },
+      {
+        "location": "HTML, kutipan Amsal 29:23",
+        "severity": "major",
+        "source_quote": "“A man’s pride shall bring him low: but honour shall uphold the humble in spirit”",
+        "suggested_fix": "Terjemahkan bagian akhir sebagai penghormatan yang menopang orang yang rendah hati, misalnya: “Kecongkakan seseorang akan merendahkannya, tetapi penghormatan menopang orang yang rendah hati.”",
+        "translation_quote": "“Kecongkakan seseorang akan merendahkannya, tetapi orang yang rendah hati akan menerima penghormatan”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

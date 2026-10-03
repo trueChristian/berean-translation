@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 2",
+      "severity": "major",
+      "source_quote": "But only for today to live / My God alone to please.",
+      "suggested_fix": "Replace the stanza’s final two lines with «utan bara för att leva i dag / och behaga endast min Gud.»",
+      "translation_quote": "utan bara för att i dag leva / så att endast min Gud blir nöjd."
+    },
+    {
+      "location": "Poem, stanza 3",
+      "severity": "major",
+      "source_quote": "With God shut out, and self shut in / And selfish aims surround.",
+      "suggested_fix": "Replace the final two lines with «när Gud stängs ute och jaget stängs in / och själviska mål omger.»",
+      "translation_quote": "när Gud hålls utanför och jaget hålls instängt / och själviska mål omger mig."
+    },
+    {
+      "location": "Poem, stanza 6",
+      "severity": "major",
+      "source_quote": "This night, that soul of thine / May be required of thee:",
+      "suggested_fix": "Replace the first two lines with «”I natt kan din själ / utkrävas av dig:»",
+      "translation_quote": "”I natt kan din själ / krävas tillbaka av dig:"
+    },
+    {
+      "location": "Poem, stanza 7",
+      "severity": "major",
+      "source_quote": "If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?",
+      "suggested_fix": "Replace the final two lines with «Om Gud om bara tre timmar, JUST I DAG, / skulle avsluta ditt lopp I NATT?»",
+      "translation_quote": "Om Gud om bara tre timmar, JUST I DAG, / skulle avsluta din livsvandring I NATT?”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

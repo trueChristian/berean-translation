@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Första stycket",
+      "severity": "major",
+      "source_quote": "since I had dropped into bed from my last admission",
+      "suggested_fix": "Ändra till exempelvis ”sedan jag stupade i säng efter att ha tagit emot min senaste patient” så att det framgår att det är patientens inläggning, inte författarens egen.",
+      "translation_quote": "sedan jag stupade i säng efter min senaste inläggning"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

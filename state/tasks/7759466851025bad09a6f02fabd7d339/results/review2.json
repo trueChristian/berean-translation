@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2c4f8b56-2812-4180-b9f6-662584832e3a",
+    "response_id": "chatcmpl-EUz8HPcPS5a1x5h9W6moHYgi84YeE",
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1972,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1969,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2636
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second poem, first stanza",
+        "severity": "major",
+        "source_quote": "“Boast not thyself,” I’m warned,<br>“Of what tomorrow brings;",
+        "suggested_fix": "Replace the stanza’s first two lines with a single, non-repeated rendering of the warning, for example: <p>״הוזהרתי: אל תתפאר<br>\n    במה שיביא המחר;״</p>",
+        "translation_quote": "״אל תתפאר במה שיביא המחר״, מזהירים אותי,<br>\n    ״על מה שיביא המחר;"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

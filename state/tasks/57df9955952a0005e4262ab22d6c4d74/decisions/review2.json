@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "source.html — Genesis work paragraph; translation.html corresponding paragraph",
+      "severity": "major",
+      "source_quote": "Work is ordained by God. In Genesis Chapter 2, God gave Adam the task of caring for the Garden of Eden.",
+      "suggested_fix": "Replace «کام خدا کی مقرر کردہ چیز ہے۔ پیدائش باب 2 میں خدا نے آدم کو باغِ عدن کی نگہبانی کا کام دیا۔» with «کام خدا کی طرف سے مقرر کیا گیا ہے۔ پیدائش باب 2 میں خدا نے آدم کو باغِ عدن کی دیکھ بھال کا کام سونپا۔»",
+      "translation_quote": "کام خدا کی مقرر کردہ چیز ہے۔ پیدائش باب 2 میں خدا نے آدم کو باغِ عدن کی نگہبانی کا کام دیا۔"
+    },
+    {
+      "location": "source.html — Genesis rest quotation; translation.html corresponding quoted paragraph",
+      "severity": "major",
+      "source_quote": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.",
+      "suggested_fix": "Correct the quotation to convey that God finished the work he had made on the seventh day and rested on the seventh day from all his work; for example: «اور ساتویں دن خدا نے اپنا وہ کام مکمل کیا جو اس نے کیا تھا، اور اپنے سب کام سے، جو اس نے کیے تھے، ساتویں دن آرام کیا۔»",
+      "translation_quote": "اور خدا نے ساتویں دن اپنے کام کو جسے وہ کرتا تھا تمام کیا اور اپنے سارے کام سے جسے وہ کرتا تھا ساتویں دن فارغ ہوا۔"
+    },
+    {
+      "location": "source.html — Exodus 20:8-11 paragraph; translation.html corresponding paragraph",
+      "severity": "major",
+      "source_quote": "It was specifically commanded that the people were not to work on the Sabbath. And further, they were not to cause other people to work either.",
+      "suggested_fix": "Replace «واضح طور پر حکم تھا کہ لوگ سبت کے دن کام نہ کریں۔ مزید یہ کہ وہ دوسروں سے بھی کام نہ کروائیں۔» with «واضح طور پر حکم تھا کہ لوگ سبت کے دن کام نہ کریں، اور دوسروں سے بھی کام نہ کروائیں۔»",
+      "translation_quote": "واضح طور پر حکم تھا کہ لوگ سبت کے دن کام نہ کریں۔ مزید یہ کہ وہ دوسروں سے بھی کام نہ کروائیں۔"
+    },
+    {
+      "location": "source.html — New Testament reasons to work; translation.html corresponding paragraph",
+      "severity": "major",
+      "source_quote": "We are to work so we can provide for our families (see II Thessalonians 3:10).",
+      "suggested_fix": "Correct the reference to «2 تھسلنیکیوں 3:10» to «2 تھسلنیکیوں 3:10» only if the source is intended as II Thessalonians; however, the supplied translation already has the correct book and verse. No change to the reference is needed. Replace «خاندانوں کی کفالت» only if needed to express providing for one's family; the existing wording is faithful.",
+      "translation_quote": "ہمیں کام اس لیے کرنا ہے کہ اپنے خاندانوں کی کفالت کر سکیں (دیکھیں 2 تھسلنیکیوں 3:10)۔"
+    },
+    {
+      "location": "source.html — Deuteronomy work paragraph; translation.html corresponding paragraph",
+      "severity": "major",
+      "source_quote": "the Israelites were commanded to do all their work in six days and then rest the seventh day.",
+      "suggested_fix": "Replace «چھ دن میں اپنا سارا کام کریں» with «چھ دن تک اپنا سارا کام کریں» to preserve the meaning of doing the work over the six days.",
+      "translation_quote": "بنی اسرائیل کو حکم دیا گیا کہ چھ دن میں اپنا سارا کام کریں اور پھر ساتویں دن آرام کریں۔"
+    },
+    {
+      "location": "source.html — first Genesis 2:2-3 quotation; translation.html corresponding paragraph",
+      "severity": "major",
+      "source_quote": "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made –Genesis 2:2-3.",
+      "suggested_fix": "Correct the quotation so that «that in it» refers to the seventh day and retains the stated reason, that God rested from all his work: «اور خدا نے ساتویں دن کو برکت دی اور اسے مقدس ٹھہرایا، کیونکہ اسی دن اس نے اپنے سب کام سے آرام کیا، جو خدا نے پیدا اور بنایا تھا—پیدائش 2:2-3۔»",
+      "translation_quote": "اور خدا نے ساتویں دن کو برکت دی اور اُسے مقدس ٹھہرایا کیونکہ اُس دن اُس نے اپنے سب کام سے، جو خدا نے پیدا کیا اور بنایا تھا، آرام کیا—پیدائش 2:2-3۔"
+    },
+    {
+      "location": "source.html — source.section; translation.section",
+      "severity": "minor",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "Use a conventional Urdu rendering such as «ایک ڈاکٹر کی جانب سے» to convey the section label more naturally.",
+      "translation_quote": "ایک ڈاکٹر کی بات"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

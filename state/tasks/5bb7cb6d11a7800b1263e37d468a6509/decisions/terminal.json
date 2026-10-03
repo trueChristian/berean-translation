@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Kama makanisa yetu ya leo…”",
+      "severity": "minor",
+      "source_quote": "“they are seeking for something better, something supernatural.”",
+      "suggested_fix": "Replace “kitu kisicho cha kawaida” with “kitu cha kimiujiza” to convey “something supernatural” more clearly.",
+      "translation_quote": "“wanatafuta kitu bora zaidi, kitu kisicho cha kawaida.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

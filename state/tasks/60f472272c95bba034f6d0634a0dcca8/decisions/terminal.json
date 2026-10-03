@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragrafo iniziale sulla figlia di Giacobbe",
+      "severity": "major",
+      "source_quote": "There, she was exposed to the heathen young men of the land and occasioned a bloody massacre, leaving Jacob as a stench in the land.",
+      "suggested_fix": "Sostituire «Là fu esposta ai giovani pagani del paese e provocò un massacro sanguinoso, lasciando Giacobbe come un fetore nel paese» con «Là fu esposta ai giovani pagani del paese, e ciò provocò un massacro sanguinoso, lasciando Giacobbe come un fetore nel paese», così da non attribuire a Dina stessa la causa del massacro.",
+      "translation_quote": "Là fu esposta ai giovani pagani del paese e provocò un massacro sanguinoso, lasciando Giacobbe come un fetore nel paese."
+    },
+    {
+      "location": "HTML, paragrafo sul Salmo 110",
+      "severity": "major",
+      "source_quote": "Psalm 110 is perhaps the most referred-to scripture in the Old Testament.",
+      "suggested_fix": "Sostituire «Il Salmo 110 è forse il passo più citato dell’Antico Testamento» con «Il Salmo 110 è forse il passo dell’Antico Testamento a cui si fa più spesso riferimento».",
+      "translation_quote": "Il Salmo 110 è forse il passo più citato dell’Antico Testamento."
+    },
+    {
+      "location": "HTML, paragrafo sulla rugiada e la natura",
+      "severity": "major",
+      "source_quote": "The nature of dew belongs to the terrestrial, where everyone who will but stoop to observe it will behold a uniformed regiment of grass sparkling as if embedded with a myriad of diamonds.",
+      "suggested_fix": "Sostituire «La rugiada appartiene alla natura terrestre, dove chiunque si chini a osservarla vedrà un reggimento uniforme d’erba scintillare come se fosse incastonato di miriadi di diamanti» con «La rugiada appartiene al mondo terreno, dove chiunque si chini a osservarla vedrà un reggimento d’erba in uniforme scintillare come se fosse incastonato di miriadi di diamanti».",
+      "translation_quote": "La rugiada appartiene alla natura terrestre, dove chiunque si chini a osservarla vedrà un reggimento uniforme d’erba scintillare come se fosse incastonato di miriadi di diamanti."
+    },
+    {
+      "location": "HTML, paragrafo sull’esperienza e la speranza",
+      "severity": "major",
+      "source_quote": "Outside of Christ, a sour experience always tends to pessimism.",
+      "suggested_fix": "Sostituire «Al di fuori di Cristo, un’esperienza amara conduce sempre al pessimismo» con «Al di fuori di Cristo, un’esperienza amara tende sempre al pessimismo», preservando la qualificazione di tendenza presente nell’originale.",
+      "translation_quote": "Al di fuori di Cristo, un’esperienza amara conduce sempre al pessimismo."
+    },
+    {
+      "location": "HTML, paragrafo sull’uomo di Betesda",
+      "severity": "major",
+      "source_quote": "Upon the wake of his new day, a new remedy was given to him—… Behold, thou art made whole: sin no more, lest a worse thing come unto thee –John 5:14.",
+      "suggested_fix": "Sostituire «All’alba della sua nuova vita gli fu offerto un nuovo rimedio» con «Al risveglio del suo nuovo giorno gli fu dato un nuovo rimedio», mantenendo l’immagine originale senza introdurre l’idea di una nuova vita.",
+      "translation_quote": "All’alba della sua nuova vita gli fu offerto un nuovo rimedio:"
+    },
+    {
+      "location": "HTML, paragrafo sull’uomo di Betesda",
+      "severity": "major",
+      "source_quote": "Age sets in when we have more memories of the past than hope for tomorrow.",
+      "suggested_fix": "Sostituire «La vecchiaia si instaura quando abbiamo più ricordi del passato che speranze per il domani» con «L’età avanza quando abbiamo più ricordi del passato che speranza per il domani».",
+      "translation_quote": "La vecchiaia si instaura quando abbiamo più ricordi del passato che speranze per il domani."
+    },
+    {
+      "location": "HTML, paragrafo sulla speranza e il dolore di Giobbe",
+      "severity": "major",
+      "source_quote": "But before his pain had received an ounce of retribution, the healing streams began to flow as Job reverenced his Creator.",
+      "suggested_fix": "Sostituire «Ma prima che il suo dolore ricevesse anche solo un briciolo di ricompensa» con «Ma prima che il suo dolore fosse ripagato anche solo in minima parte», per rendere il senso di retribuzione o compensazione senza suggerire una ricompensa concessa al dolore.",
+      "translation_quote": "Ma prima che il suo dolore ricevesse anche solo un briciolo di ricompensa, i flussi di guarigione cominciarono a scorrere quando Giobbe rese riverenza al suo Creatore."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

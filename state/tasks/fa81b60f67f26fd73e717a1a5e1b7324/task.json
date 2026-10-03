@@ -2,7 +2,6 @@
   "article_id": "6233e058-cfbc-4a1f-8f3f-58e59a9e3c95",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 2423
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 539,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 436,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1536,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1533,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2075
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html, কবিতার ৩ নম্বর স্তবক",
-      "severity": "major",
-      "source_quote": "God has not promised smooth roads and wide, / Swift, easy travel, needing no guide; / Never a mountain rocky and steep, / Never a river turbid and deep.",
-      "suggested_fix": "শেষের দুই পঙ্‌ক্তিকেও ঈশ্বর কী প্রতিশ্রুতি দেননি তার ধারাবাহিকতা হিসেবে অনুবাদ করুন। যেমন: “পাথুরে, খাড়া পাহাড় থাকবে না—এমন প্রতিশ্রুতিও ঈশ্বর দেননি; / ঘোলা, গভীর নদী থাকবে না—এমন প্রতিশ্রুতিও দেননি।”",
-      "translation_quote": "কখনোই থাকবে না পাথুরে, খাড়া পাহাড়, / কখনোই থাকবে না ঘোলা, গভীর নদী।"
+      "location": "ধুয়া, তৃতীয় পঙ্‌ক্তি",
+      "severity": "minor",
+      "source_quote": "Grace for the trials",
+      "suggested_fix": "“পরীক্ষার সময় অনুগ্রহ” লিখুন, যাতে এখানে জীবনের কঠিন পরীক্ষা বা প্রতিকূলতার অর্থটি স্পষ্ট হয়।",
+      "translation_quote": "পরীক্ষার জন্য অনুগ্রহ"
     }
   ],
+  "finished_at": "2026-10-03T21:15:37+00:00",
   "id": "fa81b60f67f26fd73e717a1a5e1b7324",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ben",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f5647b7e6fa93ad07954ab0a3da6676a3d3e5e9185664021cd0049abc41f0391.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "aa05eedfb7a59548dda9e9cf4af967a397e2ca56866b12acd707929c7e97fcc8",
   "translation_model_actual": "gpt-6-luna"

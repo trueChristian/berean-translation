@@ -2,7 +2,6 @@
   "article_id": "54c17772-223b-4fc7-b2e6-0bda387f9b23",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,46 +64,54 @@
         },
         "total_tokens": 4010
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 279,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2335,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2332,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2614
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Puisi, bait 2, baris 4",
+      "location": "Puisi, bait 6",
       "severity": "major",
-      "source_quote": "Claiming His love on me overlying.",
-      "suggested_fix": "Ganti dengan baris yang menyatakan bahwa aku berpegang pada kasih-Nya yang menaungiku, misalnya: “Berpegang pada kasih-Nya yang menaungiku.”",
-      "translation_quote": "Mengimani kasih-Nya yang menaungiku."
+      "source_quote": "“My chosen one, I alone can fulfill, that for which your heart yearns.”",
+      "suggested_fix": "Terjemahkan lengkap dengan tanda kutip penutup dan pertahankan tag HTML: “Engkau pilihan-Ku, hanya Aku yang dapat memenuhi apa yang dirindukan hatimu.”</p>",
+      "translation_quote": "“Engkau pilihan-Ku,\n    Hanya Aku dapat memenuhi kerinduan hatimu.</p>"
     },
     {
-      "location": "Puisi, bait 6, baris 3",
+      "location": "Puisi, bait 8",
       "severity": "major",
-      "source_quote": "The Master speaks, “My chosen one,",
-      "suggested_fix": "Terjemahkan “The Master” sebagai “Sang Tuan” atau sebutan yang setara dalam konteks, bukan “Sang Guru”; pertahankan sapaan “Engkau pilihan-Ku”.",
-      "translation_quote": "Sang Guru berkata, “Engkau pilihan-Ku,"
+      "source_quote": "“For him that in God does delight.”",
+      "suggested_fix": "Ganti dengan frasa yang menyatakan bersukacita di dalam Allah, bukan bersukacita bagi Allah: “Bagi dia yang bersukacita di dalam Allah.”",
+      "translation_quote": "Bagi dia yang bersukacita di dalam Allah."
     },
     {
-      "location": "Puisi, bait 8, baris 3–4",
+      "location": "Puisi, bait 11",
       "severity": "major",
-      "source_quote": "Yet the promise remains, all works out well, / For him that in God does delight.",
-      "suggested_fix": "Pertahankan makna bahwa janji itu menyatakan segala sesuatu bekerja bersama demi kebaikan bagi orang yang bersukacita di dalam Allah; misalnya: “Namun janji itu tetap: segala sesuatu bekerja bersama demi kebaikan / Bagi dia yang bersukacita di dalam Allah.”",
-      "translation_quote": "Namun janji itu tetap berlaku: segala sesuatu berjalan baik, / Bagi dia yang bersukacita di dalam Allah."
-    },
-    {
-      "location": "Puisi, bait 9, baris 4",
-      "severity": "major",
-      "source_quote": "Knowing it’s better than for what I had groped.",
-      "suggested_fix": "Terjemahkan sebagai keyakinan bahwa tujuan akhir-Nya lebih baik daripada apa yang dahulu diupayakan/dicari oleh pembicara; misalnya: “Karena tahu itu lebih baik daripada yang dahulu kucari.”",
-      "translation_quote": "Karena aku tahu itu lebih baik daripada yang kuusahakan."
-    },
-    {
-      "location": "Puisi, bait 11, baris 4",
-      "severity": "major",
-      "source_quote": "To hear those words, “Well done.”",
-      "suggested_fix": "Terjemahkan ungkapan pujian tersebut, misalnya: “Mendengar kata-kata itu, ‘Baik sekali.’”",
-      "translation_quote": "Mendengar kata-kata itu, “Baik sekali.”"
+      "source_quote": "“Well done.”",
+      "suggested_fix": "Ganti “Baik sekali” dengan padanan yang menyampaikan pujian atas pekerjaan yang telah dilakukan, misalnya: “Baik sekali perbuatanmu.”",
+      "translation_quote": "“Baik sekali.”"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "60bb93ec49f9b6779763e462904d07c6",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ind",
@@ -193,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6fda27bfd0a8667c57a974670256618ed4e8c0248a5ef522f6eee0e736dd1da0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5e62eb3a940e43457a14c1d9bc0e84215d46c890c5a09f71e433424c416a2f6a",
   "translation_model_actual": "gpt-6-luna"

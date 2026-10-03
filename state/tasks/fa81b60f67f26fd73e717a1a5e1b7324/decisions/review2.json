@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "ধুয়া, তৃতীয় পঙ্‌ক্তি",
+      "severity": "minor",
+      "source_quote": "Grace for the trials",
+      "suggested_fix": "“পরীক্ষার সময় অনুগ্রহ” লিখুন, যাতে এখানে জীবনের কঠিন পরীক্ষা বা প্রতিকূলতার অর্থটি স্পষ্ট হয়।",
+      "translation_quote": "পরীক্ষার জন্য অনুগ্রহ"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

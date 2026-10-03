@@ -1,0 +1,100 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d2d5e3dc-5a33-4797-9d29-310d04d14296",
+    "response_id": "chatcmpl-EUzA6CHqnFNs1uiVWHRirv1z9ENss",
+    "usage": {
+      "completion_tokens": 933,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5895,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5892,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6828
+    }
+  },
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3",
+        "severity": "major",
+        "source_quote": "The neighbor calls at the door.",
+        "suggested_fix": "প্রতিবেশী দরজায় ডাকেন।",
+        "translation_quote": "প্রতিবেশী দরজায় ডাকেন।"
+      },
+      {
+        "location": "Paragraph 3",
+        "severity": "major",
+        "source_quote": "the clothesline is full of laundry.",
+        "suggested_fix": "আর কাপড়ের দড়ি কাপড়ে ভরা।",
+        "translation_quote": "আর দড়িতে কাপড়ে ঠাসা।"
+      },
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "It is He who designed that my spiritual walk and the propagation thereof happens as my hands touch the earthly.",
+        "suggested_fix": "তিনিই এমনভাবে নকশা করেছেন যে, পার্থিব বিষয়ের সঙ্গে আমার হাতের সংযোগ ঘটার মধ্য দিয়েই আমার আত্মিক চলা ও তার প্রসার ঘটে।",
+        "translation_quote": "তিনিই এমনভাবে নকশা করেছেন যে পার্থিব বিষয়ের সঙ্গে আমার হাতের সংযোগের মধ্য দিয়েই আমার আত্মিক চলা এবং সেই বিশ্বাসের প্রসার ঘটে।"
+      },
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "It’s the only way I can touch the hearts of my children and live out a practical gospel for them to imitate.",
+        "suggested_fix": "আমার সন্তানদের হৃদয় স্পর্শ করা এবং তাদের অনুকরণ করার মতো বাস্তব সুসমাচার জীবন দিয়ে পালন করার এটাই একমাত্র পথ।",
+        "translation_quote": "আমার সন্তানদের হৃদয় স্পর্শ করা এবং তাদের অনুকরণ করার মতো বাস্তব সুসমাচার জীবন দিয়ে দেখানোর এটাই একমাত্র পথ।"
+      },
+      {
+        "location": "Paragraph 8",
+        "severity": "major",
+        "source_quote": "Who am I to judge if a certain work is small or not?",
+        "suggested_fix": "কোনো কাজ ছোট কি না, তা বিচার করার আমি কে?",
+        "translation_quote": "কোনো কাজ ছোট কি না, তা বিচার করার আমি কে?"
+      },
+      {
+        "location": "Paragraph 11",
+        "severity": "major",
+        "source_quote": "But beware… we cannot confuse our resignation to the smallness in our lives, with lethargy.",
+        "suggested_fix": "তবে সাবধান… জীবনের ছোটখাটো বিষয় মেনে নেওয়াকে আমরা যেন জড়তা বলে ভুল না করি।",
+        "translation_quote": "তবে সাবধান… আমাদের জীবনের ছোটখাটো বিষয়ের কাছে আত্মসমর্পণকে আমরা যেন জড়তায় পরিণত না করি।"
+      },
+      {
+        "location": "Paragraph 12",
+        "severity": "major",
+        "source_quote": "She could have opposed the prophet and demanded he leave immediately, as after all, she was responsible for her son and that little bit of flour was all she had to give him.",
+        "suggested_fix": "তিনি ভাববাদীর বিরোধিতা করে তাঁকে অবিলম্বে চলে যেতে বলতে পারতেন, কারণ তাঁর ছেলের দায়িত্ব তাঁরই ছিল, আর ওই সামান্য ময়দাটুকুই ছিল ছেলেকে দেওয়ার মতো তাঁর সবকিছু।",
+        "translation_quote": "তিনি ভাববাদীর বিরোধিতা করে তাঁকে অবিলম্বে চলে যেতে বলতে পারতেন, কারণ তাঁর ছেলের দায়িত্ব তাঁরই ছিল, আর ওই সামান্য ময়দাটুকুই ছিল তাকে দেওয়ার মতো সবকিছু।"
+      },
+      {
+        "location": "Paragraph 13",
+        "severity": "major",
+        "source_quote": "God kept culling Gideon’s army until he eventually fought and won the battle with just a few hundred men.",
+        "suggested_fix": "গিদিয়োনের সৈন্যদল থেকে ঈশ্বর ক্রমাগত লোক কমাতে থাকলেন, যতক্ষণ না শেষ পর্যন্ত সে মাত্র কয়েকশো লোক নিয়ে যুদ্ধ করে জয়ী হলো।",
+        "translation_quote": "গিদিয়োনের সৈন্যদলকে ঈশ্বর ক্রমে ছোট করতে থাকলেন, যতক্ষণ না শেষ পর্যন্ত সে মাত্র কয়েকশো লোক নিয়েই যুদ্ধ করে জয়ী হলো।"
+      },
+      {
+        "location": "Paragraph 15",
+        "severity": "major",
+        "source_quote": "God has chosen these weak things to be significant in His kingdom.",
+        "suggested_fix": "ঈশ্বর এই দুর্বল বিষয়গুলোকে তাঁর রাজ্যে তাৎপর্যপূর্ণ হওয়ার জন্য বেছে নিয়েছেন।",
+        "translation_quote": "ঈশ্বর এই দুর্বল বিষয়গুলোকে তাঁর রাজ্যে তাৎপর্যপূর্ণ হওয়ার জন্য বেছে নিয়েছেন।"
+      },
+      {
+        "location": "Article title",
+        "severity": "minor",
+        "source_quote": "Small Things",
+        "suggested_fix": "ছোট বিষয়",
+        "translation_quote": "ছোট ছোট বিষয়"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

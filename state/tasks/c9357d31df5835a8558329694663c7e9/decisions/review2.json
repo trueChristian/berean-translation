@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "अनुच्छेद 10",
+      "severity": "major",
+      "source_quote": "Our children need to know that ALL who live godly in Christ Jesus WILL suffer persecution.",
+      "suggested_fix": "हमारे बच्चों को यह जानना चाहिए कि मसीह यीशु में भक्ति से जीवन बिताने वाले सभी लोग सताव सहेंगे।",
+      "translation_quote": "हमारे बच्चों को यह जानना चाहिए कि जो कोई मसीह यीशु में भक्तिपूर्वक जीवन बिताना चाहेगा, वह सताव सहेंगे ही।"
+    },
+    {
+      "location": "अनुच्छेद 15",
+      "severity": "major",
+      "source_quote": "If only he could be shown the Truth of God’s Word that to take another human’s life is sin in God’s eyes (even if he is the enemy) and God will not allow him to have peace in his heart until that is taken care of.",
+      "suggested_fix": "काश उसे परमेश्वर के वचन का यह सत्य दिखाया जाता कि किसी दूसरे मनुष्य का जीवन लेना परमेश्वर की दृष्टि में पाप है (भले ही वह शत्रु हो), और जब तक उस पाप का समाधान नहीं होता, परमेश्वर उसे अपने हृदय में शांति नहीं पाने देगा।",
+      "translation_quote": "काश उसे परमेश्वर के वचन का यह सत्य दिखाया जाता कि किसी दूसरे मनुष्य का जीवन लेना परमेश्वर की दृष्टि में पाप है (भले ही वह शत्रु हो), और जब तक इस बात का समाधान नहीं होता, परमेश्वर उसे अपने हृदय में शांति नहीं पाने देगा।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

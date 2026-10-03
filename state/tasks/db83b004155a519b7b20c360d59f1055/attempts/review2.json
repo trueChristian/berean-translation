@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац о солдате с ПТСР\",\"severity\":\"minor\",\"source_quote\":\"I found myself becoming increasingly frustrated with the lack of answers that were being provided to a severely struggling young man.\",\"suggested_fix\":\"Заменить «из-за того, что тяжело страдающему молодому человеку не предлагали никаких ответов» на «из-за недостатка ответов, которые предлагали тяжело страдающему молодому человеку».\",\"translation_quote\":\"я всё больше раздражался из-за того, что тяжело страдающему молодому человеку не предлагали никаких ответов.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 842,
+    "content_evidence_truncated": false,
+    "content_sha256": "7951b784f890cc18ab0d0cd9452368deb9768da6ccfbde75ac34f988ed00f223",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 753,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 592,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4948,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5704
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

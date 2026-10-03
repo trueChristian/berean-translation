@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Alinea onder ‘Rust vermindert ontstekingen’\",\"severity\":\"minor\",\"source_quote\":\"Blood pressure and heart conditions also benefit when a person gets adequate amounts of restorative sleep.\",\"suggested_fix\":\"Vervang door: “Ook de bloeddruk en de gezondheid van het hart hebben baat bij voldoende herstellende slaap.”\",\"translation_quote\":\"Ook de bloeddruk en hartaandoeningen varen wel bij voldoende herstellende slaap.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 479,
+    "content_evidence_truncated": false,
+    "content_sha256": "5817d34a1e5aa8b4cc215855cdf7e307c158e36df739602c97fe378353fc3161",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8813,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9531
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

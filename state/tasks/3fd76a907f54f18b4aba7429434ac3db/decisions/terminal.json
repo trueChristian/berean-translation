@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, citation 1 Chroniques 16:34",
+      "severity": "major",
+      "source_quote": "O give thanks unto the LORD; for he is good; for his mercy endureth for ever",
+      "suggested_fix": "Remplacer « Louez l’Éternel, car il est bon, car sa miséricorde dure à toujours » par « Rendez grâces à l’Éternel, car il est bon, car sa miséricorde dure à toujours », afin de conserver l’appel à rendre grâce plutôt qu’à louer.",
+      "translation_quote": "Louez l’Éternel, car il est bon, car sa miséricorde dure à toujours –1 Chroniques 16:34."
+    },
+    {
+      "location": "HTML, citation Proverbes 4:18",
+      "severity": "major",
+      "source_quote": "But the path of the just is as the shining light, that shineth more and more unto the perfect day",
+      "suggested_fix": "Remplacer « jusqu’au milieu du jour » par « jusqu’au plein jour », pour conserver l’image d’une lumière qui croît jusqu’à l’éclat complet du jour.",
+      "translation_quote": "Le sentier des justes est comme la lumière resplendissante, dont l’éclat va croissant jusqu’au milieu du jour –Proverbes 4:18."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

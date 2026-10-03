@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph; repeated in the second paragraph\",\"severity\":\"minor\",\"source_quote\":\"“my pager going off” / “the number on the pager”\",\"suggested_fix\":\"Replace “kipaji changu” and “kipaji” with “kipajeri changu” and “kipajeri” (or another clear Kiswahili term for a pager). For example: “nikisikiliza kipajeri changu kikiita” and “Niliangalia nambari iliyoonyeshwa kwenye kipajeri.”\",\"translation_quote\":\"“mlio wa kipaji changu ukilia” / “namba iliyoonyeshwa kwenye kipaji”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 569,
+    "content_evidence_truncated": false,
+    "content_sha256": "f139655eee3a2e0fae216a2f9cc4d39528fa0809b2b815706f1d4bf894887aa6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 829,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 656,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9747,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9744,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10576
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

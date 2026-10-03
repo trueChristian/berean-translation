@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Gedicht, vierte Zeile",
+      "severity": "minor",
+      "source_quote": "We can’t afford the laugh that finds in bitter tears an end.",
+      "suggested_fix": "Wir können uns das Lachen nicht leisten, das in bitteren Tränen endet.",
+      "translation_quote": "Wir können es uns nicht leisten, über ein Lachen, das in bitteren Tränen endet."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

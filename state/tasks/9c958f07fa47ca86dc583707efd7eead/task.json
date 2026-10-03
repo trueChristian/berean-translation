@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,39 +64,31 @@
         },
         "total_tokens": 12850
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 607,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 575,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8096,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8093,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8703
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, paragrafo sul racconto di Gerico",
-      "severity": "major",
-      "source_quote": "“God tells Joshua and all the men of war to compass the city, and walk around it once every day, for six days.”",
-      "suggested_fix": "Sostituire «Dio dice a Giosuè e a tutti gli uomini di guerra di circondare la città e di marciarle intorno una volta al giorno per sei giorni» con «Dio dice a Giosuè e a tutti gli uomini di guerra di marciare intorno alla città una volta al giorno per sei giorni»; il testo non dice che dovessero circondarla prima di marciare.",
-      "translation_quote": "Dio dice a Giosuè e a tutti gli uomini di guerra di circondare la città e di marciarle intorno una volta al giorno per sei giorni."
-    },
-    {
-      "location": "source.html, citazione di Giosuè 7:24-26",
-      "severity": "major",
-      "source_quote": "“And all Israel stoned him with stones, and burned them with fire…”",
-      "suggested_fix": "Sostituire «E tutto Israele lo lapidò; poi li bruciarono col fuoco…» con «E tutto Israele lo lapidò con pietre e li bruciò col fuoco…», mantenendo il plurale «li» riferito ad Acàn e ai suoi familiari, come nel testo citato.",
-      "translation_quote": "E tutto Israele lo lapidò; poi li bruciarono col fuoco…"
-    },
-    {
-      "location": "source.html, paragrafo sull’esito della lebbra",
-      "severity": "major",
-      "source_quote": "“If it was determined that the person had leprosy, then they were sent outside of the city.”",
-      "suggested_fix": "Sostituire «veniva mandata fuori dalla città» con «veniva mandato fuori dalla città» oppure «la persona veniva mandata fuori dalla città»: il soggetto è la persona, non la lebbra.",
-      "translation_quote": "Se si stabiliva che la persona era lebbrosa, veniva mandata fuori dalla città."
-    },
-    {
-      "location": "source.html, paragrafo sul capo banda",
-      "severity": "major",
-      "source_quote": "“I wanted him to catch a glimpse of the power of God”",
-      "suggested_fix": "Sostituire «Volevo che intravedesse la potenza di Dio» con «Volevo che potesse intravedere la potenza di Dio» oppure «Volevo mostrargli un assaggio della potenza di Dio»: nel contesto l’autore intendeva fargliela intravedere, non che lui lo facesse da sé.",
-      "translation_quote": "Volevo che intravedesse la potenza di Dio"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "9c958f07fa47ca86dc583707efd7eead",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ita",
@@ -186,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

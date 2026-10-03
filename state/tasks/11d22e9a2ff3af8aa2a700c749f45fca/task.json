@@ -2,7 +2,6 @@
   "article_id": "3b3b3e75-afd9-49a6-ac06-d99a29802261",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,61 @@
         },
         "total_tokens": 11948
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “We have already seen how sin separates us…”",
-      "severity": "major",
-      "source_quote": "If we are left to continue in our sin, what has Jesus done for us?",
-      "suggested_fix": "Replace with: «Hvis vi får fortsette å leve i synden vår, hva har Jesus da gjort for oss?»",
-      "translation_quote": "Hvis vi må fortsette å leve i synden vår, hva har Jesus da gjort for oss?"
     },
     {
-      "location": "Paragraph beginning “When we call out to God for salvation…”",
-      "severity": "minor",
-      "source_quote": "we know we need to be saved; converted.",
-      "suggested_fix": "Replace «å bli frelst; omvendt» with «å bli frelst, altså omvendt» so the second term reads naturally and clearly in Norwegian.",
-      "translation_quote": "vi trenger å bli frelst; omvendt."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 442,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7853,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7850,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8295
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «I Josva, kapittel 6»",
+      "severity": "major",
+      "source_quote": "“God tells Joshua and all the men of war to compass the city, and walk around it once every day, for six days.”",
+      "suggested_fix": "Bytt «at de skal gå rundt byen én gang hver dag i seks dager» med «at de skal gå rundt byen én gang om dagen i seks dager»; slik blir det tydelig at dette er én runde per dag.",
+      "translation_quote": "«Gud sier til Josva og alle krigsmennene at de skal gå rundt byen én gang hver dag i seks dager.»"
+    },
+    {
+      "location": "HTML, avsnittet etter beretningen om Ai",
+      "severity": "major",
+      "source_quote": "“They did many wonderful things, they destroyed all their enemies around them, and they lived in COMPLETE victory.”",
+      "suggested_fix": "Bytt «De gjorde mange vidunderlige ting» med «De utførte mange storslagne gjerninger».",
+      "translation_quote": "«De gjorde mange vidunderlige ting, ødela alle fiendene omkring seg og levde i FULLSTENDIG seier.»"
+    },
+    {
+      "location": "HTML, avsnittet om kirkene som glir inn i verden",
+      "severity": "major",
+      "source_quote": "“They gradually let go of convictions and allow some new fashion and pomp of the world to enter.”",
+      "suggested_fix": "Bytt «nye moter og verdens pomp og prakt» med «en ny mote og verdens pomp og prakt».",
+      "translation_quote": "«De gir gradvis slipp på overbevisningene sine og lar nye moter og verdens pomp og prakt komme inn.»"
+    },
+    {
+      "location": "HTML, avsnittet om den velstående haitiske mannen",
+      "severity": "major",
+      "source_quote": "“I asked him why not.”",
+      "suggested_fix": "Bytt «Jeg spurte ham hvorfor ikke» med «Jeg spurte ham hvorfor han ikke ønsket å bli kristen».",
+      "translation_quote": "«Jeg spurte ham hvorfor ikke.»"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:35+00:00",
   "id": "11d22e9a2ff3af8aa2a700c749f45fca",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "nob",
@@ -178,7 +213,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/1cca04d7d9d4842d2197047b762659e21eed5963a5a240df548800e1da9dee65.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bd2df2f3a37de68d5795630fbe8c600769061463d40b2ba21d34cee729e3dbe8",
   "translation_model_actual": "gpt-6-luna"

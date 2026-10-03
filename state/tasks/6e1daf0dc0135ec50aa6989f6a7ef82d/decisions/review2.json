@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first paragraph",
+      "severity": "minor",
+      "source_quote": "The grinding sound of truck tires driving in the gravel lane filled the air",
+      "suggested_fix": "Endre «Den malende lyden av lastebildekk som kjørte på grusveien» til for eksempel «Den skrapende lyden av lastebildekk som rullet langs grusveien».",
+      "translation_quote": "Den malende lyden av lastebildekk som kjørte på grusveien, fylte luften"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

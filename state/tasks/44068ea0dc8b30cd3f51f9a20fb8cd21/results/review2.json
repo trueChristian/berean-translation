@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "061bc3df-f93c-4fd1-9044-72cf15ee12b3",
+    "response_id": "chatcmpl-EUz6VE1oPtpMtMNXGWMwwTTfwnelt",
+    "usage": {
+      "completion_tokens": 183,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1914,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2100
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, segundo poema, primera estrofa",
+        "severity": "major",
+        "source_quote": "“Boast not thyself,” I’m warned,",
+        "suggested_fix": "«No te jactes», se me advierte,",
+        "translation_quote": "«No te jactes», me advierten,"
+      },
+      {
+        "location": "HTML, tercer poema, última estrofa",
+        "severity": "major",
+        "source_quote": "“If God, in yet three hours, THIS DAY, / Should close your course TONIGHT?”",
+        "suggested_fix": "«Si Dios, dentro de apenas tres horas, HOY, / pusiera fin a tu curso ESTA NOCHE?»",
+        "translation_quote": "«Si Dios, dentro de apenas tres horas, HOY, / pusiera fin a tu vida ESTA NOCHE?»"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

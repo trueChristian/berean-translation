@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph immediately before the heading “… Botar våra svagheter”",
+      "severity": "minor",
+      "source_quote": "The rest shall be brightly effected with a hope that…",
+      "suggested_fix": "Replace only the sentence with: “De övriga ska lysas upp av ett hopp som …”",
+      "translation_quote": "De övriga ska påverkas strålande av ett hopp som …"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "a666b8a8-f3c7-4478-b53d-bb0abe446f42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 8517
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "अंतिम अनुच्छेद, मत्ती 24:13 का उद्धरण",
-      "severity": "major",
-      "source_quote": "…endure unto the end… –Matthew 24:13.",
-      "suggested_fix": "…अन्त तक धीरज धरने… –मत्ती 24:13। से बदलें: उद्धरण के बाद लगा अतिरिक्त “के” हटाएँ, ताकि वाक्य बने “तो वे …अन्त तक धीरज धरने… –मत्ती 24:13। के लिए तैयार नहीं होंगे।”",
-      "translation_quote": "तो वे <em>…अन्त तक धीरज धरने… –मत्ती 24:13।</em> के लिए तैयार नहीं होंगे।"
     },
     {
-      "location": "अंतिम अनुच्छेद, लूका 9:23-24 का उद्धरण",
-      "severity": "major",
-      "source_quote": "And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it –Luke 9:23-24.",
-      "suggested_fix": "<em>फिर उसने सब से कहा, “यदि कोई मेरे पीछे आना चाहे, तो अपने आप से इनकार करे और प्रतिदिन अपना क्रूस उठाकर मेरे पीछे हो ले। क्योंकि जो कोई अपना प्राण बचाना चाहेगा, वह उसे खोएगा; परन्तु जो कोई मेरे लिये अपना प्राण खोएगा, वही उसे बचाएगा” –लूका 9:23-24।</em>",
-      "translation_quote": "<em>फिर उसने सब से कहा, “यदि कोई मेरे पीछे आना चाहे, तो अपने आप से इनकार करे और प्रति दिन अपना क्रूस उठाए हुए मेरे पीछे हो ले। क्योंकि जो कोई अपना प्राण बचाना चाहेगा, वह उसे खोएगा; परन्तु जो कोई मेरे लिये अपना प्राण खोएगा, वही उसे बचाएगा –लूका 9:23-24।</em>"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 342,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5320,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5317,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5662
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "अनुच्छेद 10",
+      "severity": "major",
+      "source_quote": "Our children need to know that ALL who live godly in Christ Jesus WILL suffer persecution.",
+      "suggested_fix": "हमारे बच्चों को यह जानना चाहिए कि मसीह यीशु में भक्ति से जीवन बिताने वाले सभी लोग सताव सहेंगे।",
+      "translation_quote": "हमारे बच्चों को यह जानना चाहिए कि जो कोई मसीह यीशु में भक्तिपूर्वक जीवन बिताना चाहेगा, वह सताव सहेंगे ही।"
+    },
+    {
+      "location": "अनुच्छेद 15",
+      "severity": "major",
+      "source_quote": "If only he could be shown the Truth of God’s Word that to take another human’s life is sin in God’s eyes (even if he is the enemy) and God will not allow him to have peace in his heart until that is taken care of.",
+      "suggested_fix": "काश उसे परमेश्वर के वचन का यह सत्य दिखाया जाता कि किसी दूसरे मनुष्य का जीवन लेना परमेश्वर की दृष्टि में पाप है (भले ही वह शत्रु हो), और जब तक उस पाप का समाधान नहीं होता, परमेश्वर उसे अपने हृदय में शांति नहीं पाने देगा।",
+      "translation_quote": "काश उसे परमेश्वर के वचन का यह सत्य दिखाया जाता कि किसी दूसरे मनुष्य का जीवन लेना परमेश्वर की दृष्टि में पाप है (भले ही वह शत्रु हो), और जब तक इस बात का समाधान नहीं होता, परमेश्वर उसे अपने हृदय में शांति नहीं पाने देगा।"
+    }
+  ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "c9357d31df5835a8558329694663c7e9",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "hin",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e6374334d6e72ef0337761efa27ba0d4b445710a6cd11331ff241df7b97827d8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d56a246ad170b9c51e9e4f40e039d6e2b3acf9ba19d2e7456f06481105949f0e",
   "translation_model_actual": "gpt-6-luna"

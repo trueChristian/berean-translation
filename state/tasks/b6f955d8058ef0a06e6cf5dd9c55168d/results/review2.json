@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "63c54bf3-872e-43cf-a3b8-5f9349681c01",
+    "response_id": "chatcmpl-EUz3X0IymKbIN8011HBSsO8srGCZ8",
+    "usage": {
+      "completion_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5635,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5632,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6066
+    }
+  },
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "This is how my spirit is refined.",
+        "suggested_fix": "Replace the sentence with: “Hivi ndivyo roho yangu inavyosafishwa na kukuzwa.”",
+        "translation_quote": "Hivi ndivyo roho yangu inavyokua na kukomaa."
+      },
+      {
+        "location": "Paragraph 10",
+        "severity": "major",
+        "source_quote": "Sometimes it will happen sub-consciously, sometimes it happens if we decide to reach out instead of taking a nap or something else enjoyable",
+        "suggested_fix": "Revise the relevant clause to: “Nyakati nyingine hilo litatokea bila sisi kutambua; nyakati nyingine hutokea tunapoamua kuwafikia wengine badala ya kulala usingizi wa mchana au kufanya jambo jingine la kufurahisha”",
+        "translation_quote": "Nyakati nyingine hilo litatokea bila sisi kutambua; nyakati nyingine hutokea tunapoamua kuwafikia wengine badala ya kulala usingizi wa mchana au kujishughulisha na jambo jingine la kufurahisha"
+      },
+      {
+        "location": "Paragraph 11",
+        "severity": "major",
+        "source_quote": "we cannot confuse our resignation to the smallness in our lives, with lethargy.",
+        "suggested_fix": "Replace “kukubali udogo wa mambo katika maisha yetu” with “kujizoeza na mambo madogo katika maisha yetu” to convey resignation/acquiescence rather than acceptance in the neutral sense.",
+        "translation_quote": "hatupaswi kuchanganya kukubali udogo wa mambo katika maisha yetu na kulegea."
+      },
+      {
+        "location": "Paragraph 17",
+        "severity": "major",
+        "source_quote": "those simple fishermen turned the world upside down with the gospel.",
+        "suggested_fix": "Replace “wavuvi hao wa kawaida waliugeuza ulimwengu kwa injili” with “wavuvi hao wa kawaida waliupindua ulimwengu kwa injili.”",
+        "translation_quote": "wavuvi hao wa kawaida waliugeuza ulimwengu kwa injili."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

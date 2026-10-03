@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Наши тела обречены на могилу»",
+      "severity": "major",
+      "source_quote": "The impotent man of 38 years at Bethesda could only utter a hopeless complaint",
+      "suggested_fix": "Заменить «Расслабленный, пролежавший 38 лет у Вифезды» на «Человек, страдавший недугом 38 лет у купальни Вифезда» — это передаёт, что 38 лет длился его недуг, а не пребывание у купальни.",
+      "translation_quote": "Расслабленный, пролежавший 38 лет у Вифезды"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

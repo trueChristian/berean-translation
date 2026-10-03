@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, final stanza\",\"severity\":\"major\",\"source_quote\":\"To hear those words, “Well done.”\",\"suggested_fix\":\"Заменить «Хорошо» на «Хорошо сделано» или другой естественный русский эквивалент, сохраняющий смысл похвалы за совершённое.\",\"translation_quote\":\"Услышать те слова: «Хорошо».\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 478,
+    "content_evidence_truncated": false,
+    "content_sha256": "321e5271c4fca66d34acca459656e47f6dbd9a00859f62e3b234477e99b3f24f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 495,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2323,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2320,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2928
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

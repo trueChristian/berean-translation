@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, lines 9–10\",\"severity\":\"major\",\"source_quote\":\"We can’t afford with serious heed to treat the cynic’s sneer;<br>We can’t afford to wise men’s words to turn a careless ear.\",\"suggested_fix\":\"Заменить эти две строки на: «Мы не можем позволить себе всерьёз прислушиваться к насмешкам циника;<br>Мы не можем позволить себе беспечно пропускать мимо ушей слова мудрых.»\",\"translation_quote\":\"Мы не можем себе позволить всерьёз внимать насмешкам циника;<br>Мы не можем себе позволить беспечно пропускать мимо ушей слова мудрых.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 857,
+    "content_evidence_truncated": false,
+    "content_sha256": "03d5811068cccaac5bc6f362dd129af1a03b40738df82392e650b70fad6dab8b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 170,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1707,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1880
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

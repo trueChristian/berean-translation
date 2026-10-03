@@ -2,7 +2,6 @@
   "article_id": "f3dc712f-f89d-476b-9cc6-f94dc67a339d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,39 +64,54 @@
         },
         "total_tokens": 17522
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 870,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 504,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11180,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11177,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12050
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, opening Scripture quotation (1 Korintus 13:2)",
+      "location": "HTML, opening Scripture quotation (1 Korintus 13:7)",
       "severity": "major",
-      "source_quote": "“though I have all faith, so that I could remove mountains”",
-      "suggested_fix": "Ganti “Sekalipun aku mempunyai iman yang sempurna untuk memindahkan gunung” menjadi “Sekalipun aku mempunyai segala iman, sehingga dapat memindahkan gunung”. Hindari menambahkan klaim bahwa iman itu sempurna.",
-      "translation_quote": "“sekalipun aku mempunyai iman yang sempurna untuk memindahkan gunung”"
+      "source_quote": "“Beareth all things”",
+      "suggested_fix": "Ganti “Ia menutupi segala sesuatu” dengan “Ia menanggung segala sesuatu” agar maknanya sesuai dengan “Beareth all things” dan tidak tertukar dengan menutupi atau menyembunyikan.",
+      "translation_quote": "“Ia menutupi segala sesuatu”"
     },
     {
-      "location": "HTML, opening Scripture quotation (1 Korintus 13:11)",
+      "location": "HTML, heading 2 and its paragraph",
       "severity": "major",
-      "source_quote": "“I understood as a child”",
-      "suggested_fix": "Ganti “aku merasa seperti kanak-kanak” dengan “aku memahami seperti kanak-kanak” agar menyampaikan makna “understood”.",
-      "translation_quote": "“aku merasa seperti kanak-kanak”"
+      "source_quote": "“2. Kindness” and “Kindness is love in action!”",
+      "suggested_fix": "Gunakan istilah yang membedakan kindness dari generosity pada bagian 3, misalnya ubah judul menjadi “2. Kebaikan hati” dan sesuaikan pemakaian “kemurahan hati” dalam paragraf ini menjadi “kebaikan hati” atau “bersikap baik” sesuai konteks.",
+      "translation_quote": "“2. Kemurahan hati” and “Kemurahan hati adalah kasih dalam tindakan!”"
     },
     {
-      "location": "HTML, opening Scripture quotation (1 Korintus 13:12)",
+      "location": "HTML, kutipan Amsal 29:23",
       "severity": "major",
-      "source_quote": "“but then shall I know even as also I am known”",
-      "suggested_fix": "Ganti “tetapi nanti aku akan mengenal dengan sempurna” dengan padanan yang mempertahankan perbandingan dalam sumber, misalnya “tetapi nanti aku akan mengenal sepenuhnya, sama seperti aku sendiri dikenal”.",
-      "translation_quote": "“tetapi nanti aku akan mengenal dengan sempurna”"
-    },
-    {
-      "location": "HTML, paragraf di bawah judul “8. Sifat atau kemampuan untuk ‘tidak menyimpan kesalahan’”",
-      "severity": "minor",
-      "source_quote": "“our own success is enhanced by our vision or belief of what that person could become”",
-      "suggested_fix": "Perbaiki frasa “keyakinan kita tentang siapa yang dapat dicapai orang itu” menjadi “keyakinan kita tentang akan menjadi seperti apa orang itu”.",
-      "translation_quote": "“keberhasilan kita sendiri meningkat karena visi atau keyakinan kita tentang siapa yang dapat dicapai orang itu”"
+      "source_quote": "“A man’s pride shall bring him low: but honour shall uphold the humble in spirit”",
+      "suggested_fix": "Terjemahkan bagian akhir sebagai penghormatan yang menopang orang yang rendah hati, misalnya: “Kecongkakan seseorang akan merendahkannya, tetapi penghormatan menopang orang yang rendah hati.”",
+      "translation_quote": "“Kecongkakan seseorang akan merendahkannya, tetapi orang yang rendah hati akan menerima penghormatan”"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "a77cfa8583e622a0739f2fa84f8ef826",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ind",
@@ -186,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/af027480c7b71054d338f25d25296be09c7631d627bdbffae73d98ad31b2fd8b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b6753c0a7c0285c286612c24163adab64a3049e5d41df3e6eb7bb6623ab4df4b",
   "translation_model_actual": "gpt-6-luna"

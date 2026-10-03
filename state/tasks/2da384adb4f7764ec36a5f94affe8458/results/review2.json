@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f90e0db1-acf2-4eda-9912-6faaae5c2264",
+    "response_id": "chatcmpl-EUz56vwVA7MtVL3iGaStaMYlNVnpk",
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 511,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8675,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8672,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9424
+    }
+  },
+  "received_at": "2026-10-03T21:15:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf 1, kutipan Kejadian 34:1",
+        "severity": "major",
+        "source_quote": "“...went out to see the daughters of the land”",
+        "suggested_fix": "Ganti “pergi melihat-lihat perempuan-perempuan di negeri itu” dengan “pergi melihat-lihat anak-anak perempuan negeri itu” agar makna “daughters” tetap tersampaikan.",
+        "translation_quote": "“…pergi melihat-lihat perempuan-perempuan di negeri itu”"
+      },
+      {
+        "location": "Paragraf 2, kutipan Amsal 7:23",
+        "severity": "major",
+        "source_quote": "“Till a dart [struck] through his liver”",
+        "suggested_fix": "Ganti “menembus hatinya” dengan “menembus hatinya” hanya jika terjemahan sasaran memang memakai “hati” untuk liver; agar perbedaan organ dalam teks sumber terjaga, gunakan “menembus livernya.”",
+        "translation_quote": "“sebuah anak panah menembus hatinya”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

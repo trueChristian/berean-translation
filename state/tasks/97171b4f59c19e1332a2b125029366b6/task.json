@@ -2,7 +2,6 @@
   "article_id": "640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68fb1b00073348e194406d2feaa98762",
   "campaign": "gh-37119584204",
   "created_at": "2026-10-03T11:26:26+00:00",
   "events": [
@@ -65,32 +64,75 @@
         },
         "total_tokens": 10796
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 909,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6452,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6449,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7361
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Άρθρο, παράγραφος για τις καθημερινές δουλειές",
+      "location": "Paragraph 2",
       "severity": "major",
-      "source_quote": "I wipe the baby’s nose for the umpteenth time as she sits on top of the table disrupting her brother’s books and papers.",
-      "suggested_fix": "Αλλάξτε το «ανακατεύει» σε «αναστατώνει» ή «ανακατεύει τα βιβλία και τα χαρτιά του αδελφού της» μόνο αν εννοείται ότι τα ανακατεύει· στο συγκεκριμένο συμφραζόμενο προτιμάται «αναστατώνει τα βιβλία και τα χαρτιά του αδελφού της».",
-      "translation_quote": "Σκουπίζω τη μύτη του μωρού για πολλοστή φορά, καθώς κάθεται πάνω στο τραπέζι και ανακατεύει τα βιβλία και τα χαρτιά του αδελφού της."
+      "source_quote": "“I left all I had ever known and had an adrenaline-fueled landing in an African country.”",
+      "suggested_fix": "Replace «προσγειώθηκα σε μια αφρικανική χώρα γεμάτη αδρεναλίνη» with «έφτασα σε μια αφρικανική χώρα με την αδρεναλίνη στα ύψη» to convey the narrator’s adrenaline-fueled arrival, not a country filled with adrenaline.",
+      "translation_quote": "«προσγειώθηκα σε μια αφρικανική χώρα γεμάτη αδρεναλίνη»"
     },
     {
-      "location": "Άρθρο, παράγραφος που αρχίζει «Ποια είμαι εγώ…»",
+      "location": "Paragraph 4",
       "severity": "major",
-      "source_quote": "Am I restless with my duties, believing God would be more pleased with my perception of ‘great’ duties, seemingly always out of reach?",
-      "suggested_fix": "Αποδώστε το νόημα της ανησυχίας/ανυπομονησίας για τα καθήκοντα, π.χ. «Μήπως είμαι ανήσυχη με τα καθήκοντά μου, πιστεύοντας ότι ο Θεός θα ευαρεστούνταν περισσότερο με εκείνα που εγώ θεωρώ “μεγάλα” καθήκοντα, τα οποία μοιάζουν πάντα απρόσιτα;»",
-      "translation_quote": "Ανυπομονώ για τα καθήκοντά μου, πιστεύοντας ότι ο Θεός θα ευαρεστούνταν περισσότερο αν έκανα εκείνα που εγώ θεωρώ «μεγάλα» καθήκοντα, τα οποία μοιάζουν πάντα απρόσιτα;"
+      "source_quote": "“It is He who designed that my spiritual walk and the propagation thereof happens as my hands touch the earthly.”",
+      "suggested_fix": "Replace «Εκείνος σχεδίασε ώστε η πνευματική μου πορεία και η διάδοσή της να πραγματοποιούνται καθώς τα χέρια μου αγγίζουν τα γήινα» with «Εκείνος σχεδίασε έτσι ώστε η πνευματική μου πορεία και η εξάπλωσή της να συντελούνται καθώς τα χέρια μου καταπιάνονται με τα γήινα»; «διάδοσή» suggests dissemination rather than the spreading/working out of faith in earthly tasks.",
+      "translation_quote": "«Εκείνος σχεδίασε ώστε η πνευματική μου πορεία και η διάδοσή της να πραγματοποιούνται καθώς τα χέρια μου αγγίζουν τα γήινα.»"
     },
     {
-      "location": "Άρθρο, παράγραφος με το παράδειγμα των δώδεκα μαθητών",
+      "location": "Paragraph 5, Scripture quotation",
       "severity": "major",
-      "source_quote": "In the end, His small band of men deserted Him. He was mocked and killed.",
-      "suggested_fix": "Διατηρήστε τη διάκριση του πρωτοτύπου ανάμεσα στους μαθητές που Τον εγκατέλειψαν και στους ανθρώπους που Τον χλεύασαν και Τον σκότωσαν, π.χ. «Τελικά, εκείνη η μικρή ομάδα αντρών Τον εγκατέλειψε. Τον χλεύασαν και Τον σκότωσαν.»",
-      "translation_quote": "Τελικά, εκείνη η μικρή ομάδα αντρών Τον εγκατέλειψε. Τον χλεύασαν και Τον σκότωσαν."
+      "source_quote": "“But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty; And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are”",
+      "suggested_fix": "Replace «τα ανόητα του κόσμου» with «τα ανόητα πράγματα του κόσμου» and «τα ευτελή του κόσμου» with «τα ασήμαντα πράγματα του κόσμου», preserving the quotation’s distinction between foolish things and lowly things.",
+      "translation_quote": "«Ο Θεός διάλεξε τα ανόητα του κόσμου… και τα ευτελή του κόσμου»"
+    },
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“Am I restless with my duties, believing God would be more pleased with my perception of ‘great’ duties”",
+      "suggested_fix": "Replace «Μήπως είμαι ανήσυχη με τα καθήκοντά μου» with «Μήπως δυσανασχετώ με τα καθήκοντά μου» to convey dissatisfaction/restlessness about the duties, rather than merely feeling anxious.",
+      "translation_quote": "«Μήπως είμαι ανήσυχη με τα καθήκοντά μου»"
+    },
+    {
+      "location": "Paragraph 11",
+      "severity": "major",
+      "source_quote": "“But beware… we cannot confuse our resignation to the smallness in our lives, with lethargy.”",
+      "suggested_fix": "Replace «την αποδοχή της μικρότητας στη ζωή μας» with «την παραίτησή μας μπροστά στη μικρότητα της ζωής μας» to retain the source’s warning against resignation, as distinct from mere acceptance.",
+      "translation_quote": "«δεν πρέπει να συγχέουμε την αποδοχή της μικρότητας στη ζωή μας με την αδράνεια»"
+    },
+    {
+      "location": "Paragraph 14",
+      "severity": "major",
+      "source_quote": "“To everyone looking on, the remains of Jesus’ work seemed to have died with Him”",
+      "suggested_fix": "Replace «το έργο του Ιησού φαινόταν να έχει πεθάνει μαζί Του» with «τα απομεινάρια του έργου του Ιησού έμοιαζαν να έχουν πεθάνει μαζί Του» to preserve the source’s qualification that it was the apparent remains of His work.",
+      "translation_quote": "«το έργο του Ιησού φαινόταν να έχει πεθάνει μαζί Του»"
     }
   ],
+  "finished_at": "2026-10-03T21:15:36+00:00",
   "id": "97171b4f59c19e1332a2b125029366b6",
   "issue_id": "97401181-3324-50eb-b430-0a1ac413541e",
   "language": "ell",
@@ -179,13 +221,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9e67a7c46d1ae22734122bda144595651251bc47b5694c6908f9791a4ec58bbc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
   "translation_model_actual": "gpt-6-luna"

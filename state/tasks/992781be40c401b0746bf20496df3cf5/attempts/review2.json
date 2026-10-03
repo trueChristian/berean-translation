@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:15:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, second stanza\",\"severity\":\"minor\",\"source_quote\":\"The answers seem evasive and trying.\",\"suggested_fix\":\"Överväg att återge även innebörden av ”trying” (besvärliga eller påfrestande), till exempel: ”Svaren tycks undflyende och påfrestande.”\",\"translation_quote\":\"Svaren tycks undflyende och svårfångade.\"},{\"location\":\"HTML, poem, sixth stanza\",\"severity\":\"minor\",\"source_quote\":\"“My chosen one,”\",\"suggested_fix\":\"Använd en formulering som inte anger kön, till exempel: ”Du som jag har utvalt,”\",\"translation_quote\":\"”Min utvalda,”\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 631,
+    "content_evidence_truncated": false,
+    "content_sha256": "8056f816eb1273ff279e45676a0a514dcecb35a57a50fa671fd950d2329a6c9b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3008
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
