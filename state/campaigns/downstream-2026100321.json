@@ -5534,6 +5534,9 @@
   ],
   "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
   "status": "active",
+  "task_counts": {
+    "in_batch": 1
+  },
   "tasks": [
     "a4cd94f3f0b43e283038f10e9b529981"
   ]

@@ -2265,12 +2265,11 @@
   ],
   "skipped": [],
   "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
-  "status": "active",
+  "status": "finished",
   "structural_feedback_version": "1",
   "task_counts": {
-    "complete": 114,
-    "in_batch": 116,
-    "not_ready": 10
+    "complete": 172,
+    "not_ready": 68
   },
   "tasks": [
     "ccd21d6f8394a3bf665fa9c058b8ac96",
