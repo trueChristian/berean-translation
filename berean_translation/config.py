@@ -121,6 +121,11 @@ class Config:
         return min(limit, model['max_output_tokens'])
 
     def prompt(self, name: str) -> str:
-        if name not in ('translation', 'review'):
+        if name not in ('translation', 'review', 'repair'):
             raise ContractError('Invalid prompt name')
-        return (self.root / 'prompts' / (name + '.txt')).read_text(encoding='utf-8')
+        text = (self.root / 'prompts' / (name + '.txt')).read_text(encoding='utf-8')
+        if name == 'repair':
+            # Share the fidelity/HTML contract, then clarify complete audit
+            # coverage. Acceptance freezes the combined system prompt once.
+            return self.prompt('translation').rstrip() + '\n\n' + text
+        return text

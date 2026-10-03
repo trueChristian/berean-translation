@@ -305,7 +305,7 @@ def accept(engine, request):
         'downstream_acceptance_complete': False,
         'model': request['model'], 'review_model': request['review_model'], 'models': copy.deepcopy(config.models),
         'languages': languages, 'issues': [], 'prompt_version': config.runtime['prompt_version'],
-        'prompts': {key: config.prompt(key) for key in ('translation', 'review')},
+        'prompts': {key: config.prompt(key) for key in ('translation', 'review', 'repair')},
         'language_settings': {lang: copy.deepcopy(config.languages[lang]) for lang in languages},
         'glossaries': read_json(config.root/'config/glossaries.json')['languages'],
         'max_output_tokens': policy.get('max_output_tokens', config.runtime['max_output_tokens']),
