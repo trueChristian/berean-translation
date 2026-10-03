@@ -10362,17 +10362,17 @@
     },
     "bcd844a2-09d7-4e8f-8b22-139fb2e8cdf5": {
       "fingerprints": {
-        "html_sha256": "ed72c6d40e0df26a4f4f6099298fbf80c88b95fabda1d66dcf0fbb918ae68fde",
+        "html_sha256": "e1f434721e401db74fc918cc8a9772165a3492a2f231be40d6f31c8b4e4a9273",
         "metadata_sha256": "4eae2620a2e8a70797f2649f112da6b764f68e262dc830fcd6d823a194bb0921",
-        "structure_sha256": "cea015555e97cbae3b2f2735982dc742e478917eb37b5f2c80223bbc5887e8cd",
-        "text_sha256": "fa671c83efcec3be9d6f4ce65c518ff45d994d220dfe0b5965d33aa4f40f6fc6",
+        "structure_sha256": "0120c28c31ddc4f9a11e14f75ed62efdd6279a5a893dd45d046b74d9892491be",
+        "text_sha256": "37ed00d1b0947437128623c92763b2f3ef9443ce2b775e88fcce64047fcdc2ff",
         "translation_metadata_sha256": "e9b1235e1543f0f4962beb3981be6323b2a4ae1f4e8635c7459a361d7e149fbe"
       },
       "id": "bcd844a2-09d7-4e8f-8b22-139fb2e8cdf5",
       "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
       "sequence": 6,
       "title": "The Spiritual Resurrection",
-      "translation_key": "f6a58769a1fb197e9e1b32b4906a77eb9ba79ef592321b312c5f2c537ae2b033"
+      "translation_key": "2f2343ddb92a448b812abade6be81e5ed9b2b75cf250318adf8c00f5fb58b20d"
     },
     "bd0b23ac-be3e-45b5-8782-83679a911aba": {
       "fingerprints": {
@@ -14141,7 +14141,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "59713e7173d9bb30dd76ebd3fe16edc229926acd9b61426692d7eeabaaf5e60d",
+  "content_sha256": "3093adb58c8fb60d7c7882bb692b5759b1338a9fe8d5baa490bae247e555b15c",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -15377,5 +15377,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "29b62a0b38637f938f89640386ca6671a778155e"
+  "revision": "22388745ad7f149609e65f5e28cfcc1257cd689e"
 }
