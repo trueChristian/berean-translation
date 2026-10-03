@@ -5,7 +5,7 @@ Generated from the pinned source catalogue and durable work records. No API call
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `560a18daec9ea00bf768f20a473668441df62d78`
+Observed English revision: `58e50fca41cc0b53c8992502bd95166581036945`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -100,31 +100,32 @@ Observed English revision: `560a18daec9ea00bf768f20a473668441df62d78`
 | `heartbeat-remnant-2002-03` | 13 | 0 / 260 | 0 | 0 | 0 |
 | `heartbeat-remnant-2002-01` | 13 | 0 / 260 | 0 | 0 | 0 |
 | `heartbeat-remnant-2001-11` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2010-01` | 11 | 0 / 220 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 48 / 1048 | 0 | 26 | 54 | 77 |
-| `hin` (hi) | 53 / 1048 | 0 | 23 | 52 | 87 |
-| `spa` (es) | 84 / 1048 | 0 | 22 | 22 | 56 |
-| `ara` (ar) | 45 / 1048 | 0 | 25 | 58 | 85 |
-| `fra` (fr) | 78 / 1048 | 0 | 23 | 27 | 59 |
-| `ben` (bn) | 42 / 1048 | 0 | 25 | 61 | 96 |
-| `por` (pt) | 85 / 1048 | 0 | 23 | 20 | 61 |
-| `ind` (id) | 74 / 1048 | 0 | 23 | 31 | 68 |
-| `urd` (ur) | 56 / 1048 | 0 | 25 | 47 | 82 |
-| `rus` (ru) | 59 / 1048 | 0 | 24 | 45 | 81 |
-| `deu` (de) | 45 / 1048 | 0 | 25 | 58 | 91 |
-| `nld` (nl) | 78 / 1048 | 0 | 23 | 27 | 65 |
-| `afr` (af) | 68 / 1048 | 0 | 23 | 37 | 56 |
-| `swa` (sw) | 30 / 1048 | 0 | 26 | 72 | 97 |
-| `kor` (ko) | 62 / 1048 | 0 | 23 | 43 | 77 |
-| `ita` (it) | 81 / 1048 | 0 | 23 | 24 | 55 |
-| `heb` (he) | 14 / 1048 | 0 | 28 | 86 | 105 |
-| `ell` (el) | 54 / 1048 | 0 | 23 | 51 | 85 |
-| `swe` (sv) | 64 / 1048 | 0 | 26 | 38 | 71 |
-| `nob` (nb) | 69 / 1048 | 0 | 23 | 36 | 76 |
+| `cmn` (zh-Hans) | 48 / 1059 | 0 | 26 | 54 | 77 |
+| `hin` (hi) | 53 / 1059 | 0 | 23 | 52 | 87 |
+| `spa` (es) | 84 / 1059 | 0 | 22 | 22 | 56 |
+| `ara` (ar) | 45 / 1059 | 0 | 25 | 58 | 85 |
+| `fra` (fr) | 78 / 1059 | 0 | 23 | 27 | 59 |
+| `ben` (bn) | 42 / 1059 | 0 | 25 | 61 | 96 |
+| `por` (pt) | 85 / 1059 | 0 | 23 | 20 | 61 |
+| `ind` (id) | 74 / 1059 | 0 | 23 | 31 | 68 |
+| `urd` (ur) | 56 / 1059 | 0 | 25 | 47 | 82 |
+| `rus` (ru) | 59 / 1059 | 0 | 24 | 45 | 81 |
+| `deu` (de) | 45 / 1059 | 0 | 25 | 58 | 91 |
+| `nld` (nl) | 78 / 1059 | 0 | 23 | 27 | 65 |
+| `afr` (af) | 68 / 1059 | 0 | 23 | 37 | 56 |
+| `swa` (sw) | 30 / 1059 | 0 | 26 | 72 | 97 |
+| `kor` (ko) | 62 / 1059 | 0 | 23 | 43 | 77 |
+| `ita` (it) | 81 / 1059 | 0 | 23 | 24 | 55 |
+| `heb` (he) | 14 / 1059 | 0 | 28 | 86 | 105 |
+| `ell` (el) | 54 / 1059 | 0 | 23 | 51 | 85 |
+| `swe` (sv) | 64 / 1059 | 0 | 26 | 38 | 71 |
+| `nob` (nb) | 69 / 1059 | 0 | 23 | 36 | 76 |
 
 ## Issue / language work
 
@@ -375,10 +376,12 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 ## Held-work recovery
 
-Paused: hourly/shared-policy recovery submissions are disabled; separately authorized manual workflow requests retain their own ceilings.
-Hourly/shared-policy funding. Accepted lifetime recovery allocations: $0.000000 / $0.00. Allocations are not recycled after failure or cancellation.
+Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.
+Hourly/shared-policy funding. Accepted lifetime recovery allocations: $0.000000 / $10.00. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $40.000000 across 4 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
-Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.
+New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
+[Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
+active: 482 | continuation_cooldown: 9 | continuation_review_only_requires_attention: 11 | eligible_available: 857 | legacy_response_outcome_unknown_requires_owner_attention: 12
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Campaigns

@@ -1,0 +1,18 @@
+{
+  "budget_usd": 1,
+  "continuation_policy": {
+    "cooldown_seconds": 3600,
+    "max_candidate_bytes": 120000,
+    "max_cycles": 3,
+    "max_strategy_cycles": 2,
+    "version": 2
+  },
+  "dry_run": false,
+  "id": "downstream-2026100311",
+  "max_articles": 3,
+  "model": "gpt-6.1-sol",
+  "operation": "repair",
+  "requested_by": "owner-authorized-hourly-downstream-policy",
+  "review_model": "gpt-6.1-sol",
+  "scheduled_hour": "2026-10-03T11"
+}
