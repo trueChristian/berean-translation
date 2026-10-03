@@ -1,0 +1,121 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "29e606a4-93de-4312-b99f-34c48e08fba3",
+    "response_id": "chatcmpl-EUpLTfY1PWVUMqWYTAg13UWoVXFq3",
+    "usage": {
+      "completion_tokens": 1934,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 90,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6950,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6947,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8884
+    }
+  },
+  "received_at": "2026-10-03T08:28:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, opening blockquote",
+        "severity": "major",
+        "source_quote": "whether thou shalt save thy husband? ... whether thou shalt save thy wife?",
+        "suggested_fix": "Replace “sal bekeer” with “sal red” in both questions, preserving the existing tags and reference. The quotation concerns salvation, not merely conversion.",
+        "translation_quote": "of jy jou man sal bekeer? ... of jy jou vrou sal bekeer?"
+      },
+      {
+        "location": "translation.html, p.lead",
+        "severity": "minor",
+        "source_quote": "Almost every Christian has some near kin",
+        "suggested_fix": "Replace “familie in die omgewing” with “’n nabye familielid”. “Near kin” describes close family relationships, not geographical proximity.",
+        "translation_quote": "Byna elke Christen het familie in die omgewing"
+      },
+      {
+        "location": "translation.html, paragraph defining sanctification",
+        "severity": "minor",
+        "source_quote": "What then sanctifies the home? ... To sanctify ... Still, they were critically unsuccessful.",
+        "suggested_fix": "Use “Wat heilig dan die huis?”, change the text inside the existing em tag to “Om te heilig”, and replace the final sentence with “Tog het hulle ernstig tekortgeskiet.” “Kritiekloos” means uncritical, not seriously unsuccessful.",
+        "translation_quote": "Wat dan heiligt die huis? ... Heiligen ... Tog was hulle kritiekloos onsuksesvol."
+      },
+      {
+        "location": "translation.html, Matthew 23:25-26 blockquote",
+        "severity": "major",
+        "source_quote": "within they are full of extortion and excess. Thou blind Pharisee, cleanse first",
+        "suggested_fix": "Replace the affected wording with “binne is hulle vol afpersing en onmatigheid. Blinde Fariseër, maak eers skoon”. Preserve the blockquote structure and reference.",
+        "translation_quote": "binne is hulle vol roof en misdade. Gyselingewese Fariseër, eerste maak skoon"
+      },
+      {
+        "location": "translation.html, paragraph ending with Proverbs 4:23",
+        "severity": "major",
+        "source_quote": "…for out of it are the issues of life",
+        "suggested_fix": "Replace the quoted phrase with “... want daaruit vloei die lewe voort”, keeping it in the existing em tag with the unchanged reference. “Issues” here means the outflow or springs of life, not caring matters.",
+        "translation_quote": "… want daaruit vloei die sorgsame dinge van die lewe"
+      },
+      {
+        "location": "translation.html, 1 Peter 3:1-7 blockquote",
+        "severity": "major",
+        "source_quote": "the holy women also, who trusted in God ... whose daughters ye are, as long as ye do well, and are not afraid with any amazement",
+        "suggested_fix": "Replace “wat in God geskou het” with “wat op God vertrou het”. Replace “aan wie julle kinders is as julle goed doen en nie bang is vir enigsins nie” with “wie se dogters julle is solank julle goed doen en julle nie deur enige verskrikking laat bevrees maak nie”. Also correct “hare vleitel en goue dra” to “hare vleg en goud dra” within the same quotation.",
+        "translation_quote": "die heilige vroue wat in God geskou het ... aan wie julle kinders is as julle goed doen en nie bang is vir enigsins nie"
+      },
+      {
+        "location": "translation.html, 2 Timothy 3:15-16 blockquote",
+        "severity": "major",
+        "source_quote": "is profitable for doctrine, for reproof, for correction, for instruction in righteousness",
+        "suggested_fix": "Replace the corrupted list with “is nuttig vir die leer, vir teregwysing, vir regstelling en vir onderrig in geregtigheid”, retaining the existing tags and reference.",
+        "translation_quote": "is nuttig tot leer, deur, aanbering, regstelling en onderrig in geregtigheid"
+      },
+      {
+        "location": "translation.html, paragraph immediately before Psalm 1:1",
+        "severity": "major",
+        "source_quote": "the influences of all evil communications, which will corrupt good manners",
+        "suggested_fix": "Replace this phrase with “die invloede van alle verderflike kommunikasie, wat goeie sedes sal bederf”. “Kwaadsprekende” narrows the warning to malicious speech, whereas the source addresses harmful communications generally.",
+        "translation_quote": "die invloede van alle kwaadsprekende kommunikasie ... wat goeie maniere sal korrupteer"
+      },
+      {
+        "location": "translation.html, paragraph after Psalm 1:1",
+        "severity": "major",
+        "source_quote": "will leave the home unsanctified ... Daily family devotions",
+        "suggested_fix": "Replace “onges anifiseer” as actually rendered “onges anifiseer” without spaces (“onges anifiseer”/“onges anifiseer” is not intended) by replacing the exact word “onges anifiseer” equivalent in the text, “onges anifiseer”, with “ongeheilig”; specifically, the existing word “onges anifiseer” should read “ongeheilig”. Replace “Daaglikse gesinsbyeenkomste” with “Daaglikse huisgodsdiens”. Preserve the paragraph structure.",
+        "translation_quote": "sal die huis ongesanifiseer ... Daaglikse gesinsbyeenkomste"
+      },
+      {
+        "location": "translation.html, John 17:6-17 blockquote, opening sentence",
+        "severity": "major",
+        "source_quote": "thine they were, and thou gavest them me",
+        "suggested_fix": "Replace “U was van hulle” with “Hulle het aan U behoort”. The source says the disciples belonged to the Father, not that the Father belonged to them.",
+        "translation_quote": "U was van hulle en U het hulle aan My gegee"
+      },
+      {
+        "location": "translation.html, John 17:6-17 blockquote",
+        "severity": "minor",
+        "source_quote": "for they are thine. And all mine are thine, and thine are mine ... none of them is lost ... take them out of the world",
+        "suggested_fix": "Use “want hulle behoort aan U. En almal wat aan My behoort, behoort aan U, en almal wat aan U behoort, behoort aan My”; replace “geenenigde” with “geeneen” and “dat U hulle uit die wêreld wegneming nie” with “dat U hulle uit die wêreld wegneem nie”. These corrections remove malformed words and grammar without changing the quotation’s structure or reference.",
+        "translation_quote": "want hulle is Une. En al Myne is Une en Une is Myne ... geenenigde van hulle is verlore ... dat U hulle uit die wêreld wegneming nie"
+      },
+      {
+        "location": "translation.html, prose paragraphs and Psalm 1:1 blockquote",
+        "severity": "minor",
+        "source_quote": "scandalous sins ... unseen and unobserved ... one can only imagine ... Worldly influences ... sinners ... nor slack from its use",
+        "suggested_fix": "Correct the corresponding expressions to “skandalige sondes”, “ongesien en ongemerk”, “’n mens kan jou net voorstel”, “Wêreldse invloede”, “sondaars”, and “of in die gebruik daarvan verslap”. Keep each correction in its existing paragraph or quotation.",
+        "translation_quote": "skaadsonde ... onverwaarneem en ongesien ... mens kan net sy verbeel ... Wereldse invloede ... zondaars ... noch van die gebruik daarvan verslap"
+      },
+      {
+        "location": "translation.section",
+        "severity": "minor",
+        "source_quote": "The Godly Home",
+        "suggested_fix": "Use “Die Godvrugtige Huisgesin”. “Godly” describes a devout household, whereas “goddelike” normally means divine.",
+        "translation_quote": "Die Goddelike Huis"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

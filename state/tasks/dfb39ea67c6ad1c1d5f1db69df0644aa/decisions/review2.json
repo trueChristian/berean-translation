@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraph beginning “Paulus is in Joodse geleerdheid”",
+      "severity": "major",
+      "source_quote": "but in preaching the cross of Christ, he laid his learning aside",
+      "suggested_fix": "Replace “het hy sy leerstelling ter syde gesit” with “het hy sy geleerdheid opsy gesit”. The author says Paul set aside his learning, not his doctrine.",
+      "translation_quote": "maar in die verkondiging van Christus se kruis het hy sy leerstelling ter syde gesit"
+    },
+    {
+      "location": "translation.html, quotation of 1 Corinthians 4:15-16",
+      "severity": "major",
+      "source_quote": "Wherefore I beseech you, be ye followers of me –1 Corinthians 4:15-16.",
+      "suggested_fix": "Replace “Daarom smeek ek julle, wees my nageslag” with “Daarom smeek ek julle: wees my navolgers”, retaining the existing em tag and reference.",
+      "translation_quote": "Daarom smeek ek julle, wees my nageslag –1 Korintiërs 4:15-16."
+    },
+    {
+      "location": "translation.html, paragraph beginning “Bekeringe wat deur emosionele kanale”",
+      "severity": "major",
+      "source_quote": "Great care should be taken that we do not create an emotional climax and eclipse the message in an inordinate manner lest the power be of men and not of Christ.",
+      "suggested_fix": "Replace the final sentence with “Ons moet groot sorg dra dat ons nie ’n emosionele hoogtepunt skep en die boodskap op ’n buitensporige wyse oorskadu nie, sodat die krag nie van mense eerder as van Christus kom nie.” Preserve the paragraph structure.",
+      "translation_quote": "Groot sorg moet gedra word dat ons nie ’n emosionele klimaks skep en die boodskap oorbeklem nie, sodat die krag van mense en nie van Christus is nie."
+    },
+    {
+      "location": "translation.html, paragraph beginning “Bekeringe wat deur emosionele kanale”",
+      "severity": "major",
+      "source_quote": "Revival methods such as shouting, overt weeping, emotion eliciting music",
+      "suggested_fix": "Replace “Hervormingsmetodes soos gegil, oënskynlike trane, emosie-oproppende musiek” with “Herlewingsmetodes soos geskree, openlike gehuil, musiek wat emosies uitlok”. “Overt” means openly expressed, not apparently genuine or feigned.",
+      "translation_quote": "Hervormingsmetodes soos gegil, oënskynlike trane, emosie-oproppende musiek"
+    },
+    {
+      "location": "translation.html, first paragraph under “…Emosionele Aandrang”",
+      "severity": "minor",
+      "source_quote": "fearfully moving accounts, sad stories, or testimonies",
+      "suggested_fix": "Replace “aangrypend bewegende rekeninge” with “besonder aangrypende vertellings”. Here “accounts” means narratives, not financial accounts.",
+      "translation_quote": "aangrypend bewegende rekeninge, hartseer stories, of getuienisse"
+    },
+    {
+      "location": "translation.html, paragraphs describing the congregational singing before an altar call",
+      "severity": "minor",
+      "source_quote": "the congregation will sing a hymn; Flanked by a soft hymn sung by the congregation",
+      "suggested_fix": "Replace “’n psalm” with “’n geestelike lied” and “’n sagte psalm” with “’n sagte geestelike lied” in the respective paragraphs. The source does not specify a psalm.",
+      "translation_quote": "die gemeente ’n psalm sing; Omring deur ’n sagte psalm wat deur die gemeente gesing word"
+    },
+    {
+      "location": "translation.html, paragraph beginning “Die moderne Christelike wêreld”",
+      "severity": "minor",
+      "source_quote": "The virgin birth, the rough-hewn manger, and the swaddling clothes have become sovereign monuments that we could scarcely do without.",
+      "suggested_fix": "Replace this sentence with “Die maagdelike geboorte, die grof afgewerkte krip en die doeke het soewereine monumente geword waarsonder ons skaars sou kon klaarkom.”",
+      "translation_quote": "Die maagdgebore, die growwe krip en die doeke het soewereine monumente geword waaraan ons skaars sou kon ontbeer."
+    },
+    {
+      "location": "translation.html, paragraph beginning “Die moderne Christelike wêreld”",
+      "severity": "minor",
+      "source_quote": "a spiritual emblem nominally displayed on neck chains and ornate pulpit carvings",
+      "suggested_fix": "Replace “wat na bewering aan halskettings en op sierlike preekstoel-afbeeldings vertoon word” with “wat bloot as simbool aan halskettings en op sierlike preekstoel-houtsneewerk vertoon word”. Remove the unsupported suggestion that its display is only alleged.",
+      "translation_quote": "’n geestelike embleem geword wat na bewering aan halskettings en op sierlike preekstoel-afbeeldings vertoon word"
+    },
+    {
+      "location": "translation.html, language quality across several paragraphs",
+      "severity": "minor",
+      "source_quote": "did not hesitate; The angels in heaven rejoice; artificial dress; all the oratory, philosophical, and heart gripping modes of the world; premature decisions",
+      "suggested_fix": "Make the corresponding local corrections: “het ook nie gehuiwer” for “het ook nie geaarzeld”; “Die engele in die hemel verheug hulle” for “Die engele in die hemel bly”; “kunsmatige aankleding” for “kunsmatige aankleeding”; “al die welsprekende, filosofiese en hartroerende metodes van die wêreld” for “alle oratorium, filosofiese en hartroerende wyse van die wêreld”; and “voortydige besluite … moontlik maak” for “prematuur besluite … mogelijk maak”. Preserve all HTML structures.",
+      "translation_quote": "het ook nie geaarzeld; Die engele in die hemel bly; kunsmatige aankleeding; alle oratorium, filosofiese en hartroerende wyse van die wêreld; prematuur besluite en drukgedrewe verbintenisse mogelijk maak"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

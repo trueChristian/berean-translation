@@ -1,0 +1,114 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "568ba381-8f03-4869-98fd-b84ff460603d",
+    "response_id": "chatcmpl-EUpLT2BgQ0SdeFRkeGScDt7Cd4mls",
+    "usage": {
+      "completion_tokens": 1740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6321,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8064
+    }
+  },
+  "received_at": "2026-10-03T08:28:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, p.lead",
+        "severity": "major",
+        "source_quote": "tortured mercilessly and finally, many were martyred for not recanting their faith",
+        "suggested_fix": "Vervang die betrokke frase met: “genadeloos gefolter, en uiteindelik het baie as martelare gesterf omdat hulle nie hulle geloof wou herroep nie”. Behou die bestaande HTML.",
+        "translation_quote": "genadeloos gefolter en uiteindelik is baie gemartel omdat hulle nie hulle geloof wou herroep nie"
+      },
+      {
+        "location": "translation.html, p.lead, quoted commands",
+        "severity": "minor",
+        "source_quote": "“bless them that persecute you” and “love your enemies”",
+        "suggested_fix": "Gebruik grammaties korrekte Afrikaanse aanhalings: “seën dié wat julle vervolg” en “wees lief vir julle vyande”.",
+        "translation_quote": "\"seën hul wat julle vervolg\" en \"het julle vyande lief\""
+      },
+      {
+        "location": "translation.html, paragraph 2",
+        "severity": "minor",
+        "source_quote": "Hoffs (house/barn fort enclosures) ... the exiled Swiss Brethren ... help rebuild the farms ... excellent husbandmen and tillers of the soil",
+        "suggested_fix": "Gebruik “Hoffs (versterkte huis-en-skuurkomplekse)”, “die verbanne Switserse Broeders”, “om die plase te help herbou” en “uitstekende boere en grondbewerkers”, sonder om die paragraafstruktuur te verander.",
+        "translation_quote": "Hoffs (huis/skuur-omheinings) ... die verbande Switserse Broeders ... help om die plase herbou ... uitstekende boere en grondbewerker"
+      },
+      {
+        "location": "translation.html, paragraphs 3–4",
+        "severity": "minor",
+        "source_quote": "Catholic, Lutheran, and Reformed ... the introduction of the legume, clover",
+        "suggested_fix": "Vervang “Luterus” met “Luthers” en “die invoering van peule, klawer” met “die invoering van klawer, ’n peulgewas”.",
+        "translation_quote": "Katoliek, Luterus en Gereformeerd ... die invoering van peule, klawer"
+      },
+      {
+        "location": "translation.html, paragraph 7, description of land",
+        "severity": "major",
+        "source_quote": "some very rich and well-watered lands",
+        "suggested_fix": "Vervang “’n paar baie ryk en goed-geoogde lande” met “besonder vrugbare grond met volop water”.",
+        "translation_quote": "’n paar baie ryk en goed-geoogde lande"
+      },
+      {
+        "location": "translation.html, paragraph 7, predators",
+        "severity": "major",
+        "source_quote": "Wolves, bears, panthers, bobcats and other predators abounded.",
+        "suggested_fix": "Vervang “luiperdkatte” met “poemas”, die bedoelde Amerikaanse panters in hierdie konteks. Behou die ander diere en die bestaande HTML.",
+        "translation_quote": "Wolwe, bere, luiperdkatte, bobkatte en ander roofdiere was volop."
+      },
+      {
+        "location": "translation.html, paragraph 7, land grant",
+        "severity": "major",
+        "source_quote": "They received a land patent for 10,000 acres for their families and others that might come later.",
+        "suggested_fix": "Vervang “’n boupermit vir 10,000 akkers” met “’n grondbrief vir 10 000 akkers”. Die bron beskryf ’n grondtoekenning, nie toestemming om te bou nie.",
+        "translation_quote": "Hulle het ’n boupermit vir 10,000 akkers vir hul families en ander wat later kon kom ontvang."
+      },
+      {
+        "location": "translation.html, paragraph 8",
+        "severity": "minor",
+        "source_quote": "they made the trip across the Atlantic ... many German-dialect speakers",
+        "suggested_fix": "Vervang “het hulle die Oseaan oorgemaak” met “het hulle die Atlantiese Oseaan oorgesteek” en “baie Duitssprekendes” met “baie sprekers van Duitse dialekte”.",
+        "translation_quote": "het hulle die Oseaan oorgemaak ... baie Duitssprekendes"
+      },
+      {
+        "location": "translation.html, first paragraph under Misverstand",
+        "severity": "minor",
+        "source_quote": "Sometime, after being in Penn’s woods for a number of years ... built a substantial homestead",
+        "suggested_fix": "Vervang “Irgendwannet” met “Op ’n stadium” en “’n aansienlike boerderij” met “’n aansienlike opstal”.",
+        "translation_quote": "Irgendwannet, nadat hy ’n aantal jare in Penn se woude was ... ’n aansienlike boerderij"
+      },
+      {
+        "location": "translation.html, second paragraph under Misverstand",
+        "severity": "minor",
+        "source_quote": "riding to Philadelphia with furs then back out into the vast frontier with blankets, brass kettles",
+        "suggested_fix": "Vervang die betrokke frase met “wat met pelse na Philadelphia gery het en dan met komberse, geelkoperketels en ander handelsware terug na die uitgestrekte grensgebied gereis het”. Dit herstel die foutiewe bewegingsfrase en die metaalsoort.",
+        "translation_quote": "ry roerend na Philadelphia met velle en dan terug uit na die uitgestrekte grens met komberse, bronsketels"
+      },
+      {
+        "location": "translation.html, paragraph under Medisyne",
+        "severity": "minor",
+        "source_quote": "live as a single sister ... being a blessing to the local community ... her homemade herbal medicines ... helped his father’s first wife minister to the many settlers",
+        "suggested_fix": "Gebruik “as ’n suster sonder ’n huweliksmaat te leef”, “om met haar mediese kennis en wysheid, haar tuisgemaakte kruiemedisyne en haar vroedvrouewerk ’n seën vir die plaaslike gemeenskap te wees”, en “sy pa se eerste vrou gehelp om die baie setlaars ... te dien”.",
+        "translation_quote": "as ’n enkele suster ... aan die plaaslike gemeenskap se seën ... haar tuisgemaakte kruietowwe ... sy pa se eerste vrou gehelp om aan die baie setlaars ... te bedien"
+      },
+      {
+        "location": "translation.title",
+        "severity": "major",
+        "source_quote": "Mennonites, Misunderstandings, and Herbal Medicines",
+        "suggested_fix": "Vervang slegs “Kruiedokters” met “Kruiemedisyne”, sodat die titel na die middels verwys eerder as na praktisyns.",
+        "translation_quote": "Mennoniete, Misverstande, en Kruiedokters"
+      }
+    ],
+    "passed": false,
+    "score": 73
+  }
+}
