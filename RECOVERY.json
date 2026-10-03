@@ -10517,7 +10517,7 @@
       "has_publication": false,
       "language": "ita",
       "latest_task": "021a7cfeeaedea7c66fd17dea7d6505e",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef"
