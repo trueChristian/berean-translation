@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3e07f2be58e845c5aa1e55504a8297fe",
   "campaign": "gh-37108593335",
   "created_at": "2026-10-03T08:07:46+00:00",
   "downstream_candidate_sha256": "68f4eff2b3b1996375c6c385dc43d1d063887d8a20b1bcf817422064208873bd",
@@ -10,7 +9,29 @@
   "downstream_previous_sha256": "db340e4fbeeb3d453f94aaf93e9e93afba6c64269c81d074af30b9248a3c3004",
   "downstream_previous_task": "fef5c0cd16ca02e786dcec5946338b56",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2523,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 221,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5521,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5518,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8044
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "Paragraph listing other hymns (near end of main text)",
@@ -133,9 +154,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
-  "stage": "correct",
-  "status": "in_batch",
+  "stage": "review2",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6-luna"
 }

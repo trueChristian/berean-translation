@@ -2,7 +2,6 @@
   "article_id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3e07f2be58e845c5aa1e55504a8297fe",
   "campaign": "gh-37108593335",
   "created_at": "2026-10-03T08:07:46+00:00",
   "downstream_candidate_sha256": "027c59b1f9e9e98981816be558f9cb8de3f6b0658bd83c7fcecfbf7e2cb4ccb9",
@@ -10,7 +9,30 @@
   "downstream_previous_sha256": "9cb8a83e466f727c63d664d72da6308c614c95ffc0cd72fa57a1aa5e0665bea2",
   "downstream_previous_task": "d099adde14dc97f1d1c72ca10cbee4c2",
   "downstream_recovery": true,
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3172,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 52,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6320,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6317,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9492
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/p[11] ('end', 'p'); translation /article[1]/p[11]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -20,6 +42,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-10-03T08:20:32+00:00",
   "id": "ec5cb32419798772bbfb58aba52294fe",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -113,8 +136,8 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-  "translation_model_actual": "gpt-5-mini-2025-08-07"
+  "translation_model_actual": "gpt-6-luna"
 }

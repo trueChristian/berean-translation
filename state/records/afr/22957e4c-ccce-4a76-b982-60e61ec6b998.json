@@ -19,6 +19,12 @@
       "event": "downstream_repair_requested",
       "previous_task": "d099adde14dc97f1d1c72ca10cbee4c2",
       "task": "ec5cb32419798772bbfb58aba52294fe"
+    },
+    {
+      "at": "2026-10-03T08:20:32+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/p[11] ('end', 'p'); translation /article[1]/p[11]/em[1] ('start', 'em', ())",
+      "task": "ec5cb32419798772bbfb58aba52294fe"
     }
   ],
   "language": "afr",
