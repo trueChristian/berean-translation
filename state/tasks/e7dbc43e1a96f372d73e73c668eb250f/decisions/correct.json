@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[27]; missing: 1 Corinthians 7:39, 2 Corinthians 6:14-15; extra: 6:14-15, 7:39",
+  "stage": "correct"
+}

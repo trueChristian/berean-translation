@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27236deb31a54518a1fb8cfac3091e29",
   "campaign": "gh-37109168265",
   "created_at": "2026-10-03T08:20:25+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 9509
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4728,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 18,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10031,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 10028
+        },
+        "total_tokens": 14759
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[30]; missing: 2 Timothy 4:3; extra: 4:3",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"28cd0392-f481-4e7c-9674-fbeb3c49fdf1\">\n  <p class=\"drop-cap\">״ד״ר ולדרון, אלסי זקוקה לעזרה!״ בעלה של אלסי היה נחרץ, כמעט כועס, כשהביט בי. אלסי, לעומת זאת, בהתה ברצפה, כמעט כאילו לא הייתה נוכחת. מעולם לא פגשתי קודם אף אחד מבני הזוג, והתקשיתי מעט להבין מה נדרש ממני כדי לעזור לה.</p>\n  <p>״מה קורה?״ שאלתי כשדפדפתי בתיק הרפואי שלה. זה היה עדיין בימים של תיקים מנייר, ופניתי לחלק של בדיקות המעבדה בתיק שלה. לא ראיתי שם שום דבר חריג במיוחד — רמות אנזימי הכבד שלה היו מעט גבוהות, אבל מלבד זאת הכול נראה תקין.</p>\n  <p>״זו השתייה שלה!״ אמר לי בעלה. ״היא שותה יותר ויותר בכל לילה. "
     }
   ],
+  "finished_at": "2026-10-03T11:27:06+00:00",
   "id": "1704a36496c1b1fb90c8e7c27f01bc51",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f0c25c3577311c7c02b2cb60e52d3dc036fc05e7110d4da4ab1ec416de46e1d1.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-6.1-sol"

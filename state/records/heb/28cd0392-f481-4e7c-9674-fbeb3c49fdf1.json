@@ -30,6 +30,12 @@
       "campaign": "gh-37109168265",
       "event": "requested",
       "task": "1704a36496c1b1fb90c8e7c27f01bc51"
+    },
+    {
+      "at": "2026-10-03T11:27:06+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[30]; missing: 2 Timothy 4:3; extra: 4:3",
+      "task": "1704a36496c1b1fb90c8e7c27f01bc51"
     }
   ],
   "language": "heb",

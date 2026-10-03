@@ -7,10 +7,10 @@
     "version": 2
   },
   "counts": {
-    "active": 678,
+    "active": 674,
     "continuation_cooldown": 9,
     "continuation_review_only_requires_attention": 11,
-    "eligible_available": 864,
+    "eligible_available": 868,
     "legacy_response_outcome_unknown_requires_owner_attention": 12
   },
   "derived": true,
@@ -4585,9 +4585,10 @@
       "has_publication": false,
       "language": "deu",
       "latest_task": "02c2ad0c8d9f1ca54bc1985a6e0d2fba",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.616541,
       "source_fingerprint": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6"
     },
     {
@@ -6910,9 +6911,10 @@
       "has_publication": false,
       "language": "heb",
       "latest_task": "1c122aa1ca732afe5706117e045bca06",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.579586,
       "source_fingerprint": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c"
     },
     {
@@ -7017,9 +7019,10 @@
       "has_publication": false,
       "language": "heb",
       "latest_task": "1704a36496c1b1fb90c8e7c27f01bc51",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.598688,
       "source_fingerprint": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05"
     },
     {
@@ -7531,9 +7534,10 @@
       "has_publication": false,
       "language": "heb",
       "latest_task": "e7dbc43e1a96f372d73e73c668eb250f",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "eligible_available",
       "remaining_cycles": 3,
+      "required_cycle_ceiling_usd": 0.620768,
       "source_fingerprint": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6"
     },
     {

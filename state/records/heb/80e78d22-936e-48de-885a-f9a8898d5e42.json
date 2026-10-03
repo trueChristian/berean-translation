@@ -30,6 +30,12 @@
       "campaign": "gh-37109168265",
       "event": "requested",
       "task": "e7dbc43e1a96f372d73e73c668eb250f"
+    },
+    {
+      "at": "2026-10-03T11:27:06+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[27]; missing: 1 Corinthians 7:39, 2 Corinthians 6:14-15; extra: 6:14-15, 7:39",
+      "task": "e7dbc43e1a96f372d73e73c668eb250f"
     }
   ],
   "language": "heb",

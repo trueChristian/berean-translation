@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27236deb31a54518a1fb8cfac3091e29",
   "campaign": "gh-37109168265",
   "created_at": "2026-10-03T08:20:25+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 12679
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 6490,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 126,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13203,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13200,
+          "cached_tokens": 0
+        },
+        "total_tokens": 19693
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[27]; missing: 1 Corinthians 7:39, 2 Corinthians 6:14-15; extra: 6:14-15, 7:39",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"80e78d22-936e-48de-885a-f9a8898d5e42\">\n  <p class=\"article-note\"><em>חיזור שהמשיח במרכזו הוא סדרת מסרים על חיזור ביראת אלוהים, שנשא פול הרשברגר. בעשר השנים האחרונות הוא נשא את המסרים האלה כמה פעמים במקומות שונים. לאחרונה תמללנו וקיצרנו אותם כדי שיהיו ברורים לקריאה. לאחר הדפסת כל ששת המאמרים בכתב העת </em>The Heartbeat of the Remnant<em>, נפרסם אותם בחוברת. זהו המאמר הראשון מתוך שישה.</em></p>\n\n  <h2>מבוא</h2>\n  <p>אשתי ואני זכינו לתקופת חיזור ללא חרטות או אשמה. התברכנו בהורים שהדריכו אותנו בדרך הנכונה ונתנו לנו הזדמנויות שלא היו להם.</p>\n  <p>אם אין לכם עדות כזאת או ז"
     }
   ],
+  "finished_at": "2026-10-03T11:27:06+00:00",
   "id": "e7dbc43e1a96f372d73e73c668eb250f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/8c366abbc5a7a699ceb82bc85cb33d9e857d11a1769e70cb41fb53993e17ea81.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-6.1-sol"
