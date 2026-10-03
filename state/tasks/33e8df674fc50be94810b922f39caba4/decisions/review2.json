@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “בראשית”",
+      "severity": "minor",
+      "source_quote": "They also did not have the uncontrolled appetites for food that their descendants deal with today.",
+      "suggested_fix": "Change “גם לא היו להם התיאבון הבלתי נשלט למזון” to “גם לא היה להם התיאבון הבלתי נשלט למזון” to correct the Hebrew agreement.",
+      "translation_quote": "גם לא היו להם התיאבון הבלתי נשלט למזון שצאצאיהם מתמודדים איתו כיום."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

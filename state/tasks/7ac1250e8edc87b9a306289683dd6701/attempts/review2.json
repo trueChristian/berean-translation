@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, paragraph beginning “He wants me to be proved”\",\"severity\":\"minor\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"Dia ingin membuktikan diriku; Dialah Hidup dan Jalan.\",\"translation_quote\":\"Dia ingin aku terbukti; Dialah Hidup dan Jalan.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 357,
+    "content_evidence_truncated": false,
+    "content_sha256": "c0f05795e6eff871328204818ac61546dea1be0dce84d1ed1f620c3b1f7945a8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 499,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1848,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1845,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2450
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

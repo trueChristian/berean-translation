@@ -2,7 +2,6 @@
   "article_id": "201a1b3e-85b3-4e62-bc45-118a8c1f5367",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 7383
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 487,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 461,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4731,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4728,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5218
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, final paragraph (Jude 1:24-25)",
-      "severity": "major",
-      "source_quote": "“To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.”",
-      "suggested_fix": "Replace the ending with a faithful Italian translation of the printed wording, for example: «all’unico Dio, nostro Salvatore, siano gloria e maestà, dominio e potenza, ora e per sempre». Do not add wording absent from the source.",
-      "translation_quote": "“all’unico Dio, nostro Salvatore, per mezzo di Gesù Cristo nostro Signore, siano gloria, maestà, forza e potere, prima di tutti i tempi, ora e per tutti i secoli.”"
-    },
-    {
-      "location": "HTML, first paragraph (Psalm 62:7)",
-      "severity": "minor",
-      "source_quote": "“In God is my salvation and my glory”",
-      "suggested_fix": "For clearer Italian agreement, use «In Dio è la mia salvezza e la mia gloria».",
-      "translation_quote": "“In Dio sono la mia salvezza e la mia gloria”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "5f2f14bc4afc5cd719765ec092b99ee9",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ita",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3247d37db60af5cb04c89fcb95f19a48f92e4609f34cce657f7405b402cfca9f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "92b56728982b198330ddcb24c7e02cd21970b5b6b05c1ca2bc4d1d96a83218a8",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Our minds are accustomed…”\",\"severity\":\"minor\",\"source_quote\":\"“A sermon that litigates the soul is a revelation of the preacher.”\",\"suggested_fix\":\"Replace “পরিচারকের” with “প্রচারকের” here, so the sentence reads: “আত্মাকে বিচারের মুখে দাঁড় করায় এমন উপদেশ প্রচারকের পরিচয় প্রকাশ করে।” The current “পরিচারক” can mean an attendant or servant and obscures the preacher’s role.\" ,\"translation_quote\":\"“আত্মাকে বিচারের মুখে দাঁড় করায় এমন উপদেশ প্রচারকের পরিচয় প্রকাশ করে।”\"},{\"location\":\"Paragraph beginning “This happens to all on a constant daily basis.”\",\"severity\":\"minor\",\"source_quote\":\"“Our judgment of a minister or a sermon is really the judgment of ourselves.”\",\"suggested_fix\":\"Change “কোনো পরিচারক বা উপদেশ” to “কোনো প্রচারক বা উপদেশ,” using the church-preaching sense of “minister.”\",\"translation_quote\":\"“প্রায়ই কোনো পরিচারক বা উপদেশ সম্পর্কে আমাদের বিচার আসলে নিজেদেরই বিচার।”\"},{\"location\":\"Heading “…Perfection,” paragraph beginning “We play only the finest recorded music…”\",\"severity\":\"minor\",\"source_quote\":\"“the message of the sincere and humble offerings of common singing”\",\"suggested_fix\":\"Make the singing explicit, for example: “সাধারণ মানুষের আন্তরিক ও বিনয়ী গান পরিবেশনার বার্তার প্রতি…”\",\"translation_quote\":\"“সাধারণ মানুষের আন্তরিক ও বিনয়ী পরিবেশনার বার্তার প্রতি আমাদের কান বধির হয়ে যেতে পারে।”\"},{\"location\":\"Heading “…Fiction,” paragraph beginning “From movies to novels…”\",\"severity\":\"minor\",\"source_quote\":\"“We know the imperfections of our home minister, brother, or family member.”\",\"suggested_fix\":\"Change “নিজস্ব পরিচারক” to “নিজেদের প্রচারক” (or another contextually appropriate Bengali term for a church minister).\",\"translation_quote\":\"“আমাদের নিজস্ব পরিচারক, ভাই বা পরিবারের সদস্যের অপূর্ণতাগুলো আমরা জানি।”\"},{\"location\":\"Heading “Burning Hearts,” paragraph beginning “Some may claim…”\",\"severity\":\"minor\",\"source_quote\":\"“the responsibility of every faithful minister” / “halfhearted ministers” / “Those who are called to such a noble position”\",\"suggested_fix\":\"Use a clear Bengali term for a church minister or preacher in this paragraph, such as “বিশ্বস্ত প্রচারক” and “অর্ধহৃদয় প্রচারক,” rather than “পরিচারক.”\",\"translation_quote\":\"“প্রত্যেক বিশ্বস্ত পরিচারকের দায়িত্ব” / “অর্ধহৃদয় পরিচারকের অর্ধহৃদয় প্রচার”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 3619,
+    "content_evidence_truncated": false,
+    "content_sha256": "8e3a11fa92b8e617bb05d72dd14a2c673379b197a72be9e4c224f6f8dac24c40",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1322,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 714,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8914,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8911,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10236
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Hy was by ’n kruispad, met sy hele lewe op die spel.",
+      "translation_quote": "Hy was by ’n kruispad, met sy hele lewe voor hom."
+    },
+    {
+      "location": "Poem, second stanza",
+      "severity": "minor",
+      "source_quote": "A man walked alone; his direction unclear.",
+      "suggested_fix": "’n Man het alleen geloop; sy rigting was onseker.",
+      "translation_quote": "’n Man het alleen geloop; sy koers was onklaar."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

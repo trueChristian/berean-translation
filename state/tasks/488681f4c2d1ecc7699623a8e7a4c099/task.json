@@ -2,7 +2,6 @@
   "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 2916
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 618,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1915,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1912,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2533
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Poem, paragraph 16",
-      "severity": "major",
-      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
-      "suggested_fix": "वह चाहता है कि मैं प्रमाणित होऊँ; वही जीवन और मार्ग है।",
-      "translation_quote": "वह चाहता है कि मैं परखा जाऊँ; वही जीवन और मार्ग है।"
+      "location": "Poem, fourth stanza",
+      "severity": "minor",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "वह जीवन के चौराहे पर खड़ा था, अपने पूरे जीवन पर विचार करता हुआ।",
+      "translation_quote": "वह जीवन के चौराहे पर था, जीवन का पूरा सफ़र सामने तमाम।"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "488681f4c2d1ecc7699623a8e7a4c099",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

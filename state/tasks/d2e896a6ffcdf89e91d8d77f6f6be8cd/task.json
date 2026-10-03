@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,46 +64,47 @@
         },
         "total_tokens": 18462
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 803,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 534,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11646,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11643,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12449
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, مقدمة المحرر",
+      "location": "Section IV, paragraph on the woman at the well (John 4:22c)",
       "severity": "major",
-      "source_quote": "“ventriloquism”",
-      "suggested_fix": "استبدل «فن التنويم الصوتي» بـ«فن تحريك الدمى الصوتي» أو «فن التحدث من البطن»؛ فالمقصود هو فن البطنية/تحريك الدمى الصوتي، لا التنويم.",
-      "translation_quote": "«وفن التنويم الصوتي»"
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "Replace «الخلاص من اليهود» with «الخلاص بيسوع» to preserve the source’s attribution of salvation to Jesus.",
+      "translation_quote": "«الخلاص من اليهود» (4:22ج)."
     },
     {
-      "location": "HTML, قسم I.a، الفقرة عن عبرانيين 11:6",
+      "location": "Opening historical overview, paragraph on the Reformation",
       "severity": "major",
-      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
-      "suggested_fix": "ترجم العبارة المطبوعة بأمانة، مثل: «الإيمان هو جوهر الأمور المرجوّة، وبرهان أمور لا تُرى (أو لا تُعرض)». لا تستبدل «جوهر» بـ«الثقة»؛ فالمصدر يورد «substance».",
-      "translation_quote": "«الإيمان هو الثقة بما يُرجى، والإيقان بأمور لا تُرى (أو لا تُعرض)»"
-    },
-    {
-      "location": "HTML, قسم III.a، اجتماع الصلاة في منتصف بعد الظهر",
-      "severity": "major",
-      "source_quote": "“Peter and John attended a midafternoon prayer meeting (Acts 3:1). (Say, fellow saint, when was the last time that you attended a midafternoon prayer meeting?)”",
-      "suggested_fix": "احذف «لي» من السؤال، ليبقى السؤال موجّهًا إلى القارئ كما في الأصل: «قل أيها القديس الزميل، متى كانت آخر مرة حضرت فيها اجتماع صلاة في منتصف بعد الظهر؟»",
-      "translation_quote": "«(قل لي أيها القديس الزميل، متى كانت آخر مرة حضرت فيها اجتماع صلاة في منتصف بعد الظهر؟)»"
-    },
-    {
-      "location": "HTML, قسم III.c، الفقرة عن الغناء في العهد الجديد",
-      "severity": "major",
-      "source_quote": "“The New Testament leaves no hint of professional singers, choirs, or musical performances.”",
-      "suggested_fix": "أعد «professional» بترجمة «المحترفين» بعد «جوقات» أيضًا، مثل: «لا يلمّح العهد الجديد إلى وجود مغنين محترفين أو جوقات محترفة أو عروض موسيقية احترافية».",
-      "translation_quote": "«لا يلمّح العهد الجديد إلى وجود مغنين محترفين أو جوقات أو عروض موسيقية»"
-    },
-    {
-      "location": "HTML, قسم IV، الفقرة التي تقتبس يوحنا 4:22",
-      "severity": "major",
-      "source_quote": "“‘Salvation is of Jesus’ (4:22c).”",
-      "suggested_fix": "صحّح الاقتباس إلى «الخلاص من اليهود» أو «الخلاص هو من اليهود»، وفق معنى العبارة المطبوعة في المصدر، مع إبقاء الإحالة (4:22ج).",
-      "translation_quote": "«الخلاص من يسوع» (4:22ج)"
+      "source_quote": "“the church emerged from this long era of moral decay through Spirit-filled, Bible-based, New Covenant-focused preaching of the Anabaptist Revival during the Reformation time period.”",
+      "suggested_fix": "Replace «نهضة قائلِيَة المعمودية» with a clear rendering of “Anabaptist Revival,” such as «نهضة مُعيدي المعمودية», preserving the claim about the movement’s preaching.",
+      "translation_quote": "«كرازة نهضة قائلِيَة المعمودية، المملوءة بالروح والمستندة إلى الكتاب المقدس والمتمحورة حول العهد الجديد»"
     }
   ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "d2e896a6ffcdf89e91d8d77f6f6be8cd",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ara",
@@ -199,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

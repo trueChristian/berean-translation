@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Absatz zum Verhalten der amerikanischen Kirche gegenüber Selbstverteidigung\",\"severity\":\"major\",\"source_quote\":\"The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.\",\"suggested_fix\":\"Ergänzen Sie am Satzende die unvollständige Aussage entsprechend dem gedruckten englischen Quelltext: „…; die Bibel nennt es.“ Der Satz bricht auch im englischen Original nach „calls it“ ab; fügen Sie keine Ergänzung hinzu.\",\"translation_quote\":\"Die amerikanische Kirche nennt die „Verteidigung“ unserer selbst, unserer Familien und unseres Landes Heldentum oder Tapferkeit; die Bibel nennt es.\"},{\"location\":\"Absatz über die drei Unterschiede zwischen Protestanten und Täufern\",\"severity\":\"major\",\"source_quote\":\"Most Protestants are supporters of fighting for our freedoms and our rights.\",\"suggested_fix\":\"Ändern Sie „unterstützen den Kampf für unsere Freiheiten und Rechte“ in „befürworten den Kampf um unsere Freiheit und unsere Rechte“ oder eine gleichwertige Formulierung, die die Unterstützung für den Kampf ausdrückt.\",\"translation_quote\":\"Die meisten Protestanten unterstützen den Kampf für unsere Freiheiten und Rechte.\"},{\"location\":\"Absatz über die Frau im Fast-Food-Restaurant\",\"severity\":\"minor\",\"source_quote\":\"“Jesus loves you just the way you are. You don’t have to change for this man.”\",\"suggested_fix\":\"Für die zweite Aussage die Bedeutung „Wegen dieses Mannes musst du dich nicht ändern“ wiedergeben, zum Beispiel: „Wegen dieses Mannes musst du dich nicht ändern.“\",\"translation_quote\":\"„Jesus liebt dich genau so, wie du bist. Du musst dich für diesen Mann nicht ändern.“\"},{\"location\":\"Absatz über den Pastor und die Affäre\",\"severity\":\"major\",\"source_quote\":\"…you’re not a true Christian, and you will not find victory.\",\"suggested_fix\":\"Behalten Sie die direkte Anrede des englischen Originals durchgehend bei: „… bist du kein wahrer Christ und wirst keinen Sieg finden.“\",\"translation_quote\":\"… bist du kein wahrer Christ und wirst keinen Sieg finden.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 2164,
+    "content_evidence_truncated": false,
+    "content_sha256": "e56746922e67cc54df328014fb0e81d6858c95f97f6dce626bbd6948d5968542",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 474,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9196,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9673
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

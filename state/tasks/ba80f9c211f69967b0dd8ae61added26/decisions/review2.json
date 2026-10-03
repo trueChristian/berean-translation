@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Enquanto esperava na fila...”",
+      "severity": "minor",
+      "source_quote": "“other graphic designs”",
+      "suggested_fix": "Replace “outros desenhos explícitos” with “outros desenhos de imagens fortes” to convey “graphic” without implying that the designs are explicit in the sense of sexual or otherwise overt content.",
+      "translation_quote": "“outros desenhos explícitos”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third stanza, second line of the poem\",\"severity\":\"major\",\"source_quote\":\"All would have escaped this pain.\",\"suggested_fix\":\"Sostituisci la riga con: «Tutti sarebbero sfuggiti a questo dolore.»\",\"translation_quote\":\"tutti avrebbero voluto sfuggire a questo dolore.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 329,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d9ffdcd0f9ab4076f1041a33da540401cda356c80d7ab406c7d421b0d9f878b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2368,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2982
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

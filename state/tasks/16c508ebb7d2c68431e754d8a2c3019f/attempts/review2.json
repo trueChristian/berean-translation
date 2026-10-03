@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[],\"passed\":true,\"score\":97}",
+    "content_bytes": 40,
+    "content_evidence_truncated": false,
+    "content_sha256": "1130559c656c5b195a4cdce7dcf502710c4502848a744a104adfb5137134a41a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 407,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 381,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1820,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1817,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2227
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

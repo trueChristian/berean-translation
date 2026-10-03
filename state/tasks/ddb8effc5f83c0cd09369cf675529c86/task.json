@@ -2,7 +2,6 @@
   "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 2920
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 893,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 670,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1866,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1863,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2759
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Poem, line 13",
+      "location": "Poem, fourth stanza",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Alikuwa kwenye njia panda, katika maisha yake yote.",
+      "translation_quote": "Alikuwa njia panda, akitazama maisha yake yote."
+    },
+    {
+      "location": "Poem, thirteenth stanza",
       "severity": "major",
       "source_quote": "The fact of the matter, it’s confidence I lack.",
       "suggested_fix": "Ukweli ni kwamba, ninakosa kujiamini.",
-      "translation_quote": "Ukweli ni kwamba, ninakosa ujasiri wa kumtumaini."
+      "translation_quote": "Ukweli ni kwamba, ninakosa imani."
     },
     {
-      "location": "Attribution paragraph at the end of the article",
+      "location": "Poem, tenth stanza",
       "severity": "minor",
-      "source_quote": "–by Barry Grant",
-      "suggested_fix": "–na Barry Grant",
-      "translation_quote": "–by Barry Grant"
+      "source_quote": "I even helped the neighbor, just the other day!",
+      "suggested_fix": "Hata nilimsaidia jirani, siku nyingine hivi karibuni!",
+      "translation_quote": "Hata nilimsaidia jirani, siku chache tu zilizopita!"
     }
   ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "ddb8effc5f83c0cd09369cf675529c86",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -172,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

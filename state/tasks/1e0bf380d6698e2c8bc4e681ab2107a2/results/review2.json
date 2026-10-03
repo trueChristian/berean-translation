@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2ae30891-0b9d-4a56-b87a-ff291b05d01e",
+    "response_id": "chatcmpl-EUsMPCHizr4obJGjMcLNe9IHLksSe",
+    "usage": {
+      "completion_tokens": 609,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4475
+    }
+  },
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poème cité, deuxième ligne",
+        "severity": "minor",
+        "source_quote": "It may be in the better land",
+        "suggested_fix": "Remplacer « Peut-être dans le meilleur des pays » par une formulation plus idiomatique, par exemple « Peut-être dans le pays meilleur » ou « Peut-être dans un monde meilleur », en conservant l’idée d’un lieu meilleur.",
+        "translation_quote": "Peut-être dans le meilleur des pays"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

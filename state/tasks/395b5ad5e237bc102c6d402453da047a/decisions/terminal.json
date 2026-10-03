@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 4, line 4",
+      "severity": "minor",
+      "source_quote": "Than all of life’s great wit and will.",
+      "suggested_fix": "Replace “als all der große Witz und Wille des Lebens” with “als all die große Klugheit und Willenskraft des Lebens.”",
+      "translation_quote": "als all der große Witz und Wille des Lebens."
+    },
+    {
+      "location": "Poem, stanza 4, line 5",
+      "severity": "minor",
+      "source_quote": "He who wins is he who hears...",
+      "suggested_fix": "Replace “Wer siegt, ist, wer hört …” with “Wer siegt, ist der, der hört …”",
+      "translation_quote": "Wer siegt, ist, wer hört …"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

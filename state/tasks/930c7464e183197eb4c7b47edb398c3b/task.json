@@ -2,7 +2,6 @@
   "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 2965
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 558,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 464,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1806,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1803,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2364
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Poem, paragraph 4",
-      "severity": "major",
+      "location": "source.html, poem, fourth stanza",
+      "severity": "minor",
       "source_quote": "He was at the crossroads, all his life as a whole.",
-      "suggested_fix": "Replace «con toda su vida en juego» with wording that conveys that he had reached a crossroads in his life, for example: «Estaba en una encrucijada, en un momento decisivo de su vida.»",
-      "translation_quote": "Estaba en una encrucijada, con toda su vida en juego."
-    },
-    {
-      "location": "Poem, final paragraph",
-      "severity": "major",
-      "source_quote": "Than the almighty God. For all men it’s a must!",
-      "suggested_fix": "Make clear that putting one’s trust in God is a must for everyone, for example: «¡En el Dios todopoderoso, en quien todos deben confiar!»",
-      "translation_quote": "que el Dios todopoderoso. ¡Es imprescindible para todos!"
+      "suggested_fix": "Había llegado a una encrucijada en toda su vida.",
+      "translation_quote": "Había llegado a una encrucijada en su vida."
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "930c7464e183197eb4c7b47edb398c3b",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "spa",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

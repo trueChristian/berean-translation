@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, fourth stanza\",\"severity\":\"minor\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"वह जीवन के चौराहे पर खड़ा था, अपने पूरे जीवन पर विचार करता हुआ।\",\"translation_quote\":\"वह जीवन के चौराहे पर था, जीवन का पूरा सफ़र सामने तमाम।\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 502,
+    "content_evidence_truncated": false,
+    "content_sha256": "b0cd8db16cd9738fec411e21c4faa3f8e87dc1bcbd2c08fcfc35d832f894728e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1915,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1912,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2533
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

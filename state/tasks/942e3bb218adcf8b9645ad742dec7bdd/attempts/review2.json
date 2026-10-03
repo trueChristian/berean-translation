@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, fourth stanza line\",\"severity\":\"major\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"Replace «med hele livet sitt på spill» with «med hele livet foran seg ved et veiskille» to retain the idea of a crossroads concerning his life as a whole, without suggesting his life is at stake.\",\"translation_quote\":\"Han sto ved et veiskille, med hele livet sitt på spill.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 478,
+    "content_evidence_truncated": false,
+    "content_sha256": "1c69110632193f8e09673686ad1396c82c14530e33073be0819898db2d2a2091",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1838,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2478
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

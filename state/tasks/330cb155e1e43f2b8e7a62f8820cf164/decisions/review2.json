@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Not My Will",
+      "suggested_fix": "Consider “Não a minha vontade” only if preserving the English fragment is intentional; a more natural Portuguese title conveying the contrast is “Não a minha vontade, mas a tua” (or “Não seja feita a minha vontade”), depending on the intended title meaning.",
+      "translation_quote": "Não a minha vontade"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

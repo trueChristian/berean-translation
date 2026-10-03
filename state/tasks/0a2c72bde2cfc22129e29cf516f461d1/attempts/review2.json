@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing Romans 8:28\",\"severity\":\"major\",\"source_quote\":\"And we know that all things work together for good to them that love God, to them who are the called according to his purpose –Romans 8:28.\",\"suggested_fix\":\"Replace the quoted sentence with: “En ons weet dat alles ten goede meewerk vir dié wat God liefhet, dié wat volgens sy voorneme geroep is –Romeine 8:28.” This preserves the source’s wording without adding God as the explicit agent of “work together.”\",\"translation_quote\":\"En ons weet dat God alles ten goede laat meewerk vir dié wat Hom liefhet, dié wat geroep is volgens sy voorneme –Romeine 8:28.\"},{\"location\":\"First image alt text\",\"severity\":\"minor\",\"source_quote\":\"Storm clouds over a prairie road, left half of a two-page photograph\",\"suggested_fix\":\"Translate “prairie” as “grasvlakte,” for example: alt=\\\"Stormwolke oor ’n pad deur ’n grasvlakte, linkerhelfte van ’n foto wat oor twee bladsye strek\\\".\",\"translation_quote\":\"Stormwolke oor ’n prairieweg, linkerhelfte van ’n foto wat oor twee bladsye strek\"},{\"location\":\"Final image alt text\",\"severity\":\"minor\",\"source_quote\":\"Storm clouds over a prairie, right half of a two-page photograph\",\"suggested_fix\":\"Translate “prairie” as “grasvlakte,” for example: alt=\\\"Stormwolke oor ’n grasvlakte, regterhelfte van ’n foto wat oor twee bladsye strek\\\".\",\"translation_quote\":\"Stormwolke oor ’n prairie, regterhelfte van ’n foto wat oor twee bladsye strek\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1549,
+    "content_evidence_truncated": false,
+    "content_sha256": "61ed06cbb77385bb1d4f5991890cad1c2b36af8430cd59431b2f5b82a75a3593",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 952,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 551,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3874,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3871,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4826
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

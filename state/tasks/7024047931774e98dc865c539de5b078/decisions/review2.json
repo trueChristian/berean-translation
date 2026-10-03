@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "النص، الاقتباس من الجامعة 2:24",
+      "severity": "major",
+      "source_quote": "“There is nothing better for a man, than that he should eat and drink, and that he should make his soul enjoy good in his labour.”",
+      "suggested_fix": "استبدل الاقتباس بـ «ليس شيء خيراً للإنسان من أن يأكل ويشرب ويرى نفسه خيراً في تعبه» مع إبقاء المرجع: الجامعة 2:24.",
+      "translation_quote": "«ليس للإنسان خير من أن يأكل ويشرب ويرى نفسه خيراً في تعبه.»"
+    },
+    {
+      "location": "النص، الاقتباس من الأمثال 23:20-21",
+      "severity": "major",
+      "source_quote": "“Be not among winebibbers; among riotous eaters of flesh: For the drunkard and the glutton shall come to poverty: and drowsiness shall clothe a man with rags”",
+      "suggested_fix": "ترجم النص بما يحفظ المعنى المطبوع، مثلاً: «لا تكن بين شاربي الخمر، ولا بين المسرفين في أكل اللحم، لأن السكير والشره يفتقران، والنعاس يكسو الإنسان بالخرق»؛ وأبقِ المرجع كما هو.",
+      "translation_quote": "«لا تكن بين شَرّابي الخمر، بين المتلفين أجسادهم. لأن السكير والمسرف يفتقران، والنعاس يكسو الخِرَق»"
+    },
+    {
+      "location": "النص، فقرة معدل الأيض الأساسي",
+      "severity": "major",
+      "source_quote": "“the body’s metabolic rate”",
+      "suggested_fix": "صحّح المصطلح إلى «معدل الأيض الأساسي» ليتطابق مع المصطلح الوارد في المصدر في هذه الفقرة.",
+      "translation_quote": "«معدل الأيض»"
+    },
+    {
+      "location": "النص، فقرة الطعام منخفض السعرات",
+      "severity": "major",
+      "source_quote": "“mushrooms all fall into this category”",
+      "suggested_fix": "استبدل «الفطر» بـ «عيش الغراب» أو «الفطر» مع صيغة الجمع المناسبة، مثل «والفطر كلها» → «وأنواع الفطر كلها»؛ فالمقصود mushrooms جمعاً.",
+      "translation_quote": "«ويندرج الكرفس والخس الآيسبرغ والفطر كلها ضمن هذه الفئة.»"
+    },
+    {
+      "location": "النص، العنوان الفرعي عن الطعام الحارق للدهون",
+      "severity": "minor",
+      "source_quote": "“…You just need to eat ‘___’ fat burning food to lose weight!”",
+      "suggested_fix": "أبقِ موضع الفراغ في العنوان لإظهار أن اسم الطعام متروك فارغاً عمداً، مثلاً: «...كل ما تحتاج إليه هو تناول «___» من طعام حارق للدهون لإنقاص الوزن!»",
+      "translation_quote": "«...كل ما تحتاج إليه هو تناول طعام «يحرق الدهون» لإنقاص الوزن!»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

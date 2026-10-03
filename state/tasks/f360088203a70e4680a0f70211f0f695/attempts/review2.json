@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, paragraph 4\",\"severity\":\"major\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"הוא עמד בצומת דרכים, לאורך כל חייו.\",\"translation_quote\":\"הוא עמד בצומת דרכים, ובכל חייו היה עליו לבחור.\"},{\"location\":\"source.html, poem, paragraph 16\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"הוא רוצה שאוכח; הוא החיים והדרך.\",\"translation_quote\":\"הוא רוצה שאעמוד במבחן; הוא החיים והדרך.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 666,
+    "content_evidence_truncated": false,
+    "content_sha256": "9ecfe8dec17ec594a0575c5e86151f2e2e051740828e7d815283ae8a48713501",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 403,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1843,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1840,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2411
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

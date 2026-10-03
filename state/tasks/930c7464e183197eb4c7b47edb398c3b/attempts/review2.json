@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, fourth stanza\",\"severity\":\"minor\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"Había llegado a una encrucijada en toda su vida.\",\"translation_quote\":\"Había llegado a una encrucijada en su vida.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 309,
+    "content_evidence_truncated": false,
+    "content_sha256": "b58eec952564e70a0d2228a0acd5681b0cd80e493cbc89a809a8e85f5f17471c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 464,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1806,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1803,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2364
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "III. Patterns of True Worship → b. Preaching; Mark 16:15 quotation",
+      "severity": "major",
+      "source_quote": "…Go ye into all the world, and preach the gospel to every creature –Mark 16:15.",
+      "suggested_fix": "Change only «alt som Gud har skapt» to «alle skapninger», preserving the surrounding <em> tag and reference: «… Gå ut i hele verden og forkynn evangeliet for alle skapninger – Markus 16:15.»",
+      "translation_quote": "… Gå ut i hele verden og forkynn evangeliet for alt som Gud har skapt – Markus 16:15."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

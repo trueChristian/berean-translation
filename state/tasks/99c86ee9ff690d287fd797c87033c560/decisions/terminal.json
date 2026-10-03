@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "פסקה שבה מיכל מדברת אל דוד; מופיע פעמיים",
+      "severity": "major",
+      "source_quote": "“in front of the maidens” / “but those maidens you mentioned”",
+      "suggested_fix": "החליפו את ״השפחות״ ב״הנערות״ בשני המקומות, כדי לשמר את המשמעות של maidens ולא לתאר אותן כמשרתות.",
+      "translation_quote": "״קפצת ככה לפני השפחות״ / ״אבל אותן שפחות שהזכרת״"
+    },
+    {
+      "location": "הערת השוליים המסומנת בכוכבית",
+      "severity": "minor",
+      "source_quote": "“This is how the Spanish Bible says it”",
+      "suggested_fix": "שנו ל״כך כתוב בתנ״ך בספרדית״ או ״כך מנוסח הדבר בגרסה הספרדית של המקרא״, כדי להבהיר שמדובר בשפה הספרדית ולא בתנ״ך שמקורו בספרד.",
+      "translation_quote": "״כך כתוב בתנ״ך הספרדי״"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "HTML, eerste aanhaling in afdeling III.b, Markus 1:14",
+      "severity": "major",
+      "source_quote": "…[He] came into Galilee, preaching the gospel of the kingdom of God –Mark 1:14.",
+      "suggested_fix": "Vervang die aanhaling deur: <em>…[Hy] het in Galilea gekom en die evangelie van die koninkryk van God verkondig –Markus 1:14.</em>",
+      "translation_quote": "…[Hy] in Galilea gekom en die evangelie van die koninkryk van God verkondig –Markus 1:14."
+    },
+    {
+      "location": "HTML, aanhaling in afdeling IV oor Johannes 4:22a",
+      "severity": "major",
+      "source_quote": "“Ye worship ye know not what” (John 4:22a).",
+      "suggested_fix": "Vertaal die aanhaling getrou as: “Julle aanbid wat julle nie weet wat julle aanbid nie” (Johannes 4:22a).",
+      "translation_quote": "“Julle aanbid wat julle nie ken nie” (Johannes 4:22a)."
+    },
+    {
+      "location": "HTML, lys onder afdeling IV, tweede punt",
+      "severity": "major",
+      "source_quote": "Casual –becoming so aloof to any form of worship that the One being worshiped becomes obscured by indifference.",
+      "suggested_fix": "Vervang “Gemaklik” met “Nonchalant” of “Onverskillig” sodat dit die casual houding teenoor aanbidding uitdruk, byvoorbeeld: <li>Nonchalant –om so afsydig te raak teenoor enige vorm van aanbidding dat die Een wat aanbid word deur onverskilligheid verduister word.</li>",
+      "translation_quote": "Gemaklik –om so afsydig te raak teenoor enige vorm van aanbidding dat die Een wat aanbid word deur onverskilligheid verduister word."
+    },
+    {
+      "location": "HTML, afdeling IV, paragraaf oor die vrou by die put, Johannes 4:22c",
+      "severity": "major",
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "Vertaal die aanhaling as: “Die verlossing is deur Jesus” (4:22c).",
+      "translation_quote": "“Die verlossing is uit Jesus” (4:22c)."
+    },
+    {
+      "location": "HTML, Werke aangehaal, eerste verwysing",
+      "severity": "minor",
+      "source_quote": "The American Heritage College Dictionary, New York: Houghton Mifflin Company, 2007.",
+      "suggested_fix": "Vertaal die beskrywende titel en behoud die uitgewersnaam en publikasiebesonderhede, byvoorbeeld: <p>The American Heritage College Dictionary [Woordeboek van Amerikaanse erfenis vir kollegestudente], New York: Houghton Mifflin Company, 2007.</p>",
+      "translation_quote": "The American Heritage College Dictionary, New York: Houghton Mifflin Company, 2007."
+    },
+    {
+      "location": "HTML, Werke aangehaal, derde verwysing",
+      "severity": "minor",
+      "source_quote": "The Vance Havner Quotebook, Dennis J. Hester, Grand Rapids: Baker Book House, 1986.",
+      "suggested_fix": "Vertaal die titel van die aangehaalde werk, maar behoud die eienaam en publikasiebesonderhede; byvoorbeeld: <p>The Vance Havner Quotebook [Vance Havner se aanhalingsboek], Dennis J. Hester, Grand Rapids: Baker Book House, 1986.</p>",
+      "translation_quote": "The Vance Havner Quotebook, Dennis J. Hester, Grand Rapids: Baker Book House, 1986."
+    },
+    {
+      "location": "HTML, Werke aangehaal, vierde verwysing",
+      "severity": "minor",
+      "source_quote": "The Menace of the Religious Movie, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press.",
+      "suggested_fix": "Vertaal die titel van die aangehaalde werk, maar behoud die skrywer- en uitgewersname; byvoorbeeld: <p>Die bedreiging van die godsdienstige rolprent, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press.</p>",
+      "translation_quote": "The Menace of the Religious Movie, A. W. Tozer, Wisconsin Rapids: Rapids Christian Press."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

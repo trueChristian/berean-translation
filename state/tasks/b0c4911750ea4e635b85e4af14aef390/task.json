@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 12914
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 950,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 706,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8396,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8393,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9346
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “There was a crowd of people…”; quoted John 12:29",
+      "location": "Paragraph beginning “Of course, there is a literal sense…”",
       "severity": "major",
-      "source_quote": "The people therefore, that stood by, and heard it, said that it thundered",
-      "suggested_fix": "Replace the quoted clause with: העם שעמד שם ושמע זאת אמר שזה היה רעם. This corrects the meaning while preserving the existing <em> structure and reference.",
-      "translation_quote": "העם שעמד שם ושמע זאת אמר שהתרעם"
+      "source_quote": "Others are subliminal, and only our subconscious mind receives them.",
+      "suggested_fix": "Replace תת־ספיים with תת־סיפיים or another Hebrew equivalent of “subliminal,” for example: „אחרים הם מסרים תת־סיפיים, ורק תת־המודע שלנו קולט אותם.“",
+      "translation_quote": "אחרים הם תת־ספיים, ורק תת־המודע שלנו קולט אותם."
+    },
+    {
+      "location": "Paragraph beginning “Our minds are accustomed…”",
+      "severity": "minor",
+      "source_quote": "A sermon that litigates the soul is a revelation of the preacher.",
+      "suggested_fix": "Use wording that conveys a sermon contending with or confronting the soul, for example: „דרשה המתעמתת עם הנפש היא גילוי של המטיף.“",
+      "translation_quote": "דרשה המטיחה דברים בנפש היא גילוי של המטיף."
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "b0c4911750ea4e635b85e4af14aef390",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "heb",
@@ -165,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

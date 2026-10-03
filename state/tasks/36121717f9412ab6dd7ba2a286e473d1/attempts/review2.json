@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, fourth stanza\",\"severity\":\"major\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"Hy was by ’n kruispad, met sy hele lewe op die spel.\",\"translation_quote\":\"Hy was by ’n kruispad, met sy hele lewe voor hom.\"},{\"location\":\"Poem, second stanza\",\"severity\":\"minor\",\"source_quote\":\"A man walked alone; his direction unclear.\",\"suggested_fix\":\"’n Man het alleen geloop; sy rigting was onseker.\",\"translation_quote\":\"’n Man het alleen geloop; sy koers was onklaar.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 565,
+    "content_evidence_truncated": false,
+    "content_sha256": "abe3a0a2981c7f3ec607c2c9be50c86f4340b14585f6b04ffcdcba49cd3bba37",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 716,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1861,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1858,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2742
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

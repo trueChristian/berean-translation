@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “There is a reason why the Protestant reformer”",
+      "severity": "major",
+      "source_quote": "There is a reason why the Protestant reformer, Martin Luther, died hating the Anabaptist people—because they rejected his interpretation of the Scriptures.",
+      "suggested_fix": "Replace “इसका एक कारण था:” with “क्योंकि” so the translation preserves the source’s stated explanation rather than presenting it as merely one possible reason. For example: “प्रोटेस्टेंट सुधारक मार्टिन लूथर की मृत्यु एनाबैपटिस्ट लोगों से घृणा करते हुए हुई—क्योंकि उन्होंने पवित्रशास्त्र की उसकी व्याख्या को अस्वीकार कर दिया था।”",
+      "translation_quote": "प्रोटेस्टेंट सुधारक मार्टिन लूथर की मृत्यु एनाबैपटिस्ट लोगों से घृणा करते हुए हुई—इसका एक कारण था: उन्होंने पवित्रशास्त्र की उसकी व्याख्या को अस्वीकार कर दिया था।"
+    },
+    {
+      "location": "HTML, paragraph beginning “I’ve heard many Anabaptist people say”",
+      "severity": "major",
+      "source_quote": "The Bible says that few will make it.",
+      "suggested_fix": "Replace “सफल होंगे” with a phrase that conveys reaching heaven or being saved in this context, such as “स्वर्ग पहुँचेंगे”: “बाइबल कहती है कि थोड़े ही लोग स्वर्ग पहुँचेंगे।”",
+      "translation_quote": "बाइबल कहती है कि थोड़े ही लोग सफल होंगे।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,32 +64,31 @@
         },
         "total_tokens": 12259
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 735,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 703,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7844,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7841,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8579
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, párrafo sobre las tentaciones y los pecados",
-      "severity": "major",
-      "source_quote": "“Every temptation we have ever met, and every sin we have ever fought and mastered, determines the kinds of thing that we shall hear as we take our pilgrimage.”",
-      "suggested_fix": "Cambiar «Cada tentación que hayamos enfrentado y cada pecado contra el que hayamos luchado y al que hayamos vencido determinan las cosas que oiremos en nuestra peregrinación» por «Cada tentación que hayamos enfrentado y cada pecado contra el que hayamos luchado y que hayamos dominado determinan el tipo de cosas que oiremos en nuestra peregrinación»; así se conserva la idea de que las tentaciones y los pecados vencidos también determinan lo que oímos.",
-      "translation_quote": "«Cada tentación que hayamos enfrentado y cada pecado contra el que hayamos luchado y al que hayamos vencido determinan las cosas que oiremos en nuestra peregrinación»."
-    },
-    {
-      "location": "HTML, apartado «…La distracción»",
-      "severity": "major",
-      "source_quote": "“They have been trained to give their attention to the gadgetry of the electronic world and social input.”",
-      "suggested_fix": "Cambiar «Se la ha entrenado para prestar atención a los aparatos del mundo electrónico y a la interacción social» por «Se la ha acostumbrado a prestar atención a los dispositivos del mundo electrónico y a los estímulos sociales»; «social input» alude a los estímulos sociales, no a la interacción social en general.",
-      "translation_quote": "«Se la ha entrenado para prestar atención a los aparatos del mundo electrónico y a la interacción social»."
-    },
-    {
-      "location": "HTML, apartado «…La ficción»",
-      "severity": "major",
-      "source_quote": "“People will flock to hear inspirational preaching and seminar propaganda in an ecumenical setting.”",
-      "suggested_fix": "Cambiar «La gente acudirá en masa a escuchar predicación inspiradora y propaganda de seminarios en un entorno ecuménico» por «La gente acudirá en masa a escuchar predicación inspiradora y la promoción de seminarios en un entorno ecuménico»; «seminar propaganda» se refiere a la promoción de seminarios, no a propaganda producida por ellos.",
-      "translation_quote": "«La gente acudirá en masa a escuchar predicación inspiradora y propaganda de seminarios en un entorno ecuménico»."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "2b0e7f7cd3700700ab6aa3ebd8f4c965",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "spa",
@@ -179,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

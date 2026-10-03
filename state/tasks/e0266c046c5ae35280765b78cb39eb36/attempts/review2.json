@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, fourth stanza\",\"severity\":\"major\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"Han stod vid ett vägskäl, med hela sitt liv samlat där.\",\"translation_quote\":\"Han stod vid ett vägskäl, med hela sitt liv framför sig.\"},{\"location\":\"Poem, fourteenth stanza\",\"severity\":\"major\",\"source_quote\":\"I believe in myself, not the God from way back.\",\"suggested_fix\":\"Jag tror på mig själv, inte på den Gud från förr.\",\"translation_quote\":\"Jag tror på mig själv, inte på den Gud jag en gång hört om.\"},{\"location\":\"Poem, sixteenth stanza\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"Han vill att jag ska bli bevisad; han är Livet och Vägen.\",\"translation_quote\":\"Han vill att jag ska visa mig äkta; han är Livet och Vägen.\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 896,
+    "content_evidence_truncated": false,
+    "content_sha256": "e0f8be49119dad8aa8b8c190e37864d2cddffa40af1df321edab2f6acbc60eb5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 313,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1832,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2383
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

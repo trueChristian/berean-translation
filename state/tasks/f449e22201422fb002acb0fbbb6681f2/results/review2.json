@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "82222dd7-f87e-40ef-a86a-6fee159af2ad",
+    "response_id": "chatcmpl-EUsMQ4x5gQnyD4EMHOfLa0aEMM7Mm",
+    "usage": {
+      "completion_tokens": 578,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 472,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1947,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1944,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2525
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, paragraph 16",
+        "severity": "major",
+        "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+        "suggested_fix": "তিনি চান, আমি প্রমাণিত হই; তিনিই জীবন ও পথ।",
+        "translation_quote": "তিনি চান, আমার মধ্যে তাঁর শক্তির প্রমাণ ফুটে উঠুক; তিনিই জীবন, তিনিই পথ।"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

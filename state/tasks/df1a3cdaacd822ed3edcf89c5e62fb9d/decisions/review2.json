@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, paragraph 16",
+      "severity": "major",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "Он хочет, чтобы я оказался верным; Он — Жизнь и Путь.",
+      "translation_quote": "Он хочет, чтобы я был испытан; Он — Жизнь и Путь."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

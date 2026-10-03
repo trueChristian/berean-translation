@@ -2,7 +2,6 @@
   "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,53 @@
         },
         "total_tokens": 2830
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 958,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 710,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1818,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1815,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2776
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, poem, paragraph 16",
-      "severity": "major",
-      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
-      "suggested_fix": "Vervang alleen deze alinea door: <p>Hij wil dat ik bewezen word; Hij is het Leven en de Weg.</p>",
-      "translation_quote": "Hij wil dat ik beproefd word; Hij is het Leven en de Weg."
+      "location": "HTML, poem, paragraph 4",
+      "severity": "minor",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Hij stond op een kruispunt, met zijn hele leven op het spel.",
+      "translation_quote": "Hij stond op een kruispunt, met heel zijn leven voor ogen."
     },
     {
-      "location": "HTML, poem, paragraph 18",
-      "severity": "major",
-      "source_quote": "Than the almighty God. For all men it’s a must!",
-      "suggested_fix": "Vervang alleen deze alinea door: <p>dan de almachtige God. Voor ieder mens is dat een noodzaak!</p>",
-      "translation_quote": "dan de almachtige God. Voor alle mensen is dat een must!"
+      "location": "HTML, poem, paragraph 8",
+      "severity": "minor",
+      "source_quote": "I’ve lived like most others, as my life plays back.",
+      "suggested_fix": "Ik heb geleefd zoals de meeste anderen, als ik op mijn leven terugkijk.",
+      "translation_quote": "Ik heb geleefd zoals de meeste anderen, als ik mijn leven terugblik."
+    },
+    {
+      "location": "HTML, poem, paragraph 16",
+      "severity": "minor",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "Hij wil dat ik beproefd word; Hij is het Leven en de Weg.",
+      "translation_quote": "Hij wil dat ik bewezen word; Hij is het Leven en de Weg."
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "564c704f836c22bdceca14e276ffa313",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nld",
@@ -172,13 +199,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "693f0086-2180-4d60-b358-77c29e326c54",
+    "response_id": "chatcmpl-EUsMzXFf7VcHjy03C3hx0q7OJ8kH9",
+    "usage": {
+      "completion_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2323,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2944
+    }
+  },
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Not My Will",
+        "suggested_fix": "Consider “Não a minha vontade” only if preserving the English fragment is intentional; a more natural Portuguese title conveying the contrast is “Não a minha vontade, mas a tua” (or “Não seja feita a minha vontade”), depending on the intended title meaning.",
+        "translation_quote": "Não a minha vontade"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

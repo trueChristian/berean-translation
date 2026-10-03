@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Schließlich öffnete die Frau den Mund.”\",\"severity\":\"major\",\"source_quote\":\"“Bitterness poured out; dishonor; old dirt.”\",\"suggested_fix\":\"Ändere die Aufzählung zu: „Verbitterung strömte hervor; Missachtung; alter Groll.“\",\"translation_quote\":\"„Verbitterung strömte hervor; Vorwürfe; alter Groll.“\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 403,
+    "content_evidence_truncated": false,
+    "content_sha256": "0fb51ba08f990ce8f32c7ba4db979ce3c279be565d2384c61787f75deb19b94d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 757,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 636,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4685,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4682,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5442
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

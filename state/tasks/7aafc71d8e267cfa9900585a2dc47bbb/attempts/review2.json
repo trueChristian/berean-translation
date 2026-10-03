@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"आलेख, अनुच्छेद 4\",\"severity\":\"minor\",\"source_quote\":\"“They lifted their skirts and stepped into the gurgling water.”\",\"suggested_fix\":\"“उन्होंने अपनी स्कर्टें ऊपर उठाईं और कलकल करते पानी में उतर गईं।”\",\"translation_quote\":\"“उन्होंने अपनी स्कर्टें ऊपर उठाईं और कलकल करते पानी में उतर गईं।”\"},{\"location\":\"आलेख, अनुच्छेद 9\",\"severity\":\"major\",\"source_quote\":\"“She moved a rock, then screamed and scrambled up the bank to join Melissa.”\",\"suggested_fix\":\"“एंजी ने एक पत्थर हटाया, फिर चीख पड़ी और तेजी से ढलान चढ़कर मेलिसा के पास आ गई।”\",\"translation_quote\":\"“उसने एक पत्थर हटाया, फिर चीख पड़ी और तेजी से ढलान चढ़कर मेलिसा के पास आ गई।”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1204,
+    "content_evidence_truncated": false,
+    "content_sha256": "0c936d8dee7babcb9a2563330da239a2a571b5429fc1b0e93f51be35659fc749",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 213,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4117,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4114,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4330
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

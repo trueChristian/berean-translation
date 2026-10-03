@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “The whole discussion is a challenging one”\",\"severity\":\"major\",\"source_quote\":\"“We want a quick fix—to take a pill or add in a fat-burning food or do a simple exercise that will melt the extra weight away simply and quickly.”\",\"suggested_fix\":\"Ganti “makanan pembakar lemak” dengan “makanan yang membakar lemak” atau ungkapan Indonesia yang jelas menyatakan makanan itu diklaim membakar lemak.\",\"translation_quote\":\"“Kita menginginkan solusi cepat—menelan pil, menambahkan makanan pembakar lemak, atau melakukan latihan sederhana yang dapat menghilangkan berat badan berlebih dengan mudah dan cepat.”\"},{\"location\":\"HTML, kutipan Pengkhotbah 2:24\",\"severity\":\"major\",\"source_quote\":\"“There is nothing better for a man, than that he should eat and drink, and that he should make his soul enjoy good in his labour. This also I saw, that it was from the hand of God”\",\"suggested_fix\":\"Terjemahkan seluruh kutipan dengan mempertahankan makna bahwa seseorang patut menikmati kebaikan dalam jerih payahnya dan bahwa hal itu berasal dari tangan Allah; misalnya, “Tidak ada yang lebih baik bagi manusia daripada makan dan minum serta menikmati kebaikan dalam jerih payahnya. Aku juga melihat bahwa hal itu berasal dari tangan Allah.”\",\"translation_quote\":\"“Tidak ada yang lebih baik bagi manusia daripada makan dan minum serta menikmati kebaikan dari jerih payahnya. Aku melihat bahwa hal ini pun berasal dari tangan Allah”\"},{\"location\":\"HTML, kutipan Kisah Para Rasul 15:20\",\"severity\":\"major\",\"source_quote\":\"“that they abstain from pollutions of idols, and from fornication, and from things strangled, and from blood”\",\"suggested_fix\":\"Perjelas bahwa yang dimaksud adalah menjauhkan diri dari pencemaran berhala, percabulan, daging binatang yang mati dicekik, dan darah; jangan ubah “things strangled” menjadi daging binatang itu sendiri jika konteksnya tidak jelas.\",\"translation_quote\":\"“agar mereka menjauhkan diri dari pencemaran berhala, percabulan, daging binatang yang mati dicekik, dan darah”\"},{\"location\":\"HTML, paragraf tentang penguasaan diri dan 1 Korintus 9:27\",\"severity\":\"major\",\"source_quote\":\"“Paul made it clear that he was focused on controlling his desires, lest he become a castaway”\",\"suggested_fix\":\"Ubah “supaya ia tidak ditolak” menjadi “supaya ia tidak menjadi orang yang ditolak” atau padanan yang mempertahankan gagasan menjadi castaway, bukan sekadar mengalami penolakan.\",\"translation_quote\":\"“Paulus menjelaskan bahwa ia berfokus mengendalikan keinginannya, supaya ia tidak ditolak”\"},{\"location\":\"HTML, kutipan 1 Korintus 6:19-20\",\"severity\":\"major\",\"source_quote\":\"“What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own?”\",\"suggested_fix\":\"Terjemahkan “your body” sebagai bentuk tunggal “tubuhmu” dan pertahankan makna bahwa Roh Kudus ada di dalam orang percaya; misalnya, “Tidakkah kamu tahu bahwa tubuhmu adalah bait Roh Kudus yang ada di dalam dirimu, yang kamu terima dari Allah, dan bahwa kamu bukan milikmu sendiri?”\",\"translation_quote\":\"“Tidak tahukah kamu bahwa tubuhmu adalah bait Roh Kudus yang diam di dalam dirimu, yang kamu terima dari Allah, dan bahwa kamu bukan milikmu sendiri?”\"},{\"location\":\"HTML, kutipan 1 Korintus 3:16-17\",\"severity\":\"major\",\"source_quote\":\"“If any man defile the temple of God, him shall God destroy”\",\"suggested_fix\":\"Pertahankan perbedaan kata kerja pada kedua klausa: “Jika seseorang mencemarkan bait Allah, Allah akan membinasakan dia.”\",\"translation_quote\":\"“Jika seseorang membinasakan bait Allah, Allah akan membinasakan dia”\"},{\"location\":\"HTML, paragraf tentang makanan rendah kalori\",\"severity\":\"major\",\"source_quote\":\"“Celery, iceberg lettuce, and mushrooms all fall into this category.”\",\"suggested_fix\":\"Terjemahkan “iceberg lettuce” sebagai jenis selada iceberg/selada gunung es, bukan “selada iceberg” tanpa penanda jenis yang lazim; misalnya “selada gunung es”.\",\"translation_quote\":\"“Seledri, selada iceberg, dan jamur termasuk dalam kategori ini.”\"},{\"location\":\"HTML, paragraf tentang menjaga tubuh sebagai bait Roh Kudus\",\"severity\":\"major\",\"source_quote\":\"“The aim, rather, is to treat our body as the Temple of the Holy Ghost (1 Corinthians 6:19).”\",\"suggested_fix\":\"Ganti “Bait Roh Kudus” dengan “Bait Roh Kudus” hanya jika istilah itu dimaksudkan sebagai nama bait; agar makna sumber yang menyebut tubuh sebagai bait terjaga, gunakan “memperlakukan tubuh kita sebagai bait Roh Kudus.”\",\"translation_quote\":\"“Sebaliknya, tujuannya adalah memperlakukan tubuh kita sebagai Bait Roh Kudus (1 Korintus 6:19).”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 4791,
+    "content_evidence_truncated": false,
+    "content_sha256": "1c018135bd414b8877ba19a2e3cd7bd01cc81b91cbdc091d5e350b514fa892d7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1146,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8031,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9180
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

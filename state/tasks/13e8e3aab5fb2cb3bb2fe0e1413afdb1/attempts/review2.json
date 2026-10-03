@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, shairi, ubeti wa 3\",\"severity\":\"major\",\"source_quote\":\"All would have escaped this pain.\",\"suggested_fix\":\"Badili mstari huu uwe: “Kila mmoja wetu angependa kuepuka maumivu haya.”\",\"translation_quote\":\"Kila mtu angeepuka maumivu haya.\"},{\"location\":\"source.html, shairi, ubeti wa 6\",\"severity\":\"major\",\"source_quote\":\"Help us, Father, to be broken,\",\"suggested_fix\":\"Tafsiri “to be broken” kwa maana ya kujisalimisha kwa Mungu, kwa mfano: “Utusaidie, Baba, kuvunjika moyo mbele zako,” bila kubadilisha muundo wa HTML.\",\"translation_quote\":\"Utusaidie, Baba, kujinyenyekeza,\"},{\"location\":\"source.html, shairi, ubeti wa 8\",\"severity\":\"major\",\"source_quote\":\"For You have gone through these deep waters,\",\"suggested_fix\":\"Rekebisha mstari huu ili useme Mungu amepitia maji hayo ya kina, kwa mfano: “Kwa maana umepitia maji haya ya kina,”\",\"translation_quote\":\"Kwa maana umepitia maji haya ya kina,\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 979,
+    "content_evidence_truncated": false,
+    "content_sha256": "42321294403f6a856bd62060fcc4fc0bd7d6c0e5752e204fb49e97ec7daab04b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 279,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2386,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2668
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 18232
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 348,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11749,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11746,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12097
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "III. Pola-Pola Ibadah Sejati, bagian c. Bernyanyi; kutipan Efesus 5:19 dan kalimat penjelas sesudahnya",
+      "location": "source.html, bagian I.a, paragraf yang membahas Ibrani 11:6",
       "severity": "major",
-      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord –Ephesians 5:19.” “Making melody in your heart” involves the accompaniment of the heart.",
-      "suggested_fix": "Terjemahkan kutipan dan frasa yang dirujuk dengan mempertahankan makna “singing and making melody in your heart to the Lord,” misalnya: “sambil bernyanyi dan melantunkan melodi dalam hatimu kepada Tuhan.” Sesuaikan kalimat berikutnya agar menjelaskan bahwa “melantunkan melodi dalam hatimu” melibatkan hati sebagai pengiring.",
-      "translation_quote": "“Dan berkata-katalah seorang kepada yang lain dalam mazmur, puji-pujian dan nyanyian rohani. Bernyanyi dan bersoraklah bagi Tuhan dengan segenap hati –Efesus 5:19.” “Bersoraklah bagi Tuhan dengan segenap hati” melibatkan hati sebagai pengiring."
+      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+      "suggested_fix": "Ubah kutipan itu menjadi «Iman adalah dasar dari segala sesuatu yang diharapkan dan bukti dari segala sesuatu yang tidak kelihatan (atau dibuktikan).»",
+      "translation_quote": "“Iman adalah dasar dari segala sesuatu yang kita harapkan dan bukti dari segala sesuatu yang tidak kelihatan (atau diperagakan).”"
+    },
+    {
+      "location": "source.html, bagian III.a, paragraf tentang Kisah Para Rasul 6:4",
+      "severity": "major",
+      "source_quote": "“Prayer meeting attendance was not a monthly or a bimonthly option (Act 6:4)!”",
+      "suggested_fix": "Ganti «bulanan atau dua bulanan» dengan «bulanan atau dua kali sebulan», agar jelas mempertahankan arti bimonthly sebagai dua kali sebulan dalam konteks pilihan frekuensi pertemuan.",
+      "translation_quote": "“Kehadiran dalam pertemuan doa bukanlah pilihan bulanan atau dua bulanan (Kisah Para Rasul 6:4)!”"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Religious Drama vs True Worship",
+      "suggested_fix": "Untuk menyatakan perbandingan dengan lebih jelas dalam bahasa Indonesia, gunakan «Drama Keagamaan dan Ibadah Sejati».",
+      "translation_quote": "Drama Keagamaan versus Ibadah Sejati"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "b955099c264037fe9673a89fe21a6676",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ind",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

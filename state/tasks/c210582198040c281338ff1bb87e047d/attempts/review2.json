@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 7, quoted insult\",\"severity\":\"minor\",\"source_quote\":\"“Bigot!”\",\"suggested_fix\":\"Replace “Grootbekrompe!” with “Bekrompe!” or “Onverdraagsame!” to convey the accusation of prejudice or intolerance.\",\"translation_quote\":\"“Grootbekrompe!”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 320,
+    "content_evidence_truncated": false,
+    "content_sha256": "a2d0925112fbc793f6dee538f94aa9e7c6951660350dd2d84c7b731eb26174db",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 624,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9550,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10277
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

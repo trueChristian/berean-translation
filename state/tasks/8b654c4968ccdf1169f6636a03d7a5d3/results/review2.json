@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "76324195-59b3-4642-947c-c67824e21a2d",
+    "response_id": "chatcmpl-EUsMbTosIBAedGGg7ZKnGatuKStVW",
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4461,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4458,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5278
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning «Όταν τελείωσε η μακριά νύχτα» in the lyrics",
+        "severity": "minor",
+        "source_quote": "on the bright peaceful shore",
+        "suggested_fix": "Change «στην φωτεινή, ειρηνική ακτή» to «στη φωτεινή, ειρηνική ακτή».",
+        "translation_quote": "στην φωτεινή, ειρηνική ακτή"
+      }
+    ],
+    "passed": true,
+    "score": 99
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 23387
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 510,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 484,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14348,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14345,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14858
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, paragraph beginning “The Pharisees’ sole motivation to pray in public…”",
-      "severity": "major",
-      "source_quote": "Jesus made it very clear that religious devotion was to be private, in “thy closet.”",
-      "suggested_fix": "Replace «στο ταμείο σου» with «στο ιδιαίτερο δωμάτιό σου» (or another clear modern Greek equivalent for a private room), preserving the quotation marks.",
-      "translation_quote": "Ο Ιησούς ξεκαθάρισε ότι η θρησκευτική αφοσίωση έπρεπε να είναι ιδιωτική, «στο ταμείο σου»."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "bbbf6e42a8f21c6138fdd3435181c73c",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ell",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "09ee1f54-c015-4741-b74b-005c1a17998c",
+    "response_id": "chatcmpl-EUsN06vLokPHdhAyh0kOy2lSKitdR",
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 453,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4024,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4021,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4596
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Wasichana hao walipotoka tu ghalani”",
+        "severity": "minor",
+        "source_quote": "“I’m going to tell Mom that you broke the oar.”",
+        "suggested_fix": "Correct the typo by changing “Nit amwambia Mama” to “Nitamwambia Mama”; keep the surrounding paragraph and HTML structure unchanged.",
+        "translation_quote": "“Nit amwambia Mama kwamba mmevunja kasia.”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

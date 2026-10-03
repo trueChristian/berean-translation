@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final Scripture quotation, Romans 1:16\",\"severity\":\"major\",\"source_quote\":\"for it is the power of God unto salvation to every one that believeth\",\"suggested_fix\":\"Replace «Det er en Guds kraft til frelse» with «Det er Guds kraft til frelse», preserving the rest of the quotation and its HTML structure.\",\"translation_quote\":\"Det er en Guds kraft til frelse for hver den som tror\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 438,
+    "content_evidence_truncated": false,
+    "content_sha256": "2f221be077474ba8d7e20a4259b8385fb284b85ea52ceb420e5243fed34759b6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 922,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 797,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9331,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9328,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10253
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

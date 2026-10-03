@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "샌드위치 가게에서 젊은 남자와 나누는 대화",
+      "severity": "minor",
+      "source_quote": "He got sober and explained that he wanted to believe in God but couldn’t.",
+      "suggested_fix": "“그는 진지해지더니 하나님을 믿고 싶지만 그럴 수 없다고 설명했습니다.”",
+      "translation_quote": "그는 차분해지더니 하나님을 믿고 싶지만 믿을 수 없다고 설명했습니다."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

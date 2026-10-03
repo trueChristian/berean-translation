@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,46 +64,47 @@
         },
         "total_tokens": 13159
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 288,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8282,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8279,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8570
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragrafo sulla spesa annuale e la prevalenza del sovrappeso",
+      "location": "source.html, paragrafo sotto «…You just need to eat ‘___’ fat burning food to lose weight!»",
       "severity": "major",
-      "source_quote": "“65 percent of Americans are either overweight or obese.”",
-      "suggested_fix": "Sostituire «il 65 per cento degli americani è in sovrappeso o obeso» con «il 65 per cento degli americani è in sovrappeso o obeso», mantenendo l’accordo plurale: «il 65 per cento degli americani è in sovrappeso o obeso» è grammaticalmente possibile in italiano, quindi nessuna modifica sostanziale necessaria.",
-      "translation_quote": "«il 65 per cento degli americani è in sovrappeso o obeso»"
+      "source_quote": "“if your normal breakfast consists of 5 strips of bacon, a glass of orange juice, 2 slices of toast, and two eggs”",
+      "suggested_fix": "Sostituire «5 strisce di pancetta» con «5 fette di bacon» o «5 fette di pancetta», mantenendo invariati gli altri alimenti e le quantità.",
+      "translation_quote": "«se la vostra colazione abituale consiste in 5 strisce di pancetta, un bicchiere di succo d’arancia, 2 fette di pane tostato e due uova»"
     },
     {
-      "location": "Sezione «Miti sul dimagrimento», paragrafo sui cibi dietetici",
-      "severity": "major",
-      "source_quote": "“our goal should not be to try to eat all the same foods, just with fewer calories, but rather to eat a variety of healthy foods and moderate-sized portions.”",
-      "suggested_fix": "Correggere la prima parte in «il nostro obiettivo non dovrebbe essere cercare di mangiare gli stessi cibi di sempre, ma con meno calorie; dovremmo invece mangiare una varietà di alimenti sani e porzioni moderate».",
-      "translation_quote": "«il nostro obiettivo non dovrebbe essere mangiare tutti gli stessi cibi, ma con meno calorie»"
-    },
-    {
-      "location": "Sezione «Miti sul dimagrimento», paragrafo sull’esercizio e sulle calorie",
-      "severity": "critical",
-      "source_quote": "“a body must burn 3500 calories to lose one pound.”",
-      "suggested_fix": "Sostituire «mezzo chilo» con «una libbra» oppure «circa 450 grammi», conservando la quantità indicata dall’originale: «il corpo deve bruciare 3500 calorie per perdere circa 450 grammi».",
-      "translation_quote": "«il corpo deve bruciare 3500 calorie per perdere mezzo chilo»"
-    },
-    {
-      "location": "Sezione «Miti sul dimagrimento», paragrafo sulle pillole dimagranti",
+      "location": "source.html, paragrafo sulla perdita di peso a lungo termine",
       "severity": "major",
       "source_quote": "“The goal should never be simply to ‘take off ten pounds,’”",
-      "suggested_fix": "Sostituire «perdere cinque chili» con «perdere dieci libbre» oppure «perdere circa 4,5 chili», in modo da preservare la quantità dell’originale.",
-      "translation_quote": "«perdere cinque chili»"
-    },
-    {
-      "location": "Sezione «Miti sul dimagrimento», paragrafo sui carboidrati",
-      "severity": "minor",
-      "source_quote": "“Carbohydrate is the medical term for sugars.”",
-      "suggested_fix": "Per una resa più corretta e naturale: «Il termine medico per gli zuccheri è carboidrati».",
-      "translation_quote": "«Carboidrati è il termine medico per gli zuccheri.»"
+      "suggested_fix": "Tradurre la quantità senza cambiarla, per esempio: «L’obiettivo non dovrebbe mai essere semplicemente “perdere dieci libbre”» oppure convertirla fedelmente in circa 4,54 kg.",
+      "translation_quote": "«L’obiettivo non dovrebbe mai essere semplicemente “perdere circa 4,5 chili”»"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "6c1853b9043381666859855bb8c850b7",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ita",
@@ -193,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

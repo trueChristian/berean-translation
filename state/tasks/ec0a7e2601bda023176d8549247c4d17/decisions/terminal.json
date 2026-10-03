@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, quote in the paragraph citing 1 Corinthians 3:16-17",
+      "severity": "major",
+      "source_quote": "If any man defile the temple of God, him shall God destroy",
+      "suggested_fix": "Replace «Si alguno destruye el templo de Dios, Dios lo destruirá a él» with «Si alguno contamina el templo de Dios, Dios lo destruirá a él», preserving the surrounding <em> tags and the Scripture reference.",
+      "translation_quote": "Si alguno destruye el templo de Dios, Dios lo destruirá a él"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

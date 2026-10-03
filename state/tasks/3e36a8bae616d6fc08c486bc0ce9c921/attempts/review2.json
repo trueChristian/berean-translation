@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Myths About Weight Loss — paragraph on exercise\",\"severity\":\"minor\",\"source_quote\":\"a body must burn 3500 calories to lose one pound.\",\"suggested_fix\":\"Vervang ‘een pond’ door ‘ongeveer 454 gram’ (of ‘één pound’ met een korte verduidelijking), zodat de genoemde hoeveelheid overeenkomt met de Engelse gewichtseenheid.\",\"translation_quote\":\"het lichaam moet 3500 calorieën verbranden om een pond af te vallen.\"},{\"location\":\"Myths About Weight Loss — heading ‘…Van koolhydraten kom je aan.’, eerste alinea\",\"severity\":\"minor\",\"source_quote\":\"Carbohydrate is the medical term for sugars.\",\"suggested_fix\":\"Wijzig ‘Koolhydraten is’ in ‘Koolhydraten zijn’.\",\"translation_quote\":\"Koolhydraten is de medische term voor suikers.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 809,
+    "content_evidence_truncated": false,
+    "content_sha256": "e51df87ae3b21211610f8fcdc696dee327fc09ff963cc43183dc7bddc40efd51",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 945,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7862,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7859,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8807
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

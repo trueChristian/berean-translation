@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “There was once a lad”",
+      "severity": "minor",
+      "source_quote": "“Sure, I heard you calling, but you didn’t sound like you meant it yet.”",
+      "suggested_fix": "Revise the quotation to convey that the mother’s call did not yet sound as though she really meant it; for example: “Ndiyo, nilikusikia ukiita, lakini sauti yako haikuonyesha bado kwamba ulikusudia kweli.”",
+      "translation_quote": "“Ndiyo, nilikusikia ukiita, lakini bado hukusikika kana kwamba ulikusudia kweli.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Our minds are accustomed”",
+      "severity": "major",
+      "source_quote": "“Is it a blemish in the virtue of the first who cannot hear the misfiring cylinder or the rasping brakes? Yes, for it is not by the ear that we hear, but by the character of our will.”",
+      "suggested_fix": "Replace “dosari ya wema” with wording that conveys a flaw in the first driver's virtue/character, such as “Je, ni dosari katika tabia njema ya dereva wa kwanza kutoweza kusikia silinda inayokosa kuwaka au breki zinazotoa mlio mkwaruzo?”",
+      "translation_quote": "“Je, ni dosari ya wema wa dereva wa kwanza kutoweza kusikia silinda inayokosa kuwaka au breki zinazogugumia?”"
+    },
+    {
+      "location": "Article body, paragraph beginning “There is an elusive and gnawing factor”",
+      "severity": "major",
+      "source_quote": "“Those who spend countless hours in front of a television and video images are crippling their ability to hear a solemn message.”",
+      "suggested_fix": "Clarify that the exposure to television and video images is what impairs their ability to hear a solemn message, for example: “Wale wanaotumia saa nyingi sana kutazama televisheni na video wanadhoofisha uwezo wao wa kusikia ujumbe wa dhati.”",
+      "translation_quote": "“Wale wanaotumia saa nyingi sana mbele ya televisheni na picha za video wanadhoofisha uwezo wao wa kusikia ujumbe wa dhati.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Many people will listen”",
+      "severity": "major",
+      "source_quote": "“the many questionable things that people bring to our attention really depend upon our meager character”",
+      "suggested_fix": "Replace “tabia yetu duni” with wording meaning our scant/limited character, such as “tabia yetu dhaifu,” so the translation does not assert that our character is morally inferior.",
+      "translation_quote": "“mambo mengi yenye kutiliwa shaka ambayo watu huyaleta kwenye uangalifu wetu hutegemea tabia yetu duni”"
+    },
+    {
+      "location": "Article body, final paragraph",
+      "severity": "major",
+      "source_quote": "“Those who will accept this responsibility must purge themselves from the rabble of earth-linked daydreams”",
+      "suggested_fix": "Translate “rabble” as a jumble or tumult of earth-bound daydreams, rather than as noise; for example: “lazima wajisafishe na mchanganyiko wa ndoto za mchana zilizofungamana na dunia.”",
+      "translation_quote": "“lazima wajisafishe na kelele za mawazo ya mchana yaliyofungamana na dunia”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

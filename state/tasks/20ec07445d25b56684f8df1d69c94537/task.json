@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,40 @@
         },
         "total_tokens": 18742
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article body, section I.a, Romans 10:17 quotation",
-      "severity": "major",
-      "source_quote": "So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.",
-      "suggested_fix": "Change «budskapet kommer av Kristi ord» to «og det en hører, er Kristi ord»? No: the source specifically says «Guds ord», so render the quotation’s ending as «og det en hører, er Guds ord» (or another faithful Bokmål rendering of «hearing by the word of God»).",
-      "translation_quote": "Så kommer da troen av det budskapet en hører, og budskapet kommer av Kristi ord – Romerne 10:17."
     },
     {
-      "location": "Article body, section III.c, Colossians 3:16 quotation",
-      "severity": "major",
-      "source_quote": "singing with grace in your hearts to the Lord –Colossians 3:16.",
-      "suggested_fix": "Replace «med takknemlighet i hjertet for Gud» with a faithful rendering of «with grace in your hearts to the Lord», such as «med nåde i hjertene for Herren».",
-      "translation_quote": "og synger med takknemlighet i hjertet for Gud – Kolosserne 3:16."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 975,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 807,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12000,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11997,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12975
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "III. Patterns of True Worship → b. Preaching; Mark 16:15 quotation",
+      "severity": "major",
+      "source_quote": "…Go ye into all the world, and preach the gospel to every creature –Mark 16:15.",
+      "suggested_fix": "Change only «alt som Gud har skapt» to «alle skapninger», preserving the surrounding <em> tag and reference: «… Gå ut i hele verden og forkynn evangeliet for alle skapninger – Markus 16:15.»",
+      "translation_quote": "… Gå ut i hele verden og forkynn evangeliet for alt som Gud har skapt – Markus 16:15."
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "20ec07445d25b56684f8df1d69c94537",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nob",
@@ -172,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Corpo, parágrafo sobre a taxa metabólica basal\",\"severity\":\"major\",\"source_quote\":\"“They use height, weight, age, and gender to determine how many calories your body will burn in an average day.”\",\"suggested_fix\":\"Trocar “sexo” por “gênero” para manter a distinção do original: “Elas usam altura, peso, idade e gênero para determinar quantas calorias seu corpo queimará em um dia comum.”\",\"translation_quote\":\"“Elas usam altura, peso, idade e sexo para determinar quantas calorias seu corpo queimará em um dia comum.”\"},{\"location\":\"Corpo, parágrafo sobre o objetivo do tratamento de peso\",\"severity\":\"major\",\"source_quote\":\"“The goal should never be simply to ‘take off ten pounds,’”\",\"suggested_fix\":\"Corrigir a quantidade para refletir o original: “O objetivo nunca deve ser simplesmente ‘perder cerca de 4,5 quilos’, mas sim ter a melhor saúde possível.”\",\"translation_quote\":\"“O objetivo nunca deve ser simplesmente ‘perder cinco quilos’, mas sim ter a melhor saúde possível.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1094,
+    "content_evidence_truncated": false,
+    "content_sha256": "b72b2072491d1b593b2ccf11dea5877f7cf1a0a48be9e6b665108f8e42276258",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 254,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7814,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8071
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

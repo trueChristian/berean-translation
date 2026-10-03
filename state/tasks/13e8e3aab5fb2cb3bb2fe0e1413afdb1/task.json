@@ -2,7 +2,6 @@
   "article_id": "71acc7cf-0c85-4e46-9a50-7afaeca6c9ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:57+00:00",
   "events": [
@@ -65,18 +64,54 @@
         },
         "total_tokens": 3565
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 279,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2389,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2386,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2668
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, poem, stanza beginning “Grow in us, Lord”",
+      "location": "source.html, shairi, ubeti wa 3",
       "severity": "major",
-      "source_quote": "Grow in us, Lord, a humility,",
-      "suggested_fix": "Replace the corresponding line with “Kuza ndani yetu, Bwana, unyenyekevu,”",
-      "translation_quote": "Utukuze ndani yetu, Bwana, unyenyekevu,"
+      "source_quote": "All would have escaped this pain.",
+      "suggested_fix": "Badili mstari huu uwe: “Kila mmoja wetu angependa kuepuka maumivu haya.”",
+      "translation_quote": "Kila mtu angeepuka maumivu haya."
+    },
+    {
+      "location": "source.html, shairi, ubeti wa 6",
+      "severity": "major",
+      "source_quote": "Help us, Father, to be broken,",
+      "suggested_fix": "Tafsiri “to be broken” kwa maana ya kujisalimisha kwa Mungu, kwa mfano: “Utusaidie, Baba, kuvunjika moyo mbele zako,” bila kubadilisha muundo wa HTML.",
+      "translation_quote": "Utusaidie, Baba, kujinyenyekeza,"
+    },
+    {
+      "location": "source.html, shairi, ubeti wa 8",
+      "severity": "major",
+      "source_quote": "For You have gone through these deep waters,",
+      "suggested_fix": "Rekebisha mstari huu ili useme Mungu amepitia maji hayo ya kina, kwa mfano: “Kwa maana umepitia maji haya ya kina,”",
+      "translation_quote": "Kwa maana umepitia maji haya ya kina,"
     }
   ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "13e8e3aab5fb2cb3bb2fe0e1413afdb1",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -165,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/634d6c772be526a422c8c33e8b961bc7fc085bc761d8a0637cc8fd29fbc6bc94.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "3428e3dfe0b88050c4877e32e99eb4787e5c47d0cb144007ca16b538f3713f93",
   "translation_model_actual": "gpt-6-luna"

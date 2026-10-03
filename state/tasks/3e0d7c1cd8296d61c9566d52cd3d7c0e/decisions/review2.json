@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem paragraph 12",
+      "severity": "minor",
+      "source_quote": "It was God that was working, He seemed quite strong.",
+      "suggested_fix": "كان الله هو الذي يعمل، وبدا قويًا جدًا.",
+      "translation_quote": "كان الله هو العامل، وبدا قويًا جدًا."
+    },
+    {
+      "location": "source.html, poem paragraph 16",
+      "severity": "minor",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "يريد أن أكون مُثبَتًا؛ فهو الحياة والطريق.",
+      "translation_quote": "يريدني أن أُثبت؛ فهو الحياة والطريق."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

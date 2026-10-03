@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0f65a1c8-0cb4-4683-91c6-f486437387ba",
+    "response_id": "chatcmpl-EUsNKDv3aLcjjZLroOuyELKJZhj5y",
+    "usage": {
+      "completion_tokens": 386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3772,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3769,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4158
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Melissa grinned in excitement”",
+        "severity": "minor",
+        "source_quote": "“Melissa grinned in excitement”",
+        "suggested_fix": "Vervang ‘grijnsde opgewonden’ door ‘glimlachte enthousiast’ om de positieve uitdrukking van de bron natuurlijk weer te geven.",
+        "translation_quote": "‘Melissa grijnsde opgewonden.’"
+      },
+      {
+        "location": "HTML, paragraph beginning “Suddenly, realizing she was alone”",
+        "severity": "minor",
+        "source_quote": "“Melissa turned around and saw that Angie was still at the entrance of the tunnel looking into a pool of water. She moved a rock, then screamed and scrambled up the bank to join Melissa.”",
+        "suggested_fix": "Maak Angie expliciet het onderwerp van de handelingen na ‘looking into a pool of water’, bijvoorbeeld: ‘Angie verplaatste een steen, gilde toen en klauterde de oever op om zich bij Melissa te voegen.’",
+        "translation_quote": "‘Toen Melissa zich plotseling realiseerde dat ze alleen was, draaide ze zich om en zag dat Angie nog bij de ingang van de tunnel stond en in een poel keek. Angie verplaatste een steen, gilde toen en klauterde de oever op om zich bij Melissa te voegen.’"
+      },
+      {
+        "location": "HTML, paragraph beginning “Their splashes got bigger and bigger”",
+        "severity": "minor",
+        "source_quote": "“They were having a lot of fun seeing who could make the biggest splash.”",
+        "suggested_fix": "Vervang ‘probeerden uit te maken wie de grootste spetter kon maken’ door ‘vonden het leuk om te zien wie de grootste plons kon maken’.",
+        "translation_quote": "‘Ze hadden veel plezier en probeerden uit te maken wie de grootste spetter kon maken.’"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

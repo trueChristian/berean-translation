@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,46 +64,68 @@
         },
         "total_tokens": 14138
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 711,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8610,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8607,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9321
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, final paragraph",
-      "severity": "major",
-      "source_quote": "“All our hope is in our hearing and all selfishness is in our hearing”",
-      "suggested_fix": "Replace “Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote uko katika kusikia kwetu” with “Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote unadhihirika katika kusikia kwetu.”",
-      "translation_quote": "“Tumaini letu lote liko katika kusikia kwetu na ubinafsi wetu wote uko katika kusikia kwetu”"
+      "location": "Article body, paragraph beginning “There was once a lad”",
+      "severity": "minor",
+      "source_quote": "“Sure, I heard you calling, but you didn’t sound like you meant it yet.”",
+      "suggested_fix": "Revise the quotation to convey that the mother’s call did not yet sound as though she really meant it; for example: “Ndiyo, nilikusikia ukiita, lakini sauti yako haikuonyesha bado kwamba ulikusudia kweli.”",
+      "translation_quote": "“Ndiyo, nilikusikia ukiita, lakini bado hukusikika kana kwamba ulikusudia kweli.”"
     },
     {
-      "location": "source.html, paragraph beginning “There is an elusive and gnawing factor…”",
+      "location": "Article body, paragraph beginning “Our minds are accustomed”",
       "severity": "major",
-      "source_quote": "“There is an elusive and gnawing factor corroding the moral fiber of this nation.”",
-      "suggested_fix": "Replace “Kuna jambo lisilo rahisi kutambulika na linalosumbua, linaloikumba nguvu ya maadili ya taifa hili” with “Kuna jambo lisilo rahisi kutambua na linalosumbua, linalomomonyoa msingi wa maadili ya taifa hili.”",
-      "translation_quote": "“Kuna jambo lisilo rahisi kutambulika na linalosumbua, linaloikumba nguvu ya maadili ya taifa hili.”"
+      "source_quote": "“Is it a blemish in the virtue of the first who cannot hear the misfiring cylinder or the rasping brakes? Yes, for it is not by the ear that we hear, but by the character of our will.”",
+      "suggested_fix": "Replace “dosari ya wema” with wording that conveys a flaw in the first driver's virtue/character, such as “Je, ni dosari katika tabia njema ya dereva wa kwanza kutoweza kusikia silinda inayokosa kuwaka au breki zinazotoa mlio mkwaruzo?”",
+      "translation_quote": "“Je, ni dosari ya wema wa dereva wa kwanza kutoweza kusikia silinda inayokosa kuwaka au breki zinazogugumia?”"
     },
     {
-      "location": "source.html, paragraph beginning “We play only the finest recorded music…”",
+      "location": "Article body, paragraph beginning “There is an elusive and gnawing factor”",
       "severity": "major",
-      "source_quote": "“the sincere and humble offerings of common singing”",
-      "suggested_fix": "Replace “nyimbo za kawaida zinazoimbwa kwa unyofu na unyenyekevu” with “nyimbo za kawaida zinazotolewa kwa unyofu na unyenyekevu.”",
-      "translation_quote": "“nyimbo za kawaida zinazoimbwa kwa unyofu na unyenyekevu”"
+      "source_quote": "“Those who spend countless hours in front of a television and video images are crippling their ability to hear a solemn message.”",
+      "suggested_fix": "Clarify that the exposure to television and video images is what impairs their ability to hear a solemn message, for example: “Wale wanaotumia saa nyingi sana kutazama televisheni na video wanadhoofisha uwezo wao wa kusikia ujumbe wa dhati.”",
+      "translation_quote": "“Wale wanaotumia saa nyingi sana mbele ya televisheni na picha za video wanadhoofisha uwezo wao wa kusikia ujumbe wa dhati.”"
     },
     {
-      "location": "source.html, paragraph beginning “As two bedraggled disciples…”",
+      "location": "Article body, paragraph beginning “Many people will listen”",
       "severity": "major",
-      "source_quote": "“two bedraggled disciples trudged the road to Emmaus”",
-      "suggested_fix": "Replace “Wanafunzi wawili waliokuwa wamechoka na wenye mavumbi walipokuwa wakitembea kwa shida katika barabara ya kwenda Emau” with “Wanafunzi wawili waliokuwa wamechoka na waliochafuka walipokuwa wakitembea kwa shida kwenye barabara ya kwenda Emau.”",
-      "translation_quote": "“Wanafunzi wawili waliokuwa wamechoka na wenye mavumbi walipokuwa wakitembea kwa shida katika barabara ya kwenda Emau”"
+      "source_quote": "“the many questionable things that people bring to our attention really depend upon our meager character”",
+      "suggested_fix": "Replace “tabia yetu duni” with wording meaning our scant/limited character, such as “tabia yetu dhaifu,” so the translation does not assert that our character is morally inferior.",
+      "translation_quote": "“mambo mengi yenye kutiliwa shaka ambayo watu huyaleta kwenye uangalifu wetu hutegemea tabia yetu duni”"
     },
     {
-      "location": "source.html, paragraph beginning “To make the hearts burn…”",
+      "location": "Article body, final paragraph",
       "severity": "major",
-      "source_quote": "“and their hearts burned with the rapturous revelation falling upon their ears”",
-      "suggested_fix": "Replace “na mioyo yao ikawaka kwa ufunuo wa furaha uliosikika masikioni mwao” with “na mioyo yao ikawaka kwa ufunuo wa shangwe uliowafikia masikioni.”",
-      "translation_quote": "“na mioyo yao ikawaka kwa ufunuo wa furaha uliosikika masikioni mwao”"
+      "source_quote": "“Those who will accept this responsibility must purge themselves from the rabble of earth-linked daydreams”",
+      "suggested_fix": "Translate “rabble” as a jumble or tumult of earth-bound daydreams, rather than as noise; for example: “lazima wajisafishe na mchanganyiko wa ndoto za mchana zilizofungamana na dunia.”",
+      "translation_quote": "“lazima wajisafishe na kelele za mawazo ya mchana yaliyofungamana na dunia”"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "4b87728a27a30217735e7109c990f258",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -193,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 89,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

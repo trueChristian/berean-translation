@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2c9e8ab3-7fac-4f97-8461-7cb5aca59abf",
+    "response_id": "chatcmpl-EUsNBmoQF376I7BAIC8Wi99Daf9Ii",
+    "usage": {
+      "completion_tokens": 923,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 773,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12628,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13554
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "II.d. مذہبی ڈراما مناد کو برباد کرتا ہے؛ 2 تیمتھیس 2:15 کا اقتباس",
+        "severity": "major",
+        "source_quote": "“Study to shew thyself approved unto God…”",
+        "suggested_fix": "ترجمے میں مطالعہ کرنے کی ہدایت واضح کریں، مثلاً: «خدا کے سامنے مقبول ثابت ہونے کے لیے محنت سے مطالعہ کر…»",
+        "translation_quote": "«اپنے آپ کو خدا کے سامنے مقبول ثابت کرنے کی کوشش کر…»"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

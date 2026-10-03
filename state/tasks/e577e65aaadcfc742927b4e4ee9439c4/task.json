@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,68 @@
         },
         "total_tokens": 17087
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Section I.a, paragraph on Jesus’ use of parables",
-      "severity": "major",
-      "source_quote": "(Mat 13:18)",
-      "suggested_fix": "Replace “Mat 13:18” with “Mateus 13:18”.",
-      "translation_quote": "(Mat 13:18)"
     },
     {
-      "location": "Section III.a, paragraph on prayer-meeting attendance",
-      "severity": "major",
-      "source_quote": "(Act 6:4)",
-      "suggested_fix": "Replace “Act 6:4” with “Atos 6:4”.",
-      "translation_quote": "(Act 6:4)"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 638,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11208,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11205,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11846
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, seção I.a, parágrafo sobre Hebreus 11:6",
+      "severity": "major",
+      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+      "suggested_fix": "Substituir a citação por: “A fé é a substância das coisas que se esperam, a evidência das coisas que não se veem (ou que não são demonstradas).”",
+      "translation_quote": "“A fé é a substância das coisas que se esperam, a evidência das coisas que não se veem (ou demonstram).”"
+    },
+    {
+      "location": "HTML, seção I.b, parágrafo sobre a palavra grega para hipócrita",
+      "severity": "major",
+      "source_quote": "“The original Greek word means ‘play actor.’”",
+      "suggested_fix": "Trocar “ator” por “ator que representa um papel” ou “ator teatral”, para preservar a ideia de fingimento/representação contida em “play actor”.",
+      "translation_quote": "“A palavra grega original significa ‘ator’.”"
+    },
+    {
+      "location": "HTML, seção III.a, parágrafo sobre reuniões de oração",
+      "severity": "major",
+      "source_quote": "“Prayer meeting attendance was not a monthly or a bimonthly option (Act 6:4)!”",
+      "suggested_fix": "Corrigir a referência para “(Atos 6:4)”, preservando o número impresso no original; não alterar para Atos 6:4? (a tradução já apresenta Atos 6:4).",
+      "translation_quote": "“(Atos 6:4)!”"
+    },
+    {
+      "location": "HTML, seção III.c, parágrafo sobre métodos de adoração do Novo Testamento",
+      "severity": "major",
+      "source_quote": "“When we move from intrinsic methods of worship to extrinsic methods, we violate the New Testament ‘spirit’ of worship.”",
+      "suggested_fix": "Usar termos que mantenham a oposição entre métodos intrínsecos e extrínsecos, sem mudar o sentido: “Quando passamos de métodos intrínsecos de adoração para métodos extrínsecos, violamos o ‘espírito’ de adoração do Novo Testamento.”",
+      "translation_quote": "“Quando passamos de métodos intrínsecos de adoração para métodos extrínsecos, violamos o ‘espírito’ de adoração do Novo Testamento.”"
+    },
+    {
+      "location": "HTML, seção IV, lista de atitudes, segundo item",
+      "severity": "minor",
+      "source_quote": "“Casual –becoming so aloof to any form of worship that the One being worshiped becomes obscured by indifference.”",
+      "suggested_fix": "Considerar “Indiferente” em vez de “Descontraída”, para manter a ideia de afastamento e indiferença, não de informalidade agradável.",
+      "translation_quote": "“Descontraída — tornar-se tão indiferente a qualquer forma de adoração que aquele que está sendo adorado acaba encoberto pela indiferença.”"
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "e577e65aaadcfc742927b4e4ee9439c4",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "por",
@@ -172,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

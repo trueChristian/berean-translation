@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third stanza, second line of the poem",
+      "severity": "major",
+      "source_quote": "All would have escaped this pain.",
+      "suggested_fix": "Sostituisci la riga con: «Tutti sarebbero sfuggiti a questo dolore.»",
+      "translation_quote": "tutti avrebbero voluto sfuggire a questo dolore."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

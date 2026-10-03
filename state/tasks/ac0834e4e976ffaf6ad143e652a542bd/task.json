@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,39 +64,40 @@
         },
         "total_tokens": 18585
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 679,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11394,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11391,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12073
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “Jesus is also very clear…”",
+      "location": "Non-conformity section, paragraph beginning «Είναι συνηθισμένο να συμμορφώνεται κανείς…»",
       "severity": "major",
-      "source_quote": "“come out from among them and be separate”",
-      "suggested_fix": "Change «να βγούμε ανάμεσά τους και να ξεχωρίσουμε» to «να βγούμε από ανάμεσά τους και να ξεχωρίσουμε», preserving the meaning of separation.",
-      "translation_quote": "«να βγούμε ανάμεσά τους και να ξεχωρίσουμε»"
-    },
-    {
-      "location": "source.html, quotation from Ephesians 5:10–13",
-      "severity": "major",
-      "source_quote": "“for whatsoever doth make manifest is light”",
-      "suggested_fix": "Translate the active sense, for example: «γιατί καθετί που φανερώνει είναι φως», rather than saying that whatever is revealed is light.",
-      "translation_quote": "«γιατί καθετί που φανερώνεται είναι φως»"
-    },
-    {
-      "location": "source.html, paragraph beginning “While out witnessing…”",
-      "severity": "minor",
-      "source_quote": "“I’m amazed at the backlash”",
-      "suggested_fix": "Correct the spelling to «με εκπλήσσει η αντίδραση».",
-      "translation_quote": "«με εκπλήστει η αντίδραση»"
-    },
-    {
-      "location": "source.html, paragraph beginning “She was a nice young lady.”",
-      "severity": "minor",
-      "source_quote": "“a good citizen and nice person”",
-      "suggested_fix": "Use the feminine adjective: «καλή πολίτισσα και συμπαθητική γυναίκα» (or another idiomatic feminine equivalent).",
-      "translation_quote": "«καλή πολίτισσα και συμπαθητικός άνθρωπος»"
+      "source_quote": "to say “No” to evil communication and the ways of this world",
+      "suggested_fix": "Αντικαταστήστε το «στην κακή επικοινωνία» με το «στις κακές συναναστροφές», ώστε να αποδίδεται η έννοια της επιζήμιας συναναστροφής, όχι της κακής επικοινωνίας.",
+      "translation_quote": "να πούμε «Όχι» στην κακή επικοινωνία και στους τρόπους αυτού του κόσμου"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "ac0834e4e976ffaf6ad143e652a542bd",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ell",
@@ -186,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

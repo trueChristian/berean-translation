@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Sezione I.a, paragrafo su Ebrei 11:6\",\"severity\":\"major\",\"source_quote\":\"“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”\",\"suggested_fix\":\"Correggere la citazione per conservare il significato stampato: «La fede è la sostanza delle cose che si sperano, la prova delle cose che non si vedono (o che non sono dimostrate)».\",\"translation_quote\":\"«La fede è certezza di cose che si sperano, dimostrazione di cose che non si vedono (o dimostrate)»\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 557,
+    "content_evidence_truncated": false,
+    "content_sha256": "5151016124ec4d698e8a7f4e13494c2aa3886d89b0d02ca567a0c3e399438cf2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 672,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11967,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12810
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

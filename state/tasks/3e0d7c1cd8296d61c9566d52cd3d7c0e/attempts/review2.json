@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem paragraph 12\",\"severity\":\"minor\",\"source_quote\":\"It was God that was working, He seemed quite strong.\",\"suggested_fix\":\"كان الله هو الذي يعمل، وبدا قويًا جدًا.\",\"translation_quote\":\"كان الله هو العامل، وبدا قويًا جدًا.\"},{\"location\":\"source.html, poem paragraph 16\",\"severity\":\"minor\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"يريد أن أكون مُثبَتًا؛ فهو الحياة والطريق.\",\"translation_quote\":\"يريدني أن أُثبت؛ فهو الحياة والطريق.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 673,
+    "content_evidence_truncated": false,
+    "content_sha256": "e02128ad60eafb8681d498145fc68e885396193ea33477ef1fa38061aaabc01a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1835,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2735
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

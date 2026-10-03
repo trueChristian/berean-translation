@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poème, paragraphe 16\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"Remplacer « Il veut que je sois éprouvé » par « Il veut que je fasse mes preuves » pour rendre l’idée d’être prouvé, et non mis à l’épreuve.\",\"translation_quote\":\"Il veut que je sois éprouvé ; Il est la Vie et le Chemin.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 432,
+    "content_evidence_truncated": false,
+    "content_sha256": "7b2fb59f9765f710771962b2428cccc34db5cbafa73a17260259d0d800c62d04",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1830,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1827,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2467
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

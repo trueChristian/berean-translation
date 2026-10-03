@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "34defc4a-72df-4323-8720-2efdb5e83b1a",
+    "response_id": "chatcmpl-EUsMP8upmV3JDb0tUSOnc6CrjXiDx",
+    "usage": {
+      "completion_tokens": 554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3982,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4539
+    }
+  },
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lyrics, stanza 3",
+        "severity": "major",
+        "source_quote": "“But I know Thou art with me, and tomorrow I’ll rise / Where the storms never darken the skies.”",
+        "suggested_fix": "Replace the final two lines of this stanza with: “Lakini najua uko pamoja nami, na kesho nitainuka / Mahali ambapo dhoruba hazitatiiza anga kamwe.”",
+        "translation_quote": "“Lakini najua uko pamoja nami, na kesho nitaamka / Mahali ambapo dhoruba hazitawahi kutia giza angani.”"
+      },
+      {
+        "location": "Lyrics, stanza 4",
+        "severity": "major",
+        "source_quote": "“In that land where the tempest, never comes, Lord, may I / Dwell with Thee when the storm passes by.”",
+        "suggested_fix": "Replace these lines with: “Katika nchi ile ambako tufani haziji kamwe, Bwana, naomba / Nikae pamoja nawe dhoruba itakapokuwa imepita.”",
+        "translation_quote": "“Katika nchi ile ambako tufani haziji kamwe, Bwana, naomba / Nikae pamoja nawe dhoruba inapopita.”"
+      },
+      {
+        "location": "Paragraph beginning “When the disciples were out on the sea”",
+        "severity": "major",
+        "source_quote": "“We do not always understand why things happen, but that’s okay.”",
+        "suggested_fix": "Replace “Hatuielewi daima sababu ya mambo kutokea, lakini hilo si tatizo.” with “Hatuielewi daima sababu ya mambo kutokea, lakini ni sawa.”",
+        "translation_quote": "“Hatuielewi daima sababu ya mambo kutokea, lakini hilo si tatizo.”"
+      },
+      {
+        "location": "Revelation quotation, final sentence",
+        "severity": "major",
+        "source_quote": "“And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain”",
+        "suggested_fix": "Replace “Naye Mungu atafuta kila chozi katika macho yao, wala mauti haitakuwapo tena; wala maombolezo, wala kilio, wala maumivu hayatakuwapo tena” with “Naye Mungu atafuta kila chozi katika macho yao; wala mauti haitakuwapo tena, wala huzuni, wala kilio, wala maumivu hayatakuwapo tena.”",
+        "translation_quote": "“Naye Mungu atafuta kila chozi katika macho yao, wala mauti haitakuwapo tena; wala maombolezo, wala kilio, wala maumivu hayatakuwapo tena”"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9ff0f7a4-28cc-47fe-8d2b-a335c155b96d",
+    "response_id": "chatcmpl-EUsMibE7coN7CHA5xIq3zHfys42Gv",
+    "usage": {
+      "completion_tokens": 509,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1973,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1970,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2482
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Dikt, första strofen",
+        "severity": "major",
+        "source_quote": "“Beyond the books of youthful days, / It beckons thee to yonder hill.”",
+        "suggested_fix": "Ersätt de två raderna med: «Bortom ungdomsårens böcker / lockar den dig till kullen där borta.»",
+        "translation_quote": "«Bortom de böcker vi läste som små, / lockar den dig till höjden där borta.»"
+      },
+      {
+        "location": "Dikt, andra strofen",
+        "severity": "major",
+        "source_quote": "“We’ve failed the earthly honor roll”",
+        "suggested_fix": "Ändra raden till: «Vi har misslyckats med jordelivets hederslista,»",
+        "translation_quote": "«Vi kom inte med bland jordens främsta,»"
+      },
+      {
+        "location": "Dikt, tredje strofen",
+        "severity": "major",
+        "source_quote": "“Temptations rise and pleasures call, / They barter truth for empty thrill.”",
+        "suggested_fix": "Ändra raderna till: «Frestelser reser sig och njutningar lockar, / de byter bort sanningen mot tomma kickar.»",
+        "translation_quote": "«Frestelser väcks och njutningar lockar, / de byter bort sanningen mot tomma kickar.»"
+      },
+      {
+        "location": "Dikt, fjärde strofen",
+        "severity": "major",
+        "source_quote": "“A humble heart will stay more tears, / Than all of life’s great wit and will.”",
+        "suggested_fix": "Ändra raderna till: «Ett ödmjukt hjärta hindrar fler tårar / än all livets stora klokhet och vilja.»",
+        "translation_quote": "«Ett ödmjukt hjärta sparar många tårar / än all livets stora klokhet och vilja.»"
+      },
+      {
+        "location": "Dikt, fjärde strofen",
+        "severity": "major",
+        "source_quote": "“In days of brimming youthful years, / With dreams afresh to seek and fill.”",
+        "suggested_fix": "Ändra raderna till: «Under ungdomsårens överflöd, / med nya drömmar att söka och uppfylla.»",
+        "translation_quote": "«Under ungdomens rika år, / med nya drömmar att söka och förverkliga.»"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

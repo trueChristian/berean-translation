@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Liedtext, erste Strophe\",\"severity\":\"major\",\"source_quote\":\"‘Mid the crash of the thunder, Precious Lord, hear my cry,\",\"suggested_fix\":\"„Mitten im Krachen des Donners, kostbarer Herr, hör meinen Schrei,“\",\"translation_quote\":\"Mitten im Donnergrollen, lieber Herr, hör mein Rufen,\"},{\"location\":\"Liedtext, Refrain\",\"severity\":\"major\",\"source_quote\":\"Till the clouds roll forever from the sky;\",\"suggested_fix\":\"„Bis die Wolken für immer vom Himmel wegrollen;“\",\"translation_quote\":\"bis die Wolken für immer vom Himmel verschwinden;\"},{\"location\":\"Liedtext, zweite Strophe\",\"severity\":\"major\",\"source_quote\":\"But I know Thou art with me, and tomorrow I’ll rise / Where the storms never darken the skies\",\"suggested_fix\":\"„Doch ich weiß, du bist bei mir, und morgen werde ich aufstehen / dort, wo die Stürme niemals den Himmel verdunkeln.“\",\"translation_quote\":\"Doch ich weiß, du bist bei mir, und morgen werde ich aufstehen / an dem Ort, wo die Stürme niemals den Himmel verdunkeln.\"},{\"location\":\"Liedtext, dritte Strophe\",\"severity\":\"major\",\"source_quote\":\"In that land where the tempest, never comes, Lord, may I / Dwell with Thee when the storm passes by.\",\"suggested_fix\":\"„In jenem Land, in das der Sturm niemals kommt, Herr, möge ich / bei dir wohnen, wenn der Sturm vorüberzieht.“\",\"translation_quote\":\"in jenem Land, in das der Sturm niemals kommt, Herr, lass mich / bei dir wohnen, wenn der Sturm vorüberzieht.\"},{\"location\":\"Persönlicher Bericht\",\"severity\":\"major\",\"source_quote\":\"This song was one I’d pray in the dark of the midnight when I couldn’t sleep, and fear threatened to overwhelm me.\",\"suggested_fix\":\"„Dieses Lied betete ich oft in der dunklen Mitternacht, wenn ich nicht schlafen konnte und die Angst mich zu überwältigen drohte.“\",\"translation_quote\":\"Dieses Lied betete ich in der dunklen Mitternacht, wenn ich nicht schlafen konnte und die Angst mich zu überwältigen drohte.\"},{\"location\":\"Gedichtzitat\",\"severity\":\"major\",\"source_quote\":\"It may be in the better land / We’ll read the meaning of our tears, / And there, sometime, we’ll understand.\",\"suggested_fix\":\"„Vielleicht werden wir im besseren Land / den Sinn unserer Tränen erkennen / und dort irgendwann verstehen.“\",\"translation_quote\":\"vielleicht im besseren Land, / werden wir den Sinn unsrer Tränen erkennen, / und irgendwann dort verstehen.\"},{\"location\":\"Persönlicher Bericht\",\"severity\":\"major\",\"source_quote\":\"We will reach out to others for comfort and council.\",\"suggested_fix\":\"„Wir wenden uns an andere, um Trost und Rat zu finden.“\",\"translation_quote\":\"Wir wenden uns an andere, um Trost und Rat zu finden.\"},{\"location\":\"Schlusszitat, Offenbarung 21:1–4\",\"severity\":\"major\",\"source_quote\":\"And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men\",\"suggested_fix\":\"„Und ich hörte eine laute Stimme aus dem Himmel sagen: Siehe, die Wohnstätte Gottes ist bei den Menschen“\",\"translation_quote\":\"Und ich hörte eine laute Stimme aus dem Himmel sagen: Siehe, die Wohnung Gottes ist bei den Menschen\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 3152,
+    "content_evidence_truncated": false,
+    "content_sha256": "4b65e6f2ac8e57712b26b26ac1a5959b992cd0a137fd4592d70f4d24081c4873",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3724,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4476
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

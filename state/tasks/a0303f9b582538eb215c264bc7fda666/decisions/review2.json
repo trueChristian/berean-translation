@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "پہلا پیراگراف",
+      "severity": "minor",
+      "source_quote": "Our loved ones might have a terminal illness.",
+      "suggested_fix": "ہمارے پیاروں کو آخری مرحلے کی بیماری ہو سکتی ہے۔",
+      "translation_quote": "ہمارے پیاروں کو لاعلاج بیماری ہو سکتی ہے۔"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

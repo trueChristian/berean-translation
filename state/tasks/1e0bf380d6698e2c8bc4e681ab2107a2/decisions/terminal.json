@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poème cité, deuxième ligne",
+      "severity": "minor",
+      "source_quote": "It may be in the better land",
+      "suggested_fix": "Remplacer « Peut-être dans le meilleur des pays » par une formulation plus idiomatique, par exemple « Peut-être dans le pays meilleur » ou « Peut-être dans un monde meilleur », en conservant l’idée d’un lieu meilleur.",
+      "translation_quote": "Peut-être dans le meilleur des pays"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

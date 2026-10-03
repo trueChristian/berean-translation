@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 3",
+      "severity": "major",
+      "source_quote": "“miracle plays.”",
+      "suggested_fix": "Remplacer « mystères » par « pièces de miracle » pour traduire « miracle plays » sans les confondre avec les mystery plays.",
+      "translation_quote": "« mystères »"
+    },
+    {
+      "location": "Article, paragraphe commençant par « Hébreux 11:6 nous dit »",
+      "severity": "major",
+      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+      "suggested_fix": "Réviser la citation pour conserver le sens imprimé et l’explication entre parenthèses, par exemple : « La foi est la substance des choses espérées, la preuve des choses invisibles (ou non démontrées). »",
+      "translation_quote": "« La foi est une ferme assurance des choses qu’on espère, une démonstration de celles qu’on ne voit pas. »"
+    },
+    {
+      "location": "Article, paragraphe commençant par « Que la parole du Christ habite » (Colossiens 3:16)",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Remplacer « chantant à Dieu dans vos cœurs avec reconnaissance » par une formulation qui rend « chanter avec grâce dans vos cœurs pour le Seigneur », par exemple : « chantant avec grâce dans vos cœurs pour le Seigneur ».",
+      "translation_quote": "« chantant à Dieu dans vos cœurs avec reconnaissance »"
+    },
+    {
+      "location": "Article, paragraphe commençant par « Entretenez-vous par des psaumes » (Éphésiens 5:19)",
+      "severity": "major",
+      "source_quote": "“singing and making melody in your heart to the Lord”",
+      "suggested_fix": "Remplacer « chantant et célébrant le Seigneur de tout votre cœur » par une formulation qui conserve l’idée de faire résonner une mélodie dans son cœur pour le Seigneur, par exemple : « chantant et faisant résonner une mélodie dans votre cœur pour le Seigneur ».",
+      "translation_quote": "« chantant et célébrant le Seigneur de tout votre cœur »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

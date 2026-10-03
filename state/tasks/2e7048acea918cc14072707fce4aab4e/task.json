@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,32 +64,61 @@
         },
         "total_tokens": 14221
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 474,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9199,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9196,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9673
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, Absatz mit Mt 5,14",
+      "location": "Absatz zum Verhalten der amerikanischen Kirche gegenüber Selbstverteidigung",
       "severity": "major",
-      "source_quote": "“A city that is set on an hill” –Matthew 5:14.",
-      "suggested_fix": "Ändern Sie „Eine Stadt, die auf einem Berg liegt“ zu „Eine Stadt, die auf einem Hügel liegt“; die Versnummer muss unverändert bleiben.",
-      "translation_quote": "„Eine Stadt, die auf einem Berg liegt, kann nicht verborgen bleiben –Matthäus 5:14.“"
+      "source_quote": "The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.",
+      "suggested_fix": "Ergänzen Sie am Satzende die unvollständige Aussage entsprechend dem gedruckten englischen Quelltext: „…; die Bibel nennt es.“ Der Satz bricht auch im englischen Original nach „calls it“ ab; fügen Sie keine Ergänzung hinzu.",
+      "translation_quote": "Die amerikanische Kirche nennt die „Verteidigung“ unserer selbst, unserer Familien und unseres Landes Heldentum oder Tapferkeit; die Bibel nennt es."
     },
     {
-      "location": "source.html, Abschnitt „Non-conformity“, Zitat aus 1 Johannes 2,15–16",
+      "location": "Absatz über die drei Unterschiede zwischen Protestanten und Täufern",
       "severity": "major",
-      "source_quote": "“Love not the world, neither the things that are in the world.”",
-      "suggested_fix": "Ändern Sie „Liebt nicht die Welt und auch nicht das, was in der Welt ist“ zu „Liebt nicht die Welt und auch nicht die Dinge, die in der Welt sind“, damit der zweite Gegenstand der Aufforderung erhalten bleibt.",
-      "translation_quote": "„Liebt nicht die Welt und auch nicht das, was in der Welt ist.“"
+      "source_quote": "Most Protestants are supporters of fighting for our freedoms and our rights.",
+      "suggested_fix": "Ändern Sie „unterstützen den Kampf für unsere Freiheiten und Rechte“ in „befürworten den Kampf um unsere Freiheit und unsere Rechte“ oder eine gleichwertige Formulierung, die die Unterstützung für den Kampf ausdrückt.",
+      "translation_quote": "Die meisten Protestanten unterstützen den Kampf für unsere Freiheiten und Rechte."
     },
     {
-      "location": "source.html, Absatz zum Pastor, der entlassen wurde",
+      "location": "Absatz über die Frau im Fast-Food-Restaurant",
+      "severity": "minor",
+      "source_quote": "“Jesus loves you just the way you are. You don’t have to change for this man.”",
+      "suggested_fix": "Für die zweite Aussage die Bedeutung „Wegen dieses Mannes musst du dich nicht ändern“ wiedergeben, zum Beispiel: „Wegen dieses Mannes musst du dich nicht ändern.“",
+      "translation_quote": "„Jesus liebt dich genau so, wie du bist. Du musst dich für diesen Mann nicht ändern.“"
+    },
+    {
+      "location": "Absatz über den Pastor und die Affäre",
       "severity": "major",
-      "source_quote": "“you’re not a true Christian, and you will not find victory.”",
-      "suggested_fix": "Ändern Sie „ist man kein wahrer Christ und wird keinen Sieg finden“ zu „bist du kein wahrer Christ und wirst keinen Sieg finden“ oder verwenden Sie eine andere Formulierung, die die direkte Anrede des englischen Originals beibehält.",
-      "translation_quote": "„…wenn man nicht bereit ist, ALLEN Lehren des Neuen Testaments zu gehorchen, ist man kein wahrer Christ und wird keinen Sieg finden.“"
+      "source_quote": "…you’re not a true Christian, and you will not find victory.",
+      "suggested_fix": "Behalten Sie die direkte Anrede des englischen Originals durchgehend bei: „… bist du kein wahrer Christ und wirst keinen Sieg finden.“",
+      "translation_quote": "… bist du kein wahrer Christ und wirst keinen Sieg finden."
     }
   ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "2e7048acea918cc14072707fce4aab4e",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "deu",
@@ -185,7 +213,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

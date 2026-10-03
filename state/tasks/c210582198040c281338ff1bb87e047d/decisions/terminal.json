@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 7, quoted insult",
+      "severity": "minor",
+      "source_quote": "“Bigot!”",
+      "suggested_fix": "Replace “Grootbekrompe!” with “Bekrompe!” or “Onverdraagsame!” to convey the accusation of prejudice or intolerance.",
+      "translation_quote": "“Grootbekrompe!”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

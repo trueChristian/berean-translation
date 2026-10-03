@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Titolo",
+      "severity": "major",
+      "source_quote": "“Do I need to tell?”",
+      "suggested_fix": "«Devo dirlo?»",
+      "translation_quote": "«Devo dirlo?»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

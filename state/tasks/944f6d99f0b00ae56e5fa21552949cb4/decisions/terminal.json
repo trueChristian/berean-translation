@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «هل أقول إن على المرء...»",
+      "severity": "major",
+      "source_quote": "Am I saying that a person must be an Anabaptist to make it to heaven?",
+      "suggested_fix": "استبدل «من قائلِي معمودية المؤمنين (الأنابابتست)» بـ«من الأنابابتست» لتسمية الجماعة المقصودة كما وردت في الأصل.",
+      "translation_quote": "هل أقول إن على المرء أن يكون من قائلِي معمودية المؤمنين (الأنابابتست) كي يدخل السماء؟"
+    },
+    {
+      "location": "Paragraph beginning «من الشائع أن يساير المرء محيطه»",
+      "severity": "minor",
+      "source_quote": "to say “No” to evil communication and the ways of this world",
+      "suggested_fix": "استبدل «الاتصالات الشريرة» بـ«المعاشرات الفاسدة» أو «المخالطات الفاسدة» لتوضيح المقصود في السياق.",
+      "translation_quote": "وأن نقول «لا» للاتصالات الشريرة وطرق هذا العالم"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

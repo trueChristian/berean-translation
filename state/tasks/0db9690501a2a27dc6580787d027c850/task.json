@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,47 @@
         },
         "total_tokens": 12896
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 583,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8363,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8360,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8946
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, “What the Bible Says About Food” paragraph quoting Acts 15:20",
+      "location": "본문, ‘성경이 음식에 관해 말하는 것’ 단락의 인용문(고린도전서 6:19-20)",
       "severity": "major",
-      "source_quote": "The Jerusalem council specifically required …that they abstain from pollutions of idols, and from fornication, and from things strangled, and from blood –Acts 15:20.",
-      "suggested_fix": "인용을 원문의 의미와 순서에 맞춰 다음처럼 고치세요: <em>…우상의 더러운 것과 음행과 목매어 죽인 것과 피를 멀리하라 –사도행전 15:20.</em>",
-      "translation_quote": "예루살렘 공의회가 특별히 요구한 것은 <em>우상의 더러움과 음행과 목매어 죽인 것과 피를 멀리하라는 것… –사도행전 15:20.</em>"
+      "source_quote": "“What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God’s”",
+      "suggested_fix": "인용문을 원문의 뜻에 맞게 다음처럼 고치세요: “너희 몸이 너희 안에 계시며 너희가 하나님께 받은 성령의 전인 줄을 알지 못하느냐? 너희는 너희 자신의 것이 아니니, 값으로 산 것이 되었느니라. 그러므로 너희 몸으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라”",
+      "translation_quote": "“너희 몸은 너희가 하나님께로부터 받은 바 너희 안에 계신 성령의 전인 줄을 알지 못하느냐? 너희는 너희 자신의 것이 아니니, 값으로 산 것이 되었으니 그러므로 너희 몸으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라”"
+    },
+    {
+      "location": "본문, ‘성경이 음식에 관해 말하는 것’ 단락의 인용문(고린도전서 3:16-17)",
+      "severity": "major",
+      "source_quote": "“Know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you? If any man defile the temple of God, him shall God destroy; for the temple of God is holy, which temple ye are”",
+      "suggested_fix": "인용문에서 원문에 있는 조건과 경고를 살려 다음처럼 고치세요: “너희가 하나님의 성전이며 하나님의 영께서 너희 안에 거하시는 것을 알지 못하느냐? 누구든지 하나님의 성전을 더럽히면 하나님께서 그를 멸하시리라. 하나님의 성전은 거룩하니, 너희가 바로 그 성전이니라”",
+      "translation_quote": "“너희가 하나님의 성전인 것과 하나님의 영께서 너희 안에 거하시는 것을 알지 못하느냐? 누구든지 하나님의 성전을 더럽히면 하나님께서 그를 멸하시리니, 하나님의 성전은 거룩하니라. 너희가 바로 그 성전이니라”"
     }
   ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "0db9690501a2a27dc6580787d027c850",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -171,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

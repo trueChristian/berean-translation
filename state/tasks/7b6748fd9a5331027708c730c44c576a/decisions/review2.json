@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Jesus calls us to love our enemies”",
+      "severity": "major",
+      "source_quote": "The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.",
+      "suggested_fix": "Replace « L’Église américaine appelle « se défendre », défendre sa famille et son pays, de l’héroïsme ou de la bravoure ; la Bible appelle cela… » with « L’Église américaine qualifie d’« héroïsme » ou de « bravoure » le fait de se défendre, de défendre sa famille et son pays ; la Bible appelle cela… » The sentence is deliberately left unfinished in the source; do not add an ending.",
+      "translation_quote": "L’Église américaine appelle « se défendre », défendre sa famille et son pays, de l’héroïsme ou de la bravoure ; la Bible appelle cela…"
+    },
+    {
+      "location": "source.html, paragraph beginning “Many times, the people who get angry”",
+      "severity": "minor",
+      "source_quote": "The sinners seem to let the message penetrate their hearts.",
+      "suggested_fix": "Replace « Les pécheurs semblent laisser le message pénétrer leur cœur. » with « Les pécheurs semblent laisser le message pénétrer leurs cœurs. »",
+      "translation_quote": "Les pécheurs semblent laisser le message pénétrer leur cœur."
+    },
+    {
+      "location": "source.html, paragraph beginning “She was a nice young lady”",
+      "severity": "minor",
+      "source_quote": "outside of going to church",
+      "suggested_fix": "For clarity, replace « En dehors du fait d’aller à l’Église » with « En dehors de sa fréquentation de l’Église » or « À part le fait qu’elle allait à l’Église ».",
+      "translation_quote": "En dehors du fait d’aller à l’Église"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

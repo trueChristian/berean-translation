@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, second stanza, first line",
+      "severity": "major",
+      "source_quote": "At times we fret with downcast soul,",
+      "suggested_fix": "Αντικαταστήστε το «αγανακτούμε» με «ανησυχούμε», για παράδειγμα: «Κάποιες φορές ανησυχούμε με την ψυχή σκυθρωπή,»",
+      "translation_quote": "Κάποιες φορές αγανακτούμε με την ψυχή σκυθρωπή,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "71acc7cf-0c85-4e46-9a50-7afaeca6c9ac",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:57+00:00",
   "events": [
@@ -65,32 +64,61 @@
         },
         "total_tokens": 3832
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 274,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2352,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2349,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2626
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, poem, stanza 3, line 4",
+      "location": "HTML, poem stanza 2",
       "severity": "major",
-      "source_quote": "Your hand in it all You’ve made plain.",
-      "suggested_fix": "Replace the line with “U het dit duidelik gemaak dat U hand in alles is.”",
-      "translation_quote": "U het dit duidelik gemaak dat U hand daarin is."
+      "source_quote": "We tried what we thought might change it,",
+      "suggested_fix": "Translate as: “Ons het probeer wat ons gedink het dit dalk kon verander,”",
+      "translation_quote": "Ons het probeer wat ons gedink het dit dalk kon verander,"
     },
     {
-      "location": "HTML, poem, stanza 6, line 4",
+      "location": "HTML, poem stanza 4",
+      "severity": "minor",
+      "source_quote": "Yet we know that no matter our feelings,",
+      "suggested_fix": "A clearer rendering is: “Tog weet ons, ongeag hoe ons voel,”",
+      "translation_quote": "Tog weet ons dat daar, ongeag hoe ons voel,"
+    },
+    {
+      "location": "HTML, poem stanza 6",
       "severity": "major",
       "source_quote": "Making everything open to Your view.",
-      "suggested_fix": "Replace the line with “en alles vir U oop te stel.”",
-      "translation_quote": "om alles oop voor U te lê."
+      "suggested_fix": "Replace the last line of the stanza with: “en alles voor U oop te lê.”",
+      "translation_quote": "en alles vir U oop te stel."
     },
     {
-      "location": "HTML, poem, stanza 9, line 4",
+      "location": "HTML, poem stanza 9",
       "severity": "major",
       "source_quote": "For which no earthly price can exceed.",
-      "suggested_fix": "Replace the line with “waarmee geen aardse prys kan vergelyk nie.”",
-      "translation_quote": "waarvoor geen aardse prys te hoog is nie."
+      "suggested_fix": "Replace the last line with: “waarvoor geen aardse prys te hoog is nie.”",
+      "translation_quote": "waarmee geen aardse prys kan vergelyk nie."
     }
   ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "f2b5f1642cabbd0e8a6b4ce82809e3db",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "afr",
@@ -185,7 +213,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/634d6c772be526a422c8c33e8b961bc7fc085bc761d8a0637cc8fd29fbc6bc94.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "3428e3dfe0b88050c4877e32e99eb4787e5c47d0cb144007ca16b538f3713f93",
   "translation_model_actual": "gpt-6-luna"

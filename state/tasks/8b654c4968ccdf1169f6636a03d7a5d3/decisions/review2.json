@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning «Όταν τελείωσε η μακριά νύχτα» in the lyrics",
+      "severity": "minor",
+      "source_quote": "on the bright peaceful shore",
+      "suggested_fix": "Change «στην φωτεινή, ειρηνική ακτή» to «στη φωτεινή, ειρηνική ακτή».",
+      "translation_quote": "στην φωτεινή, ειρηνική ακτή"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

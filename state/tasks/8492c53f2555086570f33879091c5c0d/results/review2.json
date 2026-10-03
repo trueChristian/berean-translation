@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "66c4d2ee-e32e-4b41-9632-dafca719521b",
+    "response_id": "chatcmpl-EUsMQVHD2gbwhRYXVd1sk9UalLi3z",
+    "usage": {
+      "completion_tokens": 510,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3799,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3796,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4309
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, introductory paragraph",
+        "severity": "minor",
+        "source_quote": "Some feel like Job sometimes.",
+        "suggested_fix": "Уточнить сравнение: «Иногда кому-то кажется, что он переживает то же, что переживал Иов».",
+        "translation_quote": "Иногда кому-то кажется, что он переживает то же, что Иов."
+      },
+      {
+        "location": "HTML, lyrics, first stanza",
+        "severity": "major",
+        "source_quote": "In the dark of the midnight have I oft hid my face, / While the storm howls above me, and there’s no hiding place.",
+        "suggested_fix": "Передать смысл строк точнее, например: «В тёмную полночь я часто скрывал своё лицо, / Пока надо мной выла буря и укрыться было негде».",
+        "translation_quote": "В тёмной полночь я не раз скрывал лицо своё, / Буря выла надо мной, укрыться негде было."
+      },
+      {
+        "location": "HTML, lyrics, refrain",
+        "severity": "minor",
+        "source_quote": "Till the clouds roll forever from the sky;",
+        "suggested_fix": "Сохранить образ облаков, которые навсегда уходят с неба: «Пока облака навсегда не уйдут с небес».",
+        "translation_quote": "Пока тучи навсегда не рассеются в небе;"
+      },
+      {
+        "location": "HTML, lyrics, third stanza",
+        "severity": "major",
+        "source_quote": "In that land where the tempest, never comes, Lord, may I / Dwell with Thee when the storm passes by.",
+        "suggested_fix": "Сохранить смысл просьбы жить с Господом в стране, куда буря никогда не приходит: «В той стране, куда буря никогда не приходит, Господи, дай мне / Жить с Тобой, когда буря минует».",
+        "translation_quote": "В той стране, где бурь не бывает, Господи, дай мне / Жить с Тобой, когда минует гроза."
+      },
+      {
+        "location": "HTML, paragraph after the poem",
+        "severity": "major",
+        "source_quote": "We will reach out to others for comfort and council.",
+        "suggested_fix": "Исправить ошибочную замену “council” на совет: «Мы обратимся к другим за утешением и советом».",
+        "translation_quote": "Мы обратимся к другим за утешением и советом."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

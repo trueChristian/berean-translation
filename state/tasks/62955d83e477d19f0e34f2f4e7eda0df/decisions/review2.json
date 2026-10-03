@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Schließlich öffnete die Frau den Mund.”",
+      "severity": "major",
+      "source_quote": "“Bitterness poured out; dishonor; old dirt.”",
+      "suggested_fix": "Ändere die Aufzählung zu: „Verbitterung strömte hervor; Missachtung; alter Groll.“",
+      "translation_quote": "„Verbitterung strömte hervor; Vorwürfe; alter Groll.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

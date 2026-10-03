@@ -2,7 +2,6 @@
   "article_id": "73def952-dd77-4a51-b030-27713e0cedd2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 6145
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "الفقرة التي تبدأ بـ«بعد أن أمضت ميليسا...» والفقرة التالية التي تبدأ بـ«خرجتا من الماء...»",
-      "severity": "major",
-      "source_quote": "“that big culvert under the road” / “the tunnel-like culvert”",
-      "suggested_fix": "استبدلي «العبّارة» في الموضعين بتعبير يدل على ممرّ أو قناة تصريف كبيرة تحت الطريق، مثل «مجرى التصريف الكبير تحت الطريق»؛ فالحديث عن نفق تمرّان عبره، لا عن عبّارة.",
-      "translation_quote": "«تلك العبّارة الكبيرة تحت الطريق» / «العبّارة التي تشبه النفق»"
     },
     {
-      "location": "الفقرة التي تبدأ بـ«ابتلت أطراف فستاني الفتاتين...»",
-      "severity": "major",
-      "source_quote": "“The girls’ dress hems were damp from the creek”",
-      "suggested_fix": "استبدلي العبارة بـ«ابتلت أطراف فساتين الفتاتين بماء الجدول»؛ فالنص يتحدث عن فساتين الفتاتين، لا عن «فستاني» المتكلم.",
-      "translation_quote": "«ابتلت أطراف فستاني الفتاتين بماء الجدول»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 239,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3886,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3883,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4125
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "الفقرة التي يبدأ نصها بـ«وما إن خرجت الفتاتان...»",
+      "severity": "major",
+      "source_quote": "“I’m going to tell Mom that you broke the oar.”",
+      "suggested_fix": "استبدلي «سأخبر أمي بأنكما كسرتما المجداف» بـ«سأخبر أمي بأنكِ كسرتِ المجداف»؛ فالإنجليزية تنسب كسر المجداف إلى ميليسا وحدها، لا إلى الفتاتين.",
+      "translation_quote": "سأخبر أمي بأنكما كسرتما المجداف."
+    },
+    {
+      "location": "الفقرة التي يبدأ نصها بـ«وما إن خرجت الفتاتان...»",
+      "severity": "major",
+      "source_quote": "“You broke the oar.”",
+      "suggested_fix": "استبدلي «كسرتما المجداف» بـ«كسرتِ المجداف»، إذ يواجه الأخ ميليسا بشأن فعلها هي، كما يوضح النص صراحةً.",
+      "translation_quote": "كسرتما المجداف."
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "b45542977bc1399b9466d19bdeb919d2",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ara",
@@ -178,7 +199,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
   "translation_model_actual": "gpt-6-luna"

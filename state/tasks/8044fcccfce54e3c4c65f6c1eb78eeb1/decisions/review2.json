@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Title and recurring theme, including the final two body paragraphs",
+      "severity": "major",
+      "source_quote": "“Dishonor and Loss”; “All wives are tempted to dishonor their husbands”; “I choose to honor or dishonor the husband God gave me.”",
+      "suggested_fix": "Use language conveying failure to honor or respect, rather than merely insulting: for example, title «عدم الإكرام والخسارة»; in the relevant sentences use «عدم إكرام أزواجهن» and «أختار أن أكرم الزوج الذي وهبني الله إياه أو لا أكرمه».",
+      "translation_quote": "«الإهانة والخسارة»; «تُجرَّب جميع الزوجات على إهانة أزواجهن»; «أختار أن أكرم الزوج الذي وهبني الله إياه أو أهينه»"
+    },
+    {
+      "location": "Paragraph beginning «وأخيرًا نفد صبر الزوجين»",
+      "severity": "minor",
+      "source_quote": "“Finally, the couple ran out of steam.”",
+      "suggested_fix": "Replace «نفد صبر الزوجين» with wording that conveys their energy or momentum running out, such as «وأخيرًا خمدت حدة الجدال بين الزوجين»; the source does not say they ran out of patience.",
+      "translation_quote": "«وأخيرًا نفد صبر الزوجين»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

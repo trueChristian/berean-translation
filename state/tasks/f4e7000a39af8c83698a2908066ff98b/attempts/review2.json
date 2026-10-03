@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Lyrics, first stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"‘Mid the crash of the thunder, Precious Lord, hear my cry,\",\"suggested_fix\":\"استبدل «يا ربّي الثمين» بتعبير عربي مألوف في النداء، مثل «يا ربّي العزيز»، مع الحفاظ على معنى المخاطبة الودودة.\",\"translation_quote\":\"وسط دوي الرعد، يا ربّي الثمين، اسمع صراخي،\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 506,
+    "content_evidence_truncated": false,
+    "content_sha256": "d8d0296b5946570179f71932e69265530f54885c2abe887a619cd6d35512b644",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3826,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3823,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4566
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

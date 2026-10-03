@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, first stanza, second line",
+      "severity": "minor",
+      "source_quote": "Minute degrees observed as nil.",
+      "suggested_fix": "Vervang door: \"Kleine stapjes die nauwelijks worden opgemerkt.\"",
+      "translation_quote": "Kleine stapjes, als niets waargenomen."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

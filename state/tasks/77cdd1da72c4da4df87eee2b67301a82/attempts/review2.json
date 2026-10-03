@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"첫 문단\",\"severity\":\"major\",\"source_quote\":\"Our loved ones might have a terminal illness.\",\"suggested_fix\":\"“사랑하는 사람이 말기 질환을 앓고 있을 수도 있습니다.”로 수정하세요.\",\"translation_quote\":\"사랑하는 사람이 불치병에 걸렸을 수도 있습니다.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 356,
+    "content_evidence_truncated": false,
+    "content_sha256": "870327181a3720d817514db1a3ed85479c1c73e02205eaffcb1cce02a5a335e4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 546,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4077,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4074,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4721
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

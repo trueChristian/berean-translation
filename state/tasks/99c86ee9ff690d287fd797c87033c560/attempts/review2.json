@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"פסקה שבה מיכל מדברת אל דוד; מופיע פעמיים\",\"severity\":\"major\",\"source_quote\":\"“in front of the maidens” / “but those maidens you mentioned”\",\"suggested_fix\":\"החליפו את ״השפחות״ ב״הנערות״ בשני המקומות, כדי לשמר את המשמעות של maidens ולא לתאר אותן כמשרתות.\",\"translation_quote\":\"״קפצת ככה לפני השפחות״ / ״אבל אותן שפחות שהזכרת״\"},{\"location\":\"הערת השוליים המסומנת בכוכבית\",\"severity\":\"minor\",\"source_quote\":\"“This is how the Spanish Bible says it”\",\"suggested_fix\":\"שנו ל״כך כתוב בתנ״ך בספרדית״ או ״כך מנוסח הדבר בגרסה הספרדית של המקרא״, כדי להבהיר שמדובר בשפה הספרדית ולא בתנ״ך שמקורו בספרד.\",\"translation_quote\":\"״כך כתוב בתנ״ך הספרדי״\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 992,
+    "content_evidence_truncated": false,
+    "content_sha256": "52f87076af43c1de2e60521ee66839d56770ab03062f2544ec23bde4e5e6146e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 780,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4759,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5803
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

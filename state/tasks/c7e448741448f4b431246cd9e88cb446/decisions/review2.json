@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "عنوان",
+      "severity": "minor",
+      "source_quote": "“Do I need to tell?”",
+      "suggested_fix": "”کیا مجھے بتانا چاہیے؟“",
+      "translation_quote": "”کیا مجھے بتانا چاہیے؟“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

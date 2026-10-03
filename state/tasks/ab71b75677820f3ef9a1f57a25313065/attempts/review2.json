@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “There is a reason why the Protestant reformer”\",\"severity\":\"major\",\"source_quote\":\"There is a reason why the Protestant reformer, Martin Luther, died hating the Anabaptist people—because they rejected his interpretation of the Scriptures.\",\"suggested_fix\":\"Replace “इसका एक कारण था:” with “क्योंकि” so the translation preserves the source’s stated explanation rather than presenting it as merely one possible reason. For example: “प्रोटेस्टेंट सुधारक मार्टिन लूथर की मृत्यु एनाबैपटिस्ट लोगों से घृणा करते हुए हुई—क्योंकि उन्होंने पवित्रशास्त्र की उसकी व्याख्या को अस्वीकार कर दिया था।”\",\"translation_quote\":\"प्रोटेस्टेंट सुधारक मार्टिन लूथर की मृत्यु एनाबैपटिस्ट लोगों से घृणा करते हुए हुई—इसका एक कारण था: उन्होंने पवित्रशास्त्र की उसकी व्याख्या को अस्वीकार कर दिया था।\"},{\"location\":\"HTML, paragraph beginning “I’ve heard many Anabaptist people say”\",\"severity\":\"major\",\"source_quote\":\"The Bible says that few will make it.\",\"suggested_fix\":\"Replace “सफल होंगे” with a phrase that conveys reaching heaven or being saved in this context, such as “स्वर्ग पहुँचेंगे”: “बाइबल कहती है कि थोड़े ही लोग स्वर्ग पहुँचेंगे।”\",\"translation_quote\":\"बाइबल कहती है कि थोड़े ही लोग सफल होंगे।\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2060,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d98026a8181e66eecfe63698d11be96538668d667f39568bd96e185e7526d36",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 917,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 571,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10067,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10064,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10984
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

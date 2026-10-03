@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "944ca705-d849-4e72-ae6b-205ca3ed5d15",
+    "response_id": "chatcmpl-EUsMV1f5FRfAU1uGcU3bTdVi5vYKV",
+    "usage": {
+      "completion_tokens": 878,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 620,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9264,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10145
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «هل أقول إن على المرء...»",
+        "severity": "major",
+        "source_quote": "Am I saying that a person must be an Anabaptist to make it to heaven?",
+        "suggested_fix": "استبدل «من قائلِي معمودية المؤمنين (الأنابابتست)» بـ«من الأنابابتست» لتسمية الجماعة المقصودة كما وردت في الأصل.",
+        "translation_quote": "هل أقول إن على المرء أن يكون من قائلِي معمودية المؤمنين (الأنابابتست) كي يدخل السماء؟"
+      },
+      {
+        "location": "Paragraph beginning «من الشائع أن يساير المرء محيطه»",
+        "severity": "minor",
+        "source_quote": "to say “No” to evil communication and the ways of this world",
+        "suggested_fix": "استبدل «الاتصالات الشريرة» بـ«المعاشرات الفاسدة» أو «المخالطات الفاسدة» لتوضيح المقصود في السياق.",
+        "translation_quote": "وأن نقول «لا» للاتصالات الشريرة وطرق هذا العالم"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

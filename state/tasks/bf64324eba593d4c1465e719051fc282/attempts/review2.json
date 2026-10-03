@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Ο Δαβίδ επέστρεψε στο σπίτι…»\",\"severity\":\"major\",\"source_quote\":\"“David returned home several hours later—tired, but happy—to bless his household.”\",\"suggested_fix\":\"Replace «για να ευλογήσει το σπιτικό του» with «για να ευλογήσει την οικογένειά του».\",\"translation_quote\":\"«Ο Δαβίδ επέστρεψε στο σπίτι αρκετές ώρες αργότερα—κουρασμένος, αλλά χαρούμενος—για να ευλογήσει το σπιτικό του.»\"},{\"location\":\"HTML, paragraph beginning «Φαντάζομαι τα μοναχικά γηρατειά…»\",\"severity\":\"major\",\"source_quote\":\"“Several chapters later tell of his eyes roving to a neighbor’s wife and the resulting sin.”\",\"suggested_fix\":\"Replace «Αρκετά κεφάλαια παρακάτω διαβάζουμε ότι τα μάτια του περιπλανήθηκαν στη γυναίκα ενός γείτονα και για την αμαρτία που ακολούθησε» with «Αρκετά κεφάλαια παρακάτω διαβάζουμε ότι το βλέμμα του περιπλανήθηκε στη γυναίκα ενός γείτονα και για την αμαρτία που ακολούθησε».\",\"translation_quote\":\"«Αρκετά κεφάλαια παρακάτω διαβάζουμε ότι τα μάτια του περιπλανήθηκαν στη γυναίκα ενός γείτονα και για την αμαρτία που ακολούθησε.»\"},{\"location\":\"HTML, paragraph beginning «Κάθε μέρα επιλέγω…»\",\"severity\":\"major\",\"source_quote\":\"“My choice determines the reciprocating favor or loss.”\",\"suggested_fix\":\"Replace «Η επιλογή μου καθορίζει την εύνοια ή την απώλεια που θα μου ανταποδοθεί» with «Η επιλογή μου καθορίζει αν θα μου ανταποδοθεί εύνοια ή απώλεια».\",\"translation_quote\":\"«Η επιλογή μου καθορίζει την εύνοια ή την απώλεια που θα μου ανταποδοθεί.»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 2307,
+    "content_evidence_truncated": false,
+    "content_sha256": "b2c7522d6d88c496c7ba148e252dc23eede4935c2e9981446e891f3fdebceacf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 487,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5651,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5648,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6138
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

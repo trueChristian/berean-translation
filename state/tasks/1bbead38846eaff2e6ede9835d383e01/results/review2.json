@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f10a40a5-146a-427d-85c8-1cdd9d7b8724",
+    "response_id": "chatcmpl-EUsMPBE6K8Ii2nwVGHpU0rHyXjNA7",
+    "usage": {
+      "completion_tokens": 883,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 723,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11327,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12213
+    }
+  },
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "III. Patterns of True Worship, b. Preaching; Mark 16:15 quotation",
+        "severity": "major",
+        "source_quote": "…Go ye into all the world, and preach the gospel to every creature –Mark 16:15.",
+        "suggested_fix": "将“传福音给万民听”改为“向一切受造之物传福音”，以保留原文“every creature”的范围；保留原有经文编号。",
+        "translation_quote": "……你们往普天下去，传福音给万民听。——马可福音16:15。"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

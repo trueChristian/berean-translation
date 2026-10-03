@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Wasichana hao walipotoka tu ghalani”",
+      "severity": "minor",
+      "source_quote": "“I’m going to tell Mom that you broke the oar.”",
+      "suggested_fix": "Correct the typo by changing “Nit amwambia Mama” to “Nitamwambia Mama”; keep the surrounding paragraph and HTML structure unchanged.",
+      "translation_quote": "“Nit amwambia Mama kwamba mmevunja kasia.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

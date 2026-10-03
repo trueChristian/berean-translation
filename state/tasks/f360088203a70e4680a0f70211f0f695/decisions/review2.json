@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, paragraph 4",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "הוא עמד בצומת דרכים, לאורך כל חייו.",
+      "translation_quote": "הוא עמד בצומת דרכים, ובכל חייו היה עליו לבחור."
+    },
+    {
+      "location": "source.html, poem, paragraph 16",
+      "severity": "major",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "הוא רוצה שאוכח; הוא החיים והדרך.",
+      "translation_quote": "הוא רוצה שאעמוד במבחן; הוא החיים והדרך."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

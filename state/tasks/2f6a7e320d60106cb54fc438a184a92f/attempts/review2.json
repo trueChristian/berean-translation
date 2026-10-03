@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Hebrews 3:12–15 quotation\",\"severity\":\"major\",\"source_quote\":\"“while it is called To day; lest any of you be hardened through the deceitfulness of sin.”\",\"suggested_fix\":\"Replace “zolang men van een heden spreekt, opdat niemand van u verhard wordt door de verleiding van de zonde” with “zolang het nog ‘Heden’ genoemd wordt, opdat niemand van u verhard wordt door de bedrieglijkheid van de zonde.”\",\"translation_quote\":\"“zolang men van een heden spreekt, opdat niemand van u verhard wordt door de verleiding van de zonde.”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 606,
+    "content_evidence_truncated": false,
+    "content_sha256": "36f0be8771683f2403d28e9c256c3d8d5c3bff95614135f23c074e570ee38a8b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 569,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 405,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4637,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4634,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5206
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

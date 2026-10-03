@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 12003
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 608,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 469,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7857,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7854,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8465
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, sección «Mitos sobre la pérdida de peso», párrafo sobre las calorías del ejercicio",
+      "location": "HTML, quote in the paragraph citing 1 Corinthians 3:16-17",
       "severity": "major",
-      "source_quote": "a body must burn 3500 calories to lose one pound",
-      "suggested_fix": "Cambiar «3500 calorías para perder una libra» por «3500 calorías para perder una libra (aproximadamente 450 gramos)» o usar otra conversión que mantenga explícita la equivalencia original.",
-      "translation_quote": "el cuerpo debe quemar 3500 calorías para perder una libra"
-    },
-    {
-      "location": "HTML, sección «Mitos sobre la pérdida de peso», subtítulo sobre carbohidratos",
-      "severity": "minor",
-      "source_quote": "…Carbohydrates make you gain weight.",
-      "suggested_fix": "Para conservar el sentido general del subtítulo en un registro internacional: «…Los carbohidratos hacen que se aumente de peso.»",
-      "translation_quote": "…Los carbohidratos hacen que aumentes de peso."
-    },
-    {
-      "location": "HTML, sección «Mitos sobre la pérdida de peso», subtítulo sobre el alimento que quema grasa",
-      "severity": "minor",
-      "source_quote": "You just need to eat ‘___’ fat burning food to lose weight!",
-      "suggested_fix": "Usar una formulación coherente con el tratamiento de «usted» del artículo: «…¡Solo tiene que comer «___», un alimento que quema grasa, para bajar de peso!»",
-      "translation_quote": "…¡Solo tienes que comer «___», un alimento que quema grasa, para bajar de peso!"
+      "source_quote": "If any man defile the temple of God, him shall God destroy",
+      "suggested_fix": "Replace «Si alguno destruye el templo de Dios, Dios lo destruirá a él» with «Si alguno contamina el templo de Dios, Dios lo destruirá a él», preserving the surrounding <em> tags and the Scripture reference.",
+      "translation_quote": "Si alguno destruye el templo de Dios, Dios lo destruirá a él"
     }
   ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "ec0a7e2601bda023176d8549247c4d17",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "spa",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

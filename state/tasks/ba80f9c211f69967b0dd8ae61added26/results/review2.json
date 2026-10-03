@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a9a4b3f7-1de5-4253-9efd-924cb27b411d",
+    "response_id": "chatcmpl-EUsMhpbpxxaRx6wU8iDV5bYpQuIwu",
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 449,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8840,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8837,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9397
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Enquanto esperava na fila...”",
+        "severity": "minor",
+        "source_quote": "“other graphic designs”",
+        "suggested_fix": "Replace “outros desenhos explícitos” with “outros desenhos de imagens fortes” to convey “graphic” without implying that the designs are explicit in the sense of sexual or otherwise overt content.",
+        "translation_quote": "“outros desenhos explícitos”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,61 @@
         },
         "total_tokens": 12703
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Ce que la Bible dit de la nourriture — citation d’Ecclésiaste 2:24",
-      "severity": "major",
-      "source_quote": "“...that he should make his soul enjoy good in his labour.”",
-      "suggested_fix": "Remplacer « et de jouir du bien-être au milieu de son travail » par une formulation qui conserve l’idée de l’âme jouissant du bien dans son travail, par exemple : « et que son âme jouisse du bien dans son travail ». Garder les balises <em> et la référence inchangées.",
-      "translation_quote": "« … de manger, de boire et de jouir du bien-être au milieu de son travail. »"
     },
     {
-      "location": "Ce que la Bible dit de la nourriture — citation de 1 Corinthiens 3:16-17",
-      "severity": "major",
-      "source_quote": "“If any man defile the temple of God, him shall God destroy”",
-      "suggested_fix": "Rendre « defile » par une formulation correspondant à profaner/souiller, et non détruire, par exemple : « Si quelqu’un profane le temple de Dieu, Dieu le détruira ». Conserver la balise <em> et la référence inchangées.",
-      "translation_quote": "« Si quelqu’un détruit le temple de Dieu, Dieu le détruira »"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 416,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8221,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8218,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8637
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraphe sur les calories brûlées par l’exercice",
+      "severity": "major",
+      "source_quote": "“the body must burn 3500 calories to lose one pound”",
+      "suggested_fix": "Remplacer « 3 500 calories pour perdre une livre » par « 3 500 calories pour perdre une livre (environ 450 g) » ou par une conversion équivalente en kilogrammes, afin de conserver la mesure source sans la confondre avec une valeur métrique.",
+      "translation_quote": "« le corps doit brûler 3 500 calories pour perdre une livre »"
+    },
+    {
+      "location": "HTML, exemple du petit-déjeuner remplacé par de l’eau et des flocons d’avoine",
+      "severity": "major",
+      "source_quote": "“you will probably lose weight”",
+      "suggested_fix": "Remplacer « vous perdrez probablement du poids » par « vous perdrez probablement du poids à terme » ou « vous aurez probablement tendance à perdre du poids », pour restituer la probabilité plutôt qu’une certitude.",
+      "translation_quote": "« vous perdrez probablement du poids »"
+    },
+    {
+      "location": "HTML, citation d’Ecclésiaste 2:24",
+      "severity": "minor",
+      "source_quote": "“that he should make his soul enjoy good in his labour”",
+      "suggested_fix": "Remplacer « que son âme jouisse du bien dans son travail » par une formulation française plus idiomatique qui conserve l’idée de jouir du fruit de son travail.",
+      "translation_quote": "« que son âme jouisse du bien dans son travail »"
+    },
+    {
+      "location": "HTML, citation d’Actes 15:20",
+      "severity": "major",
+      "source_quote": "“from things strangled”",
+      "suggested_fix": "Remplacer « des animaux étouffés » par « des animaux étranglés » ou « de ce qui a été étranglé », conformément au sens de la citation source.",
+      "translation_quote": "« des animaux étouffés »"
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "b6b4c30a69d80b269052cce01d475735",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "fra",
@@ -172,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

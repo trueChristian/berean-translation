@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4a535d7a-b815-4883-842c-368f0bc5a789",
+    "response_id": "chatcmpl-EUsMx770Wc07oh2NY5felmoNdBTqB",
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 670,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2759
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, fourth stanza",
+        "severity": "major",
+        "source_quote": "He was at the crossroads, all his life as a whole.",
+        "suggested_fix": "Alikuwa kwenye njia panda, katika maisha yake yote.",
+        "translation_quote": "Alikuwa njia panda, akitazama maisha yake yote."
+      },
+      {
+        "location": "Poem, thirteenth stanza",
+        "severity": "major",
+        "source_quote": "The fact of the matter, it’s confidence I lack.",
+        "suggested_fix": "Ukweli ni kwamba, ninakosa kujiamini.",
+        "translation_quote": "Ukweli ni kwamba, ninakosa imani."
+      },
+      {
+        "location": "Poem, tenth stanza",
+        "severity": "minor",
+        "source_quote": "I even helped the neighbor, just the other day!",
+        "suggested_fix": "Hata nilimsaidia jirani, siku nyingine hivi karibuni!",
+        "translation_quote": "Hata nilimsaidia jirani, siku chache tu zilizopita!"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

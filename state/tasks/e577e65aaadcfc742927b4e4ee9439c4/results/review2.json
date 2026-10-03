@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "42451bd4-7992-4d30-9173-9d44b1ef34ab",
+    "response_id": "chatcmpl-EUsN1FagAXcY6LF4sH9f0ateg8DoZ",
+    "usage": {
+      "completion_tokens": 638,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11208,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11205,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11846
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, seção I.a, parágrafo sobre Hebreus 11:6",
+        "severity": "major",
+        "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+        "suggested_fix": "Substituir a citação por: “A fé é a substância das coisas que se esperam, a evidência das coisas que não se veem (ou que não são demonstradas).”",
+        "translation_quote": "“A fé é a substância das coisas que se esperam, a evidência das coisas que não se veem (ou demonstram).”"
+      },
+      {
+        "location": "HTML, seção I.b, parágrafo sobre a palavra grega para hipócrita",
+        "severity": "major",
+        "source_quote": "“The original Greek word means ‘play actor.’”",
+        "suggested_fix": "Trocar “ator” por “ator que representa um papel” ou “ator teatral”, para preservar a ideia de fingimento/representação contida em “play actor”.",
+        "translation_quote": "“A palavra grega original significa ‘ator’.”"
+      },
+      {
+        "location": "HTML, seção III.a, parágrafo sobre reuniões de oração",
+        "severity": "major",
+        "source_quote": "“Prayer meeting attendance was not a monthly or a bimonthly option (Act 6:4)!”",
+        "suggested_fix": "Corrigir a referência para “(Atos 6:4)”, preservando o número impresso no original; não alterar para Atos 6:4? (a tradução já apresenta Atos 6:4).",
+        "translation_quote": "“(Atos 6:4)!”"
+      },
+      {
+        "location": "HTML, seção III.c, parágrafo sobre métodos de adoração do Novo Testamento",
+        "severity": "major",
+        "source_quote": "“When we move from intrinsic methods of worship to extrinsic methods, we violate the New Testament ‘spirit’ of worship.”",
+        "suggested_fix": "Usar termos que mantenham a oposição entre métodos intrínsecos e extrínsecos, sem mudar o sentido: “Quando passamos de métodos intrínsecos de adoração para métodos extrínsecos, violamos o ‘espírito’ de adoração do Novo Testamento.”",
+        "translation_quote": "“Quando passamos de métodos intrínsecos de adoração para métodos extrínsecos, violamos o ‘espírito’ de adoração do Novo Testamento.”"
+      },
+      {
+        "location": "HTML, seção IV, lista de atitudes, segundo item",
+        "severity": "minor",
+        "source_quote": "“Casual –becoming so aloof to any form of worship that the One being worshiped becomes obscured by indifference.”",
+        "suggested_fix": "Considerar “Indiferente” em vez de “Descontraída”, para manter a ideia de afastamento e indiferença, não de informalidade agradável.",
+        "translation_quote": "“Descontraída — tornar-se tão indiferente a qualquer forma de adoração que aquele que está sendo adorado acaba encoberto pela indiferença.”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

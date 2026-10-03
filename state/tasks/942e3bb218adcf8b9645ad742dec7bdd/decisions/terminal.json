@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, fourth stanza line",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Replace «med hele livet sitt på spill» with «med hele livet foran seg ved et veiskille» to retain the idea of a crossroads concerning his life as a whole, without suggesting his life is at stake.",
+      "translation_quote": "Han sto ved et veiskille, med hele livet sitt på spill."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, paragraph beginning “He wants me to be proved”",
+      "severity": "minor",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "Dia ingin membuktikan diriku; Dialah Hidup dan Jalan.",
+      "translation_quote": "Dia ingin aku terbukti; Dialah Hidup dan Jalan."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d226b160-331a-48eb-b01e-b41a68919f13",
+    "response_id": "chatcmpl-EUsMrFR05aN2qJZavtd8YY4SGjnT5",
+    "usage": {
+      "completion_tokens": 348,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11749,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11746,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12097
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, bagian I.a, paragraf yang membahas Ibrani 11:6",
+        "severity": "major",
+        "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
+        "suggested_fix": "Ubah kutipan itu menjadi «Iman adalah dasar dari segala sesuatu yang diharapkan dan bukti dari segala sesuatu yang tidak kelihatan (atau dibuktikan).»",
+        "translation_quote": "“Iman adalah dasar dari segala sesuatu yang kita harapkan dan bukti dari segala sesuatu yang tidak kelihatan (atau diperagakan).”"
+      },
+      {
+        "location": "source.html, bagian III.a, paragraf tentang Kisah Para Rasul 6:4",
+        "severity": "major",
+        "source_quote": "“Prayer meeting attendance was not a monthly or a bimonthly option (Act 6:4)!”",
+        "suggested_fix": "Ganti «bulanan atau dua bulanan» dengan «bulanan atau dua kali sebulan», agar jelas mempertahankan arti bimonthly sebagai dua kali sebulan dalam konteks pilihan frekuensi pertemuan.",
+        "translation_quote": "“Kehadiran dalam pertemuan doa bukanlah pilihan bulanan atau dua bulanan (Kisah Para Rasul 6:4)!”"
+      },
+      {
+        "location": "source.title",
+        "severity": "minor",
+        "source_quote": "Religious Drama vs True Worship",
+        "suggested_fix": "Untuk menyatakan perbandingan dengan lebih jelas dalam bahasa Indonesia, gunakan «Drama Keagamaan dan Ibadah Sejati».",
+        "translation_quote": "Drama Keagamaan versus Ibadah Sejati"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

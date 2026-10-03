@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, shairi, ubeti wa 3",
+      "severity": "major",
+      "source_quote": "All would have escaped this pain.",
+      "suggested_fix": "Badili mstari huu uwe: “Kila mmoja wetu angependa kuepuka maumivu haya.”",
+      "translation_quote": "Kila mtu angeepuka maumivu haya."
+    },
+    {
+      "location": "source.html, shairi, ubeti wa 6",
+      "severity": "major",
+      "source_quote": "Help us, Father, to be broken,",
+      "suggested_fix": "Tafsiri “to be broken” kwa maana ya kujisalimisha kwa Mungu, kwa mfano: “Utusaidie, Baba, kuvunjika moyo mbele zako,” bila kubadilisha muundo wa HTML.",
+      "translation_quote": "Utusaidie, Baba, kujinyenyekeza,"
+    },
+    {
+      "location": "source.html, shairi, ubeti wa 8",
+      "severity": "major",
+      "source_quote": "For You have gone through these deep waters,",
+      "suggested_fix": "Rekebisha mstari huu ili useme Mungu amepitia maji hayo ya kina, kwa mfano: “Kwa maana umepitia maji haya ya kina,”",
+      "translation_quote": "Kwa maana umepitia maji haya ya kina,"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML，第9段",
+      "severity": "major",
+      "source_quote": "Melissa turned around and saw that Angie was still at the entrance of the tunnel looking into a pool of water. She moved a rock, then screamed and scrambled up the bank to join Melissa.",
+      "suggested_fix": "将“安吉挪开一块石头，接着尖叫起来，爬上河岸来到梅丽莎身边”改为“梅丽莎转过身，看见安吉还站在隧道入口，正往一汪水里看。安吉挪开一块石头，接着尖叫起来，爬上河岸来到梅丽莎身边。”（若保留前句已有内容，只需确保此处的动作明确属于安吉。）",
+      "translation_quote": "安吉挪开一块石头，接着尖叫起来，爬上河岸来到梅丽莎身边。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

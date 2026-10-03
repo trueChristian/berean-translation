@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, paragraph 16",
+      "severity": "major",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "তিনি চান, আমি প্রমাণিত হই; তিনিই জীবন ও পথ।",
+      "translation_quote": "তিনি চান, আমার মধ্যে তাঁর শক্তির প্রমাণ ফুটে উঠুক; তিনিই জীবন, তিনিই পথ।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

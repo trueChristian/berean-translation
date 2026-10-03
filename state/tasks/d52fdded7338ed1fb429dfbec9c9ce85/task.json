@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 20266
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1072,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 906,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12784,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12781,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13856
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, section I.a, Romans 10:17 quotation",
-      "severity": "major",
-      "source_quote": "“So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.”",
-      "suggested_fix": "Change “मसीह के वचन से” to “परमेश्वर के वचन से” so the attribution matches the source.",
-      "translation_quote": "“सो विश्वास सुनने से, और सुनना मसीह के वचन से होता है –रोमियों 10:17।”"
-    },
-    {
-      "location": "HTML, section I.a, Hebrews 11:6 quotation",
-      "severity": "major",
-      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
-      "suggested_fix": "Include the omitted qualification in the translated quotation, for example: “विश्वास आशा की हुई वस्तुओं का निश्चय और अनदेखी (या प्रदर्शित न की गई) वस्तुओं का प्रमाण है।”",
-      "translation_quote": "“विश्वास आशा की हुई वस्तुओं का निश्चय, और अनदेखी वस्तुओं का प्रमाण है।”"
+      "location": "IV. Essence of True Worship, list item 2",
+      "severity": "minor",
+      "source_quote": "Casual –becoming so aloof to any form of worship that the One being worshiped becomes obscured by indifference.",
+      "suggested_fix": "Replace “लापरवाही” with “उदासीनता” here and in the corresponding later references, to convey aloofness and indifference rather than carelessness.",
+      "translation_quote": "लापरवाही –आराधना के हर रूप के प्रति इतने उदासीन हो जाना कि उदासीनता के कारण जिसकी आराधना हो रही है, वही ओझल हो जाता है।"
     }
   ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "d52fdded7338ed1fb429dfbec9c9ce85",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

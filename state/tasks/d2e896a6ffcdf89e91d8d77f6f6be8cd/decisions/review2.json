@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Section IV, paragraph on the woman at the well (John 4:22c)",
+      "severity": "major",
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "Replace «الخلاص من اليهود» with «الخلاص بيسوع» to preserve the source’s attribution of salvation to Jesus.",
+      "translation_quote": "«الخلاص من اليهود» (4:22ج)."
+    },
+    {
+      "location": "Opening historical overview, paragraph on the Reformation",
+      "severity": "major",
+      "source_quote": "“the church emerged from this long era of moral decay through Spirit-filled, Bible-based, New Covenant-focused preaching of the Anabaptist Revival during the Reformation time period.”",
+      "suggested_fix": "Replace «نهضة قائلِيَة المعمودية» with a clear rendering of “Anabaptist Revival,” such as «نهضة مُعيدي المعمودية», preserving the claim about the movement’s preaching.",
+      "translation_quote": "«كرازة نهضة قائلِيَة المعمودية، المملوءة بالروح والمستندة إلى الكتاب المقدس والمتمحورة حول العهد الجديد»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

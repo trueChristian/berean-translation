@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,47 @@
         },
         "total_tokens": 11824
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, “What the Bible Says About Food,” quotation of 1 Corinthians 3:16–17",
-      "severity": "major",
-      "source_quote": "“If any man defile the temple of God, him shall God destroy”",
-      "suggested_fix": "Replace “Se alguém destruir o templo de Deus, Deus o destruirá” with “Se alguém profanar o templo de Deus, Deus o destruirá” to preserve the distinction between defiling the temple and God destroying the person.",
-      "translation_quote": "“Se alguém destruir o templo de Deus, Deus o destruirá”"
     },
     {
-      "location": "source.html, “Vigorous exercise” section",
-      "severity": "major",
-      "source_quote": "“a body must burn 3500 calories to lose one pound”",
-      "suggested_fix": "Replace “perder meio quilo” with an equivalent of one pound, such as “perder cerca de 450 gramas,” preserving the amount stated in the source.",
-      "translation_quote": "“o corpo precisa queimar 3.500 calorias para perder meio quilo”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 254,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7817,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7814,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8071
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Corpo, parágrafo sobre a taxa metabólica basal",
+      "severity": "major",
+      "source_quote": "“They use height, weight, age, and gender to determine how many calories your body will burn in an average day.”",
+      "suggested_fix": "Trocar “sexo” por “gênero” para manter a distinção do original: “Elas usam altura, peso, idade e gênero para determinar quantas calorias seu corpo queimará em um dia comum.”",
+      "translation_quote": "“Elas usam altura, peso, idade e sexo para determinar quantas calorias seu corpo queimará em um dia comum.”"
+    },
+    {
+      "location": "Corpo, parágrafo sobre o objetivo do tratamento de peso",
+      "severity": "major",
+      "source_quote": "“The goal should never be simply to ‘take off ten pounds,’”",
+      "suggested_fix": "Corrigir a quantidade para refletir o original: “O objetivo nunca deve ser simplesmente ‘perder cerca de 4,5 quilos’, mas sim ter a melhor saúde possível.”",
+      "translation_quote": "“O objetivo nunca deve ser simplesmente ‘perder cinco quilos’, mas sim ter a melhor saúde possível.”"
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "39b753818a52840fbc6714070c850eaa",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "por",
@@ -172,13 +193,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

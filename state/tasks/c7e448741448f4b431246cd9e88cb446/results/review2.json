@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2857868a-36d4-40f7-a43a-84279c51df74",
+    "response_id": "chatcmpl-EUsN4H4BPJESVrayIrjdI7MGO55XR",
+    "usage": {
+      "completion_tokens": 67,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4195,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4192,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4262
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "عنوان",
+        "severity": "minor",
+        "source_quote": "“Do I need to tell?”",
+        "suggested_fix": "”کیا مجھے بتانا چاہیے؟“",
+        "translation_quote": "”کیا مجھے بتانا چاہیے؟“"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

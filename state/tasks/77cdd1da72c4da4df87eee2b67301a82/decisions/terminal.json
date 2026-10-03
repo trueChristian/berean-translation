@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "첫 문단",
+      "severity": "major",
+      "source_quote": "Our loved ones might have a terminal illness.",
+      "suggested_fix": "“사랑하는 사람이 말기 질환을 앓고 있을 수도 있습니다.”로 수정하세요.",
+      "translation_quote": "사랑하는 사람이 불치병에 걸렸을 수도 있습니다."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

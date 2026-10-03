@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bfa54578-286b-4682-9eed-f3a2b1e7fba3",
+    "response_id": "chatcmpl-EUsMQMxTCmgIU1Jx3EWMoP08K9f4Y",
+    "usage": {
+      "completion_tokens": 803,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 534,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11646,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11643,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12449
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section IV, paragraph on the woman at the well (John 4:22c)",
+        "severity": "major",
+        "source_quote": "“Salvation is of Jesus” (4:22c).",
+        "suggested_fix": "Replace «الخلاص من اليهود» with «الخلاص بيسوع» to preserve the source’s attribution of salvation to Jesus.",
+        "translation_quote": "«الخلاص من اليهود» (4:22ج)."
+      },
+      {
+        "location": "Opening historical overview, paragraph on the Reformation",
+        "severity": "major",
+        "source_quote": "“the church emerged from this long era of moral decay through Spirit-filled, Bible-based, New Covenant-focused preaching of the Anabaptist Revival during the Reformation time period.”",
+        "suggested_fix": "Replace «نهضة قائلِيَة المعمودية» with a clear rendering of “Anabaptist Revival,” such as «نهضة مُعيدي المعمودية», preserving the claim about the movement’s preaching.",
+        "translation_quote": "«كرازة نهضة قائلِيَة المعمودية، المملوءة بالروح والمستندة إلى الكتاب المقدس والمتمحورة حول العهد الجديد»"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

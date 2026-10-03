@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, абзац о расчёте базального обмена\",\"severity\":\"major\",\"source_quote\":\"“this is the number of calories you should consume to maintain your current body weight”\",\"suggested_fix\":\"Заменить «это количество калорий, которое нужно потреблять, чтобы поддерживать нынешний вес» на «это количество калорий, которое организм сжигает в состоянии покоя, а не рекомендуемое количество калорий для поддержания нынешнего веса».\",\"translation_quote\":\"«Важно знать, что это количество калорий, которое нужно потреблять, чтобы поддерживать нынешний вес»\"},{\"location\":\"html, абзац «Starvation is the only way to lose weight»\",\"severity\":\"major\",\"source_quote\":\"“there were no heavy-set people who came out of the concentration camps in World War II”\",\"suggested_fix\":\"Заменить фразу о том, что среди узников не было людей с избыточным весом, на точную передачу источника: «из концентрационных лагерей Второй мировой войны не вышло ни одного полного человека».\",\"translation_quote\":\"«среди узников концентрационных лагерей Второй мировой войны не было людей с избыточным весом»\"},{\"location\":\"html, заключительный абзац\",\"severity\":\"major\",\"source_quote\":\"“we will be prepared to meet whatever plan God has for our lives”\",\"suggested_fix\":\"Заменить «будем готовы следовать любому замыслу Бога о нашей жизни» на «будем готовы встретить любой замысел Бога для нашей жизни».\",\"translation_quote\":\"«будем готовы следовать любому замыслу Бога о нашей жизни»\"},{\"location\":\"html, абзац о калориях, сжигаемых при упражнениях\",\"severity\":\"minor\",\"source_quote\":\"“to lose one pound”\",\"suggested_fix\":\"Для русскоязычной ясности заменить «одного фунта» на «примерно 450 граммов (одного фунта)».\",\"translation_quote\":\"«для потери одного фунта»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2666,
+    "content_evidence_truncated": false,
+    "content_sha256": "e1731b5930fd2d6fc99c592ec7569877907cf47ea0c6fac64bcd94ee285e477f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 449,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8100,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8097,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8549
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

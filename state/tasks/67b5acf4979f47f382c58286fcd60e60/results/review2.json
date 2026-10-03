@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8a0b113c-8536-45ab-afa5-dc682597bcbb",
+    "response_id": "chatcmpl-EUsN7YJrqmc9a39pURRE8e4Qgi3VR",
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9352,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10156
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Un uomo semplice…”",
+        "severity": "major",
+        "source_quote": "A simple man walked up to a Christian concert holding a sign reading ‘Jesus saves from sin’. Without him ever saying a word, he was attacked.",
+        "suggested_fix": "Replace «Un uomo semplice si avvicinò» with «Un uomo comune si avvicinò»; replace «venne aggredito» with «fu aggredito verbalmente» to preserve the source’s non-specific attack without implying a physical assault.",
+        "translation_quote": "Un uomo semplice si avvicinò a un concerto cristiano tenendo in mano un cartello con scritto: «Gesù salva dal peccato». Senza che avesse detto una sola parola, venne aggredito."
+      },
+      {
+        "location": "HTML, paragraph beginning “Nel frattempo…”",
+        "severity": "major",
+        "source_quote": "This lady later told me what church she went to and how judgmental she thought that I had acted.",
+        "suggested_fix": "Replace «quanto mi avesse giudicato critico» with «quanto mi avesse considerato giudicante» or «quanto pensasse che mi fossi comportato in modo giudicante».",
+        "translation_quote": "In seguito, quella donna mi disse a quale chiesa andava e quanto mi avesse giudicato critico."
+      },
+      {
+        "location": "HTML, paragraph beginning “Quando discuteva…”",
+        "severity": "major",
+        "source_quote": "…If ye were Abraham’s children, ye would do the works of Abraham. But now ye seek to kill me, a man that hath told you the truth … Ye do the deeds of your father … Ye are of your father the devil… –John 8:39-44.",
+        "suggested_fix": "Correct the final quoted clause to «voi siete figli di vostro padre, il diavolo» (or an equivalent Italian rendering preserving the source’s parentage assertion); retain the reference Giovanni 8:39-44.",
+        "translation_quote": "…Se foste figli di Abraamo, fareste le opere di Abraamo. Ma ora cercate di uccidere me, un uomo che vi ha detto la verità… Voi fate le opere del padre vostro… Voi siete dal padre vostro, il diavolo… –Giovanni 8:39-44."
+      },
+      {
+        "location": "HTML, paragraph beginning “Gesù ci chiama ad amare…”",
+        "severity": "major",
+        "source_quote": "The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.",
+        "suggested_fix": "Replace «la chiesa americana chiama «eroismo» o «coraggio» il «difendere noi stessi», le nostre famiglie e il nostro paese» with wording that makes clear that the church calls defending ourselves, our families, and our country heroism or bravery, e.g. «La chiesa americana definisce eroico o coraggioso difendere noi stessi, le nostre famiglie e il nostro paese; la Bibbia lo chiama…»",
+        "translation_quote": "La chiesa americana chiama «eroismo» o «coraggio» il «difendere noi stessi», le nostre famiglie e il nostro paese; la Bibbia lo chiama."
+      },
+      {
+        "location": "HTML, paragraph beginning “È comune conformarsi…”",
+        "severity": "major",
+        "source_quote": "…come out from among them and be separate, to say “No” to evil communication and the ways of this world…",
+        "suggested_fix": "Replace «dire «No» alle comunicazioni malvagie» with «dire «No» alle cattive compagnie» or another idiomatic Italian rendering of evil communication.",
+        "translation_quote": "…dobbiamo uscire di mezzo a loro e separarci, dire «No» alle comunicazioni malvagie e alle vie di questo mondo…"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

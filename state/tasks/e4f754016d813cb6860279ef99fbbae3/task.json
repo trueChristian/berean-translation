@@ -2,7 +2,6 @@
   "article_id": "0678981b-d0f9-4c28-970e-2617f9543c9b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,61 @@
         },
         "total_tokens": 7930
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "अनुच्छेद 10",
-      "severity": "major",
-      "source_quote": "“The only one who can help you is God. And if you don’t want His help, there’s no hope for your marriage.”",
-      "suggested_fix": "“केवल परमेश्वर ही आपकी मदद कर सकता है। और अगर आप उसकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।” में “उसकी” को बहुवचन/सम्मानसूचक “उनकी” करें: “और अगर आप उनकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।”",
-      "translation_quote": "“केवल परमेश्वर ही आपकी मदद कर सकता है। और अगर आप उसकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।”"
     },
     {
-      "location": "अनुच्छेद 18",
-      "severity": "major",
-      "source_quote": "“My choice determines the reciprocating favor or loss.”",
-      "suggested_fix": "वाक्य को इस अर्थ में संशोधित करें कि चुनाव यह तय करता है कि बदले में पति का अनुग्रह/पक्ष मिलेगा या खो जाएगा; उदाहरण: “मेरी पसंद तय करती है कि बदले में मेरे पति का अनुग्रह मिलेगा या उसका नुकसान होगा।”",
-      "translation_quote": "“मेरी पसंद तय करती है कि बदले में मुझे अनुग्रह मिलेगा या नुकसान।”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 518,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5043,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5040,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5561
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “The husband talked”",
+      "severity": "major",
+      "source_quote": "“But I’ll forgive you all that,” promised the husband, “If you are willing to start over, be my wife, and be a mom to our children.”",
+      "suggested_fix": "Replace “अगर आप उनकी मदद नहीं चाहते” with “अगर आप उसकी मदद नहीं चाहते” (or another construction clearly referring to परमेश्वर), so the sentence does not say that the couple does not want the husband’s help.",
+      "translation_quote": "“और अगर आप उनकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।”"
+    },
+    {
+      "location": "Article body, paragraph beginning “David must have been smitten”",
+      "severity": "major",
+      "source_quote": "“I was doing it to the Lord, to the one who chose me to be king instead of your father.”",
+      "suggested_fix": "Replace “मैं यह यहोवा के लिए कर रहा था—उसके लिए जिसने तुम्हारे पिता के बजाय मुझे राजा चुना।” with “मैं यहोवा के सामने ऐसा कर रहा था—उसी के सामने जिसने तुम्हारे पिता के बजाय मुझे राजा चुना।” The source says David danced before the Lord, not that he was doing it for the Lord.",
+      "translation_quote": "[“मैं यह यहोवा के लिए कर रहा था—उसके लिए जिसने तुम्हारे पिता के बजाय मुझे राजा चुना।”]"
+    },
+    {
+      "location": "Article body, paragraph beginning “Every day I choose”",
+      "severity": "major",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Replace “मेरी पसंद तय करती है कि बदले में मुझे अपने पति का अनुग्रह मिलेगा या उसका नुकसान होगा।” with wording that preserves the source’s reciprocal outcome, for example: “मेरी पसंद तय करती है कि बदले में मेरे पति का अनुग्रह या हानि होगी।”",
+      "translation_quote": "“मेरी पसंद तय करती है कि बदले में मुझे अपने पति का अनुग्रह मिलेगा या उसका नुकसान होगा।”"
+    },
+    {
+      "location": "Article metadata, title",
+      "severity": "major",
+      "source_quote": "Dishonor and Loss",
+      "suggested_fix": "Use “अनादर और हानि” (or another Hindi rendering of “dishonor” that preserves the title’s reference to dishonoring someone); “अनादर” alone in the current title-area translation does not include the source’s “Loss.”",
+      "translation_quote": "अनादर और हानि"
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "e4f754016d813cb6860279ef99fbbae3",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -178,7 +213,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/337b0f85be679bd2862d74a2fd4fd6c0823bf7edba4d475821c72f925c77a031.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
   "translation_model_actual": "gpt-6-luna"

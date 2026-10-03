@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "620c07b3-6e3b-4c40-a6ea-b9fc8523eadd",
+    "response_id": "chatcmpl-EUsNG0ABsPUzuWDYK9t8b4KKql5ii",
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2368,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2982
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, third stanza, second line of the poem",
+        "severity": "major",
+        "source_quote": "All would have escaped this pain.",
+        "suggested_fix": "Sostituisci la riga con: «Tutti sarebbero sfuggiti a questo dolore.»",
+        "translation_quote": "tutti avrebbero voluto sfuggire a questo dolore."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

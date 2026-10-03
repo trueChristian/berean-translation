@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6b93fe1c-fc97-4f9c-a594-c066736d7832",
+    "response_id": "chatcmpl-EUsMvlovU8dJAqx8UyA52025Gb6wa",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3886,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3883,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4125
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة التي يبدأ نصها بـ«وما إن خرجت الفتاتان...»",
+        "severity": "major",
+        "source_quote": "“I’m going to tell Mom that you broke the oar.”",
+        "suggested_fix": "استبدلي «سأخبر أمي بأنكما كسرتما المجداف» بـ«سأخبر أمي بأنكِ كسرتِ المجداف»؛ فالإنجليزية تنسب كسر المجداف إلى ميليسا وحدها، لا إلى الفتاتين.",
+        "translation_quote": "سأخبر أمي بأنكما كسرتما المجداف."
+      },
+      {
+        "location": "الفقرة التي يبدأ نصها بـ«وما إن خرجت الفتاتان...»",
+        "severity": "major",
+        "source_quote": "“You broke the oar.”",
+        "suggested_fix": "استبدلي «كسرتما المجداف» بـ«كسرتِ المجداف»، إذ يواجه الأخ ميليسا بشأن فعلها هي، كما يوضح النص صراحةً.",
+        "translation_quote": "كسرتما المجداف."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

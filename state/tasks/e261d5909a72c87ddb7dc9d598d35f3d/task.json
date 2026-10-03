@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,61 @@
         },
         "total_tokens": 12498
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, цитата 1 Коринфянам 6:19–20",
-      "severity": "major",
-      "source_quote": "“therefore glorify God in your body, and in your spirit, which are God’s”",
-      "suggested_fix": "Заменить «и в душах ваших» на «и в духе вашем», сохранив остальную структуру цитаты и ссылку.",
-      "translation_quote": "«Посему прославляйте Бога и в телах ваших, и в душах ваших, которые суть Божии»"
     },
     {
-      "location": "source.html, цитата 1 Коринфянам 3:16–17",
-      "severity": "major",
-      "source_quote": "“If any man defile the temple of God, him shall God destroy”",
-      "suggested_fix": "Заменить «того покарает Бог» на «того уничтожит Бог» (или равноценную формулировку, передающую именно уничтожение), сохранив остальную структуру цитаты и ссылку.",
-      "translation_quote": "«Если кто разорит храм Божий, того покарает Бог»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 449,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8100,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8097,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8549
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "html, абзац о расчёте базального обмена",
+      "severity": "major",
+      "source_quote": "“this is the number of calories you should consume to maintain your current body weight”",
+      "suggested_fix": "Заменить «это количество калорий, которое нужно потреблять, чтобы поддерживать нынешний вес» на «это количество калорий, которое организм сжигает в состоянии покоя, а не рекомендуемое количество калорий для поддержания нынешнего веса».",
+      "translation_quote": "«Важно знать, что это количество калорий, которое нужно потреблять, чтобы поддерживать нынешний вес»"
+    },
+    {
+      "location": "html, абзац «Starvation is the only way to lose weight»",
+      "severity": "major",
+      "source_quote": "“there were no heavy-set people who came out of the concentration camps in World War II”",
+      "suggested_fix": "Заменить фразу о том, что среди узников не было людей с избыточным весом, на точную передачу источника: «из концентрационных лагерей Второй мировой войны не вышло ни одного полного человека».",
+      "translation_quote": "«среди узников концентрационных лагерей Второй мировой войны не было людей с избыточным весом»"
+    },
+    {
+      "location": "html, заключительный абзац",
+      "severity": "major",
+      "source_quote": "“we will be prepared to meet whatever plan God has for our lives”",
+      "suggested_fix": "Заменить «будем готовы следовать любому замыслу Бога о нашей жизни» на «будем готовы встретить любой замысел Бога для нашей жизни».",
+      "translation_quote": "«будем готовы следовать любому замыслу Бога о нашей жизни»"
+    },
+    {
+      "location": "html, абзац о калориях, сжигаемых при упражнениях",
+      "severity": "minor",
+      "source_quote": "“to lose one pound”",
+      "suggested_fix": "Для русскоязычной ясности заменить «одного фунта» на «примерно 450 граммов (одного фунта)».",
+      "translation_quote": "«для потери одного фунта»"
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "e261d5909a72c87ddb7dc9d598d35f3d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -172,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

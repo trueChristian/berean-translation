@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "সম্পাদকের নোট, প্রথম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“para-church events (such as concerts, seminars, Bible Schools, etc.)”",
+      "suggested_fix": "“প্যারা-চার্চের অনুষ্ঠানগুলোতে (যেমন কনসার্ট, সেমিনার, বাইবেল স্কুল ইত্যাদি)”",
+      "translation_quote": "“পাড়া-গির্জার অনুষ্ঠানগুলোতে (যেমন কনসার্ট, সেমিনার, বাইবেল স্কুল ইত্যাদি)”"
+    },
+    {
+      "location": "IV. Essence of True Worship, কুয়ার কাছে নারীর পূর্বপুরুষদের উপাসনা সম্পর্কে অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "“পরিত্রাণ যিশুর কাছ থেকে আসে” (৪:২২গ)।",
+      "translation_quote": "“পরিত্রাণ ইহুদিদের কাছ থেকে আসে” (৪:২২গ)।"
+    },
+    {
+      "location": "III. Patterns of True Worship > a. Prayer, প্রাথমিক গির্জার প্রার্থনা সম্পর্কে অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“and the first ordination (Acts 1:24).”",
+      "suggested_fix": "“এবং প্রথম পদে নিয়োগের সময়ও হয়েছিল (প্রেরিত ১:২৪)।”",
+      "translation_quote": "“এবং প্রথম অভিষেকের সময়ও হয়েছিল (প্রেরিত ১:২৪)।”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

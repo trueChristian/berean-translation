@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, opening paragraph (Psalm 62:7 quotation)\",\"severity\":\"minor\",\"source_quote\":\"“the rock of my strength”\",\"suggested_fix\":\"В переводе этой фразы добавьте образ скалы, например: «скала силы моей»; сохраните остальную структуру и пунктуацию цитаты.\",\"translation_quote\":\"«крепость силы моей»\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 480,
+    "content_evidence_truncated": false,
+    "content_sha256": "d520c61304f875e8dcc35d8a5513b7cdb300597dc0f30ff0f5a07c5bf5a202ff",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 551,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 444,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4747,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5301
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

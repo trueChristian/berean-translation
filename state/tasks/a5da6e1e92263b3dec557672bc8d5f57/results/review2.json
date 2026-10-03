@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "00d90ce0-e657-4846-ba64-3d29e485d846",
+    "response_id": "chatcmpl-EUsMj1tZfgUwqi1u88Y4iAONAzShA",
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 804,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8701,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8698,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9666
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Body, quotation of John 8:43–47",
+        "severity": "major",
+        "source_quote": "“Ye are of your father the devil, and the lusts of your father ye will do …”",
+        "suggested_fix": "Change “और अपने पिता की लालसाओं को पूरा करना चाहते हो” to “और अपने पिता की लालसाओं को पूरा करोगे” to preserve the source’s assertion about what they will do, rather than changing it to what they want to do.",
+        "translation_quote": "“तुम अपने पिता शैतान से हो, और अपने पिता की लालसाओं को पूरा करना चाहते हो…”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

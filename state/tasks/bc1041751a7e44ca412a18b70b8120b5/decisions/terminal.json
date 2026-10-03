@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Religiöst drama – avsnittet om Romarbrevet 10:17",
+      "severity": "major",
+      "source_quote": "“So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.”",
+      "suggested_fix": "Ändra citatet till: <em>Alltså kommer tron av att höra, och hörandet genom Guds ord –Romarbrevet 10:17.</em>",
+      "translation_quote": "<em>Alltså kommer tron av predikan, och predikan i kraft av Kristi ord –Romarbrevet 10:17.</em>"
+    },
+    {
+      "location": "III. Mönster för sann tillbedjan – Predikan, citatet från Markusevangeliet 1:14",
+      "severity": "major",
+      "source_quote": "“…[He] came into Galilee, preaching the gospel of the kingdom of God –Mark 1:14.”",
+      "suggested_fix": "Ändra citatet till: <em>…[han] kom till Galileen och predikade evangeliet om Guds rike –Markusevangeliet 1:14.</em>",
+      "translation_quote": "<em>…kom [han] till Galileen och predikade Guds evangelium –Markusevangeliet 1:14.</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

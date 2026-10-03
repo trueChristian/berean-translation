@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c0443b2e-0b9f-45ab-bb31-18513288ada7",
+    "response_id": "chatcmpl-EUsMQtsOtjadj1z3zeTd7YzU66Z2H",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 626,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3830,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4685
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Romans 8:28 quotation",
+        "severity": "major",
+        "source_quote": "“to them who are the called according to his purpose”",
+        "suggested_fix": "Ändra till exempelvis: ”dem som är kallade enligt hans syfte” eller ”dem som han har kallat enligt sin avsikt”.",
+        "translation_quote": "”dem som är kallade efter hans beslut”"
+      },
+      {
+        "location": "Uppenbarelseboken 21:2",
+        "severity": "minor",
+        "source_quote": "“And I John saw the holy city, new Jerusalem, coming down from God out of heaven”",
+        "suggested_fix": "Återge även berättarens markering, till exempel: ”Och jag, Johannes, såg den heliga staden, det nya Jerusalem, komma ner från Gud, från himlen …”",
+        "translation_quote": "”Och jag såg den heliga staden, det nya Jerusalem, komma ner från himlen, från Gud”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

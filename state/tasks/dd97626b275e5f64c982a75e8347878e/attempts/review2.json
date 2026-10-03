@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Diktens sjätte strof\",\"severity\":\"minor\",\"source_quote\":\"Making everything open to Your view.\",\"suggested_fix\":\"Ändra till exempel till: ”och lägga allt öppet inför din blick.”\",\"translation_quote\":\"och göra allt öppet för din blick.\"},{\"location\":\"Diktens sjunde strof\",\"severity\":\"minor\",\"source_quote\":\"It’s a jewel that nothing but trials can teach.\",\"suggested_fix\":\"Ändra till exempel till: ”Det är en juvel som bara prövningar kan lära oss att uppskatta.”\",\"translation_quote\":\"Det är en juvel som endast prövningar kan lära oss.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 616,
+    "content_evidence_truncated": false,
+    "content_sha256": "027d9842a6d65dbdea7aa5aae36903e9683d57b28c5241738045a42aa49e231c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 816,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 646,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2373,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3192
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

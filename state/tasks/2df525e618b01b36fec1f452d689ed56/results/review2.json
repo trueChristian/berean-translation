@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "88d78847-85e1-4112-a683-ebb67ba9cc67",
+    "response_id": "chatcmpl-EUsMjE53d2AGt3Y4lSqCd6WlISpZb",
+    "usage": {
+      "completion_tokens": 449,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3716,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4168
+    }
+  },
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Canto, estribillo, primera línea",
+        "severity": "major",
+        "source_quote": "Till the storm passes over",
+        "suggested_fix": "Sustituir «pase» por «pase por encima» o una formulación idiomática que conserve la idea de que la tormenta pasa sobre quien canta; por ejemplo: «Hasta que la tormenta pase sobre mí».",
+        "translation_quote": "Hasta que pase la tormenta"
+      },
+      {
+        "location": "Canto, segunda estrofa, primera línea",
+        "severity": "major",
+        "source_quote": "“there’s no hope by and by”",
+        "suggested_fix": "Traducir la idea de que no habrá esperanza más adelante, por ejemplo: «no habrá esperanza en el porvenir».",
+        "translation_quote": "«no habrá esperanza en el futuro»"
+      },
+      {
+        "location": "Canto, tercera estrofa, primera línea",
+        "severity": "major",
+        "source_quote": "When the long night has ended and the storms come no more",
+        "suggested_fix": "Conservar que las tormentas ya no volverán, por ejemplo: «Cuando termine la larga noche y ya no vuelvan las tormentas».",
+        "translation_quote": "Cuando haya terminado la larga noche y ya no vengan tormentas"
+      },
+      {
+        "location": "Cita bíblica, Apocalipsis 21:1-4",
+        "severity": "major",
+        "source_quote": "“And God shall wipe away all tears from their eyes”",
+        "suggested_fix": "Corregir el error tipográfico y mantener el plural del original: «Y Dios enjugará todas las lágrimas de sus ojos».",
+        "translation_quote": "Y Dios enjugará toda lágrágrima de sus ojos"
+      },
+      {
+        "location": "Cita bíblica, Apocalipsis 21:1-4",
+        "severity": "minor",
+        "source_quote": "“neither sorrow, nor crying”",
+        "suggested_fix": "Traducir «sorrow» como «tristeza» o «pena», no como «tristeza» si se desea evitar pérdida de distinción con «crying»; una opción es «ni pena, ni llanto».",
+        "translation_quote": "ni tristeza, ni llanto"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

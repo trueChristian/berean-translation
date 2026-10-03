@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cc5eec5e-c1e1-4229-a6b8-6bc221cd1657",
+    "response_id": "chatcmpl-EUsMuhlvJBVV8OUEJ8ytxaASL9wB0",
+    "usage": {
+      "completion_tokens": 679,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11391,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12073
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Non-conformity section, paragraph beginning «Είναι συνηθισμένο να συμμορφώνεται κανείς…»",
+        "severity": "major",
+        "source_quote": "to say “No” to evil communication and the ways of this world",
+        "suggested_fix": "Αντικαταστήστε το «στην κακή επικοινωνία» με το «στις κακές συναναστροφές», ώστε να αποδίδεται η έννοια της επιζήμιας συναναστροφής, όχι της κακής επικοινωνίας.",
+        "translation_quote": "να πούμε «Όχι» στην κακή επικοινωνία και στους τρόπους αυτού του κόσμου"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

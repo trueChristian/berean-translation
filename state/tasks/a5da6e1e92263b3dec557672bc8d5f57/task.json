@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 13558
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 965,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 804,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8701,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8698,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9666
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Our Unique Personality, paragraph beginning “Those disinterested in mathematics…”",
+      "location": "Body, quotation of John 8:43–47",
       "severity": "major",
-      "source_quote": "“without the innate quickening of the Spirit”",
-      "suggested_fix": "“पवित्र आत्मा की सहज जागृति के बिना”",
-      "translation_quote": "“आत्मा की सहज जागृति के बिना”"
+      "source_quote": "“Ye are of your father the devil, and the lusts of your father ye will do …”",
+      "suggested_fix": "Change “और अपने पिता की लालसाओं को पूरा करना चाहते हो” to “और अपने पिता की लालसाओं को पूरा करोगे” to preserve the source’s assertion about what they will do, rather than changing it to what they want to do.",
+      "translation_quote": "“तुम अपने पिता शैतान से हो, और अपने पिता की लालसाओं को पूरा करना चाहते हो…”"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "a5da6e1e92263b3dec557672bc8d5f57",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

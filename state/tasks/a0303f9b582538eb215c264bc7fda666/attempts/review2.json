@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"پہلا پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"Our loved ones might have a terminal illness.\",\"suggested_fix\":\"ہمارے پیاروں کو آخری مرحلے کی بیماری ہو سکتی ہے۔\",\"translation_quote\":\"ہمارے پیاروں کو لاعلاج بیماری ہو سکتی ہے۔\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 366,
+    "content_evidence_truncated": false,
+    "content_sha256": "fa62853f7cf7ed79563d7c59917c3a2553ba136c7c9a98fe64dae597e838cbc5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 777,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4132,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4129,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5008
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

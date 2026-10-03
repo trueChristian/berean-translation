@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “We sat with sagging hearts”",
+      "severity": "minor",
+      "source_quote": "We sat with sagging hearts, listening, praying, thinking.",
+      "suggested_fix": "Replace “mioyo yetu ikiwa imelegea” with “tukiwa na mioyo mizito” to convey the sorrow and discouragement more idiomatically.",
+      "translation_quote": "Tuliketi mioyo yetu ikiwa imelegea, tukisikiliza, tukiomba, tukifikiria."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

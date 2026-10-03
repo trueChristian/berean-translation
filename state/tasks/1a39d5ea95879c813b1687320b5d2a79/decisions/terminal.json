@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final Scripture quotation, Romans 1:16",
+      "severity": "major",
+      "source_quote": "for it is the power of God unto salvation to every one that believeth",
+      "suggested_fix": "Replace «Det er en Guds kraft til frelse» with «Det er Guds kraft til frelse», preserving the rest of the quotation and its HTML structure.",
+      "translation_quote": "Det er en Guds kraft til frelse for hver den som tror"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

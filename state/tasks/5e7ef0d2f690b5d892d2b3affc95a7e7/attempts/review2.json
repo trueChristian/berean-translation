@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"샌드위치 가게에서 젊은 남자와 나누는 대화\",\"severity\":\"minor\",\"source_quote\":\"He got sober and explained that he wanted to believe in God but couldn’t.\",\"suggested_fix\":\"“그는 진지해지더니 하나님을 믿고 싶지만 그럴 수 없다고 설명했습니다.”\",\"translation_quote\":\"그는 차분해지더니 하나님을 믿고 싶지만 믿을 수 없다고 설명했습니다.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 466,
+    "content_evidence_truncated": false,
+    "content_sha256": "77d24fd7a3fc4e760a213e57b4ee6776642240c1ef699e3a5f84d98fdcb968b2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 665,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9943,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9940,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10740
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

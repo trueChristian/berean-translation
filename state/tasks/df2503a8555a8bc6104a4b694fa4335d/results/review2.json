@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d505d229-9f2c-4c34-b802-4f1d4e70474f",
+    "response_id": "chatcmpl-EUsN7wQiUM2Y6ZUMfHZCD3CoeUzo7",
+    "usage": {
+      "completion_tokens": 781,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 452,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4610,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4607,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5391
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “But she beat him to the subject”",
+        "severity": "major",
+        "source_quote": "“I mean, jumping around like that in front of the maidens, just like a vain fellow from off the streets!”",
+        "suggested_fix": "Vertaal “a vain fellow” als bijvoorbeeld “een ijdele kerel”; vervang alleen “een nietsnut van de straat” door een formulering die ijdelheid weergeeft.",
+        "translation_quote": "[‘Ik bedoel: zo rondspringen voor de dienstmeisjes, net als een nietsnut van de straat!’]"
+      },
+      {
+        "location": "HTML, paragraph beginning “Every day I choose to honor or dishonor”",
+        "severity": "minor",
+        "source_quote": "“My choice determines the reciprocating favor or loss.”",
+        "suggested_fix": "Vervang “wederkerige genegenheid” door een formulering die wederkerige gunst of waardering weergeeft, bijvoorbeeld “wederkerige waardering of verlies”.",
+        "translation_quote": "“Mijn keuze bepaalt of ik wederkerige genegenheid ontvang of verlies.”"
+      },
+      {
+        "location": "HTML, paragraph beginning “At dusk that evening”",
+        "severity": "minor",
+        "source_quote": "“An overweight man with grease-covered clothes”",
+        "suggested_fix": "Vervang “kleren onder het vet” door “met vet besmeurde kleren”.",
+        "translation_quote": "“Een zwaarlijvige man met kleren onder het vet”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

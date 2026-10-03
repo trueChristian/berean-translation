@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "84cad14e-3c90-4e60-b56f-5cde7bc15f5e",
+    "response_id": "chatcmpl-EUsMQi20r5T3RBDQhzptNBAI3Gcvd",
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 761,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4958,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4955,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5851
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “We sat with sagging hearts”",
+        "severity": "minor",
+        "source_quote": "We sat with sagging hearts, listening, praying, thinking.",
+        "suggested_fix": "Replace “mioyo yetu ikiwa imelegea” with “tukiwa na mioyo mizito” to convey the sorrow and discouragement more idiomatically.",
+        "translation_quote": "Tuliketi mioyo yetu ikiwa imelegea, tukisikiliza, tukiomba, tukifikiria."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

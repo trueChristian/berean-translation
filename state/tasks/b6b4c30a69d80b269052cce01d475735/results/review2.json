@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "79a9c4ae-09f2-4fca-a41b-7e3371524488",
+    "response_id": "chatcmpl-EUsMZj2o4TmG0FbCw59SIBfumJ7hH",
+    "usage": {
+      "completion_tokens": 416,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8221,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8218,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8637
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraphe sur les calories brûlées par l’exercice",
+        "severity": "major",
+        "source_quote": "“the body must burn 3500 calories to lose one pound”",
+        "suggested_fix": "Remplacer « 3 500 calories pour perdre une livre » par « 3 500 calories pour perdre une livre (environ 450 g) » ou par une conversion équivalente en kilogrammes, afin de conserver la mesure source sans la confondre avec une valeur métrique.",
+        "translation_quote": "« le corps doit brûler 3 500 calories pour perdre une livre »"
+      },
+      {
+        "location": "HTML, exemple du petit-déjeuner remplacé par de l’eau et des flocons d’avoine",
+        "severity": "major",
+        "source_quote": "“you will probably lose weight”",
+        "suggested_fix": "Remplacer « vous perdrez probablement du poids » par « vous perdrez probablement du poids à terme » ou « vous aurez probablement tendance à perdre du poids », pour restituer la probabilité plutôt qu’une certitude.",
+        "translation_quote": "« vous perdrez probablement du poids »"
+      },
+      {
+        "location": "HTML, citation d’Ecclésiaste 2:24",
+        "severity": "minor",
+        "source_quote": "“that he should make his soul enjoy good in his labour”",
+        "suggested_fix": "Remplacer « que son âme jouisse du bien dans son travail » par une formulation française plus idiomatique qui conserve l’idée de jouir du fruit de son travail.",
+        "translation_quote": "« que son âme jouisse du bien dans son travail »"
+      },
+      {
+        "location": "HTML, citation d’Actes 15:20",
+        "severity": "major",
+        "source_quote": "“from things strangled”",
+        "suggested_fix": "Remplacer « des animaux étouffés » par « des animaux étranglés » ou « de ce qui a été étranglé », conformément au sens de la citation source.",
+        "translation_quote": "« des animaux étouffés »"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

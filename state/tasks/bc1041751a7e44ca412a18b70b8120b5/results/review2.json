@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c7044e5d-9405-473e-bebe-abd89acdaf9d",
+    "response_id": "chatcmpl-EUsMjsyBqMGjf0UHTiqZspN37tRlK",
+    "usage": {
+      "completion_tokens": 950,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 642,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12029,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12982
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Religiöst drama – avsnittet om Romarbrevet 10:17",
+        "severity": "major",
+        "source_quote": "“So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.”",
+        "suggested_fix": "Ändra citatet till: <em>Alltså kommer tron av att höra, och hörandet genom Guds ord –Romarbrevet 10:17.</em>",
+        "translation_quote": "<em>Alltså kommer tron av predikan, och predikan i kraft av Kristi ord –Romarbrevet 10:17.</em>"
+      },
+      {
+        "location": "III. Mönster för sann tillbedjan – Predikan, citatet från Markusevangeliet 1:14",
+        "severity": "major",
+        "source_quote": "“…[He] came into Galilee, preaching the gospel of the kingdom of God –Mark 1:14.”",
+        "suggested_fix": "Ändra citatet till: <em>…[han] kom till Galileen och predikade evangeliet om Guds rike –Markusevangeliet 1:14.</em>",
+        "translation_quote": "<em>…kom [han] till Galileen och predikade Guds evangelium –Markusevangeliet 1:14.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

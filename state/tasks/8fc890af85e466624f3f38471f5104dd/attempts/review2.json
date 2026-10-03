@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Kutipan Yohanes 12:29\",\"severity\":\"major\",\"source_quote\":\"The people therefore, that stood by, and heard it, said that it thundered: others said, An angel spake to him\",\"suggested_fix\":\"Ganti kutipan dengan: “Orang banyak yang berdiri di situ dan mendengarnya berkata bahwa itu bunyi guruh; yang lain berkata, ‘Seorang malaikat berbicara kepada-Nya’”.\",\"translation_quote\":\"Orang banyak yang berdiri di situ dan mendengarnya berkata bahwa itu bunyi guruh; ada pula yang berkata: “Seorang malaikat telah berbicara dengan Dia”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 592,
+    "content_evidence_truncated": false,
+    "content_sha256": "f197692ab5c7af0c52a890a09a9b809a39aee10f7217f875ad91684b7e530d16",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 158,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8304,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8465
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

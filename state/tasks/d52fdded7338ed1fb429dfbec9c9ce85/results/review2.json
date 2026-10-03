@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9d96c6f1-2c64-4ed5-a00f-aab3b1df259c",
+    "response_id": "chatcmpl-EUsMvwaGQ7bKDMjzmUQ1A4HFAXE7v",
+    "usage": {
+      "completion_tokens": 1072,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 906,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12784,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12781,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13856
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "IV. Essence of True Worship, list item 2",
+        "severity": "minor",
+        "source_quote": "Casual –becoming so aloof to any form of worship that the One being worshiped becomes obscured by indifference.",
+        "suggested_fix": "Replace “लापरवाही” with “उदासीनता” here and in the corresponding later references, to convey aloofness and indifference rather than carelessness.",
+        "translation_quote": "लापरवाही –आराधना के हर रूप के प्रति इतने उदासीन हो जाना कि उदासीनता के कारण जिसकी आराधना हो रही है, वही ओझल हो जाता है।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

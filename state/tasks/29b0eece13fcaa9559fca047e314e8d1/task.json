@@ -2,7 +2,6 @@
   "article_id": "0678981b-d0f9-4c28-970e-2617f9543c9b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 8083
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 688,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 656,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5097,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5094,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5785
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "title",
-      "severity": "major",
-      "source_quote": "Dishonor and Loss",
-      "suggested_fix": "불경과 상실을 남편을 존중하지 않음과 상실 등으로 수정해, 남편에게 마땅한 존중을 보이지 않는다는 제목의 의미를 살리세요.",
-      "translation_quote": "불경과 상실"
-    },
-    {
-      "location": "본문: 미갈에 관한 단락부터 결론까지",
-      "severity": "major",
-      "source_quote": "“I know I am low in your esteem,” ... “but those maidens you mentioned, they esteem me.” / “All wives are tempted to dishonor their husbands.” / “Every day I choose to honor or dishonor the husband God gave me.”",
-      "suggested_fix": "해당 구절의 ‘업신여기다’를 ‘존중하지 않다’ 또는 ‘존중을 저버리다’로 바로잡으세요. 예: ‘모든 아내는 남편을 존중하지 않으려는 유혹을 받습니다.’ 마지막 단락에서도 honor/dishonor의 대비를 같은 표현으로 일관되게 살리세요.",
-      "translation_quote": "“나는 당신 눈에 하찮은 사람인 줄 알고 있소,” ... “하지만 당신이 말한 그 아가씨들은 나를 존중하오.” / “모든 아내는 남편을 업신여기려는 유혹을 받습니다.” / “나는 매일 하나님께서 내게 주신 남편을 존중할지 업신여길지 선택합니다.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "29b0eece13fcaa9559fca047e314e8d1",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/337b0f85be679bd2862d74a2fd4fd6c0823bf7edba4d475821c72f925c77a031.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
   "translation_model_actual": "gpt-6-luna"

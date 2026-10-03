@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "शीर्षक: “Reasons People Gain Weight” के नीचे वाला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "“We call the number of calories our bodies burn while at rest, the body’s metabolic rate.”",
+      "suggested_fix": "अनुवाद को इस अर्थ में बदलें कि आराम की अवस्था में शरीर जितनी कैलोरी जलाता है, उसे शरीर की चयापचय दर कहा जाता है; उदाहरण के लिए, “आराम की अवस्था में हमारा शरीर जितनी कैलोरी जलाता है, उसे शरीर की चयापचय दर कहते हैं।”",
+      "translation_quote": "“आराम करते समय हमारा शरीर जितनी कैलोरी जलाता है, उसे हम शरीर की चयापचय दर कहते हैं।”"
+    },
+    {
+      "location": "“वज़न घटाने के बारे में भ्रांतियाँ…” के अंतर्गत उपशीर्षक “...वज़न घटाने का एकमात्र तरीका भूखे रहना है।” और उसके बाद का अनुच्छेद",
+      "severity": "major",
+      "source_quote": "“there were no heavy-set people who came out of the concentration camps in World War II.”",
+      "suggested_fix": "“द्वितीय विश्व युद्ध के यातना शिविरों से बाहर आए लोगों में कोई भी भारी-भरकम नहीं था।” के अर्थ में अनुवाद करें।",
+      "translation_quote": "“द्वितीय विश्व युद्ध में यातना शिविरों से कोई भी भारी-भरकम व्यक्ति बाहर नहीं आया था।”"
+    },
+    {
+      "location": "शीर्षक: “Weight Loss”",
+      "severity": "minor",
+      "source_quote": "“Weight Loss”",
+      "suggested_fix": "शीर्षक को “वज़न घटाना” या “वज़न में कमी” करें, ताकि अंग्रेज़ी स्रोत शीर्षक का अर्थ स्वाभाविक हिंदी में व्यक्त हो।",
+      "translation_quote": "“वज़न घटाना”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

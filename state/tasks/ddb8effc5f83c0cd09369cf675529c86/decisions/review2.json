@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Alikuwa kwenye njia panda, katika maisha yake yote.",
+      "translation_quote": "Alikuwa njia panda, akitazama maisha yake yote."
+    },
+    {
+      "location": "Poem, thirteenth stanza",
+      "severity": "major",
+      "source_quote": "The fact of the matter, it’s confidence I lack.",
+      "suggested_fix": "Ukweli ni kwamba, ninakosa kujiamini.",
+      "translation_quote": "Ukweli ni kwamba, ninakosa imani."
+    },
+    {
+      "location": "Poem, tenth stanza",
+      "severity": "minor",
+      "source_quote": "I even helped the neighbor, just the other day!",
+      "suggested_fix": "Hata nilimsaidia jirani, siku nyingine hivi karibuni!",
+      "translation_quote": "Hata nilimsaidia jirani, siku chache tu zilizopita!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

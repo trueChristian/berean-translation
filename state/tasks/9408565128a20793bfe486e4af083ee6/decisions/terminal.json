@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafen som börjar ”Varje dag väljer jag …”",
+      "severity": "minor",
+      "source_quote": "My choice determines the reciprocating favor or loss.",
+      "suggested_fix": "Ändra meningen till: ”Mitt val avgör om jag får gensvar och uppskattning eller går miste om det.”",
+      "translation_quote": "Mitt val avgör om jag får gensvar eller går miste om det."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Diktens sjätte strof",
+      "severity": "minor",
+      "source_quote": "Making everything open to Your view.",
+      "suggested_fix": "Ändra till exempel till: ”och lägga allt öppet inför din blick.”",
+      "translation_quote": "och göra allt öppet för din blick."
+    },
+    {
+      "location": "Diktens sjunde strof",
+      "severity": "minor",
+      "source_quote": "It’s a jewel that nothing but trials can teach.",
+      "suggested_fix": "Ändra till exempel till: ”Det är en juvel som bara prövningar kan lära oss att uppskatta.”",
+      "translation_quote": "Det är en juvel som endast prövningar kan lära oss."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "158baf70-9aa7-485a-ac2c-c864b9f1437a",
+    "response_id": "chatcmpl-EUsMi1DzemzV3vgJr0rGpqgeGVSB5",
+    "usage": {
+      "completion_tokens": 958,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 710,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1818,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1815,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2776
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, paragraph 4",
+        "severity": "minor",
+        "source_quote": "He was at the crossroads, all his life as a whole.",
+        "suggested_fix": "Hij stond op een kruispunt, met zijn hele leven op het spel.",
+        "translation_quote": "Hij stond op een kruispunt, met heel zijn leven voor ogen."
+      },
+      {
+        "location": "HTML, poem, paragraph 8",
+        "severity": "minor",
+        "source_quote": "I’ve lived like most others, as my life plays back.",
+        "suggested_fix": "Ik heb geleefd zoals de meeste anderen, als ik op mijn leven terugkijk.",
+        "translation_quote": "Ik heb geleefd zoals de meeste anderen, als ik mijn leven terugblik."
+      },
+      {
+        "location": "HTML, poem, paragraph 16",
+        "severity": "minor",
+        "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+        "suggested_fix": "Hij wil dat ik beproefd word; Hij is het Leven en de Weg.",
+        "translation_quote": "Hij wil dat ik bewezen word; Hij is het Leven en de Weg."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

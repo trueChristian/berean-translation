@@ -2,7 +2,6 @@
   "article_id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,46 +64,39 @@
         },
         "total_tokens": 3463
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 513,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 424,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1937,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1934,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2450
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html, poem stanza 1, line 2",
-      "severity": "major",
+      "location": "HTML, poem, first stanza, second line",
+      "severity": "minor",
       "source_quote": "Minute degrees observed as nil.",
-      "suggested_fix": "Vervang door een vertaling die de betekenis behoudt dat de kleine stapjes als niets opgemerkt worden, bijvoorbeeld: “Kleine stapjes, als niets opgemerkt.”",
-      "translation_quote": "Kleine stapjes, nauwelijks opgemerkt."
-    },
-    {
-      "location": "source.html, poem stanza 2, line 3",
-      "severity": "major",
-      "source_quote": "We’ve failed the earthly honor roll,",
-      "suggested_fix": "Behoud de betekenis van niet op de erelijst van de aarde staan, bijvoorbeeld: “We hebben de erelijst van de aarde niet gehaald,”",
-      "translation_quote": "We haalden geen plaats op de erelijst van de wereld,"
-    },
-    {
-      "location": "source.html, poem stanza 3, line 2",
-      "severity": "major",
-      "source_quote": "They barter truth for empty thrill.",
-      "suggested_fix": "Vertaal “thrill” hier als een lege sensatie of opwinding, bijvoorbeeld: “Ze ruilen waarheid in voor een lege sensatie.”",
-      "translation_quote": "Ze ruilen de waarheid in voor een lege kick."
-    },
-    {
-      "location": "source.html, poem stanza 3, line 4",
-      "severity": "major",
-      "source_quote": "Achieving not God’s blessed will.",
-      "suggested_fix": "Behoud dat zij Gods gezegende wil niet volbrengen, bijvoorbeeld: “En volbrengen Gods gezegende wil niet.”",
-      "translation_quote": "En Gods gezegende wil niet volbrengt."
-    },
-    {
-      "location": "source.html, poem stanza 4, line 5",
-      "severity": "major",
-      "source_quote": "He who wins is he who hears...",
-      "suggested_fix": "Vertaal “wins” als winnen en vermijd de betekenisverschuiving naar overwinnen, bijvoorbeeld: “Wie wint, is wie luistert...”",
-      "translation_quote": "Wie overwint, is wie luistert..."
+      "suggested_fix": "Vervang door: \"Kleine stapjes die nauwelijks worden opgemerkt.\"",
+      "translation_quote": "Kleine stapjes, als niets waargenomen."
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "86210f622c04972ce5af8ad453bffb0e",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nld",
@@ -193,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3cb89a87a9aa0e8e788ce5f8b7d50505397494e0bb1438849093ff394f7a7a49.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
   "translation_model_actual": "gpt-6-luna"

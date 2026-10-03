@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “The husband talked”",
+      "severity": "major",
+      "source_quote": "“But I’ll forgive you all that,” promised the husband, “If you are willing to start over, be my wife, and be a mom to our children.”",
+      "suggested_fix": "Replace “अगर आप उनकी मदद नहीं चाहते” with “अगर आप उसकी मदद नहीं चाहते” (or another construction clearly referring to परमेश्वर), so the sentence does not say that the couple does not want the husband’s help.",
+      "translation_quote": "“और अगर आप उनकी मदद नहीं चाहते, तो आपके विवाह के लिए कोई आशा नहीं है।”"
+    },
+    {
+      "location": "Article body, paragraph beginning “David must have been smitten”",
+      "severity": "major",
+      "source_quote": "“I was doing it to the Lord, to the one who chose me to be king instead of your father.”",
+      "suggested_fix": "Replace “मैं यह यहोवा के लिए कर रहा था—उसके लिए जिसने तुम्हारे पिता के बजाय मुझे राजा चुना।” with “मैं यहोवा के सामने ऐसा कर रहा था—उसी के सामने जिसने तुम्हारे पिता के बजाय मुझे राजा चुना।” The source says David danced before the Lord, not that he was doing it for the Lord.",
+      "translation_quote": "[“मैं यह यहोवा के लिए कर रहा था—उसके लिए जिसने तुम्हारे पिता के बजाय मुझे राजा चुना।”]"
+    },
+    {
+      "location": "Article body, paragraph beginning “Every day I choose”",
+      "severity": "major",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Replace “मेरी पसंद तय करती है कि बदले में मुझे अपने पति का अनुग्रह मिलेगा या उसका नुकसान होगा।” with wording that preserves the source’s reciprocal outcome, for example: “मेरी पसंद तय करती है कि बदले में मेरे पति का अनुग्रह या हानि होगी।”",
+      "translation_quote": "“मेरी पसंद तय करती है कि बदले में मुझे अपने पति का अनुग्रह मिलेगा या उसका नुकसान होगा।”"
+    },
+    {
+      "location": "Article metadata, title",
+      "severity": "major",
+      "source_quote": "Dishonor and Loss",
+      "suggested_fix": "Use “अनादर और हानि” (or another Hindi rendering of “dishonor” that preserves the title’s reference to dishonoring someone); “अनादर” alone in the current title-area translation does not include the source’s “Loss.”",
+      "translation_quote": "अनादर और हानि"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

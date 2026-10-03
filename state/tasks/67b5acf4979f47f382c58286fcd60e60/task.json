@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,39 +64,68 @@
         },
         "total_tokens": 14812
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 801,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9355,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9352,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10156
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “As I was standing in line…”",
+      "location": "HTML, paragraph beginning “Un uomo semplice…”",
       "severity": "major",
-      "source_quote": "“He got sober and explained that he wanted to believe in God but couldn’t.”",
-      "suggested_fix": "Replace «Si fece serio» with «Si riprese» (or «Tornò in sé») to preserve the sense of becoming sober, rather than merely appearing serious.",
-      "translation_quote": "«Si fece serio e mi spiegò che avrebbe voluto credere in Dio, ma non ci riusciva.»"
+      "source_quote": "A simple man walked up to a Christian concert holding a sign reading ‘Jesus saves from sin’. Without him ever saying a word, he was attacked.",
+      "suggested_fix": "Replace «Un uomo semplice si avvicinò» with «Un uomo comune si avvicinò»; replace «venne aggredito» with «fu aggredito verbalmente» to preserve the source’s non-specific attack without implying a physical assault.",
+      "translation_quote": "Un uomo semplice si avvicinò a un concerto cristiano tenendo in mano un cartello con scritto: «Gesù salva dal peccato». Senza che avesse detto una sola parola, venne aggredito."
     },
     {
-      "location": "source.html, paragraph beginning “I’ve heard many Anabaptist people…”",
+      "location": "HTML, paragraph beginning “Nel frattempo…”",
       "severity": "major",
-      "source_quote": "“I’ve heard many Anabaptist people say they can’t say that those in the worldly church are not Christians; they just don’t want to go in that direction.”",
-      "suggested_fix": "Change «È sincero?» to «È onesto?» or «È veritiero?»; the source asks whether the claim is truthful, not sincere.",
-      "translation_quote": "«È sincero?»"
+      "source_quote": "This lady later told me what church she went to and how judgmental she thought that I had acted.",
+      "suggested_fix": "Replace «quanto mi avesse giudicato critico» with «quanto mi avesse considerato giudicante» or «quanto pensasse che mi fossi comportato in modo giudicante».",
+      "translation_quote": "In seguito, quella donna mi disse a quale chiesa andava e quanto mi avesse giudicato critico."
     },
     {
-      "location": "source.html, paragraph beginning “There was a modern church…”",
+      "location": "HTML, paragraph beginning “Quando discuteva…”",
       "severity": "major",
-      "source_quote": "“They seemed to be on fire for the Lord! The pastor preached as a dying man. They were very interested in reaching the lost. But there were so many Bible teachings that they simply ignored!”",
-      "suggested_fix": "Replace «Ma ignoravano semplicemente così tanti insegnamenti biblici!» with «Ma ignoravano semplicemente moltissimi insegnamenti biblici!» to convey “so many” as a large number, not “simply so many” in the sense of merely many.",
-      "translation_quote": "«Ma ignoravano semplicemente così tanti insegnamenti biblici!»"
+      "source_quote": "…If ye were Abraham’s children, ye would do the works of Abraham. But now ye seek to kill me, a man that hath told you the truth … Ye do the deeds of your father … Ye are of your father the devil… –John 8:39-44.",
+      "suggested_fix": "Correct the final quoted clause to «voi siete figli di vostro padre, il diavolo» (or an equivalent Italian rendering preserving the source’s parentage assertion); retain the reference Giovanni 8:39-44.",
+      "translation_quote": "…Se foste figli di Abraamo, fareste le opere di Abraamo. Ma ora cercate di uccidere me, un uomo che vi ha detto la verità… Voi fate le opere del padre vostro… Voi siete dal padre vostro, il diavolo… –Giovanni 8:39-44."
     },
     {
-      "location": "source.html, paragraph beginning “It seems that most Christians in America…”",
+      "location": "HTML, paragraph beginning “Gesù ci chiama ad amare…”",
       "severity": "major",
-      "source_quote": "“Spending thousands on big hunting trips and expensive vacations is completed without a second thought.”",
-      "suggested_fix": "Replace «Si spendono migliaia di dollari in grandi battute di caccia e vacanze costose senza pensarci due volte» with «Si spendono migliaia di dollari per battute di caccia importanti e vacanze costose senza pensarci due volte»; «big» describes the trips, not the amount of money spent.",
-      "translation_quote": "«Si spendono migliaia di dollari in grandi battute di caccia e vacanze costose senza pensarci due volte.»"
+      "source_quote": "The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.",
+      "suggested_fix": "Replace «la chiesa americana chiama «eroismo» o «coraggio» il «difendere noi stessi», le nostre famiglie e il nostro paese» with wording that makes clear that the church calls defending ourselves, our families, and our country heroism or bravery, e.g. «La chiesa americana definisce eroico o coraggioso difendere noi stessi, le nostre famiglie e il nostro paese; la Bibbia lo chiama…»",
+      "translation_quote": "La chiesa americana chiama «eroismo» o «coraggio» il «difendere noi stessi», le nostre famiglie e il nostro paese; la Bibbia lo chiama."
+    },
+    {
+      "location": "HTML, paragraph beginning “È comune conformarsi…”",
+      "severity": "major",
+      "source_quote": "…come out from among them and be separate, to say “No” to evil communication and the ways of this world…",
+      "suggested_fix": "Replace «dire «No» alle comunicazioni malvagie» with «dire «No» alle cattive compagnie» or another idiomatic Italian rendering of evil communication.",
+      "translation_quote": "…dobbiamo uscire di mezzo a loro e separarci, dire «No» alle comunicazioni malvagie e alle vie di questo mondo…"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "67b5acf4979f47f382c58286fcd60e60",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ita",
@@ -186,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

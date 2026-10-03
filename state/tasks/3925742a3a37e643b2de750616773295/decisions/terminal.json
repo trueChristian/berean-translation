@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Avsnittet der Angies storebror konfronterer jentene",
+      "severity": "major",
+      "source_quote": "“You broke the oar. ... I’m going to tell Mom that you broke the oar.”",
+      "suggested_fix": "Endre «Dere ødela åra» og «Jeg skal fortelle mamma at dere ødela åra» til «Du ødela åra» og «Jeg skal fortelle mamma at du ødela åra», slik at beskyldningen ikke tillegges begge jentene.",
+      "translation_quote": "«Dere ødela åra. ... Jeg skal fortelle mamma at dere ødela åra.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

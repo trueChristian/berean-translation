@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5e5860af-186c-49cc-b5a9-60fab42155b8",
+    "response_id": "chatcmpl-EUsMQfITzPSHbRiobQwTBMWuIy9RE",
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 313,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1832,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2383
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, fourth stanza",
+        "severity": "major",
+        "source_quote": "He was at the crossroads, all his life as a whole.",
+        "suggested_fix": "Han stod vid ett vägskäl, med hela sitt liv samlat där.",
+        "translation_quote": "Han stod vid ett vägskäl, med hela sitt liv framför sig."
+      },
+      {
+        "location": "Poem, fourteenth stanza",
+        "severity": "major",
+        "source_quote": "I believe in myself, not the God from way back.",
+        "suggested_fix": "Jag tror på mig själv, inte på den Gud från förr.",
+        "translation_quote": "Jag tror på mig själv, inte på den Gud jag en gång hört om."
+      },
+      {
+        "location": "Poem, sixteenth stanza",
+        "severity": "major",
+        "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+        "suggested_fix": "Han vill att jag ska bli bevisad; han är Livet och Vägen.",
+        "translation_quote": "Han vill att jag ska visa mig äkta; han är Livet och Vägen."
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

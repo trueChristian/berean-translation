@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "104756db-a04a-449f-8671-2f9576ac9421",
+    "response_id": "chatcmpl-EUsMPuy0UNYKS7CRKhwMjIJ7oMalL",
+    "usage": {
+      "completion_tokens": 798,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1938,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1935,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2736
+    }
+  },
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 4, line 4",
+        "severity": "minor",
+        "source_quote": "Than all of life’s great wit and will.",
+        "suggested_fix": "Replace “als all der große Witz und Wille des Lebens” with “als all die große Klugheit und Willenskraft des Lebens.”",
+        "translation_quote": "als all der große Witz und Wille des Lebens."
+      },
+      {
+        "location": "Poem, stanza 4, line 5",
+        "severity": "minor",
+        "source_quote": "He who wins is he who hears...",
+        "suggested_fix": "Replace “Wer siegt, ist, wer hört …” with “Wer siegt, ist der, der hört …”",
+        "translation_quote": "Wer siegt, ist, wer hört …"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

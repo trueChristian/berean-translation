@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "article, paragraph beginning “Finally, the wife opened her mouth”",
+      "severity": "major",
+      "source_quote": "“You never show me that you care. You never buy me anything. Why should I try to please you anymore?”",
+      "suggested_fix": "Replace “Hoekom moet ek nog probeer om jou tevrede te stel?” with “Hoekom moet ek nog probeer om jou te behaag?” to preserve “try to please you” without changing its sense to making him satisfied.",
+      "translation_quote": "“Hoekom moet ek nog probeer om jou tevrede te stel?”"
+    },
+    {
+      "location": "article, paragraph beginning “I picture Michal’s lonely old age”",
+      "severity": "major",
+      "source_quote": "“I also wonder if Michal’s dishonor and their fall-out weakened King David.”",
+      "suggested_fix": "Replace “Mikal se minagting en hulle vervreemding” with “Mikal se oneerbiedigheid en hulle rusie” to convey her dishonor and their falling-out, rather than suggesting estrangement.",
+      "translation_quote": "“Mikal se minagting en hulle vervreemding”"
+    },
+    {
+      "location": "article, paragraph beginning “Every day I choose to honor or dishonor”",
+      "severity": "major",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Replace “My keuse bepaal of ek guns terugontvang of dit verloor” with “My keuse bepaal of daar wedersydse guns of verlies sal wees” to retain the source’s reciprocal favor-or-loss meaning.",
+      "translation_quote": "“My keuse bepaal of ek guns terugontvang of dit verloor.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

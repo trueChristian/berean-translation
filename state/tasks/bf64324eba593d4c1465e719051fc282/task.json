@@ -2,7 +2,6 @@
   "article_id": "0678981b-d0f9-4c28-970e-2617f9543c9b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 9275
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Throughout the article, especially the paragraphs beginning “Finally, the wife opened her mouth,” “All wives are tempted,” and “Every day I choose”",
-      "severity": "major",
-      "source_quote": "“Dishonor” / “dishonor their husbands” / “honor or dishonor the husband God gave me.”",
-      "suggested_fix": "Translate “dishonor” consistently as a form of «δεν τιμώ» or «ατιμάζω», rather than «περιφρονώ» (“despise/contempt”). For example: «Όλες οι σύζυγοι μπαίνουμε στον πειρασμό να μην τιμούμε τους άντρες μας» and «Κάθε μέρα επιλέγω αν θα τιμήσω ή θα ατιμάσω τον άντρα που μου έδωσε ο Θεός». Preserve the existing HTML structure.",
-      "translation_quote": "«Ξεχείλισε η πίκρα· οι προσβολές· παλιά παράπονα»; «Όλες οι γυναίκες μπαίνουμε στον πειρασμό να περιφρονούμε τους άντρες μας»; «Κάθε μέρα επιλέγω αν θα τιμήσω ή θα περιφρονήσω τον άντρα που μου έδωσε ο Θεός»"
     },
     {
-      "location": "Final reflection paragraph, sentence beginning “My choice determines”",
-      "severity": "major",
-      "source_quote": "“My choice determines the reciprocating favor or loss.”",
-      "suggested_fix": "Revise the sentence to express that her choice determines the favor or loss returned in response, without adding that she specifically loses her husband's favor. For example: «Η επιλογή μου καθορίζει την εύνοια ή την απώλεια που θα μου ανταποδοθεί.»",
-      "translation_quote": "«Η επιλογή μου καθορίζει αν θα λάβω ανταπόδοση ή θα χάσω την εύνοιά του.»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 487,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5651,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5648,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6138
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Ο Δαβίδ επέστρεψε στο σπίτι…»",
+      "severity": "major",
+      "source_quote": "“David returned home several hours later—tired, but happy—to bless his household.”",
+      "suggested_fix": "Replace «για να ευλογήσει το σπιτικό του» with «για να ευλογήσει την οικογένειά του».",
+      "translation_quote": "«Ο Δαβίδ επέστρεψε στο σπίτι αρκετές ώρες αργότερα—κουρασμένος, αλλά χαρούμενος—για να ευλογήσει το σπιτικό του.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Φαντάζομαι τα μοναχικά γηρατειά…»",
+      "severity": "major",
+      "source_quote": "“Several chapters later tell of his eyes roving to a neighbor’s wife and the resulting sin.”",
+      "suggested_fix": "Replace «Αρκετά κεφάλαια παρακάτω διαβάζουμε ότι τα μάτια του περιπλανήθηκαν στη γυναίκα ενός γείτονα και για την αμαρτία που ακολούθησε» with «Αρκετά κεφάλαια παρακάτω διαβάζουμε ότι το βλέμμα του περιπλανήθηκε στη γυναίκα ενός γείτονα και για την αμαρτία που ακολούθησε».",
+      "translation_quote": "«Αρκετά κεφάλαια παρακάτω διαβάζουμε ότι τα μάτια του περιπλανήθηκαν στη γυναίκα ενός γείτονα και για την αμαρτία που ακολούθησε.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Κάθε μέρα επιλέγω…»",
+      "severity": "major",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Replace «Η επιλογή μου καθορίζει την εύνοια ή την απώλεια που θα μου ανταποδοθεί» with «Η επιλογή μου καθορίζει αν θα μου ανταποδοθεί εύνοια ή απώλεια».",
+      "translation_quote": "«Η επιλογή μου καθορίζει την εύνοια ή την απώλεια που θα μου ανταποδοθεί.»"
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "bf64324eba593d4c1465e719051fc282",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ell",
@@ -172,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/337b0f85be679bd2862d74a2fd4fd6c0823bf7edba4d475821c72f925c77a031.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
   "translation_model_actual": "gpt-6-luna"

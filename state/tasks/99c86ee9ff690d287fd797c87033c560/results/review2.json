@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f265d060-614e-48f0-88f0-ceee39420e74",
+    "response_id": "chatcmpl-EUsMVODtqCFsVorg3QbDx5M5qcWa2",
+    "usage": {
+      "completion_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 780,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4759,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5803
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקה שבה מיכל מדברת אל דוד; מופיע פעמיים",
+        "severity": "major",
+        "source_quote": "“in front of the maidens” / “but those maidens you mentioned”",
+        "suggested_fix": "החליפו את ״השפחות״ ב״הנערות״ בשני המקומות, כדי לשמר את המשמעות של maidens ולא לתאר אותן כמשרתות.",
+        "translation_quote": "״קפצת ככה לפני השפחות״ / ״אבל אותן שפחות שהזכרת״"
+      },
+      {
+        "location": "הערת השוליים המסומנת בכוכבית",
+        "severity": "minor",
+        "source_quote": "“This is how the Spanish Bible says it”",
+        "suggested_fix": "שנו ל״כך כתוב בתנ״ך בספרדית״ או ״כך מנוסח הדבר בגרסה הספרדית של המקרא״, כדי להבהיר שמדובר בשפה הספרדית ולא בתנ״ך שמקורו בספרד.",
+        "translation_quote": "״כך כתוב בתנ״ך הספרדי״"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

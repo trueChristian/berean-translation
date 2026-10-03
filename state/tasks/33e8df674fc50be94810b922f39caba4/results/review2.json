@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6be51370-02d8-43e2-ae8c-397c488e61ea",
+    "response_id": "chatcmpl-EUsN1mtZ45Huf7tpLTBLHV3PTlJYh",
+    "usage": {
+      "completion_tokens": 868,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 720,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8440,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8437,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9308
+    }
+  },
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph under “בראשית”",
+        "severity": "minor",
+        "source_quote": "They also did not have the uncontrolled appetites for food that their descendants deal with today.",
+        "suggested_fix": "Change “גם לא היו להם התיאבון הבלתי נשלט למזון” to “גם לא היה להם התיאבון הבלתי נשלט למזון” to correct the Hebrew agreement.",
+        "translation_quote": "גם לא היו להם התיאבון הבלתי נשלט למזון שצאצאיהם מתמודדים איתו כיום."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

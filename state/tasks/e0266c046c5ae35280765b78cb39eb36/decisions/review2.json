@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Han stod vid ett vägskäl, med hela sitt liv samlat där.",
+      "translation_quote": "Han stod vid ett vägskäl, med hela sitt liv framför sig."
+    },
+    {
+      "location": "Poem, fourteenth stanza",
+      "severity": "major",
+      "source_quote": "I believe in myself, not the God from way back.",
+      "suggested_fix": "Jag tror på mig själv, inte på den Gud från förr.",
+      "translation_quote": "Jag tror på mig själv, inte på den Gud jag en gång hört om."
+    },
+    {
+      "location": "Poem, sixteenth stanza",
+      "severity": "major",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "Han vill att jag ska bli bevisad; han är Livet och Vägen.",
+      "translation_quote": "Han vill att jag ska visa mig äkta; han är Livet och Vägen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

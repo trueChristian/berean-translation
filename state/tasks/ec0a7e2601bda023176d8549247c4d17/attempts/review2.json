@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, quote in the paragraph citing 1 Corinthians 3:16-17\",\"severity\":\"major\",\"source_quote\":\"If any man defile the temple of God, him shall God destroy\",\"suggested_fix\":\"Replace «Si alguno destruye el templo de Dios, Dios lo destruirá a él» with «Si alguno contamina el templo de Dios, Dios lo destruirá a él», preserving the surrounding <em> tags and the Scripture reference.\",\"translation_quote\":\"Si alguno destruye el templo de Dios, Dios lo destruirá a él\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 526,
+    "content_evidence_truncated": false,
+    "content_sha256": "412eba0e367d83765d99860af49cd73028f18155c16e27411ad3006a2af016fc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 469,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7857,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7854,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8465
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

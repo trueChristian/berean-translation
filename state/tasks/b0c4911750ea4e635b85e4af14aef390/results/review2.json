@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2fd8411e-d8ce-4fb8-bb90-eeb4585502c4",
+    "response_id": "chatcmpl-EUsMYVWFN5AW37lGcDz447fgktLpd",
+    "usage": {
+      "completion_tokens": 950,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 706,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8393,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9346
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Of course, there is a literal sense…”",
+        "severity": "major",
+        "source_quote": "Others are subliminal, and only our subconscious mind receives them.",
+        "suggested_fix": "Replace תת־ספיים with תת־סיפיים or another Hebrew equivalent of “subliminal,” for example: „אחרים הם מסרים תת־סיפיים, ורק תת־המודע שלנו קולט אותם.“",
+        "translation_quote": "אחרים הם תת־ספיים, ורק תת־המודע שלנו קולט אותם."
+      },
+      {
+        "location": "Paragraph beginning “Our minds are accustomed…”",
+        "severity": "minor",
+        "source_quote": "A sermon that litigates the soul is a revelation of the preacher.",
+        "suggested_fix": "Use wording that conveys a sermon contending with or confronting the soul, for example: „דרשה המתעמתת עם הנפש היא גילוי של המטיף.“",
+        "translation_quote": "דרשה המטיחה דברים בנפש היא גילוי של המטיף."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

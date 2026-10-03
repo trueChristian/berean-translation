@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Romans 8:28 quotation",
+      "severity": "major",
+      "source_quote": "“to them who are the called according to his purpose”",
+      "suggested_fix": "Ändra till exempelvis: ”dem som är kallade enligt hans syfte” eller ”dem som han har kallat enligt sin avsikt”.",
+      "translation_quote": "”dem som är kallade efter hans beslut”"
+    },
+    {
+      "location": "Uppenbarelseboken 21:2",
+      "severity": "minor",
+      "source_quote": "“And I John saw the holy city, new Jerusalem, coming down from God out of heaven”",
+      "suggested_fix": "Återge även berättarens markering, till exempel: ”Och jag, Johannes, såg den heliga staden, det nya Jerusalem, komma ner från Gud, från himlen …”",
+      "translation_quote": "”Och jag såg den heliga staden, det nya Jerusalem, komma ner från himlen, från Gud”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

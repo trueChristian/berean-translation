@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 15531
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 797,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 665,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9943,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9940,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10740
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "본문, 요한복음 8:39-44 인용",
-      "severity": "major",
-      "source_quote": "“a man that hath told you the truth”",
-      "suggested_fix": "인용문에서 해당 부분을 “너희에게 진리를 말한 사람인 나를”로 고쳐, 원문의 ‘진리를 말했다’는 뜻을 보존하세요.",
-      "translation_quote": "“하나님의 말씀을 너희에게 이르신 사람인 나를”"
-    },
-    {
-      "location": "본문, 로마서 1:16 인용",
-      "severity": "major",
-      "source_quote": "“the gospel of Christ”",
-      "suggested_fix": "인용문 첫머리를 “그리스도의 복음을 부끄러워하지 아니하노니”로 고쳐 ‘그리스도의’라는 수식어를 반영하세요.",
-      "translation_quote": "“내가 복음을 부끄러워하지 아니하노니”"
+      "location": "샌드위치 가게에서 젊은 남자와 나누는 대화",
+      "severity": "minor",
+      "source_quote": "He got sober and explained that he wanted to believe in God but couldn’t.",
+      "suggested_fix": "“그는 진지해지더니 하나님을 믿고 싶지만 그럴 수 없다고 설명했습니다.”",
+      "translation_quote": "그는 차분해지더니 하나님을 믿고 싶지만 믿을 수 없다고 설명했습니다."
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "5e7ef0d2f690b5d892d2b3affc95a7e7",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

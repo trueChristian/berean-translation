@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ba68c072-d8e3-450d-be52-b44881d45b31",
+    "response_id": "chatcmpl-EUsOIq8coawu1PJTifYsBBgBIzRGs",
+    "usage": {
+      "completion_tokens": 583,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8363,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8360,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8946
+    }
+  },
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, ‘성경이 음식에 관해 말하는 것’ 단락의 인용문(고린도전서 6:19-20)",
+        "severity": "major",
+        "source_quote": "“What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God’s”",
+        "suggested_fix": "인용문을 원문의 뜻에 맞게 다음처럼 고치세요: “너희 몸이 너희 안에 계시며 너희가 하나님께 받은 성령의 전인 줄을 알지 못하느냐? 너희는 너희 자신의 것이 아니니, 값으로 산 것이 되었느니라. 그러므로 너희 몸으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라”",
+        "translation_quote": "“너희 몸은 너희가 하나님께로부터 받은 바 너희 안에 계신 성령의 전인 줄을 알지 못하느냐? 너희는 너희 자신의 것이 아니니, 값으로 산 것이 되었으니 그러므로 너희 몸으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라”"
+      },
+      {
+        "location": "본문, ‘성경이 음식에 관해 말하는 것’ 단락의 인용문(고린도전서 3:16-17)",
+        "severity": "major",
+        "source_quote": "“Know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you? If any man defile the temple of God, him shall God destroy; for the temple of God is holy, which temple ye are”",
+        "suggested_fix": "인용문에서 원문에 있는 조건과 경고를 살려 다음처럼 고치세요: “너희가 하나님의 성전이며 하나님의 영께서 너희 안에 거하시는 것을 알지 못하느냐? 누구든지 하나님의 성전을 더럽히면 하나님께서 그를 멸하시리라. 하나님의 성전은 거룩하니, 너희가 바로 그 성전이니라”",
+        "translation_quote": "“너희가 하나님의 성전인 것과 하나님의 영께서 너희 안에 거하시는 것을 알지 못하느냐? 누구든지 하나님의 성전을 더럽히면 하나님께서 그를 멸하시리니, 하나님의 성전은 거룩하니라. 너희가 바로 그 성전이니라”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

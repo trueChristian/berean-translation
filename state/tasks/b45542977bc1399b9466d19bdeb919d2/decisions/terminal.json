@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي يبدأ نصها بـ«وما إن خرجت الفتاتان...»",
+      "severity": "major",
+      "source_quote": "“I’m going to tell Mom that you broke the oar.”",
+      "suggested_fix": "استبدلي «سأخبر أمي بأنكما كسرتما المجداف» بـ«سأخبر أمي بأنكِ كسرتِ المجداف»؛ فالإنجليزية تنسب كسر المجداف إلى ميليسا وحدها، لا إلى الفتاتين.",
+      "translation_quote": "سأخبر أمي بأنكما كسرتما المجداف."
+    },
+    {
+      "location": "الفقرة التي يبدأ نصها بـ«وما إن خرجت الفتاتان...»",
+      "severity": "major",
+      "source_quote": "“You broke the oar.”",
+      "suggested_fix": "استبدلي «كسرتما المجداف» بـ«كسرتِ المجداف»، إذ يواجه الأخ ميليسا بشأن فعلها هي، كما يوضح النص صراحةً.",
+      "translation_quote": "كسرتما المجداف."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

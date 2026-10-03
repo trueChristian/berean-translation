@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafen som börjar ”Varje dag väljer jag …”\",\"severity\":\"minor\",\"source_quote\":\"My choice determines the reciprocating favor or loss.\",\"suggested_fix\":\"Ändra meningen till: ”Mitt val avgör om jag får gensvar och uppskattning eller går miste om det.”\",\"translation_quote\":\"Mitt val avgör om jag får gensvar eller går miste om det.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 406,
+    "content_evidence_truncated": false,
+    "content_sha256": "99a9eb734da9da0bdf639ea311f47903b2d2ff19e1edac9fbc71a7f7a76acc2a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 496,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4718,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5332
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

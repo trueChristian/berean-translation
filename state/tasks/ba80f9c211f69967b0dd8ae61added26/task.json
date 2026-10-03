@@ -2,7 +2,6 @@
   "article_id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 13373
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 557,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 449,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8840,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8837,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9397
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, seção “Guerra”, último período do parágrafo",
-      "severity": "major",
-      "source_quote": "“The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.”",
-      "suggested_fix": "Preserve a frase incompleta do original, sem acrescentar uma conclusão: “A igreja americana chama de heroísmo ou bravura ‘defender a nós mesmos’, nossas famílias e nosso país; a Bíblia chama isso.”",
-      "translation_quote": "“A igreja americana chama de heroísmo ou bravura ‘defender a nós mesmos’, nossas famílias e nosso país; a Bíblia chama isso de.”"
-    },
-    {
-      "location": "HTML, seção “Não conformidade”, primeiro parágrafo",
-      "severity": "major",
-      "source_quote": "“say ‘No’ to evil communication”",
-      "suggested_fix": "Substitua “má comunicação” por “más conversas” ou “comunicação nociva”, preservando a ideia de evitar conversas corruptoras, não apenas comunicação deficiente: “dizer ‘Não’ às más conversas e aos caminhos deste mundo”.",
-      "translation_quote": "“dizer ‘Não’ à má comunicação e aos caminhos deste mundo”"
+      "location": "HTML, paragraph beginning “Enquanto esperava na fila...”",
+      "severity": "minor",
+      "source_quote": "“other graphic designs”",
+      "suggested_fix": "Replace “outros desenhos explícitos” with “outros desenhos de imagens fortes” to convey “graphic” without implying that the designs are explicit in the sense of sexual or otherwise overt content.",
+      "translation_quote": "“outros desenhos explícitos”"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "ba80f9c211f69967b0dd8ae61added26",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "por",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

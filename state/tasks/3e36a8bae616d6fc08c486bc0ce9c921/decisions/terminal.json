@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Myths About Weight Loss — paragraph on exercise",
+      "severity": "minor",
+      "source_quote": "a body must burn 3500 calories to lose one pound.",
+      "suggested_fix": "Vervang ‘een pond’ door ‘ongeveer 454 gram’ (of ‘één pound’ met een korte verduidelijking), zodat de genoemde hoeveelheid overeenkomt met de Engelse gewichtseenheid.",
+      "translation_quote": "het lichaam moet 3500 calorieën verbranden om een pond af te vallen."
+    },
+    {
+      "location": "Myths About Weight Loss — heading ‘…Van koolhydraten kom je aan.’, eerste alinea",
+      "severity": "minor",
+      "source_quote": "Carbohydrate is the medical term for sugars.",
+      "suggested_fix": "Wijzig ‘Koolhydraten is’ in ‘Koolhydraten zijn’.",
+      "translation_quote": "Koolhydraten is de medische term voor suikers."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

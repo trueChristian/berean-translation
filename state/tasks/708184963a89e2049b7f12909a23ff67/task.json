@@ -2,7 +2,6 @@
   "article_id": "73def952-dd77-4a51-b030-27713e0cedd2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,53 @@
         },
         "total_tokens": 5706
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 386,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3772,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3769,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4158
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraph beginning “Just as the girls stepped out of the barn…”",
-      "severity": "major",
-      "source_quote": "“I followed you the whole time you were in the creek and down by the road too.”",
-      "suggested_fix": "Vervang de betreffende zin door: ‘Ik heb jullie de hele tijd gevolgd toen jullie bij de beek waren en ook beneden bij de weg.’",
-      "translation_quote": "‘Ik ben de hele tijd met jullie meegegaan, toen jullie bij de beek waren en ook beneden bij de weg.’"
+      "location": "HTML, paragraph beginning “Melissa grinned in excitement”",
+      "severity": "minor",
+      "source_quote": "“Melissa grinned in excitement”",
+      "suggested_fix": "Vervang ‘grijnsde opgewonden’ door ‘glimlachte enthousiast’ om de positieve uitdrukking van de bron natuurlijk weer te geven.",
+      "translation_quote": "‘Melissa grijnsde opgewonden.’"
+    },
+    {
+      "location": "HTML, paragraph beginning “Suddenly, realizing she was alone”",
+      "severity": "minor",
+      "source_quote": "“Melissa turned around and saw that Angie was still at the entrance of the tunnel looking into a pool of water. She moved a rock, then screamed and scrambled up the bank to join Melissa.”",
+      "suggested_fix": "Maak Angie expliciet het onderwerp van de handelingen na ‘looking into a pool of water’, bijvoorbeeld: ‘Angie verplaatste een steen, gilde toen en klauterde de oever op om zich bij Melissa te voegen.’",
+      "translation_quote": "‘Toen Melissa zich plotseling realiseerde dat ze alleen was, draaide ze zich om en zag dat Angie nog bij de ingang van de tunnel stond en in een poel keek. Angie verplaatste een steen, gilde toen en klauterde de oever op om zich bij Melissa te voegen.’"
+    },
+    {
+      "location": "HTML, paragraph beginning “Their splashes got bigger and bigger”",
+      "severity": "minor",
+      "source_quote": "“They were having a lot of fun seeing who could make the biggest splash.”",
+      "suggested_fix": "Vervang ‘probeerden uit te maken wie de grootste spetter kon maken’ door ‘vonden het leuk om te zien wie de grootste plons kon maken’.",
+      "translation_quote": "‘Ze hadden veel plezier en probeerden uit te maken wie de grootste spetter kon maken.’"
     }
   ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "708184963a89e2049b7f12909a23ff67",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nld",
@@ -165,13 +199,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,60 +64,61 @@
         },
         "total_tokens": 6858
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 554,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3985,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3982,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4539
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, shairi la wimbo, ubeti wa kwanza",
-      "severity": "major",
-      "source_quote": "“‘Mid the crash of the thunder, Precious Lord, hear my cry”",
-      "suggested_fix": "Tafsiri “crash of the thunder” kama “mlipuko wa ngurumo” au “ngurumo kali”; “Katikati ya ngurumo” inakosa wazo la sauti yake kali ya kupasuka.",
-      "translation_quote": "“Katikati ya ngurumo, Bwana mpendwa, sikia kilio changu”"
-    },
-    {
-      "location": "HTML, shairi la wimbo, kiitikio",
-      "severity": "major",
-      "source_quote": "“Till the thunder sounds no more”",
-      "suggested_fix": "Badilisha “mpaka ngurumo zisikike tena” kuwa “mpaka ngurumo zisiwe tena” au “mpaka ngurumo zisikike tena kamwe” ili kuhifadhi maana ya kuwa hazitasikika tena.",
-      "translation_quote": "“mpaka ngurumo zisikike tena”"
-    },
-    {
-      "location": "HTML, shairi la wimbo, ubeti wa pili",
+      "location": "Lyrics, stanza 3",
       "severity": "major",
       "source_quote": "“But I know Thou art with me, and tomorrow I’ll rise / Where the storms never darken the skies.”",
-      "suggested_fix": "Tafsiri “I’ll rise” kama “nitaamka/nitainuka,” si “nitainuka Mahali”; kwa mfano: “Lakini najua uko pamoja nami, na kesho nitaamka / Mahali ambapo dhoruba haziti giza kamwe angani.”",
-      "translation_quote": "“Lakini najua uko pamoja nami, na kesho nitainuka / Mahali ambapo dhoruba hazitawahi kutia giza angani.”"
+      "suggested_fix": "Replace the final two lines of this stanza with: “Lakini najua uko pamoja nami, na kesho nitainuka / Mahali ambapo dhoruba hazitatiiza anga kamwe.”",
+      "translation_quote": "“Lakini najua uko pamoja nami, na kesho nitaamka / Mahali ambapo dhoruba hazitawahi kutia giza angani.”"
     },
     {
-      "location": "HTML, shairi la wimbo, ubeti wa mwisho",
+      "location": "Lyrics, stanza 4",
       "severity": "major",
-      "source_quote": "“Dwell with Thee when the storm passes by.”",
-      "suggested_fix": "Tafsiri “when the storm passes by” kama “dhoruba inapopita”; “dhoruba ipitapo” inakubalika, lakini hakikisha sentensi nzima inasema kuishi pamoja na Bwana dhoruba inapopita, si dhoruba ipite kwanza. Kwa mfano: “Nikae pamoja nawe dhoruba inapopita.”",
-      "translation_quote": "“Nikae pamoja nawe dhoruba ipitapo.”"
+      "source_quote": "“In that land where the tempest, never comes, Lord, may I / Dwell with Thee when the storm passes by.”",
+      "suggested_fix": "Replace these lines with: “Katika nchi ile ambako tufani haziji kamwe, Bwana, naomba / Nikae pamoja nawe dhoruba itakapokuwa imepita.”",
+      "translation_quote": "“Katika nchi ile ambako tufani haziji kamwe, Bwana, naomba / Nikae pamoja nawe dhoruba inapopita.”"
     },
     {
-      "location": "HTML, aya ya shairi lililonukuliwa",
+      "location": "Paragraph beginning “When the disciples were out on the sea”",
       "severity": "major",
-      "source_quote": "“It may be in the better land / We’ll read the meaning of our tears”",
-      "suggested_fix": "Tafsiri kama uwezekano: “Huenda katika nchi iliyo bora zaidi / Tutaelewa maana ya machozi yetu.” Epuka kuacha “Huenda” bila kiunganishi kinachoonyesha kuwa jambo linalowezekana ni kwamba huko ndipo tutaelewa.",
-      "translation_quote": "“Huenda katika nchi iliyo bora zaidi / Tutaelewa maana ya machozi yetu”"
+      "source_quote": "“We do not always understand why things happen, but that’s okay.”",
+      "suggested_fix": "Replace “Hatuielewi daima sababu ya mambo kutokea, lakini hilo si tatizo.” with “Hatuielewi daima sababu ya mambo kutokea, lakini ni sawa.”",
+      "translation_quote": "“Hatuielewi daima sababu ya mambo kutokea, lakini hilo si tatizo.”"
     },
     {
-      "location": "HTML, nukuu ya Ufunuo 21:1–4",
-      "severity": "critical",
-      "source_quote": "“And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them”",
-      "suggested_fix": "Rejesha katika Kiswahili kauli iliyo katika chanzo kwamba sauti kubwa ilitoka mbinguni na kutangaza kuwa maskani ya Mungu iko pamoja na wanadamu, na kwamba Mungu atakaa pamoja nao. Tafsiri iliyopo inabadilisha chanzo cha sauti kuwa kile kiti cha enzi na kuacha sehemu ya tangazo hilo.",
-      "translation_quote": "“Nikasikia sauti kubwa kutoka katika kile kiti cha enzi ikisema, Tazama, maskani ya Mungu ni pamoja na wanadamu, naye atakaa pamoja nao”"
-    },
-    {
-      "location": "HTML, nukuu ya Ufunuo 21:1–4",
+      "location": "Revelation quotation, final sentence",
       "severity": "major",
-      "source_quote": "“and they shall be his people, and God himself shall be with them, and be their God.”",
-      "suggested_fix": "Ongeza tafsiri ya kauli “and be their God,” kwa mfano “naye atakuwa Mungu wao,” bila kuacha au kubadilisha kauli zilizo karibu.",
-      "translation_quote": "“nao watakuwa watu wake. Naye Mungu mwenyewe atakuwa pamoja nao.”"
+      "source_quote": "“And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain”",
+      "suggested_fix": "Replace “Naye Mungu atafuta kila chozi katika macho yao, wala mauti haitakuwapo tena; wala maombolezo, wala kilio, wala maumivu hayatakuwapo tena” with “Naye Mungu atafuta kila chozi katika macho yao; wala mauti haitakuwapo tena, wala huzuni, wala kilio, wala maumivu hayatakuwapo tena.”",
+      "translation_quote": "“Naye Mungu atafuta kila chozi katika macho yao, wala mauti haitakuwapo tena; wala maombolezo, wala kilio, wala maumivu hayatakuwapo tena”"
     }
   ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "1a86c7069a81db1b7cabf173578e2e64",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -207,13 +207,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6-luna"

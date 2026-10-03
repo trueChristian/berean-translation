@@ -2,7 +2,6 @@
   "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,32 +64,54 @@
         },
         "total_tokens": 3638
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 788,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1965,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1962,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2753
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "poem, lines 1 and 7–14",
+      "location": "Poem, paragraph 4",
       "severity": "major",
-      "source_quote": "“The night was still, the air was drear.” / “But something’s not right, there’s something I lack.” / “I’ve lived like most others, as my life plays back.” / “He fought with his mind, justifying the wrong.” / “It was God that was working, He seemed quite strong.” / “The fact of the matter, it’s confidence I lack. I believe in myself, not the God from way back.”",
-      "suggested_fix": "Correct the affected lines to preserve the printed meanings: use «Η νύχτα ήταν γαλήνια, ο αέρας βαρύς/μουντός» for the first line; «Μα κάτι δεν πάει καλά, κάτι μου λείπει» is acceptable for the seventh. In line 8, preserve the original past-tense reflection rather than changing its perspective, e.g. «Έζησα όπως οι περισσότεροι, καθώς ξετυλίγεται η ζωή μου». In line 11, translate “the wrong” as «το άδικο» or «το κακό» without changing the sense. In line 12, render “He seemed quite strong” as «Φαινόταν πολύ δυνατός». In lines 13–14, convey lack of confidence and “the God from way back” without turning it into “old God,” e.g. «Η αλήθεια είναι πως μου λείπει η αυτοπεποίθηση. / Πιστεύω στον εαυτό μου, όχι στον Θεό που γνώριζα παλιά.»",
-      "translation_quote": "«Η νύχτα ήταν ήσυχη, ο αέρας σκοτεινός.» / «Μα κάτι δεν πάει καλά, κάτι μου λείπει.» / «Έζησα όπως οι περισσότεροι, καθώς ανατρέχω στη ζωή μου.» / «Πάλευε με το μυαλό του, δικαιολογώντας το κακό.» / «Ο Θεός ήταν αυτός που ενεργούσε· έμοιαζε πολύ δυνατός.» / «Η αλήθεια είναι πως μου λείπει η εμπιστοσύνη. / Πιστεύω στον εαυτό μου, όχι στον Θεό τον παλιό.»"
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "Βρισκόταν σε σταυροδρόμι, κοιτάζοντας τη ζωή του ως σύνολο.",
+      "translation_quote": "Βρισκόταν σε σταυροδρόμι, με ολόκληρη τη ζωή του μπροστά του."
     },
     {
-      "location": "poem, line 4",
-      "severity": "minor",
-      "source_quote": "“He was at the crossroads, all his life as a whole.”",
-      "suggested_fix": "Preserve the source’s idea of standing at a crossroads with his whole life in view, for example: «Βρισκόταν σε σταυροδρόμι, με ολόκληρη τη ζωή του μπροστά του.»",
-      "translation_quote": "«Βρισκόταν σε σταυροδρόμι, αναλογιζόμενος όλη του τη ζωή.»"
+      "location": "Poem, paragraph 8",
+      "severity": "major",
+      "source_quote": "I’ve lived like most others, as my life plays back.",
+      "suggested_fix": "Έζησα όπως οι περισσότεροι, καθώς ξαναφέρνω τη ζωή μου στη μνήμη.",
+      "translation_quote": "Έζησα όπως οι περισσότεροι, καθώς ξετυλίγεται η ζωή μου."
     },
     {
-      "location": "poem, lines 15–18",
+      "location": "Poem, paragraph 16",
       "severity": "major",
-      "source_quote": "“God wants to show strong, in my life every day. He wants me to be proved; He’s the Life and the Way. There’s no better One, in Whom to put all your trust; Than the almighty God. For all men it’s a must!”",
-      "suggested_fix": "Keep the speaker’s first-person perspective and the source’s assertion that God wants to demonstrate strength in the speaker’s life; render the unusual “wants me to be proved” without changing its meaning (for example, «Θέλει να φανώ άξιος»). Keep «η Ζωή και η Οδός» and translate the final lines as an exhortation to trust the almighty God, preserving that this is a necessity for all people.",
-      "translation_quote": "«Ο Θεός θέλει να δείχνει τη δύναμή Του στη ζωή μου κάθε μέρα. Θέλει να αποδειχτώ· Αυτός είναι η Ζωή και η Οδός. Δεν υπάρχει Καλύτερος για να Του εμπιστευτείς τα πάντα· Ο παντοδύναμος Θεός. Για όλους τους ανθρώπους είναι ανάγκη!»"
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "Θέλει να αποδειχτεί η αξία μου· Αυτός είναι η Ζωή και η Οδός.",
+      "translation_quote": "Θέλει να αποδειχτώ· Αυτός είναι η Ζωή και η Οδός."
     }
   ],
+  "finished_at": "2026-10-03T16:45:41+00:00",
   "id": "c520466afca00c201d5c094866c41833",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ell",
@@ -179,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 76,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

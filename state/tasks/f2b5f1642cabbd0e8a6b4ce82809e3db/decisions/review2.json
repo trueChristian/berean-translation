@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem stanza 2",
+      "severity": "major",
+      "source_quote": "We tried what we thought might change it,",
+      "suggested_fix": "Translate as: “Ons het probeer wat ons gedink het dit dalk kon verander,”",
+      "translation_quote": "Ons het probeer wat ons gedink het dit dalk kon verander,"
+    },
+    {
+      "location": "HTML, poem stanza 4",
+      "severity": "minor",
+      "source_quote": "Yet we know that no matter our feelings,",
+      "suggested_fix": "A clearer rendering is: “Tog weet ons, ongeag hoe ons voel,”",
+      "translation_quote": "Tog weet ons dat daar, ongeag hoe ons voel,"
+    },
+    {
+      "location": "HTML, poem stanza 6",
+      "severity": "major",
+      "source_quote": "Making everything open to Your view.",
+      "suggested_fix": "Replace the last line of the stanza with: “en alles voor U oop te lê.”",
+      "translation_quote": "en alles vir U oop te stel."
+    },
+    {
+      "location": "HTML, poem stanza 9",
+      "severity": "major",
+      "source_quote": "For which no earthly price can exceed.",
+      "suggested_fix": "Replace the last line with: “waarvoor geen aardse prys te hoog is nie.”",
+      "translation_quote": "waarmee geen aardse prys kan vergelyk nie."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

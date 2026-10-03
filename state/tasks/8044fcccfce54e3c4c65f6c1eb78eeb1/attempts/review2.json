@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Title and recurring theme, including the final two body paragraphs\",\"severity\":\"major\",\"source_quote\":\"“Dishonor and Loss”; “All wives are tempted to dishonor their husbands”; “I choose to honor or dishonor the husband God gave me.”\",\"suggested_fix\":\"Use language conveying failure to honor or respect, rather than merely insulting: for example, title «عدم الإكرام والخسارة»; in the relevant sentences use «عدم إكرام أزواجهن» and «أختار أن أكرم الزوج الذي وهبني الله إياه أو لا أكرمه».\",\"translation_quote\":\"«الإهانة والخسارة»; «تُجرَّب جميع الزوجات على إهانة أزواجهن»; «أختار أن أكرم الزوج الذي وهبني الله إياه أو أهينه»\"},{\"location\":\"Paragraph beginning «وأخيرًا نفد صبر الزوجين»\",\"severity\":\"minor\",\"source_quote\":\"“Finally, the couple ran out of steam.”\",\"suggested_fix\":\"Replace «نفد صبر الزوجين» with wording that conveys their energy or momentum running out, such as «وأخيرًا خمدت حدة الجدال بين الزوجين»; the source does not say they ran out of patience.\",\"translation_quote\":\"«وأخيرًا نفد صبر الزوجين»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1349,
+    "content_evidence_truncated": false,
+    "content_sha256": "554779c1505f898e0e041cb762cb439502a2b988f1f3adca15eacdf42ff8e236",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1029,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 718,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4734,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4731,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5763
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

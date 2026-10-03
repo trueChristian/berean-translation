@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Non-conformity section, paragraph beginning «Είναι συνηθισμένο να συμμορφώνεται κανείς…»",
+      "severity": "major",
+      "source_quote": "to say “No” to evil communication and the ways of this world",
+      "suggested_fix": "Αντικαταστήστε το «στην κακή επικοινωνία» με το «στις κακές συναναστροφές», ώστε να αποδίδεται η έννοια της επιζήμιας συναναστροφής, όχι της κακής επικοινωνίας.",
+      "translation_quote": "να πούμε «Όχι» στην κακή επικοινωνία και στους τρόπους αυτού του κόσμου"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

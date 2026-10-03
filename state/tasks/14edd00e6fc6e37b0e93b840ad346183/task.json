@@ -2,7 +2,6 @@
   "article_id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,89 @@
         },
         "total_tokens": 5649
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 749,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3727,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3724,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4476
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Absatz nach dem Liedtext, Satz beginnend „Die Gegenwart des Herrn …“",
+      "location": "Liedtext, erste Strophe",
       "severity": "major",
-      "source_quote": "I came through this storm with a greater awareness of how God reveals Himself to us in a deeper way when we are going through hard times.",
-      "suggested_fix": "Die Gegenwart des Herrn war für mich ganz real. Ich kam durch diesen Sturm und gewann ein größeres Bewusstsein dafür, wie Gott sich uns auf tiefere Weise offenbart, wenn wir schwere Zeiten durchmachen.",
-      "translation_quote": "Die Gegenwart des Herrn war für mich ganz real. Ich ging gestärkt aus diesem Sturm hervor und war mir stärker bewusst, wie Gott sich uns auf tiefere Weise offenbart, wenn wir schwere Zeiten durchmachen."
+      "source_quote": "‘Mid the crash of the thunder, Precious Lord, hear my cry,",
+      "suggested_fix": "„Mitten im Krachen des Donners, kostbarer Herr, hör meinen Schrei,“",
+      "translation_quote": "Mitten im Donnergrollen, lieber Herr, hör mein Rufen,"
+    },
+    {
+      "location": "Liedtext, Refrain",
+      "severity": "major",
+      "source_quote": "Till the clouds roll forever from the sky;",
+      "suggested_fix": "„Bis die Wolken für immer vom Himmel wegrollen;“",
+      "translation_quote": "bis die Wolken für immer vom Himmel verschwinden;"
+    },
+    {
+      "location": "Liedtext, zweite Strophe",
+      "severity": "major",
+      "source_quote": "But I know Thou art with me, and tomorrow I’ll rise / Where the storms never darken the skies",
+      "suggested_fix": "„Doch ich weiß, du bist bei mir, und morgen werde ich aufstehen / dort, wo die Stürme niemals den Himmel verdunkeln.“",
+      "translation_quote": "Doch ich weiß, du bist bei mir, und morgen werde ich aufstehen / an dem Ort, wo die Stürme niemals den Himmel verdunkeln."
+    },
+    {
+      "location": "Liedtext, dritte Strophe",
+      "severity": "major",
+      "source_quote": "In that land where the tempest, never comes, Lord, may I / Dwell with Thee when the storm passes by.",
+      "suggested_fix": "„In jenem Land, in das der Sturm niemals kommt, Herr, möge ich / bei dir wohnen, wenn der Sturm vorüberzieht.“",
+      "translation_quote": "in jenem Land, in das der Sturm niemals kommt, Herr, lass mich / bei dir wohnen, wenn der Sturm vorüberzieht."
+    },
+    {
+      "location": "Persönlicher Bericht",
+      "severity": "major",
+      "source_quote": "This song was one I’d pray in the dark of the midnight when I couldn’t sleep, and fear threatened to overwhelm me.",
+      "suggested_fix": "„Dieses Lied betete ich oft in der dunklen Mitternacht, wenn ich nicht schlafen konnte und die Angst mich zu überwältigen drohte.“",
+      "translation_quote": "Dieses Lied betete ich in der dunklen Mitternacht, wenn ich nicht schlafen konnte und die Angst mich zu überwältigen drohte."
+    },
+    {
+      "location": "Gedichtzitat",
+      "severity": "major",
+      "source_quote": "It may be in the better land / We’ll read the meaning of our tears, / And there, sometime, we’ll understand.",
+      "suggested_fix": "„Vielleicht werden wir im besseren Land / den Sinn unserer Tränen erkennen / und dort irgendwann verstehen.“",
+      "translation_quote": "vielleicht im besseren Land, / werden wir den Sinn unsrer Tränen erkennen, / und irgendwann dort verstehen."
+    },
+    {
+      "location": "Persönlicher Bericht",
+      "severity": "major",
+      "source_quote": "We will reach out to others for comfort and council.",
+      "suggested_fix": "„Wir wenden uns an andere, um Trost und Rat zu finden.“",
+      "translation_quote": "Wir wenden uns an andere, um Trost und Rat zu finden."
+    },
+    {
+      "location": "Schlusszitat, Offenbarung 21:1–4",
+      "severity": "major",
+      "source_quote": "And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men",
+      "suggested_fix": "„Und ich hörte eine laute Stimme aus dem Himmel sagen: Siehe, die Wohnstätte Gottes ist bei den Menschen“",
+      "translation_quote": "Und ich hörte eine laute Stimme aus dem Himmel sagen: Siehe, die Wohnung Gottes ist bei den Menschen"
     }
   ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "14edd00e6fc6e37b0e93b840ad346183",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "deu",
@@ -165,13 +235,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6-luna"

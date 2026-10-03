@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"III. Patterns of True Worship → b. Preaching; Mark 16:15 quotation\",\"severity\":\"major\",\"source_quote\":\"…Go ye into all the world, and preach the gospel to every creature –Mark 16:15.\",\"suggested_fix\":\"Change only «alt som Gud har skapt» to «alle skapninger», preserving the surrounding <em> tag and reference: «… Gå ut i hele verden og forkynn evangeliet for alle skapninger – Markus 16:15.»\",\"translation_quote\":\"… Gå ut i hele verden og forkynn evangeliet for alt som Gud har skapt – Markus 16:15.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 577,
+    "content_evidence_truncated": false,
+    "content_sha256": "775b38bbbff04fccea5fd72715fdbad33af4928c403ed3c1196b4b7540bda69c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 975,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 807,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12000,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11997,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12975
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

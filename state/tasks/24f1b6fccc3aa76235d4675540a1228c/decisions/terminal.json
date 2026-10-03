@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, opening paragraph (Psalm 62:7 quotation)",
+      "severity": "minor",
+      "source_quote": "“the rock of my strength”",
+      "suggested_fix": "В переводе этой фразы добавьте образ скалы, например: «скала силы моей»; сохраните остальную структуру и пунктуацию цитаты.",
+      "translation_quote": "«крепость силы моей»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

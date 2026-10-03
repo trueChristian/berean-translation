@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Lyrics, first stanza, third line",
+      "severity": "minor",
+      "source_quote": "‘Mid the crash of the thunder, Precious Lord, hear my cry,",
+      "suggested_fix": "استبدل «يا ربّي الثمين» بتعبير عربي مألوف في النداء، مثل «يا ربّي العزيز»، مع الحفاظ على معنى المخاطبة الودودة.",
+      "translation_quote": "وسط دوي الرعد، يا ربّي الثمين، اسمع صراخي،"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning «Όταν τελείωσε η μακριά νύχτα» in the lyrics\",\"severity\":\"minor\",\"source_quote\":\"on the bright peaceful shore\",\"suggested_fix\":\"Change «στην φωτεινή, ειρηνική ακτή» to «στη φωτεινή, ειρηνική ακτή».\",\"translation_quote\":\"στην φωτεινή, ειρηνική ακτή\"}],\"passed\":true,\"score\":99}",
+    "content_bytes": 434,
+    "content_evidence_truncated": false,
+    "content_sha256": "a57a36d9eb1c6efda5b0193d9cb86d7165f538e65aac2f96c384b70e9c72fc96",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4461,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4458,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5278
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

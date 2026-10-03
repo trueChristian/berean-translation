@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza",
+      "severity": "minor",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "वह जीवन के चौराहे पर खड़ा था, अपने पूरे जीवन पर विचार करता हुआ।",
+      "translation_quote": "वह जीवन के चौराहे पर था, जीवन का पूरा सफ़र सामने तमाम।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

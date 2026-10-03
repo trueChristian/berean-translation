@@ -2,7 +2,6 @@
   "article_id": "93f83966-049f-4767-8fe5-497ec16dad40",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,46 +64,68 @@
         },
         "total_tokens": 14574
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1322,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 714,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8914,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8911,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10236
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "প্রথম অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "“He that hath ears to hear, let him hear.”",
-      "suggested_fix": "অনুবাদটি এমনভাবে সংশোধন করুন যাতে অর্থ হয়: “যার শোনার কান আছে, সে শুনুক।”",
-      "translation_quote": "“যার শোনার কান আছে, সে শুনুক।”"
+      "location": "Paragraph beginning “Our minds are accustomed…”",
+      "severity": "minor",
+      "source_quote": "“A sermon that litigates the soul is a revelation of the preacher.”",
+      "suggested_fix": "Replace “পরিচারকের” with “প্রচারকের” here, so the sentence reads: “আত্মাকে বিচারের মুখে দাঁড় করায় এমন উপদেশ প্রচারকের পরিচয় প্রকাশ করে।” The current “পরিচারক” can mean an attendant or servant and obscures the preacher’s role.",
+      "translation_quote": "“আত্মাকে বিচারের মুখে দাঁড় করায় এমন উপদেশ প্রচারকের পরিচয় প্রকাশ করে।”"
     },
     {
-      "location": "প্রথম অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "“It was a deft reminder to those within the sound of His voice to take full responsibility for what they had heard.”",
-      "suggested_fix": "“তাঁর কণ্ঠস্বর যাদের কানে পৌঁছেছিল, তাদের শোনা কথার পূর্ণ দায়িত্ব নিতে এটি ছিল এক নিপুণ স্মরণ করিয়ে দেওয়া।”",
-      "translation_quote": "“তাঁর কণ্ঠস্বর যাদের কানে পৌঁছেছিল, তাদের শোনা কথার পূর্ণ দায়িত্ব নিতে এটি ছিল এক চতুর স্মরণ করিয়ে দেওয়া।”"
+      "location": "Paragraph beginning “This happens to all on a constant daily basis.”",
+      "severity": "minor",
+      "source_quote": "“Our judgment of a minister or a sermon is really the judgment of ourselves.”",
+      "suggested_fix": "Change “কোনো পরিচারক বা উপদেশ” to “কোনো প্রচারক বা উপদেশ,” using the church-preaching sense of “minister.”",
+      "translation_quote": "“প্রায়ই কোনো পরিচারক বা উপদেশ সম্পর্কে আমাদের বিচার আসলে নিজেদেরই বিচার।”"
     },
     {
-      "location": "দ্বিতীয় অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "“Sure, I heard you calling, but you didn’t sound like you meant it yet.”",
-      "suggested_fix": "“হ্যাঁ, তোমার ডাক আমি শুনেছি, কিন্তু তোমার গলায় তখনো এমন ভাব ছিল না যে মনে হয় তুমি সত্যিই ডাকছ।”",
-      "translation_quote": "“হ্যাঁ, আমি শুনেছি আপনি ডাকছিলেন, কিন্তু আপনার গলায় তখনো এমন জোর ছিল না যে মনে হয় আপনি সত্যিই বলছেন।”"
+      "location": "Heading “…Perfection,” paragraph beginning “We play only the finest recorded music…”",
+      "severity": "minor",
+      "source_quote": "“the message of the sincere and humble offerings of common singing”",
+      "suggested_fix": "Make the singing explicit, for example: “সাধারণ মানুষের আন্তরিক ও বিনয়ী গান পরিবেশনার বার্তার প্রতি…”",
+      "translation_quote": "“সাধারণ মানুষের আন্তরিক ও বিনয়ী পরিবেশনার বার্তার প্রতি আমাদের কান বধির হয়ে যেতে পারে।”"
     },
     {
-      "location": "“আমাদের স্বতন্ত্র ব্যক্তিত্ব” শিরোনামের অনুচ্ছেদ ২",
-      "severity": "major",
-      "source_quote": "“Every temptation we have ever met, and every sin we have ever fought and mastered, determines the kinds of thing that we shall hear as we take our pilgrimage.”",
-      "suggested_fix": "“আমরা যে প্রতিটি প্রলোভনের মুখোমুখি হয়েছি, এবং যে প্রতিটি পাপের বিরুদ্ধে লড়ে জয়ী হয়েছি, তা আমাদের তীর্থযাত্রার পথে আমরা কী ধরনের কথা শুনব তা নির্ধারণ করে।”",
-      "translation_quote": "“আমাদের দেখা প্রতিটি প্রলোভন, আর আমরা যে প্রতিটি পাপের বিরুদ্ধে লড়েছি ও জয় করেছি, তা নির্ধারণ করে তীর্থযাত্রায় চলার পথে আমরা কী ধরনের কথা শুনব।”"
+      "location": "Heading “…Fiction,” paragraph beginning “From movies to novels…”",
+      "severity": "minor",
+      "source_quote": "“We know the imperfections of our home minister, brother, or family member.”",
+      "suggested_fix": "Change “নিজস্ব পরিচারক” to “নিজেদের প্রচারক” (or another contextually appropriate Bengali term for a church minister).",
+      "translation_quote": "“আমাদের নিজস্ব পরিচারক, ভাই বা পরিবারের সদস্যের অপূর্ণতাগুলো আমরা জানি।”"
     },
     {
-      "location": "“স্থূল হৃদয়” শিরোনামের অধীনে উদ্ধৃতি",
-      "severity": "major",
-      "source_quote": "“Make the heart of this people fat”",
-      "suggested_fix": "মূলের রূপক ‘স্থূল’ বা ‘মোটা’ হৃদয়ের অর্থ অক্ষুণ্ণ রাখুন; যেমন, “এই লোকদের হৃদয় স্থূল করো।”",
-      "translation_quote": "“এই লোকদের হৃদয় স্থূল করো”"
+      "location": "Heading “Burning Hearts,” paragraph beginning “Some may claim…”",
+      "severity": "minor",
+      "source_quote": "“the responsibility of every faithful minister” / “halfhearted ministers” / “Those who are called to such a noble position”",
+      "suggested_fix": "Use a clear Bengali term for a church minister or preacher in this paragraph, such as “বিশ্বস্ত প্রচারক” and “অর্ধহৃদয় প্রচারক,” rather than “পরিচারক.”",
+      "translation_quote": "“প্রত্যেক বিশ্বস্ত পরিচারকের দায়িত্ব” / “অর্ধহৃদয় পরিচারকের অর্ধহৃদয় প্রচার”"
     }
   ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "043ec7a2bb5c433531d2a7a1b075e37f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ben",
@@ -193,13 +214,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

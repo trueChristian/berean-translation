@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"शीर्षक: “Reasons People Gain Weight” के नीचे वाला अनुच्छेद\",\"severity\":\"major\",\"source_quote\":\"“We call the number of calories our bodies burn while at rest, the body’s metabolic rate.”\",\"suggested_fix\":\"अनुवाद को इस अर्थ में बदलें कि आराम की अवस्था में शरीर जितनी कैलोरी जलाता है, उसे शरीर की चयापचय दर कहा जाता है; उदाहरण के लिए, “आराम की अवस्था में हमारा शरीर जितनी कैलोरी जलाता है, उसे शरीर की चयापचय दर कहते हैं।”\",\"translation_quote\":\"“आराम करते समय हमारा शरीर जितनी कैलोरी जलाता है, उसे हम शरीर की चयापचय दर कहते हैं।”\"},{\"location\":\"“वज़न घटाने के बारे में भ्रांतियाँ…” के अंतर्गत उपशीर्षक “...वज़न घटाने का एकमात्र तरीका भूखे रहना है।” और उसके बाद का अनुच्छेद\",\"severity\":\"major\",\"source_quote\":\"“there were no heavy-set people who came out of the concentration camps in World War II.”\",\"suggested_fix\":\"“द्वितीय विश्व युद्ध के यातना शिविरों से बाहर आए लोगों में कोई भी भारी-भरकम नहीं था।” के अर्थ में अनुवाद करें।\",\"translation_quote\":\"“द्वितीय विश्व युद्ध में यातना शिविरों से कोई भी भारी-भरकम व्यक्ति बाहर नहीं आया था।”\"},{\"location\":\"शीर्षक: “Weight Loss”\",\"severity\":\"minor\",\"source_quote\":\"“Weight Loss”\",\"suggested_fix\":\"शीर्षक को “वज़न घटाना” या “वज़न में कमी” करें, ताकि अंग्रेज़ी स्रोत शीर्षक का अर्थ स्वाभाविक हिंदी में व्यक्त हो।\",\"translation_quote\":\"“वज़न घटाना”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 2623,
+    "content_evidence_truncated": false,
+    "content_sha256": "12e0600043db2da299b78a72a3daee3ff19c9c791a5effd3570c09220c4d1bac",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 396,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9025,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9022,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9421
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

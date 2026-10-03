@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragrafo sotto «…You just need to eat ‘___’ fat burning food to lose weight!»",
+      "severity": "major",
+      "source_quote": "“if your normal breakfast consists of 5 strips of bacon, a glass of orange juice, 2 slices of toast, and two eggs”",
+      "suggested_fix": "Sostituire «5 strisce di pancetta» con «5 fette di bacon» o «5 fette di pancetta», mantenendo invariati gli altri alimenti e le quantità.",
+      "translation_quote": "«se la vostra colazione abituale consiste in 5 strisce di pancetta, un bicchiere di succo d’arancia, 2 fette di pane tostato e due uova»"
+    },
+    {
+      "location": "source.html, paragrafo sulla perdita di peso a lungo termine",
+      "severity": "major",
+      "source_quote": "“The goal should never be simply to ‘take off ten pounds,’”",
+      "suggested_fix": "Tradurre la quantità senza cambiarla, per esempio: «L’obiettivo non dovrebbe mai essere semplicemente “perdere dieci libbre”» oppure convertirla fedelmente in circa 4,54 kg.",
+      "translation_quote": "«L’obiettivo non dovrebbe mai essere semplicemente “perdere circa 4,5 chili”»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

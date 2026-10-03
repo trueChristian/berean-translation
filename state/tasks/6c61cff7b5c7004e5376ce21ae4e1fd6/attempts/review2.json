@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, second stanza, first line\",\"severity\":\"major\",\"source_quote\":\"At times we fret with downcast soul,\",\"suggested_fix\":\"Αντικαταστήστε το «αγανακτούμε» με «ανησυχούμε», για παράδειγμα: «Κάποιες φορές ανησυχούμε με την ψυχή σκυθρωπή,»\",\"translation_quote\":\"Κάποιες φορές αγανακτούμε με την ψυχή σκυθρωπή,\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 505,
+    "content_evidence_truncated": false,
+    "content_sha256": "8cf713217a69bb2c9f839e1f3afaf93a9ba14f8bce57d18a45db1015f0aa3b9f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2156,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2153,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2802
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

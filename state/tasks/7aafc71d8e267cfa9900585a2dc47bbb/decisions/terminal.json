@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "आलेख, अनुच्छेद 4",
+      "severity": "minor",
+      "source_quote": "“They lifted their skirts and stepped into the gurgling water.”",
+      "suggested_fix": "“उन्होंने अपनी स्कर्टें ऊपर उठाईं और कलकल करते पानी में उतर गईं।”",
+      "translation_quote": "“उन्होंने अपनी स्कर्टें ऊपर उठाईं और कलकल करते पानी में उतर गईं।”"
+    },
+    {
+      "location": "आलेख, अनुच्छेद 9",
+      "severity": "major",
+      "source_quote": "“She moved a rock, then screamed and scrambled up the bank to join Melissa.”",
+      "suggested_fix": "“एंजी ने एक पत्थर हटाया, फिर चीख पड़ी और तेजी से ढलान चढ़कर मेलिसा के पास आ गई।”",
+      "translation_quote": "“उसने एक पत्थर हटाया, फिर चीख पड़ी और तेजी से ढलान चढ़कर मेलिसा के पास आ गई।”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

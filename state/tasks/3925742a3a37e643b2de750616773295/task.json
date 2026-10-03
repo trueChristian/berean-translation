@@ -2,7 +2,6 @@
   "article_id": "73def952-dd77-4a51-b030-27713e0cedd2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 5992
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 530,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 360,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3839,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3836,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4369
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, avsnittet som begynner «Plutselig skjønte Melissa…»",
+      "location": "Avsnittet der Angies storebror konfronterer jentene",
       "severity": "major",
-      "source_quote": "“Suddenly, realizing she was alone, Melissa turned around and saw that Angie was still at the entrance of the tunnel looking into a pool of water. She moved a rock, then screamed and scrambled up the bank to join Melissa.”",
-      "suggested_fix": "Behold Melissa som den som snur seg, men gjør det tydelig at Angie flytter steinen, skriker og klatrer opp. For eksempel: «Plutselig skjønte Melissa at hun var alene. Hun snudde seg og så at Angie fortsatt sto ved inngangen til tunnelen og så ned i en vannpytt. Angie flyttet på en stein, skrek og klatret opp skråningen for å komme bort til Melissa.»",
-      "translation_quote": "«Plutselig skjønte Melissa at hun var alene. Hun snudde seg og så at Angie fortsatt sto ved inngangen til tunnelen og så ned i en vannpytt. Angie flyttet på en stein, skrek og klatret opp skråningen for å komme bort til Melissa.»"
+      "source_quote": "“You broke the oar. ... I’m going to tell Mom that you broke the oar.”",
+      "suggested_fix": "Endre «Dere ødela åra» og «Jeg skal fortelle mamma at dere ødela åra» til «Du ødela åra» og «Jeg skal fortelle mamma at du ødela åra», slik at beskyldningen ikke tillegges begge jentene.",
+      "translation_quote": "«Dere ødela åra. ... Jeg skal fortelle mamma at dere ødela åra.»"
     }
   ],
+  "finished_at": "2026-10-03T16:45:39+00:00",
   "id": "3925742a3a37e643b2de750616773295",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nob",
@@ -165,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
   "translation_model_actual": "gpt-6-luna"

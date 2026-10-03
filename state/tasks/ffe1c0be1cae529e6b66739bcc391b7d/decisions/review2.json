@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "III. Patterns of True Worship, prayer paragraph (Acts 6:4)",
+      "severity": "major",
+      "source_quote": "Prayer meeting attendance was not a monthly or a bimonthly option (Act 6:4)!",
+      "suggested_fix": "Replace the reference with “(Matendo 6:4)” and translate the sentence as “Kuhudhuria mikutano ya maombi halikuwa chaguo la kila mwezi au la kila baada ya miezi miwili (Matendo 6:4)!”",
+      "translation_quote": "Kuhudhuria mikutano ya maombi halikuwa chaguo la mara moja kwa mwezi au mara mbili kwa mwezi (Matendo 6:4)!"
+    },
+    {
+      "location": "III. Patterns of True Worship, prayer paragraph (Acts 12:5)",
+      "severity": "major",
+      "source_quote": "When Peter was in prison, they had a voluntary, round-the-clock, prayer chain (Acts 12:5).",
+      "suggested_fix": "Translate “round-the-clock” as continuous coverage around the clock, for example: “Petro alipokuwa gerezani, waliendesha mnyororo wa maombi wa hiari uliodumu saa zote (Matendo 12:5).”",
+      "translation_quote": "Petro alipokuwa gerezani, walikuwa na mnyororo wa maombi wa hiari wa saa zote (Matendo 12:5)."
+    },
+    {
+      "location": "III. Patterns of True Worship, singing subsection, Ephesians 5:19 quotation",
+      "severity": "major",
+      "source_quote": "“Making melody in your heart” involves the accompaniment of the heart.",
+      "suggested_fix": "Revise the quotation and its explanation to convey making music in the heart, rather than making a musical sound. For example: “ ‘Kufanya muziki moyoni mwako’ kunamaanisha kuimba kwa kuambatana na moyo.” Preserve the source’s emphasis that the heart accompanies the singing.",
+      "translation_quote": "“Kufanya sauti ya muziki moyoni mwako” kunahusisha moyo kuandamana na uimbaji."
+    },
+    {
+      "location": "Works Cited, final entry",
+      "severity": "major",
+      "source_quote": "The Menace of the Religious Movie",
+      "suggested_fix": "Translate the title as “Tishio la Filamu ya Kidini,” retaining the singular meaning of “Movie.”",
+      "translation_quote": "Tishio la Filamu za Kidini"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

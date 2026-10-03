@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "166882a7-94e8-404a-b23a-9971146351aa",
+    "response_id": "chatcmpl-EUsMw8ioXRFAy8U410bzBNKV4lCCH",
+    "usage": {
+      "completion_tokens": 504,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9062,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9059,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9566
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, “In the Beginning” paragraph beginning “We don’t know much…”",
+        "severity": "major",
+        "source_quote": "“...God saw every thing that he had made, and, behold, it was very good…”",
+        "suggested_fix": "Translate the quotation as “...ঈশ্বর তাঁর সৃষ্ট সমস্ত কিছু দেখলেন, আর দেখলেন, সেগুলি অতি উত্তম...” while retaining the existing Bengali book name, verse number, and HTML structure.",
+        "translation_quote": "“ঈশ্বর আপনার নির্মিত সমস্ত বস্তু দেখিলেন, আর, দেখ, সে সকলই অতি উত্তম…”"
+      },
+      {
+        "location": "source.html, paragraph beginning “The Old Testament law was restrictive…”",
+        "severity": "major",
+        "source_quote": "“Under Kosher Law, the number of clean animals was far outweighed by the numbers of unclean animals.”",
+        "suggested_fix": "Correct the comparison to state that the number of clean animals was far fewer than the number of unclean animals; for example: “কোশের বিধি অনুযায়ী, অশুচি প্রাণীর সংখ্যার তুলনায় শুচি প্রাণীর সংখ্যা ছিল অনেক কম।”",
+        "translation_quote": "“কোশের বিধি অনুযায়ী, শুচি প্রাণীর তুলনায় অশুচি প্রাণীর সংখ্যা ছিল অনেক বেশি।”"
+      },
+      {
+        "location": "source.html, paragraph beginning “The healthiest thing is to eat carbohydrates moderately…”",
+        "severity": "major",
+        "source_quote": "“A bowl of oatmeal may have a similar number of grams of carbohydrates as compared to a sugary breakfast cereal, but it will be broken down more slowly by our bodies and is easier for them to deal with.”",
+        "suggested_fix": "Correct the comparison so the oatmeal is said to be broken down more slowly and be easier for the body to handle; for example: “এক বাটি ওটমিলে শর্করার পরিমাণ হয়তো চিনিযুক্ত সকালের নাশতার সিরিয়ালের কাছাকাছি, কিন্তু আমাদের দেহ এটি আরও ধীরে ভাঙে এবং সহজে সামলাতে পারে।”",
+        "translation_quote": "“এক বাটি ওটমিলে শর্করার পরিমাণ হয়তো চিনিযুক্ত সকালের নাশতার সিরিয়ালের কাছাকাছি, কিন্তু আমাদের দেহ ওটমিল আরও ধীরে ভাঙে এবং তা সামলানো দেহের পক্ষে সহজ।”"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

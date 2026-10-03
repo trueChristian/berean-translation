@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Romans 8:28",
+      "severity": "major",
+      "source_quote": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose –Romans 8:28.",
+      "suggested_fix": "Replace the quoted sentence with: “En ons weet dat alles ten goede meewerk vir dié wat God liefhet, dié wat volgens sy voorneme geroep is –Romeine 8:28.” This preserves the source’s wording without adding God as the explicit agent of “work together.”",
+      "translation_quote": "En ons weet dat God alles ten goede laat meewerk vir dié wat Hom liefhet, dié wat geroep is volgens sy voorneme –Romeine 8:28."
+    },
+    {
+      "location": "First image alt text",
+      "severity": "minor",
+      "source_quote": "Storm clouds over a prairie road, left half of a two-page photograph",
+      "suggested_fix": "Translate “prairie” as “grasvlakte,” for example: alt=\"Stormwolke oor ’n pad deur ’n grasvlakte, linkerhelfte van ’n foto wat oor twee bladsye strek\".",
+      "translation_quote": "Stormwolke oor ’n prairieweg, linkerhelfte van ’n foto wat oor twee bladsye strek"
+    },
+    {
+      "location": "Final image alt text",
+      "severity": "minor",
+      "source_quote": "Storm clouds over a prairie, right half of a two-page photograph",
+      "suggested_fix": "Translate “prairie” as “grasvlakte,” for example: alt=\"Stormwolke oor ’n grasvlakte, regterhelfte van ’n foto wat oor twee bladsye strek\".",
+      "translation_quote": "Stormwolke oor ’n prairie, regterhelfte van ’n foto wat oor twee bladsye strek"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

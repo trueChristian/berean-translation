@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “But she beat him to the subject”",
+      "severity": "major",
+      "source_quote": "“I mean, jumping around like that in front of the maidens, just like a vain fellow from off the streets!”",
+      "suggested_fix": "Vertaal “a vain fellow” als bijvoorbeeld “een ijdele kerel”; vervang alleen “een nietsnut van de straat” door een formulering die ijdelheid weergeeft.",
+      "translation_quote": "[‘Ik bedoel: zo rondspringen voor de dienstmeisjes, net als een nietsnut van de straat!’]"
+    },
+    {
+      "location": "HTML, paragraph beginning “Every day I choose to honor or dishonor”",
+      "severity": "minor",
+      "source_quote": "“My choice determines the reciprocating favor or loss.”",
+      "suggested_fix": "Vervang “wederkerige genegenheid” door een formulering die wederkerige gunst of waardering weergeeft, bijvoorbeeld “wederkerige waardering of verlies”.",
+      "translation_quote": "“Mijn keuze bepaalt of ik wederkerige genegenheid ontvang of verlies.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “At dusk that evening”",
+      "severity": "minor",
+      "source_quote": "“An overweight man with grease-covered clothes”",
+      "suggested_fix": "Vervang “kleren onder het vet” door “met vet besmeurde kleren”.",
+      "translation_quote": "“Een zwaarlijvige man met kleren onder het vet”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

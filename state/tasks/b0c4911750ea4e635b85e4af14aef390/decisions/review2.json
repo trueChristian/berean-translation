@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Of course, there is a literal sense…”",
+      "severity": "major",
+      "source_quote": "Others are subliminal, and only our subconscious mind receives them.",
+      "suggested_fix": "Replace תת־ספיים with תת־סיפיים or another Hebrew equivalent of “subliminal,” for example: „אחרים הם מסרים תת־סיפיים, ורק תת־המודע שלנו קולט אותם.“",
+      "translation_quote": "אחרים הם תת־ספיים, ורק תת־המודע שלנו קולט אותם."
+    },
+    {
+      "location": "Paragraph beginning “Our minds are accustomed…”",
+      "severity": "minor",
+      "source_quote": "A sermon that litigates the soul is a revelation of the preacher.",
+      "suggested_fix": "Use wording that conveys a sermon contending with or confronting the soul, for example: „דרשה המתעמתת עם הנפש היא גילוי של המטיף.“",
+      "translation_quote": "דרשה המטיחה דברים בנפש היא גילוי של המטיף."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Corpo, parágrafo sobre a taxa metabólica basal",
+      "severity": "major",
+      "source_quote": "“They use height, weight, age, and gender to determine how many calories your body will burn in an average day.”",
+      "suggested_fix": "Trocar “sexo” por “gênero” para manter a distinção do original: “Elas usam altura, peso, idade e gênero para determinar quantas calorias seu corpo queimará em um dia comum.”",
+      "translation_quote": "“Elas usam altura, peso, idade e sexo para determinar quantas calorias seu corpo queimará em um dia comum.”"
+    },
+    {
+      "location": "Corpo, parágrafo sobre o objetivo do tratamento de peso",
+      "severity": "major",
+      "source_quote": "“The goal should never be simply to ‘take off ten pounds,’”",
+      "suggested_fix": "Corrigir a quantidade para refletir o original: “O objetivo nunca deve ser simplesmente ‘perder cerca de 4,5 quilos’, mas sim ter a melhor saúde possível.”",
+      "translation_quote": "“O objetivo nunca deve ser simplesmente ‘perder cinco quilos’, mas sim ter a melhor saúde possível.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "acc31364-290d-4ca3-98d7-23d72b0b824d",
+    "response_id": "chatcmpl-EUsNE6IN2WUqSGzqongdU6EMbg7Rk",
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2156,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2153,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2802
+    }
+  },
+  "received_at": "2026-10-03T16:45:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, second stanza, first line",
+        "severity": "major",
+        "source_quote": "At times we fret with downcast soul,",
+        "suggested_fix": "Αντικαταστήστε το «αγανακτούμε» με «ανησυχούμε», για παράδειγμα: «Κάποιες φορές ανησυχούμε με την ψυχή σκυθρωπή,»",
+        "translation_quote": "Κάποιες φορές αγανακτούμε με την ψυχή σκυθρωπή,"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

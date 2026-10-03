@@ -2,7 +2,6 @@
   "article_id": "b8181ffd-5861-420e-b92a-573b7e66fc3e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,54 @@
         },
         "total_tokens": 14369
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html, paragraph beginning “From a medical standpoint”",
-      "severity": "major",
-      "source_quote": "“It tends to increase insulin resistance”",
-      "suggested_fix": "Replace “ইনসুলিন প্রতিরোধী ক্ষমতা বাড়ার প্রবণতা থাকে” with “ইনসুলিন প্রতিরোধ ক্ষমতা বাড়ার প্রবণতা থাকে” (or “ইনসুলিনের প্রতি প্রতিরোধ বাড়ে”), so it says insulin resistance increases, rather than suggesting increased insulin resistance ability.",
-      "translation_quote": "“এতে ইনসুলিন প্রতিরোধী ক্ষমতা বাড়ার প্রবণতা থাকে”"
     },
     {
-      "location": "source.html, paragraph beginning “Some foods have almost no calories”",
-      "severity": "major",
-      "source_quote": "“then suddenly they aren’t the low-calorie foods they purport to be.”",
-      "suggested_fix": "Replace “হঠাৎ করেই সেগুলো আর সেই কম-ক্যালোরির খাবার থাকে না বলে দাবি করা হয়” with “তখন হঠাৎ করেই সেগুলো আর কথিত কম-ক্যালোরির খাবার থাকে না।”",
-      "translation_quote": "“হঠাৎ করেই সেগুলো আর সেই কম-ক্যালোরির খাবার থাকে না বলে দাবি করা হয়।”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 504,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9062,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9059,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9566
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html, “In the Beginning” paragraph beginning “We don’t know much…”",
+      "severity": "major",
+      "source_quote": "“...God saw every thing that he had made, and, behold, it was very good…”",
+      "suggested_fix": "Translate the quotation as “...ঈশ্বর তাঁর সৃষ্ট সমস্ত কিছু দেখলেন, আর দেখলেন, সেগুলি অতি উত্তম...” while retaining the existing Bengali book name, verse number, and HTML structure.",
+      "translation_quote": "“ঈশ্বর আপনার নির্মিত সমস্ত বস্তু দেখিলেন, আর, দেখ, সে সকলই অতি উত্তম…”"
+    },
+    {
+      "location": "source.html, paragraph beginning “The Old Testament law was restrictive…”",
+      "severity": "major",
+      "source_quote": "“Under Kosher Law, the number of clean animals was far outweighed by the numbers of unclean animals.”",
+      "suggested_fix": "Correct the comparison to state that the number of clean animals was far fewer than the number of unclean animals; for example: “কোশের বিধি অনুযায়ী, অশুচি প্রাণীর সংখ্যার তুলনায় শুচি প্রাণীর সংখ্যা ছিল অনেক কম।”",
+      "translation_quote": "“কোশের বিধি অনুযায়ী, শুচি প্রাণীর তুলনায় অশুচি প্রাণীর সংখ্যা ছিল অনেক বেশি।”"
+    },
+    {
+      "location": "source.html, paragraph beginning “The healthiest thing is to eat carbohydrates moderately…”",
+      "severity": "major",
+      "source_quote": "“A bowl of oatmeal may have a similar number of grams of carbohydrates as compared to a sugary breakfast cereal, but it will be broken down more slowly by our bodies and is easier for them to deal with.”",
+      "suggested_fix": "Correct the comparison so the oatmeal is said to be broken down more slowly and be easier for the body to handle; for example: “এক বাটি ওটমিলে শর্করার পরিমাণ হয়তো চিনিযুক্ত সকালের নাশতার সিরিয়ালের কাছাকাছি, কিন্তু আমাদের দেহ এটি আরও ধীরে ভাঙে এবং সহজে সামলাতে পারে।”",
+      "translation_quote": "“এক বাটি ওটমিলে শর্করার পরিমাণ হয়তো চিনিযুক্ত সকালের নাশতার সিরিয়ালের কাছাকাছি, কিন্তু আমাদের দেহ ওটমিল আরও ধীরে ভাঙে এবং তা সামলানো দেহের পক্ষে সহজ।”"
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "60cc624a1ad1c762d4bbbd13222898d1",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ben",
@@ -172,13 +200,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

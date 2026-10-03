@@ -2,7 +2,6 @@
   "article_id": "0b798d8c-e0b8-43a2-8a76-1c9d527f25b9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c22358731bb49eca6b2c9cdac2e4127",
   "campaign": "gh-37108628649",
   "created_at": "2026-10-03T08:09:56+00:00",
   "events": [
@@ -65,25 +64,89 @@
         },
         "total_tokens": 17970
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, section I.a, Hebrews 11:6 quotation",
-      "severity": "major",
-      "source_quote": "“Faith is the substance of things hoped for, the evidence of things not seen (or demonstrated).”",
-      "suggested_fix": "Vertaal de haakjes zo dat ze aansluiten bij ‘dingen die men niet ziet’, bijvoorbeeld: ‘een bewijs van de dingen waarop men hoopt, en een bewijs van de dingen die men niet ziet (of die niet worden gedemonstreerd).’",
-      "translation_quote": "„Het geloof nu is een vaste grond van de dingen die men hoopt, en een bewijs van de zaken die men niet ziet (of demonstreert).”"
     },
     {
-      "location": "HTML, section III.a, paragraph about prayer-meeting attendance",
-      "severity": "minor",
-      "source_quote": "“Prayer meeting attendance was not a monthly or a bimonthly option”",
-      "suggested_fix": "Gebruik een formulering die ‘bimonthly’ niet vastlegt op tweemaal per maand, bijvoorbeeld: ‘Deelname aan gebedsbijeenkomsten was geen maandelijkse of tweemaandelijkse keuze.’",
-      "translation_quote": "“Deelname aan gebedsbijeenkomsten was geen keuze die men maandelijks of tweemaal per maand kon maken”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 887,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11527,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11524,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12414
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, onderdeel I.a, alinea over Johannes 5:24–25",
+      "severity": "major",
+      "source_quote": "“He that heareth my word, and believeth on him that sent me”",
+      "suggested_fix": "Vertaal de zin met de betekenis dat wie Jezus’ woord hoort én gelooft in Degene die Hem gezonden heeft, eeuwig leven heeft. Bijvoorbeeld: “wie mijn woord hoort en gelooft in Hem die Mij gezonden heeft, heeft eeuwig leven”.",
+      "translation_quote": "“wie mijn woord hoort en Hem gelooft die Mij gezonden heeft, heeft eeuwig leven”"
+    },
+    {
+      "location": "HTML, onderdeel I.a, alinea over Hebreeën 11:6",
+      "severity": "major",
+      "source_quote": "“the evidence of things not seen (or demonstrated)”",
+      "suggested_fix": "Behoud de tegenstelling met wat gezien of aangetoond wordt, zonder de betekenis om te keren; bijvoorbeeld: “een bewijs van wat niet gezien (of gedemonstreerd) wordt.”",
+      "translation_quote": "“een bewijs van de zaken die men niet ziet (of die niet worden aangetoond)”"
+    },
+    {
+      "location": "HTML, onderdeel I.b, alinea over de Farizeeën en Mattheüs 6:5–7",
+      "severity": "major",
+      "source_quote": "“religious devotion was to be private, in ‘thy closet.’”",
+      "suggested_fix": "Herstel dat de godsdienstige toewijding privé hoort te zijn, in de binnenkamer; bijvoorbeeld: “godsdienstige toewijding privé hoorde te zijn, in ‘uw binnenkamer’.”",
+      "translation_quote": "“godsdienstige toewijding privé hoorde te zijn, ‘in uw binnenkamer’.”"
+    },
+    {
+      "location": "HTML, onderdeel II.a",
+      "severity": "major",
+      "source_quote": "“if a person can pretend to be equal to Christ”",
+      "suggested_fix": "Behoud de vergelijking met Christus: “Als iemand kan doen alsof hij gelijk is aan Christus, waarom zou hij dan eerbied hebben voor een hoger wezen?”",
+      "translation_quote": "“Als iemand zich immers kan voordoen als iemand die aan Christus gelijk is”"
+    },
+    {
+      "location": "HTML, onderdeel III.a, alinea over Handelingen 4:31",
+      "severity": "major",
+      "source_quote": "“Their prayer meeting had seismic results (Acts 4:31)!”",
+      "suggested_fix": "Vertaal de beeldspraak als zeer ingrijpende of schokkende gevolgen, niet als een aardverschuiving; bijvoorbeeld: “Hun gebedsbijeenkomst had ingrijpende gevolgen (Handelingen 4:31)!”",
+      "translation_quote": "“Hun gebedsbijeenkomst had aardverschuivende gevolgen (Handelingen 4:31)!”"
+    },
+    {
+      "location": "HTML, onderdeel III.c, alinea over Kolossenzen 3:16",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Vertaal “with grace” als met genade, niet als met dankbaarheid; bijvoorbeeld: “zing met genade in uw hart voor de Heer.”",
+      "translation_quote": "“zing met dankbaarheid in uw hart voor de Heere”"
+    },
+    {
+      "location": "HTML, onderdeel IV, alinea over Johannes 4:22c",
+      "severity": "major",
+      "source_quote": "“‘Salvation is of Jesus’ (4:22c).”",
+      "suggested_fix": "Behoud de expliciete verwijzing naar Jezus als bron van redding; bijvoorbeeld: “De redding komt van Jezus” (4:22c).",
+      "translation_quote": "“De zaligheid is uit Jezus” (4:22c)."
+    },
+    {
+      "location": "HTML, Works Cited, derde en vierde titel",
+      "severity": "minor",
+      "source_quote": "“The Vance Havner Quotebook” / “The Menace of the Religious Movie”",
+      "suggested_fix": "Vertaal de titels als gewone, vertaalbare boektitels, met behoud van namen en overige bibliografische gegevens; bijvoorbeeld: “Het citatenboek van Vance Havner” en “De dreiging van de religieuze film”.",
+      "translation_quote": "“The Vance Havner Quotebook” / “The Menace of the Religious Movie”"
+    }
+  ],
+  "finished_at": "2026-10-03T16:45:40+00:00",
   "id": "8f86cf7d38dc609449fa3bc5fc603823",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nld",
@@ -172,13 +235,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

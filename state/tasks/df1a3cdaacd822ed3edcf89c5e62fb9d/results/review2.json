@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2b6580e7-c534-4e7b-926e-278c1b96a134",
+    "response_id": "chatcmpl-EUsMQisavKU16ChufIS5qTkz8oKEH",
+    "usage": {
+      "completion_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1840,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1837,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2455
+    }
+  },
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, paragraph 16",
+        "severity": "major",
+        "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+        "suggested_fix": "Он хочет, чтобы я оказался верным; Он — Жизнь и Путь.",
+        "translation_quote": "Он хочет, чтобы я был испытан; Он — Жизнь и Путь."
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

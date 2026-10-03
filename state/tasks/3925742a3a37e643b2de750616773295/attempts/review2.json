@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Avsnittet der Angies storebror konfronterer jentene\",\"severity\":\"major\",\"source_quote\":\"“You broke the oar. ... I’m going to tell Mom that you broke the oar.”\",\"suggested_fix\":\"Endre «Dere ødela åra» og «Jeg skal fortelle mamma at dere ødela åra» til «Du ødela åra» og «Jeg skal fortelle mamma at du ødela åra», slik at beskyldningen ikke tillegges begge jentene.\",\"translation_quote\":\"«Dere ødela åra. ... Jeg skal fortelle mamma at dere ødela åra.»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 534,
+    "content_evidence_truncated": false,
+    "content_sha256": "12bd50b65b42646bf988a905df5ccd05c30a5cc9b494d7158ab562ea4b1d3c47",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 530,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 360,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3839,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3836,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4369
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

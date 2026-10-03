@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Jesus calls us to love our enemies”",
+      "severity": "major",
+      "source_quote": "The American church calls ‘defending ourselves’, our families, and our country, heroism or bravery; the Bible calls it.",
+      "suggested_fix": "Keep the sentence’s deliberate unfinished ending, but render it faithfully in Dutch, for example: “De Amerikaanse kerk noemt ‘onszelf’, onze gezinnen en ons land ‘verdedigen’ heldhaftig of moedig; de Bijbel noemt het.”",
+      "translation_quote": "De Amerikaanse kerk noemt ‘onszelf’, onze gezinnen en ons land ‘verdedigen’ heldhaftig of moedig; de Bijbel noemt het."
+    },
+    {
+      "location": "Paragraph beginning “I was speaking to a young lady in a Protestant setting”",
+      "severity": "major",
+      "source_quote": "Being cool does not define a true Christian but being rejected for the sake of the Gospel does.",
+      "suggested_fix": "Translate the contrast and the claim that rejection for the Gospel does define a true Christian; for example: “Cool zijn definieert een ware christen niet, maar afgewezen worden omwille van het evangelie wel.”",
+      "translation_quote": "Cool zijn maakt je geen ware christen, maar afgewezen worden omwille van het evangelie wel."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

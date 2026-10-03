@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Абзац с цитатой Матфея 6:24",
+      "severity": "major",
+      "source_quote": "“...or else he will hold to the one, and despise the other.”",
+      "suggested_fix": "Заменить соответствующий фрагмент цитаты на «…или будет держаться одного, а другого презирать»; остальные части цитаты и ссылку оставить без изменений.",
+      "translation_quote": "«…или одному станет усердствовать, а о другом нерадеть»"
+    },
+    {
+      "location": "Абзац о протестантском реформаторе Мартине Лютере",
+      "severity": "major",
+      "source_quote": "“The Anabaptist people were not respecters of people.”",
+      "suggested_fix": "Заменить «Анабаптисты не считались с лицами» на «Анабаптисты не оказывали предпочтения людям» либо на другой точный русский эквивалент смысла: они не проявляли пристрастия к людям.",
+      "translation_quote": "«Анабаптисты не считались с лицами»"
+    },
+    {
+      "location": "Абзац о протестантской молодой женщине",
+      "severity": "major",
+      "source_quote": "“Later I noticed her with her friends pointing and laughing at me.”",
+      "suggested_fix": "Заменить на «Позже я заметил, как она вместе со своими друзьями показывала на меня пальцем и смеялась».",
+      "translation_quote": "«Позже я увидел, как она показывала на меня своим друзьям и смеялась вместе с ними»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

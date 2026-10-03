@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "location": "본문, I.a, 출애굽기 20:23 인용",
+      "severity": "major",
+      "source_quote": "Ye shall not make with me gods of silver, neither shall ye make unto you gods of gold",
+      "suggested_fix": "인용문을 다음처럼 고치세요: “너희는 나와 함께 은으로 신들을 만들지 말며, 너희를 위하여 금으로 신들을 만들지 말지니라.”",
+      "translation_quote": "너희는 나와 함께 은으로 신들을 만들지 말며, 너희를 위하여 금으로 신들을 만들지 말지니라 –출애굽기 20:23."
+    },
+    {
+      "location": "본문, I.a, 마태복음 13:9 인용",
+      "severity": "major",
+      "source_quote": "Who hath ears to hear, let him hear",
+      "suggested_fix": "인용문을 다음처럼 고치세요: “들을 귀 있는 자는 들으라.”",
+      "translation_quote": "귀 있는 자는 들으라 –마태복음 13:9."
+    },
+    {
+      "location": "본문, I.a, 요한복음 5:24-25 인용",
+      "severity": "major",
+      "source_quote": "He that heareth my word, and believeth on him that sent me, hath everlasting life … The hour is coming, and now is, when the dead shall hear the voice of the Son of God: and they that hear shall live.",
+      "suggested_fix": "인용문을 다음처럼 고치세요: “내 말을 듣고 나를 보내신 이를 믿는 자는 영생을 얻었고 … 죽은 자들이 하나님의 아들의 음성을 들을 때가 오나니 곧 이때라. 듣는 자는 살아나리라.”",
+      "translation_quote": "내 말을 듣고 또 나 보내신 이를 믿는 자는 영생을 얻었고 … 죽은 자들이 하나님의 아들의 음성을 들을 때가 오나니 곧 이때라 듣는 자는 살아나리라."
+    },
+    {
+      "location": "본문, I.a, 히브리서 11:6 인용",
+      "severity": "major",
+      "source_quote": "the evidence of things not seen (or demonstrated)",
+      "suggested_fix": "괄호 안을 “(또는 드러나지 않은 것들)”처럼 고쳐 원문의 ‘demonstrated’가 ‘보이지 않는 것’의 대안적 설명임을 보존하세요.",
+      "translation_quote": "보이지 않는 것들(또는 시연된 것들)의 증거니."
+    },
+    {
+      "location": "본문, I.b, 마태복음 6:5-7 관련 서술",
+      "severity": "major",
+      "source_quote": "The Pharisees’ sole motivation to pray in public was to be seen of men",
+      "suggested_fix": "“바리새인들이 공개적으로 기도한 유일한 동기는 사람들에게 보이기 위해서였습니다”를 “바리새인들이 공개적으로 기도한 주된 동기는 사람들에게 보이기 위해서였습니다”로 고치세요.",
+      "translation_quote": "바리새인들이 공개적으로 기도한 유일한 동기는 사람들에게 보이기 위해서였습니다."
+    },
+    {
+      "location": "본문, III.a, 사도행전 2:42 인용",
+      "severity": "major",
+      "source_quote": "And they continued stedfastly … in prayers",
+      "suggested_fix": "인용문을 “그들이 … 기도에 힘쓰니라”처럼 고쳐, 원문의 ‘steadfastly’(힘써 지속함)를 반영하세요.",
+      "translation_quote": "그들이 … 기도하기를 전혀 힘쓰니라"
+    },
+    {
+      "location": "본문, III.a, 사도행전 16:13 인용",
+      "severity": "major",
+      "source_quote": "…prayer was wont to be made…",
+      "suggested_fix": "인용문을 “그곳은 … 기도하는 곳이었으므로…”처럼 고쳐 원문의 기도 장소라는 뜻을 보존하세요.",
+      "translation_quote": "…기도하는 곳이 있었으므로…"
+    },
+    {
+      "location": "본문, III.b, 마가복음 1:14 인용",
+      "severity": "major",
+      "source_quote": "…[He] came into Galilee, preaching the gospel of the kingdom of God",
+      "suggested_fix": "인용문을 “…[예수께서] 갈릴리에 오셔서 하나님 나라의 복음을 전파하시며”처럼 고쳐, ‘전파하여’로 끝나 문장이 미완성인 문제를 바로잡으세요.",
+      "translation_quote": "…갈릴리에 오셔서 하나님의 나라의 복음을 전파하여"
+    },
+    {
+      "location": "본문, III.c, 골로새서 3:16 인용",
+      "severity": "major",
+      "source_quote": "singing with grace in your hearts to the Lord",
+      "suggested_fix": "인용문 끝을 “마음에 은혜로 주께 노래하며”처럼 고쳐 ‘grace’(은혜)가 감사로 바뀌지 않도록 하세요.",
+      "translation_quote": "감사하는 마음으로 하나님을 찬양하고"
+    },
+    {
+      "location": "본문, III.c, 요한복음 4:24 인용",
+      "severity": "major",
+      "source_quote": "…must worship him in spirit and in truth",
+      "suggested_fix": "인용문을 “...그를 영과 진리로 예배해야 하느니라”처럼 고쳐 ‘him’(그를)을 보존하세요.",
+      "translation_quote": "…영과 진리로 예배할지니라"
+    },
+    {
+      "location": "본문, IV, 요한복음 4:22a 인용 및 해설",
+      "severity": "major",
+      "source_quote": "“Ye worship ye know not what”",
+      "suggested_fix": "인용을 “너희는 너희가 알지 못하는 것을 예배한다”로 고치세요. 현재 번역은 ‘너희가 예배하는 대상’을 ‘너희’가 예배하는 것으로 바꾸어 문장 의미가 달라집니다.",
+      "translation_quote": "“너희는 알지 못하는 것을 예배하고”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

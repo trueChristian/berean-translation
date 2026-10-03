@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T16:45:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, paragraph 16\",\"severity\":\"major\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"Он хочет, чтобы я оказался верным; Он — Жизнь и Путь.\",\"translation_quote\":\"Он хочет, чтобы я был испытан; Он — Жизнь и Путь.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 393,
+    "content_evidence_truncated": false,
+    "content_sha256": "8bf5830211dfc0ea2b7cdb2e08bde74dc5fc6bf7e1e29926cd8effd7e689da24",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1840,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1837,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2455
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
