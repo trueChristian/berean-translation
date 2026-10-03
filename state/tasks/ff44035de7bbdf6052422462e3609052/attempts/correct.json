@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:36:14+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\\\" alt=\\\"안개 낀 숲의 풍경\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>이토록 위대하신 하나님이 계신데, 어찌 두려워하랴?<br>\\n    바다와 몰아치는 폭풍도 다스리시네.<br>\\n    내일이 오기도 전에 내일을 아시고,<br>\\n    우리 머리카락의 수까지 아시네.</p>\\n\\n    <p>이런 하나님을 어찌 의심하랴?<br>\\n    어찌하여 어떤 이들은 의심하고, 잘못된 것을 구하랴?<br>\\n    성경은 “주님을 신뢰하라”고 말씀하셨네.<br>\\n    그런데 우리는 도리어 우리 자신의 이해를 의지하는가?</p>\\n\\n    <p>모든 것을 아시는 그분께도 참으로 이해하기 어려울 것 같네.<br>\\n    모든 기적이 말씀 한마디로 이루어졌으니!<br>\\n    오늘도 이 세상을 두루 살피시며,<br>\\n    지체 없이 신뢰할 이를 찾으시네.</p>\\n\\n    <p>이 세상의 것들은 참 눈부시고 빠르게 지나가네.<br>\\n    이제 하나님은 필요 없는가, 어쩌면 시대에 뒤떨어진 분인가?!<br>\\n    어리석은 생각은 그만두세. 우리 모두 진리를 아네.<br>\\n    우리는 어려서부터 하나님께서 일하시는 것을 보아 왔네.</p>\\n\\n    <p>전능하신 하나님을 대신할 것은 아무것도 없네;<br>\\n    그렇지 않다고 말한다면 참으로 이상하게 들리리라.<br>\\n    하나님께서는 교회가 다시 한번 자신을 신뢰하기를 기다리시네.<br>\\n    문 앞에 서서 두드리시네. 그대는 문을 열겠는가?</p>\\n\\n    <p>곤경에 처했을 때나 삶이 너무 힘들 때만이 아니라,<br>\\n    매 순간 그대의 두려움을 떨쳐 버리라.<br>\\n    우리 시대에 다시금 한 백성을 찾고 계시네,<br>\\n    하나님을 <strong><em>신뢰</em></strong>하며 그분의 능력을 드러낼 백성을.</p>\\n\\n    <p class=\\\"byline\\\"><em>배리 그랜트 지음</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"신뢰\"}",
+    "content_bytes": 2161,
+    "content_evidence_truncated": false,
+    "content_sha256": "feb47393c5e155daa761f686fd29d16263f07e3be80d2d919304b4c6fe59459a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2225,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2222,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2999
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

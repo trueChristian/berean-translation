@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "36040431-df49-43e3-bb34-3944c13ee9e3",
+    "response_id": "chatcmpl-EUsFfRHcaHCvsYm6vYoeB0UCALTmd",
+    "usage": {
+      "completion_tokens": 508,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1984,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1981,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2492
+    }
+  },
+  "received_at": "2026-10-03T11:36:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"Noter til Jeg elsker ditt rike, Herre\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>Jeg elsker ditt rike, Herre,<br>\n    huset der du bor;<br>\n    kirken som vår velsignede Frelser frelste<br>\n    med sitt eget dyrebare blod.<br>\n    Jeg elsker din kirke, Gud!<br>\n    Dens murer står for deg,<br>\n    dyrebare som din øyesten,<br>\n    skrevet på din hånd.</li>\n    <li>For henne skal mine tårer falle,<br>\n    for henne skal mine bønner stige;<br>\n    til henne skal jeg gi mine bekymringer og mitt strev,<br>\n    til strevet og bekymringene tar slutt.<br>\n    Mer enn min største glede<br>\n    setter jeg pris på hennes himmelske veier,<br>\n    hennes søte fellesskap, høytidelige løfter,<br>\n    hennes lovsanger om kjærlighet og lovprisning.</li>\n    <li>Jesus, du guddommelige venn,<br>\n    vår Frelser og vår konge!<br>\n    Din hånd skal føre stor utfrielse<br>\n    fra enhver snare og fiende.<br>\n    Like sikkert som din sannhet består,<br>\n    skal Sion få<br>\n    jordens største herlighet,<br>\n    og himmelens enda større salighet.</li>\n  </ol>\n\n  <p>Tekst av Timothy Dwight<br>\n  Melodi av A. B. Everett</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Jeg elsker ditt rike, Herre"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "099e7114-b543-4ea2-b451-6e6e3f11a339",
+    "response_id": "chatcmpl-EUsHDlTSm5HUj7VF3tnEDVdhd1hhO",
+    "usage": {
+      "completion_tokens": 827,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 259,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2137,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2134,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2964
+    }
+  },
+  "received_at": "2026-10-03T11:36:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"‘주님의 나라를 사랑합니다’ 악보\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>주님의 나라를 사랑합니다,<br>\n    주님 거하시는 집을;<br>\n    우리 복되신 구주께서<br>\n    귀하신 피로 구원하신 교회를.<br>\n    오 하나님, 주님의 교회를 사랑합니다!<br>\n    그 성벽은 주님 앞에 서 있고,<br>\n    주님의 눈동자처럼 귀하며,<br>\n    주님의 손에 새겨져 있습니다.</li>\n    <li>그 교회를 위해 눈물 흘리고,<br>\n    그 교회를 위해 기도를 올리며,<br>\n    근심과 수고를 그 교회에 바치리니,<br>\n    수고와 근심이 끝날 때까지 그러하리라.<br>\n    내 가장 큰 기쁨보다도<br>\n    그 교회의 하늘에 속한 길을 귀히 여기며,<br>\n    그 교회의 아름다운 교제와 엄숙한 서약,<br>\n    사랑과 찬양의 찬송을 귀히 여깁니다.</li>\n    <li>예수님, 거룩하신 친구시여,<br>\n    우리의 구주요 왕이시여!<br>\n    주님의 손이 온갖 올무와 원수에게서<br>\n    큰 구원을 가져오시리라.<br>\n    주님의 진리가 영원히 지속되듯 확실히,<br>\n    시온에는 주어지리라<br>\n    땅이 선사할 수 있는 가장 눈부신 영광과<br>\n    하늘의 더욱 밝은 행복이.</li>\n  </ol>\n\n  <p>작사: Timothy Dwight<br>\n  작곡: A. B. Everett</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "주님의 나라를 사랑합니다"
+  }
+}

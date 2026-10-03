@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:36:14+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"कुम्हार के चाक पर मिट्टी का बर्तन गढ़ते हाथ\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"मिट्टी का बर्तन गढ़ते हाथों की तस्वीर का अगला भाग\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>परमेश्वर रूपी कुम्हार मुझे गढ़ रहे हैं।<br>\\n    मैं कैसा पात्र बनूँगा:<br>\\n    ढोने, रखने या पीने के काम का?<br>\\n    दीपक, थाली या रसोई का सिंक?</p>\\n\\n    <p>मानती हूँ, मैं कुछ उथली-सी हूँ,<br>\\n    क्योंकि अपने ही बारे में सोचती बहुत हूँ।<br>\\n    पर एक बात ध्यान में रखो,<br>\\n    अकेला पात्र मैं ही नहीं हूँ।</p>\\n\\n    <p>मेरे जीवन के इर्द-गिर्द<br>\\n    और भी बहुत लोग हैं,<br>\\n    एक पति, एक बेटी,<br>\\n    और कुछ भाई भी हैं।</p>\\n\\n    <p>कुम्हार का हाथ उन पर भी है,<br>\\n    हममें से हर एक को नया बना रहा है।<br>\\n    एक और पात्र मुझसे टकराता है,<br>\\n    और अब मुझमें एक छोटी-सी गाँठ पड़ जाती है।</p>\\n\\n    <p>मैं दूसरे पात्र से जा टकराती हूँ,<br>\\n    लगता है अब उसमें दरार आ गई है।<br>\\n    फिर हम कुम्हार के चाक पर लौटते हैं,<br>\\n    जब तक फिर से उनमें उनका स्वरूप न दिखे।</p>\\n\\n    <p>अगर मेरे काम और मेरी कही बातें<br>\\n    दूसरों की मिट्टी की दिशा बदलती हैं,<br>\\n    तो मुझे बहुत सावधानी से आचरण करना होगा,<br>\\n    कहीं दूसरों के पात्र भीतर को न धँस जाएँ।</p>\\n\\n    <p>परमेश्वर की इच्छा है कि पात्र उपयोगी हों,<br>\\n    ऐसे जो आग की तपिश सह सकें।<br>\\n    बात केवल मेरी नहीं, केवल तुम्हारी नहीं;<br>\\n    परमेश्वर दूसरे पात्रों पर भी काम कर रहे हैं।</p>\\n  </div>\\n\\n  <p><em>एलिज़ाबेथ रस्ट द्वारा</em></p>\\n\\n  <p><em>यह कविता यिर्मयाह 18:1-6 में दिए गए धर्मशास्त्र के उस अंश से प्रेरित थी।</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"पात्र\"}",
+    "content_bytes": 3470,
+    "content_evidence_truncated": false,
+    "content_sha256": "be30ab798b6bb493c88faadfc098d82f8294875d8a16422e96d6aec3fc12aec5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 153,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2530,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2527,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3411
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

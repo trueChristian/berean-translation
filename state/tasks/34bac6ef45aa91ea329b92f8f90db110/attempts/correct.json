@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:36:13+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\\\" alt=\\\"کمھار کے چاک پر ہاتھ مٹی کا برتن بنا رہے ہیں\\\">\\n    <img src=\\\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\\\" alt=\\\"مٹی کا برتن بناتے ہاتھوں کی تصویر کا تسلسل\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>خدا کمہار مجھے ڈھال رہا ہے۔<br>\\n    میں کیسا برتن بنوں گی:<br>\\n    اٹھانے، رکھنے یا پینے کے لیے؟<br>\\n    چراغ، تھالی یا باورچی خانے کا سنک؟</p>\\n\\n    <p>مانتی ہوں، کچھ سطحی ہوں میں،<br>\\n    اپنی ہی فکر میں ہوں میں۔<br>\\n    مگر ایک خیال ہے،<br>\\n    صرف میں ہی برتن نہیں ہوں۔</p>\\n\\n    <p>میری زندگی کے<br>\\n    آس پاس اور بھی ہیں،<br>\\n    شوہر، بیٹی،<br>\\n    اور کچھ بھائی۔</p>\\n\\n    <p>کمہار کا ہاتھ اُن پر بھی ہے،<br>\\n    ہم میں سے ہر ایک کو نیا بنا رہا ہے۔<br>\\n    ایک اور برتن مجھے ٹکر مارتا ہے،<br>\\n    اور اب مجھ میں ذرا سا ابھار آ جاتا ہے۔</p>\\n\\n    <p>میں دوسرے برتن سے ٹکرا جاتی ہوں،<br>\\n    لگتا ہے اُس میں دراڑ پڑ گئی ہے۔<br>\\n    ہم پھر کمہار کے چاک پر لوٹتے ہیں،<br>\\n    یہاں تک کہ اُس کی صورت پھر سے دکھائی دے۔</p>\\n\\n    <p>اگر میرے کام اور میری بات،<br>\\n    دوسروں کی مٹی کا رخ بدلتے ہیں،<br>\\n    تو مجھے بہت احتیاط سے چلنا ہوگا،<br>\\n    کہیں دوسروں کے برتن اندر سے دھنس نہ جائیں۔</p>\\n\\n    <p>خدا کی خواہش ہے کہ برتن کارآمد ہوں،<br>\\n    اور آگ کی تپش سہہ سکیں۔<br>\\n    بات صرف میری نہیں، اور صرف تمہاری بھی نہیں؛<br>\\n    خدا دوسرے برتنوں پر بھی کام کر رہا ہے۔</p>\\n  </div>\\n\\n  <p><em>از الزبتھ رسٹ</em></p>\\n\\n  <p><em>یہ نظم یرمیاہ 18:1-6 کے صحیفائی حوالے سے متاثر ہو کر لکھی گئی۔</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"برتن\"}",
+    "content_bytes": 2457,
+    "content_evidence_truncated": false,
+    "content_sha256": "81625eecace6a9f2f15427b078381b2eecac4007710f64bac3ea05300e5012f2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 709,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2461,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2458,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3170
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

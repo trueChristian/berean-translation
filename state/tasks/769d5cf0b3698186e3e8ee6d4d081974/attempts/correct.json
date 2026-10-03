@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T11:36:14+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\\\" alt=\\\"Туманный лесной пейзаж\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Если Бог так велик, чего же бояться?<br>\\n    Он управляет морем и возникающими бурями.<br>\\n    Он знает грядущее прежде, чем оно настанет.<br>\\n    И число волос на главе нашей знает.</p>\\n\\n    <p>Зачем же сомневаться в таком Боге?<br>\\n    Зачем сомневаться, задавать вопросы напрасно?<br>\\n    «Уповай на Господа», — сказано в Писании.<br>\\n    Но мы вместо этого на свой разум полагаемся?</p>\\n\\n    <p>Должно быть, Всеведущему это непонятно.<br>\\n    Одним словом Он совершал чудеса — и так многократно!<br>\\n    Он ныне взирает на мир, ищет повсюду,<br>\\n    Кто без промедления верить Ему будет.</p>\\n\\n    <p>Мирские дела так ярки и стремительны.<br>\\n    Нужен ли нам Бог? Может, Он уже старомоден?!<br>\\n    Хватит глупостей — истину знаем мы все.<br>\\n    Да, мы с юности видели, как действует Бог.</p>\\n\\n    <p>Ничто не заменит Всемогущего Бога;<br>\\n    Сказать иначе, конечно, звучало бы странно.<br>\\n    Он ждёт, когда церковь снова Ему доверится.<br>\\n    Он стоит и стучит; откроешь ли дверь?</p>\\n\\n    <p>Не только в беде, не только когда жизнь тяжела,<br>\\n    Но каждое мгновение не обращай внимания на свои страхи.<br>\\n    Он и ныне ищет народ, который вновь<br>\\n    С <strong><em>уверенностью</em></strong> в Боге являет Его силу.</p>\\n\\n    <p class=\\\"byline\\\"><em>Барри Грант</em></p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Уверенность\"}",
+    "content_bytes": 2479,
+    "content_evidence_truncated": false,
+    "content_sha256": "ec877d8eaf85a2bd24ae13fa4d234a265e75a9062f80880a41434b9efebecb67",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 917,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 319,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2732,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2729,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3649
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

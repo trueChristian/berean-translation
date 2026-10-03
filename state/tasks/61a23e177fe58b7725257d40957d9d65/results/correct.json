@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "775840fb-a14f-4e67-b65e-31f11e387615",
+    "response_id": "chatcmpl-EUsFvUWARaEcX8lxBtvPvrhUcvC3g",
+    "usage": {
+      "completion_tokens": 889,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 311,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2124,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2121,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3013
+    }
+  },
+  "received_at": "2026-10-03T11:36:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4e180a0e-db17-4e62-9eb8-da82bbe72d17\">\n  <figure>\n    <img src=\"/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg\" alt=\"Un paisaje de bosque envuelto en niebla\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Con un Dios tan grande, ¿por qué temer?<br>\n    Él gobierna el mar y las tormentas que se desatan.<br>\n    Conoce el mañana antes de que llegue.<br>\n    Sabe cuántos cabellos tenemos en la cabeza.</p>\n\n    <p>¿Por qué cuestionar a un Dios así?<br>\n    ¿Por qué algunos dudan o hacen preguntas equivocadas?<br>\n    «Confía en el Señor», dice la Escritura.<br>\n    Pero ¿no nos apoyamos, en cambio, en nuestro propio entendimiento?</p>\n\n    <p>Seguro que al Omnisciente le resulta confuso.<br>\n    ¡Todos los milagros se hicieron con una palabra!<br>\n    Hoy mira de un lado a otro en este mundo,<br>\n    buscando a alguien que confíe sin demora.</p>\n\n    <p>Las cosas de este mundo son tan brillantes y veloces.<br>\n    ¿Acaso necesitamos a Dios, que quizá ya sea anticuado?<br>\n    Basta de tonterías: todos conocemos la verdad.<br>\n    Hemos visto obrar a Dios, sí, desde nuestra juventud.</p>\n\n    <p>Nada puede reemplazar a nuestro Dios todopoderoso;<br>\n    Decir algo distinto ciertamente sonaría extraño.<br>\n    Él espera que la iglesia vuelva a confiar en Él.<br>\n    Está de pie y llama a la puerta: ¿abrirás?</p>\n\n    <p>No solo en un apuro, ni cuando la vida es demasiado dura,<br>\n    sino a cada instante, sin hacer caso de tus temores.<br>\n    En nuestros días, busca de nuevo a un pueblo<br>\n    que, con <strong><em>confianza</em></strong> en Dios, manifieste su poder.</p>\n\n    <p class=\"byline\"><em>por Barry Grant</em></p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "confianza"
+  }
+}

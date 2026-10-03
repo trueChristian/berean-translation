@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f793f38d-457a-4d38-9334-b685fa7b1ea2",
+    "response_id": "chatcmpl-EUsFemslqcRITRM4vJnb7VPPjY4Se",
+    "usage": {
+      "completion_tokens": 829,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 208,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2072,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2069,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2901
+    }
+  },
+  "received_at": "2026-10-03T11:36:13+00:00",
+  "result": {
+    "html": "<article data-article-id=\"11b11932-7978-4944-8e7e-16e48c9aef1a\">\n  <figure>\n    <img src=\"/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png\" alt=\"اے خداوند، میں تیری کلیسیا سے محبت کرتا ہوں کے نغمے کا نوٹیشن\">\n  </figure>\n\n  <ol class=\"lyrics\">\n    <li>اے خداوند، میں تیری بادشاہی سے محبت کرتا ہوں،<br>\n    اس گھر سے جہاں تو سکونت کرتا ہے؛<br>\n    اس کلیسیا سے جسے ہمارے مبارک نجات دہندہ نے<br>\n    اپنے بیش قیمت خون سے بچایا۔<br>\n    اے خدا، میں تیری کلیسیا سے محبت کرتا ہوں!<br>\n    اس کی دیواریں تیرے حضور قائم ہیں،<br>\n    تیری آنکھ کی پتلی کی مانند عزیز،<br>\n    اور تیرے ہاتھ پر لکھی ہوئی۔</li>\n    <li>اس کے لیے میرے آنسو بہیں گے،<br>\n    اس کے لیے میری دعائیں بلند ہوں گی؛<br>\n    میری فکریں اور محنتیں اس کے لیے ہوں،<br>\n    یہاں تک کہ محنت اور فکر کا خاتمہ ہو۔<br>\n    اپنی سب سے بڑی خوشی سے بڑھ کر<br>\n    میں اس کی آسمانی راہوں کو عزیز رکھتا ہوں،<br>\n    اس کی شیریں رفاقت، مقدس عہد،<br>\n    اس کے محبت اور ستائش کے گیت۔</li>\n    <li>اے یسوع، الٰہی دوست،<br>\n    ہمارے نجات دہندہ اور ہمارے بادشاہ!<br>\n    تیرا ہاتھ ہر پھندے اور دشمن سے<br>\n    بڑی رہائی بخشے گا۔<br>\n    جس طرح تیری سچائی ہمیشہ قائم رہے گی،<br>\n    صیون کو عطا ہوں گی<br>\n    وہ روشن ترین شانیں جو زمین دے سکتی ہے،<br>\n    اور آسمان کی اس سے بھی زیادہ روشن مسرت۔</li>\n  </ol>\n\n  <p>الفاظ: ٹموتھی ڈوائٹ<br>\n  دھن: اے. بی. ایوریٹ</p>\n\n  <p><em>PDHymns.com</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "اے خداوند، میں تیری بادشاہی سے محبت کرتا ہوں"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d4293ac-c5e5-442e-ae65-fc62db6ade13",
+    "response_id": "chatcmpl-EUsHJNifNi57lGHbchmWjoJmO0XNJ",
+    "usage": {
+      "completion_tokens": 1069,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 380,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2509,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3581
+    }
+  },
+  "received_at": "2026-10-03T11:36:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5\">\n  <figure>\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg\" alt=\"Mikono ikitengeneza chungu cha udongo kwenye gurudumu la mfinyanzi\">\n    <img src=\"/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg\" alt=\"Mwendelezo wa picha ya mikono ikitengeneza chungu cha udongo\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Mungu Mfinyanzi ananifinyanga.<br>\n    Nitakuwa chombo cha namna gani:<br>\n    Cha kubebea, kuhifadhia, au cha kunywea?<br>\n    Taa, sahani, au sinki la jikoni?</p>\n\n    <p>Ninakiri, nina mawazo ya juujuu kidogo,<br>\n    Kwa maana najitazama mno.<br>\n    Lakini hili ni wazo,<br>\n    Mimi si chungu pekee.</p>\n\n    <p>Katika maisha yangu<br>\n    wapo wengine wengi,<br>\n    Mume, binti,<br>\n    na kaka kadhaa.</p>\n\n    <p>Mkono wa Mfinyanzi uko juu yao pia,<br>\n    Akitufinyanga kila mmoja upya.<br>\n    Chungu kingine kinanigonga,<br>\n    Nami sasa napata uvimbe kidogo.</p>\n\n    <p>Nakigonga chungu kingine,<br>\n    naona sasa kina ufa.<br>\n    Tunarudi kwenye gurudumu la Mfinyanzi,<br>\n    Mpaka sura yake ionekane tena.</p>\n\n    <p>Ikiwa matendo yangu na maneno yangu,<br>\n    Yanabadilisha mwelekeo ambao udongo wa wengine unachukua,<br>\n    Basi lazima nitende kwa uangalifu mkubwa,<br>\n    Ili vyungu vya wengine visiwe na umbo lililopinda kuelekea ndani.</p>\n\n    <p>Matamanio ya Mungu ni vyungu vyenye matumizi,<br>\n    Vinavyoweza kustahimili moto.<br>\n    Si mimi tu, wala si wewe tu;<br>\n    Mungu anafanya kazi na vyombo vingine pia.</p>\n  </div>\n\n  <p><em>na Elizabeth Rust</em></p>\n\n  <p><em>Shairi hili lilitiwa moyo na kifungu cha Maandiko katika Yeremia 18:1-6.</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Vyungu"
+  }
+}
