@@ -10,12 +10,13 @@
     "active": 482,
     "continuation_cooldown": 9,
     "continuation_review_only_requires_attention": 11,
-    "eligible_available": 857,
-    "legacy_response_outcome_unknown_requires_owner_attention": 12
+    "eligible_available": 856,
+    "legacy_response_outcome_unknown_requires_owner_attention": 12,
+    "lineage_predecessor_changed_requires_attention": 1
   },
   "derived": true,
   "format_version": "1",
-  "hourly_allocated_usd": 0.0,
+  "hourly_allocated_usd": 1.0,
   "hourly_envelope_usd": 1.0,
   "hourly_funding_state": "available",
   "hourly_total_cap_usd": 10.0,
@@ -823,15 +824,14 @@
       "source_fingerprint": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
       "has_publication": false,
       "language": "ara",
       "latest_task": "45a3f4da22220f9642d293a6f2942860",
       "processing_status": "not_ready",
-      "reason": "eligible_available",
-      "remaining_cycles": 3,
-      "required_cycle_ceiling_usd": 0.551224,
+      "reason": "lineage_predecessor_changed_requires_attention",
+      "remaining_cycles": 2,
       "source_fingerprint": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1"
     },
     {
