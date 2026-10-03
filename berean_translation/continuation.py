@@ -43,11 +43,11 @@ def strategy(campaign, language):
     return json_hash({'models': models,
         'repair_prompt': campaign['prompts'].get('repair', campaign['prompts']['translation']),
         'review_prompt': campaign['prompts']['review'],
-        'language': campaign['language_settings'][language],
+        'language': {key: campaign['language_settings'][language][key] for key in ('name', 'tag', 'guidance')},
         'glossary': campaign['glossaries'].get(language, {}),
-        'prompt_contract': campaign['prompt_version'],
-        'max_output_tokens': campaign['max_output_tokens'],
-        'review_output_tokens': campaign['review_output_tokens'],
+        'byline_contract': ('source' if campaign.get('prompt_version') in (None, '1.0.0', '1.0.1') else 'source_context'),
+        'max_output_tokens': min(campaign['max_output_tokens'], campaign['models'][campaign['model']]['max_output_tokens']),
+        'review_output_tokens': min(campaign['review_output_tokens'], campaign['models'][campaign['review_model']]['max_output_tokens']),
         'quality_threshold': campaign['quality_threshold']})
 
 
@@ -108,7 +108,14 @@ def anchors(task, source):
     """
     source_text = normalize(unescape(re.sub(r'<[^>]*>', ' ', source['html'])) + ' ' +
                             ' '.join(str(source['article'].get(k) or '') for k in ('title', 'subtitle', 'section')))
-    findings = [f for f in task.get('findings', []) if f.get('severity') in ('major', 'critical')]
+    raw_findings = task.get('findings')
+    if (not isinstance(raw_findings, list) or any(
+            not isinstance(finding, dict) or any(
+                not isinstance(finding.get(key), str) for key in
+                ('severity', 'location', 'source_quote', 'translation_quote', 'suggested_fix'))
+            for finding in raw_findings)):
+        return None
+    findings = [f for f in raw_findings if f['severity'] in ('major', 'critical')]
     if not findings:
         return None
     result = []
@@ -123,6 +130,9 @@ def anchors(task, source):
 
 def next_reason(state, task, history, settings, next_strategy, *, automatic=False, at=None):
     """No paid work, mutations or policy switches occur during selection."""
+    if (task.get('stage') in ('review1', 'review2') and task.get('failure_kind') != 'quality_rejection'
+            and 'Final review failed' not in task.get('failure', '')):
+        return 'continuation_review_only_requires_attention'
     if not history:
         return 'lineage_evidence_missing_requires_attention' if task.get('downstream_recovery') else None
     if len(history) >= settings['max_cycles']:
@@ -141,6 +151,11 @@ def next_reason(state, task, history, settings, next_strategy, *, automatic=Fals
             return 'missing_completion_time_requires_attention'
         if ((at or datetime.now(timezone.utc)) - finished).total_seconds() < settings['cooldown_seconds']:
             return 'continuation_cooldown'
+    if task.get('failure_kind') == 'candidate_size_limit':
+        old_bound = last['selection'].get('cycle_budget', {}).get('max_candidate_bytes', 0)
+        if not automatic and settings['max_candidate_bytes'] > old_bound:
+            return None  # An explicit larger manual bound, still one counted cycle.
+        return 'continuation_candidate_size_requires_attention'
     if (task.get('failure_kind') != 'quality_rejection'
             and not (task.get('failure_kind') == 'invalid_result' and task.get('stage') in ('correct', 'translate'))):
         return 'continuation_technical_failure_requires_attention'

@@ -146,7 +146,7 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
                 ('ai-recover.yml', 'exact-recovery',
                  {'original_campaign', 'previous_task_ids', 'model', 'review_model', 'budget_usd', 'dry_run'}),
                 ('ai-repair.yml', 'downstream-recovery',
-                 {'model', 'review_model', 'max_articles', 'budget_usd', 'dry_run'})):
+                 {'model', 'review_model', 'max_articles', 'budget_usd', 'dry_run', 'max_candidate_bytes'})):
             with self.subTest(workflow=name):
                 document = workflow(name)
                 inputs = document['on']['workflow_dispatch']['inputs']

@@ -74,7 +74,7 @@ class WorkflowPublicationTests(unittest.TestCase):
         evidence = self.steps['Retain recovery evidence after a failed checkpoint']
         self.assertEqual(evidence['if'], 'failure()')
         self.assertEqual(evidence['with']['path'].splitlines(),
-                         ['state/', 'content/', 'index.json', 'STATUS.md'])
+                         ['state/', 'content/', 'index.json', 'STATUS.md', 'RECOVERY.json'])
 
     def test_source_automation_does_not_notify_or_deploy_the_website(self):
         for path in (ROOT / '.github').rglob('*'):
