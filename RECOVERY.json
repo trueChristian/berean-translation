@@ -828,7 +828,7 @@
       "has_publication": false,
       "language": "ara",
       "latest_task": "a19d02617ef33f0a6ed6a855da907b83",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1"
