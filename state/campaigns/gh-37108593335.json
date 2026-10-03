@@ -314,10 +314,10 @@
   ],
   "skipped": [],
   "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
-  "status": "active",
+  "status": "finished",
   "task_counts": {
-    "in_batch": 4,
-    "not_ready": 1
+    "complete": 1,
+    "not_ready": 4
   },
   "tasks": [
     "dfcbefa5ce7f1eb146837e4c72c63bf9",
