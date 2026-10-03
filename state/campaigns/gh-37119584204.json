@@ -2152,9 +2152,9 @@
   "status": "active",
   "structural_feedback_version": "1",
   "task_counts": {
-    "complete": 113,
-    "in_batch": 120,
-    "not_ready": 7
+    "complete": 114,
+    "in_batch": 116,
+    "not_ready": 10
   },
   "tasks": [
     "ccd21d6f8394a3bf665fa9c058b8ac96",
