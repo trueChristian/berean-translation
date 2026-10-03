@@ -2032,7 +2032,9 @@
   "status": "active",
   "structural_feedback_version": "1",
   "task_counts": {
-    "in_batch": 240
+    "complete": 113,
+    "in_batch": 120,
+    "not_ready": 7
   },
   "tasks": [
     "ccd21d6f8394a3bf665fa9c058b8ac96",

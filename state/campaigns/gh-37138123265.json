@@ -1349,6 +1349,9 @@
   "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
   "status": "active",
   "structural_feedback_version": "1",
+  "task_counts": {
+    "in_batch": 200
+  },
   "tasks": [
     "88e35ac9f0b167ab84e133008dd5d7c3",
     "ecd4f4dde8c3c7c6b4dffaac3c38648e",
