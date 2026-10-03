@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f1f242ab-0e92-45ad-bed7-c2834fddda19",
+    "response_id": "chatcmpl-EV1T9W1LhBGXzAhsOGJmWbo1XaHXu",
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9215,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9212,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9967
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening account, paragraph beginning «I det tempoet du drikker»",
+        "severity": "minor",
+        "source_quote": "“...find you an inpatient program to detox you...”",
+        "suggested_fix": "Rett skrivefeilen «avrus es» til «avruses» i setningen: «...et døgnbehandlingstilbud der du kan avruses og komme deg bort fra alkoholen.»",
+        "translation_quote": "«...et døgnbehandlingstilbud der du kan avrus es og komme deg bort fra alkoholen.»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

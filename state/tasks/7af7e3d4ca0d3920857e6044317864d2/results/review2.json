@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2d80e7db-1a6e-4cce-84c0-1f04fe21f5b0",
+    "response_id": "chatcmpl-EV1TNjtfHJmI6y3bkgmJZbVqSDGGf",
+    "usage": {
+      "completion_tokens": 796,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3029,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3828
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Primer párrafo",
+        "severity": "minor",
+        "source_quote": "My young preschool mind",
+        "suggested_fix": "Mi mente infantil nunca había visto tantos manjares en un solo lugar al mismo tiempo.",
+        "translation_quote": "Mi joven mente de preescolar"
+      },
+      {
+        "location": "Segundo párrafo",
+        "severity": "minor",
+        "source_quote": "We all have one common goal in mind. Together, we share and learn how to effectively communicate what is in our hearts",
+        "suggested_fix": "Todos tenemos un objetivo común. Juntos compartimos y aprendemos cómo comunicar eficazmente lo que hay en nuestros corazones",
+        "translation_quote": "Todos teníamos un objetivo común. Juntos compartimos y aprendemos cómo comunicar eficazmente lo que hay en nuestros corazones"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

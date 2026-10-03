@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Speaking to yourselves…” (Ephesians 5:19)",
+      "severity": "major",
+      "source_quote": "“singing and making melody in your heart to the Lord”",
+      "suggested_fix": "Revise the quoted phrase to preserve both singing and making melody in the heart to the Lord, for example: “sing en maak in julle harte melodie tot eer van die Here”.",
+      "translation_quote": "“sing en loof die Here met julle hele hart”"
+    },
+    {
+      "location": "Final paragraph (Colossians 3:16)",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Replace “met dankbaarheid” with “met genade” so the quotation preserves the source’s reference to grace: “sing met genade in julle harte tot eer van die Here”.",
+      "translation_quote": "“sing met dankbaarheid in julle harte tot eer van die Here”"
+    },
+    {
+      "location": "Lead paragraph",
+      "severity": "minor",
+      "source_quote": "“the ravens”",
+      "suggested_fix": "Use the Afrikaans name for ravens, “rawe”, rather than “kraaie”.",
+      "translation_quote": "“die kraaie”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

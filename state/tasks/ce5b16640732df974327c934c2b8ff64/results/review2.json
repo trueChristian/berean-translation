@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "85f7ca3b-4e26-40f1-8b7e-4eff23d730c4",
+    "response_id": "chatcmpl-EV1VmJOueTQPUHMpouKHXYO5pwMDp",
+    "usage": {
+      "completion_tokens": 859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 740,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6818,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7680
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph",
+        "severity": "major",
+        "source_quote": "“unspoiled by human invention and intervention”",
+        "suggested_fix": "Ganti “ciptaan dan campur tangan manusia” menjadi “rekaan dan campur tangan manusia” agar maknanya tetap merujuk pada hal-hal yang dibuat dan dicampuri manusia.",
+        "translation_quote": "“belum dirusak oleh ciptaan dan campur tangan manusia”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

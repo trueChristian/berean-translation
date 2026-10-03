@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": "237106ae8fbd2c6cd7bbf94182da2800149f82b98965401efac08031ed857029",
   "base_metadata_sha256": "4b2ddf2fd5976ffbe1b3f45e487426a5d5e9c086fdd8d40058d0a6ab29317547",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,39 +44,47 @@
         },
         "total_tokens": 10028
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 353,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6524,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6521,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6877
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "section",
+      "location": "Article, paragraph beginning “Em Romanos lemos”",
       "severity": "major",
-      "source_quote": "MUSINGS OF A MISSIONARY",
-      "suggested_fix": "Translate the section label as “REFLEXÕES DE UM MISSIONÁRIO”.",
-      "translation_quote": "MUSINGS OF A MISSIONARY"
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ...” (Romans 1:18-32).",
+      "suggested_fix": "Rever a citação para traduzir fielmente o texto inglês impresso. Em particular, “who hold the truth in unrighteousness” significa “que detêm a verdade pela injustiça”, não “que suprimem a verdade”; preserve também a tradução de todo o restante da citação sem introduzir diferenças de sentido.",
+      "translation_quote": "“Porque a ira de Deus se revela do céu contra toda impiedade e injustiça dos homens que suprimem a verdade; ...” (Romanos 1:18-32)."
     },
     {
-      "location": "Romans 1:18–32 quotation, final verse reference (John 15:18)",
+      "location": "Article, paragraph beginning “Os cristãos creem que são meramente servos”",
       "severity": "major",
       "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
-      "suggested_fix": "Restore the omitted final clause in Portuguese, for example: “Se o mundo vos odeia, sabei que primeiro me odiou a mim. Se a vós odia, também odiou a mim antes de odiar a vós.” Keep the reference as João 15:18.",
-      "translation_quote": "“Se o mundo vos odeia, sabei que primeiro me odiou a mim.” (João 15:18)"
-    },
-    {
-      "location": "Paragraph beginning “O cristão não confia no raciocínio humano”",
-      "severity": "major",
-      "source_quote": "“The Christian does not believe in human reasoning.”",
-      "suggested_fix": "Translate the assertion as “O cristão não acredita no raciocínio humano.”",
-      "translation_quote": "“O cristão não confia no raciocínio humano.”"
-    },
-    {
-      "location": "Paragraph beginning “Meu irmão estava trabalhando na estufa”",
-      "severity": "minor",
-      "source_quote": "“Some plant, some water, but God gives the increase.”",
-      "suggested_fix": "Use a clear Portuguese rendering of the contrast, such as “Um planta, outro rega, mas Deus dá o crescimento.”",
-      "translation_quote": "“Alguma planta, alguma água, mas Deus dá o crescimento.”"
+      "suggested_fix": "Substituir a citação por uma tradução fiel do texto impresso, preservando a referência: “Se o mundo vos odeia, sabeis que me odiou antes de vos odiar.” (João 15:18)",
+      "translation_quote": "“Se o mundo vos odeia, sabei que primeiro me odiou a mim. Se a vós odeia, também me odiou antes de odiar a vós.” (João 15:18)"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "8d281e99eb70cce93c9373743527dbdb",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "por",
@@ -166,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73ffad35e60323218112f91b03e6a992fcbade0106463ff2ccfcd441d944684a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-6-luna"

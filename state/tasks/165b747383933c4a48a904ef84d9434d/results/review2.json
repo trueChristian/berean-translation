@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e59a01de-fc75-498d-8b52-19d9e3fbab39",
+    "response_id": "chatcmpl-EV1VvW51h8Bxa3YbzkTORk5mVdq7k",
+    "usage": {
+      "completion_tokens": 179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3061,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3058,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3240
+    }
+  },
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Alt text",
+        "severity": "minor",
+        "source_quote": "A cup of coffee beside a spiral notebook and pencil.",
+        "suggested_fix": "Kikombe cha kahawa kando ya daftari lenye uunganisho wa ond na penseli.",
+        "translation_quote": "Kikombe cha kahawa kando ya daftari lenye jalada la mzunguko na penseli."
+      },
+      {
+        "location": "Paragraph beginning “Do some tasks ahead of time”",
+        "severity": "major",
+        "source_quote": "“Deciding early in the day what to make for supper”",
+        "suggested_fix": "“Kuamua mapema mchana cha kuandaa kwa chakula cha jioni”",
+        "translation_quote": "“Kuamua mapema mchana cha kuandaa kwa chakula cha jioni”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

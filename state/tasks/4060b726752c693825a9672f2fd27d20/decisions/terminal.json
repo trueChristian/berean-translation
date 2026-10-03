@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Absatz 7",
+      "severity": "minor",
+      "source_quote": "He breathed the rich air",
+      "suggested_fix": "Er atmete die würzige Luft ein",
+      "translation_quote": "Er atmete die schwere Luft ein"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

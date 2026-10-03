@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "ab1cf2938d7209f58fad089d61f5e3599ed72f93fd00a8ba608eeb7c3cc78395",
   "base_metadata_sha256": "aed87dc311a5be1c0a0dadae2761020434ca71e243cf2a43598877ec452c9148",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,39 +44,54 @@
         },
         "total_tokens": 10555
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 532,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6669,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6666,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7201
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html، الفقرة الأولى؛ اقتباس 1 كورنثوس",
+      "location": "المتن، الفقرة التي تبدأ بـ«الخطية»",
       "severity": "major",
-      "source_quote": "Paul pleaded with the Corinthian church, “Doth not nature itself teach you?”",
-      "suggested_fix": "استبدل الاقتباس بـ «أليست الطبيعة نفسها تعلّمكم؟»، بما يطابق معنى الاقتباس المطبوع.",
-      "translation_quote": "وقد ناشد بولس كنيسة كورنثوس قائلًا: «أليست الطبيعة نفسها تعلّمكم؟»"
+      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+      "suggested_fix": "في الاقتباس العربي، استبدل «مَحبسًا لكل روح نجس» بما يحافظ على معنى “the hold of every foul spirit”، مثل «مأوى لكل روح نجس»، من دون تغيير المرجع أو بنية HTML.",
+      "translation_quote": "«سقطت، سقطت بابل العظيمة، وصارت مسكنًا للشياطين، ومحبسًا لكل روح نجس، وقفصًا لكل طائر نجس ومكروه» (الرؤيا 18:2)."
     },
     {
-      "location": "source.html، فقرة «الإهمال»؛ وصف سبب اصطحاب الأطفال",
+      "location": "المتن، الفقرة التي تبدأ بـ«الإهمال»",
       "severity": "major",
-      "source_quote": "they have escorted them to the nest of another while her mind is preoccupied with work and business.",
-      "suggested_fix": "استبدل «لأنهن قد اصطحبنهم إلى عش غيرهن، بينما تنشغل أذهانهن بالعمل والأعمال التجارية» بـ «لأنهن قد أرسلنهم إلى عش غيرهن، فيما تنشغل أذهانهن بالعمل والشؤون التجارية».",
-      "translation_quote": "لأنهن قد اصطحبنهم إلى عش غيرهن، بينما تنشغل أذهانهن بالعمل والأعمال التجارية."
+      "source_quote": "“These are stopped-up wells like unto the wells that Isaac found upon his return to Gerar.”",
+      "suggested_fix": "استبدل «وهذه آبار مسدودة» بـ«وهذه آبار مطمومة» أو صياغة عربية أخرى تفيد أن الآبار سُدّت أو رُدمت، لا أنها مسدودة فحسب.",
+      "translation_quote": "«وهذه آبار مسدودة، كالآبار التي وجدها إسحاق عند عودته إلى جرار.»"
     },
     {
-      "location": "source.html، فقرة «الجحود»؛ وصف غناء إسرائيل",
+      "location": "المتن، الفقرة التي تبدأ بـ«الإهمال»",
       "severity": "major",
-      "source_quote": "Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.",
-      "suggested_fix": "استبدل «فقد انطلق غناؤهم عند عبور البحر الأحمر في أيام يهوشافاط، وكان معروفًا عنه أنه يهزم الجيوش» بـ «فقد انطلق غناؤهم عند عبور البحر الأحمر، وفي أيام يهوشافاط عُرف غناؤهم بهزيمة الجيوش».",
-      "translation_quote": "فقد انطلق غناؤهم عند عبور البحر الأحمر في أيام يهوشافاط، وكان معروفًا عنه أنه يهزم الجيوش."
-    },
-    {
-      "location": "source.html، فقرة «الإهمال»؛ الإشارة الكتابية في الاقتباس من المزامير",
-      "severity": "major",
-      "source_quote": "(Ps 22:9)",
-      "suggested_fix": "غيّر رقم الإصحاح في المرجع إلى «(المزامير 22:9)»، مع إبقاء رقم العدد كما هو.",
-      "translation_quote": "(المزامير 22:9)"
+      "source_quote": "“So run the spiritually neglected homes of many families today, who pack their schedules so full of earthly commitments that they have no time to spend an hour in song together.”",
+      "suggested_fix": "صحّح الجملة لتوضح أن الأسر تحشو جداولها بالالتزامات الأرضية حتى لا يبقى لديها وقت لتقضي ساعة في الغناء معًا؛ مثل: «وهكذا حال بيوت كثيرة أُهملت روحيًا اليوم؛ إذ تحشو الأسر جداولها بالالتزامات الأرضية إلى حد لا يبقى معه لديها وقت لتقضي ساعة في الغناء معًا.»",
+      "translation_quote": "«وهكذا تسير البيوت المهملة روحيًا لكثير من الأسر اليوم، التي تحشو جداولها بالتزامات أرضية إلى حد لا يبقى معه وقت يقضون فيه ساعة يغنون معًا.»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "b2360cef84bf3e5f4e99abe3482b9237",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -166,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-6-luna"

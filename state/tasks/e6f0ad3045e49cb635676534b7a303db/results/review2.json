@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ef71c9a3-4f10-4e09-bc52-4a6b6f3397cf",
+    "response_id": "chatcmpl-EV1SXpdHQ3xBaHPn0Z0ig0kVEI3Q7",
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3162,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3159,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3795
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, последний image alt",
+        "severity": "minor",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "Заменить название растения на «вязель пёстрый»: например, «Розовые и белые цветы вязеля пёстрого на зелёном лугу».",
+        "translation_quote": "Розовые и белые цветы вики корончатой на зелёном лугу"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

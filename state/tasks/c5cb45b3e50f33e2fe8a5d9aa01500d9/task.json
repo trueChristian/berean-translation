@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "061bf6f5542f9060a7f20f9bfafbda5f73738b4d17c77b0c1a4e4cf3b606676d",
   "base_metadata_sha256": "f2e6342794a3d05742409b243ab3098d3f848735e384ca2e498a88f284264fc9",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,46 +44,68 @@
         },
         "total_tokens": 5599
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 536,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3444,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3441,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3980
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph 3",
+      "location": "الفقرة 7",
       "severity": "major",
-      "source_quote": "But Kenny had a way of avoiding earshot. So he continued mocking Jamin.",
-      "suggested_fix": "استبدل الجملة الأخيرة بما يفيد أنه كان يتجنب أن يسمعه والداه، مثل: «لكن كيني كان يعرف كيف يبتعد عن مرمى سمعهما، ولذلك واصل السخرية من جامين.»",
-      "translation_quote": "لكن كيني كان يعرف كيف يتحدث بعيدًا عن مسامعهما. وهكذا واصل السخرية من جامين."
+      "source_quote": "“His golden head caught the tired beams that fled from the sun as they flickered through the trees.”",
+      "suggested_fix": "استبدل العبارة الملتبسة بـ «التقط رأسه الأشقر أشعة الشمس الواهنة التي كانت تنسحب من الشمس، وهي تتلألأ بين الأشجار.»",
+      "translation_quote": "التقط شعره الذهبي أشعة الشمس الواهنة التي كانت تنسحب من الشمس، وهي تتلألأ بين الأشجار."
     },
     {
-      "location": "source.html, paragraph 7",
-      "severity": "minor",
-      "source_quote": "his golden head caught the tired beams that fled from the sun",
-      "suggested_fix": "عدّل العبارة لتُبقي الصورة على أن أشعة الشمس الواهنة تنعكس على شعره الذهبي، مثل: «التقط شعره الذهبي أشعة الشمس الواهنة التي كانت تنسحب من الشمس...»",
-      "translation_quote": "التقط شعره الذهبي أشعة الشمس الواهنة المنسحبة"
-    },
-    {
-      "location": "source.html, paragraph 9",
+      "location": "الفقرة 8",
       "severity": "major",
-      "source_quote": "The heap’s face was lit in pain. The heap was Kenny.",
-      "suggested_fix": "اجعل الوصف مؤنثًا متسقًا مع «كومة»، أو أعد صياغته بما يوضح أن المقصود هو كيني، مثل: «وكان وجه الكومة مضاءً بالألم. وكانت الكومة هي كيني.»",
-      "translation_quote": "وكان وجهها ينطق بالألم. كانت تلك الكومة كيني."
+      "source_quote": "“At length, as the trees subdued and thinned, and the meadow appeared”",
+      "suggested_fix": "استبدل «حين أخذت الأشجار تصغر وتتباعد» بـ «حين أخذت الأشجار تخفّ كثافتها وتتباعد»؛ فالنص يصف انحسار الأشجار وتباعدها، لا صغر حجمها.",
+      "translation_quote": "حين أخذت الأشجار تصغر وتتباعد"
     },
     {
-      "location": "source.html, paragraph 11",
+      "location": "الفقرة 9",
       "severity": "major",
-      "source_quote": "Jamin bent and found an ankle firmly held in the jaws of a steel trap.",
-      "suggested_fix": "وضّح أن الكاحل هو كاحل كيني، مثل: «انحنى جامين فوجد كاحل كيني عالقًا بإحكام بين فكي مصيدة فولاذية.»",
-      "translation_quote": "انحنى جامين فوجد كاحلًا عالقًا بإحكام بين فكي مصيدة فولاذية."
+      "source_quote": "“he could see a frustrated heap to his right.”",
+      "suggested_fix": "استبدل «شخصًا متكوّمًا في ضيق» بـ «كومةً محبطةً عن يمينه» أو صياغة عربية تنقل أن الكومة هي كيني من دون وصفه بشخص.",
+      "translation_quote": "رأى عن يمينه شخصًا متكوّمًا في ضيق."
     },
     {
-      "location": "source.html, paragraph 18",
-      "severity": "minor",
-      "source_quote": "Lots of young boys wouldn’t be.",
-      "suggested_fix": "اجعل مرجع العبارة صريحًا: «كثير من الصبية الصغار لن يتحلوا بمثل هذه الشجاعة.»",
-      "translation_quote": "كثير من الصبية الصغار لا يملكون تلك الشجاعة."
+      "location": "الفقرة 12",
+      "severity": "major",
+      "source_quote": "“Kenny reeled free.”",
+      "suggested_fix": "استبدل «وتحرر كيني مترنحًا» بـ «وانفكّ كيني من المصيدة مترنحًا» لتوضيح أنه تحرر منها مترنحًا.",
+      "translation_quote": "وتحرر كيني مترنحًا."
+    },
+    {
+      "location": "الفقرة 16",
+      "severity": "major",
+      "source_quote": "“The porch light showed her in her old rocker.”",
+      "suggested_fix": "استبدل «أظهرها ضوء الشرفة جالسة على كرسيها الهزاز القديم» بـ «أظهرها ضوء الشرفة في كرسيها الهزاز القديم»؛ فالأصل يحدد موضعها في الكرسي ولا يذكر أنها كانت جالسة.",
+      "translation_quote": "أظهرها ضوء الشرفة جالسة على كرسيها الهزاز القديم"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "c5cb45b3e50f33e2fe8a5d9aa01500d9",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -173,13 +194,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-6-luna"

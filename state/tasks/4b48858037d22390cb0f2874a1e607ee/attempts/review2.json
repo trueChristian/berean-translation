@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, sezione 8, primo paragrafo\",\"severity\":\"major\",\"source_quote\":\"She is the weaker vessel and the one that born the children!\",\"suggested_fix\":\"Sostituire «Lei è il vaso più debole ed è colei che ha partorito i figli!» con «Lei è il vaso più debole ed è colei che partorisce i figli!»\",\"translation_quote\":\"Lei è il vaso più debole ed è colei che ha partorito i figli!\"},{\"location\":\"HTML, sezione 10, paragrafo sulle madri\",\"severity\":\"major\",\"source_quote\":\"There’s also a need for mothers who are submissive and yielded to authority.\",\"suggested_fix\":\"Sostituire «C'è anche bisogno di madri sottomesse e sottomesse all'autorità.» con «C'è anche bisogno di madri sottomesse e deferenti all'autorità.»\",\"translation_quote\":\"C'è anche bisogno di madri sottomesse e sottomesse all'autorità.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 874,
+    "content_evidence_truncated": false,
+    "content_sha256": "c77e5ff0a841c2b160259c6f4f7d3953909777473dd54754bf74c16c2b96a2a5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 236,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12585,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12824
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

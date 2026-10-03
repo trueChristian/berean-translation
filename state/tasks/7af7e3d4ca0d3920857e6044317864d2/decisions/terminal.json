@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Primer párrafo",
+      "severity": "minor",
+      "source_quote": "My young preschool mind",
+      "suggested_fix": "Mi mente infantil nunca había visto tantos manjares en un solo lugar al mismo tiempo.",
+      "translation_quote": "Mi joven mente de preescolar"
+    },
+    {
+      "location": "Segundo párrafo",
+      "severity": "minor",
+      "source_quote": "We all have one common goal in mind. Together, we share and learn how to effectively communicate what is in our hearts",
+      "suggested_fix": "Todos tenemos un objetivo común. Juntos compartimos y aprendemos cómo comunicar eficazmente lo que hay en nuestros corazones",
+      "translation_quote": "Todos teníamos un objetivo común. Juntos compartimos y aprendemos cómo comunicar eficazmente lo que hay en nuestros corazones"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

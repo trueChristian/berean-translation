@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Romans 1:18–32 citation and quotation",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ...” (Romans 1:18-32).",
+      "suggested_fix": "In the Hindi quotation, restore the omitted phrase corresponding to “who hold the truth in unrighteousness” (for example, “जो अधर्म से सत्य को दबाए रखते हैं”), and ensure the full quotation faithfully translates the source through verse 32. Preserve the reference as (रोमियों 1:18-32).",
+      "translation_quote": "“क्योंकि परमेश्वर का क्रोध स्वर्ग से उन मनुष्यों की सारी अभक्ति और अधर्म पर प्रकट होता है, जो अधर्म से सत्य को दबाए रखते हैं; ...” (रोमियों 1:18-32)।"
+    },
+    {
+      "location": "Paragraph beginning “Here is an example”",
+      "severity": "major",
+      "source_quote": "“He waters and fertilizes weeds and prunes.”",
+      "suggested_fix": "Translate the printed wording without changing its meaning; for example: “वह पानी देता है, खरपतवारों में खाद डालता है और छँटाई करता है।”",
+      "translation_quote": "“वह पानी देता है, खाद डालता है, खरपतवार निकालता है और छँटाई करता है।”"
+    },
+    {
+      "location": "Paragraph beginning “The Christian denies himself”",
+      "severity": "major",
+      "source_quote": "“The Christian thinks nothing of himself or the ability of man”",
+      "suggested_fix": "Translate the assertion that the Christian thinks nothing of himself or of human ability; for example: “ईसाई अपने बारे में या मनुष्य की क्षमता के बारे में कुछ नहीं सोचता...”",
+      "translation_quote": "“ईसाई अपने बारे में या मनुष्य की क्षमता के बारे में कुछ नहीं समझता...”"
+    },
+    {
+      "location": "Paragraph beginning “Christians believe they are merely servants”",
+      "severity": "major",
+      "source_quote": "“They are hated by the world and despised by most, rejected.”",
+      "suggested_fix": "Restore the omitted assertion that they are despised by most, while retaining the sense that they are rejected; for example: “संसार उनसे बैर रखता है और अधिकांश लोग उन्हें तुच्छ समझते हैं; वे ठुकराए जाते हैं।”",
+      "translation_quote": "“संसार उनसे बैर रखता है और अधिकांश लोग उनसे घृणा करते हैं; वे ठुकराए जाते हैं।”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

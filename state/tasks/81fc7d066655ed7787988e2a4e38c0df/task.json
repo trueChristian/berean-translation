@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "516ae18ede905ad802ff98c99fdf546782a3623d0edc7fdda0c5970d914592bc",
   "base_metadata_sha256": "09987b31e94f2984cb58a33eabc14c37b729411e856f786e9507007476f6cef0",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,32 +44,61 @@
         },
         "total_tokens": 10531
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 596,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6681,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6678,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7277
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, avsnittet som begynner «On board the ship, Newton picked up…»",
+      "location": "HTML, innledende avsnitt",
       "severity": "major",
-      "source_quote": "The storm awakened Newton, the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.",
-      "suggested_fix": "Bevar årsaksforholdet og meningen, for eksempel: «Stormen vekket Newton; bølgene hadde brutt opp skipets råtne bord, og flomvann virvlet inn i lugaren hans.»",
-      "translation_quote": "Stormen vekket Newton; bølgene hadde knust skipets råtne treverk, og vann strømmet virvlende inn i lugaren hans."
+      "source_quote": "“a wretched sinner, void of the fear of the Lord”",
+      "suggested_fix": "Endre «uten frykt for Herren» til «uten gudsfrykt» eller «som ikke fryktet Herren», slik at det uttrykker fravær av gudsfrykt, ikke at synderen er uten redsel for Herren.",
+      "translation_quote": "«en elendig synder uten frykt for Herren»"
     },
     {
-      "location": "source.html, avsnittet som begynner «The last words of John Newton…»",
+      "location": "HTML, avsnittet som begynner «Som prest i kirken»",
       "severity": "major",
-      "source_quote": "“I am still in the land of the dying; I shall be in the land of the living soon.”",
-      "suggested_fix": "Oversett det faste uttrykket «the land of the dying» uten å endre det til et annet begrep, for eksempel: «Jeg er fremdeles i de døendes land; snart skal jeg være i de levendes land.»",
-      "translation_quote": "«Jeg er fremdeles i de døendes land; snart skal jeg være i de levendes land.»"
+      "source_quote": "“He quotes this, ‘Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.’”",
+      "suggested_fix": "Oversett sitatet slik: «Han skriver: ‘Det sier seg selv at det å fange, selge og frakte svarte slaver til plantasjene i Vestindia og Amerika var en grusom og ondskapsfull måte å leve på.’»",
+      "translation_quote": "«Han sier dette: ‘Det sier seg selv at det å fange, selge og frakte svarte slaver til plantasjene i Vestindia og Amerika var en grusom og ondartet levemåte.’»"
     },
     {
-      "location": "source.html, siste avsnitt, omtalen av «Glorious Things of Thee are Spoken»",
+      "location": "HTML, avsnittet om Newtons bok fra 1788",
       "severity": "major",
-      "source_quote": "“Glorious Things of Thee are Spoken”",
-      "suggested_fix": "Oversett tittelen til norsk og bevar meningen «det tales herlige ting om deg», for eksempel: «Det tales herlige ting om deg».",
-      "translation_quote": "«Herlighet tales om deg»"
+      "source_quote": "“With the help and providence of God, John saw the day, several months before his death, in 1807, when slavery was officially banned from England.”",
+      "suggested_fix": "Erstatt «Med Guds hjelp og forsyn fikk John oppleve den dagen i 1807, noen måneder før sin død» med «Ved Guds hjelp og forsyn fikk John, noen måneder før sin død i 1807, oppleve dagen da slaveriet offisielt ble forbudt i England.»",
+      "translation_quote": "«Med Guds hjelp og forsyn fikk John oppleve den dagen i 1807, noen måneder før sin død, da slaveriet offisielt ble forbudt i England.»"
+    },
+    {
+      "location": "HTML, avsnittet om melodien til «Amazing Grace»",
+      "severity": "major",
+      "source_quote": "“In 1910, Edwin O. Excell added the last verse”",
+      "suggested_fix": "Endre «I 1910 la Edwin O. Excell til det siste verset» til «I 1910 la Edwin O. Excell til det siste verset»? Kilden oppgir samme årstall og handling; ingen endring er nødvendig.",
+      "translation_quote": "«I 1910 la Edwin O. Excell til det siste verset»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "81fc7d066655ed7787988e2a4e38c0df",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nob",
@@ -159,13 +187,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6-luna"

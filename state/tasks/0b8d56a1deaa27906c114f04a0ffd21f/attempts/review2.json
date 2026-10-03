@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"major\",\"source_quote\":\"The urgency of the last minute is something that many homemakers deal with regularly.\",\"suggested_fix\":\"Change “baie tuistes” to “baie tuisteskeppers” so the sentence refers to people, not homes: “Die dringendheid van die laaste minuut is iets waarmee baie tuisteskeppers gereeld te doen het.”\",\"translation_quote\":\"Die dringendheid van die laaste minuut is iets waarmee baie tuistes gereeld te doen het.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 524,
+    "content_evidence_truncated": false,
+    "content_sha256": "81ce75455e1a97ef967d1100d4fd4217af061015a2df8823f85d081c7073085f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 457,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2971,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2968,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3561
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

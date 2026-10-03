@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "source.html，第7段（人本主义者对基督徒的反应）",
+      "severity": "major",
+      "source_quote": "If you go to most colleges in America and talk to people about Christianity, they laugh at you and mock the fact that Christians actually believe in God.",
+      "suggested_fix": "将“他们会嘲笑你，取笑基督徒竟然真的相信神”改为“他们会嘲笑你，并嘲笑基督徒竟然相信神这一事实”，以保留原文“嘲笑这一事实”的意思。",
+      "translation_quote": "他们会嘲笑你，取笑基督徒竟然真的相信神。"
+    },
+    {
+      "location": "source.html，《罗马书》引文（Roman 1:18–32）",
+      "severity": "major",
+      "source_quote": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness;",
+      "suggested_fix": "将引文开头改为“神的忿怒从天上显明，降在一切不虔不义、以不义阻挡真理的人身上”，避免把“以不义阻挡真理”这一限定含义改成“阻挡真理的人”。",
+      "translation_quote": "神的忿怒从天上显明，降在一切不虔不义、阻挡真理的人身上；"
+    },
+    {
+      "location": "source.html，《罗马书》引文（Roman 1:18–32）",
+      "severity": "major",
+      "source_quote": "Because that which may be known of God is manifest in them; for God hath shewed it unto them.",
+      "suggested_fix": "将“神的事情，人所能知道的，原显明在人心里”改为“神的事情，人所能知道的，原显明在他们身上；因为神已经向他们显明了”，保留原文“在他们身上显明”及后半句。",
+      "translation_quote": "神的事情，人所能知道的，原显明在人心里，因为神已经向他们显明。"
+    },
+    {
+      "location": "source.html，《罗马书》引文（Roman 1:18–32）",
+      "severity": "major",
+      "source_quote": "And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient;",
+      "suggested_fix": "将“他们既然故意不认识神”改为“他们既然不愿在知识中保留对神的认识”，以表达原文并非单指故意不认识。",
+      "translation_quote": "他们既然故意不认识神，神就任凭他们存邪僻的心，行那些不合理的事；"
+    },
+    {
+      "location": "source.html，《罗马书》引文（Roman 1:18–32）",
+      "severity": "major",
+      "source_quote": "Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness;",
+      "suggested_fix": "将列举中的“淫乱”改为“邪淫”（或能表达原文 fornication 的其他恰当译法），避免把原文的 fornication 误译为“奸淫”以外的泛义？ 此处当前用语“淫乱”须核对：如按原文确指 fornication，建议译作“淫行”，并保留其与 wickedness 分列。",
+      "translation_quote": "他们装满了各样不义、淫乱、邪恶、贪婪、恶毒，"
+    },
+    {
+      "location": "source.html，《罗马书》引文（Roman 1:18–32）",
+      "severity": "major",
+      "source_quote": "Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them",
+      "suggested_fix": "将“他们虽知道神判定”改为“他们既知道神的判决”，使句子明确表达他们知道神判定行这些事的人当死。",
+      "translation_quote": "他们虽知道神判定，行这样事的人是当死的，却不但自己去行，还喜欢别人去行。"
+    },
+    {
+      "location": "source.html，菜园例子",
+      "severity": "major",
+      "source_quote": "He waters and fertilizes weeds and prunes.",
+      "suggested_fix": "按原文照译为“他浇水、给杂草施肥并修剪”，不要把“weeds”改成“除草”。",
+      "translation_quote": "他浇水、施肥、除草、修剪。"
+    },
+    {
+      "location": "source.html，《约翰福音》引文",
+      "severity": "minor",
+      "source_quote": "If the world hate you, ye know that it hated me before it hated you. (John 15:18)",
+      "suggested_fix": "在译文经文引语末尾补上与原文相应的句号，使句末标点也忠实于所印文本。",
+      "translation_quote": "“你们若被世界恨恶，该知道在你们以先，世界已经恨恶我了。”（《约翰福音》15:18）"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

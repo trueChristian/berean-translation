@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html，第3段",
+      "severity": "major",
+      "source_quote": "Very well, then Jamin would be simple.",
+      "suggested_fix": "将“那 Jamin 就做个笨蛋”改为“好吧，那 Jamin 就当个头脑简单的人”或其他保留“simple（心智简单）”含义、不过度贬损的译法。",
+      "translation_quote": "好吧，那 Jamin 就做个笨蛋。"
+    },
+    {
+      "location": "source.html / translation.html，第9段",
+      "severity": "major",
+      "source_quote": "As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny.",
+      "suggested_fix": "将反复的“那堆”改为自然且忠实的表达，例如：“Jamin 蹒跚走进草地时，看见右边有一团沮丧的人影。那声音听起来很熟悉，那人的脸上因疼痛而扭曲。那人正是 Kenny。”",
+      "translation_quote": "当 Jamin 咚咚地走入草地时，他看到右边有个沮丧的堆。那堆的声音有熟悉的腔调。那堆的脸上带着痛苦。那堆就是 Kenny。"
+    },
+    {
+      "location": "source.html / translation.html，第11段",
+      "severity": "major",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "译为保留原文意象的表达，例如“黑暗笼罩着 Kenny 周围的地面。”当前“蔓延”加入了原文没有的移动含义。",
+      "translation_quote": "黑暗在 Kenny 周围的地面上蔓延。"
+    },
+    {
+      "location": "source.html / translation.html，第14段",
+      "severity": "major",
+      "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
+      "suggested_fix": "将“小团子”改为指兄弟俩与父亲组成的一行人的表达，例如“这支奇特的小队匆匆赶回家；父亲快步穿过门廊时，纱门砰地关上。”",
+      "translation_quote": "这个奇怪的小团子匆匆赶回家，纱门在父亲横跨门廊时砰地关上。"
+    },
+    {
+      "location": "source.html / translation.html，第15段",
+      "severity": "major",
+      "source_quote": "Jamin went to the wash house and scrubbed his hands.",
+      "suggested_fix": "把“洗涤间”改为“洗衣房”或符合语境的盥洗处所，并保留他认真搓洗双手的意思。",
+      "translation_quote": "Jamin 到洗涤间洗了手。"
+    },
+    {
+      "location": "source.html / translation.html，第19段",
+      "severity": "major",
+      "source_quote": "He has a plan for you, and a place only you can fill, you know.",
+      "suggested_fix": "将“为你安排了只有你能填补的位子”改为自然表达，例如“祂对你有计划，也为你预备了一个只有你才能担当的位置，你知道吗？”",
+      "translation_quote": "祂对你有计划，也为你安排了只有你能填补的位子，你知道吗。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

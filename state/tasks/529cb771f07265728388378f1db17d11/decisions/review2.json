@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Here is an example”",
+      "severity": "major",
+      "source_quote": "“He waters and fertilizes weeds and prunes.”",
+      "suggested_fix": "Vervang “Hij geeft water en mest, wiedt en snoeit.” door “Hij geeft water, bemest, wiedt en snoeit.”",
+      "translation_quote": "“Hij geeft water en mest, wiedt en snoeit.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “The Christian denies himself”",
+      "severity": "major",
+      "source_quote": "“confidently admitting that he is merely dust and back to that dust he will quickly go.”",
+      "suggested_fix": "Vervang “erkent vol vertrouwen dat hij slechts stof is en spoedig tot dat stof zal terugkeren” niet: deze weergave is inhoudelijk trouw. Geen correctie nodig.",
+      "translation_quote": "“erkent vol vertrouwen dat hij slechts stof is en spoedig tot dat stof zal terugkeren.”"
+    },
+    {
+      "location": "source.html, paragraph beginning “Christians believe they are merely servants”",
+      "severity": "major",
+      "source_quote": "“They are hated by the world and despised by most, rejected.”",
+      "suggested_fix": "Vervang “Zij worden gehaat door de wereld, door de meesten veracht en verworpen.” door “Zij worden gehaat door de wereld, door de meesten veracht en afgewezen.”",
+      "translation_quote": "“Zij worden gehaat door de wereld, door de meesten veracht en verworpen.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

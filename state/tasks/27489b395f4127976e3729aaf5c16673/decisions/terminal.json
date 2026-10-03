@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Then he was elected…”",
+      "severity": "major",
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+      "suggested_fix": "Replace the relevant sentence with: «Έπειτα εκλέχτηκε για να αναλάβει τους τελευταίους τέσσερις μήνες γραμματειακών καθηκόντων για έναν αδελφό που πέρασε κάποιο διάστημα στη Βουλγαρία.»",
+      "translation_quote": "«Έπειτα εκλέχτηκε για να αναλάβει τους τελευταίους τέσσερις μήνες γραμματειακών καθηκόντων ενός αδελφού που έλειψε για κάποιο διάστημα στη Βουλγαρία.»"
+    },
+    {
+      "location": "Article, paragraph beginning “Sometimes this type of overload…”",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "Translate “plain circles” as a reference to the Plain communities, not as “our communities of Plain”; for example: «Τα τραυματικά γεγονότα στις κοινότητές μας των Πλέιν συνήθως συνοδεύονται από προσευχή, οικονομική βοήθεια και εβδομαδιαίες ενημερώσεις για τον προϋπολογισμό.»",
+      "translation_quote": "«Τα τραυματικά γεγονότα στις κοινότητές μας των Plain συνήθως αντιμετωπίζονται με προσευχή, οικονομική βοήθεια και εβδομαδιαίες ενημερώσεις για τον προϋπολογισμό.»"
+    },
+    {
+      "location": "Article, final paragraph, Psalm quotation",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Revise the Greek quotation to preserve the printed meaning of “let me never be put to confusion,” for example: «Σε εσένα, Κύριε, έχω θέσει την εμπιστοσύνη μου· ας μην περιέλθω ποτέ σε σύγχυση» (Ψαλμός 71:1).",
+      "translation_quote": "«Σε εσένα, Κύριε, έχω θέσει την εμπιστοσύνη μου· ας μην ντροπιαστώ ποτέ» (Ψαλμός 71:1)."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

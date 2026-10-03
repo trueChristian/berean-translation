@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning „Then he was elected…“",
+      "severity": "major",
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+      "suggested_fix": "Ersetze „Dann wurde er gewählt, die letzten vier Monate die Sekretariatsaufgaben für einen Bruder zu übernehmen, der einige Zeit in Bulgarien verbrachte.“ durch „Dann wurde er ausgewählt, die letzten vier Monate lang die Sekretariatsaufgaben für einen Bruder zu übernehmen, der einige Zeit in Bulgarien verbrachte.“",
+      "translation_quote": "„Dann wurde er gewählt, die letzten vier Monate die Sekretariatsaufgaben für einen Bruder zu übernehmen, der einige Zeit in Bulgarien verbrachte.“"
+    },
+    {
+      "location": "HTML, paragraph beginning „I felt like a lifeguard…“",
+      "severity": "major",
+      "source_quote": "“Then I was asked to fill the position of food committee for Mrs. ‘Going-to-Bulgaria.’”",
+      "suggested_fix": "Ersetze „die Aufgaben im Essenskomitee für Mrs. ‚Going-to-Bulgaria‘ zu übernehmen“ durch „den Posten im Essenskomitee für Mrs. ‚Going-to-Bulgaria‘ zu übernehmen“; der ursprüngliche Satz bezeichnet die Übernahme eines bestimmten Postens, nicht allgemein von Aufgaben.",
+      "translation_quote": "„Dann wurde ich gebeten, die Aufgaben im Essenskomitee für Mrs. ‚Going-to-Bulgaria‘ zu übernehmen.“"
+    },
+    {
+      "location": "HTML, Absatz beginnend mit „Sometimes this type of overload…“",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "Ersetze „in unseren Gemeinden“ durch „in unseren Plain-Gemeinschaften“ und „wöchentliche Berichte zur Haushaltslage“ durch „wöchentliche Mitteilungen über den Bedarf im Haushaltsbudget“, sodass der Bezug auf die Plain-Gemeinschaften und die wöchentlichen Budget-Updates erhalten bleibt.",
+      "translation_quote": "„Traumatische Ereignisse in unseren Gemeinden erhalten eher Gebete, finanzielle Hilfe und wöchentliche Berichte zur Haushaltslage.“"
+    },
+    {
+      "location": "HTML, Absatz beginnend mit „If you are facing circumstantial overload…“",
+      "severity": "major",
+      "source_quote": "“Many times, He opens doors just when we are running out of options.”",
+      "suggested_fix": "Ersetze „Oft öffnet er Türen genau dann, wenn uns die Möglichkeiten ausgehen“ durch „Oft öffnet er Türen genau dann, wenn uns die Möglichkeiten ausgehen“ nur dann, wenn das Subjekt ausdrücklich „wir“ lautet; andernfalls: „Oft öffnet er Türen genau dann, wenn wir keine Möglichkeiten mehr haben.“",
+      "translation_quote": "„Oft öffnet er Türen genau dann, wenn uns die Möglichkeiten ausgehen.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

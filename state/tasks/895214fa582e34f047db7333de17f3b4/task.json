@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "67e62c6a94624f0719b133d7381be22eeaf9bfa8910d85e9f57765e9305fd7f3",
   "base_metadata_sha256": "684e07107408a45656ff06c4ea40b12de0379f4704b69c8e39e41774917d2450",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,67 +44,46 @@
         },
         "total_tokens": 5338
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 775,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 600,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3151,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3148,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3926
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraf 1",
-      "severity": "major",
-      "source_quote": "“the tantalizing cacophony of odors”",
-      "suggested_fix": "Ganti “paduan aroma yang menggoda” dengan “hiruk-pikuk aroma yang menggoda” agar gambaran campuran aroma yang ramai tetap tersampaikan.",
-      "translation_quote": "“paduan aroma yang menggoda”"
-    },
-    {
-      "location": "HTML, paragraf 2",
-      "severity": "major",
-      "source_quote": "“I brushed shoulders with well-known authors”",
-      "suggested_fix": "Ganti “Saya bersinggungan dengan penulis terkenal” dengan “Saya berkesempatan bertemu langsung dengan penulis terkenal”.",
-      "translation_quote": "“Saya bersinggungan dengan penulis terkenal”"
-    },
-    {
-      "location": "HTML, paragraf 3",
-      "severity": "major",
-      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
-      "suggested_fix": "Terjemahkan kutipan ke bahasa Indonesia, misalnya: “Kegagalan adalah seorang guru, dan pada akhir hidup Anda, menurut Anda mana yang akan paling Anda sesali: gagal atau tidak pernah mencoba?” Pertahankan tanda kutip dalam struktur HTML yang ada.",
-      "translation_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
-    },
-    {
-      "location": "HTML, paragraf 4",
-      "severity": "major",
-      "source_quote": "“The Berean Voice has a goal to provide printed material that will help readers navigate through the varied and difficult seasons of life.”",
-      "suggested_fix": "Terjemahkan nama publikasi tetap dipertahankan, lalu ganti “menavigasi melalui musim-musim kehidupan yang beragam dan sulit” dengan “mengarungi berbagai masa sulit dan penuh perubahan dalam kehidupan”.",
-      "translation_quote": "“The Berean Voice memiliki tujuan menyediakan bahan cetak yang akan membantu pembaca menavigasi melalui musim-musim kehidupan yang beragam dan sulit.”"
-    },
-    {
-      "location": "HTML, daftar buku",
-      "severity": "major",
-      "source_quote": "Daftar sebelas judul buku, dari “The Power of the Love of Truth” hingga “The Mennonite Church and Modernism”",
-      "suggested_fix": "Terjemahkan judul-judul buku ke bahasa Indonesia, dengan tetap mempertahankan nama atau judul yang memang merupakan nama resmi apabila diperlukan.",
-      "translation_quote": "Semua sebelas judul buku dibiarkan dalam bahasa Inggris."
-    },
-    {
-      "location": "HTML, paragraf 7",
-      "severity": "major",
-      "source_quote": "“This monumental event upended the vaccine debate and ushered in a frenzied rush to market COVID-19 remedies”",
-      "suggested_fix": "Ganti “mengantar pada euforia buru-buru memasarkan obat COVID-19” dengan “memicu perlombaan yang hiruk-pikuk untuk memasarkan penanganan COVID-19”, agar tidak menyebutnya sebagai euforia dan tidak mempersempit remedies menjadi obat.",
-      "translation_quote": "“mengantar pada euforia buru-buru memasarkan obat COVID-19”"
-    },
-    {
-      "location": "HTML, alt gambar",
+      "location": "source.html, paragraph with the market description",
       "severity": "minor",
-      "source_quote": "“Pink and white crown vetch flowers in a green meadow”",
-      "suggested_fix": "Terjemahkan nama tanaman secara jelas, misalnya: “Bunga crown vetch berwarna merah muda dan putih di padang rumput hijau”; jika crown vetch memiliki nama Indonesia baku, gunakan nama tersebut.",
-      "translation_quote": "“Bunga crown vetch berwarna merah muda dan putih di padang rumput hijau”"
+      "source_quote": "deli meat and sandwiches",
+      "suggested_fix": "Ganti “daging deli dan roti lapis” dengan “daging olahan dan roti lapis” agar istilahnya lebih jelas bagi pembaca Indonesia.",
+      "translation_quote": "daging deli dan roti lapis"
     },
     {
-      "location": "Judul",
+      "location": "source.html, class=\"book-list\", ninth title",
       "severity": "minor",
-      "source_quote": "“From the Editor”",
-      "suggested_fix": "Gunakan “Dari Editor” atau “Dari Redaksi” secara konsisten dengan istilah yang dipakai untuk rubrik ini.",
-      "translation_quote": "“Dari Editor”"
+      "source_quote": "The Catholic Connection",
+      "suggested_fix": "Pertimbangkan “Kaitan Katolik” agar makna “connection” sebagai kaitan atau hubungan antartopik tidak terbaca sebagai hubungan personal.",
+      "translation_quote": "Hubungan Katolik"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "895214fa582e34f047db7333de17f3b4",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ind",
@@ -194,13 +172,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

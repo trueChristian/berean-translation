@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Section 3, paragraph beginning “পুরুষ ও নারী সম্পর্কে ঈশ্বরের পরিকল্পনা”",
+      "severity": "major",
+      "source_quote": "God’s plan for male and female is that He brings Eve to Adam. Then the leaving and cleaving to take place.",
+      "suggested_fix": "Replace “তারপর তারা একে অপরকে ছেড়ে যায় ও একত্রে যুক্ত হয়।” with “তারপর পুরুষ তার পিতা-মাতাকে ছেড়ে স্ত্রীর সঙ্গে যুক্ত হয়।”",
+      "translation_quote": "তারপর তারা একে অপরকে ছেড়ে যায় ও একত্রে যুক্ত হয়।"
+    },
+    {
+      "location": "Section 7, paragraph quoting Ephesians 5:33",
+      "severity": "major",
+      "source_quote": "Nevertheless let every one of you in particular so love his wife even as himself; and the wife see that she reverence her husband.",
+      "suggested_fix": "Replace “তোমাদের প্রত্যেকে নিজের মতো করে নিজ নিজ স্ত্রীকে ভালোবাসুক” with “তোমাদের প্রত্যেকে নিজেকে যেমন ভালোবাসে, তেমনি নিজ নিজ স্ত্রীকে ভালোবাসুক” to preserve the comparison in the quoted verse.",
+      "translation_quote": "তোমাদের প্রত্যেকে নিজের মতো করে নিজ নিজ স্ত্রীকে ভালোবাসুক; আর স্ত্রী যেন তার স্বামীকে সম্মান করে।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

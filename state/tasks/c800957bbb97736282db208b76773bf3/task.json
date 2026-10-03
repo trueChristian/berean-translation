@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "59efa9e7c66dbcb6b2fb263f9c32bd1a4d21f1537ee91c474a3dc78f8c096ff8",
   "base_metadata_sha256": "28408b949e381ddbaf6b0930a9cecfe550eaaf8ed054836bb328576377a4b0e8",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,60 +44,47 @@
         },
         "total_tokens": 11324
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 719,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6886,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6883,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7605
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph 2, tombstone inscription",
+      "location": "Эпитафия на надгробии",
       "severity": "major",
       "source_quote": "a servant of slaves in Africa",
-      "suggested_fix": "Replace «слуга рабов в Африке» with «работорговец в Африке» to convey that Newton served in the slave trade, rather than serving enslaved people.",
-      "translation_quote": "слуга рабов в Африке"
+      "suggested_fix": "Заменить «работорговец в Африке» на точный перевод исходной формулировки, например «служитель рабов в Африке».",
+      "translation_quote": "работорговец в Африке"
     },
     {
-      "location": "Article, paragraph 4, hymn history",
+      "location": "Цитата о дне, когда Ньютон пережил бурю",
       "severity": "major",
-      "source_quote": "It was referenced in Harriet Beecher Stowe’s anti-slavery novel Uncle Tom’s Cabin.",
-      "suggested_fix": "Replace «Он упоминался в направленном против рабства романе» with «Он упоминается в романе против рабства» or another phrasing that says the hymn is referenced in the novel, not that the novel references something unspecified.",
-      "translation_quote": "Он упоминался в направленном против рабства романе Гарриет Бичер-Стоу «Хижина дяди Тома»."
-    },
-    {
-      "location": "Article, paragraph 7, John’s Royal Navy service",
-      "severity": "major",
-      "source_quote": "he was sent to work on a slave ship.",
-      "suggested_fix": "Replace «его отправили работать на невольничье судно» with «его отправили служить на работорговое судно»; “невольничье судно” can suggest a ship of enslaved people without clearly conveying the slave-trading role.",
-      "translation_quote": "его отправили работать на невольничье судно"
-    },
-    {
-      "location": "Article, paragraph 10, storm aboard The Greyhound",
-      "severity": "major",
-      "source_quote": "the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.",
-      "suggested_fix": "Replace «волны ломали прогнившие деревянные части корабля» with «волны ломали прогнивший корпус корабля» (or «прогнившие балки корабля»), keeping the source’s detail that the ship’s rotten timbers were being broken by waves.",
-      "translation_quote": "волны ломали прогнившие деревянные части корабля"
-    },
-    {
-      "location": "Article, paragraph 17, origin of “Faith’s Review and Expectation”",
-      "severity": "major",
-      "source_quote": "grew out of David’s exclamation in 1 Chronicles 17:16-17.",
-      "suggested_fix": "Replace «вырос из восклицания Давида» with «возник из восклицания Давида» or «был навеян восклицанием Давида», preserving that the hymn sprang from David’s exclamation.",
-      "translation_quote": "вырос из восклицания Давида в 1 Паралипоменон 17:16-17."
-    },
-    {
-      "location": "Article, paragraph 18, quotation from Thoughts Upon the African Slave Trade",
-      "severity": "major",
-      "source_quote": "He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
-      "suggested_fix": "Translate the quotation as a statement about the capturing, selling, and transporting of enslaved Black people being a cruel and vicious practice; for example, «Он пишет: “Нет нужды говорить, что захват, продажа и перевозка чернокожих рабов на плантации Вест-Индии и Америки были жестокой и порочной практикой”» (with suitable grammatical agreement).",
-      "translation_quote": "Он писал: «Нет нужды говорить, что захват, продажа и перевозка чернокожих рабов на плантации Вест-Индии и Америки были жестоким и порочным образом жизни»."
-    },
-    {
-      "location": "Article, final paragraph, Newton’s other hymns",
-      "severity": "major",
-      "source_quote": "“Glorious Things of Thee are Spoken”.",
-      "suggested_fix": "Correct the hymn-title translation to «Славное говорится о Тебе» or another rendering that preserves “glorious things” as the subject being spoken of the addressee; «Славные слова сказаны о тебе» changes the sense to glorious words.",
-      "translation_quote": "«Славные слова сказаны о тебе»."
+      "source_quote": "“On that day, the Lord sent from on high and delivered me out of deep waters.”",
+      "suggested_fix": "Заменить на «В тот день Господь послал свыше и избавил меня из глубоких вод».",
+      "translation_quote": "«В тот день Господь послал помощь свыше и избавил меня из глубоких вод»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "c800957bbb97736282db208b76773bf3",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -187,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 77,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6-luna"

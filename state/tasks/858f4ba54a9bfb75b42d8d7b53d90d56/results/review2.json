@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ebe5e4c1-0363-4007-b9f0-422887dc4118",
+    "response_id": "chatcmpl-EV1TVlUs8lnaKksKQOsMblI7NmVr6",
+    "usage": {
+      "completion_tokens": 827,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8830,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9660
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Primeros párrafos, respuesta del marido de Elsie",
+        "severity": "major",
+        "source_quote": "“It’s her drinking!”",
+        "suggested_fix": "Sustituir por: “¡Es que está bebiendo!”",
+        "translation_quote": "“¡Es su bebida!”"
+      },
+      {
+        "location": "Sección «El cinismo en la Biblia», cita de Eclesiastés 4:13",
+        "severity": "major",
+        "source_quote": "“For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor”",
+        "suggested_fix": "Corregir solo la parte final de la cita: “Pues sale de la cárcel para reinar, mientras que también el que nació en su reino llega a ser pobre” (Eclesiastés 4:13).",
+        "translation_quote": "“Pues sale de la cárcel para reinar, aunque nació pobre en su reino” (Eclesiastés 4:13)."
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

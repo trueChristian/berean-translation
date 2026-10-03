@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “Sometimes this type of overload…”\",\"severity\":\"major\",\"source_quote\":\"Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.\",\"suggested_fix\":\"আমাদের plain circles-এ মর্মান্তিক ঘটনা ঘটলে সাধারণত প্রার্থনা, আর্থিক সহায়তা এবং সাপ্তাহিক বাজেটের হালনাগাদ তথ্য দেওয়া হয়।\",\"translation_quote\":\"আমাদের সরল জীবনযাপনকারী খ্রিষ্টীয় সমাজে মর্মান্তিক ঘটনা ঘটলে সাধারণত প্রার্থনা, আর্থিক সহায়তা এবং সাপ্তাহিক বাজেটের হালনাগাদ তথ্য দেওয়া হয়।\"},{\"location\":\"Article body, final paragraph\",\"severity\":\"major\",\"source_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\"suggested_fix\":\"“হে সদাপ্রভু, তোমাতেই আমি আস্থা রাখি; আমাকে কখনো লজ্জিত হতে দিয়ো না” (গীতসংহিতা 71:1)।\",\"translation_quote\":\"“হে সদাপ্রভু, তোমাতেই আমি আস্থা রাখি: আমাকে কখনো বিভ্রান্তিতে পড়তে দিয়ো না” (গীতসংহিতা 71:1).\"},{\"location\":\"Article title\",\"severity\":\"minor\",\"source_quote\":\"Circumstantial Overload\",\"suggested_fix\":\"পরিস্থিতিজনিত অতিরিক্ত চাপ\",\"translation_quote\":\"পরিস্থিতির কারণে অতিরিক্ত চাপ\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1971,
+    "content_evidence_truncated": false,
+    "content_sha256": "4a9e4c8e319f00e2a94c0ed32eb27113b8cfadc1a390b4a76fe60d678241c0b0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 344,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4602,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4599,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4946
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

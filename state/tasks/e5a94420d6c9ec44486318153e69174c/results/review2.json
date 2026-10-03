@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "327dd897-b92e-4ef2-a934-a63b4111bcec",
+    "response_id": "chatcmpl-EV1Sh51ENo61JXGHEIDxtmnUXEKJ2",
+    "usage": {
+      "completion_tokens": 933,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 790,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7002,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6999,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7935
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, Romans 1:31 quotation",
+        "severity": "major",
+        "source_quote": "“Without understanding, covenantbreakers, without natural affection, implacable, unmerciful”",
+        "suggested_fix": "Replace the corresponding phrase with: חסרי תבונה, מפרי ברית, חסרי חיבה טבעית, בלתי מתפייסים, חסרי רחמים",
+        "translation_quote": "חסרי תבונה, מפרי ברית, חסרי חיבה טבעית, חסרי רחמים ואכזריים"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

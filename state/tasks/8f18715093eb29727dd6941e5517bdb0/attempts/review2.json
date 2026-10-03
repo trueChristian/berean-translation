@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “As John began a new chapter…”\",\"severity\":\"major\",\"source_quote\":\"“As John began a new chapter in his life, he felt called to be a minister.”\",\"suggested_fix\":\"Vervang alleen de eerste zin door: “Toen John aan een nieuw hoofdstuk in zijn leven begon, voelde hij zich geroepen om predikant te worden.”\",\"translation_quote\":\"“Toen John een nieuw hoofdstuk in zijn leven begon, voelde hij zich geroepen om predikant te worden.”\"},{\"location\":\"HTML, paragraph beginning “John Newton often composed a hymn…”\",\"severity\":\"major\",\"source_quote\":\"“John Newton often composed a hymn to go with his Sunday evening services.”\",\"suggested_fix\":\"Vervang “John Newton schreef vaak een geestelijk lied voor zijn zondagavonddiensten.” door “John Newton schreef vaak een lied bij zijn zondagavonddiensten.”\",\"translation_quote\":\"“John Newton schreef vaak een geestelijk lied voor zijn zondagavonddiensten.”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1012,
+    "content_evidence_truncated": false,
+    "content_sha256": "ed2cb5121f95d150acc034ed1419c47ed2d668563d1ab4ba6b33d3abd2a5259a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 230,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6546,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6779
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "בית שלישי, שורה שלישית",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "כרעו ביראת קודש עמוקה—",
+      "translation_quote": "כרעו ביראה קדושה ונוראה—"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

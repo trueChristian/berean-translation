@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section “Zoek hoop op de juiste plekken,” paragraph beginning “De Bijbel maakt duidelijk…”\",\"severity\":\"major\",\"source_quote\":\"“The reason that we can hope is not because people are so wonderful—we don’t have to live very long to realize that they aren’t.”\",\"suggested_fix\":\"Replace the corresponding sentence with: “De reden dat we hoop hebben, is niet dat mensen zo geweldig zijn—we hoeven niet lang te leven om te beseffen dat ze dat niet zijn.”\",\"translation_quote\":\"“We kunnen niet hopen omdat mensen zo geweldig zijn—we hoeven niet lang te leven om te beseffen dat ze dat niet zijn.”\"},{\"location\":\"Opening narrative, paragraph beginning “At the rate at which you are drinking…”\",\"severity\":\"major\",\"source_quote\":\"“I will try to find you an inpatient program to detox you and get you off of alcohol.”\",\"suggested_fix\":\"Replace “een kliniekprogramma voor je te vinden” with “een klinisch opnameprogramma voor je te vinden” (or another Dutch term that clearly indicates inpatient treatment).\",\"translation_quote\":\"“zal ik proberen een kliniekprogramma voor je te vinden waar je kunt ontgiften en van de alcohol af kunt komen.”\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 1241,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac7895e3c81fb364cc972e656da787c2b373e85a783a0a34ad1ca125931bb6ba",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 841,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 562,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8927,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8924,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9768
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

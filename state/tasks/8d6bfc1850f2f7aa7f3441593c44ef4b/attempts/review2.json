@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Synd.”\",\"severity\":\"major\",\"source_quote\":\"“Of such are the worthless blackbirds, starlings, and grackles.”\",\"suggested_fix\":\"Ändra endast “båtstjärtarna” till en svensk benämning för grackles som inte begränsar hänvisningen till just båtstjärt, till exempel “gracklarna” om den benämningen används i måltextens fågelterminologi.\",\"translation_quote\":\"“Till sådana hör de värdelösa trupialerna, stararna och båtstjärtarna.”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 539,
+    "content_evidence_truncated": false,
+    "content_sha256": "de9ab50eee129b0abc0b2be3b7c37887b70eb0db7fdae731c82cd5ee55ae7fd2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1277,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6880,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8160
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

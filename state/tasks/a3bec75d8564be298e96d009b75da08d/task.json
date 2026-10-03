@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "919faaedc00d30ca0a62e2fc065e4b71af1a936c0d90473735bda569eccd690f",
   "base_metadata_sha256": "32553e9e1db982214e043e273894c62303c291bda442e445c99a4ea438f63459",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,32 +44,61 @@
         },
         "total_tokens": 6299
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 623,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4084,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4081,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4707
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Letzter Satz des Absatzes unter „Glauben Sie, dass Gott sich kümmert“",
+      "location": "HTML, paragraph beginning „Then he was elected…“",
       "severity": "major",
-      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning”",
-      "suggested_fix": "„Weinen mag eine Nacht dauern, doch am Morgen kommt Freude.“",
-      "translation_quote": "„Weeping may endure for a night, but joy cometh in the morning“"
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+      "suggested_fix": "Ersetze „Dann wurde er gewählt, die letzten vier Monate die Sekretariatsaufgaben für einen Bruder zu übernehmen, der einige Zeit in Bulgarien verbrachte.“ durch „Dann wurde er ausgewählt, die letzten vier Monate lang die Sekretariatsaufgaben für einen Bruder zu übernehmen, der einige Zeit in Bulgarien verbrachte.“",
+      "translation_quote": "„Dann wurde er gewählt, die letzten vier Monate die Sekretariatsaufgaben für einen Bruder zu übernehmen, der einige Zeit in Bulgarien verbrachte.“"
     },
     {
-      "location": "Letzter Absatz, Psalm 71:1",
+      "location": "HTML, paragraph beginning „I felt like a lifeguard…“",
       "severity": "major",
-      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion”",
-      "suggested_fix": "„Auf dich, HERR, vertraue ich; lass mich niemals in Verwirrung geraten.“",
-      "translation_quote": "„In thee, O LORD, do I put my trust: let me never be put to confusion“"
+      "source_quote": "“Then I was asked to fill the position of food committee for Mrs. ‘Going-to-Bulgaria.’”",
+      "suggested_fix": "Ersetze „die Aufgaben im Essenskomitee für Mrs. ‚Going-to-Bulgaria‘ zu übernehmen“ durch „den Posten im Essenskomitee für Mrs. ‚Going-to-Bulgaria‘ zu übernehmen“; der ursprüngliche Satz bezeichnet die Übernahme eines bestimmten Postens, nicht allgemein von Aufgaben.",
+      "translation_quote": "„Dann wurde ich gebeten, die Aufgaben im Essenskomitee für Mrs. ‚Going-to-Bulgaria‘ zu übernehmen.“"
     },
     {
-      "location": "Absatz unter „Finden Sie eine Routine“",
-      "severity": "minor",
-      "source_quote": "“racing thoughts”",
-      "suggested_fix": "Ersetzen Sie „Renn-Gedanken“ durch „rasende Gedanken“.",
-      "translation_quote": "„Renn-Gedanken“"
+      "location": "HTML, Absatz beginnend mit „Sometimes this type of overload…“",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "Ersetze „in unseren Gemeinden“ durch „in unseren Plain-Gemeinschaften“ und „wöchentliche Berichte zur Haushaltslage“ durch „wöchentliche Mitteilungen über den Bedarf im Haushaltsbudget“, sodass der Bezug auf die Plain-Gemeinschaften und die wöchentlichen Budget-Updates erhalten bleibt.",
+      "translation_quote": "„Traumatische Ereignisse in unseren Gemeinden erhalten eher Gebete, finanzielle Hilfe und wöchentliche Berichte zur Haushaltslage.“"
+    },
+    {
+      "location": "HTML, Absatz beginnend mit „If you are facing circumstantial overload…“",
+      "severity": "major",
+      "source_quote": "“Many times, He opens doors just when we are running out of options.”",
+      "suggested_fix": "Ersetze „Oft öffnet er Türen genau dann, wenn uns die Möglichkeiten ausgehen“ durch „Oft öffnet er Türen genau dann, wenn uns die Möglichkeiten ausgehen“ nur dann, wenn das Subjekt ausdrücklich „wir“ lautet; andernfalls: „Oft öffnet er Türen genau dann, wenn wir keine Möglichkeiten mehr haben.“",
+      "translation_quote": "„Oft öffnet er Türen genau dann, wenn uns die Möglichkeiten ausgehen.“"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "a3bec75d8564be298e96d009b75da08d",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -165,7 +193,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-6-luna"

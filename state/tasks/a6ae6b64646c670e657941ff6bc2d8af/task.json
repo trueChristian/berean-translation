@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "400d3a492da9730e14190473140358a4b8318538cb94b6065064cfbdb4e0fbb6",
   "base_metadata_sha256": "db007dbca1ac8c7e0f69f3f4049760c95c55f1ff1773f0f2f5b7d17838dc3dbf",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,32 +44,31 @@
         },
         "total_tokens": 5207
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 634,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 602,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3264,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3261,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3898
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, p.book-list",
-      "severity": "major",
-      "source_quote": "The Power of the Love of Truth<br> ... The Mennonite Church and Modernism",
-      "suggested_fix": "Translate the book titles into Korean while preserving the existing <p class=\"book-list\"> element, line order, and <br> tags. For example: 진리의 사랑의 능력<br>기독교 상담—가짜인가?<br>하나님의 마음<br>참으로 자유롭게!<br>순례자들과 정치<br>잔과 십자가<br>전인적 치유의 높은 대가<br>성공적인 글쓰기의 비결<br>가톨릭과의 연결<br>정신의학과 기분을 변화시키는 약물<br>메노나이트 교회와 현대주의",
-      "translation_quote": "The Power of the Love of Truth<br> ... The Mennonite Church and Modernism"
-    },
-    {
-      "location": "HTML, third paragraph, Nelson Mandela quotation",
-      "severity": "minor",
-      "source_quote": "what do you think you’ll feel worst about, failing or never trying?",
-      "suggested_fix": "Replace “무엇이 더 더 나쁘다고 느끼겠는가” with “무엇을 더 후회하겠는가” to remove the duplicated “더” and express the comparison naturally.",
-      "translation_quote": "당신은 무엇이 더 더 나쁘다고 느끼겠는가, 실패인가 아니면 시도조차 하지 않은 것인가?"
-    },
-    {
-      "location": "HTML, figure img alt",
-      "severity": "minor",
-      "source_quote": "Pink and white crown vetch flowers in a green meadow",
-      "suggested_fix": "Replace “관목충영 꽃” with a Korean rendering of crown vetch, such as “왕관갈퀴나물 꽃”: “초록 초원에 핀 분홍색과 흰색 왕관갈퀴나물 꽃”.",
-      "translation_quote": "초록 초원에 핀 분홍색과 흰색 관목충영 꽃"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "a6ae6b64646c670e657941ff6bc2d8af",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "kor",
@@ -159,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

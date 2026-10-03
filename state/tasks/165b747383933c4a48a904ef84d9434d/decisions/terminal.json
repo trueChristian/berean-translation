@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Alt text",
+      "severity": "minor",
+      "source_quote": "A cup of coffee beside a spiral notebook and pencil.",
+      "suggested_fix": "Kikombe cha kahawa kando ya daftari lenye uunganisho wa ond na penseli.",
+      "translation_quote": "Kikombe cha kahawa kando ya daftari lenye jalada la mzunguko na penseli."
+    },
+    {
+      "location": "Paragraph beginning “Do some tasks ahead of time”",
+      "severity": "major",
+      "source_quote": "“Deciding early in the day what to make for supper”",
+      "suggested_fix": "“Kuamua mapema mchana cha kuandaa kwa chakula cha jioni”",
+      "translation_quote": "“Kuamua mapema mchana cha kuandaa kwa chakula cha jioni”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

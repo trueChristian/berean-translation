@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "We need young believers who bravely submit their first children’s stories.",
+      "suggested_fix": "Replace «τις πρώτες τους παιδικές ιστορίες» with «τις πρώτες τους ιστορίες για παιδιά» to convey that these are stories intended for children.",
+      "translation_quote": "Χρειαζόμαστε νέους πιστούς που θα υποβάλουν με θάρρος τις πρώτες τους παιδικές ιστορίες."
+    },
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "Courageous writers step forward",
+      "suggested_fix": "Correct the spelling to «Θαρραλέοι συγγραφείς».",
+      "translation_quote": "Θαραλλέοι συγγραφείς"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

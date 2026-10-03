@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "正文，第17段（《奥尔尼圣诗集》及《奇异恩典》）",
+      "severity": "major",
+      "source_quote": "The most famous of all the Olney Hymns, “Faith’s Review and Expectation”, grew out of David’s exclamation in 1 Chronicles 17:16-17. We know it today as “Amazing Grace”.",
+      "suggested_fix": "将此句改为：“《奥尔尼圣诗集》中最著名的一首《信心的回顾与盼望》，源于大卫在《历代志上》17:16-17中的感叹。我们今天称它为《奇异恩典》。”保留原有的引文标记、斜体标签及段落结构。",
+      "translation_quote": "在<em>《奥尔尼圣诗集》</em>中最著名的一首《信心的回顾与盼望》，源于大卫在历代志上17:16-17中的感叹。我们今天称它为《奇异恩典》。"
+    },
+    {
+      "location": "正文，第21段（牛顿退休的回应）",
+      "severity": "major",
+      "source_quote": "What, shall the old African blasphemer stop while he can still speak?",
+      "suggested_fix": "将引语中的“这个曾在非洲亵渎上帝的老人”改为“这个老非洲亵渎者”，以保留原文称呼所表达的身份与措辞。",
+      "translation_quote": "什么？这个曾在非洲亵渎上帝的老人，难道还说得出话就该停下来吗？"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

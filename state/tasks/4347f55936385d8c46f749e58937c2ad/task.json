@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "02bb0481e3c85ebb42bc5ecda24ddbae8ac8c72e47969a2ed14045e779d7d216",
   "base_metadata_sha256": "0d95ae956f0abbff21bf5c79fc7d6f84244566a479fa8a27087b09dc4004576c",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,88 +44,75 @@
         },
         "total_tokens": 12290
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Body, paragraph 2",
-      "severity": "major",
-      "source_quote": "In the small cemetery of a churchyard in Olney, England",
-      "suggested_fix": "Katika makaburi madogo ya uwanja wa kanisa huko Olney, Uingereza",
-      "translation_quote": "Katika makaburi madogo yaliyo kwenye uwanja wa kanisa huko Olney, Uingereza"
     },
     {
-      "location": "Body, paragraph 3 (inscription)",
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1014,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7100,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7097,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8114
+      }
+    }
+  ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Aya ya 3, maandishi ya kaburini",
       "severity": "major",
       "source_quote": "a servant of slaves in Africa",
-      "suggested_fix": "mtu aliyewatumikia watumwa barani Afrika",
+      "suggested_fix": "Badilisha “mtumishi wa watumwa barani Afrika” kuwa “mtu aliyewatumikisha watumwa barani Afrika” au tafsiri inayohifadhi kwamba Newton alikuwa mtumishi wa wamiliki/wafanyabiashara wa watumwa, si mtumwa mwenyewe.",
       "translation_quote": "mtumishi wa watumwa barani Afrika"
     },
     {
-      "location": "Body, paragraph 9",
-      "severity": "major",
-      "source_quote": "He sent several letters back to his father during this time, pleading for help.",
-      "suggested_fix": "Wakati huo alimtumia baba yake barua kadhaa, akimsihi amsaidie.",
-      "translation_quote": "Wakati huo alimtumia baba yake barua kadhaa, akiomba msaada kwa kusihi."
-    },
-    {
-      "location": "Body, paragraph 10",
-      "severity": "major",
-      "source_quote": "The ship, while being almost too far from shore to trade, decided to give trading a try.",
-      "suggested_fix": "Ingawa meli ilikuwa karibu kuwa mbali mno na ufuo kufanya biashara, waliamua kujaribu kufanya biashara.",
-      "translation_quote": "Ingawa meli ilikuwa karibu mbali mno na ufuo kufanya biashara, waliamua kujaribu kufanya biashara."
-    },
-    {
-      "location": "Body, paragraph 11",
-      "severity": "major",
-      "source_quote": "The storm awakened Newton, the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.",
-      "suggested_fix": "Dhoruba ilimwamsha Newton; mbao zilizooza za meli zilikuwa zimevunjwa na mawimbi, na maji ya mafuriko yalikuwa yakizunguka na kuingia katika chumba chake.",
-      "translation_quote": "Dhoruba ilimwamsha Newton, huku mbao zilizooza za meli zikivunjwa na mawimbi na maji yakizunguka na kuingia katika chumba chake."
-    },
-    {
-      "location": "Body, paragraph 12",
+      "location": "Aya ya 11, usukani wakati wa dhoruba",
       "severity": "major",
       "source_quote": "From one o’clock until midnight, he was at the helm.",
-      "suggested_fix": "Kuanzia saa moja asubuhi hadi usiku wa manane, alikuwa kwenye usukani.",
-      "translation_quote": "Kuanzia saa saba mchana hadi usiku wa manane, alikuwa kwenye usukani."
+      "suggested_fix": "Tafsiri kama “Kuanzia saa moja hadi usiku wa manane, alikuwa kwenye usukani,” ukiweka wazi kuwa ni saa moja ya mchana (1 pm), kwa kuwa muktadha unasema alifanya hivyo hadi usiku wa manane.",
+      "translation_quote": "Kuanzia saa moja hadi usiku wa manane, alikuwa kwenye usukani."
     },
     {
-      "location": "Body, paragraph 15",
+      "location": "Aya ya 16, barua kwa Mary",
       "severity": "major",
-      "source_quote": "He took an interest in prayer, reading and meditating on the Scriptures, and only speaking words pleasing to God.",
-      "suggested_fix": "Alijitolea kwa maombi, kusoma na kutafakari Maandiko, na kusema maneno yanayompendeza Mungu pekee.",
-      "translation_quote": "Alianza kupendezwa na maombi, kusoma na kutafakari Maandiko, na kusema maneno yanayompendeza Mungu pekee."
+      "source_quote": "... When I indulge myself with a particular thought of you, it usually carries me on farther and brings me upon my knees to bless the Lord for giving me such a treasure and to pray for your peace and welfare",
+      "suggested_fix": "Rekebisha dondoo ili lihifadhi maana ya “indulge myself with a particular thought of you” na “carries me on farther”; kwa mfano: “... Ninapojifurahisha kwa kuwaza hasa juu yako, kwa kawaida mawazo hayo hunipeleka mbele zaidi na kunifanya nipige magoti kumhimidi Bwana kwa kunipa hazina kama hii na kuomba amani na ustawi wako.”",
+      "translation_quote": "“... Ninapojipa nafasi ya kukuwaza kwa namna ya pekee, kwa kawaida mawazo hayo hunipeleka mbali zaidi na kunifanya nipige magoti kumhimidi Bwana kwa kunipa hazina kama hii na kuombea amani na ustawi wako”"
     },
     {
-      "location": "Body, paragraph 19",
+      "location": "Aya ya 21, nukuu kutoka kitabu cha Newton",
       "severity": "major",
-      "source_quote": "“Faith’s Review and Expectation”",
-      "suggested_fix": "“Tafakari na Matarajio ya Imani”",
-      "translation_quote": "“Kutazama Nyuma na Matarajio ya Imani”"
+      "source_quote": "He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
+      "suggested_fix": "Tafsiri dondoo kama nukuu ya Newton, bila kubadilisha “Needless to say” kuwa madai ya uhakika: kwa mfano, “Ananukuu hivi: ‘Bila kusema, kuwakamata, kuwauza na kuwasafirisha watumwa weusi hadi kwenye mashamba ya West Indies na Amerika ilikuwa njia ya maisha ya kikatili na ya kinyama.’”",
+      "translation_quote": "Ananukuu hivi, “Bila shaka, kuwakamata, kuwauza na kuwasafirisha watumwa weusi hadi kwenye mashamba makubwa ya West Indies na Amerika kulikuwa maisha ya kikatili na ya kinyama.”"
     },
     {
-      "location": "Body, paragraph 20",
+      "location": "Aya ya 22, miaka ya Mary",
       "severity": "major",
-      "source_quote": "In 1788, 34 years after he left the slave trade, He wrote a book entitled Thoughts Upon the African Slave Trade and sent it to all the members of parliament.",
-      "suggested_fix": "Mwaka 1788, miaka 34 baada ya kuacha biashara ya watumwa, aliandika kitabu kilichoitwa <em>Thoughts Upon the African Slave Trade</em> na kukituma kwa wabunge wote.",
-      "translation_quote": "Mwaka 1788, miaka 34 baada ya kuacha biashara ya watumwa, aliandika kitabu kilichoitwa <em>Thoughts Upon the African Slave Trade</em> na kukituma kwa wabunge wote."
+      "source_quote": "When John was in his sixties, his beloved wife Mary passed away.",
+      "suggested_fix": "Badilisha “alipokuwa katika miaka yake ya sitini” kuwa “alipokuwa na umri wa miaka sitini na kitu” au usemi mwingine unaomaanisha alikuwa na miaka kati ya 60 na 69; usimaanishe kuwa alikuwa na umri wa miaka 60 hasa.",
+      "translation_quote": "John alipokuwa katika miaka yake ya sitini, mke wake mpendwa Mary alifariki."
     },
     {
-      "location": "Body, paragraph 20, quoted passage",
+      "location": "Aya ya mwisho, taarifa ya toleo la muziki",
       "severity": "major",
-      "source_quote": "“Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
-      "suggested_fix": "“Bila shaka, kuwakamata, kuwauza na kuwasafirisha watumwa weusi hadi kwenye mashamba makubwa ya West Indies na Amerika kulikuwa maisha ya kikatili na ya kinyama.”",
-      "translation_quote": "“Bila shaka, kuwakamata, kuwauza na kuwasafirisha watumwa weusi kwenda kwenye mashamba makubwa katika visiwa vya West Indies na Amerika ilikuwa njia ya maisha ya ukatili na uovu.”"
-    },
-    {
-      "location": "Body, paragraph 25",
-      "severity": "major",
-      "source_quote": "It was first known as a plantation melody entitled “Loving Lambs”.",
-      "suggested_fix": "Mwanzoni lilijulikana kama melodia ya mashamba iliyoitwa “Wanakondoo Wapendwa”.",
-      "translation_quote": "Kwanza ilijulikana kama melodia ya mashambani iliyoitwa “Wanakondoo Wenye Upendo”."
+      "source_quote": "In 1910, Edwin O. Excell added the last verse, which eventually replaced the last three original verses of the song.",
+      "suggested_fix": "Badilisha “Mwaka 1910” kuwa “Mwaka 1910” tu ikiwa hili ni sahihi kwa chanzo? Chanzo kinasema 1910; badala yake rekebisha sentensi ya Kiswahili ili isiseme tu kuwa aliongeza ubeti, bali kwamba ubeti huo baadaye ulichukua nafasi ya beti tatu za mwisho za awali: “Mwaka 1910, Edwin O. Excell aliongeza ubeti wa mwisho, ambao hatimaye ulichukua nafasi ya beti tatu za mwisho za awali za wimbo huo.”",
+      "translation_quote": "Mwaka 1910, Edwin O. Excell aliongeza ubeti wa mwisho, ambao hatimaye ulichukua nafasi ya beti tatu za mwisho za awali za wimbo huo."
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "4347f55936385d8c46f749e58937c2ad",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -215,13 +201,13 @@
     }
   },
   "protected": false,
-  "quality_score": 79,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6-luna"

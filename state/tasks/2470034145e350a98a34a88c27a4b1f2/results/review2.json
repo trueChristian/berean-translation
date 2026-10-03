@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e02664d2-9c62-4bfe-a24e-80fc2805aeb0",
+    "response_id": "chatcmpl-EV1UYLsI4qpkHnxChoFiypKzlYywJ",
+    "usage": {
+      "completion_tokens": 727,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6980,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6977,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7707
+    }
+  },
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקה על ניסיונו של ניוטון להנהיג מנהגים נוצריים בספינת העבדים",
+        "severity": "minor",
+        "source_quote": "“John endeavored to ‘Christianize’ his slave ship by holding Sunday services for his crew of 30 sin-hardened men.”",
+        "suggested_fix": "החליפו את ״קיום תפילות יום ראשון״ ב״קיום תפילות יום ראשון בצוותו״ או, באופן מדויק יותר, ״קיום טקסי תפילה ביום ראשון לצוותו״; ״תפילות״ בלבד מצמצם את המשמעות של Sunday services.",
+        "translation_quote": "ג'ון השתדל ״להפוך לנוצרית״ את ספינת העבדים שלו באמצעות קיום תפילות יום ראשון לצוותו, שכלל 30 גברים שהחטא הקשיח את לבם."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

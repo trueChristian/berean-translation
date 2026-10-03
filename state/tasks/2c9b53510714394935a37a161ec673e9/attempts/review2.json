@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, premier paragraphe\",\"severity\":\"minor\",\"source_quote\":\"My young preschool mind had never seen so many delectable sweets in one place at one time.\",\"suggested_fix\":\"Remplacer « Mon jeune esprit de préscolaire » par « Mon jeune esprit d’enfant d’âge préscolaire » pour une formulation plus naturelle.\",\"translation_quote\":\"Mon jeune esprit de préscolaire n’avait jamais vu autant de douceurs alléchantes réunies au même endroit.\"},{\"location\":\"HTML, troisième paragraphe\",\"severity\":\"minor\",\"source_quote\":\"I encourage you, fellow believers, to give it a try.\",\"suggested_fix\":\"Remplacer « à tenter votre chance » par « à vous lancer » pour préserver l’idée d’essayer d’écrire pour la revue.\",\"translation_quote\":\"Je vous encourage, frères et sœurs en Christ, à tenter votre chance.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 877,
+    "content_evidence_truncated": false,
+    "content_sha256": "7a2e3bb01e4b87ef0330445d3cdb84ff7fee843ad88e1074f83e32b62a58ab62",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 483,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3118,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3115,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3805
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

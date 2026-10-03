@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "بہن سے بہن تک",
+      "translation_quote": "بہن بہن کے درمیان"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

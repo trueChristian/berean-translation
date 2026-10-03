@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1f469054-ad8c-42c6-bc44-6f70684ef288",
+    "response_id": "chatcmpl-EV1T54usyxi90QOmqUGLBJmKItmiu",
+    "usage": {
+      "completion_tokens": 244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1680,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1677,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1924
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, पहली कविता, पंक्ति 6",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "‘और स्तुति करो’ के बाद ‘क्योंकि यहाँ और भी बहुत कुछ है’ को ऐसा अनुवाद दें जो मूल के ‘for more is here’ का अर्थ सुरक्षित रखे, जैसे: ‘धन्यवाद दो और स्तुति करो, क्योंकि और भी बहुत कुछ यहाँ है!’",
+        "translation_quote": "धन्यवाद दो और स्तुति करो, क्योंकि यहाँ और भी बहुत कुछ है!"
+      },
+      {
+        "location": "HTML, तीसरी कविता, पंक्ति 3",
+        "severity": "major",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "‘awful’ यहाँ विस्मय और श्रद्धा जगाने वाले भय के अर्थ में है; पंक्ति को इस आशय से अनुवाद करें, जैसे: ‘विस्मय और पवित्र भय से झुको—’",
+        "translation_quote": "विस्मयकारी, पवित्र भय से झुको—"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

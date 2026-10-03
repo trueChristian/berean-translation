@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "b636b98deceadf83aca06ee594f5820f843e875081fe6661d7727a80277c9ca0",
   "base_metadata_sha256": "0a2c09df87d7b5351e558f99a6297f6841e86ef25de6802be2d1d9b184acc196",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,46 +44,31 @@
         },
         "total_tokens": 5447
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 499,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 473,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3245,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3242,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3744
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML paragraph 3, Nelson Mandela quotation",
-      "severity": "major",
-      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
-      "suggested_fix": "Vertaal die aangehaalde woorde in Afrikaans, byvoorbeeld: “Mislukking is ’n leermeester, en aan die einde van jou lewe, waaroor dink jy sal jy die slegste voel: omdat jy misluk het, of omdat jy nooit probeer het nie?”",
-      "translation_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
-    },
-    {
-      "location": "HTML paragraph 3, sentence beginning “Fathers”",
-      "severity": "major",
-      "source_quote": "Fathers who with a concerned eye watch the world pressing in on the Christian homes.",
-      "suggested_fix": "Vervang “Vaderfigure” met “Vaders” om die bron se verwysing na fathers te behou.",
-      "translation_quote": "Vaderfigure wat met ’n bewerkte oog die wêreld sien inbeweeg op die Christelike huise."
-    },
-    {
-      "location": "HTML paragraph 3, same sentence",
-      "severity": "major",
-      "source_quote": "with a concerned eye watch the world pressing in on the Christian homes",
-      "suggested_fix": "Gebruik byvoorbeeld “wat met ’n besorgde oog toekyk hoe die wêreld al hoe meer op Christelike huise druk”.",
-      "translation_quote": "wat met ’n bewerkte oog die wêreld sien inbeweeg op die Christelike huise"
-    },
-    {
-      "location": "HTML paragraph 2, sentence about meeting authors",
-      "severity": "minor",
-      "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
-      "suggested_fix": "Vervang “Ek het skouers geboen met” met die idiomatiese “Ek het skouers geskuur met”.",
-      "translation_quote": "Ek het skouers geboen met bekende outeurs soos Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox."
-    },
-    {
-      "location": "HTML paragraph 1, opening sentence",
-      "severity": "minor",
-      "source_quote": "the tantalizing cacophony of odors",
-      "suggested_fix": "Vervang “versoekende kakofonie van reuke” met byvoorbeeld “aanloklike kakofonie van geure”.",
-      "translation_quote": "die versoekende kakofonie van reuke"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "a255498791e24dfda6c4fd7b4b017d3b",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "afr",
@@ -173,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

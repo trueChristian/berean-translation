@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Romans 1:31 quotation",
+      "severity": "major",
+      "source_quote": "“Without understanding, covenantbreakers, without natural affection, implacable, unmerciful”",
+      "suggested_fix": "Replace the corresponding phrase with: חסרי תבונה, מפרי ברית, חסרי חיבה טבעית, בלתי מתפייסים, חסרי רחמים",
+      "translation_quote": "חסרי תבונה, מפרי ברית, חסרי חיבה טבעית, חסרי רחמים ואכזריים"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

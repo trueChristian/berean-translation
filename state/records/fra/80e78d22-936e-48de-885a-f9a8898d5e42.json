@@ -18,6 +18,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "17c9b71010424f4984127b0628073550"
+    },
+    {
+      "at": "2026-10-03T21:32:38+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; no further automatic correction is allowed",
+      "task": "17c9b71010424f4984127b0628073550"
     }
   ],
   "language": "fra",

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, first and second stanzas",
+      "severity": "minor",
+      "source_quote": "“Arise be glad! … Rejoice and sing! … Give thanks and laud” and “Arise and glorify the Lord! … Adore and praise our mighty Lord!”",
+      "suggested_fix": "For consistent address to a group, use plural imperatives throughout: in the first stanza change “Sorgi” to “Sorgete” and “Gioisci e canta” to “Gioite e cantate”; in the second stanza change “Sorgi” to “Sorgete” and “Adora” to “Adorate”.",
+      "translation_quote": "“Sorgi, sii lieto! … Gioisci e canta! … Rendete grazie” and “Sorgi e glorifica il Signore! … Esaltate … Adora e loda”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

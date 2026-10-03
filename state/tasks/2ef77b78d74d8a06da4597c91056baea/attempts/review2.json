@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3\",\"severity\":\"major\",\"source_quote\":\"“the chickens had left the day before”\",\"suggested_fix\":\"Replace «שהתרנגולות הוצאו ממנו יום קודם לכן» with «שהתרנגולות כבר עזבו יום קודם לכן», preserving the source’s statement without adding that someone removed them from the chicken house.\",\"translation_quote\":\"«שהתרנגולות הוצאו ממנו יום קודם לכן»\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 501,
+    "content_evidence_truncated": false,
+    "content_sha256": "b4eb6faa27264ee7c7078e1814daf74fac2a6681b4bbfc7db44a7a638f950a59",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 596,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4240,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4237,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4957
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

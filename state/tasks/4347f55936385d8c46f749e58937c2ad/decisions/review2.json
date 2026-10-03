@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Aya ya 3, maandishi ya kaburini",
+      "severity": "major",
+      "source_quote": "a servant of slaves in Africa",
+      "suggested_fix": "Badilisha “mtumishi wa watumwa barani Afrika” kuwa “mtu aliyewatumikisha watumwa barani Afrika” au tafsiri inayohifadhi kwamba Newton alikuwa mtumishi wa wamiliki/wafanyabiashara wa watumwa, si mtumwa mwenyewe.",
+      "translation_quote": "mtumishi wa watumwa barani Afrika"
+    },
+    {
+      "location": "Aya ya 11, usukani wakati wa dhoruba",
+      "severity": "major",
+      "source_quote": "From one o’clock until midnight, he was at the helm.",
+      "suggested_fix": "Tafsiri kama “Kuanzia saa moja hadi usiku wa manane, alikuwa kwenye usukani,” ukiweka wazi kuwa ni saa moja ya mchana (1 pm), kwa kuwa muktadha unasema alifanya hivyo hadi usiku wa manane.",
+      "translation_quote": "Kuanzia saa moja hadi usiku wa manane, alikuwa kwenye usukani."
+    },
+    {
+      "location": "Aya ya 16, barua kwa Mary",
+      "severity": "major",
+      "source_quote": "... When I indulge myself with a particular thought of you, it usually carries me on farther and brings me upon my knees to bless the Lord for giving me such a treasure and to pray for your peace and welfare",
+      "suggested_fix": "Rekebisha dondoo ili lihifadhi maana ya “indulge myself with a particular thought of you” na “carries me on farther”; kwa mfano: “... Ninapojifurahisha kwa kuwaza hasa juu yako, kwa kawaida mawazo hayo hunipeleka mbele zaidi na kunifanya nipige magoti kumhimidi Bwana kwa kunipa hazina kama hii na kuomba amani na ustawi wako.”",
+      "translation_quote": "“... Ninapojipa nafasi ya kukuwaza kwa namna ya pekee, kwa kawaida mawazo hayo hunipeleka mbali zaidi na kunifanya nipige magoti kumhimidi Bwana kwa kunipa hazina kama hii na kuombea amani na ustawi wako”"
+    },
+    {
+      "location": "Aya ya 21, nukuu kutoka kitabu cha Newton",
+      "severity": "major",
+      "source_quote": "He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
+      "suggested_fix": "Tafsiri dondoo kama nukuu ya Newton, bila kubadilisha “Needless to say” kuwa madai ya uhakika: kwa mfano, “Ananukuu hivi: ‘Bila kusema, kuwakamata, kuwauza na kuwasafirisha watumwa weusi hadi kwenye mashamba ya West Indies na Amerika ilikuwa njia ya maisha ya kikatili na ya kinyama.’”",
+      "translation_quote": "Ananukuu hivi, “Bila shaka, kuwakamata, kuwauza na kuwasafirisha watumwa weusi hadi kwenye mashamba makubwa ya West Indies na Amerika kulikuwa maisha ya kikatili na ya kinyama.”"
+    },
+    {
+      "location": "Aya ya 22, miaka ya Mary",
+      "severity": "major",
+      "source_quote": "When John was in his sixties, his beloved wife Mary passed away.",
+      "suggested_fix": "Badilisha “alipokuwa katika miaka yake ya sitini” kuwa “alipokuwa na umri wa miaka sitini na kitu” au usemi mwingine unaomaanisha alikuwa na miaka kati ya 60 na 69; usimaanishe kuwa alikuwa na umri wa miaka 60 hasa.",
+      "translation_quote": "John alipokuwa katika miaka yake ya sitini, mke wake mpendwa Mary alifariki."
+    },
+    {
+      "location": "Aya ya mwisho, taarifa ya toleo la muziki",
+      "severity": "major",
+      "source_quote": "In 1910, Edwin O. Excell added the last verse, which eventually replaced the last three original verses of the song.",
+      "suggested_fix": "Badilisha “Mwaka 1910” kuwa “Mwaka 1910” tu ikiwa hili ni sahihi kwa chanzo? Chanzo kinasema 1910; badala yake rekebisha sentensi ya Kiswahili ili isiseme tu kuwa aliongeza ubeti, bali kwamba ubeti huo baadaye ulichukua nafasi ya beti tatu za mwisho za awali: “Mwaka 1910, Edwin O. Excell aliongeza ubeti wa mwisho, ambao hatimaye ulichukua nafasi ya beti tatu za mwisho za awali za wimbo huo.”",
+      "translation_quote": "Mwaka 1910, Edwin O. Excell aliongeza ubeti wa mwisho, ambao hatimaye ulichukua nafasi ya beti tatu za mwisho za awali za wimbo huo."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “There are two types of humanistic beliefs”\",\"severity\":\"major\",\"source_quote\":\"This allows the human race to do as it pleases without eternal consequences.\",\"suggested_fix\":\"이로써 인류는 영원한 결과를 감수하지 않고도 원하는 대로 행동할 수 있다.\",\"translation_quote\":\"그러면 인류는 영원한 결과에 대한 걱정 없이 원하는 대로 행동할 수 있다.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 491,
+    "content_evidence_truncated": false,
+    "content_sha256": "9b0eba03a7c5ed210f5d6651f7dea0c9776e499884b4dc68ff7f7c9850f8ca49",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 634,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7196,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7833
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

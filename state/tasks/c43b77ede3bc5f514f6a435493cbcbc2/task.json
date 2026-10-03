@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": "727a4ca0e42f736003da18e057a6d95e68b3643c8075d8def8e153b736cd43aa",
   "base_metadata_sha256": "345ca9d9dcd18657dfaf6d7b0d7523972e96b6f17bd6fa1e6b233fad1a95f104",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,67 +44,47 @@
         },
         "total_tokens": 21721
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 968,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 677,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13798,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13795,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14766
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.title; article-note opening",
+      "location": "Section 3, paragraph beginning “পুরুষ ও নারী সম্পর্কে ঈশ্বরের পরিকল্পনা”",
       "severity": "major",
-      "source_quote": "A Christ-Centered Courtship",
-      "suggested_fix": "Translate “courtship” consistently as a Bengali term for courtship/বিবাহ-পূর্ব পরিচয় ও সম্পর্ক, not অঙ্গীকার (“commitment”). For example: title “খ্রিষ্টকেন্দ্রিক বিবাহ-পূর্ব সম্পর্ক”; in the note, replace “একটি খ্রীষ্ট-কেন্দ্রিক অঙ্গীকার” with “খ্রিষ্টকেন্দ্রিক বিবাহ-পূর্ব সম্পর্ক”.",
-      "translation_quote": "একটি খ্রীষ্ট-কেন্দ্রিক কোর্টশিপ"
+      "source_quote": "God’s plan for male and female is that He brings Eve to Adam. Then the leaving and cleaving to take place.",
+      "suggested_fix": "Replace “তারপর তারা একে অপরকে ছেড়ে যায় ও একত্রে যুক্ত হয়।” with “তারপর পুরুষ তার পিতা-মাতাকে ছেড়ে স্ত্রীর সঙ্গে যুক্ত হয়।”",
+      "translation_quote": "তারপর তারা একে অপরকে ছেড়ে যায় ও একত্রে যুক্ত হয়।"
     },
     {
-      "location": "Article note, Genesis and Mark quotations; sections 4–10; throughout quoted Scripture",
+      "location": "Section 7, paragraph quoting Ephesians 5:33",
       "severity": "major",
-      "source_quote": "“Remember now thy Creator in the days of thy youth...” and the other Scripture quotations printed in English throughout the article",
-      "suggested_fix": "Translate each quoted Scripture passage into Bengali, preserving its printed meaning and the exact book, chapter, verse numbers, ranges, and placement of references. Do not leave the quoted prose in English.",
-      "translation_quote": "“Remember now thy Creator in the days of thy youth...” (and the other Scripture quotations left in English, including the long quotations from Genesis, Mark, Ephesians, and 1 Peter)"
-    },
-    {
-      "location": "Figure image alt attributes, all three figures",
-      "severity": "major",
-      "source_quote": "“A man and woman walking together through a green meadow”; “A father and mother looking at their newborn baby”; “A family standing together before a waterfall”",
-      "suggested_fix": "Translate each image description into Bengali while retaining the existing img elements and immutable attributes. For example: “সবুজ তৃণভূমির মধ্য দিয়ে এক নারী ও পুরুষ একসঙ্গে হাঁটছেন”; “এক বাবা ও মা তাঁদের নবজাত শিশুর দিকে তাকিয়ে আছেন”; “একটি পরিবার জলপ্রপাতের সামনে একসঙ্গে দাঁড়িয়ে আছে”।",
-      "translation_quote": "alt=\"A man and woman walking together through a green meadow\"; alt=\"A father and mother looking at their newborn baby\"; alt=\"A family standing together before a waterfall\""
-    },
-    {
-      "location": "Goal #4",
-      "severity": "major",
-      "source_quote": "“find fulfillment and purpose in walking with God”",
-      "suggested_fix": "Replace “ভোগ ও উদ্দেশ্য খুঁজতে” with “ঈশ্বরের সঙ্গে চলার মধ্যে পরিতৃপ্তি ও উদ্দেশ্য খুঁজে পেতে”. Also make the subject agreement consistent: the goal is that young people seek maturity in their manners and character.",
-      "translation_quote": "“ঈশ্বরের অনুসরণে ভোগ ও উদ্দেশ্য খুঁজতে”"
-    },
-    {
-      "location": "Section 6, paragraph beginning “I remember looking at married life”",
-      "severity": "major",
-      "source_quote": "“You need to make it happen in a way that the anointing of the Spirit of God can come down on your family.”",
-      "suggested_fix": "Replace “ঈশ্বরের আত্মার অনুদিতি” with a clear Bengali rendering of “the anointing of the Spirit of God,” such as “ঈশ্বরের আত্মার অভিষেক”.",
-      "translation_quote": "“ঈশ্বরের আত্মার অনুদিতি আপনার পরিবারের ওপর নেমে আসতে পারে”"
-    },
-    {
-      "location": "Section 10, paragraph beginning “But my plea”",
-      "severity": "major",
-      "source_quote": "“I’m willing to lay it on the altar.”",
-      "suggested_fix": "Replace “আমি এটাকে বলিতে দেব” with a Bengali rendering conveying surrender/dedication, such as “আমি তা বেদিতে উৎসর্গ করতে প্রস্তুত”.",
-      "translation_quote": "“আমি এটাকে বলিতে দেব।”"
-    },
-    {
-      "location": "Section 10, paragraph beginning “Young men, are you willing”",
-      "severity": "major",
-      "source_quote": "“eternal souls”",
-      "suggested_fix": "Replace “কালন্ত আত্মাগুলোকে” with “অনন্তকালীন আত্মাদের” or another idiomatic rendering of “eternal souls”.",
-      "translation_quote": "“কালন্ত আত্মাগুলোকে”"
-    },
-    {
-      "location": "Section 9 heading; section 1 heading; subtitle",
-      "severity": "minor",
-      "source_quote": "“God’s Plan for Male and Female”; “God brings Eve to Adam.”",
-      "suggested_fix": "Correct “নরী” to “নারী” in the subtitle, and use the conventional Bengali spelling “আদম” rather than “আদাম” in the heading and article where appropriate.",
-      "translation_quote": "“পুরুষ ও নরীর জন্য ঈশ্বরের পরিকল্পনা”; “ঈশ্বর ইভকে আদামের কাছে আনে।”"
+      "source_quote": "Nevertheless let every one of you in particular so love his wife even as himself; and the wife see that she reverence her husband.",
+      "suggested_fix": "Replace “তোমাদের প্রত্যেকে নিজের মতো করে নিজ নিজ স্ত্রীকে ভালোবাসুক” with “তোমাদের প্রত্যেকে নিজেকে যেমন ভালোবাসে, তেমনি নিজ নিজ স্ত্রীকে ভালোবাসুক” to preserve the comparison in the quoted verse.",
+      "translation_quote": "তোমাদের প্রত্যেকে নিজের মতো করে নিজ নিজ স্ত্রীকে ভালোবাসুক; আর স্ত্রী যেন তার স্বামীকে সম্মান করে।"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "c43b77ede3bc5f514f6a435493cbcbc2",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -194,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 55,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-6-luna"

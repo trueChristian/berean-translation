@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning « Négligence. »\",\"severity\":\"major\",\"source_quote\":\"“The cowbird is also black (the female is brown/gray). She will be found sitting on a high vantage, shamelessly calling to her lovers by her shrill screeching. She then has the audacity to lay her egg in another bird’s nest, forcing them to raise her offspring.”\",\"suggested_fix\":\"Remplacer le passage concerné par : « Le vacher est lui aussi noir (la femelle est brune ou grise). La femelle se tient perchée en un lieu élevé, appelant sans vergogne ses partenaires par ses cris perçants. Puis elle a l’audace de pondre son œuf dans le nid d’un autre oiseau, le forçant à élever son petit. »\",\"translation_quote\":\"« Le vacher est lui aussi noir (la femelle est brune ou grise). On le trouve perché en un lieu élevé, appelant sans vergogne ses partenaires par ses cris perçants. Puis il a l’audace de pondre son œuf dans le nid d’un autre oiseau, le forçant à élever son petit. »\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1050,
+    "content_evidence_truncated": false,
+    "content_sha256": "8a31bfd8288750e5fa90438fb50b943b37e96459894d80f7a3fc7c0ed4f0dc2f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 956,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 671,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6675,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6672,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7631
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

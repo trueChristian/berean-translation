@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "31707caa574f33218cb7f2b287487936804387a88fbf26cdd7b7dc8cbd79dfd4",
   "base_metadata_sha256": "ad8917819f86b94c0be5b38c6545beedb91a141cc8bf72acd959a7b13f158b19",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,144 +44,40 @@
         },
         "total_tokens": 11655
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 837,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 687,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6588,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6585,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7425
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "title",
+      "location": "Alinea ‘Ondankbaarheid’, citaat Psalm 137:2-4",
       "severity": "major",
-      "source_quote": "ALL NATURE SINGS",
-      "suggested_fix": "Vertaal de titel als “DE HELE NATUUR ZINGT”.",
-      "translation_quote": "ALL NATURE SINGS"
-    },
-    {
-      "location": "subtitle",
-      "severity": "major",
-      "source_quote": "and ‘round me rings the music of the spheres.",
-      "suggested_fix": "Vertaal de ondertitel in het Nederlands, bijvoorbeeld: “en om mij heen klinkt de muziek der sferen.”",
-      "translation_quote": "and ‘round me rings the music of the spheres."
-    },
-    {
-      "location": "section",
-      "severity": "major",
-      "source_quote": "FEATURED ARTICLE",
-      "suggested_fix": "Vertaal het sectielabel als “UITGELICHT ARTIKEL” of een vergelijkbare gangbare Nederlandse formulering.",
-      "translation_quote": "FEATURED ARTICLE"
-    },
-    {
-      "location": "HTML, alinea 1",
-      "severity": "major",
-      "source_quote": "“Doth not nature itself teach you?”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands, bijvoorbeeld: “Leert zelfs de natuur u niet?” Behoud de verwijzing naar Korinthe zoals in de bron.",
-      "translation_quote": "“Doth not nature itself teach you?”"
-    },
-    {
-      "location": "HTML, alinea 2",
-      "severity": "major",
-      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands en behoud de verwijzing (Job 6:5).",
-      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?”"
-    },
-    {
-      "location": "HTML, alinea 3",
-      "severity": "major",
-      "source_quote": "“Is any merry? Let him sing psalms”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands en gebruik de conventionele Nederlandse boeknaam bij de bestaande verwijzing (Jakobus 5:13).",
-      "translation_quote": "“Is any merry? Let him sing psalms”"
-    },
-    {
-      "location": "HTML, alinea 4",
-      "severity": "major",
-      "source_quote": "“And he hath put a new song in my mouth, even praise unto our God”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands en lokaliseer de boeknaam in de verwijzing (Psalm 40:3). Vertaal ook “I will sing” als “Ik zal zingen”.",
-      "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” en “I will sing”"
-    },
-    {
-      "location": "HTML, alinea 6",
-      "severity": "major",
-      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands en gebruik de Nederlandse boeknaam bij de bestaande verwijzing (Efeziërs 5:19).",
-      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord”"
-    },
-    {
-      "location": "HTML, alinea 6",
-      "severity": "major",
-      "source_quote": "“Jews have no dealings with the Samaritans.”",
-      "suggested_fix": "Vertaal de geciteerde uitspraak in het Nederlands.",
-      "translation_quote": "“Jews have no dealings with the Samaritans.”"
-    },
-    {
-      "location": "HTML, alinea 6",
-      "severity": "major",
-      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands en gebruik de Nederlandse boeknaam bij de bestaande verwijzing (Johannes 4:14).",
-      "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life”"
-    },
-    {
-      "location": "HTML, alinea 7",
-      "severity": "major",
-      "source_quote": "“Behold, my servants shall sing for joy of heart”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands en gebruik de Nederlandse boeknaam bij de bestaande verwijzing (Jesaja 65:14).",
-      "translation_quote": "“Behold, my servants shall sing for joy of heart”"
-    },
-    {
-      "location": "HTML, alinea 8",
-      "severity": "major",
-      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands en gebruik de Nederlandse boeknaam bij de bestaande verwijzing (Openbaring 18:2).",
-      "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird”"
-    },
-    {
-      "location": "HTML, alinea 9",
-      "severity": "major",
-      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts”",
-      "suggested_fix": "Vertaal het citaat in het Nederlands en gebruik de Nederlandse boeknaam bij de bestaande verwijzing (Psalm 22:9).",
-      "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts”"
-    },
-    {
-      "location": "HTML, alinea 9",
-      "severity": "major",
-      "source_quote": "“had filled them with earth”",
-      "suggested_fix": "Vertaal de geciteerde woorden in het Nederlands; behoud de bestaande verwijzing met de Nederlandse boeknaam (Genesis 26:15).",
-      "translation_quote": "“had filled them with earth”"
-    },
-    {
-      "location": "HTML, alinea 11",
-      "severity": "major",
-      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?”",
-      "suggested_fix": "Vertaal het volledige citaat in het Nederlands en gebruik de Nederlandse boeknaam bij de bestaande verwijzing (Psalm 137:2-4).",
-      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?”"
-    },
-    {
-      "location": "HTML, alinea 11",
-      "severity": "major",
-      "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace”",
-      "suggested_fix": "Vertaal het geciteerde gedeelte in het Nederlands en gebruik de Nederlandse boeknaam bij de bestaande verwijzing (Jeremia 29:5-7).",
-      "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace”"
-    },
-    {
-      "location": "HTML, alinea 12",
-      "severity": "major",
-      "source_quote": "“giving glory to God in the highest.”",
-      "suggested_fix": "Vertaal de geciteerde woorden in het Nederlands.",
-      "translation_quote": "“giving glory to God in the highest.”"
-    },
-    {
-      "location": "HTML, alinea 12",
-      "severity": "major",
-      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men”",
-      "suggested_fix": "Vertaal het volledige citaat in het Nederlands en gebruik de Nederlandse boeknaam bij de bestaande verwijzing (Kolossenzen 3:16, 23).",
-      "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men”"
-    },
-    {
-      "location": "HTML, alinea 1",
-      "severity": "minor",
-      "source_quote": "Our Father’s world",
-      "suggested_fix": "Vertaal dit als “de wereld van onze Vader”; “hemelse” voegt een kwalificatie toe die niet in deze formulering staat.",
-      "translation_quote": "Onze hemelse Vader’s wereld"
+      "source_quote": "“We hanged our harps upon the willows in the midst thereof.”",
+      "suggested_fix": "Vertaal dit als: “Wij hingen onze harpen aan de wilgen midden daarin.” Zo blijft “thereof” verwijzen naar de plaats waarover de psalm spreekt, zonder die als “het land” te specificeren.",
+      "translation_quote": "“Wij hingen onze harpen aan de wilgen daar midden in het land.”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "e96db4abd4b54290dbc187d35a5f134c",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -271,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 45,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-6-luna"

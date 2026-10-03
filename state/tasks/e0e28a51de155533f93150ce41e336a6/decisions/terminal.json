@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo 3",
+      "severity": "minor",
+      "source_quote": "Becky is in her thirties",
+      "suggested_fix": "Replace «está en sus treinta» with «tiene treinta y tantos años» for idiomatic Spanish.",
+      "translation_quote": "Becky está en sus treinta"
+    },
+    {
+      "location": "HTML, párrafo 15",
+      "severity": "minor",
+      "source_quote": "However He chooses to work on your behalf, hold to His unchanging hand.",
+      "suggested_fix": "Use «Sea cual sea la manera en que Él obre a tu favor, aférrate a su mano inmutable» to express the source meaning clearly and consistently address the reader with «tú».",
+      "translation_quote": "Haga lo que haga para obrar a tu favor, agárrate de su mano inmutable."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

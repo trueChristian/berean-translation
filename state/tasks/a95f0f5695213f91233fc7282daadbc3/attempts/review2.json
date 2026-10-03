@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph 11, description of the ground around Kenny\",\"severity\":\"minor\",\"source_quote\":\"Darkness stained the ground around Kenny.\",\"suggested_fix\":\"کینی کے اردگرد زمین پر گہرے دھبے پھیلے ہوئے تھے۔\",\"translation_quote\":\"کینی کے اردگرد زمین پر اندھیرا چھایا ہوا تھا۔\"},{\"location\":\"Article paragraph 9, Jamin entering the meadow\",\"severity\":\"minor\",\"source_quote\":\"As Jamin clumped into the meadow\",\"suggested_fix\":\"جب جیمِن بھاری قدموں سے چراگاہ میں داخل ہوا\",\"translation_quote\":\"جب جیمِن لڑکھڑاتا ہوا چراگاہ میں داخل ہوا\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 730,
+    "content_evidence_truncated": false,
+    "content_sha256": "b623eb3a8272c7a1bb7569c5a0e4dd5182027683fc39f8f6c9f085cbb8dd08f7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 777,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 604,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3717,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3714,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4494
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

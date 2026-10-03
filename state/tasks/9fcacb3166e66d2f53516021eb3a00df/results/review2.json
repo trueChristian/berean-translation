@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5258ad3a-57c5-4217-b60f-9cd59a8178a6",
+    "response_id": "chatcmpl-EV1UAp1erP0UuaCItjfV4dqq8airJ",
+    "usage": {
+      "completion_tokens": 513,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 445,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3117,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3114,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3630
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "بہن سے بہن تک",
+        "translation_quote": "بہن بہن کے درمیان"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

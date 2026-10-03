@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": "6c95c4c9593951dc259339d0a19f2fb379659e3b796c860128b60316ff8b653c",
   "base_metadata_sha256": "8306e6c78525325899fa9ca0adbb99b3a15425a08e3c80b3288fbd9f4de56de2",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,179 +44,110 @@
         },
         "total_tokens": 13617
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1424,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7345,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7342,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8769
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "پہلا پیراگراف",
-      "severity": "minor",
-      "source_quote": "Do others see God working in your life?",
-      "suggested_fix": "کیا دوسرے لوگ بھی آپ کی زندگی میں خدا کو کام کرتے ہوئے دیکھتے ہیں؟",
-      "translation_quote": "کیا دوسرے لوگ آپ کی زندگی میں خدا کے کام کو دیکھتے ہیں؟"
-    },
-    {
-      "location": "گرین ہاؤس والا واقعہ",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "He then exclaimed how impressed he was at all our hard work.",
-      "suggested_fix": "پھر اس نے ہماری ساری محنت سے بہت متاثر ہونے کا اظہار کیا۔",
-      "translation_quote": "پھر اس نے ہماری محنت سے متاثر ہو کر پوچھا۔"
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ...”",
+      "suggested_fix": "In the Urdu quotation, restore the omitted sentence after “اس لیے خدا نے بھی انہیں ان کے دلوں کی خواہشوں کے حوالے کر دیا کہ وہ اپنے جسموں کی بے حرمتی کریں۔”: “یہ وہ لوگ ہیں جنہوں نے خدا کی سچائی کو جھوٹ سے بدل دیا، اور خالق کے بجائے مخلوق کی عبادت اور خدمت کی؛ وہ خالق، جو ابد تک مبارک ہے۔ آمین۔” Ensure the quotation fully conveys the source: the translation omits “Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen.” from this point, even though it renders that sentence later.",
+      "translation_quote": "“... اس لیے خدا نے بھی انہیں ان کے دلوں کی خواہشوں کے حوالے کر دیا کہ وہ اپنے جسموں کی بے حرمتی کریں۔ انہوں نے خدا کی سچائی کو جھوٹ سے بدل دیا، اور خالق کے بجائے مخلوق کی عبادت اور خدمت کی؛ وہ خالق، جو ابد تک مبارک ہے۔ آمین۔”"
     },
     {
-      "location": "گرین ہاؤس والا واقعہ",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "you all deserve the credit, not God!",
-      "suggested_fix": "اس سب کا سہرا تم سب کو جاتا ہے، خدا کو نہیں!",
-      "translation_quote": "یہ سب تمہیں ذاتی طور پر ملنا چاہیے، خدا کو نہیں!"
+      "source_quote": "“Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections...”",
+      "suggested_fix": "Keep the translated sentence about exchanging God's truth and worshipping the creature in its source order, before “اسی سبب خدا نے انہیں ناپاک خواہشات کے حوالے کر دیا”. Avoid repeating it later; retain the paragraph’s original sequence and full meaning.",
+      "translation_quote": "“اسی سبب خدا نے انہیں ناپاک خواہشات کے حوالے کر دیا؛ کیونکہ ان کی عورتوں نے بھی فطری تعلق کو غیر فطری تعلق سے بدل دیا۔ ... انہوں نے خدا کی سچائی کو جھوٹ سے بدل دیا، اور خالق کے بجائے مخلوق کی عبادت اور خدمت کی؛ وہ خالق، جو ابد تک مبارک ہے۔ آمین۔”"
     },
     {
-      "location": "تصویر کا alt متن",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "A sequence of seedlings emerging from soil as a hand waters them",
-      "suggested_fix": "مٹی سے کونپلیں نکلنے کا سلسلہ، جب ایک ہاتھ انہیں پانی دے رہا ہے",
-      "translation_quote": "مٹی سے ابھرتے ہوئے پودے کی بیجوں کا سلسلہ جبکہ ایک ہاتھ انہیں پانی دیتا ہے"
+      "source_quote": "“They ... have pleasure in them that do them”",
+      "suggested_fix": "Translate this as “ایسے کام کرنے والوں سے خوش بھی ہوتے ہیں” or an equivalent expression conveying pleasure in those who commit the acts, not merely happiness with the acts themselves.",
+      "translation_quote": "“ایسا کرنے والوں سے خوش بھی ہوتے ہیں”"
     },
     {
-      "location": "“ہیومنسزم کی دو اقسام” کا پہلا پیراگراف",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "Like the plants in the greenhouse, they look at all that man does and ignore the supernatural part of a plant springing forth with new life.",
-      "suggested_fix": "گرین ہاؤس کے پودوں کی طرح، وہ انسان کے کیے ہوئے تمام کاموں کو دیکھتے ہیں اور اس مافوق الفطرت پہلو کو نظر انداز کرتے ہیں کہ ایک پودا نئی زندگی کے ساتھ پھوٹ نکلتا ہے۔",
-      "translation_quote": "بالکل ویسے ہی جیسے گرین ہاؤس کے پودے، وہ اس تمام کام کو دیکھتے ہیں جو انسان نے کیا اور ایک پودے میں نئی زندگی کے مافوق الفطرت پہلو کو نظر انداز کر دیتے ہیں۔"
+      "source_quote": "“without natural affection”",
+      "suggested_fix": "Use a rendering that conveys lack of natural affection, such as “طبعی محبت سے عاری”، rather than “بے محبت,” which can be read as simply loveless.",
+      "translation_quote": "“بے محبت”"
     },
     {
-      "location": "“ہیومنسزم کی دو اقسام” کا پہلا پیراگراف",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "This, in turn leads to a great sense of false peace.",
-      "suggested_fix": "اس کے نتیجے میں جھوٹے امن کا گہرا احساس پیدا ہوتا ہے۔",
-      "translation_quote": "اس سے ایک جھوٹا امن پیدا ہوتا ہے۔"
+      "source_quote": "“implacable”",
+      "suggested_fix": "Render this as “صلح نہ کرنے والے” or an equivalent meaning, rather than “بے رحم,” which translates the separate source term “unmerciful.”",
+      "translation_quote": "“بے رحم”"
     },
     {
-      "location": "“ہیومنسزم کی دو اقسام” کا پیراگراف، رومیوں کے اقتباس سے پہلے",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "The reason it has become so confusing is that people want to believe in God but also believe in themselves and that the world revolves around them.",
-      "suggested_fix": "یہ اتنا الجھا ہوا اس لیے ہو گیا ہے کہ لوگ خدا پر بھی ایمان رکھنا چاہتے ہیں، مگر خود پر بھی اور اس بات پر بھی کہ دنیا ان کے گرد گھومتی ہے۔",
-      "translation_quote": "الجھن کی وجہ یہ ہے کہ لوگ خدا پر ایمان بھی رکھنا چاہتے ہیں اور خود پر بھی، اور دنیا کا ان کے گرد گردش کرنا چاہتے ہیں۔"
+      "source_quote": "“unmerciful”",
+      "suggested_fix": "Include a distinct rendering for “unmerciful,” such as “بے رحم,” alongside the separate rendering for “implacable.”",
+      "translation_quote": "The list ends “بے سمجھ، عہد شکن، بے محبت اور بے رحم۔”"
     },
     {
-      "location": "رومیوں 1:18-32 کا اقتباس",
-      "severity": "critical",
-      "source_quote": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness;",
-      "suggested_fix": "اقتباس میں متعلقہ حصے کو یوں درست کریں: “کیونکہ خدا کا غضب آسمان سے لوگوں کی تمام بے دینی اور ناراستی کے خلاف ظاہر ہوتا ہے، جو ناراستی سے سچائی کو دبائے رکھتے ہیں؛”",
-      "translation_quote": "خدا کا غضب آسمان سے ہر بد دیانی اور بد اتباعی انسانوں کے خلاف ظاہر ہوتا ہے، جو حقیقت کو بدی میں قابو رکھتے ہیں؛"
-    },
-    {
-      "location": "رومیوں 1:18-32 کا اقتباس",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "so that they are without excuse:",
-      "suggested_fix": "تاکہ ان کے پاس کوئی عذر نہ رہے:",
-      "translation_quote": "تاکہ وہ بے عذری نہ رکھ سکیں:"
+      "source_quote": "“Who knowing the judgment of God, that they which commit such things are worthy of death...”",
+      "suggested_fix": "Translate the opening as “وہ خدا کے اس حکم کو جانتے ہیں کہ ایسے کام کرنے والے موت کے مستحق ہیں” or equivalent. The source says they know God's judgment about the perpetrators; it does not say merely that they know a command.",
+      "translation_quote": "“وہ خدا کے حکم کو جانتے ہیں کہ ایسے کام کرنے والے موت کے مستحق ہیں”"
     },
     {
-      "location": "رومیوں 1:18-32 کا اقتباس",
-      "severity": "critical",
-      "source_quote": "Professing themselves to be wise, they became fools,",
-      "suggested_fix": "اپنے آپ کو دانا ظاہر کرتے ہوئے وہ بے وقوف بن گئے،",
-      "translation_quote": "خود کو حکیم ظاہر کرتے ہوئے وہ بدی میں پاگل ہو گئے،"
-    },
-    {
-      "location": "رومیوں 1:18-32 کا اقتباس",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator,",
-      "suggested_fix": "جنہوں نے خدا کی سچائی کو جھوٹ سے بدل دیا اور خالق کی بجائے مخلوق کی عبادت اور خدمت کی،",
-      "translation_quote": "جنہوں نے خدا کی سچائی کو جھوٹ میں بدل دیا، اور مخلوق کی عبادت اور خدمت کی بجائے خالق کی خدمت نہیں کی،"
+      "source_quote": "“the invisible things of him from the creation of the world are clearly seen”",
+      "suggested_fix": "Preserve the source’s time reference by rendering “دنیا کی تخلیق کے وقت سے” as “دنیا کی تخلیق کے بعد سے” or otherwise conveying “since the creation of the world.”",
+      "translation_quote": "“دنیا کی تخلیق کے وقت سے ہی اس کی نادیدہ صفات”"
     },
     {
-      "location": "رومیوں 1:18-32 کا اقتباس",
-      "severity": "critical",
-      "source_quote": "For this cause God gave them up unto vile affections:",
-      "suggested_fix": "اسی سبب خدا نے انہیں ناپاک خواہشات کے حوالے کر دیا:",
-      "translation_quote": "اس وجہ سے خدا نے انہیں بےعلاقہ خواہشات کے حوالے کر دیا:"
-    },
-    {
-      "location": "رومیوں 1:18-32 کا اقتباس",
-      "severity": "critical",
-      "source_quote": "Who knowing the judgment of God, that they which commit such things are worthy of death,",
-      "suggested_fix": "وہ خدا کے حکم کو جانتے ہیں کہ ایسے کام کرنے والے موت کے مستحق ہیں،",
-      "translation_quote": "جو خدا کے فیصلے کو جانتے ہیں کہ جو لوگ ایسی چیزیں کرتے ہیں وہ موت کے مستحق ہیں،"
-    },
-    {
-      "location": "“تو کوئی ہیومنسٹ کیسے خدا پر یقین رکھ سکتا ہے؟” کا پہلا پیراگراف",
+      "location": "Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "If the need is a break from reality, he takes a vacation or retreat.",
-      "suggested_fix": "اگر اسے حقیقت سے کچھ وقفہ درکار ہو تو وہ چھٹیوں پر یا کسی خلوت گاہ میں چلا جاتا ہے۔",
-      "translation_quote": "اگر حقیقت سے وقفہ چاہیے تو تعطیلات یا ریٹریٹ لیتا ہے۔"
+      "source_quote": "“receiving in themselves that recompence of their error which was meet”",
+      "suggested_fix": "Add the omitted idea that the consequence was fitting/deserved, for example “اپنی گمراہی کا وہی مناسب بدلہ اپنے اندر پا کر جس کے وہ مستحق تھے۔”",
+      "translation_quote": "“اپنی گمراہی کا وہ بدلہ اپنے اندر پایا جس کے وہ مستحق تھے۔”"
     },
     {
-      "location": "“تو کوئی ہیومنسٹ کیسے خدا پر یقین رکھ سکتا ہے؟” کا پہلا پیراگراف",
+      "location": "Paragraph beginning “When something happens that requires supernatural intervention”",
       "severity": "major",
-      "source_quote": "This allows him to live for himself and his own happiness.",
-      "suggested_fix": "اس سے وہ اپنی ذات اور اپنی خوشی کے لیے زندگی گزار سکتا ہے۔",
-      "translation_quote": "اس سے وہ اپنی اور اپنی خوشی کے لیے جی سکتا ہے۔"
+      "source_quote": "“This type of humanism has confused the modern world. It has caused unbelievers to mock the Christian faith and to call it a false religion with no power.”",
+      "suggested_fix": "Change “بے اثر جھوٹا مذہب” to a translation of “a false religion with no power,” such as “ایک جھوٹا، بے قدرت مذہب.” “بے اثر” means ineffective and does not convey the source’s claim that it has no power.",
+      "translation_quote": "“اس نے بے ایمانوں کو مسیحی ایمان کا مذاق اڑانے اور اسے ایک بے اثر جھوٹا مذہب کہنے پر اکسایا ہے۔”"
     },
     {
-      "location": "باغ کی مثال",
+      "location": "Paragraph beginning “We would do well to simplify...”",
       "severity": "major",
-      "source_quote": "He waters and fertilizes weeds and prunes.",
-      "suggested_fix": "وہ پانی دیتا، کھاد ڈالتا، گوڈی کرتا اور پودوں کی کانٹ چھانٹ کرتا ہے۔",
-      "translation_quote": "وہ پانی ڈالتا، کھاد دیتا، جڑی بوٹیاں نکالتا اور چھانٹتا۔"
-    },
-    {
-      "location": "باغ کی مثال",
-      "severity": "major",
-      "source_quote": "He also received a bountiful harvest.",
-      "suggested_fix": "اسے بھی بھرپور فصل حاصل ہوئی۔",
-      "translation_quote": "اسے بھی وفورِ فصل ملی۔"
-    },
-    {
-      "location": "“مسیحی انسانی استدلال میں ایمان نہیں رکھتا” والا پیراگراف",
-      "severity": "critical",
-      "source_quote": "whether they be thrones, or dominions, or principalities, or powers:",
-      "suggested_fix": "“خواہ تخت ہوں، حکومتیں، سلطنتیں یا اقتدار؛”",
-      "translation_quote": "“خواہ تخت ہوں یا حکمرانی یا حکمت یا قوتیں،"
-    },
-    {
-      "location": "“ہماری بابت کیا؟” کے پہلے پیراگراف",
-      "severity": "major",
-      "source_quote": "We go through the motions because that is how we’ve been taught,",
-      "suggested_fix": "ہم محض رسم پوری کرتے ہیں کیونکہ ہمیں یہی سکھایا گیا ہے،",
-      "translation_quote": "ہم وہی فارم پوری کرتے ہیں کیونکہ ہمیں اسی طرح سکھایا گیا ہے،"
-    },
-    {
-      "location": "چین کے مبلغ والا پیراگراف",
-      "severity": "major",
-      "source_quote": "Before departing back to China, he was asked what impressed him most about the churches in America.",
-      "suggested_fix": "چین واپس روانہ ہونے سے پہلے اس سے پوچھا گیا کہ امریکہ کے گرجا گھروں میں کون سی بات نے اسے سب سے زیادہ متاثر کیا۔",
-      "translation_quote": "چین واپس جانے سے پہلے اس سے پوچھا گیا کہ اسے امریکہ کے چرچوں میں سب سے زیادہ کیا چیز متاثر کرتی ہے۔"
-    },
-    {
-      "location": "“عیسائی اپنے آپ کو منکر ہوتا ہے” والا پیراگراف",
-      "severity": "critical",
-      "source_quote": "The Christian denies himself, picks up his cross, and follows his Master.",
-      "suggested_fix": "مسیحی اپنی ذات کا انکار کرتا ہے، اپنی صلیب اٹھاتا ہے اور اپنے آقا کی پیروی کرتا ہے۔",
-      "translation_quote": "عیسائی اپنے آپ کو منکر ہوتا ہے، اپنا صلیب اٹھاتا ہے، اور اپنے استاد کی پیروی کرتا ہے۔"
-    },
-    {
-      "location": "“عیسائی یقین رکھتے ہیں کہ وہ اپنے مالک کے خادم ہیں” والا پیراگراف",
-      "severity": "major",
-      "source_quote": "They are hated by the world and despised by most, rejected.",
-      "suggested_fix": "دنیا ان سے نفرت کرتی ہے؛ اکثر لوگ انہیں حقیر جانتے اور رد کرتے ہیں۔",
-      "translation_quote": "دنیا انہیں نفرت کرتی ہے اور اکثر حقیر جانتی ہے، رد کرتی ہے۔"
-    },
-    {
-      "location": "“عیسائی یقین رکھتے ہیں کہ وہ اپنے مالک کے خادم ہیں” والا پیراگراف",
-      "severity": "major",
-      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
-      "suggested_fix": "“اگر دنیا تم سے نفرت کرے تو جان لو کہ اس نے تم سے پہلے مجھ سے نفرت کی۔ (یوحنا 15:18)”",
-      "translation_quote": "“اگر دنیا تم سے نفرت کرے تو جان لو کہ اس نے مجھ سے پہلے تم سے نفرت کی۔ (یوحنا 15:18)”"
-    },
-    {
-      "location": "“خدا آج بھی لوگوں کی تلاش کر رہا ہے” والا پیراگراف",
-      "severity": "major",
-      "source_quote": "He is looking over all the earth for someone, somewhere, who will put aside human reasoning and common sense and obey the voice from heaven.",
-      "suggested_fix": "وہ پوری زمین پر کسی ایسے شخص کو تلاش کر رہا ہے، کہیں بھی، جو انسانی استدلال اور عام فہم کو ایک طرف رکھ کر آسمان سے آنے والی آواز کی اطاعت کرے۔",
-      "translation_quote": "وہ پوری زمین کے اوپر کسی، کہیں، ایسے شخص کی تلاش میں ہے جو انسانی استدلال اور عام فہم کو ایک طرف رکھ کر آسمان کی آواز کی اطاعت کرے۔"
+      "source_quote": "“The humanist proudly denies that there is a God when he boasts of his own strength and abilities.”",
+      "suggested_fix": "Use “فخر سے” or another equivalent of “proudly”; “غرور سے” can suggest arrogance but does not faithfully preserve the source’s explicit sense of pride in the denial.",
+      "translation_quote": "“ہیومنسٹ اپنی قوت اور صلاحیتوں پر فخر کرتے ہوئے غرور سے خدا کے وجود کا انکار کرتا ہے۔”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "f6bfb1a060506231b97e3c1301ece1d1",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "urd",
@@ -306,13 +236,13 @@
     }
   },
   "protected": false,
-  "quality_score": 58,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73ffad35e60323218112f91b03e6a992fcbade0106463ff2ccfcd441d944684a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-6-luna"

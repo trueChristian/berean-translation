@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Οι προθεσμίες είναι…”\",\"severity\":\"minor\",\"source_quote\":\"Interruptions are also a normal part of life. They constantly give an unpredictable twist to our days and weeks.\",\"suggested_fix\":\"Replace «παρεμβολές» with «διακοπές» or «απρόοπτα» in this paragraph and the following paragraph where it refers to interruptions; this is more idiomatic in context.\",\"translation_quote\":\"Οι παρεμβολές επίσης είναι φυσιολογικό κομμάτι της ζωής. Δίνουν διαρκώς μια απρόβλεπτη στροφή στις μέρες και τις εβδομάδες μας.\"},{\"location\":\"HTML, paragraph beginning “Η απόφαση νωρίς μέσα στην ημέρα…”\",\"severity\":\"minor\",\"source_quote\":\"Deciding early in the day what to make for supper\",\"suggested_fix\":\"Use «τι να ετοιμάσουμε για βραδινό» rather than «τι να ετοιμάσουμε για δείπνο», which can suggest a formal dinner and is less natural for everyday family supper.\",\"translation_quote\":\"τι να ετοιμάσουμε για δείπνο\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1250,
+    "content_evidence_truncated": false,
+    "content_sha256": "6abd55a8d96d6313961e912fb03dda88c526d3243024fbdcb590e1f74eae40c3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 263,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3368,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3634
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

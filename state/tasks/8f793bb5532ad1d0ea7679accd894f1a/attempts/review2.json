@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, heading before the paragraph beginning « Dites-le. »\",\"severity\":\"major\",\"source_quote\":\"Believe that God cares\",\"suggested_fix\":\"Remplacer le contenu du titre par « Croyez que Dieu se soucie de vous » en conservant la balise <h2>.\",\"translation_quote\":\"相信\"},{\"location\":\"HTML, paragraph beginning « Parfois, ce type de surcharge… »\",\"severity\":\"minor\",\"source_quote\":\"Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.\",\"suggested_fix\":\"Remplacer « dans nos communautés plain » par « dans nos communautés mennonites conservatrices » (ou une formulation française équivalente qui rende clairement l’idée de communautés plain).\",\"translation_quote\":\"Les événements traumatisants dans nos communautés plain tendent à susciter des prières, un soutien financier et des nouvelles hebdomadaires sur le budget.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 942,
+    "content_evidence_truncated": false,
+    "content_sha256": "5d8df0bdd1fafee61918b6561a10d663d11267553f41c7900f582cd86e321710",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 322,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4127,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4124,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4662
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

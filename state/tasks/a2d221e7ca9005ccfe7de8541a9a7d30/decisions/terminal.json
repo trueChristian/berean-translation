@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section 8, 1 Peter 3:7 quotation and following commentary",
+      "severity": "major",
+      "source_quote": "“as unto the weaker vessel” … “She is the weaker vessel”",
+      "suggested_fix": "In the quotation, replace “aan die vroulike geslag, as die swakkere” with “aan die vrou as die swakker vat”; in the following sentence, replace “Sy is die swakkere” with “Sy is die swakker vat”.",
+      "translation_quote": "“aan die vroulike geslag, as die swakkere” … “Sy is die swakkere”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

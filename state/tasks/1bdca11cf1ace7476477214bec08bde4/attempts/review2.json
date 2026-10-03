@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3\",\"severity\":\"major\",\"source_quote\":\"We need young believers who bravely submit their first children’s stories.\",\"suggested_fix\":\"Replace «τις πρώτες τους παιδικές ιστορίες» with «τις πρώτες τους ιστορίες για παιδιά» to convey that these are stories intended for children.\",\"translation_quote\":\"Χρειαζόμαστε νέους πιστούς που θα υποβάλουν με θάρρος τις πρώτες τους παιδικές ιστορίες.\"},{\"location\":\"Paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"Courageous writers step forward\",\"suggested_fix\":\"Correct the spelling to «Θαρραλέοι συγγραφείς».\",\"translation_quote\":\"Θαραλλέοι συγγραφείς\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 834,
+    "content_evidence_truncated": false,
+    "content_sha256": "952080b498e0070bd7be80ed47627e14109411ece3284eb8254de6924b78bde0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 555,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3700,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3697,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4442
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

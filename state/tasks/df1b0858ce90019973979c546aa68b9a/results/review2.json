@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b496ab33-c2c5-46a1-9957-34e5a0ed780d",
+    "response_id": "chatcmpl-EV1SXoi4EaruA7mQfFZS0giJtnMq5",
+    "usage": {
+      "completion_tokens": 318,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1684,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1681,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2002
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "প্রথম স্তবক, পঞ্চম পঙ্‌ক্তি",
+        "severity": "major",
+        "source_quote": "Rejoice and praise the King of Kings!",
+        "suggested_fix": "রাজাদের রাজাকে আনন্দে প্রশংসা করো!",
+        "translation_quote": "রাজাদের রাজাকে উপাসনা করো, প্রশংসা করো!"
+      },
+      {
+        "location": "প্রথম স্তবক, ষষ্ঠ পঙ্‌ক্তি",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "কৃতজ্ঞতা জানাও ও স্তব করো, কারণ আরও কিছু এসেছে!",
+        "translation_quote": "কৃতজ্ঞতা জ্ঞাপন করো ও স্তব করো, কারণ আরও আছে—"
+      },
+      {
+        "location": "তৃতীয় স্তবক, তৃতীয় পঙ্‌ক্তি",
+        "severity": "major",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "পবিত্র ভীতিতে নত হও—",
+        "translation_quote": "পবিত্র, গভীর ভক্তিভয়ে নত হও—"
+      },
+      {
+        "location": "তৃতীয় স্তবক, পঞ্চম পঙ্‌ক্তি",
+        "severity": "major",
+        "source_quote": "In wondrous beauty bend the knee;",
+        "suggested_fix": "বিস্ময়কর সৌন্দর্যে নতজানু হও;",
+        "translation_quote": "আশ্চর্য সৌন্দর্যে হাঁটু গেড়ে পড়ো—"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

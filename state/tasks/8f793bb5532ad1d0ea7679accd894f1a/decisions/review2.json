@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, heading before the paragraph beginning « Dites-le. »",
+      "severity": "major",
+      "source_quote": "Believe that God cares",
+      "suggested_fix": "Remplacer le contenu du titre par « Croyez que Dieu se soucie de vous » en conservant la balise <h2>.",
+      "translation_quote": "相信"
+    },
+    {
+      "location": "HTML, paragraph beginning « Parfois, ce type de surcharge… »",
+      "severity": "minor",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Remplacer « dans nos communautés plain » par « dans nos communautés mennonites conservatrices » (ou une formulation française équivalente qui rende clairement l’idée de communautés plain).",
+      "translation_quote": "Les événements traumatisants dans nos communautés plain tendent à susciter des prières, un soutien financier et des nouvelles hebdomadaires sur le budget."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

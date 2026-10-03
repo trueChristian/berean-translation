@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, bagian 7, paragraf yang merujuk Efesus 5:21\",\"severity\":\"major\",\"source_quote\":\"Ephesians 5:21,22,24 says, “Submitting yourselves one to another in the fear of God.\",\"suggested_fix\":\"Ubah rujukan menjadi “Efesus 5:21,22,24 mengatakan,” agar urutan, jumlah, dan penempatan nomor ayat tetap sama dengan sumber.\",\"translation_quote\":\"Efesus 5:21,22,24 mengatakan, “Hendaklah kamu saling tunduk seorang kepada yang lain dalam takut akan Allah.\"},{\"location\":\"HTML, bagian 7, paragraf yang mengutip Efesus 5:25,28,29\",\"severity\":\"major\",\"source_quote\":\"It goes on and says, in Ephesians 5:25,28,29.\",\"suggested_fix\":\"Ganti rujukan dengan “Selanjutnya, Efesus 5:25,28,29 mengatakan,” untuk mempertahankan ketiga nomor ayat yang dicantumkan sumber.\",\"translation_quote\":\"Selanjutnya, Efesus 5:25,28,29 mengatakan,\"},{\"location\":\"HTML, bagian 8, paragraf pertama\",\"severity\":\"major\",\"source_quote\":\"She’s the one that gets worn out and tires sooner.\",\"suggested_fix\":\"Ganti dengan “Dialah yang lebih mudah kelelahan dan lebih cepat merasa letih.”\",\"translation_quote\":\"Dialah yang lebih mudah kelelahan dan lebih cepat letih.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1197,
+    "content_evidence_truncated": false,
+    "content_sha256": "91d6994307c58e8458a95b12121cc4ffa319ac7604287b9789ca8342a845a086",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 337,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12512,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12852
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

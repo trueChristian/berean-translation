@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": "a4fa586f25f058fe33944e5664cbd16c58bedaf3f4457caee12dbc32e4919cae",
   "base_metadata_sha256": "4f57f9b23dc98e2a7b1a6a2a9df4d042c8d5bbadffb6992f337f1bc3bbe9b522",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,39 +44,47 @@
         },
         "total_tokens": 13849
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 841,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 562,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8927,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8924,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9768
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “Even in the New Testament”; corresponding translation paragraph",
+      "location": "Section “Zoek hoop op de juiste plekken,” paragraph beginning “De Bijbel maakt duidelijk…”",
       "severity": "major",
-      "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
-      "suggested_fix": "Vertaal “having itching ears” met de betekenis van verlangen naar wat men graag hoort, bijvoorbeeld: “die hun naar het gehoor strelen”; behoud de verwijzing als “(2 Timoteüs 4:3).”",
-      "translation_quote": "“Want er zal een tijd zijn, dat zij de gezonde leer niet zullen verdragen; maar naar hun eigen begeerten zullen zij zich leraren verzamelen, die zich horen krabben;” (2 Timoteüs 4:3)."
+      "source_quote": "“The reason that we can hope is not because people are so wonderful—we don’t have to live very long to realize that they aren’t.”",
+      "suggested_fix": "Replace the corresponding sentence with: “De reden dat we hoop hebben, is niet dat mensen zo geweldig zijn—we hoeven niet lang te leven om te beseffen dat ze dat niet zijn.”",
+      "translation_quote": "“We kunnen niet hopen omdat mensen zo geweldig zijn—we hoeven niet lang te leven om te beseffen dat ze dat niet zijn.”"
     },
     {
-      "location": "source.html, heading “Look for Hope in the Right Places”; corresponding translation paragraph",
+      "location": "Opening narrative, paragraph beginning “At the rate at which you are drinking…”",
       "severity": "major",
-      "source_quote": "“Hope and Change,”",
-      "suggested_fix": "Vertaal de slogan in het Nederlands en behoud de aanhalingstekens, bijvoorbeeld: “Hoop en verandering,”",
-      "translation_quote": "“Hope and Change,”"
-    },
-    {
-      "location": "source.html, paragraph beginning “I remember having a conversation with a young person”; corresponding translation paragraph",
-      "severity": "major",
-      "source_quote": "“a foreign country”",
-      "suggested_fix": "Vervang “vreemd land” door “buitenland” of “ander land”, zodat duidelijk is dat het om een ander land gaat, niet om een land dat vreemd of ongewoon is.",
-      "translation_quote": "“een vreemd land”"
-    },
-    {
-      "location": "source.html, paragraph beginning “He is the one who continues to hope for us”; corresponding translation paragraph",
-      "severity": "major",
-      "source_quote": "“He is the one who continues to hope for us”",
-      "suggested_fix": "Herstel de onvoltooide formulering met “blijft hopen”, bijvoorbeeld: “Hij is degene die voor ons blijft hopen, zelfs wanneer we Hem in het verleden zo vaak hebben teleurgesteld.”",
-      "translation_quote": "“Hij is degene die blijf hopen voor ons”"
+      "source_quote": "“I will try to find you an inpatient program to detox you and get you off of alcohol.”",
+      "suggested_fix": "Replace “een kliniekprogramma voor je te vinden” with “een klinisch opnameprogramma voor je te vinden” (or another Dutch term that clearly indicates inpatient treatment).",
+      "translation_quote": "“zal ik proberen een kliniekprogramma voor je te vinden waar je kunt ontgiften en van de alcohol af kunt komen.”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "43c5b90fdb84e607e837119ca978c875",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -166,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0bb630bbebe5b6489e1904aa9ad4850dc4032d135b3d216f200c4d36001e2eeb.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-6-luna"

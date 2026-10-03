@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Οι προθεσμίες είναι…”",
+      "severity": "minor",
+      "source_quote": "Interruptions are also a normal part of life. They constantly give an unpredictable twist to our days and weeks.",
+      "suggested_fix": "Replace «παρεμβολές» with «διακοπές» or «απρόοπτα» in this paragraph and the following paragraph where it refers to interruptions; this is more idiomatic in context.",
+      "translation_quote": "Οι παρεμβολές επίσης είναι φυσιολογικό κομμάτι της ζωής. Δίνουν διαρκώς μια απρόβλεπτη στροφή στις μέρες και τις εβδομάδες μας."
+    },
+    {
+      "location": "HTML, paragraph beginning “Η απόφαση νωρίς μέσα στην ημέρα…”",
+      "severity": "minor",
+      "source_quote": "Deciding early in the day what to make for supper",
+      "suggested_fix": "Use «τι να ετοιμάσουμε για βραδινό» rather than «τι να ετοιμάσουμε για δείπνο», which can suggest a formal dinner and is less natural for everyday family supper.",
+      "translation_quote": "τι να ετοιμάσουμε για δείπνο"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

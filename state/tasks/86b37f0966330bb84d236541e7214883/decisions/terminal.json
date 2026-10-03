@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poème, strophe 1, vers 6",
+      "severity": "major",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Remplacer par « Rends grâces et loue, car il y a davantage ici ! » afin de conserver l’idée que davantage est présent ici, sans lui attribuer un « encore » indéfini.",
+      "translation_quote": "Rends grâces et loue, car il y a plus encore !"
+    },
+    {
+      "location": "HTML, poème, strophe 2, vers 5",
+      "severity": "major",
+      "source_quote": "His mercy reaches down to men-",
+      "suggested_fix": "Remplacer par « Sa miséricorde s’étend jusqu’aux hommes- » : le vers dit que la miséricorde les atteint, non qu’elle descend elle-même.",
+      "translation_quote": "Sa miséricorde descend jusqu'aux hommes-"
+    },
+    {
+      "location": "HTML, poème, strophe 3, vers 3",
+      "severity": "major",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Remplacer par « Prosterne-toi dans une crainte redoutable et sainte- » afin de rendre « awful » dans son sens de crainte mêlée de révérence, et non comme une simple révérence.",
+      "translation_quote": "Incline-toi dans une crainte révérencieuse et sainte-"
+    },
+    {
+      "location": "HTML, poème, strophe 3, vers 6",
+      "severity": "major",
+      "source_quote": "Adore th’ almighty King of Kings!",
+      "suggested_fix": "Remplacer par « Adore le Roi des rois tout-puissant ! » pour rattacher clairement « tout-puissant » au Roi.",
+      "translation_quote": "Adore l'omnipotent Roi des rois !"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

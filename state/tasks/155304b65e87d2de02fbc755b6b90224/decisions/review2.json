@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section 8, 1 Peter 3:7 quotation",
+      "severity": "major",
+      "source_quote": "“as unto the weaker vessel”",
+      "suggested_fix": "Change “omdat zij de zwakkere partner is” to “omdat zij het zwakkere vat is” to preserve the source’s “vessel” metaphor.",
+      "translation_quote": "“omdat zij de zwakkere partner is”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

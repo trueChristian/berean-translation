@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "471fb7ffbbf4681ead22078d85d5552906510dd83276705bb05f415597db6542",
   "base_metadata_sha256": "5c65e39d9af79ea66e91110b88309f5f20aafc2d273e3085ddb7d1a3d47976b4",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,32 +44,54 @@
         },
         "total_tokens": 6878
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 924,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4156,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4153,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5080
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML paragraph beginning “Ibland är denna typ av överbelastning...”",
-      "severity": "major",
-      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
-      "suggested_fix": "Översätt “plain circles” som den särskilda religiösa gemenskapen, inte som nära personliga kretsar. Exempel: “Traumatiska händelser i våra plain-församlingar får ofta förbön, ekonomiskt stöd och veckovisa budgetuppdateringar.”",
-      "translation_quote": "“Traumatiska händelser i våra närmaste kretsar får ofta bön, ekonomiskt stöd och veckouppdateringar om budgeten.”"
-    },
-    {
-      "location": "HTML paragraph under “Tro att Gud bryr sig”",
+      "location": "Article body, paragraph beginning “Say it.”",
       "severity": "major",
       "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
-      "suggested_fix": "Översätt det citerade bibelstället till svenska och använd det svenska boknamnet, med samma kapitel- och versnummer: “Gråt kan vara för natten, men på morgonen kommer jubel” (Psaltaren 30:5).",
-      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
+      "suggested_fix": "Replace the quoted sentence with a Swedish translation that preserves the printed meaning, for example: “Gråt kan vara natten lång, men jubel kommer om morgonen” (Psaltaren 30:5).",
+      "translation_quote": "“Gråt kan vara en natt, men jubel kommer om morgonen” (Psaltaren 30:5)."
     },
     {
-      "location": "Sista HTML-paragrafen",
+      "location": "Final paragraph",
       "severity": "major",
       "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
-      "suggested_fix": "Översätt det citerade bibelstället till svenska och använd det svenska boknamnet, med samma kapitel- och versnummer. Exempel: “Till dig, HERRE, tar jag min tillflykt; låt mig aldrig komma på skam” (Psaltaren 71:1).",
-      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+      "suggested_fix": "Translate the printed assertion of trust rather than substituting the different image of taking refuge; for example: “Till dig, HERRE, sätter jag min tillit; låt mig aldrig komma på skam” (Psaltaren 71:1).",
+      "translation_quote": "“Till dig, HERRE, tar jag min tillflykt; låt mig aldrig komma på skam” (Psaltaren 71:1)."
+    },
+    {
+      "location": "Article body, paragraph beginning “Sometimes this type of overload…”",
+      "severity": "minor",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "Replace the unclear English-derived phrase “plain-gemenskaper” with a clear Swedish equivalent for the communities meant, for example “våra konservativa kristna gemenskaper,” if that matches the publication’s usage.",
+      "translation_quote": "“Traumatiska händelser i våra plain-gemenskaper får ofta förbön, ekonomiskt stöd och veckovisa uppdateringar om budgeten.”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "401df2ff362f0526e71694b4860e3a3d",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -159,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-6-luna"

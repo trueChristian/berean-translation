@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f513710e-503a-46b8-a7f9-c5373dcf36ee",
+    "response_id": "chatcmpl-EV1TvjNeGzsnMA8WVX1hO9ysrOXwu",
+    "usage": {
+      "completion_tokens": 767,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9248,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10018
+    }
+  },
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Conclusion, quoted song",
+        "severity": "major",
+        "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+        "suggested_fix": "Sostituisci con: “Oh, essere senza speranza in Gesù: quanto buio dev’essere questo mondo!”",
+        "translation_quote": "“Oh, non avere speranza in Gesù: quanto deve essere oscuro questo mondo!”"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

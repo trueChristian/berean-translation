@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,46 +44,89 @@
         },
         "total_tokens": 20037
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1230,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12533,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12530,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13763
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "סעיף 7, הפסקה המצטטת את אפסים 5:21-24",
+      "location": "HTML, section 3, second paragraph",
       "severity": "major",
-      "source_quote": "“Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord.”",
-      "suggested_fix": "החליפו את ״היכנעו זה לזה ביראת אלוהים. נשים, היכנעו לבעליכן כפי שאתן נכנעות לאדון.״ ב״היכנעו זה לזה ביראת אלוהים. נשים, היכנעו לבעליכן כאדון.״ (כך גם בציטוט החוזר בהמשך.)",
-      "translation_quote": "״היכנעו זה לזה ביראת אלוהים. נשים, היכנעו לבעליכן כפי שאתן נכנעות לאדון.״"
+      "source_quote": "“What therefore God hath joined together, let not man put asunder” (Mark 10:8-9).",
+      "suggested_fix": "Replace the quotation with: ״לכן, את מה שאלוהים חיבר יחד, אל יפריד אדם״ (מרקוס 10:8-9).",
+      "translation_quote": "״לכן, את מה שאלוהים חיבר יחד, אל יפריד אדם״ (מרקוס 10:8-9). תוכנית אלוהים לגבר ולאישה היא שהוא מביא את חוה אל אדם. אחר כך באות העזיבה והדבקות. הוא גורם להם להיות לבשר אחד. פירוד אינו ברכה כלל, אלא מביא ייסורים, כאב, סבל ופגיעה. אין ברכה בפרידה. אבל תוכנית אלוהים מביאה ברכה."
     },
     {
-      "location": "סעיף 8, הפסקה המצטטת את הראשונה לפטרוס 3:7",
+      "location": "HTML, section 4, first paragraph",
+      "severity": "major",
+      "source_quote": "“Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness” (2 Corinthians 6:14-15).",
+      "suggested_fix": "Translate the printed excerpt without changing its meaning, for example: ״אל תהיו קשורים בעול בלתי שווה עם לא־מאמינים; כי איזו שותפות יש לצדקה עם עוול?״ Keep the reference as קורינתים ב׳ 6:14-15.",
+      "translation_quote": "״אל תיקשרו בעול בלתי שווה עם מי שאינם מאמינים, כי איזו שותפות יש לצדקה עם רשע?״ (השנייה לקורינתים 6:14-15)."
+    },
+    {
+      "location": "HTML, section 6, paragraph on Ephesians 6:1-3",
+      "severity": "major",
+      "source_quote": "“Honor thy father and mother; which is the first commandment with promise; That it may be well with thee, and thou mayest live long on the earth” (Ephesians 6:1-3).",
+      "suggested_fix": "Translate the quoted exhortation in the second person plural, preserving its address to children; for example, change ״כבד את אביך ואת אמך״ to ״כבדו את אביכם ואת אמכם״.",
+      "translation_quote": "״ילדים, צייתו להוריכם באדון, כי זה הדבר הנכון. כבד את אביך ואת אמך — זו המצווה הראשונה שיש עמה הבטחה — כדי שייטב לך ותאריך ימים על הארץ״ (אל האפסים 6:1-3)."
+    },
+    {
+      "location": "HTML, section 7, paragraph beginning ״הכתוב ממשיך״",
+      "severity": "major",
+      "source_quote": "“For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church.”",
+      "suggested_fix": "Translate the printed comparison as written, for example: ״כפי שהאדון מזין ומטפח את הכנסייה.״",
+      "translation_quote": "״כי איש מעולם לא שנא את בשרו שלו, אלא מזין אותו ומטפח אותו, כפי שהאדון עושה לכנסייה.״"
+    },
+    {
+      "location": "HTML, section 8, paragraph beginning ״הראשונה לפטרוס 3:7״",
       "severity": "major",
       "source_quote": "“as being heirs together of the grace of life”",
-      "suggested_fix": "תקנו בכל המקומות בסעיף 8 שבהם התרגום אומר ״יורשות יחד״, ״יורשים יחד״ או ״יורשים בנפרד״ לניסוח שמבהיר שהבעל והאישה הם יורשים יחד: למשל, בציטוט ״וכמי שיורשים יחד איתך את חסד החיים״; ובדיון ״אם איננו יורשים יחד... האם נוכל להיות יורשים בנפרד...״",
-      "translation_quote": "״וכמי שיורשות יחד איתכם את חסד החיים״; ״אם איננו יורשים יחד של חסד החיים... האם נוכל להיות יורשים בנפרד של חסד החיים?״"
+      "suggested_fix": "Translate this as being co-heirs, not as a comparison: ״וכיורשים יחד איתה של חסד החיים״.",
+      "translation_quote": "״...והעניקו כבוד לאישה ככלי החלש יותר וכיורשים יחד את חסד החיים...״"
     },
     {
-      "location": "סעיף 10, הפסקה על אמהות",
+      "location": "HTML, section 10, first paragraph",
       "severity": "major",
-      "source_quote": "“There’s also a need for mothers who are submissive and yielded to authority.”",
-      "suggested_fix": "תקנו את ״אמהות שנכנעות ומתמסרות לסמכות״ ל״אמהות הכפופות לסמכות ונכנעות לה״ או לניסוח עברי טבעי אחר המשמר את שתי התכונות שבמקור.",
-      "translation_quote": "״יש גם צורך באמהות שנכנעות ומתמסרות לסמכות.״"
+      "source_quote": "“For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church”",
+      "suggested_fix": "Translate the comparison faithfully, for example: ״כפי שהאדון מזין ומטפח את הכנסייה.״",
+      "translation_quote": "״כי איש מעולם לא שנא את בשרו שלו, אלא מזין אותו ומטפח אותו, כפי שהאדון עושה לכנסייה״"
     },
     {
-      "location": "סעיף 10, הפסקת השאלות לצעירות",
+      "location": "HTML, section 10, paragraph beginning ״צעירים, האם אתם מוכנים״",
       "severity": "major",
-      "source_quote": "“Are you willing to be a helpmeet, giving yourself for his burden and vision?”",
-      "suggested_fix": "תקנו את ״למען הדאגה והחזון שלו״ ל״למען הנטל שהוא נושא והחזון שלו״ או לניסוח טבעי אחר המשמר את משמעות burden כנטל/אחריות.",
-      "translation_quote": "״האם אתן מוכנות להיות עוזרת מתאימה, ולתת את עצמכן למען הדאגה והחזון שלו?״"
+      "source_quote": "“Are you willing to lay down your life, your agenda, and those independent things you like to do?”",
+      "suggested_fix": "Restore the omitted call to lay down one’s life: ״האם אתם מוכנים להניח את חייכם, את תוכניותיכם ואת הדברים העצמאיים שאתם אוהבים לעשות?״",
+      "translation_quote": "״האם אתם מוכנים לוותר על חייכם, על תוכניותיכם ועל הדברים העצמאיים שאתם אוהבים לעשות?״"
     },
     {
-      "location": "כותרת המשנה",
-      "severity": "minor",
-      "source_quote": "“God’s Plan for Male and Female”",
-      "suggested_fix": "שקלו להחליף את ״תוכנית אלוהים לזכר ולנקבה״ ב״תוכנית אלוהים לגבר ולאישה״, ניסוח טבעי יותר בעברית בהקשר של המאמר.",
-      "translation_quote": "״תוכנית אלוהים לזכר ולנקבה״"
+      "location": "HTML, section 10, final paragraph before the closing figure",
+      "severity": "major",
+      "source_quote": "“But my plea is that you would volunteer and say, ‘I’m willing to apply myself to the Word of God, the will of God, the plan of God, and I’ll give my life. I’m willing to lay it on the altar.’”",
+      "suggested_fix": "Translate the speaker’s plea as a request that the readers volunteer, rather than as a statement that they volunteer: ״אך תחינתי היא שתתנדבו ותאמרו...״",
+      "translation_quote": "״אבל תחינתי היא שתתנדבו ותאמרו: ׳אני מוכן להתמסר לדבר אלוהים, לרצון אלוהים ולתוכנית אלוהים, ואתן את חיי. אני מוכן להניח אותם על המזבח.׳״"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "c21475ea3885691f7fe53904572fb3c6",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -173,13 +215,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 83,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-6-luna"

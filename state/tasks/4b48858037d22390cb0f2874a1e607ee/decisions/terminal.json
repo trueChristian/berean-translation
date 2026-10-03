@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, sezione 8, primo paragrafo",
+      "severity": "major",
+      "source_quote": "She is the weaker vessel and the one that born the children!",
+      "suggested_fix": "Sostituire «Lei è il vaso più debole ed è colei che ha partorito i figli!» con «Lei è il vaso più debole ed è colei che partorisce i figli!»",
+      "translation_quote": "Lei è il vaso più debole ed è colei che ha partorito i figli!"
+    },
+    {
+      "location": "HTML, sezione 10, paragrafo sulle madri",
+      "severity": "major",
+      "source_quote": "There’s also a need for mothers who are submissive and yielded to authority.",
+      "suggested_fix": "Sostituire «C'è anche bisogno di madri sottomesse e sottomesse all'autorità.» con «C'è anche bisogno di madri sottomesse e deferenti all'autorità.»",
+      "translation_quote": "C'è anche bisogno di madri sottomesse e sottomesse all'autorità."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة 7\",\"severity\":\"major\",\"source_quote\":\"“His golden head caught the tired beams that fled from the sun as they flickered through the trees.”\",\"suggested_fix\":\"استبدل العبارة الملتبسة بـ «التقط رأسه الأشقر أشعة الشمس الواهنة التي كانت تنسحب من الشمس، وهي تتلألأ بين الأشجار.»\",\"translation_quote\":\"التقط شعره الذهبي أشعة الشمس الواهنة التي كانت تنسحب من الشمس، وهي تتلألأ بين الأشجار.\"},{\"location\":\"الفقرة 8\",\"severity\":\"major\",\"source_quote\":\"“At length, as the trees subdued and thinned, and the meadow appeared”\",\"suggested_fix\":\"استبدل «حين أخذت الأشجار تصغر وتتباعد» بـ «حين أخذت الأشجار تخفّ كثافتها وتتباعد»؛ فالنص يصف انحسار الأشجار وتباعدها، لا صغر حجمها.\",\"translation_quote\":\"حين أخذت الأشجار تصغر وتتباعد\"},{\"location\":\"الفقرة 9\",\"severity\":\"major\",\"source_quote\":\"“he could see a frustrated heap to his right.”\",\"suggested_fix\":\"استبدل «شخصًا متكوّمًا في ضيق» بـ «كومةً محبطةً عن يمينه» أو صياغة عربية تنقل أن الكومة هي كيني من دون وصفه بشخص.\",\"translation_quote\":\"رأى عن يمينه شخصًا متكوّمًا في ضيق.\"},{\"location\":\"الفقرة 12\",\"severity\":\"major\",\"source_quote\":\"“Kenny reeled free.”\",\"suggested_fix\":\"استبدل «وتحرر كيني مترنحًا» بـ «وانفكّ كيني من المصيدة مترنحًا» لتوضيح أنه تحرر منها مترنحًا.\",\"translation_quote\":\"وتحرر كيني مترنحًا.\"},{\"location\":\"الفقرة 16\",\"severity\":\"major\",\"source_quote\":\"“The porch light showed her in her old rocker.”\",\"suggested_fix\":\"استبدل «أظهرها ضوء الشرفة جالسة على كرسيها الهزاز القديم» بـ «أظهرها ضوء الشرفة في كرسيها الهزاز القديم»؛ فالأصل يحدد موضعها في الكرسي ولا يذكر أنها كانت جالسة.\",\"translation_quote\":\"أظهرها ضوء الشرفة جالسة على كرسيها الهزاز القديم\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2408,
+    "content_evidence_truncated": false,
+    "content_sha256": "faa61ec38251fac0b0588383be7ceb801b7b5ccf139531fd0769ea8791d72180",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 536,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3441,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3980
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

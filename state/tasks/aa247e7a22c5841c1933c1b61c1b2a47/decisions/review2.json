@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, second paragraph",
+      "severity": "minor",
+      "source_quote": "“workshops on how to write to communicate”",
+      "suggested_fix": "Replace “בכתיבה תקשורתית” with “בכתיבה שמטרתה לתקשר” to preserve the meaning of writing in order to communicate.",
+      "translation_quote": "“בסדנאות מעוררות השראה ומעשירות, שעסקו בכתיבה תקשורתית”"
+    },
+    {
+      "location": "source.html, third paragraph",
+      "severity": "minor",
+      "source_quote": "“with caution, correction, and edification”",
+      "suggested_fix": "Replace “בעידוד” with “בבניין רוחני” or another natural Hebrew rendering that conveys edification, not simply encouragement.",
+      "translation_quote": "“בזהירות, בתיקון ובעידוד”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

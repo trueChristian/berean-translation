@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Эпитафия на надгробии\",\"severity\":\"major\",\"source_quote\":\"a servant of slaves in Africa\",\"suggested_fix\":\"Заменить «работорговец в Африке» на точный перевод исходной формулировки, например «служитель рабов в Африке».\",\"translation_quote\":\"работорговец в Африке\"},{\"location\":\"Цитата о дне, когда Ньютон пережил бурю\",\"severity\":\"major\",\"source_quote\":\"“On that day, the Lord sent from on high and delivered me out of deep waters.”\",\"suggested_fix\":\"Заменить на «В тот день Господь послал свыше и избавил меня из глубоких вод».\",\"translation_quote\":\"«В тот день Господь послал помощь свыше и избавил меня из глубоких вод»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 967,
+    "content_evidence_truncated": false,
+    "content_sha256": "c866d9213295736697b138ed0c024ced3e151ac1d1fd5c9514eefd7703149399",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6886,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6883,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7605
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

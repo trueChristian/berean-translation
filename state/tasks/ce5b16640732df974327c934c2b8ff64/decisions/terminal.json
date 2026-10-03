@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "major",
+      "source_quote": "“unspoiled by human invention and intervention”",
+      "suggested_fix": "Ganti “ciptaan dan campur tangan manusia” menjadi “rekaan dan campur tangan manusia” agar maknanya tetap merujuk pada hal-hal yang dibuat dan dicampuri manusia.",
+      "translation_quote": "“belum dirusak oleh ciptaan dan campur tangan manusia”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "37119eb8-18b8-4839-8ee9-a35b089cf024",
+    "response_id": "chatcmpl-EV1SfFVNMtnWHkHMxRtTSwZLWC31M",
+    "usage": {
+      "completion_tokens": 1132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 940,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6666,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6663,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7798
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Romans 1:21, 1:31 (quoted passage)",
+        "severity": "major",
+        "source_quote": "“...became vain in their imaginations... Without understanding, covenantbreakers, without natural affection, implacable, unmerciful...”",
+        "suggested_fix": "Within the existing quotation, translate these phrases more faithfully, for example: «باطلين في أفكارهم» for “became vain in their imaginations,” and «بلا فهم، ناقضين للعهود، بلا مودة طبيعية، لا يلينون، بلا رحمة» for the listed traits. Preserve the existing HTML structure and reference.",
+        "translation_quote": "«...بل حمقوا في أفكارهم... بلا فهم ولا عهد ولا حنو ولا رضا ولا رحمة...»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

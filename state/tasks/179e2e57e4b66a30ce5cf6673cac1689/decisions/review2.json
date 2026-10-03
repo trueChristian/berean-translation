@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe sur l’inscription de la pierre tombale",
+      "severity": "major",
+      "source_quote": "a servant of slaves in Africa",
+      "suggested_fix": "Remplacer « serviteur d’esclaves en Afrique » par « trafiquant d’esclaves en Afrique » afin de rendre le rôle décrit dans l’inscription.",
+      "translation_quote": "serviteur d’esclaves en Afrique"
+    },
+    {
+      "location": "Paragraphe sur la tempête du 10 mars 1748",
+      "severity": "major",
+      "source_quote": "the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin",
+      "suggested_fix": "Remplacer « les vagues avaient brisé les pièces de bois pourries du navire, et l’eau s’engouffrait en tourbillonnant dans sa cabine » par « les pièces de bois pourries du navire étaient brisées par les vagues, et l’eau de crue tourbillonnait dans sa cabine », en conservant l’idée que les vagues avaient endommagé la structure du navire.",
+      "translation_quote": "les vagues avaient brisé les pièces de bois pourries du navire, et l’eau s’engouffrait en tourbillonnant dans sa cabine"
+    },
+    {
+      "location": "Paragraphe sur la mort de Mary et les dernières années de Newton",
+      "severity": "major",
+      "source_quote": "When John was in his sixties, his beloved wife Mary passed away.",
+      "suggested_fix": "Remplacer « Alors que John avait la soixantaine » par « Alors que John était dans la soixantaine » ou « Alors que John avait entre soixante et soixante-neuf ans », pour préserver l’âge indiqué sans le réduire à la soixante et unième année.",
+      "translation_quote": "Alors que John avait la soixantaine"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

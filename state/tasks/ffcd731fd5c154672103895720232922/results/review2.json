@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e50703d7-5b9e-46c9-853c-fd881d254f68",
+    "response_id": "chatcmpl-EV1SfBpvUwZdItmm12aOeRgP5HW3z",
+    "usage": {
+      "completion_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 747,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1636,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1633,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2599
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, first and second stanzas",
+        "severity": "minor",
+        "source_quote": "“Arise be glad! … Rejoice and sing! … Give thanks and laud” and “Arise and glorify the Lord! … Adore and praise our mighty Lord!”",
+        "suggested_fix": "For consistent address to a group, use plural imperatives throughout: in the first stanza change “Sorgi” to “Sorgete” and “Gioisci e canta” to “Gioite e cantate”; in the second stanza change “Sorgi” to “Sorgete” and “Adora” to “Adorate”.",
+        "translation_quote": "“Sorgi, sii lieto! … Gioisci e canta! … Rendete grazie” and “Sorgi e glorifica il Signore! … Esaltate … Adora e loda”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

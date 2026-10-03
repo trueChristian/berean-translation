@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "939df892b58db9b16fb39a27bdb79a86624b19b2638cd2e24c4a2a5def361080",
   "base_metadata_sha256": "6810b84cfffe520a3017e590b9615b10723caa2ffbf2538252e4a6096e5056f3",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,25 +44,31 @@
         },
         "total_tokens": 10273
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 531,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 505,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6701,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6698,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7232
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Artikel, paragraf tentang penerbitan himne dan asal judulnya; frasa judul karya dalam tanda kutip",
-      "severity": "major",
-      "source_quote": "“Faith’s Review and Expectation”",
-      "suggested_fix": "Ganti frasa tersebut dengan terjemahan judul yang mempertahankan maknanya, misalnya “Tinjauan dan Pengharapan Iman”.",
-      "translation_quote": "“Tinjauan dan Pengharapan Iman”"
-    },
-    {
-      "location": "Artikel, paragraf tentang penerbitan himne dan asal judulnya; rujukan Kitab Suci",
-      "severity": "major",
-      "source_quote": "1 Chronicles 17:16-17",
-      "suggested_fix": "Ubah nama kitab menjadi bentuk konvensional bahasa Indonesia dan pertahankan nomor serta rentangnya persis: “1 Tawarikh 17:16-17”.",
-      "translation_quote": "1 Tawarikh 17:16-17"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "91de9468db4f8bb33c8a234f3c690467",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ind",
@@ -152,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "517b9a8c3e02a5cdd38f85c108dfb5990b73f5262ad1594b8a47fac6a96db563",
   "base_metadata_sha256": "3d6e71f8193a743d6bea957edc983ccd9a551117507dcc76ce9851573a003d02",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,60 +44,47 @@
         },
         "total_tokens": 11315
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 343,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6828,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6825,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7171
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "الفقرة التي تبدأ «عندما كان جون في السابعة عشرة»",
+      "location": "الفقرة التي تبدأ «في المقبرة الصغيرة…»؛ نص النقش داخل الاقتباس",
       "severity": "major",
-      "source_quote": "John had been invited to stay four days, but he stayed two weeks and missed the ship to Jamaica.",
-      "suggested_fix": "استبدل «وقد دُعي جون للإقامة أربعة أيام» بـ«كان جون قد دُعي للإقامة أربعة أيام»؛ فالمصدر يقول إنه دُعي للإقامة أربعة أيام، لا إن الدعوة كانت لمدة أربعة أيام.",
-      "translation_quote": "وقد دُعي جون للإقامة أربعة أيام، لكنه بقي أسبوعين وفاته موعد السفينة المتجهة إلى جامايكا."
+      "source_quote": "a servant of slaves in Africa",
+      "suggested_fix": "استبدل «وخادمًا للعبيد في أفريقيا» بـ«وعبدًا لدى تجار العبيد في أفريقيا» أو بصياغة عربية أخرى تنقل أنه كان مستعبَدًا ويعمل لدى تجار العبيد، لا خادمًا للعبيد.",
+      "translation_quote": "وخادمًا للعبيد في أفريقيا"
     },
     {
-      "location": "الفقرة التي تبدأ «على متن السفينة، التقط نيوتن نسخة»",
-      "severity": "major",
-      "source_quote": "The storm awakened Newton, the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin.",
-      "suggested_fix": "عدّل العبارة لتقول إن العاصفة أيقظت نيوتن، وإن الأمواج حطّمت أخشاب السفينة المتعفنة، وإن مياه الفيضان أخذت تندفع إلى حجرته؛ مثلًا: «أيقظت العاصفة نيوتن، بعدما حطمت الأمواج أخشاب السفينة المتعفنة وأخذت مياه الفيضان تندفع إلى حجرته»",
-      "translation_quote": "أيقظت العاصفة نيوتن، وكانت الأمواج قد حطمت أخشاب السفينة المتعفنة، ومياه الفيضان تندفع ملتفة إلى حجرته."
-    },
-    {
-      "location": "الفقرة التي تبدأ «سعى جون إلى «إضفاء طابع مسيحي»»",
-      "severity": "major",
-      "source_quote": "He made three more voyages to bring slaves from Africa to North America.",
-      "suggested_fix": "استبدل «وقام بثلاث رحلات أخرى لجلب العبيد» بـ«وقام بثلاث رحلات أخرى لنقل العبيد من أفريقيا إلى أمريكا الشمالية»؛ فالمصدر يحدد وجهة الرحلات.",
-      "translation_quote": "وقام بثلاث رحلات أخرى لجلب العبيد من أفريقيا إلى أمريكا الشمالية."
-    },
-    {
-      "location": "الفقرة التي تبدأ «كثيرًا ما ألّف جون نيوتن ترنيمة»",
-      "severity": "major",
-      "source_quote": "“Faith’s Review and Expectation”",
-      "suggested_fix": "استبدل عنوان الترنيمة بـ«مراجعة الإيمان وتطلعه» أو صياغة عربية تنقل معنى العنوان، من دون إضافة معنى «الماضي» غير الوارد في المصدر.",
-      "translation_quote": "«تأمل الإيمان في الماضي وتطلعه إلى المستقبل»"
-    },
-    {
-      "location": "الفقرة التي تبدأ «كثيرًا ما ألّف جون نيوتن ترنيمة»",
-      "severity": "major",
-      "source_quote": "David’s exclamation in 1 Chronicles 17:16-17.",
-      "suggested_fix": "استبدل «تعجّب داود» بـ«ابتهال داود» أو «هتاف داود» بما ينقل معنى exclamation في السياق.",
-      "translation_quote": "تعجّب داود في أخبار الأيام الأول 17:16-17."
-    },
-    {
-      "location": "الفقرة التي تبدأ «بصفته خادمًا في الكنيسة»",
-      "severity": "major",
-      "source_quote": "In 1788, 34 years after he left the slave trade, He wrote a book entitled Thoughts Upon the African Slave Trade and sent it to all the members of parliament.",
-      "suggested_fix": "استبدل «بعد 34 عامًا من تركه تجارة العبيد» بـ«بعد 34 عامًا من خروجه من تجارة العبيد»؛ فصياغة الترجمة قد تُفهم على أنها تعني أنه تركها قبل 34 عامًا من عام 1788، بينما المصدر يذكر مرور 34 عامًا منذ تركها.",
-      "translation_quote": "وفي عام 1788، بعد 34 عامًا من تركه تجارة العبيد، كتب كتابًا بعنوان أفكار حول تجارة العبيد الأفريقية وأرسله إلى جميع أعضاء البرلمان."
-    },
-    {
-      "location": "الفقرة التي تبدأ «بصفته خادمًا في الكنيسة»",
+      "location": "الفقرة التي تبدأ «وفي عام 1788…»؛ الاقتباس المنسوب إلى الكتاب",
       "severity": "major",
       "source_quote": "He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
-      "suggested_fix": "استبدل «أسر العبيد السود» بـ«أسر السود المستعبَدين» أو صياغة عربية مكافئة، لتحافظ على وصفهم بأنهم مستعبَدون لا مجرد عبيد في الأسر.",
-      "translation_quote": "«لا حاجة إلى القول إن أسر العبيد السود وبيعهم ونقلهم إلى المزارع في جزر الهند الغربية وأمريكا كان أسلوب حياة قاسيًا وشريرًا»"
+      "suggested_fix": "أعد صياغة الاقتباس ليحافظ على المعنى المطبوع: «ويقتبس قوله: “كان أسر المستعبَدين السود وبيعهم ونقلهم إلى مزارع جزر الهند الغربية وأمريكا أسلوبًا قاسيًا ووحشيًا في الحياة”». لا تضف معنى «لا حاجة إلى القول» إن لم يكن موجودًا في الاقتباس الأصلي.",
+      "translation_quote": "ويورد هذا القول: «لا حاجة إلى القول إن أسر السود المستعبَدين وبيعهم ونقلهم إلى المزارع في جزر الهند الغربية وأمريكا كان أسلوب حياة قاسيًا وشريرًا»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "90764e01aace928852de8eb67107a7c6",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -187,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6-luna"

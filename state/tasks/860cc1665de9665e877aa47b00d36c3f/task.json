@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": "e9bab3a6f99448636ebf9c9aff73f83edeb965f1e0f723dc612f5c3b5b4c3bb9",
   "base_metadata_sha256": "b8b3efc645d353bd698ad073c4ddadca9dfc68e01e8502c24a7b76159ae7972c",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,46 +44,53 @@
         },
         "total_tokens": 4574
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 682,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 413,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2941,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2938,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3623
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraph 1",
+      "location": "Article, paragraph 2",
       "severity": "minor",
-      "source_quote": "many homemakers deal with regularly",
-      "suggested_fix": "Replace «hemmavarande» with «personer som sköter hemmet» to convey the meaning of homemakers more clearly.",
-      "translation_quote": "många hemmavarande möter regelbundet"
+      "source_quote": "By the time the last minute things are completed I’m too exhausted to enjoy the planned event.",
+      "suggested_fix": "Replace “är jag ofta för utmattad” with “är jag för utmattad” to avoid adding a frequency claim.",
+      "translation_quote": "När sista-minuten-uppgifterna är avklarade är jag ofta för utmattad för att njuta av det planerade evenemanget."
     },
     {
-      "location": "HTML, paragraph 7",
+      "location": "Article, paragraph under “Tandvärk och bilresor”",
       "severity": "minor",
       "source_quote": "a stubbed toe",
-      "suggested_fix": "Replace «en stukad tå» with «en tå som slagit i något» or «en stubbad tå»; the source describes stubbing a toe, not spraining it.",
-      "translation_quote": "en stukad tå"
+      "suggested_fix": "Use “en stött tå” or “att slå i tån” to convey the specific mishap of stubbing a toe.",
+      "translation_quote": "en tå som slagit i något"
     },
     {
-      "location": "HTML, paragraph 4",
+      "location": "Article, paragraph beginning “Tidsfrister är en normal del av livet”",
       "severity": "minor",
-      "source_quote": "If it is not a dental emergency",
-      "suggested_fix": "Replace «ett tandläkarakutfall» with «ett akut tandproblem» for natural Swedish and the intended meaning.",
-      "translation_quote": "ett tandläkarakutfall"
-    },
-    {
-      "location": "title",
-      "severity": "minor",
-      "source_quote": "Procrastination Overload",
-      "suggested_fix": "Use a natural Swedish title such as «Överbelastad av uppskjutande».",
-      "translation_quote": "Prokrastinering överbelastning"
-    },
-    {
-      "location": "section",
-      "severity": "minor",
-      "source_quote": "SISTER TO SISTER",
-      "suggested_fix": "Translate the section label as «SYSTER TILL SYSTER».",
-      "translation_quote": "SISTER TO SISTER"
+      "source_quote": "our days would lack purpose",
+      "suggested_fix": "Replace “sakna mening” with “sakna syfte” to preserve the sense of purpose.",
+      "translation_quote": "våra dagar skulle sakna mening"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "860cc1665de9665e877aa47b00d36c3f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -173,13 +179,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-6-luna"

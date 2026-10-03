@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "第九段（“忘恩”段）",
+      "severity": "major",
+      "source_quote": "“Israel had within its history a rich tradition of song. Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.”",
+      "suggested_fix": "将“他们在约沙法的时代，曾在过红海时唱歌，也曾以歌声击败军队。”改为“以色列的历史中有着丰富的歌唱传统。他们过红海时曾唱起歌来；在约沙法的时代，他们也曾以歌声击败军队。”",
+      "translation_quote": "“以色列的历史中有着丰富的歌唱传统。他们在约沙法的时代，曾在过红海时唱歌，也曾以歌声击败军队。”"
+    },
+    {
+      "location": "第九段（诗篇 137:2-4 引文）",
+      "severity": "major",
+      "source_quote": "“How shall we sing the LORD’S song in a strange land?”",
+      "suggested_fix": "将引文末句改为“我们怎能在异地唱耶和华的歌呢？”或其他忠实表达“在异乡”的译法。",
+      "translation_quote": "“我们怎能在外邦唱耶和华的歌呢？”"
+    },
+    {
+      "location": "第十段（末段，经文引文）",
+      "severity": "major",
+      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "将引文开头改为祈使表达，例如：“要让基督的道丰丰富富地住在你们心里，使你们有各样的智慧；要用诗章、颂词、灵歌彼此教导、互相劝戒，心存恩典，向主歌唱……无论做什么，都要尽心去做，像是为主做的，不是为人做的。”",
+      "translation_quote": "“要让基督的道丰丰富富地住在你们心里，以各样的智慧，用诗章、颂词、灵歌彼此教导、互相劝戒，心被恩感，歌颂赞美主……无论做什么，都要从心里做，像是为主做的，不是为人做的。”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

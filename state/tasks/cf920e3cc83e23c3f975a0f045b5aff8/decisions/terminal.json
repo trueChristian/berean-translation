@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraphe de Romains 1:18-32",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness;”",
+      "suggested_fix": "Remplacer l’ouverture de la citation par une traduction fidèle : « Car la colère de Dieu se révèle du ciel contre toute impiété et toute injustice des hommes qui retiennent injustement la vérité ; » Vérifier également que le reste de la citation traduit fidèlement le texte anglais imprimé, plutôt que de lui substituer une autre formulation biblique.",
+      "translation_quote": "« Car la colère de Dieu se révèle du ciel contre toute impiété et toute injustice des hommes qui retiennent la vérité captive dans l'injustice ; »"
+    },
+    {
+      "location": "source.html, citation de Colossiens 1:16",
+      "severity": "major",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers:”",
+      "suggested_fix": "Traduire la citation selon le texte anglais imprimé, en conservant sa liste et ses distinctions : « Car par lui ont été créées toutes choses, dans les cieux et sur la terre, les visibles et les invisibles, qu'il s'agisse de trônes, de dominations, de principautés ou de puissances : tout a été créé par lui et pour lui. »",
+      "translation_quote": "« Car c'est en lui qu'ont été créées toutes les choses qui sont dans les cieux et sur la terre, les visibles et les invisibles, trônes, seigneuries, dominations, autorités ; tout a été créé par lui et pour lui »"
+    },
+    {
+      "location": "source.html, citation de Jean 15:18",
+      "severity": "major",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you.”",
+      "suggested_fix": "Traduire la citation complète, y compris l’invitation à savoir que le monde a haï Jésus avant de haïr les disciples : « Si le monde vous hait, sachez qu'il m'a haï avant vous. » Garder la référence « (Jean 15:18) » dans la même citation.",
+      "translation_quote": "« Si le monde vous hait, sachez qu'il m'a haï avant vous. » (Jean 15:18)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

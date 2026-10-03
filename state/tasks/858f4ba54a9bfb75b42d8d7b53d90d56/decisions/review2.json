@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Primeros párrafos, respuesta del marido de Elsie",
+      "severity": "major",
+      "source_quote": "“It’s her drinking!”",
+      "suggested_fix": "Sustituir por: “¡Es que está bebiendo!”",
+      "translation_quote": "“¡Es su bebida!”"
+    },
+    {
+      "location": "Sección «El cinismo en la Biblia», cita de Eclesiastés 4:13",
+      "severity": "major",
+      "source_quote": "“For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor”",
+      "suggested_fix": "Corregir solo la parte final de la cita: “Pues sale de la cárcel para reinar, mientras que también el que nació en su reino llega a ser pobre” (Eclesiastés 4:13).",
+      "translation_quote": "“Pues sale de la cárcel para reinar, aunque nació pobre en su reino” (Eclesiastés 4:13)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

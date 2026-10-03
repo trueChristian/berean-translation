@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "db2f8c29-c5ae-46a2-a118-a1103657b9c2",
+    "response_id": "chatcmpl-EV1TPNAxmnkBLde0sgBmX8w9PSFtm",
+    "usage": {
+      "completion_tokens": 488,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8196,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8687
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Να ένα παράδειγμα»",
+        "severity": "major",
+        "source_quote": "A Christian plants a garden and takes care of it each day. He waters and fertilizes weeds and prunes.",
+        "suggested_fix": "Διορθώστε το σημείο ώστε να λέει ότι ποτίζει, λιπαίνει, ξεχορταριάζει και κλαδεύει: «Ποτίζει, λιπαίνει, ξεχορταριάζει και κλαδεύει.»",
+        "translation_quote": "Ποτίζει και λιπαίνει, ξεχορταριάζει και κλαδεύει."
+      },
+      {
+        "location": "Paragraph beginning «Οι χριστιανοί πιστεύουν»",
+        "severity": "major",
+        "source_quote": "If the world hate you, ye know that it hated me before it hated you. (John 15:18)",
+        "suggested_fix": "Αποδώστε την αναφορά ως ξεχωριστό μέρος του παραθέματος, χωρίς να αλλάξετε τη σειρά των στοιχείων: «Αν ο κόσμος σάς μισεί, να ξέρετε ότι μίσησε εμένα πριν από εσάς» (Ιωάννης 15:18).",
+        "translation_quote": "«Αν ο κόσμος σάς μισεί, να ξέρετε ότι μίσησε εμένα πριν από εσάς. (Ιωάννης 15:18)»"
+      },
+      {
+        "location": "Paragraph beginning «Ο χριστιανός δεν πιστεύει»",
+        "severity": "major",
+        "source_quote": "For by him were all things created, that are in heaven, and that are in earth, visible and invisible ... all things were created by him, and for him",
+        "suggested_fix": "Αντικαταστήστε το «Δι’ Αυτού δημιουργήθηκαν» με σύγχρονη δημοτική διατύπωση που αποδίδει καθαρά «μέσω αυτού»: «Μέσω αυτού δημιουργήθηκαν τα πάντα ... τα πάντα δημιουργήθηκαν μέσω αυτού και γι’ αυτόν».",
+        "translation_quote": "«Δι’ Αυτού δημιουργήθηκαν τα πάντα ... τα πάντα δημιουργήθηκαν δι’ Αυτού και γι’ Αυτόν»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section 8, quote from 1 Pierre 3:7 and following explanation",
+      "severity": "major",
+      "source_quote": "“as being heirs together of the grace of life”; “If we’re not heirs together of the grace of life, can we be heirs separated of the grace of life? I don’t think so.”",
+      "suggested_fix": "Translate the verse’s phrase as « étant cohéritiers de la grâce de la vie » and keep the speaker’s contrast between being « héritiers ensemble » and « héritiers séparés » in the subsequent explanation; do not change the verse’s grammatical reference to husbands and wives.",
+      "translation_quote": "« comme étant aussi héritières avec vous de la grâce de la vie »; « Si nous ne sommes pas héritiers ensemble de la grâce de la vie, pouvons-nous être héritiers séparés de la grâce de la vie ? »"
+    },
+    {
+      "location": "HTML, section 9, Psalm 144:12 quotation",
+      "severity": "major",
+      "source_quote": "“That our sons may be as plants grown up in their youth; that our daughters may be as corner stones, polished after the similitude of a palace.”",
+      "suggested_fix": "Correct the quoted image to « que nos filles soient comme des pierres d’angle, polies à la manière d’un palais » (or equivalent French conveying cornerstones polished like a palace).",
+      "translation_quote": "« que nos filles soient comme des angles de maison, polies selon le modèle d'un palais. »"
+    },
+    {
+      "location": "HTML, section 10, paragraph beginning “There’s also a need for mothers”",
+      "severity": "major",
+      "source_quote": "“There’s also a need for mothers who are submissive and yielded to authority.”",
+      "suggested_fix": "Translate “yielded to authority” as « soumises à l’autorité » or « qui se soumettent à l’autorité »; avoid wording that suggests they have been surrendered or handed over.",
+      "translation_quote": "« Il y a aussi besoin de mères soumises et rendues à l’autorité. »"
+    },
+    {
+      "location": "HTML, section 10, paragraph beginning “Young ladies, are you willing to enlist?”",
+      "severity": "major",
+      "source_quote": "“Are you willing to be a helpmeet, giving yourself for his burden and vision?”",
+      "suggested_fix": "Replace « être une aide » with a clear expression for a wife’s helpmeet role, such as « être une aide qui lui corresponde », while retaining the sense of giving herself in support of his burden and vision.",
+      "translation_quote": "« Êtes-vous prêtes à être une aide, vous donnant pour son fardeau et sa vision ? »"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "A Christ-Centered Courtship",
+      "suggested_fix": "Use a natural French title such as « Une cour chrétienne centrée sur Christ » or « Une fréquentation centrée sur Christ » consistently with the article’s terminology.",
+      "translation_quote": "Une cour chrétienne centrée sur Christ"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

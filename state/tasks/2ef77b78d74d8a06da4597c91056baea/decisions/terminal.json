@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "“the chickens had left the day before”",
+      "suggested_fix": "Replace «שהתרנגולות הוצאו ממנו יום קודם לכן» with «שהתרנגולות כבר עזבו יום קודם לכן», preserving the source’s statement without adding that someone removed them from the chicken house.",
+      "translation_quote": "«שהתרנגולות הוצאו ממנו יום קודם לכן»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

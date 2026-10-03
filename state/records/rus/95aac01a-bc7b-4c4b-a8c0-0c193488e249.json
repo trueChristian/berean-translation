@@ -42,6 +42,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "c800957bbb97736282db208b76773bf3"
+    },
+    {
+      "at": "2026-10-03T21:32:40+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; no further automatic correction is allowed",
+      "task": "c800957bbb97736282db208b76773bf3"
     }
   ],
   "language": "rus",

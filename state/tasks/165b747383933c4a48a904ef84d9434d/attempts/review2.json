@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Alt text\",\"severity\":\"minor\",\"source_quote\":\"A cup of coffee beside a spiral notebook and pencil.\",\"suggested_fix\":\"Kikombe cha kahawa kando ya daftari lenye uunganisho wa ond na penseli.\",\"translation_quote\":\"Kikombe cha kahawa kando ya daftari lenye jalada la mzunguko na penseli.\"},{\"location\":\"Paragraph beginning “Do some tasks ahead of time”\",\"severity\":\"major\",\"source_quote\":\"“Deciding early in the day what to make for supper”\",\"suggested_fix\":\"“Kuamua mapema mchana cha kuandaa kwa chakula cha jioni”\",\"translation_quote\":\"“Kuamua mapema mchana cha kuandaa kwa chakula cha jioni”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 661,
+    "content_evidence_truncated": false,
+    "content_sha256": "90219bf808b43c08b4ca663fdbd408e3f02077d0dcd6eb6eb848fb8175a6a2f7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3061,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3058,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3240
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

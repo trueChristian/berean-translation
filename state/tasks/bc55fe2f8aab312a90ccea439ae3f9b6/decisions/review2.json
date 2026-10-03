@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Conclusion, quoted song",
+      "severity": "major",
+      "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+      "suggested_fix": "Sostituisci con: “Oh, essere senza speranza in Gesù: quanto buio dev’essere questo mondo!”",
+      "translation_quote": "“Oh, non avere speranza in Gesù: quanto deve essere oscuro questo mondo!”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

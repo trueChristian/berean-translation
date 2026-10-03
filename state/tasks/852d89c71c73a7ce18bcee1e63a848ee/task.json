@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "96994dac36d774d619c5291bcbab0accd4ca28bb024dd8fa90ef04e8a15cb0c4",
   "base_metadata_sha256": "f3c6b90501b090c0e1947aacb2dbf4b0afff4f32960a41754fd522b1ed7c159f",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,32 +44,54 @@
         },
         "total_tokens": 10125
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 580,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6510,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6507,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7090
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "正文：各段引号内的圣经引文及引文短语",
+      "location": "第九段（“忘恩”段）",
       "severity": "major",
-      "source_quote": "“Doth not nature itself teach you?”; “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5); “Is any merry? Let him sing psalms” (James 5:13); “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3); “I will sing”; and the other quoted Scripture passages throughout the article.",
-      "suggested_fix": "将正文中所有引号内的圣经引文和实质性引文短语译成简体中文，忠实保留原文含义，并保留每处原有的书卷、章节、节数、范围及引用位置。",
-      "translation_quote": "“Doth not nature itself teach you?”; “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5); “Is any merry? Let him sing psalms” (James 5:13); “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3); “I will sing”；以及全文其余未译的引号内经文。"
+      "source_quote": "“Israel had within its history a rich tradition of song. Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.”",
+      "suggested_fix": "将“他们在约沙法的时代，曾在过红海时唱歌，也曾以歌声击败军队。”改为“以色列的历史中有着丰富的歌唱传统。他们过红海时曾唱起歌来；在约沙法的时代，他们也曾以歌声击败军队。”",
+      "translation_quote": "“以色列的历史中有着丰富的歌唱传统。他们在约沙法的时代，曾在过红海时唱歌，也曾以歌声击败军队。”"
     },
     {
-      "location": "正文：鸟类歌声段",
+      "location": "第九段（诗篇 137:2-4 引文）",
       "severity": "major",
-      "source_quote": "“...the song sparrow and again by the rose-breasted grosbeak.”",
-      "suggested_fix": "将“歌雀”改为“歌雀（song sparrow）”或其合适的中文鸟名；将“玫胸秋沙鸟”改为玫胸的大嘴雀类名称（如“玫胸巨嘴雀”），不要译成秋沙鸭类。",
-      "translation_quote": "“歌雀（song sparrow）与玫胸秋沙鸟（rose-breasted grosbeak）的歌声”"
+      "source_quote": "“How shall we sing the LORD’S song in a strange land?”",
+      "suggested_fix": "将引文末句改为“我们怎能在异地唱耶和华的歌呢？”或其他忠实表达“在异乡”的译法。",
+      "translation_quote": "“我们怎能在外邦唱耶和华的歌呢？”"
     },
     {
-      "location": "正文：“Neglect”段",
+      "location": "第十段（末段，经文引文）",
       "severity": "major",
-      "source_quote": "“the major song of modern women bears chords that are but dissident and melancholy.”",
-      "suggested_fix": "将“异端与忧郁”改为表达“不和谐、忧郁”之意的措辞，例如“现代许多妇女的主旋律却只奏出不和谐而忧郁的音调”。",
-      "translation_quote": "“现代许多妇女的主旋律却偏为异端与忧郁。”"
+      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "将引文开头改为祈使表达，例如：“要让基督的道丰丰富富地住在你们心里，使你们有各样的智慧；要用诗章、颂词、灵歌彼此教导、互相劝戒，心存恩典，向主歌唱……无论做什么，都要尽心去做，像是为主做的，不是为人做的。”",
+      "translation_quote": "“要让基督的道丰丰富富地住在你们心里，以各样的智慧，用诗章、颂词、灵歌彼此教导、互相劝戒，心被恩感，歌颂赞美主……无论做什么，都要从心里做，像是为主做的，不是为人做的。”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "852d89c71c73a7ce18bcee1e63a848ee",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "cmn",
@@ -159,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-6-luna"

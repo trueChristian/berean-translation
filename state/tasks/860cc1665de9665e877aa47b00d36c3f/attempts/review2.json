@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"By the time the last minute things are completed I’m too exhausted to enjoy the planned event.\",\"suggested_fix\":\"Replace “är jag ofta för utmattad” with “är jag för utmattad” to avoid adding a frequency claim.\",\"translation_quote\":\"När sista-minuten-uppgifterna är avklarade är jag ofta för utmattad för att njuta av det planerade evenemanget.\"},{\"location\":\"Article, paragraph under “Tandvärk och bilresor”\",\"severity\":\"minor\",\"source_quote\":\"a stubbed toe\",\"suggested_fix\":\"Use “en stött tå” or “att slå i tån” to convey the specific mishap of stubbing a toe.\",\"translation_quote\":\"en tå som slagit i något\"},{\"location\":\"Article, paragraph beginning “Tidsfrister är en normal del av livet”\",\"severity\":\"minor\",\"source_quote\":\"our days would lack purpose\",\"suggested_fix\":\"Replace “sakna mening” with “sakna syfte” to preserve the sense of purpose.\",\"translation_quote\":\"våra dagar skulle sakna mening\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1067,
+    "content_evidence_truncated": false,
+    "content_sha256": "a8049a9690961572682235d7db133d109da2859707a557f134d66373e269aa3b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 413,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3623
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

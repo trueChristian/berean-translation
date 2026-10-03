@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة التي تبدأ «ثم انتُخب لإكمال الأشهر الأربعة الأخيرة…»\",\"severity\":\"major\",\"source_quote\":\"“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”\",\"suggested_fix\":\"استبدل «انتُخب» بـ«اختير» أو «كُلِّف»، بما يفيد أنه اختير لإكمال مهام السكرتارية، لا أنه فاز بانتخاب.\",\"translation_quote\":\"«ثم انتُخب لإكمال الأشهر الأربعة الأخيرة من مهام السكرتارية نيابةً عن أخ قضى بعض الوقت في بلغاريا.»\"},{\"location\":\"الفقرة التي تبدأ «قالت بيكي: كانت تلك القشة…»\",\"severity\":\"major\",\"source_quote\":\"“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”\",\"suggested_fix\":\"حافظ على بنية الاقتباس واجعل نسبة الكلام إلى بيكي خارج الاقتباس المنطوق: «قالت بيكي: «كانت تلك القشة التي قصمت ظهر البعير. أقلقني أنني سمعته يتثاءب في منتصف الليل، وعرفت أنه لا ينام.»»\",\"translation_quote\":\"«قالت بيكي: «كانت تلك القشة التي قصمت ظهر البعير. أقلقني أنني سمعته يتثاءب في منتصف الليل، وعرفت أنه لا ينام.»\"},{\"location\":\"الفقرة التي تبدأ «أحيانًا لا يعرف الناس بهذا النوع…»\",\"severity\":\"major\",\"source_quote\":\"“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”\",\"suggested_fix\":\"استبدل «دوائرنا القريبة» بعبارة تنقل المقصود بـ«دوائرنا البسيطة» أو «مجتمعاتنا المتواضعة»، مع إبقاء سائر الجملة كما هي.\",\"translation_quote\":\"«غالبًا ما تحظى الأحداث الصادمة في دوائرنا القريبة بالصلوات والمساعدة المالية وتحديثات الميزانية الأسبوعية.»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2343,
+    "content_evidence_truncated": false,
+    "content_sha256": "052de40a3ff3ebe56c7e8f39a3a79aba7d74309e6c733ebce4aac0eb431b3a15",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 476,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4141,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4138,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4617
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

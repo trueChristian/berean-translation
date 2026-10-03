@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": "d373f02b331211cf0346ccfbb970cc7c0e89d06567d201474b169b0796fba656",
   "base_metadata_sha256": "9d800032cf2b13a48516d5b9d4931b74b0b49c74aa35f9e7d007d33ffa63beb8",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,25 +44,31 @@
         },
         "total_tokens": 2621
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 476,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 450,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1635,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1632,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2111
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, poem, third stanza, third line",
-      "severity": "major",
-      "source_quote": "Bow down in awful, holy fear-",
-      "suggested_fix": "Replace with «Inclinaos con temor reverencial y santo-» to convey awe-filled reverence rather than something fearsome.",
-      "translation_quote": "Inclinaos en temible y santa reverencia-"
-    },
-    {
-      "location": "HTML, image alt text",
-      "severity": "minor",
-      "source_quote": "during a vivid sunset",
-      "suggested_fix": "Use «durante una puesta de sol de colores intensos» (or another natural equivalent); this also corrects the feminine article before «atardecer» if that word is retained.",
-      "translation_quote": "durante una atardecer vívido"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "5b12ac4ea060cdb0c65600179a75b30a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "spa",
@@ -152,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7e4377db0d65abeff417aa9deee1a21496eb8249b5901b6b1a4f32f9b38cd090.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-6-luna"

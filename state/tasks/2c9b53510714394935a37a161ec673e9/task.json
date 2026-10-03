@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "a98d32e17729512da328e58d0a042056c81bc9f61cbfc16048f3fc016c511501",
   "base_metadata_sha256": "77e3071d7660a599ca8090ae2829237a301bda0f711b9072efec93cc1707b798",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,39 +44,46 @@
         },
         "total_tokens": 4857
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 687,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 483,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3118,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3115,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3805
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraph 6",
-      "severity": "major",
-      "source_quote": "These articles were a sincere effort to examine various aspects of vaccine usage with an unbiased approach.",
-      "suggested_fix": "Replace « avec une approche équilibrée » with « avec une approche impartiale » to preserve the source’s claim of an unbiased approach.",
-      "translation_quote": "Ces articles étaient un effort sincère pour examiner divers aspects de l’utilisation des vaccins avec une approche équilibrée."
-    },
-    {
-      "location": "HTML, paragraph 3",
-      "severity": "major",
-      "source_quote": "Mothers who share experiences and trials with other mothers who are in the throes of raising little ones.",
-      "suggested_fix": "Replace « en plein élevage des tout-petits » with « qui sont aux prises avec l’éducation de jeunes enfants » (or another idiomatic equivalent conveying the demands of raising little ones).",
-      "translation_quote": "De mères qui partagent expériences et épreuves avec d’autres mères en plein élevage des tout-petits."
-    },
-    {
-      "location": "HTML, paragraph 2",
+      "location": "HTML, premier paragraphe",
       "severity": "minor",
-      "source_quote": "descriptive writing",
-      "suggested_fix": "Change « un écriture descriptive » to « une écriture descriptive » or « une rédaction descriptive ».",
-      "translation_quote": "un écriture descriptive"
+      "source_quote": "My young preschool mind had never seen so many delectable sweets in one place at one time.",
+      "suggested_fix": "Remplacer « Mon jeune esprit de préscolaire » par « Mon jeune esprit d’enfant d’âge préscolaire » pour une formulation plus naturelle.",
+      "translation_quote": "Mon jeune esprit de préscolaire n’avait jamais vu autant de douceurs alléchantes réunies au même endroit."
     },
     {
-      "location": "HTML, paragraph 3",
+      "location": "HTML, troisième paragraphe",
       "severity": "minor",
-      "source_quote": "a periodical",
-      "suggested_fix": "Change « une périodique » to « un périodique » or, more idiomatically, « une revue ».",
-      "translation_quote": "une périodique"
+      "source_quote": "I encourage you, fellow believers, to give it a try.",
+      "suggested_fix": "Remplacer « à tenter votre chance » par « à vous lancer » pour préserver l’idée d’essayer d’écrire pour la revue.",
+      "translation_quote": "Je vous encourage, frères et sœurs en Christ, à tenter votre chance."
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "2c9b53510714394935a37a161ec673e9",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "fra",
@@ -166,13 +172,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

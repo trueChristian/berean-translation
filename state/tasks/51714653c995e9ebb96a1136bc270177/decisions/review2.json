@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, epitaph in the blockquote",
+      "severity": "major",
+      "source_quote": "a servant of slaves in Africa",
+      "suggested_fix": "아프리카에서 노예들을 섬기던 자",
+      "translation_quote": "아프리카에서 노예를 부리던 자"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

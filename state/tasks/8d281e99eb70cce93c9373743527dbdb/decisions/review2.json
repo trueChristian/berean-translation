@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Em Romanos lemos”",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ...” (Romans 1:18-32).",
+      "suggested_fix": "Rever a citação para traduzir fielmente o texto inglês impresso. Em particular, “who hold the truth in unrighteousness” significa “que detêm a verdade pela injustiça”, não “que suprimem a verdade”; preserve também a tradução de todo o restante da citação sem introduzir diferenças de sentido.",
+      "translation_quote": "“Porque a ira de Deus se revela do céu contra toda impiedade e injustiça dos homens que suprimem a verdade; ...” (Romanos 1:18-32)."
+    },
+    {
+      "location": "Article, paragraph beginning “Os cristãos creem que são meramente servos”",
+      "severity": "major",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Substituir a citação por uma tradução fiel do texto impresso, preservando a referência: “Se o mundo vos odeia, sabeis que me odiou antes de vos odiar.” (João 15:18)",
+      "translation_quote": "“Se o mundo vos odeia, sabei que primeiro me odiou a mim. Se a vós odeia, também me odiou antes de odiar a vós.” (João 15:18)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

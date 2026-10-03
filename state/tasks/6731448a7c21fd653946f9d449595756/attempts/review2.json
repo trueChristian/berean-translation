@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"अनुच्छेद 3\",\"severity\":\"major\",\"source_quote\":\"“whether mating or not, these birds delight in bearing a jubilant expression of joy and we do well to let them teach us.”\",\"suggested_fix\":\"“चाहे प्रणय-आह्वान करते समय हों या नहीं, ये पक्षी उल्लासपूर्ण आनंद व्यक्त करने में प्रसन्न होते हैं, और हमें उनसे सीखना चाहिए।”\",\"translation_quote\":\"“प्रणय के समय हों या नहीं, इन पक्षियों को आनंदपूर्ण उल्लास व्यक्त करने में प्रसन्नता होती है, और हमें उनसे सीखने देना चाहिए।”\"},{\"location\":\"अनुच्छेद 8\",\"severity\":\"major\",\"source_quote\":\"“So transgresses the selfish soul in his pursuit of happiness, feeding gleefully on the calamity of another and exploiting their sin.”\",\"suggested_fix\":\"“इसी प्रकार, सुख की तलाश में स्वार्थी आत्मा सीमा लाँघती है: वह दूसरों की विपत्ति पर आनंद से पलती है और उनके पाप का फ़ायदा उठाती है।”\",\"translation_quote\":\"“इसी तरह, सुख की तलाश में स्वार्थी आत्मा अपराध करती है, दूसरों की विपत्ति पर आनंद से पलती है और उनके पाप का फ़ायदा उठाती है।”\"},{\"location\":\"अनुच्छेद 9\",\"severity\":\"major\",\"source_quote\":\"“She then has the audacity to lay her egg in another bird’s nest, forcing them to raise her offspring.”\",\"suggested_fix\":\"“फिर वह दूसरे पक्षी के घोंसले में अपना अंडा देने का दुस्साहस करती है और उन पक्षियों को अपनी संतान पालने के लिए मजबूर कर देती है।”\",\"translation_quote\":\"“फिर वह दूसरे पक्षी के घोंसले में अपना अंडा देने का दुस्साहस करता है और उन पक्षियों को अपनी संतान पालने के लिए मजबूर कर देता है।”\"},{\"location\":\"अनुच्छेद 9\",\"severity\":\"major\",\"source_quote\":\"“Though justified by circumstances, these women care not for their own, but are products of neglect.”\",\"suggested_fix\":\"“परिस्थितियों से उचित ठहराए जाने पर भी, ये स्त्रियाँ अपने बच्चों की परवाह नहीं करतीं, बल्कि उपेक्षा की उपज हैं।”\",\"translation_quote\":\"“परिस्थितियों से उचित ठहराए जाने पर भी, ये स्त्रियाँ अपने बच्चों की परवाह नहीं करतीं, बल्कि उपेक्षा की उपज हैं।”\"},{\"location\":\"अनुच्छेद 9\",\"severity\":\"major\",\"source_quote\":\"“Often you will find them in large numbers feeding themselves on the corn the farmer painstakingly planted for himself.”\",\"suggested_fix\":\"“अक्सर आप उन्हें बड़ी संख्या में उस मक्के को खाते पाएँगे जिसे किसान ने अपने लिए बड़ी मेहनत से बोया था।”\",\"translation_quote\":\"“अक्सर आप उन्हें बड़ी संख्या में उस मक्के को खाते पाएँगे जिसे किसान ने अपने लिए बड़ी मेहनत से बोया था।”\"},{\"location\":\"अनुच्छेद 10\",\"severity\":\"major\",\"source_quote\":\"“Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.”\",\"suggested_fix\":\"“लाल समुद्र पार करते समय उनका गायन फूट पड़ा था; यहोशापात के दिनों में भी उनका गायन सेनाओं को पराजित करने के लिए जाना जाता था।”\",\"translation_quote\":\"“लाल समुद्र पार करते समय और यहोशापात के दिनों में उनका गायन फूट पड़ा था, और उससे सेनाएँ पराजित हुई थीं।”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 5202,
+    "content_evidence_truncated": false,
+    "content_sha256": "94a563b7d01a709710bbf94fa459a685fc79a74cfb792503ccb5a2585b937053",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7078,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7075,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7861
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

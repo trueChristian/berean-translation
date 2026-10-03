@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, final dialogue paragraph\",\"severity\":\"major\",\"source_quote\":\"“God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason.”\",\"suggested_fix\":\"Replace the two sentences with: “Dio ti ha fatto così come sei per una ragione, Jamin. Ha fatto Kenny così com’è per una ragione.”\",\"translation_quote\":\"“Dio ti ha fatto com’è per una ragione, Jamin. Ha fatto Kenny com’è per una ragione.”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 496,
+    "content_evidence_truncated": false,
+    "content_sha256": "60044563570acbd1d66277fb11b9e32e28d2796b694c9a95aca76b67f0a107e0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3382,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4035
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section 3, second paragraph",
+      "severity": "major",
+      "source_quote": "“What therefore God hath joined together, let not man put asunder” (Mark 10:8-9).",
+      "suggested_fix": "Replace the quotation with: ״לכן, את מה שאלוהים חיבר יחד, אל יפריד אדם״ (מרקוס 10:8-9).",
+      "translation_quote": "״לכן, את מה שאלוהים חיבר יחד, אל יפריד אדם״ (מרקוס 10:8-9). תוכנית אלוהים לגבר ולאישה היא שהוא מביא את חוה אל אדם. אחר כך באות העזיבה והדבקות. הוא גורם להם להיות לבשר אחד. פירוד אינו ברכה כלל, אלא מביא ייסורים, כאב, סבל ופגיעה. אין ברכה בפרידה. אבל תוכנית אלוהים מביאה ברכה."
+    },
+    {
+      "location": "HTML, section 4, first paragraph",
+      "severity": "major",
+      "source_quote": "“Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness” (2 Corinthians 6:14-15).",
+      "suggested_fix": "Translate the printed excerpt without changing its meaning, for example: ״אל תהיו קשורים בעול בלתי שווה עם לא־מאמינים; כי איזו שותפות יש לצדקה עם עוול?״ Keep the reference as קורינתים ב׳ 6:14-15.",
+      "translation_quote": "״אל תיקשרו בעול בלתי שווה עם מי שאינם מאמינים, כי איזו שותפות יש לצדקה עם רשע?״ (השנייה לקורינתים 6:14-15)."
+    },
+    {
+      "location": "HTML, section 6, paragraph on Ephesians 6:1-3",
+      "severity": "major",
+      "source_quote": "“Honor thy father and mother; which is the first commandment with promise; That it may be well with thee, and thou mayest live long on the earth” (Ephesians 6:1-3).",
+      "suggested_fix": "Translate the quoted exhortation in the second person plural, preserving its address to children; for example, change ״כבד את אביך ואת אמך״ to ״כבדו את אביכם ואת אמכם״.",
+      "translation_quote": "״ילדים, צייתו להוריכם באדון, כי זה הדבר הנכון. כבד את אביך ואת אמך — זו המצווה הראשונה שיש עמה הבטחה — כדי שייטב לך ותאריך ימים על הארץ״ (אל האפסים 6:1-3)."
+    },
+    {
+      "location": "HTML, section 7, paragraph beginning ״הכתוב ממשיך״",
+      "severity": "major",
+      "source_quote": "“For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church.”",
+      "suggested_fix": "Translate the printed comparison as written, for example: ״כפי שהאדון מזין ומטפח את הכנסייה.״",
+      "translation_quote": "״כי איש מעולם לא שנא את בשרו שלו, אלא מזין אותו ומטפח אותו, כפי שהאדון עושה לכנסייה.״"
+    },
+    {
+      "location": "HTML, section 8, paragraph beginning ״הראשונה לפטרוס 3:7״",
+      "severity": "major",
+      "source_quote": "“as being heirs together of the grace of life”",
+      "suggested_fix": "Translate this as being co-heirs, not as a comparison: ״וכיורשים יחד איתה של חסד החיים״.",
+      "translation_quote": "״...והעניקו כבוד לאישה ככלי החלש יותר וכיורשים יחד את חסד החיים...״"
+    },
+    {
+      "location": "HTML, section 10, first paragraph",
+      "severity": "major",
+      "source_quote": "“For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church”",
+      "suggested_fix": "Translate the comparison faithfully, for example: ״כפי שהאדון מזין ומטפח את הכנסייה.״",
+      "translation_quote": "״כי איש מעולם לא שנא את בשרו שלו, אלא מזין אותו ומטפח אותו, כפי שהאדון עושה לכנסייה״"
+    },
+    {
+      "location": "HTML, section 10, paragraph beginning ״צעירים, האם אתם מוכנים״",
+      "severity": "major",
+      "source_quote": "“Are you willing to lay down your life, your agenda, and those independent things you like to do?”",
+      "suggested_fix": "Restore the omitted call to lay down one’s life: ״האם אתם מוכנים להניח את חייכם, את תוכניותיכם ואת הדברים העצמאיים שאתם אוהבים לעשות?״",
+      "translation_quote": "״האם אתם מוכנים לוותר על חייכם, על תוכניותיכם ועל הדברים העצמאיים שאתם אוהבים לעשות?״"
+    },
+    {
+      "location": "HTML, section 10, final paragraph before the closing figure",
+      "severity": "major",
+      "source_quote": "“But my plea is that you would volunteer and say, ‘I’m willing to apply myself to the Word of God, the will of God, the plan of God, and I’ll give my life. I’m willing to lay it on the altar.’”",
+      "suggested_fix": "Translate the speaker’s plea as a request that the readers volunteer, rather than as a statement that they volunteer: ״אך תחינתי היא שתתנדבו ותאמרו...״",
+      "translation_quote": "״אבל תחינתי היא שתתנדבו ותאמרו: ׳אני מוכן להתמסר לדבר אלוהים, לרצון אלוהים ולתוכנית אלוהים, ואתן את חיי. אני מוכן להניח אותם על המזבח.׳״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

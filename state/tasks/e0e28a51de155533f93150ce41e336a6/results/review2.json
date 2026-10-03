@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "41da0d92-cf8b-42d1-a818-08a7404cb2fb",
+    "response_id": "chatcmpl-EV1SacY9uAWpViNZmRsHLxJDSQDs7",
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 445,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3929,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3926,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4566
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, párrafo 3",
+        "severity": "minor",
+        "source_quote": "Becky is in her thirties",
+        "suggested_fix": "Replace «está en sus treinta» with «tiene treinta y tantos años» for idiomatic Spanish.",
+        "translation_quote": "Becky está en sus treinta"
+      },
+      {
+        "location": "HTML, párrafo 15",
+        "severity": "minor",
+        "source_quote": "However He chooses to work on your behalf, hold to His unchanging hand.",
+        "suggested_fix": "Use «Sea cual sea la manera en que Él obre a tu favor, aférrate a su mano inmutable» to express the source meaning clearly and consistently address the reader with «tú».",
+        "translation_quote": "Haga lo que haga para obrar a tu favor, agárrate de su mano inmutable."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

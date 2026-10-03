@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph under “Mtazamo wa Kutarajia Mabaya katika Biblia” / “Kinyume cha Mtazamo wa Kutarajia Mabaya” (the paragraph beginning “Vivyo hivyo, Shetani…”)",
+      "severity": "major",
+      "source_quote": "Satan tells Christians that politics will not only change the world for the better, it is an easier way to change the world.",
+      "suggested_fix": "Replace “Shetani huwaambia Wakristo kwamba siasa hazitaubadilisha tu ulimwengu uwe bora, bali pia ni njia rahisi zaidi ya kuubadilisha ulimwengu.” with “Shetani huwaambia Wakristo kwamba siasa zitabadilisha ulimwengu uwe bora, na kwamba hiyo ni njia rahisi zaidi ya kuubadilisha ulimwengu.”",
+      "translation_quote": "Shetani huwaambia Wakristo kwamba siasa hazitaubadilisha tu ulimwengu uwe bora, bali pia ni njia rahisi zaidi ya kuubadilisha ulimwengu."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

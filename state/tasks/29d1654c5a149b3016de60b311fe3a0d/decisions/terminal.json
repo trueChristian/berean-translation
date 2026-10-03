@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section 2, paragraph about glued wood panels",
+      "severity": "major",
+      "source_quote": "The only way to tear them apart is by splintering and ripping and God does not bless that.",
+      "suggested_fix": "Endre den aktuelle avslutningen til «Den eneste måten å rive dem fra hverandre på er å flise dem opp og rive dem fra hverandre, og Gud velsigner ikke dette.»",
+      "translation_quote": "Den eneste måten å rive dem fra hverandre på er å flise dem opp og rive dem fra hverandre, og det velsigner ikke Gud."
+    },
+    {
+      "location": "HTML, section 7, first paragraph quoting Ephesians 5:21",
+      "severity": "major",
+      "source_quote": "Submitting yourselves one to another in the fear of God.",
+      "suggested_fix": "Endre sitatet til «Underordne dere under hverandre i gudsfrykt.»",
+      "translation_quote": "Underordne dere under hverandre i ærefrykt for Kristus."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

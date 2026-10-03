@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "718c0e53398cb255a59f519469d62d71122e643c0ab079c79bcf63dec5211bc1",
   "base_metadata_sha256": "3886e92906b6555e6f934aa3f0ac0945ec7a5fe5a0057299eeb053fe111f1734",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,46 +44,46 @@
         },
         "total_tokens": 5457
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 769,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3358,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3355,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4127
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraph 2",
-      "severity": "major",
-      "source_quote": "Christian Aid Ministries’ first Annual Writers’ Conference",
-      "suggested_fix": "Replace “क्रिश्चियन एड मिशनरीज़ की पहली वार्षिक लेखकों की सम्मेलन” with “क्रिश्चियन एड मिनिस्ट्रीज़ के पहले वार्षिक लेखक सम्मेलन” to retain the organization’s name and correct the Hindi agreement.",
-      "translation_quote": "क्रिश्चियन एड मिशनरीज़ की पहली वार्षिक लेखकों की सम्मेलन"
-    },
-    {
-      "location": "HTML, paragraph 3",
-      "severity": "major",
-      "source_quote": "help spread the Good News of the Word of God with caution, correction, and edification",
-      "suggested_fix": "Replace “सावधानी, सुधार, और प्रेरणा” with “सावधानी, सुधार और आत्मिक उन्नति” (or another faithful equivalent for “edification”); “प्रेरणा” changes the source’s sense of building up.",
-      "translation_quote": "सावधानी, सुधार, और प्रेरणा"
-    },
-    {
-      "location": "HTML, paragraph 3",
+      "location": "पहला अनुच्छेद",
       "severity": "minor",
-      "source_quote": "Seasoned grandfathers who bring words of admonishment to the younger generation.",
-      "suggested_fix": "Change “अनुभवी दादा-दादी” to “अनुभवी दादाजी” or “अनुभवी दादा” so the translation preserves the source’s specific reference to grandfathers.",
-      "translation_quote": "अनुभवी दादा-दादी जो युवा पीढ़ी को उपदेशमय शब्द दें।"
+      "source_quote": "“the tantalizing cacophony of odors”",
+      "suggested_fix": "“मुझे उन लुभावनी मिली-जुली गंधों की याद आती है” (या “उन लुभावनी मिली-जुली गंधों की याद आती हैं”) में बहुवचन “गंधों” के अनुसार क्रिया का रूप ठीक करें।",
+      "translation_quote": "“मुझे उन लुभावनी मिली-जुली गंधों की याद आती है”"
     },
     {
-      "location": "HTML, paragraph 3",
+      "location": "तीसरा अनुच्छेद",
       "severity": "minor",
-      "source_quote": "Together, these aspiring writers will produce a periodical",
-      "suggested_fix": "Correct the Hindi agreement in “ये आकांक्षी लेखकों एक ऐसा पत्रिका” to “ये आकांक्षी लेखक एक ऐसी पत्रिका”.",
-      "translation_quote": "ये आकांक्षी लेखकों एक ऐसा पत्रिका तैयार करेंगे"
-    },
-    {
-      "location": "HTML, paragraph 4",
-      "severity": "minor",
-      "source_quote": "help readers navigate through the varied and difficult seasons of life",
-      "suggested_fix": "For more idiomatic Hindi, replace “जीवन के विविध और कठिन मौसमों से नेविगेट करने” with “जीवन के विविध और कठिन दौरों से राह पाने”.",
-      "translation_quote": "जीवन के विविध और कठिन मौसमों से नेविगेट करने में मदद करे"
+      "source_quote": "“I encourage you, fellow believers, to give it a try.”",
+      "suggested_fix": "संबोधन का रूप सुधारें: “साथी विश्वासियो, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।” को “साथी विश्वासियों, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।” करें।",
+      "translation_quote": "“साथी विश्वासियो, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "ecd4f4dde8c3c7c6b4dffaac3c38648e",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "hin",
@@ -173,13 +172,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

@@ -30,6 +30,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "26cf9885802dc1b9873346ec28cd77e3"
+    },
+    {
+      "at": "2026-10-03T21:32:38+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; no further automatic correction is allowed",
+      "task": "26cf9885802dc1b9873346ec28cd77e3"
     }
   ],
   "language": "afr",

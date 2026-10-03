@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, opening account, paragraph beginning «I det tempoet du drikker»\",\"severity\":\"minor\",\"source_quote\":\"“...find you an inpatient program to detox you...”\",\"suggested_fix\":\"Rett skrivefeilen «avrus es» til «avruses» i setningen: «...et døgnbehandlingstilbud der du kan avruses og komme deg bort fra alkoholen.»\",\"translation_quote\":\"«...et døgnbehandlingstilbud der du kan avrus es og komme deg bort fra alkoholen.»\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 488,
+    "content_evidence_truncated": false,
+    "content_sha256": "ef03a409cd0dc84ab99c9d494e3ea727c56e94f1c7e24c6a30d0ea1d6537319c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9215,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9212,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9967
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

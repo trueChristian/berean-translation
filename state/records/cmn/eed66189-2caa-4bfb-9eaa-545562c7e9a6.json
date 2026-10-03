@@ -18,26 +18,32 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "148387bcc86e3678c6cbde060e0ba6f6"
+    },
+    {
+      "at": "2026-10-03T21:32:38+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "148387bcc86e3678c6cbde060e0ba6f6"
     }
   ],
   "language": "cmn",
   "latest_task": "148387bcc86e3678c6cbde060e0ba6f6",
   "published": {
     "html_path": "content/cmn/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
-    "html_sha256": "1ab90af8b5b54e21d03d6b6b607648d2b86040805ba867c8e8b63bc7ee4f48b4",
+    "html_sha256": "09dabcbc80376770799678961d42ddbeb6aab0698a22d02f630e3c67352d1f8e",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
     "metadata_path": "content/cmn/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
     "metadata_sha256": "89fe7305e98011575248b667bc7b7294ea0385a99280537fb948df060cb9eb2c",
-    "model": "gpt-5-mini-2025-08-07",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-5-mini-2025-08-07）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6/\" data-source-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\" hreflang=\"en\">英文原文</a></p>\n</aside>",
-    "published_at": "2026-10-01T20:28:17+00:00",
-    "quality_score": 96,
-    "review_model": "gpt-5-mini-2025-08-07",
-    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
-    "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
-    "task": "2a304cf09368c9981de8b23f00434267",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-6-luna）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6/\" data-source-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\" hreflang=\"en\">英文原文</a></p>\n</aside>",
+    "published_at": "2026-10-03T21:32:38+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/7e4377db0d65abeff417aa9deee1a21496eb8249b5901b6b1a4f32f9b38cd090.json",
+    "task": "148387bcc86e3678c6cbde060e0ba6f6",
     "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb"
   }
 }

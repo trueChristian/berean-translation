@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translation.html, पंक्ति: “She’s ready”\",\"severity\":\"major\",\"source_quote\":\"“She’s ready,” he husband said firmly.\",\"suggested_fix\":\"इस संवाद को इस प्रकार करें: “वह तैयार है,” उसके पति ने दृढ़ता से कहा।\",\"translation_quote\":\"“वह तैयार है,” उसके पति ने दृढ़ता से कहा।\"},{\"location\":\"source.html / translation.html, क्लेशों के बाद बढ़ने वाले गुण\",\"severity\":\"major\",\"source_quote\":\"“...tribulation worketh patience; and patience, experience; and experience, hope...”\",\"suggested_fix\":\"अर्थ को मूल के अनुरूप करें: “...क्लेश से धीरज, धीरज से अनुभव, और अनुभव से आशा उत्पन्न होती है...”\",\"translation_quote\":\"“...क्लेश से धीरज उत्पन्न होता है, और धीरज से खरा निकलना, और खरे निकलने से आशा उत्पन्न होती है...”\"},{\"location\":\"source.html / translation.html, उद्धाऊ पुत्र के पिता का वर्णन\",\"severity\":\"major\",\"source_quote\":\"“...he knew that his son had failed him and gone far from what he knew was right...”\",\"suggested_fix\":\"“पिता जानता था कि उसके बेटे ने उसे निराश किया था और उस बात से बहुत दूर चला गया था जिसे वह सही जानता था...”\",\"translation_quote\":\"“वह जानता था कि उसके बेटे ने उसे निराश किया था और उस सही मार्ग से बहुत दूर चला गया था जिसे वह जानता था...”\"},{\"location\":\"source.html / translation.html, “Small Efforts Do Make a Difference” अनुभाग, सर्जन वाला वाक्य\",\"severity\":\"major\",\"source_quote\":\"“...taking out (or off) the offending body part.”\",\"suggested_fix\":\"“...समस्या पैदा करने वाले अंग को निकालकर (या काटकर)।”\",\"translation_quote\":\"“...समस्या पैदा करने वाले अंग को निकालकर।”\"},{\"location\":\"source.html / translation.html, समापन का गीत-उद्धरण\",\"severity\":\"major\",\"source_quote\":\"“Oh to have no hope in Jesus, how dark this world must be!”\",\"suggested_fix\":\"उद्धरण का आशय सुरक्षित रखते हुए अनुवाद करें, उदाहरण के लिए: “ओह, यीशु में कोई आशा न हो—तब यह संसार कितना अँधकारमय होगा!”\",\"translation_quote\":\"“यीशु में आशा न हो तो यह संसार कितना अँधकारमय होगा!”\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 3330,
+    "content_evidence_truncated": false,
+    "content_sha256": "5e18c3ff3ce8af301904a6ebe355a38358f31aa5a16498897a6c9da4e1d9ce5e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 546,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9827,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9824,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10373
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 7\",\"severity\":\"minor\",\"source_quote\":\"He breathed the rich air\",\"suggested_fix\":\"Replace “समृद्ध हवा” with a natural Hindi rendering such as “उसने ताज़ी, सोंधी हवा में साँस ली”\",\"translation_quote\":\"उसने समृद्ध हवा में सांस ली\"},{\"location\":\"HTML paragraph 9\",\"severity\":\"minor\",\"source_quote\":\"The heap’s face was lit in pain.\",\"suggested_fix\":\"Replace “दर्द से दमक रहा था” with “उसके चेहरे पर दर्द झलक रहा था”\",\"translation_quote\":\"उस गठरी का चेहरा दर्द से दमक रहा था।\"},{\"location\":\"HTML paragraph 9\",\"severity\":\"minor\",\"source_quote\":\"seeing Kenny scrunched in the dirt\",\"suggested_fix\":\"Replace “मिट्टी में गड़ा” with “मिट्टी में सिकुड़ा पड़ा”\",\"translation_quote\":\"जैमिन को केनी को मिट्टी में गड़ा देख कर अजीब सा लगा।\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1211,
+    "content_evidence_truncated": false,
+    "content_sha256": "df199e38476a5b01549f11a4e3250f7d236afa110b49524fc6b90cde61a005c5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 834,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 597,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3586,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3583,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4420
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

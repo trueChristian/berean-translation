@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, alinea over de terugweg door het bos",
+      "severity": "major",
+      "source_quote": "“Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.”",
+      "suggested_fix": "Vervang de passage door: “Jamin riep terug, en zijn vader stond even later naast hen. Toen hij de enkel zag, tilde hij Kenny op als een gewond schaap.”",
+      "translation_quote": "“Jamin riep terug, en even later stond zijn vader naast hen. Hij zag Kennys enkel en tilde hem op als een gewond schaap.”"
+    },
+    {
+      "location": "HTML, alinea over Jamin die Kenny zoekt",
+      "severity": "minor",
+      "source_quote": "“He breathed the rich air”",
+      "suggested_fix": "Vertaal dit als “Hij ademde de rijke lucht in” of natuurlijker “Hij ademde de volle boslucht in.”",
+      "translation_quote": "“Hij ademde de rijke lucht in”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

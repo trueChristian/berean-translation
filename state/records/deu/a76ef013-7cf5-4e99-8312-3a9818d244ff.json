@@ -18,26 +18,32 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "ccc0536af0ec51d3d929937b59699c86"
+    },
+    {
+      "at": "2026-10-03T21:32:41+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "ccc0536af0ec51d3d929937b59699c86"
     }
   ],
   "language": "deu",
   "latest_task": "ccc0536af0ec51d3d929937b59699c86",
   "published": {
     "html_path": "content/deu/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
-    "html_sha256": "723294fc5b3c2e52a000f88b6f9d8460dd71b2f08ff5b5cd40026385bbffc52a",
+    "html_sha256": "5b096e8a27b0424250caaca1cfdbf8db3a1db2e1eb417c257313b54797369f56",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
     "metadata_path": "content/deu/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
-    "metadata_sha256": "18bd6e5f0d93a99ec75e096ff27b636edf602c034a94c1b6371ae22af6b7b1dc",
-    "model": "gpt-5-mini-2025-08-07",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"de\" dir=\"ltr\" role=\"note\">\n  <p>Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: gpt-5-mini-2025-08-07) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran. <a href=\"/en/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff/\" data-source-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\" hreflang=\"en\">Englisches Original</a></p>\n</aside>",
-    "published_at": "2026-10-02T00:07:41+00:00",
-    "quality_score": 98,
-    "review_model": "gpt-5-mini-2025-08-07",
-    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
-    "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
-    "task": "e7ab43fb4468328358bc535b6a405075",
+    "metadata_sha256": "bbc54cba2a70a72492e20f6e47d9ee051da7de4df9548e59948291199c52a6a0",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"de\" dir=\"ltr\" role=\"note\">\n  <p>Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: gpt-6-luna) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran. <a href=\"/en/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff/\" data-source-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\" hreflang=\"en\">Englisches Original</a></p>\n</aside>",
+    "published_at": "2026-10-03T21:32:41+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
+    "task": "ccc0536af0ec51d3d929937b59699c86",
     "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1"
   }
 }

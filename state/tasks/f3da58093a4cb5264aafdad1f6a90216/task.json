@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "0e59ca513bd37cf669f4747e3959ebad95d6c077d72f83219b1fe3244f5356dc",
   "base_metadata_sha256": "46690f078460106c70d7c5bb30aa5f26f1c8f05303b4e16c37fb84e719423cc4",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,25 +44,54 @@
         },
         "total_tokens": 7367
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Body, paragraph beginning “Sometimes this type of overload…”",
-      "severity": "major",
-      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
-      "suggested_fix": "Replace «ہمارے سادہ طرزِ زندگی رکھنے والے مسیحی حلقوں» with «ہمارے اَنابپتست (Plain) حلقوں» to retain the source’s reference to Plain communities; the phrase «سادہ طرزِ زندگی رکھنے والے» changes the community designation.",
-      "translation_quote": "ہمارے سادہ طرزِ زندگی رکھنے والے مسیحی حلقوں میں صدمہ انگیز واقعات کے لیے عموماً دعائیں کی جاتی ہیں، مالی مدد دی جاتی ہے اور بجٹ کی ہفتہ وار تازہ صورتِ حال بتائی جاتی ہے۔"
     },
     {
-      "location": "Final paragraph, Scripture quotation (Psalm 71:1)",
-      "severity": "major",
-      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
-      "suggested_fix": "Translate the printed quotation’s request not to be put to confusion, for example: «اے خداوند، میں تجھ پر بھروسا رکھتا ہوں؛ مجھے کبھی پریشان نہ ہونے دے» (زبور 71:1).",
-      "translation_quote": "”اے خداوند، میں تجھ پر بھروسا رکھتا ہوں؛ مجھے کبھی شرمندہ نہ ہونے دے“ (زبور 71:1)۔"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 486,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4581,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4578,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5067
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Then he was elected…”",
+      "severity": "major",
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+      "suggested_fix": "Replace the opening of the translated paragraph with: ”پھر اُنہیں بلغاریہ میں کچھ وقت گزارنے والے ایک بھائی کی سیکرٹری کی ذمہ داریوں کے آخری چار ماہ پورے کرنے کے لیے چُن لیا گیا۔“ Keep the remainder of the paragraph unchanged.",
+      "translation_quote": "”پھر اُنہیں ایک ایسے بھائی کی سیکرٹری کی ذمہ داریوں کے باقی چار ماہ پورے کرنے کے لیے منتخب کیا گیا جو کچھ وقت بلغاریہ میں گزارنے گئے تھے۔“"
+    },
+    {
+      "location": "source.html, paragraph beginning “Sometimes this type of overload…”",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "Replace the first two sentences of the translated paragraph with: ”ہمارے امیش (Plain) حلقوں میں صدمہ انگیز واقعات پر عموماً دعائیں کی جاتی ہیں، مالی مدد دی جاتی ہے اور ہفتہ وار بجٹ کی تازہ صورتِ حال بتائی جاتی ہے۔“",
+      "translation_quote": "”ہمارے اَنابپتست (Plain) حلقوں میں صدمہ انگیز واقعات کے لیے عموماً دعائیں کی جاتی ہیں، مالی مدد دی جاتی ہے اور بجٹ کی ہفتہ وار تازہ صورتِ حال بتائی جاتی ہے۔“"
+    },
+    {
+      "location": "source.html, final paragraph, Psalm 71:1 quotation",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "Translate the quoted wording as printed, preserving the reference: ”اے خداوند، میں تجھ پر بھروسا رکھتا ہوں؛ مجھے کبھی شرمندہ نہ ہونے دے“ (زبور 71:1)۔",
+      "translation_quote": "”اے خداوند، میں تجھ پر بھروسا رکھتا ہوں؛ مجھے کبھی پریشان نہ ہونے دے“ (زبور 71:1)۔"
+    }
+  ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "f3da58093a4cb5264aafdad1f6a90216",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "urd",
@@ -152,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-6-luna"

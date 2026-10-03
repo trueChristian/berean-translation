@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c836cb6a-0d7d-4829-8228-f3c8f552f5b1",
+    "response_id": "chatcmpl-EV1SXRC6v7E7pSUUQDRvhxAmuDJuC",
+    "usage": {
+      "completion_tokens": 627,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4019,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4016,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4646
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “That was the straw that broke the camel’s back”",
+        "severity": "major",
+        "source_quote": "“That was the straw that broke the camel’s back,” Becky said.",
+        "suggested_fix": "Ganti kalimat itu dengan: “Itulah beban terakhir yang membuatnya tak sanggup lagi,” kata Becky.",
+        "translation_quote": "“Itulah yang membuat semuanya menjadi berantakan,” kata Becky."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

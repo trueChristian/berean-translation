@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9483c70c-f216-492c-a65e-362e1669a8ba",
+    "response_id": "chatcmpl-EV1Se4ImxNRaApWEvNe6T2mqlHhub",
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 619,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3204,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4025
+    }
+  },
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, second paragraph",
+        "severity": "minor",
+        "source_quote": "“workshops on how to write to communicate”",
+        "suggested_fix": "Replace “בכתיבה תקשורתית” with “בכתיבה שמטרתה לתקשר” to preserve the meaning of writing in order to communicate.",
+        "translation_quote": "“בסדנאות מעוררות השראה ומעשירות, שעסקו בכתיבה תקשורתית”"
+      },
+      {
+        "location": "source.html, third paragraph",
+        "severity": "minor",
+        "source_quote": "“with caution, correction, and edification”",
+        "suggested_fix": "Replace “בעידוד” with “בבניין רוחני” or another natural Hebrew rendering that conveys edification, not simply encouragement.",
+        "translation_quote": "“בזהירות, בתיקון ובעידוד”"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

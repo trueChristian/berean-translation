@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "497026db430a6cc7ba0e47af0cde2813a9d5210a322f7d70c626f09cfe49cc5e",
   "base_metadata_sha256": "8b3762f8f29bf1e51f2450ae075617f5d4fb5939e494db627ba5e3fdbfc3aea3",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,18 +44,54 @@
         },
         "total_tokens": 7239
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 344,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4602,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4599,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4946
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML paragraph beginning “Then he was elected…”",
+      "location": "Article body, paragraph beginning “Sometimes this type of overload…”",
       "severity": "major",
-      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
-      "suggested_fix": "এই অংশে “তাঁর সম্পাদকের দায়িত্বের শেষ চার মাসের কাজ” বদলে “তাঁর সচিবীয় দায়িত্বের শেষ চার মাসের কাজ” লিখুন।",
-      "translation_quote": "“এরপর এক বিশ্বাসী ভাই বুলগেরিয়ায় কিছু সময় কাটাতে যাওয়ায়, তাঁর সম্পাদকের দায়িত্বের শেষ চার মাসের কাজ শেষ করার জন্য রিককে নির্বাচিত করা হলো।”"
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "আমাদের plain circles-এ মর্মান্তিক ঘটনা ঘটলে সাধারণত প্রার্থনা, আর্থিক সহায়তা এবং সাপ্তাহিক বাজেটের হালনাগাদ তথ্য দেওয়া হয়।",
+      "translation_quote": "আমাদের সরল জীবনযাপনকারী খ্রিষ্টীয় সমাজে মর্মান্তিক ঘটনা ঘটলে সাধারণত প্রার্থনা, আর্থিক সহায়তা এবং সাপ্তাহিক বাজেটের হালনাগাদ তথ্য দেওয়া হয়।"
+    },
+    {
+      "location": "Article body, final paragraph",
+      "severity": "major",
+      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
+      "suggested_fix": "“হে সদাপ্রভু, তোমাতেই আমি আস্থা রাখি; আমাকে কখনো লজ্জিত হতে দিয়ো না” (গীতসংহিতা 71:1)।",
+      "translation_quote": "“হে সদাপ্রভু, তোমাতেই আমি আস্থা রাখি: আমাকে কখনো বিভ্রান্তিতে পড়তে দিয়ো না” (গীতসংহিতা 71:1)."
+    },
+    {
+      "location": "Article title",
+      "severity": "minor",
+      "source_quote": "Circumstantial Overload",
+      "suggested_fix": "পরিস্থিতিজনিত অতিরিক্ত চাপ",
+      "translation_quote": "পরিস্থিতির কারণে অতিরিক্ত চাপ"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "cb05230c4ba4110faebc9ac164724e8b",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -145,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-6-luna"

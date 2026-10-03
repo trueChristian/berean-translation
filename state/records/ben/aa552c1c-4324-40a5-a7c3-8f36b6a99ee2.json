@@ -18,26 +18,32 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "842face17deceb3432bac102caa9ae5c"
+    },
+    {
+      "at": "2026-10-03T21:32:39+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "842face17deceb3432bac102caa9ae5c"
     }
   ],
   "language": "ben",
   "latest_task": "842face17deceb3432bac102caa9ae5c",
   "published": {
     "html_path": "content/ben/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
-    "html_sha256": "8bef94f0c45ef22f3e678704a70eadfdc05722777569b6b0c1ead04bb5bafad5",
+    "html_sha256": "aefe2a5dbb68b20af3168239d067f1bdca4995a634cdcd218368d5151dae816a",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
     "metadata_path": "content/ben/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
     "metadata_sha256": "28997cc858a5c49598f371e56a278745442cb313b4d2d2415b617e8247924c2f",
-    "model": "gpt-5-mini-2025-08-07",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"bn\" dir=\"ltr\" role=\"note\">\n  <p>এই নিবন্ধটি OpenAI (মডেল: gpt-5-mini-2025-08-07) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন। <a href=\"/en/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2/\" data-source-article-id=\"aa552c1c-4324-40a5-a7c3-8f36b6a99ee2\" hreflang=\"en\">মূল ইংরেজি পাঠ</a></p>\n</aside>",
-    "published_at": "2026-10-01T20:28:11+00:00",
-    "quality_score": 96,
-    "review_model": "gpt-5-mini-2025-08-07",
-    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
-    "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
-    "task": "90388cc088c3daa767517e30726402bf",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"bn\" dir=\"ltr\" role=\"note\">\n  <p>এই নিবন্ধটি OpenAI (মডেল: gpt-6-luna) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন। <a href=\"/en/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2/\" data-source-article-id=\"aa552c1c-4324-40a5-a7c3-8f36b6a99ee2\" hreflang=\"en\">মূল ইংরেজি পাঠ</a></p>\n</aside>",
+    "published_at": "2026-10-03T21:32:39+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
+    "task": "842face17deceb3432bac102caa9ae5c",
     "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985"
   }
 }

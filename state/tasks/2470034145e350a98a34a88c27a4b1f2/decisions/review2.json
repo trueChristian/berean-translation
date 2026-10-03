@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "פסקה על ניסיונו של ניוטון להנהיג מנהגים נוצריים בספינת העבדים",
+      "severity": "minor",
+      "source_quote": "“John endeavored to ‘Christianize’ his slave ship by holding Sunday services for his crew of 30 sin-hardened men.”",
+      "suggested_fix": "החליפו את ״קיום תפילות יום ראשון״ ב״קיום תפילות יום ראשון בצוותו״ או, באופן מדויק יותר, ״קיום טקסי תפילה ביום ראשון לצוותו״; ״תפילות״ בלבד מצמצם את המשמעות של Sunday services.",
+      "translation_quote": "ג'ון השתדל ״להפוך לנוצרית״ את ספינת העבדים שלו באמצעות קיום תפילות יום ראשון לצוותו, שכלל 30 גברים שהחטא הקשיח את לבם."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

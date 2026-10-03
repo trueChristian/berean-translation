@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6954c5b9-0825-4438-8a84-f78e8192d60b",
+    "response_id": "chatcmpl-EV1T6bCm2taZbVBfXeSp63gS5iTaC",
+    "usage": {
+      "completion_tokens": 1069,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 742,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6723,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6720,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7792
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second paragraph",
+        "severity": "major",
+        "source_quote": "“these vessels of grace and beauty”",
+        "suggested_fix": "Erstatt «disse karene av nåde og skjønnhet» med «disse redskapene for nåde og skjønnhet»",
+        "translation_quote": "«disse karene av nåde og skjønnhet»"
+      },
+      {
+        "location": "HTML, femte avsnitt",
+        "severity": "major",
+        "source_quote": "“the song sparrow and again by the rose-breasted grosbeak”",
+        "suggested_fix": "Erstatt «sangspurvens, og deretter av rosebrystet kardinalens» med en korrekt norsk betegnelse for sangspurven og rose-breasted grosbeak; ikke oversett sistnevnte som en kardinal.",
+        "translation_quote": "«sangspurvens, og deretter av rosebrystet kardinalens»"
+      },
+      {
+        "location": "HTML, femte avsnitt",
+        "severity": "minor",
+        "source_quote": "“The buntings fill in the heat of the day when other birds are silent.”",
+        "suggested_fix": "Bruk en naturlig norsk betegnelse for buntings i stedet for «buntingsangerne», for eksempel «spurvefuglene» dersom det passer med den tilsiktede fuglegruppen.",
+        "translation_quote": "«Buntingsangerne fyller den varme delen av dagen med sang når andre fugler tier.»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

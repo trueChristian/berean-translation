@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, Psalm 71:1 quotation\",\"severity\":\"major\",\"source_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\"suggested_fix\":\"Translate the quotation faithfully, preserving its printed meaning of asking not to be put to confusion. For example: “Op U, HERE, vertrou ek; laat my nooit in verwarring kom nie” (Psalm 71:1).\",\"translation_quote\":\"“Op U, HERE, vertrou ek; laat my nooit beskaamd staan nie” (Psalm 71:1).\"},{\"location\":\"Section title\",\"severity\":\"minor\",\"source_quote\":\"SISTER TO SISTER\",\"suggested_fix\":\"Use the established Afrikaans expression “VAN SUSTER TOT SUSTER” to preserve the heading’s meaning.\",\"translation_quote\":\"SUSTER AAN SUSTER\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 779,
+    "content_evidence_truncated": false,
+    "content_sha256": "d9937e928b883f8de0bc6db5676d0ebe488af25b0028b3b6c8352c6e64588b84",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 205,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4204,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4201,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4409
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

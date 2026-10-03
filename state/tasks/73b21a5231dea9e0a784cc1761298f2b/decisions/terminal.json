@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "মূল প্রবন্ধ, রোমীয় 1:18–32 উদ্ধৃতি",
+      "severity": "major",
+      "source_quote": "“...who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; ... Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32).",
+      "suggested_fix": "উদ্ধৃতিটি সম্পূর্ণ ও বিশ্বস্তভাবে অনুবাদ করুন। বিশেষ করে শেষে “যারা এসব কাজ করে তারা মৃত্যুর যোগ্য—এ কথা তারা জানে” অংশটি অনুবাদে যোগ করুন; উদ্ধৃতির অন্যান্য বাদ পড়া অর্থও পুনঃস্থাপন করুন। রেফারেন্সটি প্রচলিত বাংলা রূপে লিখুন: “(রোমীয় 1:18-32)”।",
+      "translation_quote": "“...যারা অন্যায়ের দ্বারা সত্যকে দমন করে। ঈশ্বর সম্বন্ধে যা জানা যায়, তা তাদের কাছে প্রকাশিত... তারা ঈশ্বরের বিধান জানে যে, যারা এসব কাজ করে তারা মৃত্যুর যোগ্য; তবু তারা শুধু নিজেরাই এসব কাজ করে না, যারা এসব করে তাদের পক্ষেও আনন্দ করে।” (রোমীয় 1:18-32)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

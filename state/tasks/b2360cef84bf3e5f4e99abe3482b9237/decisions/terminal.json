@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "المتن، الفقرة التي تبدأ بـ«الخطية»",
+      "severity": "major",
+      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
+      "suggested_fix": "في الاقتباس العربي، استبدل «مَحبسًا لكل روح نجس» بما يحافظ على معنى “the hold of every foul spirit”، مثل «مأوى لكل روح نجس»، من دون تغيير المرجع أو بنية HTML.",
+      "translation_quote": "«سقطت، سقطت بابل العظيمة، وصارت مسكنًا للشياطين، ومحبسًا لكل روح نجس، وقفصًا لكل طائر نجس ومكروه» (الرؤيا 18:2)."
+    },
+    {
+      "location": "المتن، الفقرة التي تبدأ بـ«الإهمال»",
+      "severity": "major",
+      "source_quote": "“These are stopped-up wells like unto the wells that Isaac found upon his return to Gerar.”",
+      "suggested_fix": "استبدل «وهذه آبار مسدودة» بـ«وهذه آبار مطمومة» أو صياغة عربية أخرى تفيد أن الآبار سُدّت أو رُدمت، لا أنها مسدودة فحسب.",
+      "translation_quote": "«وهذه آبار مسدودة، كالآبار التي وجدها إسحاق عند عودته إلى جرار.»"
+    },
+    {
+      "location": "المتن، الفقرة التي تبدأ بـ«الإهمال»",
+      "severity": "major",
+      "source_quote": "“So run the spiritually neglected homes of many families today, who pack their schedules so full of earthly commitments that they have no time to spend an hour in song together.”",
+      "suggested_fix": "صحّح الجملة لتوضح أن الأسر تحشو جداولها بالالتزامات الأرضية حتى لا يبقى لديها وقت لتقضي ساعة في الغناء معًا؛ مثل: «وهكذا حال بيوت كثيرة أُهملت روحيًا اليوم؛ إذ تحشو الأسر جداولها بالالتزامات الأرضية إلى حد لا يبقى معه لديها وقت لتقضي ساعة في الغناء معًا.»",
+      "translation_quote": "«وهكذا تسير البيوت المهملة روحيًا لكثير من الأسر اليوم، التي تحشو جداولها بالتزامات أرضية إلى حد لا يبقى معه وقت يقضون فيه ساعة يغنون معًا.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

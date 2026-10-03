@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Первый абзац",
+      "severity": "major",
+      "source_quote": "Each of these bears a significant dimension of the eternal God in their existence and gives us definition to their Creator.",
+      "suggested_fix": "Заменить «даёт нам определение их Творца» на «помогает нам понять, каким является их Творец» или другую формулировку, передающую мысль, что эти создания раскрывают нам своего Творца.",
+      "translation_quote": "Каждое из этих созданий несёт в своём бытии значимую грань вечного Бога и даёт нам определение их Творца."
+    },
+    {
+      "location": "Раздел «Пренебрежение»",
+      "severity": "minor",
+      "source_quote": "She will be found sitting on a high vantage",
+      "suggested_fix": "Заменить «на высокой вышке» на «на возвышенном месте» или «на высоком насесте», чтобы не добавлять отсутствующую в оригинале вышку.",
+      "translation_quote": "Её можно найти на высокой вышке"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

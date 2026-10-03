@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5b4575ce-3372-45b2-91c7-bd519c26a3e3",
+    "response_id": "chatcmpl-EV1SXSrRwFz6HyrtXmTaZfNdqWOsp",
+    "usage": {
+      "completion_tokens": 927,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 690,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12486,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12483,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13413
+    }
+  },
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 2, paragraph about glued wood panels",
+        "severity": "major",
+        "source_quote": "The only way to tear them apart is by splintering and ripping and God does not bless that.",
+        "suggested_fix": "Endre den aktuelle avslutningen til «Den eneste måten å rive dem fra hverandre på er å flise dem opp og rive dem fra hverandre, og Gud velsigner ikke dette.»",
+        "translation_quote": "Den eneste måten å rive dem fra hverandre på er å flise dem opp og rive dem fra hverandre, og det velsigner ikke Gud."
+      },
+      {
+        "location": "HTML, section 7, first paragraph quoting Ephesians 5:21",
+        "severity": "major",
+        "source_quote": "Submitting yourselves one to another in the fear of God.",
+        "suggested_fix": "Endre sitatet til «Underordne dere under hverandre i gudsfrykt.»",
+        "translation_quote": "Underordne dere under hverandre i ærefrykt for Kristus."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

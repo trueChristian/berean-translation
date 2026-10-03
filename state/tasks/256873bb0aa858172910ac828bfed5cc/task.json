@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": "c04ab8379411693bc5e7fe042d3d160fdcda583d46a5e8a63d889767d8e96649",
   "base_metadata_sha256": "37d4fb71b88a7c456b5953040d881027a8c83215ed79401e6df3c53941b73b09",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,60 +44,61 @@
         },
         "total_tokens": 10970
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 422,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6788,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6785,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7210
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraf kutipan Roma 1:18–32",
+      "location": "source.html, paragraph beginning “The Christian does not believe in human reasoning.”",
       "severity": "major",
-      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ... Because that, when they knew God, they glorified him not as God, neither were thankful; ...” (Romans 1:18-32)",
-      "suggested_fix": "Terjemahkan ulang kutipan ini dengan mempertahankan seluruh makna dan susunan isinya, termasuk bagian “ketika mereka mengenal Allah, mereka tidak memuliakan Dia sebagai Allah dan tidak bersyukur.” Betulkan juga frasa salah ketik “Karena mengetahuan mereka tentang Allah” dan gunakan bentuk Indonesia untuk nama kitab pada referensi, dengan nomor tetap Roma 1:18-32.",
-      "translation_quote": "“Sebab murka Allah nyata dari sorga atas segala kefasikan dan kelaliman manusia yang menahan kebenaran dalam kelaliman mereka; ... Karena mengetahuan mereka tentang Allah tidak membawa mereka memuliakan Dia sebagai Allah, ataupun berterima kasih, ...” (Romans 1:18-32)"
+      "source_quote": "The Christian does not believe in human reasoning.",
+      "suggested_fix": "Change the sentence to: “Orang Kristen tidak percaya pada penalaran manusia.”",
+      "translation_quote": "Orang Kristen tidak mengandalkan penalaran manusia."
     },
     {
-      "location": "Paragraf yang dimulai “Jadi bagaimana seseorang bisa menjadi humanis...”",
+      "location": "source.html, paragraph beginning “It can be extremely difficult to seek the Lord…”",
       "severity": "major",
-      "source_quote": "“This is where we hit a little closer to home.”",
-      "suggested_fix": "Ganti idiom yang diterjemahkan harfiah dengan ungkapan Indonesia yang menyampaikan bahwa pembahasan mulai terasa lebih dekat dengan kehidupan atau keadaan kita sendiri.",
-      "translation_quote": "“Di sinilah kita menyentuh sesuatu yang lebih dekat dengan rumah.”"
+      "source_quote": "seek the Lord",
+      "suggested_fix": "Change “mencari Tuhan” to “mencari Allah” to match the article’s established reference to God.",
+      "translation_quote": "mencari Tuhan"
     },
     {
-      "location": "Paragraf yang dimulai “Aku khawatir...”",
+      "location": "source.html, paragraph beginning “Christians believe they are merely servants…”",
       "severity": "major",
-      "source_quote": "“We talk the talk; we say we believe in God.”",
-      "suggested_fix": "Terjemahkan idiom tersebut sebagai mengatakan atau mengaku percaya tanpa mengamalkannya, misalnya “Kita hanya berkata-kata; kita mengatakan bahwa kita percaya kepada Tuhan.”",
-      "translation_quote": "“Kita berbicara sesuai kata-kata; kita mengatakan kita percaya kepada Tuhan.”"
+      "source_quote": "They are hated by the world and despised by most, rejected.",
+      "suggested_fix": "Revise the clause to preserve the source’s three claims, for example: “Mereka dibenci oleh dunia, dipandang rendah oleh kebanyakan orang, dan ditolak.”",
+      "translation_quote": "Mereka dibenci oleh dunia, dipandang rendah oleh kebanyakan orang, dan ditolak."
     },
     {
-      "location": "Paragraf yang dimulai “Aku khawatir...”",
+      "location": "source.html, Romans 1:18–32 quotation",
       "severity": "major",
-      "source_quote": "“the time on our knees is a struggle at best.”",
-      "suggested_fix": "Sampaikan bahwa waktu berlutut dalam doa paling-paling terasa sebagai perjuangan yang berat; jangan gunakan ungkapan literal “waktu di lutut.”",
-      "translation_quote": "“waktu di lutut kita adalah perjuangan paling baik.”"
-    },
-    {
-      "location": "Paragraf yang dimulai “Orang Kristen percaya mereka hanyalah hamba...”",
-      "severity": "major",
-      "source_quote": "“They are hated by the world and despised by most, rejected.”",
-      "suggested_fix": "Ubah bagian ini agar jelas menyatakan bahwa mereka dibenci dunia, dipandang rendah oleh kebanyakan orang, dan ditolak.",
-      "translation_quote": "“Mereka dibenci oleh dunia dan dipandang rendah oleh kebanyakan orang, ditolak.”"
-    },
-    {
-      "location": "Referensi kutipan dalam paragraf yang dimulai “Orang Kristen percaya mereka hanyalah hamba...”",
-      "severity": "major",
-      "source_quote": "“(John 15:18)”",
-      "suggested_fix": "Gunakan nama kitab dalam bentuk Indonesia dan pertahankan nomor pasal serta ayat persis: “(Yohanes 15:18)”.",
-      "translation_quote": "“(John 15:18)”"
-    },
-    {
-      "location": "Referensi kutipan dalam paragraf tentang orang Kristen dan penalaran manusia",
-      "severity": "major",
-      "source_quote": "“(Colossians 1:16)”",
-      "suggested_fix": "Gunakan nama kitab dalam bentuk Indonesia dan pertahankan nomor pasal serta ayat persis: “(Kolose 1:16)”.",
-      "translation_quote": "“(Colossians 1:16)”"
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness;”",
+      "suggested_fix": "Translate the quoted passage faithfully, including the source’s wording about people who “hold the truth in unrighteousness”; revise the opening to something like: “Sebab murka Allah dinyatakan dari surga terhadap segala kefasikan dan ketidakbenaran manusia yang menindas kebenaran dengan ketidakbenaran;”",
+      "translation_quote": "“Sebab murka Allah dinyatakan dari surga terhadap segala kefasikan dan kelaliman manusia yang menindas kebenaran dengan kelaliman;"
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "256873bb0aa858172910ac828bfed5cc",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ind",
@@ -187,13 +187,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73ffad35e60323218112f91b03e6a992fcbade0106463ff2ccfcd441d944684a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": "78139cfdb879dc6323f5ebf439d6089256a0f0fd6b4141b8bd2c6d9aaf69444f",
   "base_metadata_sha256": "48b37859646f69ee8b014e4a41c60bc5958bb2c464cce4df5474bd7fbef882a5",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,74 +44,47 @@
         },
         "total_tokens": 14539
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 827,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 599,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8833,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8830,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9660
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Cita bíblica en «El cinismo en la Biblia», párrafo que comienza «En el capítulo 2:17-23»",
+      "location": "Primeros párrafos, respuesta del marido de Elsie",
       "severity": "major",
-      "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
-      "suggested_fix": "Sustituir la cita en inglés por una traducción fiel al español del texto impreso, por ejemplo: «¿Qué obtiene el hombre de todo su trabajo y de la aflicción de su corazón, con que se afana bajo el sol? Porque todos sus días son dolores, y su tarea, pesar; aun de noche su corazón no descansa. Esto también es vanidad». Mantener la referencia y los números sin cambios; usar la forma convencional del libro: «(Eclesiastés 2:22,23)».",
-      "translation_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)"
+      "source_quote": "“It’s her drinking!”",
+      "suggested_fix": "Sustituir por: “¡Es que está bebiendo!”",
+      "translation_quote": "“¡Es su bebida!”"
     },
     {
-      "location": "Cita bíblica en «El cinismo en la Biblia», párrafo que comienza «Vio el mundo dominado por tiranos»",
+      "location": "Sección «El cinismo en la Biblia», cita de Eclesiastés 4:13",
       "severity": "major",
-      "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
-      "suggested_fix": "Traducir la cita al español, por ejemplo: «Mejor es un niño pobre y sabio que un rey viejo y necio que ya no admite consejos. Pues sale de la cárcel para reinar, aunque nació pobre en su reino». Conservar el número de referencia y usar la forma convencional «Eclesiastés».",
-      "translation_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13)."
-    },
-    {
-      "location": "Cita bíblica en «El cinismo en la Biblia», párrafo que comienza «En Eclesiastés 6:6»",
-      "severity": "major",
-      "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
-      "suggested_fix": "Traducir la cita al español, por ejemplo: «Aunque viva dos veces mil años, no habrá visto nada bueno; ¿acaso no van todos al mismo lugar?».",
-      "translation_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”"
-    },
-    {
-      "location": "Cita bíblica en «El cinismo en la Biblia», párrafo que comienza «Más adelante»",
-      "severity": "major",
-      "source_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).",
-      "suggested_fix": "Traducir la cita al español, por ejemplo: «Por tanto, les dirás todas estas palabras, pero no te escucharán; también los llamarás, pero no te responderán». Mantener el número de referencia y usar la forma convencional «Jeremías».",
-      "translation_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27)."
-    },
-    {
-      "location": "Cita bíblica en «El cinismo en la Biblia», párrafo que comienza «Incluso en el Nuevo Testamento»",
-      "severity": "major",
-      "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
-      "suggested_fix": "Traducir la cita al español, por ejemplo: «Porque vendrá el tiempo en que no soportarán la sana doctrina, sino que, conforme a sus propios deseos, se rodearán de maestros que les digan lo que quieren oír». Conservar el número de referencia y usar la forma convencional «2 Timoteo».",
-      "translation_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3)."
-    },
-    {
-      "location": "Lema citado en «Busca esperanza en los lugares correctos»",
-      "severity": "major",
-      "source_quote": "“Hope and Change,”",
-      "suggested_fix": "Traducir el lema al español, por ejemplo: «Esperanza y cambio», conservando las comillas.",
-      "translation_quote": "“Hope and Change,”"
-    },
-    {
-      "location": "Cita bíblica en «Busca esperanza en los lugares correctos», párrafo que comienza «Esto fue lo que hizo»",
-      "severity": "major",
-      "source_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
-      "suggested_fix": "Traducir la cita al español, por ejemplo: «Todas estas cosas te daré si te postras y me adoras». Mantener el número de referencia y usar la forma convencional «Mateo».",
-      "translation_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8)."
-    },
-    {
-      "location": "Cita bíblica en «Los pequeños esfuerzos sí hacen una diferencia», párrafo que comienza «Más que eso»",
-      "severity": "major",
-      "source_quote": "“the least of these my brethren,”",
-      "suggested_fix": "Traducir la cita al español, por ejemplo: «a uno de estos mis hermanos más pequeños», conservando las comillas.",
-      "translation_quote": "“the least of these my brethren,”"
-    },
-    {
-      "location": "Cita de la canción en «Conclusión», segundo párrafo",
-      "severity": "major",
-      "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
-      "suggested_fix": "Traducir la cita al español, por ejemplo: «¡Oh, qué oscuro debe ser este mundo cuando no se tiene esperanza en Jesús!», conservando las comillas.",
-      "translation_quote": "“Oh to have no hope in Jesus, how dark this world must be!”"
+      "source_quote": "“For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor”",
+      "suggested_fix": "Corregir solo la parte final de la cita: “Pues sale de la cárcel para reinar, mientras que también el que nació en su reino llega a ser pobre” (Eclesiastés 4:13).",
+      "translation_quote": "“Pues sale de la cárcel para reinar, aunque nació pobre en su reino” (Eclesiastés 4:13)."
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "858f4ba54a9bfb75b42d8d7b53d90d56",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "spa",
@@ -201,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0bb630bbebe5b6489e1904aa9ad4850dc4032d135b3d216f200c4d36001e2eeb.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-6-luna"

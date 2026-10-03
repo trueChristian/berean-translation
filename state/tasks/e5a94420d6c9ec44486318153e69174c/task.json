@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": "6390474b6f42b9a9769440c5be2cf8ab6e05c825f1f19f24f0ee91bb4e37092f",
   "base_metadata_sha256": "09b4a409351755fa29fa84a57117490b9cb6aa679259f7fe88d5f91e324a2105",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,130 +44,40 @@
         },
         "total_tokens": 12201
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 933,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 790,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7002,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6999,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7935
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "פסקה 2",
+      "location": "source.html, Romans 1:31 quotation",
       "severity": "major",
-      "source_quote": "“Some plant, some water, but God gives the increase.”",
-      "suggested_fix": "החליפו ל: \"יש שנוטעים ויש שמשקים, אך אלוהים הוא שמצמיח.\"",
-      "translation_quote": "\"חלק צמח, חלק מים, אך האל נותן את ההגדלה.\""
-    },
-    {
-      "location": "פסקה 2",
-      "severity": "major",
-      "source_quote": "“No, no, don’t give the credit to God.”",
-      "suggested_fix": "החליפו ל: \"לא, לא, אל תייחסו את הקרדיט לאלוהים.\"",
-      "translation_quote": "\"לא, לא, אל תמחו את הקרדיט לאלוהים.\""
-    },
-    {
-      "location": "פסקה 5",
-      "severity": "major",
-      "source_quote": "“Everything happens by reason and common sense.”",
-      "suggested_fix": "החליפו ל: \"הכול קורה מתוך היגיון ושכל ישר.\"",
-      "translation_quote": "הכל קורה באמצעות היגיון ובראיית העניין."
-    },
-    {
-      "location": "פסקה 7, ציטוט הרומים",
-      "severity": "critical",
-      "source_quote": "“For the wrath of God is revealed from heaven ... (Romans 1:18-32).”",
-      "suggested_fix": "תרגמו את כל הציטוט לעברית מודרנית, תוך שימור משמעותו והייחוסים שבו, והשאירו את ההפניה המדויקת לרומים א׳ 18–32. אין להשאיר את הפרוזה המצוטטת באנגלית.",
-      "translation_quote": "הציטוט כולו מופיע באנגלית: “For the wrath of God is revealed from heaven ...” (Romans 1:18-32)."
-    },
-    {
-      "location": "פסקה 8",
-      "severity": "major",
-      "source_quote": "“If he needs money, he goes to the banker.”",
-      "suggested_fix": "החליפו ל: \"אם הוא צריך כסף, הוא פונה לבנקאי.\"",
-      "translation_quote": "אם הוא צריך כסף — הוא הולך לבנקאי."
-    },
-    {
-      "location": "פסקה 9",
-      "severity": "major",
-      "source_quote": "“He waters and fertilizes weeds and prunes.”",
-      "suggested_fix": "החליפו ל: \"הוא משקה, מדשן, מעשב וגוזם.\"",
-      "translation_quote": "הוא השקיה ודישון, הוצאת עשבים ותגמול."
-    },
-    {
-      "location": "פסקה 9",
-      "severity": "major",
-      "source_quote": "“his plants all begin to bear fruit, nice fruit.”",
-      "suggested_fix": "החליפו ל: \"לבסוף, כל צמחיו מתחילים להניב פרי, פרי נאה.\"",
-      "translation_quote": "בסופו של דבר, צמיחתו של הגן נשאה פרי רב, פרי נאה."
-    },
-    {
-      "location": "פסקה 9",
-      "severity": "major",
-      "source_quote": "“he actually did need God to grow his garden.”",
-      "suggested_fix": "החליפו ל: \"ושהוא אכן היה זקוק לאלוהים כדי שגנו יצמח.\"",
-      "translation_quote": "ושבאמת הוא היה זקוק לאלוהים כדי לצמוח את גנו."
-    },
-    {
-      "location": "פסקה 10",
-      "severity": "major",
-      "source_quote": "“unbelievers”",
-      "suggested_fix": "החליפו ל: \"לגרום ללא-מאמינים ללעוג לאמונה הנוצרית\".",
-      "translation_quote": "הוא גרם לאמניסטים ללעוג לאמונה הנוצרית"
-    },
-    {
-      "location": "פסקה 11, ציטוט קולוסים",
-      "severity": "critical",
-      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
-      "suggested_fix": "תרגמו את הציטוט לעברית מודרנית, בלי לשנות את תוכנו או את ההפניה, וסיימו ב: (קולוסים א׳ 16).",
-      "translation_quote": "\"For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him\" (Colossians 1:16)."
-    },
-    {
-      "location": "כותרת משנה",
-      "severity": "minor",
-      "source_quote": "MUSINGS OF A MISSIONARY",
-      "suggested_fix": "אפשר להשתמש בניסוח טבעי יותר: \"הרהורים של מיסיונר\".",
-      "translation_quote": "מחשבות של מיסיונר"
-    },
-    {
-      "location": "פסקה 16",
-      "severity": "major",
-      "source_quote": "“A minister from China was visiting the churches in America.”",
-      "suggested_fix": "החליפו ל: \"כומר מסין ביקר בכנסיות באמריקה.\"",
-      "translation_quote": "שר מטעם סין ביקר בכנסיות באמריקה."
-    },
-    {
-      "location": "פסקה 16",
-      "severity": "major",
-      "source_quote": "“what impressed him most”",
-      "suggested_fix": "החליפו ל: \"מה הרשים אותו יותר מכול בכנסיות באמריקה.\"",
-      "translation_quote": "מה הרשימה עליו הכי הרבה בכנסיות באמריקה."
-    },
-    {
-      "location": "פסקה 18",
-      "severity": "major",
-      "source_quote": "“The Christian denies himself, picks up his cross, and follows his Master.”",
-      "suggested_fix": "החליפו ל: \"הנוצרי מתכחש לעצמו, נושא את צלבו והולך בעקבות אדונו.\"",
-      "translation_quote": "הנוצרי מכחיש את עצמו, נושא את צלבו, ועוקב אחרי אדונו."
-    },
-    {
-      "location": "פסקה 19, ציטוט יוחנן",
-      "severity": "critical",
-      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
-      "suggested_fix": "תרגמו את הציטוט לעברית מודרנית, ושמרו על ההפניה המדויקת: (יוחנן 15:18).",
-      "translation_quote": "\"If the world hate you, ye know that it hated me before it hated you. (John 15:18)\""
-    },
-    {
-      "location": "פסקה 20",
-      "severity": "major",
-      "source_quote": "“who will put aside human reasoning and common sense and obey the voice from heaven.”",
-      "suggested_fix": "החליפו את המשפט ל: \"הוא מביט על פני כל הארץ ומחפש מישהו, במקום כלשהו, שיניח בצד את ההיגיון האנושי ואת השכל הישר ויציית לקול מן השמים.\"",
-      "translation_quote": "הוא מביט על כל הארץ עבור מישהו, איפשהו, שיך להניח להיגיון האנושי ולברוח מן ההיגיון הרגיל ולציית לקול מן השמים."
-    },
-    {
-      "location": "פסקה 21",
-      "severity": "critical",
-      "source_quote": "“will perish.”",
-      "suggested_fix": "החליפו ל: \"יאבדו\" או \"ימותו\"; למשל: \"ההומניסטים, בין אם יאמרו שהם מאמינים באלוהים ובין אם לאו, יאבדו.\"",
-      "translation_quote": "ההומניסטים, בין אם יאמרו שהם מאמינים באלוהים או לא, יחריבו."
+      "source_quote": "“Without understanding, covenantbreakers, without natural affection, implacable, unmerciful”",
+      "suggested_fix": "Replace the corresponding phrase with: חסרי תבונה, מפרי ברית, חסרי חיבה טבעית, בלתי מתפייסים, חסרי רחמים",
+      "translation_quote": "חסרי תבונה, מפרי ברית, חסרי חיבה טבעית, חסרי רחמים ואכזריים"
     }
   ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "e5a94420d6c9ec44486318153e69174c",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -257,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 44,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73ffad35e60323218112f91b03e6a992fcbade0106463ff2ccfcd441d944684a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-6-luna"

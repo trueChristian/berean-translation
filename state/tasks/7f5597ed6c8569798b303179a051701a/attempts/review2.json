@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"בית שלישי, שורה שלישית\",\"severity\":\"minor\",\"source_quote\":\"Bow down in awful, holy fear-\",\"suggested_fix\":\"כרעו ביראת קודש עמוקה—\",\"translation_quote\":\"כרעו ביראה קדושה ונוראה—\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 291,
+    "content_evidence_truncated": false,
+    "content_sha256": "44bc4b9a63130a19470d30d59a52da52896050d5bbe2fbd70b5b17547aad3416",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 697,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1616,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1613,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2401
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

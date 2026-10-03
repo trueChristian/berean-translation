@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, third paragraph",
+      "severity": "major",
+      "source_quote": "Youths encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+      "suggested_fix": "ایسے نوجوانوں کی، جو اپنے ساتھی نوجوانوں کو مسیح یسوع میں اعلیٰ بلاوے کے انعام کے نشان کی طرف بڑھنے کی ترغیب دیں۔",
+      "translation_quote": "ایسے نوجوانوں کی، جو اپنے ساتھی نوجوانوں کو مسیح یسوع میں اعلیٰ بلاوے کے انعام کے نشان کی طرف بڑھنے کی ترغیب دیں۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

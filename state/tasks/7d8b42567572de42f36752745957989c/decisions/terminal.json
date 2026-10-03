@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, primo paragrafo",
+      "severity": "major",
+      "source_quote": "“Doth not nature itself teach you?”",
+      "suggested_fix": "Tradurre la citazione come «La natura stessa non vi insegna?» mantenendo la struttura HTML.",
+      "translation_quote": "«La natura stessa non vi insegna?»"
+    },
+    {
+      "location": "HTML, paragrafo sulla donna al pozzo di Giacobbe",
+      "severity": "major",
+      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Rendere la citazione senza aggiungere la proposizione sulla sete, per esempio: «L’acqua che gli darò diventerà in lui una fonte d’acqua che zampilla per la vita eterna» (Giovanni 4:14).",
+      "translation_quote": "«Ma chi beve dell’acqua che io gli darò non avrà mai più sete; anzi, l’acqua che io gli darò diventerà in lui una fonte d’acqua che scaturisce in vita eterna» (Giovanni 4:14)."
+    },
+    {
+      "location": "HTML, paragrafo «Trascuratezza», citazione del Salmo 22:9",
+      "severity": "major",
+      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
+      "suggested_fix": "Ripristinare entrambe le proposizioni della citazione, per esempio: «Sei tu che mi hai tratto dal grembo; tu mi hai dato fiducia quando ero ancora al seno di mia madre» (Salmo 22:9).",
+      "translation_quote": "«Tu mi hai fatto confidare quando ero ancora al seno di mia madre» (Salmo 22:9)."
+    },
+    {
+      "location": "HTML, paragrafo finale, elenco dei nomi",
+      "severity": "minor",
+      "source_quote": "“Miriam, Deborah, and Hannah”",
+      "suggested_fix": "Usare le forme italiane convenzionali dei nomi biblici: «Maria, Debora e Anna».",
+      "translation_quote": "«Miriam, Deborah e Hannah»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

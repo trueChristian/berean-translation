@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "ادھیڑ عمر جوڑے کے بارے میں پیراگراف",
+      "severity": "major",
+      "source_quote": "“I had gone the extra mile and had really made a difference in this middle-aged couple’s life.”",
+      "suggested_fix": "اسی ساخت میں ترمیم کریں: «... اور اس ادھیڑ عمر جوڑے کی زندگی میں واقعی فرق ڈالا تھا۔» کے بجائے «... اور اس ادھیڑ عمر جوڑے کی زندگیوں میں واقعی فرق ڈالا تھا۔»",
+      "translation_quote": "اس ادھیڑ عمر جوڑے کی زندگی میں واقعی فرق ڈالا تھا۔"
+    },
+    {
+      "location": "واعظ 2:22-23 کے اقتباس کا حوالہ",
+      "severity": "major",
+      "source_quote": "(Ecclesiastes 2:22,23)",
+      "suggested_fix": "حوالے میں باب اور آیات کی اصل تعداد اور ترتیب برقرار رکھیں: «(واعظ 2:22,23)»۔",
+      "translation_quote": "(واعظ 2:22,23)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

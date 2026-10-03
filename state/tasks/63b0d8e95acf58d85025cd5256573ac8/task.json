@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "1ac4d86938860f97cc05ccf39c4beb72b4c9956afbd10fe626a1b965b9a68e29",
   "base_metadata_sha256": "354bad005b8b641c27e302cd8097cd3645c55ad999f0d352326a4f05eee0e413",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,39 +44,46 @@
         },
         "total_tokens": 6221
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 835,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 609,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3689,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3686,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4524
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "본문 3문단",
-      "severity": "major",
-      "source_quote": "Dad and Mom disliked Kenny’s proud talk and punished him whenever they walked in on one of his speeches.",
-      "suggested_fix": "아버지와 어머니는 케니의 거만한 말을 싫어했고, 케니가 그런 말을 늘어놓는 것을 듣게 될 때마다 그를 벌주었다.",
-      "translation_quote": "아버지와 어머니는 케니의 거만한 말을 달가워하지 않아 그가 잔소리를 할 때마다 그를 벌주곤 했다."
+      "location": "source.html, paragraph 9",
+      "severity": "minor",
+      "source_quote": "“As Jamin clumped into the meadow, he could see a frustrated heap to his right.”",
+      "suggested_fix": "“자민이 초원으로 덜컹거리며 들어갔을 때, 오른쪽에 고통스러운 모습으로 웅크린 형체가 보였다.”",
+      "translation_quote": "“자민이 초원으로 덜컹거리며 들어갔을 때, 오른쪽에서 좌절한 덩어리가 보였다.”"
     },
     {
-      "location": "본문 7문단",
-      "severity": "major",
-      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
-      "suggested_fix": "가을미국흰불나방 애벌레들이 활동한 흔적이 있었고, 머리 위 가지들에는 그들이 친 거미줄 같은 장막이 드리워져 있었다.",
-      "translation_quote": "가을거미들이 바쁘게 지었는지 가지 위로 그물 장막이 드리워져 있었다."
-    },
-    {
-      "location": "본문 16문단",
-      "severity": "major",
-      "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
-      "suggested_fix": "그 기묘한 작은 무리는 서둘러 집으로 돌아갔고, 아버지가 현관을 가로질러 가는 사이 방충망 문이 쾅 닫혔다.",
-      "translation_quote": "그 기묘한 작은 무리는 서둘러 집으로 돌아갔고, 문망치 소리가 현관문에 쾅 닫혔다."
-    },
-    {
-      "location": "본문 23문단",
-      "severity": "major",
-      "source_quote": "God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason.",
-      "suggested_fix": "하나님께서는 자민, 분명한 이유가 있어 너를 지금의 모습으로 만드셨단다. 케니도 분명한 이유가 있어 지금의 모습으로 만드셨지.",
-      "translation_quote": "하나님께서는 자민, 네가 지금 있는 모습대로 너를 만드셨단다. 케니도 그런 식으로 만드셨지."
+      "location": "source.html, paragraph 20",
+      "severity": "minor",
+      "source_quote": "“Grandma Otto rocked some more, then smiled.”",
+      "suggested_fix": "“오토 할머니는 잠시 더 흔들의자를 흔들다가 미소를 지었다.”",
+      "translation_quote": "“오토 할머니는 흔들다 더 흔들고는 미소지었다.”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "63b0d8e95acf58d85025cd5256573ac8",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "kor",
@@ -166,13 +172,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-6-luna"

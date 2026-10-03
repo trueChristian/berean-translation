@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph 11, description of the ground around Kenny",
+      "severity": "minor",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "کینی کے اردگرد زمین پر گہرے دھبے پھیلے ہوئے تھے۔",
+      "translation_quote": "کینی کے اردگرد زمین پر اندھیرا چھایا ہوا تھا۔"
+    },
+    {
+      "location": "Article paragraph 9, Jamin entering the meadow",
+      "severity": "minor",
+      "source_quote": "As Jamin clumped into the meadow",
+      "suggested_fix": "جب جیمِن بھاری قدموں سے چراگاہ میں داخل ہوا",
+      "translation_quote": "جب جیمِن لڑکھڑاتا ہوا چراگاہ میں داخل ہوا"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “That was the straw that broke the camel’s back”",
+      "severity": "major",
+      "source_quote": "“That was the straw that broke the camel’s back,” Becky said.",
+      "suggested_fix": "Ganti kalimat itu dengan: “Itulah beban terakhir yang membuatnya tak sanggup lagi,” kata Becky.",
+      "translation_quote": "“Itulah yang membuat semuanya menjadi berantakan,” kata Becky."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

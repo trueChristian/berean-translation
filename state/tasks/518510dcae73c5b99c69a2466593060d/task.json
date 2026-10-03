@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "d460557884c73a69c86e0daeb7ce136c02c0aaae16459b0d206ca9c57dc75d35",
   "base_metadata_sha256": "605f39c371fa68ce72af2ceeaeda86433d948ebe5a19fc7aad01b58b14ee7af6",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,130 +44,54 @@
         },
         "total_tokens": 12321
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1121,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 845,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6855,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6852,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7976
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
+      "location": "Paragraph beginning “Speaking to yourselves…” (Ephesians 5:19)",
+      "severity": "major",
+      "source_quote": "“singing and making melody in your heart to the Lord”",
+      "suggested_fix": "Revise the quoted phrase to preserve both singing and making melody in the heart to the Lord, for example: “sing en maak in julle harte melodie tot eer van die Here”.",
+      "translation_quote": "“sing en loof die Here met julle hele hart”"
+    },
+    {
+      "location": "Final paragraph (Colossians 3:16)",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "Replace “met dankbaarheid” with “met genade” so the quotation preserves the source’s reference to grace: “sing met genade in julle harte tot eer van die Here”.",
+      "translation_quote": "“sing met dankbaarheid in julle harte tot eer van die Here”"
+    },
+    {
       "location": "Lead paragraph",
-      "severity": "major",
-      "source_quote": "“Doth not nature itself teach you?”",
-      "suggested_fix": "Translate the quoted sentence into Afrikaans, preserving its meaning and the existing Scripture reference.",
-      "translation_quote": "“Doth not nature itself teach you?”"
-    },
-    {
-      "location": "Paragraph beginning “Voëls hou ’n unieke plek”",
-      "severity": "major",
-      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
-      "suggested_fix": "Translate the quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; retain chapter and verse 6:5.",
-      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
-    },
-    {
-      "location": "Paragraph beginning “Voëls is uiteenlopend”",
-      "severity": "major",
-      "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).",
-      "suggested_fix": "Translate the quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; retain 5:13.",
-      "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13)."
-    },
-    {
-      "location": "Paragraph beginning “Hoe min kennis van die hemel”",
-      "severity": "major",
-      "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
-      "suggested_fix": "Translate the quoted Scripture and the phrase “I will sing” into Afrikaans. Use the conventional Afrikaans form of the book name, preserving the reference 40:3 and the number 22.",
-      "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). Op 22 geleenthede herhaal die Skrif die frase, I will sing."
-    },
-    {
-      "location": "Paragraph beginning “Die koms van Christus”",
-      "severity": "major",
-      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19).",
-      "suggested_fix": "Translate the quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; retain 5:19.",
-      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19)."
-    },
-    {
-      "location": "Paragraph beginning “Die koms van Christus”",
-      "severity": "major",
-      "source_quote": "“Jews have no dealings with the Samaritans.”",
-      "suggested_fix": "Translate the quoted sentence into Afrikaans, preserving the woman’s stated reason for the division between Jews and Samaritans.",
-      "translation_quote": "“Jews have no dealings with the Samaritans.”"
-    },
-    {
-      "location": "Paragraph beginning “Die koms van Christus”",
-      "severity": "major",
-      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
-      "suggested_fix": "Translate the quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; retain 4:14.",
-      "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
-    },
-    {
-      "location": "Paragraph beginning “Die put van Christus”",
-      "severity": "major",
-      "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
-      "suggested_fix": "Translate the quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; retain 65:14.",
-      "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
-    },
-    {
-      "location": "Paragraph beginning “Sonde.”",
-      "severity": "major",
-      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
-      "suggested_fix": "Translate the quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; retain 18:2.",
-      "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
-    },
-    {
-      "location": "Paragraph beginning “Verwaarlosing.”",
-      "severity": "major",
-      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
-      "suggested_fix": "Translate the quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; retain 22:9.",
-      "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9)."
-    },
-    {
-      "location": "Paragraph beginning “Verwaarlosing.”",
-      "severity": "major",
-      "source_quote": "The Philistines “had filled them with earth” (Gen 26:15).",
-      "suggested_fix": "Translate the quoted words into Afrikaans and use the conventional Afrikaans form of the book name; retain 26:15.",
-      "translation_quote": "Die Filistyne “had filled them with earth” (Gen 26:15)."
-    },
-    {
-      "location": "Paragraph beginning “Onverbeterlikheid.”",
-      "severity": "major",
-      "source_quote": "“Ingratitude.”",
-      "suggested_fix": "Replace “Onverbeterlikheid” with “Ondankbaarheid,” which conveys the source heading “Ingratitude.”",
-      "translation_quote": "Onverbeterlikheid."
-    },
-    {
-      "location": "Paragraph beginning “Onverbeterlikheid.”",
-      "severity": "major",
-      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).",
-      "suggested_fix": "Translate the complete quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; preserve the reference range 137:2-4.",
-      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
-    },
-    {
-      "location": "Paragraph beginning “Onverbeterlikheid.”",
-      "severity": "major",
-      "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
-      "suggested_fix": "Translate the quoted passage into Afrikaans and use the conventional Afrikaans form of the book name; preserve 29:5-7.",
-      "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
-    },
-    {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "“giving glory to God in the highest.”",
-      "suggested_fix": "Translate the quoted phrase into Afrikaans.",
-      "translation_quote": "“giving glory to God in the highest.”"
-    },
-    {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
-      "suggested_fix": "Translate the complete quoted Scripture into Afrikaans and use the conventional Afrikaans form of the book name; preserve both references, 3:16 and 3:23.",
-      "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
-    },
-    {
-      "location": "Paragraph beginning “Onverbeterlikheid.”",
-      "severity": "major",
-      "source_quote": "“had been known to defeat armies.”",
-      "suggested_fix": "Render this as having been known to defeat armies (for example, “was bekend daarvoor dat dit leërs verslaan het”); “te ontset” instead means to relieve or rescue them.",
-      "translation_quote": "“was bekend daarvoor om leërs te ontset.”"
+      "severity": "minor",
+      "source_quote": "“the ravens”",
+      "suggested_fix": "Use the Afrikaans name for ravens, “rawe”, rather than “kraaie”.",
+      "translation_quote": "“die kraaie”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "518510dcae73c5b99c69a2466593060d",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "afr",
@@ -257,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 45,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-6-luna"

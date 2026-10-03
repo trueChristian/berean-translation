@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "f948a101f3ff7be361082bfa7e8870987de3d6f4f04fae0c64768d7529224de5",
   "base_metadata_sha256": "458dddcfcc8bd4919dd008e84d4d82a964c7d9b79123ac4fb9a545ef2d5c2cd1",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,81 +44,40 @@
         },
         "total_tokens": 6465
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 763,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 663,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3319,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3316,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4082
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening paragraph",
+      "location": "source.html, book-list: “The High Cost of Holistic Healing”",
       "severity": "major",
-      "source_quote": "“tantalizing cacophony of odors”; “masses of tourists”; “piles of fresh fruit”; “my young preschool mind”",
-      "suggested_fix": "Revise the opening to convey the tempting jumble of smells, the crowds of tourists, heaps of fresh fruit, and the narrator’s young preschool-age perspective. For example: “Bado ninaweza kunusa mchanganyiko wa harufu uliovutia niliposhika mkono imara wa baba yangu, tukipenya katikati ya umati wa watalii waliojaa ndani ya jengo. … na marundo ya matunda mabichi. … Akili yangu changa ya mtoto wa shule ya awali…”",
-      "translation_quote": "“mchanganyiko wa harufu utoshelevu”; “kwa mfululizo mrefu wa watalii”; “mafundo ya matunda safi”; “Akili yangu ya utoto shuleni”"
-    },
-    {
-      "location": "Second paragraph",
-      "severity": "major",
-      "source_quote": "“Christian Aid Ministries’ first Annual Writers’ Conference”; “I brushed shoulders with well-known authors”; “Together, we share and learn”",
-      "suggested_fix": "Translate the conference name and accurately express meeting well-known authors and the shared goal. For example, render these as “Mkutano wa Kwanza wa Mwaka wa Waandishi wa Christian Aid Ministries,” “Nilikutana na waandishi mashuhuri,” and “Kwa pamoja tunashiriki na kujifunza…”",
-      "translation_quote": "“Mkutano wa Kwanza wa Wanawaandishi wa Christian Aid Ministries”; “Niligusa mabega na waandishi maarufu”; “Pamoja, tunashirikiana na kujifunza…”"
-    },
-    {
-      "location": "Third paragraph",
-      "severity": "major",
-      "source_quote": "“We need young believers who bravely submit their first children’s stories. Seasoned grandfathers who bring words of admonishment to the younger generation. Mothers who share experiences and trials…”",
-      "suggested_fix": "Correct the mistranslated or malformed phrases: young believers should bravely submit their first children’s stories; experienced grandfathers offer admonition to the younger generation; mothers share experiences and trials with mothers in the midst of raising young children. Use “Akina mama,” not “Amai.”",
-      "translation_quote": "“waamini vijana ambao kwa ujasiri watoke na kuwasilisha hadithi zao za kwanza za watoto. Babu walio na uzoefu ambao wanaleta maneno ya maonya… Amai wanashiriki uzoefu na majaribu… walioko katika dhoruba ya kulea watoto wadogo.”"
-    },
-    {
-      "location": "Third paragraph",
-      "severity": "major",
-      "source_quote": "“press toward the mark of the prize of the high calling in Christ Jesus”; “to give it a try”",
-      "suggested_fix": "Render the biblical allusion as pressing toward the goal for the prize of the high calling in Christ Jesus, and translate “give it a try” as an encouragement to try writing, not to learn to try. For example: “kusonga mbele kuelekea lengo ili kupata tuzo ya mwito mkuu katika Kristo Yesu” and “Ninawahimiza… mjaribu.”",
-      "translation_quote": "“kusukuma mbele kuelekea lengo la zawadi ya wito wa juu katika Kristo Yesu”; “mujifunze kujaribu”"
-    },
-    {
-      "location": "Third paragraph, Mandela quotation",
-      "severity": "major",
-      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
-      "suggested_fix": "Translate the quotation into Kiswahili while preserving its question: “Kushindwa ni mwalimu, na mwishoni mwa maisha yako, unafikiri utajutia zaidi nini—kushindwa au kutokujaribu kamwe?”",
-      "translation_quote": "“Kushindwa ni mwalimu, na mwishoni mwa maisha yako, unawezaje kudhani utahisi vibaya zaidi, kushindwa au kutokujaribu kabisa?”"
-    },
-    {
-      "location": "Book-list paragraph",
-      "severity": "major",
-      "source_quote": "“printed material”; “All our material is available at no charge”; “Here is a list of books we have available”",
-      "suggested_fix": "Translate the descriptive prose as printed publications/material, available free of charge, and books available. For example: “machapisho”; “Machapisho yetu yote yanapatikana bila malipo”; “Hii hapa orodha ya vitabu tulivyonavyo.” Translate the book titles into Kiswahili while retaining their order and the existing <br> structure.",
-      "translation_quote": "“maandishi yaliyopachikwa”; “Vifungu vyote vya maudhui yetu”; “Hapa kuna orodha ya vitabu tulivyovipatikana”; all book titles remain in English"
-    },
-    {
-      "location": "Fourth paragraph",
-      "severity": "major",
-      "source_quote": "“In 2017 and 2018, the Berean Voice printed a series of vaccine articles in The Heartbeat of the Remnant magazine.”",
-      "suggested_fix": "Translate “The Berean Voice” as the subject and preserve the sense that it printed the series in the magazine in those two years. Translate the magazine title as article text, retaining its emphasis markup if desired.",
-      "translation_quote": "“Mwaka wa 2017 na 2018, The Berean Voice ilichapisha mfululizo wa makala kuhusu chanjo katika jarida The Heartbeat of the Remnant.”"
-    },
-    {
-      "location": "Fifth paragraph",
-      "severity": "major",
-      "source_quote": "“This monumental event upended the vaccine debate and ushered in a frenzied rush to market COVID-19 remedies, many of which were not properly tested.”",
-      "suggested_fix": "Translate “upended” as overturning or radically changing the debate, and convey a frenzied rush to market remedies, not merely a rapid rush. For example: “Tukio hili kubwa liligeuza mjadala wa chanjo na kuchochea msukosuko wa kuharakisha kuleta sokoni tiba za COVID-19…”",
-      "translation_quote": "“Tukio hili kubwa lilibadilisha mjadala wa chanjo na kuanzisha kukimbilia kwa haraka sokoni tiba za COVID-19…”"
-    },
-    {
-      "location": "Fifth paragraph",
-      "severity": "major",
-      "source_quote": "“As time progressed and the deadly nature of COVID-19 abated”",
-      "suggested_fix": "Render the reduction in COVID-19’s deadly nature accurately, for example: “Kadiri muda ulivyopita na hali ya COVID-19 ya kusababisha vifo ilivyopungua…”",
-      "translation_quote": "“Kadiri wakati ulivyopita na hatari ya kifo ya COVID-19 ilivyopungua”"
-    },
-    {
-      "location": "Figure image description",
-      "severity": "minor",
-      "source_quote": "“Pink and white crown vetch flowers in a green meadow”",
-      "suggested_fix": "Translate the plant description rather than leaving “crown vetch” in English; for example, use a locally appropriate Kiswahili name if known, or a clear descriptive rendering such as “Maua ya waridi na meupe ya mmea wa crown vetch katika malisho ya kijani.”",
-      "translation_quote": "“Maua ya rangi ya waridi na nyeupe ya crown vetch kwenye uwanja wa kijani”"
+      "source_quote": "The High Cost of Holistic Healing",
+      "suggested_fix": "Gharama Kubwa ya Uponyaji wa Kijumla",
+      "translation_quote": "Gharama Kubwa ya Uponyaji Kamili"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "b8dd1bebba1e313e9bd880ed0ee70a47",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -208,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 54,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

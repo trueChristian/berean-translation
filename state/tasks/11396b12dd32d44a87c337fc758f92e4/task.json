@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "490b7849e059883f9d54a6d3969a05f54302a1b09112b076803d2ae9dbbe7bff",
   "base_metadata_sha256": "4856f27868a49595fa4c4748d485526dfe93f1623ade746014299fdcb041abc2",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,39 +44,47 @@
         },
         "total_tokens": 10804
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 375,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6750,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6747,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7125
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "正文：约翰十七岁时前往牙买加的段落",
+      "location": "正文，第17段（《奥尔尼圣诗集》及《奇异恩典》）",
       "severity": "major",
-      "source_quote": "John had been invited to stay four days, but he stayed two weeks and missed the ship to Jamaica.",
-      "suggested_fix": "将“约翰原本受邀住四天，却住了两个星期，错过了前往牙买加的船。”改为“约翰原本受邀住四天，却住了两个星期，因此错过了前往牙买加的船。”",
-      "translation_quote": "约翰原本受邀住四天，却住了两个星期，错过了前往牙买加的船。"
+      "source_quote": "The most famous of all the Olney Hymns, “Faith’s Review and Expectation”, grew out of David’s exclamation in 1 Chronicles 17:16-17. We know it today as “Amazing Grace”.",
+      "suggested_fix": "将此句改为：“《奥尔尼圣诗集》中最著名的一首《信心的回顾与盼望》，源于大卫在《历代志上》17:16-17中的感叹。我们今天称它为《奇异恩典》。”保留原有的引文标记、斜体标签及段落结构。",
+      "translation_quote": "在<em>《奥尔尼圣诗集》</em>中最著名的一首《信心的回顾与盼望》，源于大卫在历代志上17:16-17中的感叹。我们今天称它为《奇异恩典》。"
     },
     {
-      "location": "正文：风暴中的灰狗号段落",
+      "location": "正文，第21段（牛顿退休的回应）",
       "severity": "major",
-      "source_quote": "From one o’clock until midnight, he was at the helm.",
-      "suggested_fix": "将“从一点钟直到午夜，他一直守在舵旁。”改为“从下午一点直到午夜，他一直守在舵旁。”",
-      "translation_quote": "从一点钟直到午夜，他一直守在舵旁。"
-    },
-    {
-      "location": "正文：约翰写给玛丽的信",
-      "severity": "major",
-      "source_quote": "“... When I indulge myself with a particular thought of you, it usually carries me on farther and brings me upon my knees to bless the Lord for giving me such a treasure and to pray for your peace and welfare”",
-      "suggested_fix": "将引文改为：“……当我特别沉浸在对你的思念中时，这通常会引领我更进一步，使我跪下来称颂主，感谢祂赐给我这样一份珍宝，并为你的平安和福祉祷告。”",
-      "translation_quote": "“……当我任自己格外思念你时，这思念通常会引领我更进一步，使我跪下来称颂主，感谢祂赐给我这样一份珍宝，并为你的平安和幸福祷告。”"
-    },
-    {
-      "location": "正文：介绍《奥尔尼圣诗集》的段落",
-      "severity": "major",
-      "source_quote": "In 1779, 280 of these were collected and combined with 68 hymns by Newton’s friend and parishioner, William Cowper, and published as the Olney Hymns.",
-      "suggested_fix": "将“1779年，这些圣诗中的280首，与牛顿的朋友兼教区会友威廉·考珀所写的68首圣诗汇编成《奥尔尼圣诗集》出版。”改为“1779年，这些圣诗中的280首与牛顿的朋友兼教区会友威廉·考珀所写的68首圣诗汇编在一起，以《奥尔尼圣诗集》之名出版。”",
-      "translation_quote": "1779年，这些圣诗中的280首，与牛顿的朋友兼教区会友威廉·考珀所写的68首圣诗汇编成《奥尔尼圣诗集》出版。"
+      "source_quote": "What, shall the old African blasphemer stop while he can still speak?",
+      "suggested_fix": "将引语中的“这个曾在非洲亵渎上帝的老人”改为“这个老非洲亵渎者”，以保留原文称呼所表达的身份与措辞。",
+      "translation_quote": "什么？这个曾在非洲亵渎上帝的老人，难道还说得出话就该停下来吗？"
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "11396b12dd32d44a87c337fc758f92e4",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "cmn",
@@ -166,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1a4d7ad1-6498-4ed9-95ae-78111333da1c",
+    "response_id": "chatcmpl-EV1TfbnUpbMKC56t8sGn7qFkBgPId",
+    "usage": {
+      "completion_tokens": 535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 322,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4127,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4124,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4662
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, heading before the paragraph beginning « Dites-le. »",
+        "severity": "major",
+        "source_quote": "Believe that God cares",
+        "suggested_fix": "Remplacer le contenu du titre par « Croyez que Dieu se soucie de vous » en conservant la balise <h2>.",
+        "translation_quote": "相信"
+      },
+      {
+        "location": "HTML, paragraph beginning « Parfois, ce type de surcharge… »",
+        "severity": "minor",
+        "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+        "suggested_fix": "Remplacer « dans nos communautés plain » par « dans nos communautés mennonites conservatrices » (ou une formulation française équivalente qui rende clairement l’idée de communautés plain).",
+        "translation_quote": "Les événements traumatisants dans nos communautés plain tendent à susciter des prières, un soutien financier et des nouvelles hebdomadaires sur le budget."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

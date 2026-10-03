@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "“At the time, they were thankful that the chickens had left the day before and that no one was close by when the propane tank exploded.”",
+      "suggested_fix": "Replace “walimshukuru Mungu kwamba kuku walikuwa wameondoka siku iliyotangulia” with “walishukuru kwamba kuku walikuwa wameondoka siku iliyotangulia” to avoid adding an explicit recipient of their thanks.",
+      "translation_quote": "“Wakati huo, walimshukuru Mungu kwamba kuku walikuwa wameondoka siku iliyotangulia”"
+    },
+    {
+      "location": "Paragraph 7, Rick’s quoted speech",
+      "severity": "major",
+      "source_quote": "“the chicken house needs to be finished in six months!”",
+      "suggested_fix": "Replace “banda la kuku linahitaji kukamilika baada ya miezi sita” with “banda la kuku linahitaji kukamilika ndani ya miezi sita” to convey the stated deadline.",
+      "translation_quote": "“banda la kuku linahitaji kukamilika baada ya miezi sita!”"
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "major",
+      "source_quote": "“Then I was asked to fill the position of food committee for Mrs. ‘Going-to-Bulgaria.’”",
+      "suggested_fix": "Replace “kuchukua nafasi ya mjumbe wa kamati ya chakula” with “kuchukua nafasi katika kamati ya chakula” to avoid specifying that she was asked to be a committee member when the source does not specify that role.",
+      "translation_quote": "“Kisha niliombwa kuchukua nafasi ya mjumbe wa kamati ya chakula kwa ajili ya Bi. ‘Anayekwenda Bulgaria.’”"
+    },
+    {
+      "location": "Paragraph 13",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "Replace “jumuiya zetu za Waamishi wa kale” with “jumuiya zetu za Waamishi wanaofuata maisha ya kawaida na yasiyo na anasa” or another standard rendering of “plain circles”; “wa kale” incorrectly suggests they are from an earlier era.",
+      "translation_quote": "“Matukio yenye kuleta kiwewe katika jumuiya zetu za Waamishi wa kale hupata maombi, msaada wa kifedha na taarifa za bajeti za kila wiki.”"
+    },
+    {
+      "location": "Paragraph 24",
+      "severity": "minor",
+      "source_quote": "“If you are facing circumstantial overload”",
+      "suggested_fix": "Correct the typo “um elemewa” to “umelemewa.”",
+      "translation_quote": "“Ikiwa um elemewa na hali za maisha”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

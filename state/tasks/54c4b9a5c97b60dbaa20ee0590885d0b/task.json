@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "f63553fd6428c1bbef97283c0d3a8bb8abfcd75c3130376402f13fd957a02d6f",
   "base_metadata_sha256": "03fd0520ea9b907fd56d2e0f3f0a436fb7fdeb1d87c8cf57eefaa44143273780",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,46 +44,47 @@
         },
         "total_tokens": 10864
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1072,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 823,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6710,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6707,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7782
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning «Пение — природа птиц»",
+      "location": "Первый абзац",
       "severity": "major",
-      "source_quote": "“the song sparrow and again by the rose-breasted grosbeak”",
-      "suggested_fix": "Заменить «певчий воробей, а затем рябок с розовой грудью» на «певчий воробей, а затем розовогрудый дубонос».",
-      "translation_quote": "«певчий воробей, а затем рябок с розовой грудью»"
+      "source_quote": "Each of these bears a significant dimension of the eternal God in their existence and gives us definition to their Creator.",
+      "suggested_fix": "Заменить «даёт нам определение их Творца» на «помогает нам понять, каким является их Творец» или другую формулировку, передающую мысль, что эти создания раскрывают нам своего Творца.",
+      "translation_quote": "Каждое из этих созданий несёт в своём бытии значимую грань вечного Бога и даёт нам определение их Творца."
     },
     {
-      "location": "HTML, абзац «Пренебрежение», предложение о cowbird",
-      "severity": "major",
-      "source_quote": "“The cowbird is also black (the female is brown/gray).”",
-      "suggested_fix": "Заменить «Птица cowbird (cowbird) тоже тёмная (самка — коричнево‑серая)» на «Буроголовый коровий трупиал тоже тёмный (самка — коричнево-серая)».",
-      "translation_quote": "«Птица cowbird (cowbird) тоже тёмная (самка — коричнево‑серая).»"
-    },
-    {
-      "location": "HTML, абзац «Пренебрежение», предложение о призыве птицы",
-      "severity": "major",
-      "source_quote": "“shamelessly calling to her lovers by her shrill screeching”",
-      "suggested_fix": "Заменить «бесстыдно взывающую к своим поклонникам резким криком» на «бесстыдно призывающую резким криком своих ухажёров».",
-      "translation_quote": "«бесстыдно взывающую к своим поклонникам резким криком»"
-    },
-    {
-      "location": "HTML, абзац «Неблагодарность», цитата из Пс. 137:2–4",
-      "severity": "major",
-      "source_quote": "“Babylon the great is fallen, is fallen”",
-      "suggested_fix": "Исправить начало цитаты, передав повтор и смысл падения: «Пал, пал Вавилон великий».",
-      "translation_quote": "«Пал падший, пал великий Вавилон»"
-    },
-    {
-      "location": "HTML, заключительный абзац, предложение о птицах",
+      "location": "Раздел «Пренебрежение»",
       "severity": "minor",
-      "source_quote": "“thankful for God’s loving providence”",
-      "suggested_fix": "Заменить неестественное «благодарных за любящее промысел Божье» на «благодарных за любящее Божье провидение».",
-      "translation_quote": "«благодарных за любящее промысел Божье»"
+      "source_quote": "She will be found sitting on a high vantage",
+      "suggested_fix": "Заменить «на высокой вышке» на «на возвышенном месте» или «на высоком насесте», чтобы не добавлять отсутствующую в оригинале вышку.",
+      "translation_quote": "Её можно найти на высокой вышке"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "54c4b9a5c97b60dbaa20ee0590885d0b",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -173,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 79,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Cynicism in the Bible, paragraph quoting Romans 5:3–5",
+      "severity": "major",
+      "source_quote": "“and patience, experience; and experience, hope”",
+      "suggested_fix": "Replace « la patience, la vertu éprouvée ; et la vertu éprouvée, l’espérance » with « la patience, l’expérience ; et l’expérience, l’espérance » to preserve the progression stated in the source.",
+      "translation_quote": "« la tribulation produit la patience ; la patience, la vertu éprouvée ; et la vertu éprouvée, l’espérance »"
+    },
+    {
+      "location": "Cynicism in the Bible, paragraph quoting Jeremiah 7:27",
+      "severity": "major",
+      "source_quote": "“but He knew without a doubt that the people would refuse to respond”",
+      "suggested_fix": "Replace « mais savait sans doute que le peuple refuserait de répondre » with « mais savait sans aucun doute que le peuple refuserait de répondre »; « sans doute » can express probability in French, weakening the source’s certainty.",
+      "translation_quote": "« mais savait sans doute que le peuple refuserait de répondre »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

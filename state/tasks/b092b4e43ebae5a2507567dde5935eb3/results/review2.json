@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7157e49e-cd62-4225-b98f-bd237334ee3e",
+    "response_id": "chatcmpl-EV1SX6XKoE5PKKwVLAPK1czOiGGqI",
+    "usage": {
+      "completion_tokens": 428,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2922,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3353
+    }
+  },
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 2",
+        "severity": "minor",
+        "source_quote": "By the time the last minute things are completed I’m too exhausted to enjoy the planned event.",
+        "suggested_fix": "Consider «Når oppgavene som må gjøres i siste liten, endelig er fullført, er jeg for utslitt til å glede meg over det planlagte arrangementet.» This more clearly retains the idea that these are tasks due at the last minute.",
+        "translation_quote": "Når oppgavene som skulle gjøres i siste liten, endelig er fullført, er jeg for utslitt til å nyte det planlagte arrangementet."
+      },
+      {
+        "location": "Article, paragraph 3 under “Toothaches and Road Trips”",
+        "severity": "minor",
+        "source_quote": "If it is not a dental emergency, some other issue is bound to fill that time slot.",
+        "suggested_fix": "Use «Hvis det ikke er en tannlegekrise, vil et annet problem garantert fylle det tidsrommet.» to retain the certainty of “bound to.”",
+        "translation_quote": "Hvis det ikke er en tannlegekrise, vil et annet problem sannsynligvis fylle det tidsrommet."
+      },
+      {
+        "location": "Article, final paragraph",
+        "severity": "major",
+        "source_quote": "A few minor changes can make the biggest difference between a blessed or stressed last minute.",
+        "suggested_fix": "Translate the contrast as «Noen få små endringer kan utgjøre den største forskjellen mellom en velsignet og en stressende siste liten.»",
+        "translation_quote": "Noen få små endringer kan utgjøre den største forskjellen mellom en velsignet og en stressende siste liten."
+      },
+      {
+        "location": "Title",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Consider «Overbelastet av utsettelse» or «Når utsettelsen tar overhånd» to render the title idiomatically in Bokmål.",
+        "translation_quote": "Overbelastning av utsettelser"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

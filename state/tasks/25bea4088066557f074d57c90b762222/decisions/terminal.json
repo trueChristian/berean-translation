@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section 4, paragraph beginning «Το σχέδιο του Θεού είναι…»; also section 5, paragraph beginning «Σκεφτείτε τη χαρά…»",
+      "severity": "major",
+      "source_quote": "“God’s plan is that marriage is an equal yoke.” … “If they are equally yoked…”",
+      "suggested_fix": "Replace «ισότιμο ζυγό» with «ομόζυγο γάμο» (or an equally clear Greek equivalent for being spiritually matched), and replace «Αν είναι ισότιμα ενωμένοι» with «Αν είναι ομόζυγοι». Apply the same terminology consistently where “equal yoke” recurs.",
+      "translation_quote": "«Το σχέδιο του Θεού είναι ο γάμος να αποτελεί ισότιμο ζυγό.» … «Αν είναι ισότιμα ενωμένοι και ο Θεός τούς ευλογήσει με παιδιά…»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Judul",
+      "severity": "major",
+      "source_quote": "Jamin Smartens Up",
+      "suggested_fix": "Gunakan judul yang mempertahankan makna bahwa Jamin bertambah bijak atau lebih pintar, misalnya: “Jamin Menjadi Lebih Bijak”.",
+      "translation_quote": "Jamin Menjadi Lebih Pintar"
+    },
+    {
+      "location": "Paragraf 3",
+      "severity": "major",
+      "source_quote": "Kenny had a way of avoiding earshot.",
+      "suggested_fix": "Terjemahkan bahwa Kenny pandai mengejek tanpa terdengar atau menghindari agar orang tua tidak mendengarnya, misalnya: “Tetapi Kenny pandai memastikan ejekannya tidak terdengar oleh mereka.”",
+      "translation_quote": "Tetapi Kenny pandai menjauh agar tidak terdengar."
+    },
+    {
+      "location": "Paragraf 7",
+      "severity": "major",
+      "source_quote": "The various traps had been checked already, so Jamin knew Kenny had come this way.",
+      "suggested_fix": "Pertahankan bahwa jebakan-jebakan itu sudah diperiksa, sehingga Jamin tahu Kenny telah melewati jalan itu; hapus makna bahwa Jamin sendiri telah memeriksanya.",
+      "translation_quote": "Jebakan-jebakan itu sudah diperiksa, jadi Jamin tahu Kenny telah melewati jalan ini."
+    },
+    {
+      "location": "Paragraf 11",
+      "severity": "major",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "Terjemahkan citra kegelapan yang menyelimuti atau menggelapkan tanah di sekitar Kenny; jangan menggantinya dengan darah yang tidak disebutkan sumber.",
+      "translation_quote": "Tanah di sekitar Kenny berlumuran darah."
+    },
+    {
+      "location": "Paragraf 14",
+      "severity": "major",
+      "source_quote": "Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.",
+      "suggested_fix": "Pertahankan bahwa ayah mereka segera berada di sisi mereka setelah Jamin menyahut; hindari menambahkan bahwa ayah berada di sisi mereka dalam sekejap sebelum melihat pergelangan kaki Kenny.",
+      "translation_quote": "Jamin menyahut, dan dalam sekejap ayah mereka sudah berada di sisi mereka. Setelah melihat pergelangan kaki Kenny, ia menggendongnya seperti domba yang terluka."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Джамин с широко раскрытыми глазами верил…»\",\"severity\":\"minor\",\"source_quote\":\"“But Kenny had a way of avoiding earshot. So he continued mocking Jamin.”\",\"suggested_fix\":\"Заменить предложение «Но Кенни умел так говорить, чтобы они не слышали» на «Но Кенни умел держаться вне пределов их слышимости» — так сохраняется смысл, что Кенни избегал быть услышанным родителями.\",\"translation_quote\":\"«Но Кенни умел так говорить, чтобы они не слышали. Поэтому он продолжал насмехаться над Джамином.»\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 863,
+    "content_evidence_truncated": false,
+    "content_sha256": "5aec953af2da90429433740e89d4a9a6e92f19d6bb67dad54b639e4abe4454e8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 679,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3427,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3424,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4106
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

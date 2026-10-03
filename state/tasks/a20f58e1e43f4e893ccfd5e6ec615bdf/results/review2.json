@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "452e8b42-29b5-456b-9a43-a970d70050c9",
+    "response_id": "chatcmpl-EV1UGjS5yDS4IBHHBmRC2mveiLZtV",
+    "usage": {
+      "completion_tokens": 261,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7236,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7233,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7497
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “जॉन न्यूटन अक्सर…”",
+        "severity": "major",
+        "source_quote": "In 1779, 280 of these were collected and combined with 68 hymns by Newton’s friend and parishioner, William Cowper, and published as the Olney Hymns.",
+        "suggested_fix": "Replace “न्यूटन के मित्र और उसके पल्ली के सदस्य विलियम काउपर के 68 भजनों के साथ” with “न्यूटन के मित्र और उसके गिरजे के सदस्य विलियम काउपर के 68 भजनों के साथ”.",
+        "translation_quote": "न्यूटन के मित्र और उसके पल्ली के सदस्य विलियम काउपर के 68 भजनों के साथ"
+      },
+      {
+        "location": "HTML, paragraph beginning “जब जॉन की आयु…”",
+        "severity": "major",
+        "source_quote": "When John was in his sixties, his beloved wife Mary passed away.",
+        "suggested_fix": "Replace “जब जॉन की आयु साठ से सत्तर वर्ष के बीच थी” with “जब जॉन साठ वर्ष से अधिक का था”.",
+        "translation_quote": "जब जॉन की आयु साठ से सत्तर वर्ष के बीच थी"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

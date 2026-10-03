@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": "7015d487ecaa6d62fbfb0b7361616c291aea42bee441b9276dadc7302d8e0182",
   "base_metadata_sha256": "694652cafa457d50355a13886a9450428f697fc7cce7024295d424d9fa32404b",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,60 +44,40 @@
         },
         "total_tokens": 24039
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1023,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 791,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14886,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14883,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15909
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Title, subtitle, article note, and throughout the article",
+      "location": "Section 4, paragraph beginning «Το σχέδιο του Θεού είναι…»; also section 5, paragraph beginning «Σκεφτείτε τη χαρά…»",
       "severity": "major",
-      "source_quote": "“A Christ-Centered Courtship”; “a courtship without regrets or guilt”; “a Christ-centered courtship is a period of time between a single life and a married life.”",
-      "suggested_fix": "Use a consistent contemporary Greek equivalent for courtship that conveys intentional, marriage-oriented getting to know someone, not casual flirting. For example, replace «φλερτ» in the article note with «σκοπός γάμου»/«γνωριμία με σκοπό τον γάμο», and revise the title and occurrences of «περίοδος γνωριμίας» consistently to convey that meaning.",
-      "translation_quote": "«Μια χριστοκεντρική περίοδος ανεπίσημου φλερτ»; «Μια Χριστοκεντρική Γνωριμία»; «μια περίοδος γνωριμίας»"
-    },
-    {
-      "location": "Section “Το σχέδιο του Θεού για Άνδρα και Γυναίκα,” Ecclesiastes 12:1 and Genesis 2:18–24, Genesis 1:26–28",
-      "severity": "major",
-      "source_quote": "The passages beginning “Remember now thy Creator…” and “And the LORD God said, It is not good that the man should be alone…”; the Genesis 1:26–28 quotation.",
-      "suggested_fix": "Translate each quoted Scripture passage into contemporary Greek, faithfully preserving its printed meaning, and render the book names in conventional Greek form. Keep the existing chapter-and-verse numbers and reference placement unchanged.",
-      "translation_quote": "The cited passages remain in English, for example: “Remember now thy Creator in the days of thy youth…”; “And the LORD God said, It is not good that the man should be alone…”; “And God said, Let us make man in our image…”"
-    },
-    {
-      "location": "Sections 1–6, quoted Scripture passages",
-      "severity": "major",
-      "source_quote": "The quotations from Genesis 2:22–23 and 2:24; Mark 10:8–9; 2 Corinthians 6:14–15; 1 Corinthians 7:39; Genesis 1:28; Genesis 9:1 and 9:7; 1 Corinthians 11:3; Ephesians 6:1–3; and Proverbs 3:1–2.",
-      "suggested_fix": "Translate the quoted Scripture prose into contemporary Greek, faithfully conveying the source wording; localize Bible book names conventionally and retain the exact chapter and verse numbers and reference placement. Translate the explanatory quoted phrases in these sections as well, such as “I’ll make him an help that is meet for him.”",
-      "translation_quote": "The Scripture quotations remain in English, including “And the rib, which the Lord God had taken from man…”; “Be ye not unequally yoked together with unbelievers…”; and “Children, obey your parents in the Lord…”"
-    },
-    {
-      "location": "Sections 7–10, quoted Scripture passages",
-      "severity": "major",
-      "source_quote": "The quotations from Ephesians 5:21–29, 1 Peter 3:7, and Psalm 144:12.",
-      "suggested_fix": "Translate the quoted Scripture prose into contemporary Greek, faithfully conveying the printed meaning; use conventional Greek Bible book names and preserve the exact chapter-and-verse numbers and placement. Also translate the short quoted Scripture phrases embedded in the commentary.",
-      "translation_quote": "The quotations remain in English, including “Submitting yourselves one to another in the fear of God…”; “Likewise, ye husbands, dwell with them according to knowledge…”; and “That our sons may be as plants grown up in their youth…”"
-    },
-    {
-      "location": "Section 3, paragraph beginning “And they twain shall be one flesh”",
-      "severity": "major",
-      "source_quote": "“Pulling apart is no blessing at all but brings agony, pain, travail, and hurt.”",
-      "suggested_fix": "Replace «μαστίγωμα» with a Greek equivalent for travail/hardship in this context, such as «οδύνη» or «βάσανα», so the list does not introduce whipping.",
-      "translation_quote": "«Το να τους ξεχωρίζεις δεν είναι καθόλου ευλογία αλλά φέρνει αγωνία, πόνο, μαστίγωμα και πλήγμα.»"
-    },
-    {
-      "location": "Section 9, paragraph beginning “This comes partly out of 1 Peter 3:7”",
-      "severity": "major",
-      "source_quote": "“Dad is ministering and is there to help and guide.”",
-      "suggested_fix": "Translate “is ministering” as serving or ministering to the family, rather than as acting as a shepherd; preserve the source’s wording and attribution.",
-      "translation_quote": "«Ο Πατέρας λειτουργεί ως ποιμένας και είναι εκεί για να βοηθά και να καθοδηγεί.»"
-    },
-    {
-      "location": "Section 7, paragraph beginning “Ephesians 5:22, 24”",
-      "severity": "minor",
-      "source_quote": "“Being a rebellious and froward woman is not going to bring the blessing of God.”",
-      "suggested_fix": "Replace «ασυνεπής» with a Greek term conveying the source’s sense of stubbornly disobedient or rebellious, rather than inconsistent.",
-      "translation_quote": "«Το να είσαι επαναστατική και ασυνεπής γυναίκα δεν θα φέρει την ευλογία του Θεού.»"
+      "source_quote": "“God’s plan is that marriage is an equal yoke.” … “If they are equally yoked…”",
+      "suggested_fix": "Replace «ισότιμο ζυγό» with «ομόζυγο γάμο» (or an equally clear Greek equivalent for being spiritually matched), and replace «Αν είναι ισότιμα ενωμένοι» with «Αν είναι ομόζυγοι». Apply the same terminology consistently where “equal yoke” recurs.",
+      "translation_quote": "«Το σχέδιο του Θεού είναι ο γάμος να αποτελεί ισότιμο ζυγό.» … «Αν είναι ισότιμα ενωμένοι και ο Θεός τούς ευλογήσει με παιδιά…»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "25bea4088066557f074d57c90b762222",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -187,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 45,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-6-luna"

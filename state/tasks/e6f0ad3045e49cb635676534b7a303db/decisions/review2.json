@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, последний image alt",
+      "severity": "minor",
+      "source_quote": "Pink and white crown vetch flowers in a green meadow",
+      "suggested_fix": "Заменить название растения на «вязель пёстрый»: например, «Розовые и белые цветы вязеля пёстрого на зелёном лугу».",
+      "translation_quote": "Розовые и белые цветы вики корончатой на зелёном лугу"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

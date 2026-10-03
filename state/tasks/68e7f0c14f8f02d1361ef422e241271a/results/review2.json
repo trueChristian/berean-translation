@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6d9641b3-cd85-4d19-a445-12e54b08538e",
+    "response_id": "chatcmpl-EV1SlRgwnXBt6cnebaP9xHCldSwnd",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6907,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7783
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second paragraph, the brother’s reply",
+        "severity": "major",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Replace «Alcune piante, un po' d'acqua, ma è Dio che dà l'aumento» with «Qualcuno pianta, qualcuno annaffia, ma è Dio che fa crescere» to preserve the contrast between human work and God's role.",
+        "translation_quote": "«Alcune piante, un po' d'acqua, ma è Dio che dà l'aumento»"
+      },
+      {
+        "location": "Paragraph beginning «Allora come si può essere umanisti e credere in Dio?»",
+        "severity": "major",
+        "source_quote": "He believes in a Creator God but does not believe he has to serve Him In reality.",
+        "suggested_fix": "Replace «Crede in un Dio Creatore ma non crede di doverGli servire nella realtà» with «Crede in un Dio Creatore, ma in realtà non crede di doverlo servire».",
+        "translation_quote": "Crede in un Dio Creatore ma non crede di doverGli servire nella realtà."
+      },
+      {
+        "location": "Paragraph beginning «Il cristiano rinnega se stesso»",
+        "severity": "major",
+        "source_quote": "The Christian thinks nothing of himself or the ability of man",
+        "suggested_fix": "Replace «Il cristiano non pensa nulla di se stesso o della capacità dell'uomo» with «Il cristiano non attribuisce alcuna importanza a se stesso né alle capacità umane».",
+        "translation_quote": "Il cristiano non pensa nulla di se stesso o della capacità dell'uomo"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

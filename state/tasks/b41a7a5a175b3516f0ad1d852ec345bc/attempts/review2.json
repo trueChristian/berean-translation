@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Cynicism in the Bible, paragraph quoting Romans 5:3–5\",\"severity\":\"major\",\"source_quote\":\"“and patience, experience; and experience, hope”\",\"suggested_fix\":\"Replace « la patience, la vertu éprouvée ; et la vertu éprouvée, l’espérance » with « la patience, l’expérience ; et l’expérience, l’espérance » to preserve the progression stated in the source.\",\"translation_quote\":\"« la tribulation produit la patience ; la patience, la vertu éprouvée ; et la vertu éprouvée, l’espérance »\"},{\"location\":\"Cynicism in the Bible, paragraph quoting Jeremiah 7:27\",\"severity\":\"major\",\"source_quote\":\"“but He knew without a doubt that the people would refuse to respond”\",\"suggested_fix\":\"Replace « mais savait sans doute que le peuple refuserait de répondre » with « mais savait sans aucun doute que le peuple refuserait de répondre »; « sans doute » can express probability in French, weakening the source’s certainty.\",\"translation_quote\":\"« mais savait sans doute que le peuple refuserait de répondre »\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1101,
+    "content_evidence_truncated": false,
+    "content_sha256": "da3c0ca208ec69a464f0e43c93083856c6c191636d0b44b18806dacc80276240",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 758,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 500,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9129,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9126,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9887
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

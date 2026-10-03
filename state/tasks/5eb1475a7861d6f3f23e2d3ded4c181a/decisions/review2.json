@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, heading 5 paragraph, sentence beginning «Если они…»",
+      "severity": "major",
+      "source_quote": "If they are equally yoked and God blesses them with children",
+      "suggested_fix": "Заменить «Если они равномерно соединены» на «Если они находятся под равным игом», сохранив остальную фразу.",
+      "translation_quote": "Если они равномерно соединены и Бог благословит их детьми"
+    },
+    {
+      "location": "HTML, heading 3, цитата Марка 10:8-9",
+      "severity": "major",
+      "source_quote": "What therefore God hath joined together, let not man put asunder",
+      "suggested_fix": "Заменить «человек да не размежёвует» на «человек да не разлучает» или другой ясный русский эквивалент смысла «пусть человек не разделяет».",
+      "translation_quote": "Что же соединил Бог, человек да не размежёвует"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

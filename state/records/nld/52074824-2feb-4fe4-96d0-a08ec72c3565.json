@@ -18,26 +18,32 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "cffd873dbc784b2e553c5383573e3176"
+    },
+    {
+      "at": "2026-10-03T21:32:41+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "cffd873dbc784b2e553c5383573e3176"
     }
   ],
   "language": "nld",
   "latest_task": "cffd873dbc784b2e553c5383573e3176",
   "published": {
     "html_path": "content/nld/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
-    "html_sha256": "df4b49c7b6a0e83043f80f62dc3af5f254484d7e9a194f3670705cd8142f41a8",
+    "html_sha256": "06b32a5d24d9929e13b2c3c1e14b94b4320671f813e1c91c2608d7cfa4782170",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
     "metadata_path": "content/nld/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
-    "metadata_sha256": "4f32f834cd746b9610e6f76bf3de1a5c6abfc1508227d58347007e9179327d99",
-    "model": "gpt-5-mini-2025-08-07",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nl\" dir=\"ltr\" role=\"note\">\n  <p>Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: gpt-5-mini-2025-08-07) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel. <a href=\"/en/articles/52074824-2feb-4fe4-96d0-a08ec72c3565/\" data-source-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\" hreflang=\"en\">Engels origineel</a></p>\n</aside>",
-    "published_at": "2026-10-02T00:07:38+00:00",
+    "metadata_sha256": "e9a5f3ce88c2d48670833565c21e8ad2d9621676ce696ea0214c885fff5cc8cf",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nl\" dir=\"ltr\" role=\"note\">\n  <p>Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: gpt-6-luna) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel. <a href=\"/en/articles/52074824-2feb-4fe4-96d0-a08ec72c3565/\" data-source-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\" hreflang=\"en\">Engels origineel</a></p>\n</aside>",
+    "published_at": "2026-10-03T21:32:41+00:00",
     "quality_score": 97,
-    "review_model": "gpt-5-mini-2025-08-07",
-    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
-    "source_snapshot": "state/sources/1c01cd25574e3192025b4d55d265b47acaa5a5b7097269f777a351e380328175.json",
-    "task": "43c2e8b4f807fe3ae2ba377bfdd8b468",
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
+    "task": "cffd873dbc784b2e553c5383573e3176",
     "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e"
   }
 }

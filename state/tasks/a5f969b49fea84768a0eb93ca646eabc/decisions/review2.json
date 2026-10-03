@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Romans 1:18–32 quotation, list of vices",
+      "severity": "major",
+      "source_quote": "“...whisperers, Backbiters, haters of God, despiteful, proud, boasters... covenantbreakers...”",
+      "suggested_fix": "Replace “geweldenaars” with “vermeteles” (or another Afrikaans equivalent of “despiteful”), and replace “onbetroubaar” with “verbondsbrekers” to preserve the two distinct meanings in the source.",
+      "translation_quote": "“...kwaadpraters, kwaadsprekers, haters van God, geweldenaars, trotsaards, grootpraters... onbetroubaar...”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

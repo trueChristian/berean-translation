@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": "723294fc5b3c2e52a000f88b6f9d8460dd71b2f08ff5b5cd40026385bbffc52a",
   "base_metadata_sha256": "18bd6e5f0d93a99ec75e096ff27b636edf602c034a94c1b6371ae22af6b7b1dc",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,25 +44,31 @@
         },
         "total_tokens": 4360
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 280,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 254,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2863,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2860,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3143
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.section / translation.section",
-      "severity": "minor",
-      "source_quote": "SISTER TO SISTER",
-      "suggested_fix": "„Schwester zu Schwester“",
-      "translation_quote": "SISTER TO SISTER"
-    },
-    {
-      "location": "source.title / translation.title",
-      "severity": "minor",
-      "source_quote": "Procrastination Overload",
-      "suggested_fix": "„Überlastung durch Aufschieben“",
-      "translation_quote": "Prokrastination Überlastung"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "ccc0536af0ec51d3d929937b59699c86",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -152,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-6-luna"

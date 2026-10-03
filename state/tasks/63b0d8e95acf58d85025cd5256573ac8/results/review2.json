@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c35a66c8-ea2b-429c-b9c0-53d10a93cf18",
+    "response_id": "chatcmpl-EV1TPjRJKQDLaZGmd5AVLUCwiGh3I",
+    "usage": {
+      "completion_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 609,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3686,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4524
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph 9",
+        "severity": "minor",
+        "source_quote": "“As Jamin clumped into the meadow, he could see a frustrated heap to his right.”",
+        "suggested_fix": "“자민이 초원으로 덜컹거리며 들어갔을 때, 오른쪽에 고통스러운 모습으로 웅크린 형체가 보였다.”",
+        "translation_quote": "“자민이 초원으로 덜컹거리며 들어갔을 때, 오른쪽에서 좌절한 덩어리가 보였다.”"
+      },
+      {
+        "location": "source.html, paragraph 20",
+        "severity": "minor",
+        "source_quote": "“Grandma Otto rocked some more, then smiled.”",
+        "suggested_fix": "“오토 할머니는 잠시 더 흔들의자를 흔들다가 미소를 지었다.”",
+        "translation_quote": "“오토 할머니는 흔들다 더 흔들고는 미소지었다.”"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

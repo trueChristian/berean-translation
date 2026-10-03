@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “When John was 17”",
+      "severity": "minor",
+      "source_quote": "a well-paying job overseeing a plantation",
+      "suggested_fix": "Replace «ایک باغات کی نگرانی کی اچھی تنخواہ والی ملازمت» with «ایک باغ کی نگرانی کی اچھی تنخواہ والی ملازمت»",
+      "translation_quote": "ایک باغات کی نگرانی کی اچھی تنخواہ والی ملازمت"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "f11aa2f168e4ad5ee76a63ef89a209f76cf031e6464d4d978a3cbafcdeef22b0",
   "base_metadata_sha256": "0ba4da3681d7a047c28dd5f1e1d947be9a96fded49173e97302866cbf1902f12",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,25 +44,46 @@
         },
         "total_tokens": 4572
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 796,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 616,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3032,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3029,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3828
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, third paragraph, quotation attributed to Nelson Mandela",
-      "severity": "major",
-      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
-      "suggested_fix": "Translate the quotation into Spanish, preserving its meaning and punctuation. For example: “El fracaso es un maestro y, al final de tu vida, ¿qué crees que lamentarás más: haber fracasado o no haberlo intentado nunca?”",
-      "translation_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
+      "location": "Primer párrafo",
+      "severity": "minor",
+      "source_quote": "My young preschool mind",
+      "suggested_fix": "Mi mente infantil nunca había visto tantos manjares en un solo lugar al mismo tiempo.",
+      "translation_quote": "Mi joven mente de preescolar"
     },
     {
-      "location": "Title and section metadata",
-      "severity": "major",
-      "source_quote": "title: “From the Editor”; section: “From the EDITOR”",
-      "suggested_fix": "Translate both metadata fields into Spanish, for example, title: “Del editor”; section: “DEL EDITOR”.",
-      "translation_quote": "title: “From the Editor”; section: “From the EDITOR”"
+      "location": "Segundo párrafo",
+      "severity": "minor",
+      "source_quote": "We all have one common goal in mind. Together, we share and learn how to effectively communicate what is in our hearts",
+      "suggested_fix": "Todos tenemos un objetivo común. Juntos compartimos y aprendemos cómo comunicar eficazmente lo que hay en nuestros corazones",
+      "translation_quote": "Todos teníamos un objetivo común. Juntos compartimos y aprendemos cómo comunicar eficazmente lo que hay en nuestros corazones"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "7af7e3d4ca0d3920857e6044317864d2",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "spa",
@@ -152,13 +172,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

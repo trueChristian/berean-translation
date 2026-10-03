@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Sometimes this type of overload is not public knowledge”",
+      "severity": "major",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Replace “Eventos traumáticos em nossas comunidades religiosas tradicionais tendem a receber orações, ajuda financeira e atualizações semanais sobre o orçamento.” with “Eventos traumáticos em nossos círculos da planície tendem a receber orações, ajuda financeira e atualizações semanais sobre o orçamento.”",
+      "translation_quote": "Eventos traumáticos em nossas comunidades religiosas tradicionais tendem a receber orações, ajuda financeira e atualizações semanais sobre o orçamento."
+    },
+    {
+      "location": "source.html, paragraph beginning “Sometimes this type of overload is not public knowledge”",
+      "severity": "major",
+      "source_quote": "It could be strained relationships or little bills that add up to a big sum.",
+      "suggested_fix": "Replace “Pode tratar-se de relacionamentos desgastados ou de pequenas contas que se acumulam até formar uma grande quantia.” with “Pode tratar-se de relacionamentos tensos ou de pequenas contas que, somadas, se tornam uma grande quantia.”",
+      "translation_quote": "Pode tratar-se de relacionamentos desgastados ou de pequenas contas que se acumulam até formar uma grande quantia."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

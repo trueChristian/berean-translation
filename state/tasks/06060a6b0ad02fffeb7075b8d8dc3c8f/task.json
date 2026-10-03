@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "49441034e654d5bcb4449b7bceab783b99be13d3a90070538819cd833346e698",
   "base_metadata_sha256": "b9fe9f8673ee721dcef910c6a30a09ab813815e0b439ebfc883a0f7661017328",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,32 +44,61 @@
         },
         "total_tokens": 5738
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 401,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3499,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3496,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3900
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
       "location": "source.html, paragraph 3",
       "severity": "major",
-      "source_quote": "Very well, then Jamin would be simple.",
-      "suggested_fix": "החליפו את ״טיפש״ בניסוח שמשמר את המשמעות של ״simple״ בהקשר, למשל: ״טוב, אם כך ג'יימין יהיה פשוט־דעת.״",
-      "translation_quote": "טוב, אם כך ג'יימין יהיה טיפש."
-    },
-    {
-      "location": "source.html, paragraph 7",
-      "severity": "minor",
-      "source_quote": "the sun was growing old as he crossed the border of the woods.",
-      "suggested_fix": "אפשר לנסח: ״והשמש הלכה והזדקנה כשחצה את גבול היער״, או ״והשמש נטתה לשקוע״; התרגום הנוכחי משנה את הדימוי לשקיעה מפורשת.",
-      "translation_quote": "והשמש הלכה ושקעה כשחצה את גבול היער."
+      "source_quote": "But Kenny had a way of avoiding earshot. So he continued mocking Jamin.",
+      "suggested_fix": "Replace the last two sentences with: \"אבל קני ידע איך להתרחק מטווח שמיעה. וכך המשיך ללעוג לג'יימין.\"",
+      "translation_quote": "אבל קני ידע איך לדבר בלי שישמעו אותו. וכך המשיך ללעוג לג'יימין."
     },
     {
       "location": "source.html, paragraph 7",
       "severity": "minor",
       "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
-      "suggested_fix": "תקנו את הפועל כך שיבטא שהווילונות כיסו/הסתירו את הענפים, למשל: ״וזחלי עש הסתיו כבר פעלו, ווילונות הקורים שלהם הסתירו את הענפים שמעליו.״",
-      "translation_quote": "זחלי העש הטווים קורים בסתיו כבר עשו את מלאכתם, ווילונות הקורים שלהם התנופפו מן הענפים שמעליו."
+      "suggested_fix": "Replace \"כיסו את הענפים שמעליו\" with \"נתלו מהענפים שמעליו\" to convey the web curtains hanging down from the overhead branches.",
+      "translation_quote": "זחלי העש הטווים קורים בסתיו כבר עשו את מלאכתם, ווילונות הקורים שלהם כיסו את הענפים שמעליו."
+    },
+    {
+      "location": "source.html, paragraph 11",
+      "severity": "major",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "Replace \"כתם כהה כיסה את האדמה סביב קני\" with \"האפלה הכתימה את הקרקע סביב קני\"; do not imply an unspecified dark stain or mark.",
+      "translation_quote": "כתם כהה כיסה את האדמה סביב קני."
+    },
+    {
+      "location": "source.html, paragraph 12",
+      "severity": "minor",
+      "source_quote": "Kenny reeled free.",
+      "suggested_fix": "Replace \"קני נחלץ והתנודד\" with \"קני השתחרר והתנדנד\" or another phrasing that preserves the sense that he reeled as he got free.",
+      "translation_quote": "קני נחלץ והתנודד."
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "06060a6b0ad02fffeb7075b8d8dc3c8f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -165,7 +193,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-6-luna"

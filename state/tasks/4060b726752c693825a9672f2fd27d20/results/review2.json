@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "81f6f70a-55f6-493a-9dc2-34d028e30beb",
+    "response_id": "chatcmpl-EV1Sn6QXJA41U9m8rIXEJ7bZQ0YbQ",
+    "usage": {
+      "completion_tokens": 502,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 429,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3824
+    }
+  },
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, Absatz 7",
+        "severity": "minor",
+        "source_quote": "He breathed the rich air",
+        "suggested_fix": "Er atmete die würzige Luft ein",
+        "translation_quote": "Er atmete die schwere Luft ein"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

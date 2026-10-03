@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html and translation.html, final paragraph",
+      "severity": "major",
+      "source_quote": "“He is the reason we have hope, not only for ourselves but also for our brothers.”",
+      "suggested_fix": "Replace only the final words so it reads: “Dialah alasan kita memiliki pengharapan, bukan hanya bagi diri kita sendiri, tetapi juga bagi saudara-saudari kita.”",
+      "translation_quote": "“Dialah alasan kita memiliki pengharapan, bukan hanya bagi diri kita sendiri, tetapi juga bagi saudara-saudara kita.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

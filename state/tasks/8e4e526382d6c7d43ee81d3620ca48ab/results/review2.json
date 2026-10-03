@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "56670b22-33cf-4b1f-8fc9-02539273d33a",
+    "response_id": "chatcmpl-EV1TYzc8uTv7A3X2S9VZ3PwLIOjho",
+    "usage": {
+      "completion_tokens": 287,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3171,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3461
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article.html, paragraph 3",
+        "severity": "major",
+        "source_quote": "“Now I schedule an imaginary appointment before a trip.”",
+        "suggested_fix": "Replace “এখন ভ্রমণের আগে আমি মনে মনে একটি অ্যাপয়েন্টমেন্ট ঠিক করে রাখি।” with “এখন ভ্রমণের আগে আমি মনে মনে একটি কাল্পনিক অ্যাপয়েন্টমেন্ট ঠিক করে রাখি।”",
+        "translation_quote": "“এখন ভ্রমণের আগে আমি মনে মনে একটি অ্যাপয়েন্টমেন্ট ঠিক করে রাখি।”"
+      },
+      {
+        "location": "article.html, final paragraph",
+        "severity": "major",
+        "source_quote": "“A few minor changes can make the biggest difference between a blessed or stressed last minute.”",
+        "suggested_fix": "Replace “কয়েকটি ছোট পরিবর্তনই আশীর্বাদময় ও চাপপূর্ণ শেষ মুহূর্তের মধ্যে বড় পার্থক্য গড়ে দিতে পারে।” with “কয়েকটি ছোটখাটো পরিবর্তনই আশীর্বাদময় শেষ মুহূর্ত আর চাপপূর্ণ শেষ মুহূর্তের মধ্যে সবচেয়ে বড় পার্থক্য গড়ে দিতে পারে।”",
+        "translation_quote": "“কয়েকটি ছোট পরিবর্তনই আশীর্বাদময় ও চাপপূর্ণ শেষ মুহূর্তের মধ্যে বড় পার্থক্য গড়ে দিতে পারে।”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "49df3948-e6d3-4e5d-886e-d8398a70f79c",
+    "response_id": "chatcmpl-EV1U0epKHynvAVjGnDoAju8msjAmk",
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 555,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3700,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3697,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4442
+    }
+  },
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3",
+        "severity": "major",
+        "source_quote": "We need young believers who bravely submit their first children’s stories.",
+        "suggested_fix": "Replace «τις πρώτες τους παιδικές ιστορίες» with «τις πρώτες τους ιστορίες για παιδιά» to convey that these are stories intended for children.",
+        "translation_quote": "Χρειαζόμαστε νέους πιστούς που θα υποβάλουν με θάρρος τις πρώτες τους παιδικές ιστορίες."
+      },
+      {
+        "location": "Paragraph 3",
+        "severity": "minor",
+        "source_quote": "Courageous writers step forward",
+        "suggested_fix": "Correct the spelling to «Θαρραλέοι συγγραφείς».",
+        "translation_quote": "Θαραλλέοι συγγραφείς"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

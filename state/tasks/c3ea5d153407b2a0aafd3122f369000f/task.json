@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "c0a7da966b352f0f9cacd664637e641bd5c8ea23455b75e874c346f59a563869",
   "base_metadata_sha256": "437a37793a83e564291983417f336cfd05ae8a7cfc4bd92ebc86e4808c605a0e",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,39 +44,40 @@
         },
         "total_tokens": 5318
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 650,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3385,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3382,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4035
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Titolo",
-      "severity": "minor",
-      "source_quote": "Jamin Smartens Up",
-      "suggested_fix": "Jamin diventa più sveglio",
-      "translation_quote": "Jamin si fa più saggio"
-    },
-    {
-      "location": "HTML, paragrafo che inizia «C’era un brivido nell’aria»",
+      "location": "HTML, final dialogue paragraph",
       "severity": "major",
-      "source_quote": "“There was a chill in the air as he tramped up over the lawn”",
-      "suggested_fix": "Sostituisci «mentre calpestava il prato» con «mentre attraversava a passi pesanti il prato», per mantenere l’idea che Jamin avanza camminando con passo deciso.",
-      "translation_quote": "«C’era un brivido nell’aria mentre calpestava il prato»"
-    },
-    {
-      "location": "HTML, paragrafo che inizia «Jamin si chinò»",
-      "severity": "major",
-      "source_quote": "“Darkness stained the ground around Kenny.”",
-      "suggested_fix": "Sostituisci «L’oscurità macchiava il terreno intorno a Kenny» con «Il sangue macchiava il terreno intorno a Kenny», rendendo esplicito il riferimento al sangue implicato dal contesto della ferita.",
-      "translation_quote": "«L’oscurità macchiava il terreno intorno a Kenny»"
-    },
-    {
-      "location": "HTML, paragrafo che inizia «Jamin si voltò»",
-      "severity": "minor",
-      "source_quote": "“He was smiling.”",
-      "suggested_fix": "Sostituisci «Sorrideva» con «Stava sorridendo», mantenendo esplicito il soggetto Jamin.",
-      "translation_quote": "«Sorrideva.»"
+      "source_quote": "“God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason.”",
+      "suggested_fix": "Replace the two sentences with: “Dio ti ha fatto così come sei per una ragione, Jamin. Ha fatto Kenny così com’è per una ragione.”",
+      "translation_quote": "“Dio ti ha fatto com’è per una ragione, Jamin. Ha fatto Kenny com’è per una ragione.”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "c3ea5d153407b2a0aafd3122f369000f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -172,7 +172,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-6-luna"

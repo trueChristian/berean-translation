@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ec6ad117-9c9b-4cbf-b1ef-a9e6395d1acf",
+    "response_id": "chatcmpl-EV1TUFoRzw6kB2ThVVAV1r7z83JrF",
+    "usage": {
+      "completion_tokens": 591,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7198,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7792
+    }
+  },
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “Katika Warumi tunasoma” (Romans 1:18–32)",
+        "severity": "major",
+        "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ... Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; ...”",
+        "suggested_fix": "Correct the quoted passage to convey the printed source faithfully. In particular, translate “all ungodliness” as “uovu wote” (not “uasi wote wa Mungu”), and render “maliciousness” with its meaning of malice/wicked intent, not “nia ya kudhuru.” Preserve the existing paragraph structure and the reference (Warumi 1:18-32).",
+        "translation_quote": "“Kwa maana ghadhabu ya Mungu inadhihirishwa kutoka mbinguni juu ya uasi wote wa Mungu na udhalimu wa wanadamu ... wamejaa udhalimu wa kila namna, uasherati, uovu, tamaa mbaya, nia ya kudhuru; ...”"
+      },
+      {
+        "location": "HTML paragraph beginning “Katika Warumi tunasoma” (Romans 1:18–32)",
+        "severity": "major",
+        "source_quote": "“... not only do the same, but have pleasure in them that do them”",
+        "suggested_fix": "Translate “have pleasure in them that do them” as taking pleasure in or approving of those who do such things; for example, “bali pia huwafurahia wale wanaoyafanya.”",
+        "translation_quote": "“... si kwamba wanayafanya tu, bali pia wanawakubali wanaoyafanya”"
+      },
+      {
+        "location": "Paragraph beginning “Huu hapa mfano”",
+        "severity": "major",
+        "source_quote": "“He waters and fertilizes weeds and prunes.”",
+        "suggested_fix": "The source wording says he waters and fertilizes weeds, then prunes. Translate the printed wording without silently changing “weeds” to an implied object such as plants; for example, “Humwagilia na kuweka mbolea kwenye magugu, na kupogoa.”",
+        "translation_quote": "“Humwagilia na kuweka mbolea, hung’oa magugu na kupogoa mimea.”"
+      },
+      {
+        "location": "Paragraph beginning “Basi, mtu anawezaje”",
+        "severity": "major",
+        "source_quote": "“This is where we hit a little closer to home.”",
+        "suggested_fix": "Translate the idiom as bringing the discussion closer to the reader or to home, rather than saying it is merely getting closer to home. For example: “Hapa ndipo jambo hili linapotuhusu sisi wenyewe zaidi.”",
+        "translation_quote": "“Hapa ndipo tunapokaribia zaidi nyumbani.”"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

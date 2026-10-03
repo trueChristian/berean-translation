@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": "abcfecbeaf8007b2643933c51b340309e56074260a2295495437266a0e09c260",
   "base_metadata_sha256": "18ae4415f0e3155e29e158246db8900e983e26cc08d253b3a3bf4dfd7e1c47bc",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,32 +44,40 @@
         },
         "total_tokens": 10419
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1132,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 940,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6666,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6663,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7798
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning «في رسالة رومية نقرأ»",
+      "location": "Romans 1:21, 1:31 (quoted passage)",
       "severity": "major",
-      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ... who have pleasure in them that do them” (Romans 1:18-32).",
-      "suggested_fix": "Translate the entire quoted passage into Arabic, preserving its meaning and wording as printed, and retain the reference in the same position using the conventional Arabic book name and the exact chapter and verse range: (رومية 1:18-32).",
-      "translation_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ... who have pleasure in them that do them” (Romans 1:18-32)."
-    },
-    {
-      "location": "HTML, paragraph beginning «المسيحي لا يؤمن بالعقل البشري»",
-      "severity": "major",
-      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
-      "suggested_fix": "Translate the quoted Scripture into Arabic and retain the reference in the same position, using the conventional Arabic book name and exact chapter and verse: (كولوسي 1:16).",
-      "translation_quote": "«For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him» (Colossians 1:16)."
-    },
-    {
-      "location": "HTML, paragraph beginning «يؤمن المسيحيون أنهم مجرد خدام لسيدهم»",
-      "severity": "major",
-      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
-      "suggested_fix": "Translate the quoted Scripture into Arabic and retain its reference and placement, using the conventional Arabic book name and exact chapter and verse: (يوحنا 15:18).",
-      "translation_quote": "«If the world hate you, ye know that it hated me before it hated you. (John 15:18)»"
+      "source_quote": "“...became vain in their imaginations... Without understanding, covenantbreakers, without natural affection, implacable, unmerciful...”",
+      "suggested_fix": "Within the existing quotation, translate these phrases more faithfully, for example: «باطلين في أفكارهم» for “became vain in their imaginations,” and «بلا فهم، ناقضين للعهود، بلا مودة طبيعية، لا يلينون، بلا رحمة» for the listed traits. Preserve the existing HTML structure and reference.",
+      "translation_quote": "«...بل حمقوا في أفكارهم... بلا فهم ولا عهد ولا حنو ولا رضا ولا رحمة...»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "8d16f354aec8964ee18877308475847f",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -159,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 67,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/73ffad35e60323218112f91b03e6a992fcbade0106463ff2ccfcd441d944684a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-6-luna"

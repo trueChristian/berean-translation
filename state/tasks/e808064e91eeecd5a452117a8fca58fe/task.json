@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "e40ac8a0be67d48050cc1455c05f2ffe5a0f874f3a9d2084fffc3d4601a33118",
   "base_metadata_sha256": "3b16be4e446c2e6a64056fc080b3bd08989bb3713e542ad1fd8d6480aa8dfbc5",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,144 +44,54 @@
         },
         "total_tokens": 12372
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1069,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 742,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6723,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6720,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7792
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Title",
+      "location": "HTML, second paragraph",
       "severity": "major",
-      "source_quote": "ALL NATURE SINGS",
-      "suggested_fix": "Endre tittelen til «HELE NATUREN SYNGER». «Singer» betyr en person som synger, ikke «sings».",
-      "translation_quote": "HELE NATUREN SINGER"
+      "source_quote": "“these vessels of grace and beauty”",
+      "suggested_fix": "Erstatt «disse karene av nåde og skjønnhet» med «disse redskapene for nåde og skjønnhet»",
+      "translation_quote": "«disse karene av nåde og skjønnhet»"
     },
     {
-      "location": "Første avsnitt",
+      "location": "HTML, femte avsnitt",
       "severity": "major",
-      "source_quote": "“Doth not nature itself teach you?”",
-      "suggested_fix": "Oversett sitatet til norsk, for eksempel «Lærer ikke naturen selv dere?»",
-      "translation_quote": "“Doth not nature itself teach you?”"
+      "source_quote": "“the song sparrow and again by the rose-breasted grosbeak”",
+      "suggested_fix": "Erstatt «sangspurvens, og deretter av rosebrystet kardinalens» med en korrekt norsk betegnelse for sangspurven og rose-breasted grosbeak; ikke oversett sistnevnte som en kardinal.",
+      "translation_quote": "«sangspurvens, og deretter av rosebrystet kardinalens»"
     },
     {
-      "location": "Andre avsnitt",
-      "severity": "major",
-      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
-      "suggested_fix": "Oversett sitatet til norsk og bruk norsk boknavn i henvisningen: «Brøler villeslet når det har gress? Rauter oksen over fôret sitt?» (Job 6:5).",
-      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
-    },
-    {
-      "location": "Tredje avsnitt",
-      "severity": "major",
-      "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).",
-      "suggested_fix": "Oversett sitatet til norsk og bruk norsk boknavn: «Er noen glad? La ham synge lovsanger» (Jakob 5:13).",
-      "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13)."
-    },
-    {
-      "location": "Fjerde avsnitt",
-      "severity": "major",
-      "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
-      "suggested_fix": "Oversett sitatet og uttrykket «I will sing» til norsk, og skriv boknavnet på norsk. Behold tallet 22 og vershenvisningen.",
-      "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). På 22 anledninger gjentar Skriften uttrykket, I will sing."
-    },
-    {
-      "location": "Sjette avsnitt",
-      "severity": "major",
-      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19).",
-      "suggested_fix": "Oversett sitatet til norsk, for eksempel «tal til hverandre med salmer, lovsanger og åndelige sanger, syng og spill i hjertet for Herren», og bruk norsk boknavn i henvisningen.",
-      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19)."
-    },
-    {
-      "location": "Sjette avsnitt",
-      "severity": "major",
-      "source_quote": "“Jews have no dealings with the Samaritans.”",
-      "suggested_fix": "Oversett den siterte replikken til norsk: «Jøder har ikke omgang med samaritaner.»",
-      "translation_quote": "“Jews have no dealings with the Samaritans.”"
-    },
-    {
-      "location": "Sjette avsnitt",
-      "severity": "major",
-      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
-      "suggested_fix": "Oversett sitatet til norsk og bruk norsk boknavn i henvisningen; behold kapittel og vers 4:14.",
-      "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
-    },
-    {
-      "location": "Syvende avsnitt",
-      "severity": "major",
-      "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
-      "suggested_fix": "Oversett sitatet til norsk og bruk norsk boknavn i henvisningen: «Se, mine tjenere skal synge av hjertens glede» (Jes 65:14).",
-      "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
-    },
-    {
-      "location": "Åttende avsnitt",
-      "severity": "major",
-      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
-      "suggested_fix": "Oversett hele sitatet til norsk og bruk norsk boknavn i henvisningen: «Babylon den store er falt, falt, og er blitt et tilholdssted for demoner, et skjulested for hver uren ånd og et bur for hver uren og hatefull fugl» (Åp 18:2).",
-      "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
-    },
-    {
-      "location": "Niende avsnitt",
-      "severity": "major",
-      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
-      "suggested_fix": "Oversett sitatet til norsk og bruk norsk boknavn i henvisningen; behold 22:9.",
-      "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9)."
-    },
-    {
-      "location": "Niende avsnitt",
-      "severity": "major",
-      "source_quote": "Filistines “had filled them with earth” (Gen 26:15).",
-      "suggested_fix": "Oversett det siterte uttrykket til norsk («hadde fylt dem med jord») og bruk norsk boknavn i henvisningen: (1 Mos 26:15).",
-      "translation_quote": "Filisterne “had filled them with earth” (Gen 26:15)."
-    },
-    {
-      "location": "Tiende avsnitt",
-      "severity": "major",
-      "source_quote": "Ingratitude.",
-      "suggested_fix": "Oversett overskriften til norsk: «Utakknemlighet».",
-      "translation_quote": "Ungratitude."
-    },
-    {
-      "location": "Tiende avsnitt",
-      "severity": "major",
-      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).",
-      "suggested_fix": "Oversett hele sitatet til norsk og bruk norsk boknavn i henvisningen. Behold versrekken 137:2–4.",
-      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
-    },
-    {
-      "location": "Tiende avsnitt",
-      "severity": "major",
-      "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
-      "suggested_fix": "Oversett sitatet til norsk og bruk norsk boknavn i henvisningen. Behold versrekken 29:5–7.",
-      "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
-    },
-    {
-      "location": "Siste avsnitt",
-      "severity": "major",
-      "source_quote": "“giving glory to God in the highest.”",
-      "suggested_fix": "Oversett det siterte uttrykket til norsk, for eksempel «ære være Gud i det høyeste».",
-      "translation_quote": "“giving glory to God in the highest.”"
-    },
-    {
-      "location": "Siste avsnitt",
-      "severity": "major",
-      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
-      "suggested_fix": "Oversett hele sitatet til norsk og bruk norsk boknavn i henvisningen. Behold begge versnumrene og deres plassering: 3:16, 23.",
-      "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
-    },
-    {
-      "location": "Femte avsnitt",
-      "severity": "major",
-      "source_quote": "The song of the wren trumps them all for longevity and vibrancy.",
-      "suggested_fix": "Oversett fuglenavnet «wren» korrekt (for eksempel «gjerdesmett») og gjengi at dens sang overgår de andre i varighet og livfullhet.",
-      "translation_quote": "Skrikens sang overgår dem alle i varighet og livfullhet."
-    },
-    {
-      "location": "Andre avsnitt",
+      "location": "HTML, femte avsnitt",
       "severity": "minor",
-      "source_quote": "Many animals dwelling on the earth",
-      "suggested_fix": "Rett den grammatiske formuleringen til «pattedyrene på marken».",
-      "translation_quote": "felts pattedyrene"
+      "source_quote": "“The buntings fill in the heat of the day when other birds are silent.”",
+      "suggested_fix": "Bruk en naturlig norsk betegnelse for buntings i stedet for «buntingsangerne», for eksempel «spurvefuglene» dersom det passer med den tilsiktede fuglegruppen.",
+      "translation_quote": "«Buntingsangerne fyller den varme delen av dagen med sang når andre fugler tier.»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "e808064e91eeecd5a452117a8fca58fe",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nob",
@@ -271,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 45,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-6-luna"

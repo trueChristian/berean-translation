@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Title, section headings, and throughout the article",
+      "severity": "major",
+      "source_quote": "“Dealing with Cynicism”; “Today, cynicism means a tendency to believe the worst about people and circumstances.”",
+      "suggested_fix": "Use an Arabic equivalent that preserves the article’s concept of cynicism—such as «النزعة الارتيابية التشاؤمية»—consistently in the title, headings, and body, rather than «التشاؤم» alone, which means pessimism and does not convey the distrustful attitude toward people and circumstances described here.",
+      "translation_quote": "«التعامل مع التشاؤم»; «اليوم، يعني التشاؤم الميل إلى تصديق أسوأ ما في الناس والظروف.»"
+    },
+    {
+      "location": "Ecclesiastes 4:13 quotation",
+      "severity": "major",
+      "source_quote": "“For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor”",
+      "suggested_fix": "Revise the final clause to say that the person born in the kingdom becomes poor, not that he was born poor. For example: «لأنه يخرج من السجن إلى الملك، وكذلك الذي وُلد في مملكته يصير فقيرًا.» Preserve the reference as (الجامعة 4:13).",
+      "translation_quote": "«لأنه قد يخرج من السجن إلى الملك، مع أنه وُلد فقيرًا في مملكته.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

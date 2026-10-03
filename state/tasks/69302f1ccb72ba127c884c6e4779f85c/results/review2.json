@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "32110209-bfff-45aa-b2b5-839b6a0abe66",
+    "response_id": "chatcmpl-EV1UVv4qSOoxA0pZV5z7z5KMAsgHm",
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6852,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6849,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7515
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Artikelns första brödtextstycke",
+        "severity": "major",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Ändra repliken till ”En del planterar, en del vattnar, men Gud får det att växa.” (eller en annan svensk formulering som tydligt bevarar innebörden att Gud ger tillväxten).",
+        "translation_quote": "”En del planterar, en del vattnar, men Gud får det att växa.”"
+      },
+      {
+        "location": "Artikelns stycke som börjar ”I Romarbrevet läser vi”",
+        "severity": "major",
+        "source_quote": "Romans 1:18-32",
+        "suggested_fix": "Översätt hela det citerade bibelstycket troget den engelska källtexten, inklusive den avslutande betydelsen ”and have pleasure in them that do them” (att de också finner behag i dem som gör sådant). Behåll referensen som Romarbrevet 1:18-32.",
+        "translation_quote": "”... Ändå gör de inte bara sådant själva, utan de berömmer också andra som gör det.” (Romarbrevet 1:18-32)"
+      },
+      {
+        "location": "Stycket som börjar ”Här är ett exempel”",
+        "severity": "major",
+        "source_quote": "“This man, however, boasted of all that he had accomplished.”",
+        "suggested_fix": "Ändra ”skryter” till dåtid, till exempel ”Denne man skröt dock om allt han hade åstadkommit.”",
+        "translation_quote": "”Denne man skryter dock om allt han åstadkommit.”"
+      },
+      {
+        "location": "Stycket som börjar ”Den kristne tror inte på mänskligt resonemang”",
+        "severity": "major",
+        "source_quote": "“all things were created by him, and for him” (Colossians 1:16)",
+        "suggested_fix": "Återge skillnaden mellan ”by him” och ”for him” i citatet, exempelvis ”Allt är skapat genom honom och för honom.” Behåll referensen som Kolosserbrevet 1:16.",
+        "translation_quote": "”Allt är skapat genom honom och till honom.” (Kolosserbrevet 1:16)"
+      },
+      {
+        "location": "Stycket som börjar ”Den kristne förnekar sig själv”",
+        "severity": "major",
+        "source_quote": "“The Christian thinks nothing of himself or the ability of man”",
+        "suggested_fix": "Ändra till en formulering som uttrycker att den kristne inte tänker högt om sig själv eller människans förmåga, exempelvis ”Den kristne har inga höga tankar om sig själv eller människans förmåga”.",
+        "translation_quote": "”Den kristne tänker intet om sig själv eller människans förmåga”"
+      },
+      {
+        "location": "Rubrik/metadata: title",
+        "severity": "minor",
+        "source_quote": "The Christian Humanist",
+        "suggested_fix": "Använd svensk ordföljd: ”Den kristna humanisten”.",
+        "translation_quote": "Den kristna humanisten"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

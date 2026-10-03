@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "शीर्षक और पूरे लेख में प्रयुक्त मुख्य शब्दावली",
+      "severity": "major",
+      "source_quote": "A Christ-centered courtship is a period of time between a single life and a married life.",
+      "suggested_fix": "विवाह-पूर्व संबंध के लिए प्रचलित और स्पष्ट शब्दावली अपनाएँ, जैसे “विवाह-पूर्व परिचय” या “विवाह-पूर्व संबंध”, और पूरे लेख में उसे एकसमान रखें। साथ ही ध्यान दें कि शीर्षक “A Christ-Centered Courtship” का अनुवाद “मसीह-केंद्रित विवाह-पूर्व संबंध” ही हो, न कि ऐसा शब्द जो केवल विवाह-संबंध दर्शाए।",
+      "translation_quote": "मसीह-केंद्रित विवाह-पूर्व संबंध अविवाहित जीवन और विवाहित जीवन के बीच की एक अवधि है।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

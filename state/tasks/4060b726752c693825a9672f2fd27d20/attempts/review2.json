@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, Absatz 7\",\"severity\":\"minor\",\"source_quote\":\"He breathed the rich air\",\"suggested_fix\":\"Er atmete die würzige Luft ein\",\"translation_quote\":\"Er atmete die schwere Luft ein\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 240,
+    "content_evidence_truncated": false,
+    "content_sha256": "95d8dbb1bd00a29711a4ca7a8fd9a90317e468460c03146f4869e4bb093201bf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 502,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 429,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3824
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

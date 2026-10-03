@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Να ένα παράδειγμα»",
+      "severity": "major",
+      "source_quote": "A Christian plants a garden and takes care of it each day. He waters and fertilizes weeds and prunes.",
+      "suggested_fix": "Διορθώστε το σημείο ώστε να λέει ότι ποτίζει, λιπαίνει, ξεχορταριάζει και κλαδεύει: «Ποτίζει, λιπαίνει, ξεχορταριάζει και κλαδεύει.»",
+      "translation_quote": "Ποτίζει και λιπαίνει, ξεχορταριάζει και κλαδεύει."
+    },
+    {
+      "location": "Paragraph beginning «Οι χριστιανοί πιστεύουν»",
+      "severity": "major",
+      "source_quote": "If the world hate you, ye know that it hated me before it hated you. (John 15:18)",
+      "suggested_fix": "Αποδώστε την αναφορά ως ξεχωριστό μέρος του παραθέματος, χωρίς να αλλάξετε τη σειρά των στοιχείων: «Αν ο κόσμος σάς μισεί, να ξέρετε ότι μίσησε εμένα πριν από εσάς» (Ιωάννης 15:18).",
+      "translation_quote": "«Αν ο κόσμος σάς μισεί, να ξέρετε ότι μίσησε εμένα πριν από εσάς. (Ιωάννης 15:18)»"
+    },
+    {
+      "location": "Paragraph beginning «Ο χριστιανός δεν πιστεύει»",
+      "severity": "major",
+      "source_quote": "For by him were all things created, that are in heaven, and that are in earth, visible and invisible ... all things were created by him, and for him",
+      "suggested_fix": "Αντικαταστήστε το «Δι’ Αυτού δημιουργήθηκαν» με σύγχρονη δημοτική διατύπωση που αποδίδει καθαρά «μέσω αυτού»: «Μέσω αυτού δημιουργήθηκαν τα πάντα ... τα πάντα δημιουργήθηκαν μέσω αυτού και γι’ αυτόν».",
+      "translation_quote": "«Δι’ Αυτού δημιουργήθηκαν τα πάντα ... τα πάντα δημιουργήθηκαν δι’ Αυτού και γι’ Αυτόν»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

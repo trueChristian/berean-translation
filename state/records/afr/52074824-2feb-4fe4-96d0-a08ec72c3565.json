@@ -18,26 +18,32 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "a255498791e24dfda6c4fd7b4b017d3b"
+    },
+    {
+      "at": "2026-10-03T21:32:40+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "a255498791e24dfda6c4fd7b4b017d3b"
     }
   ],
   "language": "afr",
   "latest_task": "a255498791e24dfda6c4fd7b4b017d3b",
   "published": {
     "html_path": "content/afr/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
-    "html_sha256": "b636b98deceadf83aca06ee594f5820f843e875081fe6661d7727a80277c9ca0",
+    "html_sha256": "d3ba08d3901a5645215638a1fdcc7e3b5285f97a297c7416e0d0335a50b0bb79",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
     "metadata_path": "content/afr/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
-    "metadata_sha256": "0a2c09df87d7b5351e558f99a6297f6841e86ef25de6802be2d1d9b184acc196",
-    "model": "gpt-5-mini-2025-08-07",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: gpt-5-mini-2025-08-07) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is. <a href=\"/en/articles/52074824-2feb-4fe4-96d0-a08ec72c3565/\" data-source-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
-    "published_at": "2026-09-29T20:52:06+00:00",
+    "metadata_sha256": "0c28f5b71125df0d61ab4dbe471a6e356679699919b94b680b5e1ceb5a2d01cb",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: gpt-6-luna) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is. <a href=\"/en/articles/52074824-2feb-4fe4-96d0-a08ec72c3565/\" data-source-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "published_at": "2026-10-03T21:32:40+00:00",
     "quality_score": 97,
-    "review_model": "gpt-5-mini-2025-08-07",
-    "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
-    "source_snapshot": "state/sources/0f8df8a965d2b8c793d4ea0931725a40cd8a0e03034c08aea99c21fe7597385e.json",
-    "task": "36055bbf62a24a7f3ef80a84d362115d",
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
+    "task": "a255498791e24dfda6c4fd7b4b017d3b",
     "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e"
   }
 }

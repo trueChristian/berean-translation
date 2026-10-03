@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening account, paragraph beginning «I det tempoet du drikker»",
+      "severity": "minor",
+      "source_quote": "“...find you an inpatient program to detox you...”",
+      "suggested_fix": "Rett skrivefeilen «avrus es» til «avruses» i setningen: «...et døgnbehandlingstilbud der du kan avruses og komme deg bort fra alkoholen.»",
+      "translation_quote": "«...et døgnbehandlingstilbud der du kan avrus es og komme deg bort fra alkoholen.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

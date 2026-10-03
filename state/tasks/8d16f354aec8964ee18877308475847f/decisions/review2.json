@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Romans 1:21, 1:31 (quoted passage)",
+      "severity": "major",
+      "source_quote": "“...became vain in their imaginations... Without understanding, covenantbreakers, without natural affection, implacable, unmerciful...”",
+      "suggested_fix": "Within the existing quotation, translate these phrases more faithfully, for example: «باطلين في أفكارهم» for “became vain in their imaginations,” and «بلا فهم، ناقضين للعهود، بلا مودة طبيعية، لا يلينون، بلا رحمة» for the listed traits. Preserve the existing HTML structure and reference.",
+      "translation_quote": "«...بل حمقوا في أفكارهم... بلا فهم ولا عهد ولا حنو ولا رضا ولا رحمة...»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

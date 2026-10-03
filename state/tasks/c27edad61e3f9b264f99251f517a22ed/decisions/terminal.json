@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “There are two types of humanistic beliefs”",
+      "severity": "major",
+      "source_quote": "This allows the human race to do as it pleases without eternal consequences.",
+      "suggested_fix": "이로써 인류는 영원한 결과를 감수하지 않고도 원하는 대로 행동할 수 있다.",
+      "translation_quote": "그러면 인류는 영원한 결과에 대한 걱정 없이 원하는 대로 행동할 수 있다."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

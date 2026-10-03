@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة الثالثة، الجملة عن الآباء\",\"severity\":\"major\",\"source_quote\":\"Fathers who with a concerned eye watch the world pressing in on the Christian homes.\",\"suggested_fix\":\"استبدل «ونحتاج إلى آباء يراقبون بعين قلقة العالم وهو يضغط على البيوت المسيحية» بـ«وآباء يراقبون بقلق العالم وهو يزداد ضغطاً على البيوت المسيحية» لتوضيح معنى «pressing in on» في السياق.\",\"translation_quote\":\"ونحتاج إلى آباء يراقبون بعين قلقة العالم وهو يضغط على البيوت المسيحية.\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 733,
+    "content_evidence_truncated": false,
+    "content_sha256": "f32bcd4512885e3810aa7c36bf3303d1d31b37083d3d69b55eeeda5333fccc8e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 155,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3316
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

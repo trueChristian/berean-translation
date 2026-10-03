@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 2",
+      "severity": "minor",
+      "source_quote": "By the time the last minute things are completed I’m too exhausted to enjoy the planned event.",
+      "suggested_fix": "Replace “är jag ofta för utmattad” with “är jag för utmattad” to avoid adding a frequency claim.",
+      "translation_quote": "När sista-minuten-uppgifterna är avklarade är jag ofta för utmattad för att njuta av det planerade evenemanget."
+    },
+    {
+      "location": "Article, paragraph under “Tandvärk och bilresor”",
+      "severity": "minor",
+      "source_quote": "a stubbed toe",
+      "suggested_fix": "Use “en stött tå” or “att slå i tån” to convey the specific mishap of stubbing a toe.",
+      "translation_quote": "en tå som slagit i något"
+    },
+    {
+      "location": "Article, paragraph beginning “Tidsfrister är en normal del av livet”",
+      "severity": "minor",
+      "source_quote": "our days would lack purpose",
+      "suggested_fix": "Replace “sakna mening” with “sakna syfte” to preserve the sense of purpose.",
+      "translation_quote": "våra dagar skulle sakna mening"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

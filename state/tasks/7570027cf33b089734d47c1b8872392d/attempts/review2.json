@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"تیسرے بند، سطر 3\",\"severity\":\"major\",\"source_quote\":\"Bow down in awful, holy fear-\",\"suggested_fix\":\"مقدس ہیبت کے ساتھ خوف سے جھک جاؤ-\",\"translation_quote\":\"مقدس ہیبت کے ساتھ جھک جاؤ-\"},{\"location\":\"تیسرے بند، آخری سطر\",\"severity\":\"major\",\"source_quote\":\"Adore th’ almighty King of Kings!\",\"suggested_fix\":\"بادشاہوں کے بادشاہ، قادرِ مطلق کی عبادت کرو!\",\"translation_quote\":\"بادشاہوں کے بادشاہ، قادرِ مطلق کی عبادت کرو!\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 621,
+    "content_evidence_truncated": false,
+    "content_sha256": "aa10bcf08076810251525a04949b574ef768d3f7cafb8d96553513adca7b660a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 159,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1685,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1682,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1844
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

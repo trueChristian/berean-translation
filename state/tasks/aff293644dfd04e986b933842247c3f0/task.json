@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "5e3da808fe69cbc32375ed18864abfb638c584f5473784ea7fbaec71c4ebfbb3",
   "base_metadata_sha256": "bb797a3c66eb32c49eeba39bce88876d3ee8bf13fc0aea271286a6a2df52df42",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,39 +44,53 @@
         },
         "total_tokens": 5081
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 751,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 499,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3117,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3114,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3868
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, third paragraph, Nelson Mandela quotation",
-      "severity": "major",
-      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
-      "suggested_fix": "Translate the quoted prose into German while preserving its meaning, for example: „Scheitern ist ein Lehrer, und am Ende deines Lebens: Was glaubst du, wirst du mehr bereuen – zu scheitern oder es nie versucht zu haben?“",
-      "translation_quote": "„Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?“"
+      "location": "translation.section",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Vom HERAUSGEBER",
+      "translation_quote": "Aus dem HERAUSGEBER"
     },
     {
-      "location": "HTML, third paragraph",
+      "location": "translation.html, paragraph beginning “The Berean Voice has a goal”",
       "severity": "minor",
-      "source_quote": "“Seasoned grandfathers who bring words of admonishment to the younger generation.”",
-      "suggested_fix": "Use the correct German gender and a natural phrasing, for example: „Erfahrene Großväter, die der jüngeren Generation mahnende Worte mitgeben.“",
-      "translation_quote": "„Erfahrene Großväter, die dem jüngeren Generation mahnende Worte bringen.“"
+      "source_quote": "help readers navigate through the varied and difficult seasons of life",
+      "suggested_fix": "… das den Lesern hilft, sich in den vielfältigen und schwierigen Lebensphasen zurechtzufinden.",
+      "translation_quote": "… das den Lesern hilft, durch die vielfältigen und schwierigen Lebensphasen zu navigieren."
     },
     {
-      "location": "HTML, first paragraph",
+      "location": "translation.html, paragraph beginning “The Heartbeat of the Remnant”",
       "severity": "minor",
-      "source_quote": "“My young preschool mind had never seen so many delectable sweets in one place at one time.”",
-      "suggested_fix": "Keep the source's reference to the narrator's young mind rather than changing it to memory; for example: „Mein junges Vorschulkind-Gemüt hatte noch nie so viele köstliche Süßigkeiten auf einmal an einem Ort gesehen.“",
-      "translation_quote": "„Mein junges Vorschulkind-Gedächtnis hatte noch nie so viele köstliche Süßigkeiten an einem Ort zu einer Zeit gesehen.“"
-    },
-    {
-      "location": "HTML, third paragraph",
-      "severity": "minor",
-      "source_quote": "“Fathers who with a concerned eye watch the world pressing in on the Christian homes.”",
-      "suggested_fix": "Use a more idiomatic rendering for Christian households, for example: „Väter, die mit besorgtem Blick beobachten, wie die Welt auf die christlichen Familien eindringt.“",
-      "translation_quote": "„Väter, die mit besorgtem Blick die Welt beobachten, wie sie auf christliche Häuser drängt.“"
+      "source_quote": "Fathers who with a concerned eye watch the world pressing in on the Christian homes.",
+      "suggested_fix": "Väter, die mit besorgtem Blick beobachten, wie die Welt in die christlichen Familien einzudringen versucht.",
+      "translation_quote": "Väter, die mit besorgtem Blick beobachten, wie die Welt auf die christlichen Familien eindringt."
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "aff293644dfd04e986b933842247c3f0",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -166,13 +179,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

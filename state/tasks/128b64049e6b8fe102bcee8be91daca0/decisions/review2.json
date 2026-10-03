@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 7",
+      "severity": "minor",
+      "source_quote": "He breathed the rich air",
+      "suggested_fix": "Replace “समृद्ध हवा” with a natural Hindi rendering such as “उसने ताज़ी, सोंधी हवा में साँस ली”",
+      "translation_quote": "उसने समृद्ध हवा में सांस ली"
+    },
+    {
+      "location": "HTML paragraph 9",
+      "severity": "minor",
+      "source_quote": "The heap’s face was lit in pain.",
+      "suggested_fix": "Replace “दर्द से दमक रहा था” with “उसके चेहरे पर दर्द झलक रहा था”",
+      "translation_quote": "उस गठरी का चेहरा दर्द से दमक रहा था।"
+    },
+    {
+      "location": "HTML paragraph 9",
+      "severity": "minor",
+      "source_quote": "seeing Kenny scrunched in the dirt",
+      "suggested_fix": "Replace “मिट्टी में गड़ा” with “मिट्टी में सिकुड़ा पड़ा”",
+      "translation_quote": "जैमिन को केनी को मिट्टी में गड़ा देख कर अजीब सा लगा।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

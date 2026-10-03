@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section 4, paragraph beginning «Το σχέδιο του Θεού είναι…»; also section 5, paragraph beginning «Σκεφτείτε τη χαρά…»\",\"severity\":\"major\",\"source_quote\":\"“God’s plan is that marriage is an equal yoke.” … “If they are equally yoked…”\",\"suggested_fix\":\"Replace «ισότιμο ζυγό» with «ομόζυγο γάμο» (or an equally clear Greek equivalent for being spiritually matched), and replace «Αν είναι ισότιμα ενωμένοι» with «Αν είναι ομόζυγοι». Apply the same terminology consistently where “equal yoke” recurs.\",\"translation_quote\":\"«Το σχέδιο του Θεού είναι ο γάμος να αποτελεί ισότιμο ζυγό.» … «Αν είναι ισότιμα ενωμένοι και ο Θεός τούς ευλογήσει με παιδιά…»\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 935,
+    "content_evidence_truncated": false,
+    "content_sha256": "25102993b83cc299f501e6d45e318206dafb34d6ca5d1eef3ea57c2f10dd9b4d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1023,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 791,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14886,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14883,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15909
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

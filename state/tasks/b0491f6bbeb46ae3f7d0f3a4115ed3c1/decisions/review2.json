@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Broren min arbeidet i drivhuset»",
+      "severity": "major",
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "Rett sitatet til «Noen planter, noen vanner, men Gud gir vekst.»",
+      "translation_quote": "«Noen plantet, noen vannet, men Gud gir veksten.»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «Her er et eksempel»",
+      "severity": "major",
+      "source_quote": "“He waters and fertilizes weeds and prunes.”",
+      "suggested_fix": "Oversett den trykte ordlyden uten å gjøre «weeds» om til en handling: «Han vanner, gjødsler ugress og beskjærer.»",
+      "translation_quote": "«Han vanner, gjødsler, fjerner ugress og beskjærer.»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «Her er et eksempel»",
+      "severity": "major",
+      "source_quote": "“He also received a bountiful harvest.”",
+      "suggested_fix": "Endre til «Han fikk også en rik høst.» Kilden sier ikke at naboen «også» fikk eller høstet frukt som subjekt.",
+      "translation_quote": "«Han fikk også en rik høst.»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «Her er et eksempel»",
+      "severity": "major",
+      "source_quote": "“One gave God the credit, and one credited himself.”",
+      "suggested_fix": "Endre den andre delen til «Den ene ga Gud æren, og den andre ga seg selv æren.»",
+      "translation_quote": "«Den ene ga Gud æren, og den ene gav seg selv æren.»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «Humanistene, med all sin resonnering»",
+      "severity": "minor",
+      "source_quote": "“most colleges in America”",
+      "suggested_fix": "Bruk «de fleste høyskolene/universitetene i Amerika»; «høyskoler» alene er ikke en naturlig gjengivelse av det brede uttrykket i denne sammenhengen.",
+      "translation_quote": "«de fleste høyskoler i Amerika»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «En minister fra Kina»",
+      "severity": "minor",
+      "source_quote": "“A minister from China”",
+      "suggested_fix": "Bruk «En kirkens tjener» eller «En forkynner fra Kina»; «minister» gir på norsk primært assosiasjon til en regjeringsminister.",
+      "translation_quote": "«En minister fra Kina»"
+    },
+    {
+      "location": "HTML, avsnittet som begynner «Kristne tror de bare er tjenere»",
+      "severity": "minor",
+      "source_quote": "“They are hated by the world and despised by most, rejected.”",
+      "suggested_fix": "Gjengi den oppstykkede formuleringen idiomatisk, for eksempel «De er hatet av verden, foraktet av de fleste og forkastet.»",
+      "translation_quote": "«De blir hatet av verden og foraktet av de fleste, forkastet.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

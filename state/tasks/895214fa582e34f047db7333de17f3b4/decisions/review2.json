@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph with the market description",
+      "severity": "minor",
+      "source_quote": "deli meat and sandwiches",
+      "suggested_fix": "Ganti “daging deli dan roti lapis” dengan “daging olahan dan roti lapis” agar istilahnya lebih jelas bagi pembaca Indonesia.",
+      "translation_quote": "daging deli dan roti lapis"
+    },
+    {
+      "location": "source.html, class=\"book-list\", ninth title",
+      "severity": "minor",
+      "source_quote": "The Catholic Connection",
+      "suggested_fix": "Pertimbangkan “Kaitan Katolik” agar makna “connection” sebagai kaitan atau hubungan antartopik tidak terbaca sebagai hubungan personal.",
+      "translation_quote": "Hubungan Katolik"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

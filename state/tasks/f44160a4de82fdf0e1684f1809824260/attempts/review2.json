@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “That was the straw that broke the camel’s back”\",\"severity\":\"major\",\"source_quote\":\"“That was the straw that broke the camel’s back,” Becky said.\",\"suggested_fix\":\"Ganti kalimat itu dengan: “Itulah beban terakhir yang membuatnya tak sanggup lagi,” kata Becky.\",\"translation_quote\":\"“Itulah yang membuat semuanya menjadi berantakan,” kata Becky.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 447,
+    "content_evidence_truncated": false,
+    "content_sha256": "b100b57ebd201deb68e4325244864cc980b25ebe16393c0d91295f700dc5aa44",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 627,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4019,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4016,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4646
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

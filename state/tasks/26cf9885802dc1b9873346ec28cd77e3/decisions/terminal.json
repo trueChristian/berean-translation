@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “About a year later”",
+      "severity": "major",
+      "source_quote": "“...if she had gone to rehab and if she had given control to Jesus.”",
+      "suggested_fix": "Change “haar lewe aan Jesus oorgegee het” to “beheer aan Jesus oorgegee het” so the translation preserves the source’s specific assertion about surrendering control.",
+      "translation_quote": "“...as sy na rehabilitasie gegaan en haar lewe aan Jesus oorgegee het.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

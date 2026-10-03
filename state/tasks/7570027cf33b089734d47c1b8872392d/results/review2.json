@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "522eb3dc-b26c-4ffb-bd9c-6dab2733a5e6",
+    "response_id": "chatcmpl-EV1V8kexQtVF4nmmRnf5lEIZPWl4F",
+    "usage": {
+      "completion_tokens": 159,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1685,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1682,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1844
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "تیسرے بند، سطر 3",
+        "severity": "major",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "مقدس ہیبت کے ساتھ خوف سے جھک جاؤ-",
+        "translation_quote": "مقدس ہیبت کے ساتھ جھک جاؤ-"
+      },
+      {
+        "location": "تیسرے بند، آخری سطر",
+        "severity": "major",
+        "source_quote": "Adore th’ almighty King of Kings!",
+        "suggested_fix": "بادشاہوں کے بادشاہ، قادرِ مطلق کی عبادت کرو!",
+        "translation_quote": "بادشاہوں کے بادشاہ، قادرِ مطلق کی عبادت کرو!"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": "2c701da0672510d0bdcef9e009393bb462c672f71a85f768f15c983ee2a068d0",
   "base_metadata_sha256": "f9cc524eaf99c51c2abbb6fedf6aa60f6b44a0e3f6276287a8daa3c416134b47",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,32 +44,39 @@
         },
         "total_tokens": 11182
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 727,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6980,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6977,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7707
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML paragraph beginning “John Newton often composed a hymn…”",
-      "severity": "major",
-      "source_quote": "John Newton often composed a hymn to go with his Sunday evening services. In 1779, 280 of these were collected and combined with 68 hymns by Newton’s friend and parishioner, William Cowper, and published as the Olney Hymns.",
-      "suggested_fix": "Replace the opening sentence of this paragraph with: ג'ון ניוטון חיבר לעיתים קרובות מזמור שילווה את טקסי יום ראשון בערב שלו. Preserve the remaining translated sentences.",
-      "translation_quote": "ג'ון ניוטון חיבר לעיתים קרובות מזמור שילווה את תפילות ערב יום ראשון שלו."
-    },
-    {
-      "location": "HTML paragraph beginning “As minister in the church…”",
-      "severity": "major",
-      "source_quote": "He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
-      "suggested_fix": "Replace the introductory words הוא מצטט כך: with הוא כתב:.",
-      "translation_quote": "הוא מצטט כך: ״מיותר לומר שתפיסתם, מכירתם והובלתם של עבדים שחורים למטעים באיי הודו המערבית ובאמריקה היו דרך חיים אכזרית ומרושעת.״"
-    },
-    {
-      "location": "HTML paragraph beginning “The tune ‘Amazing Grace’…”",
-      "severity": "major",
-      "source_quote": "In 1910, Edwin O. Excell added the last verse, which eventually replaced the last three original verses of the song.",
-      "suggested_fix": "Correct the year to 1910 while retaining the source’s account of Edwin O. Excell adding the last verse.",
-      "translation_quote": "בשנת 1910 הוסיף אדווין או. אקסל את הבית האחרון, שבסופו של דבר החליף את שלושת הבתים האחרונים המקוריים של השיר."
+      "location": "פסקה על ניסיונו של ניוטון להנהיג מנהגים נוצריים בספינת העבדים",
+      "severity": "minor",
+      "source_quote": "“John endeavored to ‘Christianize’ his slave ship by holding Sunday services for his crew of 30 sin-hardened men.”",
+      "suggested_fix": "החליפו את ״קיום תפילות יום ראשון״ ב״קיום תפילות יום ראשון בצוותו״ או, באופן מדויק יותר, ״קיום טקסי תפילה ביום ראשון לצוותו״; ״תפילות״ בלבד מצמצם את המשמעות של Sunday services.",
+      "translation_quote": "ג'ון השתדל ״להפוך לנוצרית״ את ספינת העבדים שלו באמצעות קיום תפילות יום ראשון לצוותו, שכלל 30 גברים שהחטא הקשיח את לבם."
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "2470034145e350a98a34a88c27a4b1f2",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -159,13 +165,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e12873e5710ad71105e16e1ae218a32ffaf8dc7a959466e538168a5aa937b0c2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-6-luna"

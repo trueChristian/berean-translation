@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Джамин с широко раскрытыми глазами верил…»",
+      "severity": "minor",
+      "source_quote": "“But Kenny had a way of avoiding earshot. So he continued mocking Jamin.”",
+      "suggested_fix": "Заменить предложение «Но Кенни умел так говорить, чтобы они не слышали» на «Но Кенни умел держаться вне пределов их слышимости» — так сохраняется смысл, что Кенни избегал быть услышанным родителями.",
+      "translation_quote": "«Но Кенни умел так говорить, чтобы они не слышали. Поэтому он продолжал насмехаться над Джамином.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

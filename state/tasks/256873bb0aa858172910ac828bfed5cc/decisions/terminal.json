@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “The Christian does not believe in human reasoning.”",
+      "severity": "major",
+      "source_quote": "The Christian does not believe in human reasoning.",
+      "suggested_fix": "Change the sentence to: “Orang Kristen tidak percaya pada penalaran manusia.”",
+      "translation_quote": "Orang Kristen tidak mengandalkan penalaran manusia."
+    },
+    {
+      "location": "source.html, paragraph beginning “It can be extremely difficult to seek the Lord…”",
+      "severity": "major",
+      "source_quote": "seek the Lord",
+      "suggested_fix": "Change “mencari Tuhan” to “mencari Allah” to match the article’s established reference to God.",
+      "translation_quote": "mencari Tuhan"
+    },
+    {
+      "location": "source.html, paragraph beginning “Christians believe they are merely servants…”",
+      "severity": "major",
+      "source_quote": "They are hated by the world and despised by most, rejected.",
+      "suggested_fix": "Revise the clause to preserve the source’s three claims, for example: “Mereka dibenci oleh dunia, dipandang rendah oleh kebanyakan orang, dan ditolak.”",
+      "translation_quote": "Mereka dibenci oleh dunia, dipandang rendah oleh kebanyakan orang, dan ditolak."
+    },
+    {
+      "location": "source.html, Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness;”",
+      "suggested_fix": "Translate the quoted passage faithfully, including the source’s wording about people who “hold the truth in unrighteousness”; revise the opening to something like: “Sebab murka Allah dinyatakan dari surga terhadap segala kefasikan dan ketidakbenaran manusia yang menindas kebenaran dengan ketidakbenaran;”",
+      "translation_quote": "“Sebab murka Allah dinyatakan dari surga terhadap segala kefasikan dan kelaliman manusia yang menindas kebenaran dengan kelaliman;"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

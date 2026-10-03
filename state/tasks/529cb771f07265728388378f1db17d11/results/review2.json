@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "02c00be8-1694-4f31-a25d-992c317caa6f",
+    "response_id": "chatcmpl-EV1SrdVWdc0rLiyqRD2bsHbPSRuOF",
+    "usage": {
+      "completion_tokens": 334,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6630,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6627,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6964
+    }
+  },
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “Here is an example”",
+        "severity": "major",
+        "source_quote": "“He waters and fertilizes weeds and prunes.”",
+        "suggested_fix": "Vervang “Hij geeft water en mest, wiedt en snoeit.” door “Hij geeft water, bemest, wiedt en snoeit.”",
+        "translation_quote": "“Hij geeft water en mest, wiedt en snoeit.”"
+      },
+      {
+        "location": "source.html, paragraph beginning “The Christian denies himself”",
+        "severity": "major",
+        "source_quote": "“confidently admitting that he is merely dust and back to that dust he will quickly go.”",
+        "suggested_fix": "Vervang “erkent vol vertrouwen dat hij slechts stof is en spoedig tot dat stof zal terugkeren” niet: deze weergave is inhoudelijk trouw. Geen correctie nodig.",
+        "translation_quote": "“erkent vol vertrouwen dat hij slechts stof is en spoedig tot dat stof zal terugkeren.”"
+      },
+      {
+        "location": "source.html, paragraph beginning “Christians believe they are merely servants”",
+        "severity": "major",
+        "source_quote": "“They are hated by the world and despised by most, rejected.”",
+        "suggested_fix": "Vervang “Zij worden gehaat door de wereld, door de meesten veracht en verworpen.” door “Zij worden gehaat door de wereld, door de meesten veracht en afgewezen.”",
+        "translation_quote": "“Zij worden gehaat door de wereld, door de meesten veracht en verworpen.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

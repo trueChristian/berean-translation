@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "방임 문단, 시편 22:9 인용",
+      "severity": "minor",
+      "source_quote": "“thou didst make me hope when I was upon my mother’s breasts”",
+      "suggested_fix": "“내가 어머니의 젖가슴에 있을 때 나에게 희망을 품게 하셨습니다”처럼 ‘hope’의 의미를 살려 번역해 주세요.",
+      "translation_quote": "“내가 어머니의 젖가슴에 있을 때 나를 주께 의지하게 하셨습니다”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

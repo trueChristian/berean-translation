@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "97b872dee7e908df83f9f9ee9c118ac3ecb6aafff54b6b8588611d678bdbcdc3",
   "base_metadata_sha256": "889fb25b59a352fa0a7f7cc6504be0474bd99641a48dcc7fdd142009e02d5b92",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,165 +44,75 @@
         },
         "total_tokens": 13480
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 783,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7078,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7075,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7861
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "शीर्षक और उपशीर्षक",
+      "location": "अनुच्छेद 3",
       "severity": "major",
-      "source_quote": "ALL NATURE SINGS; and ‘round me rings the music of the spheres.",
-      "suggested_fix": "अनुवाद करें: title को “सारी प्रकृति गाती है” और subtitle को “और मेरे चारों ओर ब्रह्मांडीय संगीत गूँजता है।”",
-      "translation_quote": "संपूर्ण प्रकृति गाती है; and ‘round me rings the music of the spheres."
+      "source_quote": "“whether mating or not, these birds delight in bearing a jubilant expression of joy and we do well to let them teach us.”",
+      "suggested_fix": "“चाहे प्रणय-आह्वान करते समय हों या नहीं, ये पक्षी उल्लासपूर्ण आनंद व्यक्त करने में प्रसन्न होते हैं, और हमें उनसे सीखना चाहिए।”",
+      "translation_quote": "“प्रणय के समय हों या नहीं, इन पक्षियों को आनंदपूर्ण उल्लास व्यक्त करने में प्रसन्नता होती है, और हमें उनसे सीखने देना चाहिए।”"
     },
     {
-      "location": "पहला अनुच्छेद",
+      "location": "अनुच्छेद 8",
       "severity": "major",
-      "source_quote": "“Doth not nature itself teach you?”",
-      "suggested_fix": "उद्धरण का हिंदी में अनुवाद करें, जैसे: “क्या स्वयं प्रकृति तुम्हें नहीं सिखाती?”",
-      "translation_quote": "“Doth not nature itself teach you?”"
+      "source_quote": "“So transgresses the selfish soul in his pursuit of happiness, feeding gleefully on the calamity of another and exploiting their sin.”",
+      "suggested_fix": "“इसी प्रकार, सुख की तलाश में स्वार्थी आत्मा सीमा लाँघती है: वह दूसरों की विपत्ति पर आनंद से पलती है और उनके पाप का फ़ायदा उठाती है।”",
+      "translation_quote": "“इसी तरह, सुख की तलाश में स्वार्थी आत्मा अपराध करती है, दूसरों की विपत्ति पर आनंद से पलती है और उनके पाप का फ़ायदा उठाती है।”"
     },
     {
-      "location": "पहला अनुच्छेद",
+      "location": "अनुच्छेद 9",
       "severity": "major",
-      "source_quote": "We are exhorted to consider the lilies, the ravens, and the grass of the field.",
-      "suggested_fix": "“हमें सोसन, कौवों और मैदान की घास पर विचार करने का उपदेश दिया गया है।”",
-      "translation_quote": "हमें लिलियों, कौवों और खेत की घास पर विचार करने के लिए प्रेरित किया जाता है।"
+      "source_quote": "“She then has the audacity to lay her egg in another bird’s nest, forcing them to raise her offspring.”",
+      "suggested_fix": "“फिर वह दूसरे पक्षी के घोंसले में अपना अंडा देने का दुस्साहस करती है और उन पक्षियों को अपनी संतान पालने के लिए मजबूर कर देती है।”",
+      "translation_quote": "“फिर वह दूसरे पक्षी के घोंसले में अपना अंडा देने का दुस्साहस करता है और उन पक्षियों को अपनी संतान पालने के लिए मजबूर कर देता है।”"
     },
     {
-      "location": "दूसरा अनुच्छेद",
+      "location": "अनुच्छेद 9",
       "severity": "major",
-      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
-      "suggested_fix": "उद्धरण को हिंदी में अनूदित करें और संदर्भ का पुस्तक-नाम स्थानीय रूप में लिखें; अध्याय और पद संख्या ज्यों की त्यों रखें।",
-      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+      "source_quote": "“Though justified by circumstances, these women care not for their own, but are products of neglect.”",
+      "suggested_fix": "“परिस्थितियों से उचित ठहराए जाने पर भी, ये स्त्रियाँ अपने बच्चों की परवाह नहीं करतीं, बल्कि उपेक्षा की उपज हैं।”",
+      "translation_quote": "“परिस्थितियों से उचित ठहराए जाने पर भी, ये स्त्रियाँ अपने बच्चों की परवाह नहीं करतीं, बल्कि उपेक्षा की उपज हैं।”"
     },
     {
-      "location": "दूसरा अनुच्छेद",
+      "location": "अनुच्छेद 9",
       "severity": "major",
-      "source_quote": "Similarly, the earthly human shares its nature with the mammals of the field.",
-      "suggested_fix": "“इसी प्रकार, पृथ्वी पर रहने वाला मनुष्य मैदान के स्तनधारियों के साथ अपना स्वभाव साझा करता है।”",
-      "translation_quote": "इसी प्रकार, पृथ्वी का मानव अपने स्वभाव में मैदान के स्तनों के साथ साझा करता है।"
+      "source_quote": "“Often you will find them in large numbers feeding themselves on the corn the farmer painstakingly planted for himself.”",
+      "suggested_fix": "“अक्सर आप उन्हें बड़ी संख्या में उस मक्के को खाते पाएँगे जिसे किसान ने अपने लिए बड़ी मेहनत से बोया था।”",
+      "translation_quote": "“अक्सर आप उन्हें बड़ी संख्या में उस मक्के को खाते पाएँगे जिसे किसान ने अपने लिए बड़ी मेहनत से बोया था।”"
     },
     {
-      "location": "तीसरा अनुच्छेद",
+      "location": "अनुच्छेद 10",
       "severity": "major",
-      "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).",
-      "suggested_fix": "उद्धरण का हिंदी में अनुवाद करें और संदर्भ में पुस्तक का नाम हिंदी रूप में दें; अध्याय-पद संख्या 5:13 रखें।",
-      "translation_quote": "“Is any merry? Let him sing psalms” (James 5:13)."
-    },
-    {
-      "location": "चौथा अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
-      "suggested_fix": "उद्धरण और “I will sing” वाक्यांश का हिंदी में अनुवाद करें; 22 की संख्या और भजन 40:3 का संदर्भ बनाए रखें।",
-      "translation_quote": "“And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). 22 अवसरों पर, शास्त्र वाक्यांश, I will sing, दोहराते हैं।"
-    },
-    {
-      "location": "छठा अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19).",
-      "suggested_fix": "उद्धरण का हिंदी में अनुवाद करें और इफिसियों 5:19 के रूप में संदर्भ दें।",
-      "translation_quote": "“Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19)."
-    },
-    {
-      "location": "छठा अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“Jews have no dealings with the Samaritans.”",
-      "suggested_fix": "“यहूदियों का सामरियों से कोई व्यवहार नहीं है।”",
-      "translation_quote": "“Jews have no dealings with the Samaritans.”"
-    },
-    {
-      "location": "छठा अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
-      "suggested_fix": "उद्धरण का हिंदी में अनुवाद करें और यूहन्ना 4:14 का संदर्भ दें।",
-      "translation_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14)."
-    },
-    {
-      "location": "सातवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14).",
-      "suggested_fix": "उद्धरण का हिंदी में अनुवाद करें और यशायाह 65:14 का संदर्भ दें।",
-      "translation_quote": "“Behold, my servants shall sing for joy of heart” (Is 65:14)."
-    },
-    {
-      "location": "आठवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
-      "suggested_fix": "उद्धरण का हिंदी में अनुवाद करें और प्रकाशितवाक्य 18:2 का संदर्भ दें।",
-      "translation_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2)."
-    },
-    {
-      "location": "नौवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
-      "suggested_fix": "उद्धरण का हिंदी में अनुवाद करें और भजन 22:9 का संदर्भ दें।",
-      "translation_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9)."
-    },
-    {
-      "location": "नौवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "These are stopped-up wells like unto the wells that Isaac found upon his return to Gerar. The Philistines “had filled them with earth” (Gen 26:15).",
-      "suggested_fix": "“ये उन कुओं जैसे बंद कुएँ हैं जिन्हें इसहाक ने गरार लौटने पर पाया था। पलिश्तियों ने ‘उन्हें मिट्टी से भर दिया था’ (उत्पत्ति 26:15)।”",
-      "translation_quote": "ये उन बंद कुओँ जैसे हैं जो इसहाक ने गेहड़ लौटकर पाए थे। फिलिस्तियों ने “had filled them with earth” (Gen 26:15)."
-    },
-    {
-      "location": "दसवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).",
-      "suggested_fix": "पूरे उद्धरण का हिंदी में अनुवाद करें और भजन 137:2-4 का संदर्भ ज्यों का त्यों रखें।",
-      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
-    },
-    {
-      "location": "दसवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
-      "suggested_fix": "उद्धरण का हिंदी में अनुवाद करें और यिर्मयाह 29:5-7 का संदर्भ दें।",
-      "translation_quote": "“… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7)."
-    },
-    {
-      "location": "दसवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.",
-      "suggested_fix": "“उनका गायन लाल समुद्र पार करने के समय और यहोशापात के दिनों में फूटा था, और वह सेनाओं को पराजित करने के लिए प्रसिद्ध था।”",
-      "translation_quote": "उनका गायन लाल समुद्र के पार के समय फूट पड़ा था और यह युद्धों को हराने के लिए जाना जाता था।"
-    },
-    {
-      "location": "दसवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "Such were the conditions of the Philippian prison where two jailbirds, Paul and Silas, opened the concert at midnight and rocked the corridors with their joyful singing.",
-      "suggested_fix": "“फिलिप्पी की जेल में भी ऐसे ही हालात थे, जहाँ दो कैदी, पौलुस और सीलास, आधी रात को गीत गाने लगे और अपने आनंदमय गायन से गलियारों को गुँजा दिया।”",
-      "translation_quote": "ऐसे ही परिस्थितियाँ फिलिप्पियन जेल की थीं जहाँ दो कैदी, पौलुस और साइलस, मध्यरात्रि में कंसर्ट खोलते हैं और अपने हर्षित गान से गलियारों को झँका देते हैं।"
-    },
-    {
-      "location": "अंतिम अनुच्छेद",
-      "severity": "major",
-      "source_quote": "When we open our mouths and stretch our vocals in praise, we enact the grace of God.",
-      "suggested_fix": "“जब हम मुँह खोलकर स्तुति में अपना स्वर उठाते हैं, तो हम परमेश्वर के अनुग्रह को अभिव्यक्त करते हैं।”",
-      "translation_quote": "जब हम अपने मुख खोलते हैं और स्तुति में स्वर फैलाते हैं, तो हम परमेश्वर की कृया का अभिनय करते हैं।"
-    },
-    {
-      "location": "अंतिम अनुच्छेद",
-      "severity": "major",
-      "source_quote": "At evening, we sing with our Lord and His disciples after supper, and with legions of angels “giving glory to God in the highest.”",
-      "suggested_fix": "पूरे उद्धरण का हिंदी में अनुवाद करें, जैसे “परमप्रधान परमेश्वर की महिमा हो।”",
-      "translation_quote": "संध्या में, हम अपने प्रभु और उसके चेलों के साथ भोजन के बाद गाते हैं, और अनगिनत स्वर्गदूतों के साथ “giving glory to God in the highest.”"
-    },
-    {
-      "location": "अंतिम अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
-      "suggested_fix": "पूरे उद्धरण का हिंदी में अनुवाद करें और कुलुस्सियों 3:16, 23 के संदर्भ तथा दोनों पदों की संख्या/क्रम को बनाए रखें।",
-      "translation_quote": "“Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
-    },
-    {
-      "location": "नौवाँ अनुच्छेद",
-      "severity": "major",
-      "source_quote": "These women care not for their own",
-      "suggested_fix": "“ये महिलाएँ अपने बच्चों की परवाह नहीं करतीं”",
-      "translation_quote": "ये महिलाएँ अपने लोगों की परवाह नहीं करतीं"
+      "source_quote": "“Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.”",
+      "suggested_fix": "“लाल समुद्र पार करते समय उनका गायन फूट पड़ा था; यहोशापात के दिनों में भी उनका गायन सेनाओं को पराजित करने के लिए जाना जाता था।”",
+      "translation_quote": "“लाल समुद्र पार करते समय और यहोशापात के दिनों में उनका गायन फूट पड़ा था, और उससे सेनाएँ पराजित हुई थीं।”"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "6731448a7c21fd653946f9d449595756",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "hin",
@@ -292,13 +201,13 @@
     }
   },
   "protected": false,
-  "quality_score": 38,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-6-luna"

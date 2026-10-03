@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "2354a7aa95cf00c17d3769d4ad33485d5256c071478698d87e62eec13fcdbdf8",
   "base_metadata_sha256": "eba838f7a6f3f5967923bb35aa536da73bc531fb5dd3806dc663f763ccb2e1dc",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,46 +44,40 @@
         },
         "total_tokens": 6398
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 627,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4019,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4016,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4646
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.title / translation.title",
+      "location": "HTML, paragraph beginning “That was the straw that broke the camel’s back”",
       "severity": "major",
-      "source_quote": "Circumstantial Overload",
-      "suggested_fix": "Terjemahkan judul menjadi “Beban Situasional”.",
-      "translation_quote": "Circumstantial Overload"
-    },
-    {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "SISTER TO SISTER",
-      "suggested_fix": "Terjemahkan nama rubrik, misalnya “DARI SAUDARI KE SAUDARI”.",
-      "translation_quote": "SISTER TO SISTER"
-    },
-    {
-      "location": "Paragraf tentang peristiwa traumatis dalam komunitas",
-      "severity": "major",
-      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
-      "suggested_fix": "Ganti frasa “lingkaran kita yang jelas” dengan rujukan yang tepat pada komunitas plain, misalnya: “Peristiwa traumatis dalam komunitas plain kita cenderung mendapat dukungan doa dan finansial, serta pembaruan anggaran mingguan.”",
-      "translation_quote": "Peristiwa traumatis dalam lingkaran kita yang jelas cenderung memperoleh doa, dukungan finansial, dan pembaruan anggaran mingguan."
-    },
-    {
-      "location": "Paragraf “Percayalah bahwa Tuhan peduli” — kutipan Mazmur 30:5",
-      "severity": "major",
-      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
-      "suggested_fix": "Terjemahkan kutipannya dan gunakan nama kitab dalam bahasa Indonesia, dengan nomor tetap: “Tangisan dapat bertahan sepanjang malam, tetapi sukacita datang pada pagi hari” (Mazmur 30:5).",
-      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
-    },
-    {
-      "location": "Paragraf penutup — kutipan Mazmur 71:1",
-      "severity": "major",
-      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
-      "suggested_fix": "Terjemahkan kutipannya dan gunakan nama kitab dalam bahasa Indonesia, dengan nomor tetap: “Kepada-Mulah, ya TUHAN, aku percaya; jangan biarkan aku dipermalukan” (Mazmur 71:1).",
-      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
+      "source_quote": "“That was the straw that broke the camel’s back,” Becky said.",
+      "suggested_fix": "Ganti kalimat itu dengan: “Itulah beban terakhir yang membuatnya tak sanggup lagi,” kata Becky.",
+      "translation_quote": "“Itulah yang membuat semuanya menjadi berantakan,” kata Becky."
     }
   ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "f44160a4de82fdf0e1684f1809824260",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ind",
@@ -173,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": "b2f9a9f0d9e36d2eb8050e963407828f908093b128dbde0d738e0dbdc9c6cd81",
   "base_metadata_sha256": "2ee5f73912733d6713c094be8cb989701aa3a7920bbc7ad711fd04123bcd7fe0",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,53 +44,68 @@
         },
         "total_tokens": 19612
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 631,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12396,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12393,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13027
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article note; opening sentence",
+      "location": "HTML, section 8, quote from 1 Pierre 3:7 and following explanation",
       "severity": "major",
-      "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.",
-      "suggested_fix": "Replace « Un courtisan centré sur Christ est une série de messages sur le fréquentation pieuse » with « La cour chrétienne centrée sur Christ est une série de messages sur la cour chrétienne pieuse », adjusting the wording throughout the sentence so it refers to the courtship theme, not a male courtier.",
-      "translation_quote": "Un courtisan centré sur Christ est une série de messages sur le fréquentation pieuse prêchés par Paul Hershberger."
+      "source_quote": "“as being heirs together of the grace of life”; “If we’re not heirs together of the grace of life, can we be heirs separated of the grace of life? I don’t think so.”",
+      "suggested_fix": "Translate the verse’s phrase as « étant cohéritiers de la grâce de la vie » and keep the speaker’s contrast between being « héritiers ensemble » and « héritiers séparés » in the subsequent explanation; do not change the verse’s grammatical reference to husbands and wives.",
+      "translation_quote": "« comme étant aussi héritières avec vous de la grâce de la vie »; « Si nous ne sommes pas héritiers ensemble de la grâce de la vie, pouvons-nous être héritiers séparés de la grâce de la vie ? »"
     },
     {
-      "location": "Section « Le plan de Dieu pour l’homme et la femme », second paragraph",
+      "location": "HTML, section 9, Psalm 144:12 quotation",
       "severity": "major",
-      "source_quote": "What does he mean, “while the evil days come not” and “the years draw nigh”?",
-      "suggested_fix": "Translate both quoted phrases into French, for example: « Que signifie “avant que les jours mauvais arrivent” et “que les années approchent” ? »",
-      "translation_quote": "Que veut dire « while the evil days come not » et « nor the years draw nigh » ?"
+      "source_quote": "“That our sons may be as plants grown up in their youth; that our daughters may be as corner stones, polished after the similitude of a palace.”",
+      "suggested_fix": "Correct the quoted image to « que nos filles soient comme des pierres d’angle, polies à la manière d’un palais » (or equivalent French conveying cornerstones polished like a palace).",
+      "translation_quote": "« que nos filles soient comme des angles de maison, polies selon le modèle d'un palais. »"
     },
     {
-      "location": "Section 4, final paragraph",
+      "location": "HTML, section 10, paragraph beginning “There’s also a need for mothers”",
       "severity": "major",
-      "source_quote": "He wants to see us joined in heart, mind, and fleashthe whole being, being one.",
-      "suggested_fix": "Correct the joined words and translate the complete thought, for example: « Il veut nous voir unis de cœur, d’esprit et dans tout notre être, ne faisant qu’un. »",
-      "translation_quote": "Il veut nous voir unis en cœur, en pensée et en chairetout l’être, être un."
+      "source_quote": "“There’s also a need for mothers who are submissive and yielded to authority.”",
+      "suggested_fix": "Translate “yielded to authority” as « soumises à l’autorité » or « qui se soumettent à l’autorité »; avoid wording that suggests they have been surrendered or handed over.",
+      "translation_quote": "« Il y a aussi besoin de mères soumises et rendues à l’autorité. »"
     },
     {
-      "location": "Section 6 heading and body; repeated wording",
+      "location": "HTML, section 10, paragraph beginning “Young ladies, are you willing to enlist?”",
       "severity": "major",
-      "source_quote": "6) Headship order. God established a headship order, and this headship order is a blessing.",
-      "suggested_fix": "Replace « ordre de la tête » / « ordre de tête » with a clear French rendering of the concept, such as « ordre de l’autorité » or « ordre de la responsabilité », consistently in the heading and body.",
-      "translation_quote": "6) Ordre de la tête. Dieu a établi un ordre de tête, et cet ordre de tête est une bénédiction."
+      "source_quote": "“Are you willing to be a helpmeet, giving yourself for his burden and vision?”",
+      "suggested_fix": "Replace « être une aide » with a clear expression for a wife’s helpmeet role, such as « être une aide qui lui corresponde », while retaining the sense of giving herself in support of his burden and vision.",
+      "translation_quote": "« Êtes-vous prêtes à être une aide, vous donnant pour son fardeau et sa vision ? »"
     },
     {
-      "location": "Section 10, final paragraph before the concluding sentence",
-      "severity": "major",
-      "source_quote": "Seek after Christlike character, and do it on purpose.",
-      "suggested_fix": "Translate « Christlike character » into French, for example: « Recherchez un caractère semblable à celui de Christ, et faites-le intentionnellement. »",
-      "translation_quote": "Cherchez le caractère christlike, et faites-le intentionnellement."
-    },
-    {
-      "location": "Scripture references throughout the article",
+      "location": "title",
       "severity": "minor",
-      "source_quote": "(Genesis 2:18-24); (Mark 10:8-9); (2 Corinthians 6:14-15); (1 Corinthians 7:39); (Ephesians 6:1-3); (Proverbs 3:1-2)",
-      "suggested_fix": "Use conventional French book names in the references, while preserving every chapter and verse number, range, and reference placement: for example, « Genèse », « Marc », « 2 Corinthiens », « 1 Corinthiens », « Éphésiens » and « Proverbes ». Apply this consistently to the other English book names as well.",
-      "translation_quote": "(Genesis 2:18-24); (Mark 10:8-9); (2 Corinthians 6:14-15); (1 Corinthians 7:39); (Ephesians 6:1-3); (Proverbs 3:1-2)"
+      "source_quote": "A Christ-Centered Courtship",
+      "suggested_fix": "Use a natural French title such as « Une cour chrétienne centrée sur Christ » or « Une fréquentation centrée sur Christ » consistently with the article’s terminology.",
+      "translation_quote": "Une cour chrétienne centrée sur Christ"
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "17c9b71010424f4984127b0628073550",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "fra",
@@ -180,13 +194,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 83,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ae7fe72dd4b6cf415eabaea89f057f1b6cc70f1b371bc1c03a29d104be374bc7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-6-luna"

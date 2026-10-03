@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph with the market description\",\"severity\":\"minor\",\"source_quote\":\"deli meat and sandwiches\",\"suggested_fix\":\"Ganti “daging deli dan roti lapis” dengan “daging olahan dan roti lapis” agar istilahnya lebih jelas bagi pembaca Indonesia.\",\"translation_quote\":\"daging deli dan roti lapis\"},{\"location\":\"source.html, class=\\\"book-list\\\", ninth title\",\"severity\":\"minor\",\"source_quote\":\"The Catholic Connection\",\"suggested_fix\":\"Pertimbangkan “Kaitan Katolik” agar makna “connection” sebagai kaitan atau hubungan antartopik tidak terbaca sebagai hubungan personal.\",\"translation_quote\":\"Hubungan Katolik\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 688,
+    "content_evidence_truncated": false,
+    "content_sha256": "487d108fc1027bfbaff537434c4d0fef1130c5bdf9c0fc04e807a4cd331e9e56",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 600,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3148,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3926
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

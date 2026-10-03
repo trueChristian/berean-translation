@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "600faaa355844a578cdcfa4d6b130c34430145dff2d7c858f42d7ddc378a7b67",
   "base_metadata_sha256": "7abb16ad199b6aa8e168c18e44e63be190d14bc9f0f39c693bdbd5e38ea974e1",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,74 +44,68 @@
         },
         "total_tokens": 5871
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 647,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3218,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3215,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3865
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph 2",
+      "location": "HTML, tredje stycket, Nelson Mandela-citatet",
       "severity": "major",
-      "source_quote": "I brushed shoulders with well-known authors",
-      "suggested_fix": "Replace with “Jag träffade välkända författare” (or another idiomatic equivalent).",
-      "translation_quote": "Jag råkade borra axlar med välkända författare"
-    },
-    {
-      "location": "Article, paragraph 2",
-      "severity": "minor",
-      "source_quote": "seasoned school teachers",
-      "suggested_fix": "Replace with “erfarna lärare” or “erfarna skollärare”.",
-      "translation_quote": "erfarna skol lärare"
-    },
-    {
-      "location": "Article, paragraph 2",
-      "severity": "major",
-      "source_quote": "I had the opportunity to sit under hours of inspirational and educational workshops on how to write to communicate, using realistic dialog, descriptive writing, and much more.",
-      "suggested_fix": "Translate the workshop topics faithfully, for example: “Jag fick möjlighet att delta i timmar av inspirerande och lärorika workshops om hur man skriver för att kommunicera, använder realistisk dialog och målande beskrivningar, och mycket mer.”",
-      "translation_quote": "Jag fick möjlighet att sitta med under timmar av inspirerande och utbildande workshops om hur man skriver för att kommunicera, använder realistisk dialog, beskrivande skrivande och mycket mer."
-    },
-    {
-      "location": "Article, paragraph 3; Nelson Mandela quotation",
-      "severity": "critical",
       "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
-      "suggested_fix": "Translate the quotation into Swedish while preserving its meaning, for example: “Misslyckanden är en lärare, och när livet närmar sig sitt slut, vad tror du att du kommer att ångra mest: att ha misslyckats eller att aldrig ha försökt?”",
-      "translation_quote": "\"Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?\""
+      "suggested_fix": "Översätt citatet troget utan att ändra dess innebörd, till exempel: ”Misslyckande är en lärare, och när livet är slut, vad tror du att du kommer att må sämst över: att ha misslyckats eller att aldrig ha försökt?”",
+      "translation_quote": "”Misslyckanden är en lärare, och när livet närmar sig sitt slut, vad tror du att du kommer att ångra mest: att ha misslyckats eller att aldrig ha försökt?”"
     },
     {
-      "location": "Article, paragraph 3",
+      "location": "HTML, fjärde stycket, boklistan, titeln “The Power of the Love of Truth”",
       "severity": "major",
-      "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
-      "suggested_fix": "Translate the phrase into Swedish, retaining its exhortation and reference to Christ Jesus; for example: “Ungdomar som uppmuntrar andra ungdomar att sträva mot målet och vinna segerpriset i Guds kallelse i Kristus Jesus.”",
-      "translation_quote": "Ungdomar som uppmuntrar medungdomar att sträva mot målet och priset för den höga kallelsen i Kristus Jesus."
+      "source_quote": "The Power of the Love of Truth",
+      "suggested_fix": "Ändra till en översättning som bevarar titeln, till exempel ”Sanningens kärleks kraft” eller ”Kärlekens kraft till sanningen”.",
+      "translation_quote": "Sanningens kärleks kraft"
     },
     {
-      "location": "Article, paragraph 4",
+      "location": "HTML, fjärde stycket, boklistan, titeln “Christian Counseling- Counterfeit?”",
       "severity": "major",
-      "source_quote": "navigate through the varied and difficult seasons of life",
-      "suggested_fix": "Replace “årstider” with an idiomatic equivalent such as “livets skiftande och svåra perioder”.",
-      "translation_quote": "livets skiftande och svåra årstider"
+      "source_quote": "Christian Counseling- Counterfeit?",
+      "suggested_fix": "Översätt frågan med innebörden ”Kristen rådgivning – en förfalskning?”",
+      "translation_quote": "Kristen rådgivning – förfalskning?"
     },
     {
-      "location": "Article, paragraph 7",
+      "location": "HTML, fjärde stycket, boklistan, titeln “Cup & Cross”",
+      "severity": "major",
+      "source_quote": "Cup & Cross",
+      "suggested_fix": "Översätt “Cup” som ”kalk” i denna kristna titel: ”Kalk & kors”.",
+      "translation_quote": "Bägare & kors"
+    },
+    {
+      "location": "HTML, sjätte stycket, meningen om COVID-19-behandlingar",
       "severity": "major",
       "source_quote": "This monumental event upended the vaccine debate and ushered in a frenzied rush to market COVID-19 remedies, many of which were not properly tested.",
-      "suggested_fix": "Translate “remedies” as remedies/treatments rather than “åtgärder”; for example: “Denna omvälvande händelse vände upp och ner på vaccin­debatten och ledde till en febril kapplöpning om att få ut behandlingar mot covid-19 på marknaden, många av dem utan tillräckliga tester.”",
-      "translation_quote": "Denna monumentala händelse ställde vaccin-debatten på ända och inledde en febril kapplöpning för att få fram COVID-19-åtgärder på marknaden, många av vilka inte var ordentligt testade."
-    },
-    {
-      "location": "Article, paragraph 7",
-      "severity": "major",
-      "source_quote": "As time progressed and the deadly nature of COVID-19 abated",
-      "suggested_fix": "Use an idiomatic rendering that preserves that COVID-19’s deadliness diminished, such as “När tiden gick och covid-19 blev mindre dödligt”.",
-      "translation_quote": "När tiden gick och COVID-19:s dödliga natur avtagit"
-    },
-    {
-      "location": "Image alt text",
-      "severity": "minor",
-      "source_quote": "Pink and white crown vetch flowers in a green meadow",
-      "suggested_fix": "Translate the flower name too, for example: “Rosa och vita blommor av kronvicker i en grön äng”.",
-      "translation_quote": "Rosa och vita crown vetch-blommor i en grön äng"
+      "suggested_fix": "Bevara att det rörde sig om en febril kapplöpning att få ut behandlingar mot covid-19 på marknaden och att många inte hade testats ordentligt, till exempel: ”Denna omvälvande händelse vände upp och ner på vaccindebatten och ledde till en febril kapplöpning om att få ut behandlingar mot covid-19 på marknaden, många av vilka inte hade testats ordentligt.”",
+      "translation_quote": "Denna omvälvande händelse vände upp och ner på vaccin­debatten och ledde till en febril kapplöpning om att få ut behandlingar mot covid-19 på marknaden, många av dem utan tillräckliga tester."
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "bc276ecc38a8bac8f77ba613d5d31fb7",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -201,13 +194,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"

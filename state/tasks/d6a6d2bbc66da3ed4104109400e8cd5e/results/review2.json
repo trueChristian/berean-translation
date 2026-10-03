@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c4990f1d-5800-49cd-9997-35ab63a4fcaa",
+    "response_id": "chatcmpl-EV1WtP478TnqQImxhiRTSqdOJsTol",
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 674,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7064,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7061,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7882
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "방임 문단, 시편 22:9 인용",
+        "severity": "minor",
+        "source_quote": "“thou didst make me hope when I was upon my mother’s breasts”",
+        "suggested_fix": "“내가 어머니의 젖가슴에 있을 때 나에게 희망을 품게 하셨습니다”처럼 ‘hope’의 의미를 살려 번역해 주세요.",
+        "translation_quote": "“내가 어머니의 젖가슴에 있을 때 나를 주께 의지하게 하셨습니다”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

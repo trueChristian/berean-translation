@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Alinea ‘Ondankbaarheid’, citaat Psalm 137:2-4\",\"severity\":\"major\",\"source_quote\":\"“We hanged our harps upon the willows in the midst thereof.”\",\"suggested_fix\":\"Vertaal dit als: “Wij hingen onze harpen aan de wilgen midden daarin.” Zo blijft “thereof” verwijzen naar de plaats waarover de psalm spreekt, zonder die als “het land” te specificeren.\",\"translation_quote\":\"“Wij hingen onze harpen aan de wilgen daar midden in het land.”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 512,
+    "content_evidence_truncated": false,
+    "content_sha256": "d23b3ffaf4dadb4acdd02f0bbb1f09c47ee436743ca3247963f7d7b57254a9bc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 837,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 687,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6585,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7425
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

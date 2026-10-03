@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "पहला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“the tantalizing cacophony of odors”",
+      "suggested_fix": "“मुझे उन लुभावनी मिली-जुली गंधों की याद आती है” (या “उन लुभावनी मिली-जुली गंधों की याद आती हैं”) में बहुवचन “गंधों” के अनुसार क्रिया का रूप ठीक करें।",
+      "translation_quote": "“मुझे उन लुभावनी मिली-जुली गंधों की याद आती है”"
+    },
+    {
+      "location": "तीसरा अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“I encourage you, fellow believers, to give it a try.”",
+      "suggested_fix": "संबोधन का रूप सुधारें: “साथी विश्वासियो, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।” को “साथी विश्वासियों, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।” करें।",
+      "translation_quote": "“साथी विश्वासियो, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4c9f5ce8-67a2-41e6-984f-9be8a1e0885e",
+    "response_id": "chatcmpl-EV1UbhkASW3v5uK8gILidjELQLl55",
+    "usage": {
+      "completion_tokens": 305,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4446,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4443,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4751
+    }
+  },
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "अंतिम उद्धरण, भजन संहिता 71:1",
+        "severity": "major",
+        "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion”",
+        "suggested_fix": "उद्धरण को छपे हुए अंग्रेज़ी अर्थ के अनुरूप करें, उदाहरण के लिए: “हे यहोवा, मैं तुझ पर भरोसा रखता हूँ; मुझे कभी भ्रमित न होने दे” (भजन संहिता 71:1)।",
+        "translation_quote": "“हे यहोवा, मैं तुझ पर भरोसा रखता हूँ; मुझे कभी लज्जित न होने दे” (भजन संहिता 71:1)।"
+      },
+      {
+        "location": "परमेश्वर की परवाह पर अनुभाग, भजन संहिता 30:5 का उद्धरण",
+        "severity": "major",
+        "source_quote": "“Weeping may endure for a night, but joy cometh in the morning”",
+        "suggested_fix": "उद्धरण में सुबह आने वाले आनंद का अर्थ रखें, उदाहरण के लिए: “रोना रात भर रह सकता है, पर भोर में आनंद आता है” (भजन संहिता 30:5)।",
+        "translation_quote": "“रात भर रोना ठहर सकता है, पर भोर होते ही जयजयकार होती है” (भजन संहिता 30:5)।"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

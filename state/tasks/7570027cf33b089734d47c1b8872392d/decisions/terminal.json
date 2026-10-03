@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "تیسرے بند، سطر 3",
+      "severity": "major",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "مقدس ہیبت کے ساتھ خوف سے جھک جاؤ-",
+      "translation_quote": "مقدس ہیبت کے ساتھ جھک جاؤ-"
+    },
+    {
+      "location": "تیسرے بند، آخری سطر",
+      "severity": "major",
+      "source_quote": "Adore th’ almighty King of Kings!",
+      "suggested_fix": "بادشاہوں کے بادشاہ، قادرِ مطلق کی عبادت کرو!",
+      "translation_quote": "بادشاہوں کے بادشاہ، قادرِ مطلق کی عبادت کرو!"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

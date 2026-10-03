@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “Then he was elected…”\",\"severity\":\"major\",\"source_quote\":\"“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”\",\"suggested_fix\":\"Replace the opening of the translated paragraph with: ”پھر اُنہیں بلغاریہ میں کچھ وقت گزارنے والے ایک بھائی کی سیکرٹری کی ذمہ داریوں کے آخری چار ماہ پورے کرنے کے لیے چُن لیا گیا۔“ Keep the remainder of the paragraph unchanged.\",\"translation_quote\":\"”پھر اُنہیں ایک ایسے بھائی کی سیکرٹری کی ذمہ داریوں کے باقی چار ماہ پورے کرنے کے لیے منتخب کیا گیا جو کچھ وقت بلغاریہ میں گزارنے گئے تھے۔“\"},{\"location\":\"source.html, paragraph beginning “Sometimes this type of overload…”\",\"severity\":\"major\",\"source_quote\":\"“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”\",\"suggested_fix\":\"Replace the first two sentences of the translated paragraph with: ”ہمارے امیش (Plain) حلقوں میں صدمہ انگیز واقعات پر عموماً دعائیں کی جاتی ہیں، مالی مدد دی جاتی ہے اور ہفتہ وار بجٹ کی تازہ صورتِ حال بتائی جاتی ہے۔“\",\"translation_quote\":\"”ہمارے اَنابپتست (Plain) حلقوں میں صدمہ انگیز واقعات کے لیے عموماً دعائیں کی جاتی ہیں، مالی مدد دی جاتی ہے اور بجٹ کی ہفتہ وار تازہ صورتِ حال بتائی جاتی ہے۔“\"},{\"location\":\"source.html, final paragraph, Psalm 71:1 quotation\",\"severity\":\"major\",\"source_quote\":\"“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\",\"suggested_fix\":\"Translate the quoted wording as printed, preserving the reference: ”اے خداوند، میں تجھ پر بھروسا رکھتا ہوں؛ مجھے کبھی شرمندہ نہ ہونے دے“ (زبور 71:1)۔\",\"translation_quote\":\"”اے خداوند، میں تجھ پر بھروسا رکھتا ہوں؛ مجھے کبھی پریشان نہ ہونے دے“ (زبور 71:1)۔\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2368,
+    "content_evidence_truncated": false,
+    "content_sha256": "fada16ef95dc082191d973f58f9758dbf46952fd6da50e85b6c6b54636eb1c82",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 486,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4581,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4578,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5067
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

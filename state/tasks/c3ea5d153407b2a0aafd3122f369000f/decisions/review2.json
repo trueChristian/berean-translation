@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final dialogue paragraph",
+      "severity": "major",
+      "source_quote": "“God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason.”",
+      "suggested_fix": "Replace the two sentences with: “Dio ti ha fatto così come sei per una ragione, Jamin. Ha fatto Kenny così com’è per una ragione.”",
+      "translation_quote": "“Dio ti ha fatto com’è per una ragione, Jamin. Ha fatto Kenny com’è per una ragione.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

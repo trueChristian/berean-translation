@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, tredje stycket, Nelson Mandela-citatet",
+      "severity": "major",
+      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+      "suggested_fix": "Översätt citatet troget utan att ändra dess innebörd, till exempel: ”Misslyckande är en lärare, och när livet är slut, vad tror du att du kommer att må sämst över: att ha misslyckats eller att aldrig ha försökt?”",
+      "translation_quote": "”Misslyckanden är en lärare, och när livet närmar sig sitt slut, vad tror du att du kommer att ångra mest: att ha misslyckats eller att aldrig ha försökt?”"
+    },
+    {
+      "location": "HTML, fjärde stycket, boklistan, titeln “The Power of the Love of Truth”",
+      "severity": "major",
+      "source_quote": "The Power of the Love of Truth",
+      "suggested_fix": "Ändra till en översättning som bevarar titeln, till exempel ”Sanningens kärleks kraft” eller ”Kärlekens kraft till sanningen”.",
+      "translation_quote": "Sanningens kärleks kraft"
+    },
+    {
+      "location": "HTML, fjärde stycket, boklistan, titeln “Christian Counseling- Counterfeit?”",
+      "severity": "major",
+      "source_quote": "Christian Counseling- Counterfeit?",
+      "suggested_fix": "Översätt frågan med innebörden ”Kristen rådgivning – en förfalskning?”",
+      "translation_quote": "Kristen rådgivning – förfalskning?"
+    },
+    {
+      "location": "HTML, fjärde stycket, boklistan, titeln “Cup & Cross”",
+      "severity": "major",
+      "source_quote": "Cup & Cross",
+      "suggested_fix": "Översätt “Cup” som ”kalk” i denna kristna titel: ”Kalk & kors”.",
+      "translation_quote": "Bägare & kors"
+    },
+    {
+      "location": "HTML, sjätte stycket, meningen om COVID-19-behandlingar",
+      "severity": "major",
+      "source_quote": "This monumental event upended the vaccine debate and ushered in a frenzied rush to market COVID-19 remedies, many of which were not properly tested.",
+      "suggested_fix": "Bevara att det rörde sig om en febril kapplöpning att få ut behandlingar mot covid-19 på marknaden och att många inte hade testats ordentligt, till exempel: ”Denna omvälvande händelse vände upp och ner på vaccindebatten och ledde till en febril kapplöpning om att få ut behandlingar mot covid-19 på marknaden, många av vilka inte hade testats ordentligt.”",
+      "translation_quote": "Denna omvälvande händelse vände upp och ner på vaccin­debatten och ledde till en febril kapplöpning om att få ut behandlingar mot covid-19 på marknaden, många av dem utan tillräckliga tester."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

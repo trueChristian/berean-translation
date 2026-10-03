@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Romans 1:21, 1:31 (quoted passage)\",\"severity\":\"major\",\"source_quote\":\"“...became vain in their imaginations... Without understanding, covenantbreakers, without natural affection, implacable, unmerciful...”\",\"suggested_fix\":\"Within the existing quotation, translate these phrases more faithfully, for example: «باطلين في أفكارهم» for “became vain in their imaginations,” and «بلا فهم، ناقضين للعهود، بلا مودة طبيعية، لا يلينون، بلا رحمة» for the listed traits. Preserve the existing HTML structure and reference.\",\"translation_quote\":\"«...بل حمقوا في أفكارهم... بلا فهم ولا عهد ولا حنو ولا رضا ولا رحمة...»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 788,
+    "content_evidence_truncated": false,
+    "content_sha256": "b7a336fcffc8e14917369844644e2131c3cae687a4e371fc6f18b5cf134de983",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 940,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6666,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6663,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7798
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

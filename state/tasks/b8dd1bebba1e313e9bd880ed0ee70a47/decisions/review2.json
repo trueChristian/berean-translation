@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, book-list: “The High Cost of Holistic Healing”",
+      "severity": "major",
+      "source_quote": "The High Cost of Holistic Healing",
+      "suggested_fix": "Gharama Kubwa ya Uponyaji wa Kijumla",
+      "translation_quote": "Gharama Kubwa ya Uponyaji Kamili"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

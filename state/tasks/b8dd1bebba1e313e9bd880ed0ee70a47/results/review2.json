@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0c68f287-700b-4e65-a964-28fad8b29910",
+    "response_id": "chatcmpl-EV1TgWLYLfvp6VfMrBKE8jjBqK3Xe",
+    "usage": {
+      "completion_tokens": 763,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 663,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4082
+    }
+  },
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, book-list: “The High Cost of Holistic Healing”",
+        "severity": "major",
+        "source_quote": "The High Cost of Holistic Healing",
+        "suggested_fix": "Gharama Kubwa ya Uponyaji wa Kijumla",
+        "translation_quote": "Gharama Kubwa ya Uponyaji Kamili"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

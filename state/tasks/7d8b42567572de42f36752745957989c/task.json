@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": "4bf8c206f6198d3431fe85c996c1ceb3ece761f07aa5215fbbf2acd3f100edbf",
   "base_metadata_sha256": "ff99902b2f156bbb33113e1b5a0f3266d9f69680461dab1ce7370d287a24fab1",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,46 +44,61 @@
         },
         "total_tokens": 11229
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 483,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6834,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6831,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7317
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “Birds hold a unique place”",
+      "location": "HTML, primo paragrafo",
       "severity": "major",
-      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
-      "suggested_fix": "«L’asino selvatico raglia forse quando ha erba? O il bue muggisce sopra il suo foraggio?» (Giobbe 6:5).",
-      "translation_quote": "«Il mulo brama forse dove cresce l’erba? O il bue muggisce al suo foraggio?» (Giobbe 6:5)."
+      "source_quote": "“Doth not nature itself teach you?”",
+      "suggested_fix": "Tradurre la citazione come «La natura stessa non vi insegna?» mantenendo la struttura HTML.",
+      "translation_quote": "«La natura stessa non vi insegna?»"
     },
     {
-      "location": "source.html, paragraph beginning “Sin.”",
+      "location": "HTML, paragrafo sulla donna al pozzo di Giacobbe",
       "severity": "major",
-      "source_quote": "“Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2).",
-      "suggested_fix": "Tradurre «the hold of every foul spirit» con «la dimora di ogni spirito immondo» e «a cage of every unclean and hateful bird» con «una gabbia di ogni uccello impuro e abominevole», mantenendo il riferimento (Apocalisse 18:2).",
-      "translation_quote": "«Babilonia la grande è caduta, è caduta, e è diventata il soggiorno dei demoni, il rifugio di ogni spirito immondo e lo stretto di ogni uccello detestabile» (Apocalisse 18:2)."
+      "source_quote": "“But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Rendere la citazione senza aggiungere la proposizione sulla sete, per esempio: «L’acqua che gli darò diventerà in lui una fonte d’acqua che zampilla per la vita eterna» (Giovanni 4:14).",
+      "translation_quote": "«Ma chi beve dell’acqua che io gli darò non avrà mai più sete; anzi, l’acqua che io gli darò diventerà in lui una fonte d’acqua che scaturisce in vita eterna» (Giovanni 4:14)."
     },
     {
-      "location": "source.html, paragraph beginning “Neglect.”",
+      "location": "HTML, paragrafo «Trascuratezza», citazione del Salmo 22:9",
       "severity": "major",
-      "source_quote": "“thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
-      "suggested_fix": "Correggere la citazione affinché dica che Dio ha dato speranza all’oratore mentre era al seno di sua madre, ad esempio: «mi hai dato fiducia mentre ero al seno di mia madre» (Salmo 22:9).",
-      "translation_quote": "«Tu infatti mi hai tratto dal seno materno; mi hai messo al sicuro alla luce degli occhi della mia madre» (Salmo 22:9)."
+      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).",
+      "suggested_fix": "Ripristinare entrambe le proposizioni della citazione, per esempio: «Sei tu che mi hai tratto dal grembo; tu mi hai dato fiducia quando ero ancora al seno di mia madre» (Salmo 22:9).",
+      "translation_quote": "«Tu mi hai fatto confidare quando ero ancora al seno di mia madre» (Salmo 22:9)."
     },
     {
-      "location": "source.html, paragraph beginning “Ingratitude.”",
-      "severity": "major",
-      "source_quote": "“... And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).",
-      "suggested_fix": "Rimuovere dalla citazione le frasi aggiunte su costruire case, piantare giardini e formare famiglie: il testo fonte cita soltanto il passo che inizia con «Cercate la pace della città…». Conservare il riferimento (Geremia 29:5-7).",
-      "translation_quote": "«Costruite case e abitatele; piantate giardini e mangiatene il frutto. Prendete mogli e generate figli e figlie; prendete figlie per i vostri figli e date le vostre figlie in marito, affinché abbondino e non diminuiscano. Cercate la pace della città dove io vi ho fatti deportare e pregate il Signore per essa; perché nella sua pace avrete pace» (Geremia 29:5-7)."
-    },
-    {
-      "location": "source.html, paragraph beginning “Sin.”",
-      "severity": "major",
-      "source_quote": "“exploiting their sin”",
-      "suggested_fix": "Sostituire «esplorando il loro peccato» con una formulazione che esprima lo sfruttamento del peccato altrui, per esempio «sfruttando il loro peccato».",
-      "translation_quote": "«esplorando il loro peccato»"
+      "location": "HTML, paragrafo finale, elenco dei nomi",
+      "severity": "minor",
+      "source_quote": "“Miriam, Deborah, and Hannah”",
+      "suggested_fix": "Usare le forme italiane convenzionali dei nomi biblici: «Maria, Debora e Anna».",
+      "translation_quote": "«Miriam, Deborah e Hannah»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "7d8b42567572de42f36752745957989c",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -173,13 +187,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 79,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-6-luna"

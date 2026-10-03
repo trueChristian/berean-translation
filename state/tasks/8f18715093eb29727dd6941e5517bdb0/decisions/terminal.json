@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “As John began a new chapter…”",
+      "severity": "major",
+      "source_quote": "“As John began a new chapter in his life, he felt called to be a minister.”",
+      "suggested_fix": "Vervang alleen de eerste zin door: “Toen John aan een nieuw hoofdstuk in zijn leven begon, voelde hij zich geroepen om predikant te worden.”",
+      "translation_quote": "“Toen John een nieuw hoofdstuk in zijn leven begon, voelde hij zich geroepen om predikant te worden.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “John Newton often composed a hymn…”",
+      "severity": "major",
+      "source_quote": "“John Newton often composed a hymn to go with his Sunday evening services.”",
+      "suggested_fix": "Vervang “John Newton schreef vaak een geestelijk lied voor zijn zondagavonddiensten.” door “John Newton schreef vaak een lied bij zijn zondagavonddiensten.”",
+      "translation_quote": "“John Newton schreef vaak een geestelijk lied voor zijn zondagavonddiensten.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

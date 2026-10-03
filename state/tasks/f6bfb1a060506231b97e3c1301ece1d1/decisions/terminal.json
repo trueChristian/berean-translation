@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ...”",
+      "suggested_fix": "In the Urdu quotation, restore the omitted sentence after “اس لیے خدا نے بھی انہیں ان کے دلوں کی خواہشوں کے حوالے کر دیا کہ وہ اپنے جسموں کی بے حرمتی کریں۔”: “یہ وہ لوگ ہیں جنہوں نے خدا کی سچائی کو جھوٹ سے بدل دیا، اور خالق کے بجائے مخلوق کی عبادت اور خدمت کی؛ وہ خالق، جو ابد تک مبارک ہے۔ آمین۔” Ensure the quotation fully conveys the source: the translation omits “Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen.” from this point, even though it renders that sentence later.",
+      "translation_quote": "“... اس لیے خدا نے بھی انہیں ان کے دلوں کی خواہشوں کے حوالے کر دیا کہ وہ اپنے جسموں کی بے حرمتی کریں۔ انہوں نے خدا کی سچائی کو جھوٹ سے بدل دیا، اور خالق کے بجائے مخلوق کی عبادت اور خدمت کی؛ وہ خالق، جو ابد تک مبارک ہے۔ آمین۔”"
+    },
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections...”",
+      "suggested_fix": "Keep the translated sentence about exchanging God's truth and worshipping the creature in its source order, before “اسی سبب خدا نے انہیں ناپاک خواہشات کے حوالے کر دیا”. Avoid repeating it later; retain the paragraph’s original sequence and full meaning.",
+      "translation_quote": "“اسی سبب خدا نے انہیں ناپاک خواہشات کے حوالے کر دیا؛ کیونکہ ان کی عورتوں نے بھی فطری تعلق کو غیر فطری تعلق سے بدل دیا۔ ... انہوں نے خدا کی سچائی کو جھوٹ سے بدل دیا، اور خالق کے بجائے مخلوق کی عبادت اور خدمت کی؛ وہ خالق، جو ابد تک مبارک ہے۔ آمین۔”"
+    },
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“They ... have pleasure in them that do them”",
+      "suggested_fix": "Translate this as “ایسے کام کرنے والوں سے خوش بھی ہوتے ہیں” or an equivalent expression conveying pleasure in those who commit the acts, not merely happiness with the acts themselves.",
+      "translation_quote": "“ایسا کرنے والوں سے خوش بھی ہوتے ہیں”"
+    },
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“without natural affection”",
+      "suggested_fix": "Use a rendering that conveys lack of natural affection, such as “طبعی محبت سے عاری”، rather than “بے محبت,” which can be read as simply loveless.",
+      "translation_quote": "“بے محبت”"
+    },
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“implacable”",
+      "suggested_fix": "Render this as “صلح نہ کرنے والے” or an equivalent meaning, rather than “بے رحم,” which translates the separate source term “unmerciful.”",
+      "translation_quote": "“بے رحم”"
+    },
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“unmerciful”",
+      "suggested_fix": "Include a distinct rendering for “unmerciful,” such as “بے رحم,” alongside the separate rendering for “implacable.”",
+      "translation_quote": "The list ends “بے سمجھ، عہد شکن، بے محبت اور بے رحم۔”"
+    },
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“Who knowing the judgment of God, that they which commit such things are worthy of death...”",
+      "suggested_fix": "Translate the opening as “وہ خدا کے اس حکم کو جانتے ہیں کہ ایسے کام کرنے والے موت کے مستحق ہیں” or equivalent. The source says they know God's judgment about the perpetrators; it does not say merely that they know a command.",
+      "translation_quote": "“وہ خدا کے حکم کو جانتے ہیں کہ ایسے کام کرنے والے موت کے مستحق ہیں”"
+    },
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“the invisible things of him from the creation of the world are clearly seen”",
+      "suggested_fix": "Preserve the source’s time reference by rendering “دنیا کی تخلیق کے وقت سے” as “دنیا کی تخلیق کے بعد سے” or otherwise conveying “since the creation of the world.”",
+      "translation_quote": "“دنیا کی تخلیق کے وقت سے ہی اس کی نادیدہ صفات”"
+    },
+    {
+      "location": "Romans 1:18–32 quotation",
+      "severity": "major",
+      "source_quote": "“receiving in themselves that recompence of their error which was meet”",
+      "suggested_fix": "Add the omitted idea that the consequence was fitting/deserved, for example “اپنی گمراہی کا وہی مناسب بدلہ اپنے اندر پا کر جس کے وہ مستحق تھے۔”",
+      "translation_quote": "“اپنی گمراہی کا وہ بدلہ اپنے اندر پایا جس کے وہ مستحق تھے۔”"
+    },
+    {
+      "location": "Paragraph beginning “When something happens that requires supernatural intervention”",
+      "severity": "major",
+      "source_quote": "“This type of humanism has confused the modern world. It has caused unbelievers to mock the Christian faith and to call it a false religion with no power.”",
+      "suggested_fix": "Change “بے اثر جھوٹا مذہب” to a translation of “a false religion with no power,” such as “ایک جھوٹا، بے قدرت مذہب.” “بے اثر” means ineffective and does not convey the source’s claim that it has no power.",
+      "translation_quote": "“اس نے بے ایمانوں کو مسیحی ایمان کا مذاق اڑانے اور اسے ایک بے اثر جھوٹا مذہب کہنے پر اکسایا ہے۔”"
+    },
+    {
+      "location": "Paragraph beginning “We would do well to simplify...”",
+      "severity": "major",
+      "source_quote": "“The humanist proudly denies that there is a God when he boasts of his own strength and abilities.”",
+      "suggested_fix": "Use “فخر سے” or another equivalent of “proudly”; “غرور سے” can suggest arrogance but does not faithfully preserve the source’s explicit sense of pride in the denial.",
+      "translation_quote": "“ہیومنسٹ اپنی قوت اور صلاحیتوں پر فخر کرتے ہوئے غرور سے خدا کے وجود کا انکار کرتا ہے۔”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

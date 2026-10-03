@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Sometimes this type of overload is not public knowledge.”\",\"severity\":\"major\",\"source_quote\":\"“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”\",\"suggested_fix\":\"Replace “Traumatische gebeurtenissen in onze nabije kringen krijgen vaak gebed, financiële steun en wekelijkse budgetupdates.” with “Traumatische gebeurtenissen in onze eenvoudige geloofsgemeenschappen krijgen vaak gebed, financiële steun en wekelijkse budgetupdates.”\",\"translation_quote\":\"“Traumatische gebeurtenissen in onze nabije kringen krijgen vaak gebed, financiële steun en wekelijkse budgetupdates.”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 722,
+    "content_evidence_truncated": false,
+    "content_sha256": "dcf22ab18be9154f04f5279a3078a8ba6f20d27787e4b4d31cf57c62b45f6ca6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 907,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 746,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3916,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4826
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

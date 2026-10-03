@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "db9bea57-b80c-47c5-b838-192b3ddf967e",
+    "response_id": "chatcmpl-EV1TWryHyRTuTPQ7apnYID8JcAfoO",
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3358,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3355,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4127
+    }
+  },
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "पहला अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "“the tantalizing cacophony of odors”",
+        "suggested_fix": "“मुझे उन लुभावनी मिली-जुली गंधों की याद आती है” (या “उन लुभावनी मिली-जुली गंधों की याद आती हैं”) में बहुवचन “गंधों” के अनुसार क्रिया का रूप ठीक करें।",
+        "translation_quote": "“मुझे उन लुभावनी मिली-जुली गंधों की याद आती है”"
+      },
+      {
+        "location": "तीसरा अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "“I encourage you, fellow believers, to give it a try.”",
+        "suggested_fix": "संबोधन का रूप सुधारें: “साथी विश्वासियो, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।” को “साथी विश्वासियों, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।” करें।",
+        "translation_quote": "“साथी विश्वासियो, मैं आपको इसे आज़माने के लिए प्रोत्साहित करता हूँ।”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

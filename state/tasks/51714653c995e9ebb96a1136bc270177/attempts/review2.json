@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html and translation.html, epitaph in the blockquote\",\"severity\":\"major\",\"source_quote\":\"a servant of slaves in Africa\",\"suggested_fix\":\"아프리카에서 노예들을 섬기던 자\",\"translation_quote\":\"아프리카에서 노예를 부리던 자\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 310,
+    "content_evidence_truncated": false,
+    "content_sha256": "e7ad4eb5d7e5744ccf1869f4a4ee23a38bb96776673d7528546b710926494f2a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 582,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7086,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7767
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

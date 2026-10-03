@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "33997312d008570be7c0f28bfbb728c7d5cfe4ce537828d7ea1bbe9096782ad2",
   "base_metadata_sha256": "bc9cd2dc43bc7c43c953e94069e4380d3111fc42686e218dbe53e37783026764",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,53 +44,68 @@
         },
         "total_tokens": 5820
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 488,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3351,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3348,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3839
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
+    {
+      "location": "Judul",
+      "severity": "major",
+      "source_quote": "Jamin Smartens Up",
+      "suggested_fix": "Gunakan judul yang mempertahankan makna bahwa Jamin bertambah bijak atau lebih pintar, misalnya: “Jamin Menjadi Lebih Bijak”.",
+      "translation_quote": "Jamin Menjadi Lebih Pintar"
+    },
     {
       "location": "Paragraf 3",
       "severity": "major",
-      "source_quote": "“So he continued mocking Jamin.”",
-      "suggested_fix": "Ganti “Tetapi Kenny pandai menghindari pendengaran. Jadi ia terus mengejek Jamin.” dengan “Tetapi Kenny pandai menghindar agar tidak terdengar. Jadi ia terus mengejek Jamin.”",
-      "translation_quote": "“Tetapi Kenny pandai menghindari pendengaran. Jadi ia terus mengejek Jamin.”"
+      "source_quote": "Kenny had a way of avoiding earshot.",
+      "suggested_fix": "Terjemahkan bahwa Kenny pandai mengejek tanpa terdengar atau menghindari agar orang tua tidak mendengarnya, misalnya: “Tetapi Kenny pandai memastikan ejekannya tidak terdengar oleh mereka.”",
+      "translation_quote": "Tetapi Kenny pandai menjauh agar tidak terdengar."
     },
     {
       "location": "Paragraf 7",
       "severity": "major",
-      "source_quote": "“His golden head caught the tired beams that fled from the sun as they flickered through the trees.”",
-      "suggested_fix": "Ganti “Kepala keemasannya menangkap sinar-sinar letih yang kabur dari matahari saat berkelebat melalui pepohonan.” dengan “Rambutnya yang keemasan menangkap sinar-sinar redup yang memancar dari matahari dan berkelap-kelip menembus pepohonan.”",
-      "translation_quote": "“Kepala keemasannya menangkap sinar-sinar letih yang kabur dari matahari saat berkelebat melalui pepohonan.”"
+      "source_quote": "The various traps had been checked already, so Jamin knew Kenny had come this way.",
+      "suggested_fix": "Pertahankan bahwa jebakan-jebakan itu sudah diperiksa, sehingga Jamin tahu Kenny telah melewati jalan itu; hapus makna bahwa Jamin sendiri telah memeriksanya.",
+      "translation_quote": "Jebakan-jebakan itu sudah diperiksa, jadi Jamin tahu Kenny telah melewati jalan ini."
     },
     {
-      "location": "Paragraf 7",
+      "location": "Paragraf 11",
       "severity": "major",
-      "source_quote": "“The fall webworms had been at work, and their web curtains shuttered from branches overhead.”",
-      "suggested_fix": "Ganti “Ulat jaring musim gugur telah bekerja, dan tirai-tirai jaring mereka menutup dari cabang-cabang di atas kepala.” dengan “Ulat jaring musim gugur telah bekerja, dan tirai-tirai jaringnya menggantung dari cabang-cabang di atas.”",
-      "translation_quote": "“Ulat jaring musim gugur telah bekerja, dan tirai-tirai jaring mereka menutup dari cabang-cabang di atas kepala.”"
-    },
-    {
-      "location": "Paragraf 12",
-      "severity": "major",
-      "source_quote": "“Kenny reeled free.”",
-      "suggested_fix": "Ganti “Kenny tersentak lepas.” dengan “Kenny terhuyung bebas.”",
-      "translation_quote": "“Kenny tersentak lepas.”"
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "Terjemahkan citra kegelapan yang menyelimuti atau menggelapkan tanah di sekitar Kenny; jangan menggantinya dengan darah yang tidak disebutkan sumber.",
+      "translation_quote": "Tanah di sekitar Kenny berlumuran darah."
     },
     {
       "location": "Paragraf 14",
       "severity": "major",
-      "source_quote": "“Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.”",
-      "suggested_fix": "Ganti “Jamin membalas panggilan, dan ayah segera berada di sisi mereka, melihat pergelangan kaki itu dan menggendong Kenny seperti domba yang terluka.” dengan “Jamin membalas panggilan, dan dalam sekejap ayah berada di sisi mereka. Setelah melihat pergelangan kaki Kenny, ia menggendong Kenny seperti domba yang terluka.”",
-      "translation_quote": "“Jamin membalas panggilan, dan ayah segera berada di sisi mereka, melihat pergelangan kaki itu dan menggendong Kenny seperti domba yang terluka.”"
-    },
-    {
-      "location": "Paragraf 17",
-      "severity": "major",
-      "source_quote": "“You were strong enough to open the trap, and Kenny wasn’t.”",
-      "suggested_fix": "Ganti “Kamu cukup kuat untuk membuka jebakan, dan Kenny tidak.” dengan “Kamu cukup kuat untuk membuka jebakan, sedangkan Kenny tidak cukup kuat.”",
-      "translation_quote": "“Kamu cukup kuat untuk membuka jebakan, dan Kenny tidak.”"
+      "source_quote": "Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.",
+      "suggested_fix": "Pertahankan bahwa ayah mereka segera berada di sisi mereka setelah Jamin menyahut; hindari menambahkan bahwa ayah berada di sisi mereka dalam sekejap sebelum melihat pergelangan kaki Kenny.",
+      "translation_quote": "Jamin menyahut, dan dalam sekejap ayah mereka sudah berada di sisi mereka. Setelah melihat pergelangan kaki Kenny, ia menggendongnya seperti domba yang terluka."
     }
   ],
+  "finished_at": "2026-10-03T21:32:40+00:00",
   "id": "b67912e9ceeb5bb2e72bc225a672dd81",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ind",
@@ -180,13 +194,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 79,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-6-luna"

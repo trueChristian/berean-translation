@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Title, article note, and throughout the article where “courtship” is used",
+      "severity": "major",
+      "source_quote": "“A Christ-centered courtship is a period of time between a single life and a married life.”",
+      "suggested_fix": "Use an Arabic expression for the premarital courtship period rather than «خِطبة», which ordinarily means engagement/proposal. For example, revise the sentence to «مرحلة التعارف بقصد الزواج التي تتمحور حول المسيح هي فترة بين حياة العزوبية والحياة الزوجية» and use consistent wording in the title, article note, headings, and other occurrences.",
+      "translation_quote": "«الخِطبة التي تتمحور حول المسيح فترةٌ بين حياة العزوبية والحياة الزوجية.»"
+    },
+    {
+      "location": "Section 4, quotation and reference to 2 Corinthians 6:14-15",
+      "severity": "major",
+      "source_quote": "“Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness” (2 Corinthians 6:14-15).",
+      "suggested_fix": "Remove «وأية شركة للنور مع الظلمة؟» from this quotation; the English source as printed does not include that additional clause. Preserve the remaining translated quotation and reference.",
+      "translation_quote": "«لا تكونوا تحت نير مع غير المؤمنين، لأنه أية خلطة للبر والإثم؟ وأية شركة للنور مع الظلمة؟» (كورنثوس الثانية 6:14-15)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

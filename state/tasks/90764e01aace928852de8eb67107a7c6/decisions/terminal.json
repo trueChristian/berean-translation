@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ «في المقبرة الصغيرة…»؛ نص النقش داخل الاقتباس",
+      "severity": "major",
+      "source_quote": "a servant of slaves in Africa",
+      "suggested_fix": "استبدل «وخادمًا للعبيد في أفريقيا» بـ«وعبدًا لدى تجار العبيد في أفريقيا» أو بصياغة عربية أخرى تنقل أنه كان مستعبَدًا ويعمل لدى تجار العبيد، لا خادمًا للعبيد.",
+      "translation_quote": "وخادمًا للعبيد في أفريقيا"
+    },
+    {
+      "location": "الفقرة التي تبدأ «وفي عام 1788…»؛ الاقتباس المنسوب إلى الكتاب",
+      "severity": "major",
+      "source_quote": "He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”",
+      "suggested_fix": "أعد صياغة الاقتباس ليحافظ على المعنى المطبوع: «ويقتبس قوله: “كان أسر المستعبَدين السود وبيعهم ونقلهم إلى مزارع جزر الهند الغربية وأمريكا أسلوبًا قاسيًا ووحشيًا في الحياة”». لا تضف معنى «لا حاجة إلى القول» إن لم يكن موجودًا في الاقتباس الأصلي.",
+      "translation_quote": "ويورد هذا القول: «لا حاجة إلى القول إن أسر السود المستعبَدين وبيعهم ونقلهم إلى المزارع في جزر الهند الغربية وأمريكا كان أسلوب حياة قاسيًا وشريرًا»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

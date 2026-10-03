@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "9b5f56a0e009d92912d3665d20d1ba033a63bcd43e434cc2b42e0b4343e2a9c6",
   "base_metadata_sha256": "57b6c283897dd5abbd66d4bb3f2d81b2045a715706de7bdcf6eef651dd772747",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,32 +44,40 @@
         },
         "total_tokens": 6526
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 857,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 697,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4101,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4098,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4958
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph beginning «Верьте, что Бог заботится»",
+      "location": "HTML paragraph beginning «Иногда этот вид перегрузки…»",
       "severity": "major",
-      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
-      "suggested_fix": "Переведите цитату на русский, сохранив смысл и ссылку: например, «Плач может длиться ночь, а утром приходит радость» (Псалом 30:5).",
-      "translation_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5)."
-    },
-    {
-      "location": "HTML, последний абзац",
-      "severity": "major",
-      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
-      "suggested_fix": "Переведите цитату на русский, сохранив смысл и ссылку: например, «На Тебя, Господи, уповаю; да не постыжусь вовек» (Псалом 71:1).",
-      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
-    },
-    {
-      "location": "section",
-      "severity": "major",
-      "source_quote": "SISTER TO SISTER",
-      "suggested_fix": "Переведите название раздела на русский, например: «СЕСТРА СЕСТРЕ».",
-      "translation_quote": "SISTER TO SISTER"
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Заменить «в наших простых кругах» на «в наших общинах простого уклада» (или другой ясный эквивалент, передающий здесь смысл религиозных общин простого уклада).",
+      "translation_quote": "Травматические события в наших простых кругах обычно получают молитвы, финансовую помощь и еженедельные обновления бюджета."
     }
   ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "ea9d2f32c3e5697b5e52c9777cabc85b",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -159,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 75,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-6-luna"

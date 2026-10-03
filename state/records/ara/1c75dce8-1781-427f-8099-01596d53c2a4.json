@@ -42,6 +42,12 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "b2360cef84bf3e5f4e99abe3482b9237"
+    },
+    {
+      "at": "2026-10-03T21:32:40+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; no further automatic correction is allowed",
+      "task": "b2360cef84bf3e5f4e99abe3482b9237"
     }
   ],
   "language": "ara",

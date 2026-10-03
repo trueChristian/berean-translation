@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ «ثم انتُخب لإكمال الأشهر الأربعة الأخيرة…»",
+      "severity": "major",
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.”",
+      "suggested_fix": "استبدل «انتُخب» بـ«اختير» أو «كُلِّف»، بما يفيد أنه اختير لإكمال مهام السكرتارية، لا أنه فاز بانتخاب.",
+      "translation_quote": "«ثم انتُخب لإكمال الأشهر الأربعة الأخيرة من مهام السكرتارية نيابةً عن أخ قضى بعض الوقت في بلغاريا.»"
+    },
+    {
+      "location": "الفقرة التي تبدأ «قالت بيكي: كانت تلك القشة…»",
+      "severity": "major",
+      "source_quote": "“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+      "suggested_fix": "حافظ على بنية الاقتباس واجعل نسبة الكلام إلى بيكي خارج الاقتباس المنطوق: «قالت بيكي: «كانت تلك القشة التي قصمت ظهر البعير. أقلقني أنني سمعته يتثاءب في منتصف الليل، وعرفت أنه لا ينام.»»",
+      "translation_quote": "«قالت بيكي: «كانت تلك القشة التي قصمت ظهر البعير. أقلقني أنني سمعته يتثاءب في منتصف الليل، وعرفت أنه لا ينام.»"
+    },
+    {
+      "location": "الفقرة التي تبدأ «أحيانًا لا يعرف الناس بهذا النوع…»",
+      "severity": "major",
+      "source_quote": "“Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.”",
+      "suggested_fix": "استبدل «دوائرنا القريبة» بعبارة تنقل المقصود بـ«دوائرنا البسيطة» أو «مجتمعاتنا المتواضعة»، مع إبقاء سائر الجملة كما هي.",
+      "translation_quote": "«غالبًا ما تحظى الأحداث الصادمة في دوائرنا القريبة بالصلوات والمساعدة المالية وتحديثات الميزانية الأسبوعية.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, premier paragraphe",
+      "severity": "minor",
+      "source_quote": "My young preschool mind had never seen so many delectable sweets in one place at one time.",
+      "suggested_fix": "Remplacer « Mon jeune esprit de préscolaire » par « Mon jeune esprit d’enfant d’âge préscolaire » pour une formulation plus naturelle.",
+      "translation_quote": "Mon jeune esprit de préscolaire n’avait jamais vu autant de douceurs alléchantes réunies au même endroit."
+    },
+    {
+      "location": "HTML, troisième paragraphe",
+      "severity": "minor",
+      "source_quote": "I encourage you, fellow believers, to give it a try.",
+      "suggested_fix": "Remplacer « à tenter votre chance » par « à vous lancer » pour préserver l’idée d’essayer d’écrire pour la revue.",
+      "translation_quote": "Je vous encourage, frères et sœurs en Christ, à tenter votre chance."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

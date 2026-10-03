@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Jamin Smartens Up",
+      "suggested_fix": "Use a title that preserves the sense of “smartens up” as Jamin becoming smarter, for example: “Jamin blir smartare”.",
+      "translation_quote": "Jamin blir klokare"
+    },
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "But Kenny had a way of avoiding earshot. So he continued mocking Jamin.",
+      "suggested_fix": "Replace “Men Kenny brukade se till att de inte hörde honom” with “Men Kenny hade ett sätt att undvika att de hörde honom.”",
+      "translation_quote": "Men Kenny brukade se till att de inte hörde honom."
+    },
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "major",
+      "source_quote": "And soon those too had faded leaving behind the musky smell of the woods.",
+      "suggested_fix": "Replace “Snart hade också de bleknat och lämnat kvar skogens mustiga doft” with “Snart hade också de bleknat och lämnat kvar skogens unkna doft.”",
+      "translation_quote": "Snart hade också de bleknat och lämnat kvar skogens mustiga doft."
+    },
+    {
+      "location": "HTML, paragraph 8",
+      "severity": "major",
+      "source_quote": "At length, as the trees subdued and thinned, and the meadow appeared Jamin knew this was the end of his brother’s trap route.",
+      "suggested_fix": "Replace “när träden glesnade och ängen visade sig” with “när träden tystnade och glesnade och ängen visade sig.”",
+      "translation_quote": "när träden glesnade och ängen visade sig"
+    },
+    {
+      "location": "HTML, paragraph 10",
+      "severity": "major",
+      "source_quote": "Jamin bent and found an ankle firmly held in the jaws of a steel trap. Darkness stained the ground around Kenny.",
+      "suggested_fix": "Replace “upptäckte att en stålfälla höll fast Kennys fotled. Mörkret fläckade marken runt Kenny” with “såg Kennys fotled hårt fastklämd i käftarna på en stålfälla av stål. Blod färgade marken runt Kenny.”",
+      "translation_quote": "upptäckte att en stålfälla höll fast Kennys fotled. Mörkret fläckade marken runt Kenny."
+    },
+    {
+      "location": "HTML, paragraph 14",
+      "severity": "major",
+      "source_quote": "He was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.",
+      "suggested_fix": "Replace “ett ögonblick senare var pappan vid deras sida” with “på ett ögonblick var han vid deras sida.”",
+      "translation_quote": "ett ögonblick senare var pappan vid deras sida."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

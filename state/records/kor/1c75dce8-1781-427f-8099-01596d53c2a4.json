@@ -18,26 +18,32 @@
       "campaign": "gh-37138123265",
       "event": "requested",
       "task": "d6a6d2bbc66da3ed4104109400e8cd5e"
+    },
+    {
+      "at": "2026-10-03T21:32:41+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "d6a6d2bbc66da3ed4104109400e8cd5e"
     }
   ],
   "language": "kor",
   "latest_task": "d6a6d2bbc66da3ed4104109400e8cd5e",
   "published": {
     "html_path": "content/kor/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
-    "html_sha256": "62e902aff6324ff5397b6382fe68e3309ff37cc04f0f9cb34d0469b7a3042ad5",
+    "html_sha256": "3b72bab111a628c77a14bece6d0df0c07bddc919e867b01cebe6e4a6d7203a9d",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
     "metadata_path": "content/kor/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
     "metadata_sha256": "faa160b446db8f08f06befcb703f7cff68eb83d43f87447d08acc998a5b6d178",
-    "model": "gpt-5-mini-2025-08-07",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ko\" dir=\"ltr\" role=\"note\">\n  <p>이 글은 OpenAI의 인공지능(모델: gpt-5-mini-2025-08-07)으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오. <a href=\"/en/articles/1c75dce8-1781-427f-8099-01596d53c2a4/\" data-source-article-id=\"1c75dce8-1781-427f-8099-01596d53c2a4\" hreflang=\"en\">영어 원문</a></p>\n</aside>",
-    "published_at": "2026-10-02T00:14:43+00:00",
-    "quality_score": 97,
-    "review_model": "gpt-5-mini-2025-08-07",
-    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
-    "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
-    "task": "154b0f68b144e53018fca5d17503f195",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ko\" dir=\"ltr\" role=\"note\">\n  <p>이 글은 OpenAI의 인공지능(모델: gpt-6-luna)으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오. <a href=\"/en/articles/1c75dce8-1781-427f-8099-01596d53c2a4/\" data-source-article-id=\"1c75dce8-1781-427f-8099-01596d53c2a4\" hreflang=\"en\">영어 원문</a></p>\n</aside>",
+    "published_at": "2026-10-03T21:32:41+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/39f887e9c01d16243113cc99cc0bd5d46d5fbdd3dacbb1c25c72d3ab24c8f62e.json",
+    "task": "d6a6d2bbc66da3ed4104109400e8cd5e",
     "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c"
   }
 }

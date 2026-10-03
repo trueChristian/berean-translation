@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening paragraph\",\"severity\":\"major\",\"source_quote\":\"“unspoiled by human invention and intervention”\",\"suggested_fix\":\"Ganti “ciptaan dan campur tangan manusia” menjadi “rekaan dan campur tangan manusia” agar maknanya tetap merujuk pada hal-hal yang dibuat dan dicampuri manusia.\",\"translation_quote\":\"“belum dirusak oleh ciptaan dan campur tangan manusia”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 429,
+    "content_evidence_truncated": false,
+    "content_sha256": "66235e26afde21e88c3c0ee1f507186653e4d1d4067f625482c7855bb50b17c2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 740,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6818,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7680
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

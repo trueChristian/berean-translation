@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": "dfbfdf7a5bae9da4249b8db5bd5da5e9451291a50264f4cd1efd9566a1c44e0e",
   "base_metadata_sha256": "228b76b9286f7fe249fa44b3248880818bdf2221f0a9f2eec2fec82a2b4285b0",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,32 +44,46 @@
         },
         "total_tokens": 5580
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 263,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3371,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3368,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3634
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraph beginning “Deadlines are a normal part of life”",
-      "severity": "major",
-      "source_quote": "“Without them we would be unmotivated, and our days would lack purpose.”",
-      "suggested_fix": "Replace «Χωρίς αυτές θα ήμασταν χωρίς κίνητρο και οι μέρες μας θα έλειπαν από σκοπό» with «Χωρίς αυτές δεν θα είχαμε κίνητρο και οι μέρες μας θα στερούνταν σκοπού» to preserve the intended meaning in natural Greek.",
-      "translation_quote": "«Χωρίς αυτές θα ήμασταν χωρίς κίνητρο και οι μέρες μας θα έλειπαν από σκοπό.»"
+      "location": "HTML, paragraph beginning “Οι προθεσμίες είναι…”",
+      "severity": "minor",
+      "source_quote": "Interruptions are also a normal part of life. They constantly give an unpredictable twist to our days and weeks.",
+      "suggested_fix": "Replace «παρεμβολές» with «διακοπές» or «απρόοπτα» in this paragraph and the following paragraph where it refers to interruptions; this is more idiomatic in context.",
+      "translation_quote": "Οι παρεμβολές επίσης είναι φυσιολογικό κομμάτι της ζωής. Δίνουν διαρκώς μια απρόβλεπτη στροφή στις μέρες και τις εβδομάδες μας."
     },
     {
-      "location": "HTML, paragraph beginning “Deciding early in the day”",
+      "location": "HTML, paragraph beginning “Η απόφαση νωρίς μέσα στην ημέρα…”",
       "severity": "minor",
-      "source_quote": "“packing the diaper bag in advance”",
-      "suggested_fix": "Replace «την τσάντα της πάνας» with «την τσάντα με τα απαραίτητα για το μωρό» for a natural Greek rendering of the diaper bag.",
-      "translation_quote": "«την τσάντα της πάνας»"
-    },
-    {
-      "location": "HTML, paragraph beginning “Sometimes the enormity of a task”",
-      "severity": "minor",
-      "source_quote": "“Deep cleaning my kitchen is a task that I do not enjoy.”",
-      "suggested_fix": "Replace «Το βαθύ καθάρισμα της κουζίνας μου» with «Ο γενικός καθαρισμός της κουζίνας μου» for idiomatic Greek.",
-      "translation_quote": "«Το βαθύ καθάρισμα της κουζίνας μου»"
+      "source_quote": "Deciding early in the day what to make for supper",
+      "suggested_fix": "Use «τι να ετοιμάσουμε για βραδινό» rather than «τι να ετοιμάσουμε για δείπνο», which can suggest a formal dinner and is less natural for everyday family supper.",
+      "translation_quote": "τι να ετοιμάσουμε για δείπνο"
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "3a65b82c53ad2e5d2ca43687e06c6067",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -159,13 +172,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cc2f3aa82de9069131de539e32395a7fa870d7d52a5c65a75d2f494593fc3197.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-6-luna"

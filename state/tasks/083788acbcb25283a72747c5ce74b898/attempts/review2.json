@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “When John was 17”\",\"severity\":\"minor\",\"source_quote\":\"a well-paying job overseeing a plantation\",\"suggested_fix\":\"Replace «ایک باغات کی نگرانی کی اچھی تنخواہ والی ملازمت» with «ایک باغ کی نگرانی کی اچھی تنخواہ والی ملازمت»\",\"translation_quote\":\"ایک باغات کی نگرانی کی اچھی تنخواہ والی ملازمت\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 492,
+    "content_evidence_truncated": false,
+    "content_sha256": "0735d26a7f09d46058309491cdf9d0e03d103585d393ad96c3862f9b14fa1038",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 729,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7337,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7334,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8189
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

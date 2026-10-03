@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "a169fabc91941ecbff46706ba91c2be85cc4ad99e3a5d43f451a330386e5e8fc",
   "base_metadata_sha256": "835450599a48818d660ad674bbfecaa81e0490b9c2105245ed0792d9478212b3",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,18 +44,40 @@
         },
         "total_tokens": 6524
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 717,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 596,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4240,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4237,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4957
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, paragraph beginning “Sometimes this type of overload…”",
+      "location": "Paragraph 3",
       "severity": "major",
-      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
-      "suggested_fix": "Replace רק the phrase ״בקהילות שלנו, הדוגלות באורח חיים פשוט״ with wording that conveys “in our plain circles,” for example: ״בחוגים שלנו, החיים בפשטות״. The source does not say the communities advocate a simple lifestyle.",
-      "translation_quote": "אירועים טראומטיים בקהילות שלנו, הדוגלות באורח חיים פשוט, זוכים בדרך כלל לתפילות, לסיוע כספי ולעדכונים שבועיים על התקציב."
+      "source_quote": "“the chickens had left the day before”",
+      "suggested_fix": "Replace «שהתרנגולות הוצאו ממנו יום קודם לכן» with «שהתרנגולות כבר עזבו יום קודם לכן», preserving the source’s statement without adding that someone removed them from the chicken house.",
+      "translation_quote": "«שהתרנגולות הוצאו ממנו יום קודם לכן»"
     }
   ],
+  "finished_at": "2026-10-03T21:32:38+00:00",
   "id": "2ef77b78d74d8a06da4597c91056baea",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -151,7 +172,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section 8, 1 Peter 3:7 quotation and following commentary\",\"severity\":\"major\",\"source_quote\":\"“as unto the weaker vessel” … “She is the weaker vessel”\",\"suggested_fix\":\"In the quotation, replace “aan die vroulike geslag, as die swakkere” with “aan die vrou as die swakker vat”; in the following sentence, replace “Sy is die swakkere” with “Sy is die swakker vat”.\",\"translation_quote\":\"“aan die vroulike geslag, as die swakkere” … “Sy is die swakkere”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 543,
+    "content_evidence_truncated": false,
+    "content_sha256": "82f1fed83db36bef3fb9e098f7ced957c7464e72155e83de29297bc3e6a64878",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 947,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 788,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12698,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12695,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13645
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

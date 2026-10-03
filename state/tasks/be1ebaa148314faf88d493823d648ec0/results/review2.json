@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "be30ff58-247c-416c-8e83-271bbab722aa",
+    "response_id": "chatcmpl-EV1U2bH1oLGrH5FdGCysfk85TDDra",
+    "usage": {
+      "completion_tokens": 143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3381,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3378,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3524
+    }
+  },
+  "received_at": "2026-10-03T21:32:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, third paragraph",
+        "severity": "major",
+        "source_quote": "Youths encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+        "suggested_fix": "ایسے نوجوانوں کی، جو اپنے ساتھی نوجوانوں کو مسیح یسوع میں اعلیٰ بلاوے کے انعام کے نشان کی طرف بڑھنے کی ترغیب دیں۔",
+        "translation_quote": "ایسے نوجوانوں کی، جو اپنے ساتھی نوجوانوں کو مسیح یسوع میں اعلیٰ بلاوے کے انعام کے نشان کی طرف بڑھنے کی ترغیب دیں۔"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

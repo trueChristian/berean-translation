@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, third paragraph, Nelson Mandela quotation",
+      "severity": "major",
+      "source_quote": "“Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+      "suggested_fix": "Replace the quoted sentence with a faithful Bokmål translation, for example: «Nederlag er en læremester, og når livet går mot slutten, hva tror du at du vil føle deg verst over – å ha mislyktes eller aldri å ha prøvd?»",
+      "translation_quote": "«Nederlag er en læremester, og når livet går mot slutten, hva tror du at du vil angre mest på – å ha mislyktes eller aldri å ha prøvd?»"
+    },
+    {
+      "location": "source.html, book-list, “Cup & Cross”",
+      "severity": "major",
+      "source_quote": "Cup &amp; Cross",
+      "suggested_fix": "Use a Bokmål title that preserves the meaning of both title elements, for example: «Kalk og kors».",
+      "translation_quote": "Kalk og kors"
+    },
+    {
+      "location": "source.html, final paragraph",
+      "severity": "major",
+      "source_quote": "As time progressed and the deadly nature of COVID-19 abated, we decided to publish the original vaccine articles in a booklet without any additional articles on the COVID-19 debate.",
+      "suggested_fix": "Translate «the deadly nature of COVID-19 abated» without adding a claim about the virus itself; for example: «Etter hvert som tiden gikk og COVID-19s dødelige karakter avtok, bestemte vi oss for å utgi de opprinnelige vaksineartiklene i et hefte uten ytterligere artikler om COVID-19-debatten.»",
+      "translation_quote": "Etter hvert som tiden gikk og COVID-19s dødelige karakter avtok, bestemte vi oss for å utgi de opprinnelige vaksineartiklene i et hefte uten ytterligere artikler om COVID-19-debatten."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

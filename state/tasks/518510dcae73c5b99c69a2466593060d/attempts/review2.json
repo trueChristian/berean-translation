@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Speaking to yourselves…” (Ephesians 5:19)\",\"severity\":\"major\",\"source_quote\":\"“singing and making melody in your heart to the Lord”\",\"suggested_fix\":\"Revise the quoted phrase to preserve both singing and making melody in the heart to the Lord, for example: “sing en maak in julle harte melodie tot eer van die Here”.\",\"translation_quote\":\"“sing en loof die Here met julle hele hart”\"},{\"location\":\"Final paragraph (Colossians 3:16)\",\"severity\":\"major\",\"source_quote\":\"“singing with grace in your hearts to the Lord”\",\"suggested_fix\":\"Replace “met dankbaarheid” with “met genade” so the quotation preserves the source’s reference to grace: “sing met genade in julle harte tot eer van die Here”.\",\"translation_quote\":\"“sing met dankbaarheid in julle harte tot eer van die Here”\"},{\"location\":\"Lead paragraph\",\"severity\":\"minor\",\"source_quote\":\"“the ravens”\",\"suggested_fix\":\"Use the Afrikaans name for ravens, “rawe”, rather than “kraaie”.\",\"translation_quote\":\"“die kraaie”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1105,
+    "content_evidence_truncated": false,
+    "content_sha256": "fe7adf82f534f7aeed46e3cd40891aabcf07e34dcf6fdc20e4b1065b94c8b98b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 845,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6855,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6852,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7976
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": "e33396dd7da71346f8f7f250db6ef498e514768cc0a3b8d1df63b16e9da833b0",
   "base_metadata_sha256": "513d6d1895e7f3898df0278c9367b63d162a1af206e4fc7f340c83bd5cad3d92",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,32 +44,75 @@
         },
         "total_tokens": 5346
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 743,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3314,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3311,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4057
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html, final paragraph of Grandma Otto’s speech",
+      "location": "source.html / translation.html，第3段",
       "severity": "major",
-      "source_quote": "“God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason.”",
-      "suggested_fix": "“上帝造你成为现在的样子自有祂的理由，Jamin。祂造 Kenny 成为现在的样子也自有祂的理由。”",
-      "translation_quote": "“上帝按着祂的旨意造就了你的样子，Jamin。祂按着祂的旨意造就了 Kenny 的样子。”"
+      "source_quote": "Very well, then Jamin would be simple.",
+      "suggested_fix": "将“那 Jamin 就做个笨蛋”改为“好吧，那 Jamin 就当个头脑简单的人”或其他保留“simple（心智简单）”含义、不过度贬损的译法。",
+      "translation_quote": "好吧，那 Jamin 就做个笨蛋。"
     },
     {
-      "location": "source.html, paragraph beginning “Jamin went to the wash house”",
-      "severity": "minor",
-      "source_quote": "“Jamin went to the wash house and scrubbed his hands.”",
-      "suggested_fix": "将“洗手房”改为“洗涤间”或符合上下文的其他译法，例如：“Jamin 去洗涤间把手洗干净。”",
-      "translation_quote": "“Jamin 到洗手房洗了手。”"
+      "location": "source.html / translation.html，第9段",
+      "severity": "major",
+      "source_quote": "As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny.",
+      "suggested_fix": "将反复的“那堆”改为自然且忠实的表达，例如：“Jamin 蹒跚走进草地时，看见右边有一团沮丧的人影。那声音听起来很熟悉，那人的脸上因疼痛而扭曲。那人正是 Kenny。”",
+      "translation_quote": "当 Jamin 咚咚地走入草地时，他看到右边有个沮丧的堆。那堆的声音有熟悉的腔调。那堆的脸上带着痛苦。那堆就是 Kenny。"
     },
     {
-      "location": "source.html, paragraph beginning “Jamin.” It was Grandma",
-      "severity": "minor",
-      "source_quote": "“A heavy comforter lay on her shoulders.”",
-      "suggested_fix": "将“安慰被”改为“厚厚的被子”或“厚厚的棉被”，例如：“她肩上披着一床厚厚的被子。”",
-      "translation_quote": "“一床厚厚的安慰被披在她肩上。”"
+      "location": "source.html / translation.html，第11段",
+      "severity": "major",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "译为保留原文意象的表达，例如“黑暗笼罩着 Kenny 周围的地面。”当前“蔓延”加入了原文没有的移动含义。",
+      "translation_quote": "黑暗在 Kenny 周围的地面上蔓延。"
+    },
+    {
+      "location": "source.html / translation.html，第14段",
+      "severity": "major",
+      "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
+      "suggested_fix": "将“小团子”改为指兄弟俩与父亲组成的一行人的表达，例如“这支奇特的小队匆匆赶回家；父亲快步穿过门廊时，纱门砰地关上。”",
+      "translation_quote": "这个奇怪的小团子匆匆赶回家，纱门在父亲横跨门廊时砰地关上。"
+    },
+    {
+      "location": "source.html / translation.html，第15段",
+      "severity": "major",
+      "source_quote": "Jamin went to the wash house and scrubbed his hands.",
+      "suggested_fix": "把“洗涤间”改为“洗衣房”或符合语境的盥洗处所，并保留他认真搓洗双手的意思。",
+      "translation_quote": "Jamin 到洗涤间洗了手。"
+    },
+    {
+      "location": "source.html / translation.html，第19段",
+      "severity": "major",
+      "source_quote": "He has a plan for you, and a place only you can fill, you know.",
+      "suggested_fix": "将“为你安排了只有你能填补的位子”改为自然表达，例如“祂对你有计划，也为你预备了一个只有你才能担当的位置，你知道吗？”",
+      "translation_quote": "祂对你有计划，也为你安排了只有你能填补的位子，你知道吗。"
     }
   ],
+  "finished_at": "2026-10-03T21:32:41+00:00",
   "id": "d124c666703d2bf6e2c735181182a96b",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "cmn",
@@ -159,13 +201,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7792369e407c06be50cf411668e03bc948862c8297a67a060d60ebb9208bcab2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-6-luna"

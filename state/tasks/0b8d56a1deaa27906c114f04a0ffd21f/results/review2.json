@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a7b50c4e-4520-48fa-a875-bd9abb5a54d5",
+    "response_id": "chatcmpl-EV1T5kZKQaXlibccYz6uQHu41e6xX",
+    "usage": {
+      "completion_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 457,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2971,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2968,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3561
+    }
+  },
+  "received_at": "2026-10-03T21:32:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "major",
+        "source_quote": "The urgency of the last minute is something that many homemakers deal with regularly.",
+        "suggested_fix": "Change “baie tuistes” to “baie tuisteskeppers” so the sentence refers to people, not homes: “Die dringendheid van die laaste minuut is iets waarmee baie tuisteskeppers gereeld te doen het.”",
+        "translation_quote": "Die dringendheid van die laaste minuut is iets waarmee baie tuistes gereeld te doen het."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

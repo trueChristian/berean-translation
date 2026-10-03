@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": "9b0b780caa7bbfb28f2291f51b9be5e4c2d6b71c8f150518ba20f362794b3a1d",
   "base_metadata_sha256": "de6f4b08afb8b8123efef64d68547f789c9a92c7f90265e70c5a74a1956a0500",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:31+00:00",
   "events": [
@@ -45,32 +44,31 @@
         },
         "total_tokens": 6182
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 493,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 467,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3923,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3920,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4416
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "第13段，“our plain circles”",
-      "severity": "major",
-      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
-      "suggested_fix": "将“我们明显圈子里的创伤事件”改为“我们朴素派社群中的创伤事件”，以表达这里指特定社群，而非“明显的圈子”。",
-      "translation_quote": "我们明显圈子里的创伤事件往往会得到祷告、财政支持和每周的预算更新。"
-    },
-    {
-      "location": "第22段，诗篇30:5引文",
-      "severity": "major",
-      "source_quote": "“Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).",
-      "suggested_fix": "将英文引文及括号中的英文书名改为中文，例如：“一宿虽有哭泣，早晨便必欢呼”（诗篇30:5）。",
-      "translation_quote": "“ Weeping may endure for a night, but joy cometh in the morning ”（Psalm 30:5）。"
-    },
-    {
-      "location": "末段，诗篇71:1引文",
-      "severity": "major",
-      "source_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
-      "suggested_fix": "将英文引文及括号中的英文书名改为中文，例如：“耶和华啊，我投靠你；求你叫我永不羞愧”（诗篇71:1）。",
-      "translation_quote": "“In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "55d404f44aa9c4355a086815226d55eb",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "cmn",
@@ -159,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/121551fe55eef7dedaeba93e10b45631928572b95fe8ef42df48512f9e4bf12a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-6-luna"

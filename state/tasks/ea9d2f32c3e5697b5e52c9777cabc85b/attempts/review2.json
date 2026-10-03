@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-03T21:32:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning «Иногда этот вид перегрузки…»\",\"severity\":\"major\",\"source_quote\":\"Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.\",\"suggested_fix\":\"Заменить «в наших простых кругах» на «в наших общинах простого уклада» (или другой ясный эквивалент, передающий здесь смысл религиозных общин простого уклада).\",\"translation_quote\":\"Травматические события в наших простых кругах обычно получают молитвы, финансовую помощь и еженедельные обновления бюджета.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 837,
+    "content_evidence_truncated": false,
+    "content_sha256": "2941cce8fe566d6ee2939f6772cd655d4ca8338cfd7332cb5237b2e0a7e62cfa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 857,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 697,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4101,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4098,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4958
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

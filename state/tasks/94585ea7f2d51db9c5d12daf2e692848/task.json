@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": "c245d414d0af3ac915b9bacd1a53ba603e8a7a745b30ff6223707890bcd33f8f",
   "base_metadata_sha256": "5409d39571558c7c729c698c17ecd9beb891803acacd61a4a806273b0eda5b49",
-  "batch": "cb82bc6bc5e34fcf81453c76454d8653",
   "campaign": "gh-37138123265",
   "created_at": "2026-10-03T16:59:30+00:00",
   "events": [
@@ -45,18 +44,40 @@
         },
         "total_tokens": 4897
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 155,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3161,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3158,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3316
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML image alt text",
+      "location": "الفقرة الثالثة، الجملة عن الآباء",
       "severity": "major",
-      "source_quote": "Pink and white crown vetch flowers in a green meadow",
-      "suggested_fix": "غيّر الوصف إلى: «أزهار نبات التاجية الوردية والبيضاء في مرج أخضر».",
-      "translation_quote": "زهور الكرونة البنفسجية والبيضاء في مرج أخضر"
+      "source_quote": "Fathers who with a concerned eye watch the world pressing in on the Christian homes.",
+      "suggested_fix": "استبدل «ونحتاج إلى آباء يراقبون بعين قلقة العالم وهو يضغط على البيوت المسيحية» بـ«وآباء يراقبون بقلق العالم وهو يزداد ضغطاً على البيوت المسيحية» لتوضيح معنى «pressing in on» في السياق.",
+      "translation_quote": "ونحتاج إلى آباء يراقبون بعين قلقة العالم وهو يضغط على البيوت المسيحية."
     }
   ],
+  "finished_at": "2026-10-03T21:32:39+00:00",
   "id": "94585ea7f2d51db9c5d12daf2e692848",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -145,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b040e63c049fea270873332e4884082e7c2d4e2fd14bcca7c1fa5c4366153297.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-6-luna"
