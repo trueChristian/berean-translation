@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translated paragraph beginning “As a Kingdom Christian”",
+      "severity": "major",
+      "source_quote": "As a Kingdom Christian, I look at a quote like this and say, “how frivolous and empty.”",
+      "suggested_fix": "Replace “রাজ্যের একজন খ্রিষ্টান” with “ঈশ্বরের রাজ্যের একজন খ্রিষ্টান” to convey “Kingdom Christian.”",
+      "translation_quote": "রাজ্যের একজন খ্রিষ্টান হিসেবে, এ রকম উদ্ধৃতি পড়ে আমি বলি, “কী তুচ্ছ আর শূন্য!”"
+    },
+    {
+      "location": "source.html / paragraph beginning “A Prepared Place”",
+      "severity": "major",
+      "source_quote": "Read Revelation 21 and 22 for graphic descriptions of this prepared place—Heaven!",
+      "suggested_fix": "Replace “জীবন্ত বর্ণনার” with “স্পষ্ট বর্ণনার” or “বিশদ বর্ণনার” to convey “graphic descriptions” without changing the sense.",
+      "translation_quote": "এই প্রস্তুত স্থান—স্বর্গের জীবন্ত বর্ণনার জন্য প্রকাশিত বাক্য ২১ ও ২২ পড়ো!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph quoting 2 Peter, Scripture reference",
+      "severity": "major",
+      "source_quote": "–2Pe 3:3-4.",
+      "suggested_fix": "Replace the reference abbreviation with its conventional Italian form, preserving the chapter and verse numbers: «–2 Pt 3:3-4.»",
+      "translation_quote": "–2Pe 3:3-4."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

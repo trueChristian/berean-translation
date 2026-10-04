@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0c403f73-6f6b-466a-836c-48665ce9d155",
+    "response_id": "chatcmpl-EV4FW1LaXWmzXlzHFC5EXK2fgxfgA",
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6122,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6749
+    }
+  },
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Artikelns första bibelcitat",
+        "severity": "major",
+        "source_quote": "–2Pe 3:3-4.",
+        "suggested_fix": "Ändra hänvisningen till ”–2 Pet 3:3-4.” Använd den vedertagna svenska bokförkortningen och behåll kapitel- och versnumren.",
+        "translation_quote": "–2Pe 3:3-4."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

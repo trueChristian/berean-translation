@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2ed2f8a09e774428ac3165fe8ed131b8",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -45,18 +44,40 @@
         },
         "total_tokens": 16663
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1280,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1123,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10197,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10194,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11477
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/blockquote[2]/p[1]; translation /article[1]/blockquote[2]/p[1]/br[12]",
-      "severity": "critical",
-      "source_quote": "<p>‘Twas you, my sins, my cruel sins,<br>\n    His chief tormentors were.<br>\n    Each of my crimes became a nail,<br>\n    And unbelief the spear.<br>\n    ‘Twas you that pulled the vengeance down<br>\n    Upon His guiltless head:<br>\n    Break, break, my heart, oh burst my eyes!<br>\n    And let my sorrows bleed.<br>\n    Strike, mighty grace, my flinty soul,<br>\n    Till melting waters flow,<br>\n    And deep repentance drowns<br>\n    My eyes in sorrow and in woe.” –Watts</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[95:95], translation signature[95:96], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>اے میرے گناہو، یہ تم ہی تھے،<br>\n    میرے ظالم گناہو، جو اُس کے<br>\n    سب سے بڑے اذیت دینے والے تھے۔<br>\n    میرا ہر جرم ایک کیل بن گیا،<br>\n    اور بےایمانی نیزہ۔<br>\n    تم ہی نے اُس کے بےگناہ سر پر<br>\n    انتقام اتارا:<br>\n    ٹوٹ جا، ٹوٹ جا، اے میرے دل، اے میری آنکھو پھٹ پڑو!<br>\n    اور میرے غم کو لہو لہان ہونے دو۔<br>\n    اے زورآور فضل، میری چقماقی روح پر ضرب لگا،<br>\n    یہاں تک کہ پگھلتے پانی بہنے لگیں،<br>\n    اور گہری توبہ<br>\n    میری آنکھوں کو غم و اندوہ میں ڈبو دے۔“—واٹس</p>"
+      "location": "HTML, paragraph beginning “Luke is the only evangelist”",
+      "severity": "major",
+      "source_quote": "Joanna the wife of Chuza Herod’s steward",
+      "suggested_fix": "Replace “خوزہ کی بیوی یوآنا، جو ہیرودیس کی مختار تھی” with “ہیرودیس کے مختار خوزہ کی بیوی یوآنا” so that Chuza, not Joanna, is identified as Herod’s steward.",
+      "translation_quote": "خوزہ کی بیوی یوآنا، جو ہیرودیس کی مختار تھی"
     }
   ],
+  "finished_at": "2026-10-04T06:03:04+00:00",
   "id": "dcb428fd62ab2a0c03289f8dacee4f8b",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "urd",
@@ -145,11 +166,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bdb7a625-d57d-4149-8bb9-d15d9b279def",
+    "response_id": "chatcmpl-EV4DB6vzACCTr0EWqgvud6VpFE4oB",
+    "usage": {
+      "completion_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 632,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9477,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9474,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10471
+    }
+  },
+  "received_at": "2026-10-04T06:03:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文第三段，撒迦利亚书 12:10-14 引文",
+        "severity": "major",
+        "source_quote": "…and their wives apart; … and their wives apart; … and their wives apart; … every family apart, and their wives apart",
+        "suggested_fix": "在“他们的妻子独自悲哀”之后补上遗漏的一次重复，使引文保留原文的次数和位置；例如将该处改为“……他们的妻子独自悲哀……他们的妻子独自悲哀……他们的妻子独自悲哀……他们的妻子独自悲哀……各家都独自悲哀，他们的妻子也独自悲哀”。",
+        "translation_quote": "……他们的妻子独自悲哀……他们的妻子独自悲哀……他们的妻子独自悲哀……各家都独自悲哀，他们的妻子也独自悲哀。"
+      },
+      {
+        "location": "“国家的罪”段落，路加福音 23:29 引文",
+        "severity": "major",
+        "source_quote": "Blessed are the barren, and the wombs that never bare",
+        "suggested_fix": "将“未曾怀孕的”改为“从未生育的”或“未曾生育的”，以表达“从未生过孩子”，而非“从未怀孕”。",
+        "translation_quote": "不生育的和未曾怀孕的，未曾乳养婴孩的，有福了！"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

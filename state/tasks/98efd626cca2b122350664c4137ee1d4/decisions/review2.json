@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Первый абзац основного текста",
+      "severity": "major",
+      "source_quote": "Our Lord began his preaching ministry in a rather usual fashion: in a church",
+      "suggested_fix": "Заменить «в синагоге» на «в церкви», сохранив утверждение источника.",
+      "translation_quote": "Наш Господь начал Своё проповедническое служение довольно обычным образом: в синагоге"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

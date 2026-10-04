@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “The Greek word for beset”\",\"severity\":\"major\",\"source_quote\":\"The Greek word for <em>beset</em> describes it as to <u>distract</u> or <u>compete.</u>\",\"suggested_fix\":\"Persempit perubahan pada frasa tersebut: ganti “menggambarkan tindakan” dengan “menggambarkan artinya sebagai”, sehingga menjadi “Kata Yunani untuk <em>menjerat</em> menggambarkan artinya sebagai <u>mengalihkan perhatian</u> atau <u>bersaing.</u>”\",\"translation_quote\":\"Kata Yunani untuk <em>menjerat</em> menggambarkan tindakan <u>mengalihkan perhatian</u> atau <u>bersaing.</u>\"},{\"location\":\"source.html, paragraph beginning “There’s a big social media craze”\",\"severity\":\"major\",\"source_quote\":\"There’s a big social media craze to show everyone what you’re doing and gain approval of men.\",\"suggested_fix\":\"Ubah “memperoleh persetujuan manusia” menjadi “memperoleh persetujuan orang lain”, agar maksudnya tidak menyiratkan bahwa persetujuan itu hanya dari laki-laki.\",\"translation_quote\":\"Ada tren besar di media sosial untuk memperlihatkan kepada semua orang apa yang sedang Anda lakukan dan memperoleh persetujuan manusia.\"},{\"location\":\"source.html, paragraph beginning “Heaven will be filled with the fulness”\",\"severity\":\"major\",\"source_quote\":\"Heaven will be filled with the fulness of God’s glory.\",\"suggested_fix\":\"Ubah “seluruh kemuliaan Allah” menjadi “kepenuhan kemuliaan Allah” agar tetap menyatakan bahwa surga dipenuhi kepenuhan kemuliaan-Nya.\",\"translation_quote\":\"Surga akan dipenuhi seluruh kemuliaan Allah.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1634,
+    "content_evidence_truncated": false,
+    "content_sha256": "88cc970ab7248d70099141c8d5f25a5ab3f1158930a2dd85163f17a87b05132b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 412,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11352,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11767
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

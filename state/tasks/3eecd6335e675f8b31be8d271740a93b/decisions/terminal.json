@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "본문 5문단",
+      "severity": "major",
+      "source_quote": "“Look at the lilies, the fowls of the air, and learn a lesson from them!”",
+      "suggested_fix": "인용문을 “들의 백합화와 공중의 새들을 보며 그들에게서 교훈을 배우라!”처럼 번역해 ‘들의’에 해당하는 내용을 포함하십시오.",
+      "translation_quote": "“백합화와 공중의 새들을 보고 그들에게서 교훈을 배우라!”"
+    },
+    {
+      "location": "본문 7문단",
+      "severity": "major",
+      "source_quote": "“whether with little or with much.”",
+      "suggested_fix": "하나님께서 적은 것으로든 많은 것으로든 지켜 주신다는 뜻이 드러나도록 “적든 많든”을 “적은 것으로든 많은 것으로든” 등으로 고치십시오.",
+      "translation_quote": "“적든 많든 그분께서 우리를 지켜 주시리라”"
+    },
+    {
+      "location": "본문 8문단",
+      "severity": "major",
+      "source_quote": "“the right to the Tree of Life.”",
+      "suggested_fix": "“생명나무에 나아갈 권리”를 “생명나무를 소유할 권리” 또는 문맥에 맞게 ‘생명나무에 대한 권리’로 고쳐, 원문의 ‘the right to’가 가리키는 권리를 보존하십시오.",
+      "translation_quote": "“생명나무에 나아갈 권리”"
+    },
+    {
+      "location": "본문 10문단",
+      "severity": "major",
+      "source_quote": "“Should we much rather cry out ‘how long Lord Jesus’ ‘so come’?”",
+      "suggested_fix": "두 표현의 의미를 살려 “차라리 ‘주 예수님, 언제까지입니까?’ ‘오시옵소서’라고 외쳐야 하지 않겠습니까?”로 고치십시오.",
+      "translation_quote": "“주 예수님, 언제까지입니까?” “속히 오시옵소서”라고 외쳐야 하지 않겠습니까?"
+    },
+    {
+      "location": "본문 12문단",
+      "severity": "major",
+      "source_quote": "“calling them to trust in God, and leading them in prayers of faith.”",
+      "suggested_fix": "하나님을 신뢰하도록 권하고 믿음의 기도로 이끈다는 의미를 보존하도록 “하나님을 신뢰하도록 권하며 믿음의 기도로 이끌어야 합니다”로 고치십시오.",
+      "translation_quote": "“하나님을 신뢰하도록 부르고 믿음의 기도로 이끌어야 합니다.”"
+    },
+    {
+      "location": "본문 14문단",
+      "severity": "major",
+      "source_quote": "“Some of us have jobs and some do not. God’s Word tells us that those who have are to give to those who do not have so that there may be an equality.”",
+      "suggested_fix": "‘직장’에 한정된 의미를 피하고, 가진 사람과 가지지 못한 사람 사이의 나눔이 드러나도록 “우리 중에는 가진 사람도 있고 가지지 못한 사람도 있습니다. 하나님의 말씀은 가진 이들이 가지지 못한 이들에게 나누어 주어 평등하게 하라고 말합니다”로 고치십시오.",
+      "translation_quote": "“우리 중에는 직장이 있는 사람도 있고 없는 사람도 있습니다. 하나님의 말씀은 가진 자들이 가지지 못한 자들에게 나누어 주어 평등하게 되게 하라고 말합니다.”"
+    },
+    {
+      "location": "본문 16문단",
+      "severity": "major",
+      "source_quote": "“There may come a time soon enough that we will be asked to do something that we cannot do with a clear conscience”",
+      "suggested_fix": "‘양심에 거리낌 없이 할 수 없는 일’이라는 뜻을 분명히 하도록 “양심에 거리낌 없이 할 수 없는 일을 요구받는 때가 올 수도 있습니다”로 고치십시오.",
+      "translation_quote": "“양심에 거리낌 없이 할 수 없는 일을 요구받는 때가 올 수도 있습니다.”"
+    },
+    {
+      "location": "본문 18문단",
+      "severity": "major",
+      "source_quote": "“those that choose not to since they do not see the value of it.”",
+      "suggested_fix": "‘그 가치’를 모른다는 의미가 무엇의 가치인지 분명히 하도록 “그 가치를 알지 못해 모이지 않기로 선택하는 사람들”로 고치십시오.",
+      "translation_quote": "“그 가치를 보지 못해 모이지 않기로 선택하는 사람들”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

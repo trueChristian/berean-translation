@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, final line",
+      "severity": "major",
+      "source_quote": "to be who God made him to be.",
+      "suggested_fix": "Ia tak sabar menjadi pribadi sebagaimana Allah menciptakannya.",
+      "translation_quote": "Ia tak sabar menjadi pribadi yang Allah ciptakan baginya."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "p containing Acts 5:32–33 quotation",
+      "severity": "critical",
+      "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them”",
+      "suggested_fix": "Replace only the bold quotation with «Когда они выслушали это, они были в ярости и решили убить их», preserving the existing <strong> tags and all other markup.",
+      "translation_quote": "«Слышав это, они разрывались от гнева и хотели убить их»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

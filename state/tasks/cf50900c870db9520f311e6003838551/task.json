@@ -2,7 +2,6 @@
   "article_id": "cf07f132-92d4-49ba-b318-52520f77ca67",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2ed2f8a09e774428ac3165fe8ed131b8",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -45,18 +44,40 @@
         },
         "total_tokens": 3299
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 531,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 444,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1930,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1927,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2461
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/div[1]/p[1]/br[1]; translation /article[1]/div[1]/p[1]",
-      "severity": "critical",
-      "source_quote": "<p>His pillow was wet, tears continued to flow,<br>\n    Oh! Where is the day? This night would not go.<br>\n    Decisions he made; he would never forget.<br>\n    His wife and his children, oh the regret!<br>\n    (You don’t know what you have, until it is gone.)<br>\n    He reached for the bottle, awaiting the dawn.<br>\n    The days came and went, they seemed like a blur.<br>\n    He needed some answers, to fix how things were.<br>\n    ‘Go to your neighbors’, a small voice he heard.<br>\n    ‘But he is a Christian!’ the thought seemed absurd.<br>\n    ‘He has the answers, so do not delay!’<br>\n   …",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[6:31], translation signature[6:6], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "…ekad bulat.\n    Tetangganya ada di rumah, senyumnya begitu ramah;\n    Ia bercerita tentang Yesus, yang akan mengubah hidupnya.\n    Kata-kata yang diucapkannya nyaris tak terasa nyata.\n    Semuanya terasa begitu jelas! Ia menangis saat hatinya hancur terbuka.\n    Kasih Allah membanjiri jiwanya yang membutuhkan,\n    Ia tahu tanpa ragu bahwa dirinya telah dipulihkan.\n    Tanpa menunda, ia menelepon istrinya.\n    “Oh, pulanglah, kumohon, Allah telah menyingkirkan kebencian!”\n    Dengan keluarganya di sisinya, dosa-dosanya di laut,\n    Ia tak sabar menjadi pribadi yang Allah ciptakan baginya.</p>"
+      "location": "HTML poem, final line",
+      "severity": "major",
+      "source_quote": "to be who God made him to be.",
+      "suggested_fix": "Ia tak sabar menjadi pribadi sebagaimana Allah menciptakannya.",
+      "translation_quote": "Ia tak sabar menjadi pribadi yang Allah ciptakan baginya."
     }
   ],
+  "finished_at": "2026-10-04T06:03:04+00:00",
   "id": "cf50900c870db9520f311e6003838551",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ind",
@@ -145,11 +166,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9861fcb86053c74db76cb1e0d711e79061d0be937dd95778c55c9f82c3690575.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e7cdbcc930ae79ba671e7483532d0c089c66a7b511a407e75cdef72b4141716b",
   "translation_model_actual": "gpt-6-luna"

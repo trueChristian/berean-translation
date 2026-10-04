@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, alinea 2\",\"severity\":\"major\",\"source_quote\":\"One of the outfalls of the pandemic is the government invasion into the church and our personal lives\",\"suggested_fix\":\"Vervang ‘Een van de gevolgen van de pandemie is de inmenging van de overheid in de kerk en in ons persoonlijke leven’ door ‘Een van de gevolgen van de pandemie is de inbreuk van de overheid op de kerk en ons persoonlijke leven’.\",\"translation_quote\":\"Een van de gevolgen van de pandemie is de inmenging van de overheid in de kerk en in ons persoonlijke leven\"},{\"location\":\"HTML, alinea 3\",\"severity\":\"major\",\"source_quote\":\"if anyone should have answers in this time of pandemic, we as Christians should\",\"suggested_fix\":\"Vervang ‘wij als christenen dat zouden moeten zijn’ door ‘wij als christenen antwoorden zouden moeten hebben’.\",\"translation_quote\":\"als iemand in deze tijd van pandemie antwoorden zou moeten hebben, wij als christenen dat zouden moeten zijn\"},{\"location\":\"HTML, alinea 5\",\"severity\":\"major\",\"source_quote\":\"whether with little or with much\",\"suggested_fix\":\"Vervang ‘of we nu weinig of veel hebben’ door ‘of we nu weinig of veel ontvangen’.\",\"translation_quote\":\"of we nu weinig of veel hebben\"},{\"location\":\"HTML, alinea 9\",\"severity\":\"major\",\"source_quote\":\"Should we much rather cry out “how long Lord Jesus” “so come”?\",\"suggested_fix\":\"Vervang ‘Zouden we niet veel liever uitroepen: “Hoe lang nog, Here Jezus?” “Kom dan!”?’ door ‘Zouden we niet veel liever uitroepen: “Hoe lang nog, Heer Jezus?” “Kom!”?’\",\"translation_quote\":\"Zouden we niet veel liever uitroepen: ‘Hoe lang nog, Here Jezus?’ ‘Kom dan!’?\"},{\"location\":\"HTML, alinea 12\",\"severity\":\"major\",\"source_quote\":\"Some of us have jobs and some do not. God’s Word tells us that those who have are to give to those who do not have so that there may be an equality.\",\"suggested_fix\":\"Vervang ‘wie iets heeft, moet geven aan wie niets heeft’ door ‘wie heeft, moet geven aan wie niet heeft’, zodat de tegenstelling tussen mensen die wel en geen werk/middelen hebben behouden blijft.\",\"translation_quote\":\"Sommigen van ons hebben werk en anderen niet. Gods Woord zegt dat wie iets heeft, moet geven aan wie niets heeft, zodat er gelijkheid kan zijn.\"},{\"location\":\"HTML, alinea 13\",\"severity\":\"major\",\"source_quote\":\"This is the time for us as God’s children to maximize on “in home” relationships.\",\"suggested_fix\":\"Vervang ‘onze relaties binnenshuis zo goed mogelijk te benutten’ door ‘onze relaties binnen het gezin te versterken’.\",\"translation_quote\":\"onze relaties binnenshuis zo goed mogelijk te benutten\"},{\"location\":\"HTML, alinea 14\",\"severity\":\"major\",\"source_quote\":\"since they are not fighting against our faith and God\",\"suggested_fix\":\"Vervang ‘aangezien die niet tegen ons geloof en God ingaat’ door ‘aangezien die niet tegen ons geloof en God gericht is’.\",\"translation_quote\":\"aangezien die niet tegen ons geloof en God ingaat\"}],\"passed\":false,\"score\":83}",
+    "content_bytes": 3048,
+    "content_evidence_truncated": false,
+    "content_sha256": "410683af80d58234773dab56173b228c4c6a4b874d912d38000a0c477636203d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 701,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8029,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8733
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

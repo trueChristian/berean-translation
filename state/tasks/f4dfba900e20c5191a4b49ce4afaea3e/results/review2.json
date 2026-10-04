@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d38d084d-8827-46a2-8d90-126e6a87ecdd",
+    "response_id": "chatcmpl-EV4D8T3u9FnXpNNe71nvxZCj0PLdN",
+    "usage": {
+      "completion_tokens": 723,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 482,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11391,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12117
+    }
+  },
+  "received_at": "2026-10-04T06:03:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph quoting 1 Corinthians 9:25",
+        "severity": "major",
+        "source_quote": "“And every man that striveth for the mastery is temperate in all things.”",
+        "suggested_fix": "Replace “Var och en som tävlar måste avhålla sig från allt” with “Var och en som tävlar behärskar sig i allt” (or another Swedish rendering that conveys self-control in all things, rather than abstaining from everything).",
+        "translation_quote": "“Var och en som tävlar måste avhålla sig från allt.”"
+      },
+      {
+        "location": "HTML, paragraph describing hell",
+        "severity": "major",
+        "source_quote": "“No bottom of gravity—only falling.”",
+        "suggested_fix": "Change “Ingen tyngdkraft – bara fallande” to a Swedish rendering that conveys having no bottom beneath the force of gravity, with only falling; for example, “Ingen botten under tyngdkraften – bara fallande.”",
+        "translation_quote": "“Ingen tyngdkraft – bara fallande.”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

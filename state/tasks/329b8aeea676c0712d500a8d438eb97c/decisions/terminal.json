@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “The Greek word for beset”",
+      "severity": "major",
+      "source_quote": "The Greek word for <em>beset</em> describes it as to <u>distract</u> or <u>compete.</u>",
+      "suggested_fix": "Persempit perubahan pada frasa tersebut: ganti “menggambarkan tindakan” dengan “menggambarkan artinya sebagai”, sehingga menjadi “Kata Yunani untuk <em>menjerat</em> menggambarkan artinya sebagai <u>mengalihkan perhatian</u> atau <u>bersaing.</u>”",
+      "translation_quote": "Kata Yunani untuk <em>menjerat</em> menggambarkan tindakan <u>mengalihkan perhatian</u> atau <u>bersaing.</u>"
+    },
+    {
+      "location": "source.html, paragraph beginning “There’s a big social media craze”",
+      "severity": "major",
+      "source_quote": "There’s a big social media craze to show everyone what you’re doing and gain approval of men.",
+      "suggested_fix": "Ubah “memperoleh persetujuan manusia” menjadi “memperoleh persetujuan orang lain”, agar maksudnya tidak menyiratkan bahwa persetujuan itu hanya dari laki-laki.",
+      "translation_quote": "Ada tren besar di media sosial untuk memperlihatkan kepada semua orang apa yang sedang Anda lakukan dan memperoleh persetujuan manusia."
+    },
+    {
+      "location": "source.html, paragraph beginning “Heaven will be filled with the fulness”",
+      "severity": "major",
+      "source_quote": "Heaven will be filled with the fulness of God’s glory.",
+      "suggested_fix": "Ubah “seluruh kemuliaan Allah” menjadi “kepenuhan kemuliaan Allah” agar tetap menyatakan bahwa surga dipenuhi kepenuhan kemuliaan-Nya.",
+      "translation_quote": "Surga akan dipenuhi seluruh kemuliaan Allah."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

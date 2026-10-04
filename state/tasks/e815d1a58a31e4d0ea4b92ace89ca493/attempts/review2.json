@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / translated paragraph beginning “As a Kingdom Christian”\",\"severity\":\"major\",\"source_quote\":\"As a Kingdom Christian, I look at a quote like this and say, “how frivolous and empty.”\",\"suggested_fix\":\"Replace “রাজ্যের একজন খ্রিষ্টান” with “ঈশ্বরের রাজ্যের একজন খ্রিষ্টান” to convey “Kingdom Christian.”\",\"translation_quote\":\"রাজ্যের একজন খ্রিষ্টান হিসেবে, এ রকম উদ্ধৃতি পড়ে আমি বলি, “কী তুচ্ছ আর শূন্য!”\"},{\"location\":\"source.html / paragraph beginning “A Prepared Place”\",\"severity\":\"major\",\"source_quote\":\"Read Revelation 21 and 22 for graphic descriptions of this prepared place—Heaven!\",\"suggested_fix\":\"Replace “জীবন্ত বর্ণনার” with “স্পষ্ট বর্ণনার” or “বিশদ বর্ণনার” to convey “graphic descriptions” without changing the sense.\",\"translation_quote\":\"এই প্রস্তুত স্থান—স্বর্গের জীবন্ত বর্ণনার জন্য প্রকাশিত বাক্য ২১ ও ২২ পড়ো!\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 1361,
+    "content_evidence_truncated": false,
+    "content_sha256": "50f40cf1169ad1f247bb8458b836d9835ce0f5170dc6a723ae312c564a7d7e00",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 248,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12680,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12677,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12928
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

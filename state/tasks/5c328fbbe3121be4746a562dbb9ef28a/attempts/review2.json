@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Peter Gray…”\",\"severity\":\"major\",\"source_quote\":\"“The things that are the subject of poetry that we have been denying our children are suddenly available to them.”\",\"suggested_fix\":\"Replace ״הדברים שהם נושאים לשירה, ושמנענו מילדינו, זמינים להם לפתע״ with ״הדברים שהם נושאי שירה, ששללנו מילדינו, זמינים להם לפתע״.\",\"translation_quote\":\"״הדברים שהם נושאים לשירה, ושמנענו מילדינו, זמינים להם לפתע״\"},{\"location\":\"Final paragraph, sentence beginning “And that there should be…”\",\"severity\":\"major\",\"source_quote\":\"“And that there should be NO person who doesn’t allow this to bring about change in their lives.”\",\"suggested_fix\":\"Replace ״ושאין אדם שאינו צריך לאפשר לדבר הזה לחולל שינוי בחייו״ with ״ושלא יהיה אדם שאינו מאפשר לדבר הזה לחולל שינוי בחייו״.\",\"translation_quote\":\"״ושאין אדם שאינו צריך לאפשר לדבר הזה לחולל שינוי בחייו״\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1208,
+    "content_evidence_truncated": false,
+    "content_sha256": "e10669d464f28777c91c38476eb38fd746631885580b5fe9e185271ab27f042d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 480,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6158,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6155,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6907
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "অনুচ্ছেদ: দণ্ড ব্যবহারের ব্যাখ্যা",
+      "severity": "major",
+      "source_quote": "Until the pain of disobedience exceeds the “pain” of obedience, a child will continue to disobey.",
+      "suggested_fix": "যন্ত্রণা যে অবাধ্যতার, তা আনুগত্যের “যন্ত্রণা”কে ছাড়িয়ে না যাওয়া পর্যন্ত শিশুটি অবাধ্যতা করতেই থাকবে।",
+      "translation_quote": "যতক্ষণ না অবাধ্যতার যন্ত্রণা আনুগত্যের “যন্ত্রণা”কে ছাড়িয়ে যায়, শিশু অবাধ্যতা করতেই থাকবে।"
+    },
+    {
+      "location": "শিরোনাম: …A sense of personal worth",
+      "severity": "major",
+      "source_quote": "A sense of personal worth",
+      "suggested_fix": "…ব্যক্তিগত মূল্যবোধের অনুভূতি",
+      "translation_quote": "…ব্যক্তিগত মূল্যবোধ"
+    },
+    {
+      "location": "অনুচ্ছেদ: মিউজিং বনাম অ্যামিউজিং-এর সংজ্ঞা",
+      "severity": "major",
+      "source_quote": "To ‘amuse’ means to not think.",
+      "suggested_fix": "‘বিনোদন দেওয়া’ বলতে বোঝায় ‘চিন্তা না করানো’।",
+      "translation_quote": "‘বিনোদিত করা’ বলতে বোঝায় চিন্তা না করা।"
+    },
+    {
+      "location": "অনুচ্ছেদ: মিউজিং বনাম অ্যামিউজিং-এর প্রভাব",
+      "severity": "major",
+      "source_quote": "These forms of entertainment encourage the child to open his mind to predetermined values.",
+      "suggested_fix": "বিনোদনের এই ধরনগুলো শিশুকে পূর্বনির্ধারিত মূল্যবোধ গ্রহণ করার জন্য মন উন্মুক্ত করতে উৎসাহিত করে।",
+      "translation_quote": "বিনোদনের এই ধরনগুলো শিশুকে পূর্বনির্ধারিত মূল্যবোধের কাছে নিজের মন উন্মুক্ত করতে উৎসাহিত করে।"
+    },
+    {
+      "location": "অনুচ্ছেদ: ব্যক্তিগত দায়িত্ব",
+      "severity": "minor",
+      "source_quote": "Simple things like making their bed, cleaning their room, and helping with household chores teaches them to become responsible members of the household.",
+      "suggested_fix": "বিছানা গোছানো, ঘর পরিষ্কার করা এবং ঘরের কাজে সাহায্য করার মতো সহজ বিষয়গুলো তাদের পরিবারের দায়িত্বশীল সদস্য হতে শেখায়।",
+      "translation_quote": "বিছানা গোছানো, ঘর পরিষ্কার করা এবং ঘরের কাজে সাহায্য করার মতো সহজ বিষয়গুলো তাকে পরিবারের দায়িত্বশীল সদস্য হতে শেখায়।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

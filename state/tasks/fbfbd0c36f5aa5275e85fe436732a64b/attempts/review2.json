@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first paragraph of the second article section\",\"severity\":\"minor\",\"source_quote\":\"What if something terrible happens to one of my children?\",\"suggested_fix\":\"Change «les ocurre» to «le ocurre» to agree with the singular «uno»: «¿Y si le ocurre algo terrible a uno de mis hijos?»\",\"translation_quote\":\"¿Y si les ocurre algo terrible a uno de mis hijos?\"}],\"passed\":true,\"score\":99}",
+    "content_bytes": 422,
+    "content_evidence_truncated": false,
+    "content_sha256": "8f1b6eb178a21c6da39d5d0d01d45632830d2d971d4d3ca5a38aeafc4f634f50",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 534,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 422,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5070,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5067,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5604
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "465b7f15-8dcd-4d73-a11f-2e8124dd42cf",
+    "response_id": "chatcmpl-EV4DL0e8uJ22t032sFVPUpCwdEWWD",
+    "usage": {
+      "completion_tokens": 531,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 444,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1930,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1927,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2461
+    }
+  },
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML poem, final line",
+        "severity": "major",
+        "source_quote": "to be who God made him to be.",
+        "suggested_fix": "Ia tak sabar menjadi pribadi sebagaimana Allah menciptakannya.",
+        "translation_quote": "Ia tak sabar menjadi pribadi yang Allah ciptakan baginya."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

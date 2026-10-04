@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2ed2f8a09e774428ac3165fe8ed131b8",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -45,18 +44,47 @@
         },
         "total_tokens": 8150
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 394,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5254,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5251,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5648
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[15]/em[1]; translation /article[1]/p[15]",
-      "severity": "critical",
-      "source_quote": "<p><strong>Power</strong> simply means ‘the ability to do or act with force.’ God has given us the ability to make conscious choices and to do the next right thing. <em><strong>His</strong></em> power, given to us, overrides our human tendencies of fear and control.</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[38:42], translation signature[38:38], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p><strong>La puissance</strong> signifie simplement « la capacité d’agir ou d’accomplir quelque chose avec force ». Dieu nous a donné la capacité de faire des choix conscients et de faire ce qui est juste, une chose après l’autre. Sa puissance, à lui, nous est donnée et l’emporte sur nos tendances humaines à la peur et au contrôle.</p>"
+      "location": "HTML, paragraphe commençant « La nature elle-même… »",
+      "severity": "major",
+      "source_quote": "“The Lodgepole Pine Tree seeds require a forest fire to break open the hard-outer shell of its pinecone and release the seed.”",
+      "suggested_fix": "Remplacer « Les graines du pin tordu ont besoin d’un feu de forêt pour que s’ouvre la coque dure de leur cône et que les graines soient libérées » par « Les graines du pin tordu ont besoin d’un feu de forêt pour briser la coque extérieure dure de leur cône et libérer la graine. »",
+      "translation_quote": "« Les graines du pin tordu ont besoin d’un feu de forêt pour que s’ouvre la coque dure de leur cône et que les graines soient libérées. »"
+    },
+    {
+      "location": "HTML, citation biblique, paragraphe commençant « La peur nous paralyse »",
+      "severity": "major",
+      "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2Ti 1:7.”",
+      "suggested_fix": "Remplacer « sagesse » par « maîtrise de soi » dans cette citation et dans les deux reprises ultérieures du même triptyque (paragraphe de la citation et paragraphe commençant « La peur nous paralyse »), en conservant la référence 2Ti 1:7. Par exemple : « Car Dieu ne nous a pas donné un esprit de crainte, mais de puissance, d’amour et de maîtrise de soi –2Ti 1:7. »",
+      "translation_quote": "« Car Dieu ne nous a pas donné un esprit de timidité, mais de puissance, d’amour et de sagesse –2Ti 1:7. »"
     }
   ],
+  "finished_at": "2026-10-04T06:03:04+00:00",
   "id": "cf0a0b028d63abacd17efc5eaedfee81",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "fra",
@@ -145,11 +173,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"

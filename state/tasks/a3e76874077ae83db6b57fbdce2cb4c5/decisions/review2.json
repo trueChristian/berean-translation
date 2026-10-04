@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "पैराग्राफ: Cesare Borgia के अंतिम शब्द",
+      "severity": "major",
+      "source_quote": "“Now I must die, and I am totally unprepared and unprovided.”",
+      "suggested_fix": "“अब मुझे मरना है, और मैं पूरी तरह अप्रस्तुत हूँ और मैंने कोई प्रबंध नहीं किया है।”",
+      "translation_quote": "“अब मुझे मरना है, और मैं पूरी तरह से तैयार और बिना किसी तैयारी के हूँ।”"
+    },
+    {
+      "location": "पैराग्राफ: ओलंपिक खिलाड़ी के उद्धरण पर लेखक की प्रतिक्रिया",
+      "severity": "major",
+      "source_quote": "As a Kingdom Christian, I look at a quote like this and say, “how frivolous and empty.”",
+      "suggested_fix": "“परमेश्वर के राज्य के मसीही के रूप में, ऐसा उद्धरण देखकर मैं कहता हूँ, ‘कितनी तुच्छ और खोखली बात है।’”",
+      "translation_quote": "राज्य के एक मसीही के रूप में, ऐसा उद्धरण देखकर मैं कहता हूँ, “कितनी तुच्छ और खोखली बात है।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

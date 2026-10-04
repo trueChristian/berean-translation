@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph under “خدا کے ساتھ ذاتی تعلق”",
+      "severity": "minor",
+      "source_quote": "A wise parent will be sensitive to this",
+      "suggested_fix": "Replace “ایک دانا والدین اس بات کا احساس کرے گا” with “ایک سمجھ دار والدین اس بات کے لیے حساس ہوگا” to make the singular construction grammatical and convey “will be sensitive to this.”",
+      "translation_quote": "ایک دانا والدین اس بات کا احساس کرے گا"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

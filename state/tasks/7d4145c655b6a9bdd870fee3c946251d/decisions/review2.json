@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 애덤스의 마지막 말",
+      "severity": "major",
+      "source_quote": "“I’m lost, lost, lost. I am damned forever.”",
+      "suggested_fix": "“나는 멸망할 운명이다, 멸망할 운명이다, 멸망할 운명이다. 영원히 저주받았다”처럼, 여기서 ‘lost’가 길을 잃었다는 뜻이 아니라 영적으로 구원받지 못한 상태임을 드러내도록 고쳐 주세요.",
+      "translation_quote": "“나는 길을 잃었다, 길을 잃었다, 길을 잃었다. 영원히 저주받았다”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

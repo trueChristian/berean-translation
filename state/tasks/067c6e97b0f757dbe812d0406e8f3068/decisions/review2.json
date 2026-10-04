@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Brødtekst, avsnittet som begynner «Jeg vil avslutte …»",
+      "severity": "major",
+      "source_quote": "And that there should be NO person who doesn’t allow this to bring about change in their lives. There is NO human being that is so holy that they have no need of improvement where God is concerned.",
+      "suggested_fix": "Og det bør ikke finnes noen som ikke lar dette føre til forandring i livet sitt. Det finnes ikke noe menneske som er så hellig at det ikke trenger å forbedre seg i sitt forhold til Gud.",
+      "translation_quote": "Og ingen må la være å la dette føre til forandring i livet sitt. Det finnes ikke et eneste menneske som er så hellig at det ikke trenger å bli bedre når det gjelder Gud."
+    },
+    {
+      "location": "Brødtekst, avsnittet som begynner «Ifølge nyhetsartikkelen …»",
+      "severity": "minor",
+      "source_quote": "emotional struggles and mental disorders started to correct themselves",
+      "suggested_fix": "begynte følelsesmessige vansker og psykiske lidelser å bedres av seg selv",
+      "translation_quote": "begynte følelsesmessige vansker og psykiske lidelser å gå tilbake av seg selv"
+    },
+    {
+      "location": "Brødtekst, avsnittet som begynner «Ifølge en mor …»",
+      "severity": "minor",
+      "source_quote": "began to see marked improvement after about two weeks",
+      "suggested_fix": "begynte å vise tydelig bedring etter omtrent to uker",
+      "translation_quote": "begynte å vise tydelig bedring etter omtrent to uker"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

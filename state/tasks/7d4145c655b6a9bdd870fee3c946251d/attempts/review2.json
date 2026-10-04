@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문, 애덤스의 마지막 말\",\"severity\":\"major\",\"source_quote\":\"“I’m lost, lost, lost. I am damned forever.”\",\"suggested_fix\":\"“나는 멸망할 운명이다, 멸망할 운명이다, 멸망할 운명이다. 영원히 저주받았다”처럼, 여기서 ‘lost’가 길을 잃었다는 뜻이 아니라 영적으로 구원받지 못한 상태임을 드러내도록 고쳐 주세요.\",\"translation_quote\":\"“나는 길을 잃었다, 길을 잃었다, 길을 잃었다. 영원히 저주받았다”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 569,
+    "content_evidence_truncated": false,
+    "content_sha256": "eaf553e8e224230cf5909851c75249bcbdd8eb13efb81cb9bcc3414870e1c7d0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 935,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 763,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11976,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11973,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12911
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

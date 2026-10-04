@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “The Greek word for beset…”\",\"severity\":\"major\",\"source_quote\":\"The Greek word for beset describes it as to distract or compete.\",\"suggested_fix\":\"غيّر «تُرجمت يحيط بنا» إلى صياغة تشير إلى معنى الإلهاء أو المنافسة، مثل: «تصف الكلمة اليونانية المترجمة هنا بـ«التي تُحيط بنا» معناها بأنها تُشتّت أو تُنافس».\",\"translation_quote\":\"تصف الكلمة اليونانية التي تُرجمت يحيط بنا الأمر بأنه يشتّت أو ينافس.\"},{\"location\":\"Poem, lines beginning “I wondered why God didn’t show me”\",\"severity\":\"major\",\"source_quote\":\"I wondered why God didn’t show me. He said, “But you didn’t seek.”\",\"suggested_fix\":\"استبدل «تساءلت لماذا لم يرني الله إياهما. فقال: “لكنّك لم تطلب.”» بـ«تساءلت لماذا لم يُرِني الله إياهما. فقال: “لكنّك لم تسعَ.”»\",\"translation_quote\":\"تساءلت لماذا لم يرني الله إياهما. فقال: “لكنّك لم تطلب.”\"},{\"location\":\"Paragraph beginning “On his deathbed, Sir Julian Huxley…”\",\"severity\":\"major\",\"source_quote\":\"Sir Julian Huxley, an English evolutionist, biologist, and staunch atheist\",\"suggested_fix\":\"استبدل «الدارويني» بـ«التطوري»، لتصبح العبارة: «عالم الأحياء والتطوري الإنجليزي والملحد المتشدد».\",\"translation_quote\":\"السير جوليان هكسلي، عالم الأحياء والدارويني الإنجليزي والملحد المتشدد\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 1777,
+    "content_evidence_truncated": false,
+    "content_sha256": "c58c5e4ee1113b713011a404d998281fc4371f78627687cb29a5cc667de54f1e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1049,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 646,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11907,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12959
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

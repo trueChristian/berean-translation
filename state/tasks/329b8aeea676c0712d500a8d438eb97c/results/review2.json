@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "638bb295-ce26-49f2-9a60-f93b2226e97c",
+    "response_id": "chatcmpl-EV4DPp5Jr4dZT6XMqp46jjEBVonZZ",
+    "usage": {
+      "completion_tokens": 412,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11352,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11767
+    }
+  },
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “The Greek word for beset”",
+        "severity": "major",
+        "source_quote": "The Greek word for <em>beset</em> describes it as to <u>distract</u> or <u>compete.</u>",
+        "suggested_fix": "Persempit perubahan pada frasa tersebut: ganti “menggambarkan tindakan” dengan “menggambarkan artinya sebagai”, sehingga menjadi “Kata Yunani untuk <em>menjerat</em> menggambarkan artinya sebagai <u>mengalihkan perhatian</u> atau <u>bersaing.</u>”",
+        "translation_quote": "Kata Yunani untuk <em>menjerat</em> menggambarkan tindakan <u>mengalihkan perhatian</u> atau <u>bersaing.</u>"
+      },
+      {
+        "location": "source.html, paragraph beginning “There’s a big social media craze”",
+        "severity": "major",
+        "source_quote": "There’s a big social media craze to show everyone what you’re doing and gain approval of men.",
+        "suggested_fix": "Ubah “memperoleh persetujuan manusia” menjadi “memperoleh persetujuan orang lain”, agar maksudnya tidak menyiratkan bahwa persetujuan itu hanya dari laki-laki.",
+        "translation_quote": "Ada tren besar di media sosial untuk memperlihatkan kepada semua orang apa yang sedang Anda lakukan dan memperoleh persetujuan manusia."
+      },
+      {
+        "location": "source.html, paragraph beginning “Heaven will be filled with the fulness”",
+        "severity": "major",
+        "source_quote": "Heaven will be filled with the fulness of God’s glory.",
+        "suggested_fix": "Ubah “seluruh kemuliaan Allah” menjadi “kepenuhan kemuliaan Allah” agar tetap menyatakan bahwa surga dipenuhi kepenuhan kemuliaan-Nya.",
+        "translation_quote": "Surga akan dipenuhi seluruh kemuliaan Allah."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

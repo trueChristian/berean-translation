@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Luke is the only evangelist”\",\"severity\":\"major\",\"source_quote\":\"Joanna the wife of Chuza Herod’s steward\",\"suggested_fix\":\"Replace “خوزہ کی بیوی یوآنا، جو ہیرودیس کی مختار تھی” with “ہیرودیس کے مختار خوزہ کی بیوی یوآنا” so that Chuza, not Joanna, is identified as Herod’s steward.\",\"translation_quote\":\"خوزہ کی بیوی یوآنا، جو ہیرودیس کی مختار تھی\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 545,
+    "content_evidence_truncated": false,
+    "content_sha256": "cb6bd6442ccfa71506f29728607f89ee29115e281933da3e60bab39cda8988e2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1280,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1123,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10197,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10194,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11477
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

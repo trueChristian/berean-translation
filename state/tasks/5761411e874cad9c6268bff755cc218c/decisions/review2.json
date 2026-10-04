@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "第九段（试炼的比喻）",
+      "severity": "major",
+      "source_quote": "“Just break, give in to the fire, the damp dark earth, the confining chrysalis, and the pain.”",
+      "suggested_fix": "将“在心外筑起坚硬外壳”改为“在心上筑起坚硬外壳”；将“只管破碎，向火、潮湿阴暗的泥土、狭窄的蛹，以及痛苦屈服”改为“只管破碎，屈服于火、潮湿阴暗的泥土、受限制的蛹，以及痛苦”。",
+      "translation_quote": "“在心外筑起坚硬外壳……只管破碎，向火、潮湿阴暗的泥土、狭窄的蛹，以及痛苦屈服。”"
+    },
+    {
+      "location": "第十段（苦难与永恒盼望）",
+      "severity": "major",
+      "source_quote": "“our deliverance is coming.”",
+      "suggested_fix": "将“我们的拯救必将来到”改为“我们的解脱必将来到”或“我们必将得释放”，以保留此处盼望从苦难中得解脱的意思。",
+      "translation_quote": "“我们只需信靠，我们的拯救必将来到。”"
+    },
+    {
+      "location": "第十一段（面对人生）",
+      "severity": "major",
+      "source_quote": "“We can face the shattering of dreams, a world-wide pandemic, or death by persecutors.”",
+      "suggested_fix": "将“或被迫害者杀害”改为“或遭受迫害者杀害”，明确是迫害者杀害我们，而非我们杀害迫害者。",
+      "translation_quote": "“我们可以面对梦想破灭、全球性疫情，或被迫害者杀害。”"
+    },
+    {
+      "location": "第十二段（提后 1:7 的引文）",
+      "severity": "major",
+      "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2Ti 1:7.”",
+      "suggested_fix": "将引文中的“心”改为“灵”（例如“上帝赐给我们的，不是胆怯的灵，乃是刚强、仁爱、自律的灵”），使引文保留原文所说的“spirit”以及后文反复提及的“spirit”，并保留原参考编号。",
+      "translation_quote": "“因为上帝赐给我们的，不是胆怯的心，乃是刚强、仁爱、自律的心。——提后 1:7。”"
+    },
+    {
+      "location": "第十四段（爱）",
+      "severity": "major",
+      "source_quote": "“God needs women who choose love—for love casts out fear.”",
+      "suggested_fix": "将“上帝需要选择去爱——因为爱能驱除恐惧——的妇女”改为“上帝需要选择爱的人——因为爱能驱除恐惧”，使句意明确表达女性选择爱，而不是上帝需要选择去爱的妇女。",
+      "translation_quote": "“上帝需要选择去爱——因为爱能驱除恐惧——的妇女。”"
+    },
+    {
+      "location": "第十六段（以爱回应）",
+      "severity": "major",
+      "source_quote": "“Love hard—”",
+      "suggested_fix": "将“要热切地去爱”改为“要全心全意地去爱”，以表达此处要求以强烈、全情投入的方式去爱，而不是仅指热情。",
+      "translation_quote": "“要热切地去爱——”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

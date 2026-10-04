@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "616e3478-6b3e-4237-9cc7-61081227b0fc",
+    "response_id": "chatcmpl-EV4CscIRpwtn9HIMiMhFrAN6OseAw",
+    "usage": {
+      "completion_tokens": 394,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5251,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5648
+    }
+  },
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraphe commençant « La nature elle-même… »",
+        "severity": "major",
+        "source_quote": "“The Lodgepole Pine Tree seeds require a forest fire to break open the hard-outer shell of its pinecone and release the seed.”",
+        "suggested_fix": "Remplacer « Les graines du pin tordu ont besoin d’un feu de forêt pour que s’ouvre la coque dure de leur cône et que les graines soient libérées » par « Les graines du pin tordu ont besoin d’un feu de forêt pour briser la coque extérieure dure de leur cône et libérer la graine. »",
+        "translation_quote": "« Les graines du pin tordu ont besoin d’un feu de forêt pour que s’ouvre la coque dure de leur cône et que les graines soient libérées. »"
+      },
+      {
+        "location": "HTML, citation biblique, paragraphe commençant « La peur nous paralyse »",
+        "severity": "major",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2Ti 1:7.”",
+        "suggested_fix": "Remplacer « sagesse » par « maîtrise de soi » dans cette citation et dans les deux reprises ultérieures du même triptyque (paragraphe de la citation et paragraphe commençant « La peur nous paralyse »), en conservant la référence 2Ti 1:7. Par exemple : « Car Dieu ne nous a pas donné un esprit de crainte, mais de puissance, d’amour et de maîtrise de soi –2Ti 1:7. »",
+        "translation_quote": "« Car Dieu ne nous a pas donné un esprit de timidité, mais de puissance, d’amour et de sagesse –2Ti 1:7. »"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

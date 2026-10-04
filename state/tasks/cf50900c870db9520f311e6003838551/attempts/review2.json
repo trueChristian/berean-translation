@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML poem, final line\",\"severity\":\"major\",\"source_quote\":\"to be who God made him to be.\",\"suggested_fix\":\"Ia tak sabar menjadi pribadi sebagaimana Allah menciptakannya.\",\"translation_quote\":\"Ia tak sabar menjadi pribadi yang Allah ciptakan baginya.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 304,
+    "content_evidence_truncated": false,
+    "content_sha256": "2fd045eff675a991120083002d306ff47c0348db7bad1bccd8b77aa268df9b5e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 531,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 444,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1930,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1927,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2461
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

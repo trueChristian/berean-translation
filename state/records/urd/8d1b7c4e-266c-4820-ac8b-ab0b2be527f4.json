@@ -6,9 +6,32 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "d2147cad1ba01dd2f5e1ac247c43eff8"
+    },
+    {
+      "at": "2026-10-04T06:03:04+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "d2147cad1ba01dd2f5e1ac247c43eff8"
     }
   ],
   "language": "urd",
   "latest_task": "d2147cad1ba01dd2f5e1ac247c43eff8",
-  "published": null
+  "published": {
+    "html_path": "content/urd/articles/8d1b7c4e-266c-4820-ac8b-ab0b2be527f4.html",
+    "html_sha256": "381f427bca20e1533f9eb9a8b1370f79b3e6e8bc0f238d2ef64540a63ecc799c",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "metadata_path": "content/urd/articles/8d1b7c4e-266c-4820-ac8b-ab0b2be527f4.json",
+    "metadata_sha256": "18b3fd7d27d1bfc176604223c5752773ea572608b4dcb375a3b256a6deb36227",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ur\" dir=\"rtl\" role=\"note\">\n  <p>اس مضمون کا ترجمہ OpenAI (ماڈل: gpt-6-luna) کی مصنوعی ذہانت سے کیا گیا ہے اور ابھی کسی انسان نے اس کا جائزہ نہیں لیا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔ مفہوم کے بارے میں شک ہو تو براہِ کرم اصل انگریزی متن سے رجوع کریں۔ <a href=\"/en/articles/8d1b7c4e-266c-4820-ac8b-ab0b2be527f4/\" data-source-article-id=\"8d1b7c4e-266c-4820-ac8b-ab0b2be527f4\" hreflang=\"en\">اصل انگریزی متن</a></p>\n</aside>",
+    "published_at": "2026-10-04T06:03:04+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+    "source_snapshot": "state/sources/65785ce7b082d19dffcb2a3d623a53de85d2467ed7c2f2dbf511d1de1c4d9df2.json",
+    "task": "d2147cad1ba01dd2f5e1ac247c43eff8",
+    "translation_key": "fa715b378ed9f0043127807f4a71e2ad651107ad3e42b48d2ea6601d6baa699a"
+  }
 }

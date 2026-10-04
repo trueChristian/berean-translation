@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Artikelns första bibelcitat\",\"severity\":\"major\",\"source_quote\":\"–2Pe 3:3-4.\",\"suggested_fix\":\"Ändra hänvisningen till ”–2 Pet 3:3-4.” Använd den vedertagna svenska bokförkortningen och behåll kapitel- och versnumren.\",\"translation_quote\":\"–2Pe 3:3-4.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 322,
+    "content_evidence_truncated": false,
+    "content_sha256": "135008fa2ead2e5dc91533c824c259573cf0054df22f0bb5b671f0bc7e5aa52a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6122,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6749
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

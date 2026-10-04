@@ -2,7 +2,6 @@
   "article_id": "486eb0b4-74ad-40db-b53a-51a7b89036e2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2ed2f8a09e774428ac3165fe8ed131b8",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -45,18 +44,54 @@
         },
         "total_tokens": 9751
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 352,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6106,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6103,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6458
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[12]; translation /article[1]/p[12]/em[5]",
-      "severity": "critical",
-      "source_quote": "<p><em>Peter Gray, research professor of psychology at Boston College and author of the book FREE TO LEARN,</em> says that <em>“Suddenly kids are being able to [be self-directed]. They have time on a nice spring day to just sit outside and enjoy the sunshine. The things that are the subject of poetry that we have been denying our children are suddenly available to them.</em> He believes that <em>children need to develop healthily and happily—</em>[have]<em> time to play and explore.</em></p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[83:83], translation signature[83:85], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p><em>Peter Gray, professor i psykologi og forsker ved Boston College, og forfatter av boken FREE TO LEARN,</em> sier: <em>«Plutselig kan barna</em> [styre seg selv]. <em>På en fin vårdag har de tid til bare å sitte ute og nyte solskinnet. De tingene som er tema for poesi, men som vi har nektet barna våre, er plutselig tilgjengelige for dem.»</em> Han mener at <em>barn trenger å utvikle seg på en sunn og lykkelig måte –</em>[ha]<em> tid til å leke og utforske.</em></p>"
+      "location": "Brødtekst, avsnittet som begynner «Jeg vil avslutte …»",
+      "severity": "major",
+      "source_quote": "And that there should be NO person who doesn’t allow this to bring about change in their lives. There is NO human being that is so holy that they have no need of improvement where God is concerned.",
+      "suggested_fix": "Og det bør ikke finnes noen som ikke lar dette føre til forandring i livet sitt. Det finnes ikke noe menneske som er så hellig at det ikke trenger å forbedre seg i sitt forhold til Gud.",
+      "translation_quote": "Og ingen må la være å la dette føre til forandring i livet sitt. Det finnes ikke et eneste menneske som er så hellig at det ikke trenger å bli bedre når det gjelder Gud."
+    },
+    {
+      "location": "Brødtekst, avsnittet som begynner «Ifølge nyhetsartikkelen …»",
+      "severity": "minor",
+      "source_quote": "emotional struggles and mental disorders started to correct themselves",
+      "suggested_fix": "begynte følelsesmessige vansker og psykiske lidelser å bedres av seg selv",
+      "translation_quote": "begynte følelsesmessige vansker og psykiske lidelser å gå tilbake av seg selv"
+    },
+    {
+      "location": "Brødtekst, avsnittet som begynner «Ifølge en mor …»",
+      "severity": "minor",
+      "source_quote": "began to see marked improvement after about two weeks",
+      "suggested_fix": "begynte å vise tydelig bedring etter omtrent to uker",
+      "translation_quote": "begynte å vise tydelig bedring etter omtrent to uker"
     }
   ],
+  "finished_at": "2026-10-04T06:03:04+00:00",
   "id": "067c6e97b0f757dbe812d0406e8f3068",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "nob",
@@ -145,11 +180,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48",
   "translation_model_actual": "gpt-6-luna"

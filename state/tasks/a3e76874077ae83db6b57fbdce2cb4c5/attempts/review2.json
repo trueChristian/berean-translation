@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"पैराग्राफ: Cesare Borgia के अंतिम शब्द\",\"severity\":\"major\",\"source_quote\":\"“Now I must die, and I am totally unprepared and unprovided.”\",\"suggested_fix\":\"“अब मुझे मरना है, और मैं पूरी तरह अप्रस्तुत हूँ और मैंने कोई प्रबंध नहीं किया है।”\",\"translation_quote\":\"“अब मुझे मरना है, और मैं पूरी तरह से तैयार और बिना किसी तैयारी के हूँ।”\"},{\"location\":\"पैराग्राफ: ओलंपिक खिलाड़ी के उद्धरण पर लेखक की प्रतिक्रिया\",\"severity\":\"major\",\"source_quote\":\"As a Kingdom Christian, I look at a quote like this and say, “how frivolous and empty.”\",\"suggested_fix\":\"“परमेश्वर के राज्य के मसीही के रूप में, ऐसा उद्धरण देखकर मैं कहता हूँ, ‘कितनी तुच्छ और खोखली बात है।’”\",\"translation_quote\":\"राज्य के एक मसीही के रूप में, ऐसा उद्धरण देखकर मैं कहता हूँ, “कितनी तुच्छ और खोखली बात है।”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1510,
+    "content_evidence_truncated": false,
+    "content_sha256": "01496eea4457bcb4e82c83ae02b5405235155cc1a2186074f1bdb794ba77d18e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 723,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 470,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12248,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12974
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

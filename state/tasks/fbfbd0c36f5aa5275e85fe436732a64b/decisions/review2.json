@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first paragraph of the second article section",
+      "severity": "minor",
+      "source_quote": "What if something terrible happens to one of my children?",
+      "suggested_fix": "Change «les ocurre» to «le ocurre» to agree with the singular «uno»: «¿Y si le ocurre algo terrible a uno de mis hijos?»",
+      "translation_quote": "¿Y si les ocurre algo terrible a uno de mis hijos?"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

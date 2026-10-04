@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph quoting 1 Corinthians 9:25",
+      "severity": "major",
+      "source_quote": "“And every man that striveth for the mastery is temperate in all things.”",
+      "suggested_fix": "Replace “Var och en som tävlar måste avhålla sig från allt” with “Var och en som tävlar behärskar sig i allt” (or another Swedish rendering that conveys self-control in all things, rather than abstaining from everything).",
+      "translation_quote": "“Var och en som tävlar måste avhålla sig från allt.”"
+    },
+    {
+      "location": "HTML, paragraph describing hell",
+      "severity": "major",
+      "source_quote": "“No bottom of gravity—only falling.”",
+      "suggested_fix": "Change “Ingen tyngdkraft – bara fallande” to a Swedish rendering that conveys having no bottom beneath the force of gravity, with only falling; for example, “Ingen botten under tyngdkraften – bara fallande.”",
+      "translation_quote": "“Ingen tyngdkraft – bara fallande.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

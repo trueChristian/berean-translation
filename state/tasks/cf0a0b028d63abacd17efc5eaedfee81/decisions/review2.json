@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraphe commençant « La nature elle-même… »",
+      "severity": "major",
+      "source_quote": "“The Lodgepole Pine Tree seeds require a forest fire to break open the hard-outer shell of its pinecone and release the seed.”",
+      "suggested_fix": "Remplacer « Les graines du pin tordu ont besoin d’un feu de forêt pour que s’ouvre la coque dure de leur cône et que les graines soient libérées » par « Les graines du pin tordu ont besoin d’un feu de forêt pour briser la coque extérieure dure de leur cône et libérer la graine. »",
+      "translation_quote": "« Les graines du pin tordu ont besoin d’un feu de forêt pour que s’ouvre la coque dure de leur cône et que les graines soient libérées. »"
+    },
+    {
+      "location": "HTML, citation biblique, paragraphe commençant « La peur nous paralyse »",
+      "severity": "major",
+      "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2Ti 1:7.”",
+      "suggested_fix": "Remplacer « sagesse » par « maîtrise de soi » dans cette citation et dans les deux reprises ultérieures du même triptyque (paragraphe de la citation et paragraphe commençant « La peur nous paralyse »), en conservant la référence 2Ti 1:7. Par exemple : « Car Dieu ne nous a pas donné un esprit de crainte, mais de puissance, d’amour et de maîtrise de soi –2Ti 1:7. »",
+      "translation_quote": "« Car Dieu ne nous a pas donné un esprit de timidité, mais de puissance, d’amour et de sagesse –2Ti 1:7. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

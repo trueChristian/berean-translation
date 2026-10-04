@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Первый абзац основного текста\",\"severity\":\"major\",\"source_quote\":\"Our Lord began his preaching ministry in a rather usual fashion: in a church\",\"suggested_fix\":\"Заменить «в синагоге» на «в церкви», сохранив утверждение источника.\",\"translation_quote\":\"Наш Господь начал Своё проповедническое служение довольно обычным образом: в синагоге\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 551,
+    "content_evidence_truncated": false,
+    "content_sha256": "0c3ef602b265e53b88e4f6c8765f23c5e3d9aa3a2aa273c4142f185fa32f1e49",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9569,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9566,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10198
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

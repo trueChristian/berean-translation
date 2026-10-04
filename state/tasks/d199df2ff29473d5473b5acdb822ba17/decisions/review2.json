@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “The Greek word for beset…”",
+      "severity": "major",
+      "source_quote": "The Greek word for beset describes it as to distract or compete.",
+      "suggested_fix": "غيّر «تُرجمت يحيط بنا» إلى صياغة تشير إلى معنى الإلهاء أو المنافسة، مثل: «تصف الكلمة اليونانية المترجمة هنا بـ«التي تُحيط بنا» معناها بأنها تُشتّت أو تُنافس».",
+      "translation_quote": "تصف الكلمة اليونانية التي تُرجمت يحيط بنا الأمر بأنه يشتّت أو ينافس."
+    },
+    {
+      "location": "Poem, lines beginning “I wondered why God didn’t show me”",
+      "severity": "major",
+      "source_quote": "I wondered why God didn’t show me. He said, “But you didn’t seek.”",
+      "suggested_fix": "استبدل «تساءلت لماذا لم يرني الله إياهما. فقال: “لكنّك لم تطلب.”» بـ«تساءلت لماذا لم يُرِني الله إياهما. فقال: “لكنّك لم تسعَ.”»",
+      "translation_quote": "تساءلت لماذا لم يرني الله إياهما. فقال: “لكنّك لم تطلب.”"
+    },
+    {
+      "location": "Paragraph beginning “On his deathbed, Sir Julian Huxley…”",
+      "severity": "major",
+      "source_quote": "Sir Julian Huxley, an English evolutionist, biologist, and staunch atheist",
+      "suggested_fix": "استبدل «الدارويني» بـ«التطوري»، لتصبح العبارة: «عالم الأحياء والتطوري الإنجليزي والملحد المتشدد».",
+      "translation_quote": "السير جوليان هكسلي، عالم الأحياء والدارويني الإنجليزي والملحد المتشدد"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
