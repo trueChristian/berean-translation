@@ -198,6 +198,8 @@ class Engine:
                     'max_output_tokens':self.config.runtime['max_output_tokens'],
                     'review_output_tokens':self.config.review_output_limit(review_model),
                     'quality_threshold':self.config.runtime['quality_threshold']}
+        from .review_contract import frozen_fields
+        campaign.update(frozen_fields(self.config))
         if refresh:
             campaign.update(source_refresh=True,source_translation_keys=copy.deepcopy(refresh_keys),
                             refresh_policy=copy.deepcopy(self.config.runtime['automatic_source_refresh']))
@@ -397,7 +399,18 @@ class Engine:
                 task['review_model_actual'] = provenance['model']
                 task['quality_score'] = result.get('score')
                 task['findings'] = result.get('findings',[])
-                if accepted_review(result,campaign['quality_threshold']):
+                from .review_contract import frozen_version
+                passed = accepted_review(result, campaign['quality_threshold'],
+                                         contract_version=frozen_version(campaign))
+                if result.get('findings_complete') is False:
+                    # A partial report is evidence for attention, not permission
+                    # to queue another paid correction or publish a candidate.
+                    task['failure_kind'] = 'incomplete_review'
+                    reason = 'Review report is incomplete; all returned findings are retained for owner attention'
+                    decision(self.state, task, stage, 'incomplete_review', reason, task['findings'])
+                    self.finish(task, 'not_ready', reason)
+                    return
+                if passed:
                     decision(self.state, task, stage, 'quality_pass', findings=task['findings'])
                     self.state.save_task(task)
                     self.publish(task)
@@ -448,9 +461,11 @@ class Engine:
             return
         if batch['status'] != 'prepared':
             return
+        campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
+        from .review_contract import frozen_version
+        frozen_version(campaign)
         if self.exclude_protected_prepared(batch):
             return
-        campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
         if campaign.get('downstream_recovery'):
             downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
             if not downstream.submission_enabled(self.config, campaign):

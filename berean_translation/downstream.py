@@ -221,6 +221,8 @@ def eligible(state, config, task, used, tasks, *, continuation_policy=None, hist
         return 'downstream_attempt_exhausted'
     if refusal(task):
         return 'provider_refusal_requires_owner_attention'
+    if task.get('failure_kind') == 'incomplete_review':
+        return 'review_incomplete_requires_owner_attention'
     if (not task.get('failure_kind') and
             ('Missing, ambiguous, or truncated model response' in task.get('failure', '')
              or task.get('provider_failure', {}).get('code') == 'provider_error')):
@@ -256,6 +258,7 @@ def eligible(state, config, task, used, tasks, *, continuation_policy=None, hist
 
 def execution_template(config, request):
     policy = validate_policy(config)
+    from .review_contract import frozen_fields
     return {'model': request['model'], 'review_model': request['review_model'],
         'models': copy.deepcopy(config.models), 'prompt_version': config.runtime['prompt_version'],
         'prompts': {key: config.prompt(key) for key in ('translation', 'review', 'repair')},
@@ -263,7 +266,7 @@ def execution_template(config, request):
         'glossaries': read_json(config.root/'config/glossaries.json')['languages'],
         'max_output_tokens': policy.get('max_output_tokens', config.runtime['max_output_tokens']),
         'review_output_tokens': policy.get('review_output_tokens', config.review_output_limit(request['review_model'])),
-        'quality_threshold': config.runtime['quality_threshold']}
+        'quality_threshold': config.runtime['quality_threshold'], **frozen_fields(config)}
 
 
 def new_task(previous, campaign, item):
@@ -443,6 +446,9 @@ def current(engine, task):
 def execution_settings(campaign):
     result = {key: campaign[key] for key in ('model','review_model','models','prompts','prompt_version',
         'language_settings','glossaries','max_output_tokens','review_output_tokens','quality_threshold')}
+    if 'review_contract_version' in campaign:
+        from .review_contract import frozen_version
+        result['review_contract_version'] = frozen_version(campaign)
     if 'continuation_policy' in campaign:
         result['continuation_policy'] = campaign['continuation_policy']
         result['planned_cycle_ceiling_usd'] = campaign['planned_cycle_ceiling_usd']

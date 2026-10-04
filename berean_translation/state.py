@@ -296,6 +296,8 @@ class State:
                  'eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.',
                  ' | '.join(f'{reason}: {count}' for reason, count in recovery_frontier['counts'].items()),
                  'A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.']
+        from .review_diagnostics import preserved_review_diagnostics, render_review_diagnostics
+        rows += render_review_diagnostics(preserved_review_diagnostics(config, self, tasks=tasks))
         errors = sorted((self.root/'state/queue-errors').glob('*.json'))
         if errors:
             rows += ['', '## Rejected requests', '', 'These requests did not start a paid campaign. Inspect the recorded validation error before submitting a new request.', '']

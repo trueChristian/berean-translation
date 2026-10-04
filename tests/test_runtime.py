@@ -262,23 +262,42 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(self.state.read('state/campaigns/new-issue.json')['issues'],[ISSUE2])
         self.assertEqual(validate_repository(self.config)['ready'],3)
 
-    def test_withdrawn_source_is_excluded_from_export(self):
+    def test_withdrawn_source_retains_accepted_publication_with_truthful_provenance(self):
         queue(self.state); drive(self.engine,self.provider)
         self.upstream.revision = 'b'*40
         self.upstream.articles = [a for a in self.upstream.articles if a['id'] != A]
         self.upstream.rebuild(); self.engine.tick()
         result = export(self.config,self.root/'.build/export',self.upstream.client.discover(),self.upstream.revision,translation_revision='c'*40)
-        self.assertEqual(result['article_count'],1)
-        self.assertEqual(result['omitted'][0]['id'],A)
+        self.assertEqual(result['article_count'],2)
+        self.assertEqual(result['omitted'],[])
+        item = next(item for item in read_json_local(self.root/'.build/export/index.json')['articles'] if item['id'] == A)
+        self.assertEqual(item['status'], 'source_removed')
+        self.assertEqual(item['current_source_translation_key'], None)
+        self.assertEqual(item['issue_id'], ISSUE)
+        pub = self.state.record('afr', A)['published']
+        source = self.state.source(pub)
+        proof = item['retained_source']
+        restored = {key: proof[key] for key in ('article', 'fingerprints', 'repository', 'revision', 'translation_key')}
+        restored['html'] = source['html']
+        self.assertEqual(json_hash(restored), proof['snapshot_sha256'])
+        self.assertEqual(item['source_revision'], source['revision'])
+        self.assertEqual(proof['html_sha256'], digest(source['html']))
+        self.assertEqual((self.root/'.build/export'/item['html']).read_text(), self.state.publication_candidate(pub)[2].replace('https://github.com/trueChristian/berean-voice/blob/main/content/articles/'+A+'.html', '/en/articles/'+A+'/'))
 
     def test_export_checks_the_actual_selected_english_manifest(self):
         queue(self.state); drive(self.engine,self.provider)
         self.upstream.change_source()
         result = export(self.config,self.root/'.build/export',self.upstream.client.discover(),self.upstream.revision,
                         base='/website/',translation_revision='c'*40)
-        self.assertEqual(result['article_count'],1)
+        self.assertEqual(result['article_count'],2)
+        self.assertEqual(result['omitted'], [])
         index = read_json_local(self.root/'.build/export/index.json')
-        output = (self.root/'.build/export'/index['articles'][0]['html']).read_text()
+        item = next(item for item in index['articles'] if item['id'] == A)
+        self.assertEqual(item['status'], 'stale')
+        self.assertTrue(item['retained'])
+        self.assertEqual(item['retention_reason'], 'english_changed')
+        self.assertNotEqual(item['source_translation_key'], item['current_source_translation_key'])
+        output = (self.root/'.build/export'/item['html']).read_text()
         self.assertIn('/website/images/articles/',output)
         self.assertIn('/website/en/articles/',output)
         self.assertFalse((self.root/'.build/export/state').exists())

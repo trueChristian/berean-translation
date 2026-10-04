@@ -10,13 +10,13 @@ Clock-notation exemptions require an explicit source AM/PM time and one-to-one e
 
 Prompt version 1.0.3 clarifies that quoted Scripture and other substantive quoted prose must be translated faithfully from the printed English into the target language, without substituting another Bible version or restoring English as a fidelity workaround. Localize Scripture book names while retaining exact chapter/verse numbers, ranges, reference counts and placement. Legitimately unchanged proper names, established titles of cited works and identifiers are not automatically translation failures. Corrections reject only invalid English-verbatim demands, while still addressing substantiated fidelity findings: an invalid suggested fix does not invalidate a genuine underlying semantic defect, which must still be repaired faithfully in the target language. New campaigns freeze these instructions for translation, both reviews and the bounded correction; existing campaigns, including 1.0.2, keep their original frozen prompts and are never migrated. The 95-point threshold, major/critical holds, attempt limits and spending caps are unchanged. Artificial offline prompt/request regressions verify packaging and immutability, not live model compliance or theological translation quality.
 
-`index.json` describes public translation records. `human_reviewed: false` is not a publication blocker. `status: ready` means the last accepted translation matches the observed English translation fingerprint; human-reviewed and AI-unreviewed articles are both allowed. A removed source or stale source is not exported. Source revision, actual translation/reviewer models and output fingerprints remain traceable.
+`index.json` describes public translation records. `human_reviewed: false` is not a publication blocker. `status: ready` means the last accepted translation matches the observed English translation fingerprint; human-reviewed and AI-unreviewed articles are both allowed. An already accepted translation remains exported when its English source changes or disappears, with status `stale` or `source_removed` and its original source provenance. Source revision, actual translation/reviewer models and output fingerprints remain traceable.
 
 Failed or pending candidates live under `state/tasks`, not public `content`. A failed re-review never removes an existing good version. Human-reviewed article/language pairs are permanently excluded from every new AI request, including manual review and forced retries. Already-submitted suggestions cannot replace them. These proposals include full candidate JSON and findings; applying changes to the existing reviewed HTML/metadata is a normal human commit, without adding an AI notice or silently changing provenance.
 
 Human editorial authority is recorded after a committed human change to an existing publication, independent of the visible notice. Prose, structure, reference numbers and notice wording are not compared with AI quality rules. Git history supplies attribution; this records a collaborator's editorial action, not independent certification of linguistic accuracy. The article body remains verbatim; the system regenerates a localized human-first presentation notice without model/version or reviewer identity, retaining the English-authority link. An unreadable or technically unsafe edit is isolated per article, with its observed file hashes and reason recorded; a hash-verified accepted snapshot supplies the public payload until the human commits a repair. Legacy accepted copies are recovered from saved task candidates or independently hash-matched Git history. Snapshots are immutable and never spending authority.
 
-Human exports add `human_edit` (commit, author, email, time) and `notice_present` to the existing `human_reviewed: true` / `ai_notice_required: false` flags. The generated footer uses `data-translation-notice="human-reviewed"`; input notice text and marker count never establish authority. `images` describes the accepted human HTML, not English image parity. An isolated edit adds `pending_edit` with a reason and `serving_last_accepted: true`; hashes refer to the actual accepted exported payload. AI-only publications retain their strict gates. Stale/source-removed retention remains a separately coordinated website contract; the website no-loss guard must retain the prior deployment rather than drop an already-served pair.
+Human exports add `human_edit` (commit, author, email, time) and `notice_present` to the existing `human_reviewed: true` / `ai_notice_required: false` flags. The generated footer uses `data-translation-notice="human-reviewed"`; input notice text and marker count never establish authority. `images` describes the accepted human HTML, not English image parity. An isolated edit adds `pending_edit` with a reason and `serving_last_accepted: true`; hashes refer to the actual accepted exported payload. AI-only publications retain their strict gates. Stale/source-removed entries carry the retained-publication contract below; the website no-loss guard remains the final backstop against dropping any already-served pair.
 
 ## State and durability
 
@@ -179,3 +179,31 @@ Human control is rechecked before preparation, upload and the billable create, i
 ## Derived-report regeneration
 
 `validate --recognize-human-edits` always rebuilds `index.json`, `STATUS.md` and `RECOVERY.json` after recognition, then performs the same strict repository validation. This also supports accepted records that were backfilled before their reports. The reports are display projections, not human-review or spending authority. Repeating recognition is idempotent for unchanged inputs. CI refreshes them only in its checkout; the normal serialized collector publishes them with its durable checkpoints before billable work. No author needs to maintain generated reports or hashes.
+
+
+### Retained accepted publications
+
+Export never omits a previously accepted publication merely because the selected
+English revision changed or removed it. Its status is `stale` or `source_removed`,
+`retained` is true, and `retention_reason` is `english_changed` or `english_removed`.
+`source_revision` and `source_translation_key` remain the accepted historical
+values. `current_source_translation_key` is the current English key or null when
+removed. The entry's `issue_id` retains the accepted source article's issue.
+The manifest lists these entries under `retained`; they are not counted as omitted.
+
+`retained_source` contains the frozen normalized `article`, `fingerprints`,
+`repository`, `revision` and `translation_key`, plus `snapshot_sha256`,
+`article_id`, `html_repository_path`, `html_sha256`, `index_repository_path`
+and `catalogue_repository_path`. The consumer retrieves the English HTML and
+needed catalogue/assets from that exact Git revision, without running historical
+code. It verifies the HTML hash and reconstructs the original six-field snapshot
+(the first five fields plus `html`) to verify `snapshot_sha256` using canonical
+JSON. This binds historical metadata and HTML together. The original snapshot's
+`metadata_sha256` is not a standalone hash of the normalized article object.
+Raw state, original HTML and images are not copied into this display export.
+
+The website must explicitly support this contract, keep source-version labels
+truthful, and retain verified historical image and grouping dependencies. An
+unverifiable retained dependency fails the candidate deployment safely; it does
+not authorize silently removing an existing article or labeling stale work current.
+Human-reviewed retained pairs stay permanently excluded from AI work.

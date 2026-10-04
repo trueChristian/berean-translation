@@ -14,6 +14,8 @@ class Config:
         self.models = read_json(root / 'config/models.json')
         if not all(isinstance(x, dict) for x in (self.runtime, self.languages, self.models)):
             raise ContractError('Missing repository configuration')
+        from .review_contract import frozen_version
+        frozen_version(self.runtime)
         if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', self.runtime['source_repository']):
             raise ContractError('Invalid source repository')
         for code, language in self.languages.items():
@@ -130,4 +132,7 @@ class Config:
             # Share the fidelity/HTML contract, then clarify complete audit
             # coverage. Acceptance freezes the combined system prompt once.
             return self.prompt('translation').rstrip() + '\n\n' + text
+        if name == 'review' and self.runtime.get('review_contract_version') == 2:
+            supplement = (self.root / 'prompts' / 'review_contract_v2.txt').read_text(encoding='utf-8')
+            return text.rstrip() + '\n\n' + supplement
         return text

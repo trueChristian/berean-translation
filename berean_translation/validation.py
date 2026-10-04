@@ -65,6 +65,8 @@ def validate_repository(config, check_index=True):
             raise ContractError('Attempt limit violated')
         state.source(task)
     for campaign in state.campaigns():
+        from .review_contract import frozen_version
+        frozen_version(campaign)
         if not 0 <= campaign['reserved_usd'] <= campaign['budget_usd']+1e-8:
             raise ContractError('Campaign budget invariant violated')
         if any(identity not in tasks for identity in campaign['tasks']):
@@ -144,14 +146,32 @@ def export(config, destination: Path, source_inventory: dict, source_revision: s
     try:
         entries = []
         omitted = []
+        retained = []
         for item in State(root).projection(config)['articles']:
             observed = source_articles.get(item['id'])
-            if not observed or observed['translation_key'] != item['source_translation_key']:
-                omitted.append({'id':item['id'],'language':item['language'],'reason':'incompatible_with_selected_English_source'})
-                continue
             target = copy.deepcopy(item)
-            target['status'] = 'ready'
             publication = State(root).record(item['language'], item['id'])['published']
+            target['status'] = ('source_removed' if not observed else
+                                'stale' if observed['translation_key'] != item['source_translation_key'] else 'ready')
+            if observed:
+                target['issue_id'] = observed['issue_id']
+            if target['status'] != 'ready':
+                frozen_source = State(root).source(publication)
+                target['issue_id'] = frozen_source['article']['issue_id']
+                reason = 'english_removed' if not observed else 'english_changed'
+                target.update(retained=True, retention_reason=reason,
+                              current_source_translation_key=observed['translation_key'] if observed else None,
+                              retained_source={
+                                  **{key:copy.deepcopy(frozen_source[key]) for key in
+                                     ('article','fingerprints','repository','revision','translation_key')},
+                                  'snapshot_sha256':Path(publication['source_snapshot']).stem,
+                                  'article_id':item['id'],
+                                  'html_repository_path':f'content/articles/{item["id"]}.html',
+                                  'html_sha256':frozen_source['fingerprints']['html_sha256'],
+                                  'index_repository_path':'index.json',
+                                  'catalogue_repository_path':'catalogue.json'})
+                retained.append({'id':item['id'],'language':item['language'],'reason':reason,
+                                 'source_revision':item['source_revision']})
             candidate, tail, text = State(root).publication_candidate(publication)
             if (digest(text) != item['html_sha256'] or
                     json_hash({key:candidate[key] for key in ('title','subtitle','section')}) != item['metadata_sha256']):
@@ -168,7 +188,7 @@ def export(config, destination: Path, source_inventory: dict, source_revision: s
                  'base_path':base,'articles':entries}
         write_json(stage/'index.json',index)
         manifest = {'format_version':'1.0','translation_revision':translation_revision,'source_revision':source_revision,
-                    'base_path':base,'article_count':len(entries),'omitted':omitted,
+                    'base_path':base,'article_count':len(entries),'omitted':omitted,'retained':retained,
                     'files':{p.relative_to(stage).as_posix():digest(p.read_bytes()) for p in sorted(stage.rglob('*')) if p.is_file()}}
         write_json(stage/'manifest.json',manifest)
         if destination.exists():

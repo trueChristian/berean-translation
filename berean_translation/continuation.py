@@ -40,7 +40,7 @@ def strategy(campaign, language):
     for role in ('model', 'review_model'):
         model = campaign['models'][campaign[role]]
         models[role] = {key: model.get(key) for key in ('api_model', 'reasoning_effort')}
-    return json_hash({'models': models,
+    value = {'models': models,
         'repair_prompt': campaign['prompts'].get('repair', campaign['prompts']['translation']),
         'review_prompt': campaign['prompts']['review'],
         'language': {key: campaign['language_settings'][language][key] for key in ('name', 'tag', 'guidance')},
@@ -48,7 +48,11 @@ def strategy(campaign, language):
         'byline_contract': ('source' if campaign.get('prompt_version') in (None, '1.0.0', '1.0.1') else 'source_context'),
         'max_output_tokens': min(campaign['max_output_tokens'], campaign['models'][campaign['model']]['max_output_tokens']),
         'review_output_tokens': min(campaign['review_output_tokens'], campaign['models'][campaign['review_model']]['max_output_tokens']),
-        'quality_threshold': campaign['quality_threshold']})
+        'quality_threshold': campaign['quality_threshold']}
+    if 'review_contract_version' in campaign:
+        from .review_contract import frozen_version
+        value['review_contract_version'] = frozen_version(campaign)
+    return json_hash(value)
 
 
 def task_id(campaign, selection):
@@ -130,6 +134,8 @@ def anchors(task, source):
 
 def next_reason(state, task, history, settings, next_strategy, *, automatic=False, at=None):
     """No paid work, mutations or policy switches occur during selection."""
+    if task.get('failure_kind') == 'incomplete_review':
+        return 'review_incomplete_requires_owner_attention'
     if (task.get('stage') in ('review1', 'review2') and task.get('failure_kind') != 'quality_rejection'
             and 'Final review failed' not in task.get('failure', '')):
         return 'continuation_review_only_requires_attention'
