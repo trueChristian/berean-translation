@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:04:33+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. Hierdie wêreld is nie my tuiste nie; ek trek net daardeur<br>\\n    My skatte lê êrens daar anderkant die blou;<br>\\n    Die engele wink my vanuit die hemel se oop deur,<br>\\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\\n\\n    <h2>Koor:</h2>\\n\\n    <p><em>O Here, U weet, ek het geen vriend soos U nie,<br>\\n    As die hemel nie my tuiste is nie, Here, wat sal ek dan doen?<br>\\n    Die engele wink my vanuit die hemel se oop deur,<br>\\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\\n\\n    <p><em>2. Hulle wag almal op my, en dit weet ek gewis,<br>\\n    My Verlosser het my vergewe, en nou gaan ek voort;<br>\\n    Ek weet Hy sal my deurbring, al is ek swak en arm,<br>\\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\\n\\n    <p><em>3. Ek het ’n liefdevolle Verlosser in die heerlikheidsland,<br>\\n    Ek verwag nie om op te hou reis voordat ek saam met Hom staan nie,<br>\\n    Hy wag nou vir my by die hemel se oop deur,<br>\\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\\n\\n    <p><em>4. Daar, in die heerlikheidsland, sal ons vir ewig leef,<br>\\n    Die heiliges roep oral om ons die oorwinning uit,<br>\\n    Hulle liedere van die soetste lof dryf terug van die hemel se strand,<br>\\n    En ek voel nie meer tuis in hierdie wêreld nie.</em></p>\\n  </div>\\n\\n  <p><em>Bron: Hymns of Faith #311<br>\\n  Kopiereg: Publieke domein<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"Gesang\",\"subtitle\":null,\"title\":\"Hierdie wêreld is nie my tuiste nie\"}",
+    "content_bytes": 1636,
+    "content_evidence_truncated": false,
+    "content_sha256": "7d3ae7bca77aadc5fa16c8db06d1e4199320d8f30c20db455c1e50d4c0ee9962",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 735,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 182,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2003,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2000,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2738
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

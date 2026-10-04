@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "579bd07614474b92ba9f89bc2d48db5c",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -45,9 +44,30 @@
         },
         "total_tokens": 5633
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2304,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5754,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5751,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8058
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[37]: source /article[1]/p[8]/strong[1] ('end', 'strong'); translation /article[1]/p[8]/strong[1]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "본문 1문단, 로마서 10:14–15 인용",
@@ -92,6 +112,7 @@
       "translation_quote": "그것이 먼저 자기 마음 안에서 일어나지 않는 한, 그는 주님의 검(말씀)을 효과적으로 휘두를 수 없습니다. …혼과 영을 갈라내기까지… –히브리서 4:12."
     }
   ],
+  "finished_at": "2026-10-04T06:04:34+00:00",
   "id": "f92127021922d3c89102093919f9e47c",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "kor",
@@ -186,7 +207,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"

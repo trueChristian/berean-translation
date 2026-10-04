@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aca37cab-1a08-45cb-86f9-8dd462a44014",
+    "response_id": "chatcmpl-EV4OsyfVN30SaQiVJXmBCKbS5CMrg",
+    "usage": {
+      "completion_tokens": 542,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2317,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2862
+    }
+  },
+  "received_at": "2026-10-04T06:04:32+00:00",
+  "result": {
+    "html": "<article data-article-id=\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\">\n  <div class=\"hymn\">\n    <p><em>1. هذا العالم ليس موطني، فأنا مجرد عابر سبيل فيه<br>\n    كنوزي مودعة في مكان ما وراء السماء؛<br>\n    تدعوني الملائكة من باب السماء المفتوح،<br>\n    ولم أعد أشعر أن هذا العالم موطني.</em></p>\n\n    <h2>اللازمة:</h2>\n\n    <p><em>يا رب، أنت تعلم أنه ليس لي صديق مثلك،<br>\n    إن لم تكن السماء موطني، فماذا أفعل يا رب؟<br>\n    تدعوني الملائكة من باب السماء المفتوح،<br>\n    ولم أعد أشعر أن هذا العالم موطني.</em></p>\n\n    <p><em>2. إنهم جميعًا ينتظرونني، وهذا أمر واحد أعرفه،<br>\n    لقد غفر لي مخلّصي، والآن أواصل المسير؛<br>\n    أعلم أنه سيأخذني عبر الطريق، مع أنني ضعيف وفقير،<br>\n    ولم أعد أشعر أن هذا العالم موطني.</em></p>\n\n    <p><em>3. لي مخلّص محب في أرض المجد،<br>\n    لا أتوقع أن أتوقف حتى أقف معه،<br>\n    إنه ينتظرني الآن عند باب السماء المفتوح،<br>\n    ولم أعد أشعر أن هذا العالم موطني.</em></p>\n\n    <p><em>4. هناك في أرض المجد سنعيش إلى الأبد،<br>\n    والقديسون من كل جانب يهتفون بالنصر،<br>\n    وتنساب أغاني تسبيحهم العذبة من شاطئ السماء،<br>\n    ولم أعد أشعر أن هذا العالم موطني.</em></p>\n  </div>\n\n  <p><em>المصدر: ترانيم الإيمان رقم 311<br>\n  حقوق النشر: الملكية العامة<br></em>\n  hymnary.org</p>\n</article>\n",
+    "section": "ترنيمة",
+    "subtitle": null,
+    "title": "هذا العالم ليس موطني"
+  }
+}

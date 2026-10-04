@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “How we speak to one another…”",
+      "severity": "major",
+      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
+      "suggested_fix": "Preserve the source’s double negative and conditional meaning in Portuguese, for example: “Mas, se não nos opusermos a falar a verdade mesmo que isso signifique que alguém ficará descontente conosco, não estaremos então errados?”",
+      "translation_quote": "Mas, se não estivermos dispostos a falar a verdade por receio de que alguém fique descontente conosco, não estaremos então errados?"
+    },
+    {
+      "location": "Article, paragraph beginning “Let’s consider some examples in the Holy Bible.”",
+      "severity": "major",
+      "source_quote": "If you read through the martyr’s mirror",
+      "suggested_fix": "Translate the cited work’s title using its conventional Portuguese form, for example: “Se você ler o Espelho dos Mártires”.",
+      "translation_quote": "Se você ler o Martirológio dos Mártires"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[100]: source /article[1]/p[24]/strong[1] ('start', 'strong', ()); translation /article[1]/p[24]/em[1] ('start', 'em', ())",
+  "stage": "terminal"
+}

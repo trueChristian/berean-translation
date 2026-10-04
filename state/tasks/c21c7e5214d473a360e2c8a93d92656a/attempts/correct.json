@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:04:33+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3a3501f6-fc1b-4e76-919f-9d00a44c6698\\\">\\n  <div class=\\\"hymn\\\">\\n    <p><em>1. Denne verden er ikke mitt hjem, jeg er bare på gjennomreise<br>\\n    Skattene mine er lagt opp et sted bortenfor det blå;<br>\\n    Englene vinker meg fra himmelens åpne dør,<br>\\n    Og jeg føler meg ikke lenger hjemme i denne verden.</em></p>\\n\\n    <h2>Refreng:</h2>\\n\\n    <p><em>Å Herre, du vet at jeg ikke har noen venn som deg,<br>\\n    Hvis himmelen ikke er mitt hjem, hva skal jeg da gjøre, Herre?<br>\\n    Englene vinker meg fra himmelens åpne dør,<br>\\n    Og jeg føler meg ikke lenger hjemme i denne verden.</em></p>\\n\\n    <p><em>2. De venter alle på meg, og det vet jeg sikkert,<br>\\n    Min Frelser tilga meg, og nå går jeg videre;<br>\\n    Jeg vet at han vil føre meg gjennom, selv om jeg er svak og fattig,<br>\\n    Og jeg føler meg ikke lenger hjemme i denne verden.</em></p>\\n\\n    <p><em>3. Jeg har en kjærlig Frelser oppe i herlighetens land,<br>\\n    Jeg regner ikke med å stanse før jeg står sammen med ham,<br>\\n    Han venter nå på meg ved himmelens åpne dør,<br>\\n    Og jeg føler meg ikke lenger hjemme i denne verden.</em></p>\\n\\n    <p><em>4. Der oppe i herlighetens land skal vi leve evig,<br>\\n    De hellige på alle kanter roper seiersrop,<br>\\n    Deres skjønneste lovsanger driver hit fra himmelens strand,<br>\\n    Og jeg føler meg ikke lenger hjemme i denne verden.</em></p>\\n  </div>\\n\\n  <p><em>Kilde: Hymns of Faith #311<br>\\n  Opphavsrett: Felleseie<br></em>\\n  hymnary.org</p>\\n</article>\\n\",\"section\":\"Salme\",\"subtitle\":null,\"title\":\"Denne verden er ikke mitt hjem\"}",
+    "content_bytes": 1649,
+    "content_evidence_truncated": false,
+    "content_sha256": "3771caab0754e19823c746527cc9cbee4a7a718be8b703897192576b42f95d55",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 683,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 131,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2091,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2088,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2774
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
