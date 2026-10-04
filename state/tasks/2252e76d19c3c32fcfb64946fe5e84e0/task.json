@@ -2,6 +2,7 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "2f73c88acdab4b19b4ede03a55104d20",
   "campaign": "gh-37137754122",
   "continuation": {
     "cycle": 1,
@@ -140,11 +141,11 @@
   },
   "protected": false,
   "rejection_reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[100]: source /article[1]/div[1]/p[6]/em[1]/br[7] ('start', 'br', ()); translation /article[1]/div[1]/p[6]/em[1] ('end', 'em')",
-  "review_attempts": 0,
+  "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review2",
-  "status": "queued",
+  "status": "in_batch",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-6.1-sol"
