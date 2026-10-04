@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 3\",\"severity\":\"major\",\"source_quote\":\"Decisions he made; he would never forget.\",\"suggested_fix\":\"Он никогда не забудет принятых им решений.\",\"translation_quote\":\"Он помнил о решениях, что принял тогда.\"},{\"location\":\"Poem, line 22\",\"severity\":\"major\",\"source_quote\":\"He knew with no doubt that he was made whole.\",\"suggested_fix\":\"И он не сомневался: теперь он был восстановлен.\",\"translation_quote\":\"И он не сомневался: теперь он исцелён.\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 641,
+    "content_evidence_truncated": false,
+    "content_sha256": "4e2b84b4f7fc80f0133f7719f5dd55903784575b17ac661b87b798dd5d4efbcf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1934,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1931,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2693
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

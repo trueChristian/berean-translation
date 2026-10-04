@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, line 14",
+      "severity": "major",
+      "source_quote": "It’s for the redeemed, and the life that he lives.",
+      "suggested_fix": "Vervang door: “Zij is voor de verlosten, en voor het leven dat zij leiden.” Zo blijft het leven verbonden met de verlosten, zoals in de bron, in plaats van met God.",
+      "translation_quote": "Zij is voor de verlosten, en voor het leven dat Hij leidt."
+    },
+    {
+      "location": "HTML, image alt-tekst",
+      "severity": "minor",
+      "source_quote": "Layered blue mountains beneath a warm peach-colored sky",
+      "suggested_fix": "Pas de verbuiging aan: “Gelaagde blauwe bergen onder een warme perzikkleurige hemel”.",
+      "translation_quote": "Gelaagde blauwe bergen onder een warm perzikkleurige hemel"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

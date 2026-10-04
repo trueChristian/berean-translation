@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, القصيدة، المقطع الرابع",
+      "severity": "major",
+      "source_quote": "How can you call Him your best friend / When it’s only in your trials / That on Him you will depend?",
+      "suggested_fix": "استبدل الأسطر المقابلة بـ«كيف تدعوه أعز أصدقائك / إذا كنت لا تعتمد عليه / إلا في محنتك؟» مع الحفاظ على وسوم HTML وترتيبها.",
+      "translation_quote": "كيف تدعوه أعز أصدقائك، / إن كنت لا تعتمد عليه / إلا حين تشتد محنتك؟"
+    },
+    {
+      "location": "HTML، القصيدة، المقطع الثامن",
+      "severity": "major",
+      "source_quote": "The unknowns in His hands, He’ll be at your side",
+      "suggested_fix": "استبدل العبارة بـ«ضع المجهولات بين يديه، وسيكون إلى جانبك» أو صياغة عربية تحفظ أن الأمور المجهولة في يديه وأنه سيكون إلى جانبك، مع إبقاء الوسم والترتيب كما هما.",
+      "translation_quote": "وما يخفى عليك بين يديه؛ وسيكون إلى جانبك"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

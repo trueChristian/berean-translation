@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "375e33ae-9ba8-4912-82f5-fce5336c09a1",
+    "response_id": "chatcmpl-EV20RdbhkDgjJ8riXy9JJTlIhbfA6",
+    "usage": {
+      "completion_tokens": 674,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 495,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1933,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1930,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2607
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 5",
+        "severity": "minor",
+        "source_quote": "Perhaps more desperately;",
+        "suggested_fix": "Vervang ‘Misschien wel des te meer;’ door ‘Misschien wel dringender;’ om de betekenis van ‘more desperately’ beter weer te geven.",
+        "translation_quote": "Misschien wel des te meer;"
+      },
+      {
+        "location": "Poem, stanza 7",
+        "severity": "minor",
+        "source_quote": "To earnestly seek His face",
+        "suggested_fix": "Vervang ‘Zijn aangezicht ernstig te zoeken’ door ‘oprecht Zijn aangezicht te zoeken’ om ‘earnestly’ weer te geven zonder de indruk van ‘ernstig’ in de zin van ‘grave’.",
+        "translation_quote": "Zijn aangezicht ernstig te zoeken"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

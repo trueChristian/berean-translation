@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "269866e2-2c09-4c2f-a444-8c133887229c",
+    "response_id": "chatcmpl-EV20PDzSilLeeh76L2LL1Zn1ItDbm",
+    "usage": {
+      "completion_tokens": 465,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5920,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5917,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6385
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Alinea 5",
+        "severity": "major",
+        "source_quote": "As time has passed, new normals have begun to develop.",
+        "suggested_fix": "Vervang ‘is er een nieuwe normaliteit ontstaan’ door ‘zijn er nieuwe normaalvormen ontstaan’ of ‘zijn er nieuwe manieren van leven ontstaan’ om het meervoud te behouden.",
+        "translation_quote": "Na verloop van tijd is er een nieuwe normaliteit ontstaan."
+      },
+      {
+        "location": "Alinea 9",
+        "severity": "major",
+        "source_quote": "It discussed an interesting phenomenon, which was referred to as a happiness spike, among children during this unexpected disruption of normal hectic schedules.",
+        "suggested_fix": "Vervang ‘onder wie uit North Carolina, Tennessee en California’ door ‘onder wie ouders uit North Carolina, Tennessee en Californië’ en verander ‘Het besprak’ in ‘Het artikel beschreef’.",
+        "translation_quote": "In dit artikel werden ouders uit heel de Verenigde Staten aan het woord gelaten, onder wie uit North Carolina, Tennessee en California. Het besprak een interessant verschijnsel onder kinderen, dat werd aangeduid als een gelukspiek, tijdens deze onverwachte onderbreking van de hectische normale schema’s."
+      },
+      {
+        "location": "Alinea 16",
+        "severity": "major",
+        "source_quote": "They were no longer under the pressure to achieve a certain level or performance based on their peers.",
+        "suggested_fix": "Vervang ‘een bepaald niveau of bepaalde prestaties te bereiken op basis van hun leeftijdsgenoten’ door ‘een bepaald niveau of bepaalde prestaties te bereiken in vergelijking met hun leeftijdsgenoten’.",
+        "translation_quote": "Ze stonden niet langer onder druk om een bepaald niveau of bepaalde prestaties te bereiken op basis van hun leeftijdsgenoten."
+      },
+      {
+        "location": "Alinea 20",
+        "severity": "major",
+        "source_quote": "There is NO human being that is so holy that they have no need of improvement where God is concerned.",
+        "suggested_fix": "Vervang ‘geen verbetering nodig heeft in de ogen van God’ door ‘geen verbetering nodig heeft wat zijn of haar verhouding tot God betreft’.",
+        "translation_quote": "Er is GEEN mens die zo heilig is dat hij of zij geen verbetering nodig heeft in de ogen van God."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

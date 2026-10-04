@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5af84086-fdd2-4961-9c12-d8b985828f78",
+    "response_id": "chatcmpl-EV20QLMq6mCAFaNHYqkWm2NYSVYtm",
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 430,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8535,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9419
+    }
+  },
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Värre än ett dåligt samvete…”",
+        "severity": "major",
+        "source_quote": "“This occurs when someone has ignored God’s calling to repent and turn from their wrong for so long that He gives them over to their sin. He allows them to think that what they are doing is okay.”",
+        "suggested_fix": "Ändra till exempelvis: “Detta sker när någon så länge har ignorerat Guds kallelse att omvända sig och vända sig bort från det onda att Gud överlämnar personen åt sin synd. Gud låter personen tro att det han eller hon gör är okej.”",
+        "translation_quote": "“Detta sker när någon så länge har ignorerat Guds kallelse att omvända sig och vända sig bort från det onda att han överlämnar personen åt hennes synd. Han låter henne tro att det hon gör är okej.”"
+      },
+      {
+        "location": "Citatet från 2 Sam 12:4-7",
+        "severity": "major",
+        "source_quote": "“the man that hath done this thing shall surely die”",
+        "suggested_fix": "Ändra “den man som har gjort detta förtjänar döden” till “den man som har gjort detta ska sannerligen dö” för att återge utsagan om vad som ska ske, inte vad mannen förtjänar.",
+        "translation_quote": "“den man som har gjort detta förtjänar döden!”"
+      },
+      {
+        "location": "Citatet från Apg 5:32-33",
+        "severity": "major",
+        "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them”",
+        "suggested_fix": "Återge både reaktionen och det efterföljande beslutet, till exempel: “När de hörde detta blev de djupt berörda [eller: träffade i hjärtat] och rådgjorde om att döda dem.”",
+        "translation_quote": "“När de hörde detta blev de ursinniga och ville döda dem”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

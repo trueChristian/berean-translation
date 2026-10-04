@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "641fd180-f37d-4e06-b682-48fada3773f6",
+    "response_id": "chatcmpl-EV20yaonEbGbFdqf4jBKCwTmPC2lS",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 583,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2597
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, fifth stanza, final line",
+        "severity": "minor",
+        "source_quote": "When the way you think you see.",
+        "suggested_fix": "Revise to «Quando pensas que vês o caminho.»",
+        "translation_quote": "Quando pensas que vês claramente o caminho."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

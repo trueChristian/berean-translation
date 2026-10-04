@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Scripture quotation in the second paragraph",
+      "severity": "major",
+      "source_quote": "he shall turn the heart of the fathers to the children, and the heart of the children to their fathers",
+      "suggested_fix": "استبدل «فيرد قلب الآباء على الأبناء، وقلب الأبناء على آبائهم» بـ«فيرد قلوب الآباء إلى الأبناء، وقلوب الأبناء إلى آبائهم»؛ فصيغة «على» قد تفيد التوجّه ضدّ الأبناء بدلًا من التوجّه إليهم.",
+      "translation_quote": "فيرد قلب الآباء على الأبناء، وقلب الأبناء على آبائهم"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

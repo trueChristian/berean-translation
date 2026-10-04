@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"minor\",\"source_quote\":\"How Joel dreaded facing Father and Mr. Weaver, but later when it was all over, he felt so much better.\",\"suggested_fix\":\"Change “Joel het dit gevrees om voor Pa en mnr. Weaver te staan” to “Joel het gevrees om voor Pa en mnr. Weaver te staan” for idiomatic Afrikaans.\",\"translation_quote\":\"Joel het dit gevrees om voor Pa en mnr. Weaver te staan, maar later, toe alles verby was, het hy soveel beter gevoel.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 522,
+    "content_evidence_truncated": false,
+    "content_sha256": "0f185b9bb365edf4c4740c9200f403589566a9586effc354862da3422816cb50",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 469,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 325,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3922,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4394
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

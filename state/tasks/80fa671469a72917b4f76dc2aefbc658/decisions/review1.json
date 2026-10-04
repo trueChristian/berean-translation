@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, strophe 10, lignes 3–4",
+      "severity": "major",
+      "source_quote": "And thank Him that for Jesus’ sake / They suffer and they die.",
+      "suggested_fix": "Remplacer ces deux lignes par : « Et le remercient de souffrir et de mourir / Pour l’amour de Jésus. » afin de conserver l’idée qu’ils remercient Dieu de souffrir et de mourir pour Jésus.",
+      "translation_quote": "Et le remercient de souffrir et de mourir / Pour l’amour de Jésus."
+    },
+    {
+      "location": "HTML, strophe 12, ligne 3",
+      "severity": "minor",
+      "source_quote": "Or is it ‘cause we aren’t a “threat”",
+      "suggested_fix": "Pour rendre la cause explicite, remplacer « Ou bien est-ce parce que nous ne sommes pas une « menace » » par « Ou bien est-ce parce que nous ne représentons pas une « menace » ».",
+      "translation_quote": "Ou bien est-ce parce que nous ne sommes pas une « menace »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

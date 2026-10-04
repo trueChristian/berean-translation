@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third poem stanza, first line",
+      "severity": "major",
+      "source_quote": "The more people they converted,",
+      "suggested_fix": "Hoe meer mense hulle tot bekering gebring het,",
+      "translation_quote": "Hoe meer mense hulle bekeer het,"
+    },
+    {
+      "location": "HTML, thirteenth poem stanza, third and fourth lines",
+      "severity": "major",
+      "source_quote": "If we don’t bring the folks to God,\nThe populace will die.",
+      "suggested_fix": "As ons nie die mense na God bring nie,\nSal die mense verlore gaan.",
+      "translation_quote": "As ons nie die mense na God bring nie,\nSal die bevolking sterf."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

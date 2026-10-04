@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 5810
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 688,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5669,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5666,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6357
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source HTML, paragraph beginning “For God hath not given us…”; translated quotation",
+      "severity": "major",
+      "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind”",
+      "suggested_fix": "Replace “کیونکہ خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور تربیت کی روح دی ہے۔” with “کیونکہ خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور تندرست ذہن کی روح دی ہے۔” This keeps the quotation aligned with the article’s repeated “sound mind” theme.",
+      "translation_quote": "کیونکہ خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور تربیت کی روح دی ہے۔"
+    }
+  ],
   "id": "a8f76ac7a5aeb5b0e0251bf3bf5ea0ef",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "urd",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"

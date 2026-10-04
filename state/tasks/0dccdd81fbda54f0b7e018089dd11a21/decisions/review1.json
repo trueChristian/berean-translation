@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Título do artigo citado",
+      "severity": "minor",
+      "source_quote": "WHY SOME KIDS ARE HAPPIER RIGHT NOW, AND OTHER UNEXPECTED EFFECTS OF QUARANTINE",
+      "suggested_fix": "Use a tradução do título sem alterar sua estrutura no parágrafo: “POR QUE ALGUMAS CRIANÇAS ESTÃO MAIS FELIZES AGORA E OUTROS EFEITOS INESPERADOS DA QUARENTENA”.",
+      "translation_quote": "POR QUE ALGUMAS CRIANÇAS ESTÃO MAIS FELIZES AGORA E OUTROS EFEITOS INESPERADOS DA QUARENTENA"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

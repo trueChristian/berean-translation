@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "37d6627b-16d5-47bf-957f-c172b3bc210a",
+    "response_id": "chatcmpl-EV20QNVIuikJQHpkUsKA3GMfeFCIv",
+    "usage": {
+      "completion_tokens": 99,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4196,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4298
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, 두 번째 단락",
+        "severity": "minor",
+        "source_quote": "And God hates stealing!",
+        "suggested_fix": "“그리고 하나님께서는 도둑질을 미워하십니다!”처럼 번역하면 원문의 현재형 진술을 그대로 살릴 수 있습니다.",
+        "translation_quote": "그리고 하나님께서는 도둑질을 미워하십니다!"
+      }
+    ],
+    "passed": true,
+    "score": 99
+  }
+}

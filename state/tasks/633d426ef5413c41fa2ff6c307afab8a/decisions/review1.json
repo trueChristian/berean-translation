@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Avsnittet «…Ettertenksomhet versus underholdning»",
+      "severity": "major",
+      "source_quote": "To ‘muse’ means to think. To ‘amuse’ means to not think.",
+      "suggested_fix": "Behold avsnittets HTML-struktur, og oversett ordspillet uten å gi det norske ordet en uriktig definisjon, for eksempel: «Å ‘grunne’ betyr å tenke. I dette ordspillet betyr ‘adsprede’ å ikke tenke.»",
+      "translation_quote": "Å «grunne» betyr å tenke. Å «underholde» betyr å ikke tenke."
+    },
+    {
+      "location": "Avsnittet «…Utvikling av lydighet»",
+      "severity": "major",
+      "source_quote": "A child who learns to live with a surrendered will to their parents will one day much more easily walk in unquestioning obedience to God.",
+      "suggested_fix": "Bytt «ubetinget lydighet» med «lydighet uten å stille spørsmål» for å bevare meningen «unquestioning obedience».",
+      "translation_quote": "Et barn som lærer å leve med en vilje som er underordnet foreldrenes, vil en dag mye lettere kunne vandre i ubetinget lydighet mot Gud."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

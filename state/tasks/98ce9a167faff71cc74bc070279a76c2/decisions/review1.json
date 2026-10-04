@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Holding the Hearts of our Children",
+      "suggested_fix": "Κερδίζοντας και διατηρώντας τις καρδιές των παιδιών μας",
+      "translation_quote": "Κερδίζοντας την καρδιά των παιδιών μας"
+    },
+    {
+      "location": "html, Summary paragraph",
+      "severity": "minor",
+      "source_quote": "Proverbs 17:6 says",
+      "suggested_fix": "Το βιβλίο των Παροιμιών 17:6 λέει:",
+      "translation_quote": "Το Παροιμίες 17:6 λέει:"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

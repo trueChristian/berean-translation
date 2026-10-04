@@ -2,7 +2,6 @@
   "article_id": "486eb0b4-74ad-40db-b53a-51a7b89036e2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 6282
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 691,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6141,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6138,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6832
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ بـ«تسير معلومات كهذه عكس اتجاه العالم»",
+      "severity": "major",
+      "source_quote": "“daycare centers for children of working parents would go out of business”",
+      "suggested_fix": "استبدل «ستفلس دور الحضانة المخصصة لأطفال الآباء العاملين» بـ«ستخرج دور الحضانة التي ترعى أطفال الآباء العاملين من مجال الأعمال»؛ فالمصدر يقول إنها ستتوقف عن العمل، لا إنها ستفلس.",
+      "translation_quote": "«ستفلس دور الحضانة المخصصة لأطفال الآباء العاملين»"
+    },
+    {
+      "location": "الفقرة التي تبدأ بـ«تسير معلومات كهذه عكس اتجاه العالم»",
+      "severity": "major",
+      "source_quote": "“extra-curricular and after school activities for all the children in any given community would no longer be needed”",
+      "suggested_fix": "استبدل «لن تعود الأنشطة اللامنهجية وأنشطة ما بعد المدرسة ضرورية للأطفال في أي مجتمع» بـ«لن تعود الأنشطة اللامنهجية وأنشطة ما بعد المدرسة ضرورية لجميع الأطفال في أي مجتمع».",
+      "translation_quote": "«لن تعود الأنشطة اللامنهجية وأنشطة ما بعد المدرسة ضرورية للأطفال في أي مجتمع»"
+    },
+    {
+      "location": "الفقرة التي تبدأ بـ«على الرغم من مخاوفهم وتوجسهم»",
+      "severity": "major",
+      "source_quote": "“one of the most well-supported explanations for this rise of mental health disorders”",
+      "suggested_fix": "استبدل «أحد أكثر التفسيرات المدعومة جيدًا لزيادة اضطرابات الصحة النفسية» بـ«أحد التفسيرات التي تحظى بأقوى الأدلة لزيادة اضطرابات الصحة النفسية».",
+      "translation_quote": "«أحد أكثر التفسيرات المدعومة جيدًا لزيادة اضطرابات الصحة النفسية»"
+    },
+    {
+      "location": "الفقرة التي تبدأ بـ«وبحسب المقال الإخباري»",
+      "severity": "major",
+      "source_quote": "“emotional struggles and mental disorders started to correct themselves”",
+      "suggested_fix": "استبدل «بدأت تنحسر من تلقاء نفسها» بـ«بدأت تتحسن من تلقاء نفسها» للحفاظ على معنى أن المشكلات والاضطرابات بدأت تصحح مسارها.",
+      "translation_quote": "«بدأت تنحسر من تلقاء نفسها»"
+    },
+    {
+      "location": "الفقرة الختامية التي تبدأ بـ«أختتم ببعض الأفكار»",
+      "severity": "major",
+      "source_quote": "“we can be sure that this will not be the last, nor will it be the worst”",
+      "suggested_fix": "استبدل «يمكننا أن نكون على يقين بأنه لن يكون الأخير، ولن يكون الأسوأ» بـ«يمكننا أن نكون على يقين بأن هذه لن تكون آخر مرة، ولا أسوأ ما سنواجهه»؛ فالمرجع هو الموقف أو الأزمة، لا الفيروس بوصفه مذكرًا.",
+      "translation_quote": "«يمكننا أن نكون على يقين بأنه لن يكون الأخير، ولن يكون الأسوأ»"
+    },
+    {
+      "location": "العنوان",
+      "severity": "minor",
+      "source_quote": "From the Editor",
+      "suggested_fix": "يمكن إبقاء «من المحرر»؛ لا يلزم تصحيح.",
+      "translation_quote": "من المحرر"
+    }
+  ],
   "id": "fa15cb1ce83d8ee2c674c5d01e825325",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ara",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48",
   "translation_model_actual": "gpt-6-luna"

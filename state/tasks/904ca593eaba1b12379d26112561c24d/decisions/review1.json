@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, fifth stanza, final line",
+      "severity": "minor",
+      "source_quote": "When the way you think you see.",
+      "suggested_fix": "Revise to «Quando pensas que vês o caminho.»",
+      "translation_quote": "Quando pensas que vês claramente o caminho."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

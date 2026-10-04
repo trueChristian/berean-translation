@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Puisi, bait 5\",\"severity\":\"minor\",\"source_quote\":\"Perhaps more desperately;\",\"suggested_fix\":\"Mungkin bahkan lebih mendesak lagi;\",\"translation_quote\":\"Mungkin bahkan lebih besar lagi;\"},{\"location\":\"Puisi, bait 8\",\"severity\":\"minor\",\"source_quote\":\"He’ll be at your side\",\"suggested_fix\":\"Dia akan berada di sisimu\",\"translation_quote\":\"Dia akan di sisimu\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 413,
+    "content_evidence_truncated": false,
+    "content_sha256": "08970336d819760e5dcdb88b1933403c46069a1844e4f215ed61c72822cad0f0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 450,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1979,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1976,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2545
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

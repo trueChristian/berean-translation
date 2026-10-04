@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Título do artigo citado\",\"severity\":\"minor\",\"source_quote\":\"WHY SOME KIDS ARE HAPPIER RIGHT NOW, AND OTHER UNEXPECTED EFFECTS OF QUARANTINE\",\"suggested_fix\":\"Use a tradução do título sem alterar sua estrutura no parágrafo: “POR QUE ALGUMAS CRIANÇAS ESTÃO MAIS FELIZES AGORA E OUTROS EFEITOS INESPERADOS DA QUARENTENA”.\",\"translation_quote\":\"POR QUE ALGUMAS CRIANÇAS ESTÃO MAIS FELIZES AGORA E OUTROS EFEITOS INESPERADOS DA QUARENTENA\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 502,
+    "content_evidence_truncated": false,
+    "content_sha256": "5324d47a05aec36edf1a73f8da9e8fa49923f1ac100425b2443dfa6c580d275b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5861,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5858,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6004
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

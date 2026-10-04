@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, sixth stanza, first line",
+      "severity": "major",
+      "source_quote": "Even when you fail to hear Him,",
+      "suggested_fix": "Vervang “Selfs wanneer jy versuim om Hom te hoor,” met “Selfs wanneer jy Hom nie hoor nie,” om nie te impliseer dat dit ’n versuim of nalatigheid is nie.",
+      "translation_quote": "Selfs wanneer jy versuim om Hom te hoor,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

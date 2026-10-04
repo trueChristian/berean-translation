@@ -2,7 +2,6 @@
   "article_id": "486eb0b4-74ad-40db-b53a-51a7b89036e2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 6061
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 465,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5920,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5917,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6385
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Alinea 5",
+      "severity": "major",
+      "source_quote": "As time has passed, new normals have begun to develop.",
+      "suggested_fix": "Vervang ‘is er een nieuwe normaliteit ontstaan’ door ‘zijn er nieuwe normaalvormen ontstaan’ of ‘zijn er nieuwe manieren van leven ontstaan’ om het meervoud te behouden.",
+      "translation_quote": "Na verloop van tijd is er een nieuwe normaliteit ontstaan."
+    },
+    {
+      "location": "Alinea 9",
+      "severity": "major",
+      "source_quote": "It discussed an interesting phenomenon, which was referred to as a happiness spike, among children during this unexpected disruption of normal hectic schedules.",
+      "suggested_fix": "Vervang ‘onder wie uit North Carolina, Tennessee en California’ door ‘onder wie ouders uit North Carolina, Tennessee en Californië’ en verander ‘Het besprak’ in ‘Het artikel beschreef’.",
+      "translation_quote": "In dit artikel werden ouders uit heel de Verenigde Staten aan het woord gelaten, onder wie uit North Carolina, Tennessee en California. Het besprak een interessant verschijnsel onder kinderen, dat werd aangeduid als een gelukspiek, tijdens deze onverwachte onderbreking van de hectische normale schema’s."
+    },
+    {
+      "location": "Alinea 16",
+      "severity": "major",
+      "source_quote": "They were no longer under the pressure to achieve a certain level or performance based on their peers.",
+      "suggested_fix": "Vervang ‘een bepaald niveau of bepaalde prestaties te bereiken op basis van hun leeftijdsgenoten’ door ‘een bepaald niveau of bepaalde prestaties te bereiken in vergelijking met hun leeftijdsgenoten’.",
+      "translation_quote": "Ze stonden niet langer onder druk om een bepaald niveau of bepaalde prestaties te bereiken op basis van hun leeftijdsgenoten."
+    },
+    {
+      "location": "Alinea 20",
+      "severity": "major",
+      "source_quote": "There is NO human being that is so holy that they have no need of improvement where God is concerned.",
+      "suggested_fix": "Vervang ‘geen verbetering nodig heeft in de ogen van God’ door ‘geen verbetering nodig heeft wat zijn of haar verhouding tot God betreft’.",
+      "translation_quote": "Er is GEEN mens die zo heilig is dat hij of zij geen verbetering nodig heeft in de ogen van God."
+    }
+  ],
   "id": "7479d7710aa1c1cd6ebecdeca2fa47a2",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "nld",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48",
   "translation_model_actual": "gpt-6-luna"

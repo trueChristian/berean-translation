@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "665c94cb-27de-4717-8d09-e9c331280ba5",
+    "response_id": "chatcmpl-EV21N00raccayJYPB83eZUHr646Rj",
+    "usage": {
+      "completion_tokens": 811,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 641,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5256,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5253,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6067
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “For God hath not given us…”; Scripture quotation",
+        "severity": "major",
+        "source_quote": "“the spirit of fear; but of power, and of love, and of a sound mind”",
+        "suggested_fix": "Replace «духа не боязни, но силы и любви и целомудрия» with «духа не боязни, но силы, любви и здравого ума», keeping the existing <em> tags and the reference –2Тим 1:7 unchanged.",
+        "translation_quote": "«духа не боязни, но силы и любви и целомудрия –2Тим 1:7.»"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

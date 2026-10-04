@@ -2,7 +2,6 @@
   "article_id": "b8c0cd82-3d1a-4287-b2f5-391e08dd8efd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 2862
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 786,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 599,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2666,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2663,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3452
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "शीर्षक",
+      "severity": "minor",
+      "source_quote": "The Call to Labor",
+      "suggested_fix": "शीर्षक को “परिश्रम का आह्वान” करें, ताकि evangelism के काम में जुटने का आह्वान बना रहे।",
+      "translation_quote": "सेवा का आह्वान"
+    },
+    {
+      "location": "कविता, “In other lands this very day” वाला पद",
+      "severity": "minor",
+      "source_quote": "The fire is burning bright;",
+      "suggested_fix": "“आग प्रखरता से जल रही है” लिखें; वर्तमान अनुवाद “तेज़ी से” जलने का अर्थ देता है, “bright” का नहीं।",
+      "translation_quote": "आग तेज़ी से जल रही है;"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:38+00:00",
   "id": "3e0600af9aca0620b492d5f9f9e0f2ae",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "hin",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e72319de5a9064e915ac8e2394006c00431f8c8787168b47fb44816c4213b2fe.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e",
   "translation_model_actual": "gpt-6-luna"

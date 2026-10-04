@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "How Joel dreaded facing Father and Mr. Weaver, but later when it was all over, he felt so much better.",
+      "suggested_fix": "Change “Joel het dit gevrees om voor Pa en mnr. Weaver te staan” to “Joel het gevrees om voor Pa en mnr. Weaver te staan” for idiomatic Afrikaans.",
+      "translation_quote": "Joel het dit gevrees om voor Pa en mnr. Weaver te staan, maar later, toe alles verby was, het hy soveel beter gevoel."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

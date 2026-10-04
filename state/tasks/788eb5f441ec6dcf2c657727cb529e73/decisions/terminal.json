@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo sull’incontro con l’agente di polizia",
+      "severity": "minor",
+      "source_quote": "He went back to his car and several minutes later he returned.",
+      "suggested_fix": "Sostituire «rientrò» con «tornò» per indicare che l’agente ritornò dall’autore.",
+      "translation_quote": "Tornò alla sua auto e, diversi minuti dopo, rientrò."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

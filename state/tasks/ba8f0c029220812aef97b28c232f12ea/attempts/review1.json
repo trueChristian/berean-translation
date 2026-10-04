@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, second stanza\",\"severity\":\"major\",\"source_quote\":\"Or when asked of something I do not know / That I think to stop and pray?\",\"suggested_fix\":\"Replace the corresponding Bengali lines with: “অথবা এমন কিছু সম্পর্কে জিজ্ঞেস করা হলে যা আমি জানি না, / তখনই কি থেমে প্রার্থনা করার কথা ভাবি?”\",\"translation_quote\":\"অথবা এমন কিছু জানতে চাইলে যা আমি জানি না, / তখনই কি থেমে প্রার্থনা করার কথা ভাবি?\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 724,
+    "content_evidence_truncated": false,
+    "content_sha256": "a27e1ac74561109eb3fd34576487a9743f0544fdb905aefbd8af78647fd9161a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 651,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2031,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2685
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

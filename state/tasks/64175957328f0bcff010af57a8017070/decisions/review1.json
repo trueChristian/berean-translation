@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Benché queste parole antiche…”",
+      "severity": "minor",
+      "source_quote": "these shortsighted ancient words",
+      "suggested_fix": "Sostituire «antiche e miope» con «antiche e miopi».",
+      "translation_quote": "queste parole antiche e miope"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

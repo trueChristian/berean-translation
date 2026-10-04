@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph quoting 1 Timothy 4:1–2",
+      "severity": "major",
+      "source_quote": "having their conscience seared with a hot iron;",
+      "suggested_fix": "Replace «موسومة ضمائرهم» with «قد كُويت ضمائرهم بمكواة محماة» to preserve the source’s image of a conscience seared with a hot iron.",
+      "translation_quote": "<strong>موسومة ضمائرهم</strong>"
+    },
+    {
+      "location": "HTML, paragraph quoting Acts 5:32–33",
+      "severity": "major",
+      "source_quote": "When they heard that, they were cut to the heart",
+      "suggested_fix": "Replace «فلما سمعوا ذلك حنقوا» with «فلما سمعوا ذلك نُخِسوا في قلوبهم»; the source describes conviction, not anger.",
+      "translation_quote": "<strong>فلما سمعوا ذلك حنقوا</strong>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

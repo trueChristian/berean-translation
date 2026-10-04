@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "afe65199-4fd2-4c32-93fa-7edb24029039",
+    "response_id": "chatcmpl-EV20PkaCKMwr1QNvkhNWOtd7KYMCl",
+    "usage": {
+      "completion_tokens": 196,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6645,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6642,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6841
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "অনুচ্ছেদ: ‘এ ধরনের তথ্য পৃথিবী যে পথে এগোচ্ছে…’",
+        "severity": "major",
+        "source_quote": "daycare centers for children of working parents would go out of business",
+        "suggested_fix": "<p>…কর্মজীবী বাবা-মায়ের সন্তানদের জন্য থাকা শিশু পরিচর্যাকেন্দ্রগুলো বন্ধ হয়ে যাবে…</p>",
+        "translation_quote": "কর্মজীবী বাবা-মায়ের সন্তানদের শিশু পরিচর্যাকেন্দ্রগুলো ব্যবসা বন্ধ করে দেবে"
+      },
+      {
+        "location": "অনুচ্ছেদ: ‘দুই ভিন্ন পরিচারকের বলা…’",
+        "severity": "major",
+        "source_quote": "two different ministers",
+        "suggested_fix": "‘দুই ভিন্ন মন্ত্রীর বলা কয়েকটি কথা’ লিখুন।",
+        "translation_quote": "দুই ভিন্ন পরিচারকের বলা কয়েকটি কথা"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

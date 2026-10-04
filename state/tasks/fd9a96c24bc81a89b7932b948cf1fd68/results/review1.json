@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0661edbe-318c-403c-bb60-1ed3f8234564",
+    "response_id": "chatcmpl-EV21LAPgUugkWZCRcqCI4rQWP7yCg",
+    "usage": {
+      "completion_tokens": 562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 441,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7756,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7753,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8318
+    }
+  },
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, terceiro parágrafo, citação de 1Pe 3:15",
+        "severity": "major",
+        "source_quote": "But sanctify the Lord God in your hearts",
+        "suggested_fix": "Substitua a cláusula inicial por «Mas santifiquem o Senhor Deus em seu coração» para preservar a referência impressa a «the Lord God», sem trocá-la por Cristo.",
+        "translation_quote": "Mas santifiquem Cristo como Senhor em seu coração"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

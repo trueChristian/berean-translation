@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e85b7708-c707-48bd-a638-0fdfd1059b30",
+    "response_id": "chatcmpl-EV20qrVckgkUpStxcjVkidNy92z65",
+    "usage": {
+      "completion_tokens": 688,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5666,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6357
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Source HTML, paragraph beginning “For God hath not given us…”; translated quotation",
+        "severity": "major",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind”",
+        "suggested_fix": "Replace “کیونکہ خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور تربیت کی روح دی ہے۔” with “کیونکہ خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور تندرست ذہن کی روح دی ہے۔” This keeps the quotation aligned with the article’s repeated “sound mind” theme.",
+        "translation_quote": "کیونکہ خدا نے ہمیں خوف کی روح نہیں بلکہ قدرت، محبت اور تربیت کی روح دی ہے۔"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

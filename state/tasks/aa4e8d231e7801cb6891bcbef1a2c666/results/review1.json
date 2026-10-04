@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "077013a5-0df1-4fb6-9e74-8717b8b892a0",
+    "response_id": "chatcmpl-EV20tcfJX41qqSMKq0hf2o6sXkZCa",
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 687,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2507,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2504,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3275
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first poem stanza, line 1",
+        "severity": "major",
+        "source_quote": "The early church in olden days",
+        "suggested_fix": "De vroege kerk in vroeger dagen",
+        "translation_quote": "De kerk in vroeger dagen"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

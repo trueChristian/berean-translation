@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “اس طرح کی معلومات دنیا کے موجودہ رجحان کے خلاف جاتی ہیں”\",\"severity\":\"major\",\"source_quote\":\"“daycare centers for children of working parents would go out of business”\",\"suggested_fix\":\"Replace “کام کرنے والے والدین کے بچوں کے نگہداشت مراکز بند ہو جائیں گے” with “کام کرنے والے والدین کے بچوں کے نگہداشت مراکز کاروبار بند کرنے پر مجبور ہو جائیں گے” to preserve the claim that these centers would go out of business.\",\"translation_quote\":\"“کام کرنے والے والدین کے بچوں کے نگہداشت مراکز بند ہو جائیں گے”\"},{\"location\":\"HTML, paragraph beginning “اس مضمون میں ریاستہائے متحدہ بھر کے والدین کے حوالے دیے گئے”\",\"severity\":\"minor\",\"source_quote\":\"“a happiness spike”\",\"suggested_fix\":\"Replace both instances of “خوشی میں اچانک اضافے” with “خوشی میں اچانک آنے والے اضافے” or another idiomatic Urdu equivalent that clearly means a spike in happiness.\",\"translation_quote\":\"“خوشی میں اچانک اضافے”\"},{\"location\":\"HTML, paragraph beginning “انہوں نے بتایا کہ اب بچے بچے بن سکتے ہیں”\",\"severity\":\"minor\",\"source_quote\":\"“They had time to use their imagination and creativity.”\",\"suggested_fix\":\"Replace “انہیں اپنی تخیل اور تخلیقی صلاحیت استعمال کرنے کا وقت ملتا ہے” with “انہیں اپنی تخیل اور تخلیقی صلاحیتیں استعمال کرنے کا وقت ملتا ہے” for correct Urdu agreement and phrasing.\",\"translation_quote\":\"“انہیں اپنی تخیل اور تخلیقی صلاحیت استعمال کرنے کا وقت ملتا ہے”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 1993,
+    "content_evidence_truncated": false,
+    "content_sha256": "fae496b265fc4f6867d372489ffc704a417dad50b5bd039c03a949077c24f040",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 371,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6551,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6548,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6922
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

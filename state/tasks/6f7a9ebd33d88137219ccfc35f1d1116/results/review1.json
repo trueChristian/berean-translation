@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2f1575ea-9ce6-4f52-abf7-d3d1b7dbd09c",
+    "response_id": "chatcmpl-EV20PfEYblSclL6ifFz78tpwnZVJX",
+    "usage": {
+      "completion_tokens": 530,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8936,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8933,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9466
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article.html, paragraph 7",
+        "severity": "major",
+        "source_quote": "“We know that God can eliminate any of these calamities and will protect us from them all IF He so wills.”",
+        "suggested_fix": "Replace “ঈশ্বর চাইলে এসব বিপর্যয়ের যেকোনোটি দূর করতে পারেন এবং সেগুলোর সবকটি থেকে আমাদের রক্ষা করবেন” with “ঈশ্বর চাইলে এসব বিপর্যয়ের যেকোনোটি দূর করতে পারেন এবং সেগুলোর সবকটি থেকে আমাদের রক্ষা করতে পারেন” to preserve the source’s conditional claim about God’s ability and will.",
+        "translation_quote": "“ঈশ্বর চাইলে এসব বিপর্যয়ের যেকোনোটি দূর করতে পারেন এবং সেগুলোর সবকটি থেকে আমাদের রক্ষা করবেন।”"
+      },
+      {
+        "location": "article.html, paragraph 12",
+        "severity": "major",
+        "source_quote": "“But let this not once be named among us.”",
+        "suggested_fix": "Replace “কিন্তু আমাদের মধ্যে যেন এমন ঘটনা কখনো আলোচিত না হয়” with “কিন্তু আমাদের মধ্যে যেন এমন ঘটনা কখনো না ঘটে” to retain the source’s admonition that domestic violence must not be found among them.",
+        "translation_quote": "“কিন্তু আমাদের মধ্যে যেন এমন ঘটনা কখনো আলোচিত না হয়।”"
+      },
+      {
+        "location": "article.html, paragraph 15",
+        "severity": "major",
+        "source_quote": "“‘to not forsake the assembling of ourselves together’”",
+        "suggested_fix": "Replace “আমাদের একত্রিত হওয়া ত্যাগ না করতে” with “আমাদের একত্রে সমবেত হওয়া পরিত্যাগ না করতে” to preserve the reference to forsaking the act of assembling, rather than a general gathering.",
+        "translation_quote": "“আমাদের একত্রিত হওয়া ত্যাগ না করতে”"
+      },
+      {
+        "location": "article.html, paragraph 16",
+        "severity": "major",
+        "source_quote": "“that we may lead a quiet and peaceable life in all godliness and honesty.”",
+        "suggested_fix": "Replace “যেন আমরা পূর্ণ ভক্তি ও মর্যাদায় শান্ত ও নির্বিঘ্ন জীবন যাপন করতে পারি” with “যেন আমরা সব ধার্মিকতা ও সততার সঙ্গে শান্ত ও শান্তিপূর্ণ জীবন যাপন করতে পারি” to retain the source’s stated manner of life.",
+        "translation_quote": "“যেন আমরা পূর্ণ ভক্তি ও মর্যাদায় শান্ত ও নির্বিঘ্ন জীবন যাপন করতে পারি”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

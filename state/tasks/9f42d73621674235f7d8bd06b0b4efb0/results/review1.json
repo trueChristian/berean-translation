@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7ddaab14-d29e-4092-9da1-54a91c6a64b3",
+    "response_id": "chatcmpl-EV20QQ6xcHbuKt8EdoEnTCz7q1QpH",
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1934,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1931,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2693
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 3",
+        "severity": "major",
+        "source_quote": "Decisions he made; he would never forget.",
+        "suggested_fix": "Он никогда не забудет принятых им решений.",
+        "translation_quote": "Он помнил о решениях, что принял тогда."
+      },
+      {
+        "location": "Poem, line 22",
+        "severity": "major",
+        "source_quote": "He knew with no doubt that he was made whole.",
+        "suggested_fix": "И он не сомневался: теперь он был восстановлен.",
+        "translation_quote": "И он не сомневался: теперь он исцелён."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

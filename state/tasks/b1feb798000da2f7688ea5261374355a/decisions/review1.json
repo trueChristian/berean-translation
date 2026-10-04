@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Absatz „…Gehorsam entwickeln“",
+      "severity": "major",
+      "source_quote": "“A child who learns to live with a surrendered will to their parents will one day much more easily walk in unquestioning obedience to God.”",
+      "suggested_fix": "Ersetze „Ein Kind, das lernt, sich seinen Eltern mit einem untergeordneten Willen zu fügen, wird eines Tages viel leichter Gott ohne Widerspruch gehorchen.“ durch „Ein Kind, das lernt, seinen Willen den Eltern unterzuordnen, wird eines Tages viel leichter Gott in fraglosem Gehorsam folgen.“",
+      "translation_quote": "„Ein Kind, das lernt, sich seinen Eltern mit einem untergeordneten Willen zu fügen, wird eines Tages viel leichter Gott ohne Widerspruch gehorchen.“"
+    },
+    {
+      "location": "Absatz „…Ein Gefühl des eigenen Wertes“",
+      "severity": "major",
+      "source_quote": "“Only through understanding God’s unconditional love and acceptance can this be resolved.”",
+      "suggested_fix": "Ersetze „Das lässt sich nur durch das Verständnis von Gottes bedingungsloser Liebe und Annahme lösen.“ durch „Dies kann nur gelöst werden, indem man Gottes bedingungslose Liebe und Annahme versteht.“",
+      "translation_quote": "„Das lässt sich nur durch das Verständnis von Gottes bedingungsloser Liebe und Annahme lösen.“"
+    },
+    {
+      "location": "Absatz „…Gespräche über das Innerste“",
+      "severity": "major",
+      "source_quote": "“Relationships are built with open-hearted communication.”",
+      "suggested_fix": "Ersetze „Beziehungen entstehen durch offenen Austausch von Herzen.“ durch „Beziehungen entstehen durch offenen und aufrichtigen Austausch.“",
+      "translation_quote": "„Beziehungen entstehen durch offenen Austausch von Herzen.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

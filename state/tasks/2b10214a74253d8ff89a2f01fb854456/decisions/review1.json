@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning «Στο τελευταίο μέρος του μηνύματός του»",
+      "severity": "major",
+      "source_quote": "“anti-abortion/anti-gay agendas”",
+      "suggested_fix": "Replace «ατζέντες κατά των αμβλώσεων και των ομοφυλοφίλων» with «ατζέντες κατά των αμβλώσεων και υπέρ της αντίθεσης στα δικαιώματα των ομοφυλοφίλων» (or another phrasing that clearly refers to anti-gay political agendas, not opposition to gay people as people).",
+      "translation_quote": "«ατζέντες κατά των αμβλώσεων και των ομοφυλοφίλων»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

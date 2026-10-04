@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, line beginning “He knew with no doubt”",
+      "severity": "major",
+      "source_quote": "He knew with no doubt that he was made whole.",
+      "suggested_fix": "उसे पूरा विश्वास हो गया कि परमेश्वर ने उसे पूरी तरह बहाल कर दिया था।",
+      "translation_quote": "उसे पूरा विश्वास हो गया कि वह नया हो गया है।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

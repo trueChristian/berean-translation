@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ بـ«تسير معلومات كهذه عكس اتجاه العالم»",
+      "severity": "major",
+      "source_quote": "“daycare centers for children of working parents would go out of business”",
+      "suggested_fix": "استبدل «ستفلس دور الحضانة المخصصة لأطفال الآباء العاملين» بـ«ستخرج دور الحضانة التي ترعى أطفال الآباء العاملين من مجال الأعمال»؛ فالمصدر يقول إنها ستتوقف عن العمل، لا إنها ستفلس.",
+      "translation_quote": "«ستفلس دور الحضانة المخصصة لأطفال الآباء العاملين»"
+    },
+    {
+      "location": "الفقرة التي تبدأ بـ«تسير معلومات كهذه عكس اتجاه العالم»",
+      "severity": "major",
+      "source_quote": "“extra-curricular and after school activities for all the children in any given community would no longer be needed”",
+      "suggested_fix": "استبدل «لن تعود الأنشطة اللامنهجية وأنشطة ما بعد المدرسة ضرورية للأطفال في أي مجتمع» بـ«لن تعود الأنشطة اللامنهجية وأنشطة ما بعد المدرسة ضرورية لجميع الأطفال في أي مجتمع».",
+      "translation_quote": "«لن تعود الأنشطة اللامنهجية وأنشطة ما بعد المدرسة ضرورية للأطفال في أي مجتمع»"
+    },
+    {
+      "location": "الفقرة التي تبدأ بـ«على الرغم من مخاوفهم وتوجسهم»",
+      "severity": "major",
+      "source_quote": "“one of the most well-supported explanations for this rise of mental health disorders”",
+      "suggested_fix": "استبدل «أحد أكثر التفسيرات المدعومة جيدًا لزيادة اضطرابات الصحة النفسية» بـ«أحد التفسيرات التي تحظى بأقوى الأدلة لزيادة اضطرابات الصحة النفسية».",
+      "translation_quote": "«أحد أكثر التفسيرات المدعومة جيدًا لزيادة اضطرابات الصحة النفسية»"
+    },
+    {
+      "location": "الفقرة التي تبدأ بـ«وبحسب المقال الإخباري»",
+      "severity": "major",
+      "source_quote": "“emotional struggles and mental disorders started to correct themselves”",
+      "suggested_fix": "استبدل «بدأت تنحسر من تلقاء نفسها» بـ«بدأت تتحسن من تلقاء نفسها» للحفاظ على معنى أن المشكلات والاضطرابات بدأت تصحح مسارها.",
+      "translation_quote": "«بدأت تنحسر من تلقاء نفسها»"
+    },
+    {
+      "location": "الفقرة الختامية التي تبدأ بـ«أختتم ببعض الأفكار»",
+      "severity": "major",
+      "source_quote": "“we can be sure that this will not be the last, nor will it be the worst”",
+      "suggested_fix": "استبدل «يمكننا أن نكون على يقين بأنه لن يكون الأخير، ولن يكون الأسوأ» بـ«يمكننا أن نكون على يقين بأن هذه لن تكون آخر مرة، ولا أسوأ ما سنواجهه»؛ فالمرجع هو الموقف أو الأزمة، لا الفيروس بوصفه مذكرًا.",
+      "translation_quote": "«يمكننا أن نكون على يقين بأنه لن يكون الأخير، ولن يكون الأسوأ»"
+    },
+    {
+      "location": "العنوان",
+      "severity": "minor",
+      "source_quote": "From the Editor",
+      "suggested_fix": "يمكن إبقاء «من المحرر»؛ لا يلزم تصحيح.",
+      "translation_quote": "من المحرر"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

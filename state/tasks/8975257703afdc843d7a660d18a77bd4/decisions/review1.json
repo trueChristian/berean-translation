@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, sentence beginning “Han trengte noen svar”",
+      "severity": "minor",
+      "source_quote": "He needed some answers, to fix how things were.",
+      "suggested_fix": "Remove the comma after «svar»: «Han trengte noen svar for å rette opp tingene.»",
+      "translation_quote": "Han trengte noen svar, for å rette opp tingene."
+    },
+    {
+      "location": "HTML poem, sentence beginning “Han visste uten tvil”",
+      "severity": "minor",
+      "source_quote": "He knew with no doubt that he was made whole.",
+      "suggested_fix": "Use a more idiomatic Norwegian rendering, such as «Han visste uten tvil at han var blitt hel igjen.»",
+      "translation_quote": "Han visste uten tvil at han var blitt gjort hel."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "89c1e421-9610-4e7c-896e-c7b80809395a",
+    "response_id": "chatcmpl-EV218hFBEDICxmULMSdfLBIQUQuMC",
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 493,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1718,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2306
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 2",
+        "severity": "minor",
+        "source_quote": "Joy is a blessing for us believers below.",
+        "suggested_fix": "हम पृथ्वी पर रहने वाले विश्वासियों के लिए आनंद एक आशीष है।",
+        "translation_quote": "आनंद हम विश्वासियों के लिए एक आशीष है।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

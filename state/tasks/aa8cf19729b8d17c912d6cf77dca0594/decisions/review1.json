@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 7",
+      "severity": "major",
+      "source_quote": "We need to be okay with suffering, we need to embrace it;",
+      "suggested_fix": "Replace “Tun need” (current wording) with “Tunahitaji kuridhika na mateso; tunahitaji kuyakumbatia;”",
+      "translation_quote": "Tun need to accept suffering; tunahitaji kuyakumbatia;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

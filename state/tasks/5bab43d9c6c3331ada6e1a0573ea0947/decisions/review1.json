@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poesia, verso 6",
+      "severity": "major",
+      "source_quote": "It only leaves at the presence of sin.",
+      "suggested_fix": "Se ne va solo in presenza del peccato.",
+      "translation_quote": "Se ne va solo in presenza del peccato."
+    },
+    {
+      "location": "source.html, poesia, verso 14",
+      "severity": "major",
+      "source_quote": "It’s for the redeemed, and the life that he lives.",
+      "suggested_fix": "È per i redenti e per la vita che egli vive.",
+      "translation_quote": "È per i redenti e per la vita che egli vive."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem paragraph; line beginning “The love of God flooded…”",
+      "severity": "minor",
+      "source_quote": "The love of God flooded his needy soul,",
+      "suggested_fix": "Guds kärlek flödade in i hans själ, som så väl behövde den,",
+      "translation_quote": "Guds kärlek fyllde hans själ, så full av behov,"
+    },
+    {
+      "location": "HTML, poem paragraph; line beginning “It all seemed so clear!”",
+      "severity": "minor",
+      "source_quote": "It all seemed so clear! He wept as he broke.",
+      "suggested_fix": "Allt blev så klart! Han bröt ihop i gråt.",
+      "translation_quote": "Allt blev så klart! Han grät när han brast ut."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

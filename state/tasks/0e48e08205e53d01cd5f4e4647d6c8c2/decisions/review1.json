@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 4, kutipan Lukas 21:26 (diulang dalam paragraf 10)",
+      "severity": "major",
+      "source_quote": "“Men’s hearts failing them for fear, and for looking after those things which are coming on the earth…”",
+      "suggested_fix": "Ganti kedua kutipan dengan terjemahan yang menyampaikan bahwa hati orang-orang menjadi tawar karena ketakutan dan karena menantikan hal-hal yang akan menimpa bumi. Misalnya: <em>Hati orang-orang akan menjadi tawar karena ketakutan dan karena menantikan segala sesuatu yang akan menimpa bumi… –Luk 21:26.</em> Pada kutipan di paragraf 10, pertahankan elipsis dan tanda baca yang sudah ada.",
+      "translation_quote": "Paragraf 4: <em>Orang-orang akan mati ketakutan karena mengkhawatirkan segala sesuatu yang akan menimpa bumi… –Luk 21:26.</em> Paragraf 10: <em>…karena ketakutan dan karena mengkhawatirkan segala sesuatu yang akan menimpa bumi…? –Luk 21:26.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

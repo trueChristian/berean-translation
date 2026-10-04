@@ -6,9 +6,32 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "bcf512bcb3b30fc64e42c5cfb616f0d1"
+    },
+    {
+      "at": "2026-10-04T00:10:39+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "bcf512bcb3b30fc64e42c5cfb616f0d1"
     }
   ],
   "language": "heb",
   "latest_task": "bcf512bcb3b30fc64e42c5cfb616f0d1",
-  "published": null
+  "published": {
+    "html_path": "content/heb/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
+    "html_sha256": "8a709d171cf7dae8f553a78ff564fc59e1ff14ab7211afba78432246ab2a9672",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "metadata_path": "content/heb/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.json",
+    "metadata_sha256": "c66e2193bdff960079c53c71b1124471f4b9a97f11bbf25e9d5b7ee0c2cbfac7",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"he\" dir=\"rtl\" role=\"note\">\n  <p>מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: gpt-6-luna) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית. <a href=\"/en/articles/85306410-6a2d-46f1-b6db-6d3450f7f908/\" data-source-article-id=\"85306410-6a2d-46f1-b6db-6d3450f7f908\" hreflang=\"en\">המקור באנגלית</a></p>\n</aside>",
+    "published_at": "2026-10-04T00:10:39+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-6-luna",
+    "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+    "source_snapshot": "state/sources/0ca265668bf8d122955cca30e71c23cc2124156bf104fac6ba23c1e6844ba225.json",
+    "task": "bcf512bcb3b30fc64e42c5cfb616f0d1",
+    "translation_key": "52312be3ef09bf5ffdab8a70e367174f0881d5471c2718e5f3179c003a023038"
+  }
 }

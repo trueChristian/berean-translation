@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "پہلا پیراگراف",
+      "severity": "major",
+      "source_quote": "Joel had a serious problem of taking things which did not belong to him.",
+      "suggested_fix": "«جوئل کو ایسی چیزیں اٹھا لینے کا سنگین مسئلہ تھا جو اس کی نہیں تھیں۔»",
+      "translation_quote": "جوئل کو دوسروں کی چیزیں اٹھا لینے کی ایک سنگین عادت تھی۔"
+    },
+    {
+      "location": "باپ کے بارے میں ماں کا مکالمہ",
+      "severity": "major",
+      "source_quote": "Father and I have been asking God to help you with this problem of lying and stealing.",
+      "suggested_fix": "«میں اور تمہارے والد خدا سے دعا کرتے رہے ہیں کہ وہ جھوٹ بولنے اور چوری کرنے کے اس مسئلے میں تمہاری مدد کرے۔»",
+      "translation_quote": "باپ اور میں خدا سے دعا کرتے رہے ہیں کہ وہ تمہیں جھوٹ بولنے اور چوری کرنے کے اس مسئلے میں مدد دے۔"
+    },
+    {
+      "location": "جوئل کا اقرار",
+      "severity": "major",
+      "source_quote": "“I – ah – took it from Weaver’s Store,” Joel stammered.",
+      "suggested_fix": "«میں—آہ—نے اسے ویورز اسٹور سے چرایا تھا،» جوئل ہکلاتے ہوئے بولا۔",
+      "translation_quote": "“میں—آہ—اسے ویورز اسٹور سے لے آیا تھا،” جوئل ہکلاتے ہوئے بولا۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

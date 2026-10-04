@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, stanza 4",
+      "severity": "major",
+      "source_quote": "A lot of folks were burned at stake,",
+      "suggested_fix": "أُحرق كثيرون وهم مربوطون إلى أوتاد،",
+      "translation_quote": "أُحرق كثيرون على الخوازيق،"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

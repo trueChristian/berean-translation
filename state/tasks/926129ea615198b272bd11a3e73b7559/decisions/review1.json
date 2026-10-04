@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Holding the Hearts of our Children",
+      "suggested_fix": "Remplacer « Gagner le cœur de nos enfants » par « Garder le cœur de nos enfants », qui rend mieux l’idée de maintenir et préserver le lien exprimée par « holding » dans le titre.",
+      "translation_quote": "Gagner le cœur de nos enfants"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

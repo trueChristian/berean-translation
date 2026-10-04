@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Apostlenes gjerninger 5:32–33",
+      "severity": "major",
+      "source_quote": "“When they heard that, they were cut to the heart”",
+      "suggested_fix": "Endre «ble de rasende» til «ble de stukket i hjertet» eller «ble de dypt berørt» for å bevare meningen om overbevisning, ikke raseri. Behold den eksisterende HTML-strukturen.",
+      "translation_quote": "«Da de hørte dette, ble de rasende»"
+    },
+    {
+      "location": "Skriftstedshenvisninger gjennom artikkelen",
+      "severity": "major",
+      "source_quote": "Examples: “–Joh 16:7-8”; “–1Ti 4:1-2”; “–Act 5:25”; “–Psa 51:17.”",
+      "suggested_fix": "Bruk vanlige norske boknavn i henvisningene, og behold tall, spenn og plassering uendret. For eksempel: «Joh» → «Johannes», «1Ti» → «1. Timoteusbrev», «Act» → «Apostlenes gjerninger», «2Sa» → «2. Samuelsbok», «Pro» → «Ordspråkene» og «Psa» → «Salme».",
+      "translation_quote": "Henvisningene bruker fortsatt engelske forkortelser, blant annet «Joh 16:7-8», «1Ti 4:1-2», «Act 5:25» og «Psa 51:17»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ede80c6a-c830-491b-9965-7901191dba66",
+    "response_id": "chatcmpl-EV20vJjBhtT7lzTOjs0g0rX2gc5nx",
+    "usage": {
+      "completion_tokens": 566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 450,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1979,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1976,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2545
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Puisi, bait 5",
+        "severity": "minor",
+        "source_quote": "Perhaps more desperately;",
+        "suggested_fix": "Mungkin bahkan lebih mendesak lagi;",
+        "translation_quote": "Mungkin bahkan lebih besar lagi;"
+      },
+      {
+        "location": "Puisi, bait 8",
+        "severity": "minor",
+        "source_quote": "He’ll be at your side",
+        "suggested_fix": "Dia akan berada di sisimu",
+        "translation_quote": "Dia akan di sisimu"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

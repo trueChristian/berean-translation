@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d0c68c34-99dd-4ab0-87ae-620b4668f6bd",
+    "response_id": "chatcmpl-EV20iBu70RQL2fdRgbuFn4H9eNaDd",
+    "usage": {
+      "completion_tokens": 138,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8210,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8207,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8348
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Cuerpo, Hechos 5:32-33",
+        "severity": "major",
+        "source_quote": "“When they heard that, they were cut to the heart”",
+        "suggested_fix": "Sustituir «se enfurecieron» por «se sintieron profundamente heridos» o «se sintieron compungidos», manteniendo la idea de que fueron tocados en el corazón; por ejemplo: «Al oír esto, se sintieron profundamente heridos y querían matarlos».",
+        "translation_quote": "«Al oír esto, se enfurecieron»"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Puisi, bait 5",
+      "severity": "minor",
+      "source_quote": "Perhaps more desperately;",
+      "suggested_fix": "Mungkin bahkan lebih mendesak lagi;",
+      "translation_quote": "Mungkin bahkan lebih besar lagi;"
+    },
+    {
+      "location": "Puisi, bait 8",
+      "severity": "minor",
+      "source_quote": "He’ll be at your side",
+      "suggested_fix": "Dia akan berada di sisimu",
+      "translation_quote": "Dia akan di sisimu"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 6618
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 980,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 835,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6352,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6349,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7332
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Νους σωφρονισμού”",
+      "severity": "minor",
+      "source_quote": "“A Sound Mind is healthy and in good condition; competent and sensible.”",
+      "suggested_fix": "Για πιο φυσική γραμματική διατύπωση: «Ο σωστός και σώφρων νους είναι υγιής και λειτουργεί καλά· είναι ικανός και συνετός.»",
+      "translation_quote": "«Νους σωφρονισμού σημαίνει υγιής και σε καλή κατάσταση· ικανός και συνετός.»"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:38+00:00",
   "id": "7ad0791d591826d869f2b136c26caab5",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ell",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"

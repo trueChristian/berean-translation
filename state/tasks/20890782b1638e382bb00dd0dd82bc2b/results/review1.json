@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "886c111a-1ba5-4b94-a138-d7790e3b1ce4",
+    "response_id": "chatcmpl-EV20S0fHNKsh9j4KbJleRecuCp7Pb",
+    "usage": {
+      "completion_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 602,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5664,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5661,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6562
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Even nature shows us…”",
+        "severity": "minor",
+        "source_quote": "“A caterpillar must give up its entire identity”",
+        "suggested_fix": "Change “अपना पूरा रूप छोड़कर” to “अपनी पूरी पहचान छोड़कर” to convey the source’s metaphor of giving up its entire identity.",
+        "translation_quote": "“एक इल्ली को अपना पूरा रूप छोड़कर”"
+      },
+      {
+        "location": "Article, paragraph beginning “So it is with you and me.”",
+        "severity": "minor",
+        "source_quote": "“our Loving Father preparing our souls for heaven”",
+        "suggested_fix": "Replace “हमारा प्रेमी पिता” with “हमसे प्रेम करने वाला पिता” to avoid the possible Hindi reading of “प्रेमी” as “lover.”",
+        "translation_quote": "“हमारा प्रेमी पिता हमारी आत्माओं को स्वर्ग के लिए तैयार कर रहा है”"
+      },
+      {
+        "location": "Article, paragraph beginning “Radically different then the lawless slogan…”",
+        "severity": "minor",
+        "source_quote": "“the lawless slogan of the 1990s”",
+        "suggested_fix": "Replace “अराजक नारे” with “नियमहीन नारे” to convey “lawless” more directly in this context.",
+        "translation_quote": "“1990 के दशक के अराजक नारे”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

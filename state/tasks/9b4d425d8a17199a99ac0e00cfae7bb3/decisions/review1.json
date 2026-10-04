@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “It is sad that today…”; quoted passage from Acts 23:1–24:16",
+      "severity": "major",
+      "source_quote": "…to have always a conscience void of offence toward God, and toward men",
+      "suggested_fix": "Replace «اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھنے کی کوشش کرتے ہیں» with «اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھتے ہیں» to preserve the source’s assertion rather than turn it into an effort or aspiration.",
+      "translation_quote": "…اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھنے کی کوشش کرتے ہیں۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

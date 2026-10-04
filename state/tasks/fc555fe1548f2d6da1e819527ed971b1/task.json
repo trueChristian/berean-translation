@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 8679
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 881,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 430,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8538,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8535,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9419
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Värre än ett dåligt samvete…”",
+      "severity": "major",
+      "source_quote": "“This occurs when someone has ignored God’s calling to repent and turn from their wrong for so long that He gives them over to their sin. He allows them to think that what they are doing is okay.”",
+      "suggested_fix": "Ändra till exempelvis: “Detta sker när någon så länge har ignorerat Guds kallelse att omvända sig och vända sig bort från det onda att Gud överlämnar personen åt sin synd. Gud låter personen tro att det han eller hon gör är okej.”",
+      "translation_quote": "“Detta sker när någon så länge har ignorerat Guds kallelse att omvända sig och vända sig bort från det onda att han överlämnar personen åt hennes synd. Han låter henne tro att det hon gör är okej.”"
+    },
+    {
+      "location": "Citatet från 2 Sam 12:4-7",
+      "severity": "major",
+      "source_quote": "“the man that hath done this thing shall surely die”",
+      "suggested_fix": "Ändra “den man som har gjort detta förtjänar döden” till “den man som har gjort detta ska sannerligen dö” för att återge utsagan om vad som ska ske, inte vad mannen förtjänar.",
+      "translation_quote": "“den man som har gjort detta förtjänar döden!”"
+    },
+    {
+      "location": "Citatet från Apg 5:32-33",
+      "severity": "major",
+      "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them”",
+      "suggested_fix": "Återge både reaktionen och det efterföljande beslutet, till exempel: “När de hörde detta blev de djupt berörda [eller: träffade i hjärtat] och rådgjorde om att döda dem.”",
+      "translation_quote": "“När de hörde detta blev de ursinniga och ville döda dem”"
+    }
+  ],
   "id": "fc555fe1548f2d6da1e819527ed971b1",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swe",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

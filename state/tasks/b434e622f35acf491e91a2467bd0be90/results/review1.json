@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "392a69f5-0ba3-481c-965f-d4c32c28d3f8",
+    "response_id": "chatcmpl-EV21Ca0QjCCMTnuoyC0P8G43Vneph",
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3832,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4563
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Joel kände sig eländig” and paragraph beginning “Nästa dag kallade mamma till sig Joel”",
+        "severity": "minor",
+        "source_quote": "“Aunt Eva”",
+        "suggested_fix": "Use “tant Eva” in both places to preserve the unspecified aunt relationship without implying that Eva is the mother’s sister.",
+        "translation_quote": "“moster Eva”"
+      }
+    ],
+    "passed": true,
+    "score": 99
+  }
+}

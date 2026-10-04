@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem, line 4",
+      "severity": "major",
+      "source_quote": "It comes from God, given to the meek.",
+      "suggested_fix": "Что Бог дарует смиренным.",
+      "translation_quote": "Что Бог дарует смиренным в Своей благодати."
+    },
+    {
+      "location": "source.html, poem, line 10",
+      "severity": "minor",
+      "source_quote": "But rather gives courage and keeps us in grace.",
+      "suggested_fix": "Но даст нам отвагу и сохранит нас в благодати.",
+      "translation_quote": "Но даст нам отвагу и поможет в благодати идти."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

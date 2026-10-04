@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "56ca2537-7a13-40a7-b312-d966d69d7573",
+    "response_id": "chatcmpl-EV20QfWxmyKM4W5cC5gxmvdl5rqJM",
+    "usage": {
+      "completion_tokens": 641,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8760,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8757,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9401
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, абзац «Физический контакт»",
+        "severity": "major",
+        "source_quote": "Jesus, the representation of our Heavenly Father as detailed in the Scriptures",
+        "suggested_fix": "Заменить «явление нашего Небесного Отца» на «представителя нашего Небесного Отца»; сохранить остальную структуру и текст абзаца.",
+        "translation_quote": "Иисуса, явление нашего Небесного Отца, описанное в Писании"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

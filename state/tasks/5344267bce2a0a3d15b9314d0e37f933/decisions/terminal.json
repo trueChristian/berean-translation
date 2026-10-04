@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, sixth stanza",
+      "severity": "minor",
+      "source_quote": "And on Him your troubles lay.",
+      "suggested_fix": "اور اپنی پریشانیاں اس کے سپرد کرو۔",
+      "translation_quote": "اور اپنی پریشانیاں اس کے سپرد کرو گے۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

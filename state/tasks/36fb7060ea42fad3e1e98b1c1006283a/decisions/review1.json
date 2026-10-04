@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first poem stanza",
+      "severity": "major",
+      "source_quote": "The early church in olden days",
+      "suggested_fix": "Ändra till ”Den tidiga kyrkan i forna dar” för att återge ”early church” utan att kalla den den första kyrkan.",
+      "translation_quote": "Den första kyrkan i forna dar"
+    },
+    {
+      "location": "HTML, eighth poem stanza",
+      "severity": "major",
+      "source_quote": "Since faith is good, why don’t we share",
+      "suggested_fix": "Ändra ”Om tron är god” till ”Eftersom tron är god” så att den kausala kopplingen i originalet bevaras.",
+      "translation_quote": "Om tron är god, varför delar vi den då inte"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

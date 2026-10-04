@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1adae96f-6388-4382-b3b7-025bc13ac8df",
+    "response_id": "chatcmpl-EV20ZYMbIhC5zkw9IWas30SF9l4wJ",
+    "usage": {
+      "completion_tokens": 632,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 442,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2784,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2781,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3416
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem stanza 6",
+        "severity": "major",
+        "source_quote": "“Be an example to the world; / You need not tell the way.”",
+        "suggested_fix": "Change «δεν χρειάζεται να δείχνεις τον δρόμο» to «δεν χρειάζεται να λες ποιος είναι ο δρόμος» to preserve the contrast between being an example and telling others the way.",
+        "translation_quote": "«Να είσαι παράδειγμα για τον κόσμο· / δεν χρειάζεται να δείχνεις τον δρόμο»"
+      },
+      {
+        "location": "Title",
+        "severity": "minor",
+        "source_quote": "The Call to Labor",
+        "suggested_fix": "Consider «Το κάλεσμα να εργαστούμε» to convey the call to labor more naturally and clearly in contemporary Greek.",
+        "translation_quote": "Το κάλεσμα για έργο"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

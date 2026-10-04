@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Primer párrafo\",\"severity\":\"minor\",\"source_quote\":\"Joel had a serious problem of taking things which did not belong to him.\",\"suggested_fix\":\"Cambiar «tenía un grave problema: tomaba cosas» por «tenía la mala costumbre de tomar cosas» para evitar sugerir que el problema consistía en una dificultad involuntaria.\",\"translation_quote\":\"Joel tenía un grave problema: tomaba cosas que no le pertenecían.\"},{\"location\":\"Párrafo sobre el regreso a casa\",\"severity\":\"minor\",\"source_quote\":\"Mother always seemed to notice when something was wrong.\",\"suggested_fix\":\"Cambiar «A su madre siempre parecía darse cuenta» por «Su madre siempre parecía darse cuenta».\",\"translation_quote\":\"A su madre siempre parecía darse cuenta cuando algo andaba mal.\"},{\"location\":\"Párrafo sobre la admisión de Joel\",\"severity\":\"minor\",\"source_quote\":\"I am sorry I lied about it too.\",\"suggested_fix\":\"Cambiar «yo también siento haber mentido» por «también lamento haber mentido sobre eso», que conserva explícitamente que mintió acerca del origen de la navaja.\",\"translation_quote\":\"Sí, lo sé, y yo… yo también siento haber mentido.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1194,
+    "content_evidence_truncated": false,
+    "content_sha256": "85dffc7a1c7278b8351ef5aaba1961cd66829fa2e508b6d263a9d4632d31bba5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 272,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3794,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3791,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4066
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

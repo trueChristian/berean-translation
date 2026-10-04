@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf tentang hati nurani yang mengabaikan panggilan untuk bertobat",
+      "severity": "major",
+      "source_quote": "“having their conscience seared with a hot iron” and “a seared conscience”",
+      "suggested_fix": "Ganti “hati nurani mereka telah diselar dengan besi panas” dengan “hati nurani mereka telah hangus seperti diselar dengan besi panas”, dan ganti “hati nurani yang telah diselar” dengan “hati nurani yang telah hangus”. “Diselar” berarti diselaraskan, bukan dibakar atau dibuat mati rasa.",
+      "translation_quote": "“hati nurani mereka telah diselar dengan besi panas” and “hati nurani yang telah diselar”"
+    },
+    {
+      "location": "Kalimat penutup sebelum kutipan Mazmur 51:17",
+      "severity": "major",
+      "source_quote": "“a clear heaven is only a prayer away”",
+      "suggested_fix": "Ganti “langit yang cerah hanya sejauh satu doa” dengan ungkapan yang menyampaikan makna rohaninya, misalnya “hubungan yang pulih dengan Allah hanya sejauh satu doa”.",
+      "translation_quote": "“langit yang cerah hanya sejauh satu doa”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

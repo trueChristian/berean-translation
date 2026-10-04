@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning « Un jour, Maman… »",
+      "severity": "minor",
+      "source_quote": "while Mother was fitting shoes on Nathan",
+      "suggested_fix": "Remplacer « pendant que Maman essayait des chaussures à Nathan » par « pendant que Maman faisait essayer des chaussures à Nathan » : la formulation actuelle est maladroite en français.",
+      "translation_quote": "pendant que Maman essayait des chaussures à Nathan"
+    },
+    {
+      "location": "HTML paragraph beginning « Plusieurs semaines passèrent »",
+      "severity": "minor",
+      "source_quote": "where Joel and Mother were doing the supper dishes",
+      "suggested_fix": "Remplacer « où Joel et Maman faisaient la vaisselle après le repas » par « où Joel et Maman faisaient la vaisselle du souper » (ou « du dîner », selon la variété de français visée), afin de conserver l’idée du repas du soir.",
+      "translation_quote": "où Joel et Maman faisaient la vaisselle après le repas"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

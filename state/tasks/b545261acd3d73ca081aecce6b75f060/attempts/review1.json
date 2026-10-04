@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem paragraph; line beginning “The love of God flooded…”\",\"severity\":\"minor\",\"source_quote\":\"The love of God flooded his needy soul,\",\"suggested_fix\":\"Guds kärlek flödade in i hans själ, som så väl behövde den,\",\"translation_quote\":\"Guds kärlek fyllde hans själ, så full av behov,\"},{\"location\":\"HTML, poem paragraph; line beginning “It all seemed so clear!”\",\"severity\":\"minor\",\"source_quote\":\"It all seemed so clear! He wept as he broke.\",\"suggested_fix\":\"Allt blev så klart! Han bröt ihop i gråt.\",\"translation_quote\":\"Allt blev så klart! Han grät när han brast ut.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 655,
+    "content_evidence_truncated": false,
+    "content_sha256": "e195b09a44ceaf5de07f6620578d5d75f64e8df2e05bc6664405f8435f26d591",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 665,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1939,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2792
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

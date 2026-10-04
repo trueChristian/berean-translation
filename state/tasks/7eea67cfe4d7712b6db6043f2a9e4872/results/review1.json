@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "38326672-2346-48e0-8fda-3d846692d6f4",
+    "response_id": "chatcmpl-EV20QS3DZMsPZluo12YMVyFftJRDV",
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5509,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6129
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 2",
+        "severity": "major",
+        "source_quote": "Sometimes fear is irrational and can’t ask neatly expressed questions.",
+        "suggested_fix": "Wakati mwingine hofu haina mantiki na haiwezi kuuliza maswali yaliyotamkwa kwa uwazi.",
+        "translation_quote": "Wakati mwingine hofu haina mantiki na haiwezi kuuliza maswali yaliyopangwa vizuri."
+      },
+      {
+        "location": "Article, paragraph 7",
+        "severity": "major",
+        "source_quote": "The precious face of a newborn baby is seen only after the pain of childbirth.",
+        "suggested_fix": "Uso wa thamani wa mtoto mchanga huonekana tu baada ya uchungu wa kujifungua.",
+        "translation_quote": "Uso wa thamani wa mtoto mchanga huonekana tu baada ya uchungu wa kujifungua."
+      },
+      {
+        "location": "Article, paragraph 9",
+        "severity": "major",
+        "source_quote": "Just break, give in to the fire, the damp dark earth, the confining chrysalis, and the pain.",
+        "suggested_fix": "Vunjikeni tu; jisalimisheni kwa moto, udongo wenye unyevunyevu na giza, kifuko kinachobana, na maumivu.",
+        "translation_quote": "Vunjikeni tu, jisalimisheni kwa moto, udongo wenye unyevunyevu na giza, kifuko kinachobana, na maumivu."
+      },
+      {
+        "location": "Article, paragraph 10",
+        "severity": "major",
+        "source_quote": "When we understand the value of pain, then fear and worry will disappear.",
+        "suggested_fix": "Tunapoelewa thamani ya maumivu, ndipo hofu na wasiwasi vitatoweka.",
+        "translation_quote": "Tunapoelewa thamani ya maumivu, hofu na wasiwasi vitatoweka."
+      },
+      {
+        "location": "Article, paragraph 11",
+        "severity": "major",
+        "source_quote": "Radically different then the lawless slogan of the 1990s, “No Fear”, as Christians we can truly say, “No fear,”",
+        "suggested_fix": "Tofauti kabisa na kauli mbiu ya uasi-sheria ya miaka ya 1990, “Hakuna Hofu,” sisi Wakristo tunaweza kusema kweli, “Hakuna hofu,”",
+        "translation_quote": "Tukiwa tofauti kabisa na kauli mbiu ya uasi-sheria ya miaka ya 1990, “Hakuna Hofu,” sisi Wakristo tunaweza kusema kweli, “Hakuna hofu,”"
+      },
+      {
+        "location": "Article, paragraph 12",
+        "severity": "major",
+        "source_quote": "It is a battle that I must fight.",
+        "suggested_fix": "Ni vita ambavyo lazima nipigane.",
+        "translation_quote": "Ni vita ambavyo lazima nipigane."
+      },
+      {
+        "location": "Article, paragraph 17",
+        "severity": "major",
+        "source_quote": "Trauma?",
+        "suggested_fix": "Mshtuko wa kisaikolojia?",
+        "translation_quote": "Majeraha ya kihisia?"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

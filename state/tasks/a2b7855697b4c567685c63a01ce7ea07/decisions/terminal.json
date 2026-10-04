@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, fourth stanza",
+      "severity": "minor",
+      "source_quote": "Because they spread the Gospel word",
+      "suggested_fix": "Replace ״מפני שהפיצו את בשורת הבשורה״ with ״מפני שהפיצו את דבר הבשורה״.",
+      "translation_quote": "מפני שהפיצו את בשורת הבשורה"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

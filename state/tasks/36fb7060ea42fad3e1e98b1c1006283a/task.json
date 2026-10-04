@@ -2,7 +2,6 @@
   "article_id": "b8c0cd82-3d1a-4287-b2f5-391e08dd8efd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2726
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 576,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 400,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2530,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2527,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3106
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, first poem stanza",
+      "severity": "major",
+      "source_quote": "The early church in olden days",
+      "suggested_fix": "Ändra till ”Den tidiga kyrkan i forna dar” för att återge ”early church” utan att kalla den den första kyrkan.",
+      "translation_quote": "Den första kyrkan i forna dar"
+    },
+    {
+      "location": "HTML, eighth poem stanza",
+      "severity": "major",
+      "source_quote": "Since faith is good, why don’t we share",
+      "suggested_fix": "Ändra ”Om tron är god” till ”Eftersom tron är god” så att den kausala kopplingen i originalet bevaras.",
+      "translation_quote": "Om tron är god, varför delar vi den då inte"
+    }
+  ],
   "id": "36fb7060ea42fad3e1e98b1c1006283a",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swe",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e72319de5a9064e915ac8e2394006c00431f8c8787168b47fb44816c4213b2fe.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e",
   "translation_model_actual": "gpt-6-luna"

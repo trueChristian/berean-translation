@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragrafo 2",
+      "severity": "major",
+      "source_quote": "Will I cash in the stimulus check that is supposed to arrive in the mail in the near future?",
+      "suggested_fix": "Sostituire «Incasserò l’assegno di sostegno economico che dovrebbe arrivare per posta nel prossimo futuro?» con «Incasserò l’assegno di stimolo economico che dovrebbe arrivare per posta nel prossimo futuro?» o una resa equivalente che conservi il riferimento all’assegno di stimolo.",
+      "translation_quote": "Incasserò l’assegno di sostegno economico che dovrebbe arrivare per posta nel prossimo futuro?"
+    },
+    {
+      "location": "source.html, paragrafo 5",
+      "severity": "major",
+      "source_quote": "We cannot even do some of the simplest things by God’s estimation, like add a cubit to our stature",
+      "suggested_fix": "Rendere il senso del confronto senza attribuire a Dio una valutazione della nostra capacità, per esempio: «Non possiamo neppure fare alcune delle cose più semplici, come aggiungere un cubito alla nostra statura»; mantenere invariato il resto della frase.",
+      "translation_quote": "Secondo la valutazione di Dio, non siamo neppure capaci di fare alcune delle cose più semplici, come aggiungere un cubito alla nostra statura"
+    },
+    {
+      "location": "source.html, paragrafo 12",
+      "severity": "major",
+      "source_quote": "God’s Word tells us that those who have are to give to those who do not have so that there may be an equality.",
+      "suggested_fix": "Rendere esplicito che si tratta di dare a chi non ha affinché vi sia uguaglianza, per esempio: «La Parola di Dio ci dice che chi ha deve dare a chi non ha, affinché vi sia uguaglianza»; correggere «vi sia uguaglianza» solo se la frase è stata intesa come affermazione di una generica parità già esistente.",
+      "translation_quote": "La Parola di Dio ci dice che chi ha deve dare a chi non ha, affinché vi sia uguaglianza."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

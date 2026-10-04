@@ -2,7 +2,6 @@
   "article_id": "486eb0b4-74ad-40db-b53a-51a7b89036e2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 7466
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1289,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 783,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7293,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7290,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8582
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Ας περάσουμε τώρα στο άρθρο της είδησης”",
+      "severity": "major",
+      "source_quote": "tracks with what we [they] know about the causes of childhood anxiety and depression today.",
+      "suggested_fix": "Αλλά, σύμφωνα με την έρευνα των ειδικών, <em>συνάδει με όσα</em> [εκείνοι] <em>γνωρίζουν για τα αίτια του άγχους και της κατάθλιψης στα παιδιά σήμερα.</em>",
+      "translation_quote": "συνάδει με όσα</em> [εκείνοι] <em>γνωρίζουμε για τα αίτια του άγχους και της κατάθλιψης στα παιδιά σήμερα."
+    },
+    {
+      "location": "HTML, paragraph beginning “Ο Πίτερ Γκρέι”",
+      "severity": "minor",
+      "source_quote": "children need to develop healthily and happily—[have] time to play and explore.",
+      "suggested_fix": "τα παιδιά χρειάζεται να αναπτύσσονται υγιώς και χαρούμενα—[να έχουν] χρόνο να παίζουν και να εξερευνούν.",
+      "translation_quote": "τα παιδιά χρειάζεται να αναπτύσσονται υγιώς και χαρούμενα—να έχουν</em> [να έχουν] <em>χρόνο να παίζουν και να εξερευνούν."
+    },
+    {
+      "location": "HTML, paragraph beginning “Σύμφωνα με το άρθρο της είδησης”",
+      "severity": "minor",
+      "source_quote": "the sense that they [children] are in control of their own lives and can handle disruptions on their own [is] a crucial element of emotional well-being.",
+      "suggested_fix": "η αίσθηση ότι τα παιδιά έχουν τον έλεγχο της ζωής τους και μπορούν να διαχειρίζονται μόνα τους τις ανατροπές είναι καθοριστικό στοιχείο της συναισθηματικής ευημερίας.",
+      "translation_quote": "η αίσθηση ότι τα</em> [τα παιδιά] <em>έχουν τον έλεγχο της ζωής τους και μπορούν να διαχειρίζονται μόνα τους τις ανατροπές</em> [είναι] <em>καθοριστικό στοιχείο της συναισθηματικής ευημερίας."
+    }
+  ],
   "id": "49079b46adf913c578d253b744e4b36f",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ell",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48",
   "translation_model_actual": "gpt-6-luna"

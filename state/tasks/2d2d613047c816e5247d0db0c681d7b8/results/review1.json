@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "64f1e5ee-813f-4717-a109-3276a1e84c9f",
+    "response_id": "chatcmpl-EV20ytN8tOeGd1E0QdqdRsrTUR7gS",
+    "usage": {
+      "completion_tokens": 246,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1756,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1753,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2002
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, lines 6–7",
+        "severity": "major",
+        "source_quote": "It only leaves at the presence of sin. Joy brings you through the trials of living.",
+        "suggested_fix": "اسے یوں درست کریں کہ مفہوم یہ ہو کہ خوشی صرف گناہ کی موجودگی میں رخصت ہوتی ہے، اور پھر الگ مصرعے میں یہ کہ خوشی زندگی کی آزمائشوں سے گزارتی ہے۔",
+        "translation_quote": "یہ صرف گناہ کی موجودگی میں رخصت ہوتی ہے۔ خوشی زندگی کی آزمائشوں سے تمہیں گزارتی ہے۔"
+      },
+      {
+        "location": "Poem, line 9",
+        "severity": "major",
+        "source_quote": "It doesn’t forsake us; through the struggles we face.",
+        "suggested_fix": "اس مصرعے کو یوں بدلیں کہ مطلب ہو: «یہ ہمیں ترک نہیں کرتی، بلکہ ان جدوجہدوں میں بھی ہمارے ساتھ رہتی ہے جن کا ہم سامنا کرتے ہیں۔»",
+        "translation_quote": "یہ ہمیں ترک نہیں کرتی؛ ان جدوجہدوں میں سے جن کا ہم سامنا کرتے ہیں۔"
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

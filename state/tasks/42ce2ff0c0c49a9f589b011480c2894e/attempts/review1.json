@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, sixth stanza\",\"severity\":\"major\",\"source_quote\":\"He will hear you when you cry to Him / And on Him your troubles lay.\",\"suggested_fix\":\"Change the final line to «och när du lägger dina bekymmer på honom», so that it is you who entrusts your troubles to Him, as in the source.\",\"translation_quote\":\"hör han dig när du ropar till honom / och lägger dina bekymmer på honom.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 441,
+    "content_evidence_truncated": false,
+    "content_sha256": "577a63b8d21bab1161943b0a2e4a243c345f63df329a987a40296ae1ed0f38b3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 423,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 299,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1956,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1953,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2379
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

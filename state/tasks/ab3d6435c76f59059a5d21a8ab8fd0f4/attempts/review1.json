@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML poem, first stanza, lines 2–3\",\"severity\":\"major\",\"source_quote\":\"Had a desire to tell / The sinner about Jesus Christ,\",\"suggested_fix\":\"将对应译文改为“渴望向罪人述说 / 耶稣基督的事，”以保留原文明确的传讲对象“罪人”。\",\"translation_quote\":\"渴望述说 / 耶稣基督的事，\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 383,
+    "content_evidence_truncated": false,
+    "content_sha256": "4f5c072566bbaa020970ee24127ada612aeb5efe7802fde97b94624386614b81",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 685,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2633,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2630,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3448
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

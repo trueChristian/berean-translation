@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, Scripture quotation in the second paragraph\",\"severity\":\"major\",\"source_quote\":\"he shall turn the heart of the fathers to the children, and the heart of the children to their fathers\",\"suggested_fix\":\"استبدل «فيرد قلب الآباء على الأبناء، وقلب الأبناء على آبائهم» بـ«فيرد قلوب الآباء إلى الأبناء، وقلوب الأبناء إلى آبائهم»؛ فصيغة «على» قد تفيد التوجّه ضدّ الأبناء بدلًا من التوجّه إليهم.\",\"translation_quote\":\"فيرد قلب الآباء على الأبناء، وقلب الأبناء على آبائهم\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 729,
+    "content_evidence_truncated": false,
+    "content_sha256": "a8b00115884f507a217972ef96215dc29c448d298c0ed45f632c286fba06dfd3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 593,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8800,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8797,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9559
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

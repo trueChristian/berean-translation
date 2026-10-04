@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 8909
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 343,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8768,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8765,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9111
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraaf met Handelinge 2:37–38",
+      "severity": "major",
+      "source_quote": "“Men and brethren, what shall we do?”",
+      "suggested_fix": "Laat die aanspreekvorm getrou staan as “Manne en broers, wat moet ons doen?” (of ’n ewe getroue Afrikaans-ekwivalent); moenie “Manne” weglaat nie.",
+      "translation_quote": "“Broers, wat moet ons doen?”"
+    },
+    {
+      "location": "Paragraaf met die hondjie wat gesteel is",
+      "severity": "major",
+      "source_quote": "“guiltily he said he was”",
+      "suggested_fix": "Vervang “hy het skuldige erken dat hy was” met ’n grammatikaal korrekte weergawe soos “het hy skuldige erken dat hy ’n Christen was” of “het hy skuld beken en gesê dat hy ’n Christen was.”",
+      "translation_quote": "“hy het skuldige erken dat hy was”"
+    },
+    {
+      "location": "Paragraaf wat begin “Miskien begin ons jeukerige ore kry”",
+      "severity": "major",
+      "source_quote": "“We rid ourselves of the presence of people who love us and desire to speak into our lives.”",
+      "suggested_fix": "Herstel die volledige handeling: “Ons raak ontslae van die teenwoordigheid van mense wat ons liefhet en graag in ons lewens wil inspreek.”",
+      "translation_quote": "“Ons ontslae raak van die teenwoordigheid van mense wat ons liefhet en graag in ons lewens wil inspreek.”"
+    }
+  ],
   "id": "e01bd590ba6e040e91603628738baf38",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "afr",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

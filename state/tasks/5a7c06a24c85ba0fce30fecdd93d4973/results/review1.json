@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "042f5ed6-f304-40db-9f7f-e47260483ccb",
+    "response_id": "chatcmpl-EV20P8xPABi5d4VESsxip1RO3ns6S",
+    "usage": {
+      "completion_tokens": 584,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 472,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8621,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8618,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9205
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article HTML, paragraph beginning “De apostel Paulus profeteerde…”",
+        "severity": "minor",
+        "source_quote": "–2Ti 3:2.",
+        "suggested_fix": "Vervang de verwijzing door de gangbare Nederlandse boekafkorting, met hoofdstuk en vers ongewijzigd: “–2 Tim. 3:2.”",
+        "translation_quote": "–2Ti 3:2."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

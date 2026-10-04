@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d87057e9-eb4e-4d43-9035-cebf616d6a0c",
+    "response_id": "chatcmpl-EV20uGfc672Tt4sdURZQOHi7unpSH",
+    "usage": {
+      "completion_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2570
+    }
+  },
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem: “He knew with no doubt that he was made whole.”",
+        "severity": "major",
+        "source_quote": "He knew with no doubt that he was made whole.",
+        "suggested_fix": "Replace «وأيقن بلا شك أنه قد صار كاملًا.» with «وأيقن بلا شك أنه قد استعاد عافيته.» The current wording suggests he became perfect, rather than conveying that he was made whole/restored.",
+        "translation_quote": "وأيقن بلا شك أنه قد صار كاملًا."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

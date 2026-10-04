@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0128a157-1fe5-415f-9b4c-b6f1cc0bebf4",
+    "response_id": "chatcmpl-EV20naw2k59z0wbSGC7tDBVG8KjaR",
+    "usage": {
+      "completion_tokens": 453,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 309,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8534,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8990
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning « Au chapitre 5 des Actes… », citation Actes 5:32-33",
+        "severity": "major",
+        "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them”",
+        "suggested_fix": "Remplacer « En entendant cela, ils furent furieux » par « En entendant cela, ils furent profondément touchés » (ou une formulation française équivalente qui exprime leur vive conviction intérieure).",
+        "translation_quote": "« En entendant cela, ils furent furieux »"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

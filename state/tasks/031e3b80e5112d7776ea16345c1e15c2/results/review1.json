@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "48d54927-599d-411c-b123-9724459ecf05",
+    "response_id": "chatcmpl-EV21XpRMiQwUS1BPbh6mzDajXCWNx",
+    "usage": {
+      "completion_tokens": 732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3880,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4615
+    }
+  },
+  "received_at": "2026-10-04T00:10:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning « Un jour, Maman… »",
+        "severity": "minor",
+        "source_quote": "while Mother was fitting shoes on Nathan",
+        "suggested_fix": "Remplacer « pendant que Maman essayait des chaussures à Nathan » par « pendant que Maman faisait essayer des chaussures à Nathan » : la formulation actuelle est maladroite en français.",
+        "translation_quote": "pendant que Maman essayait des chaussures à Nathan"
+      },
+      {
+        "location": "HTML paragraph beginning « Plusieurs semaines passèrent »",
+        "severity": "minor",
+        "source_quote": "where Joel and Mother were doing the supper dishes",
+        "suggested_fix": "Remplacer « où Joel et Maman faisaient la vaisselle après le repas » par « où Joel et Maman faisaient la vaisselle du souper » (ou « du dîner », selon la variété de français visée), afin de conserver l’idée du repas du soir.",
+        "translation_quote": "où Joel et Maman faisaient la vaisselle après le repas"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

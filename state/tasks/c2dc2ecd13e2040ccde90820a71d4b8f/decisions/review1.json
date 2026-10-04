@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Daftar butir, kedua",
+      "severity": "minor",
+      "source_quote": "They have become better behaved",
+      "suggested_fix": "Ganti dengan “Mereka <em>berperilaku lebih baik</em>.”",
+      "translation_quote": "Mereka <em>menjadi lebih berperilaku baik</em>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

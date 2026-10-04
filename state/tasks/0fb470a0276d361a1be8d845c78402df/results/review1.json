@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e86659a4-91e3-445e-b1f7-13d16821745a",
+    "response_id": "chatcmpl-EV20Pk9mRbOKU5R1gGMMa2DER4FO8",
+    "usage": {
+      "completion_tokens": 321,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4243,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4240,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4564
+    }
+  },
+  "received_at": "2026-10-04T00:10:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "پہلا پیراگراف",
+        "severity": "major",
+        "source_quote": "Joel had a serious problem of taking things which did not belong to him.",
+        "suggested_fix": "«جوئل کو ایسی چیزیں اٹھا لینے کا سنگین مسئلہ تھا جو اس کی نہیں تھیں۔»",
+        "translation_quote": "جوئل کو دوسروں کی چیزیں اٹھا لینے کی ایک سنگین عادت تھی۔"
+      },
+      {
+        "location": "باپ کے بارے میں ماں کا مکالمہ",
+        "severity": "major",
+        "source_quote": "Father and I have been asking God to help you with this problem of lying and stealing.",
+        "suggested_fix": "«میں اور تمہارے والد خدا سے دعا کرتے رہے ہیں کہ وہ جھوٹ بولنے اور چوری کرنے کے اس مسئلے میں تمہاری مدد کرے۔»",
+        "translation_quote": "باپ اور میں خدا سے دعا کرتے رہے ہیں کہ وہ تمہیں جھوٹ بولنے اور چوری کرنے کے اس مسئلے میں مدد دے۔"
+      },
+      {
+        "location": "جوئل کا اقرار",
+        "severity": "major",
+        "source_quote": "“I – ah – took it from Weaver’s Store,” Joel stammered.",
+        "suggested_fix": "«میں—آہ—نے اسے ویورز اسٹور سے چرایا تھا،» جوئل ہکلاتے ہوئے بولا۔",
+        "translation_quote": "“میں—آہ—اسے ویورز اسٹور سے لے آیا تھا،” جوئل ہکلاتے ہوئے بولا۔"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

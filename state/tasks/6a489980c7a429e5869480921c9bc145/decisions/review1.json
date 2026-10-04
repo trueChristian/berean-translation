@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 사도행전 5장에 관한 문단",
+      "severity": "minor",
+      "source_quote": "but they were not there.",
+      "suggested_fix": "해당 문구를 “그러나 그들은 거기에 없었습니다.”로 고치십시오.",
+      "translation_quote": "하지만 그들은 այնտեղ 없었습니다."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

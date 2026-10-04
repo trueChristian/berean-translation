@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 2\",\"severity\":\"minor\",\"source_quote\":\"Oh! Where is the day? This night would not go.\",\"suggested_fix\":\"আহা! দিন কোথায়? এই রাত যেন কাটতেই চায় না।\",\"translation_quote\":\"আহা! দিন কোথায়? রাত যেন কাটে না, থামে না তারই ধাম।\"},{\"location\":\"Poem, line 22\",\"severity\":\"major\",\"source_quote\":\"He knew with no doubt that he was made whole.\",\"suggested_fix\":\"নিঃসন্দেহে জানল, সে পরিপূর্ণ হয়ে উঠেছে।\",\"translation_quote\":\"নিঃসংশয়ে জানল, সে আবার সম্পূর্ণ হয়েছে মহান।\"},{\"location\":\"Poem, final line\",\"severity\":\"major\",\"source_quote\":\"He could hardly wait, to be who God made him to be.\",\"suggested_fix\":\"ঈশ্বর তাকে যে মানুষ হিসেবে গড়ে তুলেছেন, সেই মানুষ হতে আর তর সইছিল না তার।\",\"translation_quote\":\"ঈশ্বর তাকে যে মানুষ করেছেন, তা হতে আর তর সয় না তার একদিন।\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 1313,
+    "content_evidence_truncated": false,
+    "content_sha256": "29aa7673f2e1cf51d21845c6f151b18ac3cf435df8920f0b0264443121198c38",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1008,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 745,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2037,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2034,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3045
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

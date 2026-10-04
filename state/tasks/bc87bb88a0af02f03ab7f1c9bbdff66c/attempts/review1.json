@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph 5\",\"severity\":\"major\",\"source_quote\":\"“Look at the lilies, the fowls of the air, and learn a lesson from them!”\",\"suggested_fix\":\"Replace «سوسنوں، ہوا کے پرندوں پر نظر کرو» with «سوسنوں اور ہوا کے پرندوں پر نظر کرو اور ان سے سبق سیکھو!» so both examples and the instruction to learn from them are preserved.\",\"translation_quote\":\"”سوسنوں، ہوا کے پرندوں پر نظر کرو اور ان سے سبق سیکھو!“\"},{\"location\":\"Article paragraph 9\",\"severity\":\"major\",\"source_quote\":\"“how long Lord Jesus” “so come”?\",\"suggested_fix\":\"Replace «”اے خداوند یسوع، کب تک؟“ اور ”آ، اے خداوند!“» with «”اے خداوند یسوع، کب تک؟“ اور ”پس آ!“» to preserve the source’s wording and its distinct quoted appeal.\",\"translation_quote\":\"”اے خداوند یسوع، کب تک؟“ اور ”آ، اے خداوند!“\"},{\"location\":\"Article paragraph 12\",\"severity\":\"major\",\"source_quote\":\"“fellow brothers and sisters”\",\"suggested_fix\":\"Replace «fellow بھائیوں اور بہنوں» with «ساتھی بھائیوں اور بہنوں» to translate the substantive phrase fully into Urdu.\",\"translation_quote\":\"ہمارے fellow بھائیوں اور بہنوں\"},{\"location\":\"Article paragraph 14\",\"severity\":\"major\",\"source_quote\":\"“Should the government dictate whether we have church or not?”\",\"suggested_fix\":\"Replace «کیا حکومت یہ طے کرے کہ ہماری کلیسیا ہو یا نہ ہو؟» with «کیا حکومت یہ حکم دے کہ ہم کلیسیا کا اجتماع کریں یا نہ کریں؟» to preserve the question about whether Christians may gather for church.\",\"translation_quote\":\"”کیا حکومت یہ طے کرے کہ ہماری کلیسیا ہو یا نہ ہو؟“\"},{\"location\":\"Article paragraph 15\",\"severity\":\"major\",\"source_quote\":\"“to not forsake the assembling of ourselves together”\",\"suggested_fix\":\"Replace «اپنے جمع ہونے سے باز نہ آئیں» with «ایک ساتھ جمع ہونا ترک نہ کریں» to preserve the reference to assembling together.\",\"translation_quote\":\"”اپنے جمع ہونے سے باز نہ آئیں“\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 2372,
+    "content_evidence_truncated": false,
+    "content_sha256": "e78b4f3f595a1b26dd92052674f7376c05d9341511a932865b91750707d0674b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8838,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9344
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

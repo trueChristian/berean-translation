@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d9063042-73a2-4e0d-a2a5-b4e4abb33950",
+    "response_id": "chatcmpl-EV20PxnGFnNzeKj5QKHfJK7tKeLtw",
+    "usage": {
+      "completion_tokens": 1429,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 999,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10264,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11696
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “There were two men in one city”",
+        "severity": "minor",
+        "source_quote": "“to take of his own flock and of his own herd”",
+        "suggested_fix": "Replace «από το δικό του κοπάδι ή από το δικό του κοπάδι βοοειδών» with «από τα δικά του κοπάδια ή από τα δικά του κοπάδια βοοειδών», distinguishing the flock from the herd.",
+        "translation_quote": "«να πάρει από το δικό του κοπάδι ή από το δικό του κοπάδι βοοειδών»"
+      },
+      {
+        "location": "Article body, paragraph beginning “Nathan went to David”",
+        "severity": "minor",
+        "source_quote": "“Often before God gives us over, He sends a messenger.”",
+        "suggested_fix": "Replace «προτού μας παραδώσει ο Θεός στην πορεία μας» with «προτού μας παραδώσει ο Θεός στην αμαρτία μας», to retain the sense of God giving someone over to sin.",
+        "translation_quote": "«Συχνά, προτού μας παραδώσει ο Θεός στην πορεία μας, στέλνει έναν αγγελιοφόρο.»"
+      },
+      {
+        "location": "Article body, paragraph beginning “David could have become angry with Nathan”",
+        "severity": "minor",
+        "source_quote": "“people around us will know that and it will be easy for them to come and talk to us about sin in our lives.”",
+        "suggested_fix": "Replace «θα τους είναι εύκολο να έρθουν να μας μιλήσουν» with «θα τους είναι εύκολο να έρθουν και να μας μιλήσουν», for more natural Modern Greek.",
+        "translation_quote": "«οι άνθρωποι γύρω μας θα το καταλάβουν και θα τους είναι εύκολο να έρθουν να μας μιλήσουν για την αμαρτία στη ζωή μας.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

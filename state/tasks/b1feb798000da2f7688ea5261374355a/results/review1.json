@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c2933a37-7c3d-4650-b0f6-74a811b73cab",
+    "response_id": "chatcmpl-EV218iy27fjScmDKRqhRQReNt3pdu",
+    "usage": {
+      "completion_tokens": 381,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8701,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8698,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9082
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz „…Gehorsam entwickeln“",
+        "severity": "major",
+        "source_quote": "“A child who learns to live with a surrendered will to their parents will one day much more easily walk in unquestioning obedience to God.”",
+        "suggested_fix": "Ersetze „Ein Kind, das lernt, sich seinen Eltern mit einem untergeordneten Willen zu fügen, wird eines Tages viel leichter Gott ohne Widerspruch gehorchen.“ durch „Ein Kind, das lernt, seinen Willen den Eltern unterzuordnen, wird eines Tages viel leichter Gott in fraglosem Gehorsam folgen.“",
+        "translation_quote": "„Ein Kind, das lernt, sich seinen Eltern mit einem untergeordneten Willen zu fügen, wird eines Tages viel leichter Gott ohne Widerspruch gehorchen.“"
+      },
+      {
+        "location": "Absatz „…Ein Gefühl des eigenen Wertes“",
+        "severity": "major",
+        "source_quote": "“Only through understanding God’s unconditional love and acceptance can this be resolved.”",
+        "suggested_fix": "Ersetze „Das lässt sich nur durch das Verständnis von Gottes bedingungsloser Liebe und Annahme lösen.“ durch „Dies kann nur gelöst werden, indem man Gottes bedingungslose Liebe und Annahme versteht.“",
+        "translation_quote": "„Das lässt sich nur durch das Verständnis von Gottes bedingungsloser Liebe und Annahme lösen.“"
+      },
+      {
+        "location": "Absatz „…Gespräche über das Innerste“",
+        "severity": "major",
+        "source_quote": "“Relationships are built with open-hearted communication.”",
+        "suggested_fix": "Ersetze „Beziehungen entstehen durch offenen Austausch von Herzen.“ durch „Beziehungen entstehen durch offenen und aufrichtigen Austausch.“",
+        "translation_quote": "„Beziehungen entstehen durch offenen Austausch von Herzen.“"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

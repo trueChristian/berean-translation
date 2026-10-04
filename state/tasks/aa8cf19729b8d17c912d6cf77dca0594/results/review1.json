@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a12bd278-2068-44bc-afa1-e4cacc01e48d",
+    "response_id": "chatcmpl-EV20z7vCy68OR3MQwlpwTfpv396Qx",
+    "usage": {
+      "completion_tokens": 102,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8447,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8444,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8549
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 7",
+        "severity": "major",
+        "source_quote": "We need to be okay with suffering, we need to embrace it;",
+        "suggested_fix": "Replace “Tun need” (current wording) with “Tunahitaji kuridhika na mateso; tunahitaji kuyakumbatia;”",
+        "translation_quote": "Tun need to accept suffering; tunahitaji kuyakumbatia;"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

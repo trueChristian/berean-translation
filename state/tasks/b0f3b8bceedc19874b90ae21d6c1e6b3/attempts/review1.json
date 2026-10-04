@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first poem stanza\",\"severity\":\"major\",\"source_quote\":\"Had a desire to tell / The sinner about Jesus Christ, / About Heaven and hell.\",\"suggested_fix\":\"Replace the third and fourth lines with «al pecador acerca de Jesucristo, / del cielo y del infierno.»\",\"translation_quote\":\"deseaba anunciar / al pecador a Jesucristo, / el cielo y el infierno.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 409,
+    "content_evidence_truncated": false,
+    "content_sha256": "3e5eb81042976b7588cd153df0be38742eb9c50d7da3311e3f7435ce5f7d29c1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 553,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 440,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2533,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2530,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3086
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

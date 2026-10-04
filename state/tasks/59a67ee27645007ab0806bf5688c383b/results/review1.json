@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c896634e-afae-4233-9937-17305126c6d6",
+    "response_id": "chatcmpl-EV20ijyZVh6yqUn56VezxHDjVujVX",
+    "usage": {
+      "completion_tokens": 537,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 388,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1892,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1889,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2429
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML image alt text",
+        "severity": "minor",
+        "source_quote": "Sunlight streaming through a leafy forest",
+        "suggested_fix": "Zonlicht dat door een lommerrijk bos valt",
+        "translation_quote": "Zonlicht dat door een bladerig bos valt"
+      },
+      {
+        "location": "Poem, line beginning “It all seemed so clear!”",
+        "severity": "minor",
+        "source_quote": "It all seemed so clear! He wept as he broke.",
+        "suggested_fix": "Alles leek zo duidelijk! Hij huilde toen hij instortte.",
+        "translation_quote": "Alles leek zo duidelijk! Hij huilde toen hij brak."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

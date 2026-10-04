@@ -2,7 +2,6 @@
   "article_id": "a7adeb39-f34f-4cfd-a72d-e5842a0a71c4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 1880
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1628,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1625,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2172
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML image alt text",
+      "severity": "minor",
+      "source_quote": "Layered blue mountains beneath a warm peach-colored sky",
+      "suggested_fix": "Montanhas azuis em camadas sob um céu em tom quente de pêssego",
+      "translation_quote": "Montanhas azuis em camadas sob um céu cor de pêssego quente"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:38+00:00",
   "id": "6166b6037e6072d697c13a4c58804642",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "por",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/17b4fc3db7fbb4024c30bb9ff86b00527a1dae37fcb323a55da9f42bc028139a.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9b29a13d38423692bd28618e23516be4bb5fdbf69b3840c66cdf2018c21d570d",
   "translation_model_actual": "gpt-6-luna"

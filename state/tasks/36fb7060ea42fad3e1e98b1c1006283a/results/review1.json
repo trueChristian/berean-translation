@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c8ff1b75-d467-45d9-b228-3172fda2b9d8",
+    "response_id": "chatcmpl-EV21BEPpJMqWFZzgQjbP1Zkcz0X8M",
+    "usage": {
+      "completion_tokens": 576,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 400,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2530,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2527,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3106
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first poem stanza",
+        "severity": "major",
+        "source_quote": "The early church in olden days",
+        "suggested_fix": "Ändra till ”Den tidiga kyrkan i forna dar” för att återge ”early church” utan att kalla den den första kyrkan.",
+        "translation_quote": "Den första kyrkan i forna dar"
+      },
+      {
+        "location": "HTML, eighth poem stanza",
+        "severity": "major",
+        "source_quote": "Since faith is good, why don’t we share",
+        "suggested_fix": "Ändra ”Om tron är god” till ”Eftersom tron är god” så att den kausala kopplingen i originalet bevaras.",
+        "translation_quote": "Om tron är god, varför delar vi den då inte"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

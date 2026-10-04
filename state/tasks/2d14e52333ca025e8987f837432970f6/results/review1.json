@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0a16cb5a-04f9-4a14-ae73-b33a20ecb579",
+    "response_id": "chatcmpl-EV20vMO8yZuGuizz5qisp9HBCB0Iw",
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 510,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5551,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5548,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6336
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Love is a profoundly tender affection”",
+        "severity": "major",
+        "source_quote": "“which sweetens all of life”",
+        "suggested_fix": "استبدلي «فتعذّب حلاوتها كل جوانب الحياة» بـ«فتُضفي حلاوة على الحياة كلها».",
+        "translation_quote": "«فتعذّب حلاوتها كل جوانب الحياة»"
+      },
+      {
+        "location": "Paragraph quoting 2 Timothy 1:7",
+        "severity": "major",
+        "source_quote": "“For God hath not given us the spirit of fear”",
+        "suggested_fix": "استبدلي «رُوحَ الْفَشَلِ» بـ«رُوحَ الْخَوْفِ» في الاقتباس، ليكون المعنى: «لأَنَّ اللهَ لَمْ يُعْطِنَا رُوحَ الْخَوْفِ، بَلْ رُوحَ الْقُوَّةِ وَالْمَحَبَّةِ وَالنُّصْحِ».",
+        "translation_quote": "«لأَنَّ اللهَ لَمْ يُعْطِنَا رُوحَ الْفَشَلِ»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

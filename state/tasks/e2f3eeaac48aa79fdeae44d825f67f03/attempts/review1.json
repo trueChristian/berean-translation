@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"body paragraph 11 (Nathan’s story, 2 Samuel 12:4–7)\",\"severity\":\"major\",\"source_quote\":\"“he spared to take of his own flock and of his own herd, to dress for the wayfaring man”\",\"suggested_fix\":\"“সে পথিকের জন্য খাবার তৈরি করতে নিজের পাল থেকে পশু নিতে রাজি হলো না”\",\"translation_quote\":\"“সে নিজের পাল ও গোয়াল থেকে কিছু নিতে কুণ্ঠিত হলো, যাতে তার কাছে আসা পথিকের জন্য তা প্রস্তুত করতে পারে”\"},{\"location\":\"body paragraph 13 (David and Nathan)\",\"severity\":\"major\",\"source_quote\":\"“Or what if Nathan would have refused to go talk to David because he feared him?”\",\"suggested_fix\":\"“অথবা নাথন যদি দায়ূদকে ভয় পেয়ে তাঁর সঙ্গে কথা বলতে যেতে অস্বীকার করতেন?”\",\"translation_quote\":\"“অথবা, নাথন যদি দায়ূদকে ভয় পেয়ে তাঁর সঙ্গে কথা বলতে যেতে অস্বীকার করতেন?”\"},{\"location\":\"body paragraph 24 (puppy story)\",\"severity\":\"major\",\"source_quote\":\"“One day as we walked home from the Sunday service a puppy came running from a small house, jumping and yipping.”\",\"suggested_fix\":\"“একদিন রবিবারের উপাসনা থেকে বাড়ি ফেরার পথে একটি ছোট বাড়ি থেকে একটি কুকুরছানা দৌড়ে বেরিয়ে এসে লাফাতে ও কুঁইকুঁই করতে লাগল।”\",\"translation_quote\":\"“একদিন রবিবারের উপাসনা থেকে বাড়ি ফেরার পথে একটি ছোট বাড়ি থেকে একটি কুকুরছানা ছুটে এসে লাফাতে ও কুঁইকুঁই করতে লাগল।”\"},{\"location\":\"body paragraph 26 (final illustration)\",\"severity\":\"major\",\"source_quote\":\"“a clear heaven is only a prayer away.”\",\"suggested_fix\":\"“প্রার্থনা করলেই স্বর্গের সঙ্গে আবার স্বচ্ছ সম্পর্ক স্থাপন করা যায়।”\",\"translation_quote\":\"“একটি নির্মল আকাশের দূরত্ব মাত্র একটি প্রার্থনা।”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 2738,
+    "content_evidence_truncated": false,
+    "content_sha256": "d305ee87aaca6fd04a14a1d77429561b84389026e402a0789fa1299d3fbacc6d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9296,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9293,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9760
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

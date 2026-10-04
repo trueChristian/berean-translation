@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, avsnitt 10",
+      "severity": "major",
+      "source_quote": "God has not given us the spirit of fear, but of power, of love and a sound mind.",
+      "suggested_fix": "Erstatt setningen med «Gud har ikke gitt oss en ånd av frykt, men av kraft, kjærlighet og sindighet.»",
+      "translation_quote": "Gud har ikke gitt oss en ånd som gjør motløs, men en ånd som gir kraft, kjærlighet og sindighet."
+    },
+    {
+      "location": "HTML, avsnitt 13",
+      "severity": "major",
+      "source_quote": "We are called to honor the king and we need to spend more time thanking God for our freedoms than maximizing on the negative",
+      "suggested_fix": "Erstatt «enn på å dvele ved det negative» med «enn på å legge vekt på det negative».",
+      "translation_quote": "Vi er kalt til å ære kongen, og vi bør bruke mer tid på å takke Gud for friheten vår enn på å dvele ved det negative"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

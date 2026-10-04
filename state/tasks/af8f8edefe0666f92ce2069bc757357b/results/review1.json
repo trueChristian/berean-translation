@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "13b2b375-454f-4ef0-9d95-4b5249ada280",
+    "response_id": "chatcmpl-EV213YqofgHhMbITwRTW5rzlqAAwn",
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2596,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2593,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2808
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, bait 11",
+        "severity": "major",
+        "source_quote": "If we would also spread God’s Word, / Our blood would stain our sod.",
+        "suggested_fix": "Pertahankan makna syarat: “Jika kita juga menyebarkan firman Allah, / darah kita akan menodai tanah kita.”",
+        "translation_quote": "Jika kita juga ingin menyebarkan firman Allah, / Darah kita akan membasahi tanah kita."
+      },
+      {
+        "location": "HTML, bait 14",
+        "severity": "major",
+        "source_quote": "Showing lost souls, the narrow way,",
+        "suggested_fix": "Ubah menjadi terjemahan yang menyatakan bahwa kita menunjukkan jalan sempit kepada jiwa-jiwa yang tersesat, misalnya: “Menunjukkan jalan yang sempit kepada jiwa-jiwa yang tersesat,”",
+        "translation_quote": "Menunjukkan kepada jiwa-jiwa yang tersesat jalan yang sempit,"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

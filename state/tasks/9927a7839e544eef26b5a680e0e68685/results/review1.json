@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "09bb4c02-9997-45a2-9d6c-859cdb765e59",
+    "response_id": "chatcmpl-EV20QLh94EX36INWp8f9xgWLHiC9b",
+    "usage": {
+      "completion_tokens": 735,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 472,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5325,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6063
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, Matthew 6:27 quotation",
+        "severity": "major",
+        "source_quote": "Which of you by taking thought can add one cubit unto his stature",
+        "suggested_fix": "Bytt ut «Hvem av dere kan vel med all sin bekymring legge en eneste alen til sin livslengde» med «Hvem av dere kan vel ved å bekymre seg legge én alen til sin høyde».",
+        "translation_quote": "Hvem av dere kan vel med all sin bekymring legge en eneste alen til sin livslengde"
+      },
+      {
+        "location": "Article, 2 Timothy 1:7 quotation",
+        "severity": "major",
+        "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind",
+        "suggested_fix": "Erstatt «en feig ånd, men en ånd med kraft, kjærlighet og visdom» med «en ånd av frykt, men av kraft og kjærlighet og sindighet».",
+        "translation_quote": "For Gud har ikke gitt oss en feig ånd, men en ånd med kraft, kjærlighet og visdom."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -6,9 +6,32 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "8d1a6e034663515529674cc2fe46b823"
+    },
+    {
+      "at": "2026-10-04T00:10:39+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "8d1a6e034663515529674cc2fe46b823"
     }
   ],
   "language": "deu",
   "latest_task": "8d1a6e034663515529674cc2fe46b823",
-  "published": null
+  "published": {
+    "html_path": "content/deu/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd.html",
+    "html_sha256": "5ce860b019c6a53abf738224c0921bd81621d3b7b1054e2dd205e7ef5e24051a",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "metadata_path": "content/deu/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd.json",
+    "metadata_sha256": "a062ce56a4af93415e3e5c2cc5fd3e80c7e5c0b5768e90d21bb7299552de85a2",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"de\" dir=\"ltr\" role=\"note\">\n  <p>Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: gpt-6-luna) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran. <a href=\"/en/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd/\" data-source-article-id=\"b8c0cd82-3d1a-4287-b2f5-391e08dd8efd\" hreflang=\"en\">Englisches Original</a></p>\n</aside>",
+    "published_at": "2026-10-04T00:10:39+00:00",
+    "quality_score": 96,
+    "review_model": "gpt-6-luna",
+    "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+    "source_snapshot": "state/sources/e72319de5a9064e915ac8e2394006c00431f8c8787168b47fb44816c4213b2fe.json",
+    "task": "8d1a6e034663515529674cc2fe46b823",
+    "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e"
+  }
 }

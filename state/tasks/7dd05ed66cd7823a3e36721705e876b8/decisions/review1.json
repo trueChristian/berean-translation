@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, 두 번째 단락",
+      "severity": "minor",
+      "source_quote": "And God hates stealing!",
+      "suggested_fix": "“그리고 하나님께서는 도둑질을 미워하십니다!”처럼 번역하면 원문의 현재형 진술을 그대로 살릴 수 있습니다.",
+      "translation_quote": "그리고 하나님께서는 도둑질을 미워하십니다!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

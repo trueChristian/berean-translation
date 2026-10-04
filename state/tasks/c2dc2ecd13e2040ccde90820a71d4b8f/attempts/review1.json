@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Daftar butir, kedua\",\"severity\":\"minor\",\"source_quote\":\"They have become better behaved\",\"suggested_fix\":\"Ganti dengan “Mereka <em>berperilaku lebih baik</em>.”\",\"translation_quote\":\"Mereka <em>menjadi lebih berperilaku baik</em>\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 288,
+    "content_evidence_truncated": false,
+    "content_sha256": "c72b34afef7356fb923a7af31a8f019619f561656c984a085c5528f575858423",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6048,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6045,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6746
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

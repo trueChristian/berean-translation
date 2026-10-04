@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragrafo 6",
+      "severity": "minor",
+      "source_quote": "Joel wandered front to the pocketknives again.",
+      "suggested_fix": "Sostituire «tornò a gironzolare davanti ai coltellini tascabili» con «tornò ad aggirarsi vicino ai coltellini tascabili» per rendere più naturale il movimento descritto.",
+      "translation_quote": "Joel tornò a gironzolare davanti ai coltellini tascabili."
+    },
+    {
+      "location": "source.html, paragrafo 6",
+      "severity": "major",
+      "source_quote": "No one was looking, so he quickly reached up, took the white pocketknife from the box on the counter, and stuck it into his pocket.",
+      "suggested_fix": "Correggere in «Nessuno guardava, così allungò rapidamente la mano, prese il coltellino tascabile bianco dalla scatola sul bancone e se lo infilò in tasca».",
+      "translation_quote": "Non guardava nessuno, così allungò rapidamente la mano, prese il coltellino tascabile bianco dalla scatola sul bancone e se lo infilò in tasca."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, parágrafo sob “Physical Touch” / “Contato físico”",
+      "severity": "minor",
+      "source_quote": "“such as fathers being barred from the delivery room”",
+      "suggested_fix": "Substitua “impedir os pais de entrar na sala de parto” por “impedir os pais de entrar na sala de parto” apenas se o original pretendesse referir-se a ambos; para preservar o texto-fonte, use “impedir os pais de entrar na sala de parto” não é adequado. Sugestão: “impedir os pais de entrar na sala de parto” → “impedir os pais de entrar na sala de parto”",
+      "translation_quote": "“como impedir os pais de entrar na sala de parto”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

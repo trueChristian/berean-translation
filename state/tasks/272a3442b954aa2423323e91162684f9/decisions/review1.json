@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, stanza 1, line 2",
+      "severity": "minor",
+      "source_quote": "When confusion ‘round me churns,",
+      "suggested_fix": "जब मेरे चारों ओर उलझनें उमड़ती हैं,",
+      "translation_quote": "जब उलझनें मुझमें उमड़ती हैं,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

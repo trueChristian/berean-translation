@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bff73878-ad54-4a0b-a827-6b86acc3ae83",
+    "response_id": "chatcmpl-EV20PcqokV21cBDvmvz1losNDAWLI",
+    "usage": {
+      "completion_tokens": 566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 484,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2658,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2655,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3224
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, seventh poem stanza, third line",
+        "severity": "major",
+        "source_quote": "As did the church in olden days,",
+        "suggested_fix": "옛날 교회처럼,",
+        "translation_quote": "옛날 교회와는 달리,"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

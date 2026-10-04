@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Cuerpo, Hechos 5:32-33",
+      "severity": "major",
+      "source_quote": "“When they heard that, they were cut to the heart”",
+      "suggested_fix": "Sustituir «se enfurecieron» por «se sintieron profundamente heridos» o «se sintieron compungidos», manteniendo la idea de que fueron tocados en el corazón; por ejemplo: «Al oír esto, se sintieron profundamente heridos y querían matarlos».",
+      "translation_quote": "«Al oír esto, se enfurecieron»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

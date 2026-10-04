@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8a4d325f-c14a-4323-8a8d-97c9769571cd",
+    "response_id": "chatcmpl-EV20Q3nxGqKQUN3Q377EGf6dbl8Eq",
+    "usage": {
+      "completion_tokens": 711,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 593,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1964,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1961,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2675
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, восьмая строфа, последняя строка",
+        "severity": "minor",
+        "source_quote": "For whatever may come in tomorrow.",
+        "suggested_fix": "Заменить «Что бы ни принесло завтрашнее утро» на «Что бы ни принесло завтра», чтобы не сужать смысл до событий именно утром.",
+        "translation_quote": "Что бы ни принесло завтрашнее утро."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

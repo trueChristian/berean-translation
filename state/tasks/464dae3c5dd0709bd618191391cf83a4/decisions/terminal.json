@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, lines 9–10",
+      "severity": "minor",
+      "source_quote": "It doesn’t forsake us; through the struggles we face. But rather gives courage and keeps us in grace.",
+      "suggested_fix": "Δεν μας εγκαταλείπει μέσα στους αγώνες που αντιμετωπίζουμε· αντίθετα, μας δίνει θάρρος και μας κρατά στη χάρη.",
+      "translation_quote": "Δεν μας εγκαταλείπει· ούτε μέσα στους αγώνες που αντιμετωπίζουμε. Αντίθετα, μας δίνει θάρρος και μας κρατά στη χάρη."
+    },
+    {
+      "location": "Poem, final line",
+      "severity": "minor",
+      "source_quote": "Turn to the Saviour and His redeeming love!",
+      "suggested_fix": "Στρέψου στον Σωτήρα και στη λυτρωτική Του αγάπη!",
+      "translation_quote": "Στρέψου στον Σωτήρα και στην λυτρωτική Του αγάπη!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

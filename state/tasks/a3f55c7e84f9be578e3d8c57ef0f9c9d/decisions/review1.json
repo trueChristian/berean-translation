@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Dikt, strofe 5, linje 2",
+      "severity": "major",
+      "source_quote": "Perhaps more desperately;",
+      "suggested_fix": "Kanskje enda mer desperat;",
+      "translation_quote": "kanskje mer enn noen gang;"
+    },
+    {
+      "location": "Dikt, strofe 6, linje 2",
+      "severity": "major",
+      "source_quote": "When by His side you fail to stay,",
+      "suggested_fix": "når du ikke klarer å bli ved hans side,",
+      "translation_quote": "når du ikke blir ved hans side,"
+    },
+    {
+      "location": "Dikt, strofe 8, linje 3",
+      "severity": "major",
+      "source_quote": "The unknowns in His hands, He’ll be at your side",
+      "suggested_fix": "De ukjente tingene i hans hender; han vil være ved din side",
+      "translation_quote": "det ukjente legger han i sine hender; han vil være ved din side"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

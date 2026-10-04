@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “اس طرح کی معلومات دنیا کے موجودہ رجحان کے خلاف جاتی ہیں”",
+      "severity": "major",
+      "source_quote": "“daycare centers for children of working parents would go out of business”",
+      "suggested_fix": "Replace “کام کرنے والے والدین کے بچوں کے نگہداشت مراکز بند ہو جائیں گے” with “کام کرنے والے والدین کے بچوں کے نگہداشت مراکز کاروبار بند کرنے پر مجبور ہو جائیں گے” to preserve the claim that these centers would go out of business.",
+      "translation_quote": "“کام کرنے والے والدین کے بچوں کے نگہداشت مراکز بند ہو جائیں گے”"
+    },
+    {
+      "location": "HTML, paragraph beginning “اس مضمون میں ریاستہائے متحدہ بھر کے والدین کے حوالے دیے گئے”",
+      "severity": "minor",
+      "source_quote": "“a happiness spike”",
+      "suggested_fix": "Replace both instances of “خوشی میں اچانک اضافے” with “خوشی میں اچانک آنے والے اضافے” or another idiomatic Urdu equivalent that clearly means a spike in happiness.",
+      "translation_quote": "“خوشی میں اچانک اضافے”"
+    },
+    {
+      "location": "HTML, paragraph beginning “انہوں نے بتایا کہ اب بچے بچے بن سکتے ہیں”",
+      "severity": "minor",
+      "source_quote": "“They had time to use their imagination and creativity.”",
+      "suggested_fix": "Replace “انہیں اپنی تخیل اور تخلیقی صلاحیت استعمال کرنے کا وقت ملتا ہے” with “انہیں اپنی تخیل اور تخلیقی صلاحیتیں استعمال کرنے کا وقت ملتا ہے” for correct Urdu agreement and phrasing.",
+      "translation_quote": "“انہیں اپنی تخیل اور تخلیقی صلاحیت استعمال کرنے کا وقت ملتا ہے”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

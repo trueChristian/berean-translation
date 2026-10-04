@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9846
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 266,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9706,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9703,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9972
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Body, paragraph beginning “Those of us who can find tears…”",
+      "severity": "major",
+      "source_quote": "“If it is your case, I beseech you repent of your sins, bewail your condition, and fly to Christ for shelter!”",
+      "suggested_fix": "Replace “nawasihi tubuni dhambi zenu” with “nawasihi mtubu dhambi zenu” to preserve the source’s singular address (“you”) and imperative sense; keep the surrounding HTML unchanged.",
+      "translation_quote": "“Ikiwa hali hiyo ni yenu, nawasihi tubuni dhambi zenu”"
+    },
+    {
+      "location": "Body, paragraph beginning “In the remnant portion of His message…”",
+      "severity": "major",
+      "source_quote": "“anti-abortion/anti-gay agendas”",
+      "suggested_fix": "Replace “ajenda za kupinga utoaji mimba na ushoga” with “ajenda za kupinga utoaji mimba na haki za mashoga” (or another faithful Kiswahili rendering of opposition to gay people/causes); the current wording can be read as opposing homosexuality itself rather than the source’s stated political agendas.",
+      "translation_quote": "“ajenda za kupinga utoaji mimba na ushoga”"
+    }
+  ],
   "id": "2aef5091a5d8eab0ad689dc038bf2369",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swa",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo sull’incontro con l’agente di polizia\",\"severity\":\"minor\",\"source_quote\":\"He went back to his car and several minutes later he returned.\",\"suggested_fix\":\"Sostituire «rientrò» con «tornò» per indicare che l’agente ritornò dall’autore.\",\"translation_quote\":\"Tornò alla sua auto e, diversi minuti dopo, rientrò.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 391,
+    "content_evidence_truncated": false,
+    "content_sha256": "21a51dd023ed18431538494ea04f5daca64c7a04718da212d7a5b6edf9dc03c6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8668,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8665,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9276
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

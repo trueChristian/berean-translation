@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza 1",
+      "severity": "major",
+      "source_quote": "The early church in olden days / Had a desire to tell / The sinner about Jesus Christ",
+      "suggested_fix": "Replace the stanza text with: \"Kanisa la kwanza siku za kale<br>lilitamani kuwaambia<br>wadhambi kuhusu Yesu Kristo,<br>kuhusu Mbingu na kuzimu.\"",
+      "translation_quote": "Kanisa la kwanza zamani za kale / Lilitamani kuwaambia / Wenye dhambi kuhusu Yesu Kristo"
+    },
+    {
+      "location": "HTML, stanza 2",
+      "severity": "major",
+      "source_quote": "And strove to follow this command / In spite of peril and sword.",
+      "suggested_fix": "Replace the last two lines with: \"Na wakajitahidi kufuata amri hii<br>Licha ya hatari na upanga.\"",
+      "translation_quote": "Na wakajitahidi kutii amri hii / Licha ya hatari na upanga."
+    },
+    {
+      "location": "HTML, stanza 4",
+      "severity": "major",
+      "source_quote": "A lot of folks were burned at stake",
+      "suggested_fix": "Replace “Watu wengi walichomwa kwenye mti wa mateso” with “Watu wengi walichomwa kwenye mti wa kuchomea.”",
+      "translation_quote": "Watu wengi walichomwa kwenye mti wa mateso"
+    },
+    {
+      "location": "HTML, stanza 8",
+      "severity": "major",
+      "source_quote": "Since faith is good, why don’t we share / As did the saints of old?",
+      "suggested_fix": "Replace the last two lines with: \"Kwa kuwa imani ni njema, kwa nini tusishiriki<br>Kama walivyofanya watakatifu wa zamani?\"",
+      "translation_quote": "Kwa kuwa imani ni njema, kwa nini hatuishiriki / Kama watakatifu wa zamani?"
+    },
+    {
+      "location": "HTML, stanza 9",
+      "severity": "major",
+      "source_quote": "And vigorous in fight.",
+      "suggested_fix": "Replace “Na wanapambana kwa nguvu” with “Na wana juhudi kubwa katika mapambano.”",
+      "translation_quote": "Na wanapambana kwa nguvu."
+    },
+    {
+      "location": "HTML, stanza 10",
+      "severity": "major",
+      "source_quote": "They praise their Lord on high. / And thank Him that for Jesus’ sake",
+      "suggested_fix": "Replace “Wao wanamsifu Bwana wao aliye juu. / Na wanamshukuru kwamba kwa ajili ya Yesu” with “Wao wanamsifu Bwana wao aliye juu, / na wanamshukuru kwamba kwa ajili ya Yesu Kristo”.",
+      "translation_quote": "Wao wanamsifu Bwana wao aliye juu. / Na wanamshukuru kwamba kwa ajili ya Yesu"
+    },
+    {
+      "location": "HTML, stanza 11",
+      "severity": "major",
+      "source_quote": "If we would also spread God’s Word, / Our blood would stain our sod.",
+      "suggested_fix": "Replace the last two lines with: \"Ikiwa sisi pia tungeeneza Neno la Mungu,<br>Damu yetu ingeitia doa ardhi yetu.\"",
+      "translation_quote": "Ikiwa sisi pia tutaeneza Neno la Mungu, / Damu yetu itatia doa ardhi yetu."
+    },
+    {
+      "location": "HTML, stanza 13",
+      "severity": "major",
+      "source_quote": "If we don’t bring the folks to God, / The populace will die.",
+      "suggested_fix": "Replace “Tusipowaleta watu kwa Mungu, / Wananchi watakufa” with “Tusipowaleta watu kwa Mungu, / watu wengi watakufa.”",
+      "translation_quote": "Tusipowaleta watu kwa Mungu, / Wananchi watakufa."
+    },
+    {
+      "location": "HTML, stanza 14",
+      "severity": "major",
+      "source_quote": "Showing lost souls, the narrow way, / That leads men home to God.",
+      "suggested_fix": "Replace the last two lines with: \"Tukiwaonyesha roho zilizopotea njia nyembamba,<br>inayowaongoza watu kurudi nyumbani kwa Mungu.\"",
+      "translation_quote": "Tukiwaonyesha waliopotea njia nyembamba, / Inayowaongoza watu nyumbani kwa Mungu."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, second stanza",
+      "severity": "major",
+      "source_quote": "Or when asked of something I do not know / That I think to stop and pray?",
+      "suggested_fix": "Replace the corresponding Bengali lines with: “অথবা এমন কিছু সম্পর্কে জিজ্ঞেস করা হলে যা আমি জানি না, / তখনই কি থেমে প্রার্থনা করার কথা ভাবি?”",
+      "translation_quote": "অথবা এমন কিছু জানতে চাইলে যা আমি জানি না, / তখনই কি থেমে প্রার্থনা করার কথা ভাবি?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, parágrafo da citação de 1Co 9:25\",\"severity\":\"major\",\"source_quote\":\"“And every man that striveth for the mastery is temperate in all things. Now they do it to obtain a corruptible crown; but we an incorruptible –1Co 9:25.”\",\"suggested_fix\":\"Traduza a citação preservando o sentido impresso: quem compete é disciplinado em todas as coisas; eles o fazem para obter uma coroa perecível, mas nós, uma imperecível. Por exemplo: “Todo aquele que compete é disciplinado em tudo. Eles o fazem para obter uma coroa perecível; nós, porém, uma imperecível –1Co 9:25.”\",\"translation_quote\":\"“Todo atleta em treinamento é disciplinado em tudo. Eles o fazem para alcançar uma coroa perecível; nós, porém, uma imperecível –1Co 9:25.”\"},{\"location\":\"HTML, parágrafo sobre a vida cristã morna\",\"severity\":\"major\",\"source_quote\":\"“God is not looking for half-hearted overcomers. He is looking for ‘more than conquerors’.”\",\"suggested_fix\":\"Substitua “vencedores indiferentes” por uma expressão que preserve half-hearted, por exemplo: “Deus não procura vencedores que se empenham apenas pela metade. Ele procura os que são ‘mais que vencedores’.”\",\"translation_quote\":\"“Deus não procura vencedores indiferentes. Ele procura os que são ‘mais que vencedores’.”\"},{\"location\":\"HTML, citação de Hebreus 12:1\",\"severity\":\"major\",\"source_quote\":\"“let us lay aside every weight, and the sin which doth so easily beset us”\",\"suggested_fix\":\"Traduza a citação sem trocar o sentido de beset por “envolve”; por exemplo: “deixemos todo peso e o pecado que tão facilmente nos assedia”.\",\"translation_quote\":\"“deixemos todo peso e o pecado que tão facilmente nos envolve”\"},{\"location\":\"HTML, parágrafo sobre a palavra grega traduzida como “beset”\",\"severity\":\"major\",\"source_quote\":\"“The Greek word for beset describes it as to distract or compete.”\",\"suggested_fix\":\"Mantenha a referência ao termo da citação como “assedia” e traduza a explicação, por exemplo: “A palavra grega traduzida como assedia descreve algo que distrai ou compete.”\",\"translation_quote\":\"“A palavra grega para envolve descreve algo que distrai ou compete.”\"},{\"location\":\"HTML, parágrafo sobre a maldição e a criação\",\"severity\":\"major\",\"source_quote\":\"“All creation travails under the curse that man’s sin in the garden brought on us.”\",\"suggested_fix\":\"Restaure a ideia de que toda a criação geme sob a maldição que o pecado humano no jardim trouxe sobre nós; por exemplo: “Toda a criação geme sob a maldição que o pecado do homem no jardim trouxe sobre nós.”\",\"translation_quote\":\"“Toda a criação geme sob a maldição que o pecado do homem no jardim trouxe sobre nós.”\"},{\"location\":\"HTML, parágrafo sobre o inferno\",\"severity\":\"major\",\"source_quote\":\"“No bottom of gravity—only falling.”\",\"suggested_fix\":\"Traduza a imagem impressa de ausência de fundo/gravity e queda, sem substituir por “sob os pés”; por exemplo: “Sem fundo de gravidade — apenas queda.”\",\"translation_quote\":\"“Nenhum fundo sob os pés — apenas queda.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 3210,
+    "content_evidence_truncated": false,
+    "content_sha256": "634c404187416bd80b91194c22056e26481a3f2f7ac92066a13a247be290fb38",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10673,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10670,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11441
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

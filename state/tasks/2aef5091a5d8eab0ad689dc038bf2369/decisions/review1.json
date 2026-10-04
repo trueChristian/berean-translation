@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Body, paragraph beginning “Those of us who can find tears…”",
+      "severity": "major",
+      "source_quote": "“If it is your case, I beseech you repent of your sins, bewail your condition, and fly to Christ for shelter!”",
+      "suggested_fix": "Replace “nawasihi tubuni dhambi zenu” with “nawasihi mtubu dhambi zenu” to preserve the source’s singular address (“you”) and imperative sense; keep the surrounding HTML unchanged.",
+      "translation_quote": "“Ikiwa hali hiyo ni yenu, nawasihi tubuni dhambi zenu”"
+    },
+    {
+      "location": "Body, paragraph beginning “In the remnant portion of His message…”",
+      "severity": "major",
+      "source_quote": "“anti-abortion/anti-gay agendas”",
+      "suggested_fix": "Replace “ajenda za kupinga utoaji mimba na ushoga” with “ajenda za kupinga utoaji mimba na haki za mashoga” (or another faithful Kiswahili rendering of opposition to gay people/causes); the current wording can be read as opposing homosexuality itself rather than the source’s stated political agendas.",
+      "translation_quote": "“ajenda za kupinga utoaji mimba na ushoga”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

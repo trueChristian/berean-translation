@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “In His suffering for us” — Isaiah 53:10–11 quotation",
+      "severity": "major",
+      "source_quote": "He shall see of the travail of his soul, and shall be satisfied…",
+      "suggested_fix": "Replace the quoted portion with: “Sesudah kesusahan jiwanya, ia akan melihat hasilnya dan menjadi puas…” This preserves the printed meaning without adding “light.”",
+      "translation_quote": "Sesudah kesusahan jiwanya ia akan melihat terang dan menjadi puas…"
+    },
+    {
+      "location": "HTML, final paragraph before the closing symbols",
+      "severity": "minor",
+      "source_quote": "hordes of humanity flocked the theaters",
+      "suggested_fix": "Change “berbondong-bondong orang berbondong-bondong memenuhi bioskop” to “berbondong-bondong orang memenuhi bioskop.”",
+      "translation_quote": "berbondong-bondong orang berbondong-bondong memenuhi bioskop"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

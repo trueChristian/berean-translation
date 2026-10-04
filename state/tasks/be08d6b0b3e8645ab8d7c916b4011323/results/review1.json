@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0026e34a-3f30-4484-a731-49c5b0583ee5",
+    "response_id": "chatcmpl-EV20Qn1T2DLUOGZeyXLRH4VhCihGh",
+    "usage": {
+      "completion_tokens": 821,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 636,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9294,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9291,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10115
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph under “Physical Touch”",
+        "severity": "minor",
+        "source_quote": "babies were whisked away to the nursery",
+        "suggested_fix": "Replace “kwekery” with “babakamer” or “babasorgafdeling” to convey the hospital nursery in this context.",
+        "translation_quote": "babas die oomblik ná hulle geboorte na die kwekery weggeneem is"
+      },
+      {
+        "location": "source.title",
+        "severity": "minor",
+        "source_quote": "Holding the Hearts of our Children",
+        "suggested_fix": "Consider “Om die harte van ons kinders te wen en te behou” to reflect the article’s explanation of “hold” as “get and keep.”",
+        "translation_quote": "Om die harte van ons kinders te behou"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

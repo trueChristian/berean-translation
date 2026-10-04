@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "00b071a3-9218-4b05-b511-466f86e3310e",
+    "response_id": "chatcmpl-EV20ZNHJbl5chFKwv1F21fcime99w",
+    "usage": {
+      "completion_tokens": 1028,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 824,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6000,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5997,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7028
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Scripture reference in the second paragraph",
+        "severity": "minor",
+        "source_quote": "–2Pe 3:3-4.",
+        "suggested_fix": "Use the conventional German book abbreviation while preserving the chapter and verse range, for example: „–2Petr 3:3-4.“",
+        "translation_quote": "–2Pe 3:3-4."
+      },
+      {
+        "location": "HTML, Peter Gray quotation",
+        "severity": "minor",
+        "source_quote": "children need to develop healthily and happily—[have] time to play and explore.",
+        "suggested_fix": "Avoid repeating the bracketed correction; render the sentence as: „Kinder müssen sich gesund und glücklich entwickeln – [sie brauchen] Zeit zum Spielen und Entdecken.“",
+        "translation_quote": "Kinder sich gesund und glücklich entwickeln müssen – sie brauchen [sie brauchen] Zeit zum Spielen und Entdecken."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

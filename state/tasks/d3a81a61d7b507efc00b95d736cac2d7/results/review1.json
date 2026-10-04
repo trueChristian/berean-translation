@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a86b1b85-af33-47cd-ac1b-2f9e973d05cf",
+    "response_id": "chatcmpl-EV20QiDj4Lbuuo7AJ1QrMhclFvnJk",
+    "usage": {
+      "completion_tokens": 621,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2116,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2113,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2737
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line 22",
+        "severity": "major",
+        "source_quote": "He knew with no doubt that he was made whole.",
+        "suggested_fix": "Ήξερε χωρίς καμιά αμφιβολία πως είχε αποκατασταθεί πλήρως.",
+        "translation_quote": "Ήξερε, χωρίς καμιά αμφιβολία, πως είχε γίνει καινούργιος."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

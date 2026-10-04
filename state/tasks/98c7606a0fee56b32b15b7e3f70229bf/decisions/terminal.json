@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 2",
+      "severity": "minor",
+      "source_quote": "Joy is a blessing for us believers below.",
+      "suggested_fix": "हम पृथ्वी पर रहने वाले विश्वासियों के लिए आनंद एक आशीष है।",
+      "translation_quote": "आनंद हम विश्वासियों के लिए एक आशीष है।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

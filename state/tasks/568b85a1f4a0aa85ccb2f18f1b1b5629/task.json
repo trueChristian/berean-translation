@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 8423
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 232,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8237,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8234,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8469
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, avsnitt 10",
+      "severity": "major",
+      "source_quote": "God has not given us the spirit of fear, but of power, of love and a sound mind.",
+      "suggested_fix": "Erstatt setningen med «Gud har ikke gitt oss en ånd av frykt, men av kraft, kjærlighet og sindighet.»",
+      "translation_quote": "Gud har ikke gitt oss en ånd som gjør motløs, men en ånd som gir kraft, kjærlighet og sindighet."
+    },
+    {
+      "location": "HTML, avsnitt 13",
+      "severity": "major",
+      "source_quote": "We are called to honor the king and we need to spend more time thanking God for our freedoms than maximizing on the negative",
+      "suggested_fix": "Erstatt «enn på å dvele ved det negative» med «enn på å legge vekt på det negative».",
+      "translation_quote": "Vi er kalt til å ære kongen, og vi bør bruke mer tid på å takke Gud for friheten vår enn på å dvele ved det negative"
+    }
+  ],
   "id": "568b85a1f4a0aa85ccb2f18f1b1b5629",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "nob",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

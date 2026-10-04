@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph on Paul’s prophecy",
+      "severity": "minor",
+      "source_quote": "–2Ti 3:2.",
+      "suggested_fix": "Gunakan bentuk singkatan kitab yang lazim dalam bahasa Indonesia: –2Tim 3:2.",
+      "translation_quote": "–2Ti 3:2."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

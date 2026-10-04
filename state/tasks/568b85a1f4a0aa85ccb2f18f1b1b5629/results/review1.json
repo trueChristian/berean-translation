@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b798a6ad-4d82-42b5-b89b-d568fe1f097e",
+    "response_id": "chatcmpl-EV20P3QxliPdZwTfBu4tR2MIxg5A3",
+    "usage": {
+      "completion_tokens": 232,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8237,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8234,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8469
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, avsnitt 10",
+        "severity": "major",
+        "source_quote": "God has not given us the spirit of fear, but of power, of love and a sound mind.",
+        "suggested_fix": "Erstatt setningen med «Gud har ikke gitt oss en ånd av frykt, men av kraft, kjærlighet og sindighet.»",
+        "translation_quote": "Gud har ikke gitt oss en ånd som gjør motløs, men en ånd som gir kraft, kjærlighet og sindighet."
+      },
+      {
+        "location": "HTML, avsnitt 13",
+        "severity": "major",
+        "source_quote": "We are called to honor the king and we need to spend more time thanking God for our freedoms than maximizing on the negative",
+        "suggested_fix": "Erstatt «enn på å dvele ved det negative» med «enn på å legge vekt på det negative».",
+        "translation_quote": "Vi er kalt til å ære kongen, og vi bør bruke mer tid på å takke Gud for friheten vår enn på å dvele ved det negative"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

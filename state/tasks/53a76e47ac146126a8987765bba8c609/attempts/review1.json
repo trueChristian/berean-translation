@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line 12\",\"severity\":\"major\",\"source_quote\":\"He decided to go, but just not today.\",\"suggested_fix\":\"Akaamua kwenda, lakini si leo.\",\"translation_quote\":\"Akaamua kwenda, lakini si leo tu.\"},{\"location\":\"Poem, line 20\",\"severity\":\"major\",\"source_quote\":\"It all seemed so clear! He wept as he broke.\",\"suggested_fix\":\"Yote yalionekana wazi kabisa! Alilia alipovunjika moyo.\",\"translation_quote\":\"Yote yakawa wazi sana! Alilia moyo wake ulipovunjika.\"},{\"location\":\"Poem, final line\",\"severity\":\"major\",\"source_quote\":\"He could hardly wait, to be who God made him to be.\",\"suggested_fix\":\"Hakuweza kusubiri kuwa yule ambaye Mungu alikusudia awe.\",\"translation_quote\":\"Hakuweza kusubiri kuwa vile Mungu alivyomuumba awe.\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 777,
+    "content_evidence_truncated": false,
+    "content_sha256": "bc23c24c50dcefbbd8fedc836b9984aa03488a6fb741dff077734fb1b4e8f054",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 211,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1972,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1969,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2183
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

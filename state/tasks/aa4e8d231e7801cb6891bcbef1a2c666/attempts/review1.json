@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first poem stanza, line 1\",\"severity\":\"major\",\"source_quote\":\"The early church in olden days\",\"suggested_fix\":\"De vroege kerk in vroeger dagen\",\"translation_quote\":\"De kerk in vroeger dagen\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 251,
+    "content_evidence_truncated": false,
+    "content_sha256": "21e251d6fab4b602c86a04d4565f4b0eebebbdbc61a2c9bef154b2b0688f5300",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 687,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2507,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2504,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3275
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

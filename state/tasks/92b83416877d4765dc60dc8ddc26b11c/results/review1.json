@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7867d21d-4213-4970-9386-7373db29472d",
+    "response_id": "chatcmpl-EV20QY0wAMgouxPSkpiXMmJzCcd0N",
+    "usage": {
+      "completion_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 820,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9438,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9435,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10432
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning «I hans lidelse for oss»; Isaiah 53:10 quotation",
+        "severity": "major",
+        "source_quote": "he hath put him to grief",
+        "suggested_fix": "Erstatt «han har gjort ham syk» med for eksempel «han har påført ham lidelse» for å bevare meningen i kildeteksten.",
+        "translation_quote": "han har gjort ham syk"
+      },
+      {
+        "location": "HTML paragraph beginning «Gråt ikke over korsfestelsen»",
+        "severity": "minor",
+        "source_quote": "the old rugged cross",
+        "suggested_fix": "Endre «den gamle, grove korset» til «det gamle, grove korset».",
+        "translation_quote": "den gamle, grove korset"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

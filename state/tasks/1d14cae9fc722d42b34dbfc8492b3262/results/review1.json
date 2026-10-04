@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6f7fe7f4-d870-4809-ac7c-05ed62bae82a",
+    "response_id": "chatcmpl-EV21oxpLWraDC5ZprmiV7FT5IX8Xn",
+    "usage": {
+      "completion_tokens": 368,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9216,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9213,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9584
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "लेख का मध्य भाग; प्रेरितों के काम 5:32-33 का उद्धरण",
+        "severity": "major",
+        "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them”",
+        "suggested_fix": "उद्धरण में “वे क्रोध से भर गए” की जगह “उनका मन व्यथित हुआ” या “वे मन में कटे” जैसा वाक्यांश रखें, ताकि स्रोत के ‘cut to the heart’ का अर्थ बना रहे। आगे “उन्हें मार डालने की सलाह करने लगे” यथावत रह सकता है।",
+        "translation_quote": "“यह सुनकर वे क्रोध से भर गए, और उन्हें मार डालने की सलाह करने लगे”"
+      },
+      {
+        "location": "लेख का अंतिम उद्धरण; भजन संहिता 51:17",
+        "severity": "major",
+        "source_quote": "“The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise”",
+        "suggested_fix": "उद्धरण को इस अर्थ में संशोधित करें: “परमेश्वर के बलिदान टूटे मन के हैं; हे परमेश्वर, टूटे और पश्चात्तापी हृदय को तू तुच्छ न जानेगा।” मौजूदा अनुवाद में ‘contrite’ का पश्चात्तापी भाव और “thou wilt not despise” का निषेध/भविष्य अर्थ स्पष्ट करें।",
+        "translation_quote": "“परमेश्वर के योग्य बलिदान मन से टूटना है; हे परमेश्वर, तू टूटे और पिसे हुए मन को तुच्छ नहीं जानता”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

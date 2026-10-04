@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, восьмая строфа, последняя строка",
+      "severity": "minor",
+      "source_quote": "For whatever may come in tomorrow.",
+      "suggested_fix": "Заменить «Что бы ни принесло завтрашнее утро» на «Что бы ни принесло завтра», чтобы не сужать смысл до событий именно утром.",
+      "translation_quote": "Что бы ни принесло завтрашнее утро."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning « En un temps comme celui-ci »",
+      "severity": "major",
+      "source_quote": "God has not given us the spirit of fear, but of power, of love and a sound mind.",
+      "suggested_fix": "Remplacer « un esprit de peur, mais de puissance, d’amour et de sagesse » par « un esprit de peur, mais de puissance, d’amour et de maîtrise de soi » pour préserver le sens de « a sound mind ».",
+      "translation_quote": "Dieu ne nous a pas donné un esprit de peur, mais de puissance, d’amour et de sagesse."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

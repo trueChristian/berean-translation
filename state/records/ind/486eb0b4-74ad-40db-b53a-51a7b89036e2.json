@@ -6,9 +6,32 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "c2dc2ecd13e2040ccde90820a71d4b8f"
+    },
+    {
+      "at": "2026-10-04T00:10:39+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "c2dc2ecd13e2040ccde90820a71d4b8f"
     }
   ],
   "language": "ind",
   "latest_task": "c2dc2ecd13e2040ccde90820a71d4b8f",
-  "published": null
+  "published": {
+    "html_path": "content/ind/articles/486eb0b4-74ad-40db-b53a-51a7b89036e2.html",
+    "html_sha256": "b37be1cdeca80e1181c3244e20ff9b64f8f278cf0b7eaf293631818f7c55a075",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "metadata_path": "content/ind/articles/486eb0b4-74ad-40db-b53a-51a7b89036e2.json",
+    "metadata_sha256": "225740defff5d9f1126b326207cf04e6ea3ec826be7cc7dd26a16d400b24b65c",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"id\" dir=\"ltr\" role=\"note\">\n  <p>Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: gpt-6-luna) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris. <a href=\"/en/articles/486eb0b4-74ad-40db-b53a-51a7b89036e2/\" data-source-article-id=\"486eb0b4-74ad-40db-b53a-51a7b89036e2\" hreflang=\"en\">Naskah asli bahasa Inggris</a></p>\n</aside>",
+    "published_at": "2026-10-04T00:10:39+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+    "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
+    "task": "c2dc2ecd13e2040ccde90820a71d4b8f",
+    "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48"
+  }
 }

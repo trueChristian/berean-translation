@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "অনুচ্ছেদ: ‘এ ধরনের তথ্য পৃথিবী যে পথে এগোচ্ছে…’",
+      "severity": "major",
+      "source_quote": "daycare centers for children of working parents would go out of business",
+      "suggested_fix": "<p>…কর্মজীবী বাবা-মায়ের সন্তানদের জন্য থাকা শিশু পরিচর্যাকেন্দ্রগুলো বন্ধ হয়ে যাবে…</p>",
+      "translation_quote": "কর্মজীবী বাবা-মায়ের সন্তানদের শিশু পরিচর্যাকেন্দ্রগুলো ব্যবসা বন্ধ করে দেবে"
+    },
+    {
+      "location": "অনুচ্ছেদ: ‘দুই ভিন্ন পরিচারকের বলা…’",
+      "severity": "major",
+      "source_quote": "two different ministers",
+      "suggested_fix": "‘দুই ভিন্ন মন্ত্রীর বলা কয়েকটি কথা’ লিখুন।",
+      "translation_quote": "দুই ভিন্ন পরিচারকের বলা কয়েকটি কথা"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

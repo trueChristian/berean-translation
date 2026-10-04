@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, stanza 4\",\"severity\":\"major\",\"source_quote\":\"A lot of folks were burned at stake,\",\"suggested_fix\":\"أُحرق كثيرون وهم مربوطون إلى أوتاد،\",\"translation_quote\":\"أُحرق كثيرون على الخوازيق،\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 306,
+    "content_evidence_truncated": false,
+    "content_sha256": "ec5e45c0448cde7a539dca59093bf99debd9d42f3b9aea410de2a0c980375296",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 460,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2621,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2618,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3169
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

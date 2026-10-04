@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza 1\",\"severity\":\"major\",\"source_quote\":\"The early church in olden days / Had a desire to tell\",\"suggested_fix\":\"Заменить первые две строки на «Ранняя церковь в давние времена / Стремилась рассказать», сохранив структуру и разметку.\",\"translation_quote\":\"Давным-давно в ранней церкви / Было желание поведать\"},{\"location\":\"HTML, stanza 6\",\"severity\":\"major\",\"source_quote\":\"“Be an example to the world; / You need not tell the way.”\",\"suggested_fix\":\"Исправить вторую строку на «Не нужно указывать путь», чтобы сохранить образ «tell the way» — указывать путь, а не рассказывать о пути.\",\"translation_quote\":\"«Будь примером для мира; / Не нужно рассказывать о пути».\"},{\"location\":\"HTML, stanza 7\",\"severity\":\"major\",\"source_quote\":\"As did the church in olden days, / Why doesn’t our church grow?\",\"suggested_fix\":\"Заменить первые две строки на «Как церковь в давние времена, / Почему же наша церковь не растёт?», передав сравнение, а не условие или утверждение о росте.\",\"translation_quote\":\"Если церковь росла в давние времена, / Почему же наша церковь не растёт?\"},{\"location\":\"HTML, stanza 12\",\"severity\":\"major\",\"source_quote\":\"Or is it ‘cause we aren’t a “threat” / To the society?\",\"suggested_fix\":\"Заменить начало строфы на «Или потому, что мы не представляем „угрозы“ / Для общества?», сохранив прямую причинную связь оригинала.\",\"translation_quote\":\"Или причина в том, что мы не представляем «угрозы» / Для общества?\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 2137,
+    "content_evidence_truncated": false,
+    "content_sha256": "49c029a35fdf04f3d2148c4b4965f157aa2cd031968161f030e2d60e387c4a29",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 406,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2584,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2581,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2990
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

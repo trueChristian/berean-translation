@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 9348
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 505,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 414,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9164,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9161,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9669
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "본문, 사도행전 5장에 관한 문단",
+      "severity": "minor",
+      "source_quote": "but they were not there.",
+      "suggested_fix": "해당 문구를 “그러나 그들은 거기에 없었습니다.”로 고치십시오.",
+      "translation_quote": "하지만 그들은 այնտեղ 없었습니다."
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:38+00:00",
   "id": "6a489980c7a429e5869480921c9bc145",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "kor",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

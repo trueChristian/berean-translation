@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 12",
+      "severity": "major",
+      "source_quote": "He decided to go, but just not today.",
+      "suggested_fix": "Akaamua kwenda, lakini si leo.",
+      "translation_quote": "Akaamua kwenda, lakini si leo tu."
+    },
+    {
+      "location": "Poem, line 20",
+      "severity": "major",
+      "source_quote": "It all seemed so clear! He wept as he broke.",
+      "suggested_fix": "Yote yalionekana wazi kabisa! Alilia alipovunjika moyo.",
+      "translation_quote": "Yote yakawa wazi sana! Alilia moyo wake ulipovunjika."
+    },
+    {
+      "location": "Poem, final line",
+      "severity": "major",
+      "source_quote": "He could hardly wait, to be who God made him to be.",
+      "suggested_fix": "Hakuweza kusubiri kuwa yule ambaye Mungu alikusudia awe.",
+      "translation_quote": "Hakuweza kusubiri kuwa vile Mungu alivyomuumba awe."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

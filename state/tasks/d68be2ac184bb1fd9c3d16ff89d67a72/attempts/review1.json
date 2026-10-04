@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf yang mengutip 2 Timotius 1:7\",\"severity\":\"major\",\"source_quote\":\"“the spirit of fear; but of power, and of love, and of a sound mind”\",\"suggested_fix\":\"Ganti «roh yang membangkitkan kekuatan, kasih dan ketertiban» dengan «roh ketakutan, melainkan roh yang membangkitkan kekuatan, kasih, dan pikiran yang sehat». Ini mempertahankan kontras dalam sumber dan makna “sound mind” yang dibahas dalam paragraf berikutnya.\",\"translation_quote\":\"«roh ketakutan, melainkan roh yang membangkitkan kekuatan, kasih dan ketertiban –2Ti 1:7»\"},{\"location\":\"Rujukan Alkitab dalam artikel\",\"severity\":\"minor\",\"source_quote\":\"“–Mat 6:27, 34”; “–1Pe 4: 12-13”; “–2Ti 1:7”; “–Luk 10:27”; “–Joh 16:33”\",\"suggested_fix\":\"Gunakan bentuk nama kitab yang lazim dalam Bahasa Indonesia, dengan mempertahankan nomor ayat, rentang, serta jumlah dan posisi rujukannya: misalnya «Mat» → «Mat»/«Matius», «1Pe» → «1Ptr», «2Ti» → «2Tim», dan «Joh» → «Yoh»; pertahankan «Luk» jika memakai singkatan yang lazim.\",\"translation_quote\":\"«–Mat 6:27, 34»; «–1Pe 4: 12-13»; «–2Ti 1:7»; «–Luk 10:27»; «–Joh 16:33»\"},{\"location\":\"Paragraf tentang slogan “No Fear”\",\"severity\":\"minor\",\"source_quote\":\"“the lawless slogan of the 1990s, ‘No Fear’”\",\"suggested_fix\":\"Ganti «slogan tanpa hukum tahun 1990-an» dengan ungkapan seperti «slogan “No Fear” yang menentang norma pada tahun 1990-an» agar makna «lawless» tidak terbaca harfiah sebagai «tanpa hukum».\",\"translation_quote\":\"«slogan tanpa hukum tahun 1990-an, “Tanpa Takut”»\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1669,
+    "content_evidence_truncated": false,
+    "content_sha256": "dc703541bec9606043ebce05b6e098e595991a4b6d3192262a13cff6872ec81a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1172,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5356,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5353,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6528
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

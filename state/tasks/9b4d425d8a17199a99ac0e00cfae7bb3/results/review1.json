@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f7599012-b5ea-4f91-8f41-257b5cbf4109",
+    "response_id": "chatcmpl-EV20QrI3RpFp6pINHONhvDiPYOX4w",
+    "usage": {
+      "completion_tokens": 975,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 810,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9296,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9293,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10271
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article paragraph beginning “It is sad that today…”; quoted passage from Acts 23:1–24:16",
+        "severity": "major",
+        "source_quote": "…to have always a conscience void of offence toward God, and toward men",
+        "suggested_fix": "Replace «اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھنے کی کوشش کرتے ہیں» with «اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھتے ہیں» to preserve the source’s assertion rather than turn it into an effort or aspiration.",
+        "translation_quote": "…اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھنے کی کوشش کرتے ہیں۔"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

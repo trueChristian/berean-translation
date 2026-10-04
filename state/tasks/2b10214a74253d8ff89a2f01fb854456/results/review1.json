@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "58c4be3f-b6b1-4b30-8603-fe32a0bfdbda",
+    "response_id": "chatcmpl-EV20mzR18DxQP7ZSnllbqD8X3cSIb",
+    "usage": {
+      "completion_tokens": 1160,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 978,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11391,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12554
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning «Στο τελευταίο μέρος του μηνύματός του»",
+        "severity": "major",
+        "source_quote": "“anti-abortion/anti-gay agendas”",
+        "suggested_fix": "Replace «ατζέντες κατά των αμβλώσεων και των ομοφυλοφίλων» with «ατζέντες κατά των αμβλώσεων και υπέρ της αντίθεσης στα δικαιώματα των ομοφυλοφίλων» (or another phrasing that clearly refers to anti-gay political agendas, not opposition to gay people as people).",
+        "translation_quote": "«ατζέντες κατά των αμβλώσεων και των ομοφυλοφίλων»"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

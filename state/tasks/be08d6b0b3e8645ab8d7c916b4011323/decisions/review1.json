@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph under “Physical Touch”",
+      "severity": "minor",
+      "source_quote": "babies were whisked away to the nursery",
+      "suggested_fix": "Replace “kwekery” with “babakamer” or “babasorgafdeling” to convey the hospital nursery in this context.",
+      "translation_quote": "babas die oomblik ná hulle geboorte na die kwekery weggeneem is"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Holding the Hearts of our Children",
+      "suggested_fix": "Consider “Om die harte van ons kinders te wen en te behou” to reflect the article’s explanation of “hold” as “get and keep.”",
+      "translation_quote": "Om die harte van ons kinders te behou"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

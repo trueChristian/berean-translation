@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cb1a8cb2-0533-42fa-9878-1e4955c3bdb3",
+    "response_id": "chatcmpl-EV20PNPF470y5QGkekZ8fIZWns8Ex",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 446,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1766,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1763,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2441
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, lines 9–10",
+        "severity": "minor",
+        "source_quote": "It doesn’t forsake us; through the struggles we face. But rather gives courage and keeps us in grace.",
+        "suggested_fix": "Δεν μας εγκαταλείπει μέσα στους αγώνες που αντιμετωπίζουμε· αντίθετα, μας δίνει θάρρος και μας κρατά στη χάρη.",
+        "translation_quote": "Δεν μας εγκαταλείπει· ούτε μέσα στους αγώνες που αντιμετωπίζουμε. Αντίθετα, μας δίνει θάρρος και μας κρατά στη χάρη."
+      },
+      {
+        "location": "Poem, final line",
+        "severity": "minor",
+        "source_quote": "Turn to the Saviour and His redeeming love!",
+        "suggested_fix": "Στρέψου στον Σωτήρα και στη λυτρωτική Του αγάπη!",
+        "translation_quote": "Στρέψου στον Σωτήρα και στην λυτρωτική Του αγάπη!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

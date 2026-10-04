@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning «I hans lidelse for oss»; Isaiah 53:10 quotation",
+      "severity": "major",
+      "source_quote": "he hath put him to grief",
+      "suggested_fix": "Erstatt «han har gjort ham syk» med for eksempel «han har påført ham lidelse» for å bevare meningen i kildeteksten.",
+      "translation_quote": "han har gjort ham syk"
+    },
+    {
+      "location": "HTML paragraph beginning «Gråt ikke over korsfestelsen»",
+      "severity": "minor",
+      "source_quote": "the old rugged cross",
+      "suggested_fix": "Endre «den gamle, grove korset» til «det gamle, grove korset».",
+      "translation_quote": "den gamle, grove korset"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

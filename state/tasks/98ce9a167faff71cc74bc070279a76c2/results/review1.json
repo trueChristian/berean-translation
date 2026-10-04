@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c5a372f4-eebe-4174-8964-c6e63047b25b",
+    "response_id": "chatcmpl-EV20Q0HAFgO0UDrdftleoj3cVkTZU",
+    "usage": {
+      "completion_tokens": 812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 659,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10871,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10868,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11683
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "Holding the Hearts of our Children",
+        "suggested_fix": "Κερδίζοντας και διατηρώντας τις καρδιές των παιδιών μας",
+        "translation_quote": "Κερδίζοντας την καρδιά των παιδιών μας"
+      },
+      {
+        "location": "html, Summary paragraph",
+        "severity": "minor",
+        "source_quote": "Proverbs 17:6 says",
+        "suggested_fix": "Το βιβλίο των Παροιμιών 17:6 λέει:",
+        "translation_quote": "Το Παροιμίες 17:6 λέει:"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

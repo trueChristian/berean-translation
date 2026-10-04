@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 9437
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 975,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 810,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9296,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9293,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10271
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article paragraph beginning “It is sad that today…”; quoted passage from Acts 23:1–24:16",
+      "severity": "major",
+      "source_quote": "…to have always a conscience void of offence toward God, and toward men",
+      "suggested_fix": "Replace «اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھنے کی کوشش کرتے ہیں» with «اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھتے ہیں» to preserve the source’s assertion rather than turn it into an effort or aspiration.",
+      "translation_quote": "…اور خدا اور انسانوں کے سامنے ہمیشہ بےالزام ضمیر رکھنے کی کوشش کرتے ہیں۔"
+    }
+  ],
   "id": "9b4d425d8a17199a99ac0e00cfae7bb3",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "urd",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

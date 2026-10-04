@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «По словам одного из родителей»\",\"severity\":\"major\",\"source_quote\":\"“the whole family now eats three unrushed and healthy meals together every day”\",\"suggested_fix\":\"Заменить «теперь вся семья каждый день вместе без спешки ест три здоровых блюда» на «теперь вся семья каждый день без спешки вместе ест три раза здоровую пищу» или «теперь вся семья каждый день без спешки вместе ест три здоровых приёма пищи»; в оригинале речь о трёх приёмах пищи, а не о трёх блюдах.\",\"translation_quote\":\"«теперь вся семья каждый день вместе без спешки ест три здоровых блюда»\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 978,
+    "content_evidence_truncated": false,
+    "content_sha256": "7a600f05bfc2e24322e3c8cf7245d2a04553615725b37e2d307854c2944908ed",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6090,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6787
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

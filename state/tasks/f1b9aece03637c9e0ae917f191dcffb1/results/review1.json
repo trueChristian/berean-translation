@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "17597aa1-eca3-9514-b642-69cae4df3352",
+    "response_id": "chatcmpl-EV21B4C9a58h7e50msFwIWPpqGgvi",
+    "usage": {
+      "completion_tokens": 983,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 655,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5057,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5054,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6040
+    }
+  },
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3, quoted Matthew 6:27",
+        "severity": "minor",
+        "source_quote": "add one cubit unto his stature",
+        "suggested_fix": "Replace “uma só medida à sua estatura” with “um côvado à sua estatura” to preserve the specific unit in the source quotation.",
+        "translation_quote": "pode acrescentar uma só medida à sua estatura?"
+      },
+      {
+        "location": "Paragraph 10",
+        "severity": "minor",
+        "source_quote": "Just break, give in to the fire, the damp dark earth, the confining chrysalis, and the pain.",
+        "suggested_fix": "Clarify the shell metaphor, for example: “Apenas rompa essa casca; ceda ao fogo, à terra úmida e escura, à crisálida apertada e à dor.”",
+        "translation_quote": "Apenas se quebre, ceda ao fogo, à terra úmida e escura, à crisálida apertada e à dor."
+      },
+      {
+        "location": "Paragraph 11",
+        "severity": "minor",
+        "source_quote": "Radically different then the lawless slogan of the 1990s, “No Fear”",
+        "suggested_fix": "Use a natural Portuguese equivalent that conveys “lawless” as lacking moral restraint, for example: “Em contraste radical com o slogan sem princípios dos anos 1990, ‘Sem medo’...”",
+        "translation_quote": "Em contraste radical com o slogan sem lei dos anos 1990, “Sem medo”"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

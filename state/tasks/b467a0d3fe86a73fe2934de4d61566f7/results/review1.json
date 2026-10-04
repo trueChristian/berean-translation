@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a6f01b6b-814a-4fc4-8bed-1599f052b598",
+    "response_id": "chatcmpl-EV21IUWGPJUCp2Mn9uOfmBiLlj4GH",
+    "usage": {
+      "completion_tokens": 148,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1948,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1945,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2096
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, strofa 8, terzo verso",
+        "severity": "major",
+        "source_quote": "The unknowns in His hands, He’ll be at your side",
+        "suggested_fix": "Sostituire con: <p>Cercarlo e ricercarlo, restargli accanto,<br>\n    condividere la gioia e il dolore;<br>\n    le incognite nelle Sue mani, Egli sarà al tuo fianco<br>\n    qualunque cosa possa portare il domani.</p>",
+        "translation_quote": "gli ignoti nelle Sue mani, Egli sarà al tuo fianco"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

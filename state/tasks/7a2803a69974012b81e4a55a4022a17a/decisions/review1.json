@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraf kedua",
+      "severity": "minor",
+      "source_quote": "And God hates stealing!",
+      "suggested_fix": "Dan Allah membenci pencurian!",
+      "translation_quote": "Dan Allah membenci pencurian!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

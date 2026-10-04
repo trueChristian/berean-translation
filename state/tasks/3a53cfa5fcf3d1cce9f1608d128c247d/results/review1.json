@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "87f60ad8-c3d8-4154-ab63-682480cd4c11",
+    "response_id": "chatcmpl-EV21EukM9GtjnTLT8n4bcAaeodqNH",
+    "usage": {
+      "completion_tokens": 251,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1960,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1957,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2211
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, القصيدة، المقطع الرابع",
+        "severity": "major",
+        "source_quote": "How can you call Him your best friend / When it’s only in your trials / That on Him you will depend?",
+        "suggested_fix": "استبدل الأسطر المقابلة بـ«كيف تدعوه أعز أصدقائك / إذا كنت لا تعتمد عليه / إلا في محنتك؟» مع الحفاظ على وسوم HTML وترتيبها.",
+        "translation_quote": "كيف تدعوه أعز أصدقائك، / إن كنت لا تعتمد عليه / إلا حين تشتد محنتك؟"
+      },
+      {
+        "location": "HTML، القصيدة، المقطع الثامن",
+        "severity": "major",
+        "source_quote": "The unknowns in His hands, He’ll be at your side",
+        "suggested_fix": "استبدل العبارة بـ«ضع المجهولات بين يديه، وسيكون إلى جانبك» أو صياغة عربية تحفظ أن الأمور المجهولة في يديه وأنه سيكون إلى جانبك، مع إبقاء الوسم والترتيب كما هما.",
+        "translation_quote": "وما يخفى عليك بين يديه؛ وسيكون إلى جانبك"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

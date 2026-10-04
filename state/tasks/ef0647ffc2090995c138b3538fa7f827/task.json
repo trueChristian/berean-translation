@@ -2,7 +2,6 @@
   "article_id": "8d1b7c4e-266c-4820-ac8b-ab0b2be527f4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 9521
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 957,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 719,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9322,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9319,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10279
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “This season of a child’s life is a time of learning and doing.”",
+      "severity": "minor",
+      "source_quote": "“After hundreds of failed attempts Tom Edison finally invented a functional light bulb.”",
+      "suggested_fix": "Replace “Baada ya majaribio mengi yaliyoshindikana” with “Baada ya mamia ya majaribio yaliyoshindikana” to preserve the stated number.",
+      "translation_quote": "“Baada ya majaribio mengi yaliyoshindikana, hatimaye Tom Edison alibuni balbu iliyofanya kazi.”"
+    },
+    {
+      "location": "Paragraph beginning “We are training children to become adults…”",
+      "severity": "minor",
+      "source_quote": "“allowing them to become critical thinkers”",
+      "suggested_fix": "Replace “watu wanaofikiri kwa makini” with “watu wanaofikiri kwa kina na kuchambua mawazo” to convey critical thinking.",
+      "translation_quote": "“kuwaacha wawe watu wanaofikiri kwa makini”"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:40+00:00",
   "id": "ef0647ffc2090995c138b3538fa7f827",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swa",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/65785ce7b082d19dffcb2a3d623a53de85d2467ed7c2f2dbf511d1de1c4d9df2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "fa715b378ed9f0043127807f4a71e2ad651107ad3e42b48d2ea6601d6baa699a",
   "translation_model_actual": "gpt-6-luna"

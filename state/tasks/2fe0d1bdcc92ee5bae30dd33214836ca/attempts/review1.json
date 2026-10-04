@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, line beginning “He knew with no doubt”\",\"severity\":\"major\",\"source_quote\":\"He knew with no doubt that he was made whole.\",\"suggested_fix\":\"उसे पूरा विश्वास हो गया कि परमेश्वर ने उसे पूरी तरह बहाल कर दिया था।\",\"translation_quote\":\"उसे पूरा विश्वास हो गया कि वह नया हो गया है।\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 522,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac7d8cace921d106f2b57cecc662e8b2a0b6d6f2d6e0ae95b0a17cc40bbb589c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 600,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 497,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2011,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2614
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

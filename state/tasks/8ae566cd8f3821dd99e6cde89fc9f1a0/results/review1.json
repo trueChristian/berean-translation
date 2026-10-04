@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "01892aee-5aee-49da-af57-d84efc5996e2",
+    "response_id": "chatcmpl-EV20iZ3EeN2AGze5DUb9SAlLgU2nC",
+    "usage": {
+      "completion_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 505,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1650,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2355
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem, line 14",
+        "severity": "major",
+        "source_quote": "It’s for the redeemed, and the life that he lives.",
+        "suggested_fix": "Vervang door: “Zij is voor de verlosten, en voor het leven dat zij leiden.” Zo blijft het leven verbonden met de verlosten, zoals in de bron, in plaats van met God.",
+        "translation_quote": "Zij is voor de verlosten, en voor het leven dat Hij leidt."
+      },
+      {
+        "location": "HTML, image alt-tekst",
+        "severity": "minor",
+        "source_quote": "Layered blue mountains beneath a warm peach-colored sky",
+        "suggested_fix": "Pas de verbuiging aan: “Gelaagde blauwe bergen onder een warme perzikkleurige hemel”.",
+        "translation_quote": "Gelaagde blauwe bergen onder een warm perzikkleurige hemel"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

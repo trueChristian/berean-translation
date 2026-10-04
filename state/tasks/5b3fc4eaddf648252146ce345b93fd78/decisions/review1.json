@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Tunapoanza kufanya mambo…” (David and Bathsheba account)",
+      "severity": "major",
+      "source_quote": "“It was the time when kings went forth to battle, and they had a battle going with the children of Ammon. But David tarried still at Jerusalem.”",
+      "suggested_fix": "Replace “Ulikuwa wakati ambao wafalme huenda vitani, nao walikuwa vitani na wana wa Amoni. Lakini Daudi akabaki Yerusalemu.” with “Ulikuwa wakati ambao wafalme huenda vitani, nao walikuwa vitani na wana wa Amoni. Lakini Daudi alibaki Yerusalemu.” The source says David remained in Jerusalem, not that he stayed there after an implied completed action.",
+      "translation_quote": "“Ulikuwa wakati ambao wafalme huenda vitani, nao walikuwa vitani na wana wa Amoni. Lakini Daudi akabaki Yerusalemu.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Daudi angeweza kumkasirikia Nathani…”",
+      "severity": "major",
+      "source_quote": "“When we want a clear conscience, I believe people around us will know that and it will be easy for them to come and talk to us about sin in our lives.”",
+      "suggested_fix": "Replace “Ninapoamini kwamba tunataka dhamiri safi, watu walio karibu nasi watajua hilo” with “Ninaamini kwamba tunapotaka dhamiri safi, watu walio karibu nasi watalijua hilo”. The translation currently says “when I believe,” changing the author’s claim into a condition about the narrator’s belief.",
+      "translation_quote": "“Ninapoamini kwamba tunataka dhamiri safi, watu walio karibu nasi watajua hilo”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Katika Matendo sura ya 5…”",
+      "severity": "major",
+      "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them –Act 5: 32-33.”",
+      "suggested_fix": "Replace “Waliposikia hayo, walichomwa mioyoni mwao, wakafanya shauri la kuwaua –Mdo 5:32-33.” with “Waliposikia hayo, walichomwa mioyoni mwao, wakafanya shauri la kuwaua –Mdo 5:32-33.” while preserving the source’s reference formatting as “Mdo 5: 32-33.” The current translation changes the printed placement of the space in the Scripture reference.",
+      "translation_quote": "“Waliposikia hayo, walichomwa mioyoni mwao, wakafanya shauri la kuwaua –Mdo 5:32-33.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Tena, tunaona Mungu akizungumza…”",
+      "severity": "major",
+      "source_quote": "“In similar manner as David had Uriah killed, the Sadducees sought to slay the disciples, Herod beheaded John the Baptist, and the World killed our Lord…”",
+      "suggested_fix": "Replace “Masadukayo walivyotaka kuwaua wanafunzi” with “Masadukayo walivyotaka kuwaua wanafunzi” only if the intended meaning is that they sought to kill them; however, the English source says they “sought to slay,” so the existing wording conveys that meaning. No correction is needed for this clause.",
+      "translation_quote": "“Masadukayo walivyotaka kuwaua wanafunzi”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Kisha tukangoja…”",
+      "severity": "minor",
+      "source_quote": "“He said he was sorry and gave the puppy back.”",
+      "suggested_fix": "Change “Alisema alikuwa na samahani” to “Alisema alikuwa amesikitika” or “Aliomba msamaha”. The current phrase is awkward Kiswahili for apologizing.",
+      "translation_quote": "“Alisema alikuwa na samahani”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

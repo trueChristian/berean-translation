@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 14",
+      "severity": "major",
+      "source_quote": "It’s for the redeemed, and the life that he lives.",
+      "suggested_fix": "তা মুক্তিপ্রাপ্তদের জন্য, এবং তারা যে জীবন যাপন করে তার জন্য।",
+      "translation_quote": "তা তাদের জন্য, যারা মুক্তি পেয়েছে, এবং তাঁর জীবনের জন্য।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

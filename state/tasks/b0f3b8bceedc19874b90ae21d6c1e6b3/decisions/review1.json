@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first poem stanza",
+      "severity": "major",
+      "source_quote": "Had a desire to tell / The sinner about Jesus Christ, / About Heaven and hell.",
+      "suggested_fix": "Replace the third and fourth lines with «al pecador acerca de Jesucristo, / del cielo y del infierno.»",
+      "translation_quote": "deseaba anunciar / al pecador a Jesucristo, / el cielo y el infierno."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

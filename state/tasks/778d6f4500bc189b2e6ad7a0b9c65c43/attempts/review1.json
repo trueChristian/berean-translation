@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem stanza 6\",\"severity\":\"major\",\"source_quote\":\"“Be an example to the world; / You need not tell the way.”\",\"suggested_fix\":\"Change «δεν χρειάζεται να δείχνεις τον δρόμο» to «δεν χρειάζεται να λες ποιος είναι ο δρόμος» to preserve the contrast between being an example and telling others the way.\",\"translation_quote\":\"«Να είσαι παράδειγμα για τον κόσμο· / δεν χρειάζεται να δείχνεις τον δρόμο»\"},{\"location\":\"Title\",\"severity\":\"minor\",\"source_quote\":\"The Call to Labor\",\"suggested_fix\":\"Consider «Το κάλεσμα να εργαστούμε» to convey the call to labor more naturally and clearly in contemporary Greek.\",\"translation_quote\":\"Το κάλεσμα για έργο\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 882,
+    "content_evidence_truncated": false,
+    "content_sha256": "9af485b392ab5d295b9ea7153521cc956e7f3825b19c0225abb37b9096676a47",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 632,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 442,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2784,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2781,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3416
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

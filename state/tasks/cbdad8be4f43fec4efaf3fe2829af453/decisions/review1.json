@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «По словам одного из родителей»",
+      "severity": "major",
+      "source_quote": "“the whole family now eats three unrushed and healthy meals together every day”",
+      "suggested_fix": "Заменить «теперь вся семья каждый день вместе без спешки ест три здоровых блюда» на «теперь вся семья каждый день без спешки вместе ест три раза здоровую пищу» или «теперь вся семья каждый день без спешки вместе ест три здоровых приёма пищи»; в оригинале речь о трёх приёмах пищи, а не о трёх блюдах.",
+      "translation_quote": "«теперь вся семья каждый день вместе без спешки ест три здоровых блюда»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

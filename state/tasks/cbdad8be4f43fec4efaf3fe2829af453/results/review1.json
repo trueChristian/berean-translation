@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "51fb3b0c-4512-459e-9708-dc19dbe6a0d0",
+    "response_id": "chatcmpl-EV20QLfprda6zuh3nrlgK4TRRURiH",
+    "usage": {
+      "completion_tokens": 694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6090,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6787
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «По словам одного из родителей»",
+        "severity": "major",
+        "source_quote": "“the whole family now eats three unrushed and healthy meals together every day”",
+        "suggested_fix": "Заменить «теперь вся семья каждый день вместе без спешки ест три здоровых блюда» на «теперь вся семья каждый день без спешки вместе ест три раза здоровую пищу» или «теперь вся семья каждый день без спешки вместе ест три здоровых приёма пищи»; в оригинале речь о трёх приёмах пищи, а не о трёх блюдах.",
+        "translation_quote": "«теперь вся семья каждый день вместе без спешки ест три здоровых блюда»"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

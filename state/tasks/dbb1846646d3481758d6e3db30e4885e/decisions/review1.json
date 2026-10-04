@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, абзац о страданиях и воле Бога",
+      "severity": "major",
+      "source_quote": "“The loss of our business, home and yes, even our own lives also, by economic disaster, storms, or accidents is not outside the realm of the will of God for the Christian.”",
+      "suggested_fix": "Replace «не выходит за пределы того, что может быть волей Божьей для христианина» with «не находится вне воли Божьей для христианина» to preserve the assertion that these losses can fall within God’s will.",
+      "translation_quote": "«не выходит за пределы того, что может быть волей Божьей для христианина»"
+    },
+    {
+      "location": "HTML, абзац о небесном гражданстве и правах",
+      "severity": "major",
+      "source_quote": "“We do not have the right (only the privilege)—to own land, to have enough food, to enjoy good health, and to live without suffering—nor should we fight for those so-called rights”",
+      "suggested_fix": "Revise to «У нас нет права (есть лишь привилегия) владеть землёй, иметь достаточно пищи, наслаждаться хорошим здоровьем и жить без страданий; нам не следует бороться за эти так называемые права»; the current wording reverses the source’s right/privilege distinction.",
+      "translation_quote": "«У нас нет права (есть лишь привилегия) владеть землёй, иметь достаточно пищи, наслаждаться хорошим здоровьем и жить без страданий»"
+    },
+    {
+      "location": "HTML, абзац о том, что апостол удерживает на земле",
+      "severity": "major",
+      "source_quote": "“the only thing that holds him here is the fact that there is work to be done.”",
+      "suggested_fix": "Replace «удерживает его здесь лишь то, что ещё предстоит совершить дело» with «удерживает его здесь лишь то, что для вас ещё нужно трудиться» or «что здесь ещё предстоит совершить работу»; the translation’s «дело» can imply a completed deed rather than work still to be done.",
+      "translation_quote": "«удерживает его здесь лишь то, что ещё предстоит совершить дело»"
+    },
+    {
+      "location": "HTML, абзац о семейных отношениях во время домашнего режима",
+      "severity": "major",
+      "source_quote": "“things that will nurture growth and love in our relationships.”",
+      "suggested_fix": "Replace «тем, что будет укреплять рост и любовь в наших отношениях» with «тем, что будет способствовать развитию и любви в наших отношениях»; «укреплять рост» is unidiomatic and obscures the intended meaning.",
+      "translation_quote": "«тем, что будет укреплять рост и любовь в наших отношениях»"
+    },
+    {
+      "location": "HTML, абзац о жизни в ожидании Небес",
+      "severity": "minor",
+      "source_quote": "“but that we ourselves are also groaning to be delivered.”",
+      "suggested_fix": "Change «но и о том, что мы сами также стенает в ожидании освобождения» to «но и о том, что мы сами также стенаем в ожидании освобождения».",
+      "translation_quote": "«но и о том, что мы сами также стенает в ожидании освобождения»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

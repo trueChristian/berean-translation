@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Joel kände sig eländig” and paragraph beginning “Nästa dag kallade mamma till sig Joel”",
+      "severity": "minor",
+      "source_quote": "“Aunt Eva”",
+      "suggested_fix": "Use “tant Eva” in both places to preserve the unspecified aunt relationship without implying that Eva is the mother’s sister.",
+      "translation_quote": "“moster Eva”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

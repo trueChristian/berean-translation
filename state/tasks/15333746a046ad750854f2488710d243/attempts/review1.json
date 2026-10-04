@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poème, ligne 9\",\"severity\":\"minor\",\"source_quote\":\"‘Go to your neighbors’, a small voice he heard.\",\"suggested_fix\":\"Remplacer par « Une petite voix lui dit : “Va voir tes voisins.” »\",\"translation_quote\":\"« Va voir tes voisins », entendit-il, une petite voix.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 328,
+    "content_evidence_truncated": false,
+    "content_sha256": "20d652b5487e8248cc8140b02a9864e043f93a7a70a94ecbf8c03a7c71bf528a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 455,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1930,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1927,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2480
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

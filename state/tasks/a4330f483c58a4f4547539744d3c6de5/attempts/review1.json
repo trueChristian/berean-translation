@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph quoting 2 Timothy 1:7\",\"severity\":\"major\",\"source_quote\":\"For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2Ti 1:7.\",\"suggested_fix\":\"Sostituire «Dio infatti non ci ha dato uno spirito di timidezza» con «Dio infatti non ci ha dato uno spirito di paura», mantenendo invariati il resto della citazione, i tag HTML e il riferimento.\",\"translation_quote\":\"Dio infatti non ci ha dato uno spirito di timidezza, ma di forza, d’amore e di autocontrollo –2Tm 1:7.\"},{\"location\":\"HTML, secondo paragrafo\",\"severity\":\"minor\",\"source_quote\":\"I want to be comfortable and live a life free of pain and grief.\",\"suggested_fix\":\"Rendere «pain and grief» con «dolore e sofferenza» o «dolore e lutto», evitando la ripetizione di «dolore».\",\"translation_quote\":\"Voglio stare comoda e vivere una vita senza dolore né dolore per una perdita.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 956,
+    "content_evidence_truncated": false,
+    "content_sha256": "27a475d927a5ded7efcdf82e175f298fef07f05a3f9453ae5ed929076485e055",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 545,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5339,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5336,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6157
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

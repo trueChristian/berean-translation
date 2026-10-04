@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning «Στο τελευταίο μέρος του μηνύματός του»\",\"severity\":\"major\",\"source_quote\":\"“anti-abortion/anti-gay agendas”\",\"suggested_fix\":\"Replace «ατζέντες κατά των αμβλώσεων και των ομοφυλοφίλων» with «ατζέντες κατά των αμβλώσεων και υπέρ της αντίθεσης στα δικαιώματα των ομοφυλοφίλων» (or another phrasing that clearly refers to anti-gay political agendas, not opposition to gay people as people).\",\"translation_quote\":\"«ατζέντες κατά των αμβλώσεων και των ομοφυλοφίλων»\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 745,
+    "content_evidence_truncated": false,
+    "content_sha256": "a391f6df896865fa54c85946ec09edcada3b0045c2271580f2c3503c1637d570",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1160,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 978,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11391,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12554
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

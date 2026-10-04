@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "88156564-ed20-4e67-bb34-345554b8e830",
+    "response_id": "chatcmpl-EV20PXBe7JaFrWjcQFnMfrDNH5nWC",
+    "usage": {
+      "completion_tokens": 143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1644,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1641,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1787
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poesia, verso 6",
+        "severity": "major",
+        "source_quote": "It only leaves at the presence of sin.",
+        "suggested_fix": "Se ne va solo in presenza del peccato.",
+        "translation_quote": "Se ne va solo in presenza del peccato."
+      },
+      {
+        "location": "source.html, poesia, verso 14",
+        "severity": "major",
+        "source_quote": "It’s for the redeemed, and the life that he lives.",
+        "suggested_fix": "È per i redenti e per la vita che egli vive.",
+        "translation_quote": "È per i redenti e per la vita che egli vive."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

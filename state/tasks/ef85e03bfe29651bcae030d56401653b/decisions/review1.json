@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem: “He knew with no doubt that he was made whole.”",
+      "severity": "major",
+      "source_quote": "He knew with no doubt that he was made whole.",
+      "suggested_fix": "Replace «وأيقن بلا شك أنه قد صار كاملًا.» with «وأيقن بلا شك أنه قد استعاد عافيته.» The current wording suggests he became perfect, rather than conveying that he was made whole/restored.",
+      "translation_quote": "وأيقن بلا شك أنه قد صار كاملًا."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

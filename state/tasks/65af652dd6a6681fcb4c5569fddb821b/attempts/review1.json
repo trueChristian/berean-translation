@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph on Paul’s prophecy\",\"severity\":\"minor\",\"source_quote\":\"–2Ti 3:2.\",\"suggested_fix\":\"Gunakan bentuk singkatan kitab yang lazim dalam bahasa Indonesia: –2Tim 3:2.\",\"translation_quote\":\"–2Ti 3:2.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 270,
+    "content_evidence_truncated": false,
+    "content_sha256": "f3a50f6a7ceb179e99ea075a02e3f5d77a5f916010f4e3dda3263ff7bc2ce364",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 828,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 732,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8746,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8743,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9574
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

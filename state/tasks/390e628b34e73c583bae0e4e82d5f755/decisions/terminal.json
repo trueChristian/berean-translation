@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Primer párrafo",
+      "severity": "minor",
+      "source_quote": "Joel had a serious problem of taking things which did not belong to him.",
+      "suggested_fix": "Cambiar «tenía un grave problema: tomaba cosas» por «tenía la mala costumbre de tomar cosas» para evitar sugerir que el problema consistía en una dificultad involuntaria.",
+      "translation_quote": "Joel tenía un grave problema: tomaba cosas que no le pertenecían."
+    },
+    {
+      "location": "Párrafo sobre el regreso a casa",
+      "severity": "minor",
+      "source_quote": "Mother always seemed to notice when something was wrong.",
+      "suggested_fix": "Cambiar «A su madre siempre parecía darse cuenta» por «Su madre siempre parecía darse cuenta».",
+      "translation_quote": "A su madre siempre parecía darse cuenta cuando algo andaba mal."
+    },
+    {
+      "location": "Párrafo sobre la admisión de Joel",
+      "severity": "minor",
+      "source_quote": "I am sorry I lied about it too.",
+      "suggested_fix": "Cambiar «yo también siento haber mentido» por «también lamento haber mentido sobre eso», que conserva explícitamente que mintió acerca del origen de la navaja.",
+      "translation_quote": "Sí, lo sé, y yo… yo también siento haber mentido."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

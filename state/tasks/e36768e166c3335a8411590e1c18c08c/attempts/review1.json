@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, 시 4연\",\"severity\":\"major\",\"source_quote\":\"How can you call Him your best friend / When it’s only in your trials / That on Him you will depend?\",\"suggested_fix\":\"현재 번역은 원문의 질문 순서를 바꾸어, 의미를 보존하면서 다음처럼 옮길 수 있습니다: “시련을 겪을 때에만 / 그분께 의지하면서 / 어떻게 그분을 가장 친한 친구라 부를 수 있는가?”\",\"translation_quote\":\"시련을 겪을 때에만 / 그분께 의지하면서 / 어떻게 그분을 가장 친한 친구라 부를 수 있는가?\"},{\"location\":\"source.html, 시 6연\",\"severity\":\"major\",\"source_quote\":\"He will hear you when you cry to Him / And on Him your troubles lay.\",\"suggested_fix\":\"“그분께 부르짖고 근심을 맡기면 / 그분은 네 말을 들으시리라”를 “그분께 부르짖고 / 그분께 네 근심을 맡기면 / 그분은 네 말을 들으시리라”로 고쳐, 근심을 맡기는 대상이 그분임을 분명히 하십시오.\",\"translation_quote\":\"그분께 부르짖고 근심을 맡기면 / 그분은 네 말을 들으시리라.\"},{\"location\":\"source.html, 시 7연\",\"severity\":\"major\",\"source_quote\":\"To earnestly seek His face / As much in the smoother times of life / As in the rougher place!\",\"suggested_fix\":\"“삶이 순탄할 때에도 / 험난한 때만큼이나 / 간절히 그분의 얼굴을 구한다면!”을 “삶의 순탄한 때에도 / 험난한 때만큼이나 / 간절히 그분의 얼굴을 구한다면!”으로 고쳐, ‘간절히 구한다’는 내용을 두 시기에 똑같이 적용하십시오.\",\"translation_quote\":\"삶이 순탄할 때에도 / 험난한 때만큼이나 / 간절히 그분의 얼굴을 구한다면!\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 1787,
+    "content_evidence_truncated": false,
+    "content_sha256": "119a1418f90d413bf7287fb944439077b09e4b23252b437b0f0b9bf70478d0ef",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2019,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2016,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2496
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

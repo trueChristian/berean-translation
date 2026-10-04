@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, opening paragraph",
+      "severity": "minor",
+      "source_quote": "How our lives have changed.",
+      "suggested_fix": "Replace with “Jinsi maisha yetu yalivyobadilika.”",
+      "translation_quote": "Maisha yetu yamebadilikaje."
+    },
+    {
+      "location": "source.html, paragraph beginning “As I am writing this”",
+      "severity": "minor",
+      "source_quote": "the old normal has yet to be willed back into existence",
+      "suggested_fix": "Replace “hali ya zamani ya kawaida bado haijarejea kwa hiari” with “hali ya zamani ya kawaida bado haijaweza kurejeshwa kwa kutamani tu.”",
+      "translation_quote": "hali ya zamani ya kawaida bado haijarejea kwa hiari"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

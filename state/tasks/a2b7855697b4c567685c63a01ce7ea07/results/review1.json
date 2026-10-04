@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3066e208-b474-4102-a3a7-375e21d8cd60",
+    "response_id": "chatcmpl-EV20gV7qISvjSY4dKsZ65CbMvhZYn",
+    "usage": {
+      "completion_tokens": 610,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 509,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2598,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2595,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3208
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, fourth stanza",
+        "severity": "minor",
+        "source_quote": "Because they spread the Gospel word",
+        "suggested_fix": "Replace ״מפני שהפיצו את בשורת הבשורה״ with ״מפני שהפיצו את דבר הבשורה״.",
+        "translation_quote": "מפני שהפיצו את בשורת הבשורה"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

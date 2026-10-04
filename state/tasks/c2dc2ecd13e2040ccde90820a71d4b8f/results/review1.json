@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c04827ba-1f9b-4192-a04a-9e9572cdd671",
+    "response_id": "chatcmpl-EV20ebWorBOBmVZ5nacDPEaEMA8q9",
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6048,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6045,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6746
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Daftar butir, kedua",
+        "severity": "minor",
+        "source_quote": "They have become better behaved",
+        "suggested_fix": "Ganti dengan “Mereka <em>berperilaku lebih baik</em>.”",
+        "translation_quote": "Mereka <em>menjadi lebih berperilaku baik</em>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

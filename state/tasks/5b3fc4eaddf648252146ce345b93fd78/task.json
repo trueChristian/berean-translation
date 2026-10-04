@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 8978
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 839,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8837,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8834,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9676
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Tunapoanza kufanya mambo…” (David and Bathsheba account)",
+      "severity": "major",
+      "source_quote": "“It was the time when kings went forth to battle, and they had a battle going with the children of Ammon. But David tarried still at Jerusalem.”",
+      "suggested_fix": "Replace “Ulikuwa wakati ambao wafalme huenda vitani, nao walikuwa vitani na wana wa Amoni. Lakini Daudi akabaki Yerusalemu.” with “Ulikuwa wakati ambao wafalme huenda vitani, nao walikuwa vitani na wana wa Amoni. Lakini Daudi alibaki Yerusalemu.” The source says David remained in Jerusalem, not that he stayed there after an implied completed action.",
+      "translation_quote": "“Ulikuwa wakati ambao wafalme huenda vitani, nao walikuwa vitani na wana wa Amoni. Lakini Daudi akabaki Yerusalemu.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Daudi angeweza kumkasirikia Nathani…”",
+      "severity": "major",
+      "source_quote": "“When we want a clear conscience, I believe people around us will know that and it will be easy for them to come and talk to us about sin in our lives.”",
+      "suggested_fix": "Replace “Ninapoamini kwamba tunataka dhamiri safi, watu walio karibu nasi watajua hilo” with “Ninaamini kwamba tunapotaka dhamiri safi, watu walio karibu nasi watalijua hilo”. The translation currently says “when I believe,” changing the author’s claim into a condition about the narrator’s belief.",
+      "translation_quote": "“Ninapoamini kwamba tunataka dhamiri safi, watu walio karibu nasi watajua hilo”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Katika Matendo sura ya 5…”",
+      "severity": "major",
+      "source_quote": "“When they heard that, they were cut to the heart, and took counsel to slay them –Act 5: 32-33.”",
+      "suggested_fix": "Replace “Waliposikia hayo, walichomwa mioyoni mwao, wakafanya shauri la kuwaua –Mdo 5:32-33.” with “Waliposikia hayo, walichomwa mioyoni mwao, wakafanya shauri la kuwaua –Mdo 5:32-33.” while preserving the source’s reference formatting as “Mdo 5: 32-33.” The current translation changes the printed placement of the space in the Scripture reference.",
+      "translation_quote": "“Waliposikia hayo, walichomwa mioyoni mwao, wakafanya shauri la kuwaua –Mdo 5:32-33.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Tena, tunaona Mungu akizungumza…”",
+      "severity": "major",
+      "source_quote": "“In similar manner as David had Uriah killed, the Sadducees sought to slay the disciples, Herod beheaded John the Baptist, and the World killed our Lord…”",
+      "suggested_fix": "Replace “Masadukayo walivyotaka kuwaua wanafunzi” with “Masadukayo walivyotaka kuwaua wanafunzi” only if the intended meaning is that they sought to kill them; however, the English source says they “sought to slay,” so the existing wording conveys that meaning. No correction is needed for this clause.",
+      "translation_quote": "“Masadukayo walivyotaka kuwaua wanafunzi”"
+    },
+    {
+      "location": "Article body, paragraph beginning “Kisha tukangoja…”",
+      "severity": "minor",
+      "source_quote": "“He said he was sorry and gave the puppy back.”",
+      "suggested_fix": "Change “Alisema alikuwa na samahani” to “Alisema alikuwa amesikitika” or “Aliomba msamaha”. The current phrase is awkward Kiswahili for apologizing.",
+      "translation_quote": "“Alisema alikuwa na samahani”"
+    }
+  ],
   "id": "5b3fc4eaddf648252146ce345b93fd78",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "swa",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

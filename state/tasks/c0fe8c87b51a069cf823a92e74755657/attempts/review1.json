@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, sixth stanza, first line\",\"severity\":\"major\",\"source_quote\":\"Even when you fail to hear Him,\",\"suggested_fix\":\"Vervang “Selfs wanneer jy versuim om Hom te hoor,” met “Selfs wanneer jy Hom nie hoor nie,” om nie te impliseer dat dit ’n versuim of nalatigheid is nie.\",\"translation_quote\":\"Selfs wanneer jy versuim om Hom te hoor,\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 399,
+    "content_evidence_truncated": false,
+    "content_sha256": "be3c8a99c33e28915fe51978636baab0ef4b5d3d7486ff24d4191694c50af18f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 798,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 672,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1962,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1959,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2760
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

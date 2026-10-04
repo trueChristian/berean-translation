@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,53 @@
         },
         "total_tokens": 5805
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 898,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 602,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5664,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5661,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6562
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Even nature shows us…”",
+      "severity": "minor",
+      "source_quote": "“A caterpillar must give up its entire identity”",
+      "suggested_fix": "Change “अपना पूरा रूप छोड़कर” to “अपनी पूरी पहचान छोड़कर” to convey the source’s metaphor of giving up its entire identity.",
+      "translation_quote": "“एक इल्ली को अपना पूरा रूप छोड़कर”"
+    },
+    {
+      "location": "Article, paragraph beginning “So it is with you and me.”",
+      "severity": "minor",
+      "source_quote": "“our Loving Father preparing our souls for heaven”",
+      "suggested_fix": "Replace “हमारा प्रेमी पिता” with “हमसे प्रेम करने वाला पिता” to avoid the possible Hindi reading of “प्रेमी” as “lover.”",
+      "translation_quote": "“हमारा प्रेमी पिता हमारी आत्माओं को स्वर्ग के लिए तैयार कर रहा है”"
+    },
+    {
+      "location": "Article, paragraph beginning “Radically different then the lawless slogan…”",
+      "severity": "minor",
+      "source_quote": "“the lawless slogan of the 1990s”",
+      "suggested_fix": "Replace “अराजक नारे” with “नियमहीन नारे” to convey “lawless” more directly in this context.",
+      "translation_quote": "“1990 के दशक के अराजक नारे”"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:38+00:00",
   "id": "20890782b1638e382bb00dd0dd82bc2b",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "hin",
@@ -116,11 +159,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"

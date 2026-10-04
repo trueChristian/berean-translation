@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c29da038-cbbb-959d-a542-a86119b46aa3",
+    "response_id": "chatcmpl-EV20Q7GGoPHSRlufyT4IKaG7li9x0",
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1649,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2315
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem, line 4",
+        "severity": "major",
+        "source_quote": "It comes from God, given to the meek.",
+        "suggested_fix": "Что Бог дарует смиренным.",
+        "translation_quote": "Что Бог дарует смиренным в Своей благодати."
+      },
+      {
+        "location": "source.html, poem, line 10",
+        "severity": "minor",
+        "source_quote": "But rather gives courage and keeps us in grace.",
+        "suggested_fix": "Но даст нам отвагу и сохранит нас в благодати.",
+        "translation_quote": "Но даст нам отвагу и поможет в благодати идти."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

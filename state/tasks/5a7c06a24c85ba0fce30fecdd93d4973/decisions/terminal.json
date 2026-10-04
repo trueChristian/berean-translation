@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, paragraph beginning “De apostel Paulus profeteerde…”",
+      "severity": "minor",
+      "source_quote": "–2Ti 3:2.",
+      "suggested_fix": "Vervang de verwijzing door de gangbare Nederlandse boekafkorting, met hoofdstuk en vers ongewijzigd: “–2 Tim. 3:2.”",
+      "translation_quote": "–2Ti 3:2."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

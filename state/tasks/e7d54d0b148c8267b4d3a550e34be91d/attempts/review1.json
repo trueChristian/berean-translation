@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"پہلا مصرعہ، چوتھا بند\",\"severity\":\"major\",\"source_quote\":\"A lot of folks were burned at stake,\",\"suggested_fix\":\"بہت سے لوگوں کو کھونٹے سے باندھ کر زندہ جلا دیا گیا،\",\"translation_quote\":\"بہت سے لوگوں کو سولی پر جلا دیا گیا،\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 367,
+    "content_evidence_truncated": false,
+    "content_sha256": "1bd0d5c8f792a6c3086223e7e07b0deca283bc3a911dfe50b60ea4d94f11089a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 347,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 245,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2686,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2683,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3033
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

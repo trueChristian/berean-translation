@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9121ef91-e0a2-4695-a9c7-508d0abb9af2",
+    "response_id": "chatcmpl-EV20rLpTdtJFovq1pExkiO8nhNSWI",
+    "usage": {
+      "completion_tokens": 1157,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 794,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9510,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10670
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph of the lead",
+        "severity": "major",
+        "source_quote": "“in a church, reading from a passage of scripture”",
+        "suggested_fix": "Replace “i en synagoga” with “i en kyrka” to preserve the source’s setting.",
+        "translation_quote": "“i en synagoga, där han läste ur ett stycke ur Skriften”"
+      },
+      {
+        "location": "Poem beginning “’Twas you, my sins”",
+        "severity": "major",
+        "source_quote": "“And unbelief the spear.”",
+        "suggested_fix": "Replace “otroheten” with “otron” (or another Swedish term meaning lack of faith), so the line refers to unbelief rather than infidelity.",
+        "translation_quote": "“och otroheten blev spjutet.”"
+      },
+      {
+        "location": "Heading “Fellow Believers,” quoted verse from Jeremiah 9:1",
+        "severity": "major",
+        "source_quote": "“for the slain of the daughter of my people”",
+        "suggested_fix": "Translate the phrase to convey mourning for the slain among the speaker’s people; for example, “över de slagna bland mitt folk.” Preserve the reference to Jer 9:1.",
+        "translation_quote": "“över mitt folks dotters slagna”"
+      },
+      {
+        "location": "Paragraph beginning “Gråt inte över korsfästelsen”",
+        "severity": "minor",
+        "source_quote": "“Cherish not the old rugged cross”",
+        "suggested_fix": "Correct the grammatical gender to “Håll inte det gamla skrovliga korset kärt” (or use an idiomatic equivalent).",
+        "translation_quote": "“Håll inte den gamla skrovliga korset kär”"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

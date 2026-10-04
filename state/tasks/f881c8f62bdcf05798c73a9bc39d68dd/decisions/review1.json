@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "Párrafo 5",
+      "severity": "major",
+      "source_quote": "And again, we hear the Savior say, “Look at the lilies, the fowls of the air, and learn a lesson from them!”",
+      "suggested_fix": "Reemplace «¡Miren los lirios y las aves del cielo, y aprendan de ellos!» por «¡Miren los lirios y las aves del cielo, y aprendan una lección de ellos!» para conservar «learn a lesson».",
+      "translation_quote": "«¡Miren los lirios y las aves del cielo, y aprendan de ellos!»"
+    },
+    {
+      "location": "Párrafo 7",
+      "severity": "major",
+      "source_quote": "The loss of our business, home and yes, even our own lives also, by economic disaster, storms, or accidents",
+      "suggested_fix": "Cambie «de nuestra propia vida» por «de nuestras propias vidas», para conservar el plural del original.",
+      "translation_quote": "«de nuestro negocio, de nuestro hogar y sí, incluso de nuestra propia vida»"
+    },
+    {
+      "location": "Párrafo 9",
+      "severity": "major",
+      "source_quote": "Should we much rather cry out “how long Lord Jesus” “so come”?",
+      "suggested_fix": "Traduzca la segunda exclamación como «¡Ven, pues!» solo si mantiene el sentido de «so come»; en este contexto debe expresar el llamado «¡Ven, Señor Jesús!» (o equivalente fiel).",
+      "translation_quote": "«¿Hasta cuándo, Señor Jesús?» y «¡Ven, pues!»"
+    },
+    {
+      "location": "Párrafo 11",
+      "severity": "major",
+      "source_quote": "calling them to trust in God, and leading them in prayers of faith",
+      "suggested_fix": "Cambie «conduciéndolas en oraciones de fe» por «guiándolas en oraciones de fe» o una formulación que exprese que los padres dirigen a la familia en esas oraciones.",
+      "translation_quote": "«conduciéndolas en oraciones de fe»"
+    },
+    {
+      "location": "Párrafo 14",
+      "severity": "major",
+      "source_quote": "things that will nurture growth and love in our relationships",
+      "suggested_fix": "Cambie «que fomenten el crecimiento y el amor en nuestras relaciones» por «que fomenten el crecimiento y el amor en sus relaciones», conservando la referencia a las relaciones de la familia a la que se dirige el autor.",
+      "translation_quote": "«cosas que fomenten el crecimiento y el amor en nuestras relaciones»"
+    },
+    {
+      "location": "Párrafo 15",
+      "severity": "major",
+      "source_quote": "if the mandate does not ask us to violate the scripture, then we choose to honor the government",
+      "suggested_fix": "Cambie «si el mandato no nos pide violar la Escritura» por «si el mandato no nos pide violar la Escritura, elegimos obedecer al gobierno» o equivalente, para conservar «honor» en este contexto.",
+      "translation_quote": "«si el mandato no nos pide violar la Escritura, elegimos respetar al gobierno»"
+    },
+    {
+      "location": "Párrafo 16",
+      "severity": "major",
+      "source_quote": "since they are not fighting against our faith and God",
+      "suggested_fix": "Cambie «pues no están luchando contra nuestra fe y contra Dios» por «pues el gobierno no está luchando contra nuestra fe ni contra Dios» o una formulación equivalente que identifique al gobierno como sujeto.",
+      "translation_quote": "«pues no están luchando contra nuestra fe y contra Dios»"
+    },
+    {
+      "location": "Título",
+      "severity": "minor",
+      "source_quote": "Coronavirus—God, the World, and the Church",
+      "suggested_fix": "Para reflejar el título y la puntuación originales, use «Coronavirus: Dios, el mundo y la iglesia» (la versión actual también transmite el sentido).",
+      "translation_quote": "Coronavirus: Dios, el mundo y la iglesia"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

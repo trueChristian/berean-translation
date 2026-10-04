@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c018a7eb-08ec-4c53-87f9-3191d371b965",
+    "response_id": "chatcmpl-EV20if4KLyMb4N21pa5MtooI9D8L1",
+    "usage": {
+      "completion_tokens": 67,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3894,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3891,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3961
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraf kedua",
+        "severity": "minor",
+        "source_quote": "And God hates stealing!",
+        "suggested_fix": "Dan Allah membenci pencurian!",
+        "translation_quote": "Dan Allah membenci pencurian!"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

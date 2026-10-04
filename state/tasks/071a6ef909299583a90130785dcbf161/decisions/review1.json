@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article body, section “…de zonde van het volk”",
+      "severity": "major",
+      "source_quote": "Shall we spend our hours lobbying for better leaders, religious perseverance, and anti-abortion/anti-gay agendas?",
+      "suggested_fix": "Vervang deze zin door: “Zullen we onze uren besteden aan lobbyen voor betere leiders, religieuze volharding en agenda’s tegen abortus en tegen homoseksualiteit?”",
+      "translation_quote": "Zullen we onze uren besteden aan lobbyen voor betere leiders, religieuze volharding en een agenda tegen abortus en homoseksualiteit?"
+    },
+    {
+      "location": "Article body, quotation attributed to Watts after “...uzelf”",
+      "severity": "major",
+      "source_quote": "And deep repentance drowns / My eyes in sorrow and in woe.",
+      "suggested_fix": "Vertaal de beeldspraak met behoud van de betekenis, bijvoorbeeld: “en diepe bekering / verdrinkt mijn ogen in verdriet en wee.”",
+      "translation_quote": "en diepe bekering / mijn ogen verdrinkt in verdriet en wee."
+    },
+    {
+      "location": "Article body, quotation about impenitent sinners",
+      "severity": "major",
+      "source_quote": "Look forward to its end, its never-ending end; look forward to it steadily, with calm and tearful gaze",
+      "suggested_fix": "Herstel de betekenis van “look forward to” als vooruitzien naar het einde, bijvoorbeeld: “Zie haar einde, haar nooit eindigende einde onder ogen; kijk er standvastig naar, met een kalme, betraande blik.”",
+      "translation_quote": "Kijk vooruit naar haar einde, haar eindeloze einde; kijk er standvastig naar, met een kalme blik vol tranen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

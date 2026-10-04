@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “This season of a child’s life is a time of learning and doing.”\",\"severity\":\"minor\",\"source_quote\":\"“After hundreds of failed attempts Tom Edison finally invented a functional light bulb.”\",\"suggested_fix\":\"Replace “Baada ya majaribio mengi yaliyoshindikana” with “Baada ya mamia ya majaribio yaliyoshindikana” to preserve the stated number.\",\"translation_quote\":\"“Baada ya majaribio mengi yaliyoshindikana, hatimaye Tom Edison alibuni balbu iliyofanya kazi.”\"},{\"location\":\"Paragraph beginning “We are training children to become adults…”\",\"severity\":\"minor\",\"source_quote\":\"“allowing them to become critical thinkers”\",\"suggested_fix\":\"Replace “watu wanaofikiri kwa makini” with “watu wanaofikiri kwa kina na kuchambua mawazo” to convey critical thinking.\",\"translation_quote\":\"“kuwaacha wawe watu wanaofikiri kwa makini”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 943,
+    "content_evidence_truncated": false,
+    "content_sha256": "e05130ea504dcc69b5463d2c4da8ffbbae136b8b5f5963d87e11be62dfcf9800",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 957,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 719,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10279
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, “Development of obedience” paragraph",
+      "severity": "major",
+      "source_quote": "Until the pain of disobedience exceeds the “pain” of obedience, a child will continue to disobey.",
+      "suggested_fix": "改为：<u><strong>只要不顺服带来的痛苦</strong></u>还没有超过<strong>顺服带来的“痛苦”</strong>，孩子就会继续不顺服。并按原文保留下划线和粗体的标记范围。",
+      "translation_quote": "除非不顺服所带来的<u><strong>痛苦</strong></u>超过顺服所带来的<strong>“痛苦”</strong>，孩子就会继续不顺服。"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Holding the Hearts of our Children",
+      "suggested_fix": "可改为“赢得并守住儿女的心”，以体现标题中“持守儿女的心”之意。",
+      "translation_quote": "赢得儿女的心"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

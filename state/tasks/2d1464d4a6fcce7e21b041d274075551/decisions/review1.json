@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "पैराग्राफ 5",
+      "severity": "major",
+      "source_quote": "“Look at the lilies, the fowls of the air, and learn a lesson from them!”",
+      "suggested_fix": "“मैदान के सोसन और आकाश के पक्षियों को देखो, और उनसे सबक सीखो!”",
+      "translation_quote": "“सोसन को देखो, आकाश के पक्षियों को देखो, और उनसे सबक सीखो!”"
+    },
+    {
+      "location": "पैराग्राफ 10",
+      "severity": "major",
+      "source_quote": "“casting down imaginations.”",
+      "suggested_fix": "“कल्पनाओं को गिराते हुए” (या इसी अर्थ का स्वाभाविक हिंदी रूप) लिखें; “खंडन करते हुए” न लिखें।",
+      "translation_quote": "“कल्पनाओं को खण्डन करते हुए।”"
+    },
+    {
+      "location": "पैराग्राफ 11",
+      "severity": "major",
+      "source_quote": "“Some of us have jobs and some do not. God’s Word tells us that those who have are to give to those who do not have so that there may be an equality.”",
+      "suggested_fix": "लिखें: “हममें से कुछ के पास काम है और कुछ के पास नहीं। परमेश्वर का वचन बताता है कि जिनके पास है, वे उन लोगों को दें जिनके पास नहीं है, ताकि समानता हो।”",
+      "translation_quote": "“हममें से कुछ के पास काम है और कुछ के पास नहीं। परमेश्वर का वचन हमें बताता है कि जिनके पास है, वे उन्हें दें जिनके पास नहीं है, ताकि बराबरी हो।”"
+    },
+    {
+      "location": "पैराग्राफ 11",
+      "severity": "major",
+      "source_quote": "“A cheery word, or a letter in the mail, and whatever other resources you can appropriately use may be just the thing that those around you need.”",
+      "suggested_fix": "लिखें: “प्रसन्नता भरा एक शब्द, डाक से भेजा गया एक पत्र या कोई अन्य ऐसा साधन जिसका आप उचित रूप से उपयोग कर सकते हैं—शायद यही वह चीज़ हो जिसकी आपके आसपास के लोगों को ज़रूरत है।”",
+      "translation_quote": "“प्रसन्नता भरा एक शब्द, डाक से भेजा गया एक पत्र, या कोई दूसरा ऐसा साधन जिसका आप उचित रूप से उपयोग कर सकते हैं, शायद आपके आसपास के लोगों को ठीक उसी चीज़ की ज़रूरत हो।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

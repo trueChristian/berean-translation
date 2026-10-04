@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "پہلا مصرعہ، چوتھا بند",
+      "severity": "major",
+      "source_quote": "A lot of folks were burned at stake,",
+      "suggested_fix": "بہت سے لوگوں کو کھونٹے سے باندھ کر زندہ جلا دیا گیا،",
+      "translation_quote": "بہت سے لوگوں کو سولی پر جلا دیا گیا،"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

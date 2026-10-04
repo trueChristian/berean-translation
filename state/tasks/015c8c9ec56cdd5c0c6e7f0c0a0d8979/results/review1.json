@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e16ecca1-9342-40e7-97a5-33a935bafd30",
+    "response_id": "chatcmpl-EV21Nb8WQRZsuOXPHrx52C9rBFRQO",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 452,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8344,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8341,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9019
+    }
+  },
+  "received_at": "2026-10-04T00:10:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph quoting 1 Timothy 4:1–2",
+        "severity": "major",
+        "source_quote": "having their conscience seared with a hot iron;",
+        "suggested_fix": "Replace «موسومة ضمائرهم» with «قد كُويت ضمائرهم بمكواة محماة» to preserve the source’s image of a conscience seared with a hot iron.",
+        "translation_quote": "<strong>موسومة ضمائرهم</strong>"
+      },
+      {
+        "location": "HTML, paragraph quoting Acts 5:32–33",
+        "severity": "major",
+        "source_quote": "When they heard that, they were cut to the heart",
+        "suggested_fix": "Replace «فلما سمعوا ذلك حنقوا» with «فلما سمعوا ذلك نُخِسوا في قلوبهم»; the source describes conviction, not anger.",
+        "translation_quote": "<strong>فلما سمعوا ذلك حنقوا</strong>"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

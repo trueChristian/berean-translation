@@ -2,7 +2,6 @@
   "article_id": "cf07f132-92d4-49ba-b318-52520f77ca67",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 2239
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1008,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 745,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2037,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2034,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3045
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Poem, line 2",
+      "severity": "minor",
+      "source_quote": "Oh! Where is the day? This night would not go.",
+      "suggested_fix": "আহা! দিন কোথায়? এই রাত যেন কাটতেই চায় না।",
+      "translation_quote": "আহা! দিন কোথায়? রাত যেন কাটে না, থামে না তারই ধাম।"
+    },
+    {
+      "location": "Poem, line 22",
+      "severity": "major",
+      "source_quote": "He knew with no doubt that he was made whole.",
+      "suggested_fix": "নিঃসন্দেহে জানল, সে পরিপূর্ণ হয়ে উঠেছে।",
+      "translation_quote": "নিঃসংশয়ে জানল, সে আবার সম্পূর্ণ হয়েছে মহান।"
+    },
+    {
+      "location": "Poem, final line",
+      "severity": "major",
+      "source_quote": "He could hardly wait, to be who God made him to be.",
+      "suggested_fix": "ঈশ্বর তাকে যে মানুষ হিসেবে গড়ে তুলেছেন, সেই মানুষ হতে আর তর সইছিল না তার।",
+      "translation_quote": "ঈশ্বর তাকে যে মানুষ করেছেন, তা হতে আর তর সয় না তার একদিন।"
+    }
+  ],
   "id": "d00717a77b78a21aec32ed16eef3d49b",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ben",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9861fcb86053c74db76cb1e0d711e79061d0be937dd95778c55c9f82c3690575.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e7cdbcc930ae79ba671e7483532d0c089c66a7b511a407e75cdef72b4141716b",
   "translation_model_actual": "gpt-6-luna"

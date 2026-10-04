@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e163552f-98f8-4382-b529-fa848ab02adb",
+    "response_id": "chatcmpl-EV20jz9n5dwp7k6V6U0FUeBrps1Aj",
+    "usage": {
+      "completion_tokens": 980,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 835,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6352,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6349,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7332
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Νους σωφρονισμού”",
+        "severity": "minor",
+        "source_quote": "“A Sound Mind is healthy and in good condition; competent and sensible.”",
+        "suggested_fix": "Για πιο φυσική γραμματική διατύπωση: «Ο σωστός και σώφρων νους είναι υγιής και λειτουργεί καλά· είναι ικανός και συνετός.»",
+        "translation_quote": "«Νους σωφρονισμού σημαίνει υγιής και σε καλή κατάσταση· ικανός και συνετός.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

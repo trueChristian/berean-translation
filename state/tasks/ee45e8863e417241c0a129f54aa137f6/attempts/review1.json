@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 4, line 4\",\"severity\":\"major\",\"source_quote\":\"With faith and courage bold.\",\"suggested_fix\":\"Bytt ut «med frimodig tro og mot» med «med tro og stort mot» (eller en annen formulering som bevarer både tro og tappert mot).\",\"translation_quote\":\"med frimodig tro og mot.\"},{\"location\":\"Poem, stanza 5, line 2\",\"severity\":\"major\",\"source_quote\":\"Were such bright lights indeed,\",\"suggested_fix\":\"Bytt ut «var virkelig lysende lys» med en idiomatisk formulering som «var virkelig sterke lys» eller «var virkelig lysende eksempler».\",\"translation_quote\":\"var virkelig lysende lys,\"},{\"location\":\"Poem, stanza 8, lines 1–2\",\"severity\":\"major\",\"source_quote\":\"Is it that in America, / The fire has grown cold?\",\"suggested_fix\":\"Behold spørsmålets opprinnelige betydning, for eksempel: «Har ilden sluknet i Amerika?»\",\"translation_quote\":\"Er det slik at ilden / har sloknet i Amerika?\"},{\"location\":\"Poem, stanza 8, line 3\",\"severity\":\"major\",\"source_quote\":\"Since faith is good, why don’t we share\",\"suggested_fix\":\"Bytt «Når troen er god» med «Siden troen er god» eller tilsvarende, slik at begrunnelsen («siden») bevares.\",\"translation_quote\":\"Når troen er god, hvorfor deler vi den ikke\"},{\"location\":\"Poem, stanza 11, lines 3–4\",\"severity\":\"major\",\"source_quote\":\"If we would also spread God’s Word, / Our blood would stain our sod.\",\"suggested_fix\":\"Behold betingelsen og sammenhengen med å spre Guds ord, for eksempel: «Hvis også vi ville spre Guds ord, / ville blodet vårt farge vår jord.»\",\"translation_quote\":\"ville blodet vårt også farge jorden / hvis vi spredte Guds ord.\"},{\"location\":\"Title\",\"severity\":\"minor\",\"source_quote\":\"The Call to Labor\",\"suggested_fix\":\"Vurder «Kallet til innsats» eller «Kallet til å arbeide», slik at tittelen tydelig uttrykker et kall til arbeid/innsats.\",\"translation_quote\":\"Kallet til å arbeide\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1944,
+    "content_evidence_truncated": false,
+    "content_sha256": "a5936d16af6b8eea356ffd6fb14b34e4de78a886c58a13d687aec59e2bb71dfe",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 520,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2541,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2538,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3061
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e12e869e-a6a2-4458-b0ab-c32703a3b1f5",
+    "response_id": "chatcmpl-EV20aeSRJ0JAF1bQVDAqgwiblyu1N",
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8668,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8665,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9276
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragrafo sull’incontro con l’agente di polizia",
+        "severity": "minor",
+        "source_quote": "He went back to his car and several minutes later he returned.",
+        "suggested_fix": "Sostituire «rientrò» con «tornò» per indicare che l’agente ritornò dall’autore.",
+        "translation_quote": "Tornò alla sua auto e, diversi minuti dopo, rientrò."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

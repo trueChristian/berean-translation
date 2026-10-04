@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f696ed72-5db6-4bdf-8210-67906a97c102",
+    "response_id": "chatcmpl-EV210DPRI17lx4CHim8XWFQ30LQKQ",
+    "usage": {
+      "completion_tokens": 603,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1659,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1656,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2262
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first line",
+        "severity": "major",
+        "source_quote": "One fruit of the spirit is a word we all know.",
+        "suggested_fix": "En av Andens frukter är ett ord som vi alla känner till.",
+        "translation_quote": "Andens frukt är ett ord som vi alla känner till."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

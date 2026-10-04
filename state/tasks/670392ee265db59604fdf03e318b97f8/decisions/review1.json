@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Aya ya shairi ya mwisho, mstari wa tatu",
+      "severity": "major",
+      "source_quote": "The unknowns in His hands, He’ll be at your side",
+      "suggested_fix": "Badilisha kwa: “Yasiyojulikana yakiwa mikononi Mwake, Atakuwa kando yako”",
+      "translation_quote": "Yaliyofichika yakiwa mikononi Mwake, Atakuwa kando yako"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

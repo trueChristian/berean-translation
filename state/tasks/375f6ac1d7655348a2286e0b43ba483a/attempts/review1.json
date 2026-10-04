@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragrafo 2\",\"severity\":\"major\",\"source_quote\":\"Will I cash in the stimulus check that is supposed to arrive in the mail in the near future?\",\"suggested_fix\":\"Sostituire «Incasserò l’assegno di sostegno economico che dovrebbe arrivare per posta nel prossimo futuro?» con «Incasserò l’assegno di stimolo economico che dovrebbe arrivare per posta nel prossimo futuro?» o una resa equivalente che conservi il riferimento all’assegno di stimolo.\",\"translation_quote\":\"Incasserò l’assegno di sostegno economico che dovrebbe arrivare per posta nel prossimo futuro?\"},{\"location\":\"source.html, paragrafo 5\",\"severity\":\"major\",\"source_quote\":\"We cannot even do some of the simplest things by God’s estimation, like add a cubit to our stature\",\"suggested_fix\":\"Rendere il senso del confronto senza attribuire a Dio una valutazione della nostra capacità, per esempio: «Non possiamo neppure fare alcune delle cose più semplici, come aggiungere un cubito alla nostra statura»; mantenere invariato il resto della frase.\",\"translation_quote\":\"Secondo la valutazione di Dio, non siamo neppure capaci di fare alcune delle cose più semplici, come aggiungere un cubito alla nostra statura\"},{\"location\":\"source.html, paragrafo 12\",\"severity\":\"major\",\"source_quote\":\"God’s Word tells us that those who have are to give to those who do not have so that there may be an equality.\",\"suggested_fix\":\"Rendere esplicito che si tratta di dare a chi non ha affinché vi sia uguaglianza, per esempio: «La Parola di Dio ci dice che chi ha deve dare a chi non ha, affinché vi sia uguaglianza»; correggere «vi sia uguaglianza» solo se la frase è stata intesa come affermazione di una generica parità già esistente.\",\"translation_quote\":\"La Parola di Dio ci dice che chi ha deve dare a chi non ha, affinché vi sia uguaglianza.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1896,
+    "content_evidence_truncated": false,
+    "content_sha256": "239c8dd2b0165730250f9496ce7ff8cda92b411e5cf68243bbc7fe632310ca2f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 461,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8333,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8330,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8794
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

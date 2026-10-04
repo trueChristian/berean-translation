@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Sezione «…Riflettere anziché intrattenersi», secondo paragrafo",
+      "severity": "minor",
+      "source_quote": "To ‘amuse’ means <em>to <strong>not</strong> think</em>.",
+      "suggested_fix": "Per rendere chiaro che si tratta del senso critico attribuito qui all’intrattenimento, anziché di una definizione letterale di «divertire», sostituire con: «Qui, “intrattenere” significa <em><strong>non</strong> pensare</em>.»",
+      "translation_quote": "«Divertire» significa <em><strong>non</strong> pensare</em>."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

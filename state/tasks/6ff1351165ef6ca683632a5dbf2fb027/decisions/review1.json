@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, seventh poem stanza, third line",
+      "severity": "major",
+      "source_quote": "As did the church in olden days,",
+      "suggested_fix": "옛날 교회처럼,",
+      "translation_quote": "옛날 교회와는 달리,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

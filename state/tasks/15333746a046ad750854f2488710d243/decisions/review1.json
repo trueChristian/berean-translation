@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poème, ligne 9",
+      "severity": "minor",
+      "source_quote": "‘Go to your neighbors’, a small voice he heard.",
+      "suggested_fix": "Remplacer par « Une petite voix lui dit : “Va voir tes voisins.” »",
+      "translation_quote": "« Va voir tes voisins », entendit-il, une petite voix."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

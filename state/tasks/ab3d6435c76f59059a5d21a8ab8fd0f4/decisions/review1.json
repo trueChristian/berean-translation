@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML poem, first stanza, lines 2–3",
+      "severity": "major",
+      "source_quote": "Had a desire to tell / The sinner about Jesus Christ,",
+      "suggested_fix": "将对应译文改为“渴望向罪人述说 / 耶稣基督的事，”以保留原文明确的传讲对象“罪人”。",
+      "translation_quote": "渴望述说 / 耶稣基督的事，"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Call to Labor",
+      "suggested_fix": "Der Aufruf zum Dienst",
+      "translation_quote": "Der Aufruf zur Arbeit"
+    },
+    {
+      "location": "html, first poem stanza",
+      "severity": "minor",
+      "source_quote": "The early church in olden days",
+      "suggested_fix": "Die Kirche der frühen Tage<br>",
+      "translation_quote": "Die frühe Kirche, längst vergangen,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

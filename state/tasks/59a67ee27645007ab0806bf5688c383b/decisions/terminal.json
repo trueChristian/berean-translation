@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML image alt text",
+      "severity": "minor",
+      "source_quote": "Sunlight streaming through a leafy forest",
+      "suggested_fix": "Zonlicht dat door een lommerrijk bos valt",
+      "translation_quote": "Zonlicht dat door een bladerig bos valt"
+    },
+    {
+      "location": "Poem, line beginning “It all seemed so clear!”",
+      "severity": "minor",
+      "source_quote": "It all seemed so clear! He wept as he broke.",
+      "suggested_fix": "Alles leek zo duidelijk! Hij huilde toen hij instortte.",
+      "translation_quote": "Alles leek zo duidelijk! Hij huilde toen hij brak."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

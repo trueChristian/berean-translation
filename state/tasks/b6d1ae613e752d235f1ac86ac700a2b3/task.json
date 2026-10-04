@@ -2,7 +2,6 @@
   "article_id": "b8c0cd82-3d1a-4287-b2f5-391e08dd8efd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2800
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 645,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 484,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2576,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2573,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3221
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, third poem stanza, first line",
+      "severity": "major",
+      "source_quote": "The more people they converted,",
+      "suggested_fix": "Hoe meer mense hulle tot bekering gebring het,",
+      "translation_quote": "Hoe meer mense hulle bekeer het,"
+    },
+    {
+      "location": "HTML, thirteenth poem stanza, third and fourth lines",
+      "severity": "major",
+      "source_quote": "If we don’t bring the folks to God,\nThe populace will die.",
+      "suggested_fix": "As ons nie die mense na God bring nie,\nSal die mense verlore gaan.",
+      "translation_quote": "As ons nie die mense na God bring nie,\nSal die bevolking sterf."
+    }
+  ],
   "id": "b6d1ae613e752d235f1ac86ac700a2b3",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "afr",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e72319de5a9064e915ac8e2394006c00431f8c8787168b47fb44816c4213b2fe.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a0224141a83bd1fc3541d51be937f42cc2ca1dba143c0bf06d13684203c9148e",
   "translation_model_actual": "gpt-6-luna"

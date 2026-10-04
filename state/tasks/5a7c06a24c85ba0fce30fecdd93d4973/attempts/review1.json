@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article HTML, paragraph beginning “De apostel Paulus profeteerde…”\",\"severity\":\"minor\",\"source_quote\":\"–2Ti 3:2.\",\"suggested_fix\":\"Vervang de verwijzing door de gangbare Nederlandse boekafkorting, met hoofdstuk en vers ongewijzigd: “–2 Tim. 3:2.”\",\"translation_quote\":\"–2Ti 3:2.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 349,
+    "content_evidence_truncated": false,
+    "content_sha256": "b367934cdf20930047606a18c3b2a5f774c1fc78eed0e89fd34034306ddd2d05",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 584,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 472,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8621,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8618,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9205
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

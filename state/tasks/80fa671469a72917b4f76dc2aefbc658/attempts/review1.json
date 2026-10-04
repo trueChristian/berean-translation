@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, strophe 10, lignes 3–4\",\"severity\":\"major\",\"source_quote\":\"And thank Him that for Jesus’ sake / They suffer and they die.\",\"suggested_fix\":\"Remplacer ces deux lignes par : « Et le remercient de souffrir et de mourir / Pour l’amour de Jésus. » afin de conserver l’idée qu’ils remercient Dieu de souffrir et de mourir pour Jésus.\",\"translation_quote\":\"Et le remercient de souffrir et de mourir / Pour l’amour de Jésus.\"},{\"location\":\"HTML, strophe 12, ligne 3\",\"severity\":\"minor\",\"source_quote\":\"Or is it ‘cause we aren’t a “threat”\",\"suggested_fix\":\"Pour rendre la cause explicite, remplacer « Ou bien est-ce parce que nous ne sommes pas une « menace » » par « Ou bien est-ce parce que nous ne représentons pas une « menace » ».\",\"translation_quote\":\"Ou bien est-ce parce que nous ne sommes pas une « menace »\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 907,
+    "content_evidence_truncated": false,
+    "content_sha256": "15fb0a03245f8d9f45707cc31ce81a3e0c512b31ed360d900ae135c2ce28c996",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2599,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2596,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2826
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, poem, line 4\",\"severity\":\"major\",\"source_quote\":\"It comes from God, given to the meek.\",\"suggested_fix\":\"Что Бог дарует смиренным.\",\"translation_quote\":\"Что Бог дарует смиренным в Своей благодати.\"},{\"location\":\"source.html, poem, line 10\",\"severity\":\"minor\",\"source_quote\":\"But rather gives courage and keeps us in grace.\",\"suggested_fix\":\"Но даст нам отвагу и сохранит нас в благодати.\",\"translation_quote\":\"Но даст нам отвагу и поможет в благодати идти.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 656,
+    "content_evidence_truncated": false,
+    "content_sha256": "d28e8b17d7fbe8ee2e81e2bb9a74bd6b3db7a17ba8c3ab4aa96bf398b0fd4a0d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1649,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2315
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

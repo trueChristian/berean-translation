@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "08a620c3-382d-430e-bcbb-de28c6b045fc",
+    "response_id": "chatcmpl-EV20nF3N1DW2gCHPwzeKQOQtTuSV5",
+    "usage": {
+      "completion_tokens": 565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 455,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2517,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2514,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3082
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "The Call to Labor",
+        "suggested_fix": "Der Aufruf zum Dienst",
+        "translation_quote": "Der Aufruf zur Arbeit"
+      },
+      {
+        "location": "html, first poem stanza",
+        "severity": "minor",
+        "source_quote": "The early church in olden days",
+        "suggested_fix": "Die Kirche der frühen Tage<br>",
+        "translation_quote": "Die frühe Kirche, längst vergangen,"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

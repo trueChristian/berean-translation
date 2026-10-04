@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, strofa 8, terzo verso",
+      "severity": "major",
+      "source_quote": "The unknowns in His hands, He’ll be at your side",
+      "suggested_fix": "Sostituire con: <p>Cercarlo e ricercarlo, restargli accanto,<br>\n    condividere la gioia e il dolore;<br>\n    le incognite nelle Sue mani, Egli sarà al tuo fianco<br>\n    qualunque cosa possa portare il domani.</p>",
+      "translation_quote": "gli ignoti nelle Sue mani, Egli sarà al tuo fianco"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

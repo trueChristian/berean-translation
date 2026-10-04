@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "शीर्षक",
+      "severity": "minor",
+      "source_quote": "The Call to Labor",
+      "suggested_fix": "शीर्षक को “परिश्रम का आह्वान” करें, ताकि evangelism के काम में जुटने का आह्वान बना रहे।",
+      "translation_quote": "सेवा का आह्वान"
+    },
+    {
+      "location": "कविता, “In other lands this very day” वाला पद",
+      "severity": "minor",
+      "source_quote": "The fire is burning bright;",
+      "suggested_fix": "“आग प्रखरता से जल रही है” लिखें; वर्तमान अनुवाद “तेज़ी से” जलने का अर्थ देता है, “bright” का नहीं।",
+      "translation_quote": "आग तेज़ी से जल रही है;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

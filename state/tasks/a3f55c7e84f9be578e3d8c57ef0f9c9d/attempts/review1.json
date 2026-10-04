@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Dikt, strofe 5, linje 2\",\"severity\":\"major\",\"source_quote\":\"Perhaps more desperately;\",\"suggested_fix\":\"Kanskje enda mer desperat;\",\"translation_quote\":\"kanskje mer enn noen gang;\"},{\"location\":\"Dikt, strofe 6, linje 2\",\"severity\":\"major\",\"source_quote\":\"When by His side you fail to stay,\",\"suggested_fix\":\"når du ikke klarer å bli ved hans side,\",\"translation_quote\":\"når du ikke blir ved hans side,\"},{\"location\":\"Dikt, strofe 8, linje 3\",\"severity\":\"major\",\"source_quote\":\"The unknowns in His hands, He’ll be at your side\",\"suggested_fix\":\"De ukjente tingene i hans hender; han vil være ved din side\",\"translation_quote\":\"det ukjente legger han i sine hender; han vil være ved din side\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 752,
+    "content_evidence_truncated": false,
+    "content_sha256": "fd7c0ce89eae6ad37700e736b1df73569eee738a863531ada8a325dbb588c874",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1955,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1952,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2169
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

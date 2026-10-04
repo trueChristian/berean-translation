@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"诗歌，第14行\",\"severity\":\"minor\",\"source_quote\":\"It’s for the redeemed, and the life that he lives.\",\"suggested_fix\":\"可改为“它赐给蒙救赎的人，也伴随他们所过的生活。”，使“喜乐属于蒙救赎的人及其生活”这一意思更清楚。\",\"translation_quote\":\"它属于蒙救赎的人，也属于他所活出的生命。\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 413,
+    "content_evidence_truncated": false,
+    "content_sha256": "711ecb76c837afde43d078b689f17e2ba087990a066aed643b03fe85859d37f4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 473,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 351,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1705,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1702,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2178
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

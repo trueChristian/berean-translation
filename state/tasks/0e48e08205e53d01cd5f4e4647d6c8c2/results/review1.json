@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "657f512b-8749-41ba-9afd-4423f5a7222d",
+    "response_id": "chatcmpl-EV20PyfqXARCIpBFhmM5jd0tFnpK6",
+    "usage": {
+      "completion_tokens": 1133,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 853,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8351,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8348,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9484
+    }
+  },
+  "received_at": "2026-10-04T00:10:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf 4, kutipan Lukas 21:26 (diulang dalam paragraf 10)",
+        "severity": "major",
+        "source_quote": "“Men’s hearts failing them for fear, and for looking after those things which are coming on the earth…”",
+        "suggested_fix": "Ganti kedua kutipan dengan terjemahan yang menyampaikan bahwa hati orang-orang menjadi tawar karena ketakutan dan karena menantikan hal-hal yang akan menimpa bumi. Misalnya: <em>Hati orang-orang akan menjadi tawar karena ketakutan dan karena menantikan segala sesuatu yang akan menimpa bumi… –Luk 21:26.</em> Pada kutipan di paragraf 10, pertahankan elipsis dan tanda baca yang sudah ada.",
+        "translation_quote": "Paragraf 4: <em>Orang-orang akan mati ketakutan karena mengkhawatirkan segala sesuatu yang akan menimpa bumi… –Luk 21:26.</em> Paragraf 10: <em>…karena ketakutan dan karena mengkhawatirkan segala sesuatu yang akan menimpa bumi…? –Luk 21:26.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, final stanza",
+      "severity": "minor",
+      "source_quote": "To seek and to search, to stay by His side,",
+      "suggested_fix": "Ihn zu suchen und nach Ihm zu suchen, an Seiner Seite zu bleiben,",
+      "translation_quote": "Ihn zu suchen und zu forschen, an Seiner Seite zu bleiben,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

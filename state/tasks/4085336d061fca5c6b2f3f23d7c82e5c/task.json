@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9607
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 859,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 635,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9466,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9463,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10325
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “In His suffering for us” — Isaiah 53:10–11 quotation",
+      "severity": "major",
+      "source_quote": "He shall see of the travail of his soul, and shall be satisfied…",
+      "suggested_fix": "Replace the quoted portion with: “Sesudah kesusahan jiwanya, ia akan melihat hasilnya dan menjadi puas…” This preserves the printed meaning without adding “light.”",
+      "translation_quote": "Sesudah kesusahan jiwanya ia akan melihat terang dan menjadi puas…"
+    },
+    {
+      "location": "HTML, final paragraph before the closing symbols",
+      "severity": "minor",
+      "source_quote": "hordes of humanity flocked the theaters",
+      "suggested_fix": "Change “berbondong-bondong orang berbondong-bondong memenuhi bioskop” to “berbondong-bondong orang memenuhi bioskop.”",
+      "translation_quote": "berbondong-bondong orang berbondong-bondong memenuhi bioskop"
+    }
+  ],
   "id": "4085336d061fca5c6b2f3f23d7c82e5c",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "ind",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

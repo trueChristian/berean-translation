@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bf324339-e8c7-4d5e-85aa-a0a32bf75d40",
+    "response_id": "chatcmpl-EV20gXsfIkI8v4DKfv7x3cHgNQimr",
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 622,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6346,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7150
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, opening paragraph",
+        "severity": "minor",
+        "source_quote": "How our lives have changed.",
+        "suggested_fix": "Replace with “Jinsi maisha yetu yalivyobadilika.”",
+        "translation_quote": "Maisha yetu yamebadilikaje."
+      },
+      {
+        "location": "source.html, paragraph beginning “As I am writing this”",
+        "severity": "minor",
+        "source_quote": "the old normal has yet to be willed back into existence",
+        "suggested_fix": "Replace “hali ya zamani ya kawaida bado haijarejea kwa hiari” with “hali ya zamani ya kawaida bado haijaweza kurejeshwa kwa kutamani tu.”",
+        "translation_quote": "hali ya zamani ya kawaida bado haijarejea kwa hiari"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

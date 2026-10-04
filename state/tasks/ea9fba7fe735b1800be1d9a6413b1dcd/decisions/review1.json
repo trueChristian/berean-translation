@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ «في آلامه من أجلنا»",
+      "severity": "major",
+      "source_quote": "“Yet it pleased the LORD to bruise him; he hath put him to grief” –Isa 53:10-11.",
+      "suggested_fix": "استبدل بداية الاقتباس بما يحفظ المعنى المطبوع: «لكن الرب سُرَّ بأن يرضَّه؛ وأحزنه» (مع إبقاء بقية الاقتباس ووسم HTML والمرجع كما هما).",
+      "translation_quote": "«أما الرب فسرّ بأن يسحقه بالحزن» –إش 53:10-11."
+    },
+    {
+      "location": "الفقرة التي تبدأ «في آلامه من أجلنا»",
+      "severity": "major",
+      "source_quote": "“He shall see of the travail of his soul, and shall be satisfied…” –Isa 53:10-11.",
+      "suggested_fix": "أدرج الجملة المترجمة المقابلة بعد «تطول أيامه، ومسرة الرب بيده تنجح»، مع الحفاظ على ترتيب الاقتباس ومرجعه: «يرى من تعب نفسه ويشبع…».",
+      "translation_quote": "«…تطول أيامه، ومسرة الرب بيده تنجح. من تعب نفسه يرى ويشبع…» –إش 53:10-11."
+    },
+    {
+      "location": "الفقرة التي تبدأ «إن الذين منا يستطيعون أن يجدوا دموعًا»",
+      "severity": "major",
+      "source_quote": "“The soul is bearing its sin, and loving to bear it!”",
+      "suggested_fix": "استبدل «والنفس تحمل خطيتها، بل تحب حملها!» بما يوضح أن النفس هي التي تحمل خطيتها وتحب أن تحملها، دون تحويل ذلك إلى ضمير مؤنث يعود إلى الخطية.",
+      "translation_quote": "«والنفس تحمل خطيتها، بل تحب حملها!»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

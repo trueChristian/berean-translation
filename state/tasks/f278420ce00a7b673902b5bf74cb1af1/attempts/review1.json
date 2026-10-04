@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"पहला अनुच्छेद\",\"severity\":\"minor\",\"source_quote\":\"Nathan’s magic markers\",\"suggested_fix\":\"इसे “नैथन के रंगीन मार्कर” करें।\",\"translation_quote\":\"नैथन के जादुई रंगीन मार्कर\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 351,
+    "content_evidence_truncated": false,
+    "content_sha256": "f51052d797589f0d7f9057b4f0a55978fd23360986054f9256c00102f42dd148",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 443,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4137,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4134,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4664
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

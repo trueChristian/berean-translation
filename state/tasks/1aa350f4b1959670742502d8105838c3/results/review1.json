@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b2aedc63-a0ef-4320-8e7d-13d63407f0cc",
+    "response_id": "chatcmpl-EV20PvEWmIEbWO0wUdWouPZoCLejh",
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8994,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8991,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9627
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, parágrafo sobre a interpretação da profecia e das carpideiras",
+        "severity": "major",
+        "source_quote": "“the prophetic injunction consummating this discourse concerning the impending destruction of Jerusalem, and the evil days to come, were not directed to His followers (they were instructed to flee) but to the resistant Jews.”",
+        "suggested_fix": "Substitua “aos judeus resistentes” por “aos judeus que resistiam” ou “aos judeus que se opunham”, preservando a referência aos destinatários da advertência.",
+        "translation_quote": "“mas aos judeus resistentes.”"
+      },
+      {
+        "location": "HTML, poema atribuído a Watts, segundo verso",
+        "severity": "major",
+        "source_quote": "“His chief tormentors were.”",
+        "suggested_fix": "Traduza como “Foram seus principais algozes.” A tradução atual muda o sentido para uma frase nominal (“Seus maiores algozes”) e perde a afirmação de que os pecados foram os principais algozes.",
+        "translation_quote": "“Seus maiores algozes.”"
+      },
+      {
+        "location": "HTML, parágrafo iniciado por “Not only are we accountable”",
+        "severity": "major",
+        "source_quote": "“the Jews who spoke on our behalf that notable day”",
+        "suggested_fix": "Troque “que falaram em nosso nome” por “que falaram em nosso favor” ou “que falaram por nós”, preservando o sentido de speaking on our behalf.",
+        "translation_quote": "“os judeus que falaram em nosso nome naquele dia memorável”"
+      },
+      {
+        "location": "HTML, parágrafo iniciado por “In the remnant portion of His message”",
+        "severity": "major",
+        "source_quote": "“confessing our sin and the sin of our people Israel”",
+        "suggested_fix": "Altere “do nosso povo, Israel” para “do nosso povo, de Israel” ou “do povo de Israel”, para manter claro que se trata do povo de Israel.",
+        "translation_quote": "“confessando nosso pecado e o pecado do nosso povo, Israel”"
+      },
+      {
+        "location": "HTML, poema após “Funerals are a traditional cause for weeping”",
+        "severity": "major",
+        "source_quote": "“Thus, might I hide my blushing face”",
+        "suggested_fix": "Traduza “blushing face” como “rosto enrubescido” ou “rosto corado de vergonha”; “ruborizado” sem referência à vergonha pode não transmitir o sentido de blushing nesse contexto.",
+        "translation_quote": "“Assim, eu poderia esconder meu rosto ruborizado”"
+      },
+      {
+        "location": "HTML, parágrafo iniciado por “Several years ago”",
+        "severity": "major",
+        "source_quote": "“Jesus wept in Gethsemane, over Jerusalem, and at the tomb of Lazarus.”",
+        "suggested_fix": "Substitua “sobre Jerusalém” por “por Jerusalém”, mantendo o sentido de chorar por causa da cidade.",
+        "translation_quote": "“Jesus chorou no Getsêmani, sobre Jerusalém e junto ao túmulo de Lázaro.”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

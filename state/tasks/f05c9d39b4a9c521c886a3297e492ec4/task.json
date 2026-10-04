@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5c273843a684ac28df550f13e2f7f58",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 8151
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 273,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7975,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7972,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8248
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "第12段",
+      "severity": "major",
+      "source_quote": "“The simple truth is this, we do not know, and if we did know it still should not change the way we live and our overall response.”",
+      "suggested_fix": "将“即使知道，也不应改变我们的生活方式和整体回应”改为“即使我们知道真相，这也不应改变我们的生活方式和整体回应”，以保留原文所指的未知真相。",
+      "translation_quote": "“简单的事实是：我们不知道；即使知道，也不应改变我们的生活方式和整体回应。”"
+    },
+    {
+      "location": "第16段",
+      "severity": "major",
+      "source_quote": "“Some feel a twang of guilt because of the verse, ‘to not forsake the assembling of ourselves together’”",
+      "suggested_fix": "将“有人因为‘不可停止聚会’的经文而略感内疚”改为“有人因为‘不可放弃彼此聚会’这节经文而略感内疚”，以保留原文所引的具体劝诫。",
+      "translation_quote": "“有人因为‘不可停止聚会’的经文而略感内疚”"
+    }
+  ],
   "id": "f05c9d39b4a9c521c886a3297e492ec4",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "cmn",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

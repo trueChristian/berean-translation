@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, citação de Atos 5:32–33\",\"severity\":\"major\",\"source_quote\":\"“When they heard that, they were cut to the heart”\",\"suggested_fix\":\"Substitua apenas o trecho destacado por uma tradução fiel, por exemplo: <strong>“Quando ouviram isso, ficaram com o coração traspassado”</strong>.\",\"translation_quote\":\"<strong>“Quando ouviram isso, ficaram profundamente irados”</strong>\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 448,
+    "content_evidence_truncated": false,
+    "content_sha256": "9f9c2b7275b453229410443dd533591a091bac869ab73a692c1238dcc8705085",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 119,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8129,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8126,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8248
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, fifth stanza, final line\",\"severity\":\"minor\",\"source_quote\":\"When the way you think you see.\",\"suggested_fix\":\"Revise to «Quando pensas que vês o caminho.»\",\"translation_quote\":\"Quando pensas que vês claramente o caminho.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 292,
+    "content_evidence_truncated": false,
+    "content_sha256": "f7d1df85babf2201157919a25ded88e46d0d4d130cb80cb8055cad8338ae4eea",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 583,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2597
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6cec13fd-2ea5-45e1-b8f7-6e4ce0f25827",
+    "response_id": "chatcmpl-EV20WTrN0ww8AhXJorEVoYXnaVzNg",
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 460,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2621,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2618,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3169
+    }
+  },
+  "received_at": "2026-10-04T00:10:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, stanza 4",
+        "severity": "major",
+        "source_quote": "A lot of folks were burned at stake,",
+        "suggested_fix": "أُحرق كثيرون وهم مربوطون إلى أوتاد،",
+        "translation_quote": "أُحرق كثيرون على الخوازيق،"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

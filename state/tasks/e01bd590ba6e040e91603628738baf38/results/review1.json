@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b4bb33fe-c5b3-4b19-98d6-f7705ac6acb9",
+    "response_id": "chatcmpl-EV20b8ZPFvaXTT009iZhhtQiGKD1D",
+    "usage": {
+      "completion_tokens": 343,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8768,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8765,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9111
+    }
+  },
+  "received_at": "2026-10-04T00:10:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraaf met Handelinge 2:37–38",
+        "severity": "major",
+        "source_quote": "“Men and brethren, what shall we do?”",
+        "suggested_fix": "Laat die aanspreekvorm getrou staan as “Manne en broers, wat moet ons doen?” (of ’n ewe getroue Afrikaans-ekwivalent); moenie “Manne” weglaat nie.",
+        "translation_quote": "“Broers, wat moet ons doen?”"
+      },
+      {
+        "location": "Paragraaf met die hondjie wat gesteel is",
+        "severity": "major",
+        "source_quote": "“guiltily he said he was”",
+        "suggested_fix": "Vervang “hy het skuldige erken dat hy was” met ’n grammatikaal korrekte weergawe soos “het hy skuldige erken dat hy ’n Christen was” of “het hy skuld beken en gesê dat hy ’n Christen was.”",
+        "translation_quote": "“hy het skuldige erken dat hy was”"
+      },
+      {
+        "location": "Paragraaf wat begin “Miskien begin ons jeukerige ore kry”",
+        "severity": "major",
+        "source_quote": "“We rid ourselves of the presence of people who love us and desire to speak into our lives.”",
+        "suggested_fix": "Herstel die volledige handeling: “Ons raak ontslae van die teenwoordigheid van mense wat ons liefhet en graag in ons lewens wil inspreek.”",
+        "translation_quote": "“Ons ontslae raak van die teenwoordigheid van mense wat ons liefhet en graag in ons lewens wil inspreek.”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

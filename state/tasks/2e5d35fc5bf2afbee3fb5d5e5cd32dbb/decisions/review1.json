@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, first line",
+      "severity": "major",
+      "source_quote": "One fruit of the spirit is a word we all know.",
+      "suggested_fix": "En av Andens frukter är ett ord som vi alla känner till.",
+      "translation_quote": "Andens frukt är ett ord som vi alla känner till."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

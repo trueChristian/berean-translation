@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b719443d-b64f-4f04-9264-419b3082d4da",
+    "response_id": "chatcmpl-EV20PykUFCz7IvZCYSUKSuGQoMeuQ",
+    "usage": {
+      "completion_tokens": 813,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5381,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6197
+    }
+  },
+  "received_at": "2026-10-04T00:10:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 3, quotation of Matthew 6:27",
+        "severity": "major",
+        "source_quote": "“Which of you by taking thought can add one cubit unto his stature …”",
+        "suggested_fix": "Translate the printed quotation’s meaning rather than substituting the ESV wording that follows. For example: “Vem av er kan genom att oroa sig lägga en enda aln till sin längd …” Keep the reference Matt 6:27, 34 unchanged.",
+        "translation_quote": "“Vem av er kan genom att oroa sig lägga en enda aln till sin livslängd …”"
+      },
+      {
+        "location": "HTML, paragraphs 14–16, third cord heading and references to it",
+        "severity": "major",
+        "source_quote": "“A Sound Mind” / “the spirit of power, and of love, and of a sound mind”",
+        "suggested_fix": "Use a Swedish rendering meaning a sound/healthy mind, rather than “sunt förnuft” (common sense), for the heading and the later references to this third cord. Preserve the wording of the quoted verse as printed in Swedish while keeping this distinction clear.",
+        "translation_quote": "“Ett sunt förnuft” / “kraftens, kärlekens och självbehärskningens ande” / “kraft, kärlek och ett sunt förnuft”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}
