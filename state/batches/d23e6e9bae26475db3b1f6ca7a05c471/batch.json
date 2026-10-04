@@ -1,0 +1,18 @@
+{
+  "campaign": "downstream-2026100400",
+  "created_at": "2026-10-04T06:12:57+00:00",
+  "custom_ids": [
+    "f49aea11723ef6cc89c535c56f577657:review2"
+  ],
+  "id": "d23e6e9bae26475db3b1f6ca7a05c471",
+  "input_file_id": null,
+  "model": "gpt-6.1-sol",
+  "payload_sha256": "a7b186dd2ef8f45a0eb5cc773cc43126d49559b31fc27243fc39312603347da2",
+  "remote_id": null,
+  "reserved_usd": 0.094615,
+  "stage": "review2",
+  "status": "prepared",
+  "tasks": [
+    "f49aea11723ef6cc89c535c56f577657"
+  ]
+}
