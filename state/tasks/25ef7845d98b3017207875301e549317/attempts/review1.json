@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article HTML, list of David’s “I wills,” Psalm 17:5b\",\"severity\":\"critical\",\"source_quote\":\"I will be satisfied when I awake with Thy likeness. –Psalm 17:5b\",\"suggested_fix\":\"Replace the reference with “–Mazmur 17:15b”; the source prints Psalm 17:5b, but the cited verse number must remain exactly as printed in the authoritative source.\",\"translation_quote\":\"Aku akan merasa puas ketika aku bangun dengan rupa-Mu. –Mazmur 17:5b\"},{\"location\":\"Article HTML, closing paragraph before the final Scripture quotation\",\"severity\":\"major\",\"source_quote\":\"God has promised to perfect the things which concern you\",\"suggested_fix\":\"Translate “perfect” as “menyempurnakan” or another faithful equivalent, rather than “memperhatikan”; for example: “Allah telah berjanji untuk menyempurnakan hal-hal yang menyangkut dirimu...”\",\"translation_quote\":\"Allah telah berjanji untuk menyempurnakan hal-hal yang menyangkut dirimu\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 998,
+    "content_evidence_truncated": false,
+    "content_sha256": "e5961eb542198dc78b6ea02bfa0e9fb1b1ab03dcac66abc1450f036cceae0af6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 240,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6440,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6683
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

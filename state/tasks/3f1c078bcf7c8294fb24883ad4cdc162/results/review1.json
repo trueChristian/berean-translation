@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "07fa8c9d-e7ee-4af4-9383-387108c5511a",
+    "response_id": "chatcmpl-EV24fP2FPKwKylGAXtJiSyFHDHGNy",
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8489,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9103
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz 5, Beschreibung der Hirten",
+        "severity": "major",
+        "source_quote": "Even these foolish and unlearned men knew of, and longed for, the anticipated Messiah.",
+        "suggested_fix": "Ersetze „ungebildeten und unerfahrenen Männer“ durch „törichten und ungebildeten Männer“, um „foolish“ nicht als bloße Unerfahrenheit wiederzugeben.",
+        "translation_quote": "Selbst diese ungebildeten und unerfahrenen Männer wussten von dem erwarteten Messias und sehnten sich nach ihm."
+      },
+      {
+        "location": "Absatz 14, Deutung von Hebräer 13:12–13",
+        "severity": "major",
+        "source_quote": "Everyone whose heart beats loyal to the scene must also go to accompany Him.",
+        "suggested_fix": "Übersetze die Aussage als persönliche Loyalität zu Christus, etwa: „Jeder, dessen Herz Christus treu ist, muss ebenfalls hingehen, um ihn zu begleiten.“",
+        "translation_quote": "Jeder, dessen Herz dieser Szene treu ist, muss ebenfalls hingehen, um ihn zu begleiten."
+      },
+      {
+        "location": "Absatz 15, „The Inn Crowd“",
+        "severity": "major",
+        "source_quote": "The Inn Crowd is the place of popular reception, popular understanding, and popular behavior.",
+        "suggested_fix": "Gib „popular reception“ als allgemeine Aufnahme/Akzeptanz wieder, nicht als Beliebtheit, zum Beispiel: „Die Gasthausmenge steht für allgemeine Aufnahme, verbreitetes Verständnis und allgemein übliches Verhalten.“",
+        "translation_quote": "Die Gasthausmenge ist der Ort der beliebten Aufnahme, des verbreiteten Verständnisses und des allgemein üblichen Verhaltens."
+      },
+      {
+        "location": "Absatz 20, David und Batseba",
+        "severity": "major",
+        "source_quote": "Some wonder how David could fall into sin with Bathsheba while he possessed his multiple wives. How could he not?",
+        "suggested_fix": "Korrigiere die Umkehrung der rhetorischen Frage, etwa: „Manche fragen sich, wie David mit Batseba in Sünde fallen konnte, obwohl er mehrere Frauen hatte. Wie hätte er auch nicht in Sünde fallen sollen?“",
+        "translation_quote": "Manche fragen sich, wie David mit Batseba in Sünde fallen konnte, obwohl er mehrere Frauen hatte. Wie hätte er nicht fallen sollen?"
+      },
+      {
+        "location": "Absatz 21, Beschreibung von Stephanus’ Aussage über Abraham",
+        "severity": "major",
+        "source_quote": "He spake of Abraham removing himself from his land, Acts 7:3",
+        "suggested_fix": "Ersetze „wie Abraham sein Land verließ“ durch eine Wiedergabe von „removing himself from his land“, etwa: „wie Abraham aus seinem Land wegzog, Apostelgeschichte 7:3“.",
+        "translation_quote": "Er sprach davon, wie Abraham sein Land verließ, Apostelgeschichte 7:3"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

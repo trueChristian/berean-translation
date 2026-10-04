@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 4923
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 928,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4705,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4702,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5633
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "본문 1문단, 로마서 10:14–15 인용",
+      "severity": "major",
+      "source_quote": "How then shall they call on him in whom they have not believed?",
+      "suggested_fix": "첫 문장을 “그러면 믿지 않는 분을 어떻게 부르겠습니까?”로 고쳐 인용문의 뜻을 보존하세요. 이어지는 질문들도 ‘믿지 않는 이를 부르다’가 아니라 ‘믿지 않는 분을 부르다’라는 관계를 유지해 다듬으세요.",
+      "translation_quote": "그러면 믿지 않는 이를 어떻게 부르겠습니까?"
+    },
+    {
+      "location": "본문 6문단, 스가랴 4:6 인용 뒤 문장",
+      "severity": "major",
+      "source_quote": "…Not by might, nor by power, but by my spirit, saith the LORD of hosts –Zechariah 4:6, in demonstration of the Spirit and of power.",
+      "suggested_fix": "인용문과 뒤의 구절을 구분해, 예를 들어 “–스가랴 4:6, 성령과 능력이 드러나게 하여.”처럼 번역하세요. 현재의 “성령과 능력이 드러나게 하는 것입니다”는 원문에 없는 완결된 문장으로 보이며, 앞 문장과의 연결도 달라집니다.",
+      "translation_quote": "–스가랴 4:6. 성령과 능력이 드러나게 하는 것입니다."
+    },
+    {
+      "location": "본문 6문단, 마지막 두 문장",
+      "severity": "major",
+      "source_quote": "Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.",
+      "suggested_fix": "“돌이킬 수 없고 선택과 무관하게, 듣는 이의 양심 위에는 정죄 또는 확신이 놓입니다.”처럼 ‘선택과 무관하게’라는 뜻을 살려 번역하세요.",
+      "translation_quote": "돌이킬 수도 없고 선택으로 피할 수도 없이, 듣는 이의 양심에는 정죄 또는 확신이 놓입니다."
+    },
+    {
+      "location": "본문 8문단, 설교 방식의 변화",
+      "severity": "major",
+      "source_quote": "Current preaching styles have trended from [the cited exhortations] to “God understands and feels your pain.”",
+      "suggested_fix": "변화의 방향이 ‘이 말씀에서 … 이 말로’가 아니라 기존 설교 양식에서 위로 중심의 표현으로 ‘옮겨 왔다’는 뜻이 드러나도록, “오늘날의 설교 방식은 …에서 …로 바뀌어 왔습니다”처럼 고치세요.",
+      "translation_quote": "오늘날의 설교 방식은 이 말씀에서 … 이 말로 …로 바뀌어 왔습니다."
+    },
+    {
+      "location": "본문 12문단, 마지막 문장",
+      "severity": "major",
+      "source_quote": "Whether a message is encouragement, warning, or doctrine, urgent passion and emotion are urgently imperative.",
+      "suggested_fix": "“메시지가 격려이든 경고이든 교리이든, 긴박한 열정과 감정은 반드시 필요합니다.”처럼 원문의 주어와 요구를 유지하세요.",
+      "translation_quote": "메시지가 격려이든 경고이든 교리이든, 긴박한 열정과 감정은 반드시 필요합니다."
+    },
+    {
+      "location": "본문 14문단, 히브리서 4:12 인용",
+      "severity": "major",
+      "source_quote": "…to the dividing asunder of soul and spirit… –Hebrews 4:12, unless it happens within his own heart first.",
+      "suggested_fix": "히브리서 4:12 인용문이 ‘혼과 영을 갈라내기까지’라는 목적을 나타내도록 문장 안에 연결하세요. 예: “그것이 먼저 자기 마음 안에서 일어나지 않는 한, 그는 주님의 검(말씀)을 효과적으로 휘두를 수 없습니다. …혼과 영을 갈라내기까지… –히브리서 4:12.”",
+      "translation_quote": "그것이 먼저 자기 마음 안에서 일어나지 않는 한, 그는 주님의 검(말씀)을 효과적으로 휘두를 수 없습니다. …혼과 영을 갈라내기까지… –히브리서 4:12."
+    }
+  ],
   "id": "f92127021922d3c89102093919f9e47c",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "kor",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First stanza, second line\",\"severity\":\"minor\",\"source_quote\":\"Was it really true “That in days he’d be dead”?\",\"suggested_fix\":\"Replace «Ήταν στ’ αλήθεια αλήθεια» with «Ήταν πράγματι αλήθεια» to avoid the awkward repetition while preserving the question.\",\"translation_quote\":\"Ήταν στ’ αλήθεια αλήθεια «πως σε λίγες μέρες θα πέθαινε»;\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 488,
+    "content_evidence_truncated": false,
+    "content_sha256": "c67cc5cfc0351e3a46451ed98fb691c8233aeef3da8ed1f963d32097323b1c1b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1839,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2466
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

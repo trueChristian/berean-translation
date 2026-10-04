@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 5537
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 385,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5342,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5339,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5944
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML paragraph 6",
+      "severity": "major",
+      "source_quote": "“The preacher needs to be intellectually prepared.”",
+      "suggested_fix": "Replace «πνευματικά προετοιμασμένος» with «διανοητικά προετοιμασμένος» to preserve the source’s assertion about intellectual preparation.",
+      "translation_quote": "«Ο κήρυκας χρειάζεται να είναι πνευματικά προετοιμασμένος.»"
+    },
+    {
+      "location": "HTML paragraph 6",
+      "severity": "major",
+      "source_quote": "“urgent personal Bible study, personal devotions, and discipleship”",
+      "suggested_fix": "Translate “personal devotions” into Greek, for example «οι προσωπικές λατρευτικές στιγμές», rather than leaving the English word in the Greek article.",
+      "translation_quote": "«η επείγουσα προσωπική μελέτη της Γραφής, ούτε οι προσωπικές devotions, ούτε η μαθητεία»"
+    }
+  ],
   "id": "73ce829c7375f264c17a29a214597b59",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ell",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"

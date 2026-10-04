@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6c96572f-b1c3-49d1-979d-07712adb8dbe",
+    "response_id": "chatcmpl-EV250fm2jp0yz4M9Mmlugu08Rk6nA",
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 675,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7494,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7491,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8379
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, Luke 21:28",
+        "severity": "major",
+        "source_quote": "then look up, and lift up your heads",
+        "suggested_fix": "Translate both actions, for example: “basi tazameni juu, na kuinua vichwa vyenu” (adjusting the Kiswahili grammar as needed).",
+        "translation_quote": "basi inueni vichwa vyenu"
+      },
+      {
+        "location": "Final paragraph, Luke 21:36",
+        "severity": "major",
+        "source_quote": "that ye may be accounted worthy to escape all these things that shall come to pass",
+        "suggested_fix": "Revise the clause to convey being considered worthy to escape, for example: “ili mpate kuhesabiwa kuwa mnastahili kuokoka katika hayo yote yatakayokuwa.”",
+        "translation_quote": "ili mpate nguvu za kuokoka katika hayo yote yatakayokuwa"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

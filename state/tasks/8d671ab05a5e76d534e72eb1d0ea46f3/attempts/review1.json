@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, kutipan Lukas 21:36\",\"severity\":\"major\",\"source_quote\":\"that ye may be accounted worthy to escape all these things that shall come to pass\",\"suggested_fix\":\"Ganti “supaya kamu beroleh kekuatan untuk luput dari semua hal yang akan terjadi itu” dengan “supaya kamu dianggap layak luput dari semua hal yang akan terjadi itu” agar makna “accounted worthy” tetap terjaga.\",\"translation_quote\":\"supaya kamu beroleh kekuatan untuk luput dari semua hal yang akan terjadi itu\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 547,
+    "content_evidence_truncated": false,
+    "content_sha256": "8e55a94d6447b2fb91a51e831a22d8aaf27444855f1c39190ab1fe9c6a1c9e82",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 600,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 459,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7250,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7247,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7850
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

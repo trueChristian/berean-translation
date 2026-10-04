@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, kutipan Lukas 21:36",
+      "severity": "major",
+      "source_quote": "that ye may be accounted worthy to escape all these things that shall come to pass",
+      "suggested_fix": "Ganti “supaya kamu beroleh kekuatan untuk luput dari semua hal yang akan terjadi itu” dengan “supaya kamu dianggap layak luput dari semua hal yang akan terjadi itu” agar makna “accounted worthy” tetap terjaga.",
+      "translation_quote": "supaya kamu beroleh kekuatan untuk luput dari semua hal yang akan terjadi itu"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

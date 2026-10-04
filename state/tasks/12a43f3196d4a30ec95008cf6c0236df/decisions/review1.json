@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo sobre tecnología de ARNm",
+      "severity": "major",
+      "source_quote": "The new mRNA technology has not been used before in vaccines.",
+      "suggested_fix": "Cambiar «no se había usado antes» por «no se había usado antes en vacunas» no sería suficiente; conservar la afirmación original traduciendo: «La nueva tecnología de ARNm no se había usado antes en vacunas».",
+      "translation_quote": "La nueva tecnología de ARNm no se había usado antes en vacunas."
+    },
+    {
+      "location": "HTML, párrafo sobre la marca de la bestia",
+      "severity": "major",
+      "source_quote": "I don’t see it as the fulfillment of the mark of the beast.",
+      "suggested_fix": "Cambiar «no considero que sean el cumplimiento» por «no considero que sea el cumplimiento», para que el pronombre se refiera a la vacuna, como en el original.",
+      "translation_quote": "no considero que sean el cumplimiento de la profecía sobre la marca de la bestia"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

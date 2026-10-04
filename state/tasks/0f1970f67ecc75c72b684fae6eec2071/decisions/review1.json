@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, sezione “Altri vaccini”, primo paragrafo",
+      "severity": "major",
+      "source_quote": "“to trigger the immune response. create immunity.”",
+      "suggested_fix": "Sostituire la frase finale con una resa italiana che mantenga il senso senza la ripetizione accidentale: «per innescare la risposta immunitaria e creare immunità.»",
+      "translation_quote": "«per innescare la risposta immunitaria. creare immunità.»"
+    },
+    {
+      "location": "HTML, sezione “Altri vaccini”, primo paragrafo",
+      "severity": "major",
+      "source_quote": "“Janssen (Johnson and Johnson) Pharmaceuticals and Astra Zeneca are both working on vaccines that are more traditional vaccines—that is they grow the virus, then kill it, and then give small doses of the killed virus to trigger the immune response. create immunity.”",
+      "suggested_fix": "Riformulare il passaggio per conservarne la distinzione: «Janssen (Johnson and Johnson) Pharmaceuticals e Astra Zeneca stanno lavorando a vaccini più tradizionali: si coltiva il virus, poi lo si uccide e si somministrano piccole dosi del virus ucciso per innescare la risposta immunitaria e creare immunità.»",
+      "translation_quote": "«Janssen (Johnson and Johnson) Pharmaceuticals e Astra Zeneca stanno entrambe lavorando a vaccini più tradizionali: si coltiva il virus, poi lo si uccide e si somministrano piccole dosi del virus ucciso per innescare la risposta immunitaria. creare immunità.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

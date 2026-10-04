@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Заголовок\",\"severity\":\"minor\",\"source_quote\":\"This World is Not My Home\",\"suggested_fix\":\"Заменить «Этот мир — не мой дом» на «Этот мир мне не дом», чтобы точнее передать идиоматический смысл названия и повторяющейся строки гимна.\",\"translation_quote\":\"Этот мир — не мой дом\"},{\"location\":\"Гимн, куплет 1, строка 2\",\"severity\":\"minor\",\"source_quote\":\"My treasures are laid up somewhere beyond the blue;\",\"suggested_fix\":\"Заменить «Сокровища мои хранятся где-то за небесной синевой» на «Мои сокровища собраны где-то за небесной синевой»: «laid up» означает, что сокровища отложены/собраны там.\",\"translation_quote\":\"Сокровища мои хранятся где-то за небесной синевой;\"},{\"location\":\"Гимн, куплет 4, строка 3\",\"severity\":\"minor\",\"source_quote\":\"Their songs of sweetest praise drift back from heaven’s shore,\",\"suggested_fix\":\"Заменить «Их сладчайшие хвалебные песни доносятся с небесного берега» на «Их сладчайшие песни хвалы доносятся с небесного берега», чтобы яснее передать, что это песни прославления.\",\"translation_quote\":\"Их сладчайшие хвалебные песни доносятся с небесного берега,\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1700,
+    "content_evidence_truncated": false,
+    "content_sha256": "be46ffd5ee7af0ad60ba2ac8fa68028be47ff54e479ea148f7ba445527b98643",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 335,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1786,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1783,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2121
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

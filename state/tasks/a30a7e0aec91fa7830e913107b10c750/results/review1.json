@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5d750d09-8eb6-4a47-899b-982b1b7c54d7",
+    "response_id": "chatcmpl-EV24x9YTl60AIhi6TKpiNIkQVkyOv",
+    "usage": {
+      "completion_tokens": 253,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5300,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5556
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文第9段",
+        "severity": "major",
+        "source_quote": "He even preached on city streets to those who never went to church.",
+        "suggested_fix": "将“他甚至在城市街头向从不上教会的人讲道。”改为“他甚至在城市街头向从不去教堂的人讲道。”",
+        "translation_quote": "他甚至在城市街头向从不上教会的人讲道。"
+      },
+      {
+        "location": "正文第15段",
+        "severity": "major",
+        "source_quote": "One thing that seemed to make him restless in spirit was to observe a situation where there was lack of leadership, for want of a man to stand in the gap.",
+        "suggested_fix": "将“只因没有人挺身而出填补缺口”改为“因为缺少一位挺身而出填补缺口的人”，以保留原文所说的缺乏领袖、无人承担这一原因。",
+        "translation_quote": "有一件事似乎会使他心里不安，那就是看到某种处境缺少领导，只因没有人挺身而出填补缺口。"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza beginning «أصلّي أن يُذعن قلبي»\",\"severity\":\"minor\",\"source_quote\":\"I pray that my heart would be yielded, / To the touch of the Master’s hand.\",\"suggested_fix\":\"Replace «أصلّي أن يُذعن قلبي لمسةَ يد السيّد،» with «أصلّي أن يُذعن قلبي للمسةِ يد السيّد،» to express yielding to the touch.\",\"translation_quote\":\"أصلّي أن يُذعن قلبي لمسةَ يد السيّد،\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 529,
+    "content_evidence_truncated": false,
+    "content_sha256": "e858899b6bfa48752be71e6e018b30731c10c8d1d0c8784ded3e81fcd1aaf9ef",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 907,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 761,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3344,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3341,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4251
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

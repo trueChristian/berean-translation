@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Gedicht, Strophe 1\",\"severity\":\"minor\",\"source_quote\":\"For cool breezes and flowers / To please and turn my eye.\",\"suggested_fix\":\"Zum Beispiel: „Um kühle Lüfte und Blumen, / die erfreuen und meinen Blick auf sich ziehen.“\",\"translation_quote\":\"Um kühle Lüfte und Blumen, / die erfreuen und den Blick erfreun.\"},{\"location\":\"Gedicht, Strophe 3\",\"severity\":\"major\",\"source_quote\":\"To love, laugh with, and cherish, / And dissipate all strife.\",\"suggested_fix\":\"Zum Beispiel: „Mit dem ich lieben, lachen und ihn wertschätzen kann / und der allen Streit zerstreut.“\",\"translation_quote\":\"Zum Lieben, Lachen und Schätzen, / der allen Streit zerstreitet.\"},{\"location\":\"Gedicht, Strophe 4\",\"severity\":\"minor\",\"source_quote\":\"Life’s pathways would be clear.\",\"suggested_fix\":\"Zum Beispiel: „die Lebenswege stets klar wären.“\",\"translation_quote\":\"die Wege des Lebens klar seien.\"},{\"location\":\"Gedicht, Strophe 7\",\"severity\":\"minor\",\"source_quote\":\"Gone were the dreams of tranquility, / My soul cried with desire for a home.\",\"suggested_fix\":\"Zum Beispiel: „Die Träume von innerem Frieden waren dahin, / meine Seele sehnte sich nach einem Zuhause.“\",\"translation_quote\":\"Die Träume von der Ruhe waren dahin, / meine Seele schrie nach einem Zuhause.\"},{\"location\":\"Gedicht, Strophe 8\",\"severity\":\"major\",\"source_quote\":\"Then, a rich voice spoke inside me,\",\"suggested_fix\":\"„Da sprach eine volle, kräftige Stimme in mir,“\",\"translation_quote\":\"Da sprach eine warme Stimme in mir,\"},{\"location\":\"Gedicht, Strophe 8\",\"severity\":\"major\",\"source_quote\":\"If you would only but look unto Me.\",\"suggested_fix\":\"„wenn du nur zu Mir aufblickst.“\",\"translation_quote\":\"wenn du nur zu Mir aufblicken würdest.\"},{\"location\":\"Gedicht, Strophe 9\",\"severity\":\"minor\",\"source_quote\":\"Your prayers did not fall unheard.\",\"suggested_fix\":\"Zum Beispiel: „Deine Gebete blieben nicht ungehört.“\",\"translation_quote\":\"deine Gebete verhallten nicht ungehört.\"},{\"location\":\"Gedicht, Strophe 10\",\"severity\":\"minor\",\"source_quote\":\"For cool breezes and flowers to start.\",\"suggested_fix\":\"Zum Beispiel: „um kühle Lüfte und die ersten Blumen.“\",\"translation_quote\":\"um kühle Lüfte und Blumen, die erblühen.\"},{\"location\":\"Gedicht, Strophe 11\",\"severity\":\"minor\",\"source_quote\":\"I ordered the rough ways you have followed,\",\"suggested_fix\":\"Zum Beispiel: „Ich habe die rauen Wege bestimmt, auf denen du gegangen bist,“\",\"translation_quote\":\"Ich habe die rauen Wege angeordnet, die du gegangen bist,\"},{\"location\":\"Gedicht, Strophe 15\",\"severity\":\"major\",\"source_quote\":\"So now instead of praying / For things of earthly ease, / I thank the Lord for sending things / That brought me to my knees.\",\"suggested_fix\":\"Zum Beispiel: „So bete ich jetzt, statt / um irdische Bequemlichkeit zu bitten, / danke ich dem Herrn für die Dinge, die er sendet / und die mich in die Knie zwangen.“\",\"translation_quote\":\"So bete ich jetzt nicht mehr / um irdische Bequemlichkeit, / sondern danke dem Herrn für alles, was Er schickt, / das mich auf die Knie gebracht hat.\"},{\"location\":\"Gedicht, Strophe 17\",\"severity\":\"minor\",\"source_quote\":\"Allowing His will to change me, / Through everything He has planned.\",\"suggested_fix\":\"Zum Beispiel: „damit Sein Wille mich verändert / durch alles hindurch, was Er geplant hat.“\",\"translation_quote\":\"Dass Sein Wille mich verändern darf / durch alles hindurch, was Er geplant hat.\"},{\"location\":\"Gedicht, Strophe 18\",\"severity\":\"major\",\"source_quote\":\"Not moved through fire or strife.\",\"suggested_fix\":\"Zum Beispiel: „und weder durch Feuer noch durch Kampf erschüttert werden.“\",\"translation_quote\":\"und uns weder Feuer noch Streit erschüttern.\"},{\"location\":\"Gedicht, Strophe 19\",\"severity\":\"major\",\"source_quote\":\"For He is the solid Foundation, / And the real source of True Life superb.\",\"suggested_fix\":\"Zum Beispiel: „Denn Er ist das feste Fundament / und die wahre Quelle des großartigen Lebens.“\",\"translation_quote\":\"Denn Er ist das feste Fundament / und die wahre Quelle des herrlichen Lebens.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 4130,
+    "content_evidence_truncated": false,
+    "content_sha256": "54ce581c3ef3565986e8583a3ae1cfd3a804cddfe18a0a213a7f40eb59643777",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 982,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3269,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3266,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4251
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

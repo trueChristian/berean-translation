@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "76743174-dea7-450d-9898-d8e38393be12",
+    "response_id": "chatcmpl-EV24ZEX3hwnMOAFXqaV2GFyAE0Nqb",
+    "usage": {
+      "completion_tokens": 894,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 622,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7604,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7601,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8498
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “If we are honest about the actual definition…”",
+        "severity": "major",
+        "source_quote": "many, if not most, of the ‘stories’ that are spreading through the rumor-mill are indeed conspiracy theories.",
+        "suggested_fix": "Replace “nyingi, kama si nyingi sana, za ‘simulizi’” with “nyingi, kama si nyingi zaidi ya nusu, za ‘simulizi’” to convey “many, if not most.”",
+        "translation_quote": "nyingi, kama si nyingi sana, za ‘simulizi’ zinazoenezwa katika uvumi ni nadharia za njama kweli."
+      },
+      {
+        "location": "Paragraph beginning “Like I said before…”",
+        "severity": "major",
+        "source_quote": "He will NOT allow us to be tempted above that which we are able to bear.",
+        "suggested_fix": "Replace “HATATUACHA tujaribiwe kupita uwezo wetu wa kustahimili” with “HATARUHUSU tujaribiwe kupita uwezo wetu wa kustahimili.”",
+        "translation_quote": "HATATUACHA tujaribiwe kupita uwezo wetu wa kustahimili."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

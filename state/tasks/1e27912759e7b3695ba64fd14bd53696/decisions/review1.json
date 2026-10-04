@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “Current preaching styles”",
+      "severity": "major",
+      "source_quote": "Current preaching styles have trended <strong>from</strong> [the cited passages] <strong>to</strong> “God understands and feels your pain.”",
+      "suggested_fix": "Preserve the source structure and translate the contrast markers as “מ־” for <strong>from</strong> and “ל־” for <strong>to</strong>, so the sentence says preaching styles have shifted from the cited teachings to the quoted reassurance.",
+      "translation_quote": "סגנונות ההטפה כיום נטו להתרחק מ<strong>־</strong>[the cited passages] <strong>ולעבור אל</strong> ״אלוהים מבין את כאבכם ומרגיש אותו״."
+    },
+    {
+      "location": "source.html, final paragraph, sentence beginning “Through such enabling grace”",
+      "severity": "major",
+      "source_quote": "Through such enabling grace, the parishioners will either be spiritually moved to deeper levels of passionate living, or their conscience will be hardened against the Holy Spirit’s convicting influence.",
+      "suggested_fix": "Translate “enabling grace” as enabling grace (for example, “באמצעות חסד זה המאפשר זאת”), rather than “such enabling grace” as an unspecified permissive phrase; retain both alternatives and their relation to the Holy Spirit’s convicting influence.",
+      "translation_quote": "בחסד מאפשר כזה, בני הקהילה ינועו מבחינה רוחנית לעבר רבדים עמוקים יותר של חיים נלהבים, או שמצפונם יתקשה ויתנגד להשפעתה המשכנעת של רוח הקודש."
+    },
+    {
+      "location": "source.html, final paragraph, sentence beginning “Through faith, obedience, and the blood of the Lamb”",
+      "severity": "major",
+      "source_quote": "Through faith, obedience, and the blood of the Lamb, it defeats willful sin, fiendish demons, sensual flesh, and Satan.",
+      "suggested_fix": "Translate “fiendish demons” as demonic/evil demons (for example, “שדים מרושעים”), not “Satanic demons,” and render “sensual flesh” as sensual/sinful flesh rather than “sensuous flesh” (for example, “הבשר החוטא”).",
+      "translation_quote": "באמצעות אמונה, ציות ודם השה, היא מביסה חטא במזיד, שדים שטניים, בשר חושני ואת השטן."
+    },
+    {
+      "location": "source.html, paragraph beginning “The secret closet of the preacher”",
+      "severity": "major",
+      "source_quote": "The secret closet of the preacher must be full of Light… Biblical Light.",
+      "suggested_fix": "Translate “secret closet” in its idiomatic sense of the preacher’s private place of prayer/devotion, for example, “על חדר התפילה הפרטי של המטיף להיות מלא אור… אור מקראי,” rather than describing it as a hidden hiding place.",
+      "translation_quote": "על המסתור הנסתר של המטיף להיות מלא אור… אור מקראי."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

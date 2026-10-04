@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b2feacad-fd01-49b9-994d-ddd52fa4677f",
+    "response_id": "chatcmpl-EV259TM1LyrKpB72rK2331HDdgi0W",
+    "usage": {
+      "completion_tokens": 915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 567,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9429,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10347
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, “হালনাগাদ পার্শ্বপ্রতিক্রিয়া” section, paragraph on anaphylaxis",
+        "severity": "major",
+        "source_quote": "This sort of an allergy requires medications like epinephrine to reverse it",
+        "suggested_fix": "Replace “এ ধরনের অ্যালার্জি প্রতিরোধ করতে এপিনেফ্রিনের মতো ওষুধ লাগে” with “এ ধরনের অ্যালার্জির প্রতিক্রিয়া কাটাতে এপিনেফ্রিনের মতো ওষুধ লাগে” so the sentence says the medication reverses the reaction, rather than prevents it.",
+        "translation_quote": "এ ধরনের অ্যালার্জি প্রতিরোধ করতে এপিনেফ্রিনের মতো ওষুধ লাগে"
+      },
+      {
+        "location": "HTML, “হালনাগাদ পার্শ্বপ্রতিক্রিয়া” section, paragraph on deaths in Norway",
+        "severity": "major",
+        "source_quote": "but I think I would probably avoid giving the vaccine to people who are in extremely poor health",
+        "suggested_fix": "Replace “তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া এড়িয়ে চলা উচিত” with “তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া সম্ভবত আমি এড়িয়ে চলতাম” to preserve the author's qualified personal judgment rather than state a general recommendation.",
+        "translation_quote": "তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া এড়িয়ে চলা উচিত"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cf22db7a-7250-4612-aca5-cde011f0bd91",
+    "response_id": "chatcmpl-EV25FAxkY23swSxn6YlPgct5nszvZ",
+    "usage": {
+      "completion_tokens": 595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 482,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6200,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6798
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, heading “Angst,” quotation of Psalm 56:3",
+        "severity": "major",
+        "source_quote": "“What time I am afraid, I will trust in thee”",
+        "suggested_fix": "Vertaal de bewuste keuze in de bron expliciet: “Wanneer ik bevreesd ben, zal ik op U vertrouwen.”",
+        "translation_quote": "“Wanneer ik bevreesd ben, vertrouw ik op U”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

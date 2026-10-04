@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "VICTORIOUS CHRISTIAN LIVING",
+      "suggested_fix": "Translate the section label into Dutch, for example: \"OVERWINNEND CHRISTELIJK LEVEN\".",
+      "translation_quote": "VICTORIOUS CHRISTIAN LIVING"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

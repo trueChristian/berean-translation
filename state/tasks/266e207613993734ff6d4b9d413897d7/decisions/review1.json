@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Lista de salmos, primera viñeta",
+      "severity": "minor",
+      "source_quote": "I will praise thee, O Lord, with my whole heart.",
+      "suggested_fix": "<li><em><strong>Te alabaré</strong>, Señor, con todo mi corazón.</em> –Salmo 9:1a</li>",
+      "translation_quote": "<li><em><strong>Alabaré</strong> a ti, Señor, con todo mi corazón.</em> –Salmo 9:1a</li>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

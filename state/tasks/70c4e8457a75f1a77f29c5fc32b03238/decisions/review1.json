@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, paragraph under “Um espírito tranquilo” (Isaías 30:15)",
+      "severity": "major",
+      "source_quote": "“In returning and rest shall ye be saved”",
+      "suggested_fix": "Replace “No arrependimento e no descanso estaria a vossa salvação” with “No retorno e no descanso estaria a vossa salvação” (or another Portuguese rendering that preserves “returning,” rather than changing it to repentance).",
+      "translation_quote": "“No arrependimento e no descanso estaria a vossa salvação”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

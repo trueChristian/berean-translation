@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “John S. and Maria”\",\"severity\":\"major\",\"source_quote\":\"John S. and Maria (Horning) Kurtz were my great, great grandparents.\",\"suggested_fix\":\"Ganti “kakek buyut saya” dengan “kakek-nenek canggah saya” agar hubungan generasi great-great-grandparents tetap tersampaikan.\",\"translation_quote\":\"John S. dan Maria (Horning) Kurtz adalah kakek buyut saya.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 444,
+    "content_evidence_truncated": false,
+    "content_sha256": "6e63b59f8924ab4da9e9dc99cf1b62ec5209673b12412ceba678dbfb5f6957ab",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 641,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7171,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7168,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7812
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d65bdfa3-16b8-4c91-946e-3fc64aa5f251",
+    "response_id": "chatcmpl-EV24Wv5zhLDdKGgT3IXm09PdmC52i",
+    "usage": {
+      "completion_tokens": 87,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1799,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1796,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1886
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "副歌，第1行",
+        "severity": "major",
+        "source_quote": "O Lord, you know I have no friend like you,",
+        "suggested_fix": "哦，主啊，你知道我没有像你这样的朋友，",
+        "translation_quote": "哦，主啊，你知道没有人像你这样与我亲近，"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

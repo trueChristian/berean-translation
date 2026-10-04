@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"भजन, पद 4 की दूसरी पंक्ति\",\"severity\":\"major\",\"source_quote\":\"The saints on every hand are shouting victory,\",\"suggested_fix\":\"चारों ओर संत विजय का जयघोष कर रहे हैं,\",\"translation_quote\":\"चारों ओर संत जयजयकार कर रहे हैं,\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 420,
+    "content_evidence_truncated": false,
+    "content_sha256": "d7e3be7f65607898cc4ae3051fa76d21e3d40f9a84892efbe6140576b5e3d59a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 551,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 460,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1826,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1823,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2377
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 6",
+      "severity": "major",
+      "source_quote": "“The preacher needs to be intellectually prepared.”",
+      "suggested_fix": "Replace «πνευματικά προετοιμασμένος» with «διανοητικά προετοιμασμένος» to preserve the source’s assertion about intellectual preparation.",
+      "translation_quote": "«Ο κήρυκας χρειάζεται να είναι πνευματικά προετοιμασμένος.»"
+    },
+    {
+      "location": "HTML paragraph 6",
+      "severity": "major",
+      "source_quote": "“urgent personal Bible study, personal devotions, and discipleship”",
+      "suggested_fix": "Translate “personal devotions” into Greek, for example «οι προσωπικές λατρευτικές στιγμές», rather than leaving the English word in the Greek article.",
+      "translation_quote": "«η επείγουσα προσωπική μελέτη της Γραφής, ούτε οι προσωπικές devotions, ούτε η μαθητεία»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

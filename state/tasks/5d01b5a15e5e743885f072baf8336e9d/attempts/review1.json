@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, second stanza, third line\",\"severity\":\"minor\",\"source_quote\":\"People speak of God, oh the anger that brings!\",\"suggested_fix\":\"Folk talar om Gud – så arg jag blir!\",\"translation_quote\":\"Folk talar om Gud – åh, vad arg det gör mig!\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 305,
+    "content_evidence_truncated": false,
+    "content_sha256": "28ca069b77ed7ecad1a3de6af37368fe6ec8fb431a90fbe4f639300834c64f1c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1681,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1678,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2287
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

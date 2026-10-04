@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, list of David’s “I wills,” Psalm 52:9b",
+      "severity": "major",
+      "source_quote": "I will wait on thy name.",
+      "suggested_fix": "Ersätt ”vänta på ditt namn” med ”förtrösta på ditt namn” för att återge innebörden att sätta sin tillit till Guds namn.",
+      "translation_quote": "Jag ska vänta på ditt namn."
+    },
+    {
+      "location": "HTML, paragraph beginning “Good intentions and change”",
+      "severity": "minor",
+      "source_quote": "we don’t understand how God intimately cares about these emotions and problems in our lives",
+      "suggested_fix": "Ändra till exempelvis ”vi förstår inte hur djupt Gud bryr sig om dessa känslor och problem i våra liv”.",
+      "translation_quote": "vi förstår inte hur nära Gud bryr sig om dessa känslor och problem i våra liv"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

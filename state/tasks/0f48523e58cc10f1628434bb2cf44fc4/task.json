@@ -2,7 +2,6 @@
   "article_id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 7068
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 570,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6927,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6924,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7497
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "लेख के शीर्ष भाग की पद-सूची, भजन संहिता 17:5ख",
+      "severity": "critical",
+      "source_quote": "I will be satisfied when I awake with Thy likeness. –Psalm 17:5b",
+      "suggested_fix": "<li><em><strong>मैं</strong> जागने पर तेरे स्वरूप से संतुष्ट होऊँगा।</em> –भजन संहिता 17:5ख</li>",
+      "translation_quote": "मैं जागने पर तेरे स्वरूप से संतुष्ट होऊँगा। –भजन संहिता 17:5ख"
+    },
+    {
+      "location": "“असंतोष” खंड, पहले उद्धरण के अंत में",
+      "severity": "major",
+      "source_quote": "–Philippians 4:11.",
+      "suggested_fix": "<p><em>यह नहीं कि मैं अपनी घटी के कारण कहता हूँ, क्योंकि मैंने हर दशा में संतुष्ट रहना सीख लिया है –फिलिप्पियों 4:11।</em></p>",
+      "translation_quote": "–फिलिप्पियों 4:11।"
+    },
+    {
+      "location": "अंतिम अनुच्छेद",
+      "severity": "major",
+      "source_quote": "God has promised to perfect the things which concern you",
+      "suggested_fix": "<p>रवैये और भावनाएँ—नकारात्मक हों या सकारात्मक—सब ऐसे छिपे हुए चुनाव हैं जिन्हें हमें करना होता है। आप क्या चुनेंगी—विश्वासहीन “मैं कोशिश करूँगी” या साहसी “मैं करूँगी”? क्या आप परमेश्वर के अनुग्रह से सही चुनाव करना चुनेंगी? परमेश्वर ने आपकी चिंता के विषयों को पूरा करने की प्रतिज्ञा की है, लेकिन आपके “मैं करूँगी” के बिना वह आपके जीवन में अपना काम नहीं करेगा। यह आप पर निर्भर है।</p>",
+      "translation_quote": "परमेश्वर ने उन बातों को सिद्ध करने की प्रतिज्ञा की है जो आपकी चिंता का विषय हैं"
+    },
+    {
+      "location": "“असंतोष” खंड, दूसरे उद्धरण में",
+      "severity": "minor",
+      "source_quote": "And having food and raiment let us be therewith content –1 Timothy 6:8.",
+      "suggested_fix": "“और यदि हमारे पास खाने और पहनने को हो, तो इन्हीं पर संतोष करना चाहिए –1 तीमुथियुस 6:8।” (उद्धरण के अंत में पूर्णविराम भी रखें।)",
+      "translation_quote": "और यदि हमारे पास खाने और पहनने को हो, तो इन्हीं पर संतोष करना चाहिए –1 तीमुथियुस 6:8।"
+    }
+  ],
   "id": "0f48523e58cc10f1628434bb2cf44fc4",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "hin",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/98abc0390fdbb46f66dcb82de8d581a1c56a439f30cc6e8f9cd39ef03636cafa.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
   "translation_model_actual": "gpt-6-luna"

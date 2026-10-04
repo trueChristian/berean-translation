@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e589eac0-092e-4876-be86-26613e12ccef",
+    "response_id": "chatcmpl-EV24bzYcds7KPaBYxk0ib6O0jT6jk",
+    "usage": {
+      "completion_tokens": 1238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 991,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9242,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9239,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10480
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “The fact that this child was conceived by the Holy Ghost,” Ezekiel 16:4 quotation",
+        "severity": "major",
+        "source_quote": "“neither wast thou washed in water to supple thee; thou wast not salted at all, nor swaddled at all”",
+        "suggested_fix": "In the Ezekiel quotation, replace “نہ تجھے پانی سے نہلا کر صاف کیا گیا؛ نہ تجھے نمک سے مل مل کر پاک کیا گیا، نہ کپڑوں میں لپیٹا گیا۔” with “نہ تجھے پانی سے نہلایا گیا تاکہ تجھے نرم کیا جائے؛ تجھے بالکل نمک نہیں لگایا گیا، اور نہ ہی کپڑوں میں لپیٹا گیا۔” This restores the printed meaning: the water was to soften her, and she was not salted at all.",
+        "translation_quote": "“نہ تجھے پانی سے نہلا کر صاف کیا گیا؛ نہ تجھے نمک سے مل مل کر پاک کیا گیا، نہ کپڑوں میں لپیٹا گیا۔”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

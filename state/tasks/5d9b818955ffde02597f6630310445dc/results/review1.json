@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f30a53c3-125b-4b65-a65c-be8ea4408283",
+    "response_id": "chatcmpl-EV25670Uy7f6dFfzZw6rC0TcWGldq",
+    "usage": {
+      "completion_tokens": 823,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 728,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5745
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "অনুচ্ছেদ ৯",
+        "severity": "minor",
+        "source_quote": "It kills vision and burden.",
+        "suggested_fix": "“এটি দর্শন ও আধ্যাত্মিক ভারবোধকে হত্যা করে।”",
+        "translation_quote": "এটি দর্শন ও দায়বোধকে হত্যা করে।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

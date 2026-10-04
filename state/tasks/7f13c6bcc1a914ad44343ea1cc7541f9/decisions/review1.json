@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section introduction, paragraph 1",
+      "severity": "minor",
+      "source_quote": "See the editorial under the section “continued changes” for further details.",
+      "suggested_fix": "Replace «lederartikkelen under seksjonen «fortsatte endringer»» with «lederen under seksjonen «fortsatte endringer»» to render “the editorial” more naturally in Norwegian.",
+      "translation_quote": "Se lederartikkelen under seksjonen «fortsatte endringer» for flere detaljer."
+    },
+    {
+      "location": "HTML, “Andre vaksiner,” paragraph 1",
+      "severity": "major",
+      "source_quote": "to trigger the immune response. create immunity.",
+      "suggested_fix": "Replace «for å utløse immunresponsen. Skape immunitet.» with «for å utløse immunresponsen og skape immunitet.»",
+      "translation_quote": "for å utløse immunresponsen. Skape immunitet."
+    },
+    {
+      "location": "HTML, “Andre spørsmål,” paragraph 2",
+      "severity": "minor",
+      "source_quote": "(21 gauge or smaller)",
+      "suggested_fix": "Translate the needle-size unit rather than retaining the English gauge term; for example, «(21 gauge eller mindre)» may be retained with a brief Norwegian clarification such as «(21 gauge eller mindre, altså en svært tynn nål)».",
+      "translation_quote": "(21 gauge eller mindre)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

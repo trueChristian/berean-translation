@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Absatz über Maria",
+      "severity": "major",
+      "source_quote": "However, her being a part of God’s plan for the salvation of the world hung on that choice.",
+      "suggested_fix": "Doch von dieser Entscheidung hing es ab, ob sie Teil von Gottes Plan zur Rettung der Welt sein würde.",
+      "translation_quote": "Doch davon, dass sie Teil von Gottes Plan zur Rettung der Welt wurde, hing diese Entscheidung ab."
+    },
+    {
+      "location": "Absatz beginnend „Gute Absichten und Veränderung“",
+      "severity": "minor",
+      "source_quote": "Good intentions and change are often only separated by lack of faith and motivation.",
+      "suggested_fix": "Gute Absichten und Veränderung sind oft nur durch einen Mangel an Glauben und Motivation voneinander getrennt.",
+      "translation_quote": "Gute Absichten und Veränderung trennt oft nur ein Mangel an Glauben und Motivation."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

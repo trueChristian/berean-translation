@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e146af8c-7a9d-4152-a7c7-e92700e96ebd",
+    "response_id": "chatcmpl-EV25VbFPqQNePIFYYrSqAZZOo2QtF",
+    "usage": {
+      "completion_tokens": 1009,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 841,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8314,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9326
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf yang dimulai “Cara kita berbicara satu sama lain”",
+        "severity": "major",
+        "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
+        "suggested_fix": "Pertahankan negasi seperti tercetak dalam sumber: “Tetapi jika kita tidak enggan mengatakan kebenaran, sekalipun itu berarti seseorang akan tidak senang kepada kita, bukankah kita bersalah?”",
+        "translation_quote": "Tetapi jika kita tidak bersedia mengatakan kebenaran karena takut seseorang akan tidak senang kepada kita, bukankah kita bersalah?"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

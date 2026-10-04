@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf yang dimulai “Cara kita berbicara satu sama lain”",
+      "severity": "major",
+      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
+      "suggested_fix": "Pertahankan negasi seperti tercetak dalam sumber: “Tetapi jika kita tidak enggan mengatakan kebenaran, sekalipun itu berarti seseorang akan tidak senang kepada kita, bukankah kita bersalah?”",
+      "translation_quote": "Tetapi jika kita tidak bersedia mengatakan kebenaran karena takut seseorang akan tidak senang kepada kita, bukankah kita bersalah?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

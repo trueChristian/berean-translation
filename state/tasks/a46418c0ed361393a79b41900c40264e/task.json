@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 9742
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1025,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 718,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9571,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9568,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10596
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Image alt text; Luke 2:8–14 quotation; paragraphs beginning “The fact that this child…” and “The sign of the manger…”; later references to the manger",
+      "severity": "major",
+      "source_quote": "“Mary and Joseph with the infant Jesus in a manger”; “Ye shall find the babe wrapped in swaddling clothes, lying in a manger”; “The sign of the manger”; “follow Him to the manger.”",
+      "suggested_fix": "Replace “গোয়ালঘরের ডাব” and other renderings that identify the manger as a coconut with a Bengali term for an animal-feeding trough, such as “পশুখাদ্যের পাত্র” (or another clear conventional equivalent). For example, the alt text could say “মরিয়ম ও যোষেফ পশুখাদ্যের পাত্রে শায়িত যিশুশিশুর পাশে”; update each corresponding occurrence while preserving the existing HTML structure.",
+      "translation_quote": "“যিশুশিশুকে গোয়ালঘরের ডাবের মধ্যে নিয়ে মরিয়ম ও যোষেফ”; “শিশুটিকে কাপড়ে জড়ানো অবস্থায় গোয়ালঘরের ডাবের মধ্যে শুয়ে থাকতে দেখবে”; “গোয়ালঘরের ডাবের চিহ্ন”; “গোয়ালঘরের ডাব পর্যন্ত যাবে।”"
+    }
+  ],
   "id": "a46418c0ed361393a79b41900c40264e",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ben",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

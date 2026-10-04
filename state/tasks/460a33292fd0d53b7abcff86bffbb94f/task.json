@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,80 @@
         },
         "total_tokens": 9215
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 795,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9035,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9032,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9830
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Picha, alt text",
+      "severity": "major",
+      "source_quote": "A syringe and needle prepared for an injection",
+      "suggested_fix": "Badilisha “mpira” kwa “sindano”: “Sindano na sindano iliyotayarishwa kwa ajili ya kudungwa.”",
+      "translation_quote": "Sindano na mpira ulioandaliwa kwa ajili ya kudunga"
+    },
+    {
+      "location": "Utangulizi wa daktari",
+      "severity": "major",
+      "source_quote": "Meet the doctor who wrote this article for our medical column.",
+      "suggested_fix": "Tafsiri “Meet” kwa maana ya kumtambulisha daktari, kwa mfano: “Mfahamu daktari aliyeandika makala hii kwa ajili ya safu yetu ya tiba.”",
+      "translation_quote": "Fahamuni daktari aliyeandika makala hii kwa ajili ya safu yetu ya tiba."
+    },
+    {
+      "location": "Madhara yaliyosasishwa, aya kuhusu wagonjwa wa Norway",
+      "severity": "major",
+      "source_quote": "but I think I would probably avoid giving the vaccine to people who are in extremely poor health",
+      "suggested_fix": "Ondoa hitilafu “ningee,” na tumia: “lakini nadhani pengine ningeepuka kuwapa chanjo watu walio katika hali mbaya sana ya afya”",
+      "translation_quote": "lakini nadhani pengine ningee, kuepuka kuwapa chanjo watu walio katika hali mbaya sana ya afya"
+    },
+    {
+      "location": "Chanjo Nyingine, aya ya kwanza",
+      "severity": "major",
+      "source_quote": "to trigger the immune response. create immunity.",
+      "suggested_fix": "Tafsiri kirai cha ziada kinachoonekana kwenye chanzo kama kilivyo, ukikihifadhi katika sehemu hii: “ili kuanzisha mwitikio wa kinga. huleta kinga.”",
+      "translation_quote": "ili kuanzisha mwitikio wa kinga. huleta kinga."
+    },
+    {
+      "location": "Chanjo Nyingine, aya ya tatu",
+      "severity": "major",
+      "source_quote": "there is one from Merck is a non-mRNA vaccine that is also ethically sourced (not grown on aborted fetal cells).",
+      "suggested_fix": "Rekebisha maana ya “ethically sourced” bila kudai chanjo imetokana na chanzo fulani. Kwa mfano: “lakini kuna moja ya Merck ambayo si chanjo ya mRNA na ambayo pia imetengenezwa kwa njia inayozingatia maadili (haikukuzwa kwenye seli za fetasi zilizotokana na utoaji mimba).”",
+      "translation_quote": "lakini kuna moja ya Merck ambayo si chanjo ya mRNA na pia imetokana na vyanzo vya kimaadili (haikukuzwa kwenye seli za fetasi zilizotokana na utoaji mimba)."
+    },
+    {
+      "location": "Nani Hapaswi Kupata Chanjo?, aya ya pili",
+      "severity": "major",
+      "source_quote": "or are currently isolating because of being exposed to it",
+      "suggested_fix": "Badilisha “umeambukizwa” kuwa “umekuwa katika hatari ya kuambukizwa” ili kuhifadhi maana ya kuwa kwenye karantini baada ya kukaribiana na COVID: “...au umejitenga kwa sababu umekuwa katika hatari ya kuambukizwa...”",
+      "translation_quote": "au umejitenga kwa sababu umeambukizwa"
+    },
+    {
+      "location": "Kichwa cha makala",
+      "severity": "minor",
+      "source_quote": "Vaccinated. . . To Be or Not To Be?",
+      "suggested_fix": "Tumia kichwa kinachohifadhi uchezaji wa maneno kuhusu kuwa na chanjo au kutokuwa nayo, kwa mfano: “Kupata Chanjo… au Kutopata?”",
+      "translation_quote": "Kupata Chanjo… Au Kutoipata?"
+    }
+  ],
   "id": "460a33292fd0d53b7abcff86bffbb94f",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swa",
@@ -116,11 +186,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Verkondig die woord” (2 Timothy 4:2)",
+      "severity": "minor",
+      "source_quote": "“reprove, rebuke, exhort”",
+      "suggested_fix": "Replace “weerlê” with “teregwys” in this quotation so that “reprove” conveys correction rather than refutation: “teregwys, bestraf, vermaan”.",
+      "translation_quote": "“weerlê, bestraf, vermaan”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

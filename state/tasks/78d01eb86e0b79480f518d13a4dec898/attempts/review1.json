@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Hymn, stanza 2, line 3\",\"severity\":\"minor\",\"source_quote\":\"I know He’ll take me thro’, tho’ I am weak and poor,\",\"suggested_fix\":\"Aku tahu Dia akan membawaku melewati semuanya, meski aku lemah dan miskin,\",\"translation_quote\":\"Aku tahu Dia akan menuntunku, meski aku lemah dan miskin,\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 345,
+    "content_evidence_truncated": false,
+    "content_sha256": "5ad5ecf27e030f59f26af73f536f70e3e2c4ba429e6170cc18d8d46920ca5591",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 570,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1790,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1787,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2477
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

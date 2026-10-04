@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 6124
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 784,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5983,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5980,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6767
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "সম্পাদকের বক্তব্যের প্রথম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Ephrata Christian Fellowship with Mose as one of its leaders, took on the publishing of the magazine as their own effort.",
+      "suggested_fix": "নামটি অনুবাদ না করে প্রচলিত প্রতিবর্ণীকরণে লিখুন এবং বাক্যটি এভাবে সংশোধন করুন: “পরে, কয়েকটি মণ্ডলী পরিচর্যার বিভিন্ন দিক নিজেদের মধ্যে ভাগ করে নেওয়ার সময়, মোজ তাঁদের নেতাদের একজন হিসেবে ইফ্রাটা খ্রিস্টীয় ফেলোশিপের পক্ষে পত্রিকাটির প্রকাশনার দায়িত্ব গ্রহণ করেন।”",
+      "translation_quote": "মোজ তাঁদের নেতাদের একজন হিসেবে ইফ্রাটা খ্রিস্টীয় সহভাগিতা পত্রিকাটির প্রকাশনার দায়িত্ব নিজেদের উদ্যোগে গ্রহণ করে।"
+    },
+    {
+      "location": "সম্পাদকের বক্তব্যের প্রথম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Thus, it seems fitting to give recognition to the life Mose has lived and the path he has endeavored to blaze for others.",
+      "suggested_fix": "“তাই মোজ যে জীবন যাপন করেছেন এবং অন্যদের জন্য পথ নির্মাণে যে প্রচেষ্টা করেছেন, তার স্বীকৃতি জানানো যথার্থ বলেই মনে হয়।”",
+      "translation_quote": "তাই মোজের জীবন এবং অন্যদের জন্য পথ নির্মাণে তাঁর প্রচেষ্টার স্বীকৃতি জানানো যথার্থ বলেই মনে হয়।"
+    },
+    {
+      "location": "রোমীয় ১:১৬-সংক্রান্ত বাক্য",
+      "severity": "major",
+      "source_quote": "He was …not ashamed of the gospel of Christ: boldly proclaiming it to be …the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek –Romans 1:16.",
+      "suggested_fix": "উদ্ধৃতিটির অর্থ ও বাক্যগঠন বিশ্বস্তভাবে বাংলায় দিন, যেমন: “তিনি …খ্রিস্টের সুসমাচারে লজ্জিত ছিলেন না;” এবং তা “বিশ্বাস করে এমন প্রত্যেকের পরিত্রাণের জন্য ঈশ্বরের শক্তি—প্রথমে ইহুদির, পরে গ্রিকেরও।” উদ্ধৃতির শুরু ও শেষের এলিপসিস এবং রোমীয় ১:১৬ উল্লেখ অক্ষুণ্ণ রাখুন।",
+      "translation_quote": "তিনি <em>“খ্রিস্টের সুসমাচারে লজ্জিত ছিলেন না”</em>; সাহসের সঙ্গে ঘোষণা করতেন যে তা <em>“বিশ্বাস করে এমন প্রত্যেকের পরিত্রাণের জন্য ঈশ্বরের শক্তি—প্রথমে ইহুদির, তারপর গ্রিকের জন্যও।” –রোমীয় ১:১৬।</em>"
+    },
+    {
+      "location": "ব্যক্তিগতভাবে কথা বলার দান-সংক্রান্ত অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "It could be a middle-aged person on a hospital bed, a youth in a living room, or a young adult who had responded to the Holy Spirit’s moving after a preaching service.",
+      "suggested_fix": "বাক্যটি এভাবে অনুবাদ করুন: “সেই ব্যক্তি হতে পারতেন হাসপাতালের বিছানায় থাকা একজন মধ্যবয়সী মানুষ, বসার ঘরে থাকা কোনো কিশোর-কিশোরী, কিংবা প্রচারসভার পর পবিত্র আত্মার অনুপ্রেরণায় সাড়া দেওয়া কোনো তরুণ প্রাপ্তবয়স্ক।”",
+      "translation_quote": "তিনি হাসপাতালের বিছানায় থাকা মধ্যবয়সী কেউ হতে পারেন, বসার ঘরের কোনো যুবক, কিংবা প্রচারসভার পর পবিত্র আত্মার অনুপ্রেরণায় সাড়া দেওয়া কোনো তরুণ প্রাপ্তবয়স্ক।"
+    }
+  ],
   "id": "82483a7c37589a17cc1e3d96b4c576d8",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ben",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

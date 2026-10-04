@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Abschnitt „Wachsam, vorbereitet und aufmerksam sein“, Zitat aus Offenbarung 22,20–21\",\"severity\":\"major\",\"source_quote\":\"The grace of our Lord Jesus Christ be with you all. Amen\",\"suggested_fix\":\"Die Gnade unseres Herrn Jesus Christus sei mit euch allen! Amen\",\"translation_quote\":\"Die Gnade des Herrn Jesus sei mit allen! Amen\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 389,
+    "content_evidence_truncated": false,
+    "content_sha256": "b6cdeef92cacb1a5a1350969f618f5fc13b6807eaede391762312bc76624aed5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7122,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7119,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7741
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

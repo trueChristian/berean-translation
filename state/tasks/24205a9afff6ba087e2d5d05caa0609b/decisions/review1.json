@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “The fact that this child was conceived by the Holy Ghost,” Ezekiel 16:4 quotation",
+      "severity": "major",
+      "source_quote": "“neither wast thou washed in water to supple thee; thou wast not salted at all, nor swaddled at all”",
+      "suggested_fix": "In the Ezekiel quotation, replace “نہ تجھے پانی سے نہلا کر صاف کیا گیا؛ نہ تجھے نمک سے مل مل کر پاک کیا گیا، نہ کپڑوں میں لپیٹا گیا۔” with “نہ تجھے پانی سے نہلایا گیا تاکہ تجھے نرم کیا جائے؛ تجھے بالکل نمک نہیں لگایا گیا، اور نہ ہی کپڑوں میں لپیٹا گیا۔” This restores the printed meaning: the water was to soften her, and she was not salted at all.",
+      "translation_quote": "“نہ تجھے پانی سے نہلا کر صاف کیا گیا؛ نہ تجھے نمک سے مل مل کر پاک کیا گیا، نہ کپڑوں میں لپیٹا گیا۔”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

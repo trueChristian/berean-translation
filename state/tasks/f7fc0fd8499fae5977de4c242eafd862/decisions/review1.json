@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “If we are honest about the actual definition…”",
+      "severity": "major",
+      "source_quote": "many, if not most, of the ‘stories’ that are spreading through the rumor-mill are indeed conspiracy theories.",
+      "suggested_fix": "Replace “nyingi, kama si nyingi sana, za ‘simulizi’” with “nyingi, kama si nyingi zaidi ya nusu, za ‘simulizi’” to convey “many, if not most.”",
+      "translation_quote": "nyingi, kama si nyingi sana, za ‘simulizi’ zinazoenezwa katika uvumi ni nadharia za njama kweli."
+    },
+    {
+      "location": "Paragraph beginning “Like I said before…”",
+      "severity": "major",
+      "source_quote": "He will NOT allow us to be tempted above that which we are able to bear.",
+      "suggested_fix": "Replace “HATATUACHA tujaribiwe kupita uwezo wetu wa kustahimili” with “HATARUHUSU tujaribiwe kupita uwezo wetu wa kustahimili.”",
+      "translation_quote": "HATATUACHA tujaribiwe kupita uwezo wetu wa kustahimili."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

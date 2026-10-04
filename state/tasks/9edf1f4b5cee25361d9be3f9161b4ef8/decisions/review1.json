@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, final paragraph before the figure (Psalm 16:8–9)",
+      "severity": "major",
+      "source_quote": "my flesh also shall rest in hope",
+      "suggested_fix": "Replace the corresponding Swahili clause with “mwili wangu nao utastarehe katika tumaini” (or an idiomatic equivalent that preserves both resting and hope).",
+      "translation_quote": "tena mwili wangu utakaa salama"
+    },
+    {
+      "location": "source.html, image alt text",
+      "severity": "minor",
+      "source_quote": "Mountains reflected in a calm lake beneath a purple sky",
+      "suggested_fix": "Change “Milima ikijitokeza kwenye maji tulivu ya ziwa chini ya anga la zambarau” to “Milima ikionekana kama taswira kwenye maji tulivu ya ziwa chini ya anga la zambarau.”",
+      "translation_quote": "Milima ikijitokeza kwenye maji tulivu ya ziwa chini ya anga la zambarau"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "361a9e56-da88-428e-b95d-283246557a3b",
+    "response_id": "chatcmpl-EV25KodOdFTFuKmpU0d87BzJxouVD",
+    "usage": {
+      "completion_tokens": 179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3251,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3433
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, stanza 8, first line",
+        "severity": "minor",
+        "source_quote": "Then, a rich voice spoke inside me,",
+        "suggested_fix": "Toen sprak een krachtige stem in mij,",
+        "translation_quote": "Toen sprak een rijke stem in mij,"
+      },
+      {
+        "location": "HTML, stanza 11, first line",
+        "severity": "minor",
+        "source_quote": "So I fell at the feet of my Master",
+        "suggested_fix": "Dus viel ik neer aan de voeten van mijn Meester",
+        "translation_quote": "Dus viel ik neer aan de voeten van mijn Meester"
+      },
+      {
+        "location": "HTML, stanza 16, first line",
+        "severity": "major",
+        "source_quote": "So now instead of praying",
+        "suggested_fix": "Dus bid ik nu in plaats daarvan",
+        "translation_quote": "Dus bid ik nu niet langer"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

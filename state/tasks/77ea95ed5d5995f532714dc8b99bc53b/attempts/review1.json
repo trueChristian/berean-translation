@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Mas, se todos profetizarem”\",\"severity\":\"major\",\"source_quote\":\"“and report that God is in you of a truth”\",\"suggested_fix\":\"Substitua “declarará que Deus está verdadeiramente entre vocês” por “declarará que Deus está verdadeiramente em vocês”, preservando a ideia de que Deus está nos ouvintes, e não apenas entre eles.\",\"translation_quote\":\"“e declarará que Deus está verdadeiramente entre vocês”\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 512,
+    "content_evidence_truncated": false,
+    "content_sha256": "81b06dab5d664709e4ace4cf1f39d36e7ea15dcac4a1fa6f55a309b86862a79f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 652,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4281,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4278,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5069
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, final quoted paragraph; Psaumes 16:8–9\",\"severity\":\"major\",\"source_quote\":\"“Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope”\",\"suggested_fix\":\"Remplacer la portion correspondante par une traduction qui conserve le sens imprimé, par exemple : « Aussi mon cœur est dans la joie, ma gloire exulte, et ma chair repose dans l’espérance ». Garder les balises HTML et la référence existantes.\",\"translation_quote\":\"« Aussi mon cœur est dans la joie, mon esprit dans l’allégresse, et mon corps repose en sécurité »\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 628,
+    "content_evidence_truncated": false,
+    "content_sha256": "c803190a3474f8b3c73e24212e930b7fd22e46489abdd34f9cda2ae992676652",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 338,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4381,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4884
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

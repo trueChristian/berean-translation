@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Abschnitt „Wachsam, vorbereitet und aufmerksam sein“, Zitat aus Offenbarung 22,20–21",
+      "severity": "major",
+      "source_quote": "The grace of our Lord Jesus Christ be with you all. Amen",
+      "suggested_fix": "Die Gnade unseres Herrn Jesus Christus sei mit euch allen! Amen",
+      "translation_quote": "Die Gnade des Herrn Jesus sei mit allen! Amen"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

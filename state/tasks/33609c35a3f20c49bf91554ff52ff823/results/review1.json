@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d3476ba7-175b-4fd7-a90e-628cad9dcbdf",
+    "response_id": "chatcmpl-EV24bJgvwhBgs5b3e5PnonoBHy923",
+    "usage": {
+      "completion_tokens": 680,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4621,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5304
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, 「온유한 영」 아래 인용문",
+        "severity": "minor",
+        "source_quote": "the ornament of a <strong>meek</strong> and quiet spirit",
+        "suggested_fix": "강조 태그를 ‘온유한’에 적용해 다음과 같이 수정하세요: <em>오직 <strong>온유한</strong> 영과 고요한 영의 장식으로 할지니… –베드로전서 3:4.</em>",
+        "translation_quote": "오직 온유하고 <strong>고요한</strong> 영의 장식으로 할지니… –베드로전서 3:4."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

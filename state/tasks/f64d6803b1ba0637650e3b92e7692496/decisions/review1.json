@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “When I consider the spirit and zeal…”; Romans 1:16 quotation",
+      "severity": "major",
+      "source_quote": "“the power of God unto salvation to every one that believeth”",
+      "suggested_fix": "Replace “alla som ville tro” with “alla som tror” so the quotation refers to everyone who believes, not everyone who wished to believe.",
+      "translation_quote": "“Guds kraft till frälsning för alla som ville tro”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

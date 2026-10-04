@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, Luke 2:8–14 quotation (appears again at Luke 2:14 near the end)",
+      "severity": "major",
+      "source_quote": "“Glory to God in the highest, and on earth peace, good will toward men”",
+      "suggested_fix": "In both occurrences, translate the printed phrase without changing its assertion, for example: “Kemuliaan bagi Allah di tempat yang mahatinggi, dan damai sejahtera di bumi, niat baik kepada manusia.”",
+      "translation_quote": "“Kemuliaan bagi Allah di tempat yang mahatinggi, dan damai sejahtera di bumi di antara manusia yang berkenan kepada-Nya”"
+    },
+    {
+      "location": "source.html, John 3:17 quotation",
+      "severity": "major",
+      "source_quote": "“For God sent not his Son into the world to condemn the world”",
+      "suggested_fix": "Change “bukan untuk menghakimi dunia” to “bukan untuk menghukum dunia” to preserve the source’s assertion about condemnation rather than judgment generally.",
+      "translation_quote": "“Sebab Allah mengutus Anak-Nya ke dalam dunia bukan untuk menghakimi dunia”"
+    },
+    {
+      "location": "source.html, Ezekiel 16:4 quotation",
+      "severity": "major",
+      "source_quote": "“neither wast thou washed in water to supple thee”",
+      "suggested_fix": "Replace “engkau tidak dibasuh dengan air supaya bersih” with “engkau tidak dibasuh dengan air untuk melembutkanmu” or another Indonesian rendering that preserves the source’s stated purpose of softening.",
+      "translation_quote": "“engkau tidak dibasuh dengan air supaya bersih”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

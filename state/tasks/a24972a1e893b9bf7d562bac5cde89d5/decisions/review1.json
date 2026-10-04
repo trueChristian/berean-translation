@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, copyright line",
+      "severity": "minor",
+      "source_quote": "Copyright: Public Domain",
+      "suggested_fix": "Översätt statusen till svenska, till exempel: \"Upphovsrätt: Fri från upphovsrätt\".",
+      "translation_quote": "Upphovsrätt: Public domain"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

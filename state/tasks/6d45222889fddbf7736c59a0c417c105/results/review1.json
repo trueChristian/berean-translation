@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7331d612-3428-4133-be38-8ccc5e6f75d6",
+    "response_id": "chatcmpl-EV24BYodyRYAQA36pwhAOWJPXxE0B",
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 551,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7655,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7652,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8620
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 2 (2 Corinthians 4:8)",
+        "severity": "major",
+        "source_quote": "we are perplexed, but not in despair",
+        "suggested_fix": "Translate “perplexed” as उलझन में हैं, preserving the contrast with “not in despair”; for example: “हम उलझन में तो हैं, पर निराश नहीं होते।”",
+        "translation_quote": "निरुपाय तो होते हैं, पर निराश नहीं होते"
+      },
+      {
+        "location": "HTML, paragraph 4 (Romans 10:17)",
+        "severity": "major",
+        "source_quote": "faith cometh by hearing, and hearing by the word of God",
+        "suggested_fix": "Replace “मसीह के वचन” with “परमेश्वर के वचन” so the quotation preserves the source’s wording and attribution.",
+        "translation_quote": "विश्वास सुनने से, और सुनना मसीह के वचन से होता है"
+      },
+      {
+        "location": "HTML, paragraph 8 (Matthew 10:16)",
+        "severity": "major",
+        "source_quote": "wise as serpents, and harmless as doves",
+        "suggested_fix": "Use a Hindi equivalent of “harmless” such as “हानिरहित” or “निर्दोष”; “भोले” can mean naïve and does not preserve the source’s contrast.",
+        "translation_quote": "साँपों के समान बुद्धिमान और कबूतरों के समान भोले बनो"
+      },
+      {
+        "location": "HTML, paragraph 22 (Revelation 22:20-21)",
+        "severity": "minor",
+        "source_quote": "The grace of our Lord Jesus Christ be with you all.",
+        "suggested_fix": "Include “मसीह” in the title: “हमारे प्रभु यीशु मसीह का अनुग्रह तुम सब पर बना रहे।”",
+        "translation_quote": "प्रभु यीशु का अनुग्रह तुम सब पर बना रहे।"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

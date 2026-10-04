@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "20812bb1-5ed8-43e2-8240-605fce031b31",
+    "response_id": "chatcmpl-EV24zE65ouYBLuojivB5QBqlcXkhH",
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10481,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10478,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11144
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second hymn, third line",
+        "severity": "major",
+        "source_quote": "Good Christians, fear, for sinners here",
+        "suggested_fix": "Καλοί χριστιανοί, φοβηθείτε, γιατί εδώ για τους αμαρτωλούς",
+        "translation_quote": "Καλοί χριστιανοί, μη φοβάστε, γιατί για τους αμαρτωλούς εδώ"
+      },
+      {
+        "location": "Paragraph quoting Ezekiel 16:4",
+        "severity": "major",
+        "source_quote": "neither wast thou washed in water to supple thee",
+        "suggested_fix": "ούτε πλύθηκες με νερό για να μαλακώσεις",
+        "translation_quote": "ούτε πλύθηκες με νερό για να καθαριστείς"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

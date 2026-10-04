@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a2a1fa08-e42e-423c-aaf1-68a1b80fa9ea",
+    "response_id": "chatcmpl-EV24ooE830C00eP1Ht3xeYSDuwU5q",
+    "usage": {
+      "completion_tokens": 610,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8390,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8387,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9000
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, introduction describing the doctor’s patients",
+        "severity": "minor",
+        "source_quote": "The majority of my patients are not from a conservative Anabaptist background",
+        "suggested_fix": "De meeste van mijn patiënten hebben geen conservatief-anabaptistische achtergrond.",
+        "translation_quote": "De meerderheid van mijn patiënten heeft geen conservatief anabaptistische achtergrond"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

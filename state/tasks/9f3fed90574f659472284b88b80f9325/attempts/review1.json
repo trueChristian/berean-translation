@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, avsnittet ”A Sober Spirit”, första stycket\",\"severity\":\"major\",\"source_quote\":\"“sober” … “to be calm and collected in spirit; to be temperate, dispassionate.”\",\"suggested_fix\":\"Ändra definitionen till exempelvis: ”att vara lugn och samlad i sinnet; att vara måttfull och opartisk”. Översätt även den följande beskrivningen så att den inte byter ut ”dispassionate” mot ”behärskad”.\",\"translation_quote\":\"”att vara lugn och samlad till sinnet; att vara måttfull och behärskad”\"},{\"location\":\"HTML, avsnittet ”A Quiet Spirit”, stycket med citatet ur Jesaja 30:15\",\"severity\":\"major\",\"source_quote\":\"“In returning and rest shall ye be saved; in quietness and in confidence shall be your strength: and ye would not”\",\"suggested_fix\":\"Återge kontrasten i slutet som ett uttryck för att de inte ville göra det, exempelvis: ”… men ni ville inte”. Översätt citatet i enlighet med den tryckta engelska texten, inklusive dess innebörd av ”returning and rest”.\",\"translation_quote\":\"”Genom omvändelse och ro ska ni bli räddade, i stillhet och förtröstan ligger er styrka: men ni ville inte”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1213,
+    "content_evidence_truncated": false,
+    "content_sha256": "43ac9bde64002f27ca853c8ecc3c8d4f791ffcd7de1e1e90e3d6c254c57bd9f7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 323,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4487,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4484,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4810
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

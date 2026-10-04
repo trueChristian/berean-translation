@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Editor’s Note, paragraph 3",
+      "severity": "minor",
+      "source_quote": "Larry Zook’s article (Admonition for Uncertain Times)",
+      "suggested_fix": "लैरी ज़ूक के लेख (अनिश्चित समय के लिए उपदेश)",
+      "translation_quote": "लैरी ज़ूक के लेख (अनिश्चित समय के लिए चेतावनी)"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

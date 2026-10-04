@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "第一段",
+      "severity": "major",
+      "source_quote": "the simple radiant beauty of the occasion is still available for all who will but candidly gaze upon the unbeguiled scene.",
+      "suggested_fix": "将“只要坦然注视那未经粉饰的情景，每个人仍都能领略这件事简单而灿烂的美”改为“只要坦率地凝视那未受欺蒙的场景，人人仍可领略这件事朴素而 radiant 的美”中的“radiant”请译为“灿烂”。完整可改为：“只要坦率地凝视那未受欺蒙的场景，人人仍可领略这件事朴素而灿烂的美。”",
+      "translation_quote": "但只要坦然注视那未经粉饰的情景，每个人仍都能领略这件事简单而灿烂的美。"
+    },
+    {
+      "location": "第三段",
+      "severity": "major",
+      "source_quote": "there were but a paltry handful who were able and worthy to attend the actual event.",
+      "suggested_fix": "将“能够并配得亲临这一事件的”改为“有资格且配得亲临这一事件的”，避免把“able”理解为仅有能力。",
+      "translation_quote": "当年能够并配得亲临这一事件的，不过寥寥数人。"
+    },
+    {
+      "location": "“……一个记号”段落",
+      "severity": "major",
+      "source_quote": "The fact that this child was conceived by the Holy Ghost as detailed in Matthew 1:20",
+      "suggested_fix": "将“孩子由圣灵感孕这一事实，如马太福音1:20所详述的”改为“孩子由圣灵感孕这一事实，如马太福音1:20所记载的”。“详述”夸大了经文对这一事实的展开程度。",
+      "translation_quote": "孩子由圣灵感孕这一事实，如马太福音1:20所详述的"
+    },
+    {
+      "location": "“……一首歌”第二段",
+      "severity": "major",
+      "source_quote": "The Jews were offended that the Messiah did not come to give them a larger portion and victory over the Roman world.",
+      "suggested_fix": "将“犹太人因弥赛亚没有来赐给他们更大的福分、使他们胜过罗马世界而跌倒”改为“犹太人因弥赛亚没有来赐给他们更大的福分、使他们胜过罗马世界而感到不满／受冒犯”。“跌倒”容易被理解为属灵跌倒，未传达此处的 offended。",
+      "translation_quote": "犹太人因弥赛亚没有来赐给他们更大的福分、使他们胜过罗马世界而跌倒。"
+    },
+    {
+      "location": "“……一首歌”第三段，引用启示录14:3",
+      "severity": "major",
+      "source_quote": "the hundred and forty and four thousand, which were redeemed from the earth",
+      "suggested_fix": "将“从地上买来的十四万四千人”改为“从地上赎来的十四万四千人”，忠实表达 redeemed。",
+      "translation_quote": "从地上买来的十四万四千人"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

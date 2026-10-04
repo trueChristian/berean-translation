@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Mas, se todos profetizarem”",
+      "severity": "major",
+      "source_quote": "“and report that God is in you of a truth”",
+      "suggested_fix": "Substitua “declarará que Deus está verdadeiramente entre vocês” por “declarará que Deus está verdadeiramente em vocês”, preservando a ideia de que Deus está nos ouvintes, e não apenas entre eles.",
+      "translation_quote": "“e declarará que Deus está verdadeiramente entre vocês”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

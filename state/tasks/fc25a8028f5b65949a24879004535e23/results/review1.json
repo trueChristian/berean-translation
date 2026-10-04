@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "692c5857-a334-497c-8d6d-eb836e684f4a",
+    "response_id": "chatcmpl-EV24izoGUDqmApUWN9fviQaKUTIqJ",
+    "usage": {
+      "completion_tokens": 300,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8348,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8345,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8648
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, bagian “Vaksin Lain”, paragraf pertama",
+        "severity": "major",
+        "source_quote": "“to trigger the immune response. create immunity.”",
+        "suggested_fix": "Ganti bagian yang sepadan dengan “untuk memicu respons kekebalan.” Jangan menambahkan klausa terpisah “menciptakan kekebalan.”",
+        "translation_quote": "“untuk memicu respons kekebalan. menciptakan kekebalan.”"
+      },
+      {
+        "location": "HTML, bagian “Catatan Editor”, paragraf terakhir",
+        "severity": "minor",
+        "source_quote": "“as a board, we second the comments found in Larry Zook’s article”",
+        "suggested_fix": "Terjemahkan “we second the comments” sebagai mendukung atau menyetujui komentar tersebut, misalnya “kami mendukung komentar dalam artikel Larry Zook”.",
+        "translation_quote": "“sebagai dewan, kami mendukung komentar dalam artikel Larry Zook”"
+      },
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "“Vaccinated. . . To Be or Not To Be?”",
+        "suggested_fix": "Pertahankan pertanyaan “to be or not to be” sebagai pertanyaan apakah akan divaksinasi, misalnya “Divaksinasi. . . Ya atau Tidak?”",
+        "translation_quote": "“Sudah Divaksinasi. . . Haruskah atau Tidak?”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

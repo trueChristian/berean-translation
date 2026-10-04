@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,87 @@
         },
         "total_tokens": 4670
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 760,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4411,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4408,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5171
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, Absatz 2",
+      "severity": "minor",
+      "source_quote": "Truth is urgent. Earnestly and passionately preaching the truth is urgent.",
+      "suggested_fix": "Die Wahrheit ist dringlich. Die Wahrheit ernsthaft und leidenschaftlich zu predigen, ist dringlich.",
+      "translation_quote": "Die Wahrheit duldet keinen Aufschub. Die Wahrheit ernsthaft und leidenschaftlich zu predigen, duldet keinen Aufschub."
+    },
+    {
+      "location": "HTML, Absatz 3",
+      "severity": "minor",
+      "source_quote": "Upon the choices of mankind hinge the earthly spread of either the kingdom of darkness or the Kingdom of Light.",
+      "suggested_fix": "Von den Entscheidungen der Menschen hängt es ab, ob sich auf Erden entweder das Reich der Finsternis oder das Reich des Lichts ausbreitet.",
+      "translation_quote": "Von den Entscheidungen der Menschen hängt es ab, ob sich auf Erden das Reich der Finsternis oder das Reich des Lichts ausbreitet."
+    },
+    {
+      "location": "HTML, Absatz 5",
+      "severity": "major",
+      "source_quote": "He cannot hang in the deceptive clutches of ambiguous indecision.",
+      "suggested_fix": "Er kann nicht in den trügerischen Klauen einer unentschlossenen Unklarheit verharren.",
+      "translation_quote": "Er kann sich nicht in den trügerischen Klauen unentschlossener Unklarheit festhalten."
+    },
+    {
+      "location": "HTML, Absatz 6",
+      "severity": "major",
+      "source_quote": "Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.",
+      "suggested_fix": "Unwiderruflich und unabhängig von der Entscheidung wird dem Gewissen des Hörers entweder Verdammnis oder Heilsgewissheit auferlegt.",
+      "translation_quote": "Unwiderruflich und unabhängig von der Entscheidung wird dem Gewissen des Hörers entweder Verdammnis oder Gewissheit auferlegt."
+    },
+    {
+      "location": "HTML, Absatz 7",
+      "severity": "minor",
+      "source_quote": "They expected their preaching to send men into evangelistic endeavors… even unto death.",
+      "suggested_fix": "Sie erwarteten, dass ihre Predigt Männer zu evangelistischen Unternehmungen aussenden würde … bis hin zum Tod.",
+      "translation_quote": "Sie erwarteten, dass ihre Predigt Männer zu evangelistischen Unternehmungen aussenden würde … bis hin zum Tod."
+    },
+    {
+      "location": "HTML, Absatz 8",
+      "severity": "minor",
+      "source_quote": "“God understands and feels your pain.”",
+      "suggested_fix": "„Gott versteht deinen Schmerz und fühlt deinen Schmerz.“",
+      "translation_quote": "„Gott versteht deinen Schmerz und fühlt mit dir.“"
+    },
+    {
+      "location": "HTML, Absatz 13",
+      "severity": "major",
+      "source_quote": "The “Sword” he bears must first be severely laid to the roots of his own flesh.",
+      "suggested_fix": "Das „Schwert“, das er trägt, muss zuerst mit Nachdruck an die Wurzeln seines eigenen Fleisches gelegt werden.",
+      "translation_quote": "Das „Schwert“, das er trägt, muss zuerst hart gegen die Wurzeln seines eigenen Fleisches geführt werden."
+    },
+    {
+      "location": "HTML, Absatz 14",
+      "severity": "major",
+      "source_quote": "Through faith, obedience, and the blood of the Lamb, it defeats willful sin, fiendish demons, sensual flesh, and Satan.",
+      "suggested_fix": "Durch Glauben, Gehorsam und das Blut des Lammes besiegt es willentliche Sünde, teuflische Dämonen, das sinnliche Fleisch und Satan.",
+      "translation_quote": "Durch den Glauben, den Gehorsam und das Blut des Lammes besiegt sie willentliche Sünde, teuflische Dämonen, sinnliches Fleisch und Satan."
+    }
+  ],
   "id": "ab60badb29e54304dca804dcf7bf337a",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "deu",
@@ -116,11 +193,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, الطبيب الذي كتب المقال، الفقرة الثالثة",
+      "severity": "minor",
+      "source_quote": "My family and I attend church at Bethel Mennonite Church in Gladys, Virginia.",
+      "suggested_fix": "استبدل «تحضر عائلتي وأنا كنيسة بيت إيل المينونايتية في غلاديس، فرجينيا» بـ«أواظب أنا وعائلتي على حضور الكنيسة في كنيسة بيت إيل المينونايتية في غلاديس، فرجينيا».",
+      "translation_quote": "تحضر عائلتي وأنا كنيسة بيت إيل المينونايتية في غلاديس، فرجينيا."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza beginning «أصلّي أن يُذعن قلبي»",
+      "severity": "minor",
+      "source_quote": "I pray that my heart would be yielded, / To the touch of the Master’s hand.",
+      "suggested_fix": "Replace «أصلّي أن يُذعن قلبي لمسةَ يد السيّد،» with «أصلّي أن يُذعن قلبي للمسةِ يد السيّد،» to express yielding to the touch.",
+      "translation_quote": "أصلّي أن يُذعن قلبي لمسةَ يد السيّد،"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

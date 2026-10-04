@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem stanza beginning “I ordered the rough ways”",
+      "severity": "major",
+      "source_quote": "I ordered the rough ways you have followed, / Not to disappoint, but to purge.",
+      "suggested_fix": "Jag lät dig gå de svåra stigarna → Jag ordnade de svåra vägar du har gått, / inte för att göra dig besviken, utan för att rena dig.",
+      "translation_quote": "Jag lät dig gå de svåra stigarna, / inte för att göra dig besviken, utan för att rena dig."
+    },
+    {
+      "location": "HTML, poem stanza beginning “I pray that my heart would be yielded”",
+      "severity": "minor",
+      "source_quote": "I pray that my heart would be yielded, / To the touch of the Master’s hand.",
+      "suggested_fix": "Jag ber att mitt hjärta ska överlåtas / åt Mästaren och hans hand som formar mig. → Jag ber att mitt hjärta ska överlåtas / åt Mästaren och beröras av hans hand.",
+      "translation_quote": "Jag ber att mitt hjärta ska överlåtas / åt Mästaren och hans hand som formar mig."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

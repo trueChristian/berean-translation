@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9a40b8c2-c2e2-4ec9-ad29-76ebae83607a",
+    "response_id": "chatcmpl-EV24CuxK9x3RclQXgA5JK9EGjVXGs",
+    "usage": {
+      "completion_tokens": 418,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8473,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8470,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8891
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة التي تبدأ «إن حقيقة أن هذا الطفل حُبل به…»",
+        "severity": "major",
+        "source_quote": "In one of the most graphic chapters depicting the birth of a child, God mentions that no one cared for Israel at their birth:",
+        "suggested_fix": "استبدل الجملة بـ «في أحد أكثر الفصول تصويرًا لميلاد طفل، يذكر الله أن إسرائيل لم يعتنِ بها أحد عند ولادتها:» مع إبقاء بقية بنية الفقرة كما هي.",
+        "translation_quote": "ففي أحد أكثر الفصول تصويرًا لميلاد طفل، يذكر الله أن أحدًا لم يعتنِ بإسرائيل عند ولادته:"
+      },
+      {
+        "location": "الترنيمة الثانية، السطر الثالث والرابع",
+        "severity": "major",
+        "source_quote": "Good Christians, fear, for sinners here / The silent Word is pleading.",
+        "suggested_fix": "ترجم المعنى: «أيها المسيحيون الصالحون، خافوا، فالجلوس هنا / الكلمة الصامت يتضرع من أجل الخطاة.» حافظ على وسوم HTML وترتيب الأسطر.",
+        "translation_quote": "أيها المسيحيون الصالحون، لا تخافوا، فالجلوس هنا<br>\n    يئنّ فيه الكلمة الصامت من أجل الخطاة."
+      },
+      {
+        "location": "الفقرة التي تبدأ «إن الذين ترنّم قلوبهم بالمسرة للناس…»",
+        "severity": "major",
+        "source_quote": "This is he, that was in the church in the wilderness. vs.38.",
+        "suggested_fix": "استبدل «هذا هو الذي كان في الكنيسة في البرية، ع38.» بـ «هذا هو الذي كان في الكنيسة في البرية، الآية 38.» للإبقاء على رقم الإحالة كما في المصدر، لا اختصاره إلى رقم الآية وحده.",
+        "translation_quote": "هذا هو الذي كان في الكنيسة في البرية، ع38."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

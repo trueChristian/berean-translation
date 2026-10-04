@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Sammenligning, sitatet fra Kolosserne 4:6",
+      "severity": "major",
+      "source_quote": "Let your speech be alway with grace, seasoned with salt",
+      "suggested_fix": "Endre «La ordene deres alltid være vennlige, krydret med salt» til «La ordene deres alltid være preget av nåde, krydret med salt».",
+      "translation_quote": "La ordene deres alltid være vennlige, krydret med salt"
+    },
+    {
+      "location": "Sladder, sitatet fra Efeserne 4:29",
+      "severity": "major",
+      "source_quote": "but that which is good to the use of edifying, that it may minister grace unto the hearers",
+      "suggested_fix": "Endre avslutningen «så de kan være til gagn for dem som hører på» til «så de kan formidle nåde til dem som hører på», slik at referansen til nåde kommer med.",
+      "translation_quote": "men bare gode ord som kan bygge opp der det trengs, så de kan være til gagn for dem som hører på"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

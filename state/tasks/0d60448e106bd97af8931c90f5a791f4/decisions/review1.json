@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning „Ich selbst war durch das Virus so krank …“",
+      "severity": "major",
+      "source_quote": "The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.",
+      "suggested_fix": "Ersetze „Nur die tägliche Einnahme eines verschreibungspflichtigen Medikaments und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlung bewahrten mich vor einem Krankenhausaufenthalt.“ durch „Nur die tägliche Einnahme eines Medikaments mit eingeschränkter Verwendung und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlungen bewahrten mich vor einem Krankenhausaufenthalt.“",
+      "translation_quote": "Nur die tägliche Einnahme eines verschreibungspflichtigen Medikaments und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlung bewahrten mich vor einem Krankenhausaufenthalt."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

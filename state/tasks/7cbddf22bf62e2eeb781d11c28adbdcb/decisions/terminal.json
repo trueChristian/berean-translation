@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 10",
+      "severity": "minor",
+      "source_quote": "as a vessel ‘fit for the Master’s use’",
+      "suggested_fix": "Ändra endast den citerade frasen till exempelvis ”dugligt att användas av Mästaren” så att innebörden av ”for the Master’s use” också framgår.",
+      "translation_quote": "som ett kärl ”dugligt för Mästaren”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Editor’s Note, first paragraph\",\"severity\":\"major\",\"source_quote\":\"“when several churches divided some of the various aspects of ministry between themselves”\",\"suggested_fix\":\"Replace “makanisa kadhaa yalipogawana baadhi ya huduma mbalimbali miongoni mwao” with “makanisa kadhaa yalipogawana baadhi ya vipengele mbalimbali vya huduma miongoni mwao” to retain the sense of dividing aspects of ministry.\",\"translation_quote\":\"“makanisa kadhaa yalipogawana baadhi ya huduma mbalimbali miongoni mwao”\"},{\"location\":\"Paragraph 3\",\"severity\":\"major\",\"source_quote\":\"“he had a new birth into the Kingdom of God at the age of 15”\",\"suggested_fix\":\"Replace “alizaliwa upya katika Ufalme wa Mungu akiwa na umri wa miaka 15” with “alipata kuzaliwa upya na kuingia katika Ufalme wa Mungu akiwa na umri wa miaka 15.”\",\"translation_quote\":\"“alizaliwa upya katika Ufalme wa Mungu akiwa na umri wa miaka 15”\"},{\"location\":\"Paragraph 11\",\"severity\":\"major\",\"source_quote\":\"“He ordained men for the ministry”\",\"suggested_fix\":\"Replace “Aliwaweka wakfu wanaume kwa ajili ya huduma” with “Aliwaweka wanaume wakfu kwa ajili ya huduma” or “Aliwatawaza wanaume kwa ajili ya huduma,” conveying ordination rather than consecration generally.\",\"translation_quote\":\"“Aliwaweka wakfu wanaume kwa ajili ya huduma”\"},{\"location\":\"Paragraph 13\",\"severity\":\"major\",\"source_quote\":\"“When dealing with church problems, he would frequently seek out the council of fellow ministers.”\",\"suggested_fix\":\"Replace “mara nyingi aliomba ushauri wa wahudumu wenzake” with “mara nyingi alitafuta baraza/la mashauriano ya wahudumu wenzake,” preserving the source’s reference to their council rather than just advice.\",\"translation_quote\":\"“mara nyingi aliomba ushauri wa wahudumu wenzake”\"},{\"location\":\"Paragraph 13\",\"severity\":\"major\",\"source_quote\":\"“He would express, sometimes with tears, his rejoicing in the fellowship and council of his brethren”\",\"suggested_fix\":\"Replace “Nyakati nyingine, kwa machozi, alieleza furaha yake kwa ushirika na mashauriano ya ndugu zake” with “Alieleza, nyakati nyingine kwa machozi, furaha yake katika ushirika na baraza la ndugu zake.”\",\"translation_quote\":\"“Nyakati nyingine, kwa machozi, alieleza furaha yake kwa ushirika na mashauriano ya ndugu zake”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 2393,
+    "content_evidence_truncated": false,
+    "content_sha256": "82c7a2dba839ad46cd7324b2fd4fd51d8af60de98e27efc80cb635a0a59e2478",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5734,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5731,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6319
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

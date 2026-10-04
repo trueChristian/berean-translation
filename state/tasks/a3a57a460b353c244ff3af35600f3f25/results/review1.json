@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7c2fad83-efd2-4b4d-b136-a96867436376",
+    "response_id": "chatcmpl-EV24sdn3uSADBkPH46T7RYXi84xtL",
+    "usage": {
+      "completion_tokens": 924,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 685,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7196,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8123
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “John S. and Maria…”",
+        "severity": "major",
+        "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+        "suggested_fix": "Replace «جدّيَّ الأكبرين» بعبارة تدل بوضوح على أنهما جدّا جدّيّ الكاتب، مثل «كان جون س. وماريا (هورنينغ) كيرتز جدَّيْ جدّيّ الأكبرين».",
+        "translation_quote": "كان جون س. وماريا (هورنينغ) كيرتز جدّيَّ الأكبرين."
+      },
+      {
+        "location": "HTML opening paragraph",
+        "severity": "minor",
+        "source_quote": "Hopefully, you have found Christ as the anchor for your soul",
+        "suggested_fix": "استبدل «مرساة لأنفسكم» بـ«مرساة لنفوسكم» للحفاظ على الإشارة إلى النفس الواردة في الأصل.",
+        "translation_quote": "نرجو أن تكونوا قد وجدتم في المسيح مرساة لأنفسكم"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

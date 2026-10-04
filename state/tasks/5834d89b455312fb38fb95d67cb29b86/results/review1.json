@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "192ee2d5-6e5b-4a5c-a654-6f2bb93f7078",
+    "response_id": "chatcmpl-EV23mnXD0nYk0I0s7gNXiTb3kAtj3",
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 703,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7482,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8543
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, final paragraph; James 4:8 quotation",
+        "severity": "major",
+        "source_quote": "Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.",
+        "suggested_fix": "Replace הַסּוֹסְסִים with a clear Modern Hebrew equivalent for “double minded,” such as הַהֲפַכְפְּכִים, while preserving the quotation’s existing HTML structure and reference.",
+        "translation_quote": "טַהֲרוּ יְדֵיכֶם, חוֹטְאִים, וְטַהֲרוּ לְבַבְכֶם, הַסּוֹסְסִים – יעקב ד׳:8."
+      },
+      {
+        "location": "Article, “The virus hits home,” paragraph 2",
+        "severity": "major",
+        "source_quote": "I was so sick from the virus that I wasn’t able to work for over two months.",
+        "suggested_fix": "Revise לא יכולתי לעבוד יותר מחודשיים to make clear that the inability to work lasted longer than two months, for example: הייתי חולה כל כך מהנגיף, שלא יכולתי לעבוד במשך יותר מחודשיים.",
+        "translation_quote": "חליתי כל כך מהנגיף שלא יכולתי לעבוד יותר מחודשיים."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

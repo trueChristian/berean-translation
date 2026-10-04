@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Hymn, stanza 2, third line\",\"severity\":\"major\",\"source_quote\":\"I know He’ll take me thro’, tho’ I am weak and poor;\",\"suggested_fix\":\"Replace the line with: «Ξέρω πως θα με περάσει μέσα απ’ όλα, αν και είμαι αδύναμος και φτωχός,»\",\"translation_quote\":\"Ξέρω πως θα με οδηγήσει ως το τέλος, αν και είμαι αδύναμος και φτωχός,\"},{\"location\":\"Hymn, stanza 3, second line\",\"severity\":\"major\",\"source_quote\":\"I don’t expect to stop until I with Him stand,\",\"suggested_fix\":\"Replace «κοντά Του» with «μαζί Του», so the line reads: «Δεν σκοπεύω να σταματήσω ώσπου να σταθώ μαζί Του,»\",\"translation_quote\":\"Δεν σκοπεύω να σταματήσω ώσπου να σταθώ κοντά Του,\"},{\"location\":\"Hymn, stanza 4, third line\",\"severity\":\"minor\",\"source_quote\":\"Their songs of sweetest praise drift back from heaven’s shore,\",\"suggested_fix\":\"Replace the line with: «Τα γλυκύτερα τραγούδια δοξολογίας τους φτάνουν ως εμάς από την ακτή του ουρανού,»\",\"translation_quote\":\"Τα πιο γλυκά τραγούδια δοξολογίας τους φτάνουν πίσω από τις ακτές του ουρανού,\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1428,
+    "content_evidence_truncated": false,
+    "content_sha256": "9eb41fd04254d2bd4be2d2bc58e010f842fa7aeb980124c28f3344a746e20d07",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 856,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 511,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1968,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1965,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2824
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

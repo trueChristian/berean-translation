@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 8392
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 649,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8181,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8178,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8830
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "المتن، الفقرة التي تبدأ بـ«ما معنى أن...»",
+      "severity": "major",
+      "source_quote": "What does it mean to ‘speak the truth in love’?",
+      "suggested_fix": "استبدل «نصدق في المحبة» بـ«نتكلم بالحق في المحبة» في هذه الفقرة، بما في ذلك مواضع تكرار العبارة فيها.",
+      "translation_quote": "ما معنى أن «نصدق في المحبة»؟"
+    },
+    {
+      "location": "المتن، الفقرة التي تبدأ بـ«لقد دعا الفريسيين...»",
+      "severity": "major",
+      "source_quote": "He even called one of His most dedicated disciples, Peter, ‘Satan’. This account seems to have been quite significant since it is recorded by three of the gospel writers in Matthew 16:23, Mark 8:33, and Luke 4:8.",
+      "suggested_fix": "صحح الإحالة الأخيرة إلى «لوقا 4:8» لتصبح «لوقا 4:8»؟ المرجع في المصدر هو Luke 4:8، لكن الرواية المشار إليها عن تسمية بطرس «شيطانًا» هي Luke 4:8 في النص المطبوع؛ لذلك لا تغيّر الرقم. أصلح بدلًا من ذلك اضطراب المعنى بإبقاء عبارة المصدر كما هي؛ لا يوجد خطأ ترجمي هنا.",
+      "translation_quote": "...في متى 16:23، ومرقس 8:33، ولوقا 4:8."
+    },
+    {
+      "location": "المتن، الفقرة التي تبدأ بـ«لننظر في بعض الأمثلة...»",
+      "severity": "major",
+      "source_quote": "Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.",
+      "suggested_fix": "انقل الخلل الموجود في الجملة المصدرية بأمانة من دون اختراع مفعول أو سبب: احذف «من أجلهم» بعد «لقد عانى كل واحد منهم»، واجعل ما يلي يطابق النص المطبوع، مثل «وفي نهاية المطاف، لم يستطيعوا إلا أن يتكلموا بما رأوه وسمعوه».",
+      "translation_quote": "تأملوا التلاميذ؛ لقد عانى كل واحد منهم من أجلهم. وفي نهاية المطاف، لم يستطيعوا إلا أن يتكلموا بما رأوه وسمعوه."
+    },
+    {
+      "location": "المتن، الفقرة الأخيرة",
+      "severity": "major",
+      "source_quote": "…speaking the truth in love, [so that we] may grow up into him in all things, which is the head, even Christ –Ephesians 4:15.",
+      "suggested_fix": "استبدل «نصدق في المحبة» بـ«نتكلم بالحق في المحبة» في الاقتباس الختامي، وحافظ على بقية العبارة والمرجع كما هما.",
+      "translation_quote": "... <em>نصدق في المحبة، [لكي] ننمو في كل شيء إلى ذاك الذي هو الرأس، أي المسيح –أفسس 4:15.</em>"
+    }
+  ],
   "id": "d4bfe005d4bc2f04a137b67aa984e3d6",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ara",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

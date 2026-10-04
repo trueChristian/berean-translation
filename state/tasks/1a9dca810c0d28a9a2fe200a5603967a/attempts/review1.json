@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац с цитатой из 2 Тимофею 2:4\",\"severity\":\"major\",\"source_quote\":\"“...that he may please him who hath chosen him to be a soldier”\",\"suggested_fix\":\"Заменить окончание цитаты на: «чтобы угодить тому, кто избрал его быть воином — 2 Тимофею 2:4.»\",\"translation_quote\":\"«чтобы угодить военачальнику — 2 Тимофею 2:4.»\"},{\"location\":\"Абзац с цитатой из 2 Тимофею 4:2\",\"severity\":\"major\",\"source_quote\":\"“...with all longsuffering and doctrine”\",\"suggested_fix\":\"Заменить «и назиданием» на «и учением», сохранив остальную цитату без изменений.\",\"translation_quote\":\"«со всяким долготерпением и назиданием»\"},{\"location\":\"Абзац о монотонной проповеди\",\"severity\":\"minor\",\"source_quote\":\"“It entrenches complacent legalism into the core of the heart of man.”\",\"suggested_fix\":\"Исправить согласование: «Это укореняет самодовольное законничество в самой глубине человеческого сердца.»\",\"translation_quote\":\"«Это укореняет самодовольный законничество в самой глубине человеческого сердца.»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1495,
+    "content_evidence_truncated": false,
+    "content_sha256": "068b2eca045e80d700554d0734e69a2b77dc79f8e2ed1f8463d4fe2229ce7fd2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 888,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 562,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4506,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5397
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

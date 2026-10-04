@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 8499
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 897,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 434,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8358,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8355,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9255
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Title and recurring phrase throughout the article, including the opening and closing quotations",
+      "severity": "major",
+      "source_quote": "“speaking the truth in love”",
+      "suggested_fix": "Replace “die waarheid in liefde betrag” with “die waarheid in liefde spreek” wherever it translates “speaking the truth in love”; update the title to “DIE WAARHEID in liefde SPREEK” while preserving its capitalization style.",
+      "translation_quote": "“die waarheid in liefde betrag”"
+    },
+    {
+      "location": "Paragraph beginning “Let’s consider some examples in the Holy Bible”",
+      "severity": "major",
+      "source_quote": "“Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.”",
+      "suggested_fix": "Do not supply an unstated object for “their.” Remove “ter wille van hulle geloof” and translate only the legible source meaning, preserving the abrupt transition into “Uiteindelik …”.",
+      "translation_quote": "“Dink aan die dissipels: elkeen van hulle het ter wille van hulle geloof gely. Uiteindelik kon hulle nie anders as om te praat oor die dinge wat hulle gesien en gehoor het nie.”"
+    },
+    {
+      "location": "Matthew 23:14–15 quotation",
+      "severity": "major",
+      "source_quote": "“therefore ye shall receive the greater damnation.”",
+      "suggested_fix": "Translate “damnation” with an Afrikaans equivalent that retains the source’s force, such as “groter verdoemenis,” rather than the less specific “swaarder oordeel.”",
+      "translation_quote": "“Daarom sal julle ’n swaarder oordeel ontvang.”"
+    },
+    {
+      "location": "Section field",
+      "severity": "minor",
+      "source_quote": "“MUSINGS OF A MISSIONARY”",
+      "suggested_fix": "Correct the mixed-case English fragment in the Afrikaans section label; use “DIE GEDAGTES VAN ’N SENDeling” only if preserving source-style capitalization, but spell the word fully in Afrikaans as “DIE GEDAGTES VAN ’N SENDELING.”",
+      "translation_quote": "“DIE GEDAGTES VAN ’N SENDeling”"
+    }
+  ],
   "id": "6275b426aab01dc8ccda454136e10e60",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "afr",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

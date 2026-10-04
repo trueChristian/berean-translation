@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Άλλα εμβόλια, πρώτη παράγραφος",
+      "severity": "major",
+      "source_quote": "“to trigger the immune response. create immunity.”",
+      "suggested_fix": "Διατηρήστε τη δομή HTML και αποδώστε το ως: «για να ενεργοποιήσουν την ανοσολογική απόκριση. να δημιουργήσουν ανοσία.» Η σημερινή διατύπωση κάνει τη φράση «δημιουργείται ανοσία» να φαίνεται αποσπασμένη και αλλάζει τη φωνή του ρήματος.",
+      "translation_quote": "«για να ενεργοποιήσουν την ανοσολογική απόκριση. δημιουργείται ανοσία.»"
+    },
+    {
+      "location": "Σημείωμα του συντάκτη, πρώτη παράγραφος",
+      "severity": "minor",
+      "source_quote": "“the potential side effects developing from receiving the vaccine”",
+      "suggested_fix": "Για ακριβέστερη απόδοση της χρονικής εξέλιξης, αλλάξτε σε «τις πιθανές παρενέργειες που εμφανίζονται μετά τη χορήγηση του εμβολίου».",
+      "translation_quote": "«τις πιθανές παρενέργειες που εμφανίζονται μετά τη λήψη τους»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

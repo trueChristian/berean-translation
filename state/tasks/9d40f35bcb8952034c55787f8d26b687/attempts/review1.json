@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Άλλα εμβόλια, πρώτη παράγραφος\",\"severity\":\"major\",\"source_quote\":\"“to trigger the immune response. create immunity.”\",\"suggested_fix\":\"Διατηρήστε τη δομή HTML και αποδώστε το ως: «για να ενεργοποιήσουν την ανοσολογική απόκριση. να δημιουργήσουν ανοσία.» Η σημερινή διατύπωση κάνει τη φράση «δημιουργείται ανοσία» να φαίνεται αποσπασμένη και αλλάζει τη φωνή του ρήματος.\",\"translation_quote\":\"«για να ενεργοποιήσουν την ανοσολογική απόκριση. δημιουργείται ανοσία.»\"},{\"location\":\"Σημείωμα του συντάκτη, πρώτη παράγραφος\",\"severity\":\"minor\",\"source_quote\":\"“the potential side effects developing from receiving the vaccine”\",\"suggested_fix\":\"Για ακριβέστερη απόδοση της χρονικής εξέλιξης, αλλάξτε σε «τις πιθανές παρενέργειες που εμφανίζονται μετά τη χορήγηση του εμβολίου».\",\"translation_quote\":\"«τις πιθανές παρενέργειες που εμφανίζονται μετά τη λήψη τους»\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 1402,
+    "content_evidence_truncated": false,
+    "content_sha256": "5554134054bfe7796f1a7178dace92a3ee92a09e70b083c29eaa653519e408f5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 280,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10599
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

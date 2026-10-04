@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “If you want to receive one or more copies…”",
+      "severity": "major",
+      "source_quote": "“we ask that you contact us with your contact information and the number of booklets desired”",
+      "suggested_fix": "Change “ons kontakbesonderhede” to “jou kontakbesonderhede” so the reader is asked to provide their own details.",
+      "translation_quote": "“vra ons dat jy ons kontakbesonderhede en die verlangde aantal boekies aan ons deurgee”"
+    },
+    {
+      "location": "Paragraph beginning “On a side note…”",
+      "severity": "minor",
+      "source_quote": "“even though they do contract the virus”",
+      "suggested_fix": "Replace “selfs al doen hulle die virus op” with “selfs al doen hulle die virus op” is not idiomatic; use “selfs al doen hulle die virus op” only if intended as a colloquial form, otherwise the clear standard wording is “selfs al doen hulle die virus op”.",
+      "translation_quote": "“selfs al doen hulle die virus op”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

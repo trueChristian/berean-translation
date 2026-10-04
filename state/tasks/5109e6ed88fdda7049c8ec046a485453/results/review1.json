@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "92cdb6ec-1992-4038-a541-c1a5e9321e2b",
+    "response_id": "chatcmpl-EV24l4tzJ0wA2r5wtkXB4plQNoTgS",
+    "usage": {
+      "completion_tokens": 927,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 779,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8795,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8792,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9722
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph quoting Ephesians 5:11–13",
+        "severity": "major",
+        "source_quote": "But all things that are reproved are made manifest by the light",
+        "suggested_fix": "Replace «আলোয় সবকিছু প্রকাশিত হয়» with «যেসব কিছুকে তিরস্কার করা হয়, সেগুলো সবই আলোর দ্বারা প্রকাশিত হয়» so the translation retains the source’s connection between reproof and being made manifest.",
+        "translation_quote": "কিন্তু <strong>আলোয় সবকিছু প্রকাশিত হয়</strong>"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

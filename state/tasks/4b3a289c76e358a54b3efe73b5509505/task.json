@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7636
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 885,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 675,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7494,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7491,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8379
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Final paragraph, Luke 21:28",
+      "severity": "major",
+      "source_quote": "then look up, and lift up your heads",
+      "suggested_fix": "Translate both actions, for example: “basi tazameni juu, na kuinua vichwa vyenu” (adjusting the Kiswahili grammar as needed).",
+      "translation_quote": "basi inueni vichwa vyenu"
+    },
+    {
+      "location": "Final paragraph, Luke 21:36",
+      "severity": "major",
+      "source_quote": "that ye may be accounted worthy to escape all these things that shall come to pass",
+      "suggested_fix": "Revise the clause to convey being considered worthy to escape, for example: “ili mpate kuhesabiwa kuwa mnastahili kuokoka katika hayo yote yatakayokuwa.”",
+      "translation_quote": "ili mpate nguvu za kuokoka katika hayo yote yatakayokuwa"
+    }
+  ],
   "id": "4b3a289c76e358a54b3efe73b5509505",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "swa",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

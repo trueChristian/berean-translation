@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Sammenligning, sitatet fra Kolosserne 4:6\",\"severity\":\"major\",\"source_quote\":\"Let your speech be alway with grace, seasoned with salt\",\"suggested_fix\":\"Endre «La ordene deres alltid være vennlige, krydret med salt» til «La ordene deres alltid være preget av nåde, krydret med salt».\",\"translation_quote\":\"La ordene deres alltid være vennlige, krydret med salt\"},{\"location\":\"Sladder, sitatet fra Efeserne 4:29\",\"severity\":\"major\",\"source_quote\":\"but that which is good to the use of edifying, that it may minister grace unto the hearers\",\"suggested_fix\":\"Endre avslutningen «så de kan være til gagn for dem som hører på» til «så de kan formidle nåde til dem som hører på», slik at referansen til nåde kommer med.\",\"translation_quote\":\"men bare gode ord som kan bygge opp der det trengs, så de kan være til gagn for dem som hører på\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 912,
+    "content_evidence_truncated": false,
+    "content_sha256": "65b33780c919e003c44020438905c93b6271edd5051a1be4ebe6d9f90a40f74a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 883,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 626,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6457,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6454,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7340
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

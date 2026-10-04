@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1ab476d2-8c16-4bb4-b58c-4db447c8e88d",
+    "response_id": "chatcmpl-EV24INya2Cz9qFSbYW0pjOU63gmPG",
+    "usage": {
+      "completion_tokens": 586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 497,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1805,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2394
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, copyright line",
+        "severity": "minor",
+        "source_quote": "Copyright: Public Domain",
+        "suggested_fix": "Översätt statusen till svenska, till exempel: \"Upphovsrätt: Fri från upphovsrätt\".",
+        "translation_quote": "Upphovsrätt: Public domain"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

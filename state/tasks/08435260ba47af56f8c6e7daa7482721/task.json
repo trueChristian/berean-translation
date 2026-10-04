@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 8597
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 517,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8412,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8409,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8929
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “To visit the Christ child…”",
+      "severity": "major",
+      "source_quote": "The Inn Crowd is the place of popular reception, popular understanding, and popular behavior.",
+      "suggested_fix": "Replace «La gente de la posada es el lugar de la acogida popular, del entendimiento popular y del comportamiento popular» with «El grupo de la posada es el lugar de la acogida popular, del entendimiento popular y del comportamiento popular» to preserve the source’s metaphor of a social group as a place.",
+      "translation_quote": "La gente de la posada es el lugar de la acogida popular, del entendimiento popular y del comportamiento popular."
+    },
+    {
+      "location": "Article body, paragraph beginning “The despised shepherds…”",
+      "severity": "major",
+      "source_quote": "including most of its ever-popular celebration of Christ’s birth.",
+      "suggested_fix": "Replace «incluida la celebración de su nacimiento, tan popular desde siempre» with «incluida la celebración de su nacimiento, siempre tan popular»; the source says the celebration is continually popular, not that it has always been popular historically.",
+      "translation_quote": "incluida la celebración de su nacimiento, tan popular desde siempre."
+    },
+    {
+      "location": "Article body, paragraph beginning “Those whose hearts resound…”",
+      "severity": "major",
+      "source_quote": "He spake of Abraham removing himself from his land, Acts 7:3 of Joseph being sold out of his home, vs.9 and of Moses being cast out, and fleeing to Midian. vs.21. This is he, that was in the church in the wilderness. vs.38.",
+      "suggested_fix": "Correct the reference sequence to preserve the printed verse numbers: «Habló de Abraham, que se apartó de su tierra, Hechos 7:3; de José, vendido y alejado de su hogar, v. 9; y de Moisés, expulsado y huyendo a Madián, v. 21. Este es el que estuvo en la iglesia en el desierto, v. 38.»",
+      "translation_quote": "Habló de Abraham, que se apartó de su tierra, Hechos 7:3; de José, vendido y alejado de su hogar, v.9; y de Moisés, expulsado y huyendo a Madián, v.21. Este es el que estuvo en la iglesia en el desierto, v.38."
+    }
+  ],
   "id": "08435260ba47af56f8c6e7daa7482721",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "spa",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2b860e84-453e-4cbd-86db-d755d2e1aebf",
+    "response_id": "chatcmpl-EV24Iz1JUr3b4WFZEeBG96BdBypK1",
+    "usage": {
+      "completion_tokens": 596,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8580,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8577,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9176
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "VICTORIOUS CHRISTIAN LIVING",
+        "suggested_fix": "Translate the section label into Dutch, for example: \"OVERWINNEND CHRISTELIJK LEVEN\".",
+        "translation_quote": "VICTORIOUS CHRISTIAN LIVING"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

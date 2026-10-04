@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, section « Autres vaccins », premier paragraphe\",\"severity\":\"major\",\"source_quote\":\"Janssen (Johnson and Johnson) Pharmaceuticals et Astra Zeneca sont tous deux en train de mettre au point des vaccins plus traditionnels, c’est-à-dire qu’ils font croître le virus, le tuent, puis administrent de petites doses du virus tué pour déclencher la réponse immunitaire.\",\"suggested_fix\":\"Remplacer « ils font croître le virus, le tuent, puis administrent de petites doses du virus tué » par « le virus est cultivé, puis tué, et de petites doses du virus tué sont administrées ». Le texte source décrit le procédé des vaccins, pas une méthode consistant à cultiver puis tuer le virus à chaque administration.\",\"translation_quote\":\"ils font croître le virus, le tuent, puis administrent de petites doses du virus tué pour déclencher la réponse immunitaire et créer une immunité.\"},{\"location\":\"Article, section « Autres questions », deuxième paragraphe\",\"severity\":\"major\",\"source_quote\":\"Les aiguilles utilisées pour administrer ces vaccins sont de très petit calibre (21 gauge or smaller)\",\"suggested_fix\":\"Traduire la mesure en français, par exemple « de calibre 21 ou inférieur (aiguilles plus fines) », afin de conserver le sens de « 21 gauge or smaller » sans ambiguïté.\",\"translation_quote\":\"de très petit calibre (calibre 21 ou plus petit)\"},{\"location\":\"Article, section « Tous les autres », premier paragraphe\",\"severity\":\"major\",\"source_quote\":\"Personally, I have started getting vaccinated using the Pfizer vaccine and feel comfortable with that.\",\"suggested_fix\":\"Remplacer « j’ai commencé à me faire vacciner avec le vaccin Pfizer » par « j’ai commencé à recevoir le vaccin Pfizer et je suis à l’aise avec ce choix ». Le pluriel ou l’idée d’une série de vaccinations n’est pas indiqué dans la formulation source.\",\"translation_quote\":\"Pour ma part, j’ai commencé à me faire vacciner avec le vaccin Pfizer et je suis à l’aise avec ce choix.\"},{\"location\":\"Titre de l’article\",\"severity\":\"minor\",\"source_quote\":\"Vaccinated. . . To Be or Not To Be?\",\"suggested_fix\":\"Rendre l’alternative interrogative plus explicitement, par exemple « Se faire vacciner… ou ne pas se faire vacciner? », afin de conserver le jeu de la question « To Be or Not To Be ».\",\"translation_quote\":\"Vacciné… ou pas?\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 2447,
+    "content_evidence_truncated": false,
+    "content_sha256": "312ace914e457b64639046f6ad63d55234eb03ee108e896db42b251d199b9e43",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8620,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8617,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9169
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

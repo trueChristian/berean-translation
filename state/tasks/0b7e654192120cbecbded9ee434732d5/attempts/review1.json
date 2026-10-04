@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"副歌，第1行\",\"severity\":\"major\",\"source_quote\":\"O Lord, you know I have no friend like you,\",\"suggested_fix\":\"哦，主啊，你知道我没有像你这样的朋友，\",\"translation_quote\":\"哦，主啊，你知道没有人像你这样与我亲近，\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 311,
+    "content_evidence_truncated": false,
+    "content_sha256": "a554a2bb654897fabe176da55a75e00919855243a97d0fff051e18c07f3cd773",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 87,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1799,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1796,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1886
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

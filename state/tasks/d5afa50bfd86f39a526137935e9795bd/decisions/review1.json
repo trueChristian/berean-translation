@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "둘째 문단",
+      "severity": "major",
+      "source_quote": "It has also been determined that the actual year ascribed to His birth is also inaccurate by 4-6 years.",
+      "suggested_fix": "방향을 특정하지 말고 다음과 같이 수정하세요: “그분의 탄생 연도로 여겨지는 해 역시 실제 연도와 4~6년 차이가 난다는 사실도 밝혀졌습니다.”",
+      "translation_quote": "그분의 탄생 연도로 여겨지는 해 역시 실제보다 4~6년 늦게 정해졌다는 사실도 밝혀졌습니다."
+    },
+    {
+      "location": "두 번째 찬송가",
+      "severity": "major",
+      "source_quote": "Good Christians, fear, for sinners here / The silent Word is pleading.",
+      "suggested_fix": "부정 명령으로 바꾸지 말고 원문의 ‘fear’를 살려 다음처럼 수정하세요: “선한 그리스도인들이여, 두려워하라. 여기 죄인들을 위하여 / 침묵의 말씀이 간구하신다.”",
+      "translation_quote": "선한 그리스도인들이여, 두려워 말라. 죄인들을 위하여 / 침묵의 말씀이 간구하신다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

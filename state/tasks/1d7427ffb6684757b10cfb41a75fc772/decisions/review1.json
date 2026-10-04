@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4 (1 Corinthians 1:18–25 quotation)",
+      "severity": "major",
+      "source_quote": "“For the preaching of the cross is to them that perish foolishness”",
+      "suggested_fix": "इस अंश को क्रूस के “प्रचार” के अर्थ में अनुवाद करें, उदाहरणार्थ: “क्योंकि क्रूस का प्रचार नाश होनेवालों के लिये मूर्खता है”; शेष उद्धरण की संरचना और संदर्भ बनाए रखें।",
+      "translation_quote": "“क्योंकि क्रूस की कथा नाश होनेवालों के लिये मूर्खता है”"
+    },
+    {
+      "location": "HTML, paragraph 6",
+      "severity": "major",
+      "source_quote": "“No other form of teaching can effectively replace this God-ordained method of ministry in the churches of Jesus the Christ.”",
+      "suggested_fix": "“यीशु मसीह की कलीसियाओं में परमेश्वर द्वारा ठहराई गई सेवकाई की इस रीति का प्रभावी स्थान शिक्षा का कोई अन्य रूप नहीं ले सकता।”",
+      "translation_quote": "“इस रीति का प्रभावी स्थान कोई दूसरी शिक्षा-पद्धति नहीं ले सकती।”"
+    },
+    {
+      "location": "HTML, paragraph 6",
+      "severity": "major",
+      "source_quote": "“Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.”",
+      "suggested_fix": "दण्ड की निश्चितता को “दण्ड” के अर्थ में रखें, न कि केवल दण्ड की आशंका के रूप में; उदाहरणार्थ: “इसे वापस लिए बिना और चुनाव से परे, सुननेवाले के विवेक पर या तो दण्ड या आश्वासन रख दिया जाता है।”",
+      "translation_quote": "“सुननेवाले के विवेक पर या तो दण्ड की निश्चितता या आश्वासन रख दिया जाता है।”"
+    },
+    {
+      "location": "HTML, paragraph 8",
+      "severity": "major",
+      "source_quote": "“Knowing therefore the terror of the Lord, we persuade men”",
+      "suggested_fix": "“इसलिये प्रभु के भय को जानकर हम मनुष्यों को समझाते हैं” के रूप में अनुवाद करें; उद्धृत वाक्य में “the terror of the Lord” का अर्थ “प्रभु का भय” है, न कि भय को जानना।",
+      "translation_quote": "“प्रभु के भय को जानकर हम मनुष्यों को समझाते हैं”"
+    },
+    {
+      "location": "HTML, paragraph 11",
+      "severity": "major",
+      "source_quote": "“Conviction never lacks emotion.”",
+      "suggested_fix": "यहाँ “conviction” का अर्थ मन में पाप का बोध/दोषी ठहराया जाना है; उदाहरणार्थ: “पाप का बोध कभी भावनारहित नहीं होता।”",
+      "translation_quote": "“दोष-बोध कभी भावनारहित नहीं होता।”"
+    },
+    {
+      "location": "HTML, paragraph 12",
+      "severity": "major",
+      "source_quote": "“The ‘Sword’ he bears must first be severely laid to the roots of his own flesh.”",
+      "suggested_fix": "“अपनी ही देह की जड़ों पर” को “अपने ही पापी स्वभाव की जड़ों पर” जैसे रूप में अनुवाद करें, ताकि ‘flesh’ का यहाँ का आध्यात्मिक आशय स्पष्ट हो।",
+      "translation_quote": "“उसे पहले अपने ही शरीर की जड़ों पर कठोरता से चलाया जाना चाहिए।”"
+    },
+    {
+      "location": "HTML, paragraph 13",
+      "severity": "major",
+      "source_quote": "“Through faith, obedience, and the blood of the Lamb, it defeats willful sin, fiendish demons, sensual flesh, and Satan.”",
+      "suggested_fix": "“sensual flesh” को कामुक/इन्द्रियासक्त देह-स्वभाव के रूप में अनुवाद करें, न कि कामुक शरीर के रूप में; उदाहरणार्थ: “...जानबूझकर किए गए पाप, दुष्टात्माओं, इन्द्रियासक्त देह-स्वभाव और शैतान को परास्त करता है।”",
+      "translation_quote": "“जानबूझकर किए गए पाप, दुष्टात्माओं, कामुक शरीर और शैतान को परास्त करता है।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

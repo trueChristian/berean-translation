@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 9024
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 264,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8883,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8880,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9147
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, Other Vaccines paragraph 1",
+      "severity": "major",
+      "source_quote": "“...to trigger the immune response. create immunity.”",
+      "suggested_fix": "Replace only the sentence-ending phrase with a fluent Hebrew equivalent of “to trigger the immune response and create immunity,” for example: “כדי לעורר תגובה חיסונית וליצור חסינות.”",
+      "translation_quote": "“...כדי לעורר תגובה חיסונית. ליצור חסינות.”"
+    },
+    {
+      "location": "HTML, Other Questions paragraph 2",
+      "severity": "minor",
+      "source_quote": "“(the microchips that are normally used in pets are roughly the size of a kernel of rice).”",
+      "suggested_fix": "Translate the parenthetical as part of the Hebrew sentence, e.g. “(השבבים שמשתמשים בהם בדרך כלל בחיות מחמד הם בערך בגודל של גרגר אורז).” The translated wording is already present; remove the comma before the parenthesis to reflect the source punctuation more clearly.",
+      "translation_quote": "“...מזו שמומלצת, (השבבים שמשתמשים בהם בדרך כלל בחיות מחמד הם בערך בגודל של גרגר אורז).”"
+    }
+  ],
   "id": "2be640201148f1a23a1f46e48c0f7bda",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Gossip section, definition of “gossip”",
+      "severity": "minor",
+      "source_quote": "“casual or unconstrained conversation or reports about other people”",
+      "suggested_fix": "Change “gesellige of ongebonde gesprekke” to “alledaagse of ongebonde gesprekke” to convey “casual” without suggesting conviviality.",
+      "translation_quote": "“gesellige of ongebonde gesprekke of berigte oor ander mense”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

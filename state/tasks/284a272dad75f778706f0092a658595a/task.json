@@ -2,7 +2,6 @@
   "article_id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 2012
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 743,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 618,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1777,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1774,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2520
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, hymn verses 1–4: repeated line about the angels",
+      "severity": "minor",
+      "source_quote": "The angels beckon me from heaven’s open door,",
+      "suggested_fix": "Replace each repeated line with: <em>המלאכים מסמנים לי לבוא מפתחו הפתוח של השמים,</em>",
+      "translation_quote": "המלאכים קוראים לי מפתחו הפתוח של השמים,"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:10+00:00",
   "id": "284a272dad75f778706f0092a658595a",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e8139132954a2d589ac261ee553e1eb298a05c70fafb75f048efe3667285f4b7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
   "translation_model_actual": "gpt-6-luna"

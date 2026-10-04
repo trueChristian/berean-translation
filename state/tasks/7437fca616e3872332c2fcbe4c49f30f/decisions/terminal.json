@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo sugli esempi biblici, riferimento al libro dei martiri",
+      "severity": "minor",
+      "source_quote": "If you read through the martyr’s mirror",
+      "suggested_fix": "Sostituire «il Martirologio dei martiri» con «lo Specchio dei martiri», mantenendo il titolo dell’opera citata.",
+      "translation_quote": "Se leggete il Martirologio dei martiri"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

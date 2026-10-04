@@ -2,7 +2,6 @@
   "article_id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 7134
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 606,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6993,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6990,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7599
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "উদ্ধৃতির তালিকা, শেষ অনুচ্ছেদ — গীতসংহিতা ১৭:৫খ",
+      "severity": "major",
+      "source_quote": "“I will be satisfied when I awake with Thy likeness.” –Psalm 17:5b",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “তোমার প্রতিমূর্তিতে জেগে উঠলে আমি সন্তুষ্ট হব।”",
+      "translation_quote": "“আমি করব সন্তুষ্ট হওয়া, যখন তোমার প্রতিমূর্তিতে জেগে উঠব।” –গীতসংহিতা ১৭:৫খ"
+    },
+    {
+      "location": "উদ্ধৃতির তালিকা, গীতসংহিতা ৩৯:১খ",
+      "severity": "major",
+      "source_quote": "“I will keep my mouth with a bridle.”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “আমি লাগাম দিয়ে আমার মুখ সংযত রাখব।”",
+      "translation_quote": "“আমি করব লাগাম দিয়ে আমার মুখ সংযত।”"
+    },
+    {
+      "location": "উদ্ধৃতির তালিকা, গীতসংহিতা ৭৭:১২",
+      "severity": "major",
+      "source_quote": "“I will meditate also of all thy work and talk of thy doings.”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “আমি তোমার সমস্ত কাজ নিয়েও ধ্যান করব এবং তোমার কার্যকলাপের কথা বলব।”",
+      "translation_quote": "“আমি করব তোমার সমস্ত কাজ ধ্যান, আর তোমার কার্যকলাপের কথা বলব।”"
+    },
+    {
+      "location": "অনুচ্ছেদ: তুলনা",
+      "severity": "major",
+      "source_quote": "“I will love thee, O Lord, my strength.”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “আমি তোমাকে প্রেম করব, হে সদাপ্রভু, আমার শক্তি।”",
+      "translation_quote": "“আমি তোমাকে প্রেম করব, হে সদাপ্রভু, আমার শক্তি।”"
+    },
+    {
+      "location": "অনুচ্ছেদ: পরনিন্দা",
+      "severity": "major",
+      "source_quote": "“I will keep my mouth with a bridle.”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “আমি লাগাম দিয়ে আমার মুখ সংযত রাখব।”",
+      "translation_quote": "“আমি লাগাম দিয়ে আমার মুখ সংযত রাখব।”"
+    },
+    {
+      "location": "সমাপনী অনুচ্ছেদ, ঈশ্বরের প্রতিশ্রুতি",
+      "severity": "major",
+      "source_quote": "God has promised to perfect the things which concern you",
+      "suggested_fix": "“ঈশ্বর প্রতিশ্রুতি দিয়েছেন, আপনার সংশ্লিষ্ট বিষয়গুলো পূর্ণতা দেবেন” লিখুন।",
+      "translation_quote": "ঈশ্বর প্রতিশ্রুতি দিয়েছেন, আপনার সঙ্গে সংশ্লিষ্ট বিষয়গুলো তিনি সিদ্ধ করবেন"
+    }
+  ],
   "id": "58cb99b230e60d66f67a748f8d82fc9a",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ben",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/98abc0390fdbb46f66dcb82de8d581a1c56a439f30cc6e8f9cd39ef03636cafa.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
   "translation_model_actual": "gpt-6-luna"

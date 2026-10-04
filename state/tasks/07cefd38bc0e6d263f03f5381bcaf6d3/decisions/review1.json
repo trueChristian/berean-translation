@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "लेख का मुख्य भाग, रोमियों 1:14-15 का उद्धरण",
+      "severity": "major",
+      "source_quote": "I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise.",
+      "suggested_fix": "अनुवाद को इस अर्थ के अनुसार सुधारें: “मैं यूनानियों और बर्बरों—दोनों का, और बुद्धिमानों तथा निर्बुद्धियों—दोनों का ऋणी हूँ।”",
+      "translation_quote": "मैं यूनानियों और अन्यजातियों, बुद्धिमानों और निर्बुद्धियों—दोनों का ऋणी हूँ।"
+    },
+    {
+      "location": "लेख का मुख्य भाग, रोमियों 1:14-15 का उद्धरण",
+      "severity": "major",
+      "source_quote": "So, as much as in me is, I am ready to preach the gospel to you that are at Rome also –Romans 1:14-15.",
+      "suggested_fix": "उद्धरण को मुद्रित अंग्रेज़ी के अर्थ के अनुरूप करें और संदर्भ को “रोमियों 1:14-15” ही रखें; उदाहरण: “इसलिए, जहाँ तक मुझसे हो सकता है, मैं रोम में रहने वालों को भी सुसमाचार सुनाने के लिए तैयार हूँ—रोमियों 1:14-15।”",
+      "translation_quote": "इसलिए जहाँ तक मुझसे हो सकता है, मैं रोम में रहने वालों को भी सुसमाचार सुनाने के लिए तैयार हूँ—रोमियों 1:14-15।"
+    },
+    {
+      "location": "लेख का मुख्य भाग, रोमियों 1:16 का उद्धरण",
+      "severity": "major",
+      "source_quote": "…the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek –Romans 1:16.",
+      "suggested_fix": "अंतिम पदांश को स्रोत के अनुसार सुधारें: “पहले यहूदी के लिए, और यूनानी के लिए भी—रोमियों 1:16।”",
+      "translation_quote": "…हर एक विश्वास करने वाले के उद्धार के लिए परमेश्वर की सामर्थ है—पहले यहूदी के लिए, और फिर यूनानी के लिए—रोमियों 1:16।"
+    },
+    {
+      "location": "लेख का मुख्य भाग, सेवकाई की यात्राओं का वर्णन",
+      "severity": "major",
+      "source_quote": "starting Friday evening, going all day Saturday, and Sunday morning and afternoon.",
+      "suggested_fix": "रविवार के समय को भी स्पष्ट रूप से बनाए रखें: “शुक्रवार शाम से शुरू होकर, शनिवार भर और रविवार सुबह तथा दोपहर तक चलता।”",
+      "translation_quote": "शुक्रवार शाम से शुरू होकर, शनिवार का पूरा दिन, और रविवार सुबह तथा दोपहर तक चलता।"
+    },
+    {
+      "location": "लेख का मुख्य भाग, अगापे क्रिश्चियन फ़ेलोशिप के संदर्भ में",
+      "severity": "major",
+      "source_quote": "his rejoicing in the fellowship and council of his brethren who were laboring with him for the welfare of the various churches represented.",
+      "suggested_fix": "यह स्पष्ट करें कि भाई विभिन्न चर्चों के कल्याण के लिए साथ काम कर रहे थे: “वे उस संगति और अपने उन भाइयों की सलाह पर—जो प्रतिनिधित्व किए गए विभिन्न चर्चों के कल्याण के लिए उनके साथ परिश्रम कर रहे थे—अपना आनंद व्यक्त करते।”",
+      "translation_quote": "वे कभी-कभी आँसुओं के साथ उस संगति और अपने भाइयों की सलाह पर आनंद व्यक्त करते, जो विभिन्न प्रतिनिधित्व करने वाले चर्चों के कल्याण के लिए उनके साथ परिश्रम कर रहे थे।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

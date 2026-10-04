@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph quoting Romans 10:17\",\"severity\":\"major\",\"source_quote\":\"So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.\",\"suggested_fix\":\"Ändra «predikan genom Kristi ord» till «hörandet genom Guds ord», så att citatet återger källans uttryck «the word of God».\",\"translation_quote\":\"Alltså kommer tron av predikan, och predikan genom Kristi ord –Romarbrevet 10:17.\"},{\"location\":\"Article, final paragraph quoting Luke 21:36\",\"severity\":\"major\",\"source_quote\":\"Watch ye therefore, and pray always, that ye may be accounted worthy to escape all these things that shall come to pass\",\"suggested_fix\":\"Ändra «be att ni skall få kraft att undfly» till en formulering som återger att man ska «anses värdig att undfly», exempelvis «be att ni ska anses värdiga att undfly allt detta som ska ske».\",\"translation_quote\":\"Var därför alltid vakna och be att ni skall få kraft att undfly allt detta som skall ske\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 1021,
+    "content_evidence_truncated": false,
+    "content_sha256": "19da438dc1a0de4f39738995d852abe3f57f14dbea40db45b47b27177d7b53db",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 482,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7227,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7224,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7976
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

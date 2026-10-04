@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e4bc5e56-453e-4400-b481-fbb2a130c5b8",
+    "response_id": "chatcmpl-EV2A5WVxB5X8xLDi55F77WGO4cqH3",
+    "usage": {
+      "completion_tokens": 808,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 483,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9856,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9853,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10664
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Μήπως έχουμε κάποιο πρόβλημα;»",
+        "severity": "major",
+        "source_quote": "Could it be that we cannot obey both commands—”Rebuke” and “Speak in love”? Obviously not.",
+        "suggested_fix": "Αντικαταστήστε το «Προφανώς και μπορούμε.» με «Προφανώς και όχι.» ώστε να διατηρηθεί η άρνηση του πρωτοτύπου.",
+        "translation_quote": "Μήπως δεν μπορούμε να υπακούσουμε και στις δύο εντολές—«Έλεγχε» και «Να μιλάς με αγάπη»; Προφανώς και μπορούμε."
+      },
+      {
+        "location": "Παράγραφος που αρχίζει «Πιστεύω ότι το να μιλάει κανείς…»",
+        "severity": "minor",
+        "source_quote": "when we do not have love in our hearts for our brethren, we disqualify ourselves from speaking the truth to them.",
+        "suggested_fix": "Αλλάξτε το «αποκλείουμε τον εαυτό μας από το να τους πει την αλήθεια» σε «αποκλείουμε τον εαυτό μας από το να τους πούμε την αλήθεια».",
+        "translation_quote": "όταν δεν έχουμε αγάπη στην καρδιά μας για τους αδελφούς μας, αποκλείουμε τον εαυτό μας από το να τους πει την αλήθεια."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

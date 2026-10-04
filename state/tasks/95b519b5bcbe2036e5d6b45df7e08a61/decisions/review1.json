@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza 1, final line (also repeated in the chorus and stanzas 2–4)",
+      "severity": "major",
+      "source_quote": "And I can’t feel at home in this world anymore.",
+      "suggested_fix": "في كل موضع، ترجم المعنى على نحوٍ مثل: «ولم أعد أشعر أن هذا العالم موطني.» فالنص الحالي يقول إن المتكلم لا يشعر بأنه في بيته، لكنه لا ينقل بوضوح معنى أنه لم يعد يشعر بالانتماء إلى العالم.",
+      "translation_quote": "ولم أعد أشعر أنني في بيتي في هذا العالم."
+    },
+    {
+      "location": "HTML, stanza 1, line 2",
+      "severity": "minor",
+      "source_quote": "My treasures are laid up somewhere beyond the blue;",
+      "suggested_fix": "استخدم تعبيرًا عربيًا أوضح عن السماء، مثل: «كنوزي مودعة في مكان ما وراء السماء؛»",
+      "translation_quote": "كنوزي مودعة في مكان ما وراء الزرقة؛"
+    },
+    {
+      "location": "HTML, source credit paragraph",
+      "severity": "minor",
+      "source_quote": "hymnary.org",
+      "suggested_fix": "أبقِ اسم الموقع كما هو، لكن انقل بقية معلومات المصدر إلى العربية مع الحفاظ على الرقم والترتيب، مثل: «المصدر: ترانيم الإيمان رقم 311» و«حقوق النشر: الملكية العامة».",
+      "translation_quote": "المصدر: ترانيم الإيمان #311\n  حقوق النشر: الملكية العامة\n  hymnary.org"
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "This World is Not My Home",
+      "suggested_fix": "اجعل العنوان يطابق الصياغة العربية المقترحة اللازمة المتكررة، مثل: «هذا العالم ليس موطني».",
+      "translation_quote": "هذا العالم ليس بيتي"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

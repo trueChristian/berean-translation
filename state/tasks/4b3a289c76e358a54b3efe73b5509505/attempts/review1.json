@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, Luke 21:28\",\"severity\":\"major\",\"source_quote\":\"then look up, and lift up your heads\",\"suggested_fix\":\"Translate both actions, for example: “basi tazameni juu, na kuinua vichwa vyenu” (adjusting the Kiswahili grammar as needed).\",\"translation_quote\":\"basi inueni vichwa vyenu\"},{\"location\":\"Final paragraph, Luke 21:36\",\"severity\":\"major\",\"source_quote\":\"that ye may be accounted worthy to escape all these things that shall come to pass\",\"suggested_fix\":\"Revise the clause to convey being considered worthy to escape, for example: “ili mpate kuhesabiwa kuwa mnastahili kuokoka katika hayo yote yatakayokuwa.”\",\"translation_quote\":\"ili mpate nguvu za kuokoka katika hayo yote yatakayokuwa\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 768,
+    "content_evidence_truncated": false,
+    "content_sha256": "576c5fe5e9296d30a55858f0997640db6d1d4acd4d5b94d3da0e8972690e715e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 675,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7494,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7491,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8379
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

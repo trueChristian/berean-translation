@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Aan de andere kant van de kwestie”",
+      "severity": "major",
+      "source_quote": "One thing is certain, this side of the issue has tested and tried the conservative, Anabaptist people in the areas of gossiping, making, and believing a lie, and bearing false witness.",
+      "suggested_fix": "Replace the sentence beginning “Eén ding staat vast” with: “Eén ding staat vast: deze kant van de kwestie heeft de conservatieve anabaptisten op de proef gesteld op het gebied van roddelen, het verzinnen en geloven van leugens, en het afleggen van een vals getuigenis.” This avoids adding the claim that their shortcomings were exposed and renders “making … a lie” as making up lies, rather than merely telling them.",
+      "translation_quote": "Eén ding staat vast: deze kant van de kwestie heeft de conservatieve anabaptisten op de proef gesteld en hun tekortkomingen aan het licht gebracht op het gebied van roddelen, leugens vertellen en geloven, en vals getuigen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

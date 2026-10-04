@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "767def01-bf47-4157-ac20-e3f8fcf78411",
+    "response_id": "chatcmpl-EV24iItIT5Xje6clxSjf6OusbsJOz",
+    "usage": {
+      "completion_tokens": 534,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 437,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1791,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1788,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2325
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Verse 3, second line",
+        "severity": "major",
+        "source_quote": "I don’t expect to stop until I with Him stand,",
+        "suggested_fix": "Ek verwag nie om op te hou reis voordat ek saam met Hom staan nie,",
+        "translation_quote": "Ek verwag nie om stil te staan totdat ek by Hom is nie,"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

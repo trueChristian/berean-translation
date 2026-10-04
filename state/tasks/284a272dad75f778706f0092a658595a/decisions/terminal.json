@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, hymn verses 1–4: repeated line about the angels",
+      "severity": "minor",
+      "source_quote": "The angels beckon me from heaven’s open door,",
+      "suggested_fix": "Replace each repeated line with: <em>המלאכים מסמנים לי לבוא מפתחו הפתוח של השמים,</em>",
+      "translation_quote": "המלאכים קוראים לי מפתחו הפתוח של השמים,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1b66f6eb-41e9-4ff6-a78b-c7a4b102aaf8",
+    "response_id": "chatcmpl-EV25UpVZfiONrTR18lYZBvyC5C6sl",
+    "usage": {
+      "completion_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 698,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7838,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8676
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, concluding Luke 21:25–36 quotation, verse 32",
+        "severity": "major",
+        "source_quote": "“This generation shall not pass away, till all be fulfilled.”",
+        "suggested_fix": "Replace “এই বংশ লুপ্ত হবে না” with “এই প্রজন্ম লুপ্ত হবে না” to preserve the reference to a generation, rather than a lineage or family.",
+        "translation_quote": "“সমস্ত কিছু পূর্ণ না হওয়া পর্যন্ত এই বংশ লুপ্ত হবে না।”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

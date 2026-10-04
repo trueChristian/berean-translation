@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"النص، الفقرة التي تبدأ «كان الأخ موز يطلب الضالين…»\",\"severity\":\"major\",\"source_quote\":\"“various conservative, Anabaptist groups”\",\"suggested_fix\":\"استبدل «مختلف الجماعات المحافظة من تجديديي المعمودية» بـ«مختلف الجماعات المحافظة من قائلِي معمودية المؤمنين» أو صياغة عربية اصطلاحية مكافئة لـ Anabaptist؛ فـ«تجديديي المعمودية» توحي بأن المقصود إعادة المعمودية، لا الانتماء إلى الحركة الأنابابتية.\",\"translation_quote\":\"«مختلف الجماعات المحافظة من تجديديي المعمودية»\"},{\"location\":\"النص، الفقرة التي تبدأ «كانت موهبة الوعظ…»\",\"severity\":\"minor\",\"source_quote\":\"“he loved to preach the Gospel of Jesus Christ”\",\"suggested_fix\":\"استبدل «أحب أن يكرز بإنجيل يسوع المسيح» بـ«أحب أن يعظ بإنجيل يسوع المسيح» أو «أحب أن يبشر بإنجيل يسوع المسيح»؛ فالسياق يصف الوعظ، بينما «يكرز» أقل ملاءمة واستعمالًا في العربية الفصحى المعاصرة.\",\"translation_quote\":\"«فقد أحب أن يكرز بإنجيل يسوع المسيح»\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 1454,
+    "content_evidence_truncated": false,
+    "content_sha256": "f11296ec91294255b1d2d5a725ba6df9bc35a6fb665e653aa190fda4738f65d0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 311,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5422,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5419,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5733
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

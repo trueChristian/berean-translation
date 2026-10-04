@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Gebruik ’n korrekte Afrikaanse weergawe, byvoorbeeld “UITGELIGTE ARTIKEL”.",
+      "translation_quote": "GEKIEDARTIKEL"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

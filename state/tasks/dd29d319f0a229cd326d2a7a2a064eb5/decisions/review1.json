@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html 및 translation.html, 사역 기간 단락",
+      "severity": "major",
+      "source_quote": "“For nearly two decades, from the late 1980’s and onward”",
+      "suggested_fix": "“1980년대 후반부터 거의 20년 동안”처럼 ‘1980년대 후반부터’를 빠뜨리지 않도록 번역을 수정하세요.",
+      "translation_quote": "“모스 형제는 1980년대 후반부터 거의 20년 동안”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

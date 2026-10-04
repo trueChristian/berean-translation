@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2d745f4c-93d6-4727-9dc4-d7bc688219df",
+    "response_id": "chatcmpl-EV24Kc9y3ni3sBd1uxqQPXCJtDOFM",
+    "usage": {
+      "completion_tokens": 413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 350,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1673,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2089
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "The Death of a Sinner",
+        "suggested_fix": "موت الخاطئ",
+        "translation_quote": "موت خاطئ"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

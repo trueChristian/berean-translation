@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6ebf8cea-b559-4ba4-82e1-c10f6937166f",
+    "response_id": "chatcmpl-EV23mSlMCaoj9j4ihiESHtzvOFKk8",
+    "usage": {
+      "completion_tokens": 516,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 395,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7411,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7930
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, “A Point of Interest” 두 번째 문단",
+        "severity": "major",
+        "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+        "suggested_fix": "존 S.와 마리아(호닝) 커츠는 제 고조부모입니다.",
+        "translation_quote": "존 S.와 마리아(호닝) 커츠는 제 증조부모이자 고조부모입니다."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

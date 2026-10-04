@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문, “A Point of Interest” 두 번째 문단\",\"severity\":\"major\",\"source_quote\":\"John S. and Maria (Horning) Kurtz were my great, great grandparents.\",\"suggested_fix\":\"존 S.와 마리아(호닝) 커츠는 제 고조부모입니다.\",\"translation_quote\":\"존 S.와 마리아(호닝) 커츠는 제 증조부모이자 고조부모입니다.\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 401,
+    "content_evidence_truncated": false,
+    "content_sha256": "03107169ddf0c685e94f2eef834051671f17052906f23f27fedaa201d259526b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 516,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 395,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7411,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7930
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

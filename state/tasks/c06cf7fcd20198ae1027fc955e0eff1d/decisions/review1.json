@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Заменить на «Избранная статья» или другой принятый эквивалент для материала, выделенного редакцией.",
+      "translation_quote": "Рекомендуемая статья"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

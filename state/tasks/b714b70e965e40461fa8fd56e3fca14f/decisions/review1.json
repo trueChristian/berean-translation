@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, concluding Luke 21:25–36 quotation, verse 32",
+      "severity": "major",
+      "source_quote": "“This generation shall not pass away, till all be fulfilled.”",
+      "suggested_fix": "Replace “এই বংশ লুপ্ত হবে না” with “এই প্রজন্ম লুপ্ত হবে না” to preserve the reference to a generation, rather than a lineage or family.",
+      "translation_quote": "“সমস্ত কিছু পূর্ণ না হওয়া পর্যন্ত এই বংশ লুপ্ত হবে না।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

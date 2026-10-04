@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cc26ba58-b9de-4956-ae0e-5d5b133c071c",
+    "response_id": "chatcmpl-EV26TvmPR3VLIpEnezjLjhUiIw2VC",
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 385,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5342,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5339,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5944
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 6",
+        "severity": "major",
+        "source_quote": "“The preacher needs to be intellectually prepared.”",
+        "suggested_fix": "Replace «πνευματικά προετοιμασμένος» with «διανοητικά προετοιμασμένος» to preserve the source’s assertion about intellectual preparation.",
+        "translation_quote": "«Ο κήρυκας χρειάζεται να είναι πνευματικά προετοιμασμένος.»"
+      },
+      {
+        "location": "HTML paragraph 6",
+        "severity": "major",
+        "source_quote": "“urgent personal Bible study, personal devotions, and discipleship”",
+        "suggested_fix": "Translate “personal devotions” into Greek, for example «οι προσωπικές λατρευτικές στιγμές», rather than leaving the English word in the Greek article.",
+        "translation_quote": "«η επείγουσα προσωπική μελέτη της Γραφής, ούτε οι προσωπικές devotions, ούτε η μαθητεία»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

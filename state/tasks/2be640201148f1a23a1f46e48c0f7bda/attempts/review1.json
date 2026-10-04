@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Other Vaccines paragraph 1\",\"severity\":\"major\",\"source_quote\":\"“...to trigger the immune response. create immunity.”\",\"suggested_fix\":\"Replace only the sentence-ending phrase with a fluent Hebrew equivalent of “to trigger the immune response and create immunity,” for example: “כדי לעורר תגובה חיסונית וליצור חסינות.”\",\"translation_quote\":\"“...כדי לעורר תגובה חיסונית. ליצור חסינות.”\"},{\"location\":\"HTML, Other Questions paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"“(the microchips that are normally used in pets are roughly the size of a kernel of rice).”\",\"suggested_fix\":\"Translate the parenthetical as part of the Hebrew sentence, e.g. “(השבבים שמשתמשים בהם בדרך כלל בחיות מחמד הם בערך בגודל של גרגר אורז).” The translated wording is already present; remove the comma before the parenthesis to reflect the source punctuation more clearly.\",\"translation_quote\":\"“...מזו שמומלצת, (השבבים שמשתמשים בהם בדרך כלל בחיות מחמד הם בערך בגודל של גרגר אורז).”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 1227,
+    "content_evidence_truncated": false,
+    "content_sha256": "cc9e36039b59018c9a8bf77f547d6114cb08d275414e1610a1243b75e64c6b9f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 264,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8880,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9147
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

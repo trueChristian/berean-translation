@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Aan de andere kant van de kwestie”\",\"severity\":\"major\",\"source_quote\":\"One thing is certain, this side of the issue has tested and tried the conservative, Anabaptist people in the areas of gossiping, making, and believing a lie, and bearing false witness.\",\"suggested_fix\":\"Replace the sentence beginning “Eén ding staat vast” with: “Eén ding staat vast: deze kant van de kwestie heeft de conservatieve anabaptisten op de proef gesteld op het gebied van roddelen, het verzinnen en geloven van leugens, en het afleggen van een vals getuigenis.” This avoids adding the claim that their shortcomings were exposed and renders “making … a lie” as making up lies, rather than merely telling them.\",\"translation_quote\":\"Eén ding staat vast: deze kant van de kwestie heeft de conservatieve anabaptisten op de proef gesteld en hun tekortkomingen aan het licht gebracht op het gebied van roddelen, leugens vertellen en geloven, en vals getuigen.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1039,
+    "content_evidence_truncated": false,
+    "content_sha256": "ed7be660097c8a252cf6a494351ea497ca9b794dc478e8699e683ba9d4c89618",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 624,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7041,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7038,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7917
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

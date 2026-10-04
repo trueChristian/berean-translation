@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e02ac174-68e5-4db5-939c-0d5bb09c2889",
+    "response_id": "chatcmpl-EV26tHRLJ2EzHlyUvgwTAPc6NMYHy",
+    "usage": {
+      "completion_tokens": 122,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5645,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5642,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5767
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html 및 translation.html, 사역 기간 단락",
+        "severity": "major",
+        "source_quote": "“For nearly two decades, from the late 1980’s and onward”",
+        "suggested_fix": "“1980년대 후반부터 거의 20년 동안”처럼 ‘1980년대 후반부터’를 빠뜨리지 않도록 번역을 수정하세요.",
+        "translation_quote": "“모스 형제는 1980년대 후반부터 거의 20년 동안”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

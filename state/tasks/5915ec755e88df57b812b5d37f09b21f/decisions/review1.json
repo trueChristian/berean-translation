@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza 8, first line",
+      "severity": "minor",
+      "source_quote": "Then, a rich voice spoke inside me,",
+      "suggested_fix": "Toen sprak een krachtige stem in mij,",
+      "translation_quote": "Toen sprak een rijke stem in mij,"
+    },
+    {
+      "location": "HTML, stanza 11, first line",
+      "severity": "minor",
+      "source_quote": "So I fell at the feet of my Master",
+      "suggested_fix": "Dus viel ik neer aan de voeten van mijn Meester",
+      "translation_quote": "Dus viel ik neer aan de voeten van mijn Meester"
+    },
+    {
+      "location": "HTML, stanza 16, first line",
+      "severity": "major",
+      "source_quote": "So now instead of praying",
+      "suggested_fix": "Dus bid ik nu in plaats daarvan",
+      "translation_quote": "Dus bid ik nu niet langer"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

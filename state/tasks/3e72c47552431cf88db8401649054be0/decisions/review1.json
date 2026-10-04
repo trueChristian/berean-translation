@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML: first paragraph (Luke 21:25-28) and concluding paragraph, verses 25-26",
+      "severity": "minor",
+      "source_quote": "distress of nations, with perplexity",
+      "suggested_fix": "In both occurrences, replace “angoscia delle nazioni, confuse” with “angoscia fra le nazioni e perplessità” to retain the source’s distinction between distress and perplexity and avoid making “confuse” modify the nations.",
+      "translation_quote": "angoscia delle nazioni, confuse"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Hoe we met elkaar praten”\",\"severity\":\"major\",\"source_quote\":\"But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?\",\"suggested_fix\":\"Wijzig dit naar: “Maar als we bereid zijn de waarheid te spreken, ook als dat betekent dat iemand ontevreden over ons zal zijn, zijn we dan niet zelf schuldig?” De huidige vertaling keert de expliciete dubbele ontkenning in de brontekst om.\",\"translation_quote\":\"Maar als we niet bereid zijn de waarheid te spreken wanneer dat betekent dat iemand ontevreden over ons zal zijn, zijn we dan niet zelf schuldig?\"},{\"location\":\"Section metadata\",\"severity\":\"minor\",\"source_quote\":\"MUSINGS OF A MISSIONARY\",\"suggested_fix\":\"Gebruik dezelfde hoofdletterstijl als de bron: “OVERPEINZINGEN VAN EEN ZENDELING”.\",\"translation_quote\":\"OVERPEINZINGEN VAN EEN zendeling\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 952,
+    "content_evidence_truncated": false,
+    "content_sha256": "e4f3d3748ba4fe388a749954087974f44d4b5f9617bb69894eb4587fc07fb006",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 877,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 632,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8059,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8056,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8936
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

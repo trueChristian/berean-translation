@@ -2,7 +2,6 @@
   "article_id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 2122
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 673,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 501,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1804,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1801,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2477
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, stanza 3, second line",
+      "severity": "major",
+      "source_quote": "I don’t expect to stop until I with Him stand,",
+      "suggested_fix": "Jeg regner ikke med å stanse før jeg står sammen med ham,",
+      "translation_quote": "Jeg venter ikke med å stanse før jeg står sammen med ham,"
+    },
+    {
+      "location": "HTML, stanza 4, third line",
+      "severity": "minor",
+      "source_quote": "Their songs of sweetest praise drift back from heaven’s shore,",
+      "suggested_fix": "Deres skjønneste lovsanger driver hit fra himmelens strand,",
+      "translation_quote": "Deres sanger med den søteste lovprisning driver hit fra himmelens strand,"
+    }
+  ],
   "id": "c21c7e5214d473a360e2c8a93d92656a",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nob",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e8139132954a2d589ac261ee553e1eb298a05c70fafb75f048efe3667285f4b7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
   "translation_model_actual": "gpt-6-luna"

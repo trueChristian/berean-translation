@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third stanza\",\"severity\":\"minor\",\"source_quote\":\"To love, laugh with, and cherish,\",\"suggested_fix\":\"Amar, reír y compartir momentos con esa persona, y atesorarla,\",\"translation_quote\":\"Amar, reír y atesorar,\"},{\"location\":\"HTML, second stanza\",\"severity\":\"minor\",\"source_quote\":\"And all harsh things would cease.\",\"suggested_fix\":\"y cesaran todas las dificultades.\",\"translation_quote\":\"y cesaran todas las cosas duras.\"},{\"location\":\"HTML, eighth stanza\",\"severity\":\"minor\",\"source_quote\":\"Then, a rich voice spoke inside me,\",\"suggested_fix\":\"Entonces, una voz cálida y sonora habló dentro de mí:\",\"translation_quote\":\"Entonces, una voz profunda habló dentro de mí:\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 736,
+    "content_evidence_truncated": false,
+    "content_sha256": "60a1933ce23e8be250b5699347268c37e2a6cbdc1dc6ccd75fc86dd915110a85",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 793,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 598,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3210,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3207,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4003
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

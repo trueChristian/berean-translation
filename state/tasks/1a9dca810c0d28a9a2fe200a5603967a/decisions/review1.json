@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Абзац с цитатой из 2 Тимофею 2:4",
+      "severity": "major",
+      "source_quote": "“...that he may please him who hath chosen him to be a soldier”",
+      "suggested_fix": "Заменить окончание цитаты на: «чтобы угодить тому, кто избрал его быть воином — 2 Тимофею 2:4.»",
+      "translation_quote": "«чтобы угодить военачальнику — 2 Тимофею 2:4.»"
+    },
+    {
+      "location": "Абзац с цитатой из 2 Тимофею 4:2",
+      "severity": "major",
+      "source_quote": "“...with all longsuffering and doctrine”",
+      "suggested_fix": "Заменить «и назиданием» на «и учением», сохранив остальную цитату без изменений.",
+      "translation_quote": "«со всяким долготерпением и назиданием»"
+    },
+    {
+      "location": "Абзац о монотонной проповеди",
+      "severity": "minor",
+      "source_quote": "“It entrenches complacent legalism into the core of the heart of man.”",
+      "suggested_fix": "Исправить согласование: «Это укореняет самодовольное законничество в самой глубине человеческого сердца.»",
+      "translation_quote": "«Это укореняет самодовольный законничество в самой глубине человеческого сердца.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

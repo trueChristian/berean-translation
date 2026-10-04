@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 8512
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 845,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 566,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8269,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8266,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9114
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “The Scriptures record the Apostle Paul…”",
+      "severity": "major",
+      "source_quote": "“have no fellowship with the unfruitful works of darkness, but rather reprove them”",
+      "suggested_fix": "Replace «men heller avsløre dem» with «men heller irettesette dem» to preserve the instruction to reprove the works, rather than merely expose them.",
+      "translation_quote": "«ikke ha noe fellesskap med mørkets ufruktbare gjerninger, men heller avsløre dem»"
+    },
+    {
+      "location": "Paragraph beginning “How we speak to one another…”",
+      "severity": "major",
+      "source_quote": "“But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?”",
+      "suggested_fix": "Preserve the source’s double negative. For example: «Men hvis vi ikke er uvillige til å tale sannheten når det betyr at noen blir misfornøyde med oss, er ikke vi da skyldige?»",
+      "translation_quote": "«Men hvis vi ikke er villige til å tale sannheten når det betyr at noen blir misfornøyde med oss, er ikke vi da skyldige?»"
+    }
+  ],
   "id": "d68a008e8f9b32a28a9ec5f4fecc0b48",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nob",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

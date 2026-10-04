@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Absatz 2\",\"severity\":\"minor\",\"source_quote\":\"Truth is urgent. Earnestly and passionately preaching the truth is urgent.\",\"suggested_fix\":\"Die Wahrheit ist dringlich. Die Wahrheit ernsthaft und leidenschaftlich zu predigen, ist dringlich.\",\"translation_quote\":\"Die Wahrheit duldet keinen Aufschub. Die Wahrheit ernsthaft und leidenschaftlich zu predigen, duldet keinen Aufschub.\"},{\"location\":\"HTML, Absatz 3\",\"severity\":\"minor\",\"source_quote\":\"Upon the choices of mankind hinge the earthly spread of either the kingdom of darkness or the Kingdom of Light.\",\"suggested_fix\":\"Von den Entscheidungen der Menschen hängt es ab, ob sich auf Erden entweder das Reich der Finsternis oder das Reich des Lichts ausbreitet.\",\"translation_quote\":\"Von den Entscheidungen der Menschen hängt es ab, ob sich auf Erden das Reich der Finsternis oder das Reich des Lichts ausbreitet.\"},{\"location\":\"HTML, Absatz 5\",\"severity\":\"major\",\"source_quote\":\"He cannot hang in the deceptive clutches of ambiguous indecision.\",\"suggested_fix\":\"Er kann nicht in den trügerischen Klauen einer unentschlossenen Unklarheit verharren.\",\"translation_quote\":\"Er kann sich nicht in den trügerischen Klauen unentschlossener Unklarheit festhalten.\"},{\"location\":\"HTML, Absatz 6\",\"severity\":\"major\",\"source_quote\":\"Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.\",\"suggested_fix\":\"Unwiderruflich und unabhängig von der Entscheidung wird dem Gewissen des Hörers entweder Verdammnis oder Heilsgewissheit auferlegt.\",\"translation_quote\":\"Unwiderruflich und unabhängig von der Entscheidung wird dem Gewissen des Hörers entweder Verdammnis oder Gewissheit auferlegt.\"},{\"location\":\"HTML, Absatz 7\",\"severity\":\"minor\",\"source_quote\":\"They expected their preaching to send men into evangelistic endeavors… even unto death.\",\"suggested_fix\":\"Sie erwarteten, dass ihre Predigt Männer zu evangelistischen Unternehmungen aussenden würde … bis hin zum Tod.\",\"translation_quote\":\"Sie erwarteten, dass ihre Predigt Männer zu evangelistischen Unternehmungen aussenden würde … bis hin zum Tod.\"},{\"location\":\"HTML, Absatz 8\",\"severity\":\"minor\",\"source_quote\":\"“God understands and feels your pain.”\",\"suggested_fix\":\"„Gott versteht deinen Schmerz und fühlt deinen Schmerz.“\",\"translation_quote\":\"„Gott versteht deinen Schmerz und fühlt mit dir.“\"},{\"location\":\"HTML, Absatz 13\",\"severity\":\"major\",\"source_quote\":\"The “Sword” he bears must first be severely laid to the roots of his own flesh.\",\"suggested_fix\":\"Das „Schwert“, das er trägt, muss zuerst mit Nachdruck an die Wurzeln seines eigenen Fleisches gelegt werden.\",\"translation_quote\":\"Das „Schwert“, das er trägt, muss zuerst hart gegen die Wurzeln seines eigenen Fleisches geführt werden.\"},{\"location\":\"HTML, Absatz 14\",\"severity\":\"major\",\"source_quote\":\"Through faith, obedience, and the blood of the Lamb, it defeats willful sin, fiendish demons, sensual flesh, and Satan.\",\"suggested_fix\":\"Durch Glauben, Gehorsam und das Blut des Lammes besiegt es willentliche Sünde, teuflische Dämonen, das sinnliche Fleisch und Satan.\",\"translation_quote\":\"Durch den Glauben, den Gehorsam und das Blut des Lammes besiegt sie willentliche Sünde, teuflische Dämonen, sinnliches Fleisch und Satan.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 3364,
+    "content_evidence_truncated": false,
+    "content_sha256": "0950d656fe7fb96eda2ff8eec39b2577c2eb10b56a92b8fa706c2c2f39ed90b5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4411,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4408,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5171
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

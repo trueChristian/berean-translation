@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"article.html, paragraph beginning “Når jeg tenker på bror Moses ånd og iver”\",\"severity\":\"major\",\"source_quote\":\"“I am debtor both to the Greeks, and to the Barbarians; both to the wise, and to the unwise.”\",\"suggested_fix\":\"Replace «Jeg står i gjeld både til grekere og barbarer, både til vise og uforstandige» with «Jeg står i gjeld både til grekere og barbarer, både til vise og uforstandige» is already broadly faithful; specifically change «så langt det står til meg» to «så langt det ligger i min makt», and preserve the source’s translated quotation without importing a different Bible version. (The current quoted wording otherwise conveys the printed sense.)\",\"translation_quote\":\"“Jeg står i gjeld både til grekere og barbarer, både til vise og uforstandige. Derfor er jeg, så langt det står til meg, rede til å forkynne evangeliet også for dere i Roma – Romerne 1:14-15.”\"},{\"location\":\"article.html, paragraph beginning “Når jeg tenker på bror Moses ånd og iver”\",\"severity\":\"major\",\"source_quote\":\"“Brother Mose saw himself as a debtor to make Christ known to many”\",\"suggested_fix\":\"Change «så på seg selv som skyldig til å gjøre Kristus kjent» to «så på seg selv som en som sto i gjeld til å gjøre Kristus kjent». «Skyldig» shifts the metaphor from obligation/debt to guilt.\",\"translation_quote\":\"“Bror Mose så på seg selv som skyldig til å gjøre Kristus kjent for mange”\"},{\"location\":\"article.html, paragraph beginning “Når jeg tenker på bror Moses ånd og iver”\",\"severity\":\"major\",\"source_quote\":\"“He was …not ashamed of the gospel of Christ: boldly proclaiming it to be …the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek –Romans 1:16.”\",\"suggested_fix\":\"Translate the quotation’s assertion as «Han skammet seg ikke over Kristi evangelium: han forkynte frimodig at det er Guds kraft til frelse for hver den som tror, først for jøden og så for grekeren – Romerne 1:16.» This preserves the negation and the English source’s quoted meaning.\",\"translation_quote\":\"“Han var …ikke skamfull over Kristi evangelium: han forkynte frimodig at det er …Guds kraft til frelse for hver den som tror, først for jøden og så for grekeren – Romerne 1:16.”\"},{\"location\":\"article.html, paragraph beginning “Bror Mose søkte de fortapte”\",\"severity\":\"major\",\"source_quote\":\"“He even preached on city streets to those who never went to church.”\",\"suggested_fix\":\"Change «i bygatene» to «på bygater» or «på gatene i byen» to retain that he preached in city streets; «bygatene» can suggest the streets of a particular town and is not an error of substance. No correction warranted.\",\"translation_quote\":\"“Han forkynte til og med i bygatene for dem som aldri gikk i kirken.”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 2914,
+    "content_evidence_truncated": false,
+    "content_sha256": "9a4128093c5307b3ba5cfc9a1265eb7cc8460edb06cf04fbe6ffc9f1528a38a3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 713,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5547,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5544,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6260
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

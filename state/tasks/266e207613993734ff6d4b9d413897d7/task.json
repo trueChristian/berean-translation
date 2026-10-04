@@ -2,7 +2,6 @@
   "article_id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 6293
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 751,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 606,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6152,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6149,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6903
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Lista de salmos, primera viñeta",
+      "severity": "minor",
+      "source_quote": "I will praise thee, O Lord, with my whole heart.",
+      "suggested_fix": "<li><em><strong>Te alabaré</strong>, Señor, con todo mi corazón.</em> –Salmo 9:1a</li>",
+      "translation_quote": "<li><em><strong>Alabaré</strong> a ti, Señor, con todo mi corazón.</em> –Salmo 9:1a</li>"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:10+00:00",
   "id": "266e207613993734ff6d4b9d413897d7",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "spa",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/98abc0390fdbb46f66dcb82de8d581a1c56a439f30cc6e8f9cd39ef03636cafa.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
   "translation_model_actual": "gpt-6-luna"

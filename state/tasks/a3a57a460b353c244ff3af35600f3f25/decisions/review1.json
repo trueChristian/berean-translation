@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “John S. and Maria…”",
+      "severity": "major",
+      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+      "suggested_fix": "Replace «جدّيَّ الأكبرين» بعبارة تدل بوضوح على أنهما جدّا جدّيّ الكاتب، مثل «كان جون س. وماريا (هورنينغ) كيرتز جدَّيْ جدّيّ الأكبرين».",
+      "translation_quote": "كان جون س. وماريا (هورنينغ) كيرتز جدّيَّ الأكبرين."
+    },
+    {
+      "location": "HTML opening paragraph",
+      "severity": "minor",
+      "source_quote": "Hopefully, you have found Christ as the anchor for your soul",
+      "suggested_fix": "استبدل «مرساة لأنفسكم» بـ«مرساة لنفوسكم» للحفاظ على الإشارة إلى النفس الواردة في الأصل.",
+      "translation_quote": "نرجو أن تكونوا قد وجدتم في المسيح مرساة لأنفسكم"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

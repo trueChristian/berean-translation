@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Death of a Sinner",
+      "suggested_fix": "Use a title that preserves the source's explicit reference to a sinner, for example: \"Kifo cha Mtenda Dhambi\".",
+      "translation_quote": "Kifo cha Mwenye Dhambi"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

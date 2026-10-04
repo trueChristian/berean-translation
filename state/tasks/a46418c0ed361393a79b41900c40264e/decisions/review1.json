@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text; Luke 2:8–14 quotation; paragraphs beginning “The fact that this child…” and “The sign of the manger…”; later references to the manger",
+      "severity": "major",
+      "source_quote": "“Mary and Joseph with the infant Jesus in a manger”; “Ye shall find the babe wrapped in swaddling clothes, lying in a manger”; “The sign of the manger”; “follow Him to the manger.”",
+      "suggested_fix": "Replace “গোয়ালঘরের ডাব” and other renderings that identify the manger as a coconut with a Bengali term for an animal-feeding trough, such as “পশুখাদ্যের পাত্র” (or another clear conventional equivalent). For example, the alt text could say “মরিয়ম ও যোষেফ পশুখাদ্যের পাত্রে শায়িত যিশুশিশুর পাশে”; update each corresponding occurrence while preserving the existing HTML structure.",
+      "translation_quote": "“যিশুশিশুকে গোয়ালঘরের ডাবের মধ্যে নিয়ে মরিয়ম ও যোষেফ”; “শিশুটিকে কাপড়ে জড়ানো অবস্থায় গোয়ালঘরের ডাবের মধ্যে শুয়ে থাকতে দেখবে”; “গোয়ালঘরের ডাবের চিহ্ন”; “গোয়ালঘরের ডাব পর্যন্ত যাবে।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

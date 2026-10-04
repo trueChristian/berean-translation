@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4848c382-bc3f-484b-b743-7e82d30a1ef3",
+    "response_id": "chatcmpl-EV23mnmzr6AK9LslB3LHKVOQaOlTf",
+    "usage": {
+      "completion_tokens": 974,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 844,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4546,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5523
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Verkondig die woord” (2 Timothy 4:2)",
+        "severity": "minor",
+        "source_quote": "“reprove, rebuke, exhort”",
+        "suggested_fix": "Replace “weerlê” with “teregwys” in this quotation so that “reprove” conveys correction rather than refutation: “teregwys, bestraf, vermaan”.",
+        "translation_quote": "“weerlê, bestraf, vermaan”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

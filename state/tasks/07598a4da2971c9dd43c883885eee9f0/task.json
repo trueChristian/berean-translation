@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7731
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 916,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 671,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7544,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7541,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8460
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “If you want to receive one or more copies…”",
+      "severity": "major",
+      "source_quote": "“we ask that you contact us with your contact information and the number of booklets desired”",
+      "suggested_fix": "Change “ons kontakbesonderhede” to “jou kontakbesonderhede” so the reader is asked to provide their own details.",
+      "translation_quote": "“vra ons dat jy ons kontakbesonderhede en die verlangde aantal boekies aan ons deurgee”"
+    },
+    {
+      "location": "Paragraph beginning “On a side note…”",
+      "severity": "minor",
+      "source_quote": "“even though they do contract the virus”",
+      "suggested_fix": "Replace “selfs al doen hulle die virus op” with “selfs al doen hulle die virus op” is not idiomatic; use “selfs al doen hulle die virus op” only if intended as a colloquial form, otherwise the clear standard wording is “selfs al doen hulle die virus op”.",
+      "translation_quote": "“selfs al doen hulle die virus op”"
+    }
+  ],
   "id": "07598a4da2971c9dd43c883885eee9f0",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "afr",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

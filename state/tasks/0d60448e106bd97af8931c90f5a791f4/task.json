@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 7199
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 901,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 666,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7058,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7055,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7959
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning „Ich selbst war durch das Virus so krank …“",
+      "severity": "major",
+      "source_quote": "The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.",
+      "suggested_fix": "Ersetze „Nur die tägliche Einnahme eines verschreibungspflichtigen Medikaments und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlung bewahrten mich vor einem Krankenhausaufenthalt.“ durch „Nur die tägliche Einnahme eines Medikaments mit eingeschränkter Verwendung und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlungen bewahrten mich vor einem Krankenhausaufenthalt.“",
+      "translation_quote": "Nur die tägliche Einnahme eines verschreibungspflichtigen Medikaments und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlung bewahrten mich vor einem Krankenhausaufenthalt."
+    }
+  ],
   "id": "0d60448e106bd97af8931c90f5a791f4",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "deu",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

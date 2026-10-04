@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9da07431-13f5-4b58-8b84-7f41400b212c",
+    "response_id": "chatcmpl-EV25tYrlge5dhUgEj05SKb13va3FN",
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 660,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3773,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3770,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4542
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, third stanza",
+        "severity": "minor",
+        "source_quote": "To love, laugh with, and cherish,",
+        "suggested_fix": "Να αγαπώ, να γελώ μαζί του και να τον έχω πολύτιμο στην καρδιά μου,",
+        "translation_quote": "Να αγαπώ, να γελώ και να τον αγαπώ βαθιά,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

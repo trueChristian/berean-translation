@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraphe « Un fait intéressant »",
+      "severity": "minor",
+      "source_quote": "“a family that lost five children in infancy”",
+      "suggested_fix": "Remplacer « une famille composée de John M. et Catharine Kurtz a perdu cinq enfants en bas âge » par « une famille composée de John M. et Catharine Kurtz a perdu cinq enfants alors qu’ils étaient encore nourrissons » afin de préciser qu’ils sont morts en bas âge.",
+      "translation_quote": "« une famille composée de John M. et Catharine Kurtz a perdu cinq enfants en bas âge »"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

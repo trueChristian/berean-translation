@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "major",
+      "source_quote": "He has a zeal for God and a burden for the lost that is refreshing and inspiring….",
+      "suggested_fix": "Hy het ’n ywer vir God en ’n diepe besorgdheid oor die verlorenes wat verkwikkend en inspirerend is….",
+      "translation_quote": "Hy het ’n ywer vir God en ’n hartseer oor die verlorenes wat verkwikkend en inspirerend is…."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

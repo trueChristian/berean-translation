@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, final paragraph, quotation of Mazmur 16:8–9",
+      "severity": "major",
+      "source_quote": "“my heart is glad, and my glory rejoiceth”",
+      "suggested_fix": "Dalam kutipan itu, ganti “hatiku bersukacita, dan jiwaku bersorak-sorai” dengan “hatiku bersukacita, dan kemuliaanku bersorak-sorai” agar sesuai dengan makna teks sumber yang tercetak.",
+      "translation_quote": "“hatiku bersukacita, dan jiwaku bersorak-sorai”"
+    },
+    {
+      "location": "Article, heading “Roh yang Remuk,” kutipan Yesaya 57:15",
+      "severity": "major",
+      "source_quote": "“to revive the spirit of the humble”",
+      "suggested_fix": "Ganti “semangat orang-orang yang rendah hati” dengan “roh orang-orang yang rendah hati” agar istilah kunci dalam kutipan tetap sesuai dengan teks sumber.",
+      "translation_quote": "“untuk menghidupkan kembali semangat orang-orang yang rendah hati”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

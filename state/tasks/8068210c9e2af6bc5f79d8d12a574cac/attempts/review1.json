@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, first stanza, fourth line\",\"severity\":\"major\",\"source_quote\":\"He broadened his shoulders, hid every tear.\",\"suggested_fix\":\"Заменить на: «Он расправил плечи, скрывая каждую слезу.»\",\"translation_quote\":\"Он расправил плечи и слёз не жалел.\"},{\"location\":\"source.html, first stanza, sixth line\",\"severity\":\"major\",\"source_quote\":\"He boldly proclaimed his own sovereignty.\",\"suggested_fix\":\"Заменить на: «Он смело провозгласил собственную власть над собой.»\",\"translation_quote\":\"Он смело провозгласил себя властелином сердец.\"},{\"location\":\"source.html, final stanza, last line\",\"severity\":\"major\",\"source_quote\":\"Death swallowed its victim—his soul eternally lost.\",\"suggested_fix\":\"Заменить на: «Смерть поглотила свою жертву — его душа навеки потеряна.»\",\"translation_quote\":\"Смерть поглотила свою жертву — душа её навеки погибла.\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 1177,
+    "content_evidence_truncated": false,
+    "content_sha256": "b1ca193f6a5aaf6692abaae88d7d5b0099f071dadcaf4fd59c8bf60144789efb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 583,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 332,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1671,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1668,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2254
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

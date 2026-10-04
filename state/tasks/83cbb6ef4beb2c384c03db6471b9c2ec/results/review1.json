@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4760dfd1-7235-4a0d-95fa-d8c7e5ca1e02",
+    "response_id": "chatcmpl-EV2ANgZFjhgJeQQywvnC8a4td8MJ5",
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 506,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4288,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5022
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Prosseguindo no versículo”",
+        "severity": "major",
+        "source_quote": "He has a zeal for God and a burden for the lost that is refreshing and inspiring…",
+        "suggested_fix": "Replace the sentence with: “Isso me faz pensar num homem que faz parte da minha vida e a quem aprecio muito. Seu zelo por Deus e seu pesar pelos perdidos são revigorantes e inspiradores….”",
+        "translation_quote": "Ele tem zelo por Deus e um peso no coração pelos perdidos que são revigorantes e inspiradores…."
+      },
+      {
+        "location": "HTML, paragraph beginning “Algo que o mundo não vê”",
+        "severity": "minor",
+        "source_quote": "are we only doing just enough so that we can get by?",
+        "suggested_fix": "Replace “Ou estamos fazendo apenas o mínimo para conseguir passar?” with “Ou estamos fazendo apenas o mínimo para nos safar?”",
+        "translation_quote": "Ou estamos fazendo apenas o mínimo para conseguir passar?"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

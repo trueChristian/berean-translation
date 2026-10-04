@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Artikeltext, Abschnitt „Andere Impfstoffe“, erster Absatz",
+      "severity": "major",
+      "source_quote": "“...to trigger the immune response. create immunity.”",
+      "suggested_fix": "Ersetzen Sie „… um die Immunantwort auszulösen. Immunität erzeugen.“ durch „… um die Immunantwort auszulösen und Immunität zu erzeugen.“",
+      "translation_quote": "„… um die Immunantwort auszulösen. Immunität erzeugen.“"
+    },
+    {
+      "location": "Artikeltext, Abschnitt „Weitere Fragen“, zweiter Absatz",
+      "severity": "major",
+      "source_quote": "“The needles being used to administer these vaccines are a very small caliber (21 gauge or smaller)”",
+      "suggested_fix": "Übersetzen Sie die Größenangabe korrekt, etwa: „Die Nadeln, mit denen diese Impfstoffe verabreicht werden, haben einen sehr kleinen Durchmesser (Gauge-Wert 21 oder höher, also dünnere Nadeln) …“ Beachten Sie, dass „21 gauge or smaller“ sich auf die Nadelstärke bezieht; die Übersetzung darf daraus nicht „21 Gauge oder kleiner“ machen, wenn damit ein kleinerer Gauge-Wert beziehungsweise eine dickere Nadel gemeint ist.",
+      "translation_quote": "„Die Nadeln, mit denen diese Impfstoffe verabreicht werden, haben einen sehr kleinen Durchmesser (21 Gauge oder kleiner)“"
+    },
+    {
+      "location": "Endnoten, Einträge 1–6",
+      "severity": "minor",
+      "source_quote": "Die sechs ausgeschriebenen Quellen-URLs unter „Endnotes“",
+      "suggested_fix": "Übersetzen Sie die translatable Überschrift „Endnotes“ als „Endnoten“ oder „Quellen“. Die URLs selbst können unverändert bleiben.",
+      "translation_quote": "„Endnotes:“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

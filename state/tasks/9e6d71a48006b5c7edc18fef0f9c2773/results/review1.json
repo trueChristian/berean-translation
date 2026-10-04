@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "948651bf-6788-4fda-a17f-571c5b19d0f0",
+    "response_id": "chatcmpl-EV23uGOddGtE3D9KrbaByQiGPUkBc",
+    "usage": {
+      "completion_tokens": 862,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 678,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8850,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8847,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9712
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Luca 2:8-14, ripetuto nella sezione «…Un Canto» (Luca 2:14)",
+        "severity": "major",
+        "source_quote": "“Glory to God in the highest, and on earth peace, good will toward men”",
+        "suggested_fix": "Tradurre «good will toward men» come «benevolenza verso gli uomini» (o formulazione italiana equivalente che mantenga l’idea di benevolenza verso gli uomini), in entrambe le occorrenze, anziché attribuire loro il significato di persone gradite a Dio.",
+        "translation_quote": "«Gloria a Dio nei luoghi altissimi, e pace in terra agli uomini che egli gradisce»"
+      }
+    ],
+    "passed": false,
+    "score": 89
+  }
+}

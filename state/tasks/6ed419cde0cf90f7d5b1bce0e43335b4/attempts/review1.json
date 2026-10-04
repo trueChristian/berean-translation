@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, الطبيب الذي كتب المقال، الفقرة الثالثة\",\"severity\":\"minor\",\"source_quote\":\"My family and I attend church at Bethel Mennonite Church in Gladys, Virginia.\",\"suggested_fix\":\"استبدل «تحضر عائلتي وأنا كنيسة بيت إيل المينونايتية في غلاديس، فرجينيا» بـ«أواظب أنا وعائلتي على حضور الكنيسة في كنيسة بيت إيل المينونايتية في غلاديس، فرجينيا».\",\"translation_quote\":\"تحضر عائلتي وأنا كنيسة بيت إيل المينونايتية في غلاديس، فرجينيا.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 699,
+    "content_evidence_truncated": false,
+    "content_sha256": "3548378ae92a8b2f102ca65dcac56fb7cd598de454d8e240447c6b2bd5232a1b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 808,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 637,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8854,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8851,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9662
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

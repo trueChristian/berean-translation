@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b319f058-a5db-49e9-87b8-ccd2947d9014",
+    "response_id": "chatcmpl-EV23mYZwCUfISfcEKhrTdbGtuYRCt",
+    "usage": {
+      "completion_tokens": 456,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3360,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3357,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3816
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, stanza beginning “Then, a rich voice…”",
+        "severity": "major",
+        "source_quote": "Then, a rich voice spoke inside me,",
+        "suggested_fix": "Replace “Kisha sauti yenye utajiri ikasema ndani yangu,” with “Kisha sauti yenye mamlaka ikasema ndani yangu,” to convey a voice rich in quality or depth, not material wealth.",
+        "translation_quote": "Kisha sauti yenye utajiri ikasema ndani yangu,"
+      },
+      {
+        "location": "HTML, stanza beginning “But I saw that your heart needed different…”",
+        "severity": "major",
+        "source_quote": "But I saw that your heart needed different / Than the way that ease had preferred.",
+        "suggested_fix": "Replace the two lines with “Lakini niliona kwamba moyo wako ulihitaji kitu tofauti / na kile ambacho maisha ya raha yangependelea.” The current wording shifts the contrast to “easy life” and leaves the comparison unclear.",
+        "translation_quote": "Lakini niliona moyo wako ulihitaji kitu tofauti / Na kile ambacho maisha mepesi yangependelea."
+      },
+      {
+        "location": "HTML, stanza beginning “I pray that my heart would be yielded…”",
+        "severity": "major",
+        "source_quote": "Allowing His will to change me,",
+        "suggested_fix": "Replace “Nikiruhusu mapenzi yake yanibadilishe,” with “Nikiacha mapenzi yake yanibadilishe,” to preserve the sense of yielding to and allowing the Master’s will to change the speaker.",
+        "translation_quote": "Nikiruhusu mapenzi yake yanibadilishe,"
+      },
+      {
+        "location": "HTML, final stanza",
+        "severity": "major",
+        "source_quote": "If He rules the inmost being, / Then nothing outside will disturb.",
+        "suggested_fix": "Replace “Akitawala utu wa ndani kabisa, / Basi hakuna kitu cha nje kitakachotusumbua.” with “Akitawala utu wa ndani kabisa, / basi hakuna kitu cha nje kitakachonisumbua.” The source speaks about the individual speaker, not “us.”",
+        "translation_quote": "Akitawala utu wa ndani kabisa, / Basi hakuna kitu cha nje kitakachotusumbua."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

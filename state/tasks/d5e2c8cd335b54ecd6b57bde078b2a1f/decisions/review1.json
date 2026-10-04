@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, elenco puntato, Salmo 52:9b",
+      "severity": "minor",
+      "source_quote": "I will wait on thy name.",
+      "suggested_fix": "Sostituire «Aspetterò nel tuo nome» con «Confiderò nel tuo nome» per rendere il senso di affidarsi al nome del Signore.",
+      "translation_quote": "Aspetterò nel tuo nome."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 10\",\"severity\":\"minor\",\"source_quote\":\"as a vessel ‘fit for the Master’s use’\",\"suggested_fix\":\"Ändra endast den citerade frasen till exempelvis ”dugligt att användas av Mästaren” så att innebörden av ”for the Master’s use” också framgår.\",\"translation_quote\":\"som ett kärl ”dugligt för Mästaren”\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 397,
+    "content_evidence_truncated": false,
+    "content_sha256": "e355797495f749228e59e48b608112e22dec87dbabfb1ab9b6d2fd69b8ac7af6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 750,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4428,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4425,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5301
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

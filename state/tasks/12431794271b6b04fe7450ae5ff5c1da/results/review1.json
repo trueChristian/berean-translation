@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "de216cfa-f3ff-4804-8b3d-22d89ff2aeba",
+    "response_id": "chatcmpl-EV24BbKL9qWQdFxUjfb2OjCYScbOv",
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1670,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1667,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2274
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, poem stanza 2, first line",
+        "severity": "minor",
+        "source_quote": "“No one can know my anguish inside!”",
+        "suggested_fix": "‘Niemand kan weten hoeveel innerlijke kwelling ik voel!’",
+        "translation_quote": "‘Niemand kan weten welke angst ik vanbinnen voel!"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

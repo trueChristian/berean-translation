@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "উদ্ধৃতির তালিকা, শেষ অনুচ্ছেদ — গীতসংহিতা ১৭:৫খ",
+      "severity": "major",
+      "source_quote": "“I will be satisfied when I awake with Thy likeness.” –Psalm 17:5b",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “তোমার প্রতিমূর্তিতে জেগে উঠলে আমি সন্তুষ্ট হব।”",
+      "translation_quote": "“আমি করব সন্তুষ্ট হওয়া, যখন তোমার প্রতিমূর্তিতে জেগে উঠব।” –গীতসংহিতা ১৭:৫খ"
+    },
+    {
+      "location": "উদ্ধৃতির তালিকা, গীতসংহিতা ৩৯:১খ",
+      "severity": "major",
+      "source_quote": "“I will keep my mouth with a bridle.”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “আমি লাগাম দিয়ে আমার মুখ সংযত রাখব।”",
+      "translation_quote": "“আমি করব লাগাম দিয়ে আমার মুখ সংযত।”"
+    },
+    {
+      "location": "উদ্ধৃতির তালিকা, গীতসংহিতা ৭৭:১২",
+      "severity": "major",
+      "source_quote": "“I will meditate also of all thy work and talk of thy doings.”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “আমি তোমার সমস্ত কাজ নিয়েও ধ্যান করব এবং তোমার কার্যকলাপের কথা বলব।”",
+      "translation_quote": "“আমি করব তোমার সমস্ত কাজ ধ্যান, আর তোমার কার্যকলাপের কথা বলব।”"
+    },
+    {
+      "location": "অনুচ্ছেদ: তুলনা",
+      "severity": "major",
+      "source_quote": "“I will love thee, O Lord, my strength.”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “আমি তোমাকে প্রেম করব, হে সদাপ্রভু, আমার শক্তি।”",
+      "translation_quote": "“আমি তোমাকে প্রেম করব, হে সদাপ্রভু, আমার শক্তি।”"
+    },
+    {
+      "location": "অনুচ্ছেদ: পরনিন্দা",
+      "severity": "major",
+      "source_quote": "“I will keep my mouth with a bridle.”",
+      "suggested_fix": "উদ্ধৃতিটি এভাবে সংশোধন করুন: “আমি লাগাম দিয়ে আমার মুখ সংযত রাখব।”",
+      "translation_quote": "“আমি লাগাম দিয়ে আমার মুখ সংযত রাখব।”"
+    },
+    {
+      "location": "সমাপনী অনুচ্ছেদ, ঈশ্বরের প্রতিশ্রুতি",
+      "severity": "major",
+      "source_quote": "God has promised to perfect the things which concern you",
+      "suggested_fix": "“ঈশ্বর প্রতিশ্রুতি দিয়েছেন, আপনার সংশ্লিষ্ট বিষয়গুলো পূর্ণতা দেবেন” লিখুন।",
+      "translation_quote": "ঈশ্বর প্রতিশ্রুতি দিয়েছেন, আপনার সঙ্গে সংশ্লিষ্ট বিষয়গুলো তিনি সিদ্ধ করবেন"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

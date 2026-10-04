@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6501982f-095c-45f0-b64f-b4839ea006e8",
+    "response_id": "chatcmpl-EV247ll7JcyHeYncGWmhDSPbizZqi",
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5526,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5523,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5742
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraf tentang pelayanan kepada kelompok Anabaptis",
+        "severity": "major",
+        "source_quote": "His specific concern was regarding those who had backslidden or strayed from the way of Truth.",
+        "suggested_fix": "Ganti kalimat terkait menjadi: \"Perhatiannya secara khusus tertuju kepada mereka yang telah mundur dari iman atau menyimpang dari jalan Kebenaran.\"",
+        "translation_quote": "Perhatiannya secara khusus tertuju kepada mereka yang telah murtad atau menyimpang dari jalan Kebenaran."
+      },
+      {
+        "location": "source.html, paragraf tentang karunia berkhotbah",
+        "severity": "minor",
+        "source_quote": "helping them to be established in the faith.",
+        "suggested_fix": "Agar lebih jelas menyatakan bahwa orang-orang percaya itu diteguhkan, ubah menjadi: \"membantu orang-orang percaya itu agar diteguhkan dalam iman.\"",
+        "translation_quote": "membantu mereka diteguhkan dalam iman."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

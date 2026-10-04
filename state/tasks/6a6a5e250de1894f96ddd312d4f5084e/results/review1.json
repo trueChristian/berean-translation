@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1f3f275a-f35d-468a-bd1b-a87085710eca",
+    "response_id": "chatcmpl-EV24jbC9pJ9QtQVBOC3f142gIQzZW",
+    "usage": {
+      "completion_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5553,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6126
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Editor’s Note, first paragraph",
+        "severity": "major",
+        "source_quote": "“The Heartbeat of the Remnant” magazine",
+        "suggested_fix": "Replace ״פעימת לבו של השארית״ with a Hebrew rendering that preserves the title’s meaning, for example ״פעימת הלב של השארית״.",
+        "translation_quote": "״פעימת לבו של השארית״"
+      },
+      {
+        "location": "Editor’s Note, first paragraph",
+        "severity": "major",
+        "source_quote": "“The Berean Voice”",
+        "suggested_fix": "Replace ״הקול הבֶּרִיאני״ with a rendering of “Berean” as referring to the Bereans, for example ״הקול הבֶּרִיאָנִי״.",
+        "translation_quote": "״הקול הבֶּרִיאני״"
+      },
+      {
+        "location": "Paragraph on the trips to Germany",
+        "severity": "major",
+        "source_quote": "“They visited about a dozen churches over the course of each three-week trip.”",
+        "suggested_fix": "Replace בכל אחת מהנסיעות, שנמשכו שלושה שבועות, הם ביקרו בתריסר כנסיות בערך with במשך כל נסיעה בת שלושה שבועות הם ביקרו בכשנים עשר כנסיות.",
+        "translation_quote": "בכל אחת מהנסיעות, שנמשכו שלושה שבועות, הם ביקרו בתריסר כנסיות בערך."
+      },
+      {
+        "location": "Paragraph quoting Romans 1:14–15",
+        "severity": "major",
+        "source_quote": "“So, as much as in me is, I am ready to preach the gospel to you that are at Rome also”",
+        "suggested_fix": "Replace the quoted wording with a faithful Hebrew translation, such as: ״על כן, ככל שהדבר תלוי בי, אני מוכן לבשר גם לכם שברומא.״ Keep the existing reference number and placement unchanged.",
+        "translation_quote": "על כן, ככל שהדבר תלוי בי, נכון אני לבשר גם לכם שברומא"
+      },
+      {
+        "location": "Paragraph quoting Romans 1:16",
+        "severity": "major",
+        "source_quote": "“the power of God unto salvation to every one that believeth, to the Jew first, and also to the Greek”",
+        "suggested_fix": "Replace כוח אלוהים להושיע כל המאמין, את היהודי בראשונה וגם את היווני with a Hebrew rendering that preserves “unto salvation” and “everyone who believes,” for example: כוח אלוהים לישועה לכל מי שמאמין, ליהודי בראשונה וגם ליווני.",
+        "translation_quote": "כוח אלוהים להושיע כל המאמין, את היהודי בראשונה וגם את היווני"
+      }
+    ],
+    "passed": false,
+    "score": 74
+  }
+}

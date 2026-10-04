@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph quoting Ephesians 5:11–13\",\"severity\":\"major\",\"source_quote\":\"But all things that are reproved are made manifest by the light\",\"suggested_fix\":\"Replace «আলোয় সবকিছু প্রকাশিত হয়» with «যেসব কিছুকে তিরস্কার করা হয়, সেগুলো সবই আলোর দ্বারা প্রকাশিত হয়» so the translation retains the source’s connection between reproof and being made manifest.\",\"translation_quote\":\"কিন্তু <strong>আলোয় সবকিছু প্রকাশিত হয়</strong>\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 703,
+    "content_evidence_truncated": false,
+    "content_sha256": "f8316a80a8753446a2b2d63182fdf5514c53aa266a5b5d8eecc71d14676bca9c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 927,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 779,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8795,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8792,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9722
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

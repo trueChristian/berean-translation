@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Luke 2:14 quotation, first occurrence\",\"severity\":\"major\",\"source_quote\":\"“Glory to God in the highest, and on earth peace, good will toward men”\",\"suggested_fix\":\"Translate “good will toward men” as goodwill toward people, for example: «Ære være Gud i det høyeste, og fred på jorden, velvilje mot mennesker.»\",\"translation_quote\":\"«Ære være Gud i det høyeste, og fred på jorden blant mennesker som har Guds velbehag.»\"},{\"location\":\"Isaiah 53:2 quotation\",\"severity\":\"major\",\"source_quote\":\"“he hath no form nor comeliness; and when we shall see him, there is no beauty that we should desire him”\",\"suggested_fix\":\"Revise the sentence to preserve the meaning that he had no attractive appearance or beauty that would make people desire him; for example: «Han hadde ingen skikkelse eller prakt; når vi så ham, var det ingen skjønnhet som gjorde at vi ønsket ham.»\",\"translation_quote\":\"«Han hadde ingen skikkelse og ingen herlighet. Vi så ham, men det var ikke et syn som gjorde oss glade.»\"},{\"location\":\"Luke 2:14 quotation, second occurrence\",\"severity\":\"major\",\"source_quote\":\"“Glory to God in the highest, and on earth peace, good will toward men”\",\"suggested_fix\":\"Translate “good will toward men” as goodwill toward people, for example: «Ære være Gud i det høyeste, og fred på jorden, velvilje mot mennesker.»\",\"translation_quote\":\"«Ære være Gud i det høyeste, og fred på jorden blant mennesker som har Guds velbehag.»\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 1534,
+    "content_evidence_truncated": false,
+    "content_sha256": "b99c9991d721655cda9063a92f8317c88a3429020a39a92cf012da80495ed6a4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8712,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8709,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9607
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

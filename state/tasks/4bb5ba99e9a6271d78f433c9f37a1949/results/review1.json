@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "55bb4e03-d1d7-4075-aabb-050488cfc727",
+    "response_id": "chatcmpl-EV24wjgNxwRdQaHTJ3PDI5tQbnNRi",
+    "usage": {
+      "completion_tokens": 504,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9370
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, “다른 백신들” 첫 문단",
+        "severity": "major",
+        "source_quote": "Janssen (Johnson and Johnson) Pharmaceuticals and Astra Zeneca are both working on vaccines that are more traditional vaccines—that is they grow the virus, then kill it, and then give small doses of the killed virus to trigger the immune response. create immunity.",
+        "suggested_fix": "해당 문장을 다음과 같이 고치십시오: “얀센(존슨앤드존슨) 제약회사와 아스트라제네카는 모두 좀 더 전통적인 백신을 개발하고 있습니다. 즉 바이러스를 배양한 뒤 죽이고, 죽은 바이러스를 소량 투여해 면역 반응을 유발하고 면역력을 형성합니다.”",
+        "translation_quote": "얀센(존슨앤드존슨) 제약회사와 아스트라제네카는 모두 좀 더 전통적인 백신을 개발하고 있습니다. 즉 바이러스를 배양한 뒤 죽이고, 죽은 바이러스를 소량 투여해 면역 반응을 유발합니다. 면역을 형성합니다."
+      },
+      {
+        "location": "제목",
+        "severity": "minor",
+        "source_quote": "Vaccinated. . . To Be or Not To Be?",
+        "suggested_fix": "제목을 “백신 접종… 할 것인가, 말 것인가?”처럼 옮겨 원문의 수사적 대비를 자연스러운 한국어로 살리십시오.",
+        "translation_quote": "백신 접종, 할 것인가 말 것인가?"
+      },
+      {
+        "location": "본문, “그 밖의 질문” 첫 문단",
+        "severity": "minor",
+        "source_quote": "There have been a number of questions about who was behind these vaccines and a variety of concerns with respect to their development.",
+        "suggested_fix": "“이 백신을 누가 배후에서 만들었는지”를 “이 백신을 누가 주도했는지”로 고치십시오. 원문은 백신 개발의 배후 주체에 관한 질문을 말하며, ‘배후에서 만들었다’는 표현은 한국어에서 부정적 함의를 덧붙입니다.",
+        "translation_quote": "이 백신을 누가 배후에서 만들었는지, 개발 과정에 여러 우려 사항이 있는지에 대한 질문이 여럿 있었습니다."
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

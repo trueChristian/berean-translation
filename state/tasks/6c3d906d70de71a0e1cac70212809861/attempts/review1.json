@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraf tentang pelayanan kepada kelompok Anabaptis\",\"severity\":\"major\",\"source_quote\":\"His specific concern was regarding those who had backslidden or strayed from the way of Truth.\",\"suggested_fix\":\"Ganti kalimat terkait menjadi: \\\"Perhatiannya secara khusus tertuju kepada mereka yang telah mundur dari iman atau menyimpang dari jalan Kebenaran.\\\"\",\"translation_quote\":\"Perhatiannya secara khusus tertuju kepada mereka yang telah murtad atau menyimpang dari jalan Kebenaran.\"},{\"location\":\"source.html, paragraf tentang karunia berkhotbah\",\"severity\":\"minor\",\"source_quote\":\"helping them to be established in the faith.\",\"suggested_fix\":\"Agar lebih jelas menyatakan bahwa orang-orang percaya itu diteguhkan, ubah menjadi: \\\"membantu orang-orang percaya itu agar diteguhkan dalam iman.\\\"\",\"translation_quote\":\"membantu mereka diteguhkan dalam iman.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 920,
+    "content_evidence_truncated": false,
+    "content_sha256": "d0dc3b765410e7c8bb0647ca4694f75f7112d51c70873cd3a3dbca570b326452",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5526,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5523,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5742
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

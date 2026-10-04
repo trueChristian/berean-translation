@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning « La manière dont nous nous parlons… »",
+      "severity": "major",
+      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
+      "suggested_fix": "Rétablir la négation du texte source, par exemple : « Mais si nous ne sommes pas réticents à dire la vérité, même si cela risque de déplaire à quelqu’un, n’est-ce pas alors nous qui sommes en faute ? »",
+      "translation_quote": "Mais si nous refusons de dire la vérité de peur que quelqu’un ne soit mécontent de nous, n’avons-nous pas alors tort ?"
+    },
+    {
+      "location": "Article body, paragraph beginning « Considérons quelques exemples de la Sainte Bible »",
+      "severity": "minor",
+      "source_quote": "Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.",
+      "suggested_fix": "La phrase source est tronquée après « for their ». Éviter le calque grammaticalement incomplet « a souffert pour leur » ; traduire la partie récupérable et signaler la coupure, par exemple : « Considérez les disciples : chacun d’eux a souffert pour… Finalement, ils ne pouvaient pas faire autrement que de parler des choses qu’ils avaient vues et entendues. »",
+      "translation_quote": "Considérez les disciples : chacun d’eux a souffert pour leur. Finalement, ils ne pouvaient pas faire autrement que de parler des choses qu’ils avaient vues et entendues."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

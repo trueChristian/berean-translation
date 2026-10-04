@@ -2,7 +2,6 @@
   "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,66 @@
         },
         "total_tokens": 3502
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 482,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3329,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3326,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3811
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, poem, paragraph beginning “Then, a rich voice…”",
+      "severity": "major",
+      "source_quote": "Then, a rich voice spoke inside me,",
+      "suggested_fix": "Заменить на «И тогда внутри меня прозвучал звучный голос:» — rich voice описывает богатый/звучный тембр голоса, а не его материальное богатство.",
+      "translation_quote": "И тогда внутри меня прозвучал богатый голос:"
+    },
+    {
+      "location": "HTML, poem, paragraph beginning “So I fell at the feet…”",
+      "severity": "major",
+      "source_quote": "So I fell at the feet of my Master",
+      "suggested_fix": "Заменить «моего Господина» на «моего Владыки» или «моего Учителя», сохранив почтительное обращение к Богу; «Господин» по-русски здесь звучит как обращение к земному хозяину.",
+      "translation_quote": "И я пала к ногам моего Господина"
+    },
+    {
+      "location": "HTML, poem, paragraph beginning “I pray that my heart would be yielded…”",
+      "severity": "major",
+      "source_quote": "To the touch of the Master’s hand.",
+      "suggested_fix": "Заменить «руки Господина» на «руки Владыки» или «руки Учителя», согласовав выбор с предыдущим упоминанием Master.",
+      "translation_quote": "Прикосновению руки Господина,"
+    },
+    {
+      "location": "HTML, poem, final paragraph",
+      "severity": "major",
+      "source_quote": "And the real source of True Life superb.",
+      "suggested_fix": "Передать оценочное superb, например: «И подлинный источник истинной, прекрасной Жизни». Текущий вариант опускает «превосходную/прекрасную» характеристику жизни.",
+      "translation_quote": "И истинный источник подлинной Жизни."
+    },
+    {
+      "location": "HTML, poem, paragraph beginning “Then, a rich voice…”",
+      "severity": "minor",
+      "source_quote": "The true prayers of your heart can be answered,",
+      "suggested_fix": "Для сохранения смысла безличной конструкции: «На истинные молитвы твоего сердца может быть дан ответ».",
+      "translation_quote": "На истинные молитвы твоего сердца можно дать ответ,"
+    }
+  ],
   "id": "9ebf722eba5bfc4bf4f819ebdf2845cc",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "rus",
@@ -116,11 +172,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8518be006699d10e3e2d64df41c659fb10c9ac4a210156c22bbf03e9d7302254.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
   "translation_model_actual": "gpt-6-luna"

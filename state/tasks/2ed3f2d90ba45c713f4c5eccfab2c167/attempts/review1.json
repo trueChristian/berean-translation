@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, parágrafo sob “Outras vacinas”\",\"severity\":\"major\",\"source_quote\":\"“...administer small doses of the killed virus to trigger the immune response. create immunity.”\",\"suggested_fix\":\"Preserve the source’s intended sentence structure in Portuguese, for example: “...administram pequenas doses do vírus inativado para desencadear a resposta imunológica e criar imunidade.”\",\"translation_quote\":\"“...administram pequenas doses do vírus morto para desencadear a resposta imunológica. Criar imunidade.”\"},{\"location\":\"HTML, último parágrafo sob “Outras vacinas”\",\"severity\":\"major\",\"source_quote\":\"“...there is one from Merck is a non-mRNA vaccine that is also ethically sourced (not grown on aborted fetal cells).”\",\"suggested_fix\":\"Translate the parenthetical accurately as “não cultivada em células fetais provenientes de abortos”, preserving the source meaning without implying that the fetal cells themselves were aborted.\",\"translation_quote\":\"“...uma vacina sem mRNA que também tem origem ética (não é cultivada em células fetais de abortos).”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1154,
+    "content_evidence_truncated": false,
+    "content_sha256": "017f09695edbec91aa9ebf4f98fa76e9dab882fc9769916a3d32a71c6b56596c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 250,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8271,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8268,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8521
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

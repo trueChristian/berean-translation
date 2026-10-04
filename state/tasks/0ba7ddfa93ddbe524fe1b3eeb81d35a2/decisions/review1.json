@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Discontentment, Philippians 4:11 quotation",
+      "severity": "major",
+      "source_quote": "for I have learned, in whatsoever state I am, therewith to be content",
+      "suggested_fix": "Replace “porque já aprendi a contentar-me com o que tenho” with wording that preserves being content in any circumstance, such as “porque aprendi a estar contente em qualquer situação em que me encontre”.",
+      "translation_quote": "porque já aprendi a contentar-me com o que tenho"
+    },
+    {
+      "location": "Esther paragraph",
+      "severity": "minor",
+      "source_quote": "Esther, the queen",
+      "suggested_fix": "Use the conventional Portuguese form “Ester, a rainha” in this paragraph.",
+      "translation_quote": "Esther, a rainha"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

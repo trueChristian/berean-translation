@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8bdd832d-bcf9-94e3-9e4c-92ebbf464940",
+    "response_id": "chatcmpl-EV23m5CZ4SfUMNq1VUdDYpGtvhK2T",
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 687,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5458,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5455,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6233
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "FEATURED ARTICLE",
+        "suggested_fix": "Заменить на «Избранная статья» или другой принятый эквивалент для материала, выделенного редакцией.",
+        "translation_quote": "Рекомендуемая статья"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

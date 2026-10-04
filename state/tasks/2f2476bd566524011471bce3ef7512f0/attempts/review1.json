@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, stanza beginning «I ordered the rough ways»\",\"severity\":\"major\",\"source_quote\":\"I ordered the rough ways you have followed, / Not to disappoint, but to purge.\",\"suggested_fix\":\"Jeg lot deg gå de ulendte stiene du har fulgt, / ikke for å skuffe deg, men for å rense deg.\",\"translation_quote\":\"Jeg lot deg følge de ulendte stiene, / ikke for å skuffe deg, men for å rense deg.\"},{\"location\":\"source.html, final stanza\",\"severity\":\"major\",\"source_quote\":\"For He is the solid Foundation, / And the real source of True Life superb.\",\"suggested_fix\":\"For han er det solide fundamentet, / og den sanne kilden til det opphøyede sanne liv.\",\"translation_quote\":\"For han er det faste fundamentet, / og den sanne kilden til det strålende livet.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 812,
+    "content_evidence_truncated": false,
+    "content_sha256": "6c237cbac29b5f989592fa59aeb42a4606763a8bd27222fbde7560549f9cdda1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 548,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3315,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3312,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4087
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

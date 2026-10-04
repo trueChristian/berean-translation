@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "minor",
+      "source_quote": "the years following are known as A.D. (Anno Domini, Latin for “The year of our Lord”)",
+      "suggested_fix": "Translate the explanatory phrase into Kiswahili, for example: “B.K. (Anno Domini, Kilatini kwa ‘Mwaka wa Bwana wetu’).”",
+      "translation_quote": "miaka inayofuata hujulikana kama B.K. (Anno Domini, Kilatini cha “Mwaka wa Bwana wetu”)"
+    },
+    {
+      "location": "HTML, hymn beginning “What child is this”",
+      "severity": "major",
+      "source_quote": "Whom angels greet with anthems sweet, / While shepherds watch are keeping?",
+      "suggested_fix": "Revise these lines to retain the source’s meaning, for example: “Ambaye malaika humsalimu kwa nyimbo tamu, / Wachungaji wakiendelea kulinda?”",
+      "translation_quote": "Ambaye malaika humsalimu kwa nyimbo tamu, / Wachungaji wakilinda na kutazama?"
+    },
+    {
+      "location": "HTML, paragraph beginning “The sign of the manger”",
+      "severity": "major",
+      "source_quote": "The sign of the manger in conjunction with their scriptural knowledge of Bethlehem were all that was needed for the shepherds to find the child.",
+      "suggested_fix": "Restore the claim that the manger sign and their scriptural knowledge together were all they needed, for example: “Ishara ya hori, pamoja na ujuzi wao wa Maandiko kuhusu Bethlehemu, vilikuwa vyote walivyohitaji wachungaji ili kumpata mtoto.”",
+      "translation_quote": "Ishara ya hori, pamoja na ujuzi wao wa Maandiko kuhusu Bethlehemu, vilitosha kuwasaidia wachungaji kumpata mtoto."
+    },
+    {
+      "location": "HTML, paragraph beginning “The despised shepherds”",
+      "severity": "major",
+      "source_quote": "This is the difference between nominal worship and the heartfelt praise of His redeemed who will but follow Him to the manger.",
+      "suggested_fix": "Translate “who will but follow Him” as a call to follow him, rather than implying that they will follow him only as far as the manger; for example: “Hii ndiyo tofauti kati ya ibada ya jina tu na sifa za moyoni za waliokombolewa naye, ambao watamfuata hadi horini.”",
+      "translation_quote": "Hii ndiyo tofauti kati ya ibada ya jina tu na sifa za moyoni za waliokombolewa naye, ambao watamfuata tu hadi horini."
+    },
+    {
+      "location": "HTML, hymn beginning “Why lies He”",
+      "severity": "major",
+      "source_quote": "Good Christians, fear, for sinners here / The silent Word is pleading.",
+      "suggested_fix": "Preserve the address to Christians and the reason for fearing, without changing the line into a command to be afraid: “Wakristo wema, ogopeni, kwa maana hapa Neno kimya linawaombea wenye dhambi.”",
+      "translation_quote": "Wakristo wema, ogopeni, maana kwa wenye dhambi hapa / Neno kimya linaomba."
+    },
+    {
+      "location": "HTML, paragraph beginning “These are those who are at peace”",
+      "severity": "major",
+      "source_quote": "They are content with a cottage while others cloister in a castle.",
+      "suggested_fix": "Translate the contrast as being content with a cottage while others live in a castle, not as being confined there; for example: “Wanatosheka na nyumba ndogo huku wengine wakiishi katika kasri.”",
+      "translation_quote": "Wanatosheka na nyumba ndogo huku wengine wakiishi kifungoni ndani ya kasri."
+    },
+    {
+      "location": "HTML, paragraph beginning “Those whose hearts resound”",
+      "severity": "major",
+      "source_quote": "This is the song that Stephen sang proceeding his earthly departure. He spake of Abraham removing himself from his land, Acts 7:3 of Joseph being sold out of his home, vs.9 and of Moses being cast out, and fleeing to Midian. vs.21.",
+      "suggested_fix": "Correct the factual change about Joseph: the source says he was sold from his home, not sold out of his home. For example: “...kuhusu Yusufu kuuzwa akiwa mbali na nyumbani, mst. 9...”",
+      "translation_quote": "...kuhusu Yusufu kuuzwa kutoka nyumbani kwake, mst. 9..."
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Outside the Inn Crowd",
+      "suggested_fix": "Retain the source’s “outside” sense without implying movement into the group; for example: “Nje ya Kundi la Nyumba ya Wageni.”",
+      "translation_quote": "Nje ya Kundi la Nyumba ya Wageni"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

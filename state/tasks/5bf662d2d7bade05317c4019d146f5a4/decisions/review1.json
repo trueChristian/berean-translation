@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "major",
+      "source_quote": "It makes me think of a man in my life who I really appreciate.",
+      "suggested_fix": "Replace «un uomo della mia vita» with «un uomo che fa parte della mia vita» to avoid implying a romantic partner.",
+      "translation_quote": "Mi fa pensare a un uomo della mia vita che apprezzo molto."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

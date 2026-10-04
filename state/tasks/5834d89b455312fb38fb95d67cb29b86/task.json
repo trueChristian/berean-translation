@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7695
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1058,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 703,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7485,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7482,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8543
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, final paragraph; James 4:8 quotation",
+      "severity": "major",
+      "source_quote": "Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.",
+      "suggested_fix": "Replace הַסּוֹסְסִים with a clear Modern Hebrew equivalent for “double minded,” such as הַהֲפַכְפְּכִים, while preserving the quotation’s existing HTML structure and reference.",
+      "translation_quote": "טַהֲרוּ יְדֵיכֶם, חוֹטְאִים, וְטַהֲרוּ לְבַבְכֶם, הַסּוֹסְסִים – יעקב ד׳:8."
+    },
+    {
+      "location": "Article, “The virus hits home,” paragraph 2",
+      "severity": "major",
+      "source_quote": "I was so sick from the virus that I wasn’t able to work for over two months.",
+      "suggested_fix": "Revise לא יכולתי לעבוד יותר מחודשיים to make clear that the inability to work lasted longer than two months, for example: הייתי חולה כל כך מהנגיף, שלא יכולתי לעבוד במשך יותר מחודשיים.",
+      "translation_quote": "חליתי כל כך מהנגיף שלא יכולתי לעבוד יותר מחודשיים."
+    }
+  ],
   "id": "5834d89b455312fb38fb95d67cb29b86",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "heb",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fe42627d-d5e6-4928-911d-dde6b869a5b2",
+    "response_id": "chatcmpl-EV2597R1nKEDz3eApJdU4PPeZtT75",
+    "usage": {
+      "completion_tokens": 879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 663,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6494,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6491,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7373
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, list of David’s “I wills,” Psalm 52:9b",
+        "severity": "major",
+        "source_quote": "I will wait on thy name.",
+        "suggested_fix": "Ersätt ”vänta på ditt namn” med ”förtrösta på ditt namn” för att återge innebörden att sätta sin tillit till Guds namn.",
+        "translation_quote": "Jag ska vänta på ditt namn."
+      },
+      {
+        "location": "HTML, paragraph beginning “Good intentions and change”",
+        "severity": "minor",
+        "source_quote": "we don’t understand how God intimately cares about these emotions and problems in our lives",
+        "suggested_fix": "Ändra till exempelvis ”vi förstår inte hur djupt Gud bryr sig om dessa känslor och problem i våra liv”.",
+        "translation_quote": "vi förstår inte hur nära Gud bryr sig om dessa känslor och problem i våra liv"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

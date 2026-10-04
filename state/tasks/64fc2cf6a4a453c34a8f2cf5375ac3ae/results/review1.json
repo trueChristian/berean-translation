@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1ccff976-d06b-4ac4-ba07-beaa95aab3dc",
+    "response_id": "chatcmpl-EV254ZG01wPxqphPpPDk1wnzFGGN0",
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 501,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4533,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5162
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5",
+        "severity": "major",
+        "source_quote": "He has a zeal for God and a burden for the lost that is refreshing and inspiring….",
+        "suggested_fix": "Hy het ’n ywer vir God en ’n diepe besorgdheid oor die verlorenes wat verkwikkend en inspirerend is….",
+        "translation_quote": "Hy het ’n ywer vir God en ’n hartseer oor die verlorenes wat verkwikkend en inspirerend is…."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

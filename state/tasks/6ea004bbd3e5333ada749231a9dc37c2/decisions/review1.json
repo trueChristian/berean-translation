@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza 3, baris 3",
+      "severity": "major",
+      "source_quote": "To love, laugh with, and cherish,",
+      "suggested_fix": "Ganti baris ini menjadi: “Untuk mencintai, tertawa bersama, dan menyayangi,”",
+      "translation_quote": "Untuk dikasihi, diajak tertawa, dan disayangi,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

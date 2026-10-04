@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5\",\"severity\":\"major\",\"source_quote\":\"It makes me think of a man in my life who I really appreciate.\",\"suggested_fix\":\"Replace «un uomo della mia vita» with «un uomo che fa parte della mia vita» to avoid implying a romantic partner.\",\"translation_quote\":\"Mi fa pensare a un uomo della mia vita che apprezzo molto.\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 383,
+    "content_evidence_truncated": false,
+    "content_sha256": "c6a6ea8392483bdb071032926b9f91dab5ce059b2e96f3f231012eed261c2582",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 499,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 394,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4481,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4478,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4980
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

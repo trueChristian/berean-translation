@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “The Vaccine booklet”",
+      "severity": "major",
+      "source_quote": "“The only thing that kept me out of the hospital was a daily intake of one restricted drug”",
+      "suggested_fix": "Replace “ett receptbelagt läkemedel” with “ett läkemedel med restriktioner” to preserve the source’s description of the drug as restricted, without changing it to merely prescription-only.",
+      "translation_quote": "“ett receptbelagt läkemedel”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

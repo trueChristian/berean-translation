@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “The Scriptures record the Apostle Paul…”",
+      "severity": "major",
+      "source_quote": "“have no fellowship with the unfruitful works of darkness, but rather reprove them”",
+      "suggested_fix": "Replace «men heller avsløre dem» with «men heller irettesette dem» to preserve the instruction to reprove the works, rather than merely expose them.",
+      "translation_quote": "«ikke ha noe fellesskap med mørkets ufruktbare gjerninger, men heller avsløre dem»"
+    },
+    {
+      "location": "Paragraph beginning “How we speak to one another…”",
+      "severity": "major",
+      "source_quote": "“But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?”",
+      "suggested_fix": "Preserve the source’s double negative. For example: «Men hvis vi ikke er uvillige til å tale sannheten når det betyr at noen blir misfornøyde med oss, er ikke vi da skyldige?»",
+      "translation_quote": "«Men hvis vi ikke er villige til å tale sannheten når det betyr at noen blir misfornøyde med oss, er ikke vi da skyldige?»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

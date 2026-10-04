@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fc8cecf2-0c35-4788-975a-3be7c1d7d4c8",
+    "response_id": "chatcmpl-EV24mOpzt31yO92iAQtYHruJXZY7W",
+    "usage": {
+      "completion_tokens": 734,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 636,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4448,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4445,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5182
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, Matthew 5:13–14 quotation",
+        "severity": "major",
+        "source_quote": "if the salt have lost his savour",
+        "suggested_fix": "Bytt «hvis saltet mister sin kraft» til «hvis saltet mister smaken».",
+        "translation_quote": "Men hvis saltet mister sin kraft"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

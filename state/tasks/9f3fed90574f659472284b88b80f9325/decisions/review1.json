@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, avsnittet ”A Sober Spirit”, första stycket",
+      "severity": "major",
+      "source_quote": "“sober” … “to be calm and collected in spirit; to be temperate, dispassionate.”",
+      "suggested_fix": "Ändra definitionen till exempelvis: ”att vara lugn och samlad i sinnet; att vara måttfull och opartisk”. Översätt även den följande beskrivningen så att den inte byter ut ”dispassionate” mot ”behärskad”.",
+      "translation_quote": "”att vara lugn och samlad till sinnet; att vara måttfull och behärskad”"
+    },
+    {
+      "location": "HTML, avsnittet ”A Quiet Spirit”, stycket med citatet ur Jesaja 30:15",
+      "severity": "major",
+      "source_quote": "“In returning and rest shall ye be saved; in quietness and in confidence shall be your strength: and ye would not”",
+      "suggested_fix": "Återge kontrasten i slutet som ett uttryck för att de inte ville göra det, exempelvis: ”… men ni ville inte”. Översätt citatet i enlighet med den tryckta engelska texten, inklusive dess innebörd av ”returning and rest”.",
+      "translation_quote": "”Genom omvändelse och ro ska ni bli räddade, i stillhet och förtröstan ligger er styrka: men ni ville inte”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

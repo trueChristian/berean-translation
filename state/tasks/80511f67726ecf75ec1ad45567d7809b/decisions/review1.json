@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, avsnittet om vaksinen",
+      "severity": "major",
+      "source_quote": "“Will this new technology that has been manufactured as a synthetic mRNA vaccine somehow change my DNA if I allow them to prick my skin?”",
+      "suggested_fix": "Erstatt «som er produsert som en syntetisk mRNA-vaksine» med «som er produsert som en syntetisk mRNA-vaksine»? Kilden sier «manufactured as a synthetic mRNA vaccine»; den norske formuleringen gjengir dette innholdet, så ingen endring er nødvendig.",
+      "translation_quote": "«Vil denne nye teknologien, som er produsert som en syntetisk mRNA-vaksine, på en eller annen måte endre DNA-et mitt hvis jeg lar dem stikke hull i huden min?»"
+    },
+    {
+      "location": "HTML, avsnittet om John S. Kurtz og Maria Horning",
+      "severity": "major",
+      "source_quote": "“John was ordained to the ministry at the age of 27”",
+      "suggested_fix": "Endre «ordinert til tjenesten» til «ordinert til tjeneste» eller «ordinert til prestetjenesten», slik at det ikke høres ut som han ble ordinert til en bestemt tjeneste.",
+      "translation_quote": "«John ble ordinert til tjenesten som 27-åring»"
+    },
+    {
+      "location": "HTML, avsluttende sitat fra Jakob 4:8",
+      "severity": "minor",
+      "source_quote": "“Draw nigh to God, and he will draw nigh to you.”",
+      "suggested_fix": "Vurder «Hold dere nær til Gud, så skal han holde seg nær til dere» → «Kom nær til Gud, så skal han komme nær til dere» for å bevare den gjensidige bevegelsen i sitatet.",
+      "translation_quote": "«Hold dere nær til Gud, så skal han holde seg nær til dere.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

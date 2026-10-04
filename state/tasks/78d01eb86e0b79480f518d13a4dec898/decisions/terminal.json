@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Hymn, stanza 2, line 3",
+      "severity": "minor",
+      "source_quote": "I know He’ll take me thro’, tho’ I am weak and poor,",
+      "suggested_fix": "Aku tahu Dia akan membawaku melewati semuanya, meski aku lemah dan miskin,",
+      "translation_quote": "Aku tahu Dia akan menuntunku, meski aku lemah dan miskin,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

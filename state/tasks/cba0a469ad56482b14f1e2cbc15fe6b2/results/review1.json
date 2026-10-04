@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e8faf3de-fc8f-4c46-a87b-c9de4f6f4b91",
+    "response_id": "chatcmpl-EV23xl53BrL1y9tXkm0xrCuPjEor3",
+    "usage": {
+      "completion_tokens": 818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4374,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4371,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5192
+    }
+  },
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة 6",
+        "severity": "major",
+        "source_quote": "Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.",
+        "suggested_fix": "استبدل «ومن دون رجعة، وبصرف النظر عن الاختيار، يوضع على ضمير السامع إما الهلاك وإما اليقين» بـ«بلا رجعة، وبصرف النظر عن الاختيار، يُلقى على ضمير السامع إما الدينونة وإما الطمأنينة».",
+        "translation_quote": "ومن دون رجعة، وبصرف النظر عن الاختيار، يوضع على ضمير السامع إما الهلاك وإما اليقين."
+      },
+      {
+        "location": "الفقرة 7",
+        "severity": "major",
+        "source_quote": "Our Anabaptist forefathers",
+        "suggested_fix": "استبدل «أسلافنا من قائلِي معمودية البالغين» بـ«أسلافنا من الأنابابتست» أو «أسلافنا من المسيحيين القائلين بمعمودية البالغين»، لتجنب اختزال هوية الجماعة في صياغة غير دقيقة.",
+        "translation_quote": "أسلافنا من قائلِي معمودية البالغين"
+      },
+      {
+        "location": "الفقرة 8",
+        "severity": "major",
+        "source_quote": "Current preaching styles have trended from … and … to “God understands and feels your pain.”",
+        "suggested_fix": "عدّل الاقتباس إلى «الله يفهم ألمك ويشعر به»، مع إبقاء مرجعَي الكتاب المقدس والبنية المقابلة لـ«من… إلى» كما هما؛ فالترجمة الحالية تقلب معنى العبارة من فهم الألم والشعور به إلى فهم الألم والشعور به (لا تتيح صياغتها الحالية معنى المصدر بدقة).",
+        "translation_quote": "«الله يفهم ألمك ويشعر به»"
+      },
+      {
+        "location": "الفقرة 9",
+        "severity": "major",
+        "source_quote": "It heightens satisfaction in hypocritical living.",
+        "suggested_fix": "استبدل «ويزيد الرضا بالحياة المرائية» بـ«ويزيد الرضا بالعيش في رياء» أو صياغة عربية واضحة مماثلة.",
+        "translation_quote": "ويزيد الرضا بالحياة المرائية."
+      },
+      {
+        "location": "الفقرة 12",
+        "severity": "major",
+        "source_quote": "The “Sword” he bears must first be severely laid to the roots of his own flesh.",
+        "suggested_fix": "استبدل «وينبغي أولاً أن يُعمل «السيف» الذي يحمله بقسوة في جذور جسده» بـ«ينبغي أولاً أن يُسلَّط «السيف» الذي يحمله بشدة على جذور جسده»؛ الصياغة الحالية تجعل السيف كأنه يُعمل داخل الجسد، ولا تنقل بوضوح معنى إخضاع جذور الجسد له.",
+        "translation_quote": "وينبغي أولاً أن يُعمل «السيف» الذي يحمله بقسوة في جذور جسده."
+      },
+      {
+        "location": "الفقرة 13",
+        "severity": "major",
+        "source_quote": "The husbandman must first taste and feed on his own fruits.",
+        "suggested_fix": "استبدل «فلا بد أن يذوق الفلاح ثماره ويقتات بها أولاً» بـ«فلا بد أن يذوق الزارع ثماره ويتغذى بها أولاً» أو ما يؤدي معنى أن العامل الروحي يختبر ثمر عمله وينتفع به أولاً.",
+        "translation_quote": "فلا بد أن يذوق الفلاح ثماره ويقتات بها أولاً."
+      },
+      {
+        "location": "العنوان",
+        "severity": "minor",
+        "source_quote": "The Urgency of “Anointed” Preaching",
+        "suggested_fix": "صياغة أدق للعنوان: «إلحاح الكرازة «الممسوحة بالروح»».",
+        "translation_quote": "إلحاح الكرازة «الممسوحة»"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

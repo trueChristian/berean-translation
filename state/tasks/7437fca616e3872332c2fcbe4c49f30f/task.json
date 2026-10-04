@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 8511
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 805,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 686,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8322,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8319,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9127
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragrafo sugli esempi biblici, riferimento al libro dei martiri",
+      "severity": "minor",
+      "source_quote": "If you read through the martyr’s mirror",
+      "suggested_fix": "Sostituire «il Martirologio dei martiri» con «lo Specchio dei martiri», mantenendo il titolo dell’opera citata.",
+      "translation_quote": "Se leggete il Martirologio dei martiri"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:11+00:00",
   "id": "7437fca616e3872332c2fcbe4c49f30f",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ita",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

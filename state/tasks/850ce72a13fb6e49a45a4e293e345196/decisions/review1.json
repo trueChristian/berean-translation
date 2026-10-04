@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Current preaching styles…”",
+      "severity": "minor",
+      "source_quote": "“to convince, to convict, and to pierce the darkness of today.”",
+      "suggested_fix": "Replace «vekke skyldfølelse» with «overbevise» or «føre til overbevisning», so the phrase conveys spiritual conviction rather than specifically making someone feel guilty.",
+      "translation_quote": "«for å overbevise, vekke skyldfølelse og trenge gjennom vår tids mørke»"
+    },
+    {
+      "location": "Paragraph beginning “The secret closet of the preacher…”",
+      "severity": "minor",
+      "source_quote": "“the roots of his own flesh”",
+      "suggested_fix": "Use «røttene til sin egen kjødelige natur» for a clearer Norwegian rendering of the theological sense of “flesh.”",
+      "translation_quote": "«røttene til hans eget kjøtt»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

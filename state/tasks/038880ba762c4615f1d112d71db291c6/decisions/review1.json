@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, абзац под заголовком «Обновлённые сведения о побочных эффектах»",
+      "severity": "major",
+      "source_quote": "In the last several weeks, nearly 15 million people in the United States have gotten at least one dose of the COVID vaccines.",
+      "suggested_fix": "Заменить «не менее 15 миллионов» на «почти 15 миллионов», сохранив исходную оценку количества.",
+      "translation_quote": "За последние несколько недель не менее 15 миллионов человек в Соединённых Штатах получили хотя бы одну дозу вакцин от COVID."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

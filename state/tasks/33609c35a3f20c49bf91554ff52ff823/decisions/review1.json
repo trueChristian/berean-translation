@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 「온유한 영」 아래 인용문",
+      "severity": "minor",
+      "source_quote": "the ornament of a <strong>meek</strong> and quiet spirit",
+      "suggested_fix": "강조 태그를 ‘온유한’에 적용해 다음과 같이 수정하세요: <em>오직 <strong>온유한</strong> 영과 고요한 영의 장식으로 할지니… –베드로전서 3:4.</em>",
+      "translation_quote": "오직 온유하고 <strong>고요한</strong> 영의 장식으로 할지니… –베드로전서 3:4."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

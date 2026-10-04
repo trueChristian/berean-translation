@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraphe 5 — Josué 24:15\",\"severity\":\"major\",\"source_quote\":\"“…choose you this day whom ye will serve…”\",\"suggested_fix\":\"Remplacer par « …choisissez aujourd’hui qui vous voulez servir… »\",\"translation_quote\":\"« …choisissez aujourd’hui qui vous voulez servir… »\"},{\"location\":\"source.html, paragraphe 6 — expression sur la souveraineté\",\"severity\":\"major\",\"source_quote\":\"“Sovereignty deems that under passionate, Spirit-anointed preaching, the conscience cannot resist accountability.”\",\"suggested_fix\":\"Traduire la proposition comme une affirmation de l’auteur, par exemple : « La souveraineté veut que, sous une prédication passionnée et ointe de l’Esprit, la conscience ne puisse résister à la responsabilité qui lui incombe. »\",\"translation_quote\":\"« La souveraineté veut que, sous une prédication passionnée et ointe de l’Esprit, la conscience ne puisse résister à cette responsabilité. »\"},{\"location\":\"source.html, paragraphe 8 — transition « de… à… »\",\"severity\":\"minor\",\"source_quote\":\"“Current preaching styles have trended from [deux références bibliques] to ‘God understands and feels your pain.’”\",\"suggested_fix\":\"Supprimer les éléments `<strong></strong>` vides et formuler la transition clairement, par exemple : « Les styles de prédication actuels ont évolué, délaissant [références] au profit de “Dieu comprend votre douleur et la ressent.” »\",\"translation_quote\":\"« Les styles de prédication actuels ont évolué, passant de <strong></strong><em>…</em> et <em>…</em> à <strong></strong>« Dieu comprend votre douleur et la ressent. » »\"},{\"location\":\"source.html, paragraphe 12 — dernière phrase\",\"severity\":\"major\",\"source_quote\":\"“Through faith, obedience, and the blood of the Lamb, it defeats willful sin, fiendish demons, sensual flesh, and Satan.”\",\"suggested_fix\":\"Rendre explicite que c’est la prédication qui triomphe, par la foi, l’obéissance et le sang de l’Agneau : « Par la foi, l’obéissance et le sang de l’Agneau, la prédication triomphe du péché volontaire, des démons malfaisants, de la chair sensuelle et de Satan. »\",\"translation_quote\":\"« Par la foi, l’obéissance et le sang de l’Agneau, elle vainc le péché volontaire, les démons malfaisants, la chair sensuelle et Satan. »\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2419,
+    "content_evidence_truncated": false,
+    "content_sha256": "1bcc5ce46f882979d79488ef904f42c749542efd27e5b395a8531fb21c264d88",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4463,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4460,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5045
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

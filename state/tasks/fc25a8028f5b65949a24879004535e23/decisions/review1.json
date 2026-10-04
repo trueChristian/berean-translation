@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, bagian “Vaksin Lain”, paragraf pertama",
+      "severity": "major",
+      "source_quote": "“to trigger the immune response. create immunity.”",
+      "suggested_fix": "Ganti bagian yang sepadan dengan “untuk memicu respons kekebalan.” Jangan menambahkan klausa terpisah “menciptakan kekebalan.”",
+      "translation_quote": "“untuk memicu respons kekebalan. menciptakan kekebalan.”"
+    },
+    {
+      "location": "HTML, bagian “Catatan Editor”, paragraf terakhir",
+      "severity": "minor",
+      "source_quote": "“as a board, we second the comments found in Larry Zook’s article”",
+      "suggested_fix": "Terjemahkan “we second the comments” sebagai mendukung atau menyetujui komentar tersebut, misalnya “kami mendukung komentar dalam artikel Larry Zook”.",
+      "translation_quote": "“sebagai dewan, kami mendukung komentar dalam artikel Larry Zook”"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "“Vaccinated. . . To Be or Not To Be?”",
+      "suggested_fix": "Pertahankan pertanyaan “to be or not to be” sebagai pertanyaan apakah akan divaksinasi, misalnya “Divaksinasi. . . Ya atau Tidak?”",
+      "translation_quote": "“Sudah Divaksinasi. . . Haruskah atau Tidak?”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

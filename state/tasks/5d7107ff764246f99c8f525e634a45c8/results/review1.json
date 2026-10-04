@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c20db975-4905-4d2f-b129-04d0737cd61c",
+    "response_id": "chatcmpl-EV24Sj9s47Id1LUNQanxMXpS9dOPM",
+    "usage": {
+      "completion_tokens": 660,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7185,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7848
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraphe « Un fait intéressant »",
+        "severity": "minor",
+        "source_quote": "“a family that lost five children in infancy”",
+        "suggested_fix": "Remplacer « une famille composée de John M. et Catharine Kurtz a perdu cinq enfants en bas âge » par « une famille composée de John M. et Catharine Kurtz a perdu cinq enfants alors qu’ils étaient encore nourrissons » afin de préciser qu’ils sont morts en bas âge.",
+        "translation_quote": "« une famille composée de John M. et Catharine Kurtz a perdu cinq enfants en bas âge »"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

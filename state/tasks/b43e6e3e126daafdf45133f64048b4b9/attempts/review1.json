@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Absatz über die Reisen nach Kanada, Satz 2\",\"severity\":\"major\",\"source_quote\":\"Between 2010 and 2015, he took a small choir with him on several trips to Canada, singing and preaching as they visited various churches.\",\"suggested_fix\":\"Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit. Bei ihren Besuchen in verschiedenen Gemeinden sang der Chor, und Mose predigte.\",\"translation_quote\":\"Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit, der bei Besuchen in verschiedenen Gemeinden sang und predigte.\"},{\"location\":\"Absatz über die Gabe des Predigens, Satz 1\",\"severity\":\"minor\",\"source_quote\":\"One of the prominent gifts the Lord gave to Brother Mose was the gift of preaching.\",\"suggested_fix\":\"Eine der herausragenden Gaben, die der Herr Bruder Mose schenkte, war die Gabe des Predigens.\",\"translation_quote\":\"Eines der herausragenden Gaben, die der Herr Bruder Mose schenkte, war die Gabe des Predigens.\"},{\"location\":\"Absatz über Mose als Wächter, letzter Satz\",\"severity\":\"minor\",\"source_quote\":\"In the face of these dangers to the church, he gave much attention to teaching sound doctrine.\",\"suggested_fix\":\"Angesichts dieser Gefahren für die Gemeinde widmete er der Vermittlung gesunder Lehre viel Aufmerksamkeit.\",\"translation_quote\":\"Angesichts dieser Gefahren für die Gemeinde widmete er der Lehre gesunder Lehre viel Aufmerksamkeit.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1479,
+    "content_evidence_truncated": false,
+    "content_sha256": "058157e5968490ddac1be344c62aa8934ef823ee3b7b460c1d14b40f65849c29",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 629,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5323,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6303
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

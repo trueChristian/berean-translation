@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, mRNA vaccine explanation and antibody-testing paragraph",
+      "severity": "major",
+      "source_quote": "“the spike protein on the COVID virus”; “an antibody to the spike protein”",
+      "suggested_fix": "Replace “aarproteïen” in both places with “spykproteïen” (or another standard Afrikaans equivalent for “spike protein”).",
+      "translation_quote": "“die aarproteïen op die COVID-virus”; “’n teenliggaam teen die aarproteïen”"
+    },
+    {
+      "location": "Article body, “Almal anders” paragraph",
+      "severity": "major",
+      "source_quote": "“I would certainly lean towards getting the vaccine.”; “I would lean towards getting one of the vaccines.”",
+      "suggested_fix": "Replace “die entstof aan te beveel” and “een van die entstowwe aan te beveel” with wording that preserves the author's more qualified stance, such as “geneig wees om die entstof te kry” and “geneig wees om een van die entstowwe te kry.”",
+      "translation_quote": "“sou ek beslis geneig wees om die entstof aan te beveel”; “sou ek geneig wees om een van die entstowwe aan te beveel”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "71307b8b-cee8-4222-ac86-61a5d1f23423",
+    "response_id": "chatcmpl-EV24kxTLNtkxtMuZmKl2zsQJ0VYtu",
+    "usage": {
+      "completion_tokens": 464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8711,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9178
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Текст статьи, абзац о грехе и браке",
+        "severity": "major",
+        "source_quote": "It takes loving marriages and introduces them to the throes of internal war.",
+        "suggested_fix": "Заменить на: «Он превращает любящие браки в поле ожесточённой внутренней борьбы.»",
+        "translation_quote": "Он приводит любящие супруги к жестокой внутренней войне."
+      },
+      {
+        "location": "Текст статьи, абзац о знамениях и яслях",
+        "severity": "major",
+        "source_quote": "The sign of the manger in conjunction with their scriptural knowledge of Bethlehem were all that was needed for the shepherds to find the child.",
+        "suggested_fix": "Заменить на: «Знамения яслей и знания пастухов о Вифлееме, почерпнутые из Писания, было достаточно, чтобы найти Младенца.»",
+        "translation_quote": "Знамения яслей и знания пастухов о Писании, в котором говорилось о Вифлееме, было достаточно, чтобы найти Младенца."
+      },
+      {
+        "location": "Текст статьи, абзац о песне и земном мире",
+        "severity": "major",
+        "source_quote": "This is the popular, pampered peace the world promotes and portrays, but does not coincide with that of the babe in the meager manger.",
+        "suggested_fix": "Заменить на: «Это популярный, холёный мир, который пропагандирует и изображает мир, но он не совпадает с миром Младенца в убогих яслях.»",
+        "translation_quote": "Это популярный, холёный мир, который пропагандирует и изображает мир, но он не совпадает с миром Младенца в убогих яслях."
+      },
+      {
+        "location": "Заголовок статьи",
+        "severity": "minor",
+        "source_quote": "Outside the Inn Crowd",
+        "suggested_fix": "Рекомендуется: «Вне гостиничной толпы» — чтобы сохранить образ нахождения за пределами популярного окружения, а не просто пространственное «за пределами» гостиницы.",
+        "translation_quote": "За пределами гостиничной толпы"
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

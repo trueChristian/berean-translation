@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, Matthew 5:13–14 quotation",
+      "severity": "major",
+      "source_quote": "if the salt have lost his savour",
+      "suggested_fix": "Bytt «hvis saltet mister sin kraft» til «hvis saltet mister smaken».",
+      "translation_quote": "Men hvis saltet mister sin kraft"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

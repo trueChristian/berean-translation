@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poème, strophe commençant par « Alors, une voix… »\",\"severity\":\"minor\",\"source_quote\":\"Then, a rich voice spoke inside me,\",\"suggested_fix\":\"Remplacer « une voix profonde » par « une voix riche » ou une formulation idiomatique évoquant une voix riche et résonnante.\",\"translation_quote\":\"Alors, une voix profonde me parla au-dedans :\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 400,
+    "content_evidence_truncated": false,
+    "content_sha256": "55b93e011926f3d62cc32191a331b1895507e81f50256d668df01f39d5539fd2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3331,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3958
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

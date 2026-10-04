@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 8761
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 549,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8620,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8617,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9169
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, section « Autres vaccins », premier paragraphe",
+      "severity": "major",
+      "source_quote": "Janssen (Johnson and Johnson) Pharmaceuticals et Astra Zeneca sont tous deux en train de mettre au point des vaccins plus traditionnels, c’est-à-dire qu’ils font croître le virus, le tuent, puis administrent de petites doses du virus tué pour déclencher la réponse immunitaire.",
+      "suggested_fix": "Remplacer « ils font croître le virus, le tuent, puis administrent de petites doses du virus tué » par « le virus est cultivé, puis tué, et de petites doses du virus tué sont administrées ». Le texte source décrit le procédé des vaccins, pas une méthode consistant à cultiver puis tuer le virus à chaque administration.",
+      "translation_quote": "ils font croître le virus, le tuent, puis administrent de petites doses du virus tué pour déclencher la réponse immunitaire et créer une immunité."
+    },
+    {
+      "location": "Article, section « Autres questions », deuxième paragraphe",
+      "severity": "major",
+      "source_quote": "Les aiguilles utilisées pour administrer ces vaccins sont de très petit calibre (21 gauge or smaller)",
+      "suggested_fix": "Traduire la mesure en français, par exemple « de calibre 21 ou inférieur (aiguilles plus fines) », afin de conserver le sens de « 21 gauge or smaller » sans ambiguïté.",
+      "translation_quote": "de très petit calibre (calibre 21 ou plus petit)"
+    },
+    {
+      "location": "Article, section « Tous les autres », premier paragraphe",
+      "severity": "major",
+      "source_quote": "Personally, I have started getting vaccinated using the Pfizer vaccine and feel comfortable with that.",
+      "suggested_fix": "Remplacer « j’ai commencé à me faire vacciner avec le vaccin Pfizer » par « j’ai commencé à recevoir le vaccin Pfizer et je suis à l’aise avec ce choix ». Le pluriel ou l’idée d’une série de vaccinations n’est pas indiqué dans la formulation source.",
+      "translation_quote": "Pour ma part, j’ai commencé à me faire vacciner avec le vaccin Pfizer et je suis à l’aise avec ce choix."
+    },
+    {
+      "location": "Titre de l’article",
+      "severity": "minor",
+      "source_quote": "Vaccinated. . . To Be or Not To Be?",
+      "suggested_fix": "Rendre l’alternative interrogative plus explicitement, par exemple « Se faire vacciner… ou ne pas se faire vacciner? », afin de conserver le jeu de la question « To Be or Not To Be ».",
+      "translation_quote": "Vacciné… ou pas?"
+    }
+  ],
   "id": "e34a1bf1c7e43b40e652be69a423a2a0",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "fra",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "14bcac57-0842-47be-9419-55d70f3e3086",
+    "response_id": "chatcmpl-EV24JOxFSSNDsGdeEoQ1LnYrhOs0w",
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5550,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5765
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Editor’s Note, paragraph 1",
+        "severity": "major",
+        "source_quote": "“we felt it would be fitting to provide a small tribute”",
+        "suggested_fix": "Replace « nous avons estimé qu’il convenait de lui rendre un petit hommage » with « nous avons estimé qu’il convenait de rendre un petit hommage à Mose » to preserve the explicit reference to Mose.",
+        "translation_quote": "« nous avons estimé qu’il convenait de lui rendre un petit hommage »"
+      },
+      {
+        "location": "Article paragraph beginning “Brother Mose was a true leader”",
+        "severity": "major",
+        "source_quote": "“he would frequently seek out the council of fellow ministers”",
+        "suggested_fix": "Replace « il consultait souvent ses collègues ministres » with « il recherchait souvent les conseils de ses collègues ministres »; the source says he sought their counsel, not merely that he consulted them.",
+        "translation_quote": "« il consultait souvent ses collègues ministres »"
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

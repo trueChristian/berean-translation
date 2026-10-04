@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 9, quotation of Revelation 3:16\",\"severity\":\"major\",\"source_quote\":\"So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth –Revelation 3:16.\",\"suggested_fix\":\"Translate the quoted sentence as « Ainsi, parce que tu es tiède, et que tu n’es ni froid ni chaud, je te vomirai de ma bouche –Apocalypse 3:16. »\",\"translation_quote\":\"Ainsi, parce que tu es tiède, et que tu n’es ni froid ni bouillant, je te vomirai de ma bouche –Apocalypse 3:16.\"},{\"location\":\"HTML, paragraph 11, quotation of Matthew 5:13–14\",\"severity\":\"major\",\"source_quote\":\"…Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men.\",\"suggested_fix\":\"Replace « avec quoi la lui rendra-t-on ? » with « avec quoi sera-t-il salé ? », preserving the rest of the translated quotation and its reference.\",\"translation_quote\":\"Vous êtes le sel de la terre. Mais si le sel perd sa saveur, avec quoi la lui rendra-t-on ? Il ne sert plus à rien qu’à être jeté dehors et foulé aux pieds par les hommes.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1232,
+    "content_evidence_truncated": false,
+    "content_sha256": "eea2904c81f64a77e3bb660825fa43c8aa4f93b35611601081ea27979ff29c11",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 327,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4407,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4404,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4734
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

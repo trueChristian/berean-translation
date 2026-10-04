@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"पहला उद्धरण, लूका 2:8-14\",\"severity\":\"major\",\"source_quote\":\"“and on earth peace, good will toward men”\",\"suggested_fix\":\"उद्धरण के अंतिम अंश को इस अर्थ में सुधारें: “और पृथ्वी पर उन मनुष्यों में शांति, जिन पर उसकी प्रसन्नता है।”\",\"translation_quote\":\"“और पृथ्वी पर उन मनुष्यों में शांति जिनसे वह प्रसन्न है।”\"},{\"location\":\"अनुच्छेद 2\",\"severity\":\"major\",\"source_quote\":\"“The date was set by the bishop of Rome in accordance with a popular pagan festival called Saturnalia.”\",\"suggested_fix\":\"वाक्य को ऐसे सुधारें: “यह तारीख रोम के बिशप ने सैटर्नेलिया नामक एक लोकप्रिय मूर्तिपूजक त्योहार के अनुरूप तय की थी।”\",\"translation_quote\":\"“यह तारीख रोम के बिशप ने सैटर्नेलिया नाम के एक लोकप्रिय मूर्तिपूजक त्योहार के अनुसार तय की थी।”\"},{\"location\":\"अनुच्छेद 4, मीका 5:2 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"“whose goings forth have been from of old, from everlasting”\",\"suggested_fix\":\"उद्धरण का यह अंश इस अर्थ में सुधारें: “जिसका उद्गम प्राचीनकाल से, अनादिकाल से है।”\",\"translation_quote\":\"“उसका निकलना प्राचीनकाल से, वरन् अनादिकाल से होता आया है।”\"},{\"location\":\"अनुच्छेद 9, यूहन्ना 11:16 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"“Let us also go, that we may die with him”\",\"suggested_fix\":\"उद्धरण को ऐसे सुधारें: “आओ, हम भी चलें, कि उसके साथ मरें।”\",\"translation_quote\":\"“आओ, हम भी उसके साथ मरने चलें।”\"},{\"location\":\"अनुच्छेद 11, यशायाह 53:1-3 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"“and we hid as it were our faces from him”\",\"suggested_fix\":\"इस अंश को ऐसे सुधारें: “और मानो हमने उससे अपना मुँह छिपा लिया।”\",\"translation_quote\":\"“और लोग उससे मुँह फेर लेते थे।”\"},{\"location\":\"अनुच्छेद 14, प्रकाशितवाक्य 14:3 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"“the hundred and forty and four thousand, which were redeemed from the earth”\",\"suggested_fix\":\"उद्धरण को ऐसे सुधारें: “और कोई उस गीत को नहीं सीख सका, सिवाय उन एक लाख चौवालीस हजार के, जो पृथ्वी पर से छुड़ाए गए थे।”\",\"translation_quote\":\"“और उन एक लाख चौवालीस हजार को छोड़, जो पृथ्वी पर से मोल लिये गए थे, कोई उस गीत को न सीख सकता था।”\"},{\"location\":\"अनुच्छेद 16, प्रेरितों के काम 7:57-60 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"“And cast him out of the city, and stoned him … And he kneeled down, and cried with a loud voice”\",\"suggested_fix\":\"उद्धरण में यह अंश जोड़ें: “और उसे नगर से बाहर निकालकर पत्थरवाह किया… और उसने घुटने टेककर ऊँचे शब्द से पुकारा।”\",\"translation_quote\":\"“और उसे नगर के बाहर निकालकर पत्थरवाह करने लगे… तब उसने घुटने टेककर ऊँचे शब्द से पुकारा।”\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 4591,
+    "content_evidence_truncated": false,
+    "content_sha256": "cf33e41d8324fa7a8a5f83464b0edaade96d603435addf7f0af1fd42757a0bef",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 790,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9261,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9258,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10051
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph quoting Romans 10:17",
+      "severity": "major",
+      "source_quote": "So then faith cometh by hearing, and hearing by the word of God –Romans 10:17.",
+      "suggested_fix": "Ändra «predikan genom Kristi ord» till «hörandet genom Guds ord», så att citatet återger källans uttryck «the word of God».",
+      "translation_quote": "Alltså kommer tron av predikan, och predikan genom Kristi ord –Romarbrevet 10:17."
+    },
+    {
+      "location": "Article, final paragraph quoting Luke 21:36",
+      "severity": "major",
+      "source_quote": "Watch ye therefore, and pray always, that ye may be accounted worthy to escape all these things that shall come to pass",
+      "suggested_fix": "Ändra «be att ni skall få kraft att undfly» till en formulering som återger att man ska «anses värdig att undfly», exempelvis «be att ni ska anses värdiga att undfly allt detta som ska ske».",
+      "translation_quote": "Var därför alltid vakna och be att ni skall få kraft att undfly allt detta som skall ske"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph under “Uno spirito tranquillo” (Isaia 30:15)\",\"severity\":\"major\",\"source_quote\":\"In returning and rest shall ye be saved\",\"suggested_fix\":\"Replace «Nel tornare a me e nel riposarvi sarete salvati» with «Nel tornare e nel riposarvi sarete salvati»; the source does not specify «a me».\",\"translation_quote\":\"Nel tornare a me e nel riposarvi sarete salvati\"},{\"location\":\"source.html, final paragraph (Salmi 16:8, 9)\",\"severity\":\"major\",\"source_quote\":\"my flesh also shall rest in hope\",\"suggested_fix\":\"Replace «anche la mia carne riposerà al sicuro» with «anche la mia carne riposerà nella speranza», preserving the source’s reference to hope.\",\"translation_quote\":\"anche la mia carne riposerà al sicuro\"}],\"passed\":false,\"score\":86}",
+    "content_bytes": 800,
+    "content_evidence_truncated": false,
+    "content_sha256": "e7075533f0bb643521516144b597127bb79255238becd335b8bb5f2a6813ed0c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 533,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4539,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4536,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5298
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

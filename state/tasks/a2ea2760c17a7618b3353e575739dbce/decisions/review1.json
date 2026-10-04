@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Article body, second paragraph",
+      "severity": "major",
+      "source_quote": "“I’ll try” ... “I will”",
+      "suggested_fix": "Replace “Nitafanya” with “Nitafanya” only for “I will,” and render “I’ll try” consistently as “Nitajaribu” throughout; specifically change the sentence about the first words from “Nitajaribu” only if needed, and retain the distinction between the two phrases.",
+      "translation_quote": "“Nitajaribu” ... “Nitafanya”"
+    },
+    {
+      "location": "Psalm quotations list, Psalm 17:5b",
+      "severity": "critical",
+      "source_quote": "I will be satisfied when I awake with Thy likeness. –Psalm 17:5b",
+      "suggested_fix": "Translate the quotation faithfully as printed and retain the reference as Zaburi 17:5b. Do not alter the reference to a different Psalm.",
+      "translation_quote": "Nitaridhika niamkapo nikiwa na mfano wako. –Zaburi 17:5b"
+    },
+    {
+      "location": "Article body, paragraph beginning “Mara nyingi hatuelewi”",
+      "severity": "major",
+      "source_quote": "Every day brings hundreds of small decisions.",
+      "suggested_fix": "Replace “mamia ya maamuzi madogo” with “mamia ya maamuzi madogo” only if retaining the source quantity; the current translation already conveys the source accurately.",
+      "translation_quote": "Kila siku huleta mamia ya maamuzi madogo."
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "i will",
+      "suggested_fix": "Use the title casing convention consistently if required: “Nitafanya.”",
+      "translation_quote": "Nitafanya"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

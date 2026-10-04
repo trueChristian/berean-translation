@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, third stanza",
+      "severity": "minor",
+      "source_quote": "To love, laugh with, and cherish,",
+      "suggested_fix": "Να αγαπώ, να γελώ μαζί του και να τον έχω πολύτιμο στην καρδιά μου,",
+      "translation_quote": "Να αγαπώ, να γελώ και να τον αγαπώ βαθιά,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

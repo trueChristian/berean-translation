@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, second paragraph\",\"severity\":\"major\",\"source_quote\":\"The church that initially frowned upon the proposition eventually accepted the idea and by the fourth century was fully acclimated and indoctrinated to the hybrid mixture of that which was Christian and pagan.\",\"suggested_fix\":\"Change the ending to: “Die kerk, wat aanvanklik die voorstel afgekeur het, het uiteindelik die idee aanvaar en was teen die vierde eeu ten volle aangepas by en geïndoktrineer in die bastervermenging van die Christelike en die heidense.”\",\"translation_quote\":\"Die kerk, wat aanvanklik die voorstel afgekeur het, het uiteindelik die idee aanvaar en was teen die vierde eeu ten volle aangepas by en ingelyf in die bastervermenging van die Christelike en die heidense.\"},{\"location\":\"HTML, first paragraph\",\"severity\":\"major\",\"source_quote\":\"no other advent could so astutely impact humanity.\",\"suggested_fix\":\"Replace “so ingrypend beïnvloed” with wording conveying the source’s sense of having an exceptionally perceptive or discerning impact, for example “die mensdom so treffend beïnvloed.”\",\"translation_quote\":\"geen ander koms kon die mensdom so ingrypend beïnvloed nie.\"},{\"location\":\"HTML, hymn under “…A Savior”\",\"severity\":\"major\",\"source_quote\":\"Whom angels greet with anthems sweet, / While shepherds watch are keeping?\",\"suggested_fix\":\"Translate the line as “Wie engele met lieflike lofliedere begroet, / terwyl herders wag hou?”\",\"translation_quote\":\"Wie deur engele met soet lof begroet word, / Terwyl herders wag hou?\"},{\"location\":\"HTML, hymn under “…A Sign”\",\"severity\":\"major\",\"source_quote\":\"Good Christians, fear, for sinners here / The silent Word is pleading.\",\"suggested_fix\":\"Correct the changed sense of “fear” (here, “vrees/be afraid”) and “pleading”; for example: “Goeie Christene, vrees, want hier pleit die stille Woord vir sondaars.”\",\"translation_quote\":\"Goeie Christene, vrees, want hier vir sondaars / Pleit die stille Woord.\"},{\"location\":\"HTML, paragraph beginning “The despised shepherds…”\",\"severity\":\"major\",\"source_quote\":\"The despised shepherds lived most of their lives outside of the Inn Crowd\",\"suggested_fix\":\"Replace “die grootste deel van hul lewe” with “die grootste deel van hul lewens” or “die grootste deel van hulle lewe.”\",\"translation_quote\":\"Die veragte herders het die grootste deel van hul lewe buite die Herbergskare deurgebring\"},{\"location\":\"HTML, hymn under “…A Song”\",\"severity\":\"major\",\"source_quote\":\"Come, peasant, king, to own him.\",\"suggested_fix\":\"Translate “peasant” as “boer/landbouer” or “gewone mens,” and retain the call for both peasant and king to acknowledge Him; for example: “Kom, boer en koning, erken Hom.”\",\"translation_quote\":\"Kom, boer en koning, erken Hom.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 2870,
+    "content_evidence_truncated": false,
+    "content_sha256": "9cb675397c54472764e78d4a13c8a12400b138511b2e304b99ad3b2e64355d7b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 681,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9603
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

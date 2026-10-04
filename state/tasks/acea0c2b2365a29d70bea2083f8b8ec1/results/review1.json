@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4454b4c6-ad32-417d-8b61-a020875b1f96",
+    "response_id": "chatcmpl-EV24vxeFm79sq18wRRwUPovrkzGB8",
+    "usage": {
+      "completion_tokens": 540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7716
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, абзац под заголовком «Теории заговора»",
+        "severity": "major",
+        "source_quote": "“Surely, the ideas that I am passing on are not a conspiracy theory!”",
+        "suggested_fix": "Заменить цитату на: «Неужели идеи, которые я передаю другим, и правда не являются теорией заговора!»",
+        "translation_quote": "«Неужели идеи, которые я передаю другим, — это теория заговора!»"
+      },
+      {
+        "location": "HTML, абзац под заголовком «Теории заговора»",
+        "severity": "major",
+        "source_quote": "“Usually, if there is a negative connotation surrounding something, then we tend to close ourselves to the possibility that we may be involved.”",
+        "suggested_fix": "Заменить соответствующую часть на: «Обычно, если что-то имеет негативный оттенок, мы склонны не допускать возможности, что сами можем быть к этому причастны»",
+        "translation_quote": "«Обычно, если что-то вызывает отрицательные ассоциации, мы склонны не допускать мысли, что сами можем быть к этому причастны»"
+      },
+      {
+        "location": "HTML, абзац о семейной родословной",
+        "severity": "major",
+        "source_quote": "“John S. and Maria (Horning) Kurtz were my great, great grandparents.”",
+        "suggested_fix": "Заменить на: «Джон С. и Мария (Хорнинг) Курц были моими прапрапрадедушкой и прапрапрабабушкой»",
+        "translation_quote": "«Джон С. и Мария (Хорнинг) Курц были моими прапрадедушкой и прапрабабушкой»"
+      },
+      {
+        "location": "HTML, заключительный абзац с цитатой Иакова 4:8",
+        "severity": "major",
+        "source_quote": "“Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.”",
+        "suggested_fix": "Исправить степень родства в цитате на «прапрапрадедушкой и прапрапрабабушкой». Других изменений в этом фрагменте не требуется.",
+        "translation_quote": "«Приблизьтесь к Богу, и приблизится к вам; очистите руки, грешники, исправьте сердца ваши, двоедушные — Иакова 4:8.»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

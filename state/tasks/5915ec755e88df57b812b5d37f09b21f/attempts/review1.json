@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza 8, first line\",\"severity\":\"minor\",\"source_quote\":\"Then, a rich voice spoke inside me,\",\"suggested_fix\":\"Toen sprak een krachtige stem in mij,\",\"translation_quote\":\"Toen sprak een rijke stem in mij,\"},{\"location\":\"HTML, stanza 11, first line\",\"severity\":\"minor\",\"source_quote\":\"So I fell at the feet of my Master\",\"suggested_fix\":\"Dus viel ik neer aan de voeten van mijn Meester\",\"translation_quote\":\"Dus viel ik neer aan de voeten van mijn Meester\"},{\"location\":\"HTML, stanza 16, first line\",\"severity\":\"major\",\"source_quote\":\"So now instead of praying\",\"suggested_fix\":\"Dus bid ik nu in plaats daarvan\",\"translation_quote\":\"Dus bid ik nu niet langer\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 719,
+    "content_evidence_truncated": false,
+    "content_sha256": "5ee22c7ebd98fbca35ada2de77c48e842d89bd28c58a2412b48debbadb90697d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3251,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3433
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Editor’s Note, paragraph",
+      "severity": "major",
+      "source_quote": "“passing out tracts”",
+      "suggested_fix": "Replace «رسالے» with «مذہبی پرچے» or «مذہبی پمفلٹ» so the sentence says they distributed tracts, not magazines.",
+      "translation_quote": "«سڑک پر گواہی دینے اور رسالے تقسیم کرنے کا اہتمام بھی کیا»"
+    },
+    {
+      "location": "Paragraph beginning “For nearly two decades…”",
+      "severity": "major",
+      "source_quote": "“starting Friday evening, going all day Saturday”",
+      "suggested_fix": "Replace «سارا ہفتہ یعنی ہفتہ کا دن» with «ہفتے کا پورا دن» (or another clear equivalent); the current wording can mean the whole week, not all day Saturday.",
+      "translation_quote": "«جمعہ کی شام شروع ہوتا، سارا ہفتہ یعنی ہفتہ کا دن جاری رہتا»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

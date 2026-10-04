@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 8930
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1123,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 757,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8789,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8786,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9912
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, Luke 2:8–14 quotation (appears again at Luke 2:14 near the end)",
+      "severity": "major",
+      "source_quote": "“Glory to God in the highest, and on earth peace, good will toward men”",
+      "suggested_fix": "In both occurrences, translate the printed phrase without changing its assertion, for example: “Kemuliaan bagi Allah di tempat yang mahatinggi, dan damai sejahtera di bumi, niat baik kepada manusia.”",
+      "translation_quote": "“Kemuliaan bagi Allah di tempat yang mahatinggi, dan damai sejahtera di bumi di antara manusia yang berkenan kepada-Nya”"
+    },
+    {
+      "location": "source.html, John 3:17 quotation",
+      "severity": "major",
+      "source_quote": "“For God sent not his Son into the world to condemn the world”",
+      "suggested_fix": "Change “bukan untuk menghakimi dunia” to “bukan untuk menghukum dunia” to preserve the source’s assertion about condemnation rather than judgment generally.",
+      "translation_quote": "“Sebab Allah mengutus Anak-Nya ke dalam dunia bukan untuk menghakimi dunia”"
+    },
+    {
+      "location": "source.html, Ezekiel 16:4 quotation",
+      "severity": "major",
+      "source_quote": "“neither wast thou washed in water to supple thee”",
+      "suggested_fix": "Replace “engkau tidak dibasuh dengan air supaya bersih” with “engkau tidak dibasuh dengan air untuk melembutkanmu” or another Indonesian rendering that preserves the source’s stated purpose of softening.",
+      "translation_quote": "“engkau tidak dibasuh dengan air supaya bersih”"
+    }
+  ],
   "id": "87e2bf9ea431a997ebb081d397664384",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ind",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

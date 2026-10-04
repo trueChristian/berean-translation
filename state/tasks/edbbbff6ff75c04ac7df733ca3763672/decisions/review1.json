@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “John S. and Maria”",
+      "severity": "major",
+      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+      "suggested_fix": "Ganti “kakek buyut saya” dengan “kakek-nenek canggah saya” agar hubungan generasi great-great-grandparents tetap tersampaikan.",
+      "translation_quote": "John S. dan Maria (Horning) Kurtz adalah kakek buyut saya."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

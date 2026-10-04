@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, “A Point of Interest” 두 번째 문단",
+      "severity": "major",
+      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+      "suggested_fix": "존 S.와 마리아(호닝) 커츠는 제 고조부모입니다.",
+      "translation_quote": "존 S.와 마리아(호닝) 커츠는 제 증조부모이자 고조부모입니다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

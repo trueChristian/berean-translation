@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Title and recurring phrase throughout the article, including the opening and closing quotations\",\"severity\":\"major\",\"source_quote\":\"“speaking the truth in love”\",\"suggested_fix\":\"Replace “die waarheid in liefde betrag” with “die waarheid in liefde spreek” wherever it translates “speaking the truth in love”; update the title to “DIE WAARHEID in liefde SPREEK” while preserving its capitalization style.\",\"translation_quote\":\"“die waarheid in liefde betrag”\"},{\"location\":\"Paragraph beginning “Let’s consider some examples in the Holy Bible”\",\"severity\":\"major\",\"source_quote\":\"“Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.”\",\"suggested_fix\":\"Do not supply an unstated object for “their.” Remove “ter wille van hulle geloof” and translate only the legible source meaning, preserving the abrupt transition into “Uiteindelik …”.\",\"translation_quote\":\"“Dink aan die dissipels: elkeen van hulle het ter wille van hulle geloof gely. Uiteindelik kon hulle nie anders as om te praat oor die dinge wat hulle gesien en gehoor het nie.”\"},{\"location\":\"Matthew 23:14–15 quotation\",\"severity\":\"major\",\"source_quote\":\"“therefore ye shall receive the greater damnation.”\",\"suggested_fix\":\"Translate “damnation” with an Afrikaans equivalent that retains the source’s force, such as “groter verdoemenis,” rather than the less specific “swaarder oordeel.”\",\"translation_quote\":\"“Daarom sal julle ’n swaarder oordeel ontvang.”\"},{\"location\":\"Section field\",\"severity\":\"minor\",\"source_quote\":\"“MUSINGS OF A MISSIONARY”\",\"suggested_fix\":\"Correct the mixed-case English fragment in the Afrikaans section label; use “DIE GEDAGTES VAN ’N SENDeling” only if preserving source-style capitalization, but spell the word fully in Afrikaans as “DIE GEDAGTES VAN ’N SENDELING.”\",\"translation_quote\":\"“DIE GEDAGTES VAN ’N SENDeling”\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 2049,
+    "content_evidence_truncated": false,
+    "content_sha256": "ffe5f54238f047f6ceb03f1f767b82452e9bc5c33935d4ee7c1b5ef5161b419d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 434,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8358,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8355,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9255
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

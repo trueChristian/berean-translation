@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, concluding quotation of Luke 21:25–36, verse 36",
+      "severity": "major",
+      "source_quote": "that ye may be accounted worthy to escape all these things that shall come to pass",
+      "suggested_fix": "Replace « afin que vous ayez la force d’échapper à toutes ces choses qui arriveront » with « afin que vous soyez jugés dignes d’échapper à toutes ces choses qui arriveront ».",
+      "translation_quote": "afin que vous ayez la force d’échapper à toutes ces choses qui arriveront"
+    },
+    {
+      "location": "Article, opening quotation of Luke 21:25–28 and concluding quotation of Luke 21:25–36, verse 26",
+      "severity": "major",
+      "source_quote": "Men’s hearts failing them for fear, and for looking after those things which are coming on the earth",
+      "suggested_fix": "In both quotations, replace « les hommes rendront l’âme de terreur et dans l’attente de ce qui surviendra sur la terre » with « les hommes seront saisis d’effroi à cause de l’attente des événements qui surviendront sur la terre ».",
+      "translation_quote": "les hommes rendront l’âme de terreur et dans l’attente de ce qui surviendra sur la terre"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

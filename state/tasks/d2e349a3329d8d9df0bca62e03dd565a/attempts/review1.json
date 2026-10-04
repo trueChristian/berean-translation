@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Quoted Scripture, paragraph beginning “Maana utakuja wakati…” (2 Timotheo 4:3)\",\"severity\":\"major\",\"source_quote\":\"“having itching ears”\",\"suggested_fix\":\"Replace “kwa kuwa wana masikio ya utafiti” with “kwa kuwa masikio yao yanahitaji kusikia yale wanayotaka” or another Kiswahili rendering that conveys craving to hear what pleases them.\",\"translation_quote\":\"“kwa kuwa wana masikio ya utafiti”\"},{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"“Those who know how to sacrifice being well liked, so they can be the light of the world.”\",\"suggested_fix\":\"Replace “Wale wanaojua kujitoa ili wapendwe” with “Wale wanaokubali kutopendwa ili waweze kuwa nuru ya ulimwengu.”\",\"translation_quote\":\"“Wale wanaojua kujitoa ili wapendwe, ili waweze kuwa nuru ya ulimwengu.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 876,
+    "content_evidence_truncated": false,
+    "content_sha256": "82eedb00479f97972e0540a694104359eaff3329709475566ffd35639c8aa14d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 650,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8416,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8413,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9306
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

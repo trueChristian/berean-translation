@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "正文第9段",
+      "severity": "major",
+      "source_quote": "He even preached on city streets to those who never went to church.",
+      "suggested_fix": "将“他甚至在城市街头向从不上教会的人讲道。”改为“他甚至在城市街头向从不去教堂的人讲道。”",
+      "translation_quote": "他甚至在城市街头向从不上教会的人讲道。"
+    },
+    {
+      "location": "正文第15段",
+      "severity": "major",
+      "source_quote": "One thing that seemed to make him restless in spirit was to observe a situation where there was lack of leadership, for want of a man to stand in the gap.",
+      "suggested_fix": "将“只因没有人挺身而出填补缺口”改为“因为缺少一位挺身而出填补缺口的人”，以保留原文所说的缺乏领袖、无人承担这一原因。",
+      "translation_quote": "有一件事似乎会使他心里不安，那就是看到某种处境缺少领导，只因没有人挺身而出填补缺口。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

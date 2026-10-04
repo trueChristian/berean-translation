@@ -2,7 +2,6 @@
   "article_id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 2171
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 551,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 460,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1826,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1823,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2377
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "भजन, पद 4 की दूसरी पंक्ति",
+      "severity": "major",
+      "source_quote": "The saints on every hand are shouting victory,",
+      "suggested_fix": "चारों ओर संत विजय का जयघोष कर रहे हैं,",
+      "translation_quote": "चारों ओर संत जयजयकार कर रहे हैं,"
+    }
+  ],
   "id": "4ff4e7c785b9f3eab20d1ad8b446e223",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "hin",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e8139132954a2d589ac261ee553e1eb298a05c70fafb75f048efe3667285f4b7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
   "translation_model_actual": "gpt-6-luna"

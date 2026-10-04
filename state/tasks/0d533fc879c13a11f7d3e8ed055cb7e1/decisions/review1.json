@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Making a Decision — paragraph beginning “If you are caring for the elderly”",
+      "severity": "major",
+      "source_quote": "If you are caring for the elderly and have not had a COVID infection, I would also think strongly about getting vaccinated.",
+      "suggested_fix": "Ändra ”skulle jag också starkt överväga att vaccinera mig” till ”skulle jag också starkt överväga att du vaccinerar dig” för att bevara att rådet gäller läsaren.",
+      "translation_quote": "Om du tar hand om äldre och inte har haft en covidinfektion skulle jag också starkt överväga att vaccinera mig."
+    },
+    {
+      "location": "Making a Decision — paragraph beginning “The biggest reason to get a COVID vaccine”",
+      "severity": "major",
+      "source_quote": "Getting one of these vaccines certainly would help to avoid those disease-induced problems along with the possibility that COVID could also cause some heart damage.",
+      "suggested_fix": "Skriv exempelvis: ”Att ta ett av dessa vacciner skulle helt klart hjälpa till att undvika dessa sjukdomsrelaterade problem och möjligen även viss hjärtskada som covid kan orsaka.”",
+      "translation_quote": "Att ta ett av dessa vacciner skulle helt klart hjälpa till att undvika dessa sjukdomsrelaterade problem, liksom möjligheten att covid också kan orsaka viss hjärtskada."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

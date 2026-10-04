@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"major\",\"source_quote\":\"Paul urgently and passionately declared the whole counsel of God\",\"suggested_fix\":\"Replace «خدا کی پوری مرضی» with «خدا کا پورا مشورہ» (or another standard Urdu rendering of “the whole counsel of God”), preserving the distinction between God’s counsel and God’s will.\",\"translation_quote\":\"پولس نے خدا کی پوری مرضی فوری طور پر اور جوش سے بیان کی\"},{\"location\":\"Paragraph 5\",\"severity\":\"major\",\"source_quote\":\"This passionate preaching stirs the conscience and convicts the heart.\",\"suggested_fix\":\"Replace «دل کو قائل کرتی ہے» with wording that conveys conviction, such as «دل کو گناہ کا احساس دلاتی ہے»; the source says it convicts the heart, not merely persuades it.\",\"translation_quote\":\"یہ پُرجوش منادی ضمیر کو بیدار کرتی اور دل کو قائل کرتی ہے۔\"},{\"location\":\"Paragraph 11\",\"severity\":\"major\",\"source_quote\":\"Conviction never lacks emotion.\",\"suggested_fix\":\"Replace «قائل ہونے میں» with a phrase conveying conviction, such as «گناہ کا احساس دلانے میں» or «دلی ملامت میں», so the sentence concerns conviction rather than persuasion.\",\"translation_quote\":\"قائل ہونے میں کبھی جذبات کی کمی نہیں ہوتی۔\"},{\"location\":\"Paragraph 10\",\"severity\":\"major\",\"source_quote\":\"and report that God is in you of a truth\",\"suggested_fix\":\"Change «واقعی خدا تمہارے درمیان ہے» to wording meaning «واقعی خدا تم میں ہے», preserving the source’s “in you” rather than “among you.”\",\"translation_quote\":\"اور اقرار کرے گا کہ واقعی خدا تمہارے درمیان ہے\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1870,
+    "content_evidence_truncated": false,
+    "content_sha256": "9eec8d1c8993dcc70a5035aaaa4b4b33ac3763390a6b5cdc1ac85ee25cb755fb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1129,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4780,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4777,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5909
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

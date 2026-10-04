@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Μήπως έχουμε κάποιο πρόβλημα;»",
+      "severity": "major",
+      "source_quote": "Could it be that we cannot obey both commands—”Rebuke” and “Speak in love”? Obviously not.",
+      "suggested_fix": "Αντικαταστήστε το «Προφανώς και μπορούμε.» με «Προφανώς και όχι.» ώστε να διατηρηθεί η άρνηση του πρωτοτύπου.",
+      "translation_quote": "Μήπως δεν μπορούμε να υπακούσουμε και στις δύο εντολές—«Έλεγχε» και «Να μιλάς με αγάπη»; Προφανώς και μπορούμε."
+    },
+    {
+      "location": "Παράγραφος που αρχίζει «Πιστεύω ότι το να μιλάει κανείς…»",
+      "severity": "minor",
+      "source_quote": "when we do not have love in our hearts for our brethren, we disqualify ourselves from speaking the truth to them.",
+      "suggested_fix": "Αλλάξτε το «αποκλείουμε τον εαυτό μας από το να τους πει την αλήθεια» σε «αποκλείουμε τον εαυτό μας από το να τους πούμε την αλήθεια».",
+      "translation_quote": "όταν δεν έχουμε αγάπη στην καρδιά μας για τους αδελφούς μας, αποκλείουμε τον εαυτό μας από το να τους πει την αλήθεια."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

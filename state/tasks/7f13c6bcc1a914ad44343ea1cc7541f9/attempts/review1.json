@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, section introduction, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"See the editorial under the section “continued changes” for further details.\",\"suggested_fix\":\"Replace «lederartikkelen under seksjonen «fortsatte endringer»» with «lederen under seksjonen «fortsatte endringer»» to render “the editorial” more naturally in Norwegian.\",\"translation_quote\":\"Se lederartikkelen under seksjonen «fortsatte endringer» for flere detaljer.\"},{\"location\":\"HTML, “Andre vaksiner,” paragraph 1\",\"severity\":\"major\",\"source_quote\":\"to trigger the immune response. create immunity.\",\"suggested_fix\":\"Replace «for å utløse immunresponsen. Skape immunitet.» with «for å utløse immunresponsen og skape immunitet.»\",\"translation_quote\":\"for å utløse immunresponsen. Skape immunitet.\"},{\"location\":\"HTML, “Andre spørsmål,” paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"(21 gauge or smaller)\",\"suggested_fix\":\"Translate the needle-size unit rather than retaining the English gauge term; for example, «(21 gauge eller mindre)» may be retained with a brief Norwegian clarification such as «(21 gauge eller mindre, altså en svært tynn nål)».\",\"translation_quote\":\"(21 gauge eller mindre)\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 1277,
+    "content_evidence_truncated": false,
+    "content_sha256": "985afaa80134e29771b654a6510522483e579c94f441e381e79e3d4f48ce1324",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 298,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8635,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8632,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8933
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

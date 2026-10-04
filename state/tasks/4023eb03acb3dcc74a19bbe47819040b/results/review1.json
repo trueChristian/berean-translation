@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a39d2c60-cfbd-4dc8-9f13-0e0e0dc6935f",
+    "response_id": "chatcmpl-EV25H0c39QjdmXl0ddWwJ1unDXqNS",
+    "usage": {
+      "completion_tokens": 547,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 343,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6309,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6306,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6856
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz über Maria",
+        "severity": "major",
+        "source_quote": "However, her being a part of God’s plan for the salvation of the world hung on that choice.",
+        "suggested_fix": "Doch von dieser Entscheidung hing es ab, ob sie Teil von Gottes Plan zur Rettung der Welt sein würde.",
+        "translation_quote": "Doch davon, dass sie Teil von Gottes Plan zur Rettung der Welt wurde, hing diese Entscheidung ab."
+      },
+      {
+        "location": "Absatz beginnend „Gute Absichten und Veränderung“",
+        "severity": "minor",
+        "source_quote": "Good intentions and change are often only separated by lack of faith and motivation.",
+        "suggested_fix": "Gute Absichten und Veränderung sind oft nur durch einen Mangel an Glauben und Motivation voneinander getrennt.",
+        "translation_quote": "Gute Absichten und Veränderung trennt oft nur ein Mangel an Glauben und Motivation."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

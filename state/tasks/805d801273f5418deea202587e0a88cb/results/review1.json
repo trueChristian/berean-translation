@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5e0a234b-3df4-4d2d-8444-51eded6f6c3d",
+    "response_id": "chatcmpl-EV29Cu6254j819wOh1cSgQmmBeanS",
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4486,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4483,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5226
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, final paragraph, quotation of Mazmur 16:8–9",
+        "severity": "major",
+        "source_quote": "“my heart is glad, and my glory rejoiceth”",
+        "suggested_fix": "Dalam kutipan itu, ganti “hatiku bersukacita, dan jiwaku bersorak-sorai” dengan “hatiku bersukacita, dan kemuliaanku bersorak-sorai” agar sesuai dengan makna teks sumber yang tercetak.",
+        "translation_quote": "“hatiku bersukacita, dan jiwaku bersorak-sorai”"
+      },
+      {
+        "location": "Article, heading “Roh yang Remuk,” kutipan Yesaya 57:15",
+        "severity": "major",
+        "source_quote": "“to revive the spirit of the humble”",
+        "suggested_fix": "Ganti “semangat orang-orang yang rendah hati” dengan “roh orang-orang yang rendah hati” agar istilah kunci dalam kutipan tetap sesuai dengan teks sumber.",
+        "translation_quote": "“untuk menghidupkan kembali semangat orang-orang yang rendah hati”"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

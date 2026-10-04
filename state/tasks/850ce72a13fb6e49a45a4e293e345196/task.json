@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 4760
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 716,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4511,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4508,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5227
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Current preaching styles…”",
+      "severity": "minor",
+      "source_quote": "“to convince, to convict, and to pierce the darkness of today.”",
+      "suggested_fix": "Replace «vekke skyldfølelse» with «overbevise» or «føre til overbevisning», so the phrase conveys spiritual conviction rather than specifically making someone feel guilty.",
+      "translation_quote": "«for å overbevise, vekke skyldfølelse og trenge gjennom vår tids mørke»"
+    },
+    {
+      "location": "Paragraph beginning “The secret closet of the preacher…”",
+      "severity": "minor",
+      "source_quote": "“the roots of his own flesh”",
+      "suggested_fix": "Use «røttene til sin egen kjødelige natur» for a clearer Norwegian rendering of the theological sense of “flesh.”",
+      "translation_quote": "«røttene til hans eget kjøtt»"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:11+00:00",
   "id": "850ce72a13fb6e49a45a4e293e345196",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nob",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"

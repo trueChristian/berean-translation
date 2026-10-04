@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 10654
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 663,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 486,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10481,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10478,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11144
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Second hymn, third line",
+      "severity": "major",
+      "source_quote": "Good Christians, fear, for sinners here",
+      "suggested_fix": "Καλοί χριστιανοί, φοβηθείτε, γιατί εδώ για τους αμαρτωλούς",
+      "translation_quote": "Καλοί χριστιανοί, μη φοβάστε, γιατί για τους αμαρτωλούς εδώ"
+    },
+    {
+      "location": "Paragraph quoting Ezekiel 16:4",
+      "severity": "major",
+      "source_quote": "neither wast thou washed in water to supple thee",
+      "suggested_fix": "ούτε πλύθηκες με νερό για να μαλακώσεις",
+      "translation_quote": "ούτε πλύθηκες με νερό για να καθαριστείς"
+    }
+  ],
   "id": "330cd03047c048c456dd49e15e431c06",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ell",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

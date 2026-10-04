@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "66cb1a53-e648-43ca-80e9-b889919ad1de",
+    "response_id": "chatcmpl-EV24kDVt2VbHj7IOt9tj7tLpNLbLr",
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 475,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4552,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4549,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5248
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, final paragraph before the figure (Psalm 16:8–9)",
+        "severity": "major",
+        "source_quote": "my flesh also shall rest in hope",
+        "suggested_fix": "Replace the corresponding Swahili clause with “mwili wangu nao utastarehe katika tumaini” (or an idiomatic equivalent that preserves both resting and hope).",
+        "translation_quote": "tena mwili wangu utakaa salama"
+      },
+      {
+        "location": "source.html, image alt text",
+        "severity": "minor",
+        "source_quote": "Mountains reflected in a calm lake beneath a purple sky",
+        "suggested_fix": "Change “Milima ikijitokeza kwenye maji tulivu ya ziwa chini ya anga la zambarau” to “Milima ikionekana kama taswira kwenye maji tulivu ya ziwa chini ya anga la zambarau.”",
+        "translation_quote": "Milima ikijitokeza kwenye maji tulivu ya ziwa chini ya anga la zambarau"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

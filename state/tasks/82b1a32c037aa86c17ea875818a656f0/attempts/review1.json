@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, paragraph beginning “There seems to be a mainstream, fear-based narrative…”\",\"severity\":\"major\",\"source_quote\":\"“Then the accepted narrative censors the experts and the science that doesn’t support the mainstream narrative.”\",\"suggested_fix\":\"Replace «Deretter sensurerer den etablerte fortellingen ekspertene og vitenskapen som ikke støtter den.» with «Deretter sensurerer den etablerte fortellingen ekspertene og vitenskapen som ikke støtter den etablerte fortellingen.»\",\"translation_quote\":\"«Deretter sensurerer den etablerte fortellingen ekspertene og vitenskapen som ikke støtter den.»\"},{\"location\":\"source.html, paragraph beginning “On the opposite side (alternative medicine)…”\",\"severity\":\"major\",\"source_quote\":\"“Some claims and allegations, when personally followed up on by church brothers, it was discovered that the purported ‘facts’ were inaccurate or untrue”\",\"suggested_fix\":\"Replace «Noen påstander og beskyldninger viste seg, da kirkebrødre selv fulgte dem opp, å bygge på unøyaktige eller uriktige «fakta».» with «Da kirkebrødre selv undersøkte noen av påstandene og beskyldningene, oppdaget de at de angivelige «faktaene» var unøyaktige eller usanne.»\",\"translation_quote\":\"«Noen påstander og beskyldninger viste seg, da kirkebrødre selv fulgte dem opp, å bygge på unøyaktige eller uriktige «fakta».»\"},{\"location\":\"source.html, paragraph beginning “The Mark of the Beast”\",\"severity\":\"major\",\"source_quote\":\"“This topic is a combination of my previous points.”\",\"suggested_fix\":\"Replace «Dette temaet knytter sammen de foregående punktene mine.» with «Dette temaet er en kombinasjon av de foregående punktene mine.»\",\"translation_quote\":\"«Dette temaet knytter sammen de foregående punktene mine.»\"},{\"location\":\"source.html, final paragraph, verse 36\",\"severity\":\"major\",\"source_quote\":\"“that ye may be accounted worthy to escape all these things that shall come to pass”\",\"suggested_fix\":\"Replace «så dere kan få kraft til å komme dere gjennom alt dette som skal skje» with «så dere kan bli regnet verdige til å slippe unna alt dette som skal skje».\",\"translation_quote\":\"«så dere kan få kraft til å komme dere gjennom alt dette som skal skje»\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2332,
+    "content_evidence_truncated": false,
+    "content_sha256": "6fae18862d948b0671a05eb1a16472b9b5746d58099696797a33e2f61313114c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7139,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7136,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7679
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

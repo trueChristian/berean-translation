@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraf tentang pelayanan kepada kelompok Anabaptis",
+      "severity": "major",
+      "source_quote": "His specific concern was regarding those who had backslidden or strayed from the way of Truth.",
+      "suggested_fix": "Ganti kalimat terkait menjadi: \"Perhatiannya secara khusus tertuju kepada mereka yang telah mundur dari iman atau menyimpang dari jalan Kebenaran.\"",
+      "translation_quote": "Perhatiannya secara khusus tertuju kepada mereka yang telah murtad atau menyimpang dari jalan Kebenaran."
+    },
+    {
+      "location": "source.html, paragraf tentang karunia berkhotbah",
+      "severity": "minor",
+      "source_quote": "helping them to be established in the faith.",
+      "suggested_fix": "Agar lebih jelas menyatakan bahwa orang-orang percaya itu diteguhkan, ubah menjadi: \"membantu orang-orang percaya itu agar diteguhkan dalam iman.\"",
+      "translation_quote": "membantu mereka diteguhkan dalam iman."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

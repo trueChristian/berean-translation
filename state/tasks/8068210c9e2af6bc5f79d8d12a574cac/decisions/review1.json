@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, first stanza, fourth line",
+      "severity": "major",
+      "source_quote": "He broadened his shoulders, hid every tear.",
+      "suggested_fix": "Заменить на: «Он расправил плечи, скрывая каждую слезу.»",
+      "translation_quote": "Он расправил плечи и слёз не жалел."
+    },
+    {
+      "location": "source.html, first stanza, sixth line",
+      "severity": "major",
+      "source_quote": "He boldly proclaimed his own sovereignty.",
+      "suggested_fix": "Заменить на: «Он смело провозгласил собственную власть над собой.»",
+      "translation_quote": "Он смело провозгласил себя властелином сердец."
+    },
+    {
+      "location": "source.html, final stanza, last line",
+      "severity": "major",
+      "source_quote": "Death swallowed its victim—his soul eternally lost.",
+      "suggested_fix": "Заменить на: «Смерть поглотила свою жертву — его душа навеки потеряна.»",
+      "translation_quote": "Смерть поглотила свою жертву — душа её навеки погибла."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

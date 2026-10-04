@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «Η βασίλισσα Εσθήρ…»\",\"severity\":\"minor\",\"source_quote\":\"Her heart quavered.\",\"suggested_fix\":\"Change «Η καρδιά της τρέμανε» to «Η καρδιά της έτρεμε».\",\"translation_quote\":\"Η καρδιά της τρέμανε.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 342,
+    "content_evidence_truncated": false,
+    "content_sha256": "bd08ba4c66dc57ef47247425080432a6647f70001155dab94d79ecbb761c9738",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 671,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 568,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7504,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7501,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8175
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

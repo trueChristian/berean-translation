@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Hoe we met elkaar praten”",
+      "severity": "major",
+      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
+      "suggested_fix": "Wijzig dit naar: “Maar als we bereid zijn de waarheid te spreken, ook als dat betekent dat iemand ontevreden over ons zal zijn, zijn we dan niet zelf schuldig?” De huidige vertaling keert de expliciete dubbele ontkenning in de brontekst om.",
+      "translation_quote": "Maar als we niet bereid zijn de waarheid te spreken wanneer dat betekent dat iemand ontevreden over ons zal zijn, zijn we dan niet zelf schuldig?"
+    },
+    {
+      "location": "Section metadata",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Gebruik dezelfde hoofdletterstijl als de bron: “OVERPEINZINGEN VAN EEN ZENDELING”.",
+      "translation_quote": "OVERPEINZINGEN VAN EEN zendeling"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

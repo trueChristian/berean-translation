@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, mRNA vaccine explanation and antibody-testing paragraph\",\"severity\":\"major\",\"source_quote\":\"“the spike protein on the COVID virus”; “an antibody to the spike protein”\",\"suggested_fix\":\"Replace “aarproteïen” in both places with “spykproteïen” (or another standard Afrikaans equivalent for “spike protein”).\",\"translation_quote\":\"“die aarproteïen op die COVID-virus”; “’n teenliggaam teen die aarproteïen”\"},{\"location\":\"Article body, “Almal anders” paragraph\",\"severity\":\"major\",\"source_quote\":\"“I would certainly lean towards getting the vaccine.”; “I would lean towards getting one of the vaccines.”\",\"suggested_fix\":\"Replace “die entstof aan te beveel” and “een van die entstowwe aan te beveel” with wording that preserves the author's more qualified stance, such as “geneig wees om die entstof te kry” and “geneig wees om een van die entstowwe te kry.”\",\"translation_quote\":\"“sou ek beslis geneig wees om die entstof aan te beveel”; “sou ek geneig wees om een van die entstowwe aan te beveel”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1135,
+    "content_evidence_truncated": false,
+    "content_sha256": "1a4fc065604fa57c612c3e8b346d0ee3854194164663cd8a2259702e51ff4e60",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 872,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 585,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9019,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9016,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9891
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

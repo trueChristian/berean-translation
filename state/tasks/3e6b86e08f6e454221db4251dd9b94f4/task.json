@@ -2,7 +2,6 @@
   "article_id": "3a3501f6-fc1b-4e76-919f-9d00a44c6698",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 2092
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 513,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 418,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1796,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1793,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2309
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Ritornello, first line",
+      "severity": "minor",
+      "source_quote": "O Lord, you know I have no friend like you,",
+      "suggested_fix": "O Signore, tu sai che non ho un amico come te,",
+      "translation_quote": "O Signore, tu sai che non ho amico come te,"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:10+00:00",
   "id": "3e6b86e08f6e454221db4251dd9b94f4",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ita",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e8139132954a2d589ac261ee553e1eb298a05c70fafb75f048efe3667285f4b7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b88a00383c84e3581ceeca37fab1e793711249b0260ade572310ab8e9b766e79",
   "translation_model_actual": "gpt-6-luna"

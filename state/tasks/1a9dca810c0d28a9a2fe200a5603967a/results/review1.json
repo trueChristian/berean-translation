@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0468692d-6e13-4340-a735-3801900bd153",
+    "response_id": "chatcmpl-EV23rB2DOzw4asydzuXgPCBJff4zg",
+    "usage": {
+      "completion_tokens": 888,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 562,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4506,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5397
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Абзац с цитатой из 2 Тимофею 2:4",
+        "severity": "major",
+        "source_quote": "“...that he may please him who hath chosen him to be a soldier”",
+        "suggested_fix": "Заменить окончание цитаты на: «чтобы угодить тому, кто избрал его быть воином — 2 Тимофею 2:4.»",
+        "translation_quote": "«чтобы угодить военачальнику — 2 Тимофею 2:4.»"
+      },
+      {
+        "location": "Абзац с цитатой из 2 Тимофею 4:2",
+        "severity": "major",
+        "source_quote": "“...with all longsuffering and doctrine”",
+        "suggested_fix": "Заменить «и назиданием» на «и учением», сохранив остальную цитату без изменений.",
+        "translation_quote": "«со всяким долготерпением и назиданием»"
+      },
+      {
+        "location": "Абзац о монотонной проповеди",
+        "severity": "minor",
+        "source_quote": "“It entrenches complacent legalism into the core of the heart of man.”",
+        "suggested_fix": "Исправить согласование: «Это укореняет самодовольное законничество в самой глубине человеческого сердца.»",
+        "translation_quote": "«Это укореняет самодовольный законничество в самой глубине человеческого сердца.»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

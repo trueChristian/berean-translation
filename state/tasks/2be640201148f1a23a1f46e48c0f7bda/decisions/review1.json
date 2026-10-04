@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Other Vaccines paragraph 1",
+      "severity": "major",
+      "source_quote": "“...to trigger the immune response. create immunity.”",
+      "suggested_fix": "Replace only the sentence-ending phrase with a fluent Hebrew equivalent of “to trigger the immune response and create immunity,” for example: “כדי לעורר תגובה חיסונית וליצור חסינות.”",
+      "translation_quote": "“...כדי לעורר תגובה חיסונית. ליצור חסינות.”"
+    },
+    {
+      "location": "HTML, Other Questions paragraph 2",
+      "severity": "minor",
+      "source_quote": "“(the microchips that are normally used in pets are roughly the size of a kernel of rice).”",
+      "suggested_fix": "Translate the parenthetical as part of the Hebrew sentence, e.g. “(השבבים שמשתמשים בהם בדרך כלל בחיות מחמד הם בערך בגודל של גרגר אורז).” The translated wording is already present; remove the comma before the parenthesis to reflect the source punctuation more clearly.",
+      "translation_quote": "“...מזו שמומלצת, (השבבים שמשתמשים בהם בדרך כלל בחיות מחמד הם בערך בגודל של גרגר אורז).”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

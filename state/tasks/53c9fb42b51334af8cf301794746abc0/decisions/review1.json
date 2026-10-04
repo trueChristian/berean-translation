@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “If preachers, sermon after sermon…”",
+      "severity": "major",
+      "source_quote": "It entrenches complacent legalism into the core of the heart of man.",
+      "suggested_fix": "Replace “Hukita uhalali wa kisheria uliotulia ndani kabisa ya moyo wa mwanadamu.” with “Hukita uhalali wa kisheria” with a Kiswahili expression meaning complacent legalism—for example, “Hukita ndani kabisa ya moyo wa mwanadamu ushikiliaji wa sheria usiojali.”",
+      "translation_quote": "Hukita uhalali wa kisheria uliotulia ndani kabisa ya moyo wa mwanadamu."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

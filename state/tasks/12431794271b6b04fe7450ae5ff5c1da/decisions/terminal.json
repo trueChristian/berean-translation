@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, poem stanza 2, first line",
+      "severity": "minor",
+      "source_quote": "“No one can know my anguish inside!”",
+      "suggested_fix": "‘Niemand kan weten hoeveel innerlijke kwelling ik voel!’",
+      "translation_quote": "‘Niemand kan weten welke angst ik vanbinnen voel!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

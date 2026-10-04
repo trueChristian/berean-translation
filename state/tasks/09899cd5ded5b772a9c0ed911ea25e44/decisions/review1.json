@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph under “عدم القناعة” (quotation citing 1 Timothy 6:8)",
+      "severity": "major",
+      "source_quote": "And having food and raiment let us be therewith content –1 Timothy 6:8.",
+      "suggested_fix": "Replace the quoted Arabic text with: «وإذ لنا قوت وكسوة، فلنكتفِ بهما»; retain the existing reference «–تيموثاوس الأولى 6:8».",
+      "translation_quote": "وأما التقوى مع القناعة فهي تجارة عظيمة. لأننا لم ندخل العالم بشيء، وواضح أننا لا نقدر أن نخرج منه بشيء. فإن كان لنا قوت وكسوة فلنكتفِ بهما –تيموثاوس الأولى 6:8."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

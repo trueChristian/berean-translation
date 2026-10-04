@@ -2,7 +2,6 @@
   "article_id": "39530116-8c39-4abd-beb6-89f05771a4f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,59 @@
         },
         "total_tokens": 7316
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 540,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7139,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7136,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7679
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “There seems to be a mainstream, fear-based narrative…”",
+      "severity": "major",
+      "source_quote": "“Then the accepted narrative censors the experts and the science that doesn’t support the mainstream narrative.”",
+      "suggested_fix": "Replace «Deretter sensurerer den etablerte fortellingen ekspertene og vitenskapen som ikke støtter den.» with «Deretter sensurerer den etablerte fortellingen ekspertene og vitenskapen som ikke støtter den etablerte fortellingen.»",
+      "translation_quote": "«Deretter sensurerer den etablerte fortellingen ekspertene og vitenskapen som ikke støtter den.»"
+    },
+    {
+      "location": "source.html, paragraph beginning “On the opposite side (alternative medicine)…”",
+      "severity": "major",
+      "source_quote": "“Some claims and allegations, when personally followed up on by church brothers, it was discovered that the purported ‘facts’ were inaccurate or untrue”",
+      "suggested_fix": "Replace «Noen påstander og beskyldninger viste seg, da kirkebrødre selv fulgte dem opp, å bygge på unøyaktige eller uriktige «fakta».» with «Da kirkebrødre selv undersøkte noen av påstandene og beskyldningene, oppdaget de at de angivelige «faktaene» var unøyaktige eller usanne.»",
+      "translation_quote": "«Noen påstander og beskyldninger viste seg, da kirkebrødre selv fulgte dem opp, å bygge på unøyaktige eller uriktige «fakta».»"
+    },
+    {
+      "location": "source.html, paragraph beginning “The Mark of the Beast”",
+      "severity": "major",
+      "source_quote": "“This topic is a combination of my previous points.”",
+      "suggested_fix": "Replace «Dette temaet knytter sammen de foregående punktene mine.» with «Dette temaet er en kombinasjon av de foregående punktene mine.»",
+      "translation_quote": "«Dette temaet knytter sammen de foregående punktene mine.»"
+    },
+    {
+      "location": "source.html, final paragraph, verse 36",
+      "severity": "major",
+      "source_quote": "“that ye may be accounted worthy to escape all these things that shall come to pass”",
+      "suggested_fix": "Replace «så dere kan få kraft til å komme dere gjennom alt dette som skal skje» with «så dere kan bli regnet verdige til å slippe unna alt dette som skal skje».",
+      "translation_quote": "«så dere kan få kraft til å komme dere gjennom alt dette som skal skje»"
+    }
+  ],
   "id": "82b1a32c037aa86c17ea875818a656f0",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "nob",
@@ -116,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5711dbbc388f0ac6446891cf92db6beb061e753a286cd63ac62fe35114fea684.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c7425675b0884240983d8d4f36cc9eaf5860a12e57f59db43d0dacdcaebe92cb",
   "translation_model_actual": "gpt-6-luna"

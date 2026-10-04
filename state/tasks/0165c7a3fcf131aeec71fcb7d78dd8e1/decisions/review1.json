@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “I used to pray that always”",
+      "severity": "major",
+      "source_quote": "That no unwanted circumstance / Would make existence drear.",
+      "suggested_fix": "کوئی ناپسندیدہ صورتِ حال / زندگی کو اداس نہ کر دے۔",
+      "translation_quote": "کوئی ناپسندیدہ حالات / زندگی کو اداس نہ کر دے۔"
+    },
+    {
+      "location": "source.html, paragraph beginning “I found also, I no longer walked alone”",
+      "severity": "major",
+      "source_quote": "The Good Shepherd was there by my side!",
+      "suggested_fix": "وہ اچھا چرواہا میرے پہلو میں موجود تھا!",
+      "translation_quote": "نیک چرواہا میرے پہلو میں موجود تھا!"
+    },
+    {
+      "location": "source.html, final stanza",
+      "severity": "major",
+      "source_quote": "And the real source of True Life superb.",
+      "suggested_fix": "اور حقیقی زندگی کا شاندار سرچشمہ ہے۔",
+      "translation_quote": "اور حقیقی زندگی کا شاندار سرچشمہ ہے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

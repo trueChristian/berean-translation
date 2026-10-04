@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3409f64c-e307-40e5-97be-d6304cb1f09e",
+    "response_id": "chatcmpl-EV23xliD9mSplYGoqpqkn1zjRYFDJ",
+    "usage": {
+      "completion_tokens": 691,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1678,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1675,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2369
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, first stanza",
+        "severity": "minor",
+        "source_quote": "He broadened his shoulders, hid every tear.",
+        "suggested_fix": "Replace «Inarcò le spalle» with «Allargò le spalle» to retain the image of broadening his shoulders.",
+        "translation_quote": "Inarcò le spalle, nascose ogni lacrima."
+      },
+      {
+        "location": "source.html, third stanza",
+        "severity": "minor",
+        "source_quote": "Hardening his heart and blocking God’s voice.",
+        "suggested_fix": "Replace «ignorando la voce di Dio» with «ostacolando la voce di Dio» to retain the source’s image of blocking God’s voice.",
+        "translation_quote": "indurendo il cuore e ignorando la voce di Dio."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

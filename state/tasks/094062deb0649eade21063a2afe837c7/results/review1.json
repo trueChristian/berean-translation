@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0f9f40c7-2440-428a-b10d-c9c7a9fa7106",
+    "response_id": "chatcmpl-EV24CSyHQQrBHiNXYeUl24v2zww9J",
+    "usage": {
+      "completion_tokens": 981,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 870,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7017,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7014,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7998
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Like I said before”",
+        "severity": "minor",
+        "source_quote": "our God is sovereignly in control.",
+        "suggested_fix": "Vervang ‘onze God heeft soevereine controle’ door ‘onze God regeert soeverein’ voor natuurlijker Nederlands met behoud van de betekenis.",
+        "translation_quote": "onze God heeft soevereine controle"
+      }
+    ],
+    "passed": true,
+    "score": 99
+  }
+}

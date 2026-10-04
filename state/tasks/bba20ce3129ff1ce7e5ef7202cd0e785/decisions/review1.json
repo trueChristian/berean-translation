@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “जॉन एस. और मारिया…”",
+      "severity": "major",
+      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+      "suggested_fix": "इसे “जॉन एस. और मारिया (हॉर्निंग) कुर्ट्ज़ मेरे परदादा-परदादी थे।” करें; अनुवाद में जोड़े गए “के माता-पिता” को हटाएँ।",
+      "translation_quote": "जॉन एस. और मारिया (हॉर्निंग) कुर्ट्ज़ मेरे परदादा-परदादी के माता-पिता थे।"
+    },
+    {
+      "location": "HTML, paragraph beginning “जॉन एस. और मारिया…”",
+      "severity": "major",
+      "source_quote": "through that of the only surviving child out of a family of 12.",
+      "suggested_fix": "इसे इस अर्थ में बदलें कि वंशावली 12 बच्चों वाले परिवार के अकेले जीवित बचे बच्चे से होकर जाती है; उदाहरणार्थ, “12 बच्चों वाले परिवार के अकेले जीवित बचे बच्चे के माध्यम से।”",
+      "translation_quote": "12 सदस्यों वाले परिवार के अकेले जीवित बचे बच्चे तक पहुँचती है।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

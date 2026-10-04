@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Title and recurring phrase throughout the article, including the opening and closing quotations",
+      "severity": "major",
+      "source_quote": "“speaking the truth in love”",
+      "suggested_fix": "Replace “die waarheid in liefde betrag” with “die waarheid in liefde spreek” wherever it translates “speaking the truth in love”; update the title to “DIE WAARHEID in liefde SPREEK” while preserving its capitalization style.",
+      "translation_quote": "“die waarheid in liefde betrag”"
+    },
+    {
+      "location": "Paragraph beginning “Let’s consider some examples in the Holy Bible”",
+      "severity": "major",
+      "source_quote": "“Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.”",
+      "suggested_fix": "Do not supply an unstated object for “their.” Remove “ter wille van hulle geloof” and translate only the legible source meaning, preserving the abrupt transition into “Uiteindelik …”.",
+      "translation_quote": "“Dink aan die dissipels: elkeen van hulle het ter wille van hulle geloof gely. Uiteindelik kon hulle nie anders as om te praat oor die dinge wat hulle gesien en gehoor het nie.”"
+    },
+    {
+      "location": "Matthew 23:14–15 quotation",
+      "severity": "major",
+      "source_quote": "“therefore ye shall receive the greater damnation.”",
+      "suggested_fix": "Translate “damnation” with an Afrikaans equivalent that retains the source’s force, such as “groter verdoemenis,” rather than the less specific “swaarder oordeel.”",
+      "translation_quote": "“Daarom sal julle ’n swaarder oordeel ontvang.”"
+    },
+    {
+      "location": "Section field",
+      "severity": "minor",
+      "source_quote": "“MUSINGS OF A MISSIONARY”",
+      "suggested_fix": "Correct the mixed-case English fragment in the Afrikaans section label; use “DIE GEDAGTES VAN ’N SENDeling” only if preserving source-style capitalization, but spell the word fully in Afrikaans as “DIE GEDAGTES VAN ’N SENDELING.”",
+      "translation_quote": "“DIE GEDAGTES VAN ’N SENDeling”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

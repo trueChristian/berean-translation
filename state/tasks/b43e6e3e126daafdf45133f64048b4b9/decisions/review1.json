@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Absatz über die Reisen nach Kanada, Satz 2",
+      "severity": "major",
+      "source_quote": "Between 2010 and 2015, he took a small choir with him on several trips to Canada, singing and preaching as they visited various churches.",
+      "suggested_fix": "Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit. Bei ihren Besuchen in verschiedenen Gemeinden sang der Chor, und Mose predigte.",
+      "translation_quote": "Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit, der bei Besuchen in verschiedenen Gemeinden sang und predigte."
+    },
+    {
+      "location": "Absatz über die Gabe des Predigens, Satz 1",
+      "severity": "minor",
+      "source_quote": "One of the prominent gifts the Lord gave to Brother Mose was the gift of preaching.",
+      "suggested_fix": "Eine der herausragenden Gaben, die der Herr Bruder Mose schenkte, war die Gabe des Predigens.",
+      "translation_quote": "Eines der herausragenden Gaben, die der Herr Bruder Mose schenkte, war die Gabe des Predigens."
+    },
+    {
+      "location": "Absatz über Mose als Wächter, letzter Satz",
+      "severity": "minor",
+      "source_quote": "In the face of these dangers to the church, he gave much attention to teaching sound doctrine.",
+      "suggested_fix": "Angesichts dieser Gefahren für die Gemeinde widmete er der Vermittlung gesunder Lehre viel Aufmerksamkeit.",
+      "translation_quote": "Angesichts dieser Gefahren für die Gemeinde widmete er der Lehre gesunder Lehre viel Aufmerksamkeit."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

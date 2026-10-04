@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 9, quotation of Revelation 3:16",
+      "severity": "major",
+      "source_quote": "So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth –Revelation 3:16.",
+      "suggested_fix": "Translate the quoted sentence as « Ainsi, parce que tu es tiède, et que tu n’es ni froid ni chaud, je te vomirai de ma bouche –Apocalypse 3:16. »",
+      "translation_quote": "Ainsi, parce que tu es tiède, et que tu n’es ni froid ni bouillant, je te vomirai de ma bouche –Apocalypse 3:16."
+    },
+    {
+      "location": "HTML, paragraph 11, quotation of Matthew 5:13–14",
+      "severity": "major",
+      "source_quote": "…Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men.",
+      "suggested_fix": "Replace « avec quoi la lui rendra-t-on ? » with « avec quoi sera-t-il salé ? », preserving the rest of the translated quotation and its reference.",
+      "translation_quote": "Vous êtes le sel de la terre. Mais si le sel perd sa saveur, avec quoi la lui rendra-t-on ? Il ne sert plus à rien qu’à être jeté dehors et foulé aux pieds par les hommes."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

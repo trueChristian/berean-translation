@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf yang dimulai “Cara kita berbicara satu sama lain”\",\"severity\":\"major\",\"source_quote\":\"But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?\",\"suggested_fix\":\"Pertahankan negasi seperti tercetak dalam sumber: “Tetapi jika kita tidak enggan mengatakan kebenaran, sekalipun itu berarti seseorang akan tidak senang kepada kita, bukankah kita bersalah?”\",\"translation_quote\":\"Tetapi jika kita tidak bersedia mengatakan kebenaran karena takut seseorang akan tidak senang kepada kita, bukankah kita bersalah?\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 641,
+    "content_evidence_truncated": false,
+    "content_sha256": "f2f13fa370eeacbfa3c76340246c1b0b8404bcd5928d26105a4c5894203829f7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1009,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 841,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8314,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9326
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

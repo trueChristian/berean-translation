@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Verse 3, second line",
+      "severity": "major",
+      "source_quote": "I don’t expect to stop until I with Him stand,",
+      "suggested_fix": "Ek verwag nie om op te hou reis voordat ek saam met Hom staan nie,",
+      "translation_quote": "Ek verwag nie om stil te staan totdat ek by Hom is nie,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

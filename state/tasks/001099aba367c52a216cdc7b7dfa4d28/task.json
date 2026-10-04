@@ -2,7 +2,6 @@
   "article_id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 4743
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 519,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 323,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4475,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4472,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4994
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “But first, we must learn…”; quoted Scripture, 2 Corinthians 10:5",
+      "severity": "major",
+      "source_quote": "“bringing into captivity every thought to the obedience of Christ”",
+      "suggested_fix": "Ubah bagian kutipan menjadi: <em>menaklukkan segala siasat dan setiap keangkuhan yang meninggikan diri melawan pengenalan akan Allah, serta menawan setiap pikiran untuk taat kepada Kristus; –2 Korintus 10:5.</em>",
+      "translation_quote": "“menaklukkan segala siasat dan setiap keangkuhan yang meninggikan diri melawan pengenalan akan Allah, serta menawan setiap pikiran untuk menaatinya Kristus; –2 Korintus 10:5.”"
+    }
+  ],
   "id": "001099aba367c52a216cdc7b7dfa4d28",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ind",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/69f858811196da658de21ba4ed172ec8e605eb1fce976ee6b5c4c768c55e7389.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
   "translation_model_actual": "gpt-6-luna"

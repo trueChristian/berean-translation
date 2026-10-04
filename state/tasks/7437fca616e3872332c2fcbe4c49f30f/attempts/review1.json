@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo sugli esempi biblici, riferimento al libro dei martiri\",\"severity\":\"minor\",\"source_quote\":\"If you read through the martyr’s mirror\",\"suggested_fix\":\"Sostituire «il Martirologio dei martiri» con «lo Specchio dei martiri», mantenendo il titolo dell’opera citata.\",\"translation_quote\":\"Se leggete il Martirologio dei martiri\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 394,
+    "content_evidence_truncated": false,
+    "content_sha256": "eaecc6e637de2d5d42551f250600b16c2049a39af913da29c4bff65f939fead5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 686,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9127
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

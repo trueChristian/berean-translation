@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poema, estrofe 6, segunda linha",
+      "severity": "minor",
+      "source_quote": "The wind did cut and slash.",
+      "suggested_fix": "O vento cortava e fustigava.",
+      "translation_quote": "O vento cortava e açoitada."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

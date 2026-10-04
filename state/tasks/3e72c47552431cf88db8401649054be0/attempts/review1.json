@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML: first paragraph (Luke 21:25-28) and concluding paragraph, verses 25-26\",\"severity\":\"minor\",\"source_quote\":\"distress of nations, with perplexity\",\"suggested_fix\":\"In both occurrences, replace “angoscia delle nazioni, confuse” with “angoscia fra le nazioni e perplessità” to retain the source’s distinction between distress and perplexity and avoid making “confuse” modify the nations.\",\"translation_quote\":\"angoscia delle nazioni, confuse\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 513,
+    "content_evidence_truncated": false,
+    "content_sha256": "3f0237eef21866be7c05d66e96c41b5621ec4b78c47f92ff88b3a523f47634c9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7300,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8055
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

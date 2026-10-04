@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fa5a2390-8101-47f5-8c8b-7c1f2af64e07",
+    "response_id": "chatcmpl-EV24gqv74DXABC7yjHInMvh1dV5MT",
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7300,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8055
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML: first paragraph (Luke 21:25-28) and concluding paragraph, verses 25-26",
+        "severity": "minor",
+        "source_quote": "distress of nations, with perplexity",
+        "suggested_fix": "In both occurrences, replace “angoscia delle nazioni, confuse” with “angoscia fra le nazioni e perplessità” to retain the source’s distinction between distress and perplexity and avoid making “confuse” modify the nations.",
+        "translation_quote": "angoscia delle nazioni, confuse"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

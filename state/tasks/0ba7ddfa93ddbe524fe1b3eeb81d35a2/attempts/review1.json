@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Discontentment, Philippians 4:11 quotation\",\"severity\":\"major\",\"source_quote\":\"for I have learned, in whatsoever state I am, therewith to be content\",\"suggested_fix\":\"Replace “porque já aprendi a contentar-me com o que tenho” with wording that preserves being content in any circumstance, such as “porque aprendi a estar contente em qualquer situação em que me encontre”.\" ,\"translation_quote\":\"porque já aprendi a contentar-me com o que tenho\"},{\"location\":\"Esther paragraph\",\"severity\":\"minor\",\"source_quote\":\"Esther, the queen\",\"suggested_fix\":\"Use the conventional Portuguese form “Ester, a rainha” in this paragraph.\",\"translation_quote\":\"Esther, a rainha\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 732,
+    "content_evidence_truncated": false,
+    "content_sha256": "8b6fc9777316a9a37bbf949557ccde41b8f8fedb05915ec9c74dd8a52f0c9263",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 480,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6820
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

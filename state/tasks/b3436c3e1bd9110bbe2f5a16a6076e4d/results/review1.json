@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a3c9542f-4d37-4795-8e71-996a0de158fe",
+    "response_id": "chatcmpl-EV253ak3HjCOJKZcM3Un1fxAbQeh0",
+    "usage": {
+      "completion_tokens": 346,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4428,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4425,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4774
+    }
+  },
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 3",
+        "severity": "major",
+        "source_quote": "Upon the choices of mankind hinge the earthly spread of either the kingdom of darkness or the Kingdom of Light.",
+        "suggested_fix": "Vervang de zin door: “De aardse verbreiding van het koninkrijk der duisternis of het Koninkrijk van het Licht hangt af van de keuzes van de mensheid.”",
+        "translation_quote": "De keuzes van de mensheid bepalen of het koninkrijk der duisternis of het Koninkrijk van het Licht zich op aarde verbreidt."
+      },
+      {
+        "location": "Article, paragraph 6",
+        "severity": "major",
+        "source_quote": "Without revoke and aside from choice, upon the conscience of the hearer is laid either damnation or assurance.",
+        "suggested_fix": "Vertaal “Without revoke” met behoud van de bedoelde onherroepelijkheid; bijvoorbeeld: “Onherroepelijk, en ongeacht de keuze, wordt op het geweten van de hoorder óf verdoemenis óf zekerheid gelegd.”",
+        "translation_quote": "Onherroepelijk en ongeacht de keuze wordt op het geweten van de hoorder óf verdoemenis óf zekerheid gelegd."
+      },
+      {
+        "location": "Article, paragraph 11",
+        "severity": "major",
+        "source_quote": "…he will worship God, and report that God is in you of a truth",
+        "suggested_fix": "Vertaal de slotwoorden als “en verkondigen dat God werkelijk in u is”; behoud de bronzin die tot de aangesprokene spreekt.",
+        "translation_quote": "…God aanbidden en verkondigen dat God werkelijk in uw midden is"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

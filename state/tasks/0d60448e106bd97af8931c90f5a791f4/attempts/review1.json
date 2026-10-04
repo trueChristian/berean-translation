@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning „Ich selbst war durch das Virus so krank …“\",\"severity\":\"major\",\"source_quote\":\"The only thing that kept me out of the hospital was a daily intake of one restricted drug and double the recommended dose of steroids through nebulizer treatments.\",\"suggested_fix\":\"Ersetze „Nur die tägliche Einnahme eines verschreibungspflichtigen Medikaments und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlung bewahrten mich vor einem Krankenhausaufenthalt.“ durch „Nur die tägliche Einnahme eines Medikaments mit eingeschränkter Verwendung und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlungen bewahrten mich vor einem Krankenhausaufenthalt.“\",\"translation_quote\":\"Nur die tägliche Einnahme eines verschreibungspflichtigen Medikaments und die doppelte empfohlene Dosis Steroide mittels Verneblerbehandlung bewahrten mich vor einem Krankenhausaufenthalt.\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 975,
+    "content_evidence_truncated": false,
+    "content_sha256": "f204544ccb9143affd04c4279bb5910f496ce43f76f75454cae23374d07a5869",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7058,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7055,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7959
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

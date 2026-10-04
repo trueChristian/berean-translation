@@ -2,7 +2,6 @@
   "article_id": "ca0e4a35-e9f8-4f72-83f0-7273d84f6d36",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,52 @@
         },
         "total_tokens": 5467
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 977,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 629,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5326,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5323,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6303
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Absatz über die Reisen nach Kanada, Satz 2",
+      "severity": "major",
+      "source_quote": "Between 2010 and 2015, he took a small choir with him on several trips to Canada, singing and preaching as they visited various churches.",
+      "suggested_fix": "Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit. Bei ihren Besuchen in verschiedenen Gemeinden sang der Chor, und Mose predigte.",
+      "translation_quote": "Zwischen 2010 und 2015 nahm er auf mehreren Reisen nach Kanada einen kleinen Chor mit, der bei Besuchen in verschiedenen Gemeinden sang und predigte."
+    },
+    {
+      "location": "Absatz über die Gabe des Predigens, Satz 1",
+      "severity": "minor",
+      "source_quote": "One of the prominent gifts the Lord gave to Brother Mose was the gift of preaching.",
+      "suggested_fix": "Eine der herausragenden Gaben, die der Herr Bruder Mose schenkte, war die Gabe des Predigens.",
+      "translation_quote": "Eines der herausragenden Gaben, die der Herr Bruder Mose schenkte, war die Gabe des Predigens."
+    },
+    {
+      "location": "Absatz über Mose als Wächter, letzter Satz",
+      "severity": "minor",
+      "source_quote": "In the face of these dangers to the church, he gave much attention to teaching sound doctrine.",
+      "suggested_fix": "Angesichts dieser Gefahren für die Gemeinde widmete er der Vermittlung gesunder Lehre viel Aufmerksamkeit.",
+      "translation_quote": "Angesichts dieser Gefahren für die Gemeinde widmete er der Lehre gesunder Lehre viel Aufmerksamkeit."
+    }
+  ],
   "id": "b43e6e3e126daafdf45133f64048b4b9",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "deu",
@@ -116,11 +158,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e34365fc03f81dd4f99d2a7df4c603fd7dcd44a093e3ea600f8b4a8e6bb5a213.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "da7d9248c2024e151f9ed71f50454f1621a1204bf57e82a53d8932899997f795",
   "translation_model_actual": "gpt-6-luna"

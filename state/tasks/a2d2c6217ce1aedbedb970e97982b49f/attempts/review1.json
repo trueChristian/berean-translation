@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML heading <h2>Discontentment</h2>\",\"severity\":\"major\",\"source_quote\":\"Discontentment\",\"suggested_fix\":\"Replace only the heading text with \\\"عدمِ قناعت\\\" (or another standard Urdu equivalent meaning discontentment).\",\"translation_quote\":\"ناشکری\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 317,
+    "content_evidence_truncated": false,
+    "content_sha256": "bc6489950b92a33755fc98713fd8e5306dc1f8ebb4109f0db8ea30859dbfaa75",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 476,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6939,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7508
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

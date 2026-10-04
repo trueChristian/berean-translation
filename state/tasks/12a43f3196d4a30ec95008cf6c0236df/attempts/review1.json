@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, párrafo sobre tecnología de ARNm\",\"severity\":\"major\",\"source_quote\":\"The new mRNA technology has not been used before in vaccines.\",\"suggested_fix\":\"Cambiar «no se había usado antes» por «no se había usado antes en vacunas» no sería suficiente; conservar la afirmación original traduciendo: «La nueva tecnología de ARNm no se había usado antes en vacunas».\",\"translation_quote\":\"La nueva tecnología de ARNm no se había usado antes en vacunas.\"},{\"location\":\"HTML, párrafo sobre la marca de la bestia\",\"severity\":\"major\",\"source_quote\":\"I don’t see it as the fulfillment of the mark of the beast.\",\"suggested_fix\":\"Cambiar «no considero que sean el cumplimiento» por «no considero que sea el cumplimiento», para que el pronombre se refiera a la vacuna, como en el original.\",\"translation_quote\":\"no considero que sean el cumplimiento de la profecía sobre la marca de la bestia\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 961,
+    "content_evidence_truncated": false,
+    "content_sha256": "c63fab43112b92535e89982d08e9a8863fbcc0dfc5a0cc515fee48e0f6aff2e7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 220,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6938,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6935,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7158
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

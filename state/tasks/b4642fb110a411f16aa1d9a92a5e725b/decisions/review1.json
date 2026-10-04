@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "शीर्षक",
+      "severity": "minor",
+      "source_quote": "SPEAKING THE TRUTH in love",
+      "suggested_fix": "शीर्षक को मूल के बलाघात के अनुरूप करें, जैसे: “सत्य बोलना प्रेम में”।",
+      "translation_quote": "प्रेम में सत्य बोलना"
+    },
+    {
+      "location": "पहला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine",
+      "suggested_fix": "अर्थ को स्पष्ट करते हुए अनुवाद करें: “ताकि हम आगे से बच्चे न रहें, जो हर प्रकार की शिक्षा की हवा से इधर-उधर उछाले और बहाए जाते हैं” के बजाय “ताकि हम आगे से बच्चे न रहें, जो शिक्षा की हर हवा से इधर-उधर उछाले और बहाए जाते हैं”।",
+      "translation_quote": "जो हर प्रकार की शिक्षा की हवा से इधर-उधर उछाले और बहाए जाते हैं"
+    },
+    {
+      "location": "मत्ती 23:14–15 का उद्धरण",
+      "severity": "major",
+      "source_quote": "when he is made, ye make him twofold more the child of hell than yourselves",
+      "suggested_fix": "“और जब वह तुम्हारा मत मान लेता है, तो उसे अपने से दुगुना नरक का भागी बना देते हो” को इस अर्थ में सुधारें कि उसे अपने से दुगुना “नरक का पुत्र” बनाया जाता है।",
+      "translation_quote": "और जब वह तुम्हारा मत मान लेता है, तो उसे अपने से दुगुना नरक का भागी बना देते हो"
+    },
+    {
+      "location": "पतरस के वृत्तांत वाला अनुच्छेद",
+      "severity": "critical",
+      "source_quote": "Matthew 16:23, Mark 8:33, and Luke 4:8",
+      "suggested_fix": "तीसरे संदर्भ को “लूका 4:8” से बदलकर स्रोत के अनुसार “लूका 4:8” ही रखें? स्रोत का संदर्भ स्वयं असंगत है; अनुवाद में इसे यथावत रखना चाहिए था। कोई सुधार न करें।",
+      "translation_quote": "मत्ती 16:23, मरकुस 8:33, और लूका 4:8"
+    },
+    {
+      "location": "शिष्यों और शहीदों के उदाहरण वाला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "Consider the disciples, each one of them suffered for their Ultimately, they couldn’t but speak of the things they had seen and heard.",
+      "suggested_fix": "अपूर्ण अंग्रेज़ी स्रोत में “suffered for their” के बाद छूटा हुआ पाठ अनुमान से न जोड़ें; अनुवाद को स्रोत में موجود अर्थ तक सीमित करें और “अंततः, वे देखी और सुनी हुई बातों के बारे में बोले बिना रह ही नहीं सके” को उसी वाक्य-खंड के बाद रखें।",
+      "translation_quote": "शिष्यों के बारे में सोचिए; उनमें से हर एक ने अपने लिए दुख उठाया। अंततः, वे देखी और सुनी हुई बातों के बारे में बोले बिना रह ही नहीं सके।"
+    },
+    {
+      "location": "शहीदों का उल्लेख",
+      "severity": "major",
+      "source_quote": "martyr’s mirror",
+      "suggested_fix": "स्थापित पुस्तक-शीर्षक का हिंदी रूप दें, उदाहरणार्थ “शहीदों का दर्पण” के बजाय “शहीदों का दर्पण” ही रखें; अनुवाद पहले से उपयुक्त है।",
+      "translation_quote": "शहीदों का दर्पण"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

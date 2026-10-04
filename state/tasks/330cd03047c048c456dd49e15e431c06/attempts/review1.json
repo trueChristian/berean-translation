@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Second hymn, third line\",\"severity\":\"major\",\"source_quote\":\"Good Christians, fear, for sinners here\",\"suggested_fix\":\"Καλοί χριστιανοί, φοβηθείτε, γιατί εδώ για τους αμαρτωλούς\",\"translation_quote\":\"Καλοί χριστιανοί, μη φοβάστε, γιατί για τους αμαρτωλούς εδώ\"},{\"location\":\"Paragraph quoting Ezekiel 16:4\",\"severity\":\"major\",\"source_quote\":\"neither wast thou washed in water to supple thee\",\"suggested_fix\":\"ούτε πλύθηκες με νερό για να μαλακώσεις\",\"translation_quote\":\"ούτε πλύθηκες με νερό για να καθαριστείς\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 731,
+    "content_evidence_truncated": false,
+    "content_sha256": "053cab843364f4c9faf6ae1bcf19a965f54229547200d5c0592e524553bce2c6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10481,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10478,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11144
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Urgency of “Anointed” Preaching",
+      "suggested_fix": "Urgensi Khotbah yang “Diurapi”",
+      "translation_quote": "Pentingnya Khotbah yang “Diurapi”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

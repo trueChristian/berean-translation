@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dabe1f27-5858-4147-b484-131156261306",
+    "response_id": "chatcmpl-EV24NYOcoAqDHbxQBZanw0VYydSev",
+    "usage": {
+      "completion_tokens": 374,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4569,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4566,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4943
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, eerste paragraaf",
+        "severity": "minor",
+        "source_quote": "It seems as soon as one situation resolves; another one pops up.",
+        "suggested_fix": "Vervang “Dit lyk asof daar, sodra een situasie opgelos is, ’n ander een opduik” met “Dit lyk asof ’n ander situasie opduik sodra een opgelos is.”",
+        "translation_quote": "Dit lyk asof daar, sodra een situasie opgelos is, ’n ander een opduik."
+      },
+      {
+        "location": "HTML, paragraaf onder “’n Nugtere gees”",
+        "severity": "major",
+        "source_quote": "to be calm and collected in spirit; to be temperate, dispassionate.",
+        "suggested_fix": "Vertaal “dispassionate” met ’n betekenis soos “sonder sterk emosionele reaksie” eerder as “onbevooroordeeld”; byvoorbeeld: “om kalm en bedaard van gees te wees; om gematig en nie deur emosies oorheers te word nie.”",
+        "translation_quote": "om kalm en bedaard van gees te wees; om gematig en onbevooroordeeld te wees."
+      },
+      {
+        "location": "HTML, laaste aangehaalde Skrifgedeelte",
+        "severity": "major",
+        "source_quote": "my flesh also shall rest in hope –Psalms 16:8, 9.",
+        "suggested_fix": "Vervang “ook sal my vlees in veiligheid woon” met “ook sal my liggaam in hoop rus”, en behou die verwysing as “–Psalm 16:8, 9.”",
+        "translation_quote": "ook sal my vlees in veiligheid woon –Psalms 16:8, 9."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

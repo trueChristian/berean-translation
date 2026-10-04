@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza 3, second line\",\"severity\":\"major\",\"source_quote\":\"I don’t expect to stop until I with Him stand,\",\"suggested_fix\":\"Jeg regner ikke med å stanse før jeg står sammen med ham,\",\"translation_quote\":\"Jeg venter ikke med å stanse før jeg står sammen med ham,\"},{\"location\":\"HTML, stanza 4, third line\",\"severity\":\"minor\",\"source_quote\":\"Their songs of sweetest praise drift back from heaven’s shore,\",\"suggested_fix\":\"Deres skjønneste lovsanger driver hit fra himmelens strand,\",\"translation_quote\":\"Deres sanger med den søteste lovprisning driver hit fra himmelens strand,\"}],\"passed\":false,\"score\":90}",
+    "content_bytes": 649,
+    "content_evidence_truncated": false,
+    "content_sha256": "97d96f66ef887b7856bfd2b94e1789019bcd93e770532da12996a5ce369149cd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 673,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 501,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1801,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2477
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

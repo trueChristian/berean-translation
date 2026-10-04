@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, refrain répété aux strophes 1 à 4",
+      "severity": "major",
+      "source_quote": "“And I can’t feel at home in this world anymore.”",
+      "suggested_fix": "Dans les quatre occurrences, traduire la fin par « Et je ne me sens plus chez moi dans ce monde désormais. »",
+      "translation_quote": "“Et je ne me sens plus chez moi dans ce monde.”"
+    },
+    {
+      "location": "HTML, strophe 4, deuxième vers",
+      "severity": "minor",
+      "source_quote": "“The saints on every hand are shouting victory,”",
+      "suggested_fix": "Remplacer par « Les saints de tous côtés crient victoire, » pour conserver l’image du chant et le verbe « shouting ».",
+      "translation_quote": "“Les saints de tous côtés acclament la victoire,”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

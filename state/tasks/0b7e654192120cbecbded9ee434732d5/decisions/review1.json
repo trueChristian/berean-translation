@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "副歌，第1行",
+      "severity": "major",
+      "source_quote": "O Lord, you know I have no friend like you,",
+      "suggested_fix": "哦，主啊，你知道我没有像你这样的朋友，",
+      "translation_quote": "哦，主啊，你知道没有人像你这样与我亲近，"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

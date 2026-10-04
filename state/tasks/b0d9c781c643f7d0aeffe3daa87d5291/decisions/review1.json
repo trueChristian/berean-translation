@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, heading “Angst,” quotation of Psalm 56:3",
+      "severity": "major",
+      "source_quote": "“What time I am afraid, I will trust in thee”",
+      "suggested_fix": "Vertaal de bewuste keuze in de bron expliciet: “Wanneer ik bevreesd ben, zal ik op U vertrouwen.”",
+      "translation_quote": "“Wanneer ik bevreesd ben, vertrouw ik op U”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

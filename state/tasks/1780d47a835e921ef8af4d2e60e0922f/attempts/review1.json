@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Editor’s Note, paragraph\",\"severity\":\"major\",\"source_quote\":\"“passing out tracts”\",\"suggested_fix\":\"Replace «رسالے» with «مذہبی پرچے» or «مذہبی پمفلٹ» so the sentence says they distributed tracts, not magazines.\",\"translation_quote\":\"«سڑک پر گواہی دینے اور رسالے تقسیم کرنے کا اہتمام بھی کیا»\"},{\"location\":\"Paragraph beginning “For nearly two decades…”\",\"severity\":\"major\",\"source_quote\":\"“starting Friday evening, going all day Saturday”\",\"suggested_fix\":\"Replace «سارا ہفتہ یعنی ہفتہ کا دن» with «ہفتے کا پورا دن» (or another clear equivalent); the current wording can mean the whole week, not all day Saturday.\",\"translation_quote\":\"«جمعہ کی شام شروع ہوتا، سارا ہفتہ یعنی ہفتہ کا دن جاری رہتا»\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 930,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d818c747ae45d2aaac6825a196206c70bf926406735f38e8f1807856b19cd8f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5888,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6100
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Несомненно одно»",
+      "severity": "minor",
+      "source_quote": "“gossiping, making, and believing a lie, and bearing false witness”",
+      "suggested_fix": "Replace «сплетен, распространения и веры во ложь, а также лжесвидетельства» with «сплетен, выдумывания и веры во ложь, а также лжесвидетельства» to preserve the distinction between making up a lie and spreading or believing one. Correct «во ложь» to «в ложь».",
+      "translation_quote": "«в том, что касается сплетен, распространения и веры во ложь, а также лжесвидетельства»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Editor’s Note, first paragraph",
+      "severity": "major",
+      "source_quote": "Normally, we haven’t used our magazine to bring focus to any specific individual.",
+      "suggested_fix": "Replace «Κανονικά, δεν χρησιμοποιούμε το περιοδικό μας» with «Κανονικά, δεν έχουμε χρησιμοποιήσει το περιοδικό μας» to preserve the source’s past-tense statement.",
+      "translation_quote": "Κανονικά, δεν χρησιμοποιούμε το περιοδικό μας για να στρέψουμε την προσοχή σε κάποιο συγκεκριμένο πρόσωπο."
+    },
+    {
+      "location": "Editor’s Note, first paragraph",
+      "severity": "major",
+      "source_quote": "They continued this for a number of years until it eventually went out of print temporarily due to their editors moving out of the area.",
+      "suggested_fix": "Replace «επειδή οι εκδότες τους μετακόμισαν από την περιοχή» with «επειδή οι συντάκτες τους έφυγαν από την περιοχή»; this refers to the editors leaving the area, not necessarily relocating.",
+      "translation_quote": "Συνέχισαν για αρκετά χρόνια, μέχρι που τελικά η έκδοσή του διακόπηκε προσωρινά, επειδή οι εκδότες τους μετακόμισαν από την περιοχή."
+    },
+    {
+      "location": "Paragraph beginning “Brother Mose was often the watchman on the wall”",
+      "severity": "major",
+      "source_quote": "he gave much attention to teaching sound doctrine.",
+      "suggested_fix": "Replace «έδινε μεγάλη προσοχή στη διδασκαλία της υγιούς διδασκαλίας» with «έδινε μεγάλη έμφαση στη διδασκαλία της ορθής διδαχής» to convey the source without the contradictory/repetitive wording.",
+      "translation_quote": "έδινε μεγάλη προσοχή στη διδασκαλία της υγιούς διδασκαλίας."
+    },
+    {
+      "location": "Paragraph beginning “Brother Mose was a true leader”",
+      "severity": "major",
+      "source_quote": "He would express, sometimes with tears, his rejoicing in the fellowship and council of his brethren",
+      "suggested_fix": "Replace «τη συμβουλή των αδελφών του» with «το συμβούλιο των αδελφών του» so that «council» is rendered as the brethren’s council, not their advice.",
+      "translation_quote": "εξέφραζε τη χαρά του για την κοινωνία και τη συμβουλή των αδελφών του"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

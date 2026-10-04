@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Gossip section, definition of “gossip”\",\"severity\":\"minor\",\"source_quote\":\"“casual or unconstrained conversation or reports about other people”\",\"suggested_fix\":\"Change “gesellige of ongebonde gesprekke” to “alledaagse of ongebonde gesprekke” to convey “casual” without suggesting conviviality.\",\"translation_quote\":\"“gesellige of ongebonde gesprekke of berigte oor ander mense”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 457,
+    "content_evidence_truncated": false,
+    "content_sha256": "3be29d03c57d1ac09884c18b6aaaf373f420f1896b1dc2daef97e252853de957",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 510,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6601,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6598,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7230
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

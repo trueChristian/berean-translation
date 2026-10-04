@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza 3, second line",
+      "severity": "major",
+      "source_quote": "I don’t expect to stop until I with Him stand,",
+      "suggested_fix": "Jeg regner ikke med å stanse før jeg står sammen med ham,",
+      "translation_quote": "Jeg venter ikke med å stanse før jeg står sammen med ham,"
+    },
+    {
+      "location": "HTML, stanza 4, third line",
+      "severity": "minor",
+      "source_quote": "Their songs of sweetest praise drift back from heaven’s shore,",
+      "suggested_fix": "Deres skjønneste lovsanger driver hit fra himmelens strand,",
+      "translation_quote": "Deres sanger med den søteste lovprisning driver hit fra himmelens strand,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

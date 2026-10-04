@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"অনুচ্ছেদ ৯\",\"severity\":\"minor\",\"source_quote\":\"It kills vision and burden.\",\"suggested_fix\":\"“এটি দর্শন ও আধ্যাত্মিক ভারবোধকে হত্যা করে।”\",\"translation_quote\":\"এটি দর্শন ও দায়বোধকে হত্যা করে।\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 395,
+    "content_evidence_truncated": false,
+    "content_sha256": "f63c37a09e80b1a7e93caff58666a6c3f1f1a6c7632de3b916cb5282cd7703a8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 823,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 728,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5745
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

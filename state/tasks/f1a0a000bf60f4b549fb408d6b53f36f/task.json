@@ -2,7 +2,6 @@
   "article_id": "cee69319-ee10-424f-bdb3-b1fed948eee6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 9375
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 819,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 712,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9203,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9200,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10022
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Editor’s Note, paragraph 3",
+      "severity": "minor",
+      "source_quote": "Larry Zook’s article (Admonition for Uncertain Times)",
+      "suggested_fix": "लैरी ज़ूक के लेख (अनिश्चित समय के लिए उपदेश)",
+      "translation_quote": "लैरी ज़ूक के लेख (अनिश्चित समय के लिए चेतावनी)"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:12+00:00",
   "id": "f1a0a000bf60f4b549fb408d6b53f36f",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "hin",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/702d4021b12e5a0d79f71b05d6aa7f9ff72c7c54ea85ac392be77c3161eda24f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
   "translation_model_actual": "gpt-6-luna"

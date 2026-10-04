@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5\",\"severity\":\"major\",\"source_quote\":\"He has a zeal for God and a burden for the lost that is refreshing and inspiring….\",\"suggested_fix\":\"Hy het ’n ywer vir God en ’n diepe besorgdheid oor die verlorenes wat verkwikkend en inspirerend is….\",\"translation_quote\":\"Hy het ’n ywer vir God en ’n hartseer oor die verlorenes wat verkwikkend en inspirerend is….\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 435,
+    "content_evidence_truncated": false,
+    "content_sha256": "3467346c7a0b6f642988e94b0442fea6597aa738f33a9e6df7df11b0278b1998",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 501,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4533,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5162
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

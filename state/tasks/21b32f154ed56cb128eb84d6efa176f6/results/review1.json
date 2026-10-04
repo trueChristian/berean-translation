@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "61a77797-8470-44fa-b288-cedfe36ac6b1",
+    "response_id": "chatcmpl-EV24rGlIdKPV6vFcXfK6R6glIPziJ",
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 689,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7894,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7891,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8952
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening Scripture quotation (Ephesians 4:14–15)",
+        "severity": "major",
+        "source_quote": "But speaking the truth in love",
+        "suggested_fix": "Replace “sino que, siguiendo la verdad en amor” with “sino que, diciendo la verdad en amor” to retain the source’s meaning of speaking the truth.",
+        "translation_quote": "sino que, siguiendo la verdad en amor"
+      },
+      {
+        "location": "HTML, paragraph beginning “La manera en que nos hablamos…”",
+        "severity": "major",
+        "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
+        "suggested_fix": "Correct the negation to match the printed source, for example: “Pero si estamos dispuestos a decir la verdad, aunque eso signifique que alguien se disguste con nosotros, ¿no somos entonces culpables?”",
+        "translation_quote": "Pero si no estamos dispuestos a decir la verdad cuando eso significa que alguien se disgustará con nosotros, ¿no somos entonces culpables?"
+      },
+      {
+        "location": "HTML, final paragraph, quoted Ephesians 4:15",
+        "severity": "major",
+        "source_quote": "speaking the truth in love, [so that we] may grow up into him in all things",
+        "suggested_fix": "Replace “decir la verdad en amor” only if necessary to keep the Scripture quotation’s meaning consistent with the source; use “hablar la verdad en amor” rather than “seguir la verdad en amor” wherever the quoted phrase appears.",
+        "translation_quote": "decir la verdad en amor, [para que] crezcamos en todo en aquel que es la cabeza"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

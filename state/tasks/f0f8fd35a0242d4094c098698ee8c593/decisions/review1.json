@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Hymn, stanza 2, third line",
+      "severity": "major",
+      "source_quote": "I know He’ll take me thro’, tho’ I am weak and poor;",
+      "suggested_fix": "Replace the line with: «Ξέρω πως θα με περάσει μέσα απ’ όλα, αν και είμαι αδύναμος και φτωχός,»",
+      "translation_quote": "Ξέρω πως θα με οδηγήσει ως το τέλος, αν και είμαι αδύναμος και φτωχός,"
+    },
+    {
+      "location": "Hymn, stanza 3, second line",
+      "severity": "major",
+      "source_quote": "I don’t expect to stop until I with Him stand,",
+      "suggested_fix": "Replace «κοντά Του» with «μαζί Του», so the line reads: «Δεν σκοπεύω να σταματήσω ώσπου να σταθώ μαζί Του,»",
+      "translation_quote": "Δεν σκοπεύω να σταματήσω ώσπου να σταθώ κοντά Του,"
+    },
+    {
+      "location": "Hymn, stanza 4, third line",
+      "severity": "minor",
+      "source_quote": "Their songs of sweetest praise drift back from heaven’s shore,",
+      "suggested_fix": "Replace the line with: «Τα γλυκύτερα τραγούδια δοξολογίας τους φτάνουν ως εμάς από την ακτή του ουρανού,»",
+      "translation_quote": "Τα πιο γλυκά τραγούδια δοξολογίας τους φτάνουν πίσω από τις ακτές του ουρανού,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

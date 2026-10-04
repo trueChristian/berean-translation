@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,73 @@
         },
         "total_tokens": 7949
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 971,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7770,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7767,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8741
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: پیراگراف 5، امریکہ میں رہنے کے پس منظر کا جملہ",
+      "severity": "major",
+      "source_quote": "Ever since, one of the key aspects of living in America has been that of the “separation of church and state”.",
+      "suggested_fix": "اس جملے کو یوں درست کریں: «تب سے امریکہ میں رہنے کے بنیادی پہلوؤں میں سے ایک ’کلیسیا اور ریاست کی علیحدگی‘ کا اصول رہا ہے۔»",
+      "translation_quote": "تب سے امریکہ میں رہنے کا ایک بنیادی پہلو ’کلیسیا اور ریاست کی علیحدگی‘ رہا ہے۔"
+    },
+    {
+      "location": "html: پیراگراف 7، دنیاوی شخص کو امید نہ ہونے کا جملہ",
+      "severity": "major",
+      "source_quote": "Sure, a man of the world may not have the hope of a better life to come since he probably doesn’t see himself as a “stranger and a pilgrim” here on this earth and most likely he doesn’t believe in life eternal.",
+      "suggested_fix": "«یقیناً، کسی دنیاوی شخص کو آنے والی بہتر زندگی کی امید شاید نہ ہو، کیونکہ غالباً وہ خود کو اس زمین پر ’پردیسی اور مسافر‘ نہیں سمجھتا اور غالب امکان ہے کہ ابدی زندگی پر یقین نہیں رکھتا۔»",
+      "translation_quote": "یقیناً، کسی دنیاوی شخص کو آنے والی بہتر زندگی کی امید نہیں ہو سکتی، کیونکہ غالباً وہ خود کو اس زمین پر ’پردیسی اور مسافر‘ نہیں سمجھتا اور غالب امکان ہے کہ ابدی زندگی پر یقین نہیں رکھتا۔"
+    },
+    {
+      "location": "html: پیراگراف 11، سازشی کہانیوں کے مقصد کی وضاحت",
+      "severity": "major",
+      "source_quote": "Most often these ‘stories’ are designed to play on our emotions, triggering a response rooted in fear, that is ultimately designed to protect myself from the alleged personal harm—that of being personally controlled by others, loss of personal rights, loss of personal privacy, etc., etc.",
+      "suggested_fix": "«اکثر یہ ’کہانیاں‘ ہمارے جذبات سے کھیلنے اور خوف پر مبنی ردعمل بھڑکانے کے لیے بنائی جاتی ہیں؛ یہ ردعمل بالآخر مجھے مبینہ ذاتی نقصان سے بچانے کے لیے ہوتا ہے—مثلاً دوسروں کے ہاتھوں قابو کیے جانے، ذاتی حقوق کھونے اور نجی زندگی کی رازداری کھونے سے۔»",
+      "translation_quote": "اکثر یہ ’کہانیاں‘ ہمارے جذبات سے کھیلنے کے لیے بنائی جاتی ہیں، اور خوف پر مبنی ردعمل کو بھڑکاتی ہیں، جس کا حتمی مقصد مجھے مبینہ ذاتی نقصان سے بچانا ہوتا ہے—یعنی دوسروں کے ہاتھوں ذاتی طور پر قابو کیے جانے، اپنے ذاتی حقوق کھونے، اپنی نجی زندگی کی رازداری کھونے وغیرہ سے۔"
+    },
+    {
+      "location": "html: پیراگراف 15، خدا کے وعدوں کا بیان",
+      "severity": "major",
+      "source_quote": "He will NOT allow us to be tempted above that which we are able to bear.",
+      "suggested_fix": "«اور وہ ہمیں ہماری برداشت سے بڑھ کر آزمائش میں پڑنے نہیں دے گا۔»",
+      "translation_quote": "اور وہ ہمیں ہماری برداشت سے بڑھ کر آزمائش میں پڑنے نہیں دے گا۔"
+    },
+    {
+      "location": "html: پیراگراف 16، والدہ کی حالت کا بیان",
+      "severity": "major",
+      "source_quote": "my mother, who lives with us, ended up on the very verge of needing to be hospitalized due to low oxygen levels in her blood.",
+      "suggested_fix": "«تاہم، میری والدہ، جو ہمارے ساتھ رہتی ہیں، کے خون میں آکسیجن کی سطح کم ہونے کے باعث وہ تقریباً اس حالت تک پہنچ گئیں کہ انہیں ہسپتال میں داخل کرنا پڑتا۔»",
+      "translation_quote": "تاہم، میری والدہ، جو ہمارے ساتھ رہتی ہیں، کے خون میں آکسیجن کی سطح کم ہونے کے باعث نوبت ہسپتال میں داخل ہونے کی عین ضرورت تک پہنچ گئی۔"
+    },
+    {
+      "location": "html: پیراگراف 20، خاندانی رشتے کی وضاحت",
+      "severity": "major",
+      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+      "suggested_fix": "«جان ایس اور ماریا (ہورننگ) کرٹز میرے پڑدادا اور پڑدادی کے والدین تھے۔»",
+      "translation_quote": "جان ایس اور ماریا (ہورننگ) کرٹز میرے پڑدادا اور پڑدادی تھے۔"
+    }
+  ],
   "id": "3a0c4c11fb902038e132dfdabaffb445",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "urd",
@@ -116,11 +179,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

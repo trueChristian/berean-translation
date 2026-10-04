@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, “হালনাগাদ পার্শ্বপ্রতিক্রিয়া” section, paragraph on anaphylaxis",
+      "severity": "major",
+      "source_quote": "This sort of an allergy requires medications like epinephrine to reverse it",
+      "suggested_fix": "Replace “এ ধরনের অ্যালার্জি প্রতিরোধ করতে এপিনেফ্রিনের মতো ওষুধ লাগে” with “এ ধরনের অ্যালার্জির প্রতিক্রিয়া কাটাতে এপিনেফ্রিনের মতো ওষুধ লাগে” so the sentence says the medication reverses the reaction, rather than prevents it.",
+      "translation_quote": "এ ধরনের অ্যালার্জি প্রতিরোধ করতে এপিনেফ্রিনের মতো ওষুধ লাগে"
+    },
+    {
+      "location": "HTML, “হালনাগাদ পার্শ্বপ্রতিক্রিয়া” section, paragraph on deaths in Norway",
+      "severity": "major",
+      "source_quote": "but I think I would probably avoid giving the vaccine to people who are in extremely poor health",
+      "suggested_fix": "Replace “তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া এড়িয়ে চলা উচিত” with “তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া সম্ভবত আমি এড়িয়ে চলতাম” to preserve the author's qualified personal judgment rather than state a general recommendation.",
+      "translation_quote": "তবে আমার মনে হয়, যাঁদের স্বাস্থ্য অত্যন্ত খারাপ, তাঁদের টিকা দেওয়া এড়িয়ে চলা উচিত"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

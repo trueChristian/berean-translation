@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "19b54ad5-bed1-4a53-8ee7-0e5d656e02e2",
+    "response_id": "chatcmpl-EV249AgTCuPCPiZPc7WWFDXqYSLOr",
+    "usage": {
+      "completion_tokens": 751,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 606,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6149,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6903
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lista de salmos, primera viñeta",
+        "severity": "minor",
+        "source_quote": "I will praise thee, O Lord, with my whole heart.",
+        "suggested_fix": "<li><em><strong>Te alabaré</strong>, Señor, con todo mi corazón.</em> –Salmo 9:1a</li>",
+        "translation_quote": "<li><em><strong>Alabaré</strong> a ti, Señor, con todo mi corazón.</em> –Salmo 9:1a</li>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

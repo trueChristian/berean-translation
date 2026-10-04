@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.section\",\"severity\":\"minor\",\"source_quote\":\"FEATURED ARTICLE\",\"suggested_fix\":\"Gebruik ’n korrekte Afrikaanse weergawe, byvoorbeeld “UITGELIGTE ARTIKEL”.\",\"translation_quote\":\"GEKIEDARTIKEL\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 257,
+    "content_evidence_truncated": false,
+    "content_sha256": "00db30fd47b3cba3a1793aad3e5a80a4eb346cf2caaf856888ae4ce3a75b2995",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 676,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5711,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6390
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

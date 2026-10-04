@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem stanza beginning “I ordered the rough ways”\",\"severity\":\"major\",\"source_quote\":\"I ordered the rough ways you have followed, / Not to disappoint, but to purge.\",\"suggested_fix\":\"Jag lät dig gå de svåra stigarna → Jag ordnade de svåra vägar du har gått, / inte för att göra dig besviken, utan för att rena dig.\",\"translation_quote\":\"Jag lät dig gå de svåra stigarna, / inte för att göra dig besviken, utan för att rena dig.\"},{\"location\":\"HTML, poem stanza beginning “I pray that my heart would be yielded”\",\"severity\":\"minor\",\"source_quote\":\"I pray that my heart would be yielded, / To the touch of the Master’s hand.\",\"suggested_fix\":\"Jag ber att mitt hjärta ska överlåtas / åt Mästaren och hans hand som formar mig. → Jag ber att mitt hjärta ska överlåtas / åt Mästaren och beröras av hans hand.\",\"translation_quote\":\"Jag ber att mitt hjärta ska överlåtas / åt Mästaren och hans hand som formar mig.\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 1012,
+    "content_evidence_truncated": false,
+    "content_sha256": "389d9edcbe4457c3b6f23fd715ef8bc99a9522b700c68c11d81a9aba9734950b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 417,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3317,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4004
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

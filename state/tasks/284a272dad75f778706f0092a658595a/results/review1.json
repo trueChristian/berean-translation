@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cfdd2e83-22f6-4f1b-b4c8-ade0ccfc00d1",
+    "response_id": "chatcmpl-EV24KA3JdVRKfl6R9WKcZUegXYPaz",
+    "usage": {
+      "completion_tokens": 743,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 618,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1777,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1774,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2520
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, hymn verses 1–4: repeated line about the angels",
+        "severity": "minor",
+        "source_quote": "The angels beckon me from heaven’s open door,",
+        "suggested_fix": "Replace each repeated line with: <em>המלאכים מסמנים לי לבוא מפתחו הפתוח של השמים,</em>",
+        "translation_quote": "המלאכים קוראים לי מפתחו הפתוח של השמים,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

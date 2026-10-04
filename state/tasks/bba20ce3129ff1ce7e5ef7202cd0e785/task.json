@@ -2,7 +2,6 @@
   "article_id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,45 @@
         },
         "total_tokens": 7882
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 267,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7701,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7698,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7968
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “जॉन एस. और मारिया…”",
+      "severity": "major",
+      "source_quote": "John S. and Maria (Horning) Kurtz were my great, great grandparents.",
+      "suggested_fix": "इसे “जॉन एस. और मारिया (हॉर्निंग) कुर्ट्ज़ मेरे परदादा-परदादी थे।” करें; अनुवाद में जोड़े गए “के माता-पिता” को हटाएँ।",
+      "translation_quote": "जॉन एस. और मारिया (हॉर्निंग) कुर्ट्ज़ मेरे परदादा-परदादी के माता-पिता थे।"
+    },
+    {
+      "location": "HTML, paragraph beginning “जॉन एस. और मारिया…”",
+      "severity": "major",
+      "source_quote": "through that of the only surviving child out of a family of 12.",
+      "suggested_fix": "इसे इस अर्थ में बदलें कि वंशावली 12 बच्चों वाले परिवार के अकेले जीवित बचे बच्चे से होकर जाती है; उदाहरणार्थ, “12 बच्चों वाले परिवार के अकेले जीवित बचे बच्चे के माध्यम से।”",
+      "translation_quote": "12 सदस्यों वाले परिवार के अकेले जीवित बचे बच्चे तक पहुँचती है।"
+    }
+  ],
   "id": "bba20ce3129ff1ce7e5ef7202cd0e785",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "hin",
@@ -116,11 +151,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4af622d98c100e4b0cb81d504c08079e6a93ecb5ce25809290d362e252199796.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
   "translation_model_actual": "gpt-6-luna"

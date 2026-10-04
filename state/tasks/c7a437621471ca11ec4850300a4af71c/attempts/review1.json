@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:12+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Article, concluding quotation of Luke 21:25–36, verse 36\",\n      \"severity\": \"major\",\n      \"source_quote\": \"that ye may be accounted worthy to escape all these things that shall come to pass\",\n      \"suggested_fix\": \"Replace « afin que vous ayez la force d’échapper à toutes ces choses qui arriveront » with « afin que vous soyez jugés dignes d’échapper à toutes ces choses qui arriveront ».\",\n      \"translation_quote\": \"afin que vous ayez la force d’échapper à toutes ces choses qui arriveront\"\n    },\n    {\n      \"location\": \"Article, opening quotation of Luke 21:25–28 and concluding quotation of Luke 21:25–36, verse 26\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Men’s hearts failing them for fear, and for looking after those things which are coming on the earth\",\n      \"suggested_fix\": \"In both quotations, replace « les hommes rendront l’âme de terreur et dans l’attente de ce qui surviendra sur la terre » with « les hommes seront saisis d’effroi à cause de l’attente des événements qui surviendront sur la terre ».\",\n      \"translation_quote\": \"les hommes rendront l’âme de terreur et dans l’attente de ce qui surviendra sur la terre\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 84\n}",
+    "content_bytes": 1290,
+    "content_evidence_truncated": false,
+    "content_sha256": "ce556a8b88a6d1ca2458eee8b9a590c3512c5edf0426fb35664334b43bacdf9b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 565,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7208,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7205,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8112
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

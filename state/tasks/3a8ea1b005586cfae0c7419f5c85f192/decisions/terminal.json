@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Заголовок",
+      "severity": "minor",
+      "source_quote": "This World is Not My Home",
+      "suggested_fix": "Заменить «Этот мир — не мой дом» на «Этот мир мне не дом», чтобы точнее передать идиоматический смысл названия и повторяющейся строки гимна.",
+      "translation_quote": "Этот мир — не мой дом"
+    },
+    {
+      "location": "Гимн, куплет 1, строка 2",
+      "severity": "minor",
+      "source_quote": "My treasures are laid up somewhere beyond the blue;",
+      "suggested_fix": "Заменить «Сокровища мои хранятся где-то за небесной синевой» на «Мои сокровища собраны где-то за небесной синевой»: «laid up» означает, что сокровища отложены/собраны там.",
+      "translation_quote": "Сокровища мои хранятся где-то за небесной синевой;"
+    },
+    {
+      "location": "Гимн, куплет 4, строка 3",
+      "severity": "minor",
+      "source_quote": "Their songs of sweetest praise drift back from heaven’s shore,",
+      "suggested_fix": "Заменить «Их сладчайшие хвалебные песни доносятся с небесного берега» на «Их сладчайшие песни хвалы доносятся с небесного берега», чтобы яснее передать, что это песни прославления.",
+      "translation_quote": "Их сладчайшие хвалебные песни доносятся с небесного берега,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

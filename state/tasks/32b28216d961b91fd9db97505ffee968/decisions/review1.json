@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, introduction describing the doctor’s patients",
+      "severity": "minor",
+      "source_quote": "The majority of my patients are not from a conservative Anabaptist background",
+      "suggested_fix": "De meeste van mijn patiënten hebben geen conservatief-anabaptistische achtergrond.",
+      "translation_quote": "De meerderheid van mijn patiënten heeft geen conservatief anabaptistische achtergrond"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

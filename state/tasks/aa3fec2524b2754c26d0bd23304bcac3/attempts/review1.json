@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Luke 2:8–14 quotation and its repetition in the “A Song” section\",\"severity\":\"major\",\"source_quote\":\"“Glory to God in the highest, and on earth peace, good will toward men”\",\"suggested_fix\":\"Translate the printed wording as goodwill toward people, without adding the claim that they are people God loves; for example: “Ära åt Gud i höjden och frid på jorden, välvilja mot människor.” Make the same correction in both quotations.\",\"translation_quote\":\"“Ära åt Gud i höjden och frid på jorden, till människor som han älskar”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 608,
+    "content_evidence_truncated": false,
+    "content_sha256": "06f9e090e4680427b082d7406a80ea5d168c8cdfdd5ef8e1f807b4f1e4b0c18d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 738,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8805,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9711
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

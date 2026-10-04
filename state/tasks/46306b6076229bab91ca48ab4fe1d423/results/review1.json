@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4866e2b3-4d8c-4a33-bcc8-fb85b0d509c3",
+    "response_id": "chatcmpl-EV24jvVyobwNxMBvQD58bQ2uc5Bu4",
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 575,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4528,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4525,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5332
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph quoting 1 Corinthians 14:24–25",
+        "severity": "major",
+        "source_quote": "“and report that God is in you of a truth”",
+        "suggested_fix": "Replace «Dio è veramente in mezzo a voi» with «Dio è veramente in voi», preserving the existing emphasis and reference.",
+        "translation_quote": "«e dichiarerà che Dio è veramente in mezzo a voi»"
+      },
+      {
+        "location": "HTML, paragraph beginning “Current preaching styles”",
+        "severity": "minor",
+        "source_quote": "<strong>from</strong>",
+        "suggested_fix": "Put «da» in the existing bold element and remove the empty bold element, preserving the source tag order: <strong>da</strong><em>…</em>",
+        "translation_quote": "<strong></strong><em>Sapendo dunque che cosa significhi temere il Signore, cerchiamo di convincere gli uomini… –2 Corinzi 5:11</em>"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

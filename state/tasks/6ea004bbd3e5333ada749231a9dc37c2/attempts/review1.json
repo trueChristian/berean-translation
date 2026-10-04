@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, stanza 3, baris 3\",\"severity\":\"major\",\"source_quote\":\"To love, laugh with, and cherish,\",\"suggested_fix\":\"Ganti baris ini menjadi: “Untuk mencintai, tertawa bersama, dan menyayangi,”\",\"translation_quote\":\"Untuk dikasihi, diajak tertawa, dan disayangi,\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 317,
+    "content_evidence_truncated": false,
+    "content_sha256": "8892ab9bdcae61c4213573b2a441f27b2ffef3fdce5920fcc40f38e70993eaa8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 474,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 371,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3391,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3868
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "67b026bd-0a8b-482c-a122-54f734a31ef9",
+    "response_id": "chatcmpl-EV24U4kfM8IxaTqKQeOfoyeNRS6fw",
+    "usage": {
+      "completion_tokens": 264,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8880,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9147
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Other Vaccines paragraph 1",
+        "severity": "major",
+        "source_quote": "“...to trigger the immune response. create immunity.”",
+        "suggested_fix": "Replace only the sentence-ending phrase with a fluent Hebrew equivalent of “to trigger the immune response and create immunity,” for example: “כדי לעורר תגובה חיסונית וליצור חסינות.”",
+        "translation_quote": "“...כדי לעורר תגובה חיסונית. ליצור חסינות.”"
+      },
+      {
+        "location": "HTML, Other Questions paragraph 2",
+        "severity": "minor",
+        "source_quote": "“(the microchips that are normally used in pets are roughly the size of a kernel of rice).”",
+        "suggested_fix": "Translate the parenthetical as part of the Hebrew sentence, e.g. “(השבבים שמשתמשים בהם בדרך כלל בחיות מחמד הם בערך בגודל של גרגר אורז).” The translated wording is already present; remove the comma before the parenthesis to reflect the source punctuation more clearly.",
+        "translation_quote": "“...מזו שמומלצת, (השבבים שמשתמשים בהם בדרך כלל בחיות מחמד הם בערך בגודל של גרגר אורז).”"
+      }
+    ],
+    "passed": false,
+    "score": 93
+  }
+}

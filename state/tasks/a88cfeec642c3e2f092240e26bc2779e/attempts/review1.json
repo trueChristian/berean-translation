@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem stanza beginning “For I’ve found that true happiness”\",\"severity\":\"minor\",\"source_quote\":\"“Is not in a smooth, perfect life.”\",\"suggested_fix\":\"Replace “’n sorgelose, volmaakte lewe” with “’n gladde, volmaakte lewe” to retain the source’s idea of a smooth life rather than a carefree one.\",\"translation_quote\":\"“nie in ’n sorgelose, volmaakte lewe lê nie.”\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 453,
+    "content_evidence_truncated": false,
+    "content_sha256": "14a29aa16450f7b394c9e9cf6e11a9180da434dec8448155fe41d335b5de7c5d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 439,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3386,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3955
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

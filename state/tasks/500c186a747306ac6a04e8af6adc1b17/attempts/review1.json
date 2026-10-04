@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, párrafo sobre Janssen y AstraZeneca\",\"severity\":\"major\",\"source_quote\":\"“to trigger the immune response. create immunity.”\",\"suggested_fix\":\"Cambiar «para desencadenar la respuesta inmunitaria. Crear inmunidad.» por «para desencadenar la respuesta inmunitaria y generar inmunidad.»\",\"translation_quote\":\"“para desencadenar la respuesta inmunitaria. Crear inmunidad.”\"},{\"location\":\"html, párrafo sobre otras vacunas y Merck\",\"severity\":\"major\",\"source_quote\":\"“there is one from Merck is a non-mRNA vaccine that is also ethically sourced”\",\"suggested_fix\":\"Cambiar «pero una de Merck es una vacuna que no utiliza ARNm y que también tiene un origen ético» por «pero hay una vacuna de Merck que no utiliza ARNm y que también tiene un origen ético».\",\"translation_quote\":\"“pero una de Merck es una vacuna que no utiliza ARNm y que también tiene un origen ético”\"},{\"location\":\"html, párrafo sobre la decisión de vacunarse\",\"severity\":\"major\",\"source_quote\":\"“I would certainly lean towards getting the vaccine.”\",\"suggested_fix\":\"Cambiar «sin duda me inclinaría por recomendarle la vacuna» por «sin duda me inclinaría por vacunarme».\",\"translation_quote\":\"“sin duda me inclinaría por recomendarle la vacuna”\"},{\"location\":\"html, subtítulo «Everyone else», segundo párrafo\",\"severity\":\"major\",\"source_quote\":\"“I would also think strongly about getting vaccinated.”\",\"suggested_fix\":\"Cambiar «también consideraría seriamente vacunarte» por «también me inclinaría seriamente por vacunarme».\",\"translation_quote\":\"“también consideraría seriamente vacunarte”\"},{\"location\":\"html, encabezado «What if You’ve Had COVID already?»\",\"severity\":\"minor\",\"source_quote\":\"“What if You’ve Had COVID already?”\",\"suggested_fix\":\"Para mantener un tratamiento coherente e internacionalmente inteligible, cambiar «¿Y si ya has tenido COVID?» por «¿Y si ya ha tenido COVID?»\",\"translation_quote\":\"“¿Y si ya has tenido COVID?”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 2055,
+    "content_evidence_truncated": false,
+    "content_sha256": "d8c2f437dd9c6fe61306a59611c525ede82f68c9c9fb498fb595e9d7c3cb52c4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 468,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8312,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8309,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8780
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

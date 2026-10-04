@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Like I said before”",
+      "severity": "minor",
+      "source_quote": "our God is sovereignly in control.",
+      "suggested_fix": "Vervang ‘onze God heeft soevereine controle’ door ‘onze God regeert soeverein’ voor natuurlijker Nederlands met behoud van de betekenis.",
+      "translation_quote": "onze God heeft soevereine controle"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

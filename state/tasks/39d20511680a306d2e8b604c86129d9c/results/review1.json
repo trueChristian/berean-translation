@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e1cada04-9bb4-4a64-aa0b-f73027f8bbd4",
+    "response_id": "chatcmpl-EV24OI4t5TsbipDRpAqqEkkdcPFtN",
+    "usage": {
+      "completion_tokens": 872,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 686,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7196,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7193,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8068
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Несомненно одно»",
+        "severity": "minor",
+        "source_quote": "“gossiping, making, and believing a lie, and bearing false witness”",
+        "suggested_fix": "Replace «сплетен, распространения и веры во ложь, а также лжесвидетельства» with «сплетен, выдумывания и веры во ложь, а также лжесвидетельства» to preserve the distinction between making up a lie and spreading or believing one. Correct «во ложь» to «в ложь».",
+        "translation_quote": "«в том, что касается сплетен, распространения и веры во ложь, а также лжесвидетельства»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

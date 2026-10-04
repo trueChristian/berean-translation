@@ -2,7 +2,6 @@
   "article_id": "af526358-a4bb-44b9-aeec-2535f8ce9a29",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,122 @@
         },
         "total_tokens": 3510
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 982,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3269,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3266,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4251
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Gedicht, Strophe 1",
+      "severity": "minor",
+      "source_quote": "For cool breezes and flowers / To please and turn my eye.",
+      "suggested_fix": "Zum Beispiel: „Um kühle Lüfte und Blumen, / die erfreuen und meinen Blick auf sich ziehen.“",
+      "translation_quote": "Um kühle Lüfte und Blumen, / die erfreuen und den Blick erfreun."
+    },
+    {
+      "location": "Gedicht, Strophe 3",
+      "severity": "major",
+      "source_quote": "To love, laugh with, and cherish, / And dissipate all strife.",
+      "suggested_fix": "Zum Beispiel: „Mit dem ich lieben, lachen und ihn wertschätzen kann / und der allen Streit zerstreut.“",
+      "translation_quote": "Zum Lieben, Lachen und Schätzen, / der allen Streit zerstreitet."
+    },
+    {
+      "location": "Gedicht, Strophe 4",
+      "severity": "minor",
+      "source_quote": "Life’s pathways would be clear.",
+      "suggested_fix": "Zum Beispiel: „die Lebenswege stets klar wären.“",
+      "translation_quote": "die Wege des Lebens klar seien."
+    },
+    {
+      "location": "Gedicht, Strophe 7",
+      "severity": "minor",
+      "source_quote": "Gone were the dreams of tranquility, / My soul cried with desire for a home.",
+      "suggested_fix": "Zum Beispiel: „Die Träume von innerem Frieden waren dahin, / meine Seele sehnte sich nach einem Zuhause.“",
+      "translation_quote": "Die Träume von der Ruhe waren dahin, / meine Seele schrie nach einem Zuhause."
+    },
+    {
+      "location": "Gedicht, Strophe 8",
+      "severity": "major",
+      "source_quote": "Then, a rich voice spoke inside me,",
+      "suggested_fix": "„Da sprach eine volle, kräftige Stimme in mir,“",
+      "translation_quote": "Da sprach eine warme Stimme in mir,"
+    },
+    {
+      "location": "Gedicht, Strophe 8",
+      "severity": "major",
+      "source_quote": "If you would only but look unto Me.",
+      "suggested_fix": "„wenn du nur zu Mir aufblickst.“",
+      "translation_quote": "wenn du nur zu Mir aufblicken würdest."
+    },
+    {
+      "location": "Gedicht, Strophe 9",
+      "severity": "minor",
+      "source_quote": "Your prayers did not fall unheard.",
+      "suggested_fix": "Zum Beispiel: „Deine Gebete blieben nicht ungehört.“",
+      "translation_quote": "deine Gebete verhallten nicht ungehört."
+    },
+    {
+      "location": "Gedicht, Strophe 10",
+      "severity": "minor",
+      "source_quote": "For cool breezes and flowers to start.",
+      "suggested_fix": "Zum Beispiel: „um kühle Lüfte und die ersten Blumen.“",
+      "translation_quote": "um kühle Lüfte und Blumen, die erblühen."
+    },
+    {
+      "location": "Gedicht, Strophe 11",
+      "severity": "minor",
+      "source_quote": "I ordered the rough ways you have followed,",
+      "suggested_fix": "Zum Beispiel: „Ich habe die rauen Wege bestimmt, auf denen du gegangen bist,“",
+      "translation_quote": "Ich habe die rauen Wege angeordnet, die du gegangen bist,"
+    },
+    {
+      "location": "Gedicht, Strophe 15",
+      "severity": "major",
+      "source_quote": "So now instead of praying / For things of earthly ease, / I thank the Lord for sending things / That brought me to my knees.",
+      "suggested_fix": "Zum Beispiel: „So bete ich jetzt, statt / um irdische Bequemlichkeit zu bitten, / danke ich dem Herrn für die Dinge, die er sendet / und die mich in die Knie zwangen.“",
+      "translation_quote": "So bete ich jetzt nicht mehr / um irdische Bequemlichkeit, / sondern danke dem Herrn für alles, was Er schickt, / das mich auf die Knie gebracht hat."
+    },
+    {
+      "location": "Gedicht, Strophe 17",
+      "severity": "minor",
+      "source_quote": "Allowing His will to change me, / Through everything He has planned.",
+      "suggested_fix": "Zum Beispiel: „damit Sein Wille mich verändert / durch alles hindurch, was Er geplant hat.“",
+      "translation_quote": "Dass Sein Wille mich verändern darf / durch alles hindurch, was Er geplant hat."
+    },
+    {
+      "location": "Gedicht, Strophe 18",
+      "severity": "major",
+      "source_quote": "Not moved through fire or strife.",
+      "suggested_fix": "Zum Beispiel: „und weder durch Feuer noch durch Kampf erschüttert werden.“",
+      "translation_quote": "und uns weder Feuer noch Streit erschüttern."
+    },
+    {
+      "location": "Gedicht, Strophe 19",
+      "severity": "major",
+      "source_quote": "For He is the solid Foundation, / And the real source of True Life superb.",
+      "suggested_fix": "Zum Beispiel: „Denn Er ist das feste Fundament / und die wahre Quelle des großartigen Lebens.“",
+      "translation_quote": "Denn Er ist das feste Fundament / und die wahre Quelle des herrlichen Lebens."
+    }
+  ],
   "id": "3cd49ed1f5ad886e25270b4dcf43deda",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "deu",
@@ -116,11 +228,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8518be006699d10e3e2d64df41c659fb10c9ac4a210156c22bbf03e9d7302254.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70b32a8a1a0b2475272aa47aa35aa79dec178c46d6dfb0df964e4afa9b65902b",
   "translation_model_actual": "gpt-6-luna"

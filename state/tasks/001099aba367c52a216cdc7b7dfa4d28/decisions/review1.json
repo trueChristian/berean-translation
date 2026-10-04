@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “But first, we must learn…”; quoted Scripture, 2 Corinthians 10:5",
+      "severity": "major",
+      "source_quote": "“bringing into captivity every thought to the obedience of Christ”",
+      "suggested_fix": "Ubah bagian kutipan menjadi: <em>menaklukkan segala siasat dan setiap keangkuhan yang meninggikan diri melawan pengenalan akan Allah, serta menawan setiap pikiran untuk taat kepada Kristus; –2 Korintus 10:5.</em>",
+      "translation_quote": "“menaklukkan segala siasat dan setiap keangkuhan yang meninggikan diri melawan pengenalan akan Allah, serta menawan setiap pikiran untuk menaatinya Kristus; –2 Korintus 10:5.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

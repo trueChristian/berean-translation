@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"The Mark of the Beast, Scripture quotation (Revelation 13:16–18)\",\"severity\":\"major\",\"source_quote\":\"“to receive a mark in their right hand, or in their foreheads”\",\"suggested_fix\":\"Change “op hulle regterhand en op hulle voorhoofde” to “op hulle regterhand of op hulle voorhoofde” to preserve the source’s “or.”\",\"translation_quote\":\"“’n merk op hulle regterhand en op hulle voorhoofde ontvang”\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 477,
+    "content_evidence_truncated": false,
+    "content_sha256": "32334f0ca847c8dfc009f69d918ad9083d025f531538db643e51bf63781b5327",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 430,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7359,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7356,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7924
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "d0d31573-888a-4367-8ca7-4a966b35ba5a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,46 @@
         },
         "total_tokens": 8829
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 988,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 702,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8688,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8685,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9676
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Article, paragraph beginning « Pour rendre visite à l’enfant Christ »",
+      "severity": "minor",
+      "source_quote": "“To visit the Christ child will require us to haunt the place outside the inn.”",
+      "suggested_fix": "Remplacer « hanter l’endroit situé hors de l’auberge » par « fréquenter l’endroit situé hors de l’auberge » pour éviter le sens français d’une présence fantomatique ou obsessionnelle.",
+      "translation_quote": "« Pour rendre visite à l’enfant Christ, il nous faudra hanter l’endroit situé hors de l’auberge. »"
+    },
+    {
+      "location": "Article, deuxième paragraphe",
+      "severity": "minor",
+      "source_quote": "“by the fourth century was fully acclimated and indoctrinated to the hybrid mixture of that which was Christian and pagan.”",
+      "suggested_fix": "Rendre aussi l’idée d’endoctrinement, par exemple : « au IVe siècle, s’était pleinement accoutumée à ce mélange hybride de christianisme et de paganisme et y avait été complètement endoctrinée. »",
+      "translation_quote": "« au IVe siècle, s’était pleinement acclimatée à ce mélange hybride de christianisme et de paganisme, et l’avait fait sien. »"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:12+00:00",
   "id": "dc8d321b7ceb98381e9954ed9e918876",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "fra",
@@ -116,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/987c22546d249eaa171b80baeb34775131d66283ed71347046719ccf80748e39.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "dd3d93febfdf8a1c6f472dac36953108ff27886b83894e7e9e2a9e984b4511c4",
   "translation_model_actual": "gpt-6-luna"

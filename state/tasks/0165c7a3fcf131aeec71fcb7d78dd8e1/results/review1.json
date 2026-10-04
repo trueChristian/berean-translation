@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d7fcf72b-2afd-444f-8e22-565700e21919",
+    "response_id": "chatcmpl-EV23mXuilNJktA0w46NymS2xyVOlx",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3573,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3570,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3802
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “I used to pray that always”",
+        "severity": "major",
+        "source_quote": "That no unwanted circumstance / Would make existence drear.",
+        "suggested_fix": "کوئی ناپسندیدہ صورتِ حال / زندگی کو اداس نہ کر دے۔",
+        "translation_quote": "کوئی ناپسندیدہ حالات / زندگی کو اداس نہ کر دے۔"
+      },
+      {
+        "location": "source.html, paragraph beginning “I found also, I no longer walked alone”",
+        "severity": "major",
+        "source_quote": "The Good Shepherd was there by my side!",
+        "suggested_fix": "وہ اچھا چرواہا میرے پہلو میں موجود تھا!",
+        "translation_quote": "نیک چرواہا میرے پہلو میں موجود تھا!"
+      },
+      {
+        "location": "source.html, final stanza",
+        "severity": "major",
+        "source_quote": "And the real source of True Life superb.",
+        "suggested_fix": "اور حقیقی زندگی کا شاندار سرچشمہ ہے۔",
+        "translation_quote": "اور حقیقی زندگی کا شاندار سرچشمہ ہے۔"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

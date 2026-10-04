@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "18c7a93a-634f-474d-ac7f-e8db97ade049",
+    "response_id": "chatcmpl-EV24D5vAiRTuuFa0Eqz1PHMfV2cQx",
+    "usage": {
+      "completion_tokens": 661,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4612,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5276
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “If preachers, sermon after sermon…”",
+        "severity": "major",
+        "source_quote": "It entrenches complacent legalism into the core of the heart of man.",
+        "suggested_fix": "Replace “Hukita uhalali wa kisheria uliotulia ndani kabisa ya moyo wa mwanadamu.” with “Hukita uhalali wa kisheria” with a Kiswahili expression meaning complacent legalism—for example, “Hukita ndani kabisa ya moyo wa mwanadamu ushikiliaji wa sheria usiojali.”",
+        "translation_quote": "Hukita uhalali wa kisheria uliotulia ndani kabisa ya moyo wa mwanadamu."
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

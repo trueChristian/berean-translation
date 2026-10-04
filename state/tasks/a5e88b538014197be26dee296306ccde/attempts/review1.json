@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, vaccine section, paragraph beginning “The new mRNA technology”\",\"severity\":\"major\",\"source_quote\":\"“Some concern has been raised that this new mode of action could cause sterility in women of childbearing age. Are those concerns valid? Have studies been done?”\",\"suggested_fix\":\"Replace the sentence «وقد أُثير بعض القلق من أن هذا الأسلوب الجديد في العمل قد يسبب العقم لدى النساء في سن الإنجاب. فهل هذه المخاوف صحيحة؟ وهل أُجريت دراسات؟» with «وقد أُثير بعض القلق من أن هذا الأسلوب الجديد في العمل قد يسبب العقم لدى النساء في سن الإنجاب. فهل هذه المخاوف وجيهة؟ وهل أُجريت دراسات؟» This preserves the source’s question about whether the concerns are valid.\",\"translation_quote\":\"«وقد أُثير بعض القلق من أن هذا الأسلوب الجديد في العمل قد يسبب العقم لدى النساء في سن الإنجاب. فهل هذه المخاوف صحيحة؟ وهل أُجريت دراسات؟»\"},{\"location\":\"source.html, paragraph beginning “There are dangerous heresies around today”\",\"severity\":\"major\",\"source_quote\":\"“an individual seeks a subjective experience as the means to ‘hear from God.’”\",\"suggested_fix\":\"Replace «اختبار ذاتي» with «اختبار شخصي» or «خبرة ذاتية» so the translation describes a subjective experience, not a self-examination.\",\"translation_quote\":\"«أن يسعى فرد إلى اختبار ذاتي بوصفه وسيلة «لسماع صوت الله»»\"},{\"location\":\"source.html, paragraph beginning “Dangerous deceptions take root”\",\"severity\":\"major\",\"source_quote\":\"“they first open themselves to false teachings which they embrace leaving them unable to discern what spirit is speaking to them.”\",\"suggested_fix\":\"Replace «يتبنونها، فيعجزون عن تمييز أي روح تخاطبهم» with «يتبنونها، الأمر الذي يتركهم عاجزين عن تمييز أي روح تخاطبهم» to preserve the source’s stated causal connection.\",\"translation_quote\":\"«ينفتحون أولًا على تعاليم كاذبة يتبنونها، فيعجزون عن تمييز أي روح تخاطبهم»\"},{\"location\":\"source.html, paragraph beginning “There are dangerous heresies around today”\",\"severity\":\"major\",\"source_quote\":\"“Then that experience and what ‘God tells me’ begins to displace, and sooner or later, contradicts what the Word of God actually says.”\",\"suggested_fix\":\"Recast the ending to preserve that both the experience and what the person believes God tells them displace and eventually contradict Scripture, for example: «ثم يبدأ ذلك الاختبار وما يعتقد أن «الله يقوله لي» في إزاحة ما تقوله كلمة الله حقًا، وسرعان ما يناقضانه.»\",\"translation_quote\":\"«ثم يبدأ ذلك الاختبار وما «يقوله الله لي» في إزاحة ما تقوله كلمة الله حقًا، وسرعان ما يناقضه.»\"},{\"location\":\"source.html, paragraph beginning “When we see all these things come to pass”\",\"severity\":\"major\",\"source_quote\":\"“The grace of our Lord Jesus Christ be with you all. Amen –Revelation 22:20-21.”\",\"suggested_fix\":\"Translate the quoted ending as «لتكن نعمة ربنا يسوع المسيح معكم جميعًا. آمين» rather than «نعمة ربنا يسوع المسيح مع جميعكم. آمين», which does not naturally convey the source’s benediction.\",\"translation_quote\":\"«نعمة ربنا يسوع المسيح مع جميعكم. آمين»\"},{\"location\":\"source.html, paragraph beginning “As we see in the above Bible passage”\",\"severity\":\"major\",\"source_quote\":\"“And it would imply that to receive it is a choice on our part, and not something we are deceived into getting, only to realize later that it is the mark of the beast.”\",\"suggested_fix\":\"Correct «لا أمرًا نخدع للقيام به» to «لا أمرًا نخدع فنقبله» or «لا شيئًا يُخدع بنا إلى قبوله», preserving the contrast with a deliberate choice.\",\"translation_quote\":\"«كما يعني ذلك أن قبولها اختيار منا، لا أمرًا نخدع للقيام به ثم ندرك لاحقًا أنه سمة الوحش.»\"},{\"location\":\"source.html, section heading “In conclusion, lets read Luke 21:25-36…”\",\"severity\":\"major\",\"source_quote\":\"“In conclusion, lets read Luke 21:25-36…”\",\"suggested_fix\":\"Replace «ختامًا، لنقرأ لوقا 21:25-36…» with «ختامًا، لنقرأ لوقا 21:25-36…» only if the author intended a general invitation; otherwise translate the printed directive more directly as «ختامًا، لنقرأ لوقا 21:25-36…» is already faithful. No change required.\",\"translation_quote\":\"«ختامًا، لنقرأ لوقا 21:25-36…»\"},{\"location\":\"source.html, title\",\"severity\":\"minor\",\"source_quote\":\"“Admonition for Uncertain Times”\",\"suggested_fix\":\"Consider «موعظة في أوقات غير مؤكدة» or «إرشاد لأوقات عدم اليقين» to convey “admonition” more closely than «موعظة», which can suggest a sermon.\",\"translation_quote\":\"«موعظة لأوقات عدم اليقين»\"}],\"passed\":false,\"score\":83}",
+    "content_bytes": 5573,
+    "content_evidence_truncated": false,
+    "content_sha256": "b290691929111935159b01bf7202c925cb9b5642b8fd4bb7e92be28accd1ff56",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7009,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7006,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8183
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

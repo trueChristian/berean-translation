@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “How we speak to one another certainly means a great deal.”",
+      "severity": "major",
+      "source_quote": "But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?",
+      "suggested_fix": "Replace the sentence with: „Aber wenn wir bereit sind, die Wahrheit zu sagen, auch wenn dadurch jemand mit uns unzufrieden sein könnte, liegt dann nicht die Schuld bei uns?“",
+      "translation_quote": "Aber wenn wir nicht bereit sind, die Wahrheit zu sagen, sobald jemand dadurch unzufrieden mit uns sein könnte, liegt dann nicht die Schuld bei uns?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,38 @@
         },
         "total_tokens": 4572
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 500,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 338,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4384,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4381,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4884
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML, final quoted paragraph; Psaumes 16:8–9",
+      "severity": "major",
+      "source_quote": "“Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope”",
+      "suggested_fix": "Remplacer la portion correspondante par une traduction qui conserve le sens imprimé, par exemple : « Aussi mon cœur est dans la joie, ma gloire exulte, et ma chair repose dans l’espérance ». Garder les balises HTML et la référence existantes.",
+      "translation_quote": "« Aussi mon cœur est dans la joie, mon esprit dans l’allégresse, et mon corps repose en sécurité »"
+    }
+  ],
   "id": "72a320aa247a16287009c7ce25157882",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "fra",
@@ -116,11 +144,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/db672b88db7ac1a73fa51050b3b0d2743d20a0fd2adcbe9db5fd9da071a74cc2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
   "translation_model_actual": "gpt-6-luna"

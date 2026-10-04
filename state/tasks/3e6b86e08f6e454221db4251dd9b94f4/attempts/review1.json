@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ritornello, first line\",\"severity\":\"minor\",\"source_quote\":\"O Lord, you know I have no friend like you,\",\"suggested_fix\":\"O Signore, tu sai che non ho un amico come te,\",\"translation_quote\":\"O Signore, tu sai che non ho amico come te,\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 288,
+    "content_evidence_truncated": false,
+    "content_sha256": "63cdc77821b2151b7c5cdd962a7ed878c76aa71ee6a6fcf800d987eb79115ffe",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 513,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 418,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1796,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1793,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2309
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

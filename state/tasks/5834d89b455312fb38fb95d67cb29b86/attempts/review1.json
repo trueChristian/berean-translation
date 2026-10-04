@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Article, final paragraph; James 4:8 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Cleanse your hands, ye sinners; and purify your hearts, ye double minded –James 4:8.\",\n      \"suggested_fix\": \"Replace הַסּוֹסְסִים with a clear Modern Hebrew equivalent for “double minded,” such as הַהֲפַכְפְּכִים, while preserving the quotation’s existing HTML structure and reference.\",\n      \"translation_quote\": \"טַהֲרוּ יְדֵיכֶם, חוֹטְאִים, וְטַהֲרוּ לְבַבְכֶם, הַסּוֹסְסִים – יעקב ד׳:8.\"\n    },\n    {\n      \"location\": \"Article, “The virus hits home,” paragraph 2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I was so sick from the virus that I wasn’t able to work for over two months.\",\n      \"suggested_fix\": \"Revise לא יכולתי לעבוד יותר מחודשיים to make clear that the inability to work lasted longer than two months, for example: הייתי חולה כל כך מהנגיף, שלא יכולתי לעבוד במשך יותר מחודשיים.\",\n      \"translation_quote\": \"חליתי כל כך מהנגיף שלא יכולתי לעבוד יותר מחודשיים.\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 1296,
+    "content_evidence_truncated": false,
+    "content_sha256": "9b5b47c69249ddac0588baceedc2682488054904882ed100b96d1b294d5141b6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 703,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7482,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8543
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

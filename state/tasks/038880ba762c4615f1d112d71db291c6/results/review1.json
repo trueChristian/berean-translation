@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f6700c55-fcd5-4068-a5f6-cad8079f289c",
+    "response_id": "chatcmpl-EV243kQxWLH7tV7utzhnjM36AMKWT",
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 443,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8567,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8564,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9159
+    }
+  },
+  "received_at": "2026-10-04T00:10:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, абзац под заголовком «Обновлённые сведения о побочных эффектах»",
+        "severity": "major",
+        "source_quote": "In the last several weeks, nearly 15 million people in the United States have gotten at least one dose of the COVID vaccines.",
+        "suggested_fix": "Заменить «не менее 15 миллионов» на «почти 15 миллионов», сохранив исходную оценку количества.",
+        "translation_quote": "За последние несколько недель не менее 15 миллионов человек в Соединённых Штатах получили хотя бы одну дозу вакцин от COVID."
+      }
+    ],
+    "passed": false,
+    "score": 94
+  }
+}

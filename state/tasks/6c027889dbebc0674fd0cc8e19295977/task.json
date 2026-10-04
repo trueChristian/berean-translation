@@ -2,7 +2,6 @@
   "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e1beae8832746ff99a50d1cd03b3116",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -25,9 +24,39 @@
         },
         "total_tokens": 4837
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 974,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 844,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4549,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4546,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5523
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning “Verkondig die woord” (2 Timothy 4:2)",
+      "severity": "minor",
+      "source_quote": "“reprove, rebuke, exhort”",
+      "suggested_fix": "Replace “weerlê” with “teregwys” in this quotation so that “reprove” conveys correction rather than refutation: “teregwys, bestraf, vermaan”.",
+      "translation_quote": "“weerlê, bestraf, vermaan”"
+    }
+  ],
+  "finished_at": "2026-10-04T00:10:11+00:00",
   "id": "6c027889dbebc0674fd0cc8e19295977",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "afr",
@@ -116,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/deeb05dd5e227c175a637f12c89669f292320db5c05e0f183aa1d9a12827f789.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "37891a503d515e8f9e6fe8e156ec96931b94e5563cb567ed68cf31a5066708d7",
   "translation_model_actual": "gpt-6-luna"
