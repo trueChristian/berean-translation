@@ -5433,7 +5433,7 @@
       "has_publication": false,
       "language": "ell",
       "latest_task": "055e8c003edeb88c2731bd581ecd3bfe",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab"
