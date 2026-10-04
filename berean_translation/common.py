@@ -5,6 +5,7 @@ import json
 import math
 import os
 import re
+import stat
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -48,8 +49,16 @@ def loads(text: str | bytes) -> Any:
         raise ContractError(f'Invalid JSON: {exc}') from exc
 
 
+def read_regular_bytes(path: Path) -> bytes:
+    descriptor = os.open(path, os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK)
+    with os.fdopen(descriptor, 'rb') as stream:
+        if not stat.S_ISREG(os.fstat(stream.fileno()).st_mode):
+            raise ContractError('Working publication/state path must be a regular file')
+        return stream.read()
+
+
 def read_json(path: Path, default: Any = None) -> Any:
-    return loads(path.read_bytes()) if path.exists() else default
+    return loads(read_regular_bytes(path)) if path.exists() else default
 
 
 def write_text(path: Path, text: str) -> None:
@@ -86,13 +95,18 @@ def safe_path(root: Path, relative: str) -> Path:
     if part.is_absolute() or any(p in ('', '.', '..') for p in relative.split('/')):
         raise ContractError(f'Unsafe path: {relative}')
     target = root / part
-    if not target.resolve().is_relative_to(root.resolve()):
-        raise ContractError(f'Escaping path: {relative}')
+    try:
+        if not target.resolve().is_relative_to(root.resolve()):
+            raise ContractError(f'Escaping path: {relative}')
+    except (OSError, RuntimeError) as exc:
+        raise ContractError(f'Unresolvable path: {relative}') from exc
     for current in (target, *target.parents):
         if current == root.parent:
             break
         if current.is_symlink():
             raise ContractError(f'Symlink not allowed: {relative}')
+        if current != target and current.exists() and not current.is_dir():
+            raise ContractError(f'Publication/state directory is not a directory: {relative}')
     return target
 
 

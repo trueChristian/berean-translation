@@ -207,3 +207,20 @@ truthful, and retain verified historical image and grouping dependencies. An
 unverifiable retained dependency fails the candidate deployment safely; it does
 not authorize silently removing an existing article or labeling stale work current.
 Human-reviewed retained pairs stay permanently excluded from AI work.
+
+
+### Unexpected working-file isolation
+
+A renamed, copied or extra content file never becomes an accepted publication
+merely by existing. Human-edit synchronization inventories these paths under
+`state/content-isolation.json`, leaves their bytes untouched, and reports them
+while accepted records continue from verified copies. Symlinks are not followed,
+unsupported file types are not read, and changes after synchronization require
+another synchronization before validation. Unknown files at a source/language
+publication path also exclude that pair from paid AI work.
+
+Automatic checkpoints exclude isolated working paths, so an untracked editor
+copy is not silently added to Git. If someone has already staged an isolated
+file in the worker checkout, publication pauses without modifying their staging.
+No isolated file is copied into the website export or treated as human-reviewed
+without a recognized accepted-publication record.

@@ -12,7 +12,7 @@ from pathlib import Path
 from uuid import uuid4
 from .batch_telemetry import failure_reason, observe_batch, request_failure
 from .common import (ContractError, canonical, csv_values, digest, json_hash, loads, now,
-                     positive_money, read_json, write_text)
+                     positive_money, read_json, read_regular_bytes, write_text)
 from .html import notice, validate_translation
 from .requests import accepted_review, build_request, parse_response
 from .refresh import enqueue_source_refreshes
@@ -52,11 +52,15 @@ class Engine:
             return True
         pub = record.get('published')
         if not pub:
-            return False
+            try:
+                return any(self.state.path(f'content/{language}/articles/{article_id}.{ext}').exists()
+                           for ext in ('html', 'json'))
+            except (ContractError, OSError):
+                return True  # An unrecognized working path is never AI-owned.
         if pub['human_reviewed'] or pub.get('edit_issue'):
             return True
         try:
-            return (digest(self.state.path(pub['html_path']).read_text(encoding='utf-8')) != pub['html_sha256']
+            return (digest(read_regular_bytes(self.state.path(pub['html_path']))) != pub['html_sha256']
                     or json_hash(self.state.read(pub['metadata_path'])) != pub['metadata_sha256'])
         except (ContractError, OSError, UnicodeError, KeyError):
             return True
@@ -367,7 +371,7 @@ class Engine:
         validate_scripture_candidate(self.state, task, candidate)
         validate_translation(source,candidate,language=task['language'])
         if pub:
-            if (digest(self.state.path(pub['html_path']).read_bytes()) != task['base_html_sha256'] or
+            if (digest(read_regular_bytes(self.state.path(pub['html_path']))) != task['base_html_sha256'] or
                     json_hash(self.state.read(pub['metadata_path'])) != task['base_metadata_sha256']):
                 return self.finish(task,'proposal','Published content changed while this task was running')
         elif task['base_html_sha256'] is not None:

@@ -232,9 +232,13 @@ def eligible(state, config, task, used, tasks, *, continuation_policy=None, hist
             or article['issue_id'] != task['issue_id']):
         return 'source_changed'
     record = state.record(task['language'], task['article_id'])
+    try:
+        working_files = any(state.path(f'content/{task["language"]}/articles/{task["article_id"]}.{ext}').exists()
+                            for ext in ('html', 'json'))
+    except (ContractError, OSError):
+        working_files = True
     if (record.get('latest_task') != task['id'] or record.get('published') or task.get('protected')
-            or any(state.path(f'content/{task["language"]}/articles/{task["article_id"]}.{ext}').exists()
-                   for ext in ('html', 'json'))):
+            or working_files):
         return 'public_or_human_replacement'
     if any(t['language'] == task['language'] and t['article_id'] == task['article_id']
            and t['status'] not in TERMINAL for t in tasks):

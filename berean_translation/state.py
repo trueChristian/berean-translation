@@ -4,7 +4,7 @@ import copy
 from datetime import datetime, timezone
 from pathlib import Path
 from .batch_telemetry import provider_error
-from .common import ContractError, digest, json_hash, now, read_json, safe_path, write_json, write_text
+from .common import ContractError, digest, json_hash, now, read_json, read_regular_bytes, safe_path, write_json, write_text
 from .html import split_article, validate_translation, human_notice
 from .review_notice import validate_human_content, validate_recorded_notice
 from . import publication_edits
@@ -78,9 +78,17 @@ class State:
     def publication_candidate(self, publication, *, working=False):
         if not working and publication.get('edit_issue'):
             if publication_edits.observed_files(self, publication) != publication['edit_issue']['observed_files']:
-                raise ContractError('Publication working files changed after edit isolation; run review synchronization')
+                # A checkpoint excludes uncommitted technical replacements. Its
+                # clean checkout may therefore contain the original accepted
+                # blobs again; these are safe until sync clears the diagnostic.
+                try:
+                    restored = {'html':read_regular_bytes(self.path(publication['html_path'])).decode('utf-8'),
+                                'metadata':self.read(publication['metadata_path'])}
+                    publication_edits.verify(restored, publication)
+                except (ContractError, OSError, UnicodeError):
+                    raise ContractError('Publication working files changed after edit isolation; run review synchronization')
             return publication_edits.candidate(publication_edits.accepted_payload(self, publication))
-        text = self.path(publication['html_path']).read_text(encoding='utf-8')
+        text = read_regular_bytes(self.path(publication['html_path'])).decode('utf-8')
         body, tail = split_article(text)
         metadata = self.read(publication['metadata_path'])
         if not isinstance(metadata,dict) or set(metadata) != {'title','subtitle','section'}:
@@ -171,6 +179,9 @@ class State:
                     pub['edit_issue'] = issue
                     record['history'].append({'event':'publication_edit_requires_attention', **issue})
                     self.save_record(record)
+
+        from .content_isolation import synchronize
+        synchronize(self)
 
     def projection(self, config):
         source = self.read('state/source.json',{'revision':None,'articles':{},'issues':[]})
@@ -316,6 +327,13 @@ class State:
                  'A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.']
         from .review_diagnostics import preserved_review_diagnostics, render_review_diagnostics
         rows += render_review_diagnostics(preserved_review_diagnostics(config, self, tasks=tasks))
+        isolated = self.read('state/content-isolation.json', {}).get('files', {})
+        if isolated:
+            rows += ['', '## Unrecognized content files', '',
+                     f'{len(isolated)} working file(s) are isolated because they have no accepted publication path. '
+                     'Their bytes remain untouched and are not exported or automatically added to Git. '
+                     'Accepted articles continue from their verified copies. '
+                     '[Inspect the isolated paths](state/content-isolation.json).']
         errors = sorted((self.root/'state/queue-errors').glob('*.json'))
         if errors:
             rows += ['', '## Rejected requests', '', 'These requests did not start a paid campaign. Inspect the recorded validation error before submitting a new request.', '']

@@ -1,4 +1,4 @@
-"""Offline invariants and a display-only, source-compatible translation export."""
+"""Offline invariants and display export with truthful retained-source provenance."""
 from __future__ import annotations
 import copy
 import os
@@ -43,13 +43,16 @@ def validate_repository(config, check_index=True):
             raise ContractError('Publication source identity/fingerprint mismatch')
         if not isinstance(pub.get('model'),str) or not isinstance(pub.get('review_model'),str):
             raise ContractError('Missing model provenance')
-    actual_files = {p.relative_to(config.root).as_posix() for p in (config.root/'content').rglob('*') if p.is_file()}
+    from . import content_isolation
+    observed_content = content_isolation.inventory(config.root)
+    content_isolation.validate(state, observed_content)
+    actual_files = set(observed_content)
     isolated_missing = {record['published'][field] for record in state.records()
                         if (record.get('published') or {}).get('edit_issue')
                         for field, value in record['published']['edit_issue']['observed_files'].items()
                         if not isinstance(value, str) and record['published'][field] not in actual_files}
-    if actual_files != expected_files - isolated_missing:
-        raise ContractError('Missing or orphaned content files')
+    if actual_files & expected_files != expected_files - isolated_missing:
+        raise ContractError('Missing accepted content files without a verified retained copy')
     task_list = state.tasks()
     tasks = {t['id']:t for t in task_list}
     if len(tasks) != len(task_list):

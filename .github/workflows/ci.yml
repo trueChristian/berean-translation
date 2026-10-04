@@ -16,7 +16,9 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    # The full offline suite plus real archive validation took nine minutes
+    # before the added integration cases. Keep a bounded margin for runner load.
+    timeout-minutes: 15
     steps:
       - name: Check out the exact change and review history
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
