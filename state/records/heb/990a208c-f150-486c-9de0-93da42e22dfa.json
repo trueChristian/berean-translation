@@ -6,6 +6,12 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "463f82a24287c6f4e1206f7cbb34194d"
+    },
+    {
+      "at": "2026-10-04T00:09:44+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: 6:27,34; extra: Matthew 6:27,34",
+      "task": "463f82a24287c6f4e1206f7cbb34194d"
     }
   ],
   "language": "heb",

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[10]/em[2]; translation /article[1]/p[10]",
+      "severity": "critical",
+      "source_quote": "… <em>…for fear, and for looking after those things which are coming on the earth…? –Luk 21:26.</em> Should we much rather cry out “how long Lord Jesus” “so come”? Even as the apostle intimates as he wrestles with being “betwixt two”—<em>For I am in a strait betwixt two, having a desire to depart, and to be with Christ; which is far better: Nevertheless to abide in the flesh is more needful for you. –Php 1:23-24.</em> The apostle clearly indicates “having a desire to depart and be with Christ is far better,” and the only thing that holds him here is the fact that there is work to be done.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[34:36], translation signature[34:34], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…ie Erde kommen wird …? –Lukas 21:26. Sollten wir nicht viel eher rufen: „Wie lange noch, Herr Jesus?“ und „Komm doch!“? So deutet es auch der Apostel an, während er mit dem Gedanken ringt, „zwischen zweien“ zu stehen: <em>Denn ich werde von beidem bedrängt: Ich habe den Wunsch, aufzubrechen und bei Christus zu sein, denn das ist weit besser. Doch im Fleisch zu bleiben ist um euretwillen nötiger. –Philipper 1:23-24.</em> Der Apostel macht deutlich: „Der Wunsch, aufzubrechen und bei Christus zu sein, ist weit besser“, und nur die Tatsache, dass noch Arbeit zu tun ist, hält ihn hier zurück.</p>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: 3:15; extra: 1 Peter 3:15",
+  "stage": "terminal"
+}

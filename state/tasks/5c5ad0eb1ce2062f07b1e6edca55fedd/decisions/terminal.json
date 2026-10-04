@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[20]/em[1]; translation /article[1]/p[20]",
+      "severity": "critical",
+      "source_quote": "<p>My dear friend, the simple fact remains: if you do not persevere in disciplining your spiritual life, <u>you</u> <u>will</u> <u>lose!</u> So, what are <em>you</em> exercising and feeding—your flesh or the Spirit? Remember, when the natural man grows, there is no more room for the spiritual man to grow.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[66:68], translation signature[66:66], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>Amico mio, il semplice fatto è questo: se non perseveri nel disciplinare la tua vita spirituale, <u>tu</u> <u>perderai</u> <u>!</u> Dunque, che cosa stai esercitando e nutrendo: la carne o lo Spirito? Ricorda: quando l’uomo naturale cresce, non rimane più spazio perché cresca l’uomo spirituale.</p>"
+    },
+    {
+      "location": "Source /article[1]/p[31]/br[1]; translation /article[1]/p[31]/br[1]",
+      "severity": "critical",
+      "source_quote": "<p class=\"poem\">“I got up early one morning, and rushed<br>\n    right into the day;<br>\n    I had so much to accomplish that I didn’t<br>\n    have time to pray.<br>\n    Problems just tumbled about me, and<br>\n    heavier came each task;<br>\n    “Why doesn’t God help me?” I wondered.<br>\n    He answered, “You didn’t ask.”<br>\n    I wanted to see joy and beauty, but the day<br>\n    toiled on gray and bleak;<br>\n    I wondered why God didn’t show me. He<br>\n    said, “But you didn’t seek.”<br>\n    I tried to come into God’s presence; I used<br>\n    all my keys in the lock.<br>\n    God gently an…",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[110:111], translation signature[108:108], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p class=\"poem\">«Una mattina mi alzai presto e mi precipitai<br>\n    subito nella giornata;<br>\n    avevo così tante cose da fare che non ebbi<br>\n    il tempo di pregare.<br>\n    I problemi mi piombavano addosso e ogni<br>\n    compito diventava più pesante;<br>\n    “Perché Dio non mi aiuta?” mi chiesi.<br>\n    Lui rispose: “Non me l’hai chiesto”.<br>\n    Volevo vedere gioia e bellezza, ma la giornata<br>\n    proseguiva grigia e cupa;<br>\n    mi chiesi perché Dio non me le mostrasse. Lui<br>\n    disse: “Ma non le hai cercate”.<br>\n    Cercai di entrare alla presenza di Dio; usai<br>\n    tutt…"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[66]: source /article[1]/p[20]/em[1] ('start', 'em', ()); translation /article[1]/p[20] ('end', 'p')",
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80fa87a201ae4017bb5b7fa5748a2e9c",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 9547
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4985,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 295,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9926,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9923,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14911
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[30]: source /article[1]/p[5]/em[5] ('start', 'em', ()); translation /article[1]/p[5] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/em[1]",
@@ -37,6 +57,7 @@
       "translation_quote": "…nen eher gut gemeint zu sein schienen als der Ruf des Pöbels nach Kreuzigung, erklärte Christus ihr Angebot für mangelhaft. Wir müssen diese Frauenschar von einer anderen Gruppe unterscheiden als den <em>…vielen Frauen, die von ferne zusahen… –Mat 27:55.</em> Ich würde vermuten, dass es sich um Jerusalemerinnen handelt, die mit ihm sympathisierten: berufsmäßige Klagefrauen, die morgen vergessen würden, dass sie heute geweint hatten. Diese wankelmütigen Frauen, die geübt darin waren, laut zu klagen, fanden sich im Haus des Jairus ein, noch bevor Christus dort ankam. Als er erklärte, die Tote …"
     }
   ],
+  "finished_at": "2026-10-04T00:09:44+00:00",
   "id": "5f4ffe1783e1c99a54639bb9a4293b0f",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "deu",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80fa87a201ae4017bb5b7fa5748a2e9c",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8774
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4422,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 166,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9247,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9244,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13669
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 16:7-8; extra: John 16:7-8",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"f23b48e8-ae04-4469-9ee3-be0e5461cb94\">\n  <figure>\n    <img src=\"/images/articles/f23b48e8-ae04-4469-9ee3-be0e5461cb94-1.jpg\" alt=\"גלובוס דקורטיבי המואר באור שמש חמים\">\n  </figure>\n\n  <p class=\"lead drop-cap\">שמעתי נוצרים רבים אומרים שאינם שבעי רצון מהקשר שלהם עם אלוהים. הם תוהים מדוע אלוהים אינו מדבר אליהם כפי שדיבר עם אנשים בתנ״ך, ואפילו בראשית ימי הכנסייה. חשבתי על כך פעמים רבות, ולעיתים הרגשתי כך בעצמי. הגעתי להבנה שאלוהים עדיין מדבר עם ילדיו גם היום, בדיוק כפי שתמיד עשה. הבעיה היא שלא תמיד אנחנו מקשיבים.</p>\n\n  <p><em>אולם אני אומר לכם את האמת: מוטב לכם שאלך, כי א"
     }
   ],
+  "finished_at": "2026-10-04T00:09:45+00:00",
   "id": "80e8299112a97032b0b0b4c1967ea4e0",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

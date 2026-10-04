@@ -6,6 +6,12 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "80e8299112a97032b0b0b4c1967ea4e0"
+    },
+    {
+      "at": "2026-10-04T00:09:45+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 16:7-8; extra: John 16:7-8",
+      "task": "80e8299112a97032b0b0b4c1967ea4e0"
     }
   ],
   "language": "heb",

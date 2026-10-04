@@ -2,7 +2,6 @@
   "article_id": "2973c0bf-0445-4cd0-8f39-00871d179bae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80fa87a201ae4017bb5b7fa5748a2e9c",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 9180
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5259,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 438,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9650,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9647,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14909
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[4]; missing: 21:26, 6:34; extra: Luke 21:26, Matthew 6:34",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"2973c0bf-0445-4cd0-8f39-00871d179bae\">\n  <p>מי היה מעלה על דעתו שחיידק זעיר שאי אפשר לראות בעין בלתי מזוינת יכניס את העולם כולו לסחרור, לפאניקה ולשיבוש כלכלי? לא ראיתי בחיי מגפה בהיקף כזה, וכשהיא הופיעה לראשונה הייתי בין אלה שהטילו ספק ולא האמינו שהיא תשבש את עולמנו במידה כזאת. שאלות רבות נשאלות, תאוריות קונספירציה מופצות, והפחד משתולל ברחבי העולם שעה שהעולם כולו מגיב למגפה. האם יימצא מרפא, או שמא הדבר ימשיך להיות מכת גורל בעולמנו? אם הנגיף הזעיר הזה יחדור לגופי, מה סיכויי לשרוד? האם הוא יפגע באחד מיקיריי? השאלות אינספור. רבים העלו השערות לגבי מקורו, אך האם מישהו באמת"
     }
   ],
+  "finished_at": "2026-10-04T00:09:44+00:00",
   "id": "676b554d5abf664adab402acb658b40c",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/87f48a5d662ba24787b099332cafd89c32bc7e704365e5699c245c0036ebb3b5.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516",
   "translation_model_actual": "gpt-6-luna"

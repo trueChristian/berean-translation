@@ -2,7 +2,6 @@
   "article_id": "486eb0b4-74ad-40db-b53a-51a7b89036e2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80fa87a201ae4017bb5b7fa5748a2e9c",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 6194
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2940,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 76,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6638,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6635,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9578
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[9]: source /article[1]/p[2]/em[2] ('start', 'em', ()); translation /article[1]/p[2] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"486eb0b4-74ad-40db-b53a-51a7b89036e2\">\n  <figure>\n    <img src=\"/images/articles/486eb0b4-74ad-40db-b53a-51a7b89036e2-1.png\" alt=\"\">\n  </figure>\n\n  <p class=\"lead drop-cap\">Salutations affectueuses au nom de Jésus, notre Sauveur, notre Rédempteur et notre Seigneur. Lorsque le dernier numéro de notre magazine a été publié, la plupart des choses dans le monde semblaient se poursuivre tout à fait normalement. Soudain, tout a commencé à changer à une vitesse déconcertante et dans une grande incertitude. Il ne nous a pas fallu longtemps pour qu’un virus jusque-là inconnu r"
     }
   ],
+  "finished_at": "2026-10-04T00:09:45+00:00",
   "id": "ecdb4b59b2baa7f4282f8408aa7ceb43",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "fra",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/b7ff765f8559bfa449bcc3fa96998af8c080e379e2aabf4990c01d10eb68d98c.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2278bba221fce4c7f455fbe76f70569dee5c08465296c08eaa606e4d04a36e48",
   "translation_model_actual": "gpt-6-luna"

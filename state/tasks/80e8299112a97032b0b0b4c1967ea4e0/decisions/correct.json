@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 16:7-8; extra: John 16:7-8",
+  "stage": "correct"
+}

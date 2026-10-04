@@ -6,6 +6,12 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "76a95ab8a8bdf0b44b26b0b4168b7e12"
+    },
+    {
+      "at": "2026-10-04T00:09:44+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[1]; missing: 23:27-28; extra: Luke 23:27-28",
+      "task": "76a95ab8a8bdf0b44b26b0b4168b7e12"
     }
   ],
   "language": "heb",

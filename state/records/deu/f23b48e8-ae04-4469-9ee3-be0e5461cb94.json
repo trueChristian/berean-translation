@@ -6,6 +6,12 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "34e37a88bb09c4f94ba2f0845aa8cfb5"
+    },
+    {
+      "at": "2026-10-04T00:09:44+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[4]; missing: 4:1-2; extra: 1 Timothy 4:1-2",
+      "task": "34e37a88bb09c4f94ba2f0845aa8cfb5"
     }
   ],
   "language": "deu",

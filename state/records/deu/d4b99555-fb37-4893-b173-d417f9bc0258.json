@@ -6,6 +6,12 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "589e7392923829c96da865bf5701583f"
+    },
+    {
+      "at": "2026-10-04T00:09:44+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[21]; missing: 3:13-14; extra: Philippians 3:13-14",
+      "task": "589e7392923829c96da865bf5701583f"
     }
   ],
   "language": "deu",

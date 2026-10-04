@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[27]/em[1]; translation /article[1]/p[27]",
+      "severity": "critical",
+      "source_quote": "… one’s activities and life’s events online for the world to see has become a gripping drive and craving for attention—a crave for the approval of men. If you feed this drive, it will grow. Ask yourself these questions, “Does posting my status on <em>WhatsApp</em> bring glory to God? Does checking social media sites to see what others are doing and how they are dressed draw me closer to God? Am I more eager to check the status of my friends than I am to open my Bible and check the status of my walk with God?” Is the time you spend on your phone making you better prepared to win this race?</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[94:96], translation signature[94:94], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "…رمیاں اور زندگی کے واقعات دنیا کو دکھانے کے لیے آن لائن پوسٹ کرنا توجہ حاصل کرنے کی شدید خواہش اور طلب بن گیا ہے—لوگوں کی منظوری کی طلب۔ اگر تم اس خواہش کو غذا دو گے تو یہ بڑھے گی۔ اپنے آپ سے یہ سوال پوچھو: ”کیا واٹس ایپ پر اپنا اسٹیٹس پوسٹ کرنا خدا کو جلال دیتا ہے؟ کیا دوسروں کی سرگرمیاں اور ان کے لباس دیکھنے کے لیے سوشل میڈیا سائٹس کھنگالنا مجھے خدا کے قریب لاتا ہے؟ کیا میں اپنے دوستوں کا اسٹیٹس دیکھنے کے لیے اس سے زیادہ بے تاب ہوں جتنا اپنی بائبل کھول کر خدا کے ساتھ اپنی چال کا جائزہ لینے کے لیے؟“ کیا فون پر تمہارا گزارا ہوا وقت تمہیں اس دوڑ کو جیتنے کے لیے بہتر طور پر تیار کر رہا ہے؟</p>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[94]: source /article[1]/p[27]/em[1] ('start', 'em', ()); translation /article[1]/p[27] ('end', 'p')",
+  "stage": "terminal"
+}

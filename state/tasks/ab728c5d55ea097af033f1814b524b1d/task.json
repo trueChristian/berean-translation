@@ -2,7 +2,6 @@
   "article_id": "41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80fa87a201ae4017bb5b7fa5748a2e9c",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 10415
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 6228,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 645,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11607,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11604,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17835
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[141]: source /article[1]/p[20]/strong[1] ('start', 'strong', ()); translation /article[1]/p[20]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/em[1]",
@@ -44,6 +64,7 @@
       "translation_quote": "<p>몇 년 전, 수많은 사람이 극장으로 몰려가 멜 깁슨의 영화 <em>그리스도의 수난</em>을 보며 울었습니다. 그러나 <strong>자신의 죄를 두고 운 사람은 거의 없었습니다</strong>. 많은 이들이 이렇게 말할 것입니다. “주님, 주님, 제가 그 장면을 보며 울지 않았습니까? 주님의 비참한 처지를 슬퍼하지 않았습니까?” 예수께서는 겟세마네에서, 예루살렘을 두고, 그리고 나사로의 무덤에서 우셨습니다. 그러나 그리스도의 눈물은 영원한 눈물이었으며, 그릇된 동기와 이기적인 의도가 전혀 없었습니다. 감정이 상했을 때 소파를 눈물로 적시는 일은 얼마나 자연스러운지요. 사랑하는 이를 잃거나 명예를 잃을 때 우리는 안타까움의 고통과 싸웁니다. 이런 것은 세상적인 눈물입니다. 하나님께서 <em>…내 눈물을 주의 병에 담으소서… –시 56:8</em>라고 하신다면, 그 병에는 무엇이라고 이름 붙이시겠습니까? <em>하나님의 뜻대로 하는 근심은 구원에 이르게 하는 회개를 이루므로 후회할 것이 없으나, 세상의 근심은 사망을 이루느니라 –고후 7:10.</em></p>"
     }
   ],
+  "finished_at": "2026-10-04T00:09:45+00:00",
   "id": "ab728c5d55ea097af033f1814b524b1d",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "kor",
@@ -136,7 +157,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/0d71cef6e4973b4915f76e0d16675df12a4b50274687d1472c0a6487362f54dd.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7fa09a16a8af66ad09eb74b6c474f6619dc6b91cded4fa3d09504dc621de72bb",
   "translation_model_actual": "gpt-6-luna"

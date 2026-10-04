@@ -6,6 +6,12 @@
       "campaign": "gh-37154280908",
       "event": "requested",
       "task": "551a553d5bc918a41bdc3937319ad731"
+    },
+    {
+      "at": "2026-10-04T00:09:44+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[8]; missing: 9:24; extra: 1 Corinthians 9:24",
+      "task": "551a553d5bc918a41bdc3937319ad731"
     }
   ],
   "language": "heb",

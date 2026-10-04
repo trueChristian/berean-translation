@@ -2,7 +2,6 @@
   "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80fa87a201ae4017bb5b7fa5748a2e9c",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:15+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8580
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4516,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 395,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9054,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9051,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13570
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[4]; missing: 4:1-2; extra: 1 Timothy 4:1-2",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"f23b48e8-ae04-4469-9ee3-be0e5461cb94\">\n  <figure>\n    <img src=\"/images/articles/f23b48e8-ae04-4469-9ee3-be0e5461cb94-1.jpg\" alt=\"Ein dekorativer Globus, von warmem Sonnenlicht beleuchtet\">\n  </figure>\n\n  <p class=\"lead drop-cap\">Ich habe viele Christen sagen hören, dass sie mit ihrer Beziehung zu Gott nicht zufrieden sind. Sie fragen sich, warum Gott nicht mit ihnen spricht, wie er mit den Menschen in der Bibel oder sogar in der frühen Gemeinde gesprochen hat. Ich habe oft darüber nachgedacht und mich bisweilen genauso gefühlt. Ich habe erkannt, dass Gott auch heute "
     }
   ],
+  "finished_at": "2026-10-04T00:09:44+00:00",
   "id": "34e37a88bb09c4f94ba2f0845aa8cfb5",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "deu",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/97b9a16a5e2768d9861db99c7d3d179fb2b4e387341c4f53c189e0eb76725e7d.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f3959d5b4e13c2f2c935c9f23f49c284096ffb39a87c8d734a8f8b95145438c",
   "translation_model_actual": "gpt-6-luna"

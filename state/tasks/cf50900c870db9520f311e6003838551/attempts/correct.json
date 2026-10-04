@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T00:09:45+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cf07f132-92d4-49ba-b318-52520f77ca67\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cf07f132-92d4-49ba-b318-52520f77ca67-1.jpg\\\" alt=\\\"Sinar matahari menembus rimbunnya hutan\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Bantalnya basah, air mata terus mengalir,<br>\\n    Oh! Di manakah siang? Malam ini tak kunjung berakhir.<br>\\n    Keputusan yang dibuatnya takkan pernah ia lupakan.<br>\\n    Istri dan anak-anaknya, oh, betapa ia menyesal!<br>\\n    (Kita tak tahu apa yang kita miliki sampai semuanya hilang.)<br>\\n    Ia meraih botol, menanti fajar menjelang.<br>\\n    Hari-hari berlalu, semuanya terasa samar.<br>\\n    Ia butuh jawaban untuk memperbaiki keadaan.<br>\\n    ‘Pergilah ke tetanggamu,’ terdengar suara kecil.<br>\\n    ‘Tapi dia orang Kristen!’ pikirnya, rasanya tak masuk akal.<br>\\n    ‘Dia punya jawabannya, jadi jangan menunda!’<br>\\n    Ia memutuskan pergi, tetapi bukan hari ini.<br>\\n    Ia berbaring di ranjang, bebannya terlalu berat.<br>\\n    ‘Pergilah ke tetanggamu, masih belum terlambat!’<br>\\n    Panggilan itu begitu kuat, ia bangkit dari lantai,<br>\\n    Mengenakan sepatu bot, lalu menuju pintu.<br>\\n    Tetangganya ada di rumah, senyumnya begitu hangat;<br>\\n    Ia bercerita tentang Yesus, yang akan mengubah hidupnya.<br>\\n    Kata-kata yang diucapkannya nyaris tak terasa nyata.<br>\\n    Semuanya terasa begitu jelas! Ia menangis saat hatinya hancur.<br>\\n    Kasih Allah membanjiri jiwanya yang membutuhkan,<br>\\n    Ia tahu tanpa ragu bahwa dirinya telah dipulihkan.<br>\\n    Tanpa menunda, ia menelepon istrinya.<br>\\n    “Oh, pulanglah, kumohon, Allah telah menyingkirkan kebencian!”<br>\\n    Dengan keluarganya di sisinya, dosa-dosanya telah dibuang ke laut,<br>\\n    Ia tak sabar menjadi pribadi yang Allah ciptakan baginya.</p>\\n\\n    <p class=\\\"byline\\\">– Barry Grant</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Ditebus\"}",
+    "content_bytes": 1955,
+    "content_evidence_truncated": false,
+    "content_sha256": "9af60acc00ded1290f1560817407e2aada5af51c8d9b83c99bbc6363b5fcab30",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 789,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 165,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2510,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2507,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3299
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}

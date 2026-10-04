@@ -2,7 +2,6 @@
   "article_id": "990a208c-f150-486c-9de0-93da42e22dfa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80fa87a201ae4017bb5b7fa5748a2e9c",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 5528
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2820,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 204,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6030,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6027,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8850
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: 6:27,34; extra: Matthew 6:27,34",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"990a208c-f150-486c-9de0-93da42e22dfa\">\n  <p class=\"drop-cap\">מלחמות ושמועות על מלחמות, מגפה המתפשטת ברחבי העולם, לחישות על קריסה כלכלית, תוכניות שנבנו בקפידה משתבשות. זהו עולמנו היום. מדוע ירשה אלוהים למיקרוב זעיר לפלוש לחייה של האנושות כולה, לשנות את הכול בעקבותיו ולגבות את חייהם של אלפים? ומה אם הוא יפגע במשפחתי? ידה הקרה של הפחד אוחזת בלבי.</p>\n  <p>אבל רגע. התחושה הזאת מוכרת לי. הרגשתי אותה פעמים רבות—הרבה לפני חוסר הוודאות של השנים האחרונות. הרגשתי פחד חד וצורב כשבני טיפס על עץ גבוה, או כשקיבלתי חדשות רעות ממשרד ממשלתי. לפעמים אני מפחדת פשוט מפני שזו התגובה האנוש"
     }
   ],
+  "finished_at": "2026-10-04T00:09:44+00:00",
   "id": "463f82a24287c6f4e1206f7cbb34194d",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/66f7fdcc5b56c4fdf7e61fc75ffa7c8ca76a36923f6f0b8dc853c1ad691641d2.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a593f92f896d3fb94fb2b71d6bb389c91feed59aa90c7c3abb18ea827f0f0d09",
   "translation_model_actual": "gpt-6-luna"

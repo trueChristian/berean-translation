@@ -2,7 +2,6 @@
   "article_id": "d4b99555-fb37-4893-b173-d417f9bc0258",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80fa87a201ae4017bb5b7fa5748a2e9c",
   "campaign": "gh-37154280908",
   "created_at": "2026-10-03T21:14:16+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 12498
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 6784,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12958,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12955,
+          "cached_tokens": 0
+        },
+        "total_tokens": 19742
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[94]: source /article[1]/p[27]/em[1] ('start', 'em', ()); translation /article[1]/p[27] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Source /article[1]/p[27]/em[1]; translation /article[1]/p[27]",
@@ -37,6 +57,7 @@
       "translation_quote": "…رمیاں اور زندگی کے واقعات دنیا کو دکھانے کے لیے آن لائن پوسٹ کرنا توجہ حاصل کرنے کی شدید خواہش اور طلب بن گیا ہے—لوگوں کی منظوری کی طلب۔ اگر تم اس خواہش کو غذا دو گے تو یہ بڑھے گی۔ اپنے آپ سے یہ سوال پوچھو: ”کیا واٹس ایپ پر اپنا اسٹیٹس پوسٹ کرنا خدا کو جلال دیتا ہے؟ کیا دوسروں کی سرگرمیاں اور ان کے لباس دیکھنے کے لیے سوشل میڈیا سائٹس کھنگالنا مجھے خدا کے قریب لاتا ہے؟ کیا میں اپنے دوستوں کا اسٹیٹس دیکھنے کے لیے اس سے زیادہ بے تاب ہوں جتنا اپنی بائبل کھول کر خدا کے ساتھ اپنی چال کا جائزہ لینے کے لیے؟“ کیا فون پر تمہارا گزارا ہوا وقت تمہیں اس دوڑ کو جیتنے کے لیے بہتر طور پر تیار کر رہا ہے؟</p>"
     }
   ],
+  "finished_at": "2026-10-04T00:09:45+00:00",
   "id": "c4cfecf3d435373127094204be7a76b6",
   "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
   "language": "urd",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/9212878d9903b55c6f8ce131ec4ce1c097dbedd5b5e58506db3fa61a73dd59c7.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f9a03af7f8bdd10cb2787f84e1719152da6649fcbd7e8f5cf7ba8e8ce50c94f2",
   "translation_model_actual": "gpt-6-luna"

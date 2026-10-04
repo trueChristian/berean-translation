@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: 6:27,34; extra: Matthew 6:27,34",
+  "stage": "correct"
+}
