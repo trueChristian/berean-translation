@@ -2,7 +2,6 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "abf79a5c1ddd4a088d5420936ef5996a",
   "campaign": "gh-37137754122",
   "continuation": {
     "cycle": 1,
@@ -21,6 +20,8 @@
   "downstream_previous_task": "1ea414affe00ae8262d9bae92b2116fc",
   "downstream_recovery": true,
   "events": [],
+  "failure": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "failure_kind": "provider_error",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -30,6 +31,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-10-04T06:06:41+00:00",
   "id": "7a14cfc323d47697afa7133dcb8e309c",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "cmn",
@@ -118,12 +120,17 @@
     }
   },
   "protected": false,
+  "provider_failure": {
+    "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+    "code": "provider_error",
+    "http_status": 500
+  },
   "rejection_reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 5:30; extra: none",
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

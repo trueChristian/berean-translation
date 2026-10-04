@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:06:42+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\\\" alt=\\\"白色兰花，花芯紫色\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>春日的荣光，多么甘甜！<br>\\n    新生的生命，多么欢快！<br>\\n    迎接这欢欣的大地，何等喜悦，<br>\\n    它已披上崭新明亮的衣裳！</p>\\n\\n    <p>神圣的救赎主，我颂赞祢；<br>\\n    我迎接祢的出行；<br>\\n    我爱祢，在祢所更新的大地<br>\\n    所展现的美丽之中。</p>\\n\\n    <p>但噢，祢恩典的这些奇妙，<br>\\n    祢那更高贵的作为，<br>\\n    这些探寻起来远为甘美的奇事，<br>\\n    这些更为神圣的新生：</p>\\n\\n    <p>这新生的信心光辉，如此强烈，<br>\\n    这爱的花朵，如此美丽，<br>\\n    这新生的歌唱之狂喜，<br>\\n    以及祷告的芳香！</p>\\n\\n    <p>创造万物的圣灵啊，在我里面成就<br>\\n    祢这些甘美的奇事；<br>\\n    神圣的救赎主，求祢施恩<br>\\n    更新我这颗心。</p>\\n\\n    <p>仍然，让新生命与力量涌现，<br>\\n    仍然，让新喜乐被赐予；<br>\\n    并使快乐的新歌回荡，<br>\\n    响彻新地与新天。</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"春天的荣光\"}",
+    "content_bytes": 1373,
+    "content_evidence_truncated": false,
+    "content_sha256": "5145b386847e7c74ce11cbb3bc8286bad54c6219ee3e8071859b3de264914116",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2382,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 2379
+      },
+      "total_tokens": 3019
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 1
+}

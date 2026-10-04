@@ -7,7 +7,8 @@
     "version": 2
   },
   "counts": {
-    "active": 278,
+    "active": 277,
+    "continuation_cooldown": 1,
     "continuation_cycle_budget_blocked": 7,
     "continuation_review_only_requires_attention": 13,
     "eligible_available": 1249,
@@ -3986,7 +3987,7 @@
       "has_publication": false,
       "language": "cmn",
       "latest_task": "d3eb4830797641409f4d6785c3fccd75",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95"
@@ -4067,7 +4068,7 @@
       "has_publication": false,
       "language": "cmn",
       "latest_task": "e726e6be656d1ca0efa9c281c02f5381",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a"
@@ -4230,8 +4231,8 @@
       "has_publication": false,
       "language": "cmn",
       "latest_task": "7a14cfc323d47697afa7133dcb8e309c",
-      "processing_status": "in_batch",
-      "reason": "active",
+      "processing_status": "not_ready",
+      "reason": "continuation_cooldown",
       "remaining_cycles": 2,
       "source_fingerprint": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c"
     },
@@ -9101,7 +9102,7 @@
       "has_publication": false,
       "language": "hin",
       "latest_task": "2252e76d19c3c32fcfb64946fe5e84e0",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4"
@@ -9840,7 +9841,7 @@
       "has_publication": false,
       "language": "ind",
       "latest_task": "7ace95f44ad30deeba4744e86bfa3d64",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active",
       "remaining_cycles": 2,
       "source_fingerprint": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab"

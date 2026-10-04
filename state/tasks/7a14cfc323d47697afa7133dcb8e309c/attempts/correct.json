@@ -1,0 +1,17 @@
+{
+  "received_at": "2026-10-04T06:06:41+00:00",
+  "response": {
+    "finish_reason": null,
+    "model": null,
+    "outcome": "provider_error",
+    "provider_failure": {
+      "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+      "code": "provider_error",
+      "http_status": 500
+    },
+    "usage": {}
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 1
+}
