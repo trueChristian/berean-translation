@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Could it be that we have a problem?”\",\"severity\":\"major\",\"source_quote\":\"Could it be that we cannot obey both commands—”Rebuke” and “Speak in love”? Obviously not.\",\"suggested_fix\":\"Replace the question and answer with: «کیا یہ ہو سکتا ہے کہ ہم دونوں حکموں—”ملامت کرو“ اور ”محبت کے ساتھ بولو“—پر عمل نہ کر سکیں؟ ہرگز نہیں۔» This preserves the point that obeying both commands is possible.\",\"translation_quote\":\"کیا ہم دونوں حکموں—”ملامت کرو“ اور ”محبت کے ساتھ بولو“—پر عمل نہیں کر سکتے؟ یقیناً نہیں۔\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 758,
+    "content_evidence_truncated": false,
+    "content_sha256": "66a22960f01d190dfd4ba119d2e4d11b09de92dbb7a1c6e6fff10d4faa1eb87c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 921,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8736,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8733,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9657
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

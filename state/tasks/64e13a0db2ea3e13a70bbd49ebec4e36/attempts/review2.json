@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Добрые намерения и перемены…»\",\"severity\":\"minor\",\"source_quote\":\"we don’t understand how God intimately cares about these emotions and problems in our lives\",\"suggested_fix\":\"Заменить «мы не понимаем, насколько Бог близко заботится об этих чувствах и проблемах в нашей жизни» на «мы не понимаем, как глубоко Бог заботится об этих чувствах и проблемах в нашей жизни».\",\"translation_quote\":\"мы не понимаем, насколько Бог близко заботится об этих чувствах и проблемах в нашей жизни\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 822,
+    "content_evidence_truncated": false,
+    "content_sha256": "5931a1d9c964fc0eabd545091beb0914e599c863ac4efeb9843d772035cec2bf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 699,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6416,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6413,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7269
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

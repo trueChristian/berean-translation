@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "A Sober Spirit heading and corresponding passage",
+      "severity": "major",
+      "source_quote": "A Sober Spirit",
+      "suggested_fix": "عنوان کو ”ایک سنجیدہ روح“ یا کسی ایسے معاصر اردو فقرے سے بدلیں جو یہاں ”calm and collected in spirit; temperate, dispassionate“ کے معنی دے، اور اسی اصطلاح کو متعلقہ عبارت میں یکساں رکھیں۔",
+      "translation_quote": "معتدل روح"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

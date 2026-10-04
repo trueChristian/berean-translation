@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "অনুচ্ছেদ ৪",
+      "severity": "major",
+      "source_quote": "because the church ‘requires’ it",
+      "suggested_fix": "“হৃদয় তা থেকে দূরে থাকা সত্ত্বেও কেবল মণ্ডলী যা ‘করতে বাধ্য করে’ বলেই তা করছি”",
+      "translation_quote": "কেবল মণ্ডলী যা ‘চায়’ বলেই তা করছি"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

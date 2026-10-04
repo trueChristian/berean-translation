@@ -2,7 +2,6 @@
   "article_id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b794feda61934516b5644defa343ac11",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -45,18 +44,40 @@
         },
         "total_tokens": 14210
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 921,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 744,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8736,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8733,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9657
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[11]/strong[1]; translation /article[1]/p[11]/strong[1]",
-      "severity": "critical",
-      "source_quote": "<p>I believe that first we must look closer at the verse in Ephesians. What does the word <strong>in</strong> mean? Does it mean the same thing as the word <strong>with</strong>? I believe not. We can speak the truth <strong>with</strong> love and not be speaking it <strong>in</strong> love. On the other hand, if we speak <strong>in</strong> love it will always be with love in our heart (God’s love—love for a soul’s eternal welfare), but it may not be the kind of love that is <strong>felt</strong> by the other person if they are going by feelings. Could it be that this little <strong>in</str…",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[44:46], translation signature[44:44], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>میرا خیال ہے کہ پہلے ہمیں افسیوں کی آیت پر زیادہ غور کرنا چاہیے۔ لفظ <strong>کے ساتھ</strong> کا کیا مطلب ہے؟ کیا اس کا مطلب لفظ <strong>میں</strong> جیسا ہے؟ میرے خیال میں ایسا نہیں۔ ہم محبت <strong>کے ساتھ</strong> سچ بول سکتے ہیں، مگر ضروری نہیں کہ ہم محبت <strong>میں</strong> سچ بول رہے ہوں۔ دوسری طرف، اگر ہم محبت <strong>میں</strong> بولیں گے تو ہمارے دل میں ہمیشہ محبت ہوگی (خدا کی محبت—کسی جان کی ابدی بھلائی کی فکر)، لیکن اگر دوسرا شخص اپنے جذبات کے مطابق فیصلہ کر رہا ہو تو شاید اسے یہ ایسی محبت محسوس نہ ہو۔ کیا ممکن ہے کہ یہی چھوٹا سا لفظ <strong>میں</strong> ساری الجھن کا سبب ہو؟<…"
+      "location": "Paragraph beginning “Could it be that we have a problem?”",
+      "severity": "major",
+      "source_quote": "Could it be that we cannot obey both commands—”Rebuke” and “Speak in love”? Obviously not.",
+      "suggested_fix": "Replace the question and answer with: «کیا یہ ہو سکتا ہے کہ ہم دونوں حکموں—”ملامت کرو“ اور ”محبت کے ساتھ بولو“—پر عمل نہ کر سکیں؟ ہرگز نہیں۔» This preserves the point that obeying both commands is possible.",
+      "translation_quote": "کیا ہم دونوں حکموں—”ملامت کرو“ اور ”محبت کے ساتھ بولو“—پر عمل نہیں کر سکتے؟ یقیناً نہیں۔"
     }
   ],
+  "finished_at": "2026-10-04T06:07:23+00:00",
   "id": "20bb6a42204605a5ca351547edb27789",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "urd",
@@ -145,11 +166,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ae27abd9f0e6e997b108a904b36e37aa48ab951949c18743476ad899928ca9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
   "translation_model_actual": "gpt-6-luna"

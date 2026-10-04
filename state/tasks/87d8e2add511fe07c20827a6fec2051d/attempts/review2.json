@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph quoting 1 Corinthians 14:24–25\",\"severity\":\"major\",\"source_quote\":\"“or one unlearned”\",\"suggested_fix\":\"将“有不信的或是不通方言的人进来”改为“有不信的人或没有学问的人进来”，以保留“不信的人”与“未受教的人”这两个不同对象。\",\"translation_quote\":\"“有不信的或是不通方言的人进来”\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 436,
+    "content_evidence_truncated": false,
+    "content_sha256": "4536b104be7f4bf06a8db91f4b4a558464347f01c3070d3e7d2f0d9561f8b093",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4411,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5034
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, final quoted paragraph (Psalm 16:8–9)",
+      "severity": "major",
+      "source_quote": "my flesh also shall rest in hope",
+      "suggested_fix": "Replace this phrase with “ook zal mijn lichaam in hoop rusten” to preserve the source’s meaning.",
+      "translation_quote": "ook zal mijn lichaam veilig wonen"
+    },
+    {
+      "location": "Article HTML, paragraph defining “sober”",
+      "severity": "minor",
+      "source_quote": "to be calm and collected in spirit; to be temperate, dispassionate",
+      "suggested_fix": "Replace “onbevooroordeeld” with “onbewogen” or “zonder heftige emoties” to convey “dispassionate” in this definition.",
+      "translation_quote": "kalm en beheerst van geest zijn; gematigd en onbevooroordeeld zijn"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

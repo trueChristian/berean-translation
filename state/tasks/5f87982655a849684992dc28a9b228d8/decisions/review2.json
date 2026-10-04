@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "अनुच्छेद 8, प्रकाशितवाक्य 3:16 का उद्धरण",
+      "severity": "major",
+      "source_quote": "“I will spue thee out of my mouth”",
+      "suggested_fix": "“मैं तुझे अपने मुँह से उगल दूँगा”",
+      "translation_quote": "“मैं तुझे अपने मुंह से उगलने पर हूँ”"
+    },
+    {
+      "location": "अनुच्छेद 9, उद्धृत वाक्यांश",
+      "severity": "major",
+      "source_quote": "“fit for the Master’s use”",
+      "suggested_fix": "“स्वामी के उपयोग के योग्य”",
+      "translation_quote": "“स्वामी के उपयोग के योग्य” पात्र के रूप में इस्तेमाल कर सके"
+    },
+    {
+      "location": "अनुच्छेद 10, शीर्षक",
+      "severity": "minor",
+      "source_quote": "“What Are You Living For?”",
+      "suggested_fix": "“आप किसके लिए जी रहे हैं?”",
+      "translation_quote": "“आप किसके लिए जी रहे हैं?”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"अनुच्छेद 8, प्रकाशितवाक्य 3:16 का उद्धरण\",\"severity\":\"major\",\"source_quote\":\"“I will spue thee out of my mouth”\",\"suggested_fix\":\"“मैं तुझे अपने मुँह से उगल दूँगा”\",\"translation_quote\":\"“मैं तुझे अपने मुंह से उगलने पर हूँ”\"},{\"location\":\"अनुच्छेद 9, उद्धृत वाक्यांश\",\"severity\":\"major\",\"source_quote\":\"“fit for the Master’s use”\",\"suggested_fix\":\"“स्वामी के उपयोग के योग्य”\",\"translation_quote\":\"“स्वामी के उपयोग के योग्य” पात्र के रूप में इस्तेमाल कर सके\"},{\"location\":\"अनुच्छेद 10, शीर्षक\",\"severity\":\"minor\",\"source_quote\":\"“What Are You Living For?”\",\"suggested_fix\":\"“आप किसके लिए जी रहे हैं?”\",\"translation_quote\":\"“आप किसके लिए जी रहे हैं?”\"}],\"passed\":false,\"score\":91}",
+    "content_bytes": 1179,
+    "content_evidence_truncated": false,
+    "content_sha256": "1e32f9d478b8efe2e05cf986f387280e34c12fe167dcfe66485a049805f2030e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 218,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4818,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4815,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5036
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

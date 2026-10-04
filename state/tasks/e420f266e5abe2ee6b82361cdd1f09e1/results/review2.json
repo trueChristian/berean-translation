@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bd6c9dc9-72a2-4337-8867-04774e426a57",
+    "response_id": "chatcmpl-EV4KI1W5bCB30DNR71dI6A33sk1d3",
+    "usage": {
+      "completion_tokens": 418,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4304,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4725
+    }
+  },
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Cita de Isaías 57:15",
+        "severity": "major",
+        "source_quote": "“I dwell in the high and holy place, with him also that is of a contrite [crushed] and humble spirit”",
+        "suggested_fix": "Reemplazar «y también con el quebrantado [aplastado] y humilde de espíritu» por «y también con el de espíritu contrito [aplastado] y humilde», conservando las etiquetas HTML y la ubicación de la nota entre corchetes. Así se mantiene la referencia a una persona de espíritu contrito, no a alguien quebrantado en general.",
+        "translation_quote": "«y también con el quebrantado [aplastado] y humilde de espíritu»"
+      },
+      {
+        "location": "Cita de 1 Pedro 3:4 y su interpretación en el párrafo siguiente",
+        "severity": "major",
+        "source_quote": "“the ornament of a meek and quiet spirit” / “A quiet and restful spirit”",
+        "suggested_fix": "Usar «apacible» para “meek” y «tranquilo» o «sosegado» para “quiet”, de manera consistente en la cita y en los encabezados y párrafos que explican esos dos tipos de espíritu. La traducción actual usa «sereno» para “quiet” y «apacible» para “meek”, pero la cita española invierte la correspondencia al describir «un espíritu apacible y sereno» sin preservar con claridad los términos y la distinción del original.",
+        "translation_quote": "«el adorno de un espíritu apacible y sereno»; «Un espíritu sereno y reposado»"
+      },
+      {
+        "location": "Título",
+        "severity": "minor",
+        "source_quote": "“our spirit matters”",
+        "suggested_fix": "Cambiar «Nuestro espíritu importa» por «Nuestro espíritu es importante» para expresar de forma más idiomática el sentido del título en español.",
+        "translation_quote": "«Nuestro espíritu importa»"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, final paragraph, Luke 21:34\",\"severity\":\"major\",\"source_quote\":\"“lest at any time your hearts be overcharged with surfeiting, and drunkenness, and cares of this life”\",\"suggested_fix\":\"Replace “بے فکری” with an Urdu rendering of “surfeiting” that conveys overindulgence or gluttony, for example: “اور اپنے بارے میں خبردار رہو، ایسا نہ ہو کہ تمہارے دل حد سے زیادہ کھانے پینے، نشے اور زندگی کی فکروں سے بوجھل ہو جائیں”\",\"translation_quote\":\"“ایسا نہ ہو کہ تمہارے دل بے فکری، نشے اور زندگی کی فکروں سے بوجھل ہو جائیں”\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 759,
+    "content_evidence_truncated": false,
+    "content_sha256": "a81e6481cbf0050636e49c4300ebf14d4cd404594b7fa41d4e69db93d1c567e7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7722,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8424
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

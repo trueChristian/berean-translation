@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0a3545f4-6bfb-4fd3-9ddd-0db3f68ee648",
+    "response_id": "chatcmpl-EV4QB4DftG6yL2GBfnZukMFL2nkZX",
+    "usage": {
+      "completion_tokens": 791,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 680,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4844,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5638
+    }
+  },
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "অনুচ্ছেদ ৪",
+        "severity": "major",
+        "source_quote": "because the church ‘requires’ it",
+        "suggested_fix": "“হৃদয় তা থেকে দূরে থাকা সত্ত্বেও কেবল মণ্ডলী যা ‘করতে বাধ্য করে’ বলেই তা করছি”",
+        "translation_quote": "কেবল মণ্ডলী যা ‘চায়’ বলেই তা করছি"
+      }
+    ],
+    "passed": false,
+    "score": 91
+  }
+}

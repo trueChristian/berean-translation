@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article HTML, final quoted paragraph (Psalm 16:8–9)\",\"severity\":\"major\",\"source_quote\":\"my flesh also shall rest in hope\",\"suggested_fix\":\"Replace this phrase with “ook zal mijn lichaam in hoop rusten” to preserve the source’s meaning.\",\"translation_quote\":\"ook zal mijn lichaam veilig wonen\"},{\"location\":\"Article HTML, paragraph defining “sober”\",\"severity\":\"minor\",\"source_quote\":\"to be calm and collected in spirit; to be temperate, dispassionate\",\"suggested_fix\":\"Replace “onbevooroordeeld” with “onbewogen” or “zonder heftige emoties” to convey “dispassionate” in this definition.\",\"translation_quote\":\"kalm en beheerst van geest zijn; gematigd en onbevooroordeeld zijn\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 759,
+    "content_evidence_truncated": false,
+    "content_sha256": "3d3f767e3adb3f65d132b85a8ee1290d74112543ee78c3c05c4f85306d8e76f1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 579,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 390,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4279,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4861
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b794feda61934516b5644defa343ac11",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -45,18 +44,39 @@
         },
         "total_tokens": 6793
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 511,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 407,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4254,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4251,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4765
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Source /article[1]/p[5]/strong[1]; translation /article[1]/p[5]",
-      "severity": "critical",
-      "source_quote": "<p>Going on into that verse it says, <em>But be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity.</em> It makes me think of a man in my life who I really appreciate. He has a zeal for God and a burden for the lost that is refreshing and inspiring…. So, what kind of example are you and I leaving for our younger siblings, our friends, our co-workers, and whoever else it might be that our life comes in contact with? We <strong>are</strong> having an impact on those around us! Is that impact positive or negative?</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[18:20], translation signature[18:18], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>Más adelante, el versículo dice: <em>Antes bien, sé ejemplo de los creyentes en palabra, conducta, amor, espíritu, fe y pureza.</em> Esto me hace pensar en un hombre de mi vida a quien aprecio mucho. Tiene un celo por Dios y una carga por los perdidos que son alentadores e inspiradores…. Entonces, ¿qué ejemplo estamos dejando tú y yo a nuestros hermanos menores, nuestros amigos, nuestros compañeros de trabajo y cualquier otra persona con quien nuestra vida entre en contacto? ¡Estamos teniendo un impacto en quienes nos rodean! ¿Es ese impacto positivo o negativo?</p>"
+      "location": "HTML, paragraph 5",
+      "severity": "minor",
+      "source_quote": "a man in my life who I really appreciate",
+      "suggested_fix": "Replace «un hombre de mi vida a quien aprecio mucho» with «un hombre que forma parte de mi vida y a quien aprecio mucho».",
+      "translation_quote": "un hombre de mi vida a quien aprecio mucho"
     }
   ],
+  "finished_at": "2026-10-04T06:07:23+00:00",
   "id": "4b06a64efe8c9216e06b1e540567c1b4",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "spa",
@@ -145,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/69f858811196da658de21ba4ed172ec8e605eb1fce976ee6b5c4c768c55e7389.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
   "translation_model_actual": "gpt-6-luna"

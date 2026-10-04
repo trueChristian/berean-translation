@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph quoting 1 Corinthians 14:24–25",
+      "severity": "major",
+      "source_quote": "“or one unlearned”",
+      "suggested_fix": "将“有不信的或是不通方言的人进来”改为“有不信的人或没有学问的人进来”，以保留“不信的人”与“未受教的人”这两个不同对象。",
+      "translation_quote": "“有不信的或是不通方言的人进来”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

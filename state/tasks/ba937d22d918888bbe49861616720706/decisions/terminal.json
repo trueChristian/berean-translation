@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraph beginning “When is the last time you spoke the truth in love?”",
+      "severity": "minor",
+      "source_quote": "God forbid, let us repent and remove the beams from our eyes so that we can help our brother!",
+      "suggested_fix": "把“千万不要这样！让我们悔改”改为“断乎不可！让我们悔改”，以保留“God forbid”表达的强烈否定语气。",
+      "translation_quote": "千万不要这样！让我们悔改，除掉自己眼中的梁木，好帮助我们的弟兄！"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

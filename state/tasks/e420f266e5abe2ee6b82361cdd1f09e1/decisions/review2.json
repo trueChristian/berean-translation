@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Cita de Isaías 57:15",
+      "severity": "major",
+      "source_quote": "“I dwell in the high and holy place, with him also that is of a contrite [crushed] and humble spirit”",
+      "suggested_fix": "Reemplazar «y también con el quebrantado [aplastado] y humilde de espíritu» por «y también con el de espíritu contrito [aplastado] y humilde», conservando las etiquetas HTML y la ubicación de la nota entre corchetes. Así se mantiene la referencia a una persona de espíritu contrito, no a alguien quebrantado en general.",
+      "translation_quote": "«y también con el quebrantado [aplastado] y humilde de espíritu»"
+    },
+    {
+      "location": "Cita de 1 Pedro 3:4 y su interpretación en el párrafo siguiente",
+      "severity": "major",
+      "source_quote": "“the ornament of a meek and quiet spirit” / “A quiet and restful spirit”",
+      "suggested_fix": "Usar «apacible» para “meek” y «tranquilo» o «sosegado» para “quiet”, de manera consistente en la cita y en los encabezados y párrafos que explican esos dos tipos de espíritu. La traducción actual usa «sereno» para “quiet” y «apacible» para “meek”, pero la cita española invierte la correspondencia al describir «un espíritu apacible y sereno» sin preservar con claridad los términos y la distinción del original.",
+      "translation_quote": "«el adorno de un espíritu apacible y sereno»; «Un espíritu sereno y reposado»"
+    },
+    {
+      "location": "Título",
+      "severity": "minor",
+      "source_quote": "“our spirit matters”",
+      "suggested_fix": "Cambiar «Nuestro espíritu importa» por «Nuestro espíritu es importante» para expresar de forma más idiomática el sentido del título en español.",
+      "translation_quote": "«Nuestro espíritu importa»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -5599,6 +5599,34 @@
     },
     {
       "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "49e37df53c68341bba74153968233fcc1741eefbdb9fb77aba5810eda2d32842",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "كتاب مقدس مفتوح على طاولة",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "4f424f3dd5e01c7bc2f889ffd52c913f03daa9391557ca655988310989f0d4bc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "إلهامات للشباب",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "لأجل ماذا تعيش؟",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/ben/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "6f53f1db1dcf9bba55832d8f4c06508fc1f37d99b5be858ee552999a979421ee",
@@ -8846,6 +8874,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+      "html_sha256": "ceb06c752fc413b6c75bd09b69175194a52cbc75b28da0f3a9c48b511abca1dc",
+      "human_reviewed": false,
+      "id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+      "metadata_sha256": "baa4424f42e0afa32e517547676ba853e06b767320fe1262a82e66dd5645d207",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "宣教士随想",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "用爱心说诚实话",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
       "html_sha256": "ae86c3a7b083a3760d5f439480e4dcdc72b34d2981c78095d5955cbd5e68decb",
       "human_reviewed": false,
@@ -9372,6 +9423,29 @@
       "subtitle": null,
       "title": "从“狮口”被救",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.html",
+      "html_sha256": "a6f6600c8e18058512e5c2948cd12b4a58819eaa56fc1239d82294903b5693d1",
+      "human_reviewed": false,
+      "id": "a1f4c51b-a704-47c2-813f-d3cce04d5327",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.json",
+      "metadata_sha256": "a607c52ebc2785f7a8f50d82cf617ab4b4b30f0f7ac12e6010955a6aec28bf84",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "编者的话",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923",
+      "status": "ready",
+      "subtitle": null,
+      "title": "编者的话",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -10515,6 +10589,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "你活着是为了什么？",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.html",
+      "html_sha256": "7345d69b80dc57d1d611262e22b2a07372439faafd6451efff31d459e77ba65e",
+      "human_reviewed": false,
+      "id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
+      "images": [
+        {
+          "alt": "紫色天空下，群山倒映在平静的湖面上",
+          "public_path": "/images/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.json",
+      "metadata_sha256": "2234728f6f84dd17069991f300fb50961a45d3dfbd5a22a8f70a5c832d9a076b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "给年轻姊妹的勉励",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "我们的灵很重要",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -22764,6 +22866,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.html",
+      "html_sha256": "29543ccd95627eb825b999a16286be4d62360d0f3622919845d566dd1b296027",
+      "human_reviewed": false,
+      "id": "ffc67053-6abd-4a29-a3c0-e0417cbb0196",
+      "images": [
+        {
+          "alt": "बैंगनी आकाश के नीचे शांत झील में प्रतिबिंबित पहाड़",
+          "public_path": "/images/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/ffc67053-6abd-4a29-a3c0-e0417cbb0196.json",
+      "metadata_sha256": "b34d9478b8967af9bc448bdd5d861920d69592a4ce43bd94d7d7196ff7672143",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "छोटी बहनों के लिए प्रोत्साहन",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "हमारी मनोवृत्ति महत्त्व रखती है",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "2c2503224a1f10115bf19b04cb9722d9a1a4ca4bf40d569a42d0673252cabf1e",
       "human_reviewed": false,
@@ -32127,6 +32257,34 @@
       "subtitle": null,
       "title": "나와 함께 머물소서, 해질녘이 빠르게 내리다",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "d25de447add9bf9eaef591362e2eda2a348e2e2dfbfb4e111f0d30c959018c55",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "탁자 위에 펼쳐 놓은 성경",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "e49e4e25faed7466f5a1200016160201f3241f212a60019626bc6188760ff727",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "청년을 위한 영감",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "여러분은 무엇을 위해 살고 있습니까?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -42236,6 +42394,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.html",
+      "html_sha256": "a4f17cad1b6d51186f4ef779304fbbd2daf43c4c00f689155bc5617fe4ab710b",
+      "human_reviewed": false,
+      "id": "1b371612-06aa-4d84-8c43-2a2adcfd473a",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.json",
+      "metadata_sha256": "b1c824db592c6eedadd398d2b7f5d196db624938309bbf3efcc856d64eb68d3d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ОТ СЕСТРЫ К СЕСТРЕ",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "595d449e9d2c12285bcb7fab13a341eed0404fd10558cd14499ddcfbfbca7011",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Я буду",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "f63553fd6428c1bbef97283c0d3a8bb8abfcd75c3130376402f13fd957a02d6f",
       "human_reviewed": false,
@@ -43028,6 +43209,29 @@
       "subtitle": null,
       "title": "Почему я не делался прививку от Covid",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.html",
+      "html_sha256": "50a55671d018fffc82495b31130d1d090e8e5685893b68fdf1be82e6bf8fd8fe",
+      "human_reviewed": false,
+      "id": "60ca59c3-d608-43fb-aee5-f08aa84e0126",
+      "images": [],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/60ca59c3-d608-43fb-aee5-f08aa84e0126.json",
+      "metadata_sha256": "52674888f61168cd58fcd4ea63990ff5eaa0687014d9417d90621672d7cba478",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "РАЗМЫШЛЕНИЯ МИССИОНЕРА",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "80c0df8f0bcb897cdee2f41c8b2317fe9a0b44a1ee3c6dde5c65ccd2b2bac2e7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ГОВОРИТЬ ИСТИНУ в любви",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -44633,6 +44837,34 @@
       "subtitle": null,
       "title": "Синдром перегруза",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "a06c29471ee9637267a131874d1a83bb12959e808bc6fc53ac7701cbd8cf27c6",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "Открытая Библия на столе",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "e76811e8b6d020a980fdb3b1f853d5361a99ecb3af15aff9f5f9785ccf7004a1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "РАЗМЫШЛЕНИЯ ДЛЯ МОЛОДЁЖИ",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Для чего вы живёте?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -48342,6 +48574,34 @@
       "subtitle": null,
       "title": "Quédate conmigo: cae veloz el crepúsculo",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "34aaf1e38de1a661887c02cfcfefbb6e59c9b9ff49f2ec3da495ee29a324728e",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "Una Biblia abierta sobre una mesa",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "c8421d2fc0812a15f9b3b69dccc36be8cea315f7ac6d6e85c637d3974065681c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRACIONES PARA JÓVENES",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "¿Para qué estás viviendo?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -55401,6 +55661,34 @@
       "subtitle": null,
       "title": "میرے ساتھ ٹھہرو، شام تیزی سے چڑھ رہی ہے",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
+      "html_sha256": "417d3fa8d3df2d15c48a6fd26f9edaf4a987e9bbf46ee135e4132eb7b084d408",
+      "human_reviewed": false,
+      "id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
+      "images": [
+        {
+          "alt": "میز پر رکھی ہوئی کھلی بائبل",
+          "public_path": "/images/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f-1.jpg"
+        }
+      ],
+      "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.json",
+      "metadata_sha256": "807a951212b494c220ea8bcd959ef425d1922be2994ecb03ca1f646c95b627e5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "نوجوانوں کے لیے ترغیبات",
+      "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
+      "source_translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "آپ کس مقصد کے لیے جی رہے ہیں؟",
+      "translation_model": "gpt-6-luna"
     }
   ],
   "format_version": "1.0",

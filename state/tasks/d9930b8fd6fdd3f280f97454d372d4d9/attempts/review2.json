@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, final Scripture quotation (Psalm 16:8–9)\",\"severity\":\"major\",\"source_quote\":\"my flesh also shall rest in hope\",\"suggested_fix\":\"Bytt «min kropp kan bo i trygghet» med «min kropp skal hvile i håp»; dette bevarer meningen i det siterte verset.\",\"translation_quote\":\"min kropp kan bo i trygghet\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 367,
+    "content_evidence_truncated": false,
+    "content_sha256": "434743ced143512d32ea93fdfe6e8f7294dfef56dd299b561bcd704d6afe6cc4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 537,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 426,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4510,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4507,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5047
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

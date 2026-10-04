@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "134ea736-041d-4baf-92d5-739996d56f7e",
+    "response_id": "chatcmpl-EV4KQVguzQGuJqbdvXzleYjaFO8bW",
+    "usage": {
+      "completion_tokens": 322,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4666,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4991
+    }
+  },
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3, quotation of 1 Timothy 4:12",
+        "severity": "major",
+        "source_quote": "Let no man despise thy youth; but be thou an example of the believers",
+        "suggested_fix": "Replace the quoted wording with a faithful Kiswahili rendering, for example: “Mtu awaye yote asiudharau ujana wako; bali uwe kielelezo cha waaminio” (retaining the rest of the translated quotation and its reference).",
+        "translation_quote": "Mtu awaye yote asiudharau ujana wako; bali uwe kielelezo kwao waaminio"
+      },
+      {
+        "location": "Paragraph 9, quotation of Revelation 3:16",
+        "severity": "major",
+        "source_quote": "and neither cold nor hot",
+        "suggested_fix": "Correct the phrase to “wala si baridi wala moto” so it says neither cold nor hot.",
+        "translation_quote": "wala hu baridi wala moto"
+      },
+      {
+        "location": "Paragraph 11, quotation of Matthew 5:13–14",
+        "severity": "major",
+        "source_quote": "Ye are the light of the world. A city that is set on an hill cannot be hid",
+        "suggested_fix": "Correct the final sentence to “Ninyi ni nuru ya ulimwengu. Mji uliowekwa juu ya mlima hauwezi kufichwa” (or an equivalent faithful Kiswahili rendering).",
+        "translation_quote": "Ninyi ni nuru ya ulimwengu. Mji hauwezi kusitirika ukiwa juu ya mlima"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

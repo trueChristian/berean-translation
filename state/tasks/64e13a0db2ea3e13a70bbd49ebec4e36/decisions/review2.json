@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Добрые намерения и перемены…»",
+      "severity": "minor",
+      "source_quote": "we don’t understand how God intimately cares about these emotions and problems in our lives",
+      "suggested_fix": "Заменить «мы не понимаем, насколько Бог близко заботится об этих чувствах и проблемах в нашей жизни» на «мы не понимаем, как глубоко Бог заботится об этих чувствах и проблемах в нашей жизни».",
+      "translation_quote": "мы не понимаем, насколько Бог близко заботится об этих чувствах и проблемах в нашей жизни"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

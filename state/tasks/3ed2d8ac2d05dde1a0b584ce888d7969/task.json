@@ -2,7 +2,6 @@
   "article_id": "ff6b7989-d4bb-46a6-bb02-52104249a07f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b794feda61934516b5644defa343ac11",
   "campaign": "gh-37154319644",
   "created_at": "2026-10-03T21:14:17+00:00",
   "events": [
@@ -45,18 +44,40 @@
         },
         "total_tokens": 7980
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 791,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 680,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4847,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4844,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5638
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/p[3]/em[1]/strong[1]; translation /article[1]/p[3]/em[1]",
-      "severity": "critical",
-      "source_quote": "<p>Paul says, <em>Let no man despise thy youth; but be thou an <strong>example</strong> of the believers, in word, in conversation, in charity, in spirit, in faith, in purity –1 Timothy 4:12.</em> Let’s take a closer look at this verse. It starts out with, <em>Let no man despise thy youth.</em> How should we view our youth—our teenage years? Some view this as a time to live life to the fullest, to have a party, and to do whatever they want. This path leads to much sin, foolishness, immorality, and more. I think we should view the time of our youth as a huge opportunity to do all we can do, a…",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[7:9], translation signature[7:7], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>পৌল বলেন, <em>কেহ যেন তোমার যৌবনকে তুচ্ছ না করে; কিন্তু বাক্যে, আচরণে, প্রেমে, আত্মায়, বিশ্বাসে ও শুচিতায় বিশ্বাসীদের আদর্শ হও—১ তীমথিয় ৪:১২।</em> আসুন, এই পদটি আরও মনোযোগ দিয়ে দেখি। এটি শুরু হয়েছে এভাবে: <em>কেহ যেন তোমার যৌবনকে তুচ্ছ না করে।</em> আমাদের যৌবন—কৈশোরের বছরগুলো—কীভাবে দেখা উচিত? কেউ কেউ একে জীবনকে পুরোপুরি উপভোগ করার, আনন্দ-ফুর্তি করার এবং যা ইচ্ছা তাই করার সময় বলে মনে করে। এই পথ অনেক পাপ, মূর্খতা, অনৈতিকতা এবং আরও নানা কিছুর দিকে নিয়ে যায়। আমার মনে হয়, আমাদের যৌবনকে এমন এক বিশাল সুযোগ হিসেবে দেখা উচিত, যখন আমরা যিশুর জন্য যতটা সম্ভব করতে পারি এবং যতটা সম্ভব হয়ে উ…"
+      "location": "অনুচ্ছেদ ৪",
+      "severity": "major",
+      "source_quote": "because the church ‘requires’ it",
+      "suggested_fix": "“হৃদয় তা থেকে দূরে থাকা সত্ত্বেও কেবল মণ্ডলী যা ‘করতে বাধ্য করে’ বলেই তা করছি”",
+      "translation_quote": "কেবল মণ্ডলী যা ‘চায়’ বলেই তা করছি"
     }
   ],
+  "finished_at": "2026-10-04T06:07:23+00:00",
   "id": "3ed2d8ac2d05dde1a0b584ce888d7969",
   "issue_id": "da792693-72ef-5710-88dc-6b10ec428ba6",
   "language": "ben",
@@ -145,11 +166,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/69f858811196da658de21ba4ed172ec8e605eb1fce976ee6b5c4c768c55e7389.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2710fcf8577af863adb5f8d3de3a53f43edba21a91630ff996f184e12765cee7",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «То, как мы говорим друг с другом…»",
+      "severity": "minor",
+      "source_quote": "“But if we are not unwilling to speak the truth if it means someone will be displeased with us, are we not then at fault?”",
+      "suggested_fix": "Replace «если мы не боимся говорить истину» with «если мы готовы говорить истину, даже если кто-то будет нами недоволен» to preserve the source’s emphasis on willingness to speak despite another person’s displeasure.",
+      "translation_quote": "«Но если мы не боимся говорить истину, даже зная, что кто-то будет нами недоволен, разве не будем тогда виноваты?»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

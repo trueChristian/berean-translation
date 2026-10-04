@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:07:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"a man in my life who I really appreciate\",\"suggested_fix\":\"Replace «un hombre de mi vida a quien aprecio mucho» with «un hombre que forma parte de mi vida y a quien aprecio mucho».\",\"translation_quote\":\"un hombre de mi vida a quien aprecio mucho\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 358,
+    "content_evidence_truncated": false,
+    "content_sha256": "6413d39e5978075f47118547cf09a2518822e74a6a46d8dfb980b6bcd27cda9b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 407,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4251,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4765
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

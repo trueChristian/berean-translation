@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem stanza beginning “I used to pray for someone”",
+      "severity": "major",
+      "source_quote": "“To love, laugh with, and cherish, / And dissipate all strife.”",
+      "suggested_fix": "Replace the final two lines of the stanza with: “Da amare, con cui ridere e da custodire, / e con cui superare ogni contrasto.” This preserves the source’s meaning without attributing the resolving of all discord specifically to that person.",
+      "translation_quote": "“Da amare, con cui ridere e da custodire, / che dissipasse ogni discordia.”"
+    },
+    {
+      "location": "HTML, stanza beginning “Not long after, I found I was happy”",
+      "severity": "major",
+      "source_quote": "“No outer storm my inner Sunshine could pale.”",
+      "suggested_fix": "Replace the line with: “Nessuna tempesta esteriore poteva offuscare il sole interiore.”",
+      "translation_quote": "“nessuna tempesta esteriore poteva offuscare il mio Sole interiore.”"
+    },
+    {
+      "location": "HTML, stanza beginning “For I’ve found that true happiness”",
+      "severity": "major",
+      "source_quote": "“Not moved through fire or strife.”",
+      "suggested_fix": "Replace the line with: “senza essere smossi dal fuoco né dalla lotta.”",
+      "translation_quote": "“senza lasciarci smuovere dal fuoco o dalla discordia.”"
+    },
+    {
+      "location": "HTML, final stanza",
+      "severity": "major",
+      "source_quote": "“And the real source of True Life superb.”",
+      "suggested_fix": "Replace the final line with: “ed è la vera e meravigliosa fonte della Vita.”",
+      "translation_quote": "“e la vera fonte della Vita vera e meravigliosa.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}
