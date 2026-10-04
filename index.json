@@ -28917,6 +28917,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870.html",
+      "html_sha256": "209f106f0d3944515f5da2f362711586824c10d75b9c76d2646d230efaf44f76",
+      "human_reviewed": false,
+      "id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
+      "images": [
+        {
+          "alt": "Un medico accanto a un'illustrazione medica del cervello umano",
+          "public_path": "/images/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870-1.jpg"
+        },
+        {
+          "alt": "Occhiali appoggiati su una pila di libri",
+          "public_path": "/images/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870.json",
+      "metadata_sha256": "7dade8ce909390e3d9424ea2c96d95e878c21c9513ed14d766c4e268500ccf9f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "UNA PAROLA DAL DOTTORE",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
+      "status": "ready",
+      "subtitle": null,
+      "title": "DEMENZA",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.html",
       "html_sha256": "910331a3795c9e4c119bd8638b5bd6eeffffafb87bf7bab4ed611366095bc600",
       "human_reviewed": false,

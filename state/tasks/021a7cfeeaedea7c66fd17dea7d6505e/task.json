@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "330633fa8a524d1480425df0e7009b86",
   "campaign": "downstream-2026100318",
   "continuation": {
     "cycle": 1,
@@ -40,18 +39,39 @@
         },
         "total_tokens": 14349
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 198,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 68,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9253,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9250,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9451
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "location": "translation.html, paragrafo che inizia con «Le persone con demenza spesso si comportano»",
+      "severity": "minor",
+      "source_quote": "they have forgotten the answer and are asking again.",
+      "suggested_fix": "Sostituire «hanno dimenticato la risposta e la ripongono» con «hanno dimenticato la risposta e ripetono la domanda», mantenendo invariato il tag <p>.",
+      "translation_quote": "hanno dimenticato la risposta e la ripongono."
     }
   ],
+  "finished_at": "2026-10-04T06:03:47+00:00",
   "id": "021a7cfeeaedea7c66fd17dea7d6505e",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ita",
@@ -140,12 +160,14 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Duplicate HTML attribute",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-6.1-sol"

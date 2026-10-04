@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragrafo che inizia con «Le persone con demenza spesso si comportano»",
+      "severity": "minor",
+      "source_quote": "they have forgotten the answer and are asking again.",
+      "suggested_fix": "Sostituire «hanno dimenticato la risposta e la ripongono» con «hanno dimenticato la risposta e ripetono la domanda», mantenendo invariato il tag <p>.",
+      "translation_quote": "hanno dimenticato la risposta e la ripongono."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

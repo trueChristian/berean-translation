@@ -10,7 +10,7 @@ Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | `heartbeat-remnant-2024-summer` | 10 | 199 / 200 | 0 | 109 | 0 |
-| `heartbeat-remnant-2024-spring` | 11 | 133 / 220 | 19 | 68 | 0 |
+| `heartbeat-remnant-2024-spring` | 11 | 134 / 220 | 18 | 68 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 135 / 220 | 0 | 85 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 83 | 0 |
 | `heartbeat-remnant-2023-spring` | 10 | 90 / 200 | 0 | 110 | 0 |
@@ -128,7 +128,7 @@ Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
 | `afr` (af) | 112 / 1155 | 0 | 14 | 56 | 95 |
 | `swa` (sw) | 59 / 1155 | 0 | 20 | 103 | 142 |
 | `kor` (ko) | 102 / 1155 | 0 | 13 | 63 | 111 |
-| `ita` (it) | 120 / 1155 | 0 | 12 | 48 | 90 |
+| `ita` (it) | 121 / 1155 | 0 | 11 | 48 | 90 |
 | `heb` (he) | 45 / 1155 | 0 | 6 | 127 | 142 |
 | `ell` (el) | 96 / 1155 | 0 | 12 | 74 | 116 |
 | `swe` (sv) | 100 / 1155 | 0 | 15 | 65 | 116 |
@@ -175,7 +175,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-spring` | `afr` | 6 / 11 | 0 | 1 | 4 | 0 |
 | `heartbeat-remnant-2024-spring` | `swa` | 4 / 11 | 0 | 1 | 6 | 0 |
 | `heartbeat-remnant-2024-spring` | `kor` | 7 / 11 | 0 | 2 | 2 | 0 |
-| `heartbeat-remnant-2024-spring` | `ita` | 7 / 11 | 0 | 1 | 3 | 0 |
+| `heartbeat-remnant-2024-spring` | `ita` | 8 / 11 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2024-spring` | `heb` | 1 / 11 | 0 | 1 | 9 | 0 |
 | `heartbeat-remnant-2024-spring` | `ell` | 6 / 11 | 0 | 1 | 4 | 0 |
 | `heartbeat-remnant-2024-spring` | `swe` | 5 / 11 | 0 | 0 | 6 | 0 |
@@ -468,7 +468,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 
 Separately authorized manual workflow allocations: $70.000000 across 7 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 287 | continuation_cycle_budget_blocked: 7 | continuation_review_only_requires_attention: 13 | eligible_available: 1241 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | public_or_human_replacement: 108
+active: 286 | continuation_cycle_budget_blocked: 7 | continuation_review_only_requires_attention: 13 | eligible_available: 1241 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | public_or_human_replacement: 108
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Rejected requests
@@ -483,7 +483,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |
 | `downstream-2026100311` | hourly recovery | repair | finished | 1 | 1 complete | 0.01892725 | 0.259971 / 1.00 | [state](state/campaigns/downstream-2026100311.json) |
 | `downstream-2026100316` | hourly recovery | repair | finished | 1 | 1 complete | 0.03712335 | 0.301512 / 1.00 | [state](state/campaigns/downstream-2026100316.json) |
-| `downstream-2026100318` | hourly recovery | repair | active | 1 | 1 active | 0.03531300 | 0.313693 / 1.00 | [state](state/campaigns/downstream-2026100318.json) |
+| `downstream-2026100318` | hourly recovery | repair | active | 1 | 1 complete | 0.04786850 | 0.313693 / 1.00 | [state](state/campaigns/downstream-2026100318.json) |
 | `downstream-2026100321` | hourly recovery | repair | active | 1 | 1 active | 0.00000000 | 0.219824 / 1.00 | [state](state/campaigns/downstream-2026100321.json) |
 | `downstream-2026100400` | hourly recovery | repair | active | 1 | 1 active | 0.00000000 | 0.226888 / 1.00 | [state](state/campaigns/downstream-2026100400.json) |
 | `downstream-2026100406` | hourly recovery | repair | active | 1 | 1 active | 0.00000000 | 0.000000 / 1.00 | [state](state/campaigns/downstream-2026100406.json) |
@@ -605,7 +605,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [30a999e19a464653999b7b81e43ac0fc](state/batches/30a999e19a464653999b7b81e43ac0fc/batch.json) / correct | collected / completed | 5 / 5 / 0 | 2026-10-03T09:01:15+00:00 | 2026-10-03T10:40:57+00:00 | 2026-10-03T10:40:57+00:00 |
 | [316370d9b4fa4bb3ad3ddac9824a31ae](state/batches/316370d9b4fa4bb3ad3ddac9824a31ae/batch.json) / review2 | collected / completed | 4 / 4 / 0 | 2026-10-01T21:05:42+00:00 | 2026-10-02T00:07:13+00:00 | 2026-10-02T00:07:12+00:00 |
 | [32fdd28e654a47cca348868665437e0e](state/batches/32fdd28e654a47cca348868665437e0e/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-01T19:41:58+00:00 | 2026-10-01T20:28:07+00:00 | 2026-10-01T20:28:06+00:00 |
-| [330633fa8a524d1480425df0e7009b86](state/batches/330633fa8a524d1480425df0e7009b86/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-10-04T00:09:15+00:00 |
+| [330633fa8a524d1480425df0e7009b86](state/batches/330633fa8a524d1480425df0e7009b86/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-04T00:41:41+00:00 | 2026-10-04T06:03:47+00:00 | 2026-10-04T06:03:46+00:00 |
 | [347ee637526a4804ba9ee01557d0765b](state/batches/347ee637526a4804ba9ee01557d0765b/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-01T19:44:00+00:00 | 2026-10-01T20:28:09+00:00 | 2026-10-01T20:28:08+00:00 |
 | [34f90e3653a74618a9933fce235305fc](state/batches/34f90e3653a74618a9933fce235305fc/batch.json) / review2 | collected / completed | 43 / 43 / 0 | 2026-10-02T13:04:03+00:00 | 2026-10-02T13:07:21+00:00 | 2026-10-02T13:07:20+00:00 |
 | [351927e42f334f69a83d40dc593d4a55](state/batches/351927e42f334f69a83d40dc593d4a55/batch.json) / review2 | collected / completed | 14 / 14 / 0 | 2026-10-03T11:32:31+00:00 | 2026-10-03T11:35:46+00:00 | 2026-10-03T11:35:45+00:00 |

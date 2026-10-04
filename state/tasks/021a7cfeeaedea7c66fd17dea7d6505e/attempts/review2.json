@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-04T06:03:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragrafo che inizia con «Le persone con demenza spesso si comportano»\",\"severity\":\"minor\",\"source_quote\":\"they have forgotten the answer and are asking again.\",\"suggested_fix\":\"Sostituire «hanno dimenticato la risposta e la ripongono» con «hanno dimenticato la risposta e ripetono la domanda», mantenendo invariato il tag <p>.\",\"translation_quote\":\"hanno dimenticato la risposta e la ripongono.\"}],\"passed\":true,\"score\":99}",
+    "content_bytes": 474,
+    "content_evidence_truncated": false,
+    "content_sha256": "d5e1ff0d6d8caf551902a485e7eb551cbc26d59cc80af8f388e34a9ec74b9ab8",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 68,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9250,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9451
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
