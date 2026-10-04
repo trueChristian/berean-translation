@@ -125,7 +125,7 @@ Observed English revision: `4abee09be2b86df87635a1cdad1cab0a9693df12`
 | `rus` (ru) | 92 / 1155 | 0 | 13 | 74 | 126 |
 | `deu` (de) | 77 / 1155 | 0 | 11 | 89 | 125 |
 | `nld` (nl) | 115 / 1155 | 0 | 12 | 55 | 108 |
-| `afr` (af) | 112 / 1155 | 0 | 13 | 57 | 95 |
+| `afr` (af) | 112 / 1155 | 3 | 13 | 57 | 95 |
 | `swa` (sw) | 59 / 1155 | 0 | 19 | 104 | 142 |
 | `kor` (ko) | 103 / 1155 | 0 | 10 | 65 | 111 |
 | `ita` (it) | 121 / 1155 | 0 | 10 | 49 | 90 |
@@ -192,7 +192,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-winter` | `rus` | 6 / 11 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2024-winter` | `deu` | 4 / 11 | 0 | 0 | 7 | 0 |
 | `heartbeat-remnant-2024-winter` | `nld` | 10 / 11 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2024-winter` | `afr` | 9 / 11 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2024-winter` | `afr` | 9 / 11 | 1 | 0 | 2 | 0 |
 | `heartbeat-remnant-2024-winter` | `swa` | 2 / 11 | 0 | 0 | 9 | 0 |
 | `heartbeat-remnant-2024-winter` | `kor` | 7 / 11 | 0 | 0 | 4 | 0 |
 | `heartbeat-remnant-2024-winter` | `ita` | 10 / 11 | 0 | 0 | 1 | 0 |
@@ -212,7 +212,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2023-summer` | `rus` | 8 / 13 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2023-summer` | `deu` | 7 / 13 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2023-summer` | `nld` | 12 / 13 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2023-summer` | `afr` | 9 / 13 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2023-summer` | `afr` | 9 / 13 | 1 | 0 | 4 | 0 |
 | `heartbeat-remnant-2023-summer` | `swa` | 5 / 13 | 0 | 0 | 8 | 0 |
 | `heartbeat-remnant-2023-summer` | `kor` | 9 / 13 | 0 | 0 | 4 | 0 |
 | `heartbeat-remnant-2023-summer` | `ita` | 9 / 13 | 0 | 0 | 4 | 0 |
@@ -372,7 +372,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2021-spring` | `rus` | 6 / 11 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2021-spring` | `deu` | 3 / 11 | 0 | 0 | 8 | 0 |
 | `heartbeat-remnant-2021-spring` | `nld` | 6 / 11 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2021-spring` | `afr` | 11 / 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2021-spring` | `afr` | 11 / 11 | 1 | 0 | 0 | 0 |
 | `heartbeat-remnant-2021-spring` | `swa` | 5 / 11 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2021-spring` | `kor` | 8 / 11 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2021-spring` | `ita` | 7 / 11 | 0 | 0 | 4 | 0 |
@@ -468,7 +468,7 @@ Hourly/shared-policy funding. Accepted lifetime recovery allocations: $6.000000 
 Separately authorized manual workflow allocations: $70.000000 across 7 accepted runs. Each run is limited to its own explicit ceiling; these permanent allocations do not consume or enable the hourly policy.
 New continuation requests allow at most three accepted cycles per article/language/English fingerprint, including historical cycles, and at most two per repair strategy. No-progress and ambiguous cases remain unfinished for attention.
 [Recovery frontier](RECOVERY.json) lists every unfinished latest task, its accepted cycle count, eligibility, complete-cycle reservation and explicit blocking reason. It is a derived report, not spending authority.
-active: 253 | continuation_cooldown: 2 | continuation_cycle_budget_blocked: 7 | continuation_review_only_requires_attention: 13 | eligible_available: 1261 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | public_or_human_replacement: 108
+active: 253 | continuation_cycle_budget_blocked: 7 | continuation_review_only_requires_attention: 13 | continuation_technical_failure_requires_attention: 1 | eligible_available: 1262 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 1 | public_or_human_replacement: 108
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Rejected requests
