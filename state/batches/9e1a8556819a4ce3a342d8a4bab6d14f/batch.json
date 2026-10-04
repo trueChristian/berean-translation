@@ -104,7 +104,7 @@
     "fe9db5675f1a74e71d8729191b4eed84:correct"
   ],
   "id": "9e1a8556819a4ce3a342d8a4bab6d14f",
-  "input_file_id": null,
+  "input_file_id": "file-F1CZrD6Qqd7hTJiFiL6vWP",
   "model": "gpt-6-luna",
   "payload_sha256": "deb9c3fbc5635aadd6198bf1e376a5dfa640005d42125cfd87f877a0c7df76f5",
   "remote_id": null,
