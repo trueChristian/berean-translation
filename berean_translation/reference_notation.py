@@ -53,6 +53,10 @@ _HEBREW_BOOKS = {
     'הראשונה אל הקורינתים': '1 Corinthians',
     '1 יוחנן': '1 John', '2 יוחנן': '2 John', '3 יוחנן': '3 John',
     'א׳ יוחנן': '1 John', 'ב׳ יוחנן': '2 John', 'ג׳ יוחנן': '3 John',
+    # Exact additional forms in the immutable Winter 2021 correction fixtures.
+    'האיגרת הראשונה ליוחנן': '1 John', 'יוחנן הראשונה': '1 John',
+    'טימותיאוס הראשונה': '1 Timothy', 'טימותיאוס השנייה': '2 Timothy',
+    'התגלות': 'Revelation',
 }
 # The complete finite baseline is authoritative; observed, source-paired
 # spelling variants above remain exact aliases rather than fuzzy matching.
@@ -176,7 +180,8 @@ def _book_pattern(language: str, target_language: str | None = None) -> tuple[re
     aliases.update({alias: identity for alias, identity in
                     {'Psalms': 'Psalm', 'Song of Songs': 'Song of Solomon',
                      'Ps.': 'Psalm', 'Rev.': 'Revelation', 'Gen.': 'Genesis',
-                     'Jer.': 'Jeremiah', 'Ecc.': 'Ecclesiastes', 'Is.': 'Isaiah'}.items()
+                     'Jer.': 'Jeremiah', 'Ecc.': 'Ecclesiastes', 'Is.': 'Isaiah',
+                     'Hebrew': 'Hebrews'}.items()
                     if identity in identities_supported})
     if language == 'deu':
         aliases.update(_GERMAN_BOOKS)

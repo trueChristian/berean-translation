@@ -36,6 +36,14 @@ also supply `א׳ פטרוס`, `אפסים`, `קולוסים`, `רומים`, and
 These spellings are not claimed to be recognized by the pinned library. The
 [authentic regression fixture](../tests/fixtures/reference_alias_cases.json)
 records immutable task/source/result paths, Git blob IDs and SHA-256 values.
+The [Winter 2021 fixture](../tests/fixtures/winter_reference_alias_cases.json)
+adds six exact source-paired forms: the printed English `Hebrew` for `Hebrews`,
+and Hebrew `האיגרת הראשונה ליוחנן`, `יוחנן הראשונה`,
+`טימותיאוס הראשונה`, `טימותיאוס השנייה`, and `התגלות`.
+The first two Hebrew forms identify 1 John; the next two identify 1 Timothy and
+2 Timothy respectively; the last identifies Revelation. These are literal
+aliases, not a rule that reorders or drops ordinal words, and are not attributed
+to the pinned library. The English source wording remains unchanged.
 The full publication replay additionally preserves these existing variants:
 
 | Language / article | Exact source / target notation |
@@ -91,6 +99,15 @@ Tests read their immutable `results/correct.json` artifacts and source snapshots
 verify provenance, and replay complete candidates. All four were held before any
 semantic review. Passing this deterministic gate does not approve their language
 quality, reopen terminal tasks, authorize another attempt or publish them.
+
+Four further Winter 2021 final corrections at revision
+`9fb829988df25d92d5051fc13085e7e268d12322` preserve 59 citation occurrences:
+Hebrew This Thing Called Love, German and Hebrew Rest, and Hebrew The Dew of
+Youth. Ten occurrences were blocked by the six literal aliases above. Regression
+tests replay the entire immutable correction results and preserve wrong-book,
+ordinal, chapter, verse, range, missing-occurrence and duplicate-occurrence
+rejections. Their saved tasks remain held with zero semantic reviews; an
+authorized future attempt still needs independent review before publication.
 
 Regression checks retain wrong-book/ordinal/chapter/verse rejection, list and range
 boundaries, duplicate occurrences, numeric tails, clock/amount guards and exact
