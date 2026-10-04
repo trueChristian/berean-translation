@@ -2007,12 +2007,11 @@
   ],
   "skipped": [],
   "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
-  "status": "active",
+  "status": "finished",
   "structural_feedback_version": "1",
   "task_counts": {
-    "complete": 56,
-    "in_batch": 121,
-    "not_ready": 23
+    "complete": 101,
+    "not_ready": 99
   },
   "tasks": [
     "6d02eed0bf3188927a48cded4812af44",

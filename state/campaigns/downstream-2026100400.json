@@ -6310,6 +6310,9 @@
   ],
   "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
   "status": "active",
+  "task_counts": {
+    "in_batch": 1
+  },
   "tasks": [
     "f49aea11723ef6cc89c535c56f577657"
   ]
